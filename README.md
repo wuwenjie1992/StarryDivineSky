@@ -1,5 +1,6 @@
 # mystars
-个人的github stars，主要是机器学习、深度学习、NLP、GNN、大数据等内容。
+* 个人的github stars，主要是关于机器学习、深度学习、NLP、GNN、大数据等内容。
+* Individual github stars, mainly about machine learning, deep learning, NLP, GNN, big data and more.
 
 ### 机器学习
 MNN 一个轻量级的深度神经网络推理引擎
