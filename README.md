@@ -2,50 +2,78 @@
 个人的github stars，主要是机器学习、深度学习、NLP、GNN、大数据等内容。
 
 ### 机器学习
-MNN : 一个轻量级的深度神经网络推理引擎
-Tencent/TNN 移动端高性能、轻量级推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势。
-apache/incubator-tvm 用于深度学习系统的编译器堆栈。它旨在缩小以生产力为中心的深度学习框架与以性能和效率为重点的硬件后端之间的差距。TVM与深度学习框架一起使用，以提供对不同后端的端到端编译。
-Weights and Biases : 使用 W&B 组织和分析机器学习实验
+MNN 一个轻量级的深度神经网络推理引擎
+
+Tencent/TNN 移动端高性能、轻量级推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势
+
+apache/incubator-tvm 用于深度学习系统的编译器堆栈。它旨在缩小以生产力为中心的深度学习框架与以性能和效率为重点的硬件后端之间的差距。TVM与深度学习框架一起使用，以提供对不同后端的端到端编译
+
+Weights and Biases 使用 W&B 组织和分析机器学习实验
+
 ALiPy 一个基于Python实现的主动学习工具包
+
 Nevergrad 无梯度优化平台
+
 combo 用于机器学习模型组合的 Python 工具箱
 
 google/trax 代码更清晰的神经网络代码库
 
 rushter/MLAlgorithms 机器学习算法
+
 MLEveryday/100-Days-Of-ML-Code
+
 csuldw/MachineLearning
+
 luwill/machine-learning-code-writing
+
 CDCS 中国数据竞赛优胜解集锦
+
 mlpack/mlpack 快速、灵活的机器学习库
+
 tensorflow/ranking  排名学习在TensorFlow中
 
 scikit-survival 生存分析
 
 leibinghe/GAAL-based-outlier-detection 基于盖尔的异常检测
+
 yzhao062/pyod 异常检测
 
 lavender28/Credit-Card-Score 申请信用评分卡模型
 
 modin-project/modin 通过更改一行代码来扩展加速pandas 
+
 vaexio/vaex 适用于Python的核外DataFrame，以每秒十亿行的速度可视化和探索大型表格数据
+
 cupy/cupy NumPy-like API accelerated with CUDA https://cupy.chainer.org
+
 pythran 将 Python 代码转成 C++ 代码执行 一个 AOT (Ahead-Of-Time - 预先编译) 编译器，大幅度提升性能。
+
 RAPIDS Open GPU Data Science http://rapids.ai
+
 cudf cuDF - GPU DataFrame Library
+
 cuml cuML - RAPIDS Machine Learning Library
+
 cugraph cuGraph - RAPIDS Graph Analytics Library
+
 cusignal cuSignal - RAPIDS Signal Processing Library
 
 AtsushiSakai/PythonRobotics 机器人算法
+
 cuML GPU 机器学习算法
+
 SQLFlow 连接 SQL 引擎的桥接，与机器学习工具包连接
+
 FeatureLabs/featuretools
+
 esa/pagmo2 大规模并行优化的科学库 生物启发式算法和进化算法
+
 kingfengji/gcForest Deep forest
 
 interpretml/interpret 训练可解释的机器学习模型和解释黑匣子系统
+
 alexmojaki/heartrate 调试 Python程序执行的简单实时可视化
+
 google-research/mixmatch 集成了自洽正则化的超强半监督学习 MixMatch 
 
 bojone/keras_recompute 通过重计算来节省显存，参考论文《Training Deep Nets with Sublinear Memory Cost》。
@@ -54,55 +82,94 @@ bojone/keras_recompute 通过重计算来节省显存，参考论文《Training 
 
 
 ### 参数优化
+
 hyperopt/hyperopt 分布式超参数优化
+
 optuna/optuna 超参数优化框架https://optuna.org
+
 WillKoehrsen/hyperparameter-optimization 超参数优化
+
 HDI-Project/BTB Bayesian Tuning and Bandits，auto-tuning系统的一个简单、可扩展的后端系统。
+
 scikit-optimize/scikit-optimize 一个简单高效的库，可最大限度地减少（非常）昂贵且嘈杂的黑盒功能。它实现了几种基于顺序模型优化的方法。
+
 automl/SMAC3 基于序列模型的算法配置 优化任意算法的参数
-CMA-ES/pycma 基于CMA-ES 协方差矩阵的自适应策略 的Py实现和一些相关的数值优化工具。
+
+CMA-ES/pycma 基于CMA-ES 协方差矩阵的自适应策略的Py实现和一些相关的数值优化工具。
+
 SheffieldML/GPyOpt 使用GPy进行高斯过程优化
+
 pytorch/botorch PyTorch中的贝叶斯优化
+
 JasperSnoek/spearmint 机器学习算法的实用贝叶斯优化
+
 facebookresearch/nevergrad 用于执行无梯度优化的Python工具箱
+
 Yelp/MOE 用于现实世界的指标优化的全局黑匣子优化引擎。
+
 fmfn/BayesianOptimization 具有高斯过程的全局优化的Python实现。
+
 dragonfly/dragonfly  用于可扩展的贝叶斯优化
+
 音调：可伸缩超参数调整
+
 ray-project/ray Tune可伸缩超参数调整
+
 keras-team/keras-tuner keras的超参数调整
 
 
 
 
 ### 梯度提升
+
 AugBoost 梯度提升
+
 DeepGBM 梯度提升
+
 CatBoost 基于梯度提升对决策树的机器学习方法
+
 GBDT-PL/GBDT-PL 梯度提升
+
 mesalock-linux/gbdt-rs 梯度提升
+
 Xtra-Computing/thundergbm 梯度提升
+
 dmlc/xgboost 梯度提升
 
 
 ### 分布式机器学习
+
 horovod/horovod 分布式训练框架
+
 dask/dask  提供大规模性能 高级并行性
+
 Qihoo360/XLearning
+
 sql-machine-learning/elasticdl
+
 kubeflow/kubeflow
+
 alibaba/euler
+
 Angel-ML/angel
+
 ray-project/ray 快速简单的框架，用于构建和运行分布式应用程序。
+
 Alink 基于Flink的通用算法平台
+
 kakaobrain/torchgpipe pytorch的可扩展的管道并行性库，可以有效地训练大型的，消耗内存的模型。
+
 tensorflow/mesh 简化模型并行化 Mesh TensorFlow: Model Parallelism Made Easier
+
 microsoft/DeepSpeed 一个深度学习优化库，它使分布式训练变得容易，高效和有效。
+
 sql-machine-learning/elasticdl Kubernetes原生的深度学习框架。ElasticDL是一个基于TensorFlow 2.0的Kubernetes原生深度学习框架，支持容错和弹性调度。
+
 uber/fiber 简化AI的分布式计算 该项目是实验性的，API不稳定。
 
 
 ## 图数据库 图算法
+
 Tencent/plato
 dgraph-io/dgraph
 hugegraph/hugegraph
