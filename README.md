@@ -1,6 +1,5 @@
 # mystars
-* 个人的github stars，主要是关于机器学习、深度学习、NLP、GNN、大数据等内容。
-* Individual github stars, mainly about machine learning, deep learning, NLP, GNN, big data and more.
+个人的github stars，主要是机器学习、深度学习、NLP、GNN、大数据等内容。
 
 ### 机器学习
 MNN 一个轻量级的深度神经网络推理引擎
@@ -403,15 +402,8 @@ xiaomi-automl/FairDARTS 消除差异化架构搜索中的不公平优势
 
 huseinzol05/NLP-Models-Tensorflow 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
-brightmart/albert_zh 使用TensorFlow 进行自我监督学习语言表示的Lite Bert的实现 预训练的汉语模型
 
-bert4keras 更清晰、更轻量级的keras版bert
-
-huawei-noah/Pretrained-Language-Model 华为诺亚方舟实验室开发的预训练语言模型及其相关优化技术NEZHA是一种经过预训练的中文语言模型，可以在多项中文NLP任务上实现最先进的性能TinyBERT是一种压缩的BERT模型，推理时可缩小7.5倍，加快9.4倍
-
-google-research/ALBERT 用于语言表达自我监督学习的Lite BERT
-
-bojone/attention  Attention机制的实现 tensorflow/keras
+bojone/attention  Attention机制的实现tensorflow/keras
 
 ouyanghuiyu/chineseocr_lite 超轻量级中文ocr
 
@@ -430,12 +422,8 @@ qiufengyuyi/sequence_tagging 使用bilstm-crf，bert等方法进行序列标记�
 microsoft/unilm UniLM-NLP及更高版本的统一语言模型预训练
 
 thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果 
-
  * 1) 对于抽取并编码的知识信息，研究者首先识别文本中的命名实体，然后将这些提到的实体与知识图谱中的实体进行匹配。研究者并不直接使用 KG 中基于图的事实，相反他们通过知识嵌入算法（例如 TransE）编码 KG 的图结构，并将多信息实体嵌入作为 ERNIE 的输入。基于文本和知识图谱的对齐，ERNIE 将知识模块的实体表征整合到语义模块的隐藏层中。
  * 2) 与 BERT 类似，研究者采用了带 Mask 的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对齐了输入文本的命名实体，并要求模型从知识图谱中选择合适的实体以完成对齐。
-
-
-
 
 
 ### Transformer优化
@@ -445,6 +433,13 @@ thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果
   * DeBERTa：注意力分散的增强解码的BERT，使用两种新颖的技术改进了BERT和RoBERTa模型，显着提高了模型预训练的效率和下游任务的性能。
   * allenai/longformer 用于长文档的类似BERT的模型
 
+### BERT优化
+  * google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
+  * google-research/ALBERT 用于语言表达自我监督学习的Lite BERT
+  * bojone/bert-of-theseus BERT 模型压缩方法 ,theseus(忒修斯之船 如果忒修斯的船上的木头被  逐渐替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？),将原始大模型切分为多个大模块，固定大模型权重，训练时随机替换为小模块,充分训练后，将小模型继续微调。
+  * brightmart/albert_zh 使用TensorFlow 进行自我监督学习语言表示的Lite Bert的实现预训练的汉语模型
+  * bert4keras 更清晰、更轻量级的keras版bert
+  * huawei-noah/Pretrained-Language-Model 华为诺亚方舟实验室开发的预训练语言模型及其相关优化技术NEZHA是一种经过预训练的中文语言模型，可以在多项中文NLP任务上实现最先进的性能TinyBERT是一种压缩的BERT模型，推理时可缩小7.5倍，加快9.4倍
 
 
 ## 推荐系统
