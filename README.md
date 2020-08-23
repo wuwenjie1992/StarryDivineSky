@@ -68,6 +68,8 @@ FeatureLabs/featuretools
 
 esa/pagmo2 大规模并行优化的科学库 生物启发式算法和进化算法
 
+geatpy-dev/geatpy 高性能遗传进化算法工具箱 
+
 kingfengji/gcForest Deep forest
 
 interpretml/interpret 训练可解释的机器学习模型和解释黑匣子系统
@@ -409,6 +411,8 @@ ouyanghuiyu/chineseocr_lite 超轻量级中文ocr
 
 thu-coai/CrossWOZ 大规模的中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
 
+425776024/nlpcda 一键中文数据增强工具,支持：1.随机实体替换 2.近义词 3.近义近音字替换 4.随机字删除 5.NER类 BIO 数据增强 6.随机置换邻近的字  7.百度中英翻译互转实现的增强  8.中文等价字替换
+
 ShomyLiu/Neu-Review-Rec Pytorch的基于评论文本的深度推荐系统模型库。DeepCoNN(WSDM'17)、D-Attn(RecSys'17)、ANR(CIKM'18)、NARRE(WWW'18)、MPCN(KDD'18)、TARMF(WWW'18)、CARL(TOIS'19)、CARP(SIGIR'19)、DAML(KDD'19)
 
 ShannonAI/service-streamer 服务流媒体 BERT服务,每秒处理1400个句子的BERT服务.
@@ -504,6 +508,8 @@ rancher/k3s Lightweight Kubernetes. 5 less than k8s. https://k3s.io
 
 docker-slim/docker-slim 请勿更改Docker容器映像中的任何内容并将其最小化30倍
 
+silenceshell/docker_mirror 发现国内加速的docker源。
+
 ## 网络爬虫 下载
 soimort/you-get youtube下载
 
@@ -528,5 +534,8 @@ TensorSpeech/TensorflowTTS Tensorflow 2的实时最新语音合成
 deezer/spleeter 人声分离模型
 
 cfzd/Ultra-Fast-Lane-Detection 论文“ 超快速结构感知深度车道检测 ”的实现
+
+kexinhuang12345/DeepPurpose 最新的深度学习方法的药物-靶标相互作用和特性预测工具包,及其在药物再利用，虚拟筛选，QSAR等方面的应用
+
 
 
