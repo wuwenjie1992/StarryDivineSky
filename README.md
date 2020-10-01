@@ -18,6 +18,10 @@ combo 用于机器学习模型组合的 Python 工具箱
 
 google/trax 代码更清晰的神经网络代码库
 
+Oneflow-Inc/oneflow OneFlow是一个以性能为中心的开源深度学习框架。
+
+jonasrauber/eagerpy 编写与PyTorch，TensorFlow，JAX和NumPy本地兼容的代码
+
 rushter/MLAlgorithms 机器学习算法
 
 MLEveryday/100-Days-Of-ML-Code
@@ -68,7 +72,9 @@ FeatureLabs/featuretools
 
 esa/pagmo2 大规模并行优化的科学库 生物启发式算法和进化算法
 
-geatpy-dev/geatpy 高性能遗传进化算法工具箱 
+geatpy-dev/geatpy 高性能遗传进化算法工具箱
+
+guofei9987/scikit-opt 强大的启发式算法Python模块  遗传算法 粒子群优化 模拟退火 蚁群算法 免疫算法 人工鱼群算法
 
 kingfengji/gcForest Deep forest
 
@@ -80,6 +86,9 @@ google-research/mixmatch 集成了自洽正则化的超强半监督学习 MixMat
 
 bojone/keras_recompute 通过重计算来节省显存，参考论文《Training Deep Nets with Sublinear Memory Cost》。
 
+yuanming-hu/taichi_mpm 带有切割和耦合（CPIC）的高性能MLS-MPM（基于移动最小二乘法的物质点法）求解器
+
+pytorch/opacus Opacus是一个库，可以使用不同的隐私训练PyTorch模型。
 
 
 
@@ -169,6 +178,9 @@ sql-machine-learning/elasticdl Kubernetes原生的深度学习框架。ElasticDL
 
 uber/fiber 简化AI的分布式计算 该项目是实验性的，API不稳定。
 
+petuum/adaptdl 资源自适应深度学习（DL）培训和调度框架。AdaptDL的目标是使分布式DL在动态资源环境（如共享集群和云）中变得轻松高效。
+
+learning-at-home/hivemind 一个用于在互联网上训练大型神经网络的库
 
 ## 图数据库 图算法
 
@@ -187,6 +199,8 @@ vesoft-inc/nebula 分布式、可扩展、闪电般的图形数据库
 milvus-io/milvus 大规模特征向量的最快相似度搜索引擎
 
 vearch/vearch 用于嵌入式向量高效相似性搜索的分布式系统
+
+dgraph-io/dgraph The Only Native GraphQL Database With A Graph Backend.
 
 ## 大数据
 Qihoo360/Quicksql 体系结构图可帮助您更轻松地访问 Quicksql
@@ -218,6 +232,7 @@ opencurve/curve 网易自主设计研发的高性能、高可用、高可靠分�
  * CrawlScript/tf_geometric 高效友好的图神经网络库 节点分类:图卷积网络（GCN）、多头图注意力网络（GAT），链接预测：平均池、SAGPooling，图分类：图形自动编码器（GAE）
  * alibaba/graph-learn 旨在简化图神经网络应用的框架。从实际生产案例中提取解决方案。已在推荐，反作弊和知识图系统上得到应用和验证。
  * BUPT-GAMMA/OpenHINE 异构信息网络嵌入（OpenHINE）的开源工具包。实现的模型包括：DHNE，HAN，HeGAN，HERec，HIN2vec，Metapath2vec，MetaGraph2vec，RHINE。
+ * PaddlePaddle/PGL 基于PaddlePaddle的高效灵活的图学习框架
 
 ASTGCN 基于注意的时空图卷积网络，用于交通流量预测
 
@@ -367,7 +382,11 @@ YingtongDou/Nash-Detect 通过Nash强化学习进行鲁棒的垃圾邮件发送�
 
 deepmind/acme 强化学习的研究框架，强化学习组件和代理库
 
+huawei-noah/xingtian 刑天（XingTian）是一个组件化的库，用于开发和验证强化学习算法。它支持多种算法，包括DQN，DDPG，PPO和IMPALA等，可以在多个环境中训练代理，例如Gym，Atari，Torcs，StarCraft等。
 
+thu-ml/tianshou 天授是基于纯PyTorch强化学习的平台。与现有的强化学习库主要基于TensorFlow，具有许多嵌套类，不友好的API或速度较慢的现有学习库不同，天守提供了快速的模块化框架和pythonic API，用于以最少的行数构建深度强化学习代理代码。
+
+Jingliang-Duan/Distributional-Soft-Actor-Critic 一种用于连续控制任务的强化学习算法—DSAC，其优势在于减少Q值的过估计并显著改进策略的性能。证明了强化学习中引入分布式回报可显著降低Q值的过估计误差，并定量表明此误差与分布的方差呈反比关系。
 
 ## 神经网络结构搜索 Neural Architecture Search
 
@@ -389,6 +408,7 @@ xiaomi-automl/FairDARTS 消除差异化架构搜索中的不公平优势
 ### 文本分类 + Attention机制
   * tcxdgit/cnn_multilabel_classification 基于TextCNN和Attention的多标签分类
   * ilivans/tf-rnn-attention Tensorflow实现文本分类任务的关注机制。
+  * skdjfla/toutiao-text-classfication-dataset 中文文本分类数据集 共382688条，分布于15类中。
 
 ### 文本摘要/指针生成网络
   * abisee/pointer-generator 使用指针生成器网络进行汇总
@@ -399,11 +419,13 @@ xiaomi-automl/FairDARTS 消除差异化架构搜索中的不公平优势
   * dmmiller612/bert-extractive-summarizer BERT易于使用的提取文本摘要
 
 ### 文本相似度
-  *  UKPLab/sentence-transformers 句子转换器：使用BERT / RoBERTa / XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
-  *   terrifyzhao/text_matching 常用文本匹配模型tf版本，数据集为QA_corpus，持续更新中 
+  * UKPLab/sentence-transformers 句子转换器：使用BERT / RoBERTa / XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
+  * terrifyzhao/text_matching 常用文本匹配模型tf版本，数据集为QA_corpus，持续更新中
+  * Brokenwind/BertSimilarity 基于Google的BERT模型来进行语义相似度计算。
 
 huseinzol05/NLP-Models-Tensorflow 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
+CyberZHG/keras-xlnet XLNet的非官方实现。
 
 bojone/attention  Attention机制的实现tensorflow/keras
 
@@ -482,6 +504,15 @@ zhuchenxv/AutoFIS 自动特征交互选择的点击率预测模型
 
 pangolulu/exact-k-recommendation 解决推荐中带约束的Top-K优化问题
 
+Scagin/NeuralLogicReasoning 神经协同推理,提出了一种新的神经逻辑推荐（NLR）框架，能够将逻辑结构和神经网络相结合，将推荐任务转化为一个逻辑推理任务。
+
+ZiyaoGeng/Recommender-System-with-TF2.0 CTR预言论文进行复现，包括传统模型（MF，FM，FFM等），神经网络模型（WDL，DCN等）以及序列模型（DIN）。
+
+allenjack/HGN 用矩阵分解的形式捕捉用户的长期兴趣，同时将短期兴趣进行拆分，分为group-level以及instance-level的，通过Hierarchical Gating来处理group-level的信息,item-item的乘积来捕捉商品之间的关系。
+
+THUwangcy/ReChorus 用于Top-K推荐的通用PyTorch框架，具有隐式反馈，尤其是用于研究目的。BPR\NCF\Tensor\GRU4Rec\NARM\SASRec\TiSASRec\CFKG\SLRC\Chorus
+
+RUCAIBox/CIKM2020-S3Rec 自我推荐学习，用于具有互信息最大化的顺序推荐
 
 ## 金融股票 时间序列
 
@@ -493,11 +524,13 @@ cedricporter/funcat 将同花顺、通达信、文华财经麦语言等的公式
 
 georgezouq/awesome-deep-reinforcement-learning-in-finance 金融市场上使用的那些AI（RL/DL/SL/进化/遗传算法）的集合
 
-wangshub/RL-Stock 如何用深度强化学习自动炒股
+wangshub/RL-Stock 如何用深度强化学习自动炒股。
 
 tensortrade-org/tensortrade 一个开源强化学习框架，用于训练，评估和部署强大的交易程序。
 
+bsolomon1124/pyfinance 为投资管理和证券收益分析而构建的Python分析包。
 
+arrigonialberto86/deepar Amazon于2017年提出的基于深度学习的时间序列预测方法
 
 ## 虚拟化
 jesseduffield/lazydocker docker 简单终端 UI
@@ -517,6 +550,8 @@ shengqiangzhang/examples-of-web-crawlers python爬虫例子
 
 itgoyo/Aria2  突破百度云限速合集
 
+PanDownloadServer/Server 百度云PanDownload的个人维护版本
+
 
 ## 其他
 modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
@@ -525,7 +560,9 @@ huihut/interview C/C++ 技术面试基础知识总结
 
 barry-ran/QtScrcpy Android实时显示控制软件 
 
-minivision-ai/photo2cartoon 人像卡通化探索项目 
+minivision-ai/photo2cartoon 人像卡通化探索项目
+
+hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以在浏览器中执行实时实例分割
 
 JasonWei512/Tacotron-2-Chinese 中文语音合成
 
@@ -536,6 +573,15 @@ deezer/spleeter 人声分离模型
 cfzd/Ultra-Fast-Lane-Detection 论文“ 超快速结构感知深度车道检测 ”的实现
 
 kexinhuang12345/DeepPurpose 最新的深度学习方法的药物-靶标相互作用和特性预测工具包,及其在药物再利用，虚拟筛选，QSAR等方面的应用
+
+bennettfeely/bennett ztext 易于实现的3D网页排版。适用于每种字体。
+
+DaveJarvis/keenwrite 基于Java的桌面Markdown编辑器，具有实时预览，字符串插值和公式
+
+vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
+
+occlum/occlum 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保了用户数据的安全和隐私。
+
 
 
 
