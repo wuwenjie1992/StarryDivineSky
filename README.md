@@ -90,6 +90,10 @@ yuanming-hu/taichi_mpm 带有切割和耦合（CPIC）的高性能MLS-MPM（基�
 
 pytorch/opacus Opacus是一个库，可以使用不同的隐私训练PyTorch模型。
 
+pycaret/pycaret Python中的开源，低代码机器学习库
+
+thuml/Transfer-Learning-Library 用于迁移学习的开源且文档齐全的库。它基于具有高性能和友好API的纯PyTorch。当前支持的算法包括：领域对抗神经网络（DANN）深度适应网络（DAN）联合适应网络（JAN）条件域对抗网络（CDAN）最大分类器差异（MCD）Margin Disparity Discrepancy 保证金差异（MDD）
+
 
 
 ### 参数优化
@@ -202,6 +206,8 @@ vearch/vearch 用于嵌入式向量高效相似性搜索的分布式系统
 
 dgraph-io/dgraph The Only Native GraphQL Database With A Graph Backend.
 
+vesoft-inc/nebula 开放源代码图数据库，能够托管具有数十亿个顶点（节点）和数万亿条边（具有几毫秒的延迟）的超大规模图。
+
 ## 大数据
 Qihoo360/Quicksql 体系结构图可帮助您更轻松地访问 Quicksql
 
@@ -258,7 +264,6 @@ GeniePath-pytorch
 
 xiangwang1223/neural_graph_collaborative_filtering
 
-
 tkipf/gae Graph Auto-Encoders
 
 tkipf/gcn
@@ -270,7 +275,6 @@ deepmind/graph_nets 在Tensorflow中构建图网
 woojeongjin/dynamic-KG 嵌入动态知识图
 
 awslabs/dgl-ke 高性能，易于使用且可扩展的软件包，用于学习大规模知识图嵌入。
-
 
 leoribeiro/struc2vec
 
@@ -304,8 +308,7 @@ klicperajo/ppnp 预测然后传播：图形神经网络满足个性化PageRank
 
 inyeoplee77/SAGPool Self-Attention Graph Pooling torch自我注意力图池化
 
-thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果 
-
+thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果
 
 Malllabiisc/CompGCN 针对多关系有向图的图神经网络
 
@@ -335,8 +338,26 @@ Googlebaba/KDD2019-MEIRec 基于异质图神经网络的用户意图推荐
 
 mori97/JKNet-dgl 跳跃知识网络的dgl实现
 
+lanyunshi/Multi-hopComplexKBQA 查询图生成，用于回答知识库中的多跳复杂问题.提出了一种改进的分阶段查询图生成方法，该方法具有更灵活的生成查询图的方式。在查询图生成的每一步，包含三种预定义的操作：扩展、连接、聚合。
 
+nju-websoft/SPARQA 基于知识库的问题解答,提出了一种新颖的骨架语法来表示一个复杂问题的高级结构。骨架语法本质上是依赖语法的一个选定子集，用于专门表示复杂问题的高级结构。这种专用的粗粒度表示形式由于其简单性而可能具有准确的解析算法，有助于提高下游细粒度语义解析的准确性。
 
+malllabiisc/EmbedKGQA 使用知识库嵌入改进知识图上的多跳问题回答
+
+jwzhanggy/Graph-Bert 学习图形表示只需要注意力机制
+
+aister2020/KDDCUP_2020_AutoGraph_1st_Place KDD KDD CUP 2020自动图形表示学习：第一名解决方案。实现了四种不同的模型GCN、GAT、GraphSage、TAGConv
+
+ChandlerBang/Pro-GNN 鲁棒图神经网络的图结构学习，抗严重干扰。
+
+THUDM/GCC Graph Contrastive Coding for Graph Neural Network Pre-Training 用于图形神经网络预训练的图形对比编码，下游任务：节点分类、图分类
+、相似性搜索。
+
+snap-stanford/distance-encoding 距离编码-为结构表示学习设计更强大的GNN，提出了一类与结构相关的特征，称为距离编码(Distance Encoding，DE)，以帮助 GNN 以比 1-WL test 更严格的表达能力来表示任意大小的节点集。
+
+acbull/pyHGT Heterogeneous Graph Transformer 异构图Transformer
+
+acbull/GPT-GNN Generative Pre-Training of Graph Neural Networks 图神经网络的生成式预训练。在预处理阶段，算法会首先随机地遮盖掉图中的一些边和点，利用生成模型来生成（预测）这些边的存在和节点的属性。模型的损失函数会使得预测的结果尽量接近真实的网络结构。这样的话，在GPT-GNN训练完成后，其内部的图神经网络层就可以被拿出来进行调优。
 
 ## 强化学习 Reinforcement Learning
 
@@ -422,6 +443,7 @@ xiaomi-automl/FairDARTS 消除差异化架构搜索中的不公平优势
   * UKPLab/sentence-transformers 句子转换器：使用BERT / RoBERTa / XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
   * terrifyzhao/text_matching 常用文本匹配模型tf版本，数据集为QA_corpus，持续更新中
   * Brokenwind/BertSimilarity 基于Google的BERT模型来进行语义相似度计算。
+  * wuba/qa_match 58同城推出的一款基于深度学习的轻量级问答匹配工具，它融合领域识别与意图识别，对问答意图进行精确理解。
 
 huseinzol05/NLP-Models-Tensorflow 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
@@ -451,6 +473,7 @@ thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果
  * 1) 对于抽取并编码的知识信息，研究者首先识别文本中的命名实体，然后将这些提到的实体与知识图谱中的实体进行匹配。研究者并不直接使用 KG 中基于图的事实，相反他们通过知识嵌入算法（例如 TransE）编码 KG 的图结构，并将多信息实体嵌入作为 ERNIE 的输入。基于文本和知识图谱的对齐，ERNIE 将知识模块的实体表征整合到语义模块的隐藏层中。
  * 2) 与 BERT 类似，研究者采用了带 Mask 的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对齐了输入文本的命名实体，并要求模型从知识图谱中选择合适的实体以完成对齐。
 
+airaria/TextBrewer 基于PyTorch实现的NLP任务知识蒸馏工具包，适用于多种模型结构，支持自由组合各种蒸馏策略，并且在文本分类、阅读理解、序列标注等典型NLP任务上均能获得满意的效果。 
 
 ### Transformer优化
   * laiguokun/Funnel-Transformer Transformer优化，一种新的自我注意模型，可以将隐藏状态的序列逐渐压缩为较短的状态，从而降低了计算成本。
@@ -514,6 +537,10 @@ THUwangcy/ReChorus 用于Top-K推荐的通用PyTorch框架，具有隐式反馈�
 
 RUCAIBox/CIKM2020-S3Rec 自我推荐学习，用于具有互信息最大化的顺序推荐
 
+chenchongthu/SAMN 社交注意力记忆网络在推荐系统中的应用
+
+
+
 ## 金融股票 时间序列
 
 QUANTAXIS/QUANTAXIS 量化金融策略框架
@@ -552,6 +579,11 @@ itgoyo/Aria2  突破百度云限速合集
 
 PanDownloadServer/Server 百度云PanDownload的个人维护版本
 
+## 语音
+JasonWei512/Tacotron-2-Chinese 中文语音合成
+
+TensorSpeech/TensorflowTTS Tensorflow 2的实时最新语音合成
+
 
 ## 其他
 modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
@@ -563,10 +595,6 @@ barry-ran/QtScrcpy Android实时显示控制软件
 minivision-ai/photo2cartoon 人像卡通化探索项目
 
 hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以在浏览器中执行实时实例分割
-
-JasonWei512/Tacotron-2-Chinese 中文语音合成
-
-TensorSpeech/TensorflowTTS Tensorflow 2的实时最新语音合成
 
 deezer/spleeter 人声分离模型
 
@@ -582,6 +610,4 @@ vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
 
 occlum/occlum 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保了用户数据的安全和隐私。
 
-
-
-
+matazure/mtensor 一个tensor计算库, 支持cuda的延迟计算
