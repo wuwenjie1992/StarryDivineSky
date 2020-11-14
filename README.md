@@ -94,6 +94,7 @@ pycaret/pycaret Python中的开源，低代码机器学习库
 
 thuml/Transfer-Learning-Library 用于迁移学习的开源且文档齐全的库。它基于具有高性能和友好API的纯PyTorch。当前支持的算法包括：领域对抗神经网络（DANN）深度适应网络（DAN）联合适应网络（JAN）条件域对抗网络（CDAN）最大分类器差异（MCD）Margin Disparity Discrepancy 保证金差异（MDD）
 
+FedML-AI/FedML 面向研究的联邦学习库。支持分布式计算，移动/IoT设备训练和模拟
 
 
 ### 参数优化
@@ -223,7 +224,7 @@ apache/shardingsphere Distributed database middleware 分布式数据库中间�
 
 opencurve/curve 网易自主设计研发的高性能、高可用、高可靠分布式存储系统，具有非常良好的扩展性。
 
-
+ClickHouse/ClickHouse 一个开源列式数据库系统，允许实时生成数据分析报告。
 
 ## 图神经网络GNN
 * 图机器学习库
@@ -239,6 +240,7 @@ opencurve/curve 网易自主设计研发的高性能、高可用、高可靠分�
  * alibaba/graph-learn 旨在简化图神经网络应用的框架。从实际生产案例中提取解决方案。已在推荐，反作弊和知识图系统上得到应用和验证。
  * BUPT-GAMMA/OpenHINE 异构信息网络嵌入（OpenHINE）的开源工具包。实现的模型包括：DHNE，HAN，HeGAN，HERec，HIN2vec，Metapath2vec，MetaGraph2vec，RHINE。
  * PaddlePaddle/PGL 基于PaddlePaddle的高效灵活的图学习框架
+ * THUDM/cogdl 由清华大学计算机系知识工程实验室（KEG）开发的基于图的深度学习的研究工具，基于Python语言和Pytorch库。
 
 ASTGCN 基于注意的时空图卷积网络，用于交通流量预测
 
@@ -310,6 +312,8 @@ inyeoplee77/SAGPool Self-Attention Graph Pooling torch自我注意力图池化
 
 thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果
 
+autoliuweijie/K-BERT Enabling Language Representation with Knowledge Graph ，已被AAAI2020所录取，是较早的考虑将知识图谱中的边关系引入预训练模型的论文。论文链接：https://arxiv.org/pdf/1909.07606v1.pdf
+
 Malllabiisc/CompGCN 针对多关系有向图的图神经网络
 
 graphdml-uiuc-jlu/geom-gcn 几何图卷积网络 将节点映射为连续空间的一个向量（graph embedding），在隐空间查找邻居并进行聚合。
@@ -358,6 +362,8 @@ snap-stanford/distance-encoding 距离编码-为结构表示学习设计更强�
 acbull/pyHGT Heterogeneous Graph Transformer 异构图Transformer
 
 acbull/GPT-GNN Generative Pre-Training of Graph Neural Networks 图神经网络的生成式预训练。在预处理阶段，算法会首先随机地遮盖掉图中的一些边和点，利用生成模型来生成（预测）这些边的存在和节点的属性。模型的损失函数会使得预测的结果尽量接近真实的网络结构。这样的话，在GPT-GNN训练完成后，其内部的图神经网络层就可以被拿出来进行调优。
+
+megvii-research/DPGN DPGN: Distribution Propagation Graph Network for Few-shot Learning 分布传播图网络的小样本学习
 
 ## 强化学习 Reinforcement Learning
 
@@ -420,8 +426,6 @@ awslabs/autogluon 用于深度学习的AutoML工具包 https://autogluon.mxnet.i
 researchmm/CDARTS 循环可微架构搜索
 
 xiaomi-automl/FairDARTS 消除差异化架构搜索中的不公平优势
-
-
 
 
 
@@ -491,6 +495,8 @@ Big Bird 稀疏注意力机 随机注意力机制+局部注意力机制+全局�
 
 DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding 双重 BERT 模型的解耦上下文编码框架 shawroad/NLP_pytorch_project/Text_Ranking/DC_Bert_Ranking/
 
+fushengwuyu/chinese_spelling_correction 中文文本纠错模型：bert语言模型+字音字形相似度 、MLM、seq2seq
+
 stanford-futuredata/ColBERT ColBERT: 基于上下文（contextualized）的后期交互的排序模型 Efficient and Effective Passage Search via Contextualized Late Interaction over BERT 兼顾匹配的效率和doc中的上下文信息
 
 ### Transformer优化
@@ -513,8 +519,7 @@ stanford-futuredata/ColBERT ColBERT: 基于上下文（contextualized）的后�
     * 1) 对于抽取并编码的知识信息，研究者首先识别文本中的命名实体，然后将这些提到的实体与知识图谱中的实体进行匹配。研究者并不直接使用 KG 中基于图的事实，相反他们通过知识嵌入算法（例如 TransE）编码 KG 的图结构，并将多信息实体嵌入作为 ERNIE 的输入。基于文本和知识图谱的对齐，ERNIE 将知识模块的实体表征整合到语义模块的隐藏层中。
     * 2) 与 BERT 类似，研究者采用了带 Mask 的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对齐了输入文本的命名实体，并要求模型从知识图谱中选择合适的实体以完成对齐。
  * ZhuiyiTechnology/WoBERT 以词为基本单位的中文BERT（Word-based BERT）
-
-
+ * autoliuweijie/FastBERT FastBERT：具有自适应推断时间的自蒸馏BERT pip install fastbert
 
 
 ## 推荐系统
@@ -565,6 +570,10 @@ RUCAIBox/CIKM2020-S3Rec 自我推荐学习，用于具有互信息最大化的�
 
 chenchongthu/SAMN 社交注意力记忆网络在推荐系统中的应用
 
+Lancelot39/KGSF 基于知识图谱语义融合改进会话推荐系统
+Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion
+
+
 
 
 ## 金融股票 时间序列
@@ -584,6 +593,9 @@ tensortrade-org/tensortrade 一个开源强化学习框架，用于训练，评�
 bsolomon1124/pyfinance 为投资管理和证券收益分析而构建的Python分析包。
 
 arrigonialberto86/deepar Amazon于2017年提出的基于深度学习的时间序列预测方法
+
+fjxmlzn/DoppelGANger 使用GAN共享网络时间序列数据：挑战，初步承诺和未解决的问题，IMC 2020（最佳论文入围）
+
 
 ## 虚拟化
 jesseduffield/lazydocker docker 简单终端 UI
@@ -609,6 +621,11 @@ PanDownloadServer/Server 百度云PanDownload的个人维护版本
 JasonWei512/Tacotron-2-Chinese 中文语音合成
 
 TensorSpeech/TensorflowTTS Tensorflow 2的实时最新语音合成
+
+audier/DeepSpeechRecognition 基于深度学习的中文语音识别系统
+
+athena-team/athena 基于序列到序列的语音处理引擎的开源实现
+
 
 
 ## 其他
