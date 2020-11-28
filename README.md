@@ -499,12 +499,21 @@ fushengwuyu/chinese_spelling_correction 中文文本纠错模型：bert语言模
 
 stanford-futuredata/ColBERT ColBERT: 基于上下文（contextualized）的后期交互的排序模型 Efficient and Effective Passage Search via Contextualized Late Interaction over BERT 兼顾匹配的效率和doc中的上下文信息
 
+ymcui/Chinese-ELECTRA 中文ELECTRA预训练模型 其中ELECTRA-small模型可与BERT-base甚至其他同等规模的模型相媲美，而参数量仅为BERT-base的1/10
+
+ymcui/Chinese-XLNet 面向中文的XLNet预训练模型
+
+salesforce/pytorch-qrnn 准循环神经网络Quasi-Recurrent Neural Network,基于使用实例可以比高度优化的 NVIDIA cuDNN LSTM 实现2到17倍快
+
+ChenghaoMou/pytorch-pQRNN pQRNN 结合一个简单的映射和一个quasi-RNN编码器来进行快速并行处理。pQRNN模型表明这种新的体系结构几乎可以达到BERT级的性能，尽管只使用1/300的参数量和有监督的数据。
+
 ### Transformer优化
   * laiguokun/Funnel-Transformer Transformer优化，一种新的自我注意模型，可以将隐藏状态的序列逐渐压缩为较短的状态，从而降低了计算成本。
   * mit-han-lab/hardware-aware-transformers 用于高效自然语言处理的硬件感知型Transformers.实现高达3倍的加速和3.7倍的较小模型尺寸，而不会降低性能。
   * mit-han-lab/lite-transformer 具有长距离短距离注意的Lite transformer
   * DeBERTa：注意力分散的增强解码的BERT，使用两种新颖的技术改进了BERT和RoBERTa模型，显着提高了模型预训练的效率和下游任务的性能。
   * allenai/longformer 用于长文档的类似BERT的模型
+  * Tencent/TurboTransformers a fast and user-friendly runtime for transformer inference on CPU and GPU
 
 ### BERT优化
   * google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
@@ -520,6 +529,8 @@ stanford-futuredata/ColBERT ColBERT: 基于上下文（contextualized）的后�
     * 2) 与 BERT 类似，研究者采用了带 Mask 的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对齐了输入文本的命名实体，并要求模型从知识图谱中选择合适的实体以完成对齐。
  * ZhuiyiTechnology/WoBERT 以词为基本单位的中文BERT（Word-based BERT）
  * autoliuweijie/FastBERT FastBERT：具有自适应推断时间的自蒸馏BERT pip install fastbert
+ * alexa/bort 论文 Optimal Subarchitecture Extraction for BERT. “ BERT的最佳子体系结构提取”的代码。Bort是用于BERT架构的最佳子集，它是通过对神经架构搜索应用完全多项式时间近似方案（FPTAS）提取的。 Bort的有效（即不计算嵌入层）大小是原始BERT大型体系结构的5.5％，是净大小的16％。它在CPU上也比基于BERT的速度快7.9倍，并且比体系结构的其他压缩变体和某些非压缩变体性能更好。与多个公共自然语言理解（NLU）基准上的BERT-large相比，它的平均性能提高了0.3％至31％。
+ * ymcui/MacBERT MacBERT是经过改进的BERT，具有新颖的MLM作为校正预训练任务，从而减轻了预训练和微调的差异。
 
 
 ## 推荐系统
@@ -531,6 +542,8 @@ ChenglongChen/tensorflow-DeepFM
 cheungdaven/DeepRec
 
 lyst/lightfm
+
+tensorflow/recommenders TensorFlow Recommenders is a library for building recommender system models using TensorFlow.
 
 oywtece/dstn
 
@@ -573,6 +586,9 @@ chenchongthu/SAMN 社交注意力记忆网络在推荐系统中的应用
 Lancelot39/KGSF 基于知识图谱语义融合改进会话推荐系统
 Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion
 
+DeepGraphLearning/RecommenderSystems 顺序推荐 基于维度的推荐 社交推荐
+
+FeiSun/BERT4Rec 基于BERT的顺序推荐
 
 
 
