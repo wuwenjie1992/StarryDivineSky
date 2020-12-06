@@ -310,8 +310,6 @@ klicperajo/ppnp 预测然后传播：图形神经网络满足个性化PageRank
 
 inyeoplee77/SAGPool Self-Attention Graph Pooling torch自我注意力图池化
 
-thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果
-
 autoliuweijie/K-BERT Enabling Language Representation with Knowledge Graph ，已被AAAI2020所录取，是较早的考虑将知识图谱中的边关系引入预训练模型的论文。论文链接：https://arxiv.org/pdf/1909.07606v1.pdf
 
 Malllabiisc/CompGCN 针对多关系有向图的图神经网络
@@ -364,6 +362,8 @@ acbull/pyHGT Heterogeneous Graph Transformer 异构图Transformer
 acbull/GPT-GNN Generative Pre-Training of Graph Neural Networks 图神经网络的生成式预训练。在预处理阶段，算法会首先随机地遮盖掉图中的一些边和点，利用生成模型来生成（预测）这些边的存在和节点的属性。模型的损失函数会使得预测的结果尽量接近真实的网络结构。这样的话，在GPT-GNN训练完成后，其内部的图神经网络层就可以被拿出来进行调优。
 
 megvii-research/DPGN DPGN: Distribution Propagation Graph Network for Few-shot Learning 分布传播图网络的小样本学习
+
+jwzhanggy/Graph-Bert 仅基于Attention 机制而不依赖任何类卷积或聚合操作即可学习图的表示，并且完全不考虑节点之间的连接信息。通过将原始图分解为以每个节点为中心的多个子图来学习每个节点的表征信息，这不仅能解决图模型的预训练问题，还能通过并行处理还提高效率。
 
 ## 强化学习 Reinforcement Learning
 
@@ -449,9 +449,42 @@ xiaomi-automl/FairDARTS 消除差异化架构搜索中的不公平优势
   * Brokenwind/BertSimilarity 基于Google的BERT模型来进行语义相似度计算。
   * wuba/qa_match 58同城推出的一款基于深度学习的轻量级问答匹配工具，它融合领域识别与意图识别，对问答意图进行精确理解。
 
+### Transformer优化
+  * laiguokun/Funnel-Transformer Transformer优化，一种新的自我注意模型，可以将隐藏状态的序列逐渐压缩为较短的状态，从而降低了计算成本。
+  * mit-han-lab/hardware-aware-transformers 用于高效自然语言处理的硬件感知型Transformers.实现高达3倍的加速和3.7倍的较小模型尺寸，而不会降低性能。
+  * mit-han-lab/lite-transformer 具有长距离短距离注意的Lite transformer
+  * DeBERTa：注意力分散的增强解码的BERT，使用两种新颖的技术改进了BERT和RoBERTa模型，显着提高了模型预训练的效率和下游任务的性能。
+  * allenai/longformer 用于长文档的类似BERT的模型
+  * Tencent/TurboTransformers a fast and user-friendly runtime for transformer inference on CPU and GPU
+  * idiap/fast-transformers Pytorch library for fast transformer implementations
+  * * bytedance/lightseq 高效的序列处理与生成库，提供 Bert, GPT, Transformer，beam search, diverse beam search, topp/topk sampling
+  * Big Bird 稀疏注意力机 随机注意力机制+局部注意力机制+全局注意力机制 PurdueCAM2Project/TensorFlowModelGardeners/official/nlp/projects/bigbird/
+  * lucidrains/performer-pytorch 使用一个高效的线性广义注意力框架（generalized attention framework），允许基于不同相似性度量（核）的一类广泛的注意力机制。该框架通过谷歌的新算法 FAVOR+（ Fast Attention Via Positive Orthogonal Random Features）来实现，后者能够提供注意力机制的可扩展低方差、无偏估计，这可以通过随机特征图分解（常规 softmax-attention）来表达。该方法在保持线性空间和时间复杂度的同时准确率也很有保证，也可以应用到独立的 softmax 运算。此外，该方法还可以和可逆层等其他技术进行互操作。
+  
+
+### BERT优化
+  * google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
+  * google-research/ALBERT 用于语言表达自我监督学习的Lite BERT
+  * bojone/bert-of-theseus BERT 模型压缩方法 ,theseus(忒修斯之船 如果忒修斯的船上的木头被  逐渐替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？),将原始大模型切分为多个大模块，固定大模型权重，训练时随机替换为小模块,充分训练后，将小模型继续微调。
+  * brightmart/albert_zh 使用TensorFlow 进行自我监督学习语言表示的Lite Bert的实现预训练的汉语模型
+  * bert4keras 更清晰、更轻量级的keras版bert
+  * huawei-noah/Pretrained-Language-Model 华为诺亚方舟实验室开发的预训练语言模型及其相关优化技术NEZHA是一种经过预训练的中文语言模型，可以在多项中文NLP任务上实现最先进的性能TinyBERT是一种压缩的BERT模型，推理时可缩小7.5倍，加快9.4倍
+  * Lisennlp/TinyBert 基于华为的TinyBert进行修改的，简化了数据读取的过程，方便我们利用自己的数据进行读取操作。
+  * epfml/collaborative-attention 整合多头注意力,任何经过预训练的注意力层重新配置为协作注意力层。
+  * thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果 
+    * 1) 对于抽取并编码的知识信息，研究者首先识别文本中的命名实体，然后将这些提到的实体与知识图谱中的实体进行匹配。研究者并不直接使用 KG 中基于图的事实，相反他们通过知识嵌入算法（例如 TransE）编码 KG 的图结构，并将多信息实体嵌入作为 ERNIE 的输入。基于文本和知识图谱的对齐，ERNIE 将知识模块的实体表征整合到语义模块的隐藏层中。
+    * 2) 与 BERT 类似，研究者采用了带 Mask 的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对齐了输入文本的命名实体，并要求模型从知识图谱中选择合适的实体以完成对齐。
+ * ZhuiyiTechnology/WoBERT 以词为基本单位的中文BERT（Word-based BERT）
+ * autoliuweijie/FastBERT FastBERT：具有自适应推断时间的自蒸馏BERT pip install fastbert
+ * alexa/bort 论文 Optimal Subarchitecture Extraction for BERT. “ BERT的最佳子体系结构提取”的代码。Bort是用于BERT架构的最佳子集，它是通过对神经架构搜索应用完全多项式时间近似方案（FPTAS）提取的。 Bort的有效（即不计算嵌入层）大小是原始BERT大型体系结构的5.5％，是净大小的16％。它在CPU上也比基于BERT的速度快7.9倍，并且比体系结构的其他压缩变体和某些非压缩变体性能更好。与多个公共自然语言理解（NLU）基准上的BERT-large相比，它的平均性能提高了0.3％至31％。
+ * ymcui/MacBERT MacBERT是经过改进的BERT，具有新颖的MLM作为校正预训练任务，从而减轻了预训练和微调的差异。
+ * valuesimplex/FinBERT 基于 BERT 架构的金融领域预训练语言模型
+
 huseinzol05/NLP-Models-Tensorflow 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
 CyberZHG/keras-xlnet XLNet的非官方实现。
+
+ymcui/Chinese-XLNet 面向中文的XLNet预训练模型
 
 bojone/attention  Attention机制的实现tensorflow/keras
 
@@ -473,7 +506,7 @@ chatopera/Synonyms 用于自然语言处理和理解的中文同义词。
 
 ShomyLiu/Neu-Review-Rec Pytorch的基于评论文本的深度推荐系统模型库。DeepCoNN(WSDM'17)、D-Attn(RecSys'17)、ANR(CIKM'18)、NARRE(WWW'18)、MPCN(KDD'18)、TARMF(WWW'18)、CARL(TOIS'19)、CARP(SIGIR'19)、DAML(KDD'19)
 
-ShannonAI/service-streamer 服务流媒体 BERT服务,每秒处理1400个句子的BERT服务.
+ShannonAI/service-streamer 服务流媒体BERT服务,每秒处理1400个句子的BERT服务.
 
 squareRoot3/Target-Guided-Conversation 目标指导的开放域对话,在开放域的聊天中目标引导.
 
@@ -491,8 +524,6 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 rikdz/GraphWriter 基于图Transformer从知识图谱中生成文本
 
-Big Bird 稀疏注意力机 随机注意力机制+局部注意力机制+全局注意力机制 PurdueCAM2Project/TensorFlowModelGardeners/official/nlp/projects/bigbird/
-
 DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding 双重 BERT 模型的解耦上下文编码框架 shawroad/NLP_pytorch_project/Text_Ranking/DC_Bert_Ranking/
 
 fushengwuyu/chinese_spelling_correction 中文文本纠错模型：bert语言模型+字音字形相似度 、MLM、seq2seq
@@ -501,36 +532,15 @@ stanford-futuredata/ColBERT ColBERT: 基于上下文（contextualized）的后�
 
 ymcui/Chinese-ELECTRA 中文ELECTRA预训练模型 其中ELECTRA-small模型可与BERT-base甚至其他同等规模的模型相媲美，而参数量仅为BERT-base的1/10
 
-ymcui/Chinese-XLNet 面向中文的XLNet预训练模型
-
 salesforce/pytorch-qrnn 准循环神经网络Quasi-Recurrent Neural Network,基于使用实例可以比高度优化的 NVIDIA cuDNN LSTM 实现2到17倍快
 
 ChenghaoMou/pytorch-pQRNN pQRNN 结合一个简单的映射和一个quasi-RNN编码器来进行快速并行处理。pQRNN模型表明这种新的体系结构几乎可以达到BERT级的性能，尽管只使用1/300的参数量和有监督的数据。
 
-### Transformer优化
-  * laiguokun/Funnel-Transformer Transformer优化，一种新的自我注意模型，可以将隐藏状态的序列逐渐压缩为较短的状态，从而降低了计算成本。
-  * mit-han-lab/hardware-aware-transformers 用于高效自然语言处理的硬件感知型Transformers.实现高达3倍的加速和3.7倍的较小模型尺寸，而不会降低性能。
-  * mit-han-lab/lite-transformer 具有长距离短距离注意的Lite transformer
-  * DeBERTa：注意力分散的增强解码的BERT，使用两种新颖的技术改进了BERT和RoBERTa模型，显着提高了模型预训练的效率和下游任务的性能。
-  * allenai/longformer 用于长文档的类似BERT的模型
-  * Tencent/TurboTransformers a fast and user-friendly runtime for transformer inference on CPU and GPU
+alibaba/EasyTransfer 自然语言处理的迁移学习工具。主要特性：预训练语言模型工具，丰富且高质量的预训练模型库 BERT, ALBERT, RoBERTa, T5, etc,丰富且易用的NLP应用 如文本匹配、分本分类、机器阅读理解MRC，自动化的知识蒸馏，易用且高效的分布式训练。
 
-### BERT优化
-  * google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
-  * google-research/ALBERT 用于语言表达自我监督学习的Lite BERT
-  * bojone/bert-of-theseus BERT 模型压缩方法 ,theseus(忒修斯之船 如果忒修斯的船上的木头被  逐渐替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？),将原始大模型切分为多个大模块，固定大模型权重，训练时随机替换为小模块,充分训练后，将小模型继续微调。
-  * brightmart/albert_zh 使用TensorFlow 进行自我监督学习语言表示的Lite Bert的实现预训练的汉语模型
-  * bert4keras 更清晰、更轻量级的keras版bert
-  * huawei-noah/Pretrained-Language-Model 华为诺亚方舟实验室开发的预训练语言模型及其相关优化技术NEZHA是一种经过预训练的中文语言模型，可以在多项中文NLP任务上实现最先进的性能TinyBERT是一种压缩的BERT模型，推理时可缩小7.5倍，加快9.4倍
-  * Lisennlp/TinyBert 基于华为的TinyBert进行修改的，简化了数据读取的过程，方便我们利用自己的数据进行读取操作。
-  * epfml/collaborative-attention 整合多头注意力,任何经过预训练的注意力层重新配置为协作注意力层。
-  * thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果 
-    * 1) 对于抽取并编码的知识信息，研究者首先识别文本中的命名实体，然后将这些提到的实体与知识图谱中的实体进行匹配。研究者并不直接使用 KG 中基于图的事实，相反他们通过知识嵌入算法（例如 TransE）编码 KG 的图结构，并将多信息实体嵌入作为 ERNIE 的输入。基于文本和知识图谱的对齐，ERNIE 将知识模块的实体表征整合到语义模块的隐藏层中。
-    * 2) 与 BERT 类似，研究者采用了带 Mask 的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对齐了输入文本的命名实体，并要求模型从知识图谱中选择合适的实体以完成对齐。
- * ZhuiyiTechnology/WoBERT 以词为基本单位的中文BERT（Word-based BERT）
- * autoliuweijie/FastBERT FastBERT：具有自适应推断时间的自蒸馏BERT pip install fastbert
- * alexa/bort 论文 Optimal Subarchitecture Extraction for BERT. “ BERT的最佳子体系结构提取”的代码。Bort是用于BERT架构的最佳子集，它是通过对神经架构搜索应用完全多项式时间近似方案（FPTAS）提取的。 Bort的有效（即不计算嵌入层）大小是原始BERT大型体系结构的5.5％，是净大小的16％。它在CPU上也比基于BERT的速度快7.9倍，并且比体系结构的其他压缩变体和某些非压缩变体性能更好。与多个公共自然语言理解（NLU）基准上的BERT-large相比，它的平均性能提高了0.3％至31％。
- * ymcui/MacBERT MacBERT是经过改进的BERT，具有新颖的MLM作为校正预训练任务，从而减轻了预训练和微调的差异。
+RUCAIBox/TG-ReDial 一个电影领域的对话推荐数据集TG-ReDial (Recommendation through Topic-Guided Dialog)。它包含1万个完整的对话和近13万条语句，加入了话题线索以实现将用户引导至推荐场景这一语义的自然转移，并且采用半自动的方式构建，保留了用户真实的个性化信息（如交互历史，偏好主题），使得人工标注过程更加合理可控。
+
+RUCAIBox/TG_CRS_Code TG-ReDial相应的推荐、回复生成、主题预测功能实现。
 
 
 ## 推荐系统
@@ -657,7 +667,7 @@ hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以�
 
 deezer/spleeter 人声分离模型
 
-cfzd/Ultra-Fast-Lane-Detection 论文“ 超快速结构感知深度车道检测 ”的实现
+cfzd/Ultra-Fast-Lane-Detection 论文“超快速结构感知深度车道检测”的实现
 
 kexinhuang12345/DeepPurpose 最新的深度学习方法的药物-靶标相互作用和特性预测工具包,及其在药物再利用，虚拟筛选，QSAR等方面的应用
 
