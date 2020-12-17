@@ -365,6 +365,11 @@ megvii-research/DPGN DPGN: Distribution Propagation Graph Network for Few-shot L
 
 jwzhanggy/Graph-Bert 仅基于Attention 机制而不依赖任何类卷积或聚合操作即可学习图的表示，并且完全不考虑节点之间的连接信息。通过将原始图分解为以每个节点为中心的多个子图来学习每个节点的表征信息，这不仅能解决图模型的预训练问题，还能通过并行处理还提高效率。
 
+cdjhz/multigen Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph 基于常识知识图的多跳推理语言生成 
+
+
+
+
 ## 强化学习 Reinforcement Learning
 
 ray-project/ray 快速简单的框架，用于构建和运行分布式应用程序。
@@ -460,7 +465,7 @@ xiaomi-automl/FairDARTS 消除差异化架构搜索中的不公平优势
   * * bytedance/lightseq 高效的序列处理与生成库，提供 Bert, GPT, Transformer，beam search, diverse beam search, topp/topk sampling
   * Big Bird 稀疏注意力机 随机注意力机制+局部注意力机制+全局注意力机制 PurdueCAM2Project/TensorFlowModelGardeners/official/nlp/projects/bigbird/
   * lucidrains/performer-pytorch 使用一个高效的线性广义注意力框架（generalized attention framework），允许基于不同相似性度量（核）的一类广泛的注意力机制。该框架通过谷歌的新算法 FAVOR+（ Fast Attention Via Positive Orthogonal Random Features）来实现，后者能够提供注意力机制的可扩展低方差、无偏估计，这可以通过随机特征图分解（常规 softmax-attention）来表达。该方法在保持线性空间和时间复杂度的同时准确率也很有保证，也可以应用到独立的 softmax 运算。此外，该方法还可以和可逆层等其他技术进行互操作。
-  
+
 
 ### BERT优化
   * google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
@@ -622,6 +627,9 @@ arrigonialberto86/deepar Amazon于2017年提出的基于深度学习的时间序
 
 fjxmlzn/DoppelGANger 使用GAN共享网络时间序列数据：挑战，初步承诺和未解决的问题，IMC 2020（最佳论文入围）
 
+AIStream-Peelout/flow-forecast 一个开源的深度学习时间序列预测库。包括模型：Vanilla LSTM、Full transformer、Simple Multi-Head Attention、Transformer w/a linear decoder、DA-RNN (CPU only for now)。
+
+microsoft/qlib Qlib是一个面向AI的量化投资平台，旨在实现潜力，增强研究能力并创造AI技术在量化投资中的价值。包括多个模型。
 
 ## 虚拟化
 jesseduffield/lazydocker docker 简单终端 UI
@@ -652,7 +660,19 @@ audier/DeepSpeechRecognition 基于深度学习的中文语音识别系统
 
 athena-team/athena 基于序列到序列的语音处理引擎的开源实现
 
+espnet/espnet  End-to-End Speech Processing Toolkit 端到端的语音处理工具箱，主要特性：kaldi风格的处理模式、ASR、TTS、语音翻译、机器翻译、语音转换、DNN框架
 
+kan-bayashi/ParallelWaveGAN Parallel WaveGAN (+ MelGAN & Multi-band MelGAN) implementation with Pytorch 
+
+KuangDD/zhrtvc  好用的中文语音克隆兼中文语音合成系统，包含语音编码器、语音合成器、声码器和可视化模块。 
+
+JasonWei512/Tacotron-2-Chinese 中文语音合成
+
+lturing/tacotronv2_wavernn_chinese tacotronV2 + wavernn 实现中文语音合成(Tensorflow + pytorch) 
+
+JasonWei512/wavenet_vocoder  WaveNet 声码器 
+
+deezer/spleeter 人声分离模型
 
 ## 其他
 modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
@@ -665,8 +685,6 @@ minivision-ai/photo2cartoon 人像卡通化探索项目
 
 hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以在浏览器中执行实时实例分割
 
-deezer/spleeter 人声分离模型
-
 cfzd/Ultra-Fast-Lane-Detection 论文“超快速结构感知深度车道检测”的实现
 
 kexinhuang12345/DeepPurpose 最新的深度学习方法的药物-靶标相互作用和特性预测工具包,及其在药物再利用，虚拟筛选，QSAR等方面的应用
@@ -677,6 +695,10 @@ DaveJarvis/keenwrite 基于Java的桌面Markdown编辑器，具有实时预览�
 
 vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
 
+willmcgugan/rich 一个终端内富文本和美化的python库。
+
 occlum/occlum 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保了用户数据的安全和隐私。
 
 matazure/mtensor 一个tensor计算库, 支持cuda的延迟计算
+
+fofapro/vulfocus 一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。
