@@ -1,10 +1,8 @@
 # mystars
-
 个人的github stars，主要是机器学习、深度学习、NLP、GNN、大数据等内容。
 
 ### 机器学习
-
-MNN 一个轻量级的深度神经网络推理引擎
+alibaba/MNN 一个轻量级的深度神经网络推理引擎
 
 Tencent/TNN 移动端高性能、轻量级推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势
 
@@ -16,13 +14,13 @@ geohot/tinygrad 一个不到1000行的深度学习框架，麻雀虽小，但五
 
 karpathy/micrograd 一个微型标量自动求导引擎，类似PyTorch API的神经网络库
 
-Weights and Biases 使用 W&B 组织和分析机器学习实验
+wandb/client Weights and Biases 使用 W&B 组织和分析机器学习实验 它与框架无关，并且比TensorBoard轻巧。每次您运行带有的脚本时wandb，我们都会保存您的超参数和输出指标。在训练过程中可视化模型，并轻松比较模型的版本。我们还将自动跟踪您的代码状态，系统指标和配置参数。
 
-ALiPy 一个基于Python实现的主动学习工具包
+NUAA-AL/ALiPy 一个基于Python实现的主动学习工具包
 
-Nevergrad 无梯度优化平台
+facebookresearch/nevergrad 无梯度优化平台
 
-combo 用于机器学习模型组合的 Python 工具箱
+yzhao062/combo 用于机器学习**模型组合**的 Python 工具箱。模型组合可以被认为是整体学习的子任务，并且已被广泛用于诸如Kaggle之类的现实任务和数据科学竞赛中。
 
 google/trax 代码更清晰的神经网络代码库
 
@@ -32,7 +30,7 @@ jonasrauber/eagerpy 编写与PyTorch，TensorFlow，JAX和NumPy本地兼容的�
 
 rushter/MLAlgorithms 机器学习算法
 
-MLEveryday/100-Days-Of-ML-Code
+MLEveryday/100-Days-Of-ML-Code 100-Days-Of-ML-Code中文版
 
 csuldw/MachineLearning
 
@@ -113,6 +111,12 @@ Aimhubio/Aim 一个超级简单的记录、查找、比较AI实验的库。
 PyTorchLightning/PyTorch-lightning 轻巧的PyTorch包装器，用于高性能AI研究。
 
 microsoft/hummingbird 将训练有素的机器学习模型编译为张量计算，以加快推理速度。 一个用于将经过训练的传统ML模型编译为张量计算的库。
+
+microsoft/EdgeML Microsoft Research India开发的边缘设备提供了机器学习算法的代码。
+
+ml-tooling/best-of-ml-python 很棒的机器学习Python库的排名列表。
+
+LAMDA-NJU/Deep-Forest Deep Forest 2021.2.1的实现 
 
 ### 参数优化
 
@@ -225,7 +229,6 @@ dgraph-io/dgraph The Only Native GraphQL Database With A Graph Backend.
 vesoft-inc/nebula 开放源代码图数据库，能够托管具有数十亿个顶点（节点）和数万亿条边（具有几毫秒的延迟）的超大规模图。
 
 ## 大数据
-
 Qihoo360/Quicksql 体系结构图可帮助您更轻松地访问 Quicksql
 
 seata/seata 简单可扩展的自主事务体系结构
@@ -272,9 +275,10 @@ ClickHouse/ClickHouse 一个开源列式数据库系统，允许实时生成数�
   * brxx122/HeterSumGraph 用于提取文档摘要的异构图神经网络
   * chuxuzhang/KDD2019_HetGNN KDD2019论文中HetGNN的代码：异构图神经网络 用了LSTM作为来聚合某种关系下的节点邻居并更新节点表示。这里的邻居选择也有所不同：通过random walk with restart来选择固定数量的邻居。
   * acbull/pyHGT Heterogeneous Graph Transformer 异构图Transformer
-    可以处理大规模的异构图和动态图.
+可以处理大规模的异构图和动态图.
   * Googlebaba/KDD2019-MEIRec 基于异质图神经网络的用户意图推荐
   * Andy-Border/HGSL 异质图结构学习(Heterogeneous Graph Structure Learning)问题，并提出了HGSL框架来联合学习适合分类的异质图结构和图神经网络参数。通过挖掘特征相似性、特征与结构之间的交互以及异质图中的高阶语义结构来生成适合下游任务的异质图结构并联合学习 GNN参数。三个数据集上的实验结果表明，HGSL 的性能优于基线模型。
+  * yuduo93/THIGE 将复杂异质的动态交互行为构建为时序异质交互图（Temporal Heterogeneous Interaction Graph, 简称为THIG）进而同时学习用户兴趣和商品表示用于商品推荐。本文提出了一种时序异质图上的表示学习方法，称之为THIGE，充分建模交互行为的异质性，刻画不同类型的兴趣偏好，并融合长、短期兴趣构建用户、商品表示。最后，在3个真实数据集上验证模型的有效性。
 
 * 图嵌入、网络表征学习
   * thunlp/OpenKE 一个使用PyTorch实现的知识嵌入开源框架。RESCAL、DistMult, ComplEx, Analogy、TransE, TransH, TransR, TransD、SimplE、RotatE
@@ -300,6 +304,7 @@ ClickHouse/ClickHouse 一个开源列式数据库系统，允许实时生成数�
   * nnzhan/Graph-WaveNet 时空序列预测模型，本文目标是，给定图 G和历史S 步的图信号数据，学习映射关系f，进而预测接下来T 步的图信号。源于WaveNet，并在图卷积的基础上提出了动态自适应的邻接矩阵来捕获隐藏的图结构关系。数据集:META-LA是洛杉矶公路探测器收集到的交通数据，有207个传感器搜集了四个月的数据（2012.3.1~2012.6.30） ;PEMS-BAY是加州交通部门Performance Measurement System搜集到的交通数据，有325个传感器搜集了六个月的数据（2017.1.1~2017.5.31）
   * Davidham3/STSGCN 时空同步图卷积网络：一种时空网络数据预测的新框架 该模型能够有效地捕捉复杂的局域时空相关性。同时，在模型中设计了多个不同时间段的模块，以有效地捕获局部时空图中的异质性。
   * IBM/EvolveGCN 动态时序知识图谱。为了实现动态学习主要注意以下三点：1、每个时间片单独学习一个GCN，每个GCN输入不同体现在图谱的邻接矩阵不同，但在代码实现时必须要求每个时刻的节点是保持一致的，而节点之间的关系存在变动；2、为了考虑动态图谱联系，用RNN将每个时间片GCN模型参数串起来进行序列学习；3、RNN循环网络采用两种：GRU，LSTM
+  * twitter-research/tgn  TGN: Temporal Graph Networks 动态图的神经网络模型
 
 * 知识库回答、多跳推理
   * cdjhz/multigen Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph 基于常识知识图的多跳推理语言生成 本研究关注一类条件文本生成任务，即给定输入源文本X，目标是生成一段目标文本 Y。研究员们额外增加了一个知识图谱 G=(V,E) 的输入为模型在生成时提供常识知识的信息。
@@ -308,6 +313,7 @@ ClickHouse/ClickHouse 一个开源列式数据库系统，允许实时生成数�
  * malllabiisc/EmbedKGQA 使用知识库嵌入改进知识图上的多跳问题回答
  * nju-websoft/SPARQA 基于知识库的问题解答,提出了一种新颖的骨架语法来表示一个复杂问题的高级结构。骨架语法本质上是依赖语法的一个选定子集，用于专门表示复杂问题的高级结构。这种专用的粗粒度表示形式由于其简单性而可能具有准确的解析算法，有助于提高下游细粒度语义解析的准确性。
  * mori97/JKNet-dgl 跳跃知识网络的dgl实现
+ * THUDM/CogQA 基于认知图谱实现多跳阅读.从人类的认知过程中受到启发。双过程理论认为，我们的大脑思考过程由两套系统构成: System1 和 System 2。System 1: 我们的大脑首先通过System 1隐式的、无意识的和凭借直觉的过程来检索相关信息。System 2: 在System 1过程的基础上，再进行一个显式的、有意识的、可控的推理过程，即System 2。作者使用BERT模型构建System 1，使用GNN模型构建System 2。
 
 * 知识图谱
   * autoliuweijie/K-BERT Enabling Language Representation with Knowledge Graph ，已被AAAI2020所录取，是较早的考虑将知识图谱中的边关系引入预训练模型的论文。论文链接：https://arxiv.org/pdf/1909.07606v1.pdf 主要通过修改Transformer中的attention机制，通过特殊的mask方法将知识图谱中的相关边考虑到编码过程中，进而增强预训练模型的效果。
@@ -339,7 +345,9 @@ tkipf/gae
 
 peter14121/intentgc-models 意图gc模型
 
-williamleif/GraphSAGE
+williamleif/GraphSAGE 核心思想就是学习聚合节点的邻居特征生成当前节点的信息的「聚合函数」，有了聚合函数不管图如何变化，都可以通过当前已知各个节点的特征和邻居关系，得到节点的embedding特征。
+
+trinayan/PinSageMultiGPU 一个能够学习节点嵌入的随机游走GCN，由Pinterest公司和Stanford完成的工作，首次将图方法落地到了工业界。PinSage的理论背景是基于GraphSAGE，即归纳(inductive)式的学习，直接学习聚合函数而不是固定的节点，这也是其他的图算法如GCN等等直推式(transductive)方法无法做到的，更能满足实际中的图节点是不断变化的需求（节点和关系都会不断的变化）。
 
 shawnwang-tech/GeniePath-pytorch 自适应深度和广度图神经网络表征学习模型Geniepath
 
@@ -451,6 +459,8 @@ YingtongDou/Nash-Detect 通过Nash强化学习进行鲁棒的垃圾邮件发送�
 
 deepmind/acme 强化学习的研究框架，强化学习组件和代理库
 
+XinJingHao/TD3 TD3强化算法的实现
+
 huawei-noah/xingtian 刑天（XingTian）是一个组件化的库，用于开发和验证强化学习算法。它支持多种算法，包括DQN，DDPG，PPO和IMPALA等，可以在多个环境中训练代理，例如Gym，Atari，Torcs，StarCraft等。
 
 thu-ml/tianshou 天授是基于纯PyTorch强化学习的平台。与现有的强化学习库主要基于TensorFlow，具有许多嵌套类，不友好的API或速度较慢的现有学习库不同，天守提供了快速的模块化框架和pythonic API，用于以最少的行数构建深度强化学习代理代码。
@@ -459,19 +469,67 @@ Jingliang-Duan/Distributional-Soft-Actor-Critic 一种用于连续控制任务�
 
 tencent-ailab/TLeague 一种基于竞争性自我驱动的多智能体强化学习框架。
 
+minerllabs/minerl Minecraft 游戏环境
+
+mwydmuch/ViZDoom 基于ZDoom末日的AI研究平台，可从原始视觉信息进行强化学习。
+
+openai/retro 复古游戏 
+
+google-research/football 基于开源游戏Game Football的RL环境
+
+TorchCraft/TorchCraftAI 可让您建立机器人以学习玩《星际争霸：巢穴之战》。
+
+deepmind/pysc2 星际争霸II强化学习环境
+
+datamllab/rlcard 纸牌（扑克）游戏中的强化学习/ AI机器人-大酒杯，勒杜克，德克萨斯州，窦滴竹，麻将，UNO。
+
+sourceforge.net/projects/torcs ORCS，开放式赛车模拟器是一种高度便携式的多平台赛车模拟。
+
+Microsoft/AirSim 基于Unreal Engine / Unity的自动驾驶汽车开源模拟器
+
+carla-simulator/carla 用于自动驾驶研究的开源模拟器。
+
+aitorzip/DeepGTAV GTAV的插件，可将其转变为基于视觉的自动驾驶汽车研究环境。
+
+deepdrive/deepdrive Deepdrive是一个模拟器，它使拥有PC的任何人都能推动最新的自动驾驶
+
+robotology/gym-ignition 使用Ignition Gazebo模拟开发OpenAI Gym机器人环境的框架
+
+stanfordnmbl/osim-rl 具有肌肉骨骼模型的强化学习环境
+
+lsw9021/MASS 全身肌肉骨骼系统实现了基本的仿真和控制。骨骼运动由肌肉的驱动力来驱动，并与激活水平相协调。通过与python和pytorch的接口，可以使用深度强化学习（DRL）算法，例如近端策略优化（PPO）。
+
+deepmind/lab DeepMind Lab为学习代理提供了一套具有挑战性的3D导航和解谜任务。它的主要目的是充当人工智能（尤其是深度强化学习）研究的测试平台。
+
+maximecb/gym-minigrid OpenAI Gym的简约gridworld软件包
+
+maximecb/gym-miniworld 用于RL和机器人研究的简单3D室内模拟器
+
+minosworld/minos MINOS：多模式室内模拟器 旨在支持在复杂的室内环境中为目标定向导航开发多传感器模型。MINOS利用复杂3D环境的大型数据集，并支持多模式传感器套件的灵活配置。
+
+facebookresearch/habitat-sim 灵活，高性能的3D仿真器，适用于嵌入式AI研究。
+
+facebookresearch/habitat-lab 一个模块化的高级库，可在各种任务，环境和模拟器中训练嵌入式AI代理。
+
+facebookresearch/house3d 逼真的丰富3D环境 由数以千计的室内场景组成，这些场景配有从SUNCG数据集中获取的各种场景类型，布局和对象。它包含超过4.5万个室内3D场景，从工作室到带有游泳池和健身室的两层房屋。
+
+
+
 ## NLP自然语言处理
-
 ### 文本分类 + Attention机制
-
   * tcxdgit/cnn_multilabel_classification 基于TextCNN和Attention的多标签分类
   * ilivans/tf-rnn-attention Tensorflow实现文本分类任务的关注机制。
   * skdjfla/toutiao-text-classfication-dataset 中文文本分类数据集 共382688条，分布于15类中。
   * xiaoqian19940510/text-classification-surveys 文本分类资源汇总，包括深度学习文本分类模型，如SpanBERT、ALBERT、RoBerta、Xlnet、MT-DNN、BERT、TextGCN、MGAN、TextCapsule、SGNN、SGM、LEAM、ULMFiT、DGCNN、ELMo、RAM、DeepMoji、IAN、DPCNN、TopicRNN、LSTMN 、Multi-Task、HAN、CharCNN、Tree-LSTM、DAN、TextRCNN、Paragraph-Vec、TextCNN、DCNN、RNTN、MV-RNN、RAE等，浅层学习模型，如LightGBM 、SVM、XGboost、Random Forest、C4.5、CART、KNN、NB、HMM等。介绍文本分类数据集，如MR、SST、MPQA、IMDB、Ye…
   * 649453932/Chinese-Text-Classification-Pytorch 中文文本分类，TextCNN，TextRNN，FastText，TextRCNN，BiLSTM_Attention，DPCNN，Transformer，基于pytorch，开箱即用。 
-  * 649453932/Bert-Chinese-Text-Classification-Pytorch  使用Bert，ERNIE，进行中文文本分类 
+  * 649453932/Bert-Chinese-Text-Classification-Pytorch  使用Bert，ERNIE，进行中文文本分类
+  * SanghunYun/UDA_pytorch Unsupervised Data Augmentation  with BERT 一种半监督学习方法，可在多种语言和视觉任务上实现SOTA结果。仅用20个标记的示例，UDA的性能就优于之前在25,000个标记的示例上训练的IMDb上的SOTA。
+  * GT-SALT/MixText 文本半监督方法MixText 提出一种全新文本增强方式——TMix，在隐式空间插值，生成全新样本。对未标注样本进行低熵预测，并与标注样本混合进行TMix。MixText可以挖掘句子之间的隐式关系，并在学习标注样本的同时利用无标注样本的信息。超越预训练模型和其他半监督方法
+  * beyondguo/label_confusion_learning 利用标签之间的混淆关系，提升文本分类效果。利用标签信息时能够充分考虑标签之间的重叠或者依赖关系。
+  * AIRobotZhang/STCKA 基于知识图谱的文本分类 将每个短文本与其在KB中的相关概念相关联，之后，将概念信息作为先验知识整合到深度神经网络中。
 
-### 文本摘要/指针生成网络
 
+### 文本摘要 文本生成
   * abisee/pointer-generator 使用指针生成器网络进行汇总
   * AIKevin/Pointer_Generator_Summarizer 指针生成器网络：具有关注，指向和覆盖机制的Seq2Seq，用于抽象性摘要。 tensorflow 2.0
   * kjc6723/seq2seq_Pointer_Generator_Summarizer 中文会话中生成摘要总结的项目  tensorflow 2.0
@@ -479,25 +537,31 @@ tencent-ailab/TLeague 一种基于竞争性自我驱动的多智能体强化学�
   * magic282/NeuSum 通过共同学习评分和选择句子进行神经文本摘要
   * dmmiller612/bert-extractive-summarizer BERT易于使用的提取文本摘要
   * nju-websoft/NEST 输入知识图谱的基于联合编码的弱监督神经实体摘要方法
+  * xcfcode/Summarization-Papers 文本摘要论文总结
+  * liucongg/GPT2-NewsTitle GPT2.带有超级详细注释的中文GPT2新闻标题生成项目。
+  * bojone/SPACES 端到端的长本文摘要模型（法研杯2020司法摘要赛道） 
+  * RUCAIBox/TextBox 基于Python和PyTorch开发的，用于在一个统一的、全面的、高效的框架中复现和开发文本生成算法，主要面向研究者使用。我们的库包括16种文本生成算法，涵盖了两个主要任务：无条件（无输入）生成、序列到序列（Seq2Seq）生成，包括机器翻译和摘要生成。模型 无条件：LSTMVAE	(Bowman et al., 2016)、CNNVAE (Yang et al., 2017)、HybridVAE	(Semeniuta et al., 2017)、SeqGAN	(Yu et al., 2017)、TextGAN (Zhang et al., 2017)、RankGAN	(Lin et al., 2017)、MaliGAN (Che et al., 2017)、LeakGAN (Guo et al., 2018)、MaskGAN	(Fedus et al., 2018)。序列到序列 RNN (Sutskever et al., 2014)、Transformer	(Vaswani et al., 2017b)、GPT-2 (Radford et al.)、XLNet (Yang et al., 2019)、BERT2BERT (Rothe et al., 2020)、BART（Lewis et al。，2020）
 
-### 文本相似度
-
+### 文本匹配 文本相似度
   * UKPLab/sentence-transformers 句子转换器：使用BERT / RoBERTa / XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
   * terrifyzhao/text_matching 常用文本匹配模型tf版本，数据集为QA_corpus，持续更新中
   * Brokenwind/BertSimilarity 基于Google的BERT模型来进行语义相似度计算。
   * wuba/qa_match 58同城推出的一款基于深度学习的轻量级问答匹配工具，它融合领域识别与意图识别，对问答意图进行精确理解。
+  * bohanli/BERT-flow 基于流式生成模型，将BERT的表示可逆地映射到一个均匀的空间，文本表示、语义文本相似性任务的SOTA。
+  * DataTerminatorX/Keyword-BERT  带关键词的BERT语义匹配
 
 ### Transformer库与优化
-
+  * huggingface/transformers Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0. 
+  * pytorch/fairseq Python编写的Facebook AI Research Sequence-to-Sequence工具包。
   * ml-jku/hopfield-layers NLP 领域里大热的 Transformer，其网络更新规则其实是和 Hopfield 网络在连续状态下是相同的。Transformer 中的这种注意力机制其实等价于扩展到连续状态的 modern Hopfield 网络中的更新规则。论文作者来自奥地利林茨大学、挪威奥斯陆大学等机构，与 Jürgen Schmidhuber 合著 LSTM 的 Sepp Hochreiter 也是作者之一。
   * laiguokun/Funnel-Transformer Transformer优化，一种新的自我注意模型，可以将隐藏状态的序列逐渐压缩为较短的状态，从而降低了计算成本。
   * mit-han-lab/hardware-aware-transformers 用于高效自然语言处理的硬件感知型Transformers.实现高达3倍的加速和3.7倍的较小模型尺寸，而不会降低性能。
   * mit-han-lab/lite-transformer 具有长距离短距离注意的Lite transformer
-  * DeBERTa：注意力分散的增强解码的BERT，使用两种新颖的技术改进了BERT和RoBERTa模型，显着提高了模型预训练的效率和下游任务的性能。
+  * microsoft/DeBERTa：注意力分散的增强解码的BERT，使用两种新颖的技术改进了BERT和RoBERTa模型，显着提高了预训练的效率和下游任务的性能。
   * allenai/longformer 用于长文档的类似BERT的模型
   * Tencent/TurboTransformers a fast and user-friendly runtime for transformer inference on CPU and GPU
   * idiap/fast-transformers Pytorch library for fast transformer implementations
-  * * bytedance/lightseq 高效的序列处理与生成库，提供 Bert, GPT, Transformer，beam search, diverse beam search, topp/topk sampling
+  * bytedance/lightseq 高效的序列处理与生成库，提供 Bert, GPT, Transformer，beam search, diverse beam search, topp/topk sampling
   * Big Bird 稀疏注意力机 随机注意力机制+局部注意力机制+全局注意力机制 PurdueCAM2Project/TensorFlowModelGardeners/official/nlp/projects/bigbird/
   * lucidrains/performer-pytorch 使用一个高效的线性广义注意力框架（generalized attention framework），允许基于不同相似性度量（核）的一类广泛的注意力机制。该框架通过谷歌的新算法 FAVOR+（ Fast Attention Via Positive Orthogonal Random Features）来实现，后者能够提供注意力机制的可扩展低方差、无偏估计，这可以通过随机特征图分解（常规 softmax-attention）来表达。该方法在保持线性空间和时间复杂度的同时准确率也很有保证，也可以应用到独立的 softmax 运算。此外，该方法还可以和可逆层等其他技术进行互操作。google-research/google-research/tree/master/performer
   * microsoft/fastformers 实现Transformers在CPU上223倍的推理加速 它能对基于Transformer的模型在各种NLU任务上实现高效的推理时间性能。论文FastFormers的作者表明，利用知识蒸馏、结构化剪枝和数值优化可以大幅提高推理效率。我们表明，这种改进可以达到200倍的加速，并在22倍的能耗下节省超过200倍的推理成本。
@@ -507,10 +571,11 @@ tencent-ailab/TLeague 一种基于竞争性自我驱动的多智能体强化学�
   * bojone/t5_in_bert4keras 在keras中使用T5模型 , 用 mT5 small 版本 finetune 出来的 CSL 标题生成模型，BLEU 指标能持平基于 WoBERT 的 UniLM 模型，并且解码速度快 130%；而用 mT5  base 版本 finetune 出来的 CSL 标题生成模型，指标能超过基于 WoBERT 的 UniLM 模型 1% 以上，并且解码速度也能快 60%。
   * ThilinaRajapakse/simpletransformers Transformers for Classification, NER, QA, Language Modelling, Language Generation, T5, Multi-Modal, and Conversational AI 
   * mit-han-lab/lite-transformer  Lite Transformer with Long-Short Range Attention 
+  * cloneofsimo/RealFormer-pytorch 通过在Transformer架构上进行改造来提升BERT训练效果，具体为：使用attention残差机制改造Transformer。1、realformer在标签数量较少的分类任务上有一定的提升效果，提升的幅度与数据集和任务难度有关，一般越难的任务提升的幅度越大。2、realformer在标签数量达到一定的数值时，其效果便会大打折扣，在某些数据集上甚至会无法学习。
+  * openai/sparse_attention 稀疏Attention
 
 
 ### BERT优化
-
   * google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
   * google-research/ALBERT 用于语言表达自我监督学习的Lite BERT
   * bojone/bert-of-theseus BERT 模型压缩方法 ,theseus(忒修斯之船 如果忒修斯的船上的木头被  逐渐替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？),将原始大模型切分为多个大模块，固定大模型权重，训练时随机替换为小模块,充分训练后，将小模型继续微调。
@@ -529,10 +594,14 @@ tencent-ailab/TLeague 一种基于竞争性自我驱动的多智能体强化学�
  * valuesimplex/FinBERT 基于 BERT 架构的金融领域预训练语言模型
  * yitu-opensource/ConvBert ConvBERT，通过全新的注意力模块，仅用 1/10 的训练时间和 1/6 的参数就获得了跟 BERT 模型一样的精度。依图研发团队从模型结构本身的冗余出发，提出了一种基于跨度的动态卷积操作，并基于此提出了 ConvBERT 模型。
  * wtma/CharBERT 字符敏感的预训练语言模型 通过结合字符级别和词级别的信息实现了更为全面的输入编码，同时，结合 RNN 和 CNN 的优势，基本上 CNN，RNN，Transformer 都使用上了，体现了新老研究成果的结合在一定程度上能进一步提升方法的性能。
- * bohanli/BERT-flow 基于流式生成模型，将BERT的表示可逆地映射到一个均匀的空间，文本表示新SOTA。
  * Sleepychord/CogLTX 将BERT应用于长文本 CogLTX 遵循一种特别简单直观的范式，即 抽取关键的句子 => 通过 BERT 得到答案 这样的两步流程。
  * ShannonAI/service-streamer 服务流媒体BERT服务,每秒处理1400个句子的BERT服务.
  * DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding 双重 BERT 模型的解耦上下文编码框架 shawroad/NLP_pytorch_project/Text_Ranking/DC_Bert_Ranking/
+ * Sleepychord/CogLTX 可将当前类似BERT的预训练语言模型应用于长文本。使用动态规划算法将长文本划分为文本块集合；使用MemRecall对原长句中的子句进行打分：从而选择出分数最高的子句组成  再进行训练，这样一来的话，COGLTX相当于使用了了两个bert，MemRecall中bert就是负责打分，另一个bert执行原本的NLP任务。
+ * bojone/BERT-whitening  简单的线性变换（白化）操作，就可以达到BERT-flow的效果。自定义全局池化
+
+
+EleutherAI/gpt-neo 模型并行GPT2和类似GPT3的模型的实现，能够使用mesh-tensorflow库扩展到完整的GPT3尺寸（甚至可能更多！）。
 
 huseinzol05/NLP-Models-Tensorflow 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
@@ -562,11 +631,13 @@ ShomyLiu/Neu-Review-Rec Pytorch的基于评论文本的深度推荐系统模型�
 
 squareRoot3/Target-Guided-Conversation 目标指导的开放域对话,在开放域的聊天中目标引导.
 
-weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记框架.
+weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
 
 qiufengyuyi/sequence_tagging 使用bilstm-crf，bert等方法进行序列标记任务
 
 microsoft/unilm UniLM-NLP及更高版本的统一语言模型预训练
+
+YunwenTechnology/Unilm UniLM模型既可以应用于自然语言理解（NLU）任务，又可以应用于自然语言生成（NLG）任务。论文来自微软研究院。模型虽然强大，但微软并没有开源中文的预训练模型。因此云问本着开源之前，将我们预训练好的中文unilm_base模型进行开源。
 
 airaria/TextBrewer 基于PyTorch实现的NLP任务知识蒸馏工具包，适用于多种模型结构，支持自由组合各种蒸馏策略，并且在文本分类、阅读理解、序列标注等典型NLP任务上均能获得满意的效果。 
 
@@ -596,11 +667,32 @@ loujie0822/DeepIE DeepIE： 基于深度学习的信息抽取技术,实体抽取
 
 Qznan/QizNLP 快速运行分类、序列标注、匹配、生成等NLP任务的Tensorflow框架 (中文 NLP 支持分布式）
 
-131250208/TPlinker-joint-extraction 联合抽取模型 实体关系联合抽取标注方案
+131250208/TPlinker-joint-extraction 联合抽取模型 实体关系联合抽取标注关系抽取方案
 
 toizzy/tilt-transfer 运行TILT迁移学习实验的代码 让语言模型先在乐谱上进行训练，再在自然语言上训练可以有效的提升语言模型的性能。
 
 XiaoMi/MiNLP/tree/main/minlp-tokenizer 小米 AI 实验室 NLP 团队开发的小米自然语言处理平台 MiNLP 现已开源了中文分词功能
+
+explosion/spaCy 工业级强度的 Python NLP 工具包，被称为最快的工业级自然语言处理工具。它支持多种自然语言处理的基本功能，主要功能包括分词、词性标注、词干化、命名实体识别、名词短语提取等。
+
+xv44586/ccf_2020_qa_match CCF2020问答匹配比赛 本次赛题的任务是：给定IM交流片段，片段包含一个客户问题以及随后的经纪人若干IM消息，从这些随后的经纪人消息中找出一个是对客户问题的回答。
+
+TanyaZhao/MRC4ERE_plus 提出有效和多样的问题：基于机器阅读理解的联合实体关系提取框架
+
+lgw863/LogiQA-dataset 数据集包含8,678个QA实例
+
+
+microsoft/unilm/tree/master/layoutlm 多模态预训练模型 LayoutLM 2.0，不仅考虑了文本和页面布局信息，还将图像信息融合到了多模态框架内。下游任务微调：表单理解 票据理解 复杂布局长文档理解 文档图像分类 视觉问答 
+
+HIT-SCIR/Molweni 提出了构建于多人对话的英文机器阅读理解（MRC）数据集——Molweni，并覆盖了对话语篇结构。Molweni源自于Ubuntu聊天语料库，包括10,000个对话，共计88,303条话语（utterance）。我们共标注了30,066个问题，包括可回答和不可回答的问题。Molweni独特地为其多人对话提供了语篇结构信息，共标注了78,245个语篇关系实例，为多人对话语篇结构分析（Discourse  parsing）贡献了大规模数据。
+
+xiaoqian19940510/Event-Extraction 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
+
+zjunlp/openue 开源的通用文本信息抽取工具 三元组抽取 事件抽取 槽填充和意图检测
+
+RUCAIBox/CRSLab 用于构建会话推荐系统（CRS）的开源工具包。 对话推荐任务主要拆分成三个任务：推荐任务（生成推荐的商品），对话任务（生成对话的回复）和策略任务（规划对话推荐的策略）。模型 CRS 模型 ReDial、KBRD、KGSF、TG-ReDial、推荐模型 Popularity、GRU4Rec、SASRec、TextCNN、R-GCN、BERT、对话模型	HERD、Transformer、GPT-2 策略模型	PMI、
+MGCG、Conv-BERT、Topic-BERT、Profile-BERT
+
 
 
 ## 推荐系统
@@ -616,7 +708,6 @@ lyst/lightfm
 tensorflow/recommenders TensorFlow Recommenders is a library for building recommender system models using TensorFlow.
 
 RUCAIBox/RecBole 统一，全面，高效的推荐库，包括： 
-
  * AFM,AutoInt,DCN,DeepFM,DSSM,FFM,FM,FNN,FwFM,LR,NFM,PNN,WideDeep,xDeepFM,BPR,ConvNCF,DGCF,DMF,FISM,GCMC,ItemKNN,LightGCN,NAIS,NeuMF,NGCF,Pop,SpectralCF,CFKG,
  * CKE（Collaborative Knowledge base Embedding 发自16年KDD，将KG与CF融合做联合训练）
  * KGAT Knowledge Graph Attention Network for Recommendation 用KG做增强，捕捉这种高阶交互式特征，做推荐预测。
@@ -698,6 +789,27 @@ twchen/lessr 将会话记录构建成图来建模商品之间的跳转关系的�
 
 NLPWM-WHU/AGNN 区分了推荐系统中的一般冷启动和严格冷启动，并提出了属性图神经网络方法有效应对严格冷启动的场景。
 
+CRIPAC-DIG/SR-GNN 会话序列推荐的图应用 直接将会话序列建模为图结构数据，并使用图神经网络捕获复杂的项目物品item间转换，每一个会话利用注意力机制将整体偏好与当前偏好结合进行表示。同时这种方式也就不依赖用户的表示了，完全只基于会话内部的潜在向量获得Embedding，然后预测下一个点击。
+
+uctoronto/SHAN Sequential Recommender System based on Hierarchical Attention Network 分层注意力网络SHAN用于序列推荐 。提出新颖的两层分层注意力网络，将上述特性考虑进来，用于推荐可能感兴趣的下一个商品。第一层注意力网络基于用户的历史购买商品的表示来学习用户的长期偏好，第二层通过将用户的长期和短期偏好结合起来，输出最终的用户表示。
+
+chenghuige/mind MIND新闻推荐冠军分享细节揭秘
+
+WayneDW/DeepLight_Deep-Lightweight-Feature-Interactions 轻量级特征交互算法deeplight 大幅加速ctr预估在线服务。 一，通过在浅层结构中精确搜索信息量更大的特征交互来加速模型推理，二，在深层结构中，从层内和层间对冗余的层和冗余的参数进行剪枝，三，促使embedding层的稀疏性，进而保持最有判别性的信息。为了解决预测延迟问题，我们通过结构修剪来加速预测，最终以46倍的速度提高而不会牺牲Criteo数据集上的最新性能。
+
+JiachengLi1995/TiSASRec Time Interval Aware Self-Attention for Sequential Recommendation 时间间隔自注意力模型用于序列推荐。 基于序列模型框架对行为的时间戳进行建模，在下一个商品预测中探索不同时间间隔的影响。
+
+wuch15/IJCAI2019-NAML 多视图学习新闻推荐系统 Neural News Recommendation with Attentive Multi-View Learning 可以通过利用不同种类的新闻信息来学习用户和新闻的特征表示。
+
+guoday/Tencent2020_Rank1st  广告受众基础属性预估 2020 Tencent College Algorithm Contest, and the online result ranks 1st.
+
+yuduo93/THIGE 基于时序异质交互图表示学习的商品推荐 将复杂异质的动态交互行为构建为时序异质交互图（Temporal Heterogeneous Interaction Graph, 简称为THIG）进而同时学习用户兴趣和商品表示用于商品推荐。本文提出了一种时序异质图上的表示学习方法，称之为THIGE，充分建模交互行为的异质性，刻画不同类型的兴趣偏好，并融合长、短期兴趣构建用户、商品表示。最后，在3个真实数据集上验证模型的有效性。
+
+imsheridan/DeepRec 推荐、广告工业界经典以及最前沿的论文、资料集合
+
+guyulongcs/CIKM2020_DMT 用于大型电子商务推荐系统中多目标排名的深层多面Transformers模型
+
+
 
 ## 金融股票 时间序列
 
@@ -713,7 +825,7 @@ wangshub/RL-Stock 如何用深度强化学习自动炒股。
 
 tensortrade-org/tensortrade 一个开源强化学习框架，用于训练，评估和部署强大的交易程序。
 
-bsolomon1124/pyfinance 为投资管理和证券收益分析而构建的Python分析包。
+bsolomon1124/pyfinance 为投资管理和证券收益分析而构建的Python分析包。主要是对面向定量金融的现有包进行补充，如pyfolio和pandas-datareader等。pyfinance包含六个模块，它们分别是：datasets.py ：金融数据下载，基于request进行数据爬虫；general.py：通用财务计算，例如主动份额计算，收益分配近似值和跟踪误差优化；ols.py：回归分析，支持pandas滚动窗口回归；options.py：期权衍生品计算和策略分析；returns.py：通过CAPM框架对财务时间序列进行统计分析，旨在模拟FactSet Research Systems和Zephyr等软件的功能，并提高了速度和灵活性；utils.py：基础架构。
 
 arrigonialberto86/deepar Amazon于2017年提出的基于深度学习的时间序列预测方法
 
@@ -722,6 +834,34 @@ fjxmlzn/DoppelGANger 使用GAN共享网络时间序列数据：挑战，初步�
 AIStream-Peelout/flow-forecast 一个开源的深度学习时间序列预测库。包括模型：Vanilla LSTM、Full transformer、Simple Multi-Head Attention、Transformer w/a linear decoder、DA-RNN (CPU only for now)。
 
 microsoft/qlib Qlib是一个面向AI的量化投资平台，旨在实现潜力，增强研究能力并创造AI技术在量化投资中的价值。包括多个模型。
+
+tslearn-team/tslearn 时间序列机器学习python工具包，其中包括了一些基本的时间序列预测或者分类模型，如多层感知机，SVR，KNN以及基本的数据预处理工具和数据集的生成与加载模块。
+
+blue-yonder/tsfresh 时间序列特征提取python工具包，它会自动计算出大量的时间序列特征。此外，该工具包还包含了一些方法，用于评估回归或分类任务中这些特征的解释能力和重要性。
+
+johannfaouzi/pyts 时间序列分类Python工具包。提供预处理工具及若干种时间序列分类算法。
+
+quantopian/alphalens Python量化分析库，它是全球最大量化网站quantopian开发维护的量化三件套之一，用于股票因子(alpha)的性能分析。alphalens与zipline以及pyfolio常常一同使用，其中，pyfolio提供财务组合的性能和风险分析，zipline用于量化策略回测。alphalens的主要功能包括对一个alpha因子进行统计和绘图，包括：因子收益分析、因子信息系数分析、换手率分析以及分组分析。
+
+quantopian/pyfolio 用于金融投资组合的性能和风险分析。它可以很好地与Zipline回测库一起工作。
+
+quantopian/zipline 美国著名的量化策略平台quantopian开发和维护的量化交易库，并且quantopian量化平台的回测引擎也是基于zipline的，除此之外，像国内比较有名的三大矿聚宽(JointQuant)、米筐(RiceQuant)、优矿的回测引擎也是基于此。另外，由于quantopian平台多年的使用，zipline的专业性是可以保证的，并且zipline在github中的代码也在保持不断更新和改进。zipline是一种事件驱动（event-driven）的回测框架，有完整的文档和社区，如果你是对国外美股交易感兴趣，那么zipline将比较合适；但是对于国内像A股的数据则无法支持，只能通过本地化的数据进行回测。
+
+gbeced/pyalgotrade 一个事件驱动的回测框架，虽然不如zipline的名气大，但是同样也具有完善的社区和详细的文档。据说pyalgotrade的运行速度和灵活度要比zipline强，但是缺点是不支持pandas。
+
+mementum/backtrader 一个功能强大的量化策略回测平台。backtrader允许你专注于编写可重用的交易策略、指标和分析工具，而不是花时间构建基础设施。
+
+enigmampc/catalyst 对于虚拟货币交易的量化回测平台。Catalyst是一个底层基于zipline的算法交易框架，目前比较成熟，并且可以支持策略的回测与实盘（ 目前支持四家交易所 Binance, Bitfinex, Bittrex, Poloniex) 。
+
+vnpy/vnpy 国内由陈晓优团队开发量化交易框架，它目前在github上star和fork的数量已经超过了zipline，目前是全球开源量化框架的首位。vn.py主要侧重于实盘交易，同样支持通过历史数据进行回测，包括数据的可视化、收益结果、参数调优等，除此之外，它还具备一些常用的CTA策略、SpreadTrading价差交易、行情录制等功能，并且它还具备完善的社区以及教程。新手在使用时，可以通过它的GUI环境VN Station进行使用，同时也可以基于它的策略模版进行自定义的策略开发。
+
+waditu/tushare 拥有丰富的数据内容，如股票、基金、期货、数字货币等行情数据，公司财务、基金经理等基本面数据。其SDK开发包支持语言，同时提供HTTP Restful接口，最大程度方便不同人群的使用。并且，它提供多种数据储存方式，如Oracle、MySQL，MongoDB、HDF5、CSV等，为数据获取提供了性能保证。
+
+jindaxiang/akshare 基于 Python 的财经数据接口库, 目的是实现对股票、期货、期权、基金、外汇、债券、指数、加密货币等金融产品的基本面数据、实时和历史行情数据、衍生数据从数据采集、数据清洗到数据落地的一套工具, 主要用于学术研究目的。AkShare 的特点是获取的是相对权威的财经数据网站公布的原始数据, 通过利用原始数据进行各数据源之间的交叉验证, 进而再加工, 从而得出科学的结论。
+
+zhouhaoyi/Informer2020 效果远超Transformer的长序列预测，提出了ProbSparse self-attention机制来高效的替换常规的self-attention并且获得了的O（LlogL)时间复杂度以及O(LlogL)的内存使用率,提出了self-attention distilling操作，它大幅降低了所需的总空间复杂度O((2-e)LlogL)；我们提出了生成式的Decoder来获取长序列的输出，这只需要一步，避免了在inference阶段的累计误差传播；
+
+deeptime-ml/deeptime 用于分析时间序列数据，包括降维，聚类和马尔可夫模型估计
 
 ## 神经网络结构搜索 Neural Architecture Search
 
@@ -736,7 +876,6 @@ researchmm/CDARTS 循环可微架构搜索
 xiaomi-automl/FairDARTS 消除差异化架构搜索中的不公平优势
 
 ## 虚拟化
-
 jesseduffield/lazydocker docker 简单终端 UI
 
 KubeOperator/KubeOperator 
@@ -748,7 +887,6 @@ docker-slim/docker-slim 请勿更改Docker容器映像中的任何内容并将�
 silenceshell/docker_mirror 发现国内加速的docker源。
 
 ## 网络爬虫 下载
-
 soimort/you-get youtube下载
 
 shengqiangzhang/examples-of-web-crawlers python爬虫例子
@@ -758,7 +896,6 @@ itgoyo/Aria2  突破百度云限速合集
 PanDownloadServer/Server 百度云PanDownload的个人维护版本
 
 ## 语音
-
 JasonWei512/Tacotron-2-Chinese 中文语音合成
 
 TensorSpeech/TensorflowTTS Tensorflow 2的实时最新语音合成
@@ -781,8 +918,43 @@ JasonWei512/wavenet_vocoder  WaveNet 声码器
 
 deezer/spleeter 人声分离模型
 
-## 其他
+ZhengkunTian/OpenTransformer 语音识别的无重复序列到序列模型，实现 aishell 6.7％的CER。
 
+mobvoi/wenet 生产优先和生产就绪的端到端语音识别工具包 在aishell测试上已经做到5以内的CER
+
+tencent-ailab/pika 基于Pytorch和（Py）Kaldi的轻量级语音处理工具包 PIKA 具备以下特征：即时数据增强和特征加载器；TDNN Transformer 编码器，以及基于卷积和 Transformer 的解码器结构；RNNT 训练和批解码；利用 Ngram FST 的 RNNT 解码（即时重评分、aka 和 shallow fusion）；RNNT 最小贝叶斯风险（MBR）训练；用于 RNNT 的 LAS 前向与后向重评分器；基于高效 BMUF（块模型更新过滤）的分布式训练。
+
+tulasiram58827/TTS_TFLite 提供了TFLite中广泛流行的文本语音转换（TTS）模型的集合。
+
+## 生物医药
+
+mims-harvard/TDC Therapeutics Data Commons (TDC)，第一个机器学习在生物医药的大规模数据集。TDC目前包含了20+有意义的任务，和70多个高质量数据集，从靶蛋白的发现，药物动力学，安全性，药物生产都有包含到。而且不仅仅是小分子，还有抗体，疫苗，miRNA等。之后也会加入CRISPR，Clinical Trials等等。
+
+kexinhuang12345/DeepPurpose 一个基于PyTorch的工具包来解锁50多个用于药物-靶标相互作用（Drug-Target Interaction）预测的模型。DTI预测是新药研发中的一项基本任务。DeepPurpose的操作模式是像scikit-learn一样。只需几行代码，就可以利用最前沿的深度学习和药物研发模型。DeepPurpose还有一个简单的界面来做DTI预测的两个重要应用：虚拟筛选（Virtual Screening）和旧药新用（Drug Repurposing）。
+
+FangpingWan/DeepCPI 基于深度学习的化合物和蛋白质相互作用预测框架
+
+marcopodda/fragment-based-dgm 基于片段的分子深度生成模型.作者在ZINC数据集上进行了实验，该数据由250K类药物化合物组成。为了进一步评估LFM的影响，作者还使用了Pub Chem Bio Assay(PCBA)数据集测试了模型变体，该数据集包括约440k小分子。
+
+salesforce/provis BERTology Meets Biology: Interpreting Attention in Protein Language Models 注意力机制在蛋白质语言模型的应用
+
+Mariewelt/OpenChem 用于计算化学和药物设计研究的深度学习工具包
+
+lrsoenksen/CL_RNA_SynthBio  RNA合成生物学的深度学习
+
+ElwynWang/DeepFragLib  基于深度神经网络和改进的片段测序方法从头预测蛋白质结构
+
+lanagarmire/DeepImpute 一种基于深度神经网络来插补单细胞RNA测序数据的方法
+
+emreg00/toolbox 疾病和药物相关的生物学数据集时所使用的各种脚本。它包含用于数据处理的通用实用程序（例如，解析，基于网络的分析，邻近性等）。
+
+thinng/GraphDTA 使用图神经网络预测药物-靶标的结合亲和力
+
+futianfan/CORE 利用复制和改进策略自动优化分子
+
+ruoqi-liu/DeepIPW 基于真实世界患者数据的药物重定位的深度学习框架
+
+## 其他
 modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
 
 huihut/interview C/C++ 技术面试基础知识总结
@@ -807,8 +979,6 @@ kornia/kornia 基于 PyTorch 的可微分的计算机视觉 （differentiable co
 
 microsoft/Bringing-Old-Photos-Back-to-Life 旧照片修复
 
-kexinhuang12345/DeepPurpose 一个基于PyTorch的工具包来解锁50多个用于药物-靶标相互作用（Drug-Target Interaction）预测的模型。DTI预测是新药研发中的一项基本任务。DeepPurpose的操作模式是像scikit-learn一样。只需几行代码，就可以利用最前沿的深度学习和药物研发模型。DeepPurpose还有一个简单的界面来做DTI预测的两个重要应用：虚拟筛选（Virtual Screening）和旧药新用（Drug Repurposing）。
-
 bennettfeely/bennett ztext 易于实现的3D网页排版。适用于每种字体。
 
 DaveJarvis/keenwrite 基于Java的桌面Markdown编辑器，具有实时预览，字符串插值和公式
@@ -822,12 +992,6 @@ occlum/occlum 蚂蚁集团自研的开源可信执行环境（Trusted Execution 
 matazure/mtensor 一个tensor计算库, 支持cuda的延迟计算
 
 fofapro/vulfocus 一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。
-
-FangpingWan/DeepCPI 基于深度学习的化合物和蛋白质相互作用预测框架
-
-marcopodda/fragment-based-dgm 基于片段的分子深度生成模型.作者在ZINC数据集上进行了实验，该数据由250K类药物化合物组成。为了进一步评估LFM的影响，作者还使用了Pub Chem Bio Assay(PCBA)数据集测试了模型变体，该数据集包括约440k小分子。
-
-salesforce/provis BERTology Meets Biology: Interpreting Attention in Protein Language Models 注意力机制在蛋白质语言模型的应用
 
 hoya012/awesome-anomaly-detection 异常检测
 
@@ -843,7 +1007,13 @@ rwv/chinese-dos-games 中文 DOS 游戏
 
 nondanee/UnblockNeteaseMusic 解锁网易云音乐客户端变灰歌曲
 
+fffaraz/awesome-cpp A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 
+architras/Advanced_Lane_Lines 基于阈值的车道标记
 
+Genymobile/scrcpy 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
 
+openstf/minitouch 最小的Android多点触控事件生成器。
+
+open-mmlab/mmskeleton 用于人体姿势估计，基于骨骼的动作识别和动作合成。
 
