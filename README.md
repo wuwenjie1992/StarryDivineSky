@@ -1,7 +1,10 @@
 # mystars
 个人的github stars，主要是机器学习、深度学习、NLP、GNN、大数据等内容。
 
-# 机器学习
+# 机器学习、深度学习
+
+PyTorchLightning/PyTorch-lightning 基于Pytorch的轻量高级计算框架，相当于Pytorch的Keras框架。
+
 alibaba/MNN 一个轻量级的深度神经网络推理引擎
 
 Tencent/TNN 移动端高性能、轻量级推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势
@@ -60,7 +63,7 @@ modin-project/modin 通过更改一行代码来扩展加速pandas
 
 vaexio/vaex 适用于Python的核外DataFrame，以每秒十亿行的速度可视化和探索大型表格数据
 
-cupy/cupy NumPy-like API accelerated with CUDA https://cupy.chainer.org
+cupy/cupy NumPy-like API accelerated with CUDA 
 
 serge-sans-paille/pythran 将 Python 代码转成 C++ 代码执行 一个 AOT (Ahead-Of-Time - 预先编译) 编译器，大幅度提升性能。
 
@@ -71,8 +74,6 @@ RAPIDS Open GPU Data Science http://rapids.ai
  * cusignal cuSignal - RAPIDS Signal Processing Library
 
 AtsushiSakai/PythonRobotics 机器人算法
-
-cuML GPU 机器学习算法
 
 SQLFlow 连接 SQL 引擎的桥接，与机器学习工具包连接
 
@@ -110,8 +111,6 @@ mit-han-lab/mcunet IoT硬件上精简的深度学习库 Tiny Deep Learning on Io
 
 Aimhubio/Aim 一个超级简单的记录、查找、比较AI实验的库。
 
-PyTorchLightning/PyTorch-lightning 基于Pytorch的轻量高级计算框架，相当于Pytorch的Keras框架。
-
 microsoft/onnxruntime 跨平台深度学习训练和推理机加速器，与深度学习框架，可以兼容TensorFlow、Keras和PyTorch等多种深度学习框架。Open Neural Network Exchange)是用于表示深度学习模型的开放格式，定义了通用运算符、机器学习和深度学习模型的构建块以及通用文件格式，使AI开发人员可以将模型与各种框架、工具和编译器一起使用。
 
 microsoft/hummingbird 将训练有素的机器学习模型编译为张量计算，以加快推理速度。 一个用于将经过训练的传统ML模型编译为张量计算的库。
@@ -141,6 +140,17 @@ teddykoker/torchsort 快速可微分排序算法PyTorch包，配有自定义C ++
 man-group/dtale pandas数据结构的可视化工具
 
 google/model_search 为了帮助研究者自动、高效地开发最佳机器学习模型，谷歌开源了一个不针对特定领域的 AutoML 平台。该平台基于 TensorFlow 构建，非常灵活，既可以找出最适合给定数据集和问题的架构，也能够最小化编程时间和计算资源。
+
+neuronika/neuronika 纯Rust的张量和动态神经网络库。
+
+e-tony/best-of-ml-rust 一个令人赞叹的Rust机器学习排名表。
+
+awslabs/autogluon 为文本、图像、表格数据开发的自动机器学习库（AutoML）。
+
+luwill/Machine_Learning_Code_Implementation 机器学习算法的数学推导和纯Python代码实现。
+
+ml-tooling/best-of-ml-python 一个令人赞叹的python机器学习排名表，每周更新。
+
 
 ## 参数优化
 
@@ -210,8 +220,8 @@ dmlc/xgboost 梯度提升
   * PaddlePaddle/PGL 基于PaddlePaddle的高效灵活的图学习框架
   * THUDM/cogdl 由清华大学计算机系知识工程实验室（KEG）开发的基于图的深度学习的研究工具，基于Python语言和Pytorch库。
   * THUMNLab/AutoGL 开源自动图学习工具包：AutoGL (Auto Graph Learning)，支持在图数据上全自动进行机器学习。
-* benedekrozemberczki/pytorch_geometric_temporal 该库包含来自各种已发表研究论文的dynamic+temporal图深度学习，embedding以及spatio-temporal regression 方法。它还带有许多带有时间和动态图的基准数据集。离散递归图卷积 DCRNN GConvGRU GConvLSTM GC-LSTM LRGCN DyGrEncoder EvolveGCNH EvolveGCNO ；辅助图卷积 Temporal Graph Convolutions 时间图卷积 STGCN ；Auxiliary Graph Convolutions TemporalConv DConv 
-* divelab/DIG DIG 工具包支持 4 个研究方向：图生成、图自监督学习、图神经网络可解释性以及 3D 图深度学习。对于每个领域，DIG 都提供了通用、可扩展的数据接口、常用算法与评估标准实现。
+  * benedekrozemberczki/pytorch_geometric_temporal 该库包含来自各种已发表研究论文的dynamic+temporal图深度学习，embedding以及spatio-temporal regression 方法。它还带有许多带有时间和动态图的基准数据集。离散递归图卷积 DCRNN GConvGRU GConvLSTM GC-LSTM LRGCN DyGrEncoder EvolveGCNH EvolveGCNO ；辅助图卷积 Temporal Graph Convolutions 时间图卷积 STGCN ；Auxiliary Graph Convolutions TemporalConv DConv 
+  * divelab/DIG  支持研究方向：图生成、图自监督学习、图神经网络可解释性以及 3D 图深度学习。对于每个领域，DIG 都提供了通用、可扩展的数据接口、常用算法与评估标准实现。
   
 * ## 图注意力机制
   * PetarV-/GAT Graph Attention Networks 
@@ -229,6 +239,7 @@ dmlc/xgboost 梯度提升
   * Googlebaba/KDD2019-MEIRec 基于异质图神经网络的用户意图推荐
   * Andy-Border/HGSL 异质图结构学习(Heterogeneous Graph Structure Learning)问题，并提出了HGSL框架来联合学习适合分类的异质图结构和图神经网络参数。通过挖掘特征相似性、特征与结构之间的交互以及异质图中的高阶语义结构来生成适合下游任务的异质图结构并联合学习 GNN参数。三个数据集上的实验结果表明，HGSL 的性能优于基线模型。
   * yuduo93/THIGE 将复杂异质的动态交互行为构建为时序异质交互图（Temporal Heterogeneous Interaction Graph, 简称为THIG）进而同时学习用户兴趣和商品表示用于商品推荐。本文提出了一种时序异质图上的表示学习方法，称之为THIGE，充分建模交互行为的异质性，刻画不同类型的兴趣偏好，并融合长、短期兴趣构建用户、商品表示。最后，在3个真实数据集上验证模型的有效性。
+  * iqiyi/HMGNN 异构小图神经网络及其在拉新裂变风控场景的应用 尝试通过图神经网络对欺诈邀请进行检测的方法。在GCN和异构图神经网络的基础上，HMGNN使用超图和异构图卷积克服了小图和异构图带来的问题。并在实际拉新场景中取得了不错的效果。此外，我们也在尝试将其应用到更广阔的场景中，比如金融反欺诈、关注&点赞反作弊等问题。
 
 * ## 图嵌入、网络表征学习
   * thunlp/OpenKE 一个使用PyTorch实现的知识嵌入开源框架。RESCAL、DistMult, ComplEx, Analogy、TransE, TransH, TransR, TransD、SimplE、RotatE
@@ -263,16 +274,19 @@ dmlc/xgboost 梯度提升
   * rootlu/MMDNE 从微观/宏观两种层级建模动态网络中节点演化规律，并能够在节点表示中学习到这种规律。微观更偏向于捕捉具体边对形成过程 宏观更偏向于从网络动力学挖掘网络演变的规律，最终生成节点的表示。
   * skx300/DyHATR 同时考虑到图的异构性和动态性的特点，对于图的每个时间切片，利用node-level attention和edge-level attention以上两个层次的注意力机制实现异质信息的有效处理，并且通过循环神经网络结合self-attention研究节点embedding的演化特性，并且通过链接预测任务进行试验，验证模型的有效性。
   * aravindsankar28/DySAT 提出了DYNAMIC SELF-ATTENTION NETWORK机制，通过结构化注意力模块与时态注意力模块对动态变化的节点进行表示。
+  * luckiezhou/DynamicTriad 依据动态网络的特性，提出了依据triad结构建模动态图演化模式的方法DynamicTraid。三元组（Triad）演化的过程就是三个节点中两个互不链接的节点之间建立链接，形成一个闭合三元组的过程。作者在几个不同的真实业务场景（电信欺诈，贷款偿还等）数据集中做了实验，证明了模型的有效性。
 
 * ## 知识图谱问答KBQA、多跳推理
-  * malllabiisc/EmbedKGQA 使用知识库嵌入改进知识图上的多跳问题回答
+  * malllabiisc/EmbedKGQA 基于知识图谱嵌入的链路预测处理多跳问答。首先训练实体嵌入，随后利用实体嵌入学习问题嵌入，预测时对所有实体，构建(head entity, question)并评分，并选择评分最高的头实体作为答案。能很好地处理知识图谱中的不完整和稀疏的问题
   * cdjhz/multigen Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph 基于常识知识图的多跳推理语言生成 本研究关注一类条件文本生成任务，即给定输入源文本X，目标是生成一段目标文本 Y。研究员们额外增加了一个知识图谱 G=(V,E) 的输入为模型在生成时提供常识知识的信息。
   * INK-USC/MHGRN 基于知识库的多跳关系推理 本篇文章提出了multi-hop relational reasoning module（多跳关系推理模型）叫做MHGRN多跳推理网络。该模型在额外的多跳知识图谱中抽取的子网络中进行推理。本文提出的方法将已有的基于路径的常识推理以及GCN融合在了一起，并在CommonsenseQA和OpenbookQA上取得了良好的效果。
   * lanyunshi/Multi-hopComplexKBQA 查询图生成，用于回答知识库中的多跳复杂问题.提出了一种改进的分阶段查询图生成方法，该方法具有更灵活的生成查询图的方式。在查询图生成的每一步，包含三种预定义的操作：扩展、连接、聚合。
- * nju-websoft/SPARQA 基于知识库的问题解答,提出了一种新颖的骨架语法来表示一个复杂问题的高级结构。骨架语法本质上是依赖语法的一个选定子集，用于专门表示复杂问题的高级结构。这种专用的粗粒度表示形式由于其简单性而可能具有准确的解析算法，有助于提高下游细粒度语义解析的准确性。
- * mori97/JKNet-dgl 跳跃知识网络的dgl实现
- * THUDM/CogQA 基于认知图谱实现多跳阅读.从人类的认知过程中受到启发。双过程理论认为，我们的大脑思考过程由两套系统构成: System1 和 System 2。System 1: 我们的大脑首先通过System 1隐式的、无意识的和凭借直觉的过程来检索相关信息。System 2: 在System 1过程的基础上，再进行一个显式的、有意识的、可控的推理过程，即System 2。作者使用BERT模型构建System 1，使用GNN模型构建System 2。
- * michiyasunaga/qagnn GNN 在融合 QA 上下文与 KG 的一个尝试，在问答任务上相比现有的预训练语言模型、以及预训练 +KG 模型，都有不小的提升。同时，使用 attention-base GNN，能够可视化知识图谱中节点之间的注意力关系，有助于提高 QA 可解释性和结构化推理的能力。
+  * nju-websoft/SPARQA 基于知识库的问题解答,提出了一种新颖的骨架语法来表示一个复杂问题的高级结构。骨架语法本质上是依赖语法的一个选定子集，用于专门表示复杂问题的高级结构。这种专用的粗粒度表示形式由于其简单性而可能具有准确的解析算法，有助于提高下游细粒度语义解析的准确性。
+  * mori97/JKNet-dgl 跳跃知识网络的dgl实现
+  * THUDM/CogQA 基于认知图谱实现多跳阅读.从人类的认知过程中受到启发。双过程理论认为，我们的大脑思考过程由两套系统构成: System1 和 System 2。System 1: 我们的大脑首先通过System 1隐式的、无意识的和凭借直觉的过程来检索相关信息。System 2: 在System 1过程的基础上，再进行一个显式的、有意识的、可控的推理过程，即System 2。作者使用BERT模型构建System 1，使用GNN模型构建System 2。
+  * michiyasunaga/qagnn GNN 在融合 QA 上下文与 KG 的一个尝试，在问答任务上相比现有的预训练语言模型、以及预训练 +KG 模型，都有不小的提升。同时，使用 attention-base GNN，能够可视化知识图谱中节点之间的注意力关系，有助于提高 QA 可解释性和结构化推理的能力。
+  * BDBC-KG-NLP/QA-Survey 北航大数据高精尖中心研究张日崇团队对问答系统的总结。包括基于知识图谱的问答（KBQA），基于文本的问答系统（TextQA），基于表格的问答系统（TabletQA）和基于视觉的问答系统（VisualQA），每类系统分别对学术界和工业界进行总结。
+  * WenRichard/KBQA-BERT 基于知识图谱的问答系统，BERT做命名实体识别和句子相似度，分为online和outline模式 
 
 * ## 知识图谱
   * autoliuweijie/K-BERT Enabling Language Representation with Knowledge Graph ，已被AAAI2020所录取，是较早的考虑将知识图谱中的边关系引入预训练模型的论文。论文链接：arxiv.org/pdf/1909.07606v1.pdf 主要通过修改Transformer中的attention机制，通过特殊的mask方法将知识图谱中的相关边考虑到编码过程中，进而增强预训练模型的效果。
@@ -282,6 +296,8 @@ dmlc/xgboost 梯度提升
   * yeliu918/KG-BART 知识图谱增强的预训练模型的生成式常识推理.KG-BART可以利用图上的注意力来聚集丰富的概念语义，从而增强对看不见的概念集的模型泛化。
   * jacklin18/KGNN IJCAI'20 "KGNN: Knowledge Graph Neural Network for Drug-Drug Interaction Prediction" 基于知识图谱的图神经网络（KGNN），以解决DDI预测问题。该框架可通过在KG中挖掘相关联的关系，来有效地捕获药物及其潜在的邻域实体信息。
   * bernhard2202/intkb 一种交互式知识图谱补全框架
+  * husthuke/awesome-knowledge-graph 整理知识图谱相关学习资料
+  * wangbo9719/StAR_KGC Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion 结构增强文本表示学习，实现高效知识图完成.知识图谱补全 
 
 * ## 图预训练  Pre-Training of Graph
   * THUDM/GCC Graph Contrastive Coding for Graph Neural Network Pre-Training 用于图形神经网络预训练的图形对比编码，下游任务：节点分类、图分类、相似性搜索。
@@ -303,6 +319,10 @@ dmlc/xgboost 梯度提升
       * r_gcn 强大的图卷积网络，抵抗对抗攻击。KDD 2019。
   * ChandlerBang/awesome-graph-attack-papers 此存储库旨在提供有关图形数据或 GNN（图形神经网络）上对抗性攻击和防御作品的链接。
   * MengmeiZ/LafAK 图神经网络的对抗标签翻转攻击与防御.提出了基于自监督的防御框架, 以社区分类作为辅助任务，引入社区级别的信号以惩罚过拟合翻转标签的GNN。
+  * snap-stanford/gib 图信息瓶颈 (GIB)。研究者基于该原则构建了两个 GNN 模型：GIB-Cat 和 GIB-Bern，二者在抵御对抗攻击时取得了优异的性能。 图信息Bottleneck打造图最优表示->避免过拟合，并具备稳健性
+  * liaopeiyuan/GAL Graph AdversariaL Networks 图对抗网络 Information Obfuscation of Graph Neural Networks 图神经网络的信息模糊处理,使得攻击者很难推断。
+
+
 
 benedekrozemberczki/ClusterGCN
 
@@ -342,7 +362,7 @@ thunlp/KB2E
 
 RLgraph 用于深度强化学习的模块化计算图
 
-hwwang55/RippleNet 将知识图谱作为额外信息，融入到CTR/Top-K推荐。完整的逐行中文注释笔记在：https://github.com/nakaizura/Source-Code-Notebook/tree/master/RippleNet
+hwwang55/RippleNet 将知识图谱作为额外信息，融入到CTR/Top-K推荐。[完整的逐行中文注释笔记](https://github.com/nakaizura/Source-Code-Notebook/tree/master/RippleNet)
 
 THUDM/cogdl 用于图形表示学习的广泛研究平台
 
@@ -364,8 +384,6 @@ safe-graph/DGFraud 基于深度图的工具箱，用于欺诈检测
 
 safe-graph/graph-fraud-detection-papers 基于图的欺诈检测论文和资源
 
-xiangwang1223/neural_graph_collaborative_filtering 神经图协同过滤（NGCF）是一种基于图神经网络的新推荐框架，通过执行嵌入传播，在用户项二部图中以高阶连通性的形式对协同信号进行显式编码。
-
 aister2020/KDDCUP_2020_AutoGraph_1st_Place KDD KDD CUP 2020自动图形表示学习：第一名解决方案。实现了四种不同的模型GCN、GAT、GraphSage、TAGConv
 
 snap-stanford/distance-encoding 距离编码-为结构表示学习设计更强大的GNN，提出了一类与结构相关的特征，称为距离编码(Distance Encoding，DE)，以帮助 GNN 以比 1-WL test 更严格的表达能力来表示任意大小的节点集。
@@ -373,8 +391,6 @@ snap-stanford/distance-encoding 距离编码-为结构表示学习设计更强�
 megvii-research/DPGN DPGN: Distribution Propagation Graph Network for Few-shot Learning 分布传播图网络的小样本学习
 
 THUDM/GRAND Graph Random Neural Network (GRAND)，一种用于图半监督学习的新型图神经网络框架。在模型架构上，GRAND 提出了一种简单有效的图数据增强方法 Random Propagation，用来增强模型鲁棒性及减轻过平滑。基于 Random Propagation，GRAND 在优化过程中使用一致性正则（Consistency Regularization）来增强模型的泛化性，即除了优化标签节点的 cross-entropy loss 之外，还会优化模型在无标签节点的多次数据增强的预测一致性。节点预测 state of the Art.
-
-snap-stanford/gib 图信息瓶颈 (GIB)。研究者基于该原则构建了两个 GNN 模型：GIB-Cat 和 GIB-Bern，二者在抵御对抗攻击时取得了优异的性能。 图信息Bottleneck打造图最优表示->避免过拟合，并具备稳健性
 
 CUAI/CorrectAndSmooth 标签信息 + 简单模型 直接使用标签进行预测。与 其他方案相比，本文中的 C&S 模型需要的参数量往往要少得多。在很多标准直推式节点分类（transductive node classification）基准上，超过或媲美当前最优 GNN 的性能。
 
@@ -384,15 +400,11 @@ YuGuangWang/PAN 借鉴了物理中的一些概念，设计了一种 path integra
 
 lukecavabarrett/pna 作者提出了 Principal Neighbourhood Aggregation (PNA)，一种考虑了 degree 的全新的 GNN 聚合器（泛化了现有的求和聚合器）。作者通过一些图例形象的解释了现有的各种聚合器的表示能力及其缺陷。
 
-luckiezhou/DynamicTriad 依据动态网络的特性，提出了依据triad结构建模动态图演化模式的方法DynamicTraid。三元组（Triad）演化的过程就是三个节点中两个互不链接的节点之间建立链接，形成一个闭合三元组的过程。作者在几个不同的真实业务场景（电信欺诈，贷款偿还等）数据集中做了实验，证明了模型的有效性。
-
 benedekrozemberczki/SimGNN A Neural Network Approach to Fast Graph Similarity Computation  图相似度计算
 
 snap-stanford/GraphGym Identity-aware Graph Neural Networks一种身份感知图神经网络对现有的消息传递 GNN 进行了扩展，将其性能提升到了高于 1-WL 测试的水平。实验结果表明，将现有的 GNN 转变为 ID-GNN 可以在难以分类的节点预测、边预测、图属性预测任务中获得平均 40% 的准确率提升；在节点和图分类对比基准任务中可以获得 3%的准确率提升；在现实世界中的链接预测任务重可以获得 15% 的 ROC UC 提升。
 
 YuweiCao-UIC/KPGNN 图神经网络增量学习在事件检测中的应用 
-
-iqiyi/HMGNN 异构小图神经网络及其在拉新裂变风控场景的应用 尝试通过图神经网络对欺诈邀请进行检测的方法。在GCN和异构图神经网络的基础上，HMGNN使用超图和异构图卷积克服了小图和异构图带来的问题。并在实际拉新场景中取得了不错的效果。此外，我们也在尝试将其应用到更广阔的场景中，比如金融反欺诈、关注&点赞反作弊等问题。
 
 divelab/DeeperGNN 解耦Transformation和Propagation的深度图神经网络 1、Transformation操作：MLP操作，torch.nn.Linear线性映射操作；2、Propagation操作：图中的邻居节点往中心节点汇聚的操作，最简单的实现方式是AH，A是图的邻接矩阵，H是图的特征矩阵。
 
@@ -401,6 +413,8 @@ BUPT-GAMMA/CPF 提出了一个有效的知识蒸馏框架，以将任意预训�
 WangXuhongCN/APAN Asynchronous Propagation Attention Network for Real-time Temporal Graph Embedding 实时时间图嵌入的异步传播注意网络
 
 flyingdoog/PGExplainer GNN 的参数化解释器 PGExplainer。PGExplainer 利用深度神经网络对解释的生成过程进行参数化处理，能够实现同时对多个实例进行解释。
+
+lsj2408/GraphNorm 图归一化:一种加速图神经网络训练的原则性方法,通过一个可学习的移位来归一化每个单独图的所有节点上的特征值。收敛速度要快得多。GraphNorm还改进了GNN的泛化，在图分类基准上实现了更好的性能。
 
 
 # NLP自然语言处理
@@ -503,8 +517,22 @@ flyingdoog/PGExplainer GNN 的参数化解释器 PGExplainer。PGExplainer 利�
   * bojone/dgcnn_for_reading_comprehension 基于膨胀门卷积的阅读理解式问答模型（Keras实现）
   * cooelf/AwesomeMRC 对MRC的研究摘要和参考资料
   * nlpdata/c3 中文机器阅读理解数据集 multiple-Choice Chinese machine reading Comprehension dataset.
-  * qiufengyuyi/event_extraction 百度aistudio事件抽取比赛 使用机器阅读理解的方式来尝试解决。
+  * qiufengyuyi/event_extraction 百度aistudio事件抽取比赛 使用机器阅读理解来尝试解决。
+  * liuhuanyong/MiningZhiDaoQACorpus 百度知道问答语料库，包括超过580万的问题，938万的答案，5800个分类标签。基于该问答语料库，可支持多种应用，如闲聊问答，逻辑挖掘。 
+  * xv44586/ccf_2020_qa_match CCF2020问答匹配比赛 任务是：给定IM交流片段，片段包含一个客户问题以及随后的经纪人若干IM消息，从随后的经纪人消息中找出一个是对客户问题的回答。
+  * lgw863/LogiQA-dataset 数据集包含8,678个QA实例
+  * HIT-SCIR/Molweni 提出了构建于多人对话的英文机器阅读理解（MRC）数据集——Molweni，并覆盖了对话语篇结构。Molweni源自于Ubuntu聊天语料库，包括10,000个对话，共计88,303条话语（utterance）。我们共标注了30,066个问题，包括可回答和不可回答的问题。Molweni独特地为其多人对话提供了语篇结构信息，共标注了78,245个语篇关系实例，为多人对话语篇结构分析（Discourse  parsing）贡献了大规模数据。
 
+* ## NLP语料和数据集
+  * thu-coai/CrossWOZ 大规模的中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
+  * goto456/stopwords 中文常用停用词表
+  * chatopera/Synonyms 用于自然语言处理和理解的中文同义词。
+  * RUCAIBox/TG-ReDial 一个电影领域的对话推荐数据集TG-ReDial (Recommendation through Topic-Guided Dialog)。它包含1万个完整的对话和近13万条语句，加入了话题线索以实现将用户引导至推荐场景这一语义的自然转移，并且采用半自动的方式构建，保留了用户真实的个性化信息（如交互历史，偏好主题），使得人工标注过程更加合理可控。
+  * fighting41love/funNLP NLP民工的乐园: 几乎最全的中文NLP资源库 中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱
+  * brightmart/nlp_chinese_corpus 大规模中文自然语言处理语料 维基百科json版(wiki2019zh) 新闻语料json版(news2016zh) 百科类问答json版(baike2018qa) 社区问答json版(webtext2019zh) ：大规模高质量数据集 翻译语料(translation2019zh)
+  * msra-nlc/ChineseKBQA NLPCC-ICCPOL 2016 Shared Task: Open Domain Chinese Question Answering [开放域中文问答数据集](http://tcci.ccf.org.cn/conference/2016/pages/page05_evadata.html)
+  * jkszw2014/bert-kbqa-NLPCC2017 A trial of kbqa based on bert for NLPCC2016/2017 Task 5 (基于BERT的中文知识库问答实践） 
+  * wavewangyue/NLPCC-MH  中文多跳问答数据集 基于 NLPCC 所包含的单跳问题，通过扩充问句内容的方式，构建了一个专注多跳问题的中文 KBQA 数据集
 
 EleutherAI/gpt-neo 模型并行GPT2和类似GPT3的模型的实现，能够使用mesh-tensorflow库扩展到完整的GPT3尺寸（甚至可能更多！）。
 
@@ -516,25 +544,19 @@ ymcui/Chinese-XLNet 面向中文的XLNet预训练模型
 
 bojone/attention  Attention机制的实现tensorflow/keras
 
-ouyanghuiyu/chineseocr_lite 超轻量级中文ocr
-
 LeeSureman/Flat-Lattice-Transformer 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
 
-thu-coai/CrossWOZ 大规模的中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
-
-425776024/nlpcda 一键中文数据增强工具,支持：1.随机实体替换 2.近义词 3.近义近音字替换 4.随机字删除 5.NER类 BIO 数据增强 6.随机置换邻近的字  7.百度中英翻译互转实现的增强  8.中文等价字替换
+425776024/nlpcda 中文数据增强工具,：1.随机实体替换 2.近义词 3.近义近音字替换 4.随机字删除 5.NER类 BIO 数据增强 6.随机置换邻近的字  7.百度中英翻译互转实现的增强  8.中文等价字替换
 
 wac81/textda Python3中文文本的数据增强
 
 zhanlaoban/EDA_NLP_for_Chinese 适合中文语料的数据增强EDA的实现
 
-goto456/stopwords 中文常用停用词表
-
-chatopera/Synonyms 用于自然语言处理和理解的中文同义词。
-
 ShomyLiu/Neu-Review-Rec Pytorch的基于评论文本的深度推荐系统模型库。DeepCoNN(WSDM'17)、D-Attn(RecSys'17)、ANR(CIKM'18)、NARRE(WWW'18)、MPCN(KDD'18)、TARMF(WWW'18)、CARL(TOIS'19)、CARP(SIGIR'19)、DAML(KDD'19)
 
 squareRoot3/Target-Guided-Conversation 目标指导的开放域对话,在开放域的聊天中目标引导.
+
+JasonForJoy/MPC-BERT MPC-BERT：一种预训练的多方会话理解语言模型.多方会话（MPC）的各种神经模型在收件人识别、说话人识别和反应预测等方面取得了显著的进展。
 
 weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
 
@@ -544,7 +566,7 @@ microsoft/unilm UniLM-NLP及更高版本的统一语言模型预训练
 
 YunwenTechnology/Unilm UniLM模型既可以应用于自然语言理解（NLU）任务，又可以应用于自然语言生成（NLG）任务。论文来自微软研究院。模型虽然强大，但微软并没有开源中文的预训练模型。因此云问本着开源之前，将我们预训练好的中文unilm_base模型进行开源。
 
-airaria/TextBrewer 基于PyTorch实现的NLP任务知识蒸馏工具包，适用于多种模型结构，支持自由组合各种蒸馏策略，并且在文本分类、阅读理解、序列标注等典型NLP任务上均能获得满意的效果。 
+airaria/TextBrewer 基于PyTorch的NLP任务知识蒸馏工具包，适用于多种模型结构，支持自由组合各种蒸馏策略，并且在文本分类、阅读理解、序列标注等典型NLP任务上均能获得满意的效果。 
 
 czhang99/SynonymNet 基于多个上下文双向匹配的同义实体发现
 
@@ -564,11 +586,13 @@ ChenghaoMou/pytorch-pQRNN pQRNN 结合一个简单的映射和一个quasi-RNN编
 
 alibaba/EasyTransfer 自然语言处理的迁移学习工具。主要特性：预训练语言模型工具，丰富且高质量的预训练模型库 BERT, ALBERT, RoBERTa, T5, etc,丰富且易用的NLP应用 如文本匹配、分本分类、机器阅读理解MRC，自动化的知识蒸馏，易用且高效的分布式训练。
 
-RUCAIBox/TG-ReDial 一个电影领域的对话推荐数据集TG-ReDial (Recommendation through Topic-Guided Dialog)。它包含1万个完整的对话和近13万条语句，加入了话题线索以实现将用户引导至推荐场景这一语义的自然转移，并且采用半自动的方式构建，保留了用户真实的个性化信息（如交互历史，偏好主题），使得人工标注过程更加合理可控。
-
 RUCAIBox/TG_CRS_Code TG-ReDial相应的推荐、回复生成、主题预测功能实现。
 
 loujie0822/DeepIE DeepIE： 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
+
+xiaoqian19940510/Event-Extraction 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
+
+231sm/Reasoning_In_EE 利用本体表示学习实现低资源的事件抽取
 
 Qznan/QizNLP 快速运行分类、序列标注、匹配、生成等NLP任务的Tensorflow框架 (中文 NLP 支持分布式）
 
@@ -580,17 +604,9 @@ XiaoMi/MiNLP/tree/main/minlp-tokenizer 小米 AI 实验室 NLP 团队开发的�
 
 explosion/spaCy 工业级强度的NLP工具包，被称为最快的工业级自然语言处理工具。支持多种自然语言处理的基本功能，主要功能包括分词、词性标注、词干化、命名实体识别、名词短语提取等。
 
-xv44586/ccf_2020_qa_match CCF2020问答匹配比赛 本次赛题的任务是：给定IM交流片段，片段包含一个客户问题以及随后的经纪人若干IM消息，从这些随后的经纪人消息中找出一个是对客户问题的回答。
-
 TanyaZhao/MRC4ERE_plus 提出有效和多样的问题：基于机器阅读理解的联合实体关系提取框架
 
-lgw863/LogiQA-dataset 数据集包含8,678个QA实例
-
 microsoft/unilm/tree/master/layoutlm 多模态预训练模型 LayoutLM 2.0，不仅考虑了文本和页面布局信息，还将图像信息融合到了多模态框架内。下游任务微调：表单理解 票据理解 复杂布局长文档理解 文档图像分类 视觉问答 
-
-HIT-SCIR/Molweni 提出了构建于多人对话的英文机器阅读理解（MRC）数据集——Molweni，并覆盖了对话语篇结构。Molweni源自于Ubuntu聊天语料库，包括10,000个对话，共计88,303条话语（utterance）。我们共标注了30,066个问题，包括可回答和不可回答的问题。Molweni独特地为其多人对话提供了语篇结构信息，共标注了78,245个语篇关系实例，为多人对话语篇结构分析（Discourse  parsing）贡献了大规模数据。
-
-xiaoqian19940510/Event-Extraction 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
 
 zjunlp/openue 开源的通用文本信息抽取工具 三元组抽取 事件抽取 槽填充和意图检测
 
@@ -605,15 +621,20 @@ kangbrilliant/DCA-Net 用于插槽填充和意图检测的协同互感器。数�
 
 MaartenGr/keyBERT 一种最小且易于使用的关键字提取技术，它利用BERT嵌入来创建与文档最相似的关键字和关键字短语。
 
-fighting41love/funNLP NLP民工的乐园: 几乎最全的中文NLP资源库 中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱
-
-liuhuanyong/MiningZhiDaoQACorpus 百度知道问答语料库，包括超过580万的问题，938万的答案，5800个分类标签。基于该问答语料库，可支持多种应用，如闲聊问答，逻辑挖掘。 
-
 nlp-uoregon/trankit 用于多语言自然语言处理的基于轻型变压器的Python工具包 支持以下任务：句子分割。标记化。多字令牌扩展。词性标记。形态特征标记。依赖性解析。命名实体识别。
 
 yizhen20133868/NLP-Conferences-Code 记录NLP相关顶会(如ACL、EMNLP、NAACL、COLING、AAAI、IJCAI)的论文开源项目合集
 
 cuhksz-nlp/DGSA 基于方向建模图卷积网络的联合方面提取和情感分析.输入:由句子生成的依存句法分析树得到的图;句子（词序列）.输出表示为一个标签序列.可用于序列标注、ER 和情感分析。
+
+FedML-AI/FedNLP FedNLP：自然语言处理中的联合学习研究平台
+
+Graph4nlp是一个易于使用的NLP图形神经网络库。应用：文本分类、神经机器翻译、摘要、KG补全：预测konwledge图中两个现有实体之间的缺失关系。数学问题解决：自动解决数学习题，用易懂的语言提供问题的背景信息。名称实体识别、问题生成。
+
+pytorch/fairseq/tree/master/examples/bart BART Bidirectional and Auto-Regressive Transformers 是以去噪为预训练目标训练的序列间模型， 一种符合生成任务的预训练方法。我们证明了这种预训练目标更为通用，并且证明了我们可以在SQuAD和GLUE上匹配RoBERTa的结果，并在摘要（XSum，CNN数据集）、长形式生成性问答（ELI5）和对话-反应生成（ConvAI2）上获得最新的结果。在生成任务上显著高于BERT, UniLM, XLNet, RoBERTa等模型
+
+huybery/r2sql Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing 跨域上下文相关语义分析的动态混合关系网络 应用于：多轮text-to-SQL 任务（通过多轮对话的方式生成最终的查询语句， Text-to-SQL 任务：给定一个自然语言查询和数据库的作为输入，产生一个SQL语句作为输出。）
+
 
 
 # 推荐系统
@@ -732,6 +753,14 @@ guyulongcs/CIKM2020_DMT 大型电子商务推荐系统中多目标排名的深�
 
 weiyinwei/MMGCN 多模态图神经网络解决短视频推荐难题
 
+microsoft/recommenders 推荐系统上的最佳实践。包括多个模型：ALS A2SVD BPR Caser DKN xDeepFM FAST LightFM/Hybrid Matrix Factorization LightGBM/Gradient Boosting Tree* LightGCN GeoIMC GRU4Rec Multinomial VAE LSTUR NAML NCF NPA NRMS NextItNet RBM RLRMC SAR SLi-Rec SUM Standard VAE SVD TF-IDF Vowpal Wabbit (VW)* Wide and Deep  FM&FFM
+
+wujcan/SGL 基于图自监督学习的推荐系统
+
+wangjiachun0426/StackRec 通过迭代堆叠实现推荐系统的高效训练。采用对一个浅层序列推荐模型进行多次层堆叠（Layer Stacking），从而得到一个深层序列推荐模型。具体来说，训练过程包含以下步骤：1）预训练一个浅层序列推荐模型；2）对该模型进行层堆叠，得到一个两倍深度的模型；3）微调这个深层模型；4）将深层模型作为一个新的浅层模型，重复1）至3）直到满足业务需求。
+
+xiangwang1223/neural_graph_collaborative_filtering 神经图协同过滤（NGCF）是一种基于图神经网络的新推荐框架，通过执行嵌入传播，在用户项二部图中以高阶连通性的形式对协同信号进行显式编码。
+
 
 # 金融股票 时间序列
 
@@ -790,6 +819,8 @@ AI4Finance-LLC/FinRL-Library 哥大开源“FinRL”: 一个用于量化金融�
 nnzhan/MTGNN 通用的图神经网络框架 MTGNN，通过图学习模块融合外部知识和变量之间的单向关系，再使用 mix-hop 传播层和膨胀 inception 捕获空间和时序依赖。
 
 VachelHU/EvoNet Time-Series Event Prediction with Evolutionary State Graph 将时间序列转化为动态图进行表示的方法。该方法成功在阿里云 ·SLS 商业化，作为一项智能巡检服务，可以对大规模时间序列进行异常检测与分析。
+
+DHI/tsod 时间序列数据异常检测
 
 
 ## 强化学习 Reinforcement Learning
@@ -896,6 +927,7 @@ daochenzha/rapid 一种为每个回合的探索动作打分和排序的机制，
 
 AI4Finance-LLC/ElegantRL 基于PyTorch的轻量-高效-稳定的深度强化学习框架
 
+datawhalechina/easy-rl  强化学习中文教程
 
 # 语音
 JasonWei512/Tacotron-2-Chinese 中文语音合成
@@ -933,6 +965,8 @@ tulasiram58827/TTS_TFLite 提供了TFLite中广泛流行的文本语音转换（
 speechbrain/speechbrain 基于 PyTorch 的开源一体化语音工具包，SpeechBrain 可用于开发最新的语音技术，包括语音识别、说话者识别、语音增强、多麦克风信号处理和语音识别系统等，且拥有相当出色的性能。团队将其特征概况为「易于使用」、「易于定制」、「灵活」、「模块化」等。
 
 Snowdar/asv-subtools 基于Kaldi和PyTorch推出了一套高效、易于开发扩展的声纹识别开源工具—ASV-Subtools。
+
+Rudrabha/Wav2Lip 唇语识别 唇语同步 ，用来生成准确的唇语同步视频。
 
 
 # 生物医药
@@ -983,6 +1017,8 @@ WLYLab/PepFormer 基于Transformer的对比学习框架实现多肽可检测性�
 
 # 机器视觉
 
+ouyanghuiyu/chineseocr_lite 超轻量级中文ocr
+
 minivision-ai/photo2cartoon 人像卡通化探索项目
 
 hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以在浏览器中执行实时实例分割
@@ -1010,6 +1046,10 @@ facebookresearch/pytorch3d 基于PyTorch将深度学习与3D进行结合的研�
 orpatashnik/StyleCLIP 文本驱动的StyleGAN风格生成图像处理
 
 thepowerfuldeez/facemesh.pytorch 单目实时人脸表面3D点云提取
+
+facebookresearch/pytorchvideo 为视频理解研究打造的深度学习库。
+
+rwightman/pytorch-image-models PyTorch图像类模型库，包括：ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more 
 
 ## 网络爬虫 下载
 soimort/you-get youtube下载
@@ -1080,9 +1120,6 @@ learning-at-home/hivemind 一个用于在互联网上训练大型神经网络的
 petuum/adaptdl 一个能动态调整并行度的深度神经网络训练框架。它支持多租户集群管理，可以平衡模型训练等待及完成时间，能够提高资源利用率。
 
 huggingface/accelerate 一个简单的 API，将与多 GPU 、 TPU 、 fp16 相关的样板代码抽离了出来，保持其余代码不变。PyTorch 用户无须使用不便控制和调整的抽象类或编写、维护样板代码，就可以直接上手多 GPU 或 TPU。Accelerate 支持的集成包括：CPU 单 GPU 单一节点多 GPU 多节点多 GPU TPU 带有本地 AMP 的 FP16（路线图上的顶点）
-
-
-
 
 
 # 图数据库 图算法
@@ -1182,5 +1219,18 @@ Genymobile/scrcpy 通过USB（或通过TCP / IP）连接的Android设备的显�
 
 openstf/minitouch 最小的Android多点触控事件生成器。
 
+gozfree/gear-lib 一组通用的Ｃ基础库，用POSIX C实现，目标是为了跨平台兼容。适用于物联网，嵌入式，以及网络服务开发等场景。
 
+tangtangcoding/C-C- C语言电子书与视频资料分享
 
+fluttercandies/wechat_flutter Flutter版本微信，一个优秀的Flutter即时通讯IM开源库
+
+CoderMikeHe/flutter_wechat 利用 Flutter 来高仿微信(WeChat) 7.0.0+ App
+
+youxinLu/flutter_mall 一款Flutter开源在线商城应用程序
+
+ducafecat/flutter_learn_news  flutter实战学习-新闻客户端 
+
+freestyletime/FlutterNews  用Flutter写的新闻类小项目 
+
+linyacool/WebServer C++11编写的Web服务器
