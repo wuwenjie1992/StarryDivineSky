@@ -153,7 +153,7 @@ ContrastiveSR/Contrastive_Learning_Papers A list of papers in contrastive learni
 
 Tencent/WeChat-TFCC C++深入学习推理框架。提供以下工具包，便于您开发和部署训练有素的 DL 模型：TFCC深度学习推理库的核心、TFCC 代码生成器、TFCC 运行时。
 
-
+idrl-lab/idrlnet 基于内嵌物理知识神经网络的开源求解框架
 
 ## 参数优化
 
@@ -310,6 +310,9 @@ hlamotte/decision-tree 在C++的决策树
   * bernhard2202/intkb 一种交互式知识图谱补全框架
   * husthuke/awesome-knowledge-graph 整理知识图谱相关学习资料
   * wangbo9719/StAR_KGC Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion 结构增强文本表示学习，实现高效知识图完成.知识图谱补全 
+  * Everglow123/MAKG  移动app知识图谱 
+  * (openconcept)[http://openkg.cn/dataset/openconcept] 基于自动化知识抽取算法的大规模中文概念图谱。440万概念核心实体，以及5万概念和1200万实体-概念三元组。数据包括了常见的人物、地点等通用实体。
+  * openkg-org/OpenEA 基于知识图谱嵌入的开源实体融合工具。本体匹配、实体对齐、真值验证、冲突消解。
 
 * ## 图预训练  Pre-Training of Graph
   * THUDM/GCC Graph Contrastive Coding for Graph Neural Network Pre-Training 用于图形神经网络预训练的图形对比编码，下游任务：节点分类、图分类、相似性搜索。
@@ -333,8 +336,6 @@ hlamotte/decision-tree 在C++的决策树
   * MengmeiZ/LafAK 图神经网络的对抗标签翻转攻击与防御.提出了基于自监督的防御框架, 以社区分类作为辅助任务，引入社区级别的信号以惩罚过拟合翻转标签的GNN。
   * snap-stanford/gib 图信息瓶颈 (GIB)。研究者基于该原则构建了两个 GNN 模型：GIB-Cat 和 GIB-Bern，二者在抵御对抗攻击时取得了优异的性能。 图信息Bottleneck打造图最优表示->避免过拟合，并具备稳健性
   * liaopeiyuan/GAL Graph AdversariaL Networks 图对抗网络 Information Obfuscation of Graph Neural Networks 图神经网络的信息模糊处理,使得攻击者很难推断。
-
-
 
 benedekrozemberczki/ClusterGCN
 
@@ -432,6 +433,12 @@ YuGuangWang/UFG 基于小波变换（framelet transforms）的图神经网络。
 
 LirongWu/awesome-graph-self-supervised-learning 图自监督学习（Graph Self-supervised Learning）最新综述+Github代码汇总
 
+karenlatong/AGC-master Attributed Graph Clustering via Adaptive Graph Convolution 通过自适应图卷积的属性图聚类
+
+maxiaoba/GRAPE 基于GNN的缺失特征填充和标签预测模型。将特征填充问题转为边级别的预测任务，将标签预测问题转为节点级别的预测任务。
+
+PKU-DAIR/DGMLP 评估深度图神经网络，对图形结构数据使用深度汇总的实验评估。GNN模型普遍较浅的真正原因 - 模型退化与过平滑。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -458,6 +465,7 @@ LirongWu/awesome-graph-self-supervised-learning 图自监督学习（Graph Self-
   * sacmehta/delight 提出了一个更深更轻的Transformer，DeLighT，它的性能与Transformer相似，甚至更好，平均少了2到3倍的参数。
   * BSlience/transformer-all-in-one 记录了学习Transformer过程中的一些疑问和解答，并且实现Transformer的全过程。
   * mlpen/Nystromformer 利用了 Nyström 方法来近似标准的Attention。
+  * xuanqing94/FLOATER 基于连续动态系统学习更加灵活的位置编码
 
 ## 文本分类 + Attention机制
   * tcxdgit/cnn_multilabel_classification 基于TextCNN和Attention的多标签分类
@@ -491,18 +499,21 @@ LirongWu/awesome-graph-self-supervised-learning 图自监督学习（Graph Self-
   * yym6472/ms_pointer_network 用多来源Pointer Network的产品标题摘要方法.从两个信息来源：原始商品标题和知识信息knowledge中抽取信息，然后将二者进行综合得到最后的结果。
   * FeiSun/ProductTitleSummarizationCorpus Dataset for CIKM 2018 paper "Multi-Source Pointer Network for Product Title Summarization" 
   * xcfcode/Summarization-Papers This repo contains a list of summarization papers including various topics. If any error, please open an issue.摘要论文列表，包括各种主题。
+  * MaartenGr/keyBERT 一种最小且易于使用的关键字提取技术，它利用BERT嵌入来创建与文档最相似的关键字和关键字短语。
+  * Morizeyao/GPT2-Chinese GPT2中文文生模型，包括散文、诗词、对联、通用中文、中文歌词、文言文
 
 ## 文本匹配 文本相似度
   * UKPLab/sentence-transformers 句子转换器：使用BERT / RoBERTa / XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
+  * thunlp/OpenMatch 总体架构包括两大部分：一是相关文档检索，即根据用户检索词，从大规模文档集合中返回最相关的Top-K(K通常为100或1000)文档。二是文档重排序，即将各神经网络模型和非神经网络模型的排序特征整合，对Top-K文档重排序，进一步提升排序效果。OpenMatch提供了融合外部知识图谱信息的知识增强模型，和筛选大规模数据的数据增强模型。
   * terrifyzhao/text_matching 常用文本匹配模型tf版本，数据集为QA_corpus 模型:DSSM\ConvNet\ESIM\ABCNN\BiMPM\DIIN\DRCN
   * Brokenwind/BertSimilarity 基于Google的BERT模型来进行语义相似度计算。
-  * wuba/qa_match 58同城推出的一款基于深度学习的轻量级问答匹配工具，它融合领域识别与意图识别，对问答意图进行精确理解。
   * bohanli/BERT-flow 基于流式生成模型，将BERT的表示可逆地映射到一个均匀的空间，文本表示、语义文本相似性任务的SOTA。
   * DataTerminatorX/Keyword-BERT  带关键词的BERT语义匹配
   * bojone/BERT-whitening 简单的向量白化改善句向量质量，可以媲美甚至超过BERT-flow的效果。
   * autoliuweijie/BERT-whitening-pytorch Pytorch version of BERT-whitening
   * princeton-nlp/SimCSE SimCSE：句子嵌入的简单对比学习 。提供无监督或有监督的对比学习。是目前文本相似度更好的方法。
   * nilboy/gaic_track3_pair_sim  短文本语义匹配，2021年全球人工智能技术创新大赛-赛道三-冠军方案
+  * yym6472/ConSERT 基于对比学习的句子语义表示迁移框架。包含三部分，数据增强，BERT 编码层，对比损失层。
 
 ## BERT优化
   * google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
@@ -530,8 +541,10 @@ LirongWu/awesome-graph-self-supervised-learning 图自监督学习（Graph Self-
  * bojone/BERT-whitening  简单的线性变换（白化）操作，就可以达到BERT-flow的效果。自定义全局池化
  * ZhuiyiTechnology/roformer-sim 融合检索和生成的RoFormer-Sim模型.可应用于相似句生成、相似句扩增、语义相似度问题。
  * alibaba/AliceMind/tree/main/LatticeBERT Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models  利用多粒度的词格信息（word lattice），相对字级别的模型取得了性能提升。
+ * ShannonAI/ChineseBert 融合字形与拼音信息的中文Bert预训练模型
 
 * ## 机器阅读理解
+  * basketballandlearn/MRC_Competition_Dureader 基于大规模MRC数据再训练的机器阅读理解预训练模型（包括roberta-wwm-large、macbert-large），可以使用[transformers库](https://huggingface.co/luhua/chinese_pretrain_mrc_roberta_wwm_ext_large)。
   * wptoux/albert-chinese-large-webqa 基于百度webqa与dureader数据集训练的Albert Large QA模型
   * bojone/dgcnn_for_reading_comprehension 基于膨胀门卷积的阅读理解式问答模型（Keras实现）
   * cooelf/AwesomeMRC 对MRC的研究摘要和参考资料
@@ -541,7 +554,7 @@ LirongWu/awesome-graph-self-supervised-learning 图自监督学习（Graph Self-
   * xv44586/ccf_2020_qa_match CCF2020问答匹配比赛 任务是：给定IM交流片段，片段包含一个客户问题以及随后的经纪人若干IM消息，从随后的经纪人消息中找出一个是对客户问题的回答。
   * lgw863/LogiQA-dataset 数据集包含8,678个QA实例
   * HIT-SCIR/Molweni 提出了构建于多人对话的英文机器阅读理解（MRC）数据集——Molweni，并覆盖了对话语篇结构。Molweni源自于Ubuntu聊天语料库，包括10,000个对话，共计88,303条话语（utterance）。我们共标注了30,066个问题，包括可回答和不可回答的问题。Molweni独特地为其多人对话提供了语篇结构信息，共标注了78,245个语篇关系实例，为多人对话语篇结构分析（Discourse  parsing）贡献了大规模数据。
-
+  
 * ## NLP语料和数据集
   * thu-coai/CrossWOZ 大规模的中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
   * goto456/stopwords 中文常用停用词表
@@ -552,6 +565,29 @@ LirongWu/awesome-graph-self-supervised-learning 图自监督学习（Graph Self-
   * msra-nlc/ChineseKBQA NLPCC-ICCPOL 2016 Shared Task: Open Domain Chinese Question Answering [开放域中文问答数据集](http://tcci.ccf.org.cn/conference/2016/pages/page05_evadata.html)
   * jkszw2014/bert-kbqa-NLPCC2017 A trial of kbqa based on bert for NLPCC2016/2017 Task 5 (基于BERT的中文知识库问答实践） 
   * wavewangyue/NLPCC-MH  中文多跳问答数据集 基于 NLPCC 所包含的单跳问题，通过扩充问句内容的方式，构建了一个专注多跳问题的中文 KBQA 数据集
+  * (BERT-CCPoem)[https://thunlp.oss-cn-qingdao.aliyuncs.com/BERT_CCPoem_v1.zip] 是完全基于一个囊括了几乎所有中国古典诗词的语料库CCPC-Full v1.0训练而成的，该语料库共计926,024首诗词及8,933,162个诗词句子。THUNLP-AIPoet/BERT-CCPoem 中国古典诗词预训练模型 
+  * liucongg/NLPDataSet 数据集包括：DRCD、cmrc2018、chinese-squad、中医数据集、法研杯2019、莱斯杯机器阅读理解、疫情QA、WebQA、Dureader等9个数据集。
+  * thunlp/Few-NERD 一个大规模的人工标注的用于少样本命名实体识别任务的数据集。该数据集包含8种粗粒度和66种细粒度实体类型，每个实体标签均为粗粒度+细粒度的层级结构，共有18万维基百科句子，460万个词，每个词都被注释为上下文（context）或一个实体类型的一部分。
+
+* ## 关系抽取、信息抽取
+  * weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
+  * loujie0822/DeepIE DeepIE： 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
+  * 131250208/TPlinker-joint-extraction 联合抽取模型 实体关系联合抽取标注关系抽取方案
+  * TanyaZhao/MRC4ERE_plus 提出有效和多样的问题：基于机器阅读理解的联合实体关系提取框架
+  * cuhksz-nlp/RE-TaMM 于词依存信息类型映射记忆神经网络的关系抽取
+  * xiaoqian19940510/Event-Extraction 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
+  * 231sm/Reasoning_In_EE 利用本体表示学习实现低资源的事件抽取
+  * zjunlp/openue 开源的通用文本信息抽取工具 三元组抽取 事件抽取 槽填充和意图检测
+
+* ## 实体识别NER、意图识别、槽位填充
+  * LeeSureman/Flat-Lattice-Transformer 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
+  * MiuLab/SlotGated-SLU 意图识别和槽位填充（slot filling）联合模型，提出一个槽位门控机制（slot-gated mechanism）来解决没有明确地建立槽位和意图之间联系的缺陷，达到较好的效果。
+  * monologg/JointBERT 意图识别和槽位填充（slot filling）联合训练模型，使用了BERT来进行语义编码，然后做序列标注任务和多分类任务的联合训练。
+  * z814081807/DeepNER 天池中药说明书实体识别挑战冠军方案；中文命名实体识别；NER; BERT-CRF & BERT-SPAN & BERT-MRC；Pytorch 
+  * liuwei1206/LEBERT Lexicon Enhanced BERT模型来解决中文序列标注NER任务。相比于 FLAT，Lattice LSTM 等方法，它把词汇信息融入到了 BERT 底层的编码过程中。相比于 Lex-BERT，它无需包含词汇类型信息的词典，只需要普通的词向量即可。
+  * kangbrilliant/DCA-Net 用于插槽填充和意图检测的协同互感器。数据集ATIS上，意向Acc 97.7 插槽填充F1 95.9 。
+  * yizhen20133868/Awesome-SLU-Survey 口语语言理解（Spoken Language Understanding，SLU）作为任务型对话系统的核心组件，目的是为了获取用户询问语句的框架语义表示（semantics frame）信息，进而将这些信息为对话状态追踪模块（DST）以及自然语言生成模块（NLG）所使用。SLU任务通常包含以下两个任务：意图识别（intent detection）和槽位填充（slot filling）。
+  * * wuba/qa_match 58同城推出的一款基于深度学习的轻量级问答匹配工具，它融合领域识别与意图识别，对问答意图进行精确理解。
 
 EleutherAI/gpt-neo 模型并行GPT2和类似GPT3的模型的实现，能够使用mesh-tensorflow库扩展到完整的GPT3尺寸（甚至可能更多！）。
 
@@ -562,10 +598,6 @@ CyberZHG/keras-xlnet XLNet的非官方实现。
 ymcui/Chinese-XLNet 面向中文的XLNet预训练模型
 
 bojone/attention  Attention机制的实现tensorflow/keras
-
-LeeSureman/Flat-Lattice-Transformer 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
-
-liuwei1206/LEBERT Lexicon Enhanced BERT模型来解决中文序列标注NER任务。相比于 FLAT，Lattice LSTM 等方法，它把词汇信息融入到了 BERT 底层的编码过程中。相比于 Lex-BERT，它无需包含词汇类型信息的词典，只需要普通的词向量即可。
 
 425776024/nlpcda 中文数据增强工具,：1.随机实体替换 2.近义词 3.近义近音字替换 4.随机字删除 5.NER类 BIO 数据增强 6.随机置换邻近的字  7.百度中英翻译互转实现的增强  8.中文等价字替换
 
@@ -579,11 +611,10 @@ squareRoot3/Target-Guided-Conversation 目标指导的开放域对话,在开放�
 
 JasonForJoy/MPC-BERT MPC-BERT：一种预训练的多方会话理解语言模型.多方会话（MPC）的各种神经模型在收件人识别、说话人识别和反应预测等方面取得了显著的进展。
 
-weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
-
 qiufengyuyi/sequence_tagging 使用bilstm-crf，bert等方法进行序列标记任务
 
 microsoft/unilm UniLM-NLP及更高版本的统一语言模型预训练
+ * layoutlm 多模态文档理解预训练模型LayoutLM 2.0，模型首先将文本、图像、布局三种模态的输入转换成向量表示，然后再交给编码器网络，最终输出的表示向量可以供下游任务使用。下游任务：表单理解、票据理解、复杂布局长文档理解、文档图像分类、视觉问答。
 
 YunwenTechnology/Unilm UniLM模型既可以应用于自然语言理解（NLU）任务，又可以应用于自然语言生成（NLG）任务。论文来自微软研究院。模型虽然强大，但微软并没有开源中文的预训练模型。因此云问本着开源之前，将我们预训练好的中文unilm_base模型进行开源。
 
@@ -594,8 +625,6 @@ czhang99/SynonymNet 基于多个上下文双向匹配的同义实体发现
 PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅为1/300 tensorflow/models/tree/master/research/sequence_projection
 
 rikdz/GraphWriter 基于图Transformer从知识图谱中生成文本
-
-fushengwuyu/chinese_spelling_correction 中文文本纠错模型：bert语言模型+字音字形相似度 、MLM、seq2seq
 
 stanford-futuredata/ColBERT ColBERT: 基于上下文（contextualized）的后期交互的排序模型 Efficient and Effective Passage Search via Contextualized Late Interaction over BERT 兼顾匹配的效率和doc中的上下文信息
 
@@ -609,15 +638,7 @@ alibaba/EasyTransfer 自然语言处理的迁移学习工具。主要特性：�
 
 RUCAIBox/TG_CRS_Code TG-ReDial相应的推荐、回复生成、主题预测功能实现。
 
-loujie0822/DeepIE DeepIE： 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
-
-xiaoqian19940510/Event-Extraction 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
-
-231sm/Reasoning_In_EE 利用本体表示学习实现低资源的事件抽取
-
 Qznan/QizNLP 快速运行分类、序列标注、匹配、生成等NLP任务的Tensorflow框架 (中文 NLP 支持分布式）
-
-131250208/TPlinker-joint-extraction 联合抽取模型 实体关系联合抽取标注关系抽取方案
 
 toizzy/tilt-transfer 运行TILT迁移学习实验的代码 让语言模型先在乐谱上进行训练，再在自然语言上训练可以有效的提升语言模型的性能。
 
@@ -625,22 +646,12 @@ XiaoMi/MiNLP/tree/main/minlp-tokenizer 小米 AI 实验室 NLP 团队开发的�
 
 explosion/spaCy 工业级强度的NLP工具包，被称为最快的工业级自然语言处理工具。支持多种自然语言处理的基本功能，主要功能包括分词、词性标注、词干化、命名实体识别、名词短语提取等。
 
-TanyaZhao/MRC4ERE_plus 提出有效和多样的问题：基于机器阅读理解的联合实体关系提取框架
-
 microsoft/unilm/tree/master/layoutlm 多模态预训练模型 LayoutLM 2.0，不仅考虑了文本和页面布局信息，还将图像信息融合到了多模态框架内。下游任务微调：表单理解 票据理解 复杂布局长文档理解 文档图像分类 视觉问答 
 
-zjunlp/openue 开源的通用文本信息抽取工具 三元组抽取 事件抽取 槽填充和意图检测
-
-RUCAIBox/CRSLab 用于构建会话推荐系统（CRS）的开源工具包。 对话推荐任务主要拆分成三个任务：推荐任务（生成推荐的商品），对话任务（生成对话的回复）和策略任务（规划对话推荐的策略）。模型 CRS 模型 ReDial、KBRD、KGSF、TG-ReDial、推荐模型 Popularity、GRU4Rec、SASRec、TextCNN、R-GCN、BERT、对话模型	HERD、Transformer、GPT-2 策略模型	PMI、
+RUCAIBox/CRSLab 用于构建会话推荐系统（Conversational Recommender System CRS）的开源工具包。 对话推荐任务主要拆分成三个任务：推荐任务（生成推荐的商品），对话任务（生成对话的回复）和策略任务（规划对话推荐的策略）。模型 CRS 模型 ReDial、KBRD、KGSF、TG-ReDial、推荐模型 Popularity、GRU4Rec、SASRec、TextCNN、R-GCN、BERT、对话模型	HERD、Transformer、GPT-2 策略模型	PMI、
 MGCG、Conv-BERT、Topic-BERT、Profile-BERT
 
-z814081807/DeepNER 天池中药说明书实体识别挑战冠军方案；中文命名实体识别；NER; BERT-CRF & BERT-SPAN & BERT-MRC；Pytorch 
-
-yizhen20133868/Awesome-SLU-Survey 口语语言理解（Spoken Language Understanding，SLU）作为任务型对话系统的核心组件，目的是为了获取用户询问语句的框架语义表示（semantics frame）信息，进而将这些信息为对话状态追踪模块（DST）以及自然语言生成模块（NLG）所使用。SLU任务通常包含以下两个任务：意图识别任务（intent detection）和槽位填充任务（slot filling）。
-
-kangbrilliant/DCA-Net 用于插槽填充和意图检测的协同互感器。数据集ATIS上，意向Acc 97.7 插槽填充F1 95.9 。
-
-MaartenGr/keyBERT 一种最小且易于使用的关键字提取技术，它利用BERT嵌入来创建与文档最相似的关键字和关键字短语。
+RUCAIBox/CRSPapers 选取了近年来基于深度学习的对话推荐系统相关论文（共 62 篇），并根据工作的类型进行分类，以供参考。
 
 nlp-uoregon/trankit 用于多语言自然语言处理的基于轻型变压器的Python工具包 支持以下任务：句子分割。标记化。多字令牌扩展。词性标记。形态特征标记。依赖性解析。命名实体识别。
 
@@ -659,6 +670,21 @@ huybery/r2sql Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent
 facebookresearch/GENRE 首创生成式实体检索，通过seq2seq方法(BART)生成有意义的实体名称从而实现实体链接，而且还可以取得SOTA结果。
 
 sebastian-hofstaetter/intra-document-cascade IDCM模型: 文档内部级联选择段落服务于文档排序。采用文档内部级联策略，在运行复杂并且高效果的排序模型（ETM，Effective Teacher Model）之前，使用高效率的模型（ESM，Efficient Student Model）进行候选文档中多余段落的删除。相比bert，具有基本相同的效果，而且查询延迟降低400%以上。
+
+jingtaozhan/DRhard 通过难负例优化稠密向量文档检索模型训练，利用动态难负例抽样提高模型效果，以及将随机抽样结合静态难负例抽样提高模型稳定性。
+
+yechens/NL2SQL Text2SQL 语义解析数据集、解决方案、paper资源整合项。Text to SQL( 以下简称Text2SQL)，是将自然语言文本（Text）转换成结构化查询语言SQL的过程，属于自然语言处理-语义分析（Semantic Parsing）领域中的子任务。
+
+destwang/CTCResources 中文文本纠错（Chinese Text Correction, CTC）相关论文、数据集。
+
+fushengwuyu/chinese_spelling_correction 中文文本纠错模型：bert语言模型+字音字形相似度 、MLM、seq2seq
+
+grammarly/gector ”GECToR – Grammatical Error Correction: Tag, Not Rewrite”，使用给序列打标签来替代主流的Seq2Seq模型。本文采取了一种迭代的方法，也就是通过多次(其实最多也就两三次)序列打标签。
+
+destwang/CTC2021 本赛题主要选择互联网上中文母语写作者撰写的网络文本作为校对评测数据，从拼写错误、语法错误、语病错误等多个方面考察机器的认知智能能力。
+
+Jingjing-NLP/VOLT 借鉴边际效用通过最优转移学习词表。
+
 
 # 推荐系统
 
@@ -795,9 +821,12 @@ CRIPAC-DIG/DGCF 动态图协同过滤算法DGCF 利用动态图来同时捕捉�
 
 QYQ-bot/CLEA 运用对比学习解决购物篮推荐场景。（下一个购物篮推荐，也就是根据用户的历史购物篮序列，来推荐用户在下一次可能购买的商品集合。）
 
+huangtinglin/MixGCF 基于多层嵌入合成负例用于推荐，相对NGCF 提高 26%, LightGCN 提高 22%
 
 
 # 金融股票 时间序列
+
+jdb78/pytorch-forecasting pytorch的时间系列预测库，模型包括：RecurrentNetwork、DecoderMLP、NBeats 、DeepAR 、TemporalFusionTransformer。
 
 QUANTAXIS/QUANTAXIS 量化金融策略框架
 
@@ -858,7 +887,6 @@ VachelHU/EvoNet Time-Series Event Prediction with Evolutionary State Graph 将�
 DHI/tsod 时间序列数据异常检测
 
 microsoft/StemGNN 基于图谱分解的时间序列预测。进一步提高多元时间序列预测的准确性。StemGNN 在spectral domain中捕获系列间(inter-series)相关性和时间依赖性(temporal dependencies)。它结合了图傅立叶变换 (GFT) 和离散傅立叶变换 (DFT)，GFT对序列间(inter-series)相关性进行建模，而离散傅立叶变换 (DFT) 则对端到端框架中的时间依赖性(temporal dependencies)进行建模。通过 GFT 和 DFT 后，谱表示具有清晰的模式，可以通过卷积和序列学习模块进行有效预测。
-
 
 ## 强化学习 Reinforcement Learning
 
@@ -966,6 +994,8 @@ AI4Finance-LLC/ElegantRL 基于PyTorch的轻量-高效-稳定的深度强化学�
 
 datawhalechina/easy-rl  强化学习中文教程
 
+kwai/DouZero 斗地主AI 
+
 # 语音
 JasonWei512/Tacotron-2-Chinese 中文语音合成
 
@@ -1011,6 +1041,8 @@ Rudrabha/Wav2Lip 唇语识别 唇语同步 ，用来生成准确的唇语同步�
 
 
 # 生物医药
+
+deepmind/alphafold 此包提供了 AlphaFold v2.0 的推理流线的实现。AlphaFold是Google旗下DeepMind开发的一款人工智能程序，它使用深度学习算法通过蛋白质序列来预测蛋白质结构。蛋白质通过卷曲折叠会构成三维结构，蛋白质的功能正由其结构决定。了解蛋白质结构有助于开发治疗疾病的药物。
 
 mims-harvard/TDC Therapeutics Data Commons (TDC)，第一个机器学习在生物医药的大规模数据集。TDC目前包含了20+有意义的任务，和70多个高质量数据集，从靶蛋白的发现，药物动力学，安全性，药物生产都有包含到。而且不仅仅是小分子，还有抗体，疫苗，miRNA等。之后也会加入CRISPR，Clinical Trials等等。
 
@@ -1084,6 +1116,17 @@ microsoft/Graphormer 图结构数据上的Transformer变种，应用于2D 分子
 
 HIPS/neural-fingerprint 图卷积网络用于学习分子指纹。使用神经网络在数据样本中归纳总结，然后来预测新型分子的属性或者性质。
 
+binghong-ml/MolEvol 通过可解释进化进行分子优化
+
+ziyujia/SalientSleepNet 用于睡眠分期的多模态凸波检测网络
+
+ziyujia/Physiological-Signal-Classification-Papers 500余篇基于机器学习/深度学习的生理信号分类论文列表
+
+ziyujia/Sleep-Stages-Classification-Papers 基于机器学习/深度学习的睡眠阶段分类论文列表
+
+ziyujia/Motor-Imagery-Papers 基于机器学习/深度学习的运动想象分类论文列表
+
+
 # 机器视觉
 
 ouyanghuiyu/chineseocr_lite 超轻量级中文ocr
@@ -1122,6 +1165,10 @@ rwightman/pytorch-image-models PyTorch图像类模型库，包括：ResNet, ResN
 
 google-research/vision_transformer Vision Transformer and MLP-Mixer Architectures 视觉Transformer和 MLP-混合器架构，Transformer应用于视觉，纯多层感知机视觉架构。
 
+xinntao/Real-ESRGAN 旨在开发通用图像恢复的实用算法。
+
+China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（ZS-VQA）的基于知识图谱的掩码机制，更好结合外部知识的同时，缓解了误差传播对于模型性能的影响。
+
 ## 网络爬虫 下载
 soimort/you-get youtube下载
 
@@ -1153,6 +1200,8 @@ rancher/k3s Lightweight Kubernetes. 5 less than k8s. https://k3s.io
 docker-slim/docker-slim 请勿更改Docker容器映像中的任何内容并将其最小化30倍
 
 silenceshell/docker_mirror 发现国内加速的docker源。
+
+AliyunContainerService/GPUshare-scheduler-extender GPU Sharing Scheduler Extender in Kubernetes Kubernetes 中的 GPU 共享调度程序扩展器
 
 # 分布式机器学习
 
@@ -1243,6 +1292,44 @@ apache/iceberg 新兴的数据湖框架之一，开创性的抽象出”表格�
 
 apache/hudi 基于Hadoop兼容的存储，提供了以下流处理原语。Update/Delete Record、Change Streams 将HDFS和Hudi结合起来，提供对流处理的支持能力。如：支持记录级别的更新、删除，以及获取基于HDFS之上的Change Streams。哪些数据发生了变更。
 
+TurboWay/bigdata_analyse  大数据分析项目，包括1 亿条淘宝用户行为分析 、1000 万条淘宝用户行为 、300 万条《野蛮时代》的玩家 、130 万条深圳通刷卡、10 万条厦门招聘、7000 条租房、6000 条倒闭企业、COVID-19 疫情、7 万条天猫订单数据
+
+# 硬件
+
+mit-pdos/xv6-riscv xv6 是丹尼斯 · 里奇和肯 · 汤普森的Unix 版本 6 （v6）的重新实现。 xv6 松散地遵循 v6 的结构和风格，但使用 ANSI C 为现代 RISC-V 多处理器实施。
+
+plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告  RISCV LLVM 等。
+
+plctlab/writing-your-first-riscv-simulator  《从零开始的RISC-V模拟器开发》配套的PPT和教学资料 
+
+cccriscv/mini-riscv-os 从零开始为 RISC-V 构建最小的多任务操作系统内核
+
+plctlab/riscv-operating-system-mooc  《从头写一个RISC-V OS》课程配套的资源 
+
+darklife/darkriscv 一个晚上从零开始在 Verilog 实现 RISC-V cpu
+
+ultraembedded/riscv  RISC-V CPU 核心 （RV32IM）
+
+OpenXiangShan/XiangShan 开源高性能 RISC-V 处理器
+
+SI-RISCV/e200_opensource 蜂鸟 E203 开源处理器核心
+
+Lichee-Pi/Tang_FPGA_Examples LicheeTang FPGA例程
+
+ultraembedded/biriscv 32 位超级RISC-V Cpu
+
+liuqidev/8-bits-RISC-CPU-Verilog 基于有限状态机的8位RISC（精简指令集）CPU（中央处理器）简单结构和Verilog实现。 
+
+Lichee-Pi/Tang_E203_Mini  LicheeTang 蜂鸟E203 Core 
+
+litex-hub/linux-on-litex-vexriscv 使用 VexRiscv CPU 运行 Linux，这是一种 32 位的 Linux 功能 RISC-V CPU。
+
+riscv2os/riscv2os 手把手帶你學習 RISC-V 到可以自製 RISC-V 處理器上的作業系統的電子書。
+
+nf9/police_light Lichee Tang板实现警灯
+
+sgmarz/osblog 在 Rust 中编写 RISC-V 操作系统
+
 
 ## 其他
 modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
@@ -1308,3 +1395,8 @@ linyacool/WebServer C++11编写的Web服务器
 sanic-org/sanic 异步 Python 3.7+ web 框架 
 
 davidbrochart/nbterm 让你在终端中查看、编辑、执行Jupyter笔记。
+
+SocialSisterYi/bilibili-API-collect  哔哩哔哩-API收集整理
+
+0x727/ShuiZe_0x727 水泽-信息收集自动化工具 只需要输入根域名即可全方位收集相关资产，并检测漏洞。
+
