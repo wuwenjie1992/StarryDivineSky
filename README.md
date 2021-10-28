@@ -1,63 +1,65 @@
 # mystars
 个人的github stars，主要是机器学习、深度学习、NLP、GNN、大数据等内容。
 
+持续更新！欢迎star！
+
 # 机器学习、深度学习
 
-PyTorchLightning/PyTorch-lightning 基于Pytorch的轻量高级计算框架，相当于Keras框架。
+[PyTorchLightning/PyTorch-lightning](https://github.com/PyTorchLightning/PyTorch-lightning) 基于Pytorch的轻量高级计算框架，相当于Keras框架。
 
-alibaba/MNN 一个轻量级的深度神经网络推理引擎
+[alibaba/MNN](https://github.com/alibaba/MNN) 轻量级的深度神经网络推理引擎
 
-Tencent/TNN 移动端高性能、轻量级推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势
+[Tencent/TNN](https://github.com/Tencent/TNN) 移动端高性能、轻量级推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势
 
-microsoft/nnfusion 灵活高效的深度神经网络（DNN）编译器，可从DNN模型描述生成高性能的可执行文件。
+[microsoft/nnfusion](https://github.com/microsoft/nnfusion) 灵活高效的深度神经网络（DNN）编译器，可从DNN模型描述生成高性能的可执行文件。
 
-apache/incubator-tvm 用于深度学习系统的编译器堆栈。它旨在缩小以生产力为中心的深度学习框架与以性能和效率为重点的硬件后端之间的差距。TVM与深度学习框架一起使用，以提供对不同后端的端到端编译
+[apache/incubator-tvm](https://github.com/apache/incubator-tvm) 用于深度学习系统的编译器堆栈。它旨在缩小以生产力为中心的深度学习框架与以性能和效率为重点的硬件后端之间的差距。TVM与深度学习框架一起使用，以提供对不同后端的端到端编译
 
-geohot/tinygrad 一个不到1000行的深度学习框架，麻雀虽小，但五脏俱全，这个深度学习框架使用起来和PyTorch类似
+[geohot/tinygrad](https://github.com/geohot/tinygrad) 不到1000行的深度学习框架，麻雀虽小，但五脏俱全，这个深度学习框架使用起来和PyTorch类似
 
-karpathy/micrograd 一个微型标量自动求导引擎，类似PyTorch API的神经网络库
+[karpathy/micrograd](https://github.com/karpathy/micrograd) 微型标量自动求导引擎，类似PyTorch API的神经网络库
 
-wandb/client Weights and Biases 组织和分析机器学习实验 它与框架无关，并且比TensorBoard轻巧。每次您运行带有的脚本时wandb，都会保存您的超参数和输出指标。在训练过程中可视化模型，并轻松比较模型的版本。我们还将自动跟踪您的代码状态，系统指标和配置参数。
+[wandb/client](https://github.com/wandb/client) Weights and Biases 组织和分析机器学习实验 它与框架无关，并且比TensorBoard轻巧。每次您运行带有的脚本时wandb，都会保存您的超参数和输出指标。在训练过程中可视化模型，并轻松比较模型的版本。我们还将自动跟踪您的代码状态，系统指标和配置参数。
 
-NUAA-AL/ALiPy 一个基于Python实现的主动学习工具包
+[NUAA-AL/ALiPy](https://github.com/NUAA-AL/ALiPy) 基于Python实现的主动学习工具包
 
-facebookresearch/nevergrad 无梯度优化平台
+[facebookresearch/nevergrad](https://github.com/facebookresearch/nevergrad) 无梯度优化平台
 
-yzhao062/combo 用于机器学习**模型组合**的 Python 工具箱。模型组合可以被认为是整体学习的子任务，并且已被广泛用于诸如Kaggle [3]之类的现实任务和数据科学竞赛中。
+[yzhao062/combo](https://github.com/yzhao062/combo) 用于机器学习**模型组合**的 Python 工具箱。模型组合可以被认为是整体学习的子任务，并且已被广泛用于诸如Kaggle [3]之类的现实任务和数据科学竞赛中。
 
-google/trax 代码更清晰的神经网络代码库
+[google/trax](https://github.com/google/trax) 代码更清晰的神经网络代码库
 
-Oneflow-Inc/oneflow OneFlow是一个以性能为中心的开源深度学习框架。
+[Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow) OneFlow是一个以性能为中心的开源深度学习框架。
 
-jonasrauber/eagerpy 编写与PyTorch，TensorFlow，JAX和NumPy本地兼容的代码
+[jonasrauber/eagerpy](https://github.com/jonasrauber/eagerpy) 编写与PyTorch，TensorFlow，JAX和NumPy本地兼容的代码
 
-rushter/MLAlgorithms 机器学习算法
+[rushter/MLAlgorithms](https://github.com/rushter/MLAlgorithms) 机器学习算法
 
-MLEveryday/100-Days-Of-ML-Code 100-Days-Of-ML-Code中文版
+[MLEveryday/100-Days-Of-ML-Code](https://github.com/MLEveryday/100-Days-Of-ML-Code) 100-Days-Of-ML-Code中文版
 
-csuldw/MachineLearning
+[csuldw/MachineLearning](https://github.com/csuldw/MachineLearning) csuldw/MachineLearning
 
-luwill/machine-learning-code-writing
+[luwill/machine-learning-code-writing](https://github.com/luwill/machine-learning-code-writing) luwill/machine-learning-code-writing
 
 CDCS 中国数据竞赛优胜解集锦
 
-mlpack/mlpack 快速、灵活的机器学习库
+[mlpack/mlpack](https://github.com/mlpack/mlpack) C++ 快速、灵活的机器学习库
 
-tensorflow/ranking  排名学习在TensorFlow中
+[tensorflow/ranking](https://github.com/tensorflow/ranking)  TensorFlow中的排名学习
 
-scikit-survival 生存分析
+[scikit-survival](https://github.com/scikit-survival) 生存分析
 
-ShichenXie/scorecardpy  Scorecard Development in python, 评分卡
+[ShichenXie/scorecardpy](https://github.com/ShichenXie/scorecardpy)  Scorecard Development in python, 评分卡
 
-lavender28/Credit-Card-Score 申请信用评分卡模型
+[lavender28/Credit-Card-Score](https://github.com/lavender28/Credit-Card-Score) 申请信用评分卡模型
 
-modin-project/modin 通过更改一行代码来扩展加速pandas 
+[modin-project/modin](https://github.com/modin-project/modin) 通过更改一行代码来扩展加速pandas 
 
-vaexio/vaex 适用于Python的核外DataFrame，以每秒十亿行的速度可视化和探索大型表格数据
+[vaexio/vaex](https://github.com/vaexio/vaex) 适用于Python的核外DataFrame，以每秒十亿行的速度可视化和探索大型表格数据
 
-cupy/cupy NumPy-like API accelerated with CUDA 
+[cupy/cupy](https://github.com/cupy/cupy) 使用 CUDA 加速类似 NumPy 的 API
 
-serge-sans-paille/pythran 将 Python 代码转成 C++ 代码执行 一个 AOT (Ahead-Of-Time - 预先编译) 编译器，大幅度提升性能。
+[serge-sans-paille/pythran](https://github.com/serge-sans-paille/pythran) 将 Python 代码转成 C++ 代码执行 一个 AOT (Ahead-Of-Time - 预先编译) 编译器，大幅度提升性能。
 
 RAPIDS Open GPU Data Science http://rapids.ai
  * cudf cuDF - GPU DataFrame Library
@@ -65,15 +67,15 @@ RAPIDS Open GPU Data Science http://rapids.ai
  * cugraph cuGraph - RAPIDS Graph Analytics Library
  * cusignal cuSignal - RAPIDS Signal Processing Library
 
-AtsushiSakai/PythonRobotics 机器人算法
+[AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) 机器人算法
 
-SQLFlow 连接 SQL 引擎的桥接，与机器学习工具包连接
+[sql-machine-learning/sqlflow](https://github.com/sql-machine-learning/sqlflow) 连接 SQL 引擎的桥接，与机器学习工具包连接
 
-FeatureLabs/featuretools
+[FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
 
-esa/pagmo2 大规模并行优化的科学库 生物启发式算法和进化算法
+[esa/pagmo2](https://github.com/esa/pagmo2) 大规模并行优化的科学库 生物启发式算法和进化算法
 
-geatpy-dev/geatpy 高性能遗传进化算法工具箱
+[geatpy-dev/geatpy](https://github.com/geatpy-dev/geatpy) 高性能遗传进化算法工具箱
 
 guofei9987/scikit-opt 强大的启发式算法Python模块  遗传算法 粒子群优化 模拟退火 蚁群算法 免疫算法 人工鱼群算法
 
@@ -109,7 +111,7 @@ ml-tooling/best-of-ml-python 很棒的机器学习Python库的排名列表。
 
 terryyz/PyArmadillo  Python 语言的线性代数库，强调易用性。该库旨在提供类似于 Matlab 或者 Octave 的高级语法和功能，使得用户以熟悉且自然的方式表达数学运算。提供了用于矩阵和多维数据集（cube）的对象，以及 200 多个用于处理对象中存储数据的相关函数。所有功能都可以在一个平面结构中访问，并且支持整数、浮点数和复数。通过集成 LAPACK 或者 Intel MKL、OpenBLAS 等高性能替代产品，该库可以提供各种矩阵分解。
 
-raminmh/liquid_time_constant_networks 一种能适应实时世界系统的变化的神经网络。神经网络的设计灵感来自生物大脑，设计灵感直接来自秀丽隐杆线虫（C. elegans）。他说：「它的神经系统仅有 302 个神经元，但却可以产生超出预期的复杂动态。」 Liquid 网络的流动性使其能更弹性地应对意料之外的数据或噪声数据。
+[raminmh/liquid_time_constant_networks 一种能适应实时世界系统的变化的神经网络。神经网络的设计灵感来自生物大脑，设计灵感直接来自秀丽隐杆线虫（C. elegans）。他说：「它的神经系统仅有 302 个神经元，但却可以产生超出预期的复杂动态。」 Liquid 网络的流动性使其能更弹性地应对意料之外的数据或噪声数据。
 
 mlech26l/keras-ncp 设计灵感直接来自秀丽隐杆线虫 由感官神经元接收环境信息、而后经过中间神经元，传递给指令神经元进而形成决策信息，最后由动作神经元完成决策的执行并完成动作。
 
@@ -660,8 +662,8 @@ thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * bernhard2202/intkb 一种交互式知识图谱补全框架
  * husthuke/awesome-knowledge-graph 整理知识图谱相关学习资料
  * wangbo9719/StAR_KGC Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion 结构增强文本表示学习，实现高效知识图完成.知识图谱补全 
- * Everglow123/MAKG  移动app知识图谱 
- * (openconcept)[http://openkg.cn/dataset/openconcept] 基于自动化知识抽取算法的大规模中文概念图谱。440万概念核心实体，以及5万概念和1200万实体-概念三元组。数据包括了常见的人物、地点等通用实体。
+ * [Everglow123/MAKG](https://github.com/Everglow123/MAKG)  移动app知识图谱 
+ * [openconcept](http://openkg.cn/dataset/openconcept) 基于自动化知识抽取算法的大规模中文概念图谱。440万概念核心实体，以及5万概念和1200万实体-概念三元组。数据包括了常见的人物、地点等通用实体。
  * openkg-org/OpenEA 基于知识图谱嵌入的开源实体融合工具。本体匹配、实体对齐、真值验证、冲突消解。
  * seukgcode/MELBench 多模态实体链接 (MEL) 旨在利用多模态信息将提及项映射到知识库中定义的相应实体。 我们发布了三个 MEL 数据集：Weibo-MEL、Wikidata-MEL 和 Richpedia-MEL，分别包含来自社交媒体、百科全书和多模态知识图谱的 25,602、18,880 和 17,806 个样本。
 
@@ -1041,7 +1043,7 @@ goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。通过考虑与宏�
 
 jsyoon0823/TimeGAN 时间序列生成对抗网络
 
-## 强化学习 Reinforcement Learning
+# 强化学习 Reinforcement Learning
 
 ray-project/ray 构建分布式机器学习应用提供简单和通用式的API。Ray打包了Tune、RLlib、RaySGD和Ray Serve等多款机器学习库。
 
@@ -1417,6 +1419,18 @@ google-research/mixmatch 集成了自洽正则化的超强半监督学习 MixMat
 
 google-research/remixmatch 改进了最近提出的MixMatch半监督学习算法，引入了两种新技术：分布对齐和增强锚定。分布对齐鼓励未标记数据预测的分布接近标签的分布。增强锚定为模型提供多个强增强版本的输入，并鼓励每个输出接近同一输入的弱增强版本的预测。
 
+[JingyunLiang/SwinIR](https://github.com/JingyunLiang/SwinIR) 使用 Swin Transformer 的图像恢复,图像SR\图像去噪\伪影减少
+
+[NVlabs/stylegan3](https://github.com/NVlabs/stylegan3) 更适合视频和动画的生成模型。
+
+[PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting) 可在任意视频上做实时高清人物抠像.
+
+[mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。
+
+[ultralytics/yolov5](https://github.com/ultralytics/yolov5) YOLOv5 是一系列在 COCO 数据集上预训练的对象检测架构和模型，代表 Ultralytics 对未来视觉 AI 方法的开源研究，结合了在数千小时的研究和开发中获得的经验教训和最佳实践。
+
+[isl-org/DPT](https://github.com/isl-org/DPT) 用于密集预测的Transformers,图像语义分割的目标是将图像的每个像素所属类别进行标注。因为是预测图像中的每个像素，这个任务通常被称为**密集预测**（dense prediction）。
+
 # 网络爬虫 下载
 soimort/you-get youtube下载
 
@@ -1452,6 +1466,8 @@ FenTechSolutions/CausalDiscoveryToolbox 图形和成对设置中的因果推断�
 uber/causalml 使用机器学习算法进行提升建模和因果推理
 
 erdogant/bnlearn 用于学习贝叶斯网络的图形结构、参数学习、推理和采样方法的 Python 包。
+
+[rguo12/awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms) 用数据学习因果关系的算法索引
 
 
 # 图数据库 图算法
@@ -1548,6 +1564,8 @@ sgmarz/osblog 在 Rust 中编写 RISC-V 操作系统
 
 danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 
+[larryli/u8g2_wqy](https://github.com/larryli/u8g2_wqy) 适合 u8g2 的中文字体，采用文泉驿点阵宋体作为源本，提供 12x12、13x13、14x14、15x15 和 16x16 点阵字库。    
+
 # 其他
 modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
 
@@ -1622,3 +1640,5 @@ jobbole/awesome-python-cn Python资源大全中文版，包括：Web框架、网
 saghul/txiki.js 使用 QuickJS、libuv 构建的微型 JavaScript 运行时
 
 dblalock/bolt 矩阵和向量运算速度提高 10 倍
+
+[TheZoraiz/ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) 将图像转换为 ascii 艺术并在控制台上打印它们。
