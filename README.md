@@ -1,8 +1,6 @@
 # mystars
 
-个人的github stars，主要是机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。
-
-很棒的列表，持续更新！欢迎star！欢迎star！😀😀😀
+很棒的列表，主要是机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。持续更新！欢迎star！欢迎star！😀😀😀
 
 # 机器学习、深度学习
 
@@ -710,6 +708,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
   * [pangwong/pytorch-multi-label-classifier](https://github.com/pangwong/pytorch-multi-label-classifier) pytorch 实现的多标签分类分类器
   * [xuyige/BERT4doc-Classification](https://github.com/xuyige/BERT4doc-Classification) 如何微调 BERT 进行文本分类
   * [timoschick/pet](https://github.com/timoschick/pet) 该存储库包含“利用小样本文本分类和自然语言推理的完形填空题”的代码.介绍了模式利用训练 (PET)，这是一种半监督训练程序，可将输入示例重新表述为完形填空式短语。在低资源环境中，PET 和 iPET 显着优于常规监督训练、各种半监督基线甚至 GPT-3，尽管需要的参数减少 99.9%。PET 的迭代变体 (iPET) 训练多代模型，甚至可以在没有任何训练数据的情况下使用。
+  * [YerevaNN/warp](https://github.com/YerevaNN/warp) ACL'2021 论文 WARP Cyclone Word-level Adversarial ReProgramming 的代码。 在 SuperGLUE 少样本文本分类上优于“GPT-3”。提出了一种基于对抗性重编程的替代方法，它是自动扩展提示模板生成的早期工作。而且参数量少了好多个数量级。
 
 ## 文本摘要 文本生成
 
@@ -743,6 +742,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
   * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
   * [songhaoyu/BoB](https://github.com/songhaoyu/BoB) BERT Over BERT 用于从有限的个性化数据训练基于角色的对话模型。
   * [xcfcode/PLM_annotator](https://github.com/xcfcode/PLM_annotator) 探索对话总结的 DialoGPT
+  * [XiangLi1999/PrefixTuning](https://github.com/XiangLi1999/PrefixTuning)  前缀微调：优化文本生成的连续提示模板。提出一种更好的微调方法，通过加入前缀实现统一模型在不同任务上的微调，实现小样本学习，极大地减少了参数量。目前对于前缀的构造，大致可以分为本文的连续前缀和离散前缀（自动生成或手动设计），对于在摘要任务上加入离散前缀，有点类似于从对话中提取特征或结构，但这种方法的优势就在于它不需要大量的样本，而传统的融入结构的方法仍然需要很多样本。
 
 ## 文本匹配 文本相似度
 
@@ -830,6 +830,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * [chin-gyou/MovieChats](https://github.com/chin-gyou/MovieChats) MovieChats：在封闭域中像人类一样聊天，电影内容的聊天对话数据集
  * [projects/personachat](https://github.com/facebookresearch/ParlAI/tree/master/projects/personachat)  Persona-Chat 数据集人物聊天对话数据
  * [krystalan/SGSum](https://github.com/krystalan/SGSum) 一个面向体育赛事摘要的人工标注数据集
+ * [https://github.com/IceFlameWorm/NLP_Datasets](https://github.com/IceFlameWorm/NLP_Datasets)  中文NLP数据集，ATEC语义相似度学习赛数据集、CCKS 2018 微众银行智能客服问句匹配大赛数据集、ATEC + CCKS 2018 组合数据集（互金客服场景）、哈工大BQ_corpus数据集（语义相似度）、哈工大LCQMC数据集（语义相似度）。
 
 ## 关系抽取、信息抽取
 
@@ -1965,6 +1966,8 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 
 [edgeimpulse/example-esp32-cam](https://github.com/edgeimpulse/example-esp32-cam) 在 ESP32 Cam 上构建并运行导出的图像分类
 
+[lvgl/lvgl](https://github.com/lvgl/lvgl) 强大且易于使用的嵌入式 GUI 库，具有许多小部件、高级视觉效果（不透明度、抗锯齿、动画）和低内存要求（16K RAM、64K 闪存）。
+
 # 网络
 
 [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。    
@@ -2110,3 +2113,5 @@ dblalock/bolt 矩阵和向量运算速度提高 10 倍
 [ptitSeb/box64/](https://github.com/ptitSeb/box64/) Box64  Linux 用户空间 x86_64 仿真器，针对 ARM64 Linux 设备
 
 [joerick/pyinstrument](https://github.com/joerick/pyinstrument) 用于 Python 的调用堆栈分析器。向您展示为什么您的代码很慢！
+
+[lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。
