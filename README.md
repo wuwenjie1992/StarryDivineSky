@@ -21,9 +21,15 @@
 </p>
 <h3 align="center">很棒的列表，主要是机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
 <h3 align="center">持续更新！欢迎star！欢迎star！😀😀😀</h3> 
+
+
 # 机器学习、深度学习
 
-[microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) 10 周，20 节课，全民数据科学！
+[Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)  [教程/笔记]吴恩达老师的机器学习课程个人笔记 
+
+[apachecn/AiLearning](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
+
+[microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周，20 节课，全民数据科学！
 
 [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) 机器学习操作 (MLOps)，可自动执行并加速机器学习生命周期。精选的参考文献列表。
 
@@ -751,7 +757,8 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
   * [XiangLi1999/PrefixTuning](https://github.com/XiangLi1999/PrefixTuning)  前缀微调：优化文本生成的连续提示模板。提出一种更好的微调方法，通过加入前缀实现统一模型在不同任务上的微调，实现小样本学习，极大地减少了参数量。目前对于前缀的构造，大致可以分为本文的连续前缀和离散前缀（自动生成或手动设计），对于在摘要任务上加入离散前缀，有点类似于从对话中提取特征或结构，但这种方法的优势就在于它不需要大量的样本，而传统的融入结构的方法仍然需要很多样本。
 
 ## 文本匹配 文本相似度
-  * UKPLab/sentence-transformers 句子转换器：使用BERT / RoBERTa / XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
+  * [princeton-nlp/SimCSE](https://github.com/princeton-nlp/SimCSE) SimCSE：句子嵌入的简单对比学习 。提供无监督或有监督的对比学习。是目前文本相似度更好的方法。
+  * [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers) 句子转换器：使用BERT / RoBERTa / XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
   * thunlp/OpenMatch 总体架构包括两大部分：一是相关文档检索，即根据用户检索词，从大规模文档集合中返回最相关的Top-K(K通常为100或1000)文档。二是文档重排序，即将各神经网络模型和非神经网络模型的排序特征整合，对Top-K文档重排序，进一步提升排序效果。OpenMatch提供了融合外部知识图谱信息的知识增强模型，和筛选大规模数据的数据增强模型。
   * [NTMC-Community/MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py) 一个通用的文本匹配工具包，它旨在方便大家快速的实现、比较、以及分享最新的深度文本匹配模型。MatchZoo 的 PyTorch 版本。
   * terrifyzhao/text_matching 常用文本匹配模型tf版本，数据集为QA_corpus 模型:DSSM\ConvNet\ESIM\ABCNN\BiMPM\DIIN\DRCN
@@ -760,7 +767,6 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
   * DataTerminatorX/Keyword-BERT  带关键词的BERT语义匹配
   * bojone/BERT-whitening 简单的向量白化改善句向量质量，可以媲美甚至超过BERT-flow的效果。
   * autoliuweijie/BERT-whitening-pytorch Pytorch version of BERT-whitening
-  * princeton-nlp/SimCSE SimCSE：句子嵌入的简单对比学习 。提供无监督或有监督的对比学习。是目前文本相似度更好的方法。
   * nilboy/gaic_track3_pair_sim  短文本语义匹配，2021年全球人工智能技术创新大赛-赛道三-冠军方案
   * yym6472/ConSERT 基于对比学习的句子语义表示迁移框架。包含三部分，数据增强，BERT 编码层，对比损失层。
   * amazon-research/sccl 利用对比学习促进更好地基于距离的短文本聚类实现。
@@ -783,6 +789,8 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * RUCAIBox/KBQAPapers 知识图谱问答KBQA论文集
  * shijx12/TransferNet An Effective and Transparent Framework for Multi-hop Question Answering over Relation Graph 多跳问题解答关系图的有效透明框架，通过每一跳都预测当前关系得分，并更新实体得分，直到最大跳数。预测该问题的跳数，按跳数的概率加权每一跳得分作为实体的最终得分。
  * malllabiisc/EmbedKGQA 基于知识图谱嵌入的链路预测处理多跳问答。首先训练实体嵌入，随后利用实体嵌入学习问题嵌入，预测时对所有实体，构建(head entity, question)并评分，并选择评分最高的头实体作为答案。能很好地处理知识图谱中的不完整和稀疏的问题
+ * BDBC-KG-NLP/QA-Survey 北航大数据高精尖中心研究张日崇团队对问答系统的总结。包括基于知识图谱的问答（KBQA），基于文本的问答系统（TextQA），基于表格的问答系统（TabletQA）和基于视觉的问答系统（VisualQA），每类系统分别对学术界和工业界进行总结。
+ * [xianghuisun/Chinese_KGQA](https://github.com/xianghuisun/Chinese_KGQA) 实现基于知识图谱的中文问答系统
  * cdjhz/multigen Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph 基于常识知识图的多跳推理语言生成 本研究关注一类条件文本生成任务，即给定输入源文本X，目标是生成一段目标文本 Y。研究员们额外增加了一个知识图谱 G=(V,E) 的输入为模型在生成时提供常识知识的信息。
  * INK-USC/MHGRN 基于知识库的多跳关系推理 本篇文章提出了multi-hop relational reasoning module（多跳关系推理模型）叫做MHGRN多跳推理网络。该模型在额外的多跳知识图谱中抽取的子网络中进行推理。本文提出的方法将已有的基于路径的常识推理以及GCN融合在了一起，并在CommonsenseQA和OpenbookQA上取得了良好的效果。
  * lanyunshi/Multi-hopComplexKBQA 查询图生成，用于回答知识库中的多跳复杂问题.提出了一种改进的分阶段查询图生成方法，该方法具有更灵活的生成查询图的方式。在查询图生成的每一步，包含三种预定义的操作：扩展、连接、聚合。
@@ -790,12 +798,12 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * mori97/JKNet-dgl 跳跃知识网络的dgl实现
  * THUDM/CogQA 基于认知图谱实现多跳阅读.从人类的认知过程中受到启发。双过程理论认为，我们的大脑思考过程由两套系统构成: System1 和 System 2。System 1: 我们的大脑首先通过System 1隐式的、无意识的和凭借直觉的过程来检索相关信息。System 2: 在System 1过程的基础上，再进行一个显式的、有意识的、可控的推理过程，即System 2。作者使用BERT模型构建System 1，使用GNN模型构建System 2。
  * michiyasunaga/qagnn GNN 在融合 QA 上下文与 KG 的一个尝试，在问答任务上相比现有的预训练语言模型、以及预训练 +KG 模型，都有不小的提升。同时，使用 attention-base GNN，能够可视化知识图谱中节点之间的注意力关系，有助于提高 QA 可解释性和结构化推理的能力。
- * BDBC-KG-NLP/QA-Survey 北航大数据高精尖中心研究张日崇团队对问答系统的总结。包括基于知识图谱的问答（KBQA），基于文本的问答系统（TextQA），基于表格的问答系统（TabletQA）和基于视觉的问答系统（VisualQA），每类系统分别对学术界和工业界进行总结。
  * WenRichard/KBQA-BERT 基于知识图谱的问答系统，BERT做命名实体识别和句子相似度，分为online和outline模式
- * RichardHGL/WSDM2021_NSM KBQA 的神经状态机器 ComplexWebQuestions # 2 
+ * RichardHGL/WSDM2021_NSM KBQA 的神经状态机器 ComplexWebQuestions
  * UKPLab/coling2018-graph-neural-networks-question-answering 用门图形神经网络建模语义，用于知识库问题解答
 
  ## 知识图谱
+ * [CLUEbenchmark/KgCLUE](https://github.com/CLUEbenchmark/KgCLUE) KgCLUE: 大规模中文开源知识图谱问答数据集。实体数量 3121457，关系数量 245838，高频关系(>100) 3833，三元组数量 20559652，知识库来源于百科类数据，由百科类搜索页面的事实性三元组构成。
  * autoliuweijie/K-BERT Enabling Language Representation with Knowledge Graph ，已被AAAI2020所录取，是较早的考虑将知识图谱中的边关系引入预训练模型的论文。论文链接：arxiv.org/pdf/1909.07606v1.pdf 主要通过修改Transformer中的attention机制，通过特殊的mask方法将知识图谱中的相关边考虑到编码过程中，进而增强预训练模型的效果。
  * THU-KEG/KEPLER 主要通过添加类似于TransE的预训练机制来增强对应文本的表示，进而增强预训练模型在一些知识图谱有关任务的效果。
  * txsun1997/CoLAKE 使用知识图谱以增强预训练模型的效果 首先将上下文看作全连接图，并根据句子中的实体在KG上抽取子图，通过两个图中共现的实体将全连接图和KG子图融合起来；最终本文将文本上下文和知识上下文一起用MLM进行预训练，将mask的范围推广到word、entity和relation；为训练该模型，本文采用cpu-gpu混合训练策略结合负采样机制减少训练时间；最终本文提出的方法在知识图谱补全和若干NLP任务上均带来了增益。然后本文将该图转化为序列，使用Transformer进行预训练，并在训练时采用特殊的type embedding来表示实体、词语与其他子图信息
@@ -832,6 +840,8 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * [projects/personachat](https://github.com/facebookresearch/ParlAI/tree/master/projects/personachat)  Persona-Chat 数据集人物聊天对话数据
  * [krystalan/SGSum](https://github.com/krystalan/SGSum) 一个面向体育赛事摘要的人工标注数据集
  * [https://github.com/IceFlameWorm/NLP_Datasets](https://github.com/IceFlameWorm/NLP_Datasets)  中文NLP数据集，ATEC语义相似度学习赛数据集、CCKS 2018 微众银行智能客服问句匹配大赛数据集、ATEC + CCKS 2018 组合数据集（互金客服场景）、哈工大BQ_corpus数据集（语义相似度）、哈工大LCQMC数据集（语义相似度）。
+ * [nlpcc2018](http://tcci.ccf.org.cn/conference/2018/taskdata.php) 选择task7 Open Domain Question Answering，即可下载数据集。数据集包含知识图谱和问答数据
+ * [pkumod/CKBQA](https://github.com/pkumod/CKBQA)  ccks2018 ccks2019 包含简单问题和复杂问题的中文 KBQA 数据集。对于每个中文问题，我们都提供了黄金答案和黄金 SPARQL 查询，因此该数据集也可以应用于语义解析任务。
 
 ## 关系抽取、信息抽取
  * weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
@@ -2005,6 +2015,8 @@ liupan1890/aliyunpan 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
 [lintstar/About-Attack](https://github.com/lintstar/About-Attack) 一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收集，降低红队技术门槛的手册
 
 [Simp1er/AndroidSec](https://github.com/Simp1er/AndroidSec) 记录一些我自己在学习安卓逆向过程中的海洋的东西
+
+[huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)  PC版微信/QQ/TIM防撤回补丁
 
 # 其他
 modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
