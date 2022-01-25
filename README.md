@@ -27,7 +27,9 @@
 
 [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)  [教程/笔记]吴恩达老师的机器学习课程个人笔记 
 
-[apachecn/AiLearning](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
+[apachecn/AiLearning)](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
+
+[https://github.com/microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
 
 [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周，20 节课，全民数据科学！
 
@@ -199,6 +201,10 @@ RAPIDS Open GPU Data Science http://rapids.ai
 
 [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels) Statsmodels：Python 中的统计建模和计量经济学库。
 
+[evidentlyai/evidently](https://github.com/evidentlyai/evidently) 在验证或生产监控期间分析机器学习模型的交互式报告。
+
+[louisfb01/best_AI_papers_2021](https://github.com/louisfb01/best_AI_papers_2021) 按发布日期列出的人工智能最新突破（2021 年）的精选列表，附有清晰的视频说明、更深入文章的链接和代码。
+
 ## 特征工程
 
 [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -367,7 +373,13 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 
 [China-UK-ZSL/Resources_for_KZSL](https://github.com/China-UK-ZSL/Resources_for_KZSL) KZSL：对知识驱动的零样本学习进行基准测试.用于零**样本**图像分类 ( ZS-IMGC)、零**样本**关系提取 ( ZS-RE) 和零**样本**知识图 (KG) 完成 ( ZS-KGC ))
 
+[alibaba/Elastic-Federated-Learning-Solution](https://github.com/alibaba/Elastic-Federated-Learning-Solution) 经过百亿规模工业级场景实战验证的跨互联网企业信息合作的联邦学习框架。EFLS有以下核心特性：云原生支持自定义特征工程——大规模高可用；首开水平聚合，层次聚合双模型——更强大更便捷。 
 
+[wuba/dl_inference](https://github.com/wuba/dl_inference) 通用深度学习推理工具，可在生产环境中快速上线由TensorFlow、PyTorch、Caffe框架训练出的深度学习模型。
+
+[activeloopai/Hub](https://github.com/activeloopai/Hub) 人工智能的数据集格式。为深度学习构建、管理和可视化数据集。将数据实时流式传输到 PyTorch/TensorFlow 并对其进行版本控制。
+
+[gradio-app/gradio](https://github.com/gradio-app/gradio) 在 3 分钟内使用 Python 为您的机器学习模型创建 UI
 
 
 # 图神经网络GNN
@@ -653,6 +665,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
   * BSlience/transformer-all-in-one 记录了学习Transformer过程中的一些疑问和解答，并且实现Transformer的全过程。
   * mlpen/Nystromformer 利用了 Nyström 方法来近似标准的Attention。
   * xuanqing94/FLOATER 基于连续动态系统学习更加灵活的位置编码
+  * [ELS-RD/transformer-deploy](https://github.com/ELS-RD/transformer-deploy) Hugging Face Transformer 亚毫秒推理和部署到生产环境
 
 ## BERT优化
   * google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
@@ -700,6 +713,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
 * [sunyilgdx/NSP-BERT](https://github.com/sunyilgdx/NSP-BERT) 利用**句子级别(sentence-level)** 的预训练任务 **NSP (下一句预测，Next Sentence Prediction)** 来实现不同的NLP下游任务, 例如 *单句分类(single sentence classification)*, *双句分类(sentence pair classification)*, *指代消解(coreference resolution)*, *完形填空(cloze-style task)*, *实体链接(entity linking)*, *实体类型识别(entity typing)*.
 * [thunlp/OpenPrompt](https://github.com/thunlp/OpenPrompt) Prompt-learning 是将预训练语言模型 (PLM) 应用于下游 NLP 任务的最新范式，它使用文本模板修改输入文本并直接使用 PLM 执行预训练任务。 该库提供了一个标准、灵活和可扩展的框架来部署即时学习管道。 OpenPrompt 支持直接从 Huggingface Transformer 加载 PLM。 将来，我们还将支持其他库实现的 PLM。
 * [google-research/flan](https://github.com/google-research/flan) 微调语言模型是零样本学习器
+* [PaddlePaddle/ERNIE](https://github.com/PaddlePaddle/ERNIE) ERNIE 家族各种预训练模型的官方实现，涵盖语言理解与生成、多模态理解与生成等主题。
 
 ## 文本分类
 
@@ -1204,6 +1218,8 @@ blue-yonder/tsfresh 时间序列特征提取python工具包，它会自动计算
 
 johannfaouzi/pyts 时间序列分类Python工具包。提供预处理工具及若干种时间序列分类算法。
 
+[linkedin/greykite](https://github.com/linkedin/greykite) Greykite 库通过其旗舰算法 Silverkite 提供灵活、直观和快速的预测。Silverkite 算法适用于大多数时间序列，尤其适用于趋势或季节性变化点、事件/假日效应和时间依赖性的那些。它是可解释的，因此对于值得信赖的决策和洞察力很有用。
+
 
 zhouhaoyi/Informer2020 效果远超Transformer的长序列预测，提出了ProbSparse self-attention机制来高效的替换常规的self-attention并且获得了的O（LlogL)时间复杂度以及O(LlogL)的内存使用率,提出了self-attention distilling操作，它大幅降低了所需的总空间复杂度O((2-e)LlogL)；我们提出了生成式的Decoder来获取长序列的输出，这只需要一步，避免了在inference阶段的累计误差传播；
 
@@ -1253,6 +1269,8 @@ jsyoon0823/TimeGAN 时间序列生成对抗网络
 # 强化学习 Reinforcement Learning
 
 ray-project/ray 构建分布式机器学习应用提供简单和通用式的API。Ray打包了Tune、RLlib、RaySGD和Ray Serve等多款机器学习库。
+
+[Farama-Foundation/PettingZoo](https://github.com/Farama-Foundation/PettingZoo) 一个用于进行多智能体强化学习研究的 Python 库，类似于[Gym](https://github.com/openai/gym)的多智能体版本。
 
 astooke/rlpyt
 
@@ -1464,6 +1482,7 @@ babysor/MockingBird AI拟声: 5秒内克隆您的声音并生成任意语音内�
 * [sameerkhurana10/DSOL_rv0.2](https://github.com/sameerkhurana10/DSOL_rv0.2) 深度蛋白质溶解度预测
 * [luoyunan/ECNet](https://github.com/luoyunan/ECNet) 用于蛋白质工程的进化上下文集成深度学习框架
 * [luoyunan/ECNet](https://github.com/luoyunan/ECNet) 用于蛋白质工程的进化上下文集成深度学习框架
+* [deepmodeling/Uni-Fold](https://github.com/deepmodeling/Uni-Fold) Uni-Fold：训练您自己的深度蛋白质折叠模型。
 ## 药物发现
   * DeepGraphLearning/torchdrug 药物发现强大而灵活的机器学习平台
 
@@ -1506,6 +1525,8 @@ babysor/MockingBird AI拟声: 5秒内克隆您的声音并生成任意语音内�
 
   * [THinnerichs/DTI-VOODOO](https://github.com/THinnerichs/DTI-VOODOO) 使用深度图学习方法进行药物靶标相互作用预测的 PPI 网络驱动方法。
 
+  * [DeepRank/deeprank](https://github.com/DeepRank/deeprank)使用 CNN 数据挖掘蛋白质-蛋白质相互作用的深度学习框架
+
      
 
 ## 分子
@@ -1545,6 +1566,8 @@ cansyl/MDeePred 通过一种多通道蛋白质的特征化来解决深度学习�
 mims-harvard/TDC Therapeutics Data Commons (TDC)，第一个机器学习在生物医药的大规模数据集。TDC目前包含了20+有意义的任务，和70多个高质量数据集，从靶蛋白的发现，药物动力学，安全性，药物生产都有包含到。而且不仅仅是小分子，还有抗体，疫苗，miRNA等。之后也会加入CRISPR，Clinical Trials等等。
 
 lrsoenksen/CL_RNA_SynthBio  RNA合成生物学的深度学习
+
+[uci-cbcl/UFold](https://github.com/uci-cbcl/UFold) UFold：利用深度学习进行快速准确的 RNA 二级结构预测
 
 lanagarmire/DeepImpute 一种基于深度神经网络来插补单细胞RNA测序数据的方法
 
@@ -1621,6 +1644,10 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 [Tsedao/MultiRM](https://github.com/Tsedao/MultiRM) 基于注意力的多标签神经网络，用于对十二种广泛发生的 RNA 修饰进行综合预测和解释
 
 [hybrid-kg/clep](https://github.com/hybrid-kg/clep) 用于生成由数据和先验知识驱动的新患者表示的 Python 包
+
+[d909b/drnet](https://github.com/d909b/drnet) 剂量反应网络 (DRNets) 是一种学习方法，用于学习使用神经网络从观察数据中估计多个参数治疗的个体剂量反应曲线。
+
+[claudiashi57/dragonnet](https://github.com/claudiashi57/dragonnet) 适应神经网络以估计治疗效果 使用神经网络从观察数据中估计因果效应的方法。
 
 
 # 机器视觉
@@ -1724,6 +1751,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) 用于对象检测、分割和其他视觉识别任务的下一代平台。
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
+
+[facebookresearch/AugLy](https://github.com/facebookresearch/AugLy) 用于音频、图像、文本和视频的数据增强库。
 
 hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以在浏览器中执行实时实例分割
 
@@ -1915,7 +1944,7 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 [qiurunze123/miaosha](https://github.com/qiurunze123/miaosha) 秒杀系统设计与实现.互联网工程师进阶与分析
 
-
+[timescale/tsbs](https://github.com/timescale/tsbs) 时间序列基准套件，用于比较和评估时间序列数据数据库的工具
 
 # 硬件
 
@@ -2019,6 +2048,8 @@ liupan1890/aliyunpan 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
 [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)  PC版微信/QQ/TIM防撤回补丁
 
 # 其他
+[mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks 作为 Markdown 文档、Julia、Python 或 R 脚本
+
 modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
 
 huihut/interview C/C++ 技术面试基础知识总结
