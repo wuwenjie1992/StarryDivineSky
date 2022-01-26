@@ -23,7 +23,29 @@
 <h3 align="center">持续更新！欢迎star！欢迎star！😀😀😀</h3> 
 
 
-# 机器学习、深度学习
+
+# 目录
+
+- [机器学习与深度学习](#机器学习与深度学习)
+- [图神经网络GNN](#图神经网络GNN)
+- [NLP自然语言处理](#NLP自然语言处理)
+- [推荐系统](#推荐系统)
+- [金融股票与时间序列](#金融股票与时间序列)
+- [强化学习](#强化学习-reinforcement-learning)
+- [语音识别与合成](#语音识别与合成)
+- [生物医药](#生物医药)
+- [机器视觉](#机器视觉)
+- [虚拟化](#虚拟化)
+- [因果推断](#因果推断)
+- [图数据库 图算法](#图数据库图算法)
+- [硬件](#硬件)
+- [网络](#网络)
+- [安全与渗透](#安全与渗透)
+- [其他](#其他)
+
+
+
+# 机器学习与深度学习
 
 [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)  [教程/笔记]吴恩达老师的机器学习课程个人笔记 
 
@@ -204,6 +226,8 @@ RAPIDS Open GPU Data Science http://rapids.ai
 [evidentlyai/evidently](https://github.com/evidentlyai/evidently) 在验证或生产监控期间分析机器学习模型的交互式报告。
 
 [louisfb01/best_AI_papers_2021](https://github.com/louisfb01/best_AI_papers_2021) 按发布日期列出的人工智能最新突破（2021 年）的精选列表，附有清晰的视频说明、更深入文章的链接和代码。
+
+[DataCanvasIO/DeepTables](https://github.com/DataCanvasIO/DeepTables) DeepTables：表格数据的深度学习工具包
 
 ## 特征工程
 
@@ -516,6 +540,8 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 
 
 ## 其他
+
+[naganandy/graph-based-deep-learning-literature](https://github.com/naganandy/graph-based-deep-learning-literature) 基于图的深度学习中的会议出版物
 
 https://github.com/benedekrozemberczki/ClusterGCN 提出了一种新的方法来进行GCN训练：首先，对图进行聚类，把原图划分成一些紧密连接的子图；然后，抽样一个或者一些子图作为一个batch，在抽样出来的子图上进行卷积计算。
 
@@ -833,6 +859,8 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * [OpenKG-ORG/OpenRichpedia](https://github.com/OpenKG-ORG/OpenRichpedia) 东南大学多模态知识图谱-OpenRichpedia工程文件
  * [csdqa](http://openkg.cn/dataset/csdqa)  计算机科学领域示意图问答数据集
  * [HKUST-KnowComp/FKGE](https://github.com/HKUST-KnowComp/FKGE) 差异私有联合知识图嵌入
+ * [totogo/awesome-knowledge-graph](https://github.com/totogo/awesome-knowledge-graph) 知识图相关学习材料、数据库、工具和其他资源的精选列表
+ * [BrambleXu/knowledge-graph-learning](https://github.com/BrambleXu/knowledge-graph-learning) 精选的知识图谱教程、项目和社区列表。
 
 ## NLP语料和数据集
  * https://github.com/thu-coai/CrossWOZ 大规模的中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
@@ -988,6 +1016,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [facebookresearch/ParlAI](https://github.com/facebookresearch/ParlAI) 在各种公开可用的对话数据集上训练和评估 AI 模型的框架。
 
 [CAMTL/CA-MTL](https://github.com/CAMTL/CA-MTL) 条件自适应多任务学习：使用更少的参数和更少的数据改进 NLP 中的迁移学习
+
+[thunlp/WantWords](https://github.com/thunlp/WantWords) 一个开源的在线反向词典。
 
 # 推荐系统
 
@@ -1756,6 +1786,12 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以在浏览器中执行实时实例分割
 
+[megvii-model/YOLOF](https://github.com/megvii-model/YOLOF) **一个没有**FPN的简单、快速、高效的目标检测器。
+
+[https://github.com/JosephKJ/OWOD](https://github.com/JosephKJ/OWOD) (CVPR 2021 Oral) 开放世界目标检测.引入了强大的评估协议并提供了一种新颖的解决方案，我们称之为 ORE：开放世界对象检测器，基于对比聚类和基于能量的未知识别。
+
+[extreme-assistant/CVPR2021-Paper-Code-Interpretation](https://github.com/extreme-assistant/CVPR2021-Paper-Code-Interpretation) cvpr2021/cvpr2020/cvpr2019/cvpr2018/cvpr2017 论文/代码/解读/直播合集，极市团队整理
+
 LeonLok/Multi-Camera-Live-Object-Tracking 多摄像头实时目标跟踪和计数，使用YOLOv4，Deep SORT和Flask
 
 cfzd/Ultra-Fast-Lane-Detection 论文“超快速结构感知深度车道检测”的实现
@@ -1842,6 +1878,8 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [phecy/SSL-FEW-SHOT](https://github.com/phecy/SSL-FEW-SHOT) 小样本图像分类的自监督学习
 
+ [yuantn/MI-AOD](https://github.com/yuantn/MI-AOD) [*Multiple Instance Active Learning for Object Detection（用于目标检测的多示例主动学习方法）*](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf) , 提出了 多示例主动目标检测（MI-AOD） ，通过观察示例级的不确定性来选择信息量最大的图像用于检测器的训练。
+
 # 虚拟化
 jesseduffield/lazydocker docker 简单终端 UI
 
@@ -1878,7 +1916,7 @@ wanyu-lin/ICML2021-Gem 针对图神经网络的通用因果解释方法
 [econometric/CausalitySlides](https://gitee.com/econometric/CausalitySlides) 西雅图大学因果推理课程的幻灯片
 
 
-# 图数据库 图算法
+# 图数据库图算法
 
 Tencent/plato
 
@@ -2047,6 +2085,8 @@ liupan1890/aliyunpan 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
 
 [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)  PC版微信/QQ/TIM防撤回补丁
 
+[tombstoneghost/TIWAP](https://github.com/tombstoneghost/TIWAP) 使用 Flask 制作的 Web 安全测试实验室，供新手安全爱好者了解各种 Web 漏洞。
+
 # 其他
 [mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks 作为 Markdown 文档、Julia、Python 或 R 脚本
 
@@ -2139,3 +2179,9 @@ dblalock/bolt 矩阵和向量运算速度提高 10 倍
 [joerick/pyinstrument](https://github.com/joerick/pyinstrument) 用于 Python 的调用堆栈分析器。向您展示为什么您的代码很慢！
 
 [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。
+
+[EastWorld/wechat-app-mall](https://github.com/EastWorld/wechat-app-mall) 微信小程序商城，微信小程序微店
+
+[jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) 一个基于Electron的图表和白板桌面应用程序，它包装了核心 draw.io 编辑器。
+
+[microapp-store/flash-waimai](https://github.com/microapp-store/flash-waimai) 一个仿照饿了么的外卖平台，包括手机端，后台管理, api服务
