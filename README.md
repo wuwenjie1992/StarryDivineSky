@@ -23,7 +23,6 @@
 <h3 align="center">持续更新！欢迎star！欢迎star！😀😀😀</h3> 
 
 
-
 # 目录
 
 - [机器学习与深度学习](#机器学习与深度学习)
@@ -295,8 +294,6 @@ https://github.com/ScienceKot/kydavra 特征筛选工具
 
 [PKU-DAIR/open-box](https://github.com/PKU-DAIR/open-box) 通用且高效的黑盒优化系统。旨在解决泛化的黑盒优化（BBO）问题， 例如自动化超参数调优、自动化A/B测试、 实验设计、数据库参数调优、处理器体系结构和电路设计、资源分配等。
 
-[PKU-DAIR/mindware](https://github.com/PKU-DAIR/mindware) 一个高效的开源 AutoML 系统，用于自动化机器学习生命周期，包括特征工程、神经架构搜索和超参数调整。
-
 ## 梯度提升和树模型
 
 [dmlc/xgboost](https://github.com/dmlc/xgboost) 可扩展、可移植和分布式梯度提升（GBDT、GBRT 或 GBM）库，适用于 Python、R、Java、Scala、C++ 等。 在单机、Hadoop、Spark、Dask、Flink 和 DataFlow 上运行。
@@ -322,6 +319,8 @@ https://github.com/ScienceKot/kydavra 特征筛选工具
 [hlamotte/decision-tree](https://github.com/hlamotte/decision-tree) 在C++的决策树
 
 [augboost-anon/augboost](https://github.com/augboost-anon/augboost) 逐步特征增强的梯度提升。
+
+[https://github.com/DataCanvasIO/HyperGBM](https://github.com/DataCanvasIO/HyperGBM) 用于表格数据的完整管道 AutoML 工具, 涉及多个梯度提升树模型（GBM），即XGBoost、LightGBM和Catboost。
 
 ## 神经网络结构搜索 Neural Architecture Search
 
@@ -405,6 +404,10 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 
 [gradio-app/gradio](https://github.com/gradio-app/gradio) 在 3 分钟内使用 Python 为您的机器学习模型创建 UI
 
+[PKU-DAIR/mindware](https://github.com/PKU-DAIR/mindware) 一个高效的开源 AutoML 系统，用于自动化机器学习生命周期，包括特征工程、神经架构搜索和超参数调整。
+
+[DataCanvasIO/Hypernets](https://github.com/DataCanvasIO/Hypernets) 通用自动化机器学习框架，用于简化特定领域中端到端 AutoML 工具包的开发。包括 tensorflow、keras、pytorch 等深度学习框架，以及 sklearn、lightgbm、xgboost 等机器学习库。引入了抽象的搜索空间表示，同时兼顾了超参数优化和神经架构搜索（NAS）的要求，使 Hypernets 成为能够适应各种自动化机器学习需求的通用框架。
+
 
 # 图神经网络GNN
 
@@ -427,6 +430,8 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
  * https://github.com/divelab/DIG  支持研究方向：图生成、图自监督学习、图神经网络可解释性以及 3D 图深度学习。对于每个领域，DIG 都提供了通用、可扩展的数据接口、常用算法与评估标准实现。
  * [chaitjo/awesome-efficient-gnn](https://github.com/chaitjo/awesome-efficient-gnn) 令人敬畏的高效图神经网络,一份关于有效图神经网络和可扩展图表示学习的必读论文的精选列表，用于实际应用。 
  * [EdisonLeeeee/GraphGallery](https://github.com/EdisonLeeeee/GraphGallery) GraphGallery 是一个用于对图神经网络 (GNN) 进行基准测试的图库。实现的方法：节点分类、图净化、链接预测、节点嵌入。
+ * [Awesome-GNN-Research](https://github.com/XunKaiLi/Awesome-GNN-Research) 很棒的 GNN 研究
+ * [quiver-team/torch-quiver](https://github.com/quiver-team/torch-quiver) 用于快速轻松的分布式图学习的 PyTorch 库
 
 ## 图注意力机制
  * https://github.com/PetarV-/GAT Graph Attention Networks 
@@ -499,20 +504,38 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 
 ## 时空网络、交通预测、动态图
  * ASTGCN 基于注意的时空图卷积网络，用于交通流量预测
+
  * https://github.com/LeiBAI/AGCRN 端到端的流量预测模型-自适应图卷积递归网络（AGCRN）。AGCRN可以捕获流量序列中特定于节点的细粒度空间和时间相关性，并通过嵌入DAGG来统一修订GCN中的节点嵌入。这样，训练AGCRN可以针对每个交通系列源（例如，用于交通速度/流量的道路，用于乘客需求的车站/区域）产生有意义的节点表示向量。学习的节点表示包含有关道路/区域的有价值的信息，并且可以潜在地应用于其他任务。
+
  * https://github.com/nnzhan/Graph-WaveNet 时空序列预测模型，本文目标是，给定图 G和历史S 步的图信号数据，学习映射关系f，进而预测接下来T 步的图信号。源于WaveNet，并在图卷积的基础上提出了动态自适应的邻接矩阵来捕获隐藏的图结构关系。数据集:META-LA是洛杉矶公路探测器收集到的交通数据，有207个传感器搜集了四个月的数据（2012.3.1~2012.6.30） ;PEMS-BAY是加州交通部门Performance Measurement System搜集到的交通数据，有325个传感器搜集了六个月的数据（2017.1.1~2017.5.31）
+
  * https://github.com/Davidham3/STSGCN 时空同步图卷积网络：一种时空网络数据预测的新框架 该模型能够有效地捕捉复杂的局域时空相关性。同时，在模型中设计了多个不同时间段的模块，以有效地捕获局部时空图中的异质性。
+
  * https://github.com/IBM/EvolveGCN 动态时序知识图谱。为了实现动态学习主要注意以下三点：1、每个时间片单独学习一个GCN，每个GCN输入不同体现在图谱的邻接矩阵不同，但在代码实现时必须要求每个时刻的节点是保持一致的，而节点之间的关系存在变动；2、为了考虑动态图谱联系，用RNN将每个时间片GCN模型参数串起来进行序列学习；3、RNN循环网络采用两种：GRU，LSTM
+
  * https://github.com/twitter-research/tgn  TGN: Temporal Graph Networks 动态图的神经网络模型
+
  * https://github.com/lehaifeng/T-GCN 通过图卷积网络进行的城市交通流量预测的工作。文件结构如下所示：1 T-GCN是时间图卷积网络的源代码。2 A3T-GCN是具有注意力结构的时间图卷积网络的源代码。3 AST-GCN是属性增强的时空图卷积网络的源代码。4 基准包括以下方法，例如（1）历史平均模型（HA）（2）自回归综合移动平均模型（ARIMA）（3）支持向量回归模型（SVR）（4）图卷积网络模型（GCN）（5）门控循环单位模型（GRU）
+
  * https://github.com/palash1992/DynamicGEM 捕捉动态图演化的动力学特征，生成动态图表示的方法，本质上是输入为动态图的前T个时间步的snapshot，输出为T+1时刻的图嵌入式表达。
+
  * https://github.com/rootlu/MMDNE 从微观/宏观两种层级建模动态网络中节点演化规律，并能够在节点表示中学习到这种规律。微观更偏向于捕捉具体边对形成过程 宏观更偏向于从网络动力学挖掘网络演变的规律，最终生成节点的表示。
+
  * https://github.com/skx300/DyHATR 同时考虑到图的异构性和动态性的特点，对于图的每个时间切片，利用node-level attention和edge-level attention以上两个层次的注意力机制实现异质信息的有效处理，并且通过循环神经网络结合self-attention研究节点embedding的演化特性，并且通过链接预测任务进行试验，验证模型的有效性。
+
  * https://github.com/aravindsankar28/DySAT 提出了DYNAMIC SELF-ATTENTION NETWORK机制，通过结构化注意力模块与时态注意力模块对动态变化的节点进行表示。
+
  * https://github.com/luckiezhou/DynamicTriad 依据动态网络的特性，提出了依据triad结构建模动态图演化模式的方法DynamicTraid。三元组（Triad）演化的过程就是三个节点中两个互不链接的节点之间建立链接，形成一个闭合三元组的过程。作者在几个不同的真实业务场景（电信欺诈，贷款偿还等）数据集中做了实验，证明了模型的有效性。
+
  * https://github.com/jwwthu/GNN4Traffic 整理了基于图神经网络的交通预测相关的顶会论文及统计分析。
+
  * [SpaceLearner/Awesome-DynamicGraphLearning](https://github.com/SpaceLearner/Awesome-DynamicGraphLearning) 将深度学习技术(图神经网络等)应用在动态图、动态网络、动态知识图谱上的论文、代码、工具等。
+
  * [liangzhehan/DMSTGCN](https://github.com/liangzhehan/DMSTGCN) 用于交通速度预测的动态和多方面时空深度学习
+
+ * [LibCity/Bigscity-LibCity-PaperList](https://github.com/LibCity/Bigscity-LibCity-PaperList) 交通预测领域论文列表
+
+ * [https://github.com/LibCity/Bigscity-LibCity/](https://github.com/LibCity/Bigscity-LibCity/) LibCity 是一个统一、全面、可扩展的代码库，为交通预测领域的研究人员提供了一个可靠的实验工具和便捷的开发框架。 我们的库基于 PyTorch 实现，并将与交通预测相关的所有必要步骤或组件包含到系统的流水线中，使研究人员能够进行全面的对比实验。 我们的库将有助于交通预测领域的标准化和可复现性。LibCity 目前支持以下任务：- 交通状态预测(交通流量预测、交通速度预测、交通需求预测、起点-终点（OD）矩阵预测、交通事故预测）轨迹下一跳预测、到达时间预测、路网匹配、路网表征学习。
 
 ## 图预训练  Pre-Training of Graph
  * https://github.com/THUDM/GCC Graph Contrastive Coding for Graph Neural Network Pre-Training 用于图形神经网络预训练的图形对比编码，下游任务：节点分类、图分类、相似性搜索。
@@ -824,6 +847,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * xv44586/ccf_2020_qa_match CCF2020问答匹配比赛 任务是：给定IM交流片段，片段包含一个客户问题以及随后的经纪人若干IM消息，从随后的经纪人消息中找出一个是对客户问题的回答。
  * lgw863/LogiQA-dataset 数据集包含8,678个QA实例
  * HIT-SCIR/Molweni 提出了构建于多人对话的英文机器阅读理解（MRC）数据集——Molweni，并覆盖了对话语篇结构。Molweni源自于Ubuntu聊天语料库，包括10,000个对话，共计88,303条话语（utterance）。我们共标注了30,066个问题，包括可回答和不可回答的问题。Molweni独特地为其多人对话提供了语篇结构信息，共标注了78,245个语篇关系实例，为多人对话语篇结构分析（Discourse  parsing）贡献了大规模数据。
+ * [danqi/acl2020-openqa-tutorial](https://github.com/danqi/acl2020-openqa-tutorial) 本教程对开放域问答 (QA) 的前沿研究进行了全面而连贯的概述，QA 是使用大量不同主题的文档来回答问题的任务。首先简要介绍历史背景，讨论研究问题的基本设置和核心技术挑战，然后描述具有通用评估指标和基准的现代数据集。然后，是在开放域QA中提出的前沿模型，包括两阶段检索器-阅读器方法、密集检索器和端到端训练以及无检索器方法。最后，介绍使用文本和大型知识库的混合方法，并以重要的开放性问题结束本教程。
 
  ## 知识图谱问答KBQA、多跳推理
  * RUCAIBox/KBQAPapers 知识图谱问答KBQA论文集
@@ -923,7 +947,7 @@ https://github.com/425776024/nlpcda 中文数据增强工具,：1.随机实体�
 
 https://github.com/wac81/textda Python3中文文本的数据增强
 
-https://github.com/zhanlaoban/EDA_NLP_for_Chinese 适合中文语料的数据增强EDA的实现
+[zhanlaoban/EDA_NLP_for_Chinese](https://github.com/zhanlaoban/EDA_NLP_for_Chinese) 适合中文语料的数据增强EDA的实现
 
 [akkarimi/aeda_nlp](https://github.com/akkarimi/aeda_nlp) 一种更简单的文本分类数据增强技术.插入符号。
 
@@ -1043,6 +1067,8 @@ RUCAIBox/RecBole 统一，全面，高效的推荐库，包括：
 [laekov/fastmoe](https://github.com/laekov/fastmoe) FastMoE 是一个易用且高效的基于 PyTorch 的 MoE 模型训练系统.
 
 [Coder-Yu/QRec](https://github.com/Coder-Yu/QRec) QRec：快速实现推荐系统的 Python 框架（基于 TensorFlow）
+
+[Transformers4Rec](https://github.com/NVIDIA-Merlin/Transformers4Rec/) Transformers4Rec 是一个灵活且高效的库，用于顺序和基于会话的推荐，可用于 PyTorch 和 Tensorflow。
 
 oywtece/dstn
 
@@ -1183,6 +1209,22 @@ https://github.com/xidongbo/AITM 自适应信息传输多任务 (AITM) 框架的
 
 [https://github.com/xiaxin1998/DHCN](https://github.com/xiaxin1998/DHCN) 用于基于会话的推荐的自超图卷积网络
 
+[maenzhier/GRecX](https://github.com/maenzhier/GRecX) 基于 GNN 的推荐的高效统一基准。
+
+[AmazingDD/daisyRec](https://github.com/AmazingDD/daisyRec) 在 pytorch 中开发的推荐系统。算法：KNN、LFM、SLIM、NeuMF、FM、DeepFM、VAE 等，旨在公平比较推荐系统基准
+
+[https://github.com/wubinzzu/NeuRec](https://github.com/wubinzzu/NeuRec) NeuRec是一个全面且灵活的 Python 库，用于推荐系统，其中包括大量最先进的神经推荐模型。该库旨在解决一般、社交和顺序（即下一项）推荐任务，使用Tensorflow库提供 33 个开箱即用的模型。NeuRec 是开源的，在MIT 许可下可用。
+
+[guoguibing/librec](https://github.com/guoguibing/librec) 一个用于推荐系统的 Java 库（需要 Java 版本 1.7 或更高版本）。它实现了一套最先进的推荐算法，旨在解决两个经典的推荐任务：**评分预测**和**项目排名**。
+
+[facebookresearch/torchrec](https://github.com/facebookresearch/torchrec) 推荐系统的 Pytorch库,旨在提供大型推荐系统 (RecSys) 所需的通用稀疏性和并行性原语。它允许作者使用跨多个 GPU 分片的大型嵌入表来训练模型。
+
+[huawei-noah/FuxiCTR](https://github.com/huawei-noah/benchmark/tree/main/FuxiCTR) FuxiCTR 为 CTR 预测提供了一个开源库，在可配置性、可调整性和可重复性方面具有惊人的功能。模型包括：LR  FM  CCPM  FFM  YoutubeDNN  Wide&Deep  IPNN  DeepCross  HOFM  DeepFM  NFM  AFM  DCN  FwFM  xDeepFM  DIN  FiGNN  AutoInt/AutoInt+  FiBiNET  FGCNN HFM/HFM+ ONN AFN/AFN+ LorentzFM FLEN FmFM
+
+[RUCAIBox/Awesome-Privacy-Preserving-RS-Paper](https://github.com/RUCAIBox/Awesome-Privacy-Preserving-RS-Paper) 本知识库收集了 2018 年后隐私保护推荐系统的最新研究进展。
+
+[github.com/THUDM/ComiRec](https://github.com/THUDM/ComiRec) KDD 2020 论文《Controllable Multi-Interest Framework for Recommendation》的源代码和数据集 可控的多兴趣推荐框架
+
 
 # 金融股票与时间序列
 
@@ -1294,6 +1336,10 @@ jsyoon0823/TimeGAN 时间序列生成对抗网络
 [facebookresearch/transformer-sequential](https://github.com/facebookresearch/transformer-sequential) 两篇论文的代码：Feedback Transformer 和 Expire-Span。用于使用类似 Transformer 的架构进行长序列建模。
 
 [angus924/minirocket](https://github.com/angus924/minirocket) MINIROCKET：用于时间序列分类的非常快速（几乎）确定性转换
+
+[EvilPsyCHo/Deep-Time-Series-Prediction](https://github.com/EvilPsyCHo/Deep-Time-Series-Prediction) Seq2Seq、Bert、Transformer、WaveNet 用于时间序列预测。
+
+[locuslab/TCN](https://github.com/locuslab/TCN) 序列建模基准和时间卷积网络
 
 
 # 强化学习 Reinforcement Learning
@@ -1424,11 +1470,15 @@ sjtu-marl/malib 专门面向 基于种群的多智能体深度强化学习 PB-MA
 
 [SunQingYun1996/Graph-Reinforcement-Learning-Papers](https://github.com/SunQingYun1996/Graph-Reinforcement-Learning-Papers) 图强化学习论文的精选列表。
 
+[https://github.com/sail-sg/envpool](https://github.com/sail-sg/envpool) 用于通用 RL 环境的基于 C++ 的高性能并行环境执行引擎（矢量化环境）。
+
 # 语音识别与合成
 
 espnet/espnet  End-to-End Speech Processing Toolkit 端到端的语音处理工具箱，主要特性：kaldi风格的处理模式、ASR、TTS、语音翻译、机器翻译、语音转换、DNN框架
 
 athena-team/athena 基于序列到序列的语音处理引擎的开源实现
+
+[PaddlePaddle/PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech) 易于使用的语音工具包，包括 SOTA ASR 管道、带有文本前端的有影响力的 TTS 和端到端语音同步翻译。
 
 ## 语音识别
 audier/DeepSpeechRecognition 基于深度学习的中文语音识别系统
@@ -1679,6 +1729,12 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 
 [claudiashi57/dragonnet](https://github.com/claudiashi57/dragonnet) 适应神经网络以估计治疗效果 使用神经网络从观察数据中估计因果效应的方法。
 
+[PaddlePaddle/PaddleHelix](https://github.com/PaddlePaddle/PaddleHelix/) 螺旋桨（PaddleHelix）是一个生物计算工具集，是用机器学习的方法，特别是深度神经网络，致力于促进以下领域的发展：
+
+- **新药发现**。提供1)大规模预训练模型:化合物和蛋白质; 2)多种应用:分子属性预测,药物靶点亲和力预测,和分子生成。
+- **疫苗设计**。提供RNA设计算法,包括LinearFold和LinearPartition。
+- **精准医疗**。提供药物联用的应用。
+
 
 # 机器视觉
 
@@ -1879,6 +1935,16 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [phecy/SSL-FEW-SHOT](https://github.com/phecy/SSL-FEW-SHOT) 小样本图像分类的自监督学习
 
  [yuantn/MI-AOD](https://github.com/yuantn/MI-AOD) [*Multiple Instance Active Learning for Object Detection（用于目标检测的多示例主动学习方法）*](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf) , 提出了 多示例主动目标检测（MI-AOD） ，通过观察示例级的不确定性来选择信息量最大的图像用于检测器的训练。
+
+[https://github.com/yangle15/RANet-pytorch](https://github.com/yangle15/RANet-pytorch) 提出的分辨率自适应网络 (RANet) 通过利用`spatial redundancy`输入图像的分辨率来进行自适应推理。我们的动机是低分辨率表示足以对包含具有原型特征的大对象的简单样本进行分类，而只有一些困难样本需要空间详细信息，这可以通过下图来证明。
+
+[microsoft/NUWA](https://github.com/microsoft/NUWA) NÜWA 是一个统一的多模态预训练模型，可以为8个视觉合成任务(文本转图像、模板转图像、图像补全、图像操纵、文本转视频、模板转视频、视频帧预测、视频操纵) 生成新的或操纵现有的视觉数据（即图像和视频）。待开放源码（20220201）。
+
+[lucidrains/nuwa-pytorch](https://github.com/lucidrains/nuwa-pytorch) 在 Pytorch 中实现 NÜWA，用于文本到视频合成的最先进的注意力网络
+
+[bryandlee/animegan2-pytorch](https://github.com/bryandlee/animegan2-pytorch) AnimeGANv2 的 PyTorch 实现 基于 CartoonGAN 的改进,并提出了一个更加轻量级的动漫风格效果生成器架构.
+
+[TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) [开源]。AnimeGAN 的改进版本。风景照片/视频到动漫风格
 
 # 虚拟化
 jesseduffield/lazydocker docker 简单终端 UI
@@ -2185,3 +2251,5 @@ dblalock/bolt 矩阵和向量运算速度提高 10 倍
 [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) 一个基于Electron的图表和白板桌面应用程序，它包装了核心 draw.io 编辑器。
 
 [microapp-store/flash-waimai](https://github.com/microapp-store/flash-waimai) 一个仿照饿了么的外卖平台，包括手机端，后台管理, api服务
+
+[PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
