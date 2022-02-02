@@ -408,6 +408,16 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 
 [DataCanvasIO/Hypernets](https://github.com/DataCanvasIO/Hypernets) 通用自动化机器学习框架，用于简化特定领域中端到端 AutoML 工具包的开发。包括 tensorflow、keras、pytorch 等深度学习框架，以及 sklearn、lightgbm、xgboost 等机器学习库。引入了抽象的搜索空间表示，同时兼顾了超参数优化和神经架构搜索（NAS）的要求，使 Hypernets 成为能够适应各种自动化机器学习需求的通用框架。
 
+[RadeonOpenCompute/ROCm](https://github.com/RadeonOpenCompute/ROCm) ROCm - 用于 HPC 和超大规模 GPU 计算的开源平台
+
+[PaddlePaddle/Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite) 飞桨多端多平台高性能深度学习推理引擎.支持多平台：涵盖 Android、iOS、嵌入式 Linux 设备、Windows、macOS 和 Linux 主机。支持多种语言：包括 Java、Python、C++。轻量化和高性能：针对移动端设备的机器学习进行优化，压缩模型和二进制文件体积，高效推理，降低内存消耗
+
+[nvdla/hw](https://github.com/nvdla/hw) NVIDIA 深度学习加速器 (NVDLA) 是一种免费的开放式架构，它促进了设计深度学习推理加速器的标准方法。凭借其模块化架构，NVDLA 具有可扩展性、高度可配置性，并且旨在简化集成和可移植性。
+
+[lowRISC/opentitan](https://github.com/lowRISC/opentitan) OpenTitan是一个开源硅信任根 (RoT) 项目。使企业、平台提供商和芯片制造商的硅 RoT 设计和实现更加透明、可信和安全，以生产高质量的开放 IP 以作为全功能产品的实例化。制造商越来越多地开始关注防篡改处理器（或其中一部分），通常被称为“安全区域（Secure Enclave）”，以阻止各种攻击。芯片中使用“信任根（Root of Trust）”，在系统每次启动时进行加密检查，确保没有任何内容被恶意篡改。如果发现问题，安全区域会阻止计算机启动。
+
+[lowRISC/ibex](https://github.com/lowRISC/ibex) Ibex 是一个小型 32 位 RISC-V CPU 内核，以前称为 zero-riscy。Ibex 是用 SystemVerilog 编写的生产级开源 32 位 RISC-V CPU 内核。CPU 内核高度可参数化，非常适合嵌入式控制应用。Ibex 正在接受广泛的验证，并且已经看到多个流片。Ibex 支持整数 (I) 或嵌入式 (E)、整数乘除法 (M)、压缩 (C) 和 B（位操作）扩展。
+
 
 # 图神经网络GNN
 
@@ -2093,6 +2103,25 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 [edgeimpulse/example-esp32-cam](https://github.com/edgeimpulse/example-esp32-cam) 在 ESP32 Cam 上构建并运行导出的图像分类
 
 [lvgl/lvgl](https://github.com/lvgl/lvgl) 强大且易于使用的嵌入式 GUI 库，具有许多小部件、高级视觉效果（不透明度、抗锯齿、动画）和低内存要求（16K RAM、64K 闪存）。
+
+[avakar/usbcorev](https://github.com/avakar/usbcorev) 用 Verilog 编写的全速设备端 USB 外设内核。
+
+[https://github.com/Kevincoooool/ESP_MASTER](https://github.com/Kevincoooool/ESP_MASTER) ESP32-CAM 带 LVGL 语音/人脸识别红外控制
+
+[FASTSHIFT/WatchX](https://github.com/FASTSHIFT/WatchX) 开源智能手表, 高质量流畅(60FPS+)的动画效果, 易于扩展的系统框架.
+
+[killerp/off_asr](https://gitee.com/killerp/off_asr) 智能遥控器（离线版）本项目基于esp32a1s模组，设计了一个遥控器，除了实现基本的红外遥控功能，人们还能通过语音，手机远程进行红外遥控。同时又加入温度传感器，并支持将温度数据上传云端，使人们能随时随地查看、分析数据。
+
+[killerp/smart_control](https://gitee.com/killerp/smart_control) 智能遥控器（在线版）。
+
+[espressif/esp-skainet](https://github.com/espressif/esp-skainet) ESP-Skainet 是乐鑫推出的智能语音助手，目前支持唤醒词识别和命令词识别。
+
+[Neutrino-1/Fitness_Watch](https://github.com/Neutrino-1/Fitness_Watch) 一款基于 esp12E 和 arudino 框架的健身手表。功能包括：自动显示开启和关闭、运动检测、心率传感器、NTP时间同步、触觉反馈、SMTP 电子邮件功能
+
+[alexforencich/verilog-ethernet](https://github.com/alexforencich/verilog-ethernet) 用FPGA实现的 Verilog 以太网组件
+
+[corundum/corundum](https://github.com/corundum/corundum) 用于网络计算的开源基于 FPGA 的 NIC 和平台
+
 
 # 网络
 [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。    
