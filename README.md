@@ -20,7 +20,7 @@
     </a>
 </p>
 <h3 align="center">很棒的列表，主要是机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
-<h3 align="center">持续更新！欢迎star！欢迎star！😀😀😀</h3> 
+<h3 align="center">持续更新！欢迎star！欢迎star！😀😀😀</h3>
 
 
 # 目录
@@ -294,6 +294,8 @@ https://github.com/ScienceKot/kydavra 特征筛选工具
 
 [PKU-DAIR/open-box](https://github.com/PKU-DAIR/open-box) 通用且高效的黑盒优化系统。旨在解决泛化的黑盒优化（BBO）问题， 例如自动化超参数调优、自动化A/B测试、 实验设计、数据库参数调优、处理器体系结构和电路设计、资源分配等。
 
+[jina-ai/finetuner](https://github.com/jina-ai/finetuner) 微调任何 DNN 以更好地嵌入神经搜索任务
+
 ## 梯度提升和树模型
 
 [dmlc/xgboost](https://github.com/dmlc/xgboost) 可扩展、可移植和分布式梯度提升（GBDT、GBRT 或 GBM）库，适用于 Python、R、Java、Scala、C++ 等。 在单机、Hadoop、Spark、Dask、Flink 和 DataFlow 上运行。
@@ -514,38 +516,23 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 
 ## 时空网络、交通预测、动态图
  * ASTGCN 基于注意的时空图卷积网络，用于交通流量预测
-
  * https://github.com/LeiBAI/AGCRN 端到端的流量预测模型-自适应图卷积递归网络（AGCRN）。AGCRN可以捕获流量序列中特定于节点的细粒度空间和时间相关性，并通过嵌入DAGG来统一修订GCN中的节点嵌入。这样，训练AGCRN可以针对每个交通系列源（例如，用于交通速度/流量的道路，用于乘客需求的车站/区域）产生有意义的节点表示向量。学习的节点表示包含有关道路/区域的有价值的信息，并且可以潜在地应用于其他任务。
-
  * https://github.com/nnzhan/Graph-WaveNet 时空序列预测模型，本文目标是，给定图 G和历史S 步的图信号数据，学习映射关系f，进而预测接下来T 步的图信号。源于WaveNet，并在图卷积的基础上提出了动态自适应的邻接矩阵来捕获隐藏的图结构关系。数据集:META-LA是洛杉矶公路探测器收集到的交通数据，有207个传感器搜集了四个月的数据（2012.3.1~2012.6.30） ;PEMS-BAY是加州交通部门Performance Measurement System搜集到的交通数据，有325个传感器搜集了六个月的数据（2017.1.1~2017.5.31）
-
  * https://github.com/Davidham3/STSGCN 时空同步图卷积网络：一种时空网络数据预测的新框架 该模型能够有效地捕捉复杂的局域时空相关性。同时，在模型中设计了多个不同时间段的模块，以有效地捕获局部时空图中的异质性。
-
  * https://github.com/IBM/EvolveGCN 动态时序知识图谱。为了实现动态学习主要注意以下三点：1、每个时间片单独学习一个GCN，每个GCN输入不同体现在图谱的邻接矩阵不同，但在代码实现时必须要求每个时刻的节点是保持一致的，而节点之间的关系存在变动；2、为了考虑动态图谱联系，用RNN将每个时间片GCN模型参数串起来进行序列学习；3、RNN循环网络采用两种：GRU，LSTM
-
  * https://github.com/twitter-research/tgn  TGN: Temporal Graph Networks 动态图的神经网络模型
-
  * https://github.com/lehaifeng/T-GCN 通过图卷积网络进行的城市交通流量预测的工作。文件结构如下所示：1 T-GCN是时间图卷积网络的源代码。2 A3T-GCN是具有注意力结构的时间图卷积网络的源代码。3 AST-GCN是属性增强的时空图卷积网络的源代码。4 基准包括以下方法，例如（1）历史平均模型（HA）（2）自回归综合移动平均模型（ARIMA）（3）支持向量回归模型（SVR）（4）图卷积网络模型（GCN）（5）门控循环单位模型（GRU）
-
  * https://github.com/palash1992/DynamicGEM 捕捉动态图演化的动力学特征，生成动态图表示的方法，本质上是输入为动态图的前T个时间步的snapshot，输出为T+1时刻的图嵌入式表达。
-
  * https://github.com/rootlu/MMDNE 从微观/宏观两种层级建模动态网络中节点演化规律，并能够在节点表示中学习到这种规律。微观更偏向于捕捉具体边对形成过程 宏观更偏向于从网络动力学挖掘网络演变的规律，最终生成节点的表示。
-
  * https://github.com/skx300/DyHATR 同时考虑到图的异构性和动态性的特点，对于图的每个时间切片，利用node-level attention和edge-level attention以上两个层次的注意力机制实现异质信息的有效处理，并且通过循环神经网络结合self-attention研究节点embedding的演化特性，并且通过链接预测任务进行试验，验证模型的有效性。
-
  * https://github.com/aravindsankar28/DySAT 提出了DYNAMIC SELF-ATTENTION NETWORK机制，通过结构化注意力模块与时态注意力模块对动态变化的节点进行表示。
-
  * https://github.com/luckiezhou/DynamicTriad 依据动态网络的特性，提出了依据triad结构建模动态图演化模式的方法DynamicTraid。三元组（Triad）演化的过程就是三个节点中两个互不链接的节点之间建立链接，形成一个闭合三元组的过程。作者在几个不同的真实业务场景（电信欺诈，贷款偿还等）数据集中做了实验，证明了模型的有效性。
-
  * https://github.com/jwwthu/GNN4Traffic 整理了基于图神经网络的交通预测相关的顶会论文及统计分析。
-
  * [SpaceLearner/Awesome-DynamicGraphLearning](https://github.com/SpaceLearner/Awesome-DynamicGraphLearning) 将深度学习技术(图神经网络等)应用在动态图、动态网络、动态知识图谱上的论文、代码、工具等。
-
  * [liangzhehan/DMSTGCN](https://github.com/liangzhehan/DMSTGCN) 用于交通速度预测的动态和多方面时空深度学习
-
  * [LibCity/Bigscity-LibCity-PaperList](https://github.com/LibCity/Bigscity-LibCity-PaperList) 交通预测领域论文列表
-
  * [https://github.com/LibCity/Bigscity-LibCity/](https://github.com/LibCity/Bigscity-LibCity/) LibCity 是一个统一、全面、可扩展的代码库，为交通预测领域的研究人员提供了一个可靠的实验工具和便捷的开发框架。 我们的库基于 PyTorch 实现，并将与交通预测相关的所有必要步骤或组件包含到系统的流水线中，使研究人员能够进行全面的对比实验。 我们的库将有助于交通预测领域的标准化和可复现性。LibCity 目前支持以下任务：- 交通状态预测(交通流量预测、交通速度预测、交通需求预测、起点-终点（OD）矩阵预测、交通事故预测）轨迹下一跳预测、到达时间预测、路网匹配、路网表征学习。
+ * [https://github.com/microsoft/FOST](https://github.com/microsoft/FOST) FOST 是一个通用的预测工具，它展示了我们在实际预测领域的经验和先进技术，包括时间、时空和分层预测。当前的通用预测工具（亚马逊的 Gluon-TS、facebook 的 Prophet 等）无法处理和建模结构图数据，尤其是在空间数据中...
 
 ## 图预训练  Pre-Training of Graph
  * https://github.com/THUDM/GCC Graph Contrastive Coding for Graph Neural Network Pre-Training 用于图形神经网络预训练的图形对比编码，下游任务：节点分类、图分类、相似性搜索。
@@ -875,6 +862,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * WenRichard/KBQA-BERT 基于知识图谱的问答系统，BERT做命名实体识别和句子相似度，分为online和outline模式
  * RichardHGL/WSDM2021_NSM KBQA 的神经状态机器 ComplexWebQuestions
  * UKPLab/coling2018-graph-neural-networks-question-answering 用门图形神经网络建模语义，用于知识库问题解答
+ * [https://github.com/THU-KEG/KoPL](https://github.com/THU-KEG/KoPL) KoPL全称 Knowledge oriented Programing Language, 是一个为复杂推理问答而设计的编程语言。可以将自然语言问题表示为由基本函数组合而成的KoPL程序，程序运行的结果就是问题的答案。目前，KoPL的27个基本函数覆盖对多种知识元素（如概念、实体、关系、属性、修饰符等）的操作，并支持多种问题类型（如计数、事实验证、比较等）的查询。KoPL提供透明的复杂问题推理过程，易于理解和使用。KoPL面向知识库、文本等不同形式的知识资源，可扩展性强。
 
  ## 知识图谱
  * [CLUEbenchmark/KgCLUE](https://github.com/CLUEbenchmark/KgCLUE) KgCLUE: 大规模中文开源知识图谱问答数据集。实体数量 3121457，关系数量 245838，高频关系(>100) 3833，三元组数量 20559652，知识库来源于百科类数据，由百科类搜索页面的事实性三元组构成。
@@ -932,6 +920,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * thunlp/NREPapers 神经网络关系抽取必读论文列表，覆盖了较为经典的神经网络关系抽取领域的已发表论文、综述等。
  * zjunlp/DocED 跨句事件抽取旨在研究如何同时识别篇章内多个事件。提出多层双向网络Multi-Layer Bidirectional Network融合跨句语义和关联事件信息，从而增强内各事件提及的判别。
  * [cuhksz-nlp/RE-AGCN](https://github.com/cuhksz-nlp/RE-AGCN) 使用注意力图卷积网络的依赖驱动关系提取的实现。
+ * [https://github.com/XueFuzhao/GDPNet](https://github.com/XueFuzhao/GDPNet) 建议构建一个潜在的多视图图来捕获令牌之间的各种可能关系。然后细化这个图来选择重要的词进行关系预测。最后，将细化图的表示和基于 BERT 的序列表示连接起来以进行关系提取。提出的 GDPNet（高斯动态时间扭曲池化网络）中，利用高斯图生成器 (GGG) 来生成多视图图的边。然后通过动态时间扭曲池 (DTWPool) 对图形进行细化。实验结果：在 DialogRE 和 TACRED 上，我们表明 GDPNet 在对话级 RE 上实现了最佳性能，并且在句子级 RE 上与最先进的性能相当。
 
 ## 实体识别NER、意图识别、槽位填充
  * LeeSureman/Flat-Lattice-Transformer 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
@@ -1351,6 +1340,8 @@ jsyoon0823/TimeGAN 时间序列生成对抗网络
 
 [locuslab/TCN](https://github.com/locuslab/TCN) 序列建模基准和时间卷积网络
 
+[jambo6/neuralRDEs](https://github.com/jambo6/neuralRDEs) 长时间序列的神经粗糙微分方程
+
 
 # 强化学习 Reinforcement Learning
 
@@ -1590,34 +1581,21 @@ babysor/MockingBird AI拟声: 5秒内克隆您的声音并生成任意语音内�
 
 ## 药物-靶标 药物-药物 化合物-蛋白质 相互作用
   * kexinhuang12345/DeepPurpose 一个基于PyTorch的工具包来解锁50多个用于药物-靶标相互作用（Drug-Target Interaction）预测的模型。DTI预测是新药研发中的一项基本任务。DeepPurpose的操作模式是像scikit-learn一样。只需几行代码，就可以利用最前沿的深度学习和药物研发模型。DeepPurpose还有一个简单的界面来做DTI预测的两个重要应用：虚拟筛选（Virtual Screening）和旧药新用（Drug Repurposing）。
-
   * ETHmodlab/molgrad 通过将积分梯度可解释人工智能（XAI）方法应用于图神经网络模型，提高了理性分子设计的建模透明度，并基于四个药理学相关ADME终点的实验，验证了所提出的方法能够突出与已知药效团基序一致的分子特征和结构元素，正确识别性质断崖，并提供了对非特异性配体-靶标相互作用的见解。
-
   * thinng/GraphDTA 使用图神经网络预测药物-靶标的结合亲和力
-
   * isjakewong/MIRACLE 多视图图对比表示学习用于药物药物相互作用预测
-
   * FangpingWan/DeepCPI 基于深度学习的化合物和蛋白质相互作用预测框架
-
   * yueyu1030/SumGNN multi-typed drug interaction prediction via efficientknowledge graph summarization 基于高效知识图谱汇总的多类型药物关联预测。 整合了DDI信息（药物-药物相互作用）以及生物医学KG数据，并提出了有效的聚合机制以进行DDI预测。实验结果表明，该模型具有良好的预测性能。
-
   * kanz76/SSI-DDI 作者提出了SSI-DDI，一种预测药物之间不良DDI的深度学习框架。该方法首次将药物间相互作用预测的任务转化为子结构间相互作用预测的任务。实验结果表明，该方法有着目前最好的性能。并在transductive和inductive (冷启动场景)设置方面都取得了良好的效果。
-
   * jacklin18/KGNN IJCAI'20 "KGNN: Knowledge Graph Neural Network for Drug-Drug Interaction Prediction" 基于知识图谱的图神经网络（KGNN），以解决DDI预测问题。该框架可通过在KG中挖掘相关联的关系，来有效地捕获药物及其潜在的邻域实体信息。
-
   * [twopin/CAMP](https://github.com/twopin/CAMP) 用于多层次肽-蛋白质相互作用预测的基于卷积注意力的神经网络
-
   * [lvguofeng/GNN_PPI](https://github.com/lvguofeng/GNN_PPI) 提出了一种基于图神经网络的方法 (GNN-PPI)，以更好地预测新蛋白质之间的相互作用。在不同规模的真实世界数据集上的实验结果表明，GNN-PPI 显着优于最先进的 PPI 预测方法，特别是对于小说间的蛋白质相互作用预测。
-
   * [Liuxg16/GeoPPI](https://github.com/Liuxg16/GeoPPI) 用于模拟突变对蛋白质-蛋白质结合亲和力的影响的深度几何表示
-
   * [biomed-AI/GraphPPIS](https://github.com/biomed-AI/GraphPPIS) GraphPPIS 是一种使用深度图卷积网络进行基于结构的蛋白质-蛋白质相互作用位点预测的新框架，它能够从高阶空间相邻氨基酸中捕获信息。
-
   * [THinnerichs/DTI-VOODOO](https://github.com/THinnerichs/DTI-VOODOO) 使用深度图学习方法进行药物靶标相互作用预测的 PPI 网络驱动方法。
-
   * [DeepRank/deeprank](https://github.com/DeepRank/deeprank)使用 CNN 数据挖掘蛋白质-蛋白质相互作用的深度学习框架
-
-     
+  * [violet-sto/TGSA](https://github.com/violet-sto/TGSA) TGSA 的 PyTorch 实现：基于蛋白质-蛋白质关联的双图神经网络用于相似性增强的药物反应预测
+  * [PaddleHelix/drug_target_interaction/sign](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/apps/drug_target_interaction/sign) 用于预测蛋白质-配体结合亲和力的结构感知交互式图神经网络
 
 ## 分子
   * futianfan/CORE 利用复制和改进策略自动优化分子
@@ -1641,6 +1619,7 @@ babysor/MockingBird AI拟声: 5秒内克隆您的声音并生成任意语音内�
   * [https://github.com/ChenDdon/AGBTcode](https://github.com/ChenDdon/AGBTcode) 代数图辅助双向变换器用于分子特性预测”的实现
   * [yvquanli/trimnet](https://github.com/yvquanli/trimnet) 论文代码“TrimNet：从生物医学的三元组消息中学习分子表示”
   * [lmmpf/PyAutoFEP](https://github.com/lmmpf/PyAutoFEP) PyAutoFEP：用于 GROMACS 的自动化 FEP 工作流程，集成了增强的采样方法.PyAutoFEP 是一种自动化自由能扰动 (FEP) 计算的工具，用于估计小分子与大分子目标的相对自由能结合 (RFEB)。它自动生成微扰图、构建配体对的双拓扑、设置 MD 系统和分析。与众不同的是，PyAutoFEP 支持多个力场，集成了增强的采样方法，并允许灵活的 λ 窗口方案。
+  * [hannesstark/3dinfomax](https://github.com/hannesstark/3dinfomax) 通过使用分子的 3D 几何来预训练 GNN，使自我监督学习对分子起作用。在 DGL 和 Pytorch Geometric 中实现。
 
 ## 抗菌肽
   * vail-uvm/amp-gan 一种基于双向条件生成对抗网络的抗菌肽（AMPs）设计方法AMPGAN v2。AMPGAN v2使用生成器和鉴别器来学习数据驱动的先验知识，并使用条件变量控制生成。
@@ -1745,6 +1724,9 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 - **疫苗设计**。提供RNA设计算法,包括LinearFold和LinearPartition。
 - **精准医疗**。提供药物联用的应用。
 
+[OATML-Markslab/EVE](https://github.com/OATML-Markslab/EVE) 论文“使用进化数据和深度学习对遗传变异进行大规模临床解释”的官方存储库。
+
+[ZJUFanLab/scDeepSort](https://github.com/ZJUFanLab/scDeepSort) 使用带有加权图神经网络的深度学习对单细胞转录组学进行细胞类型注释.单细胞 RNA 测序 (scRNA-seq) 的最新进展已经实现了对多个复杂组织中数千个细胞的大规模转录表征，其中准确的细胞类型识别成为 scRNA-seq 研究的先决条件和重要步骤。开发了一种预训练的细胞类型标注方法，scDeepSort 是基于加权 GNN 框架构建的，然后在两个嵌入的高质量 scRNA-seq 图集中学习，该图集包含人类和小鼠 88 个组织中的 764,741 个细胞。
 
 # 机器视觉
 
@@ -1956,6 +1938,10 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) [开源]。AnimeGAN 的改进版本。风景照片/视频到动漫风格
 
+[https://github.com/google-research-datasets/conceptual-captions](https://github.com/google-research-datasets/conceptual-captions) 包含（图像URL、字幕）对的数据集，用于机器学习图像字幕系统的训练和评估。数据集有约330万张图像(CC3M)和1200万张图像(CC12M)两个版本，并通过一个简单的过滤程序从网络自动收集弱相关描述。 
+
+[https://github.com/ShannonAI/OpenViDial](https://github.com/ShannonAI/OpenViDial) 一个大规模多模态对话数据集.当人类交谈时，说话者接下来会说什么很大程度上取决于他所看到的。OpenViDial 是用于此目的的大型多模块对话数据集。这些对话回合和视觉上下文是从电影和电视剧中提取的，其中每个对话回合都与它发生的相应视觉上下文配对。对于OpenViDial 1.0，共包含 110 万个对话轮次，因此图像中存储了 110 万个视觉上下文。对于OpenViDial 2.0，包含 560 万个对话轮次以及 560 万个存储在图像中的视觉上下文。基于OpenViDial，同时提出了三个模型，以不同的粒度融合视觉信息，预测下一句的对话内容。
+
 # 虚拟化
 jesseduffield/lazydocker docker 简单终端 UI
 
@@ -2126,15 +2112,17 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 # 网络
 [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。    
 
-soimort/you-get youtube下载
+[soimort/you-get](https://github.com/soimort/you-get) youtube下载
 
-shengqiangzhang/examples-of-web-crawlers python爬虫例子
+[shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
 
-itgoyo/Aria2  突破百度云限速合集
+[itgoyo/Aria2](https://github.com/itgoyo/Aria2)  突破百度云限速合集
 
-PanDownloadServer/Server 百度云PanDownload的个人维护版本
+[PanDownloadServer/Server](https://github.com/PanDownloadServer/Server) 百度云PanDownload的个人维护版本
 
-liupan1890/aliyunpan 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
+[liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
+
+[yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，包含教程和源代码
 
 # 安全与渗透
 
