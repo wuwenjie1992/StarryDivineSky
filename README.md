@@ -883,6 +883,9 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * [HKUST-KnowComp/FKGE](https://github.com/HKUST-KnowComp/FKGE) 差异私有联合知识图嵌入
  * [totogo/awesome-knowledge-graph](https://github.com/totogo/awesome-knowledge-graph) 知识图相关学习材料、数据库、工具和其他资源的精选列表
  * [BrambleXu/knowledge-graph-learning](https://github.com/BrambleXu/knowledge-graph-learning) 精选的知识图谱教程、项目和社区列表。
+ * [liuhuanyong/PersonGraphDataSet](https://github.com/liuhuanyong/PersonGraphDataSet) 人物图谱数据集，近十万的人物关系图谱事实数据库，通过人物关系抽取算法抽取+人工整理得出，可用于人物关系搜索、查询、人物关系多跳问答，以及人物关系推理等场景提供基础数据。
+ * [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph) 整理知识图谱相关学习资料
+ * [https://github.com/ownthink/KnowledgeGraph](https://github.com/ownthink/KnowledgeGraph) 史上最大规模1.4亿知识图谱数据免费下载，知识图谱，通用知识图谱，融合了两千五百多万的实体，拥有亿级别的实体属性关系。
 
 ## NLP语料和数据集
  * https://github.com/thu-coai/CrossWOZ 大规模的中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
@@ -906,6 +909,11 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * [https://github.com/IceFlameWorm/NLP_Datasets](https://github.com/IceFlameWorm/NLP_Datasets)  中文NLP数据集，ATEC语义相似度学习赛数据集、CCKS 2018 微众银行智能客服问句匹配大赛数据集、ATEC + CCKS 2018 组合数据集（互金客服场景）、哈工大BQ_corpus数据集（语义相似度）、哈工大LCQMC数据集（语义相似度）。
  * [nlpcc2018](http://tcci.ccf.org.cn/conference/2018/taskdata.php) 选择task7 Open Domain Question Answering，即可下载数据集。数据集包含知识图谱和问答数据
  * [pkumod/CKBQA](https://github.com/pkumod/CKBQA)  ccks2018 ccks2019 包含简单问题和复杂问题的中文 KBQA 数据集。对于每个中文问题，我们都提供了黄金答案和黄金 SPARQL 查询，因此该数据集也可以应用于语义解析任务。
+ * [Marsan-Ma-zz/chat_corpus](https://github.com/Marsan-Ma-zz/chat_corpus) 来自各种开源的聊天语料库集合  open_subtitles
+   英文电影字幕解析， movie_subtitles_cn 康奈尔电影对话语料库， 歌词_zh
+   来自 PTT 论坛的歌词，witter_en 来自 twitter 的语料库（700k 行），twitter_en big更大尺寸的 twitter 语料库（5M 行）
+ * [rkadlec/ubuntu-ranking-dataset-creator](https://github.com/rkadlec/ubuntu-ranking-dataset-creator) 从 Ubuntu 语料库对话框中为排名任务创建训练、有效和测试数据集的脚本。
+ * [https://github.com/codemayq/chinese_chatbot_corpus](https://github.com/codemayq/chinese_chatbot_corpus) 该库是对目前市面上已有的开源中文聊天语料的搜集和系统化整理工作。包含chatterbot、豆瓣多轮、PTT八卦语料、青云语料、电视剧对白语料、贴吧论坛回帖语料、微博语料、小黄鸡语料，共8个公开闲聊常用语料和短信，白鹭时代问答等语料。
 
 ## 关系抽取、信息抽取
  * weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
@@ -921,6 +929,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * zjunlp/DocED 跨句事件抽取旨在研究如何同时识别篇章内多个事件。提出多层双向网络Multi-Layer Bidirectional Network融合跨句语义和关联事件信息，从而增强内各事件提及的判别。
  * [cuhksz-nlp/RE-AGCN](https://github.com/cuhksz-nlp/RE-AGCN) 使用注意力图卷积网络的依赖驱动关系提取的实现。
  * [https://github.com/XueFuzhao/GDPNet](https://github.com/XueFuzhao/GDPNet) 建议构建一个潜在的多视图图来捕获令牌之间的各种可能关系。然后细化这个图来选择重要的词进行关系预测。最后，将细化图的表示和基于 BERT 的序列表示连接起来以进行关系提取。提出的 GDPNet（高斯动态时间扭曲池化网络）中，利用高斯图生成器 (GGG) 来生成多视图图的边。然后通过动态时间扭曲池 (DTWPool) 对图形进行细化。实验结果：在 DialogRE 和 TACRED 上，我们表明 GDPNet 在对话级 RE 上实现了最佳性能，并且在句子级 RE 上与最先进的性能相当。
+ * [dair-iitd/OpenIE-standalone](https://github.com/dair-iitd/OpenIE-standalone) 华盛顿大学 (UW) 和德里印度理工学院 (IIT 德里) 的主要开放信息提取 (Open IE) 系统。一个开放的系统提取文本中的关系。
 
 ## 实体识别NER、意图识别、槽位填充
  * LeeSureman/Flat-Lattice-Transformer 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
@@ -1784,6 +1793,10 @@ ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移动人体姿势模型
 
 [MobileStyleGAN.pytorch](https://github.com/bes-dev/MobileStyleGAN.pytorch) 用于高保真图像合成的轻量级卷积神经网络
 
+[mchong6/JoJoGAN](https://github.com/mchong6/JoJoGAN) JoJoGAN 的官方 PyTorch 存储库：One Shot Face Stylization 人脸风格化
+
+[TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) GFPGAN 旨在开发用于真实世界面部恢复的实用算法。
+
 
 
 ## 图像恢复
@@ -1796,7 +1809,6 @@ zhangmozhe/Deep-Exemplar-based-Video-Colorization 基于深层范例的视频着
 [JingyunLiang/SwinIR](https://github.com/JingyunLiang/SwinIR) 使用 Swin Transformer 的图像恢复,图像SR\图像去噪\伪影减少
 
 yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片。GPEN模型明显优于其他的修复人脸的GAN模型。
-
 
 ## ocr
 ouyanghuiyu/chineseocr_lite 超轻量级中文ocr
@@ -1824,9 +1836,31 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [nihui/cain-ncnn-vulkan](https://github.com/nihui/cain-ncnn-vulkan) CAIN，使用 ncnn 库实现的视频帧插值只需要频道注意力
 
-## 其他
+## 对象检测
+
+[open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab 基于 PyTorch 的开源对象检测工具箱
+
+[megvii-model/YOLOF](https://github.com/megvii-model/YOLOF) 一个没有FPN的简单、快速、高效的目标检测器。
+
+[https://github.com/JosephKJ/OWOD](https://github.com/JosephKJ/OWOD) (CVPR 2021 Oral) 开放世界目标检测.引入了强大的评估协议并提供了一种新颖的解决方案，我们称之为 ORE：开放世界对象检测器，基于对比聚类和基于能量的未知识别。
+
+[ultralytics/yolov5](https://github.com/ultralytics/yolov5) YOLOv5 是一系列在 COCO 数据集上预训练的对象检测架构和模型，代表 Ultralytics 对未来视觉 AI 方法的开源研究，结合了在数千小时的研究和开发中获得的经验教训和最佳实践。
+
+[zongdai/AutoShape](https://github.com/zongdai/AutoShape) ICCV2021 论文：AutoShape：实时形状感知单目 3D 对象检测
 
 [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) 用于对象检测、分割和其他视觉识别任务的下一代平台。
+
+https://github.com/cfzd/Ultra-Fast-Lane-Detection 论文“超快速结构感知深度车道检测”的实现
+
+https://github.com/RangiLyu/nanodet NanoDet：轻量级（1.8MB）、超快速（移动端97fps）目标检测项目
+
+https://github.com/Megvii-BaseDetection/YOLOX 高性能目标检测器YOLOX。并将YOLO检测器切换到anchor-free的方式，并结合其他先进的检测技术，如decouple head和标签分配策略SimOTA，实现了当前目标检测最优性能。
+
+[yuantn/MI-AOD](https://github.com/yuantn/MI-AOD) [*Multiple Instance Active Learning for Object Detection（用于目标检测的多示例主动学习方法）*](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf) , 提出了 多示例主动目标检测（MI-AOD） ，通过观察示例级的不确定性来选择信息量最大的图像用于检测器的训练。
+
+[microsoft/SoftTeacher](https://github.com/microsoft/SoftTeacher) ICCV2021 使用软教师进行端到端的半监督目标检测
+
+## 其他
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
 
@@ -1834,17 +1868,9 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以在浏览器中执行实时实例分割
 
-[megvii-model/YOLOF](https://github.com/megvii-model/YOLOF) **一个没有**FPN的简单、快速、高效的目标检测器。
-
-[https://github.com/JosephKJ/OWOD](https://github.com/JosephKJ/OWOD) (CVPR 2021 Oral) 开放世界目标检测.引入了强大的评估协议并提供了一种新颖的解决方案，我们称之为 ORE：开放世界对象检测器，基于对比聚类和基于能量的未知识别。
-
 [extreme-assistant/CVPR2021-Paper-Code-Interpretation](https://github.com/extreme-assistant/CVPR2021-Paper-Code-Interpretation) cvpr2021/cvpr2020/cvpr2019/cvpr2018/cvpr2017 论文/代码/解读/直播合集，极市团队整理
 
 LeonLok/Multi-Camera-Live-Object-Tracking 多摄像头实时目标跟踪和计数，使用YOLOv4，Deep SORT和Flask
-
-cfzd/Ultra-Fast-Lane-Detection 论文“超快速结构感知深度车道检测”的实现
-
-RangiLyu/nanodet NanoDet：轻量级（1.8MB）、超快速（移动端97fps）目标检测项目
 
 kornia/kornia 基于 PyTorch 的可微分的计算机视觉 （differentiable computer vision） 开源库， 实现了：可微的基础计算机视觉算子。可微的数据增广（differentiable data augmentation）。OpenCV 和 PIL 都是不可微的，所以这些处理都只可以作为图像的预处理而无法通过观察梯度的变化来对这些算子进行优化 （gradient-based optimization）。因此，Kornia 便应运而生。
 
@@ -1861,8 +1887,6 @@ rwightman/pytorch-image-models PyTorch图像类模型库，包括：ResNet, ResN
 google-research/vision_transformer Vision Transformer and MLP-Mixer Architectures 视觉Transformer和 MLP-混合器架构，Transformer应用于视觉，纯多层感知机视觉架构。
 
 China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（ZS-VQA）的基于知识图谱的掩码机制，更好结合外部知识的同时，缓解了误差传播对于模型性能的影响。
-
-Megvii-BaseDetection/YOLOX 高性能目标检测器YOLOX。并将YOLO检测器切换到anchor-free的方式，并结合其他先进的检测技术，如decouple head和标签分配策略SimOTA，实现了当前目标检测最优性能。
 
 luost26/diffusion-point-cloud 基于非平衡态热力学的全新三维点云生成模型
 
@@ -1890,8 +1914,6 @@ google-research/remixmatch 改进了最近提出的MixMatch半监督学习算法
 
 [NVlabs/stylegan3](https://github.com/NVlabs/stylegan3) 更适合视频和动画的生成模型。
 
-[ultralytics/yolov5](https://github.com/ultralytics/yolov5) YOLOv5 是一系列在 COCO 数据集上预训练的对象检测架构和模型，代表 Ultralytics 对未来视觉 AI 方法的开源研究，结合了在数千小时的研究和开发中获得的经验教训和最佳实践。
-
 [isl-org/DPT](https://github.com/isl-org/DPT) 用于密集预测的Transformers,图像语义分割的目标是将图像的每个像素所属类别进行标注。因为是预测图像中的每个像素，这个任务通常被称为**密集预测**（dense prediction）。
 
 [google-research/mint](https://github.com/google-research/mint) 多模式内容创建模型训练基础设施，包括 FACT 模型（AI Choreographer）实现。带有 AIST++ 的音乐条件 3D 舞蹈生成。
@@ -1916,17 +1938,11 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [google-research/deeplab2](https://github.com/google-research/deeplab2) 用于深度标记的 TensorFlow 库，旨在为密集像素标记任务提供统一且最先进的 TensorFlow 代码库。旨在为密集像素标注任务提供统一的、最先进的 TensorFlow 代码库，包括但不限于语义分割、实例分割、全景分割、深度估计，甚至 视频全景分割。深度标记是指通过深度神经网络为图像中的每个像素分配预测值来解决计算机视觉问题。 
 
-[zongdai/AutoShape](https://github.com/zongdai/AutoShape) ICCV2021 论文：AutoShape：实时形状感知单目 3D 对象检测
-
 [YifanXu74/Evo-ViT](https://github.com/YifanXu74/Evo-ViT) 腾讯优图提出高性能Transformer加速方法.Evo-ViT: Slow-Fast Token Evolution for Dynamic Vision Transformer，它能够在保证分类准确率损失较小的情况下，大幅提升Transformer推理速度，如在ImageNet 1K数据集下，可提升DeiT-S 60%推理速度的同时仅损失0.4%的精度。
-
-[microsoft/SoftTeacher](https://github.com/microsoft/SoftTeacher) ICCV2021 使用软教师进行端到端的半监督目标检测
 
 [researchmm/CKDN](https://github.com/researchmm/CKDN) 用于退化参考图像质量评估的学习条件知识提炼
 
 [phecy/SSL-FEW-SHOT](https://github.com/phecy/SSL-FEW-SHOT) 小样本图像分类的自监督学习
-
- [yuantn/MI-AOD](https://github.com/yuantn/MI-AOD) [*Multiple Instance Active Learning for Object Detection（用于目标检测的多示例主动学习方法）*](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf) , 提出了 多示例主动目标检测（MI-AOD） ，通过观察示例级的不确定性来选择信息量最大的图像用于检测器的训练。
 
 [https://github.com/yangle15/RANet-pytorch](https://github.com/yangle15/RANet-pytorch) 提出的分辨率自适应网络 (RANet) 通过利用`spatial redundancy`输入图像的分辨率来进行自适应推理。我们的动机是低分辨率表示足以对包含具有原型特征的大对象的简单样本进行分类，而只有一些困难样本需要空间详细信息，这可以通过下图来证明。
 
@@ -1938,9 +1954,18 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) [开源]。AnimeGAN 的改进版本。风景照片/视频到动漫风格
 
-[https://github.com/google-research-datasets/conceptual-captions](https://github.com/google-research-datasets/conceptual-captions) 包含（图像URL、字幕）对的数据集，用于机器学习图像字幕系统的训练和评估。数据集有约330万张图像(CC3M)和1200万张图像(CC12M)两个版本，并通过一个简单的过滤程序从网络自动收集弱相关描述。 
+[google-research-datasets/conceptual-captions](https://github.com/google-research-datasets/conceptual-captions) 包含（图像URL、字幕）对的数据集，用于机器学习图像字幕系统的训练和评估。数据集有约330万张图像(CC3M)和1200万张图像(CC12M)两个版本，并通过一个简单的过滤程序从网络自动收集弱相关描述。 
 
-[https://github.com/ShannonAI/OpenViDial](https://github.com/ShannonAI/OpenViDial) 一个大规模多模态对话数据集.当人类交谈时，说话者接下来会说什么很大程度上取决于他所看到的。OpenViDial 是用于此目的的大型多模块对话数据集。这些对话回合和视觉上下文是从电影和电视剧中提取的，其中每个对话回合都与它发生的相应视觉上下文配对。对于OpenViDial 1.0，共包含 110 万个对话轮次，因此图像中存储了 110 万个视觉上下文。对于OpenViDial 2.0，包含 560 万个对话轮次以及 560 万个存储在图像中的视觉上下文。基于OpenViDial，同时提出了三个模型，以不同的粒度融合视觉信息，预测下一句的对话内容。
+[ShannonAI/OpenViDial](https://github.com/ShannonAI/OpenViDial) 一个大规模多模态对话数据集.当人类交谈时，说话者接下来会说什么很大程度上取决于他所看到的。OpenViDial 是用于此目的的大型多模块对话数据集。这些对话回合和视觉上下文是从电影和电视剧中提取的，其中每个对话回合都与它发生的相应视觉上下文配对。对于OpenViDial 1.0，共包含 110 万个对话轮次，因此图像中存储了 110 万个视觉上下文。对于OpenViDial 2.0，包含 560 万个对话轮次以及 560 万个存储在图像中的视觉上下文。基于OpenViDial，同时提出了三个模型，以不同的粒度融合视觉信息，预测下一句的对话内容。
+
+[Alibaba-MIIL/STAM](https://github.com/Alibaba-MIIL/STAM) 受NLP中Transformer成功的启发，我们尝试将一个标准Transformer直接应用到图像上，尽可能少的修改。为此，我们将图像分割成小块，并将这些块转化为线性嵌入序列，作为Transformer的输入。图像块（image patches）就相当于NLP任务中的单词（token）来做处理。并以有监督的方式训练图像分类模型。大规模的训练可以克服归纳偏置（inductive biases）。当ViT在足够的规模上进行预先训练，并迁移到具有较少数据量的任务时，可以获得出色的结果。
+
+[https://github.com/openai/glide-text2im](https://github.com/openai/glide-text2im) 基于扩散的文本条件图像合成模型。以文本提示为条件的图像；填充图像的蒙版区域，以文本提示为条件；使用 GLIDE（过滤）+ 过滤噪声感知 CLIP 模型来生成以文本提示为条件的图像。
+
+[SysCV/pcan](https://github.com/SysCV/pcan) 用于多对象跟踪和分割的原型交叉注意网络
+
+[PaddlePaddle/PaddleGAN/](https://github.com/PaddlePaddle/PaddleGAN/) 飞桨生成对抗网络开发套件--PaddleGAN，为开发者提供经典及前沿的生成对抗网络高性能实现，并支撑开发者快速构建、训练及部署生成对抗网络，以供学术、娱乐及产业应用。包括：StyleGAN V2人脸属性编辑之年龄变换 一键实现变老变年轻；视频超分SOTA算法PP-MSVSR；StyleGAN V2人脸属性编辑之性别转换；LapStyle风格迁移；人脸融合能力，结合新版Frirst Order Motion，实现人脸完美融合并带有丰富表情；真实照片转油画风格；人脸融合、风格迁移、老视频修复、人脸动作迁移、超分辨率、妆容迁移、人脸动漫化、写实人像卡通化、照片动漫化、唇形同步
+
 
 # 虚拟化
 jesseduffield/lazydocker docker 简单终端 UI
@@ -2045,6 +2070,8 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 [qiurunze123/miaosha](https://github.com/qiurunze123/miaosha) 秒杀系统设计与实现.互联网工程师进阶与分析
 
 [timescale/tsbs](https://github.com/timescale/tsbs) 时间序列基准套件，用于比较和评估时间序列数据数据库的工具
+
+[https://github.com/byzer-org/byzer-lang](https://github.com/byzer-org/byzer-lang) Byzer（前 MLSQL）：一种用于数据管道、分析和 AI 的低代码开源编程语言。
 
 # 硬件
 
@@ -2270,3 +2297,5 @@ dblalock/bolt 矩阵和向量运算速度提高 10 倍
 [microapp-store/flash-waimai](https://github.com/microapp-store/flash-waimai) 一个仿照饿了么的外卖平台，包括手机端，后台管理, api服务
 
 [PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
+
+[marktext/marktext](https://github.com/marktext/marktext) 备忘录一个简单优雅的markdown编辑器，适用于 Linux、macOS 和 Windows。
