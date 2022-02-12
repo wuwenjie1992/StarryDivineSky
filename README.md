@@ -43,7 +43,6 @@
 - [其他](#其他)
 
 
-
 # 机器学习与深度学习
 
 [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)  [教程/笔记]吴恩达老师的机器学习课程个人笔记 
@@ -760,6 +759,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
 * [thunlp/OpenPrompt](https://github.com/thunlp/OpenPrompt) Prompt-learning 是将预训练语言模型 (PLM) 应用于下游 NLP 任务的最新范式，它使用文本模板修改输入文本并直接使用 PLM 执行预训练任务。 该库提供了一个标准、灵活和可扩展的框架来部署即时学习管道。 OpenPrompt 支持直接从 Huggingface Transformer 加载 PLM。 将来，我们还将支持其他库实现的 PLM。
 * [google-research/flan](https://github.com/google-research/flan) 微调语言模型是零样本学习器
 * [PaddlePaddle/ERNIE](https://github.com/PaddlePaddle/ERNIE) ERNIE 家族各种预训练模型的官方实现，涵盖语言理解与生成、多模态理解与生成等主题。
+* [airaria/TextPruner](https://github.com/airaria/TextPruner) 用于预训练语言模型的基于 PyTorch 的模型修剪工具包.它提供了**低成本**和**免训练的**方法，通过去除冗余神经元来减小模型大小并加快模型推理速度。在 TextPruner 中，共有三种剪枝模式：**词汇剪枝**、**变压器剪枝**和**管道剪枝**。
 
 ## 文本分类
 
@@ -886,6 +886,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
  * [liuhuanyong/PersonGraphDataSet](https://github.com/liuhuanyong/PersonGraphDataSet) 人物图谱数据集，近十万的人物关系图谱事实数据库，通过人物关系抽取算法抽取+人工整理得出，可用于人物关系搜索、查询、人物关系多跳问答，以及人物关系推理等场景提供基础数据。
  * [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph) 整理知识图谱相关学习资料
  * [https://github.com/ownthink/KnowledgeGraph](https://github.com/ownthink/KnowledgeGraph) 史上最大规模1.4亿知识图谱数据免费下载，知识图谱，通用知识图谱，融合了两千五百多万的实体，拥有亿级别的实体属性关系。
+ * [liuhuanyong/AbstractKnowledgeGraph](https://github.com/liuhuanyong/AbstractKnowledgeGraph) 抽象知识图谱，目前规模50万，支持名词性实体、状态性描述、事件性动作进行抽象。目标于抽象知识，包括抽象实体，抽象动作，抽象事件。基于该知识图谱，可以进行不同层级的实体抽象和动作抽象，这与人类真实高度概括的认知是一致的。
 
 ## NLP语料和数据集
  * https://github.com/thu-coai/CrossWOZ 大规模的中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
@@ -1350,6 +1351,16 @@ jsyoon0823/TimeGAN 时间序列生成对抗网络
 [locuslab/TCN](https://github.com/locuslab/TCN) 序列建模基准和时间卷积网络
 
 [jambo6/neuralRDEs](https://github.com/jambo6/neuralRDEs) 长时间序列的神经粗糙微分方程
+
+[sktime/sktime-dl](https://github.com/sktime/sktime-dl) 基于TensorFlow的深度学习sktime配套包
+
+[jiwidi/time-series-forecasting-with-python](https://github.com/jiwidi/time-series-forecasting-with-python) 使用 python 进行时间序列预测的以用例为中心的教程
+
+[timeseriesAI/tsai](https://github.com/timeseriesAI/tsai) 时间序列 Timeseries 深度学习 机器学习 Pytorch fastai | Pytorch / fastai 中用于时间序列和序列的最先进的深度学习库
+
+[Alro10/deep-learning-time-series](https://github.com/Alro10/deep-learning-time-series) 使用深度学习进行时间序列预测的论文、代码和实验列表
+
+
 
 
 # 强化学习 Reinforcement Learning
@@ -1850,15 +1861,17 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) 用于对象检测、分割和其他视觉识别任务的下一代平台。
 
-https://github.com/cfzd/Ultra-Fast-Lane-Detection 论文“超快速结构感知深度车道检测”的实现
+[cfzd/Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection) 论文“超快速结构感知深度车道检测”的实现
 
-https://github.com/RangiLyu/nanodet NanoDet：轻量级（1.8MB）、超快速（移动端97fps）目标检测项目
+[RangiLyu/nanodet](https://github.com/RangiLyu/nanodet) NanoDet：轻量级1.8MB、超快速（移动端97fps）目标检测项目
 
-https://github.com/Megvii-BaseDetection/YOLOX 高性能目标检测器YOLOX。并将YOLO检测器切换到anchor-free的方式，并结合其他先进的检测技术，如decouple head和标签分配策略SimOTA，实现了当前目标检测最优性能。
+[Megvii-BaseDetection/YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) 高性能目标检测器YOLOX。并将YOLO检测器切换到anchor-free的方式，并结合其他先进的检测技术，如decouple head和标签分配策略SimOTA，实现了当前目标检测最优性能。
 
-[yuantn/MI-AOD](https://github.com/yuantn/MI-AOD) [*Multiple Instance Active Learning for Object Detection（用于目标检测的多示例主动学习方法）*](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf) , 提出了 多示例主动目标检测（MI-AOD） ，通过观察示例级的不确定性来选择信息量最大的图像用于检测器的训练。
+[yuantn/MI-AOD](https://github.com/yuantn/MI-AOD) [Multiple Instance Active Learning for Object Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf) 用于目标检测的多示例主动学习方法, 提出了 多示例主动目标检测（MI-AOD），通过观察示例级的不确定性来选择信息量最大的图像用于检测器的训练。
 
 [microsoft/SoftTeacher](https://github.com/microsoft/SoftTeacher) ICCV2021 使用软教师进行端到端的半监督目标检测
+
+[raoyongming/DenseCLIP](https://github.com/raoyongming/DenseCLIP) DenseCLIP：具有上下文感知提示的语言引导密集预测
 
 ## 其他
 
@@ -1966,6 +1979,20 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [PaddlePaddle/PaddleGAN/](https://github.com/PaddlePaddle/PaddleGAN/) 飞桨生成对抗网络开发套件--PaddleGAN，为开发者提供经典及前沿的生成对抗网络高性能实现，并支撑开发者快速构建、训练及部署生成对抗网络，以供学术、娱乐及产业应用。包括：StyleGAN V2人脸属性编辑之年龄变换 一键实现变老变年轻；视频超分SOTA算法PP-MSVSR；StyleGAN V2人脸属性编辑之性别转换；LapStyle风格迁移；人脸融合能力，结合新版Frirst Order Motion，实现人脸完美融合并带有丰富表情；真实照片转油画风格；人脸融合、风格迁移、老视频修复、人脸动作迁移、超分辨率、妆容迁移、人脸动漫化、写实人像卡通化、照片动漫化、唇形同步
 
+[google-research/scenic](https://github.com/google-research/scenic) Scenic：用于计算机视觉研究及其他领域的 Jax 库
+
+[CryhanFang/CLIP2Video](https://github.com/CryhanFang/CLIP2Video) 基于CLIP (ViT-B/32)的视频文本检索模型，将图像语言预训练模型以端到端的方式转换为视频文本检索。模型包括一个时间差异块来捕捉精细时间视频帧的运动，以及时间对齐块来重新对齐视频剪辑和短语的标记并增强多模态相关性。在主要的文本到视频和视频到文本检索基准上取得了最先进的性能，包括 MSR-VTT、MSVD 和 VATEX 检索准确性的新记录。
+
+[ArrowLuo/CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip) CLIP4Clip 是基于CLIP (ViT-B)的视频文本检索模型。在这项工作中，我们研究了三种相似度计算方法：无参数类型、顺序类型和紧密类型。该模型在 MSR-VTT、MSVC、LSMDC、ActivityNet 和 DiDeMo 上实现了 SOTA 结果。
+
+[sail-sg/poolformer](https://github.com/sail-sg/poolformer) PoolFormer：MetaFormer 实际上是您的视觉所需要的。transformer/MLP-like 模型的能力主要源于通用架构 MetaFormer，而不是配备的特定令牌混合器。作者独树一帜提出视觉Transformer及其变种的成功原因主要是架构的设计，并且将token mixer换为了简单的池化获得了相当好的效果。
+
+[jonhare/DifferentiableSketching](https://github.com/jonhare/DifferentiableSketching) 微分绘图和素描
+
+
+
+
+
 
 # 虚拟化
 jesseduffield/lazydocker docker 简单终端 UI
@@ -2072,6 +2099,8 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 [timescale/tsbs](https://github.com/timescale/tsbs) 时间序列基准套件，用于比较和评估时间序列数据数据库的工具
 
 [https://github.com/byzer-org/byzer-lang](https://github.com/byzer-org/byzer-lang) Byzer（前 MLSQL）：一种用于数据管道、分析和 AI 的低代码开源编程语言。
+
+[xephonhq/awesome-time-series-database](https://github.com/xephonhq/awesome-time-series-database) 精选的时间序列数据库、基准和论文列表
 
 # 硬件
 
