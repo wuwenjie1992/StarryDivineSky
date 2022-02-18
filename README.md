@@ -49,7 +49,7 @@
 
 [apachecn/AiLearning)](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
 
-[https://github.com/microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
+[microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
 
 [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周，20 节课，全民数据科学！
 
@@ -231,7 +231,7 @@ RAPIDS Open GPU Data Science http://rapids.ai
 
 [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
 
-https://github.com/ScienceKot/kydavra 特征筛选工具
+[ScienceKot/kydavra](https://github.com/ScienceKot/kydavra) 特征筛选工具
 
 [aerdem4/lofo-importance](https://github.com/aerdem4/lofo-importance) LOFO（Leave One Feature Out）重要性基于选择的度量计算一组特征的重要性，对于选择的模型，通过迭代地从集合中删除每个特征，并评估模型的性能，使用验证方案 的选择，基于所选的指标。
 
@@ -2164,6 +2164,8 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 
 [corundum/corundum](https://github.com/corundum/corundum) 用于网络计算的开源基于 FPGA 的 NIC 和平台
 
+[MiSTer-devel/Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer) MiSTer是一个开放项目，旨在使用现代硬件重新创建各种经典计算机、游戏机和街机。它允许软件和游戏图像像在原始硬件上一样运行，使用鼠标、键盘、游戏杆和其他游戏控制器等外围设备。
+
 
 # 网络
 [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。    
@@ -2180,11 +2182,13 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 
 [yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，包含教程和源代码
 
+[facert/awesome-spider](https://github.com/facert/awesome-spider) 收集各种爬虫 
+
 # 安全与渗透
 
-[occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保了用户数据的安全和隐私。
+[occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
 
-[fofapro/vulfocus](https://github.com/fofapro/vulfocus) 一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。
+[fofapro/vulfocus](https://github.com/fofapro/vulfocus) 漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。
 
 [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 一个简单的现代化公司域名使用规律预测及生成工具
 
@@ -2208,7 +2212,7 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 
 [xuedingmiaojun/wxappUnpacker](https://github.com/xuedingmiaojun/wxappUnpacker) 小程序反编译（支持分包）
 
-[https://github.com/wetools/wept](https://github.com/wetools/wept) 微信小程序多端实时运行工具.支持iOS Android Mac, Window 以及 Linux
+[wetools/wept](https://github.com/wetools/wept) 微信小程序多端实时运行工具.支持iOS Android Mac, Window 以及 Linux
 
 [ffffffff0x/1earn](https://github.com/ffffffff0x/1earn) ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup
 
@@ -2225,6 +2229,36 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)  PC版微信/QQ/TIM防撤回补丁
 
 [tombstoneghost/TIWAP](https://github.com/tombstoneghost/TIWAP) 使用 Flask 制作的 Web 安全测试实验室，供新手安全爱好者了解各种 Web 漏洞。
+
+[d3ckx1/Fvuln](https://github.com/d3ckx1/Fvuln) F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。
+
+[qianxiao996/CTF-Tools](https://github.com/qianxiao996/CTF-Tools) 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。
+
+[AntSwordProject/antSword](https://github.com/AntSwordProject/antSword) 中国蚁剑是跨平台的开源网站管理工具。
+
+[yzddmr6/As-Exploits](https://github.com/yzddmr6/As-Exploits) 中国蚁剑后渗透框架
+
+[ph4ntonn/Stowaway](https://github.com/ph4ntonn/Stowaway) 利用go语言编写、专为渗透测试工作者制作的多级代理工具
+
+[WangYihang/Platypus](https://github.com/WangYihang/Platypus) 用 go 编写的现代多反向 shell 会话管理器
+
+[jweny/pocassist](https://github.com/jweny/pocassist) 全新的开源漏洞测试框架，实现poc在线编辑、运行、批量测试。
+
+[wh1t3p1g/ysomap](https://github.com/wh1t3p1g/ysomap) 一个有用的 Java 反序列化漏洞利用框架。
+
+[whwlsfb/BurpCrypto](https://github.com/whwlsfb/BurpCrypto) AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件
+
+[Tlaster/YourAV](https://github.com/Tlaster/YourAV) 宇宙级最轻量杀毒软件
+
+[i11us0ry/goon](https://github.com/i11us0ry/goon) goon,集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
+
+[ffffffff0x/f8x](https://github.com/ffffffff0x/f8x) 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等.
+
+[SafeGroceryStore/Caesar](https://github.com/SafeGroceryStore/Caesar) 一个全新的敏感文件发现工具
+
+[Ed1s0nZ/cool](https://github.com/Ed1s0nZ/cool) Golang-Gin框架写的免杀平台，内置分离、捆绑等多种BypassAV方式。
+
+[zyylhn/zscan](https://github.com/zyylhn/zscan) 开源的内网端口扫描器、爆破工具和其他实用工具的集合体可以称为工具包。以主机和内网网段发现和端口扫描为基础，可以对mysql、mssql、redis、mongo、postgres、ftp、ssh、ldap、rdp、smb等服务进行爆破，还有其他netbios、smb、oxid、socks server（扫描内网中的代理服务器）、snmp、ms17010等扫描功能，支持poc（xray v1格式）单个和批量检测。
 
 # 其他
 [mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks 作为 Markdown 文档、Julia、Python 或 R 脚本
@@ -2328,3 +2362,6 @@ dblalock/bolt 矩阵和向量运算速度提高 10 倍
 [PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
 
 [marktext/marktext](https://github.com/marktext/marktext) 备忘录一个简单优雅的markdown编辑器，适用于 Linux、macOS 和 Windows。
+
+[weartist/computer_book_list](https://github.com/weartist/computer_book_list) 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
+
