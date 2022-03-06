@@ -23,7 +23,6 @@
 <h3 align="center">持续更新！欢迎star！欢迎star！😀😀😀</h3>
 
 
-
 # 目录
 
 - [机器学习与深度学习](#机器学习与深度学习)
@@ -874,8 +873,8 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
 * HIT-SCIR/Molweni 提出了构建于多人对话的英文机器阅读理解（MRC）数据集——Molweni，并覆盖了对话语篇结构。Molweni源自于Ubuntu聊天语料库，包括10,000个对话，共计88,303条话语（utterance）。我们共标注了30,066个问题，包括可回答和不可回答的问题。Molweni独特地为其多人对话提供了语篇结构信息，共标注了78,245个语篇关系实例，为多人对话语篇结构分析（Discourse  parsing）贡献了大规模数据。
 
 * [danqi/acl2020-openqa-tutorial](https://github.com/danqi/acl2020-openqa-tutorial) 本教程对开放域问答 (QA) 的前沿研究进行了全面而连贯的概述，QA 是使用大量不同主题的文档来回答问题的任务。首先简要介绍历史背景，讨论研究问题的基本设置和核心技术挑战，然后描述具有通用评估指标和基准的现代数据集。然后，是在开放域QA中提出的前沿模型，包括两阶段检索器-阅读器方法、密集检索器和端到端训练以及无检索器方法。最后，介绍使用文本和大型知识库的混合方法，并以重要的开放性问题结束本教程。
-  
-  ## 知识图谱问答KBQA、多跳推理
+
+## 知识图谱问答KBQA、多跳推理
 
 * RUCAIBox/KBQAPapers 知识图谱问答KBQA论文集
 
@@ -908,8 +907,10 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
 * UKPLab/coling2018-graph-neural-networks-question-answering 用门图形神经网络建模语义，用于知识库问题解答
 
 * [https://github.com/THU-KEG/KoPL](https://github.com/THU-KEG/KoPL) KoPL全称 Knowledge oriented Programing Language, 是一个为复杂推理问答而设计的编程语言。可以将自然语言问题表示为由基本函数组合而成的KoPL程序，程序运行的结果就是问题的答案。目前，KoPL的27个基本函数覆盖对多种知识元素（如概念、实体、关系、属性、修饰符等）的操作，并支持多种问题类型（如计数、事实验证、比较等）的查询。KoPL提供透明的复杂问题推理过程，易于理解和使用。KoPL面向知识库、文本等不同形式的知识资源，可扩展性强。
-  
-  ## 知识图谱
+
+* [PaddlePaddle/PGL/erniesage](https://github.com/PaddlePaddle/PGL/tree/static_stable/examples/erniesage) 使用PGL实现ERNIESage。在很多工业应用中，往往出现如下图所示的一种特殊的图：Text Graph。顾名思义，图的节点属性由文本构成，而边的构建提供了结构信息。如搜索场景下的Text Graph，节点可由搜索词、网页标题、网页正文来表达，用户反馈和超链信息则可构成边关系。ERNIESage 由PGL团队提出，是ERNIE SAmple aggreGatE的简称，该模型可以同时建模文本语义与图结构信息，有效提升 Text Graph 的应用效果。其中 ERNIE 是百度推出的基于知识增强的持续学习语义理解框架。ERNIESage 是 ERNIE 与 GraphSAGE 碰撞的结果，是 ERNIE SAmple aggreGatE 的简称，它的结构如下图所示，主要思想是通过 ERNIE 作为聚合函数（Aggregators），建模自身节点和邻居节点的语义与结构关系。ERNIESage 对于文本的建模是构建在邻居聚合的阶段，中心节点文本会与所有邻居节点文本进行拼接；然后通过预训练的 ERNIE 模型进行消息汇聚，捕捉中心节点以及邻居节点之间的相互关系；最后使用 ERNIESage 搭配独特的邻居互相看不见的 Attention Mask 和独立的 Position Embedding 体系，就可以轻松构建 TextGraph 中句子之间以及词之间的关系。使用ID特征的GraphSAGE只能够建模图的结构信息，而单独的ERNIE只能处理文本信息。通过PGL搭建的图与文本的桥梁，ERNIESage能够很简单的把GraphSAGE以及ERNIE的优点结合一起。以下面TextGraph的场景，ERNIESage的效果能够比单独的ERNIE以及GraphSAGE模型都要好。
+
+## 知识图谱
 
 * [CLUEbenchmark/KgCLUE](https://github.com/CLUEbenchmark/KgCLUE) KgCLUE: 大规模中文开源知识图谱问答数据集。实体数量 3121457，关系数量 245838，高频关系(>100) 3833，三元组数量 20559652，知识库来源于百科类数据，由百科类搜索页面的事实性三元组构成。
 
@@ -1639,6 +1640,8 @@ babysor/MockingBird AI拟声: 5秒内克隆您的声音并生成任意语音内�
 
 [WenetSpeech](https://wenet-e2e.github.io/WenetSpeech/) 从 YouTube 和 Podcast 收集的 10000 多个小时的多域转录普通话语料库。 采用OCR 和ASR分别标记每个录音。 为了提高语料库的质量，使用了一种新颖的端到端标签错误检测方法来进一步验证和过滤数据。
 
+[tyiannak/pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) Python 音频分析库：特征提取、分类、分割和应用
+
 # 生物医药
 
 ## 蛋白质结构
@@ -1730,11 +1733,17 @@ babysor/MockingBird AI拟声: 5秒内克隆您的声音并生成任意语音内�
 * [lol88/Mol2Context-vec](https://github.com/lol88/Mol2Context-vec) 提供了一种深入的上下文感知分子表示，以推动药物发现的边界。它可以整合不同层次的内部状态，带来丰富的分子结构信息。
 * [jcchan23/CoMPT](https://github.com/jcchan23/CoMPT) 本文提出了Communicative Message Passing Transformer网络，一种通过在Transformer架构中融合消息传递机制并加强节点与边之间的消息交互来改进药物分子图的表征方法。此外，受热扩散现象的启发，该表征方法通过将消息传递机制转化为消息扩散机制减少了消息过度富集的影响。大量实验表明，本文提出的模型在七个化学性质数据集（图级任务）和两个化学位移数据集（节点级任务）上的性能优于基线模型的性能（平均性能提升约4%）。可视化研究也进一步表明该模型实现了更好的药物分子图表征能力。
 * [zetayue/MXMNet](https://github.com/zetayue/MXMNet) 具有分子结构多重图的分子力学驱动图神经网络
-* [https://github.com/ChenDdon/AGBTcode](https://github.com/ChenDdon/AGBTcode) 代数图辅助双向变换器用于分子特性预测”的实现
+* [ChenDdon/AGBTcode](https://github.com/ChenDdon/AGBTcode) 代数图辅助双向变换器用于分子特性预测”的实现
 * [yvquanli/trimnet](https://github.com/yvquanli/trimnet) 论文代码“TrimNet：从生物医学的三元组消息中学习分子表示”
 * [lmmpf/PyAutoFEP](https://github.com/lmmpf/PyAutoFEP) PyAutoFEP：用于 GROMACS 的自动化 FEP 工作流程，集成了增强的采样方法.PyAutoFEP 是一种自动化自由能扰动 (FEP) 计算的工具，用于估计小分子与大分子目标的相对自由能结合 (RFEB)。它自动生成微扰图、构建配体对的双拓扑、设置 MD 系统和分析。与众不同的是，PyAutoFEP 支持多个力场，集成了增强的采样方法，并允许灵活的 λ 窗口方案。
 * [hannesstark/3dinfomax](https://github.com/hannesstark/3dinfomax) 通过使用分子的 3D 几何来预训练 GNN，使自我监督学习对分子起作用。在 DGL 和 Pytorch Geometric 中实现。
 * [microsoft/FS-Mol](https://github.com/microsoft/FS-Mol) FS-Mol 是一个 Few-Shot 分子学习数据集，包含具有针对各种蛋白质靶标的活性测量值的分子化合物。该数据集提供了一个模型评估基准，旨在推动分子和图形结构数据领域的小样本学习研究。
+* [zhichunguo/Meta-MGNN](https://github.com/zhichunguo/Meta-MGNN) 用于分子性质预测的小样本图学习
+* [illidanlab/MoCL-DK](https://github.com/illidanlab/MoCL-DK) 论文 MoCL 的实现：具有多层次领域知识的分子图对比学习
+* [smiles724/Molformer](https://github.com/smiles724/Molformer)  Molformer（以前称为 3D-Transformer）的存储库，它在许多分子表示学习问题中实现了最先进的技术。
+* [gasteigerjo/dimenet](https://github.com/gasteigerjo/dimenet) DimeNet 和 DimeNet++ 模型，如“分子图的定向消息传递”（ICLR 2020）和“非平衡分子的快速和不确定性感知定向消息传递”（NeurIPS-W 2020）中提出的
+* [LiteGEM/kddcup2021-PCQM4M-LSC](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/competition/kddcup2021-PCQM4M-LSC) LiteGEM：KDD Cup 2021 PCQM4M-LSC解决方案. PCQM4M-LSC是量子化学数据集，其任务是预测给定分子的重要分子特性，即HOMO-LUMO间隙(图形回归)。即一个分子图的量子特性回归数据集，它包含了3,803,453个图。它基于PubChemQC项目的归纳式图回归数据集。它包含约400万以SMILES串描述的小分子。它的目的是加速量子化学计算，尤其是预测每个分子的HOMO-LUMO轨道距离。HOMO-LUMO距离是量子化学中最重要的属性之一，因为他和分子的反应性、光激励、电荷输送有关。每个分子的真实标签是通过昂贵的DFT计算得到，每个分子需要计算几个小时。普遍认为，在足够的训练数据支持下，类似GNN的基于分子图网络的机器学习模型，可以以很小代价得到近似DFT的结果。这些分子根据他们的PubChem ID按照8：1：1划分作为训练、验证、测试数据集。
+* [divelab/MoleculeX](https://github.com/divelab/MoleculeX) 用于分子探索的全新且快速发展的机器学习方法和软件工具。MoleculeX 的最终目标是实现各种基本和复杂的分子建模任务，例如分子性质预测、3D 几何建模等。目前，包括一套机器学习方法，用于基态 3D 分子几何预测和分子属性预测。具体来说，BasicProp包括基于图神经网络的基本监督学习方法，用于分子特性预测。BasicProp适用于有大量标记样本可用的任务，因此只需要监督学习。BasicProp已用于参与2021年OGB-LSC是获胜者之一。当只有少量标记样本可用时，AdvProp包括用于分子特性预测的机器学习方法，因此需要自我监督学习来实现理想的性能。此外，AdvProp能够处理来自不同类别的样本高度不平衡的任务。在这些情况下，我们采用先进的损失函数来优化曲线下的各个区域 (AUC)。AdvProp已被用于参与COVID-19 的 AI 治愈公开挑战赛排名第一。此外，Molecule3D提供了一套软件工具来处理我们提出的 Molecule3D 数据集，这是一种专门为基态 3D 分子几何预测而设计的新型数据集。它还包括几种几何预测的基线方法，以及使用预测的 3D 几何作为输入的量子特性预测方法。目前，MoleculeX 的 pip 包只包含 Molecule3D 模块的代码。我们将在未来逐步包含其他模块。
 
 ## 抗菌肽
 
@@ -1845,6 +1854,10 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 [ZJUFanLab/scDeepSort](https://github.com/ZJUFanLab/scDeepSort) 使用带有加权图神经网络的深度学习对单细胞转录组学进行细胞类型注释.单细胞 RNA 测序 (scRNA-seq) 的最新进展已经实现了对多个复杂组织中数千个细胞的大规模转录表征，其中准确的细胞类型识别成为 scRNA-seq 研究的先决条件和重要步骤。开发了一种预训练的细胞类型标注方法，scDeepSort 是基于加权 GNN 框架构建的，然后在两个嵌入的高质量 scRNA-seq 图集中学习，该图集包含人类和小鼠 88 个组织中的 764,741 个细胞。
 
 [jianhuupenn/SpaGCN](https://github.com/jianhuupenn/SpaGCN) SpaGCN：整合基因表达、空间位置和组织学，通过图卷积网络识别空间域和空间可变基因
+
+[immunogenomics/symphony](https://github.com/immunogenomics/symphony) 使用 Symphony 进行高效、精确的单细胞参考图谱映射
+
+[XuhanLiu/DrugEx](https://github.com/XuhanLiu/DrugEx) 多药理学中基于帕累托的多目标优化药物设计深度学习工具包。由于可用于寻找可行的类药物分子的类药物化学空间大，合理的药物设计通常从添加或修饰侧链/取代基的特定支架开始。随着深度学习在药物发现中应用的快速增长，已经开发出多种有效的方法来进行从头药物设计。提出了DrugEx 的方法，该方法可以应用于基于多目标深度强化学习的多药理学。为了提高普遍适用性， DrugEx 以设计基于支架的药物分子，支架由用户提供的多个片段组成。在这项工作中，Transformer 用于生成分子结构。Transformer 包含一个接收支架作为输入的编码器和一个生成分子作为输出的解码器。为了处理分子的图形表示，我们提出了一种基于邻接矩阵的每个原子和键的新位置编码，以扩展 Transformer 的架构。每个分子都是通过生长和连接给定支架中的片段的程序生成的，这些片段被统一到一个模型中。此外，我们在强化学习框架下训练了这个生成器，以增加所需配体的数量。
 
 # 机器视觉
 
@@ -1974,8 +1987,6 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [Megvii-BaseDetection/DeFCN](https://github.com/Megvii-BaseDetection/DeFCN) 全卷积网络的端到端目标检测
 
-
-
 ## 其他
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
@@ -2091,6 +2102,8 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [sail-sg/poolformer](https://github.com/sail-sg/poolformer) PoolFormer：MetaFormer 实际上是您的视觉所需要的。transformer/MLP-like 模型的能力主要源于通用架构 MetaFormer，而不是配备的特定令牌混合器。作者独树一帜提出视觉Transformer及其变种的成功原因主要是架构的设计，并且将token mixer换为了简单的池化获得了相当好的效果。
 
 [jonhare/DifferentiableSketching](https://github.com/jonhare/DifferentiableSketching) 微分绘图和素描
+
+[thuiar/Self-MM](https://github.com/thuiar/Self-MM) 用于多模态情感分析的自监督多任务学习学习模态特定表示中的代码的 Pytorch 实现
 
 # 虚拟化
 
@@ -2284,6 +2297,8 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 
 [YosysHQ/picorv32](https://github.com/YosysHQ/picorv32) 尺寸优化的 RISC-V CPU.实现[RISC-V RV32IMC 指令集](http://riscv.org/)的 CPU 内核。它可以配置为 RV32E、RV32I、RV32IC、RV32IM 或 RV32IMC 内核，并可选择包含内置中断控制器。
 
+[liangkangnan/tinyriscv](https://gitee.com/liangkangnan/tinyriscv)  一个从零开始写的极简、非常易懂的RISC-V处理器核。
+
 # 网络
 
 [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。    
@@ -2301,6 +2316,8 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 [yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，包含教程和源代码
 
 [facert/awesome-spider](https://github.com/facert/awesome-spider) 收集各种爬虫 
+
+[AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘网站、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
 
 # 安全与渗透
 
@@ -2377,6 +2394,14 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 [Ed1s0nZ/cool](https://github.com/Ed1s0nZ/cool) Golang-Gin框架写的免杀平台，内置分离、捆绑等多种BypassAV方式。
 
 [zyylhn/zscan](https://github.com/zyylhn/zscan) 开源的内网端口扫描器、爆破工具和其他实用工具的集合体可以称为工具包。以主机和内网网段发现和端口扫描为基础，可以对mysql、mssql、redis、mongo、postgres、ftp、ssh、ldap、rdp、smb等服务进行爆破，还有其他netbios、smb、oxid、socks server（扫描内网中的代理服务器）、snmp、ms17010等扫描功能，支持poc（xray v1格式）单个和批量检测。
+
+[jwt1399/Sec-Tools](https://github.com/jwt1399/Sec-Tools) 基于Python-Django的多功能Web安全渗透测试工具，包含漏洞扫描，端口扫描，指纹识别，目录扫描，旁站扫描，域名扫描等功能。
+
+[tangxiaofeng7/SecExample](https://github.com/tangxiaofeng7/SecExample) JAVA 漏洞靶场 (Vulnerability Environment For Java)
+
+[pen4uin/pentest-note](https://github.com/pen4uin/pentest-note) 渗透测试☞经验/思路/想法/总结/笔记
+
+[timwhitez/Frog-checkCDN](https://github.com/timwhitez/Frog-checkCDN) 批量检查目标是否为cdn
 
 # 其他
 
@@ -2491,3 +2516,7 @@ dblalock/bolt 矩阵和向量运算速度提高 10 倍
 [Textualize/textual](https://github.com/Textualize/textual) 受现代 Web 开发启发的 Python 的 TUI（文本用户界面）框架。
 
 [psf/black](https://github.com/psf/black) 毫不妥协的 Python 代码格式化程序 
+
+[clouddreamteam_admin/cloud-dream](https://gitee.com/clouddreamteam_admin/cloud-dream) 微信小程序——餐饮点餐商城，是针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！
+
+[HC小区业主版: hc智慧家园小程序 ](https://gitee.com/java110/WechatOwnerService) 是 HC小区开源项目的一个分支项目，主要给业主使用，其中包括缴物业费，缴停车费，投诉建议，家庭成员维护，房屋保修 房屋出租，公告查看，小区圈等功能。
