@@ -295,6 +295,10 @@ RAPIDS Open GPU Data Science http://rapids.ai
 
 [jina-ai/finetuner](https://github.com/jina-ai/finetuner) 微调任何 DNN 以更好地嵌入神经搜索任务
 
+[noah-research/BO/HEBO/CompBO](https://github.com/huawei-noah/noah-research/tree/CompBO/BO/HEBO/CompBO)  使用组合优化器进行贝叶斯优化,由华为研发、诺亚方舟实验室（伦敦）开发的贝叶斯优化代码库
+
+[huawei-noah/HEBO](https://github.com/huawei-noah/HEBO) 华为诺亚方舟库开发的贝叶斯优化库
+
 ## 梯度提升和树模型
 
 [dmlc/xgboost](https://github.com/dmlc/xgboost) 可扩展、可移植和分布式梯度提升（GBDT、GBRT 或 GBM）库，适用于 Python、R、Java、Scala、C++ 等。 在单机、Hadoop、Spark、Dask、Flink 和 DataFlow 上运行。
@@ -387,7 +391,7 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 
 [PKU-DAIR/Hetu](https://github.com/PKU-DAIR/Hetu) 针对大规模和自动化分布式训练的高性能分布式深度学习系统。
 
-## 其他
+## 其他_机器学习与深度学习
 
 [vikasverma1077/manifold_mixup](https://github.com/vikasverma1077/manifold_mixup) 数据增强⽅法,Manifold Mixup 的目标是通过插入示例的隐藏状态来学习鲁棒的特征。 我们的方法学习到的表征更具判别性和紧凑性。 
 
@@ -419,12 +423,17 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 
 [scikit-hep/awkward-1.0](https://github.com/scikit-hep/awkward-1.0) 使用类似 NumPy 的习语来处理类似 JSON 的数据。
 
+[GitHub - alibaba/Curvature-Learning-Framework](https://github.com/alibaba/Curvature-Learning-Framework) 基于Tensorflow的非欧深度学习框架。实现了多种非欧流形、非欧算子和黎曼优化器，基于与Tensorflow相似的底层接口，可以便捷的迁移模型空间而不改变模型细节。背景：欧氏空间不可能无损表征树、环结构，然而双曲（负曲率）、球面（正曲率）空间无损表征。由于对结构性强的如无尺度网络、层次数据、环状数据等的优良表征能力，非欧深度学习逐渐应用到各个领域并展示出优越性，包括链接预测、推荐系统等。
+
+[facebookresearch/bitsandbytes](https://github.com/facebookresearch/bitsandbytes) 用于 8 位优化器和量化例程的库。
+
+openai/triton OpenAI 正式的Triton是一种类 Python 的开源编程语言。能够高效编写 GPU 代码。例如，它可以用不到 25 行代码写出与 cuBLAS 性能相匹配的 FP16 矩阵乘法内核。此外，使用 Triton 成功生成比同类实现效率高 2 倍的内核。
+
 # 图神经网络GNN
 
 ## 图机器学习库
 
-* https://github.com/stellargraph/stellargraph 星际图机器学习库
-* Deep Graph Library (DGL)
+* [dmlc/dgl.](https://github.com/dmlc/dgl) Deep Graph Library (DGL) 一个易于使用、高性能和可扩展的 Python 包，用于对图进行深度学习。
 * https://github.com/alibaba/euler 分布式图深度学习框架。
 * https://github.com/facebookresearch/PyTorch-BigGraph 从大型图形结构化数据生成嵌入
 * https://github.com/rusty1s/pytorch_geometric 用于PyTorch的深度图学习扩展库。PyG对已发表或者常用的图神经网络和数据集都进行了集成，因而是当前最流行和广泛使用的GNN库。
@@ -437,12 +446,14 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 * https://github.com/PaddlePaddle/PGL 基于PaddlePaddle的高效灵活的图学习框架
 * https://github.com/THUDM/cogdl 由清华大学计算机系知识工程实验室（KEG）开发的基于图的深度学习的研究工具，基于Python语言和Pytorch库。
 * https://github.com/THUMNLab/AutoGL 开源自动图学习工具包：AutoGL (Auto Graph Learning)，支持在图数据上全自动进行机器学习。
-* https://github.com/benedekrozemberczki/pytorch_geometric_temporal 该库包含来自各种已发表研究论文的dynamic+temporal图深度学习，embedding以及spatio-temporal regression 方法。它还带有许多带有时间和动态图的基准数据集。离散递归图卷积 DCRNN GConvGRU GConvLSTM GC-LSTM LRGCN DyGrEncoder EvolveGCNH EvolveGCNO ；辅助图卷积 Temporal Graph Convolutions 时间图卷积 STGCN ；Auxiliary Graph Convolutions TemporalConv DConv 
-* https://github.com/divelab/DIG  支持研究方向：图生成、图自监督学习、图神经网络可解释性以及 3D 图深度学习。对于每个领域，DIG 都提供了通用、可扩展的数据接口、常用算法与评估标准实现。
+* [ benedekrozemberczki/pytorch_geometric_temporal)](https://github.com/benedekrozemberczki/pytorch_geometric_temporal) 该库包含来自各种已发表研究论文的dynamic+temporal图深度学习，embedding以及spatio-temporal regression 方法。它还带有许多带有时间和动态图的基准数据集。离散递归图卷积 DCRNN GConvGRU GConvLSTM GC-LSTM LRGCN DyGrEncoder EvolveGCNH EvolveGCNO ；辅助图卷积 Temporal Graph Convolutions 时间图卷积 STGCN ；Auxiliary Graph Convolutions TemporalConv DConv 
+* [divelab/DIG](https://github.com/divelab/DIG)  支持研究方向：图生成、图自监督学习、图神经网络可解释性以及 3D 图深度学习。对于每个领域，DIG 都提供了通用、可扩展的数据接口、常用算法与评估标准实现。
 * [chaitjo/awesome-efficient-gnn](https://github.com/chaitjo/awesome-efficient-gnn) 令人敬畏的高效图神经网络,一份关于有效图神经网络和可扩展图表示学习的必读论文的精选列表，用于实际应用。 
 * [EdisonLeeeee/GraphGallery](https://github.com/EdisonLeeeee/GraphGallery) GraphGallery 是一个用于对图神经网络 (GNN) 进行基准测试的图库。实现的方法：节点分类、图净化、链接预测、节点嵌入。
 * [Awesome-GNN-Research](https://github.com/XunKaiLi/Awesome-GNN-Research) 很棒的 GNN 研究
 * [quiver-team/torch-quiver](https://github.com/quiver-team/torch-quiver) 用于快速轻松的分布式图学习的 PyTorch 库
+* [GRAND-Lab/Awesome-Graph-Neural-Networks](https://github.com/GRAND-Lab/Awesome-Graph-Neural-Networks) 图神经网络论文列表
+* [stellargraph/stellargraph](https://github.com/stellargraph/stellargraph) 星际图机器学习库
 
 ## 图注意力机制
 
@@ -525,7 +536,7 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 
 * [phanein/deepwalk](https://github.com/phanein/deepwalk) DeepWalk 使用短随机游走来学习图中顶点的表示。
 
-## 时空网络、交通预测、动态图
+## 时空网络_交通预测_动态图
 
 * ASTGCN 基于注意的时空图卷积网络，用于交通流量预测
 * https://github.com/LeiBAI/AGCRN 端到端的流量预测模型-自适应图卷积递归网络（AGCRN）。AGCRN可以捕获流量序列中特定于节点的细粒度空间和时间相关性，并通过嵌入DAGG来统一修订GCN中的节点嵌入。这样，训练AGCRN可以针对每个交通系列源（例如，用于交通速度/流量的道路，用于乘客需求的车站/区域）产生有意义的节点表示向量。学习的节点表示包含有关道路/区域的有价值的信息，并且可以潜在地应用于其他任务。
@@ -571,7 +582,7 @@ https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发
 * https://github.com/snap-stanford/gib 图信息瓶颈 (GIB)。研究者基于该原则构建了两个 GNN 模型：GIB-Cat 和 GIB-Bern，二者在抵御对抗攻击时取得了优异的性能。 图信息Bottleneck打造图最优表示->避免过拟合，并具备稳健性
 * https://github.com/liaopeiyuan/GAL Graph AdversariaL Networks 图对抗网络 Information Obfuscation of Graph Neural Networks 图神经网络的信息模糊处理,使得攻击者很难推断。
 
-## 其他
+## 其他_图神经网络GNN
 
 [naganandy/graph-based-deep-learning-literature](https://github.com/naganandy/graph-based-deep-learning-literature) 基于图的深度学习中的会议出版物
 
@@ -908,7 +919,9 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
 
 * [https://github.com/THU-KEG/KoPL](https://github.com/THU-KEG/KoPL) KoPL全称 Knowledge oriented Programing Language, 是一个为复杂推理问答而设计的编程语言。可以将自然语言问题表示为由基本函数组合而成的KoPL程序，程序运行的结果就是问题的答案。目前，KoPL的27个基本函数覆盖对多种知识元素（如概念、实体、关系、属性、修饰符等）的操作，并支持多种问题类型（如计数、事实验证、比较等）的查询。KoPL提供透明的复杂问题推理过程，易于理解和使用。KoPL面向知识库、文本等不同形式的知识资源，可扩展性强。
 
-* [PaddlePaddle/PGL/erniesage](https://github.com/PaddlePaddle/PGL/tree/static_stable/examples/erniesage) 使用PGL实现ERNIESage。在很多工业应用中，往往出现如下图所示的一种特殊的图：Text Graph。顾名思义，图的节点属性由文本构成，而边的构建提供了结构信息。如搜索场景下的Text Graph，节点可由搜索词、网页标题、网页正文来表达，用户反馈和超链信息则可构成边关系。ERNIESage 由PGL团队提出，是ERNIE SAmple aggreGatE的简称，该模型可以同时建模文本语义与图结构信息，有效提升 Text Graph 的应用效果。其中 ERNIE 是百度推出的基于知识增强的持续学习语义理解框架。ERNIESage 是 ERNIE 与 GraphSAGE 碰撞的结果，是 ERNIE SAmple aggreGatE 的简称，它的结构如下图所示，主要思想是通过 ERNIE 作为聚合函数（Aggregators），建模自身节点和邻居节点的语义与结构关系。ERNIESage 对于文本的建模是构建在邻居聚合的阶段，中心节点文本会与所有邻居节点文本进行拼接；然后通过预训练的 ERNIE 模型进行消息汇聚，捕捉中心节点以及邻居节点之间的相互关系；最后使用 ERNIESage 搭配独特的邻居互相看不见的 Attention Mask 和独立的 Position Embedding 体系，就可以轻松构建 TextGraph 中句子之间以及词之间的关系。使用ID特征的GraphSAGE只能够建模图的结构信息，而单独的ERNIE只能处理文本信息。通过PGL搭建的图与文本的桥梁，ERNIESage能够很简单的把GraphSAGE以及ERNIE的优点结合一起。以下面TextGraph的场景，ERNIESage的效果能够比单独的ERNIE以及GraphSAGE模型都要好。
+* [PaddlePaddle/PGL/erniesage](https://github.com/PaddlePaddle/PGL/tree/static_stable/examples/erniesage) 使用PGL实现ERNIESage。在很多工业应用中，往往出现如下图所示的一种特殊的图：Text Graph。顾名思义，图的节点属性由文本构成，而边的构建提供了结构信息。如搜索场景下的Text Graph，节点可由搜索词、网页标题、网页正文来表达，用户反馈和超链信息则可构成边关系。ERNIESage 由PGL团队提出，是ERNIE SAmple aggreGatE的简称，该模型可以同时建模文本语义与图结构信息，有效提升 Text Graph 的应用效果。其中 ERNIE 是百度推出的基于知识增强的持续学习语义理解框架。ERNIESage 是 ERNIE 与 GraphSAGE 碰撞的结果，是 ERNIE SAmple aggreGatE 的简称，它的结构如下图所示，主要思想是通过 ERNIE 作为聚合函数（Aggregators），建模自身节点和邻居节点的语义与结构关系。ERNIESage 对于文本的建模是构建在邻居聚合的阶段，中心节点文本会与所有邻居节点文本进行拼接；然后通过预训练的 ERNIE 模型进行消息汇聚，捕捉中心节点以及邻居节点之间的相互关系；最后使用 ERNIESage 搭配独特的邻居互相看不见的 Attention Mask 和独立的 Position Embedding 体系，就可以轻松构建 TextGraph 中句子之间以及词之间的关系。使用ID特征的GraphSAGE只能够建模图的结构信息，而单独的ERNIE只能处理文本信息。通过PGL搭建的图与文本的桥梁，ERNIESage能够很简单的把GraphSAGE以及ERNIE的优点结合一起。TextGraph的场景，ERNIESage的效果能够比单独的ERNIE以及GraphSAGE模型都要好。
+
+* [BshoterJ/awesome-kgqa](https://github.com/BshoterJ/awesome-kgqa) 知识图谱问答部分资料合集
 
 ## 知识图谱
 
@@ -934,9 +947,9 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
 
 * [openconcept](http://openkg.cn/dataset/openconcept) 基于自动化知识抽取算法的大规模中文概念图谱。440万概念核心实体，以及5万概念和1200万实体-概念三元组。数据包括了常见的人物、地点等通用实体。
 
-* https://github.com/openkg-org/OpenEA 基于知识图谱嵌入的开源实体融合工具。本体匹配、实体对齐、真值验证、冲突消解。
+* [ OpenKG-ORG/OpenEA](https://github.com/openkg-org/OpenEA) 基于知识图谱嵌入的开源实体融合工具。本体匹配、实体对齐、真值验证、冲突消解。
 
-* https://github.com/seukgcode/MELBench 多模态实体链接 (MEL) 旨在利用多模态信息将提及项映射到知识库中定义的相应实体。 我们发布了三个 MEL 数据集：Weibo-MEL、Wikidata-MEL 和 Richpedia-MEL，分别包含来自社交媒体、百科全书和多模态知识图谱的 25,602、18,880 和 17,806 个样本。
+* [seukgcode/MELBench.](https://github.com/seukgcode/MELBench) 多模态实体链接 (MEL) 旨在利用多模态信息将提及项映射到知识库中定义的相应实体。 我们发布了三个 MEL 数据集：Weibo-MEL、Wikidata-MEL 和 Richpedia-MEL，分别包含来自社交媒体、百科全书和多模态知识图谱的 25,602、18,880 和 17,806 个样本。
 
 * [OpenKG-ORG/OpenRichpedia](https://github.com/OpenKG-ORG/OpenRichpedia) 东南大学多模态知识图谱-OpenRichpedia工程文件
 
@@ -952,9 +965,13 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
 
 * [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph) 整理知识图谱相关学习资料
 
-* [https://github.com/ownthink/KnowledgeGraph](https://github.com/ownthink/KnowledgeGraph) 史上最大规模1.4亿知识图谱数据免费下载，知识图谱，通用知识图谱，融合了两千五百多万的实体，拥有亿级别的实体属性关系。
+* [ownthink/KnowledgeGraph](https://github.com/ownthink/KnowledgeGraph) 史上最大规模1.4亿知识图谱数据免费下载，知识图谱，通用知识图谱，融合了两千五百多万的实体，拥有亿级别的实体属性关系。
 
 * [liuhuanyong/AbstractKnowledgeGraph](https://github.com/liuhuanyong/AbstractKnowledgeGraph) 抽象知识图谱，目前规模50万，支持名词性实体、状态性描述、事件性动作进行抽象。目标于抽象知识，包括抽象实体，抽象动作，抽象事件。基于该知识图谱，可以进行不同层级的实体抽象和动作抽象，这与人类真实高度概括的认知是一致的。
+
+* [songjiang0909/awesome-knowledge-graph-construction](https://github.com/songjiang0909/awesome-knowledge-graph-construction) 很棒的知识图构建
+
+* [ZihengZZH/awesome-multimodal-knowledge-graph](https://github.com/ZihengZZH/awesome-multimodal-knowledge-graph) 多模态知识图谱的精彩阅读列表或其他资源（数据集、教程等）。
 
 ## NLP语料和数据集
 
@@ -987,19 +1004,34 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
 
 ## 关系抽取、信息抽取
 
+* [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)  专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
+
 * weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
+
 * loujie0822/DeepIE DeepIE： 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
+
 * 131250208/TPlinker-joint-extraction 联合抽取模型 实体关系联合抽取标注关系抽取方案
+
 * TanyaZhao/MRC4ERE_plus 基于机器阅读理解的联合实体关系提取框架
+
 * cuhksz-nlp/RE-TaMM 于词依存信息类型映射记忆神经网络的关系抽取
+
 * xiaoqian19940510/Event-Extraction 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
+
 * 231sm/Reasoning_In_EE 利用本体表示学习实现低资源的事件抽取
+
 * zjunlp/openue 开源的通用文本信息抽取工具 三元组抽取 事件抽取 槽填充和意图检测
+
 * thunlp/OpenNRE 开源的神经网络关系抽取工具包，包括了多款常用的关系抽取模型，CNN、BERT、bag-level PCNN-ATT。
+
 * thunlp/NREPapers 神经网络关系抽取必读论文列表，覆盖了较为经典的神经网络关系抽取领域的已发表论文、综述等。
+
 * zjunlp/DocED 跨句事件抽取旨在研究如何同时识别篇章内多个事件。提出多层双向网络Multi-Layer Bidirectional Network融合跨句语义和关联事件信息，从而增强内各事件提及的判别。
+
 * [cuhksz-nlp/RE-AGCN](https://github.com/cuhksz-nlp/RE-AGCN) 使用注意力图卷积网络的依赖驱动关系提取的实现。
+
 * [https://github.com/XueFuzhao/GDPNet](https://github.com/XueFuzhao/GDPNet) 建议构建一个潜在的多视图图来捕获令牌之间的各种可能关系。然后细化这个图来选择重要的词进行关系预测。最后，将细化图的表示和基于 BERT 的序列表示连接起来以进行关系提取。提出的 GDPNet（高斯动态时间扭曲池化网络）中，利用高斯图生成器 (GGG) 来生成多视图图的边。然后通过动态时间扭曲池 (DTWPool) 对图形进行细化。实验结果：在 DialogRE 和 TACRED 上，我们表明 GDPNet 在对话级 RE 上实现了最佳性能，并且在句子级 RE 上与最先进的性能相当。
+
 * [dair-iitd/OpenIE-standalone](https://github.com/dair-iitd/OpenIE-standalone) 华盛顿大学 (UW) 和德里印度理工学院 (IIT 德里) 的主要开放信息提取 (Open IE) 系统。一个开放的系统提取文本中的关系。
 
 ## 实体识别NER、意图识别、槽位填充
@@ -1127,31 +1159,59 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 # 推荐系统
 
-shenweichen/DeepCTR Easy-to-use,Modular and Extendible package of deep-learning based CTR models for search and recommendation. 
+## 推荐系统算法库
 
-ChenglongChen/tensorflow-DeepFM 
+* shenweichen/DeepCTR Easy-to-use,Modular and Extendible package of deep-learning based CTR models for search and recommendation.
 
-cheungdaven/DeepRec  An Open-source Toolkit for Deep Learning based Recommendation with Tensorflow. 
+* ChenglongChen/tensorflow-DeepFM
 
-lyst/lightfm  A Python implementation of LightFM, a hybrid recommendation algorithm. 
+* cheungdaven/DeepRec An Open-source Toolkit for Deep Learning based Recommendation with Tensorflow.
 
-tensorflow/recommenders TensorFlow Recommenders is a library for building recommender system models using TensorFlow.
+* lyst/lightfm A Python implementation of LightFM, a hybrid recommendation algorithm.
 
-RUCAIBox/RecBole 统一，全面，高效的推荐库，包括： 
+* tensorflow/recommenders TensorFlow Recommenders is a library for building recommender system models using TensorFlow.
 
-* AFM,AutoInt,DCN,DeepFM,DSSM,FFM,FM,FNN,FwFM,LR,NFM,PNN,WideDeep,xDeepFM,BPR,ConvNCF,DGCF,DMF,FISM,GCMC,ItemKNN,LightGCN,NAIS,NeuMF,NGCF,Pop,SpectralCF,CFKG,
-* CKE（Collaborative Knowledge base Embedding 发自16年KDD，将KG与CF融合做联合训练）
-* KGAT Knowledge Graph Attention Network for Recommendation 用KG做增强，捕捉这种高阶交互式特征，做推荐预测。
-* KGCN,KGNNLS,
-* KTUP Unifying Knowledge Graph Learning and Recommendation:Towards a Better Understanding of User Preferences 一方面利用KG可以帮助更好的理解用户偏好。另一方面，用户-物品的交互可以补全KG，增强KG中缺少的事实。最终使两个部分都得到加强。
-* MKR(Multi-task Learning for KG enhanced Recommendation 融合KG和RC) 左边是推荐任务。用户和物品的特征表示作为输入，预测点击率y 右边是知识图谱任务。三元组的头结点h和关系r表示作为输入，预测的尾节点t 两者的交互由一个cross-feature-sharing units完成。由于物品向量和实体向量实际上是对同一个对象的两种描述，他们之间的信息交叉共享可以让两者都获得来自对方的额外信息，从而弥补了自身的信息稀疏性的不足。
-* ippleNet,BERT4Rec,Caser,DIN,FDSA,FPMC,GCSAN,GRU4Rec,GRU4RecF,GRU4RecKG,KSR,NARM,NextItNet,S3Rec,SASRec,SASRecF,SRGNN,STAMP,TransRec
+* RUCAIBox/RecBole 统一，全面，高效的推荐库，包括：
+  
+  - AFM,AutoInt,DCN,DeepFM,DSSM,FFM,FM,FNN,FwFM,LR,NFM,PNN,WideDeep,xDeepFM,BPR,ConvNCF,DGCF,DMF,FISM,GCMC,ItemKNN,LightGCN,NAIS,NeuMF,NGCF,Pop,SpectralCF,CFKG,
+  - CKE（Collaborative Knowledge base Embedding 发自16年KDD，将KG与CF融合做联合训练）
+  - KGAT Knowledge Graph Attention Network for Recommendation 用KG做增强，捕捉这种高阶交互式特征，做推荐预测。
+  - KGCN,KGNNLS,
+  - KTUP Unifying Knowledge Graph Learning and Recommendation:Towards a Better Understanding of User Preferences 一方面利用KG可以帮助更好的理解用户偏好。另一方面，用户-物品的交互可以补全KG，增强KG中缺少的事实。最终使两个部分都得到加强。
+  - MKR(Multi-task Learning for KG enhanced Recommendation 融合KG和RC) 左边是推荐任务。用户和物品的特征表示作为输入，预测点击率y 右边是知识图谱任务。三元组的头结点h和关系r表示作为输入，预测的尾节点t 两者的交互由一个cross-feature-sharing units完成。由于物品向量和实体向量实际上是对同一个对象的两种描述，他们之间的信息交叉共享可以让两者都获得来自对方的额外信息，从而弥补了自身的信息稀疏性的不足。
+  - ippleNet,BERT4Rec,Caser,DIN,FDSA,FPMC,GCSAN,GRU4Rec,GRU4RecF,GRU4RecKG,KSR,NARM,NextItNet,S3Rec,SASRec,SASRecF,SRGNN,STAMP,TransRec
+
+* [Coder-Yu/QRec](https://github.com/Coder-Yu/QRec) QRec：快速实现推荐系统的 Python 框架（基于 TensorFlow）
+
+* [Transformers4Rec](https://github.com/NVIDIA-Merlin/Transformers4Rec/) Transformers4Rec 是一个灵活且高效的库，用于顺序和基于会话的推荐，可用于 PyTorch 和 Tensorflow。
+
+* shenweichen/DeepMatch 用于推荐和广告的深度匹配模型库。训练模型和导出用户和项目的表示向量非常容易，可用于ANN搜索。
+
+* ZiyaoGeng/Recommender-System-with-TF2.0 CTR预言论文进行复现，包括传统模型（MF，FM，FFM等），神经网络模型（WDL，DCN等）以及序列模型（DIN）。
+
+* THUwangcy/ReChorus 用于Top-K推荐的通用PyTorch框架，具有隐式反馈，尤其是用于研究目的。BPR\NCF\Tensor\GRU4Rec\NARM\SASRec\TiSASRec\CFKG\SLRC\Chorus
+
+* NVIDIA/NVTabular 为特征工程、前处理提供了更快的迭代速度，同时利用异步批量加载的方法有效提高了GPU的利用率，提供更快的加载速率。Merlin推荐系统框架的模块。
+
+* NVIDIA/HugeCTR a high efficiency GPU framework designed for Click-Through-Rate (CTR) estimating training ，在Embedding lookup上做了很多优化，可以轻易的通过数据和模型并行的方式将模型扩展到TB级别，在大规模参数的背景下，这给挖掘模型能力提供了更多的想象力。同时更快的训练速度也让算法工程师能够尝试更多的网络结构，挖掘最适合所研究问题的模型。
+
+* microsoft/recommenders 推荐系统上的最佳实践。包括多个模型：ALS A2SVD BPR Caser DKN xDeepFM FAST LightFM/Hybrid Matrix Factorization LightGBM/Gradient Boosting Tree* LightGCN GeoIMC GRU4Rec Multinomial VAE LSTUR NAML NCF NPA NRMS NextItNet RBM RLRMC SAR SLi-Rec SUM Standard VAE SVD TF-IDF Vowpal Wabbit (VW)* Wide and Deep FM&FFM
+
+* [AmazingDD/daisyRec](https://github.com/AmazingDD/daisyRec) 在 pytorch 中开发的推荐系统。算法：KNN、LFM、SLIM、NeuMF、FM、DeepFM、VAE 等，旨在公平比较推荐系统基准
+
+* [wubinzzu/NeuRec](https://github.com/wubinzzu/NeuRec) 全面且灵活的 Python 库，用于推荐系统，其中包括大量最先进的神经推荐模型。该库旨在解决一般、社交和顺序（下一项）推荐任务，使用Tensorflow库提供 33 个开箱即用的模型。
+
+* [guoguibing/librec](https://github.com/guoguibing/librec) 一个用于推荐系统的 Java 库（需要 Java 版本 1.7 或更高版本）。它实现了一套最先进的推荐算法，旨在解决两个经典的推荐任务：**评分预测**和**项目排名**。
+
+* [facebookresearch/torchrec](https://github.com/facebookresearch/torchrec) 推荐系统的 Pytorch库,旨在提供大型推荐系统 (RecSys) 所需的通用稀疏性和并行性原语。它允许作者使用跨多个 GPU 分片的大型嵌入表来训练模型。
+
+* [huawei-noah/FuxiCTR](https://github.com/huawei-noah/benchmark/tree/main/FuxiCTR) FuxiCTR 为 CTR 预测提供了一个开源库，在可配置性、可调整性和可重复性方面具有惊人的功能。模型包括：LR FM CCPM FFM YoutubeDNN Wide&Deep IPNN DeepCross HOFM DeepFM NFM AFM DCN FwFM xDeepFM DIN FiGNN AutoInt/AutoInt+ FiBiNET FGCNN HFM/HFM+ ONN AFN/AFN+ LorentzFM FLEN FmFM
+
+* [openbenchmark/BARS](https://github.com/openbenchmark/BARS) 迈向推荐系统的开放基准测试。 BARS 基准目前涵盖以下两项任务:点击率预测\候选项目匹配
+
+imsheridan/DeepRec 推荐、广告工业界经典以及最前沿的论文、资料集合
 
 [laekov/fastmoe](https://github.com/laekov/fastmoe) FastMoE 是一个易用且高效的基于 PyTorch 的 MoE 模型训练系统.
-
-[Coder-Yu/QRec](https://github.com/Coder-Yu/QRec) QRec：快速实现推荐系统的 Python 框架（基于 TensorFlow）
-
-[Transformers4Rec](https://github.com/NVIDIA-Merlin/Transformers4Rec/) Transformers4Rec 是一个灵活且高效的库，用于顺序和基于会话的推荐，可用于 PyTorch 和 Tensorflow。
 
 oywtece/dstn
 
@@ -1169,9 +1229,7 @@ xiangwang1223/neural_graph_collaborative_filtering 神经图协同过滤
 
 UIC-Paper/MIMN 点击率预测的长序列用户行为建模的实践
 
-motefly/DeepGBM 结合了GBDT 和神经网络的优点，在有效保留在线更新能力的同时，还能充分利用类别特征和数值特征。DeepGBM 由两大块组成，CatNN 主要侧重于利用 Embedding 技术将高维稀疏特征转为低维稠密特征，而 GBDT2NN 则利用树模型筛选出的特征作为神经网络的输入，并通过逼近树结构来进行知识蒸馏。
-
-shenweichen/DeepMatch 用于推荐和广告的深度匹配模型库。训练模型和导出用户和项目的表示向量非常容易，可用于ANN搜索。
+motefly/DeepGBM 结合了GBDT 和神经网络的优点，在有效保留在线更新能力的同时，还能充分利用类别特征和数值特征。由两大块组成，CatNN 主要侧重于利用 Embedding 技术将高维稀疏特征转为低维稠密特征，而 GBDT2NN 则利用树模型筛选出的特征作为神经网络的输入，并通过逼近树结构来进行知识蒸馏。
 
 LeeeeoLiu/ESRM-KG 关键词生成的基于电商会话的推荐模型
 
@@ -1181,11 +1239,7 @@ pangolulu/exact-k-recommendation 解决推荐中带约束的Top-K优化问题
 
 Scagin/NeuralLogicReasoning 神经协同推理,提出了一种新的神经逻辑推荐（NLR）框架，能够将逻辑结构和神经网络相结合，将推荐任务转化为一个逻辑推理任务。
 
-ZiyaoGeng/Recommender-System-with-TF2.0 CTR预言论文进行复现，包括传统模型（MF，FM，FFM等），神经网络模型（WDL，DCN等）以及序列模型（DIN）。
-
 allenjack/HGN 用矩阵分解的形式捕捉用户的长期兴趣，同时将短期兴趣进行拆分，分为group-level以及instance-level的，通过Hierarchical Gating来处理group-level的信息,item-item的乘积来捕捉商品之间的关系。
-
-THUwangcy/ReChorus 用于Top-K推荐的通用PyTorch框架，具有隐式反馈，尤其是用于研究目的。BPR\NCF\Tensor\GRU4Rec\NARM\SASRec\TiSASRec\CFKG\SLRC\Chorus
 
 RUCAIBox/CIKM2020-S3Rec 自我推荐学习，用于具有互信息最大化的顺序推荐
 
@@ -1203,12 +1257,6 @@ ChuanyuXue/CIKM-2019-AnalytiCup 2019-CIKM挑战赛，超大规模推荐之用户
 zyli93/InterHAt 通过分层注意力预测可解释的点击率。
 
 SSE-PT/SSE-PT 基于Transformer的模型,但是和SASRec类似, 效果不错,但是缺少个性化,而且没有加入基于个性化的用户embedding。为了克服这种问题,本文提出来一种个性化的Transformer(SSE-PT),该方法相较于之前的方案提升了5%。
-
-NVIDIA/NVTabular 为特征工程、前处理提供了更快的迭代速度，同时利用异步批量加载的方法有效提高了GPU的利用率，提供更快的加载速率。Merlin推荐系统框架的模块。
-
-NVIDIA/HugeCTR a high efficiency GPU framework designed for Click-Through-Rate (CTR) estimating training ，在Embedding lookup上做了很多优化，可以轻易的通过数据和模型并行的方式将模型扩展到TB级别，在大规模参数的背景下，这给挖掘模型能力提供了更多的想象力。同时更快的训练速度也让算法工程师能够尝试更多的网络结构，挖掘最适合所研究问题的模型。
-
-openai/triton OpenAI 正式的Triton是一种类 Python 的开源编程语言。能够高效编写 GPU 代码。例如，它可以用不到 25 行代码写出与 cuBLAS 性能相匹配的 FP16 矩阵乘法内核。此外，使用 Triton 成功生成比 PyTorch 同类实现效率高 2 倍的内核。
 
 triton-inference-server/server 面向高吞吐低延时的生产环境的框架，通过Triton做线上推理，将TensorRT作为执行后端，能够有效降低Latency，并最大化地利用GPU资源。相比于一个纯CPU的方案，两者的结合使用能够使Latency达到原先的1/18，数据吞吐量达到原先的17.6倍。
 
@@ -1244,13 +1292,9 @@ guoday/Tencent2020_Rank1st  广告受众基础属性预估 2020 Tencent College 
 
 yuduo93/THIGE 基于时序异质交互图表示学习的商品推荐 将复杂异质的动态交互行为构建为时序异质交互图（Temporal Heterogeneous Interaction Graph, 简称为THIG）进而同时学习用户兴趣和商品表示用于商品推荐。本文提出了一种时序异质图上的表示学习方法，称之为THIGE，充分建模交互行为的异质性，刻画不同类型的兴趣偏好，并融合长、短期兴趣构建用户、商品表示。最后，在3个真实数据集上验证模型的有效性。
 
-imsheridan/DeepRec 推荐、广告工业界经典以及最前沿的论文、资料集合
-
 guyulongcs/CIKM2020_DMT 大型电子商务推荐系统中多目标排名的深层多面Transformers模型
 
 weiyinwei/MMGCN 多模态图神经网络解决短视频推荐难题
-
-microsoft/recommenders 推荐系统上的最佳实践。包括多个模型：ALS A2SVD BPR Caser DKN xDeepFM FAST LightFM/Hybrid Matrix Factorization LightGBM/Gradient Boosting Tree* LightGCN GeoIMC GRU4Rec Multinomial VAE LSTUR NAML NCF NPA NRMS NextItNet RBM RLRMC SAR SLi-Rec SUM Standard VAE SVD TF-IDF Vowpal Wabbit (VW)* Wide and Deep  FM&FFM
 
 wujcan/SGL 基于图自监督学习的推荐系统。应用于「用户-物品二分图推荐系统」的「图自监督学习」框架。
 
@@ -1264,7 +1308,7 @@ weberrr/CKAN Collaborative Knowledge-aware Attentive Network for Recommender Sys
 
 danyang-liu/KRED KRED：基于知识感知的文档表示应用于新闻推荐。首先是用KGAT来表示每个实体，然后使用用实体的位置 实体出现频率 实体的类别等信息。再用Transformer来优化表征。最后做多任务：包括个性化推荐，项目到项目推荐、新闻流行预测、新类别预测和本地新闻检测等等。
 
-CRIPAC-DIG/DGCF 动态图协同过滤算法DGCF 利用动态图来同时捕捉用户和商品之间的协同和序列关系的框架。提出三种更新机制： 零阶继承，一阶传播，二阶聚合，来表示新的交互发生时，该交互对用户或者商品的影响。基于这三种机制，交互发生时同时更新用户和商品的embedding，并且利用最新的embedding来给出推荐。
+CRIPAC-DIG/DGCF 动态图协同过滤算法，利用动态图来同时捕捉用户和商品之间的协同和序列关系的框架。提出三种更新机制： 零阶继承，一阶传播，二阶聚合，来表示新的交互发生时，该交互对用户或者商品的影响。基于这三种机制，交互发生时同时更新用户和商品的embedding，并且利用最新的embedding来给出推荐。
 
 QYQ-bot/CLEA 运用对比学习解决购物篮推荐场景。（下一个购物篮推荐，也就是根据用户的历史购物篮序列，来推荐用户在下一次可能购买的商品集合。）
 
@@ -1278,7 +1322,7 @@ NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双边分支网络作�
 
 https://github.com/xidongbo/AITM 自适应信息传输多任务 (AITM) 框架的 TensorFlow 实现。 提交给 KDD21 的论文代码：使用多任务学习为客户获取建模受众多步转换之间的顺序依赖性。应用场景：联名卡获客，从曝光（Impression）、点击（Click）、申请（Application）、核卡（Approval）、激活（Activation）。另外，使用公开的[Ali-CCP阿里巴巴点击和转化预测数据集](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408)。[pytorch实现](https://github.com/adtalos/AITM-torch)
 
-[https://github.com/newlei/LR-GCCF](https://github.com/newlei/LR-GCCF) 重温基于图的协同过滤：一种线性残差图卷积网络方法，AAAI2020 本文提出了一种使用非线性特征传播和残差结构的GCN网络LR-GCCF用于基于CF的推荐系统，在模型表型上和时间效率上有了一定的提高。
+[newlei/LR-GCCF](https://github.com/newlei/LR-GCCF) 重温基于图的协同过滤：一种线性残差图卷积网络方法，AAAI2020 本文提出了一种使用非线性特征传播和残差结构的GCN网络LR-GCCF用于基于CF的推荐系统，在模型表型上和时间效率上有了一定的提高。
 
 [wangzhegeek/EGES](https://github.com/wangzhegeek/EGES) 阿里巴巴论文的实施：阿里巴巴[电子商务推荐的十亿级商品嵌入](https://arxiv.org/abs/1803.02349)
 
@@ -1294,21 +1338,13 @@ https://github.com/xidongbo/AITM 自适应信息传输多任务 (AITM) 框架的
 
 [maenzhier/GRecX](https://github.com/maenzhier/GRecX) 基于 GNN 的推荐的高效统一基准。
 
-[AmazingDD/daisyRec](https://github.com/AmazingDD/daisyRec) 在 pytorch 中开发的推荐系统。算法：KNN、LFM、SLIM、NeuMF、FM、DeepFM、VAE 等，旨在公平比较推荐系统基准
-
-[https://github.com/wubinzzu/NeuRec](https://github.com/wubinzzu/NeuRec) NeuRec是一个全面且灵活的 Python 库，用于推荐系统，其中包括大量最先进的神经推荐模型。该库旨在解决一般、社交和顺序（即下一项）推荐任务，使用Tensorflow库提供 33 个开箱即用的模型。NeuRec 是开源的，在MIT 许可下可用。
-
-[guoguibing/librec](https://github.com/guoguibing/librec) 一个用于推荐系统的 Java 库（需要 Java 版本 1.7 或更高版本）。它实现了一套最先进的推荐算法，旨在解决两个经典的推荐任务：**评分预测**和**项目排名**。
-
-[facebookresearch/torchrec](https://github.com/facebookresearch/torchrec) 推荐系统的 Pytorch库,旨在提供大型推荐系统 (RecSys) 所需的通用稀疏性和并行性原语。它允许作者使用跨多个 GPU 分片的大型嵌入表来训练模型。
-
-[huawei-noah/FuxiCTR](https://github.com/huawei-noah/benchmark/tree/main/FuxiCTR) FuxiCTR 为 CTR 预测提供了一个开源库，在可配置性、可调整性和可重复性方面具有惊人的功能。模型包括：LR  FM  CCPM  FFM  YoutubeDNN  Wide&Deep  IPNN  DeepCross  HOFM  DeepFM  NFM  AFM  DCN  FwFM  xDeepFM  DIN  FiGNN  AutoInt/AutoInt+  FiBiNET  FGCNN HFM/HFM+ ONN AFN/AFN+ LorentzFM FLEN FmFM
-
 [RUCAIBox/Awesome-Privacy-Preserving-RS-Paper](https://github.com/RUCAIBox/Awesome-Privacy-Preserving-RS-Paper) 本知识库收集了 2018 年后隐私保护推荐系统的最新研究进展。
 
 [github.com/THUDM/ComiRec](https://github.com/THUDM/ComiRec) KDD 2020 论文《Controllable Multi-Interest Framework for Recommendation》的源代码和数据集 可控的多兴趣推荐框架
 
 [microsoft/tutel](https://github.com/microsoft/tutel) Tutel MoE：优化的专家组合实施
+
+[Jhy1993/Awesome-GNN-Recommendation](https://github.com/Jhy1993/Awesome-GNN-Recommendation) GNN-推荐相关资源
 
 # 金融股票与时间序列
 
@@ -1570,6 +1606,10 @@ sjtu-marl/malib 专门面向 基于种群的多智能体深度强化学习 PB-MA
 
 [https://github.com/XinJingHao/RL-Algorithms-by-Pytorch](https://github.com/XinJingHao/RL-Algorithms-by-Pytorch) Pytorch 对强化学习算法的干净和健壮的实现。 已完成了Q-learning，DQN，DDQN，PPO 离散，PPO 连续，TD3，SAC 连续。
 
+[kakaoenterprise/JORLDY](https://github.com/kakaoenterprise/JORLDY)  开源强化学习框架 JORLDY 的存储库, 提供 20 多种 RL 算法和各种 RL 环境,算法和环境可定制,可以添加新的算法和环境,使用ray提供分布式 RL 算法,算法的基准测试是在许多 RL 环境中进行的
+
+[jiupinjia/rocket-recycling](https://github.com/jiupinjia/rocket-recycling) 基于强化学习的SpaceX火箭回收
+
 # 语音识别与合成
 
 espnet/espnet  End-to-End Speech Processing Toolkit 端到端的语音处理工具箱，主要特性：kaldi风格的处理模式、ASR、TTS、语音翻译、机器翻译、语音转换、DNN框架
@@ -1696,7 +1736,7 @@ babysor/MockingBird AI拟声: 5秒内克隆您的声音并生成任意语音内�
 
 ## 药物-靶标 药物-药物 化合物-蛋白质 相互作用
 
-* kexinhuang12345/DeepPurpose 一个基于PyTorch的工具包来解锁50多个用于药物-靶标相互作用（Drug-Target Interaction）预测的模型。DTI预测是新药研发中的一项基本任务。DeepPurpose的操作模式是像scikit-learn一样。只需几行代码，就可以利用最前沿的深度学习和药物研发模型。DeepPurpose还有一个简单的界面来做DTI预测的两个重要应用：虚拟筛选（Virtual Screening）和旧药新用（Drug Repurposing）。
+* kexinhuang12345/DeepPurpose 基于PyTorch来解锁50多个用于药物-靶标相互作用（Drug-Target Interaction）预测的模型。DTI预测是新药研发中的一项基本任务。DeepPurpose的操作模式是像scikit-learn一样。只需几行代码，就可以利用最前沿的深度学习和药物研发模型。DeepPurpose还有一个简单的界面来做DTI预测的两个重要应用：虚拟筛选（Virtual Screening）和旧药新用（Drug Repurposing）。
 * ETHmodlab/molgrad 通过将积分梯度可解释人工智能（XAI）方法应用于图神经网络模型，提高了理性分子设计的建模透明度，并基于四个药理学相关ADME终点的实验，验证了所提出的方法能够突出与已知药效团基序一致的分子特征和结构元素，正确识别性质断崖，并提供了对非特异性配体-靶标相互作用的见解。
 * thinng/GraphDTA 使用图神经网络预测药物-靶标的结合亲和力
 * isjakewong/MIRACLE 多视图图对比表示学习用于药物药物相互作用预测
@@ -2215,39 +2255,63 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 # 硬件
 
-mit-pdos/xv6-riscv xv6 是丹尼斯 · 里奇和肯 · 汤普森的Unix 版本 6 （v6）的重新实现。 xv6 松散地遵循 v6 的结构和风格，但使用 ANSI C 为现代 RISC-V 多处理器实施。
+## RISC-V CPU
+
+* OpenXiangShan/XiangShan 开源高性能 RISC-V 处理器
+
+* SI-RISCV/e200_opensource 蜂鸟 E203 开源处理器核心
+
+* Lichee-Pi/Tang_E203_Mini LicheeTang 蜂鸟E203 Core
+
+* [GitHub - riscv-mcu/e203_hbirdv2: The Ultra-Low Power RISC-V Core](https://github.com/riscv-mcu/e203_hbirdv2) 开源 Hummingbirdv2 E203 RISC-V 处理器内核和 SoC 项目，它由中国大陆领先的 RISC-V IP 和解决方案公司Nuclei System Technology开发和开源。
+
+* mit-pdos/xv6-riscv xv6 是丹尼斯 · 里奇和肯 · 汤普森的Unix 版本 6 （v6）的重新实现。 xv6 松散地遵循 v6 的结构和风格，但使用 ANSI C 为现代 RISC-V 多处理器实施。
+
+* plctlab/writing-your-first-riscv-simulator 《从零开始的RISC-V模拟器开发》配套的PPT和教学资料
+
+* cccriscv/mini-riscv-os 从零开始为 RISC-V 构建最小的多任务操作系统内核
+
+* plctlab/riscv-operating-system-mooc 《从头写一个RISC-V OS》课程配套的资源
+
+* darklife/darkriscv 一个晚上从零开始在 Verilog 实现 RISC-V cpu
+
+* ultraembedded/riscv RISC-V CPU 核心 （RV32IM）
+
+* ultraembedded/biriscv 32 位超级RISC-V Cpu
+
+* liuqidev/8-bits-RISC-CPU-Verilog 基于有限状态机的8位RISC（精简指令集）CPU（中央处理器）简单结构和Verilog实现。
+
+* litex-hub/linux-on-litex-vexriscv 使用 VexRiscv CPU 运行 Linux，这是一种 32 位的 Linux 功能 RISC-V CPU。
+
+* riscv2os/riscv2os 手把手帶你學習 RISC-V 到可以自製 RISC-V 處理器上的作業系統的電子書。
+
+* sgmarz/osblog 在 Rust 中编写 RISC-V 操作系统
+
+* [SpinalHDL/VexRiscv](https://github.com/SpinalHDL/VexRiscv) FPGA 友好的 32 位 RISC-V CPU 实现
+
+* [chipsalliance/rocket-chip](https://github.com/chipsalliance/rocket-chip) 实例化 RISC-V Rocket Core 所需的 Rocket 芯片生成器。
+
+* [riscv-boom/riscv-boom](https://github.com/riscv-boom/riscv-boom) 伯克利乱序 RISC-V 处理器.一个可合成和可参数化的开源 RV64GC RISC-V 内核，用[Chisel](https://chisel.eecs.berkeley.edu/)硬件构造语言编写。其重点是为研究创建一个高性能、可综合和可参数化的核心。当前版本的 BOOM 微架构（[SonicBOOM，或 BOOMv3](https://carrv.github.io/2020/papers/CARRV2020_paper_15_Zhao.pdf)）与商用高性能无序内核具有竞争力，达到 6.2 CoreMarks/MHz。
+
+* [ucb-bar/chipyard](https://github.com/ucb-bar/chipyard) 具有有序内核、无序内核、加速器等的敏捷 RISC-V SoC 设计框架
+
+* [ucb-bar/riscv-sodor](https://github.com/ucb-bar/riscv-sodor) risc-v isa 的教育微架构
+
+* [pulp-platform/pulpino](https://github.com/pulp-platform/pulpino) 基于RISC-V的开源微控制器系统 于苏黎世联邦理工学院开发的 32 位 RISC-V 内核。可配置为使用 RISCY 或零风险内核。
+
+* [riscv-software-src/riscv-tools](https://github.com/riscv-software-src/riscv-tools) RISC-V 工具（ISA 模拟器和测试）
+
+* [YosysHQ/picorv32](https://github.com/YosysHQ/picorv32) 尺寸优化的 RISC-V CPU.实现[RISC-V RV32IMC 指令集](http://riscv.org/)的 CPU 内核。它可以配置为 RV32E、RV32I、RV32IC、RV32IM 或 RV32IMC 内核，并可选择包含内置中断控制器。
+
+* [liangkangnan/tinyriscv](https://gitee.com/liangkangnan/tinyriscv) 一个从零开始写的极简、非常易懂的RISC-V处理器核。
+
+* [ucb-bar/riscv-mini](https://github.com/ucb-bar/riscv-mini) Chisel 编写的简单 3 级流水线 RISC-V
 
 plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
 
-plctlab/writing-your-first-riscv-simulator  《从零开始的RISC-V模拟器开发》配套的PPT和教学资料 
-
-cccriscv/mini-riscv-os 从零开始为 RISC-V 构建最小的多任务操作系统内核
-
-plctlab/riscv-operating-system-mooc  《从头写一个RISC-V OS》课程配套的资源 
-
-darklife/darkriscv 一个晚上从零开始在 Verilog 实现 RISC-V cpu
-
-ultraembedded/riscv  RISC-V CPU 核心 （RV32IM）
-
-OpenXiangShan/XiangShan 开源高性能 RISC-V 处理器
-
-SI-RISCV/e200_opensource 蜂鸟 E203 开源处理器核心
-
 Lichee-Pi/Tang_FPGA_Examples LicheeTang FPGA例程
 
-ultraembedded/biriscv 32 位超级RISC-V Cpu
-
-liuqidev/8-bits-RISC-CPU-Verilog 基于有限状态机的8位RISC（精简指令集）CPU（中央处理器）简单结构和Verilog实现。 
-
-Lichee-Pi/Tang_E203_Mini  LicheeTang 蜂鸟E203 Core 
-
-litex-hub/linux-on-litex-vexriscv 使用 VexRiscv CPU 运行 Linux，这是一种 32 位的 Linux 功能 RISC-V CPU。
-
-riscv2os/riscv2os 手把手帶你學習 RISC-V 到可以自製 RISC-V 處理器上的作業系統的電子書。
-
 nf9/police_light Lichee Tang板实现警灯
-
-sgmarz/osblog 在 Rust 中编写 RISC-V 操作系统
 
 danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 
@@ -2259,7 +2323,7 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 
 [avakar/usbcorev](https://github.com/avakar/usbcorev) 用 Verilog 编写的全速设备端 USB 外设内核。
 
-[https://github.com/Kevincoooool/ESP_MASTER](https://github.com/Kevincoooool/ESP_MASTER) ESP32-CAM 带 LVGL 语音/人脸识别红外控制
+[Kevincoooool/ESP_MASTER](https://github.com/Kevincoooool/ESP_MASTER) ESP32-CAM 带 LVGL 语音/人脸识别红外控制
 
 [FASTSHIFT/WatchX](https://github.com/FASTSHIFT/WatchX) 开源智能手表, 高质量流畅(60FPS+)的动画效果, 易于扩展的系统框架.
 
@@ -2278,26 +2342,6 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 [MiSTer-devel/Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer) MiSTer是一个开放项目，旨在使用现代硬件重新创建各种经典计算机、游戏机和街机。它允许软件和游戏图像像在原始硬件上一样运行，使用鼠标、键盘、游戏杆和其他游戏控制器等外围设备。
 
 [revoxhere/duino-coin](https://github.com/revoxhere/duino-coin) 一种几乎可以用任何东西开采的硬币，包括 Arduino 板。
-
-[SpinalHDL/VexRiscv](https://github.com/SpinalHDL/VexRiscv) FPGA 友好的 32 位 RISC-V CPU 实现
-
-[https://github.com/riscv-mcu/e203_hbirdv2](https://github.com/riscv-mcu/e203_hbirdv2) 开源 Hummingbirdv2 E203 RISC-V 处理器内核和 SoC 项目，它由中国大陆领先的 RISC-V IP 和解决方案公司Nuclei System Technology开发和开源。
-
-[chipsalliance/rocket-chip](https://github.com/chipsalliance/rocket-chip) 实例化 RISC-V Rocket Core 所需的 Rocket 芯片生成器。
-
-[riscv-boom/riscv-boom](https://github.com/riscv-boom/riscv-boom) 伯克利乱序 RISC-V 处理器.一个可合成和可参数化的开源 RV64GC RISC-V 内核，用[Chisel](https://chisel.eecs.berkeley.edu/)硬件构造语言编写。其重点是为研究创建一个高性能、可综合和可参数化的核心。当前版本的 BOOM 微架构（[SonicBOOM，或 BOOMv3](https://carrv.github.io/2020/papers/CARRV2020_paper_15_Zhao.pdf)）与商用高性能无序内核具有竞争力，达到 6.2 CoreMarks/MHz。
-
-[ucb-bar/chipyard](https://github.com/ucb-bar/chipyard) 具有有序内核、无序内核、加速器等的敏捷 RISC-V SoC 设计框架
-
-[ucb-bar/riscv-sodor](https://github.com/ucb-bar/riscv-sodor) risc-v isa 的教育微架构
-
-[pulp-platform/pulpino](https://github.com/pulp-platform/pulpino) 基于RISC-V的开源微控制器系统 于苏黎世联邦理工学院开发的 32 位 RISC-V 内核。可配置为使用 RISCY 或零风险内核。
-
-[riscv-software-src/riscv-tools](https://github.com/riscv-software-src/riscv-tools) RISC-V 工具（ISA 模拟器和测试）
-
-[YosysHQ/picorv32](https://github.com/YosysHQ/picorv32) 尺寸优化的 RISC-V CPU.实现[RISC-V RV32IMC 指令集](http://riscv.org/)的 CPU 内核。它可以配置为 RV32E、RV32I、RV32IC、RV32IM 或 RV32IMC 内核，并可选择包含内置中断控制器。
-
-[liangkangnan/tinyriscv](https://gitee.com/liangkangnan/tinyriscv)  一个从零开始写的极简、非常易懂的RISC-V处理器核。
 
 # 网络
 
