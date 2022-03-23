@@ -740,30 +740,57 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
 ## BERT优化
 
 * google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
+
 * google-research/ALBERT 用于语言表达自我监督学习的Lite BERT
+
 * bojone/bert-of-theseus BERT 模型压缩方法 ,theseus(忒修斯之船 如果忒修斯的船上的木头被  逐渐替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？),将原始大模型切分为多个大模块，固定大模型权重，训练时随机替换为小模块,充分训练后，将小模型继续微调。
+
 * brightmart/albert_zh 使用TensorFlow 进行自我监督学习语言表示的Lite Bert的实现预训练的汉语模型
+
 * bert4keras 更清晰、更轻量级的keras版bert
+
 * huawei-noah/Pretrained-Language-Model 华为诺亚方舟实验室开发的预训练语言模型及其相关优化技术NEZHA是一种经过预训练的中文语言模型，可以在多项中文NLP任务上实现最先进的性能TinyBERT是一种压缩的BERT模型，推理时可缩小7.5倍，加快9.4倍
+
 * Lisennlp/TinyBert 基于华为的TinyBert进行修改的，简化了数据读取的过程，方便我们利用自己的数据进行读取操作。
+
 * epfml/collaborative-attention 整合多头注意力,任何经过预训练的注意力层重新配置为协作注意力层。
+
+* ZhuiyiTechnology/WoBERT 以词为基本单位的中文BERT（Word-based BERT）
+
+* autoliuweijie/FastBERT FastBERT：具有自适应推断时间的自蒸馏BERT pip install fastbert
+
+* alexa/bort 论文 Optimal Subarchitecture Extraction for BERT. “ BERT的最佳子体系结构提取”的代码。Bort是用于BERT架构的最佳子集，它是通过对神经架构搜索应用完全多项式时间近似方案（FPTAS）提取的。 Bort的有效（即不计算嵌入层）大小是原始BERT大型体系结构的5.5％，是净大小的16％。它在CPU上也比基于BERT的速度快7.9倍，并且比体系结构的其他压缩变体和某些非压缩变体性能更好。与多个公共自然语言理解（NLU）基准上的BERT-large相比，它的平均性能提高了0.3％至31％。
+
+* ymcui/MacBERT MacBERT是经过改进的BERT，具有新颖的MLM作为校正预训练任务，从而减轻了预训练和微调的差异。
+
+* valuesimplex/FinBERT 基于 BERT 架构的金融领域预训练语言模型
+
+* yitu-opensource/ConvBert ConvBERT，通过全新的注意力模块，仅用 1/10 的训练时间和 1/6 的参数就获得了跟 BERT 模型一样的精度。依图研发团队从模型结构本身的冗余出发，提出了一种基于跨度的动态卷积操作，并基于此提出了 ConvBERT 模型。
+
+* wtma/CharBERT 字符敏感的预训练语言模型 通过结合字符级别和词级别的信息实现了更为全面的输入编码，同时，结合 RNN 和 CNN 的优势，基本上 CNN，RNN，Transformer 都使用上了，体现了新老研究成果的结合在一定程度上能进一步提升方法的性能。
+
+* Sleepychord/CogLTX 将BERT应用于长文本 CogLTX 遵循一种特别简单直观的范式，即 抽取关键的句子 => 通过 BERT 得到答案 这样的两步流程。
+
+* ShannonAI/service-streamer 服务流媒体BERT服务,每秒处理1400个句子的BERT服务.
+
+* DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding 双重 BERT 模型的解耦上下文编码框架
+
+* shawroad/NLP_pytorch_project/Text_Ranking/DC_Bert_Ranking/
+
+* Sleepychord/CogLTX 可将当前类似BERT的预训练语言模型应用于长文本。使用动态规划算法将长文本划分为文本块集合；使用MemRecall对原长句中的子句进行打分：从而选择出分数最高的子句组成 再进行训练，这样一来的话，COGLTX相当于使用了了两个bert，MemRecall中bert就是负责打分，另一个bert执行原本的NLP任务。
+
+* bojone/BERT-whitening 简单的线性变换（白化）操作，就可以达到BERT-flow的效果。自定义全局池化
+
 * thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果 
+  
   * 1) 对于抽取并编码的知识信息，研究者首先识别文本中的命名实体，然后将这些提到的实体与知识图谱中的实体进行匹配。研究者并不直接使用 KG 中基于图的事实，相反他们通过知识嵌入算法（例如 TransE）编码 KG 的图结构，并将多信息实体嵌入作为 ERNIE 的输入。基于文本和知识图谱的对齐，ERNIE 将知识模块的实体表征整合到语义模块的隐藏层中。
-  * 2) 与 BERT 类似，研究者采用了带 Mask 的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对齐了输入文本的命名实体，并要求模型从知识图谱中选择合适的实体以完成对齐。
-  * ZhuiyiTechnology/WoBERT 以词为基本单位的中文BERT（Word-based BERT）
-  * autoliuweijie/FastBERT FastBERT：具有自适应推断时间的自蒸馏BERT pip install fastbert
-  * alexa/bort 论文 Optimal Subarchitecture Extraction for BERT. “ BERT的最佳子体系结构提取”的代码。Bort是用于BERT架构的最佳子集，它是通过对神经架构搜索应用完全多项式时间近似方案（FPTAS）提取的。 Bort的有效（即不计算嵌入层）大小是原始BERT大型体系结构的5.5％，是净大小的16％。它在CPU上也比基于BERT的速度快7.9倍，并且比体系结构的其他压缩变体和某些非压缩变体性能更好。与多个公共自然语言理解（NLU）基准上的BERT-large相比，它的平均性能提高了0.3％至31％。
-  * ymcui/MacBERT MacBERT是经过改进的BERT，具有新颖的MLM作为校正预训练任务，从而减轻了预训练和微调的差异。
-  * valuesimplex/FinBERT 基于 BERT 架构的金融领域预训练语言模型
-  * yitu-opensource/ConvBert ConvBERT，通过全新的注意力模块，仅用 1/10 的训练时间和 1/6 的参数就获得了跟 BERT 模型一样的精度。依图研发团队从模型结构本身的冗余出发，提出了一种基于跨度的动态卷积操作，并基于此提出了 ConvBERT 模型。
-  * wtma/CharBERT 字符敏感的预训练语言模型 通过结合字符级别和词级别的信息实现了更为全面的输入编码，同时，结合 RNN 和 CNN 的优势，基本上 CNN，RNN，Transformer 都使用上了，体现了新老研究成果的结合在一定程度上能进一步提升方法的性能。
-  * Sleepychord/CogLTX 将BERT应用于长文本 CogLTX 遵循一种特别简单直观的范式，即 抽取关键的句子 => 通过 BERT 得到答案 这样的两步流程。
-  * ShannonAI/service-streamer 服务流媒体BERT服务,每秒处理1400个句子的BERT服务.
-  * DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding 双重 BERT 模型的解耦上下文编码框架 shawroad/NLP_pytorch_project/Text_Ranking/DC_Bert_Ranking/
-  * Sleepychord/CogLTX 可将当前类似BERT的预训练语言模型应用于长文本。使用动态规划算法将长文本划分为文本块集合；使用MemRecall对原长句中的子句进行打分：从而选择出分数最高的子句组成  再进行训练，这样一来的话，COGLTX相当于使用了了两个bert，MemRecall中bert就是负责打分，另一个bert执行原本的NLP任务。
-  * bojone/BERT-whitening  简单的线性变换（白化）操作，就可以达到BERT-flow的效果。自定义全局池化
-  * alibaba/AliceMind/tree/main/LatticeBERT Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models  利用多粒度的词格信息（word lattice），相对字级别的模型取得了性能提升。
-  * ShannonAI/ChineseBert 融合字形与拼音信息的中文Bert预训练模型
+  * 2) 与 BERT 类似，研究者采用了带 Mask 的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对
+
+* ShannonAI/ChineseBert 融合字形与拼音信息的中文Bert预训练模型
+
+* alibaba/AliceMind/tree/main/LatticeBERT Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models 利用多粒度的词格信息（word lattice），相对字级别的模型取得了性能提升。
+
+* [ymcui/MacBERT](https://github.com/ymcui/MacBERT) MacBERT是一种改进的BERT，具有新颖的M LM校正预训练任务，它减轻了预训练和微调的差异。我们建议使用类似的词来进行掩蔽，而不是使用在微调阶段从未出现过的 [MASK] 令牌进行掩蔽。通过使用基于 word2vec (Mikolov et al., 2013) 相似度计算的Synonyms 工具包 (Wang and Hu, 2017)获得相似词。如果选择 N-gram 进行掩码，我们将单独找到相似的单词。在极少数情况下，当没有相似词时，我们会降级为使用随机词替换。
 
 ## 预训练模型
 
@@ -1001,6 +1028,7 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
   来自 PTT 论坛的歌词，witter_en 来自 twitter 的语料库（700k 行），twitter_en big更大尺寸的 twitter 语料库（5M 行）
 * [rkadlec/ubuntu-ranking-dataset-creator](https://github.com/rkadlec/ubuntu-ranking-dataset-creator) 从 Ubuntu 语料库对话框中为排名任务创建训练、有效和测试数据集的脚本。
 * [https://github.com/codemayq/chinese_chatbot_corpus](https://github.com/codemayq/chinese_chatbot_corpus) 该库是对目前市面上已有的开源中文聊天语料的搜集和系统化整理工作。包含chatterbot、豆瓣多轮、PTT八卦语料、青云语料、电视剧对白语料、贴吧论坛回帖语料、微博语料、小黄鸡语料，共8个公开闲聊常用语料和短信，白鹭时代问答等语料。
+* [https://github.com/NiuTrans/Classical-Modern](https://github.com/NiuTrans/Classical-Modern) 非常全的文言文（古文）-现代文平行语料
 
 ## 关系抽取、信息抽取
 
@@ -1208,6 +1236,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 * [huawei-noah/FuxiCTR](https://github.com/huawei-noah/benchmark/tree/main/FuxiCTR) FuxiCTR 为 CTR 预测提供了一个开源库，在可配置性、可调整性和可重复性方面具有惊人的功能。模型包括：LR FM CCPM FFM YoutubeDNN Wide&Deep IPNN DeepCross HOFM DeepFM NFM AFM DCN FwFM xDeepFM DIN FiGNN AutoInt/AutoInt+ FiBiNET FGCNN HFM/HFM+ ONN AFN/AFN+ LorentzFM FLEN FmFM
 
 * [openbenchmark/BARS](https://github.com/openbenchmark/BARS) 迈向推荐系统的开放基准测试。 BARS 基准目前涵盖以下两项任务:点击率预测\候选项目匹配
+
+* [PersiaML/PERSIA](https://github.com/persiaml/persia) 基于 PyTorch 训练深度学习推荐模型的高性能分布式框架。它能够训练具有多达 100 万亿个参数的推荐模型。对公共数据集的实证研究表明，PERSIA 在推荐方面优于其他系统。它的效率和稳健性也得到了快手1亿级DAU的多个应用程序的验证。
 
 imsheridan/DeepRec 推荐、广告工业界经典以及最前沿的论文、资料集合
 
@@ -1600,15 +1630,18 @@ sjtu-marl/malib 专门面向 基于种群的多智能体深度强化学习 PB-MA
 
 [SunQingYun1996/Graph-Reinforcement-Learning-Papers](https://github.com/SunQingYun1996/Graph-Reinforcement-Learning-Papers) 图强化学习论文的精选列表。
 
-[https://github.com/sail-sg/envpool](https://github.com/sail-sg/envpool) 用于通用 RL 环境的基于 C++ 的高性能并行环境执行引擎（矢量化环境）。
+[sail-sg/envpool](https://github.com/sail-sg/envpool) 用于通用 RL 环境的基于 C++ 的高性能并行环境执行引擎（矢量化环境）。
 
-[https://github.com/YeWR/EfficientZero](https://github.com/YeWR/EfficientZero) 一种采样高效的强化学习算法.基于MuZero的一种算法。该类算法同属于蒙特卡洛树搜索（MCTS）强化学习。
+[YeWR/EfficientZero](https://github.com/YeWR/EfficientZero) 一种采样高效的强化学习算法.基于MuZero的一种算法。该类算法同属于蒙特卡洛树搜索（MCTS）强化学习。
 
-[https://github.com/XinJingHao/RL-Algorithms-by-Pytorch](https://github.com/XinJingHao/RL-Algorithms-by-Pytorch) Pytorch 对强化学习算法的干净和健壮的实现。 已完成了Q-learning，DQN，DDQN，PPO 离散，PPO 连续，TD3，SAC 连续。
+[XinJingHao/RL-Algorithms-by-Pytorch](https://github.com/XinJingHao/RL-Algorithms-by-Pytorch) Pytorch 对强化学习算法的干净和健壮的实现。 已完成了Q-learning，DQN，DDQN，PPO 离散，PPO 连续，TD3，SAC 连续。
 
 [kakaoenterprise/JORLDY](https://github.com/kakaoenterprise/JORLDY)  开源强化学习框架 JORLDY 的存储库, 提供 20 多种 RL 算法和各种 RL 环境,算法和环境可定制,可以添加新的算法和环境,使用ray提供分布式 RL 算法,算法的基准测试是在许多 RL 环境中进行的
 
 [jiupinjia/rocket-recycling](https://github.com/jiupinjia/rocket-recycling) 基于强化学习的SpaceX火箭回收
+
+[p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch) 深度强化学习算法和环境的 PyTorch 实现。实现的算法：深度 Q 学习 (DQN) ( Mnih et al. 2013 )
+具有固定 Q 目标的 DQN ( Mnih et al. 2013 )、双 DQN (DDQN) ( Hado van Hasselt et al. 2015 )、具有优先体验重放的DDQN ( Schaul et al. 2016 )、Dueling DDQN (Wang et al. 2016)、REINFORCE 加强 （Williams et al. 1992）、深度确定性策略梯度 (DDPG) ( Lillicrap et al. 2016 )、双延迟深度确定性策略梯度 (TD3) ( Fujimoto et al. 2018 )、软演员-评论家 (SAC) ( Haarnoja et al. 2018 )、离散动作的软演员-评论家 (SAC-Discrete) ( Christodoulou 2019 )、Asynchronous Advantage Actor Critic (A3C) ( Mnih et al. 2016 )、同步优势演员评论家 (A2C)、近端策略优化 (PPO) ( Schulman et al. 2017 )、具有事后经验重放的 DQN (DQN-HER) ( Andrychowicz et al. 2018 )、具有事后经验重放的 DDPG (DDPG-HER) ( Andrychowicz et al. 2018 )、分层 DQN (h-DQN) ( Kulkarni et al. 2016 )、用于分层强化学习 (SNN-HRL) 的随机神经网络 ( Florensa et al. 2017 )、多样性就是你所需要的 (DIAYN) ( Eyensbach et al. 2018 )。所有实现都能够快速解决 Cart Pole（离散动作）、Mountain Car Continuous（连续动作）、Bit Flipping（具有动态目标的离散动作）或 Fetch Reach（具有动态目标的连续动作）。我计划很快添加更多的分层 RL 算法。
 
 # 语音识别与合成
 
@@ -1783,6 +1816,8 @@ babysor/MockingBird AI拟声: 5秒内克隆您的声音并生成任意语音内�
 * [smiles724/Molformer](https://github.com/smiles724/Molformer)  Molformer（以前称为 3D-Transformer）的存储库，它在许多分子表示学习问题中实现了最先进的技术。
 * [gasteigerjo/dimenet](https://github.com/gasteigerjo/dimenet) DimeNet 和 DimeNet++ 模型，如“分子图的定向消息传递”（ICLR 2020）和“非平衡分子的快速和不确定性感知定向消息传递”（NeurIPS-W 2020）中提出的
 * [LiteGEM/kddcup2021-PCQM4M-LSC](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/competition/kddcup2021-PCQM4M-LSC) LiteGEM：KDD Cup 2021 PCQM4M-LSC解决方案. PCQM4M-LSC是量子化学数据集，其任务是预测给定分子的重要分子特性，即HOMO-LUMO间隙(图形回归)。即一个分子图的量子特性回归数据集，它包含了3,803,453个图。它基于PubChemQC项目的归纳式图回归数据集。它包含约400万以SMILES串描述的小分子。它的目的是加速量子化学计算，尤其是预测每个分子的HOMO-LUMO轨道距离。HOMO-LUMO距离是量子化学中最重要的属性之一，因为他和分子的反应性、光激励、电荷输送有关。每个分子的真实标签是通过昂贵的DFT计算得到，每个分子需要计算几个小时。普遍认为，在足够的训练数据支持下，类似GNN的基于分子图网络的机器学习模型，可以以很小代价得到近似DFT的结果。这些分子根据他们的PubChem ID按照8：1：1划分作为训练、验证、测试数据集。
+* [https://github.com/deepmind/deepmind-research/tree/master/ogb_lsc/pcq](https://github.com/deepmind/deepmind-research/tree/master/ogb_lsc/pcq) DeepMind 进入OGB大规模挑战赛(OGB-LSC) 的PCQM4M-LSC（量子化学）轨道的条目 。通过汇集 20 个模型（10 倍 x 2 个种子）的集合来实现的。
+* [divelab/MoleculeX](https://github.com/divelab/MoleculeX) 用于分子探索的全新且快速发展的机器学习方法和软件工具。MoleculeX 的最终目标是实现各种基本和复杂的分子建模任务，例如分子性质预测、3D 几何建模等。目前，包括一套机器学习方法，用于基态 3D 分子几何预测和分子属性预测。具体来说，BasicProp包括基于图神经网络的基本监督学习方法，用于分子特性预测。BasicProp适用于有大量标记样本可用的任务，因此只需要监督学习。BasicProp已用于参与2021年OGB-LSC是获胜者之一。当只有少量标记样本可用时，AdvProp包括用于分子特性预测的机器学习方法，因此需要自我监督学习来实现理想的性能。此外，AdvProp能够处理来自不同类别的样本高度不平衡的任务。在这些情况下，我们采用先进的损失函数来优化曲线下的各个区域 (AUC)。AdvProp已被用于参与COVID-19 的 AI 治愈公开挑战赛排名第一。此外，Molecule3D提供了一套软件工具来处理我们提出的 Molecule3D 数据集，这是一种专门为基态 3D 分子几何预测而设计的新型数据集。它还包括几种几何预测的基线方法，以及使用预测的 3D 几何作为输入的量子特性预测方法。目前，MoleculeX 的 pip 包只包含 Molecule3D 模块的代码。我们将在未来逐步包含其他模块。
 * [divelab/MoleculeX](https://github.com/divelab/MoleculeX) 用于分子探索的全新且快速发展的机器学习方法和软件工具。MoleculeX 的最终目标是实现各种基本和复杂的分子建模任务，例如分子性质预测、3D 几何建模等。目前，包括一套机器学习方法，用于基态 3D 分子几何预测和分子属性预测。具体来说，BasicProp包括基于图神经网络的基本监督学习方法，用于分子特性预测。BasicProp适用于有大量标记样本可用的任务，因此只需要监督学习。BasicProp已用于参与2021年OGB-LSC是获胜者之一。当只有少量标记样本可用时，AdvProp包括用于分子特性预测的机器学习方法，因此需要自我监督学习来实现理想的性能。此外，AdvProp能够处理来自不同类别的样本高度不平衡的任务。在这些情况下，我们采用先进的损失函数来优化曲线下的各个区域 (AUC)。AdvProp已被用于参与COVID-19 的 AI 治愈公开挑战赛排名第一。此外，Molecule3D提供了一套软件工具来处理我们提出的 Molecule3D 数据集，这是一种专门为基态 3D 分子几何预测而设计的新型数据集。它还包括几种几何预测的基线方法，以及使用预测的 3D 几何作为输入的量子特性预测方法。目前，MoleculeX 的 pip 包只包含 Molecule3D 模块的代码。我们将在未来逐步包含其他模块。
 
 ## 抗菌肽
@@ -2125,7 +2160,7 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [ShannonAI/OpenViDial](https://github.com/ShannonAI/OpenViDial) 一个大规模多模态对话数据集.当人类交谈时，说话者接下来会说什么很大程度上取决于他所看到的。OpenViDial 是用于此目的的大型多模块对话数据集。这些对话回合和视觉上下文是从电影和电视剧中提取的，其中每个对话回合都与它发生的相应视觉上下文配对。对于OpenViDial 1.0，共包含 110 万个对话轮次，因此图像中存储了 110 万个视觉上下文。对于OpenViDial 2.0，包含 560 万个对话轮次以及 560 万个存储在图像中的视觉上下文。基于OpenViDial，同时提出了三个模型，以不同的粒度融合视觉信息，预测下一句的对话内容。
 
-[Alibaba-MIIL/STAM](https://github.com/Alibaba-MIIL/STAM) 受NLP中Transformer成功的启发，我们尝试将一个标准Transformer直接应用到图像上，尽可能少的修改。为此，我们将图像分割成小块，并将这些块转化为线性嵌入序列，作为Transformer的输入。图像块（image patches）就相当于NLP任务中的单词（token）来做处理。并以有监督的方式训练图像分类模型。大规模的训练可以克服归纳偏置（inductive biases）。当ViT在足够的规模上进行预先训练，并迁移到具有较少数据量的任务时，可以获得出色的结果。
+[Alibaba-MIIL/STAM](https://github.com/Alibaba-MIIL/STAM) 受NLP中Transformer成功的启发，我们尝试将一个标准Transformer直接应用到图像上，尽可能少的修改。为此，我们将图像分割成小块，并将这些块转化为线性嵌入序列，作为Transformer的输入。图像块（image patches）就相当于NLP任务中的单词（token）来做处理。并以有监督的方式训练图像分类模型。大规模的训练可以克服归纳偏置（inductive biases）。当ViT在足够规模上进行预先训练，并迁移到较少数据量的任务时，可以获得出色结果。
 
 [https://github.com/openai/glide-text2im](https://github.com/openai/glide-text2im) 基于扩散的文本条件图像合成模型。以文本提示为条件的图像；填充图像的蒙版区域，以文本提示为条件；使用 GLIDE（过滤）+ 过滤噪声感知 CLIP 模型来生成以文本提示为条件的图像。
 
@@ -2144,6 +2179,10 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [jonhare/DifferentiableSketching](https://github.com/jonhare/DifferentiableSketching) 微分绘图和素描
 
 [thuiar/Self-MM](https://github.com/thuiar/Self-MM) 用于多模态情感分析的自监督多任务学习学习模态特定表示中的代码的 Pytorch 实现
+
+[nuno-faria/tiler](https://github.com/nuno-faria/tiler) Tiler 是一种使用各种其他较小图像（图块）创建图像的工具。它不同于其他马赛克工具，因为它可以适应多种形状和大小的瓷砖（即不限于正方形）。图像可以由圆圈、线条、波浪、十字绣、乐高积木、我的世界积木、回形针、字母等组成……可能性无穷无尽！
+
+[leandromoreira/ffmpeg-libav-tutorial](https://github.com/leandromoreira/ffmpeg-libav-tutorial) FFmpeg libav 教程 - 了解媒体如何从基础到转换、转码等工作
 
 # 虚拟化
 
@@ -2307,6 +2346,8 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [ucb-bar/riscv-mini](https://github.com/ucb-bar/riscv-mini) Chisel 编写的简单 3 级流水线 RISC-V
 
+* [openhwgroup/cva6](https://github.com/openhwgroup/cva6) 6 级、单期、有序 CPU，它实现了 64 位 RISC-V 指令集。它完全实现了第 I 卷中指定的 I、M、A 和 C 扩展：用户级 ISA V 2.3 以及草案权限扩展 1.10。它实现了三个特权级别 M、S、U 以完全支持类 Unix 操作系统。此外，它还符合外部调试规范草案 0.13。
+
 plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
 
 Lichee-Pi/Tang_FPGA_Examples LicheeTang FPGA例程
@@ -2343,6 +2384,8 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 
 [revoxhere/duino-coin](https://github.com/revoxhere/duino-coin) 一种几乎可以用任何东西开采的硬币，包括 Arduino 板。
 
+[eloquentarduino/EloquentTinyML](https://github.com/eloquentarduino/EloquentTinyML/) 用于微控制器的 Tensorflow Lite 的 Eloquent 接口，可在arduino上进行机器学习计算推理。
+
 # 网络
 
 [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。    
@@ -2362,6 +2405,8 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 [facert/awesome-spider](https://github.com/facert/awesome-spider) 收集各种爬虫 
 
 [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘网站、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
+
+[vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) 使用 Qt C++ 开发的B站视频、直播、漫画下载器。
 
 # 安全与渗透
 
@@ -2448,6 +2493,8 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 [timwhitez/Frog-checkCDN](https://github.com/timwhitez/Frog-checkCDN) 批量检查目标是否为cdn
 
 # 其他
+
+[ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
 
 [mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks 作为 Markdown 文档、Julia、Python 或 R 脚本
 
@@ -2564,3 +2611,5 @@ dblalock/bolt 矩阵和向量运算速度提高 10 倍
 [clouddreamteam_admin/cloud-dream](https://gitee.com/clouddreamteam_admin/cloud-dream) 微信小程序——餐饮点餐商城，是针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！
 
 [HC小区业主版: hc智慧家园小程序 ](https://gitee.com/java110/WechatOwnerService) 是 HC小区开源项目的一个分支项目，主要给业主使用，其中包括缴物业费，缴停车费，投诉建议，家庭成员维护，房屋保修 房屋出租，公告查看，小区圈等功能。
+
+[veloren/veloren](https://github.com/veloren/veloren) 用 Rust 编写的多人体素 RPG。从 Cube World、Minecraft 和 Dwarf Fortress 等游戏中汲取灵感。该游戏目前正在大力开发中，但可以玩。
