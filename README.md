@@ -90,11 +90,11 @@
 
 [luwill/machine-learning-code-writing](https://github.com/luwill/machine-learning-code-writing) luwill/machine-learning-code-writing
 
-CDCS 中国数据竞赛优胜解集锦
+[geekinglcq/CDCS](https://github.com/geekinglcq/CDCS) CDCS 中国数据竞赛优胜解集锦
 
 [mlpack/mlpack](https://github.com/mlpack/mlpack) C++ 快速、灵活的机器学习库
 
-[tensorflow/ranking](https://github.com/tensorflow/ranking)  TensorFlow中的排名学习
+[tensorflow/ranking](https://github.com/tensorflow/ranking) TensorFlow中的排名学习
 
 [scikit-survival](https://github.com/scikit-survival) 生存分析
 
@@ -110,14 +110,13 @@ CDCS 中国数据竞赛优胜解集锦
 
 [serge-sans-paille/pythran](https://github.com/serge-sans-paille/pythran) 将 Python 代码转成 C++ 代码执行 一个 AOT (Ahead-Of-Time - 预先编译) 编译器，大幅度提升性能。
 
-RAPIDS Open GPU Data Science http://rapids.ai
+[RAPIDS Open GPU Data Science](http://rapids.ai) RAPIDS 开放 GPU 数据科学库
+* cudf cuDF - GPU DataFrame Library GPU数据表库
+* cuml cuML - RAPIDS Machine Learning Library RAPIDS 机器学习库
+* cugraph cuGraph - RAPIDS Graph Analytics Library RAPIDS 图分析库
+* cusignal cuSignal - RAPIDS Signal Processing Library RAPIDS信号处理库
 
-* cudf cuDF - GPU DataFrame Library
-* cuml cuML - RAPIDS Machine Learning Library
-* cugraph cuGraph - RAPIDS Graph Analytics Library
-* cusignal cuSignal - RAPIDS Signal Processing Library
-
-[AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) 机器人算法
+[AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) 包括了机器人设计中常用的定位算法、测绘算法、路径规划算法、SLAM 、路径跟踪算法。
 
 [sql-machine-learning/sqlflow](https://github.com/sql-machine-learning/sqlflow) 连接 SQL 引擎的桥接，与机器学习工具包连接
 
@@ -149,9 +148,9 @@ RAPIDS Open GPU Data Science http://rapids.ai
 
 [Aimhubio/Aim](https://github.com/Aimhubio/Aim) 一个超级简单的记录、查找、比较AI实验的库。
 
-[microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) 跨平台深度学习训练和推理机加速器，与深度学习框架，可以兼容TensorFlow、Keras和PyTorch等多种深度学习框架。Open Neural Network Exchange)是用于表示深度学习模型的开放格式，定义了通用运算符、机器学习和深度学习模型的构建块以及通用文件格式，可将模型与各种框架工具和编译器一起使用。
+[microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) 跨平台深度学习训练和推理机加速器，与深度学习框架，可以兼容TensorFlow、Keras和PyTorch等多种深度学习框架。Open Neural Network Exchange 是用于表示深度学习模型的开放格式，定义了通用运算符、机器学习和深度学习模型的构建块以及通用文件格式，可与各种框架工具和编译器一起使用。
 
-[microsoft/hummingbird](https://github.com/microsoft/hummingbird) 将训练有素的机器学习模型编译为张量计算，以加快推理速度。 一个用于将经过训练的传统ML模型编译为张量计算的库。
+[microsoft/hummingbird](https://github.com/microsoft/hummingbird) 将训练有素的机器学习模型编译为张量计算，以加快推理速度。 用于将经过训练的传统ML模型编译为张量计算的库。
 
 [microsoft/EdgeML](https://github.com/microsoft/EdgeML) Microsoft Research India开发的边缘设备提供了机器学习算法的代码。
 
@@ -235,7 +234,7 @@ RAPIDS Open GPU Data Science http://rapids.ai
 
 [aerdem4/lofo-importance](https://github.com/aerdem4/lofo-importance) LOFO（Leave One Feature Out）重要性基于选择的度量计算一组特征的重要性，对于选择的模型，通过迭代地从集合中删除每个特征，并评估模型的性能，使用验证方案 的选择，基于所选的指标。
 
-[imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn)解决机器学习中不平衡数据集
+[imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) 解决机器学习中不平衡数据集
 
 [ResidentMario/missingno](https://github.com/ResidentMario/missingno) 灵活且易于使用的缺失数据可视化和实用程序，可让您快速直观地了解数据集的完整性（或缺乏完整性）。 
 
@@ -305,7 +304,7 @@ RAPIDS Open GPU Data Science http://rapids.ai
 
 [microsoft/LightGBM](https://github.com/microsoft/LightGBM) 基于决策树算法的快速、分布式、高性能梯度提升（GBT、GBDT、GBRT、GBM 或 MART）框架，用于排名、分类和许多其他机器学习任务。
 
-[motefly/DeepGBM](https://github.com/motefly/DeepGBM) 为在线预测任务提炼的深度学习GBDT 框架
+[motefly/DeepGBM](https://github.com/motefly/DeepGBM) 为在线预测任务提炼的深度学习GBDT框架
 
 [catboost/catboost](https://github.com/catboost/catboost) 一个快速、可扩展、高性能的决策树梯度提升库，用于 Python、R、Java、C++ 的排名、分类、回归和其他机器学习任务。 支持在 CPU 和 GPU 上进行计算。
 
@@ -347,43 +346,41 @@ https://github.com/xiaomi-automl/FairDARTS 消除差异化架构搜索中的不�
 
 ## 分布式机器学习
 
-[horovod/horovod](https://github.com/horovod/horovod) 分布式训练框架
+[horovod/horovod](https://github.com/horovod/horovod) Uber开源的分布式训练框架。它的发展吸取了Facebook "Training ImageNet In 1 Hour" 与百度 "Ring Allreduce" 的优点，可为用户实现分布式训练提供帮助。
 
-[dask/dask](https://github.com/dask/dask)  提供大规模性能 高级并行性
+[dask/dask](https://github.com/dask/dask)  用Python编写的，是一个灵活的、开源的并行计算库，提供大规模性能 高级并行性。
 
-https://github.com/Qihoo360/XLearning
+https://github.com/Qihoo360/XLearning 支持多种机器学习、深度学习框架调度系统。基于Hadoop Yarn完成了对TensorFlow、MXNet、Caffe、Theano、PyTorch、Keras、XGBoost等常用框架的集成，同时具备良好的扩展性和兼容性。
 
-https://github.com/sql-machine-learning/elasticdl
+[sql-machine-learning/elasticdl](https://github.com/sql-machine-learning/elasticdl)  Kubernetes原生的深度学习框架，支持容错和弹性调度,支持TensorFlow和PyTorch。
 
-https://github.com/kubeflow/kubeflow
+[kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) Kubeflow 是用于机器学习操作的云原生平台 - 管道、训练和部署。
 
-https://github.com/alibaba/euler
+[alibaba/euler](https://github.com/alibaba/euler) Euler-2.0是大规模分布式的图学习框架，配合TensorFlow或者阿里内部的XDL等深度学习工具，可以支持数十亿点数百亿边的复杂异构图上进行模型训练。
 
-https://github.com/Angel-ML/angel
+[Angel-ML/angel](https://github.com/Angel-ML/angel) 用于大规模机器学习的灵活而强大的参数服务器。基于参数服务器理念的高性能分布式机器学习和图计算平台。
 
-https://github.com/ray-project/ray 快速简单的框架，用于构建和运行分布式应用程序。
+[ray-project/ray](https://github.com/ray-project/ray) 提供用于构建分布式应用程序的简单通用API的开源框架。Ray与RLlib（可扩展的强化学习库和Tune（可扩展的超参数调优库）打包在一起。
 
-Alink 基于Flink的通用算法平台
+[alibaba/Alink](https://github.com/alibaba/Alink) Alink是基于Flink的机器学习算法平台，由阿里巴巴计算平台的PAI团队开发。
 
-https://github.com/kakaobrain/torchgpipe pytorch的可扩展管道并行性库，可以有效地训练大型的，消耗内存的模型。
+[kakaobrain/torchgpipe](https://github.com/kakaobrain/torchgpipe) pytorch的可扩展管道并行性库，可以有效地训练大型的，消耗内存的模型。
 
-https://github.com/tensorflow/mesh 简化模型并行化 Mesh TensorFlow: Model Parallelism Made Easier
+[tensorflow/mesh](https://github.com/tensorflow/mesh) 简化模型并行化 Mesh TensorFlow: Model Parallelism Made Easier
 
-https://github.com/microsoft/DeepSpeed 一个深度学习优化库，它使分布式训练变得容易，高效和有效。
+[microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) 一个深度学习优化库，它使分布式训练变得容易，高效和有效。
 
-https://github.com/sql-machine-learning/elasticdl Kubernetes原生的深度学习框架。ElasticDL是一个基于TensorFlow 2.0的Kubernetes原生深度学习框架，支持容错和弹性调度。
+[uber/fiber](https://github.com/uber/fiber) 简化AI的分布式计算 该项目是实验性的，API不稳定。
 
-https://github.com/uber/fiber 简化AI的分布式计算 该项目是实验性的，API不稳定。
+[petuum/adaptdl](https://github.com/petuum/adaptdl) 资源自适应深度学习（DL）训练和调度框架。AdaptDL的目标是使分布式DL在动态资源环境（如共享集群和云）中变得轻松高效。
 
-https://github.com/petuum/adaptdl 资源自适应深度学习（DL）培训和调度框架。AdaptDL的目标是使分布式DL在动态资源环境（如共享集群和云）中变得轻松高效。
-
-https://github.com/learning-at-home/hivemind 一个用于在互联网上训练大型神经网络的库
+[learning-at-home/hivemind](https://github.com/learning-at-home/hivemind) 一个用于在互联网上训练大型神经网络的库
 
 https://github.com/petuum/adaptdl 一个能动态调整并行度的深度神经网络训练框架。它支持多租户集群管理，可以平衡模型训练等待及完成时间，能够提高资源利用率。
 
-https://github.com/huggingface/accelerate 一个简单的 API，将与多 GPU 、 TPU 、 fp16 相关的样板代码抽离了出来，保持其余代码不变。PyTorch 用户无须使用不便控制和调整的抽象类或编写、维护样板代码，就可以直接上手多 GPU 或 TPU。Accelerate 支持的集成包括：CPU 单 GPU 单一节点多 GPU 多节点多 GPU TPU 带有本地 AMP 的 FP16（路线图上的顶点）
+[huggingface/accelerate](https://github.com/huggingface/accelerate) 一个简单的API，将与多GPUTPU、fp16相关的样板代码抽离了出来，保持其余代码不变。PyTorch 用户无须使用不便控制和调整的抽象类或编写、维护样板代码，就可以直接上手多 GPU 或 TPU。Accelerate 支持的集成包括：CPU 单 GPU 单一节点多 GPU 多节点多 GPU TPU 带有本地 AMP 的 FP16.
 
-https://github.com/BaguaSys/bagua 八卦是由快手科技和DS3 Lab共同开发的PyTorch深度学习训练加速框架。目前支持：高级分布式训练算法：用户只需添加几行代码（可选择弹性模式）即可将单个 GPU 上的训练扩展到多 GPU（可能跨多台机器）。
+[BaguaSys/bagua](https://github.com/BaguaSys/bagua) 八卦是由快手科技和DS3 Lab共同开发的PyTorch深度学习训练加速框架。目前支持：高级分布式训练算法：用户只需添加几行代码（可选择弹性模式）即可将单个 GPU 上的训练扩展到多 GPU（可能跨多台机器）。
 
 [facebookresearch/fairscale](https://github.com/facebookresearch/fairscale) 用于高性能和大规模训练的 PyTorch 扩展。
 
