@@ -45,71 +45,38 @@
 # 机器学习与深度学习
 
 [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)  [教程/笔记]吴恩达老师的机器学习课程个人笔记 
-
 [apachecn/AiLearning)](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
-
 [microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
-
 [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周，20 节课，全民数据科学！
-
 [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) 机器学习操作 (MLOps)，可自动执行并加速机器学习生命周期。精选的参考文献列表。
-
 [PyTorchLightning/PyTorch-lightning](https://github.com/PyTorchLightning/PyTorch-lightning) 基于Pytorch的轻量高级计算框架，相当于Keras框架。
-
 [alibaba/MNN](https://github.com/alibaba/MNN) 轻量级的深度神经网络推理引擎
-
 [Tencent/TNN](https://github.com/Tencent/TNN) 移动端高性能、轻量级推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势
-
 [microsoft/nnfusion](https://github.com/microsoft/nnfusion) 灵活高效的深度神经网络（DNN）编译器，可从DNN模型描述生成高性能的可执行文件。
-
 [apache/incubator-tvm](https://github.com/apache/incubator-tvm) 用于深度学习系统的编译器堆栈。它旨在缩小以生产力为中心的深度学习框架与以性能和效率为重点的硬件后端之间的差距。TVM与深度学习框架一起使用，以提供对不同后端的端到端编译
-
 [geohot/tinygrad](https://github.com/geohot/tinygrad) 不到1000行的深度学习框架，麻雀虽小，但五脏俱全，这个深度学习框架使用起来和PyTorch类似
-
 [karpathy/micrograd](https://github.com/karpathy/micrograd) 微型标量自动求导引擎，类似PyTorch API的神经网络库
-
 [wandb/client](https://github.com/wandb/client) Weights and Biases 组织和分析机器学习实验 它与框架无关，并且比TensorBoard轻巧。每次您运行带有的脚本时wandb，都会保存您的超参数和输出指标。在训练过程中可视化模型，并轻松比较模型的版本。我们还将自动跟踪您的代码状态，系统指标和配置参数。
-
 [NUAA-AL/ALiPy](https://github.com/NUAA-AL/ALiPy) 基于Python实现的主动学习工具包
-
 [facebookresearch/nevergrad](https://github.com/facebookresearch/nevergrad) 无梯度优化平台
-
 [yzhao062/combo](https://github.com/yzhao062/combo) 用于机器学习**模型组合**的 Python 工具箱。模型组合可以被认为是整体学习的子任务，并且已被广泛用于诸如Kaggle [3]之类的现实任务和数据科学竞赛中。
-
 [google/trax](https://github.com/google/trax) 代码更清晰的神经网络代码库
-
 [Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow) OneFlow是一个以性能为中心的开源深度学习框架。
-
 [jonasrauber/eagerpy](https://github.com/jonasrauber/eagerpy) 编写与PyTorch，TensorFlow，JAX和NumPy本地兼容的代码
-
 [rushter/MLAlgorithms](https://github.com/rushter/MLAlgorithms) 机器学习算法
-
 [MLEveryday/100-Days-Of-ML-Code](https://github.com/MLEveryday/100-Days-Of-ML-Code) 100-Days-Of-ML-Code中文版
-
 [csuldw/MachineLearning](https://github.com/csuldw/MachineLearning) csuldw/MachineLearning
-
 [luwill/machine-learning-code-writing](https://github.com/luwill/machine-learning-code-writing) luwill/machine-learning-code-writing
-
 [geekinglcq/CDCS](https://github.com/geekinglcq/CDCS) CDCS 中国数据竞赛优胜解集锦
-
 [mlpack/mlpack](https://github.com/mlpack/mlpack) C++ 快速、灵活的机器学习库
-
 [tensorflow/ranking](https://github.com/tensorflow/ranking) TensorFlow中的排名学习
-
 [scikit-survival](https://github.com/scikit-survival) 生存分析
-
 [ShichenXie/scorecardpy](https://github.com/ShichenXie/scorecardpy)  Scorecard Development in python, 评分卡
-
 [lavender28/Credit-Card-Score](https://github.com/lavender28/Credit-Card-Score) 申请信用评分卡模型
-
 [modin-project/modin](https://github.com/modin-project/modin) 通过更改一行代码来扩展加速pandas 
-
 [vaexio/vaex](https://github.com/vaexio/vaex) 适用于Python的核外DataFrame，以每秒十亿行的速度可视化和探索大型表格数据
-
 [cupy/cupy](https://github.com/cupy/cupy) 使用 CUDA 加速类似 NumPy 的 API
-
 [serge-sans-paille/pythran](https://github.com/serge-sans-paille/pythran) 将 Python 代码转成 C++ 代码执行 一个 AOT (Ahead-Of-Time - 预先编译) 编译器，大幅度提升性能。
-
 [RAPIDS Open GPU Data Science](http://rapids.ai) RAPIDS 开放 GPU 数据科学库
 * cudf cuDF - GPU DataFrame Library GPU数据表库
 * cuml cuML - RAPIDS Machine Learning Library RAPIDS 机器学习库
@@ -117,185 +84,101 @@
 * cusignal cuSignal - RAPIDS Signal Processing Library RAPIDS信号处理库
 
 [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) 包括了机器人设计中常用的定位算法、测绘算法、路径规划算法、SLAM 、路径跟踪算法。
-
 [sql-machine-learning/sqlflow](https://github.com/sql-machine-learning/sqlflow) 连接 SQL 引擎的桥接，与机器学习工具包连接
-
 [esa/pagmo2](https://github.com/esa/pagmo2) 大规模并行优化的科学库 生物启发式算法和进化算法
-
 [geatpy-dev/geatpy](https://github.com/geatpy-dev/geatpy) 高性能遗传进化算法工具箱
-
 [guofei9987/scikit-opt](https://github.com/guofei9987/scikit-opt) 强大的启发式算法Python模块  遗传算法 粒子群优化 模拟退火 蚁群算法 免疫算法 人工鱼群算法
-
 [interpretml/interpret](https://github.com/interpretml/interpret) 训练可解释的机器学习模型和解释黑匣子系统
-
 [alexmojaki/heartrate](https://github.com/alexmojaki/heartrate) 调试 Python程序执行的简单实时可视化 
-
 [bojone/keras_recompute](https://github.com/bojone/keras_recompute) 通过重计算来节省显存，参考论文《Training Deep Nets with Sublinear Memory Cost》。
-
 [yuanming-hu/taichi_mpm](https://github.com/yuanming-hu/taichi_mpm) 带有切割和耦合（CPIC）的高性能MLS-MPM（基于移动最小二乘法的物质点法）求解器
-
 [pytorch/opacus](https://github.com/pytorch/opacus) Opacus是一个库，可以使用不同的隐私训练PyTorch模型。
-
 [pycaret/pycaret](https://github.com/pycaret/pycaret) Python中的开源，低代码机器学习库
-
 [thuml/Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library) 用于迁移学习的开源且文档齐全的库。它基于具有高性能和友好API的纯PyTorch。当前支持的算法包括：领域对抗神经网络（DANN）深度适应网络（DAN）联合适应网络（JAN）条件域对抗网络（CDAN）最大分类器差异（MCD）Margin Disparity Discrepancy 保证金差异（MDD）
-
 [FedML-AI/FedML](https://github.com/FedML-AI/FedML) 面向研究的联邦学习库。支持分布式计算，移动/IoT设备训练和模拟
-
 [bytedance/fedlearner](https://github.com/bytedance/fedlearner) 字节开源联邦机器学习平台,采用的是一套云原生的部署方案。数据存放在HDFS，用MySQL存储系统数据。通过Kubernetes管理和拉起任务。每个Fedlearner的训练任务需要参与双方同时拉起K8S任务，通过Master节点统一管理，Worker建实现通信。以推荐广告业务为例，联邦机器学习平台的广告主和平台方应该各自管理一套模型展示服务和模型训练服务。
-
 [mit-han-lab/mcunet](https://github.com/mit-han-lab/mcunet) IoT硬件上精简的深度学习库 Tiny Deep Learning on IoT Devices
-
 [Aimhubio/Aim](https://github.com/Aimhubio/Aim) 一个超级简单的记录、查找、比较AI实验的库。
-
 [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) 跨平台深度学习训练和推理机加速器，与深度学习框架，可以兼容TensorFlow、Keras和PyTorch等多种深度学习框架。Open Neural Network Exchange 是用于表示深度学习模型的开放格式，定义了通用运算符、机器学习和深度学习模型的构建块以及通用文件格式，可与各种框架工具和编译器一起使用。
-
 [microsoft/hummingbird](https://github.com/microsoft/hummingbird) 将训练有素的机器学习模型编译为张量计算，以加快推理速度。 用于将经过训练的传统ML模型编译为张量计算的库。
-
 [microsoft/EdgeML](https://github.com/microsoft/EdgeML) Microsoft Research India开发的边缘设备提供了机器学习算法的代码。
-
 [ml-tooling/best-of-ml-python](https://github.com/ml-tooling/best-of-ml-python) 很棒的机器学习Python库的排名列表。
-
 [terryyz/PyArmadillo](https://github.com/terryyz/PyArmadillo)  Python 语言的线性代数库，强调易用性。该库旨在提供类似于 Matlab 或者 Octave 的高级语法和功能，使得用户以熟悉且自然的方式表达数学运算。提供了用于矩阵和多维数据集（cube）的对象，以及 200 多个用于处理对象中存储数据的相关函数。所有功能都可以在一个平面结构中访问，并且支持整数、浮点数和复数。通过集成 LAPACK 或者 Intel MKL、OpenBLAS 等高性能替代产品，该库可以提供各种矩阵分解。
-
 [raminmh/liquid_time_constant_networks](https://github.com/raminmh/liquid_time_constant_networks) 一种能适应实时世界系统的变化的神经网络。神经网络的设计灵感来自生物大脑，设计灵感直接来自秀丽隐杆线虫（C. elegans）。他说：「它的神经系统仅有 302 个神经元，但却可以产生超出预期的复杂动态。」 Liquid 网络的流动性使其能更弹性地应对意料之外的数据或噪声数据。
-
 [mlech26l/keras-ncp](https://github.com/mlech26l/keras-ncp) 设计灵感直接来自秀丽隐杆线虫 由感官神经元接收环境信息、而后经过中间神经元，传递给指令神经元进而形成决策信息，最后由动作神经元完成决策的执行并完成动作。
-
 [skorch-dev/skorch](https://github.com/skorch-dev/skorch) 综合scikit-learn和PyTorch的机器学习库，可以实现sklearn和PyTorch高效兼容。
-
 [OpenMined/PySyft](https://github.com/OpenMined/PySyft) 用于安全和私有深度学习的Python库。PySyft使用联合学习，差分隐私和加密计算（例如PyTorch和TF中的多方计算 (MPC) 和同态加密 (HE) 将模型训练中的私人数据进行解耦。
-
 [pyro-ppl/pyro](https://github.com/pyro-ppl/pyro) 基于PyTorch作为后端的通用概率编程语言 (PPL)。
-
 [PytorchLightning/metrics](https://github.com/PytorchLightning/metrics) PyTorch原生的函数和度量模块的集合，用于简单的性能评估。可以使用常见的指标，如准确性，召回率，精度，AUROC, RMSE, R²等，或者创建你自己的指标。支持超过25个指标，并不断增加更多通用任务和特定领域的标准(目标检测，NLP等)。
-
 [teddykoker/torchsort](https://github.com/teddykoker/torchsort) 快速可微分排序算法PyTorch包，配有自定义C ++和CUDA
-
 [man-group/dtale](https://github.com/man-group/dtale) pandas数据结构的可视化工具
-
 [google/model_search](https://github.com/google/model_search) 为了帮助研究者自动、高效地开发最佳机器学习模型，谷歌开源了一个不针对特定领域的 AutoML 平台。该平台基于 TensorFlow 构建，非常灵活，既可以找出最适合给定数据集和问题的架构，也能够最小化编程时间和计算资源。
-
 [neuronika/neuronika](https://github.com/neuronika/neuronika) 纯Rust的张量和动态神经网络库。
-
 [matazure/mtensor](https://github.com/matazure/mtensor) 一个tensor计算库, 支持cuda的延迟计算
-
 [e-tony/best-of-ml-rust](https://github.com/e-tony/best-of-ml-rust) 一个令人赞叹的Rust机器学习排名表。
-
 [awslabs/autogluon](https://github.com/awslabs/autogluon) 为文本、图像、表格数据开发的自动机器学习库（AutoML）。
-
 [luwill/Machine_Learning_Code_Implementation](https://github.com/luwill/Machine_Learning_Code_Implementation) 机器学习算法的数学推导和纯Python代码实现。
-
 [ml-tooling/best-of-ml-python](https://github.com/ml-tooling/best-of-ml-python) 一个令人赞叹的python机器学习排名表，每周更新。
-
 [thuwyh/InferLight](https://github.com/thuwyh/InferLight) 提高模型的线上推理吞吐量近2.5倍。
-
 [ContrastiveSR/Contrastive_Learning_Papers](https://github.com/ContrastiveSR/Contrastive_Learning_Papers) 对比学习的相关论文列表。内容包括：计算机视觉、NLP、推荐系统、图模型等方面的应用。
-
 [Tencent/WeChat-TFCC](https://github.com/Tencent/WeChat-TFCC) C++深入学习推理框架。提供以下工具包，便于您开发和部署训练有素的 DL 模型：TFCC深度学习推理库的核心、TFCC 代码生成器、TFCC 运行时。
-
 [idrl-lab/idrlnet](https://github.com/idrl-lab/idrlnet) 基于内嵌物理知识神经网络的开源求解框架
-
 [KaiyuYue/torchshard](https://github.com/KaiyuYue/torchshard) 马里兰大学帕克分校计算机科学系的研究者开源了一个轻量级的引擎，用于将 PyTorch 张量切片成并行的 shard。当模型拥有大量的线性层（例如 BERT、GPT）或者很多类（数百万）时，TorchShard 可以减少 GPU 内存并扩展训练规模，它具有与 PyTorch 相同的 API 设计。
-
 [marcotcr/lime](https://github.com/marcotcr/lime) LIMELocal Interpretable Model-agnostic Explanations被用作解释机器学习模型。
-
 [MAIF/shapash](https://github.com/MAIF/shapash) 非常炫酷的模型解释性工具包。
-
 [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) 微软给初学者开源了一份机器学习课程。
-
 [sfu-db/dataprep](https://github.com/sfu-db/dataprep) 一个开源 Python 库，有助于自动化探索性数据分析过程。它在创建数据分析报告时很有用，它还具有 3 个用于绘制图形、绘制缺失数字和数据相关性的功能。
-
 [scikit-learn-contrib/hdbscan](https://github.com/scikit-learn-contrib/hdbscan) 使用无监督学习来查找数据集的集群聚类或密集区域的工具。主要算法是HDBSCAN。提供了该算法的高性能实现，以及用于分析结果聚类的工具。
-
 [nvidia/TensorRT](https://github.com/nvidia/TensorRT) TensorRT 是一个C++库，用于对 NVIDIA GPU 和深度学习加速器进行高性能推论。
-
 [dropreg/R-Drop](https://github.com/dropreg/R-Drop) 填补Dropout缺陷，简单又有效的正则方法。在每个 mini-batch 中，每个数据样本过两次带有 Dropout 的同一个模型，R-Drop 再使用 KL-divergence 约束两次的输出一致。
-
 [ucbrise/actnn](https://github.com/ucbrise/actnn) 基于PyTorch的激活压缩训练框架。在同样内存限制下，通过使用 2 bit 激活压缩，可以将 batch size 扩大 6-14 倍，将模型尺寸或者输入图片扩大 6-10 倍。
-
 [softsys4ai/FlexiBO](https://github.com/softsys4ai/FlexiBO) 基于成本感知的多目标优化深度神经网络
-
 [XuezheMax/apollo](https://github.com/XuezheMax/apollo) Apollo：用于非凸随机优化的自适应参数对角拟牛顿法
-
 [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels) Statsmodels：Python 中的统计建模和计量经济学库。
-
 [evidentlyai/evidently](https://github.com/evidentlyai/evidently) 在验证或生产监控期间分析机器学习模型的交互式报告。
-
 [louisfb01/best_AI_papers_2021](https://github.com/louisfb01/best_AI_papers_2021) 按发布日期列出的人工智能最新突破（2021 年）的精选列表，附有清晰的视频说明、更深入文章的链接和代码。
-
 [DataCanvasIO/DeepTables](https://github.com/DataCanvasIO/DeepTables) DeepTables：表格数据的深度学习工具包
 
 ## 特征工程
 
 [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
-
 [ScienceKot/kydavra](https://github.com/ScienceKot/kydavra) 特征筛选工具
-
 [aerdem4/lofo-importance](https://github.com/aerdem4/lofo-importance) LOFO（Leave One Feature Out）重要性基于选择的度量计算一组特征的重要性，对于选择的模型，通过迭代地从集合中删除每个特征，并评估模型的性能，使用验证方案 的选择，基于所选的指标。
-
 [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) 解决机器学习中不平衡数据集
-
 [ResidentMario/missingno](https://github.com/ResidentMario/missingno) 灵活且易于使用的缺失数据可视化和实用程序，可让您快速直观地了解数据集的完整性（或缺乏完整性）。 
 
 ## 异常检测
 
 [leibinghe/GAAL-based-outlier-detection](https://github.com/leibinghe/GAAL-based-outlier-detection) 基于盖尔的异常检测
-
 [yzhao062/pyod](https://github.com/yzhao062/pyod) 异常检测库
-
 [hoya012/awesome-anomaly-detection](https://github.com/hoya012/awesome-anomaly-detection) 异常检测列表
-
 [kLabUM/rrcf](https://github.com/kLabUM/rrcf) 用于异常检测的鲁棒随机砍伐森林算法的实现
-
 [mangushev/mtad-gat](https://github.com/mangushev/mtad-gat) 基于图注意力网络的多变量时间序列异常检测模型
-
 [d-ailin/GDN](https://github.com/d-ailin/GDN) 基于图神经网络的多变量时间序列异常检测
-
 [DHI/tsod](https://github.com/DHI/tsod) 时间序列数据异常检测
-
 [manigalati/usad](https://github.com/manigalati/usad) 多变量时间序列的无监督异常检测
 
 ## 参数优化
 
 [hyperopt/hyperopt](https://github.com/hyperopt/hyperopt) 分布式超参数优化
-
 [optuna/optuna](https://github.com/optuna/optuna) 超参数优化框架
-
 [WillKoehrsen/hyperparameter-optimization](https://github.com/WillKoehrsen/hyperparameter-optimization) 超参数优化
-
 [HDI-Project/BTB](https://github.com/HDI-Project/BTB) Bayesian Tuning and Bandits，auto-tuning系统的一个简单、可扩展的后端系统。
-
 [scikit-optimize/scikit-optimize](https://github.com/scikit-optimize/scikit-optimize) 一个简单高效的库，可最大限度地减少（非常）昂贵且嘈杂的黑盒功能。它实现了几种基于顺序模型优化的方法。
-
 [automl/SMAC3](https://github.com/automl/SMAC3) 基于序列模型的算法配置 优化任意算法的参数
-
 [CMA-ES/pycma](https://github.com/CMA-ES/pycma) 基于CMA-ES 协方差矩阵的自适应策略的Py实现和一些相关的数值优化工具。
-
 [SheffieldML/GPyOpt](https://github.com/SheffieldML/GPyOpt) 使用GPy进行高斯过程优化
-
 [pytorch/botorch](https://github.com/pytorch/botorch) PyTorch中的贝叶斯优化
-
 [JasperSnoek/spearmint](https://github.com/JasperSnoek/spearmint) 机器学习算法的实用贝叶斯优化
-
 [facebookresearch/nevergrad](https://github.com/facebookresearch/nevergrad) 用于执行无梯度优化的Python工具箱
-
 [Yelp/MOE](https://github.com/Yelp/MOE) 用于现实世界的指标优化的全局黑匣子优化引擎。
-
 [fmfn/BayesianOptimization](https://github.com/fmfn/BayesianOptimization) 具有高斯过程的全局优化的Python实现。
-
 [dragonfly/dragonfly](https://github.com/dragonfly/dragonfly)  用于可扩展的贝叶斯优化
-
 [ray-project/ray](https://github.com/ray-project/ray) Tune可伸缩超参数调整
-
 [keras-team/keras-tuner](https://github.com/keras-team/keras-tuner) keras的超参数调整库。
-
 [PKU-DAIR/open-box](https://github.com/PKU-DAIR/open-box) 通用且高效的黑盒优化系统。旨在解决泛化的黑盒优化（BBO）问题， 例如自动化超参数调优、自动化A/B测试、 实验设计、数据库参数调优、处理器体系结构和电路设计、资源分配等。
-
 [jina-ai/finetuner](https://github.com/jina-ai/finetuner) 微调任何 DNN 以更好地嵌入神经搜索任务
-
 [noah-research/BO/HEBO/CompBO](https://github.com/huawei-noah/noah-research/tree/CompBO/BO/HEBO/CompBO)  使用组合优化器进行贝叶斯优化,由华为研发、诺亚方舟实验室（伦敦）开发的贝叶斯优化代码库
-
 [huawei-noah/HEBO](https://github.com/huawei-noah/HEBO) 华为诺亚方舟库开发的贝叶斯优化库
 
 ## 梯度提升和树模型
@@ -330,15 +213,15 @@
 
 ## 神经网络结构搜索 Neural Architecture Search
 
-https://github.com/huawei-noah/CARS 华为提出基于进化算法和权值共享的神经网络结构搜索
+[huawei-noah/CARS](https://github.com/huawei-noah/CARS) 华为提出基于进化算法和权值共享的神经网络结构搜索
 
-https://github.com/microsoft/nni 用于自动化机器学习生命周期的开源AutoML工具包，包括功能工程，神经体系结构搜索，模型压缩和超参数调整。
+[microsoft/nni](https://github.com/microsoft/nni) 用于自动化机器学习生命周期的开源AutoML工具包，包括功能工程，神经体系结构搜索，模型压缩和超参数调整。
 
-https://github.com/awslabs/autogluon 用于深度学习的AutoML工具包 https://autogluon.mxnet.io
+[awslabs/autogluon](https://github.com/awslabs/autogluon) 用于深度学习的AutoML工具包 https://autogluon.mxnet.io
 
-https://github.com/researchmm/CDARTS 循环可微架构搜索
+[researchmm/CDARTS](https://github.com/researchmm/CDARTS) 循环可微架构搜索
 
-https://github.com/xiaomi-automl/FairDARTS 消除差异化架构搜索中的不公平优势
+[xiaomi-automl/FairDARTS](https://github.com/xiaomi-automl/FairDARTS) 消除差异化架构搜索中的不公平优势
 
 [ianwhale/nsga-net](https://github.com/ianwhale/nsga-net) 使用多目标遗传算法的神经架构搜索
 
@@ -424,26 +307,26 @@ https://github.com/petuum/adaptdl 一个能动态调整并行度的深度神经�
 
 [facebookresearch/bitsandbytes](https://github.com/facebookresearch/bitsandbytes) 用于 8 位优化器和量化例程的库。
 
-openai/triton OpenAI 正式的Triton是一种类 Python 的开源编程语言。能够高效编写 GPU 代码。例如，它可以用不到 25 行代码写出与 cuBLAS 性能相匹配的 FP16 矩阵乘法内核。此外，使用 Triton 成功生成比同类实现效率高 2 倍的内核。
+[openai/triton](https://github.com/openai/triton) OpenAI的Triton是一种类 Python 的开源编程语言。能够高效编写 GPU 代码。例如，它可以用不到 25 行代码写出与 cuBLAS 性能相匹配的 FP16 矩阵乘法内核。此外，使用 Triton 成功生成比同类实现效率高 2 倍的内核。
 
 # 图神经网络GNN
 
 ## 图机器学习库
 
 * [dmlc/dgl.](https://github.com/dmlc/dgl) Deep Graph Library (DGL) 一个易于使用、高性能和可扩展的 Python 包，用于对图进行深度学习。
-* https://github.com/alibaba/euler 分布式图深度学习框架。
-* https://github.com/facebookresearch/PyTorch-BigGraph 从大型图形结构化数据生成嵌入
-* https://github.com/rusty1s/pytorch_geometric 用于PyTorch的深度图学习扩展库。PyG对已发表或者常用的图神经网络和数据集都进行了集成，因而是当前最流行和广泛使用的GNN库。
-* https://github.com/shenweichen/GraphNeuralNetwork 图神经网络的实现和实验，gcn\graphsage\gat等。
-* https://github.com/THUDM/cogdl 图形表示学习工具包，实现的模型，非GNN基线:如Deepwalk，LINE，NetMF，GNN基线:如GCN，GAT，GraphSAGE
-* https://github.com/imsheridan/CogDL-TensorFlow 图表示学习工具包，使研究人员和开发人员可以轻松地训练和比较基线或自定义模型，以进行节点分类，链接预测和其他图任务。它提供了许多流行模型的实现，包括：非GNN基准，例如Deepwalk，LINE，NetMF；GNN基准，例如GCN，GAT，GraphSAGE。
-* https://github.com/CrawlScript/tf_geometric 高效友好的图神经网络库 节点分类:图卷积网络（GCN）、多头图注意力网络（GAT），链接预测：平均池、SAGPooling，图分类：图形自动编码器（GAE）
-* https://github.com/alibaba/graph-learn 旨在简化图神经网络应用的框架。从实际生产案例中提取解决方案。已在推荐，反作弊和知识图系统上得到应用和验证。
-* https://github.com/BUPT-GAMMA/OpenHINE 异构信息网络嵌入（OpenHINE）的开源工具包。实现的模型包括：DHNE，HAN，HeGAN，HERec，HIN2vec，Metapath2vec，MetaGraph2vec，RHINE。
-* https://github.com/PaddlePaddle/PGL 基于PaddlePaddle的高效灵活的图学习框架
-* https://github.com/THUDM/cogdl 由清华大学计算机系知识工程实验室（KEG）开发的基于图的深度学习的研究工具，基于Python语言和Pytorch库。
-* https://github.com/THUMNLab/AutoGL 开源自动图学习工具包：AutoGL (Auto Graph Learning)，支持在图数据上全自动进行机器学习。
-* [ benedekrozemberczki/pytorch_geometric_temporal)](https://github.com/benedekrozemberczki/pytorch_geometric_temporal) 该库包含来自各种已发表研究论文的dynamic+temporal图深度学习，embedding以及spatio-temporal regression 方法。它还带有许多带有时间和动态图的基准数据集。离散递归图卷积 DCRNN GConvGRU GConvLSTM GC-LSTM LRGCN DyGrEncoder EvolveGCNH EvolveGCNO ；辅助图卷积 Temporal Graph Convolutions 时间图卷积 STGCN ；Auxiliary Graph Convolutions TemporalConv DConv 
+* [rusty1s/pytorch_geometric](https://github.com/rusty1s/pytorch_geometric) PyTorch的深度图学习扩展库。PyG对已发表或者常用的图神经网络和数据集都进行了集成，因而是当前最流行和广泛使用的GNN库。
+* [alibaba/euler](https://github.com/alibaba/euler) 分布式图深度学习框架。
+* [facebookresearch/PyTorch-BigGraph](https://github.com/facebookresearch/PyTorch-BigGraph) 从大型图形结构化数据生成嵌入
+* [shenweichen/GraphNeuralNetwork](https://github.com/shenweichen/GraphNeuralNetwork) 图神经网络的实现和实验，gcn\graphsage\gat等。
+* [THUDM/cogdl](https://github.com/THUDM/cogdl) 图形表示学习工具包，实现的模型，非GNN基线:如Deepwalk，LINE，NetMF，GNN基线:如GCN，GAT，GraphSAGE
+* [imsheridan/CogDL-TensorFlow](https://github.com/imsheridan/CogDL-TensorFlow) 图表示学习工具包，使研究人员和开发人员可以轻松地训练和比较基线或自定义模型，以进行节点分类，链接预测和其他图任务。它提供了许多流行模型的实现，包括：非GNN基准，例如Deepwalk，LINE，NetMF；GNN基准，例如GCN，GAT，GraphSAGE。
+* [CrawlScript/tf_geometric](https://github.com/CrawlScript/tf_geometric) 高效友好的图神经网络库 节点分类:图卷积网络（GCN）、多头图注意力网络（GAT），链接预测：平均池、SAGPooling，图分类：图形自动编码器（GAE）
+* [alibaba/graph-learn](https://github.com/alibaba/graph-learn) 旨在简化图神经网络应用的框架。从实际生产案例中提取解决方案。已在推荐，反作弊和知识图系统上得到应用和验证。
+* [BUPT-GAMMA/OpenHINE](https://github.com/BUPT-GAMMA/OpenHINE) 异构信息网络嵌入（OpenHINE）的开源工具包。实现的模型包括：DHNE，HAN，HeGAN，HERec，HIN2vec，Metapath2vec，MetaGraph2vec，RHINE。
+* [PaddlePaddle/PGL](https://github.com/PaddlePaddle/PGL) 基于PaddlePaddle的高效灵活的图学习框架
+* [THUDM/cogdl](https://github.com/THUDM/cogdl) 由清华大学计算机系知识工程实验室（KEG）开发的基于图的深度学习的研究工具，基于Python语言和Pytorch库。
+* [THUMNLab/AutoGL](https://github.com/THUMNLab/AutoGL) 开源自动图学习工具包AutoGL (Auto Graph Learning)，支持在图数据上全自动进行机器学习。
+* [benedekrozemberczki/pytorch_geometric_temporal](https://github.com/benedekrozemberczki/pytorch_geometric_temporal) 该库包含来自各种已发表研究论文的dynamic+temporal图深度学习，embedding以及spatio-temporal regression 方法。它还带有许多带有时间和动态图的基准数据集。离散递归图卷积 DCRNN GConvGRU GConvLSTM GC-LSTM LRGCN DyGrEncoder EvolveGCNH EvolveGCNO ；辅助图卷积 Temporal Graph Convolutions 时间图卷积 STGCN ；Auxiliary Graph Convolutions TemporalConv DConv 
 * [divelab/DIG](https://github.com/divelab/DIG)  支持研究方向：图生成、图自监督学习、图神经网络可解释性以及 3D 图深度学习。对于每个领域，DIG 都提供了通用、可扩展的数据接口、常用算法与评估标准实现。
 * [chaitjo/awesome-efficient-gnn](https://github.com/chaitjo/awesome-efficient-gnn) 令人敬畏的高效图神经网络,一份关于有效图神经网络和可扩展图表示学习的必读论文的精选列表，用于实际应用。 
 * [EdisonLeeeee/GraphGallery](https://github.com/EdisonLeeeee/GraphGallery) GraphGallery 是一个用于对图神经网络 (GNN) 进行基准测试的图库。实现的方法：节点分类、图净化、链接预测、节点嵌入。
@@ -454,256 +337,167 @@ openai/triton OpenAI 正式的Triton是一种类 Python 的开源编程语言。
 
 ## 图注意力机制
 
-* https://github.com/PetarV-/GAT Graph Attention Networks 
-* https://github.com/inyeoplee77/SAGPool Self-Attention Graph Pooling torch自我注意力图池化
-* https://github.com/aravindsankar28/DySAT 提出了DYNAMIC SELF-ATTENTION NETWORK机制，通过结构化注意力模块与时态注意力模块对动态变化的节点进行表示。
-* https://github.com/jwzhanggy/Graph-Bert 仅基于Attention 机制而不依赖任何类卷积或聚合操作即可学习图的表示，并且完全不考虑节点之间的连接信息。通过将原始图分解为以每个节点为中心的多个子图来学习每个节点的表征信息，这不仅能解决图模型的预训练问题，还能通过并行处理还提高效率。
-* https://github.com/dongkwan-kim/SuperGAT ICLR2021|GAT升级版：通过多种自监督方式提升GAT中注意力，性能在15个数据集有所提升
+* [PetarV-/GAT](https://github.com/PetarV-/GAT) Graph Attention Networks  图注意力神经网络
+* [inyeoplee77/SAGPool](https://github.com/inyeoplee77/SAGPool) Self-Attention Graph Pooling torch 自我注意力图池化
+* [aravindsankar28/DySAT](https://github.com/aravindsankar28/DySAT) 提出了DYNAMIC SELF-ATTENTION NETWORK机制，通过结构化注意力模块与时态注意力模块对动态变化的节点进行表示。
+* [jwzhanggy/Graph-Bert](https://github.com/jwzhanggy/Graph-Bert) 仅基于Attention机制而不依赖任何类卷积或聚合操作即可学习图的表示，并且完全不考虑节点之间的连接信息。通过将原始图分解为以每个节点为中心的多个子图来学习每个节点的表征信息，这不仅能解决图模型的预训练问题，还能通过并行处理还提高效率。
+* [dongkwan-kim/SuperGAT](https://github.com/dongkwan-kim/SuperGAT) ICLR2021|GAT升级版：通过多种自监督方式提升GAT中注意力，性能在15个数据集有所提升。
 
 ## 异构图、 异质图
 
 * [https://github.com/BUPT-GAMMA/OpenHGNN](https://github.com/BUPT-GAMMA/OpenHGNN) 这是一个基于 DGL 的异构图神经网络（OpenHGNN）的开源工具包。支持特定任务的模型:RGCN[ESWC 2018]、HAN[WWW 2019]、KGCN[WWW 2019]、HetGNN[KDD 2019]、GTN[NeurIPS 2019]RSHN[ICDM 2019]、DGMI[AAAI 2020]、MAGNN[WWW 2020]、CompGCN[ICLR 2020]、NSHE[IJCAI 2020]、NARS[arxiv]、MHNF[arxiv]、HGSL[AAAI 2021]、HGNN-AC[WWW 2021]、HeCo[KDD 2021]、HPN[TKDE 2021]、RHGNN[arxiv]
-
-* https://github.com/Jhy1993/HAN 异构图注意力网络，遵循经典的异质图神经网络架构(节点级别聚合与语义级别聚合)，为了更好的实现层次聚合函数，HAN利用语义级别注意力和节点级别注意力来同时学习元路径与节点邻居的重要性,并通过相应地聚合操作得到最终的节点表示。
-
-* https://github.com/brxx122/HeterSumGraph 用于提取文档摘要的异构图神经网络
-
-* https://github.com/chuxuzhang/KDD2019_HetGNN KDD2019论文中HetGNN的代码：异构图神经网络 用了LSTM作为来聚合某种关系下的节点邻居并更新节点表示。这里的邻居选择也有所不同：通过random walk with restart来选择固定数量的邻居。
-
-* https://github.com/acbull/pyHGT Heterogeneous Graph Transformer 异构图Transformer
+* [Jhy1993/HAN](https://github.com/Jhy1993/HAN) 异构图注意力网络，遵循经典的异质图神经网络架构(节点级别聚合与语义级别聚合)，为了更好的实现层次聚合函数，HAN利用语义级别注意力和节点级别注意力来同时学习元路径与节点邻居的重要性,并通过相应地聚合操作得到最终的节点表示。
+* [brxx122/HeterSumGraph](https://github.com/brxx122/HeterSumGraph) 用于提取文档摘要的异构图神经网络
+* [chuxuzhang/KDD2019_HetGNN](https://github.com/chuxuzhang/KDD2019_HetGNN) KDD2019论文中HetGNN的代码：异构图神经网络 用了LSTM作为来聚合某种关系下的节点邻居并更新节点表示。这里的邻居选择也有所不同：通过random walk with restart来选择固定数量的邻居。
+* [acbull/pyHGT](https://github.com/acbull/pyHGT) Heterogeneous Graph Transformer 异构图Transformer
   可以处理大规模的异构图和动态图.
-
-* https://github.com/Googlebaba/KDD2019-MEIRec 基于异质图神经网络的用户意图推荐
-
-* https://github.com/Andy-Border/HGSL 异质图结构学习(Heterogeneous Graph Structure Learning)问题，并提出了HGSL框架来联合学习适合分类的异质图结构和图神经网络参数。通过挖掘特征相似性、特征与结构之间的交互以及异质图中的高阶语义结构来生成适合下游任务的异质图结构并联合学习 GNN参数。三个数据集上的实验结果表明，HGSL 的性能优于基线模型。
-
-* https://github.com/yuduo93/THIGE 将复杂异质的动态交互行为构建为时序异质交互图（Temporal Heterogeneous Interaction Graph, 简称为THIG）进而同时学习用户兴趣和商品表示用于商品推荐。本文提出了一种时序异质图上的表示学习方法，称之为THIGE，充分建模交互行为的异质性，刻画不同类型的兴趣偏好，并融合长、短期兴趣构建用户、商品表示。最后，在3个真实数据集上验证模型的有效性。
-
-* https://github.com/iqiyi/HMGNN 异构小图神经网络及其在拉新裂变风控场景的应用 尝试通过图神经网络对欺诈邀请进行检测的方法。在GCN和异构图神经网络的基础上，HMGNN使用超图和异构图卷积克服了小图和异构图带来的问题。并在实际拉新场景中取得了不错的效果。此外，我们也在尝试将其应用到更广阔的场景中，比如金融反欺诈、关注&点赞反作弊等问题。
-
-* https://github.com/THUDM/cogdl 用于图形表示学习的广泛研究平台
-
+* [Googlebaba/KDD2019-MEIRec](https://github.com/Googlebaba/KDD2019-MEIRec) 基于异质图神经网络的用户意图推荐
+* [Andy-Border/HGSL](https://github.com/Andy-Border/HGSL) 异质图结构学习(Heterogeneous Graph Structure Learning)问题，并提出了HGSL框架来联合学习适合分类的异质图结构和图神经网络参数。通过挖掘特征相似性、特征与结构之间的交互以及异质图中的高阶语义结构来生成适合下游任务的异质图结构并联合学习GNN参数。三个数据集上的实验结果表明，HGSL的性能优于基线模型。
+* [yuduo93/THIGE](https://github.com/yuduo93/THIGE) 将复杂异质的动态交互行为构建为时序异质交互图（Temporal Heterogeneous Interaction Graph, 简称为THIG）进而同时学习用户兴趣和商品表示用于商品推荐。本文提出了一种时序异质图上的表示学习方法，称之为THIGE，充分建模交互行为的异质性，刻画不同类型的兴趣偏好，并融合长、短期兴趣构建用户、商品表示。最后，在3个真实数据集上验证模型的有效性。
+* [iqiyi/HMGNN](https://github.com/iqiyi/HMGNN) 异构小图神经网络及其在拉新裂变风控场景的应用.尝试通过图神经网络对欺诈邀请进行检测的方法。在GCN和异构图神经网络的基础上，HMGNN使用超图和异构图卷积克服了小图和异构图带来的问题。并在实际拉新场景中取得了不错的效果。此外，我们也在尝试将其应用到更广阔的场景中，比如金融反欺诈、关注&点赞反作弊等问题。
+* [THUDM/cogdl](https://github.com/THUDM/cogdl) 用于图形表示学习的广泛研究平台
 * [kepsail/ie-HGCN](https://github.com/kepsail/ie-HGCN) 可解释且高效的异构图卷积网络，IEEE TKDE 2021
-
 * [AutoML-Research/DiffMG](https://github.com/AutoML-Research/DiffMG) 异构图神经网络的可微元图搜索
-
 * [jindi-tju/HGNN-AC](https://github.com/jindi-tju/HGNN-AC) “WWW21 - 通过属性完成的异构图神经网络”的源代码
 
 ## 图嵌入、网络表征学习
 
-* https://github.com/thunlp/OpenKE 一个使用PyTorch实现的知识嵌入开源框架。RESCAL、DistMult, ComplEx, Analogy、TransE, TransH, TransR, TransD、SimplE、RotatE
-
-* GraphVite 高速、大规模图嵌入
-
-* https://github.com/shenweichen/GraphEmbedding 
-
-* https://github.com/thunlp/Fast-TransX
-
-* https://github.com/thunlp/TensorFlow-TransX
-
-* https://github.com/Wentao-Xu/SEEK 轻量级知识图谱嵌入框架
-
-* https://github.com/woojeongjin/dynamic-KG 嵌入动态知识图
-
-* https://github.com/awslabs/dgl-ke 高性能，易于使用且可扩展的软件包，用于学习大规模知识图嵌入。
-
-* https://github.com/leoribeiro/struc2vec
-
-* https://github.com/HLTCHKUST/ke-dialogue 提出了一种将任意大小的知识库直接嵌入到模型参数中的方法
-
-* https://github.com/aditya-grover/node2vec
-
-* https://github.com/jwzhanggy/Graph-Bert 学习图形表示只需要注意力机制
-
-* https://github.com/thunlp/OpenNE 该存储库提供了标准的NE / NRL（网络表示学习）训练和测试框架 ：DeepWalk and node2vec、LINE、GraRep、TADW、GCN、GraphFactorization、SDNE
-
-* https://github.com/Shubhranshu-Shekhar/ctdne 连续时间动态网络嵌入 依据deepwalk与node2vec等模型的启发，作者基于动态图的性质，提出了temporal random walk的概念，即在一条随机游走路径上，从起始节点到终止节点，连边的时态信息依次递增。针对边上存在时态信息的问题，作者提出了unbiased/biased采样算法。采样后的路径将会蕴含动态图中的时态依赖信息。作者在多个动态图数据集上做了实验，并与Deepwalk/Node2vec/LINE等静态图表示学习算法进行了对比。
-
-* https://github.com/TUM-DAML/pprgo_pytorch 在一个包含1240万个节点，17300万条边组成的大规模图上，PPRGo只花了不到2分钟就给图上所有节点分了类，更夸张的是，这2分钟还是包括了预处理、训练、预测的全流程时间. PPRGo先用每个节点的本地特征学习出每个节点的本地embedding，再用PPR矩阵完成本地embedding在图上的传递与聚合
-
-* https://github.com/Malllabiisc/CompGCN 针对多关系有向图的图神经网络。该模型实现框架采用了R-GCN提出的Encoder-Decoder框架，在编码阶段将Entity Embedding和Realtion Embedding进行组合Aggregation，然后在解码阶段再采用类似TransE/H或者ConvE等方式对（h,r,t）三元组进行解码。因为它在编码阶段就引入了Realtion，使用同一套Realtion Embedding，使得表征学习更加精准。
-
-* https://github.com/TimDettmers/ConvE 2D卷积知识图谱嵌入
-
-* https://github.com/daiquocnguyen/ConvKB 通过使用卷积神经网络改进了最先进的模型，因此它可以捕获实体之间的全局关系和过渡特性，以及知识库中的关系。在ConvKB中，每个三元组（头实体，关系，尾部实体）都表示为3列矩阵，其中每个列向量代表一个三元元素。然后将此3列矩阵馈送到卷积层，在该卷积层上对矩阵操作多个滤波器以生成不同的特征图。然后将这些特征图串联到代表输入三元组的单个特征向量中。通过点积将特征向量与权重向量相乘以返回分数。
-
-* https://github.com/kavehhassani/mvgrl 通过对比图的结构视图来学习节点和图级表示的自监督方法。通过对比一阶邻居编码和图扩散来实现的。在线性评估协议下，在 8 个节点中的 8 个和图分类基准上实现了新的最先进的自监督学习结果。
-
-* https://github.com/thunlp/NRLPapers 关于网络表示学习 （NRL） / 网络嵌入 （NE） 的必读论文
-
+* [thunlp/OpenKE](https://github.com/thunlp/OpenKE) 使用PyTorch实现的知识嵌入开源框架。RESCAL、DistMult, ComplEx, Analogy、TransE, TransH, TransR, TransD、SimplE、RotatE
+* [DeepGraphLearning/graphvite](https://github.com/DeepGraphLearning/graphvite) GraphVite 高速、大规模图嵌入.通过多个 CPU 和 GPU 加速图形嵌入。只需大约1分钟即可学习具有100万个节点的图形的节点嵌入，从而实现算法和思想的快速迭代。
+* [shenweichen/GraphEmbedding](https://github.com/shenweichen/GraphEmbedding) 图嵌入算法的实现和实验。算法包括：DeepWalk、LINE、Node2Vec、SDNE、Struc2Vec。
+* [thunlp/Fast-TransX](https://github.com/thunlp/Fast-TransX) Fast-TransX这是TransE及其扩展模型用于知识表示学习的高效轻量级实现，包括 TransH、TransR、TransD、TranSparse 和 PTransE。[TensorFlow版](https://github.com/thunlp/TensorFlow-TransX)
+* [thunlp/NRLPapers](https://github.com/thunlp/NRLPapers) 关于网络表示学习（NRL）/网络嵌入（NE）的必读论文。
+* [Wentao-Xu/SEEK](https://github.com/Wentao-Xu/SEEK) 轻量级知识图谱嵌入框架
+* [woojeongjin/dynamic-KG](https://github.com/woojeongjin/dynamic-KG) 嵌入动态知识图
+* [awslabs/dgl-ke](https://github.com/awslabs/dgl-ke) 高性能，易于使用且可扩展的软件包，用于学习大规模知识图嵌入。
+* [leoribeiro/struc2vec](https://github.com/leoribeiro/struc2vec) struc2vec算法学习任何图形中节点的连续表示,捕获节点之间的结构等效性。
+* [HLTCHKUST/ke-dialogue](https://github.com/HLTCHKUST/ke-dialogue) 提出了一种将任意大小的知识库直接嵌入到模型参数中的方法
+* [aditya-grover/node2vec](https://github.com/aditya-grover/node2vec) 由Aditya Grover和Jure Leskovec提出的一种Graph Embedding方法，node2vec在DeepWalk的基础上引入BFS（广度优先搜索）和DFS（深度优先搜索）两种有偏的随机游走方式，以达到分别表征网络的结构对等性（structural equivalence）和同质性（homophily）的目的。
+* [jwzhanggy/Graph-Bert](https://github.com/jwzhanggy/Graph-Bert) 学习图形表示只需要注意力机制。
+* [thunlp/OpenNE](https://github.com/thunlp/OpenNE) 该库提供了标准的NE/NRL（网络表示学习）训练和测试框架 ：DeepWalk、node2vec、LINE、GraRep、TADW、GCN、GraphFactorization、SDNE
+* [Shubhranshu-Shekhar/ctdne](https://github.com/Shubhranshu-Shekhar/ctdne) 连续时间动态网络嵌入。依据deepwalk与node2vec等模型的启发，作者基于动态图的性质，提出了temporal random walk的概念，即在一条随机游走路径上，从起始节点到终止节点，连边的时态信息依次递增。针对边上存在时态信息的问题，作者提出了unbiased/biased采样算法。采样后的路径将会蕴含动态图中的时态依赖信息。作者在多个动态图数据集上做了实验，并与Deepwalk/Node2vec/LINE等静态图表示学习算法进行了对比。
+* [TUM-DAML/pprgo_pytorch](https://github.com/TUM-DAML/pprgo_pytorch) 在一个包含1240万个节点，17300万条边组成的大规模图上，PPRGo只花了不到2分钟就给图上所有节点分了类，这2分钟还是包括了预处理、训练、预测的全流程时间. PPRGo先用每个节点的本地特征学习出每个节点的本地embedding，再用PPR矩阵完成本地embedding在图上的传递与聚合。
+* [Malllabiisc/CompGCN](https://github.com/Malllabiisc/CompGCN) 针对多关系有向图的图神经网络。该模型实现框架采用了R-GCN提出的Encoder-Decoder框架，在编码阶段将Entity Embedding和Realtion Embedding进行组合Aggregation，然后在解码阶段再采用类似TransE/H或者ConvE等方式对（h,r,t）三元组进行解码。因为它在编码阶段就引入了Realtion，使用同一套Realtion Embedding，使得表征学习更加精准。
+* [TimDettmers/ConvE](https://github.com/TimDettmers/ConvE) 2D卷积知识图谱嵌入
+* [daiquocnguyen/ConvKB](https://github.com/daiquocnguyen/ConvKB) 通过使用卷积神经网络改进了最先进的模型，因此它可以捕获实体之间的全局关系和过渡特性，以及知识库中的关系。在ConvKB中，每个三元组（头实体，关系，尾部实体）都表示为3列矩阵，其中每个列向量代表一个三元元素。然后将此3列矩阵馈送到卷积层，在该卷积层上对矩阵操作多个滤波器以生成不同的特征图。然后将这些特征图串联到代表输入三元组的单个特征向量中。通过点积将特征向量与权重向量相乘以返回分数。
+* [kavehhassani/mvgrl](https://github.com/kavehhassani/mvgrl) 通过对比图的结构视图来学习节点和图级表示的自监督方法。通过对比一阶邻居编码和图扩散来实现的。在线性评估协议下，在 8 个节点中的 8 个和图分类基准上实现了新的最先进的自监督学习结果。
 * [phanein/deepwalk](https://github.com/phanein/deepwalk) DeepWalk 使用短随机游走来学习图中顶点的表示。
+* https://github.com/aister2020/KDDCUP_2020_AutoGraph_1st_Place KDD KDD CUP 2020自动图形表示学习：第一名解决方案。实现了四种不同的模型GCN、GAT、GraphSage、TAGConv
 
 ## 时空网络_交通预测_动态图
 
-* ASTGCN 基于注意的时空图卷积网络，用于交通流量预测
-* https://github.com/LeiBAI/AGCRN 端到端的流量预测模型-自适应图卷积递归网络（AGCRN）。AGCRN可以捕获流量序列中特定于节点的细粒度空间和时间相关性，并通过嵌入DAGG来统一修订GCN中的节点嵌入。这样，训练AGCRN可以针对每个交通系列源（例如，用于交通速度/流量的道路，用于乘客需求的车站/区域）产生有意义的节点表示向量。学习的节点表示包含有关道路/区域的有价值的信息，并且可以潜在地应用于其他任务。
-* https://github.com/nnzhan/Graph-WaveNet 时空序列预测模型，本文目标是，给定图 G和历史S 步的图信号数据，学习映射关系f，进而预测接下来T 步的图信号。源于WaveNet，并在图卷积的基础上提出了动态自适应的邻接矩阵来捕获隐藏的图结构关系。数据集:META-LA是洛杉矶公路探测器收集到的交通数据，有207个传感器搜集了四个月的数据（2012.3.1~2012.6.30） ;PEMS-BAY是加州交通部门Performance Measurement System搜集到的交通数据，有325个传感器搜集了六个月的数据（2017.1.1~2017.5.31）
-* https://github.com/Davidham3/STSGCN 时空同步图卷积网络：一种时空网络数据预测的新框架 该模型能够有效地捕捉复杂的局域时空相关性。同时，在模型中设计了多个不同时间段的模块，以有效地捕获局部时空图中的异质性。
-* https://github.com/IBM/EvolveGCN 动态时序知识图谱。为了实现动态学习主要注意以下三点：1、每个时间片单独学习一个GCN，每个GCN输入不同体现在图谱的邻接矩阵不同，但在代码实现时必须要求每个时刻的节点是保持一致的，而节点之间的关系存在变动；2、为了考虑动态图谱联系，用RNN将每个时间片GCN模型参数串起来进行序列学习；3、RNN循环网络采用两种：GRU，LSTM
-* https://github.com/twitter-research/tgn  TGN: Temporal Graph Networks 动态图的神经网络模型
-* https://github.com/lehaifeng/T-GCN 通过图卷积网络进行的城市交通流量预测的工作。文件结构如下所示：1 T-GCN是时间图卷积网络的源代码。2 A3T-GCN是具有注意力结构的时间图卷积网络的源代码。3 AST-GCN是属性增强的时空图卷积网络的源代码。4 基准包括以下方法，例如（1）历史平均模型（HA）（2）自回归综合移动平均模型（ARIMA）（3）支持向量回归模型（SVR）（4）图卷积网络模型（GCN）（5）门控循环单位模型（GRU）
-* https://github.com/palash1992/DynamicGEM 捕捉动态图演化的动力学特征，生成动态图表示的方法，本质上是输入为动态图的前T个时间步的snapshot，输出为T+1时刻的图嵌入式表达。
-* https://github.com/rootlu/MMDNE 从微观/宏观两种层级建模动态网络中节点演化规律，并能够在节点表示中学习到这种规律。微观更偏向于捕捉具体边对形成过程 宏观更偏向于从网络动力学挖掘网络演变的规律，最终生成节点的表示。
-* https://github.com/skx300/DyHATR 同时考虑到图的异构性和动态性的特点，对于图的每个时间切片，利用node-level attention和edge-level attention以上两个层次的注意力机制实现异质信息的有效处理，并且通过循环神经网络结合self-attention研究节点embedding的演化特性，并且通过链接预测任务进行试验，验证模型的有效性。
-* https://github.com/aravindsankar28/DySAT 提出了DYNAMIC SELF-ATTENTION NETWORK机制，通过结构化注意力模块与时态注意力模块对动态变化的节点进行表示。
-* https://github.com/luckiezhou/DynamicTriad 依据动态网络的特性，提出了依据triad结构建模动态图演化模式的方法DynamicTraid。三元组（Triad）演化的过程就是三个节点中两个互不链接的节点之间建立链接，形成一个闭合三元组的过程。作者在几个不同的真实业务场景（电信欺诈，贷款偿还等）数据集中做了实验，证明了模型的有效性。
-* https://github.com/jwwthu/GNN4Traffic 整理了基于图神经网络的交通预测相关的顶会论文及统计分析。
+* [guoshnBJTU/ASTGCN-r-pytorch](https://github.com/guoshnBJTU/ASTGCN-r-pytorch) 基于注意的时空图卷积网络，用于交通流量预测。
+* [LeiBAI/AGCRN](https://github.com/LeiBAI/AGCRN) 端到端的流量预测模型-自适应图卷积递归网络。AGCRN可以捕获流量序列中特定于节点的细粒度空间和时间相关性，并通过嵌入DAGG来统一修订GCN中的节点嵌入。这样，训练AGCRN可以针对每个交通系列源（例如，用于交通速度/流量的道路，用于乘客需求的车站/区域）产生有意义的节点表示向量。学习的节点表示包含有关道路/区域的有价值的信息，并且可以潜在地应用于其他任务。
+* [nnzhan/Graph-WaveNet](https://github.com/nnzhan/Graph-WaveNet) 时空序列预测模型，本文目标是，给定图G和历史S步的图信号数据，学习映射关系f，进而预测接下来T步的图信号。源于WaveNet，并在图卷积的基础上提出了动态自适应的邻接矩阵来捕获隐藏的图结构关系。数据集:META-LA是洛杉矶公路探测器收集到的交通数据，有207个传感器搜集了四个月的数据（2012.3.1 2012.6.30）;PEMS-BAY是加州交通部门Performance Measurement System搜集到的交通数据，有325个传感器搜集了六个月的数据（2017.1.1 2017.5.31）。
+* [Davidham3/STSGCN](https://github.com/Davidham3/STSGCN) 时空同步图卷积网络：一种时空网络数据预测的新框架 该模型能够有效地捕捉复杂的局域时空相关性。同时，在模型中设计了多个不同时间段的模块，以有效地捕获局部时空图中的异质性。
+* [IBM/EvolveGCN](https://github.com/IBM/EvolveGCN) 动态时序知识图谱。为了实现动态学习主要注意以下三点：1、每个时间片单独学习一个GCN，每个GCN输入不同体现在图谱的邻接矩阵不同，但在代码实现时必须要求每个时刻的节点是保持一致的，而节点之间的关系存在变动；2、为了考虑动态图谱联系，用RNN将每个时间片GCN模型参数串起来进行序列学习；3、RNN循环网络采用两种：GRU，LSTM。
+* [twitter-research/tgn](https://github.com/twitter-research/tgn)  TGN: Temporal Graph Networks 动态图的神经网络模型
+* [lehaifeng/T-GCN](https://github.com/lehaifeng/T-GCN) 通过图卷积网络进行的城市交通流量预测的工作。文件结构如下所示：1 T-GCN是时间图卷积网络的源代码。2 A3T-GCN是具有注意力结构的时间图卷积网络的源代码。3 AST-GCN是属性增强的时空图卷积网络的源代码。4 基准包括以下方法，例如历史平均模型（HA）、自回归综合移动平均模型（ARIMA）、支持向量回归模型（SVR）、图卷积网络模型（GCN）、门控循环单位模型（GRU）
+* [palash1992/DynamicGEM](https://github.com/palash1992/DynamicGEM) 捕捉动态图演化的动力学特征，生成动态图表示的方法，本质上是输入为动态图的前T个时间步的snapshot，输出为T+1时刻的图嵌入式表达。
+* [rootlu/MMDNE](https://github.com/rootlu/MMDNE) 从微观/宏观两种层级建模动态网络中节点演化规律，并能够在节点表示中学习到这种规律。微观更偏向于捕捉具体边对形成过程 宏观更偏向于从网络动力学挖掘网络演变的规律，最终生成节点的表示。
+* [skx300/DyHATR](https://github.com/skx300/DyHATR) 同时考虑到图的异构性和动态性的特点，对于图的每个时间切片，利用node-level attention和edge-level attention以上两个层次的注意力机制实现异质信息的有效处理，并且通过循环神经网络结合self-attention研究节点embedding的演化特性，并且通过链接预测任务进行试验，验证模型的有效性。
+* [aravindsankar28/DySAT](https://github.com/aravindsankar28/DySAT) 提出了DYNAMIC SELF-ATTENTION NETWORK机制，通过结构化注意力模块与时态注意力模块对动态变化的节点进行表示。
+* [luckiezhou/DynamicTriad](https://github.com/luckiezhou/DynamicTriad) 依据动态网络的特性，提出了依据triad结构建模动态图演化模式的方法DynamicTraid。三元组（Triad）演化的过程就是三个节点中两个互不链接的节点之间建立链接，形成一个闭合三元组的过程。作者在几个不同的真实业务场景（电信欺诈，贷款偿还等）数据集中做了实验，证明了模型的有效性。
+* [jwwthu/GNN4Traffic](https://github.com/jwwthu/GNN4Traffic) 整理了基于图神经网络的交通预测相关的顶会论文及统计分析。
 * [SpaceLearner/Awesome-DynamicGraphLearning](https://github.com/SpaceLearner/Awesome-DynamicGraphLearning) 将深度学习技术(图神经网络等)应用在动态图、动态网络、动态知识图谱上的论文、代码、工具等。
 * [liangzhehan/DMSTGCN](https://github.com/liangzhehan/DMSTGCN) 用于交通速度预测的动态和多方面时空深度学习
 * [LibCity/Bigscity-LibCity-PaperList](https://github.com/LibCity/Bigscity-LibCity-PaperList) 交通预测领域论文列表
-* [LibCity/Bigscity-LibCity/](https://github.com/LibCity/Bigscity-LibCity/) 统一、全面、可扩展的代码库，为交通预测领域的研究人员提供了一个可靠的实验工具和便捷的开发框架。 我们的库基于 PyTorch 实现，并将与交通预测相关的所有必要步骤或组件包含到系统的流水线中，使研究人员能够进行全面的对比实验。 我们的库将有助于交通预测领域的标准化和可复现性。LibCity 目前支持以下任务：- 交通状态预测(交通流量预测、交通速度预测、交通需求预测、起点-终点（OD）矩阵预测、交通事故预测）轨迹下一跳预测、到达时间预测、路网匹配、路网表征学习。
+* [LibCity/Bigscity-LibCity](https://github.com/LibCity/Bigscity-LibCity/) 统一、全面、可扩展的代码库，为交通预测领域的研究人员提供了一个可靠的实验工具和便捷的开发框架。 我们的库基于 PyTorch 实现，并将与交通预测相关的所有必要步骤或组件包含到系统的流水线中，使研究人员能够进行全面的对比实验。 我们的库将有助于交通预测领域的标准化和可复现性。LibCity 目前支持以下任务：- 交通状态预测(交通流量预测、交通速度预测、交通需求预测、起点-终点（OD）矩阵预测、交通事故预测）轨迹下一跳预测、到达时间预测、路网匹配、路网表征学习。
 * [microsoft/FOST](https://github.com/microsoft/FOST) FOST 是一个通用的预测工具，它展示了我们在实际预测领域的经验和先进技术，包括时间、时空和分层预测。当前的通用预测工具（亚马逊的Gluon-TS、facebook的Prophet等）无法处理和建模结构图数据，尤其是在空间数据中
 
 ## 图预训练  Pre-Training of Graph
 
-* https://github.com/THUDM/GCC Graph Contrastive Coding for Graph Neural Network Pre-Training 用于图形神经网络预训练的图形对比编码，下游任务：节点分类、图分类、相似性搜索。
-* https://github.com/acbull/GPT-GNN Generative Pre-Training of Graph Neural Networks 图神经网络的生成式预训练。在预处理阶段，算法会首先随机地遮盖掉图中的一些边和点，利用生成模型来生成（预测）这些边的存在和节点的属性。模型的损失函数会使得预测的结果尽量接近真实的网络结构。这样的话，在GPT-GNN训练完成后，其内部的图神经网络层就可以被拿出来进行调优。
-* https://github.com/rootlu/L2P-GNN 首次探索学习预训练 GNNs，缓解了预训练与微调目标之间的差异，并为预训练 GNN 提供了新的研究思路。针对节点与图级表示，该研究提出完全自监督的 GNN 预训练策略。针对预训练 GNN，该研究建立了一个新型大规模书目图数据，并且在两个不同领域的数据集上进行了大量实验。实验表明，该研究提出的方法显著优于 SOTA 方法。
-* https://github.com/Shen-Lab/GraphCL 设计了一种针对无监督图表示学习的图对比学习框架 GraphCL。在该框架下，作者探索了 4 种不同先验下的图数据增强方法。考虑到半监督，无监督和迁移等任务，作者在很多数据集上系统的分析了不同图增强组合的影响。实验结果表明，作者所设计的 GraphCL 框架能够取得相似或者更优于 SOTA。GraphCL是一个基于对比学习的自监督图谱预训练模型，GraphCL模型对一个节点得到两个随机扰动的L-hop的Subgraph，通过最大化两个Subgraph之间的相似度来进行自监督学习。
+* [THUDM/GCC](https://github.com/THUDM/GCC) Graph Contrastive Coding for Graph Neural Network Pre-Training 用于图形神经网络预训练的图形对比编码，下游任务：节点分类、图分类、相似性搜索。
+* [acbull/GPT-GNN](https://github.com/acbull/GPT-GNN) Generative Pre-Training of Graph Neural Networks 图神经网络的生成式预训练。在预处理阶段，算法会首先随机地遮盖掉图中的一些边和点，利用生成模型来生成（预测）这些边的存在和节点的属性。模型的损失函数会使得预测的结果尽量接近真实的网络结构。这样的话，在GPT-GNN训练完成后，其内部的图神经网络层就可以被拿出来进行调优。
+* [rootlu/L2P-GNN](https://github.com/rootlu/L2P-GNN) 首次探索学习预训练 GNNs，缓解了预训练与微调目标之间的差异，并为预训练 GNN 提供了新的研究思路。针对节点与图级表示，该研究提出完全自监督的 GNN 预训练策略。针对预训练 GNN，该研究建立了一个新型大规模书目图数据，并且在两个不同领域的数据集上进行了大量实验。实验表明，该研究提出的方法显著优于 SOTA 方法。
+* [Shen-Lab/GraphCL](https://github.com/Shen-Lab/GraphCL) 设计了一种针对无监督图表示学习的图对比学习框架 GraphCL。在该框架下，作者探索了 4 种不同先验下的图数据增强方法。考虑到半监督，无监督和迁移等任务，作者在很多数据集上系统的分析了不同图增强组合的影响。实验结果表明，作者所设计的 GraphCL 框架能够取得相似或者更优于 SOTA。GraphCL是一个基于对比学习的自监督图谱预训练模型，GraphCL模型对一个节点得到两个随机扰动的L-hop的Subgraph，通过最大化两个Subgraph之间的相似度来进行自监督学习。
 
 ## 图对抗攻击
 
-* https://github.com/danielzuegner/robust-gcn RGCN（Robust Graph Convolutional Network）是最早的有关于图数据集上对抗攻击防御的工作之一。本文对GCN作出的改进主要体现在以下两点：
-  基于高斯分布的图卷积层（Gaussian-based Graph Convolution Layer）
-  采用attention机制为聚合的邻居特征分配权重
-* https://github.com/ChandlerBang/Pro-GNN 鲁棒图神经网络的图结构学习，抗严重干扰。
-* https://github.com/DSE-MSU/DeepRobust pytorch对抗库，用于图像和图模型的攻击和防御方法.
+* [danielzuegner/robust-gcn](https://github.com/danielzuegner/robust-gcn) Robust Graph Convolutional Network是最早的有关于图数据集上对抗攻击防御的工作之一。本文对GCN作出的改进主要体现在以下两点：基于高斯分布的图卷积层（Gaussian-based Graph Convolution Layer） 、采用attention机制为聚合的邻居特征分配权重。
+* [ChandlerBang/Pro-GNN](https://github.com/ChandlerBang/Pro-GNN) 鲁棒图神经网络的图结构学习，抗严重干扰。
+* [DSE-MSU/DeepRobust](https://github.com/DSE-MSU/DeepRobust) 用于图像和图模型的攻击和防御方法的pytorch库.
   * 图模型防御方法
     * adv_training、gcn、pgd近端梯度下降
     * gcn_preprocess GCNJaccard 首先通过不同的边缘对输入图进行预处理，并根据处理后的图训练GCN。
     * GCNSVD 一个2层图卷积网络，以SVD作为预处理。All You Need Is Low (Rank): Defending Against Adversarial Attacks on Graphs
     * prognn Pro-GNN 属性图神经网络 
     * r_gcn 强大的图卷积网络，抵抗对抗攻击。KDD 2019。
-* https://github.com/ChandlerBang/awesome-graph-attack-papers 此存储库旨在提供有关图形数据或 GNN（图形神经网络）上对抗性攻击和防御作品的链接。
-* https://github.com/MengmeiZ/LafAK 图神经网络的对抗标签翻转攻击与防御.提出了基于自监督的防御框架, 以社区分类作为辅助任务，引入社区级别的信号以惩罚过拟合翻转标签的GNN。
-* https://github.com/snap-stanford/gib 图信息瓶颈 (GIB)。研究者基于该原则构建了两个 GNN 模型：GIB-Cat 和 GIB-Bern，二者在抵御对抗攻击时取得了优异的性能。 图信息Bottleneck打造图最优表示->避免过拟合，并具备稳健性
-* https://github.com/liaopeiyuan/GAL Graph AdversariaL Networks 图对抗网络 Information Obfuscation of Graph Neural Networks 图神经网络的信息模糊处理,使得攻击者很难推断。
+* [ChandlerBang/awesome-graph-attack-papers](https://github.com/ChandlerBang/awesome-graph-attack-papers) 此存储库旨在提供有关图形数据或 GNN（图形神经网络）上对抗性攻击和防御作品的链接。
+* [MengmeiZ/LafAK](https://github.com/MengmeiZ/LafAK) 图神经网络的对抗标签翻转攻击与防御.提出了基于自监督的防御框架, 以社区分类作为辅助任务，引入社区级别的信号以惩罚过拟合翻转标签的GNN。
+* [snap-stanford/gib](https://github.com/snap-stanford/gib) 图信息瓶颈 (GIB)。研究者基于该原则构建了两个 GNN 模型：GIB-Cat 和 GIB-Bern，二者在抵御对抗攻击时取得了优异的性能。 图信息Bottleneck打造图最优表示->避免过拟合，并具备稳健性
+* [liaopeiyuan/GAL](https://github.com/liaopeiyuan/GAL) Graph AdversariaL Networks 图对抗网络 Information Obfuscation of Graph Neural Networks 图神经网络的信息模糊处理,使得攻击者很难推断。
+
+## 图聚合_节点聚合
+
+* [williamleif/GraphSAGE](https://github.com/williamleif/GraphSAGE) 核心思想就是学习聚合节点的邻居特征生成当前节点的信息的「聚合函数」，有了聚合函数不管图如何变化，都可以通过当前已知各个节点的特征和邻居关系，得到节点的embedding特征。
+* [trinayan/PinSageMultiGPU](https://github.com/trinayan/PinSageMultiGPU) 一个能够学习节点嵌入的随机游走GCN，由Pinterest公司和Stanford完成的工作，首次将图方法落地到了工业界。PinSage的理论背景是基于GraphSAGE，即归纳(inductive)式的学习，直接学习聚合函数而不是固定的节点，这也是其他的图算法如GCN等等直推式(transductive)方法无法做到的，更能满足实际中的图节点是不断变化的需求（节点和关系都会不断的变化）。
+* [graphdml-uiuc-jlu/geom-gcn](https://github.com/graphdml-uiuc-jlu/geom-gcn) 几何图卷积网络 将节点映射为连续空间的一个向量（graph embedding），在隐空间查找邻居并进行聚合。
+* [EstelleHuang666/gnn_hierarchical_pooling](https://github.com/EstelleHuang666/gnn_hierarchical_pooling) Hierarchical Graph Representation Learning 构建了一个多层次的、节点可微分的聚合 GNN 网络。在每一层中，完成信息的抽取，并将当前的图聚合为一个更粗粒度的图，供下一层使用。
+* [lukecavabarrett/pna](https://github.com/lukecavabarrett/pna) 提出了Principal Neighbourhood Aggregation (PNA)，一种考虑了 degree 的全新的 GNN 聚合器（泛化了现有的求和聚合器）。作者通过一些图例形象的解释了现有的各种聚合器的表示能力及其缺陷。
+
+## 图卷积网络
+
+* [benedekrozemberczki/ClusterGCN](https://github.com/benedekrozemberczki/ClusterGCN) 提出了一种新的方法来进行GCN训练：首先，对图进行聚类，把原图划分成一些紧密连接的子图；然后，抽样一个或者一些子图作为一个batch，在抽样出来的子图上进行卷积计算。
+* [tkipf/relational-gcn](https://github.com/tkipf/relational-gcn) 关系图卷积网络，是最早提出利用GCN来解决图结构中不同边关系对节点影响，在进行信息汇聚更新时，充分考虑节点之间的Edge对节点表征影响的模型。
+* [MichSchli/RelationPrediction](https://github.com/MichSchli/RelationPrediction) 图卷积网络用于关系链接预测
+* [JD-AI-Research-Silicon-Valley/SACN](https://github.com/JD-AI-Research-Silicon-Valley/SACN) 端到端结构感知卷积网络（SACN）模型充分利用了GCN和ConvE的优势来完成知识库。SACN由加权图卷积网络（WGCN）的编码器和称为Conv-TransE的卷积网络的解码器组成。WGCN利用知识图节点结构，节点属性和边缘关系类型。解码器Conv-TransE使最新的ConvE能够在实体和关系之间转换，同时保持与ConvE相同的链路预测性能。
+* [zhiyongc/Graph_Convolutional_LSTM](https://github.com/zhiyongc/Graph_Convolutional_LSTM) 
+* [Jiakui/awesome-gcn](https://github.com/Jiakui/awesome-gcn) 该存储库用于收集GCN，GAT（图形关注）相关资源。
+* [tkipf/gcn](https://github.com/tkipf/gcn) 图卷积网络在TensorFlow中的实现 [keras](https://github.com/tkipf/keras-gcn)
+* [karenlatong/AGC-master](https://github.com/karenlatong/AGC-master) Attributed Graph Clustering via Adaptive Graph Convolution 通过自适应图卷积的属性图聚类
+* [TAMU-VITA/L2-GCN](https://github.com/TAMU-VITA/L2-GCN) GCN高效分层训练框架
+
+# 图监督_半监督_对比学习
+
+* [THUDM/GRAND](https://github.com/THUDM/GRAND) Graph Random Neural Network ，用于图半监督学习的新型图神经网络框架。在模型架构上，提出了一种简单有效的图数据增强方法 Random Propagation，用来增强模型鲁棒性及减轻过平滑。基于 Random Propagation，GRAND 在优化过程中使用一致性正则（Consistency Regularization）来增强模型的泛化性，即除了优化标签节点的 cross-entropy loss 之外，还会优化模型在无标签节点的多次数据增强的预测一致性。节点预测 state of the Art.
+* [LirongWu/awesome-graph-self-supervised-learning](https://github.com/LirongWu/awesome-graph-self-supervised-learning) 图自监督学习（Graph Self-supervised Learning）最新综述+Github代码汇总
+* [RingBDStack/SUGAR](https://github.com/RingBDStack/SUGAR) “SUGAR：具有强化池和自监督互信息机制的子图神经网络”的代码
+* [https://github.com/lxiaorui/ElasticGNN](https://github.com/lxiaorui/ElasticGNN) 弹性图神经网络提出了一种新颖的通用消息传递方案到 GNN 中。这种消息传递算法不仅对反向传播训练友好，而且在理论上收敛保证的情况下实现了所需的平滑特性。半监督学习任务的实验表明，所提出的 Elastic GNN 在基准数据集上获得了更好的适应性，并且对图对抗攻击的鲁棒性明显更强。
+* [SXKDZ/awesome-self-supervised-learning-for-graphs](https://github.com/SXKDZ/awesome-self-supervised-learning-for-graphs) 一个很棒的图表自监督学习的精选列表。
+* [GraphCL/PyGCL](https://github.com/GraphCL/PyGCL) PyTorch 的图形对比学习库.图对比学习 (GCL) 建立了一种无需人工注释即可学习图表示的新范式。 典型的 GCL 算法首先通过输入的随机增强构造多个图视图，然后通过将正样本与负样本进行对比来学习表示。
 
 ## 其他_图神经网络GNN
 
-[naganandy/graph-based-deep-learning-literature](https://github.com/naganandy/graph-based-deep-learning-literature) 基于图的深度学习中的会议出版物
+* [naganandy/graph-based-deep-learning-literature](https://github.com/naganandy/graph-based-deep-learning-literature) 基于图的深度学习中的会议出版物
+* [tkipf/gae](https://github.com/tkipf/gae) 图自动编码器在TensorFlow中的实现
+* [peter14121/intentgc-models](https://github.com/peter14121/intentgc-models) 意图gc模型.从常见的用户行为和项目信息中收集了大量的关系，并提出了一个名为IntentGC的新框架，通过图卷积网络来利用显式偏好和异构关系。
+* [shawnwang-tech/GeniePath-pytorch](https://github.com/shawnwang-tech/GeniePath-pytorch) 自适应深度和广度图神经网络表征学习模型Geniepath
+* [neural_graph_collaborative_filtering](https://github.com/xiangwang1223/neural_graph_collaborative_filtering) 神经图协同滤波（NGCF）是一种基于图神经网络的新型推荐框架，通过进行嵌入传播，以用户-项目二分图中的高阶连接性形式对协同信号进行显式编码。
+* [gated-graph-neural-network-samples](https://github.com/microsoft/gated-graph-neural-network-samples) 门控图神经网络的两种实现，用于学习化学分子的性质
+* [deepmind/graph_nets](https://github.com/deepmind/graph_nets) 在Tensorflow中构建图网
+* [hwwang55/RippleNet](https://github.com/hwwang55/RippleNet) 将知识图谱作为额外信息，融入到CTR/Top-K推荐。[完整的逐行中文注释笔记](https://github.com/nakaizura/Source-Code-Notebook/tree/master/RippleNet)
+* [klicperajo/ppnp](https://github.com/klicperajo/ppnp) 预测然后传播：图形神经网络满足个性化PageRank
+* [Variational-Graph-Auto-Encoders](https://github.com/limaosen0/Variational-Graph-Auto-Encoders) 可变图自动编码器 链接预测
+* [animutomo/gcmc](https://github.com/animutomo/gcmc) Graph Convolution Matrix Completion 解决推荐系统中 矩阵补全 matrix completion 问题，并引入 side information（节点的额外信息）提升预测效果。
+* [Ruiqi-Hu/ARGA](https://github.com/Ruiqi-Hu/ARGA) 对抗正则化图自动编码器 Adversarially Regularized Graph Autoencoder，可用于图卷积的链路预测。进化路线 GAE -> VGAE -> ARGA 
+* [safe-graph/DGFraud](https://github.com/safe-graph/DGFraud) 基于深度图的工具箱，用于欺诈检测
+* [graph-fraud-detection-papers](https://github.com/safe-graph/graph-fraud-detection-papers) 基于图的欺诈检测论文和资源
+* [awesome-fraud-detection-papers](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers) 关于欺诈检测的数据挖掘论文的精选列表。
+* [snap-stanford/distance-encoding](https://github.com/snap-stanford/distance-encoding) 距离编码-为结构表示学习设计更强大的GNN，提出了一类与结构相关的特征，称为距离编码(Distance Encoding，DE)，以帮助 GNN 以比 1-WL test 更严格的表达能力来表示任意大小的节点集。
+* [megvii-research/DPGN](https://github.com/megvii-research/DPGN) Distribution Propagation Graph Network for Few-shot Learning 分布传播图网络的小样本学习
+* [CUAI/CorrectAndSmooth](https://github.com/CUAI/CorrectAndSmooth) 标签信息 + 简单模型 直接使用标签进行预测。与 其他方案相比，本文中的C&S模型需要的参数量往往要少得多。在很多标准直推式节点分类（transductive node classification）基准上，超过或媲美当前最优的性能。
+* [YimiAChack/GraphSTONE](https://github.com/YimiAChack/GraphSTONE) Graph Structural-topic Neural Network 图结构主题神经网络 本文类比自然语言处理中的相关概念，借助主题模型学习图的结构信息。
+* [YuGuangWang/PAN](https://github.com/YuGuangWang/PAN) 借鉴了物理中的一些概念，设计了一种 path integral based graph neural networks (PAN)。 PAN 将图拉普拉斯泛化到一种新的转移矩阵 maximal entropy transition (MET) matrix。重要的是，MET 矩阵的对角线元素直接和子图中心性相关，因此提供了一种自然的自适应池化机制。
+* [benedekrozemberczki/SimGNN](https://github.com/benedekrozemberczki/SimGNN) A Neural Network Approach to Fast Graph Similarity Computation  图相似度计算
+* [snap-stanford/GraphGym](https://github.com/snap-stanford/GraphGym) Identity-aware Graph Neural Networks一种身份感知图神经网络对现有的消息传递 GNN 进行了扩展，将其性能提升到了高于 1-WL 测试的水平。实验结果表明，将现有的 GNN 转变为 ID-GNN 可以在难以分类的节点预测、边预测、图属性预测任务中获得平均 40% 的准确率提升；在节点和图分类对比基准任务获得 3%的准确率提升；链接预测任务获得 15% 的ROC提升。
+* https://github.com/YuweiCao-UIC/KPGNN 图神经网络增量学习在事件检测中的应用 
+* [divelab/DeeperGNN](https://github.com/divelab/DeeperGNN) 解耦Transformation和Propagation的深度图神经网络 1、Transformation操作：MLP操作，torch.nn.Linear线性映射操作；2、Propagation操作：图中的邻居节点往中心节点汇聚的操作，最简单的实现方式是AH，A是图的邻接矩阵，H是图的特征矩阵。
+* [BUPT-GAMMA/CPF](https://github.com/BUPT-GAMMA/CPF) 提出了一个有效的知识蒸馏框架，以将任意预训练的GNN教师模型的知识注入精心设计的学生模型中。学生模型是通过两个简单的预测机制构建的，即标签传播和特征转换，它们自然分别保留了基于结构和基于特征的先验知识。
+* [WangXuhongCN/APAN](https://github.com/WangXuhongCN/APAN) Asynchronous Propagation Attention Network for Real-time Temporal Graph Embedding 实时时间图嵌入的异步传播注意网络
+* [flyingdoog/PGExplainer](https://github.com/flyingdoog/PGExplainer) GNN 的参数化解释器 PGExplainer。PGExplainer 利用深度神经网络对解释的生成过程进行参数化处理，能够实现同时对多个实例进行解释。
+* [lsj2408/GraphNorm](https://github.com/lsj2408/GraphNorm) 图归一化:一种加速图神经网络训练的原则性方法,通过一个可学习的移位来归一化每个单独图的所有节点上的特征值。收敛速度要快得多。它还改进了GNN的泛化，在图分类上实现更好的性能。
+* [YuGuangWang/UFG](https://github.com/YuGuangWang/UFG) 基于小波变换（framelet transforms）的图神经网络。
+* [maxiaoba/GRAPE](https://github.com/maxiaoba/GRAPE) 基于GNN的缺失特征填充和标签预测模型。将特征填充问题转为边级别的预测任务，将标签预测问题转为节点级别的预测任务。
+* [PKU-DAIR/DGMLP](https://github.com/PKU-DAIR/DGMLP) 评估深度图神经网络，对图形结构数据使用深度汇总的实验评估。GNN模型普遍较浅的真正原因 - 模型退化与过平滑。
+* [snap-stanford/CAW](https://github.com/snap-stanford/CAW) 基于因果匿名游走的时序网络归纳表示学习模型
+* [BUPT-GAMMA/Graph-Structure-Estimation-Neural-Networks](https://github.com/BUPT-GAMMA/Graph-Structure-Estimation-Neural-Networks) 用于估计适配于GNN的图结构，以提高下游任务性能。GEN引入结构模型考虑图生成过程中的潜在社团结构，并提出观察模型将多方面信息（例如，多阶邻域相似性）作为图结构的观测。基于这些模型，GEN利用贝叶斯推断框架得到最终估计图。大量实验结果验证了GEN的有效性及其估计图的合理性。
+* [thunlp/GNNPapers](https://github.com/thunlp/GNNPapers) 图神经网络上的必读论文 （GNN）
+* [google-research/graph-attribution](https://github.com/google-research/graph-attribution)  用于[*评估图神经网络属性的*](https://papers.nips.cc/paper/2020/hash/417fbbf2e9d5a28a855a11894b2e795a-Abstract.html)代码库
+* [Saro00/DGN](https://github.com/Saro00/DGN) 定向图网络在 PyTorch 和 DGL 中的实现
+* [liaopeiyuan/GAL](https://github.com/liaopeiyuan/GAL) 图神经网络的信息混淆 使用 FB15k-237 和 WN18RR 数据集进行知识图链接预测。使用 Movielens-1M 数据集进行推荐系统链接预测任务。
 
-https://github.com/benedekrozemberczki/ClusterGCN 提出了一种新的方法来进行GCN训练：首先，对图进行聚类，把原图划分成一些紧密连接的子图；然后，抽样一个或者一些子图作为一个batch，在抽样出来的子图上进行卷积计算。
 
-https://github.com/tkipf/relational-gcn 关系图卷积网络，是最早提出利用GCN来解决图结构中不同边关系对节点影响，在进行信息汇聚更新时，充分考虑节点之间的Edge对节点表征影响的模型。
-
-https://github.com/MichSchli/RelationPrediction 图卷积网络用于关系链接预测
-
-https://github.com/JD-AI-Research-Silicon-Valley/SACN 端到端结构感知卷积网络（SACN）模型充分利用了GCN和ConvE的优势来完成知识库。SACN由加权图卷积网络（WGCN）的编码器和称为Conv-TransE的卷积网络的解码器组成。WGCN利用知识图节点结构，节点属性和边缘关系类型。解码器Conv-TransE使最新的ConvE能够在实体和关系之间转换，同时保持与ConvE相同的链路预测性能。
-
-https://github.com/zhiyongc/Graph_Convolutional_LSTM
-
-https://github.com/Jiakui/awesome-gcn 该存储库用于收集GCN，GAT（图形关注）相关资源。
-
-https://github.com/tkipf/gae
-
-https://github.com/peter14121/intentgc-models 意图gc模型
-
-https://github.com/williamleif/GraphSAGE 核心思想就是学习聚合节点的邻居特征生成当前节点的信息的「聚合函数」，有了聚合函数不管图如何变化，都可以通过当前已知各个节点的特征和邻居关系，得到节点的embedding特征。
-
-https://github.com/trinayan/PinSageMultiGPU 一个能够学习节点嵌入的随机游走GCN，由Pinterest公司和Stanford完成的工作，首次将图方法落地到了工业界。PinSage的理论背景是基于GraphSAGE，即归纳(inductive)式的学习，直接学习聚合函数而不是固定的节点，这也是其他的图算法如GCN等等直推式(transductive)方法无法做到的，更能满足实际中的图节点是不断变化的需求（节点和关系都会不断的变化）。
-
-https://github.com/shawnwang-tech/GeniePath-pytorch 自适应深度和广度图神经网络表征学习模型Geniepath
-
-https://github.com/xiangwang1223/neural_graph_collaborative_filtering
-
-https://github.com/tkipf/gae Graph Auto-Encoders
-
-https://github.com/tkipf/gcn
-
-https://github.com/microsoft/gated-graph-neural-network-samples
-
-https://github.com/deepmind/graph_nets 在Tensorflow中构建图网
-
-https://github.com/tkipf/keras-gcn
-
-https://github.com/thunlp/KB2E
-
-RLgraph 用于深度强化学习的模块化计算图
-
-https://github.com/hwwang55/RippleNet 将知识图谱作为额外信息，融入到CTR/Top-K推荐。[完整的逐行中文注释笔记](https://github.com/nakaizura/Source-Code-Notebook/tree/master/RippleNet)
-
-https://github.com/klicperajo/ppnp 预测然后传播：图形神经网络满足个性化PageRank
-
-https://github.com/graphdml-uiuc-jlu/geom-gcn 几何图卷积网络 将节点映射为连续空间的一个向量（graph embedding），在隐空间查找邻居并进行聚合。
-
-https://github.com/EstelleHuang666/gnn_hierarchical_pooling Hierarchical Graph Representation Learning 构建了一个多层次的、节点可微分的聚合 GNN 网络。在每一层中，完成信息的抽取，并将当前的图聚合为一个更粗粒度的图，供下一层使用。
-
-https://github.com/limaosen0/Variational-Graph-Auto-Encoders 可变图自动编码器 链接预测
-
-https://github.com/animutomo/gcmc Graph Convolution Matrix Completion 解决推荐系统中 矩阵补全 matrix completion 问题，并引入 side information（节点的额外信息）提升预测效果。
-
-https://github.com/Ruiqi-Hu/ARGA 对抗正则化图自动编码器 Adversarially Regularized Graph Autoencoder，可用于图卷积的链路预测。进化路线 GAE -> VGAE -> ARGA 
-
-https://github.com/TAMU-VITA/L2-GCN GCN高效分层训练框架
-
-https://github.com/safe-graph/DGFraud 基于深度图的工具箱，用于欺诈检测
-
-https://github.com/safe-graph/graph-fraud-detection-papers 基于图的欺诈检测论文和资源
-
-[awesome-fraud-detection-papers](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers) 关于欺诈检测的数据挖掘论文的精选列表。
-
-https://github.com/aister2020/KDDCUP_2020_AutoGraph_1st_Place KDD KDD CUP 2020自动图形表示学习：第一名解决方案。实现了四种不同的模型GCN、GAT、GraphSage、TAGConv
-
-https://github.com/snap-stanford/distance-encoding 距离编码-为结构表示学习设计更强大的GNN，提出了一类与结构相关的特征，称为距离编码(Distance Encoding，DE)，以帮助 GNN 以比 1-WL test 更严格的表达能力来表示任意大小的节点集。
-
-https://github.com/megvii-research/DPGN DPGN: Distribution Propagation Graph Network for Few-shot Learning 分布传播图网络的小样本学习
-
-https://github.com/THUDM/GRAND Graph Random Neural Network (GRAND)，一种用于图半监督学习的新型图神经网络框架。在模型架构上，GRAND 提出了一种简单有效的图数据增强方法 Random Propagation，用来增强模型鲁棒性及减轻过平滑。基于 Random Propagation，GRAND 在优化过程中使用一致性正则（Consistency Regularization）来增强模型的泛化性，即除了优化标签节点的 cross-entropy loss 之外，还会优化模型在无标签节点的多次数据增强的预测一致性。节点预测 state of the Art.
-
-https://github.com/CUAI/CorrectAndSmooth 标签信息 + 简单模型 直接使用标签进行预测。与 其他方案相比，本文中的 C&S 模型需要的参数量往往要少得多。在很多标准直推式节点分类（transductive node classification）基准上，超过或媲美当前最优 GNN 的性能。
-
-https://github.com/YimiAChack/GraphSTONE Graph Structural-topic Neural Network 图结构主题神经网络 本文类比自然语言处理中的相关概念，借助主题模型学习图的结构信息。
-
-https://github.com/YuGuangWang/PAN 借鉴了物理中的一些概念，设计了一种 path integral based graph neural networks (PAN)。 PAN 将图拉普拉斯泛化到一种新的转移矩阵 maximal entropy transition (MET) matrix。重要的是，MET 矩阵的对角线元素直接和子图中心性相关，因此提供了一种自然的自适应池化机制。
-
-https://github.com/lukecavabarrett/pna 作者提出了 Principal Neighbourhood Aggregation (PNA)，一种考虑了 degree 的全新的 GNN 聚合器（泛化了现有的求和聚合器）。作者通过一些图例形象的解释了现有的各种聚合器的表示能力及其缺陷。
-
-https://github.com/benedekrozemberczki/SimGNN A Neural Network Approach to Fast Graph Similarity Computation  图相似度计算
-
-https://github.com/snap-stanford/GraphGym Identity-aware Graph Neural Networks一种身份感知图神经网络对现有的消息传递 GNN 进行了扩展，将其性能提升到了高于 1-WL 测试的水平。实验结果表明，将现有的 GNN 转变为 ID-GNN 可以在难以分类的节点预测、边预测、图属性预测任务中获得平均 40% 的准确率提升；在节点和图分类对比基准任务中可以获得 3%的准确率提升；链接预测任务重可以获得 15% 的 ROC UC 提升。
-
-https://github.com/YuweiCao-UIC/KPGNN 图神经网络增量学习在事件检测中的应用 
-
-https://github.com/divelab/DeeperGNN 解耦Transformation和Propagation的深度图神经网络 1、Transformation操作：MLP操作，torch.nn.Linear线性映射操作；2、Propagation操作：图中的邻居节点往中心节点汇聚的操作，最简单的实现方式是AH，A是图的邻接矩阵，H是图的特征矩阵。
-
-https://github.com/BUPT-GAMMA/CPF 提出了一个有效的知识蒸馏框架，以将任意预训练的GNN教师模型的知识注入精心设计的学生模型中。学生模型是通过两个简单的预测机制构建的，即标签传播和特征转换，它们自然分别保留了基于结构和基于特征的先验知识。
-
-https://github.com/WangXuhongCN/APAN Asynchronous Propagation Attention Network for Real-time Temporal Graph Embedding 实时时间图嵌入的异步传播注意网络
-
-https://github.com/flyingdoog/PGExplainer GNN 的参数化解释器 PGExplainer。PGExplainer 利用深度神经网络对解释的生成过程进行参数化处理，能够实现同时对多个实例进行解释。
-
-https://github.com/lsj2408/GraphNorm 图归一化:一种加速图神经网络训练的原则性方法,通过一个可学习的移位来归一化每个单独图的所有节点上的特征值。收敛速度要快得多。它还改进了GNN的泛化，在图分类上实现更好的性能。
-
-https://github.com/YuGuangWang/UFG 基于小波变换（framelet transforms）的图神经网络。
-
-https://github.com/LirongWu/awesome-graph-self-supervised-learning 图自监督学习（Graph Self-supervised Learning）最新综述+Github代码汇总
-
-https://github.com/karenlatong/AGC-master Attributed Graph Clustering via Adaptive Graph Convolution 通过自适应图卷积的属性图聚类
-
-https://github.com/maxiaoba/GRAPE 基于GNN的缺失特征填充和标签预测模型。将特征填充问题转为边级别的预测任务，将标签预测问题转为节点级别的预测任务。
-
-https://github.com/PKU-DAIR/DGMLP 评估深度图神经网络，对图形结构数据使用深度汇总的实验评估。GNN模型普遍较浅的真正原因 - 模型退化与过平滑。
-
-[snap-stanford/CAW](https://github.com/snap-stanford/CAW) 基于因果匿名游走的时序网络归纳表示学习模型
-
-https://github.com/BUPT-GAMMA/Graph-Structure-Estimation-Neural-Networks 用于估计适配于GNN的图结构，以提高下游任务性能。具体地，GEN引入结构模型考虑图生成过程中的潜在社团结构，并提出观察模型将多方面信息（例如，多阶邻域相似性）作为图结构的观测。基于这些模型，GEN利用贝叶斯推断框架得到最终估计图。大量实验结果验证了GEN的有效性及其估计图的合理性。
-
-https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
-
-[GraphCL/PyGCL](https://github.com/GraphCL/PyGCL) PyTorch 的图形对比学习库.图对比学习 (GCL) 建立了一种无需人工注释即可学习图表示的新范式。 典型的 GCL 算法首先通过输入的随机增强构造多个图视图，然后通过将正样本与负样本进行对比来学习表示。
-
-[RingBDStack/SUGAR](https://github.com/RingBDStack/SUGAR) “SUGAR：具有强化池和自监督互信息机制的子图神经网络”的代码
-
-[google-research/graph-attribution](https://github.com/google-research/graph-attribution)  用于[*评估图神经网络属性的*](https://papers.nips.cc/paper/2020/hash/417fbbf2e9d5a28a855a11894b2e795a-Abstract.html)代码库
-
-[Saro00/DGN](https://github.com/Saro00/DGN) 定向图网络在 PyTorch 和 DGL 中的实现
-
-[https://github.com/liaopeiyuan/GAL](https://github.com/liaopeiyuan/GAL) 图神经网络的信息混淆 使用 FB15k-237 和 WN18RR 数据集进行知识图链接预测。使用 Movielens-1M 数据集进行推荐系统链接预测任务。
-
-[https://github.com/lxiaorui/ElasticGNN](https://github.com/lxiaorui/ElasticGNN) 弹性图神经网络提出了一种新颖的通用消息传递方案到 GNN 中。这种消息传递算法不仅对反向传播训练友好，而且在理论上收敛保证的情况下实现了所需的平滑特性。半监督学习任务的实验表明，所提出的 Elastic GNN 在基准数据集上获得了更好的适应性，并且对图对抗攻击的鲁棒性明显更强。
-
-[SXKDZ/awesome-self-supervised-learning-for-graphs](https://github.com/SXKDZ/awesome-self-supervised-learning-for-graphs) 一个很棒的图表自监督学习的精选列表。
 
 # NLP自然语言处理
 
@@ -996,6 +790,8 @@ https://github.com/thunlp/GNNPapers 图神经网络上的必读论文 （GNN）
 * [songjiang0909/awesome-knowledge-graph-construction](https://github.com/songjiang0909/awesome-knowledge-graph-construction) 很棒的知识图构建
 
 * [ZihengZZH/awesome-multimodal-knowledge-graph](https://github.com/ZihengZZH/awesome-multimodal-knowledge-graph) 多模态知识图谱的精彩阅读列表或其他资源（数据集、教程等）。
+
+* [thunlp/KB2E](https://github.com/thunlp/KB2E) 知识图谱嵌入，包括 TransE、TransH、TransR 和 PTransE
 
 ## NLP语料和数据集
 
@@ -1560,6 +1356,8 @@ minerllabs/minerl Minecraft 游戏环境
 mwydmuch/ViZDoom 基于ZDoom末日的AI研究平台，可从原始视觉信息进行强化学习。
 
 openai/retro 复古游戏 
+
+[rlgraph/rlgraph](https://github.com/rlgraph/rlgraph) 用于深度强化学习的模块化计算图
 
 google-research/football 基于开源游戏Game Football的RL环境
 
@@ -2408,205 +2206,106 @@ danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 # 安全与渗透
 
 [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
-
-[fofapro/vulfocus](https://github.com/fofapro/vulfocus) 漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。
-
+[fofapro/vulfocus](https://github.com/fofapro/vulfocus) 漏洞集成平台，将漏洞环境docker镜像，放入即可使用，开箱即用。
 [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 一个简单的现代化公司域名使用规律预测及生成工具
-
 [0x727/ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) 水泽-信息收集自动化工具 只需要输入根域名即可全方位收集相关资产，并检测漏洞。
-
 [TideSec/TideFinger](https://github.com/TideSec/TideFinger) TideFinger——指纹识别小工具，汲取整合了多个web指纹库，结合了多种指纹检测方法，让指纹检测更快捷、准确。
-
 [wooyunwang/Fortify](https://github.com/wooyunwang/Fortify) 源代码各种审计漏洞白测试盒的漏洞描述或具体修复方案
-
 [insightglacier/Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting) Pentesing、Fuzzing、Bruteforce 和 BugBounty 等字典收集项目。渗透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
-
 [Al1ex/Pentest-tools](https://github.com/Al1ex/Pentest-tools) 内网渗透工具:ACL突破、交换、真实劫持、信息收集、内网电话、密码喷洒、密码抓取、密码破解、权限提升、权限维持、横向移动、端口扫描、端口转发、网络嗅探、集成工具
-
 [Gality369/CS-Loader](https://github.com/Gality369/CS-Loader) CS免杀,包括python版和C版本
-
 [xuanhusec/OscpStudyGroup](https://github.com/xuanhusec/OscpStudyGroup) Oscp公益学习组,包括：小技巧合集、Kali基本操作、常用工具、windows提权汇总、反弹shell方法汇总、靶机推荐列表、缓冲区溢出通关脚本框架、OSCP命令大全、反弹shell方法汇总、linux提权方法汇总、windows提权方法汇总、Linux提权辅助、Windows提权辅助、渗透测试方法论、靶机练习
-
 [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) 用于渗透测试人员和开发人员的交互式 TLS 拦截 HTTP 代理。用于 MITM的 proxy，MITM即中间人攻击（Man-in-the-middle attack）。用于中间人攻击的代理首先会向正常的代理一样转发请求，保障服务端与客户端的通信，其次，会适时的查、记录其截获的数据，或篡改数据，引发服务端或客户端特定的行为。 不同于 fiddler 或 wireshark 等抓包工具，mitmproxy 不仅可以截获请求帮助开发者查看、分析，更可以通过自定义脚本进行二次开发。
-
 [ybdt/post-hub](https://github.com/ybdt/post-hub) 传播代理、C2、免杀、横向、域渗透
-
 [xuedingmiaojun/wxappUnpacker](https://github.com/xuedingmiaojun/wxappUnpacker) 小程序反编译（支持分包）
-
 [wetools/wept](https://github.com/wetools/wept) 微信小程序多端实时运行工具.支持iOS Android Mac, Window 以及 Linux
-
 [ffffffff0x/1earn](https://github.com/ffffffff0x/1earn) ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup
-
-[Power7089/PenetrationTest-Tips](https://github.com/Power7089/PenetrationTest-Tips) 渗透测试，渗透测试小技巧，渗透测试Tips
-
+[Power7089/PenetrationTest-Tips](https://github.com/Power7089/PenetrationTest-Tips) 渗透测试小技巧，渗透测试Tips
 [cleverbao/520apkhook](https://github.com/cleverbao/520apkhook) 把ms的安卓远控附加进普通的app中，并进行隐藏特征。可以通用的手机安全管家。
-
 [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) 一个逆向工程安卓apk文件的工具
-
 [lintstar/About-Attack](https://github.com/lintstar/About-Attack) 一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收集，降低红队技术门槛的手册
-
 [Simp1er/AndroidSec](https://github.com/Simp1er/AndroidSec) 记录一些我自己在学习安卓逆向过程中的海洋的东西
-
 [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)  PC版微信/QQ/TIM防撤回补丁
-
 [tombstoneghost/TIWAP](https://github.com/tombstoneghost/TIWAP) 使用 Flask 制作的 Web 安全测试实验室，供新手安全爱好者了解各种 Web 漏洞。
-
 [d3ckx1/Fvuln](https://github.com/d3ckx1/Fvuln) F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。
-
-[qianxiao996/CTF-Tools](https://github.com/qianxiao996/CTF-Tools) 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。
-
+[qianxiao996/CTF-Tools](https://github.com/qianxiao996/CTF-Tools) Python+Pyqt写的CTF编码、解码、加密、解密工具。
 [AntSwordProject/antSword](https://github.com/AntSwordProject/antSword) 中国蚁剑是跨平台的开源网站管理工具。
-
 [yzddmr6/As-Exploits](https://github.com/yzddmr6/As-Exploits) 中国蚁剑后渗透框架
-
 [ph4ntonn/Stowaway](https://github.com/ph4ntonn/Stowaway) 利用go语言编写、专为渗透测试工作者制作的多级代理工具
-
 [WangYihang/Platypus](https://github.com/WangYihang/Platypus) 用 go 编写的现代多反向 shell 会话管理器
-
 [jweny/pocassist](https://github.com/jweny/pocassist) 全新的开源漏洞测试框架，实现poc在线编辑、运行、批量测试。
-
 [wh1t3p1g/ysomap](https://github.com/wh1t3p1g/ysomap) 一个有用的 Java 反序列化漏洞利用框架。
-
 [whwlsfb/BurpCrypto](https://github.com/whwlsfb/BurpCrypto) AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件
-
 [Tlaster/YourAV](https://github.com/Tlaster/YourAV) 宇宙级最轻量杀毒软件
-
 [i11us0ry/goon](https://github.com/i11us0ry/goon) goon,集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
-
 [ffffffff0x/f8x](https://github.com/ffffffff0x/f8x) 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等.
-
 [SafeGroceryStore/Caesar](https://github.com/SafeGroceryStore/Caesar) 一个全新的敏感文件发现工具
-
 [Ed1s0nZ/cool](https://github.com/Ed1s0nZ/cool) Golang-Gin框架写的免杀平台，内置分离、捆绑等多种BypassAV方式。
-
 [zyylhn/zscan](https://github.com/zyylhn/zscan) 开源的内网端口扫描器、爆破工具和其他实用工具的集合体可以称为工具包。以主机和内网网段发现和端口扫描为基础，可以对mysql、mssql、redis、mongo、postgres、ftp、ssh、ldap、rdp、smb等服务进行爆破，还有其他netbios、smb、oxid、socks server（扫描内网中的代理服务器）、snmp、ms17010等扫描功能，支持poc（xray v1格式）单个和批量检测。
-
 [jwt1399/Sec-Tools](https://github.com/jwt1399/Sec-Tools) 基于Python-Django的多功能Web安全渗透测试工具，包含漏洞扫描，端口扫描，指纹识别，目录扫描，旁站扫描，域名扫描等功能。
-
 [tangxiaofeng7/SecExample](https://github.com/tangxiaofeng7/SecExample) JAVA 漏洞靶场 (Vulnerability Environment For Java)
-
 [pen4uin/pentest-note](https://github.com/pen4uin/pentest-note) 渗透测试☞经验/思路/想法/总结/笔记
-
 [timwhitez/Frog-checkCDN](https://github.com/timwhitez/Frog-checkCDN) 批量检查目标是否为cdn
 
 # 其他
 
 [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
-
-[mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks 作为 Markdown 文档、Julia、Python 或 R 脚本
-
+[mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks 作为Markdown文档、Julia、Python或R脚本
 modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
-
 huihut/interview C/C++ 技术面试基础知识总结
-
 barry-ran/QtScrcpy Android实时显示控制软件
-
 bennettfeely/bennett ztext 易于实现的3D网页排版。适用于每种字体。
-
 DaveJarvis/keenwrite 基于Java的桌面Markdown编辑器，具有实时预览，字符串插值和公式
-
 vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
-
 willmcgugan/rich 一个终端内富文本和美化的python库。
-
 crazycodeboy/awesome-flutter-cn  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
-
 xujiyou/zhihu-flutter  Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
-
 nisrulz/flutter-examples 给初露头角的flutter开发人员的简单基本的应用程序示例。
-
 microsoft/playwright-python 针对 Python 语言的纯自动化工具，它可以通过单个API自动执行 Chromium，Firefox 和 WebKit 浏览器，连代码都不用写，就能实现自动化功能。
-
 hoffstadt/DearPyGui 一个针对Python的快速而强大的图形用户界面工具包，具有最小的依赖性
-
 emeryberger/scalene 适用于Python的高性能，高精度CPU和内存分析器.用于Python脚本的CPU和内存分析器，能够正确处理多线程代码，还能区分Python代码和本机代码的运行时间。
-
 raysan5/raylib 一个简单易用的视频游戏编程库 
-
 rwv/chinese-dos-games 中文 DOS 游戏
-
 nondanee/UnblockNeteaseMusic 解锁网易云音乐客户端变灰歌曲
-
 fffaraz/awesome-cpp A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
-
 Genymobile/scrcpy 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
-
 openstf/minitouch 最小的Android多点触控事件生成器。
-
 gozfree/gear-lib 一组通用的Ｃ基础库，用POSIX C实现，目标是为了跨平台兼容。适用于物联网，嵌入式，以及网络服务开发等场景。
-
 tangtangcoding/C-C- C语言电子书与视频资料分享
-
 fluttercandies/wechat_flutter Flutter版本微信，一个优秀的Flutter即时通讯IM开源库
-
 CoderMikeHe/flutter_wechat 利用 Flutter 来高仿微信(WeChat) 7.0.0+ App
-
 youxinLu/flutter_mall 一款Flutter开源在线商城应用程序
-
 ducafecat/flutter_learn_news  flutter实战学习-新闻客户端 
-
 freestyletime/FlutterNews  用Flutter写的新闻类小项目 
-
 linyacool/WebServer C++11编写的Web服务器
-
 sanic-org/sanic 异步 Python 3.7+ web 框架 
-
 davidbrochart/nbterm 让你在终端中查看、编辑、执行Jupyter笔记。
-
 SocialSisterYi/bilibili-API-collect  哔哩哔哩-API收集整理
-
 jobbole/awesome-python-cn Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等
-
 saghul/txiki.js 使用 QuickJS、libuv 构建的微型 JavaScript 运行时
-
 dblalock/bolt 矩阵和向量运算速度提高 10 倍
-
 [TheZoraiz/ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) 将图像转换为 ascii 艺术并在控制台上打印它们。
-
 [jina-ai/jina](https://github.com/jina-ai/jina) 一个神经搜索框架，它使任何人都可以在几分钟内构建 SOTA 和可扩展的深度学习搜索应用程序。可扩展的索引、查询、理解任何数据：视频、图像、长/短文本、音乐、源代码、PDF 等。
-
 [deepmind/mujoco](https://github.com/deepmind/mujoco) 多关节动力学与接触。通用物理模拟器。
-
 [keenon/nimblephysics](https://github.com/keenon/nimblephysics) Nimble：深度学习的物理引擎
-
-[Alinshans/MyTinySTL](https://github.com/Alinshans/MyTinySTL) 实现了大部分 STL 中的容器与函数，但仍存在许多不足与 bug 。
-
+[Alinshans/MyTinySTL](https://github.com/Alinshans/MyTinySTL) 实现了大部分STL中的容器与函数，但仍存在许多bug。
 [rspivak/lsbasi](https://github.com/rspivak/lsbasi) 让我们构建一个简单的解释器
-
 [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) 通过您自己的 Linux 硬件进行全网广告拦截,Pi-hole® 是一个[DNS 漏洞](https://en.wikipedia.org/wiki/DNS_Sinkhole)，无需安装任何客户端软件即可保护您的设备免受不需要的内容的侵害。
-
 [antlr/antlr4](https://github.com/antlr/antlr4) ANTLR（另一种语言识别工具）是一个强大的解析器生成器，用于读取、处理、执行或翻译结构化文本或二进制文件。
-
 [ptitSeb/box86](https://github.com/ptitSeb/box86/) Box86 - Linux 用户空间 x86 仿真器，针对 ARM Linux 设备
-
-[ptitSeb/box64/](https://github.com/ptitSeb/box64/) Box64  Linux 用户空间 x86_64 仿真器，针对 ARM64 Linux 设备
-
+[ptitSeb/box64](https://github.com/ptitSeb/box64/) Box64  Linux 用户空间 x86_64 仿真器，针对 ARM64 Linux 设备
 [joerick/pyinstrument](https://github.com/joerick/pyinstrument) 用于 Python 的调用堆栈分析器。向您展示为什么您的代码很慢！
-
 [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。
-
 [EastWorld/wechat-app-mall](https://github.com/EastWorld/wechat-app-mall) 微信小程序商城，微信小程序微店
-
 [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) 基于Electron的图表和白板桌面应，包装了核心draw.io编辑器。
-
 [microapp-store/flash-waimai](https://github.com/microapp-store/flash-waimai) 仿照饿了么的外卖平台，包括手机端，后台管理, api服务
-
 [PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
-
 [marktext/marktext](https://github.com/marktext/marktext) 备忘录一个简单优雅的markdown编辑器，适用于 Linux、macOS 和 Windows。
-
 [weartist/computer_book_list](https://github.com/weartist/computer_book_list) 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
-
 [sunym1993/flash-linux0.11-talk](https://github.com/sunym1993/flash-linux0.11-talk) 像小说一样品读 Linux 0.11 核心代码
-
 [sunface/rust-course](https://github.com/sunface/rust-course)   “连续六年成为全世界最受喜爱的语言，无GC也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS未来基石" —  工作之余的第二语言来试试Rust吧。<<Rust语言圣经>>拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内。这可能是目前最用心的Rust中文学习教程/书籍
-
-[Textualize/textual](https://github.com/Textualize/textual) 受现代 Web 开发启发的 Python 的 TUI（文本用户界面）框架。
-
+[Textualize/textual](https://github.com/Textualize/textual) 受现代Web开发启发的 Python 的 TUI（文本用户界面）框架。
 [psf/black](https://github.com/psf/black) 毫不妥协的 Python 代码格式化程序 
-
 [clouddreamteam_admin/cloud-dream](https://gitee.com/clouddreamteam_admin/cloud-dream) 微信小程序——餐饮点餐商城，是针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！
-
 [HC小区业主版: hc智慧家园小程序 ](https://gitee.com/java110/WechatOwnerService) 是 HC小区开源项目的一个分支项目，主要给业主使用，其中包括缴物业费，缴停车费，投诉建议，家庭成员维护，房屋保修 房屋出租，公告查看，小区圈等功能。
-
 [veloren/veloren](https://github.com/veloren/veloren) 用 Rust 编写的多人体素 RPG。从 Cube World、Minecraft 和 Dwarf Fortress 等游戏中汲取灵感。该游戏目前正在大力开发中，但可以玩。
