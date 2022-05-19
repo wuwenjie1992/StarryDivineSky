@@ -44,270 +44,214 @@
 
 # 机器学习与深度学习
 
-[Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)  [教程/笔记]吴恩达老师的机器学习课程个人笔记 
-[apachecn/AiLearning)](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
-[microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
-[microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周，20 节课，全民数据科学！
-[visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) 机器学习操作 (MLOps)，可自动执行并加速机器学习生命周期。精选的参考文献列表。
-[PyTorchLightning/PyTorch-lightning](https://github.com/PyTorchLightning/PyTorch-lightning) 基于Pytorch的轻量高级计算框架，相当于Keras框架。
-[alibaba/MNN](https://github.com/alibaba/MNN) 轻量级的深度神经网络推理引擎
-[Tencent/TNN](https://github.com/Tencent/TNN) 移动端高性能、轻量级推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势
-[microsoft/nnfusion](https://github.com/microsoft/nnfusion) 灵活高效的深度神经网络（DNN）编译器，可从DNN模型描述生成高性能的可执行文件。
-[apache/incubator-tvm](https://github.com/apache/incubator-tvm) 用于深度学习系统的编译器堆栈。它旨在缩小以生产力为中心的深度学习框架与以性能和效率为重点的硬件后端之间的差距。TVM与深度学习框架一起使用，以提供对不同后端的端到端编译
-[geohot/tinygrad](https://github.com/geohot/tinygrad) 不到1000行的深度学习框架，麻雀虽小，但五脏俱全，这个深度学习框架使用起来和PyTorch类似
-[karpathy/micrograd](https://github.com/karpathy/micrograd) 微型标量自动求导引擎，类似PyTorch API的神经网络库
-[wandb/client](https://github.com/wandb/client) Weights and Biases 组织和分析机器学习实验 它与框架无关，并且比TensorBoard轻巧。每次您运行带有的脚本时wandb，都会保存您的超参数和输出指标。在训练过程中可视化模型，并轻松比较模型的版本。我们还将自动跟踪您的代码状态，系统指标和配置参数。
-[NUAA-AL/ALiPy](https://github.com/NUAA-AL/ALiPy) 基于Python实现的主动学习工具包
-[facebookresearch/nevergrad](https://github.com/facebookresearch/nevergrad) 无梯度优化平台
-[yzhao062/combo](https://github.com/yzhao062/combo) 用于机器学习**模型组合**的 Python 工具箱。模型组合可以被认为是整体学习的子任务，并且已被广泛用于诸如Kaggle [3]之类的现实任务和数据科学竞赛中。
-[google/trax](https://github.com/google/trax) 代码更清晰的神经网络代码库
-[Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow) OneFlow是一个以性能为中心的开源深度学习框架。
-[jonasrauber/eagerpy](https://github.com/jonasrauber/eagerpy) 编写与PyTorch，TensorFlow，JAX和NumPy本地兼容的代码
-[rushter/MLAlgorithms](https://github.com/rushter/MLAlgorithms) 机器学习算法
-[MLEveryday/100-Days-Of-ML-Code](https://github.com/MLEveryday/100-Days-Of-ML-Code) 100-Days-Of-ML-Code中文版
-[csuldw/MachineLearning](https://github.com/csuldw/MachineLearning) csuldw/MachineLearning
-[luwill/machine-learning-code-writing](https://github.com/luwill/machine-learning-code-writing) luwill/machine-learning-code-writing
-[geekinglcq/CDCS](https://github.com/geekinglcq/CDCS) CDCS 中国数据竞赛优胜解集锦
-[mlpack/mlpack](https://github.com/mlpack/mlpack) C++ 快速、灵活的机器学习库
-[tensorflow/ranking](https://github.com/tensorflow/ranking) TensorFlow中的排名学习
-[scikit-survival](https://github.com/scikit-survival) 生存分析
-[ShichenXie/scorecardpy](https://github.com/ShichenXie/scorecardpy)  Scorecard Development in python, 评分卡
-[lavender28/Credit-Card-Score](https://github.com/lavender28/Credit-Card-Score) 申请信用评分卡模型
-[modin-project/modin](https://github.com/modin-project/modin) 通过更改一行代码来扩展加速pandas 
-[vaexio/vaex](https://github.com/vaexio/vaex) 适用于Python的核外DataFrame，以每秒十亿行的速度可视化和探索大型表格数据
-[cupy/cupy](https://github.com/cupy/cupy) 使用 CUDA 加速类似 NumPy 的 API
-[serge-sans-paille/pythran](https://github.com/serge-sans-paille/pythran) 将 Python 代码转成 C++ 代码执行 一个 AOT (Ahead-Of-Time - 预先编译) 编译器，大幅度提升性能。
-[RAPIDS Open GPU Data Science](http://rapids.ai) RAPIDS 开放 GPU 数据科学库
-* cudf cuDF - GPU DataFrame Library GPU数据表库
-* cuml cuML - RAPIDS Machine Learning Library RAPIDS 机器学习库
-* cugraph cuGraph - RAPIDS Graph Analytics Library RAPIDS 图分析库
-* cusignal cuSignal - RAPIDS Signal Processing Library RAPIDS信号处理库
+* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)  [教程/笔记]吴恩达老师的机器学习课程个人笔记 
+* [apachecn/AiLearning)](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
+* [microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
+* [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周，20 节课，全民数据科学！
+* [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) 机器学习操作 (MLOps)，可自动执行并加速机器学习生命周期。精选的参考文献列表。
+* [PyTorchLightning/PyTorch-lightning](https://github.com/PyTorchLightning/PyTorch-lightning) 基于Pytorch的轻量高级计算框架，相当于Keras框架。
+* [alibaba/MNN](https://github.com/alibaba/MNN) 轻量级的深度神经网络推理引擎
+* [Tencent/TNN](https://github.com/Tencent/TNN) 移动端高性能、轻量级推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势
+* [microsoft/nnfusion](https://github.com/microsoft/nnfusion) 灵活高效的深度神经网络（DNN）编译器，可从DNN模型描述生成高性能的可执行文件。
+* [apache/incubator-tvm](https://github.com/apache/incubator-tvm) 用于深度学习系统的编译器堆栈。它旨在缩小以生产力为中心的深度学习框架与以性能和效率为重点的硬件后端之间的差距。TVM与深度学习框架一起使用，以提供对不同后端的端到端编译
+* [geohot/tinygrad](https://github.com/geohot/tinygrad) 不到1000行的深度学习框架，麻雀虽小，但五脏俱全，这个深度学习框架使用起来和PyTorch类似
+* [karpathy/micrograd](https://github.com/karpathy/micrograd) 微型标量自动求导引擎，类似PyTorch API的神经网络库
+* [wandb/client](https://github.com/wandb/client) Weights and Biases 组织和分析机器学习实验 它与框架无关，并且比TensorBoard轻巧。每次您运行带有的脚本时wandb，都会保存您的超参数和输出指标。在训练过程中可视化模型，并轻松比较模型的版本。我们还将自动跟踪您的代码状态，系统指标和配置参数。
+* [NUAA-AL/ALiPy](https://github.com/NUAA-AL/ALiPy) 基于Python实现的主动学习工具包
+* [facebookresearch/nevergrad](https://github.com/facebookresearch/nevergrad) 无梯度优化平台
+* [yzhao062/combo](https://github.com/yzhao062/combo) 用于机器学习**模型组合**的 Python 工具箱。模型组合可以被认为是整体学习的子任务，并且已被广泛用于诸如Kaggle [3]之类的现实任务和数据科学竞赛中。
+* [google/trax](https://github.com/google/trax) 代码更清晰的神经网络代码库
+* [Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow) OneFlow是一个以性能为中心的开源深度学习框架。
+* [jonasrauber/eagerpy](https://github.com/jonasrauber/eagerpy) 编写与PyTorch，TensorFlow，JAX和NumPy本地兼容的代码
+* [rushter/MLAlgorithms](https://github.com/rushter/MLAlgorithms) 机器学习算法
+* [MLEveryday/100-Days-Of-ML-Code](https://github.com/MLEveryday/100-Days-Of-ML-Code) 100-Days-Of-ML-Code中文版
+* [csuldw/MachineLearning](https://github.com/csuldw/MachineLearning) csuldw/MachineLearning
+* [luwill/machine-learning-code-writing](https://github.com/luwill/machine-learning-code-writing) luwill/machine-learning-code-writing
+* [geekinglcq/CDCS](https://github.com/geekinglcq/CDCS) CDCS 中国数据竞赛优胜解集锦
+* [mlpack/mlpack](https://github.com/mlpack/mlpack) C++ 快速、灵活的机器学习库
+* [tensorflow/ranking](https://github.com/tensorflow/ranking) TensorFlow中的排名学习
+* [scikit-survival](https://github.com/scikit-survival) 生存分析
+* [ShichenXie/scorecardpy](https://github.com/ShichenXie/scorecardpy)  Scorecard Development in python, 评分卡
+* [lavender28/Credit-Card-Score](https://github.com/lavender28/Credit-Card-Score) 申请信用评分卡模型
+* [modin-project/modin](https://github.com/modin-project/modin) 通过更改一行代码来扩展加速pandas 
+* [vaexio/vaex](https://github.com/vaexio/vaex) 适用于Python的核外DataFrame，以每秒十亿行的速度可视化和探索大型表格数据
+* [cupy/cupy](https://github.com/cupy/cupy) 使用 CUDA 加速类似 NumPy 的 API
+* [serge-sans-paille/pythran](https://github.com/serge-sans-paille/pythran) 将 Python 代码转成 C++ 代码执行 一个 AOT (Ahead-Of-Time - 预先编译) 编译器，大幅度提升性能。
+* [RAPIDS Open GPU Data Science](http://rapids.ai) RAPIDS 开放 GPU 数据科学库
+  * cudf cuDF - GPU DataFrame Library GPU数据表库
+  * cuml cuML - RAPIDS Machine Learning Library RAPIDS 机器学习库
+  * cugraph cuGraph - RAPIDS Graph Analytics Library RAPIDS 图分析库
+  * cusignal cuSignal - RAPIDS Signal Processing Library RAPIDS信号处理库
 
-[AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) 包括了机器人设计中常用的定位算法、测绘算法、路径规划算法、SLAM 、路径跟踪算法。
-[sql-machine-learning/sqlflow](https://github.com/sql-machine-learning/sqlflow) 连接 SQL 引擎的桥接，与机器学习工具包连接
-[esa/pagmo2](https://github.com/esa/pagmo2) 大规模并行优化的科学库 生物启发式算法和进化算法
-[geatpy-dev/geatpy](https://github.com/geatpy-dev/geatpy) 高性能遗传进化算法工具箱
-[guofei9987/scikit-opt](https://github.com/guofei9987/scikit-opt) 强大的启发式算法Python模块  遗传算法 粒子群优化 模拟退火 蚁群算法 免疫算法 人工鱼群算法
-[interpretml/interpret](https://github.com/interpretml/interpret) 训练可解释的机器学习模型和解释黑匣子系统
-[alexmojaki/heartrate](https://github.com/alexmojaki/heartrate) 调试 Python程序执行的简单实时可视化 
-[bojone/keras_recompute](https://github.com/bojone/keras_recompute) 通过重计算来节省显存，参考论文《Training Deep Nets with Sublinear Memory Cost》。
-[yuanming-hu/taichi_mpm](https://github.com/yuanming-hu/taichi_mpm) 带有切割和耦合（CPIC）的高性能MLS-MPM（基于移动最小二乘法的物质点法）求解器
-[pytorch/opacus](https://github.com/pytorch/opacus) Opacus是一个库，可以使用不同的隐私训练PyTorch模型。
-[pycaret/pycaret](https://github.com/pycaret/pycaret) Python中的开源，低代码机器学习库
-[thuml/Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library) 用于迁移学习的开源且文档齐全的库。它基于具有高性能和友好API的纯PyTorch。当前支持的算法包括：领域对抗神经网络（DANN）深度适应网络（DAN）联合适应网络（JAN）条件域对抗网络（CDAN）最大分类器差异（MCD）Margin Disparity Discrepancy 保证金差异（MDD）
-[FedML-AI/FedML](https://github.com/FedML-AI/FedML) 面向研究的联邦学习库。支持分布式计算，移动/IoT设备训练和模拟
-[bytedance/fedlearner](https://github.com/bytedance/fedlearner) 字节开源联邦机器学习平台,采用的是一套云原生的部署方案。数据存放在HDFS，用MySQL存储系统数据。通过Kubernetes管理和拉起任务。每个Fedlearner的训练任务需要参与双方同时拉起K8S任务，通过Master节点统一管理，Worker建实现通信。以推荐广告业务为例，联邦机器学习平台的广告主和平台方应该各自管理一套模型展示服务和模型训练服务。
-[mit-han-lab/mcunet](https://github.com/mit-han-lab/mcunet) IoT硬件上精简的深度学习库 Tiny Deep Learning on IoT Devices
-[Aimhubio/Aim](https://github.com/Aimhubio/Aim) 一个超级简单的记录、查找、比较AI实验的库。
-[microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) 跨平台深度学习训练和推理机加速器，与深度学习框架，可以兼容TensorFlow、Keras和PyTorch等多种深度学习框架。Open Neural Network Exchange 是用于表示深度学习模型的开放格式，定义了通用运算符、机器学习和深度学习模型的构建块以及通用文件格式，可与各种框架工具和编译器一起使用。
-[microsoft/hummingbird](https://github.com/microsoft/hummingbird) 将训练有素的机器学习模型编译为张量计算，以加快推理速度。 用于将经过训练的传统ML模型编译为张量计算的库。
-[microsoft/EdgeML](https://github.com/microsoft/EdgeML) Microsoft Research India开发的边缘设备提供了机器学习算法的代码。
-[ml-tooling/best-of-ml-python](https://github.com/ml-tooling/best-of-ml-python) 很棒的机器学习Python库的排名列表。
-[terryyz/PyArmadillo](https://github.com/terryyz/PyArmadillo)  Python 语言的线性代数库，强调易用性。该库旨在提供类似于 Matlab 或者 Octave 的高级语法和功能，使得用户以熟悉且自然的方式表达数学运算。提供了用于矩阵和多维数据集（cube）的对象，以及 200 多个用于处理对象中存储数据的相关函数。所有功能都可以在一个平面结构中访问，并且支持整数、浮点数和复数。通过集成 LAPACK 或者 Intel MKL、OpenBLAS 等高性能替代产品，该库可以提供各种矩阵分解。
-[raminmh/liquid_time_constant_networks](https://github.com/raminmh/liquid_time_constant_networks) 一种能适应实时世界系统的变化的神经网络。神经网络的设计灵感来自生物大脑，设计灵感直接来自秀丽隐杆线虫（C. elegans）。他说：「它的神经系统仅有 302 个神经元，但却可以产生超出预期的复杂动态。」 Liquid 网络的流动性使其能更弹性地应对意料之外的数据或噪声数据。
-[mlech26l/keras-ncp](https://github.com/mlech26l/keras-ncp) 设计灵感直接来自秀丽隐杆线虫 由感官神经元接收环境信息、而后经过中间神经元，传递给指令神经元进而形成决策信息，最后由动作神经元完成决策的执行并完成动作。
-[skorch-dev/skorch](https://github.com/skorch-dev/skorch) 综合scikit-learn和PyTorch的机器学习库，可以实现sklearn和PyTorch高效兼容。
-[OpenMined/PySyft](https://github.com/OpenMined/PySyft) 用于安全和私有深度学习的Python库。PySyft使用联合学习，差分隐私和加密计算（例如PyTorch和TF中的多方计算 (MPC) 和同态加密 (HE) 将模型训练中的私人数据进行解耦。
-[pyro-ppl/pyro](https://github.com/pyro-ppl/pyro) 基于PyTorch作为后端的通用概率编程语言 (PPL)。
-[PytorchLightning/metrics](https://github.com/PytorchLightning/metrics) PyTorch原生的函数和度量模块的集合，用于简单的性能评估。可以使用常见的指标，如准确性，召回率，精度，AUROC, RMSE, R²等，或者创建你自己的指标。支持超过25个指标，并不断增加更多通用任务和特定领域的标准(目标检测，NLP等)。
-[teddykoker/torchsort](https://github.com/teddykoker/torchsort) 快速可微分排序算法PyTorch包，配有自定义C ++和CUDA
-[man-group/dtale](https://github.com/man-group/dtale) pandas数据结构的可视化工具
-[google/model_search](https://github.com/google/model_search) 为了帮助研究者自动、高效地开发最佳机器学习模型，谷歌开源了一个不针对特定领域的 AutoML 平台。该平台基于 TensorFlow 构建，非常灵活，既可以找出最适合给定数据集和问题的架构，也能够最小化编程时间和计算资源。
-[neuronika/neuronika](https://github.com/neuronika/neuronika) 纯Rust的张量和动态神经网络库。
-[matazure/mtensor](https://github.com/matazure/mtensor) 一个tensor计算库, 支持cuda的延迟计算
-[e-tony/best-of-ml-rust](https://github.com/e-tony/best-of-ml-rust) 一个令人赞叹的Rust机器学习排名表。
-[awslabs/autogluon](https://github.com/awslabs/autogluon) 为文本、图像、表格数据开发的自动机器学习库（AutoML）。
-[luwill/Machine_Learning_Code_Implementation](https://github.com/luwill/Machine_Learning_Code_Implementation) 机器学习算法的数学推导和纯Python代码实现。
-[ml-tooling/best-of-ml-python](https://github.com/ml-tooling/best-of-ml-python) 一个令人赞叹的python机器学习排名表，每周更新。
-[thuwyh/InferLight](https://github.com/thuwyh/InferLight) 提高模型的线上推理吞吐量近2.5倍。
-[ContrastiveSR/Contrastive_Learning_Papers](https://github.com/ContrastiveSR/Contrastive_Learning_Papers) 对比学习的相关论文列表。内容包括：计算机视觉、NLP、推荐系统、图模型等方面的应用。
-[Tencent/WeChat-TFCC](https://github.com/Tencent/WeChat-TFCC) C++深入学习推理框架。提供以下工具包，便于您开发和部署训练有素的 DL 模型：TFCC深度学习推理库的核心、TFCC 代码生成器、TFCC 运行时。
-[idrl-lab/idrlnet](https://github.com/idrl-lab/idrlnet) 基于内嵌物理知识神经网络的开源求解框架
-[KaiyuYue/torchshard](https://github.com/KaiyuYue/torchshard) 马里兰大学帕克分校计算机科学系的研究者开源了一个轻量级的引擎，用于将 PyTorch 张量切片成并行的 shard。当模型拥有大量的线性层（例如 BERT、GPT）或者很多类（数百万）时，TorchShard 可以减少 GPU 内存并扩展训练规模，它具有与 PyTorch 相同的 API 设计。
-[marcotcr/lime](https://github.com/marcotcr/lime) LIMELocal Interpretable Model-agnostic Explanations被用作解释机器学习模型。
-[MAIF/shapash](https://github.com/MAIF/shapash) 非常炫酷的模型解释性工具包。
-[microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) 微软给初学者开源了一份机器学习课程。
-[sfu-db/dataprep](https://github.com/sfu-db/dataprep) 一个开源 Python 库，有助于自动化探索性数据分析过程。它在创建数据分析报告时很有用，它还具有 3 个用于绘制图形、绘制缺失数字和数据相关性的功能。
-[scikit-learn-contrib/hdbscan](https://github.com/scikit-learn-contrib/hdbscan) 使用无监督学习来查找数据集的集群聚类或密集区域的工具。主要算法是HDBSCAN。提供了该算法的高性能实现，以及用于分析结果聚类的工具。
-[nvidia/TensorRT](https://github.com/nvidia/TensorRT) TensorRT 是一个C++库，用于对 NVIDIA GPU 和深度学习加速器进行高性能推论。
-[dropreg/R-Drop](https://github.com/dropreg/R-Drop) 填补Dropout缺陷，简单又有效的正则方法。在每个 mini-batch 中，每个数据样本过两次带有 Dropout 的同一个模型，R-Drop 再使用 KL-divergence 约束两次的输出一致。
-[ucbrise/actnn](https://github.com/ucbrise/actnn) 基于PyTorch的激活压缩训练框架。在同样内存限制下，通过使用 2 bit 激活压缩，可以将 batch size 扩大 6-14 倍，将模型尺寸或者输入图片扩大 6-10 倍。
-[softsys4ai/FlexiBO](https://github.com/softsys4ai/FlexiBO) 基于成本感知的多目标优化深度神经网络
-[XuezheMax/apollo](https://github.com/XuezheMax/apollo) Apollo：用于非凸随机优化的自适应参数对角拟牛顿法
-[statsmodels/statsmodels](https://github.com/statsmodels/statsmodels) Statsmodels：Python 中的统计建模和计量经济学库。
-[evidentlyai/evidently](https://github.com/evidentlyai/evidently) 在验证或生产监控期间分析机器学习模型的交互式报告。
-[louisfb01/best_AI_papers_2021](https://github.com/louisfb01/best_AI_papers_2021) 按发布日期列出的人工智能最新突破（2021 年）的精选列表，附有清晰的视频说明、更深入文章的链接和代码。
-[DataCanvasIO/DeepTables](https://github.com/DataCanvasIO/DeepTables) DeepTables：表格数据的深度学习工具包
+* [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) 包括了机器人设计中常用的定位算法、测绘算法、路径规划算法、SLAM 、路径跟踪算法。
+* [sql-machine-learning/sqlflow](https://github.com/sql-machine-learning/sqlflow) 连接 SQL 引擎的桥接，与机器学习工具包连接
+* [esa/pagmo2](https://github.com/esa/pagmo2) 大规模并行优化的科学库 生物启发式算法和进化算法
+* [geatpy-dev/geatpy](https://github.com/geatpy-dev/geatpy) 高性能遗传进化算法工具箱
+* [guofei9987/scikit-opt](https://github.com/guofei9987/scikit-opt) 强大的启发式算法Python模块  遗传算法 粒子群优化 模拟退火 蚁群算法 免疫算法 人工鱼群算法
+* [interpretml/interpret](https://github.com/interpretml/interpret) 训练可解释的机器学习模型和解释黑匣子系统
+* [alexmojaki/heartrate](https://github.com/alexmojaki/heartrate) 调试 Python程序执行的简单实时可视化 
+* [bojone/keras_recompute](https://github.com/bojone/keras_recompute) 通过重计算来节省显存，参考论文《Training Deep Nets with Sublinear Memory Cost》。
+* [yuanming-hu/taichi_mpm](https://github.com/yuanming-hu/taichi_mpm) 带有切割和耦合（CPIC）的高性能MLS-MPM（基于移动最小二乘法的物质点法）求解器
+* [pytorch/opacus](https://github.com/pytorch/opacus) Opacus是一个库，可以使用不同的隐私训练PyTorch模型。
+* [pycaret/pycaret](https://github.com/pycaret/pycaret) Python中的开源，低代码机器学习库
+* [thuml/Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library) 用于迁移学习的开源且文档齐全的库。它基于具有高性能和友好API的纯PyTorch。当前支持的算法包括：领域对抗神经网络（DANN）深度适应网络（DAN）联合适应网络（JAN）条件域对抗网络（CDAN）最大分类器差异（MCD）Margin Disparity Discrepancy 保证金差异（MDD）
+* [FedML-AI/FedML](https://github.com/FedML-AI/FedML) 面向研究的联邦学习库。支持分布式计算，移动/IoT设备训练和模拟
+* [bytedance/fedlearner](https://github.com/bytedance/fedlearner) 字节开源联邦机器学习平台,采用的是一套云原生的部署方案。数据存放在HDFS，用MySQL存储系统数据。通过Kubernetes管理和拉起任务。每个Fedlearner的训练任务需要参与双方同时拉起K8S任务，通过Master节点统一管理，Worker建实现通信。以推荐广告业务为例，联邦机器学习平台的广告主和平台方应该各自管理一套模型展示服务和模型训练服务。
+* [mit-han-lab/mcunet](https://github.com/mit-han-lab/mcunet) IoT硬件上精简的深度学习库 Tiny Deep Learning on IoT Devices
+* [Aimhubio/Aim](https://github.com/Aimhubio/Aim) 一个超级简单的记录、查找、比较AI实验的库。
+* [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) 跨平台深度学习训练和推理机加速器，与深度学习框架，可以兼容TensorFlow、Keras和PyTorch等多种深度学习框架。Open Neural Network Exchange 是用于表示深度学习模型的开放格式，定义了通用运算符、机器学习和深度学习模型的构建块以及通用文件格式，可与各种框架工具和编译器一起使用。
+* [microsoft/hummingbird](https://github.com/microsoft/hummingbird) 将训练有素的机器学习模型编译为张量计算，以加快推理速度。 用于将经过训练的传统ML模型编译为张量计算的库。
+* [microsoft/EdgeML](https://github.com/microsoft/EdgeML) Microsoft Research India开发的边缘设备提供了机器学习算法的代码。
+* [ml-tooling/best-of-ml-python](https://github.com/ml-tooling/best-of-ml-python) 很棒的机器学习Python库的排名列表。
+* [terryyz/PyArmadillo](https://github.com/terryyz/PyArmadillo)  Python 语言的线性代数库，强调易用性。该库旨在提供类似于 Matlab 或者 Octave 的高级语法和功能，使得用户以熟悉且自然的方式表达数学运算。提供了用于矩阵和多维数据集（cube）的对象，以及 200 多个用于处理对象中存储数据的相关函数。所有功能都可以在一个平面结构中访问，并且支持整数、浮点数和复数。通过集成 LAPACK 或者 Intel MKL、OpenBLAS 等高性能替代产品，该库可以提供各种矩阵分解。
+* [raminmh/liquid_time_constant_networks](https://github.com/raminmh/liquid_time_constant_networks) 一种能适应实时世界系统的变化的神经网络。神经网络的设计灵感来自生物大脑，设计灵感直接来自秀丽隐杆线虫（C. elegans）。他说：「它的神经系统仅有 302 个神经元，但却可以产生超出预期的复杂动态。」 Liquid 网络的流动性使其能更弹性地应对意料之外的数据或噪声数据。
+* [mlech26l/keras-ncp](https://github.com/mlech26l/keras-ncp) 设计灵感直接来自秀丽隐杆线虫 由感官神经元接收环境信息、而后经过中间神经元，传递给指令神经元进而形成决策信息，最后由动作神经元完成决策的执行并完成动作。
+* [skorch-dev/skorch](https://github.com/skorch-dev/skorch) 综合scikit-learn和PyTorch的机器学习库，可以实现sklearn和PyTorch高效兼容。
+* [OpenMined/PySyft](https://github.com/OpenMined/PySyft) 用于安全和私有深度学习的Python库。PySyft使用联合学习，差分隐私和加密计算（例如PyTorch和TF中的多方计算 (MPC) 和同态加密 (HE) 将模型训练中的私人数据进行解耦。
+* [pyro-ppl/pyro](https://github.com/pyro-ppl/pyro) 基于PyTorch作为后端的通用概率编程语言 (PPL)。
+* [PytorchLightning/metrics](https://github.com/PytorchLightning/metrics) PyTorch原生的函数和度量模块的集合，用于简单的性能评估。可以使用常见的指标，如准确性，召回率，精度，AUROC, RMSE, R²等，或者创建你自己的指标。支持超过25个指标，并不断增加更多通用任务和特定领域的标准(目标检测，NLP等)。
+* [teddykoker/torchsort](https://github.com/teddykoker/torchsort) 快速可微分排序算法PyTorch包，配有自定义C ++和CUDA
+* [man-group/dtale](https://github.com/man-group/dtale) pandas数据结构的可视化工具
+* [google/model_search](https://github.com/google/model_search) 为了帮助研究者自动、高效地开发最佳机器学习模型，谷歌开源了一个不针对特定领域的 AutoML 平台。该平台基于 TensorFlow 构建，非常灵活，既可以找出最适合给定数据集和问题的架构，也能够最小化编程时间和计算资源。
+* [neuronika/neuronika](https://github.com/neuronika/neuronika) 纯Rust的张量和动态神经网络库。
+* [matazure/mtensor](https://github.com/matazure/mtensor) 一个tensor计算库, 支持cuda的延迟计算
+* [e-tony/best-of-ml-rust](https://github.com/e-tony/best-of-ml-rust) 一个令人赞叹的Rust机器学习排名表。
+* [awslabs/autogluon](https://github.com/awslabs/autogluon) 为文本、图像、表格数据开发的自动机器学习库（AutoML）。
+* [luwill/Machine_Learning_Code_Implementation](https://github.com/luwill/Machine_Learning_Code_Implementation) 机器学习算法的数学推导和纯Python代码实现。
+* [ml-tooling/best-of-ml-python](https://github.com/ml-tooling/best-of-ml-python) 一个令人赞叹的python机器学习排名表，每周更新。
+* [thuwyh/InferLight](https://github.com/thuwyh/InferLight) 提高模型的线上推理吞吐量近2.5倍。
+* [ContrastiveSR/Contrastive_Learning_Papers](https://github.com/ContrastiveSR/Contrastive_Learning_Papers) 对比学习的相关论文列表。内容包括：计算机视觉、NLP、推荐系统、图模型等方面的应用。
+* [Tencent/WeChat-TFCC](https://github.com/Tencent/WeChat-TFCC) C++深入学习推理框架。提供以下工具包，便于您开发和部署训练有素的 DL 模型：TFCC深度学习推理库的核心、TFCC 代码生成器、TFCC 运行时。
+* [idrl-lab/idrlnet](https://github.com/idrl-lab/idrlnet) 基于内嵌物理知识神经网络的开源求解框架
+* [KaiyuYue/torchshard](https://github.com/KaiyuYue/torchshard) 马里兰大学帕克分校计算机科学系的研究者开源了一个轻量级的引擎，用于将 PyTorch 张量切片成并行的 shard。当模型拥有大量的线性层（例如 BERT、GPT）或者很多类（数百万）时，TorchShard 可以减少 GPU 内存并扩展训练规模，它具有与 PyTorch 相同的 API 设计。
+* [marcotcr/lime](https://github.com/marcotcr/lime) LIMELocal Interpretable Model-agnostic Explanations被用作解释机器学习模型。
+* [MAIF/shapash](https://github.com/MAIF/shapash) 非常炫酷的模型解释性工具包。
+* [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) 微软给初学者开源了一份机器学习课程。
+* [sfu-db/dataprep](https://github.com/sfu-db/dataprep) 一个开源 Python 库，有助于自动化探索性数据分析过程。它在创建数据分析报告时很有用，它还具有 3 个用于绘制图形、绘制缺失数字和数据相关性的功能。
+* [scikit-learn-contrib/hdbscan](https://github.com/scikit-learn-contrib/hdbscan) 使用无监督学习来查找数据集的集群聚类或密集区域的工具。主要算法是HDBSCAN。提供了该算法的高性能实现，以及用于分析结果聚类的工具。
+* [nvidia/TensorRT](https://github.com/nvidia/TensorRT) TensorRT 是一个C++库，用于对 NVIDIA GPU 和深度学习加速器进行高性能推论。
+* [dropreg/R-Drop](https://github.com/dropreg/R-Drop) 填补Dropout缺陷，简单又有效的正则方法。在每个 mini-batch 中，每个数据样本过两次带有 Dropout 的同一个模型，R-Drop 再使用 KL-divergence 约束两次的输出一致。
+* [ucbrise/actnn](https://github.com/ucbrise/actnn) 基于PyTorch的激活压缩训练框架。在同样内存限制下，通过使用 2 bit 激活压缩，可以将 batch size 扩大 6-14 倍，将模型尺寸或者输入图片扩大 6-10 倍。
+* [softsys4ai/FlexiBO](https://github.com/softsys4ai/FlexiBO) 基于成本感知的多目标优化深度神经网络
+* [XuezheMax/apollo](https://github.com/XuezheMax/apollo) Apollo：用于非凸随机优化的自适应参数对角拟牛顿法
+* [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels) Statsmodels：Python 中的统计建模和计量经济学库。
+* [evidentlyai/evidently](https://github.com/evidentlyai/evidently) 在验证或生产监控期间分析机器学习模型的交互式报告。
+* [louisfb01/best_AI_papers_2021](https://github.com/louisfb01/best_AI_papers_2021) 按发布日期列出的人工智能最新突破（2021 年）的精选列表，附有清晰的视频说明、更深入文章的链接和代码。
+* [DataCanvasIO/DeepTables](https://github.com/DataCanvasIO/DeepTables) DeepTables：表格数据的深度学习工具包
 
 ## 特征工程
 
-[FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
-[ScienceKot/kydavra](https://github.com/ScienceKot/kydavra) 特征筛选工具
-[aerdem4/lofo-importance](https://github.com/aerdem4/lofo-importance) LOFO（Leave One Feature Out）重要性基于选择的度量计算一组特征的重要性，对于选择的模型，通过迭代地从集合中删除每个特征，并评估模型的性能，使用验证方案 的选择，基于所选的指标。
-[imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) 解决机器学习中不平衡数据集
-[ResidentMario/missingno](https://github.com/ResidentMario/missingno) 灵活且易于使用的缺失数据可视化和实用程序，可让您快速直观地了解数据集的完整性（或缺乏完整性）。 
+* [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
+* [ScienceKot/kydavra](https://github.com/ScienceKot/kydavra) 特征筛选工具
+* [aerdem4/lofo-importance](https://github.com/aerdem4/lofo-importance) LOFO（Leave One Feature Out）重要性基于选择的度量计算一组特征的重要性，对于选择的模型，通过迭代地从集合中删除每个特征，并评估模型的性能，使用验证方案 的选择，基于所选的指标。
+* [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) 解决机器学习中不平衡数据集
+* [ResidentMario/missingno](https://github.com/ResidentMario/missingno) 灵活且易于使用的缺失数据可视化和实用程序，可让您快速直观地了解数据集的完整性（或缺乏完整性）。 
 
 ## 异常检测
 
-[leibinghe/GAAL-based-outlier-detection](https://github.com/leibinghe/GAAL-based-outlier-detection) 基于盖尔的异常检测
-[yzhao062/pyod](https://github.com/yzhao062/pyod) 异常检测库
-[hoya012/awesome-anomaly-detection](https://github.com/hoya012/awesome-anomaly-detection) 异常检测列表
-[kLabUM/rrcf](https://github.com/kLabUM/rrcf) 用于异常检测的鲁棒随机砍伐森林算法的实现
-[mangushev/mtad-gat](https://github.com/mangushev/mtad-gat) 基于图注意力网络的多变量时间序列异常检测模型
-[d-ailin/GDN](https://github.com/d-ailin/GDN) 基于图神经网络的多变量时间序列异常检测
-[DHI/tsod](https://github.com/DHI/tsod) 时间序列数据异常检测
-[manigalati/usad](https://github.com/manigalati/usad) 多变量时间序列的无监督异常检测
+* [leibinghe/GAAL-based-outlier-detection](https://github.com/leibinghe/GAAL-based-outlier-detection) 基于盖尔的异常检测
+* [yzhao062/pyod](https://github.com/yzhao062/pyod) 异常检测库
+* [hoya012/awesome-anomaly-detection](https://github.com/hoya012/awesome-anomaly-detection) 异常检测列表
+* [kLabUM/rrcf](https://github.com/kLabUM/rrcf) 用于异常检测的鲁棒随机砍伐森林算法的实现
+* [mangushev/mtad-gat](https://github.com/mangushev/mtad-gat) 基于图注意力网络的多变量时间序列异常检测模型
+* [d-ailin/GDN](https://github.com/d-ailin/GDN) 基于图神经网络的多变量时间序列异常检测
+* [DHI/tsod](https://github.com/DHI/tsod) 时间序列数据异常检测
+* [manigalati/usad](https://github.com/manigalati/usad) 多变量时间序列的无监督异常检测
 
 ## 参数优化
 
-[hyperopt/hyperopt](https://github.com/hyperopt/hyperopt) 分布式超参数优化
-[optuna/optuna](https://github.com/optuna/optuna) 超参数优化框架
-[WillKoehrsen/hyperparameter-optimization](https://github.com/WillKoehrsen/hyperparameter-optimization) 超参数优化
-[HDI-Project/BTB](https://github.com/HDI-Project/BTB) Bayesian Tuning and Bandits，auto-tuning系统的一个简单、可扩展的后端系统。
-[scikit-optimize/scikit-optimize](https://github.com/scikit-optimize/scikit-optimize) 一个简单高效的库，可最大限度地减少（非常）昂贵且嘈杂的黑盒功能。它实现了几种基于顺序模型优化的方法。
-[automl/SMAC3](https://github.com/automl/SMAC3) 基于序列模型的算法配置 优化任意算法的参数
-[CMA-ES/pycma](https://github.com/CMA-ES/pycma) 基于CMA-ES 协方差矩阵的自适应策略的Py实现和一些相关的数值优化工具。
-[SheffieldML/GPyOpt](https://github.com/SheffieldML/GPyOpt) 使用GPy进行高斯过程优化
-[pytorch/botorch](https://github.com/pytorch/botorch) PyTorch中的贝叶斯优化
-[JasperSnoek/spearmint](https://github.com/JasperSnoek/spearmint) 机器学习算法的实用贝叶斯优化
-[facebookresearch/nevergrad](https://github.com/facebookresearch/nevergrad) 用于执行无梯度优化的Python工具箱
-[Yelp/MOE](https://github.com/Yelp/MOE) 用于现实世界的指标优化的全局黑匣子优化引擎。
-[fmfn/BayesianOptimization](https://github.com/fmfn/BayesianOptimization) 具有高斯过程的全局优化的Python实现。
-[dragonfly/dragonfly](https://github.com/dragonfly/dragonfly)  用于可扩展的贝叶斯优化
-[ray-project/ray](https://github.com/ray-project/ray) Tune可伸缩超参数调整
-[keras-team/keras-tuner](https://github.com/keras-team/keras-tuner) keras的超参数调整库。
-[PKU-DAIR/open-box](https://github.com/PKU-DAIR/open-box) 通用且高效的黑盒优化系统。旨在解决泛化的黑盒优化（BBO）问题， 例如自动化超参数调优、自动化A/B测试、 实验设计、数据库参数调优、处理器体系结构和电路设计、资源分配等。
-[jina-ai/finetuner](https://github.com/jina-ai/finetuner) 微调任何 DNN 以更好地嵌入神经搜索任务
-[noah-research/BO/HEBO/CompBO](https://github.com/huawei-noah/noah-research/tree/CompBO/BO/HEBO/CompBO)  使用组合优化器进行贝叶斯优化,由华为研发、诺亚方舟实验室（伦敦）开发的贝叶斯优化代码库
-[huawei-noah/HEBO](https://github.com/huawei-noah/HEBO) 华为诺亚方舟库开发的贝叶斯优化库
+* [hyperopt/hyperopt](https://github.com/hyperopt/hyperopt) 分布式超参数优化
+* [optuna/optuna](https://github.com/optuna/optuna) 超参数优化框架
+* [WillKoehrsen/hyperparameter-optimization](https://github.com/WillKoehrsen/hyperparameter-optimization) 超参数优化
+* [HDI-Project/BTB](https://github.com/HDI-Project/BTB) Bayesian Tuning and Bandits，auto-tuning系统的一个简单、可扩展的后端系统。
+* [scikit-optimize/scikit-optimize](https://github.com/scikit-optimize/scikit-optimize) 一个简单高效的库，可最大限度地减少（非常）昂贵且嘈杂的黑盒功能。它实现了几种基于顺序模型优化的方法。
+* [automl/SMAC3](https://github.com/automl/SMAC3) 基于序列模型的算法配置 优化任意算法的参数
+* [CMA-ES/pycma](https://github.com/CMA-ES/pycma) 基于CMA-ES 协方差矩阵的自适应策略的Py实现和一些相关的数值优化工具。
+* [SheffieldML/GPyOpt](https://github.com/SheffieldML/GPyOpt) 使用GPy进行高斯过程优化
+* [pytorch/botorch](https://github.com/pytorch/botorch) PyTorch中的贝叶斯优化
+* [JasperSnoek/spearmint](https://github.com/JasperSnoek/spearmint) 机器学习算法的实用贝叶斯优化
+* [facebookresearch/nevergrad](https://github.com/facebookresearch/nevergrad) 用于执行无梯度优化的Python工具箱
+* [Yelp/MOE](https://github.com/Yelp/MOE) 用于现实世界的指标优化的全局黑匣子优化引擎。
+* [fmfn/BayesianOptimization](https://github.com/fmfn/BayesianOptimization) 具有高斯过程的全局优化的Python实现。
+* [dragonfly/dragonfly](https://github.com/dragonfly/dragonfly)  用于可扩展的贝叶斯优化
+* [ray-project/ray](https://github.com/ray-project/ray) Tune可伸缩超参数调整
+* [keras-team/keras-tuner](https://github.com/keras-team/keras-tuner) keras的超参数调整库。
+* [PKU-DAIR/open-box](https://github.com/PKU-DAIR/open-box) 通用且高效的黑盒优化系统。旨在解决泛化的黑盒优化（BBO）问题， 例如自动化超参数调优、自动化A/B测试、 实验设计、数据库参数调优、处理器体系结构和电路设计、资源分配等。
+* [jina-ai/finetuner](https://github.com/jina-ai/finetuner) 微调任何 DNN 以更好地嵌入神经搜索任务
+* [noah-research/BO/HEBO/CompBO](https://github.com/huawei-noah/noah-research/tree/CompBO/BO/HEBO/CompBO)  使用组合优化器进行贝叶斯优化,由华为研发、诺亚方舟实验室（伦敦）开发的贝叶斯优化代码库
+* [huawei-noah/HEBO](https://github.com/huawei-noah/HEBO) 华为诺亚方舟库开发的贝叶斯优化库
 
 ## 梯度提升和树模型
 
-[dmlc/xgboost](https://github.com/dmlc/xgboost) 可扩展、可移植和分布式梯度提升（GBDT、GBRT 或 GBM）库，适用于 Python、R、Java、Scala、C++ 等。 在单机、Hadoop、Spark、Dask、Flink 和 DataFlow 上运行。
-
-[microsoft/LightGBM](https://github.com/microsoft/LightGBM) 基于决策树算法的快速、分布式、高性能梯度提升（GBT、GBDT、GBRT、GBM 或 MART）框架，用于排名、分类和许多其他机器学习任务。
-
-[motefly/DeepGBM](https://github.com/motefly/DeepGBM) 为在线预测任务提炼的深度学习GBDT框架
-
-[catboost/catboost](https://github.com/catboost/catboost) 一个快速、可扩展、高性能的决策树梯度提升库，用于 Python、R、Java、C++ 的排名、分类、回归和其他机器学习任务。 支持在 CPU 和 GPU 上进行计算。
-
-[Xtra-Computing/thundergbm](https://github.com/Xtra-Computing/thundergbm) ThunderGBM：GPU 上的快速 GBDT 和随机森林
-
-[GBDT-PL/GBDT-PL](https://github.com/GBDT-PL/GBDT-PL) 使用分段线性树进行梯度提升
-
-[mesalock-linux/gbdt-rs](https://github.com/mesalock-linux/gbdt-rs) MesaTEE GBDT-RS：一个快速且安全的 GBDT 库，支持 Intel SGX 和 ARM TrustZone 等 TEE
-
-[tensorflow/decision-forests](https://github.com/tensorflow/decision-forests) 一组最先进的算法，用于训练、服务和解释 Keras 决策森林模型。
-
-[kingfengji/gcForest](https://github.com/kingfengji/gcForest) 这是论文“深度森林：走向深度神经网络的替代方案”的官方实现
-
-[LAMDA-NJU/Deep-Forest](https://github.com/LAMDA-NJU/Deep-Forest) Deep Forest 2021.2.1的实现 
-
-[hlamotte/decision-tree](https://github.com/hlamotte/decision-tree) 在C++的决策树
-
-[augboost-anon/augboost](https://github.com/augboost-anon/augboost) 逐步特征增强的梯度提升。
-
-[DataCanvasIO/HyperGBM](https://github.com/DataCanvasIO/HyperGBM) 用于表格数据的完整管道 AutoML 工具, 涉及多个梯度提升树模型（GBM），即XGBoost、LightGBM和Catboost。
-
-[Microstrong0305/WeChat-zhihu-csdnblog-code](https://github.com/Microstrong0305/WeChat-zhihu-csdnblog-code) Regression Tree 回归树 深入理解提升树（Boosting tree）算法 深入理解GBDT回归 GBDT二分类算法 GBDT多分类算法  XGBoost LightGBM CatBoost 深入浅出Word2Vec原理解析 Doc2vec原理解析及代码实践
+* [dmlc/xgboost](https://github.com/dmlc/xgboost) 可扩展、可移植和分布式梯度提升（GBDT、GBRT 或 GBM）库，适用于 Python、R、Java、Scala、C++ 等。 在单机、Hadoop、Spark、Dask、Flink 和 DataFlow 上运行。
+* [microsoft/LightGBM](https://github.com/microsoft/LightGBM) 基于决策树算法的快速、分布式、高性能梯度提升（GBT、GBDT、GBRT、GBM 或 MART）框架，用于排名、分类和许多其他机器学习任务。
+* [motefly/DeepGBM](https://github.com/motefly/DeepGBM) 为在线预测任务提炼的深度学习GBDT框架
+* [catboost/catboost](https://github.com/catboost/catboost) 一个快速、可扩展、高性能的决策树梯度提升库，用于 Python、R、Java、C++ 的排名、分类、回归和其他机器学习任务。 支持在 CPU 和 GPU 上进行计算。
+* [Xtra-Computing/thundergbm](https://github.com/Xtra-Computing/thundergbm) ThunderGBM：GPU 上的快速 GBDT 和随机森林
+* [GBDT-PL/GBDT-PL](https://github.com/GBDT-PL/GBDT-PL) 使用分段线性树进行梯度提升
+* [mesalock-linux/gbdt-rs](https://github.com/mesalock-linux/gbdt-rs) MesaTEE GBDT-RS：一个快速且安全的 GBDT 库，支持 Intel SGX 和 ARM TrustZone 等 TEE
+* [tensorflow/decision-forests](https://github.com/tensorflow/decision-forests) 一组最先进的算法，用于训练、服务和解释 Keras 决策森林模型。
+* [kingfengji/gcForest](https://github.com/kingfengji/gcForest) 这是论文“深度森林：走向深度神经网络的替代方案”的官方实现
+* [LAMDA-NJU/Deep-Forest](https://github.com/LAMDA-NJU/Deep-Forest) Deep Forest 2021.2.1的实现 
+* [hlamotte/decision-tree](https://github.com/hlamotte/decision-tree) 在C++的决策树
+* [augboost-anon/augboost](https://github.com/augboost-anon/augboost) 逐步特征增强的梯度提升。
+* [DataCanvasIO/HyperGBM](https://github.com/DataCanvasIO/HyperGBM) 用于表格数据的完整管道 AutoML 工具, 涉及多个梯度提升树模型（GBM），即XGBoost、LightGBM和Catboost。
+* [Microstrong0305/WeChat-zhihu-csdnblog-code](https://github.com/Microstrong0305/WeChat-zhihu-csdnblog-code) Regression Tree 回归树 深入理解提升树（Boosting tree）算法 深入理解GBDT回归 GBDT二分类算法 GBDT多分类算法  XGBoost LightGBM CatBoost 深入浅出Word2Vec原理解析 Doc2vec原理解析及代码实践
 
 ## 神经网络结构搜索 Neural Architecture Search
 
-[huawei-noah/CARS](https://github.com/huawei-noah/CARS) 华为提出基于进化算法和权值共享的神经网络结构搜索
-
-[microsoft/nni](https://github.com/microsoft/nni) 用于自动化机器学习生命周期的开源AutoML工具包，包括功能工程，神经体系结构搜索，模型压缩和超参数调整。
-
-[awslabs/autogluon](https://github.com/awslabs/autogluon) 用于深度学习的AutoML工具包 https://autogluon.mxnet.io
-
-[researchmm/CDARTS](https://github.com/researchmm/CDARTS) 循环可微架构搜索
-
-[xiaomi-automl/FairDARTS](https://github.com/xiaomi-automl/FairDARTS) 消除差异化架构搜索中的不公平优势
-
-[ianwhale/nsga-net](https://github.com/ianwhale/nsga-net) 使用多目标遗传算法的神经架构搜索
-
-[human-analysis/neural-architecture-transfer](https://github.com/human-analysis/neural-architecture-transfer) 神经架构迁移
+* [huawei-noah/CARS](https://github.com/huawei-noah/CARS) 华为提出基于进化算法和权值共享的神经网络结构搜索
+* [microsoft/nni](https://github.com/microsoft/nni) 用于自动化机器学习生命周期的开源AutoML工具包，包括功能工程，神经体系结构搜索，模型压缩和超参数调整。
+* [awslabs/autogluon](https://github.com/awslabs/autogluon) 用于深度学习的AutoML工具包 https://autogluon.mxnet.io
+* [researchmm/CDARTS](https://github.com/researchmm/CDARTS) 循环可微架构搜索
+* [xiaomi-automl/FairDARTS](https://github.com/xiaomi-automl/FairDARTS) 消除差异化架构搜索中的不公平优势
+* [ianwhale/nsga-net](https://github.com/ianwhale/nsga-net) 使用多目标遗传算法的神经架构搜索
+* [human-analysis/neural-architecture-transfer](https://github.com/human-analysis/neural-architecture-transfer) 神经架构迁移
 
 ## 分布式机器学习
 
-[horovod/horovod](https://github.com/horovod/horovod) Uber开源的分布式训练框架。它的发展吸取了Facebook "Training ImageNet In 1 Hour" 与百度 "Ring Allreduce" 的优点，可为用户实现分布式训练提供帮助。
-
-[dask/dask](https://github.com/dask/dask)  用Python编写的，是一个灵活的、开源的并行计算库，提供大规模性能 高级并行性。
-
-https://github.com/Qihoo360/XLearning 支持多种机器学习、深度学习框架调度系统。基于Hadoop Yarn完成了对TensorFlow、MXNet、Caffe、Theano、PyTorch、Keras、XGBoost等常用框架的集成，同时具备良好的扩展性和兼容性。
-
-[sql-machine-learning/elasticdl](https://github.com/sql-machine-learning/elasticdl)  Kubernetes原生的深度学习框架，支持容错和弹性调度,支持TensorFlow和PyTorch。
-
-[kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) Kubeflow 是用于机器学习操作的云原生平台 - 管道、训练和部署。
-
-[alibaba/euler](https://github.com/alibaba/euler) Euler-2.0是大规模分布式的图学习框架，配合TensorFlow或者阿里内部的XDL等深度学习工具，可以支持数十亿点数百亿边的复杂异构图上进行模型训练。
-
-[Angel-ML/angel](https://github.com/Angel-ML/angel) 用于大规模机器学习的灵活而强大的参数服务器。基于参数服务器理念的高性能分布式机器学习和图计算平台。
-
-[ray-project/ray](https://github.com/ray-project/ray) 提供用于构建分布式应用程序的简单通用API的开源框架。Ray与RLlib（可扩展的强化学习库和Tune（可扩展的超参数调优库）打包在一起。
-
-[alibaba/Alink](https://github.com/alibaba/Alink) Alink是基于Flink的机器学习算法平台，由阿里巴巴计算平台的PAI团队开发。
-
-[kakaobrain/torchgpipe](https://github.com/kakaobrain/torchgpipe) pytorch的可扩展管道并行性库，可以有效地训练大型的，消耗内存的模型。
-
-[tensorflow/mesh](https://github.com/tensorflow/mesh) 简化模型并行化 Mesh TensorFlow: Model Parallelism Made Easier
-
-[microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) 一个深度学习优化库，它使分布式训练变得容易，高效和有效。
-
-[uber/fiber](https://github.com/uber/fiber) 简化AI的分布式计算 该项目是实验性的，API不稳定。
-
-[petuum/adaptdl](https://github.com/petuum/adaptdl) 资源自适应深度学习（DL）训练和调度框架。AdaptDL的目标是使分布式DL在动态资源环境（如共享集群和云）中变得轻松高效。
-
-[learning-at-home/hivemind](https://github.com/learning-at-home/hivemind) 一个用于在互联网上训练大型神经网络的库
-
-https://github.com/petuum/adaptdl 一个能动态调整并行度的深度神经网络训练框架。它支持多租户集群管理，可以平衡模型训练等待及完成时间，能够提高资源利用率。
-
-[huggingface/accelerate](https://github.com/huggingface/accelerate) 一个简单的API，将与多GPUTPU、fp16相关的样板代码抽离了出来，保持其余代码不变。PyTorch 用户无须使用不便控制和调整的抽象类或编写、维护样板代码，就可以直接上手多 GPU 或 TPU。Accelerate 支持的集成包括：CPU 单 GPU 单一节点多 GPU 多节点多 GPU TPU 带有本地 AMP 的 FP16.
-
-[BaguaSys/bagua](https://github.com/BaguaSys/bagua) 八卦是由快手科技和DS3 Lab共同开发的PyTorch深度学习训练加速框架。目前支持：高级分布式训练算法：用户只需添加几行代码（可选择弹性模式）即可将单个 GPU 上的训练扩展到多 GPU（可能跨多台机器）。
-
-[facebookresearch/fairscale](https://github.com/facebookresearch/fairscale) 用于高性能和大规模训练的 PyTorch 扩展。
-
-[hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) Colossal-AI：用于大规模并行训练的统一深度学习系统,具有高效并行化技术的集成大规模模型训练系统。
-
-[PKU-DAIR/Hetu](https://github.com/PKU-DAIR/Hetu) 针对大规模和自动化分布式训练的高性能分布式深度学习系统。
+* [horovod/horovod](https://github.com/horovod/horovod) Uber开源的分布式训练框架。它的发展吸取了Facebook "Training ImageNet In 1 Hour" 与百度 "Ring Allreduce" 的优点，可为用户实现分布式训练提供帮助。
+* [dask/dask](https://github.com/dask/dask)  用Python编写的，是一个灵活的、开源的并行计算库，提供大规模性能 高级并行性。
+* [Qihoo360/XLearning](https://github.com/Qihoo360/XLearning) 支持多种机器学习、深度学习框架调度系统。基于Hadoop Yarn完成了对TensorFlow、MXNet、Caffe、Theano、PyTorch、Keras、XGBoost等常用框架的集成，同时具备良好的扩展性和兼容性。
+* [sql-machine-learning/elasticdl](https://github.com/sql-machine-learning/elasticdl)  Kubernetes原生的深度学习框架，支持容错和弹性调度,支持TensorFlow和PyTorch。
+* [kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) Kubeflow 是用于机器学习操作的云原生平台 - 管道、训练和部署。
+* [alibaba/euler](https://github.com/alibaba/euler) Euler-2.0是大规模分布式的图学习框架，配合TensorFlow或者阿里内部的XDL等深度学习工具，可以支持数十亿点数百亿边的复杂异构图上进行模型训练。
+* [Angel-ML/angel](https://github.com/Angel-ML/angel) 用于大规模机器学习的灵活而强大的参数服务器。基于参数服务器理念的高性能分布式机器学习和图计算平台。
+* [ray-project/ray](https://github.com/ray-project/ray) 提供用于构建分布式应用程序的简单通用API的开源框架。Ray与RLlib（可扩展的强化学习库和Tune（可扩展的超参数调优库）打包在一起。
+* [alibaba/Alink](https://github.com/alibaba/Alink) Alink是基于Flink的机器学习算法平台，由阿里巴巴计算平台的PAI团队开发。
+* [kakaobrain/torchgpipe](https://github.com/kakaobrain/torchgpipe) pytorch的可扩展管道并行性库，可有效地训练大型的，消耗内存的模型。
+* [tensorflow/mesh](https://github.com/tensorflow/mesh) 简化模型并行化 Mesh TensorFlow: Model Parallelism Made Easier
+* [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) 一个深度学习优化库，它使分布式训练变得容易，高效和有效。
+* [uber/fiber](https://github.com/uber/fiber) 简化AI的分布式计算 该项目是实验性的，API不稳定。
+* [petuum/adaptdl](https://github.com/petuum/adaptdl) 资源自适应深度学习（DL）训练和调度框架。AdaptDL的目标是使分布式DL在动态资源环境（如共享集群和云）中变得轻松高效。
+* [learning-at-home/hivemind](https://github.com/learning-at-home/hivemind) 一个用于在互联网上训练大型神经网络的库
+* https://github.com/petuum/adaptdl 一个能动态调整并行度的深度神经网络训练框架。它支持多租户集群管理，可以平衡模型训练等待及完成时间，能够提高资源利用率。
+* [huggingface/accelerate](https://github.com/huggingface/accelerate) 一个简单的API，将与多GPUTPU、fp16相关的样板代码抽离了出来，保持其余代码不变。PyTorch 用户无须使用不便控制和调整的抽象类或编写、维护样板代码，就可以直接上手多 GPU 或 TPU。Accelerate 支持的集成包括：CPU 单 GPU 单一节点多 GPU 多节点多 GPU TPU 带有本地 AMP 的 FP16.
+* [BaguaSys/bagua](https://github.com/BaguaSys/bagua) 八卦是由快手科技和DS3 Lab共同开发的PyTorch深度学习训练加速框架。目前支持：高级分布式训练算法：用户只需添加几行代码（可选择弹性模式）即可将单个 GPU 上的训练扩展到多 GPU（可能跨多台机器）。
+* [facebookresearch/fairscale](https://github.com/facebookresearch/fairscale) 用于高性能和大规模训练的 PyTorch 扩展。
+* [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) 用于大规模并行训练的统一深度学习系统,具有高效并行化技术的集成大规模模型训练系统。
+* [PKU-DAIR/Hetu](https://github.com/PKU-DAIR/Hetu) 针对大规模和自动化分布式训练的高性能分布式深度学习系统。
 
 ## 其他_机器学习与深度学习
 
-[vikasverma1077/manifold_mixup](https://github.com/vikasverma1077/manifold_mixup) 数据增强⽅法,Manifold Mixup 的目标是通过插入示例的隐藏状态来学习鲁棒的特征。 我们的方法学习到的表征更具判别性和紧凑性。 
-
-[huggingface/optimum](https://github.com/huggingface/optimum) 一组性能优化工具，可实现在目标硬件上训练和运行模型的最高效率。AI 生态系统发展迅速，越来越多的专用硬件及其自身的优化每天都在涌现。因此，Optimum 使用户能够有效地使用这些平台中的任何一个，并且与变压器固有的相同。
-
-[China-UK-ZSL/Resources_for_KZSL](https://github.com/China-UK-ZSL/Resources_for_KZSL) KZSL：对知识驱动的零样本学习进行基准测试.用于零**样本**图像分类 ( ZS-IMGC)、零**样本**关系提取 ( ZS-RE) 和零**样本**知识图 (KG) 完成 ( ZS-KGC ))
-
-[alibaba/Elastic-Federated-Learning-Solution](https://github.com/alibaba/Elastic-Federated-Learning-Solution) 经过百亿规模工业级场景实战验证的跨互联网企业信息合作的联邦学习框架。EFLS有以下核心特性：云原生支持自定义特征工程——大规模高可用；首开水平聚合，层次聚合双模型——更强大更便捷。 
-
-[wuba/dl_inference](https://github.com/wuba/dl_inference) 通用深度学习推理工具，可在生产环境中快速上线由TensorFlow、PyTorch、Caffe框架训练出的深度学习模型。
-
-[activeloopai/Hub](https://github.com/activeloopai/Hub) 人工智能的数据集格式。为深度学习构建、管理和可视化数据集。将数据实时流式传输到 PyTorch/TensorFlow 并对其进行版本控制。
-
-[gradio-app/gradio](https://github.com/gradio-app/gradio) 在 3 分钟内使用 Python 为您的机器学习模型创建 UI
-
-[PKU-DAIR/mindware](https://github.com/PKU-DAIR/mindware) 一个高效的开源 AutoML 系统，用于自动化机器学习生命周期，包括特征工程、神经架构搜索和超参数调整。
-
-[DataCanvasIO/Hypernets](https://github.com/DataCanvasIO/Hypernets) 通用自动化机器学习框架，用于简化特定领域中端到端 AutoML 工具包的开发。包括 tensorflow、keras、pytorch 等深度学习框架，以及 sklearn、lightgbm、xgboost 等机器学习库。引入了抽象的搜索空间表示，同时兼顾了超参数优化和神经架构搜索（NAS）的要求，使 Hypernets 成为能够适应各种自动化机器学习需求的通用框架。
-
-[RadeonOpenCompute/ROCm](https://github.com/RadeonOpenCompute/ROCm) ROCm - 用于 HPC 和超大规模 GPU 计算的开源平台
-
-[PaddlePaddle/Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite) 飞桨多端多平台高性能深度学习推理引擎.支持多平台：涵盖 Android、iOS、嵌入式 Linux 设备、Windows、macOS 和 Linux 主机。支持多种语言：包括 Java、Python、C++。轻量化和高性能：针对移动端设备的机器学习进行优化，压缩模型和二进制文件体积，高效推理，降低内存消耗
-
-[nvdla/hw](https://github.com/nvdla/hw) NVIDIA 深度学习加速器 (NVDLA) 是一种免费的开放式架构，它促进了设计深度学习推理加速器的标准方法。凭借其模块化架构，NVDLA 具有可扩展性、高度可配置性，并且旨在简化集成和可移植性。
-
-[lowRISC/opentitan](https://github.com/lowRISC/opentitan) OpenTitan是一个开源硅信任根 (RoT) 项目。使企业、平台提供商和芯片制造商的硅 RoT 设计和实现更加透明、可信和安全，以生产高质量的开放 IP 以作为全功能产品的实例化。制造商越来越多地开始关注防篡改处理器（或其中一部分），通常被称为“安全区域（Secure Enclave）”，以阻止各种攻击。芯片中使用“信任根（Root of Trust）”，在系统每次启动时进行加密检查，确保没有任何内容被恶意篡改。如果发现问题，安全区域会阻止计算机启动。
-
-[lowRISC/ibex](https://github.com/lowRISC/ibex) Ibex 是一个小型 32 位 RISC-V CPU 内核，以前称为 zero-riscy。Ibex 是用 SystemVerilog 编写的生产级开源 32 位 RISC-V CPU 内核。CPU 内核高度可参数化，非常适合嵌入式控制应用。Ibex 正在接受广泛的验证，并且已经看到多个流片。Ibex 支持整数 (I) 或嵌入式 (E)、整数乘除法 (M)、压缩 (C) 和 B（位操作）扩展。
-
-[scikit-hep/awkward-1.0](https://github.com/scikit-hep/awkward-1.0) 使用类似 NumPy 的习语来处理类似 JSON 的数据。
-
-[GitHub - alibaba/Curvature-Learning-Framework](https://github.com/alibaba/Curvature-Learning-Framework) 基于Tensorflow的非欧深度学习框架。实现了多种非欧流形、非欧算子和黎曼优化器，基于与Tensorflow相似的底层接口，可以便捷的迁移模型空间而不改变模型细节。背景：欧氏空间不可能无损表征树、环结构，然而双曲（负曲率）、球面（正曲率）空间无损表征。由于对结构性强的如无尺度网络、层次数据、环状数据等的优良表征能力，非欧深度学习逐渐应用到各个领域并展示出优越性，包括链接预测、推荐系统等。
-
-[facebookresearch/bitsandbytes](https://github.com/facebookresearch/bitsandbytes) 用于 8 位优化器和量化例程的库。
-
-[openai/triton](https://github.com/openai/triton) OpenAI的Triton是一种类 Python 的开源编程语言。能够高效编写 GPU 代码。例如，它可以用不到 25 行代码写出与 cuBLAS 性能相匹配的 FP16 矩阵乘法内核。此外，使用 Triton 成功生成比同类实现效率高 2 倍的内核。
+* [vikasverma1077/manifold_mixup](https://github.com/vikasverma1077/manifold_mixup) 数据增强⽅法,Manifold Mixup 的目标是通过插入示例的隐藏状态来学习鲁棒的特征。 我们的方法学习到的表征更具判别性和紧凑性。 
+* [huggingface/optimum](https://github.com/huggingface/optimum) 性能优化工具，可实现在目标硬件上训练和运行模型的最高效率。AI 生态系统发展迅速，越来越多的专用硬件及其自身的优化每天都在涌现。因此，Optimum 使用户能够有效地使用这些平台中的任何一个，并且与变压器固有的相同。
+* [China-UK-ZSL/Resources_for_KZSL](https://github.com/China-UK-ZSL/Resources_for_KZSL) KZSL：对知识驱动的零样本学习进行基准测试.用于零**样本**图像分类 ( ZS-IMGC)、零**样本**关系提取 ( ZS-RE) 和零**样本**知识图 (KG) 完成 ( ZS-KGC ))
+* [alibaba/Elastic-Federated-Learning-Solution](https://github.com/alibaba/Elastic-Federated-Learning-Solution) 经过百亿规模工业级场景实战验证的跨互联网企业信息合作的联邦学习框架。EFLS有以下核心特性：云原生支持自定义特征工程——大规模高可用；首开水平聚合，层次聚合双模型——更强大更便捷。 
+* [wuba/dl_inference](https://github.com/wuba/dl_inference) 通用深度学习推理工具，可在生产环境中快速上线由TensorFlow、PyTorch、Caffe框架训练出的深度学习模型。
+* [activeloopai/Hub](https://github.com/activeloopai/Hub) 人工智能的数据集格式。为深度学习构建、管理和可视化数据集。将数据实时流式传输到 PyTorch/TensorFlow 并对其进行版本控制。
+* [gradio-app/gradio](https://github.com/gradio-app/gradio) 在 3 分钟内使用 Python 为您的机器学习模型创建 UI
+* [PKU-DAIR/mindware](https://github.com/PKU-DAIR/mindware) 一个高效的开源 AutoML 系统，用于自动化机器学习生命周期，包括特征工程、神经架构搜索和超参数调整。
+* [DataCanvasIO/Hypernets](https://github.com/DataCanvasIO/Hypernets) 通用自动化机器学习框架，用于简化特定领域中端到端 AutoML 工具包的开发。包括 tensorflow、keras、pytorch 等深度学习框架，以及 sklearn、lightgbm、xgboost 等机器学习库。引入了抽象的搜索空间表示，同时兼顾了超参数优化和神经架构搜索（NAS）的要求，使 Hypernets 成为能够适应各种自动化机器学习需求的通用框架。
+* [RadeonOpenCompute/ROCm](https://github.com/RadeonOpenCompute/ROCm) ROCm - 用于 HPC 和超大规模 GPU 计算的开源平台
+* [PaddlePaddle/Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite) 飞桨多端多平台高性能深度学习推理引擎.支持多平台：涵盖 Android、iOS、嵌入式 Linux 设备、Windows、macOS 和 Linux 主机。支持多种语言：包括 Java、Python、C++。轻量化和高性能：针对移动端设备的机器学习进行优化，压缩模型和二进制文件体积，高效推理，降低内存消耗
+* [nvdla/hw](https://github.com/nvdla/hw) NVIDIA 深度学习加速器 (NVDLA) 是一种免费的开放式架构，它促进了设计深度学习推理加速器的标准方法。凭借其模块化架构，NVDLA 具有可扩展性、高度可配置性，并且旨在简化集成和可移植性。
+* [lowRISC/opentitan](https://github.com/lowRISC/opentitan) OpenTitan是一个开源硅信任根 (RoT) 项目。使企业、平台提供商和芯片制造商的硅 RoT 设计和实现更加透明、可信和安全，以生产高质量的开放 IP 以作为全功能产品的实例化。制造商越来越多地开始关注防篡改处理器（或其中一部分），通常被称为“安全区域（Secure Enclave）”，以阻止各种攻击。芯片中使用“信任根（Root of Trust）”，在系统每次启动时进行加密检查，确保没有任何内容被恶意篡改。如果发现问题，安全区域会阻止计算机启动。
+* [lowRISC/ibex](https://github.com/lowRISC/ibex) Ibex 是一个小型 32 位 RISC-V CPU 内核，以前称为 zero-riscy。Ibex 是用 SystemVerilog 编写的生产级开源 32 位 RISC-V CPU 内核。CPU 内核高度可参数化，非常适合嵌入式控制应用。Ibex 正在接受广泛的验证，并且已经看到多个流片。Ibex 支持整数 (I) 或嵌入式 (E)、整数乘除法 (M)、压缩 (C) 和 B（位操作）扩展。
+* [scikit-hep/awkward-1.0](https://github.com/scikit-hep/awkward-1.0) 使用类似 NumPy 的习语来处理类似 JSON 的数据。
+* [GitHub - alibaba/Curvature-Learning-Framework](https://github.com/alibaba/Curvature-Learning-Framework) 基于Tensorflow的非欧深度学习框架。实现了多种非欧流形、非欧算子和黎曼优化器，基于与Tensorflow相似的底层接口，可以便捷的迁移模型空间而不改变模型细节。背景：欧氏空间不可能无损表征树、环结构，然而双曲（负曲率）、球面（正曲率）空间无损表征。由于对结构性强的如无尺度网络、层次数据、环状数据等的优良表征能力，非欧深度学习逐渐应用到各个领域并展示出优越性，包括链接预测、推荐系统等。
+* [facebookresearch/bitsandbytes](https://github.com/facebookresearch/bitsandbytes) 用于 8 位优化器和量化例程的库。
+* [openai/triton](https://github.com/openai/triton) OpenAI的Triton是一种类 Python 的开源编程语言。能够高效编写 GPU 代码。例如，它可以用不到 25 行代码写出与 cuBLAS 性能相匹配的 FP16 矩阵乘法内核。此外，使用 Triton 成功生成比同类实现效率高 2 倍的内核。
 
 # 图神经网络GNN
 
@@ -531,56 +475,32 @@ https://github.com/petuum/adaptdl 一个能动态调整并行度的深度神经�
 ## BERT优化
 
 * google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
-
 * google-research/ALBERT 用于语言表达自我监督学习的Lite BERT
-
 * bojone/bert-of-theseus BERT 模型压缩方法 ,theseus(忒修斯之船 如果忒修斯的船上的木头被  逐渐替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？),将原始大模型切分为多个大模块，固定大模型权重，训练时随机替换为小模块,充分训练后，将小模型继续微调。
-
 * brightmart/albert_zh 使用TensorFlow 进行自我监督学习语言表示的Lite Bert的实现预训练的汉语模型
-
 * bert4keras 更清晰、更轻量级的keras版bert
-
 * huawei-noah/Pretrained-Language-Model 华为诺亚方舟实验室开发的预训练语言模型及其相关优化技术NEZHA是一种经过预训练的中文语言模型，可以在多项中文NLP任务上实现最先进的性能TinyBERT是一种压缩的BERT模型，推理时可缩小7.5倍，加快9.4倍
-
 * Lisennlp/TinyBert 基于华为的TinyBert进行修改的，简化了数据读取的过程，方便我们利用自己的数据进行读取操作。
-
 * epfml/collaborative-attention 整合多头注意力,任何经过预训练的注意力层重新配置为协作注意力层。
-
 * ZhuiyiTechnology/WoBERT 以词为基本单位的中文BERT（Word-based BERT）
-
 * autoliuweijie/FastBERT FastBERT：具有自适应推断时间的自蒸馏BERT pip install fastbert
-
 * alexa/bort 论文 Optimal Subarchitecture Extraction for BERT. “ BERT的最佳子体系结构提取”的代码。Bort是用于BERT架构的最佳子集，它是通过对神经架构搜索应用完全多项式时间近似方案（FPTAS）提取的。 Bort的有效（即不计算嵌入层）大小是原始BERT大型体系结构的5.5％，是净大小的16％。它在CPU上也比基于BERT的速度快7.9倍，并且比体系结构的其他压缩变体和某些非压缩变体性能更好。与多个公共自然语言理解（NLU）基准上的BERT-large相比，它的平均性能提高了0.3％至31％。
-
 * ymcui/MacBERT MacBERT是经过改进的BERT，具有新颖的MLM作为校正预训练任务，从而减轻了预训练和微调的差异。
-
 * valuesimplex/FinBERT 基于 BERT 架构的金融领域预训练语言模型
-
 * yitu-opensource/ConvBert ConvBERT，通过全新的注意力模块，仅用 1/10 的训练时间和 1/6 的参数就获得了跟 BERT 模型一样的精度。依图研发团队从模型结构本身的冗余出发，提出了一种基于跨度的动态卷积操作，并基于此提出了 ConvBERT 模型。
-
 * wtma/CharBERT 字符敏感的预训练语言模型 通过结合字符级别和词级别的信息实现了更为全面的输入编码，同时，结合 RNN 和 CNN 的优势，基本上 CNN，RNN，Transformer 都使用上了，体现了新老研究成果的结合在一定程度上能进一步提升方法的性能。
-
 * Sleepychord/CogLTX 将BERT应用于长文本 CogLTX 遵循一种特别简单直观的范式，即 抽取关键的句子 => 通过 BERT 得到答案 这样的两步流程。
-
 * ShannonAI/service-streamer 服务流媒体BERT服务,每秒处理1400个句子的BERT服务.
-
 * DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding 双重 BERT 模型的解耦上下文编码框架
-
 * shawroad/NLP_pytorch_project/Text_Ranking/DC_Bert_Ranking/
-
 * Sleepychord/CogLTX 可将当前类似BERT的预训练语言模型应用于长文本。使用动态规划算法将长文本划分为文本块集合；使用MemRecall对原长句中的子句进行打分：从而选择出分数最高的子句组成 再进行训练，这样一来的话，COGLTX相当于使用了了两个bert，MemRecall中bert就是负责打分，另一个bert执行原本的NLP任务。
-
 * bojone/BERT-whitening 简单的线性变换（白化）操作，就可以达到BERT-flow的效果。自定义全局池化
-
 * thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果 
-  
   * 1) 对于抽取并编码的知识信息，研究者首先识别文本中的命名实体，然后将这些提到的实体与知识图谱中的实体进行匹配。研究者并不直接使用 KG 中基于图的事实，相反他们通过知识嵌入算法（例如 TransE）编码 KG 的图结构，并将多信息实体嵌入作为 ERNIE 的输入。基于文本和知识图谱的对齐，ERNIE 将知识模块的实体表征整合到语义模块的隐藏层中。
-  * 2) 与 BERT 类似，研究者采用了带 Mask 的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对
+  * 2) 与BERT类似，采用了带Mask的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对
 
 * ShannonAI/ChineseBert 融合字形与拼音信息的中文Bert预训练模型
-
 * alibaba/AliceMind/tree/main/LatticeBERT Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models 利用多粒度的词格信息（word lattice），相对字级别的模型取得了性能提升。
-
 * [ymcui/MacBERT](https://github.com/ymcui/MacBERT) MacBERT是一种改进的BERT，具有新颖的M LM校正预训练任务，它减轻了预训练和微调的差异。我们建议使用类似的词来进行掩蔽，而不是使用在微调阶段从未出现过的 [MASK] 令牌进行掩蔽。通过使用基于 word2vec (Mikolov et al., 2013) 相似度计算的Synonyms 工具包 (Wang and Hu, 2017)获得相似词。如果选择 N-gram 进行掩码，我们将单独找到相似的单词。在极少数情况下，当没有相似词时，我们会降级为使用随机词替换。
 
 ## 预训练模型
@@ -646,7 +566,7 @@ https://github.com/petuum/adaptdl 一个能动态调整并行度的深度神经�
 * ZhuiyiTechnology/t5-pegasus 中文生成式预训练模型，以mT5为基础架构和初始权重，通过类似PEGASUS的方式进行预训练。
 * yym6472/ms_pointer_network 用多来源Pointer Network的产品标题摘要方法.从两个信息来源：原始商品标题和知识信息knowledge中抽取信息，然后将二者进行综合得到最后的结果。
 * FeiSun/ProductTitleSummarizationCorpus Dataset for CIKM 2018 paper "Multi-Source Pointer Network for Product Title Summarization" 
-* xcfcode/Summarization-Papers This repo contains a list of summarization papers including various topics. If any error, please open an issue.摘要论文列表，包括各种主题。
+* xcfcode/Summarization-Papers 文本摘要论文列表，包括各种主题。
 * MaartenGr/keyBERT 一种最小且易于使用的关键字提取技术，它利用BERT嵌入来创建与文档最相似的关键字和关键字短语。
 * Morizeyao/GPT2-Chinese GPT2中文文生模型，包括散文、诗词、对联、通用中文、中文歌词、文言文
 * jiacheng-ye/kg_one2set 解决关键词生成任务，给一篇源文档（比如论文的摘要），关键词预测任务就是希望能预测出一些表达文档重点信息的关键词，或者更准确的说是关键短语。提出了模型SetTrans，其特点是能够预测更多、更准确而且重复率更低的关键词集合。并行预测，在 inference 效率上是Transfomer的6.44倍。
@@ -682,33 +602,21 @@ https://github.com/petuum/adaptdl 一个能动态调整并行度的深度神经�
 ## 机器阅读理解
 
 * basketballandlearn/MRC_Competition_Dureader 基于大规模MRC数据再训练的机器阅读理解预训练模型（包括roberta-wwm-large、macbert-large），可以使用[transformers库](https://huggingface.co/luhua/chinese_pretrain_mrc_roberta_wwm_ext_large)。
-
 * wptoux/albert-chinese-large-webqa 基于百度webqa与dureader数据集训练的Albert Large QA模型
-
 * bojone/dgcnn_for_reading_comprehension 基于膨胀门卷积的阅读理解式问答模型（Keras实现）
-
 * cooelf/AwesomeMRC 对MRC的研究摘要和参考资料
-
 * nlpdata/c3 中文机器阅读理解数据集 multiple-Choice Chinese machine reading Comprehension dataset.
-
 * qiufengyuyi/event_extraction 百度aistudio事件抽取比赛 使用机器阅读理解来尝试解决。
-
 * liuhuanyong/MiningZhiDaoQACorpus 百度知道问答语料库，包括超过580万的问题，938万的答案，5800个分类标签。基于该问答语料库，可支持多种应用，如闲聊问答，逻辑挖掘。 
-
 * xv44586/ccf_2020_qa_match CCF2020问答匹配比赛 任务是：给定IM交流片段，片段包含一个客户问题以及随后的经纪人若干IM消息，从随后的经纪人消息中找出一个是对客户问题的回答。
-
 * lgw863/LogiQA-dataset 数据集包含8,678个QA实例
-
 * HIT-SCIR/Molweni 提出了构建于多人对话的英文机器阅读理解（MRC）数据集——Molweni，并覆盖了对话语篇结构。Molweni源自于Ubuntu聊天语料库，包括10,000个对话，共计88,303条话语（utterance）。我们共标注了30,066个问题，包括可回答和不可回答的问题。Molweni独特地为其多人对话提供了语篇结构信息，共标注了78,245个语篇关系实例，为多人对话语篇结构分析（Discourse  parsing）贡献了大规模数据。
-
 * [danqi/acl2020-openqa-tutorial](https://github.com/danqi/acl2020-openqa-tutorial) 本教程对开放域问答 (QA) 的前沿研究进行了全面而连贯的概述，QA 是使用大量不同主题的文档来回答问题的任务。首先简要介绍历史背景，讨论研究问题的基本设置和核心技术挑战，然后描述具有通用评估指标和基准的现代数据集。然后，是在开放域QA中提出的前沿模型，包括两阶段检索器-阅读器方法、密集检索器和端到端训练以及无检索器方法。最后，介绍使用文本和大型知识库的混合方法，并以重要的开放性问题结束本教程。
 
 ## 知识图谱问答KBQA、多跳推理
 
 * RUCAIBox/KBQAPapers 知识图谱问答KBQA论文集
-
 * shijx12/TransferNet An Effective and Transparent Framework for Multi-hop Question Answering over Relation Graph 多跳问题解答关系图的有效透明框架，通过每一跳都预测当前关系得分，并更新实体得分，直到最大跳数。预测该问题的跳数，按跳数的概率加权每一跳得分作为实体的最终得分。
-
 * malllabiisc/EmbedKGQA 基于知识图谱嵌入的链路预测处理多跳问答。首先训练实体嵌入，随后利用实体嵌入学习问题嵌入，预测时对所有实体，构建(head entity, question)并评分，并选择评分最高的头实体作为答案。能很好地处理知识图谱中的不完整和稀疏的问题
 
 * BDBC-KG-NLP/QA-Survey 北航大数据高精尖中心研究张日崇团队对问答系统的总结。包括基于知识图谱的问答（KBQA），基于文本的问答系统（TextQA），基于表格的问答系统（TabletQA）和基于视觉的问答系统（VisualQA），每类系统分别对学术界和工业界进行总结。
@@ -2092,220 +2000,167 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 ## RISC-V CPU
 
 * OpenXiangShan/XiangShan 开源高性能 RISC-V 处理器
-
 * SI-RISCV/e200_opensource 蜂鸟 E203 开源处理器核心
-
 * Lichee-Pi/Tang_E203_Mini LicheeTang 蜂鸟E203 Core
-
 * [GitHub - riscv-mcu/e203_hbirdv2: The Ultra-Low Power RISC-V Core](https://github.com/riscv-mcu/e203_hbirdv2) 开源 Hummingbirdv2 E203 RISC-V 处理器内核和 SoC 项目，它由中国大陆领先的 RISC-V IP 和解决方案公司Nuclei System Technology开发和开源。
-
 * mit-pdos/xv6-riscv xv6 是丹尼斯 · 里奇和肯 · 汤普森的Unix 版本 6 （v6）的重新实现。 xv6 松散地遵循 v6 的结构和风格，但使用 ANSI C 为现代 RISC-V 多处理器实施。
-
 * plctlab/writing-your-first-riscv-simulator 《从零开始的RISC-V模拟器开发》配套的PPT和教学资料
-
 * cccriscv/mini-riscv-os 从零开始为 RISC-V 构建最小的多任务操作系统内核
-
 * plctlab/riscv-operating-system-mooc 《从头写一个RISC-V OS》课程配套的资源
-
 * darklife/darkriscv 一个晚上从零开始在 Verilog 实现 RISC-V cpu
-
 * ultraembedded/riscv RISC-V CPU 核心 （RV32IM）
-
 * ultraembedded/biriscv 32 位超级RISC-V Cpu
-
 * liuqidev/8-bits-RISC-CPU-Verilog 基于有限状态机的8位RISC（精简指令集）CPU（中央处理器）简单结构和Verilog实现。
-
 * litex-hub/linux-on-litex-vexriscv 使用 VexRiscv CPU 运行 Linux，这是一种 32 位的 Linux 功能 RISC-V CPU。
-
 * riscv2os/riscv2os 手把手帶你學習 RISC-V 到可以自製 RISC-V 處理器上的作業系統的電子書。
-
 * sgmarz/osblog 在 Rust 中编写 RISC-V 操作系统
-
 * [SpinalHDL/VexRiscv](https://github.com/SpinalHDL/VexRiscv) FPGA 友好的 32 位 RISC-V CPU 实现
-
 * [chipsalliance/rocket-chip](https://github.com/chipsalliance/rocket-chip) 实例化 RISC-V Rocket Core 所需的 Rocket 芯片生成器。
-
 * [riscv-boom/riscv-boom](https://github.com/riscv-boom/riscv-boom) 伯克利乱序 RISC-V 处理器.一个可合成和可参数化的开源 RV64GC RISC-V 内核，用[Chisel](https://chisel.eecs.berkeley.edu/)硬件构造语言编写。其重点是为研究创建一个高性能、可综合和可参数化的核心。当前版本的 BOOM 微架构（[SonicBOOM，或 BOOMv3](https://carrv.github.io/2020/papers/CARRV2020_paper_15_Zhao.pdf)）与商用高性能无序内核具有竞争力，达到 6.2 CoreMarks/MHz。
-
 * [ucb-bar/chipyard](https://github.com/ucb-bar/chipyard) 具有有序内核、无序内核、加速器等的敏捷 RISC-V SoC 设计框架
-
 * [ucb-bar/riscv-sodor](https://github.com/ucb-bar/riscv-sodor) risc-v isa 的教育微架构
-
-* [pulp-platform/pulpino](https://github.com/pulp-platform/pulpino) 基于RISC-V的开源微控制器系统 于苏黎世联邦理工学院开发的 32 位 RISC-V 内核。可配置为使用 RISCY 或零风险内核。
-
+* [pulp-platform/pulpino](https://github.com/pulp-platform/pulpino) 基于RISC-V的开源微控制器系统 苏黎世联邦理工学院开发的32位RISC-V内核。可配置为使用RISCY或零风险内核。
 * [riscv-software-src/riscv-tools](https://github.com/riscv-software-src/riscv-tools) RISC-V 工具（ISA 模拟器和测试）
-
 * [YosysHQ/picorv32](https://github.com/YosysHQ/picorv32) 尺寸优化的 RISC-V CPU.实现[RISC-V RV32IMC 指令集](http://riscv.org/)的 CPU 内核。它可以配置为 RV32E、RV32I、RV32IC、RV32IM 或 RV32IMC 内核，并可选择包含内置中断控制器。
-
 * [liangkangnan/tinyriscv](https://gitee.com/liangkangnan/tinyriscv) 一个从零开始写的极简、非常易懂的RISC-V处理器核。
-
 * [ucb-bar/riscv-mini](https://github.com/ucb-bar/riscv-mini) Chisel 编写的简单 3 级流水线 RISC-V
-
-* [openhwgroup/cva6](https://github.com/openhwgroup/cva6) 6 级、单期、有序 CPU，它实现了 64 位 RISC-V 指令集。它完全实现了第 I 卷中指定的 I、M、A 和 C 扩展：用户级 ISA V 2.3 以及草案权限扩展 1.10。它实现了三个特权级别 M、S、U 以完全支持类 Unix 操作系统。此外，它还符合外部调试规范草案 0.13。
-
-plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
-
-Lichee-Pi/Tang_FPGA_Examples LicheeTang FPGA例程
-
-nf9/police_light Lichee Tang板实现警灯
-
-danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
-
-[larryli/u8g2_wqy](https://github.com/larryli/u8g2_wqy) 适合 u8g2 的中文字体，采用文泉驿点阵宋体作为源本，提供 12x12、13x13、14x14、15x15 和 16x16 点阵字库。
-
-[edgeimpulse/example-esp32-cam](https://github.com/edgeimpulse/example-esp32-cam) 在 ESP32 Cam 上构建并运行导出的图像分类
-
-[lvgl/lvgl](https://github.com/lvgl/lvgl) 强大且易于使用的嵌入式 GUI 库，具有许多小部件、高级视觉效果（不透明度、抗锯齿、动画）和低内存要求（16K RAM、64K 闪存）。
-
-[avakar/usbcorev](https://github.com/avakar/usbcorev) 用 Verilog 编写的全速设备端 USB 外设内核。
-
-[Kevincoooool/ESP_MASTER](https://github.com/Kevincoooool/ESP_MASTER) ESP32-CAM 带 LVGL 语音/人脸识别红外控制
-
-[FASTSHIFT/WatchX](https://github.com/FASTSHIFT/WatchX) 开源智能手表, 高质量流畅(60FPS+)的动画效果, 易于扩展的系统框架.
-
-[killerp/off_asr](https://gitee.com/killerp/off_asr) 智能遥控器（离线版）本项目基于esp32a1s模组，设计了一个遥控器，除了实现基本的红外遥控功能，人们还能通过语音，手机远程进行红外遥控。同时又加入温度传感器，并支持将温度数据上传云端，使人们能随时随地查看、分析数据。
-
-[killerp/smart_control](https://gitee.com/killerp/smart_control) 智能遥控器（在线版）。
-
-[espressif/esp-skainet](https://github.com/espressif/esp-skainet) ESP-Skainet 是乐鑫推出的智能语音助手，目前支持唤醒词识别和命令词识别。
-
-[Neutrino-1/Fitness_Watch](https://github.com/Neutrino-1/Fitness_Watch) 一款基于 esp12E 和 arudino 框架的健身手表。功能包括：自动显示开启和关闭、运动检测、心率传感器、NTP时间同步、触觉反馈、SMTP 电子邮件功能
-
-[alexforencich/verilog-ethernet](https://github.com/alexforencich/verilog-ethernet) 用FPGA实现的 Verilog 以太网组件
-
-[corundum/corundum](https://github.com/corundum/corundum) 用于网络计算的开源基于 FPGA 的 NIC 和平台
-
-[MiSTer-devel/Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer) MiSTer是一个开放项目，旨在使用现代硬件重新创建各种经典计算机、游戏机和街机。它允许软件和游戏图像像在原始硬件上一样运行，使用鼠标、键盘、游戏杆和其他游戏控制器等外围设备。
-
-[revoxhere/duino-coin](https://github.com/revoxhere/duino-coin) 一种几乎可以用任何东西开采的硬币，包括 Arduino 板。
-
-[eloquentarduino/EloquentTinyML](https://github.com/eloquentarduino/EloquentTinyML/) 用于微控制器的 Tensorflow Lite 的 Eloquent 接口，可在arduino上进行机器学习计算推理。
+* [openhwgroup/cva6](https://github.com/openhwgroup/cva6) 6 级、单期、有序CPU，它实现了64位RISC-V指令集。它完全实现了第I卷中指定的I、M、A 和C扩展：用户级ISA V2.3以及草案权限扩展 1.10。它实现了三个特权级别 M、S、U 以完全支持类 Unix 操作系统。此外，它还符合外部调试规范草案 0.13。
+* plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
+* Lichee-Pi/Tang_FPGA_Examples LicheeTang FPGA例程
+* nf9/police_light Lichee Tang板实现警灯
+* danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
+* [larryli/u8g2_wqy](https://github.com/larryli/u8g2_wqy) 适合 u8g2 的中文字体，采用文泉驿点阵宋体作为源本，提供 12x12、13x13、14x14、15x15 和 16x16 点阵字库。
+* [edgeimpulse/example-esp32-cam](https://github.com/edgeimpulse/example-esp32-cam) 在 ESP32 Cam 上构建并运行导出的图像分类
+* [lvgl/lvgl](https://github.com/lvgl/lvgl) 强大且易于使用的嵌入式 GUI 库，具有许多小部件、高级视觉效果（不透明度、抗锯齿、动画）和低内存要求（16K RAM、64K 闪存）。
+* [avakar/usbcorev](https://github.com/avakar/usbcorev) 用 Verilog 编写的全速设备端 USB 外设内核。
+* [Kevincoooool/ESP_MASTER](https://github.com/Kevincoooool/ESP_MASTER) ESP32-CAM 带 LVGL 语音/人脸识别红外控制
+* [FASTSHIFT/WatchX](https://github.com/FASTSHIFT/WatchX) 开源智能手表, 高质量流畅(60FPS+)的动画效果, 易于扩展的系统框架.
+* [killerp/off_asr](https://gitee.com/killerp/off_asr) 智能遥控器（离线版）本项目基于esp32a1s模组，设计了一个遥控器，除了实现基本的红外遥控功能，人们还能通过语音，手机远程进行红外遥控。同时又加入温度传感器，并支持将温度数据上传云端，使人们能随时随地查看、分析数据。
+* [killerp/smart_control](https://gitee.com/killerp/smart_control) 智能遥控器（在线版）。
+* [espressif/esp-skainet](https://github.com/espressif/esp-skainet) ESP-Skainet 是乐鑫推出的智能语音助手，目前支持唤醒词识别和命令词识别。
+* [Neutrino-1/Fitness_Watch](https://github.com/Neutrino-1/Fitness_Watch) 一款基于 esp12E 和 arudino 框架的健身手表。功能包括：自动显示开启和关闭、运动检测、心率传感器、NTP时间同步、触觉反馈、SMTP 电子邮件功能
+* [alexforencich/verilog-ethernet](https://github.com/alexforencich/verilog-ethernet) 用FPGA实现的 Verilog 以太网组件
+* [corundum/corundum](https://github.com/corundum/corundum) 用于网络计算的开源基于 FPGA 的 NIC 和平台
+* [MiSTer-devel/Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer) MiSTer是一个开放项目，旨在使用现代硬件重新创建各种经典计算机、游戏机和街机。它允许软件和游戏图像像在原始硬件上一样运行，使用鼠标、键盘、游戏杆和其他游戏控制器等外围设备。
+* [revoxhere/duino-coin](https://github.com/revoxhere/duino-coin) 一种几乎可以用任何东西开采的硬币，包括 Arduino 板。
+* [eloquentarduino/EloquentTinyML](https://github.com/eloquentarduino/EloquentTinyML/) 用于微控制器的Tensorflow Lite的Eloquent接口，可在arduino上进行机器学习计算推理。
 
 # 网络
 
-[OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。    
-
-[soimort/you-get](https://github.com/soimort/you-get) youtube下载
-
-[shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
-
-[itgoyo/Aria2](https://github.com/itgoyo/Aria2)  突破百度云限速合集
-
-[PanDownloadServer/Server](https://github.com/PanDownloadServer/Server) 百度云PanDownload的个人维护版本
-
-[liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
-
-[yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，包含教程和源代码
-
-[facert/awesome-spider](https://github.com/facert/awesome-spider) 收集各种爬虫 
-
-[AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘网站、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
-
-[vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) 使用 Qt C++ 开发的B站视频、直播、漫画下载器。
+* [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。    
+* [soimort/you-get](https://github.com/soimort/you-get) youtube下载
+* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
+* [itgoyo/Aria2](https://github.com/itgoyo/Aria2)  突破百度云限速合集
+* [PanDownloadServer/Server](https://github.com/PanDownloadServer/Server) 百度云PanDownload的个人维护版本
+* [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
+* [yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，包含教程和源代码
+* [facert/awesome-spider](https://github.com/facert/awesome-spider) 收集各种爬虫 
+* [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘网站、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
+* [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) 使用 Qt C++ 开发的B站视频、直播、漫画下载器。
 
 # 安全与渗透
 
-[occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
-[fofapro/vulfocus](https://github.com/fofapro/vulfocus) 漏洞集成平台，将漏洞环境docker镜像，放入即可使用，开箱即用。
-[LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 一个简单的现代化公司域名使用规律预测及生成工具
-[0x727/ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) 水泽-信息收集自动化工具 只需要输入根域名即可全方位收集相关资产，并检测漏洞。
-[TideSec/TideFinger](https://github.com/TideSec/TideFinger) TideFinger——指纹识别小工具，汲取整合了多个web指纹库，结合了多种指纹检测方法，让指纹检测更快捷、准确。
-[wooyunwang/Fortify](https://github.com/wooyunwang/Fortify) 源代码各种审计漏洞白测试盒的漏洞描述或具体修复方案
-[insightglacier/Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting) Pentesing、Fuzzing、Bruteforce 和 BugBounty 等字典收集项目。渗透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
-[Al1ex/Pentest-tools](https://github.com/Al1ex/Pentest-tools) 内网渗透工具:ACL突破、交换、真实劫持、信息收集、内网电话、密码喷洒、密码抓取、密码破解、权限提升、权限维持、横向移动、端口扫描、端口转发、网络嗅探、集成工具
-[Gality369/CS-Loader](https://github.com/Gality369/CS-Loader) CS免杀,包括python版和C版本
-[xuanhusec/OscpStudyGroup](https://github.com/xuanhusec/OscpStudyGroup) Oscp公益学习组,包括：小技巧合集、Kali基本操作、常用工具、windows提权汇总、反弹shell方法汇总、靶机推荐列表、缓冲区溢出通关脚本框架、OSCP命令大全、反弹shell方法汇总、linux提权方法汇总、windows提权方法汇总、Linux提权辅助、Windows提权辅助、渗透测试方法论、靶机练习
-[mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) 用于渗透测试人员和开发人员的交互式 TLS 拦截 HTTP 代理。用于 MITM的 proxy，MITM即中间人攻击（Man-in-the-middle attack）。用于中间人攻击的代理首先会向正常的代理一样转发请求，保障服务端与客户端的通信，其次，会适时的查、记录其截获的数据，或篡改数据，引发服务端或客户端特定的行为。 不同于 fiddler 或 wireshark 等抓包工具，mitmproxy 不仅可以截获请求帮助开发者查看、分析，更可以通过自定义脚本进行二次开发。
-[ybdt/post-hub](https://github.com/ybdt/post-hub) 传播代理、C2、免杀、横向、域渗透
-[xuedingmiaojun/wxappUnpacker](https://github.com/xuedingmiaojun/wxappUnpacker) 小程序反编译（支持分包）
-[wetools/wept](https://github.com/wetools/wept) 微信小程序多端实时运行工具.支持iOS Android Mac, Window 以及 Linux
-[ffffffff0x/1earn](https://github.com/ffffffff0x/1earn) ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup
-[Power7089/PenetrationTest-Tips](https://github.com/Power7089/PenetrationTest-Tips) 渗透测试小技巧，渗透测试Tips
-[cleverbao/520apkhook](https://github.com/cleverbao/520apkhook) 把ms的安卓远控附加进普通的app中，并进行隐藏特征。可以通用的手机安全管家。
-[iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) 一个逆向工程安卓apk文件的工具
-[lintstar/About-Attack](https://github.com/lintstar/About-Attack) 一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收集，降低红队技术门槛的手册
-[Simp1er/AndroidSec](https://github.com/Simp1er/AndroidSec) 记录一些我自己在学习安卓逆向过程中的海洋的东西
-[huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)  PC版微信/QQ/TIM防撤回补丁
-[tombstoneghost/TIWAP](https://github.com/tombstoneghost/TIWAP) 使用 Flask 制作的 Web 安全测试实验室，供新手安全爱好者了解各种 Web 漏洞。
-[d3ckx1/Fvuln](https://github.com/d3ckx1/Fvuln) F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。
-[qianxiao996/CTF-Tools](https://github.com/qianxiao996/CTF-Tools) Python+Pyqt写的CTF编码、解码、加密、解密工具。
-[AntSwordProject/antSword](https://github.com/AntSwordProject/antSword) 中国蚁剑是跨平台的开源网站管理工具。
-[yzddmr6/As-Exploits](https://github.com/yzddmr6/As-Exploits) 中国蚁剑后渗透框架
-[ph4ntonn/Stowaway](https://github.com/ph4ntonn/Stowaway) 利用go语言编写、专为渗透测试工作者制作的多级代理工具
-[WangYihang/Platypus](https://github.com/WangYihang/Platypus) 用 go 编写的现代多反向 shell 会话管理器
-[jweny/pocassist](https://github.com/jweny/pocassist) 全新的开源漏洞测试框架，实现poc在线编辑、运行、批量测试。
-[wh1t3p1g/ysomap](https://github.com/wh1t3p1g/ysomap) 一个有用的 Java 反序列化漏洞利用框架。
-[whwlsfb/BurpCrypto](https://github.com/whwlsfb/BurpCrypto) AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件
-[Tlaster/YourAV](https://github.com/Tlaster/YourAV) 宇宙级最轻量杀毒软件
-[i11us0ry/goon](https://github.com/i11us0ry/goon) goon,集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
-[ffffffff0x/f8x](https://github.com/ffffffff0x/f8x) 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等.
-[SafeGroceryStore/Caesar](https://github.com/SafeGroceryStore/Caesar) 一个全新的敏感文件发现工具
-[Ed1s0nZ/cool](https://github.com/Ed1s0nZ/cool) Golang-Gin框架写的免杀平台，内置分离、捆绑等多种BypassAV方式。
-[zyylhn/zscan](https://github.com/zyylhn/zscan) 开源的内网端口扫描器、爆破工具和其他实用工具的集合体可以称为工具包。以主机和内网网段发现和端口扫描为基础，可以对mysql、mssql、redis、mongo、postgres、ftp、ssh、ldap、rdp、smb等服务进行爆破，还有其他netbios、smb、oxid、socks server（扫描内网中的代理服务器）、snmp、ms17010等扫描功能，支持poc（xray v1格式）单个和批量检测。
-[jwt1399/Sec-Tools](https://github.com/jwt1399/Sec-Tools) 基于Python-Django的多功能Web安全渗透测试工具，包含漏洞扫描，端口扫描，指纹识别，目录扫描，旁站扫描，域名扫描等功能。
-[tangxiaofeng7/SecExample](https://github.com/tangxiaofeng7/SecExample) JAVA 漏洞靶场 (Vulnerability Environment For Java)
-[pen4uin/pentest-note](https://github.com/pen4uin/pentest-note) 渗透测试☞经验/思路/想法/总结/笔记
-[timwhitez/Frog-checkCDN](https://github.com/timwhitez/Frog-checkCDN) 批量检查目标是否为cdn
+* [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
+* [fofapro/vulfocus](https://github.com/fofapro/vulfocus) 漏洞集成平台，将漏洞环境docker镜像，放入即可使用，开箱即用。
+* [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 一个简单的现代化公司域名使用规律预测及生成工具
+* [0x727/ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) 水泽-信息收集自动化工具 只需要输入根域名即可全方位收集相关资产，并检测漏洞。
+* [TideSec/TideFinger](https://github.com/TideSec/TideFinger) TideFinger——指纹识别小工具，汲取整合了多个web指纹库，结合了多种指纹检测方法，让指纹检测更快捷、准确。
+* [wooyunwang/Fortify](https://github.com/wooyunwang/Fortify) 源代码各种审计漏洞白测试盒的漏洞描述或具体修复方案
+* [insightglacier/Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting) Pentesing、Fuzzing、Bruteforce 和 BugBounty 等字典收集项目。渗透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
+* [Al1ex/Pentest-tools](https://github.com/Al1ex/Pentest-tools) 内网渗透工具:ACL突破、交换、真实劫持、信息收集、内网电话、密码喷洒、密码抓取、密码破解、权限提升、权限维持、横向移动、端口扫描、端口转发、网络嗅探、集成工具
+* [Gality369/CS-Loader](https://github.com/Gality369/CS-Loader) CS免杀,包括python版和C版本
+* [xuanhusec/OscpStudyGroup](https://github.com/xuanhusec/OscpStudyGroup) Oscp公益学习组,包括：小技巧合集、Kali基本操作、常用工具、windows提权汇总、反弹shell方法汇总、靶机推荐列表、缓冲区溢出通关脚本框架、OSCP命令大全、反弹shell方法汇总、linux提权方法汇总、windows提权方法汇总、Linux提权辅助、Windows提权辅助、渗透测试方法论、靶机练习
+* [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) 用于渗透测试人员和开发人员的交互式 TLS 拦截 HTTP 代理。用于 MITM的 proxy，MITM即中间人攻击（Man-in-the-middle attack）。用于中间人攻击的代理首先会向正常的代理一样转发请求，保障服务端与客户端的通信，其次，会适时的查、记录其截获的数据，或篡改数据，引发服务端或客户端特定的行为。 不同于 fiddler 或 wireshark 等抓包工具，mitmproxy 不仅可以截获请求帮助开发者查看、分析，更可以通过自定义脚本进行二次开发。
+* [ybdt/post-hub](https://github.com/ybdt/post-hub) 传播代理、C2、免杀、横向、域渗透
+* [xuedingmiaojun/wxappUnpacker](https://github.com/xuedingmiaojun/wxappUnpacker) 小程序反编译（支持分包）
+* [wetools/wept](https://github.com/wetools/wept) 微信小程序多端实时运行工具.支持iOS Android Mac, Window 以及 Linux
+* [ffffffff0x/1earn](https://github.com/ffffffff0x/1earn) ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup
+* [Power7089/PenetrationTest-Tips](https://github.com/Power7089/PenetrationTest-Tips) 渗透测试小技巧，渗透测试Tips
+* [cleverbao/520apkhook](https://github.com/cleverbao/520apkhook) 把ms的安卓远控附加进普通的app中，并进行隐藏特征。可以通用的手机安全管家。
+* [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) 一个逆向工程安卓apk文件的工具
+* [lintstar/About-Attack](https://github.com/lintstar/About-Attack) 一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收集，降低红队技术门槛的手册
+* [Simp1er/AndroidSec](https://github.com/Simp1er/AndroidSec) 记录一些我自己在学习安卓逆向过程中的海洋的东西
+* [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)  PC版微信/QQ/TIM防撤回补丁
+* [tombstoneghost/TIWAP](https://github.com/tombstoneghost/TIWAP) 使用 Flask 制作的 Web 安全测试实验室，供新手安全爱好者了解各种 Web 漏洞。
+* [d3ckx1/Fvuln](https://github.com/d3ckx1/Fvuln) F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。
+* [qianxiao996/CTF-Tools](https://github.com/qianxiao996/CTF-Tools) Python+Pyqt写的CTF编码、解码、加密、解密工具。
+* [AntSwordProject/antSword](https://github.com/AntSwordProject/antSword) 中国蚁剑是跨平台的开源网站管理工具。
+* [yzddmr6/As-Exploits](https://github.com/yzddmr6/As-Exploits) 中国蚁剑后渗透框架
+* [ph4ntonn/Stowaway](https://github.com/ph4ntonn/Stowaway) 利用go语言编写、专为渗透测试工作者制作的多级代理工具
+* [WangYihang/Platypus](https://github.com/WangYihang/Platypus) 用 go 编写的现代多反向 shell 会话管理器
+* [jweny/pocassist](https://github.com/jweny/pocassist) 全新的开源漏洞测试框架，实现poc在线编辑、运行、批量测试。
+* [wh1t3p1g/ysomap](https://github.com/wh1t3p1g/ysomap) 一个有用的 Java 反序列化漏洞利用框架。
+* [whwlsfb/BurpCrypto](https://github.com/whwlsfb/BurpCrypto) AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件
+* [Tlaster/YourAV](https://github.com/Tlaster/YourAV) 宇宙级最轻量杀毒软件
+* [i11us0ry/goon](https://github.com/i11us0ry/goon) goon,集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
+* [ffffffff0x/f8x](https://github.com/ffffffff0x/f8x) 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等.
+* [SafeGroceryStore/Caesar](https://github.com/SafeGroceryStore/Caesar) 一个全新的敏感文件发现工具
+* [Ed1s0nZ/cool](https://github.com/Ed1s0nZ/cool) Golang-Gin框架写的免杀平台，内置分离、捆绑等多种BypassAV方式。
+* [zyylhn/zscan](https://github.com/zyylhn/zscan) 开源的内网端口扫描器、爆破工具和其他实用工具的集合体可以称为工具包。以主机和内网网段发现和端口扫描为基础，可以对mysql、mssql、redis、mongo、postgres、ftp、ssh、ldap、rdp、smb等服务进行爆破，还有其他netbios、smb、oxid、socks server（扫描内网中的代理服务器）、snmp、ms17010等扫描功能，支持poc（xray v1格式）单个和批量检测。
+* [jwt1399/Sec-Tools](https://github.com/jwt1399/Sec-Tools) 基于Python-Django的多功能Web安全渗透测试工具，包含漏洞扫描，端口扫描，指纹识别，目录扫描，旁站扫描，域名扫描等功能。
+* [tangxiaofeng7/SecExample](https://github.com/tangxiaofeng7/SecExample) JAVA 漏洞靶场 (Vulnerability Environment For Java)
+* [pen4uin/pentest-note](https://github.com/pen4uin/pentest-note) 渗透测试☞经验/思路/想法/总结/笔记
+* [timwhitez/Frog-checkCDN](https://github.com/timwhitez/Frog-checkCDN) 批量检查目标是否为cdn
 
 # 其他
 
-[ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
-[mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks 作为Markdown文档、Julia、Python或R脚本
-modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
-huihut/interview C/C++ 技术面试基础知识总结
-barry-ran/QtScrcpy Android实时显示控制软件
-bennettfeely/bennett ztext 易于实现的3D网页排版。适用于每种字体。
-DaveJarvis/keenwrite 基于Java的桌面Markdown编辑器，具有实时预览，字符串插值和公式
-vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
-willmcgugan/rich 一个终端内富文本和美化的python库。
-crazycodeboy/awesome-flutter-cn  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
-xujiyou/zhihu-flutter  Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
-nisrulz/flutter-examples 给初露头角的flutter开发人员的简单基本的应用程序示例。
-microsoft/playwright-python 针对 Python 语言的纯自动化工具，它可以通过单个API自动执行 Chromium，Firefox 和 WebKit 浏览器，连代码都不用写，就能实现自动化功能。
-hoffstadt/DearPyGui 一个针对Python的快速而强大的图形用户界面工具包，具有最小的依赖性
-emeryberger/scalene 适用于Python的高性能，高精度CPU和内存分析器.用于Python脚本的CPU和内存分析器，能够正确处理多线程代码，还能区分Python代码和本机代码的运行时间。
-raysan5/raylib 一个简单易用的视频游戏编程库 
-rwv/chinese-dos-games 中文 DOS 游戏
-nondanee/UnblockNeteaseMusic 解锁网易云音乐客户端变灰歌曲
-fffaraz/awesome-cpp A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
-Genymobile/scrcpy 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
-openstf/minitouch 最小的Android多点触控事件生成器。
-gozfree/gear-lib 一组通用的Ｃ基础库，用POSIX C实现，目标是为了跨平台兼容。适用于物联网，嵌入式，以及网络服务开发等场景。
-tangtangcoding/C-C- C语言电子书与视频资料分享
-fluttercandies/wechat_flutter Flutter版本微信，一个优秀的Flutter即时通讯IM开源库
-CoderMikeHe/flutter_wechat 利用 Flutter 来高仿微信(WeChat) 7.0.0+ App
-youxinLu/flutter_mall 一款Flutter开源在线商城应用程序
-ducafecat/flutter_learn_news  flutter实战学习-新闻客户端 
-freestyletime/FlutterNews  用Flutter写的新闻类小项目 
-linyacool/WebServer C++11编写的Web服务器
-sanic-org/sanic 异步 Python 3.7+ web 框架 
-davidbrochart/nbterm 让你在终端中查看、编辑、执行Jupyter笔记。
-SocialSisterYi/bilibili-API-collect  哔哩哔哩-API收集整理
-jobbole/awesome-python-cn Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等
-saghul/txiki.js 使用 QuickJS、libuv 构建的微型 JavaScript 运行时
-dblalock/bolt 矩阵和向量运算速度提高 10 倍
-[TheZoraiz/ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) 将图像转换为 ascii 艺术并在控制台上打印它们。
-[jina-ai/jina](https://github.com/jina-ai/jina) 一个神经搜索框架，它使任何人都可以在几分钟内构建 SOTA 和可扩展的深度学习搜索应用程序。可扩展的索引、查询、理解任何数据：视频、图像、长/短文本、音乐、源代码、PDF 等。
-[deepmind/mujoco](https://github.com/deepmind/mujoco) 多关节动力学与接触。通用物理模拟器。
-[keenon/nimblephysics](https://github.com/keenon/nimblephysics) Nimble：深度学习的物理引擎
-[Alinshans/MyTinySTL](https://github.com/Alinshans/MyTinySTL) 实现了大部分STL中的容器与函数，但仍存在许多bug。
-[rspivak/lsbasi](https://github.com/rspivak/lsbasi) 让我们构建一个简单的解释器
-[pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) 通过您自己的 Linux 硬件进行全网广告拦截,Pi-hole® 是一个[DNS 漏洞](https://en.wikipedia.org/wiki/DNS_Sinkhole)，无需安装任何客户端软件即可保护您的设备免受不需要的内容的侵害。
-[antlr/antlr4](https://github.com/antlr/antlr4) ANTLR（另一种语言识别工具）是一个强大的解析器生成器，用于读取、处理、执行或翻译结构化文本或二进制文件。
-[ptitSeb/box86](https://github.com/ptitSeb/box86/) Box86 - Linux 用户空间 x86 仿真器，针对 ARM Linux 设备
-[ptitSeb/box64](https://github.com/ptitSeb/box64/) Box64  Linux 用户空间 x86_64 仿真器，针对 ARM64 Linux 设备
-[joerick/pyinstrument](https://github.com/joerick/pyinstrument) 用于 Python 的调用堆栈分析器。向您展示为什么您的代码很慢！
-[lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。
-[EastWorld/wechat-app-mall](https://github.com/EastWorld/wechat-app-mall) 微信小程序商城，微信小程序微店
-[jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) 基于Electron的图表和白板桌面应，包装了核心draw.io编辑器。
-[microapp-store/flash-waimai](https://github.com/microapp-store/flash-waimai) 仿照饿了么的外卖平台，包括手机端，后台管理, api服务
-[PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
-[marktext/marktext](https://github.com/marktext/marktext) 备忘录一个简单优雅的markdown编辑器，适用于 Linux、macOS 和 Windows。
-[weartist/computer_book_list](https://github.com/weartist/computer_book_list) 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
-[sunym1993/flash-linux0.11-talk](https://github.com/sunym1993/flash-linux0.11-talk) 像小说一样品读 Linux 0.11 核心代码
-[sunface/rust-course](https://github.com/sunface/rust-course)   “连续六年成为全世界最受喜爱的语言，无GC也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS未来基石" —  工作之余的第二语言来试试Rust吧。<<Rust语言圣经>>拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内。这可能是目前最用心的Rust中文学习教程/书籍
-[Textualize/textual](https://github.com/Textualize/textual) 受现代Web开发启发的 Python 的 TUI（文本用户界面）框架。
-[psf/black](https://github.com/psf/black) 毫不妥协的 Python 代码格式化程序 
-[clouddreamteam_admin/cloud-dream](https://gitee.com/clouddreamteam_admin/cloud-dream) 微信小程序——餐饮点餐商城，是针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！
-[HC小区业主版: hc智慧家园小程序 ](https://gitee.com/java110/WechatOwnerService) 是 HC小区开源项目的一个分支项目，主要给业主使用，其中包括缴物业费，缴停车费，投诉建议，家庭成员维护，房屋保修 房屋出租，公告查看，小区圈等功能。
-[veloren/veloren](https://github.com/veloren/veloren) 用 Rust 编写的多人体素 RPG。从 Cube World、Minecraft 和 Dwarf Fortress 等游戏中汲取灵感。该游戏目前正在大力开发中，但可以玩。
+* [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
+* [mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks 作为Markdown文档、Julia、Python或R脚本
+* modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
+* huihut/interview C/C++ 技术面试基础知识总结
+* barry-ran/QtScrcpy Android实时显示控制软件
+* bennettfeely/bennett ztext 易于实现的3D网页排版。适用于每种字体。
+* DaveJarvis/keenwrite 基于Java的桌面Markdown编辑器，具有实时预览，字符串插值和公式
+* vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
+* willmcgugan/rich 一个终端内富文本和美化的python库。
+* crazycodeboy/awesome-flutter-cn  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
+* xujiyou/zhihu-flutter  Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
+* nisrulz/flutter-examples 给初露头角的flutter开发人员的简单基本的应用程序示例。
+* microsoft/playwright-python 针对 Python 语言的纯自动化工具，它可以通过单个API自动执行 Chromium，Firefox 和 WebKit 浏览器，连代码都不用写，就能实现自动化功能。
+* hoffstadt/DearPyGui 一个针对Python的快速而强大的图形用户界面工具包，具有最小的依赖性
+* emeryberger/scalene 适用于Python的高性能，高精度CPU和内存分析器.用于Python脚本的CPU和内存分析器，能够正确处理多线程代码，还能区分Python代码和本机代码的运行时间。
+* raysan5/raylib 一个简单易用的视频游戏编程库 
+* rwv/chinese-dos-games 中文 DOS 游戏
+* nondanee/UnblockNeteaseMusic 解锁网易云音乐客户端变灰歌曲
+* fffaraz/awesome-cpp A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+* Genymobile/scrcpy 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
+* openstf/minitouch 最小的Android多点触控事件生成器。
+* gozfree/gear-lib 一组通用的Ｃ基础库，用POSIX C实现，目标是为了跨平台兼容。适用于物联网，嵌入式，以及网络服务开发等场景。
+* tangtangcoding/C-C- C语言电子书与视频资料分享
+* fluttercandies/wechat_flutter Flutter版本微信，一个优秀的Flutter即时通讯IM开源库
+* CoderMikeHe/flutter_wechat 利用 Flutter 来高仿微信(WeChat) 7.0.0+ App
+* youxinLu/flutter_mall 一款Flutter开源在线商城应用程序
+* ducafecat/flutter_learn_news  flutter实战学习-新闻客户端 
+* freestyletime/FlutterNews  用Flutter写的新闻类小项目 
+* linyacool/WebServer C++11编写的Web服务器
+* sanic-org/sanic 异步 Python 3.7+ web 框架 
+* davidbrochart/nbterm 让你在终端中查看、编辑、执行Jupyter笔记。
+* SocialSisterYi/bilibili-API-collect  哔哩哔哩-API收集整理
+* jobbole/awesome-python-cn Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等
+* saghul/txiki.js 使用 QuickJS、libuv 构建的微型 JavaScript 运行时
+* dblalock/bolt 矩阵和向量运算速度提高 10 倍
+* [TheZoraiz/ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) 将图像转换为 ascii 艺术并在控制台上打印它们。
+* [jina-ai/jina](https://github.com/jina-ai/jina) 一个神经搜索框架，它使任何人都可以在几分钟内构建 SOTA 和可扩展的深度学习搜索应用程序。可扩展的索引、查询、理解任何数据：视频、图像、长/短文本、音乐、源代码、PDF 等。
+* [deepmind/mujoco](https://github.com/deepmind/mujoco) 多关节动力学与接触。通用物理模拟器。
+* [keenon/nimblephysics](https://github.com/keenon/nimblephysics) Nimble：深度学习的物理引擎
+* [Alinshans/MyTinySTL](https://github.com/Alinshans/MyTinySTL) 实现了大部分STL中的容器与函数，但仍存在许多bug。
+* [rspivak/lsbasi](https://github.com/rspivak/lsbasi) 让我们构建一个简单的解释器
+* [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) 通过您自己的 Linux 硬件进行全网广告拦截,Pi-hole® 是一个[DNS 漏洞](https://en.wikipedia.org/wiki/DNS_Sinkhole)，无需安装任何客户端软件即可保护您的设备免受不需要的内容的侵害。
+* [antlr/antlr4](https://github.com/antlr/antlr4) ANTLR（另一种语言识别工具）是一个强大的解析器生成器，用于读取、处理、执行或翻译结构化文本或二进制文件。
+* [ptitSeb/box86](https://github.com/ptitSeb/box86/) Box86 - Linux 用户空间 x86 仿真器，针对 ARM Linux 设备
+* [ptitSeb/box64](https://github.com/ptitSeb/box64/) Box64  Linux 用户空间 x86_64 仿真器，针对 ARM64 Linux 设备
+* [joerick/pyinstrument](https://github.com/joerick/pyinstrument) 用于 Python 的调用堆栈分析器。向您展示为什么您的代码很慢！
+* [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。
+* [EastWorld/wechat-app-mall](https://github.com/EastWorld/wechat-app-mall) 微信小程序商城，微信小程序微店
+* [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) 基于Electron的图表和白板桌面应，包装了核心draw.io编辑器。
+* [microapp-store/flash-waimai](https://github.com/microapp-store/flash-waimai) 仿照饿了么的外卖平台，包括手机端，后台管理, api服务
+* [PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
+* [marktext/marktext](https://github.com/marktext/marktext) 备忘录一个简单优雅的markdown编辑器，适用于 Linux、macOS 和 Windows。
+* [weartist/computer_book_list](https://github.com/weartist/computer_book_list) 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
+* [sunym1993/flash-linux0.11-talk](https://github.com/sunym1993/flash-linux0.11-talk) 像小说一样品读 Linux 0.11 核心代码
+* [sunface/rust-course](https://github.com/sunface/rust-course)   “连续六年成为全世界最受喜爱的语言，无GC也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS未来基石" —  工作之余的第二语言来试试Rust吧。<<Rust语言圣经>>拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内。这可能是目前最用心的Rust中文学习教程/书籍
+* [Textualize/textual](https://github.com/Textualize/textual) 受现代Web开发启发的 Python 的 TUI（文本用户界面）框架。
+* [psf/black](https://github.com/psf/black) 毫不妥协的 Python 代码格式化程序 
+* [clouddreamteam_admin/cloud-dream](https://gitee.com/clouddreamteam_admin/cloud-dream) 微信小程序——餐饮点餐商城，是针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！
+* [HC小区业主版: hc智慧家园小程序 ](https://gitee.com/java110/WechatOwnerService) 是 HC小区开源项目的一个分支项目，主要给业主使用，其中包括缴物业费，缴停车费，投诉建议，家庭成员维护，房屋保修 房屋出租，公告查看，小区圈等功能。
+* [veloren/veloren](https://github.com/veloren/veloren) 用 Rust 编写的多人体素 RPG。从 Cube World、Minecraft 和 Dwarf Fortress 等游戏中汲取灵感。该游戏目前正在大力开发中，但可以玩。
