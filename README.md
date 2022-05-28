@@ -44,7 +44,7 @@
 
 # 机器学习与深度学习
 
-* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)  [教程/笔记]吴恩达老师的机器学习课程个人笔记 
+* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) [教程/笔记]吴恩达老师的机器学习课程个人笔记 
 
 * [apachecn/AiLearning](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
 * [microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
@@ -239,7 +239,6 @@
 
 ## 异常检测
 
-
 * [leibinghe/GAAL-based-outlier-detection](https://github.com/leibinghe/GAAL-based-outlier-detection) 基于盖尔的异常检测
 
 * [yzhao062/pyod](https://github.com/yzhao062/pyod) 异常检测库
@@ -351,6 +350,8 @@
 
 * [dask/dask](https://github.com/dask/dask)  用Python编写的，是一个灵活的、开源的并行计算库，提供大规模性能 高级并行性。
 
+* [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) 用于大规模并行训练的统一深度学习系统,具有高效并行化技术的集成大规模模型训练系统。可以让您在几行代码内快速开始分布式训练，通过并行化策略、异构内存管理为深度学习任务加速或者节省显存。
+
 * [Qihoo360/XLearning](https://github.com/Qihoo360/XLearning) 支持多种机器学习、深度学习框架调度系统。基于Hadoop Yarn完成了对TensorFlow、MXNet、Caffe、Theano、PyTorch、Keras、XGBoost等常用框架的集成，同时具备良好的扩展性和兼容性。
 
 * [sql-machine-learning/elasticdl](https://github.com/sql-machine-learning/elasticdl)  Kubernetes原生的深度学习框架，支持容错和弹性调度,支持TensorFlow和PyTorch。
@@ -384,8 +385,6 @@
 * [BaguaSys/bagua](https://github.com/BaguaSys/bagua) 八卦是由快手科技和DS3 Lab共同开发的PyTorch深度学习训练加速框架。目前支持：高级分布式训练算法：用户只需添加几行代码（可选择弹性模式）即可将单个 GPU 上的训练扩展到多 GPU（可能跨多台机器）。
 
 * [facebookresearch/fairscale](https://github.com/facebookresearch/fairscale) 用于高性能和大规模训练的 PyTorch 扩展。
-
-* [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) 用于大规模并行训练的统一深度学习系统,具有高效并行化技术的集成大规模模型训练系统。
 
 * [PKU-DAIR/Hetu](https://github.com/PKU-DAIR/Hetu) 针对大规模和自动化分布式训练的高性能分布式深度学习系统。
 
@@ -485,7 +484,7 @@
 
 ## 异构图、 异质图
 
-* [https://github.com/BUPT-GAMMA/OpenHGNN](https://github.com/BUPT-GAMMA/OpenHGNN) 这是一个基于 DGL 的异构图神经网络（OpenHGNN）的开源工具包。支持特定任务的模型:RGCN[ESWC 2018]、HAN[WWW 2019]、KGCN[WWW 2019]、HetGNN[KDD 2019]、GTN[NeurIPS 2019]RSHN[ICDM 2019]、DGMI[AAAI 2020]、MAGNN[WWW 2020]、CompGCN[ICLR 2020]、NSHE[IJCAI 2020]、NARS[arxiv]、MHNF[arxiv]、HGSL[AAAI 2021]、HGNN-AC[WWW 2021]、HeCo[KDD 2021]、HPN[TKDE 2021]、RHGNN[arxiv]
+* [BUPT-GAMMA/OpenHGNN](https://github.com/BUPT-GAMMA/OpenHGNN) 这是一个基于 DGL 的异构图神经网络（OpenHGNN）的开源工具包。支持特定任务的模型:RGCN[ESWC 2018]、HAN[WWW 2019]、KGCN[WWW 2019]、HetGNN[KDD 2019]、GTN[NeurIPS 2019]RSHN[ICDM 2019]、DGMI[AAAI 2020]、MAGNN[WWW 2020]、CompGCN[ICLR 2020]、NSHE[IJCAI 2020]、NARS[arxiv]、MHNF[arxiv]、HGSL[AAAI 2021]、HGNN-AC[WWW 2021]、HeCo[KDD 2021]、HPN[TKDE 2021]、RHGNN[arxiv]
 
 * [Jhy1993/HAN](https://github.com/Jhy1993/HAN) 异构图注意力网络，遵循经典的异质图神经网络架构(节点级别聚合与语义级别聚合)，为了更好的实现层次聚合函数，HAN利用语义级别注意力和节点级别注意力来同时学习元路径与节点邻居的重要性,并通过相应地聚合操作得到最终的节点表示。
 
@@ -554,7 +553,7 @@
 
 * [phanein/deepwalk](https://github.com/phanein/deepwalk) DeepWalk 使用短随机游走来学习图中顶点的表示。
 
-* https://github.com/aister2020/KDDCUP_2020_AutoGraph_1st_Place KDD KDD CUP 2020自动图形表示学习：第一名解决方案。实现了四种不同的模型GCN、GAT、GraphSage、TAGConv
+* [KDDCUP_2020_AutoGraph_1st_Place](https://github.com/aister2020/KDDCUP_2020_AutoGraph_1st_Place) KDDCUP 2020自动图形表示学习：第一名解决方案。实现了四种不同的模型GCN、GAT、GraphSage、TAGConv.
 
 ## 时空网络_交通预测_动态图
 
@@ -658,7 +657,7 @@
 
 * [TAMU-VITA/L2-GCN](https://github.com/TAMU-VITA/L2-GCN) GCN高效分层训练框架
 
-# 图监督_半监督_对比学习
+## 图监督_半监督_对比学习
 
 * [THUDM/GRAND](https://github.com/THUDM/GRAND) Graph Random Neural Network ，用于图半监督学习的新型图神经网络框架。在模型架构上，提出了一种简单有效的图数据增强方法 Random Propagation，用来增强模型鲁棒性及减轻过平滑。基于 Random Propagation，GRAND 在优化过程中使用一致性正则（Consistency Regularization）来增强模型的泛化性，即除了优化标签节点的 cross-entropy loss 之外，还会优化模型在无标签节点的多次数据增强的预测一致性。节点预测 state of the Art.
 
@@ -754,137 +753,129 @@
 
 ## Transformer库与优化
 
-* huggingface/transformers Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0. 
+* [huggingface/transformers](https://github.com/huggingface/transformers) 支持Pytorch、TensorFlow和JAX的最先进的机器学习Transformers库。提供了数以千计的预训练模型，支持100多种语言的文本分类、信息抽取、问答、摘要、翻译、文本生成。它的宗旨让最先进的 NLP 技术人人易用。
 
-* pytorch/fairseq Python编写的Facebook AI Research Sequence-to-Sequence工具包。
+* [microsoft/DeBERTa](https://github.com/microsoft/DeBERTa) 注意力分散的增强解码的BERT，使用两种新颖的技术改进了BERT和RoBERTa模型，显着提高了预训练的效率和下游任务的性能。
 
-* ml-jku/hopfield-layers NLP 领域里大热的 Transformer，其网络更新规则其实是和 Hopfield 网络在连续状态下是相同的。Transformer 中的这种注意力机制其实等价于扩展到连续状态的 modern Hopfield 网络中的更新规则。论文作者来自奥地利林茨大学、挪威奥斯陆大学等机构，与 Jürgen Schmidhuber 合著 LSTM 的 Sepp Hochreiter 也是作者之一。
+* [pytorch/fairseq](https://github.com/pytorch/fairseq) Python编写的Facebook AI Research Sequence-to-Sequence工具包。
 
-* laiguokun/Funnel-Transformer Transformer优化，一种新的自我注意模型，可以将隐藏状态的序列逐渐压缩为较短的状态，从而降低了计算成本。
+* [ml-jku/hopfield-layers](https://github.com/ml-jku/hopfield-layers) NLP 领域里大热的 Transformer，其网络更新规则其实是和 Hopfield 网络在连续状态下是相同的。Transformer 中的这种注意力机制其实等价于扩展到连续状态的 modern Hopfield 网络中的更新规则。论文作者来自奥地利林茨大学、挪威奥斯陆大学等机构，与 Jürgen Schmidhuber 合著 LSTM 的 Sepp Hochreiter 也是作者之一。
 
-* mit-han-lab/hardware-aware-transformers 用于高效自然语言处理的硬件感知型Transformers.实现高达3倍的加速和3.7倍的较小模型尺寸，而不会降低性能。
+* [laiguokun/Funnel-Transformer](https://github.com/laiguokun/Funnel-Transformer) Transformer优化，一种新的自我注意模型，可以将隐藏状态的序列逐渐压缩为较短的状态，从而降低了计算成本。
 
-* mit-han-lab/lite-transformer 具有长距离短距离注意的Lite transformer
+* [mit-han-lab/hardware-aware-transformers](https://github.com/mit-han-lab/hardware-aware-transformers) 用于高效自然语言处理的硬件感知型Transformers.实现高达3倍的加速和3.7倍的较小模型尺寸，而不会降低性能。
 
-* microsoft/DeBERTa：注意力分散的增强解码的BERT，使用两种新颖的技术改进了BERT和RoBERTa模型，显着提高了预训练的效率和下游任务的性能。
+* [mit-han-lab/lite-transformer](https://github.com/mit-han-lab/lite-transformer) 具有长距离短距离注意的Lite transformer
 
-* allenai/longformer 用于长文档的类似BERT的模型
+* [allenai/longformer](https://github.com/allenai/longformer) 用于长文档的类似BERT的模型
 
-* Tencent/TurboTransformers a fast and user-friendly runtime for transformer inference on CPU and GPU
+* [Tencent/TurboTransformers](https://github.com/Tencent/TurboTransformers) 在 CPU 和 GPU 上进行Transformer推断的快速且用户友好的运行库。
 
-* idiap/fast-transformers Pytorch library for fast transformer implementations
+* [idiap/fast-transformers](https://github.com/idiap/fast-transformers) Pytorch实现的快速Transformer库
 
-* bytedance/lightseq 高效的序列处理与生成库，提供 Bert, GPT, Transformer，beam search, diverse beam search, topp/topk sampling
+* [bytedance/lightseq](https://github.com/bytedance/lightseq) 高效的序列处理与生成库，提供 Bert, GPT, Transformer，beam search, diverse beam search, topp/topk sampling
 
-* Big Bird 稀疏注意力机 随机注意力机制+局部注意力机制+全局注意力机制 PurdueCAM2Project/TensorFlowModelGardeners/official/nlp/projects/bigbird/
+* [google-research/bigbird](https://github.com/google-research/bigbird) 基于稀疏注意力(随机注意力机制+局部注意力机制+全局注意力机制)的transformer，它将基于transformer的模型（例如 BERT）扩展到更长的序列。 由于能够处理更长的上下文，BigBird 极大地提高了各种 NLP 任务（例如问答和摘要）的性能。
 
-* lucidrains/performer-pytorch 使用一个高效的线性广义注意力框架（generalized attention framework），允许基于不同相似性度量（核）的一类广泛的注意力机制。该框架通过谷歌的新算法 FAVOR+（ Fast Attention Via Positive Orthogonal Random Features）来实现，后者能够提供注意力机制的可扩展低方差、无偏估计，这可以通过随机特征图分解（常规 softmax-attention）来表达。该方法在保持线性空间和时间复杂度的同时准确率也很有保证，也可以应用到独立的 softmax 运算。此外，该方法还可以和可逆层等其他技术进行互操作。google-research/google-research/tree/master/performer
+* [lucidrains/performer-pytorch](https://github.com/lucidrains/performer-pytorch) 一个高效的线性广义注意力框架（generalized attention framework），允许基于不同相似性度量（核）的一类广泛的注意力机制。该框架通过谷歌的新算法 FAVOR+（Fast Attention Via Positive Orthogonal Random Features）来实现，后者能够提供注意力机制的可扩展低方差、无偏估计，这可以通过随机特征图分解（常规 softmax-attention）来表达。该方法在保持线性空间和时间复杂度的同时准确率也很有保证，也可以应用到独立的softmax运算。此外，还可以和可逆层等其他技术进行互操作。
 
-* microsoft/fastformers 实现Transformers在CPU上223倍的推理加速 它能对基于Transformer的模型在各种NLU任务上实现高效的推理时间性能。论文FastFormers的作者表明，利用知识蒸馏、结构化剪枝和数值优化可以大幅提高推理效率。我们表明，这种改进可以达到200倍的加速，并在22倍的能耗下节省超过200倍的推理成本。
+* [microsoft/fastformers](https://github.com/microsoft/fastformers) 实现Transformers在CPU上223倍的推理加速 它能对基于Transformer的模型在各种NLU任务上实现高效的推理时间性能。论文FastFormers的作者表明，利用知识蒸馏、结构化剪枝和数值优化可以大幅提高推理效率。我们表明，这种改进可以达到200倍的加速，并在22倍的能耗下节省超过200倍的推理成本。
 
-* mit-han-lab/lite-transformer 轻量级Transformer，注意力长短搭配 长依赖和短依赖的剥离，并引入卷积来捕捉短依赖，总体思想和Transformer之自适应宽度注意力有点类似。这篇文章中发现低层次上的注意力都比较短，层次越高，注意力的所关注的依赖越长。
+* [mit-han-lab/lite-transformer](https://github.com/mit-han-lab/lite-transformer) 轻量级Transformer，注意力长短搭配 长依赖和短依赖的剥离，并引入卷积来捕捉短依赖，总体思想和Transformer之自适应宽度注意力有点类似。这篇文章中发现低层次上的注意力都比较短，层次越高，注意力的所关注的依赖越长。
 
-* ThilinaRajapakse/simpletransformers Transformers for Classification, NER, QA, Language Modelling, Language Generation, T5, Multi-Modal, and Conversational AI 
+* [ThilinaRajapakse/simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) 用于分类、NER、QA、语言建模、语言生成、T5、多模态和会话AI的transformer
 
-* mit-han-lab/lite-transformer  Lite Transformer with Long-Short Range Attention 
+* [cloneofsimo/RealFormer-pytorch](https://github.com/cloneofsimo/RealFormer-pytorch) 通过在Transformer架构上进行改造来提升BERT训练效果，具体为：使用attention残差机制改造Transformer。1、realformer在标签数量较少的分类任务上有一定的提升效果，提升的幅度与数据集和任务难度有关，一般越难的任务提升的幅度越大。2、realformer在标签数量达到一定的数值时，其效果便会大打折扣，在某些数据集上甚至会无法学习。
 
-* cloneofsimo/RealFormer-pytorch 通过在Transformer架构上进行改造来提升BERT训练效果，具体为：使用attention残差机制改造Transformer。1、realformer在标签数量较少的分类任务上有一定的提升效果，提升的幅度与数据集和任务难度有关，一般越难的任务提升的幅度越大。2、realformer在标签数量达到一定的数值时，其效果便会大打折扣，在某些数据集上甚至会无法学习。
+* [openai/sparse_attention](https://github.com/openai/sparse_attention) 稀疏Attention
 
-* openai/sparse_attention 稀疏Attention
+* [sacmehta/delight](https://github.com/sacmehta/delight) 提出了一个更深更轻的Transformer，DeLighT，它的性能与Transformer相似，甚至更好，平均少了2到3倍的参数。
 
-* sacmehta/delight 提出了一个更深更轻的Transformer，DeLighT，它的性能与Transformer相似，甚至更好，平均少了2到3倍的参数。
+* [BSlience/transformer-all-in-one](https://github.com/BSlience/transformer-all-in-one) 记录了学习Transformer过程中的一些疑问和解答，并且实现Transformer的全过程。
 
-* BSlience/transformer-all-in-one 记录了学习Transformer过程中的一些疑问和解答，并且实现Transformer的全过程。
+* [mlpen/Nystromformer](https://github.com/mlpen/Nystromformer) 利用了 Nyström 方法来近似标准的Attention。
 
-* mlpen/Nystromformer 利用了 Nyström 方法来近似标准的Attention。
-
-* xuanqing94/FLOATER 基于连续动态系统学习更加灵活的位置编码
+* [xuanqing94/FLOATER](https://github.com/xuanqing94/FLOATER) 基于连续动态系统学习更加灵活的位置编码
 
 * [ELS-RD/transformer-deploy](https://github.com/ELS-RD/transformer-deploy) Hugging Face Transformer 亚毫秒推理和部署到生产环境
 
 ## BERT优化
 
-* google-research/bert Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
+* [google-research/bert](https://github.com/google-research/bert) Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
 
-* google-research/ALBERT 用于语言表达自我监督学习的Lite BERT
+* [google-research/ALBERT](https://github.com/google-research/ALBERT) 用于语言表达自我监督学习的Lite BERT
 
-* bojone/bert-of-theseus BERT 模型压缩方法 ,theseus(忒修斯之船 如果忒修斯的船上的木头被  逐渐替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？),将原始大模型切分为多个大模块，固定大模型权重，训练时随机替换为小模块,充分训练后，将小模型继续微调。
+* [bojone/bert-of-theseus](https://github.com/bojone/bert-of-theseus) BERT 模型压缩方法 ,theseus(忒修斯之船 如果忒修斯的船上的木头被  逐渐替换，直到所有的木头都不是原来的木头，那这艘船还是原来的那艘船吗？),将原始大模型切分为多个大模块，固定大模型权重，训练时随机替换为小模块,充分训练后，将小模型继续微调。
 
-* brightmart/albert_zh 使用TensorFlow 进行自我监督学习语言表示的Lite Bert的实现预训练的汉语模型
+* [brightmart/albert_zh](https://github.com/brightmart/albert_zh) 使用TensorFlow 进行自我监督学习语言表示的Lite Bert的实现预训练的汉语模型
 
-* bert4keras 更清晰、更轻量级的keras版bert
+* [bojone/bert4keras](https://github.com/bojone/bert4keras) 更清晰、更轻量级的keras版bert，提供丰富的应用例子。
 
-* huawei-noah/Pretrained-Language-Model 华为诺亚方舟实验室开发的预训练语言模型及其相关优化技术NEZHA是一种经过预训练的中文语言模型，可以在多项中文NLP任务上实现最先进的性能TinyBERT是一种压缩的BERT模型，推理时可缩小7.5倍，加快9.4倍
-
-* Lisennlp/TinyBert 基于华为的TinyBert进行修改的，简化了数据读取的过程，方便我们利用自己的数据进行读取操作。
-
-* epfml/collaborative-attention 整合多头注意力,任何经过预训练的注意力层重新配置为协作注意力层。
-
-* ZhuiyiTechnology/WoBERT 以词为基本单位的中文BERT（Word-based BERT）
-
-* autoliuweijie/FastBERT FastBERT：具有自适应推断时间的自蒸馏BERT pip install fastbert
-
-* alexa/bort 论文 Optimal Subarchitecture Extraction for BERT. “ BERT的最佳子体系结构提取”的代码。Bort是用于BERT架构的最佳子集，它是通过对神经架构搜索应用完全多项式时间近似方案（FPTAS）提取的。 Bort的有效（即不计算嵌入层）大小是原始BERT大型体系结构的5.5％，是净大小的16％。它在CPU上也比基于BERT的速度快7.9倍，并且比体系结构的其他压缩变体和某些非压缩变体性能更好。与多个公共自然语言理解（NLU）基准上的BERT-large相比，它的平均性能提高了0.3％至31％。
-
-* ymcui/MacBERT MacBERT是经过改进的BERT，具有新颖的MLM作为校正预训练任务，从而减轻了预训练和微调的差异。
-
-* valuesimplex/FinBERT 基于 BERT 架构的金融领域预训练语言模型
-
-* yitu-opensource/ConvBert ConvBERT，通过全新的注意力模块，仅用 1/10 的训练时间和 1/6 的参数就获得了跟 BERT 模型一样的精度。依图研发团队从模型结构本身的冗余出发，提出了一种基于跨度的动态卷积操作，并基于此提出了 ConvBERT 模型。
-
-* wtma/CharBERT 字符敏感的预训练语言模型 通过结合字符级别和词级别的信息实现了更为全面的输入编码，同时，结合 RNN 和 CNN 的优势，基本上 CNN，RNN，Transformer 都使用上了，体现了新老研究成果的结合在一定程度上能进一步提升方法的性能。
-
-* Sleepychord/CogLTX 将BERT应用于长文本 CogLTX 遵循一种特别简单直观的范式，即 抽取关键的句子 => 通过 BERT 得到答案 这样的两步流程。
-
-* ShannonAI/service-streamer 服务流媒体BERT服务,每秒处理1400个句子的BERT服务.
-
-* DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding 双重 BERT 模型的解耦上下文编码框架
-
-* shawroad/NLP_pytorch_project/Text_Ranking/DC_Bert_Ranking/
-
-* Sleepychord/CogLTX 可将当前类似BERT的预训练语言模型应用于长文本。使用动态规划算法将长文本划分为文本块集合；使用MemRecall对原长句中的子句进行打分：从而选择出分数最高的子句组成 再进行训练，这样一来的话，COGLTX相当于使用了了两个bert，MemRecall中bert就是负责打分，另一个bert执行原本的NLP任务。
-
-* bojone/BERT-whitening 简单的线性变换（白化）操作，就可以达到BERT-flow的效果。自定义全局池化
-
-* thunlp/ERNIE 用知识图谱增强 BERT 的预训练效果 
-  * 1) 对于抽取并编码的知识信息，研究者首先识别文本中的命名实体，然后将这些提到的实体与知识图谱中的实体进行匹配。研究者并不直接使用 KG 中基于图的事实，相反他们通过知识嵌入算法（例如 TransE）编码 KG 的图结构，并将多信息实体嵌入作为 ERNIE 的输入。基于文本和知识图谱的对齐，ERNIE 将知识模块的实体表征整合到语义模块的隐藏层中。
-  * 2) 与BERT类似，采用了带Mask的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对
-
-* ShannonAI/ChineseBert 融合字形与拼音信息的中文Bert预训练模型
-
-* alibaba/AliceMind/tree/main/LatticeBERT Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models 利用多粒度的词格信息（word lattice），相对字级别的模型取得了性能提升。
+* [huawei-noah/Pretrained-Language-Model](https://github.com/huawei-noah/Pretrained-Language-Model) 华为诺亚方舟实验室开发的预训练语言模型及其相关优化技术NEZHA是一种经过预训练的中文语言模型，可以在多项中文NLP任务上实现最先进的性能TinyBERT是一种压缩的BERT模型，推理时可缩小7.5倍，加快9.4倍
 
 * [ymcui/MacBERT](https://github.com/ymcui/MacBERT) MacBERT是一种改进的BERT，具有新颖的M LM校正预训练任务，它减轻了预训练和微调的差异。我们建议使用类似的词来进行掩蔽，而不是使用在微调阶段从未出现过的 [MASK] 令牌进行掩蔽。通过使用基于 word2vec (Mikolov et al., 2013) 相似度计算的Synonyms 工具包 (Wang and Hu, 2017)获得相似词。如果选择 N-gram 进行掩码，我们将单独找到相似的单词。在极少数情况下，当没有相似词时，我们会降级为使用随机词替换。
 
+* [Lisennlp/TinyBert](https://github.com/Lisennlp/TinyBert) 基于华为的TinyBert进行修改的，简化了数据读取的过程，方便我们利用自己的数据进行读取操作。
+
+* [epfml/collaborative-attention](https://github.com/epfml/collaborative-attention) 整合多头注意力,任何经过预训练的注意力层重新配置为协作注意力层。
+
+* [ZhuiyiTechnology/WoBERT](https://github.com/ZhuiyiTechnology/WoBERT) 以词为基本单位的中文BERT（Word-based BERT）
+
+* [autoliuweijie/FastBERT](https://github.com/autoliuweijie/FastBERT) 具有自适应推断时间的自蒸馏BERT pip install fastbert
+
+* [alexa/bort](https://github.com/alexa/bort) 论文 Optimal Subarchitecture Extraction for BERT. “ BERT的最佳子体系结构提取”的代码。Bort是用于BERT架构的最佳子集，它是通过对神经架构搜索应用完全多项式时间近似方案（FPTAS）提取的。 Bort的有效（即不计算嵌入层）大小是原始BERT大型体系结构的5.5％，是净大小的16％。它在CPU上也比基于BERT的速度快7.9倍，并且比体系结构的其他压缩变体和某些非压缩变体性能更好。与多个公共自然语言理解（NLU）基准上的BERT-large相比，它的平均性能提高了0.3％至31％。
+
+* [valuesimplex/FinBERT](https://github.com/valuesimplex/FinBERT) 基于 BERT 架构的金融领域预训练语言模型
+
+* [yitu-opensource/ConvBert](https://github.com/yitu-opensource/ConvBert) ConvBERT，通过全新的注意力模块，仅用 1/10 的训练时间和 1/6 的参数就获得了跟 BERT 模型一样的精度。依图研发团队从模型结构本身的冗余出发，提出了一种基于跨度的动态卷积操作，并基于此提出了 ConvBERT 模型。
+
+* [wtma/CharBERT](https://github.com/wtma/CharBERT) 字符敏感的预训练语言模型 通过结合字符级别和词级别的信息实现了更为全面的输入编码，同时，结合 RNN 和 CNN 的优势，基本上 CNN，RNN，Transformer 都使用上了，体现了新老研究成果的结合在一定程度上能进一步提升方法的性能。
+
+* [Sleepychord/CogLTX](https://github.com/Sleepychord/CogLTX) 将BERT应用于长文本CogLTX遵循一种特别简单直观的范式，即抽取关键的句子=>通过BERT得到答案的两步流程。
+
+* [ShannonAI/service-streamer](https://github.com/ShannonAI/service-streamer) 服务流媒体BERT服务,每秒处理1400个句子的BERT服务.
+
+* [Sleepychord/CogLTX](https://github.com/Sleepychord/CogLTX) 可将当前类似BERT的预训练语言模型应用于长文本。使用动态规划算法将长文本划分为文本块集合；使用MemRecall对原长句中的子句进行打分：从而选择出分数最高的子句组成 再进行训练，这样一来的话，COGLTX相当于使用了了两个bert，MemRecall中bert就是负责打分，另一个bert执行原本的NLP任务。
+
+* [bojone/BERT-whitening](https://github.com/bojone/BERT-whitening) 简单的线性变换（白化）操作，就可以达到BERT-flow的效果。
+
+* [thunlp/ERNIE](https://github.com/thunlp/ERNIE) 用知识图谱增强 BERT 的预训练效果 
+  * 1) 对于抽取并编码的知识信息，研究者首先识别文本中的命名实体，然后将这些提到的实体与知识图谱中的实体进行匹配。研究者并不直接使用 KG 中基于图的事实，相反他们通过知识嵌入算法（例如 TransE）编码 KG 的图结构，并将多信息实体嵌入作为 ERNIE 的输入。基于文本和知识图谱的对齐，ERNIE 将知识模块的实体表征整合到语义模块的隐藏层中。
+  * 2) 与BERT类似，采用了带Mask的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对
+
+* [ShannonAI/ChineseBert](https://github.com/ShannonAI/ChineseBert) 融合字形与拼音信息的中文Bert预训练模型
+
+* [alibaba/AliceMind/LatticeBERT](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models 利用多粒度的词格信息（word lattice），相对字级别的模型取得了性能提升。
+
 ## 预训练模型
 
-* [dbiir/UER-py ](https://github.com/dbiir/UER-py) 一个用于对通用语料进行预训练并对下游任务进行微调的工具包。提供了非常丰富的模型库。包括：中文RoBERTa、基于词的中文RoBERTa、中文GPT-2预训练模型（通用、古诗词、对联、歌词、文言文）、中文T5预训练模型、中文RoBERTa下游任务微调模型（JD full 情感分类 、JD binary 情感分类 、Dianping 情感分类、Ifeng 新闻主题分类、Chinanews 新闻主题分类 、CLUENER2020 NER 、抽取式问答）等。
+* [dbiir/UER-py](https://github.com/dbiir/UER-py) 一个用于对通用语料进行预训练并对下游任务进行微调的工具包。提供了非常丰富的模型库。包括：中文RoBERTa、基于词的中文RoBERTa、中文GPT-2预训练模型（通用、古诗词、对联、歌词、文言文）、中文T5预训练模型、中文RoBERTa下游任务微调模型（JD full 情感分类 、JD binary 情感分类 、Dianping 情感分类、Ifeng 新闻主题分类、Chinanews 新闻主题分类 、CLUENER2020 NER 、抽取式问答）等。
 
 * [OpenBMB/BMInf](https://github.com/OpenBMB/BMInf) BMInf (Big Model Inference) 是一个用于大规模预训练语言模型（PLM）推理阶段的低资源工具包。最低支持在NVIDIA GTX 1060单卡运行百亿大模型。在此基础上，使用更好的gpu运行会有更好的性能。模型能力覆盖文本补全、文本生成与对话场景。文本生成能力大幅提高。目前支持下列模型：
   * **CPM2.1**. CPM2.1是CPM2 [[1](https://bminf.readthedocs.io/zh_CN/latest/introduction-zh.html#ref)] 的升级版本。拥有110亿参数的通用中文预训练语言模型。基于CPM2，CPM2.1新增了一个生成式的预训练任务并基于持续学习范式进行训练。CPM2.1比CPM2具有更好的生成能力。
   * **CPM1.** CPM1 [[2](https://bminf.readthedocs.io/zh_CN/latest/introduction-zh.html#ref)] 是拥有26亿参数的生成式中文预训练语言模型。CPM1的模型架构与GPT [[4](https://bminf.readthedocs.io/zh_CN/latest/introduction-zh.html#ref)] 类似，它能够被应用于广泛的自然语言处理任务，如对话、文章生成、完形填空和语言理解。
   * **EVA.** EVA [[3](https://bminf.readthedocs.io/zh_CN/latest/introduction-zh.html#ref)] 是有着28亿参数的中文预训练对话模型。EVA在很多对话任务上表现优异，尤其是在多轮人机交互对话任务上。
 
-* CyberZHG/keras-xlnet XLNet的非官方实现。
+* [CyberZHG/keras-xlnet](https://github.com/CyberZHG/keras-xlnet) XLNet的非官方实现。
 
-* ymcui/Chinese-XLNet 面向中文的XLNet预训练模型
+* [ymcui/Chinese-XLNet](https://github.com/ymcui/Chinese-XLNet) 面向中文的XLNet预训练模型
 
-* microsoft/unilm UniLM-NLP及更高版本的统一语言模型预训练
+* [microsoft/unilm](https://github.com/microsoft/unilm) UniLM-NLP及更高版本的统一语言模型预训练
   * layoutlm 多模态文档理解预训练模型LayoutLM 2.0，模型首先将文本、图像、布局三种模态的输入转换成向量表示，然后再交给编码器网络，最终输出的表示向量可以供下游任务使用。下游任务：表单理解、票据理解、复杂布局长文档理解、文档图像分类、视觉问答。
 
-* YunwenTechnology/Unilm UniLM模型既可以应用于自然语言理解（NLU）任务，又可以应用于自然语言生成（NLG）任务。论文来自微软研究院。模型虽然强大，但微软并没有开源中文的预训练模型。因此云问本着开源之前，将我们预训练好的中文unilm_base模型进行开源。
+* [YunwenTechnology/Unilm](https://github.com/YunwenTechnology/Unilm) UniLM模型既可以应用于自然语言理解（NLU）任务，又可以应用于自然语言生成（NLG）任务。论文来自微软研究院。模型虽然强大，但微软并没有开源中文的预训练模型。因此云问本着开源之前，将我们预训练好的中文unilm_base模型进行开源。
 
-* ymcui/Chinese-ELECTRA 中文ELECTRA预训练模型 其中ELECTRA-small模型可与BERT-base甚至其他同等规模的模型相媲美，而参数量仅为BERT-base的1/10
+* [ymcui/Chinese-ELECTRA](https://github.com/ymcui/Chinese-ELECTRA) 中文ELECTRA预训练模型 其中ELECTRA-small模型可与BERT-base甚至其他同等规模的模型相媲美，而参数量仅为BERT-base的1/10
 
-* alibaba/EasyTransfer 自然语言处理的迁移学习工具。主要特性：预训练语言模型工具，丰富且高质量的预训练模型库 BERT, ALBERT, RoBERTa, T5, etc,丰富且易用的NLP应用 如文本匹配、分本分类、机器阅读理解MRC，自动化的知识蒸馏，易用且高效的分布式训练。
+* [alibaba/EasyTransfer](https://github.com/alibaba/EasyTransfer) 自然语言处理的迁移学习工具。主要特性：预训练语言模型工具，丰富且高质量的预训练模型库 BERT, ALBERT, RoBERTa, T5, etc,丰富且易用的NLP应用 如文本匹配、分本分类、机器阅读理解MRC，自动化的知识蒸馏，易用且高效的分布式训练。
 
-* microsoft/unilm/tree/master/layoutlm 多模态预训练模型 LayoutLM 2.0，不仅考虑了文本和页面布局信息，还将图像信息融合到了多模态框架内。下游任务微调：表单理解 票据理解 复杂布局长文档理解 文档图像分类 视觉问答 
+* [microsoft/unilm//layoutlm](https://github.com/microsoft/unilm/tree/master/layoutlm) 多模态预训练模型 LayoutLM 2.0，不仅考虑了文本和页面布局信息，还将图像信息融合到了多模态框架内。下游任务微调：表单理解 票据理解 复杂布局长文档理解 文档图像分类 视觉问答 
 
 * [google-research/byt5](https://github.com/google-research/byt5) ByT5：通过预先训练的字节到字节模型迈向无令牌的未来.ByT5 是 mT5 模型的无标记器扩展。 我们的 ByT5 模型不像大多数其他预训练语言模型（BERT、XLM-R、T5、GPT-3）那样使用子词词汇表，而是直接在 UTF-8 字节上运行，无需任何文本预处理。 除了降低系统复杂性之外，我们发现参数匹配的 ByT5 模型在一系列任务中与 mT5 具有竞争力，并且在涉及嘈杂文本或对拼写和发音敏感的任务上优于 mT5。 此 repo 可用于重现 ByT5 论文中的实验。
 
 * [sunyilgdx/NSP-BERT](https://github.com/sunyilgdx/NSP-BERT) 利用**句子级别(sentence-level)** 的预训练任务 **NSP (下一句预测，Next Sentence Prediction)** 来实现不同的NLP下游任务, 例如 *单句分类(single sentence classification)*, *双句分类(sentence pair classification)*, *指代消解(coreference resolution)*, *完形填空(cloze-style task)*, *实体链接(entity linking)*, *实体类型识别(entity typing)*.
 
-* [thunlp/OpenPrompt](https://github.com/thunlp/OpenPrompt) Prompt-learning 是将预训练语言模型 (PLM) 应用于下游 NLP 任务的最新范式，它使用文本模板修改输入文本并直接使用 PLM 执行预训练任务。 该库提供了一个标准、灵活和可扩展的框架来部署即时学习管道。 OpenPrompt 支持直接从 Huggingface Transformer 加载 PLM。 将来，我们还将支持其他库实现的 PLM。
+* [thunlp/OpenPrompt](https://github.com/thunlp/OpenPrompt) Prompt-learning 是将预训练语言模型应用于下游NLP任务的最新范式，它使用文本模板修改输入文本并直接使用 PLM 执行预训练任务。 该库提供了一个标准、灵活和可扩展的框架来部署即时学习管道。 OpenPrompt支持直接从Huggingface Transformer加载PLM。将来，我们还将支持其他库实现的 PLM。
 
 * [google-research/flan](https://github.com/google-research/flan) 微调语言模型是零样本学习器
 
@@ -894,31 +885,33 @@
 
 ## 文本分类
 
-* tcxdgit/cnn_multilabel_classification 基于TextCNN和Attention的多标签分类
+* [cnn_multilabel_classification](https://github.com/tcxdgit/cnn_multilabel_classification) 基于TextCNN和Attention的多标签分类
 
-* ilivans/tf-rnn-attention Tensorflow实现文本分类任务的关注机制。
+* [ilivans/tf-rnn-attention](https://github.com/ilivans/tf-rnn-attention) Tensorflow实现文本分类任务的关注机制。
 
-* skdjfla/toutiao-text-classfication-dataset 中文文本分类数据集 共382688条，分布于15类中。
+* [skdjfla/toutiao-text-classfication-dataset](https://github.com/skdjfla/toutiao-text-classfication-dataset) 中文文本分类数据集 共382688条，分布于15类中。
 
-* xiaoqian19940510/text-classification-surveys 文本分类资源汇总，包括深度学习文本分类模型，如SpanBERT、ALBERT、RoBerta、Xlnet、MT-DNN、BERT、TextGCN、MGAN、TextCapsule、SGNN、SGM、LEAM、ULMFiT、DGCNN、ELMo、RAM、DeepMoji、IAN、DPCNN、TopicRNN、LSTMN 、Multi-Task、HAN、CharCNN、Tree-LSTM、DAN、TextRCNN、Paragraph-Vec、TextCNN、DCNN、RNTN、MV-RNN、RAE等，浅层学习模型，如LightGBM 、SVM、XGboost、Random Forest、C4.5、CART、KNN、NB、HMM等。介绍文本分类数据集，如MR、SST、MPQA、IMDB、Ye…
+* [xiaoqian19940510/text-classification-surveys](https://github.com/xiaoqian19940510/text-classification-surveys) 文本分类资源汇总，包括深度学习文本分类模型，如SpanBERT、ALBERT、RoBerta、Xlnet、MT-DNN、BERT、TextGCN、MGAN、TextCapsule、SGNN、SGM、LEAM、ULMFiT、DGCNN、ELMo、RAM、DeepMoji、IAN、DPCNN、TopicRNN、LSTMN 、Multi-Task、HAN、CharCNN、Tree-LSTM、DAN、TextRCNN、Paragraph-Vec、TextCNN、DCNN、RNTN、MV-RNN、RAE等，浅层学习模型，如LightGBM 、SVM、XGboost、Random Forest、C4.5、CART、KNN、NB、HMM等。介绍文本分类数据集，如MR、SST、MPQA、IMDB、Ye…
 
-* 649453932/Chinese-Text-Classification-Pytorch 中文文本分类，TextCNN，TextRNN，FastText，TextRCNN，BiLSTM_Attention，DPCNN，Transformer，基于pytorch，开箱即用。 
+* [649453932/Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorch) 中文文本分类，TextCNN，TextRNN，FastText，TextRCNN，BiLSTM_Attention，DPCNN，Transformer，基于pytorch，开箱即用。 
 
-* 649453932/Bert-Chinese-Text-Classification-Pytorch  使用Bert，ERNIE，进行中文文本分类
+* [649453932/Bert-Chinese-Text-Classification-Pytorch](https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch)  使用Bert，ERNIE，进行中文文本分类
 
-* SanghunYun/UDA_pytorch Unsupervised Data Augmentation  with BERT 一种半监督学习方法，可在多种语言和视觉任务上实现SOTA结果。仅用20个标记的示例，UDA的性能就优于之前在25,000个标记的示例上训练的IMDb上的SOTA。
+* [SanghunYun/UDA_pytorch](https://github.com/SanghunYun/UDA_pytorch) Unsupervised Data Augmentation  with BERT 一种半监督学习方法，可在多种语言和视觉任务上实现SOTA结果。仅用20个标记的示例，UDA的性能就优于之前在25,000个标记的示例上训练的IMDb上的SOTA。
 
-* GT-SALT/MixText 文本半监督方法MixText 提出一种全新文本增强方式——TMix，在隐式空间插值，生成全新样本。对未标注样本进行低熵预测，并与标注样本混合进行TMix。MixText可以挖掘句子之间的隐式关系，并在学习标注样本的同时利用无标注样本的信息。超越预训练模型和其他半监督方法
+* [TextCNN与ALBERT分类效果的实践](https://zhuanlan.zhihu.com/p/443782891) 详解小样本短文本多分类-对比TextCNN与ALBERT分类效果的实践（附Pytorch代码）
 
-* beyondguo/label_confusion_learning 利用标签之间的混淆关系，提升文本分类效果。利用标签信息时能够充分考虑标签之间的重叠或者依赖关系。
+* [GT-SALT/MixText](https://github.com/GT-SALT/MixText) 文本半监督方法MixText 提出一种全新文本增强方式——TMix，在隐式空间插值，生成全新样本。对未标注样本进行低熵预测，并与标注样本混合进行TMix。MixText可以挖掘句子之间的隐式关系，并在学习标注样本的同时利用无标注样本的信息。超越预训练模型和其他半监督方法
 
-* AIRobotZhang/STCKA 基于知识图谱的文本分类 将每个短文本与其在KB中的相关概念相关联，之后，将概念信息作为先验知识整合到深度神经网络中。
+* [beyondguo/label_confusion_learning](https://github.com/beyondguo/label_confusion_learning) 利用标签之间的混淆关系，提升文本分类效果。利用标签信息时能够充分考虑标签之间的重叠或者依赖关系。
 
-* ShannonAI/Neural-Semi-Supervised-Learning-for-Text-Classification 在大规模通用领域预训练的前提下，更好地利用大规模领域内无标注语料与标注语料，从而最大限度地提升模型效果.足量的领域内语料U使模型不需要再在通用领域语料上预训练；无论是采用预训练的方式还是自训练的方式，都可以显著提升模型效果，二者结合可以得到最佳结果；当领域内标注数据D较小的时候，在伪平行数据D'上训练、再在D上微调的方法可以提升更多的效果；当D更大的时候，在D和D'上联合训练取得的效果更好。
+* [AIRobotZhang/STCKA](https://github.com/AIRobotZhang/STCKA) 基于知识图谱的文本分类 将每个短文本与其在KB中的相关概念相关联，之后，将概念信息作为先验知识整合到深度神经网络中。
 
-* xmu-xiaoma666/External-Attention-pytorch 17 篇注意力机制 PyTorch 实现
+* [ShannonAI/Neural-Semi-Supervised-Learning-for-Text-Classification](https://github.com/ShannonAI/Neural-Semi-Supervised-Learning-for-Text-Classification) 在大规模通用领域预训练的前提下，更好地利用大规模领域内无标注语料与标注语料，从而最大限度地提升模型效果.足量的领域内语料U使模型不需要再在通用领域语料上预训练；无论是采用预训练还是自训练的方式，都可以显著提升模型效果，二者结合可以得到最佳结果；当领域内标注数据D较小的时候，在伪平行数据D'上训练、再在D上微调可以提升更多的效果；当D更大的时候，在D和D'上联合训练取得的效果更好。
 
-* DunZhang/LM-MLC 基于完型填空(模板)的多标签分类算法.
+* [xmu-xiaoma666/External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch) 17篇注意力机制 PyTorch 实现
+
+* [DunZhang/LM-MLC](https://github.com/DunZhang/LM-MLC) 基于完型填空(模板)的多标签分类算法.
 
 * [bojone/r-drop](https://github.com/bojone/r-drop) 使用r-drop机制实验了中文文本分类、文本生成任务，有提升。
 
