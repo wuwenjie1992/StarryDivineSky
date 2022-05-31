@@ -599,7 +599,7 @@
 
 * [acbull/GPT-GNN](https://github.com/acbull/GPT-GNN) Generative Pre-Training of Graph Neural Networks 图神经网络的生成式预训练。在预处理阶段，算法会首先随机地遮盖掉图中的一些边和点，利用生成模型来生成（预测）这些边的存在和节点的属性。模型的损失函数会使得预测的结果尽量接近真实的网络结构。这样的话，在GPT-GNN训练完成后，其内部的图神经网络层就可以被拿出来进行调优。
 
-* [rootlu/L2P-GNN](https://github.com/rootlu/L2P-GNN) 首次探索学习预训练 GNNs，缓解了预训练与微调目标之间的差异，并为预训练 GNN 提供了新的研究思路。针对节点与图级表示，该研究提出完全自监督的GNN预训练策略。针对预训练 GNN，该研究建立了一个新型大规模书目图数据，并且在两个不同领域的数据集上进行了大量实验。实验表明，该研究提出的方法显著优于 SOTA 方法。
+* [rootlu/L2P-GNN](https://github.com/rootlu/L2P-GNN) 首次探索学习预训练GNNs，缓解了预训练与微调目标之间的差异，并为预训练GNN提供了新的研究思路。针对节点与图级表示，该研究提出完全自监督的GNN预训练策略。针对预训练GNN，该研究建立了一个新型大规模书目图数据，并在两个不同领域的数据集上进行了大量实验。实验表明，该方法显著优于SOTA方法。
 
 * [Shen-Lab/GraphCL](https://github.com/Shen-Lab/GraphCL) 设计了一种针对无监督图表示学习的图对比学习框架 GraphCL。在该框架下，作者探索了 4 种不同先验下的图数据增强方法。考虑到半监督，无监督和迁移等任务，作者在很多数据集上系统的分析了不同图增强组合的影响。实验结果表明，作者所设计的 GraphCL 框架能够取得相似或者更优于 SOTA。GraphCL是一个基于对比学习的自监督图谱预训练模型，GraphCL模型对一个节点得到两个随机扰动的L-hop的Subgraph，通过最大化两个Subgraph之间的相似度来进行自监督学习。
 
@@ -665,7 +665,7 @@
 
 * [RingBDStack/SUGAR](https://github.com/RingBDStack/SUGAR) “SUGAR：具有强化池和自监督互信息机制的子图神经网络”的代码
 
-* [https://github.com/lxiaorui/ElasticGNN](https://github.com/lxiaorui/ElasticGNN) 弹性图神经网络提出了一种新颖的通用消息传递方案到 GNN 中。这种消息传递算法不仅对反向传播训练友好，而且在理论上收敛保证的情况下实现了所需的平滑特性。半监督学习任务的实验表明，所提出的 Elastic GNN 在基准数据集上获得了更好的适应性，并且对图对抗攻击的鲁棒性明显更强。
+* [https://github.com/lxiaorui/ElasticGNN](https://github.com/lxiaorui/ElasticGNN) 弹性图神经网络提出了一种新颖的GNN通用消息传递方案到。这种算法不仅对反向传播训练友好，而且在理论上收敛保证的情况下实现了所需的平滑特性。半监督学习任务的实验表明，所提出的 Elastic GNN 在基准数据集上获得了更好的适应性，并且对图对抗攻击的鲁棒性明显更强。
 
 * [SXKDZ/awesome-self-supervised-learning-for-graphs](https://github.com/SXKDZ/awesome-self-supervised-learning-for-graphs) 一个很棒的图表自监督学习的精选列表。
 
@@ -695,7 +695,7 @@
 
 * [animutomo/gcmc](https://github.com/animutomo/gcmc) Graph Convolution Matrix Completion 解决推荐系统中 矩阵补全 matrix completion 问题，并引入 side information（节点的额外信息）提升预测效果。
 
-* [Ruiqi-Hu/ARGA](https://github.com/Ruiqi-Hu/ARGA) 对抗正则化图自动编码器 Adversarially Regularized Graph Autoencoder，可用于图卷积的链路预测。进化路线 GAE -> VGAE -> ARGA 
+* [Ruiqi-Hu/ARGA](https://github.com/Ruiqi-Hu/ARGA) 对抗正则化图自动编码器Adversarially Regularized Graph Autoencoder，可用于图卷积的链路预测。进化路线GAE->VGAE->ARGA 
 
 * [safe-graph/DGFraud](https://github.com/safe-graph/DGFraud) 基于深度图的工具箱，用于欺诈检测
 
@@ -717,7 +717,7 @@
 
 * [snap-stanford/GraphGym](https://github.com/snap-stanford/GraphGym) Identity-aware Graph Neural Networks一种身份感知图神经网络对现有的消息传递 GNN 进行了扩展，将其性能提升到了高于 1-WL 测试的水平。实验结果表明，将现有的 GNN 转变为 ID-GNN 可以在难以分类的节点预测、边预测、图属性预测任务中获得平均 40% 的准确率提升；在节点和图分类对比基准任务获得 3%的准确率提升；链接预测任务获得 15% 的ROC提升。
 
-* https://github.com/YuweiCao-UIC/KPGNN 图神经网络增量学习在事件检测中的应用 
+* [YuweiCao-UIC/KPGNN](https://github.com/YuweiCao-UIC/KPGNN) 图神经网络增量学习在事件检测中的应用 
 
 * [divelab/DeeperGNN](https://github.com/divelab/DeeperGNN) 解耦Transformation和Propagation的深度图神经网络 1、Transformation操作：MLP操作，torch.nn.Linear线性映射操作；2、Propagation操作：图中的邻居节点往中心节点汇聚的操作，最简单的实现方式是AH，A是图的邻接矩阵，H是图的特征矩阵。
 
@@ -755,7 +755,7 @@
 
 * [huggingface/transformers](https://github.com/huggingface/transformers) 支持Pytorch、TensorFlow和JAX的最先进的机器学习Transformers库。提供了数以千计的预训练模型，支持100多种语言的文本分类、信息抽取、问答、摘要、翻译、文本生成。它的宗旨让最先进的 NLP 技术人人易用。
 
-* [microsoft/DeBERTa](https://github.com/microsoft/DeBERTa) 注意力分散的增强解码的BERT，使用两种新颖的技术改进了BERT和RoBERTa模型，显着提高了预训练的效率和下游任务的性能。
+* [microsoft/DeBERTa](https://github.com/microsoft/DeBERTa) 注意力分散的增强解码的BERT，使用了BERT和RoBERTa模型，显着提高了预训练的效率和下游任务的性能。
 
 * [pytorch/fairseq](https://github.com/pytorch/fairseq) Python编写的Facebook AI Research Sequence-to-Sequence工具包。
 
@@ -905,7 +905,7 @@
 
 * [beyondguo/label_confusion_learning](https://github.com/beyondguo/label_confusion_learning) 利用标签之间的混淆关系，提升文本分类效果。利用标签信息时能够充分考虑标签之间的重叠或者依赖关系。
 
-* [AIRobotZhang/STCKA](https://github.com/AIRobotZhang/STCKA) 基于知识图谱的文本分类 将每个短文本与其在KB中的相关概念相关联，之后，将概念信息作为先验知识整合到深度神经网络中。
+* [AIRobotZhang/STCKA](https://github.com/AIRobotZhang/STCKA) 基于知识图谱的文本分类.将每个短文本与其在KB中的相关概念相关联，将概念信息作为先验知识整合到深度神经网络中。
 
 * [ShannonAI/Neural-Semi-Supervised-Learning-for-Text-Classification](https://github.com/ShannonAI/Neural-Semi-Supervised-Learning-for-Text-Classification) 在大规模通用领域预训练的前提下，更好地利用大规模领域内无标注语料与标注语料，从而最大限度地提升模型效果.足量的领域内语料U使模型不需要再在通用领域语料上预训练；无论是采用预训练还是自训练的方式，都可以显著提升模型效果，二者结合可以得到最佳结果；当领域内标注数据D较小的时候，在伪平行数据D'上训练、再在D上微调可以提升更多的效果；当D更大的时候，在D和D'上联合训练取得的效果更好。
 
@@ -922,61 +922,62 @@
 * [xuyige/BERT4doc-Classification](https://github.com/xuyige/BERT4doc-Classification) 如何微调 BERT 进行文本分类
 
 * [timoschick/pet](https://github.com/timoschick/pet) 该存储库包含“利用小样本文本分类和自然语言推理的完形填空题”的代码.介绍了模式利用训练 (PET)，这是一种半监督训练程序，可将输入示例重新表述为完形填空式短语。在低资源环境中，PET 和 iPET 显着优于常规监督训练、各种半监督基线甚至 GPT-3，尽管需要的参数减少 99.9%。PET 的迭代变体 (iPET) 训练多代模型，甚至可以在没有任何训练数据的情况下使用。
+
 * [YerevaNN/warp](https://github.com/YerevaNN/warp) ACL'2021 论文 WARP Cyclone Word-level Adversarial ReProgramming 的代码。 在 SuperGLUE 少样本文本分类上优于“GPT-3”。提出了一种基于对抗性重编程的替代方法，它是自动扩展提示模板生成的早期工作。而且参数量少了好多个数量级。
 
 ## 文本摘要 文本生成
 
-* abisee/pointer-generator 使用指针生成器网络进行汇总
+* [abisee/pointer-generator](https://github.com/abisee/pointer-generator) 使用指针生成器网络进行汇总
 
-* AIKevin/Pointer_Generator_Summarizer 指针生成器网络：具有关注，指向和覆盖机制的Seq2Seq，用于抽象性摘要。 tensorflow 2.0
+* [AIKevin/Pointer_Generator_Summarizer](https://github.com/AIKevin/Pointer_Generator_Summarizer) 指针生成器网络：具有关注，指向和覆盖机制的Seq2Seq，用于抽象性摘要。 tensorflow 2.0
 
-* kjc6723/seq2seq_Pointer_Generator_Summarizer 中文会话中生成摘要总结的项目  tensorflow 2.0
+* [kjc6723/seq2seq_Pointer_Generator_Summarizer](https://github.com/kjc6723/seq2seq_Pointer_Generator_Summarizer) 中文会话中生成摘要总结的项目  tensorflow 2.0
 
-* steph1793/Pointer_Transformer_Generator tensorflow 2.0
+* [steph1793/Pointer_Transformer_Generator](https://github.com/steph1793/Pointer_Transformer_Generator) 指针生成器网络 tensorflow 2.0
 
-* magic282/NeuSum 通过共同学习评分和选择句子进行神经文本摘要
+* [magic282/NeuSum](https://github.com/magic282/NeuSum) 通过共同学习评分和选择句子进行神经文本摘要
 
-* dmmiller612/bert-extractive-summarizer BERT易于使用的提取文本摘要
+* [dmmiller612/bert-extractive-summarizer](https://github.com/dmmiller612/bert-extractive-summarizer) BERT易于使用的提取文本摘要
 
-* nju-websoft/NEST 输入知识图谱的基于联合编码的弱监督神经实体摘要方法
+* [nju-websoft/NEST](https://github.com/nju-websoft/NEST) 输入知识图谱的基于联合编码的弱监督神经实体摘要方法
 
-* xcfcode/Summarization-Papers 文本摘要论文总结
+* [xcfcode/Summarization-Papers](https://github.com/xcfcode/Summarization-Papers) 文本摘要论文总结
 
-* liucongg/GPT2-NewsTitle GPT2.带有超级详细注释的中文GPT2新闻标题生成项目。
+* [liucongg/GPT2-NewsTitle](https://github.com/liucongg/GPT2-NewsTitle) GPT2.带有超级详细注释的中文GPT2新闻标题生成项目。
 
-* bojone/SPACES 端到端的长本文摘要模型（法研杯2020司法摘要赛道） 
+* [bojone/SPACES](https://github.com/bojone/SPACES) 端到端的长本文摘要模型（法研杯2020司法摘要赛道） 
 
-* RUCAIBox/TextBox 基于Python和PyTorch开发的，用于在一个统一的、全面的、高效的框架中复现和开发文本生成算法，主要面向研究者使用。我们的库包括16种文本生成算法，涵盖了两个主要任务：无条件（无输入）生成、序列到序列（Seq2Seq）生成，包括机器翻译和摘要生成。模型 无条件：LSTMVAE    (Bowman et al., 2016)、CNNVAE (Yang et al., 2017)、HybridVAE    (Semeniuta et al., 2017)、SeqGAN    (Yu et al., 2017)、TextGAN (Zhang et al., 2017)、RankGAN    (Lin et al., 2017)、MaliGAN (Che et al., 2017)、LeakGAN (Guo et al., 2018)、MaskGAN    (Fedus et al., 2018)。序列到序列 RNN (Sutskever et al., 2014)、Transformer    (Vaswani et al., 2017b)、GPT-2 (Radford et al.)、XLNet (Yang et al., 2019)、BERT2BERT (Rothe et al., 2020)、BART（Lewis et al。，2020）
+* [RUCAIBox/TextBox](https://github.com/RUCAIBox/TextBox) 基于Python和PyTorch开发的，用于在一个统一的、全面的、高效的框架中复现和开发文本生成算法，主要面向研究者使用。我们的库包括16种文本生成算法，涵盖了两个主要任务：无条件（无输入）生成、序列到序列（Seq2Seq）生成，包括机器翻译和摘要生成。模型 无条件：LSTMVAE    (Bowman et al., 2016)、CNNVAE (Yang et al., 2017)、HybridVAE    (Semeniuta et al., 2017)、SeqGAN    (Yu et al., 2017)、TextGAN (Zhang et al., 2017)、RankGAN    (Lin et al., 2017)、MaliGAN (Che et al., 2017)、LeakGAN (Guo et al., 2018)、MaskGAN    (Fedus et al., 2018)。序列到序列 RNN (Sutskever et al., 2014)、Transformer    (Vaswani et al., 2017b)、GPT-2 (Radford et al.)、XLNet (Yang et al., 2019)、BERT2BERT (Rothe et al., 2020)、BART（Lewis et al。，2020）
 
-* google-research/text-to-text-transfer-transformer Text-To-Text Transfer Transformer T5的理念就是“万事皆可 Seq2Seq”，它使用了标准的 Encoder-Decoder 模型，并且构建了无监督/有监督的文本生成预训练任务，最终将效果推向了一个新高度。
+* [google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer) Text-To-Text Transfer Transformer T5的理念就是“万事皆可 Seq2Seq”，它使用了标准的 Encoder-Decoder 模型，并且构建了无监督/有监督的文本生成预训练任务，最终将效果推向了一个新高度。
 
-* google-research/multilingual-t5 T5 的多国语言版
+* [google-research/multilingual-t5](https://github.com/google-research/multilingual-t5) T5 的多国语言版
 
-* bojone/t5_in_bert4keras 在keras中使用T5模型 , 用 mT5 small 版本 finetune 出来的 CSL 标题生成模型，BLEU 指标能持平基于 WoBERT 的 UniLM 模型，并且解码速度快 130%；而用 mT5  base 版本 finetune 出来的 CSL 标题生成模型，指标能超过基于 WoBERT 的 UniLM 模型 1% 以上，并且解码速度也能快 60%。
+* [bojone/t5_in_bert4keras](https://github.com/bojone/t5_in_bert4keras) 在keras中使用T5模型 ,用mT5 small版本finetune出来的 CSL 标题生成模型，BLEU 指标能持平基于 WoBERT 的 UniLM 模型，并且解码速度快 130%；而用 mT5  base 版本 finetune 出来的 CSL 标题生成模型，指标能超过基于 WoBERT 的 UniLM 模型 1% 以上，并且解码速度也能快 60%。
 
-* ZhuiyiTechnology/t5-pegasus 中文生成式预训练模型，以mT5为基础架构和初始权重，通过类似PEGASUS的方式进行预训练。
+* [ZhuiyiTechnology/t5-pegasus](https://github.com/ZhuiyiTechnology/t5-pegasus) 中文生成式预训练模型，以mT5为基础架构和初始权重，通过类似PEGASUS的方式进行预训练。
 
-* yym6472/ms_pointer_network 用多来源Pointer Network的产品标题摘要方法.从两个信息来源：原始商品标题和知识信息knowledge中抽取信息，然后将二者进行综合得到最后的结果。
+* [yym6472/ms_pointer_network](https://github.com/yym6472/ms_pointer_network) 用多来源Pointer Network的产品标题摘要方法.从两个信息来源：原始商品标题和知识信息knowledge中抽取信息，然后将二者进行综合得到最后的结果。
 
-* FeiSun/ProductTitleSummarizationCorpus Dataset for CIKM 2018 paper "Multi-Source Pointer Network for Product Title Summarization" 
+* [FeiSun/ProductTitleSummarizationCorpus](https://github.com/FeiSun/ProductTitleSummarizationCorpus) Dataset for CIKM 2018 paper "Multi-Source Pointer Network for Product Title Summarization" 用于产品标题摘要的多源指针网络
 
-* xcfcode/Summarization-Papers 文本摘要论文列表，包括各种主题。
+* [xcfcode/Summarization-Papers](https://github.com/xcfcode/Summarization-Papers) 文本摘要论文列表，包括各种主题。
 
-* MaartenGr/keyBERT 一种最小且易于使用的关键字提取技术，它利用BERT嵌入来创建与文档最相似的关键字和关键字短语。
+* [MaartenGr/keyBERT](https://github.com/MaartenGr/keyBERT) 一种最小且易于使用的关键字提取技术，它利用BERT嵌入来创建与文档最相似的关键字和关键字短语。
 
-* Morizeyao/GPT2-Chinese GPT2中文文生模型，包括散文、诗词、对联、通用中文、中文歌词、文言文
+* [Morizeyao/GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese) GPT2中文文生模型，包括散文、诗词、对联、通用中文、中文歌词、文言文
 
-* jiacheng-ye/kg_one2set 解决关键词生成任务，给一篇源文档（比如论文的摘要），关键词预测任务就是希望能预测出一些表达文档重点信息的关键词，或者更准确的说是关键短语。提出了模型SetTrans，其特点是能够预测更多、更准确而且重复率更低的关键词集合。并行预测，在 inference 效率上是Transfomer的6.44倍。
+* [jiacheng-ye/kg_one2set](https://github.com/jiacheng-ye/kg_one2set) 解决关键词生成任务，给一篇源文档（比如论文的摘要），关键词预测任务就是预测出一些表达文档重点信息的关键词，或者更准确的说是关键短语。提出了模型SetTrans，其特点是能够预测更多、更准确而且重复率更低的关键词集合。并行预测，在 inference 效率上是Transfomer的6.44倍。
 
-* LLluoling/PENS-Personalized-News-Headline-Generation 个性化新闻头条生成的数据集和通用框架
+* [PENS-Personalized-News-Headline-Generation](https://github.com/LLluoling/PENS-Personalized-News-Headline-Generation) 个性化新闻头条生成的数据集和通用框架
 
-* YunwenTechnology/QueryGeneration 智能扩充机器人的“标准问”库之Query生成
+* [YunwenTechnology/QueryGeneration](https://github.com/YunwenTechnology/QueryGeneration) 智能扩充机器人的“标准问”库之Query生成
 
-* imcaspar/gpt2-ml GPT2 多语言支持, 15亿参数中文预训练模型
+* [imcaspar/gpt2-ml](https://github.com/imcaspar/gpt2-ml) GPT2 多语言支持, 15亿参数中文预训练模型
 
-* EleutherAI/gpt-neo 模型并行GPT2和类似GPT3的模型的实现，能够使用mesh-tensorflow库扩展到完整的GPT3尺寸（甚至可能更多！）。
+* [EleutherAI/gpt-neo](https://github.com/EleutherAI/gpt-neo) 模型并行GPT2和类似GPT3的模型的实现，能够使用mesh-tensorflow库扩展到完整的GPT3尺寸（甚至可能更多！）。
 
-* rikdz/GraphWriter 基于图Transformer从知识图谱中生成文本
+* [rikdz/GraphWriter](https://github.com/rikdz/GraphWriter) 基于图Transformer从知识图谱中生成文本
 
 * [Aristotle609/Medium-Title-Generator](https://github.com/Aristotle609/Medium-Title-Generator) 生成数据科学文章标题的模型
 
@@ -992,31 +993,33 @@
 
 * [princeton-nlp/SimCSE](https://github.com/princeton-nlp/SimCSE) SimCSE：句子嵌入的简单对比学习 。提供无监督或有监督的对比学习。是目前文本相似度更好的方法。
 
-* [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers) 句子转换器：使用BERT / RoBERTa / XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
+* [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers) 句子转换器：使用BERT RoBERTa XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
 
-* thunlp/OpenMatch 总体架构包括两大部分：一是相关文档检索，即根据用户检索词，从大规模文档集合中返回最相关的Top-K(K通常为100或1000)文档。二是文档重排序，即将各神经网络模型和非神经网络模型的排序特征整合，对Top-K文档重排序，进一步提升排序效果。OpenMatch提供了融合外部知识图谱信息的知识增强模型，和筛选大规模数据的数据增强模型。
+* [thunlp/OpenMatch](https://github.com/thunlp/OpenMatch) 总体架构包括两大部分：一是相关文档检索，即根据用户检索词，从大规模文档集合中返回最相关的Top-K(K通常为100或1000)文档。二是文档重排序，即将各神经网络模型和非神经网络模型的排序特征整合，对Top-K文档重排序，进一步提升排序效果。OpenMatch提供了融合外部知识图谱信息的知识增强模型，和筛选大规模数据的数据增强模型。
 
 * [NTMC-Community/MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py) 一个通用的文本匹配工具包，它旨在方便大家快速的实现、比较、以及分享最新的深度文本匹配模型。MatchZoo 的 PyTorch 版本。
 
-* terrifyzhao/text_matching 常用文本匹配模型tf版本，数据集为QA_corpus 模型:DSSM\ConvNet\ESIM\ABCNN\BiMPM\DIIN\DRCN
+* [terrifyzhao/text_matching](https://github.com/terrifyzhao/text_matching) 常用文本匹配模型tf版本，数据集为QA_corpus模型:DSSM ConvNet ESIM ABCNN BiMPM DIIN DRCN
 
-* Brokenwind/BertSimilarity 基于Google的BERT模型来进行语义相似度计算。
+* [Brokenwind/BertSimilarity](https://github.com/Brokenwind/BertSimilarity) 基于Google的BERT模型来进行语义相似度计算。
 
-* bohanli/BERT-flow 基于流式生成模型，将BERT的表示可逆地映射到一个均匀的空间，文本表示、语义文本相似性任务的SOTA。
+* [bohanli/BERT-flow](https://github.com/bohanli/BERT-flow) 基于流式生成模型，将BERT的表示可逆地映射到一个均匀的空间，文本表示、语义文本相似性任务的SOTA。
 
-* DataTerminatorX/Keyword-BERT  带关键词的BERT语义匹配
+* [DataTerminatorX/Keyword-BERT](https://github.com/DataTerminatorX/Keyword-BERT) 带关键词的BERT语义匹配
 
-* bojone/BERT-whitening 简单的向量白化改善句向量质量，可以媲美甚至超过BERT-flow的效果。
+* [bojone/BERT-whitening](https://github.com/bojone/BERT-whitening) 简单的向量白化改善句向量质量，可以媲美甚至超过BERT-flow的效果。
 
-* autoliuweijie/BERT-whitening-pytorch Pytorch version of BERT-whitening
+* [autoliuweijie/BERT-whitening-pytorch](https://github.com/autoliuweijie/BERT-whitening-pytorch) Pytorch version of BERT-whitening
 
-* nilboy/gaic_track3_pair_sim  短文本语义匹配，2021年全球人工智能技术创新大赛-赛道三-冠军方案
+* [nilboy/gaic_track3_pair_sim](https://github.com/nilboy/gaic_track3_pair_sim) 短文本语义匹配，2021年全球人工智能技术创新大赛-赛道三-冠军方案
 
-* yym6472/ConSERT 基于对比学习的句子语义表示迁移框架。包含三部分，数据增强，BERT 编码层，对比损失层。
+* [yym6472/ConSERT](https://github.com/yym6472/ConSERT) 基于对比学习的句子语义表示迁移框架。包含三部分，数据增强，BERT 编码层，对比损失层。
 
-* amazon-research/sccl 利用对比学习促进更好地基于距离的短文本聚类实现。
-  * ZhuiyiTechnology/roformer-sim 融合检索和生成的RoFormer-Sim模型.可应用于相似句生成、相似句扩增、语义相似度问题。
-  * [allenai/macaw](https://github.com/allenai/macaw) Macaw（Multi-angle c(q)uestion answering 多角度 c(q) 问题回答）是一种即用型模型，能够进行一般问题回答，在训练的领域之外表现出稳健性。 它以“多角度”方式进行了训练，这意味着它可以处理一组灵活的输入和输出“槽”（如问题、答案、解释）。Macaw 建立在 T5 之上，有不同的尺寸：macaw-11b、macaw-3b 和 macaw-large，以及各种排行榜上的以答案为重点的版本：macaw-answer-11b。
+* [amazon-research/sccl](https://github.com/amazon-research/sccl) 利用对比学习促进更好地基于距离的短文本聚类实现。
+
+* [ZhuiyiTechnology/roformer-sim](https://github.com/ZhuiyiTechnology/roformer-sim) 融合检索和生成的RoFormer-Sim模型.应用于相似句生成、相似句扩增、语义相似度问题。
+
+* [allenai/macaw](https://github.com/allenai/macaw) Macaw（Multi-angle c(q)uestion answering 多角度 c(q) 问题回答）是一种即用型模型，能够进行一般问题回答，在训练的领域之外表现出稳健性。 它以“多角度”方式进行了训练，这意味着它可以处理一组灵活的输入和输出“槽”（如问题、答案、解释）。Macaw 建立在 T5 之上，有不同的尺寸：macaw-11b、macaw-3b 和 macaw-large，以及各种排行榜上的以答案为重点的版本：macaw-answer-11b。
 
 ## 机器阅读理解
 
@@ -1192,7 +1195,7 @@
 
 * weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
 
-* loujie0822/DeepIE DeepIE： 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
+* loujie0822/DeepIE 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
 
 * 131250208/TPlinker-joint-extraction 联合抽取模型 实体关系联合抽取标注关系抽取方案
 
@@ -1222,7 +1225,7 @@
 
 * LeeSureman/Flat-Lattice-Transformer 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
 
-* MiuLab/SlotGated-SLU 意图识别和槽位填充（slot filling）联合模型，提出一个槽位门控机制（slot-gated mechanism）来解决没有明确地建立槽位和意图之间联系的缺陷，达到较好的效果。
+* MiuLab/SlotGated-SLU 意图识别和槽位填充（slot filling）联合模型，提出槽位门控机制（slot-gated mechanism）来解决没有明确建立槽位和意图之间联系的缺陷，达到较好的效果。
 
 * monologg/JointBERT 意图识别和槽位填充（slot filling）联合训练模型，使用了BERT来进行语义编码，然后做序列标注任务和多分类任务的联合训练。
 
@@ -1366,7 +1369,6 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 * tensorflow/recommenders TensorFlow Recommenders is a library for building recommender system models using TensorFlow.
 
 * RUCAIBox/RecBole 统一，全面，高效的推荐库，包括：
-  
   - AFM,AutoInt,DCN,DeepFM,DSSM,FFM,FM,FNN,FwFM,LR,NFM,PNN,WideDeep,xDeepFM,BPR,ConvNCF,DGCF,DMF,FISM,GCMC,ItemKNN,LightGCN,NAIS,NeuMF,NGCF,Pop,SpectralCF,CFKG,
   - CKE（Collaborative Knowledge base Embedding 发自16年KDD，将KG与CF融合做联合训练）
   - KGAT Knowledge Graph Attention Network for Recommendation 用KG做增强，捕捉这种高阶交互式特征，做推荐预测。
@@ -1404,6 +1406,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 * [openbenchmark/BARS](https://github.com/openbenchmark/BARS) 迈向推荐系统的开放基准测试。 BARS 基准目前涵盖以下两项任务:点击率预测\候选项目匹配
 
 * [PersiaML/PERSIA](https://github.com/persiaml/persia) 基于 PyTorch 训练深度学习推荐模型的高性能分布式框架。它能够训练具有多达 100 万亿个参数的推荐模型。对公共数据集的实证研究表明，PERSIA 在推荐方面优于其他系统。它的效率和稳健性也得到了快手1亿级DAU的多个应用程序的验证。
+
+## 其他_推荐系统
 
 imsheridan/DeepRec 推荐、广告工业界经典以及最前沿的论文、资料集合
 
@@ -1482,7 +1486,7 @@ WayneDW/DeepLight_Deep-Lightweight-Feature-Interactions 轻量级特征交互算
 
 JiachengLi1995/TiSASRec Time Interval Aware Self-Attention for Sequential Recommendation 时间间隔自注意力模型用于序列推荐。 基于序列模型框架对行为的时间戳进行建模，在下一个商品预测中探索不同时间间隔的影响。
 
-wuch15/IJCAI2019-NAML 多视图学习新闻推荐系统 Neural News Recommendation with Attentive Multi-View Learning 可以通过利用不同种类的新闻信息来学习用户和新闻的特征表示。
+wuch15/IJCAI2019-NAML 多视图学习新闻推荐系统Neural News Recommendation with Attentive Multi-View Learning 可以通过利用不同种类的新闻信息来学习用户和新闻的特征表示。
 
 guoday/Tencent2020_Rank1st  广告受众基础属性预估 2020 Tencent College Algorithm Contest, and the online result ranks 1st.
 
@@ -2678,7 +2682,7 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [tombstoneghost/TIWAP](https://github.com/tombstoneghost/TIWAP) 使用 Flask 制作的 Web 安全测试实验室，供新手安全爱好者了解各种 Web 漏洞。
 
-* [d3ckx1/Fvuln](https://github.com/d3ckx1/Fvuln) F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。
+* [d3ckx1/Fvuln](https://github.com/d3ckx1/Fvuln) Find-Vulnerability是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。
 
 * [qianxiao996/CTF-Tools](https://github.com/qianxiao996/CTF-Tools) Python+Pyqt写的CTF编码、解码、加密、解密工具。
 
