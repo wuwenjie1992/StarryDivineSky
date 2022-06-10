@@ -22,7 +22,6 @@
 <h3 align="center">很棒的列表，主要是机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
 <h3 align="center">持续更新！欢迎star！欢迎star！😀😀😀</h3>
 
-
 # 目录
 
 - [机器学习与深度学习](#机器学习与深度学习)
@@ -47,6 +46,7 @@
 * [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) [教程/笔记]吴恩达老师的机器学习课程个人笔记 
 
 * [apachecn/AiLearning](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
+
 * [microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
 
 * [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周，20 节课，全民数据科学！
@@ -110,6 +110,7 @@
 * [serge-sans-paille/pythran](https://github.com/serge-sans-paille/pythran) 将 Python 代码转成 C++ 代码执行 一个 AOT (Ahead-Of-Time - 预先编译) 编译器，大幅度提升性能。
 
 * [RAPIDS Open GPU Data Science](http://rapids.ai) RAPIDS 开放 GPU 数据科学库
+  
   * cudf cuDF - GPU DataFrame Library GPU数据表库
   * cuml cuML - RAPIDS Machine Learning Library RAPIDS 机器学习库
   * cugraph cuGraph - RAPIDS Graph Analytics Library RAPIDS 图分析库
@@ -176,6 +177,7 @@
 * [google/model_search](https://github.com/google/model_search) 为了帮助研究者自动、高效地开发最佳机器学习模型，谷歌开源了一个不针对特定领域的 AutoML 平台。该平台基于 TensorFlow 构建，非常灵活，既可以找出最适合给定数据集和问题的架构，也能够最小化编程时间和计算资源。
 
 * [neuronika/neuronika](https://github.com/neuronika/neuronika) 纯Rust的张量和动态神经网络库。
+
 * [matazure/mtensor](https://github.com/matazure/mtensor) 一个tensor计算库, 支持cuda的延迟计算
 
 * [e-tony/best-of-ml-rust](https://github.com/e-tony/best-of-ml-rust) 一个令人赞叹的Rust机器学习排名表。
@@ -235,7 +237,6 @@
 * [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) 解决机器学习中不平衡数据集
 
 * [ResidentMario/missingno](https://github.com/ResidentMario/missingno) 灵活且易于使用的缺失数据可视化和实用程序，可让您快速直观地了解数据集的完整性（或缺乏完整性）。 
-
 
 ## 异常检测
 
@@ -343,7 +344,6 @@
 
 * [human-analysis/neural-architecture-transfer](https://github.com/human-analysis/neural-architecture-transfer) 神经架构迁移
 
-
 ## 分布式机器学习
 
 * [horovod/horovod](https://github.com/horovod/horovod) Uber开源的分布式训练框架。它的发展吸取了Facebook "Training ImageNet In 1 Hour" 与百度 "Ring Allreduce" 的优点，可为用户实现分布式训练提供帮助。
@@ -418,17 +418,21 @@
 
 * [scikit-hep/awkward-1.0](https://github.com/scikit-hep/awkward-1.0) 使用类似 NumPy 的习语来处理类似 JSON 的数据。
 
-* [GitHub - alibaba/Curvature-Learning-Framework](https://github.com/alibaba/Curvature-Learning-Framework) 基于Tensorflow的非欧深度学习框架。实现了多种非欧流形、非欧算子和黎曼优化器，基于与Tensorflow相似的底层接口，可以便捷的迁移模型空间而不改变模型细节。背景：欧氏空间不可能无损表征树、环结构，然而双曲（负曲率）、球面（正曲率）空间无损表征。由于对结构性强的如无尺度网络、层次数据、环状数据等的优良表征能力，非欧深度学习逐渐应用到各个领域并展示出优越性，包括链接预测、推荐系统等。
+* [alibaba/Curvature-Learning-Framework](https://github.com/alibaba/Curvature-Learning-Framework) 基于Tensorflow的非欧深度学习框架。实现了多种非欧流形、非欧算子和黎曼优化器，基于与Tensorflow相似的底层接口，可以便捷的迁移模型空间而不改变模型细节。背景：欧氏空间不可能无损表征树、环结构，然而双曲（负曲率）、球面（正曲率）空间无损表征。由于对结构性强的如无尺度网络、层次数据、环状数据等的优良表征能力，非欧深度学习逐渐应用到各个领域并展示出优越性，包括链接预测、推荐系统等。
 
 * [facebookresearch/bitsandbytes](https://github.com/facebookresearch/bitsandbytes) 用于 8 位优化器和量化例程的库。
 
-* [openai/triton](https://github.com/openai/triton) OpenAI的Triton是一种类 Python 的开源编程语言。能够高效编写 GPU 代码。例如，它可以用不到 25 行代码写出与 cuBLAS 性能相匹配的 FP16 矩阵乘法内核。此外，使用 Triton 成功生成比同类实现效率高 2 倍的内核。
+* [openai/triton](https://github.com/openai/triton) OpenAI的Triton是一种类 Python 的开源编程语言。能够高效编写 GPU 代码。它可以用不到 25 行代码写出与 cuBLAS 性能相匹配的 FP16 矩阵乘法内核。此外，使用 Triton 成功生成比同类实现效率高 2 倍的内核。
+
+* [nebuly-ai/nebullvm](https://github.com/nebuly-ai/nebullvm) 易于使用的库，可利用最先进的优化技术促进 AI 推理。利用多种优化技术（深度学习编译器、量化、稀疏性、蒸馏等），以确定在特定硬件上执行 AI 模型的最佳方式。可以在不损失性能的情况下将您的模型加速 2 到 10 倍，如果为超低延迟和更轻的模型牺牲准确度/精度，则可加速至 30 倍.
 
 # 图神经网络GNN
 
 ## 图机器学习库
 
 * [dmlc/dgl](https://github.com/dmlc/dgl) Deep Graph Library (DGL) 一个易于使用、高性能和可扩展的 Python 包，用于对图进行深度学习。
+
+* [dmlc/dgl/examples](https://github.com/dmlc/dgl/blob/master/examples/README.md) 官方DGL示例和模块,包含与图神经网络相关的选定研究论文的示例实现。半监督节点分类、聚类、节点分类、标签传播、图注意力等。
 
 * [rusty1s/pytorch_geometric](https://github.com/rusty1s/pytorch_geometric) PyTorch的深度图学习扩展库。PyG对已发表或者常用的图神经网络和数据集都进行了集成，因而是当前最流行和广泛使用的GNN库。
 
@@ -610,6 +614,7 @@
 * [ChandlerBang/Pro-GNN](https://github.com/ChandlerBang/Pro-GNN) 鲁棒图神经网络的图结构学习，抗严重干扰。
 
 * [DSE-MSU/DeepRobust](https://github.com/DSE-MSU/DeepRobust) 用于图像和图模型的攻击和防御方法的pytorch库.
+  
   * 图模型防御方法
     * adv_training、gcn、pgd近端梯度下降
     * gcn_preprocess GCNJaccard 首先通过不同的边缘对输入图进行预处理，并根据处理后的图训练GCN。
@@ -747,8 +752,6 @@
 
 * [liaopeiyuan/GAL](https://github.com/liaopeiyuan/GAL) 图神经网络的信息混淆 使用 FB15k-237 和 WN18RR 数据集进行知识图链接预测。使用 Movielens-1M 数据集进行推荐系统链接预测任务。
 
-
-
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -840,6 +843,7 @@
 * [bojone/BERT-whitening](https://github.com/bojone/BERT-whitening) 简单的线性变换（白化）操作，就可以达到BERT-flow的效果。
 
 * [thunlp/ERNIE](https://github.com/thunlp/ERNIE) 用知识图谱增强 BERT 的预训练效果 
+  
   * 1) 对于抽取并编码的知识信息，研究者首先识别文本中的命名实体，然后将这些提到的实体与知识图谱中的实体进行匹配。研究者并不直接使用 KG 中基于图的事实，相反他们通过知识嵌入算法（例如 TransE）编码 KG 的图结构，并将多信息实体嵌入作为 ERNIE 的输入。基于文本和知识图谱的对齐，ERNIE 将知识模块的实体表征整合到语义模块的隐藏层中。
   * 2) 与BERT类似，采用了带Mask的语言模型，以及预测下一句文本作为预训练目标。除此之外，为了更好地融合文本和知识特征，研究者设计了一种新型预训练目标，即随机 Mask 掉一些对
 
@@ -852,6 +856,7 @@
 * [dbiir/UER-py](https://github.com/dbiir/UER-py) 一个用于对通用语料进行预训练并对下游任务进行微调的工具包。提供了非常丰富的模型库。包括：中文RoBERTa、基于词的中文RoBERTa、中文GPT-2预训练模型（通用、古诗词、对联、歌词、文言文）、中文T5预训练模型、中文RoBERTa下游任务微调模型（JD full 情感分类 、JD binary 情感分类 、Dianping 情感分类、Ifeng 新闻主题分类、Chinanews 新闻主题分类 、CLUENER2020 NER 、抽取式问答）等。
 
 * [OpenBMB/BMInf](https://github.com/OpenBMB/BMInf) BMInf (Big Model Inference) 是一个用于大规模预训练语言模型（PLM）推理阶段的低资源工具包。最低支持在NVIDIA GTX 1060单卡运行百亿大模型。在此基础上，使用更好的gpu运行会有更好的性能。模型能力覆盖文本补全、文本生成与对话场景。文本生成能力大幅提高。目前支持下列模型：
+  
   * **CPM2.1**. CPM2.1是CPM2 [[1](https://bminf.readthedocs.io/zh_CN/latest/introduction-zh.html#ref)] 的升级版本。拥有110亿参数的通用中文预训练语言模型。基于CPM2，CPM2.1新增了一个生成式的预训练任务并基于持续学习范式进行训练。CPM2.1比CPM2具有更好的生成能力。
   * **CPM1.** CPM1 [[2](https://bminf.readthedocs.io/zh_CN/latest/introduction-zh.html#ref)] 是拥有26亿参数的生成式中文预训练语言模型。CPM1的模型架构与GPT [[4](https://bminf.readthedocs.io/zh_CN/latest/introduction-zh.html#ref)] 类似，它能够被应用于广泛的自然语言处理任务，如对话、文章生成、完形填空和语言理解。
   * **EVA.** EVA [[3](https://bminf.readthedocs.io/zh_CN/latest/introduction-zh.html#ref)] 是有着28亿参数的中文预训练对话模型。EVA在很多对话任务上表现优异，尤其是在多轮人机交互对话任务上。
@@ -861,6 +866,7 @@
 * [ymcui/Chinese-XLNet](https://github.com/ymcui/Chinese-XLNet) 面向中文的XLNet预训练模型
 
 * [microsoft/unilm](https://github.com/microsoft/unilm) UniLM-NLP及更高版本的统一语言模型预训练
+  
   * layoutlm 多模态文档理解预训练模型LayoutLM 2.0，模型首先将文本、图像、布局三种模态的输入转换成向量表示，然后再交给编码器网络，最终输出的表示向量可以供下游任务使用。下游任务：表单理解、票据理解、复杂布局长文档理解、文档图像分类、视觉问答。
 
 * [YunwenTechnology/Unilm](https://github.com/YunwenTechnology/Unilm) UniLM模型既可以应用于自然语言理解（NLU）任务，又可以应用于自然语言生成（NLG）任务。论文来自微软研究院。模型虽然强大，但微软并没有开源中文的预训练模型。因此云问本着开源之前，将我们预训练好的中文unilm_base模型进行开源。
@@ -882,6 +888,8 @@
 * [PaddlePaddle/ERNIE](https://github.com/PaddlePaddle/ERNIE) ERNIE 家族各种预训练模型的官方实现，涵盖语言理解与生成、多模态理解与生成等主题。
 
 * [airaria/TextPruner](https://github.com/airaria/TextPruner) 用于预训练语言模型的基于 PyTorch 的模型修剪工具包.它提供了**低成本**和**免训练的**方法，通过去除冗余神经元来减小模型大小并加快模型推理速度。在 TextPruner 中，共有三种剪枝模式：**词汇剪枝**、**变压器剪枝**和**管道剪枝**。
+
+* [Tencent/PatrickStar](https://github.com/Tencent/PatrickStar) 为 NLP 提供更大、更快、更环保的预训练模型，并为所有人普及人工智能。PatrickStar 的内存管理支持将模型的当前计算部分以外的所有内容卸载到 CPU 以节省 GPU。此外，在扩展到多个 GPU 时，基于块的内存管理对于集体通信非常有效。通过**异构训练**（DeepSpeed Zero Stage 3 也使用它），PatrickStar 可以充分利用 CPU 和 GPU 内存，这样您就可以使用更少的 GPU 来训练更大的模型。
 
 ## 文本分类
 
@@ -1369,6 +1377,7 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 * tensorflow/recommenders TensorFlow Recommenders is a library for building recommender system models using TensorFlow.
 
 * RUCAIBox/RecBole 统一，全面，高效的推荐库，包括：
+  
   - AFM,AutoInt,DCN,DeepFM,DSSM,FFM,FM,FNN,FwFM,LR,NFM,PNN,WideDeep,xDeepFM,BPR,ConvNCF,DGCF,DMF,FISM,GCMC,ItemKNN,LightGCN,NAIS,NeuMF,NGCF,Pop,SpectralCF,CFKG,
   - CKE（Collaborative Knowledge base Embedding 发自16年KDD，将KG与CF融合做联合训练）
   - KGAT Knowledge Graph Attention Network for Recommendation 用KG做增强，捕捉这种高阶交互式特征，做推荐预测。
@@ -1595,6 +1604,8 @@ yumoxu/stocknet-dataset 从推文和历史股价预测股票走势的综合数�
 goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。通过考虑与宏观经济指标的耦合来发布股票走势预测的代码和数据。
 
 [hkgsas/LOB](https://github.com/hkgsas/LOB) 中国市场限价订单短期市场预测基准数据集。
+
+[jrothschild33/learn_backtrader: ](https://github.com/jrothschild33/learn_backtrader) BackTrader中文教程笔记，系统性介绍Bactrader的特性、策略构建、数据结构、回测交易等，彻底掌握量化神器的使用方法。章节：介绍篇、数据篇、指标篇、交易篇、策略篇、可视化篇…
 
 ## 时间序列
 
@@ -1879,17 +1890,21 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 ## 语音识别与合成_其他
 
-* [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
+[babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
 
-* [deezer/spleeter](https://github.com/deezer/spleeter) 人声分离模型
+[deezer/spleeter](https://github.com/deezer/spleeter) 人声分离模型
 
-* [Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip) 唇语识别 唇语同步 ，用来生成准确的唇语同步视频。
+[Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip) 唇语识别 唇语同步 ，用来生成准确的唇语同步视频。
 
-* [facebookresearch/voxpopuli](https://github.com/facebookresearch/voxpopuli) 目前世界上最大的多语言语音数据集，涵盖了23种语言，时长超过40万小时。
+[facebookresearch/voxpopuli](https://github.com/facebookresearch/voxpopuli) 目前世界上最大的多语言语音数据集，涵盖了23种语言，时长超过40万小时。
 
-* [WenetSpeech](https://wenet-e2e.github.io/WenetSpeech/) 从 YouTube 和 Podcast 收集的 10000 多个小时的多域转录普通话语料库。 采用OCR 和ASR分别标记每个录音。 为了提高语料库的质量，使用了一种新颖的端到端标签错误检测方法来进一步验证和过滤数据。
+[WenetSpeech](https://wenet-e2e.github.io/WenetSpeech/) 从 YouTube 和 Podcast 收集的 10000 多个小时的多域转录普通话语料库。 采用OCR 和ASR分别标记每个录音。 为了提高语料库的质量，使用了一种新颖的端到端标签错误检测方法来进一步验证和过滤数据。
 
-* [tyiannak/pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) Python 音频分析库：特征提取、分类、分割和应用
+[tyiannak/pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) Python 音频分析库：特征提取、分类、分割和应用
+
+[microsoft/muzic](https://github.com/microsoft/muzic) Muzic：用人工智能理解和生成音乐，包括：符号音乐理解：MusicBERT、自动歌词转录：PDAugment 音乐生成：作曲：SongMASS、歌词生成：DeepRapper、旋律生成：TeleMelody、伴奏生成：PopMAG、歌声合成：HiFiSinger。
+
+
 
 # 生物医药
 
@@ -1968,6 +1983,7 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 * [Liuxg16/GeoPPI](https://github.com/Liuxg16/GeoPPI) 用于模拟突变对蛋白质-蛋白质结合亲和力的影响的深度几何表示
 
 * [biomed-AI/GraphPPIS](https://github.com/biomed-AI/GraphPPIS) GraphPPIS 是一种使用深度图卷积网络进行基于结构的蛋白质-蛋白质相互作用位点预测的新框架，它能够从高阶空间相邻氨基酸中捕获信息。
+
 * [THinnerichs/DTI-VOODOO](https://github.com/THinnerichs/DTI-VOODOO) 使用深度图学习方法进行药物靶标相互作用预测的 PPI 网络驱动方法。
 
 * [DeepRank/deeprank](https://github.com/DeepRank/deeprank)使用 CNN 数据挖掘蛋白质-蛋白质相互作用的深度学习框架
@@ -2228,6 +2244,8 @@ zhangmozhe/Deep-Exemplar-based-Video-Colorization 基于深层范例的视频着
 
 yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片。GPEN模型明显优于其他的修复人脸的GAN模型。
 
+[bilibili/ailab](https://github.com/bilibili/ailab) 使用百万级动漫数据进行训练的，结构与Waifu2x兼容的通用动漫图像超分辨率模型。它支持**2x\3x\4x**倍超分辨率，其中2倍模型支持4种降噪强度与保守修复，3倍/4倍模型支持2种降噪强度与保守修复。
+
 ## ocr
 
 ouyanghuiyu/chineseocr_lite 超轻量级中文ocr
@@ -2284,7 +2302,7 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [Megvii-BaseDetection/DeFCN](https://github.com/Megvii-BaseDetection/DeFCN) 全卷积网络的端到端目标检测
 
-## 其他
+## 机器视觉__其他
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
 
@@ -2406,6 +2424,10 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [leandromoreira/ffmpeg-libav-tutorial](https://github.com/leandromoreira/ffmpeg-libav-tutorial) FFmpeg libav 教程 - 了解媒体如何从基础到转换、转码等工作
 
+[Tencent/libpag](https://github.com/Tencent/libpag) 动画文件的渲染 SDK，降低或消除动画研发相关的成本，打通设计师创作到素材交付上线的极简流程，不断输出运行时可编辑的高质量动画内容。
+
+[salesforce/BLIP](https://github.com/salesforce/BLIP) 用于 BLIP 的 PyTorch 代码：用于统一视觉语言理解和生成的引导语言图像预训练
+
 # 虚拟化
 
 jesseduffield/lazydocker docker 简单终端 UI
@@ -2524,7 +2546,7 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * Lichee-Pi/Tang_E203_Mini LicheeTang 蜂鸟E203 Core
 
-* [GitHub - riscv-mcu/e203_hbirdv2: The Ultra-Low Power RISC-V Core](https://github.com/riscv-mcu/e203_hbirdv2) 开源 Hummingbirdv2 E203 RISC-V 处理器内核和 SoC 项目，它由中国大陆领先的 RISC-V IP 和解决方案公司Nuclei System Technology开发和开源。
+* [riscv-mcu/e203_hbirdv2: The Ultra-Low Power RISC-V Core](https://github.com/riscv-mcu/e203_hbirdv2) 开源 Hummingbirdv2 E203 RISC-V 处理器内核和 SoC 项目，它由中国大陆领先的 RISC-V IP 和解决方案公司Nuclei System Technology开发和开源。
 
 * mit-pdos/xv6-riscv xv6 是丹尼斯 · 里奇和肯 · 汤普森的Unix 版本 6 （v6）的重新实现。 xv6 松散地遵循 v6 的结构和风格，但使用 ANSI C 为现代 RISC-V 多处理器实施。
 
@@ -2573,7 +2595,6 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
 
 * [lowRISC/ibex](https://github.com/lowRISC/ibex) Ibex 是一个小型 32 位 RISC-V CPU 内核，以前称为 zero-riscy。Ibex 是用 SystemVerilog 编写的生产级开源 32 位 RISC-V CPU 内核。CPU 内核高度可参数化，非常适合嵌入式控制应用。Ibex 正在接受广泛的验证，并且已经看到多个流片。Ibex 支持整数 (I) 或嵌入式 (E)、整数乘除法 (M)、压缩 (C) 和B（位操作）扩展。
-
 
 ## 硬件_其他
 
@@ -2635,6 +2656,8 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) 使用 Qt C++ 开发的B站视频、直播、漫画下载器。
 
+* [oatpp/oatpp](https://github.com/oatpp/oatpp) 轻巧而强大的 C++ Web 框架，用于高度可扩展和资源高效的 Web 应用程序。它是零依赖且易于携带的。
+
 # 安全与渗透
 
 * [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
@@ -2650,7 +2673,7 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [wooyunwang/Fortify](https://github.com/wooyunwang/Fortify) 源代码各种审计漏洞白测试盒的漏洞描述或具体修复方案
 
 * [insightglacier/Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting) Pentesing、Fuzzing、Bruteforce 和 BugBounty 等字典收集项目。渗
-透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
+  透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
 
 * [Al1ex/Pentest-tools](https://github.com/Al1ex/Pentest-tools) 内网渗透工具:ACL突破、交换、真实劫持、信息收集、内网电话、密码喷洒、密码抓取、密码破解、权限提升、权限维持、横向移动、端口扫描、端口转发、网络嗅探、集成工具
 
@@ -2719,6 +2742,18 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [pen4uin/pentest-note](https://github.com/pen4uin/pentest-note) 渗透测试☞经验/思路/想法/总结/笔记
 
 * [timwhitez/Frog-checkCDN](https://github.com/timwhitez/Frog-checkCDN) 批量检查目标是否为cdn
+
+* [MountCloud/FireKylin:](https://github.com/MountCloud/FireKylin) 麒麟-网络安全应急响应工具(系统痕迹采集)
+
+* [helloSystem/hello](https://github.com/helloSystem/hello) 专注于简单、优雅和可用性的创作者桌面系统。基于 FreeBSD。更少，但更好！
+
+* [hash3liZer/SillyRAT](https://github.com/hash3liZer/SillyRAT) 用纯 Python 编写的跨平台 RAT。RAT 接受命令和参数，以充当接受连接的服务器或充当与服务器建立连接的客户端/目标。
+
+* [knownsec/Kunyu](https://github.com/knownsec/Kunyu) 让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
+
+* [AonCyberLabs/Windows-Exploit-Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester) 该工具将目标补丁级别与 Microsoft 漏洞数据库进行比较，以检测目标上潜在的缺失补丁。如果存在可用于丢失公告的公共漏洞利用和 Metasploit 模块，它还会通知用户。
+
+* [mzet-/linux-exploit-suggester](https://github.com/mzet-/linux-exploit-suggester) Linux提权审计工具 帮助检测给定 Linux 内核/基于 Linux 的机器的安全缺陷。它提供以下功能：评估已知漏洞的内核暴露情况、 验证内核强化安全措施的状态。
 
 # 其他
 
@@ -2841,3 +2876,13 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [HC小区业主版: hc智慧家园小程序 ](https://gitee.com/java110/WechatOwnerService) 是 HC小区开源项目的一个分支项目，主要给业主使用，其中包括缴物业费，缴停车费，投诉建议，家庭成员维护，房屋保修 房屋出租，公告查看，小区圈等功能。
 
 * [veloren/veloren](https://github.com/veloren/veloren) 用 Rust 编写的多人体素 RPG。从 Cube World、Minecraft 和 Dwarf Fortress 等游戏中汲取灵感。该游戏目前正在大力开发中，但可以玩。
+
+* [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) 跨平台、快速、功能丰富、基于 GPU 的终端
+
+* [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China) 中华人民共和国行政区划：省级（省份）、 地级（城市）、 县级（区县）、 乡级（乡镇街道）、 村级（村委会居委会） ，中国省市区镇村二级三级四级五级联动地址数据。
+
+* [H5-Dooring/dooringx](https://github.com/H5-Dooring/dooringx) 快速高效搭建可视化拖拽平台
+
+* [zadam/trilium](https://github.com/zadam/trilium) 使用 Trilium Notes 建立您的个人知识库
+
+* [LianjiaTech/bruno](https://github.com/LianjiaTech/bruno) Bruno 是基于一整套设计体系的 Flutter 组件库。一套企业级移动端 Flutter 组件库.
