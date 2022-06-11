@@ -1255,7 +1255,7 @@
 
 * [AdvPicker](https://github.com/microsoft/vert-papers/tree/master/papers/AdvPicker) 通过对抗性判别器有效利用未标记数据进行跨语言 NER
 
-## 其他
+## 其他_NLP自然语言处理
 
 https://github.com/huseinzol05/NLP-Models-Tensorflow 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
@@ -1416,6 +1416,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 * [PersiaML/PERSIA](https://github.com/persiaml/persia) 基于 PyTorch 训练深度学习推荐模型的高性能分布式框架。它能够训练具有多达 100 万亿个参数的推荐模型。对公共数据集的实证研究表明，PERSIA 在推荐方面优于其他系统。它的效率和稳健性也得到了快手1亿级DAU的多个应用程序的验证。
 
+* [alibaba/EasyRec](https://github.com/alibaba/EasyRec) 大规模推荐算法的框架。实现了用于常见推荐任务的最先进的深度学习模型：候选生成（匹配）、评分（排名）和多任务学习。它通过简单的配置和超参数调整（HPO）提高了生成高性能模型的效率。
+
 ## 其他_推荐系统
 
 imsheridan/DeepRec 推荐、广告工业界经典以及最前沿的论文、资料集合
@@ -1554,6 +1556,8 @@ https://github.com/xidongbo/AITM 自适应信息传输多任务 (AITM) 框架的
 [microsoft/tutel](https://github.com/microsoft/tutel) Tutel MoE：优化的专家组合实施
 
 [Jhy1993/Awesome-GNN-Recommendation](https://github.com/Jhy1993/Awesome-GNN-Recommendation) GNN-推荐相关资源
+
+[sisinflab/elliot](https://github.com/sisinflab/elliot) 用于可重现推荐系统评估的全面而严谨的框架
 
 # 金融股票与时间序列
 
@@ -1904,8 +1908,6 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 [microsoft/muzic](https://github.com/microsoft/muzic) Muzic：用人工智能理解和生成音乐，包括：符号音乐理解：MusicBERT、自动歌词转录：PDAugment 音乐生成：作曲：SongMASS、歌词生成：DeepRapper、旋律生成：TeleMelody、伴奏生成：PopMAG、歌声合成：HiFiSinger。
 
-
-
 # 生物医药
 
 ## 蛋白质结构
@@ -2064,7 +2066,7 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 * IBM/controlled-peptide-generation  IBM利用深度生成模型和分子动力学模拟加速抗菌肽发现
 
-## 其他
+## 其他_生物医药
 
 KailiWang1/DeepDTAF 预测蛋白质与配体结合亲和力的深度学习方法
 
@@ -2302,7 +2304,7 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [Megvii-BaseDetection/DeFCN](https://github.com/Megvii-BaseDetection/DeFCN) 全卷积网络的端到端目标检测
 
-## 机器视觉__其他
+## 其他_机器视觉
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
 
@@ -2754,6 +2756,34 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [AonCyberLabs/Windows-Exploit-Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester) 该工具将目标补丁级别与 Microsoft 漏洞数据库进行比较，以检测目标上潜在的缺失补丁。如果存在可用于丢失公告的公共漏洞利用和 Metasploit 模块，它还会通知用户。
 
 * [mzet-/linux-exploit-suggester](https://github.com/mzet-/linux-exploit-suggester) Linux提权审计工具 帮助检测给定 Linux 内核/基于 Linux 的机器的安全缺陷。它提供以下功能：评估已知漏洞的内核暴露情况、 验证内核强化安全措施的状态。
+
+* [NyDubh3/Pentesting-Active-Directory-CN](https://github.com/NyDubh3/Pentesting-Active-Directory-CN) 域渗透脑图中文翻译版
+
+* [binganao/vulns-2022](https://github.com/binganao/vulns-2022) 用于搜集 2022 年的漏洞，注意：本项目并不刻意搜集 POC 或 EXP，主要以CVE-2021、CVE-2022 为关键词，包含但不限于漏洞资讯、漏洞复现、漏洞分析、漏洞验证、漏洞利用
+
+* [L-codes/pwcrack-framework](https://github.com/L-codes/pwcrack-framework) 用Ruby编写的密码自动破解框架，目前提供了 22 个在线破解和 29 个离线破解接口，支持 52 种算法破解
+
+* [Maka8ka/NGLite](https://github.com/Maka8ka/NGLite) 基于区块链网络的匿名跨平台远控程序 理论上完全的匿名性，当然要是有人监测并分析了所有中间节点除外，目前节点约8W个
+
+* [3xpl01tc0d3r/ProcessInjection](https://github.com/3xpl01tc0d3r/ProcessInjection) 该程序旨在演示各种进程注入技术
+
+* [Le0nsec/SecCrawler](https://github.com/Le0nsec/SecCrawler) 方便安全研究人员获取每日安全日报的爬虫和推送程序，目前爬取范围包括先知社区、安全客、Seebug Paper、跳跳糖、奇安信攻防社区、棱角社区以及绿盟、腾讯玄武、天融信、360等实验室博客，持续更新中。
+
+* [Idov31/FunctionStomping](https://github.com/Idov31/FunctionStomping) 一种新的 shellcode 注入技术。以 C++ 头文件、独立的 Rust 程序或库的形式给出。
+
+* [shmilylty/OneForAll](https://github.com/shmilylty/OneForAll) OneForAll是一款功能强大的子域收集工具
+
+* [kelvinBen/AppInfoScanner](https://github.com/cqkenuo/appinfoscanner) 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。
+
+* [redcode-labs/Coldfire](https://github.com/redcode-labs/Coldfire) Golang 恶意软件开发库 为 Golang 中的恶意软件开发提供了各种有用的方法。
+
+* [vxunderground/MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode) 收集各种不同编程语言、各种平台的恶意软件源代码。
+
+* [hlldz/pickl3](https://github.com/hlldz/pickl3) Windows 活动用户凭据网络钓鱼工具
+
+* [4ra1n/SpringInspector](https://github.com/4ra1n/SpringInspector) Java自动代码审计工具，尤其针对Spring框架，核心原理是模拟JVM栈帧进行分析，无需提供源码，通过一个JAR包即可
+
+* [lxflxfcl/monitor](https://github.com/lxflxfcl/monitor) 漏洞监控平台。目前实现了监控GitHub、微软、CNNVD三者的漏洞信息，并使用企业微信实时推送。还可以使用邮箱推送，默认关闭。
 
 # 其他
 
