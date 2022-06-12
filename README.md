@@ -2178,7 +2178,15 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 
 ## 人像\姿势\3D人脸
 
+[deepinsight/insightface](https://github.com/deepinsight/insightface) 最先进的2D和3D人脸分析项目 人脸识别\检测\对齐
+
 minivision-ai/photo2cartoon 人像卡通化探索项目
+
+[davidsandberg/facenet](https://github.com/davidsandberg/facenet) 使用 TensorFlow 进行人脸识别
+
+[serengil/deepface](https://github.com/serengil/deepface) 轻量级人脸识别和人脸属性分析（年龄、性别、情感和种族）库
+
+[exadel-inc/CompreFace](https://github.com/exadel-inc/CompreFace) 领先的免费开源人脸识别系统
 
 iPERDance/iPERCore 处理人体图像合成任务。其中包括人体运动模仿、外观转换和新视角合成等。并且，该项目的代码、数据集已开源。
 
@@ -2233,6 +2241,8 @@ ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移动人体姿势模型
 [mchong6/JoJoGAN](https://github.com/mchong6/JoJoGAN) JoJoGAN 的官方 PyTorch 存储库：One Shot Face Stylization 人脸风格化
 
 [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) GFPGAN 旨在开发用于真实世界面部恢复的实用算法。
+
+[人脸识别常用开源数据集大全](https://mp.weixin.qq.com/s/bcYmSh6cli7kPeEOgmw3mg) 哥伦比亚大学公众人物脸部数据、CelebA人脸、美国国防部人脸、MTFL人脸、BioID人脸、PersonID人脸识别数据集、CMU PIE人脸库、Youtube视频人脸、CASIA 人脸图像、# Caltech人脸数据库
 
 ## 图像恢复
 
@@ -2660,6 +2670,24 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [oatpp/oatpp](https://github.com/oatpp/oatpp) 轻巧而强大的 C++ Web 框架，用于高度可扩展和资源高效的 Web 应用程序。它是零依赖且易于携带的。
 
+* [pavlobu/deskreen](https://github.com/pavlobu/deskreen) 将任何带有网络浏览器的设备变成您计算机的辅助屏幕
+
+* [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin Panel Framework 管理面板前端框架
+
+* [ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella) 免费Bootstrap4 管理仪表板模板
+
+* [akveo/ngx-admin](https://github.com/akveo/ngx-admin) 基于Angular 10 +的可定制管理仪表板模板
+
+* [tabler/tabler](https://github.com/tabler/tabler) 建立在 Bootstrap 上的免费开源 HTML Dashboard UI 工具包
+
+* [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) React的企业应用程序的全新 UI 解决方案。
+
+* [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) 基于 Bootstrap 4 的免费管理仪表板模板
+
+* [chuzhixin/vue-admin-better](https://github.com/chuzhixin/vue-admin-better) vue后台管理
+
+* [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 一个后台前端解决方案，它基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)实现。
+
 # 安全与渗透
 
 * [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
@@ -2785,11 +2813,119 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [lxflxfcl/monitor](https://github.com/lxflxfcl/monitor) 漏洞监控平台。目前实现了监控GitHub、微软、CNNVD三者的漏洞信息，并使用企业微信实时推送。还可以使用邮箱推送，默认关闭。
 
+* [airson/Yasso](https://github.com/sairson/Yasso) 强大的内网渗透辅助工具集-让Yasso像风一样 支持rdp，ssh，redis，postgres，mongodb，mssql，mysql，winrm等服务爆破，快速的端口扫描，强大的web指纹识别，各种内置服务的一键利用（包括ssh完全交互式登陆，mssql提权，redis一键利用，mysql数据库查询，winrm横向利用，多种服务利用支持socks5代理执行）
+
+* [yogeshojha/rengine](https://github.com/yogeshojha/rengine) 用于 Web 应用程序的自动化侦察框架，专注于通过引擎、侦察数据关联和组织、持续监控、简单而直观的用户界面以及简单而直观的用户界面。reNgine 使渗透测试人员可以轻松地收集侦察信息
+
+* [Tencent/secguide](https://github.com/Tencent/secguide) 面向开发人员梳理的代码安全指南
+
+* [Arks7/Go_Bypass](https://github.com/Arks7/Go_Bypass) 一个免杀生成器模板，目前可以过国内主流杀毒。
+
+* [slowmist/cryptocurrency-security](https://github.com/slowmist/cryptocurrency-security) 加密资产安全解决方案
+
+* [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan) 用于查找 log4j RCE CVE-2021-44228 的全自动、准确和广泛的扫描程序
+
+* [H4ckForJob/dirmap](https://github.com/H4ckForJob/dirmap) 一个高级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina、御剑。
+
+* [chaitin/xray](https://github.com/chaitin/xray) 完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc
+
+* [wgpsec/DBJ](https://github.com/wgpsec/DBJ) 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web资产梳理、Web指纹识别、ICON_Hash资产匹配
+
+* [sullo/nikto](https://github.com/sullo/nikto) 网络服务器扫描仪
+
+* [zhzyker/vulmap](https://github.com/zhzyker/vulmap/) web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能
+
+* [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) 基于简单 YAML 的 DSL 的快速且可定制的漏洞扫描器
+
+* [greenbone/openvas-scanner](https://github.com/greenbone/openvas-scanner)  Greenbone 社区版的扫描仪组件 一个功能齐全的扫描引擎，可执行持续更新和扩展的漏洞测试 (VT) 馈送。
+
+* [wpscanteam/wpscan](https://github.com/wpscanteam/wpscan) WordPress 安全扫描器。为安全专家和博客维护者编写，用于测试其 WordPress 网站的安全性。
+
+* [foryujian/yjdirscan](https://github.com/foryujian/yjdirscan) 御剑目录扫描专业版，简单实用的命令行网站目录扫描工具，支持爬虫、fuzz、自定义字典、字典变量、UA修改、假404自动过滤、扫描控速等功能。
+
+* [xmendez/wfuzz](https://github.com/xmendez/wfuzz) 在 HTTP 请求的任何字段中注入任何输入，允许在不同的 Web 应用程序组件中执行复杂的 Web 安全攻击，例如：参数、身份验证、表单、目录/文件、标头等。一个完全模块化的Python框架
+
+* [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch) 暴力破解网络服务器的目录和文件，网络路径扫描器
+
+* [EdgeSecurityTeam/Ehole](https://github.com/EdgeSecurityTeam/Ehole) 对资产中重点系统指纹识别的工具，在红队作战中，信息收集是必不可少的环节，如何才能从大量的资产中提取有用的系统(如OA、VPN、Weblogic...)。EHole旨在帮助红队人员在信息收集期间能够快速从C段、大量杂乱的资产中精准定位到易被攻击的系统，从而实施进一步攻击。
+
+* [s7ckTeam/Glass](https://github.com/s7ckTeam/Glass) 针对资产列表的快速指纹识别工具，通过调用Fofa ZoomEye Shodan 360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
+
+* [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) 识别网站，包括内容管理系统 (CMS)、博客平台、统计/分析包、JavaScript 库、网络服务器和嵌入式设备。WhatWeb 有超过 1800 个插件，每个插件都能识别不同的东西。WhatWeb 还可以识别版本号、电子邮件地址、帐户 ID、Web 框架模块、SQL 错误等。
+
+* [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) TCP 端口扫描器，异步发送 SYN 数据包，在 5 分钟内扫描整个互联网，从单台机器每秒传输 1000 万个数据包。
+
+* [Threezh1/JSFinder](https://github.com/Threezh1/JSFinder) 快速在网站的js文件中提取URL，子域名的工具。
+
+* [knownsec/ksubdomain](https://github.com/knownsec/ksubdomain) 无状态子域名爆破工具
+
+* [aboul3la/Sublist3r](https://github.com/aboul3la/Sublist3r) 用于渗透测试人员的快速子域枚举工具
+
+* [lijiejie/subDomainsBrute](https://github.com/lijiejie/subDomainsBrute) 高并发的DNS暴力枚举工具。 
+
+* [icyguider/Nimcrypt2](https://github.com/icyguider/Nimcrypt2) 用 Nim 编写的 .NET、PE 和原始 Shellcode 打包程序/加载程序
+
+* [SiJiDo/H](https://github.com/SiJiDo/H) 一款强大的资产收集管理平台 主要用于src信息收集和红蓝对抗资产收集用，采用python celery分布式实现多节点部署，提高效率
+
+* [78778443/QingScan](https://github.com/78778443/QingScan) 漏洞扫描器粘合剂,添加目标后30款工具自动调用；支持 web、系统、目录、主机扫描、子域名收集、主机发现、组件识别、URL爬虫、XRAY扫描、AWVS自动扫描、POC批量验证，SSH批量测试、vulmap。
+
+* [test502git/awvs14-scan ](https://github.com/test502git/awvs14-scan)针对 Acunetix AWVS扫描器开发的批量扫描脚本，支持log4j漏洞、SpringShell、SQL注入、XSS、弱口令等专项，支持联动xray、burp、w13scan等被动批量
+
+* [safe6Sec/GolangBypassAV](https://github.com/safe6Sec/GolangBypassAV) 研究利用golang各种姿势bypassAV
+
+* [The-Hitchhiker-s-Guide-to-the-Blockchain-Sec](https://github.com/BlockchainSecBook/The-Hitchhiker-s-Guide-to-the-Blockchain-Sec) 《区块链安全入门与实战》
+
+* [edoardottt/scilla](https://github.com/edoardottt/scilla) 信息收集工具 - DNS / 子域 / 端口 / 目录枚举
+
+* [https://github.com/Ryze-T/Sylas](https://github.com/Ryze-T/Sylas) 数据库综合利用工具
+
+* [lab52io/LeakedHandlesFinder](https://github.com/lab52io/LeakedHandlesFinder) 泄露的 Windows 进程句柄识别工具
+
+* [pen4uin/cloud-native-security](https://github.com/pen4uin/cloud-native-security) 云原生安全
+
+* [Cracked5pider/ShellcodeTemplate](https://github.com/Cracked5pider/ShellcodeTemplate) 适用于 Windows x64/x86 的易于修改的 shellcode 模板
+
+* [JDArmy/SharpXDecrypt](https://github.com/JDArmy/SharpXDecrypt) Xshell全版本密码恢复工具
+
+* [FunnyWolf/pystinger](https://github.com/FunnyWolf/pystinger) 使用webshell进行流量转发的出网工具
+
+* [weixinbao/ReverseTool](https://github.com/weixinbao/ReverseTool) 逆向工具集合 Java & Jar (Android)、 C++ & So (Android)、 C# & Dll & EXE、iOS
+
+* [p0dalirius/DumpSMBShare](https://github.com/p0dalirius/DumpSMBShare) 用于从 Windows SMB 共享远程转储文件和文件夹的脚本。
+
+* [yhy0/github-cve-monitor](https://github.com/yhy0/github-cve-monitor) 实时监控github上新增的cve和安全工具更新，多渠道推送通知
+
+* [whydee86/PlayWithDefender](https://github.com/whydee86/PlayWithDefender) 禁用和启用 Windows 防御者保护的简单工具
+
+* [xiecat/fofax](https://github.com/xiecat/fofax) 基于[https://fofa.info/](https://fofa.info/) API 的命令行查询工具
+
+* [AntSwordProject/AntSword-Loader](https://github.com/AntSwordProject/AntSword-Loader) 蚁剑加载器
+
+* [We5ter/Scanners-Box](https://github.com/We5ter/Scanners-Box) 安全行业从业者自研开源扫描器合辑
+
+* [gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz) 从内存中提取明文密码、哈希、PIN 码和 kerberos 票证。还可以执行 pass-the-hash、pass-the-ticket 或构建*Golden Tickets*。
+
+* [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) Web 应用程序安全和 Pentest/CTF 的有用有效负载和绕过列表
+
+* [FeeiCN/ESD](https://github.com/FeeiCN/ESD) Enumeration sub domains(枚举子域名)
+
+* [helloexp/0day](https://github.com/helloexp/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新
+
 # 其他
 
 * [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
 
 * [mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks 作为Markdown文档、Julia、Python或R脚本
+
+* [vinta/awesome-python](https://github.com/vinta/awesome-python) 很棒的 Python 框架、库、软件和资源的精选列表
+
+* [akullpp/awesome-java:](https://github.com/akullpp/awesome-java) Java 编程语言的优秀框架、库和软件的精选列表。
+
+* [sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript) 很棒的浏览器端 JavaScript 库、资源。
+
+* [avelino/awesome-go](https://github.com/avelino/awesome-go) 精选的 Go 框架、库和软件的精选列表
+
+* [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集整理GitHub上高质量、有趣的开源项目。
 
 * modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
 
@@ -2842,6 +2978,8 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * ducafecat/flutter_learn_news  flutter实战学习-新闻客户端 
 
 * freestyletime/FlutterNews  用Flutter写的新闻类小项目 
+
+* [imaNNeoFighT/fl_chart](https://github.com/imaNNeoFighT/fl_chart) FL Chart 是一个高度可定制的 Flutter 图表库，支持折线图、条形图、饼图、散点图和雷达图。
 
 * linyacool/WebServer C++11编写的Web服务器
 
@@ -2916,3 +3054,11 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [zadam/trilium](https://github.com/zadam/trilium) 使用 Trilium Notes 建立您的个人知识库
 
 * [LianjiaTech/bruno](https://github.com/LianjiaTech/bruno) Bruno 是基于一整套设计体系的 Flutter 组件库。一套企业级移动端 Flutter 组件库.
+
+* [google/googletest](https://github.com/google/googletest) Google 测试和模拟框架  C++ 测试框架
+
+* [ocornut/imgui](https://github.com/ocornut/imgui) 具有最小依赖性的 C++ 无膨胀图形用户界面
+
+* [emilk/egui](https://github.com/emilk/egui) 简单、快速且高度可移植的 Rust 即时模式 GUI 库。
+
+* [Eugeny/tabby](https://github.com/Eugeny/tabby) 一个更现代的终端
