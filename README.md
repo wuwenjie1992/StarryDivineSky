@@ -2911,6 +2911,20 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [helloexp/0day](https://github.com/helloexp/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新
 
+* [4ra1n/JavaSecInterview](https://github.com/4ra1n/JavaSecInterview) Java安全研究与安全开发面试题库，同是也是常见知识点的梳理和总结，包含问题和详细的答案，计划定期更新
+
+* [devanshbatham/Awesome-Bugbounty-Writeups](https://github.com/devanshbatham/Awesome-Bugbounty-Writeups) 精选 bugbounty 文章列表（Bug 类型）包括：跨站脚本 (XSS)、跨站请求伪造 (CSRF)、点击劫持（UI Redressing Attack）、本地文件包含 (LFI)、子域接管、拒绝服务 (DOS)、身份验证绕过、SQL注入、不安全的直接对象引用 (IDOR)、2FA 、CORS 、服务器端请求伪造 (SSRF)、远程代码执行 (RCE)、安卓渗透测试
+
+* [Impact-I/reFlutter](https://github.com/Impact-I/reFlutter) Flutter 逆向工程框架
+
+* [m4ll0k/Atlas](https://github.com/m4ll0k/Atlas) 快速 SQLMap 篡改建议器.Quick SQLMap Tamper Suggester
+
+* [0x727/ObserverWard](https://github.com/0x727/ObserverWard) 命令行Web指纹识别工具
+
+* [bitsadmin/fakelogonscreen](https://github.com/bitsadmin/fakelogonscreen) 伪造 Windows 登录屏幕以窃取密码
+
+* [AntSwordProject/ant](https://github.com/AntSwordProject/ant) 实时上线的 XSS 盲打平台 
+
 # 其他
 
 * [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
@@ -2926,6 +2940,18 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [avelino/awesome-go](https://github.com/avelino/awesome-go) 精选的 Go 框架、库和软件的精选列表
 
 * [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集整理GitHub上高质量、有趣的开源项目。
+
+* [MTrajK/coding-problems](https://github.com/MTrajK/coding-problems/) 各种编码/算法问题的解决方案以及许多用于学习算法和数据结构的python资源
+
+* [Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) 100 多个具有挑战性的 Python 编程练习
+
+* [rasbt/python_reference](https://github.com/rasbt/python_reference/) 有用的函数、教程和其他 Python 相关的东西
+
+* [joaoventura/full-speed-python](https://github.com/joaoventura/full-speed-python) 全速 Python：一本面向自学者的书
+
+* [trekhleb/learn-python](https://github.com/trekhleb/learn-python) 用于学习 Python 的游乐场和备忘单。Python 脚本的集合，按主题拆分并包含带有解释的代码示例。
+
+* [jerry-git/learn-python3](https://github.com/jerry-git/learn-python3) 用于教学/学习 Python 3 的 Jupyter 笔记本
 
 * modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
 
