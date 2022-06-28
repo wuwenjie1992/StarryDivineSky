@@ -472,6 +472,8 @@
 
 * [GRAND-Lab/Awesome-Graph-Neural-Networks](https://github.com/GRAND-Lab/Awesome-Graph-Neural-Networks) 图神经网络论文列表
 
+* [[GNNBook@2022](https://graph-neural-networks.github.io/index.html)] 图神经网络 基础、前沿和应用 
+
 * [stellargraph/stellargraph](https://github.com/stellargraph/stellargraph) 星际图机器学习库
 
 ## 图注意力机制
@@ -2294,6 +2296,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [ultralytics/yolov5](https://github.com/ultralytics/yolov5) YOLOv5 是一系列在 COCO 数据集上预训练的对象检测架构和模型，代表 Ultralytics 对未来视觉 AI 方法的开源研究，结合了在数千小时的研究和开发中获得的经验教训和最佳实践。
 
+[lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) 在 Pytorch 中实现 Vision Transformer，一种仅使用单个 Transformer 编码器即可在视觉分类中实现 SOTA 的简单方法
+
 [zongdai/AutoShape](https://github.com/zongdai/AutoShape) ICCV2021 论文：AutoShape：实时形状感知单目 3D 对象检测
 
 [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) 用于对象检测、分割和其他视觉识别任务的下一代平台。
@@ -2304,7 +2308,7 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [Megvii-BaseDetection/YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) 高性能目标检测器YOLOX。并将YOLO检测器切换到anchor-free的方式，并结合其他先进的检测技术，如decouple head和标签分配策略SimOTA，实现了当前目标检测最优性能。
 
-[yuantn/MI-AOD](https://github.com/yuantn/MI-AOD) [Multiple Instance Active Learning for Object Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf) 用于目标检测的多示例主动学习方法, 提出了 多示例主动目标检测（MI-AOD），通过观察示例级的不确定性来选择信息量最大的图像用于检测器的训练。
+[yuantn/MI-AOD](https://github.com/yuantn/MI-AOD) 用于目标检测的多示例主动学习方法, 提出多示例主动目标检测MI-AOD，通过观察示例级的不确定性来选择信息量最大的图像用于检测器的训练。
 
 [microsoft/SoftTeacher](https://github.com/microsoft/SoftTeacher) ICCV2021 使用软教师进行端到端的半监督目标检测
 
@@ -2315,6 +2319,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 [Megvii-BaseDetection/DeFCN](https://github.com/Megvii-BaseDetection/DeFCN) 全卷积网络的端到端目标检测
 
 ## 其他_机器视觉
+
+[OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
 
@@ -2432,13 +2438,45 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [thuiar/Self-MM](https://github.com/thuiar/Self-MM) 用于多模态情感分析的自监督多任务学习学习模态特定表示中的代码的 Pytorch 实现
 
-[nuno-faria/tiler](https://github.com/nuno-faria/tiler) Tiler 是一种使用各种其他较小图像（图块）创建图像的工具。它不同于其他马赛克工具，因为它可以适应多种形状和大小的瓷砖（即不限于正方形）。图像可以由圆圈、线条、波浪、十字绣、乐高积木、我的世界积木、回形针、字母等组成……可能性无穷无尽！
+[nuno-faria/tiler](https://github.com/nuno-faria/tiler) Tiler 是一种使用各种其他较小图像（图块）创建图像的工具。它不同于其他马赛克工具，因为它可以适应多种形状和大小的瓷砖（即不限于正方形）。图像可以由圆圈、线条、波浪、十字绣、乐高积木、我的世界积木、回形针、字母等组成…可能性无穷无尽！
 
 [leandromoreira/ffmpeg-libav-tutorial](https://github.com/leandromoreira/ffmpeg-libav-tutorial) FFmpeg libav 教程 - 了解媒体如何从基础到转换、转码等工作
 
 [Tencent/libpag](https://github.com/Tencent/libpag) 动画文件的渲染 SDK，降低或消除动画研发相关的成本，打通设计师创作到素材交付上线的极简流程，不断输出运行时可编辑的高质量动画内容。
 
 [salesforce/BLIP](https://github.com/salesforce/BLIP) 用于 BLIP 的 PyTorch 代码：用于统一视觉语言理解和生成的引导语言图像预训练
+
+[VALUE-Leaderboard/StarterCode](https://github.com/VALUE-Leaderboard/StarterCode) VALUE 基准测试的入门代码 。用于训练、评估和分析系统以理解视频和字幕的资源集合。
+
+[starmemda/CAMoE](https://github.com/starmemda/CAMoE) 通过多流语料库对齐和双 Softmax 损失改进视频文本检索
+
+[facebookresearch/SLIP](https://github.com/facebookresearch/SLIP) SLIP 自监督代码发布符合语言-图像预训练
+
+[yuewang-cuhk/awesome-vision-language-pretraining-papers](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers) 视觉和语言预训练模型 (VL-PTM) 的最新进展
+
+[facebookresearch/vilbert-multi-task](https://github.com/facebookresearch/vilbert-multi-task) 12 合 1：多任务视觉和语言表征学习
+
+[airsplay/lxmert](https://github.com/airsplay/lxmert) 从 Transformers 学习跨模态编码器表示
+
+[uclanlp/visualbert](https://github.com/uclanlp/visualbert) 视觉和语言的简单且高效的基线 arxiv.org/abs/1908.03557 预训练一个 Transformer，用于处理图像字幕数据的视觉和语言 (V&L) 任务。 无监督 VisualBERT，预训练了没有对齐的图像字幕对的 V&L 转换器。
+
+[jackroos/VL-BERT](https://github.com/jackroos/VL-BERT) 用于视觉语言任务的简单而强大的可预训练通用表示。它在大规模字幕数据集和纯文本语料库上进行了预训练，可以针对各种下游视觉语言任务进行微调，例如视觉常识推理、视觉问答和参考表达理解。
+
+[ChenRocks/UNITER](https://github.com/ChenRocks/UNITER) 支持在 [NLVR2](http://lil.nlp.cornell.edu/nlvr/)、[VQA](https://visualqa.org/)、[VCR](https://visualcommonsense.com/)、 [SNLI-VE 、](https://github.com/necla-ml/SNLI-VE) [COCO](https://cocodataset.org/#home)和 [Flickr30k](http://shannon.cs.illinois.edu/DenotationGraph/)的图像文本检索以及 [引用表达式理解](https://github.com/lichengunc/refer)（RefCOCO、RefCOCO+ 和 RefCOCO-g）上微调 UNITER。UNITER-base 和 UNITER-large 的预训练检查点均已发布。还可以使用域内数据进行基于 UNITER 的预训练。
+
+[ERNIE/ernie-vil](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-vil) 视觉语言任务的知识增强联合表示，第一个引入结构化知识以增强视觉语言预训练的工作。利用从场景图中获得的结构化知识，ERNIE-ViL 构造了三个场景图预测任务，即对象预测、属性预测和关系预测任务。因此，可以学习更好的联合视觉语言表示，表征跨视觉和语言的详细语义的对齐。
+
+[Research/NLP/UNIMO](https://github.com/PaddlePaddle/Research/tree/master/NLP/UNIMO) UNIfied-MODal 预训练架构，即UNIMO，可以有效地适应单模态和多模态的理解和生成任务。利用大规模的自由文本语料库和图像集合来提高视觉和文本理解能力，并利用跨模态对比学习（CMCL）将文本和视觉信息对齐到图像语料库上的统一语义空间中。用相关图像和文本增强的文本对。在丰富的非配对单模态数据的帮助下，我们的模型能够通过允许文本知识和视觉知识在统一的语义空间中相互增强来学习更多的泛化表示。实验结果表明，UNIMO大大提高了几个单模态和多模态下游任务的性能。
+
+[fairseq/examples/MMPT](https://github.com/facebookresearch/fairseq/tree/main/examples/MMPT) 用于多模态视频理解的工具包！包含两篇多模态视频理解论文[VideoCLIP](https://arxiv.org/pdf/2109.14084.pdf) (EMNLP, 2021) 和[VLM](https://aclanthology.org/2021.findings-acl.370.pdf) (ACL Findings, 2021) 的实现。VideoCLIP 是一种对比学习模型，用于将零样本迁移到检索/分类/序列标记样式任务。VLM 是一种掩码语言模型样式预训练，仅使用一个带有掩码模态模型 (MMM) 的编码器来执行检索/生成/序列标签样式任务。
+
+[mczhuge/Kaleido-BERT](https://github.com/mczhuge/Kaleido-BERT) (CVPR2021) Kaleido-BERT：时尚领域的视觉语言预训练。
+
+[linjieli222/HERO](https://github.com/linjieli222/HERO) # 用于视频+语言全表示预训练的分层编码器 该存储库目前支持在 [TVR](https://tvr.cs.unc.edu/)、[TVQA](http://tvqa.cs.unc.edu/)、[TVC](https://tvr.cs.unc.edu/tvc.html)、 [VIOLIN](https://github.com/jimmy646/violin)、 [DiDeMo](https://github.com/LisaAnne/TemporalLanguageRelease)和 [MSR-VTT Retrieval](http://ms-multimedia-challenge.com/2017/challenge)上微调 HERO 。发布了最好的预训练检查点（在[HowTo100M](https://www.di.ens.fr/willow/research/howto100m/)和[TV](http://tvqa.cs.unc.edu/)数据集上）。还提供了在 TV 数据集上进行 HERO 预训练的代码。
+
+[gabeur/mmt](https://github.com/gabeur/mmt) 用于视频检索的多模态变压器 提出的多模态转换器 (MMT) 从视频中聚合多模态特征序列（例如外观、运动、音频、OCR 等）。然后，它将聚合的多模式特征嵌入到带有文本的共享空间中以进行检索。它在 MSRVTT、ActivityNet 和 LSMDC 数据集上实现了最先进的性能。
+
+[Noah-Wukong Dataset](https://wukong-dataset.github.io/wukong-dataset/) 一个大规模的多模态中文数据集。数据集包含1 亿个image, text对。数据集中的图像根据大小（两个维度 > 200px）和纵横比（1/3 ~ 3）进行过滤。数据集中的文本根据其语言、长度和频率进行过滤。隐私和敏感词也被考虑在内。
 
 # 虚拟化
 
