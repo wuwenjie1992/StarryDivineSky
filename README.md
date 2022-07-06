@@ -2246,6 +2246,8 @@ ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移动人体姿势模型
 
 [人脸识别常用开源数据集大全](https://mp.weixin.qq.com/s/bcYmSh6cli7kPeEOgmw3mg) 哥伦比亚大学公众人物脸部数据、CelebA人脸、美国国防部人脸、MTFL人脸、BioID人脸、PersonID人脸识别数据集、CMU PIE人脸库、Youtube视频人脸、CASIA 人脸图像、# Caltech人脸数据库
 
+[sallymmx/ActionCLIP](https://github.com/sallymmx/ActionCLIP) 视频动作识别的新范式
+
 ## 图像恢复
 
 microsoft/Bringing-Old-Photos-Back-to-Life 旧照片修复
@@ -2317,6 +2319,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 [dddzg/up-detr](https://github.com/dddzg/up-detr) 使用 Transformers 进行目标检测的无监督预训练
 
 [Megvii-BaseDetection/DeFCN](https://github.com/Megvii-BaseDetection/DeFCN) 全卷积网络的端到端目标检测
+
+[HRNet/HRFormer](https://github.com/HRNet/HRFormer) 高分辨率变换器（HRFormer），它学习用于密集预测任务的高分辨率表示，而原始的视觉变换器产生低分辨率表示并且具有高内存和计算成本。
 
 ## 其他_机器视觉
 
@@ -2476,7 +2480,23 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [gabeur/mmt](https://github.com/gabeur/mmt) 用于视频检索的多模态变压器 提出的多模态转换器 (MMT) 从视频中聚合多模态特征序列（例如外观、运动、音频、OCR 等）。然后，它将聚合的多模式特征嵌入到带有文本的共享空间中以进行检索。它在 MSRVTT、ActivityNet 和 LSMDC 数据集上实现了最先进的性能。
 
-[Noah-Wukong Dataset](https://wukong-dataset.github.io/wukong-dataset/) 一个大规模的多模态中文数据集。数据集包含1 亿个image, text对。数据集中的图像根据大小（两个维度 > 200px）和纵横比（1/3 ~ 3）进行过滤。数据集中的文本根据其语言、长度和频率进行过滤。隐私和敏感词也被考虑在内。
+[Noah-Wukong Dataset](https://wukong-dataset.github.io/wukong-dataset/) 大规模的多模态中文数据集。数据集包含1 亿个image, text对。数据集中的图像根据大小（两个维度 > 200px）和纵横比（1/3 ~ 3）进行过滤。数据集中的文本根据其语言、长度和频率进行过滤。
+
+[lyakaap/ISC21-Descriptor-Track-1st](https://github.com/lyakaap/ISC21-Descriptor-Track-1st) Facebook AI 图像相似度挑战赛 (ISC21) 的第一名解决方案
+
+[sun-xl/ISC2021](https://github.com/sun-xl/ISC2021) Facebook AI 组织的图像相似度挑战赛Image Similarity Challenge (ISC) 2021 匹配赛道的第三名解决方案的源代码
+
+[zr2021/2021_QQ_AIAC_Tack1_1st](https://github.com/zr2021/2021_QQ_AIAC_Tack1_1st) QQ浏览器2021多模态视频相似度 第1名 方案
+
+[PKU-DAIR/2021_AIAC_Task2_1st](https://github.com/PKU-DAIR/2021_AIAC_Task2_1st) QQ浏览器2021多模态视频相似度 第1名 方案
+
+[kywen1119/Video_sim](https://github.com/kywen1119/Video_sim) 2021年qq浏览器AI算法大赛 多模态视频相似度 第四名
+
+[ChasingStar95/AIAC2021_task1_rank6](https://github.com/ChasingStar95/AIAC2021_task1_rank6) 2021QQ浏览器 多模态视频相似度 rank6
+
+[AIAC_qq_browser_2021_task1_rank11](https://github.com/cgxcompetition/AIAC_qq_browser_2021_task1_rank11) 2021年 qq浏览器AI 算法大赛 赛道一 多模态视频相似度 决赛第11名
+
+
 
 # 虚拟化
 
@@ -2586,6 +2606,26 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 [xephonhq/awesome-time-series-database](https://github.com/xephonhq/awesome-time-series-database) 精选的时间序列数据库、基准和论文列表
 
+[XiaoMi/soar](https://github.com/XiaoMi/soar) SQL Optimizer And Rewriter是对 SQL进行优化改写的自动化工具。
+
+[Meituan-Dianping/SQLAdvisor](https://github.com/Meituan-Dianping/SQLAdvisor) 输入SQL，输出索引优化建议
+
+[cookieY/Yearning:](https://github.com/cookieY/Yearning) 一个最流行的mysql审计平台
+
+[hhyo/Archery](https://github.com/hhyo/Archery)  [archer](https://github.com/jly8866/archer)的分支项目，定位于SQL审核查询平台，旨在提升DBA的工作效率，支持多数据库的SQL上线和查询，同时支持丰富的MySQL运维功能，所有功能都兼容手机端操作
+
+[MyCATApache/Mycat-Server](https://github.com/MyCATApache/Mycat-Server) Java语言编写的MySQL数据库网络协议的开源中间件, 它支持分布式SQL查询，兼容MySQL通信协议，以Java生态支持多种后端数据库，通过数据分片提高数据查询处理能力。
+
+[Qihoo360/Atlas](https://github.com/Qihoo360/Atlas) MySQL的高性能稳定代理，由奇虎DBA和基础架构团队开发
+
+[akopytov/sysbench](https://github.com/akopytov/sysbench) 可编写脚本的数据库和系统性能基准
+
+[github/gh-ost](https://github.com/github/gh-ost) MySQL 的无触发在线模式迁移解决方案。它是可测试的，并提供可暂停性、动态控制/重新配置、审计和许多操作特权。
+
+[openark/orchestrator](https://github.com/openark/orchestrator) MySQL 复制拓扑管理和 HA
+
+
+
 # 硬件
 
 ## RISC-V CPU
@@ -2645,6 +2685,8 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
 
 * [lowRISC/ibex](https://github.com/lowRISC/ibex) Ibex 是一个小型 32 位 RISC-V CPU 内核，以前称为 zero-riscy。Ibex 是用 SystemVerilog 编写的生产级开源 32 位 RISC-V CPU 内核。CPU 内核高度可参数化，非常适合嵌入式控制应用。Ibex 正在接受广泛的验证，并且已经看到多个流片。Ibex 支持整数 (I) 或嵌入式 (E)、整数乘除法 (M)、压缩 (C) 和B（位操作）扩展。
+
+* [shawn110285/Cookabarra](https://github.com/shawn110285/Cookabarra) Cookabarra 是 rv32im cpu 的训练目标实现，设计简单易懂。
 
 ## 硬件_其他
 
