@@ -476,6 +476,8 @@
 
 * [stellargraph/stellargraph](https://github.com/stellargraph/stellargraph) 星际图机器学习库
 
+* [JDGalileo/galileo](https://github.com/JDGalileo/galileo) Galileo（伽利略）是一个图深度学习框架，具备超大规模、易使用、易扩展、高性能、双后端等优点，旨在解决超大规模图算法在工业级场景的落地难题，提供图神经网络和图嵌入等模型的训练评估及预测能力。
+
 ## 图注意力机制
 
 * [PetarV-/GAT](https://github.com/PetarV-/GAT) Graph Attention Networks  图注意力神经网络
@@ -599,6 +601,8 @@
 
 * [microsoft/FOST](https://github.com/microsoft/FOST) FOST 是一个通用的预测工具，它展示了我们在实际预测领域的经验和先进技术，包括时间、时空和分层预测。当前的通用预测工具（亚马逊的Gluon-TS、facebook的Prophet等）无法处理和建模结构图数据，尤其是在空间数据中
 
+* [drop-out/Tianchi-Wifi-Positioning](https://github.com/drop-out/Tianchi-Wifi-Positioning) 天池wifi定位大赛第一名解决方案 。给定交易时的环境信息(包括GPS坐标、wifi信息(bssid/信号强度/是否连接)、用户id)，确定交易所处的商铺。
+
 ## 图预训练  Pre-Training of Graph
 
 * [THUDM/GCC](https://github.com/THUDM/GCC) Graph Contrastive Coding for Graph Neural Network Pre-Training 用于图形神经网络预训练的图形对比编码，下游任务：节点分类、图分类、相似性搜索。
@@ -610,6 +614,8 @@
 * [Shen-Lab/GraphCL](https://github.com/Shen-Lab/GraphCL) 设计了一种针对无监督图表示学习的图对比学习框架 GraphCL。在该框架下，作者探索了 4 种不同先验下的图数据增强方法。考虑到半监督，无监督和迁移等任务，作者在很多数据集上系统的分析了不同图增强组合的影响。实验结果表明，作者所设计的 GraphCL 框架能够取得相似或者更优于 SOTA。GraphCL是一个基于对比学习的自监督图谱预训练模型，GraphCL模型对一个节点得到两个随机扰动的L-hop的Subgraph，通过最大化两个Subgraph之间的相似度来进行自监督学习。
 
 ## 图对抗攻击
+
+* [EdisonLeeeee/Graph-Adversarial-Learning](https://github.com/EdisonLeeeee/Graph-Adversarial-Learning) 图对抗性攻击和防御的精选集合。
 
 * [danielzuegner/robust-gcn](https://github.com/danielzuegner/robust-gcn) Robust Graph Convolutional Network是最早的有关于图数据集上对抗攻击防御的工作之一。本文对GCN作出的改进主要体现在以下两点：基于高斯分布的图卷积层（Gaussian-based Graph Convolution Layer） 、采用attention机制为聚合的邻居特征分配权重。
 
@@ -999,11 +1005,19 @@
 
 * [XiangLi1999/PrefixTuning](https://github.com/XiangLi1999/PrefixTuning)  前缀微调：优化文本生成的连续提示模板。提出一种更好的微调方法，通过加入前缀实现统一模型在不同任务上的微调，实现小样本学习，极大地减少了参数量。目前对于前缀的构造，大致可以分为本文的连续前缀和离散前缀（自动生成或手动设计），对于在摘要任务上加入离散前缀，有点类似于从对话中提取特征或结构，但这种方法的优势就在于它不需要大量的样本，而传统的融入结构的方法仍然需要很多样本。
 
+* [fastnlp/CPT](https://github.com/fastnlp/CPT) 中文预训练非平衡转换器 (CPT) ，它是一种非平衡 Transformer 编码器-解码器，联合 MLM 和 DAE 进行预训练。用于汉语理解和生成的预训练.
+
+* [RowitZou/topic-dialog-summ](https://github.com/RowitZou/topic-dialog-summ) 具有显着性感知主题建模的客户服务的面向主题的口语对话摘要。数据集是从阿里巴巴客户服务中心收集的。所有对话都是在客户和服务代理之间进行的普通话来电。脱敏数据可在 [Google Drive](https://drive.google.com/file/d/1X3-C9vTYfk43T5NIEvRsdRIJkN1RuG7b/view?usp=sharing)或[百度盘](https://pan.baidu.com/s/1AvkGnerKpQHUNbwkz9kO7A)（提取码：t6nx）上获得。
+
 ## 文本匹配 文本相似度
 
 * [princeton-nlp/SimCSE](https://github.com/princeton-nlp/SimCSE) SimCSE：句子嵌入的简单对比学习 。提供无监督或有监督的对比学习。是目前文本相似度更好的方法。
 
 * [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers) 句子转换器：使用BERT RoBERTa XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
+
+* [bojone/CoSENT](https://github.com/bojone/CoSENT) 比Sentence-BERT更有效的句向量方案.优化cos值的新方案**CoSENT**（Cosine Sentence）。[实验显示](https://kexue.fm/archives/8847)，CoSENT在收敛速度和最终效果上普遍都比InferSent和Sentence-BERT要好。
+
+* [shawroad/CoSENT](https://github.com/shawroad/CoSENT_Pytorch) 比Sentence-BERT更有效的句向量方案 Pytorch版
 
 * [thunlp/OpenMatch](https://github.com/thunlp/OpenMatch) 总体架构包括两大部分：一是相关文档检索，即根据用户检索词，从大规模文档集合中返回最相关的Top-K(K通常为100或1000)文档。二是文档重排序，即将各神经网络模型和非神经网络模型的排序特征整合，对Top-K文档重排序，进一步提升排序效果。OpenMatch提供了融合外部知识图谱信息的知识增强模型，和筛选大规模数据的数据增强模型。
 
@@ -1105,7 +1119,7 @@
 
 * JanKalo/KnowlyBERT 提出了一种混合的语言知识模型查询系统，该系统使用语言模型来应对现实世界中知识图谱的不完整性问题。作为KnowlyBERT的输入，用户可以向系统提出以实体为中心的SPARQL查询。首先，查询语言模型（a）；然后，对不完整的知识图谱进行查询，并获得结果（b）；另外SPARQL查询被翻译成多种自然语言语句，这些语言语句在“关系模板生成”步骤中由语言模型完成；语言模型返回多个单词列表以及每个单词（c）的置信度值；然后将这些列表合并为一个列表（d），并根据知识图谱类型信息（e）使用我们的语义过滤步骤进行过滤。此外，执行阈值处理，削减不相关的结果（f）；最后，将语言模型和知识图谱的结果合并（g）并返回给用户。
 
-* yeliu918/KG-BART 知识图谱增强的预训练模型的生成式常识推理.KG-BART可以利用图上的注意力来聚集丰富的概念语义，从而增强对看不见的概念集的模型泛化。
+* yeliu918/KG-BART 知识图谱增强的预训练模型的生成式常识推理.可利用图上的注意力来聚集丰富的概念语义，从而增强对看不见的概念集的模型泛化。
 
 * bernhard2202/intkb 一种交互式知识图谱补全框架
 
@@ -1144,6 +1158,8 @@
 * [ZihengZZH/awesome-multimodal-knowledge-graph](https://github.com/ZihengZZH/awesome-multimodal-knowledge-graph) 多模态知识图谱的精彩阅读列表或其他资源（数据集、教程等）。
 
 * [thunlp/KB2E](https://github.com/thunlp/KB2E) 知识图谱嵌入，包括 TransE、TransH、TransR 和 PTransE
+
+* [powerycy/DeepKg: Knowledge Graph](https://github.com/powerycy/DeepKg) 知识图谱的构建 实体识别\语义标准化\向量召回
 
 ## NLP语料和数据集
 
@@ -1364,6 +1380,10 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 [pcyin/tranX](https://github.com/pcyin/tranX) 用于将自然语言查询映射到机器可执行代码的通用神经语义解析器
 
+[hooman650/SupCL-Seq](https://github.com/hooman650/SupCL-Seq) 下游优化序列表示的监督对比学习
+
+[openai/grade-school-math](https://github.com/openai/grade-school-math) 包含 8.5K 高质量语言多样化小学数学单词问题的数据集。对于每个测试问题，我们提供从 6B 微调、6B 验证、175B 微调和 175B 验证生成的解决方案。
+
 # 推荐系统
 
 ## 推荐系统算法库
@@ -1560,6 +1580,22 @@ https://github.com/xidongbo/AITM 自适应信息传输多任务 (AITM) 框架的
 [Jhy1993/Awesome-GNN-Recommendation](https://github.com/Jhy1993/Awesome-GNN-Recommendation) GNN-推荐相关资源
 
 [sisinflab/elliot](https://github.com/sisinflab/elliot) 用于可重现推荐系统评估的全面而严谨的框架
+
+[sumitsidana/recsys_challenge_2020](https://github.com/sumitsidana/recsys_challenge_2020) 此存储库包含 2020 年 RecSys 挑战赛方法的第四名解决方案的代码。该挑战侧重于在动态环境中进行推文参与度预测的现实任务。目标是根据异构输入数据预测目标用户对一组推文的不同类型参与（点赞、回复、转推和转推）的概率。
+
+[ystdo/Codes-for-WSDM-CUP-Music-Rec-1st-place-solution](https://github.com/lystdo/Codes-for-WSDM-CUP-Music-Rec-1st-place-solution)  WSDM CUP 2018 音乐推荐挑战赛第一名解决方案的对应代码。预测 3 月订阅到期的用户中，哪些会流失。为解决该题，阿里巴巴使用了两层 Stacking Model，第一层采用逻辑回归、随机森林、XGBoost 算法，第二层又采用 XGBoost 算法把第一层的结果融合。流失用户预测，对有会员体系的业务场景都可以使用，其中会员付费为主要收入的业务就更为关键，比如像 Apple Music、虾米音乐。多层 Stacking Model 由 AliOS 神灯研发，极大提升了分类预测的准确率，已广泛应用于 AliOS 多项业务中。
+
+[DiligentPanda/Tencent_Ads_Algo_2018](https://github.com/DiligentPanda/Tencent_Ads_Algo_2018) 该仓库维护2018年腾讯广告算法大赛的代码。我们的代码在决赛中排名第三。基于 FFM 的注意力神经网络的平均值。在最终提交中，我们使用了 13 个这样的网络。但是这些网络只是在它们的随机种子上有所不同。 5 个这样的网络将给出几乎相同的结果。Lookalike 相似人群拓展
+
+[ttvand/Santander-Product-Recommendation](https://github.com/ttvand/Santander-Product-Recommendation) Kaggle 竞赛第二名解决方案 - Santander 产品推荐
+
+[Travisgogogo/BAAI-ZHIHU-2019](https://github.com/Travisgogogo/BAAI-ZHIHU-2019) Top3  高效地将用户新提出的问题邀请其他用户进行解答，以及挖掘用户有能力且感兴趣的问题进行邀请下发，优化邀请回答的准确率，提高问题解答率以及回答生产数。
+
+[LogicJake/tuling-video-click-top3](https://github.com/LogicJake/tuling-video-click-top3) 图灵联邦视频点击预测大赛线上第三
+
+[PPshrimpGo/BDCI2018-ChinauUicom-1st-solution](https://github.com/PPshrimpGo/BDCI2018-ChinauUicom-1st-solution) CCF BDCI 2018的面向电信领域的个性化套餐匹配第一名解决方案
+
+
 
 # 金融股票与时间序列
 
@@ -1894,6 +1930,8 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 [ben-hayes/neural-waveshaping-synthesis](https://github.com/ben-hayes/neural-waveshaping-synthesis) 波形域中的高效神经音频合成.使用神经网络有效合成音频波形的方法。
 
+[https://github.com/Jackiexiao/zhtts](https://github.com/Jackiexiao/zhtts) 中文实时语音合成系统Demo
+
 ## 语音识别与合成_其他
 
 [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
@@ -2175,6 +2213,8 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 [immunogenomics/symphony](https://github.com/immunogenomics/symphony) 使用 Symphony 进行高效、精确的单细胞参考图谱映射
 
 [XuhanLiu/DrugEx](https://github.com/XuhanLiu/DrugEx) 多药理学中基于帕累托的多目标优化药物设计深度学习工具包。由于可用于寻找可行的类药物分子的类药物化学空间大，合理的药物设计通常从添加或修饰侧链/取代基的特定支架开始。随着深度学习在药物发现中应用的快速增长，已经开发出多种有效的方法来进行从头药物设计。提出了DrugEx 的方法，该方法可以应用于基于多目标深度强化学习的多药理学。为了提高普遍适用性， DrugEx 以设计基于支架的药物分子，支架由用户提供的多个片段组成。在这项工作中，Transformer 用于生成分子结构。Transformer 包含一个接收支架作为输入的编码器和一个生成分子作为输出的解码器。为了处理分子的图形表示，我们提出了一种基于邻接矩阵的每个原子和键的新位置编码，以扩展 Transformer 的架构。每个分子都是通过生长和连接给定支架中的片段的程序生成的，这些片段被统一到一个模型中。此外，我们在强化学习框架下训练了这个生成器，以增加所需配体的数量。
+
+[kipoi/models](https://github.com/kipoi/models) 基因组学的预测模型，并用作Kipoi的模型源。Kipoi（发音：kípi；来自希腊语 κήποι：gardens）是一个API和用于基因组学的即用型训练模型的存储库。它目前包含 2201 个不同的模型，涵盖转录和转录后基因调控中的规范预测任务。例如预测称为转录因子的蛋白质如何与DNA结合，或者酶可能在何处拼接遗传密码。
 
 # 机器视觉
 
@@ -2496,7 +2536,7 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [AIAC_qq_browser_2021_task1_rank11](https://github.com/cgxcompetition/AIAC_qq_browser_2021_task1_rank11) 2021年 qq浏览器AI 算法大赛 赛道一 多模态视频相似度 决赛第11名
 
-
+[Tencent/Lichee](https://github.com/Tencent/Lichee)  一个多模态内容理解算法框架，其中包含数据处理、预训练模型、常见模型以及模型加速等模块。
 
 # 虚拟化
 
@@ -2624,8 +2664,6 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 [openark/orchestrator](https://github.com/openark/orchestrator) MySQL 复制拓扑管理和 HA
 
-
-
 # 硬件
 
 ## RISC-V CPU
@@ -2722,9 +2760,11 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [MiSTer-devel/Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer) MiSTer是一个开放项目，旨在使用现代硬件重新创建各种经典计算机、游戏机和街机。它允许软件和游戏图像像在原始硬件上一样运行，使用鼠标、键盘、游戏杆和其他游戏控制器等外围设备。
 
-* [revoxhere/duino-coin](https://github.com/revoxhere/duino-coin) 一种几乎可以用任何东西开采的硬币，包括 Arduino 板。
+* [revoxhere/duino-coin](https://github.com/revoxhere/duino-coin) 几乎可以用任何东西开采的硬币，包括 Arduino 板。
 
 * [eloquentarduino/EloquentTinyML](https://github.com/eloquentarduino/EloquentTinyML/) 用于微控制器的Tensorflow Lite的Eloquent接口，可在arduino上进行机器学习计算推理。
+
+* [GitHub - ultraembedded/cores: Various HDL (Verilog) IP Cores](https://github.com/ultraembedded/cores) 各种 HDL (Verilog) IP 核 sram FIFO 接口 I2S USB 
 
 # 网络
 
@@ -3004,6 +3044,12 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [bitsadmin/fakelogonscreen](https://github.com/bitsadmin/fakelogonscreen) 伪造 Windows 登录屏幕以窃取密码
 
 * [AntSwordProject/ant](https://github.com/AntSwordProject/ant) 实时上线的 XSS 盲打平台 
+
+* [Lazenca/Kernel-exploit-tech](https://github.com/Lazenca/Kernel-exploit-tech) Linux 内核开发教程。
+
+* [https://github.com/chroblert/WindowsVulnScan](https://github.com/chroblert/WindowsVulnScan) 基于主机的漏洞扫描工具，采用多线程确保可以快速的请求数据，采用线程锁可以在向sqlite数据库中写入数据避免database is locked的错误，采用md5哈希算法确保数据不重复插入。
+
+* [asta-mouse/Sherlock](https://github.com/rasta-mouse/Sherlock) PowerShell 脚本，快速查找权限提升漏洞的缺失补丁。
 
 # 其他
 
