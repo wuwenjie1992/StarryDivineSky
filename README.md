@@ -1595,7 +1595,11 @@ https://github.com/xidongbo/AITM 自适应信息传输多任务 (AITM) 框架的
 
 [PPshrimpGo/BDCI2018-ChinauUicom-1st-solution](https://github.com/PPshrimpGo/BDCI2018-ChinauUicom-1st-solution) CCF BDCI 2018的面向电信领域的个性化套餐匹配第一名解决方案
 
+[hydantess/TianChi_zhilianzhaopin:](https://github.com/hydantess/TianChi_zhilianzhaopin) 智联招聘人岗智能匹配 根据智联招聘抽样的经过脱敏的求职者标签数据、职位信息、及部分求职者行为信息、用人单位反馈信息，训练排序模型，对求职者的职位候选集进行排序，尽可能使得双端都满意的职位（求职者满意以及用人单位满意）优先推荐。
 
+[RainFung/Tianchi-AntaiCup-International-E-commerce-Artificial-Intelligence-Challenge](https://github.com/RainFung/Tianchi-AntaiCup-International-E-commerce-Artificial-Intelligence-Challenge) 天池-安泰杯跨境电商智能算法大赛 冠军。 通过海量数据挖掘用户下一个可能交互商品，选手们可以提交预测的TOP30商品列表，排序越靠前命中得分越高。
+
+[fuxiAIlab/RL4RS](https://github.com/fuxiAIlab/RL4RS) 基于强化学习的推荐系统的真实世界基准
 
 # 金融股票与时间序列
 
@@ -3051,6 +3055,15 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [asta-mouse/Sherlock](https://github.com/rasta-mouse/Sherlock) PowerShell 脚本，快速查找权限提升漏洞的缺失补丁。
 
+* [t43Wiu6/blackJack-Dicts](https://github.com/t43Wiu6/blackJack-Dicts) 参考十余个项目整理的目录和文件字典。
+
+* [AlphabugX/httpscan](https://github.com/AlphabugX/httpscan) 用于C段http资产快速扫描，目前只支持80端口。(多线程)
+
+* [0e0w/PassivesScan](https://github.com/0e0w/PassivesScan) 《被动扫描资源汇总》被动扫描一般是根据代理的流量中特定参数进行简单粗暴的发起请求。有些漏洞通过主动扫描很难发现，必须通过被动扫描实现。被动扫描结合爬虫技术往往是漏洞扫描的最优解。
+
+* [mstxq17/VunHunterTips](https://github.com/mstxq17/VunHunterTips) 漏洞挖掘技巧及其一些工具集成 。端口扫描、APP挖掘、BugbountyTips、SQL注入、SSRF、XSS、burp技巧、信息收集、信息泄露、另类漏洞挖掘、字典、常用扫描器、并发漏洞、弱口令Fuzz、文件读取、浏览器技巧、目录扫描、设备弱口令、越权相关、跳转redirect。
+  
+
 # 其他
 
 * [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
@@ -3214,3 +3227,7 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [emilk/egui](https://github.com/emilk/egui) 简单、快速且高度可移植的 Rust 即时模式 GUI 库。
 
 * [Eugeny/tabby](https://github.com/Eugeny/tabby) 一个更现代的终端
+
+# Star数变化
+
+[![关注者](https://starchart.cc/wuwenjie1992/mystars.svg)](https://starchart.cc/wuwenjie1992/mystars)
