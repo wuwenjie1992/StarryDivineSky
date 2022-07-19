@@ -426,6 +426,8 @@
 
 * [nebuly-ai/nebullvm](https://github.com/nebuly-ai/nebullvm) 易于使用的库，可利用最先进的优化技术促进 AI 推理。利用多种优化技术（深度学习编译器、量化、稀疏性、蒸馏等），以确定在特定硬件上执行 AI 模型的最佳方式。可以在不损失性能的情况下将您的模型加速 2 到 10 倍，如果为超低延迟和更轻的模型牺牲准确度/精度，则可加速至 30 倍.
 
+* [baifanxxx/awesome-active-learning](https://github.com/baifanxxx/awesome-active-learning) 很棒的主动学习精选列表。主动学习是机器学习的一种特殊情况，它可以与专家进行交互（或其他信息源），再使用输出的新样本进行学习。
+
 # 图神经网络GNN
 
 ## 图机器学习库
@@ -810,6 +812,12 @@
 
 * [ELS-RD/transformer-deploy](https://github.com/ELS-RD/transformer-deploy) Hugging Face Transformer 亚毫秒推理和部署到生产环境
 
+* [lucidrains/x-transformers](https://github.com/lucidrains/x-transformers) 一个简单但完整的全注意力转换器，具有来自各种论文的一组有希望的实验特征 Full encoder / decoder 、Decoder-only (GPT-like) 、Encoder-only (BERT-like) 、Image -> caption 。
+
+* [lucidrains/FLASH-pytorch](https://github.com/lucidrains/FLASH-pytorch) 线性时间的Transformer变体
+
+* [https://github.com/NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer) Transformer相关优化，包括BERT、GPT 。提供了一个脚本和配方来运行高度优化的基于转换器的编码器和解码器组件，它由 NVIDIA 测试和维护。可以带来性能加速。
+
 ## BERT优化
 
 * [google-research/bert](https://github.com/google-research/bert) Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
@@ -858,6 +866,8 @@
 * [ShannonAI/ChineseBert](https://github.com/ShannonAI/ChineseBert) 融合字形与拼音信息的中文Bert预训练模型
 
 * [alibaba/AliceMind/LatticeBERT](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models 利用多粒度的词格信息（word lattice），相对字级别的模型取得了性能提升。
+
+* [Langboat/Mengzi: Mengzi Pretrained Models](https://github.com/Langboat/Mengzi) 孟子预训练模型 轻量级但更强大，同时对部署和工业落地更友好的模型。
 
 ## 预训练模型
 
@@ -1161,6 +1171,8 @@
 
 * [powerycy/DeepKg: Knowledge Graph](https://github.com/powerycy/DeepKg) 知识图谱的构建 实体识别\语义标准化\向量召回
 
+* [zjunlp/deepke](https://github.com/zjunlp/deepke) 基于深度学习的开源中文知识图谱抽取框架，支持cnSchema、低资源、长篇章、多模态的知识抽取工具，可以基于PyTorch实现命名实体识别、关系抽取和属性抽取功能。
+
 ## NLP语料和数据集
 
 * https://github.com/thu-coai/CrossWOZ 大规模的中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
@@ -1383,6 +1395,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [hooman650/SupCL-Seq](https://github.com/hooman650/SupCL-Seq) 下游优化序列表示的监督对比学习
 
 [openai/grade-school-math](https://github.com/openai/grade-school-math) 包含 8.5K 高质量语言多样化小学数学单词问题的数据集。对于每个测试问题，我们提供从 6B 微调、6B 验证、175B 微调和 175B 验证生成的解决方案。
+
+[makcedward/nlpaug](https://github.com/makcedward/nlpaug) NLP 的数据增强
 
 # 推荐系统
 
@@ -2366,6 +2380,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [HRNet/HRFormer](https://github.com/HRNet/HRFormer) 高分辨率变换器（HRFormer），它学习用于密集预测任务的高分辨率表示，而原始的视觉变换器产生低分辨率表示并且具有高内存和计算成本。
 
+[Sense-X/UniFormer](https://github.com/Sense-X/UniFormer) 统一卷积和自注意的视觉识别统一变压器，实现高效的时空表示学习 可用于： 图像分类、 视频分类、 物体检测、 语义分割、 姿势估计
+
 ## 其他_机器视觉
 
 [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
@@ -2768,7 +2784,9 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [eloquentarduino/EloquentTinyML](https://github.com/eloquentarduino/EloquentTinyML/) 用于微控制器的Tensorflow Lite的Eloquent接口，可在arduino上进行机器学习计算推理。
 
-* [GitHub - ultraembedded/cores: Various HDL (Verilog) IP Cores](https://github.com/ultraembedded/cores) 各种 HDL (Verilog) IP 核 sram FIFO 接口 I2S USB 
+* [ultraembedded/cores: Various HDL (Verilog) IP Cores](https://github.com/ultraembedded/cores) 各种 HDL (Verilog) IP 核 sram FIFO 接口 I2S USB 
+
+* [pebri86/esplay_micro_hardware](https://github.com/pebri86/esplay_micro_hardware) esplay硬件微版，基于ESP32的游戏机
 
 # 网络
 
@@ -3062,7 +3080,6 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [0e0w/PassivesScan](https://github.com/0e0w/PassivesScan) 《被动扫描资源汇总》被动扫描一般是根据代理的流量中特定参数进行简单粗暴的发起请求。有些漏洞通过主动扫描很难发现，必须通过被动扫描实现。被动扫描结合爬虫技术往往是漏洞扫描的最优解。
 
 * [mstxq17/VunHunterTips](https://github.com/mstxq17/VunHunterTips) 漏洞挖掘技巧及其一些工具集成 。端口扫描、APP挖掘、BugbountyTips、SQL注入、SSRF、XSS、burp技巧、信息收集、信息泄露、另类漏洞挖掘、字典、常用扫描器、并发漏洞、弱口令Fuzz、文件读取、浏览器技巧、目录扫描、设备弱口令、越权相关、跳转redirect。
-  
 
 # 其他
 
