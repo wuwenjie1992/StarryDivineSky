@@ -256,6 +256,8 @@
 
 * [manigalati/usad](https://github.com/manigalati/usad) 多变量时间序列的无监督异常检测
 
+* [awslabs/realtime-fraud-detection-with-gnn-on-dgl](https://github.com/awslabs/realtime-fraud-detection-with-gnn-on-dgl) 实时欺诈检测（利用图形数据库 Amazon Neptune）的端到端解决方案，使用 Amazon SageMaker 和DGL从表格数据构建异构图形并训练GNN模型来检测IEEE-CIS 数据集中的欺诈交易。
+
 ## 参数优化
 
 * [hyperopt/hyperopt](https://github.com/hyperopt/hyperopt) 分布式超参数优化
@@ -951,6 +953,8 @@
 
 * [YerevaNN/warp](https://github.com/YerevaNN/warp) ACL'2021 论文 WARP Cyclone Word-level Adversarial ReProgramming 的代码。 在 SuperGLUE 少样本文本分类上优于“GPT-3”。提出了一种基于对抗性重编程的替代方法，它是自动扩展提示模板生成的早期工作。而且参数量少了好多个数量级。
 
+* [whatissimondoing/CoG-BART](https://github.com/whatissimondoing/CoG-BART) 对比度和生成使 BART 成为一个很好的对话情感识别器
+
 ## 文本摘要 文本生成
 
 * [abisee/pointer-generator](https://github.com/abisee/pointer-generator) 使用指针生成器网络进行汇总
@@ -1018,6 +1022,12 @@
 * [fastnlp/CPT](https://github.com/fastnlp/CPT) 中文预训练非平衡转换器 (CPT) ，它是一种非平衡 Transformer 编码器-解码器，联合 MLM 和 DAE 进行预训练。用于汉语理解和生成的预训练.
 
 * [RowitZou/topic-dialog-summ](https://github.com/RowitZou/topic-dialog-summ) 具有显着性感知主题建模的客户服务的面向主题的口语对话摘要。数据集是从阿里巴巴客户服务中心收集的。所有对话都是在客户和服务代理之间进行的普通话来电。脱敏数据可在 [Google Drive](https://drive.google.com/file/d/1X3-C9vTYfk43T5NIEvRsdRIJkN1RuG7b/view?usp=sharing)或[百度盘](https://pan.baidu.com/s/1AvkGnerKpQHUNbwkz9kO7A)（提取码：t6nx）上获得。
+
+* [maszhongming/MatchSum](https://github.com/maszhongming/MatchSum)  背景: 传统抽取式摘要模型都是基于句子级提取的，即未考虑句子间关系，对所有句子逐个打分，取topN的句子为摘要。主要贡献:考虑句子间的关系，通过候选句间的组合句来抽取摘要;基于摘要与原文档在语义上应该有较大匹配度的考量，本文提出了基于候选句间的组合句与原文档的相似度来判断文档摘要的模型.对六个摘要提取数据集进行分析，验证了句子级得分高的摘要并不是摘要级得分最高的。如果仅以句子级，容易产生pearl-summary, 即虽然句子得分较低，但其实是较好的摘要，作者称为沧海遗珠。
+
+* [nlpyang/PreSumm](https://github.com/nlpyang/PreSumm) 基于BERT的文档级编码器，该编码器能够表达文档的语义，并获得文档的句子表示。并分别提出了抽取式和生成式的摘要模型。
+
+* [nlpyang/BertSum](https://github.com/nlpyang/BertSum) BERT的简单变体 用于抽取式文本摘要，主要是选择性抽取文本中的句子作为最后的摘要。这个任务最大的问题是如何获得每个句子向量，然后把向量用于二分类，判断去留。而 BERT 原模型只能生成单句的句子向量，或者句子对的。（1）将文档中每句话前加 [CLS] 后加 [SEP]，然后输入 BERT，而每个 [CLS] 对应的位置就是每句的句向量。（2）为了进一步增加句之间的互动，在 BERT 之上加了一层 Transformer 的 Summarization Layer，只输入每个 [CLS] 的向量，最后输出预测当前句是否保留，finetune。
 
 ## 文本匹配 文本相似度
 
@@ -1175,15 +1185,15 @@
 
 ## NLP语料和数据集
 
-* https://github.com/thu-coai/CrossWOZ 大规模的中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
+* [thu-coai/CrossWOZ](https://github.com/thu-coai/CrossWOZ) 大规模的中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
 
 * https://github.com/goto456/stopwords 中文常用停用词表
 
-* https://github.com/chatopera/Synonyms 用于自然语言处理和理解的中文同义词。
+* [chatopera/Synonyms](https://github.com/chatopera/Synonyms) 用于自然语言处理和理解的中文同义词。
 
 * https://github.com/RUCAIBox/TG-ReDial 一个电影领域的对话推荐数据集TG-ReDial (Recommendation through Topic-Guided Dialog)。它包含1万个完整的对话和近13万条语句，加入了话题线索以实现将用户引导至推荐场景这一语义的自然转移，并且采用半自动的方式构建，保留了用户真实的个性化信息（如交互历史，偏好主题），使得人工标注过程更加合理可控。
 
-* https://github.com/fighting41love/funNLP NLP民工的乐园: 几乎最全的中文NLP资源库 中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱
+* [fighting41love/funNLP](https://github.com/fighting41love/funNLP) NLP民工的乐园: 中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱
 
 * https://github.com/brightmart/nlp_chinese_corpus 大规模中文自然语言处理语料 维基百科json版(wiki2019zh) 新闻语料json版(news2016zh) 百科类问答json版(baike2018qa) 社区问答json版(webtext2019zh) ：大规模高质量数据集 翻译语料(translation2019zh)
 
@@ -1197,13 +1207,13 @@
 
 * [liucongg/NLPDataSet](https://github.com/liucongg/NLPDataSet) 数据集包括：DRCD、cmrc2018、chinese-squad、中医数据集、法研杯2019、莱斯杯机器阅读理解、疫情QA、WebQA、Dureader等9个数据集。
 
-* https://github.com/thunlp/Few-NERD 一个大规模的人工标注的用于少样本命名实体识别任务的数据集。该数据集包含8种粗粒度和66种细粒度实体类型，每个实体标签均为粗粒度+细粒度的层级结构，共有18万维基百科句子，460万个词，每个词都被注释为上下文（context）或一个实体类型的一部分。
+* [thunlp/Few-NERD](https://github.com/thunlp/Few-NERD) 一个大规模的人工标注的用于少样本命名实体识别任务的数据集。该数据集包含8种粗粒度和66种细粒度实体类型，每个实体标签均为粗粒度+细粒度的层级结构，共有18万维基百科句子，460万个词，每个词都被注释为上下文（context）或一个实体类型的一部分。
 
-* https://github.com/CLUEbenchmark/CLUECorpus2020 通过对[Common Crawl](http://commoncrawl.org)的中文部分进行语料清洗，最终得到100GB的高质量中文预训练语料。实验产出的模型见：[高质量中文预训练模型，大号、超小和相似度预训练模型。](https://github.com/CLUEbenchmark/CLUEPretrainedModels)
+* [CLUEbenchmark/CLUECorpus2020](https://github.com/CLUEbenchmark/CLUECorpus2020) 通过对[Common Crawl](http://commoncrawl.org)的中文部分进行语料清洗，最终得到100GB的高质量中文预训练语料。实验产出的模型见：[高质量中文预训练模型，大号、超小和相似度预训练模型。](https://github.com/CLUEbenchmark/CLUEPretrainedModels)
 
 * [festvox/datasets-CMU_DoG](https://github.com/festvox/datasets-CMU_DoG) CMU 文档基础对话数据集 该数据集包含 4112 个对话，每个对话平均 21.43 轮。这使该数据集不仅可以在生成响应的同时提供相关的聊天历史记录，还可以提供模型可以使用的信息源。
 
-* [https://github.com/doc2dial/sharedtask-dialdoc2021](https://github.com/doc2dial/sharedtask-dialdoc2021) doc2dial是IBM发布的基于文档的对话数据集，包含两个任务：1）从文档中检索和问题相关的句子(information-seeking)；2）基于上一步结果生成合理答复(response generation) 数据集共有4个不同领域的480篇文档，4800个多轮对话，每个对话平均有14次交互。
+* [doc2dial/sharedtask-dialdoc2021](https://github.com/doc2dial/sharedtask-dialdoc2021) doc2dial是IBM发布的基于文档的对话数据集，包含两个任务：1）从文档中检索和问题相关的句子(information-seeking)；2）基于上一步结果生成合理答复(response generation) 数据集共有4个不同领域的480篇文档，4800个多轮对话，每个对话平均有14次交互。
 
 * [chin-gyou/MovieChats](https://github.com/chin-gyou/MovieChats) MovieChats：在封闭域中像人类一样聊天，电影内容的聊天对话数据集
 
@@ -1211,7 +1221,7 @@
 
 * [krystalan/SGSum](https://github.com/krystalan/SGSum) 一个面向体育赛事摘要的人工标注数据集
 
-* [https://github.com/IceFlameWorm/NLP_Datasets](https://github.com/IceFlameWorm/NLP_Datasets)  中文NLP数据集，ATEC语义相似度学习赛数据集、CCKS 2018 微众银行智能客服问句匹配大赛数据集、ATEC + CCKS 2018 组合数据集（互金客服场景）、哈工大BQ_corpus数据集（语义相似度）、哈工大LCQMC数据集（语义相似度）。
+* [IceFlameWorm/NLP_Datasets](https://github.com/IceFlameWorm/NLP_Datasets)  中文NLP数据集，ATEC语义相似度学习赛数据集、CCKS 2018 微众银行智能客服问句匹配大赛数据集、ATEC + CCKS 2018 组合数据集（互金客服场景）、哈工大BQ_corpus数据集（语义相似度）、哈工大LCQMC数据集（语义相似度）。
 
 * [nlpcc2018](http://tcci.ccf.org.cn/conference/2018/taskdata.php) 选择task7 Open Domain Question Answering，即可下载数据集。数据集包含知识图谱和问答数据
 
@@ -1223,9 +1233,14 @@
 
 * [rkadlec/ubuntu-ranking-dataset-creator](https://github.com/rkadlec/ubuntu-ranking-dataset-creator) 从 Ubuntu 语料库对话框中为排名任务创建训练、有效和测试数据集的脚本。
 
-* [https://github.com/codemayq/chinese_chatbot_corpus](https://github.com/codemayq/chinese_chatbot_corpus) 该库是对目前市面上已有的开源中文聊天语料的搜集和系统化整理工作。包含chatterbot、豆瓣多轮、PTT八卦语料、青云语料、电视剧对白语料、贴吧论坛回帖语料、微博语料、小黄鸡语料，共8个公开闲聊常用语料和短信，白鹭时代问答等语料。
+* [codemayq/chinese_chatbot_corpus](https://github.com/codemayq/chinese_chatbot_corpus) 该库是对目前市面上已有的开源中文聊天语料的搜集和系统化整理工作。包含chatterbot、豆瓣多轮、PTT八卦语料、青云语料、电视剧对白语料、贴吧论坛回帖语料、微博语料、小黄鸡语料，共8个公开闲聊常用语料和短信，白鹭时代问答等语料。
 
-* [https://github.com/NiuTrans/Classical-Modern](https://github.com/NiuTrans/Classical-Modern) 非常全的文言文（古文）-现代文平行语料
+* [NiuTrans/Classical-Modern](https://github.com/NiuTrans/Classical-Modern) 非常全的文言文（古文）-现代文平行语料
+
+* [CLUEbenchmark/SimCLUE](https://github.com/CLUEbenchmark/SimCLUE) 大规模语义理解与匹配数据集。可用于无监督对比学习、半监督学习等构建中文领域效果最好的预训练模型。可用于语义理解、语义相似度、召回与排序等检索场景等。整合了以上9个数据集：哈工大 LCQMC 数据集、AFQMC 蚂蚁金融语义相似度数据集、OPPO 小布对话文本语义匹配数据集、北大中文文本复述数据集 PKU-Paraphrase-Bank、Chinese-STS-B 数据集、Chinese-MNLI 自然语言推理数据集、Chinese-SNLI 自然语言推理数据集、
+  OCNLI 中文原版自然语言推理数据集、CINLID 中文成语语义推理数据集
+
+* [GuocaiL/nlp_corpus](https://github.com/GuocaiL/nlp_corpus)  open_ner_data网上开放的ner数据集、boson数据集、clue细粒度实体识别数据集、微软实体识别数据集、人民网实体识别数据集（98年）、中药说明书实体识别数据集（“万创杯”中医药天池大数据竞赛）、视频_音乐_图书数据集、微博数据集
 
 ## 关系抽取、信息抽取
 
@@ -1259,6 +1274,8 @@
 
 * [dair-iitd/OpenIE-standalone](https://github.com/dair-iitd/OpenIE-standalone) 华盛顿大学 (UW) 和德里印度理工学院 (IIT 德里) 的主要开放信息提取 (Open IE) 系统。一个开放的系统提取文本中的关系。
 
+* [zjunlp/KnowPrompt](https://github.com/zjunlp/KnowPrompt) 把关系标签之间的知识整合到关系提取的prompt-tuning中，并提出了一种使用协同优化的Knowledge-aware Prompt-tuning方法。
+
 ## 实体识别NER、意图识别、槽位填充
 
 * LeeSureman/Flat-Lattice-Transformer 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
@@ -1284,6 +1301,10 @@
 * [ShannonAI/mrc-for-flat-nested-ner](https://github.com/ShannonAI/mrc-for-flat-nested-ner) 命名实体识别的统一 MRC 框架
 
 * [AdvPicker](https://github.com/microsoft/vert-papers/tree/master/papers/AdvPicker) 通过对抗性判别器有效利用未标记数据进行跨语言 NER
+
+* [jiesutd/LatticeLSTM](https://github.com/jiesutd/LatticeLSTM) 使用 Lattice LSTM 的中文 NER。ACL 2018 论文的代码。
+
+* [Lynten/stanford-corenlp](https://github.com/Lynten/stanford-corenlp) 为文本处理任务提供了一个简单的 API，例如标记化、部分语音标记、命名实体识别、选区解析、依赖解析等。
 
 ## 其他_NLP自然语言处理
 
@@ -1397,6 +1418,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [openai/grade-school-math](https://github.com/openai/grade-school-math) 包含 8.5K 高质量语言多样化小学数学单词问题的数据集。对于每个测试问题，我们提供从 6B 微调、6B 验证、175B 微调和 175B 验证生成的解决方案。
 
 [makcedward/nlpaug](https://github.com/makcedward/nlpaug) NLP 的数据增强
+
+[hankcs/pyhanlp](https://github.com/hankcs/pyhanlp) 中文分词、依存句法分析
 
 # 推荐系统
 
@@ -1667,7 +1690,17 @@ goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。通过考虑与宏�
 
 [jrothschild33/learn_backtrader: ](https://github.com/jrothschild33/learn_backtrader) BackTrader中文教程笔记，系统性介绍Bactrader的特性、策略构建、数据结构、回测交易等，彻底掌握量化神器的使用方法。章节：介绍篇、数据篇、指标篇、交易篇、策略篇、可视化篇…
 
+[AI4Finance-Foundation/FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta) 数据驱动金融强化学习的市场环境和基准
+
+[AI4Finance-Foundation/FinRL-Live-Trading](https://github.com/AI4Finance-Foundation/FinRL-Live-Trading) 自动股票交易的深度强化学习：一种集成策略。ICAIF 2020。
+
+[AI4Finance-Foundation/DQN-DDPG_Stock_Trading](https://github.com/AI4Finance-Foundation/DQN-DDPG_Stock_Trading) 使用 DQN/DDPG 进行股票交易。Xiong, Z.、Liu, XY、Zhong, S.、Yang, H. 和 Walid, A.，2018 年。股票交易的实用深度强化学习方法，NeurIPS 2018 AI in Finance Workshop。
+
+[AI4Finance-Foundation/FinRL_Podracer](https://github.com/AI4Finance-Foundation/FinRL_Podracer) 一个优雅（轻量级、高效且稳定）的 FinRL 库，允许研究人员和量化交易者轻松开发算法策略。
+
 ## 时间序列
+
+[alan-turing-institute/sktime](https://github.com/alan-turing-institute/sktime) 时间序列的机器学习统一框架 。包括时间序列分类、回归、聚类、注释和预测。
 
 jdb78/pytorch-forecasting pytorch的时间系列预测库，模型包括：RecurrentNetwork、DecoderMLP、NBeats 、DeepAR 、TemporalFusionTransformer。
 
@@ -2004,6 +2037,10 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 * [deepmodeling/Uni-Fold](https://github.com/deepmodeling/Uni-Fold) Uni-Fold：训练您自己的深度蛋白质折叠模型。
 
+* [bigbio/py-pgatk](https://github.com/bigbio/py-pgatk/) 蛋白质组学分析工具包的 Python 工具。蛋白质组学是生物学研究的一个领域，它利用蛋白质组学、基因组学和转录组学的组合来帮助发现和识别/量化肽和蛋白质。蛋白质组学用于通过将 MS/MS 光谱与源自基因组和转录组学信息的蛋白质数据库进行比较来识别新肽。
+
+* [zjunlp/OntoProtein](https://github.com/zjunlp/OntoProtein) OntoProtein 是一种将 GO（Gene Ontology）中的结构用于文本增强的蛋白质预训练模型的有效方法。一种知识增强的蛋白质语言模型，它共同优化了 KE 和 MLM 目标，为广泛的蛋白质任务带来了出色的改进。并且我们引入了**ProteinKG25**，一个新的大规模KG数据集，促进了蛋白质语言预训练的研究。支持ss3, ss8( 3-class and 8-class protein secondary structure 3类和8类蛋白质二级结构), contact, remote_homology, fluorescence 荧光, stability 稳定等下游任务。
+
 ## 药物发现
 
 * DeepGraphLearning/torchdrug 药物发现强大而灵活的机器学习平台
@@ -2115,6 +2152,8 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 * [divelab/MoleculeX](https://github.com/divelab/MoleculeX) 用于分子探索的全新且快速发展的机器学习方法和软件工具。MoleculeX 的最终目标是实现各种基本和复杂的分子建模任务，例如分子性质预测、3D 几何建模等。目前，包括一套机器学习方法，用于基态 3D 分子几何预测和分子属性预测。具体来说，BasicProp包括基于图神经网络的基本监督学习方法，用于分子特性预测。BasicProp适用于有大量标记样本可用的任务，因此只需要监督学习。BasicProp已用于参与2021年OGB-LSC是获胜者之一。当只有少量标记样本可用时，AdvProp包括用于分子特性预测的机器学习方法，因此需要自我监督学习来实现理想的性能。此外，AdvProp能够处理来自不同类别的样本高度不平衡的任务。在这些情况下，我们采用先进的损失函数来优化曲线下的各个区域 (AUC)。AdvProp已被用于参与COVID-19 的 AI 治愈公开挑战赛排名第一。此外，Molecule3D提供了一套软件工具来处理我们提出的 Molecule3D 数据集，这是一种专门为基态 3D 分子几何预测而设计的新型数据集。它还包括几种几何预测的基线方法，以及使用预测的 3D 几何作为输入的量子特性预测方法。目前，MoleculeX 的 pip 包只包含 Molecule3D 模块的代码。我们将在未来逐步包含其他模块。
 
 * [divelab/MoleculeX](https://github.com/divelab/MoleculeX) 用于分子探索的全新且快速发展的机器学习方法和软件工具。MoleculeX 的最终目标是实现各种基本和复杂的分子建模任务，例如分子性质预测、3D 几何建模等。目前，包括一套机器学习方法，用于基态 3D 分子几何预测和分子属性预测。具体来说，BasicProp包括基于图神经网络的基本监督学习方法，用于分子特性预测。BasicProp适用于有大量标记样本可用的任务，因此只需要监督学习。BasicProp已用于参与2021年OGB-LSC是获胜者之一。当只有少量标记样本可用时，AdvProp包括用于分子特性预测的机器学习方法，因此需要自我监督学习来实现理想的性能。此外，AdvProp能够处理来自不同类别的样本高度不平衡的任务。在这些情况下，我们采用先进的损失函数来优化曲线下的各个区域 (AUC)。AdvProp已被用于参与COVID-19 的 AI 治愈公开挑战赛排名第一。此外，Molecule3D提供了一套软件工具来处理我们提出的 Molecule3D 数据集，这是一种专门为基态 3D 分子几何预测而设计的新型数据集。它还包括几种几何预测的基线方法，以及使用预测的 3D 几何作为输入的量子特性预测方法。目前，MoleculeX 的 pip 包只包含 Molecule3D 模块的代码。我们将在未来逐步包含其他模块。
+
+* [PattanaikL/GeoMol](https://github.com/PattanaikL/GeoMol) 直接从分子图生成 3D 构象集合的方法
 
 ## 抗菌肽
 
@@ -2233,6 +2272,8 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 [XuhanLiu/DrugEx](https://github.com/XuhanLiu/DrugEx) 多药理学中基于帕累托的多目标优化药物设计深度学习工具包。由于可用于寻找可行的类药物分子的类药物化学空间大，合理的药物设计通常从添加或修饰侧链/取代基的特定支架开始。随着深度学习在药物发现中应用的快速增长，已经开发出多种有效的方法来进行从头药物设计。提出了DrugEx 的方法，该方法可以应用于基于多目标深度强化学习的多药理学。为了提高普遍适用性， DrugEx 以设计基于支架的药物分子，支架由用户提供的多个片段组成。在这项工作中，Transformer 用于生成分子结构。Transformer 包含一个接收支架作为输入的编码器和一个生成分子作为输出的解码器。为了处理分子的图形表示，我们提出了一种基于邻接矩阵的每个原子和键的新位置编码，以扩展 Transformer 的架构。每个分子都是通过生长和连接给定支架中的片段的程序生成的，这些片段被统一到一个模型中。此外，我们在强化学习框架下训练了这个生成器，以增加所需配体的数量。
 
 [kipoi/models](https://github.com/kipoi/models) 基因组学的预测模型，并用作Kipoi的模型源。Kipoi（发音：kípi；来自希腊语 κήποι：gardens）是一个API和用于基因组学的即用型训练模型的存储库。它目前包含 2201 个不同的模型，涵盖转录和转录后基因调控中的规范预测任务。例如预测称为转录因子的蛋白质如何与DNA结合，或者酶可能在何处拼接遗传密码。
+
+[LiuJJ0327/CCPE](https://github.com/LiuJJ0327/CCPE) scRNA-seq 数据的细胞周期假体估计。细胞周期（cell cycle）是指细胞从一次分裂完成开始到下一次分裂结束所经历的全过程，分为间期与分裂期两个阶段。
 
 # 机器视觉
 
@@ -2558,6 +2599,14 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [Tencent/Lichee](https://github.com/Tencent/Lichee)  一个多模态内容理解算法框架，其中包含数据处理、预训练模型、常见模型以及模型加速等模块。
 
+[saic-mdal/lama](https://github.com/saic-mdal/lama) LaMa 图像修复，具有傅里叶卷积的分辨率稳健的大型蒙版修复
+
+[microsoft/VideoX](https://github.com/microsoft/VideoX/) 跨模态视频内容理解
+
+[fnzhan/MISE](https://github.com/fnzhan/MISE) 多模态图像合成和编辑：调查
+
+[NVlabs/instant-ngp](https://github.com/NVlabs/instant-ngp) 即时神经图形基元：闪电般快速的 NeRF 等 。Neural Radiance Fields(神经辐射场)，是一项利用多目图像重建三维场景的技术。
+
 # 虚拟化
 
 jesseduffield/lazydocker docker 简单终端 UI
@@ -2683,6 +2732,8 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 [github/gh-ost](https://github.com/github/gh-ost) MySQL 的无触发在线模式迁移解决方案。它是可测试的，并提供可暂停性、动态控制/重新配置、审计和许多操作特权。
 
 [openark/orchestrator](https://github.com/openark/orchestrator) MySQL 复制拓扑管理和 HA
+
+[alchemystar/Freedom](https://github.com/alchemystar/Freedom) 自己DIY一个具有ACID的数据库
 
 # 硬件
 
@@ -3080,6 +3131,12 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [0e0w/PassivesScan](https://github.com/0e0w/PassivesScan) 《被动扫描资源汇总》被动扫描一般是根据代理的流量中特定参数进行简单粗暴的发起请求。有些漏洞通过主动扫描很难发现，必须通过被动扫描实现。被动扫描结合爬虫技术往往是漏洞扫描的最优解。
 
 * [mstxq17/VunHunterTips](https://github.com/mstxq17/VunHunterTips) 漏洞挖掘技巧及其一些工具集成 。端口扫描、APP挖掘、BugbountyTips、SQL注入、SSRF、XSS、burp技巧、信息收集、信息泄露、另类漏洞挖掘、字典、常用扫描器、并发漏洞、弱口令Fuzz、文件读取、浏览器技巧、目录扫描、设备弱口令、越权相关、跳转redirect。
+
+* [dionach/CMSmap](https://github.com/Dionach/CMSmap) 开源 CMS 扫描程序，它可以自动检测最流行的 CMS 的安全漏洞。支持的 CMS 有 WordPress、Joomla、Drupal 和 Moodle。
+
+* [ajinabraham/CMSScan](https://github.com/ajinabraham/CMSScan) CMS 扫描仪：扫描 Wordpress、Drupal、Joomla、vBulletin 网站以查找安全问题
+
+* [wappalyzer/wappalyzer](https://github.com/wappalyzer/wappalyzer) 识别网站上的技术。例如 CMS、Web 框架、电子商务平台、JavaScript 库、分析工具等。
 
 # 其他
 
