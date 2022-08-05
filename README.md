@@ -55,6 +55,8 @@
 
 * [PyTorchLightning/PyTorch-lightning](https://github.com/PyTorchLightning/PyTorch-lightning) 基于Pytorch的轻量高级计算框架，相当于Keras框架。
 
+* [BoltzmannEntropy/interviews.ai](https://github.com/BoltzmannEntropy/interviews.ai) 深度学习面试书：数百个完全解决的工作面试问题，来自 AI 的广泛关键主题。
+
 * [alibaba/MNN](https://github.com/alibaba/MNN) 轻量级的深度神经网络推理引擎
 
 * [Tencent/TNN](https://github.com/Tencent/TNN) 移动端高性能、轻量级推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势
@@ -299,6 +301,8 @@
 * [noah-research/BO/HEBO/CompBO](https://github.com/huawei-noah/noah-research/tree/CompBO/BO/HEBO/CompBO)  使用组合优化器进行贝叶斯优化,由华为研发、诺亚方舟实验室（伦敦）开发的贝叶斯优化代码库
 
 * [huawei-noah/HEBO](https://github.com/huawei-noah/HEBO) 华为诺亚方舟库开发的贝叶斯优化库
+
+* [thunlp/OpenDelta](https://github.com/thunlp/OpenDelta) 用于参数高效方法的工具包（增量调整），用户可以通过它灵活地分配（或添加）少量参数以进行更新，同时保持大多数参数不变。
 
 ## 梯度提升和树模型
 
@@ -955,6 +959,8 @@
 
 * [whatissimondoing/CoG-BART](https://github.com/whatissimondoing/CoG-BART) 对比度和生成使 BART 成为一个很好的对话情感识别器
 
+* [hiyouga/Dual-Contrastive-Learning](https://github.com/hiyouga/dual-contrastive-learning) 双重对比学习。 通过在同一空间内同时学习输入样本的特征和分类器的参数，为监督分类任务提出了一种新颖的对比学习框架。
+
 ## 文本摘要 文本生成
 
 * [abisee/pointer-generator](https://github.com/abisee/pointer-generator) 使用指针生成器网络进行汇总
@@ -1241,6 +1247,19 @@
   OCNLI 中文原版自然语言推理数据集、CINLID 中文成语语义推理数据集
 
 * [GuocaiL/nlp_corpus](https://github.com/GuocaiL/nlp_corpus)  open_ner_data网上开放的ner数据集、boson数据集、clue细粒度实体识别数据集、微软实体识别数据集、人民网实体识别数据集（98年）、中药说明书实体识别数据集（“万创杯”中医药天池大数据竞赛）、视频_音乐_图书数据集、微博数据集
+
+* [zejunwang1/CSTS:](https://github.com/zejunwang1/CSTS) 中文自然语言推理与语义相似度数据集 
+  
+  - 哈工大 LCQMC 数据集
+  - AFQMC 蚂蚁金融语义相似度数据集
+  - OPPO 小布对话文本语义匹配数据集
+  - 谷歌 PAWS-X 数据集
+  - 北大中文文本复述数据集 PKU-Paraphrase-Bank
+  - Chinese-STS-B 数据集
+  - Chinese-MNLI 自然语言推理数据集
+  - Chinese-SNLI 自然语言推理数据集
+  - OCNLI 中文原版自然语言推理数据集
+  - CINLID 中文成语语义推理数据集
 
 ## 关系抽取、信息抽取
 
@@ -2041,6 +2060,8 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 * [zjunlp/OntoProtein](https://github.com/zjunlp/OntoProtein) OntoProtein 是一种将 GO（Gene Ontology）中的结构用于文本增强的蛋白质预训练模型的有效方法。一种知识增强的蛋白质语言模型，它共同优化了 KE 和 MLM 目标，为广泛的蛋白质任务带来了出色的改进。并且我们引入了**ProteinKG25**，一个新的大规模KG数据集，促进了蛋白质语言预训练的研究。支持ss3, ss8( 3-class and 8-class protein secondary structure 3类和8类蛋白质二级结构), contact, remote_homology, fluorescence 荧光, stability 稳定等下游任务。
 
+* [ProteinDesignLab/protein_seq_des](https://github.com/ProteinDesignLab/protein_seq_des) 具有学习潜力的蛋白质序列设计
+
 ## 药物发现
 
 * DeepGraphLearning/torchdrug 药物发现强大而灵活的机器学习平台
@@ -2088,6 +2109,8 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 * [violet-sto/TGSA](https://github.com/violet-sto/TGSA) TGSA 的 PyTorch 实现：基于蛋白质-蛋白质关联的双图神经网络用于相似性增强的药物反应预测
 
 * [PaddleHelix/drug_target_interaction/sign](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/apps/drug_target_interaction/sign) 用于预测蛋白质-配体结合亲和力的结构感知交互式图神经网络
+
+* [pharmai/plip](https://github.com/pharmai/plip) 根据 PDB 文件分析和可视化非共价蛋白质-配体相互作用
 
 ## 分子
 
@@ -2154,6 +2177,8 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 * [divelab/MoleculeX](https://github.com/divelab/MoleculeX) 用于分子探索的全新且快速发展的机器学习方法和软件工具。MoleculeX 的最终目标是实现各种基本和复杂的分子建模任务，例如分子性质预测、3D 几何建模等。目前，包括一套机器学习方法，用于基态 3D 分子几何预测和分子属性预测。具体来说，BasicProp包括基于图神经网络的基本监督学习方法，用于分子特性预测。BasicProp适用于有大量标记样本可用的任务，因此只需要监督学习。BasicProp已用于参与2021年OGB-LSC是获胜者之一。当只有少量标记样本可用时，AdvProp包括用于分子特性预测的机器学习方法，因此需要自我监督学习来实现理想的性能。此外，AdvProp能够处理来自不同类别的样本高度不平衡的任务。在这些情况下，我们采用先进的损失函数来优化曲线下的各个区域 (AUC)。AdvProp已被用于参与COVID-19 的 AI 治愈公开挑战赛排名第一。此外，Molecule3D提供了一套软件工具来处理我们提出的 Molecule3D 数据集，这是一种专门为基态 3D 分子几何预测而设计的新型数据集。它还包括几种几何预测的基线方法，以及使用预测的 3D 几何作为输入的量子特性预测方法。目前，MoleculeX 的 pip 包只包含 Molecule3D 模块的代码。我们将在未来逐步包含其他模块。
 
 * [PattanaikL/GeoMol](https://github.com/PattanaikL/GeoMol) 直接从分子图生成 3D 构象集合的方法
+
+* [IBM/QMO](https://github.com/IBM/QMO) 基于查询的分子优化。它利用了来自分子自动编码器的潜在嵌入。QMO 在一组分子特性预测和评估指标的指导下，基于有效查询改进输入分子的所需特性。
 
 ## 抗菌肽
 
@@ -2274,6 +2299,8 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 [kipoi/models](https://github.com/kipoi/models) 基因组学的预测模型，并用作Kipoi的模型源。Kipoi（发音：kípi；来自希腊语 κήποι：gardens）是一个API和用于基因组学的即用型训练模型的存储库。它目前包含 2201 个不同的模型，涵盖转录和转录后基因调控中的规范预测任务。例如预测称为转录因子的蛋白质如何与DNA结合，或者酶可能在何处拼接遗传密码。
 
 [LiuJJ0327/CCPE](https://github.com/LiuJJ0327/CCPE) scRNA-seq 数据的细胞周期假体估计。细胞周期（cell cycle）是指细胞从一次分裂完成开始到下一次分裂结束所经历的全过程，分为间期与分裂期两个阶段。
+
+[broadinstitute/Tangram](https://github.com/broadinstitute/Tangram) 单细胞转录组数据的空间对齐。单细胞数据集和空间数据集应该从相同的解剖区域/组织类型中收集，最好是从生物复制中收集，并且需要共享一组基因。Tangram 通过在共享基因上拟合基因表达来对齐空间中的单细胞数据。
 
 # 机器视觉
 
@@ -2424,6 +2451,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 [Sense-X/UniFormer](https://github.com/Sense-X/UniFormer) 统一卷积和自注意的视觉识别统一变压器，实现高效的时空表示学习 可用于： 图像分类、 视频分类、 物体检测、 语义分割、 姿势估计
 
 ## 其他_机器视觉
+
+[taichi-dev/taichi](https://github.com/taichi-dev/taichi) 高效且可移植的 Python 高性能编程。该语言具有广泛的应用，包括实时物理模拟、数字计算、增强现实、人工智能、视觉和机器人技术、电影和游戏中的视觉效果、通用计算等等。
 
 [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
@@ -2606,6 +2635,8 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [fnzhan/MISE](https://github.com/fnzhan/MISE) 多模态图像合成和编辑：调查
 
 [NVlabs/instant-ngp](https://github.com/NVlabs/instant-ngp) 即时神经图形基元：闪电般快速的 NeRF 等 。Neural Radiance Fields(神经辐射场)，是一项利用多目图像重建三维场景的技术。
+
+[Mengzi/Mengzi-Oscar](https://github.com/Langboat/Mengzi/blob/main/Mengzi-Oscar.md) 中文多模态预训练 Mengzi-Oscar 模型 下游任务模型： 中文图像摘要. 中文图文互检.
 
 # 虚拟化
 
@@ -2844,6 +2875,10 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。    
 
 * [soimort/you-get](https://github.com/soimort/you-get) youtube下载
+
+* [iv-org/invidious](https://github.com/iv-org/invidious)  YouTube 的前端替代
+
+* [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) 全网热门 BT Tracker 列表
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
 
@@ -3138,6 +3173,18 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [wappalyzer/wappalyzer](https://github.com/wappalyzer/wappalyzer) 识别网站上的技术。例如 CMS、Web 框架、电子商务平台、JavaScript 库、分析工具等。
 
+* [HatBoy/Struts2-Scan](https://github.com/HatBoy/Struts2-Scan) Struts2全漏洞扫描利用工具 支持的漏洞如下: S2-001, S2-003, S2-005, S2-007, S2-008, S2-009, S2-012, S2-013, S2-015, S2-016, S2-019, S2-029, S2-032, S2-033, S2-037, S2-045, S2-046, S2-048, S2-052, S2-053, S2-devMode, S2-057
+
+* [rabbitmask/WeblogicScan](https://github.com/rabbitmask/WeblogicScan) Weblogic一键漏洞检测工具
+
+* [midisec/BypassAnti-Virus](https://github.com/midisec/BypassAnti-Virus) 免杀姿势学习、记录、复现。
+
+* [BeichenDream/Godzilla](https://github.com/BeichenDream/Godzilla) 内置了3种Payload以及6种加密器,6种支持脚本后缀,20个内置插件
+
+* [Chora10/Cknife](https://github.com/Chora10/Cknife) 跨平台的基于配置文件的中国菜刀(渗透测试工具)，把所有操作给予用户来定义，主程序只是图形的展示，以及数据的发送。
+
+* [epinna/weevely3](https://github.com/epinna/weevely3) 为后期开发目的而设计的 web shell，可以在运行时通过网络进行扩展。将它上传到目标服务器以获取对其的远程 shell 访问。它有 30 多个模块来协助管理任务、维护访问、提供态势感知、提升权限以及传播到目标网络。
+
 # 其他
 
 * [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
@@ -3201,6 +3248,10 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * fffaraz/awesome-cpp A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 
 * Genymobile/scrcpy 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
+
+* [xiangyuecn/Recorder](https://github.com/xiangyuecn/Recorder) html5 js 录音 mp3 wav ogg webm amr 格式，支持pc和Android、iOS部分浏览器、Hybrid App（提供Android iOS App源码）、微信
+
+* [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) 一款高度奇幻题材的开源回合制策略游戏。
 
 * openstf/minitouch 最小的Android多点触控事件生成器。
 
