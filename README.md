@@ -434,6 +434,14 @@
 
 * [baifanxxx/awesome-active-learning](https://github.com/baifanxxx/awesome-active-learning) 很棒的主动学习精选列表。主动学习是机器学习的一种特殊情况，它可以与专家进行交互（或其他信息源），再使用输出的新样本进行学习。
 
+* [GitHub - 4paradigm/OpenMLDB](https://github.com/4paradigm/OpenMLDB) 一个开源机器学习数据库，它提供了一个计算一致特征的特征平台，用于训练和推理。
+
+* [scikit-learn-contrib/MAPIE](https://github.com/scikit-learn-contrib/MAPIE) 用于估计预测间隔的 scikit-learn 兼容模块。
+
+* [4paradigm/AutoX](https://github.com/4paradigm/autox) 高效的 automl 工具，针对具有表格数据的数据挖掘任务。
+
+* [dair-ai/ml-visuals](https://github.com/dair-ai/ml-visuals) 包含图形和模板，重复使用和自定义以改进您的科学写作。
+
 # 图神经网络GNN
 
 ## 图机器学习库
@@ -571,6 +579,12 @@
 
 * [KDDCUP_2020_AutoGraph_1st_Place](https://github.com/aister2020/KDDCUP_2020_AutoGraph_1st_Place) KDDCUP 2020自动图形表示学习：第一名解决方案。实现了四种不同的模型GCN、GAT、GraphSage、TAGConv.
 
+* [JinheonBaek/GMT](https://github.com/JinheonBaek/GMT) 使用 Graph Multiset Pooling 准确学习图表示。GMT 也包含在 PyTorch Geometric 中nn.glob.GraphMultisetTransformer ，可以在其中更轻松地实现模型。贡献：
+  
+  - 将图池化问题视为多集编码问题，在此问题下，考虑具有多个注意单元的集合中节点之间的关系，以仅使用一个全局函数来紧凑地表示整个图，而无需额外的消息传递操作。
+  - 展示了现有的 GNN 与我们的参数池操作可以与 WL 测试一样强大，并且还可以轻松扩展到具有可学习集群的节点集群方法。
+  - 广泛验证了 GMT 在合成图和现实图上的图分类、重建和生成任务，在这些任务上，它在很大程度上优于大多数图池基线。
+
 ## 时空网络_交通预测_动态图
 
 * [guoshnBJTU/ASTGCN-r-pytorch](https://github.com/guoshnBJTU/ASTGCN-r-pytorch) 基于注意的时空图卷积网络，用于交通流量预测。
@@ -610,6 +624,8 @@
 * [microsoft/FOST](https://github.com/microsoft/FOST) FOST 是一个通用的预测工具，它展示了我们在实际预测领域的经验和先进技术，包括时间、时空和分层预测。当前的通用预测工具（亚马逊的Gluon-TS、facebook的Prophet等）无法处理和建模结构图数据，尤其是在空间数据中
 
 * [drop-out/Tianchi-Wifi-Positioning](https://github.com/drop-out/Tianchi-Wifi-Positioning) 天池wifi定位大赛第一名解决方案 。给定交易时的环境信息(包括GPS坐标、wifi信息(bssid/信号强度/是否连接)、用户id)，确定交易所处的商铺。
+
+* [Cantoria/dynamic-graph-papers](https://github.com/Cantoria/dynamic-graph-papers) 动态图表示学习、动态图分析论文汇总项目
 
 ## 图预训练  Pre-Training of Graph
 
@@ -696,6 +712,8 @@
 
 * [naganandy/graph-based-deep-learning-literature](https://github.com/naganandy/graph-based-deep-learning-literature) 基于图的深度学习中的会议出版物
 
+* [DGraphXinye/2022_finvcup_baseline](https://github.com/DGraphXinye/2022_finvcup_baseline) 第七届信也科技杯-欺诈用户风险识别的baseline。节点分类
+
 * [tkipf/gae](https://github.com/tkipf/gae) 图自动编码器在TensorFlow中的实现
 
 * [peter14121/intentgc-models](https://github.com/peter14121/intentgc-models) 意图gc模型.从常见的用户行为和项目信息中收集了大量的关系，并提出了一个名为IntentGC的新框架，通过图卷积网络来利用显式偏好和异构关系。
@@ -767,6 +785,8 @@
 * [Saro00/DGN](https://github.com/Saro00/DGN) 定向图网络在 PyTorch 和 DGL 中的实现
 
 * [liaopeiyuan/GAL](https://github.com/liaopeiyuan/GAL) 图神经网络的信息混淆 使用 FB15k-237 和 WN18RR 数据集进行知识图链接预测。使用 Movielens-1M 数据集进行推荐系统链接预测任务。
+
+* [zwt233/GAMLP](https://github.com/zwt233/GAMLP) 图形注意多层感知器 ,在 OGB 数据集上重现
 
 # NLP自然语言处理
 
@@ -1325,7 +1345,11 @@
 
 * [Lynten/stanford-corenlp](https://github.com/Lynten/stanford-corenlp) 为文本处理任务提供了一个简单的 API，例如标记化、部分语音标记、命名实体识别、选区解析、依赖解析等。
 
+* [thunlp/PL-Marker](https://github.com/thunlp/PL-Marker) 用于实体和关系提取的打包悬浮标记。提出了一种新的跨度表示方法，称为 Packed Levitated Markers，通过在编码器中策略性地打包标记来考虑跨度（对）之间的依赖关系。
+
 ## 其他_NLP自然语言处理
+
+[nltk/nltk](https://github.com/nltk/nltk) 支持自然语言处理研究和开发的开源 Python 模块、数据集和教程。
 
 https://github.com/huseinzol05/NLP-Models-Tensorflow 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
@@ -1439,6 +1463,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [makcedward/nlpaug](https://github.com/makcedward/nlpaug) NLP 的数据增强
 
 [hankcs/pyhanlp](https://github.com/hankcs/pyhanlp) 中文分词、依存句法分析
+
+[HillZhang1999/MuCGEC](https://github.com/HillZhang1999/MuCGEC) MuCGEC中文纠错数据集及文本纠错SOTA模型开源
 
 # 推荐系统
 
@@ -1719,6 +1745,8 @@ goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。通过考虑与宏�
 
 ## 时间序列
 
+[thuml/Autoformer](https://github.com/thuml/Autoformer) 用于长期序列预测的具有自相关性的分解变压器。Autoformer超越了Transformer系列，首次实现了串联。在六个基准上进行实验，涵盖五个主流应用程序。我们将我们的模型与十个基线进行比较，包括 Informer、N-BEATS 等。通常，对于长期预测设置，Autoformer 实现了 SOTA，相对于之前的基线有38% 的相对改进。
+
 [alan-turing-institute/sktime](https://github.com/alan-turing-institute/sktime) 时间序列的机器学习统一框架 。包括时间序列分类、回归、聚类、注释和预测。
 
 jdb78/pytorch-forecasting pytorch的时间系列预测库，模型包括：RecurrentNetwork、DecoderMLP、NBeats 、DeepAR 、TemporalFusionTransformer。
@@ -1794,6 +1822,8 @@ jsyoon0823/TimeGAN 时间序列生成对抗网络
 [timeseriesAI/tsai](https://github.com/timeseriesAI/tsai) 时间序列 Timeseries 深度学习 机器学习 Pytorch fastai | Pytorch / fastai 中用于时间序列和序列的最先进的深度学习库
 
 [Alro10/deep-learning-time-series](https://github.com/Alro10/deep-learning-time-series) 使用深度学习进行时间序列预测的论文、代码和实验列表
+
+[ElementAI/N-BEATS](https://github.com/ElementAI/N-BEATS) 基于神经网络的单变量时间序列预测模型
 
 # 强化学习 Reinforcement Learning
 
@@ -2008,6 +2038,8 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 [deezer/spleeter](https://github.com/deezer/spleeter) 人声分离模型
 
+[Windstudent/Complex-MTASSNet](https://github.com/Windstudent/Complex-MTASSNet) 多任务音源分离，两阶段模型，复杂域。
+
 [Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip) 唇语识别 唇语同步 ，用来生成准确的唇语同步视频。
 
 [facebookresearch/voxpopuli](https://github.com/facebookresearch/voxpopuli) 目前世界上最大的多语言语音数据集，涵盖了23种语言，时长超过40万小时。
@@ -2062,7 +2094,13 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 * [ProteinDesignLab/protein_seq_des](https://github.com/ProteinDesignLab/protein_seq_des) 具有学习潜力的蛋白质序列设计
 
-## 药物发现
+* [gjoni/trRosetta](https://github.com/gjoni/trRosetta) 从序列数据中预测蛋白质残基间几何形状的软件包
+
+* [gjoni/trDesign](https://github.com/gjoni/trDesign) 用于蛋白质设计的 trRosetta
+
+* [RosettaCommons/RFDesign](https://github.com/RosettaCommons/RFDesign) 使用 RoseTTAFold 实现蛋白质幻觉(AI 生成)和修复
+
+## 药物发现、药物设计
 
 * DeepGraphLearning/torchdrug 药物发现强大而灵活的机器学习平台
 
@@ -2075,6 +2113,12 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 * [maxime-langevin/scaffold-constrained-generation](https://github.com/maxime-langevin/scaffold-constrained-generation)  基于现有的 SMILES 循环神经网络模型来执行支架约束生成。支架约束生成和优化并不是一个很好研究的问题，但在处理药物发现项目时（尤其是在化合物的后期优化中），这是我们试图解决的问题。
 
 * [pyli0628/MPG](https://github.com/pyli0628/MPG) 一种有效的自我监督框架，用于学习药物发现的表达性分子全局表示
+
+* [luost26/3D-Generative-SBDD](https://github.com/luost26/3D-Generative-SBDD) 基于结构的药物设计的 3D 生成模型 (NeurIPS 2021)
+
+* [XuhanLiu/DrugEx](https://github.com/XuhanLiu/DrugEx) 多药理学中基于帕累托的多目标优化药物设计深度学习工具包。由于可用于寻找可行的类药物分子的类药物化学空间大，合理的药物设计通常从添加或修饰侧链/取代基的特定支架开始。随着深度学习在药物发现中应用的快速增长，已经开发出多种有效的方法来进行从头药物设计。提出了DrugEx 的方法，该方法可以应用于基于多目标深度强化学习的多药理学。为了提高普遍适用性， DrugEx 以设计基于支架的药物分子，支架由用户提供的多个片段组成。在这项工作中，Transformer 用于生成分子结构。Transformer 包含一个接收支架作为输入的编码器和一个生成分子作为输出的解码器。为了处理分子的图形表示，我们提出了一种基于邻接矩阵的每个原子和键的新位置编码，以扩展 Transformer 的架构。每个分子都是通过生长和连接给定支架中的片段的程序生成的，这些片段被统一到一个模型中。此外，我们在强化学习框架下训练了这个生成器，以增加所需配体的数量。
+  
+  kekegg/DLEPS 利用深度学习从基因转录数据中预测药物疗效
 
 ## 药物-靶标 药物-药物 化合物-蛋白质 相互作用
 
@@ -2111,6 +2155,8 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 * [PaddleHelix/drug_target_interaction/sign](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/apps/drug_target_interaction/sign) 用于预测蛋白质-配体结合亲和力的结构感知交互式图神经网络
 
 * [pharmai/plip](https://github.com/pharmai/plip) 根据 PDB 文件分析和可视化非共价蛋白质-配体相互作用
+
+* [Layne-Huang/EGFI](https://github.com/Layne-Huang/EGFI) 融合丰富实体和句子信息的药物-药物相互作用提取和生成
 
 ## 分子
 
@@ -2178,7 +2224,11 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 * [PattanaikL/GeoMol](https://github.com/PattanaikL/GeoMol) 直接从分子图生成 3D 构象集合的方法
 
-* [IBM/QMO](https://github.com/IBM/QMO) 基于查询的分子优化。它利用了来自分子自动编码器的潜在嵌入。QMO 在一组分子特性预测和评估指标的指导下，基于有效查询改进输入分子的所需特性。
+* [IBM/QMO](https://github.com/IBM/QMO) 基于查询的分子优化。利用来自分子自动编码器的潜在嵌入。QMO 在一组分子特性预测和评估指标的指导下，基于有效查询改进输入分子的所需特性
+
+* [grogdrinker/pyuul](https://bitbucket.org/grogdrinker/pyuul/src/master/) 旨在处理大分子的 3D 结构，例如 PDB，将它们转换为完全可微分的数据结构。
+
+* 
 
 ## 抗菌肽
 
@@ -2233,8 +2283,6 @@ ziyujia/Sleep-Stages-Classification-Papers 基于机器学习/深度学习的睡
 ziyujia/Motor-Imagery-Papers 基于机器学习/深度学习的运动想象分类论文列表
 
 BojarLab/SweetNet 图卷积神经网络分析复杂碳水化合物。
-
-kekegg/DLEPS 利用深度学习从基因转录数据中预测药物疗效
 
 jaswindersingh2/SPOT-RNA2 利用进化概况、突变耦合和二维迁移学习改进了RNA二级结构和三级碱基配对预测
 
@@ -2294,13 +2342,15 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 
 [immunogenomics/symphony](https://github.com/immunogenomics/symphony) 使用 Symphony 进行高效、精确的单细胞参考图谱映射
 
-[XuhanLiu/DrugEx](https://github.com/XuhanLiu/DrugEx) 多药理学中基于帕累托的多目标优化药物设计深度学习工具包。由于可用于寻找可行的类药物分子的类药物化学空间大，合理的药物设计通常从添加或修饰侧链/取代基的特定支架开始。随着深度学习在药物发现中应用的快速增长，已经开发出多种有效的方法来进行从头药物设计。提出了DrugEx 的方法，该方法可以应用于基于多目标深度强化学习的多药理学。为了提高普遍适用性， DrugEx 以设计基于支架的药物分子，支架由用户提供的多个片段组成。在这项工作中，Transformer 用于生成分子结构。Transformer 包含一个接收支架作为输入的编码器和一个生成分子作为输出的解码器。为了处理分子的图形表示，我们提出了一种基于邻接矩阵的每个原子和键的新位置编码，以扩展 Transformer 的架构。每个分子都是通过生长和连接给定支架中的片段的程序生成的，这些片段被统一到一个模型中。此外，我们在强化学习框架下训练了这个生成器，以增加所需配体的数量。
-
 [kipoi/models](https://github.com/kipoi/models) 基因组学的预测模型，并用作Kipoi的模型源。Kipoi（发音：kípi；来自希腊语 κήποι：gardens）是一个API和用于基因组学的即用型训练模型的存储库。它目前包含 2201 个不同的模型，涵盖转录和转录后基因调控中的规范预测任务。例如预测称为转录因子的蛋白质如何与DNA结合，或者酶可能在何处拼接遗传密码。
 
 [LiuJJ0327/CCPE](https://github.com/LiuJJ0327/CCPE) scRNA-seq 数据的细胞周期假体估计。细胞周期（cell cycle）是指细胞从一次分裂完成开始到下一次分裂结束所经历的全过程，分为间期与分裂期两个阶段。
 
 [broadinstitute/Tangram](https://github.com/broadinstitute/Tangram) 单细胞转录组数据的空间对齐。单细胞数据集和空间数据集应该从相同的解剖区域/组织类型中收集，最好是从生物复制中收集，并且需要共享一组基因。Tangram 通过在共享基因上拟合基因表达来对齐空间中的单细胞数据。
+
+[franciscozorrilla/metaGEM](https://github.com/franciscozorrilla/metaGEM) 一个易于使用的工作流程，用于生成特定于上下文的基因组规模代谢模型并直接从宏基因组数据预测微生物群落内的代谢相互作用
+
+[scverse/scvi-tools](https://github.com/scverse/scvi-tools) 单细胞组学数据的深度概率分析
 
 # 机器视觉
 
@@ -2397,6 +2447,20 @@ JiaquanYe/TableMASTER-mmocr 将表格内容识别任务分为四个子任务：�
 JiaquanYe/MASTER-mmocr 本项目是 MMOCR 对 MASTER: Multi-Aspect Non-local Network for Scene Text Recognition （场景文本识别）的重新实现。
 
 [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) 很棒的基于PaddlePaddle的多语言OCR工具包（实用的超轻量级OCR系统，支持80+语言识别，提供数据标注和合成工具，支持服务器、移动、嵌入式和物联网设备之间的训练和部署）
+
+[FudanVI/benchmarking-chinese-text-recognition](https://github.com/FudanVI/benchmarking-chinese-text-recognition) 该存储库包含用于对中文文本识别进行基准测试的数据集和基线。收集公开可用的场景数据集，包括**RCTW**、**ReCTS**、**LSVT**、**ArT**、**CTW** ，得到 636,455 个样本，这些样本被随机打乱，然后按 8:1:1 的比例划分，以构建训练、验证和测试数据集。六种具有代表性的方法作为基线:
+
+- CRNN是典型的基于 CTC 的方法，在学术界和工业界得到广泛应用。它首先将文本图像发送到 CNN 以提取图像特征，然后采用两层 LSTM 对序列特征进行编码。最后，LSTM 的输出被馈送到 CTC解码器，以最大化所有路径通往基本事实的概率。
+
+- ASTER 是典型的基于校正的方法，旨在处理不规则的文本图像。它引入了空间变换器网络 (STN)，将给定的文本图像纠正为更易于识别的外观。然后将校正后的文本图像发送到 CNN 和两层 LSTM 以提取特征。特别是，ASTER 利用注意力机制来预测最终的文本序列。
+
+- MORAN 是具有代表性的基于整流的方法。它首先采用多对象校正网络（MORN）以弱监督方式预测校正后的像素偏移（与利用 STN 的 ASTER 不同）。输出像素偏移进一步用于生成校正后的图像，该图像进一步发送到基于注意力的解码器（ASRN）进行文本识别。
+
+- SAR 利用二维特征图进行更稳健的解码。特别是，它主要是针对不规则文本提出的。一方面，SAR 在 CNN 编码器中采用更强大的残差块来学习更强的图像表示。另一方面，与 CRNN、ASTER 和 MORAN 将给定图像压缩成一维特征图不同，SAR 对特征图的空间维度采用二维注意力进行解码，从而在弯曲和斜体文字。
+
+- SEED是基于语义的方法。它引入了一个语义模块来提取全局语义嵌入并利用它来初始化解码器的第一个隐藏状态。SEED的解码器在继承ASTER结构的同时，吸收语义嵌入为识别过程提供先验，从而在识别低质量文本图像方面表现出优越性。
+
+- TransOCR 是基于 Transformer 的方法之一。它最初旨在为超分辨率任务提供文本先验。它使用 ResNet-34 作为编码器，使用自注意力模块作为解码器。与基于 RNN 的解码器不同，自注意力模块更有效地捕获给定文本图像的语义特征。
 
 ## 视频补帧
 
@@ -2637,6 +2701,10 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [NVlabs/instant-ngp](https://github.com/NVlabs/instant-ngp) 即时神经图形基元：闪电般快速的 NeRF 等 。Neural Radiance Fields(神经辐射场)，是一项利用多目图像重建三维场景的技术。
 
 [Mengzi/Mengzi-Oscar](https://github.com/Langboat/Mengzi/blob/main/Mengzi-Oscar.md) 中文多模态预训练 Mengzi-Oscar 模型 下游任务模型： 中文图像摘要. 中文图文互检.
+
+[WangWenhao0716/ISC-Track2-Submission](https://github.com/WangWenhao0716/ISC-Track2-Submission) [NeurIPS Challenge Rank 3rd] 重现 Image Similarity Challenge Track 2 结果的代码和相关文件。
+
+[facebookresearch/Motionformer](https://github.com/facebookresearch/Motionformer) 训练和测试我们提出的 Motionformer 模型。Motionformer 使用提议的*轨迹注意*在几个视频动作识别基准（例如 Kinetics-400 和Something-Something V2）上实现最先进的结果。
 
 # 虚拟化
 
