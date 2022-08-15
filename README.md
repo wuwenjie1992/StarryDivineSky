@@ -2182,6 +2182,8 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 ## 药物-靶标 药物-药物 化合物-蛋白质 相互作用
 
+* [ddinter.scbdd.com](http://ddinter.scbdd.com/) 专门针对药物-药物相互作用的综合、专业和开放存取的数据库。它为每个 DDI 关联提供了丰富的注释，包括机制描述、风险级别、管理策略、替代药物等，以改善临床决策和患者安全。
+
 * kexinhuang12345/DeepPurpose 基于PyTorch来解锁50多个用于药物-靶标相互作用（Drug-Target Interaction）预测的模型。DTI预测是新药研发中的一项基本任务。DeepPurpose的操作模式是像scikit-learn一样。只需几行代码，就可以利用最前沿的深度学习和药物研发模型。DeepPurpose还有一个简单的界面来做DTI预测的两个重要应用：虚拟筛选（Virtual Screening）和旧药新用（Drug Repurposing）。
 
 * ETHmodlab/molgrad 通过将积分梯度可解释人工智能（XAI）方法应用于图神经网络模型，提高了理性分子设计的建模透明度，并基于四个药理学相关ADME终点的实验，验证了所提出的方法能够突出与已知药效团基序一致的分子特征和结构元素，正确识别性质断崖，并提供了对非特异性配体-靶标相互作用的见解。
@@ -2411,6 +2413,10 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 [franciscozorrilla/metaGEM](https://github.com/franciscozorrilla/metaGEM) 一个易于使用的工作流程，用于生成特定于上下文的基因组规模代谢模型并直接从宏基因组数据预测微生物群落内的代谢相互作用
 
 [scverse/scvi-tools](https://github.com/scverse/scvi-tools) 单细胞组学数据的深度概率分析
+
+[www.serratus.io](https://www.serratus.io/) 一个开放科学的病毒发现平台。NCBI 序列读取存档数据库包含来自全球研究实验室十多年来收集的数百万个生物多样性样本的 DNA 和 RNA 测序数据。我们正在重新分析 NCBI 短读存档中的所有 RNA-seq、元基因组学、元转录组学和环境测序数据，以发现新病毒。即>600 万个生物样本或 >10 PB 的测序数据。
+
+[BioDynaMo/biodynamo](https://github.com/BioDynaMo/biodynamo) 生物动力学建模器 生命科学家可以通过该平台轻松创建、运行和可视化 3D 生物模拟。BioDynaMo 平台建立在最新的计算技术之上，将使用户能够执行以前无法实现的规模和复杂性的模拟，从而有可能解决具有挑战性的科学研究问题。
 
 # 机器视觉
 
@@ -2777,6 +2783,12 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [snap-research/NeROIC](https://github.com/snap-research/NeROIC) 来自在线图像集合的神经对象捕获和渲染,两阶段模型将来自不同条件的对象图像作为输入。利用其他最先进方法获取的图像的相机位姿和对象前景蒙版，我们首先通过训练基于 NeRF 的网络优化扫描对象的几何形状并细化相机位姿；然后我们使用我们的法线提取层从几何体（由密度函数表示）计算表面法线；最后，我们的第二阶段模型分解了物体的材料属性，并解决了每个图像的光照条件。
 
 [facebookresearch/ConvNeXt](https://github.com/facebookresearch/ConvNeXt) 一个完全由标准 ConvNet 模块构建的纯 ConvNet 模型。ConvNeXt 准确、高效、可扩展且设计非常简单。
+
+[declare-lab/MELD](https://github.com/declare-lab/MELD/) 用于对话中情绪识别的多模多方数据集
+
+[visualcommonsense](https://visualcommonsense.com/) 视觉常识推理 ( VCR ) 是一项用于认知级视觉理解的新任务和大规模数据集
+
+[imageclef.org](https://www.imageclef.org/) ImageCLEF 旨在为图像的跨语言注释和检索提供一个评估论坛。由于需要支持来自全球社区的多语言用户访问不断增长的视觉信息体，ImageCLEF 的主要目标是支持视觉媒体分析、索引、分类和检索领域的进步，通过开发必要的用于评估在单语、跨语言和与语言无关的上下文中运行的视觉信息检索系统的基础设施。ImageCLEF 旨在为此类基准测试提供可重用资源。包括：（视觉）信息检索、跨语言信息检索、计算机视觉和模式识别、医学信息学、人机交互等。
 
 # 虚拟化
 
