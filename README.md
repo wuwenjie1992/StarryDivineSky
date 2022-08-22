@@ -342,6 +342,8 @@
 
 * [Microstrong0305/WeChat-zhihu-csdnblog-code](https://github.com/Microstrong0305/WeChat-zhihu-csdnblog-code) Regression Tree 回归树 深入理解提升树（Boosting tree）算法 深入理解GBDT回归 GBDT二分类算法 GBDT多分类算法  XGBoost LightGBM CatBoost 深入浅出Word2Vec原理解析 Doc2vec原理解析及代码实践
 
+* [antmachineintelligence/mtgbmcode](https://github.com/antmachineintelligence/mtgbmcode) 提出了多任务梯度提升机 (MT-GBM)，这是一种基于 GBDT 的多任务学习方法。MT-GBM 可以根据多任务损失找到共享树结构和拆分分支。
+
 ## 神经网络结构搜索 Neural Architecture Search
 
 * [huawei-noah/CARS](https://github.com/huawei-noah/CARS) 华为提出基于进化算法和权值共享的神经网络结构搜索
@@ -404,9 +406,15 @@
 
 * [PKU-DAIR/Hetu](https://github.com/PKU-DAIR/Hetu) 针对大规模和自动化分布式训练的高性能分布式深度学习系统。
 
+* [alibaba/FederatedScope](https://github.com/alibaba/FederatedScope) 综合性的联邦学习平台，为学术界和工业界的各种联邦学习任务提供方便的使用和灵活的定制。FederatedScope基于事件驱动的架构，集成了丰富的功能集合，以满足联邦学习日益增长的需求，旨在构建一个易于使用的平台，以安全有效地促进学习。
+
+* [youngfish42/Awesome-Federated-Learning-on-Graph-and-Tabular-Data](https://github.com/youngfish42/Awesome-Federated-Learning-on-Graph-and-Tabular-Data) 图形和表格数据相关论文、框架和数据集的联邦学习。
+
 ## 其他_机器学习与深度学习
 
 * [vikasverma1077/manifold_mixup](https://github.com/vikasverma1077/manifold_mixup) 数据增强⽅法,Manifold Mixup 的目标是通过插入示例的隐藏状态来学习鲁棒的特征。 我们的方法学习到的表征更具判别性和紧凑性。 
+
+* [streamlit/streamlit](https://github.com/streamlit/streamlit)  用 Python 构建数据应用程序的最快方法
 
 * [huggingface/optimum](https://github.com/huggingface/optimum) 性能优化工具，可实现在目标硬件上训练和运行模型的最高效率。AI 生态系统发展迅速，越来越多的专用硬件及其自身的优化每天都在涌现。因此，Optimum 使用户能够有效地使用这些平台中的任何一个，并且与变压器固有的相同。
 
@@ -451,6 +459,8 @@
 * [4paradigm/AutoX](https://github.com/4paradigm/autox) 高效的 automl 工具，针对具有表格数据的数据挖掘任务。
 
 * [dair-ai/ml-visuals](https://github.com/dair-ai/ml-visuals) 包含图形和模板，重复使用和自定义以改进您的科学写作。
+
+* [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) 使用 SQL语法，在数据库和数据仓库启用机器学习工作流。
 
 # 图神经网络GNN
 
@@ -951,7 +961,9 @@
 
 * [airaria/TextPruner](https://github.com/airaria/TextPruner) 用于预训练语言模型的基于 PyTorch 的模型修剪工具包.它提供了**低成本**和**免训练的**方法，通过去除冗余神经元来减小模型大小并加快模型推理速度。在 TextPruner 中，共有三种剪枝模式：**词汇剪枝**、**变压器剪枝**和**管道剪枝**。
 
-* [Tencent/PatrickStar](https://github.com/Tencent/PatrickStar) 为 NLP 提供更大、更快、更环保的预训练模型，并为所有人普及人工智能。PatrickStar 的内存管理支持将模型的当前计算部分以外的所有内容卸载到 CPU 以节省 GPU。此外，在扩展到多个 GPU 时，基于块的内存管理对于集体通信非常有效。通过**异构训练**（DeepSpeed Zero Stage 3 也使用它），PatrickStar 可以充分利用 CPU 和 GPU 内存，这样您就可以使用更少的 GPU 来训练更大的模型。
+* [Tencent/PatrickStar](https://github.com/Tencent/PatrickStar) 提供更大、更快、更环保的预训练模型，并为所有人普及人工智能。PatrickStar 的内存管理支持将模型的当前计算部分以外的所有内容卸载到 CPU 以节省 GPU。此外，在扩展到多个 GPU 时，基于块的内存管理对于集体通信非常有效。通过**异构训练**（DeepSpeed Zero Stage 3 也使用它），PatrickStar 可以充分利用 CPU 和 GPU 内存，这样您就可以使用更少的 GPU 来训练更大的模型。
+
+* [ymcui/PERT](https://github.com/ymcui/PERT) 提出了一种基于乱序语言模型的预训练模型，在不引入掩码标记[MASK]的情况下自监督地学习文本语义信息。PERT在部分中英文NLU任务上获得性能提升，但也在部分任务上效果较差，请酌情使用。
 
 ## 文本分类
 
@@ -1118,6 +1130,8 @@
 * [bojone/SimCSE](https://github.com/bojone/SimCSE) SimCSE在中文任务上的简单实验
 
 * [vdogmcgee/SimCSE-Chinese-Pytorch](https://github.com/vdogmcgee/SimCSE-Chinese-Pytorch) SimCSE在中文上的复现，有监督+无监督
+
+* [GeekDream-x/SemEval2022-Task8-TonyX](https://github.com/GeekDream-x/SemEval2022-Task8-TonyX)  在 Semeval-2022 Task8 —— Multilingual News Article Similarity 中提供了我们获胜系统的实现。这是一项关于评估多语言和跨语言新闻文章相似性的竞赛，涵盖 18 个语言对。
 
 ## 机器阅读理解
 
@@ -1735,6 +1749,8 @@ https://github.com/xidongbo/AITM 自适应信息传输多任务 (AITM) 框架的
 
 [aister2020/KDDCUP_2020_Debiasing_1st_Place](https://github.com/aister2020/KDDCUP_2020_Debiasing_1st_Place) 去偏Debiasing中获得第一名。侧重于暴露的复杂性，即如何推荐过去很少暴露的项目，以对抗推荐系统中经常遇到的马太效应。特别是，在对点击数据进行训练时减少偏差对于此任务的成功至关重要。就像现代推荐系统中记录的点击数据和实际在线环境之间存在差距一样，训练数据和测试数据之间也会存在差距，主要是在趋势和项目的流行度方面。
 
+[RUCAIBox/FMLP-Rec](https://github.com/RUCAIBox/FMLP-Rec) 堆叠多个过滤器增强块以生成用于推荐的顺序用户偏好的表示。我们的方法与 SASRec 的主要区别在于用一种新颖的过滤器结构（傅里叶变换MLP）替换了 Transformer 中的多头自注意力结构。
+
 # 金融股票与时间序列
 
 ## 金融股票
@@ -2061,6 +2077,8 @@ cywang97/StreamingTransformer  流式 Transformer 关于大规模语音识别的
 hirofumi0810/neural_sp 使用 PyTorch 实现端到端的 ASR/LM
 
 thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识别提供了完整的工作流程。
+
+[zycv/awesome-keyword-spotting](https://github.com/zycv/awesome-keyword-spotting) 很棒的语音关键字发现（唤醒词检测）的精选列表。
 
 ## 语音合成
 
@@ -2924,6 +2942,8 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 [alibaba/otter](https://github.com/alibaba/otter) 阿里巴巴分布式数据库同步系统(解决中美异地机房)
 
+[m3o/m3o](https://github.com/m3o/m3o) 一个云平台，它将现有的公共 API 变成更小更易于使用的微服务，您可以在一个地方探索、发现和使用更简单的可编程构建块。该平台生成统一的 API 文档、客户端和示例，这使得使用所有 API 变得更加容易。
+
 # 硬件
 
 ## RISC-V CPU
@@ -3030,7 +3050,9 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 # 网络
 
-* [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。    
+* [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
+
+* [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别的查询效率，提供了众多主流编程语言的 xdb 数据生成和查询客户端实现。
 
 * [soimort/you-get](https://github.com/soimort/you-get) youtube下载
 
@@ -3076,15 +3098,22 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [BiglySoftware/BiglyBT](https://github.com/BiglySoftware/BiglyBT) 基于 Azureus 开源项目的功能丰富的 Bittorrent 客户端
 
+* [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot) 自动爬取Reddit帖子并合成视频工具
+
+* [zonemeen/musicn](https://github.com/zonemeen/musicn) 下载高品质音乐的命令行工具
+
 # 安全与渗透
 
 * [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行、cli/web 工具等。
 
+* [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、
+  电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
+
 * [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
 
-* [fofapro/vulfocus](https://github.com/fofapro/vulfocus) 漏洞集成平台，将漏洞环境docker镜像，放入即可使用，开箱即用。
+* [fofapro/vulfocus](https://github.com/fofapro/vulfocus) 漏洞集成平台，将漏洞环境docker镜像，开箱即用。
 
-* [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 一个简单的现代化公司域名使用规律预测及生成工具
+* [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 简单的现代化公司域名使用规律预测及生成工具
 
 * [0x727/ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) 水泽-信息收集自动化工具 只需要输入根域名即可全方位收集相关资产，并检测漏洞。
 
@@ -3092,8 +3121,7 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [wooyunwang/Fortify](https://github.com/wooyunwang/Fortify) 源代码各种审计漏洞白测试盒的漏洞描述或具体修复方案
 
-* [insightglacier/Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting) Pentesing、Fuzzing、Bruteforce 和 BugBounty 等字典收集项目。渗
-  透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
+* [insightglacier/Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting) Pentesing、Fuzzing、Bruteforce 和 BugBounty 等字典项目。渗透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
 
 * [Al1ex/Pentest-tools](https://github.com/Al1ex/Pentest-tools) 内网渗透工具:ACL突破、交换、真实劫持、信息收集、内网电话、密码喷洒、密码抓取、密码破解、权限提升、权限维持、横向移动、端口扫描、端口转发、网络嗅探、集成工具
 
@@ -3141,17 +3169,17 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [wh1t3p1g/ysomap](https://github.com/wh1t3p1g/ysomap) 一个有用的 Java 反序列化漏洞利用框架。
 
-* [whwlsfb/BurpCrypto](https://github.com/whwlsfb/BurpCrypto) AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件
+* [whwlsfb/BurpCrypto](https://github.com/whwlsfb/BurpCrypto) AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破的BurpSuite插件
 
 * [Tlaster/YourAV](https://github.com/Tlaster/YourAV) 宇宙级最轻量杀毒软件
 
 * [i11us0ry/goon](https://github.com/i11us0ry/goon) goon,集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
 
-* [ffffffff0x/f8x](https://github.com/ffffffff0x/f8x) 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等.
+* [ffffffff0x/f8x](https://github.com/ffffffff0x/f8x) 红蓝队环境自动部署工具,支持多场景,渗透,开发,代理,服务可选项等.
 
 * [SafeGroceryStore/Caesar](https://github.com/SafeGroceryStore/Caesar) 一个全新的敏感文件发现工具
 
-* [Ed1s0nZ/cool](https://github.com/Ed1s0nZ/cool) Golang-Gin框架写的免杀平台，内置分离、捆绑等多种BypassAV方式。
+* [Ed1s0nZ/cool](https://github.com/Ed1s0nZ/cool) Golang-Gin框架写的免杀平台，内置分离、捆绑等BypassAV方式。
 
 * [zyylhn/zscan](https://github.com/zyylhn/zscan) 开源的内网端口扫描器、爆破工具和其他实用工具的集合体可以称为工具包。以主机和内网网段发现和端口扫描为基础，可以对mysql、mssql、redis、mongo、postgres、ftp、ssh、ldap、rdp、smb等服务进行爆破，还有其他netbios、smb、oxid、socks server（扫描内网中的代理服务器）、snmp、ms17010等扫描功能，支持poc（xray v1格式）单个和批量检测。
 
@@ -3253,7 +3281,7 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [lijiejie/subDomainsBrute](https://github.com/lijiejie/subDomainsBrute) 高并发的DNS暴力枚举工具。 
 
-* [icyguider/Nimcrypt2](https://github.com/icyguider/Nimcrypt2) 用 Nim 编写的 .NET、PE 和原始 Shellcode 打包程序/加载程序
+* [icyguider/Nimcrypt2](https://github.com/icyguider/Nimcrypt2) Nim 编写的 .NET、PE 和原始 Shellcode 打包程序/加载程序
 
 * [SiJiDo/H](https://github.com/SiJiDo/H) 一款强大的资产收集管理平台 主要用于src信息收集和红蓝对抗资产收集用，采用python celery分布式实现多节点部署，提高效率
 
@@ -3317,7 +3345,7 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [Lazenca/Kernel-exploit-tech](https://github.com/Lazenca/Kernel-exploit-tech) Linux 内核开发教程。
 
-* [https://github.com/chroblert/WindowsVulnScan](https://github.com/chroblert/WindowsVulnScan) 基于主机的漏洞扫描工具，采用多线程确保可以快速的请求数据，采用线程锁可以在向sqlite数据库中写入数据避免database is locked的错误，采用md5哈希算法确保数据不重复插入。
+* [chroblert/WindowsVulnScan](https://github.com/chroblert/WindowsVulnScan) 基于主机的漏洞扫描工具，采用多线程确保可以快速的请求数据，采用线程锁可以在向sqlite数据库中写入数据避免database is locked的错误，采用md5哈希算法确保数据不重复插入。
 
 * [asta-mouse/Sherlock](https://github.com/rasta-mouse/Sherlock) PowerShell 脚本，快速查找权限提升漏洞的缺失补丁。
 
@@ -3346,6 +3374,12 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [Chora10/Cknife](https://github.com/Chora10/Cknife) 跨平台的基于配置文件的中国菜刀(渗透测试工具)，把所有操作给予用户来定义，主程序只是图形的展示，以及数据的发送。
 
 * [epinna/weevely3](https://github.com/epinna/weevely3) 为后期开发目的而设计的 web shell，可以在运行时通过网络进行扩展。将它上传到目标服务器以获取对其的远程 shell 访问。它有 30 多个模块来协助管理任务、维护访问、提供态势感知、提升权限以及传播到目标网络。
+
+* [https://github.com/b1ackc4t/MarsCTF](https://github.com/b1ackc4t/MarsCTF) Vue+Springboot开发的CTF学习平台，提供动态靶机、学习模块、writeup模块等等CTF平台的核心功能。提供docker版本
+
+* [xuanhun/PythonHackingBook1](https://github.com/xuanhun/PythonHackingBook1) Python黑客编程之极速入门 教程分为6个大的部分：Python编程基础 网络安全  Web应用安全 漏洞利用 逆向.
+
+* [HZzz2/go-shellcode-loader](https://github.com/HZzz2/go-shellcode-loader) GO免杀shellcode加载器混淆AES加密
 
 # 其他
 
@@ -3536,6 +3570,10 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [emilk/egui](https://github.com/emilk/egui) 简单、快速且高度可移植的 Rust 即时模式 GUI 库。
 
 * [Eugeny/tabby](https://github.com/Eugeny/tabby) 一个更现代的终端
+
+* [TastSong/CrazyCar](https://github.com/TastSong/CrazyCar) 网络联机游戏解决方案---Unity制作的联机赛车游戏，服务端为SpringBoot + Mybatis；后台为Vue + Element；游戏端采用QFramework框架，支持KCP和WebSocket网络(商用级)
+
+* [clear-code-projects/Zelda](https://github.com/clear-code-projects/Zelda) 用 Python 构建一个塞尔达风格的游戏
 
 # Star数变化
 
