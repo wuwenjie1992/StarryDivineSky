@@ -1578,118 +1578,118 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 ## 其他_推荐系统
 
-imsheridan/DeepRec 推荐、广告工业界经典以及最前沿的论文、资料集合
+https://github.com/imsheridan/DeepRec 推荐、广告工业界经典以及最前沿的论文、资料集合
 
 [laekov/fastmoe](https://github.com/laekov/fastmoe) FastMoE 是一个易用且高效的基于 PyTorch 的 MoE 模型训练系统.
 
-oywtece/dstn
+https://github.com/oywtece/dstn
 
-shenweichen/DSIN
+https://github.com/shenweichen/DSIN
 
-facebookresearch/dlrm 深度学习推荐模型（DLRM）的实现
+https://github.com/facebookresearch/dlrm 深度学习推荐模型（DLRM）的实现
 
-vze92/DMR Deep Match to Rank Model for Personalized Click-Through Rate Prediction DMR：Matching和Ranking相结合的点击率预估模型
+https://github.com/vze92/DMR Deep Match to Rank Model for Personalized Click-Through Rate Prediction DMR：Matching和Ranking相结合的点击率预估模型
 
-kang205/SASRec 源于Transformer的基于自注意力的序列推荐模型
+https://github.com/kang205/SASRec 源于Transformer的基于自注意力的序列推荐模型
 
-shichence/AutoInt 使用Multi-Head self-Attention进行自动的特征提取
+https://github.com/shichence/AutoInt 使用Multi-Head self-Attention进行自动的特征提取
 
-xiangwang1223/neural_graph_collaborative_filtering 神经图协同过滤
+https://github.com/xiangwang1223/neural_graph_collaborative_filtering 神经图协同过滤
 
-UIC-Paper/MIMN 点击率预测的长序列用户行为建模的实践
+https://github.com/UIC-Paper/MIMN 点击率预测的长序列用户行为建模的实践
 
-motefly/DeepGBM 结合了GBDT 和神经网络的优点，在有效保留在线更新能力的同时，还能充分利用类别特征和数值特征。由两大块组成，CatNN 主要侧重于利用 Embedding 技术将高维稀疏特征转为低维稠密特征，而 GBDT2NN 则利用树模型筛选出的特征作为神经网络的输入，并通过逼近树结构来进行知识蒸馏。
+https://github.com/motefly/DeepGBM 结合了GBDT 和神经网络的优点，在有效保留在线更新能力的同时，还能充分利用类别特征和数值特征。由两大块组成，CatNN 主要侧重于利用 Embedding 技术将高维稀疏特征转为低维稠密特征，而 GBDT2NN 则利用树模型筛选出的特征作为神经网络的输入，并通过逼近树结构来进行知识蒸馏。
 
-LeeeeoLiu/ESRM-KG 关键词生成的基于电商会话的推荐模型
+https://github.com/LeeeeoLiu/ESRM-KG 关键词生成的基于电商会话的推荐模型
 
-zhuchenxv/AutoFIS 自动特征交互选择的点击率预测模型
+https://github.com/zhuchenxv/AutoFIS 自动特征交互选择的点击率预测模型
 
-pangolulu/exact-k-recommendation 解决推荐中带约束的Top-K优化问题
+https://github.com/pangolulu/exact-k-recommendation 解决推荐中带约束的Top-K优化问题
 
-Scagin/NeuralLogicReasoning 神经协同推理,提出了一种新的神经逻辑推荐（NLR）框架，能够将逻辑结构和神经网络相结合，将推荐任务转化为一个逻辑推理任务。
+https://github.com/Scagin/NeuralLogicReasoning 神经协同推理,提出了一种新的神经逻辑推荐（NLR）框架，能够将逻辑结构和神经网络相结合，将推荐任务转化为一个逻辑推理任务。
 
-allenjack/HGN 用矩阵分解的形式捕捉用户的长期兴趣，同时将短期兴趣进行拆分，分为group-level以及instance-level的，通过Hierarchical Gating来处理group-level的信息,item-item的乘积来捕捉商品之间的关系。
+https://github.com/allenjack/HGN 用矩阵分解的形式捕捉用户的长期兴趣，同时将短期兴趣进行拆分，分为group-level以及instance-level的，通过Hierarchical Gating来处理group-level的信息,item-item的乘积来捕捉商品之间的关系。
 
-RUCAIBox/CIKM2020-S3Rec 自我推荐学习，用于具有互信息最大化的顺序推荐
+https://github.com/RUCAIBox/CIKM2020-S3Rec 自我推荐学习，用于具有互信息最大化的顺序推荐
 
-chenchongthu/SAMN 社交注意力记忆网络在推荐系统中的应用
+https://github.com/chenchongthu/SAMN 社交注意力记忆网络在推荐系统中的应用
 
-Lancelot39/KGSF 基于知识图谱语义融合改进会话推荐系统
+https://github.com/Lancelot39/KGSF 基于知识图谱语义融合改进会话推荐系统
 Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion
 
-DeepGraphLearning/RecommenderSystems 顺序推荐 基于维度的推荐 社交推荐
+https://github.com/DeepGraphLearning/RecommenderSystems 顺序推荐 基于维度的推荐 社交推荐
 
-FeiSun/BERT4Rec 基于BERT的顺序推荐
+https://github.com/FeiSun/BERT4Rec 基于BERT的顺序推荐
 
-ChuanyuXue/CIKM-2019-AnalytiCup 2019-CIKM挑战赛，超大规模推荐之用户兴趣高效检索赛道 冠军解决方案 ,召回阶段基于 Item CF 相似性做召回( item-item 相似性),排序阶段,最终使用了 Catboost 和 Lightgbm 建模。
+https://github.com/ChuanyuXue/CIKM-2019-AnalytiCup 2019-CIKM挑战赛，超大规模推荐之用户兴趣高效检索赛道 冠军解决方案 ,召回阶段基于 Item CF 相似性做召回( item-item 相似性),排序阶段,最终使用了 Catboost 和 Lightgbm 建模。
 
-zyli93/InterHAt 通过分层注意力预测可解释的点击率。
+https://github.com/zyli93/InterHAt 通过分层注意力预测可解释的点击率。
 
-SSE-PT/SSE-PT 基于Transformer的模型,但是和SASRec类似, 效果不错,但是缺少个性化,而且没有加入基于个性化的用户embedding。为了克服这种问题,本文提出来一种个性化的Transformer(SSE-PT),该方法相较于之前的方案提升了5%。
+https://github.com/SSE-PT/SSE-PT 基于Transformer的模型,但是和SASRec类似, 效果不错,但是缺少个性化,而且没有加入基于个性化的用户embedding。为了克服这种问题,本文提出来一种个性化的Transformer(SSE-PT),该方法相较于之前的方案提升了5%。
 
-triton-inference-server/server 面向高吞吐低延时的生产环境的框架，通过Triton做线上推理，将TensorRT作为执行后端，能够有效降低Latency，并最大化地利用GPU资源。相比于一个纯CPU的方案，两者的结合使用能够使Latency达到原先的1/18，数据吞吐量达到原先的17.6倍。
+https://github.com/triton-inference-server/server 面向高吞吐低延时的生产环境的框架，通过Triton做线上推理，将TensorRT作为执行后端，能够有效降低Latency，并最大化地利用GPU资源。相比于一个纯CPU的方案，两者的结合使用能够使Latency达到原先的1/18，数据吞吐量达到原先的17.6倍。
 
-lqfarmer/GraphTR 采用了GraphSAGE+FM+Transformer多种手段，粒度上从粗到细，交叉、聚合来自不同领域的异构消息，相比于mean/max pooling、浅层FC等传统聚合方式，极大提升了模型的表达能力
+https://github.com/lqfarmer/GraphTR 采用了GraphSAGE+FM+Transformer多种手段，粒度上从粗到细，交叉、聚合来自不同领域的异构消息，相比于mean/max pooling、浅层FC等传统聚合方式，极大提升了模型的表达能力
 
-guyulongcs/CIKM2020_DMT 将兴趣建模、多任务学习、偏置学习等几部分进行融合，提出了DMT模型（Deep Multifaceted Transformers）
+https://github.com/guyulongcs/CIKM2020_DMT 将兴趣建模、多任务学习、偏置学习等几部分进行融合，提出了DMT模型（Deep Multifaceted Transformers）
 
-hwwang55/DKN DKN，将知识图表示融入到新闻推荐中。DKN是一种基于内容的用于点击率预估的深度推荐框架。DKN的主要部分是一个多通道、单词实体对齐的知识感知卷积神经网络，KCNN，其中融入了新闻在语意层面和知识层面的表示。KCNN将单词和实体作为多通道，在卷积过程中明确保留他们之间的对齐关系。
+https://github.com/hwwang55/DKN DKN，将知识图表示融入到新闻推荐中。DKN是一种基于内容的用于点击率预估的深度推荐框架。DKN的主要部分是一个多通道、单词实体对齐的知识感知卷积神经网络，KCNN，其中融入了新闻在语意层面和知识层面的表示。KCNN将单词和实体作为多通道，在卷积过程中明确保留他们之间的对齐关系。
 
-yusanshi/NewsRecommendation NRMS NAML LSTUR DKN Hi-Fi Ark TANR
+https://github.com/yusanshi/NewsRecommendation NRMS NAML LSTUR DKN Hi-Fi Ark TANR
 
-johnny12150/GCE-GNN 提出了一种全局上下文增强(global-context enhanced)的GNN网络，称为GCE-GNN。能够从两种层次来学习物品的表征，包括global-level：从所有session构成的图上进行全局的表征；以及session-level：从单个session局部item转移图上进行局部的表征；最后融合二者，并通过注意力机制形成最终的序列表征，用于序列推荐任务。
+https://github.com/johnny12150/GCE-GNN 提出了一种全局上下文增强(global-context enhanced)的GNN网络，称为GCE-GNN。能够从两种层次来学习物品的表征，包括global-level：从所有session构成的图上进行全局的表征；以及session-level：从单个session局部item转移图上进行局部的表征；最后融合二者，并通过注意力机制形成最终的序列表征，用于序列推荐任务。
 
-BinbinJin/SD-GAR 第一篇将生成式对抗网络（GAN）框架应用于信息检索（包括推荐系统）的研究工作。在该工作中，IRGAN 训练了一个生成器和一个判别器，其中生成器用来自适应地生成合适的负样本以帮助判别器训练；而判别器则是用来判断样本是来自用户真实的反馈还是生成器生成的样本。通过两者交替式对抗性地训练达到互相提升效果的目的。
+https://github.com/BinbinJin/SD-GAR 第一篇将生成式对抗网络（GAN）框架应用于信息检索（包括推荐系统）的研究工作。在该工作中，IRGAN 训练了一个生成器和一个判别器，其中生成器用来自适应地生成合适的负样本以帮助判别器训练；而判别器则是用来判断样本是来自用户真实的反馈还是生成器生成的样本。通过两者交替式对抗性地训练达到互相提升效果的目的。
 
-twchen/lessr 将会话记录构建成图来建模商品之间的跳转关系的图神经网络
+https://github.com/twchen/lessr 将会话记录构建成图来建模商品之间的跳转关系的图神经网络
 
-NLPWM-WHU/AGNN 区分了推荐系统中的一般冷启动和严格冷启动，并提出了属性图神经网络方法有效应对严格冷启动的场景。
+https://github.com/NLPWM-WHU/AGNN 区分了推荐系统中的一般冷启动和严格冷启动，并提出了属性图神经网络方法有效应对严格冷启动的场景。
 
-CRIPAC-DIG/SR-GNN 会话序列推荐的图应用 直接将会话序列建模为图结构数据，并使用图神经网络捕获复杂的项目物品item间转换，每一个会话利用注意力机制将整体偏好与当前偏好结合进行表示。同时这种方式也就不依赖用户的表示了，完全只基于会话内部的潜在向量获得Embedding，然后预测下一个点击。
+https://github.com/CRIPAC-DIG/SR-GNN 会话序列推荐的图应用 直接将会话序列建模为图结构数据，并使用图神经网络捕获复杂的项目物品item间转换，每一个会话利用注意力机制将整体偏好与当前偏好结合进行表示。同时这种方式也就不依赖用户的表示了，完全只基于会话内部的潜在向量获得Embedding，然后预测下一个点击。
 
-uctoronto/SHAN Sequential Recommender System based on Hierarchical Attention Network 分层注意力网络SHAN用于序列推荐 。提出新颖的两层分层注意力网络，将上述特性考虑进来，用于推荐可能感兴趣的下一个商品。第一层注意力网络基于用户的历史购买商品的表示来学习用户的长期偏好，第二层通过将用户的长期和短期偏好结合起来，输出最终的用户表示。
+https://github.com/uctoronto/SHAN Sequential Recommender System based on Hierarchical Attention Network 分层注意力网络SHAN用于序列推荐 。提出新颖的两层分层注意力网络，将上述特性考虑进来，用于推荐可能感兴趣的下一个商品。第一层注意力网络基于用户的历史购买商品的表示来学习用户的长期偏好，第二层通过将用户的长期和短期偏好结合起来，输出最终的用户表示。
 
-chenghuige/mind MIND新闻推荐冠军分享细节揭秘
+https://github.com/chenghuige/mind MIND新闻推荐冠军分享细节揭秘
 
-WayneDW/DeepLight_Deep-Lightweight-Feature-Interactions 轻量级特征交互算法deeplight 大幅加速ctr预估在线服务。 一，通过在浅层结构中精确搜索信息量更大的特征交互来加速模型推理，二，在深层结构中，从层内和层间对冗余的层和冗余的参数进行剪枝，三，促使embedding层的稀疏性，进而保持最有判别性的信息。为了解决预测延迟问题，我们通过结构修剪来加速预测，最终以46倍的速度提高而不会牺牲Criteo数据集上的最新性能。
+https://github.com/WayneDW/DeepLight_Deep-Lightweight-Feature-Interactions 轻量级特征交互算法deeplight 大幅加速ctr预估在线服务。 一，通过在浅层结构中精确搜索信息量更大的特征交互来加速模型推理，二，在深层结构中，从层内和层间对冗余的层和冗余的参数进行剪枝，三，促使embedding层的稀疏性，进而保持最有判别性的信息。为了解决预测延迟问题，我们通过结构修剪来加速预测，最终以46倍的速度提高而不会牺牲Criteo数据集上的最新性能。
 
-JiachengLi1995/TiSASRec Time Interval Aware Self-Attention for Sequential Recommendation 时间间隔自注意力模型用于序列推荐。 基于序列模型框架对行为的时间戳进行建模，在下一个商品预测中探索不同时间间隔的影响。
+https://github.com/JiachengLi1995/TiSASRec Time Interval Aware Self-Attention for Sequential Recommendation 时间间隔自注意力模型用于序列推荐。 基于序列模型框架对行为的时间戳进行建模，在下一个商品预测中探索不同时间间隔的影响。
 
-wuch15/IJCAI2019-NAML 多视图学习新闻推荐系统Neural News Recommendation with Attentive Multi-View Learning 可以通过利用不同种类的新闻信息来学习用户和新闻的特征表示。
+https://github.com/wuch15/IJCAI2019-NAML 多视图学习新闻推荐系统Neural News Recommendation with Attentive Multi-View Learning 可以通过利用不同种类的新闻信息来学习用户和新闻的特征表示。
 
-guoday/Tencent2020_Rank1st  广告受众基础属性预估 2020 Tencent College Algorithm Contest, and the online result ranks 1st.
+https://github.com/guoday/Tencent2020_Rank1st  广告受众基础属性预估 2020 Tencent College Algorithm Contest, and the online result ranks 1st.
 
-yuduo93/THIGE 基于时序异质交互图表示学习的商品推荐 将复杂异质的动态交互行为构建为时序异质交互图（Temporal Heterogeneous Interaction Graph, 简称为THIG）进而同时学习用户兴趣和商品表示用于商品推荐。本文提出了一种时序异质图上的表示学习方法，称之为THIGE，充分建模交互行为的异质性，刻画不同类型的兴趣偏好，并融合长、短期兴趣构建用户、商品表示。最后，在3个真实数据集上验证模型的有效性。
+https://github.com/yuduo93/THIGE 基于时序异质交互图表示学习的商品推荐 将复杂异质的动态交互行为构建为时序异质交互图（Temporal Heterogeneous Interaction Graph, 简称为THIG）进而同时学习用户兴趣和商品表示用于商品推荐。本文提出了一种时序异质图上的表示学习方法，称之为THIGE，充分建模交互行为的异质性，刻画不同类型的兴趣偏好，并融合长、短期兴趣构建用户、商品表示。最后，在3个真实数据集上验证模型的有效性。
 
-guyulongcs/CIKM2020_DMT 大型电子商务推荐系统中多目标排名的深层多面Transformers模型
+https://github.com/guyulongcs/CIKM2020_DMT 大型电子商务推荐系统中多目标排名的深层多面Transformers模型
 
-weiyinwei/MMGCN 多模态图神经网络解决短视频推荐难题
+https://github.com/weiyinwei/MMGCN 多模态图神经网络解决短视频推荐难题
 
-wujcan/SGL 基于图自监督学习的推荐系统。应用于「用户-物品二分图推荐系统」的「图自监督学习」框架。
+https://github.com/wujcan/SGL 基于图自监督学习的推荐系统。应用于「用户-物品二分图推荐系统」的「图自监督学习」框架。
 
-wangjiachun0426/StackRec 通过迭代堆叠实现推荐系统的高效训练。采用对一个浅层序列推荐模型进行多次层堆叠（Layer Stacking），从而得到一个深层序列推荐模型。具体来说，训练过程包含以下步骤：1）预训练一个浅层序列推荐模型；2）对该模型进行层堆叠，得到一个两倍深度的模型；3）微调这个深层模型；4）将深层模型作为一个新的浅层模型，重复1）至3）直到满足业务需求。
+https://github.com/wangjiachun0426/StackRec 通过迭代堆叠实现推荐系统的高效训练。采用对一个浅层序列推荐模型进行多次层堆叠（Layer Stacking），从而得到一个深层序列推荐模型。具体来说，训练过程包含以下步骤：1）预训练一个浅层序列推荐模型；2）对该模型进行层堆叠，得到一个两倍深度的模型；3）微调这个深层模型；4）将深层模型作为一个新的浅层模型，重复1）至3）直到满足业务需求。
 
-xiangwang1223/neural_graph_collaborative_filtering 神经图协同过滤（NGCF）是一种基于图神经网络的新推荐框架，通过执行嵌入传播，在用户项二部图中以高阶连通性的形式对协同信号进行显式编码。
+https://github.com/xiangwang1223/neural_graph_collaborative_filtering 神经图协同过滤（NGCF）是一种基于图神经网络的新推荐框架，通过执行嵌入传播，在用户项二部图中以高阶连通性的形式对协同信号进行显式编码。
 
-johnnyjana730/MVIN 提出multi-view item network (MVIN) ，从user和item来学习多个视角下的商品表示，进而进行商品推荐。在实体视图中，项目表示由KG中连接到它的实体来定义的。
+https://github.com/johnnyjana730/MVIN 提出multi-view item network (MVIN) ，从user和item来学习多个视角下的商品表示，进而进行商品推荐。在实体视图中，项目表示由KG中连接到它的实体来定义的。
 
-weberrr/CKAN Collaborative Knowledge-aware Attentive Network for Recommender Systems 协作知识感知的注意力网络推荐系统 
+https://github.com/weberrr/CKAN Collaborative Knowledge-aware Attentive Network for Recommender Systems 协作知识感知的注意力网络推荐系统 
 
-danyang-liu/KRED KRED：基于知识感知的文档表示应用于新闻推荐。首先是用KGAT来表示每个实体，然后使用用实体的位置 实体出现频率 实体的类别等信息。再用Transformer来优化表征。最后做多任务：包括个性化推荐，项目到项目推荐、新闻流行预测、新类别预测和本地新闻检测等等。
+https://github.com/danyang-liu/KRED KRED：基于知识感知的文档表示应用于新闻推荐。首先是用KGAT来表示每个实体，然后使用用实体的位置 实体出现频率 实体的类别等信息。再用Transformer来优化表征。最后做多任务：包括个性化推荐，项目到项目推荐、新闻流行预测、新类别预测和本地新闻检测等等。
 
-CRIPAC-DIG/DGCF 动态图协同过滤算法，利用动态图来同时捕捉用户和商品之间的协同和序列关系的框架。提出三种更新机制： 零阶继承，一阶传播，二阶聚合，来表示新的交互发生时，该交互对用户或者商品的影响。基于这三种机制，交互发生时同时更新用户和商品的embedding，并且利用最新的embedding来给出推荐。
+https://github.com/CRIPAC-DIG/DGCF 动态图协同过滤算法，利用动态图来同时捕捉用户和商品之间的协同和序列关系的框架。提出三种更新机制： 零阶继承，一阶传播，二阶聚合，来表示新的交互发生时，该交互对用户或者商品的影响。基于这三种机制，交互发生时同时更新用户和商品的embedding，并且利用最新的embedding来给出推荐。
 
-QYQ-bot/CLEA 运用对比学习解决购物篮推荐场景。（下一个购物篮推荐，也就是根据用户的历史购物篮序列，来推荐用户在下一次可能购买的商品集合。）
+https://github.com/QYQ-bot/CLEA 运用对比学习解决购物篮推荐场景。（下一个购物篮推荐，也就是根据用户的历史购物篮序列，来推荐用户在下一次可能购买的商品集合。）
 
-huangtinglin/MixGCF 基于多层嵌入合成负例用于推荐，相对NGCF 提高 26%, LightGCN 提高 22%
+https://github.com/huangtinglin/MixGCF 基于多层嵌入合成负例用于推荐，相对NGCF 提高 26%, LightGCN 提高 22%
 
-DyGRec/ASReP  反向预训练Transformer 增广序列推荐系统.解决序列推荐系统中的冷启动（cold-start）问题。为了解决该问题，我们提出需要对冷启动对应的短序列（short sequence）进行增广（Augmentation），从而能够补全信息而避免冷启动的问题。
+https://github.com/DyGRec/ASReP  反向预训练Transformer 增广序列推荐系统.解决序列推荐系统中的冷启动（cold-start）问题。为了解决该问题，我们提出需要对冷启动对应的短序列（short sequence）进行增广（Augmentation），从而能够补全信息而避免冷启动的问题。
 
-NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双边分支网络作为双目标优化的主要架构，该架构既保持传统学习分支的准确性，又提高自适应学习分支的多样性。
+https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双边分支网络作为双目标优化的主要架构，该架构既保持传统学习分支的准确性，又提高自适应学习分支的多样性。
 
 [gluver/KG4Rec_Paperlist](https://github.com/gluver/KG4Rec_Paperlist) 这是关于基于知识图谱的推荐的顶级论文列表。
 
-https://github.com/xidongbo/AITM 自适应信息传输多任务 (AITM) 框架的 TensorFlow 实现。 提交给 KDD21 的论文代码：使用多任务学习为客户获取建模受众多步转换之间的顺序依赖性。应用场景：联名卡获客，从曝光（Impression）、点击（Click）、申请（Application）、核卡（Approval）、激活（Activation）。另外，使用公开的[Ali-CCP阿里巴巴点击和转化预测数据集](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408)。[pytorch实现](https://github.com/adtalos/AITM-torch)
+[xidongbo/AITM](https://github.com/xidongbo/AITM) 自适应信息传输多任务 (AITM) 框架的 TensorFlow 实现。 提交给 KDD21 的论文代码：使用多任务学习为客户获取建模受众多步转换之间的顺序依赖性。应用场景：联名卡获客，从曝光（Impression）、点击（Click）、申请（Application）、核卡（Approval）、激活（Activation）。另外，使用公开的[Ali-CCP阿里巴巴点击和转化预测数据集](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408)。[pytorch实现](https://github.com/adtalos/AITM-torch)
 
 [newlei/LR-GCCF](https://github.com/newlei/LR-GCCF) 重温基于图的协同过滤：一种线性残差图卷积网络方法，AAAI2020 本文提出了一种使用非线性特征传播和残差结构的GCN网络LR-GCCF用于基于CF的推荐系统，在模型表型上和时间效率上有了一定的提高。
 
@@ -1743,13 +1743,17 @@ https://github.com/xidongbo/AITM 自适应信息传输多任务 (AITM) 框架的
 
 [kupuSs/CIKM-CUP-2019-track2-rank10](https://github.com/kupuSs/CIKM-CUP-2019-track2-rank10) CIKM 2019 E-Commerce AI Challenge - 超大规模推荐之用户兴趣高效检索
 
-[https://github.com/miziha-zp/KDD2020_mutilmodalities](https://github.com/miziha-zp/KDD2020_mutilmodalities) top8 KDD Cup 2020 Challenges for Modern E-Commerce Platform: Multimodalities Recall
+[miziha-zp/KDD2020_mutilmodalities](https://github.com/miziha-zp/KDD2020_mutilmodalities) top8 KDD Cup 2020 Challenges for Modern E-Commerce Platform: Multimodalities Recall
 
 [steven95421/KDD_WinnieTheBest](https://github.com/steven95421/KDD_WinnieTheBest) KDD Cup 2020 现代电商平台挑战：Multi-modalities Recall 第一名。数据来自移动电商平台的真实场景多模态数据。数据集由搜索查询和产品图像特征组成，是一个基于查询的多模式检索任务。实现了根据候选产品的图像特征对它们的集合进行排名。这些查询中的大多数是搜索具有特定特征的产品的名词短语。候选商品图片由卖家提供的照片，通过黑盒功能转化为2048维特征。与查询最相关的候选产品被视为查询的基本事实。
 
 [aister2020/KDDCUP_2020_Debiasing_1st_Place](https://github.com/aister2020/KDDCUP_2020_Debiasing_1st_Place) 去偏Debiasing中获得第一名。侧重于暴露的复杂性，即如何推荐过去很少暴露的项目，以对抗推荐系统中经常遇到的马太效应。特别是，在对点击数据进行训练时减少偏差对于此任务的成功至关重要。就像现代推荐系统中记录的点击数据和实际在线环境之间存在差距一样，训练数据和测试数据之间也会存在差距，主要是在趋势和项目的流行度方面。
 
 [RUCAIBox/FMLP-Rec](https://github.com/RUCAIBox/FMLP-Rec) 堆叠多个过滤器增强块以生成用于推荐的顺序用户偏好的表示。我们的方法与 SASRec 的主要区别在于用一种新颖的过滤器结构（傅里叶变换MLP）替换了 Transformer 中的多头自注意力结构。
+
+[RUCAIBox/NCL](https://github.com/RUCAIBox/NCL) 通过邻域丰富的对比学习改进图协同过滤。
+
+[alibaba/HybridBackend](https://github.com/alibaba/HybridBackend) 用于在异构集群上训练广泛和深度推荐系统的高性能框架
 
 # 金融股票与时间序列
 
@@ -2566,7 +2570,7 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [nihui/cain-ncnn-vulkan](https://github.com/nihui/cain-ncnn-vulkan) CAIN，使用 ncnn 库实现的视频帧插值只需要频道注意力
 
-## 对象检测
+## 对象检测、分割
 
 [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab 基于 PyTorch 的开源对象检测工具箱
 
@@ -2603,6 +2607,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 [Sense-X/UniFormer](https://github.com/Sense-X/UniFormer) 统一卷积和自注意的视觉识别统一变压器，实现高效的时空表示学习 可用于： 图像分类、 视频分类、 物体检测、 语义分割、 姿势估计
 
 [bytedance/ibot](https://github.com/bytedance/ibot) 一种自我监督预训练框架，通过自蒸馏执行蒙版图像建模。iBOT 显示了局部语义特征，有助于模型在全局范围和局部范围内很好地转移到下游任务。iBOT在 COCO 对象检测和 ADE20K 语义分割上实现了强大的性能。
+
+[hkchengrex/XMem](https://github.com/hkchengrex/XMem) [ECCV 2022]使用 Atkinson-Shiffrin 模型进行长期视频对象分割
 
 ## 其他_机器视觉
 
@@ -2807,6 +2813,14 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [visualcommonsense](https://visualcommonsense.com/) 视觉常识推理 ( VCR ) 是一项用于认知级视觉理解的新任务和大规模数据集
 
 [imageclef.org](https://www.imageclef.org/) ImageCLEF 旨在为图像的跨语言注释和检索提供一个评估论坛。由于需要支持来自全球社区的多语言用户访问不断增长的视觉信息体，ImageCLEF 的主要目标是支持视觉媒体分析、索引、分类和检索领域的进步，通过开发必要的用于评估在单语、跨语言和与语言无关的上下文中运行的视觉信息检索系统的基础设施。ImageCLEF 旨在为此类基准测试提供可重用资源。包括：（视觉）信息检索、跨语言信息检索、计算机视觉和模式识别、医学信息学、人机交互等。
+
+[studiomoniker/Quickdraw-appendix](https://github.com/studiomoniker/Quickdraw-appendix) 25k 阴茎涂鸦数据集
+
+[Jittor/JNeRF](https://github.com/Jittor/JNeRF) 基于 Jittor 的 NeRF 基准测试。JNeRF 重新实现了 Instant-ngp 并达到了与原始论文相同的性能。
+
+[THUDM/CogVideo](https://github.com/THUDM/CogVideo) 文本到视频生成的代码和模型，只支持简体中文输入。
+
+
 
 # 虚拟化
 
@@ -3375,11 +3389,31 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [epinna/weevely3](https://github.com/epinna/weevely3) 为后期开发目的而设计的 web shell，可以在运行时通过网络进行扩展。将它上传到目标服务器以获取对其的远程 shell 访问。它有 30 多个模块来协助管理任务、维护访问、提供态势感知、提升权限以及传播到目标网络。
 
-* [https://github.com/b1ackc4t/MarsCTF](https://github.com/b1ackc4t/MarsCTF) Vue+Springboot开发的CTF学习平台，提供动态靶机、学习模块、writeup模块等等CTF平台的核心功能。提供docker版本
+* [b1ackc4t/MarsCTF](https://github.com/b1ackc4t/MarsCTF) Vue+Springboot开发的CTF学习平台，提供动态靶机、学习模块、writeup模块等等CTF平台的核心功能。提供docker版本
 
 * [xuanhun/PythonHackingBook1](https://github.com/xuanhun/PythonHackingBook1) Python黑客编程之极速入门 教程分为6个大的部分：Python编程基础 网络安全  Web应用安全 漏洞利用 逆向.
 
 * [HZzz2/go-shellcode-loader](https://github.com/HZzz2/go-shellcode-loader) GO免杀shellcode加载器混淆AES加密
+
+* [whiteknight7/wordlist](https://github.com/whiteknight7/wordlist) 常用字典，弱用户名、弱口令、目录列表等。
+
+* [achuna33/MYExploit](https://github.com/achuna33/MYExploit) 基于产品的一键扫描工具。
+
+* [VMsec/iisScaner](https://github.com/VMsec/iisScaner) 多线程批量检测IIS短文件名漏洞+漏洞利用
+
+* [shimmeris/SCFProxy](https://github.com/shimmeris/SCFProxy) 利用云函数实现各种功能的工具。HTTP 代理\SOCKS5 代理\接收反弹 shell\C2 域名隐藏
+
+* [914525753/Sh4d0w-BlastingDictionary](https://github.com/914525753/Sh4d0w-BlastingDictionary) 搜集的爆破字典，包括常用用户名、密码弱口令、XSS的on事件遍历、SQL万能密码等
+
+* [AnLoMinus/Bug-Bounty](https://github.com/Anlominus/Bug-Bounty) 很棒的漏洞赏金工具
+
+* [sry309/PwdBUD](https://github.com/sry309/PwdBUD) 一款SRC密码生成工具，尝试top字典无果后，可以根据域名、公司名等因素来生成特定的字典
+
+* [daffainfo/Oneliner-Bugbounty](https://github.com/daffainfo/Oneliner-Bugbounty) 用于 bug 赏金的集合 oneliner 脚本 
+
+* [hfiref0x/UACME](https://github.com/hfiref0x/UACME) 通过滥用内置的 Windows AutoElevate 后门来获取Windows 用户帐户控制。
+
+* 
 
 # 其他
 
@@ -3574,6 +3608,8 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 * [TastSong/CrazyCar](https://github.com/TastSong/CrazyCar) 网络联机游戏解决方案---Unity制作的联机赛车游戏，服务端为SpringBoot + Mybatis；后台为Vue + Element；游戏端采用QFramework框架，支持KCP和WebSocket网络(商用级)
 
 * [clear-code-projects/Zelda](https://github.com/clear-code-projects/Zelda) 用 Python 构建一个塞尔达风格的游戏
+
+* [ijl/orjson](https://github.com/ijl/orjson) 支持数据类、日期时间和 numpy 的高速、准确的 Python JSON 库
 
 # Star数变化
 
