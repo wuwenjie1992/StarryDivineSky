@@ -2341,7 +2341,7 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 * [gasteigerjo/dimenet](https://github.com/gasteigerjo/dimenet) DimeNet 和 DimeNet++ 模型，如“分子图的定向消息传递”（ICLR 2020）和“非平衡分子的快速和不确定性感知定向消息传递”（NeurIPS-W 2020）中提出的
 
-* [LiteGEM/kddcup2021-PCQM4M-LSC](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/competition/kddcup2021-PCQM4M-LSC) LiteGEM：KDD Cup 2021 PCQM4M-LSC解决方案. PCQM4M-LSC是量子化学数据集，其任务是预测给定分子的重要分子特性，即HOMO-LUMO间隙(图形回归)。即一个分子图的量子特性回归数据集，它包含了3,803,453个图。它基于PubChemQC项目的归纳式图回归数据集。它包含约400万以SMILES串描述的小分子。它的目的是加速量子化学计算，尤其是预测每个分子的HOMO-LUMO轨道距离。HOMO-LUMO距离是量子化学中最重要的属性之一，因为他和分子的反应性、光激励、电荷输送有关。每个分子的真实标签是通过昂贵的DFT计算得到，每个分子需要计算几个小时。普遍认为，在足够的训练数据支持下，类似GNN的基于分子图网络的机器学习模型，可以以很小代价得到近似DFT的结果。这些分子根据他们的PubChem ID按照8：1：1划分作为训练、验证、测试数据集。
+* [LiteGEM/kddcup2021-PCQM4M-LSC](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/competition/kddcup2021-PCQM4M-LSC) LiteGEM：KDD Cup 2021 PCQM4M-LSC解决方案. PCQM4M-LSC是量子化学数据集，任务是预测给定分子的重要分子特性，即HOMO-LUMO间隙(图形回归)。即一个分子图的量子特性回归数据集，它包含了3,803,453个图。它基于PubChemQC项目的归纳式图回归数据集。它包含约400万以SMILES串描述的小分子。目的是加速量子化学计算，尤其是预测每个分子的HOMO-LUMO轨道距离。HOMO-LUMO距离是量子化学中最重要的属性之一，因为他和分子的反应性、光激励、电荷输送有关。每个分子的真实标签是通过昂贵的DFT计算得到，每个分子需要计算几个小时。在足够的训练数据支持下，类似GNN的基于分子图网络的机器学习模型，可以以很小代价得到近似DFT的结果。这些分子根据他们的PubChem ID按照8：1：1划分作为训练、验证、测试数据集。
 
 * [https://github.com/deepmind/deepmind-research/tree/master/ogb_lsc/pcq](https://github.com/deepmind/deepmind-research/tree/master/ogb_lsc/pcq) DeepMind 进入OGB大规模挑战赛(OGB-LSC) 的PCQM4M-LSC（量子化学）轨道的条目 。通过汇集 20 个模型（10 倍 x 2 个种子）的集合来实现的。
 
@@ -2931,35 +2931,43 @@ jm199504/Financial-Knowledge-Graphs 小型金融知识图谱构建流程
 
 # 大数据
 
+[MySQL](https://www.mysql.com/) 开源的关系数据库管理系统 (RDBMS)。它的名字是“My”（联合创始人 Michael Widenius 的女儿 My 的名字）和“SQL”（结构化查询语言的缩写）的组合。关系数据库将数据组织成一个或多个数据表，其中数据可能相互关联；这些关系有助于构建数据。SQL 是程序员用来创建、修改和从关系数据库中提取数据以及控制用户对数据库的访问的语言。
+
+[MariaDB](https://mariadb.org/) MySQL的社区开发、商业支持的分支，旨在在 GNU 通用公共许可证下保持免费和开源软件。开发由 MySQL 的一些原始开发人员领导，由于担心 2009 年被甲骨文公司收购，他们将其分叉。
+
+[PostgreSQL](https://www.postgresql.org/) 一个免费的开源关系数据库管理系统 (RDBMS)，强调可扩展性和 SQL 合规性。它最初被命名为 POSTGRES，指的是它的起源是加州大学伯克利分校开发的 Ingres 数据库的继承者。一个功能强大的开源对象关系数据库系统，经过 30 多年的积极开发，在可靠性、功能稳健性和性能方面赢得了良好的声誉。
+
+[oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) 一个高可用、高性能、横向扩展、兼容SQL标准的企业级分布式关系数据库。蚂蚁集团从零开始构建的分布式关系 SQL 数据库。它具有高度可扩展性、弹性，可以同时处理事务和分析工作负载，并且与 MySQL 语法和功能高度兼容。OceanBase 可以部署在任何云中的虚拟机或本地物理主机上。同时，由于是多租户集群，用户可以实现数据库资源池化，提高效率。
+
 [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) 一个更新和有组织的阅读列表，用于说明可扩展、可靠和高性能的大型系统的模式。概念在著名工程师的文章和可靠的参考文献中进行了解释。案例研究取自为数百万至数十亿用户提供服务的经过实战考验的系统。
 
-Qihoo360/Quicksql 体系结构图可帮助您更轻松地访问 Quicksql
+https://github.com/Qihoo360/Quicksql 体系结构图可帮助您更轻松地访问 Quicksql
 
-seata/seata 简单可扩展的自主事务体系结构
+https://github.com/seata/seata 简单可扩展的自主事务体系结构
 
-apache/incubator-shardingsphere 分布式数据库中间件生态圈
+https://github.com/apache/incubator-shardingsphere 分布式数据库中间件生态圈
 
-Tencent/wwsearch wwsearch是企业微信后台自研的全文检索引擎
+https://github.com/Tencent/wwsearch wwsearch是企业微信后台自研的全文检索引擎
 
-apache/airflow 一个以编程方式编写，安排和监视工作流的平台
+https://github.com/apache/airflow 一个以编程方式编写，安排和监视工作流的平台
 
-apache/shardingsphere Distributed database middleware 分布式数据库中间件
+https://github.com/apache/shardingsphere Distributed database middleware 分布式数据库中间件
 
-opencurve/curve 网易自主设计研发的高性能、高可用、高可靠分布式存储系统，具有良好扩展性。
+https://github.com/opencurve/curve 网易自主设计研发的高性能、高可用、高可靠分布式存储系统，具有良好扩展性。
 
-ClickHouse/ClickHouse 一个开源列式数据库系统，允许实时生成数据分析报告。
+https://github.com/ClickHouse/ClickHouse 一个开源列式数据库系统，允许实时生成数据分析报告。
 
-canonical/dqlite 可嵌入、复制和故障耐受性 SQL 引擎。
+https://github.com/canonical/dqlite 可嵌入、复制和故障耐受性 SQL 引擎。
 
-apache/iceberg 新兴的数据湖框架之一，开创性的抽象出”表格式“（table format）这一中间层，既独立于上层的计算引擎（如Spark和Flink）和查询引擎（如Hive和Presto），也和下层的文件格式（如Parquet，ORC和Avro）相互解耦。同时，Iceberg还提供了许多额外的能力：ACID事务；时间旅行（time travel），以访问之前版本的数据；完备的自定义类型、分区方式和操作的抽象；列和分区方式可以进化，而且进化对用户无感，即无需重新组织或变更数据文件；隐式分区，使SQL不用针对分区方式特殊优化；面向云存储的优化等；
+https://github.com/apache/iceberg 新兴的数据湖框架之一，开创性的抽象出”表格式“（table format）这一中间层，既独立于上层的计算引擎（如Spark和Flink）和查询引擎（如Hive和Presto），也和下层的文件格式（如Parquet，ORC和Avro）相互解耦。同时，Iceberg还提供了许多额外的能力：ACID事务；时间旅行（time travel），以访问之前版本的数据；完备的自定义类型、分区方式和操作的抽象；列和分区方式可以进化，而且进化对用户无感，即无需重新组织或变更数据文件；隐式分区，使SQL不用针对分区方式特殊优化；面向云存储的优化等；
 
-apache/hudi 基于Hadoop兼容的存储，提供了以下流处理原语。Update/Delete Record、Change Streams 将HDFS和Hudi结合起来，提供对流处理的支持能力。如：支持记录级别的更新、删除，以及获取基于HDFS之上的Change Streams。哪些数据发生了变更。
+https://github.com/apache/hudi 基于Hadoop兼容的存储，提供了以下流处理原语。Update/Delete Record、Change Streams 将HDFS和Hudi结合起来，提供对流处理的支持能力。如：支持记录级别的更新、删除，以及获取基于HDFS之上的Change Streams。哪些数据发生了变更。
 
-TurboWay/bigdata_analyse  大数据分析项目，包括1 亿条淘宝用户行为分析 、1000 万条淘宝用户行为 、300 万条《野蛮时代》的玩家 、130 万条深圳通刷卡、10 万条厦门招聘、7000 条租房、6000 条倒闭企业、COVID-19 疫情、7 万条天猫订单数据
+https://github.com/TurboWay/bigdata_analyse  大数据分析项目，包括1 亿条淘宝用户行为分析 、1000 万条淘宝用户行为 、300 万条《野蛮时代》的玩家 、130 万条深圳通刷卡、10 万条厦门招聘、7000 条租房、6000 条倒闭企业、COVID-19 疫情、7 万条天猫订单数据
 
-avinassh/fast-sqlite3-inserts 1分钟插入10亿行数据,写脚本请使用Rust
+https://github.com/avinassh/fast-sqlite3-inserts 1分钟插入10亿行数据,写脚本请使用Rust
 
-baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机实时读取/写入。 B与MySQL协议兼容，并且支持MySQL样式SQL方言，通过该方言，用户可以将其数据存储从MySQL无缝迁移到BaikalDB。
+https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机实时读取/写入。 B与MySQL协议兼容，并且支持MySQL样式SQL方言，通过该方言，用户可以将其数据存储从MySQL无缝迁移到BaikalDB。
 
 [ApsaraDB/PolarDB-for-PostgreSQL](https://github.com/ApsaraDB/PolarDB-for-PostgreSQL) 阿里云自主研发的云原生数据库服务。PolarDB-X 是一款面向超高并发、海量存储、复杂查询场景设计的云原生分布式数据库系统。其采用 Shared-nothing  与存储计算分离架构，支持水平扩展、分布式事务、混合负载等能力，具备企业级、云原生、高可用、高度兼容 MySQL 系统及生态等特点。
 
@@ -3003,35 +3011,35 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 ## RISC-V CPU
 
-* OpenXiangShan/XiangShan 开源高性能 RISC-V 处理器
+* https://github.com/OpenXiangShan/XiangShan 开源高性能 RISC-V 处理器
 
-* SI-RISCV/e200_opensource 蜂鸟 E203 开源处理器核心
+* https://github.com/SI-RISCV/e200_opensource 蜂鸟 E203 开源处理器核心
 
-* Lichee-Pi/Tang_E203_Mini LicheeTang 蜂鸟E203 Core
+* https://github.com/Lichee-Pi/Tang_E203_Mini LicheeTang 蜂鸟E203 Core
 
 * [riscv-mcu/e203_hbirdv2: The Ultra-Low Power RISC-V Core](https://github.com/riscv-mcu/e203_hbirdv2) 开源 Hummingbirdv2 E203 RISC-V 处理器内核和 SoC 项目，它由中国大陆领先的 RISC-V IP 和解决方案公司Nuclei System Technology开发和开源。
 
-* mit-pdos/xv6-riscv xv6 是丹尼斯 · 里奇和肯 · 汤普森的Unix 版本 6 （v6）的重新实现。 xv6 松散地遵循 v6 的结构和风格，但使用 ANSI C 为现代 RISC-V 多处理器实施。
+* https://github.com/mit-pdos/xv6-riscv xv6 是丹尼斯 · 里奇和肯 · 汤普森的Unix 版本 6 （v6）的重新实现。 xv6 松散地遵循 v6 的结构和风格，但使用 ANSI C 为现代 RISC-V 多处理器实施。
 
-* plctlab/writing-your-first-riscv-simulator 《从零开始的RISC-V模拟器开发》配套的PPT和教学资料
+* https://github.com/plctlab/writing-your-first-riscv-simulator 《从零开始的RISC-V模拟器开发》配套的PPT和教学资料
 
-* cccriscv/mini-riscv-os 从零开始为 RISC-V 构建最小的多任务操作系统内核
+* https://github.com/cccriscv/mini-riscv-os 从零开始为 RISC-V 构建最小的多任务操作系统内核
 
-* plctlab/riscv-operating-system-mooc 《从头写一个RISC-V OS》课程配套的资源
+* https://github.com/plctlab/riscv-operating-system-mooc 《从头写一个RISC-V OS》课程配套的资源
 
-* darklife/darkriscv 一个晚上从零开始在 Verilog 实现 RISC-V cpu
+* https://github.com/darklife/darkriscv 一个晚上从零开始在 Verilog 实现 RISC-V cpu
 
-* ultraembedded/riscv RISC-V CPU 核心 （RV32IM）
+* https://github.com/ultraembedded/riscv RISC-V CPU 核心 （RV32IM）
 
-* ultraembedded/biriscv 32 位超级RISC-V Cpu
+* https://github.com/ultraembedded/biriscv 32 位超级RISC-V Cpu
 
-* liuqidev/8-bits-RISC-CPU-Verilog 基于有限状态机的8位RISC（精简指令集）CPU（中央处理器）简单结构和Verilog实现。
+* https://github.com/liuqidev/8-bits-RISC-CPU-Verilog 基于有限状态机的8位RISC（精简指令集）CPU（中央处理器）简单结构和Verilog实现。
 
-* litex-hub/linux-on-litex-vexriscv 使用 VexRiscv CPU 运行 Linux，这是一种 32 位的 Linux 功能 RISC-V CPU。
+* https://github.com/litex-hub/linux-on-litex-vexriscv 使用 VexRiscv CPU 运行 Linux，这是一种 32 位的 Linux 功能 RISC-V CPU。
 
-* riscv2os/riscv2os 手把手帶你學習 RISC-V 到可以自製 RISC-V 處理器上的作業系統的電子書。
+* https://github.com/riscv2os/riscv2os 手把手帶你學習 RISC-V 到可以自製 RISC-V 處理器上的作業系統的電子書。
 
-* sgmarz/osblog 在 Rust 中编写 RISC-V 操作系统
+* https://github.com/sgmarz/osblog 在 Rust 中编写 RISC-V 操作系统
 
 * [SpinalHDL/VexRiscv](https://github.com/SpinalHDL/VexRiscv) FPGA 友好的 32 位 RISC-V CPU 实现
 
@@ -3055,7 +3063,7 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [openhwgroup/cva6](https://github.com/openhwgroup/cva6) 6 级、单期、有序CPU，它实现了64位RISC-V指令集。它完全实现了第I卷中指定的I、M、A 和C扩展：用户级ISA V2.3以及草案权限扩展 1.10。它实现了三个特权级别 M、S、U 以完全支持类 Unix 操作系统。此外，它还符合外部调试规范草案 0.13。
 
-* plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
+* https://github.com/plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
 
 * [lowRISC/ibex](https://github.com/lowRISC/ibex) Ibex 是一个小型 32 位 RISC-V CPU 内核，以前称为 zero-riscy。Ibex 是用 SystemVerilog 编写的生产级开源 32 位 RISC-V CPU 内核。CPU 内核高度可参数化，非常适合嵌入式控制应用。Ibex 正在接受广泛的验证，并且已经看到多个流片。Ibex 支持整数 (I) 或嵌入式 (E)、整数乘除法 (M)、压缩 (C) 和B（位操作）扩展。
 
@@ -3063,11 +3071,11 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 ## 硬件_其他
 
-* Lichee-Pi/Tang_FPGA_Examples LicheeTang FPGA例程
+* https://github.com/Lichee-Pi/Tang_FPGA_Examples LicheeTang FPGA例程
 
-* nf9/police_light Lichee Tang板实现警灯
+* https://github.com/nf9/police_light Lichee Tang板实现警灯
 
-* danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
+* https://github.com/danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
 
 * [larryli/u8g2_wqy](https://github.com/larryli/u8g2_wqy) 适合 u8g2 的中文字体，采用文泉驿点阵宋体作为源本，提供 12x12、13x13、14x14、15x15 和 16x16 点阵字库。
 
@@ -3454,7 +3462,50 @@ baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机�
 
 * [hfiref0x/UACME](https://github.com/hfiref0x/UACME) 通过滥用内置的 Windows AutoElevate 后门来获取Windows 用户帐户控制。
 
-* 
+* [cckuailong/vulbase](https://github.com/cckuailong/vulbase) 各大漏洞文库合集 Vulbase漏洞库
+
+* [ezshine/wxapkg-convertor](https://github.com/ezshine/wxapkg-convertor) 反编译微信小程序的工具，仓库也收集各种微信小程序/小游戏.wxapkg文件
+
+* [outflanknl/C2-Tool-Collection](https://github.com/outflanknl/C2-Tool-Collection) 通过 BOF 和反射 DLL 加载技术与 Cobalt Strike（以及可能的其他 C2 框架）集成的工具集合。
+
+* [metaStor/SpringScan](https://github.com/metaStor/SpringScan) SpringScan 漏洞检测 Burp插件
+
+* [zan8in/afrog](https://github.com/zan8in/afrog) 性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具
+
+* [biggerduck/RedTeamNotes](https://github.com/biggerduck/RedTeamNotes) 红队笔记 ,涉及代码审计/打点/免杀/内网渗透等方向
+
+* [slowmist/Blockchain-dark-forest-selfguard-handbook/](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/) 区块链黑暗森林自救手册
+  掌握这些，掌握你的加密货币安全。
+
+* [DawnFlame/POChouse](https://github.com/DawnFlame/POChouse) POC&EXP仓库、hvv弹药库、Nday、1day
+
+* [0x9ef/golang-uacbypasser](https://github.com/0x9ef/golang-uacbypasser) 用 Go 实现和编写的 Windows UAC 绕过技术
+
+* [Yihsiwei/GoFileBinder](https://github.com/Yihsiwei/GoFileBinder) golang免杀捆绑器
+
+* [API-Security/APIKit](https://github.com/API-Security/APIKit) 主动/被动扫描发现应用泄露的API文档，并将API文档解析成BurpSuite中的数据包用于API安全测试。
+
+* [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) 社区策划的核心引擎模板列表，用于查找安全漏洞。
+
+* [1n7erface/RequestTemplate](https://github.com/1n7erface/RequestTemplate) 双语双端内网扫描以及验证工具
+
+* [Junehck/SQL-injection-bypass](https://github.com/Junehck/SQL-injection-bypass) 记录实战中的各种sql注入绕过姿势. 脏数据绕过waf\emoji绕过waf\注释符绕过waf\%00绕过waf\中间件特性绕过waf\关键字替换绕过waf\base64绕waf\全局替换绕过
+
+* [codeyso/CodeTest](https://github.com/codeyso/CodeTest) 脚本工具合集GUI版本，内置漏洞验证、利用模块，可自定义脚本实现批量验证。
+
+* [pwntester/0day](https://github.com/pwntester/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC 该项目将不断更新
+
+* [G4rb3n/IoT_Sec_Tutorial](https://github.com/G4rb3n/IoT_Sec_Tutorial) IoT安全教程 01-提取IoT固件 02-静态分析IoT固件 03-动态分析IoT固件 04-解密dlink固件 05-修复固件运行环境
+
+* [CTF-MissFeng/NmapBrutes](https://github.com/CTF-MissFeng/NmapBrutes) 解析nmap扫描结果，并调用hydra进行暴力破解
+
+* [YDHCUI/manjusaka](https://github.com/YDHCUI/manjusaka) 基于WEB界面的仿CobaltStrike C2远控
+
+* [zhengjim/camille](https://github.com/zhengjim/camille) 基于Frida的Android App隐私合规检测辅助工具
+
+* [reidmu/sec-note](https://github.com/reidmu/sec-note) 记录安全方面的笔记/工具/漏洞合集
+
+* [shadow1ng/fscan](https://github.com/shadow1ng/fscan) 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
 
 # 其他
 
