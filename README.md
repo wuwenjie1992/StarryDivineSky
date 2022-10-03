@@ -463,6 +463,12 @@
 
 * [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) 使用 SQL语法，在数据库和数据仓库启用机器学习工作流。
 
+* [kaidic/LDAM-DRW](https://github.com/kaidic/LDAM-DRW)  使用标签分布感知边际损失学习不平衡数据集
+
+* [Jianf-Wang/RSG](https://github.com/Jianf-Wang/RSG) 可以在训练过程中生成稀有类样本，并且可以与任何骨干网络相结合。RSG 仅用于训练阶段，因此在测试阶段不会给骨干网带来额外的负担。
+
+* [ZhiningLiu1998/mesa](https://github.com/ZhiningLiu1998/mesa) 设计元知识驱动的采样器解决类别不平衡问题
+
 # 图神经网络GNN
 
 ## 图机器学习库
@@ -685,7 +691,9 @@
 
 * [snap-stanford/gib](https://github.com/snap-stanford/gib) 图信息瓶颈 (GIB)。研究者基于该原则构建了两个 GNN 模型：GIB-Cat 和 GIB-Bern，二者在抵御对抗攻击时取得了优异的性能。 图信息Bottleneck打造图最优表示->避免过拟合，并具备稳健性
 
-* [liaopeiyuan/GAL](https://github.com/liaopeiyuan/GAL) Graph AdversariaL Networks 图对抗网络 Information Obfuscation of Graph Neural Networks 图神经网络的信息模糊处理,使得攻击者很难推断。
+* [liaopeiyuan/GAL](https://github.com/liaopeiyuan/GAL) 图对抗网络 Information Obfuscation of Graph Neural Networks 图神经网络的信息模糊处理,使得攻击者很难推断。
+
+* [mims-harvard/GNNGuard](https://github.com/mims-harvard/GNNGuard) 保护图神经网络免受对抗性攻击。 即使是最强大和最流行的GNN，图结构的微小、不明显的扰动也会灾难性地降低性能。通过与提出的 GNNGuard 集成，GNN 分类器即使在强烈的对抗性攻击下也可以正确分类目标节点。GNNGuard 关键思想是检测和量化图结构和节点特征之间的关系（如果存在），然后利用这种关系来减轻攻击的负面影响。GNNGuard 学习如何最好地为连接相似节点的边分配更高的权重，同时修剪不相关节点之间的边。GNNGuard不是神经消息传递，而是控制消息流，例如阻止来自不相关邻居的消息，但加强来自高度相关邻居的消息。是第一个可以保护异质图（例如，具有结构等价性）的模型，而所有现有的防御者只考虑同质图。
 
 ## 图聚合_节点聚合
 
@@ -924,6 +932,8 @@
 
 * [huawei-noah/DynaBERT](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/DynaBERT) dynamic BERT 可以通过选择自适应宽度和深度来灵活地调整网络大小，从而得到一个尺寸可变的网络。首先通过知识蒸馏的方法将teacher BERT的知识迁移到有自适应宽度的子网络student  DynaBERTw中，然后再对DynaBERTw进行知识蒸馏得到同时支持深度自适应和宽度自适应的子网络DynaBERT。
 
+* [microsoft/LoRA](https://github.com/microsoft/LoRA) 大型语言模型的低秩适应。 冻结原始权重的同时学习成对的秩分解矩阵来减少可训练参数的数量。这大大降低了适用于特定任务的大型语言模型的存储需求，并在部署期间实现了高效的任务切换，所有这些都不会引入推理延迟。使用RoBERTa和DeBERTa 在 GLUE 基准上获得与完全微调相当或更好的结果，同时只训练和存储一小部分参数。
+
 ## 预训练模型
 
 * [dbiir/UER-py](https://github.com/dbiir/UER-py) 一个用于对通用语料进行预训练并对下游任务进行微调的工具包。提供了非常丰富的模型库。包括：中文RoBERTa、基于词的中文RoBERTa、中文GPT-2预训练模型（通用、古诗词、对联、歌词、文言文）、中文T5预训练模型、中文RoBERTa下游任务微调模型（JD full 情感分类 、JD binary 情感分类 、Dianping 情感分类、Ifeng 新闻主题分类、Chinanews 新闻主题分类 、CLUENER2020 NER 、抽取式问答）等。
@@ -965,6 +975,8 @@
 * [Tencent/PatrickStar](https://github.com/Tencent/PatrickStar) 提供更大、更快、更环保的预训练模型，并为所有人普及人工智能。PatrickStar 的内存管理支持将模型的当前计算部分以外的所有内容卸载到 CPU 以节省 GPU。此外，在扩展到多个 GPU 时，基于块的内存管理对于集体通信非常有效。通过**异构训练**（DeepSpeed Zero Stage 3 也使用它），PatrickStar 可以充分利用 CPU 和 GPU 内存，这样您就可以使用更少的 GPU 来训练更大的模型。
 
 * [ymcui/PERT](https://github.com/ymcui/PERT) 提出了一种基于乱序语言模型的预训练模型，在不引入掩码标记[MASK]的情况下自监督地学习文本语义信息。PERT在部分中英文NLU任务上获得性能提升，但也在部分任务上效果较差，请酌情使用。
+
+* [THUDM/P-tuning-v2](https://github.com/THUDM/P-tuning-v2)  P-tuning v2 对预训练变压器的每一层输入应用连续提示。深度提示调整增加了连续提示的容量，并缩小了跨各种设置微调的差距，特别是对于小型模型和艰巨的任务。将文本生成的prefix-tuning技术适配到NLU任务。Prompting技术火爆NLP社区，其将预训练模型从Fine-tuning范式带入Prompt-Engineering时代。Promp最初由人工设计，自然语言提示本身十分脆弱，而且从优化角度无法达到最优。为了解决问题发展出了可学习的Prompt，而P-tuning v2在实际上就是Prefix-tuning，在Prefix部分，每一层transformer的embedding输入需要被tuned。在不同规模大小的LM模型上，P-tuning v2能与精调（Fine-tuning）方法的表现比肩，有时甚至更好。
 
 ## 文本分类
 
@@ -2225,6 +2237,8 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 * [RosettaCommons/RFDesign](https://github.com/RosettaCommons/RFDesign) 使用 RoseTTAFold 实现蛋白质幻觉(AI 生成)和修复
 
+* [facebookresearch/esm](https://github.com/facebookresearch/esm) 进化规模建模 （esm）：蛋白质的预训练语言模型
+
 ## 药物发现、药物设计
 
 * DeepGraphLearning/torchdrug 药物发现强大而灵活的机器学习平台
@@ -2284,6 +2298,10 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 * [pharmai/plip](https://github.com/pharmai/plip) 根据 PDB 文件分析和可视化非共价蛋白质-配体相互作用
 
 * [Layne-Huang/EGFI](https://github.com/Layne-Huang/EGFI) 融合丰富实体和句子信息的药物-药物相互作用提取和生成
+
+* [Ieremie/TransformerGO](https://github.com/Ieremie/TransformerGO) 通过对基因本体术语集之间的注意力进行建模来预测蛋白质-蛋白质相互作用
+
+* [YifanDengWHU/DDIMDL](https://github.com/YifanDengWHU/DDIMDL) 具有多种药物特征的多模式深度学习框架来预测药物-药物相互作用（DDI）事件。
 
 ## 分子
 
@@ -2356,6 +2374,14 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 * [grogdrinker/pyuul](https://bitbucket.org/grogdrinker/pyuul/src/master/) 旨在处理大分子的 3D 结构，例如 PDB，将它们转换为完全可微分的数据结构。
 
 * [Saoge123/ccgnet](https://github.com/Saoge123/ccgnet) Co-Crystal Graph Network是二元有机共晶虚拟筛选的深度学习框架，将先验知识融入分子图的特征学习中，实现共晶筛选性能的极大提升。
+
+* [ZJU-Fangyin/KCL](https://github.com/ZJU-Fangyin/KCL) 化学元素知识图谱的分子对比学习
+
+* [nyu-dl/dl4chem-mgm](https://github.com/nyu-dl/dl4chem-mgm) 用于在[Masked 图建模分子生成](https://translate.google.com/website?sl=en&tl=zh-CN&hl=zh-CN&client=webapp&u=https://www.nature.com/articles/s41467-021-23415-2)论文中进行实验的模型、数据和脚本。
+
+* [ccsb-scripps/AutoDock-Vina](https://github.com/ccsb-scripps/AutoDock-Vina) 速度最快、使用最广泛的开源分子对接引擎之一。基于简单的评分函数和快速梯度优化构象搜索。它最初由分子图形实验室的 Oleg Trott 博士设计和实现。在分子建模领域，对接docking是一种在配体和靶标相互结合形成稳定复合物时，预测一个分子对第二个分子的优选取向的方法。 反过来，优选方向的知识可用于预测两个分子之间的缔合强度或结合亲和力，例如使用评分函数。将小分子配体与蛋白质靶标对接产生稳定复合物。蛋白质、肽、核酸、碳水化合物和脂质等生物学相关分子之间的关联在信号转导中起着核心作用。此外，两个相互作用伙伴的相对方向可能会影响产生的信号类型（例如，激动与拮抗）。因此，对接对于预测产生的信号的强度和类型非常有用。分子对接是基于结构的药物设计中最常用的方法之一，因为它能够预测小分子配体与适当靶结合位点的结合构象。结合行为的表征在药物的合理设计以及阐明基本的生化过程中起着重要作用。
+
+* [devalab/molgpt](https://github.com/devalab/molgpt) 使用下一个令牌预测任务在 Moses 和 Guacamol 数据集上训练小型自定义 GPT。然后将该模型用于无条件和有条件的分子生成。我们将我们的模型与之前在 Moses 和 Guacamol 数据集上的方法进行比较。使用 Ecco 库获得显着性图的可解释性。
 
 ## 抗菌肽
 
@@ -2481,7 +2507,13 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 
 [www.serratus.io](https://www.serratus.io/) 一个开放科学的病毒发现平台。NCBI 序列读取存档数据库包含来自全球研究实验室十多年来收集的数百万个生物多样性样本的 DNA 和 RNA 测序数据。我们正在重新分析 NCBI 短读存档中的所有 RNA-seq、元基因组学、元转录组学和环境测序数据，以发现新病毒。即>600 万个生物样本或 >10 PB 的测序数据。
 
-[BioDynaMo/biodynamo](https://github.com/BioDynaMo/biodynamo) 生物动力学建模器 生命科学家可以通过该平台轻松创建、运行和可视化 3D 生物模拟。BioDynaMo 平台建立在最新的计算技术之上，将使用户能够执行以前无法实现的规模和复杂性的模拟，从而有可能解决具有挑战性的科学研究问题。
+[BioDynaMo/biodynamo](https://github.com/BioDynaMo/biodynamo) 生物动力学建模器 可以通过该平台轻松创建、运行和可视化 3D 生物模拟。BioDynaMo 平台建立在最新的计算技术之上，将使用户能够执行以前无法实现的规模和复杂性的模拟，从而有可能解决具有挑战性的科学研究问题。
+
+[RasmussenLab/vamb](https://github.com/RasmussenLab/vamb) 用于宏基因组分档的变分自动编码器
+
+[XieResearchGroup/DeepREAL](https://github.com/XieResearchGroup/DeepREAL) 深度学习驱动的多尺度建模框架，用于预测配体结合的分布外受体活性
+
+[rankchen121212/RHSNet](https://github.com/frankchen121212/RHSNet) 用于重组热点识别和量化的 RHSNet 的 TF 和 Keras 实现。 重组热点是基因组中相对于中性预期表现出重组率升高的区域。热点内的重组率可以是周围区域的数百倍。 重组热点是由这些区域中较高的 DNA 断裂形成引起的，适用于有丝分裂和减数分裂细胞。这个称谓可以指由程序减数分裂双链断裂的不均匀分布引起的重组事件。通过交叉进行的减数分裂重组被认为是细胞促进同源染色体正确分离和修复 DNA 损伤的机制。交叉需要 DNA 双链断裂，然后是同源物的链入侵和随后的修复。
 
 # 机器视觉
 
@@ -2529,8 +2561,6 @@ ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移动人体姿势模型
 
 [PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting) 可在任意视频上做实时高清人物抠像.
 
-[mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
-
 [changgyhub/deepsketch2face](https://github.com/changgyhub/deepsketch2face)  用于 3D 面部和漫画建模的基于深度学习的草图系统。
 
 [YadiraF/DECA](https://github.com/YadiraF/DECA) 详细的表情捕捉和动画（SIGGRAPH 2021）.从单个输入图像重建具有详细面部几何形状的 3D 头部模型。生成的 3D 头部模型可以轻松制作动画。
@@ -2549,8 +2579,6 @@ ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移动人体姿势模型
 
 [MobileStyleGAN.pytorch](https://github.com/bes-dev/MobileStyleGAN.pytorch) 用于高保真图像合成的轻量级卷积神经网络
 
-[mchong6/JoJoGAN](https://github.com/mchong6/JoJoGAN) JoJoGAN 的官方 PyTorch 存储库：One Shot Face Stylization 人脸风格化
-
 [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) GFPGAN 旨在开发用于真实世界面部恢复的实用算法。
 
 [人脸识别常用开源数据集大全](https://mp.weixin.qq.com/s/bcYmSh6cli7kPeEOgmw3mg) 哥伦比亚大学公众人物脸部数据、CelebA人脸、美国国防部人脸、MTFL人脸、BioID人脸、PersonID人脸识别数据集、CMU PIE人脸库、Youtube视频人脸、CASIA 人脸图像、# Caltech人脸数据库
@@ -2558,6 +2586,8 @@ ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移动人体姿势模型
 [sallymmx/ActionCLIP](https://github.com/sallymmx/ActionCLIP) 视频动作识别的新范式
 
 [IGLICT/DeepFaceDrawing-Jittor](https://github.com/IGLICT/DeepFaceDrawing-Jittor) 从草图中深度生成人脸图像
+
+[RameenAbdal/StyleFlow](https://github.com/RameenAbdal/StyleFlow) 使用条件连续归一化流对 StyleGAN 生成的面部图像进行属性条件探索
 
 ## 图像恢复
 
@@ -2596,6 +2626,12 @@ JiaquanYe/MASTER-mmocr 本项目是 MMOCR 对 MASTER: Multi-Aspect Non-local Net
 - SEED是基于语义的方法。它引入了一个语义模块来提取全局语义嵌入并利用它来初始化解码器的第一个隐藏状态。SEED的解码器在继承ASTER结构的同时，吸收语义嵌入为识别过程提供先验，从而在识别低质量文本图像方面表现出优越性。
 
 - TransOCR 是基于 Transformer 的方法之一。它最初旨在为超分辨率任务提供文本先验。它使用 ResNet-34 作为编码器，使用自注意力模块作为解码器。与基于 RNN 的解码器不同，自注意力模块更有效地捕获给定文本图像的语义特征。
+
+[adeline-cs/GTR](https://github.com/adeline-cs/GTR) 场景文字识别 现有的场景文本识别（STR）方法通常使用语言模型来优化视觉识别（VR）模型预测的一维字符序列的联合概率，忽略字符实例内部和之间的视觉语义的二维空间上下文，使它们不能很好地推广到任意形状的场景文本。为了解决这个问题，本文中首次尝试基于视觉语义进行文本推理。从技术上讲，给定 VR 模型预测的字符分割图，我们为每个实例构建一个子图，其中节点表示其中的像素，并根据它们的空间相似性在节点之间添加边。然后，这些子图通过它们的根节点顺序连接并合并成一个完整的图。
+
+
+
+
 
 ## 视频补帧
 
@@ -2653,6 +2689,28 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [hkchengrex/XMem](https://github.com/hkchengrex/XMem) [ECCV 2022]使用 Atkinson-Shiffrin 模型进行长期视频对象分割
 
+[ytongbai/ViTs-vs-CNNs](https://github.com/ytongbai/ViTs-vs-CNNs) 变形金刚比 CNN 更强大吗
+
+在测量对抗鲁棒性时，Transformers 胜过 CNN。CNN 在防御对抗性攻击方面很容易像 Transformers 一样强大，如果它们正确采用 Transformers 的训练方法的话。虽然关于分布外样本的泛化，我们表明在（外部）大规模数据集上进行预训练并不是使 Transformer 能够获得比 CNN 更好的性能的基本要求。此外，我们的消融表明，这种更强的泛化在很大程度上得益于 Transformer 本身的类似自我注意的架构，而不是其他训练设置。我们希望这项工作可以帮助社区更好地理解和衡量 Transformer 和 CNN 的鲁棒性。
+
+## 图像风格
+
+[mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
+
+[mchong6/JoJoGAN](https://github.com/mchong6/JoJoGAN) JoJoGAN 的官方 PyTorch 存储库：One Shot Face Stylization 人脸风格化
+
+[orpatashnik/StyleCLIP](https://github.com/orpatashnik/StyleCLIP) 文本驱动的StyleGAN风格生成图像处理
+
+[syz825211943/Multi-Style-Photo-Cartoonization](https://github.com/syz825211943/Multi-Style-Photo-Cartoonization) 多风格照片卡通化
+
+[bryandlee/animegan2-pytorch](https://github.com/bryandlee/animegan2-pytorch) AnimeGANv2 的 PyTorch 实现 基于 CartoonGAN 的改进,并提出了一个更加轻量级的动漫风格效果生成器架构.
+
+[TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) AnimeGAN 的改进版本。风景照片/视频到动漫风格
+
+[PaddlePaddle/PaddleGAN/](https://github.com/PaddlePaddle/PaddleGAN/) 飞桨生成对抗网络开发套件--PaddleGAN，为开发者提供经典及前沿的生成对抗网络高性能实现，并支撑开发者快速构建、训练及部署生成对抗网络，以供学术、娱乐及产业应用。包括：人脸属性编辑之年龄变换 一键实现变老变年轻；视频超分SOTA算法PP-MSVSR；StyleGAN V2人脸属性编辑之性别转换；LapStyle风格迁移；人脸融合能力，结合新版Frirst Order Motion，实现人脸完美融合并带有丰富表情；真实照片转油画风格；人脸融合、风格迁移、老视频修复、人脸动作迁移、超分辨率、妆容迁移、人脸动漫化、写实人像卡通化、照片动漫化、唇形同步
+
+
+
 ## 其他_机器视觉
 
 [taichi-dev/taichi](https://github.com/taichi-dev/taichi) 高效且可移植的 Python 高性能编程。该语言具有广泛的应用，包括实时物理模拟、数字计算、增强现实、人工智能、视觉和机器人技术、电影和游戏中的视觉效果、通用计算等等。
@@ -2663,21 +2721,17 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [facebookresearch/AugLy](https://github.com/facebookresearch/AugLy) 用于音频、图像、文本和视频的数据增强库。
 
-hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以在浏览器中执行实时实例分割
+https://github.com/hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以在浏览器中执行实时实例分割
 
 [extreme-assistant/CVPR2021-Paper-Code-Interpretation](https://github.com/extreme-assistant/CVPR2021-Paper-Code-Interpretation) cvpr2021/cvpr2020/cvpr2019/cvpr2018/cvpr2017 论文/代码/解读/直播合集，极市团队整理
 
-LeonLok/Multi-Camera-Live-Object-Tracking 多摄像头实时目标跟踪和计数，使用YOLOv4，Deep SORT和Flask
+https://github.com/LeonLok/Multi-Camera-Live-Object-Tracking 多摄像头实时目标跟踪和计数，使用YOLOv4，Deep SORT和Flask
 
-kornia/kornia 基于 PyTorch 的可微分的计算机视觉 （differentiable computer vision） 开源库， 实现了：可微的基础计算机视觉算子。可微的数据增广（differentiable data augmentation）。OpenCV 和 PIL 都是不可微的，所以这些处理都只可以作为图像的预处理而无法通过观察梯度的变化来对这些算子进行优化 （gradient-based optimization）。因此，Kornia 便应运而生。
+https://github.com/kornia/kornia 基于 PyTorch 的可微分的计算机视觉 （differentiable computer vision） 开源库， 实现了：可微的基础计算机视觉算子。可微的数据增广（differentiable data augmentation）。OpenCV 和 PIL 都是不可微的，所以这些处理都只可以作为图像的预处理而无法通过观察梯度的变化来对这些算子进行优化 （gradient-based optimization）。因此，Kornia 便应运而生。
 
 architras/Advanced_Lane_Lines 基于阈值的车道标记
 
 facebookresearch/pytorch3d 基于PyTorch将深度学习与3D进行结合的研究框架。
-
-orpatashnik/StyleCLIP 文本驱动的StyleGAN风格生成图像处理
-
-[syz825211943/Multi-Style-Photo-Cartoonization](https://github.com/syz825211943/Multi-Style-Photo-Cartoonization) 多风格照片卡通化
 
 facebookresearch/pytorchvideo 为视频理解研究打造的深度学习库。
 
@@ -2749,10 +2803,6 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [lucidrains/nuwa-pytorch](https://github.com/lucidrains/nuwa-pytorch) 在 Pytorch 中实现 NÜWA，用于文本到视频合成的最先进的注意力网络
 
-[bryandlee/animegan2-pytorch](https://github.com/bryandlee/animegan2-pytorch) AnimeGANv2 的 PyTorch 实现 基于 CartoonGAN 的改进,并提出了一个更加轻量级的动漫风格效果生成器架构.
-
-[TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) [开源]。AnimeGAN 的改进版本。风景照片/视频到动漫风格
-
 [google-research-datasets/conceptual-captions](https://github.com/google-research-datasets/conceptual-captions) 包含（图像URL、字幕）对的数据集，用于机器学习图像字幕系统的训练和评估。数据集有约330万张图像(CC3M)和1200万张图像(CC12M)两个版本，并通过一个简单的过滤程序从网络自动收集弱相关描述。 
 
 [ShannonAI/OpenViDial](https://github.com/ShannonAI/OpenViDial) 一个大规模多模态对话数据集.当人类交谈时，说话者接下来会说什么很大程度上取决于他所看到的。OpenViDial 是用于此目的的大型多模块对话数据集。这些对话回合和视觉上下文是从电影和电视剧中提取的，其中每个对话回合都与它发生的相应视觉上下文配对。对于OpenViDial 1.0，共包含 110 万个对话轮次，因此图像中存储了 110 万个视觉上下文。对于OpenViDial 2.0，包含 560 万个对话轮次以及 560 万个存储在图像中的视觉上下文。基于OpenViDial，同时提出了三个模型，以不同的粒度融合视觉信息，预测下一句的对话内容。
@@ -2762,8 +2812,6 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [https://github.com/openai/glide-text2im](https://github.com/openai/glide-text2im) 基于扩散的文本条件图像合成模型。以文本提示为条件的图像；填充图像的蒙版区域，以文本提示为条件；使用 GLIDE（过滤）+ 过滤噪声感知 CLIP 模型来生成以文本提示为条件的图像。
 
 [SysCV/pcan](https://github.com/SysCV/pcan) 用于多对象跟踪和分割的原型交叉注意网络
-
-[PaddlePaddle/PaddleGAN/](https://github.com/PaddlePaddle/PaddleGAN/) 飞桨生成对抗网络开发套件--PaddleGAN，为开发者提供经典及前沿的生成对抗网络高性能实现，并支撑开发者快速构建、训练及部署生成对抗网络，以供学术、娱乐及产业应用。包括：StyleGAN V2人脸属性编辑之年龄变换 一键实现变老变年轻；视频超分SOTA算法PP-MSVSR；StyleGAN V2人脸属性编辑之性别转换；LapStyle风格迁移；人脸融合能力，结合新版Frirst Order Motion，实现人脸完美融合并带有丰富表情；真实照片转油画风格；人脸融合、风格迁移、老视频修复、人脸动作迁移、超分辨率、妆容迁移、人脸动漫化、写实人像卡通化、照片动漫化、唇形同步
 
 [google-research/scenic](https://github.com/google-research/scenic) Scenic：用于计算机视觉研究及其他领域的 Jax 库
 
@@ -2862,6 +2910,8 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [Jittor/JNeRF](https://github.com/Jittor/JNeRF) 基于 Jittor 的 NeRF 基准测试。JNeRF 重新实现了 Instant-ngp 并达到了与原始论文相同的性能。
 
 [THUDM/CogVideo](https://github.com/THUDM/CogVideo) 文本到视频生成的代码和模型，只支持简体中文输入。
+
+
 
 # 虚拟化
 
@@ -3114,6 +3164,10 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 # 网络
 
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
+
+* [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
+
+* [https://github.com/logto-io/logto](https://github.com/logto-io/logto)  帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
 
 * [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别的查询效率，提供了众多主流编程语言的 xdb 数据生成和查询客户端实现。
 
@@ -3507,7 +3561,19 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [shadow1ng/fscan](https://github.com/shadow1ng/fscan) 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
 
+* [erev0s/VAmPI](https://github.com/erev0s/VAmPI) 用 Flask 制作的易受攻击的 API，它包括来自 OWASP 前 10 个 API 漏洞的漏洞。
+
+* [3nock/sub3suite](https://github.com/3nock/sub3suite) 用于子域枚举、OSINT 信息收集和攻击面映射的研究级工具套件。支持对具有许多可用功能和工具的各种目标类型进行手动和自动分析。
+
+* [FirmWire/FirmWire](https://github.com/FirmWire/FirmWire) 一个全系统基带固件仿真平台，用于对智能手机基带固件进行模糊测试、调试和根本原因分析
+
+* [user1342/DroidDetective](https://github.com/user1342/DroidDetective) 适用于 Android 应用程序的机器学习恶意软件分析框架。
+
+* [BWASP/BWASP](https://github.com/BWASP/BWASP) 一个开源的分析工具，用于支持 Web 漏洞手动分析
+
 # 其他
+
+* [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
 
 * [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
 
@@ -3720,6 +3786,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [clear-code-projects/Zelda](https://github.com/clear-code-projects/Zelda) 用 Python 构建一个塞尔达风格的游戏
 
 * [ijl/orjson](https://github.com/ijl/orjson) 支持数据类、日期时间和 numpy 的高速、准确的 Python JSON 库
+
+* [polybar/polybar](https://github.com/polybar/polybar) 快速且易于使用的状态栏
 
 # Star数变化
 
