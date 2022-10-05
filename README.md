@@ -50,7 +50,9 @@
 
 * [microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
 
-* [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周，20 节课，全民数据科学！
+* [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周20 节课，全民数据科学！
+
+* [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)  在 YouTube 上发现最新的机器学习/人工智能课程。
 
 * [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) 机器学习操作 (MLOps)，可自动执行并加速机器学习生命周期。精选的参考文献列表。
 
@@ -144,6 +146,8 @@
 * [pycaret/pycaret](https://github.com/pycaret/pycaret) Python中的开源，低代码机器学习库
 
 * [thuml/Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library) 用于迁移学习的开源且文档齐全的库。它基于具有高性能和友好API的纯PyTorch。当前支持的算法包括：领域对抗神经网络（DANN）深度适应网络（DAN）联合适应网络（JAN）条件域对抗网络（CDAN）最大分类器差异（MCD）Margin Disparity Discrepancy 保证金差异（MDD）
+
+* [jxhe/unify-parameter-efficient-tuning](https://github.com/jxhe/unify-parameter-efficient-tuning) 参数高效迁移学习 (PETL) 方法仅调整少量（额外）参数以使大型预训练模型适应下游任务。
 
 * [FedML-AI/FedML](https://github.com/FedML-AI/FedML) 面向研究的联邦学习库。支持分布式计算，移动/IoT设备训练和模拟
 
@@ -1351,6 +1355,8 @@
 * [OpenKG-ORG/OpenUE](https://github.com/openkg-org/openue) 一个从文本中通用提取的开放工具包
 
 * 131250208/TPlinker-joint-extraction 联合抽取模型 实体关系联合抽取标注关系抽取方案
+
+* [bojone/GPLinker](https://github.com/bojone/GPLinker) 基于GlobalPointer的实体/关系/事件抽取
 
 * TanyaZhao/MRC4ERE_plus 基于机器阅读理解的联合实体关系提取框架
 
@@ -2629,10 +2635,6 @@ JiaquanYe/MASTER-mmocr 本项目是 MMOCR 对 MASTER: Multi-Aspect Non-local Net
 
 [adeline-cs/GTR](https://github.com/adeline-cs/GTR) 场景文字识别 现有的场景文本识别（STR）方法通常使用语言模型来优化视觉识别（VR）模型预测的一维字符序列的联合概率，忽略字符实例内部和之间的视觉语义的二维空间上下文，使它们不能很好地推广到任意形状的场景文本。为了解决这个问题，本文中首次尝试基于视觉语义进行文本推理。从技术上讲，给定 VR 模型预测的字符分割图，我们为每个实例构建一个子图，其中节点表示其中的像素，并根据它们的空间相似性在节点之间添加边。然后，这些子图通过它们的根节点顺序连接并合并成一个完整的图。
 
-
-
-
-
 ## 视频补帧
 
 [hzwer/arXiv2020-RIFE](https://github.com/hzwer/arXiv2020-RIFE) 视频帧插值的实时中级流量估计.旷视和北大提出的一种实时中间流估计算法。用于视频帧插值，能够改善伪影、让视频更丝滑。
@@ -2708,8 +2710,6 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) AnimeGAN 的改进版本。风景照片/视频到动漫风格
 
 [PaddlePaddle/PaddleGAN/](https://github.com/PaddlePaddle/PaddleGAN/) 飞桨生成对抗网络开发套件--PaddleGAN，为开发者提供经典及前沿的生成对抗网络高性能实现，并支撑开发者快速构建、训练及部署生成对抗网络，以供学术、娱乐及产业应用。包括：人脸属性编辑之年龄变换 一键实现变老变年轻；视频超分SOTA算法PP-MSVSR；StyleGAN V2人脸属性编辑之性别转换；LapStyle风格迁移；人脸融合能力，结合新版Frirst Order Motion，实现人脸完美融合并带有丰富表情；真实照片转油画风格；人脸融合、风格迁移、老视频修复、人脸动作迁移、超分辨率、妆容迁移、人脸动漫化、写实人像卡通化、照片动漫化、唇形同步
-
-
 
 ## 其他_机器视觉
 
@@ -2910,8 +2910,6 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [Jittor/JNeRF](https://github.com/Jittor/JNeRF) 基于 Jittor 的 NeRF 基准测试。JNeRF 重新实现了 Instant-ngp 并达到了与原始论文相同的性能。
 
 [THUDM/CogVideo](https://github.com/THUDM/CogVideo) 文本到视频生成的代码和模型，只支持简体中文输入。
-
-
 
 # 虚拟化
 
@@ -3165,9 +3163,13 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
 
+* [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
+
 * [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
 
-* [https://github.com/logto-io/logto](https://github.com/logto-io/logto)  帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
+* [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)  网络如何运作 当我们在浏览器中输入 google.com 时，幕后会发生什么？
+
+* [logto-io/logto](https://github.com/logto-io/logto)  帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
 
 * [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别的查询效率，提供了众多主流编程语言的 xdb 数据生成和查询客户端实现。
 
@@ -3571,6 +3573,72 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [BWASP/BWASP](https://github.com/BWASP/BWASP) 一个开源的分析工具，用于支持 Web 漏洞手动分析
 
+* [djadmin/awesome-bug-bounty](https://github.com/djadmin/awesome-bug-bounty) Bug 赏金计划的综合列表和文章。
+
+* [Gapsdehal/awesome-ctf](https://github.com/apsdehal/awesome-ctf) [Capture The Flag](https://en.wikipedia.org/wiki/Capture_the_flag%23Computer_security) (CTF) 框架、库、资源、软件和教程的精选列表。此列表旨在帮助初学者和经验丰富的 CTF 玩家在一个地方找到与 CTF 相关的所有内容。
+
+* [Viralmaniar/BigBountyRecon](https://github.com/Viralmaniar/BigBountyRecon) 使用 58 种不同的技术，使用各种 Google dorks 和开源工具来加快对目标组织的初始侦察过程。
+
+* [j3ssie/osmedeus](https://github.com/j3ssie/osmedeus) Osmedeus 是用于进攻性安全的工作流引擎。它旨在构建具有能力和灵活性的基础，使您能够构建自己的侦察系统并在大量目标上运行它。
+
+* [hahwul/dalfox](https://github.com/hahwul/dalfox) 一款功能强大的开源 XSS 扫描工具和参数分析器、实用工具
+
+* [zricethezav/gitleaks](https://github.com/zricethezav/gitleaks) 用于检测和防止git repos 中的密码、api 密钥和令牌等硬编码秘密。易于使用的一体化解决方案，用于检测代码中过去或现在的秘密。
+
+* [streaak/keyhacks](https://github.com/streaak/keyhacks) KeyHacks 展示了可以使用在错误赏金计划中找到的特定 API key密钥的方法，以检查它们是否有效。
+
+* [m4ll0k/takeover](https://github.com/m4ll0k/takeover) 子域接管漏洞扫描程序
+
+* [p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird) 一个 OSINT 工具，用于在社交网络中按用户名搜索帐户。
+
+* [NextronSystems/ransomware-simulator](https://github.com/NextronSystems/ransomware-simulator) 用 Golang 编写的勒索软件模拟器
+
+* [devanshbatham/ParamSpider](https://github.com/devanshbatham/ParamSpider) 从 Web 档案的黑暗角落挖掘参数。 从输入域的网络档案中查找参数。也从子域中查找参数。支持排除具有特定扩展名的 url。以干净整洁的方式保存输出结果。它从网络档案中挖掘参数（不与目标主机交互）
+
+* [epsylon/xsser](https://github.com/epsylon/xsser) Cross Site "Scripter" (aka XSSer) 是一个自动框架，用于检测、利用和报告基于 Web 的应用程序中的 XSS 漏洞。
+
+* [0xJin/awesome-bugbounty-builder](https://github.com/0xJin/awesome-bugbounty-builder) 令人敬畏的bug赏金建设者项目
+
+* [OTRF/ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook) 一个社区驱动的开源项目，用于共享检测逻辑、对手的技术和资源，以提高检测开发的效率。
+
+* [EdOverflow/bugbounty-cheatsheet](https://github.com/EdOverflow/bugbounty-cheatsheet) 漏洞猎人的载荷、提示和技巧的列表。
+
+* [lanmaster53/recon-ng](https://github.com/lanmaster53/recon-ng) 开源情报收集工具，减少从开源收集信息所花费的时间。
+
+* [projectdiscovery/httpx](https://github.com/projectdiscovery/httpx) 快速且多用途的 HTTP 工具包，它允许使用 retryablehttp 库运行多个探针。它旨在通过增加线程数来保持结果可靠性。
+
+* [s0md3v/Arjun](https://github.com/s0md3v/Arjun) HTTP 参数发现套件。它使用包含 25,890 个参数名称的巨大默认字典找到有效的 HTTP 参数。
+
+* [ron190/jsql-injection](https://github.com/ron190/jsql-injection) 用于自动 SQL 数据库注入的 Java 应用程序。
+
+* [defparam/smuggler](https://github.com/defparam/smuggler) HTTP 请求走私/去同步测试工具.请求走私大多发生于前端服务器和后端服务器对客户端传入的数据理解不一致的情况。这是因为HTTP规范提供了两种不同的方法来指定请求的结束位置，即 Content-Length 和 Transfer-Encoding 标头。[协议层的攻击——HTTP请求走私](https://paper.seebug.org/1048/)
+
+* [1N3/Sn1per](https://github.com/1N3/Sn1per) 自动侦察扫描程序，用于发现资产并用最新开源工具和技术扫描漏洞。
+
+* [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) 自动化 OSINT 以获取威胁情报并映射您的攻击面。
+
+* [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) 基于简单 YAML 的 DSL 的快速且可定制的漏洞扫描器。
+
+* [jaeles-project/jaeles](https://github.com/jaeles-project/jaeles) 用于自动化 Web 应用程序测试的瑞士军刀
+
+* [michelin/ChopChop](https://github.com/michelin/ChopChop) 帮助开发人员扫描端点并识别敏感服务/文件/文件夹的公开。
+
+* [FortyNorthSecurity/EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) 截取网站截图，提供一些服务器标头信息，并在可能的情况下识别默认凭据。分析不同的 Web 应用程序，并将相似的 Web 应用程序分组在一起，那么可以很容易地快速分类/查看您想要定位的组。
+
+* [tomnomnom/meg](https://github.com/tomnomnom/meg) 为许多主机获取许多路径 - 不杀死主机
+
+* [lc/gau](https://github.com/lc/gau) 从 AlienVault 的 Open Threat Exchange、Wayback Machine 和 Common Crawl 获取已知 URL。
+
+* [hannob/snallygaster](https://github.com/hannob/snallygaster) 用于扫描 HTTP 服务器上的机密文件的工具
+
+* [nmap/nmap](https://github.com/nmap/nmap) 网络映射器 网络端口扫描器。
+
+* [fuzzdb-project/fuzzdb](https://github.com/fuzzdb-project/fuzzdb) 黑盒应用程序故障注入和资源发现的攻击模式和原语字典。
+
+* [jhaddix/tbhm](https://github.com/jhaddix/tbhm) Bug Hunters 漏洞猎人方法论
+
+* [HolyBugx/HolyTips](https://github.com/HolyBugx/HolyTips) 关于漏洞赏金狩猎和 Web 安全性的注释、清单、文章的集合。
+
 # 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -3621,21 +3689,23 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) 用 Java 实现的设计模式
 
-* modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
+* https://github.com/modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
 
-* huihut/interview C/C++ 技术面试基础知识总结
+* https://github.com/huihut/interview C/C++ 技术面试基础知识总结
 
-* barry-ran/QtScrcpy Android实时显示控制软件
+* https://github.com/barry-ran/QtScrcpy Android实时显示控制软件
 
-* bennettfeely/bennett ztext 易于实现的3D网页排版。适用于每种字体。
+* https://github.com/bennettfeely/bennett ztext 易于实现的3D网页排版。适用于每种字体。
 
-* DaveJarvis/keenwrite 基于Java的桌面Markdown编辑器，具有实时预览，字符串插值和公式
+* https://github.com/DaveJarvis/keenwrite 基于Java的桌面Markdown编辑器，具有实时预览，字符串插值和公式
 
-* vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
+* https://github.com/vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
 
-* willmcgugan/rich 一个终端内富文本和美化的python库。
+* https://github.com/willmcgugan/rich 一个终端内富文本和美化的python库。
 
-* crazycodeboy/awesome-flutter-cn  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
+* https://github.com/crazycodeboy/awesome-flutter-cn  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
+
+* [osoutpost/awesome-flutter-cn](https://github.com/osoutpost/awesome-flutter-cn) Flutter 资源大全中文版。包括：组件、导航、模板、插件、框架和引擎等
 
 * xujiyou/zhihu-flutter  Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
 
@@ -3659,59 +3729,59 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [xujiyou/zhihu-flutter](https://github.com/xujiyou/zhihu-flutter) Flutter 高仿知乎 UI，非常漂亮，也非常流畅。
 
-* nisrulz/flutter-examples 给初露头角的flutter开发者的简单基本的应用程序示例。
+* https://github.com/nisrulz/flutter-examples 给初露头角的flutter开发者的简单基本的应用程序示例。
 
-* microsoft/playwright-python 针对 Python 语言的纯自动化工具，它可以通过单个API自动执行 Chromium，Firefox 和 WebKit 浏览器，连代码都不用写，就能实现自动化功能。
+* https://github.com/microsoft/playwright-python 针对 Python 语言的纯自动化工具，它可以通过单个API自动执行 Chromium，Firefox 和 WebKit 浏览器，连代码都不用写，就能实现自动化功能。
 
-* hoffstadt/DearPyGui 一个针对Python的快速而强大的图形用户界面工具包，具有最小的依赖性
+* https://github.com/hoffstadt/DearPyGui 一个针对Python的快速而强大的图形用户界面工具包，具有最小的依赖性
 
-* emeryberger/scalene 适用于Python的高性能，高精度CPU和内存分析器.用于Python脚本的CPU和内存分析器，能够正确处理多线程代码，还能区分Python代码和本机代码的运行时间。
+* https://github.com/emeryberger/scalene 适用于Python的高性能，高精度CPU和内存分析器.用于Python脚本的CPU和内存分析器，能够正确处理多线程代码，还能区分Python代码和本机代码的运行时间。
 
-* raysan5/raylib 一个简单易用的视频游戏编程库 
+* https://github.com/raysan5/raylib 一个简单易用的视频游戏编程库 
 
-* rwv/chinese-dos-games 中文 DOS 游戏
+* https://github.com/rwv/chinese-dos-games 中文 DOS 游戏
 
-* nondanee/UnblockNeteaseMusic 解锁网易云音乐客户端变灰歌曲
+* https://github.com/nondanee/UnblockNeteaseMusic 解锁网易云音乐客户端变灰歌曲
 
-* fffaraz/awesome-cpp A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+* https://github.com/fffaraz/awesome-cpp A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 
-* Genymobile/scrcpy 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
+* https://github.com/Genymobile/scrcpy 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
 
 * [xiangyuecn/Recorder](https://github.com/xiangyuecn/Recorder) html5 js 录音 mp3 wav ogg webm amr 格式，支持pc和Android、iOS部分浏览器、Hybrid App（提供Android iOS App源码）、微信
 
 * [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) 一款高度奇幻题材的开源回合制策略游戏。
 
-* openstf/minitouch 最小的Android多点触控事件生成器。
+* https://github.com/openstf/minitouch 最小的Android多点触控事件生成器。
 
-* gozfree/gear-lib 一组通用的Ｃ基础库，用POSIX C实现，目标是为了跨平台兼容。适用于物联网，嵌入式，以及网络服务开发等场景。
+* https://github.com/gozfree/gear-lib 一组通用的Ｃ基础库，用POSIX C实现，目标是为了跨平台兼容。适用于物联网，嵌入式，以及网络服务开发等场景。
 
-* tangtangcoding/C-C- C语言电子书与视频资料分享
+* https://github.com/tangtangcoding/C-C- C语言电子书与视频资料分享
 
-* fluttercandies/wechat_flutter Flutter版本微信，一个优秀的Flutter即时通讯IM开源库
+* https://github.com/fluttercandies/wechat_flutter Flutter版本微信，一个优秀的Flutter即时通讯IM开源库
 
-* CoderMikeHe/flutter_wechat 利用 Flutter 来高仿微信(WeChat) 7.0.0+ App
+* https://github.com/CoderMikeHe/flutter_wechat 利用 Flutter 来高仿微信(WeChat) 7.0.0+ App
 
-* youxinLu/flutter_mall 一款Flutter开源在线商城应用程序
+* https://github.com/youxinLu/flutter_mall 一款Flutter开源在线商城应用程序
 
-* ducafecat/flutter_learn_news  flutter实战学习-新闻客户端 
+* https://github.com/ducafecat/flutter_learn_news  flutter实战学习-新闻客户端 
 
-* freestyletime/FlutterNews  用Flutter写的新闻类小项目 
+* https://github.com/freestyletime/FlutterNews  用Flutter写的新闻类小项目 
 
 * [imaNNeoFighT/fl_chart](https://github.com/imaNNeoFighT/fl_chart) FL Chart 是一个高度可定制的 Flutter 图表库，支持折线图、条形图、饼图、散点图和雷达图。
 
-* linyacool/WebServer C++11编写的Web服务器
+* https://github.com/linyacool/WebServer C++11编写的Web服务器
 
-* sanic-org/sanic 异步 Python 3.7+ web 框架 
+* https://github.com/sanic-org/sanic 异步 Python 3.7+ web 框架 
 
-* davidbrochart/nbterm 让你在终端中查看、编辑、执行Jupyter笔记。
+* https://github.com/davidbrochart/nbterm 让你在终端中查看、编辑、执行Jupyter笔记。
 
-* SocialSisterYi/bilibili-API-collect  哔哩哔哩-API收集整理
+* https://github.com/SocialSisterYi/bilibili-API-collect  哔哩哔哩-API收集整理
 
-* jobbole/awesome-python-cn Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等
+* https://github.com/jobbole/awesome-python-cn Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等
 
-* saghul/txiki.js 使用 QuickJS、libuv 构建的微型 JavaScript 运行时
+* https://github.com/saghul/txiki.js 使用 QuickJS、libuv 构建的微型 JavaScript 运行时
 
-* dblalock/bolt 矩阵和向量运算速度提高 10 倍
+* https://github.com/dblalock/bolt 矩阵和向量运算速度提高 10 倍
 
 * [TheZoraiz/ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) 将图像转换为 ascii 艺术并在控制台上打印它们。
 
@@ -3788,6 +3858,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [ijl/orjson](https://github.com/ijl/orjson) 支持数据类、日期时间和 numpy 的高速、准确的 Python JSON 库
 
 * [polybar/polybar](https://github.com/polybar/polybar) 快速且易于使用的状态栏
+
+* [yudai/gotty](https://github.com/yudai/gotty) 将您的终端共享为 Web 应用程序
 
 # Star数变化
 
