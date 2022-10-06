@@ -881,7 +881,11 @@
 
 * [lucidrains/FLASH-pytorch](https://github.com/lucidrains/FLASH-pytorch) 线性时间的Transformer变体
 
-* [https://github.com/NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer) Transformer相关优化，包括BERT、GPT 。提供了一个脚本和配方来运行高度优化的基于转换器的编码器和解码器组件，它由 NVIDIA 测试和维护。可以带来性能加速。
+* [NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer) Transformer相关优化，包括BERT、GPT 。提供了一个脚本和配方来运行高度优化的基于转换器的编码器和解码器组件，它由 NVIDIA 测试和维护。可以带来性能加速。
+
+* [HazyResearch/flash-attention](https://github.com/HazyResearch/flash-attention) 快速且节省内存的精确注意力
+
+* [NetEase-FuXi/EET](https://github.com/NetEase-FuXi/EET) 针对Transformer-based大模型和长序列场景的高性能pytorch推理插件。高性能：设计高度优化的CUDA内核。灵活：提供了包括op api、model api和pipelines应对不同的需求。 易于使用： 几行代码即可完成。适配主流ai框架，包括fairseq和transformers。bert模型整体性能加速1.2x到7.x倍，gpt模型整体性能加速2.x到7.x倍。
 
 ## BERT优化
 
@@ -949,6 +953,8 @@
   * **EVA.** EVA [[3](https://bminf.readthedocs.io/zh_CN/latest/introduction-zh.html#ref)] 是有着28亿参数的中文预训练对话模型。EVA在很多对话任务上表现优异，尤其是在多轮人机交互对话任务上。
 
 * [CyberZHG/keras-xlnet](https://github.com/CyberZHG/keras-xlnet) XLNet的非官方实现。
+
+* [IDEA-CCNL/Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) Fengshenbang-LM(封神榜大模型)是IDEA研究院认知计算与自然语言研究中心主导的大模型开源体系，成为中文认知智能的基础设施。包括了自然语言理解(NLU)，自然语言生成(NLG)和自然语言转换(NLT)任务。CHID(成语填空)、TNEWS(新闻分类)超过人类，CHID(成语填空)、CSLDCP(学科文献分类)、OCNLI(自然语言推理)单任务第一，刷新小样本学习记录。
 
 * [ymcui/Chinese-XLNet](https://github.com/ymcui/Chinese-XLNet) 面向中文的XLNet预训练模型
 
@@ -1175,6 +1181,8 @@
 * [danqi/acl2020-openqa-tutorial](https://github.com/danqi/acl2020-openqa-tutorial) 本教程对开放域问答 (QA) 的前沿研究进行了全面而连贯的概述，QA 是使用大量不同主题的文档来回答问题的任务。首先简要介绍历史背景，讨论研究问题的基本设置和核心技术挑战，然后描述具有通用评估指标和基准的现代数据集。然后，是在开放域QA中提出的前沿模型，包括两阶段检索器-阅读器方法、密集检索器和端到端训练以及无检索器方法。最后，介绍使用文本和大型知识库的混合方法，并以重要的开放性问题结束本教程。
 
 * [zhoujx4/DuReader-Checklist-BASELINE](https://github.com/zhoujx4/DuReader-Checklist-BASELINE) 百度2021年语言与智能技术竞赛机器阅读理解torch版baseline
+
+* [google-research/tapas](https://github.com/google-research/tapas) 端到端的神经表格文本理解模型。表格 QA 模型。
 
 ## 知识图谱问答KBQA、多跳推理
 
@@ -1425,6 +1433,8 @@
 [nltk/nltk](https://github.com/nltk/nltk) 支持自然语言处理研究和开发的开源 Python 模块、数据集和教程。
 
 https://github.com/huseinzol05/NLP-Models-Tensorflow 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
+
+[CLUEbenchmark/FewCLUE](https://github.com/CLUEbenchmark/FewCLUE) FewCLUE 小样本学习测评基准，中文版 小样本学习（Few-shot Learning）正是解决这类在极少数据情况下的机器学习问题。结合预训练语言模型通用和强大的泛化能力基础上，探索小样本学习最佳模型和中文上的实践，是本课题的目标。FewCLUE：中文小样本学习测评基准，基于CLUE的积累和经验，并结合少样本学习的特点和近期的发展趋势，精心设计了该测评，希望可以促进中文领域上少样本学习领域更多的研究、应用和发展。模型有5种不同的方式做任务，分别是使用预训练模型直接做下游任务微调、PET\RoBERTa为基础的Ptuning方式、GPT类模型为基础的Ptuning方式、使用RoBERTa或GPT做零样本学习。
 
 https://github.com/bojone/attention  Attention机制的实现tensorflow/keras
 
@@ -2521,6 +2531,8 @@ JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神�
 
 [rankchen121212/RHSNet](https://github.com/frankchen121212/RHSNet) 用于重组热点识别和量化的 RHSNet 的 TF 和 Keras 实现。 重组热点是基因组中相对于中性预期表现出重组率升高的区域。热点内的重组率可以是周围区域的数百倍。 重组热点是由这些区域中较高的 DNA 断裂形成引起的，适用于有丝分裂和减数分裂细胞。这个称谓可以指由程序减数分裂双链断裂的不均匀分布引起的重组事件。通过交叉进行的减数分裂重组被认为是细胞促进同源染色体正确分离和修复 DNA 损伤的机制。交叉需要 DNA 双链断裂，然后是同源物的链入侵和随后的修复。
 
+[microsoft/InnerEye-DeepLearning](https://github.com/microsoft/InnerEye-DeepLearning) 用于在 Azure 机器学习上训练和部署 3D 分割模型的医学影像深度学习库
+
 # 机器视觉
 
 ## 人像\姿势\3D人脸
@@ -3055,6 +3067,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 [m3o/m3o](https://github.com/m3o/m3o) 一个云平台，它将现有的公共 API 变成更小更易于使用的微服务，您可以在一个地方探索、发现和使用更简单的可编程构建块。该平台生成统一的 API 文档、客户端和示例，这使得使用所有 API 变得更加容易。
 
+[meta-soul/LakeSoul](https://github.com/meta-soul/LakeSoul) 一种基于数据湖的表结构存储，用于统一批处理和流式数据处理
+
 # 硬件
 
 ## RISC-V CPU
@@ -3223,6 +3237,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 # 安全与渗透
 
+- [nmap/nmap](https://github.com/nmap/nmap) 网络映射器 网络端口扫描器。
+
+- [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) 自动 SQL 注入和数据库接管工具
 * [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行、cli/web 工具等。
 
 * [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、
@@ -3248,13 +3265,37 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [xuanhusec/OscpStudyGroup](https://github.com/xuanhusec/OscpStudyGroup) Oscp公益学习组,包括：小技巧合集、Kali基本操作、常用工具、windows提权汇总、反弹shell方法汇总、靶机推荐列表、缓冲区溢出通关脚本框架、OSCP命令大全、反弹shell方法汇总、linux提权方法汇总、windows提权方法汇总、Linux提权辅助、Windows提权辅助、渗透测试方法论、靶机练习
 
+* [DanMcInerney/xsscrapy](https://github.com/DanMcInerney/xsscrapy) XSS 蜘蛛 - 检测到 66/66 wavsep XSS
+
 * [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) 用于渗透测试人员和开发人员的交互式 TLS 拦截 HTTP 代理。用于 MITM的 proxy，MITM即中间人攻击（Man-in-the-middle attack）。用于中间人攻击的代理首先会向正常的代理一样转发请求，保障服务端与客户端的通信，其次，会适时的查、记录其截获的数据，或篡改数据，引发服务端或客户端特定的行为。 不同于 fiddler 或 wireshark 等抓包工具，mitmproxy 不仅可以截获请求帮助开发者查看、分析，更可以通过自定义脚本进行二次开发。
 
 * [ybdt/post-hub](https://github.com/ybdt/post-hub) 传播代理、C2、免杀、横向、域渗透
 
+* [maK-/parameth](https://github.com/maK-/parameth) 该工具可用于暴力发现 GET 和 POST 参数
+
+* [hakluke/hakrawler](https://github.com/hakluke/hakrawler) 简单、快速的网络爬虫，旨在轻松、快速地发现网络应用程序中的端点和资产
+
+* [ffuf/ffuf](https://github.com/ffuf/ffuf) 用 Go 编写的快速网络模糊器 内容发现\虚拟主机发现\参数模糊\POST 数据模糊测试
+
+* [michenriksen/aquatone](https://github.com/michenriksen/aquatone) 跨大量主机对网站进行可视化检查的工具，便于快速了解基于 HTTP 的攻击面。
+
+* [tomnomnom/httprobe](https://github.com/tomnomnom/httprobe) 获取域列表并探测工作的 HTTP 和 HTTPS 服务器
+
+* [projectdiscovery/shuffledns](https://github.com/projectdiscovery/shuffledns) 使用主动暴力破解枚举有效的子域，并通过通配符处理和简单的输入输出支持来解析子域。
+
+* [ProjectAnte/dnsgen](https://github.com/ProjectAnte/dnsgen) 根据提供的输入生成域名组合。组合是根据单词表创建的。每次执行都会提取自定义词
+
+* [tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder) 查找与给定域相关的域和子域
+
+* [projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder) 子域发现工具，可以为网站发现有效的子域。设计为被动框架，可用于漏洞赏金和安全渗透测试。
+
+* [OWASP/Amass](https://github.com/OWASP/Amass) 使用开源信息收集和主动侦察技术执行攻击面的网络和资产发现。
+
 * [xuedingmiaojun/wxappUnpacker](https://github.com/xuedingmiaojun/wxappUnpacker) 小程序反编译（支持分包）
 
-* [wetools/wept](https://github.com/wetools/wept) 微信小程序多端实时运行工具.支持iOS Android Mac, Window 以及 Linux
+* [neargle/my-re0-k8s-security](https://github.com/neargle/my-re0-k8s-security) 从零开始Kubernetes攻防
+
+* [wetools/wept](https://github.com/wetools/wept) 微信小程序多端实时运行工具.支持iOS 安卓 Mac, Win 以及 Linux
 
 * [ffffffff0x/1earn](https://github.com/ffffffff0x/1earn) ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup
 
@@ -3312,7 +3353,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [MountCloud/FireKylin:](https://github.com/MountCloud/FireKylin) 麒麟-网络安全应急响应工具(系统痕迹采集)
 
-* [helloSystem/hello](https://github.com/helloSystem/hello) 专注于简单、优雅和可用性的创作者桌面系统。基于 FreeBSD。更少，但更好！
+* [helloSystem/hello](https://github.com/helloSystem/hello) 专注于简单、优雅和可用性的创作者桌面系统。基于 FreeBSD。
 
 * [hash3liZer/SillyRAT](https://github.com/hash3liZer/SillyRAT) 用纯 Python 编写的跨平台 RAT。RAT 接受命令和参数，以充当接受连接的服务器或充当与服务器建立连接的客户端/目标。
 
@@ -3360,7 +3401,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [slowmist/cryptocurrency-security](https://github.com/slowmist/cryptocurrency-security) 加密资产安全解决方案
 
-* [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan) 用于查找 log4j RCE CVE-2021-44228 的全自动、准确和广泛的扫描程序
+* [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan) 用于查找 log4j RCE CVE-2021-44228 的的扫描程序
 
 * [H4ckForJob/dirmap](https://github.com/H4ckForJob/dirmap) 一个高级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina、御剑。
 
@@ -3428,13 +3469,13 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [weixinbao/ReverseTool](https://github.com/weixinbao/ReverseTool) 逆向工具集合 Java & Jar (Android)、 C++ & So (Android)、 C# & Dll & EXE、iOS
 
-* [p0dalirius/DumpSMBShare](https://github.com/p0dalirius/DumpSMBShare) 用于从 Windows SMB 共享远程转储文件和文件夹的脚本。
+* [p0dalirius/DumpSMBShare](https://github.com/p0dalirius/DumpSMBShare) 从 Windows 共享 SMB 转储文件和文件夹的脚本。
 
-* [yhy0/github-cve-monitor](https://github.com/yhy0/github-cve-monitor) 实时监控github上新增的cve和安全工具更新，多渠道推送通知
+* [yhy0/github-cve-monitor](https://github.com/yhy0/github-cve-monitor) 实时监控github上新的cve和工具更新，多渠道推送通知
 
 * [whydee86/PlayWithDefender](https://github.com/whydee86/PlayWithDefender) 禁用和启用 Windows 防御者保护的简单工具
 
-* [xiecat/fofax](https://github.com/xiecat/fofax) 基于[https://fofa.info/](https://fofa.info/) API 的命令行查询工具
+* [xiecat/fofax](https://github.com/xiecat/fofax) 基于[ofa.info](https://fofa.info/) API 的命令行查询工具
 
 * [AntSwordProject/AntSword-Loader](https://github.com/AntSwordProject/AntSword-Loader) 蚁剑加载器
 
@@ -3446,7 +3487,17 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [FeeiCN/ESD](https://github.com/FeeiCN/ESD) Enumeration sub domains(枚举子域名)
 
-* [helloexp/0day](https://github.com/helloexp/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新
+* [d3mondev/puredns](https://github.com/d3mondev/puredns) 快速的域解析器和子域暴力破解工具，可以准确过滤掉通配符子域和 DNS 中毒条目。
+
+* [Karanxa/Bug-Bounty-Wordlists](https://github.com/Karanxa/Bug-Bounty-Wordlists) 包含在寻找错误时使用的所有重要字典
+
+* [payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list)  SQL 注入负载列表
+
+* [projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh) OOB交互收集服务器和客户端库。用于检测带外交互的开源工具。它是一种旨在检测导致外部交互的漏洞的工具。
+
+* [projectdiscovery/naabu](https://github.com/projectdiscovery/naabu) 用 go 编写的快速端口扫描器，专注于可靠性和简单性。旨在与其他工具结合使用，以在错误赏金和渗透测试中发现攻击面
+
+* [helloexp/0day](https://github.com/helloexp/0day) 各CMS、各平台、各系统、各软件漏洞的EXP、POC 
 
 * [4ra1n/JavaSecInterview](https://github.com/4ra1n/JavaSecInterview) Java安全研究与安全开发面试题库，同是也是常见知识点的梳理和总结，包含问题和详细的答案，计划定期更新
 
@@ -3631,13 +3682,17 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [hannob/snallygaster](https://github.com/hannob/snallygaster) 用于扫描 HTTP 服务器上的机密文件的工具
 
-* [nmap/nmap](https://github.com/nmap/nmap) 网络映射器 网络端口扫描器。
-
 * [fuzzdb-project/fuzzdb](https://github.com/fuzzdb-project/fuzzdb) 黑盒应用程序故障注入和资源发现的攻击模式和原语字典。
 
 * [jhaddix/tbhm](https://github.com/jhaddix/tbhm) Bug Hunters 漏洞猎人方法论
 
 * [HolyBugx/HolyTips](https://github.com/HolyBugx/HolyTips) 关于漏洞赏金狩猎和 Web 安全性的注释、清单、文章的集合。
+
+* [KingOfBugbounty/KingOfBugBountyTips](https://github.com/KingOfBugbounty/KingOfBugBountyTips) 分享一些知名漏洞猎人的技巧。使用侦察方法，我们能够找到已经可利用的子域、api 和令牌。
+
+* [nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters) 初学者漏洞猎人资源
+
+* [guchangan1/All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool) 全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms漏洞利用工具，爆破工具、内网横向及免杀、社工钓鱼以及应急响应等资料。
 
 # 其他
 
@@ -3860,6 +3915,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [polybar/polybar](https://github.com/polybar/polybar) 快速且易于使用的状态栏
 
 * [yudai/gotty](https://github.com/yudai/gotty) 将您的终端共享为 Web 应用程序
+
+* [pmgl/microstudio](https://github.com/pmgl/microstudio) 免费、开源的在线游戏引擎 nodejs
 
 # Star数变化
 
