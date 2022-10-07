@@ -1549,11 +1549,17 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 [HillZhang1999/MuCGEC](https://github.com/HillZhang1999/MuCGEC) MuCGEC中文纠错数据集及文本纠错SOTA模型开源
 
+[PengheLiu/Cn_Speck_Checker](https://github.com/PengheLiu/Cn_Speck_Checker) 通过统计方法对中文单词进行自动纠错
+
+[taozhijiang/chinese_correct_wsd](https://github.com/taozhijiang/chinese_correct_wsd) 简易中文纠错消歧 用户输入语句的同音自动纠错.
+
+[beyondacm/Autochecker4Chinese](https://github.com/beyondacm/Autochecker4Chinese) 中文文本错别字检测以及自动纠错
+
 # 推荐系统
 
 ## 推荐系统算法库与列表
 
-* https://github.com/shenweichen/DeepCTR Easy-to-use,Modular and Extendible package of deep-learning based CTR models for search and recommendation.
+* [shenweichen/DeepCTR](https://github.com/shenweichen/DeepCTR) 易于使用、模块化和可扩展的基于深度学习的 CTR 模型包，用于搜索和推荐。
 
 * [hongleizhang/RSPapers](https://github.com/hongleizhang/RSPapers) 推荐系统必读论文精选列表。
 
@@ -1561,7 +1567,9 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 * https://github.com/ChenglongChen/tensorflow-DeepFM
 
-* https://github.com/cheungdaven/DeepRec An Open-source Toolkit for Deep Learning based Recommendation with Tensorflow.
+* [alibaba/DeepRec](https://github.com/alibaba/DeepRec) 基于 TensorFlow 的推荐引擎。具有超大规模分布式训练能力，支持万亿样本的模型训练和千亿的Embedding Processing。针对稀疏模型场景，在CPU和GPU平台上进行了深度的性能优化。
+
+* [cheungdaven/DeepRec](https://github.com/cheungdaven/DeepRec) 基于 TensorFlow 的深度学习推荐的开源工具包。
 
 * https://github.com/lyst/lightfm A Python implementation of LightFM, a hybrid recommendation algorithm.
 
@@ -2131,51 +2139,53 @@ sjtu-marl/malib 专门面向 基于种群的多智能体深度强化学习 PB-MA
   * 详细的注释和文档，非常适合用于学习端到端语音识别的基础知识和实现细节。
   * 支持时间戳，对齐，端点检测，语言模型等相关功能。
 
-audier/DeepSpeechRecognition 基于深度学习的中文语音识别系统
+[k2-fsa/k2](https://github.com/k2-fsa/k2) 愿景是能够将有限状态自动机 (FSA) 和有限状态传感器 (FST) 算法无缝集成到基于 autograd 的机器学习工具包中，例如 PyTorch 和 TensorFlow。对于语音识别应用，这应该可以很容易地插入和组合各种训练目标，例如交叉熵、CTC 和 MMI，并联合优化具有多个解码通道的语音识别系统，包括格重新评分和置信度估计。
 
-ZhengkunTian/OpenTransformer 语音识别的无重复序列到序列模型，实现 aishell 6.7％的CER。
+https://github.com/audier/DeepSpeechRecognition 基于深度学习的中文语音识别系统
 
-alphacep/vosk-api Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node 支持十七种语言，提供中文语言模型。
+https://github.com/ZhengkunTian/OpenTransformer 语音识别的无重复序列到序列模型，实现 aishell 6.7％的CER。
 
-tencent-ailab/pika 基于Pytorch和Kaldi的轻量级语音处理工具包 PIKA 具备以下特征：即时数据增强和特征加载器；TDNN Transformer编码器，以及基于卷积和 Transformer 的解码器结构；RNNT训练和批解码；利用 Ngram FST 的 RNNT 解码；RNNT最小贝叶斯风险MBR训练；用于 RNNT 的 LAS 前向与后向重评分器；基于高效 BMUF的分布式训练。
+https://github.com/alphacep/vosk-api Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node 支持十七种语言，提供中文语言模型。
 
-speechbrain/speechbrain 基于 PyTorch 的开源一体化语音工具包，SpeechBrain 可用于开发最新的语音技术，包括语音识别、说话者识别、语音增强、多麦克风信号处理和语音识别系统等，且拥有相当出色的性能。团队将其特征概况为「易于使用」、「易于定制」、「灵活」、「模块化」等。
+https://github.com/tencent-ailab/pika 基于Pytorch和Kaldi的轻量级语音处理工具包 PIKA 具备以下特征：即时数据增强和特征加载器；TDNN Transformer编码器，以及基于卷积和 Transformer 的解码器结构；RNNT训练和批解码；利用 Ngram FST 的 RNNT 解码；RNNT最小贝叶斯风险MBR训练；用于 RNNT 的 LAS 前向与后向重评分器；基于高效 BMUF的分布式训练。
 
-Snowdar/asv-subtools 基于Kaldi和PyTorch推出了一套高效、易于开发扩展的声纹识别开源工具—ASV-Subtools。
+https://github.com/speechbrain/speechbrain 基于 PyTorch 的开源一体化语音工具包，SpeechBrain 可用于开发最新的语音技术，包括语音识别、说话者识别、语音增强、多麦克风信号处理和语音识别系统等，且拥有相当出色的性能。团队将其特征概况为「易于使用」、「易于定制」、「灵活」、「模块化」等。
+
+https://github.com/Snowdar/asv-subtools 基于Kaldi和PyTorch推出了一套高效、易于开发扩展的声纹识别开源工具—ASV-Subtools。
 
 [wav2vec](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec/unsupervised) 无监督语音识别 性能直逼监督模型,只需要从录制的语音音频和未配对的文本中学习，无需进行任何转录。
 
-speechio/leaderboard SpeechIO 排行榜：用于自动语音识别的大型、强大、全面的基准测试平台。
+https://github.com/speechio/leaderboard SpeechIO 排行榜：用于自动语音识别的大型、强大、全面的基准测试平台。
 
-cywang97/StreamingTransformer  流式 Transformer 关于大规模语音识别的流行端到端模型的比较，它基于 ESPnet0.6.0。 流式 Transformer 包括一个流式编码器（基于块或前瞻）和一个基于触发注意的解码器。
+https://github.com/cywang97/StreamingTransformer  流式 Transformer 关于大规模语音识别的流行端到端模型的比较，它基于 ESPnet0.6.0。 流式 Transformer 包括一个流式编码器（基于块或前瞻）和一个基于触发注意的解码器。
 
-hirofumi0810/neural_sp 使用 PyTorch 实现端到端的 ASR/LM
+https://github.com/hirofumi0810/neural_sp 使用 PyTorch 实现端到端的 ASR/LM
 
-thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识别提供了完整的工作流程。
+https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识别提供了完整的工作流程。
 
 [zycv/awesome-keyword-spotting](https://github.com/zycv/awesome-keyword-spotting) 很棒的语音关键字发现（唤醒词检测）的精选列表。
 
 ## 语音合成
 
-JasonWei512/Tacotron-2-Chinese 中文语音合成
+https://github.com/JasonWei512/Tacotron-2-Chinese 中文语音合成
 
-TensorSpeech/TensorflowTTS Tensorflow 2的实时最新语音合成
+https://github.com/TensorSpeech/TensorflowTTS Tensorflow 2的实时最新语音合成
 
-kan-bayashi/ParallelWaveGAN Parallel WaveGAN (+ MelGAN & Multi-band MelGAN) implementation with Pytorch 
+https://github.com/kan-bayashi/ParallelWaveGAN Parallel WaveGAN (+ MelGAN & Multi-band MelGAN) implementation with Pytorch 
 
-KuangDD/zhrtvc  好用的中文语音克隆兼中文语音合成系统，包含语音编码器、语音合成器、声码器和可视化模块。 
+https://github.com/KuangDD/zhrtvc  好用的中文语音克隆兼中文语音合成系统，包含语音编码器、语音合成器、声码器和可视化模块。 
 
-JasonWei512/Tacotron-2-Chinese 中文语音合成
+https://github.com/JasonWei512/Tacotron-2-Chinese 中文语音合成
 
-lturing/tacotronv2_wavernn_chinese tacotronV2 + wavernn 实现中文语音合成(Tensorflow + pytorch) 
+https://github.com/lturing/tacotronv2_wavernn_chinese tacotronV2 + wavernn 实现中文语音合成(Tensorflow + pytorch) 
 
-JasonWei512/wavenet_vocoder  WaveNet 声码器 
+https://github.com/JasonWei512/wavenet_vocoder  WaveNet 声码器 
 
-tulasiram58827/TTS_TFLite 提供了TFLite中广泛流行的文本语音转换（TTS）模型的集合。
+https://github.com/tulasiram58827/TTS_TFLite 提供了TFLite中广泛流行的文本语音转换（TTS）模型的集合。
 
-thuhcsi/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。
+https://github.com/thuhcsi/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。
 
-keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
+https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 [ben-hayes/neural-waveshaping-synthesis](https://github.com/ben-hayes/neural-waveshaping-synthesis) 波形域中的高效神经音频合成.使用神经网络有效合成音频波形的方法。
 
@@ -2199,27 +2209,29 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 [tyiannak/pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) Python 音频分析库：特征提取、分类、分割和应用
 
-[microsoft/muzic](https://github.com/microsoft/muzic) Muzic：用人工智能理解和生成音乐，包括：符号音乐理解：MusicBERT、自动歌词转录：PDAugment 音乐生成：作曲：SongMASS、歌词生成：DeepRapper、旋律生成：TeleMelody、伴奏生成：PopMAG、歌声合成：HiFiSinger。
+[microsoft/muzic](https://github.com/microsoft/muzic) 用人工智能理解和生成音乐，包括：符号音乐理解：MusicBERT、自动歌词转录：PDAugment 音乐生成：作曲：SongMASS、歌词生成：DeepRapper、旋律生成：TeleMelody、伴奏生成：PopMAG、歌声合成。
 
 [facebookresearch/av_hubert](https://github.com/facebookresearch/av_hubert) 用于视听语音的自监督学习框架,在 LRS3 视听语音基准上，它在唇读、ASR 和视听语音识别方面取得了最先进的结果。
+
+[lhotse-speech/lhotse](https://github.com/lhotse-speech/lhotse) 在机器学习项目中处理语音数据的工具。
 
 # 生物医药
 
 ## 蛋白质结构
 
-* deepmind/alphafold 此包提供了 AlphaFold v2.0 的推理流线的实现。AlphaFold是Google旗下DeepMind开发的一款人工智能程序，它使用深度学习算法通过蛋白质序列来预测蛋白质结构。蛋白质通过卷曲折叠会构成三维结构，蛋白质的功能正由其结构决定。了解蛋白质结构有助于开发治疗疾病的药物。
+* https://github.com/deepmind/alphafold 此包提供了 AlphaFold v2.0 的推理流线的实现。AlphaFold是Google旗下DeepMind开发的一款人工智能程序，它使用深度学习算法通过蛋白质序列来预测蛋白质结构。蛋白质通过卷曲折叠会构成三维结构，蛋白质的功能正由其结构决定。了解蛋白质结构有助于开发治疗疾病的药物。
 
-* RosettaCommons/RoseTTAFold 结合AlphaFold相关思想的网络架构，并通过三轨网络获得了最佳性能，其中1D序列、2D距离图和3D坐标的信息依次转换和集成。三轨网络精度接近AlphaFold2，能够快速解决具有挑战性的X-ray晶体学和冷冻电镜结构建模问题，并提供对当前未知结构蛋白质功能的见解。还能够仅从序列信息中快速生成准确的蛋白质-蛋白质复合物模型。
+* https://github.com/RosettaCommons/RoseTTAFold 结合AlphaFold相关思想的网络架构，并通过三轨网络获得了最佳性能，其中1D序列、2D距离图和3D坐标的信息依次转换和集成。三轨网络精度接近AlphaFold2，能够快速解决具有挑战性的X-ray晶体学和冷冻电镜结构建模问题，并提供对当前未知结构蛋白质功能的见解。还能够仅从序列信息中快速生成准确的蛋白质-蛋白质复合物模型。
 
-* salesforce/provis BERTology Meets Biology: Interpreting Attention in Protein Language Models 注意力机制在蛋白质语言模型的应用
+* https://github.com/salesforce/provis BERTology Meets Biology: Interpreting Attention in Protein Language Models 注意力机制在蛋白质语言模型的应用
 
-* ElwynWang/DeepFragLib  基于深度神经网络和改进的片段测序方法从头预测蛋白质结构
+* https://github.com/ElwynWang/DeepFragLib  基于深度神经网络和改进的片段测序方法从头预测蛋白质结构
 
-* bowman-lab/diffnets 采用DiffNets通过比较结构集来深度学习蛋白质生化特性的结构决定因素
+* https://github.com/bowman-lab/diffnets 采用DiffNets通过比较结构集来深度学习蛋白质生化特性的结构决定因素
 
-* nadavbra/protein_bert ProteinBERT：专为蛋白质序列和功能设计的通用深度学习模型
+* https://github.com/nadavbra/protein_bert ProteinBERT：专为蛋白质序列和功能设计的通用深度学习模型
 
-* strauchlab/scaffold_design 小蛋白质折叠结构和序列空间的采样
+* https://github.com/strauchlab/scaffold_design 小蛋白质折叠结构和序列空间的采样
 
 * [flatironinstitute/DeepFRI](https://github.com/flatironinstitute/DeepFRI) 基于结构和GCN的蛋白质功能预测
 
@@ -2257,11 +2269,11 @@ keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型。PyTorch
 
 ## 药物发现、药物设计
 
-* DeepGraphLearning/torchdrug 药物发现强大而灵活的机器学习平台
+* https://github.com/DeepGraphLearning/torchdrug 药物发现强大而灵活的机器学习平台
 
 * [jdurrant/deepfrag](https://git.durrantlab.pitt.edu/jdurrant/deepfrag) 药物发现是一个成本高昂且耗时的过程。在药物发现前期，研究人员试图找到能够初步抑制某些疾病关联蛋白的苗头化合物。但这些化合物必须经过先导优化，包括添加或交换某些化学部分，旨在提高化合物的结合亲合力或其他与吸收、分布、代谢、排泄和毒性有关的化学性质（ADMET）。而计算机辅助药物设计（CADD）能够加速前期的这些研究。例如，作者团队最近开发了基于3D卷积神经网络的模型DeepFrag来进行更进一步的先导优化，不幸的是，基于深度学习的模型对于非计算机专业研究者并不友好。为了追求更高的易用性，作者开发了名为DeepFrag的网页应用，为对编程不太熟悉的研究人员提供了图形化的界面，利用本地资源即可运行DeepFrag进行CADD的研究。
 
-* Mariewelt/OpenChem 用于计算化学和药物设计研究的深度学习工具包
+* https://github.com/Mariewelt/OpenChem 用于计算化学和药物设计研究的深度学习工具包
 
 * [deepchem/deepchem](https://github.com/deepchem/deepchem) DeepChem 旨在提供一个高质量的开源工具链，使深度学习在药物发现、材料科学、量子化学和生物学中的使用民主化。
 
@@ -2671,7 +2683,9 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [JosephKJ/OWOD](https://github.com/JosephKJ/OWOD) (CVPR 2021 Oral) 开放世界目标检测.引入了强大的评估协议并提供了一种新颖的解决方案，我们称之为 ORE：开放世界对象检测器，基于对比聚类和基于能量的未知识别。
 
-[ultralytics/yolov5](https://github.com/ultralytics/yolov5) YOLOv5 是一系列在 COCO 数据集上预训练的对象检测架构和模型，代表 Ultralytics 对未来视觉 AI 方法的开源研究，结合了在数千小时的研究和开发中获得的经验教训和最佳实践。
+[ultralytics/yolov5](https://github.com/ultralytics/yolov5) 在 COCO 数据集上预训练的对象检测架构和模型，代表 Ultralytics 对未来视觉 AI 方法的开源研究，结合了数千小时的研究和经验教训和最佳实践。
+
+[meituan/YOLOv6](https://github.com/meituan/YOLOv6) 专用于工业应用的单阶段目标检测框架。
 
 [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) 在 Pytorch 中实现 Vision Transformer，一种仅使用单个 Transformer 编码器即可在视觉分类中实现 SOTA 的简单方法
 
@@ -2726,6 +2740,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 ## 其他_机器视觉
 
 [taichi-dev/taichi](https://github.com/taichi-dev/taichi) 高效且可移植的 Python 高性能编程。该语言具有广泛的应用，包括实时物理模拟、数字计算、增强现实、人工智能、视觉和机器人技术、电影和游戏中的视觉效果、通用计算等等。
+
+[borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini)  DALL·E Mini - 从文本提示生成图像
 
 [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
@@ -3069,6 +3085,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 [meta-soul/LakeSoul](https://github.com/meta-soul/LakeSoul) 一种基于数据湖的表结构存储，用于统一批处理和流式数据处理
 
+[PrefectHQ/prefect](https://github.com/PrefectHQ/prefect)  工作流引擎。设计初衷是为了处理现代数据堆栈所需的动态、可扩展的工作负载。它由全新的异步规则引擎 Prefect Orion 提供支持。
+
 # 硬件
 
 ## RISC-V CPU
@@ -3178,6 +3196,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
 
 * [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
+
+* [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。开箱即用的 TypeScript 支持。文件系统路由 à la Next.js。
 
 * [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
 
@@ -3332,6 +3352,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [whwlsfb/BurpCrypto](https://github.com/whwlsfb/BurpCrypto) AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破的BurpSuite插件
 
 * [Tlaster/YourAV](https://github.com/Tlaster/YourAV) 宇宙级最轻量杀毒软件
+
+* [jonaslejon/malicious-pdf](https://github.com/jonaslejon/malicious-pdf) 生成一堆带有 phone-home 功能的恶意 pdf 文件。可以与 Burp Collaborator 或 Interact.sh 一起使用
 
 * [i11us0ry/goon](https://github.com/i11us0ry/goon) goon,集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
 
@@ -3567,6 +3589,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [daffainfo/Oneliner-Bugbounty](https://github.com/daffainfo/Oneliner-Bugbounty) 用于 bug 赏金的集合 oneliner 脚本 
 
+* [daffainfo/AllAboutBugBounty](https://github.com/daffainfo/AllAboutBugBounty) 关于漏洞赏金（绕过、有效负载等）
+
 * [hfiref0x/UACME](https://github.com/hfiref0x/UACME) 通过滥用内置的 Windows AutoElevate 后门来获取Windows 用户帐户控制。
 
 * [cckuailong/vulbase](https://github.com/cckuailong/vulbase) 各大漏洞文库合集 Vulbase漏洞库
@@ -3694,6 +3718,26 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [guchangan1/All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool) 全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms漏洞利用工具，爆破工具、内网横向及免杀、社工钓鱼以及应急响应等资料。
 
+* [ncabatoff/process-exporter](https://github.com/ncabatoff/process-exporter) 挖掘 /proc 以报告选定进程的 Prometheus 导出器
+
+* [sqlsec/ssrf-vuls](https://github.com/sqlsec/ssrf-vuls) 手把手带你用 SSRF 打穿内网靶场源码
+
+* [lu2ker/PHP-Code](https://github.com/lu2ker/PHP-Code) 通过ThinkPHP框架学习PHP代码审计
+
+* [UzJu/Cloud-Bucket-Leak-Detection-Tools](https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools) 六大云存储，泄露利用检测工具
+
+* [JDArmy/DCSec](https://github.com/JDArmy/DCSec) 专注于域控安全
+
+* [0xsanny/solsec](https://github.com/0xsanny/solsec) 用于研究 Solana 智能合约安全、审计和漏洞利用的资源集合。
+
+* [kadenzipfel/smart-contract-attack-vectors](https://github.com/kadenzipfel/smart-contract-attack-vectors) 智能合约攻击向量以及预防方法。
+
+* [Sakurasan/scf-proxy](https://github.com/Sakurasan/scf-proxy) 云函数代理服务
+
+* [wikiZ/ServerlessScan](https://github.com/wikiZ/ServerlessScan) 云函数扫描器实现代码
+
+* [teamssix/twiki](https://github.com/teamssix/twiki) 面向云安全方向的知识库
+
 # 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -3756,6 +3800,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * https://github.com/vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
 
+* [girliemac/a-picture-is-worth-a-1000-words](https://github.com/girliemac/a-picture-is-worth-a-1000-words) 用简单的涂鸦来描述复杂的事情！包括：算法、web、机器学习、Git、HTTP 状态等
+
 * https://github.com/willmcgugan/rich 一个终端内富文本和美化的python库。
 
 * https://github.com/crazycodeboy/awesome-flutter-cn  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
@@ -3773,6 +3819,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [sanfengliao/vue-juejin](https://github.com/sanfengliao/vue-juejin) vue仿掘金app客户端开发web版掘金app
 
 * [chaychan/TouTiao](https://github.com/chaychan/TouTiao) 精仿今日头条
+
+* [tbl00c/TLChat](https://github.com/tbl00c/TLChat) 高仿微信，iOS代码重构。此版本TLChat基于TLKit、 ZZFLEX实现
 
 * [zwStar/vue-meituan](https://github.com/zwStar/vue-meituan) vue+node+mongodb仿美团外卖点餐系统带支付功能
 
@@ -3801,6 +3849,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * https://github.com/fffaraz/awesome-cpp A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 
 * https://github.com/Genymobile/scrcpy 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
+
+* [opensumi/core](https://github.com/opensumi/core) 帮助您快速构建云或桌面 IDE 产品。
 
 * [xiangyuecn/Recorder](https://github.com/xiangyuecn/Recorder) html5 js 录音 mp3 wav ogg webm amr 格式，支持pc和Android、iOS部分浏览器、Hybrid App（提供Android iOS App源码）、微信
 
@@ -3866,7 +3916,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) 基于Electron的图表和白板桌面应，包装了核心draw.io编辑器。
 
-* [microapp-store/flash-waimai](https://github.com/microapp-store/flash-waimai) 仿照饿了么的外卖平台，包括手机端，后台管理, api服务
+* [microapp-store/flash-waimai](https://github.com/microapp-store/flash-waimai) 仿饿了么外卖平台，包括手机端，后台管理, api服务
 
 * [PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
 
@@ -3917,6 +3967,10 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [yudai/gotty](https://github.com/yudai/gotty) 将您的终端共享为 Web 应用程序
 
 * [pmgl/microstudio](https://github.com/pmgl/microstudio) 免费、开源的在线游戏引擎 nodejs
+
+* [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness)  精益副业：程序员如何优雅地做副业
+
+* [facebook/lexical](https://github.com/facebook/lexical) 可扩展的 JS Web 文本编辑器框架，强调可靠、可访问性和性能。
 
 # Star数变化
 
