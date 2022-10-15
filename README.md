@@ -1224,7 +1224,7 @@
 
 ## 知识图谱
 
-* [CLUEbenchmark/KgCLUE](https://github.com/CLUEbenchmark/KgCLUE) KgCLUE: 大规模中文开源知识图谱问答数据集。实体数量 3121457，关系数量 245838，高频关系(>100) 3833，三元组数量 20559652，知识库来源于百科类数据，由百科类搜索页面的事实性三元组构成。
+* [CLUEbenchmark/KgCLUE](https://github.com/CLUEbenchmark/KgCLUE) KgCLUE: 大规模中文开源知识图谱问答数据集。实体数量 3121457，关系数量 245838，高频关系(>100) 3833，三元组数量 20559652，知识库来源于百科类数据，由百科类搜索的事实性三元组构成。
 
 * autoliuweijie/K-BERT Enabling Language Representation with Knowledge Graph ，已被AAAI2020所录取，是较早的考虑将知识图谱中的边关系引入预训练模型的论文。论文链接：arxiv.org/pdf/1909.07606v1.pdf 主要通过修改Transformer中的attention机制，通过特殊的mask方法将知识图谱中的相关边考虑到编码过程中，进而增强预训练模型的效果。
 
@@ -1258,13 +1258,13 @@
 
 * [totogo/awesome-knowledge-graph](https://github.com/totogo/awesome-knowledge-graph) 知识图相关学习材料、数据库、工具和其他资源的精选列表
 
-* [BrambleXu/knowledge-graph-learning](https://github.com/BrambleXu/knowledge-graph-learning) 精选的知识图谱教程、项目和社区列表。
+* [BrambleXu/knowledge-graph-learning](https://github.com/BrambleXu/knowledge-graph-learning) 精选的知识图谱教程、项目社区列表。
 
 * [liuhuanyong/PersonGraphDataSet](https://github.com/liuhuanyong/PersonGraphDataSet) 人物图谱数据集，近十万的人物关系图谱事实数据库，通过人物关系抽取算法抽取+人工整理得出，可用于人物关系搜索、查询、人物关系多跳问答，以及人物关系推理等场景提供基础数据。
 
 * [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph) 整理知识图谱相关学习资料
 
-* [ownthink/KnowledgeGraph](https://github.com/ownthink/KnowledgeGraph) 史上最大规模1.4亿知识图谱数据免费下载，知识图谱，通用知识图谱，融合了两千五百多万的实体，拥有亿级别的实体属性关系。
+* [ownthink/KnowledgeGraph](https://github.com/ownthink/KnowledgeGraph) 史上最大规模1.4亿知识图谱数据免费下载，知识图谱，通用知识图谱，融合了两千五百多万实体，拥有亿级别的实体属性关系。
 
 * [liuhuanyong/AbstractKnowledgeGraph](https://github.com/liuhuanyong/AbstractKnowledgeGraph) 抽象知识图谱，目前规模50万，支持名词性实体、状态性描述、事件性动作进行抽象。目标于抽象知识，包括抽象实体，抽象动作，抽象事件。基于该知识图谱，可以进行不同层级的实体抽象和动作抽象，这与人类真实高度概括的认知是一致的。
 
@@ -1279,6 +1279,8 @@
 * [zjunlp/deepke](https://github.com/zjunlp/deepke) 基于深度学习的开源中文知识图谱抽取框架，支持cnSchema、低资源、长篇章、多模态的知识抽取工具，可以基于PyTorch实现命名实体识别、关系抽取和属性抽取功能。
 
 * [面向事件时序因果关系识别的17类开源标注数据集总结](https://mp.weixin.qq.com/s/uz3IfX4CyxtJjJl-HRkMaA)
+
+* [iuhuanyong/TextGrapher](https://github.com/liuhuanyong/TextGrapher) 输入一篇文档，将文档进行关键信息提取，进行结构化，并最终组织成图谱组织形式，形成对文章语义信息的图谱化展示。 采用了高频词，关键词，命名实体识别，主谓宾短语识别等抽取方式，并尝试将三类信息进行图谱组织表示，这种表示方式是一种尝试。
 
 ## NLP语料和数据集
 
@@ -1393,6 +1395,12 @@
 * [yao8839836/kg-bert](https://github.com/yao8839836/kg-bert) 知识库补全的工作，结合BERT可以将更丰富的上下文表示结合进模型中，在三元组分类、链接预测以及关系预测中达到了SOTA效果。
 
 * [dolphin-zs/Doc2EDAG](https://github.com/dolphin-zs/Doc2EDAG) 中国金融事件提取的端到端文档级框架 。基于实体的有向无环图（EDAG）, 以自回归方式生成一个 EDAG。这样，一个硬表填充任务被分解为几个更易于处理的路径扩展子任务。
+
+* [liuhuanyong/EventTriplesExtraction](https://github.com/liuhuanyong/EventTriplesExtraction) 基于依存句法与语义角色标注的事件三元组抽取，可用于文本理解如文档主题链，事件线等应用。
+
+* [percent4/knowledge_graph_demo](https://github.com/percent4/knowledge_graph_demo) 展示三元组抽取后形成的知识图谱，包括几本小说的实体关系
+
+* [lemonhu/open-entity-relation-extraction](https://github.com/lemonhu/open-entity-relation-extraction) 基于依存句法分析，实现面向开放域文本的知识三元组抽取（实体和关系抽取）及知识库构建。
 
 ## 实体识别NER、意图识别、槽位填充
 
@@ -1554,6 +1562,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [taozhijiang/chinese_correct_wsd](https://github.com/taozhijiang/chinese_correct_wsd) 简易中文纠错消歧 用户输入语句的同音自动纠错.
 
 [beyondacm/Autochecker4Chinese](https://github.com/beyondacm/Autochecker4Chinese) 中文文本错别字检测以及自动纠错
+
+[iqiyi/FASPell](https://github.com/iqiyi/FASPell)  2019-SOTA简繁中文拼写检查工具：FASPell Chinese Spell Checker ( 中文拼写检错 / 中文拼写纠错 / 中文拼写检查) 
 
 # 推荐系统
 
@@ -2683,7 +2693,9 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [JosephKJ/OWOD](https://github.com/JosephKJ/OWOD) (CVPR 2021 Oral) 开放世界目标检测.引入了强大的评估协议并提供了一种新颖的解决方案，我们称之为 ORE：开放世界对象检测器，基于对比聚类和基于能量的未知识别。
 
-[ultralytics/yolov5](https://github.com/ultralytics/yolov5) 在 COCO 数据集上预训练的对象检测架构和模型，代表 Ultralytics 对未来视觉 AI 方法的开源研究，结合了数千小时的研究和经验教训和最佳实践。
+[RangiLyu/nanodet](https://github.com/RangiLyu/nanodet) 超快速和轻量级的无锚物体检测模型。 仅 980 KB(int8) / 1.8MB (fp16) 并在手机上运行 97FPS.
+
+[ultralytics/yolov5](https://github.com/ultralytics/yolov5) 在 COCO 数据集上预训练的对象检测模型，代表 Ultralytics 对未来视觉 AI 方法的开源研究，结合了数千小时的研究和经验教训和最佳实践。
 
 [meituan/YOLOv6](https://github.com/meituan/YOLOv6) 专用于工业应用的单阶段目标检测框架。
 
@@ -2938,6 +2950,8 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [Jittor/JNeRF](https://github.com/Jittor/JNeRF) 基于 Jittor 的 NeRF 基准测试。JNeRF 重新实现了 Instant-ngp 并达到了与原始论文相同的性能。
 
 [THUDM/CogVideo](https://github.com/THUDM/CogVideo) 文本到视频生成的代码和模型，只支持简体中文输入。
+
+[THUDM/CogView](https://github.com/THUDM/CogView) 文本到图像的生成。NeurIPS 2021 论文“CogView: Mastering Text-to-Image Generation via Transformers”
 
 # 虚拟化
 
@@ -3269,7 +3283,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [fofapro/vulfocus](https://github.com/fofapro/vulfocus) 漏洞集成平台，将漏洞环境docker镜像，开箱即用。
 
-* [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 简单的现代化公司域名使用规律预测及生成工具
+* [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 简单现代公司域名使用规律预测及生成工具
+
+* [Adminisme/ServerScan](https://github.com/Adminisme/ServerScan) 使用Golang开发的高并发网络扫描、服务探测工具。
 
 * [0x727/ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) 水泽-信息收集自动化工具 只需要输入根域名即可全方位收集相关资产，并检测漏洞。
 
@@ -3324,6 +3340,10 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [cleverbao/520apkhook](https://github.com/cleverbao/520apkhook) 把ms的安卓远控附加进普通的app中，并进行隐藏特征。可以通用的手机安全管家。
 
 * [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) 一个逆向工程安卓apk文件的工具
+
+* [r0ysue/r0capture](https://github.com/r0ysue/r0capture) 安卓应用层抓包通杀脚本
+
+* [frida/frida](https://github.com/frida/frida) 面向开发、逆向工程师和安全研究的动态检测工具包。[在frida.re](https://translate.google.com/website?sl=en&tl=zh-CN&hl=zh-CN&client=webapp&u=https://frida.re/)了解更多信息。
 
 * [lintstar/About-Attack](https://github.com/lintstar/About-Attack) 一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收集，降低红队技术门槛的手册
 
