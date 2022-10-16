@@ -2229,9 +2229,11 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 ## 蛋白质结构
 
-* https://github.com/deepmind/alphafold 此包提供了 AlphaFold v2.0 的推理流线的实现。AlphaFold是Google旗下DeepMind开发的一款人工智能程序，它使用深度学习算法通过蛋白质序列来预测蛋白质结构。蛋白质通过卷曲折叠会构成三维结构，蛋白质的功能正由其结构决定。了解蛋白质结构有助于开发治疗疾病的药物。
+* [deepmind/alphafold](https://github.com/deepmind/alphafold) 此包提供了 AlphaFold v2.0 的推理流线的实现。AlphaFold是Google旗下DeepMind开发的一款人工智能程序，它使用深度学习算法通过蛋白质序列来预测蛋白质结构。蛋白质通过卷曲折叠会构成三维结构，蛋白质的功能正由其结构决定。了解蛋白质结构有助于开发治疗疾病的药物。
 
-* https://github.com/RosettaCommons/RoseTTAFold 结合AlphaFold相关思想的网络架构，并通过三轨网络获得了最佳性能，其中1D序列、2D距离图和3D坐标的信息依次转换和集成。三轨网络精度接近AlphaFold2，能够快速解决具有挑战性的X-ray晶体学和冷冻电镜结构建模问题，并提供对当前未知结构蛋白质功能的见解。还能够仅从序列信息中快速生成准确的蛋白质-蛋白质复合物模型。
+* [RosettaCommons/RoseTTAFold](https://github.com/RosettaCommons/RoseTTAFold) 结合AlphaFold相关思想的网络架构，并通过三轨网络获得了最佳性能，其中1D序列、2D距离图和3D坐标的信息依次转换和集成。三轨网络精度接近AlphaFold2，能够快速解决具有挑战性的X-ray晶体学和冷冻电镜结构建模问题，并提供对当前未知结构蛋白质功能的见解。还能够仅从序列信息中快速生成准确的蛋白质-蛋白质复合物模型。
+
+* [aqlaboratory/openfold](https://github.com/aqlaboratory/openfold) AlphaFold2的可训练、内存效率高且GPU友好的 PyTorch 再现
 
 * https://github.com/salesforce/provis BERTology Meets Biology: Interpreting Attention in Protein Language Models 注意力机制在蛋白质语言模型的应用
 
@@ -2279,11 +2281,11 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 ## 药物发现、药物设计
 
-* https://github.com/DeepGraphLearning/torchdrug 药物发现强大而灵活的机器学习平台
+* [DeepGraphLearning/torchdrug](https://github.com/DeepGraphLearning/torchdrug) 药物发现强大而灵活的机器学习平台
 
-* [jdurrant/deepfrag](https://git.durrantlab.pitt.edu/jdurrant/deepfrag) 药物发现是一个成本高昂且耗时的过程。在药物发现前期，研究人员试图找到能够初步抑制某些疾病关联蛋白的苗头化合物。但这些化合物必须经过先导优化，包括添加或交换某些化学部分，旨在提高化合物的结合亲合力或其他与吸收、分布、代谢、排泄和毒性有关的化学性质（ADMET）。而计算机辅助药物设计（CADD）能够加速前期的这些研究。例如，作者团队最近开发了基于3D卷积神经网络的模型DeepFrag来进行更进一步的先导优化，不幸的是，基于深度学习的模型对于非计算机专业研究者并不友好。为了追求更高的易用性，作者开发了名为DeepFrag的网页应用，为对编程不太熟悉的研究人员提供了图形化的界面，利用本地资源即可运行DeepFrag进行CADD的研究。
+* [jdurrant/deepfrag](https://git.durrantlab.pitt.edu/jdurrant/deepfrag) 药物发现是一个成本高昂且耗时的过程。在前期，研究员试图找到能够初步抑制某些疾病关联蛋白的苗头化合物。但这些化合物必须经过先导优化，包括添加或交换某些化学部分，旨在提高化合物的结合亲合力或其他与吸收、分布、代谢、排泄和毒性有关的化学性质（ADMET）。而计算机辅助药物设计（CADD）能够加速前期的这些研究。例如，作者团队最近开发了基于3D卷积神经网络的模型DeepFrag来进行更进一步的先导优化，不幸的是，基于深度学习的模型对于非计算机专业研究者并不友好。为了追求更高的易用性，作者开发了名为DeepFrag的网页应用，为对编程不太熟悉的研究人员提供了图形化的界面，利用本地资源即可运行DeepFrag进行CADD的研究。
 
-* https://github.com/Mariewelt/OpenChem 用于计算化学和药物设计研究的深度学习工具包
+* [Mariewelt/OpenChem](https://github.com/Mariewelt/OpenChem) 用于计算化学和药物设计研究的深度学习工具包
 
 * [deepchem/deepchem](https://github.com/deepchem/deepchem) DeepChem 旨在提供一个高质量的开源工具链，使深度学习在药物发现、材料科学、量子化学和生物学中的使用民主化。
 
@@ -2301,21 +2303,21 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 * [ddinter.scbdd.com](http://ddinter.scbdd.com/) 专门针对药物-药物相互作用的综合、专业和开放存取的数据库。它为每个 DDI 关联提供了丰富的注释，包括机制描述、风险级别、管理策略、替代药物等，以改善临床决策和患者安全。
 
-* kexinhuang12345/DeepPurpose 基于PyTorch来解锁50多个用于药物-靶标相互作用（Drug-Target Interaction）预测的模型。DTI预测是新药研发中的一项基本任务。DeepPurpose的操作模式是像scikit-learn一样。只需几行代码，就可以利用最前沿的深度学习和药物研发模型。DeepPurpose还有一个简单的界面来做DTI预测的两个重要应用：虚拟筛选（Virtual Screening）和旧药新用（Drug Repurposing）。
+* https://github.com/kexinhuang12345/DeepPurpose 基于PyTorch来解锁50多个用于药物-靶标相互作用（Drug-Target Interaction）预测的模型。DTI预测是新药研发中的一项基本任务。DeepPurpose的操作模式是像scikit-learn一样。只需几行代码，就可以利用最前沿的深度学习和药物研发模型。DeepPurpose还有一个简单的界面来做DTI预测的两个重要应用：虚拟筛选（Virtual Screening）和旧药新用（Drug Repurposing）。
 
-* ETHmodlab/molgrad 通过将积分梯度可解释人工智能（XAI）方法应用于图神经网络模型，提高了理性分子设计的建模透明度，并基于四个药理学相关ADME终点的实验，验证了所提出的方法能够突出与已知药效团基序一致的分子特征和结构元素，正确识别性质断崖，并提供了对非特异性配体-靶标相互作用的见解。
+* https://github.com/ETHmodlab/molgrad 通过将积分梯度可解释人工智能（XAI）方法应用于图神经网络模型，提高了理性分子设计的建模透明度，并基于四个药理学相关ADME终点的实验，验证了所提出的方法能够突出与已知药效团基序一致的分子特征和结构元素，正确识别性质断崖，并提供了对非特异性配体-靶标相互作用的见解。
 
-* thinng/GraphDTA 使用图神经网络预测药物-靶标的结合亲和力
+* https://github.com/thinng/GraphDTA 使用图神经网络预测药物-靶标的结合亲和力
 
-* isjakewong/MIRACLE 多视图图对比表示学习用于药物药物相互作用预测
+* https://github.com/isjakewong/MIRACLE 多视图图对比表示学习用于药物药物相互作用预测
 
-* FangpingWan/DeepCPI 基于深度学习的化合物和蛋白质相互作用预测框架
+* https://github.com/FangpingWan/DeepCPI 基于深度学习的化合物和蛋白质相互作用预测框架
 
-* yueyu1030/SumGNN multi-typed drug interaction prediction via efficientknowledge graph summarization 基于高效知识图谱汇总的多类型药物关联预测。 整合了DDI信息（药物-药物相互作用）以及生物医学KG数据，并提出了有效的聚合机制以进行DDI预测。实验结果表明，该模型具有良好的预测性能。
+* https://github.com/yueyu1030/SumGNN multi-typed drug interaction prediction via efficientknowledge graph summarization 基于高效知识图谱汇总的多类型药物关联预测。 整合了DDI信息（药物-药物相互作用）以及生物医学KG数据，并提出了有效的聚合机制以进行DDI预测。实验结果表明，该模型具有良好的预测性能。
 
-* kanz76/SSI-DDI 作者提出了SSI-DDI，一种预测药物之间不良DDI的深度学习框架。该方法首次将药物间相互作用预测的任务转化为子结构间相互作用预测的任务。实验结果表明，该方法有着目前最好的性能。并在transductive和inductive (冷启动场景)设置方面都取得了良好的效果。
+* https://github.com/kanz76/SSI-DDI 作者提出了SSI-DDI，一种预测药物之间不良DDI的深度学习框架。该方法首次将药物间相互作用预测的任务转化为子结构间相互作用预测的任务。实验结果表明，该方法有着目前最好的性能。并在transductive和inductive (冷启动场景)设置方面都取得了良好的效果。
 
-* jacklin18/KGNN IJCAI'20 "KGNN: Knowledge Graph Neural Network for Drug-Drug Interaction Prediction" 基于知识图谱的图神经网络（KGNN），以解决DDI预测问题。该框架可通过在KG中挖掘相关联的关系，来有效地捕获药物及其潜在的邻域实体信息。
+* https://github.com/jacklin18/KGNN IJCAI'20 "KGNN: Knowledge Graph Neural Network for Drug-Drug Interaction Prediction" 基于知识图谱的图神经网络（KGNN），以解决DDI预测问题。该框架可通过在KG中挖掘相关联的关系，来有效地捕获药物及其潜在的邻域实体信息。
 
 * [twopin/CAMP](https://github.com/twopin/CAMP) 用于多层次肽-蛋白质相互作用预测的基于卷积注意力的神经网络
 
@@ -2343,33 +2345,33 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 ## 分子
 
-* futianfan/CORE 利用复制和改进策略自动优化分子
+* https://github.com/futianfan/CORE 利用复制和改进策略自动优化分子
 
-* zhang-xuan1314/Molecular-graph-BERT 面向药物分子性质预测的大规模原子表征预训练模型
+* https://github.com/zhang-xuan1314/Molecular-graph-BERT 面向药物分子性质预测的大规模原子表征预训练模型
 
-* microsoft/Graphormer 图结构数据上的Transformer变种，应用于2D 分子化学结构图预测分子性质，还可以应用于主流图预测任务、社交网络的推荐和广告、知识图谱、自动驾驶的雷达点云数据、对交通物流运输等的时空预测和优化、程序理解和生成等等，还包括分子性质预测所涉及的行业，比如药物发掘、材料发现、分子动力学模拟、蛋白质结构预测等等。
+* https://github.com/microsoft/Graphormer 图结构数据上的Transformer变种，应用于2D 分子化学结构图预测分子性质，还可以应用于主流图预测任务、社交网络的推荐和广告、知识图谱、自动驾驶的雷达点云数据、对交通物流运输等的时空预测和优化、程序理解和生成等等，还包括分子性质预测所涉及的行业，比如药物发掘、材料发现、分子动力学模拟、蛋白质结构预测等等。
 
-* HIPS/neural-fingerprint 图卷积网络用于学习分子指纹。使用神经网络在数据样本中归纳总结，然后来预测新型分子的属性或者性质。
+* https://github.com/HIPS/neural-fingerprint 图卷积网络用于学习分子指纹。使用神经网络在数据样本中归纳总结，然后来预测新型分子的属性或者性质。
 
-* binghong-ml/MolEvol 通过可解释进化进行分子优化
+* https://github.com/binghong-ml/MolEvol 通过可解释进化进行分子优化
 
-* MinkaiXu/ConfVAE-ICML21 基于双层规划的端到端分子构象生成框架
+* https://github.com/MinkaiXu/ConfVAE-ICML21 基于双层规划的端到端分子构象生成框架
 
-* mohimanilab/molDiscovery 使用质谱数据预测分子的身份
+* https://github.com/mohimanilab/molDiscovery 使用质谱数据预测分子的身份
 
-* binghong-ml/retro_star 自提升策略规划真实且可执行的分子逆合成路线
+* https://github.com/binghong-ml/retro_star 自提升策略规划真实且可执行的分子逆合成路线
 
-* marcopodda/fragment-based-dgm 基于片段的分子深度生成模型.作者在ZINC数据集上进行了实验，该数据由250K类药物化合物组成。为了进一步评估LFM的影响，作者还使用了Pub Chem Bio Assay(PCBA)数据集测试了模型变体，该数据集包括约440k小分子。
+* https://github.com/marcopodda/fragment-based-dgm 基于片段的分子深度生成模型.作者在ZINC数据集上进行了实验，该数据由250K类药物化合物组成。为了进一步评估LFM的影响，作者还使用了Pub Chem Bio Assay(PCBA)数据集测试了模型变体，该数据集包括约440k小分子。
 
-* torchmd/torchmd 一个混合经典和机器学习势的分子模拟（molecular simulations）的框架。通过将MD（经典分子动力学）中的键合和非键合力术语扩展到任意复杂的DNN上，实现了机器学习势的快速成型和集成。TorchMD关键点:一，PyTorch编写，容易集成其他ML模型；二，提供执行端到端可微模拟能力，在参数上都是可微的。
+* https://github.com/torchmd/torchmd 一个混合经典和机器学习势的分子模拟（molecular simulations）的框架。通过将MD（经典分子动力学）中的键合和非键合力术语扩展到任意复杂的DNN上，实现了机器学习势的快速成型和集成。TorchMD关键点:一，PyTorch编写，容易集成其他ML模型；二，提供执行端到端可微模拟能力，在参数上都是可微的。
 
-* MolecularAI/GraphINVENT 基于GNN的分子生成平台
+* https://github.com/MolecularAI/GraphINVENT 基于GNN的分子生成平台
 
-* shenwanxiang/bidd-molmap MolMapNet 可预测药物特性，通过广泛学习的基于知识的分子表示对药物特性进行开箱即用的深度学习预测
+* https://github.com/shenwanxiang/bidd-molmap MolMapNet 可预测药物特性，通过广泛学习的基于知识的分子表示对药物特性进行开箱即用的深度学习预测
 
-* DeepGraphLearning/GraphAF 基于Flow的自回归模型，以生成真实多样的分子图。由于标准化Flow的灵活性，GraphAF能够模拟复杂的分子分布，并在实验中生成新的和100%有效的分子。
+* https://github.com/DeepGraphLearning/GraphAF 基于Flow的自回归模型，以生成真实多样的分子图。由于标准化Flow的灵活性，GraphAF能够模拟复杂的分子分布，并在实验中生成新的和100%有效的分子。
 
-* anny0316/Drug3D-Net 提出了一种新的基于分子空间几何结构的深度神经网络结构Drug3D-Net，用于预测分子性质。它是基于网格的三维卷积神经网络，具有时空门注意模块，可以提取卷积过程中分子预测任务的几何特征。
+* https://github.com/anny0316/Drug3D-Net 提出了一种新的基于分子空间几何结构的深度神经网络结构Drug3D-Net，用于预测分子性质。它是基于网格的三维卷积神经网络，具有时空门注意模块，可以提取卷积过程中分子预测任务的几何特征。
 
 * [deepmodeling/deepmd-kit](https://github.com/deepmodeling/deepmd-kit) 用于多体势能表示和分子动力学的深度学习包
 
@@ -2395,13 +2397,13 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 * [smiles724/Molformer](https://github.com/smiles724/Molformer)  Molformer（以前称为 3D-Transformer）的存储库，它在许多分子表示学习问题中实现了最先进的技术。
 
-* [gasteigerjo/dimenet](https://github.com/gasteigerjo/dimenet) DimeNet 和 DimeNet++ 模型，如“分子图的定向消息传递”（ICLR 2020）和“非平衡分子的快速和不确定性感知定向消息传递”（NeurIPS-W 2020）中提出的
+* [gasteigerjo/dimenet](https://github.com/gasteigerjo/dimenet) DimeNet 和 DimeNet++ 模型，如“分子图的定向消息传递”（ICLR 2020）和“非平衡分子的快速和不确定性感知定向消息传递”（NeurIPS-W 2020）中提出
 
 * [LiteGEM/kddcup2021-PCQM4M-LSC](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/competition/kddcup2021-PCQM4M-LSC) LiteGEM：KDD Cup 2021 PCQM4M-LSC解决方案. PCQM4M-LSC是量子化学数据集，任务是预测给定分子的重要分子特性，即HOMO-LUMO间隙(图形回归)。即一个分子图的量子特性回归数据集，它包含了3,803,453个图。它基于PubChemQC项目的归纳式图回归数据集。它包含约400万以SMILES串描述的小分子。目的是加速量子化学计算，尤其是预测每个分子的HOMO-LUMO轨道距离。HOMO-LUMO距离是量子化学中最重要的属性之一，因为他和分子的反应性、光激励、电荷输送有关。每个分子的真实标签是通过昂贵的DFT计算得到，每个分子需要计算几个小时。在足够的训练数据支持下，类似GNN的基于分子图网络的机器学习模型，可以以很小代价得到近似DFT的结果。这些分子根据他们的PubChem ID按照8：1：1划分作为训练、验证、测试数据集。
 
 * [https://github.com/deepmind/deepmind-research/tree/master/ogb_lsc/pcq](https://github.com/deepmind/deepmind-research/tree/master/ogb_lsc/pcq) DeepMind 进入OGB大规模挑战赛(OGB-LSC) 的PCQM4M-LSC（量子化学）轨道的条目 。通过汇集 20 个模型（10 倍 x 2 个种子）的集合来实现的。
 
-* [divelab/MoleculeX](https://github.com/divelab/MoleculeX) 用于分子探索的全新且快速发展的机器学习方法和软件工具。MoleculeX 的最终目标是实现各种基本和复杂的分子建模任务，例如分子性质预测、3D 几何建模等。目前，包括一套机器学习方法，用于基态 3D 分子几何预测和分子属性预测。具体来说，BasicProp包括基于图神经网络的基本监督学习方法，用于分子特性预测。BasicProp适用于有大量标记样本可用的任务，因此只需要监督学习。BasicProp已用于参与2021年OGB-LSC是获胜者之一。当只有少量标记样本可用时，AdvProp包括用于分子特性预测的机器学习方法，因此需要自我监督学习来实现理想的性能。此外，AdvProp能够处理来自不同类别的样本高度不平衡的任务。在这些情况下，我们采用先进的损失函数来优化曲线下的各个区域 (AUC)。AdvProp已被用于参与COVID-19 的 AI 治愈公开挑战赛排名第一。此外，Molecule3D提供了一套软件工具来处理我们提出的 Molecule3D 数据集，这是一种专门为基态 3D 分子几何预测而设计的新型数据集。它还包括几种几何预测的基线方法，以及使用预测的 3D 几何作为输入的量子特性预测方法。目前，MoleculeX 的 pip 包只包含 Molecule3D 模块的代码。我们将在未来逐步包含其他模块。
+* [divelab/MoleculeX](https://github.com/divelab/MoleculeX) 用于分子探索的全新且快速发展的机器学习方法和软件工具。MoleculeX 的最终目标是实现各种基本和复杂的分子建模任务，例如分子性质预测、3D 几何建模等。目前，包括一套机器学习方法，用于基态 3D 分子几何预测和分子属性预测。具体来说，BasicProp包括基于图神经网络的基本监督学习方法，用于分子特性预测。BasicProp适用于有大量标记样本可用的任务，因此只需要监督学习。BasicProp已用于参与2021年OGB-LSC是获胜者之一。当只有少量标记样本可用时，AdvProp包括用于分子特性预测的机器学习方法，因此需要自我监督学习来实现理想的性能。此外，AdvProp能够处理来自不同类别的样本高度不平衡的任务。在这些情况下，我们采用先进的损失函数来优化曲线下的各个区域 (AUC)。AdvProp已被用于参与COVID-19 的 AI 治愈公开挑战赛排名第一。此外，Molecule3D提供了软件工具来处理我们提出的 数据集，这是一种专门为基态 3D 分子几何预测而设计的新型数据集。它还包括几种几何预测的基线方法，以及使用预测的 3D 几何作为输入的量子特性预测方法。目前，MoleculeX 的包只包含 Molecule3D 模块的代码。我们将在未来逐步包含其他模块。
 
 * [divelab/MoleculeX](https://github.com/divelab/MoleculeX) 用于分子探索的全新且快速发展的机器学习方法和软件工具。MoleculeX 的最终目标是实现各种基本和复杂的分子建模任务，例如分子性质预测、3D 几何建模等。目前，包括一套机器学习方法，用于基态 3D 分子几何预测和分子属性预测。具体来说，BasicProp包括基于图神经网络的基本监督学习方法，用于分子特性预测。BasicProp适用于有大量标记样本可用的任务，因此只需要监督学习。BasicProp已用于参与2021年OGB-LSC是获胜者之一。当只有少量标记样本可用时，AdvProp包括用于分子特性预测的机器学习方法，因此需要自我监督学习来实现理想的性能。此外，AdvProp能够处理来自不同类别的样本高度不平衡的任务。在这些情况下，我们采用先进的损失函数来优化曲线下的各个区域 (AUC)。AdvProp已被用于参与COVID-19 的 AI 治愈公开挑战赛排名第一。此外，Molecule3D提供了一套软件工具来处理我们提出的 Molecule3D 数据集，这是一种专门为基态 3D 分子几何预测而设计的新型数据集。它还包括几种几何预测的基线方法，以及使用预测的 3D 几何作为输入的量子特性预测方法。目前，MoleculeX 的 pip 包只包含 Molecule3D 模块的代码。我们将在未来逐步包含其他模块。
 
@@ -2415,73 +2417,73 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 * [ZJU-Fangyin/KCL](https://github.com/ZJU-Fangyin/KCL) 化学元素知识图谱的分子对比学习
 
-* [nyu-dl/dl4chem-mgm](https://github.com/nyu-dl/dl4chem-mgm) 用于在[Masked 图建模分子生成](https://translate.google.com/website?sl=en&tl=zh-CN&hl=zh-CN&client=webapp&u=https://www.nature.com/articles/s41467-021-23415-2)论文中进行实验的模型、数据和脚本。
+* [nyu-dl/dl4chem-mgm](https://github.com/nyu-dl/dl4chem-mgm) 用于[Masked 图建模分子生成](https://translate.google.com/website?sl=en&tl=zh-CN&hl=zh-CN&client=webapp&u=https://www.nature.com/articles/s41467-021-23415-2)中进行实验的模型、数据和脚本。
 
 * [ccsb-scripps/AutoDock-Vina](https://github.com/ccsb-scripps/AutoDock-Vina) 速度最快、使用最广泛的开源分子对接引擎之一。基于简单的评分函数和快速梯度优化构象搜索。它最初由分子图形实验室的 Oleg Trott 博士设计和实现。在分子建模领域，对接docking是一种在配体和靶标相互结合形成稳定复合物时，预测一个分子对第二个分子的优选取向的方法。 反过来，优选方向的知识可用于预测两个分子之间的缔合强度或结合亲和力，例如使用评分函数。将小分子配体与蛋白质靶标对接产生稳定复合物。蛋白质、肽、核酸、碳水化合物和脂质等生物学相关分子之间的关联在信号转导中起着核心作用。此外，两个相互作用伙伴的相对方向可能会影响产生的信号类型（例如，激动与拮抗）。因此，对接对于预测产生的信号的强度和类型非常有用。分子对接是基于结构的药物设计中最常用的方法之一，因为它能够预测小分子配体与适当靶结合位点的结合构象。结合行为的表征在药物的合理设计以及阐明基本的生化过程中起着重要作用。
 
-* [devalab/molgpt](https://github.com/devalab/molgpt) 使用下一个令牌预测任务在 Moses 和 Guacamol 数据集上训练小型自定义 GPT。然后将该模型用于无条件和有条件的分子生成。我们将我们的模型与之前在 Moses 和 Guacamol 数据集上的方法进行比较。使用 Ecco 库获得显着性图的可解释性。
+* [devalab/molgpt](https://github.com/devalab/molgpt) 使用下一个令牌预测任务在 Moses 和 Guacamol 数据集上训练小型自定义 GPT。然后将该模型用于无条件和有条件的分子生成。我们将我们的模型与之前在 Moses 和 Guacamol 数据集上的方法进行比较。使用Ecco库获得显着性图的可解释性。
 
 ## 抗菌肽
 
-* vail-uvm/amp-gan 一种基于双向条件生成对抗网络的抗菌肽（AMPs）设计方法AMPGAN v2。AMPGAN v2使用生成器和鉴别器来学习数据驱动的先验知识，并使用条件变量控制生成。
+* https://github.com/vail-uvm/amp-gan 一种基于双向条件生成对抗网络的抗菌肽（AMPs）设计方法AMPGAN v2。AMPGAN v2使用生成器和鉴别器来学习数据驱动的先验知识，并使用条件变量控制生成。
 
-* reymond-group/MLpeptide 机器学习设计非溶血性抗菌肽。使用来自DBAASP的数据训练RNN来设计非溶血性抗菌肽(Antimicrobial peptides, AMP)，合成并测试了28个生成肽，鉴定出针对绿脓杆菌、鲍曼不动杆菌和耐甲氧西林金黄色葡萄球菌 (MRSA) 的8种新的非溶血性 AMP。结果表明机器学习可以用来设计非溶血性AMP。
+* https://github.com/reymond-group/MLpeptide 机器学习设计非溶血性抗菌肽。使用来自DBAASP的数据训练RNN来设计非溶血性抗菌肽(Antimicrobial peptides, AMP)，合成并测试了28个生成肽，鉴定出针对绿脓杆菌、鲍曼不动杆菌和耐甲氧西林金黄色葡萄球菌 (MRSA) 的8种新的非溶血性 AMP。结果表明机器学习可以用来设计非溶血性AMP。
 
-* IBM/controlled-peptide-generation  IBM利用深度生成模型和分子动力学模拟加速抗菌肽发现
+* https://github.com/IBM/controlled-peptide-generation  IBM利用深度生成模型和分子动力学模拟加速抗菌肽发现
 
 ## 其他_生物医药
 
-KailiWang1/DeepDTAF 预测蛋白质与配体结合亲和力的深度学习方法
+https://github.com/KailiWang1/DeepDTAF 预测蛋白质与配体结合亲和力的深度学习方法
 
-cansyl/MDeePred 通过一种多通道蛋白质的特征化来解决深度学习下药物发现中亲和力预测问题
+https://github.com/cansyl/MDeePred 通过一种多通道蛋白质的特征化来解决深度学习下药物发现中亲和力预测问题
 
-mims-harvard/TDC Therapeutics Data Commons (TDC)，第一个机器学习在生物医药的大规模数据集。TDC目前包含了20+有意义的任务，和70多个高质量数据集，从靶蛋白的发现，药物动力学，安全性，药物生产都有包含到。而且不仅仅是小分子，还有抗体，疫苗，miRNA等。之后也会加入CRISPR，Clinical Trials等等。
+https://github.com/mims-harvard/TDC Therapeutics Data Commons (TDC)，第一个机器学习在生物医药的大规模数据集。TDC目前包含了20+有意义的任务，和70多个高质量数据集，从靶蛋白的发现，药物动力学，安全性，药物生产都有包含到。而且不仅仅是小分子，还有抗体，疫苗，miRNA等。之后也会加入CRISPR，Clinical Trials等等。
 
-lrsoenksen/CL_RNA_SynthBio  RNA合成生物学的深度学习
+https://github.com/lrsoenksen/CL_RNA_SynthBio  RNA合成生物学的深度学习
 
 [uci-cbcl/UFold](https://github.com/uci-cbcl/UFold) UFold：利用深度学习进行快速准确的 RNA 二级结构预测
 
-lanagarmire/DeepImpute 一种基于深度神经网络来插补单细胞RNA测序数据的方法
+https://github.com/lanagarmire/DeepImpute 一种基于深度神经网络来插补单细胞RNA测序数据的方法
 
-emreg00/toolbox 疾病和药物相关的生物学数据集时所使用的各种脚本。它包含用于数据处理的通用实用程序（例如，解析，基于网络的分析，邻近性等）。
+https://github.com/emreg00/toolbox 疾病和药物相关的生物学数据集时所使用的各种脚本。它包含用于数据处理的通用实用程序（例如，解析，基于网络的分析，邻近性等）。
 
-ruoqi-liu/DeepIPW 基于真实世界患者数据的药物重定位的深度学习框架
+https://github.com/ruoqi-liu/DeepIPW 基于真实世界患者数据的药物重定位的深度学习框架
 
-CutillasLab/DRUMLR 利用机器学习预测抗癌药物疗效。提出Drug Ranking Using ML方法，使用omics数据，根据药物抗肿瘤细胞增殖疗效对超过400种药物进行排序。
+https://github.com/CutillasLab/DRUMLR 利用机器学习预测抗癌药物疗效。提出Drug Ranking Using ML方法，使用omics数据，根据药物抗肿瘤细胞增殖疗效对超过400种药物进行排序。
 
-kaist-amsg/Synthesizability-PU-CGCNN  基于半监督学习的晶体结构的合成预测
+https://github.com/kaist-amsg/Synthesizability-PU-CGCNN  基于半监督学习的晶体结构的合成预测
 
-WLYLab/PepFormer 基于Transformer的对比学习框架实现多肽可检测性预测
+https://github.com/WLYLab/PepFormer 基于Transformer的对比学习框架实现多肽可检测性预测
 
-NYSCF/monoqlo_release 提出了模块化的深度学习框架Monoqlo来自动识别细胞集落，并从细胞成像中识别克隆性。
+https://github.com/NYSCF/monoqlo_release 提出了模块化的深度学习框架Monoqlo来自动识别细胞集落，并从细胞成像中识别克隆性。
 
-deepmodeling/deepks-kit DeePKS: A Comprehensive Data-Driven Approach toward Chemically Accurate Density Functional Theory 提出了构建准确且高效的密度泛函模型的通用机器学习框架，并且利用这一框架训练了具有化学精度的密度泛函模型，应用于电子结构性质的计算。
+https://github.com/deepmodeling/deepks-kit DeePKS: A Comprehensive Data-Driven Approach toward Chemically Accurate Density Functional Theory 提出了构建准确且高效的密度泛函模型的通用机器学习框架，并且利用这一框架训练了具有化学精度的密度泛函模型，应用于电子结构性质的计算。
 
-juexinwang/scGNN 新型的用于单细胞RNA测序分析的图神经网络框架
+https://github.com/juexinwang/scGNN 新型的用于单细胞RNA测序分析的图神经网络框架
 
-liulizhi1996/HPOFiller 一种基于图卷积网络(GCN)的方法，用于预测缺失的HPO注释。 人类表型本体(HPO)是描述人类疾病中遇到的表型异常的标准化词汇（疾病的术语）。探索人类蛋白质和异常表型之间的关系在疾病的预防、诊断和治疗中具有重要意义。
+https://github.com/liulizhi1996/HPOFiller 一种基于图卷积网络(GCN)的方法，用于预测缺失的HPO注释。 人类表型本体(HPO)是描述人类疾病中遇到的表型异常的标准化词汇（疾病的术语）。探索人类蛋白质和异常表型之间的关系在疾病的预防、诊断和治疗中具有重要意义。
 
-zty2009/GCN-DNN 基于图卷积网络和深度神经网络的药物靶点相互作用识别
+https://github.com/zty2009/GCN-DNN 基于图卷积网络和深度神经网络的药物靶点相互作用识别
 
-WebyGit/CGINet 大规模药物信息网络构建及图卷积预测模型
+https://github.com/WebyGit/CGINet 大规模药物信息网络构建及图卷积预测模型
 
-ziyujia/SalientSleepNet 用于睡眠分期的多模态凸波检测网络
+https://github.com/ziyujia/SalientSleepNet 用于睡眠分期的多模态凸波检测网络
 
-ziyujia/Physiological-Signal-Classification-Papers 500余篇基于机器学习/深度学习的生理信号分类论文列表
+https://github.com/ziyujia/Physiological-Signal-Classification-Papers 500余篇基于机器学习/深度学习的生理信号分类论文列表
 
-ziyujia/Sleep-Stages-Classification-Papers 基于机器学习/深度学习的睡眠阶段分类论文列表
+https://github.com/ziyujia/Sleep-Stages-Classification-Papers 基于机器学习/深度学习的睡眠阶段分类论文列表
 
-ziyujia/Motor-Imagery-Papers 基于机器学习/深度学习的运动想象分类论文列表
+https://github.com/ziyujia/Motor-Imagery-Papers 基于机器学习/深度学习的运动想象分类论文列表
 
-BojarLab/SweetNet 图卷积神经网络分析复杂碳水化合物。
+https://github.com/BojarLab/SweetNet 图卷积神经网络分析复杂碳水化合物。
 
-jaswindersingh2/SPOT-RNA2 利用进化概况、突变耦合和二维迁移学习改进了RNA二级结构和三级碱基配对预测
+https://github.com/jaswindersingh2/SPOT-RNA2 利用进化概况、突变耦合和二维迁移学习改进了RNA二级结构和三级碱基配对预测
 
-QSong-github/scGCN 单细胞图卷积网络模型(single-cell Graph Convolutional Network)可以实现跨越不同数据集的知识转移(knowledge transfer)。通过在30个单细胞组学数据集上进行基准测试实验，结果表明scGCN在利用来自不同组织、平台和物种以及分子层的细胞方面展现了优于其他方法的准确性。
+https://github.com/QSong-github/scGCN 单细胞图卷积网络模型(single-cell Graph Convolutional Network)可以实现跨越不同数据集的知识转移(knowledge transfer)。通过在30个单细胞组学数据集上进行基准测试实验，结果表明scGCN在利用来自不同组织、平台和物种以及分子层的细胞方面展现了优于其他方法的准确性。
 
-/mauragarofalo/LICTOR 抗体体细胞突变的机器学习分析预测免疫球蛋白轻链毒性
+https://github.com/mauragarofalo/LICTOR 抗体体细胞突变的机器学习分析预测免疫球蛋白轻链毒性
 
-JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神经网络
+https://github.com/JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神经网络
 
 [calico/scnym](https://github.com/calico/scnym) 用于对单细胞分类的半监督对抗式神经网络
 
@@ -2569,29 +2571,29 @@ minivision-ai/photo2cartoon 人像卡通化探索项目
 
 [exadel-inc/CompreFace](https://github.com/exadel-inc/CompreFace) 领先的免费开源人脸识别系统
 
-iPERDance/iPERCore 处理人体图像合成任务。其中包括人体运动模仿、外观转换和新视角合成等。并且，该项目的代码、数据集已开源。
+https://github.com/iPERDance/iPERCore 处理人体图像合成任务。其中包括人体运动模仿、外观转换和新视角合成等。并且，该项目的代码、数据集已开源。
 
 [anandpawara/Real_Time_Image_Animation](https://github.com/anandpawara/Real_Time_Image_Animation) 实时图像动画,使原图的人像与新图上的人脸动作一致。
 
 [FACEGOOD-Audio2Face](https://github.com/FACEGOOD/FACEGOOD-Audio2Face) 将音频转换为混合形状权重，并在 UE 中驱动数字人小美。
 
-facebookresearch/pifuhd 使用AI从2D图像生成人的3D高分辨率重建
+https://github.com/facebookresearch/pifuhd 使用AI从2D图像生成人的3D高分辨率重建
 
-open-mmlab/mmskeleton 用于人体姿势估计，基于骨骼的动作识别和动作合成。
+https://github.com/open-mmlab/mmskeleton 用于人体姿势估计，基于骨骼的动作识别和动作合成。
 
-thepowerfuldeez/facemesh.pytorch 单目实时人脸表面3D点云提取
+https://github.com/thepowerfuldeez/facemesh.pytorch 单目实时人脸表面3D点云提取
 
-anibali/margipose 基于2D边缘热图的3D人体姿态估计
+https://github.com/anibali/margipose 基于2D边缘热图的3D人体姿态估计
 
-wmcnally/evopose2d 神经架构搜索推动2D姿态识别边界
+https://github.com/wmcnally/evopose2d 神经架构搜索推动2D姿态识别边界
 
-hellojialee/OffsetGuided Bottom-up人体姿态估计最优网络,多人关键点坐标的编解码方法.
+https://github.com/hellojialee/OffsetGuided Bottom-up人体姿态估计最优网络,多人关键点坐标的编解码方法.
 
-ziwei-zh/CorrPM 关联人体边缘，人体姿态解析.研究了人的语义边界和关键点位置如何共同改善人的部件解析性能。
+https://github.com/ziwei-zh/CorrPM 关联人体边缘，人体姿态解析.研究了人的语义边界和关键点位置如何共同改善人的部件解析性能。
 
-SangbumChoi/MobileHumanPose MobileHumanPose 的官方 PyTorch 实现：在移动设备中实现实时 3D 人体姿态估计。
+https://github.com/SangbumChoi/MobileHumanPose MobileHumanPose 的官方 PyTorch 实现：在移动设备中实现实时 3D 人体姿态估计。
 
-ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移动人体姿势模型执行 3D 人体姿势估计的 Python 脚本。
+https://github.com/ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移动人体姿势模型执行 3D 人体姿势估计的 Python 脚本。
 
 [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)  用于身体、面部、手和脚估计的实时多人关键点检测库。
 
@@ -2645,11 +2647,11 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 ## ocr
 
-ouyanghuiyu/chineseocr_lite 超轻量级中文ocr
+https://github.com/ouyanghuiyu/chineseocr_lite 超轻量级中文ocr
 
-JiaquanYe/TableMASTER-mmocr 将表格内容识别任务分为四个子任务：表格结构识别、文本行检测、文本行识别和框分配。 基于 MASTER，我们提出了一种新颖的表结构识别架构，我们称之为 TableMASTER。
+https://github.com/JiaquanYe/TableMASTER-mmocr 将表格内容识别任务分为四个子任务：表格结构识别、文本行检测、文本行识别和框分配。 基于 MASTER，我们提出了一种新颖的表结构识别架构，我们称之为 TableMASTER。
 
-JiaquanYe/MASTER-mmocr 本项目是 MMOCR 对 MASTER: Multi-Aspect Non-local Network for Scene Text Recognition （场景文本识别）的重新实现。
+https://github.com/JiaquanYe/MASTER-mmocr 本项目是 MMOCR 对 MASTER: Multi-Aspect Non-local Network for Scene Text Recognition （场景文本识别）的重新实现。
 
 [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) 很棒的基于PaddlePaddle的多语言OCR工具包（实用的超轻量级OCR系统，支持80+语言识别，提供数据标注和合成工具，支持服务器、移动、嵌入式和物联网设备之间的训练和部署）
 
@@ -2953,31 +2955,43 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [THUDM/CogView](https://github.com/THUDM/CogView) 文本到图像的生成。NeurIPS 2021 论文“CogView: Mastering Text-to-Image Generation via Transformers”
 
+[CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) 潜在的文本到图像的扩散模型。凭借其 860M UNet 和 123M 文本编码器，该模型相对轻量级，并在具有至少 10GB VRAM 的 GPU 上运行。
+
+[invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) 这个版本的 Stable Diffusion 具有一个流畅的 WebGUI、一个交互式命令行脚本，它在“dream bot”风格的界面中结合了 text2img 和 img2img 功能，以及多个功能和其他增强功能。可以在 Win、Mac 和 Linux 机器上运行，GPU 卡只有 4 GB 的 RAM。
+
+[AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 稳定的扩散(文本到图像的扩散模型)网页界面 
+
+[divamgupta/diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) Diffusion Bee 是在 M1 Mac 上本地运行 Stable Diffusion 的最简单方法。附带一键式安装程序。无需依赖或技术知识。
+
+[cmdr2/stable-diffusion-ui](https://github.com/cmdr2/stable-diffusion-ui) 在pc上安装和使用稳定扩散的最简单一键式方式。提供用于从文本提示和图像生成图像的浏览器 UI。只需输入您的文本提示，然后查看生成的图像。
+
+[nateraw/stable-diffusion-videos](https://github.com/nateraw/stable-diffusion-videos) 通过探索潜在空间和文本提示之间的变形来实现稳定扩散(stable diffusion)的视频
+
 # 虚拟化
 
-jesseduffield/lazydocker docker 简单终端 UI
+https://github.com/jesseduffield/lazydocker docker 简单终端 UI
 
-KubeOperator/KubeOperator 
+https://github.com/KubeOperator/KubeOperator 
 
-rancher/k3s Lightweight Kubernetes. 5 less than k8s. https://k3s.io
+https://github.com/rancher/k3s Lightweight Kubernetes. 5 less than k8s. https://k3s.io
 
-docker-slim/docker-slim 请勿更改Docker容器映像中的任何内容并将其最小化30倍
+https://github.com/docker-slim/docker-slim 请勿更改Docker容器映像中的任何内容并将其最小化30倍
 
-silenceshell/docker_mirror 发现国内加速的docker源。
+https://github.com/silenceshell/docker_mirror 发现国内加速的docker源。
 
-AliyunContainerService/GPUshare-scheduler-extender GPU Sharing Scheduler Extender in Kubernetes Kubernetes 中的 GPU 共享调度程序扩展器
+https://github.com/AliyunContainerService/GPUshare-scheduler-extender GPU Sharing Scheduler Extender in Kubernetes Kubernetes 中的 GPU 共享调度程序扩展器
 
 # 因果推断
 
-microsoft/EconML ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将人工智能概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
+https://github.com/microsoft/EconML ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将人工智能概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
 
-Microsoft/dowhy 用于因果推理的 Python 库，它支持因果假设的显式建模和测试。 DoWhy 基于因果推理的统一语言，结合了因果图模型和潜在结果框架。
+https://github.com/Microsoft/dowhy 用于因果推理的 Python 库，它支持因果假设的显式建模和测试。 DoWhy 基于因果推理的统一语言，结合了因果图模型和潜在结果框架。
 
-FenTechSolutions/CausalDiscoveryToolbox 图形和成对设置中的因果推断包。 包括用于图结构恢复和依赖关系的工具。
+https://github.com/FenTechSolutions/CausalDiscoveryToolbox 图形和成对设置中的因果推断包。 包括用于图结构恢复和依赖关系的工具。
 
-uber/causalml 使用机器学习算法进行提升建模和因果推理
+https://github.com/uber/causalml 使用机器学习算法进行提升建模和因果推理
 
-erdogant/bnlearn 用于学习贝叶斯网络的图形结构、参数学习、推理和采样方法的 Python 包。
+https://github.com/erdogant/bnlearn 用于学习贝叶斯网络的图形结构、参数学习、推理和采样方法的 Python 包。
 
 [rguo12/awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms) 用数据学习因果关系的算法索引
 
@@ -2985,9 +2999,9 @@ erdogant/bnlearn 用于学习贝叶斯网络的图形结构、参数学习、推
 
 [cmu-phil/causal-learn](https://github.com/cmu-phil/causal-learn) 用于因果发现的 python 包，它实现了经典和最先进的因果发现算法，它是Tetrad的 Python 翻译和扩展。
 
-huawei-noah/trustworthyAI 基于图自编码器的因果结构学习模型
+https://github.com/huawei-noah/trustworthyAI 基于图自编码器的因果结构学习模型
 
-wanyu-lin/ICML2021-Gem 针对图神经网络的通用因果解释方法
+https://github.com/wanyu-lin/ICML2021-Gem 针对图神经网络的通用因果解释方法
 
 [econometric/CausalitySlides](https://gitee.com/econometric/CausalitySlides) 西雅图大学因果推理课程的幻灯片
 
@@ -3299,7 +3313,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [Gality369/CS-Loader](https://github.com/Gality369/CS-Loader) CS免杀,包括python版和C版本
 
-* [xuanhusec/OscpStudyGroup](https://github.com/xuanhusec/OscpStudyGroup) Oscp公益学习组,包括：小技巧合集、Kali基本操作、常用工具、windows提权汇总、反弹shell方法汇总、靶机推荐列表、缓冲区溢出通关脚本框架、OSCP命令大全、反弹shell方法汇总、linux提权方法汇总、windows提权方法汇总、Linux提权辅助、Windows提权辅助、渗透测试方法论、靶机练习
+* [xuanhusec/OscpStudyGroup](https://github.com/xuanhusec/OscpStudyGroup) Oscp公益学习组,包括：小技巧合集、Kali基本操作、常用工具、windows提权汇总、反弹shell方法汇总、靶机推荐列表、缓冲区溢出通关脚本框架、OSCP命令大全、反弹shell方法汇总、linux提权方法汇总、win提权方法汇总、Linux提权辅助、Win提权辅助、渗透测试方法论、靶机练习
 
 * [DanMcInerney/xsscrapy](https://github.com/DanMcInerney/xsscrapy) XSS 蜘蛛 - 检测到 66/66 wavsep XSS
 
@@ -3403,7 +3417,23 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [AonCyberLabs/Windows-Exploit-Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester) 该工具将目标补丁级别与 Microsoft 漏洞数据库进行比较，以检测目标上潜在的缺失补丁。如果存在可用于丢失公告的公共漏洞利用和 Metasploit 模块，它还会通知用户。
 
+* [l4yn3/micro_service_seclab](https://github.com/l4yn3/micro_service_seclab) Java漏洞靶场是基于SpringBoot开发，目的是用来检测SAST工具的准确性(关注漏报和误报问题)的。
+
+* [tihanyin/PSSW100AVB](https://github.com/tihanyin/PSSW100AVB) 具有 100% AV 绕过功能的有用 Powershell 脚本。
+
+* [Cyber-Guy1/API-SecurityEmpire](https://github.com/Cyber-Guy1/API-SecurityEmpire) 旨在展示API安全领域独特的攻击和防御方法
+
+* [s0md3v/uro](https://github.com/s0md3v/uro) 整理用于爬行/渗透测试的 url 列表
+
 * [mzet-/linux-exploit-suggester](https://github.com/mzet-/linux-exploit-suggester) Linux提权审计工具 帮助检测给定 Linux 内核/基于 Linux 的机器的安全缺陷。它提供以下功能：评估已知漏洞的内核暴露情况、 验证内核强化安全措施的状态。
+
+* [knownsec/pocsuite3](https://github.com/knownsec/pocsuite3) 由 Knownsec 404 团队开发的开源远程漏洞测试框架。
+
+* [techgaun/github-dorks](https://github.com/techgaun/github-dorks) 通过 github 搜索找到泄露的秘密
+
+* [H4CK3RT3CH/github-dorks](https://github.com/H4CK3RT3CH/github-dorks) Github 搜索是非常强大和有用的功能，可用于搜索存储库中的敏感数据。可以揭示敏感的个人和/或组织信息，例如私钥、凭据、身份验证令牌等。这个列表应该对评估安全性和执行系统的渗透测试很有用。
+
+* [lcvvvv/kscan](https://github.com/lcvvvv/kscan) 纯go的全方位扫描器，具备端口扫描、协议检测、指纹识别，暴力破解等功能。支持协议1200+，协议指纹1w+，应用指纹2w+，暴力破解协议10余种。
 
 * [NyDubh3/Pentesting-Active-Directory-CN](https://github.com/NyDubh3/Pentesting-Active-Directory-CN) 域渗透脑图中文翻译版
 
@@ -3503,7 +3533,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [pen4uin/cloud-native-security](https://github.com/pen4uin/cloud-native-security) 云原生安全
 
-* [Cracked5pider/ShellcodeTemplate](https://github.com/Cracked5pider/ShellcodeTemplate) 适用于 Windows x64/x86 的易于修改的 shellcode 模板
+* [Cracked5pider/ShellcodeTemplate](https://github.com/Cracked5pider/ShellcodeTemplate) 适用于 Win x64/x86 的易于修改的 shellcode 模板
 
 * [JDArmy/SharpXDecrypt](https://github.com/JDArmy/SharpXDecrypt) Xshell全版本密码恢复工具
 
@@ -3581,7 +3611,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [midisec/BypassAnti-Virus](https://github.com/midisec/BypassAnti-Virus) 免杀姿势学习、记录、复现。
 
-* [BeichenDream/Godzilla](https://github.com/BeichenDream/Godzilla) 内置了3种Payload以及6种加密器,6种支持脚本后缀,20个内置插件
+* [BeichenDream/Godzilla](https://github.com/BeichenDream/Godzilla) 内置3种Payload以及6种加密器,6种支持脚本后缀,20内置插件
 
 * [Chora10/Cknife](https://github.com/Chora10/Cknife) 跨平台的基于配置文件的中国菜刀(渗透测试工具)，把所有操作给予用户来定义，主程序只是图形的展示，以及数据的发送。
 
@@ -3619,6 +3649,10 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [outflanknl/C2-Tool-Collection](https://github.com/outflanknl/C2-Tool-Collection) 通过 BOF 和反射 DLL 加载技术与 Cobalt Strike（以及可能的其他 C2 框架）集成的工具集合。
 
+* [J0o1ey/BountyHunterInChina](https://github.com/J0o1ey/BountyHunterInChina) 重生之我是赏金猎人系列，分享自己和团队在SRC、项目实战漏洞测试过程中的有趣案例
+
+* [ReAbout/web-sec](https://github.com/ReAbout/web-sec)  WEB安全手册(红队安全技能栈)，漏洞理解，漏洞利用，代码审计和渗透测试总结。
+
 * [metaStor/SpringScan](https://github.com/metaStor/SpringScan) SpringScan 漏洞检测 Burp插件
 
 * [zan8in/afrog](https://github.com/zan8in/afrog) 性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具
@@ -3636,7 +3670,11 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [API-Security/APIKit](https://github.com/API-Security/APIKit) 主动/被动扫描发现应用泄露的API文档，并将API文档解析成BurpSuite中的数据包用于API安全测试。
 
-* [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) 社区策划的核心引擎模板列表，用于查找安全漏洞。
+* [vavkamil/awesome-bugbounty-tools](https://github.com/vavkamil/awesome-bugbounty-tools) 各种错误bug赏金工具的精选列表
+
+* [cdk-team/CDK](https://github.com/cdk-team/CDK) 为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的 逃逸、横向移动、持久化利用方式，插件化管理。
+
+* [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) 社区核心引擎模板列表，用于查找安全漏洞。
 
 * [1n7erface/RequestTemplate](https://github.com/1n7erface/RequestTemplate) 双语双端内网扫描以及验证工具
 
@@ -3814,7 +3852,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * https://github.com/barry-ran/QtScrcpy Android实时显示控制软件
 
-* https://github.com/bennettfeely/bennett ztext 易于实现的3D网页排版。适用于每种字体。
+* [bennettfeely/bennett](https://github.com/bennettfeely/bennett) ztext 易于实现的3D网页排版。适用于每种字体。
 
 * https://github.com/DaveJarvis/keenwrite 基于Java的桌面Markdown编辑器，具有实时预览，字符串插值和公式
 
@@ -3896,9 +3934,11 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * https://github.com/linyacool/WebServer C++11编写的Web服务器
 
+* [jupyter-xeus/xeus-cling](https://github.com/jupyter-xeus/xeus-cling) 用于 C++ 编程语言的 Jupyter 内核
+
 * https://github.com/sanic-org/sanic 异步 Python 3.7+ web 框架 
 
-* https://github.com/davidbrochart/nbterm 让你在终端中查看、编辑、执行Jupyter笔记。
+* https://github.com/davidbrochart/nbterm 在终端中查看、编辑、执行Jupyter笔记。
 
 * https://github.com/SocialSisterYi/bilibili-API-collect  哔哩哔哩-API收集整理
 
