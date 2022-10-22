@@ -2233,7 +2233,9 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 * [RosettaCommons/RoseTTAFold](https://github.com/RosettaCommons/RoseTTAFold) 结合AlphaFold相关思想的网络架构，并通过三轨网络获得了最佳性能，其中1D序列、2D距离图和3D坐标的信息依次转换和集成。三轨网络精度接近AlphaFold2，能够快速解决具有挑战性的X-ray晶体学和冷冻电镜结构建模问题，并提供对当前未知结构蛋白质功能的见解。还能够仅从序列信息中快速生成准确的蛋白质-蛋白质复合物模型。
 
-* [aqlaboratory/openfold](https://github.com/aqlaboratory/openfold) AlphaFold2的可训练、内存效率高且GPU友好的 PyTorch 再现
+* [aqlaboratory/openfold](https://github.com/aqlaboratory/openfold) AlphaFold2的可训练、内存效率高且GPU友好的 PyTorch 再现。
+
+* [dauparas/ProteinMPNN](https://github.com/dauparas/ProteinMPNN) 基于深度学习的蛋白质序列设计方法，在计算和实验测试中都有出色的表现。在本地蛋白质骨架上，它的序列恢复率为52.4%，而Rosetta为32.9%。不同位置的氨基酸序列可以在单链或多链之间进行耦合，从而能够应用于当前广泛的蛋白质设计挑战。研究员利用X射线晶体学、冷冻电镜和功能研究证明了它的广泛实用性和高准确性，挽救了使用Rosetta或AlphaFold进行的蛋白质单体、环状同源寡聚体、四面体纳米颗粒和靶标结合蛋白的失败设计。
 
 * https://github.com/salesforce/provis BERTology Meets Biology: Interpreting Attention in Protein Language Models 注意力机制在蛋白质语言模型的应用
 
@@ -2243,7 +2245,11 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 * https://github.com/nadavbra/protein_bert ProteinBERT：专为蛋白质序列和功能设计的通用深度学习模型
 
-* https://github.com/strauchlab/scaffold_design 小蛋白质折叠结构和序列空间的采样
+* [pengxingang/Pocket2Mol](https://github.com/pengxingang/pocket2mol) 基于 3D 蛋白质口袋的高效分子采样  使用等变图神经网络来提高以前基于结构的药物设计模型的效率和分子质量。
+
+* [jertubiana/ScanNet](https://github.com/jertubiana/ScanNet) 可解释的几何深度学习模型，用于结构的蛋白质结合位点预测
+
+* [strauchlab/scaffold_design](https://github.com/strauchlab/scaffold_design) 小蛋白质折叠结构和序列空间的采样
 
 * [flatironinstitute/DeepFRI](https://github.com/flatironinstitute/DeepFRI) 基于结构和GCN的蛋白质功能预测
 
@@ -2289,7 +2295,7 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 * [deepchem/deepchem](https://github.com/deepchem/deepchem) DeepChem 旨在提供一个高质量的开源工具链，使深度学习在药物发现、材料科学、量子化学和生物学中的使用民主化。
 
-* [maxime-langevin/scaffold-constrained-generation](https://github.com/maxime-langevin/scaffold-constrained-generation)  基于现有的 SMILES 循环神经网络模型来执行支架约束生成。支架约束生成和优化并不是一个很好研究的问题，但在处理药物发现项目时（尤其是在化合物的后期优化中），这是我们试图解决的问题。
+* [maxime-langevin/scaffold-constrained-generation](https://github.com/maxime-langevin/scaffold-constrained-generation)  基于现有的 SMILES 循环神经网络模型来执行支架约束生成。支架约束生成和优化并不是很好研究的问题，但在处理药物发现项目时（尤其是在化合物的后期优化中），这是我们试图解决的问题。
 
 * [pyli0628/MPG](https://github.com/pyli0628/MPG) 一种有效的自我监督框架，用于学习药物发现的表达性分子全局表示
 
@@ -2297,7 +2303,7 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 * [XuhanLiu/DrugEx](https://github.com/XuhanLiu/DrugEx) 多药理学中基于帕累托的多目标优化药物设计深度学习工具包。由于可用于寻找可行的类药物分子的类药物化学空间大，合理的药物设计通常从添加或修饰侧链/取代基的特定支架开始。随着深度学习在药物发现中应用的快速增长，已经开发出多种有效的方法来进行从头药物设计。提出了DrugEx 的方法，该方法可以应用于基于多目标深度强化学习的多药理学。为了提高普遍适用性， DrugEx 以设计基于支架的药物分子，支架由用户提供的多个片段组成。在这项工作中，Transformer 用于生成分子结构。Transformer 包含一个接收支架作为输入的编码器和一个生成分子作为输出的解码器。为了处理分子的图形表示，我们提出了一种基于邻接矩阵的每个原子和键的新位置编码，以扩展 Transformer 的架构。每个分子都是通过生长和连接给定支架中的片段的程序生成的，这些片段被统一到一个模型中。此外，我们在强化学习框架下训练了这个生成器，以增加所需配体的数量。
   
-  kekegg/DLEPS 利用深度学习从基因转录数据中预测药物疗效
+  [kekegg/DLEPS](https://github.com/kekegg/DLEPS) 利用深度学习从基因转录数据中预测药物疗效
 
 ## 药物-靶标 药物-药物 化合物-蛋白质 相互作用
 
@@ -2345,9 +2351,9 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 ## 分子
 
-* https://github.com/futianfan/CORE 利用复制和改进策略自动优化分子
+* [futianfan/CORE](https://github.com/futianfan/CORE) 利用复制和改进策略自动优化分子
 
-* https://github.com/zhang-xuan1314/Molecular-graph-BERT 面向药物分子性质预测的大规模原子表征预训练模型
+* [zhang-xuan1314/Molecular-graph-BERT](https://github.com/zhang-xuan1314/Molecular-graph-BERT) 面向药物分子性质预测的大规模原子表征预训练模型
 
 * https://github.com/microsoft/Graphormer 图结构数据上的Transformer变种，应用于2D 分子化学结构图预测分子性质，还可以应用于主流图预测任务、社交网络的推荐和广告、知识图谱、自动驾驶的雷达点云数据、对交通物流运输等的时空预测和优化、程序理解和生成等等，还包括分子性质预测所涉及的行业，比如药物发掘、材料发现、分子动力学模拟、蛋白质结构预测等等。
 
@@ -2355,11 +2361,15 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 * https://github.com/binghong-ml/MolEvol 通过可解释进化进行分子优化
 
-* https://github.com/MinkaiXu/ConfVAE-ICML21 基于双层规划的端到端分子构象生成框架
+* [MinkaiXu/GeoDiff](https://github.com/MinkaiXu/GeoDiff) 用于分子构象生成的几何扩散模型 (ICLR 2022)。
+
+* [MinkaiXu/ConfVAE-ICML21](https://github.com/MinkaiXu/ConfVAE-ICML21) 基于双层规划的端到端分子构象生成框架
 
 * https://github.com/mohimanilab/molDiscovery 使用质谱数据预测分子的身份
 
 * https://github.com/binghong-ml/retro_star 自提升策略规划真实且可执行的分子逆合成路线
+
+* [GraphPKU/3DLinker](https://github.com/GraphPKU/3DLinker) 用于分子链接器设计的 E (3) 等变变分自动编码器 
 
 * https://github.com/marcopodda/fragment-based-dgm 基于片段的分子深度生成模型.作者在ZINC数据集上进行了实验，该数据由250K类药物化合物组成。为了进一步评估LFM的影响，作者还使用了Pub Chem Bio Assay(PCBA)数据集测试了模型变体，该数据集包括约440k小分子。
 
@@ -2691,6 +2701,10 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab 基于 PyTorch 的开源对象检测工具箱
 
+[microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) 基于Masked Image Modeling的预训练方法，适用于 Swin 和 SwinV2（也适用于 ViT 和 ResNet）。它可以作为计算机视觉的通用主干。它基本上是一个分层变换器，其表示是用移位窗口计算的。移位窗口方案通过将 self-attention 计算限制在不重叠的本地窗口上，同时还允许跨窗口连接，从而带来更高的效率。将 CLIP 预训练的 ViT-L 提高了 +1.6%，以达到ImageNet-1K 图像分类，这是最准确的 ViT-L 模型。在 COCO 对象检测（58.7 box AP和51.1 mask APtest-dev）和 ADE20K 语义分割（53.5 mIoU在 val）上实现了强大的性能，大大超过了以前的模型。
+
+[google-research/kubric](https://github.com/google-research/kubric) 一个数据生成管道，用于创建具有丰富注释的半真实合成多对象视频，例如实例分割掩码、深度图和光流。
+
 [megvii-model/YOLOF](https://github.com/megvii-model/YOLOF) 一个没有FPN的简单、快速、高效的目标检测器。
 
 [JosephKJ/OWOD](https://github.com/JosephKJ/OWOD) (CVPR 2021 Oral) 开放世界目标检测.引入了强大的评估协议并提供了一种新颖的解决方案，我们称之为 ORE：开放世界对象检测器，基于对比聚类和基于能量的未知识别。
@@ -2761,6 +2775,10 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
 
+[KaiyangZhou/CoOp](https://github.com/KaiyangZhou/CoOp)  通过快速学习将CLIP等视觉语言模型适应下游数据集
+
+[j-min/VL-T5](https://github.com/j-min/VL-T5) 通过文本生成统一视觉和语言任务
+
 [facebookresearch/AugLy](https://github.com/facebookresearch/AugLy) 用于音频、图像、文本和视频的数据增强库。
 
 https://github.com/hugozanini/realtime-semantic-segmentation 使用TensorFlow.js实施RefineNet以在浏览器中执行实时实例分割
@@ -2817,11 +2835,13 @@ google-research/remixmatch 改进了最近提出的MixMatch半监督学习算法
 
 https://github.com/ashkamath/mdetr 用于端到端多模态理解的调制检测。输入描述文本及图片，识别出文字描述的对应物体。
 
-[erikalu/omnimatte](https://github.com/erikalu/omnimatte) 提取视频中的前、背景。精确的蒙版（matte）操作，分离前景背景。
+[erikalu/omnimatte](https://github.com/erikalu/omnimatte) 提取视频中的前、背景。精确蒙版（matte）操作，分离前景背景。
+
+[microsoft/SimMIM](https://github.com/microsoft/SimMIM) 用作掩码图像建模的简单框架。通过系统研究，我们发现每个组件的简单设计都显示出非常强的表示学习性能：1）用中等大小的掩码补丁大小（例如，32）对输入图像进行随机掩码，这是一个强大的前置任务；2) 通过直接回归预测 RGB 值的原始像素的性能并不比设计复杂的补丁分类方法差；3）预测头可以像线性层一样轻，性能不比较重的层差。
 
 [fengpanhe/MT-ORL](https://github.com/fengpanhe/MT-ORL)PyTorch 实现论文“MT-ORL：多任务遮挡关系学习”（ICCV 2021）
 
-[snap-research/CAT](https://github.com/snap-research/CAT) 用于压缩"图像到图像模型"CycleGAN Pix2pix的压缩和教学 (CAT) 框架.
+[snap-research/CAT](https://github.com/snap-research/CAT) 用于压缩"图像到图像模型"CycleGAN Pix2pix的压缩和教学框架.
 
 [nikheelpandey/TAUP-PyTorch](https://github.com/nikheelpandey/TAUP-PyTorch) 任务不可知的无监督预训练。simCLR 论文的粗略实现。 如论文中所述，在对比损失函数上使用 LARS 优化器来训练对比模型。 将此模型用作编码器并添加全连接层以创建分类器。
 
@@ -3329,6 +3349,10 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [michenriksen/aquatone](https://github.com/michenriksen/aquatone) 跨大量主机对网站进行可视化检查的工具，便于快速了解基于 HTTP 的攻击面。
 
+* [pen4uin/awesome-java-security](https://github.com/pen4uin/awesome-java-security) Java安全☞漏洞研究
+
+* [ac0d3r/Hyuga](https://github.com/ac0d3r/Hyuga) 监控带外(Out-of-Band)流量的工具
+
 * [tomnomnom/httprobe](https://github.com/tomnomnom/httprobe) 获取域列表并探测工作的 HTTP 和 HTTPS 服务器
 
 * [projectdiscovery/shuffledns](https://github.com/projectdiscovery/shuffledns) 使用主动暴力破解枚举有效的子域，并通过通配符处理和简单的输入输出支持来解析子域。
@@ -3357,9 +3381,13 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [r0ysue/r0capture](https://github.com/r0ysue/r0capture) 安卓应用层抓包通杀脚本
 
-* [frida/frida](https://github.com/frida/frida) 面向开发、逆向工程师和安全研究的动态检测工具包。[在frida.re](https://translate.google.com/website?sl=en&tl=zh-CN&hl=zh-CN&client=webapp&u=https://frida.re/)了解更多信息。
+* [frida/frida](https://github.com/frida/frida) 面向开发、逆向工程师和安全研究的动态检测工具。-> [rida.re](https://frida.re/)
+
+* [chaitin/veinmind-tools](https://github.com/chaitin/veinmind-tools) 长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集
 
 * [lintstar/About-Attack](https://github.com/lintstar/About-Attack) 一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收集，降低红队技术门槛的手册
+
+* [projectdiscovery/uncover](https://github.com/projectdiscovery/uncover) 使用多个搜索引擎快速发现互联网上暴露的主机。
 
 * [Simp1er/AndroidSec](https://github.com/Simp1er/AndroidSec) 记录一些我自己在学习安卓逆向过程中的海洋的东西
 
