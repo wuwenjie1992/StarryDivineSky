@@ -379,9 +379,9 @@
 
 * [sql-machine-learning/elasticdl](https://github.com/sql-machine-learning/elasticdl)  Kubernetes原生的深度学习框架，支持容错和弹性调度,支持TensorFlow和PyTorch。
 
-* [kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) Kubeflow 是用于机器学习操作的云原生平台 - 管道、训练和部署。
+* [kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) 用于机器学习操作的云原生平台 - 管道、训练和部署。
 
-* [alibaba/euler](https://github.com/alibaba/euler) Euler-2.0是大规模分布式的图学习框架，配合TensorFlow或者阿里内部的XDL等深度学习工具，可以支持数十亿点数百亿边的复杂异构图上进行模型训练。
+* [alibaba/euler](https://github.com/alibaba/euler) 大规模分布式的图学习框架，配合TensorFlow或者阿里内部的XDL等深度学习工具，可以支持数十亿点数百亿边的复杂异构图上进行模型训练。
 
 * [Angel-ML/angel](https://github.com/Angel-ML/angel) 用于大规模机器学习的灵活而强大的参数服务器。基于参数服务器理念的高性能分布式机器学习和图计算平台。
 
@@ -413,6 +413,8 @@
 
 * [alibaba/FederatedScope](https://github.com/alibaba/FederatedScope) 综合性的联邦学习平台，为学术界和工业界的各种联邦学习任务提供方便的使用和灵活的定制。FederatedScope基于事件驱动的架构，集成了丰富的功能集合，以满足联邦学习日益增长的需求，旨在构建一个易于使用的平台，以安全有效地促进学习。
 
+* [Xtra-Computing/FedTree](https://github.com/Xtra-Computing/FedTree) 基于树的模型的联合学习系统。它的设计目的是高效、有效和安全。目前具有以下特点:梯度提升决策树的联合训练。多核 CPU 和 GPU 上的并行计算。支持同态加密、安全聚合和差分隐私。支持分类和回归。
+
 * [youngfish42/Awesome-Federated-Learning-on-Graph-and-Tabular-Data](https://github.com/youngfish42/Awesome-Federated-Learning-on-Graph-and-Tabular-Data) 图形和表格数据相关论文、框架和数据集的联邦学习。
 
 ## 其他_机器学习与深度学习
@@ -422,6 +424,8 @@
 * [streamlit/streamlit](https://github.com/streamlit/streamlit)  用 Python 构建数据应用程序的最快方法
 
 * [huggingface/optimum](https://github.com/huggingface/optimum) 性能优化工具，可实现在目标硬件上训练和运行模型的最高效率。AI 生态系统发展迅速，越来越多的专用硬件及其自身的优化每天都在涌现。因此，Optimum 使用户能够有效地使用这些平台中的任何一个，并且与变压器固有的相同。
+
+* [mosaicml/composer](https://github.com/mosaicml/composer) 将神经网络训练速度提高 7 倍 更低的成本和更高的准确度更快地训练神经网络。我们已经实现了两打以上的加速方法，只需几行代码即可应用于您的训练循环，或与我们的内置 Trainer 一起使用。
 
 * [China-UK-ZSL/Resources_for_KZSL](https://github.com/China-UK-ZSL/Resources_for_KZSL) KZSL：对知识驱动的零样本学习进行基准测试.用于零**样本**图像分类 ( ZS-IMGC)、零**样本**关系提取 ( ZS-RE) 和零**样本**知识图 (KG) 完成 ( ZS-KGC ))
 
@@ -1158,25 +1162,25 @@
 
 ## 机器阅读理解
 
-* basketballandlearn/MRC_Competition_Dureader 基于大规模MRC数据再训练的机器阅读理解预训练模型（包括roberta-wwm-large、macbert-large），可以使用[transformers库](https://huggingface.co/luhua/chinese_pretrain_mrc_roberta_wwm_ext_large)。
+* https://github.com/basketballandlearn/MRC_Competition_Dureader 基于大规模MRC数据再训练的机器阅读理解预训练模型（包括roberta-wwm-large、macbert-large），可以使用[transformers库](https://huggingface.co/luhua/chinese_pretrain_mrc_roberta_wwm_ext_large)。
 
-* wptoux/albert-chinese-large-webqa 基于百度webqa与dureader数据集训练的Albert Large QA模型
+* https://github.com/wptoux/albert-chinese-large-webqa 基于百度webqa与dureader数据集训练的Albert Large QA模型
 
-* bojone/dgcnn_for_reading_comprehension 基于膨胀门卷积的阅读理解式问答模型（Keras实现）
+* https://github.com/bojone/dgcnn_for_reading_comprehension 基于膨胀门卷积的阅读理解式问答模型（Keras实现）
 
-* cooelf/AwesomeMRC 对MRC的研究摘要和参考资料
+* https://github.com/cooelf/AwesomeMRC 对MRC的研究摘要和参考资料
 
-* nlpdata/c3 中文机器阅读理解数据集 multiple-Choice Chinese machine reading Comprehension dataset.
+* https://github.com/nlpdata/c3 中文机器阅读理解数据集 multiple-Choice Chinese machine reading Comprehension dataset.
 
-* qiufengyuyi/event_extraction 百度aistudio事件抽取比赛 使用机器阅读理解来尝试解决。
+* https://github.com/qiufengyuyi/event_extraction 百度aistudio事件抽取比赛 使用机器阅读理解来尝试解决。
 
-* liuhuanyong/MiningZhiDaoQACorpus 百度知道问答语料库，包括超过580万的问题，938万的答案，5800个分类标签。基于该问答语料库，可支持多种应用，如闲聊问答，逻辑挖掘。 
+* https://github.com/liuhuanyong/MiningZhiDaoQACorpus 百度知道问答语料库，包括超过580万的问题，938万的答案，5800个分类标签。基于该问答语料库，可支持多种应用，如闲聊问答，逻辑挖掘。 
 
-* xv44586/ccf_2020_qa_match CCF2020问答匹配比赛 任务是：给定IM交流片段，片段包含一个客户问题以及随后的经纪人若干IM消息，从随后的经纪人消息中找出一个是对客户问题的回答。
+* https://github.com/xv44586/ccf_2020_qa_match CCF2020问答匹配比赛 任务是：给定IM交流片段，片段包含一个客户问题以及随后的经纪人若干IM消息，从随后的经纪人消息中找出一个是对客户问题的回答。
 
-* lgw863/LogiQA-dataset 数据集包含8,678个QA实例
+* https://github.com/lgw863/LogiQA-dataset 数据集包含8,678个QA实例
 
-* HIT-SCIR/Molweni 提出了构建于多人对话的英文机器阅读理解（MRC）数据集——Molweni，并覆盖了对话语篇结构。Molweni源自于Ubuntu聊天语料库，包括10,000个对话，共计88,303条话语（utterance）。我们共标注了30,066个问题，包括可回答和不可回答的问题。Molweni独特地为其多人对话提供了语篇结构信息，共标注了78,245个语篇关系实例，为多人对话语篇结构分析（Discourse  parsing）贡献了大规模数据。
+* https://github.com/HIT-SCIR/Molweni 提出了构建于多人对话的英文机器阅读理解（MRC）数据集——Molweni，并覆盖了对话语篇结构。Molweni源自于Ubuntu聊天语料库，包括10,000个对话，共计88,303条话语（utterance）。我们共标注了30,066个问题，包括可回答和不可回答的问题。Molweni独特地为其多人对话提供了语篇结构信息，共标注了78,245个语篇关系实例，为多人对话语篇结构分析（Discourse  parsing）贡献了大规模数据。
 
 * [danqi/acl2020-openqa-tutorial](https://github.com/danqi/acl2020-openqa-tutorial) 本教程对开放域问答 (QA) 的前沿研究进行了全面而连贯的概述，QA 是使用大量不同主题的文档来回答问题的任务。首先简要介绍历史背景，讨论研究问题的基本设置和核心技术挑战，然后描述具有通用评估指标和基准的现代数据集。然后，是在开放域QA中提出的前沿模型，包括两阶段检索器-阅读器方法、密集检索器和端到端训练以及无检索器方法。最后，介绍使用文本和大型知识库的混合方法，并以重要的开放性问题结束本教程。
 
@@ -1186,35 +1190,35 @@
 
 ## 知识图谱问答KBQA、多跳推理
 
-* RUCAIBox/KBQAPapers 知识图谱问答KBQA论文集
+* https://github.com/RUCAIBox/KBQAPapers 知识图谱问答KBQA论文集
 
-* shijx12/TransferNet An Effective and Transparent Framework for Multi-hop Question Answering over Relation Graph 多跳问题解答关系图的有效透明框架，通过每一跳都预测当前关系得分，并更新实体得分，直到最大跳数。预测该问题的跳数，按跳数的概率加权每一跳得分作为实体的最终得分。
+* https://github.com/shijx12/TransferNet An Effective and Transparent Framework for Multi-hop Question Answering over Relation Graph 多跳问题解答关系图的有效透明框架，通过每一跳都预测当前关系得分，并更新实体得分，直到最大跳数。预测该问题的跳数，按跳数的概率加权每一跳得分作为实体的最终得分。
 
-* malllabiisc/EmbedKGQA 基于知识图谱嵌入的链路预测处理多跳问答。首先训练实体嵌入，随后利用实体嵌入学习问题嵌入，预测时对所有实体，构建(head entity, question)并评分，并选择评分最高的头实体作为答案。能很好地处理知识图谱中的不完整和稀疏的问题
+* https://github.com/malllabiisc/EmbedKGQA 基于知识图谱嵌入的链路预测处理多跳问答。首先训练实体嵌入，随后利用实体嵌入学习问题嵌入，预测时对所有实体，构建(head entity, question)并评分，并选择评分最高的头实体作为答案。能很好地处理知识图谱中的不完整和稀疏的问题
 
-* BDBC-KG-NLP/QA-Survey 北航大数据高精尖中心研究张日崇团队对问答系统的总结。包括基于知识图谱的问答（KBQA），基于文本的问答系统（TextQA），基于表格的问答系统（TabletQA）和基于视觉的问答系统（VisualQA），每类系统分别对学术界和工业界进行总结。
+* https://github.com/BDBC-KG-NLP/QA-Survey 北航大数据高精尖中心研究张日崇团队对问答系统的总结。包括基于知识图谱的问答（KBQA），基于文本的问答系统（TextQA），基于表格的问答系统（TabletQA）和基于视觉的问答系统（VisualQA），每类系统分别对学术界和工业界进行总结。
 
 * [xianghuisun/Chinese_KGQA](https://github.com/xianghuisun/Chinese_KGQA) 实现基于知识图谱的中文问答系统
 
-* cdjhz/multigen Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph 基于常识知识图的多跳推理语言生成 本研究关注一类条件文本生成任务，即给定输入源文本X，目标是生成一段目标文本 Y。研究员们额外增加了一个知识图谱 G=(V,E) 的输入为模型在生成时提供常识知识的信息。
+* https://github.com/cdjhz/multigen Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph 基于常识知识图的多跳推理语言生成 本研究关注一类条件文本生成任务，即给定输入源文本X，目标是生成一段目标文本 Y。研究员们额外增加了一个知识图谱 G=(V,E) 的输入为模型在生成时提供常识知识的信息。
 
-* INK-USC/MHGRN 基于知识库的多跳关系推理 本篇文章提出了multi-hop relational reasoning module（多跳关系推理模型）叫做MHGRN多跳推理网络。该模型在额外的多跳知识图谱中抽取的子网络中进行推理。本文提出的方法将已有的基于路径的常识推理以及GCN融合在了一起，并在CommonsenseQA和OpenbookQA上取得了良好的效果。
+* https://github.com/INK-USC/MHGRN 基于知识库的多跳关系推理 本篇文章提出了multi-hop relational reasoning module（多跳关系推理模型）叫做MHGRN多跳推理网络。该模型在额外的多跳知识图谱中抽取的子网络中进行推理。本文提出的方法将已有的基于路径的常识推理以及GCN融合在了一起，并在CommonsenseQA和OpenbookQA上取得了良好的效果。
 
-* lanyunshi/Multi-hopComplexKBQA 查询图生成，用于回答知识库中的多跳复杂问题.提出了一种改进的分阶段查询图生成方法，该方法具有更灵活的生成查询图的方式。在查询图生成的每一步，包含三种预定义的操作：扩展、连接、聚合。
+* https://github.com/lanyunshi/Multi-hopComplexKBQA 查询图生成，用于回答知识库中的多跳复杂问题.提出了一种改进的分阶段查询图生成方法，该方法具有更灵活的生成查询图的方式。在查询图生成的每一步，包含三种预定义的操作：扩展、连接、聚合。
 
-* nju-websoft/SPARQA 基于知识库的问题解答,提出了一种新颖的骨架语法来表示一个复杂问题的高级结构。骨架语法本质上是依赖语法的一个选定子集，用于专门表示复杂问题的高级结构。这种专用的粗粒度表示形式由于其简单性而可能具有准确的解析算法，有助于提高下游细粒度语义解析的准确性。
+* https://github.com/nju-websoft/SPARQA 基于知识库的问题解答,提出了一种新颖的骨架语法来表示一个复杂问题的高级结构。骨架语法本质上是依赖语法的一个选定子集，用于专门表示复杂问题的高级结构。这种专用的粗粒度表示形式由于其简单性而可能具有准确的解析算法，有助于提高下游细粒度语义解析的准确性。
 
-* mori97/JKNet-dgl 跳跃知识网络的dgl实现
+* https://github.com/mori97/JKNet-dgl 跳跃知识网络的dgl实现
 
-* THUDM/CogQA 基于认知图谱实现多跳阅读.从人类的认知过程中受到启发。双过程理论认为，我们的大脑思考过程由两套系统构成: System1 和 System 2。System 1: 我们的大脑首先通过System 1隐式的、无意识的和凭借直觉的过程来检索相关信息。System 2: 在System 1过程的基础上，再进行一个显式的、有意识的、可控的推理过程，即System 2。作者使用BERT模型构建System 1，使用GNN模型构建System 2。
+* https://github.com/THUDM/CogQA 基于认知图谱实现多跳阅读.从人类的认知过程中受到启发。双过程理论认为，我们的大脑思考过程由两套系统构成: System1 和 System 2。System 1: 我们的大脑首先通过System 1隐式的、无意识的和凭借直觉的过程来检索相关信息。System 2: 在System 1过程的基础上，再进行一个显式的、有意识的、可控的推理过程，即System 2。作者使用BERT模型构建System 1，使用GNN模型构建System 2。
 
-* michiyasunaga/qagnn GNN 在融合 QA 上下文与 KG 的一个尝试，在问答任务上相比现有的预训练语言模型、以及预训练 +KG 模型，都有不小的提升。同时，使用 attention-base GNN，能够可视化知识图谱中节点之间的注意力关系，有助于提高 QA 可解释性和结构化推理的能力。
+* https://github.com/michiyasunaga/qagnn GNN 在融合 QA 上下文与 KG 的一个尝试，在问答任务上相比现有的预训练语言模型、以及预训练 +KG 模型，都有不小的提升。同时，使用 attention-base GNN，能够可视化知识图谱中节点之间的注意力关系，有助于提高 QA 可解释性和结构化推理的能力。
 
-* WenRichard/KBQA-BERT 基于知识图谱的问答系统，BERT做命名实体识别和句子相似度，分为online和outline模式
+* https://github.com/WenRichard/KBQA-BERT 基于知识图谱的问答系统，BERT做命名实体识别和句子相似度，分为online和outline模式
 
-* RichardHGL/WSDM2021_NSM KBQA 的神经状态机器 ComplexWebQuestions
+* https://github.com/RichardHGL/WSDM2021_NSM KBQA 的神经状态机器 ComplexWebQuestions
 
-* UKPLab/coling2018-graph-neural-networks-question-answering 用门图形神经网络建模语义，用于知识库问题解答
+* https://github.com/UKPLab/coling2018-graph-neural-networks-question-answering 用门图形神经网络建模语义，用于知识库问题解答
 
 * [https://github.com/THU-KEG/KoPL](https://github.com/THU-KEG/KoPL) KoPL全称 Knowledge oriented Programing Language, 是一个为复杂推理问答而设计的编程语言。可以将自然语言问题表示为由基本函数组合而成的KoPL程序，程序运行的结果就是问题的答案。目前，KoPL的27个基本函数覆盖对多种知识元素（如概念、实体、关系、属性、修饰符等）的操作，并支持多种问题类型（如计数、事实验证、比较等）的查询。KoPL提供透明的复杂问题推理过程，易于理解和使用。KoPL面向知识库、文本等不同形式的知识资源，可扩展性强。
 
@@ -1228,19 +1232,19 @@
 
 * autoliuweijie/K-BERT Enabling Language Representation with Knowledge Graph ，已被AAAI2020所录取，是较早的考虑将知识图谱中的边关系引入预训练模型的论文。论文链接：arxiv.org/pdf/1909.07606v1.pdf 主要通过修改Transformer中的attention机制，通过特殊的mask方法将知识图谱中的相关边考虑到编码过程中，进而增强预训练模型的效果。
 
-* THU-KEG/KEPLER 主要通过添加类似于TransE的预训练机制来增强对应文本的表示，进而增强预训练模型在一些知识图谱有关任务的效果。
+* https://github.com/THU-KEG/KEPLER 主要通过添加类似于TransE的预训练机制来增强对应文本的表示，进而增强预训练模型在一些知识图谱有关任务的效果。
 
-* txsun1997/CoLAKE 使用知识图谱以增强预训练模型的效果 首先将上下文看作全连接图，并根据句子中的实体在KG上抽取子图，通过两个图中共现的实体将全连接图和KG子图融合起来；最终本文将文本上下文和知识上下文一起用MLM进行预训练，将mask的范围推广到word、entity和relation；为训练该模型，本文采用cpu-gpu混合训练策略结合负采样机制减少训练时间；最终本文提出的方法在知识图谱补全和若干NLP任务上均带来了增益。然后本文将该图转化为序列，使用Transformer进行预训练，并在训练时采用特殊的type embedding来表示实体、词语与其他子图信息
+* https://github.com/txsun1997/CoLAKE 使用知识图谱以增强预训练模型的效果 首先将上下文看作全连接图，并根据句子中的实体在KG上抽取子图，通过两个图中共现的实体将全连接图和KG子图融合起来；最终本文将文本上下文和知识上下文一起用MLM进行预训练，将mask的范围推广到word、entity和relation；为训练该模型，本文采用cpu-gpu混合训练策略结合负采样机制减少训练时间；最终本文提出的方法在知识图谱补全和若干NLP任务上均带来了增益。然后本文将该图转化为序列，使用Transformer进行预训练，并在训练时采用特殊的type embedding来表示实体、词语与其他子图信息
 
-* JanKalo/KnowlyBERT 提出了一种混合的语言知识模型查询系统，该系统使用语言模型来应对现实世界中知识图谱的不完整性问题。作为KnowlyBERT的输入，用户可以向系统提出以实体为中心的SPARQL查询。首先，查询语言模型（a）；然后，对不完整的知识图谱进行查询，并获得结果（b）；另外SPARQL查询被翻译成多种自然语言语句，这些语言语句在“关系模板生成”步骤中由语言模型完成；语言模型返回多个单词列表以及每个单词（c）的置信度值；然后将这些列表合并为一个列表（d），并根据知识图谱类型信息（e）使用我们的语义过滤步骤进行过滤。此外，执行阈值处理，削减不相关的结果（f）；最后，将语言模型和知识图谱的结果合并（g）并返回给用户。
+* https://github.com/JanKalo/KnowlyBERT 提出了一种混合的语言知识模型查询系统，该系统使用语言模型来应对现实世界中知识图谱的不完整性问题。作为KnowlyBERT的输入，用户可以向系统提出以实体为中心的SPARQL查询。首先，查询语言模型（a）；然后，对不完整的知识图谱进行查询，并获得结果（b）；另外SPARQL查询被翻译成多种自然语言语句，这些语言语句在“关系模板生成”步骤中由语言模型完成；语言模型返回多个单词列表以及每个单词（c）的置信度值；然后将这些列表合并为一个列表（d），并根据知识图谱类型信息（e）使用我们的语义过滤步骤进行过滤。此外，执行阈值处理，削减不相关的结果（f）；最后，将语言模型和知识图谱的结果合并（g）并返回给用户。
 
-* yeliu918/KG-BART 知识图谱增强的预训练模型的生成式常识推理.可利用图上的注意力来聚集丰富的概念语义，从而增强对看不见的概念集的模型泛化。
+* https://github.com/yeliu918/KG-BART 知识图谱增强的预训练模型的生成式常识推理.可利用图上的注意力来聚集丰富的概念语义，从而增强对看不见的概念集的模型泛化。
 
-* bernhard2202/intkb 一种交互式知识图谱补全框架
+* https://github.com/bernhard2202/intkb 一种交互式知识图谱补全框架
 
-* husthuke/awesome-knowledge-graph 整理知识图谱相关学习资料
+* https://github.com/husthuke/awesome-knowledge-graph 整理知识图谱相关学习资料
 
-* wangbo9719/StAR_KGC Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion 结构增强文本表示学习，实现高效知识图完成.知识图谱补全 
+* https://github.com/wangbo9719/StAR_KGC Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion 结构增强文本表示学习，实现高效知识图完成.知识图谱补全 
 
 * [Everglow123/MAKG](https://github.com/Everglow123/MAKG)  移动app知识图谱 
 
@@ -1358,9 +1362,9 @@
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)  专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
 
-* weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
+* https://github.com/weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
 
-* loujie0822/DeepIE 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
+* https://github.com/loujie0822/DeepIE 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
 
 * [OpenKG-ORG/OpenUE](https://github.com/openkg-org/openue) 一个从文本中通用提取的开放工具包
 
@@ -1368,21 +1372,21 @@
 
 * [bojone/GPLinker](https://github.com/bojone/GPLinker) 基于GlobalPointer的实体/关系/事件抽取
 
-* TanyaZhao/MRC4ERE_plus 基于机器阅读理解的联合实体关系提取框架
+* https://github.com/TanyaZhao/MRC4ERE_plus 基于机器阅读理解的联合实体关系提取框架
 
-* cuhksz-nlp/RE-TaMM 于词依存信息类型映射记忆神经网络的关系抽取
+* https://github.com/cuhksz-nlp/RE-TaMM 于词依存信息类型映射记忆神经网络的关系抽取
 
-* xiaoqian19940510/Event-Extraction 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
+* https://github.com/xiaoqian19940510/Event-Extraction 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
 
-* 231sm/Reasoning_In_EE 利用本体表示学习实现低资源的事件抽取
+* https://github.com/231sm/Reasoning_In_EE 利用本体表示学习实现低资源的事件抽取
 
-* zjunlp/openue 开源的通用文本信息抽取工具 三元组抽取 事件抽取 槽填充和意图检测
+* https://github.com/zjunlp/openue 开源的通用文本信息抽取工具 三元组抽取 事件抽取 槽填充和意图检测
 
-* thunlp/OpenNRE 开源的神经网络关系抽取工具包，包括了多款常用的关系抽取模型，CNN、BERT、bag-level PCNN-ATT。
+* https://github.com/thunlp/OpenNRE 开源的神经网络关系抽取工具包，包括了多款常用的关系抽取模型，CNN、BERT、bag-level PCNN-ATT。
 
-* thunlp/NREPapers 神经网络关系抽取必读论文列表，覆盖了较为经典的神经网络关系抽取领域的已发表论文、综述等。
+* https://github.com/thunlp/NREPapers 神经网络关系抽取必读论文列表，覆盖了较为经典的神经网络关系抽取领域的已发表论文、综述等。
 
-* zjunlp/DocED 跨句事件抽取旨在研究如何同时识别篇章内多个事件。提出多层双向网络Multi-Layer Bidirectional Network融合跨句语义和关联事件信息，从而增强内各事件提及的判别。
+* https://github.com/zjunlp/DocED 跨句事件抽取旨在研究如何同时识别篇章内多个事件。提出多层双向网络Multi-Layer Bidirectional Network融合跨句语义和关联事件信息，从而增强内各事件提及的判别。
 
 * [cuhksz-nlp/RE-AGCN](https://github.com/cuhksz-nlp/RE-AGCN) 使用注意力图卷积网络的依赖驱动关系提取的实现。
 
@@ -1404,23 +1408,23 @@
 
 ## 实体识别NER、意图识别、槽位填充
 
-* LeeSureman/Flat-Lattice-Transformer 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
+* https://github.com/LeeSureman/Flat-Lattice-Transformer 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
 
-* MiuLab/SlotGated-SLU 意图识别和槽位填充（slot filling）联合模型，提出槽位门控机制（slot-gated mechanism）来解决没有明确建立槽位和意图之间联系的缺陷，达到较好的效果。
+* https://github.com/MiuLab/SlotGated-SLU 意图识别和槽位填充（slot filling）联合模型，提出槽位门控机制（slot-gated mechanism）来解决没有明确建立槽位和意图之间联系的缺陷，达到较好的效果。
 
-* monologg/JointBERT 意图识别和槽位填充（slot filling）联合训练模型，使用了BERT来进行语义编码，然后做序列标注任务和多分类任务的联合训练。
+* https://github.com/monologg/JointBERT 意图识别和槽位填充（slot filling）联合训练模型，使用了BERT来进行语义编码，然后做序列标注任务和多分类任务的联合训练。
 
-* z814081807/DeepNER 天池中药说明书实体识别挑战冠军方案；中文命名实体识别；NER; BERT-CRF & BERT-SPAN & BERT-MRC；Pytorch 
+* https://github.com/z814081807/DeepNER 天池中药说明书实体识别挑战冠军方案；中文命名实体识别；NER; BERT-CRF & BERT-SPAN & BERT-MRC；Pytorch 
 
-* liuwei1206/LEBERT Lexicon Enhanced BERT模型来解决中文序列标注NER任务。相比于 FLAT，Lattice LSTM 等方法，它把词汇信息融入到了 BERT 底层的编码过程中。相比于 Lex-BERT，它无需包含词汇类型信息的词典，只需要普通的词向量即可。
+* https://github.com/liuwei1206/LEBERT Lexicon Enhanced BERT模型来解决中文序列标注NER任务。相比于 FLAT，Lattice LSTM 等方法，它把词汇信息融入到了 BERT 底层的编码过程中。相比于 Lex-BERT，它无需包含词汇类型信息的词典，只需要普通的词向量即可。
 
-* kangbrilliant/DCA-Net 用于插槽填充和意图检测的协同互感器。数据集ATIS上，意向Acc 97.7 插槽填充F1 95.9 。
+* https://github.com/kangbrilliant/DCA-Net 用于插槽填充和意图检测的协同互感器。数据集ATIS上，意向Acc 97.7 插槽填充F1 95.9 。
 
-* yizhen20133868/Awesome-SLU-Survey 口语语言理解（Spoken Language Understanding，SLU）作为任务型对话系统的核心组件，目的是为了获取用户询问语句的框架语义表示（semantics frame）信息，进而将这些信息为对话状态追踪模块（DST）以及自然语言生成模块（NLG）所使用。SLU任务通常包含以下两个任务：意图识别（intent detection）和槽位填充（slot filling）。
+* https://github.com/yizhen20133868/Awesome-SLU-Survey 口语语言理解（Spoken Language Understanding，SLU）作为任务型对话系统的核心组件，目的是为了获取用户询问语句的框架语义表示（semantics frame）信息，进而将这些信息为对话状态追踪模块（DST）以及自然语言生成模块（NLG）所使用。SLU任务通常包含以下两个任务：意图识别（intent detection）和槽位填充（slot filling）。
 
-* wuba/qa_match 58同城推出的一款基于深度学习的轻量级问答匹配工具，它融合领域识别与意图识别，对问答意图进行精确理解。
+* https://github.com/wuba/qa_match 58同城推出的一款基于深度学习的轻量级问答匹配工具，它融合领域识别与意图识别，对问答意图进行精确理解。
 
-* qiufengyuyi/sequence_tagging 使用bilstm-crf，bert等方法进行序列标记任务
+* https://github.com/qiufengyuyi/sequence_tagging 使用bilstm-crf，bert等方法进行序列标记任务
 
 * [panchunguang/ccks_baidu_entity_link](https://github.com/panchunguang/ccks_baidu_entity_link) CCKS&百度 2019中文短文本的实体链指 第一名解决方案
 
@@ -1912,6 +1916,8 @@ https://github.com/goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。�
 
 https://github.com/jdb78/pytorch-forecasting pytorch的时间系列预测库，模型包括：RecurrentNetwork、DecoderMLP、NBeats 、DeepAR 、TemporalFusionTransformer。
 
+[qingsongedu/time-series-transformers-review](https://github.com/qingsongedu/time-series-transformers-review) 专业策划的关于时间序列的变压器的很棒的资源（论文、代码、数据等）列表。
+
 https://github.com/arrigonialberto86/deepar Amazon于2017年提出的基于深度学习的时间序列预测方法
 
 https://github.com/fjxmlzn/DoppelGANger 使用GAN共享网络时间序列数据：挑战，初步承诺和未解决的问题，IMC 2020（最佳论文入围）
@@ -1990,125 +1996,123 @@ https://github.com/jsyoon0823/TimeGAN 时间序列生成对抗网络
 
 # 强化学习 Reinforcement Learning
 
-ray-project/ray 构建分布式机器学习应用提供简单和通用式的API。Ray打包了Tune、RLlib、RaySGD和Ray Serve等多款机器学习库。
+https://github.com/ray-project/ray 构建分布式机器学习应用提供简单和通用式的API。Ray打包了Tune、RLlib、RaySGD和Ray Serve等多款机器学习库。
 
 [Farama-Foundation/PettingZoo](https://github.com/Farama-Foundation/PettingZoo) 一个用于进行多智能体强化学习研究的 Python 库，类似于[Gym](https://github.com/openai/gym)的多智能体版本。
 
-astooke/rlpyt
+https://github.com/astooke/rlpyt
 
-Generative Adversarial User Model
+https://github.com/dennybritz/reinforcement-learning
 
-dennybritz/reinforcement-learning
+https://github.com/keiohta/tf2rl
 
-keiohta/tf2rl
+https://github.com/rlgraph/rlgraph
 
-rlgraph/rlgraph
+https://github.com/deepmind/trfl
 
-deepmind/trfl
+https://github.com/Ceruleanacg/Personae
 
-Ceruleanacg/Personae
+https://github.com/dgriff777/a3c_continuous
 
-dgriff777/a3c_continuous
+https://github.com/google/dopamine
 
-google/dopamine
+https://github.com/keras-rl/keras-rl
 
-keras-rl/keras-rl
+https://github.com/openai/gym
 
-openai/gym
+https://github.com/georgezouq/awesome-deep-reinforcement-learning-in-finance 金融市场上使用的那些AI（RL/DL/SL/进化/遗传算法）的集合
 
-georgezouq/awesome-deep-reinforcement-learning-in-finance 金融市场上使用的那些AI（RL/DL/SL/进化/遗传算法）的集合
+https://github.com/google/brain-tokyo-workshop 世界模型 prettyNEAT
 
-google/brain-tokyo-workshop 世界模型 prettyNEAT
+https://github.com/google-research/football
 
-google-research/football
-
-tensortrade-org/tensortrade 一个开源强化学习框架，用于训练，评估和部署强大的交易程序。
+https://github.com/tensortrade-org/tensortrade 一个开源强化学习框架，用于训练，评估和部署强大的交易程序。
 
 [Baekalfen/PyBoy](https://github.com/Baekalfen/PyBoy) 用 Python 编写的 Game Boy 模拟器
 
-google-research/batch_rl 离线强化学习
+https://github.com/google-research/batch_rl 离线强化学习
 
-tensorflow/agents TF-Agents是TensorFlow中的强化学习库
+https://github.com/tensorflow/agents TF-Agents是TensorFlow中的强化学习库
 
-YingtongDou/Nash-Detect 通过Nash强化学习进行鲁棒的垃圾邮件发送者检测
+https://github.com/YingtongDou/Nash-Detect 通过Nash强化学习进行鲁棒的垃圾邮件发送者检测
 
-deepmind/acme 强化学习的研究框架，强化学习组件和代理库
+https://github.com/deepmind/acme 强化学习的研究框架，强化学习组件和代理库
 
-XinJingHao/TD3 TD3强化算法的实现
+https://github.com/XinJingHao/TD3 TD3强化算法的实现
 
-huawei-noah/xingtian 刑天（XingTian）是一个组件化的库，用于开发和验证强化学习算法。它支持多种算法，包括DQN，DDPG，PPO和IMPALA等，可以在多个环境中训练代理，例如Gym，Atari，Torcs，StarCraft等。
+https://github.com/huawei-noah/xingtian 刑天（XingTian）是一个组件化的库，用于开发和验证强化学习算法。它支持多种算法，包括DQN，DDPG，PPO和IMPALA等，可以在多个环境中训练代理，例如Gym，Atari，Torcs，StarCraft等。
 
-thu-ml/tianshou 天授是基于纯PyTorch强化学习的平台。与现有的强化学习库主要基于TensorFlow，具有许多嵌套类，不友好的API或速度较慢的现有学习库不同，天守提供了快速的模块化框架和pythonic API，用于以最少的行数构建深度强化学习代理代码。
+https://github.com/thu-ml/tianshou 天授是基于纯PyTorch强化学习的平台。与现有的强化学习库主要基于TensorFlow，具有许多嵌套类，不友好的API或速度较慢的现有学习库不同，天守提供了快速的模块化框架和pythonic API，用于以最少的行数构建深度强化学习代理代码。
 
-Jingliang-Duan/Distributional-Soft-Actor-Critic 一种用于连续控制任务的强化学习算法—DSAC，其优势在于减少Q值的过估计并显著改进策略的性能。证明了强化学习中引入分布式回报可显著降低Q值的过估计误差，并定量表明此误差与分布的方差呈反比关系。与主流RL算法相比，策略性能提升20% 以上。
+https://github.com/Jingliang-Duan/Distributional-Soft-Actor-Critic 一种用于连续控制任务的强化学习算法—DSAC，其优势在于减少Q值的过估计并显著改进策略的性能。证明了强化学习中引入分布式回报可显著降低Q值的过估计误差，并定量表明此误差与分布的方差呈反比关系。与主流RL算法相比，策略性能提升20% 以上。
 
-tencent-ailab/TLeague 一种基于竞争性自我驱动的多智能体强化学习框架。
+https://github.com/tencent-ailab/TLeague 一种基于竞争性自我驱动的多智能体强化学习框架。
 
-minerllabs/minerl Minecraft 游戏环境
+https://github.com/minerllabs/minerl Minecraft 游戏环境
 
-mwydmuch/ViZDoom 基于ZDoom末日的AI研究平台，可从原始视觉信息进行强化学习。
+https://github.com/mwydmuch/ViZDoom 基于ZDoom末日的AI研究平台，可从原始视觉信息进行强化学习。
 
-openai/retro 复古游戏 
+https://github.com/openai/retro 复古游戏 
 
 [rlgraph/rlgraph](https://github.com/rlgraph/rlgraph) 用于深度强化学习的模块化计算图
 
-google-research/football 基于开源游戏Game Football的RL环境
+https://github.com/google-research/football 基于开源游戏Game Football的RL环境
 
-TorchCraft/TorchCraftAI 可让您建立机器人以学习玩《星际争霸：巢穴之战》。
+https://github.com/TorchCraft/TorchCraftAI 可让您建立机器人以学习玩《星际争霸：巢穴之战》。
 
-deepmind/pysc2 星际争霸II强化学习环境
+https://github.com/deepmind/pysc2 星际争霸II强化学习环境
 
-datamllab/rlcard 纸牌（扑克）游戏中的强化学习/ AI机器人-大酒杯，勒杜克，德克萨斯州，窦滴竹，麻将，UNO。
+https://github.com/datamllab/rlcard 纸牌（扑克）游戏中的强化学习/ AI机器人-大酒杯，勒杜克，德克萨斯州，窦滴竹，麻将，UNO。
 
 sourceforge.net/projects/torcs ORCS，开放式赛车模拟器是一种高度便携式的多平台赛车模拟。
 
-Microsoft/AirSim 基于Unreal Engine / Unity的自动驾驶汽车开源模拟器
+https://github.com/Microsoft/AirSim 基于Unreal Engine / Unity的自动驾驶汽车开源模拟器
 
-carla-simulator/carla 用于自动驾驶研究的开源模拟器。
+https://github.com/carla-simulator/carla 用于自动驾驶研究的开源模拟器。
 
-aitorzip/DeepGTAV GTAV的插件，可将其转变为基于视觉的自动驾驶汽车研究环境。
+https://github.com/aitorzip/DeepGTAV GTAV的插件，可将其转变为基于视觉的自动驾驶汽车研究环境。
 
-deepdrive/deepdrive Deepdrive是一个模拟器，它使拥有PC的任何人都能推动最新的自动驾驶
+https://github.com/deepdrive/deepdrive Deepdrive是一个模拟器，它使拥有PC的任何人都能推动最新的自动驾驶
 
-robotology/gym-ignition 使用Ignition Gazebo模拟开发OpenAI Gym机器人环境的框架
+https://github.com/robotology/gym-ignition 使用Ignition Gazebo模拟开发OpenAI Gym机器人环境的框架
 
-stanfordnmbl/osim-rl 具有肌肉骨骼模型的强化学习环境
+https://github.com/stanfordnmbl/osim-rl 具有肌肉骨骼模型的强化学习环境
 
-lsw9021/MASS 全身肌肉骨骼系统实现了基本的仿真和控制。骨骼运动由肌肉的驱动力来驱动，并与激活水平相协调。通过与python和pytorch的接口，可以使用深度强化学习（DRL）算法，例如近端策略优化（PPO）。
+https://github.com/lsw9021/MASS 全身肌肉骨骼系统实现了基本的仿真和控制。骨骼运动由肌肉的驱动力来驱动，并与激活水平相协调。通过与python和pytorch的接口，可以使用深度强化学习（DRL）算法，例如近端策略优化（PPO）。
 
-deepmind/lab DeepMind Lab为学习代理提供了一套具有挑战性的3D导航和解谜任务。它的主要目的是充当人工智能（尤其是深度强化学习）研究的测试平台。
+https://github.com/deepmind/lab DeepMind Lab为学习代理提供了一套具有挑战性的3D导航和解谜任务。它的主要目的是充当人工智能（尤其是深度强化学习）研究的测试平台。
 
-maximecb/gym-minigrid OpenAI Gym的简约gridworld软件包
+https://github.com/maximecb/gym-minigrid OpenAI Gym的简约gridworld软件包
 
-maximecb/gym-miniworld 用于RL和机器人研究的简单3D室内模拟器
+https://github.com/maximecb/gym-miniworld 用于RL和机器人研究的简单3D室内模拟器
 
-minosworld/minos MINOS：多模式室内模拟器 旨在支持在复杂的室内环境中为目标定向导航开发多传感器模型。MINOS利用复杂3D环境的大型数据集，并支持多模式传感器套件的灵活配置。
+https://github.com/minosworld/minos MINOS：多模式室内模拟器 旨在支持在复杂的室内环境中为目标定向导航开发多传感器模型。MINOS利用复杂3D环境的大型数据集，并支持多模式传感器套件的灵活配置。
 
-facebookresearch/habitat-sim 灵活，高性能的3D仿真器，适用于嵌入式AI研究。
+https://github.com/facebookresearch/habitat-sim 灵活，高性能的3D仿真器，适用于嵌入式AI研究。
 
-facebookresearch/habitat-lab 一个模块化的高级库，可在各种任务，环境和模拟器中训练嵌入式AI代理。
+https://github.com/facebookresearch/habitat-lab 一个模块化的高级库，可在各种任务，环境和模拟器中训练嵌入式AI代理。
 
-facebookresearch/house3d 逼真的丰富3D环境 由数以千计的室内场景组成，这些场景配有从SUNCG数据集中获取的各种场景类型，布局和对象。它包含超过4.5万个室内3D场景，从工作室到带有游泳池和健身室的两层房屋。
+https://github.com/facebookresearch/house3d 逼真的丰富3D环境 由数以千计的室内场景组成，这些场景配有从SUNCG数据集中获取的各种场景类型，布局和对象。它包含超过4.5万个室内3D场景，从工作室到带有游泳池和健身室的两层房屋。
 
-staghuntrpg/RPG 通过奖励随机化发现多智能体游戏中多样性策略行为。通过奖励随机化对原始游戏（StagHunt）的奖励（reward）进行扰动，将问题转化为在扰动后的游戏中寻找合作策略，然后再回到原始游戏中进行微调（fine-tune），进而找到最优策略。
+https://github.com/staghuntrpg/RPG 通过奖励随机化发现多智能体游戏中多样性策略行为。通过奖励随机化对原始游戏（StagHunt）的奖励（reward）进行扰动，将问题转化为在扰动后的游戏中寻找合作策略，然后再回到原始游戏中进行微调（fine-tune），进而找到最优策略。
 
-daochenzha/rapid 一种为每个回合的探索动作打分和排序的机制，以选出好的探索行为。不同于以往基于内部奖励的方法，回合排序算法将好的探索行为记录下来，然后通过模仿学习鼓励智能体探索。初步结果表明，该方法具有非常好的效果，特别是在具有随机性的环境中。
+https://github.com/daochenzha/rapid 一种为每个回合的探索动作打分和排序的机制，以选出好的探索行为。不同于以往基于内部奖励的方法，回合排序算法将好的探索行为记录下来，然后通过模仿学习鼓励智能体探索。初步结果表明，该方法具有非常好的效果，特别是在具有随机性的环境中。
 
-AI4Finance-LLC/ElegantRL 基于PyTorch的轻量-高效-稳定的深度强化学习框架
+https://github.com/AI4Finance-LLC/ElegantRL 基于PyTorch的轻量-高效-稳定的深度强化学习框架
 
-datawhalechina/easy-rl  强化学习中文教程
+https://github.com/datawhalechina/easy-rl  强化学习中文教程
 
-kwai/DouZero 斗地主AI 
+https://github.com/kwai/DouZero 斗地主AI 
 
-opendilab/DI-engine 通用的决策智能引擎。它支持最基本的深度强化学习 （DRL） 算法，如 DQN、PPO、SAC 和域特定算法，如多代理 RL 中的 QMIX、逆RL 中的 GAIL 和探索问题的 RND。还支持各种培训管道和定制决策 AI 应用程序。
+https://github.com/opendilab/DI-engine 通用的决策智能引擎。它支持最基本的深度强化学习 （DRL） 算法，如 DQN、PPO、SAC 和域特定算法，如多代理 RL 中的 QMIX、逆RL 中的 GAIL 和探索问题的 RND。还支持各种培训管道和定制决策 AI 应用程序。
 
-kzl/decision-transformer UC 伯克利、FAIR 和谷歌大脑的研究者提出了 Decision Transformer，通过序列建模进行强化学习的架构。
+https://github.com/kzl/decision-transformer UC 伯克利、FAIR 和谷歌大脑的研究者提出了 Decision Transformer，通过序列建模进行强化学习的架构。
 
-instadeepai/Mava 用于构建多智能体强化学习 (MARL) 系统的库。Mava 为 MARL 提供了有用的组件、抽象、实用程序和工具，并允许对多进程系统训练和执行进行简单的扩展，同时提供高度的灵活性和可组合性。 
+https://github.com/instadeepai/Mava 用于构建多智能体强化学习 (MARL) 系统的库。Mava 为 MARL 提供了有用的组件、抽象、实用程序和工具，并允许对多进程系统训练和执行进行简单的扩展，同时提供高度的灵活性和可组合性。 
 
-google/brax 物理模拟引擎Brax，只需一个TPU/GPU，就能和数千个CPU或GPU的计算集群的速度一样快，直接将所需时间缩短到几分钟
+https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，就能和数千个CPU或GPU的计算集群的速度一样快，直接将所需时间缩短到几分钟
 
-sjtu-marl/malib 专门面向 基于种群的多智能体深度强化学习 PB-MARL 的开源大规模并行训练框架。MALib 支持丰富的种群训练方式（例如，self-play, PSRO, league training)，并且实现和优化了常见多智能体深度强化学习算法，为研究人员降低并行化工作量的同时，大幅提升了训练效率。此外，MALib 基于 Ray 的底层分布式框架，实现了全新的中心化任务分发模型，相较于常见的多智能体强化学习训练框架（RLlib，PyMARL，OpenSpiel），相同硬件条件下吞吐量和训练速度有着数倍的提升。现阶段，MALib 已对接常见多智能体环境（星际争霸、谷歌足球、棋牌类、多人 Atari 等），后续将进一步提供对自动驾驶、智能电网等场景的支持。
+https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深度强化学习 PB-MARL 的开源大规模并行训练框架。MALib 支持丰富的种群训练方式（例如，self-play, PSRO, league training)，并且实现和优化了常见多智能体深度强化学习算法，为研究人员降低并行化工作量的同时，大幅提升了训练效率。此外，MALib 基于 Ray 的底层分布式框架，实现了全新的中心化任务分发模型，相较于常见的多智能体强化学习训练框架（RLlib，PyMARL，OpenSpiel），相同硬件条件下吞吐量和训练速度有着数倍的提升。现阶段，MALib 已对接常见多智能体环境（星际争霸、谷歌足球、棋牌类、多人 Atari 等），后续将进一步提供对自动驾驶、智能电网等场景的支持。
 
 [octavio-santiago/Super-Mario-Land-AI](https://github.com/octavio-santiago/Super-Mario-Land-AI) 机器学习和 AI 算法玩超级马里奥。
 
@@ -2128,7 +2132,7 @@ sjtu-marl/malib 专门面向 基于种群的多智能体深度强化学习 PB-MA
 
 [jiupinjia/rocket-recycling](https://github.com/jiupinjia/rocket-recycling) 基于强化学习的SpaceX火箭回收
 
-[p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch) 深度强化学习算法和环境的 PyTorch 实现。实现的算法：深度 Q 学习 (DQN) ( Mnih et al. 2013 )、具有固定 Q 目标的 DQN ( Mnih et al. 2013 )、双 DQN (DDQN) ( Hado van Hasselt et al. 2015 )、具有优先体验重放的DDQN ( Schaul et al. 2016 )、Dueling DDQN (Wang et al. 2016)、REINFORCE 加强 （Williams et al. 1992）、深度确定性策略梯度 (DDPG) ( Lillicrap et al. 2016 )、双延迟深度确定性策略梯度 (TD3) ( Fujimoto et al. 2018 )、软演员-评论家 (SAC) ( Haarnoja et al. 2018 )、离散动作的软演员-评论家 (SAC-Discrete) ( Christodoulou 2019 )、Asynchronous Advantage Actor Critic (A3C) ( Mnih et al. 2016 )、同步优势演员评论家 (A2C)、近端策略优化 (PPO) ( Schulman et al. 2017 )、具有事后经验重放的 DQN (DQN-HER) ( Andrychowicz et al. 2018 )、具有事后经验重放的 DDPG (DDPG-HER) ( Andrychowicz et al. 2018 )、分层 DQN (h-DQN) ( Kulkarni et al. 2016 )、用于分层强化学习 (SNN-HRL) 的随机神经网络 ( Florensa et al. 2017 )、多样性就是你所需要的 (DIAYN) ( Eyensbach et al. 2018 )。所有实现都能够快速解决 Cart Pole（离散动作）、Mountain Car Continuous（连续动作）、Bit Flipping（具有动态目标的离散动作）或 Fetch Reach（具有动态目标的连续动作）。我计划很快添加更多的分层 RL 算法。
+[p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch) 深度强化学习算法和环境的 PyTorch 实现。实现的算法：深度 Q 学习 (DQN) ( Mnih et al. 2013 )、具有固定 Q 目标的 DQN ( Mnih et al. 2013 )、双 DQN (DDQN) ( Hado van Hasselt et al. 2015 )、具有优先体验重放的DDQN ( Schaul et al. 2016 )、Dueling DDQN (Wang et al. 2016)、REINFORCE 加强 （Williams et al. 1992）、深度确定性策略梯度 (DDPG) ( Lillicrap et al. 2016 )、双延迟深度确定性策略梯度 (TD3) ( Fujimoto et al. 2018 )、软演员-评论家 (SAC) ( Haarnoja et al. 2018 )、离散动作的软演员-评论家 (SAC-Discrete) ( Christodoulou 2019 )、Asynchronous Advantage Actor Critic (A3C) ( Mnih et al. 2016 )、同步优势演员评论家 (A2C)、近端策略优化 (PPO) ( Schulman et al. 2017 )、具有事后经验重放的 DQN (DQN-HER) ( Andrychowicz et al. 2018 )、具有事后经验重放的 DDPG (DDPG-HER) ( Andrychowicz et al. 2018 )、分层 DQN (h-DQN) ( Kulkarni et al. 2016 )、用于分层强化学习 (SNN-HRL) 的随机神经网络 ( Florensa et al. 2017 )、多样性就是你所需要的 (DIAYN) ( Eyensbach et al. 2018 )。所有实现都能够快速解决 Cart Pole（离散动作）、Mountain Car Continuous（连续动作）、Bit Flipping（具有动态目标的离散动作）或 Fetch Reach（具有动态目标的连续动作）。计划添加更多的分层 RL 算法。
 
 [distributional-rl.org](https://www.distributional-rl.org/)  教科书《Distributional Reinforcement Learning 分布强化学习》草稿。
 
@@ -2334,6 +2338,8 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 * [biomed-AI/GraphPPIS](https://github.com/biomed-AI/GraphPPIS) GraphPPIS 是一种使用深度图卷积网络进行基于结构的蛋白质-蛋白质相互作用位点预测的新框架，它能够从高阶空间相邻氨基酸中捕获信息。
 
 * [THinnerichs/DTI-VOODOO](https://github.com/THinnerichs/DTI-VOODOO) 使用深度图学习方法进行药物靶标相互作用预测的 PPI 网络驱动方法。
+
+* [ohuelab/QEPPI](https://github.com/ohuelab/QEPPI) 针对蛋白质-蛋白质相互作用的化合物早期筛选的定量估计指数
 
 * [DeepRank/deeprank](https://github.com/DeepRank/deeprank)使用 CNN 数据挖掘蛋白质-蛋白质相互作用的深度学习框架
 
@@ -2603,7 +2609,9 @@ https://github.com/ziwei-zh/CorrPM 关联人体边缘，人体姿态解析.研�
 
 https://github.com/SangbumChoi/MobileHumanPose MobileHumanPose 的官方 PyTorch 实现：在移动设备中实现实时 3D 人体姿态估计。
 
-https://github.com/ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移动人体姿势模型执行 3D 人体姿势估计的 Python 脚本。
+[jby1993/SelfReconCode](https://github.com/jby1993/SelfReconCode) 从单目视频自我重建你的数字化身
+
+[ibaiGorordo/ONNX-Mobile-Human-Pose-3D](https://github.com/ibaiGorordo/ONNX-Mobile-Human-Pose-3D) 使用 ONNX 中的移动人体姿势模型执行 3D 人体姿势估计的 Python 脚本。
 
 [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)  用于身体、面部、手和脚估计的实时多人关键点检测库。
 
@@ -2617,7 +2625,9 @@ https://github.com/ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移�
 
 [YadiraF/DECA](https://github.com/YadiraF/DECA) 详细的表情捕捉和动画（SIGGRAPH 2021）.从单个输入图像重建具有详细面部几何形状的 3D 头部模型。生成的 3D 头部模型可以轻松制作动画。
 
-[xierc/Semi_Human_Pose](https://github.com/xierc/Semi_Human_Pose) [ICCV-2021] 半监督二维人体姿态估计中折叠问题的实证研究。
+[sicxu/Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch) 具有弱监督学习的准确 3D 人脸重建：从单张图像到图像集 (CVPRW 2019)。PyTorch 实现。
+
+[xierc/Semi_Human_Pose](https://github.com/xierc/Semi_Human_Pose) 半监督二维人体姿态估计中折叠问题的实证研究。
 
 [DrMahdiRezaei/DeepSOCIAL](https://github.com/DrMahdiRezaei/DeepSOCIAL) DeepSOCIAL：COVID-19 大流行中的社会人物距离监测和感染风险评估。
 
@@ -2633,7 +2643,7 @@ https://github.com/ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移�
 
 [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) GFPGAN 旨在开发用于真实世界面部恢复的实用算法。
 
-[人脸识别常用开源数据集大全](https://mp.weixin.qq.com/s/bcYmSh6cli7kPeEOgmw3mg) 哥伦比亚大学公众人物脸部数据、CelebA人脸、美国国防部人脸、MTFL人脸、BioID人脸、PersonID人脸识别数据集、CMU PIE人脸库、Youtube视频人脸、CASIA 人脸图像、# Caltech人脸数据库
+[人脸识别常用开源数据集大全](https://mp.weixin.qq.com/s/bcYmSh6cli7kPeEOgmw3mg) 哥伦比亚大学公众人物脸部数据、CelebA人脸、美国国防部人脸、MTFL人脸、BioID人脸、PersonID人脸识别数据集、CMU PIE人脸库、Youtube视频人脸、CASIA 人脸图像、Caltech人脸数据库
 
 [sallymmx/ActionCLIP](https://github.com/sallymmx/ActionCLIP) 视频动作识别的新范式
 
@@ -2641,13 +2651,17 @@ https://github.com/ibaiGorordo/ONNX-Mobile-Human-Pose-3D 使用 ONNX 中的移�
 
 [RameenAbdal/StyleFlow](https://github.com/RameenAbdal/StyleFlow) 使用条件连续归一化流对 StyleGAN 生成的面部图像进行属性条件探索
 
+[kennymckormick/pyskl](https://github.com/kennymckormick/pyskl) 用于基于骨架的动作识别的工具箱。
+
+[nenadmarkus/pico](https://github.com/nenadmarkus/pico) 对标准 Viola-Jones 方法的修改。基本思想是在所有合理的位置和尺度上用级联的二元分类器扫描图像。如果图像区域成功通过级联的所有成员，则将其分类为感兴趣对象。每个二元分类器由一组决策树组成，其中像素强度比较作为其内部节点中的二元测试。这使检测器能够以非常高的速度处理图像区域。
+
 ## 图像恢复
 
-microsoft/Bringing-Old-Photos-Back-to-Life 旧照片修复
+https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life 旧照片修复
 
-xinntao/Real-ESRGAN 旨在开发通用图像恢复的实用算法。
+https://github.com/xinntao/Real-ESRGAN 旨在开发通用图像恢复的实用算法。
 
-zhangmozhe/Deep-Exemplar-based-Video-Colorization 基于深层范例的视频着色,着色时间的连贯性与稳定性
+https://github.com/zhangmozhe/Deep-Exemplar-based-Video-Colorization 基于深层范例的视频着色,着色时间的连贯性与稳定性
 
 [JingyunLiang/SwinIR](https://github.com/JingyunLiang/SwinIR) 使用 Swin Transformer 的图像恢复,图像SR\图像去噪\伪影减少
 
@@ -2657,9 +2671,11 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 ## ocr
 
-https://github.com/ouyanghuiyu/chineseocr_lite 超轻量级中文ocr
+[ouyanghuiyu/chineseocr_lite](https://github.com/ouyanghuiyu/chineseocr_lite) 超轻量级中文ocr
 
-https://github.com/JiaquanYe/TableMASTER-mmocr 将表格内容识别任务分为四个子任务：表格结构识别、文本行检测、文本行识别和框分配。 基于 MASTER，我们提出了一种新颖的表结构识别架构，我们称之为 TableMASTER。
+[JiaquanYe/TableMASTER-mmocr](https://github.com/JiaquanYe/TableMASTER-mmocr) 将表格内容识别任务分为四个子任务：表格结构识别、文本行检测、文本行识别和框分配。 基于 MASTER，我们提出了一种新颖的表结构识别架构，我们称之为 TableMASTER。
+
+[https://github.com/breezedeus/cnocr](https://github.com/breezedeus/cnocr) 
 
 https://github.com/JiaquanYe/MASTER-mmocr 本项目是 MMOCR 对 MASTER: Multi-Aspect Non-local Network for Scene Text Recognition （场景文本识别）的重新实现。
 
@@ -2711,6 +2727,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [RangiLyu/nanodet](https://github.com/RangiLyu/nanodet) 超快速和轻量级的无锚物体检测模型。 仅 980 KB(int8) / 1.8MB (fp16) 并在手机上运行 97FPS.
 
+[jizhishutong/YOLOU](https://github.com/jizhishutong/YOLOU) 收集更多关于YOLO系列的算法，让小伙伴们更好的学习物体检测的知识。同时，为了更好的应用AI技术，YOLOU也将加入相应的Deploy技术，加速我们所学算法的落地，实现价值。
+
 [ultralytics/yolov5](https://github.com/ultralytics/yolov5) 在 COCO 数据集上预训练的对象检测模型，代表 Ultralytics 对未来视觉 AI 方法的开源研究，结合了数千小时的研究和经验教训和最佳实践。
 
 [meituan/YOLOv6](https://github.com/meituan/YOLOv6) 专用于工业应用的单阶段目标检测框架。
@@ -2745,9 +2763,7 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [hkchengrex/XMem](https://github.com/hkchengrex/XMem) [ECCV 2022]使用 Atkinson-Shiffrin 模型进行长期视频对象分割
 
-[ytongbai/ViTs-vs-CNNs](https://github.com/ytongbai/ViTs-vs-CNNs) 变形金刚比 CNN 更强大吗
-
-在测量对抗鲁棒性时，Transformers 胜过 CNN。CNN 在防御对抗性攻击方面很容易像 Transformers 一样强大，如果它们正确采用 Transformers 的训练方法的话。虽然关于分布外样本的泛化，我们表明在（外部）大规模数据集上进行预训练并不是使 Transformer 能够获得比 CNN 更好的性能的基本要求。此外，我们的消融表明，这种更强的泛化在很大程度上得益于 Transformer 本身的类似自我注意的架构，而不是其他训练设置。我们希望这项工作可以帮助社区更好地理解和衡量 Transformer 和 CNN 的鲁棒性。
+[ytongbai/ViTs-vs-CNNs](https://github.com/ytongbai/ViTs-vs-CNNs) 变形金刚比 CNN 更强大吗 在测量对抗鲁棒性时，Transformers 胜过 CNN。CNN 在防御对抗性攻击方面很容易像 Transformers 一样强大，如果它们正确采用 Transformers 的训练方法的话。虽然关于分布外样本的泛化，我们表明在（外部）大规模数据集上进行预训练并不是使 Transformer 能够获得比 CNN 更好的性能的基本要求。此外，我们的消融表明，这种更强的泛化在很大程度上得益于 Transformer 本身的类似自我注意的架构，而不是其他训练设置。我们希望这项工作可以帮助社区更好地理解和衡量 Transformer 和 CNN 的鲁棒性。
 
 ## 图像风格
 
@@ -2789,41 +2805,41 @@ https://github.com/LeonLok/Multi-Camera-Live-Object-Tracking 多摄像头实时�
 
 https://github.com/kornia/kornia 基于 PyTorch 的可微分的计算机视觉 （differentiable computer vision） 开源库， 实现了：可微的基础计算机视觉算子。可微的数据增广（differentiable data augmentation）。OpenCV 和 PIL 都是不可微的，所以这些处理都只可以作为图像的预处理而无法通过观察梯度的变化来对这些算子进行优化 （gradient-based optimization）。因此，Kornia 便应运而生。
 
-architras/Advanced_Lane_Lines 基于阈值的车道标记
+https://github.com/architras/Advanced_Lane_Lines 基于阈值的车道标记
 
-facebookresearch/pytorch3d 基于PyTorch将深度学习与3D进行结合的研究框架。
+https://github.com/facebookresearch/pytorch3d 基于PyTorch将深度学习与3D进行结合的研究框架。
 
-facebookresearch/pytorchvideo 为视频理解研究打造的深度学习库。
+https://github.com/facebookresearch/pytorchvideo 为视频理解研究打造的深度学习库。
 
-rwightman/pytorch-image-models PyTorch图像类模型库，包括：ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more 
+https://github.com/rwightman/pytorch-image-models PyTorch图像类模型库，包括：ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more 
 
-google-research/vision_transformer Vision Transformer and MLP-Mixer Architectures 视觉Transformer和 MLP-混合器架构，Transformer应用于视觉，纯多层感知机视觉架构。
+https://github.com/google-research/vision_transformer Vision Transformer and MLP-Mixer Architectures 视觉Transformer和 MLP-混合器架构，Transformer应用于视觉，纯多层感知机视觉架构。
 
-China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（ZS-VQA）的基于知识图谱的掩码机制，更好结合外部知识的同时，缓解了误差传播对于模型性能的影响。
+https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（ZS-VQA）的基于知识图谱的掩码机制，更好结合外部知识的同时，缓解了误差传播对于模型性能的影响。
 
-luost26/diffusion-point-cloud 基于非平衡态热力学的全新三维点云生成模型
+https://github.com/luost26/diffusion-point-cloud 基于非平衡态热力学的全新三维点云生成模型
 
-PeterWang512/GANSketching 绘制您自己的 GAN：用手绘草图自定义 GAN 模型。
+https://github.com/PeterWang512/GANSketching 绘制您自己的 GAN：用手绘草图自定义 GAN 模型。
 
-microsoft/AutoML/tree/main/iRPE 视觉位置编码，在ImageNet和COCO上，与原始版本相比，分别获得了1.5%（top-1 Acc）和1.3%（mAP）的性能提升（无需任何调参）。
+https://github.com/microsoft/AutoML/tree/main/iRPE 视觉位置编码，在ImageNet和COCO上，与原始版本相比，分别获得了1.5%（top-1 Acc）和1.3%（mAP）的性能提升（无需任何调参）。
 
-yuhuan-wu/P2T 基于金字塔池化的视觉Transformer，可用于各类下游场景理解任务。
+https://github.com/yuhuan-wu/P2T 基于金字塔池化的视觉Transformer，可用于各类下游场景理解任务。
 
-jantic/DeOldify 基于NoGAN技术，保证视频着色的稳定性，例如，视频中的同一件衣服，不至于转换成多种颜色。
+https://github.com/jantic/DeOldify 基于NoGAN技术，保证视频着色的稳定性，例如，视频中的同一件衣服，不至于转换成多种颜色。
 
-AliaksandrSiarohin/first-order-model 图像动画的一阶运动模型,实现静态图像到动态图像的转换.
+https://github.com/AliaksandrSiarohin/first-order-model 图像动画的一阶运动模型,实现静态图像到动态图像的转换.
 
-junyanz/pytorch-CycleGAN-and-pix2pix 图像到图像的转换
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix 图像到图像的转换
 
-joelibaceta/video-to-ascii 可以使用字符作为像素在终端中播放视频
+https://github.com/joelibaceta/video-to-ascii 可以使用字符作为像素在终端中播放视频
 
-bytedance/OMGD 用于 GAN 压缩的在线多粒度蒸馏 (ICCV2021)
+https://github.com/bytedance/OMGD 用于 GAN 压缩的在线多粒度蒸馏 (ICCV2021)
 
-TorchSSL/TorchSSL 基于 PyTorch 的半监督学习库 (NeurIPS'21)
+https://github.com/TorchSSL/TorchSSL 基于 PyTorch 的半监督学习库 (NeurIPS'21)
 
-google-research/mixmatch 集成了自洽正则化的超强半监督学习 MixMatch 
+https://github.com/google-research/mixmatch 集成了自洽正则化的超强半监督学习 MixMatch 
 
-google-research/remixmatch 改进了最近提出的MixMatch半监督学习算法，引入了两种新技术：分布对齐和增强锚定。分布对齐鼓励未标记数据预测的分布接近标签的分布。增强锚定为模型提供多个强增强版本的输入，并鼓励每个输出接近同一输入的弱增强版本的预测。
+https://github.com/google-research/remixmatch 改进了最近提出的MixMatch半监督学习算法，引入了两种新技术：分布对齐和增强锚定。分布对齐鼓励未标记数据预测的分布接近标签的分布。增强锚定为模型提供多个强增强版本的输入，并鼓励每个输出接近同一输入的弱增强版本的预测。
 
 [NVlabs/stylegan3](https://github.com/NVlabs/stylegan3) 更适合视频和动画的生成模型。
 
@@ -2838,6 +2854,10 @@ https://github.com/ashkamath/mdetr 用于端到端多模态理解的调制检测
 [erikalu/omnimatte](https://github.com/erikalu/omnimatte) 提取视频中的前、背景。精确蒙版（matte）操作，分离前景背景。
 
 [microsoft/SimMIM](https://github.com/microsoft/SimMIM) 用作掩码图像建模的简单框架。通过系统研究，我们发现每个组件的简单设计都显示出非常强的表示学习性能：1）用中等大小的掩码补丁大小（例如，32）对输入图像进行随机掩码，这是一个强大的前置任务；2) 通过直接回归预测 RGB 值的原始像素的性能并不比设计复杂的补丁分类方法差；3）预测头可以像线性层一样轻，性能不比较重的层差。
+
+[microsoft/Oscar](https://github.com/microsoft/Oscar) 跨模态预训练方法Oscar（Object-Semantics Aligned Pre-training）。它利用在图像中检测到的对象标签作为锚点来显着简化图像-文本对齐的学习。在 650 万个文本图像对的公共语料库上对 Oscar 进行预训练，并在下游任务上对其进行微调，在六项成熟的视觉语言理解和生成任务上创造新的最新技术。
+
+[xyzforever/BEVT](https://github.com/xyzforever/BEVT)  视频转换器的BERT预训练。BEVT首先对图像数据进行蒙版图像建模，然后对视频数据进行蒙版图像建模和蒙版视频建模。
 
 [fengpanhe/MT-ORL](https://github.com/fengpanhe/MT-ORL)PyTorch 实现论文“MT-ORL：多任务遮挡关系学习”（ICCV 2021）
 
@@ -2861,9 +2881,11 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [https://github.com/yangle15/RANet-pytorch](https://github.com/yangle15/RANet-pytorch) 提出的分辨率自适应网络 (RANet) 通过利用spatial redundancy输入图像的分辨率来进行自适应推理。我们的动机是低分辨率表示足以对包含具有原型特征的大对象的简单样本进行分类，而只有一些困难样本需要空间详细信息。
 
-[microsoft/NUWA](https://github.com/microsoft/NUWA) NÜWA 是一个统一的多模态预训练模型，可以为8个视觉合成任务(文本转图像、模板转图像、图像补全、图像操纵、文本转视频、模板转视频、视频帧预测、视频操纵) 生成新的或操纵现有的视觉数据（即图像和视频）。待开放源码（20220201）。
+[microsoft/NUWA](https://github.com/microsoft/NUWA) NÜWA 是一个统一的多模态预训练模型，可以为8个视觉合成任务(文本转图像、模板转图像、图像补全、图像操纵、文本转视频、模板转视频、视频帧预测、视频操纵) 生成新的或操纵现有的视觉数据（即图像和视频）。待开放源码。
 
-[lucidrains/nuwa-pytorch](https://github.com/lucidrains/nuwa-pytorch) 在 Pytorch 中实现 NÜWA，用于文本到视频合成的最先进的注意力网络
+[lucidrains/nuwa-pytorch](https://github.com/lucidrains/nuwa-pytorch) 用于文本到视频合成的最先进的注意力网络
+
+[yuxie11/R2D2](https://github.com/yuxie11/R2D2) 大规模中文跨模式基准和视觉语言框架
 
 [google-research-datasets/conceptual-captions](https://github.com/google-research-datasets/conceptual-captions) 包含（图像URL、字幕）对的数据集，用于机器学习图像字幕系统的训练和评估。数据集有约330万张图像(CC3M)和1200万张图像(CC12M)两个版本，并通过一个简单的过滤程序从网络自动收集弱相关描述。 
 
@@ -2885,9 +2907,9 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [jonhare/DifferentiableSketching](https://github.com/jonhare/DifferentiableSketching) 微分绘图和素描
 
-[thuiar/Self-MM](https://github.com/thuiar/Self-MM) 用于多模态情感分析的自监督多任务学习学习模态特定表示中的代码的 Pytorch 实现
+[thuiar/Self-MM](https://github.com/thuiar/Self-MM) 用于多模态情感分析的自监督多任务学习学习模态特定表示中的代码
 
-[nuno-faria/tiler](https://github.com/nuno-faria/tiler) Tiler 是一种使用各种其他较小图像（图块）创建图像的工具。它不同于其他马赛克工具，因为它可以适应多种形状和大小的瓷砖（即不限于正方形）。图像可以由圆圈、线条、波浪、十字绣、乐高积木、我的世界积木、回形针、字母等组成…可能性无穷无尽！
+[nuno-faria/tiler](https://github.com/nuno-faria/tiler) Tiler 是一种使用各种其他较小图像（图块）创建图像的工具。它不同于其他马赛克工具，因为它可以适应多种形状和大小的瓷砖（即不限于正方形）。图像可以由圆圈、线条、波浪、十字绣、乐高积木、我的世界积木、回形针、字母等组成…
 
 [leandromoreira/ffmpeg-libav-tutorial](https://github.com/leandromoreira/ffmpeg-libav-tutorial) FFmpeg libav 教程 - 了解媒体如何从基础到转换、转码等工作
 
@@ -2902,6 +2924,8 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 [facebookresearch/SLIP](https://github.com/facebookresearch/SLIP) SLIP 自监督代码发布符合语言-图像预训练
 
 [yuewang-cuhk/awesome-vision-language-pretraining-papers](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers) 视觉和语言预训练模型 (VL-PTM) 的最新进展
+
+[zengyan-97/X-VLM](https://github.com/zengyan-97/X-VLM) 多粒度视觉语言预训练 将文本与视觉概念对齐。
 
 [facebookresearch/vilbert-multi-task](https://github.com/facebookresearch/vilbert-multi-task) 12 合 1：多任务视觉和语言表征学习
 
@@ -2987,6 +3011,8 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [nateraw/stable-diffusion-videos](https://github.com/nateraw/stable-diffusion-videos) 通过探索潜在空间和文本提示之间的变形来实现稳定扩散(stable diffusion)的视频
 
+[kuprel/min-dalle](https://github.com/kuprel/min-dalle) DALL·E Mini 到 PyTorch 的快速、最小的接口。DALL-E是一个可以通过文本描述中生成图像的AI程序。 通过120亿参数版本的GPT-3 Transformer模型来理解自然语言输入并生成相应的图片。它可以生成现实、现实中不存在的对象。
+
 # 虚拟化
 
 https://github.com/jesseduffield/lazydocker docker 简单终端 UI
@@ -3027,35 +3053,35 @@ https://github.com/wanyu-lin/ICML2021-Gem 针对图神经网络的通用因果�
 
 # 图数据库图算法
 
-Tencent/plato
+https://github.com/Tencent/plato
 
-dgraph-io/dgraph
+https://github.com/dgraph-io/dgraph
 
-hugegraph/hugegraph
+https://github.com/hugegraph/hugegraph
 
-vtraag/leidenalg
+https://github.com/vtraag/leidenalg
 
-erikbern/ann-benchmarks 最邻近搜索
+https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
-vesoft-inc/nebula 分布式、可扩展、闪电般的图形数据库
+https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形数据库
 
-milvus-io/milvus 大规模特征向量的最快相似度搜索引擎 基于Faiss、Annoy等开源库，并针对性做了定制，支持结构化查询、多模查询等业界比较急需的功能；Milvus支持cpu、gpu、arm等多种类型的处理器；同时使用mysql存储元数据，并且在共享存储的支持下，Milvus可以支持分布式部署。
+https://github.com/milvus-io/milvus 大规模特征向量的最快相似度搜索引擎 基于Faiss、Annoy等开源库，并针对性做了定制，支持结构化查询、多模查询等业界比较急需的功能；Milvus支持cpu、gpu、arm等多种类型的处理器；同时使用mysql存储元数据，并且在共享存储的支持下，Milvus可以支持分布式部署。
 
-vearch/vearch 用于嵌入式向量高效相似性搜索的分布式系统
+https://github.com/vearch/vearch 用于嵌入式向量高效相似性搜索的分布式系统
 
-dgraph-io/dgraph The Only Native GraphQL Database With A Graph Backend.
+https://github.com/dgraph-io/dgraph The Only Native GraphQL Database With A Graph Backend.
 
 [vesoft-inc/nebula](https://github.com/vesoft-inc/nebula)  Nebula Graph 是一款开源的、分布式的、易扩展的原生图数据库，能够承载数千亿个点和数万亿条边的超大规模数据集，并且提供毫秒级查询。
 
-shobrook/communities 社区检测算法和可视化工具库
+https://github.com/shobrook/communities 社区检测算法和可视化工具库
 
-jm199504/Financial-Knowledge-Graphs 小型金融知识图谱构建流程
+https://github.com/jm199504/Financial-Knowledge-Graphs 小型金融知识图谱构建流程
 
 [apache/incubator-s2graph](https://github.com/apache/incubator-s2graph) [S2Graph](http://s2graph.apache.org/)是一个**图形数据库，**旨在大规模处理事务性图形处理。它的 REST API 允许您以**完全异步**和**非阻塞的**方式使用**边缘**和**顶点**表示来存储、管理和查询关系信息。S2Graph 是[Apache TinkerPop](https://tinkerpop.apache.org/)在[Apache HBASE](https://hbase.apache.org/)上的一个实现。
 
 # 大数据
 
-[MySQL](https://www.mysql.com/) 开源的关系数据库管理系统 (RDBMS)。它的名字是“My”（联合创始人 Michael Widenius 的女儿 My 的名字）和“SQL”（结构化查询语言的缩写）的组合。关系数据库将数据组织成一个或多个数据表，其中数据可能相互关联；这些关系有助于构建数据。SQL 是程序员用来创建、修改和从关系数据库中提取数据以及控制用户对数据库的访问的语言。
+[MySQL](https://www.mysql.com/) 开源的关系数据库管理系统 (RDBMS)。它的名字是“My”（联合创始人 Michael Widenius 的女儿 My 的名字）和“SQL”（结构化查询语言的缩写）的组合。它将数据组织成一个或多个数据表，其中数据可能相互关联；这些关系有助于构建数据。SQL 是程序员用来创建、修改和从关系数据库中提取数据以及控制用户对数据库的访问的语言。
 
 [MariaDB](https://mariadb.org/) MySQL的社区开发、商业支持的分支，旨在在 GNU 通用公共许可证下保持免费和开源软件。开发由 MySQL 的一些原始开发人员领导，由于担心 2009 年被甲骨文公司收购，他们将其分叉。
 
@@ -3153,9 +3179,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * https://github.com/cccriscv/mini-riscv-os 从零开始为 RISC-V 构建最小的多任务操作系统内核
 
-* https://github.com/plctlab/riscv-operating-system-mooc 《从头写一个RISC-V OS》课程配套的资源
+* [plctlab/riscv-operating-system-mooc](https://github.com/plctlab/riscv-operating-system-mooc) 《从头写一个RISC-V OS》课程配套的资源
 
-* https://github.com/darklife/darkriscv 一个晚上从零开始在 Verilog 实现 RISC-V cpu
+* [darklife/darkriscv](https://github.com/darklife/darkriscv) 一个晚上从零开始在 Verilog 实现 RISC-V cpu
 
 * https://github.com/ultraembedded/riscv RISC-V CPU 核心 （RV32IM）
 
@@ -3193,9 +3219,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * https://github.com/plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
 
-* [lowRISC/ibex](https://github.com/lowRISC/ibex) Ibex 是一个小型 32 位 RISC-V CPU 内核，以前称为 zero-riscy。Ibex 是用 SystemVerilog 编写的生产级开源 32 位 RISC-V CPU 内核。CPU 内核高度可参数化，非常适合嵌入式控制应用。Ibex 正在接受广泛的验证，并且已经看到多个流片。Ibex 支持整数 (I) 或嵌入式 (E)、整数乘除法 (M)、压缩 (C) 和B（位操作）扩展。
+* [lowRISC/ibex](https://github.com/lowRISC/ibex) 小型 32 位 RISC-V CPU 内核，以前称为 zero-riscy。用 System Verilog 编写的生产级开源 32 位 RISC-V CPU 内核。CPU 内核高度可参数化，非常适合嵌入式控制应用。Ibex 正在接受广泛的验证，并且已经看到多个流片。Ibex 支持整数 (I) 或嵌入式 (E)、整数乘除法 (M)、压缩 (C) 和B（位操作）扩展。
 
-* [shawn110285/Cookabarra](https://github.com/shawn110285/Cookabarra) Cookabarra 是 rv32im cpu 的训练目标实现，设计简单易懂。
+* [shawn110285/Cookabarra](https://github.com/shawn110285/Cookabarra) rv32im cpu 的训练目标实现，设计简单易懂。
 
 ## 硬件_其他
 
@@ -3217,11 +3243,15 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [FASTSHIFT/WatchX](https://github.com/FASTSHIFT/WatchX) 开源智能手表, 高质量流畅(60FPS+)的动画效果, 易于扩展的系统框架.
 
-* [killerp/off_asr](https://gitee.com/killerp/off_asr) 智能遥控器（离线版）本项目基于esp32a1s模组，设计了一个遥控器，除了实现基本的红外遥控功能，人们还能通过语音，手机远程进行红外遥控。同时又加入温度传感器，并支持将温度数据上传云端，使人们能随时随地查看、分析数据。
+* [chsasank/ARM7](https://github.com/chsasank/ARM7) ARM7 TDMI流水线处理器Verilog的实现。
+
+* [nxbyte/ARM-LEGv8](https://github.com/nxbyte/ARM-LEGv8) Verilog 编写的 ARM LEGv8 CPU 的源代码。支持的指令包括：LDUR, STUR, ADD, SUB, ORR, AND, CBZ, B, 和NOP.单周期：模拟 ARM LEGv8 单周期 CPU  仅流水线：模拟 ARM LEGv8 多周期/流水线 CPU  Pipelined with Hazard Detection and Forwarding Unit：模拟具有危险检测和转发功能的 ARM LEGv8 多周期/流水线 CPU
+
+* [killerp/off_asr](https://gitee.com/killerp/off_asr) 智能遥控器（离线版）本项目基于esp32a1s模组，设计了一个遥控器，除了实现基本的红外遥控功能，人们还能通过语音，手机远程进行红外遥控。同时又加入温度传感器，并支持将温度数据上传云端，使能随时随地查看、分析数据。
 
 * [killerp/smart_control](https://gitee.com/killerp/smart_control) 智能遥控器（在线版）。
 
-* [espressif/esp-skainet](https://github.com/espressif/esp-skainet) ESP-Skainet 是乐鑫推出的智能语音助手，目前支持唤醒词识别和命令词识别。
+* [espressif/esp-skainet](https://github.com/espressif/esp-skainet) 乐鑫推出的智能语音助手，目前支持唤醒词和命令词识别。
 
 * [Neutrino-1/Fitness_Watch](https://github.com/Neutrino-1/Fitness_Watch) 一款基于 esp12E 和 arudino 框架的健身手表。功能包括：自动显示开启和关闭、运动检测、心率传感器、NTP时间同步、触觉反馈、SMTP 电子邮件功能
 
@@ -3237,7 +3267,11 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [ultraembedded/cores: Various HDL (Verilog) IP Cores](https://github.com/ultraembedded/cores) 各种 HDL (Verilog) IP 核 sram FIFO 接口 I2S USB 
 
+* [dawsonjon/fpu](https://github.com/dawsonjon/fpu) Verilog 中可合成的 IEEE 754 浮点库。
+
 * [pebri86/esplay_micro_hardware](https://github.com/pebri86/esplay_micro_hardware) esplay硬件微版，基于ESP32的游戏机
+
+* [WalkerLau/DetectHumanFaces](https://github.com/WalkerLau/DetectHumanFaces) 采用ARM Cortex-M3软核及FPGA构成了轻量级的实时人脸检测SOC，通过ov5640摄像头采集实时图像，经过检测系统的检测后，将已经框出人脸的实时图像通过HDMI输出到显示器，同时可以通过UART查看检测时间等信息，还能通过板载LED灯查看检测到的人脸数量。
 
 # 网络
 
@@ -3310,8 +3344,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 - [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) 自动 SQL 注入和数据库接管工具
 * [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行、cli/web 工具等。
 
-* [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、
-  电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
+* [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
 
 * [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
 
@@ -3435,7 +3468,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [timwhitez/Frog-checkCDN](https://github.com/timwhitez/Frog-checkCDN) 批量检查目标是否为cdn
 
-* [MountCloud/FireKylin:](https://github.com/MountCloud/FireKylin) 麒麟-网络安全应急响应工具(系统痕迹采集)
+* [MountCloud/FireKylin](https://github.com/MountCloud/FireKylin) 麒麟-网络安全应急响应工具(系统痕迹采集)
 
 * [helloSystem/hello](https://github.com/helloSystem/hello) 专注于简单、优雅和可用性的创作者桌面系统。基于 FreeBSD。
 
@@ -3519,7 +3552,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [wpscanteam/wpscan](https://github.com/wpscanteam/wpscan) WordPress 安全扫描器。为安全专家和博客维护者编写，用于测试其 WordPress 网站的安全性。
 
-* [foryujian/yjdirscan](https://github.com/foryujian/yjdirscan) 御剑目录扫描专业版，简单实用的命令行网站目录扫描工具，支持爬虫、fuzz、自定义字典、字典变量、UA修改、假404自动过滤、扫描控速等功能。
+* [foryujian/yjdirscan](https://github.com/foryujian/yjdirscan) 御剑目录扫描专业版，简单实用的命令行网站目录扫描工具，支持爬虫、fuzz、自定义字典、字典变量、UA修改、假404过滤、扫描控速等功能。
 
 * [xmendez/wfuzz](https://github.com/xmendez/wfuzz) 在 HTTP 请求的任何字段中注入任何输入，允许在不同的 Web 应用程序组件中执行复杂的 Web 安全攻击，例如：参数、身份验证、表单、目录/文件、标头等。一个完全模块化的Python框架
 
