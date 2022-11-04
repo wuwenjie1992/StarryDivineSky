@@ -541,6 +541,8 @@
 
 * [dongkwan-kim/SuperGAT](https://github.com/dongkwan-kim/SuperGAT) ICLR2021|GAT升级版：通过多种自监督方式提升GAT中注意力，性能在15个数据集有所提升。
 
+* [graphdeeplearning/graphtransformer](https://github.com/graphdeeplearning/graphtransformer) 针对任意图的 Transformer 神经网络架构的泛化 。注意机制是图中每个节点的邻域连通性的函数。位置编码由拉普拉斯特征向量表示，它自然地概括了 NLP 中经常使用的正弦位置编码。层归一化被批量归一化层取代。该架构被扩展为具有边缘表示，这对于边缘信息丰富的任务或成对交互（例如分子中的键类型或 KG 中的关系类型等）至关重要。
+
 ## 异构图、 异质图
 
 * [BUPT-GAMMA/OpenHGNN](https://github.com/BUPT-GAMMA/OpenHGNN) 这是一个基于 DGL 的异构图神经网络（OpenHGNN）的开源工具包。支持特定任务的模型:RGCN[ESWC 2018]、HAN[WWW 2019]、KGCN[WWW 2019]、HetGNN[KDD 2019]、GTN[NeurIPS 2019]RSHN[ICDM 2019]、DGMI[AAAI 2020]、MAGNN[WWW 2020]、CompGCN[ICLR 2020]、NSHE[IJCAI 2020]、NARS[arxiv]、MHNF[arxiv]、HGSL[AAAI 2021]、HGNN-AC[WWW 2021]、HeCo[KDD 2021]、HPN[TKDE 2021]、RHGNN[arxiv]
@@ -571,6 +573,8 @@
 * [jindi-tju/HGNN-AC](https://github.com/jindi-tju/HGNN-AC) “WWW21 - 通过属性完成的异构图神经网络”的源代码
 
 * [safe-graph/GNN-FakeNews](https://github.com/safe-graph/GNN-FakeNews) 基于 GNN 的假新闻检测模型的集合。异构图分类。
+
+* [liun-online/HeCo](https://github.com/liun-online/HeCo) 具有协同对比学习的自监督异构图神经网络
 
 ## 图嵌入、网络表征学习
 
@@ -831,6 +835,8 @@
 
 * [zwt233/GAMLP](https://github.com/zwt233/GAMLP) 图形注意多层感知器 ,在 OGB 数据集上重现
 
+* [susheels/adgcl](https://github.com/susheels/adgcl) 对抗性图增强以改善图对比学习
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -890,6 +896,8 @@
 * [HazyResearch/flash-attention](https://github.com/HazyResearch/flash-attention) 快速且节省内存的精确注意力
 
 * [NetEase-FuXi/EET](https://github.com/NetEase-FuXi/EET) 针对Transformer-based大模型和长序列场景的高性能pytorch推理插件。高性能：设计高度优化的CUDA内核。灵活：提供了包括op api、model api和pipelines应对不同的需求。 易于使用： 几行代码即可完成。适配主流ai框架，包括fairseq和transformers。bert模型整体性能加速1.2x到7.x倍，gpt模型整体性能加速2.x到7.x倍。
+
+* [NVIDIA/transformer-ls](https://github.com/NVIDIA/transformer-ls) 将原始 Transformer 模型的全部自注意力替换为考虑长期和短期相关性的有效注意力。每个查询都关注分段滑动窗口中的标记以捕获短期相关性，以及动态投影特征以捕获长期相关性。为了对齐原始特征向量和投影特征向量的范数并提高聚合的效率，我们使用两组层归一化对原始特征向量和投影特征向量进行归一化。
 
 ## BERT优化
 
@@ -1160,6 +1168,8 @@
 
 * [GeekDream-x/SemEval2022-Task8-TonyX](https://github.com/GeekDream-x/SemEval2022-Task8-TonyX)  在 Semeval-2022 Task8 —— Multilingual News Article Similarity 中提供了我们获胜系统的实现。这是一项关于评估多语言和跨语言新闻文章相似性的竞赛，涵盖 18 个语言对。
 
+* [JohnGiorgi/DeCLUTR](https://github.com/JohnGiorgi/DeCLUTR)  无监督文本表示的深度对比学习
+
 ## 机器阅读理解
 
 * https://github.com/basketballandlearn/MRC_Competition_Dureader 基于大规模MRC数据再训练的机器阅读理解预训练模型（包括roberta-wwm-large、macbert-large），可以使用[transformers库](https://huggingface.co/luhua/chinese_pretrain_mrc_roberta_wwm_ext_large)。
@@ -1286,6 +1296,8 @@
 
 * [iuhuanyong/TextGrapher](https://github.com/liuhuanyong/TextGrapher) 输入一篇文档，将文档进行关键信息提取，进行结构化，并最终组织成图谱组织形式，形成对文章语义信息的图谱化展示。 采用了高频词，关键词，命名实体识别，主谓宾短语识别等抽取方式，并尝试将三类信息进行图谱组织表示，这种表示方式是一种尝试。
 
+* [liuhuanyong/ChainKnowledgeGraph](https://github.com/liuhuanyong/ChainKnowledgeGraph) 产业链知识图谱包括A股上市公司、行业和产品共3类实体，包括上市公司所属行业关系、行业上级关系、产品上游原材料关系、产品下游产品关系、公司主营产品、产品小类共6大类。 上市公司4,654家，行业511个，产品95,559条、上游材料56,824条，上级行业480条，下游产品390条，产品小类52,937条，所属行业3,946条。
+
 ## NLP语料和数据集
 
 * [thu-coai/CrossWOZ](https://github.com/thu-coai/CrossWOZ) 中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
@@ -1358,6 +1370,8 @@
   - OCNLI 中文原版自然语言推理数据集
   - CINLID 中文成语语义推理数据集
 
+* [sailxuOvO/CC-Riddle](https://github.com/sailxuOvO/CC-Riddle) 汉字谜语问答数据集
+
 ## 关系抽取、信息抽取
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)  专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
@@ -1372,7 +1386,7 @@
 
 * [bojone/GPLinker](https://github.com/bojone/GPLinker) 基于GlobalPointer的实体/关系/事件抽取
 
-* https://github.com/TanyaZhao/MRC4ERE_plus 基于机器阅读理解的联合实体关系提取框架
+* [TanyaZhao/MRC4ERE_plus](https://github.com/TanyaZhao/MRC4ERE_plus) 基于机器阅读理解的联合实体关系提取框架
 
 * https://github.com/cuhksz-nlp/RE-TaMM 于词依存信息类型映射记忆神经网络的关系抽取
 
@@ -1409,6 +1423,8 @@
 ## 实体识别NER、意图识别、槽位填充
 
 * https://github.com/LeeSureman/Flat-Lattice-Transformer 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
+
+* [https://github.com/yangjianxin1/LEBERT-NER-Chinese](https://github.com/yangjianxin1/LEBERT-NER-Chinese) 基于词汇信息融合的中文命名实体识别模型 将词汇信息引入到BERT模型中的NER模型， 本项目的目的在于验证LEBERT 模型在中文NER数据集上的表现。分别验证了Bert-Softmax、Bert-Crf、 LEBert-Softmax、LEBert-Crf在Resume、Ontonote、Msra、Weibo四个中文数据集上的表现。
 
 * https://github.com/MiuLab/SlotGated-SLU 意图识别和槽位填充（slot filling）联合模型，提出槽位门控机制（slot-gated mechanism）来解决没有明确建立槽位和意图之间联系的缺陷，达到较好的效果。
 
@@ -1848,6 +1864,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [huangtinglin/Knowledge_Graph_based_Intent_Network](https://github.com/huangtinglin/Knowledge_Graph_based_Intent_Network) 与推荐知识图交互背后的学习意图，WWW2021
 
+[amzn/pecos](https://github.com/amzn/pecos) 巨大和相关空间的预测 。用于对具有大输出空间的问题进行快速学习和推理，例如极端多标签排序 (XMR) 和大规模检索。
+
 # 金融股票与时间序列
 
 ## 金融股票
@@ -2229,6 +2247,8 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 [lhotse-speech/lhotse](https://github.com/lhotse-speech/lhotse) 在机器学习项目中处理语音数据的工具。
 
+[microsoft/NeuralSpeech](https://github.com/microsoft/NeuralSpeech) 微软亚洲研究院的一个研究项目，专注于基于神经网络的语音处理，包括自动语音识别（ASR）、文本到语音（TTS）、空间音频等。
+
 # 生物医药
 
 ## 蛋白质结构
@@ -2337,6 +2357,8 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 * [biomed-AI/GraphPPIS](https://github.com/biomed-AI/GraphPPIS) GraphPPIS 是一种使用深度图卷积网络进行基于结构的蛋白质-蛋白质相互作用位点预测的新框架，它能够从高阶空间相邻氨基酸中捕获信息。
 
+* [aqlaboratory/hsm](https://github.com/aqlaboratory/hsm) 使用机器学习对蛋白质-肽相互作用和信号网络进行生物物理预测
+
 * [THinnerichs/DTI-VOODOO](https://github.com/THinnerichs/DTI-VOODOO) 使用深度图学习方法进行药物靶标相互作用预测的 PPI 网络驱动方法。
 
 * [ohuelab/QEPPI](https://github.com/ohuelab/QEPPI) 针对蛋白质-蛋白质相互作用的化合物早期筛选的定量估计指数
@@ -2346,6 +2368,8 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 * [violet-sto/TGSA](https://github.com/violet-sto/TGSA) TGSA 的 PyTorch 实现：基于蛋白质-蛋白质关联的双图神经网络用于相似性增强的药物反应预测
 
 * [PaddleHelix/drug_target_interaction/sign](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/apps/drug_target_interaction/sign) 用于预测蛋白质-配体结合亲和力的结构感知交互式图神经网络
+
+* [biomed-AI/GraphSite](https://github.com/biomed-AI/GraphSite) 用于使用图形转换器和来自 AlphaFold2 的预测蛋白质结构进行基于序列的蛋白质-DNA 结合位点预测。
 
 * [pharmai/plip](https://github.com/pharmai/plip) 根据 PDB 文件分析和可视化非共价蛋白质-配体相互作用
 
@@ -2439,6 +2463,8 @@ https://github.com/keonlee9420/VAENAR-TTS 基于 VAE 的非自回归 TTS 模型�
 
 * [devalab/molgpt](https://github.com/devalab/molgpt) 使用下一个令牌预测任务在 Moses 和 Guacamol 数据集上训练小型自定义 GPT。然后将该模型用于无条件和有条件的分子生成。我们将我们的模型与之前在 Moses 和 Guacamol 数据集上的方法进行比较。使用Ecco库获得显着性图的可解释性。
 
+* [tencent-ailab/grover](https://github.com/tencent-ailab/grover) 大规模分子数据上的自监督图转换器。支持预训练、微调、预测、指纹生成和评估功能。
+
 ## 抗菌肽
 
 * https://github.com/vail-uvm/amp-gan 一种基于双向条件生成对抗网络的抗菌肽（AMPs）设计方法AMPGAN v2。AMPGAN v2使用生成器和鉴别器来学习数据驱动的先验知识，并使用条件变量控制生成。
@@ -2500,6 +2526,8 @@ https://github.com/QSong-github/scGCN 单细胞图卷积网络模型(single-cell
 https://github.com/mauragarofalo/LICTOR 抗体体细胞突变的机器学习分析预测免疫球蛋白轻链毒性
 
 https://github.com/JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神经网络
+
+[immunogenomics/symphony:](https://github.com/immunogenomics/symphony) 使用 Symphony 进行高效、精确的单细胞参考图谱映射
 
 [calico/scnym](https://github.com/calico/scnym) 用于对单细胞分类的半监督对抗式神经网络
 
@@ -2572,6 +2600,8 @@ https://github.com/JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预
 [rankchen121212/RHSNet](https://github.com/frankchen121212/RHSNet) 用于重组热点识别和量化的 RHSNet 的 TF 和 Keras 实现。 重组热点是基因组中相对于中性预期表现出重组率升高的区域。热点内的重组率可以是周围区域的数百倍。 重组热点是由这些区域中较高的 DNA 断裂形成引起的，适用于有丝分裂和减数分裂细胞。这个称谓可以指由程序减数分裂双链断裂的不均匀分布引起的重组事件。通过交叉进行的减数分裂重组被认为是细胞促进同源染色体正确分离和修复 DNA 损伤的机制。交叉需要 DNA 双链断裂，然后是同源物的链入侵和随后的修复。
 
 [microsoft/InnerEye-DeepLearning](https://github.com/microsoft/InnerEye-DeepLearning) 用于在 Azure 机器学习上训练和部署 3D 分割模型的医学影像深度学习库
+
+[细菌和古细菌细胞结构图谱](https://jensenlab.caltech.edu/book/) 随着近 20 年低温电子断层扫描 (cryo-ET) 的发展，我们对细菌和古细菌细胞结构的理解有了爆炸式增长，但传统教科书并没有跟上所有新信息。为了解决这个问题，并与世界分享我们所见，我们创作了这本书。它遵循 1960 年代和 1970 年代细胞结构图谱的传统，显示了不同细胞和组织的显微照片以及扩展的图形图例，以帮助每个人了解他们在看什么。五十年后，我们有了一组新的图像——这次是 3D 冷冻断层照片——以及展示它们的新技术：我们的每个免费数字页面都包含一部 3D 断层照片的电影，而不是一本昂贵的书中的静态 2D 数字。一个单元格，带有注释和动画。
 
 # 机器视觉
 
@@ -2784,6 +2814,10 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 ## 其他_机器视觉
 
 [taichi-dev/taichi](https://github.com/taichi-dev/taichi) 高效且可移植的 Python 高性能编程。该语言具有广泛的应用，包括实时物理模拟、数字计算、增强现实、人工智能、视觉和机器人技术、电影和游戏中的视觉效果、通用计算等等。
+
+[open-mmlab/mmcv](https://github.com/open-mmlab/mmcv) MMCV 是计算机视觉研究的基础库，它提供以下功能：通用 IO API、图像/视频处理、图像和注释可视化、有用的实用程序（进度条，计时器，...）、具有挂钩机制的 PyTorch runner、各种CNN架构、常见 CPU 和 CUDA 操作的高质量实现。
+
+[ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) 最先进、功能最全、最可靠的开源自动驾驶软件。自 2010 年以来，它一直由专业工程师、计算机科学家和社区贡献者组成的多元化团队开发。我们的自动驾驶软件能够控制几乎任何可以想象的车辆系统，从传统飞机、四架飞机、多旋翼和直升机到漫游车、船只、平衡机器人，甚至潜艇。它正在不断扩展，为新出现的车辆类型提供支持。
 
 [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini)  DALL·E Mini - 从文本提示生成图像
 
@@ -3163,7 +3197,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 # 硬件
 
-## RISC-V CPU
+## CPU RISC-V
 
 * https://github.com/OpenXiangShan/XiangShan 开源高性能 RISC-V 处理器
 
@@ -3223,7 +3257,33 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [shawn110285/Cookabarra](https://github.com/shawn110285/Cookabarra) rv32im cpu 的训练目标实现，设计简单易懂。
 
+* [risclite/ARM9-compatible-soft-CPU-core](https://github.com/risclite/ARM9-compatible-soft-CPU-core) ARM9 兼容软 CPU 内核 ARMv4 兼容的 CPU 内核内置在可合成的 verilog 中。它可以在 MODELSIM 中启动 uCLinux 和 Linux。它具有很高的 Dhrystone 基准值：1.2 DMIPS/MHz。如果您掌握了这个 .v 文件的接口，它可以在您的 FPGA 设计中作为一个子模块使用。该 IP 核非常紧凑。它是一个 .v 文件，只有不到 1800 行。
+
+* [ZipCPU/openarty](https://github.com/ZipCPU/openarty) Arty 上实现ZipCPU，以及所有 Arty 外围设备的开源驱动程序。
+
+* [chsasank/ARM7](https://github.com/chsasank/ARM7) ARM7 TDMI流水线处理器Verilog的实现。
+
+* [nxbyte/ARM-LEGv8](https://github.com/nxbyte/ARM-LEGv8) Verilog 编写的 ARM LEGv8 CPU 的源代码。支持的指令包括：LDUR, STUR, ADD, SUB, ORR, AND, CBZ, B, 和NOP.单周期：模拟 ARM LEGv8 单周期 CPU 仅流水线：模拟 ARM LEGv8 多周期/流水线 CPU Pipelined with Hazard Detection and Forwarding Unit：模拟具有危险检测和转发功能的 ARM LEGv8 多周期/流水线 CPU
+
+* [risclite/R8051](https://github.com/risclite/R8051) 8051软核CPU。111 条指令的 700 行语句。完全可合成的 Verilog-2001 内核。
+
+* [freecores/8051](https://github.com/freecores/8051) 8051软核
+
+* [jmahler/mips-cpu](https://github.com/jmahler/mips-cpu) 在 Verilog 中实现的 MIPS CPU
+
+* [lvyufeng/step_into_mips](https://github.com/lvyufeng/step_into_mips) 重庆大学由2017年开始实施的计算机组成原理课程改革实验内容，通过合理的梯度划分，一步一步由单独器件连接构成CPU，最后实现一个简单的MIPS五级流水CPU。
+
+* [ljlin/MIPS48PipelineCPU](https://github.com/ljlin/MIPS48PipelineCPU) 冯爱民老师《计算机组成原理A》课程设计 本实验通过工程化方法，使用 verilog 了一个支持 MIPS 指令执行集中 48 条指令，通过转向和支持阻尼冒险的 CPU。
+
+* [olgirard/openmsp430](https://github.com/olgirard/openmsp430) 用 Verilog 编写的16 位微控制器内核。
+
+* [qing-2/CPU](https://github.com/qing-2/CPU)  单周期 8指令 MIPS32CPU 
+
+* [fallen/tinycpu](https://github.com/fallen/tinycpu) Tiny CPU 是一个小型的 32 位 CPU，主要用于教育目的。
+
 ## 硬件_其他
+
+* [zhengnianli/EmbedSummary](https://github.com/zhengnianli/EmbedSummary) 精品嵌入式资源汇总
 
 * https://github.com/Lichee-Pi/Tang_FPGA_Examples LicheeTang FPGA例程
 
@@ -3242,10 +3302,6 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [Kevincoooool/ESP_MASTER](https://github.com/Kevincoooool/ESP_MASTER) ESP32-CAM 带 LVGL 语音/人脸识别红外控制
 
 * [FASTSHIFT/WatchX](https://github.com/FASTSHIFT/WatchX) 开源智能手表, 高质量流畅(60FPS+)的动画效果, 易于扩展的系统框架.
-
-* [chsasank/ARM7](https://github.com/chsasank/ARM7) ARM7 TDMI流水线处理器Verilog的实现。
-
-* [nxbyte/ARM-LEGv8](https://github.com/nxbyte/ARM-LEGv8) Verilog 编写的 ARM LEGv8 CPU 的源代码。支持的指令包括：LDUR, STUR, ADD, SUB, ORR, AND, CBZ, B, 和NOP.单周期：模拟 ARM LEGv8 单周期 CPU  仅流水线：模拟 ARM LEGv8 多周期/流水线 CPU  Pipelined with Hazard Detection and Forwarding Unit：模拟具有危险检测和转发功能的 ARM LEGv8 多周期/流水线 CPU
 
 * [killerp/off_asr](https://gitee.com/killerp/off_asr) 智能遥控器（离线版）本项目基于esp32a1s模组，设计了一个遥控器，除了实现基本的红外遥控功能，人们还能通过语音，手机远程进行红外遥控。同时又加入温度传感器，并支持将温度数据上传云端，使能随时随地查看、分析数据。
 
@@ -3272,6 +3328,14 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [pebri86/esplay_micro_hardware](https://github.com/pebri86/esplay_micro_hardware) esplay硬件微版，基于ESP32的游戏机
 
 * [WalkerLau/DetectHumanFaces](https://github.com/WalkerLau/DetectHumanFaces) 采用ARM Cortex-M3软核及FPGA构成了轻量级的实时人脸检测SOC，通过ov5640摄像头采集实时图像，经过检测系统的检测后，将已经框出人脸的实时图像通过HDMI输出到显示器，同时可以通过UART查看检测时间等信息，还能通过板载LED灯查看检测到的人脸数量。
+
+* [ Qirun/ARM_Cortex-M3](https://github.com/Qirun/ARM_Cortex-M3) 在FPGA上搭建Cortex-M3软核、图像协处理器，并通过OV5640摄像头采集车牌图像，实现对车牌的识别与结果显示。项目基于Altera DE1 FPGA搭载Cortex-M3软核，依据AHB-Lite总线协议，将LCD1602、RAM、图像协处理器等外设挂载至Cortex-M3。视频采集端，设计写FiFo模块、SDRAM存储与输出、读FiFo模块、灰度处理模块、二值化、VGA显示等模块。最终将400位宽的结果数据（对应20张车牌）存储在RAM中，输出至AHB总线，由Cortex-M3调用并显示识别结果。
+
+* [TimRudy/ice-chips-verilog](https://github.com/TimRudy/ice-chips-verilog) Verilog 中所有常见分立逻辑器件的库 74LS、74HC、74HCT 系列芯片
+
+* [awrie/fpga_pio](https://github.com/lawrie/fpga_pio) 尝试在 FPGA 中重新创建 RP2040 PIO.PIO 代表 Progammaable I/O，它是 RP2040 SoC 的一部分，它比 SPI、I2C、UART 等特定协议的硬件实现灵活得多。它可以实现所有这些协议，甚至更多速度和任何 GPIO 引脚。
+
+* [abnoname/iceZ0mb1e](https://github.com/abnoname/iceZ0mb1e) 使用完整的开源 FPGA[工具链流程](http://www.clifford.at/yosys/) 构建基于 TV80 的演示片上系统，包括使用 SDCC 进行固件编译。
 
 # 网络
 
@@ -4012,6 +4076,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [TheZoraiz/ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) 将图像转换为 ascii 艺术并在控制台上打印它们。
 
 * [jina-ai/jina](https://github.com/jina-ai/jina) 一个神经搜索框架，它使任何人都可以在几分钟内构建 SOTA 和可扩展的深度学习搜索应用程序。可扩展的索引、查询、理解任何数据：视频、图像、长/短文本、音乐、源代码、PDF 等。
+
+* [dedupeio/dedupe](https://github.com/dedupeio/dedupe) 使用机器学习对结构化数据快速执行模糊匹配、去重和实体解析。
 
 * [deepmind/mujoco](https://github.com/deepmind/mujoco) 多关节动力学与接触。通用物理模拟器。
 
