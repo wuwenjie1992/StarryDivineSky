@@ -23,6 +23,7 @@
 <h3 align="center">让更多优秀的项目被人发现，让更多的人感受开源的魅力。</h3>
 <h3 align="center">持续更新！欢迎star！😀😀😀</h3>
 
+
 # 目录
 
 - [机器学习与深度学习](#机器学习与深度学习)
@@ -1046,7 +1047,9 @@
 
 * [hiyouga/Dual-Contrastive-Learning](https://github.com/hiyouga/dual-contrastive-learning) 双重对比学习。 通过在同一空间内同时学习输入样本的特征和分类器的参数，为监督分类任务提出了一种新颖的对比学习框架。
 
-## 文本摘要 文本生成
+## 文本摘要
+
+* [xcfcode/Summarization-Papers](https://github.com/xcfcode/Summarization-Papers) 文本摘要论文总结
 
 * [abisee/pointer-generator](https://github.com/abisee/pointer-generator) 使用指针生成器网络进行汇总
 
@@ -1062,35 +1065,41 @@
 
 * [nju-websoft/NEST](https://github.com/nju-websoft/NEST) 输入知识图谱的基于联合编码的弱监督神经实体摘要方法
 
-* [xcfcode/Summarization-Papers](https://github.com/xcfcode/Summarization-Papers) 文本摘要论文总结
-
-* [liucongg/GPT2-NewsTitle](https://github.com/liucongg/GPT2-NewsTitle) GPT2.带有超级详细注释的中文GPT2新闻标题生成项目。
-
 * [bojone/SPACES](https://github.com/bojone/SPACES) 端到端的长本文摘要模型（法研杯2020司法摘要赛道） 
 
-* [RUCAIBox/TextBox](https://github.com/RUCAIBox/TextBox) 基于Python和PyTorch开发的，用于在一个统一的、全面的、高效的框架中复现和开发文本生成算法，主要面向研究者使用。我们的库包括16种文本生成算法，涵盖了两个主要任务：无条件（无输入）生成、序列到序列（Seq2Seq）生成，包括机器翻译和摘要生成。模型 无条件：LSTMVAE    (Bowman et al., 2016)、CNNVAE (Yang et al., 2017)、HybridVAE    (Semeniuta et al., 2017)、SeqGAN    (Yu et al., 2017)、TextGAN (Zhang et al., 2017)、RankGAN    (Lin et al., 2017)、MaliGAN (Che et al., 2017)、LeakGAN (Guo et al., 2018)、MaskGAN    (Fedus et al., 2018)。序列到序列 RNN (Sutskever et al., 2014)、Transformer    (Vaswani et al., 2017b)、GPT-2 (Radford et al.)、XLNet (Yang et al., 2019)、BERT2BERT (Rothe et al., 2020)、BART（Lewis et al。，2020）
-
-* [google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer) Text-To-Text Transfer Transformer T5的理念就是“万事皆可 Seq2Seq”，它使用了标准的 Encoder-Decoder 模型，并且构建了无监督/有监督的文本生成预训练任务，最终将效果推向了一个新高度。
-
-* [google-research/multilingual-t5](https://github.com/google-research/multilingual-t5) T5 的多国语言版
-
-* [bojone/t5_in_bert4keras](https://github.com/bojone/t5_in_bert4keras) 在keras中使用T5模型 ,用mT5 small版本finetune出来的 CSL 标题生成模型，BLEU 指标能持平基于 WoBERT 的 UniLM 模型，并且解码速度快 130%；而用 mT5  base 版本 finetune 出来的 CSL 标题生成模型，指标能超过基于 WoBERT 的 UniLM 模型 1% 以上，并且解码速度也能快 60%。
-
-* [ZhuiyiTechnology/t5-pegasus](https://github.com/ZhuiyiTechnology/t5-pegasus) 中文生成式预训练模型，以mT5为基础架构和初始权重，通过类似PEGASUS的方式进行预训练。
+* [xcfcode/Summarization-Papers](https://github.com/xcfcode/Summarization-Papers) 文本摘要论文列表，包括各种主题。
 
 * [yym6472/ms_pointer_network](https://github.com/yym6472/ms_pointer_network) 用多来源Pointer Network的产品标题摘要方法.从两个信息来源：原始商品标题和知识信息knowledge中抽取信息，然后将二者进行综合得到最后的结果。
 
 * [FeiSun/ProductTitleSummarizationCorpus](https://github.com/FeiSun/ProductTitleSummarizationCorpus) Dataset for CIKM 2018 paper "Multi-Source Pointer Network for Product Title Summarization" 用于产品标题摘要的多源指针网络
 
-* [xcfcode/Summarization-Papers](https://github.com/xcfcode/Summarization-Papers) 文本摘要论文列表，包括各种主题。
+* [jiacheng-ye/kg_one2set](https://github.com/jiacheng-ye/kg_one2set) 解决关键词生成任务，给一篇源文档（比如论文的摘要），关键词预测任务就是预测出一些表达文档重点信息的关键词，或者更准确的说是关键短语。提出了模型SetTrans，其特点是能够预测更多、更准确而且重复率更低的关键词集合。并行预测，在 inference 效率上是Transfomer的6.44倍。
 
 * [MaartenGr/keyBERT](https://github.com/MaartenGr/keyBERT) 一种最小且易于使用的关键字提取技术，它利用BERT嵌入来创建与文档最相似的关键字和关键字短语。
 
-* [Morizeyao/GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese) GPT2中文文生模型，包括散文、诗词、对联、通用中文、中文歌词、文言文
+* [xcfcode/PLM_annotator](https://github.com/xcfcode/PLM_annotator) 探索对话总结的 DialoGPT
 
-* [jiacheng-ye/kg_one2set](https://github.com/jiacheng-ye/kg_one2set) 解决关键词生成任务，给一篇源文档（比如论文的摘要），关键词预测任务就是预测出一些表达文档重点信息的关键词，或者更准确的说是关键短语。提出了模型SetTrans，其特点是能够预测更多、更准确而且重复率更低的关键词集合。并行预测，在 inference 效率上是Transfomer的6.44倍。
+* [RowitZou/topic-dialog-summ](https://github.com/RowitZou/topic-dialog-summ) 具有显着性感知主题建模的客户服务的面向主题的口语对话摘要。数据集是从阿里巴巴客户服务中心收集的。所有对话都是在客户和服务代理之间进行的普通话来电。脱敏数据可在 [Google Drive](https://drive.google.com/file/d/1X3-C9vTYfk43T5NIEvRsdRIJkN1RuG7b/view?usp=sharing)或[百度盘](https://pan.baidu.com/s/1AvkGnerKpQHUNbwkz9kO7A)（提取码：t6nx）上获得。
 
-* [PENS-Personalized-News-Headline-Generation](https://github.com/LLluoling/PENS-Personalized-News-Headline-Generation) 个性化新闻头条生成的数据集和通用框架
+* [maszhongming/MatchSum](https://github.com/maszhongming/MatchSum)  背景: 传统抽取式摘要模型都是基于句子级提取的，即未考虑句子间关系，对所有句子逐个打分，取topN的句子为摘要。主要贡献:考虑句子间的关系，通过候选句间的组合句来抽取摘要;基于摘要与原文档在语义上应该有较大匹配度的考量，本文提出了基于候选句间的组合句与原文档的相似度来判断文档摘要的模型.对六个摘要提取数据集进行分析，验证了句子级得分高的摘要并不是摘要级得分最高的。如果仅以句子级，容易产生pearl-summary, 即虽然句子得分较低，但其实是较好的摘要，作者称为沧海遗珠。
+
+* [nlpyang/PreSumm](https://github.com/nlpyang/PreSumm) 基于BERT的文档级编码器，该编码器能够表达文档的语义，并获得文档的句子表示。并分别提出了抽取式和生成式的摘要模型。
+
+* [nlpyang/BertSum](https://github.com/nlpyang/BertSum) BERT的简单变体 用于抽取式文本摘要，主要是选择性抽取文本中的句子作为最后的摘要。这个任务最大的问题是如何获得每个句子向量，然后把向量用于二分类，判断去留。而 BERT 原模型只能生成单句的句子向量，或者句子对的。（1）将文档中每句话前加 [CLS]后加[SEP]，然后输入 BERT，而每个[CLS]对应的位置就是每句的句向量。（2）为了进一步增加句之间的互动，在 BERT 之上加了一层 Transformer 的 Summarization Layer，只输入每个[CLS]的向量，最后输出预测当前句是否保留，finetune。
+
+## 文本生成
+
+* [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
+
+* [XiangLi1999/PrefixTuning](https://github.com/XiangLi1999/PrefixTuning)  前缀微调：优化文本生成的连续提示模板。提出一种更好的微调方法，通过加入前缀实现统一模型在不同任务上的微调，实现小样本学习，极大地减少了参数量。目前对于前缀的构造，大致可以分为本文的连续前缀和离散前缀（自动生成或手动设计），对于在摘要任务上加入离散前缀，有点类似于从对话中提取特征或结构，但这种方法的优势就在于它不需要大量的样本，而传统的融入结构的方法仍然需要很多样本。
+
+* [RUCAIBox/TextBox](https://github.com/RUCAIBox/TextBox) 基于Python和PyTorch开发的，用于在一个统一的、全面的、高效的框架中复现和开发文本生成算法，主要面向研究者使用。我们的库包括16种文本生成算法，涵盖了两个主要任务：无条件（无输入）生成、序列到序列（Seq2Seq）生成，包括机器翻译和摘要生成。模型 无条件：LSTMVAE    (Bowman et al., 2016)、CNNVAE (Yang et al., 2017)、HybridVAE    (Semeniuta et al., 2017)、SeqGAN    (Yu et al., 2017)、TextGAN (Zhang et al., 2017)、RankGAN    (Lin et al., 2017)、MaliGAN (Che et al., 2017)、LeakGAN (Guo et al., 2018)、MaskGAN    (Fedus et al., 2018)。序列到序列 RNN (Sutskever et al., 2014)、Transformer    (Vaswani et al., 2017b)、GPT-2 (Radford et al.)、XLNet (Yang et al., 2019)、BERT2BERT (Rothe et al., 2020)、BART（Lewis et al。，2020）
+
+* [BART](https://github.com/pytorch/fairseq/tree/master/examples/bart) Bidirectional and Auto-Regressive Transformers 是以去噪为预训练目标训练的序列间模型， 一种符合生成任务的预训练方法。我们证明了这种预训练目标更为通用，并且证明了我们可以在SQuAD和GLUE上匹配RoBERTa的结果，并在摘要（XSum，CNN数据集）、长形式生成性问答（ELI5）和对话-反应生成（ConvAI2）上获得最新的结果。在生成任务上显著高于BERT, UniLM, XLNet, RoBERTa等模型
+
+* [fastnlp/CPT](https://github.com/fastnlp/CPT) 中文预训练非平衡转换器 (CPT) ，它是一种非平衡 Transformer 编码器-解码器，联合 MLM 和 DAE 进行预训练。用于汉语理解和生成的预训练.
+
+* [songhaoyu/BoB](https://github.com/songhaoyu/BoB) BERT Over BERT 用于从有限的个性化数据训练基于角色的对话模型。基于角色的对话生成分解为了两个子任务，从有限的角色化对话数据中进行学习。
 
 * [YunwenTechnology/QueryGeneration](https://github.com/YunwenTechnology/QueryGeneration) 智能扩充机器人的“标准问”库之Query生成
 
@@ -1100,25 +1109,21 @@
 
 * [rikdz/GraphWriter](https://github.com/rikdz/GraphWriter) 基于图Transformer从知识图谱中生成文本
 
+* [liucongg/GPT2-NewsTitle](https://github.com/liucongg/GPT2-NewsTitle) GPT2.带有超级详细注释的中文GPT2新闻标题生成项目。
+
+* [ZhuiyiTechnology/t5-pegasus](https://github.com/ZhuiyiTechnology/t5-pegasus) 中文生成式预训练模型，以mT5为基础架构和初始权重，通过类似PEGASUS的方式进行预训练。
+
+* [google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer) Text-To-Text Transfer Transformer T5的理念就是“万事皆可 Seq2Seq”，它使用了标准的 Encoder-Decoder 模型，并且构建了无监督/有监督的文本生成预训练任务，最终将效果推向了一个新高度。
+
+* [google-research/multilingual-t5](https://github.com/google-research/multilingual-t5) T5 的多国语言版
+
+* [Morizeyao/GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese) GPT2中文文生模型，包括散文、诗词、对联、通用中文、中文歌词、文言文
+
+* [bojone/t5_in_bert4keras](https://github.com/bojone/t5_in_bert4keras) 在keras中使用T5模型 ,用mT5 small版本finetune出来的 CSL 标题生成模型，BLEU 指标能持平基于 WoBERT 的 UniLM 模型，并且解码速度快 130%；而用 mT5  base 版本 finetune 出来的 CSL 标题生成模型，指标能超过基于 WoBERT 的 UniLM 模型 1% 以上，并且解码速度也能快 60%。
+
+* [PENS-Personalized-News-Headline-Generation](https://github.com/LLluoling/PENS-Personalized-News-Headline-Generation) 个性化新闻头条生成的数据集和通用框架
+
 * [Aristotle609/Medium-Title-Generator](https://github.com/Aristotle609/Medium-Title-Generator) 生成数据科学文章标题的模型
-
-* [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
-
-* [songhaoyu/BoB](https://github.com/songhaoyu/BoB) BERT Over BERT 用于从有限的个性化数据训练基于角色的对话模型。
-
-* [xcfcode/PLM_annotator](https://github.com/xcfcode/PLM_annotator) 探索对话总结的 DialoGPT
-
-* [XiangLi1999/PrefixTuning](https://github.com/XiangLi1999/PrefixTuning)  前缀微调：优化文本生成的连续提示模板。提出一种更好的微调方法，通过加入前缀实现统一模型在不同任务上的微调，实现小样本学习，极大地减少了参数量。目前对于前缀的构造，大致可以分为本文的连续前缀和离散前缀（自动生成或手动设计），对于在摘要任务上加入离散前缀，有点类似于从对话中提取特征或结构，但这种方法的优势就在于它不需要大量的样本，而传统的融入结构的方法仍然需要很多样本。
-
-* [fastnlp/CPT](https://github.com/fastnlp/CPT) 中文预训练非平衡转换器 (CPT) ，它是一种非平衡 Transformer 编码器-解码器，联合 MLM 和 DAE 进行预训练。用于汉语理解和生成的预训练.
-
-* [RowitZou/topic-dialog-summ](https://github.com/RowitZou/topic-dialog-summ) 具有显着性感知主题建模的客户服务的面向主题的口语对话摘要。数据集是从阿里巴巴客户服务中心收集的。所有对话都是在客户和服务代理之间进行的普通话来电。脱敏数据可在 [Google Drive](https://drive.google.com/file/d/1X3-C9vTYfk43T5NIEvRsdRIJkN1RuG7b/view?usp=sharing)或[百度盘](https://pan.baidu.com/s/1AvkGnerKpQHUNbwkz9kO7A)（提取码：t6nx）上获得。
-
-* [maszhongming/MatchSum](https://github.com/maszhongming/MatchSum)  背景: 传统抽取式摘要模型都是基于句子级提取的，即未考虑句子间关系，对所有句子逐个打分，取topN的句子为摘要。主要贡献:考虑句子间的关系，通过候选句间的组合句来抽取摘要;基于摘要与原文档在语义上应该有较大匹配度的考量，本文提出了基于候选句间的组合句与原文档的相似度来判断文档摘要的模型.对六个摘要提取数据集进行分析，验证了句子级得分高的摘要并不是摘要级得分最高的。如果仅以句子级，容易产生pearl-summary, 即虽然句子得分较低，但其实是较好的摘要，作者称为沧海遗珠。
-
-* [nlpyang/PreSumm](https://github.com/nlpyang/PreSumm) 基于BERT的文档级编码器，该编码器能够表达文档的语义，并获得文档的句子表示。并分别提出了抽取式和生成式的摘要模型。
-
-* [nlpyang/BertSum](https://github.com/nlpyang/BertSum) BERT的简单变体 用于抽取式文本摘要，主要是选择性抽取文本中的句子作为最后的摘要。这个任务最大的问题是如何获得每个句子向量，然后把向量用于二分类，判断去留。而 BERT 原模型只能生成单句的句子向量，或者句子对的。（1）将文档中每句话前加 [CLS] 后加 [SEP]，然后输入 BERT，而每个 [CLS] 对应的位置就是每句的句向量。（2）为了进一步增加句之间的互动，在 BERT 之上加了一层 Transformer 的 Summarization Layer，只输入每个 [CLS] 的向量，最后输出预测当前句是否保留，finetune。
 
 ## 文本匹配 文本相似度
 
@@ -1523,8 +1528,6 @@ https://github.com/FedML-AI/FedNLP FedNLP：自然语言处理中的联合学习
 Graph4nlp是一个易于使用的NLP图形神经网络库。应用：文本分类、神经机器翻译、摘要、KG补全：预测konwledge图中两个现有实体之间的缺失关系。数学问题解决：自动解决数学习题，用易懂的语言提供问题的背景信息。名称实体识别、问题生成。
 
 [PaddlePaddle/PaddleNLP](https://github.com/PaddlePaddle/PaddleNLP) 简单易用且易于开发的强大功能。开发的简单易用的自然覆盖处理模型并提供开发者的简单易用的自然覆盖处理模型，并提供NLP 多场景的语言库供灵活使用的需求。
-
-[bart](https://github.com/pytorch/fairseq/tree/master/examples/bart) Bidirectional and Auto-Regressive Transformers 是以去噪为预训练目标训练的序列间模型， 一种符合生成任务的预训练方法。我们证明了这种预训练目标更为通用，并且证明了我们可以在SQuAD和GLUE上匹配RoBERTa的结果，并在摘要（XSum，CNN数据集）、长形式生成性问答（ELI5）和对话-反应生成（ConvAI2）上获得最新的结果。在生成任务上显著高于BERT, UniLM, XLNet, RoBERTa等模型
 
 [huybery/r2sql](https://github.com/huybery/r2sql) Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing 跨域上下文相关语义分析的动态混合关系网络 应用于：多轮text-to-SQL 任务（通过多轮对话的方式生成最终的查询语句， Text-to-SQL 任务：给定一个自然语言查询和数据库的作为输入，产生一个SQL语句作为输出。）
 
@@ -2236,8 +2239,6 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 [ben-hayes/neural-waveshaping-synthesis](https://github.com/ben-hayes/neural-waveshaping-synthesis) 波形域中的高效神经音频合成.使用神经网络有效合成音频波形的方法。
 
 [Jackiexiao/zhtts](https://github.com/Jackiexiao/zhtts) 中文实时语音合成系统Demo
-
-
 
 ## 语音识别与合成_其他
 
