@@ -23,7 +23,6 @@
 <h3 align="center">让更多优秀的项目被人发现，让更多的人感受开源的魅力。</h3>
 <h3 align="center">持续更新！欢迎star！😀😀😀</h3>
 
-
 # 目录
 
 - [机器学习与深度学习](#机器学习与深度学习)
@@ -376,6 +375,8 @@
 
 * [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) 用于大规模并行训练的统一深度学习系统,具有高效并行化技术的集成大规模模型训练系统。可以让您在几行代码内快速开始分布式训练，通过并行化策略、异构内存管理为深度学习任务加速或者节省显存。
 
+* [Oneflow-Inc/libai](https://github.com/Oneflow-Inc/libai) 基于OneFlow的大规模模型训练开源工具箱。支持丰富的并行训练配置，包括但不限于分布式训练、混合精度训练、后向重计算、ZeRO，多样化的训练技巧，同时支持视觉与自然语言处理任务、简单易用，便于上手。
+
 * [Qihoo360/XLearning](https://github.com/Qihoo360/XLearning) 支持多种机器学习、深度学习框架调度系统。基于Hadoop Yarn完成了对TensorFlow、MXNet、Caffe、Theano、PyTorch、Keras、XGBoost等常用框架的集成，同时具备良好的扩展性和兼容性。
 
 * [sql-machine-learning/elasticdl](https://github.com/sql-machine-learning/elasticdl)  Kubernetes原生的深度学习框架，支持容错和弹性调度,支持TensorFlow和PyTorch。
@@ -420,7 +421,7 @@
 
 ## 其他_机器学习与深度学习
 
-* [vikasverma1077/manifold_mixup](https://github.com/vikasverma1077/manifold_mixup) 数据增强⽅法,Manifold Mixup 的目标是通过插入示例的隐藏状态来学习鲁棒的特征。 我们的方法学习到的表征更具判别性和紧凑性。 
+* [vikasverma1077/manifold_mixup](https://github.com/vikasverma1077/manifold_mixup) 数据增强⽅法,目标是通过插入示例的隐藏状态来学习鲁棒的特征。 我们的方法学习到的表征更具判别性和紧凑性。 
 
 * [streamlit/streamlit](https://github.com/streamlit/streamlit)  用 Python 构建数据应用程序的最快方法
 
@@ -524,7 +525,7 @@
 
 * [GRAND-Lab/Awesome-Graph-Neural-Networks](https://github.com/GRAND-Lab/Awesome-Graph-Neural-Networks) 图神经网络论文列表
 
-* [[GNNBook@2022](https://graph-neural-networks.github.io/index.html)] 图神经网络 基础、前沿和应用 
+* [GNNBook@2022](https://graph-neural-networks.github.io/index.html) 图神经网络 基础、前沿和应用 
 
 * [stellargraph/stellargraph](https://github.com/stellargraph/stellargraph) 星际图机器学习库
 
@@ -898,7 +899,9 @@
 
 * [NetEase-FuXi/EET](https://github.com/NetEase-FuXi/EET) 针对Transformer-based大模型和长序列场景的高性能pytorch推理插件。高性能：设计高度优化的CUDA内核。灵活：提供了包括op api、model api和pipelines应对不同的需求。 易于使用： 几行代码即可完成。适配主流ai框架，包括fairseq和transformers。bert模型整体性能加速1.2x到7.x倍，gpt模型整体性能加速2.x到7.x倍。
 
-* [NVIDIA/transformer-ls](https://github.com/NVIDIA/transformer-ls) 将原始 Transformer 模型的全部自注意力替换为考虑长期和短期相关性的有效注意力。每个查询都关注分段滑动窗口中的标记以捕获短期相关性，以及动态投影特征以捕获长期相关性。为了对齐原始特征向量和投影特征向量的范数并提高聚合的效率，我们使用两组层归一化对原始特征向量和投影特征向量进行归一化。
+* [NVIDIA/transformer-ls](https://github.com/NVIDIA/transformer-ls) 将原始 Transformer 的全部自注意力替换为考虑长期和短期相关性的有效注意力。每个查询都关注分段滑动窗口中的标记以捕获短期相关性，以及动态投影特征以捕获长期相关性。为了对齐原始特征、投影特征向量的范数并提高聚合的效率，使用两组层归一化对原始特征向量和投影特征向量进行归一化。
+
+* [thuml/Flowformer](https://github.com/thuml/Flowformer) 任务通用的线性复杂度Transformer 。在图论中的经典网络流（Flow network）模型中，“守恒”（Conservation）是一个重要现象，即每个节点的流入量等于流出量。受到“固定资源情况下，必定引起竞争”的启发，通过网络流视角重新分析经典注意力机制中的信息流动，并通过守恒性质将竞争引入注意力机制设计，以避免平凡注意力问题。
 
 ## BERT优化
 
@@ -1043,9 +1046,11 @@
 
 * [YerevaNN/warp](https://github.com/YerevaNN/warp) ACL'2021 论文 WARP Cyclone Word-level Adversarial ReProgramming 的代码。 在 SuperGLUE 少样本文本分类上优于“GPT-3”。提出了一种基于对抗性重编程的替代方法，它是自动扩展提示模板生成的早期工作。而且参数量少了好多个数量级。
 
-* [whatissimondoing/CoG-BART](https://github.com/whatissimondoing/CoG-BART) 对比度和生成使 BART 成为一个很好的对话情感识别器
+* [whatissimondoing/CoG-BART](https://github.com/whatissimondoing/CoG-BART) 对比度和生成使BART成为很好的对话情感识别器
 
 * [hiyouga/Dual-Contrastive-Learning](https://github.com/hiyouga/dual-contrastive-learning) 双重对比学习。 通过在同一空间内同时学习输入样本的特征和分类器的参数，为监督分类任务提出了一种新颖的对比学习框架。
+
+* [thunlp/KnowledgeablePromptTuning](https://github.com/thunlp/KnowledgeablePromptTuning) 将知识整合到 Prompt Verbalizer 中进行文本分类
 
 ## 文本摘要
 
@@ -1467,7 +1472,7 @@
 
 [nltk/nltk](https://github.com/nltk/nltk) 支持自然语言处理研究和开发的开源 Python 模块、数据集和教程。
 
-https://github.com/huseinzol05/NLP-Models-Tensorflow 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
+[huseinzol05/NLP-Models-Tensorflow](https://github.com/huseinzol05/NLP-Models-Tensorflow) 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
 [CLUEbenchmark/FewCLUE](https://github.com/CLUEbenchmark/FewCLUE) FewCLUE 小样本学习测评基准，中文版 小样本学习（Few-shot Learning）正是解决这类在极少数据情况下的机器学习问题。结合预训练语言模型通用和强大的泛化能力基础上，探索小样本学习最佳模型和中文上的实践，是本课题的目标。FewCLUE：中文小样本学习测评基准，基于CLUE的积累和经验，并结合少样本学习的特点和近期的发展趋势，精心设计了该测评，希望可以促进中文领域上少样本学习领域更多的研究、应用和发展。模型有5种不同的方式做任务，分别是使用预训练模型直接做下游任务微调、PET\RoBERTa为基础的Ptuning方式、GPT类模型为基础的Ptuning方式、使用RoBERTa或GPT做零样本学习。
 
@@ -1591,6 +1596,10 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [beyondacm/Autochecker4Chinese](https://github.com/beyondacm/Autochecker4Chinese) 中文文本错别字检测以及自动纠错
 
 [iqiyi/FASPell](https://github.com/iqiyi/FASPell)  2019-SOTA简繁中文拼写检查工具：FASPell Chinese Spell Checker ( 中文拼写检错 / 中文拼写纠错 / 中文拼写检查) 
+
+[hiyoung123/SoftMaskedBert](https://github.com/hiyoung123/SoftMaskedBert) 中文文本纠错模型。使用两个网络模型，一个用于错误检测；另一个基于BERT进行纠错。
+
+[ACL2020SpellGCN/SpellGCN](https://github.com/ACL2020SpellGCN/SpellGCN) 将语音学和视觉相似性结合到汉语拼写检查\文本纠错
 
 # 推荐系统
 
@@ -2266,6 +2275,8 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 
 [microsoft/NeuralSpeech](https://github.com/microsoft/NeuralSpeech) 微软亚洲研究院的一个研究项目，专注于基于神经网络的语音处理，包括自动语音识别（ASR）、文本到语音（TTS）、空间音频等。
 
+[chrisdonahue/ddc](https://github.com/chrisdonahue/ddc) 自动编舞系统，将原始音频转换为可播放的舞蹈。
+
 # 生物医药
 
 ## 蛋白质结构
@@ -2345,6 +2356,8 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 * [XuhanLiu/DrugEx](https://github.com/XuhanLiu/DrugEx) 多药理学中基于帕累托的多目标优化药物设计深度学习工具包。由于可用于寻找可行的类药物分子的类药物化学空间大，合理的药物设计通常从添加或修饰侧链/取代基的特定支架开始。随着深度学习在药物发现中应用的快速增长，已经开发出多种有效的方法来进行从头药物设计。提出了DrugEx 的方法，该方法可以应用于基于多目标深度强化学习的多药理学。为了提高普遍适用性， DrugEx 以设计基于支架的药物分子，支架由用户提供的多个片段组成。在这项工作中，Transformer 用于生成分子结构。Transformer 包含一个接收支架作为输入的编码器和一个生成分子作为输出的解码器。为了处理分子的图形表示，我们提出了一种基于邻接矩阵的每个原子和键的新位置编码，以扩展 Transformer 的架构。每个分子都是通过生长和连接给定支架中的片段的程序生成的，这些片段被统一到一个模型中。此外，我们在强化学习框架下训练了这个生成器，以增加所需配体的数量。
   
   [kekegg/DLEPS](https://github.com/kekegg/DLEPS) 利用深度学习从基因转录数据中预测药物疗效
+  
+  [tencent-ailab/DrugOOD](https://github.com/tencent-ailab/DrugOOD) 人工智能辅助药物发现的 OOD 数据集和基准
 
 ## 药物-靶标 药物-药物 化合物-蛋白质 相互作用
 
@@ -2481,6 +2494,8 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 * [devalab/molgpt](https://github.com/devalab/molgpt) 使用下一个令牌预测任务在 Moses 和 Guacamol 数据集上训练小型自定义 GPT。然后将该模型用于无条件和有条件的分子生成。我们将我们的模型与之前在 Moses 和 Guacamol 数据集上的方法进行比较。使用Ecco库获得显着性图的可解释性。
 
 * [tencent-ailab/grover](https://github.com/tencent-ailab/grover) 大规模分子数据上的自监督图转换器。支持预训练、微调、预测、指纹生成和评估功能。
+
+* [rampasek/GraphGPS](https://github.com/rampasek/GraphGPS) 通用、强大、可扩展的图形转换器的秘诀。如何构建图形转换器？ 我们提供了一个由 3 部分组成的秘诀，介绍如何构建具有线性复杂度的图形转换器。 我们的 GPS 配方包括选择 3 种主要成分：位置/结构编码：LapPE、RWSE、SignNet、EquivStableLapPE，本地消息传递机制：GatedGCN、GINE、PNA，全局注意力机制：Transformer、Performer、BigBird。在ZINC 数据集上的图形回归任务目前SOTA。ZINC 是用于虚拟筛选的商用化合物的免费数据库。 ZINC 包含超过 2.3 亿种可购买的即用型 3D 格式化合物。 ZINC 还包含超过 7.5 亿种可购买的化合物，可用于搜索类似物。
 
 ## 抗菌肽
 
@@ -3362,6 +3377,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
 
+* [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
+
 * [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。开箱即用的 TypeScript 支持。文件系统路由 à la Next.js。
 
 * [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
@@ -3420,6 +3437,31 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [zonemeen/musicn](https://github.com/zonemeen/musicn) 下载高品质音乐的命令行工具
 
+## 区块链
+
+* [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
+
+* [imfly/bitcoin-on-nodejs](https://github.com/imfly/bitcoin-on-nodejs) 《Node.js区块链开发》
+
+* [OpensourceBooks/blockchain](https://github.com/OpensourceBooks/blockchain) 开源教程：从零开始写区块链
+
+* [yeasy/blockchain_guide](https://github.com/yeasy/blockchain_guide)  区块链技术指南。以全球最大的开源分布式账本项目——超级账本为例讲解具体应用。
+
+* [dvf/blockchain](https://github.com/dvf/blockchain) 一个简单的 Python 区块链
+
+* [anders94/blockchain-demo](https://github.com/anders94/blockchain-demo) 基于网络的区块链概念演示。
+
+* [Jeiwan/blockchain_go](https://github.com/Jeiwan/blockchain_go) Golang 中的简化区块链实现
+
+* [liuchengxu/blockchain-tutorial](https://github.com/liuchengxu/blockchain-tutorial) 简体中文区块链教程
+
+* [The-Hitchhiker-s-Guide-to-the-Blockchain-Sec](https://github.com/BlockchainSecBook/The-Hitchhiker-s-Guide-to-the-Blockchain-Sec) 《区块链安全入门与实战》
+
+* [slowmist/Blockchain-dark-forest-selfguard-handbook](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/) 区块链黑暗森林自救手册
+  掌握这些，掌握你的加密货币安全。
+
+* [Rivaill/CryptoVulhub](https://github.com/Rivaill/CryptoVulhub)分析和重现区块链世界中的攻击事件或漏洞。
+
 # 安全与渗透
 
 - [nmap/nmap](https://github.com/nmap/nmap) 网络映射器 网络端口扫描器。
@@ -3448,6 +3490,12 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [Al1ex/Pentest-tools](https://github.com/Al1ex/Pentest-tools) 内网渗透工具:ACL突破、交换、真实劫持、信息收集、内网电话、密码喷洒、密码抓取、密码破解、权限提升、权限维持、横向移动、端口扫描、端口转发、网络嗅探、集成工具
 
 * [Gality369/CS-Loader](https://github.com/Gality369/CS-Loader) CS免杀,包括python版和C版本
+
+* [1N3/IntruderPayloads](https://github.com/1N3/IntruderPayloads) Burpsuite Intruder 有效载荷、BurpBounty 有效载荷、模糊列表、恶意文件上传和 Web 渗透测试方法和清单的集合。
+
+* [https://github.com/safe6Sec/PentestDB](https://github.com/safe6Sec/PentestDB) 各种数据库的利用姿势
+
+* [michaelweber/Macrome](https://github.com/michaelweber/Macrome) 用于红队和分析师的 Excel 宏文档阅读器/编写器。 
 
 * [xuanhusec/OscpStudyGroup](https://github.com/xuanhusec/OscpStudyGroup) Oscp公益学习组,包括：小技巧合集、Kali基本操作、常用工具、windows提权汇总、反弹shell方法汇总、靶机推荐列表、缓冲区溢出通关脚本框架、OSCP命令大全、反弹shell方法汇总、linux提权方法汇总、win提权方法汇总、Linux提权辅助、Win提权辅助、渗透测试方法论、靶机练习
 
@@ -3603,13 +3651,13 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [Le0nsec/SecCrawler](https://github.com/Le0nsec/SecCrawler) 方便安全研究人员获取每日安全日报的爬虫和推送程序，目前爬取范围包括先知社区、安全客、Seebug Paper、跳跳糖、奇安信攻防社区、棱角社区以及绿盟、腾讯玄武、天融信、360等实验室博客，持续更新中。
 
-* [Idov31/FunctionStomping](https://github.com/Idov31/FunctionStomping) 一种新的 shellcode 注入技术。以 C++ 头文件、独立的 Rust 程序或库的形式给出。
+* [Idov31/FunctionStomping](https://github.com/Idov31/FunctionStomping) shellcode 注入技术。以 C++ 头文件、独立的 Rust 程序或库的形式给出。
 
-* [shmilylty/OneForAll](https://github.com/shmilylty/OneForAll) OneForAll是一款功能强大的子域收集工具
+* [shmilylty/OneForAll](https://github.com/shmilylty/OneForAll) 功能强大的子域收集工具
 
 * [kelvinBen/AppInfoScanner](https://github.com/cqkenuo/appinfoscanner) 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。
 
-* [redcode-labs/Coldfire](https://github.com/redcode-labs/Coldfire) Golang 恶意软件开发库 为 Golang 中的恶意软件开发提供了各种有用的方法。
+* [redcode-labs/Coldfire](https://github.com/redcode-labs/Coldfire) Golang 中的恶意软件开发库 提供了各种有用的方法。
 
 * [vxunderground/MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode) 收集各种不同编程语言、各种平台的恶意软件源代码。
 
@@ -3679,8 +3727,6 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [safe6Sec/GolangBypassAV](https://github.com/safe6Sec/GolangBypassAV) 研究利用golang各种姿势bypassAV
 
-* [The-Hitchhiker-s-Guide-to-the-Blockchain-Sec](https://github.com/BlockchainSecBook/The-Hitchhiker-s-Guide-to-the-Blockchain-Sec) 《区块链安全入门与实战》
-
 * [edoardottt/scilla](https://github.com/edoardottt/scilla) 信息收集工具 - DNS / 子域 / 端口 / 目录枚举
 
 * [https://github.com/Ryze-T/Sylas](https://github.com/Ryze-T/Sylas) 数据库综合利用工具
@@ -3689,7 +3735,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [pen4uin/cloud-native-security](https://github.com/pen4uin/cloud-native-security) 云原生安全
 
-* [Cracked5pider/ShellcodeTemplate](https://github.com/Cracked5pider/ShellcodeTemplate) 适用于 Win x64/x86 的易于修改的 shellcode 模板
+* [Cracked5pider/ShellcodeTemplate](https://github.com/Cracked5pider/ShellcodeTemplate) Win x64/x86 的易于修改的 shellcode 模板
 
 * [JDArmy/SharpXDecrypt](https://github.com/JDArmy/SharpXDecrypt) Xshell全版本密码恢复工具
 
@@ -3814,9 +3860,6 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [zan8in/afrog](https://github.com/zan8in/afrog) 性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具
 
 * [biggerduck/RedTeamNotes](https://github.com/biggerduck/RedTeamNotes) 红队笔记 ,涉及代码审计/打点/免杀/内网渗透等方向
-
-* [slowmist/Blockchain-dark-forest-selfguard-handbook/](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/) 区块链黑暗森林自救手册
-  掌握这些，掌握你的加密货币安全。
 
 * [DawnFlame/POChouse](https://github.com/DawnFlame/POChouse) POC&EXP仓库、hvv弹药库、Nday、1day
 
@@ -3951,6 +3994,20 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [wikiZ/ServerlessScan](https://github.com/wikiZ/ServerlessScan) 云函数扫描器实现代码
 
 * [teamssix/twiki](https://github.com/teamssix/twiki) 面向云安全方向的知识库
+
+* [Getshell/LinuxTQ](https://github.com/Getshell/LinuxTQ) Linux提权方法论 包括提权漏洞原理或方法工具等。Linux提权在后渗透过程中较为重要，尤其是对于权限维持至关重要。
+
+* [awsaaaq/GoBP](https://github.com/awsaaaq/GoBP) 免杀工具 Go语言编写
+
+* [rootkit-io/awesome-malware-development](https://github.com/rootkit-io/awesome-malware-development) 恶意软件开发资源的列表
+
+* [hktalent/scan4all](https://github.com/hktalent/scan4all) vuls 扫描：1.5W+PoCs； 23种应用密码破解； 7K+网络指纹； 146种协议和9W+条规则端口扫描； Fuzz，硬件，很棒的 BugBounty(͡° ͜ʖ ͡°)...
+
+* [0xHJK/TotalPass](https://github.com/0xHJK/TotalPass) 默认密码扫描器 是否存在默认密码\搜索常见设备默认密码\支持手动和自动更新密码库 扫描类型有SSH\Telnet\SNMP\Redis
+
+* [Yyyyshen/HackTechLearning](https://github.com/Yyyyshen/HackTechLearning) 学习《Windows黑客编程技术详解》 每个例子都有
+
+* [KathanP19/HowToHunt](https://github.com/KathanP19/HowToHunt) 收集各种 Web 漏洞的方法和测试用例。[->gitbook](https://kathan19.gitbook.io/howtohunt/)
 
 # 其他
 
