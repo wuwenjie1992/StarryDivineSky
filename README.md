@@ -461,9 +461,9 @@
 
 * [nebuly-ai/nebullvm](https://github.com/nebuly-ai/nebullvm) 易于使用的库，可利用最先进的优化技术促进 AI 推理。利用多种优化技术（深度学习编译器、量化、稀疏性、蒸馏等），以确定在特定硬件上执行 AI 模型的最佳方式。可以在不损失性能的情况下将您的模型加速 2 到 10 倍，如果为超低延迟和更轻的模型牺牲准确度/精度，则可加速至 30 倍.
 
-* [baifanxxx/awesome-active-learning](https://github.com/baifanxxx/awesome-active-learning) 很棒的主动学习精选列表。主动学习是机器学习的一种特殊情况，它可以与专家进行交互（或其他信息源），再使用输出的新样本进行学习。
+* [baifanxxx/awesome-active-learning](https://github.com/baifanxxx/awesome-active-learning) 很棒的主动学习精选列表。主动学习是机器学习的特殊情况，它可以与专家进行交互（或其他信息源），再使用输出的新样本进行学习。
 
-* [GitHub - 4paradigm/OpenMLDB](https://github.com/4paradigm/OpenMLDB) 一个开源机器学习数据库，它提供了一个计算一致特征的特征平台，用于训练和推理。
+* [4paradigm/OpenMLDB](https://github.com/4paradigm/OpenMLDB) 一个开源机器学习数据库，它提供了一个计算一致特征的特征平台，用于训练和推理。
 
 * [scikit-learn-contrib/MAPIE](https://github.com/scikit-learn-contrib/MAPIE) 用于估计预测间隔的 scikit-learn 兼容模块。
 
@@ -478,6 +478,8 @@
 * [Jianf-Wang/RSG](https://github.com/Jianf-Wang/RSG) 可以在训练过程中生成稀有类样本，并且可以与任何骨干网络相结合。RSG 仅用于训练阶段，因此在测试阶段不会给骨干网带来额外的负担。
 
 * [ZhiningLiu1998/mesa](https://github.com/ZhiningLiu1998/mesa) 设计元知识驱动的采样器解决类别不平衡问题
+
+* [YyzHarry/imbalanced-regression](https://github.com/YyzHarry/imbalanced-regression) 深度不平衡回归（DIR）旨在从具有连续目标的不平衡数据中学习，解决某些区域的潜在缺失数据，并推广到整个目标范围。
 
 # 图神经网络GNN
 
@@ -544,6 +546,8 @@
 * [dongkwan-kim/SuperGAT](https://github.com/dongkwan-kim/SuperGAT) ICLR2021|GAT升级版：通过多种自监督方式提升GAT中注意力，性能在15个数据集有所提升。
 
 * [graphdeeplearning/graphtransformer](https://github.com/graphdeeplearning/graphtransformer) 针对任意图的 Transformer 神经网络架构的泛化 。注意机制是图中每个节点的邻域连通性的函数。位置编码由拉普拉斯特征向量表示，它自然地概括了 NLP 中经常使用的正弦位置编码。层归一化被批量归一化层取代。该架构被扩展为具有边缘表示，这对于边缘信息丰富的任务或成对交互（例如分子中的键类型或 KG 中的关系类型等）至关重要。
+
+* [Graph-COM/GSAT](https://github.com/Graph-COM/GSAT) 提出了一种全新的随机注意力机制（Stochastic Attention Mechanism），该机制显示出了强大的可解释能力和泛化能力。对比过去的可解释工作，该机制在6个数据集上提升了至多20%、平均12%的可解释性能；在11个数据集上提升了平均3%的模型准确率，并且在OGBG-MolHiv榜单上达到SOTA（在不使用手工设计的专家特征的模型中）。
 
 ## 异构图、 异质图
 
@@ -761,13 +765,17 @@
 
 * [DGraphXinye/2022_finvcup_baseline](https://github.com/DGraphXinye/2022_finvcup_baseline) 第七届信也科技杯-欺诈用户风险识别的baseline。节点分类
 
+* [RobertAckleyKid/2022_finvcup_RobertAckley_8363](https://github.com/RobertAckleyKid/2022_finvcup_RobertAckley_8363) 第七届信也科技杯图算法大赛——欺诈用户风险识别 代码 。包括三步：基于GraphSAGE的节点Embedding（与baseline一致），手工加入时序等特征，通过LightGBM分类。
+
 * [pygod-team/pygod](https://github.com/pygod-team/pygod) 用于图异常值检测（异常检测）的 Python 库。包含10多种最新的基于图的检测算法。
 
 * [tkipf/gae](https://github.com/tkipf/gae) 图自动编码器在TensorFlow中的实现
 
-* [peter14121/intentgc-models](https://github.com/peter14121/intentgc-models) 意图gc模型.从常见的用户行为和项目信息中收集了大量的关系，并提出了一个名为IntentGC的新框架，通过图卷积网络来利用显式偏好和异构关系。
+* [peter14121/intentgc-models](https://github.com/peter14121/intentgc-models) 意图gc模型.从常见的用户行为和项目信息中收集了大量的关系，并提出名为IntentGC的新框架，通过图卷积网络来利用显式偏好和异构关系。
 
 * [shawnwang-tech/GeniePath-pytorch](https://github.com/shawnwang-tech/GeniePath-pytorch) 自适应深度和广度图神经网络表征学习模型Geniepath
+
+* [GRAND-Lab/SUBLIME](https://github.com/GRAND-Lab/SUBLIME) 走向无监督深度图结构学习
 
 * [neural_graph_collaborative_filtering](https://github.com/xiangwang1223/neural_graph_collaborative_filtering) 神经图协同滤波（NGCF）是一种基于图神经网络的新型推荐框架，通过进行嵌入传播，以用户-项目二分图中的高阶连接性形式对协同信号进行显式编码。
 
@@ -838,6 +846,8 @@
 * [zwt233/GAMLP](https://github.com/zwt233/GAMLP) 图形注意多层感知器 ,在 OGB 数据集上重现
 
 * [susheels/adgcl](https://github.com/susheels/adgcl) 对抗性图增强以改善图对比学习
+
+* [amazon-science/gnn-tail-generalization](https://github.com/amazon-science/gnn-tail-generalization) 提取具有不完整或缺失邻域的图节点表示。GNN在节点分类或回归任务中表现出卓越的性能。归纳GNN 需要事先知道节点的边缘连接结构才能正常工作。在节点度数具有幂律分布的几个实际应用中，情况通常并非如此，并且具有少量连接的节点可能具有噪声边缘。一个极端的情况是严格的冷启动 (SCS) 问题，其中没有可用的邻域信息，迫使预测模型完全依赖于节点特征。为了使用归纳 GNN 解决 SCS 问题，引入特征贡献率 (FCR)，这是一种量化节点特征及其邻域特征在预测节点标签中的贡献的指标，并将这个新指标用作模型选择奖励。然后，提出Cold Brew，这是一种通过蒸馏方法在 SCS 中比基于点和基于图的模型更好地概括 GNN 的新方法。动机：长尾分布普遍存在于大规模图挖掘任务中。在某些应用中，一些冷启动节点在图中的邻域太少或没有邻域，这使得基于图的方法由于没有足够的高质量边来执行消息传递而变得次优。
 
 # NLP自然语言处理
 
@@ -1174,6 +1184,8 @@
 
 * [bojone/SimCSE](https://github.com/bojone/SimCSE) SimCSE在中文任务上的简单实验
 
+* [yangjianxin1/SimCSE](https://github.com/yangjianxin1/SimCSE) SimCSE有监督与无监督实验复现 一种简单但是很巧妙的NLP对比学习方法，创新性地引入Dropout的方式，对样本添加噪声，从而达到对正样本增强的目的。 该框架的训练目的为：对于batch中的每个样本，拉近其与正样本之间的距离，拉远其与负样本之间的距离，使得模型能够在大规模无监督语料（也可以使用有监督的语料）中学习到文本相似关系。
+
 * [vdogmcgee/SimCSE-Chinese-Pytorch](https://github.com/vdogmcgee/SimCSE-Chinese-Pytorch) SimCSE在中文上的复现，有监督+无监督
 
 * [GeekDream-x/SemEval2022-Task8-TonyX](https://github.com/GeekDream-x/SemEval2022-Task8-TonyX)  在 Semeval-2022 Task8 —— Multilingual News Article Similarity 中提供了我们获胜系统的实现。这是一项关于评估多语言和跨语言新闻文章相似性的竞赛，涵盖 18 个语言对。
@@ -1384,6 +1396,8 @@
 
 * [sailxuOvO/CC-Riddle](https://github.com/sailxuOvO/CC-Riddle) 汉字谜语问答数据集
 
+* [CLUEbenchmark/DataCLUE](https://github.com/CLUEbenchmark/DataCLUE) 数据为中心的NLP基准和工具包。以数据为中心（Data-centric）的AI，是一种新型的AI探索方向。它的核心问题是如何通过系统化的改造你的数据（无论是输入或者标签）来提高最终效果。 传统的AI是以模型为中心（Model-centric）的，主要考虑的问题是如何通过改造或优化模型来提高最终效果，它通常建立在一个比较固定的数据集上。 最新的数据显示超过90%的论文都是以模型为中心的，通过模型创新或学习方法改进提高效果，即使不少改进影响可能效果并不是特别明显。有些人认为当前的人工智能领域， 无论是自然语言处理（如BERT） 或计算机视觉(ResNet)， 已经存在很多成熟高效模型，并且模型可以很容易从开源网站如github获得；而与此同时，工业界实际落地 过程中可能有80%的时间用于 清洗数据、构建高质量数据集，或在迭代过程中获得更多数据，从而提升模型效果。正是看到了这种巨大的差别，在吴恩达等人的推动下这种 以数据为中心 （Data-centric）的AI进一步的系统化，并成为一个有具有巨大实用价值方法论。
+
 ## 关系抽取、信息抽取
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)  专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
@@ -1512,9 +1526,11 @@ https://github.com/RUCAIBox/TG_CRS_Code TG-ReDial相应的推荐、回复生成�
 
 https://github.com/Qznan/QizNLP 快速运行分类、序列标注、匹配、生成等NLP任务的Tensorflow框架 (中文 NLP 支持分布式）
 
+[salesforce/WikiSQL](https://github.com/salesforce/WikiSQL)  用于为关系数据库开发NLP界面的大型众包数据集。 WikiSQL 是与Seq2SQL 一起发布的数据集。使用强化学习从自然语言生成结构化查询。
+
 https://github.com/toizzy/tilt-transfer 运行TILT迁移学习实验的代码 让语言模型先在乐谱上进行训练，再在自然语言上训练可以有效的提升语言模型的性能。
 
-https://github.com/XiaoMi/MiNLP/tree/main/minlp-tokenizer 小米 AI 实验室 NLP 团队开发的小米自然语言处理平台 MiNLP 现已开源了中文分词功能
+[XiaoMi/MiNLP/minlp-tokenizer](https://github.com/XiaoMi/MiNLP/tree/main/minlp-tokenizer) 小米 AI NLP 团队的平台 MiNLP 开源了中文分词功能
 
 https://github.com/explosion/spaCy 工业级强度的NLP工具包，被称为最快的工业级自然语言处理工具。支持多种自然语言处理的基本功能，主要功能包括分词、词性标注、词干化、命名实体识别、名词短语提取等。
 
@@ -1887,6 +1903,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [summmeer/session-based-news-recommendation](https://github.com/summmeer/session-based-news-recommendation) 通过利用不同类型的隐式反馈，我们减轻了精度和多样性与冷启动问题之间的权衡，这对于实际应用是有效的。命名为 TCAR（时间和内容感知推荐系统）
 
 [ahmedrashed-ml/CARCA](https://github.com/ahmedrashed-ml/CARCA) 通过交叉注意的上下文和属性感知顺序推荐，RecSys 2022
+
+[Coder-Yu/SELFRec](https://github.com/Coder-Yu/SELFRec) 一个用于自我监督推荐 (SSR) 的 Python 框架，它集成了常用的数据集和指标，并实现了许多最先进的 SSR 模型。 SELFRec 具有轻量级架构并提供用户友好的界面。 它可以促进模型的实施和评估。
 
 # 金融股票与时间序列
 
@@ -2415,7 +2433,9 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 
 * [zhang-xuan1314/Molecular-graph-BERT](https://github.com/zhang-xuan1314/Molecular-graph-BERT) 面向药物分子性质预测的大规模原子表征预训练模型
 
-* https://github.com/microsoft/Graphormer 图结构数据上的Transformer变种，应用于2D 分子化学结构图预测分子性质，还可以应用于主流图预测任务、社交网络的推荐和广告、知识图谱、自动驾驶的雷达点云数据、对交通物流运输等的时空预测和优化、程序理解和生成等等，还包括分子性质预测所涉及的行业，比如药物发掘、材料发现、分子动力学模拟、蛋白质结构预测等等。
+* [microsoft/Graphormer](https://github.com/microsoft/Graphormer) 图结构数据上的Transformer变种，应用于2D 分子化学结构图预测分子性质，还可以应用于主流图预测任务、社交网络的推荐和广告、知识图谱、自动驾驶的雷达点云数据、对交通物流运输等的时空预测和优化、程序理解和生成等等，还包括分子性质预测所涉及的行业，比如药物发掘、材料发现、分子动力学模拟、蛋白质结构预测等等。
+
+* [dptech-corp/Uni-Mol](https://github.com/dptech-corp/Uni-Mol) 通用的 3D 分子预训练框架，显着扩大了药物设计中的表示能力和应用范围。由两个模型组成：一个由 209M 分子 3D 构象训练的分子预训练模型； 由 3M 候选蛋白质口袋数据训练的口袋预训练模型。两种模型独立用于不同的任务，并在用于蛋白质-配体结合任务时结合使用。 Uni-Mol 在 14/15 分子特性预测任务中优于 SOTA。 此外，在3D空间任务中实现了卓越的性能，包括蛋白质-配体结合位姿预测(protein-ligand binding pose prediction)、分子构象生成(molecular conformation generation)等。
 
 * https://github.com/HIPS/neural-fingerprint 图卷积网络用于学习分子指纹。使用神经网络在数据样本中归纳总结，然后来预测新型分子的属性或者性质。
 
@@ -2497,6 +2517,8 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 
 * [rampasek/GraphGPS](https://github.com/rampasek/GraphGPS) 通用、强大、可扩展的图形转换器的秘诀。如何构建图形转换器？ 我们提供了一个由 3 部分组成的秘诀，介绍如何构建具有线性复杂度的图形转换器。 我们的 GPS 配方包括选择 3 种主要成分：位置/结构编码：LapPE、RWSE、SignNet、EquivStableLapPE，本地消息传递机制：GatedGCN、GINE、PNA，全局注意力机制：Transformer、Performer、BigBird。在ZINC 数据集上的图形回归任务目前SOTA。ZINC 是用于虚拟筛选的商用化合物的免费数据库。 ZINC 包含超过 2.3 亿种可购买的即用型 3D 格式化合物。 ZINC 还包含超过 7.5 亿种可购买的化合物，可用于搜索类似物。
 
+* [wenhao-gao/mol_opt](https://github.com/wenhao-gao/mol_opt) 实用分子优化 (PMO) 的开源基准，以促进对分子优化算法进展的透明和可重复评估。支持 23 种任务的 25 种分子设计算法。 
+
 ## 抗菌肽
 
 * https://github.com/vail-uvm/amp-gan 一种基于双向条件生成对抗网络的抗菌肽（AMPs）设计方法AMPGAN v2。AMPGAN v2使用生成器和鉴别器来学习数据驱动的先验知识，并使用条件变量控制生成。
@@ -2507,59 +2529,63 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 
 ## 其他_生物医药
 
-https://github.com/KailiWang1/DeepDTAF 预测蛋白质与配体结合亲和力的深度学习方法
+[KailiWang1/DeepDTAF](https://github.com/KailiWang1/DeepDTAF) 预测蛋白质与配体结合亲和力的深度学习方法
 
-https://github.com/cansyl/MDeePred 通过一种多通道蛋白质的特征化来解决深度学习下药物发现中亲和力预测问题
+[cansyl/MDeePred](https://github.com/cansyl/MDeePred) 多通道蛋白质的特征化来解决深度学习下药物发现中亲和力预测问题
 
-https://github.com/mims-harvard/TDC Therapeutics Data Commons (TDC)，第一个机器学习在生物医药的大规模数据集。TDC目前包含了20+有意义的任务，和70多个高质量数据集，从靶蛋白的发现，药物动力学，安全性，药物生产都有包含到。而且不仅仅是小分子，还有抗体，疫苗，miRNA等。之后也会加入CRISPR，Clinical Trials等等。
+[CBLUEbenchmark/CBLUE](https://github.com/CBLUEbenchmark/CBLUE) 中文医疗信息处理基准CBLUE 8个中文医疗语言理解任务。包括医学文本信息抽取（实体识别、关系抽取）、医学术语归一化、医学文本分类、医学句子关系判定和医学QA共5大类任务8个子任务。
 
-https://github.com/lrsoenksen/CL_RNA_SynthBio  RNA合成生物学的深度学习
+[mims-harvard/TDC](https://github.com/mims-harvard/TDC) Therapeutics Data Commons (TDC)，第一个机器学习在生物医药的大规模数据集。TDC目前包含了20+有意义的任务，和70多个高质量数据集，从靶蛋白的发现，药物动力学，安全性，药物生产都有包含到。而且不仅仅是小分子，还有抗体，疫苗，miRNA等。之后也会加入CRISPR，Clinical Trials等等。
 
-[uci-cbcl/UFold](https://github.com/uci-cbcl/UFold) UFold：利用深度学习进行快速准确的 RNA 二级结构预测
+[lrsoenksen/CL_RNA_SynthBio](https://github.com/lrsoenksen/CL_RNA_SynthBio)  RNA合成生物学的深度学习
 
-https://github.com/lanagarmire/DeepImpute 一种基于深度神经网络来插补单细胞RNA测序数据的方法
+[uci-cbcl/UFold](https://github.com/uci-cbcl/UFold) 利用深度学习进行快速准确的 RNA 二级结构预测
 
-https://github.com/emreg00/toolbox 疾病和药物相关的生物学数据集时所使用的各种脚本。它包含用于数据处理的通用实用程序（例如，解析，基于网络的分析，邻近性等）。
+[lanagarmire/DeepImpute](https://github.com/lanagarmire/DeepImpute) 一种基于深度神经网络来插补单细胞RNA测序数据的方法
 
-https://github.com/ruoqi-liu/DeepIPW 基于真实世界患者数据的药物重定位的深度学习框架
+[emreg00/toolbox](https://github.com/emreg00/toolbox) 疾病和药物相关的生物学数据集时所使用的各种脚本。它包含用于数据处理的通用实用程序（例如，解析，基于网络的分析，邻近性等）。
 
-https://github.com/CutillasLab/DRUMLR 利用机器学习预测抗癌药物疗效。提出Drug Ranking Using ML方法，使用omics数据，根据药物抗肿瘤细胞增殖疗效对超过400种药物进行排序。
+[ruoqi-liu/DeepIPW](https://github.com/ruoqi-liu/DeepIPW) 基于真实世界患者数据的药物重定位的深度学习框架
 
-https://github.com/kaist-amsg/Synthesizability-PU-CGCNN  基于半监督学习的晶体结构的合成预测
+[CutillasLab/DRUMLR](https://github.com/CutillasLab/DRUMLR) 利用机器学习预测抗癌药物疗效。提出Drug Ranking Using ML方法，使用omics数据，根据药物抗肿瘤细胞增殖疗效对超过400种药物进行排序。
 
-https://github.com/WLYLab/PepFormer 基于Transformer的对比学习框架实现多肽可检测性预测
+[kaist-amsg/Synthesizability-PU-CGCNN](https://github.com/kaist-amsg/Synthesizability-PU-CGCNN)  基于半监督学习的晶体结构的合成预测
 
-https://github.com/NYSCF/monoqlo_release 提出了模块化的深度学习框架Monoqlo来自动识别细胞集落，并从细胞成像中识别克隆性。
+[xiaoyeye/CCST](https://github.com/xiaoyeye/CCST) 使用图神经网络对空间转录组学数据进行细胞聚类。利用最近的两个技术发展，空间转录组学和图神经网络，用图神经网络进行空间转录组学数据的细胞聚类，一种基于图卷积网络的无监督细胞聚类方法，以改进从头算细胞聚类和发现 基于策划的细胞类别注释的新型子细胞类型。 CCST 是处理各种空间分辨转录组学的通用框架。
 
-https://github.com/deepmodeling/deepks-kit DeePKS: A Comprehensive Data-Driven Approach toward Chemically Accurate Density Functional Theory 提出了构建准确且高效的密度泛函模型的通用机器学习框架，并且利用这一框架训练了具有化学精度的密度泛函模型，应用于电子结构性质的计算。
+[WLYLab/PepFormer](https://github.com/WLYLab/PepFormer) 基于Transformer的对比学习框架实现多肽可检测性预测
 
-https://github.com/juexinwang/scGNN 新型的用于单细胞RNA测序分析的图神经网络框架
+[NYSCF/monoqlo_release](https://github.com/NYSCF/monoqlo_release) 提出了模块化的深度学习框架Monoqlo来自动识别细胞集落，并从细胞成像中识别克隆性。
 
-https://github.com/liulizhi1996/HPOFiller 一种基于图卷积网络(GCN)的方法，用于预测缺失的HPO注释。 人类表型本体(HPO)是描述人类疾病中遇到的表型异常的标准化词汇（疾病的术语）。探索人类蛋白质和异常表型之间的关系在疾病的预防、诊断和治疗中具有重要意义。
+[deepmodeling/deepks-kit](https://github.com/deepmodeling/deepks-kit) DeePKS: A Comprehensive Data-Driven Approach toward Chemically Accurate Density Functional Theory 提出了构建准确且高效的密度泛函模型的通用机器学习框架，并且利用这一框架训练了具有化学精度的密度泛函模型，应用于电子结构性质的计算。
 
-https://github.com/zty2009/GCN-DNN 基于图卷积网络和深度神经网络的药物靶点相互作用识别
+[juexinwang/scGNN](https://github.com/juexinwang/scGNN) 新型的用于单细胞RNA测序分析的图神经网络框架
 
-https://github.com/WebyGit/CGINet 大规模药物信息网络构建及图卷积预测模型
+[liulizhi1996/HPOFiller](https://github.com/liulizhi1996/HPOFiller) 一种基于图卷积网络(GCN)的方法，用于预测缺失的HPO注释。 人类表型本体(HPO)是描述人类疾病中遇到的表型异常的标准化词汇（疾病的术语）。探索人类蛋白质和异常表型之间的关系在疾病的预防、诊断和治疗中具有重要意义。
 
-https://github.com/ziyujia/SalientSleepNet 用于睡眠分期的多模态凸波检测网络
+[zty2009/GCN-DNN](https://github.com/zty2009/GCN-DNN) 基于图卷积网络和深度神经网络的药物靶点相互作用识别
 
-https://github.com/ziyujia/Physiological-Signal-Classification-Papers 500余篇基于机器学习/深度学习的生理信号分类论文列表
+[WebyGit/CGINet](https://github.com/WebyGit/CGINet) 大规模药物信息网络构建及图卷积预测模型
+
+[ziyujia/SalientSleepNet](https://github.com/ziyujia/SalientSleepNet) 用于睡眠分期的多模态凸波检测网络
+
+[ziyujia/Physiological-Signal-Classification-Papers](https://github.com/ziyujia/Physiological-Signal-Classification-Papers) 500余篇基于机器学习/深度学习的生理信号分类论文列表
 
 https://github.com/ziyujia/Sleep-Stages-Classification-Papers 基于机器学习/深度学习的睡眠阶段分类论文列表
 
 https://github.com/ziyujia/Motor-Imagery-Papers 基于机器学习/深度学习的运动想象分类论文列表
 
-https://github.com/BojarLab/SweetNet 图卷积神经网络分析复杂碳水化合物。
+[BojarLab/SweetNet](https://github.com/BojarLab/SweetNet) 图卷积神经网络分析复杂碳水化合物。
 
-https://github.com/jaswindersingh2/SPOT-RNA2 利用进化概况、突变耦合和二维迁移学习改进了RNA二级结构和三级碱基配对预测
+[jaswindersingh2/SPOT-RNA2](https://github.com/jaswindersingh2/SPOT-RNA2) 利用进化概况、突变耦合和二维迁移学习改进了RNA二级结构和三级碱基配对预测
 
 https://github.com/QSong-github/scGCN 单细胞图卷积网络模型(single-cell Graph Convolutional Network)可以实现跨越不同数据集的知识转移(knowledge transfer)。通过在30个单细胞组学数据集上进行基准测试实验，结果表明scGCN在利用来自不同组织、平台和物种以及分子层的细胞方面展现了优于其他方法的准确性。
 
 https://github.com/mauragarofalo/LICTOR 抗体体细胞突变的机器学习分析预测免疫球蛋白轻链毒性
 
-https://github.com/JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预测的知识图神经网络
+[JieZheng-ShanghaiTech/KG4SL](https://github.com/JieZheng-ShanghaiTech/KG4SL) 用于人类癌症合成致死预测的知识图神经网络
 
-[immunogenomics/symphony:](https://github.com/immunogenomics/symphony) 使用 Symphony 进行高效、精确的单细胞参考图谱映射
+[immunogenomics/symphony](https://github.com/immunogenomics/symphony) 使用 Symphony 进行高效、精确的单细胞参考图谱映射
 
 [calico/scnym](https://github.com/calico/scnym) 用于对单细胞分类的半监督对抗式神经网络
 
@@ -2567,7 +2593,7 @@ https://github.com/JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预
 
 [schulter/EMOGI](https://github.com/schulter/EMOGI) 一种基于图卷积网络的可解释多组学图集成方法预测癌症基因。
 
-[hui2000ji/scETM](https://github.com/hui2000ji/scETM) 一种生成主题模型，可促进对大规模单细胞 RNA 测序数据的综合分析。
+[hui2000ji/scETM](https://github.com/hui2000ji/scETM) 生成主题模型，可促进对大规模单细胞 RNA 测序数据的综合分析。
 
 [Google-Health/genomics-research](https://github.com/Google-Health/genomics-research) Google Health 共享的基因组学研究代码
 
@@ -2587,7 +2613,7 @@ https://github.com/JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预
 - 为您感兴趣的地图集下载预先训练的模型，使用新数据集对其进行更新并与您的合作者分享。
 - 在参考的顶部投影和集成查询数据集，并使用潜在表示进行下游任务，例如：差异测试、聚类、分类
 
-[HantaoShu/DeepSEM](https://github.com/HantaoShu/DeepSEM) 一种基于深度学习的方法，具有新颖的神经网络架构，可以推断基因调控网络，嵌入 scRNA-seq 数据，并通过解释不同的模块来模拟真实的 scRNA-seq 数据。
+[HantaoShu/DeepSEM](https://github.com/HantaoShu/DeepSEM) 基于深度学习的方法，具有新颖的神经网络架构，可以推断基因调控网络，嵌入scRNA-seq数据，并通过解释不同的模块来模拟真实的scRNA-seq数据。
 
 [Tsedao/MultiRM](https://github.com/Tsedao/MultiRM) 基于注意力的多标签神经网络，用于对十二种广泛发生的 RNA 修饰进行综合预测和解释
 
@@ -2641,7 +2667,7 @@ https://github.com/JieZheng-ShanghaiTech/KG4SL 用于人类癌症合成致死预
 
 [deepinsight/insightface](https://github.com/deepinsight/insightface) 最先进的2D和3D人脸分析项目 人脸识别\检测\对齐
 
-minivision-ai/photo2cartoon 人像卡通化探索项目
+[minivision-ai/photo2cartoon](https://github.com/minivision-ai/photo2cartoon) 人像卡通化探索项目
 
 [davidsandberg/facenet](https://github.com/davidsandberg/facenet) 使用 TensorFlow 进行人脸识别
 
@@ -2717,19 +2743,21 @@ https://github.com/SangbumChoi/MobileHumanPose MobileHumanPose 的官方 PyTorch
 
 [nenadmarkus/pico](https://github.com/nenadmarkus/pico) 对标准 Viola-Jones 方法的修改。基本思想是在所有合理的位置和尺度上用级联的二元分类器扫描图像。如果图像区域成功通过级联的所有成员，则将其分类为感兴趣对象。每个二元分类器由一组决策树组成，其中像素强度比较作为其内部节点中的二元测试。这使检测器能够以非常高的速度处理图像区域。
 
+[YuliangXiu/ICON](https://github.com/YuliangXiu/ICON) 从图片法线获得的隐式穿衣人类的3D姿态（CVPR 2022）
+
 ## 图像恢复
 
 https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life 旧照片修复
 
 https://github.com/xinntao/Real-ESRGAN 旨在开发通用图像恢复的实用算法。
 
-https://github.com/zhangmozhe/Deep-Exemplar-based-Video-Colorization 基于深层范例的视频着色,着色时间的连贯性与稳定性
+[zhangmozhe/Deep-Exemplar-based-Video-Colorization](https://github.com/zhangmozhe/Deep-Exemplar-based-Video-Colorization) 基于深层范例的视频着色,着色时间的连贯性与稳定性
 
 [JingyunLiang/SwinIR](https://github.com/JingyunLiang/SwinIR) 使用 Swin Transformer 的图像恢复,图像SR\图像去噪\伪影减少
 
 yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片。GPEN模型明显优于其他的修复人脸的GAN模型。
 
-[bilibili/ailab](https://github.com/bilibili/ailab) 使用百万级动漫数据进行训练的，结构与Waifu2x兼容的通用动漫图像超分辨率模型。它支持**2x\3x\4x**倍超分辨率，其中2倍模型支持4种降噪强度与保守修复，3倍/4倍模型支持2种降噪强度与保守修复。
+[bilibili/ailab](https://github.com/bilibili/ailab) 使用百万级动漫数据进行训练的，结构与Waifu2x兼容的通用动漫图像超分辨率模型。它支持2x\3x\4x倍超分辨率，其中2倍模型支持4种降噪强度与保守修复，3倍/4倍模型支持2种降噪强度与保守修复。
 
 ## ocr
 
@@ -2889,7 +2917,9 @@ https://github.com/luost26/diffusion-point-cloud 基于非平衡态热力学的�
 
 https://github.com/PeterWang512/GANSketching 绘制您自己的 GAN：用手绘草图自定义 GAN 模型。
 
-https://github.com/microsoft/AutoML/tree/main/iRPE 视觉位置编码，在ImageNet和COCO上，与原始版本相比，分别获得了1.5%（top-1 Acc）和1.3%（mAP）的性能提升（无需任何调参）。
+[microsoft/AutoML/iRPE](https://github.com/microsoft/AutoML/tree/main/iRPE) 视觉位置编码，在ImageNet和COCO上，与原始版本相比，分别获得了1.5%（top-1 Acc）和1.3%（mAP）的性能提升（无需任何调参）。
+
+[shahroudy/NTURGB-D](https://github.com/shahroudy/NTURGB-D) “NTU RGB+D”动作识别数据集、“NTU RGB+D 120”动作识别数据集、“NTU RGB+D”是用于人类动作识别的大规模数据集。“NTU RGB+D 120”是“NTU RGB+D”数据集的扩展版本。
 
 https://github.com/yuhuan-wu/P2T 基于金字塔池化的视觉Transformer，可用于各类下游场景理解任务。
 
@@ -2935,7 +2965,7 @@ https://github.com/ashkamath/mdetr 用于端到端多模态理解的调制检测
 
 [HobbitLong/SupContrast](https://github.com/HobbitLong/SupContrast) “监督对比学习”的 PyTorch 实现（顺便提一下 SimCLR）
 
-https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种简单有效的基于查询的实例分割方法，由动态掩码头的并行监督驱动，在准确性和速度方面均优于以前的技术。
+[hustvl/QueryInst](https://github.com/hustvl/QueryInst)  Instances as Queries是一种简单有效的基于查询的实例分割方法，由动态掩码头的并行监督驱动，在准确性和速度方面均优于以前的技术。
 
 [isl-org/MiDaS](https://github.com/isl-org/MiDaS) 单目深度估计的成功依赖于大量且多样化的数据集。但是由于深度的真实值在不同的环境尺度下获取的，大量数据具有不同的特征和偏差。本文提出了一种对于深度的范围和尺度具有不变性的训练方法，从而可以在训练期间混合多个数据集。因此，本文利用3D电影构建了一个数据集并进行训练，然后在训练期间未见过的数据集上进行评测。实验证明，混合训练来自不同的数据集可以改善深度估计的效果，特别是针对训练时未见过的数据集（zero-shot dataset）。
 
@@ -2961,7 +2991,7 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [Alibaba-MIIL/STAM](https://github.com/Alibaba-MIIL/STAM) 受NLP中Transformer成功的启发，我们尝试将一个标准Transformer直接应用到图像上，尽可能少的修改。为此，我们将图像分割成小块，并将这些块转化为线性嵌入序列，作为Transformer的输入。图像块（image patches）就相当于NLP任务中的单词（token）来做处理。并以有监督的方式训练图像分类模型。大规模的训练可以克服归纳偏置（inductive biases）。当ViT在足够规模上进行预先训练，并迁移到较少数据量的任务时，可以获得出色结果。
 
-[https://github.com/openai/glide-text2im](https://github.com/openai/glide-text2im) 基于扩散的文本条件图像合成模型。以文本提示为条件的图像；填充图像的蒙版区域，以文本提示为条件；使用 GLIDE（过滤）+ 过滤噪声感知 CLIP 模型来生成以文本提示为条件的图像。
+[openai/glide-text2im](https://github.com/openai/glide-text2im) 基于扩散的文本条件图像合成模型。以文本提示为条件的图像；填充图像的蒙版区域，以文本提示为条件；使用 GLIDE（过滤）+ 过滤噪声感知 CLIP 模型来生成以文本提示为条件的图像。
 
 [SysCV/pcan](https://github.com/SysCV/pcan) 用于多对象跟踪和分割的原型交叉注意网络
 
@@ -3069,13 +3099,13 @@ https://github.com/hustvl/QueryInst QueryInst (Instances as Queries) 是一种�
 
 [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) 潜在的文本到图像的扩散模型。凭借其 860M UNet 和 123M 文本编码器，该模型相对轻量级，并在具有至少 10GB VRAM 的 GPU 上运行。
 
-[invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) 这个版本的 Stable Diffusion 具有一个流畅的 WebGUI、一个交互式命令行脚本，它在“dream bot”风格的界面中结合了 text2img 和 img2img 功能，以及多个功能和其他增强功能。可以在 Win、Mac 和 Linux 机器上运行，GPU 卡只有 4 GB 的 RAM。
+[invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) 这个版本的 Stable Diffusion 具有流畅的 WebGUI、交互式命令行脚本，它在“dream bot”风格的界面中结合了 text2img 和 img2img 功能，以及多个功能和其他增强功能。可以在 Win、Mac 和 Linux 机器上运行，GPU 卡只有 4 GB 的 RAM。
 
 [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 稳定的扩散(文本到图像的扩散模型)网页界面 
 
 [divamgupta/diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) Diffusion Bee 是在 M1 Mac 上本地运行 Stable Diffusion 的最简单方法。附带一键式安装程序。无需依赖或技术知识。
 
-[cmdr2/stable-diffusion-ui](https://github.com/cmdr2/stable-diffusion-ui) 在pc上安装和使用稳定扩散的最简单一键式方式。提供用于从文本提示和图像生成图像的浏览器 UI。只需输入您的文本提示，然后查看生成的图像。
+[cmdr2/stable-diffusion-ui](https://github.com/cmdr2/stable-diffusion-ui) 在pc上安装和使用稳定扩散的最简单方式。提供用于从文本提示和图像生成图像的浏览器 UI。只需输入您的文本提示，然后查看生成的图像。
 
 [nateraw/stable-diffusion-videos](https://github.com/nateraw/stable-diffusion-videos) 通过探索潜在空间和文本提示之间的变形来实现稳定扩散(stable diffusion)的视频
 
@@ -3093,15 +3123,15 @@ https://github.com/docker-slim/docker-slim 请勿更改Docker容器映像中的�
 
 https://github.com/silenceshell/docker_mirror 发现国内加速的docker源。
 
-https://github.com/AliyunContainerService/GPUshare-scheduler-extender GPU Sharing Scheduler Extender in Kubernetes Kubernetes 中的 GPU 共享调度程序扩展器
+[AliyunContainerService/GPUshare-scheduler-extender](https://github.com/AliyunContainerService/GPUshare-scheduler-extender) GPU 共享调度程序扩展器
 
 # 因果推断
 
-https://github.com/microsoft/EconML ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将人工智能概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
+[microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
 
-https://github.com/Microsoft/dowhy 用于因果推理的 Python 库，它支持因果假设的显式建模和测试。 DoWhy 基于因果推理的统一语言，结合了因果图模型和潜在结果框架。
+[Microsoft/dowhy](https://github.com/Microsoft/dowhy) 用于因果推理的 Python 库，它支持因果假设的显式建模和测试。 DoWhy 基于因果推理的统一语言，结合了因果图模型和潜在结果框架。
 
-https://github.com/FenTechSolutions/CausalDiscoveryToolbox 图形和成对设置中的因果推断包。 包括用于图结构恢复和依赖关系的工具。
+[FenTechSolutions/CausalDiscoveryToolbox](https://github.com/FenTechSolutions/CausalDiscoveryToolbox) 图形和成对设置中的因果推断包。 包括用于图结构恢复和依赖关系的工具。
 
 https://github.com/uber/causalml 使用机器学习算法进行提升建模和因果推理
 
@@ -3145,7 +3175,7 @@ https://github.com/shobrook/communities 社区检测算法和可视化工具库
 
 https://github.com/jm199504/Financial-Knowledge-Graphs 小型金融知识图谱构建流程
 
-[apache/incubator-s2graph](https://github.com/apache/incubator-s2graph) [S2Graph](http://s2graph.apache.org/)是一个**图形数据库，**旨在大规模处理事务性图形处理。它的 REST API 允许您以**完全异步**和**非阻塞的**方式使用**边缘**和**顶点**表示来存储、管理和查询关系信息。S2Graph 是[Apache TinkerPop](https://tinkerpop.apache.org/)在[Apache HBASE](https://hbase.apache.org/)上的一个实现。
+[apache/incubator-s2graph](https://github.com/apache/incubator-s2graph) [S2Graph](http://s2graph.apache.org/)是一个图形数据库，**旨在大规模处理事务性图形处理。它的 REST API 允许您以**完全异步**和**非阻塞的**方式使用**边缘**和**顶点**表示来存储、管理和查询关系信息。S2Graph 是[Apache TinkerPop](https://tinkerpop.apache.org/)在[Apache HBASE](https://hbase.apache.org/)上的一个实现。
 
 # 大数据
 
@@ -3489,13 +3519,17 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [Al1ex/Pentest-tools](https://github.com/Al1ex/Pentest-tools) 内网渗透工具:ACL突破、交换、真实劫持、信息收集、内网电话、密码喷洒、密码抓取、密码破解、权限提升、权限维持、横向移动、端口扫描、端口转发、网络嗅探、集成工具
 
+* [inbug-team/SweetBabyScan](https://github.com/inbug-team/SweetBabyScan) 支持弱口令爆破的内网资产探测漏洞扫描工具，集成了Xray与Nuclei的Poc
+
 * [Gality369/CS-Loader](https://github.com/Gality369/CS-Loader) CS免杀,包括python版和C版本
 
 * [1N3/IntruderPayloads](https://github.com/1N3/IntruderPayloads) Burpsuite Intruder 有效载荷、BurpBounty 有效载荷、模糊列表、恶意文件上传和 Web 渗透测试方法和清单的集合。
 
-* [https://github.com/safe6Sec/PentestDB](https://github.com/safe6Sec/PentestDB) 各种数据库的利用姿势
+* [safe6Sec/PentestDB](https://github.com/safe6Sec/PentestDB) 各种数据库的利用姿势
 
 * [michaelweber/Macrome](https://github.com/michaelweber/Macrome) 用于红队和分析师的 Excel 宏文档阅读器/编写器。 
+
+* [DonatoReis/arno](https://github.com/DonatoReis/arno) 一个自动化工具，用于安装最流行的漏洞赏金或渗透测试工具！ 这将为您在设置机器工作时节省 90% 的时间。
 
 * [xuanhusec/OscpStudyGroup](https://github.com/xuanhusec/OscpStudyGroup) Oscp公益学习组,包括：小技巧合集、Kali基本操作、常用工具、windows提权汇总、反弹shell方法汇总、靶机推荐列表、缓冲区溢出通关脚本框架、OSCP命令大全、反弹shell方法汇总、linux提权方法汇总、win提权方法汇总、Linux提权辅助、Win提权辅助、渗透测试方法论、靶机练习
 
@@ -3507,9 +3541,15 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [maK-/parameth](https://github.com/maK-/parameth) 该工具可用于暴力发现 GET 和 POST 参数
 
-* [hakluke/hakrawler](https://github.com/hakluke/hakrawler) 简单、快速的网络爬虫，旨在轻松、快速地发现网络应用程序中的端点和资产
+* [hakluke/hakrawler](https://github.com/hakluke/hakrawler) 简单快速的网络爬虫，发现网络应用程序中的端点和资产
 
-* [ffuf/ffuf](https://github.com/ffuf/ffuf) 用 Go 编写的快速网络模糊器 内容发现\虚拟主机发现\参数模糊\POST 数据模糊测试
+* [quasar/Quasar](https://github.com/quasar/Quasar) 适用于 Windows 的免费、开源远程管理工具。用 C# 编码的快速、轻量级的远程管理工具。 使用范围从用户支持到日常管理工作再到员工监控。 提供高稳定性和易于使用的用户界面，是您的完美远程管理解决方案。
+
+* [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP)  远程桌面协议 (RDP) 的免费实现，在 Apache 许可下发布。 在一个互操作性最终可以解放您的计算体验的世界中，享受随时随地以您想要的方式使用您的软件的自由。
+
+* [Cool-Coding/remote-desktop-control](https://github.com/Cool-Coding/remote-desktop-control) 远程桌面控制(Spring+Netty+Swing)
+
+* [ffuf/ffuf](https://github.com/ffuf/ffuf) Go写的快速网络模糊器 内容发现\虚拟主机发现\参数模糊\POST 模糊测试
 
 * [michenriksen/aquatone](https://github.com/michenriksen/aquatone) 跨大量主机对网站进行可视化检查的工具，便于快速了解基于 HTTP 的攻击面。
 
@@ -3540,6 +3580,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [Power7089/PenetrationTest-Tips](https://github.com/Power7089/PenetrationTest-Tips) 渗透测试小技巧，渗透测试Tips
 
 * [cleverbao/520apkhook](https://github.com/cleverbao/520apkhook) 把ms的安卓远控附加进普通的app中，并进行隐藏特征。可以通用的手机安全管家。
+
+* [Lotus6/ThinkphpGUI](https://github.com/Lotus6/ThinkphpGUI) Thinkphp 漏洞利用工具，支持各版本TP漏洞检测，命令执行，getshell。
 
 * [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) 一个逆向工程安卓apk文件的工具
 
@@ -3593,7 +3635,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [jonaslejon/malicious-pdf](https://github.com/jonaslejon/malicious-pdf) 生成一堆带有 phone-home 功能的恶意 pdf 文件。可以与 Burp Collaborator 或 Interact.sh 一起使用
 
-* [i11us0ry/goon](https://github.com/i11us0ry/goon) goon,集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
+* [i11us0ry/goon](https://github.com/i11us0ry/goon) 集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
+
+* [Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) 一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库
 
 * [ffffffff0x/f8x](https://github.com/ffffffff0x/f8x) 红蓝队环境自动部署工具,支持多场景,渗透,开发,代理,服务可选项等.
 
@@ -3901,7 +3945,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [FirmWire/FirmWire](https://github.com/FirmWire/FirmWire) 一个全系统基带固件仿真平台，用于对智能手机基带固件进行模糊测试、调试和根本原因分析
 
-* [user1342/DroidDetective](https://github.com/user1342/DroidDetective) 适用于 Android 应用程序的机器学习恶意软件分析框架。
+* [user1342/DroidDetective](https://github.com/user1342/DroidDetective) 适用于Android 应用程序的机器学习恶意软件分析框架。
 
 * [BWASP/BWASP](https://github.com/BWASP/BWASP) 一个开源的分析工具，用于支持 Web 漏洞手动分析
 
