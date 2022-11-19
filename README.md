@@ -273,6 +273,8 @@
 
 * [safe-graph/UGFraud](https://github.com/safe-graph/UGFraud) 用于欺诈检测的基于图的无监督工具箱
 
+* [squareRoot3/Rethinking-Anomaly-Detection](https://github.com/squareRoot3/Rethinking-Anomaly-Detection) 重新思考用于异常检测的图神经网络
+
 ## 参数优化
 
 * [hyperopt/hyperopt](https://github.com/hyperopt/hyperopt) 分布式超参数优化
@@ -1014,6 +1016,8 @@
 
 * [THUDM/P-tuning-v2](https://github.com/THUDM/P-tuning-v2)  P-tuning v2 对预训练变压器的每一层输入应用连续提示。深度提示调整增加了连续提示的容量，并缩小了跨各种设置微调的差距，特别是对于小型模型和艰巨的任务。将文本生成的prefix-tuning技术适配到NLU任务。Prompting技术火爆NLP社区，其将预训练模型从Fine-tuning范式带入Prompt-Engineering时代。Promp最初由人工设计，自然语言提示本身十分脆弱，而且从优化角度无法达到最优。为了解决问题发展出了可学习的Prompt，而P-tuning v2在实际上就是Prefix-tuning，在Prefix部分，每一层transformer的embedding输入需要被tuned。在不同规模大小的LM模型上，P-tuning v2能与精调（Fine-tuning）方法的表现比肩，有时甚至更好。
 
+* [EleutherAI/gpt-neox](https://github.com/EleutherAI/gpt-neox) 基于 DeepSpeed 库的 GPU 上模型并行自回归转换器（autoregressive transformers）的实现。目前基于 NVIDIA 的威震天语言模型，并已通过 DeepSpeed 的技术以及一些新颖的优化进行了增强。希望在此过程中训练和开源 175B 参数 GPT-3 复制。
+
 ## 文本分类
 
 * [cnn_multilabel_classification](https://github.com/tcxdgit/cnn_multilabel_classification) 基于TextCNN和Attention的多标签分类
@@ -1140,6 +1144,10 @@
 
 * [Aristotle609/Medium-Title-Generator](https://github.com/Aristotle609/Medium-Title-Generator) 生成数据科学文章标题的模型
 
+* [yangjianxin1/GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat) GPT2 for Chinese chitchat/用于中文闲聊的GPT2文本对话模型
+
+* [RUCAIBox/MVP](https://github.com/RUCAIBox/MVP) 自然语言生成的多任务监督预训练。遵循标准的转换器编码器-解码器架构。使用标记数据集进行监督预训练。还具有特定于任务的软提示，以刺激模型执行特定任务的能力。专为自然语言生成而设计，可以适应各种生成任务。我们的模型也可以适应自然语言理解任务。收集了7种代表性生成任务的45个有标签数据集，共计3200千万条样本（23GB），来作为预训练语料。第一阶段，使用这些语料训练一个标准的Transformer，即MVP；第二阶段，冻结住MVP，利用每个任务的数据训练任务特定的连续型提示（即7组提示）。
+
 ## 文本匹配 文本相似度
 
 * [princeton-nlp/SimCSE](https://github.com/princeton-nlp/SimCSE) SimCSE：句子嵌入的简单对比学习 。提供无监督或有监督的对比学习。是目前文本相似度更好的方法。
@@ -1152,7 +1160,9 @@
 
 * [thunlp/OpenMatch](https://github.com/thunlp/OpenMatch) 总体架构包括两大部分：一是相关文档检索，即根据用户检索词，从大规模文档集合中返回最相关的Top-K(K通常为100或1000)文档。二是文档重排序，即将各神经网络模型和非神经网络模型的排序特征整合，对Top-K文档重排序，进一步提升排序效果。OpenMatch提供了融合外部知识图谱信息的知识增强模型，和筛选大规模数据的数据增强模型。
 
-* [NTMC-Community/MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py) 一个通用的文本匹配工具包，它旨在方便大家快速的实现、比较、以及分享最新的深度文本匹配模型。MatchZoo 的 PyTorch 版本。
+* [NTMC-Community/MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py) 通用的文本匹配工具包，旨在方便大家快速的实现、比较、以及分享最新的深度文本匹配模型。MatchZoo 的 PyTorch 版本。
+
+* [voidism/DiffCSE](https://github.com/voidism/DiffCSE) 用于学习句子嵌入的无监督对比学习框架。DiffCSE学习对原始句子和编辑句子之间的差异敏感的句子嵌入，其中编辑的句子是通过随机屏蔽原始句子，然后从屏蔽语言模型中采样来获得的。我们表明 DiffSCE 是等变对比学习的一个实例（Dangovski 等人，2021 年），它概括了对比学习并学习对某些类型的增强不敏感而对其他“有害”类型的增强敏感的表征。我们的实验表明，DiffCSE在无监督句子表示学习方法中取得了最先进的结果，在语义文本相似性任务上比无监督SimCSE高出2.3个绝对点。
 
 * [terrifyzhao/text_matching](https://github.com/terrifyzhao/text_matching) 常用文本匹配模型tf版本，数据集为QA_corpus模型:DSSM ConvNet ESIM ABCNN BiMPM DIIN DRCN
 
@@ -1322,6 +1332,10 @@
 
 * [liuhuanyong/ChainKnowledgeGraph](https://github.com/liuhuanyong/ChainKnowledgeGraph) 产业链知识图谱包括A股上市公司、行业和产品共3类实体，包括上市公司所属行业关系、行业上级关系、产品上游原材料关系、产品下游产品关系、公司主营产品、产品小类共6大类。 上市公司4,654家，行业511个，产品95,559条、上游材料56,824条，上级行业480条，下游产品390条，产品小类52,937条，所属行业3,946条。
 
+* [zjukg/NeuralKG](https://github.com/zjukg/NeuralKG) 支持多种知识图谱表示学习/知识图谱嵌入（Knowledge Graph Embedding）模型的Python工具包，其中实现了多种传统知识图谱嵌入、基于图神经网络的知识图谱嵌入以及基于规则的知识图谱嵌入方法。
+
+* [zjunlp/DeepKE](https://github.com/zjunlp/DeepKE/blob/main/README_CN.md) 开源的知识图谱抽取与构建工具，支持cnSchema、低资源、长篇章、多模态的知识抽取工具，可以基于PyTorch实现命名实体识别、关系抽取和属性抽取功能。
+
 ## NLP语料和数据集
 
 * [thu-coai/CrossWOZ](https://github.com/thu-coai/CrossWOZ) 中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
@@ -1402,13 +1416,15 @@
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)  专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
 
-* https://github.com/weizhepei/CasRel 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
+* [weizhepei/CasRel](https://github.com/weizhepei/CasRel) 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
 
-* https://github.com/loujie0822/DeepIE 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
+* [loujie0822/DeepIE](https://github.com/loujie0822/DeepIE) 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
 
 * [OpenKG-ORG/OpenUE](https://github.com/openkg-org/openue) 一个从文本中通用提取的开放工具包
 
-* 131250208/TPlinker-joint-extraction 联合抽取模型 实体关系联合抽取标注关系抽取方案
+* [universal-ie/UIE](https://github.com/universal-ie/UIE) 统一的文本到结构生成框架UIE，它可以对不同的IE任务进行统一建模，自适应地生成目标结构，并且可以从不同的知识源中学习通用的IE能力。实验结果表明，UIE在有监督和低资源环境下都取得了非常有竞争力的性能，验证了其通用性、有效性和可转移性。
+
+* [131250208/TPlinker-joint-extraction](https://github.com/131250208/TPlinker-joint-extraction) 联合抽取模型 实体关系联合抽取标注关系抽取方案
 
 * [bojone/GPLinker](https://github.com/bojone/GPLinker) 基于GlobalPointer的实体/关系/事件抽取
 
@@ -1508,6 +1524,10 @@ https://github.com/ShomyLiu/Neu-Review-Rec Pytorch的基于评论文本的深度
 
 https://github.com/squareRoot3/Target-Guided-Conversation 目标指导的开放域对话,在开放域的聊天中目标引导.
 
+[flairNLP/flair](https://github.com/flairNLP/flair) 非常简单的框架，用于最先进的NLP。由柏林洪堡大学开发。将先进的NLP模型应用于文本，如NER、词性标记 （PoS）、对生物医学的特殊支持、感知消歧和分类。Flair具有简单的界面，允许不同的单词和文档嵌入，包括Flair嵌入，BERT嵌入和ELMo嵌入。
+
+[NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) 对话式 AI 工具包，专为从事ASR\TTS\语言模型和NLP的研究人员而构建。NeMo的主要目标是帮助来自工业界和学术界的研究人员重用以前的工作（代码和预训练模型），并更轻松地创建新的对话AI模型。所有 NeMo 模型都使用 Lightning 进行训练，训练可自动扩展到 1000 多个 GPU。此外，NeMo 威震天 LLM 模型可以使用张量和管道模型并行性训练多达 1 万亿个参数。NeMo 模型可以针对推理进行优化，并使用 NVIDIA Riva 针对生产用例进行部署。
+
 https://github.com/JasonForJoy/MPC-BERT MPC-BERT：一种预训练的多方会话理解语言模型.多方会话（MPC）的各种神经模型在收件人识别、说话人识别和反应预测等方面取得了显著的进展。
 
 https://github.com/airaria/TextBrewer 基于PyTorch的NLP任务知识蒸馏工具包，适用于多种模型结构，支持自由组合各种蒸馏策略，并且在文本分类、阅读理解、序列标注等典型NLP任务上均能获得满意的效果。 
@@ -1603,6 +1623,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 [hankcs/pyhanlp](https://github.com/hankcs/pyhanlp) 中文分词、依存句法分析
 
+[shibing624/pycorrector](https://github.com/shibing624/pycorrector) 中文文本纠错工具。支持中文音似、形似、语法错误纠正。实现了Kenlm、ConvSeq2Seq、BERT、MacBERT、ELECTRA、ERNIE、Transformer等多种模型的文本纠错，并在SigHAN数据集评估各模型的效果。
+
 [HillZhang1999/MuCGEC](https://github.com/HillZhang1999/MuCGEC) MuCGEC中文纠错数据集及文本纠错SOTA模型开源
 
 [PengheLiu/Cn_Speck_Checker](https://github.com/PengheLiu/Cn_Speck_Checker) 通过统计方法对中文单词进行自动纠错
@@ -1616,6 +1638,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [hiyoung123/SoftMaskedBert](https://github.com/hiyoung123/SoftMaskedBert) 中文文本纠错模型。使用两个网络模型，一个用于错误检测；另一个基于BERT进行纠错。
 
 [ACL2020SpellGCN/SpellGCN](https://github.com/ACL2020SpellGCN/SpellGCN) 将语音学和视觉相似性结合到汉语拼写检查\文本纠错
+
+
 
 # 推荐系统
 
@@ -2745,11 +2769,13 @@ https://github.com/SangbumChoi/MobileHumanPose MobileHumanPose 的官方 PyTorch
 
 [YuliangXiu/ICON](https://github.com/YuliangXiu/ICON) 从图片法线获得的隐式穿衣人类的3D姿态（CVPR 2022）
 
+[DirtyHarryLYL/Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec) 基于HAKE数据的通用人类活动特征提取器和人体PaSta（部分状态）检测器。它的工作原理类似于 ImageNet/COCO 预训练的主干，旨在为下游任务（如 VQA、字幕、聚类等）提取多模态活动表示。
+
 ## 图像恢复
 
-https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life 旧照片修复
+[microsoft/Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life) 旧照片修复
 
-https://github.com/xinntao/Real-ESRGAN 旨在开发通用图像恢复的实用算法。
+[xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 旨在开发通用图像恢复的实用算法。
 
 [zhangmozhe/Deep-Exemplar-based-Video-Colorization](https://github.com/zhangmozhe/Deep-Exemplar-based-Video-Colorization) 基于深层范例的视频着色,着色时间的连贯性与稳定性
 
@@ -2759,15 +2785,15 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [bilibili/ailab](https://github.com/bilibili/ailab) 使用百万级动漫数据进行训练的，结构与Waifu2x兼容的通用动漫图像超分辨率模型。它支持2x\3x\4x倍超分辨率，其中2倍模型支持4种降噪强度与保守修复，3倍/4倍模型支持2种降噪强度与保守修复。
 
-## ocr
+## 光学字符识别OCR
 
 [ouyanghuiyu/chineseocr_lite](https://github.com/ouyanghuiyu/chineseocr_lite) 超轻量级中文ocr
 
 [JiaquanYe/TableMASTER-mmocr](https://github.com/JiaquanYe/TableMASTER-mmocr) 将表格内容识别任务分为四个子任务：表格结构识别、文本行检测、文本行识别和框分配。 基于 MASTER，我们提出了一种新颖的表结构识别架构，我们称之为 TableMASTER。
 
-[https://github.com/breezedeus/cnocr](https://github.com/breezedeus/cnocr) 
+[breezedeus/cnocr](https://github.com/breezedeus/cnocr) cnocr
 
-https://github.com/JiaquanYe/MASTER-mmocr 本项目是 MMOCR 对 MASTER: Multi-Aspect Non-local Network for Scene Text Recognition （场景文本识别）的重新实现。
+[JiaquanYe/MASTER-mmocr](https://github.com/JiaquanYe/MASTER-mmocr) 本项目是 MMOCR 对 MASTER: Multi-Aspect Non-local Network for Scene Text Recognition （场景文本识别）的重新实现。
 
 [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) 很棒的基于PaddlePaddle的多语言OCR工具包（实用的超轻量级OCR系统，支持80+语言识别，提供数据标注和合成工具，支持服务器、移动、嵌入式和物联网设备之间的训练和部署）
 
@@ -2775,9 +2801,9 @@ https://github.com/JiaquanYe/MASTER-mmocr 本项目是 MMOCR 对 MASTER: Multi-A
 
 - CRNN是典型的基于 CTC 的方法，在学术界和工业界得到广泛应用。它首先将文本图像发送到 CNN 以提取图像特征，然后采用两层 LSTM 对序列特征进行编码。最后，LSTM 的输出被馈送到 CTC解码器，以最大化所有路径通往基本事实的概率。
 
-- ASTER 是典型的基于校正的方法，旨在处理不规则的文本图像。它引入了空间变换器网络 (STN)，将给定的文本图像纠正为更易于识别的外观。然后将校正后的文本图像发送到 CNN 和两层 LSTM 以提取特征。特别是，ASTER 利用注意力机制来预测最终的文本序列。
+- ASTER 是典型的基于校正的方法，旨在处理不规则的文本图像。引入了空间变换器网络 (STN)，将给定的文本图像纠正为易于识别的外观。然后将校正后的文本图像发送到 CNN 和两层 LSTM 提取特征。ASTER 利用注意力机制来预测最终的文本序列。
 
-- MORAN 是具有代表性的基于整流的方法。它首先采用多对象校正网络（MORN）以弱监督方式预测校正后的像素偏移（与利用 STN 的 ASTER 不同）。输出像素偏移进一步用于生成校正后的图像，该图像进一步发送到基于注意力的解码器（ASRN）进行文本识别。
+- MORAN 是基于整流的方法。它首先采用多对象校正网络（MORN）以弱监督方式预测校正后的像素偏移（与利用 STN 的 ASTER 不同）。输出像素偏移进一步用于生成校正后的图像，该图像进一步发送到基于注意力的解码器（ASRN）进行文本识别。
 
 - SAR 利用二维特征图进行更稳健的解码。特别是，它主要是针对不规则文本提出的。一方面，SAR 在 CNN 编码器中采用更强大的残差块来学习更强的图像表示。另一方面，与 CRNN、ASTER 和 MORAN 将给定图像压缩成一维特征图不同，SAR 对特征图的空间维度采用二维注意力进行解码，从而在弯曲和斜体文字。
 
@@ -2785,7 +2811,7 @@ https://github.com/JiaquanYe/MASTER-mmocr 本项目是 MMOCR 对 MASTER: Multi-A
 
 - TransOCR 是基于 Transformer 的方法之一。它最初旨在为超分辨率任务提供文本先验。它使用 ResNet-34 作为编码器，使用自注意力模块作为解码器。与基于 RNN 的解码器不同，自注意力模块更有效地捕获给定文本图像的语义特征。
 
-[adeline-cs/GTR](https://github.com/adeline-cs/GTR) 场景文字识别 现有的场景文本识别（STR）方法通常使用语言模型来优化视觉识别（VR）模型预测的一维字符序列的联合概率，忽略字符实例内部和之间的视觉语义的二维空间上下文，使它们不能很好地推广到任意形状的场景文本。为了解决这个问题，本文中首次尝试基于视觉语义进行文本推理。从技术上讲，给定 VR 模型预测的字符分割图，我们为每个实例构建一个子图，其中节点表示其中的像素，并根据它们的空间相似性在节点之间添加边。然后，这些子图通过它们的根节点顺序连接并合并成一个完整的图。
+[adeline-cs/GTR](https://github.com/adeline-cs/GTR) 场景文字识别 现有的场景文本识别（STR）方法通常使用语言模型来优化视觉识别（VR）模型预测的一维字符序列的联合概率，忽略字符实例内部和之间的视觉语义的二维空间上下文，使它们不能很好地推广到任意形状的场景文本。为了解决这个问题，本文中首次尝试基于视觉语义进行文本推理。从技术上讲，给定 VR 模型预测的字符分割图，我们为每个实例构建一个子图，其中节点表示其中的像素，并根据它们的空间相似性在节点之间添加边。然后，子图通过它们的根节点顺序连接并合并成一个完整的图。
 
 ## 视频补帧
 
@@ -2797,7 +2823,7 @@ https://github.com/JiaquanYe/MASTER-mmocr 本项目是 MMOCR 对 MASTER: Multi-A
 
 [nihui/dain-ncnn-vulkan](https://github.com/nihui/dain-ncnn-vulkan) DAIN 的 ncnn 实现，深度感知视频帧插值。dain-ncnn-vulkan 使用 ncnn 项目作为通用神经网络推理框架。
 
-https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级流量估计与 ncnn 库一起实现
+[nihui/rife-ncnn-vulkan](https://github.com/nihui/rife-ncnn-vulkan) RIFE，视频帧插值的实时中级流量估计与 ncnn 库一起实现
 
 [myungsub/CAIN](https://github.com/myungsub/CAIN) 视频帧插值只需要频道注意力
 
@@ -2857,6 +2883,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [ytongbai/ViTs-vs-CNNs](https://github.com/ytongbai/ViTs-vs-CNNs) 变形金刚比 CNN 更强大吗 在测量对抗鲁棒性时，Transformers 胜过 CNN。CNN 在防御对抗性攻击方面很容易像 Transformers 一样强大，如果它们正确采用 Transformers 的训练方法的话。虽然关于分布外样本的泛化，我们表明在（外部）大规模数据集上进行预训练并不是使 Transformer 能够获得比 CNN 更好的性能的基本要求。此外，我们的消融表明，这种更强的泛化在很大程度上得益于 Transformer 本身的类似自我注意的架构，而不是其他训练设置。我们希望这项工作可以帮助社区更好地理解和衡量 Transformer 和 CNN 的鲁棒性。
 
+[open-mmlab/mmrotate](https://github.com/open-mmlab/mmrotate) 基于 PyTorch 的旋转框检测的开源工具箱
+
 ## 图像风格
 
 [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
@@ -2877,9 +2905,9 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 
 [taichi-dev/taichi](https://github.com/taichi-dev/taichi) 高效且可移植的 Python 高性能编程。该语言具有广泛的应用，包括实时物理模拟、数字计算、增强现实、人工智能、视觉和机器人技术、电影和游戏中的视觉效果、通用计算等等。
 
-[open-mmlab/mmcv](https://github.com/open-mmlab/mmcv) MMCV 是计算机视觉研究的基础库，它提供以下功能：通用 IO API、图像/视频处理、图像和注释可视化、有用的实用程序（进度条，计时器，...）、具有挂钩机制的 PyTorch runner、各种CNN架构、常见 CPU 和 CUDA 操作的高质量实现。
+[open-mmlab/mmcv](https://github.com/open-mmlab/mmcv) MMCV 是计算机视觉研究的基础库，它提供以下功能：通用 IO API、图像/视频处理、图像和注释可视化、有用的实用程序（进度条，计时器，...）、具有挂钩机制的 PyTorch runner、各种CNN架构、常见CPU 和 CUDA 操作的高质量实现。
 
-[ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) 最先进、功能最全、最可靠的开源自动驾驶软件。自 2010 年以来，它一直由专业工程师、计算机科学家和社区贡献者组成的多元化团队开发。我们的自动驾驶软件能够控制几乎任何可以想象的车辆系统，从传统飞机、四架飞机、多旋翼和直升机到漫游车、船只、平衡机器人，甚至潜艇。它正在不断扩展，为新出现的车辆类型提供支持。
+[ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) 最先进、功能最全、最可靠的开源自动驾驶软件。自 2010 年以来，它一直由专业工程师、计算机科学家和社区贡献者组成的多元化团队开发。我们的自动驾驶软件能够控制几乎任何可以想象的车辆系统，从传统飞机、四架飞机、多旋翼和直升机到漫游车、船只、平衡机器人，甚至潜艇。它正在不断扩展，为新的车辆类型提供支持。
 
 [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini)  DALL·E Mini - 从文本提示生成图像
 
@@ -2890,6 +2918,8 @@ https://github.com/nihui/rife-ncnn-vulkan RIFE，视频帧插值的实时中级�
 [KaiyangZhou/CoOp](https://github.com/KaiyangZhou/CoOp)  通过快速学习将CLIP等视觉语言模型适应下游数据集
 
 [j-min/VL-T5](https://github.com/j-min/VL-T5) 通过文本生成统一视觉和语言任务
+
+[OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO排行榜第一）、VQA（链接）、视觉基础、文本图像生成、文本分类生成、图像分类等。
 
 [facebookresearch/AugLy](https://github.com/facebookresearch/AugLy) 用于音频、图像、文本和视频的数据增强库。
 
@@ -2903,9 +2933,9 @@ https://github.com/kornia/kornia 基于 PyTorch 的可微分的计算机视觉 �
 
 https://github.com/architras/Advanced_Lane_Lines 基于阈值的车道标记
 
-https://github.com/facebookresearch/pytorch3d 基于PyTorch将深度学习与3D进行结合的研究框架。
+[facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d) 基于PyTorch将深度学习与3D进行结合的研究框架。
 
-https://github.com/facebookresearch/pytorchvideo 为视频理解研究打造的深度学习库。
+[facebookresearch/pytorchvideo](https://github.com/facebookresearch/pytorchvideo) 为视频理解研究打造的深度学习库。
 
 https://github.com/rwightman/pytorch-image-models PyTorch图像类模型库，包括：ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more 
 
@@ -3111,6 +3141,8 @@ https://github.com/ashkamath/mdetr 用于端到端多模态理解的调制检测
 
 [kuprel/min-dalle](https://github.com/kuprel/min-dalle) DALL·E Mini 到 PyTorch 的快速、最小的接口。DALL-E是一个可以通过文本描述中生成图像的AI程序。 通过120亿参数版本的GPT-3 Transformer模型来理解自然语言输入并生成相应的图片。它可以生成现实、现实中不存在的对象。
 
+[remotion-dev/remotion](https://github.com/remotion-dev/remotion) 使用 React 以编程方式创建视频的框架。
+
 # 虚拟化
 
 https://github.com/jesseduffield/lazydocker docker 简单终端 UI
@@ -3143,9 +3175,9 @@ https://github.com/erdogant/bnlearn 用于学习贝叶斯网络的图形结构�
 
 [cmu-phil/causal-learn](https://github.com/cmu-phil/causal-learn) 用于因果发现的 python 包，它实现了经典和最先进的因果发现算法，它是Tetrad的 Python 翻译和扩展。
 
-https://github.com/huawei-noah/trustworthyAI 基于图自编码器的因果结构学习模型
+[huawei-noah/trustworthyAI](https://github.com/huawei-noah/trustworthyAI) 基于图自编码器的因果结构学习模型
 
-https://github.com/wanyu-lin/ICML2021-Gem 针对图神经网络的通用因果解释方法
+[wanyu-lin/ICML2021-Gem](https://github.com/wanyu-lin/ICML2021-Gem) 针对图神经网络的通用因果解释方法
 
 [econometric/CausalitySlides](https://gitee.com/econometric/CausalitySlides) 西雅图大学因果推理课程的幻灯片
 
@@ -3367,6 +3399,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [FASTSHIFT/WatchX](https://github.com/FASTSHIFT/WatchX) 开源智能手表, 高质量流畅(60FPS+)的动画效果, 易于扩展的系统框架.
 
+* [MegEngine/MegPeak](https://github.com/MegEngine/MegPeak) 测试处理器峰值计算工具，支持OpenCL驱动的arm，x86和GPU。
+
 * [killerp/off_asr](https://gitee.com/killerp/off_asr) 智能遥控器（离线版）本项目基于esp32a1s模组，设计了一个遥控器，除了实现基本的红外遥控功能，人们还能通过语音，手机远程进行红外遥控。同时又加入温度传感器，并支持将温度数据上传云端，使能随时随地查看、分析数据。
 
 * [killerp/smart_control](https://gitee.com/killerp/smart_control) 智能遥控器（在线版）。
@@ -3439,33 +3473,35 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘网站、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
 
-* [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) 使用 Qt C++ 开发的B站视频、直播、漫画下载器。
+* [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) Qt C++开发的B站视频、直播、漫画下载器。
 
 * [oatpp/oatpp](https://github.com/oatpp/oatpp) 轻巧而强大的 C++ Web 框架，用于高度可扩展和资源高效的 Web 应用程序。它是零依赖且易于携带的。
 
-* [pavlobu/deskreen](https://github.com/pavlobu/deskreen) 将任何带有网络浏览器的设备变成您计算机的辅助屏幕
+* [pavlobu/deskreen](https://github.com/pavlobu/deskreen) 将带有网络浏览器的设备变成您计算机的辅助屏幕
 
-* [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin Panel Framework 管理面板前端框架
+* [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
 
 * [ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella) 免费Bootstrap4 管理仪表板模板
 
 * [akveo/ngx-admin](https://github.com/akveo/ngx-admin) 基于Angular 10 +的可定制管理仪表板模板
 
-* [tabler/tabler](https://github.com/tabler/tabler) 建立在 Bootstrap 上的免费开源 HTML Dashboard UI 工具包
+* [tabler/tabler](https://github.com/tabler/tabler) 建立在Bootstrap上的HTML Dashboard UI 工具包
 
-* [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) React的企业应用程序的全新 UI 解决方案。
+* [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) React企业应用程序的全新 UI 解决方案。
 
 * [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) 基于 Bootstrap 4 的免费管理仪表板模板
 
 * [chuzhixin/vue-admin-better](https://github.com/chuzhixin/vue-admin-better) vue后台管理
 
-* [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 一个后台前端解决方案，它基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)实现。
+* [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 后台前端解决方案，基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)。
 
-* [BiglySoftware/BiglyBT](https://github.com/BiglySoftware/BiglyBT) 基于 Azureus 开源项目的功能丰富的 Bittorrent 客户端
+* [BiglySoftware/BiglyBT](https://github.com/BiglySoftware/BiglyBT) 基于Azureus的功能丰富的 Bittorrent 客户端
 
-* [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot) 自动爬取Reddit帖子并合成视频工具
+* [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot) 爬取Reddit帖子并合成视频工具
 
 * [zonemeen/musicn](https://github.com/zonemeen/musicn) 下载高品质音乐的命令行工具
+
+* [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) Web GUI，支持 V2Ray、Xray、SS、SSR、Trojan 和 Pingtunnel
 
 ## 区块链
 
@@ -3535,7 +3571,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [DanMcInerney/xsscrapy](https://github.com/DanMcInerney/xsscrapy) XSS 蜘蛛 - 检测到 66/66 wavsep XSS
 
-* [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) 用于渗透测试人员和开发人员的交互式 TLS 拦截 HTTP 代理。用于 MITM的 proxy，MITM即中间人攻击（Man-in-the-middle attack）。用于中间人攻击的代理首先会向正常的代理一样转发请求，保障服务端与客户端的通信，其次，会适时的查、记录其截获的数据，或篡改数据，引发服务端或客户端特定的行为。 不同于 fiddler 或 wireshark 等抓包工具，mitmproxy 不仅可以截获请求帮助开发者查看、分析，更可以通过自定义脚本进行二次开发。
+* [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) 渗透测试人员和开发人员的交互式 TLS 拦截 HTTP 代理。用于 MITM的 proxy，MITM即中间人攻击（Man-in-the-middle attack）。用于中间人攻击的代理首先会向正常的代理一样转发请求，保障服务端与客户端的通信，其次，会适时的查、记录其截获的数据，或篡改数据，引发服务端或客户端特定的行为。 mitmproxy 不仅可以截获请求帮助开发者查看、分析，更可以通过自定义脚本进行二次开发。
+
+* [KeenSecurityLab/BinAbsInspector](https://github.com/KeenSecurityLab/BinAbsInspector) 静态分析器，用于二进制文件中的自动逆向工程和扫描漏洞。它基于抽象解释，适用于Ghidra的Pcode而不是汇编。目前它支持 x86，x64、armv7 和 aarch64 上的二进制文件。
 
 * [ybdt/post-hub](https://github.com/ybdt/post-hub) 传播代理、C2、免杀、横向、域渗透
 
