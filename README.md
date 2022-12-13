@@ -869,13 +869,13 @@
 
 * [microsoft/DeBERTa](https://github.com/microsoft/DeBERTa) 注意力分散的增强解码的BERT，使用了BERT和RoBERTa模型，显着提高了预训练的效率和下游任务的性能。
 
-* [pytorch/fairseq](https://github.com/pytorch/fairseq) Python的Facebook AI Research Sequence-to-Sequence工具包。
+* [pytorch/fairseq](https://github.com/pytorch/fairseq) Python的Facebook AI Research Sequence-to-Sequence包。
 
 * [ml-jku/hopfield-layers](https://github.com/ml-jku/hopfield-layers) NLP 领域里大热的 Transformer，其网络更新规则其实是和 Hopfield 网络在连续状态下是相同的。Transformer 中的这种注意力机制其实等价于扩展到连续状态的 modern Hopfield 网络中的更新规则。作者来自奥地利林茨大学、挪威奥斯陆大学，与 Jürgen Schmidhuber 合著 LSTM 的 Sepp Hochreiter 也是作者之一。
 
 * [laiguokun/Funnel-Transformer](https://github.com/laiguokun/Funnel-Transformer) Transformer优化，一种新的自我注意模型，可以将隐藏状态的序列逐渐压缩为较短的状态，从而降低了计算成本。
 
-* [mit-han-lab/hardware-aware-transformers](https://github.com/mit-han-lab/hardware-aware-transformers) 用于高效自然语言处理的硬件感知型Transformers.实现高达3倍的加速和3.7倍的较小模型尺寸，而不会降低性能。
+* [mit-han-lab/hardware-aware-transformers](https://github.com/mit-han-lab/hardware-aware-transformers) 用于高效自然语言处理的硬件感知型Transformers.实现高达3倍的加速和3.7倍的较小模型尺寸，不会降低性能。
 
 * [mit-han-lab/lite-transformer](https://github.com/mit-han-lab/lite-transformer) 具有长距离短距离注意的Lite transformer
 
@@ -926,6 +926,8 @@
 * [thuml/Flowformer](https://github.com/thuml/Flowformer) 任务通用的线性复杂度Transformer 。在图论中的经典网络流（Flow network）模型中，“守恒”（Conservation）是一个重要现象，即每个节点的流入量等于流出量。受到“固定资源情况下，必定引起竞争”的启发，通过网络流视角重新分析经典注意力机制中的信息流动，并通过守恒性质将竞争引入注意力机制设计，以避免平凡注意力问题。
 
 * [alipay/Pyraformer](https://github.com/alipay/Pyraformer) 用于长期时间序列建模和预测的低复杂度金字塔注意。
+
+* [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM) 由 NVIDIA 的应用DL研究团队开发的大型、强大的transformer。开发了高效、模型并行（张量、序列和流水线）和多节点预训练，基于 Transformer 的模型（例如 GPT、BERT 和 T5）使用混合精度。
 
 ## BERT优化
 
@@ -2735,6 +2737,10 @@ https://github.com/mauragarofalo/LICTOR 抗体体细胞突变的机器学习分�
 
 [deepinsight/insightface](https://github.com/deepinsight/insightface) 最先进的2D和3D人脸分析项目 人脸识别\检测\对齐
 
+[yoyo-nb/Thin-Plate-Spline-Motion-Model](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) 用于图像动画的薄板样条运动模型 人脸、人物动作姿势模拟
+
+[AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) 图像动画的一阶运动模型,实现静态图像到动态图像的转换.人脸、人物动作姿势模拟
+
 [minivision-ai/photo2cartoon](https://github.com/minivision-ai/photo2cartoon) 人像卡通化探索项目
 
 [davidsandberg/facenet](https://github.com/davidsandberg/facenet) 使用 TensorFlow 进行人脸识别
@@ -2858,8 +2864,6 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 - TransOCR 是基于 Transformer 的方法之一。它最初旨在为超分辨率任务提供文本先验。它使用 ResNet-34 作为编码器，使用自注意力模块作为解码器。与基于 RNN 的解码器不同，自注意力模块更有效地捕获给定文本图像的语义特征。
 
 [adeline-cs/GTR](https://github.com/adeline-cs/GTR) 场景文字识别 现有的场景文本识别（STR）方法通常使用语言模型来优化视觉识别（VR）模型预测的一维字符序列的联合概率，忽略字符实例内部和之间的视觉语义的二维空间上下文，使它们不能很好地推广到任意形状的场景文本。为了解决这个问题，本文中首次尝试基于视觉语义进行文本推理。给定 VR 模型预测的字符分割图，为每个实例构建子图，节点表示其中的像素，根据它们的空间相似性在节点之间添加边。然后，子图通过根节点顺序连接成一个完整的图。
-
-
 
 ## 视频补帧
 
@@ -3008,8 +3012,6 @@ https://github.com/PeterWang512/GANSketching 绘制您自己的 GAN：用手绘�
 https://github.com/yuhuan-wu/P2T 基于金字塔池化的视觉Transformer，可用于各类下游场景理解任务。
 
 https://github.com/jantic/DeOldify 基于NoGAN技术，保证视频着色的稳定性，例如，视频中的同一件衣服，不至于转换成多种颜色。
-
-https://github.com/AliaksandrSiarohin/first-order-model 图像动画的一阶运动模型,实现静态图像到动态图像的转换.
 
 https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix 图像到图像的转换
 
