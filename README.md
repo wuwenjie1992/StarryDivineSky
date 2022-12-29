@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/getActivity/EmojiPackage/master/%E5%8D%95%E8%BA%AB/%E5%8D%95%E8%BA%AB%E7%8B%97.png" width="300" height="300">
+<img src="https://avatars.githubusercontent.com/u/1947722" width="300" height="300">
 </p>
 <h1 align="center">mystars</h1>
 <p align="center">
@@ -1364,6 +1364,8 @@
 
 * [zjunlp/DeepKE](https://github.com/zjunlp/DeepKE/blob/main/README_CN.md) 开源的知识图谱抽取与构建工具，支持cnSchema、低资源、长篇章、多模态的知识抽取工具，可以基于PyTorch实现命名实体识别、关系抽取和属性抽取功能。
 
+* [liuhuanyong/ChineseSemanticKB](https://github.com/liuhuanyong/ChineseSemanticKB) 面向中文处理的12类、百万规模的语义常用词典，包括34万抽象语义库、34万反义语义库、43万同义语义库等，可支持句子扩展、转写、事件抽象与泛化等多种应用场景。
+
 ## NLP语料和数据集
 
 * [thu-coai/CrossWOZ](https://github.com/thu-coai/CrossWOZ) 中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
@@ -1674,6 +1676,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [thunlp/OpenBackdoor](https://github.com/thunlp/OpenBackdoor) 文本后门攻防开源工具包（NeurIPS 2022 D&B）
 
 [xueyouluo/ccks2021-track2-code](https://github.com/xueyouluo/ccks2021-track2-code) “英特尔创新大师杯”深度学习挑战赛 赛道2：CCKS2021中文NLP地址要素解析 。基于BERT的Biaffine结构，直接预测文本构成的所有span的类别。相比单纯基于span预测和基于MRC的预测，Biaffine的结构可以同时考虑所有span之间的关系，从而提高预测的准确率。
+
+[kpu/kenlm](https://github.com/kpu/kenlm) 高效统计语言模型kenlm：新词发现、分词、智能纠错
 
 # 推荐系统
 
@@ -2981,11 +2985,17 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [xxxnell/how-do-vits-work](https://github.com/xxxnell/how-do-vits-work) “视觉转换器如何工作？（ICLR 2022 ）”的 PyTorch 实现。CV的多头自注意力 (MSA) 的成功并不在于弱归纳偏差以及捕获远程依赖项。 MSA 不仅是广义的 Convs，而是补充 Convs 的广义空间平滑。特别是，MSA 通过拉平损失情况来改进 NN。一个关键特征是它的数据特异性（数据依赖性），而不是远程依赖性。另一方面，ViTs 遭受非凸损失。MSA 和 Convs 表现出相反的行为，MSA 是低通滤波器，而 Convs 是高通滤波器。MSA 是形状偏向的，而 Convs 是纹理偏向的。因此，MSAs 和 Convs 是互补的。阶段末尾的 MSA（不是模型）显着提高了准确性。我们通过用 MSA 替换阶段结束时的 Convs 来引入 AlterNet。 AlterNet 在大小数据领域都优于 CNN。
 
+[salesforce/LAVIS](https://github.com/salesforce/LAVIS) 用于语言和视觉智能研究和应用的 Python 深度学习库。 该库旨在为工程师和研究人员提供一站式解决方案，以针对其特定的多模式场景快速开发模型，并跨标准和定制数据集对它们进行基准测试。 它具有统一的界面设计以访问:10 多个任务（检索、字幕、视觉问答、多模态分类等）；20 多个数据集（COCO、Flickr、Nocaps、Conceptual Commons、SBU 等）；30 多个最先进的基础语言视觉模型的预训练权重及其特定于任务的改编，包括 ALBEF、BLIP、ALPRO、CLIP。
+
+[lucidrains/imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) 在 Pytorch 中实现谷歌的文本到图像神经网络 Imagen ，谷歌的文本到图像神经网络，击败了 DALL-E2。 它是文本到图像合成的新 SOTA。在架构上上比 DALL-E2 简单得多。 它由一个级联 DDPM 组成，该 DDPM 以来自大型预训练 T5 模型（注意网络）的文本嵌入为条件。 它还包含用于改进分类器自由引导、噪声级调节和内存高效 unet 设计的动态裁剪。
+
+[divamgupta/stable-diffusion-tensorflow](https://github.com/divamgupta/stable-diffusion-tensorflow) Stable Diffusion 稳定扩散的 Keras Tensorflow 实现。
+
 [realtime-semantic-segmentation](https://github.com/hugozanini/realtime-semantic-segmentation) 使用TF.js实施RefineNet以在浏览器中执行实时实例分割
 
 [extreme-assistant/CVPR2021-Paper-Code-Interpretation](https://github.com/extreme-assistant/CVPR2021-Paper-Code-Interpretation) cvpr2021/cvpr2020/cvpr2019/cvpr2018/cvpr2017 论文/代码/解读/直播合集，极市团队整理
 
-https://github.com/LeonLok/Multi-Camera-Live-Object-Tracking 多摄像头实时目标跟踪和计数，使用YOLOv4，Deep SORT和Flask
+[LeonLok/Multi-Camera-Live-Object-Tracking](https://github.com/LeonLok/Multi-Camera-Live-Object-Tracking) 多摄像头实时目标跟踪和计数，使用YOLOv4，Deep SORT和Flask
 
 https://github.com/kornia/kornia 基于 PyTorch 的可微分的计算机视觉 （differentiable computer vision） 开源库， 实现了：可微的基础计算机视觉算子。可微的数据增广（differentiable data augmentation）。OpenCV 和 PIL 都是不可微的，所以这些处理都只可以作为图像的预处理而无法通过观察梯度的变化来对这些算子进行优化 （gradient-based optimization）。因此，Kornia 便应运而生。
 
@@ -3200,6 +3210,8 @@ https://github.com/ashkamath/mdetr 用于端到端多模态理解的调制检测
 [remotion-dev/remotion](https://github.com/remotion-dev/remotion) 使用 React 以编程方式创建视频的框架。
 
 [zhegan27/VILLA](https://github.com/zhegan27/VILLA) VILLA：视觉和语言对抗训练 (NeurIPS 2020 Spotlight) 的官方存储库。 目前支持 UNITER 在 VQA、VCR、NLVR2 和 SNLI-VE 上的对抗微调。 使用域内数据的对抗性预训练将很快可用。 VILLA-base 和 VILLA-large 预训练检查点均已发布。
+
+[piskelapp/piskel](https://github.com/piskelapp/piskel) 易于使用的精灵编辑器。 它可用于创建游戏精灵、动画、像素艺术。
 
 # 虚拟化
 
@@ -3618,6 +3630,12 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [Al1ex/Pentest-tools](https://github.com/Al1ex/Pentest-tools) 内网渗透工具:ACL突破、交换、真实劫持、信息收集、内网电话、密码喷洒、密码抓取、密码破解、权限提升、权限维持、横向移动、端口扫描、端口转发、网络嗅探、集成工具
 
 * [inbug-team/SweetBabyScan](https://github.com/inbug-team/SweetBabyScan) 支持弱口令爆破的内网资产探测漏洞扫描工具，集成了Xray与Nuclei的Poc
+
+* [riramar/Web-Attack-Cheat-Sheet](https://github.com/riramar/Web-Attack-Cheat-Sheet) Web 攻击备忘单
+
+* [Leon406/ToolsFx](https://github.com/Leon406/ToolsFx) 基于kotlin+tornadoFx的跨平台密码学工具箱.包含编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功能,ctf等实用功能,支持插件
+
+* [TideSec/GoBypassAV](https://github.com/TideSec/GoBypassAV) 整理了基于Go的16种API免杀测试、8种加密测试、反沙盒测试、编译混淆、加壳、资源修改等免杀技术，并搜集汇总了一些资料和工具。
 
 * [Gality369/CS-Loader](https://github.com/Gality369/CS-Loader) CS免杀,包括python版和C版本
 
