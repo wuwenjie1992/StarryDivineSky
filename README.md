@@ -491,6 +491,8 @@
 
 * [YyzHarry/imbalanced-regression](https://github.com/YyzHarry/imbalanced-regression) 深度不平衡回归（DIR）旨在从具有连续目标的不平衡数据中学习，解决某些区域的潜在缺失数据，并推广到整个目标范围。
 
+* [dataease/dataease](https://github.com/dataease/dataease) 开源的数据可视化分析工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化。DataEase 支持丰富的数据源连接，能够通过拖拉拽方式快速制作图表，并可以方便的与他人分享。
+
 # 图神经网络GNN
 
 ## 图机器学习库
@@ -1038,6 +1040,8 @@
 
 * [OpenBMB/BMTrain](https://github.com/OpenBMB/BMTrain) 高效的大型模型训练工具包，可用于训练具有数百亿参数的大型模型。 它可以以分布式方式训练模型，同时保持代码像单机训练一样简单。
 
+* [microsoft/CodeBERT](https://github.com/microsoft/CodeBERT) 针对编程语言的预训练模型，在Py、Java、JS、PHP、Ruby、Go的 NL-PL 对上进行预训练的多编程语言模型。
+
 ## 文本分类
 
 * [cnn_multilabel_classification](https://github.com/tcxdgit/cnn_multilabel_classification) 基于TextCNN和Attention的多标签分类
@@ -1446,7 +1450,7 @@
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)  专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
 
-* [weizhepei/CasRel](https://github.com/weizhepei/CasRel) 一种用于关系三重提取的新颖级联二进制标记关系抽取框架.
+* [weizhepei/CasRel](https://github.com/weizhepei/CasRel) 用于关系三重提取的新颖级联二进制标记关系抽取框架.
 
 * [loujie0822/DeepIE](https://github.com/loujie0822/DeepIE) 基于深度学习的信息抽取技术,实体抽取\实体关系联合抽取\属性抽取\实体链接/标准化\事件抽取\摘要抽取
 
@@ -1460,9 +1464,11 @@
 
 * [TanyaZhao/MRC4ERE_plus](https://github.com/TanyaZhao/MRC4ERE_plus) 基于机器阅读理解的联合实体关系提取框架
 
-* https://github.com/cuhksz-nlp/RE-TaMM 于词依存信息类型映射记忆神经网络的关系抽取
+* [cuhksz-nlp/RE-TaMM](https://github.com/cuhksz-nlp/RE-TaMM) 于词依存信息类型映射记忆神经网络的关系抽取
 
-* https://github.com/xiaoqian19940510/Event-Extraction 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
+* [PaddleNLP/DuIE](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/information_extraction/DuIE) LIC2021 DuIE 关系抽取基线 .信息抽取旨在从非结构化自然语言文本中提取结构化知识，如实体、关系、事件等。关系抽取的目标是对于给定的自然语言句子，根据预先定义的schema集合，抽取出所有满足schema约束的SPO三元组。schema定义了关系P以及其对应的主体S和客体O的类别。 本基线系统基于预训练语言模型ERNIE设计了结构化的标注策略，可以实现多条、交叠的SPO抽取。
+
+* [xiaoqian19940510/Event-Extraction](https://github.com/xiaoqian19940510/Event-Extraction) 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
 
 * https://github.com/231sm/Reasoning_In_EE 利用本体表示学习实现低资源的事件抽取
 
@@ -2341,6 +2347,8 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 
 [deezer/spleeter](https://github.com/deezer/spleeter) 人声分离模型
 
+[stemrollerapp/stemroller](https://github.com/stemrollerapp/stemroller) 从任何歌曲中分离出人声、鼓、贝斯和其他器乐声部
+
 [microsoft/unilm/wavlm](https://github.com/microsoft/unilm/tree/master/wavlm) 用于全栈语音处理的大规模自我监督预训练，下游任务如ASR、声纹识别、声音分类等。
 
 [Windstudent/Complex-MTASSNet](https://github.com/Windstudent/Complex-MTASSNet) 多任务音源分离，两阶段模型，复杂域。
@@ -2355,13 +2363,17 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 
 [microsoft/muzic](https://github.com/microsoft/muzic) 用人工智能理解和生成音乐，包括：符号音乐理解：MusicBERT、自动歌词转录：PDAugment 音乐生成：作曲：SongMASS、歌词生成：DeepRapper、旋律生成：TeleMelody、伴奏生成：PopMAG、歌声合成。
 
+[MubertAI/Mubert-Text-to-Music](https://github.com/MubertAI/Mubert-Text-to-Music) 演示通过 Mubert API 生成基于提示的音乐
+
 [facebookresearch/av_hubert](https://github.com/facebookresearch/av_hubert) 用于视听语音的自监督学习框架,在 LRS3 视听语音基准上，它在唇读、ASR 和视听语音识别方面取得了最先进的结果。
 
 [lhotse-speech/lhotse](https://github.com/lhotse-speech/lhotse) 在机器学习项目中处理语音数据的工具。
 
-[microsoft/NeuralSpeech](https://github.com/microsoft/NeuralSpeech) 微软亚洲研究院的一个研究项目，专注于基于神经网络的语音处理，包括自动语音识别（ASR）、文本到语音（TTS）、空间音频等。
+[microsoft/NeuralSpeech](https://github.com/microsoft/NeuralSpeech) 微软亚洲研究院的研究项目，专注于基于神经网络的语音处理，包括自动语音识别（ASR）、文本到语音（TTS）、空间音频等。
 
 [chrisdonahue/ddc](https://github.com/chrisdonahue/ddc) 自动编舞系统，将原始音频转换为可播放的舞蹈。
+
+[google/lyra](https://github.com/google/lyra) 高质量、低比特率的语音编解码器，在最慢网络上也能进行语音通信。 为此，它应用了传统的编解码器技术，同时利用机器学习 (ML) 的进步和经过数千小时数据训练的模型来创建一种压缩和传输语音信号的新方法。
 
 # 生物医药
 
@@ -2757,9 +2769,11 @@ https://github.com/iPERDance/iPERCore 处理人体图像合成任务。其中包
 
 [anandpawara/Real_Time_Image_Animation](https://github.com/anandpawara/Real_Time_Image_Animation) 实时图像动画,使原图的人像与新图上的人脸动作一致。
 
+[GuyTevet/motion-diffusion-model](https://github.com/guytevet/motion-diffusion-model) 《人体运动扩散模型》的PyTorch官方实现
+
 [FACEGOOD-Audio2Face](https://github.com/FACEGOOD/FACEGOOD-Audio2Face) 将音频转换为混合形状权重，并在 UE 中驱动数字人小美。
 
-https://github.com/facebookresearch/pifuhd 使用AI从2D图像生成人的3D高分辨率重建
+[facebookresearch/pifuhd](https://github.com/facebookresearch/pifuhd) 使用AI从2D图像生成人的3D高分辨率重建
 
 https://github.com/open-mmlab/mmskeleton 用于人体姿势估计，基于骨骼的动作识别和动作合成。
 
@@ -2803,7 +2817,7 @@ https://github.com/SangbumChoi/MobileHumanPose MobileHumanPose 的官方 PyTorch
 
 [google/mediapipe](https://github.com/google/mediapipe) 适用于直播和流媒体的跨平台、可定制的 ML 解决方案。包括：人脸检测、面网、虹膜手、姿势、整体姿势、人脸检测、头发分割、物体检测、箱子追踪、即时运动追踪、日常物体的实时 3D 物体检测、关键点神经不变特征变换。
 
-[minivision-ai/photo2cartoon](https://github.com/minivision-ai/photo2cartoon) 人像卡通化探索项目 (photo-to-cartoon translation project)   
+[minivision-ai/photo2cartoon](https://github.com/minivision-ai/photo2cartoon) 人像卡通化探索项目
 
 [MobileStyleGAN.pytorch](https://github.com/bes-dev/MobileStyleGAN.pytorch) 用于高保真图像合成的轻量级卷积神经网络
 
@@ -2887,7 +2901,7 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 ## 对象检测、分割
 
-[open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab 基于 PyTorch 的开源对象检测工具箱
+[open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab 基于PyTorch的开源对象检测工具箱
 
 [microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) 基于Masked Image Modeling的预训练方法，适用于 Swin 和 SwinV2（也适用于 ViT 和 ResNet）。它可以作为计算机视觉的通用主干。它基本上是一个分层变换器，其表示是用移位窗口计算的。移位窗口方案通过将 self-attention 计算限制在不重叠的本地窗口上，同时还允许跨窗口连接，从而带来更高的效率。将 CLIP 预训练的 ViT-L 提高了 +1.6%，以达到ImageNet-1K 图像分类，这是最准确的 ViT-L 模型。在 COCO 对象检测（58.7 box AP和51.1 mask APtest-dev）和 ADE20K 语义分割（53.5 mIoU在 val）上实现了强大的性能，大大超过了以前的模型。
 
@@ -2908,6 +2922,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 [PaddlePaddle/PaddleClas](https://github.com/PaddlePaddle/PaddleClas) 飞桨图像识别套件 PaddleClas 是飞桨为工业界和学院所准备的一个图像任务的工具集，桌面和用户训练出更好的图像分类和应用落地。PaddleClas 前沿分类、识别相关支持算法，发布行业级特色骨算法PP-HGNet、PP-LCNetv2、PP-LCNet和SSLD 半监督干式网络知识模型等模型，在此基础上打造PULC 超轻量级分类分类方案和PP-ShiTu图像识别系统。
 
 [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) 在 Pytorch 中实现 Vision Transformer，一种仅使用单个 Transformer 编码器即可在视觉分类中实现 SOTA 的简单方法
+
+[alibaba/EasyCV](https://github.com/alibaba/EasyCV) 基于Pytorch的计算机视觉工具箱，聚焦自监督学习和视觉transformer关键技术，覆盖主流的视觉建模任务例如图像分类，度量学习，目标检测，关键点检测等。
 
 [zongdai/AutoShape](https://github.com/zongdai/AutoShape) ICCV2021 论文：AutoShape：实时形状感知单目 3D 对象检测
 
@@ -2946,6 +2962,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 ## 图像风格
 
 [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
+
+[williamyang1991/VToonify](https://github.com/williamyang1991/vtoonify) SIGGRAPH Asia 2022 可控高分辨率人像视频风格迁移
 
 [mchong6/JoJoGAN](https://github.com/mchong6/JoJoGAN) JoJoGAN 的官方 PyTorch 存储库：One Shot Face Stylization 人脸风格化
 
@@ -3207,6 +3225,8 @@ https://github.com/ashkamath/mdetr 用于端到端多模态理解的调制检测
 
 [kuprel/min-dalle](https://github.com/kuprel/min-dalle) DALL·E Mini 到 PyTorch 的快速、最小的接口。DALL-E是一个可以通过文本描述中生成图像的AI程序。 通过120亿参数版本的GPT-3 Transformer模型来理解自然语言输入并生成相应的图片。它可以生成现实、现实中不存在的对象。
 
+[rinongal/textual_inversion](https://github.com/rinongal/textual_inversion) 使用个性化文本反转到图像生成 。仅使用用户提供的概念（如对象或样式）的 3-5 张图像，通过学习冻结文本到图像模型的嵌入空间中的新“词”来表示它。 这些“词”可以组合成自然语言的句子，以直观的方式指导个性化创作。
+
 [remotion-dev/remotion](https://github.com/remotion-dev/remotion) 使用 React 以编程方式创建视频的框架。
 
 [zhegan27/VILLA](https://github.com/zhegan27/VILLA) VILLA：视觉和语言对抗训练 (NeurIPS 2020 Spotlight) 的官方存储库。 目前支持 UNITER 在 VQA、VCR、NLVR2 和 SNLI-VE 上的对抗微调。 使用域内数据的对抗性预训练将很快可用。 VILLA-base 和 VILLA-large 预训练检查点均已发布。
@@ -3291,6 +3311,8 @@ https://github.com/jm199504/Financial-Knowledge-Graphs 小型金融知识图谱�
 
 [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) 一个更新和有组织的阅读列表，用于说明可扩展、可靠和高性能的大型系统的模式。概念在著名工程师的文章和可靠的参考文献中进行了解释。案例研究取自为数百万至数十亿用户提供服务的经过实战考验的系统。
 
+[heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes) 大数据入门指南
+
 https://github.com/Qihoo360/Quicksql 体系结构图可帮助您更轻松地访问 Quicksql
 
 https://github.com/seata/seata 简单可扩展的自主事务体系结构
@@ -3303,7 +3325,7 @@ https://github.com/apache/airflow 一个以编程方式编写，安排和监视�
 
 https://github.com/apache/shardingsphere Distributed database middleware 分布式数据库中间件
 
-https://github.com/opencurve/curve 网易自主设计研发的高性能、高可用、高可靠分布式存储系统，具有良好扩展性。
+[opencurve/curve](https://github.com/opencurve/curve) 网易自主设计研发的高性能、高可用、高可靠分布式存储系统，具有良好扩展性。
 
 https://github.com/ClickHouse/ClickHouse 一个开源列式数据库系统，允许实时生成数据分析报告。
 
@@ -3361,21 +3383,23 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect)  工作流引擎。设计初衷是为了处理现代数据堆栈所需的动态、可扩展的工作负载。它由全新的异步规则引擎 Prefect Orion 提供支持。
 
+[facebookincubator/velox](https://github.com/facebookincubator/velox) 旨在优化查询引擎和数据处理系统的 C++ 矢量化数据库加速库。
+
 # 硬件
 
 ## CPU RISC-V
 
-* https://github.com/OpenXiangShan/XiangShan 开源高性能 RISC-V 处理器
+* [OpenXiangShan/XiangShan](https://github.com/OpenXiangShan/XiangShan) 开源高性能 RISC-V 处理器
 
-* https://github.com/SI-RISCV/e200_opensource 蜂鸟 E203 开源处理器核心
+* [SI-RISCV/e200_opensource](https://github.com/SI-RISCV/e200_opensource) 蜂鸟 E203 开源处理器核心
 
-* https://github.com/Lichee-Pi/Tang_E203_Mini LicheeTang 蜂鸟E203 Core
+* [Lichee-Pi/Tang_E203_Mini](https://github.com/Lichee-Pi/Tang_E203_Mini) LicheeTang 蜂鸟E203 Core
 
-* [riscv-mcu/e203_hbirdv2: The Ultra-Low Power RISC-V Core](https://github.com/riscv-mcu/e203_hbirdv2) 开源 Hummingbirdv2 E203 RISC-V 处理器内核和 SoC 项目，它由中国大陆领先的 RISC-V IP 和解决方案公司Nuclei System Technology开发和开源。
+* [riscv-mcu/e203_hbirdv2](https://github.com/riscv-mcu/e203_hbirdv2) 开源 Hummingbirdv2 E203 RISC-V 处理器内核和 SoC 项目，它由中国大陆领先的 RISC-V IP 和解决方案公司Nuclei System Technology开发和开源。
 
-* https://github.com/mit-pdos/xv6-riscv xv6 是丹尼斯 · 里奇和肯 · 汤普森的Unix 版本 6 （v6）的重新实现。 xv6 松散地遵循 v6 的结构和风格，但使用 ANSI C 为现代 RISC-V 多处理器实施。
+* [mit-pdos/xv6-riscv](https://github.com/mit-pdos/xv6-riscv) xv6 是丹尼斯 · 里奇和肯 · 汤普森的Unix 版本 6 （v6）的重新实现。 xv6 松散地遵循 v6 的结构和风格，但使用 ANSI C 为现代 RISC-V 多处理器实施。
 
-* https://github.com/plctlab/writing-your-first-riscv-simulator 《从零开始的RISC-V模拟器开发》配套的PPT和教学资料
+* [plctlab/writing-your-first-riscv-simulator](https://github.com/plctlab/writing-your-first-riscv-simulator)《从零开始的RISC-V模拟器开发》配套的PPT和教学资料
 
 * https://github.com/cccriscv/mini-riscv-os 从零开始为 RISC-V 构建最小的多任务操作系统内核
 
@@ -3521,7 +3545,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [logto-io/logto](https://github.com/logto-io/logto)  帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
 
-* [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别的查询效率，提供了众多主流编程语言的 xdb 数据生成和查询客户端实现。
+* [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别查询效率，提供众多主流编程语言的 xdb 数据生成和查询客户端实现。
 
 * [soimort/you-get](https://github.com/soimort/you-get) youtube下载
 
@@ -3537,7 +3561,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
 
-* [yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，包含教程和源代码
+* [yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，教程和源代码
 
 * [facert/awesome-spider](https://github.com/facert/awesome-spider) 收集各种爬虫 
 
@@ -3573,9 +3597,13 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [zonemeen/musicn](https://github.com/zonemeen/musicn) 下载高品质音乐的命令行工具
 
+* [foamzou/melody](https://github.com/foamzou/melody)  帮助你更好地管理音乐。帮助你将喜欢的歌曲或者音频上传到音乐平台的云盘。支持在各大音乐和视频网站检索歌曲。支持一键下载到本地，一键上传到云盘。一键“解锁”无法播放的歌曲。
+
 * [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) Web GUI，支持 V2Ray、Xray、SS、SSR、Trojan 和 Pingtunnel
 
-* [DataV-Team/DataV](https://github.com/DataV-Team/DataV) Vue数据可视化组件库（类似阿里DataV，大屏数据展示），提供SVG的边框及装饰、图表、水位图、飞线图等组件，React版已发布
+* [DataV-Team/DataV](https://github.com/DataV-Team/DataV) Vue数据可视化组件库（类似阿里DataV，大屏数据展示），提供SVG边框及装饰、图表、水位图、飞线图等组件，React版已发布
+
+* [curl/curl](https://github.com/curl/curl) 用URL语法传输数据的命令行工具和库，支持DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP、SFTP、SMB、SMBS、SMTP、SMTPS、TELNET、TFTP、WS 和 WSS。提供了无数强大的功能
 
 ## 区块链
 
@@ -3597,10 +3625,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [The-Hitchhiker-s-Guide-to-the-Blockchain-Sec](https://github.com/BlockchainSecBook/The-Hitchhiker-s-Guide-to-the-Blockchain-Sec) 《区块链安全入门与实战》
 
-* [slowmist/Blockchain-dark-forest-selfguard-handbook](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/) 区块链黑暗森林自救手册
-  掌握这些，掌握你的加密货币安全。
+* [slowmist/Blockchain-dark-forest-selfguard-handbook](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/) 区块链黑暗森林自救手册掌握这些，掌握你的加密货币安全。
 
-* [Rivaill/CryptoVulhub](https://github.com/Rivaill/CryptoVulhub)分析和重现区块链世界中的攻击事件或漏洞。
+* [Rivaill/CryptoVulhub](https://github.com/Rivaill/CryptoVulhub) 分析和重现区块链世界中的攻击事件或漏洞。
 
 # 安全与渗透
 
@@ -3668,6 +3695,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [Cool-Coding/remote-desktop-control](https://github.com/Cool-Coding/remote-desktop-control) 远程桌面控制(Spring+Netty+Swing)
 
 * [ffuf/ffuf](https://github.com/ffuf/ffuf) Go写的快速网络模糊器 内容发现\虚拟主机发现\参数模糊\POST 模糊测试
+
+* [nelhage/reptyr](https://github.com/nelhage/reptyr) 实用程序，用于获取现有正在运行的程序并将其附加到新终端。 通过 ssh 启动了一个长时间运行的进程，但不得不离开并且不想中断它？ 只需启动一个屏幕，使用 reptyr 抓取它，然后终止 ssh 会话并回家。
 
 * [michenriksen/aquatone](https://github.com/michenriksen/aquatone) 跨大量主机对网站进行可视化检查的工具，便于快速了解基于 HTTP 的攻击面。
 
@@ -4169,7 +4198,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [Yyyyshen/HackTechLearning](https://github.com/Yyyyshen/HackTechLearning) 学习《Windows黑客编程技术详解》 每个例子都有
 
-* [KathanP19/HowToHunt](https://github.com/KathanP19/HowToHunt) 收集各种 Web 漏洞的方法和测试用例。[->gitbook](https://kathan19.gitbook.io/howtohunt/)
+* [KathanP19/HowToHunt](https://github.com/KathanP19/HowToHunt) 收集各种 Web 漏洞的方法和测试用例。[->gitbook](https://kathan19.gitbook.io/howtohunt/) 
+
+* [LoRexxar/Kunlun-M](https://github.com/LoRexxar/Kunlun-M) 完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。
 
 # 其他
 
@@ -4179,15 +4210,19 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [ossu/computer-science](https://github.com/ossu/computer-science) 计算机科学免费自学教育之路！
 
+* [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
+
 * [luong-komorebi/Awesome-Linux-Software ](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md) 收集了对任何用户/开发者都觉得超赞的 Linux 应用软件。
+
+* [electron/electron](https://github.com/electron/electron)使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
 
 * [mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks Markdown文档、Julia、Python或R脚本
 
-* [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) 这份清单试图揭示那些令人敬畏的 CS 课程，这些课程提供高质量的材料，即免费在线提供作业、讲座、笔记、阅读材料和考试。
+* [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) 令人敬畏的 CS 课程，这些课程提供高质量的材料，即免费在线提供作业、讲座、笔记、阅读材料和考试。
 
 * [vinta/awesome-python](https://github.com/vinta/awesome-python) 很棒的 Python 框架、库、软件和资源的精选列表
 
-* [akullpp/awesome-java:](https://github.com/akullpp/awesome-java) Java 编程语言的优秀框架、库和软件的精选列表。
+* [akullpp/awesome-java](https://github.com/akullpp/awesome-java) Java 编程语言的优秀框架、库和软件的精选列表。
 
 * [sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript) 很棒的浏览器端 JavaScript 库、资源。
 
@@ -4213,11 +4248,17 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [jerry-git/learn-python3](https://github.com/jerry-git/learn-python3) 用于教学/学习 Python 3 的 Jupyter 笔记本
 
+* [fastai/nbdev](https://github.com/fastai/nbdev) 编写、测试、记录和分发软件包和技术文章 — 所有这些都在一个地方，您的笔记本上。
+
 * [30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code) 满足您所有开发需求的简短 JavaScript 代码片段
 
 * [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) 很棒的初学者友好项目列表。
 
+* [ixinzhi/loving-books](https://github.com/ixinzhi/loving-books) 恋爱指南
+
 * [sindresorhus/awesome](https://github.com/sindresorhus/awesome) 关于各种有趣主题的精彩列表
+
+* [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) 互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。
 
 * [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) 用 Java 实现的设计模式
 
@@ -4267,6 +4308,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * https://github.com/nisrulz/flutter-examples 给初露头角的flutter开发者的简单基本的应用程序示例。
 
+* [alyssaxuu/flowy](https://github.com/alyssaxuu/flowy) 创建具有流程图功能的 WebApps 成为一项极其简单的任务。 通过将库实施到您的项目中，在几分钟内构建自动化软件、思维导图工具或简单的编程平台。
+
 * https://github.com/microsoft/playwright-python 针对 Python 语言的纯自动化工具，它可以通过单个API自动执行 Chromium，Firefox 和 WebKit 浏览器，连代码都不用写，就能实现自动化功能。
 
 * https://github.com/hoffstadt/DearPyGui 一个针对Python的快速而强大的图形用户界面工具包，具有最小的依赖性
@@ -4286,6 +4329,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [opensumi/core](https://github.com/opensumi/core) 帮助您快速构建云或桌面 IDE 产品。
 
 * [xiangyuecn/Recorder](https://github.com/xiangyuecn/Recorder) html5 js 录音 mp3 wav ogg webm amr 格式，支持pc和Android、iOS部分浏览器、Hybrid App（提供Android iOS App源码）、微信
+
+* [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) 代码算法的可视化交互式在线平台。
 
 * [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) 一款高度奇幻题材的开源回合制策略游戏。
 
@@ -4413,7 +4458,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [facebook/lexical](https://github.com/facebook/lexical) 可扩展的 JS Web 文本编辑器框架，强调可靠、可访问性和性能。
 
-* [penpot/penpot](https://github.com/penpot/penpot) 开源设计和原型平台 
+* [penpot/penpot](https://github.com/penpot/penpot) 开源设计和原型平台
+
+* [jynew/jynew](https://github.com/jynew/jynew) 开源武侠RPG游戏开发框架 使用Unity引擎重制并致敬经典游戏《金庸群侠传》DOS版
 
 # Star数变化
 
