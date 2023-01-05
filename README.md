@@ -1,22 +1,22 @@
 <p align="center">
 <img src="https://avatars.githubusercontent.com/u/1947722" width="300" height="300">
 </p>
-<h1 align="center">mystars</h1>
+<h1 align="center">StarrySky</h1>
 <p align="center">
-    <a href="https://github.com/wuwenjie1992/mystars/issues" style="text-decoration:none">
-        <img src="https://img.shields.io/github/issues/wuwenjie1992/mystars.svg" alt="GitHub issues"/>
+    <a href="https://github.com/wuwenjie1992/StarrySky/issues" style="text-decoration:none">
+        <img src="https://img.shields.io/github/issues/wuwenjie1992/StarrySky.svg" alt="GitHub issues"/>
     </a>
-    <a href="https://github.com/wuwenjie1992/mystars/stargazers" style="text-decoration:none" >
-        <img src="https://img.shields.io/github/stars/wuwenjie1992/mystars.svg" alt="GitHub stars"/>
+    <a href="https://github.com/wuwenjie1992/StarrySky/stargazers" style="text-decoration:none" >
+        <img src="https://img.shields.io/github/stars/wuwenjie1992/StarrySky.svg" alt="GitHub stars"/>
     </a>
-    <a href="https://github.com/wuwenjie1992/mystars/network/members" style="text-decoration:none" >
-        <img src="https://img.shields.io/github/forks/wuwenjie1992/mystars.svg" alt="GitHub forks"/>
+    <a href="https://github.com/wuwenjie1992/StarrySky/network/members" style="text-decoration:none" >
+        <img src="https://img.shields.io/github/forks/wuwenjie1992/StarrySky.svg" alt="GitHub forks"/>
     </a>
-    <a href="https://github.com/wuwenjie1992/mystars/blob/master/LICENSE" style="text-decoration:none" >
+    <a href="https://github.com/wuwenjie1992/StarrySky/blob/master/LICENSE" style="text-decoration:none" >
         <img src="https://img.shields.io/badge/License-MIT-blue" alt="GitHub license"/>
     </a>
-    <a href="https://github.com/wuwenjie1992/mystars" style="text-decoration:none" >
-        <img src="https://visitor-badge.glitch.me/badge?page_id=wuwenjie1992.mystars" alt="GitHub Visitors"/>
+    <a href="https://github.com/wuwenjie1992/StarrySky" style="text-decoration:none" >
+        <img src="https://visitor-badge.glitch.me/badge?page_id=wuwenjie1992.StarrySky" alt="GitHub Visitors"/>
     </a>
 </p>
 <h3 align="center">精选了千余项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
@@ -4464,4 +4464,4 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 # Star数变化
 
-[![关注者](https://starchart.cc/wuwenjie1992/mystars.svg)](https://starchart.cc/wuwenjie1992/mystars)
+[![关注者](https://starchart.cc/wuwenjie1992/StarrySky.svg)](https://starchart.cc/wuwenjie1992/StarrySky)
