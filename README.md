@@ -1014,9 +1014,11 @@
 
 * [ymcui/Chinese-ELECTRA](https://github.com/ymcui/Chinese-ELECTRA) 中文ELECTRA预训练模型 其中ELECTRA-small模型可与BERT-base甚至其他同等规模的模型相媲美，而参数量仅为BERT-base的1/10
 
+* [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) 开放的双语（英汉）双向密集模型，1300亿参数，使用通用语言模型（GLM）进行预训练。 支持单台A100（40G * 8）或V100（32G * 8）服务器上具有130B参数的推理任务。 通过 INT4 量化，降低到 4 * RTX 3090（24G），而性能几乎没有下降。 截至 2022 -7-3 ，已接受了超过 4000 亿个文本标记（中文和英文各 200B）的训练。
+
 * [alibaba/EasyTransfer](https://github.com/alibaba/EasyTransfer) 自然语言处理的迁移学习工具。主要特性：预训练语言模型工具，丰富且高质量的预训练模型库 BERT, ALBERT, RoBERTa, T5, etc,丰富且易用的NLP应用 如文本匹配、分本分类、机器阅读理解MRC，自动化的知识蒸馏，易用且高效的分布式训练。
 
-* [microsoft/unilm//layoutlm](https://github.com/microsoft/unilm/tree/master/layoutlm) 多模态预训练模型 LayoutLM 2.0，不仅考虑了文本和页面布局信息，还将图像信息融合到了多模态框架内。下游任务微调：表单理解 票据理解 复杂布局长文档理解 文档图像分类 视觉问答 
+* [microsoft/unilm/layoutlm](https://github.com/microsoft/unilm/tree/master/layoutlm) 多模态预训练模型 LayoutLM 2.0，不仅考虑了文本和页面布局信息，还将图像信息融合到了多模态框架内。下游任务微调：表单理解 票据理解 复杂布局长文档理解 文档图像分类 视觉问答 
 
 * [google-research/byt5](https://github.com/google-research/byt5) ByT5：通过预先训练的字节到字节模型迈向无令牌的未来.ByT5 是 mT5 模型的无标记器扩展。 我们的 ByT5 模型不像大多数其他预训练语言模型（BERT、XLM-R、T5、GPT-3）那样使用子词词汇表，而是直接在 UTF-8 字节上运行，无需任何文本预处理。 除了降低系统复杂性之外，我们发现参数匹配的 ByT5 模型在一系列任务中与 mT5 具有竞争力，并且在涉及嘈杂文本或对拼写和发音敏感的任务上优于 mT5。 此 repo 可用于重现 ByT5 论文中的实验。
 
@@ -1306,11 +1308,13 @@
 
 * [autoliuweijie/K-BERT](https://github.com/autoliuweijie/K-BERT) Enabling Language Representation with Knowledge Graph ，已被AAAI2020所录取，是较早的考虑将知识图谱中的边关系引入预训练模型的论文。主要通过修改Transformer中的attention机制，通过特殊的mask方法将知识图谱中的相关边考虑到编码过程中，进而增强预训练模型的效果。
 
+* [npubird/KnowledgeGraphCourse](https://github.com/npubird/KnowledgeGraphCourse) 东南大学《知识图谱》研究生课程
+
 * [AutoML-Research/AutoSF](https://github.com/AutoML-Research/AutoSF) 用于知识图谱学习的双线性评分函数（SFs）搜索。知识图(KG)是一种以实体为节点、以关系为边的特殊图结构，对数据挖掘和机器学习都很重要，并启发了各种下游应用，如结构化搜索、问答、推荐。在KGs中，每条边都被表示为一个具有形式(头实体、关系、尾实体)的三元组，表示为(h, r, t)，一个基本问题是如何量化三元组(h, r, t)s的合理性。KG嵌入(KGE)是近年来出现并发展起来的一种很有前途的方法。基本上，给定一组观察到的三元组，KGE试图学习实体和关系的低维向量表示，以便三元组的可信性能够被量化。得分函数(SF)根据嵌入值返回(h, r, t)的分数，用于度量可信性。SF一般是人为设计和选择的，对嵌入的质量有显著影响。
 
-* https://github.com/THU-KEG/KEPLER 主要通过添加类似于TransE的预训练机制来增强对应文本的表示，进而增强预训练模型在一些知识图谱有关任务的效果。
+* [THU-KEG/KEPLER](https://github.com/THU-KEG/KEPLER) 主要通过添加类似于TransE的预训练机制来增强对应文本的表示，进而增强预训练模型在一些知识图谱有关任务的效果。
 
-* https://github.com/txsun1997/CoLAKE 使用知识图谱以增强预训练模型的效果 首先将上下文看作全连接图，并根据句子中的实体在KG上抽取子图，通过两个图中共现的实体将全连接图和KG子图融合起来；最终本文将文本上下文和知识上下文一起用MLM进行预训练，将mask的范围推广到word、entity和relation；为训练该模型，本文采用cpu-gpu混合训练策略结合负采样机制减少训练时间；最终本文提出的方法在知识图谱补全和若干NLP任务上均带来了增益。然后本文将该图转化为序列，使用Transformer进行预训练，并在训练时采用特殊的type embedding来表示实体、词语与其他子图信息
+* [txsun1997/CoLAKE](https://github.com/txsun1997/CoLAKE) 使用知识图谱以增强预训练模型的效果 首先将上下文看作全连接图，并根据句子中的实体在KG上抽取子图，通过两个图中共现的实体将全连接图和KG子图融合起来；最终本文将文本上下文和知识上下文一起用MLM进行预训练，将mask的范围推广到word、entity和relation；为训练该模型，本文采用cpu-gpu混合训练策略结合负采样机制减少训练时间；最终本文提出的方法在知识图谱补全和若干NLP任务上均带来了增益。然后本文将该图转化为序列，使用Transformer进行预训练，并在训练时采用特殊的type embedding来表示实体、词语与其他子图信息
 
 * https://github.com/JanKalo/KnowlyBERT 提出了一种混合的语言知识模型查询系统，该系统使用语言模型来应对现实世界中知识图谱的不完整性问题。作为KnowlyBERT的输入，用户可以向系统提出以实体为中心的SPARQL查询。首先，查询语言模型（a）；然后，对不完整的知识图谱进行查询，并获得结果（b）；另外SPARQL查询被翻译成多种自然语言语句，这些语言语句在“关系模板生成”步骤中由语言模型完成；语言模型返回多个单词列表以及每个单词（c）的置信度值；然后将这些列表合并为一个列表（d），并根据知识图谱类型信息（e）使用我们的语义过滤步骤进行过滤。此外，执行阈值处理，削减不相关的结果（f）；将语言模型和知识图谱的结果合并（g）并返回给用户。
 
@@ -1318,7 +1322,7 @@
 
 * https://github.com/bernhard2202/intkb 一种交互式知识图谱补全框架
 
-* https://github.com/husthuke/awesome-knowledge-graph 整理知识图谱相关学习资料
+* [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph) 整理知识图谱相关学习资料
 
 * https://github.com/wangbo9719/StAR_KGC Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion 结构增强文本表示学习，实现高效知识图完成.知识图谱补全 
 
@@ -1370,6 +1374,8 @@
 
 * [liuhuanyong/ChineseSemanticKB](https://github.com/liuhuanyong/ChineseSemanticKB) 面向中文处理的12类、百万规模的语义常用词典，包括34万抽象语义库、34万反义语义库、43万同义语义库等，可支持句子扩展、转写、事件抽象与泛化等多种应用场景。
 
+* [lemonhu/stock-knowledge-graph](https://github.com/lemonhu/stock-knowledge-graph) 利用网络公开数据构建一个小型证券知识图谱
+
 ## NLP语料和数据集
 
 * [thu-coai/CrossWOZ](https://github.com/thu-coai/CrossWOZ) 中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
@@ -1380,7 +1386,7 @@
 
 * https://github.com/RUCAIBox/TG-ReDial 一个电影领域的对话推荐数据集TG-ReDial (Recommendation through Topic-Guided Dialog)。它包含1万个完整的对话和近13万条语句，加入了话题线索以实现将用户引导至推荐场景这一语义的自然转移，并且采用半自动的方式构建，保留了用户真实的个性化信息（如交互历史，偏好主题），使得人工标注过程更加合理可控。
 
-* [fighting41love/funNLP](https://github.com/fighting41love/funNLP) NLP民工的乐园: 中英文敏感词、语言检测、中外手机/电话归属/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取工具、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱
+* [fighting41love/funNLP](https://github.com/fighting41love/funNLP) NLP民工的乐园: 中英文敏感词、语言检测、中外手机/电话归属/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件、连续英文切割、各种中文词向量、公司大全、古诗、IT、财经、成语、地名、历史名人、诗词、医学、饮食、法律、汽车、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱
 
 * https://github.com/brightmart/nlp_chinese_corpus 大规模中文自然语言处理语料 维基百科json版(wiki2019zh) 新闻语料json版(news2016zh) 百科类问答json版(baike2018qa) 社区问答json版(webtext2019zh) ：大规模高质量数据集 翻译语料(translation2019zh)
 
@@ -1534,6 +1540,8 @@
 
 * [v-mipeng/LexiconAugmentedNER](https://github.com/v-mipeng/LexiconAugmentedNER) 拒绝为中文 NER 合并词典的复杂操作。在中文 NER 中加入词典可以非常简单，同时也很有效。
 
+* [lonePatient/BERT-NER-Pytorch](https://github.com/lonePatient/BERT-NER-Pytorch) Chinese NER(Named Entity Recognition) using BERT(Softmax, CRF, Span)
+
 ## 其他_NLP自然语言处理
 
 [nltk/nltk](https://github.com/nltk/nltk) 支持自然语言处理研究和开发的开源 Python 模块、数据集和教程。
@@ -1684,6 +1692,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [xueyouluo/ccks2021-track2-code](https://github.com/xueyouluo/ccks2021-track2-code) “英特尔创新大师杯”深度学习挑战赛 赛道2：CCKS2021中文NLP地址要素解析 。基于BERT的Biaffine结构，直接预测文本构成的所有span的类别。相比单纯基于span预测和基于MRC的预测，Biaffine的结构可以同时考虑所有span之间的关系，从而提高预测的准确率。
 
 [kpu/kenlm](https://github.com/kpu/kenlm) 高效统计语言模型kenlm：新词发现、分词、智能纠错
+
+[ryanzhumich/Contrastive-Learning-NLP-Papers](https://github.com/ryanzhumich/Contrastive-Learning-NLP-Papers) NLP 对比学习是一种学习嵌入空间的技术，使得相似的数据样本对具有接近的表示，而不同的样本彼此相距很远。 它可以在有监督或无监督的设置中使用，使用不同的损失函数来生成特定于任务或通用的表示。 在各种 NLP 任务中提供了有希望的性能改进，而且还提供了所需的特性，例如与任务无关的句子表示、忠实的文本生成、零样本和少样本设置中的数据高效学习、可解释性和可解释性 .
 
 # 推荐系统
 
@@ -2883,6 +2893,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [adeline-cs/GTR](https://github.com/adeline-cs/GTR) 场景文字识别 现有的场景文本识别（STR）方法通常使用语言模型来优化视觉识别（VR）模型预测的一维字符序列的联合概率，忽略字符实例内部和之间的视觉语义的二维空间上下文，使它们不能很好地推广到任意形状的场景文本。为了解决这个问题，本文中首次尝试基于视觉语义进行文本推理。给定 VR 模型预测的字符分割图，为每个实例构建子图，节点表示其中的像素，根据它们的空间相似性在节点之间添加边。然后，子图通过根节点顺序连接成一个完整的图。
 
+[Layout-Parser/layout-parser](https://github.com/Layout-Parser/layout-parser) 基于深度学习的文档图像分析的统一工具包，旨在简化文档图像分析 (DIA) 任务。
+
 ## 视频补帧
 
 [hzwer/arXiv2020-RIFE](https://github.com/hzwer/arXiv2020-RIFE) 视频帧插值的实时中级流量估计.旷视和北大提出的一种实时中间流估计算法。用于视频帧插值，能够改善伪影、让视频更丝滑。
@@ -2988,6 +3000,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini)  DALL·E Mini - 从文本提示生成图像
 
 [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
+
+[OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 排行榜第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
 
@@ -3255,9 +3269,9 @@ https://github.com/silenceshell/docker_mirror 发现国内加速的docker源。
 
 [FenTechSolutions/CausalDiscoveryToolbox](https://github.com/FenTechSolutions/CausalDiscoveryToolbox) 图形和成对设置中的因果推断包。 包括用于图结构恢复和依赖关系的工具。
 
-https://github.com/uber/causalml 使用机器学习算法进行提升建模和因果推理
+[uber/causalml](https://github.com/uber/causalml) 使用机器学习算法进行提升建模和因果推理
 
-https://github.com/erdogant/bnlearn 用于学习贝叶斯网络的图形结构、参数学习、推理和采样方法的 Python 包。
+[erdogant/bnlearn](https://github.com/erdogant/bnlearn) 用于贝叶斯网络的图形结构、参数学习、推理和采样方法的 Py包。
 
 [rguo12/awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms) 用数据学习因果关系的算法索引
 
@@ -3270,6 +3284,10 @@ https://github.com/erdogant/bnlearn 用于学习贝叶斯网络的图形结构�
 [wanyu-lin/ICML2021-Gem](https://github.com/wanyu-lin/ICML2021-Gem) 针对图神经网络的通用因果解释方法
 
 [econometric/CausalitySlides](https://gitee.com/econometric/CausalitySlides) 西雅图大学因果推理课程的幻灯片
+
+[pgmpy/pgmpy](https://github.com/pgmpy/pgmpy) 用于学习（结构和参数）、推理（概率和因果）以及贝叶斯网络模拟的 Py库。
+
+[quantumblacklabs/causalnex](https://github.com/quantumblacklabs/causalnex) 可帮助数据科学家推断因果关系而不是观察相关性的Py 库。
 
 # 图数据库图算法
 
@@ -3673,6 +3691,10 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [michaelweber/Macrome](https://github.com/michaelweber/Macrome) 用于红队和分析师的 Excel 宏文档阅读器/编写器。 
 
 * [DonatoReis/arno](https://github.com/DonatoReis/arno) 一个自动化工具，用于安装最流行的漏洞赏金或渗透测试工具！ 这将为您在设置机器工作时节省 90% 的时间。
+
+* [olist213/Information_Security_Books](https://github.com/olist213/Information_Security_Books) 信息安全方面的书籍书籍
+
+* [sting8k/BurpSuite_403Bypasser](https://github.com/sting8k/BurpSuite_403Bypasser) 绕过 403 限制目录的 burpsuite 扩展。 通过使用 PassiveScan，每个 403 请求都会被这个扩展自动扫描。
 
 * [xuanhusec/OscpStudyGroup](https://github.com/xuanhusec/OscpStudyGroup) Oscp公益学习组,包括：小技巧合集、Kali基本操作、常用工具、windows提权汇总、反弹shell方法汇总、靶机推荐列表、缓冲区溢出通关脚本框架、OSCP命令大全、反弹shell方法汇总、linux提权方法汇总、win提权方法汇总、Linux提权辅助、Win提权辅助、渗透测试方法论、靶机练习
 
