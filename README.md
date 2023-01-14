@@ -435,11 +435,11 @@
 
 * [streamlit/streamlit](https://github.com/streamlit/streamlit)  用 Python 构建数据应用程序的最快方法
 
-* [huggingface/optimum](https://github.com/huggingface/optimum) 性能优化工具，可实现在目标硬件上训练和运行模型的最高效率。AI 生态系统发展迅速，越来越多的专用硬件及其自身的优化每天都在涌现。因此，Optimum 使用户能够有效地使用这些平台中的任何一个，并且与变压器固有的相同。
+* [huggingface/optimum](https://github.com/huggingface/optimum) 性能优化工具，AI 生态发展迅速，越来越多的专用硬件及其优化每天都在涌现,可实现在目标硬件上训练和运行模型的最高效率。
 
 * [mosaicml/composer](https://github.com/mosaicml/composer) 将神经网络训练速度提高 7 倍 更低的成本和更高的准确度更快地训练神经网络。我们已经实现了两打以上的加速方法，只需几行代码即可应用于您的训练循环，或与我们的内置 Trainer 一起使用。
 
-* [China-UK-ZSL/Resources_for_KZSL](https://github.com/China-UK-ZSL/Resources_for_KZSL) KZSL：对知识驱动的零样本学习进行基准测试.用于零**样本**图像分类 ( ZS-IMGC)、零**样本**关系提取 ( ZS-RE) 和零**样本**知识图 (KG) 完成 ( ZS-KGC ))
+* [China-UK-ZSL/Resources_for_KZSL](https://github.com/China-UK-ZSL/Resources_for_KZSL) KZSL：对知识驱动的零样本学习进行基准测试.用于零**样本**图像分类 ( ZS-IMGC)、零**样本**关系提取 ( ZS-RE) 和零**样本**知识图 (KG) 完成 ( ZS-KGC )
 
 * [alibaba/Elastic-Federated-Learning-Solution](https://github.com/alibaba/Elastic-Federated-Learning-Solution) 经过百亿规模工业级场景实战验证的跨互联网企业信息合作的联邦学习框架。EFLS有以下核心特性：云原生支持自定义特征工程——大规模高可用；首开水平聚合，层次聚合双模型——更强大更便捷。 
 
@@ -493,11 +493,21 @@
 
 * [dataease/dataease](https://github.com/dataease/dataease) 开源的数据可视化分析工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化。DataEase 支持丰富的数据源连接，能够通过拖拉拽方式快速制作图表，并可以方便的与他人分享。
 
+* [google/tensorstore](https://github.com/google/tensorstore) 用于读取和写入大型多维数组的库。
+
+* [ahkarami/Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production) 有关在生产中部署基于深度学习的模型的有用说明和参考。
+
+* [bentoml/BentoML](https://github.com/bentoml/BentoML) ML模型服务框架.创建部署和扩展机器学习服务变得容易。
+
+* [iterative/dvc](https://github.com/iterative/dvc) Data 版本控制、用于数据和模型的 Git、机器学习实验管理
+
+* [bokeh/bokeh](https://github.com/bokeh/bokeh) 浏览器中的交互式数据可视化，来自 Python
+
 # 图神经网络GNN
 
 ## 图机器学习库
 
-* [dmlc/dgl](https://github.com/dmlc/dgl) Deep Graph Library (DGL) 一个易于使用、高性能和可扩展的 Python 包，用于对图进行深度学习。
+* [dmlc/dgl](https://github.com/dmlc/dgl) Deep Graph Library一个易于使用、高性能和可扩展的 Python 包，用于对图进行深度学习。
 
 * [dmlc/dgl/examples](https://github.com/dmlc/dgl/blob/master/examples/README.md) 官方DGL示例和模块,包含与图神经网络相关的选定研究论文的示例实现。半监督节点分类、聚类、节点分类、标签传播、图注意力等。
 
@@ -2274,6 +2284,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [distributional-rl.org](https://www.distributional-rl.org/)  教科书《Distributional Reinforcement Learning 分布强化学习》草稿。
 
+[deepmind/alphatensor](https://github.com/deepmind/alphatensor) 矩阵乘法是计算机要做的最关键数学计算之一。改进了目前最优的 4×4 矩阵解法（50 年前由施特拉森提出），还进一步提升了其他 70 余种不同大小矩阵的计算速度。
+
 # 语音识别与合成
 
 * [espnet/espnet](https://github.com/espnet/espnet)  End-to-End Speech Processing Toolkit 端到端的语音处理工具箱，主要特性：kaldi风格的处理模式、ASR、TTS、语音翻译、机器翻译、语音转换、DNN框架
@@ -2384,6 +2396,8 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 [chrisdonahue/ddc](https://github.com/chrisdonahue/ddc) 自动编舞系统，将原始音频转换为可播放的舞蹈。
 
 [google/lyra](https://github.com/google/lyra) 高质量、低比特率的语音编解码器，在最慢网络上也能进行语音通信。 为此，它应用了传统的编解码器技术，同时利用机器学习 (ML) 的进步和经过数千小时数据训练的模型来创建一种压缩和传输语音信号的新方法。
+
+[mixxxdj/mixxx](https://github.com/mixxxdj/mixxx) 免费的 DJ 软件，可为您提供执行现场混音所需的一切。
 
 # 生物医药
 
@@ -2931,11 +2945,13 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [meituan/YOLOv6](https://github.com/meituan/YOLOv6) 专用于工业应用的单阶段目标检测框架。
 
+[iscyy/yoloair](https://github.com/iscyy/yoloair) 基于PyTorch的YOLO算法库。统一模型代码框架、统一应用、统一改进、易于模块组合、构建更强大的网络模型。
+
 [PaddlePaddle/PaddleClas](https://github.com/PaddlePaddle/PaddleClas) 飞桨图像识别套件 PaddleClas 是飞桨为工业界和学院所准备的一个图像任务的工具集，桌面和用户训练出更好的图像分类和应用落地。PaddleClas 前沿分类、识别相关支持算法，发布行业级特色骨算法PP-HGNet、PP-LCNetv2、PP-LCNet和SSLD 半监督干式网络知识模型等模型，在此基础上打造PULC 超轻量级分类分类方案和PP-ShiTu图像识别系统。
 
 [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) 在 Pytorch 中实现 Vision Transformer，一种仅使用单个 Transformer 编码器即可在视觉分类中实现 SOTA 的简单方法
 
-[alibaba/EasyCV](https://github.com/alibaba/EasyCV) 基于Pytorch的计算机视觉工具箱，聚焦自监督学习和视觉transformer关键技术，覆盖主流的视觉建模任务例如图像分类，度量学习，目标检测，关键点检测等。
+[alibaba/EasyCV](https://github.com/alibaba/EasyCV) 基于Pytorch的计算机视觉工具，聚焦自监督学习和视觉transformer关键技术，覆盖主流的视觉建模任务例如图像分类，度量学习，目标检测，关键点检测等。
 
 [zongdai/AutoShape](https://github.com/zongdai/AutoShape) ICCV2021 论文：AutoShape：实时形状感知单目 3D 对象检测
 
@@ -2961,7 +2977,7 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [Sense-X/UniFormer](https://github.com/Sense-X/UniFormer) 统一卷积和自注意的视觉识别统一变压器，实现高效的时空表示学习 可用于： 图像分类、 视频分类、 物体检测、 语义分割、 姿势估计
 
-[bytedance/ibot](https://github.com/bytedance/ibot) 一种自我监督预训练框架，通过自蒸馏执行蒙版图像建模。iBOT 显示了局部语义特征，有助于模型在全局范围和局部范围内很好地转移到下游任务。iBOT在 COCO 对象检测和 ADE20K 语义分割上实现了强大的性能。
+[bytedance/ibot](https://github.com/bytedance/ibot) 自我监督预训练框架，通过自蒸馏执行蒙版图像建模。iBOT 显示了局部语义特征，有助于模型在全局范围和局部范围内很好地转移到下游任务。iBOT在 COCO 对象检测和 ADE20K 语义分割上实现了强大的性能。
 
 [hkchengrex/XMem](https://github.com/hkchengrex/XMem) [ECCV 2022]使用 Atkinson-Shiffrin 模型进行长期视频对象分割
 
@@ -3075,7 +3091,7 @@ https://github.com/google-research/remixmatch 改进了最近提出的MixMatch�
 
 [yihongXU/TransCenter](https://github.com/yihongXU/TransCenter)TransCenter：用于多对象跟踪的密集查询转换器
 
-https://github.com/ashkamath/mdetr 用于端到端多模态理解的调制检测。输入描述文本及图片，识别出文字描述的对应物体。
+[ashkamath/mdetr](https://github.com/ashkamath/mdetr) 用于端到端多模态理解的调制检测。输入描述文本及图片，识别出文字描述的对应物体。
 
 [erikalu/omnimatte](https://github.com/erikalu/omnimatte) 提取视频中的前、背景。精确蒙版（matte）操作，分离前景背景。
 
@@ -3105,7 +3121,7 @@ https://github.com/ashkamath/mdetr 用于端到端多模态理解的调制检测
 
 [phecy/SSL-FEW-SHOT](https://github.com/phecy/SSL-FEW-SHOT) 小样本图像分类的自监督学习
 
-[https://github.com/yangle15/RANet-pytorch](https://github.com/yangle15/RANet-pytorch) 提出的分辨率自适应网络 (RANet) 通过利用spatial redundancy输入图像的分辨率来进行自适应推理。我们的动机是低分辨率表示足以对包含具有原型特征的大对象的简单样本进行分类，只有一些困难样本需要空间详细信息。
+[yangle15/RANet-pytorch](https://github.com/yangle15/RANet-pytorch) 提出的分辨率自适应网络 (RANet) 通过利用spatial redundancy输入图像的分辨率来进行自适应推理。我们的动机是低分辨率表示足以对包含具有原型特征的大对象的简单样本进行分类，只有一些困难样本需要空间详细信息。
 
 [microsoft/NUWA](https://github.com/microsoft/NUWA) NÜWA 是一个统一的多模态预训练模型，可以为8个视觉合成任务(文本转图像、模板转图像、图像补全、图像操纵、文本转视频、模板转视频、视频帧预测、视频操纵) 生成新的或操纵现有的视觉数据（即图像和视频）。待开放源码。
 
@@ -3247,6 +3263,8 @@ https://github.com/ashkamath/mdetr 用于端到端多模态理解的调制检测
 
 [piskelapp/piskel](https://github.com/piskelapp/piskel) 易于使用的精灵编辑器。 它可用于创建游戏精灵、动画、像素艺术。
 
+[pencil2d/pencil](https://github.com/pencil2d/pencil) 制作二维手绘动画的简单、直观的工具。 
+
 # 虚拟化
 
 [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -3331,8 +3349,6 @@ https://github.com/jm199504/Financial-Knowledge-Graphs 小型金融知识图谱�
 
 [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes) 大数据入门指南
 
-https://github.com/Qihoo360/Quicksql 体系结构图可帮助您更轻松地访问 Quicksql
-
 https://github.com/seata/seata 简单可扩展的自主事务体系结构
 
 https://github.com/apache/incubator-shardingsphere 分布式数据库中间件生态圈
@@ -3345,17 +3361,19 @@ https://github.com/apache/shardingsphere Distributed database middleware 分布�
 
 [opencurve/curve](https://github.com/opencurve/curve) 网易自主设计研发的高性能、高可用、高可靠分布式存储系统，具有良好扩展性。
 
-https://github.com/ClickHouse/ClickHouse 一个开源列式数据库系统，允许实时生成数据分析报告。
+[ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) 开源极速列式数据库系统，允许实时生成数据分析报告。
 
-https://github.com/canonical/dqlite 可嵌入、复制和故障耐受性 SQL 引擎。
+[canonical/dqlite](https://github.com/canonical/dqlite) 可嵌入、复制和故障耐受性 SQL 引擎。
 
-https://github.com/apache/iceberg 新兴的数据湖框架之一，开创性的抽象出”表格式“（table format）这一中间层，既独立于上层的计算引擎（如Spark和Flink）和查询引擎（如Hive和Presto），也和下层的文件格式（如Parquet，ORC和Avro）相互解耦。同时，Iceberg还提供了许多额外的能力：ACID事务；时间旅行（time travel），以访问之前版本的数据；完备的自定义类型、分区方式和操作的抽象；列和分区方式可以进化，而且进化对用户无感，即无需重新组织或变更数据文件；隐式分区，使SQL不用针对分区方式特殊优化；面向云存储的优化等；
+[apache/iceberg](https://github.com/apache/iceberg) 新兴的数据湖框架之一，开创性的抽象出”表格式“（table format）这一中间层，既独立于上层的计算引擎（如Spark和Flink）和查询引擎（如Hive和Presto），也和下层的文件格式（如Parquet，ORC和Avro）相互解耦。同时，还提供了许多额外的能力：ACID事务；时间旅行（time travel），以访问之前版本的数据；完备的自定义类型、分区方式和操作的抽象；列和分区方式可以进化，而且进化对用户无感，即无需重新组织或变更数据文件；隐式分区，使SQL不用针对分区方式特殊优化；面向云存储的优化
 
-https://github.com/apache/hudi 基于Hadoop兼容的存储，提供了以下流处理原语。Update/Delete Record、Change Streams 将HDFS和Hudi结合起来，提供对流处理的支持能力。如：支持记录级别的更新、删除，以及获取基于HDFS之上的Change Streams。哪些数据发生了变更。
+[apache/hudi](https://github.com/apache/hudi) 基于Hadoop兼容的存储，提供了Update/Delete Record、Change Streams 将HDFS和Hudi结合起来，提供对流处理的支持能力。如：支持记录级别的更新、删除，以及获取基于HDFS之上的Change Streams。
 
-https://github.com/TurboWay/bigdata_analyse  大数据分析项目，包括1 亿条淘宝用户行为分析 、1000 万条淘宝用户行为 、300 万条《野蛮时代》的玩家 、130 万条深圳通刷卡、10 万条厦门招聘、7000 条租房、6000 条倒闭企业、COVID-19 疫情、7 万条天猫订单数据
+[greenplum-db/gpdb](https://github.com/greenplum-db/gpdb) 基于 PostgreSQL 的高级、功能齐全的开源数据仓库。 它提供对 PB 级数据量的强大而快速的分析。 Greenplum Database 专门针对大数据分析，由世界上最先进的基于成本的查询优化器提供支持，可在大数据量上提供高分析查询性能。
 
-https://github.com/avinassh/fast-sqlite3-inserts 1分钟插入10亿行数据,写脚本请使用Rust
+[TurboWay/bigdata_analyse](https://github.com/TurboWay/bigdata_analyse)  大数据分析项目，包括1 亿条淘宝用户行为分析 、1000 万条淘宝用户行为 、300 万条《野蛮时代》的玩家 、130 万条深圳通刷卡、10 万条厦门招聘、7000 条租房、6000 条倒闭企业、COVID-19 疫情、7 万条天猫订单数据
+
+[avinassh/fast-sqlite3-inserts](https://github.com/avinassh/fast-sqlite3-inserts) 1分钟插入10亿行数据,写脚本请使用Rust
 
 https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据的顺序和随机实时读取/写入。 B与MySQL协议兼容，并且支持MySQL样式SQL方言，通过该方言，用户可以将其数据存储从MySQL无缝迁移到BaikalDB。
 
@@ -3382,6 +3400,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 [hhyo/Archery](https://github.com/hhyo/Archery)  [archer](https://github.com/jly8866/archer)的分支项目，定位于SQL审核查询平台，旨在提升DBA的工作效率，支持多数据库的SQL上线和查询，同时支持丰富的MySQL运维功能，所有功能都兼容手机端操作
 
 [MyCATApache/Mycat-Server](https://github.com/MyCATApache/Mycat-Server) Java语言编写的MySQL数据库网络协议的开源中间件, 它支持分布式SQL查询，兼容MySQL通信协议，以Java生态支持多种后端数据库，通过数据分片提高数据查询处理能力。
+
+[Qihoo360/Quicksql](https://github.com/Qihoo360/Quicksql) 体系结构图可帮助您更轻松地访问 Quicksql
 
 [Qihoo360/Atlas](https://github.com/Qihoo360/Atlas) MySQL的高性能稳定代理，由奇虎DBA和基础架构团队开发
 
@@ -3807,6 +3827,10 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [i11us0ry/goon](https://github.com/i11us0ry/goon) 集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
 
 * [Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) 一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库
+
+* [al0ne/LinuxCheck](https://github.com/al0ne/LinuxCheck) Linux应急处置/信息搜集/漏洞检测工具，支持基础配置/网络流量/任务计划/环境变量/用户信息/Services/bash/恶意文件/内核Rootkit/SSH/Webshell/挖矿文件/挖矿进程/供应链/服务器风险等13类70+项检查
+
+* [bdamele/icmpsh](https://github.com/bdamele/icmpsh) 简单的反向 ICMP shell，win32 从站和一个 C、Perl 或 Python 中的 POSIX 兼容主站。它不需要管理权限即可在目标机器上运行。
 
 * [ffffffff0x/f8x](https://github.com/ffffffff0x/f8x) 红蓝队环境自动部署工具,支持多场景,渗透,开发,代理,服务可选项等.
 
@@ -4483,6 +4507,14 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [penpot/penpot](https://github.com/penpot/penpot) 开源设计和原型平台
 
 * [jynew/jynew](https://github.com/jynew/jynew) 开源武侠RPG游戏开发框架 使用Unity引擎重制并致敬经典游戏《金庸群侠传》DOS版
+
+* [jupyterlab/jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git) 使用 Git 进行版本控制的 JupyterLab 扩展
+
+* [damianavila/RISE](https://github.com/damianavila/RISE) 允许您立即将 Jupyter 笔记本变成幻灯片。 
+
+* [jupyter/nbdime](https://github.com/jupyter/nbdime) 用于区分和合并 Jupyter 笔记本的工具。
+
+* [voila-dashboards/voila](https://github.com/voila-dashboards/voila) 将 Jupyter 笔记本变成独立的网络应用程序
 
 # Star数变化
 
