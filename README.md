@@ -3423,6 +3423,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 [facebookincubator/velox](https://github.com/facebookincubator/velox) 旨在优化查询引擎和数据处理系统的 C++ 矢量化数据库加速库。
 
+[alibaba/havenask](https://github.com/alibaba/havenask) 阿里巴巴自研的大规模分布式检索系统。支持千亿级数据实时检索，百万QPS查询，百万TPS写入，毫秒级查询延迟与秒级数据更新。
+
 # 硬件
 
 ## CPU RISC-V
@@ -3643,6 +3645,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [curl/curl](https://github.com/curl/curl) 用URL语法传输数据的命令行工具和库，支持DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP、SFTP、SMB、SMBS、SMTP、SMTPS、TELNET、TFTP、WS 和 WSS。提供了无数强大的功能
 
+* [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) 集数据库、用户管理、UI和API等工具的后端开发框架。
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -3811,6 +3815,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [yzddmr6/As-Exploits](https://github.com/yzddmr6/As-Exploits) 中国蚁剑后渗透框架
 
 * [ph4ntonn/Stowaway](https://github.com/ph4ntonn/Stowaway) 利用go语言编写、专为渗透测试工作者制作的多级代理工具
+
+* [Dliv3/Venom](https://github.com/Dliv3/Venom/) 使用Go开发的多级代理工具。
 
 * [WangYihang/Platypus](https://github.com/WangYihang/Platypus) 用 go 编写的现代多反向 shell 会话管理器
 
@@ -4248,6 +4254,18 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [LoRexxar/Kunlun-M](https://github.com/LoRexxar/Kunlun-M) 完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。
 
+* [HummerRisk/HummerRisk](https://github.com/HummerRisk/HummerRisk) 云原生安全平台，包括混合云安全治理和安全检测。
+
+* [wangyu-/udp2raw](https://github.com/wangyu-/udp2raw) 使用原始套接字将 UDP 流量转换为加密的 UDP/FakeTCP/ICMP 流量的隧道，帮助您绕过 UDP 防火墙（或不稳定的 UDP 环境）
+
+* [iagox86/dnscat2](https://github.com/iagox86/dnscat2) 通过 DNS 协议创建加密的命令和控制 (C&C) 通道，这是几乎每个网络的有效通道。
+
+* [SECFORCE/Tunna](https://github.com/SECFORCE/Tunna) Tunna 是一组工具，它将通过 HTTP 包装和隧道化任何 TCP 通信。 它可用于绕过完全防火墙环境中的网络限制。
+
+* [sensepost/reGeorg](https://github.com/sensepost/reGeorg) reDuce 的继任者，拥有堡垒 Web 服务器并通过 DMZ 创建 SOCKS 代理。
+
+* [L-codes/Neo-reGeorg](https://github.com/L-codes/Neo-reGeorg) 积极重构 reGeorg 的项目，目的是：提高可用性，避免特征检测\提高 tunnel 连接安全性\提高传输内容保密性\应对更多的网络环境场景下使用
+
 # 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -4311,6 +4329,12 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * https://github.com/modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
 
 * https://github.com/huihut/interview C/C++ 技术面试基础知识总结
+
+* [Qihoo360/safe-rules](https://github.com/Qihoo360/safe-rules) 详细的C/C++编程规范指南，由360质量工程部编著，适用于桌面、服务端及嵌入式软件系统。
+
+* [Tencent/libco](https://github.com/Tencent/libco) 广泛应用于微信后台服务的协程库。 已经在数万台机器上运行。
+
+* [cloudwu/coroutine](https://github.com/cloudwu/Coroutine) C 的非对称协程库。
 
 * https://github.com/barry-ran/QtScrcpy Android实时显示控制软件
 
@@ -4515,6 +4539,10 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [jupyter/nbdime](https://github.com/jupyter/nbdime) 用于区分和合并 Jupyter 笔记本的工具。
 
 * [voila-dashboards/voila](https://github.com/voila-dashboards/voila) 将 Jupyter 笔记本变成独立的网络应用程序
+
+* [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) 使用 PUT/POST 将推送通知发送到您的手机或桌面
+
+* [charmbracelet/vhs](https://github.com/charmbracelet/vhs) 集测试和演示 CLI 于一身的视频记录仪，它会根据你的指令生成相关的操作视频。
 
 # Star数变化
 
