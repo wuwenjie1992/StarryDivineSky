@@ -1,4 +1,4 @@
-name: Greeting from Mona
+name: ntfy Job
 on:
   watch:
     types: [started]
@@ -14,4 +14,4 @@ jobs:
         FIRST_NAME: wuwenjie1992
       run: |
         echo $MY_VAR $FIRST_NAME
-        curl -H "Title:StarrySky" -H "Click: https://github.com/wuwenjie1992/StarrySky/stargazers" -d "StarrySky started" https://ntfy.sh/wuwenjie1992_github
+        curl -H "Title:StarrySky started" -H "Click: https://github.com/wuwenjie1992/StarrySky/stargazers" -d "StarrySky started" https://ntfy.sh/wuwenjie1992_github
