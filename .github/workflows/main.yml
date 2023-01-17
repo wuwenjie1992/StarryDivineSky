@@ -1,0 +1,17 @@
+name: Greeting from Mona
+on:
+  watch:
+    types: [started]
+    
+jobs:
+  ntfy-job:
+    name: ntfy Job
+    runs-on: ubuntu-latest
+    steps:
+    - name: ntfy
+      env:
+        MY_VAR: Hi there! My name is
+        FIRST_NAME: wuwenjie1992
+      run: |
+        echo $MY_VAR $FIRST_NAME
+        curl -H "Title:StarrySky" -H "Click: https://github.com/wuwenjie1992/StarrySky/stargazers" -d "StarrySky started" https://ntfy.sh/wuwenjie1992_github
