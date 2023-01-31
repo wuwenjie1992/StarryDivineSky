@@ -46,11 +46,15 @@
 
 * [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) [教程/笔记]吴恩达老师的机器学习课程个人笔记 
 
+* [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) [教程/笔记]《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被60多个国家的400多所大学用于教学。
+
 * [apachecn/AiLearning](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
 
 * [microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
 
 * [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周20 节课，全民数据科学！
+
+* [mli/paper-reading](https://github.com/mli/paper-reading) 深度学习经典、新论文逐段精读。包括视频讲解。
 
 * [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)  在 YouTube 上发现最新的机器学习/人工智能课程。
 
@@ -169,7 +173,7 @@
 
 * [microsoft/hummingbird](https://github.com/microsoft/hummingbird) 将训练有素的机器学习模型编译为张量计算，以加快推理速度。 用于将经过训练的传统ML模型编译为张量计算的库。
 
-* [microsoft/EdgeML](https://github.com/microsoft/EdgeML) Microsoft Research India开发的边缘设备提供了机器学习算法的代码。
+* [microsoft/EdgeML](https://github.com/microsoft/EdgeML) Microsoft Research India开发的边缘设备提供了机器学习算法。
 
 * [ml-tooling/best-of-ml-python](https://github.com/ml-tooling/best-of-ml-python) 很棒的机器学习Python库的排名列表。
 
@@ -221,11 +225,11 @@
 
 * [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) 微软给初学者开源了一份机器学习课程。
 
-* [sfu-db/dataprep](https://github.com/sfu-db/dataprep) 一个开源 Python 库，有助于自动化探索性数据分析过程。它在创建数据分析报告时很有用，它还具有 3 个用于绘制图形、绘制缺失数字和数据相关性的功能。
+* [sfu-db/dataprep](https://github.com/sfu-db/dataprep) 开源 Python 库，有助于自动化探索性数据分析过程。它在创建数据分析报告时很有用，它还具有 3 个用于绘制图形、绘制缺失数字和数据相关性的功能。
 
-* [scikit-learn-contrib/hdbscan](https://github.com/scikit-learn-contrib/hdbscan) 使用无监督学习来查找数据集的集群聚类或密集区域的工具。主要算法是HDBSCAN。提供了该算法的高性能实现，以及用于分析结果聚类的工具。
+* [scikit-learn-contrib/hdbscan](https://github.com/scikit-learn-contrib/hdbscan) 使用无监督学习来查找数据集的集群聚类或密集区域的工具。主要算法是HDBSCAN。该算法的高性能实现，以及用于分析结果聚类的工具。
 
-* [nvidia/TensorRT](https://github.com/nvidia/TensorRT) TensorRT 是一个C++库，用于对 NVIDIA GPU 和深度学习加速器进行高性能推论。
+* [nvidia/TensorRT](https://github.com/nvidia/TensorRT) 一个C++库，用于对 NVIDIA GPU 和深度学习加速器进行高性能推论。
 
 * [dropreg/R-Drop](https://github.com/dropreg/R-Drop) 填补Dropout缺陷，简单又有效的正则方法。在每个 mini-batch 中，每个数据样本过两次带有 Dropout 的同一个模型，R-Drop 再使用 KL-divergence 约束两次的输出一致。
 
@@ -2307,7 +2311,13 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [openai/whisper](https://github.com/openai/whisper) 一种通用的语音识别模型。 它在不同音频的大型数据集上进行训练，也是一个多任务模型，可以执行多语言ASR以及翻译和识别。Transformer 模型针对各种语音处理任务进行训练，包括多语言语音识别、语音翻译、口语识别和语音活动检测。 所有这些任务都联合表示为由解码器预测的一系列标记，允许单个模型替换传统语音处理管道的许多不同阶段。 多任务训练格式使用一组特殊标记作为任务说明符或分类目标。
 
-[https://github.com/yufan-aslp/AliMeeting](https://github.com/yufan-aslp/AliMeeting) ICASSP 2022 多通道多方会议转录挑战赛，为参与者提供会议场景中语音识别和说话人分类的基线系统。 挑战主要由两个轨道组成，名为自动语音识别 (ASR) 和说话人分类。 对于每个曲目，可以在其相应目录中找到详细说明。
+[shirayu/whispering](https://github.com/shirayu/whispering) whisper“耳语”模型的流式识别。需足够的机器来实时转录。
+
+[m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper) 使用OpenAI的Whisper自动生成YouTube字幕
+
+[mli/autocut](https://github.com/mli/autocut) 用文本编辑器剪视频。对你的视频自动生成字幕。然后你选择需要保留的句子，AutoCut 将对你视频中对应的片段裁切并保存。
+
+[yufan-aslp/AliMeeting](https://github.com/yufan-aslp/AliMeeting) ICASSP 2022 多通道多方会议转录挑战赛，为参与者提供会议场景中语音识别和说话人分类的基线系统。 挑战主要由两个轨道组成，名为自动语音识别 (ASR) 和说话人分类。 对于每个曲目，可以在其相应目录中找到详细说明。
 
 https://github.com/audier/DeepSpeechRecognition 基于深度学习的中文语音识别系统
 
@@ -3425,6 +3435,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 [alibaba/havenask](https://github.com/alibaba/havenask) 阿里巴巴自研的大规模分布式检索系统。支持千亿级数据实时检索，百万QPS查询，百万TPS写入，毫秒级查询延迟与秒级数据更新。
 
+[grafana/grafana](https://github.com/grafana/grafana) 开放、可组合的可观测性和数据可视化平台。可视化来自多个来源的指标、日志和跟踪，如 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等等。
+
 # 硬件
 
 ## CPU RISC-V
@@ -3511,6 +3523,10 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [fallen/tinycpu](https://github.com/fallen/tinycpu) Tiny CPU 是一个小型的 32 位 CPU，主要用于教育目的。
 
+* [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) 用于RISC-V的GNU工具链，包括GCC
+
+* [pulp-platform/pulpino](https://github.com/pulp-platform/pulpino) 开源的单核微控制器系统，基于苏黎世联邦理工学院开发的32位RISC-V内核。PULPino可以配置为使用RISCY或零RISCY内核。具有4个流水线级，其IPC接近1，完全支持基本整数指令集（RV32I），压缩指令（RV32C）和乘法指令集扩展（RV32M）。它可以配置为具有单精度浮点指令集扩展（RV32F）。它实现了多个 ISA 扩展，例如：硬件环路、后递增加载和存储指令、位操作指令、MAC 操作、支持定点运算、打包 SIMD 指令和点积。它旨在提高超低功耗信号处理应用的能效。RISCY实现了1.9特权规范的子集。
+
 ## 硬件_其他
 
 * [zhengnianli/EmbedSummary](https://github.com/zhengnianli/EmbedSummary) 精品嵌入式资源汇总
@@ -3569,7 +3585,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [abnoname/iceZ0mb1e](https://github.com/abnoname/iceZ0mb1e) 使用完整的开源 FPGA[工具链流程](http://www.clifford.at/yosys/) 构建基于 TV80 的演示片上系统，包括使用 SDCC 进行固件编译。
 
-# 网络
+# 网络与前端开发
 
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
 
@@ -3643,9 +3659,23 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [DataV-Team/DataV](https://github.com/DataV-Team/DataV) Vue数据可视化组件库（类似阿里DataV，大屏数据展示），提供SVG边框及装饰、图表、水位图、飞线图等组件，React版已发布
 
+* [youzan/vant-weapp](https://github.com/youzan/vant-weapp) 轻量、可靠的小程序 UI 组件库
+
 * [curl/curl](https://github.com/curl/curl) 用URL语法传输数据的命令行工具和库，支持DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP、SFTP、SMB、SMBS、SMTP、SMTPS、TELNET、TFTP、WS 和 WSS。提供了无数强大的功能
 
 * [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) 集数据库、用户管理、UI和API等工具的后端开发框架。
+
+* [lsqy/taro-music](https://github.com/lsqy/taro-music) 基于taro + taro-ui + redux + react-hooks + typescript 开发的网易云音乐小程序
+
+* [woniudiancang/bee](https://github.com/woniudiancang/bee) 微信小程序-餐饮点餐外卖-开箱即用
+
+* [iamxjb/winxin-app-watch-life.net](https://github.com/iamxjb/winxin-app-watch-life.net) 微慕小程序开源版-WordPress版微信小程序
+
+* [nslogx/Gitter](https://github.com/nslogx/Gitter) 可能是目前颜值最高的GitHub微信小程序客户端
+
+* [ecomfe/echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin) Apache ECharts 的微信小程序版本
+
+* [TalkingData/iview-weapp](https://github.com/TalkingData/iview-weapp) 一套高质量的微信小程序 UI 组件库
 
 ## 区块链
 
@@ -3753,6 +3783,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [tomnomnom/httprobe](https://github.com/tomnomnom/httprobe) 获取域列表并探测工作的 HTTP 和 HTTPS 服务器
 
 * [projectdiscovery/shuffledns](https://github.com/projectdiscovery/shuffledns) 使用主动暴力破解枚举有效的子域，并通过通配符处理和简单的输入输出支持来解析子域。
+
+* [punk-security/dnsReaper](https://github.com/punk-security/dnsReaper) 子域接管工具，每秒扫描大约 50 个子域，使用超过 50 个接管签名测试每个子域。在10 秒内扫描其整个 DNS 资产。
 
 * [ProjectAnte/dnsgen](https://github.com/ProjectAnte/dnsgen) 根据提供的输入生成域名组合。组合是根据单词表创建的。每次执行都会提取自定义词
 
@@ -3874,6 +3906,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [mzet-/linux-exploit-suggester](https://github.com/mzet-/linux-exploit-suggester) Linux提权审计工具 帮助检测给定 Linux 内核/基于 Linux 的机器的安全缺陷。它提供以下功能：评估已知漏洞的内核暴露情况、 验证内核强化安全措施的状态。
 
+* [Idov31/Sandman](https://github.com/Idov31/Sandman) 基于 NTP 的后门，用于强化网络中的红队参与。
+
 * [knownsec/pocsuite3](https://github.com/knownsec/pocsuite3) 由 Knownsec 404 团队开发的开源远程漏洞测试框架。
 
 * [techgaun/github-dorks](https://github.com/techgaun/github-dorks) 通过 github 搜索找到泄露的秘密
@@ -3905,6 +3939,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [vxunderground/MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode) 收集各种不同编程语言、各种平台的恶意软件源代码。
 
 * [hlldz/pickl3](https://github.com/hlldz/pickl3) Windows 活动用户凭据网络钓鱼工具
+
+* [hosch3n/msmap](https://github.com/hosch3n/msmap) 一个Memory WebShell生成器。
 
 * [4ra1n/SpringInspector](https://github.com/4ra1n/SpringInspector) Java自动代码审计工具，尤其针对Spring框架，核心原理是模拟JVM栈帧进行分析，无需提供源码，通过一个JAR包即可
 
@@ -4260,11 +4296,17 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [iagox86/dnscat2](https://github.com/iagox86/dnscat2) 通过 DNS 协议创建加密的命令和控制 (C&C) 通道，这是几乎每个网络的有效通道。
 
-* [SECFORCE/Tunna](https://github.com/SECFORCE/Tunna) Tunna 是一组工具，它将通过 HTTP 包装和隧道化任何 TCP 通信。 它可用于绕过完全防火墙环境中的网络限制。
+* [SECFORCE/Tunna](https://github.com/SECFORCE/Tunna) 通过 HTTP 包装和隧道化任何 TCP 通信。 它可用于绕过完全防火墙环境中的网络限制。
 
 * [sensepost/reGeorg](https://github.com/sensepost/reGeorg) reDuce 的继任者，拥有堡垒 Web 服务器并通过 DMZ 创建 SOCKS 代理。
 
 * [L-codes/Neo-reGeorg](https://github.com/L-codes/Neo-reGeorg) 积极重构 reGeorg 的项目，目的是：提高可用性，避免特征检测\提高 tunnel 连接安全性\提高传输内容保密性\应对更多的网络环境场景下使用
+
+* [Endava/cats](https://github.com/Endava/cats) REST API 模糊器和 OpenAPI 端点的负面测试工具。CATS 以最少的配置自动生成、运行和报告测试，无需编码工作。测试是自我修复的，不需要维护。
+
+* [m3n0sd0n4ld/GooFuzz](https://github.com/m3n0sd0n4ld/GooFuzz) 使用OSINT方法执行模糊测试的工具，设法枚举目录，文件，子域或参数，同时利用Google Dorking，而无需在目标上留下证据。
+
+* [t3l3machus/toxssin](https://github.com/t3l3machus/toxssin) XSS 利用命令行界面和有效负载生成器。
 
 # 其他
 
