@@ -2064,27 +2064,31 @@ https://github.com/goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。�
 
 [alan-turing-institute/sktime](https://github.com/alan-turing-institute/sktime) 时间序列的机器学习统一框架 。包括时间序列分类、回归、聚类、注释和预测。
 
-https://github.com/jdb78/pytorch-forecasting pytorch的时间系列预测库，模型包括：RecurrentNetwork、DecoderMLP、NBeats 、DeepAR 、TemporalFusionTransformer。
+[jdb78/pytorch-forecasting](https://github.com/jdb78/pytorch-forecasting) pytorch的时间系列预测库，模型包括：RecurrentNetwork、DecoderMLP、NBeats 、DeepAR 、TemporalFusionTransformer。
 
 [qingsongedu/time-series-transformers-review](https://github.com/qingsongedu/time-series-transformers-review) 专业策划的关于时间序列的变压器的很棒的资源（论文、代码、数据等）列表。
 
-https://github.com/arrigonialberto86/deepar Amazon于2017年提出的基于深度学习的时间序列预测方法
+[arrigonialberto86/deepar](https://github.com/arrigonialberto86/deepar) Amazon于2017年提出的基于深度学习的时间序列预测方法
 
-https://github.com/fjxmlzn/DoppelGANger 使用GAN共享网络时间序列数据：挑战，初步承诺和未解决的问题，IMC 2020（最佳论文入围）
+[fjxmlzn/DoppelGANger](https://github.com/fjxmlzn/DoppelGANger) 使用GAN共享网络时间序列数据：挑战，初步承诺和未解决的问题，IMC 2020（最佳论文入围）
 
-https://github.com/AIStream-Peelout/flow-forecast 一个开源的深度学习时间序列预测库。包括模型：Vanilla LSTM、Full transformer、Simple Multi-Head Attention、Transformer w/a linear decoder、DA-RNN (CPU only for now)。
+[AIStream-Peelout/flow-forecast](https://github.com/AIStream-Peelout/flow-forecast) 一个开源的深度学习时间序列预测库。包括模型：Vanilla LSTM、Full transformer、Simple Multi-Head Attention、Transformer w/a linear decoder、DA-RNN (CPU only for now)。
 
-https://github.com/tslearn-team/tslearn 时间序列机器学习python工具包，其中包括了一些基本的时间序列预测或者分类模型，如多层感知机，SVR，KNN以及基本的数据预处理工具和数据集的生成与加载模块。
+[tslearn-team/tslearn](https://github.com/tslearn-team/tslearn) 时间序列机器学习python工具包，其中包括了一些基本的时间序列预测或者分类模型，如多层感知机，SVR，KNN以及基本的数据预处理工具和数据集的生成与加载模块。
 
-https://github.com/blue-yonder/tsfresh 时间序列特征提取python工具包，它会自动计算出大量的时间序列特征。此外，该工具包还包含了一些方法，用于评估回归或分类任务中这些特征的解释能力和重要性。
+[blue-yonder/tsfresh](https://github.com/blue-yonder/tsfresh) 时间序列特征提取python工具包，它会自动计算出大量的时间序列特征。此外，该工具包还包含了一些方法，用于评估回归或分类任务中这些特征的解释能力和重要性。
 
-https://github.com/johannfaouzi/pyts 时间序列分类Python工具包。提供预处理工具及若干种时间序列分类算法。
+[johannfaouzi/pyts](https://github.com/johannfaouzi/pyts) 时间序列分类工具包。提供预处理工具及若干种时间序列分类算法。
 
 [linkedin/greykite](https://github.com/linkedin/greykite) Greykite 库通过其旗舰算法 Silverkite 提供灵活、直观和快速的预测。Silverkite 算法适用于大多数时间序列，尤其适用于趋势或季节性变化点、事件/假日效应和时间依赖性的那些。它是可解释的，因此对于值得信赖的决策和洞察力很有用。
 
-https://github.com/zhouhaoyi/Informer2020 效果远超Transformer的长序列预测，提出了ProbSparse self-attention机制来高效的替换常规的self-attention并且获得了的O（LlogL)时间复杂度以及O(LlogL)的内存使用率,提出了self-attention distilling操作，它大幅降低了所需的总空间复杂度O((2-e)LlogL)；我们提出了生成式的Decoder来获取长序列的输出，这只需要一步，避免了在inference阶段的累计误差传播；
+[zhouhaoyi/Informer2020](https://github.com/zhouhaoyi/Informer2020) 效果远超Transformer的长序列预测，提出了ProbSparse self-attention机制来高效的替换常规的self-attention并且获得了的O（LlogL)时间复杂度以及O(LlogL)的内存使用率,提出了self-attention distilling操作，它大幅降低了所需的总空间复杂度O((2-e)LlogL)；我们提出了生成式的Decoder来获取长序列的输出，这只需要一步，避免了在inference阶段的累计误差传播；
 
-https://github.com/deeptime-ml/deeptime 用于分析时间序列数据，包括降维，聚类和马尔可夫模型估计
+[deeptime-ml/deeptime](https://github.com/deeptime-ml/deeptime) 用于分析时间序列数据，包括降维，聚类和马尔可夫模型估计
+
+[unit8co/darts](https://github.com/unit8co/darts) python 库，用于对时间序列进行用户友好的预测和异常检测。
+
+[https://github.com/bashtage/arch](https://github.com/bashtage/arch) 自回归条件异方差 (ARCH) 和其他金融计量经济学工具，用 Python 编写（使用 Cython 和/或 Numba 来提高性能）
 
 https://github.com/nnzhan/MTGNN 通用的图神经网络框架 MTGNN，通过图学习模块融合外部知识和变量之间的单向关系，再使用 mix-hop 传播层和膨胀 inception 捕获空间和时序依赖。
 
@@ -2152,6 +2156,8 @@ https://github.com/ray-project/ray 构建分布式机器学习应用提供简单
 
 [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) Unity 机器学习代理工具包 (ML-Agents) 是一个开源项目，它使游戏和模拟成为使用深度强化学习和模仿学习训练智能代理的环境。
 
+[opendilab/DI-star](https://github.com/opendilab/DI-star) 星际争霸 II 的人工智能平台，具有大规模分布式训练和大师代理。
+
 https://github.com/astooke/rlpyt
 
 https://github.com/dennybritz/reinforcement-learning
@@ -2194,11 +2200,11 @@ https://github.com/XinJingHao/TD3 TD3强化算法的实现
 
 https://github.com/huawei-noah/xingtian 刑天（XingTian）是一个组件化的库，用于开发和验证强化学习算法。它支持多种算法，包括DQN，DDPG，PPO和IMPALA等，可以在多个环境中训练代理，例如Gym，Atari，Torcs，StarCraft等。
 
-https://github.com/thu-ml/tianshou 天授是基于纯PyTorch强化学习的平台。与现有的强化学习库主要基于TensorFlow，具有许多嵌套类，不友好的API或速度较慢的现有学习库不同，天守提供了快速的模块化框架和pythonic API，用于以最少的行数构建深度强化学习代理代码。
+[thu-ml/tianshou](https://github.com/thu-ml/tianshou) 天授是基于纯PyTorch强化学习的平台。与现有的强化学习库主要基于TensorFlow，具有许多嵌套类，不友好的API或速度较慢的现有学习库不同，天守提供了快速的模块化框架和pythonic API，用于以最少的行数构建深度强化学习代理代码。
 
-https://github.com/Jingliang-Duan/Distributional-Soft-Actor-Critic 一种用于连续控制任务的强化学习算法—DSAC，其优势在于减少Q值的过估计并显著改进策略的性能。证明了强化学习中引入分布式回报可显著降低Q值的过估计误差，并定量表明此误差与分布的方差呈反比关系。与主流RL算法相比，策略性能提升20% 以上。
+[Jingliang-Duan/Distributional-Soft-Actor-Critic](https://github.com/Jingliang-Duan/Distributional-Soft-Actor-Critic) 一种用于连续控制任务的强化学习算法—DSAC，其优势在于减少Q值的过估计并显著改进策略的性能。证明了强化学习中引入分布式回报可显著降低Q值的过估计误差，并定量表明此误差与分布的方差呈反比关系。与主流RL算法相比，策略性能提升20% 以上。
 
-https://github.com/tencent-ailab/TLeague 一种基于竞争性自我驱动的多智能体强化学习框架。
+[tencent-ailab/TLeague](https://github.com/tencent-ailab/TLeague) 一种基于竞争性自我驱动的多智能体强化学习框架。
 
 https://github.com/minerllabs/minerl Minecraft 游戏环境
 
@@ -3359,6 +3365,8 @@ https://github.com/jm199504/Financial-Knowledge-Graphs 小型金融知识图谱�
 
 [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes) 大数据入门指南
 
+[guangzhengli/k8s-tutorials](https://github.com/guangzhengli/k8s-tutorials) k8s 教程
+
 https://github.com/seata/seata 简单可扩展的自主事务体系结构
 
 https://github.com/apache/incubator-shardingsphere 分布式数据库中间件生态圈
@@ -3527,6 +3535,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [pulp-platform/pulpino](https://github.com/pulp-platform/pulpino) 开源的单核微控制器系统，基于苏黎世联邦理工学院开发的32位RISC-V内核。PULPino可以配置为使用RISCY或零RISCY内核。具有4个流水线级，其IPC接近1，完全支持基本整数指令集（RV32I），压缩指令（RV32C）和乘法指令集扩展（RV32M）。它可以配置为具有单精度浮点指令集扩展（RV32F）。它实现了多个 ISA 扩展，例如：硬件环路、后递增加载和存储指令、位操作指令、MAC 操作、支持定点运算、打包 SIMD 指令和点积。它旨在提高超低功耗信号处理应用的能效。RISCY实现了1.9特权规范的子集。
 
+* [OSCPU/NutShell](https://github.com/OSCPU/NutShell) 国科大学生设计的RISC-V SoC。目前它支持 riscv64/32。
+
 ## 硬件_其他
 
 * [zhengnianli/EmbedSummary](https://github.com/zhengnianli/EmbedSummary) 精品嵌入式资源汇总
@@ -3585,6 +3595,12 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [abnoname/iceZ0mb1e](https://github.com/abnoname/iceZ0mb1e) 使用完整的开源 FPGA[工具链流程](http://www.clifford.at/yosys/) 构建基于 TV80 的演示片上系统，包括使用 SDCC 进行固件编译。
 
+* [brickbots/HandiPi](https://github.com/brickbots/HandiPi) 带键盘和显示屏的手持式 树莓派4 计算机
+
+* [WhaleFell/CameraHack](https://github.com/WhaleFell/CameraHack) 批量扫描破解海康威视、大华等摄像头的常见漏洞。
+
+* [BC-SECURITY/Beginners-Guide-to-Obfuscation](https://github.com/BC-SECURITY/Beginners-Guide-to-Obfuscation) 规避检测：新手混淆指南防御者不断调整他们的安全措施以应对新的威胁。学习恶意软件交付和避免检测背后的方法。 探讨了 Microsoft 的反恶意软件扫描接口 (AMSI)、Windows Defender 和 Windows 事件跟踪 (ETW) 的内部工作原理。 学习如何使用 Visual Basic (VB)、PowerShell 和 C# 来使用混淆的恶意软件来避开 Microsoft 的防御。学习构建 AMSI 绕过技术，混淆来自动态和静态签名检测方法的有效负载，并了解替代网络规避方法。
+
 # 网络与前端开发
 
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
@@ -3602,6 +3618,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [logto-io/logto](https://github.com/logto-io/logto)  帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
 
 * [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别查询效率，提供众多主流编程语言的 xdb 数据生成和查询客户端实现。
+
+* [sogou/workflow](https://github.com/sogou/workflow) C++ 并行计算和异步网络引擎
 
 * [soimort/you-get](https://github.com/soimort/you-get) youtube下载
 
@@ -3700,6 +3718,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [slowmist/Blockchain-dark-forest-selfguard-handbook](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/) 区块链黑暗森林自救手册掌握这些，掌握你的加密货币安全。
 
 * [Rivaill/CryptoVulhub](https://github.com/Rivaill/CryptoVulhub) 分析和重现区块链世界中的攻击事件或漏洞。
+
+* [bunturx/Awesome-Blockchain-Security](https://github.com/bunturx/Awesome-Blockchain-Security)  由伟大的@0xRajeev 创建核心焦点将是以太坊智能合约安全审计。 涵盖的主题将包括以太坊、Solidity、智能合约安全和审计。
 
 # 安全与渗透
 
@@ -4308,6 +4328,42 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [t3l3machus/toxssin](https://github.com/t3l3machus/toxssin) XSS 利用命令行界面和有效负载生成器。
 
+* [LandGrey/webshell-detect-bypass](https://github.com/LandGrey/webshell-detect-bypass) 绕过专业工具检测的Webshell研究文章和免杀的Webshell
+
+* [Tas9er/ByPassBehinder4J](https://github.com/Tas9er/ByPassBehinder4J) 冰蝎Java WebShell自动化免杀生成
+
+* [FeeiCN/GSIL](https://github.com/FeeiCN/GSIL) GitHub敏感信息泄露监控
+
+* [TophantTechnology/ARL](https://github.com/TophantTechnology/ARL) 资产侦察灯塔系统旨在快速侦察与目标关联的互联网资产，构建基础资产信息库。 协助甲方安全团队或者渗透测试人员有效侦察和检索资产，发现存在的薄弱点和攻击面。
+
+* [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) 下一代网络扫描仪
+
+* [banach-space/llvm-tutor](https://github.com/banach-space/llvm-tutor) 用于教学和学习的 out-of-tree LLVM passes 的集合
+
+* [optiv/Mangle](https://github.com/optiv/Mangle) 可操纵已编译的exe 或 DLL的各个方面，以避免被 EDR 检测到
+
+* [0xrawsec/whids](https://github.com/0xrawsec/whids) 适用于 Windows 的开源 EDR（终端检测与响应)
+
+* [MatrixTM/MHDDoS](https://github.com/MatrixTM/MHDDoS) 最佳 DDoS 攻击脚本 Python3,有 56 种方法
+
+* [D3Ext/WEF](https://github.com/D3Ext/WEF)  一个完全攻击 802.11 网络和协议的框架，具有针对 WPA/WPA2 和 WEP 的不同类型的攻击、自动哈希破解等。
+
+* [ainfosec/FISSURE](https://github.com/ainfosec/FISSURE) 与频率无关的基于 SDR 的信号理解和逆向工程。开源 RF 和逆向工程框架，专为所有技能水平而设计，具有用于信号检测和分类、协议发现、攻击执行、IQ 操纵、漏洞分析、自动化和 AI/ML 的钩子。 该框架旨在促进软件模块、无线电、协议、信号数据、脚本、流程图、参考资料和第三方工具的快速集成。友好的 Python 代码库和界面允许初学者快速了解涉及 RF 和逆向工程的流行工具和技术。
+
+* [RedTeamPentesting/pretender](https://github.com/RedTeamPentesting/pretender) 您的 MitM 助手，用于中继攻击，具有 DHCPv6 DNS 接管以及 mDNS、LLMNR 和 NetBIOS-NS 欺骗。
+
+* [TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。
+
+* [r0uble-mAker/POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) 漏洞检测/利用工具，旨在利用大量高危害漏洞的POC/EXP快速获取目标服务器权限 支持weblogic，tomcat，apache，jboss，nginx，struct2，thinkphp2x3x5x，spring，redis，jenkins，php语言漏洞，shiro，泛微OA，致远OA，通达OA等易受攻击组件的漏洞检测，支持调用dnslog平台检测无回显的rce(包括log4j2的检测)，支持单个目标检测和批量检测，程序采用高并发线程池，支持自定义导入poc/exp，并能够生成漏洞报告.使用验证模式进行poc的验证，如返回结果中attack的值为True时，可以加-attack进入攻击模式直接调用exp进行攻击(需要指定poc文件名)，达到一键getshell
+
+* [czz1233/GBByPass](https://github.com/czz1233/GBByPass) 冰蝎 哥斯拉 WebShell bypass
+
+* [WindXaa/Android-Vulnerability-Mining](https://github.com/WindXaa/Android-Vulnerability-Mining) Android APP漏洞之战系列，主要讲述如何快速挖掘APP漏洞
+
+* [mitre/caldera](https://github.com/mitre/caldera) 一个网络安全平台，旨在轻松实现对手模拟的自动化、协助手动红队和自动化事件响应。
+
+* [onekey-sec/unblob](https://github.com/onekey-sec/unblob) 准确、快速且易于使用的提取套件。 它为超过 30 种不同的存档、压缩和文件系统格式解析未知二进制 blob，递归地提取它们的内容，并分割出尚未考虑的未知块。这使 unblob 成为提取、分析和逆向工程固件映像的完美伴侣。
+
 # 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -4368,11 +4424,15 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) 用 Java 实现的设计模式
 
-* https://github.com/modichirag/flowpm TensorFlow中的粒子网格模拟N体宇宙学模拟
+* [modichirag/flowpm](https://github.com/modichirag/flowpm) TensorFlow中的粒子网格模拟N体宇宙学模拟
 
-* https://github.com/huihut/interview C/C++ 技术面试基础知识总结
+* [huihut/interview](https://github.com/huihut/interview) C/C++ 技术面试基础知识总结
+
+* [wuye9036/CppTemplateTutorial](https://github.com/wuye9036/CppTemplateTutorial) 中文的C++ Template的教学指南。与知名书籍C++ Templates不同，该系列教程将C++ Templates作为一门图灵完备的语言来讲授，以求帮助读者对Meta-Programming融会贯通。
 
 * [Qihoo360/safe-rules](https://github.com/Qihoo360/safe-rules) 详细的C/C++编程规范指南，由360质量工程部编著，适用于桌面、服务端及嵌入式软件系统。
+
+* [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) 以 C++ 实现的数学、机器学习、计算机科学和物理学中的各种算法的集合，用于教育目的。
 
 * [Tencent/libco](https://github.com/Tencent/libco) 广泛应用于微信后台服务的协程库。 已经在数万台机器上运行。
 
@@ -4382,7 +4442,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [bennettfeely/bennett](https://github.com/bennettfeely/bennett) ztext 易于实现的3D网页排版。适用于每种字体。
 
-* https://github.com/DaveJarvis/keenwrite 基于Java的桌面Markdown编辑器，具有实时预览，字符串插值和公式
+* [DaveJarvis/keenwrite](https://github.com/DaveJarvis/keenwrite) Java的Markdown编辑器，具有实时预览，字符串插值和公式
 
 * https://github.com/vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
 
