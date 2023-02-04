@@ -507,6 +507,12 @@
 
 * [bokeh/bokeh](https://github.com/bokeh/bokeh) 浏览器中的交互式数据可视化，来自 Python
 
+* [nterpretml/interpret](https://github.com/interpretml/interpret) 适合可解释的模型。 解释黑盒机器学习。
+
+* [Guang000/Awesome-Dataset-Distillation](https://github.com/Guang000/Awesome-Dataset-Distillation) 数据集蒸馏是合成一个小数据集的任务，使得在其上训练的模型在原始大数据集上实现高性能。 数据集蒸馏算法将要蒸馏的大型真实数据集（训练集）作为输入，并输出一个小的合成蒸馏数据集，该数据集通过在单独的真实数据集（验证/测试集）上在该蒸馏数据集上训练的测试模型进行评估。 一个好的小型蒸馏数据集不仅对数据集理解有用，而且具有各种应用（例如，持续学习、隐私、神经架构搜索等）。
+
+* [TimDettmers/bitsandbytes](https://github.com/TimDettmers/bitsandbytes) PyTorch 的 8 位 CUDA 函数。具有混合精度分解的 8 位矩阵乘法；LLM.int8() 推理；8 位优化器：Adam、AdamW、RMSProp、LARS、LAMB（节省 75% 的内存）；稳定嵌入层：通过更好的初始化和规范化；提高稳定性 8 位量化：分位数、线性和动态量化；快速分位数估计：比其他算法快 100 倍
+
 # 图神经网络GNN
 
 ## 图机器学习库
@@ -1709,6 +1715,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 [ryanzhumich/Contrastive-Learning-NLP-Papers](https://github.com/ryanzhumich/Contrastive-Learning-NLP-Papers) NLP 对比学习是一种学习嵌入空间的技术，使得相似的数据样本对具有接近的表示，而不同的样本彼此相距很远。 它可以在有监督或无监督的设置中使用，使用不同的损失函数来生成特定于任务或通用的表示。 在各种 NLP 任务中提供了有希望的性能改进，而且还提供了所需的特性，例如与任务无关的句子表示、忠实的文本生成、零样本和少样本设置中的数据高效学习、可解释性和可解释性 .
 
+[textstat/textstat](https://github.com/textstat/textstat) 用于计算文本对象（段落、句子、文章）的可读性统计数据。
+
 # 推荐系统
 
 ## 推荐系统算法库与列表
@@ -2295,6 +2303,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [distributional-rl.org](https://www.distributional-rl.org/)  教科书《Distributional Reinforcement Learning 分布强化学习》草稿。
 
 [deepmind/alphatensor](https://github.com/deepmind/alphatensor) 矩阵乘法是计算机要做的最关键数学计算之一。改进了目前最优的 4×4 矩阵解法（50 年前由施特拉森提出），还进一步提升了其他 70 余种不同大小矩阵的计算速度。
+
+[facebookresearch/diplomacy_cicero](https://github.com/facebookresearch/diplomacy_cicero) Cicero 的代码，这是一个通过开放域自然语言协商玩外交游戏的 AI 代理。
 
 # 语音识别与合成
 
@@ -3021,6 +3031,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [PaddlePaddle/PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN/) 飞桨生成对抗网络开发套件--PaddleGAN，为开发者提供经典及前沿的生成对抗网络高性能实现，并支撑开发者快速构建、训练及部署生成对抗网络，以供学术、娱乐及产业应用。包括：人脸属性编辑之年龄变换 一键实现变老变年轻；视频超分SOTA算法PP-MSVSR；StyleGAN V2人脸属性编辑之性别转换；LapStyle风格迁移；人脸融合能力，结合新版Frirst Order Motion，实现人脸完美融合并带有丰富表情；真实照片转油画风格；人脸融合、风格迁移、老视频修复、人脸动作迁移、超分辨率、妆容迁移、人脸动漫化、写实人像卡通化、照片动漫化、唇形同步
 
+[SHI-Labs/Versatile-Diffusion](https://github.com/SHI-Labs/Versatile-Diffusion) 多功能扩散：文本、图像和变体合二为一的扩散模型，可以原生支持图像到文本、图像变体、文本到图像和文本变体，并且可以进一步扩展到其他应用，例如语义式解缠、图像-文本双引导生成、潜在图像到文本到图像编辑等。
+
 ## 其他_机器视觉
 
 [taichi-dev/taichi](https://github.com/taichi-dev/taichi) 高效且可移植的 Python 高性能编程。该语言具有广泛的应用，包括实时物理模拟、数字计算、增强现实、人工智能、视觉和机器人技术、电影和游戏中的视觉效果、通用计算等等。
@@ -3271,6 +3283,10 @@ https://github.com/google-research/remixmatch 改进了最近提出的MixMatch�
 
 [kuprel/min-dalle](https://github.com/kuprel/min-dalle) DALL·E Mini 到 PyTorch 的快速、最小的接口。DALL-E是一个可以通过文本描述中生成图像的AI程序。 通过120亿参数版本的GPT-3 Transformer模型来理解自然语言输入并生成相应的图片。它可以生成现实、现实中不存在的对象。
 
+[heejkoo/Awesome-Diffusion-Models](https://github.com/heejkoo/Awesome-Diffusion-Models) 关于扩散模型的资源和论文集
+
+[YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) 扩散模型：方法和应用的综合调查
+
 [rinongal/textual_inversion](https://github.com/rinongal/textual_inversion) 使用个性化文本反转到图像生成 。仅使用用户提供的概念（如对象或样式）的 3-5 张图像，通过学习冻结文本到图像模型的嵌入空间中的新“词”来表示它。 这些“词”可以组合成自然语言的句子，以直观的方式指导个性化创作。
 
 [remotion-dev/remotion](https://github.com/remotion-dev/remotion) 使用 React 以编程方式创建视频的框架。
@@ -3280,6 +3296,8 @@ https://github.com/google-research/remixmatch 改进了最近提出的MixMatch�
 [piskelapp/piskel](https://github.com/piskelapp/piskel) 易于使用的精灵编辑器。 它可用于创建游戏精灵、动画、像素艺术。
 
 [pencil2d/pencil](https://github.com/pencil2d/pencil) 制作二维手绘动画的简单、直观的工具。 
+
+[OpenShot/libopenshot](https://github.com/OpenShot/libopenshot) 致力于为全世界提供高质量的视频编辑、动画和播放解决方案。 API 目前支持 C++、Python 和 Ruby。
 
 # 虚拟化
 
@@ -3445,6 +3463,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 [grafana/grafana](https://github.com/grafana/grafana) 开放、可组合的可观测性和数据可视化平台。可视化来自多个来源的指标、日志和跟踪，如 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等等。
 
+[ctripcorp/x-pipe](https://github.com/ctripcorp/x-pipe) 携程框架部门研发的Redis多数据中心复制管理系统。基于Redis的Master-Slave复制协议，实现低延时、高可用的Redis多中心、跨公网数据复制，并且提供一键机房切换，复制监控、异常报警等功能。
+
 # 硬件
 
 ## CPU RISC-V
@@ -3597,10 +3617,6 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [brickbots/HandiPi](https://github.com/brickbots/HandiPi) 带键盘和显示屏的手持式 树莓派4 计算机
 
-* [WhaleFell/CameraHack](https://github.com/WhaleFell/CameraHack) 批量扫描破解海康威视、大华等摄像头的常见漏洞。
-
-* [BC-SECURITY/Beginners-Guide-to-Obfuscation](https://github.com/BC-SECURITY/Beginners-Guide-to-Obfuscation) 规避检测：新手混淆指南防御者不断调整他们的安全措施以应对新的威胁。学习恶意软件交付和避免检测背后的方法。 探讨了 Microsoft 的反恶意软件扫描接口 (AMSI)、Windows Defender 和 Windows 事件跟踪 (ETW) 的内部工作原理。 学习如何使用 Visual Basic (VB)、PowerShell 和 C# 来使用混淆的恶意软件来避开 Microsoft 的防御。学习构建 AMSI 绕过技术，混淆来自动态和静态签名检测方法的有效负载，并了解替代网络规避方法。
-
 # 网络与前端开发
 
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
@@ -3695,6 +3711,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [TalkingData/iview-weapp](https://github.com/TalkingData/iview-weapp) 一套高质量的微信小程序 UI 组件库
 
+* [gocolly/colly](https://github.com/gocolly/colly) 优雅的 Golang 爬虫框架
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -3723,40 +3741,319 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 # 安全与渗透
 
-- [nmap/nmap](https://github.com/nmap/nmap) 网络映射器 网络端口扫描器。
+## 扫描器、资产收集、子域名
 
-- [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) 自动 SQL 注入和数据库接管工具
+* [nmap/nmap](https://github.com/nmap/nmap) 网络映射器，网络端口扫描器。
+
+* [zyylhn/zscan](https://github.com/zyylhn/zscan) 开源的内网端口扫描器、爆破工具和其他实用工具的集合体可以称为工具包。以主机和内网网段发现和端口扫描为基础，可以对mysql、mssql、redis、mongo、postgres、ftp、ssh、ldap、rdp、smb等服务进行爆破，还有其他netbios、smb、oxid、socks server（扫描内网中的代理服务器）、snmp、ms17010等扫描功能，支持poc（xray v1格式）单个和批量检测。
+
+* [rverton/webanalyze](https://github.com/rverton/webanalyze) Wappalyzer 的端口（揭示网站上使用的技术）以自动进行大规模扫描。
+
+* [a1phaboy/FastjsonScan](https://github.com/a1phaboy/FastjsonScan) Fastjson扫描器，可识别版本、依赖库、autoType状态等。
+
+* [inbug-team/SweetBabyScan](https://github.com/inbug-team/SweetBabyScan) 支持弱口令爆破的内网资产探测漏洞扫描工具，集成了Xray与Nuclei的Poc
+
+* [b0bac/ApolloScanner](https://github.com/b0bac/ApolloScanner) 自动化巡航扫描框架（可用于红队打点评估）.资产收集 github敏感信息收集 破解（基于exp的暴力破解） 漏洞扫描模块
+
+* [Adminisme/ServerScan](https://github.com/Adminisme/ServerScan) 使用Golang开发的高并发网络扫描、服务探测工具。
+
+* [i11us0ry/goon](https://github.com/i11us0ry/goon) 集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
+
+* [jwt1399/Sec-Tools](https://github.com/jwt1399/Sec-Tools) 基于Python-Django的多功能Web安全渗透测试工具，包含漏洞扫描，端口扫描，指纹识别，目录扫描，旁站扫描，域名扫描等功能。
+
+* [lcvvvv/kscan](https://github.com/lcvvvv/kscan) 纯go的全方位扫描器，具备端口扫描、协议检测、指纹识别，暴力破解等功能。支持协议1200+，协议指纹1w+，应用指纹2w+，暴力破解协议10余种。
+
+* [kelvinBen/AppInfoScanner](https://github.com/cqkenuo/appinfoscanner) 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。
+
+* [airson/Yasso](https://github.com/sairson/Yasso) 强大的内网渗透辅助工具集-让Yasso像风一样 支持rdp，ssh，redis，postgres，mongodb，mssql，mysql，winrm等服务爆破，快速的端口扫描，强大的web指纹识别，各种内置服务的一键利用（包括ssh完全交互式登陆，mssql提权，redis一键利用，mysql数据库查询，winrm横向利用，多种服务利用支持socks5代理执行）
+
+* [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan) 用于查找 log4j RCE CVE-2021-44228 的的扫描程序
+
+* [H4ckForJob/dirmap](https://github.com/H4ckForJob/dirmap) 一个高级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina、御剑。
+
+* [chaitin/xray](https://github.com/chaitin/xray) 完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc
+
+* [wgpsec/DBJ](https://github.com/wgpsec/DBJ) 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web资产梳理、Web指纹识别、ICON_Hash资产匹配
+
+* [sullo/nikto](https://github.com/sullo/nikto) 网络服务器扫描仪
+
+* [zhzyker/vulmap](https://github.com/zhzyker/vulmap/) web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能
+
+* [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch) 暴力破解网络服务器的目录和文件，网络路径扫描器
+
+* [wpscanteam/wpscan](https://github.com/wpscanteam/wpscan) WordPress 安全扫描器。为安全专家和博客维护者编写，用于测试其 WordPress 网站的安全性。
+
+* [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) 基于简单 YAML 的 DSL 的快速且可定制的漏洞扫描器
+
+* [foryujian/yjdirscan](https://github.com/foryujian/yjdirscan) 御剑目录扫描专业版，简单实用的命令行网站目录扫描工具，支持爬虫、fuzz、自定义字典、字典变量、UA修改、假404过滤、扫描控速等功能。
+
+* [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) TCP 端口扫描器，异步发送 SYN 数据包，在 5 分钟内扫描整个互联网，从单台机器每秒传输 1000 万个数据包。
+
+* [78778443/QingScan](https://github.com/78778443/QingScan) 漏洞扫描器粘合剂,添加目标后30款工具自动调用；支持 web、系统、目录、主机扫描、子域名收集、主机发现、组件识别、URL爬虫、XRAY扫描、AWVS自动扫描、POC批量验证，SSH批量测试、vulmap。
+
+* [test502git/awvs14-scan ](https://github.com/test502git/awvs14-scan)针对 Acunetix AWVS扫描器开发的批量扫描脚本，支持log4j漏洞、SpringShell、SQL注入、XSS、弱口令等专项，支持联动xray、burp、w13scan等被动批量
+
+* [We5ter/Scanners-Box](https://github.com/We5ter/Scanners-Box) 安全行业从业者自研开源扫描器合辑
+
+* [projectdiscovery/naabu](https://github.com/projectdiscovery/naabu) 用 go 编写的快速端口扫描器，专注于可靠性和简单性。旨在与其他工具结合使用，以在错误赏金和渗透测试中发现攻击面
+
+* [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) 基于简单 YAML 的 DSL 的快速且可定制的漏洞扫描器。
+
+* [AlphabugX/httpscan](https://github.com/AlphabugX/httpscan) 用于C段http资产快速扫描，目前只支持80端口。(多线程)
+
+* [SiJiDo/H](https://github.com/SiJiDo/H) 一款强大的资产收集管理平台 主要用于src信息收集和红蓝对抗资产收集用，采用python celery分布式实现多节点部署，提高效率
+
+* [EdgeSecurityTeam/Ehole](https://github.com/EdgeSecurityTeam/Ehole) 对资产中重点系统指纹识别的工具，在红队作战中，信息收集是必不可少的环节，如何才能从大量的资产中提取有用的系统(如OA、VPN、Weblogic...)。EHole旨在帮助红队人员在信息收集期间能够快速从C段、大量杂乱的资产中精准定位到易被攻击的系统，从而实施进一步攻击。
+
+* [knownsec/Kunyu](https://github.com/knownsec/Kunyu) 让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
+
+* [OWASP/Amass](https://github.com/OWASP/Amass) 使用开源信息收集和主动侦察技术执行攻击面的网络和资产发现。
+
+* [hakluke/hakrawler](https://github.com/hakluke/hakrawler) 简单快速的网络爬虫，发现网络应用程序中的端点和资产
+
+* [0x727/ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) 水泽-信息收集自动化工具 只需要输入根域名即可全方位收集相关资产，并检测漏洞。
+
+* [punk-security/dnsReaper](https://github.com/punk-security/dnsReaper) 子域接管工具，每秒扫描大约 50 个子域，使用超过 50 个接管签名测试每个子域。在10 秒内扫描其整个 DNS 资产。
+
+* [zhzyker/dismap](https://github.com/zhzyker/dismap) 快速识别 Web 指纹信息，定位资产类型。辅助红队快速定位目标资产信息，辅助蓝队发现疑似脆弱点
+
+* [s7ckTeam/Glass](https://github.com/s7ckTeam/Glass) 针对资产列表的快速指纹识别工具，通过调用Fofa ZoomEye Shodan 360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
+
+* [wappalyzer/wappalyzer](https://github.com/wappalyzer/wappalyzer) 识别网站上的技术。例如 CMS、Web 框架、电子商务平台、JavaScript 库、分析工具等。
+
+* [0x727/ObserverWard](https://github.com/0x727/ObserverWard) 命令行Web指纹识别工具
+
+* [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) 识别网站，包括内容管理系统 (CMS)、博客平台、统计/分析包、JavaScript 库、网络服务器和嵌入式设备。WhatWeb 有超过 1800 个插件，每个插件都能识别不同的东西。WhatWeb 还可以识别版本号、电子邮件地址、帐户 ID、Web 框架模块、SQL 错误等。
+
+* [yogeshojha/rengine](https://github.com/yogeshojha/rengine) 用于 Web 应用程序的自动化侦察框架，专注于通过引擎、侦察数据关联和组织、持续监控、简单而直观的用户界面以及简单而直观的用户界面。reNgine 使渗透测试人员可以轻松地收集侦察信息
+
+* [l3m0n/whatweb](https://github.com/l3m0n/whatweb) WEB指纹识别 - gowap基础上修改的golang版本
+
+* [riramar/Web-Attack-Cheat-Sheet](https://github.com/riramar/Web-Attack-Cheat-Sheet) Web 攻击备忘单
+
+* [TideSec/TideFinger](https://github.com/TideSec/TideFinger) TideFinger——指纹识别小工具，汲取整合了多个web指纹库，结合了多种指纹检测方法，让指纹检测更快捷、准确。
+
+* [hktalent/scan4all](https://github.com/hktalent/scan4all) vuls 扫描：1.5W+PoCs； 23种应用密码破解； 7K+网络指纹； 146种协议和9W+条规则端口扫描； Fuzz，硬件，很棒的 BugBounty(͡° ͜ʖ ͡°)...
+
+* [m3n0sd0n4ld/GooFuzz](https://github.com/m3n0sd0n4ld/GooFuzz) 使用OSINT方法执行模糊测试的工具，设法枚举目录，文件，子域或参数，同时利用Google Dorking，而无需在目标上留下证据。
+
+* [guchangan1/All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool) 全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms漏洞利用工具，爆破工具、内网横向及免杀、社工钓鱼以及应急响应等资料。
+
+* [KingOfBugbounty/KingOfBugBountyTips](https://github.com/KingOfBugbounty/KingOfBugBountyTips) 分享一些知名漏洞猎人的技巧。使用侦察方法，我们能够找到已经可利用的子域、api 和令牌。
+
+* [devanshbatham/ParamSpider](https://github.com/devanshbatham/ParamSpider) 从 Web 档案的黑暗角落挖掘参数。 从输入域的网络档案中查找参数。也从子域中查找参数。支持排除具有特定扩展名的 url。以干净整洁的方式保存输出结果。它从网络档案中挖掘参数（不与目标主机交互）
+
+* [m4ll0k/takeover](https://github.com/m4ll0k/takeover) 子域接管漏洞扫描程序
+
+* [3nock/sub3suite](https://github.com/3nock/sub3suite) 用于子域枚举、OSINT 信息收集和攻击面映射的研究级工具套件。支持对具有许多可用功能和工具的各种目标类型进行手动和自动分析。
+
+* [d3mondev/puredns](https://github.com/d3mondev/puredns) 快速的域解析器和子域暴力破解工具，可以准确过滤掉通配符子域和 DNS 中毒条目。
+
+* [FeeiCN/ESD](https://github.com/FeeiCN/ESD) Enumeration sub domains(枚举子域名)
+
+* [Threezh1/JSFinder](https://github.com/Threezh1/JSFinder) 快速在网站的js文件中提取URL，子域名的工具。
+
+* [shmilylty/OneForAll](https://github.com/shmilylty/OneForAll) 功能强大的子域收集工具
+
+* [tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder) 查找与给定域相关的域和子域
+
+* [projectdiscovery/shuffledns](https://github.com/projectdiscovery/shuffledns) 使用主动暴力破解枚举有效的子域，并通过通配符处理和简单的输入输出支持来解析子域。
+
+* [projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder) 子域发现工具，可以为网站发现有效的子域。设计为被动框架，可用于漏洞赏金和安全渗透测试。
+
+* [knownsec/ksubdomain](https://github.com/knownsec/ksubdomain) 无状态子域名爆破工具
+
+* [aboul3la/Sublist3r](https://github.com/aboul3la/Sublist3r) 用于渗透测试人员的快速子域枚举工具
+
+* [lijiejie/subDomainsBrute](https://github.com/lijiejie/subDomainsBrute) 高并发的DNS暴力枚举工具。 
+
+* [edoardottt/scilla](https://github.com/edoardottt/scilla) 信息收集工具 - DNS / 子域 / 端口 / 目录枚举
+
+## web shell、shellcode
+
+* web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
+
+* shellcode是一段用于利用软件漏洞而执行的代码，shellcode为16进制之机械码，以其经常让攻击者获得shell而得名。shellcode常常使用机器语言编写，由于现代电脑系统基本上启用NX位元保护使得机械码无法直接执行，可透过返回导向编程编写shellcode。
+
+* [WangYihang/Platypus](https://github.com/WangYihang/Platypus) 用 go 编写的现代多反向 shell 会话管理器
+
+* [Idov31/FunctionStomping](https://github.com/Idov31/FunctionStomping) shellcode 注入技术。以 C++ 头文件、独立的 Rust 程序或库的形式给出。
+
+* [czz1233/GBByPass](https://github.com/czz1233/GBByPass) 冰蝎 哥斯拉 WebShell bypass
+
+* [Tas9er/ByPassBehinder4J](https://github.com/Tas9er/ByPassBehinder4J) 冰蝎Java WebShell自动化免杀生成
+
+* [LandGrey/webshell-detect-bypass](https://github.com/LandGrey/webshell-detect-bypass) 绕过专业工具检测的Webshell研究文章和免杀的Webshell
+
+* [HZzz2/go-shellcode-loader](https://github.com/HZzz2/go-shellcode-loader) GO免杀shellcode加载器混淆AES加密
+
+* [epinna/weevely3](https://github.com/epinna/weevely3) 为后期开发目的而设计的 web shell，可以在运行时通过网络进行扩展。将它上传到目标服务器以获取对其的远程 shell 访问。它有 30 多个模块来协助管理任务、维护访问、提供态势感知、提升权限以及传播到目标网络。
+
+* [asta-mouse/Sherlock](https://github.com/rasta-mouse/Sherlock) PowerShell 脚本，快速查找权限提升漏洞的缺失补丁。
+
+* [FunnyWolf/pystinger](https://github.com/FunnyWolf/pystinger) 使用webshell进行流量转发的出网工具
+
+* [Cracked5pider/ShellcodeTemplate](https://github.com/Cracked5pider/ShellcodeTemplate) Win x64/x86 的易于修改的 shellcode 模板
+
+* [icyguider/Nimcrypt2](https://github.com/icyguider/Nimcrypt2) Nim 编写的 .NET、PE 和原始 Shellcode 打包程序/加载程序
+
+* [hosch3n/msmap](https://github.com/hosch3n/msmap) 一个Memory WebShell生成器。
+
+* [tihanyin/PSSW100AVB](https://github.com/tihanyin/PSSW100AVB) 具有 100% AV 绕过功能的有用 Powershell 脚本。
+
+* [bdamele/icmpsh](https://github.com/bdamele/icmpsh) 简单的反向 ICMP shell，win32 从站和一个 C、Perl 或 Python 中的 POSIX 兼容主站。它不需要管理权限即可在目标机器上运行。
+
+* [JoelGMSec/PyShell](https://github.com/JoelGMSec/PyShell) 多平台 Python WebShell。此工具可帮助您在 Web 服务器上获得类似 shell 的界面以进行远程访问。
+
+* [WhaleFell/CameraHack](https://github.com/WhaleFell/CameraHack) 批量扫描破解海康威视、大华等摄像头的常见漏洞。
+
+* [LoRexxar/Kunlun-M](https://github.com/LoRexxar/Kunlun-M) 完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。
+
+* [wikiZ/ServerlessScan](https://github.com/wikiZ/ServerlessScan) 云函数扫描器实现代码
+
+* [hannob/snallygaster](https://github.com/hannob/snallygaster) 用于扫描 HTTP 服务器上的机密文件的工具
+
+* [michelin/ChopChop](https://github.com/michelin/ChopChop) 帮助开发人员扫描端点并识别敏感服务/文件/文件夹的公开。
+
+* [1N3/Sn1per](https://github.com/1N3/Sn1per) 自动侦察扫描程序，用于发现资产并用最新开源工具和技术扫描漏洞。
+
+* [shadow1ng/fscan](https://github.com/shadow1ng/fscan) 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
+
+* [1n7erface/RequestTemplate](https://github.com/1n7erface/RequestTemplate) 双语双端内网扫描以及验证工具
+
+* [API-Security/APIKit](https://github.com/API-Security/APIKit) 主动/被动扫描发现应用泄露的API文档，并将API文档解析成BurpSuite中的数据包用于API安全测试。
+
+* [zan8in/afrog](https://github.com/zan8in/afrog) 性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具
+
+* [achuna33/MYExploit](https://github.com/achuna33/MYExploit) 基于产品的一键扫描工具。
+
+* [ajinabraham/CMSScan](https://github.com/ajinabraham/CMSScan) CMS 扫描仪：扫描 Wordpress、Drupal、Joomla、vBulletin 网站以查找安全问题
+
+* [dionach/CMSmap](https://github.com/Dionach/CMSmap) 开源 CMS 扫描程序，它可以自动检测最流行的 CMS 的安全漏洞。支持的 CMS 有 WordPress、Joomla、Drupal 和 Moodle。
+
+* [0e0w/PassivesScan](https://github.com/0e0w/PassivesScan) 《被动扫描资源汇总》被动扫描一般是根据代理的流量中特定参数进行简单粗暴的发起请求。有些漏洞通过主动扫描很难发现，必须通过被动扫描实现。被动扫描结合爬虫技术往往是漏洞扫描的最优解。
+
+* [chroblert/WindowsVulnScan](https://github.com/chroblert/WindowsVulnScan) 基于主机的漏洞扫描工具，采用多线程确保可以快速的请求数据，采用线程锁可以在向sqlite数据库中写入数据避免database is locked的错误，采用md5哈希算法确保数据不重复插入。
+
+* [greenbone/openvas-scanner](https://github.com/greenbone/openvas-scanner)  Greenbone 社区版的扫描仪组件 一个功能齐全的扫描引擎，可执行持续更新和扩展的漏洞测试 (VT) 馈送。
+
+* [d3ckx1/Fvuln](https://github.com/d3ckx1/Fvuln) Find-Vulnerability是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。
+
+* [sting8k/BurpSuite_403Bypasser](https://github.com/sting8k/BurpSuite_403Bypasser) 绕过 403 限制目录的 burpsuite 扩展。 通过使用 PassiveScan，每个 403 请求都会被这个扩展自动扫描。
+
+* [HatBoy/Struts2-Scan](https://github.com/HatBoy/Struts2-Scan) Struts2全漏洞扫描利用工具 支持的漏洞如下: S2-001, S2-003, S2-005, S2-007, S2-008, S2-009, S2-012, S2-013, S2-015, S2-016, S2-019, S2-029, S2-032, S2-033, S2-037, S2-045, S2-046, S2-048, S2-052, S2-053, S2-devMode, S2-057
+
+## 杀毒免杀
+
+* [TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。
+
+* [awsaaaq/GoBP](https://github.com/awsaaaq/GoBP) 免杀工具 Go语言编写
+
+* [Yihsiwei/GoFileBinder](https://github.com/Yihsiwei/GoFileBinder) golang免杀捆绑器
+
+* [midisec/BypassAnti-Virus](https://github.com/midisec/BypassAnti-Virus) 免杀姿势学习、记录、复现。
+
+* [Arks7/Go_Bypass](https://github.com/Arks7/Go_Bypass) 一个免杀生成器模板，目前可以过国内主流杀毒。
+
+* [Ed1s0nZ/cool](https://github.com/Ed1s0nZ/cool) Golang-Gin框架写的免杀平台，内置分离、捆绑等BypassAV方式。
+
+* [Gality369/CS-Loader](https://github.com/Gality369/CS-Loader) CS免杀,包括python版和C版本
+
+* [TideSec/GoBypassAV](https://github.com/TideSec/GoBypassAV) 整理了基于Go的16种API免杀测试、8种加密测试、反沙盒测试、编译混淆、加壳、资源修改等免杀技术，并搜集汇总了一些资料和工具。
+
+* [0x9ef/golang-uacbypasser](https://github.com/0x9ef/golang-uacbypasser) 用 Go 实现和编写的 Windows UAC 绕过技术
+
+* [safe6Sec/GolangBypassAV](https://github.com/safe6Sec/GolangBypassAV) 研究利用golang各种姿势bypassAV
+
+* [Tlaster/YourAV](https://github.com/Tlaster/YourAV) 宇宙级最轻量杀毒软件
+
+* [BC-SECURITY/Beginners-Guide-to-Obfuscation](https://github.com/BC-SECURITY/Beginners-Guide-to-Obfuscation) 规避检测：新手混淆指南防御者不断调整他们的安全措施以应对新的威胁。学习恶意软件交付和避免检测背后的方法。 探讨了 Microsoft 的反恶意软件扫描接口 (AMSI)、Windows Defender 和 Windows 事件跟踪 (ETW) 的内部工作原理。 学习如何使用 Visual Basic (VB)、PowerShell 和 C# 来使用混淆的恶意软件来避开 Microsoft 的防御。学习构建 AMSI 绕过技术，混淆来自动态和静态签名检测方法的有效负载，并了解替代网络规避方法。
+
+## 漏洞库、漏洞靶场
+
+* [pwntester/0day](https://github.com/pwntester/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC 该项目将不断更新
+
+* [ReAbout/web-sec](https://github.com/ReAbout/web-sec)  WEB安全手册(红队安全技能栈)，漏洞理解，漏洞利用，代码审计和渗透测试总结。
+
+* [cckuailong/vulbase](https://github.com/cckuailong/vulbase) 各大漏洞文库合集 Vulbase漏洞库
+
+* [helloexp/0day](https://github.com/helloexp/0day) 各CMS、各平台、各系统、各软件漏洞的EXP、POC 
+
+* [lxflxfcl/monitor](https://github.com/lxflxfcl/monitor) 漏洞监控平台。目前实现了监控GitHub、微软、CNNVD三者的漏洞信息，并使用企业微信实时推送。还可以使用邮箱推送，默认关闭。
+
+* [binganao/vulns-2022](https://github.com/binganao/vulns-2022) 用于搜集 2022 年的漏洞，注意：本项目并不刻意搜集 POC 或 EXP，主要以CVE-2021、CVE-2022 为关键词，包含但不限于漏洞资讯、漏洞复现、漏洞分析、漏洞验证、漏洞利用
+
+* [AonCyberLabs/Windows-Exploit-Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester) 该工具将目标补丁级别与 Microsoft 漏洞数据库进行比较，以检测目标上潜在的缺失补丁。如果存在可用于丢失公告的公共漏洞利用和 Metasploit 模块，它还会通知用户。
+
+* [tangxiaofeng7/SecExample](https://github.com/tangxiaofeng7/SecExample) JAVA 漏洞靶场 (Vulnerability Environment For Java)
+
+* [l4yn3/micro_service_seclab](https://github.com/l4yn3/micro_service_seclab) Java漏洞靶场是基于SpringBoot开发，目的是用来检测SAST工具的准确性(关注漏报和误报问题)的。
+
+* [Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) 一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库
+
+* [wooyunwang/Fortify](https://github.com/wooyunwang/Fortify) 源代码各种审计漏洞白测试盒的漏洞描述或具体修复方案
+
+* [fofapro/vulfocus](https://github.com/fofapro/vulfocus) 漏洞集成平台，将漏洞环境docker镜像，开箱即用。
+
+* [sqlsec/ssrf-vuls](https://github.com/sqlsec/ssrf-vuls) 手把手带你用 SSRF 打穿内网靶场源码
+
+## 安卓Android
+
+* [Simp1er/AndroidSec](https://github.com/Simp1er/AndroidSec) 记录一些我自己在学习安卓逆向过程中的海洋的东西
+
+* [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) 一个逆向工程安卓apk文件的工具
+
+* [cleverbao/520apkhook](https://github.com/cleverbao/520apkhook) 把ms的安卓远控附加进普通的app中，并进行隐藏特征。可以通用的手机安全管家。
+
+* [r0ysue/r0capture](https://github.com/r0ysue/r0capture) 安卓应用层抓包通杀脚本
+
+* [WindXaa/Android-Vulnerability-Mining](https://github.com/WindXaa/Android-Vulnerability-Mining) Android APP漏洞之战系列，主要讲述如何快速挖掘APP漏洞
+
+* [user1342/DroidDetective](https://github.com/user1342/DroidDetective) 适用于Android 应用程序的机器学习恶意软件分析框架。
+
+* [zhengjim/camille](https://github.com/zhengjim/camille) 基于Frida的Android App隐私合规检测辅助工具
+
+## 密码破解、字典
+
+* [0xHJK/TotalPass](https://github.com/0xHJK/TotalPass) 默认密码扫描器 是否存在默认密码\搜索常见设备默认密码\支持手动和自动更新密码库 扫描类型有SSH\Telnet\SNMP\Redis
+
+* [zricethezav/gitleaks](https://github.com/zricethezav/gitleaks) 用于检测和防止git repos 中的密码、api 密钥和令牌等硬编码秘密。易于使用的一体化解决方案，用于检测代码中过去或现在的秘密。
+
+* [bitsadmin/fakelogonscreen](https://github.com/bitsadmin/fakelogonscreen) 伪造 Windows 登录屏幕以窃取密码
+
+* [gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz) 从内存中提取明文密码、哈希、PIN 码和 kerberos 票证。还可以执行 pass-the-hash、pass-the-ticket 或构建*Golden Tickets*。
+
+* [JDArmy/SharpXDecrypt](https://github.com/JDArmy/SharpXDecrypt) Xshell全版本密码恢复工具
+
+* [L-codes/pwcrack-framework](https://github.com/L-codes/pwcrack-framework) 用Ruby编写的密码自动破解框架，目前提供了 22 个在线破解和 29 个离线破解接口，支持 52 种算法破解
+
+* [Leon406/ToolsFx](https://github.com/Leon406/ToolsFx) 基于kotlin+tornadoFx的跨平台密码学工具箱.包含编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功能,ctf等实用功能,支持插件
+
+* [sry309/PwdBUD](https://github.com/sry309/PwdBUD) 一款SRC密码生成工具，尝试top字典无果后，可以根据域名、公司名等因素来生成特定的字典
+
+* [914525753/Sh4d0w-BlastingDictionary](https://github.com/914525753/Sh4d0w-BlastingDictionary) 搜集的爆破字典，包括常用用户名、密码弱口令、XSS的on事件遍历、SQL万能密码等
+
+* [whiteknight7/wordlist](https://github.com/whiteknight7/wordlist) 常用字典，弱用户名、弱口令、目录列表等。
+
+* [t43Wiu6/blackJack-Dicts](https://github.com/t43Wiu6/blackJack-Dicts) 参考十余个项目整理的目录和文件字典。
+
+* [Karanxa/Bug-Bounty-Wordlists](https://github.com/Karanxa/Bug-Bounty-Wordlists) 包含在寻找错误时使用的所有重要字典
+
+* [insightglacier/Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting) Pentesing、Fuzzing、Bruteforce 和 BugBounty 等字典项目。渗透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
+
+## 其他_安全与渗透
+
+* [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) 自动 SQL 注入和数据库接管工具
+
 * [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行、cli/web 工具等。
 
 * [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
 
 * [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
 
-* [fofapro/vulfocus](https://github.com/fofapro/vulfocus) 漏洞集成平台，将漏洞环境docker镜像，开箱即用。
-
 * [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 简单现代公司域名使用规律预测及生成工具
 
-* [Adminisme/ServerScan](https://github.com/Adminisme/ServerScan) 使用Golang开发的高并发网络扫描、服务探测工具。
-
-* [0x727/ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) 水泽-信息收集自动化工具 只需要输入根域名即可全方位收集相关资产，并检测漏洞。
-
-* [TideSec/TideFinger](https://github.com/TideSec/TideFinger) TideFinger——指纹识别小工具，汲取整合了多个web指纹库，结合了多种指纹检测方法，让指纹检测更快捷、准确。
-
-* [wooyunwang/Fortify](https://github.com/wooyunwang/Fortify) 源代码各种审计漏洞白测试盒的漏洞描述或具体修复方案
-
-* [insightglacier/Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting) Pentesing、Fuzzing、Bruteforce 和 BugBounty 等字典项目。渗透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
-
 * [Al1ex/Pentest-tools](https://github.com/Al1ex/Pentest-tools) 内网渗透工具:ACL突破、交换、真实劫持、信息收集、内网电话、密码喷洒、密码抓取、密码破解、权限提升、权限维持、横向移动、端口扫描、端口转发、网络嗅探、集成工具
-
-* [inbug-team/SweetBabyScan](https://github.com/inbug-team/SweetBabyScan) 支持弱口令爆破的内网资产探测漏洞扫描工具，集成了Xray与Nuclei的Poc
-
-* [riramar/Web-Attack-Cheat-Sheet](https://github.com/riramar/Web-Attack-Cheat-Sheet) Web 攻击备忘单
-
-* [Leon406/ToolsFx](https://github.com/Leon406/ToolsFx) 基于kotlin+tornadoFx的跨平台密码学工具箱.包含编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功能,ctf等实用功能,支持插件
-
-* [TideSec/GoBypassAV](https://github.com/TideSec/GoBypassAV) 整理了基于Go的16种API免杀测试、8种加密测试、反沙盒测试、编译混淆、加壳、资源修改等免杀技术，并搜集汇总了一些资料和工具。
-
-* [Gality369/CS-Loader](https://github.com/Gality369/CS-Loader) CS免杀,包括python版和C版本
 
 * [1N3/IntruderPayloads](https://github.com/1N3/IntruderPayloads) Burpsuite Intruder 有效载荷、BurpBounty 有效载荷、模糊列表、恶意文件上传和 Web 渗透测试方法和清单的集合。
 
@@ -3767,8 +4064,6 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [DonatoReis/arno](https://github.com/DonatoReis/arno) 一个自动化工具，用于安装最流行的漏洞赏金或渗透测试工具！ 这将为您在设置机器工作时节省 90% 的时间。
 
 * [olist213/Information_Security_Books](https://github.com/olist213/Information_Security_Books) 信息安全方面的书籍书籍
-
-* [sting8k/BurpSuite_403Bypasser](https://github.com/sting8k/BurpSuite_403Bypasser) 绕过 403 限制目录的 burpsuite 扩展。 通过使用 PassiveScan，每个 403 请求都会被这个扩展自动扫描。
 
 * [xuanhusec/OscpStudyGroup](https://github.com/xuanhusec/OscpStudyGroup) Oscp公益学习组,包括：小技巧合集、Kali基本操作、常用工具、windows提权汇总、反弹shell方法汇总、靶机推荐列表、缓冲区溢出通关脚本框架、OSCP命令大全、反弹shell方法汇总、linux提权方法汇总、win提权方法汇总、Linux提权辅助、Win提权辅助、渗透测试方法论、靶机练习
 
@@ -3781,8 +4076,6 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [ybdt/post-hub](https://github.com/ybdt/post-hub) 传播代理、C2、免杀、横向、域渗透
 
 * [maK-/parameth](https://github.com/maK-/parameth) 该工具可用于暴力发现 GET 和 POST 参数
-
-* [hakluke/hakrawler](https://github.com/hakluke/hakrawler) 简单快速的网络爬虫，发现网络应用程序中的端点和资产
 
 * [quasar/Quasar](https://github.com/quasar/Quasar) 适用于 Windows 的免费、开源远程管理工具。用 C# 编码的快速、轻量级的远程管理工具。 使用范围从用户支持到日常管理工作再到员工监控。 提供高稳定性和易于使用的用户界面，是您的完美远程管理解决方案。
 
@@ -3802,17 +4095,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [tomnomnom/httprobe](https://github.com/tomnomnom/httprobe) 获取域列表并探测工作的 HTTP 和 HTTPS 服务器
 
-* [projectdiscovery/shuffledns](https://github.com/projectdiscovery/shuffledns) 使用主动暴力破解枚举有效的子域，并通过通配符处理和简单的输入输出支持来解析子域。
-
-* [punk-security/dnsReaper](https://github.com/punk-security/dnsReaper) 子域接管工具，每秒扫描大约 50 个子域，使用超过 50 个接管签名测试每个子域。在10 秒内扫描其整个 DNS 资产。
-
 * [ProjectAnte/dnsgen](https://github.com/ProjectAnte/dnsgen) 根据提供的输入生成域名组合。组合是根据单词表创建的。每次执行都会提取自定义词
-
-* [tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder) 查找与给定域相关的域和子域
-
-* [projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder) 子域发现工具，可以为网站发现有效的子域。设计为被动框架，可用于漏洞赏金和安全渗透测试。
-
-* [OWASP/Amass](https://github.com/OWASP/Amass) 使用开源信息收集和主动侦察技术执行攻击面的网络和资产发现。
 
 * [xuedingmiaojun/wxappUnpacker](https://github.com/xuedingmiaojun/wxappUnpacker) 小程序反编译（支持分包）
 
@@ -3824,13 +4107,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [Power7089/PenetrationTest-Tips](https://github.com/Power7089/PenetrationTest-Tips) 渗透测试小技巧，渗透测试Tips
 
-* [cleverbao/520apkhook](https://github.com/cleverbao/520apkhook) 把ms的安卓远控附加进普通的app中，并进行隐藏特征。可以通用的手机安全管家。
-
 * [Lotus6/ThinkphpGUI](https://github.com/Lotus6/ThinkphpGUI) Thinkphp 漏洞利用工具，支持各版本TP漏洞检测，命令执行，getshell。
-
-* [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) 一个逆向工程安卓apk文件的工具
-
-* [r0ysue/r0capture](https://github.com/r0ysue/r0capture) 安卓应用层抓包通杀脚本
 
 * [frida/frida](https://github.com/frida/frida) 面向开发、逆向工程师和安全研究的动态检测工具。-> [rida.re](https://frida.re/)
 
@@ -3840,25 +4117,11 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [RickGray/vscan-go](https://github.com/RickGray/vscan-go) 用于nmap 服务和应用程序版本检测的 golang 版本
 
-* [l3m0n/whatweb](https://github.com/l3m0n/whatweb) WEB指纹识别 - gowap基础上修改的golang版本
-
-* [rverton/webanalyze](https://github.com/rverton/webanalyze) Wappalyzer 的端口（揭示网站上使用的技术）以自动进行大规模扫描。
-
-* [zhzyker/dismap](https://github.com/zhzyker/dismap) 快速识别 Web 指纹信息，定位资产类型。辅助红队快速定位目标资产信息，辅助蓝队发现疑似脆弱点
-
 * [projectdiscovery/uncover](https://github.com/projectdiscovery/uncover) 使用多个搜索引擎快速发现互联网上暴露的主机。
-
-* [JoelGMSec/PyShell](https://github.com/JoelGMSec/PyShell) 多平台 Python WebShell。此工具可帮助您在 Web 服务器上获得类似 shell 的界面以进行远程访问。
-
-* [b0bac/ApolloScanner](https://github.com/b0bac/ApolloScanner) 自动化巡航扫描框架（可用于红队打点评估）.资产收集 github敏感信息收集 破解（基于exp的暴力破解） 漏洞扫描模块 
-
-* [Simp1er/AndroidSec](https://github.com/Simp1er/AndroidSec) 记录一些我自己在学习安卓逆向过程中的海洋的东西
 
 * [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)  PC版微信/QQ/TIM防撤回补丁
 
 * [tombstoneghost/TIWAP](https://github.com/tombstoneghost/TIWAP) 使用 Flask 制作的 Web 安全测试实验室，供新手安全爱好者了解各种 Web 漏洞。
-
-* [d3ckx1/Fvuln](https://github.com/d3ckx1/Fvuln) Find-Vulnerability是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。
 
 * [qianxiao996/CTF-Tools](https://github.com/qianxiao996/CTF-Tools) Python+Pyqt写的CTF编码、解码、加密、解密工具。
 
@@ -3870,37 +4133,19 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [Dliv3/Venom](https://github.com/Dliv3/Venom/) 使用Go开发的多级代理工具。
 
-* [WangYihang/Platypus](https://github.com/WangYihang/Platypus) 用 go 编写的现代多反向 shell 会话管理器
-
 * [jweny/pocassist](https://github.com/jweny/pocassist) 全新的开源漏洞测试框架，实现poc在线编辑、运行、批量测试。
 
 * [wh1t3p1g/ysomap](https://github.com/wh1t3p1g/ysomap) 一个有用的 Java 反序列化漏洞利用框架。
 
 * [whwlsfb/BurpCrypto](https://github.com/whwlsfb/BurpCrypto) AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破的BurpSuite插件
 
-* [Tlaster/YourAV](https://github.com/Tlaster/YourAV) 宇宙级最轻量杀毒软件
-
 * [jonaslejon/malicious-pdf](https://github.com/jonaslejon/malicious-pdf) 生成一堆带有 phone-home 功能的恶意 pdf 文件。可以与 Burp Collaborator 或 Interact.sh 一起使用
 
-* [i11us0ry/goon](https://github.com/i11us0ry/goon) 集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。
-
-* [Threekiii/Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) 一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库
-
 * [al0ne/LinuxCheck](https://github.com/al0ne/LinuxCheck) Linux应急处置/信息搜集/漏洞检测工具，支持基础配置/网络流量/任务计划/环境变量/用户信息/Services/bash/恶意文件/内核Rootkit/SSH/Webshell/挖矿文件/挖矿进程/供应链/服务器风险等13类70+项检查
-
-* [bdamele/icmpsh](https://github.com/bdamele/icmpsh) 简单的反向 ICMP shell，win32 从站和一个 C、Perl 或 Python 中的 POSIX 兼容主站。它不需要管理权限即可在目标机器上运行。
 
 * [ffffffff0x/f8x](https://github.com/ffffffff0x/f8x) 红蓝队环境自动部署工具,支持多场景,渗透,开发,代理,服务可选项等.
 
 * [SafeGroceryStore/Caesar](https://github.com/SafeGroceryStore/Caesar) 一个全新的敏感文件发现工具
-
-* [Ed1s0nZ/cool](https://github.com/Ed1s0nZ/cool) Golang-Gin框架写的免杀平台，内置分离、捆绑等BypassAV方式。
-
-* [zyylhn/zscan](https://github.com/zyylhn/zscan) 开源的内网端口扫描器、爆破工具和其他实用工具的集合体可以称为工具包。以主机和内网网段发现和端口扫描为基础，可以对mysql、mssql、redis、mongo、postgres、ftp、ssh、ldap、rdp、smb等服务进行爆破，还有其他netbios、smb、oxid、socks server（扫描内网中的代理服务器）、snmp、ms17010等扫描功能，支持poc（xray v1格式）单个和批量检测。
-
-* [jwt1399/Sec-Tools](https://github.com/jwt1399/Sec-Tools) 基于Python-Django的多功能Web安全渗透测试工具，包含漏洞扫描，端口扫描，指纹识别，目录扫描，旁站扫描，域名扫描等功能。
-
-* [tangxiaofeng7/SecExample](https://github.com/tangxiaofeng7/SecExample) JAVA 漏洞靶场 (Vulnerability Environment For Java)
 
 * [pen4uin/pentest-note](https://github.com/pen4uin/pentest-note) 渗透测试☞经验/思路/想法/总结/笔记
 
@@ -3911,14 +4156,6 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [helloSystem/hello](https://github.com/helloSystem/hello) 专注于简单、优雅和可用性的创作者桌面系统。基于 FreeBSD。
 
 * [hash3liZer/SillyRAT](https://github.com/hash3liZer/SillyRAT) 用纯 Python 编写的跨平台 RAT。RAT 接受命令和参数，以充当接受连接的服务器或充当与服务器建立连接的客户端/目标。
-
-* [knownsec/Kunyu](https://github.com/knownsec/Kunyu) 让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
-
-* [AonCyberLabs/Windows-Exploit-Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester) 该工具将目标补丁级别与 Microsoft 漏洞数据库进行比较，以检测目标上潜在的缺失补丁。如果存在可用于丢失公告的公共漏洞利用和 Metasploit 模块，它还会通知用户。
-
-* [l4yn3/micro_service_seclab](https://github.com/l4yn3/micro_service_seclab) Java漏洞靶场是基于SpringBoot开发，目的是用来检测SAST工具的准确性(关注漏报和误报问题)的。
-
-* [tihanyin/PSSW100AVB](https://github.com/tihanyin/PSSW100AVB) 具有 100% AV 绕过功能的有用 Powershell 脚本。
 
 * [Cyber-Guy1/API-SecurityEmpire](https://github.com/Cyber-Guy1/API-SecurityEmpire) 旨在展示API安全领域独特的攻击和防御方法
 
@@ -3934,13 +4171,7 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [H4CK3RT3CH/github-dorks](https://github.com/H4CK3RT3CH/github-dorks) Github 搜索是非常强大和有用的功能，可用于搜索存储库中的敏感数据。可以揭示敏感的个人和/或组织信息，例如私钥、凭据、身份验证令牌等。这个列表应该对评估安全性和执行系统的渗透测试很有用。
 
-* [lcvvvv/kscan](https://github.com/lcvvvv/kscan) 纯go的全方位扫描器，具备端口扫描、协议检测、指纹识别，暴力破解等功能。支持协议1200+，协议指纹1w+，应用指纹2w+，暴力破解协议10余种。
-
 * [NyDubh3/Pentesting-Active-Directory-CN](https://github.com/NyDubh3/Pentesting-Active-Directory-CN) 域渗透脑图中文翻译版
-
-* [binganao/vulns-2022](https://github.com/binganao/vulns-2022) 用于搜集 2022 年的漏洞，注意：本项目并不刻意搜集 POC 或 EXP，主要以CVE-2021、CVE-2022 为关键词，包含但不限于漏洞资讯、漏洞复现、漏洞分析、漏洞验证、漏洞利用
-
-* [L-codes/pwcrack-framework](https://github.com/L-codes/pwcrack-framework) 用Ruby编写的密码自动破解框架，目前提供了 22 个在线破解和 29 个离线破解接口，支持 52 种算法破解
 
 * [Maka8ka/NGLite](https://github.com/Maka8ka/NGLite) 基于区块链网络的匿名跨平台远控程序 理论上完全的匿名性，当然要是有人监测并分析了所有中间节点除外，目前节点约8W个
 
@@ -3948,97 +4179,25 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [Le0nsec/SecCrawler](https://github.com/Le0nsec/SecCrawler) 方便安全研究人员获取每日安全日报的爬虫和推送程序，目前爬取范围包括先知社区、安全客、Seebug Paper、跳跳糖、奇安信攻防社区、棱角社区以及绿盟、腾讯玄武、天融信、360等实验室博客，持续更新中。
 
-* [Idov31/FunctionStomping](https://github.com/Idov31/FunctionStomping) shellcode 注入技术。以 C++ 头文件、独立的 Rust 程序或库的形式给出。
-
-* [shmilylty/OneForAll](https://github.com/shmilylty/OneForAll) 功能强大的子域收集工具
-
-* [kelvinBen/AppInfoScanner](https://github.com/cqkenuo/appinfoscanner) 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。
-
 * [redcode-labs/Coldfire](https://github.com/redcode-labs/Coldfire) Golang 中的恶意软件开发库 提供了各种有用的方法。
 
 * [vxunderground/MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode) 收集各种不同编程语言、各种平台的恶意软件源代码。
 
 * [hlldz/pickl3](https://github.com/hlldz/pickl3) Windows 活动用户凭据网络钓鱼工具
 
-* [hosch3n/msmap](https://github.com/hosch3n/msmap) 一个Memory WebShell生成器。
-
 * [4ra1n/SpringInspector](https://github.com/4ra1n/SpringInspector) Java自动代码审计工具，尤其针对Spring框架，核心原理是模拟JVM栈帧进行分析，无需提供源码，通过一个JAR包即可
-
-* [lxflxfcl/monitor](https://github.com/lxflxfcl/monitor) 漏洞监控平台。目前实现了监控GitHub、微软、CNNVD三者的漏洞信息，并使用企业微信实时推送。还可以使用邮箱推送，默认关闭。
-
-* [airson/Yasso](https://github.com/sairson/Yasso) 强大的内网渗透辅助工具集-让Yasso像风一样 支持rdp，ssh，redis，postgres，mongodb，mssql，mysql，winrm等服务爆破，快速的端口扫描，强大的web指纹识别，各种内置服务的一键利用（包括ssh完全交互式登陆，mssql提权，redis一键利用，mysql数据库查询，winrm横向利用，多种服务利用支持socks5代理执行）
-
-* [yogeshojha/rengine](https://github.com/yogeshojha/rengine) 用于 Web 应用程序的自动化侦察框架，专注于通过引擎、侦察数据关联和组织、持续监控、简单而直观的用户界面以及简单而直观的用户界面。reNgine 使渗透测试人员可以轻松地收集侦察信息
 
 * [Tencent/secguide](https://github.com/Tencent/secguide) 面向开发人员梳理的代码安全指南
 
-* [Arks7/Go_Bypass](https://github.com/Arks7/Go_Bypass) 一个免杀生成器模板，目前可以过国内主流杀毒。
-
 * [slowmist/cryptocurrency-security](https://github.com/slowmist/cryptocurrency-security) 加密资产安全解决方案
 
-* [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan) 用于查找 log4j RCE CVE-2021-44228 的的扫描程序
-
-* [H4ckForJob/dirmap](https://github.com/H4ckForJob/dirmap) 一个高级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina、御剑。
-
-* [chaitin/xray](https://github.com/chaitin/xray) 完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc
-
-* [wgpsec/DBJ](https://github.com/wgpsec/DBJ) 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web资产梳理、Web指纹识别、ICON_Hash资产匹配
-
-* [sullo/nikto](https://github.com/sullo/nikto) 网络服务器扫描仪
-
-* [zhzyker/vulmap](https://github.com/zhzyker/vulmap/) web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能
-
-* [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) 基于简单 YAML 的 DSL 的快速且可定制的漏洞扫描器
-
-* [greenbone/openvas-scanner](https://github.com/greenbone/openvas-scanner)  Greenbone 社区版的扫描仪组件 一个功能齐全的扫描引擎，可执行持续更新和扩展的漏洞测试 (VT) 馈送。
-
-* [wpscanteam/wpscan](https://github.com/wpscanteam/wpscan) WordPress 安全扫描器。为安全专家和博客维护者编写，用于测试其 WordPress 网站的安全性。
-
-* [foryujian/yjdirscan](https://github.com/foryujian/yjdirscan) 御剑目录扫描专业版，简单实用的命令行网站目录扫描工具，支持爬虫、fuzz、自定义字典、字典变量、UA修改、假404过滤、扫描控速等功能。
-
 * [xmendez/wfuzz](https://github.com/xmendez/wfuzz) 在 HTTP 请求的任何字段中注入任何输入，允许在不同的 Web 应用程序组件中执行复杂的 Web 安全攻击，例如：参数、身份验证、表单、目录/文件、标头等。一个完全模块化的Python框架
-
-* [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch) 暴力破解网络服务器的目录和文件，网络路径扫描器
-
-* [EdgeSecurityTeam/Ehole](https://github.com/EdgeSecurityTeam/Ehole) 对资产中重点系统指纹识别的工具，在红队作战中，信息收集是必不可少的环节，如何才能从大量的资产中提取有用的系统(如OA、VPN、Weblogic...)。EHole旨在帮助红队人员在信息收集期间能够快速从C段、大量杂乱的资产中精准定位到易被攻击的系统，从而实施进一步攻击。
-
-* [s7ckTeam/Glass](https://github.com/s7ckTeam/Glass) 针对资产列表的快速指纹识别工具，通过调用Fofa ZoomEye Shodan 360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
-
-* [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) 识别网站，包括内容管理系统 (CMS)、博客平台、统计/分析包、JavaScript 库、网络服务器和嵌入式设备。WhatWeb 有超过 1800 个插件，每个插件都能识别不同的东西。WhatWeb 还可以识别版本号、电子邮件地址、帐户 ID、Web 框架模块、SQL 错误等。
-
-* [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) TCP 端口扫描器，异步发送 SYN 数据包，在 5 分钟内扫描整个互联网，从单台机器每秒传输 1000 万个数据包。
-
-* [Threezh1/JSFinder](https://github.com/Threezh1/JSFinder) 快速在网站的js文件中提取URL，子域名的工具。
-
-* [knownsec/ksubdomain](https://github.com/knownsec/ksubdomain) 无状态子域名爆破工具
-
-* [aboul3la/Sublist3r](https://github.com/aboul3la/Sublist3r) 用于渗透测试人员的快速子域枚举工具
-
-* [lijiejie/subDomainsBrute](https://github.com/lijiejie/subDomainsBrute) 高并发的DNS暴力枚举工具。 
-
-* [icyguider/Nimcrypt2](https://github.com/icyguider/Nimcrypt2) Nim 编写的 .NET、PE 和原始 Shellcode 打包程序/加载程序
-
-* [SiJiDo/H](https://github.com/SiJiDo/H) 一款强大的资产收集管理平台 主要用于src信息收集和红蓝对抗资产收集用，采用python celery分布式实现多节点部署，提高效率
-
-* [78778443/QingScan](https://github.com/78778443/QingScan) 漏洞扫描器粘合剂,添加目标后30款工具自动调用；支持 web、系统、目录、主机扫描、子域名收集、主机发现、组件识别、URL爬虫、XRAY扫描、AWVS自动扫描、POC批量验证，SSH批量测试、vulmap。
-
-* [test502git/awvs14-scan ](https://github.com/test502git/awvs14-scan)针对 Acunetix AWVS扫描器开发的批量扫描脚本，支持log4j漏洞、SpringShell、SQL注入、XSS、弱口令等专项，支持联动xray、burp、w13scan等被动批量
-
-* [safe6Sec/GolangBypassAV](https://github.com/safe6Sec/GolangBypassAV) 研究利用golang各种姿势bypassAV
-
-* [edoardottt/scilla](https://github.com/edoardottt/scilla) 信息收集工具 - DNS / 子域 / 端口 / 目录枚举
 
 * [https://github.com/Ryze-T/Sylas](https://github.com/Ryze-T/Sylas) 数据库综合利用工具
 
 * [lab52io/LeakedHandlesFinder](https://github.com/lab52io/LeakedHandlesFinder) 泄露的 Windows 进程句柄识别工具
 
 * [pen4uin/cloud-native-security](https://github.com/pen4uin/cloud-native-security) 云原生安全
-
-* [Cracked5pider/ShellcodeTemplate](https://github.com/Cracked5pider/ShellcodeTemplate) Win x64/x86 的易于修改的 shellcode 模板
-
-* [JDArmy/SharpXDecrypt](https://github.com/JDArmy/SharpXDecrypt) Xshell全版本密码恢复工具
-
-* [FunnyWolf/pystinger](https://github.com/FunnyWolf/pystinger) 使用webshell进行流量转发的出网工具
 
 * [weixinbao/ReverseTool](https://github.com/weixinbao/ReverseTool) 逆向工具集合 Java & Jar (Android)、 C++ & So (Android)、 C# & Dll & EXE、iOS
 
@@ -4052,25 +4211,11 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [AntSwordProject/AntSword-Loader](https://github.com/AntSwordProject/AntSword-Loader) 蚁剑加载器
 
-* [We5ter/Scanners-Box](https://github.com/We5ter/Scanners-Box) 安全行业从业者自研开源扫描器合辑
-
-* [gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz) 从内存中提取明文密码、哈希、PIN 码和 kerberos 票证。还可以执行 pass-the-hash、pass-the-ticket 或构建*Golden Tickets*。
-
 * [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) Web 应用程序安全和 Pentest/CTF 的有用有效负载和绕过列表
-
-* [FeeiCN/ESD](https://github.com/FeeiCN/ESD) Enumeration sub domains(枚举子域名)
-
-* [d3mondev/puredns](https://github.com/d3mondev/puredns) 快速的域解析器和子域暴力破解工具，可以准确过滤掉通配符子域和 DNS 中毒条目。
-
-* [Karanxa/Bug-Bounty-Wordlists](https://github.com/Karanxa/Bug-Bounty-Wordlists) 包含在寻找错误时使用的所有重要字典
 
 * [payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list)  SQL 注入负载列表
 
 * [projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh) OOB交互收集服务器和客户端库。用于检测带外交互的开源工具。它是一种旨在检测导致外部交互的漏洞的工具。
-
-* [projectdiscovery/naabu](https://github.com/projectdiscovery/naabu) 用 go 编写的快速端口扫描器，专注于可靠性和简单性。旨在与其他工具结合使用，以在错误赏金和渗透测试中发现攻击面
-
-* [helloexp/0day](https://github.com/helloexp/0day) 各CMS、各平台、各系统、各软件漏洞的EXP、POC 
 
 * [4ra1n/JavaSecInterview](https://github.com/4ra1n/JavaSecInterview) Java安全研究与安全开发面试题库，同是也是常见知识点的梳理和总结，包含问题和详细的答案，计划定期更新
 
@@ -4080,63 +4225,27 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [m4ll0k/Atlas](https://github.com/m4ll0k/Atlas) 快速 SQLMap 篡改建议器.Quick SQLMap Tamper Suggester
 
-* [0x727/ObserverWard](https://github.com/0x727/ObserverWard) 命令行Web指纹识别工具
-
-* [bitsadmin/fakelogonscreen](https://github.com/bitsadmin/fakelogonscreen) 伪造 Windows 登录屏幕以窃取密码
-
 * [AntSwordProject/ant](https://github.com/AntSwordProject/ant) 实时上线的 XSS 盲打平台 
 
 * [Lazenca/Kernel-exploit-tech](https://github.com/Lazenca/Kernel-exploit-tech) Linux 内核开发教程。
 
-* [chroblert/WindowsVulnScan](https://github.com/chroblert/WindowsVulnScan) 基于主机的漏洞扫描工具，采用多线程确保可以快速的请求数据，采用线程锁可以在向sqlite数据库中写入数据避免database is locked的错误，采用md5哈希算法确保数据不重复插入。
-
-* [asta-mouse/Sherlock](https://github.com/rasta-mouse/Sherlock) PowerShell 脚本，快速查找权限提升漏洞的缺失补丁。
-
-* [t43Wiu6/blackJack-Dicts](https://github.com/t43Wiu6/blackJack-Dicts) 参考十余个项目整理的目录和文件字典。
-
-* [AlphabugX/httpscan](https://github.com/AlphabugX/httpscan) 用于C段http资产快速扫描，目前只支持80端口。(多线程)
-
-* [0e0w/PassivesScan](https://github.com/0e0w/PassivesScan) 《被动扫描资源汇总》被动扫描一般是根据代理的流量中特定参数进行简单粗暴的发起请求。有些漏洞通过主动扫描很难发现，必须通过被动扫描实现。被动扫描结合爬虫技术往往是漏洞扫描的最优解。
-
 * [mstxq17/VunHunterTips](https://github.com/mstxq17/VunHunterTips) 漏洞挖掘技巧及其一些工具集成 。端口扫描、APP挖掘、BugbountyTips、SQL注入、SSRF、XSS、burp技巧、信息收集、信息泄露、另类漏洞挖掘、字典、常用扫描器、并发漏洞、弱口令Fuzz、文件读取、浏览器技巧、目录扫描、设备弱口令、越权相关、跳转redirect。
 
-* [dionach/CMSmap](https://github.com/Dionach/CMSmap) 开源 CMS 扫描程序，它可以自动检测最流行的 CMS 的安全漏洞。支持的 CMS 有 WordPress、Joomla、Drupal 和 Moodle。
-
-* [ajinabraham/CMSScan](https://github.com/ajinabraham/CMSScan) CMS 扫描仪：扫描 Wordpress、Drupal、Joomla、vBulletin 网站以查找安全问题
-
-* [wappalyzer/wappalyzer](https://github.com/wappalyzer/wappalyzer) 识别网站上的技术。例如 CMS、Web 框架、电子商务平台、JavaScript 库、分析工具等。
-
-* [HatBoy/Struts2-Scan](https://github.com/HatBoy/Struts2-Scan) Struts2全漏洞扫描利用工具 支持的漏洞如下: S2-001, S2-003, S2-005, S2-007, S2-008, S2-009, S2-012, S2-013, S2-015, S2-016, S2-019, S2-029, S2-032, S2-033, S2-037, S2-045, S2-046, S2-048, S2-052, S2-053, S2-devMode, S2-057
-
 * [rabbitmask/WeblogicScan](https://github.com/rabbitmask/WeblogicScan) Weblogic一键漏洞检测工具
-
-* [midisec/BypassAnti-Virus](https://github.com/midisec/BypassAnti-Virus) 免杀姿势学习、记录、复现。
 
 * [BeichenDream/Godzilla](https://github.com/BeichenDream/Godzilla) 内置3种Payload以及6种加密器,6种支持脚本后缀,20内置插件
 
 * [Chora10/Cknife](https://github.com/Chora10/Cknife) 跨平台的基于配置文件的中国菜刀(渗透测试工具)，把所有操作给予用户来定义，主程序只是图形的展示，以及数据的发送。
 
-* [epinna/weevely3](https://github.com/epinna/weevely3) 为后期开发目的而设计的 web shell，可以在运行时通过网络进行扩展。将它上传到目标服务器以获取对其的远程 shell 访问。它有 30 多个模块来协助管理任务、维护访问、提供态势感知、提升权限以及传播到目标网络。
-
 * [b1ackc4t/MarsCTF](https://github.com/b1ackc4t/MarsCTF) Vue+Springboot开发的CTF学习平台，提供动态靶机、学习模块、writeup模块等等CTF平台的核心功能。提供docker版本
 
 * [xuanhun/PythonHackingBook1](https://github.com/xuanhun/PythonHackingBook1) Python黑客编程之极速入门 教程分为6个大的部分：Python编程基础 网络安全  Web应用安全 漏洞利用 逆向.
-
-* [HZzz2/go-shellcode-loader](https://github.com/HZzz2/go-shellcode-loader) GO免杀shellcode加载器混淆AES加密
-
-* [whiteknight7/wordlist](https://github.com/whiteknight7/wordlist) 常用字典，弱用户名、弱口令、目录列表等。
-
-* [achuna33/MYExploit](https://github.com/achuna33/MYExploit) 基于产品的一键扫描工具。
 
 * [VMsec/iisScaner](https://github.com/VMsec/iisScaner) 多线程批量检测IIS短文件名漏洞+漏洞利用
 
 * [shimmeris/SCFProxy](https://github.com/shimmeris/SCFProxy) 利用云函数实现各种功能的工具。HTTP 代理\SOCKS5 代理\接收反弹 shell\C2 域名隐藏
 
-* [914525753/Sh4d0w-BlastingDictionary](https://github.com/914525753/Sh4d0w-BlastingDictionary) 搜集的爆破字典，包括常用用户名、密码弱口令、XSS的on事件遍历、SQL万能密码等
-
 * [AnLoMinus/Bug-Bounty](https://github.com/Anlominus/Bug-Bounty) 很棒的漏洞赏金工具
-
-* [sry309/PwdBUD](https://github.com/sry309/PwdBUD) 一款SRC密码生成工具，尝试top字典无果后，可以根据域名、公司名等因素来生成特定的字典
 
 * [daffainfo/Oneliner-Bugbounty](https://github.com/daffainfo/Oneliner-Bugbounty) 用于 bug 赏金的集合 oneliner 脚本 
 
@@ -4144,29 +4253,17 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [hfiref0x/UACME](https://github.com/hfiref0x/UACME) 通过滥用内置的 Windows AutoElevate 后门来获取Windows 用户帐户控制。
 
-* [cckuailong/vulbase](https://github.com/cckuailong/vulbase) 各大漏洞文库合集 Vulbase漏洞库
-
 * [ezshine/wxapkg-convertor](https://github.com/ezshine/wxapkg-convertor) 反编译微信小程序的工具，仓库也收集各种微信小程序/小游戏.wxapkg文件
 
 * [outflanknl/C2-Tool-Collection](https://github.com/outflanknl/C2-Tool-Collection) 通过 BOF 和反射 DLL 加载技术与 Cobalt Strike（以及可能的其他 C2 框架）集成的工具集合。
 
 * [J0o1ey/BountyHunterInChina](https://github.com/J0o1ey/BountyHunterInChina) 重生之我是赏金猎人系列，分享自己和团队在SRC、项目实战漏洞测试过程中的有趣案例
 
-* [ReAbout/web-sec](https://github.com/ReAbout/web-sec)  WEB安全手册(红队安全技能栈)，漏洞理解，漏洞利用，代码审计和渗透测试总结。
-
 * [metaStor/SpringScan](https://github.com/metaStor/SpringScan) SpringScan 漏洞检测 Burp插件
-
-* [zan8in/afrog](https://github.com/zan8in/afrog) 性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具
 
 * [biggerduck/RedTeamNotes](https://github.com/biggerduck/RedTeamNotes) 红队笔记 ,涉及代码审计/打点/免杀/内网渗透等方向
 
 * [DawnFlame/POChouse](https://github.com/DawnFlame/POChouse) POC&EXP仓库、hvv弹药库、Nday、1day
-
-* [0x9ef/golang-uacbypasser](https://github.com/0x9ef/golang-uacbypasser) 用 Go 实现和编写的 Windows UAC 绕过技术
-
-* [Yihsiwei/GoFileBinder](https://github.com/Yihsiwei/GoFileBinder) golang免杀捆绑器
-
-* [API-Security/APIKit](https://github.com/API-Security/APIKit) 主动/被动扫描发现应用泄露的API文档，并将API文档解析成BurpSuite中的数据包用于API安全测试。
 
 * [vavkamil/awesome-bugbounty-tools](https://github.com/vavkamil/awesome-bugbounty-tools) 各种错误bug赏金工具的精选列表
 
@@ -4174,13 +4271,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) 社区核心引擎模板列表，用于查找安全漏洞。
 
-* [1n7erface/RequestTemplate](https://github.com/1n7erface/RequestTemplate) 双语双端内网扫描以及验证工具
-
 * [Junehck/SQL-injection-bypass](https://github.com/Junehck/SQL-injection-bypass) 记录实战中的各种sql注入绕过姿势. 脏数据绕过waf\emoji绕过waf\注释符绕过waf\%00绕过waf\中间件特性绕过waf\关键字替换绕过waf\base64绕waf\全局替换绕过
 
 * [codeyso/CodeTest](https://github.com/codeyso/CodeTest) 脚本工具合集GUI版本，内置漏洞验证、利用模块，可自定义脚本实现批量验证。
-
-* [pwntester/0day](https://github.com/pwntester/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC 该项目将不断更新
 
 * [G4rb3n/IoT_Sec_Tutorial](https://github.com/G4rb3n/IoT_Sec_Tutorial) IoT安全教程 01-提取IoT固件 02-静态分析IoT固件 03-动态分析IoT固件 04-解密dlink固件 05-修复固件运行环境
 
@@ -4188,19 +4281,11 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [YDHCUI/manjusaka](https://github.com/YDHCUI/manjusaka) 基于WEB界面的仿CobaltStrike C2远控
 
-* [zhengjim/camille](https://github.com/zhengjim/camille) 基于Frida的Android App隐私合规检测辅助工具
-
 * [reidmu/sec-note](https://github.com/reidmu/sec-note) 记录安全方面的笔记/工具/漏洞合集
-
-* [shadow1ng/fscan](https://github.com/shadow1ng/fscan) 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
 
 * [erev0s/VAmPI](https://github.com/erev0s/VAmPI) 用 Flask 制作的易受攻击的 API，它包括来自 OWASP 前 10 个 API 漏洞的漏洞。
 
-* [3nock/sub3suite](https://github.com/3nock/sub3suite) 用于子域枚举、OSINT 信息收集和攻击面映射的研究级工具套件。支持对具有许多可用功能和工具的各种目标类型进行手动和自动分析。
-
 * [FirmWire/FirmWire](https://github.com/FirmWire/FirmWire) 一个全系统基带固件仿真平台，用于对智能手机基带固件进行模糊测试、调试和根本原因分析
-
-* [user1342/DroidDetective](https://github.com/user1342/DroidDetective) 适用于Android 应用程序的机器学习恶意软件分析框架。
 
 * [BWASP/BWASP](https://github.com/BWASP/BWASP) 一个开源的分析工具，用于支持 Web 漏洞手动分析
 
@@ -4214,17 +4299,11 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [hahwul/dalfox](https://github.com/hahwul/dalfox) 一款功能强大的开源 XSS 扫描工具和参数分析器、实用工具
 
-* [zricethezav/gitleaks](https://github.com/zricethezav/gitleaks) 用于检测和防止git repos 中的密码、api 密钥和令牌等硬编码秘密。易于使用的一体化解决方案，用于检测代码中过去或现在的秘密。
-
 * [streaak/keyhacks](https://github.com/streaak/keyhacks) KeyHacks 展示了可以使用在错误赏金计划中找到的特定 API key密钥的方法，以检查它们是否有效。
-
-* [m4ll0k/takeover](https://github.com/m4ll0k/takeover) 子域接管漏洞扫描程序
 
 * [p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird) 一个 OSINT 工具，用于在社交网络中按用户名搜索帐户。
 
 * [NextronSystems/ransomware-simulator](https://github.com/NextronSystems/ransomware-simulator) 用 Golang 编写的勒索软件模拟器
-
-* [devanshbatham/ParamSpider](https://github.com/devanshbatham/ParamSpider) 从 Web 档案的黑暗角落挖掘参数。 从输入域的网络档案中查找参数。也从子域中查找参数。支持排除具有特定扩展名的 url。以干净整洁的方式保存输出结果。它从网络档案中挖掘参数（不与目标主机交互）
 
 * [epsylon/xsser](https://github.com/epsylon/xsser) Cross Site "Scripter" (aka XSSer) 是一个自动框架，用于检测、利用和报告基于 Web 的应用程序中的 XSS 漏洞。
 
@@ -4244,15 +4323,9 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [defparam/smuggler](https://github.com/defparam/smuggler) HTTP 请求走私/去同步测试工具.请求走私大多发生于前端服务器和后端服务器对客户端传入的数据理解不一致的情况。这是因为HTTP规范提供了两种不同的方法来指定请求的结束位置，即 Content-Length 和 Transfer-Encoding 标头。[协议层的攻击——HTTP请求走私](https://paper.seebug.org/1048/)
 
-* [1N3/Sn1per](https://github.com/1N3/Sn1per) 自动侦察扫描程序，用于发现资产并用最新开源工具和技术扫描漏洞。
-
 * [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) 自动化 OSINT 以获取威胁情报并映射您的攻击面。
 
-* [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) 基于简单 YAML 的 DSL 的快速且可定制的漏洞扫描器。
-
 * [jaeles-project/jaeles](https://github.com/jaeles-project/jaeles) 用于自动化 Web 应用程序测试的瑞士军刀
-
-* [michelin/ChopChop](https://github.com/michelin/ChopChop) 帮助开发人员扫描端点并识别敏感服务/文件/文件夹的公开。
 
 * [FortyNorthSecurity/EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) 截取网站截图，提供一些服务器标头信息，并在可能的情况下识别默认凭据。分析不同的 Web 应用程序，并将相似的 Web 应用程序分组在一起，那么可以很容易地快速分类/查看您想要定位的组。
 
@@ -4260,23 +4333,15 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [lc/gau](https://github.com/lc/gau) 从 AlienVault 的 Open Threat Exchange、Wayback Machine 和 Common Crawl 获取已知 URL。
 
-* [hannob/snallygaster](https://github.com/hannob/snallygaster) 用于扫描 HTTP 服务器上的机密文件的工具
-
 * [fuzzdb-project/fuzzdb](https://github.com/fuzzdb-project/fuzzdb) 黑盒应用程序故障注入和资源发现的攻击模式和原语字典。
 
 * [jhaddix/tbhm](https://github.com/jhaddix/tbhm) Bug Hunters 漏洞猎人方法论
 
 * [HolyBugx/HolyTips](https://github.com/HolyBugx/HolyTips) 关于漏洞赏金狩猎和 Web 安全性的注释、清单、文章的集合。
 
-* [KingOfBugbounty/KingOfBugBountyTips](https://github.com/KingOfBugbounty/KingOfBugBountyTips) 分享一些知名漏洞猎人的技巧。使用侦察方法，我们能够找到已经可利用的子域、api 和令牌。
-
 * [nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters) 初学者漏洞猎人资源
 
-* [guchangan1/All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool) 全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms漏洞利用工具，爆破工具、内网横向及免杀、社工钓鱼以及应急响应等资料。
-
 * [ncabatoff/process-exporter](https://github.com/ncabatoff/process-exporter) 挖掘 /proc 以报告选定进程的 Prometheus 导出器
-
-* [sqlsec/ssrf-vuls](https://github.com/sqlsec/ssrf-vuls) 手把手带你用 SSRF 打穿内网靶场源码
 
 * [lu2ker/PHP-Code](https://github.com/lu2ker/PHP-Code) 通过ThinkPHP框架学习PHP代码审计
 
@@ -4290,25 +4355,15 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [Sakurasan/scf-proxy](https://github.com/Sakurasan/scf-proxy) 云函数代理服务
 
-* [wikiZ/ServerlessScan](https://github.com/wikiZ/ServerlessScan) 云函数扫描器实现代码
-
 * [teamssix/twiki](https://github.com/teamssix/twiki) 面向云安全方向的知识库
 
 * [Getshell/LinuxTQ](https://github.com/Getshell/LinuxTQ) Linux提权方法论 包括提权漏洞原理或方法工具等。Linux提权在后渗透过程中较为重要，尤其是对于权限维持至关重要。
 
-* [awsaaaq/GoBP](https://github.com/awsaaaq/GoBP) 免杀工具 Go语言编写
-
 * [rootkit-io/awesome-malware-development](https://github.com/rootkit-io/awesome-malware-development) 恶意软件开发资源的列表
-
-* [hktalent/scan4all](https://github.com/hktalent/scan4all) vuls 扫描：1.5W+PoCs； 23种应用密码破解； 7K+网络指纹； 146种协议和9W+条规则端口扫描； Fuzz，硬件，很棒的 BugBounty(͡° ͜ʖ ͡°)...
-
-* [0xHJK/TotalPass](https://github.com/0xHJK/TotalPass) 默认密码扫描器 是否存在默认密码\搜索常见设备默认密码\支持手动和自动更新密码库 扫描类型有SSH\Telnet\SNMP\Redis
 
 * [Yyyyshen/HackTechLearning](https://github.com/Yyyyshen/HackTechLearning) 学习《Windows黑客编程技术详解》 每个例子都有
 
 * [KathanP19/HowToHunt](https://github.com/KathanP19/HowToHunt) 收集各种 Web 漏洞的方法和测试用例。[->gitbook](https://kathan19.gitbook.io/howtohunt/) 
-
-* [LoRexxar/Kunlun-M](https://github.com/LoRexxar/Kunlun-M) 完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。
 
 * [HummerRisk/HummerRisk](https://github.com/HummerRisk/HummerRisk) 云原生安全平台，包括混合云安全治理和安全检测。
 
@@ -4324,19 +4379,11 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [Endava/cats](https://github.com/Endava/cats) REST API 模糊器和 OpenAPI 端点的负面测试工具。CATS 以最少的配置自动生成、运行和报告测试，无需编码工作。测试是自我修复的，不需要维护。
 
-* [m3n0sd0n4ld/GooFuzz](https://github.com/m3n0sd0n4ld/GooFuzz) 使用OSINT方法执行模糊测试的工具，设法枚举目录，文件，子域或参数，同时利用Google Dorking，而无需在目标上留下证据。
-
 * [t3l3machus/toxssin](https://github.com/t3l3machus/toxssin) XSS 利用命令行界面和有效负载生成器。
-
-* [LandGrey/webshell-detect-bypass](https://github.com/LandGrey/webshell-detect-bypass) 绕过专业工具检测的Webshell研究文章和免杀的Webshell
-
-* [Tas9er/ByPassBehinder4J](https://github.com/Tas9er/ByPassBehinder4J) 冰蝎Java WebShell自动化免杀生成
 
 * [FeeiCN/GSIL](https://github.com/FeeiCN/GSIL) GitHub敏感信息泄露监控
 
 * [TophantTechnology/ARL](https://github.com/TophantTechnology/ARL) 资产侦察灯塔系统旨在快速侦察与目标关联的互联网资产，构建基础资产信息库。 协助甲方安全团队或者渗透测试人员有效侦察和检索资产，发现存在的薄弱点和攻击面。
-
-* [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) 下一代网络扫描仪
 
 * [banach-space/llvm-tutor](https://github.com/banach-space/llvm-tutor) 用于教学和学习的 out-of-tree LLVM passes 的集合
 
@@ -4352,17 +4399,21 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 
 * [RedTeamPentesting/pretender](https://github.com/RedTeamPentesting/pretender) 您的 MitM 助手，用于中继攻击，具有 DHCPv6 DNS 接管以及 mDNS、LLMNR 和 NetBIOS-NS 欺骗。
 
-* [TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。
-
 * [r0uble-mAker/POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) 漏洞检测/利用工具，旨在利用大量高危害漏洞的POC/EXP快速获取目标服务器权限 支持weblogic，tomcat，apache，jboss，nginx，struct2，thinkphp2x3x5x，spring，redis，jenkins，php语言漏洞，shiro，泛微OA，致远OA，通达OA等易受攻击组件的漏洞检测，支持调用dnslog平台检测无回显的rce(包括log4j2的检测)，支持单个目标检测和批量检测，程序采用高并发线程池，支持自定义导入poc/exp，并能够生成漏洞报告.使用验证模式进行poc的验证，如返回结果中attack的值为True时，可以加-attack进入攻击模式直接调用exp进行攻击(需要指定poc文件名)，达到一键getshell
-
-* [czz1233/GBByPass](https://github.com/czz1233/GBByPass) 冰蝎 哥斯拉 WebShell bypass
-
-* [WindXaa/Android-Vulnerability-Mining](https://github.com/WindXaa/Android-Vulnerability-Mining) Android APP漏洞之战系列，主要讲述如何快速挖掘APP漏洞
 
 * [mitre/caldera](https://github.com/mitre/caldera) 一个网络安全平台，旨在轻松实现对手模拟的自动化、协助手动红队和自动化事件响应。
 
 * [onekey-sec/unblob](https://github.com/onekey-sec/unblob) 准确、快速且易于使用的提取套件。 它为超过 30 种不同的存档、压缩和文件系统格式解析未知二进制 blob，递归地提取它们的内容，并分割出尚未考虑的未知块。这使 unblob 成为提取、分析和逆向工程固件映像的完美伴侣。
+
+* [outflanknl/EvilClippy](https://github.com/outflanknl/EvilClippy) 用于创建恶意 MS Office 文档的跨平台助手。 可以隐藏 VBA 宏，踩踏 VBA 代码（通过 P-Code）并混淆宏分析工具。 
+
+* [decalage2/oletools](https://github.com/decalage2/oletools) 用于分析 MS OLE2 文件（结构化存储、复合文件二进制格式）和 MS Office 文档的 python 工具，用于恶意软件分析、取证和调试。
+
+* [hluwa/frida-dexdump](https://github.com/hluwa/frida-dexdump) frida 工具，将dex转储到内存中以分析恶意软件。
+
+* [1ndianl33t/Bug-Bounty-Roadmaps: Bug Bounty Roadmaps](https://github.com/1ndianl33t/Bug-Bounty-Roadmaps) Bug赏金路线图
+
+* [stark0de/nginxpwner](https://github.com/stark0de/nginxpwner) 用于查找常见的 Nginx 配置错误和漏洞。
 
 # 其他
 
@@ -4645,6 +4696,8 @@ https://github.com/baidu/BaikalDB 分布式HTAP数据库 支持PB级结构数据
 * [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) 使用 PUT/POST 将推送通知发送到您的手机或桌面
 
 * [charmbracelet/vhs](https://github.com/charmbracelet/vhs) 集测试和演示 CLI 于一身的视频记录仪，它会根据你的指令生成相关的操作视频。
+
+* [waydroid/waydroid](https://github.com/waydroid/waydroid) 基于容器的方法在GNU/Linux 系统上启动完整的 Android 系统。
 
 # Star数变化
 
