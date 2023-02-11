@@ -521,6 +521,10 @@
 
 * [AutoViML/AutoViz](https://github.com/AutoViML/AutoViz) 使用一行代码自动可视化任何大小的任何数据集。
 
+* [pola-rs/polars](https://github.com/pola-rs/polars) 速度极快的 DataFrames 库，使用 Apache Arrow Columnar Format 作为内存模型在 Rust 中实现。
+
+* [facebookincubator/AITemplate](https://github.com/facebookincubator/AITemplate) Python 框架，可将神经网络渲染为高性能 CUDA/HIP C++ 代码。 专门用于 FP16 TensorCore（NVIDIA GPU）和 MatrixCore（AMD GPU）推理。
+
 # 图神经网络GNN
 
 ## 图机器学习库
@@ -1030,6 +1034,8 @@
 
 * [CyberZHG/keras-xlnet](https://github.com/CyberZHG/keras-xlnet) XLNet的非官方实现。
 
+* [hwchase17/langchain](https://github.com/hwchase17/langchain)  通过可组合性使用大型语言模型构建应用程序  基于 OPENAI 的 GPT3 等大语言模型设计一系列便于集成到实际应用中的接口，降低了在实际场景中部署大语言模型的难度
+
 * [IDEA-CCNL/Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) Fengshenbang-LM(封神榜大模型)是IDEA研究院认知计算与自然语言研究中心主导的大模型开源体系，成为中文认知智能的基础设施。包括了自然语言理解(NLU)，自然语言生成(NLG)和自然语言转换(NLT)任务。CHID(成语填空)、TNEWS(新闻分类)超过人类，CHID(成语填空)、CSLDCP(学科文献分类)、OCNLI(自然语言推理)单任务第一，刷新小样本学习记录。
 
 * [ymcui/Chinese-XLNet](https://github.com/ymcui/Chinese-XLNet) 面向中文的XLNet预训练模型
@@ -1071,6 +1077,8 @@
 * [OpenBMB/BMTrain](https://github.com/OpenBMB/BMTrain) 高效的大型模型训练工具包，可用于训练具有数百亿参数的大型模型。 它可以以分布式方式训练模型，同时保持代码像单机训练一样简单。
 
 * [microsoft/CodeBERT](https://github.com/microsoft/CodeBERT) 针对编程语言的预训练模型，在Py、Java、JS、PHP、Ruby、Go的 NL-PL 对上进行预训练的多编程语言模型。
+
+* [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
 
 ## 文本分类
 
@@ -1586,7 +1594,7 @@
 
 [bojone/attention](https://github.com/bojone/attention)  Attention机制的实现tensorflow/keras
 
-[425776024/nlpcda](https://github.com/425776024/nlpcda) 中文数据增强工具,随机实体替换\近义词\近义近音字替换\随机字删除\NER类 BIO 数据增强\随机置换邻近的字\百度中英翻译互转实现的增强\中文等价字替换
+[425776024/nlpcda](https://github.com/425776024/nlpcda) 中文数据增强工具,随机实体替换\近义词\近义近音字替换\随机字删除\NER类 BIO 数据增强\随机置换邻近的字\百度中英翻译互转\中文等价字替换
 
 [wac81/textda](https://github.com/wac81/textda) Python3中文文本的数据增强
 
@@ -1729,6 +1737,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 [textstat/textstat](https://github.com/textstat/textstat) 用于计算文本对象（段落、句子、文章）的可读性统计数据。
 
+[nonebot/nonebot2](https://github.com/nonebot/nonebot2) 跨平台 Python 异步聊天机器人框架
+
 # 推荐系统
 
 ## 推荐系统算法库与列表
@@ -1739,17 +1749,17 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 * [YuyangZhangFTD/awesome-RecSys-papers](https://github.com/YuyangZhangFTD/awesome-RecSys-papers) 推荐系统中的经典论文
 
-* https://github.com/ChenglongChen/tensorflow-DeepFM
+* [ChenglongChen/tensorflow-DeepFM](https://github.com/ChenglongChen/tensorflow-DeepFM) 
 
 * [alibaba/DeepRec](https://github.com/alibaba/DeepRec) 基于 TensorFlow 的推荐引擎。具有超大规模分布式训练能力，支持万亿样本的模型训练和千亿的Embedding Processing。针对稀疏模型场景，在CPU和GPU平台上进行了深度的性能优化。
 
 * [cheungdaven/DeepRec](https://github.com/cheungdaven/DeepRec) 基于 TensorFlow 的深度学习推荐的开源工具包。
 
-* https://github.com/lyst/lightfm A Python implementation of LightFM, a hybrid recommendation algorithm.
+* [lyst/lightfm](https://github.com/lyst/lightfm)  LightFM 的 Python 实现，一种混合推荐算法。
 
-* https://github.com/tensorflow/recommenders TensorFlow Recommenders is a library for building recommender system models using TensorFlow.
+* [tensorflow/recommenders](https://github.com/tensorflow/recommenders) 使用 TensorFlow 构建推荐系统模型的库。
 
-* https://github.com/RUCAIBox/RecBole 统一，全面，高效的推荐库，包括：
+* [RUCAIBox/RecBole](https://github.com/RUCAIBox/RecBole) 统一，全面，高效的推荐库，包括：
   
   - AFM,AutoInt,DCN,DeepFM,DSSM,FFM,FM,FNN,FwFM,LR,NFM,PNN,WideDeep,xDeepFM,BPR,ConvNCF,DGCF,DMF,FISM,GCMC,ItemKNN,LightGCN,NAIS,NeuMF,NGCF,Pop,SpectralCF,CFKG,
   - CKE（Collaborative Knowledge base Embedding 发自16年KDD，将KG与CF融合做联合训练）
@@ -1765,9 +1775,11 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 * [datawhalechina/torch-rechub](https://github.com/datawhalechina/torch-rechub) 用于推荐模型的轻量级Pytorch 框架，易于使用且易于扩展。scikit-learn风格易用的API。模型训练与模型定义解耦，易拓展，可针对不同类型的模型设置不同的训练机制。接受pandas的DataFrame、Dict数据输入，上手成本低。高度模块化，容易调用组装成新模型 LR、MLP、FM、FFM、CIN、target-attention、self-attention、transformer。支持常见排序模型 WideDeep、DeepFM、DIN、DCN、xDeepFM等。支持常见召回模型 DSSM、YoutubeDNN、YoutubeDSSM、FacebookEBR、MIND等。多任务学习支持SharedBottom、ESMM、MMOE、PLE、AITM等模型。 GradNorm、UWL、MetaBanlance等动态loss加权机制。
 
-* https://github.com/shenweichen/DeepMatch 用于推荐和广告的深度匹配模型库。训练模型和导出用户和项目的表示向量非常容易，可用于ANN搜索。
+* [shenweichen/DeepMatch](https://github.com/shenweichen/DeepMatch) 用于推荐和广告的深度匹配模型库。训练模型和导出用户和项目的表示向量非常容易，可用于ANN搜索。
 
-* https://github.com/ZiyaoGeng/Recommender-System-with-TF2.0 CTR预言论文进行复现，包括传统模型（MF，FM，FFM等），神经网络模型（WDL，DCN等）以及序列模型（DIN）。
+* [PaddlePaddle/PaddleRec](https://github.com/PaddlePaddle/PaddleRec) 大规模推荐算法库，包含推荐系统经典及最新算法LR、Wide&Deep、DSSM、TDM、MIND、Word2Vec、Bert4Rec、DeepWalk、SSR、AITM，DSIN，SIGN，IPREC、GRU4Rec、Youtube_dnn、NCF、GNN、FM、FFM、DeepFM、DCN、DIN、DIEN、DLRM、MMOE、PLE、ESMM、ESCMM, MAML、xDeepFM、DeepFEFM、NFM、AFM、RALM、DMR、GateNet、NAML、DIFM、Deep Crossing、PNN、BST、AutoInt、FGCNN、FLEN、Fibinet、ListWise、DeepRec、ENSFM，TiSAS，AutoFIS等，包含经典推荐系统数据集criteo 、movielens等
+
+* [ZiyaoGeng/Recommender-System-with-TF2.0](https://github.com/ZiyaoGeng/Recommender-System-with-TF2.0) CTR预言论文进行复现，包括传统模型（MF，FM，FFM等），神经网络（WDL，DCN等）以及序列模型（DIN）。
 
 * https://github.com/THUwangcy/ReChorus 用于Top-K推荐的通用PyTorch框架，具有隐式反馈，尤其是用于研究目的。BPR\NCF\Tensor\GRU4Rec\NARM\SASRec\TiSASRec\CFKG\SLRC\Chorus
 
@@ -3053,7 +3065,7 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [taichi-dev/taichi](https://github.com/taichi-dev/taichi) 高效且可移植的 Python 高性能编程。该语言具有广泛的应用，包括实时物理模拟、数字计算、增强现实、人工智能、视觉和机器人技术、电影和游戏中的视觉效果、通用计算等等。
 
-[open-mmlab/mmcv](https://github.com/open-mmlab/mmcv) MMCV 是计算机视觉研究的基础库，它提供以下功能：通用 IO API、图像/视频处理、图像和注释可视化、有用的实用程序（进度条，计时器，...）、具有挂钩机制的 PyTorch runner、各种CNN架构、常见CPU 和 CUDA 操作的高质量实现。
+[open-mmlab/mmcv](https://github.com/open-mmlab/mmcv) MMCV 是计算机视觉研究的基础库，它提供以下功能：通用 IO API、图像/视频处理、图像和注释可视化、有用的实用程序（进度条，计时器，...）、具有挂钩机制的 PyTorch runner、各种CNN架构、CPU 和 CUDA 操作的高质量实现。
 
 [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) 最先进、功能最全、最可靠的开源自动驾驶软件。自 2010 年以来，它一直由专业工程师、计算机科学家和社区贡献者组成的多元化团队开发。我们的自动驾驶软件能够控制几乎任何可以想象的车辆系统，从传统飞机、四架飞机、多旋翼和直升机到漫游车、船只、平衡机器人，甚至潜艇。它正在不断扩展，为新的车辆类型提供支持。
 
@@ -3317,6 +3329,16 @@ https://github.com/google-research/remixmatch 改进了最近提出的MixMatch�
 
 [microsoft/GLIP](https://github.com/microsoft/GLIP) 将目标检测任务转换为短语定位任务。对待任意一张训练图片，把标签用句号隔开，拼接成一句话。通过这种方式，所有的目标检测数据集都可转化为短语定位数据集。至此，便有了文字-重点区域对（word-region pair）。然后，对文字和图片分别进行编码，获得了文字与图片各自的特征。
 
+[jina-ai/discoart](https://github.com/jina-ai/discoart) DiscoArt 是一种优雅的方式，可以为生成艺术家、AI 爱好者和铁杆开发人员创建引人注目的 Disco Diffusion艺术作品。
+
+[olive-editor/olive](https://github.com/olive-editor/olive) 适用于 Win、macOS 和 Linux 的免费非线性视频编辑器。
+
+[NatronGitHub/Natron](https://github.com/NatronGitHub/Natron) 一款免费的开源（GPLv2 许可证）视频合成器，其功能类似于 Adobe After Effects、Foundry 的 Nuke 或 Blackmagic Fusion。 它是可移植的和跨平台的（GNU/Linux、macOS 和 Microsoft Windows）。
+
+[patriciogonzalezvivo/glslViewer](https://github.com/patriciogonzalezvivo/glslViewer) 基于控制台的 OpenGL 沙盒，无需 UI 即可显示 2D/3D GLSL 着色器。 您绝对可以使用 Python 模块（包括）或任何其他通过标准 POSIX 控制台输入/输出或 OSC 与 glslViewer 来回通信的工具来制作自己的 UI 或包装器。
+
+[ossrs/srs](https://github.com/ossrs/srs) SRS是一个简单、高效的实时视频服务器，支持RTMP、WebRTC、HLS、HTTP-FLV、SRT、MPEG-DASH和GB28181。
+
 # 虚拟化
 
 [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -3345,9 +3367,11 @@ https://github.com/google-research/remixmatch 改进了最近提出的MixMatch�
 
 [rguo12/awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms) 用数据学习因果关系的算法索引
 
-[gcastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle) 华为诺亚方舟实验室自研的因果结构学习工具链，主要的功能包括：数据生成及处理；因果图构建: 包含了主流的因果学习算法以及最近兴起的基于梯度的因果结构学习算法；因果评价: 提供常用的因果结构学习性能评价指标，包括F1, SHD, FDR, TPR, FDR, NNZ等。
+[gcastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle) 华为诺亚方舟实验室自研的因果结构学习工具链，主要的功能包括：数据生成及处理；因果图构建: 包含了主流的因果学习算法以及最近兴起的基于梯度的因果结构学习算法；因果评价: 提供因果结构学习评价指标，包括F1, SHD, FDR, TPR, FDR, NNZ等。
 
 [cmu-phil/causal-learn](https://github.com/cmu-phil/causal-learn) 用于因果发现的 python 包，它实现了经典和最先进的因果发现算法，它是Tetrad的 Python 翻译和扩展。
+
+[DataCanvasIO/YLearn](https://github.com/DataCanvasIO/YLearn) 因果学习算法工具包，支持因果学习任务中的各类相关任务，从因果效应识别（causal effect idenfitication），到因果效应估计（causal effect estimation），到因果发现（causal discovery）等等，都可以通过YLearn实现。
 
 [huawei-noah/trustworthyAI](https://github.com/huawei-noah/trustworthyAI) 基于图自编码器的因果结构学习模型
 
@@ -3360,6 +3384,8 @@ https://github.com/google-research/remixmatch 改进了最近提出的MixMatch�
 [quantumblacklabs/causalnex](https://github.com/quantumblacklabs/causalnex) 可帮助数据科学家推断因果关系而不是观察相关性的Py 库。
 
 [google/CausalImpact](https://github.com/google/CausalImpact) 用于时间序列中因果推理的 R 包
+
+[quantumblacklabs/causalnex](https://github.com/quantumblacklabs/causalnex) “使用贝叶斯网络进行因果推理的工具包。”利用贝叶斯网络来识别数据中的因果关系，以便我们可以从分析中制定正确的干预措施。 与基于模式识别和相关性分析的传统机器学习方法相比，利用贝叶斯网络更直观地描述因果关系。 CausalNex 旨在简化因果关系和反事实分析的端到端流程。
 
 # 图数据库图算法
 
@@ -3647,6 +3673,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。开箱即用的 TypeScript 支持。文件系统路由 à la Next.js。
 
+* [oven-sh/bun](https://github.com/oven-sh/bun) 多合一快速且易于使用的工具。 不需要 1,000 个用于开发的 node_modules，你只需要 bun。
+
 * [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
 
 * [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)  网络如何运作 当我们在浏览器中输入 google.com 时，幕后会发生什么？
@@ -3680,6 +3708,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘网站、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
 
 * [mastodon/mastodon](https://github.com/mastodon/mastodon) 基于 ActivityPub 的免费开源社交网络服务器，用户可以在其中关注并发现新朋友。 在 Mastodon 上，用户可以发布他们想要的任何东西：链接、图片、文本、视频。 所有服务器都可以作为联合网络进行互操作（一台服务器上的用户可以与另一台服务器上的用户无缝通信，包括实现 ActivityPub 的非 Mastodon 软件）！
+
+* [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) 一个真正抗审查的 Twitter 替代品，有可能发挥作用。最简单的开放协议，能够一劳永逸地创建一个抗审查的全球“社交”网络。 它不依赖于任何受信任的中央服务器，因此具有弹性； 它基于加密密钥和签名，因此是防篡改的； 它不依赖于 P2P 技术，因此可以正常工作。
 
 * [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) Qt C++开发的B站视频、直播、漫画下载器。
 
@@ -4443,6 +4473,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [zhkl0228/unidbg](https://github.com/zhkl0228/unidbg) 允许您模拟 Android 本机库和实验性 iOS 模拟
 
+* [qilingframework/qiling](https://github.com/qilingframework/qiling) 真正可检测的二进制仿真框架
+
 # 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -4454,6 +4486,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
 
 * [luong-komorebi/Awesome-Linux-Software ](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md) 收集了对任何用户/开发者都觉得超赞的 Linux 应用软件。
+
+* [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)  交互式路线图、指南和其他教育内容，以帮助开发人员在他们的职业生涯中成长。包括：前端、后端、开发运营、计算机科学、质量检查、软件架构师、软件设计和架构路、JavaScript、TypeScript、React、Vue 、Angular、Node.js、GraphQL、安卓、Flutter、Python、Go、Java、Spring Boot、设计系统、DBA、区块链、ASP.NET、系统设计、Kubernetes
 
 * [electron/electron](https://github.com/electron/electron)使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
 
@@ -4469,7 +4503,7 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [avelino/awesome-go](https://github.com/avelino/awesome-go) 精选的 Go 框架、库和软件的精选列表
 
-* [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集整理GitHub上高质量、有趣的开源项目。
+* [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集GitHub高质量、有趣的开源项目。
 
 * [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) 收集了各种类别的出色 macOS 软件。
 
@@ -4478,6 +4512,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) 很棒的命令行框架、工具包、指南和小玩意的精选列表。
 
 * [MTrajK/coding-problems](https://github.com/MTrajK/coding-problems/) 各种编码/算法问题的解决方案以及许多用于学习算法和数据结构的python资源
+
+* [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) Linux命令大全搜索，包含手册、详解、学习、搜集。
 
 * [Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) 100 多个具有挑战性的 Python 编程练习
 
@@ -4525,13 +4561,13 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [DaveJarvis/keenwrite](https://github.com/DaveJarvis/keenwrite) Java的Markdown编辑器，具有实时预览，字符串插值和公式
 
-* https://github.com/vinayak-mehta/present 基于终端的演示工具，具有颜色和效果。
+* [vinayak-mehta/present](https://github.com/vinayak-mehta/present) 基于终端的演示工具，具有颜色和效果。
 
 * [girliemac/a-picture-is-worth-a-1000-words](https://github.com/girliemac/a-picture-is-worth-a-1000-words) 用简单的涂鸦来描述复杂的事情！包括：算法、web、机器学习、Git、HTTP 状态等
 
 * https://github.com/willmcgugan/rich 一个终端内富文本和美化的python库。
 
-* https://github.com/crazycodeboy/awesome-flutter-cn  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
+* [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn)  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
 
 * [osoutpost/awesome-flutter-cn](https://github.com/osoutpost/awesome-flutter-cn) Flutter 资源大全中文版。包括：组件、导航、模板、插件、框架和引擎等
 
@@ -4727,7 +4763,17 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [charmbracelet/vhs](https://github.com/charmbracelet/vhs) 集测试和演示 CLI 于一身的视频记录仪，它会根据你的指令生成相关的操作视频。
 
-* [waydroid/waydroid](https://github.com/waydroid/waydroid) 基于容器的方法在GNU/Linux 系统上启动完整的 Android 系统。
+* [waydroid/waydroid](https://github.com/waydroid/waydroid) 基于容器在GNU/Linux 系统上启动完整的 Android 系统。
+
+* [XorTroll/Goldleaf](https://github.com/XorTroll/Goldleaf) Nintendo Switch 游戏机的多用途自制工具。
+
+* [Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx) 用 C# 编写的实验性 Nintendo Switch 游戏机 模拟器
+
+* [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
+
+* [citra-emu/citra](https://github.com/citra-emu/citra)  用 C++ 编写的实验性开源 Nintendo 3DS 模拟器/调试器。
+
+* [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) 用于构建业务应用程序的可扩展低代码框架。 连接到数据库、云存储、GraphQL、API 端点、Airtable 等，并使用拖放式应用程序构建器构建应用程序。 使用 JavaScript/TypeScript 构建。
 
 # Star数变化
 
