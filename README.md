@@ -3677,6 +3677,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
 
+* [withastro/astro](https://github.com/withastro/astro) 现代web网站构建工具 — 强大的开发人员经验，轻量级输出。
+
 * [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)  网络如何运作 当我们在浏览器中输入 google.com 时，幕后会发生什么？
 
 * [signalwire/freeswitch](https://github.com/signalwire/freeswitch) 一种软件定义的电信堆栈，可实现从专有电信交换机到可在任何商用硬件上运行的多功能软件实施的数字化转型。可以释放任何设备的电信潜力。
@@ -3753,6 +3755,10 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [lsqy/taro-music](https://github.com/lsqy/taro-music) 基于taro + taro-ui + redux + react-hooks + typescript 开发的网易云音乐小程序
 
+* [element-plus/element-plus](https://github.com/element-plus/element-plus) Element 团队制作的 Vue.js 3 UI 库
+
+* [newbee-ltd/newbee-mall-vue3-app](https://github.com/newbee-ltd/newbee-mall-vue3-app) Vue3  + Vant 搭建大型单页面商城项目。
+
 * [woniudiancang/bee](https://github.com/woniudiancang/bee) 微信小程序-餐饮点餐外卖-开箱即用
 
 * [iamxjb/winxin-app-watch-life.net](https://github.com/iamxjb/winxin-app-watch-life.net) 微慕小程序开源版-WordPress版微信小程序
@@ -3764,6 +3770,26 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [TalkingData/iview-weapp](https://github.com/TalkingData/iview-weapp) 一套高质量的微信小程序 UI 组件库
 
 * [gocolly/colly](https://github.com/gocolly/colly) 优雅的 Golang 爬虫框架
+
+* [mageslr/weapp-library](https://github.com/imageslr/weapp-library) “在线借书平台”微信小程序
+
+* [Tencent/wepy](https://github.com/Tencent/wepy) 小程序组件化开发框架
+
+* [cool-team-official/cool-admin-vue](https://github.com/cool-team-official/cool-admin-vue) 很酷的后台权限管理框架，模块化、插件化、CRUD极速开发，基于midway.js 3.0、typeorm、mysql、jwt、element-ui、vuex、vue-router、vue等构建
+
+* [biubiubiu01/vue3-bigData](https://github.com/biubiubiu01/vue3-bigData) 基于vue的大数据分析系统，包含各种echarts和vue
+
+* [RainManGO/vue3-composition-admin](https://github.com/RainManGO/vue3-composition-admin) 基于vue3 的管理端模板
+
+* [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin)  Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+
+* [SmallRuralDog/vue3-music](https://github.com/SmallRuralDog/vue3-music) VUE3+TS开发的音乐播放器，模仿mac QQ音乐。
+
+* [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) 免费开放源码的中间端和后端模板，使用最新的 vue3，vite2，TypeScript 和其他主流技术开发，可作为学习参考。
+
+* [lyt-Top/vue-next-admin](https://github.com/lyt-Top/vue-next-admin) 基于 vue3.x + CompositionAPI setup 语法糖 + typescript + vite + element plus + vue-router-next + pinia 技术，适配手机、平板、pc 的后台开源免费模板，实现快速开发。
+
+* [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) 基于 Vue3.x + TypeScript 的在线演示文稿（幻灯片）应用，还原了大部分 Office PowerPoint 常用功能，支持 文字、图片、形状、线条、图表、表格、视频、音频、公式 几种最常用的元素类型，每一种元素都拥有高度可编辑能力，同时支持丰富的快捷键和右键菜单，支持导出本地 PPTX 文件，支持移动端基础编辑和预览，支持 PWA。您可以在此基础上搭建自己的在线幻灯片应用。
 
 ## 区块链
 
@@ -4774,6 +4800,20 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [citra-emu/citra](https://github.com/citra-emu/citra)  用 C++ 编写的实验性开源 Nintendo 3DS 模拟器/调试器。
 
 * [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) 用于构建业务应用程序的可扩展低代码框架。 连接到数据库、云存储、GraphQL、API 端点、Airtable 等，并使用拖放式应用程序构建器构建应用程序。 使用 JavaScript/TypeScript 构建。
+
+* [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji)  来自 Microsoft 的一组熟悉、友好和现代的表情符号
+
+* [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) Windows 启动器，Alfred 和 Launchy 的替代品。
+
+* [jgraph/drawio](https://github.com/jgraph/drawio) JavaScript的绘图和白板编辑器
+
+* [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) 用于素描手绘图的虚拟白板 [->立即使用](https://excalidraw.com)
+
+* [charmbracelet/gum](https://github.com/charmbracelet/gum) 一款令人着迷的 shell 脚本工具，无需编写任何代码就能利用 Bubbles 和 Lip Gloss 的功能在脚本和别名中发挥作用。
+
+* [Splode/pomotroid](https://github.com/Splode/pomotroid) 简单且视觉上令人愉悦的番茄钟计时器。
+
+* [jigish/slate](https://github.com/jigish/slate) MacOS上类似 Divvy 和 SizeUp 的窗口管理应用程序。
 
 # Star数变化
 
