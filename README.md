@@ -525,6 +525,10 @@
 
 * [facebookincubator/AITemplate](https://github.com/facebookincubator/AITemplate) Python 框架，可将神经网络渲染为高性能 CUDA/HIP C++ 代码。 专门用于 FP16 TensorCore（NVIDIA GPU）和 MatrixCore（AMD GPU）推理。
 
+* [salesforce/OmniXAI](https://github.com/salesforce/OmniXAI) 用于可解释 AI (XAI) 的 Python 机器学习库，提供全向可解释 AI 和可解释机器学习功能，以解决实践中解释模型做出的决策时的许多痛点。 
+
+* [MegEngine/MegCC](https://github.com/MegEngine/MegCC) 一个运行时超轻量，高效，移植简单的深度学习模型编译器
+
 # 图神经网络GNN
 
 ## 图机器学习库
@@ -1080,6 +1084,8 @@
 
 * [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
 
+* [clue-ai/PromptCLUE](https://github.com/clue-ai/PromptCLUE) 大规模多任务Prompt预训练中文开源模型。千亿中文token上大规模预训练，累计学习1.5万亿中文token，亿级中文任务数据上完成训练，训练任务超过150+。比base版平均任务提升7个点+；具有更好的理解、生成和抽取能力，并且支持文本改写、纠错、知识图谱问答。
+
 ## 文本分类
 
 * [cnn_multilabel_classification](https://github.com/tcxdgit/cnn_multilabel_classification) 基于TextCNN和Attention的多标签分类
@@ -1544,6 +1550,8 @@
 
 * [lemonhu/open-entity-relation-extraction](https://github.com/lemonhu/open-entity-relation-extraction) 基于依存句法分析，实现面向开放域文本的知识三元组抽取（实体和关系抽取）及知识库构建。
 
+* [lancopku/Chinese-Literature-NER-RE-Dataset](https://github.com/lancopku/Chinese-Literature-NER-RE-Dataset) 中文文学文本语篇级命名实体识别与关系抽取数据集
+
 ## 实体识别NER、意图识别、槽位填充
 
 * [LeeSureman/Flat-Lattice-Transformer](https://github.com/LeeSureman/Flat-Lattice-Transformer) 中文NER 基于Transformer设计了一种巧妙position encoding来融合Lattice结构，可以无损的引入词汇信息。基于Transformer融合了词汇信息的动态结构，支持并行化计算，可以大幅提升推断速度。
@@ -1738,6 +1746,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [hiyoung123/SoftMaskedBert](https://github.com/hiyoung123/SoftMaskedBert) 中文文本纠错模型。使用两个网络模型，一个用于错误检测；另一个基于BERT进行纠错。
 
 [ACL2020SpellGCN/SpellGCN](https://github.com/ACL2020SpellGCN/SpellGCN) 将语音学和视觉相似性结合到汉语拼写检查\文本纠错
+
+[MuCGEC/scorers/ChERRANT](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers/ChERRANT) 借鉴了英文上主流的GEC(Grammatical Error Correction 语法纠错)评估工具[ERRANT](https://github.com/chrisjbryant/errant)，搭建了中文GEC评估工具ChERRANT（Chinese ERRANT）。ChERRANT的主要功能是通过对比预测编辑和标准编辑，计算预测结果的精确度、召回度、F值指标，从而评估语法纠错模型的性能。应用:搜索query纠错、语音纠错、舆情文本纠错
 
 [liushulinle/CRASpell](https://github.com/liushulinle/CRASpell) 使用复制机制改进中文拼写纠正的上下文错字稳健方法
 
@@ -2447,6 +2457,8 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 
 [WenetSpeech](https://wenet-e2e.github.io/WenetSpeech/) 从 YouTube 和 Podcast 收集的 10000 多个小时的多域转录普通话语料库。 采用OCR 和ASR分别标记每个录音。 为了提高语料库的质量，使用了一种新颖的端到端标签错误检测方法来进一步验证和过滤数据。
 
+[fighting41love/zhvoice](https://github.com/fighting41love/zhvoice) 中文语音语料，语音更加清晰自然，包含8个开源数据集，3200个说话人，900小时语音，1300万字。
+
 [tyiannak/pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) Python 音频分析库：特征提取、分类、分割和应用
 
 [microsoft/muzic](https://github.com/microsoft/muzic) 用人工智能理解和生成音乐，包括：符号音乐理解：MusicBERT、自动歌词转录：PDAugment 音乐生成：作曲：SongMASS、歌词生成：DeepRapper、旋律生成：TeleMelody、伴奏生成：PopMAG、歌声合成。
@@ -3109,9 +3121,11 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [divamgupta/stable-diffusion-tensorflow](https://github.com/divamgupta/stable-diffusion-tensorflow) Stable Diffusion 稳定扩散的 Keras Tensorflow 实现。
 
+[LuChengTHU/dpm-solver](https://github.com/LuChengTHU/dpm-solver) 用于扩散概率模型采样的快速 ODE 求解器。DPM-Solver 适用于离散时间和连续时间扩散模型，无需任何进一步训练。 实验结果表明，仅需对各种数据集进行 10 到 20 次函数评估即可生成高质量样本。
+
 [realtime-semantic-segmentation](https://github.com/hugozanini/realtime-semantic-segmentation) 使用TF.js实施RefineNet以在浏览器中执行实时实例分割
 
-[extreme-assistant/CVPR2021-Paper-Code-Interpretation](https://github.com/extreme-assistant/CVPR2021-Paper-Code-Interpretation) cvpr2021/cvpr2020/cvpr2019/cvpr2018/cvpr2017 论文/代码/解读/直播合集，极市团队整理
+[extreme-assistant/CVPR2021-Paper-Code-Interpretation](https://github.com/extreme-assistant/CVPR2021-Paper-Code-Interpretation) cvpr2021  cvpr2020 cvpr2019 cvpr2018 cvpr2017 论文/代码/解读/直播合集，极市团队整理
 
 [LeonLok/Multi-Camera-Live-Object-Tracking](https://github.com/LeonLok/Multi-Camera-Live-Object-Tracking) 多摄像头实时目标跟踪和计数，使用YOLOv4，Deep SORT和Flask
 
@@ -4063,6 +4077,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [BC-SECURITY/Beginners-Guide-to-Obfuscation](https://github.com/BC-SECURITY/Beginners-Guide-to-Obfuscation) 规避检测：新手混淆指南防御者不断调整他们的安全措施以应对新的威胁。学习恶意软件交付和避免检测背后的方法。 探讨了 Microsoft 的反恶意软件扫描接口 (AMSI)、Windows Defender 和 Windows 事件跟踪 (ETW) 的内部工作原理。 学习如何使用 Visual Basic (VB)、PowerShell 和 C# 来使用混淆的恶意软件来避开 Microsoft 的防御。学习构建 AMSI 绕过技术，混淆来自动态和静态签名检测方法的有效负载，并了解替代网络规避方法。
 
+* [seventeenman/CallBackDump](https://github.com/seventeenman/CallBackDump) 能过国内杀软的dump lsass进程工具，参考代码链接在下面。由minidumpCallback实现，对缓冲区中内存做了些修改后再写入磁盘。工具也没有任何网络行为。dump lsass通过检索Windows内存中的lsass.exe进程来获取凭据信息并将其存储到一个文件中，从而使攻击者能够拿到有效的用户凭据。它还可以在远程系统上执行恶意代码，以便获取更多的敏感信息。
+
 ## 漏洞库、漏洞靶场
 
 * [pwntester/0day](https://github.com/pwntester/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC 该项目将不断更新
@@ -4107,6 +4123,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [zhengjim/camille](https://github.com/zhengjim/camille) 基于Frida的Android App隐私合规检测辅助工具
 
+* [WindXaa/Android-Vulnerability-Mining](https://github.com/WindXaa/Android-Vulnerability-Mining) Android APP漏洞之战系列，主要讲述如何快速挖掘APP漏洞
+
 ## 密码破解、字典
 
 * [0xHJK/TotalPass](https://github.com/0xHJK/TotalPass) 默认密码扫描器 是否存在默认密码\搜索常见设备默认密码\支持手动和自动更新密码库 扫描类型有SSH\Telnet\SNMP\Redis
@@ -4135,6 +4153,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [insightglacier/Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting) Pentesing、Fuzzing、Bruteforce 和 BugBounty 等字典项目。渗透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
 
+* [liamg/dismember](https://github.com/liamg/dismember) Linux 工具包，可用于扫描所有进程（或特定进程）的内存以查找公共机密和自定义正则表达式等。
+
 ## 其他_安全与渗透
 
 * [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) 自动 SQL 注入和数据库接管工具
@@ -4153,6 +4173,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [safe6Sec/PentestDB](https://github.com/safe6Sec/PentestDB) 各种数据库的利用姿势
 
+* [evilsocket/jscythe](https://github.com/evilsocket/jscythe) 滥用 node.js 检查器机制以强制任何基于 node.js/electron/v8 的进程执行任意 javascript 代码。
+
 * [michaelweber/Macrome](https://github.com/michaelweber/Macrome) 用于红队和分析师的 Excel 宏文档阅读器/编写器。 
 
 * [DonatoReis/arno](https://github.com/DonatoReis/arno) 一个自动化工具，用于安装最流行的漏洞赏金或渗透测试工具！ 这将为您在设置机器工作时节省 90% 的时间。
@@ -4164,6 +4186,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [DanMcInerney/xsscrapy](https://github.com/DanMcInerney/xsscrapy) XSS 蜘蛛 - 检测到 66/66 wavsep XSS
 
 * [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) 渗透测试人员和开发人员的交互式 TLS 拦截 HTTP 代理。用于 MITM的 proxy，MITM即中间人攻击（Man-in-the-middle attack）。用于中间人攻击的代理首先会向正常的代理一样转发请求，保障服务端与客户端的通信，其次，会适时的查、记录其截获的数据，或篡改数据，引发服务端或客户端特定的行为。 mitmproxy 不仅可以截获请求帮助开发者查看、分析，更可以通过自定义脚本进行二次开发。
+
+* [teamssix/container-escape-check](https://github.com/teamssix/container-escape-check)  Docker 容器逃逸检测
 
 * [KeenSecurityLab/BinAbsInspector](https://github.com/KeenSecurityLab/BinAbsInspector) 静态分析器，用于二进制文件中的自动逆向工程和扫描漏洞。它基于抽象解释，适用于Ghidra的Pcode而不是汇编。目前它支持 x86，x64、armv7 和 aarch64 上的二进制文件。
 
@@ -4514,6 +4538,10 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [zhkl0228/unidbg](https://github.com/zhkl0228/unidbg) 允许您模拟 Android 本机库和实验性 iOS 模拟
 
 * [qilingframework/qiling](https://github.com/qilingframework/qiling) 真正可检测的二进制仿真框架
+
+* [BeichenDream/PrintNotifyPotato](https://github.com/BeichenDream/PrintNotifyPotato) 使用PrintNotify COM服务进行提权。适用于Windows 10 – 11、Windows Server 2012 – 2022
+
+* [redteamsocietegenerale/DLLirant](https://github.com/redteamsocietegenerale/DLLirant) 自动的DLL劫持研究一个特定的二进制
 
 # 其他
 
