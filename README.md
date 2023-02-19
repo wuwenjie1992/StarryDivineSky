@@ -529,6 +529,8 @@
 
 * [MegEngine/MegCC](https://github.com/MegEngine/MegCC) 一个运行时超轻量，高效，移植简单的深度学习模型编译器
 
+* [microsoft/Semi-supervised-learning](https://github.com/microsoft/Semi-supervised-learning) 统一的半监督学习基准，可应用于人脸识别、语音识别和音频分类
+
 # 图神经网络GNN
 
 ## 图机器学习库
@@ -1192,6 +1194,8 @@
 
 * [YunwenTechnology/QueryGeneration](https://github.com/YunwenTechnology/QueryGeneration) 智能扩充机器人的“标准问”库之Query生成
 
+* [beyondguo/genius](https://github.com/beyondguo/genius) 强大的有条件文本生成模型，以草稿为输入，在给定的草稿(文本范围、短语或单词的关键信息)中填充缺失的上下文，在大规模文本语料库上进行预训练，用一种极端和选择性的掩蔽策略从草稿目标进行新的重建，使它能够生成给定素描的多样化和高质量的文本。
+
 * [imcaspar/gpt2-ml](https://github.com/imcaspar/gpt2-ml) GPT2 多语言支持, 15亿参数中文预训练模型
 
 * [EleutherAI/gpt-neo](https://github.com/EleutherAI/gpt-neo) 模型并行GPT2和类似GPT3的模型的实现，能够使用mesh-tensorflow库扩展到完整的GPT3尺寸（甚至可能更多！）。
@@ -1202,7 +1206,7 @@
 
 * [ZhuiyiTechnology/t5-pegasus](https://github.com/ZhuiyiTechnology/t5-pegasus) 中文生成式预训练模型，以mT5为基础架构和初始权重，通过类似PEGASUS的方式进行预训练。
 
-* [google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer) Text-To-Text Transfer Transformer T5的理念就是“万事皆可 Seq2Seq”，它使用了标准的 Encoder-Decoder 模型，并且构建了无监督/有监督的文本生成预训练任务，最终将效果推向了一个新高度。
+* [google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer) T5的理念就是“万事皆可 Seq2Seq”，它使用了标准的 Encoder-Decoder 模型，并且构建了无监督/有监督的文本生成预训练任务，最终将效果推向了一个新高度。
 
 * [google-research/multilingual-t5](https://github.com/google-research/multilingual-t5) T5 的多国语言版
 
@@ -1496,6 +1500,8 @@
 
 * [CLUEbenchmark/DataCLUE](https://github.com/CLUEbenchmark/DataCLUE) 数据为中心的NLP基准和工具包。以数据为中心（Data-centric）的AI，是一种新型的AI探索方向。它的核心问题是如何通过系统化的改造你的数据（无论是输入或者标签）来提高最终效果。 传统的AI是以模型为中心（Model-centric）的，主要考虑的问题是如何通过改造或优化模型来提高最终效果，它通常建立在一个比较固定的数据集上。 最新的数据显示超过90%的论文都是以模型为中心的，通过模型创新或学习方法改进提高效果，即使不少改进影响可能效果并不是特别明显。有些人认为当前的人工智能领域， 无论是自然语言处理（如BERT） 或计算机视觉(ResNet)， 已经存在很多成熟高效模型，并且模型可以很容易从开源网站如github获得；而与此同时，工业界实际落地 过程中可能有80%的时间用于 清洗数据、构建高质量数据集，或在迭代过程中获得更多数据，从而提升模型效果。正是看到了这种巨大的差别，在吴恩达等人的推动下这种 以数据为中心 （Data-centric）的AI进一步的系统化，并成为一个有具有巨大实用价值方法论。
 
+* [ydli-ai/CSL](https://github.com/ydli-ai/CSL) 首个中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）。CSL 数据集可以作为预训练语料，也可以构建许多NLP任务，例如文本摘要（标题预测）、 关键词生成和文本分类等。取自 [国家科技资源共享服务工程技术研究中心](https://nstr.escience.net.cn/)， 包含 2010-2020 年发表的期刊论文元信息（标题、摘要和关键词）。根据中文核心期刊目录进行筛选， 并标注学科和门类标签，分为 13 个门类（一级标签）和 67 个学科（二级标签）。 数据总量为 396,209 条。
+
 ## 关系抽取、信息抽取
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)  专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
@@ -1589,6 +1595,8 @@
 * [v-mipeng/LexiconAugmentedNER](https://github.com/v-mipeng/LexiconAugmentedNER) 拒绝为中文 NER 合并词典的复杂操作。在中文 NER 中加入词典可以非常简单，同时也很有效。
 
 * [lonePatient/BERT-NER-Pytorch](https://github.com/lonePatient/BERT-NER-Pytorch) Chinese NER(Named Entity Recognition) using BERT(Softmax, CRF, Span)
+
+* [gaohongkui/GlobalPointer_pytorch](https://github.com/gaohongkui/GlobalPointer_pytorch) 全局指针统一处理嵌套与非嵌套NER的Pytorch实现
 
 ## 其他_NLP自然语言处理
 
@@ -1762,6 +1770,12 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [textstat/textstat](https://github.com/textstat/textstat) 用于计算文本对象（段落、句子、文章）的可读性统计数据。
 
 [nonebot/nonebot2](https://github.com/nonebot/nonebot2) 跨平台 Python 异步聊天机器人框架
+
+[mit-han-lab/smoothquant](https://github.com/mit-han-lab/smoothquant) 对大语言模型的准确和高效的训练后量化
+
+[causaltext/causal-text-papers](https://github.com/causaltext/causal-text-papers) 因果推理和自然语言处理的交叉研究。
+
+[zhijing-jin/Causality4NLP_Papers](https://github.com/zhijing-jin/Causality4NLP_Papers) 关于自然语言处理因果关系的论文阅读列表
 
 # 推荐系统
 
@@ -2246,6 +2260,8 @@ https://github.com/google-research/football
 
 [Baekalfen/PyBoy](https://github.com/Baekalfen/PyBoy) 用 Python 编写的 Game Boy 模拟器
 
+[tencent-ailab/hok_env](https://github.com/tencent-ailab/hok_env) 腾讯王者荣耀AI开放环境
+
 https://github.com/google-research/batch_rl 离线强化学习
 
 https://github.com/tensorflow/agents TF-Agents是TensorFlow中的强化学习库
@@ -2355,6 +2371,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [deepmind/alphatensor](https://github.com/deepmind/alphatensor) 矩阵乘法是计算机要做的最关键数学计算之一。改进了目前最优的 4×4 矩阵解法（50 年前由施特拉森提出），还进一步提升了其他 70 余种不同大小矩阵的计算速度。
 
 [facebookresearch/diplomacy_cicero](https://github.com/facebookresearch/diplomacy_cicero) Cicero 的代码，这是一个通过开放域自然语言协商玩外交游戏的 AI 代理。
+
+[eloialonso/iris](https://github.com/eloialonso/iris) 提出了IRIS，一种在由离散自编码器和自回归Transformer组成的世界模型中学习的数据高效的智能体。在Atari 100k基准测试中，只用了两小时的游戏时间，就取得了1.046的人类归一化平均分，并在26个中的10个游戏中优于人类。IRIS的世界模型获得了对游戏机制的深刻理解，从而在一些游戏中实现了像素的完美预测。本文还说明了世界模型的生成能力，在想象训练时提供了丰富的游戏体验。IRIS以最小的调整开辟了一条有效解决复杂环境问题的新道路。
 
 # 语音识别与合成
 
@@ -2867,29 +2885,31 @@ https://github.com/mauragarofalo/LICTOR 抗体体细胞突变的机器学习分�
 
 [exadel-inc/CompreFace](https://github.com/exadel-inc/CompreFace) 领先的免费开源人脸识别系统
 
-https://github.com/iPERDance/iPERCore 处理人体图像合成任务。其中包括人体运动模仿、外观转换和新视角合成等。并且，该项目的代码、数据集已开源。
+[tencent-ailab/hifi3dface](https://github.com/tencent-ailab/hifi3dface )RGB-D 的高保真3D 数字人类创建
+
+[iPERDance/iPERCore](https://github.com/iPERDance/iPERCore) 处理人体图像合成任务。其中包括人体运动模仿、外观转换和新视角合成等。并且，该项目的代码、数据集已开源。
 
 [anandpawara/Real_Time_Image_Animation](https://github.com/anandpawara/Real_Time_Image_Animation) 实时图像动画,使原图的人像与新图上的人脸动作一致。
 
-[GuyTevet/motion-diffusion-model](https://github.com/guytevet/motion-diffusion-model) 《人体运动扩散模型》的PyTorch官方实现
+[GuyTevet/motion-diffusion-model](https://github.com/guytevet/motion-diffusion-model) 人体运动扩散模型的PyTorch官方实现
 
 [FACEGOOD-Audio2Face](https://github.com/FACEGOOD/FACEGOOD-Audio2Face) 将音频转换为混合形状权重，并在 UE 中驱动数字人小美。
 
 [facebookresearch/pifuhd](https://github.com/facebookresearch/pifuhd) 使用AI从2D图像生成人的3D高分辨率重建
 
-https://github.com/open-mmlab/mmskeleton 用于人体姿势估计，基于骨骼的动作识别和动作合成。
+[open-mmlab/mmskeleton](https://github.com/open-mmlab/mmskeleton) 用于人体姿势估计，基于骨骼的动作识别和动作合成。
 
-https://github.com/thepowerfuldeez/facemesh.pytorch 单目实时人脸表面3D点云提取
+[thepowerfuldeez/facemesh.pytorch](https://github.com/thepowerfuldeez/facemesh.pytorch) 单目实时人脸表面3D点云提取
 
-https://github.com/anibali/margipose 基于2D边缘热图的3D人体姿态估计
+[anibali/margipose](https://github.com/anibali/margipose) 基于2D边缘热图的3D人体姿态估计
 
-https://github.com/wmcnally/evopose2d 神经架构搜索推动2D姿态识别边界
+[wmcnally/evopose2d](https://github.com/wmcnally/evopose2d) 神经架构搜索推动2D姿态识别边界
 
-https://github.com/hellojialee/OffsetGuided Bottom-up人体姿态估计最优网络,多人关键点坐标的编解码方法.
+[hellojialee/OffsetGuided](https://github.com/hellojialee/OffsetGuided) Bottom-up人体姿态估计最优网络,多人关键点坐标的编解码方法.
 
-https://github.com/ziwei-zh/CorrPM 关联人体边缘，人体姿态解析.研究了人的语义边界和关键点位置如何共同改善人的部件解析性能。
+[ziwei-zh/CorrPM](https://github.com/ziwei-zh/CorrPM) 关联人体边缘，人体姿态解析.研究了人的语义边界和关键点位置如何共同改善人的部件解析性能。
 
-https://github.com/SangbumChoi/MobileHumanPose MobileHumanPose 的官方 PyTorch 实现：在移动设备中实现实时 3D 人体姿态估计。
+[SangbumChoi/MobileHumanPose](https://github.com/SangbumChoi/MobileHumanPose) 在移动设备中实现实时 3D 人体姿态估计，PyTorch 实现。
 
 [jby1993/SelfReconCode](https://github.com/jby1993/SelfReconCode) 从单目视频自我重建你的数字化身
 
@@ -2925,7 +2945,7 @@ https://github.com/SangbumChoi/MobileHumanPose MobileHumanPose 的官方 PyTorch
 
 [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) GFPGAN 旨在开发用于真实世界面部恢复的实用算法。
 
-[人脸识别常用开源数据集大全](https://mp.weixin.qq.com/s/bcYmSh6cli7kPeEOgmw3mg) 哥伦比亚大学公众人物脸部数据、CelebA人脸、美国国防部人脸、MTFL人脸、BioID人脸、PersonID人脸识别数据集、CMU PIE人脸库、Youtube视频人脸、CASIA 人脸图像、Caltech人脸数据库
+[人脸识别常用开源数据集大全](https://mp.weixin.qq.com/s/bcYmSh6cli7kPeEOgmw3mg) 哥伦比亚大学公众人物脸部数据、CelebA、美国国防部、MTFL、BioID、PersonID人脸识别数据集、CMU PIE人脸库、Youtube视频人脸、CASIA 人脸图像、Caltech人脸数据库
 
 [sallymmx/ActionCLIP](https://github.com/sallymmx/ActionCLIP) 视频动作识别的新范式
 
@@ -3131,13 +3151,13 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 https://github.com/kornia/kornia 基于 PyTorch 的可微分的计算机视觉 （differentiable computer vision） 开源库， 实现了：可微的基础计算机视觉算子。可微的数据增广（differentiable data augmentation）。OpenCV 和 PIL 都是不可微的，所以这些处理都只可以作为图像的预处理而无法通过观察梯度的变化来对这些算子进行优化 （gradient-based optimization）。因此，Kornia 便应运而生。
 
-https://github.com/architras/Advanced_Lane_Lines 基于阈值的车道标记
+[architras/Advanced_Lane_Lines](https://github.com/architras/Advanced_Lane_Lines) 基于阈值的车道标记
 
 [facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d) 基于PyTorch将深度学习与3D进行结合的研究框架。
 
 [facebookresearch/pytorchvideo](https://github.com/facebookresearch/pytorchvideo) 为视频理解研究打造的深度学习库。
 
-https://github.com/rwightman/pytorch-image-models PyTorch图像类模型库，包括：ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more 
+[rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) PyTorch图像类模型库，包括：ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet
 
 https://github.com/google-research/vision_transformer Vision Transformer and MLP-Mixer Architectures 视觉Transformer和 MLP-混合器架构，Transformer应用于视觉，纯多层感知机视觉架构。
 
@@ -3414,6 +3434,8 @@ https://github.com/google-research/remixmatch 改进了最近提出的MixMatch�
 [google/CausalImpact](https://github.com/google/CausalImpact) 用于时间序列中因果推理的 R 包
 
 [quantumblacklabs/causalnex](https://github.com/quantumblacklabs/causalnex) “使用贝叶斯网络进行因果推理的工具包。”利用贝叶斯网络来识别数据中的因果关系，以便我们可以从分析中制定正确的干预措施。 与基于模式识别和相关性分析的传统机器学习方法相比，利用贝叶斯网络更直观地描述因果关系。 CausalNex 旨在简化因果关系和反事实分析的端到端流程。
+
+[fulifeng/Causal_Reading_Group](https://github.com/fulifeng/Causal_Reading_Group) 不定期更新有关机器学习+因果论的论文列表，同时也会在每周内讨论NExT++(NUS)和LDS(USTC)之间的相关论文。
 
 # 图数据库图算法
 
@@ -3977,6 +3999,10 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [graynjo/Heimdallr](https://github.com/graynjo/Heimdallr) 完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗
 
+* [StarCrossPortal/scalpel](https://github.com/StarCrossPortal/scalpel) 命令行漏洞扫描工具，支持深度参数注入，拥有一个强大的数据解析和变异算法，可以将常见的数据格式（json, xml, form等）解析为树结构，然后根据poc中的规则，对树进行变异，包括对叶子节点和树结构 的变异。变异完成之后，将树结构还原为原始的数据格式。
+
+* [dark-kingA/superSearchPlus](https://github.com/dark-kingA/superSearchPlus) 谷歌插件版本- 聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 js敏感信息提取 注释资源扫描 目录扫描 整合了目前常见的资产测绘平台 同时支持数据导出
+
 ## web shell、shellcode
 
 * web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
@@ -4051,6 +4077,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [HatBoy/Struts2-Scan](https://github.com/HatBoy/Struts2-Scan) Struts2全漏洞扫描利用工具 支持的漏洞如下: S2-001, S2-003, S2-005, S2-007, S2-008, S2-009, S2-012, S2-013, S2-015, S2-016, S2-019, S2-029, S2-032, S2-033, S2-037, S2-045, S2-046, S2-048, S2-052, S2-053, S2-devMode, S2-057
 
+* [Tas9er/ByPassBehinder](https://github.com/Tas9er/ByPassBehinder) 冰蝎WebShell免杀生成
+
 ## 杀毒免杀
 
 * [TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。
@@ -4078,6 +4106,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [BC-SECURITY/Beginners-Guide-to-Obfuscation](https://github.com/BC-SECURITY/Beginners-Guide-to-Obfuscation) 规避检测：新手混淆指南防御者不断调整他们的安全措施以应对新的威胁。学习恶意软件交付和避免检测背后的方法。 探讨了 Microsoft 的反恶意软件扫描接口 (AMSI)、Windows Defender 和 Windows 事件跟踪 (ETW) 的内部工作原理。 学习如何使用 Visual Basic (VB)、PowerShell 和 C# 来使用混淆的恶意软件来避开 Microsoft 的防御。学习构建 AMSI 绕过技术，混淆来自动态和静态签名检测方法的有效负载，并了解替代网络规避方法。
 
 * [seventeenman/CallBackDump](https://github.com/seventeenman/CallBackDump) 能过国内杀软的dump lsass进程工具，参考代码链接在下面。由minidumpCallback实现，对缓冲区中内存做了些修改后再写入磁盘。工具也没有任何网络行为。dump lsass通过检索Windows内存中的lsass.exe进程来获取凭据信息并将其存储到一个文件中，从而使攻击者能够拿到有效的用户凭据。它还可以在远程系统上执行恶意代码，以便获取更多的敏感信息。
+
+* [H4de5-7/Bundler-bypass](https://github.com/H4de5-7/Bundler-bypass) 免杀捆绑器，过主流杀软。
 
 ## 漏洞库、漏洞靶场
 
@@ -4543,6 +4573,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [redteamsocietegenerale/DLLirant](https://github.com/redteamsocietegenerale/DLLirant) 自动的DLL劫持研究一个特定的二进制
 
+* [wecooperate/iMonitor](https://github.com/wecooperate/iMonitor) 冰镜 - 终端行为分析系统，提供了对进程、文件、注册表、网络等系统行为的监控。支持扩展和脚本，可以轻易定制和添加更多功能。可以用于病毒分析、软件逆向、入侵检测，EDR等。
+
 # 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -4856,6 +4888,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [Splode/pomotroid](https://github.com/Splode/pomotroid) 简单且视觉上令人愉悦的番茄钟计时器。
 
 * [jigish/slate](https://github.com/jigish/slate) MacOS上类似 Divvy 和 SizeUp 的窗口管理应用程序。
+
+* [deiv/driftnet](https://github.com/deiv/driftnet) 监视网络流量，并选择和显示 JPEG 和 GIF 图像显示
 
 # Star数变化
 
