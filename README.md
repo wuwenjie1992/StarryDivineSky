@@ -531,6 +531,10 @@
 
 * [microsoft/Semi-supervised-learning](https://github.com/microsoft/Semi-supervised-learning) 统一的半监督学习基准，可应用于人脸识别、语音识别和音频分类
 
+* [polyaxon/traceml](https://github.com/polyaxon/traceml) 用于机器学习/数据跟踪、可视化、可解释性、漂移检测和仪表板的引擎。
+
+* [dabl/dabl](https://github.com/dabl/dabl) 数据分析基线库，当前主要侧重于探索性可视化和预处理。
+
 # 图神经网络GNN
 
 ## 图机器学习库
@@ -1027,6 +1031,8 @@
 * [guillaume-be/rust-bert](https://github.com/guillaume-be/rust-bert)  Rust-native 最先进的自然语言处理模型和管道。 Hugging Face 的 Transformers 库的端口，使用 tch-rs crate 和 rust-tokenizers 预处理。 支持多线程标记化和GPU推理。 公开了模型基础架构、特定于任务的头和随时可用的管道。
 
 * [volcengine/veGiantModel](https://github.com/volcengine/veGiantModel) 字节跳动应用ML团队的基于torch的高效训练库。 使巨型模型（例如GPT、BERT和T5）训练变得简单高效。 建立在 Megatron 和 DeepSpeed 之上，通过集成高效通信库BytePs并提供定制的管道分区来提高通信效率。
+
+* [extreme-bert/extreme-bert](https://github.com/extreme-bert/extreme-bert)  可加速 BERT 在自定义数据集上的预训练和微调。
 
 ## 预训练模型
 
@@ -1816,6 +1822,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 * [shenweichen/DeepMatch](https://github.com/shenweichen/DeepMatch) 用于推荐和广告的深度匹配模型库。训练模型和导出用户和项目的表示向量非常容易，可用于ANN搜索。
 
 * [PaddlePaddle/PaddleRec](https://github.com/PaddlePaddle/PaddleRec) 大规模推荐算法库，包含推荐系统经典及最新算法LR、Wide&Deep、DSSM、TDM、MIND、Word2Vec、Bert4Rec、DeepWalk、SSR、AITM，DSIN，SIGN，IPREC、GRU4Rec、Youtube_dnn、NCF、GNN、FM、FFM、DeepFM、DCN、DIN、DIEN、DLRM、MMOE、PLE、ESMM、ESCMM, MAML、xDeepFM、DeepFEFM、NFM、AFM、RALM、DMR、GateNet、NAML、DIFM、Deep Crossing、PNN、BST、AutoInt、FGCNN、FLEN、Fibinet、ListWise、DeepRec、ENSFM，TiSAS，AutoFIS等，包含经典推荐系统数据集criteo 、movielens等
+
+* [wangshusen/RecommenderSystem](https://github.com/wangshusen/RecommenderSystem) 结合小红书的业务场景和内部实践，讲解主流的工业界推荐系统技术。
 
 * [ZiyaoGeng/Recommender-System-with-TF2.0](https://github.com/ZiyaoGeng/Recommender-System-with-TF2.0) CTR预言论文进行复现，包括传统模型（MF，FM，FFM等），神经网络（WDL，DCN等）以及序列模型（DIN）。
 
@@ -3387,6 +3395,10 @@ https://github.com/google-research/remixmatch 改进了最近提出的MixMatch�
 
 [ossrs/srs](https://github.com/ossrs/srs) SRS是一个简单、高效的实时视频服务器，支持RTMP、WebRTC、HLS、HTTP-FLV、SRT、MPEG-DASH和GB28181。
 
+[google-research/jax3d](https://github.com/google-research/jax3d) Jax 中用于神经渲染的库，旨在成为一个灵活的 NeRF 生态系统，以支持快速原型设计、轻松协作以及研究代码的发布。
+
+[MCG-NJU/VideoMAE](https://github.com/MCG-NJU/VideoMAE) 简单高效的视频自监督预训练新范式。提出了极高的掩蔽率 (90%-95%) 和管掩蔽策略，为自监督视频预训练创建具有挑战性的任务。VideoMAE 可以作为未来自监督视频预训练研究的简单但强大的基线。适用于不同规模的视频数据集，在 Kinects-400 上可以达到 87.4%（Kinetics-400是一个大规模，高质量的YouTube视频网址数据集，其中包含各种以人为本的行动。该数据集包含 400 个人类动作类，每个动作至少有 400 个视频剪辑。每个剪辑持续大约 10 秒，并且取自不同的 YouTube 视频。这些动作以人类为中心，涵盖广泛的类别，包括演奏乐器等人与物体的交互，以及握手等人与人的交互。），在 Something-Something V2 （大型的带有标签的记录了人类与日常生活中的一些物体之间的动作数据集）上可以达到 75.4%，在 UCF101 上可以达到 91.3%（UCF-101（2012）包含13,320个视频（共27个小时），101个人类行为类别，如运动、乐器和人物交互等。），在 HMDB51（HMDB51包含51类动作，共有6849个视频，每个动作至少包含51个视频，分辨率320*240,。来自于YouTube，google视频等，共２G） 上可以达到 62.6%。
+
 # 虚拟化
 
 [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -3841,6 +3853,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) 基于 Vue3.x + TypeScript 的在线演示文稿（幻灯片）应用，还原了大部分 Office PowerPoint 常用功能，支持 文字、图片、形状、线条、图表、表格、视频、音频、公式 几种最常用的元素类型，每一种元素都拥有高度可编辑能力，同时支持丰富的快捷键和右键菜单，支持导出本地 PPTX 文件，支持移动端基础编辑和预览，支持 PWA。您可以在此基础上搭建自己的在线幻灯片应用。
 
+* [kesixin/QuestionWechatApp](https://github.com/kesixin/QuestionWechatApp) 微信小程序，考试小程序，答题小程序，刷题小程序。毕业设计小程序，有前后端完整源码和数据库，易于二次开发。还可用于考试活动，企业内部考核，内部培训等职业考试刷题。
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -4002,6 +4016,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [StarCrossPortal/scalpel](https://github.com/StarCrossPortal/scalpel) 命令行漏洞扫描工具，支持深度参数注入，拥有一个强大的数据解析和变异算法，可以将常见的数据格式（json, xml, form等）解析为树结构，然后根据poc中的规则，对树进行变异，包括对叶子节点和树结构 的变异。变异完成之后，将树结构还原为原始的数据格式。
 
 * [dark-kingA/superSearchPlus](https://github.com/dark-kingA/superSearchPlus) 谷歌插件版本- 聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 js敏感信息提取 注释资源扫描 目录扫描 整合了目前常见的资产测绘平台 同时支持数据导出
+
+* [lukebaggett/dnscat2-powershell](https://github.com/lukebaggett/dnscat2-powershell) dnscat2 的 Powershell 客户端，一种加密的 DNS 命令和控制工具。
 
 ## web shell、shellcode
 
@@ -4575,6 +4591,10 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [wecooperate/iMonitor](https://github.com/wecooperate/iMonitor) 冰镜 - 终端行为分析系统，提供了对进程、文件、注册表、网络等系统行为的监控。支持扩展和脚本，可以轻易定制和添加更多功能。可以用于病毒分析、软件逆向、入侵检测，EDR等。
 
+* [7dog7/bottleneckOsmosis](https://github.com/7dog7/bottleneckOsmosis) 瓶颈渗透,web渗透,red红队,fuzz param,注释,js字典,ctf
+
+* [rootkiter/EarthWorm](https://github.com/rootkiter/EarthWorm) 便携式的网络穿透工具，具有 SOCKS v5服务架设和端口转发两大核心功能，可在复杂网络环境下完成网络穿透。
+
 # 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -4890,6 +4910,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [jigish/slate](https://github.com/jigish/slate) MacOS上类似 Divvy 和 SizeUp 的窗口管理应用程序。
 
 * [deiv/driftnet](https://github.com/deiv/driftnet) 监视网络流量，并选择和显示 JPEG 和 GIF 图像显示
+
+* [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) 沉浸式双语网页翻译扩展
 
 # Star数变化
 
