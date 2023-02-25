@@ -1508,6 +1508,8 @@
 
 * [ydli-ai/CSL](https://github.com/ydli-ai/CSL) 首个中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）。CSL 数据集可以作为预训练语料，也可以构建许多NLP任务，例如文本摘要（标题预测）、 关键词生成和文本分类等。取自 [国家科技资源共享服务工程技术研究中心](https://nstr.escience.net.cn/)， 包含 2010-2020 年发表的期刊论文元信息（标题、摘要和关键词）。根据中文核心期刊目录进行筛选， 并标注学科和门类标签，分为 13 个门类（一级标签）和 67 个学科（二级标签）。 数据总量为 396,209 条。
 
+* [pluto-junzeng/CNSD](https://github.com/pluto-junzeng/CNSD) 中文自然语言推理数据集（A large-scale Chinese Nature language inference and Semantic similarity calculation Dataset） 本数据及通过翻译加部分人工修正的方法，从英文原数据集生成，可以一定程度缓解中文自然语言推理和语义相似度计算数据集不够的问题。
+
 ## 关系抽取、信息抽取
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)  专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
@@ -1621,6 +1623,8 @@
 [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) 逆向工程 ChatGPT 的API
 
 [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) 基于聊天的助理，它理解任务，可以与第三方系统互动，并能动态地检索信息。将提供基于RLHF的大型语言模型，并公开训练数据。
+
+[acheong08/EdgeGPT](https://github.com/acheong08/EdgeGPT) 微软必应聊天的逆向工程API
 
 [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) Stanford NLP Group 的官方 Python NLP 库。 它支持在 60 多种语言上运行各种准确的自然语言处理工具。
 
@@ -2136,6 +2140,8 @@ https://github.com/goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。�
 
 [AI4Finance-Foundation/FinRL_Podracer](https://github.com/AI4Finance-Foundation/FinRL_Podracer) 一个优雅（轻量级、高效且稳定）的 FinRL 库，允许研究人员和量化交易者轻松开发算法策略。
 
+[tkfy920/qstock](https://github.com/tkfy920/qstock) 打造成个人量化投研分析包，目前包括数据获取（data）、可视化(plot)、选股(stock)和量化回测（策略backtest）模块。 qstock将为用户提供简洁的数据接口和规整化后的金融市场数据。可视化模块为用户提供基于web的交互图形的简单接口； 选股模块提供了同花顺的选股数据和自定义选股，包括RPS、MM趋势、财务指标、资金流模型等； 回测模块为大家提供向量化（基于pandas）和基于事件驱动的基本框架和模型。
+
 ## 时间序列
 
 [thuml/Autoformer](https://github.com/thuml/Autoformer) 用于长期序列预测的具有自相关性的分解变压器。Autoformer超越了Transformer系列，首次实现了串联。在六个基准上进行实验，涵盖五个主流应用程序。我们将我们的模型与十个基线进行比较，包括 Informer、N-BEATS 等。通常，对于长期预测设置，Autoformer 实现了 SOTA，相对于之前的基线有38% 的相对改进。
@@ -2158,6 +2164,8 @@ https://github.com/goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。�
 
 [johannfaouzi/pyts](https://github.com/johannfaouzi/pyts) 时间序列分类工具包。提供预处理工具及若干种时间序列分类算法。
 
+[PaddlePaddle/PaddleTS](https://github.com/PaddlePaddle/PaddleTS) 基于PaddlePaddle的易于使用的深度时间序列建模，包括TSDataset，分析，转换，模型，AutoTS和Ensemble等综合功能模块，支持时间序列预测，表示学习和异常检测等多功能任务。
+
 [linkedin/greykite](https://github.com/linkedin/greykite) Greykite 库通过其旗舰算法 Silverkite 提供灵活、直观和快速的预测。Silverkite 算法适用于大多数时间序列，尤其适用于趋势或季节性变化点、事件/假日效应和时间依赖性的那些。它是可解释的，因此对于值得信赖的决策和洞察力很有用。
 
 [zhouhaoyi/Informer2020](https://github.com/zhouhaoyi/Informer2020) 效果远超Transformer的长序列预测，提出了ProbSparse self-attention机制来高效的替换常规的self-attention并且获得了的O（LlogL)时间复杂度以及O(LlogL)的内存使用率,提出了self-attention distilling操作，它大幅降低了所需的总空间复杂度O((2-e)LlogL)；我们提出了生成式的Decoder来获取长序列的输出，这只需要一步，避免了在inference阶段的累计误差传播；
@@ -2166,7 +2174,7 @@ https://github.com/goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。�
 
 [unit8co/darts](https://github.com/unit8co/darts) python 库，用于对时间序列进行用户友好的预测和异常检测。
 
-[https://github.com/bashtage/arch](https://github.com/bashtage/arch) 自回归条件异方差 (ARCH) 和其他金融计量经济学工具，用 Python 编写（使用 Cython 和/或 Numba 来提高性能）
+[bashtage/arch](https://github.com/bashtage/arch) 自回归条件异方差 (ARCH) 和其他金融计量经济学工具，用 Python 编写（使用 Cython 和/或 Numba 来提高性能）
 
 https://github.com/nnzhan/MTGNN 通用的图神经网络框架 MTGNN，通过图学习模块融合外部知识和变量之间的单向关系，再使用 mix-hop 传播层和膨胀 inception 捕获空间和时序依赖。
 
@@ -2225,6 +2233,12 @@ https://github.com/jsyoon0823/TimeGAN 时间序列生成对抗网络
 [ElementAI/N-BEATS](https://github.com/ElementAI/N-BEATS) 基于神经网络的单变量时间序列预测模型
 
 [yuezhihan/ts2vec](https://github.com/yuezhihan/ts2vec) 一个通用的时间序列表示学习框架
+
+[firmai/atspy](https://github.com/firmai/atspy) Python 中的自动化时间序列模型
+
+[cesium-ml/cesium](https://github.com/cesium-ml/cesium) 用于时间序列推理的开源平台。从原始时间序列数据中提取特征，构建机器学习模型，为新数据生成预测。
+
+[zhengqi98/Hefei_ECG_TOP1](https://github.com/zhengqi98/Hefei_ECG_TOP1) “合肥高新杯”心电人机智能大赛 —— 心电异常事件预测 TOP1 Solution,依据心电图机8导联的数据和年龄、性别特征，预测心电异常事件
 
 # 强化学习 Reinforcement Learning
 
@@ -2290,7 +2304,7 @@ https://github.com/huawei-noah/xingtian 刑天（XingTian）是一个组件化�
 
 https://github.com/minerllabs/minerl Minecraft 游戏环境
 
-https://github.com/mwydmuch/ViZDoom 基于ZDoom末日的AI研究平台，可从原始视觉信息进行强化学习。
+[mwydmuch/ViZDoom](https://github.com/mwydmuch/ViZDoom) ZDoom末日的AI研究平台，可从原始视觉信息进行强化学习。
 
 https://github.com/openai/retro 复古游戏 
 
@@ -2374,7 +2388,7 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch) 深度强化学习算法和环境的 PyTorch 实现。实现的算法：深度 Q 学习 (DQN) ( Mnih et al. 2013 )、具有固定 Q 目标的 DQN ( Mnih et al. 2013 )、双 DQN (DDQN) ( Hado van Hasselt et al. 2015 )、具有优先体验重放的DDQN ( Schaul et al. 2016 )、Dueling DDQN (Wang et al. 2016)、REINFORCE 加强 （Williams et al. 1992）、深度确定性策略梯度 (DDPG) ( Lillicrap et al. 2016 )、双延迟深度确定性策略梯度 (TD3) ( Fujimoto et al. 2018 )、软演员-评论家 (SAC) ( Haarnoja et al. 2018 )、离散动作的软演员-评论家 (SAC-Discrete) ( Christodoulou 2019 )、Asynchronous Advantage Actor Critic (A3C) ( Mnih et al. 2016 )、同步优势演员评论家 (A2C)、近端策略优化 (PPO) ( Schulman et al. 2017 )、具有事后经验重放的 DQN (DQN-HER) ( Andrychowicz et al. 2018 )、具有事后经验重放的 DDPG (DDPG-HER) ( Andrychowicz et al. 2018 )、分层 DQN (h-DQN) ( Kulkarni et al. 2016 )、用于分层强化学习 (SNN-HRL) 的随机神经网络 ( Florensa et al. 2017 )、多样性就是你所需要的 (DIAYN) ( Eyensbach et al. 2018 )。所有实现都能够快速解决 Cart Pole（离散动作）、Mountain Car Continuous（连续动作）、Bit Flipping（具有动态目标的离散动作）或 Fetch Reach（具有动态目标的连续动作）。计划添加更多的分层 RL 算法。
 
-[distributional-rl.org](https://www.distributional-rl.org/)  教科书《Distributional Reinforcement Learning 分布强化学习》草稿。
+[distributional-rl.org](https://www.distributional-rl.org/)  教科书《Distributional Reinforcement Learning 分布强化学习》。
 
 [deepmind/alphatensor](https://github.com/deepmind/alphatensor) 矩阵乘法是计算机要做的最关键数学计算之一。改进了目前最优的 4×4 矩阵解法（50 年前由施特拉森提出），还进一步提升了其他 70 余种不同大小矩阵的计算速度。
 
@@ -2392,7 +2406,7 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 ## 语音识别
 
-* [wenet-e2e/wenet](https://github.com/wenet-e2e/wenet) 一款面向工业落地应用的语音识别工具包，提供了从语音识别模型的训练到部署的一条龙服务，其主要特点如下：
+* [wenet-e2e/wenet](https://github.com/wenet-e2e/wenet) 面向工业落地应用的语音识别工具包，提供了从语音识别模型的训练到部署的一条龙服务，其主要特点如下：
   * 使用 conformer 网络结构和 CTC/attention loss 联合优化方法，统一的流式/非流式语音识别方案，具有业界一流的识别效果。
   * 提供云上和端上直接部署的方案，最小化模型训练和产品落地之间的工程工作。
   * 框架简洁，模型训练部分完全基于 pytorch 生态，不依赖于 kaldi 等复杂的工具。
@@ -2411,27 +2425,27 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [yufan-aslp/AliMeeting](https://github.com/yufan-aslp/AliMeeting) ICASSP 2022 多通道多方会议转录挑战赛，为参与者提供会议场景中语音识别和说话人分类的基线系统。 挑战主要由两个轨道组成，名为自动语音识别 (ASR) 和说话人分类。 对于每个曲目，可以在其相应目录中找到详细说明。
 
-https://github.com/audier/DeepSpeechRecognition 基于深度学习的中文语音识别系统
+[audier/DeepSpeechRecognition](https://github.com/audier/DeepSpeechRecognition) 基于深度学习的中文语音识别系统
 
-https://github.com/ZhengkunTian/OpenTransformer 语音识别的无重复序列到序列模型，实现 aishell 6.7％的CER。
+[ZhengkunTian/OpenTransformer](https://github.com/ZhengkunTian/OpenTransformer) 语音识别的无重复序列到序列模型，实现 aishell 6.7％的CER。
 
-https://github.com/alphacep/vosk-api Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node 支持十七种语言，提供中文语言模型。
+[alphacep/vosk-api](https://github.com/alphacep/vosk-api) Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node 支持十七种语言，提供中文语言模型。
 
-https://github.com/tencent-ailab/pika 基于Pytorch和Kaldi的轻量级语音处理工具包 PIKA 具备以下特征：即时数据增强和特征加载器；TDNN Transformer编码器，以及基于卷积和 Transformer 的解码器结构；RNNT训练和批解码；利用 Ngram FST 的 RNNT 解码；RNNT最小贝叶斯风险MBR训练；用于 RNNT 的 LAS 前向与后向重评分器；基于高效 BMUF的分布式训练。
+[tencent-ailab/pika](https://github.com/tencent-ailab/pika) 基于Pytorch和Kaldi的轻量级语音处理工具包 PIKA 具备以下特征：即时数据增强和特征加载器；TDNN Transformer编码器，以及基于卷积和 Transformer 的解码器结构；RNNT训练和批解码；利用 Ngram FST 的 RNNT 解码；RNNT最小贝叶斯风险MBR训练；用于 RNNT 的 LAS 前向与后向重评分器；基于高效 BMUF的分布式训练。
 
-[speechbrain/speechbrain](https://github.com/speechbrain/speechbrain) 基于 PyTorch 的开源一体化语音工具包，可用于开发最新的语音技术，包括语音识别、说话者识别、语音增强、多麦克风信号处理和语音识别系统等，且拥有相当出色的性能。团队将其特征概况为易于使用、易于定制、灵活、模块化等。
+[speechbrain/speechbrain](https://github.com/speechbrain/speechbrain) 基于 PyTorch 的开源一体化语音工具包，可用于开发最新的语音技术，包括语音识别、说话者识别、语音增强、多麦克风信号处理和语音识别系统等，且拥有相当出色的性能。将其特征概况为易于使用、易于定制、灵活、模块化等。
 
-https://github.com/Snowdar/asv-subtools 基于Kaldi和PyTorch推出了一套高效、易于开发扩展的声纹识别开源工具—ASV-Subtools。
+[Snowdar/asv-subtools](https://github.com/Snowdar/asv-subtools) 基于Kaldi和PyTorch推出了一套高效、易于开发扩展的声纹识别开源工具—ASV-Subtools。
 
 [wav2vec](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec/unsupervised) 无监督语音识别 性能直逼监督模型,只需要从录制的语音音频和未配对的文本中学习，无需进行任何转录。
 
-https://github.com/speechio/leaderboard SpeechIO 排行榜：用于自动语音识别的大型、强大、全面的基准测试平台。
+[speechio/leaderboard](https://github.com/speechio/leaderboard) SpeechIO 排行榜：用于自动语音识别的大型、强大、全面的基准测试平台。
 
-https://github.com/cywang97/StreamingTransformer  流式 Transformer 关于大规模语音识别的流行端到端模型的比较，它基于 ESPnet0.6.0。 流式 Transformer 包括一个流式编码器（基于块或前瞻）和一个基于触发注意的解码器。
+[cywang97/StreamingTransformer](https://github.com/cywang97/StreamingTransformer)  流式 Transformer 关于大规模语音识别的流行端到端模型的比较，它基于 ESPnet0.6.0。 流式 Transformer 包括一个流式编码器（基于块或前瞻）和一个基于触发注意的解码器。
 
-https://github.com/hirofumi0810/neural_sp 使用 PyTorch 实现端到端的 ASR/LM
+[hirofumi0810/neural_sp](https://github.com/hirofumi0810/neural_sp) 使用 PyTorch 实现端到端的 ASR/LM
 
-https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识别提供了完整的工作流程。
+[thu-spmi/CAT](https://github.com/thu-spmi/CAT) 基于 CRF 的数据高效的端到端语音识别提供了完整的工作流程。
 
 [zycv/awesome-keyword-spotting](https://github.com/zycv/awesome-keyword-spotting) 很棒的语音关键字发现（唤醒词检测）的精选列表。
 
@@ -2464,6 +2478,8 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 [ben-hayes/neural-waveshaping-synthesis](https://github.com/ben-hayes/neural-waveshaping-synthesis) 波形域中的高效神经音频合成.使用神经网络有效合成音频波形的方法。
 
 [Jackiexiao/zhtts](https://github.com/Jackiexiao/zhtts) 中文实时语音合成系统Demo
+
+[YatingMusic/ddsp-singing-vocoders](https://github.com/yatingmusic/ddsp-singing-vocoders) 声码器是一种条件音频生成模型，可将声学特征（如 mel 频谱图）转换为波形。从可微分数字信号处理（DDSP）中汲取灵感，提出SawSing新型声码器，用于歌声。SawSing使用线性时变有限脉冲响应滤波器过滤锯齿波源信号来合成歌唱声音的谐波部分，该滤波器的系数由神经网络根据输入的mel频谱图估计。由于加强了相位连续性，因此可以生成歌声，而不会出现许多现有声码器的相位不连续性故障。在资源有限的场景中，收敛速度更快，且优于最先进的生成对抗网络和基于扩散的声码器，只有3个训练录音和3小时的训练时间。
 
 ## 语音识别与合成_其他
 
@@ -2562,6 +2578,8 @@ https://github.com/thu-spmi/CAT 基于 CRF 的数据高效的端到端语音识�
 * [RosettaCommons/RFDesign](https://github.com/RosettaCommons/RFDesign) 使用 RoseTTAFold 实现蛋白质幻觉(AI 生成)和修复
 
 * [facebookresearch/esm](https://github.com/facebookresearch/esm) 进化规模建模 （esm）：蛋白质的预训练语言模型
+
+* [uw-ipd/RoseTTAFold2NA](https://github.com/uw-ipd/RoseTTAFold2NA) RoseTTAFold2蛋白/核酸复合物预测
 
 ## 药物发现、药物设计
 
@@ -3095,6 +3113,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [MediaBrain-SJTU/RegAD](https://github.com/MediaBrain-SJTU/RegAD) 基于注册的少样本异常检测”(RegAD) 的官方实现
 
+[NVlabs/MinVIS](https://github.com/nvlabs/minvis) 无需基于视频的培训的最小视频实例分割框架
+
 ## 图像风格
 
 [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
@@ -3157,7 +3177,7 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [LeonLok/Multi-Camera-Live-Object-Tracking](https://github.com/LeonLok/Multi-Camera-Live-Object-Tracking) 多摄像头实时目标跟踪和计数，使用YOLOv4，Deep SORT和Flask
 
-https://github.com/kornia/kornia 基于 PyTorch 的可微分的计算机视觉 （differentiable computer vision） 开源库， 实现了：可微的基础计算机视觉算子。可微的数据增广（differentiable data augmentation）。OpenCV 和 PIL 都是不可微的，所以这些处理都只可以作为图像的预处理而无法通过观察梯度的变化来对这些算子进行优化 （gradient-based optimization）。因此，Kornia 便应运而生。
+[kornia/kornia](https://github.com/kornia/kornia) 基于 PyTorch 的可微分（differentiable）的计算机视觉开源库， 实现了：可微的基础计算机视觉算子、可微的数据增广。OpenCV 和 PIL 都是不可微的，所以这些处理都只可以作为图像的预处理而无法通过观察梯度的变化来对这些算子进行优化 （gradient-based optimization），因此Kornia 便应运而生。
 
 [architras/Advanced_Lane_Lines](https://github.com/architras/Advanced_Lane_Lines) 基于阈值的车道标记
 
@@ -3167,13 +3187,15 @@ https://github.com/kornia/kornia 基于 PyTorch 的可微分的计算机视觉 �
 
 [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models) PyTorch图像类模型库，包括：ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet
 
-https://github.com/google-research/vision_transformer Vision Transformer and MLP-Mixer Architectures 视觉Transformer和 MLP-混合器架构，Transformer应用于视觉，纯多层感知机视觉架构。
+[Thinklab-SJTU/ThinkMatch](https://github.com/Thinklab-SJTU/ThinkMatch) 深度图匹配算法 图形匹配（GM）是计算机视觉，模式识别和数据挖掘中一个基本但具有挑战性的问题。GM旨在通过解决称为二次分配问题（QAP）的NP硬组合问题来找到多个图之间的节点到节点对应关系。应用：桥接电影和简介、图像对应、分子匹配
+
+[google-research/vision_transformer](https://github.com/google-research/vision_transformer) 视觉Transformer和 MLP-混合器架构，Transformer应用于视觉，纯多层感知机视觉架构。
 
 https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（ZS-VQA）的基于知识图谱的掩码机制，更好结合外部知识的同时，缓解了误差传播对于模型性能的影响。
 
-https://github.com/luost26/diffusion-point-cloud 基于非平衡态热力学的全新三维点云生成模型
+[luost26/diffusion-point-cloud](https://github.com/luost26/diffusion-point-cloud) 基于非平衡态热力学的全新三维点云生成模型
 
-https://github.com/PeterWang512/GANSketching 绘制您自己的 GAN：用手绘草图自定义 GAN 模型。
+[PeterWang512/GANSketching](https://github.com/PeterWang512/GANSketching) 绘制您自己的 GAN：用手绘草图自定义 GAN 模型。
 
 [microsoft/AutoML/iRPE](https://github.com/microsoft/AutoML/tree/main/iRPE) 视觉位置编码，在ImageNet和COCO上，与原始版本相比，分别获得了1.5%（top-1 Acc）和1.3%（mAP）的性能提升（无需任何调参）。
 
@@ -3398,6 +3420,10 @@ https://github.com/google-research/remixmatch 改进了最近提出的MixMatch�
 [google-research/jax3d](https://github.com/google-research/jax3d) Jax 中用于神经渲染的库，旨在成为一个灵活的 NeRF 生态系统，以支持快速原型设计、轻松协作以及研究代码的发布。
 
 [MCG-NJU/VideoMAE](https://github.com/MCG-NJU/VideoMAE) 简单高效的视频自监督预训练新范式。提出了极高的掩蔽率 (90%-95%) 和管掩蔽策略，为自监督视频预训练创建具有挑战性的任务。VideoMAE 可以作为未来自监督视频预训练研究的简单但强大的基线。适用于不同规模的视频数据集，在 Kinects-400 上可以达到 87.4%（Kinetics-400是一个大规模，高质量的YouTube视频网址数据集，其中包含各种以人为本的行动。该数据集包含 400 个人类动作类，每个动作至少有 400 个视频剪辑。每个剪辑持续大约 10 秒，并且取自不同的 YouTube 视频。这些动作以人类为中心，涵盖广泛的类别，包括演奏乐器等人与物体的交互，以及握手等人与人的交互。），在 Something-Something V2 （大型的带有标签的记录了人类与日常生活中的一些物体之间的动作数据集）上可以达到 75.4%，在 UCF101 上可以达到 91.3%（UCF-101（2012）包含13,320个视频（共27个小时），101个人类行为类别，如运动、乐器和人物交互等。），在 HMDB51（HMDB51包含51类动作，共有6849个视频，每个动作至少包含51个视频，分辨率320*240,。来自于YouTube，google视频等，共２G） 上可以达到 62.6%。
+
+[POSTECH-CVLab/PeRFception](https://github.com/POSTECH-CVLab/PeRFception) 隐式3D表示（即神经辐射场（NeRFs））的最新进展使得以可微分方式进行精确和逼真的3D重建成为可能。
+
+[opendilab/InterFuser](https://github.com/opendilab/InterFuser) 使用可解释传感器融合Transformer实现安全增强型自动驾驶
 
 # 虚拟化
 
@@ -3855,6 +3881,10 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [kesixin/QuestionWechatApp](https://github.com/kesixin/QuestionWechatApp) 微信小程序，考试小程序，答题小程序，刷题小程序。毕业设计小程序，有前后端完整源码和数据库，易于二次开发。还可用于考试活动，企业内部考核，内部培训等职业考试刷题。
 
+* [Privoce/vocechat-web](https://github.com/privoce/vocechat-web) VoceChat 的 Web 客户端
+
+* [Privoce/vocechat-server-rust](https://github.com/Privoce/vocechat-server-rust) 一个超轻量级的rust编写的社交服务器。轻松集成到您的网站/应用程序。
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -4019,6 +4049,18 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [lukebaggett/dnscat2-powershell](https://github.com/lukebaggett/dnscat2-powershell) dnscat2 的 Powershell 客户端，一种加密的 DNS 命令和控制工具。
 
+* [blark/aiodnsbrute](https://github.com/blark/aiodnsbrute) 异步 DNS 暴力破解
+
+* [pablosnt/rekono](https://github.com/pablosnt/rekono) 自动执行结合多种黑客工具的完整渗透测试流程
+
+* [Kento-Sec/AsamF](https://github.com/Kento-Sec/AsamF) 集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone及爱企查的一站式企业信息资产收集、网络资产测绘工具。
+
+* [jwt1399/Sec-Tools](https://github.com/jwt1399/Sec-Tools) 基于Python-Django的多功能Web安全渗透测试工具，包含漏洞扫描，端口扫描，指纹识别，目录扫描，旁站扫描，域名扫描等功能。
+
+* [liamg/scout](https://github.com/liamg/scout) 轻量级URL模糊器和蜘蛛：发现Web服务器的未公开文件，目录和VHOST。
+
+* [D3Ext/AORT](https://github.com/D3Ext/AORT) 用于漏洞赏金的多合一侦察工具
+
 ## web shell、shellcode
 
 * web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
@@ -4094,6 +4136,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [HatBoy/Struts2-Scan](https://github.com/HatBoy/Struts2-Scan) Struts2全漏洞扫描利用工具 支持的漏洞如下: S2-001, S2-003, S2-005, S2-007, S2-008, S2-009, S2-012, S2-013, S2-015, S2-016, S2-019, S2-029, S2-032, S2-033, S2-037, S2-045, S2-046, S2-048, S2-052, S2-053, S2-devMode, S2-057
 
 * [Tas9er/ByPassBehinder](https://github.com/Tas9er/ByPassBehinder) 冰蝎WebShell免杀生成
+
+* [Axx8/ShellCode_Loader](https://github.com/Axx8/ShellCode_Loader) Msf&CobaltStrike免杀ShellCode加载器、免杀Shellcode加密生成工具，目前测试免杀360&火绒&电脑管家&Windows Defender
 
 ## 杀毒免杀
 
@@ -4595,6 +4639,12 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [rootkiter/EarthWorm](https://github.com/rootkiter/EarthWorm) 便携式的网络穿透工具，具有 SOCKS v5服务架设和端口转发两大核心功能，可在复杂网络环境下完成网络穿透。
 
+* [OWASP/crAPI](https://github.com/OWASP/crAPI) 将帮助您了解十个最关键的API安全风险。crAPI 在设计上是脆弱的，但您将能够安全地运行它来教育/培训自己。
+
+* [DavidBuchanan314/dlinject](https://github.com/DavidBuchanan314/dlinject) 将共享库（即任意代码）注入实时 Linux 进程，无需跟踪
+
+* [CoolerVoid/casper-fs](https://github.com/CoolerVoid/casper-fs) 一个自定义隐藏的 Linux 内核模块生成器。每个模块都在文件系统中工作，以保护和隐藏机密文件。
+
 # 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -4912,6 +4962,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [deiv/driftnet](https://github.com/deiv/driftnet) 监视网络流量，并选择和显示 JPEG 和 GIF 图像显示
 
 * [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) 沉浸式双语网页翻译扩展
+
+* [jserv/shecc](https://github.com/jserv/shecc) 从头开始构建，针对 32 位 Arm 和 RISC-V 架构，作为 C 语言子集的自编译编译器。
 
 # Star数变化
 
