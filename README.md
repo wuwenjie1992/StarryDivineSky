@@ -704,6 +704,8 @@
 
 * [palash1992/DynamicGEM](https://github.com/palash1992/DynamicGEM) 捕捉动态图演化的动力学特征，生成动态图表示的方法，本质上是输入为动态图的前T个时间步的snapshot，输出为T+1时刻的图嵌入式表达。
 
+* [LZH-YS1998/STHSL](https://github.com/LZH-YS1998/STHSL) 城市犯罪预测的时空超图自监督学习中提出的STHSL模型代码
+
 * [rootlu/MMDNE](https://github.com/rootlu/MMDNE) 从微观/宏观两种层级建模动态网络中节点演化规律，并能够在节点表示中学习到这种规律。微观更偏向于捕捉具体边对形成过程 宏观更偏向于从网络动力学挖掘网络演变的规律，最终生成节点的表示。
 
 * [skx300/DyHATR](https://github.com/skx300/DyHATR) 同时考虑到图的异构性和动态性的特点，对于图的每个时间切片，利用node-level attention和edge-level attention以上两个层次的注意力机制实现异质信息的有效处理，并且通过循环神经网络结合self-attention研究节点embedding的演化特性，并且通过链接预测任务进行试验，验证模型的有效性。
@@ -902,6 +904,12 @@
 * [susheels/adgcl](https://github.com/susheels/adgcl) 对抗性图增强以改善图对比学习
 
 * [amazon-science/gnn-tail-generalization](https://github.com/amazon-science/gnn-tail-generalization) 提取具有不完整或缺失邻域的图节点表示。GNN在节点分类或回归任务中表现出卓越的性能。归纳GNN 需要事先知道节点的边缘连接结构才能正常工作。在节点度数具有幂律分布的几个实际应用中，情况通常并非如此，并且具有少量连接的节点可能具有噪声边缘。一个极端的情况是严格的冷启动 (SCS) 问题，其中没有可用的邻域信息，迫使预测模型完全依赖于节点特征。为了使用归纳 GNN 解决 SCS 问题，引入特征贡献率 (FCR)，这是一种量化节点特征及其邻域特征在预测节点标签中的贡献的指标，并将这个新指标用作模型选择奖励。然后，提出Cold Brew，这是一种通过蒸馏方法在 SCS 中比基于点和基于图的模型更好地概括 GNN 的新方法。动机：长尾分布普遍存在于大规模图挖掘任务中。在某些应用中，一些冷启动节点在图中的邻域太少或没有邻域，这使得基于图的方法由于没有足够的高质量边来执行消息传递而变得次优。
+
+* [zhitao-wang/PLNLP](https://github.com/zhitao-wang/PLNLP) 用于ogb链路预测的成对学习神经链预测。2022年，在Open Graph Benchmark链接预测数据集中包括ddi和collab，ppa和ciation2分别实现了第1、2名的成绩。
+
+* [yushundong/REFEREE](https://github.com/yushundong/REFEREE) “关于图神经网络中偏差的结构解释”的开源代码。 以GE-REFEREE为例来解释经过训练的GAT模型。评估它如何帮助GAT消除偏见。
+
+* [yongduosui/CAL](https://github.com/yongduosui/CAL) "可解释和可归纳图分类的因果注意"。基于PyTorch的因果注意在可解释和可推广**图分类**中的实现
 
 # NLP自然语言处理
 
@@ -1286,6 +1294,8 @@
 
 * [huggingface/setfit](https://github.com/huggingface/setfit) 使用 Sentence Transformers 进行高效的少样本学习. 高效且无提示的框架，用于对句子转换器进行少量微调。 它用很少的标记数据实现了高精度，特点：没有提示或语言表达器：当前的少量微调技术需要手工提示或语言表达器将示例转换为适合底层语言模型的格式。 SetFit 通过直接从文本示例生成丰富的嵌入来完全免除提示。训练速度快、多语言。
 
+* [epidemic-sentence-pair](https://github.com/zzy99/epidemic-sentence-pair) 新冠疫情相似句对判定大赛 线上第一名方案。BERT模型融合、数据对称扩充、数据传递扩充、对抗训练、伪标签。
+
 ## 机器阅读理解
 
 * [basketballandlearn/MRC_Competition_Dureader](https://github.com/basketballandlearn/MRC_Competition_Dureader) 基于大规模MRC数据再训练的机器阅读理解预训练模型（包括roberta-wwm-large、macbert-large），可以使用[transformers库](https://huggingface.co/luhua/chinese_pretrain_mrc_roberta_wwm_ext_large)。
@@ -1509,6 +1519,8 @@
 * [ydli-ai/CSL](https://github.com/ydli-ai/CSL) 首个中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）。CSL 数据集可以作为预训练语料，也可以构建许多NLP任务，例如文本摘要（标题预测）、 关键词生成和文本分类等。取自 [国家科技资源共享服务工程技术研究中心](https://nstr.escience.net.cn/)， 包含 2010-2020 年发表的期刊论文元信息（标题、摘要和关键词）。根据中文核心期刊目录进行筛选， 并标注学科和门类标签，分为 13 个门类（一级标签）和 67 个学科（二级标签）。 数据总量为 396,209 条。
 
 * [pluto-junzeng/CNSD](https://github.com/pluto-junzeng/CNSD) 中文自然语言推理数据集（A large-scale Chinese Nature language inference and Semantic similarity calculation Dataset） 本数据及通过翻译加部分人工修正的方法，从英文原数据集生成，可以一定程度缓解中文自然语言推理和语义相似度计算数据集不够的问题。
+
+* [victorsungo/MMDialog](https://github.com/victorsungo/MMDialog) 面向多模态开放域会话的大规模多轮对话数据集。
 
 ## 关系抽取、信息抽取
 
@@ -1786,6 +1798,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [causaltext/causal-text-papers](https://github.com/causaltext/causal-text-papers) 因果推理和自然语言处理的交叉研究。
 
 [zhijing-jin/Causality4NLP_Papers](https://github.com/zhijing-jin/Causality4NLP_Papers) 关于自然语言处理因果关系的论文阅读列表
+
+[DaDaMrX/ReaLiSe](https://github.com/DaDaMrX/ReaLiSe) 多模态模型中文拼写检查器。包括：文字语义、文字发音、文字图形。
 
 # 推荐系统
 
@@ -2481,6 +2495,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [YatingMusic/ddsp-singing-vocoders](https://github.com/yatingmusic/ddsp-singing-vocoders) 声码器是一种条件音频生成模型，可将声学特征（如 mel 频谱图）转换为波形。从可微分数字信号处理（DDSP）中汲取灵感，提出SawSing新型声码器，用于歌声。SawSing使用线性时变有限脉冲响应滤波器过滤锯齿波源信号来合成歌唱声音的谐波部分，该滤波器的系数由神经网络根据输入的mel频谱图估计。由于加强了相位连续性，因此可以生成歌声，而不会出现许多现有声码器的相位不连续性故障。在资源有限的场景中，收敛速度更快，且优于最先进的生成对抗网络和基于扩散的声码器，只有3个训练录音和3小时的训练时间。
 
+[CjangCjengh/MoeGoe](https://github.com/CjangCjengh/MoeGoe) 用于 VITS 推理的可执行文件，包括上海方言模型。VITS：用于语音合成带有对抗学习的条件变分自编码器。
+
 ## 语音识别与合成_其他
 
 [TencentGameMate/chinese_speech_pretrain](https://github.com/TencentGameMate/chinese_speech_pretrain) WenetSpeech train_l 集的 1 万小时中文数据作为无监督预训练数据。数据主要来源于 YouTube 和 Podcast，覆盖了各种类型录制场景、背景噪声、说话方式等，其领域主要包括有声书、解说、纪录片、电视剧、访谈、新闻、朗读、演讲、综艺和其他等10大场景。
@@ -2653,6 +2669,10 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 * [YifanDengWHU/DDIMDL](https://github.com/YifanDengWHU/DDIMDL) 具有多种药物特征的多模式深度学习框架来预测药物-药物相互作用（DDI）事件。
 
+* [CSUBioGroup/BACPI](https://github.com/CSUBioGroup/BACPI) 用于化合物-蛋白质相互作用和结合亲和力预测的双向注意力神经网络
+
+* [biomed-AI/CoSMIG](https://github.com/biomed-AI/CoSMIG) 多关系归纳药物-基因相互作用预测的交际子图表示学习
+
 ## 分子
 
 * [futianfan/CORE](https://github.com/futianfan/CORE) 利用复制和改进策略自动优化分子
@@ -2751,6 +2771,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 * [OptiMaL-PSE-Lab/DeepDock](https://github.com/OptiMaL-PSE-Lab/DeepDock) 预测生物活性分子结合构象的几何深度学习方法
 
+* [hongliangduan/Self-supervised-molecular-pretraining-strategy-for-low-resource-reaction-prediction-scenarios](https://github.com/hongliangduan/Self-supervised-molecular-pretraining-strategy-for-low-resource-reaction-prediction-scenarios) 低资源反应预测场景的自监督分子预训练策略 
+
 ## 抗菌肽
 
 * https://github.com/vail-uvm/amp-gan 一种基于双向条件生成对抗网络的抗菌肽（AMPs）设计方法AMPGAN v2。AMPGAN v2使用生成器和鉴别器来学习数据驱动的先验知识，并使用条件变量控制生成。
@@ -2783,7 +2805,7 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [kaist-amsg/Synthesizability-PU-CGCNN](https://github.com/kaist-amsg/Synthesizability-PU-CGCNN)  基于半监督学习的晶体结构的合成预测
 
-[xiaoyeye/CCST](https://github.com/xiaoyeye/CCST) 使用图神经网络对空间转录组学数据进行细胞聚类。利用最近的两个技术发展，空间转录组学和图神经网络，用图神经网络进行空间转录组学数据的细胞聚类，一种基于图卷积网络的无监督细胞聚类方法，以改进从头算细胞聚类和发现 基于策划的细胞类别注释的新型子细胞类型。 CCST 是处理各种空间分辨转录组学的通用框架。
+[xiaoyeye/CCST](https://github.com/xiaoyeye/CCST) 使用图神经网络对空间转录组学数据进行细胞聚类。利用最近的两个技术发展，空间转录组学和图神经网络，用图神经网络进行空间转录组学数据的细胞聚类，一种基于图卷积网络的无监督细胞聚类方法，以改进从头算细胞聚类和发现 基于策划的细胞类别注释的新型子细胞类型。 CCST是处理各种空间分辨转录组学的通用框架。
 
 [WLYLab/PepFormer](https://github.com/WLYLab/PepFormer) 基于Transformer的对比学习框架实现多肽可检测性预测
 
@@ -2803,17 +2825,17 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [ziyujia/Physiological-Signal-Classification-Papers](https://github.com/ziyujia/Physiological-Signal-Classification-Papers) 500余篇基于机器学习/深度学习的生理信号分类论文列表
 
-https://github.com/ziyujia/Sleep-Stages-Classification-Papers 基于机器学习/深度学习的睡眠阶段分类论文列表
+[ziyujia/Sleep-Stages-Classification-Papers](https://github.com/ziyujia/Sleep-Stages-Classification-Papers) 基于深度学习的睡眠阶段分类论文列表
 
-https://github.com/ziyujia/Motor-Imagery-Papers 基于机器学习/深度学习的运动想象分类论文列表
+[ziyujia/Motor-Imagery-Papers](https://github.com/ziyujia/Motor-Imagery-Papers) 基于深度学习的运动想象分类论文列表
 
 [BojarLab/SweetNet](https://github.com/BojarLab/SweetNet) 图卷积神经网络分析复杂碳水化合物。
 
 [jaswindersingh2/SPOT-RNA2](https://github.com/jaswindersingh2/SPOT-RNA2) 利用进化概况、突变耦合和二维迁移学习改进了RNA二级结构和三级碱基配对预测
 
-https://github.com/QSong-github/scGCN 单细胞图卷积网络模型(single-cell Graph Convolutional Network)可以实现跨越不同数据集的知识转移(knowledge transfer)。通过在30个单细胞组学数据集上进行基准测试实验，结果表明scGCN在利用来自不同组织、平台和物种以及分子层的细胞方面展现了优于其他方法的准确性。
+[QSong-github/scGCN](https://github.com/QSong-github/scGCN) 单细胞图卷积网络模型(single-cell Graph Convolutional Network)可以实现跨越不同数据集的知识转移(knowledge transfer)。通过在30个单细胞组学数据集上进行基准测试实验，结果表明scGCN在利用来自不同组织、平台和物种以及分子层的细胞方面展现了优于其他方法的准确性。
 
-https://github.com/mauragarofalo/LICTOR 抗体体细胞突变的机器学习分析预测免疫球蛋白轻链毒性
+[mauragarofalo/LICTOR](https://github.com/mauragarofalo/LICTOR) 抗体体细胞突变的机器学习分析预测免疫球蛋白轻链毒性
 
 [JieZheng-ShanghaiTech/KG4SL](https://github.com/JieZheng-ShanghaiTech/KG4SL) 用于人类癌症合成致死预测的知识图神经网络
 
@@ -2892,6 +2914,10 @@ https://github.com/mauragarofalo/LICTOR 抗体体细胞突变的机器学习分�
 [microsoft/InnerEye-DeepLearning](https://github.com/microsoft/InnerEye-DeepLearning) 用于在 Azure 机器学习上训练和部署 3D 分割模型的医学影像深度学习库
 
 [细菌和古细菌细胞结构图谱](https://jensenlab.caltech.edu/book/) 随着近 20 年低温电子断层扫描 (cryo-ET) 的发展，我们对细菌和古细菌细胞结构的理解有了爆炸式增长，但传统教科书并没有跟上所有新信息。为了解决这个问题，并与世界分享我们所见，我们创作了这本书。它遵循 1960 年代和 1970 年代细胞结构图谱的传统，显示了不同细胞和组织的显微照片以及扩展的图形图例，以帮助每个人了解他们在看什么。五十年后，我们有了一组新的图像——这次是 3D 冷冻断层照片——以及展示它们的新技术：我们的每个免费数字页面都包含一部 3D 断层照片的电影，而不是一本昂贵的书中的静态 2D 数字。一个单元格，带有注释和动画。
+
+[TencentAILabHealthcare/MLA-GNN](https://github.com/TencentAILabHealthcare/MLA-GNN) 对于胶质瘤数据集，基于共表达基因模块用于疾病诊断和预后的多级注意力图神经网络。
+
+[TencentAILabHealthcare/scBERT](https://github.com/TencentAILabHealthcare/scBERT) 单细胞RNA-seq数据细胞类型注释的大规模预训练深度语言模型。可靠的细胞类型注释是单细胞RNA测序数据下游分析的先决条件。受大规模预训练语言模型的启发，提出了基于预训练深度神经网络的模型scBERT。scBERT的第一阶段，它通过对大量未标记的scRNA-seq数据进行预训练，获得了对基因 - 基因相互作用的一般理解。然后，预先训练的scBERT可以通过监督微调用于看不见和用户特异性scRNA-seq数据的细胞注释任务。
 
 # 机器视觉
 
@@ -3147,6 +3173,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
+[yangjianxin1/CLIP-Chinese](https://github.com/yangjianxin1/CLIP-Chinese) 中文多模态对比学习预训练模型 ，可获取140w中文图文对预训练数据，以及中文CLIP预训练权重。下游任务：图文相似度计算、文本相似度计算、图片相似度计算
+
 [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 排行榜第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
@@ -3215,7 +3243,7 @@ https://github.com/TorchSSL/TorchSSL 基于 PyTorch 的半监督学习库 (NeurI
 
 https://github.com/google-research/mixmatch 集成了自洽正则化的超强半监督学习 MixMatch 
 
-https://github.com/google-research/remixmatch 改进了最近提出的MixMatch半监督学习算法，引入了两种新技术：分布对齐和增强锚定。分布对齐鼓励未标记数据预测的分布接近标签的分布。增强锚定为模型提供多个强增强版本的输入，并鼓励每个输出接近同一输入的弱增强版本的预测。
+[google-research/remixmatch](https://github.com/google-research/remixmatch) 改进了最近提出的MixMatch半监督学习算法，引入了两种新技术：分布对齐和增强锚定。分布对齐鼓励未标记数据预测的分布接近标签的分布。增强锚定为模型提供多个强增强版本的输入，并鼓励每个输出接近同一输入的弱增强版本的预测。
 
 [NVlabs/stylegan3](https://github.com/NVlabs/stylegan3) 更适合视频和动画的生成模型。
 
@@ -3487,7 +3515,7 @@ https://github.com/vtraag/leidenalg
 
 https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
-https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形数据库
+[vesoft-inc/nebula](https://github.com/vesoft-inc/nebula) 分布式、可扩展、闪电般的图形数据库
 
 [milvus-io/milvus](https://github.com/milvus-io/milvus) 大规模特征向量的最快相似度搜索引擎 基于Faiss、Annoy等开源库，并针对性做了定制，支持结构化查询、多模查询等业界比较急需的功能；Milvus支持cpu、gpu、arm等多种类型的处理器；同时使用mysql存储元数据，并且在共享存储的支持下，Milvus可以支持分布式部署。
 
@@ -3599,6 +3627,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 [ctripcorp/x-pipe](https://github.com/ctripcorp/x-pipe) 携程框架部门研发的Redis多数据中心复制管理系统。基于Redis的Master-Slave复制协议，实现低延时、高可用的Redis多中心、跨公网数据复制，并且提供一键机房切换，复制监控、异常报警等功能。
 
+[ctripcorp/drc](https://github.com/ctripcorp/drc) 携程框架架构研发部数据中心组推出的用于数据双向或多向复制的数据库中间件，服务于异地多活项目，同时赋予了业务全球化的部署能力。为了做到真正的数据异地多活，实现MySQL同机房就近读写，机房故障时无需进行数据库DR操作，只进行流量切换，就需要引入数据实时双向(多向)复制组件。
+
 # 硬件
 
 ## CPU RISC-V
@@ -3615,23 +3645,23 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [plctlab/writing-your-first-riscv-simulator](https://github.com/plctlab/writing-your-first-riscv-simulator)《从零开始的RISC-V模拟器开发》配套的PPT和教学资料
 
-* https://github.com/cccriscv/mini-riscv-os 从零开始为 RISC-V 构建最小的多任务操作系统内核
+* [cccriscv/mini-riscv-os](https://github.com/cccriscv/mini-riscv-os) 从零开始为 RISC-V 构建最小的多任务操作系统内核
 
 * [plctlab/riscv-operating-system-mooc](https://github.com/plctlab/riscv-operating-system-mooc) 《从头写一个RISC-V OS》课程配套的资源
 
 * [darklife/darkriscv](https://github.com/darklife/darkriscv) 一个晚上从零开始在 Verilog 实现 RISC-V cpu
 
-* https://github.com/ultraembedded/riscv RISC-V CPU 核心 （RV32IM）
+* [ultraembedded/riscv](https://github.com/ultraembedded/riscv) RISC-V CPU 核心 （RV32IM）
 
-* https://github.com/ultraembedded/biriscv 32 位超级RISC-V Cpu
+* [ultraembedded/biriscv](https://github.com/ultraembedded/biriscv) 32 位超级RISC-V Cpu
 
-* https://github.com/liuqidev/8-bits-RISC-CPU-Verilog 基于有限状态机的8位RISC（精简指令集）CPU（中央处理器）简单结构和Verilog实现。
+* [liuqidev/8-bits-RISC-CPU-Verilog](https://github.com/liuqidev/8-bits-RISC-CPU-Verilog) 基于有限状态机的8位RISC（精简指令集）CPU（中央处理器）简单结构和Verilog实现。
 
 * https://github.com/litex-hub/linux-on-litex-vexriscv 使用 VexRiscv CPU 运行 Linux，这是一种 32 位的 Linux 功能 RISC-V CPU。
 
-* https://github.com/riscv2os/riscv2os 手把手帶你學習 RISC-V 到可以自製 RISC-V 處理器上的作業系統的電子書。
+* [riscv2os/riscv2os](https://github.com/riscv2os/riscv2os) 手把手帶你學習 RISC-V 到可以自製 RISC-V 處理器上的作業系統的電子書。
 
-* https://github.com/sgmarz/osblog 在 Rust 中编写 RISC-V 操作系统
+* [sgmarz/osblog](https://github.com/sgmarz/osblog) 在 Rust 中编写 RISC-V 操作系统
 
 * [SpinalHDL/VexRiscv](https://github.com/SpinalHDL/VexRiscv) FPGA 友好的 32 位 RISC-V CPU 实现
 
@@ -3655,7 +3685,7 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [openhwgroup/cva6](https://github.com/openhwgroup/cva6) 6 级、单期、有序CPU，它实现了64位RISC-V指令集。它完全实现了第I卷中指定的I、M、A 和C扩展：用户级ISA V2.3以及草案权限扩展 1.10。它实现了三个特权级别 M、S、U 以完全支持类 Unix 操作系统。此外，它还符合外部调试规范草案 0.13。
 
-* https://github.com/plctlab/PLCT-Open-Reports  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
+* [plctlab/PLCT-Open-Reports](https://github.com/plctlab/PLCT-Open-Reports)  PLCT实验室的公开演讲，或者决定公开的组内报告 RISCV LLVM 等。
 
 * [lowRISC/ibex](https://github.com/lowRISC/ibex) 小型 32 位 RISC-V CPU 内核，以前称为 zero-riscy。用 System Verilog 编写的生产级开源 32 位 RISC-V CPU 内核。CPU 内核高度可参数化，非常适合嵌入式控制应用。Ibex 正在接受广泛的验证，并且已经看到多个流片。Ibex 支持整数 (I) 或嵌入式 (E)、整数乘除法 (M)、压缩 (C) 和B（位操作）扩展。
 
@@ -3695,11 +3725,11 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [zhengnianli/EmbedSummary](https://github.com/zhengnianli/EmbedSummary) 精品嵌入式资源汇总
 
-* https://github.com/Lichee-Pi/Tang_FPGA_Examples LicheeTang FPGA例程
+* [Lichee-Pi/Tang_FPGA_Examples](https://github.com/Lichee-Pi/Tang_FPGA_Examples) LicheeTang FPGA例程
 
-* https://github.com/nf9/police_light Lichee Tang板实现警灯
+* [nf9/police_light](https://github.com/nf9/police_light) Lichee Tang板实现警灯
 
-* https://github.com/danjulio/lepton/tree/master/ESP32 基于 ESP32 的热像仪（Lepton 3.5）。
+* [danjulio/lepton/ESP32](https://github.com/danjulio/lepton/tree/master/ESP32) 基于 ESP32 的热像仪（Lepton 3.5）。
 
 * [larryli/u8g2_wqy](https://github.com/larryli/u8g2_wqy) 适合 u8g2 的中文字体，采用文泉驿点阵宋体作为源本，提供 12x12、13x13、14x14、15x15 和 16x16 点阵字库。
 
@@ -3750,6 +3780,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [abnoname/iceZ0mb1e](https://github.com/abnoname/iceZ0mb1e) 使用完整的开源 FPGA[工具链流程](http://www.clifford.at/yosys/) 构建基于 TV80 的演示片上系统，包括使用 SDCC 进行固件编译。
 
 * [brickbots/HandiPi](https://github.com/brickbots/HandiPi) 带键盘和显示屏的手持式 树莓派4 计算机
+
+* [mit-han-lab/tiny-training](https://github.com/mit-han-lab/tiny-training) 256KB 内存下的设备上训练DNN
 
 # 网络与前端开发
 
@@ -4061,6 +4093,10 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [D3Ext/AORT](https://github.com/D3Ext/AORT) 用于漏洞赏金的多合一侦察工具
 
+* [Sma11New/webEye](https://github.com/Sma11New/webEye) 快速批量检测IP上指定端口的Web站点存活信息，获取其Title，红队信息搜集、蓝队资产探测梳理。
+
+* [ghtwf01/excavator](https://github.com/ghtwf01/excavator) 基于mitmproxy的插件式被动安全漏洞扫描器
+
 ## web shell、shellcode
 
 * web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
@@ -4215,6 +4251,10 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 
 * [WindXaa/Android-Vulnerability-Mining](https://github.com/WindXaa/Android-Vulnerability-Mining) Android APP漏洞之战系列，主要讲述如何快速挖掘APP漏洞
 
+* [WindXaa/Android-reverse](https://github.com/WindXaa/Android-reverse) Android逆向的相关脚本文件  加壳与脱壳 Xposed/源码定制 Web服务器探测 Frida定制 静态分析ApkMean 动态分析GDroid 隐私合规框架PPExtract 恶意应用检测MalDroid
+
+* [WindXaa/Android-Reverse-interview](https://github.com/WindXaa/Android-Reverse-interview) 主要针对移动安全中Android逆向工程师、漏洞挖掘工程师、渗透工程师的面试指南
+
 ## 密码破解、字典
 
 * [0xHJK/TotalPass](https://github.com/0xHJK/TotalPass) 默认密码扫描器 是否存在默认密码\搜索常见设备默认密码\支持手动和自动更新密码库 扫描类型有SSH\Telnet\SNMP\Redis
@@ -4244,6 +4284,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [insightglacier/Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting) Pentesing、Fuzzing、Bruteforce 和 BugBounty 等字典项目。渗透测试、SRC漏洞、爆破、Fuzzing等字典收集项目。
 
 * [liamg/dismember](https://github.com/liamg/dismember) Linux 工具包，可用于扫描所有进程（或特定进程）的内存以查找公共机密和自定义正则表达式等。
+
+* [zapstiko/wordlists](https://github.com/zapstiko/wordlists) 所有类型的有效负载字典。
 
 ## 其他_安全与渗透
 
@@ -4644,6 +4686,8 @@ https://github.com/vesoft-inc/nebula 分布式、可扩展、闪电般的图形�
 * [DavidBuchanan314/dlinject](https://github.com/DavidBuchanan314/dlinject) 将共享库（即任意代码）注入实时 Linux 进程，无需跟踪
 
 * [CoolerVoid/casper-fs](https://github.com/CoolerVoid/casper-fs) 一个自定义隐藏的 Linux 内核模块生成器。每个模块都在文件系统中工作，以保护和隐藏机密文件。
+
+* [DataDog/threatest](https://github.com/DataDog/threatest) 一个用于端到端测试威胁检测规则的 CLI 和 Go 框架。
 
 # 其他
 
