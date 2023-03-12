@@ -436,6 +436,8 @@
 
 * [youngfish42/Awesome-Federated-Learning-on-Graph-and-Tabular-Data](https://github.com/youngfish42/Awesome-Federated-Learning-on-Graph-and-Tabular-Data) 图形和表格数据相关论文、框架和数据集的联邦学习。
 
+* [microsoft/PersonalizedFL](https://github.com/microsoft/PersonalizedFL) 面向研究的个性化联邦学习代码库
+
 ## 其他_机器学习与深度学习
 
 * [vikasverma1077/manifold_mixup](https://github.com/vikasverma1077/manifold_mixup) 数据增强⽅法,目标是通过插入示例的隐藏状态来学习鲁棒的特征。 我们的方法学习到的表征更具判别性和紧凑性。 
@@ -605,6 +607,8 @@
 * [alipay/Pyraformer](https://github.com/alipay/Pyraformer) 用于长期时间序列建模和预测的低复杂度金字塔注意。
 
 * [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM) 由 NVIDIA 的应用DL研究团队开发的大型、强大的transformer。开发了高效、模型并行（张量、序列和流水线）和多节点预训练，基于 Transformer 的模型（例如 GPT、BERT 和 T5）使用混合精度。
+
+* [facebookresearch/bit](https://github.com/facebookresearch/bit) 鲁棒二值化多次蒸馏Transformer
 
 ## BERT优化
 
@@ -817,6 +821,10 @@
 
 * [nlpyang/BertSum](https://github.com/nlpyang/BertSum) BERT的简单变体 用于抽取式文本摘要，主要是选择性抽取文本中的句子作为最后的摘要。这个任务最大的问题是如何获得每个句子向量，然后把向量用于二分类，判断去留。而 BERT 原模型只能生成单句的句子向量，或者句子对的。（1）将文档中每句话前加 [CLS]后加[SEP]，然后输入 BERT，而每个[CLS]对应的位置就是每句的句向量。（2）为了进一步增加句之间的互动，在 BERT 之上加了一层 Transformer 的 Summarization Layer，只输入每个[CLS]的向量，最后输出预测当前句是否保留，finetune。
 
+* [OpenSUM/CPSUM](https://github.com/OpenSUM/CPSUM) 半监督抽取式摘要的噪声注入一致性训练和熵约束伪标签
+
+* [krystalan/ClidSum](https://github.com/krystalan/ClidSum) 一个跨语言对话摘要的基准数据集 
+
 ## 文本生成
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -860,6 +868,10 @@
 * [yangjianxin1/GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat) 用于中文闲聊的GPT2文本对话模型
 
 * [RUCAIBox/MVP](https://github.com/RUCAIBox/MVP) 自然语言生成的多任务监督预训练。遵循标准的转换器编码器-解码器架构。使用标记数据集进行监督预训练。还具有特定于任务的软提示，以刺激模型执行特定任务的能力。专为自然语言生成而设计，可以适应各种生成任务。我们的模型也可以适应自然语言理解任务。收集了7种代表性生成任务的45个有标签数据集，共计3200千万条样本（23GB），来作为预训练语料。第一阶段，使用这些语料训练一个标准的Transformer，即MVP；第二阶段，冻结住MVP，利用每个任务的数据训练任务特定的连续型提示（即7组提示）。
+
+* [RUCAIBox/Context-Tuning](https://github.com/RUCAIBox/Context-Tuning) 上下文调优：学习上下文提示用于自然语言生成
+
+* [samueldobbie/markup](https://github.com/samueldobbie/markup) 基于Web的文档注释工具，由GPT-3  提供支持
 
 ## 文本匹配 文本相似度
 
@@ -920,6 +932,8 @@
 * [huggingface/setfit](https://github.com/huggingface/setfit) 使用 Sentence Transformers 进行高效的少样本学习. 高效且无提示的框架，用于对句子转换器进行少量微调。 它用很少的标记数据实现了高精度，特点：没有提示或语言表达器：当前的少量微调技术需要手工提示或语言表达器将示例转换为适合底层语言模型的格式。 SetFit 通过直接从文本示例生成丰富的嵌入来完全免除提示。训练速度快、多语言。
 
 * [epidemic-sentence-pair](https://github.com/zzy99/epidemic-sentence-pair) 新冠疫情相似句对判定大赛 线上第一名方案。BERT模型融合、数据对称扩充、数据传递扩充、对抗训练、伪标签。
+
+* [KKenny0/sohu2021](https://github.com/KKenny0/sohu2021) 2021 搜狐校园文本匹配算法大赛方案，基于 BERT 的交互模型，通过 BERT 来得到 source-target pair 的向量表示。任务：短短文本、短长文本和长长文本匹配。
 
 ## 机器阅读理解
 
@@ -1065,6 +1079,10 @@
 
 * [lemonhu/stock-knowledge-graph](https://github.com/lemonhu/stock-knowledge-graph) 利用网络公开数据构建一个小型证券知识图谱
 
+* [OpenBGBenchmark/OpenBG](https://github.com/OpenBGBenchmark/OpenBG) 大规模开放业务知识图谱.开放的商业知识图，它使用统一的Schema覆盖大规模的多模态数据集，包含了浙江大学ZJUKG实验室和阿里巴巴知识引擎团队提供的数百万个产品和消费者需求。
+
+* [DeqingYang/CKBC](https://github.com/DeqingYang/CKBC) 使用关系图注意力网络和预训练语言模型完成常识知识库。常识在各种语料库中很少被明确表达，但对于机器理解自然语言非常有用。与传统的知识库（KG）不同，常识库（CKG）中的节点通常由自由格式的文本表示，并且比传统的 KG 规模更大，更稀疏。因此，这对传统的知识库补全（KBC）方法造成了挑战。
+
 ## NLP语料和数据集
 
 * [thu-coai/CrossWOZ](https://github.com/thu-coai/CrossWOZ) 中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
@@ -1147,6 +1165,10 @@
 
 * [victorsungo/MMDialog](https://github.com/victorsungo/MMDialog) 面向多模态开放域会话的大规模多轮对话数据集。
 
+* [lupantech/ScienceQA](https://github.com/lupantech/ScienceQA) 通过思维链进行多模态推理的科学问题回答。提出了科学问答（ScienceQA），这是一个新的基准，包括21,208个多模态多项选择题，有一套不同的科学主题和注释，他们的答案与相应的讲座和解释。讲座和解释分别提供了一般的外部知识和具体的原因，以获得正确的答案。拥有更丰富的领域多样性：自然科学语言科学社会科学。ScienceQA包含26个主题、127个类别和379个技能，涵盖了广泛的领域。我们进一步设计语言模型，学习生成演讲和解释作为思维链（CoT），以模拟回答ScienceQA问题时的多跳推理过程。ScienceQA证明了CoT在语言模型中的实用性，CoT在少样例GPT-3中将问题回答性能提高了1.20%，在微调的UnifiedQA中将问题回答性能提高了3.99%。
+
+* [benywon/ChiQA](https://github.com/benywon/ChiQA) 用于多模态理解的大规模基于图像的真实世界问答数据集。ChiQA中的问题是向搜索引擎发出的开放域用户查询。ChiQA中的图像也是从搜索引擎中收集的真实世界图像，与问题相关但不一定能回答问题。我们的数据众包包括两个阶段的主动学习过程。在第一阶段，我们从网络上随机收集样本。在第二阶段中，我们首先基于来自第一阶段的数据训练模型，然后使用训练好的模型在剩余数据上选择硬示例并继续标记。这两个阶段的设置使得数据更具挑战性，并且从本质上消除了对数据中某些属性或语言模式的不合理偏爱。
+
 ## 关系抽取、信息抽取
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)  专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
@@ -1162,6 +1184,8 @@
 * [131250208/TPlinker-joint-extraction](https://github.com/131250208/TPlinker-joint-extraction) 联合抽取模型 实体关系联合抽取标注关系抽取方案
 
 * [bojone/GPLinker](https://github.com/bojone/GPLinker) 基于GlobalPointer的实体/关系/事件抽取
+
+* [xhw205/GPLinker_torch](https://github.com/xhw205/GPLinker_torch) CMeIE/CBLUE/CHIP/实体关系抽取/SPO抽取
 
 * [TanyaZhao/MRC4ERE_plus](https://github.com/TanyaZhao/MRC4ERE_plus) 基于机器阅读理解的联合实体关系提取框架
 
@@ -1202,6 +1226,8 @@
 * [lemonhu/open-entity-relation-extraction](https://github.com/lemonhu/open-entity-relation-extraction) 基于依存句法分析，实现面向开放域文本的知识三元组抽取（实体和关系抽取）及知识库构建。
 
 * [lancopku/Chinese-Literature-NER-RE-Dataset](https://github.com/lancopku/Chinese-Literature-NER-RE-Dataset) 中文文学文本语篇级命名实体识别与关系抽取数据集
+
+* [tonytan48/Re-DocRED](https://github.com/tonytan48/Re-DocRED) 广泛使用的文档级关系抽取基准。然而，DocRED数据集包含很大比例的假阴性示例（注释不完整）。我们修订了DocRED数据集中的4，053个文档并解决了其问题。
 
 ## 实体识别NER、意图识别、槽位填充
 
@@ -1813,6 +1839,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [DirtyHarryLYL/Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec) 基于HAKE数据的通用人类活动特征提取器和人体PaSta（部分状态）检测器。它的工作原理类似于 ImageNet/COCO 预训练的主干，旨在为下游任务（如 VQA、字幕、聚类等）提取多模态活动表示。
 
+[fengq1a0/FOF](https://github.com/fengq1a0/FOF) 学习傅里叶占有场(Fourier Occupancy Fields)用于单目实时人体重建
+
 ## 图像恢复
 
 [microsoft/Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life) 旧照片修复
@@ -1859,6 +1887,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [Layout-Parser/layout-parser](https://github.com/Layout-Parser/layout-parser) 基于深度学习的文档图像分析的统一工具包，旨在简化文档图像分析 (DIA) 任务。
 
+[phamquiluan/PubLayNet](https://github.com/phamquiluan/PubLayNet) PubLayNet数据集上的MaskRCNN。段落检测、表格检测、图形检测... 个大型文档图像数据集，其布局使用边界框和多边形分割进行标注。
+
 ## 视频补帧
 
 [hzwer/arXiv2020-RIFE](https://github.com/hzwer/arXiv2020-RIFE) 视频帧插值的实时中级流量估计.旷视和北大提出的一种实时中间流估计算法。用于视频帧插值，能够改善伪影、让视频更丝滑。
@@ -1898,6 +1928,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 [iscyy/yoloair](https://github.com/iscyy/yoloair) 基于PyTorch的YOLO算法库。统一模型代码框架、统一应用、统一改进、易于模块组合、构建更强大的网络模型。
 
 [PaddlePaddle/PaddleClas](https://github.com/PaddlePaddle/PaddleClas) 飞桨图像识别套件 PaddleClas 是飞桨为工业界和学院所准备的一个图像任务的工具集，桌面和用户训练出更好的图像分类和应用落地。PaddleClas 前沿分类、识别相关支持算法，发布行业级特色骨算法PP-HGNet、PP-LCNetv2、PP-LCNet和SSLD 半监督干式网络知识模型等模型，在此基础上打造PULC 超轻量级分类分类方案和PP-ShiTu图像识别系统。
+
+[Hawkeye-FineGrained/Hawkeye](https://github.com/Hawkeye-FineGrained/Hawkeye) 基于开源深度学习的细粒度图像识别工具箱构建于PyTorch。基于深度滤波器：S3N (ICCV 2019) Interp-Parts (CVPR 2020) ProtoTree (CVPR 2021)。基于注意力机制：OSME+MAMC (ECCV 2018) MGE-CNN (ICCV 2019) APCNN (IEEE TIP 2021) 。基于高阶特征交互： BCNN (ICCV 2015) CBCNN (CVPR 2016) Fast MPN-COV (CVPR 2018)  。基于特殊损失函数： Pairwise Confusion (ECCV 2018) API-Net (AAAI 2020) CIN (AAAI 2020) 。基于网络数据： Peer-Learning (ICCV 2021) 其他方法 NTS-Net (ECCV 2018) CrossX (ICCV 2019) DCL (CVPR 2019)。
 
 [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) 在 Pytorch 中实现 Vision Transformer，一种仅使用单个 Transformer 编码器即可在视觉分类中实现 SOTA 的简单方法
 
@@ -1960,6 +1992,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 [PaddlePaddle/PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN/) 飞桨生成对抗网络开发套件--PaddleGAN，为开发者提供经典及前沿的生成对抗网络高性能实现，并支撑开发者快速构建、训练及部署生成对抗网络，以供学术、娱乐及产业应用。包括：人脸属性编辑之年龄变换 一键实现变老变年轻；视频超分SOTA算法PP-MSVSR；StyleGAN V2人脸属性编辑之性别转换；LapStyle风格迁移；人脸融合能力，结合新版Frirst Order Motion，实现人脸完美融合并带有丰富表情；真实照片转油画风格；人脸融合、风格迁移、老视频修复、人脸动作迁移、超分辨率、妆容迁移、人脸动漫化、写实人像卡通化、照片动漫化、唇形同步
 
 [SHI-Labs/Versatile-Diffusion](https://github.com/SHI-Labs/Versatile-Diffusion) 多功能扩散：文本、图像和变体合二为一的扩散模型，可以原生支持图像到文本、图像变体、文本到图像和文本变体，并且可以进一步扩展到其他应用，例如语义式解缠、图像-文本双引导生成、潜在图像到文本到图像编辑等。
+
+[FrozenBurning/Text2Light](https://github.com/frozenburning/text2light) 零样本的文本驱动的HDR全景图生成
 
 ## 其他_机器视觉
 
@@ -2252,6 +2286,8 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 [POSTECH-CVLab/PeRFception](https://github.com/POSTECH-CVLab/PeRFception) 隐式3D表示（即神经辐射场（NeRFs））的最新进展使得以可微分方式进行精确和逼真的3D重建成为可能。
 
 [opendilab/InterFuser](https://github.com/opendilab/InterFuser) 使用可解释传感器融合Transformer实现安全增强型自动驾驶
+
+[Kuaipedia/Kuaipedia](https://github.com/Kuaipedia/Kuaipedia) 全球首个大规模多模态短视频百科，以条目、方面、短视频为基本单位。由快首科技与哈工大、科大讯飞合作开发。亿级别多模态短视频百科体系。
 
 # 因果推断
 
@@ -2868,6 +2904,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 * [biomed-AI/CoSMIG](https://github.com/biomed-AI/CoSMIG) 多关系归纳药物-基因相互作用预测的交际子图表示学习
 
+* [IsXudongZhang/Molormer](https://github.com/IsXudongZhang/Molormer) 基于分子图空间结构的轻量级自注意药物相互作用预测方法
+
 ## 分子
 
 * [futianfan/CORE](https://github.com/futianfan/CORE) 利用复制和改进策略自动优化分子
@@ -3241,7 +3279,9 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [safe-graph/GNN-FakeNews](https://github.com/safe-graph/GNN-FakeNews) 基于 GNN 的假新闻检测模型的集合。异构图分类。
 
-* [liun-online/HeCo](https://github.com/liun-online/HeCo) 具有协同对比学习的自监督异构图神经网络
+* [liun-online/HeCo](https://github.com/liun-online/HeCo) 具有协同对比学习的自监督异构图神经网络。
+
+* [NSSSJSS/MHGCN](https://github.com/NSSSJSS/MHGCN) 多路异构图卷积网络,节点分类任务,链接预测任务。
 
 ## 图嵌入、网络表征学习
 
@@ -4576,9 +4616,11 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘网站、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
 
-* [mastodon/mastodon](https://github.com/mastodon/mastodon) 基于 ActivityPub 的免费开源社交网络服务器，用户可以在其中关注并发现新朋友。 在 Mastodon 上，用户可以发布他们想要的任何东西：链接、图片、文本、视频。 所有服务器都可以作为联合网络进行互操作（一台服务器上的用户可以与另一台服务器上的用户无缝通信，包括实现 ActivityPub 的非 Mastodon 软件）！
+* [mastodon/mastodon](https://github.com/mastodon/mastodon) 基于 ActivityPub 的免费开源社交网络服务器，用户可以在其中关注并发现新朋友。 在 Mastodon 上，用户可以发布他们想要的任何东西：链接、图片、文本、视频。 所有服务器都可以作为联合网络进行互操作（一台服务器上的用户可以与另一台的用户无缝通信，包括实现 ActivityPub 的非 Mastodon 软件）
 
-* [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) 一个真正抗审查的 Twitter 替代品，有可能发挥作用。最简单的开放协议，能够一劳永逸地创建一个抗审查的全球“社交”网络。 它不依赖于任何受信任的中央服务器，因此具有弹性； 它基于加密密钥和签名，因此是防篡改的； 它不依赖于 P2P 技术，因此可以正常工作。
+* [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) 真正抗审查的 Twitter 替代品。最简单的开放协议，一劳永逸地创建抗审查的全球“社交”网络。 不依赖于任何受信任的中央服务器，因此具有弹性； 基于加密密钥和签名，防篡改； 它不依赖于 P2P 技术，因此可以正常工作。
+
+* [irislib/iris-messenger](https://github.com/irislib/iris-messenger) 更好的社交网络Nostr的客户端。
 
 * [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) Qt C++开发的B站视频、直播、漫画下载器。
 
@@ -4688,7 +4730,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [Rivaill/CryptoVulhub](https://github.com/Rivaill/CryptoVulhub) 分析和重现区块链世界中的攻击事件或漏洞。
 
-* [bunturx/Awesome-Blockchain-Security](https://github.com/bunturx/Awesome-Blockchain-Security)  由伟大的@0xRajeev 创建核心焦点将是以太坊智能合约安全审计。 涵盖的主题将包括以太坊、Solidity、智能合约安全和审计。
+* [bunturx/Awesome-Blockchain-Security](https://github.com/bunturx/Awesome-Blockchain-Security)  由伟大的@0xRajeev 创建核心焦点将是以太坊智能合约安全审计。 以太坊、Solidity、智能合约安全和审计。
 
 # 其他
 
@@ -4824,7 +4866,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * https://github.com/rwv/chinese-dos-games 中文 DOS 游戏
 
-* https://github.com/nondanee/UnblockNeteaseMusic 解锁网易云音乐客户端变灰歌曲
+* [nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic) 解锁网易云音乐客户端变灰歌曲
 
 * https://github.com/fffaraz/awesome-cpp A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 
