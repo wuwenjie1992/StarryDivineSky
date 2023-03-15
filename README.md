@@ -45,7 +45,7 @@
 
 # 机器学习与深度学习
 
-* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) [教程/笔记]吴恩达老师的机器学习课程个人笔记 
+* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) ![stars](https://img.shields.io/github/stars/fengdu78/Coursera-ML-AndrewNg-Notes.svg?style=social) [教程/笔记]吴恩达老师的机器学习课程个人笔记 
 
 * [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) [教程/笔记]《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被60多个国家的400多所大学用于教学。
 
@@ -538,6 +538,8 @@
 
 * [dabl/dabl](https://github.com/dabl/dabl) 数据分析基线库，当前主要侧重于探索性可视化和预处理。
 
+* [Speedml/speedml](https://github.com/Speedml/speedml) 一个Python包，用于加速启动机器学习项目。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -825,7 +827,25 @@
 
 * [krystalan/ClidSum](https://github.com/krystalan/ClidSum) 一个跨语言对话摘要的基准数据集 
 
-## 文本生成
+## 文本生成、文本对话
+
+* [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
+
+* [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) 包含 ChatGPT 提示，以更好地使用 ChatGPT
+
+* [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) ChatGPT 和 GPT-3 的惊人工具、演示和文档的详细清单
+
+* [encx/ChatGPT](https://github.com/lencx/ChatGPT) ChatGPT 桌面应用程序(Mac、Windows 和 Linux)
+
+* [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) 浏览器扩展，用ChatGPT增强搜索引擎效果
+
+* [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) 逆向工程 ChatGPT 的API
+
+* [ddiu8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo) 一个基于 OpenAI GPT-3.5 Turbo API 的 demo。
+
+* [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) 基于聊天的助理，它理解任务，可以与第三方系统互动，并能动态地检索信息。将提供基于RLHF的大型语言模型，并公开训练数据。
+
+* [acheong08/EdgeGPT](https://github.com/acheong08/EdgeGPT) 微软必应聊天的逆向工程API
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
 
@@ -1272,22 +1292,6 @@
 ## 其他_NLP自然语言处理
 
 [nltk/nltk](https://github.com/nltk/nltk) 支持自然语言处理研究和开发的开源 Python 模块、数据集和教程。
-
-[PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
-
-[f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) 包含 ChatGPT 提示，以更好地使用 ChatGPT 
-
-[humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) ChatGPT 和 GPT-3 的惊人工具、演示和文档的详细清单
-
-[encx/ChatGPT](https://github.com/lencx/ChatGPT) ChatGPT 桌面应用程序(Mac、Windows 和 Linux)
-
-[wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) 浏览器扩展，用ChatGPT增强搜索引擎效果
-
-[acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) 逆向工程 ChatGPT 的API
-
-[LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) 基于聊天的助理，它理解任务，可以与第三方系统互动，并能动态地检索信息。将提供基于RLHF的大型语言模型，并公开训练数据。
-
-[acheong08/EdgeGPT](https://github.com/acheong08/EdgeGPT) 微软必应聊天的逆向工程API
 
 [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) Stanford NLP Group 的官方 Python NLP 库。 它支持在 60 多种语言上运行各种准确的自然语言处理工具。
 
@@ -2288,6 +2292,8 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 [opendilab/InterFuser](https://github.com/opendilab/InterFuser) 使用可解释传感器融合Transformer实现安全增强型自动驾驶
 
 [Kuaipedia/Kuaipedia](https://github.com/Kuaipedia/Kuaipedia) 全球首个大规模多模态短视频百科，以条目、方面、短视频为基本单位。由快首科技与哈工大、科大讯飞合作开发。亿级别多模态短视频百科体系。
+
+[Moguri/awesome-panda3d](https://github.com/Moguri/awesome-panda3d) 使用Panda3D（python 3D库）的优秀资源的精选列表
 
 # 因果推断
 
@@ -4620,7 +4626,13 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) 真正抗审查的 Twitter 替代品。最简单的开放协议，一劳永逸地创建抗审查的全球“社交”网络。 不依赖于任何受信任的中央服务器，因此具有弹性； 基于加密密钥和签名，防篡改； 它不依赖于 P2P 技术，因此可以正常工作。
 
+* [aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr) 用于抗审查全球网络的开放协议nostr的项目和资源的精选列表，包括：协议、中继、客户端、程序库、网桥和网关、工具、NIP-05身份服务、浏览器扩展、社区、教程
+
 * [irislib/iris-messenger](https://github.com/irislib/iris-messenger) 更好的社交网络Nostr的客户端。
+
+* [damus-io/damus](https://github.com/damus-io/damus) 类似twitter的nostr客户端，适用于iPhone、iPad和MacOS。
+
+* [jeffthibault/python-nostr](https://github.com/jeffthibault/python-nostr) 用于创建Nostr客户端的Python库
 
 * [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) Qt C++开发的B站视频、直播、漫画下载器。
 
