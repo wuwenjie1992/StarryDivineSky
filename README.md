@@ -392,6 +392,10 @@
 
 * [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) 用于大规模并行训练的统一深度学习系统,具有高效并行化技术的集成大规模模型训练系统。可以让您在几行代码内快速开始分布式训练，通过并行化策略、异构内存管理为深度学习任务加速或者节省显存。
 
+* [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) 深度学习优化库，它使分布式训练变得容易，高效和有效。
+
+* [FMInference/FlexGen](https://github.com/FMInference/FlexGen) 高吞吐量的生成引擎，用于在GPU内存有限的情况下运行大型语言模型。FlexGen允许通过IO高效分载、压缩和大有效批处理大小生成高吞吐量。
+
 * [Oneflow-Inc/libai](https://github.com/Oneflow-Inc/libai) 基于OneFlow的大规模模型训练开源工具箱。支持丰富的并行训练配置，包括但不限于分布式训练、混合精度训练、后向重计算、ZeRO，多样化的训练技巧，同时支持视觉与自然语言处理任务、简单易用，便于上手。
 
 * [Qihoo360/XLearning](https://github.com/Qihoo360/XLearning) 支持多种机器学习、深度学习框架调度系统。基于Hadoop Yarn完成了对TensorFlow、MXNet、Caffe、Theano、PyTorch、Keras、XGBoost等常用框架的集成，同时具备良好的扩展性和兼容性。
@@ -411,8 +415,6 @@
 * [kakaobrain/torchgpipe](https://github.com/kakaobrain/torchgpipe) pytorch的可扩展管道并行性库，可有效地训练大型的，消耗内存的模型。
 
 * [tensorflow/mesh](https://github.com/tensorflow/mesh) 简化模型并行化 Mesh TensorFlow: Model Parallelism Made Easier
-
-* [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) 一个深度学习优化库，它使分布式训练变得容易，高效和有效。
 
 * [uber/fiber](https://github.com/uber/fiber) 简化AI的分布式计算 该项目是实验性的，API不稳定。
 
@@ -675,6 +677,10 @@
 
 ## 预训练模型
 
+* [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) 纯C/C++中LLaMA模型的CPU推理。2023年FacebookResearch 开源了大规模语言模型 LLaMA，包含从 7B 到 65B 的参数范围，训练使用多达 1.4万亿 tokens 语料。LLaMA-13B 在大部分基准测评上超过了 GPT3（175B），LLaMA 可能是目前公开模型权重中效果最好的语言模型。
+
+* [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) 斯坦福大学的LLaMA羊驼模型。用2K数据微调模型，构建和共享一个遵循指令的LLaMA模型。
+
 * [dbiir/UER-py](https://github.com/dbiir/UER-py) 一个用于对通用语料进行预训练并对下游任务进行微调的工具包。提供了非常丰富的模型库。包括：中文RoBERTa、基于词的中文RoBERTa、中文GPT-2预训练模型（通用、古诗词、对联、歌词、文言文）、中文T5预训练模型、中文RoBERTa下游任务微调模型（JD full 情感分类 、JD binary 情感分类 、Dianping 情感分类、Ifeng 新闻主题分类、Chinanews 新闻主题分类 、CLUENER2020 NER 、抽取式问答）等。
 
 * [OpenBMB/BMInf](https://github.com/OpenBMB/BMInf) BMInf (Big Model Inference) 是一个用于大规模预训练语言模型（PLM）推理阶段的低资源工具包。最低支持在NVIDIA GTX 1060单卡运行百亿大模型。在此基础上，使用更好的gpu运行会有更好的性能。模型能力覆盖文本补全、文本生成与对话场景。文本生成能力大幅提高。目前支持下列模型：
@@ -829,11 +835,13 @@
 
 ## 文本生成、文本对话
 
+* [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
+
 * [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 
 * [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) 包含 ChatGPT 提示，以更好地使用 ChatGPT
 
-* [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) ChatGPT 和 GPT-3 的惊人工具、演示和文档的详细清单
+* [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) ChatGPT和GPT-3的惊人工具、演示和文档
 
 * [encx/ChatGPT](https://github.com/lencx/ChatGPT) ChatGPT 桌面应用程序(Mac、Windows 和 Linux)
 
@@ -847,6 +855,12 @@
 
 * [acheong08/EdgeGPT](https://github.com/acheong08/EdgeGPT) 微软必应聊天的逆向工程API
 
+* [transitive-bullshit/chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api) OpenAI提供的ChatGPT的Node.js包装器。
+
+* [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) 用ChatGPT搭建微信聊天机器人
+
+* [openai/openai-python](https://github.com/openai/openai-python) OpenAI Python库提供了从用Python语言编写的应用程序对OpenAI API的方便访问。
+
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
 
 * [XiangLi1999/PrefixTuning](https://github.com/XiangLi1999/PrefixTuning)  前缀微调：优化文本生成的连续提示模板。提出一种更好的微调方法，通过加入前缀实现统一模型在不同任务上的微调，实现小样本学习，极大地减少了参数量。目前对于前缀的构造，大致可以分为本文的连续前缀和离散前缀（自动生成或手动设计），对于在摘要任务上加入离散前缀，有点类似于从对话中提取特征或结构，但这种方法的优势就在于它不需要大量的样本，而传统的融入结构的方法仍然需要很多样本。
@@ -857,7 +871,7 @@
 
 * [fastnlp/CPT](https://github.com/fastnlp/CPT) 中文预训练非平衡转换器 (CPT) ，它是一种非平衡 Transformer 编码器-解码器，联合 MLM 和 DAE 进行预训练。用于汉语理解和生成的预训练.
 
-* [songhaoyu/BoB](https://github.com/songhaoyu/BoB) BERT Over BERT 用于从有限的个性化数据训练基于角色的对话模型。基于角色的对话生成分解为了两个子任务，从有限的角色化对话数据中进行学习。
+* [songhaoyu/BoB](https://github.com/songhaoyu/BoB) BERTOverBERT用于从有限的个性化数据训练基于角色的对话模型。分解为了两个子任务，从有限的角色化对话数据中进行学习。
 
 * [YunwenTechnology/QueryGeneration](https://github.com/YunwenTechnology/QueryGeneration) 智能扩充机器人的“标准问”库之Query生成
 
@@ -1298,6 +1312,8 @@
 [huseinzol05/NLP-Models-Tensorflow](https://github.com/huseinzol05/NLP-Models-Tensorflow) 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
 [CLUEbenchmark/FewCLUE](https://github.com/CLUEbenchmark/FewCLUE) FewCLUE 小样本学习测评基准，中文版 小样本学习（Few-shot Learning）正是解决这类在极少数据情况下的机器学习问题。结合预训练语言模型通用和强大的泛化能力基础上，探索小样本学习最佳模型和中文上的实践，是本课题的目标。FewCLUE：中文小样本学习测评基准，基于CLUE的积累和经验，并结合少样本学习的特点和近期的发展趋势，精心设计了该测评，希望可以促进中文领域上少样本学习领域更多的研究、应用和发展。模型有5种不同的方式做任务，分别是使用预训练模型直接做下游任务微调、PET\RoBERTa为基础的Ptuning方式、GPT类模型为基础的Ptuning方式、使用RoBERTa或GPT做零样本学习。
+
+[deepset-ai/haystack](https://github.com/deepset-ai/haystack) 开源的NLP框架，可以使用Transformer模型和LLM（GPT-3等）与数据交互。Haystack提供了生产就绪的工具来快速构建类似ChatGPT的问题回答、语义搜索、文本生成等。
 
 [bojone/attention](https://github.com/bojone/attention)  Attention机制的实现tensorflow/keras
 
@@ -2672,13 +2688,15 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper) 使用OpenAI的Whisper自动生成YouTube字幕
 
+[ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) OpenAI Whisper自动语音识别（ASR）模型的高性能推理
+
 [mli/autocut](https://github.com/mli/autocut) 用文本编辑器剪视频。对你的视频自动生成字幕。然后你选择需要保留的句子，AutoCut 将对你视频中对应的片段裁切并保存。
 
 [yufan-aslp/AliMeeting](https://github.com/yufan-aslp/AliMeeting) ICASSP 2022 多通道多方会议转录挑战赛，为参与者提供会议场景中语音识别和说话人分类的基线系统。 挑战主要由两个轨道组成，名为自动语音识别 (ASR) 和说话人分类。 对于每个曲目，可以在其相应目录中找到详细说明。
 
 [audier/DeepSpeechRecognition](https://github.com/audier/DeepSpeechRecognition) 基于深度学习的中文语音识别系统
 
-[ZhengkunTian/OpenTransformer](https://github.com/ZhengkunTian/OpenTransformer) 语音识别的无重复序列到序列模型，实现 aishell 6.7％的CER。
+[ZhengkunTian/OpenTransformer](https://github.com/ZhengkunTian/OpenTransformer) 语音识别的无重复序列到序列模型，实现aishell 6.7％的CER。
 
 [alphacep/vosk-api](https://github.com/alphacep/vosk-api) Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node 支持十七种语言，提供中文语言模型。
 
@@ -2703,6 +2721,10 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 ## 语音合成
 
 [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
+
+[rany2/edge-tts](https://github.com/rany2/edge-tts) 从Python使用Microsoft Edge的在线文本到语音服务（无需Microsoft Edge/Windows或API密钥）
+
+[jaywalnut310/vits](https://github.com/jaywalnut310/vits) 一种用于端到端文本语音转换的条件变分自编码器，它比现有的两阶段模型产生更自然的声音。该方法采用变分推理和归一化流以及对抗式训练过程，提高了生成式建模的表达能力。
 
 [JasonWei512/Tacotron-2-Chinese](https://github.com/JasonWei512/Tacotron-2-Chinese) 中文语音合成
 
@@ -2729,6 +2751,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [ben-hayes/neural-waveshaping-synthesis](https://github.com/ben-hayes/neural-waveshaping-synthesis) 波形域中的高效神经音频合成.使用神经网络有效合成音频波形的方法。
 
 [Jackiexiao/zhtts](https://github.com/Jackiexiao/zhtts) 中文实时语音合成系统Demo
+
+[PlayVoice/vits_chinese](https://github.com/PlayVoice/vits_chinese) 基于BERT和VITS结合微软自然语音特征的最佳TTS支持
 
 [YatingMusic/ddsp-singing-vocoders](https://github.com/yatingmusic/ddsp-singing-vocoders) 声码器是一种条件音频生成模型，可将声学特征（如 mel 频谱图）转换为波形。从可微分数字信号处理（DDSP）中汲取灵感，提出SawSing新型声码器，用于歌声。SawSing使用线性时变有限脉冲响应滤波器过滤锯齿波源信号来合成歌唱声音的谐波部分，该滤波器的系数由神经网络根据输入的mel频谱图估计。由于加强了相位连续性，因此可以生成歌声，而不会出现许多现有声码器的相位不连续性故障。在资源有限的场景中，收敛速度更快，且优于最先进的生成对抗网络和基于扩散的声码器，只有3个训练录音和3小时的训练时间。
 
@@ -2803,6 +2827,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 * [j3xugit/RaptorX-3DModeling](https://github.com/j3xugit/RaptorX-3DModeling) RaptorX 通过深度卷积残差网络预测蛋白质接触/距离/方向和局部结构特性（例如，二级结构和 phi/psi 角度）。它还使用预测的距离/方向和 phi/psi 角度构建蛋白质序列的 3D 模型。
 
 * [FreyrS/dMaSIF](https://github.com/FreyrS/dMaSIF) 蛋白质表面的快速端到端学习.蛋白质的生物学功能由其 3D 分子表面的几何和化学结构定义。最近的工作表明，几何深度学习可用于蛋白质的基于网格的表示，以识别潜在的功能位点，例如潜在药物的结合目标。不幸的是，使用网格作为蛋白质结构的底层表示有多个缺点，包括需要预先计算输入特征和网格连接性。这成为蛋白质科学中许多重要任务的瓶颈。在本文中，我们提出了一个新的蛋白质结构深度学习框架，以解决这些限制。
+
+* [nferruz/ProtGPT2](https://huggingface.co/nferruz/ProtGPT2) 一种蛋白质语言模型，可用于从头蛋白质设计和工程。ProtGPT2产生的序列保留了天然蛋白质的关键特征（氨基酸倾向、二级结构含量和球形度），同时探索蛋白质空间的未被发现的区域。
 
 * [Superzchen/iLearnPlus](https://github.com/Superzchen/iLearnPlus) 具有基于图形和基于 Web 的用户界面的机器学习平台，可以构建自动化机器学习管道，以使用核酸和蛋白质序列进行计算分析和预测。
 
@@ -4578,6 +4604,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 # 网络与前端开发
 
+* [hoochanlon/NeiJuan](https://github.com/hoochanlon/NeiJuan) ChatGPT、Google产品等各类镜像与SS/V2/Clash/QuanX网络链，行业研究报告的知识储备库
+
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
 
 * [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
@@ -4597,6 +4625,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [signalwire/freeswitch](https://github.com/signalwire/freeswitch) 一种软件定义的电信堆栈，可实现从专有电信交换机到可在任何商用硬件上运行的多功能软件实施的数字化转型。可以释放任何设备的电信潜力。
 
 * [logto-io/logto](https://github.com/logto-io/logto)  帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
+
+* [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站,LowCode平台.
 
 * [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别查询效率，提供众多主流编程语言的 xdb 数据生成和查询客户端实现。
 
@@ -5062,7 +5092,21 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) 沉浸式双语网页翻译扩展
 
+* [yetone/openai-translator](https://github.com/yetone/openai-translator) 基于 ChatGPT API 的划词翻译插件和跨平台桌面端应用
+
 * [jserv/shecc](https://github.com/jserv/shecc) 从头开始构建，针对 32 位 Arm 和 RISC-V 架构，作为 C 语言子集的自编译编译器。
+
+* [xonsh/xonsh](https://github.com/xonsh/xonsh) Python驱动的跨平台Unix shell
+
+* [YaoApp/yao](https://github.com/YaoApp/yao) 高性能低代码应用引擎，可在数分钟内创建Web服务和应用，适用于AI、IoT、工业互联网、车联网、DevOps、能源、金融和许多其他用例。
+
+* [illacloud/illa-builder](https://github.com/illacloud/illa-builder) 健壮的开源低代码平台，开发人员可以使用它来构建内部工具。通过使用ILLA的组件和动作库，开发人员可以保存大量构建工具的时间。
+
+* [lowdefy/lowdefy](https://github.com/lowdefy/lowdefy) 开源、自托管、低代码的框架，用于使用YAML或JSON构建内部工具、Web应用、管理面板、BI仪表板、工作流和CRUD应用。
+
+* [openblocks-dev/openblocks](https://github.com/openblocks-dev/openblocks) 开源低代码替代方案
+
+* [n8n-io/n8n](https://github.com/n8n-io/n8n) 免费和源代码可用的公平代码许可的工作流自动化工具。跨不同服务轻松自动执行任务。
 
 # Star数变化
 
