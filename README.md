@@ -837,6 +837,14 @@
 
 * [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
 
+* [LC1332/Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora) 在LLaMA、斯坦福大学Alpaca、Alpaca LoRA、Cabrita、Japanese-Alpaca-LoRA的基础上，调试了一个中国LLaMA模型。同时使用ChatGPT API将alpaca_data. json翻译为中文，再进行微调。
+
+* [tloen/alpaca-lora](https://github.com/tloen/alpaca-lora) 在消费者硬件上使用指令来微调LLaMA模型。使用低秩自适应（LoRA）重现斯坦福大学Alpaca结果的代码。我们提供了一个与 text-davinci-003质量相似的Instruct模型，可以在Raspberry Pi上运行（用于研究），并且代码很容易扩展到 13b ， 30b 和 65b模型。
+
+* [hikariming/alpaca_chinese_dataset](https://github.com/hikariming/alpaca_chinese_dataset) 人工精调的中文对话数据集和一段chatglm的微调代码
+
+* [masa3141/japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora) 日文指令来微调LLaMA模型
+
 * [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 
 * [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) 包含 ChatGPT 提示，以更好地使用 ChatGPT
@@ -860,6 +868,8 @@
 * [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) 用ChatGPT搭建微信聊天机器人
 
 * [openai/openai-python](https://github.com/openai/openai-python) OpenAI Python库提供了从用Python语言编写的应用程序对OpenAI API的方便访问。
+
+* [madawei2699/myGPTReader](https://github.com/madawei2699/myGPTReader) 由chatGPT提供支持,Slack上的一个机器人，可以阅读和总结任何网页，包括电子书在内的文档，甚至是YouTube上的视频。它可以通过语音和你交流。
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
 
@@ -1039,6 +1049,8 @@
 
 * [RUCKBReasoning/SubgraphRetrievalKBQA](https://github.com/RUCKBReasoning/SubgraphRetrievalKBQA) 多跳知识库问答子图检索增强模型的pytorch实现 WebQuestionSP CWQ
 
+* [google-research/smore](https://github.com/google-research/smore) 多功能的框架，它可以在KG上扩展多跳查询嵌入。SMORE可以轻松地在Freebase KG上训练查询嵌入，在一台机器上拥有超过8600万个节点和33800万条边。
+
 ## 知识图谱
 
 * [CLUEbenchmark/KgCLUE](https://github.com/CLUEbenchmark/KgCLUE) KgCLUE: 大规模中文开源知识图谱问答数据集。实体数量 3121457，关系数量 245838，高频关系(>100) 3833，三元组数量 20559652，知识库来源于百科类数据，由百科类搜索的事实性三元组构成。
@@ -1202,6 +1214,8 @@
 * [lupantech/ScienceQA](https://github.com/lupantech/ScienceQA) 通过思维链进行多模态推理的科学问题回答。提出了科学问答（ScienceQA），这是一个新的基准，包括21,208个多模态多项选择题，有一套不同的科学主题和注释，他们的答案与相应的讲座和解释。讲座和解释分别提供了一般的外部知识和具体的原因，以获得正确的答案。拥有更丰富的领域多样性：自然科学语言科学社会科学。ScienceQA包含26个主题、127个类别和379个技能，涵盖了广泛的领域。我们进一步设计语言模型，学习生成演讲和解释作为思维链（CoT），以模拟回答ScienceQA问题时的多跳推理过程。ScienceQA证明了CoT在语言模型中的实用性，CoT在少样例GPT-3中将问题回答性能提高了1.20%，在微调的UnifiedQA中将问题回答性能提高了3.99%。
 
 * [benywon/ChiQA](https://github.com/benywon/ChiQA) 用于多模态理解的大规模基于图像的真实世界问答数据集。ChiQA中的问题是向搜索引擎发出的开放域用户查询。ChiQA中的图像也是从搜索引擎中收集的真实世界图像，与问题相关但不一定能回答问题。我们的数据众包包括两个阶段的主动学习过程。在第一阶段，我们从网络上随机收集样本。在第二阶段中，我们首先基于来自第一阶段的数据训练模型，然后使用训练好的模型在剩余数据上选择硬示例并继续标记。这两个阶段的设置使得数据更具挑战性，并且从本质上消除了对数据中某些属性或语言模式的不合理偏爱。
+
+* [qkaren/Counterfactual-StoryRW](https://github.com/qkaren/Counterfactual-StoryRW) “虚构故事推理和生成”的数据集和代码
 
 ## 关系抽取、信息抽取
 
@@ -2053,7 +2067,9 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 [LuChengTHU/dpm-solver](https://github.com/LuChengTHU/dpm-solver) 用于扩散概率模型采样的快速 ODE 求解器。DPM-Solver 适用于离散时间和连续时间扩散模型，无需任何进一步训练。 实验结果表明，仅需对各种数据集进行 10 到 20 次函数评估即可生成高质量样本。
 
-[realtime-semantic-segmentation](https://github.com/hugozanini/realtime-semantic-segmentation) 使用TF.js实施RefineNet以在浏览器中执行实时实例分割
+[jina-ai/clip-as-service](https://github.com/jina-ai/clip-as-service) 一种用于嵌入图像和文本的低延迟、高可伸缩性的服务。它可以作为一个微服务轻松集成到神经搜索解决方案中。有四种基本的视觉推理技能：对象识别、对象计数、颜色识别和空间关系理解。文本到图像跨模态搜索。
+
+[realtime-semantic-segmentation](https://github.com/hugozanini/realtime-semantic-segmentation) 用TF.js实施RefineNet以在浏览器中执行实时实例分割
 
 [extreme-assistant/CVPR2021-Paper-Code-Interpretation](https://github.com/extreme-assistant/CVPR2021-Paper-Code-Interpretation) cvpr2021  cvpr2020 cvpr2019 cvpr2018 cvpr2017 论文/代码/解读/直播合集，极市团队整理
 
@@ -2506,6 +2522,10 @@ https://github.com/jsyoon0823/TimeGAN 时间序列生成对抗网络
 [cesium-ml/cesium](https://github.com/cesium-ml/cesium) 用于时间序列推理的开源平台。从原始时间序列数据中提取特征，构建机器学习模型，为新数据生成预测。
 
 [zhengqi98/Hefei_ECG_TOP1](https://github.com/zhengqi98/Hefei_ECG_TOP1) “合肥高新杯”心电人机智能大赛 —— 心电异常事件预测 TOP1 Solution,依据心电图机8导联的数据和年龄、性别特征，预测心电异常事件
+
+[thuml/Anomaly-Transformer](https://github.com/thuml/Anomaly-Transformer) 基于关联偏差的时间序列异常检测
+
+[thuml/Nonstationary_Transformers](https://github.com/thuml/Nonstationary_Transformers) 非平稳时间序列的通用预测框架。非平稳的时序数据具有更复杂且难以捕捉的时序依赖，以及随着时间不断变化的数据分布，以往的研究旨在利用平稳化技术消除数据在时间维度上的分布差异，以提高数据本身的可预测性。然而在平稳化后的数据上进行模型训练会限制Transformer建模时序依赖的能力，导致模型仅能学到不易区分的注意力图与较弱的时序依赖，从而产生平稳性过高的预测输出与较大的预测误差，我们称之为过平稳现象（Over-stationarization）。针对非平稳时序预测问题，提出了Non-stationary Transformers，其包含一对相辅相成的序列平稳化（Series Stationarization）和去平稳化注意力（De-stationary Attention）模块，能够广泛应用于Transformer以及变体，一致提升其在非平稳时序数据上的预测效果。
 
 # 强化学习 Reinforcement Learning
 
@@ -4746,7 +4766,9 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [Privoce/vocechat-web](https://github.com/privoce/vocechat-web) VoceChat 的 Web 客户端
 
-* [Privoce/vocechat-server-rust](https://github.com/Privoce/vocechat-server-rust) 一个超轻量级的rust编写的社交服务器。轻松集成到您的网站/应用程序。
+* [Privoce/vocechat-server-rust](https://github.com/Privoce/vocechat-server-rust) 超轻量级的rust编写的社交服务器。轻松集成到您的网站/应用程序。
+
+* [tw93/Pake](https://github.com/tw93/Pake/) 很简单的用 Rust 打包网页生成很小的桌面 App
 
 ## 区块链
 
@@ -5107,6 +5129,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [openblocks-dev/openblocks](https://github.com/openblocks-dev/openblocks) 开源低代码替代方案
 
 * [n8n-io/n8n](https://github.com/n8n-io/n8n) 免费和源代码可用的公平代码许可的工作流自动化工具。跨不同服务轻松自动执行任务。
+
+* [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。
+
+* [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) 国内个人知识管理系统，支持细粒度块级引用和Markdown。
 
 # Star数变化
 
