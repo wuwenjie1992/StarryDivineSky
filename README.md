@@ -833,7 +833,7 @@
 
 * [krystalan/ClidSum](https://github.com/krystalan/ClidSum) 一个跨语言对话摘要的基准数据集 
 
-## 文本生成、文本对话
+## 文本生成、文本对话、类ChatGPT
 
 * [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
 
@@ -841,9 +841,27 @@
 
 * [tloen/alpaca-lora](https://github.com/tloen/alpaca-lora) 在消费者硬件上使用指令来微调LLaMA模型。使用低秩自适应（LoRA）重现斯坦福大学Alpaca结果的代码。我们提供了一个与 text-davinci-003质量相似的Instruct模型，可以在Raspberry Pi上运行（用于研究），并且代码很容易扩展到 13b ， 30b 和 65b模型。
 
+* [mymusise/ChatGLM-Tuning](https://github.com/mymusise/ChatGLM-Tuning) 平价的chatgpt实现方案, 基于ChatGLM-6B + LoRA
+
+* [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) 文心一言的开源版，基于 ChatGLM + Visual ChatGPT + Stable Diffusion
+
 * [hikariming/alpaca_chinese_dataset](https://github.com/hikariming/alpaca_chinese_dataset) 人工精调的中文对话数据集和一段chatglm的微调代码
 
+* [ymcui/Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) 中文LLaMA模型和经过指令精调的Alpaca大模型。这些模型在原版LLaMA的基础上扩充了中文词表并使用了中文数据进行二次预训练，进一步提升了中文基础语义理解能力。同时，在中文LLaMA的基础上，本项目使用了中文指令数据进行指令精调，显著提升了模型对指令的理解和执行能力。
+
+* [Facico/Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna) 一个中文低资源的llama+lora方案，结构参考alpaca
+
+* [lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) 在PaLM架构上实现RLHF（人工反馈强化学习）,类似ChatGPT
+
+* [togethercomputer/OpenChatKit](https://github.com/togethercomputer/OpenChatKit) 一个强大的开源基础，可以为各种应用程序创建专用和通用聊天机器人。该工具包包括一个指令调优的语言模型，一个审核模型，和一个可扩展的检索系统，用于包括来自自定义存储库的最新响应。
+
+* [LianjiaTech/BELLE](https://github.com/LianjiaTech/BELLE) 开源中文对话大模型，现阶段基于开源预训练大语言模型（如BLOOM），针对中文做了优化，模型调优仅使用由ChatGPT生产的数据（不包含任何其他数据）。开放了数据集：Stanford Alpaca 生成的中文数据集1M + 0.5M；0.25M数学指令数据集和0.8M多轮任务对话数据集。
+
+* [carbonz0/alpaca-chinese-dataset](https://github.com/carbonz0/alpaca-chinese-dataset) alpaca中文指令微调数据集
+
 * [masa3141/japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora) 日文指令来微调LLaMA模型
+
+* [22-hours/cabrita](https://github.com/22-hours/cabrita) 葡萄牙语微调指令LLaMA
 
 * [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 
@@ -868,6 +886,8 @@
 * [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) 用ChatGPT搭建微信聊天机器人
 
 * [openai/openai-python](https://github.com/openai/openai-python) OpenAI Python库提供了从用Python语言编写的应用程序对OpenAI API的方便访问。
+
+* [chenking2020/FindTheChatGPTer](https://github.com/chenking2020/FindTheChatGPTer) ChatGPT/GPT4开源“平替”汇总，持续更新
 
 * [madawei2699/myGPTReader](https://github.com/madawei2699/myGPTReader) 由chatGPT提供支持,Slack上的一个机器人，可以阅读和总结任何网页，包括电子书在内的文档，甚至是YouTube上的视频。它可以通过语音和你交流。
 
@@ -933,7 +953,9 @@
 
 * [NTMC-Community/MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py) 通用的文本匹配工具包，旨在方便大家快速的实现、比较、以及分享最新的深度文本匹配模型。MatchZoo 的 PyTorch 版本。
 
-* [voidism/DiffCSE](https://github.com/voidism/DiffCSE) 用于学习句子嵌入的无监督对比学习框架。DiffCSE学习对原始句子和编辑句子之间的差异敏感的句子嵌入，其中编辑的句子是通过随机屏蔽原始句子，然后从屏蔽语言模型中采样来获得的。我们表明 DiffSCE 是等变对比学习的一个实例（Dangovski 等人，2021 年），它概括了对比学习并学习对某些类型的增强不敏感而对其他“有害”类型的增强敏感的表征。我们的实验表明，DiffCSE在无监督句子表示学习方法中取得了最先进的结果，在语义文本相似性任务上比无监督SimCSE高出2.3个绝对点。
+* [voidism/DiffCSE](https://github.com/voidism/DiffCSE) 用于学习句子嵌入的无监督对比学习框架。DiffCSE学习对原始句子和编辑句子之间的差异敏感的句子嵌入，其中编辑的句子是通过随机屏蔽原始句子，然后从屏蔽语言模型中采样来获得的。我们表明 DiffSCE 是等变对比学习的一个实例（Dangovski 等人，2021 年），它概括了对比学习并学习对某些类型的增强不敏感而对其他“有害”类型的增强敏感的表征。我们的实验表明，DiffCSE在无监督句子表示学习方法中取得了最先进的结果，在语义文本相似性任务上比SimCSE高出2.3个绝对点。
+
+* [shibing624/text2vec](https://github.com/shibing624/text2vec) 文本向量表征工具，把文本转化为向量矩阵，实现了Word2Vec、RankBM25、Sentence-BERT、CoSENT等文本表征、文本相似度计算模型，开箱即用。
 
 * [terrifyzhao/text_matching](https://github.com/terrifyzhao/text_matching) 常用文本匹配模型tf版本，数据集为QA_corpus模型:DSSM ConvNet ESIM ABCNN BiMPM DIIN DRCN
 
@@ -977,9 +999,13 @@
 
 * [epidemic-sentence-pair](https://github.com/zzy99/epidemic-sentence-pair) 新冠疫情相似句对判定大赛 线上第一名方案。BERT模型融合、数据对称扩充、数据传递扩充、对抗训练、伪标签。
 
-* [KKenny0/sohu2021](https://github.com/KKenny0/sohu2021) 2021 搜狐校园文本匹配算法大赛方案，基于 BERT 的交互模型，通过 BERT 来得到 source-target pair 的向量表示。任务：短短文本、短长文本和长长文本匹配。
+* [KKenny0/sohu2021](https://github.com/KKenny0/sohu2021) 2021搜狐校园文本匹配算法大赛方案，基于BERT的交互模型，通过BERT来得到source-target pair的向量表示。任务：短短、短长和长长文本匹配。
 
 ## 机器阅读理解
+
+* [imClumsyPanda/langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM) 利用 [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) + [langchain](https://github.com/hwchase17/langchain) 实现的基于本地知识的 ChatGLM 应用。建立了全部基于开源模型实现的本地知识问答应用。
+
+* [l15y/wenda](https://github.com/l15y/wenda) 闻达：一个LLM调用平台。目前支持chatGLM-6B、chatRWKV、chatYuan和chatGLM-6B模型下自建知识库查找。
 
 * [basketballandlearn/MRC_Competition_Dureader](https://github.com/basketballandlearn/MRC_Competition_Dureader) 基于大规模MRC数据再训练的机器阅读理解预训练模型（包括roberta-wwm-large、macbert-large），可以使用[transformers库](https://huggingface.co/luhua/chinese_pretrain_mrc_roberta_wwm_ext_large)。
 
@@ -1011,13 +1037,13 @@
 
 ## 知识图谱问答KBQA、多跳推理
 
-* https://github.com/RUCAIBox/KBQAPapers 知识图谱问答KBQA论文集
+* [RUCAIBox/KBQAPapers](https://github.com/RUCAIBox/KBQAPapers) 知识图谱问答KBQA论文集
 
-* https://github.com/shijx12/TransferNet An Effective and Transparent Framework for Multi-hop Question Answering over Relation Graph 多跳问题解答关系图的有效透明框架，通过每一跳都预测当前关系得分，并更新实体得分，直到最大跳数。预测该问题的跳数，按跳数的概率加权每一跳得分作为实体的最终得分。
+* [shijx12/TransferNet](https://github.com/shijx12/TransferNet) An Effective and Transparent Framework for Multi-hop Question Answering over Relation Graph 多跳问题解答关系图的有效透明框架，通过每一跳都预测当前关系得分，并更新实体得分，直到最大跳数。预测该问题的跳数，按跳数的概率加权每一跳得分作为实体的最终得分。
 
-* https://github.com/malllabiisc/EmbedKGQA 基于知识图谱嵌入的链路预测处理多跳问答。首先训练实体嵌入，随后利用实体嵌入学习问题嵌入，预测时对所有实体，构建(head entity, question)并评分，并选择评分最高的头实体作为答案。能很好地处理知识图谱中的不完整和稀疏的问题
+* [malllabiisc/EmbedKGQA](https://github.com/malllabiisc/EmbedKGQA) 基于知识图谱嵌入的链路预测处理多跳问答。首先训练实体嵌入，随后利用实体嵌入学习问题嵌入，预测时对所有实体，构建(head entity, question)并评分，并选择评分最高的头实体作为答案。能很好地处理知识图谱中的不完整和稀疏的问题。
 
-* https://github.com/BDBC-KG-NLP/QA-Survey 北航大数据高精尖中心研究张日崇团队对问答系统的总结。包括基于知识图谱的问答（KBQA），基于文本的问答系统（TextQA），基于表格的问答系统（TabletQA）和基于视觉的问答系统（VisualQA），每类系统分别对学术界和工业界进行总结。
+* [BDBC-KG-NLP/QA-Survey](https://github.com/BDBC-KG-NLP/QA-Survey) 北航大数据高精尖中心研究张日崇团队对问答系统的总结。包括基于知识图谱的问答（KBQA），基于文本的问答系统（TextQA），基于表格的问答系统（TabletQA）和基于视觉的问答系统（VisualQA），每类系统分别对学术界和工业界进行总结。
 
 * [xianghuisun/Chinese_KGQA](https://github.com/xianghuisun/Chinese_KGQA) 实现基于知识图谱的中文问答系统
 
@@ -1039,11 +1065,11 @@
 
 * https://github.com/RichardHGL/WSDM2021_NSM KBQA 的神经状态机器 ComplexWebQuestions
 
-* https://github.com/UKPLab/coling2018-graph-neural-networks-question-answering 用门图形神经网络建模语义，用于知识库问题解答
+* [UKPLab/coling2018-graph-neural-networks-question-answering](https://github.com/UKPLab/coling2018-graph-neural-networks-question-answering) 用门图形神经网络建模语义，用于知识库问题解答
 
 * [https://github.com/THU-KEG/KoPL](https://github.com/THU-KEG/KoPL) KoPL全称 Knowledge oriented Programing Language, 是一个为复杂推理问答而设计的编程语言。可以将自然语言问题表示为由基本函数组合而成的KoPL程序，程序运行的结果就是问题的答案。目前，KoPL的27个基本函数覆盖对多种知识元素（如概念、实体、关系、属性、修饰符等）的操作，并支持多种问题类型（如计数、事实验证、比较等）的查询。KoPL提供透明的复杂问题推理过程，易于理解和使用。KoPL面向知识库、文本等不同形式的知识资源，可扩展性强。
 
-* [PaddlePaddle/PGL/erniesage](https://github.com/PaddlePaddle/PGL/tree/static_stable/examples/erniesage) 使用PGL实现ERNIESage。在很多工业应用中，往往出现如下图所示的一种特殊的图：Text Graph。顾名思义，图的节点属性由文本构成，而边的构建提供了结构信息。如搜索场景下的Text Graph，节点可由搜索词、网页标题、网页正文来表达，用户反馈和超链信息则可构成边关系。ERNIESage 由PGL团队提出，是ERNIE SAmple aggreGatE的简称，该模型可以同时建模文本语义与图结构信息，有效提升 Text Graph 的应用效果。其中 ERNIE 是百度推出的基于知识增强的持续学习语义理解框架。ERNIESage 是 ERNIE 与 GraphSAGE 碰撞的结果，是 ERNIE SAmple aggreGatE 的简称，它的结构如下图所示，主要思想是通过 ERNIE 作为聚合函数（Aggregators），建模自身节点和邻居节点的语义与结构关系。ERNIESage 对于文本的建模是构建在邻居聚合的阶段，中心节点文本会与所有邻居节点文本进行拼接；然后通过预训练的 ERNIE 模型进行消息汇聚，捕捉中心节点以及邻居节点之间的相互关系；最后使用 ERNIESage 搭配独特的邻居互相看不见的 Attention Mask 和独立的 Position Embedding 体系，就可以轻松构建 TextGraph 中句子之间以及词之间的关系。使用ID特征的GraphSAGE只能够建模图的结构信息，而单独的ERNIE只能处理文本信息。通过PGL搭建的图与文本的桥梁，ERNIESage能够很简单的把GraphSAGE以及ERNIE的优点结合一起。TextGraph的场景，ERNIESage的效果能够比单独的ERNIE以及GraphSAGE模型都要好。
+* [PaddlePaddle/PGL/erniesage](https://github.com/PaddlePaddle/PGL/tree/static_stable/examples/erniesage) 使用PGL实现ERNIESage。在很多工业应用中，往往出现如下图所示的一种特殊的图：Text Graph。顾名思义，图的节点属性由文本构成，而边的构建提供了结构信息。如搜索场景下的Text Graph，节点可由搜索词、网页标题、网页正文来表达，用户反馈和超链信息则可构成边关系。ERNIESage 由PGL团队提出，是ERNIE SAmple aggreGatE的简称，该模型可以同时建模文本语义与图结构信息，有效提升 Text Graph 的应用效果。其中 ERNIE 是百度推出的基于知识增强的持续学习语义理解框架。ERNIESage 是 ERNIE 与 GraphSAGE 碰撞的结果，是 ERNIE SAmple aggreGatE 的简称，它的结构如下图所示，主要思想是通过 ERNIE 作为聚合函数（Aggregators），建模自身和邻居节点的语义与结构关系。ERNIESage 对于文本的建模是构建在邻居聚合的阶段，中心节点文本会与所有邻居节点文本进行拼接；然后通过预训练的 ERNIE 模型进行消息汇聚，捕捉中心节点以及邻居节点之间的相互关系；最后使用 ERNIESage 搭配独特的邻居互相看不见的 Attention Mask 和独立的 Position Embedding 体系，就可以轻松构建TextGraph中句子之间以及词之间的关系。使用ID特征的GraphSAGE只能够建模图的结构信息，而单独的ERNIE只能处理文本信息。通过PGL搭建的图与文本的桥梁，ERNIESage能很简单的把GraphSAGE以及ERNIE的优点结合一起。TextGraph场景，效果能够比单独的ERNIE以及GraphSAGE都要好。
 
 * [BshoterJ/awesome-kgqa](https://github.com/BshoterJ/awesome-kgqa) 知识图谱问答部分资料合集
 
@@ -1065,15 +1091,15 @@
 
 * [txsun1997/CoLAKE](https://github.com/txsun1997/CoLAKE) 使用知识图谱以增强预训练模型的效果 首先将上下文看作全连接图，并根据句子中的实体在KG上抽取子图，通过两个图中共现的实体将全连接图和KG子图融合起来；最终本文将文本上下文和知识上下文一起用MLM进行预训练，将mask的范围推广到word、entity和relation；为训练该模型，本文采用cpu-gpu混合训练策略结合负采样机制减少训练时间；最终本文提出的方法在知识图谱补全和若干NLP任务上均带来了增益。然后本文将该图转化为序列，使用Transformer进行预训练，并在训练时采用特殊的type embedding来表示实体、词语与其他子图信息
 
-* https://github.com/JanKalo/KnowlyBERT 提出了一种混合的语言知识模型查询系统，该系统使用语言模型来应对现实世界中知识图谱的不完整性问题。作为KnowlyBERT的输入，用户可以向系统提出以实体为中心的SPARQL查询。首先，查询语言模型（a）；然后，对不完整的知识图谱进行查询，并获得结果（b）；另外SPARQL查询被翻译成多种自然语言语句，这些语言语句在“关系模板生成”步骤中由语言模型完成；语言模型返回多个单词列表以及每个单词（c）的置信度值；然后将这些列表合并为一个列表（d），并根据知识图谱类型信息（e）使用我们的语义过滤步骤进行过滤。此外，执行阈值处理，削减不相关的结果（f）；将语言模型和知识图谱的结果合并（g）并返回给用户。
+* [JanKalo/KnowlyBERT](https://github.com/JanKalo/KnowlyBERT) 提出了一种混合的语言知识模型查询系统，该系统使用语言模型来应对现实世界中知识图谱的不完整性问题。作为KnowlyBERT的输入，用户可以向系统提出以实体为中心的SPARQL查询。首先，查询语言模型（a）；然后，对不完整的知识图谱进行查询，并获得结果（b）；另外SPARQL查询被翻译成多种自然语言语句，这些语言语句在“关系模板生成”步骤中由语言模型完成；语言模型返回多个单词列表以及每个单词（c）的置信度值；然后将这些列表合并为一个列表（d），并根据知识图谱类型信息（e）使用我们的语义过滤步骤进行过滤。此外，执行阈值处理，削减不相关的结果（f）；将语言模型和知识图谱的结果合并（g）并返回给用户。
 
-* https://github.com/yeliu918/KG-BART 知识图谱增强的预训练模型的生成式常识推理.可利用图上的注意力来聚集丰富的概念语义，从而增强对看不见的概念集的模型泛化。
+* [yeliu918/KG-BART](https://github.com/yeliu918/KG-BART) 知识图谱增强的预训练模型的生成式常识推理.可利用图上的注意力来聚集丰富的概念语义，从而增强对看不见的概念集的模型泛化。
 
-* https://github.com/bernhard2202/intkb 一种交互式知识图谱补全框架
+* [bernhard2202/intkb](https://github.com/bernhard2202/intkb) 一种交互式知识图谱补全框架
 
 * [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph) 整理知识图谱相关学习资料
 
-* https://github.com/wangbo9719/StAR_KGC Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion 结构增强文本表示学习，实现高效知识图完成.知识图谱补全 
+* [wangbo9719/StAR_KGC](https://github.com/wangbo9719/StAR_KGC) Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion 结构增强文本表示学习，实现高效知识图完成.知识图谱补全 
 
 * [Everglow123/MAKG](https://github.com/Everglow123/MAKG)  移动app知识图谱 
 
@@ -1119,7 +1145,7 @@
 
 * [zjukg/NeuralKG](https://github.com/zjukg/NeuralKG) 支持多种知识图谱表示学习/知识图谱嵌入（Knowledge Graph Embedding）模型的Python工具包，其中实现了多种传统知识图谱嵌入、基于图神经网络的知识图谱嵌入以及基于规则的知识图谱嵌入方法。
 
-* [zjunlp/DeepKE](https://github.com/zjunlp/DeepKE/blob/main/README_CN.md) 开源的知识图谱抽取与构建工具，支持cnSchema、低资源、长篇章、多模态的知识抽取工具，可以基于PyTorch实现命名实体识别、关系抽取和属性抽取功能。
+* [zjunlp/DeepKE](https://github.com/zjunlp/DeepKE/blob/main/README_CN.md) 开源知识图谱抽取与构建工具，支持cnSchema、低资源、长篇章、多模态的知识抽取工具，基于PyTorch实现命名实体识别、关系抽取和属性抽取功能。
 
 * [liuhuanyong/ChineseSemanticKB](https://github.com/liuhuanyong/ChineseSemanticKB) 面向中文处理的12类、百万规模的语义常用词典，包括34万抽象语义库、34万反义语义库、43万同义语义库等，可支持句子扩展、转写、事件抽象与泛化等多种应用场景。
 
@@ -1137,9 +1163,9 @@
 
 * [chatopera/Synonyms](https://github.com/chatopera/Synonyms) 用于自然语言处理和理解的中文同义词。
 
-* [RUCAIBox/TG-ReDial](https://github.com/RUCAIBox/TG-ReDial) 一个电影领域的对话推荐数据集TG-ReDial (Recommendation through Topic-Guided Dialog)。它包含1万个完整的对话和近13万条语句，加入了话题线索以实现将用户引导至推荐场景这一语义的自然转移，并且采用半自动的方式构建，保留了用户真实的个性化信息（如交互历史，偏好主题），使得人工标注过程更加合理可控。
+* [RUCAIBox/TG-ReDial](https://github.com/RUCAIBox/TG-ReDial) 电影领域的对话推荐数据集TG-ReDial (Recommendation through Topic-Guided Dialog)。包含1万个完整对话和近13万条语句，加入了话题线索以实现将用户引导至推荐场景这一语义的自然转移，并采用半自动的方式构建，保留了用户真实的个性化信息（如交互历史，偏好主题），使得人工标注过程更加合理可控。
 
-* [fighting41love/funNLP](https://github.com/fighting41love/funNLP) NLP民工的乐园: 中英文敏感词、语言检测、中外手机/电话归属/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件、连续英文切割、各种中文词向量、公司大全、古诗、IT、财经、成语、地名、历史名人、诗词、医学、饮食、法律、汽车、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取、国内电话号码正则匹配、清华大学XLORE:中英文跨语言百科知识图谱
+* [fighting41love/funNLP](https://github.com/fighting41love/funNLP) NLP民工的乐园: 中英文敏感词、语言检测、中外手机/电话归属/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件、连续英文切割、各种中文词向量、公司大全、古诗、IT、财经、成语、地名、历史名人、诗词、医学、饮食、法律、汽车、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度、bert资源、文本生成&摘要相关工具、cocoNLP信息抽取、国内电话号码正则匹配、清华中英文跨语言百科知识图谱
 
 * [brightmart/nlp_chinese_corpus](https://github.com/brightmart/nlp_chinese_corpus) 大规模中文自然语言处理语料 维基百科json版(wiki2019zh) 新闻语料json版(news2016zh) 百科类问答json版(baike2018qa) 社区问答json版(webtext2019zh) ：大规模高质量数据集 翻译语料(translation2019zh)
 
@@ -1343,7 +1369,7 @@
 
 [clovaai/ssmix](https://github.com/clovaai/ssmix) 数据增强⽅法,SSMix⽅法在⽂本input上通过巧妙的⽅法进⾏mixup，⽽不像前⾯⼤部分使⽤在 hidden层上。该⽅法在保留⼤部分重要token的前提下基于⼀些信息替换⼀个新的 span进来。
 
-https://github.com/ShomyLiu/Neu-Review-Rec Pytorch的基于评论文本的深度推荐系统模型库。DeepCoNN(WSDM'17)、D-Attn(RecSys'17)、ANR(CIKM'18)、NARRE(WWW'18)、MPCN(KDD'18)、TARMF(WWW'18)、CARL(TOIS'19)、CARP(SIGIR'19)、DAML(KDD'19)
+[ShomyLiu/Neu-Review-Rec](https://github.com/ShomyLiu/Neu-Review-Rec) Pytorch的基于评论文本的深度推荐系统模型库。DeepCoNN(WSDM'17)、D-Attn(RecSys'17)、ANR(CIKM'18)、NARRE(WWW'18)、MPCN(KDD'18)、TARMF(WWW'18)、CARL(TOIS'19)、CARP(SIGIR'19)、DAML(KDD'19)
 
 [squareRoot3/Target-Guided-Conversation](https://github.com/squareRoot3/Target-Guided-Conversation) 目标指导的开放域对话,开放域聊天中目标引导.
 
@@ -1351,7 +1377,7 @@ https://github.com/ShomyLiu/Neu-Review-Rec Pytorch的基于评论文本的深度
 
 [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) 对话式 AI 工具包，专为从事ASR\TTS\语言模型和NLP的研究人员而构建。NeMo的主要目标是帮助来自工业界和学术界的研究人员重用以前的工作（代码和预训练模型），并更轻松地创建新的对话AI模型。所有 NeMo 模型都使用 Lightning 进行训练，训练可自动扩展到 1000 多个 GPU。此外，NeMo 威震天 LLM 模型可以使用张量和管道模型并行性训练多达 1 万亿个参数。NeMo 模型可以针对推理进行优化，并使用 NVIDIA Riva 针对生产用例进行部署。
 
-https://github.com/JasonForJoy/MPC-BERT MPC-BERT：一种预训练的多方会话理解语言模型.多方会话（MPC）的各种神经模型在收件人识别、说话人识别和反应预测等方面取得了显著的进展。
+https://github.com/JasonForJoy/MPC-BERT 一种预训练的多方会话理解语言模型.多方会话（MPC）的各种神经模型在收件人识别、说话人识别和反应预测等方面取得了显著的进展。
 
 https://github.com/airaria/TextBrewer 基于PyTorch的NLP任务知识蒸馏工具包，适用于多种模型结构，支持自由组合各种蒸馏策略，并且在文本分类、阅读理解、序列标注等典型NLP任务上均能获得满意的效果。 
 
@@ -1821,7 +1847,7 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [ziwei-zh/CorrPM](https://github.com/ziwei-zh/CorrPM) 关联人体边缘，人体姿态解析.研究了人的语义边界和关键点位置如何共同改善人的部件解析性能。
 
-[SangbumChoi/MobileHumanPose](https://github.com/SangbumChoi/MobileHumanPose) 在移动设备中实现实时 3D 人体姿态估计，PyTorch 实现。
+[SangbumChoi/MobileHumanPose](https://github.com/SangbumChoi/MobileHumanPose) 在移动设备中实现实时 3D 人体姿态估计，PyTorch。
 
 [jby1993/SelfReconCode](https://github.com/jby1993/SelfReconCode) 从单目视频自我重建你的数字化身
 
