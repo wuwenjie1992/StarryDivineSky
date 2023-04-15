@@ -677,10 +677,6 @@
 
 ## 预训练模型
 
-* [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) 纯C/C++中LLaMA模型的CPU推理。2023年FacebookResearch 开源了大规模语言模型 LLaMA，包含从 7B 到 65B 的参数范围，训练使用多达 1.4万亿 tokens 语料。LLaMA-13B 在大部分基准测评上超过了 GPT3（175B），LLaMA 可能是目前公开模型权重中效果最好的语言模型。
-
-* [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) 斯坦福大学的LLaMA羊驼模型。用2K数据微调模型，构建和共享一个遵循指令的LLaMA模型。
-
 * [dbiir/UER-py](https://github.com/dbiir/UER-py) 一个用于对通用语料进行预训练并对下游任务进行微调的工具包。提供了非常丰富的模型库。包括：中文RoBERTa、基于词的中文RoBERTa、中文GPT-2预训练模型（通用、古诗词、对联、歌词、文言文）、中文T5预训练模型、中文RoBERTa下游任务微调模型（JD full 情感分类 、JD binary 情感分类 、Dianping 情感分类、Ifeng 新闻主题分类、Chinanews 新闻主题分类 、CLUENER2020 NER 、抽取式问答）等。
 
 * [OpenBMB/BMInf](https://github.com/OpenBMB/BMInf) BMInf (Big Model Inference) 是一个用于大规模预训练语言模型（PLM）推理阶段的低资源工具包。最低支持在NVIDIA GTX 1060单卡运行百亿大模型。在此基础上，使用更好的gpu运行会有更好的性能。模型能力覆盖文本补全、文本生成与对话场景。文本生成能力大幅提高。目前支持下列模型：
@@ -738,6 +734,8 @@
 * [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
 
 * [clue-ai/PromptCLUE](https://github.com/clue-ai/PromptCLUE) 大规模多任务Prompt预训练中文开源模型。千亿中文token上大规模预训练，累计学习1.5万亿中文token，亿级中文任务数据上完成训练，训练任务超过150+。比base版平均任务提升7个点+；具有更好的理解、生成和抽取能力，并且支持文本改写、纠错、知识图谱问答。
+
+* [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) 具有 Transformer 级 LLM 性能的 RNN。它可以像 GPT（可并行化）一样直接训练。因此，它结合了 RNN 和 Transformer 的优点——出色的性能、快速推理、节省 VRAM、快速训练、“无限”ctx_len 和自由句子嵌入。
 
 ## 文本分类
 
@@ -835,8 +833,12 @@
 
 ## 文本生成、文本对话、类ChatGPT
 
-* [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
+* [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT#auto-gpt-an-autonomous-gpt-4-experiment) 使用GPT4来自动完成目标任务。一个实验性开源应用程序，展示了 GPT-4 语言模型的功能。该程序由 GPT-4 驱动，将 LLM 的“思想”链接在一起，以自主实现您设定的任何目标。作为 GPT-4 完全自主运行的首批示例之一，Auto-GPT 突破了 AI 的可能性界限。
 
+* [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
+- [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) 纯C/C++中LLaMA模型的CPU推理。2023年FacebookResearch 开源了大规模语言模型 LLaMA，包含从 7B 到 65B 的参数范围，训练使用多达 1.4万亿 tokens 语料。LLaMA-13B 在大部分基准测评上超过了 GPT3（175B），LLaMA 可能是目前公开模型权重中效果最好的语言模型。
+
+- [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) 斯坦福大学的LLaMA羊驼模型。用2K数据微调模型，构建和共享一个遵循指令的LLaMA模型。
 * [LC1332/Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora) 在LLaMA、斯坦福大学Alpaca、Alpaca LoRA、Cabrita、Japanese-Alpaca-LoRA的基础上，调试了一个中国LLaMA模型。同时使用ChatGPT API将alpaca_data. json翻译为中文，再进行微调。
 
 * [tloen/alpaca-lora](https://github.com/tloen/alpaca-lora) 在消费者硬件上使用指令来微调LLaMA模型。使用低秩自适应（LoRA）重现斯坦福大学Alpaca结果的代码。我们提供了一个与 text-davinci-003质量相似的Instruct模型，可以在Raspberry Pi上运行（用于研究），并且代码很容易扩展到 13b ， 30b 和 65b模型。
@@ -859,11 +861,15 @@
 
 * [carbonz0/alpaca-chinese-dataset](https://github.com/carbonz0/alpaca-chinese-dataset) alpaca中文指令微调数据集
 
+* [cryscan/multilingual-share](https://huggingface.co/datasets/cryscan/multilingual-share) 为了推进中文AI的发展，促进AI技术公开化、国际化，我们成立了 ShareGPT-90k 项目，希望借助大家的力量推进数据清洗与对齐工作。可能与各位想象的有所不同，GPT模型主要通过预训练数据集赋能，语料的质量对模型最终性能至关重要。然而，百度知道、CSDN、知乎等平台软文过多；小木虫等高质量平台语料过少；个人博客内容质量参差不齐。OpenAI完成数据集的收集花费了巨大成本，以至于需要从微软集资。我们无力承担如此巨大的开销，于是需要各位有志于筹建开放获取语料，并有一定外语基础的网友们献上自己的力量。[RWKV-Wiki/MultilingualShareGPT](https://github.com/RWKV-Wiki/MultilingualShareGPT)
+
 * [masa3141/japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora) 日文指令来微调LLaMA模型
 
 * [22-hours/cabrita](https://github.com/22-hours/cabrita) 葡萄牙语微调指令LLaMA
 
 * [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
+
+* [rockbenben/ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。
 
 * [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) 包含 ChatGPT 提示，以更好地使用 ChatGPT
 
@@ -881,6 +887,8 @@
 
 * [acheong08/EdgeGPT](https://github.com/acheong08/EdgeGPT) 微软必应聊天的逆向工程API
 
+* [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) 使用GPT3/4来自动完成任务。一个 AI 支持的任务管理系统示例. 该系统使用 OpenAI 和 Pinecone API 创建, 优先级排序和执行任务. 该系统背后的主要思想是基于先前任务的结果和预定义的目标创建任务. 脚本然后使用 OpenAI 的自然语言处理（NLP）能力根据目标创建新任务, 并使用 Pinecone 存储和检索任务结果以获得上下文. 这是原始的[任务驱动的自驱代理](https://twitter.com/yoheinakajima/status/1640934493489070080?s=20)的简化版本.
+
 * [transitive-bullshit/chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api) OpenAI提供的ChatGPT的Node.js包装器。
 
 * [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) 用ChatGPT搭建微信聊天机器人
@@ -890,6 +898,10 @@
 * [chenking2020/FindTheChatGPTer](https://github.com/chenking2020/FindTheChatGPTer) ChatGPT/GPT4开源“平替”汇总，持续更新
 
 * [madawei2699/myGPTReader](https://github.com/madawei2699/myGPTReader) 由chatGPT提供支持,Slack上的一个机器人，可以阅读和总结任何网页，包括电子书在内的文档，甚至是YouTube上的视频。它可以通过语音和你交流。
+
+* [JosephusCheung/GuanacoDataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) Guanaco 模型的数据集旨在增强多语言能力并解决各种语言任务。它以 Alpaca 模型的 175 个任务为基础，提供了用不同语言重写的种子任务，并添加了专门为英语语法分析、自然语言理解、跨语言自我意识和显式内容识别设计的新任务。该数据集总共包含 534,530 个条目，以 6000 美元的低成本生成。英语\中文\日语。
+
+* [BlinkDL/ChatRWKV](https://github.com/BlinkDL/ChatRWKV) 使用RWKV语言模型（100%RNN）的类ChatGPT开源聊天模型。
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
 
@@ -1006,6 +1018,8 @@
 * [imClumsyPanda/langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM) 利用 [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) + [langchain](https://github.com/hwchase17/langchain) 实现的基于本地知识的 ChatGLM 应用。建立了全部基于开源模型实现的本地知识问答应用。
 
 * [l15y/wenda](https://github.com/l15y/wenda) 闻达：一个LLM调用平台。目前支持chatGLM-6B、chatRWKV、chatYuan和chatGLM-6B模型下自建知识库查找。
+
+* [GanymedeNil/document.ai](https://github.com/GanymedeNil/document.ai) 基于向量数据库与GPT3.5的通用本地知识库方案
 
 * [basketballandlearn/MRC_Competition_Dureader](https://github.com/basketballandlearn/MRC_Competition_Dureader) 基于大规模MRC数据再训练的机器阅读理解预训练模型（包括roberta-wwm-large、macbert-large），可以使用[transformers库](https://huggingface.co/luhua/chinese_pretrain_mrc_roberta_wwm_ext_large)。
 
@@ -1967,7 +1981,9 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 
 ## 对象检测、分割
 
-[open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab 基于PyTorch的开源对象检测工具箱
+[facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) Segment Anything Model从输入提示（如点或框）生成高质量的对象遮罩，并且可用于为图像中的所有对象生成遮罩。它已经在1100万张图像和11亿个掩码的数据集上进行了训练，并且在各种分割任务上具有强大的零样本性能。
+
+[open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab基于PyTorch的开源对象检测工具箱
 
 [microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) 基于Masked Image Modeling的预训练方法，适用于 Swin 和 SwinV2（也适用于 ViT 和 ResNet）。它可以作为计算机视觉的通用主干。它基本上是一个分层变换器，其表示是用移位窗口计算的。移位窗口方案通过将 self-attention 计算限制在不重叠的本地窗口上，同时还允许跨窗口连接，从而带来更高的效率。将 CLIP 预训练的 ViT-L 提高了 +1.6%，以达到ImageNet-1K 图像分类，这是最准确的 ViT-L 模型。在 COCO 对象检测（58.7 box AP和51.1 mask APtest-dev）和 ADE20K 语义分割（53.5 mIoU在 val）上实现了强大的性能，大大超过了以前的模型。
 
@@ -2094,6 +2110,8 @@ yangxy/GPEN 用于脸部高清增强,还能将黑白人物照转成彩色照片�
 [LuChengTHU/dpm-solver](https://github.com/LuChengTHU/dpm-solver) 用于扩散概率模型采样的快速 ODE 求解器。DPM-Solver 适用于离散时间和连续时间扩散模型，无需任何进一步训练。 实验结果表明，仅需对各种数据集进行 10 到 20 次函数评估即可生成高质量样本。
 
 [jina-ai/clip-as-service](https://github.com/jina-ai/clip-as-service) 一种用于嵌入图像和文本的低延迟、高可伸缩性的服务。它可以作为一个微服务轻松集成到神经搜索解决方案中。有四种基本的视觉推理技能：对象识别、对象计数、颜色识别和空间关系理解。文本到图像跨模态搜索。
+
+[hua1995116/awesome-ai-painting](https://github.com/hua1995116/awesome-ai-painting) AI绘画资料合集（包含国内外可使用平台、使用教程、参数教程、部署教程、业界新闻等等）
 
 [realtime-semantic-segmentation](https://github.com/hugozanini/realtime-semantic-segmentation) 用TF.js实施RefineNet以在浏览器中执行实时实例分割
 
@@ -2730,11 +2748,15 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [openai/whisper](https://github.com/openai/whisper) 一种通用的语音识别模型。 它在不同音频的大型数据集上进行训练，也是一个多任务模型，可以执行多语言ASR以及翻译和识别。Transformer 模型针对各种语音处理任务进行训练，包括多语言语音识别、语音翻译、口语识别和语音活动检测。 所有这些任务都联合表示为由解码器预测的一系列标记，允许单个模型替换传统语音处理管道的许多不同阶段。 多任务训练格式使用一组特殊标记作为任务说明符或分类目标。
 
+[m-bain/whisperX](https://github.com/m-bain/whisperX) 基于whisper(耳语)的自动语音识别 (ASR)，使用强制对齐提高了时间戳的准确性。带python库。
+
 [shirayu/whispering](https://github.com/shirayu/whispering) whisper“耳语”模型的流式识别。需足够的机器来实时转录。
 
 [m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper) 使用OpenAI的Whisper自动生成YouTube字幕
 
 [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) OpenAI Whisper自动语音识别（ASR）模型的高性能推理
+
+[guillaumekln/faster-whisper](https://github.com/guillaumekln/faster-whisper) 使用 CTranslate2 更快的 Whisper 转录。在使用更少内存的情况下，此实现比 openai/whisper 快 4 倍，达到相同的精度。在 CPU 和 GPU 上都可以通过 8 位量化进一步提高效率。
 
 [mli/autocut](https://github.com/mli/autocut) 用文本编辑器剪视频。对你的视频自动生成字幕。然后你选择需要保留的句子，AutoCut 将对你视频中对应的片段裁切并保存。
 
@@ -2769,6 +2791,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
 
 [rany2/edge-tts](https://github.com/rany2/edge-tts) 从Python使用Microsoft Edge的在线文本到语音服务（无需Microsoft Edge/Windows或API密钥）
+
+[coqui-ai/TTS](https://github.com/coqui-ai/TTS) 用于文本到语音的深度学习工具包，在研究和生产中经过实战测试。TTS 带有预训练模型、用于测量数据集质量的工具，并且已经在 20 多种语言中用于产品和研究项目。实例：`tts --model_name tts_models/zh-CN/baker/tacotron2-DDC-GST --text "你好。"`
 
 [jaywalnut310/vits](https://github.com/jaywalnut310/vits) 一种用于端到端文本语音转换的条件变分自编码器，它比现有的两阶段模型产生更自然的声音。该方法采用变分推理和归一化流以及对抗式训练过程，提高了生成式建模的表达能力。
 
@@ -2853,6 +2877,10 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 * [aqlaboratory/openfold](https://github.com/aqlaboratory/openfold) AlphaFold2的可训练、内存效率高且GPU友好的 PyTorch 再现。
 
 * [dauparas/ProteinMPNN](https://github.com/dauparas/ProteinMPNN) 基于深度学习的蛋白质序列设计方法，在计算和实验测试中都有出色的表现。在本地蛋白质骨架上，它的序列恢复率为52.4%，而Rosetta为32.9%。不同位置的氨基酸序列可以在单链或多链之间进行耦合，从而能够应用于当前广泛的蛋白质设计挑战。研究员利用X射线晶体学、冷冻电镜和功能研究证明了它的广泛实用性和高准确性，挽救了使用Rosetta或AlphaFold进行的蛋白质单体、环状同源寡聚体、四面体纳米颗粒和靶标结合蛋白的失败设计。
+
+* [HeliXonProtein/OmegaFold](https://github.com/HeliXonProtein/OmegaFold) 《从原生层序进行高分辨率从头构造预测》的代码。AI预测蛋白质3D结构，仅通过单条蛋白序列就能搞定。也就是说，AI预测蛋白质结构，可以不需要蛋白质进化过程中的同源信息。一些人工设计的蛋白质药物和工业合成用酶，也可以通过AI预测3D结构，确定其对人体的功能。达成这一成就的AI算法名为OmegaFold，在最近的全球持续蛋白质预测竞赛中，整体预测能力已经与DeepMind此前开发的AlphaFold2，和华盛顿大学开发的RoseTTAFold不相上下，甚至有些指标优于后两者。研究成果来自国内AI创新药物公司华深智药，一家成立不到一年的中国初创企业，孵化自张亚勤旗下的清华大学智能产业研究院。
+
+* [sokrypton/ColabFold](https://github.com/sokrypton/ColabFold) 让蛋白质折叠预测人人可及，预测蛋白质结构。
 
 * [salesforce/provis](https://github.com/salesforce/provis) BERTology Meets Biology: Interpreting Attention in Protein Language Models 注意力机制在蛋白质语言模型的应用
 
@@ -4828,7 +4856,11 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
 
+* [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) 免费提供的编程书籍
+
 * [ossu/computer-science](https://github.com/ossu/computer-science) 计算机科学免费自学教育之路！
+
+* [izackwu/TeachYourselfCS-CN](https://github.com/izackwu/TeachYourselfCS-CN) TeachYourselfCS 的中文翻译
 
 * [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
 
@@ -4849,6 +4881,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript) 很棒的浏览器端 JavaScript 库、资源。
 
 * [avelino/awesome-go](https://github.com/avelino/awesome-go) 精选的 Go 框架、库和软件的精选列表
+
+* [unknwon/go-study-index](https://github.com/unknwon/go-study-index) Go 语言学习资料与社区索引
 
 * [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集GitHub高质量、有趣的开源项目。
 
@@ -5159,6 +5193,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。
 
 * [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) 国内个人知识管理系统，支持细粒度块级引用和Markdown。
+
+* [freembook.com](https://freembook.com/) 书籍查询网页，可查询：书号 书名 SS号 DX号
+
+* [Davy-Zhou/zip2pdf](https://github.com/Davy-Zhou/zip2pdf) 基于Python自动化解压压缩包成PDG，PDG合成PDF 
 
 # Star数变化
 
