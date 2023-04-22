@@ -45,11 +45,11 @@
 
 # 机器学习与深度学习
 
-* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) ![stars](https://img.shields.io/github/stars/fengdu78/Coursera-ML-AndrewNg-Notes.svg?style=social) [教程/笔记]吴恩达老师的机器学习课程个人笔记 
+* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) ![stars](https://img.shields.io/github/stars/.svg?style=social) [教程/笔记]吴恩达老师的机器学习课程个人笔记 
 
-* [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) [教程/笔记]《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被60多个国家的400多所大学用于教学。
+* [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh)![stars](https://img.shields.io/github/stars/d2l-ai/d2l-zh.svg?style=social) [教程/笔记]《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被60多个国家的400多所大学用于教学。
 
-* [apachecn/AiLearning](https://github.com/apachecn/AiLearning) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
+* [apachecn/AiLearning](https://github.com/apachecn/AiLearning) ![stars](https://img.shields.io/github/stars/apachecn/AiLearning.svg?style=social)[教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
 
 * [microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
 
@@ -731,8 +731,6 @@
 
 * [microsoft/CodeBERT](https://github.com/microsoft/CodeBERT) 针对编程语言的预训练模型，在Py、Java、JS、PHP、Ruby、Go的 NL-PL 对上进行预训练的多编程语言模型。
 
-* [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
-
 * [clue-ai/PromptCLUE](https://github.com/clue-ai/PromptCLUE) 大规模多任务Prompt预训练中文开源模型。千亿中文token上大规模预训练，累计学习1.5万亿中文token，亿级中文任务数据上完成训练，训练任务超过150+。比base版平均任务提升7个点+；具有更好的理解、生成和抽取能力，并且支持文本改写、纠错、知识图谱问答。
 
 * [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) 具有 Transformer 级 LLM 性能的 RNN。它可以像 GPT（可并行化）一样直接训练。因此，它结合了 RNN 和 Transformer 的优点——出色的性能、快速推理、节省 VRAM、快速训练、“无限”ctx_len 和自由句子嵌入。
@@ -831,11 +829,15 @@
 
 * [krystalan/ClidSum](https://github.com/krystalan/ClidSum) 一个跨语言对话摘要的基准数据集 
 
-## 文本生成、文本对话、类ChatGPT
+## 文本生成、文本对话
+
+### 类ChatGPT对话模型及数据
 
 * [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT#auto-gpt-an-autonomous-gpt-4-experiment) 使用GPT4来自动完成目标任务。一个实验性开源应用程序，展示了 GPT-4 语言模型的功能。该程序由 GPT-4 驱动，将 LLM 的“思想”链接在一起，以自主实现您设定的任何目标。作为 GPT-4 完全自主运行的首批示例之一，Auto-GPT 突破了 AI 的可能性界限。
 
 * [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
+
+* [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) MiniGPT-4：使用高级大型语言模型增强视觉语言理解 提供与 Vicuna-7B 对齐的预训练 MiniGPT-4！演示 GPU 内存消耗现在可以低至 12GB。
 - [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) 纯C/C++中LLaMA模型的CPU推理。2023年FacebookResearch 开源了大规模语言模型 LLaMA，包含从 7B 到 65B 的参数范围，训练使用多达 1.4万亿 tokens 语料。LLaMA-13B 在大部分基准测评上超过了 GPT3（175B），LLaMA 可能是目前公开模型权重中效果最好的语言模型。
 
 - [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) 斯坦福大学的LLaMA羊驼模型。用2K数据微调模型，构建和共享一个遵循指令的LLaMA模型。
@@ -844,6 +846,12 @@
 * [tloen/alpaca-lora](https://github.com/tloen/alpaca-lora) 在消费者硬件上使用指令来微调LLaMA模型。使用低秩自适应（LoRA）重现斯坦福大学Alpaca结果的代码。我们提供了一个与 text-davinci-003质量相似的Instruct模型，可以在Raspberry Pi上运行（用于研究），并且代码很容易扩展到 13b ， 30b 和 65b模型。
 
 * [mymusise/ChatGLM-Tuning](https://github.com/mymusise/ChatGLM-Tuning) 平价的chatgpt实现方案, 基于ChatGLM-6B + LoRA
+
+* [OpenLMLab/MOSS](https://github.com/OpenLMLab/MOSS) 支持中英双语和多种插件的开源对话语言模型，moss-moon系列模型具有160亿参数。开源数据: moss-002-sft-data: 多轮对话数据，覆盖有用性、忠实性、无害性三个层面，包含由text-davinci-003生成的约57万条英文对话和59万条中文对话。moss-003-sft-data: 多轮对话数据，基于MOSS-002内测阶段采集的约10万用户输入数据和gpt-3.5-turbo构造而成，更加符合真实用户意图分布，包含更细粒度的有用性类别标记、更广泛的无害性数据和更长对话轮数，约含110万条对话数据。moss-003-sft-plugin-data: 插件增强的多轮对话数据，包含支持搜索引擎、文生图、计算器、解方程等四个插件在内的约30万条多轮对话数据。moss-003-pm-data: 偏好数据，包含在约18万额外对话上下文数据及使用moss-moon-003-sft所产生的回复数据上构造得到的偏好对比数据。
+
+* [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
+
+* [lm-sys/FastChat](https://github.com/lm-sys/FastChat) 令人印象深刻的 GPT-4 开放式聊天机器人 Vicuna：一个以 90% ChatGPT 质量的开源聊天机器人。
 
 * [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) 文心一言的开源版，基于 ChatGLM + Visual ChatGPT + Stable Diffusion
 
@@ -867,9 +875,17 @@
 
 * [22-hours/cabrita](https://github.com/22-hours/cabrita) 葡萄牙语微调指令LLaMA
 
+* [Stability-AI/StableLM](https://github.com/Stability-AI/StableLM) 稳定性AI语言模型。使用 Stanford Alpaca 的程序对模型进行了微调，结合了五个最近的对话代理数据集：Stanford 的 Alpaca 、Nomic-AI 的 gpt4all 、RyokoAI 的 ShareGPT52K 数据集、Databricks的 Dolly 和 HH 。以 StableLM-Tuned-Alpha 的形式发布这些模型。
+
 * [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 
 * [rockbenben/ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。
+
+* [PhoebusSi/Alpaca-CoT](https://github.com/PhoebusSi/Alpaca-CoT) 将CoT数据扩展到Alpaca以提高其推理能力，同时我们将不断收集更多的instruction-tuning数据集,并在我们框架下集成进更多的LLM，打造一个通用的LLM-IFT平台。[Alpaca-CoT · Datasets](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT) 
+
+* [sahil280114/codealpaca](https://github.com/sahil280114/codealpaca)  在代码生成指令上训练的 Instruction-following LLaMA Model。包括用于微调模型的 20K 数据。
+
+* [unit-mesh/unit-minions](https://github.com/unit-mesh/unit-minions) 《AI 研发提效研究：自己动手训练 LoRA》，包含 Llama （Alpaca LoRA）模型、ChatGLM （ChatGLM Tuning）相关 Lora 的训练。训练内容：用户故事生成、测试代码生成、代码辅助生成、文本转 SQL、文本生成
 
 * [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) 包含 ChatGPT 提示，以更好地使用 ChatGPT
 
@@ -899,9 +915,51 @@
 
 * [madawei2699/myGPTReader](https://github.com/madawei2699/myGPTReader) 由chatGPT提供支持,Slack上的一个机器人，可以阅读和总结任何网页，包括电子书在内的文档，甚至是YouTube上的视频。它可以通过语音和你交流。
 
-* [JosephusCheung/GuanacoDataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) Guanaco 模型的数据集旨在增强多语言能力并解决各种语言任务。它以 Alpaca 模型的 175 个任务为基础，提供了用不同语言重写的种子任务，并添加了专门为英语语法分析、自然语言理解、跨语言自我意识和显式内容识别设计的新任务。该数据集总共包含 534,530 个条目，以 6000 美元的低成本生成。英语\中文\日语。
+* [JosephusCheung/GuanacoDataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) Guanaco 模型的数据集旨在增强多语言能力并解决各种语言任务。以 Alpaca 模型的 175个任务为基础，提供了用不同语言重写的种子任务，并添加了专门为英语语法分析、自然语言理解、跨语言自我意识和显式内容识别设计的新任务。数据集总共包含53万个条目，以6k美元的低成本生成。英语\中文\日语。
+
+* [thunlp/UltraChat](https://github.com/thunlp/UltraChat) 大规模、信息丰富、多样化的多轮聊天数据（和模型）
+
+* [ziliwangnlp/RefGPT](https://github.com/ziliwangnlp/RefGPT) 包含5万对中文多轮对话数据。用如下方法自动生成数据。采集优质的事实型文档，reference，来源是电子书、维基百科、优质垂类网站。文档需要涵盖尽量多的主题。利用已有LLM生成多轮对话。输入是一篇reference，prompt类似“请根据这篇文章生成多轮问答”。API输出一段多轮对话（dialogue）。这种方法将原本只适合预训练的文档转化成可供微调的多轮对话。收集到大量的reference-dialogue二元组。将reference和prompt作为输入，dialogue作为目标，微调一个GPT模型。称作Reference-to-Dialogue GPT，缩写RefGPT。有了RefGPT，即可基于reference生成多轮对话，获得海量的数据。需要关注2个要点。Reference的质量、广度。Reference内容质量必须高，比如医疗等优质垂类网站的页面、维基百科上非生僻的词条，且需要对网页做清洗。Reference的广度应当大，不能限制在单个垂类或网站。调用已有LLM时需要写prompt，需要仔细尝试各种prompt，使得LLM生成的多轮对话符合预期。
+
+* [nomic-ai/pyllamacpp](https://github.com/nomic-ai/pyllamacpp) 支持 llama.cpp + gpt4all 的 Python 绑定
+
+* [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python) llama.cpp 的 Python 绑定
 
 * [BlinkDL/ChatRWKV](https://github.com/BlinkDL/ChatRWKV) 使用RWKV语言模型（100%RNN）的类ChatGPT开源聊天模型。
+
+* [rawandahmad698/PyChatGPT](https://github.com/rawandahmad698/PyChatGPT) 非官方 ChatGPT API 的 Python 客户端，具有自动令牌重新生成、对话跟踪、代理支持等功能。
+
+* [qunash/chatgpt-advanced](https://github.com/qunash/chatgpt-advanced) 一种浏览器扩展，可通过网络结果增强您的 ChatGPT 提示。
+
+* [mpociot/chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode) 允许您使用 ChatGPT 的 VSCode 扩展
+
+* [liady/ChatGPT-pdf](https://github.com/liady/ChatGPT-pdf) 用于将 ChatGPT 历史下载为 PNG、PDF 或创建可共享链接的 Chrome 扩展
+
+* [saharmor/awesome-chatgpt](https://github.com/saharmor/awesome-chatgpt) 精选的 ChatGPT 演示、工具、文章等
+
+* [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) 科研工作专用ChatGPT/GLM拓展，特别优化学术Paper润色体验，模块化设计支持自定义快捷按钮&函数插件，支持代码块表格显示，Tex公式双显示，新增Python和C++项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持gpt-3.5/gpt-4/chatglm
+
+* [WangRongsheng/ChatGenTitle](https://github.com/WangRongsheng/ChatGenTitle) 使用百万arXiv论文信息在LLaMA模型上进行微调的论文题目生成模型
+
+* [nishiwen1214/ChatReviewer](https://github.com/nishiwen1214/ChatReviewer) 使用ChatGPT分析论文优缺点，提出改进建议
+
+* [kaixindelele/ChatPaper](https://github.com/kaixindelele/ChatPaper) 全流程加速科研，利用chatgpt进行论文总结+润色+审稿+审稿回复
+
+* [gragland/chatgpt-chrome-extension](https://github.com/gragland/chatgpt-chrome-extension) ChatGPT Chrome 扩展。将 ChatGPT 集成到互联网上的每个文本框中。
+
+* [vincelwt/chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) Mac 版 ChatGPT，就在您的菜单栏中。
+
+* [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) 为ChatGPT ChatGLM LLaMA StableLM MOSS等多种LLM提供了一个轻快好用的Web图形界面
+
+* [sonnylazuardi/chat-ai-desktop](https://github.com/sonnylazuardi/chat-ai-desktop) 使用 Tauri 和 Rust 的 Mac 和 Windows 菜单栏的非官方 ChatGPT 桌面应用程序
+
+* [xx025/carrot](https://github.com/xx025/carrot) 准备了众多免费好用的ChatGPT镜像站点，当前100+站点
+
+* [LiLittleCat/awesome-free-chatgpt](https://github.com/LiLittleCat/awesome-free-chatgpt) 免费的 ChatGPT 镜像网站列表，持续更新。
+
+* [202252197/ChatGPT_JCM](https://github.com/202252197/ChatGPT_JCM) OpenAI管理界面，聚合了OpenAI的所有接口进行界面操作(所有模型、图片、音频、微调、文件)等，支持Markdown格式(公式、图表，表格)等
+
+### 文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
 
@@ -2755,6 +2813,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [m1guelpf/yt-whisper](https://github.com/m1guelpf/yt-whisper) 使用OpenAI的Whisper自动生成YouTube字幕
 
 [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) OpenAI Whisper自动语音识别（ASR）模型的高性能推理
+
+[sanchit-gandhi/whisper-jax](https://github.com/sanchit-gandhi/whisper-jax) 针对 OpenAI 的 Whisper 模型优化的 JAX 代码。与 OpenAI 的 PyTorch 代码相比，Whisper JAX 的运行速度快了 70 倍以上，使其成为可用的最快的 Whisper 实现。
 
 [guillaumekln/faster-whisper](https://github.com/guillaumekln/faster-whisper) 使用 CTranslate2 更快的 Whisper 转录。在使用更少内存的情况下，此实现比 openai/whisper 快 4 倍，达到相同的精度。在 CPU 和 GPU 上都可以通过 8 位量化进一步提高效率。
 
