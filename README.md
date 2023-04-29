@@ -27,6 +27,7 @@
 
 - [机器学习与深度学习](#机器学习与深度学习)
 - [NLP自然语言处理](#NLP自然语言处理)
+  * [🚀🚀🚀类chatgpt对话模型及数据](#类chatgpt对话模型及数据)
 - [推荐系统](#推荐系统)
 - [机器视觉](#机器视觉)
 - [因果推断](#因果推断)
@@ -45,11 +46,11 @@
 
 # 机器学习与深度学习
 
-* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) ![stars](https://img.shields.io/github/stars/.svg?style=social) [教程/笔记]吴恩达老师的机器学习课程个人笔记 
+* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) ![stars](https://img.shields.io/github/stars/fengdu78/Coursera-ML-AndrewNg-Notes.svg?style=social) [教程/笔记]吴恩达老师的机器学习课程个人笔记
 
-* [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh)![stars](https://img.shields.io/github/stars/d2l-ai/d2l-zh.svg?style=social) [教程/笔记]《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被60多个国家的400多所大学用于教学。
+* [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) ![stars](https://img.shields.io/github/stars/d2l-ai/d2l-zh.svg?style=social) [教程/笔记]《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被60多个国家的400多所大学用于教学。
 
-* [apachecn/AiLearning](https://github.com/apachecn/AiLearning) ![stars](https://img.shields.io/github/stars/apachecn/AiLearning.svg?style=social)[教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
+* [apachecn/AiLearning](https://github.com/apachecn/AiLearning) ![stars](https://img.shields.io/github/stars/apachecn/AiLearning.svg?style=social) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
 
 * [microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
 
@@ -741,7 +742,7 @@
 
 * [ilivans/tf-rnn-attention](https://github.com/ilivans/tf-rnn-attention) Tensorflow实现文本分类任务的关注机制。
 
-* [skdjfla/toutiao-text-classfication-dataset](https://github.com/skdjfla/toutiao-text-classfication-dataset) 中文文本分类数据集 共382688条，分布于15类中。
+* [skdjfla/toutiao-text-classfication-dataset](https://github.com/skdjfla/toutiao-text-classfication-dataset) 中文文本分类数据集 共38.2万条，分布于15类中。
 
 * [xiaoqian19940510/text-classification-surveys](https://github.com/xiaoqian19940510/text-classification-surveys) 文本分类资源汇总，包括深度学习文本分类模型，如SpanBERT、ALBERT、RoBerta、Xlnet、MT-DNN、BERT、TextGCN、MGAN、TextCapsule、SGNN、SGM、LEAM、ULMFiT、DGCNN、ELMo、RAM、DeepMoji、IAN、DPCNN、TopicRNN、LSTMN 、Multi-Task、HAN、CharCNN、Tree-LSTM、DAN、TextRCNN、Paragraph-Vec、TextCNN、DCNN、RNTN、MV-RNN、RAE等，浅层学习模型，如LightGBM 、SVM、XGboost、Random Forest、C4.5、CART、KNN、NB、HMM等。介绍文本分类数据集，如MR、SST、MPQA、IMDB、Ye…
 
@@ -921,6 +922,12 @@
 
 * [ziliwangnlp/RefGPT](https://github.com/ziliwangnlp/RefGPT) 包含5万对中文多轮对话数据。用如下方法自动生成数据。采集优质的事实型文档，reference，来源是电子书、维基百科、优质垂类网站。文档需要涵盖尽量多的主题。利用已有LLM生成多轮对话。输入是一篇reference，prompt类似“请根据这篇文章生成多轮问答”。API输出一段多轮对话（dialogue）。这种方法将原本只适合预训练的文档转化成可供微调的多轮对话。收集到大量的reference-dialogue二元组。将reference和prompt作为输入，dialogue作为目标，微调一个GPT模型。称作Reference-to-Dialogue GPT，缩写RefGPT。有了RefGPT，即可基于reference生成多轮对话，获得海量的数据。需要关注2个要点。Reference的质量、广度。Reference内容质量必须高，比如医疗等优质垂类网站的页面、维基百科上非生僻的词条，且需要对网页做清洗。Reference的广度应当大，不能限制在单个垂类或网站。调用已有LLM时需要写prompt，需要仔细尝试各种prompt，使得LLM生成的多轮对话符合预期。
 
+* [gururise/AlpacaDataCleaned](https://github.com/gururise/AlpacaDataCleaned) 经过清理和整理的斯坦福的羊驼数据集
+
+* [wangrui6/Zhihu-KOL](https://huggingface.co/datasets/wangrui6/Zhihu-KOL) 知乎对话数据，parquet格式400多MB的大小
+
+* [BAAI/COIG](https://huggingface.co/datasets/BAAI/COIG) 中文开放教学通才 (COIG) 项目，以维护一套无害、有用且多样化的中文对话语料库。具体包括：人工验证的翻译指令 (67798) 、考试指令 (63532) 、人类价值对齐指令 (34471) 、反事实修正多轮聊天（13653）、Leetcode 指令 (11737) 
+
 * [nomic-ai/pyllamacpp](https://github.com/nomic-ai/pyllamacpp) 支持 llama.cpp + gpt4all 的 Python 绑定
 
 * [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python) llama.cpp 的 Python 绑定
@@ -945,11 +952,15 @@
 
 * [kaixindelele/ChatPaper](https://github.com/kaixindelele/ChatPaper) 全流程加速科研，利用chatgpt进行论文总结+润色+审稿+审稿回复
 
+* [eimenhmdt/autoresearcher](https://github.com/eimenhmdt/autoresearcher) 使用 GPT 自动化科学工作流程 
+
 * [gragland/chatgpt-chrome-extension](https://github.com/gragland/chatgpt-chrome-extension) ChatGPT Chrome 扩展。将 ChatGPT 集成到互联网上的每个文本框中。
 
 * [vincelwt/chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) Mac 版 ChatGPT，就在您的菜单栏中。
 
 * [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) 为ChatGPT ChatGLM LLaMA StableLM MOSS等多种LLM提供了一个轻快好用的Web图形界面
+
+* [SCIR-HI/Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM) 基于中文医学知识的ChatGLM指令微调
 
 * [sonnylazuardi/chat-ai-desktop](https://github.com/sonnylazuardi/chat-ai-desktop) 使用 Tauri 和 Rust 的 Mac 和 Windows 菜单栏的非官方 ChatGPT 桌面应用程序
 
