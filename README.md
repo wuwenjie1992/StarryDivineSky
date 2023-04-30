@@ -42,7 +42,7 @@
 - [安全与渗透](#安全与渗透)
 - [硬件](#硬件)
 - [网络与前端开发](#网络与前端开发)
-- [其他](#其他)
+- [其他项目](#其他项目)
 
 # 机器学习与深度学习
 
@@ -4755,6 +4755,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
 
+* [axios/axios](https://github.com/axios/axios) 用于浏览器和 node.js 的基于 Promise 的 HTTP 客户端
+
 * [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
 
 * [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。开箱即用的 TypeScript 支持。文件系统路由 à la Next.js。
@@ -4767,6 +4769,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)  网络如何运作 当我们在浏览器中输入 google.com 时，幕后会发生什么？
 
+* [nestjs/nest](https://github.com/nestjs/nest) 用于在 TypeScript 和 JavaScript（ES6、ES7、ES8）之上构建高效、可扩展和企业级服务器端应用程序的渐进式 Node.js 框架
+
 * [signalwire/freeswitch](https://github.com/signalwire/freeswitch) 一种软件定义的电信堆栈，可实现从专有电信交换机到可在任何商用硬件上运行的多功能软件实施的数字化转型。可以释放任何设备的电信潜力。
 
 * [logto-io/logto](https://github.com/logto-io/logto)  帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
@@ -4774,6 +4778,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站,LowCode平台.
 
 * [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别查询效率，提供众多主流编程语言的 xdb 数据生成和查询客户端实现。
+
+* [mui/material-ui](https://github.com/mui/material-ui) 即用型基础 React 组件，永久免费。它包括 Material UI，它实现了 Google 的 Material Design。
 
 * [sogou/workflow](https://github.com/sogou/workflow) C++ 并行计算和异步网络引擎
 
@@ -4839,6 +4845,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [foamzou/melody](https://github.com/foamzou/melody)  帮助你更好地管理音乐。帮助你将喜欢的歌曲或者音频上传到音乐平台的云盘。支持在各大音乐和视频网站检索歌曲。支持一键下载到本地，一键上传到云盘。一键“解锁”无法播放的歌曲。
 
+* [chartjs/Chart.js](https://github.com/chartjs/Chart.js) 使用 <canvas> 标签的简单 HTML5 图表
+
 * [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) Web GUI，支持 V2Ray、Xray、SS、SSR、Trojan 和 Pingtunnel
 
 * [DataV-Team/DataV](https://github.com/DataV-Team/DataV) Vue数据可视化组件库（类似阿里DataV，大屏数据展示），提供SVG边框及装饰、图表、水位图、飞线图等组件，React版已发布
@@ -4895,6 +4903,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [tw93/Pake](https://github.com/tw93/Pake/) 很简单的用 Rust 打包网页生成很小的桌面 App
 
+* [tauri-apps/tauri](https://github.com/tauri-apps/tauri) 使用 Web 前端构建更小、更快和更安全的桌面应用程序。
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -4921,7 +4931,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [bunturx/Awesome-Blockchain-Security](https://github.com/bunturx/Awesome-Blockchain-Security)  由伟大的@0xRajeev 创建核心焦点将是以太坊智能合约安全审计。 以太坊、Solidity、智能合约安全和审计。
 
-# 其他
+# 其他项目
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
 
@@ -4932,6 +4942,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [ossu/computer-science](https://github.com/ossu/computer-science) 计算机科学免费自学教育之路！
 
 * [izackwu/TeachYourselfCS-CN](https://github.com/izackwu/TeachYourselfCS-CN) TeachYourselfCS 的中文翻译
+
+* [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 开源代码库和课程。免费学习编码。
 
 * [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
 
@@ -4965,6 +4977,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [MTrajK/coding-problems](https://github.com/MTrajK/coding-problems/) 各种编码/算法问题的解决方案以及许多用于学习算法和数据结构的python资源
 
+* [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) 一系列应用创意，可用于提高您的编码技能。
+
+* [leonardomso/33-js-concepts:](https://github.com/leonardomso/33-js-concepts) 每个开发人员都应该知道的 33 个 JavaScript 概念。
+
 * [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) Linux命令大全搜索，包含手册、详解、学习、搜集。
 
 * [Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) 100 多个具有挑战性的 Python 编程练习
@@ -4977,7 +4993,68 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [jerry-git/learn-python3](https://github.com/jerry-git/learn-python3) 用于教学/学习 Python 3 的 Jupyter 笔记本
 
+* [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) 一个交互式编译器探索网站。在
+   C、C++、C#、F#、Rust、Go、D、Haskell、Swift、Pascal、ispc、Python、Java 或任何其他 30 多种支持的语言中编辑代码，并查看代码在实际编译后的样子时间。每种语言都支持多个编译器，可以使用许多不同的工具和可视化，并且 UI 布局是可配置
+
+* [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) Notion 的开源替代品。您负责您的数据和定制。使用 Flutter 和 Rust 构建。
+
+* [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) 可以不止有 Notion 和 Miro。 AFFiNE 是下一代知识库，它将规划、分类和创建结合在一起。隐私至上、开源、可定制且随时可用。
+
+* [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) 思源是本地首创的个人知识管理系统，支持细粒度块级引用和Markdown所见即所得。
+
+* [mattermost/focalboard](https://github.com/mattermost/focalboard) Trello、Notion 和 Asana 的开源、自托管替代品。
+
+* [haiwen/seafile](https://github.com/haiwen/seafile) 高性能文件同步和共享，还具有 Markdown 所见即所得编辑、Wiki、文件标签等知识管理功能。
+
+* [requarks/wiki](https://github.com/requarks/wiki) 维基.js |一个基于 Node.js 构建的现代且强大的 wiki 应用程序
+
+* [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) 使用 PHP 和 Laravel 构建的创建文档/wiki 内容的平台
+
+* [gollum/gollum](https://github.com/gollum/gollum) 一个简单的、基于 Git 的 wiki，带有一个漂亮的 API 和本地前端。
+
+* [outline/outline](https://github.com/outline/outline) 成长团队最快的知识库。美观、实时协作、功能丰富且兼容降价。
+
+* [payloadcms/payload](https://github.com/payloadcms/payload) 使用 React + TypeScript 构建一个免费的开源 Headless CMS。
+
+* [getgrav/grav](https://github.com/getgrav/grav) 由 PHP、Markdown、Twig 和 Symfony 提供支持的现代、极快、极其简单且功能强大的平面文件 CMS
+
+* [strapi/strapi](https://github.com/strapi/strapi) 领先的开源无头 CMS。它是 100% JavaScript，完全可定制且开发人员优先。
+
+* [microsoft/vscode](https://github.com/microsoft/vscode) 微软开源的程序开发工具和编辑器
+
+* [VSCodium/vscodium](https://github.com/VSCodium/vscodium) 没有微软品牌/遥测/许可的vscode代码二进制版本
+
+* [quilljs/quill](https://github.com/quilljs/quill) 为兼容性和可扩展性而构建的现代所见即所得编辑器。
+
+* [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) 基于浏览器的代码编辑器。VS Code 中功能齐全的代码编辑器。
+
+* [ianstormtaylor/slate](https://github.com/ianstormtaylor/slate) 一个完全可定制的框架，用于构建富文本编辑器。
+
+* [codex-team/editor.js](https://github.com/codex-team/editor.js) 具有干净 JSON 输出的块式编辑器
+
+* [zyedidia/micro](https://github.com/zyedidia/micro) 现代且直观的基于终端的文本编辑器。旨在通过易于安装和使用成为 nano 编辑器的继承者。
+
 * [fastai/nbdev](https://github.com/fastai/nbdev) 编写、测试、记录和分发软件包和技术文章 — 所有这些都在一个地方，您的笔记本上。
+
+* [benweet/stackedit](https://github.com/benweet/stackedit) 基于 PageDown 的全功能开源 Markdown 编辑器，Stack Overflow 和其他 Stack Exchange 站点使用的 Markdown 库。
+
+* [nhn/tui.editor](https://github.com/nhn/tui.editor) Markdown 所见即所得编辑器。 GFM 标准 + 图表和 UML 可扩展。
+
+* [SpaceVim/SpaceVim](https://github.com/SpaceVim/SpaceVim) 社区驱动的模块化 vim/neovim 发行版
+
+* [NvChad/NvChad](https://github.com/NvChad/NvChad) 超快的 Neovim 框架提供可靠的默认设置和漂亮的 UI，增强您的 neovim 体验。
+
+* [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) Notepad++ 文本编辑器官方仓库
+
+* [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) 为web开发人员准备的无头编辑器框架
+
+* [eclipse-theia/theia](https://github.com/eclipse-theia/theia) 一个用 TypeScript 实现的云和桌面 IDE 框架。
+
+* [yabwe/medium-editor](https://github.com/yabwe/medium-editor) Medium.com 所见即所得编辑器克隆。使用 contenteditable API 实现富文本解决方案。
+
+* [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) 允许您记录屏幕的选定区域，编辑并将其保存为 gif 或视频。需要 .NET 6 桌面运行时（或更高版本）。
+
+* [mifi/lossless-cut](https://github.com/mifi/lossless-cut) 无损视频/音频编辑的瑞士军刀。跨平台 FFmpeg GUI，用于对视频、音频、字幕和其他相关媒体文件进行极其快速和无损的操作。
 
 * [30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code) 满足您所有开发需求的简短 JavaScript 代码片段
 
@@ -5007,7 +5084,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [attractivechaos/klib](https://github.com/attractivechaos/klib) 独立的轻量级 C 库，在 MIT/X11 许可下分发。 大多数组件都独立于外部库，除了标准 C 库，并且彼此独立。Klib 致力于提高效率和减少内存占用。 就速度和内存使用而言，某些组件（如 khash.h、kbtree.h、ksort.h 和 kvec.h）是所有编程语言中类似算法或数据结构的最有效实现之一。
 
-* https://github.com/barry-ran/QtScrcpy Android实时显示控制软件
+* [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy) Android实时显示控制软件
 
 * [bennettfeely/bennett](https://github.com/bennettfeely/bennett) ztext 易于实现的3D网页排版。适用于每种字体。
 
@@ -5017,13 +5094,17 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [girliemac/a-picture-is-worth-a-1000-words](https://github.com/girliemac/a-picture-is-worth-a-1000-words) 用简单的涂鸦来描述复杂的事情！包括：算法、web、机器学习、Git、HTTP 状态等
 
-* https://github.com/willmcgugan/rich 一个终端内富文本和美化的python库。
+* [willmcgugan/rich](https://github.com/willmcgugan/rich) 一个终端内富文本和美化的python库。
 
 * [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn)  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
 
 * [osoutpost/awesome-flutter-cn](https://github.com/osoutpost/awesome-flutter-cn) Flutter 资源大全中文版。包括：组件、导航、模板、插件、框架和引擎等
 
-* xujiyou/zhihu-flutter  Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
+* [CarGuo/gsy_github_app_flutter](https://github.com/CarGuo/gsy_github_app_flutter) Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。
+
+* [mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates) 最佳 Flutter-UI 模板
+
+* [xujiyou/zhihu-flutter](https://github.com/xujiyou/zhihu-flutter)  Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
 
 * [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) 包含了最好的 Flutter 库、工具、教程、文章等。
 
@@ -5075,15 +5156,19 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) 一款高度奇幻题材的开源回合制策略游戏。
 
-* https://github.com/openstf/minitouch 最小的Android多点触控事件生成器。
+* [openstf/minitouch](https://github.com/openstf/minitouch) 最小的Android多点触控事件生成器。
 
-* https://github.com/gozfree/gear-lib 一组通用的Ｃ基础库，用POSIX C实现，目标是为了跨平台兼容。适用于物联网，嵌入式，以及网络服务开发等场景。
+* [gozfree/gear-lib](https://github.com/gozfree/gear-lib) 一组通用的Ｃ基础库，用POSIX C实现，目标是为了跨平台兼容。适用于物联网，嵌入式，以及网络服务开发等场景。
 
-* https://github.com/tangtangcoding/C-C- C语言电子书与视频资料分享
+* [tangtangcoding/C-C-](https://github.com/tangtangcoding/C-C-) C语言电子书与视频资料分享
 
-* https://github.com/fluttercandies/wechat_flutter Flutter版本微信，一个优秀的Flutter即时通讯IM开源库
+* [fluttercandies/wechat_flutter](https://github.com/fluttercandies/wechat_flutter) Flutter版本微信，一个优秀的Flutter即时通讯IM开源库
 
-* https://github.com/CoderMikeHe/flutter_wechat 利用 Flutter 来高仿微信(WeChat) 7.0.0+ App
+* [simplezhli/flutter_deer](https://github.com/simplezhli/flutter_deer) Flutter 练习项目(包括集成测试、可访问性测试)。内含完整UI设计图，更贴近真实项目的练习。
+- [Sangwan5688/BlackHole](https://github.com/Sangwan5688/BlackHole) 满足您所有需求的开源音乐播放器应用程序！Flutter
+
+- [AweiLoveAndroid/Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning) Flutter安装和配置，Flutter开发遇到的难题，Flutter示例代码和模板，Flutter项目实战，Dart语言学习示例代码。
+* [CoderMikeHe/flutter_wechat](https://github.com/CoderMikeHe/flutter_wechat) 利用 Flutter 来高仿微信(WeChat) 7.0.0+ App
 
 * https://github.com/youxinLu/flutter_mall 一款Flutter开源在线商城应用程序
 
@@ -5091,7 +5176,9 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * https://github.com/freestyletime/FlutterNews  用Flutter写的新闻类小项目 
 
-* [imaNNeoFighT/fl_chart](https://github.com/imaNNeoFighT/fl_chart) FL Chart 是一个高度可定制的 Flutter 图表库，支持折线图、条形图、饼图、散点图和雷达图。
+* [imaNNeoFighT/fl_chart](https://github.com/imaNNeoFighT/fl_chart) FL Chart 是高度可定制的 Flutter 图表库，支持折线图、条形图、饼图、散点图和雷达图。
+
+* [TheAlphamerc/flutter_twitter_clone](https://github.com/TheAlphamerc/flutter_twitter_clone) 使用 Firebase 实时数据库和存储在 flutter 框架中构建的全功能 Twitter 克隆
 
 * https://github.com/linyacool/WebServer C++11编写的Web服务器
 
@@ -5147,13 +5234,13 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
 
-* [marktext/marktext](https://github.com/marktext/marktext) 备忘录一个简单优雅的markdown编辑器，适用于 Linux、macOS 和 Windows。
+* [marktext/marktext](https://github.com/marktext/marktext) 简单优雅的markdown编辑器，适用于 Linux、macOS 和 Win。
 
 * [weartist/computer_book_list](https://github.com/weartist/computer_book_list) 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
 
 * [sunym1993/flash-linux0.11-talk](https://github.com/sunym1993/flash-linux0.11-talk) 像小说一样品读 Linux 0.11 核心代码
 
-* [sunface/rust-course](https://github.com/sunface/rust-course)   “连续六年成为全世界最受喜爱的语言，无GC也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS未来基石" —  工作之余的第二语言来试试Rust吧。<<Rust语言圣经>>拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内。这可能是目前最用心的Rust中文学习教程/书籍
+* [sunface/rust-course](https://github.com/sunface/rust-course)   “连续六年成为全世界最受喜爱的语言，无GC也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS未来基石" 。Rust语言圣经拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内。这可能是目前最用心的Rust中文学习教程/书籍
 
 * [Textualize/textual](https://github.com/Textualize/textual) 受现代Web开发启发的 Python 的 TUI（文本用户界面）框架。
 
@@ -5161,7 +5248,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [clouddreamteam_admin/cloud-dream](https://gitee.com/clouddreamteam_admin/cloud-dream) 微信小程序—餐饮点餐商城，是针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！
 
-* [HC小区业主版: hc智慧家园小程序 ](https://gitee.com/java110/WechatOwnerService) 是 HC小区开源项目的一个分支项目，主要给业主使用，其中包括缴物业费，缴停车费，投诉建议，家庭成员维护，房屋保修 房屋出租，公告查看，小区圈等功能。
+* [HC小区业主版: hc智慧家园小程序 ](https://gitee.com/java110/WechatOwnerService) HC小区开源项目的一个分支项目，主要给业主使用，其中包括缴物业费，缴停车费，投诉建议，家庭成员维护，房屋保修 房屋出租，公告查看，小区圈等功能。
 
 * [veloren/veloren](https://github.com/veloren/veloren) 用 Rust 编写的多人体素 RPG。从 Cube World、Minecraft 和 Dwarf Fortress 等游戏中汲取灵感。该游戏目前正在大力开发中，但可以玩。
 
@@ -5183,6 +5270,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [Eugeny/tabby](https://github.com/Eugeny/tabby) 一个更现代的终端
 
+* [nushell/nushell](https://github.com/nushell/nushell) 一种新型终端。从 PowerShell、函数式编程语言和现代 CLI 工具等项目中汲取灵感。 Nu 不是将文件和数据视为原始文本流，而是将每个输入视为具有结构的东西。
+
 * [TastSong/CrazyCar](https://github.com/TastSong/CrazyCar) 网络联机游戏解决方案---Unity制作的联机赛车游戏，服务端为SpringBoot + Mybatis；后台为Vue + Element；游戏端采用QFramework框架，支持KCP和WebSocket网络(商用级)
 
 * [clear-code-projects/Zelda](https://github.com/clear-code-projects/Zelda) 用 Python 构建一个塞尔达风格的游戏
@@ -5193,6 +5282,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [yudai/gotty](https://github.com/yudai/gotty) 将您的终端共享为 Web 应用程序
 
+* [alacritty/alacritty](https://github.com/alacritty/alacritty) 一个跨平台的 OpenGL 终端模拟器。
+
 * [pmgl/microstudio](https://github.com/pmgl/microstudio) 免费、开源的在线游戏引擎 nodejs
 
 * [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness)  精益副业：程序员如何优雅地做副业
@@ -5202,6 +5293,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [penpot/penpot](https://github.com/penpot/penpot) 开源设计和原型平台
 
 * [jynew/jynew](https://github.com/jynew/jynew) 开源武侠RPG游戏开发框架 使用Unity引擎重制并致敬经典游戏《金庸群侠传》DOS版
+
+* [bevyengine/bevy](https://github.com/bevyengine/bevy) 用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎
+
+* [servo/servo](https://github.com/servo/servo) 用 Rust 语言编写的原型 Web 浏览器引擎。
 
 * [jupyterlab/jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git) 使用 Git 进行版本控制的 JupyterLab 扩展
 
@@ -5259,7 +5354,43 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [openblocks-dev/openblocks](https://github.com/openblocks-dev/openblocks) 开源低代码替代方案
 
+* [Budibase/budibase](https://github.com/Budibase/budibase) 用于在几分钟内创建内部工具、工作流和管理面板的低代码平台。支持 PostgreSQL、MySQL、MSSQL、MongoDB、Rest API、Docker、K8s 等
+
+* [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) 用于构建业务应用程序的可扩展低代码框架。连接到数据库、云存储、GraphQL、API 端点、Airtable 等，并使用拖放式应用程序构建器构建应用程序。使用 JavaScript/TypeScript 构建。
+
+* [node-red/node-red](https://github.com/node-red/node-red) 事件驱动应用程序的低代码编程
+
+* [Tencent/APIJSON](https://github.com/Tencent/APIJSON) 零代码、全功能、强安全 ORM 库 🚀 后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构。
+
+* [baidu/amis](https://github.com/baidu/amis) 前端低代码框架，通过 JSON 配置就能生成各种页面。
+
+* [taowen/awesome-lowcode](https://github.com/taowen/awesome-lowcode) 国内低代码平台从业者交流
+
+* [brick-design/brick-design](https://github.com/brick-design/brick-design) 低代码框架，支持流式布局与自由布局拖拽编排，可视化拖拽、随意嵌套组合、实时渲染、实时辅助线展示、自由布局支持辅助对齐、支持自动吸附、实时组件间距展示、实时拖拽排序、状态域管理，可视化属性配置、可视化样式配置、多设备适配展示，支持逻辑渲染、模板字符变量、表达式、自定义方法、自定义状态
+
+* [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) 用于构建、部署和维护内部应用程序的开源平台。您可以构建任何东西，从简单的 CRUD 应用程序、管理面板、仪表板到自定义业务应用程序和复杂的多步骤工作流。
+
+* [alibaba/lowcode-engine](https://github.com/alibaba/lowcode-engine) 一套面向扩展设计的企业级低代码技术体系
+
+* [jeecgboot/jeecg-boo](https://github.com/jeecgboot/jeecg-boot) 「企业级低代码平台」前后端分离架构SpringBoot，SpringCloud，Ant Design&Vue，Mybatis，Shiro，JWT。强大的代码生成器让前后端代码一键生成，无需写任何代码。
+
+* [apitable/apitable](https://github.com/apitable/apitable) 面向 API 的低代码平台，用于构建协作应用程序，比所有其他 Airtable 开源替代品都要好。
+
+* [refinedev/refine](https://github.com/refinedev/refine) 不受限制地构建基于 React 的 CRUD 应用程序。
+
+* [GrapesJS/grapesjs](https://github.com/GrapesJS/grapesjs) 无需编码即可构建模板的下一代Web 构建器框架。
+
+* [baidu/amis](https://github.com/baidu/amis) 前端低代码框架，通过 JSON 配置就能生成各种页面。
+
+* [ directus/directus](https://github.com/directus/directus) 即时 REST+GraphQL API 和直观的无代码数据协作应用程序，适用于任何 SQL 数据库。
+
+* [nocodb/nocodb](https://github.com/nocodb/nocodb) 开源 Airtable 替代方案 将任何 MySQL、PostgreSQL、SQL Server、SQLite 和 MariaDB 变成智能电子表格。
+
+* [givanz/VvvebJs](https://github.com/givanz/VvvebJs) 拖放构建网站的javascript 库 。
+
 * [n8n-io/n8n](https://github.com/n8n-io/n8n) 免费和源代码可用的公平代码许可的工作流自动化工具。跨不同服务轻松自动执行任务。
+
+* [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) 一次编写组件，到处运行。编译为 React、Vue、Qwik、Solid、Angular、Svelte 等
 
 * [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。
 
@@ -5268,6 +5399,40 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [freembook.com](https://freembook.com/) 书籍查询网页，可查询：书号 书名 SS号 DX号
 
 * [Davy-Zhou/zip2pdf](https://github.com/Davy-Zhou/zip2pdf) 基于Python自动化解压压缩包成PDG，PDG合成PDF 
+
+* [sharkdp/bat](https://github.com/sharkdp/bat) 一只长着翅膀的 cat(1) 命令的克隆体。功能:语法高亮、显示不可打印的字符、文件串联。
+
+* [starship/starship](https://github.com/starship/starship) 适用于任何 shell 的最小、极快且可无限自定义的提示符
+
+* [rust-lang/rust](https://github.com/rust-lang/rust) rust使每个人都能构建可靠、高效的软件。Rust 的主要源代码存储库。它包含编译器、标准库和文档。
+
+* [rust-lang/rustlings](https://github.com/rust-lang/rustlings) 小练习，让你习惯阅读和编写 Rust 代码
+
+* [yewstack/yew](https://github.com/yewstack/yew) 用于构建客户端 Web 应用程序的 Rust / Wasm 框架
+
+* [swc-project/swc](https://github.com/swc-project/swc) 用 Rust 编写的超快 TypeScript / JavaScript 编译器。它同时是 Rust 和 JavaScript 的库。
+
+* [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) Rust 代码和资源的精选列表。
+
+* [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) 所有算法都在 Rust 中实现
+
+* [sger/RustBooks](https://github.com/sger/RustBooks) Rust 书籍列表
+
+* [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) 用 Rust 编写并与上游 Bitwarden 客户端兼容的 服务器 API 的替代实现，非常适合运行官方资源密集型服务可能不理想的自托管部署。Bitwarden是一款自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息。
+
+* [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) 在尊重您的 gitignore 的同时递归地搜索目录以查找正则表达式模式,优势速度快。
+
+* [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) 一个闪电般快速的搜索引擎，可以毫不费力地融入您的应用程序、网站和工作流程。
+
+* [sharkdp/fd](https://github.com/sharkdp/fd) “find”查找的简单、快速和用户友好的替代方法
+
+* [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) 从文本生成流程图或序列图等图表
+
+* [ansible/ansible](https://github.com/ansible/ansible) 一个极其简单的 IT 自动化平台，可让您的应用程序和系统更易于部署和维护。自动化从代码部署到网络配置再到云管理的一切，使用接近简单英语的语言，使用 SSH，无需在远程系统上安装代理。
+
+* [home-assistant/core](https://github.com/home-assistant/core) 将本地控制和隐私放在首位的开源家庭自动化。
+
+* [godotengine/godot](https://github.com/godotengine/godot) 一个功能丰富的跨平台游戏引擎，用于从统一界面创建 2D 和 3D 游戏。它提供了一套完善的常用工具，让用户可以专注于制作游戏，而无需重新发明轮子。游戏可以一键导出到多个平台，包括主要的桌面平台（Linux、macOS、Windows）、移动平台（Android、iOS），以及基于 Web 的平台和控制台。
 
 # Star数变化
 
