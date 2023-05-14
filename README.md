@@ -4933,6 +4933,93 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 # 其他项目
 
+## Python
+
+* [jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn) Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等
+
+* [rasbt/python_reference](https://github.com/rasbt/python_reference/) 有用的函数、教程和其他 Python 相关的东西
+
+* [Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) 100 多个具有挑战性的 Python 编程练习
+
+* [MTrajK/coding-problems](https://github.com/MTrajK/coding-problems/) 各种编码/算法问题的解决方案以及许多用于学习算法和数据结构的python资源
+
+* [vinta/awesome-python](https://github.com/vinta/awesome-python) 很棒的 Python 框架、库、软件和资源的精选列表
+
+* [joaoventura/full-speed-python](https://github.com/joaoventura/full-speed-python) 全速 Python：一本面向自学者的书
+
+* [trekhleb/learn-python](https://github.com/trekhleb/learn-python) 用于学习 Python 的游乐场和备忘单。Python 脚本的集合，按主题拆分并包含带有解释的代码示例
+
+* [jerry-git/learn-python3](https://github.com/jerry-git/learn-python3) 用于教学/学习 Python 3 的 Jupyter 笔记本
+
+* [microsoft/playwright-python](https://github.com/microsoft/playwright-python) 针对 Python 语言的纯自动化工具，它可以通过单个API自动执行 Chromium，Firefox 和 WebKit 浏览器，连代码都不用写，就能实现自动化功能。
+
+* [hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui) 一个针对Python的快速而强大的图形用户界面工具包，具有最小的依赖性
+
+* [emeryberger/scalene](https://github.com/emeryberger/scalene) 适用于Python的高性能，高精度CPU和内存分析器.用于Python脚本的CPU和内存分析器，能够正确处理多线程代码，还能区分Python代码和本机代码的运行时间。
+
+* [bloomberg/memray](https://github.com/bloomberg/memray) Memray 是 Python 的内存分析器。它可以跟踪 Python 代码、本机扩展模块和 Python 解释器本身中的内存分配。它可以生成几种不同类型的报告来帮助您分析捕获的内存使用数据。虽然通常用作 CLI 工具，但它也可以用作库来执行更细粒度的分析任务。
+
+* [joerick/pyinstrument](https://github.com/joerick/pyinstrument) Python的调用堆栈分析器。向您展示为什么您的代码很慢！
+
+* [psf/black](https://github.com/psf/black) 毫不妥协的 Python 代码格式化程序
+
+## flutter
+
+* [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn)  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
+
+* [osoutpost/awesome-flutter-cn](https://github.com/osoutpost/awesome-flutter-cn) Flutter 资源大全中文版。包括：组件、导航、模板、插件、框架和引擎等
+
+* [CarGuo/gsy_github_app_flutter](https://github.com/CarGuo/gsy_github_app_flutter) Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。
+
+* [mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates) 最佳 Flutter-UI 模板
+
+* [xujiyou/zhihu-flutter](https://github.com/xujiyou/zhihu-flutter)  Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
+
+* [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) 包含了最好的 Flutter 库、工具、教程、文章等。
+
+* [running-libo/Tiktok](https://github.com/running-libo/Tiktok) 高仿抖音APP
+
+* [wenmingvs/WeiBo](https://github.com/wenmingvs/WeiBo) 第三方新浪微博客户端
+
+* [sanfengliao/vue-juejin](https://github.com/sanfengliao/vue-juejin) vue仿掘金app客户端开发web版掘金app
+
+* [chaychan/TouTiao](https://github.com/chaychan/TouTiao) 精仿今日头条
+
+* [tbl00c/TLChat](https://github.com/tbl00c/TLChat) 高仿微信，iOS代码重构。此版本TLChat基于TLKit、 ZZFLEX实现
+
+* [zwStar/vue-meituan](https://github.com/zwStar/vue-meituan) vue+node+mongodb仿美团外卖点餐系统带支付功能
+
+* [yukilzw/dy_flutter](https://github.com/yukilzw/dy_flutter) 斗鱼直播APP 多元化Flutter开源项目。涵盖礼物特效、手势动画、弹幕池、抽奖、鱼吧等（另提供服务端Mock接口）
+
+* [boyan01/flutter-netease-music](https://github.com/boyan01/flutter-netease-music) 仿网易云音乐
+
+* [xujiyou/zhihu-flutter](https://github.com/xujiyou/zhihu-flutter) Flutter 高仿知乎 UI，非常漂亮，也非常流畅。
+
+* [nisrulz/flutter-examples](https://github.com/nisrulz/flutter-examples) 给初露头角的flutter开发者的简单基本的应用程序示例。
+
+* [fluttercandies/wechat_flutter](https://github.com/fluttercandies/wechat_flutter) Flutter版本微信，一个优秀的Flutter即时通讯IM开源库
+
+* [simplezhli/flutter_deer](https://github.com/simplezhli/flutter_deer) Flutter 练习项目(包括集成测试、可访问性测试)。内含完整UI设计图，更贴近真实项目的练习。
+
+* [Sangwan5688/BlackHole](https://github.com/Sangwan5688/BlackHole) 满足您所有需求的开源音乐播放器应用程序！Flutter
+
+* [AweiLoveAndroid/Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning) Flutter安装和配置，Flutter开发遇到的难题，Flutter示例代码和模板，Flutter项目实战，Dart语言学习示例代码。
+
+* [CoderMikeHe/flutter_wechat](https://github.com/CoderMikeHe/flutter_wechat) 利用 Flutter 来高仿微信(WeChat) 7.0.0+ App
+
+* [youxinLu/flutter_mall](https://github.com/youxinLu/flutter_mall) 一款Flutter开源在线商城应用程序
+
+* [ducafecat/flutter_learn_news](https://github.com/ducafecat/flutter_learn_news) flutter实战学习-新闻客户端 
+
+* [freestyletime/FlutterNews](https://github.com/freestyletime/FlutterNews) 用Flutter写的新闻类小项目 
+
+* [imaNNeoFighT/fl_chart](https://github.com/imaNNeoFighT/fl_chart) FL Chart 是高度可定制的 Flutter 图表库，支持折线图、条形图、饼图、散点图和雷达图。
+
+* [TheAlphamerc/flutter_twitter_clone](https://github.com/TheAlphamerc/flutter_twitter_clone) 使用 Firebase 实时数据库和存储在 flutter 框架中构建的全功能 Twitter 克隆
+
+
+## 其他
+
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
 
 * [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
@@ -4957,8 +5044,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) 令人敬畏的 CS 课程，这些课程提供高质量的材料，即免费在线提供作业、讲座、笔记、阅读材料和考试。
 
-* [vinta/awesome-python](https://github.com/vinta/awesome-python) 很棒的 Python 框架、库、软件和资源的精选列表
-
 * [akullpp/awesome-java](https://github.com/akullpp/awesome-java) Java 编程语言的优秀框架、库和软件的精选列表。
 
 * [sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript) 很棒的浏览器端 JavaScript 库、资源。
@@ -4975,23 +5060,11 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) 很棒的命令行框架、工具包、指南和小玩意的精选列表。
 
-* [MTrajK/coding-problems](https://github.com/MTrajK/coding-problems/) 各种编码/算法问题的解决方案以及许多用于学习算法和数据结构的python资源
-
 * [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) 一系列应用创意，可用于提高您的编码技能。
 
 * [leonardomso/33-js-concepts:](https://github.com/leonardomso/33-js-concepts) 每个开发人员都应该知道的 33 个 JavaScript 概念。
 
 * [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) Linux命令大全搜索，包含手册、详解、学习、搜集。
-
-* [Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) 100 多个具有挑战性的 Python 编程练习
-
-* [rasbt/python_reference](https://github.com/rasbt/python_reference/) 有用的函数、教程和其他 Python 相关的东西
-
-* [joaoventura/full-speed-python](https://github.com/joaoventura/full-speed-python) 全速 Python：一本面向自学者的书
-
-* [trekhleb/learn-python](https://github.com/trekhleb/learn-python) 用于学习 Python 的游乐场和备忘单。Python 脚本的集合，按主题拆分并包含带有解释的代码示例。
-
-* [jerry-git/learn-python3](https://github.com/jerry-git/learn-python3) 用于教学/学习 Python 3 的 Jupyter 笔记本
 
 * [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) 一个交互式编译器探索网站。在
    C、C++、C#、F#、Rust、Go、D、Haskell、Swift、Pascal、ispc、Python、Java 或任何其他 30 多种支持的语言中编辑代码，并查看代码在实际编译后的样子时间。每种语言都支持多个编译器，可以使用许多不同的工具和可视化，并且 UI 布局是可配置
@@ -5096,57 +5169,19 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [willmcgugan/rich](https://github.com/willmcgugan/rich) 一个终端内富文本和美化的python库。
 
-* [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn)  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
-
-* [osoutpost/awesome-flutter-cn](https://github.com/osoutpost/awesome-flutter-cn) Flutter 资源大全中文版。包括：组件、导航、模板、插件、框架和引擎等
-
-* [CarGuo/gsy_github_app_flutter](https://github.com/CarGuo/gsy_github_app_flutter) Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。
-
-* [mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates) 最佳 Flutter-UI 模板
-
-* [xujiyou/zhihu-flutter](https://github.com/xujiyou/zhihu-flutter)  Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
-
-* [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) 包含了最好的 Flutter 库、工具、教程、文章等。
-
-* [running-libo/Tiktok](https://github.com/running-libo/Tiktok) 高仿抖音APP
-
-* [wenmingvs/WeiBo](https://github.com/wenmingvs/WeiBo) 第三方新浪微博客户端
-
-* [sanfengliao/vue-juejin](https://github.com/sanfengliao/vue-juejin) vue仿掘金app客户端开发web版掘金app
-
-* [chaychan/TouTiao](https://github.com/chaychan/TouTiao) 精仿今日头条
-
-* [tbl00c/TLChat](https://github.com/tbl00c/TLChat) 高仿微信，iOS代码重构。此版本TLChat基于TLKit、 ZZFLEX实现
-
-* [zwStar/vue-meituan](https://github.com/zwStar/vue-meituan) vue+node+mongodb仿美团外卖点餐系统带支付功能
-
-* [yukilzw/dy_flutter](https://github.com/yukilzw/dy_flutter) 斗鱼直播APP 多元化Flutter开源项目。涵盖礼物特效、手势动画、弹幕池、抽奖、鱼吧等（另提供服务端Mock接口）
-
-* [boyan01/flutter-netease-music](https://github.com/boyan01/flutter-netease-music) 仿网易云音乐
-
 * [dxx/react-bilibili](https://github.com/dxx/react-bilibili) 高仿B站web移动端
-
-* [xujiyou/zhihu-flutter](https://github.com/xujiyou/zhihu-flutter) Flutter 高仿知乎 UI，非常漂亮，也非常流畅。
-
-* https://github.com/nisrulz/flutter-examples 给初露头角的flutter开发者的简单基本的应用程序示例。
 
 * [alyssaxuu/flowy](https://github.com/alyssaxuu/flowy) 创建具有流程图功能的 WebApps 成为一项极其简单的任务。 通过将库实施到您的项目中，在几分钟内构建自动化软件、思维导图工具或简单的编程平台。
 
-* https://github.com/microsoft/playwright-python 针对 Python 语言的纯自动化工具，它可以通过单个API自动执行 Chromium，Firefox 和 WebKit 浏览器，连代码都不用写，就能实现自动化功能。
+* [raysan5/raylib](https://github.com/raysan5/raylib) 一个简单易用的视频游戏编程库 
 
-* https://github.com/hoffstadt/DearPyGui 一个针对Python的快速而强大的图形用户界面工具包，具有最小的依赖性
-
-* https://github.com/emeryberger/scalene 适用于Python的高性能，高精度CPU和内存分析器.用于Python脚本的CPU和内存分析器，能够正确处理多线程代码，还能区分Python代码和本机代码的运行时间。
-
-* https://github.com/raysan5/raylib 一个简单易用的视频游戏编程库 
-
-* https://github.com/rwv/chinese-dos-games 中文 DOS 游戏
+* [rwv/chinese-dos-games](https://github.com/rwv/chinese-dos-games) 中文 DOS 游戏
 
 * [nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic) 解锁网易云音乐客户端变灰歌曲
 
-* https://github.com/fffaraz/awesome-cpp A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+* [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 
-* https://github.com/Genymobile/scrcpy 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
+* [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
 
 * [opensumi/core](https://github.com/opensumi/core) 帮助您快速构建云或桌面 IDE 产品。
 
@@ -5162,41 +5197,19 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [tangtangcoding/C-C-](https://github.com/tangtangcoding/C-C-) C语言电子书与视频资料分享
 
-* [fluttercandies/wechat_flutter](https://github.com/fluttercandies/wechat_flutter) Flutter版本微信，一个优秀的Flutter即时通讯IM开源库
-
-* [simplezhli/flutter_deer](https://github.com/simplezhli/flutter_deer) Flutter 练习项目(包括集成测试、可访问性测试)。内含完整UI设计图，更贴近真实项目的练习。
-- [Sangwan5688/BlackHole](https://github.com/Sangwan5688/BlackHole) 满足您所有需求的开源音乐播放器应用程序！Flutter
-
-- [AweiLoveAndroid/Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning) Flutter安装和配置，Flutter开发遇到的难题，Flutter示例代码和模板，Flutter项目实战，Dart语言学习示例代码。
-* [CoderMikeHe/flutter_wechat](https://github.com/CoderMikeHe/flutter_wechat) 利用 Flutter 来高仿微信(WeChat) 7.0.0+ App
-
-* https://github.com/youxinLu/flutter_mall 一款Flutter开源在线商城应用程序
-
-* https://github.com/ducafecat/flutter_learn_news  flutter实战学习-新闻客户端 
-
-* https://github.com/freestyletime/FlutterNews  用Flutter写的新闻类小项目 
-
-* [imaNNeoFighT/fl_chart](https://github.com/imaNNeoFighT/fl_chart) FL Chart 是高度可定制的 Flutter 图表库，支持折线图、条形图、饼图、散点图和雷达图。
-
-* [TheAlphamerc/flutter_twitter_clone](https://github.com/TheAlphamerc/flutter_twitter_clone) 使用 Firebase 实时数据库和存储在 flutter 框架中构建的全功能 Twitter 克隆
-
-* https://github.com/linyacool/WebServer C++11编写的Web服务器
+* [linyacool/WebServer](https://github.com/linyacool/WebServer) C++11编写的Web服务器
 
 * [jupyter-xeus/xeus-cling](https://github.com/jupyter-xeus/xeus-cling) 用于 C++ 编程语言的 Jupyter 内核
 
-* https://github.com/sanic-org/sanic 异步 Python 3.7+ web 框架 
+* [sanic-org/sanic](https://github.com/sanic-org/sanic) 异步 Python 3.7+ web 框架 
 
-* https://github.com/davidbrochart/nbterm 在终端中查看、编辑、执行Jupyter笔记。
+* [davidbrochart/nbterm](https://github.com/davidbrochart/nbterm) 在终端中查看、编辑、执行Jupyter笔记。
 
-* https://github.com/SocialSisterYi/bilibili-API-collect  哔哩哔哩-API收集整理
-
-* [jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn) Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等
+* [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) 哔哩哔哩-API收集整理
 
 * [saghul/txiki.js](https://github.com/saghul/txiki.js) 使用 QuickJS、libuv 构建的微型 JavaScript 运行时
 
-* [bloomberg/memray](https://github.com/bloomberg/memray) Memray 是 Python 的内存分析器。它可以跟踪 Python 代码、本机扩展模块和 Python 解释器本身中的内存分配。它可以生成几种不同类型的报告来帮助您分析捕获的内存使用数据。虽然通常用作 CLI 工具，但它也可以用作库来执行更细粒度的分析任务。
-
-* https://github.com/dblalock/bolt 矩阵和向量运算速度提高 10 倍
+* [dblalock/bolt](https://github.com/dblalock/bolt) 矩阵和向量运算速度提高 10 倍
 
 * [TheZoraiz/ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) 将图像转换为 ascii 艺术并在控制台上打印它们。
 
@@ -5222,8 +5235,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [ptitSeb/box64](https://github.com/ptitSeb/box64/) Box64  Linux 用户空间 x86_64 仿真器，针对 ARM64 Linux 设备
 
-* [joerick/pyinstrument](https://github.com/joerick/pyinstrument) Python的调用堆栈分析器。向您展示为什么您的代码很慢！
-
 * [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) 基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。
 
 * [EastWorld/wechat-app-mall](https://github.com/EastWorld/wechat-app-mall) 微信小程序商城，微信小程序微店
@@ -5243,8 +5254,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [sunface/rust-course](https://github.com/sunface/rust-course)   “连续六年成为全世界最受喜爱的语言，无GC也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS未来基石" 。Rust语言圣经拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内。这可能是目前最用心的Rust中文学习教程/书籍
 
 * [Textualize/textual](https://github.com/Textualize/textual) 受现代Web开发启发的 Python 的 TUI（文本用户界面）框架。
-
-* [psf/black](https://github.com/psf/black) 毫不妥协的 Python 代码格式化程序 
 
 * [clouddreamteam_admin/cloud-dream](https://gitee.com/clouddreamteam_admin/cloud-dream) 微信小程序—餐饮点餐商城，是针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！
 
