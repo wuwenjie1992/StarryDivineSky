@@ -41,7 +41,7 @@
 - [虚拟化](#虚拟化)
 - [安全与渗透](#安全与渗透)
 - [硬件](#硬件)
-- [网络与前端开发](#网络与前端开发)
+- [网络与前后端开发](#网络与前后端开发)
 - [其他项目](#其他项目)
 
 # 机器学习与深度学习
@@ -61,6 +61,8 @@
 * [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)  在 YouTube 上发现最新的机器学习/人工智能课程。
 
 * [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) 机器学习操作 (MLOps)，可自动执行并加速机器学习生命周期。精选的参考文献列表。
+
+* [ShusenTang/Dive-into-DL-PyTorch](https://github.com/ShusenTang/Dive-into-DL-PyTorch) 本项目将《动手学深度学习》(Dive into Deep Learning)原书中的MXNet实现改为PyTorch实现。
 
 * [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南
 
@@ -898,13 +900,15 @@
 
 * [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) 逆向工程 ChatGPT 的API
 
-* [ddiu8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo) 一个基于 OpenAI GPT-3.5 Turbo API 的 demo。
+* [ddiu8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo) 基于 OpenAI GPT-3.5 Turbo API 的 demo。
 
 * [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) 基于聊天的助理，它理解任务，可以与第三方系统互动，并能动态地检索信息。将提供基于RLHF的大型语言模型，并公开训练数据。
 
 * [acheong08/EdgeGPT](https://github.com/acheong08/EdgeGPT) 微软必应聊天的逆向工程API
 
 * [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) 使用GPT3/4来自动完成任务。一个 AI 支持的任务管理系统示例. 该系统使用 OpenAI 和 Pinecone API 创建, 优先级排序和执行任务. 该系统背后的主要思想是基于先前任务的结果和预定义的目标创建任务. 脚本然后使用 OpenAI 的自然语言处理（NLP）能力根据目标创建新任务, 并使用 Pinecone 存储和检索任务结果以获得上下文. 这是原始的[任务驱动的自驱代理](https://twitter.com/yoheinakajima/status/1640934493489070080?s=20)的简化版本.
+
+* [StanGirard/quivr](https://github.com/StanGirard/quivr) 将所有文件和想法转储到您的生成式AI（如chatgpt）的第二大脑中并与之聊天。旨在轻松存储和检索非结构化信息。
 
 * [transitive-bullshit/chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api) OpenAI提供的ChatGPT的Node.js包装器。
 
@@ -942,6 +946,10 @@
 
 * [liady/ChatGPT-pdf](https://github.com/liady/ChatGPT-pdf) 用于将 ChatGPT 历史下载为 PNG、PDF 或创建可共享链接的 Chrome 扩展
 
+* [imartinez/privateGPT](https://github.com/imartinez/privateGPT) 使用 LLM 的强大功能，无需互联网连接就可以对您的文档提出问题。 100% 私有，任何时候都没有数据离开您的执行环境。您可以在没有互联网连接的情况下提取文档和提问！
+
+* [xtekky/gpt4free](https://github.com/xtekky/gpt4free) 免费使用GPT4模型 [typescript版本](https://github.com/xiangsx/gpt4free-ts) 
+
 * [saharmor/awesome-chatgpt](https://github.com/saharmor/awesome-chatgpt) 精选的 ChatGPT 演示、工具、文章等
 
 * [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) 科研工作专用ChatGPT/GLM拓展，特别优化学术Paper润色体验，模块化设计支持自定义快捷按钮&函数插件，支持代码块表格显示，Tex公式双显示，新增Python和C++项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持gpt-3.5/gpt-4/chatglm
@@ -968,7 +976,47 @@
 
 * [LiLittleCat/awesome-free-chatgpt](https://github.com/LiLittleCat/awesome-free-chatgpt) 免费的 ChatGPT 镜像网站列表，持续更新。
 
-* [202252197/ChatGPT_JCM](https://github.com/202252197/ChatGPT_JCM) OpenAI管理界面，聚合了OpenAI的所有接口进行界面操作(所有模型、图片、音频、微调、文件)等，支持Markdown格式(公式、图表，表格)等
+* [yzfly/awesome-chatgpt-zh](https://github.com/yzfly/awesome-chatgpt-zh) ChatGPT 中文指南，ChatGPT 中文调教指南，指令指南，精选资源清单，更好的使用 chatGPT 让你的生产力
+
+* [terry3041/pyChatGPT](https://github.com/terry3041/pyChatGPT) OpenAI的ChatGPT API的非官方Python包装器
+
+* [platelminto/chatgpt-conversation](https://github.com/platelminto/chatgpt-conversation) 用你的声音与 ChatGPT 对话，让它回话。
+
+* [202252197/ChatGPT_JCM](https://github.com/202252197/ChatGPT_JCM) OpenAI管理界面，聚合OpenAI的所有接口进行界面操作(所有模型、图片、音频、微调、文件)等，支持Markdown格式(公式、图表，表格)等
+
+* [memochou1993/gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) 使用 OpenAI API 和 LINE 消息传递 API 实现的应用程序。通过安装过程，您可以使用LINE移动应用程序开始与自己的AI助手聊天。
+
+* [cesarhuret/docGPT](https://github.com/cesarhuret/docGPT) ChatGPT 直接在 Google Docs 中作为编辑器的插件
+
+* [ConnectAI-E/Feishu-OpenAI](https://github.com/ConnectAI-E/Feishu-OpenAI) 飞书 ×（GPT-3.5 + DALL·E + Whisper）= 飞一般的工作体验 rocket 语音对话、角色扮演、多话题讨论、图片创作、表格分析、文档导出
+
+* [terror/chatgpt.nvim](https://github.com/terror/chatgpt.nvim) 在 Neovim 中查询 ChatGPT
+
+* [clmnin/summarize.site](https://github.com/clmnin/summarize.site) 浏览器扩展使用ChatGPT总结网页内容
+
+* [shobrook/stackexplain](https://github.com/shobrook/stackexplain) 用 ChatGPT 解释您编程中的错误消息
+
+* [Zero6992/chatGPT-discord-bot](https://github.com/Zero6992/chatGPT-discord-bot) 将 ChatGPT 集成到您自己的discord机器人中
+
+* [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) 运行您自己的 GPTChat 电报机器人，只需一个命令
+
+* [transitive-bullshit/chatgpt-twitter-bot](https://github.com/transitive-bullshit/chatgpt-twitter-bot) OpenAI的ChatGPT API支持的Twitter机器人
+
+* [kxxt/chatgpt-action](https://github.com/kxxt/chatgpt-action) 让 ChatGPT 为您审查 PR 拉取请求
+
+* [RomanHotsiy/commitgpt](https://github.com/RomanHotsiy/commitgpt) 使用 ChatGPT 自动生成git提交消息
+
+* [oceanlvr/ChatGPT-ProBot](https://github.com/oceanlvr/ChatGPT-ProBot) 基于 ChatGPT 的 GitHub APP，键入 /chatgpt 与机器人 robot 聊天。
+
+* [kazuki-sf/ChatGPT_Extension](https://github.com/kazuki-sf/ChatGPT_Extension) 非常简单的Chrome扩展（v3），您可以从网络上的任何地方访问OpenAI的ChatGPT。
+
+* [abielzulio/chatgpt-raycast](https://github.com/abielzulio/chatgpt-raycast) ChatGPT raycast(Mac的快捷启动器) 扩展 
+
+* [bupticybee/ChineseAiDungeonChatGPT](https://github.com/bupticybee/ChineseAiDungeonChatGPT)  中文版的ai地牢，直接使用的openai的ChatGPT api作为讲故事的模型。
+
+* [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) 轻松与您的朋友分享 ChatGPT 对话的永久链接
+
+* [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) 一键拥有你自己的 ChatGPT 网页服务。
 
 ### 文本生成、文本对话
 
@@ -1606,6 +1654,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 * [YuyangZhangFTD/awesome-RecSys-papers](https://github.com/YuyangZhangFTD/awesome-RecSys-papers) 推荐系统中的经典论文
 
 * [ChenglongChen/tensorflow-DeepFM](https://github.com/ChenglongChen/tensorflow-DeepFM) 
+
+* [twitter/the-algorithm](https://github.com/twitter/the-algorithm) Twitter 的推荐算法是一组服务和作业，负责在所有 Twitter 产品表面（例如，为你时间线、搜索、探索）提供推文和其他内容的提要。有关算法工作原理的介绍，请参阅我们的工程博客。
 
 * [alibaba/DeepRec](https://github.com/alibaba/DeepRec) 基于 TensorFlow 的推荐引擎。具有超大规模分布式训练能力，支持万亿样本的模型训练和千亿的Embedding Processing。针对稀疏模型场景，在CPU和GPU平台上进行了深度的性能优化。
 
@@ -2440,6 +2490,8 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 
 [Moguri/awesome-panda3d](https://github.com/Moguri/awesome-panda3d) 使用Panda3D（python 3D库）的优秀资源的精选列表
 
+[photoprism/photoprism](https://github.com/photoprism/photoprism) 基于人工智能的去中心化网络照片应用程序。它利用最新技术自动标记和查找图片，而不会妨碍您。您可以在家中、私人服务器或云端运行它。
+
 # 因果推断
 
 [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -2902,6 +2954,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 ## 语音识别与合成_其他
 
 [TencentGameMate/chinese_speech_pretrain](https://github.com/TencentGameMate/chinese_speech_pretrain) WenetSpeech train_l 集的 1 万小时中文数据作为无监督预训练数据。数据主要来源于 YouTube 和 Podcast，覆盖了各种类型录制场景、背景噪声、说话方式等，其领域主要包括有声书、解说、纪录片、电视剧、访谈、新闻、朗读、演讲、综艺和其他等10大场景。
+
+[AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) 理解和生成语音、音乐、声音和说话人头部动作。
 
 [deezer/spleeter](https://github.com/deezer/spleeter) 人声分离模型
 
@@ -4747,13 +4801,19 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [mit-han-lab/tiny-training](https://github.com/mit-han-lab/tiny-training) 256KB 内存下的设备上训练DNN
 
-# 网络与前端开发
+# 网络与前后端开发
 
 * [hoochanlon/NeiJuan](https://github.com/hoochanlon/NeiJuan) ChatGPT、Google产品等各类镜像与SS/V2/Clash/QuanX网络链，行业研究报告的知识储备库
+
+* [twbs/bootstrap](https://github.com/twbs/bootstrap) 最流行的 HTML、CSS 和 JavaScript 框架，用于在 Web 上开发响应式、移动优先的项目。
+
+* [supabase/supabase](https://github.com/supabase/supabase) 开源Firebase替代品。Firebase 是一家实时后端数据库创业公司，它能帮助开发者很快的写出 Web 端和移动端的应用。于 2014 年 Google 收购了 Firebase，之后把 Firebase 结合到 Google 云服务中。
 
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
 
 * [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
+
+* [swoole/swoole-src](https://github.com/swoole/swoole-src) 一个事件驱动、异步、基于协程的高性能并发库，适用于 PHP。
 
 * [axios/axios](https://github.com/axios/axios) 用于浏览器和 node.js 的基于 Promise 的 HTTP 客户端
 
@@ -4905,6 +4965,14 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [tauri-apps/tauri](https://github.com/tauri-apps/tauri) 使用 Web 前端构建更小、更快和更安全的桌面应用程序。
 
+* [codegangsta/gin](https://github.com/codegangsta/gin) Go Web 服务器的实时重新加载实用程序
+
+* [Tencent/weui](https://github.com/Tencent/weui) 微信官方设计团队的UI库，收录了移动Web应用中最实用的widgets modules。
+
+* [showdownjs/showdown](https://github.com/showdownjs/showdown) 用 Js 编写的双向 Markdown 到 HTML 到 Markdown 转换器
+
+* [snail007/goproxy](https://github.com/snail007/goproxy) golang实现的高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5017,7 +5085,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [TheAlphamerc/flutter_twitter_clone](https://github.com/TheAlphamerc/flutter_twitter_clone) 使用 Firebase 实时数据库和存储在 flutter 框架中构建的全功能 Twitter 克隆
 
-
 ## 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -5036,7 +5103,29 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [luong-komorebi/Awesome-Linux-Software ](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md) 收集了对任何用户/开发者都觉得超赞的 Linux 应用软件。
 
+* [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) 带有视频讲座的计算机科学课程列表。
+
+* [ForrestKnight/open-source-cs](https://github.com/ForrestKnight/open-source-cs) 来自麻省理工学院、斯坦福和普林斯顿等知名大学的精选免费课程列表，与本科计算机科学学位相同的要求，减去通识教育。
+
+* [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
+
+* [charlax/professional-programming](https://github.com/charlax/professional-programming) 程序员的全栈资源集合。
+
+* [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) 来自计算机科学界的论文可供阅读和讨论。
+
+* [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm) 共 60 多篇原创文章，都是基于 LeetCode 的题目，涵盖了所有题型和技巧，而且一定要做到举一反三，通俗易懂，绝不是简单的代码堆砌，后面有目录。
+
+* [azl397985856/leetcode](https://github.com/azl397985856/leetcode) leetcode题解，记录自己的leetcode解题之路。
+
+* [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
+
+* [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)  用 Ja​​vaScript 实现的算法和数据结构，带有解释和进一步阅读的链接
+
 * [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)  交互式路线图、指南和其他教育内容，以帮助开发人员在他们的职业生涯中成长。包括：前端、后端、开发运营、计算机科学、质量检查、软件架构师、软件设计和架构路、JavaScript、TypeScript、React、Vue 、Angular、Node.js、GraphQL、安卓、Flutter、Python、Go、Java、Spring Boot、设计系统、DBA、区块链、ASP.NET、系统设计、Kubernetes
+
+* [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) 对设计模式的超简化解释
+
+* [google/styleguide](https://github.com/google/styleguide)  谷歌风格指南 每个主要的开源项目都有自己的风格指南：一组关于如何为该项目编写代码的约定（有时是任意的）。当其中的所有代码都采用一致的风格时，理解大型代码库会容易得多。
 
 * [electron/electron](https://github.com/electron/electron)使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
 
