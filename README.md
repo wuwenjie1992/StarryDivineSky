@@ -958,6 +958,8 @@
 
 * [nishiwen1214/ChatReviewer](https://github.com/nishiwen1214/ChatReviewer) 使用ChatGPT分析论文优缺点，提出改进建议
 
+* [bhaskatripathi/pdfGPT](https://github.com/bhaskatripathi/pdfGPT) 允许您使用 GPT 功能与 PDF 文件的内容聊天。在聊天机器人中转换您的 pdf 文件的唯一开源解决方案
+
 * [kaixindelele/ChatPaper](https://github.com/kaixindelele/ChatPaper) 全流程加速科研，利用chatgpt进行论文总结+润色+审稿+审稿回复
 
 * [eimenhmdt/autoresearcher](https://github.com/eimenhmdt/autoresearcher) 使用 GPT 自动化科学工作流程 
@@ -1017,6 +1019,30 @@
 * [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) 轻松与您的朋友分享 ChatGPT 对话的永久链接
 
 * [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) 一键拥有你自己的 ChatGPT 网页服务。
+
+* [pengzhile/pandora](https://github.com/pengzhile/pandora) 实现了网页版 ChatGPT 的主要操作。后端优化，绕过 Cloudflare，速度喜人。
+
+* [elyase/awesome-gpt3](https://github.com/elyase/awesome-gpt3) 关于 OpenAI GPT-3 API 的演示和文章的集合。
+
+* [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) 提示工程是一门相对较新的学科，用于开发和优化提示以有效地将语言模型 (LM) 用于各种应用程序和研究主题。即时的工程技能有助于更好地理解大型语言模型 (LLM) 的功能和局限性。研究人员使用提示工程来提高 LLM 在广泛的常见和复杂任务（例如问题回答和算术推理）上的能力。开发人员使用提示工程来设计与 LLM 和其他工具交互的强大且有效的提示技术。
+
+* [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) 在浏览器中组装、配置和部署自治 AI 代理。为您自己的自定义 AI 命名，让它开始任何可以想象的目标。它将尝试通过思考要完成的任务、执行它们并从结果中学习来达到目标。
+
+* [openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin)  ChatGPT 检索插件可让您通过自然语言提问来轻松查找个人或工作文档。
+
+* [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox) 开源的 ChatGPT API (OpenAI API) 桌面客户端，Prompt 的调试与管理工具，支持 Windows、Mac 和 Linux
+
+* [openai/openai-cookbook](https://github.com/openai/openai-cookbook) 使用 OpenAI API 的示例和指南
+
+* [smol-ai/developer](https://github.com/smol-ai/developer) 随着Anthropic Claude的100k 上下文窗口的出现，现在每个开发人员都可以拥有自己的辅助开发助手
+
+* [e2b-dev/e2b](https://github.com/e2b-dev/e2b) 允​​许您创建和部署虚拟软件开发人员。这些虚拟开发人员由专门的 AI 代理提供支持，这些代理可以根据您的指令构建软件并可以使用工具。
+
+* [csunny/DB-GPT](https://github.com/csunny/DB-GPT) 使用本地 GPT 与您的数据和环境交互，无数据泄漏，100% 私密，100% 安全 目前支持Vicuna(7b, 13b), ChatGLM-6b(int4, int8)
+
+* [acheong08/Bard](https://github.com/acheong08/Bard) Google 的 Bard 聊天机器人 API 的逆向工程
+
+* [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) 将 Anthropic 的 Claude 模型的 API 转换为 OpenAI Chat API 格式。
 
 ### 文本生成、文本对话
 
@@ -1485,6 +1511,8 @@
 [CLUEbenchmark/FewCLUE](https://github.com/CLUEbenchmark/FewCLUE) FewCLUE 小样本学习测评基准，中文版 小样本学习（Few-shot Learning）正是解决这类在极少数据情况下的机器学习问题。结合预训练语言模型通用和强大的泛化能力基础上，探索小样本学习最佳模型和中文上的实践，是本课题的目标。FewCLUE：中文小样本学习测评基准，基于CLUE的积累和经验，并结合少样本学习的特点和近期的发展趋势，精心设计了该测评，希望可以促进中文领域上少样本学习领域更多的研究、应用和发展。模型有5种不同的方式做任务，分别是使用预训练模型直接做下游任务微调、PET\RoBERTa为基础的Ptuning方式、GPT类模型为基础的Ptuning方式、使用RoBERTa或GPT做零样本学习。
 
 [deepset-ai/haystack](https://github.com/deepset-ai/haystack) 开源的NLP框架，可以使用Transformer模型和LLM（GPT-3等）与数据交互。Haystack提供了生产就绪的工具来快速构建类似ChatGPT的问题回答、语义搜索、文本生成等。
+
+[logspace-ai/langflow](https://github.com/logspace-ai/langflow) LangChain（大语言模型链式开发工具，强大的框架，可以简化构建高级语言模型应用程序的过程。） 的 UI，采用反应流设计，提供一种轻松的方式来实验和原型流。
 
 [bojone/attention](https://github.com/bojone/attention)  Attention机制的实现tensorflow/keras
 
@@ -2919,6 +2947,10 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [jaywalnut310/vits](https://github.com/jaywalnut310/vits) 一种用于端到端文本语音转换的条件变分自编码器，它比现有的两阶段模型产生更自然的声音。该方法采用变分推理和归一化流以及对抗式训练过程，提高了生成式建模的表达能力。
 
+[svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) SoftVC VITS 歌声转换。这个项目与 Vits 有着根本的不同。 Vits 是 TTS，这个项目是 SVC。本项目不能进行TTS，Vits不能进行SVC，两种项目模型不通用。
+
+[voicepaw/so-vits-svc-fork](https://github.com/voicepaw/so-vits-svc-fork) so-vits-svc fork 歌唱语音转换 具有实时支持、改进的界面和更多功能。实时语音转换、更准确的音调估计、2x 更快的训练
+
 [JasonWei512/Tacotron-2-Chinese](https://github.com/JasonWei512/Tacotron-2-Chinese) 中文语音合成
 
 [TensorSpeech/TensorflowTTS](https://github.com/TensorSpeech/TensorflowTTS) Tensorflow 2的实时最新语音合成
@@ -2990,6 +3022,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [google/lyra](https://github.com/google/lyra) 高质量、低比特率的语音编解码器，在最慢网络上也能进行语音通信。 为此，它应用了传统的编解码器技术，同时利用机器学习 (ML) 的进步和经过数千小时数据训练的模型来创建一种压缩和传输语音信号的新方法。
 
 [mixxxdj/mixxx](https://github.com/mixxxdj/mixxx) 免费的 DJ 软件，可为您提供执行现场混音所需的一切。
+
+[QiuChenly/QQFlacMusicDownloader](https://github.com/QiuChenly/QQFlacMusicDownloader) [秋城落叶] QQ 音乐源无损歌曲下载
 
 # 生物医药
 
@@ -4807,6 +4841,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [twbs/bootstrap](https://github.com/twbs/bootstrap) 最流行的 HTML、CSS 和 JavaScript 框架，用于在 Web 上开发响应式、移动优先的项目。
 
+* [vercel/next.js](https://github.com/vercel/next.js) Next.js 被一些世界上最大的公司使用，能够通过最新的 React 扩展来创建全栈 Web 应用程序，并集成强大的基于 Rust 的 Js 工具以实现最快的构建。
+
 * [supabase/supabase](https://github.com/supabase/supabase) 开源Firebase替代品。Firebase 是一家实时后端数据库创业公司，它能帮助开发者很快的写出 Web 端和移动端的应用。于 2014 年 Google 收购了 Firebase，之后把 Firebase 结合到 Google 云服务中。
 
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
@@ -4969,9 +5005,19 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [Tencent/weui](https://github.com/Tencent/weui) 微信官方设计团队的UI库，收录了移动Web应用中最实用的widgets modules。
 
-* [showdownjs/showdown](https://github.com/showdownjs/showdown) 用 Js 编写的双向 Markdown 到 HTML 到 Markdown 转换器
+* [showdownjs/showdown](https://github.com/showdownjs/showdown)  Js 编写的双向 Markdown 到 HTML 到 Markdown 转换器
 
 * [snail007/goproxy](https://github.com/snail007/goproxy) golang实现的高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。
+
+* [vercel/swr](https://github.com/vercel/swr) 用于数据获取的 React Hooks 库。“SWR”来源于 stale-while-revalidate ，由HTTP RFC 5861推广的缓存失效策略。SWR先从缓存中返回数据（过时），然后发送请求（重新验证），最后再次附带最新数据。
+
+* [vercel/vercel](https://github.com/vercel/vercel) Vercel的前端云为开发人员提供了框架、工作流程和基础设施，以构建更快、更个性化的网络。面向前端开发人员的平台，提供创新者在灵感瞬间创建所需的速度和可靠性。
+
+* [vercel/micro](https://github.com/vercel/micro) 异步 HTTP 微服务.具有异步方法的简约微服务框架。
+
+* [shadcn/taxonomy](https://github.com/shadcn/taxonomy) 使用新路由器、服务器组件和 Next.js 13 中的所有新功能构建的开源应用程序。
+
+* [Cveinnt/LiveTerm](https://github.com/Cveinnt/LiveTerm) 在几分钟内构建终端风格的网站！
 
 ## 区块链
 
@@ -5004,6 +5050,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 ## Python
 
 * [jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn) Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等
+
+* [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python) 从头开始学习Python编程语言的课程，适合初学者。超过30节课，25小时视频，代码和群聊。从基础知识到创建有数据库的后端 API 等等......
 
 * [rasbt/python_reference](https://github.com/rasbt/python_reference/) 有用的函数、教程和其他 Python 相关的东西
 
@@ -5091,6 +5139,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
 
+* [public-apis/public-apis](https://github.com/public-apis/public-apis) 一个免费API的集合列表，可用于软件和Web开发
+
 * [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) 免费提供的编程书籍
 
 * [ossu/computer-science](https://github.com/ossu/computer-science) 计算机科学免费自学教育之路！
@@ -5119,7 +5169,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
 
-* [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)  用 Ja​​vaScript 实现的算法和数据结构，带有解释和进一步阅读的链接
+* [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)  用 JavaScript 实现的算法和数据结构，带有解释和进一步阅读的链接
 
 * [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)  交互式路线图、指南和其他教育内容，以帮助开发人员在他们的职业生涯中成长。包括：前端、后端、开发运营、计算机科学、质量检查、软件架构师、软件设计和架构路、JavaScript、TypeScript、React、Vue 、Angular、Node.js、GraphQL、安卓、Flutter、Python、Go、Java、Spring Boot、设计系统、DBA、区块链、ASP.NET、系统设计、Kubernetes
 
@@ -5134,6 +5184,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) 令人敬畏的 CS 课程，这些课程提供高质量的材料，即免费在线提供作业、讲座、笔记、阅读材料和考试。
 
 * [akullpp/awesome-java](https://github.com/akullpp/awesome-java) Java 编程语言的优秀框架、库和软件的精选列表。
+
+* [itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer) Java学习指南，内容涵盖Java基础、并发编程、虚拟机、企业级开发、面试等核心知识点。
 
 * [sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript) 很棒的浏览器端 JavaScript 库、资源。
 
@@ -5161,6 +5213,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) Notion 的开源替代品。您负责您的数据和定制。使用 Flutter 和 Rust 构建。
 
 * [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) 可以不止有 Notion 和 Miro。 AFFiNE 是下一代知识库，它将规划、分类和创建结合在一起。隐私至上、开源、可定制且随时可用。
+
+* [https://github.com/Reamd7/notion-zh_CN](https://github.com/Reamd7/notion-zh_CN) notion知识库的汉化脚本
 
 * [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) 思源是本地首创的个人知识管理系统，支持细粒度块级引用和Markdown所见即所得。
 
