@@ -27,7 +27,7 @@
 
 - [机器学习与深度学习](#机器学习与深度学习)
 - [NLP自然语言处理](#NLP自然语言处理)
-  * [🚀🚀🚀类chatgpt对话模型及数据](#类chatgpt对话模型及数据)
+  * [🚀🚀🚀类chatgpt大语言对话模型及数据](#类chatgpt大语言对话模型及数据)
 - [推荐系统](#推荐系统)
 - [机器视觉](#机器视觉)
 - [因果推断](#因果推断)
@@ -834,7 +834,7 @@
 
 ## 文本生成、文本对话
 
-### 类ChatGPT对话模型及数据
+### 类ChatGPT大语言对话模型及数据
 
 * [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT#auto-gpt-an-autonomous-gpt-4-experiment) 使用GPT4来自动完成目标任务。一个实验性开源应用程序，展示了 GPT-4 语言模型的功能。该程序由 GPT-4 驱动，将 LLM 的“思想”链接在一起，以自主实现您设定的任何目标。作为 GPT-4 完全自主运行的首批示例之一，Auto-GPT 突破了 AI 的可能性界限。
 
@@ -4285,6 +4285,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行、cli/web 工具等。
 
+* [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) 为黑客、渗透测试人员和安全研究人员收集的各种很棒的列表
+
 * [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
 
 * [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
@@ -4849,6 +4851,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
 
+* [django/django](https://github.com/django/django) 高级 Python Web 框架，它鼓励快速开发和干净、实用的设计。
+
 * [swoole/swoole-src](https://github.com/swoole/swoole-src) 一个事件驱动、异步、基于协程的高性能并发库，适用于 PHP。
 
 * [axios/axios](https://github.com/axios/axios) 用于浏览器和 node.js 的基于 Promise 的 HTTP 客户端
@@ -5019,9 +5023,17 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [Cveinnt/LiveTerm](https://github.com/Cveinnt/LiveTerm) 在几分钟内构建终端风格的网站！
 
+* [mrdoob/three.js](https://github.com/mrdoob/three.js) 易于使用、轻量级、跨浏览器的通用 3D 库。当前仅包含 WebGL 渲染器，但 WebGPU（实验性）、SVG 和 CSS3D 渲染器也可作为插件使用。
+
+* [animate-css/animate.css](https://github.com/animate-css/animate.css) 跨浏览器的 CSS 动画库。就像容易的事一样容易使用。
+
+* [juliangarnier/anime](https://github.com/juliangarnier/anime) 轻量级的 JavaScript 动画库，具有简单但功能强大的 API。
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
+
+* [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) 比特币核心代码功能的集成/暂存树
 
 * [imfly/bitcoin-on-nodejs](https://github.com/imfly/bitcoin-on-nodejs) 《Node.js区块链开发》
 
@@ -5137,17 +5149,27 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
 
+* [torvalds/linux](https://github.com/torvalds/linux) Linux内核源码树
+
 * [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
 
 * [public-apis/public-apis](https://github.com/public-apis/public-apis) 一个免费API的集合列表，可用于软件和Web开发
+
+* [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) 了解如何设计大型系统。准备系统设计面试。包括 Anki 抽认卡。
 
 * [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) 免费提供的编程书籍
 
 * [ossu/computer-science](https://github.com/ossu/computer-science) 计算机科学免费自学教育之路！
 
+* [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) 编程教程列表，有抱负的软件开发人员可以在其中学习如何从头开始构建应用程序。这些教程分为不同的主要编程语言。教程可能涉及多种技术和语言。
+
+* [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的计算机编程类中文书籍
+
 * [izackwu/TeachYourselfCS-CN](https://github.com/izackwu/TeachYourselfCS-CN) TeachYourselfCS 的中文翻译
 
 * [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 开源代码库和课程。免费学习编码。
+
+* [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) 用动画的形式呈现解LeetCode题目的思路
 
 * [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
 
@@ -5156,6 +5178,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) 带有视频讲座的计算机科学课程列表。
 
 * [ForrestKnight/open-source-cs](https://github.com/ForrestKnight/open-source-cs) 来自麻省理工学院、斯坦福和普林斯顿等知名大学的精选免费课程列表，与本科计算机科学学位相同的要求，减去通识教育。
+
+* [apple/swift](https://github.com/apple/swift) Swift 是一种高性能的系统编程语言。它具有简洁现代的语法，提供对现有 C 和 Objective-C 代码和框架的无缝访问，并且默认情况下是内存安全的。
+
+* [golang/go](https://github.com/golang/go) Go 是一种开源编程语言，可以轻松构建简单、可靠且高效的软件。
 
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
 
@@ -5208,7 +5234,9 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) Linux命令大全搜索，包含手册、详解、学习、搜集。
 
 * [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) 一个交互式编译器探索网站。在
-   C、C++、C#、F#、Rust、Go、D、Haskell、Swift、Pascal、ispc、Python、Java 或任何其他 30 多种支持的语言中编辑代码，并查看代码在实际编译后的样子时间。每种语言都支持多个编译器，可以使用许多不同的工具和可视化，并且 UI 布局是可配置
+   C、C++、C#、F#、Rust、Go、D、Haskell、Swift、Pascal、ispc、Python、Java 或其他 30 多种支持的语言中编辑代码，并查看代码在实际编译后的样子时间。每种语言都支持多个编译器，可以使用许多不同的工具和可视化，并且 UI 布局是可配置
+
+* [coder/code-server](https://github.com/coder/code-server) 浏览器中的 VS 代码编辑器
 
 * [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) Notion 的开源替代品。您负责您的数据和定制。使用 Flutter 和 Rust 构建。
 
@@ -5300,6 +5328,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [attractivechaos/klib](https://github.com/attractivechaos/klib) 独立的轻量级 C 库，在 MIT/X11 许可下分发。 大多数组件都独立于外部库，除了标准 C 库，并且彼此独立。Klib 致力于提高效率和减少内存占用。 就速度和内存使用而言，某些组件（如 khash.h、kbtree.h、ksort.h 和 kvec.h）是所有编程语言中类似算法或数据结构的最有效实现之一。
 
+* [3b1b/manim](https://github.com/3b1b/manim) 用于精确编程动画的引擎，专为创建解释性数学视频而设计。
+
 * [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy) Android实时显示控制软件
 
 * [bennettfeely/bennett](https://github.com/bennettfeely/bennett) ztext 易于实现的3D网页排版。适用于每种字体。
@@ -5361,6 +5391,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [dedupeio/dedupe](https://github.com/dedupeio/dedupe) 机器学习对结构化数据快速执行模糊匹配、去重和实体解析。
 
 * [lxgr-linux/pokete](https://github.com/lxgr-linux/pokete) 基于终端的口袋妖怪类游戏
+
+* [GDQuest/godot-open-rpg](https://github.com/GDQuest/godot-open-rpg/tree/main) 通过这个开源 RPG 演示学习创建回合制战斗游戏
 
 * [deepmind/mujoco](https://github.com/deepmind/mujoco) 多关节动力学与接触。通用物理模拟器。
 
@@ -5437,6 +5469,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [alacritty/alacritty](https://github.com/alacritty/alacritty) 一个跨平台的 OpenGL 终端模拟器。
 
 * [pmgl/microstudio](https://github.com/pmgl/microstudio) 免费、开源的在线游戏引擎 nodejs
+
+* [flareteam/flare-game](https://github.com/flareteam/flare-game) 使用 FLARE 引擎的奇幻动作角色扮演游戏
 
 * [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness)  精益副业：程序员如何优雅地做副业
 
@@ -5585,6 +5619,14 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [home-assistant/core](https://github.com/home-assistant/core) 将本地控制和隐私放在首位的开源家庭自动化。
 
 * [godotengine/godot](https://github.com/godotengine/godot) 一个功能丰富的跨平台游戏引擎，用于从统一界面创建 2D 和 3D 游戏。它提供了一套完善的常用工具，让用户可以专注于制作游戏，而无需重新发明轮子。游戏可以一键导出到多个平台，包括主要的桌面平台（Linux、macOS、Windows）、移动平台（Android、iOS），以及基于 Web 的平台和控制台。
+
+* [ventoy/Ventoy](https://github.com/ventoy/Ventoy) 用于为 ISO/WIM/IMG/VHD(x)/EFI 文件创建可启动 USB 驱动器
+
+* [microsoft/PowerToys](https://github.com/microsoft/PowerToys) Microsoft PowerToys 是一组实用程序，供高级用户调整和简化 Windows 体验以提高工作效率。
+
+* [airbnb/lottie-android](https://github.com/airbnb/lottie-android) 在 Android 和 iOS、Web 和 React Native 上原生渲染 After Effects 动画
+
+* [pomber/git-history](https://github.com/pomber/git-history) 从任何 git 存储库快速浏览文件的历史记录
 
 # Star数变化
 
