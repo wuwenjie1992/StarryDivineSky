@@ -66,6 +66,8 @@
 
 * [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南
 
+* [abmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)  神经网络和相关算法的简单 PyTorch 实现的集合。将这些呈现为并排格式化的笔记。我们相信这些将帮助您更好地理解这些算法。
+
 * [PyTorchLightning/PyTorch-lightning](https://github.com/PyTorchLightning/PyTorch-lightning) 基于Pytorch的轻量高级计算框架，相当于Keras框架。
 
 * [ELS-RD/kernl](https://github.com/ELS-RD/kernl/) 第一个使用 OpenAI Triton 编写的 OSS 推理引擎，这是一种由 OpenAI 设计的新语言，可以更轻松地编写 GPU 内核。每个内核不到200行代码，易于理解和修改。
@@ -1044,6 +1046,12 @@
 
 * [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) 将 Anthropic 的 Claude 模型的 API 转换为 OpenAI Chat API 格式。
 
+* [databrickslabs/dolly](https://github.com/databrickslabs/dolly) dolly-v2-12b是由Databricks创建的120亿参数因果语言模型，该模型源自EleutherAI的Pythia-12b，并在Databricks员工生成的~15K记录指令语料库上进行微调，并在宽松许可证（CC-BY-SA）下发布
+
+* [openlm-research/open_llama](https://github.com/openlm-research/open_llama) 一个在RedPajama数据集上训练的Meta AI的LLaMA 7B的许可开源复制品。
+
+* [microsoft/TaskMatrix](https://github.com/microsoft/TaskMatrix) 连接了ChatGPT和一系列Visual Foundation模型，以便在聊天期间发送和接收图像。
+
 ### 文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -1670,6 +1678,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [zhijing-jin/Causality4NLP_Papers](https://github.com/zhijing-jin/Causality4NLP_Papers) 关于自然语言处理因果关系的论文阅读列表
 
 [DaDaMrX/ReaLiSe](https://github.com/DaDaMrX/ReaLiSe) 多模态模型中文拼写检查器。包括：文字语义、文字发音、文字图形。
+
+[dbohdan/structured-text-tools](https://github.com/dbohdan/structured-text-tools) 用于操作结构化文本数据的命令行工具列表
 
 # 推荐系统
 
@@ -2618,6 +2628,8 @@ https://github.com/goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。�
 
 [tkfy920/qstock](https://github.com/tkfy920/qstock) 打造成个人量化投研分析包，目前包括数据获取（data）、可视化(plot)、选股(stock)和量化回测（策略backtest）模块。 qstock将为用户提供简洁的数据接口和规整化后的金融市场数据。可视化模块为用户提供基于web的交互图形的简单接口； 选股模块提供了同花顺的选股数据和自定义选股，包括RPS、MM趋势、财务指标、资金流模型等； 回测模块为大家提供向量化（基于pandas）和基于事件驱动的基本框架和模型。
 
+[je-suis-tm/quant-trading](https://github.com/je-suis-tm/quant-trading) Python 量化交易策略，包括 VIX 计算器、模式识别、商品交易顾问、蒙特卡洛、期权跨式、射击之星、伦敦突破、Heikin-Ashi、配对交易、RSI、布林带、抛物线 SAR、双推力、真棒、MACD
+
 ## 时间序列
 
 [thuml/Autoformer](https://github.com/thuml/Autoformer) 用于长期序列预测的具有自相关性的分解变压器。Autoformer超越了Transformer系列，首次实现了串联。在六个基准上进行实验，涵盖五个主流应用程序。我们将我们的模型与十个基线进行比较，包括 Informer、N-BEATS 等。通常，对于长期预测设置，Autoformer 实现了 SOTA，相对于之前的基线有38% 的相对改进。
@@ -2719,6 +2731,8 @@ https://github.com/jsyoon0823/TimeGAN 时间序列生成对抗网络
 [thuml/Anomaly-Transformer](https://github.com/thuml/Anomaly-Transformer) 基于关联偏差的时间序列异常检测
 
 [thuml/Nonstationary_Transformers](https://github.com/thuml/Nonstationary_Transformers) 非平稳时间序列的通用预测框架。非平稳的时序数据具有更复杂且难以捕捉的时序依赖，以及随着时间不断变化的数据分布，以往的研究旨在利用平稳化技术消除数据在时间维度上的分布差异，以提高数据本身的可预测性。然而在平稳化后的数据上进行模型训练会限制Transformer建模时序依赖的能力，导致模型仅能学到不易区分的注意力图与较弱的时序依赖，从而产生平稳性过高的预测输出与较大的预测误差，我们称之为过平稳现象（Over-stationarization）。针对非平稳时序预测问题，提出了Non-stationary Transformers，其包含一对相辅相成的序列平稳化（Series Stationarization）和去平稳化注意力（De-stationary Attention）模块，能够广泛应用于Transformer以及变体，一致提升其在非平稳时序数据上的预测效果。
+
+[microprediction/timemachines](https://github.com/microprediction/timemachines) 利用流行的python时间序列包的功能，如river，pydlm，tbats，pmdarima，statsmodels.tsa，neuralprophet，Facebook Prophet，Uber的orbit，Facebook的greykitite等。
 
 # 强化学习 Reinforcement Learning
 
@@ -2937,6 +2951,12 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [zycv/awesome-keyword-spotting](https://github.com/zycv/awesome-keyword-spotting) 很棒的语音关键字发现（唤醒词检测）的精选列表。
 
+[TalAter/annyang](https://github.com/TalAter/annyang) 小型JS语音识别库，可让您的用户通过语音命令控制您的网站。
+
+[common-voice/common-voice](https://github.com/common-voice/common-voice) 一个收集语音捐赠的平台，以便创建用于训练语音识别相关工具的公共领域数据集。
+
+[alibaba-damo-academy/FunASR](https://github.com/alibaba-damo-academy/FunASR) 来自阿里达摩院的端到端语音识别工具包
+
 ## 语音合成
 
 [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
@@ -2951,7 +2971,11 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [voicepaw/so-vits-svc-fork](https://github.com/voicepaw/so-vits-svc-fork) so-vits-svc fork 歌唱语音转换 具有实时支持、改进的界面和更多功能。实时语音转换、更准确的音调估计、2x 更快的训练
 
+[RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) 语音数据<= 10分钟也可以用来训练一个好的VC模型 一个基于VITS的简单易用的语音转换（变声器）框架
+
 [JasonWei512/Tacotron-2-Chinese](https://github.com/JasonWei512/Tacotron-2-Chinese) 中文语音合成
+
+[alibaba-damo-academy/KAN-TTS](https://github.com/alibaba-damo-academy/KAN-TTS) 来自阿里达摩院的TTS框架，使用 KAN-TTS，您可以训练自己的 TTS 模型
 
 [TensorSpeech/TensorflowTTS](https://github.com/TensorSpeech/TensorflowTTS) Tensorflow 2的实时最新语音合成
 
@@ -3024,6 +3048,10 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [mixxxdj/mixxx](https://github.com/mixxxdj/mixxx) 免费的 DJ 软件，可为您提供执行现场混音所需的一切。
 
 [QiuChenly/QQFlacMusicDownloader](https://github.com/QiuChenly/QQFlacMusicDownloader) [秋城落叶] QQ 音乐源无损歌曲下载
+
+[noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) Linux 上的实时麦克风噪声抑制。
+
+[werman/noise-suppression-for-voice](https://github.com/werman/noise-suppression-for-voice) 基于Xiph的RNNoise的噪声抑制插件
 
 # 生物医药
 
@@ -4857,6 +4885,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [axios/axios](https://github.com/axios/axios) 用于浏览器和 node.js 的基于 Promise 的 HTTP 客户端
 
+* [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
+
 * [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
 
 * [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。开箱即用的 TypeScript 支持。文件系统路由 à la Next.js。
@@ -5185,6 +5215,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
 
+* [ZhongFuCheng3y/athena](https://github.com/ZhongFuCheng3y/athena) Java后端知识图谱 帮助Java初学者成长
+
 * [charlax/professional-programming](https://github.com/charlax/professional-programming) 程序员的全栈资源集合。
 
 * [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) 来自计算机科学界的论文可供阅读和讨论。
@@ -5218,6 +5250,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [avelino/awesome-go](https://github.com/avelino/awesome-go) 精选的 Go 框架、库和软件的精选列表
 
 * [unknwon/go-study-index](https://github.com/unknwon/go-study-index) Go 语言学习资料与社区索引
+
+* [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) 提供了一个开发人员友好的API，可以与Chromium和LibreOffice等强大的工具进行交互，以将多种文档格式（HTML，Markdown，Word，Excel等）转换为PDF文件等等！
 
 * [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集GitHub高质量、有趣的开源项目。
 
@@ -5344,7 +5378,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [dxx/react-bilibili](https://github.com/dxx/react-bilibili) 高仿B站web移动端
 
-* [alyssaxuu/flowy](https://github.com/alyssaxuu/flowy) 创建具有流程图功能的 WebApps 成为一项极其简单的任务。 通过将库实施到您的项目中，在几分钟内构建自动化软件、思维导图工具或简单的编程平台。
+* [alyssaxuu/flowy](https://github.com/alyssaxuu/flowy) 创建具有流程图功能的 WebApps 成为一项极其简单的任务。 通过将库实施到您的项目中，几分钟内构建自动化软件、思维导图或简单的编程平台。
 
 * [raysan5/raylib](https://github.com/raysan5/raylib) 一个简单易用的视频游戏编程库 
 
@@ -5414,15 +5448,15 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [EastWorld/wechat-app-mall](https://github.com/EastWorld/wechat-app-mall) 微信小程序商城，微信小程序微店
 
-* [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) 基于Electron的图表和白板桌面应，包装了核心draw.io编辑器。
+* [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) 基于Electron图表和白板桌面，包装了核心draw.io编辑器。
 
 * [microapp-store/flash-waimai](https://github.com/microapp-store/flash-waimai) 仿饿了么外卖平台，包括手机端，后台管理, api服务
 
 * [PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
 
-* [marktext/marktext](https://github.com/marktext/marktext) 简单优雅的markdown编辑器，适用于 Linux、macOS 和 Win。
+* [marktext/marktext](https://github.com/marktext/marktext) 简单优雅的markdown编辑器，适用于 Linux、mac 和 Win。
 
-* [weartist/computer_book_list](https://github.com/weartist/computer_book_list) 一个综合了豆瓣，goodreads综合评分的计算机书籍书单
+* [weartist/computer_book_list](https://github.com/weartist/computer_book_list) 综合了豆瓣，goodreads综合评分的计算机书籍书单
 
 * [sunym1993/flash-linux0.11-talk](https://github.com/sunym1993/flash-linux0.11-talk) 像小说一样品读 Linux 0.11 核心代码
 
@@ -5604,11 +5638,11 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [sger/RustBooks](https://github.com/sger/RustBooks) Rust 书籍列表
 
-* [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) 用 Rust 编写并与上游 Bitwarden 客户端兼容的 服务器 API 的替代实现，非常适合运行官方资源密集型服务可能不理想的自托管部署。Bitwarden是一款自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息。
+* [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) Rust 编写并与上游 Bitwarden 客户端兼容的 服务器 API 的替代实现，非常适合运行官方资源密集型服务可能不理想的自托管部署。Bitwarden是自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息。
 
 * [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) 在尊重您的 gitignore 的同时递归地搜索目录以查找正则表达式模式,优势速度快。
 
-* [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) 一个闪电般快速的搜索引擎，可以毫不费力地融入您的应用程序、网站和工作流程。
+* [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) 闪电般快速的搜索引擎，可以毫不费力地融入您的应用程序、网站和工作流程。
 
 * [sharkdp/fd](https://github.com/sharkdp/fd) “find”查找的简单、快速和用户友好的替代方法
 
@@ -5627,6 +5661,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [airbnb/lottie-android](https://github.com/airbnb/lottie-android) 在 Android 和 iOS、Web 和 React Native 上原生渲染 After Effects 动画
 
 * [pomber/git-history](https://github.com/pomber/git-history) 从任何 git 存储库快速浏览文件的历史记录
+
+* [RelaxedJS/ReLaXed](https://github.com/RelaxedJS/ReLaXed) 使用 Web 技术创建 PDF 文档
 
 # Star数变化
 
