@@ -64,9 +64,15 @@
 
 * [ShusenTang/Dive-into-DL-PyTorch](https://github.com/ShusenTang/Dive-into-DL-PyTorch) 本项目将《动手学深度学习》(Dive into Deep Learning)原书中的MXNet实现改为PyTorch实现。
 
+* [fengdu78/deeplearning_ai_books](https://github.com/fengdu78/deeplearning_ai_books) deeplearning.ai（吴恩达老师的深度学习课程笔记及资源）
+
+* [nndl/nndl.github.io](https://github.com/nndl/nndl.github.io) 《神经网络与深度学习》 邱锡鹏著 
+
 * [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南
 
 * [abmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)  神经网络和相关算法的简单 PyTorch 实现的集合。将这些呈现为并排格式化的笔记。我们相信这些将帮助您更好地理解这些算法。
+
+* [yunjey/pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial) 深度学习研究人员的 PyTorch 教程
 
 * [PyTorchLightning/PyTorch-lightning](https://github.com/PyTorchLightning/PyTorch-lightning) 基于Pytorch的轻量高级计算框架，相当于Keras框架。
 
@@ -75,6 +81,12 @@
 * [BoltzmannEntropy/interviews.ai](https://github.com/BoltzmannEntropy/interviews.ai) 深度学习面试书：数百个完全解决的工作面试问题，来自 AI 的广泛关键主题。
 
 * [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) 精选深度学习教程、项目和社区列表。
+
+* [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) 深度学习论文阅读路线图，适合任何渴望学习这项惊人技术的人！
+
+* [scutan90/DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions) 深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 分为18个章节，50余万字。
+
+* [mrdbourke/pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning) 学习用于深度学习的 PyTorch：从零到精通课程的材料。
 
 * [alibaba/MNN](https://github.com/alibaba/MNN) 轻量级的深度神经网络推理引擎
 
@@ -88,7 +100,7 @@
 
 * [karpathy/micrograd](https://github.com/karpathy/micrograd) 微型标量自动求导引擎，类似PyTorch API的神经网络库
 
-* [Jittor/jittor](https://github.com/Jittor/jittor) 基于 JIT 编译和元运算符的高性能深度学习框架。整个框架和元运算符是及时编译的。强大的运算编译器和调谐器集成到抖动器中。它使我们能够生成专门针对您的模型的高性能代码。Jittor 还包含丰富的高性能模型库，包括：图像识别、检测、分割、生成、可微渲染、几何学习、强化学习等。.
+* [Jittor/jittor](https://github.com/Jittor/jittor) 基于 JIT 编译和元运算符的高性能深度学习框架。整个框架和元运算符是及时编译的。它使我们能够生成专门针对您的模型的高性能代码。Jittor 还包含丰富的高性能模型库，包括：图像识别、检测、分割、生成、可微渲染、几何学习、强化学习等。
 
 * [wandb/client](https://github.com/wandb/client) Weights and Biases 组织和分析机器学习实验 它与框架无关，并且比TensorBoard轻巧。每次您运行带有的脚本时wandb，都会保存您的超参数和输出指标。在训练过程中可视化模型，并轻松比较模型的版本。我们还将自动跟踪您的代码状态，系统指标和配置参数。
 
@@ -896,6 +908,14 @@
 
 * [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) 基于中文法律知识的大语言模型
 
+* [MediaBrain-SJTU/MedicalGPT-zh](https://github.com/MediaBrain-SJTU/MedicalGPT-zh) 基于ChatGLM的在高质量指令数据集微调的中文医疗对话语言模型
+
+* [mlfoundations/open_flamingo](https://github.com/mlfoundations/open_flamingo) 用于训练大型多模态模型的开源框架。DeepMind Flamingo 模型的开源版本。提供了用于训练和评估模型的 PyTorch 实现。还提供了在新的多模式 C4 数据集上训练的初始 OpenFlamingo 9B 模型。
+
+* [dandelionsllm/pandallm](https://github.com/dandelionsllm/pandallm) 海外中文开源大语言模型，基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练。
+
+* [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) 一个可扩展、方便和高效的工具箱，用于微调大型机器学习模型。我们的目标是开发一套用户友好、快速可靠，并对整个社区开放的全流程微调代码库。
+
 * [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 
 * [dalinvip/Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) ChatGPT资料汇总学习
@@ -937,6 +957,8 @@
 * [acheong08/EdgeGPT](https://github.com/acheong08/EdgeGPT) 微软必应聊天的逆向工程API
 
 * [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) 使用GPT3/4来自动完成任务。一个 AI 支持的任务管理系统示例. 该系统使用 OpenAI 和 Pinecone API 创建, 优先级排序和执行任务. 该系统背后的主要思想是基于先前任务的结果和预定义的目标创建任务. 脚本然后使用 OpenAI 的自然语言处理（NLP）能力根据目标创建新任务, 并使用 Pinecone 存储和检索任务结果以获得上下文. 这是原始的[任务驱动的自驱代理](https://twitter.com/yoheinakajima/status/1640934493489070080?s=20)的简化版本.
+
+* [TransformerOptimus/SuperAGI](https://github.com/TransformerOptimus/SuperAGI) SuperAGI - 开发优先的开源自主 AI 代理框架。使开发人员能够快速可靠地构建、管理和运行有用的自主代理。
 
 * [StanGirard/quivr](https://github.com/StanGirard/quivr) 将所有文件和想法转储到您的生成式AI（如chatgpt）的第二大脑中并与之聊天。旨在轻松存储和检索非结构化信息。
 
@@ -984,6 +1006,8 @@
 
 * [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) 科研工作专用ChatGPT/GLM拓展，特别优化学术Paper润色体验，模块化设计支持自定义快捷按钮&函数插件，支持代码块表格显示，Tex公式双显示，新增Python和C++项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持gpt-3.5/gpt-4/chatglm
 
+* [AetherCortex/Llama-X](https://github.com/AetherCortex/Llama-X) 关于将LLaMA提高到SOTA LLM的开放学术研究
+
 * [WangRongsheng/ChatGenTitle](https://github.com/WangRongsheng/ChatGenTitle) 使用百万arXiv论文信息在LLaMA模型上进行微调的论文题目生成模型
 
 * [nishiwen1214/ChatReviewer](https://github.com/nishiwen1214/ChatReviewer) 使用ChatGPT分析论文优缺点，提出改进建议
@@ -1001,6 +1025,12 @@
 * [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) 为ChatGPT ChatGLM LLaMA StableLM MOSS等多种LLM提供了一个轻快好用的Web图形界面
 
 * [SCIR-HI/Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM) 基于中文医学知识的ChatGLM指令微调
+
+* [xionghonglin/DoctorGLM](https://github.com/xionghonglin/DoctorGLM) 基于ChatGLM-6B的中文问诊模型
+
+* [WangRongsheng/MedQA-ChatGLM](https://github.com/WangRongsheng/MedQA-ChatGLM) 基于真实医疗对话数据在ChatGLM上进行LoRA、P-Tuning V2、Freeze、RLHF等微调
+
+* [Toyhom/Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data) 中文医疗对话数据集，:<Andriatria_男科> 94596个问答对 <IM_内科> 220606个问答对 <OAGD_妇产科> 183751个问答对 <Oncology_肿瘤科> 75553个问答对 <Pediatric_儿科> 101602个问答对 <Surgical_外科> 115991个问答对 总计 792099个问答对
 
 * [sonnylazuardi/chat-ai-desktop](https://github.com/sonnylazuardi/chat-ai-desktop) 使用 Tauri 和 Rust 的 Mac 和 Windows 菜单栏的非官方 ChatGPT 桌面应用程序
 
@@ -1052,6 +1082,8 @@
 
 * [pengzhile/pandora](https://github.com/pengzhile/pandora) 实现了网页版 ChatGPT 的主要操作。后端优化，绕过 Cloudflare，速度喜人。
 
+* [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web)  用Express和Vue3搭建的 ChatGPT 演示网页 
+
 * [elyase/awesome-gpt3](https://github.com/elyase/awesome-gpt3) 关于 OpenAI GPT-3 API 的演示和文章的集合。
 
 * [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) 提示工程是一门相对较新的学科，用于开发和优化提示以有效地将语言模型 (LM) 用于各种应用程序和研究主题。即时的工程技能有助于更好地理解大型语言模型 (LLM) 的功能和局限性。研究人员使用提示工程来提高 LLM 在广泛的常见和复杂任务（例如问题回答和算术推理）上的能力。开发人员使用提示工程来设计与 LLM 和其他工具交互的强大且有效的提示技术。
@@ -1078,11 +1110,24 @@
 
 * [openlm-research/open_llama](https://github.com/openlm-research/open_llama) 一个在RedPajama数据集上训练的Meta AI的LLaMA 7B的许可开源复制品。
 
+* [mbzuai-nlp/LaMini-LM](https://github.com/mbzuai-nlp/LaMini-LM) 来自大规模指令的多样化蒸馏模型群。从ChatGPT提炼出来的小型高效语言模型的集合，并在2.58M指令的大规模数据集上进行训练。我们通过执行句子/离线提炼从大型语言模型中提取知识。我们基于几个现有的提示资源，使用 gpt-3.5-turbo 生成总共 2.58M 对指令和响应。
+
 * [microsoft/TaskMatrix](https://github.com/microsoft/TaskMatrix) 连接了ChatGPT和一系列Visual Foundation模型，以便在聊天期间发送和接收图像。
 
 * [huggingface/peft](https://github.com/huggingface/peft) 最先进的参数高效微调 （PEFT） 方法，LoRA、Prefix Tuning、P-Tuning、Prompt Tuning、AdaLoRA。参数高效微调 （PEFT） 方法能够将预训练的语言模型 （PLM） 有效地适应各种下游应用程序，而无需微调模型的所有参数。微调大型 PLM 的成本通常高得令人望而却步。在这方面，PEFT方法仅微调少量（额外）模型参数，从而大大降低了计算和存储成本。最近最先进的PEFT技术实现了与完全微调相当的性能。
 
 * [artidoro/qlora](https://github.com/artidoro/qlora) 量化LLM的有效微调。QLoRA使用bitsandbytes进行量化。QLoRA是一种高效的微调方法，可减少内存使用量，足以在单个 48GB GPU 上微调 65B 模型，同时保留完整的 16 位微调任务性能。QLoRA 通过冻结的 4 位量化预训练LM将梯度反向传播到低秩适配器 （LoRA） 中。我们最好的模型 Guanaco，在 Vicuna 基准测试中优于之前所有公开的模型，达到了 ChatGPT 性能水平的 99.3%，而只需在单个 GPU 上进行 24 小时的微调。QLoRA 引入了许多创新，以在不牺牲性能的情况下节省内存：（a） 4 位 NormalFloat （NF4），一种理论上最适合正态分布权重的新数据类型 （b） 双重量化，通过量化常量来减少平均内存占用，以及 （c） 分页优化器来管理内存峰值。我们使用QLoRA对1k个模型进行微调，对 8 个指令数据集、多种模型（LLaMA、T5）和模型规模（如33B和65B参数）的指令遵循和聊天机器人性能进行详细分析。结果表明，QLoRA在小型高质量数据集上进行微调可以产生最先进的结果，即使用比以前的SoTA更小的模型也是如此。GPT4评估是人类评估的廉价且合理的替代方案。当前的聊天机器人基准测试不值得信赖，无法准确评估聊天机器人的性能水平。我们发布了所有模型和代码，包括用于 4 位训练的 CUDA 内核。
+
+* [hiyouga/ChatGLM-Efficient-Tuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning) 基于 PEFT 的高效 ChatGLM 微调
+
+* [ZrrSkywalker/LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter) 在1小时内遵循指令微调LLaMA , 1.2M参数
+
+* [Instruction-Tuning-with-GPT-4/GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) 共享 GPT-4 生成的数据，用于构建具有监督学习和强化学习的指令遵循 LLM。存储库包含：
+  
+  - 英语教学 - 遵循数据由 GPT-4 使用 Alpaca 提示进行微调 LLM。
+  - 由 GPT-4 使用由 ChatGPT 从羊驼翻译的中文提示生成的中文指令跟踪数据。
+  - 按 GPT-4 排名以训练奖励模型的比较数据。
+  - 关于非自然指令的答案 来自 GPT-4 的数据，用于大规模量化 GPT-4 和指令调整模型之间的差距。
 
 * [lxe/simple-llm-finetuner](https://github.com/lxe/simple-llm-finetuner) 初学者友好的界面，旨在通过商用NVIDIA GPU上的PEFT库，使用LoRA方法微调各种语言模型。使用较小的数据集和 256 的样本长度，您甚至可以在常规的 Colab Tesla T4 实例上运行它。
 
@@ -1091,6 +1136,22 @@
 * [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) 与大型语言模型相关的论文和资源集合。
 
 * [Lunabot](https://cn.lunabot.ai/zh/) 在任何网页为你服务的AI助理，通过快捷指令释放AI工作潜力，无需KEY和ChatGPT账号
+
+* [jerryjliu/llama_index](https://github.com/jerryjliu/llama_index) 您的 LLM 应用程序的数据框架。高级 API 允许初学者使用 LlamaIndex 在 5 行代码中摄取和查询他们的数据。我们的低级 API 允许高级用户自定义和扩展任何模块（数据连接器、索引、检索器、查询引擎、重新排名模块）以满足他们的需求。
+
+* [amazon-science/mm-cot](https://github.com/amazon-science/mm-cot) 语言模型中的多模式思维链推理。包括两个训练阶段：(i) 基本原理生成和 (ii) 答案推理。这两个阶段共享相同的模型架构，但输入和输出不同。
+
+* [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA) 面向多模态 GPT-4 级别功能构建的大型语言和视觉助手。
+
+* [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) 多模态大型语言模型的最新论文和数据集
+
+* [THUDM/VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) 多模态中英双语对话语言模型
+
+* [LC1332/Luotuo-Silk-Road](https://github.com/LC1332/Luotuo-Silk-Road) 中文大语言模型的数据。对话与指令数据集：Luotuo-Chinese-Alpaca 骆驼-中国-羊驼、Chinese-Dolly 中国多莉、Chinese-WizardLM 中国巫师LM、阅读理解数据 Chinese-CoQA 、Luotuo-QA-B、图文跨模态数据 Chinese-MMC4-130k 中文-MMC4-130k、Chinese-Coco-Captioning 中文-可可-字幕、Embedding蒸馏数据 CNewSum-Embedding
+
+* [logspace-ai/langflow](https://github.com/logspace-ai/langflow) LangChain（大语言模型链式开发工具，强大的框架，可以简化构建高级语言模型应用程序的过程。） 的 UI，采用反应流设计，提供一种轻松的方式来实验和原型流。
+
+* [YeungNLP/firefly-train-1.1M](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) 收集了23个常见的中文数据集，对于每个任务，由人工书写若干种指令模板，保证数据的高质量与丰富度，数据量为115万 。
 
 ### 文本生成、文本对话
 
@@ -1566,7 +1627,11 @@
 
 [deepset-ai/haystack](https://github.com/deepset-ai/haystack) 开源的NLP框架，可以使用Transformer模型和LLM（GPT-3等）与数据交互。Haystack提供了生产就绪的工具来快速构建类似ChatGPT的问题回答、语义搜索、文本生成等。
 
-[logspace-ai/langflow](https://github.com/logspace-ai/langflow) LangChain（大语言模型链式开发工具，强大的框架，可以简化构建高级语言模型应用程序的过程。） 的 UI，采用反应流设计，提供一种轻松的方式来实验和原型流。
+[sebastianruder/NLP-progress](https://github.com/sebastianruder/NLP-progress) 它旨在涵盖传统和核心NLP任务，如依赖解析和词性标记，以及最近的任务，如阅读理解和自然语言推理。主要目的是为读者提供基准数据集的快速概述以及他们感兴趣的任务的最新技术，这是进一步研究的垫脚石。为此，如果有一个地方已经发布并定期维护任务的结果，例如公共排行榜。
+
+[PKU-TANGENT/nlp-tutorial](https://github.com/PKU-TANGENT/nlp-tutorial) NLP新手入门教程
+
+[yuanzhoulvpi2017/zero_nlp](https://github.com/yuanzhoulvpi2017/zero_nlp) 中文nlp解决方案(大模型、数据、模型、训练、推理)
 
 [bojone/attention](https://github.com/bojone/attention)  Attention机制的实现tensorflow/keras
 
@@ -1730,6 +1795,10 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [huggingface/tokenizers](https://github.com/huggingface/tokenizers) 提供当今最常用的分词器的实现，重点关注性能和多功能性。
 
 [jessevig/bertviz](https://github.com/jessevig/bertviz) 在NLP模型中可视化注意力（BERT，GPT2，BART等）
+
+[lutzroeder/netron](https://github.com/lutzroeder/netron) 用于神经网络、深度学习和机器学习模型的可视化工具
+
+[sebastianruder/NLP-progress](https://github.com/sebastianruder/NLP-progress) 用于跟踪自然语言处理 (NLP) 进展的存储库，包括数据集和最常见 NLP 任务的最新技术水平。
 
 # 推荐系统
 
@@ -2140,6 +2209,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [bilibili/ailab](https://github.com/bilibili/ailab) 使用百万级动漫数据进行训练的，结构与Waifu2x兼容的通用动漫图像超分辨率模型。它支持2x\3x\4x倍超分辨率，其中2倍模型支持4种降噪强度与保守修复，3倍/4倍模型支持2种降噪强度与保守修复。
 
+[nagadomi/waifu2x](https://github.com/nagadomi/waifu2x) 动漫风格艺术的图像超分辨率
+
 ## 光学字符识别OCR
 
 [ouyanghuiyu/chineseocr_lite](https://github.com/ouyanghuiyu/chineseocr_lite) 超轻量级中文ocr
@@ -2171,6 +2242,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [Layout-Parser/layout-parser](https://github.com/Layout-Parser/layout-parser) 基于深度学习的文档图像分析的统一工具包，旨在简化文档图像分析 (DIA) 任务。
 
 [phamquiluan/PubLayNet](https://github.com/phamquiluan/PubLayNet) PubLayNet数据集上的MaskRCNN。段落检测、表格检测、图形检测... 个大型文档图像数据集，其布局使用边界框和多边形分割进行标注。
+
+[JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR) 即用型 OCR，支持 80 多种语言和所有流行的书写脚本，包括拉丁文、中文、阿拉伯文、天城文、西里尔文等。
 
 ## 视频补帧
 
@@ -2258,6 +2331,10 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [NVlabs/MinVIS](https://github.com/nvlabs/minvis) 无需基于视频的培训的最小视频实例分割框架
 
+[AlexeyAB/darknet](https://github.com/AlexeyAB/darknet) 用于对象检测的神经网络 YOLOv4 / Scaled-YOLOv4 / YOLO
+
+[ttengwang/Caption-Anything](https://github.com/ttengwang/Caption-Anything) 一款结合了图像分割、视觉字幕和 ChatGPT 的多功能工具，可根据用户偏好生成具有不同控件的定制字幕。
+
 ## 图像风格
 
 [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
@@ -2287,6 +2364,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [open-mmlab/mmcv](https://github.com/open-mmlab/mmcv) MMCV 是计算机视觉研究的基础库，它提供以下功能：通用 IO API、图像/视频处理、图像和注释可视化、有用的实用程序（进度条，计时器，...）、具有挂钩机制的 PyTorch runner、各种CNN架构、CPU 和 CUDA 操作的高质量实现。
 
 [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) 最先进、功能最全、最可靠的开源自动驾驶软件。自 2010 年以来，它一直由专业工程师、计算机科学家和社区贡献者组成的多元化团队开发。我们的自动驾驶软件能够控制几乎任何可以想象的车辆系统，从传统飞机、四架飞机、多旋翼和直升机到漫游车、船只、平衡机器人，甚至潜艇。它正在不断扩展，为新的车辆类型提供支持。
+
+[Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion) 具有潜在扩散模型的高分辨率图像合成
 
 [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini)  DALL·E Mini - 从文本提示生成图像
 
@@ -2323,6 +2402,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [jina-ai/clip-as-service](https://github.com/jina-ai/clip-as-service) 一种用于嵌入图像和文本的低延迟、高可伸缩性的服务。它可以作为一个微服务轻松集成到神经搜索解决方案中。有四种基本的视觉推理技能：对象识别、对象计数、颜色识别和空间关系理解。文本到图像跨模态搜索。
 
 [hua1995116/awesome-ai-painting](https://github.com/hua1995116/awesome-ai-painting) AI绘画资料合集（包含国内外可使用平台、使用教程、参数教程、部署教程、业界新闻等等）
+
+[lllyasviel/style2paints](https://github.com/lllyasviel/style2paints) 草图 + 风格 = 绘画
 
 [realtime-semantic-segmentation](https://github.com/hugozanini/realtime-semantic-segmentation) 用TF.js实施RefineNet以在浏览器中执行实时实例分割
 
@@ -3064,6 +3145,10 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [YatingMusic/ddsp-singing-vocoders](https://github.com/yatingmusic/ddsp-singing-vocoders) 声码器是一种条件音频生成模型，可将声学特征（如 mel 频谱图）转换为波形。从可微分数字信号处理（DDSP）中汲取灵感，提出SawSing新型声码器，用于歌声。SawSing使用线性时变有限脉冲响应滤波器过滤锯齿波源信号来合成歌唱声音的谐波部分，该滤波器的系数由神经网络根据输入的mel频谱图估计。由于加强了相位连续性，因此可以生成歌声，而不会出现许多现有声码器的相位不连续性故障。在资源有限的场景中，收敛速度更快，且优于最先进的生成对抗网络和基于扩散的声码器，只有3个训练录音和3小时的训练时间。
 
 [CjangCjengh/MoeGoe](https://github.com/CjangCjengh/MoeGoe) 用于 VITS 推理的可执行文件，包括上海方言模型。VITS：用于语音合成带有对抗学习的条件变分自编码器。
+
+[enhuiz/vall-e](https://github.com/enhuiz/vall-e) 音频LM VALL-E的非官方PyTorch实现。3 秒音频可模仿人说话的语音大模型。使用了 Meta 提出的 [Audio Codec](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/encodec%23extracting-discrete-representations) 提取离散的音频码本，作为训练标签，其包含8（音频码维数）个 Decoder Block，每个 Block 含有 12 层 TransformerDecoder 层，第一个 block 为自回归结构，其余 block 为非自回归结构。[lifeiteng/vall-e](https://github.com/lifeiteng/vall-e)
+
+
 
 ## 语音识别与合成_其他
 
@@ -5191,6 +5276,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [psf/black](https://github.com/psf/black) 毫不妥协的 Python 代码格式化程序
 
+* [chriskiehl/Gooey](https://github.com/chriskiehl/Gooey) 只需一行即可将（几乎）任何 Python 命令行程序转换为完整的 GUI 应用程序
+
 ## flutter
 
 * [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn)  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
@@ -5741,6 +5828,12 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [tianshiyeben/wgcloud](https://github.com/tianshiyeben/wgcloud) Linux运维监控工具，支持系统硬件信息，内存，cpu，温度，磁盘空间及IO，硬盘smart，系统负载，网络流量等监控，服务接口，大屏展示，拓扑图，进程监控，端口监控，docker监控，文件防篡改，日志监控，数据可视化，web ssh，堡垒机，指令下发批量执行，Linux面板(探针)，SNMP，故障告警
 
 * [AdnanHodzic/auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq) 适用于 Linux 的自动 CPU 速度和功耗优化器
+
+* [AppImage/AppImageKit](https://github.com/AppImage/AppImageKit) 将桌面应用程序打包为在常见的基于 Linux 的操作系统上运行的 AppImages，例如 RHEL、CentOS、openSUSE、SLED、Ubuntu、Fedora、debian 及其衍生产品。
+
+* [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) 基于复制和翻译的外语阅读和翻译助手。
+
+* [geekcompany/ResumeSample](https://github.com/geekcompany/ResumeSample) 程序员简历模板系列
 
 # Star数变化
 
