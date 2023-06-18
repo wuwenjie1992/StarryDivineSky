@@ -68,6 +68,10 @@
 
 * [nndl/nndl.github.io](https://github.com/nndl/nndl.github.io) 《神经网络与深度学习》 邱锡鹏著 
 
+* [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) 500 个 AI 机器学习 深度学习 计算机视觉 NLP 代码项目
+
+* [NirantK/awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas) 机器学习、NLP、视觉、推荐系统项目创意的精选列表
+
 * [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南
 
 * [abmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)  神经网络和相关算法的简单 PyTorch 实现的集合。将这些呈现为并排格式化的笔记。我们相信这些将帮助您更好地理解这些算法。
@@ -460,6 +464,8 @@
 * [microsoft/PersonalizedFL](https://github.com/microsoft/PersonalizedFL) 面向研究的个性化联邦学习代码库
 
 ## 其他_机器学习与深度学习
+
+* [JuliaLang/julia](https://github.com/JuliaLang/julia) 用于科学计算的高级、高性能动态语言。
 
 * [vikasverma1077/manifold_mixup](https://github.com/vikasverma1077/manifold_mixup) 数据增强⽅法,目标是通过插入示例的隐藏状态来学习鲁棒的特征。 我们的方法学习到的表征更具判别性和紧凑性。 
 
@@ -860,8 +866,12 @@
 
 * [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
 
+* [lonePatient/awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models) 高质量中文预训练模型集合。包括：基础大模型、对话大模型、多模态对话大模型、大模型评估基准、开源模型库平台、开源数据集库、中文指令数据集。
+
 * [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) MiniGPT-4：使用高级大型语言模型增强视觉语言理解 提供与 Vicuna-7B 对齐的预训练 MiniGPT-4！演示 GPU 内存消耗现在可以低至 12GB。
 - [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) 纯C/C++中LLaMA模型的CPU推理。2023年FacebookResearch 开源了大规模语言模型 LLaMA，包含从 7B 到 65B 的参数范围，训练使用多达 1.4万亿 tokens 语料。LLaMA-13B 在大部分基准测评上超过了 GPT3（175B），LLaMA 可能是目前公开模型权重中效果最好的语言模型。
+
+- [juncongmoo/pyllama](https://github.com/juncongmoo/pyllama) LLaMA - 在单个 4GB GPU 中运行 LLM
 
 - [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) 斯坦福大学的LLaMA羊驼模型。用2K数据微调模型，构建和共享一个遵循指令的LLaMA模型。
 * [LC1332/Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora) 在LLaMA、斯坦福大学Alpaca、Alpaca LoRA、Cabrita、Japanese-Alpaca-LoRA的基础上，调试了一个中国LLaMA模型。同时使用ChatGPT API将alpaca_data. json翻译为中文，再进行微调。
@@ -896,6 +906,14 @@
 
 * [cryscan/multilingual-share](https://huggingface.co/datasets/cryscan/multilingual-share) 为了推进中文AI的发展，促进AI技术公开化、国际化，我们成立了 ShareGPT-90k 项目，希望借助大家的力量推进数据清洗与对齐工作。可能与各位想象的有所不同，GPT模型主要通过预训练数据集赋能，语料的质量对模型最终性能至关重要。然而，百度知道、CSDN、知乎等平台软文过多；小木虫等高质量平台语料过少；个人博客内容质量参差不齐。OpenAI完成数据集的收集花费了巨大成本，以至于需要从微软集资。我们无力承担如此巨大的开销，于是需要各位有志于筹建开放获取语料，并有一定外语基础的网友们献上自己的力量。[RWKV-Wiki/MultilingualShareGPT](https://github.com/RWKV-Wiki/MultilingualShareGPT)
 
+* [TigerResearch/TigerBot](https://github.com/TigerResearch/TigerBot) 多语言多任务LLM，在 BLOOM 基础上的模型：TigerBot-7B, TigerBot-7B-base，TigerBot-180B。数据：预训练 100G，从 2TB 过滤后的数据中经过去噪去重清洗而得；监督微调 1G 或 100 万条数据，按比例涵盖用户指令常见的 10 大类 120 小类任务。
+  
+  * [中文开源预训练集 - 55G，包含中文书籍、中文互联网、中文百科](https://huggingface.co/datasets/TigerResearch/pretrain_zh) 
+  
+  * [英文开源预训练集 - 51G，包含英文书籍、英文互联网、英文百科](https://huggingface.co/datasets/TigerResearch/pretrain_en) 
+  - [中文-微调指令集-合集 - 53W 条 - 下载 [hugging face]](https://huggingface.co/datasets/TigerResearch/sft_zh)
+  - [英文-微调指令集-合集 - 67W 条 - 下载 [hugging face]](https://huggingface.co/datasets/TigerResearch/sft_en)
+
 * [masa3141/japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora) 日文指令来微调LLaMA模型
 
 * [22-hours/cabrita](https://github.com/22-hours/cabrita) 葡萄牙语微调指令LLaMA
@@ -904,7 +922,9 @@
 
 * [LC1332/Luotuo-Chinese-LLM](https://github.com/LC1332/Luotuo-Chinese-LLM) 中文大语言模型开源项目，包含了一系列语言模型。Luotuo-Vanilla是骆驼项目的第一个github仓库, 它是在LLaMA-7B上进行微调的。骆驼项目的初始目标，是研究使用跨语言数据在进行微调时，大语言模型发生的相关现象。
 
-* [openai/evals](https://github.com/openai/evals) Evals是一个评估LLM和LLM系统的框架，也是一个开源的基准测试表。
+* [FreedomIntelligence/LLMZoo](https://github.com/FreedomIntelligence/LLMZoo) 一个为大型语言模型提供数据，模型和评估基准的项目。发布基于BLOOMZ的凤凰Phoenix7B模型、Chimera奇美拉模型。Phoenix-inst-chat-7b  达到85.2% 的ChatGPT效果。
+
+* [openai/evals](https://github.com/openai/evals) 一个评估LLM和LLM系统的框架，也是一个开源的基准测试表。
 
 * [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) 基于中文法律知识的大语言模型
 
@@ -915,6 +935,8 @@
 * [dandelionsllm/pandallm](https://github.com/dandelionsllm/pandallm) 海外中文开源大语言模型，基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练。
 
 * [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) 一个可扩展、方便和高效的工具箱，用于微调大型机器学习模型。我们的目标是开发一套用户友好、快速可靠，并对整个社区开放的全流程微调代码库。
+
+* [yangjianxin1/Firefly](https://github.com/yangjianxin1/Firefly)  Firefly(流萤): 中文对话式大语言模型，包括高质量的包含1.1M中文多任务[指令微调数据集](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M)，包含23种常见的中文NLP任务的指令数据。对于每个任务，由人工书写若干指令模板，保证数据的高质量与丰富度。权重分享：在bloom-1b4-zh 和bloom-2b6-zh 的基础上，进行指令微调，获得如下中文模型：firefly-1b4 、firefly-2b6 、firefly-2b6-v2。开源QLoRA训练流程和模型权重
 
 * [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 
@@ -1152,6 +1174,14 @@
 * [logspace-ai/langflow](https://github.com/logspace-ai/langflow) LangChain（大语言模型链式开发工具，强大的框架，可以简化构建高级语言模型应用程序的过程。） 的 UI，采用反应流设计，提供一种轻松的方式来实验和原型流。
 
 * [YeungNLP/firefly-train-1.1M](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) 收集了23个常见的中文数据集，对于每个任务，由人工书写若干种指令模板，保证数据的高质量与丰富度，数据量为115万 。
+
+* [togethercomputer/RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) 包含用于准备大型数据集以训练大型语言模型的代码。重现LLaMA训练数据集的开源配方。Commoncrawl、C4、GitHub、Books、ArXiv、Wikipedia、StackExchange。合计1.2万亿令牌
+
+* [Voine/ChatWaifu_Mobile](https://github.com/Voine/ChatWaifu_Mobile) 移动版二次元 AI 老婆聊天器 语言大模型来自 GhatGPT\语音推理为客户端本地 VITS - ncnn\图形渲染基于 Native Live2D\语音输入识别为客户端本地 Sherpa - ncnn
+
+* [yizhongw/self-instruct](https://github.com/yizhongw/self-instruct) 将预训练的语言模型与自身生成的指令数据对齐。自我指导是一个框架，可帮助语言模型提高其遵循自然语言指令的能力。它通过使用模型自己的代数来创建大量教学数据来实现此目的。通过自导，可以提高语言模型的指令遵循功能，而无需依赖大量的手动注释。自指令过程是一种迭代引导算法，它从一组手动编写的指令种子开始，并使用它们来提示语言模型生成新指令和相应的输入输出实例。然后对这些世代进行过滤以删除低质量或类似的代数，并将生成的数据添加回任务池。此过程可以重复多次，从而产生大量教学数据，可用于微调语言模型以更有效地遵循说明。
+
+* [Timothyxxx/Chain-of-ThoughtsPapers](https://github.com/Timothyxxx/Chain-of-ThoughtsPapers) 大型语言模型中的思维链促使引出推理。思想链论文集合
 
 ### 文本生成、文本对话
 
@@ -1515,6 +1545,8 @@
 
 * [eecrazy/CausalBank](https://github.com/eecrazy/CausalBank) 非常大规模、开放的领域、句子级、平行的因果语料库。按照句子中出现的因果顺序分为两部分：because_mode（结果，然后是原因）和therefore_mode（原因，然后是结果）。使用预处理的英语通用爬网语料库 （5.14 TB） 中的细粒度因果模板匹配获得的，完全自动，无需任何人工注释。里面或多或少有噪音。
 
+* [InsaneLife/ChineseNLPCorpus](https://github.com/InsaneLife/ChineseNLPCorpus) 中文自然语言处理数据集，阅读理解、任务型对话数据、文本分类、实体识别&词性标注&分词、句法&语义解析、推荐系统、百科数据、指代消歧、预训练：（词向量or模型）、中文完形填空数据集、中华古诗词数据库、保险行业语料库、汉语拆字字典、中文数据集平台。
+
 ## 关系抽取、信息抽取
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)  专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
@@ -1619,6 +1651,8 @@
 
 [nltk/nltk](https://github.com/nltk/nltk) 支持自然语言处理研究和开发的开源 Python 模块、数据集和教程。
 
+[keon/awesome-nlp](https://github.com/keon/awesome-nlp) 专用于自然语言处理 （NLP） 的资源精选列表
+
 [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) Stanford NLP Group 的官方 Python NLP 库。 它支持在 60 多种语言上运行各种准确的自然语言处理工具。
 
 [huseinzol05/NLP-Models-Tensorflow](https://github.com/huseinzol05/NLP-Models-Tensorflow) 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
@@ -1654,6 +1688,8 @@
 [flairNLP/flair](https://github.com/flairNLP/flair) 最先进的NLP框架。由柏林洪堡大学开发。将先进的NLP模型应用于文本，如NER、词性标记 （PoS）、对生物医学的特殊支持、感知消歧和分类。Flair具有简单的界面，允许不同的单词和文档嵌入，包括Flair嵌入，BERT嵌入和ELMo嵌入。
 
 [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) 对话式 AI 工具包，专为从事ASR\TTS\语言模型和NLP的研究人员而构建。NeMo的主要目标是帮助来自工业界和学术界的研究人员重用以前的工作（代码和预训练模型），并更轻松地创建新的对话AI模型。所有 NeMo 模型都使用 Lightning 进行训练，训练可自动扩展到 1000 多个 GPU。此外，NeMo 威震天 LLM 模型可以使用张量和管道模型并行性训练多达 1 万亿个参数。NeMo 模型可以针对推理进行优化，并使用 NVIDIA Riva 针对生产用例进行部署。
+
+[lancopku/pkuseg-python](https://github.com/lancopku/pkuseg-python) 多领域中文分词工具
 
 https://github.com/JasonForJoy/MPC-BERT 一种预训练的多方会话理解语言模型.多方会话（MPC）的各种神经模型在收件人识别、说话人识别和反应预测等方面取得了显著的进展。
 
@@ -3092,6 +3128,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [alibaba-damo-academy/FunASR](https://github.com/alibaba-damo-academy/FunASR) 来自阿里达摩院的端到端语音识别工具包
 
+[k2-fsa/sherpa-ncnn](https://github.com/k2-fsa/sherpa-ncnn) 使用下一代 Kaldi 和 ncnn 进行实时语音识别，无需互联网连接。支持iOS，Android，Raspberry Pi，VisionFive2等。
+
 ## 语音合成
 
 [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
@@ -3148,11 +3186,13 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [enhuiz/vall-e](https://github.com/enhuiz/vall-e) 音频LM VALL-E的非官方PyTorch实现。3 秒音频可模仿人说话的语音大模型。使用了 Meta 提出的 [Audio Codec](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/encodec%23extracting-discrete-representations) 提取离散的音频码本，作为训练标签，其包含8（音频码维数）个 Decoder Block，每个 Block 含有 12 层 TransformerDecoder 层，第一个 block 为自回归结构，其余 block 为非自回归结构。[lifeiteng/vall-e](https://github.com/lifeiteng/vall-e)
 
-
+[espeak-ng/espeak-ng](https://github.com/espeak-ng/espeak-ng) 开源语音合成器，支持一百多种语言和口音。
 
 ## 语音识别与合成_其他
 
 [TencentGameMate/chinese_speech_pretrain](https://github.com/TencentGameMate/chinese_speech_pretrain) WenetSpeech train_l 集的 1 万小时中文数据作为无监督预训练数据。数据主要来源于 YouTube 和 Podcast，覆盖了各种类型录制场景、背景噪声、说话方式等，其领域主要包括有声书、解说、纪录片、电视剧、访谈、新闻、朗读、演讲、综艺和其他等10大场景。
+
+[zzw922cn/awesome-speech-recognition-speech-synthesis-papers](https://github.com/zzw922cn/awesome-speech-recognition-speech-synthesis-papers) 自动语音识别 （ASR）、说话人验证、语音合成、文本到语音转换 （TTS）、语言建模、歌唱语音合成 （SVS）、语音转换 （VC）
 
 [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) 理解和生成语音、音乐、声音和说话人头部动作。
 
@@ -4460,6 +4500,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
 
+* [pinecone-wifi/pinecone](https://github.com/pinecone-wifi/pinecone) WLAN网络审计工具，适合红队使用。它可以通过模块进行扩展，并且设计为在基于 Debian 的操作系统中运行。松果专门用于与树莓派一起使用，作为便携式无线审计盒。
+
 * [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
 
 * [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 简单现代公司域名使用规律预测及生成工具
@@ -4853,6 +4895,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [CoolerVoid/casper-fs](https://github.com/CoolerVoid/casper-fs) 一个自定义隐藏的 Linux 内核模块生成器。每个模块都在文件系统中工作，以保护和隐藏机密文件。
 
 * [DataDog/threatest](https://github.com/DataDog/threatest) 一个用于端到端测试威胁检测规则的 CLI 和 Go 框架。
+
+* [Idov31/MrKaplan](https://github.com/Idov31/MrKaplan) 帮助红队成员通过清除处决证据来隐藏。
+
+* [Chuyu-Team/Dism-Multi-language](https://github.com/Chuyu-Team/Dism-Multi-language) Dism++ (功能全面的Windows系统精简工具)多语言支持和 BUG 报告.
 
 # 硬件
 
@@ -5372,6 +5418,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [golang/go](https://github.com/golang/go) Go 是一种开源编程语言，可以轻松构建简单、可靠且高效的软件。
 
+* [qax-os/excelize](https://github.com/qax-os/excelize) 用于读写Microsoft Excel™ （XLAM / XLSM / XLSX / XLTM / XLTX）电子表格的Go语言库
+
+* [gonum/gonum](https://github.com/gonum/gonum) 用于 Go 编程语言的数字库。它包含矩阵、统计、优化等库
+
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
 
 * [ZhongFuCheng3y/athena](https://github.com/ZhongFuCheng3y/athena) Java后端知识图谱 帮助Java初学者成长
@@ -5834,6 +5884,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) 基于复制和翻译的外语阅读和翻译助手。
 
 * [geekcompany/ResumeSample](https://github.com/geekcompany/ResumeSample) 程序员简历模板系列
+
+* [wenyan-lang/wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
 
 # Star数变化
 
