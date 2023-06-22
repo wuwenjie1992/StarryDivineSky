@@ -72,6 +72,12 @@
 
 * [NirantK/awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas) 机器学习、NLP、视觉、推荐系统项目创意的精选列表
 
+* [Mikoto10032/DeepLearning](https://github.com/Mikoto10032/DeepLearning) 深度学习入门教程, 优秀文章
+
+* [chefyuan/algorithm-base](https://github.com/chefyuan/algorithm-base) 用动画将算法说的通俗易懂
+
+* [MorvanZhou/tutorials](https://github.com/MorvanZhou/tutorials) 机器学习相关教程
+
 * [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南
 
 * [abmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)  神经网络和相关算法的简单 PyTorch 实现的集合。将这些呈现为并排格式化的笔记。我们相信这些将帮助您更好地理解这些算法。
@@ -91,6 +97,14 @@
 * [scutan90/DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions) 深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 分为18个章节，50余万字。
 
 * [mrdbourke/pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning) 学习用于深度学习的 PyTorch：从零到精通课程的材料。
+
+* [ageron/handson-ml3](https://github.com/ageron/handson-ml3) 一系列Jupyter笔记本，引导您使用Scikit-Learn，Keras和TensorFlow 2了解Python中的机器学习和深度学习的基础知识。
+
+* [girls-in-ai/Girls-In-AI](https://github.com/girls-in-ai/Girls-In-AI) 免费学代码系列：小白python入门、数据分析data analyst、机器学习machine learning、深度学习deep learning、kaggle实战
+
+* [cbamls/AI_Tutorial](https://github.com/cbamls/AI_Tutorial) 精选机器学习，NLP，图像识别， 深度学习等人工智能领域学习资料，搜索，推荐，广告系统架构及算法技术资料整理。
+
+* [apachecn/pytorch-doc-zh](https://github.com/apachecn/pytorch-doc-zh) Pytorch 中文文档,PyTorch 是一个针对深度学习, 并且使用 GPU 和 CPU 来优化的 tensor library (张量库)
 
 * [alibaba/MNN](https://github.com/alibaba/MNN) 轻量级的深度神经网络推理引擎
 
@@ -864,6 +878,8 @@
 
 * [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT#auto-gpt-an-autonomous-gpt-4-experiment) 使用GPT4来自动完成目标任务。一个实验性开源应用程序，展示了 GPT-4 语言模型的功能。该程序由 GPT-4 驱动，将 LLM 的“思想”链接在一起，以自主实现您设定的任何目标。作为 GPT-4 完全自主运行的首批示例之一，Auto-GPT 突破了 AI 的可能性界限。
 
+* [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
+
 * [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
 
 * [lonePatient/awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models) 高质量中文预训练模型集合。包括：基础大模型、对话大模型、多模态对话大模型、大模型评估基准、开源模型库平台、开源数据集库、中文指令数据集。
@@ -912,6 +928,7 @@
   
   * [英文开源预训练集 - 51G，包含英文书籍、英文互联网、英文百科](https://huggingface.co/datasets/TigerResearch/pretrain_en) 
   - [中文-微调指令集-合集 - 53W 条 - 下载 [hugging face]](https://huggingface.co/datasets/TigerResearch/sft_zh)
+  
   - [英文-微调指令集-合集 - 67W 条 - 下载 [hugging face]](https://huggingface.co/datasets/TigerResearch/sft_en)
 
 * [masa3141/japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora) 日文指令来微调LLaMA模型
@@ -1186,6 +1203,10 @@
 ### 文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
+
+* [openai/gpt-2](https://github.com/openai/gpt-2) 论文“语言模型是无监督的多任务学习者”中的代码和模型。
+
+* [karpathy/minGPT](https://github.com/karpathy/minGPT) OpenAI GPT（生成预训练转换器）训练的最小 PyTorch 重新实现
 
 * [XiangLi1999/PrefixTuning](https://github.com/XiangLi1999/PrefixTuning)  前缀微调：优化文本生成的连续提示模板。提出一种更好的微调方法，通过加入前缀实现统一模型在不同任务上的微调，实现小样本学习，极大地减少了参数量。目前对于前缀的构造，大致可以分为本文的连续前缀和离散前缀（自动生成或手动设计），对于在摘要任务上加入离散前缀，有点类似于从对话中提取特征或结构，但这种方法的优势就在于它不需要大量的样本，而传统的融入结构的方法仍然需要很多样本。
 
@@ -4132,6 +4153,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 [ctripcorp/drc](https://github.com/ctripcorp/drc) 携程框架架构研发部数据中心组推出的用于数据双向或多向复制的数据库中间件，服务于异地多活项目，同时赋予了业务全球化的部署能力。为了做到真正的数据异地多活，实现MySQL同机房就近读写，机房故障时无需进行数据库DR操作，只进行流量切换，就需要引入数据实时双向(多向)复制组件。
 
+[digoal/blog](https://github.com/digoal/blog) 关于数据库，业务的一切。（大多数用于PostgreSQL）。
+
 # 虚拟化
 
 [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -5260,6 +5283,12 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) 基于vite+vue3+gin搭建的开发基础平台（支持TS,JS混用），集成jwt鉴权，权限管理，动态路由，显隐可控组件，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器。
 
+* [Jack-Cherish/python-spider](https://github.com/Jack-Cherish/python-spider) Python3网络爬虫实战：淘宝、京东、网易云、B站、12306、抖音、笔趣阁、漫画小说下载、音乐电影下载等
+
+* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) 非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
+
+* [fuzhengwei/itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) 《重学Java设计模式》是一本互联网真实案例实践书籍。以落地解决方案为核心，从实际业务中抽离出，交易、营销、秒杀、中间件、源码等22个真实场景，来学习设计模式的运用。
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5296,6 +5325,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python) 从头开始学习Python编程语言的课程，适合初学者。超过30节课，25小时视频，代码和群聊。从基础知识到创建有数据库的后端 API 等等......
 
+* [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python - 100天从新手到大师
+
 * [rasbt/python_reference](https://github.com/rasbt/python_reference/) 有用的函数、教程和其他 Python 相关的东西
 
 * [Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) 100 多个具有挑战性的 Python 编程练习
@@ -5323,6 +5354,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [psf/black](https://github.com/psf/black) 毫不妥协的 Python 代码格式化程序
 
 * [chriskiehl/Gooey](https://github.com/chriskiehl/Gooey) 只需一行即可将（几乎）任何 Python 命令行程序转换为完整的 GUI 应用程序
+
+* [Yixiaohan/codeparkshare](https://github.com/Yixiaohan/codeparkshare) Python初学者（零基础学习Python、Python入门）书籍、视频、资料、社区推荐
 
 ## flutter
 
@@ -5409,6 +5442,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
 
 * [luong-komorebi/Awesome-Linux-Software ](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md) 收集了对任何用户/开发者都觉得超赞的 Linux 应用软件。
+
+* [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫
 
 * [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) 带有视频讲座的计算机科学课程列表。
 
@@ -5565,11 +5600,17 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) 以 C++ 实现的数学、机器学习、计算机科学和物理学中的各种算法的集合，用于教育目的。
 
+* [chengxumiaodaren/cpp-learning](https://github.com/chengxumiaodaren/cpp-learning) C++学习
+
 * [Tencent/libco](https://github.com/Tencent/libco) 广泛应用于微信后台服务的协程库。 已经在数万台机器上运行。
 
 * [cloudwu/coroutine](https://github.com/cloudwu/Coroutine) C 的非对称协程库。
 
-* [attractivechaos/klib](https://github.com/attractivechaos/klib) 独立的轻量级 C 库，在 MIT/X11 许可下分发。 大多数组件都独立于外部库，除了标准 C 库，并且彼此独立。Klib 致力于提高效率和减少内存占用。 就速度和内存使用而言，某些组件（如 khash.h、kbtree.h、ksort.h 和 kvec.h）是所有编程语言中类似算法或数据结构的最有效实现之一。
+* [attractivechaos/klib](https://github.com/attractivechaos/klib) 独立的轻量级 C 库，MIT/X11 许可。 大多数组件都独立于外部库，除了标准 C 库，并且彼此独立。Klib 致力于提高效率和减少内存占用。 就速度和内存使用而言，某些组件（如 khash.h、kbtree.h、ksort.h 和 kvec.h）是所有编程语言中类似算法或数据结构的最有效实现之一。
+
+* [miloyip/json-tutorial](https://github.com/miloyip/json-tutorial) 从零开始的 JSON 库教程 C/C++ 编程
+
+* [liu-jianhao/Cpp-Design-Patterns](https://github.com/liu-jianhao/Cpp-Design-Patterns) C++设计模式
 
 * [3b1b/manim](https://github.com/3b1b/manim) 用于精确编程动画的引擎，专为创建解释性数学视频而设计。
 
@@ -5886,6 +5927,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [geekcompany/ResumeSample](https://github.com/geekcompany/ResumeSample) 程序员简历模板系列
 
 * [wenyan-lang/wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
+
+* [yourtion/30dayMakeOS](https://github.com/yourtion/30dayMakeOS) 《30天自制操作系统》源码中文版。自己制作一个操作系统（OSASK）的过程
+
+* [typst/typst](https://github.com/typst/typst) 一个新的基于标记的排版系统，功能强大且易于学习。
 
 # Star数变化
 
