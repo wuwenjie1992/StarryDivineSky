@@ -78,6 +78,12 @@
 
 * [MorvanZhou/tutorials](https://github.com/MorvanZhou/tutorials) 机器学习相关教程
 
+* [bangoc123/learn-machine-learning-in-two-months](https://github.com/bangoc123/learn-machine-learning-in-two-months) 在 2 个月内学习好机器学习所需的知识。
+
+* [ukas/ml-class](https://github.com/lukas/ml-class) 专为工程师设计的机器学习课程和教学项目
+
+* [Mohitkr95/Best-Data-Science-Resources](https://github.com/Mohitkr95/Best-Data-Science-Resources) 该存储库包含最好的数据科学免费精选资源，可为您提供所有行业驱动的技能和面试准备工具包。
+
 * [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南
 
 * [abmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)  神经网络和相关算法的简单 PyTorch 实现的集合。将这些呈现为并排格式化的笔记。我们相信这些将帮助您更好地理解这些算法。
@@ -326,6 +332,8 @@
 * [safe-graph/UGFraud](https://github.com/safe-graph/UGFraud) 用于欺诈检测的基于图的无监督工具箱
 
 * [squareRoot3/Rethinking-Anomaly-Detection](https://github.com/squareRoot3/Rethinking-Anomaly-Detection) 重新思考用于异常检测的图神经网络
+
+* [yzhao062/anomaly-detection-resources](https://github.com/yzhao062/anomaly-detection-resources) 异常检测相关书籍、论文、视频和工具箱
 
 ## 参数优化
 
@@ -585,6 +593,10 @@
 
 * [TimDettmers/bitsandbytes](https://github.com/TimDettmers/bitsandbytes) 用于 PyTorch 的 8 位 CUDA 函数。具有混合精度分解的 8 位矩阵乘法；8位优化器：Adam，AdamW，RMSProp，LARS，LAMB，Lion（节省75%的内存）；稳定嵌入层：通过更好的初始化和规范化提高稳定性；8 位量化：分位数、线性和动态量化、快速分位数估计：比其他算法快 100 倍。
 
+* [yassouali/awesome-semi-supervised-learning](https://github.com/yassouali/awesome-semi-supervised-learning) 最新和精选的令人敬畏的半监督学习论文，方法和资源列表。未标记的数据可能相对容易收集，但很少有方法可以使用它们。半监督学习通过使用大量未标记的数据以及标记的数据来构建更好的分类器来解决此问题。由于半监督学习需要更少的人力并且具有更高的准确性，因此它在理论和实践中都非常有趣。
+
+* [vespa-engine/vespa](https://github.com/vespa-engine/vespa) 开放的大数据服务引擎。开放的大数据服务引擎 - 在服务时存储、搜索、组织和对大数据进行机器学习推理。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -779,6 +791,8 @@
 * [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) 具有 Transformer 级 LLM 性能的 RNN。它可以像 GPT（可并行化）一样直接训练。因此，它结合了 RNN 和 Transformer 的优点——出色的性能、快速推理、节省 VRAM、快速训练、“无限”ctx_len 和自由句子嵌入。
 
 ## 文本分类
+
+* [kk7nc/Text_Classification](https://github.com/kk7nc/Text_Classification) 一项文本分类算法的调查
 
 * [cnn_multilabel_classification](https://github.com/tcxdgit/cnn_multilabel_classification) 基于TextCNN和Attention的多标签分类
 
@@ -2722,6 +2736,8 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 
 [photoprism/photoprism](https://github.com/photoprism/photoprism) 基于人工智能的去中心化网络照片应用程序。它利用最新技术自动标记和查找图片，而不会妨碍您。您可以在家中、私人服务器或云端运行它。
 
+[magicleap/SuperGluePretrainedNetwork](https://github.com/magicleap/SuperGluePretrainedNetwork)  强力胶：使用图神经网络学习特征匹配 。一个图神经网络，与最佳匹配层相结合，经过训练以对两组稀疏图像特征执行匹配。包括 PyTorch 代码和预训练权重，用于在 SuperPoint 关键点和描述符之上运行 SuperGlue 匹配网络。给定一对图像，可以使用此存储库提取图像对中的匹配特征。
+
 # 因果推断
 
 [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -2821,6 +2837,10 @@ https://github.com/goiter/CoCPC 基于 Copula 的对比预测编码 (Co-CPC)。�
 [tkfy920/qstock](https://github.com/tkfy920/qstock) 打造成个人量化投研分析包，目前包括数据获取（data）、可视化(plot)、选股(stock)和量化回测（策略backtest）模块。 qstock将为用户提供简洁的数据接口和规整化后的金融市场数据。可视化模块为用户提供基于web的交互图形的简单接口； 选股模块提供了同花顺的选股数据和自定义选股，包括RPS、MM趋势、财务指标、资金流模型等； 回测模块为大家提供向量化（基于pandas）和基于事件驱动的基本框架和模型。
 
 [je-suis-tm/quant-trading](https://github.com/je-suis-tm/quant-trading) Python 量化交易策略，包括 VIX 计算器、模式识别、商品交易顾问、蒙特卡洛、期权跨式、射击之星、伦敦突破、Heikin-Ashi、配对交易、RSI、布林带、抛物线 SAR、双推力、真棒、MACD
+
+[AlgoTraders/stock-analysis-engine](https://github.com/AlgoTraders/stock-analysis-engine) 回测 1000 种每分钟交易算法，使用来自 IEX、Tradier 和 FinViz 的自动定价数据训练 AI。数据集和交易表现自动发布到 S3，用于构建 AI 训练数据集，以教授 DNN 如何交易。在 Kubernetes 和 docker-compose 上运行。
+
+[amor71/LiuAlgoTrader](https://github.com/amor71/LiuAlgoTrader) 一个可扩展的、多进程的 ML 就绪框架，用于有效的算法交易。该框架简化了开发、测试、部署、分析和训练算法交易策略。该框架自动分析交易会话、超参数优化，分析可用于训练预测模型。
 
 ## 时间序列
 
@@ -3256,6 +3276,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) Linux 上的实时麦克风噪声抑制。
 
 [werman/noise-suppression-for-voice](https://github.com/werman/noise-suppression-for-voice) 基于Xiph的RNNoise的噪声抑制插件
+
+[ggeop/Python-ai-assistant](https://github.com/ggeop/Python-ai-assistant) Python蟒蛇AI助手 语音命令助手服务，它可以识别人类语音，与用户交谈并执行基本命令。
 
 # 生物医药
 
@@ -3945,6 +3967,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [TAMU-VITA/L2-GCN](https://github.com/TAMU-VITA/L2-GCN) GCN高效分层训练框架
 
+* [mdeff/cnn_graph](https://github.com/mdeff/cnn_graph) 具有快速局部光谱滤波的图卷积神经网络，实现了将流行的卷积神经网络 （CNN） 有效地推广到任意图
+
 ## 图监督_半监督_对比学习
 
 * [THUDM/GRAND](https://github.com/THUDM/GRAND) Graph Random Neural Network ，用于图半监督学习的新型图神经网络框架。在模型架构上，提出了一种简单有效的图数据增强方法 Random Propagation，用来增强模型鲁棒性及减轻过平滑。基于 Random Propagation，GRAND 在优化过程中使用一致性正则（Consistency Regularization）来增强模型的泛化性，即除了优化标签节点的 cross-entropy loss 之外，还会优化模型在无标签节点的多次数据增强的预测一致性。节点预测 state of the Art.
@@ -3968,6 +3992,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [RobertAckleyKid/2022_finvcup_RobertAckley_8363](https://github.com/RobertAckleyKid/2022_finvcup_RobertAckley_8363) 第七届信也科技杯图算法大赛——欺诈用户风险识别 代码 。包括三步：基于GraphSAGE的节点Embedding（与baseline一致），手工加入时序等特征，通过LightGBM分类。
 
 * [pygod-team/pygod](https://github.com/pygod-team/pygod) 用于图异常值检测（异常检测）的 Python 库。包含10多种最新的基于图的检测算法。
+
+* [graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns) 用于基准测试图形神经网络的存储库
+
+* [alibaba/GraphScope](https://github.com/alibaba/GraphScope) 阿里巴巴一站式大规模图计算系统 图分析 图查询 图机器学习
 
 * [tkipf/gae](https://github.com/tkipf/gae) 图自动编码器在TensorFlow中的实现
 
@@ -4154,6 +4182,50 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 [ctripcorp/drc](https://github.com/ctripcorp/drc) 携程框架架构研发部数据中心组推出的用于数据双向或多向复制的数据库中间件，服务于异地多活项目，同时赋予了业务全球化的部署能力。为了做到真正的数据异地多活，实现MySQL同机房就近读写，机房故障时无需进行数据库DR操作，只进行流量切换，就需要引入数据实时双向(多向)复制组件。
 
 [digoal/blog](https://github.com/digoal/blog) 关于数据库，业务的一切。（大多数用于PostgreSQL）。
+
+[zhisheng17/flink-learning](https://github.com/zhisheng17/flink-learning) Flink 入门、概念、原理、实战、性能调优、源码解析等内容。涉及 Flink Connector、Metrics、Library、DataStream API、Table API &amp; SQL 等内容的学习案例，还有 Flink 落地应用的大型项目案例（PVUV、日志存储、百亿数据实时去重、监控告警）分享。
+
+[spotify/annoy](https://github.com/spotify/annoy) C++/Python 中的近似最近邻针对内存使用和加载/保存到磁盘进行了优化
+
+[qdrant/qdrant](https://github.com/qdrant/qdrant) 一个矢量相似性搜索引擎和矢量数据库。它提供生产就绪的服务，并带有方便的 API 来存储、搜索和管理点 - 具有附加有效载荷的矢量 Qdrant 专为扩展过滤支持量身定制。它使其可用于各种神经网络或基于语义的匹配、分面搜索和其他应用程序。
+
+[weaviate/weaviate](https://github.com/weaviate/weaviate) Weaviate 是一个开源矢量数据库，它存储对象和矢量，允许将矢量搜索与结构化过滤与云原生数据库的容错和可扩展性相结合，所有这些都可以通过 GraphQL、REST 和各种语言客户端访问。
+
+[pgvector/pgvector](https://github.com/pgvector/pgvector) Postgres的开源向量相似性搜索
+
+[searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
+
+[benbusby/whoogle-search](https://github.com/benbusby/whoogle-search) 一个自托管、无广告、尊重隐私的元搜索引擎
+
+[elastic/elasticsearch](https://github.com/elastic/elasticsearch) 免费开放、分布式、RESTful 搜索引擎
+
+[typesense/typesense](https://github.com/typesense/typesense) Algolia + Pinecone 的开源替代品和 ElasticSearch 的更易于使用的替代品。 快速、容错、内存模糊搜索引擎，用于构建令人愉悦的搜索体验
+
+[zincsearch/zincsearch](https://github.com/zincsearch/zincsearch) 轻量级elasticsearch 替代方案，需要最少的资源，用 Go 编写。
+
+[apache/lucene-solr](https://github.com/apache/lucene-solr) Apache Lucene和Solr开源搜索软件
+
+[valeriansaliou/sonic](https://github.com/valeriansaliou/sonic) 快速、轻量级和无模式的搜索后端。Elasticsearch的替代方案，运行在几MB的RAM上。
+
+[opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch) 开源分布式和 RESTful 搜索引擎。Elasticsearch 和 Kibana 的社区驱动的开源分支
+
+[quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) 一个全文搜索引擎库，灵感来自Apache Lucene，用Rust编写。
+
+[medcl/elasticsearch-analysis-ik](https://github.com/medcl/elasticsearch-analysis-ik) IK 分析插件将 Lucene IK 分析器集成到 elasticsearch 中，支持自定义词典。
+
+[deviantony/docker-elk](https://github.com/deviantony/docker-elk) 由Docker和Compose提供支持的Elastic stack（ELK）。使用 Elasticsearch 的搜索/聚合功能和 Kibana 的可视化功能来分析任何数据集。
+
+[chrismattmann/tika-python](https://github.com/chrismattmann/tika-python) Tika-Python 是与 Apache Tika REST 服务的 Python 绑定，允许在 Python 社区中本地调用 Tika™。Apache Tika 是一个内容分析工具包，可以检测上千种文件类型，并提取它们的元数据和文本。tika在设计上十分精巧，单一的接口使它易于使用，在搜索引擎索引，内容分析，翻译等诸多方面得到了广泛使用。
+
+[appbaseio/dejavu](https://github.com/appbaseio/dejavu) Elasticsearch 缺少的 Web UI：使用丰富的过滤器和查询视图导入、浏览和编辑数据，直观地创建搜索 UI。
+
+[oramasearch/orama](https://github.com/oramasearch/orama) 快速、内存中、容错、用 TypeScript 编写的全文搜索引擎。
+
+[nextapps-de/flexsearch](https://github.com/nextapps-de/flexsearch) 适用于浏览器和Nodejs的下一代js全文搜索库
+
+[RediSearch/RediSearch](https://github.com/RediSearch/RediSearch) Redis的查询和索引引擎，提供二级索引，全文搜索，矢量相似性搜索和聚合。
+
+[donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) 精选的亚马逊云科技 （AWS） 库、开源存储库、指南、博客和其他资源列表。以 AWSome 的火热仪表为特色。
 
 # 虚拟化
 
@@ -4459,6 +4531,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [sqlsec/ssrf-vuls](https://github.com/sqlsec/ssrf-vuls) 手把手带你用 SSRF 打穿内网靶场源码
 
+* [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) 在渗透测试、漏洞评估、红/蓝团队操作、漏洞赏金等期间有用的出色搜索引擎的精选列表
+
 ## 安卓Android
 
 * [Simp1er/AndroidSec](https://github.com/Simp1er/AndroidSec) 记录一些我自己在学习安卓逆向过程中的海洋的东西
@@ -4522,6 +4596,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) 为黑客、渗透测试人员和安全研究人员收集的各种很棒的列表
 
 * [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
+
+* [grafana/grafana](https://github.com/grafana/grafana) 开放、可组合的可观测性和数据可视化平台。可视化来自多个来源的指标、日志和跟踪，如 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等等。
 
 * [pinecone-wifi/pinecone](https://github.com/pinecone-wifi/pinecone) WLAN网络审计工具，适合红队使用。它可以通过模块进行扩展，并且设计为在基于 Debian 的操作系统中运行。松果专门用于与树莓派一起使用，作为便携式无线审计盒。
 
@@ -5288,6 +5364,20 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) 非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
 
 * [fuzhengwei/itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) 《重学Java设计模式》是一本互联网真实案例实践书籍。以落地解决方案为核心，从实际业务中抽离出，交易、营销、秒杀、中间件、源码等22个真实场景，来学习设计模式的运用。
+
+* [JeffLi1993/springboot-learning-example](https://github.com/JeffLi1993/springboot-learning-example) spring boot 实践学习案例，是 spring boot 初学者及核心技术巩固的最佳实践。
+
+* [doocs/advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
+
+* [YunaiV/yudao-cloud](https://github.com/YunaiV/yudao-cloud) 基于 Spring Cloud Alibaba + MyBatis Plus + Vue &amp; Element 实现的后台管理系统 + 用户小程序，支持 RBAC 动态权限、多租户、数据权限、工作流、三方登录、支付、短信、商城等功能。
+
+* [zhoutaoo/SpringCloud](https://github.com/zhoutaoo/SpringCloud) 基于SpringCloud2.1的微服务开发脚手架，整合了spring-security-oauth2、nacos、feign、sentinel、springcloud-gateway等。服务治理方面引入elasticsearch、skywalking、springboot-admin、zipkin等，让项目开发快速进入业务开发，而不需过多时间花费在架构搭建上。
+
+* [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 & Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
+
+* [macrozheng/mall-learning](https://github.com/macrozheng/mall-learning) mall学习教程，架构、业务、技术要点全方位解析。mall项目（50k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot 2.3.0、MyBatis 3.4.6、Elasticsearch 7.6.2、RabbitMQ 3.7.15、Redis 5.0、MongoDB 4.2.5、Mysql5.7等技术，采用Docker容器化部署。
+
+* [mailpile/Mailpile](https://github.com/mailpile/Mailpile) 一个免费开放的现代，快速的电子邮件客户端，具有用户友好的加密和隐私功能
 
 ## 区块链
 
