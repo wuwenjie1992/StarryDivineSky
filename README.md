@@ -295,7 +295,9 @@
 
 * [arogozhnikov/Einops](https://github.com/arogozhnikov/Einops) 深度学习操作被彻底改造（用于 pytorch、tensorflow、jax 等）. einops(爱因斯坦标记法),让代码可读性更强.
 
-## 特征工程
+* 
+
+https://github.com/haifengl/smile## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
 
@@ -308,6 +310,8 @@
 * [ResidentMario/missingno](https://github.com/ResidentMario/missingno) 灵活且易于使用的缺失数据可视化和实用程序，可让您快速直观地了解数据集的完整性（或缺乏完整性）。 
 
 * [RUCAIBox/Negative-Sampling-Paper](https://github.com/RUCAIBox/Negative-Sampling-Paper) 该知识库收录了与负采样方法相关的 100 篇论文，涵盖推荐系统（**RS**）、计算机视觉（**CV**）、自然语言处理（**NLP**）和对比学习（**CL**）等多个研究领域。
+
+* [haifengl/smile](https://github.com/haifengl/smile) Smile（统计机器智能和学习引擎）是Java和Scala中的快速而全面的机器学习，NLP，线性代数，图形，插值和可视化系统。凭借先进的数据结构和算法，Smile 可提供最先进的性能。
 
 ## 异常检测
 
@@ -1214,6 +1218,10 @@
 
 * [Timothyxxx/Chain-of-ThoughtsPapers](https://github.com/Timothyxxx/Chain-of-ThoughtsPapers) 大型语言模型中的思维链促使引出推理。思想链论文集合
 
+* [zilliztech/GPTCache](https://github.com/zilliztech/GPTCache) LLM 的语义缓存。 与 LangChain 和 llama_index 完全集成。
+
+* [pashpashpash/vault-ai](https://github.com/pashpashpash/vault-ai) 使用 OP Stack（OpenAI + Pinecone Vector Database）为 ChatGPT 提供长期记忆。使用简单的 React 前端上传您自己的自定义知识库文件（PDF、txt、epub 等）。
+
 ### 文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -1871,6 +1879,8 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 [sebastianruder/NLP-progress](https://github.com/sebastianruder/NLP-progress) 用于跟踪自然语言处理 (NLP) 进展的存储库，包括数据集和最常见 NLP 任务的最新技术水平。
 
+[DengBoCong/nlp-paper](https://github.com/DengBoCong/nlp-paper) 自然语言处理领域下的相关论文（附阅读笔记），复现模型以及数据处理等
+
 # 推荐系统
 
 ## 推荐系统算法库与列表
@@ -2463,6 +2473,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [xxxnell/how-do-vits-work](https://github.com/xxxnell/how-do-vits-work) “视觉转换器如何工作？（ICLR 2022 ）”的 PyTorch 实现。CV的多头自注意力 (MSA) 的成功并不在于弱归纳偏差以及捕获远程依赖项。 MSA 不仅是广义的 Convs，而是补充 Convs 的广义空间平滑。特别是，MSA 通过拉平损失情况来改进 NN。一个关键特征是它的数据特异性（数据依赖性），而不是远程依赖性。另一方面，ViTs 遭受非凸损失。MSA 和 Convs 表现出相反的行为，MSA 是低通滤波器，而 Convs 是高通滤波器。MSA 是形状偏向的，而 Convs 是纹理偏向的。因此，MSAs 和 Convs 是互补的。阶段末尾的 MSA（不是模型）显着提高了准确性。我们通过用 MSA 替换阶段结束时的 Convs 来引入 AlterNet。 AlterNet 在大小数据领域都优于 CNN。
 
 [salesforce/LAVIS](https://github.com/salesforce/LAVIS) 用于语言和视觉智能研究和应用的 Python 深度学习库。 该库旨在为工程师和研究人员提供一站式解决方案，以针对其特定的多模式场景快速开发模型，并跨标准和定制数据集对它们进行基准测试。 它具有统一的界面设计以访问:10 多个任务（检索、字幕、视觉问答、多模态分类等）；20 多个数据集（COCO、Flickr、Nocaps、Conceptual Commons、SBU 等）；30 多个最先进的基础语言视觉模型的预训练权重及其特定于任务的改编，包括 ALBEF、BLIP、ALPRO、CLIP。
+
+[willard-yuan/awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers) 经典图像检索论文合集
 
 [lucidrains/imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) 在 Pytorch 中实现谷歌的文本到图像神经网络 Imagen ，谷歌的文本到图像神经网络，击败了 DALL-E2。 它是文本到图像合成的新 SOTA。在架构上上比 DALL-E2 简单得多。 它由一个级联 DDPM 组成，该 DDPM 以来自大型预训练 T5 模型（注意网络）的文本嵌入为条件。 它还包含用于改进分类器自由引导、噪声级调节和内存高效 unet 设计的动态裁剪。
 
@@ -3278,6 +3290,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [werman/noise-suppression-for-voice](https://github.com/werman/noise-suppression-for-voice) 基于Xiph的RNNoise的噪声抑制插件
 
 [ggeop/Python-ai-assistant](https://github.com/ggeop/Python-ai-assistant) Python蟒蛇AI助手 语音命令助手服务，它可以识别人类语音，与用户交谈并执行基本命令。
+
+[spotify/pedalboard](https://github.com/spotify/pedalboard) 由Spotify的音频智能实验室构建，可以在Python和TensorFlow中使用工作室质量的音频效果。`内置音频 I/O 实用程序`：支持在所有平台上读写 AIFF、FLAC、MP3、OGG 和 WAV 文件，无需依赖关系；对读取 AAC、AC3、WMA 和其他格式的额外支持，具体取决于平台；支持对音频文件和流进行动态重采样，内存使用量为 0；通过 AudioStream 的实时音频效果。内置支持许多基本`音频转换`，包括：吉他风格效果；响度和动态范围效果；均衡器和滤波器；空间效果；音高效果；有损压缩；质量降低。在 macOS、Windows 和 Linux 上支持` VST3® 乐器和效果插件`。支持 macOS 上的乐器和效果音频单元。强大的`线程安全性、内存使用和速度保证`，以允许使用多个 CPU 内核，处理单个转换的音频速度比 pySoX 快 300 倍，比 SoxBindings（通过 iCorv）快 2-5 倍，读取音频文件的速度比librosa.load快4倍（在许多情况下）。
 
 # 生物医药
 
@@ -4185,13 +4199,11 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 [zhisheng17/flink-learning](https://github.com/zhisheng17/flink-learning) Flink 入门、概念、原理、实战、性能调优、源码解析等内容。涉及 Flink Connector、Metrics、Library、DataStream API、Table API &amp; SQL 等内容的学习案例，还有 Flink 落地应用的大型项目案例（PVUV、日志存储、百亿数据实时去重、监控告警）分享。
 
-[spotify/annoy](https://github.com/spotify/annoy) C++/Python 中的近似最近邻针对内存使用和加载/保存到磁盘进行了优化
+[donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) 精选的亚马逊云科技 （AWS） 库、开源存储库、指南、博客和其他资源列表。以 AWSome 的火热仪表为特色。
 
-[qdrant/qdrant](https://github.com/qdrant/qdrant) 一个矢量相似性搜索引擎和矢量数据库。它提供生产就绪的服务，并带有方便的 API 来存储、搜索和管理点 - 具有附加有效载荷的矢量 Qdrant 专为扩展过滤支持量身定制。它使其可用于各种神经网络或基于语义的匹配、分面搜索和其他应用程序。
+[spotify/luigi](https://github.com/spotify/luigi) Luigi 是一个 Python 模块，可帮助您构建复杂的批处理作业管道。它处理依赖关系解析、工作流管理、可视化等。它还内置了Hadoop支持。
 
-[weaviate/weaviate](https://github.com/weaviate/weaviate) Weaviate 是一个开源矢量数据库，它存储对象和矢量，允许将矢量搜索与结构化过滤与云原生数据库的容错和可扩展性相结合，所有这些都可以通过 GraphQL、REST 和各种语言客户端访问。
-
-[pgvector/pgvector](https://github.com/pgvector/pgvector) Postgres的开源向量相似性搜索
+## 数据搜索引擎
 
 [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
 
@@ -4225,7 +4237,37 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 [RediSearch/RediSearch](https://github.com/RediSearch/RediSearch) Redis的查询和索引引擎，提供二级索引，全文搜索，矢量相似性搜索和聚合。
 
-[donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) 精选的亚马逊云科技 （AWS） 库、开源存储库、指南、博客和其他资源列表。以 AWSome 的火热仪表为特色。
+[GerevAI/gerev](https://github.com/GerevAI/gerev) 人工智能驱动的企业搜索引擎
+
+
+
+## 向量数据库、向量搜索、最近邻搜索
+
+[spotify/annoy](https://github.com/spotify/annoy) C++/Python 中的近似最近邻针对内存使用和加载/保存到磁盘进行了优化
+
+[qdrant/qdrant](https://github.com/qdrant/qdrant) 一个矢量相似性搜索引擎和矢量数据库。它提供生产就绪的服务，并带有方便的 API 来存储、搜索和管理点 - 具有附加有效载荷的矢量 Qdrant 专为扩展过滤支持量身定制。它使其可用于各种神经网络或基于语义的匹配、分面搜索和其他应用程序。
+
+[weaviate/weaviate](https://github.com/weaviate/weaviate) Weaviate 是一个开源矢量数据库，它存储对象和矢量，允许将矢量搜索与结构化过滤与云原生数据库的容错和可扩展性相结合，所有这些都可以通过 GraphQL、REST 和各种语言客户端访问。
+
+[pgvector/pgvector](https://github.com/pgvector/pgvector) Postgres的开源向量相似性搜索
+
+[FALCONN-LIB/FALCONN](https://github.com/FALCONN-LIB/FALCONN) 余弦和其他最近邻的首次查找（基于快速局部敏感哈希）
+
+[yahoojapan/NGT](https://github.com/yahoojapan/NGT) 使用邻域图和树进行最近邻搜索，以获取高维数据
+
+[hora-search/hora](https://github.com/hora-search/hora) 高效的近似最近邻搜索算法集合库用 Rust 编写。
+
+[marqo-ai/marqo](https://github.com/marqo-ai/marqo) 端到端的多模态矢量搜索引擎。借助 Marqo，用户可以通过单个易于使用的 API 存储和查询非结构化数据，例如文本、图像和代码。输入预处理、机器学习推理和存储都是开箱即用的，可以轻松扩展。
+
+[vearch/vearch](https://github.com/vearch/vearch) 一种基于嵌入的向量检索分布式系统
+
+[currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search) 矢量搜索相关库、服务和研究论文集
+
+[vdaas/vald](https://github.com/vdaas/vald) 高度可扩展的分布式矢量搜索引擎
+
+[docarray/docarray](https://github.com/docarray/docarray) 一个 Python 库，专为多模态数据的表示、传输、存储和检索而精心制作。专为多模态AI应用程序的开发量身定制，其设计可确保与广泛的Python和机器学习生态系统无缝集成。
+
+
 
 # 虚拟化
 
@@ -5446,6 +5488,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [chriskiehl/Gooey](https://github.com/chriskiehl/Gooey) 只需一行即可将（几乎）任何 Python 命令行程序转换为完整的 GUI 应用程序
 
 * [Yixiaohan/codeparkshare](https://github.com/Yixiaohan/codeparkshare) Python初学者（零基础学习Python、Python入门）书籍、视频、资料、社区推荐
+
+* [spotify/chartify](https://github.com/spotify/chartify) Python 库，使数据科学家可以轻松创建图表。
 
 ## flutter
 
