@@ -295,9 +295,9 @@
 
 * [arogozhnikov/Einops](https://github.com/arogozhnikov/Einops) 深度学习操作被彻底改造（用于 pytorch、tensorflow、jax 等）. einops(爱因斯坦标记法),让代码可读性更强.
 
-* 
+* [haifengl/smile](https://github.com/haifengl/smile) Java和Scala中的快速而全面的机器学习，NLP，线性代数，图形，插值和可视化系统。凭借先进的数据结构和算法，Smile 可提供最先进的性能。
 
-https://github.com/haifengl/smile## 特征工程
+## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
 
@@ -421,7 +421,7 @@ https://github.com/haifengl/smile## 特征工程
 
 * [microsoft/nni](https://github.com/microsoft/nni) 用于自动化机器学习生命周期的开源AutoML工具包，包括功能工程，神经体系结构搜索，模型压缩和超参数调整。
 
-* [awslabs/autogluon](https://github.com/awslabs/autogluon) 用于深度学习的AutoML工具包 https://autogluon.mxnet.io
+* [awslabs/autogluon](https://github.com/awslabs/autogluon) 用于深度学习的AutoML工具包 [autogluon.mxnet.io](https://autogluon.mxnet.io)
 
 * [researchmm/CDARTS](https://github.com/researchmm/CDARTS) 循环可微架构搜索
 
@@ -496,6 +496,8 @@ https://github.com/haifengl/smile## 特征工程
 * [vikasverma1077/manifold_mixup](https://github.com/vikasverma1077/manifold_mixup) 数据增强⽅法,目标是通过插入示例的隐藏状态来学习鲁棒的特征。 我们的方法学习到的表征更具判别性和紧凑性。 
 
 * [pytorch/serve](https://github.com/pytorch/serve) 在生产环境中提供、优化和扩展 PyTorch 模型。特色：`模型管理 API`：通过优化从角色到模型的分配进行多模型管理、`推理 API`：对批量推理的 REST 和 gRPC 支持、`TorchServe 工作流`：使用多个相互依赖的模型部署复杂的 DAG、`导出模型以进行优化推理`：开箱即用的Torchscript，ORT和ONNX，IPEX，TensorRT，FasterTransformer、`性能指南`：内置支持优化、基准测试和分析 PyTorch 和 TorchServe 性能、`富有表现力的处理程序`：一种富有表现力的处理程序体系结构，通过开箱即用的支持，支持对用例的推理变得微不足道、`指标 API`：通过 Prometheus 导出、自定义指标和 PyTorch 分析器支持对系统级指标的开箱即用支持
+
+* [PaddlePaddle/PaddleHub](https://github.com/PaddlePaddle/PaddleHub) 基于PaddlePaddle的真棒预训练模型工具包。（400+模型，包括图像，文本，音频，视频和跨模态，易于推理和服务）
 
 * [streamlit/streamlit](https://github.com/streamlit/streamlit)  用 Python 构建数据应用程序的最快方法
 
@@ -2750,6 +2752,8 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 
 [magicleap/SuperGluePretrainedNetwork](https://github.com/magicleap/SuperGluePretrainedNetwork)  强力胶：使用图神经网络学习特征匹配 。一个图神经网络，与最佳匹配层相结合，经过训练以对两组稀疏图像特征执行匹配。包括 PyTorch 代码和预训练权重，用于在 SuperPoint 关键点和描述符之上运行 SuperGlue 匹配网络。给定一对图像，可以使用此存储库提取图像对中的匹配特征。
 
+[neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources) 免费图库摄影、视频和插图网站的链接集合
+
 # 因果推断
 
 [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -4111,6 +4115,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes) 大数据入门指南
 
+[newTendermint/awesome-bigdata](https://github.com/newTendermint/awesome-bigdata) 令人敬畏的大数据框架、资源和其他令人敬畏的精选列表。
+
 [guangzhengli/k8s-tutorials](https://github.com/guangzhengli/k8s-tutorials) k8s 教程
 
 [seata/seata](https://github.com/seata/seata) 简单可扩展的自主事务体系结构
@@ -4239,8 +4245,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 [GerevAI/gerev](https://github.com/GerevAI/gerev) 人工智能驱动的企业搜索引擎
 
-
-
 ## 向量数据库、向量搜索、最近邻搜索
 
 [spotify/annoy](https://github.com/spotify/annoy) C++/Python 中的近似最近邻针对内存使用和加载/保存到磁盘进行了优化
@@ -4266,8 +4270,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 [vdaas/vald](https://github.com/vdaas/vald) 高度可扩展的分布式矢量搜索引擎
 
 [docarray/docarray](https://github.com/docarray/docarray) 一个 Python 库，专为多模态数据的表示、传输、存储和检索而精心制作。专为多模态AI应用程序的开发量身定制，其设计可确保与广泛的Python和机器学习生态系统无缝集成。
-
-
 
 # 虚拟化
 
@@ -4631,13 +4633,19 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 ## 其他_安全与渗透
 
+* [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) 保护您的数字安全和隐私的精选提示清单
+
 * [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) 自动 SQL 注入和数据库接管工具
 
 * [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行、cli/web 工具等。
 
+* [carpedm20/awesome-hacking](https://github.com/carpedm20/awesome-hacking) 黑客教程，工具和资源的精选列表
+
 * [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) 为黑客、渗透测试人员和安全研究人员收集的各种很棒的列表
 
 * [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
+
+* [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) Flipper Zero设备的精彩资源集合。Flipper Zero配备了多种用于黑客的工具。您有用于模拟遥控器的无线电，RFID阅读器，红外收发器，甚至是GPIO引脚。
 
 * [grafana/grafana](https://github.com/grafana/grafana) 开放、可组合的可观测性和数据可视化平台。可视化来自多个来源的指标、日志和跟踪，如 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等等。
 
@@ -5041,6 +5049,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [Chuyu-Team/Dism-Multi-language](https://github.com/Chuyu-Team/Dism-Multi-language) Dism++ (功能全面的Windows系统精简工具)多语言支持和 BUG 报告.
 
+* [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) 带有开发SDK的OpenCore引导加载程序。
+
 # 硬件
 
 ## CPU RISC-V
@@ -5137,11 +5147,13 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [microdynamics-cpu/tree-core-ide](https://github.com/microdynamics-cpu/tree-core-ide) 用于处理器设计和验证的下一代集成开发环境。它具有多硬件语言支持、开源 IP 管理和易于使用的 RTL 仿真工具集。
 
-* [https://github.com/microdynamics-cpu/tree-core-cpu](https://github.com/microdynamics-cpu/tree-core-cpu) 从零开始编写的一系列RISC-V软核处理器。现在，我们使用所有开源工具链（凿子，铣削，验证器，NEMU，AM和difftest框架等）进行设计和验证。
+* [microdynamics-cpu/tree-core-cpu](https://github.com/microdynamics-cpu/tree-core-cpu) 从零开始编写的一系列RISC-V软核处理器。现在，我们使用所有开源工具链（凿子，铣削，验证器，NEMU，AM和difftest框架等）进行设计和验证。
 
 ## 硬件_其他
 
 * [zhengnianli/EmbedSummary](https://github.com/zhengnianli/EmbedSummary) 精品嵌入式资源汇总
+
+* [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) 树莓派工具、项目、图像和资源的精选列表
 
 * [Lichee-Pi/Tang_FPGA_Examples](https://github.com/Lichee-Pi/Tang_FPGA_Examples) LicheeTang FPGA例程
 
@@ -5214,6 +5226,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
 
 * [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
+
+* [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) 与 Vite 相关的精彩事物的精选列表
 
 * [django/django](https://github.com/django/django) 高级 Python Web 框架，它鼓励快速开发和干净、实用的设计。
 
@@ -5421,6 +5435,24 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [mailpile/Mailpile](https://github.com/mailpile/Mailpile) 一个免费开放的现代，快速的电子邮件客户端，具有用户友好的加密和隐私功能
 
+* [makeplane/plane](https://github.com/makeplane/plane) 开源自托管项目规划工具，可帮助您以最简单的方式跟踪问题、历史和产品路线图。
+
+* [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre) 站点可靠性和生产工程资源的精选列表。站点可靠性工程（SRE）是 IT 运维的软件工程方案。
+
+* [humiaozuzu/awesome-flask](https://github.com/humiaozuzu/awesome-flask) 精选的 Flask ( python web 框架) 资源和插件列表
+
+* [aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss) 实用工具优先的 CSS 框架，用于快速构建自定义用户界面。
+
+* [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) 来自Laravel生态系统的书签，软件包，教程，视频和其他酷炫资源的精选列表
+
+* [phanan/htaccess](https://github.com/phanan/htaccess) 有用的 .htaccess 代码段的集合。
+
+* [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) 微服务架构相关原则和技术的精选列表。
+
+* [xgrommx/awesome-redux](https://github.com/xgrommx/awesome-redux) JS 应用的状态容器，提供可预测的状态管理
+
+* [Lissy93/dashy](https://github.com/Lissy93/dashy) 为您构建的自托管个人仪表板。包括状态检查，小部件，主题，图标包，UI编辑器等等！
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5582,6 +5614,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) 带有视频讲座的计算机科学课程列表。
 
 * [ForrestKnight/open-source-cs](https://github.com/ForrestKnight/open-source-cs) 来自麻省理工学院、斯坦福和普林斯顿等知名大学的精选免费课程列表，与本科计算机科学学位相同的要求，减去通识教育。
+
+* [lnishan/awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming) 竞争性编程、算法和数据结构资源的精选列表
 
 * [apple/swift](https://github.com/apple/swift) Swift 是一种高性能的系统编程语言。它具有简洁现代的语法，提供对现有 C 和 Objective-C 代码和框架的无缝访问，并且默认情况下是内存安全的。
 
@@ -6065,6 +6099,30 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [yourtion/30dayMakeOS](https://github.com/yourtion/30dayMakeOS) 《30天自制操作系统》源码中文版。自己制作一个操作系统（OSASK）的过程
 
 * [typst/typst](https://github.com/typst/typst) 一个新的基于标记的排版系统，功能强大且易于学习。
+
+* [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) eovim 插件的集合
+
+* [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy)   一个联邦宇宙的链接聚合器。 类似于 Reddit、Lobste.rs 或 Hacker News 等网站：您订阅您所感兴趣的社群，发布链接和讨论，然后对它们进行投票和评论。 Lemmy 不仅仅是 reddit 的替代品；它是一个由不同人和组织运营的相互关联的社群网络，所有这些社群结合起来创建一个充满您最喜欢的新闻、文章和迷因的独立且个性化的首页。
+
+* [bnb/awesome-hyper](https://github.com/bnb/awesome-hyper) 令人愉快的*CLI*超级插件、主题和资源
+
+* [hackerkid/Mind-Expanding-Books](https://github.com/hackerkid/Mind-Expanding-Books)  思维扩展书籍 每个人都应该读的书！
+
+* [JStumpp/awesome-android](https://github.com/JStumpp/awesome-android) 一个精选的 Android 软件包和资源列表。
+
+* [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd) 域驱动设计 （DDD）、命令查询责任分离 （CQRS）、事件溯源和事件风暴资源的精选列表
+
+* [rShetty/awesome-podcasts](https://github.com/rShetty/awesome-podcasts) 软件工程师的重要播客列表
+
+* [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) 创意编码：生成艺术，数据可视化，交互设计，资源。
+
+* [immich-app/immich](https://github.com/immich-app/immich) 直接从您的手机进行自托管照片和视频备份解决方案。
+
+* [SwifterSwift/SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) 包含 500 多个原生 Swift 扩展的便捷集合，可提高您的工作效率。
+
+* [ellisonleao/magictools](https://github.com/ellisonleao/magictools) 游戏开发资源列表。
+
+* [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) 命令行应用的精选列表
 
 # Star数变化
 
