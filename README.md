@@ -66,9 +66,13 @@
 
 * [fengdu78/deeplearning_ai_books](https://github.com/fengdu78/deeplearning_ai_books) deeplearning.ai（吴恩达老师的深度学习课程笔记及资源）
 
+* [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) 精选的开源库列表，用于部署、监控、版本控制和扩展您的机器学习
+
 * [nndl/nndl.github.io](https://github.com/nndl/nndl.github.io) 《神经网络与深度学习》 邱锡鹏著 
 
 * [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) 500 个 AI 机器学习 深度学习 计算机视觉 NLP 代码项目
+
+* [ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) 学习成为机器学习工程师的完整日常计划。
 
 * [NirantK/awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas) 机器学习、NLP、视觉、推荐系统项目创意的精选列表
 
@@ -902,6 +906,8 @@
 
 * [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
 
+* [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) GLM-130B是一个开放的双语（英汉）双向密集模型，具有1300亿个参数，使用通用语言模型（GLM）算法进行预训练。它旨在支持单个 A100 （40G * 8） 或 V100 （32G * 8） 上具有 130B 参数的推理任务。通过 INT4 量化，硬件可以进一步降低到具有 4 * RTX3090 24G 的单个服务器，几乎没有性能下降。
+
 * [lonePatient/awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models) 高质量中文预训练模型集合。包括：基础大模型、对话大模型、多模态对话大模型、大模型评估基准、开源模型库平台、开源数据集库、中文指令数据集。
 
 * [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) MiniGPT-4：使用高级大型语言模型增强视觉语言理解 提供与 Vicuna-7B 对齐的预训练 MiniGPT-4！演示 GPU 内存消耗现在可以低至 12GB。
@@ -918,9 +924,15 @@
 
 * [OpenLMLab/MOSS](https://github.com/OpenLMLab/MOSS) 支持中英双语和多种插件的开源对话语言模型，moss-moon系列模型具有160亿参数。开源数据: moss-002-sft-data: 多轮对话数据，覆盖有用性、忠实性、无害性三个层面，包含由text-davinci-003生成的约57万条英文对话和59万条中文对话。moss-003-sft-data: 多轮对话数据，基于MOSS-002内测阶段采集的约10万用户输入数据和gpt-3.5-turbo构造而成，更加符合真实用户意图分布，包含更细粒度的有用性类别标记、更广泛的无害性数据和更长对话轮数，约含110万条对话数据。moss-003-sft-plugin-data: 插件增强的多轮对话数据，包含支持搜索引擎、文生图、计算器、解方程等四个插件在内的约30万条多轮对话数据。moss-003-pm-data: 偏好数据，包含在约18万额外对话上下文数据及使用moss-moon-003-sft所产生的回复数据上构造得到的偏好对比数据。
 
+* [baichuan-inc/baichuan-7B](https://github.com/baichuan-inc/baichuan-7B) 百川公司开发的大规模7B预训练语言模型。一个开源可商用的大规模预训练语言模型。基于 Transformer 结构，在大约 1.2 万亿 tokens 上训练的 70 亿参数模型，支持中英双语，上下文窗口长度为 4096。在标准的中文和英文 benchmark（C-Eval/MMLU）上均取得同尺寸最好的效果。
+
 * [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
 
 * [lm-sys/FastChat](https://github.com/lm-sys/FastChat) 令人印象深刻的 GPT-4 开放式聊天机器人 Vicuna：一个以 90% ChatGPT 质量的开源聊天机器人。
+
+* [project-baize/baize-chatbot](https://github.com/project-baize/baize-chatbot) 使用 LoRA 训练的开源聊天模型.它使用通过让 ChatGPT 与自己聊天生成的 100k 对话。还使用羊驼的数据来提高其性能。已发布了 7B、13B 和 30B 模型。
+
+* [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) 以数据为中心的 FinGPT。开源开放金融！革新
 
 * [EleutherAI/gpt-neox](https://github.com/EleutherAI/gpt-neox) 在GPU上训练大规模语言模型。基于 NVIDIA 的威震天语言模型，并已通过 DeepSpeed 的技术以及一些新颖的优化进行了增强。目标是使这个存储库成为一个集中且可访问的地方，以收集用于训练大规模自回归语言模型的技术，并加速对大规模训练的研究。
 
@@ -995,6 +1007,8 @@
 
 * [wangzhaode/ChatGLM-MNN](https://github.com/wangzhaode/ChatGLM-MNN) 纯C++，易于部署的ChatGLM-6B。
 
+* [vllm-project/vllm](https://github.com/vllm-project/vllm) 适用于 LLM 的高吞吐量和内存效率推理和服务引擎。在吞吐量方面，vLLM 的性能比拥抱面转换器 （HF） 高出 24 倍，文本生成推理 （TGI） 高出 3.5 倍。使用**PagedAttention**分页注意力高效管理注意力键和值存储器。
+
 * [adams549659584/go-proxy-bingai](https://github.com/adams549659584/go-proxy-bingai)用 Vue3 和 Go 搭建的微软 New Bing 演示站点，拥有一致的 UI 体验，支持 ChatGPT 提示词，国内可用。
 
 * [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) 包含 ChatGPT 提示，以更好地使用 ChatGPT
@@ -1062,6 +1076,8 @@
 * [xtekky/gpt4free](https://github.com/xtekky/gpt4free) 免费使用GPT4模型 [typescript版本](https://github.com/xiangsx/gpt4free-ts) 
 
 * [saharmor/awesome-chatgpt](https://github.com/saharmor/awesome-chatgpt) 精选的 ChatGPT 演示、工具、文章等
+
+* [JushBJJ/Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) GPT-4 AI 导师提示，用于可定制的个性化学习体验。
 
 * [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) 科研工作专用ChatGPT/GLM拓展，特别优化学术Paper润色体验，模块化设计支持自定义快捷按钮&函数插件，支持代码块表格显示，Tex公式双显示，新增Python和C++项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持gpt-3.5/gpt-4/chatglm
 
@@ -1224,6 +1240,14 @@
 
 * [pashpashpash/vault-ai](https://github.com/pashpashpash/vault-ai) 使用 OP Stack（OpenAI + Pinecone Vector Database）为 ChatGPT 提供长期记忆。使用简单的 React 前端上传您自己的自定义知识库文件（PDF、txt、epub 等）。
 
+* [jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese](https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese) 聚宝盆(Cornucopia): 基于中文金融知识的LLaMA微调模型；涉及SFT、RLHF、GPU训练部署等
+
+* [THUDM/WebGLM](https://github.com/THUDM/WebGLM) 迈向具有人类偏好的高效网络增强问答系统。WebGLM希望使用100亿参数的GLM，提供高效且具有成本效益的Web增强问答系统。它旨在通过将 Web 搜索和检索功能集成到预先训练的语言模型中来改进实际应用程序部署。
+
+* [FreedomIntelligence/HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT) 华佗GPT，迈向驯服语言模型成为医生。在庞大的中国医学语料库上训练的大型语言模型（LLM）。我们与华拓GPT的目标是为医疗咨询场景构建更专业的“ChatGPT”。[demo](https://www.huatuogpt.cn/) 
+
+* [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) 拖放UI以构建自定义LLM流程
+
 ### 文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -1275,6 +1299,8 @@
 * [RUCAIBox/Context-Tuning](https://github.com/RUCAIBox/Context-Tuning) 上下文调优：学习上下文提示用于自然语言生成
 
 * [samueldobbie/markup](https://github.com/samueldobbie/markup) 基于Web的文档注释工具，由GPT-3  提供支持
+
+* [deeppavlov/DeepPavlov](https://github.com/deeppavlov/DeepPavlov) 用于深度学习端到端对话系统和聊天机器人的开源库。
 
 ## 文本匹配 文本相似度
 
@@ -1524,9 +1550,21 @@
 
 * [liucongg/NLPDataSet](https://github.com/liucongg/NLPDataSet) 数据集包括：DRCD、cmrc2018、chinese-squad、中医数据集、法研杯2019、莱斯杯机器阅读理解、疫情QA、WebQA、Dureader等9个数据集。
 
+* [C-Eval 数据集](https://cevalbenchmark.com/index.html)是一个全面的中文基础模型评测数据集，涵盖了 52 个学科和四个难度的级别。
+
+* [Gaokao](https://github.com/OpenLMLab/GAOKAO-Bench) 是一个以中国高考题作为评测大语言模型能力的数据集，用以评估模型的语言能力和逻辑推理能力。 我们只保留了其中的单项选择题，随机划分后对所有模型进行统一 `5-shot` 测试。
+
+* [MMLU](https://arxiv.org/abs/2009.03300) 是包含 57 个多选任务的英文评测数据集，涵盖了初等数学、美国历史、计算机科学、法律等，难度覆盖高中水平到专家水平，是目前主流的LLM评测数据集。
+
+* [microsoft/AGIEval](https://github.com/microsoft/AGIEval) 以人为本的基准，专门用于评估基础模型在与人类认知和解决问题相关的任务中的一般能力。该基准源自 20 项针对普通人类考生的官方、公共和高标准入学和资格考试，例如普通大学入学考试（例如，中国高考（高考）和美国 SAT）、法学院入学考试、数学竞赛、律师资格考试和国家公务员考试。
+
 * [thunlp/Few-NERD](https://github.com/thunlp/Few-NERD) 一个大规模的人工标注的用于少样本命名实体识别任务的数据集。该数据集包含8种粗粒度和66种细粒度实体类型，每个实体标签均为粗粒度+细粒度的层级结构，共有18万维基百科句子，460万个词，每个词都被注释为上下文（context）或一个实体类型的一部分。
 
 * [CLUEbenchmark/CLUECorpus2020](https://github.com/CLUEbenchmark/CLUECorpus2020) 通过对[Common Crawl](http://commoncrawl.org)的中文部分进行语料清洗，最终得到100GB的高质量中文预训练语料。实验产出的模型见：[高质量中文预训练模型，大号、超小和相似度预训练模型。](https://github.com/CLUEbenchmark/CLUEPretrainedModels)
+
+* [esbatmop/MNBVC](https://github.com/esbatmop/MNBVC) Massive Never-ending BT Vast Chinese corpus超大规模中文语料集。对标chatGPT训练的40T数据。MNBVC数据集不但包括主流文化，也包括各个小众文化甚至火星文的数据。MNBVC数据集包括新闻、作文、小说、书籍、杂志、论文、台词、帖子、wiki、古诗、歌词、商品介绍、笑话、糗事、聊天记录等一切形式的纯文本中文数据。
+
+* [oscar-corpus/OSCAR-2201](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201)  通过使用 unoliant 架构对通用爬网语料库进行语言分类和过滤而获得的一个巨大的多语言语料库。数据以原始形式和重复数据删除形式按语言分发。
 
 * [festvox/datasets-CMU_DoG](https://github.com/festvox/datasets-CMU_DoG) CMU 文档基础对话数据集 该数据集包含 4112 个对话，每个对话平均 21.43 轮。这使该数据集可以在生成响应的同时提供相关的聊天历史记录。
 
@@ -4245,6 +4283,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 [GerevAI/gerev](https://github.com/GerevAI/gerev) 人工智能驱动的企业搜索引擎
 
+[alibaba/Chat2DB](https://github.com/alibaba/Chat2DB) 智能且通用的SQL客户端和数据库报告工具，集成了ChatGPT功能。
+
 ## 向量数据库、向量搜索、最近邻搜索
 
 [spotify/annoy](https://github.com/spotify/annoy) C++/Python 中的近似最近邻针对内存使用和加载/保存到磁盘进行了优化
@@ -5453,6 +5493,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [Lissy93/dashy](https://github.com/Lissy93/dashy) 为您构建的自托管个人仪表板。包括状态检查，小部件，主题，图标包，UI编辑器等等！
 
+* [openedx/edx-platform](https://github.com/openedx/edx-platform) 一个面向服务的平台，用于创作和提供任何规模的在线学习。该平台是用Python和JavaScript编写的，并广泛使用Django框架。在最高级别，该平台由一个整体、一些可独立部署的应用程序（IDA）和基于ReactJS的微前端（MFE）组成。
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5617,11 +5659,17 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [lnishan/awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming) 竞争性编程、算法和数据结构资源的精选列表
 
+* [lk-geimfari/awesomo](https://github.com/lk-geimfari/awesomo) 用各种语言编写的很酷的开源项目。
+
 * [apple/swift](https://github.com/apple/swift) Swift 是一种高性能的系统编程语言。它具有简洁现代的语法，提供对现有 C 和 Objective-C 代码和框架的无缝访问，并且默认情况下是内存安全的。
 
 * [golang/go](https://github.com/golang/go) Go 是一种开源编程语言，可以轻松构建简单、可靠且高效的软件。
 
+* [dariubs/GoBooks](https://github.com/dariubs/GoBooks) go书籍列表
+
 * [qax-os/excelize](https://github.com/qax-os/excelize) 用于读写Microsoft Excel™ （XLAM / XLSM / XLSX / XLTM / XLTX）电子表格的Go语言库
+
+* [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) Go 语法和功能概述。
 
 * [gonum/gonum](https://github.com/gonum/gonum) 用于 Go 编程语言的数字库。它包含矩阵、统计、优化等库
 
@@ -6123,6 +6171,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [ellisonleao/magictools](https://github.com/ellisonleao/magictools) 游戏开发资源列表。
 
 * [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) 命令行应用的精选列表
+
+* [Freelander/Android_Data](https://github.com/Freelander/Android_Data) 一些安卓学习资料，希望能帮你学习安卓开发。
 
 # Star数变化
 
