@@ -64,6 +64,8 @@
 
 * [ShusenTang/Dive-into-DL-PyTorch](https://github.com/ShusenTang/Dive-into-DL-PyTorch) 本项目将《动手学深度学习》(Dive into Deep Learning)原书中的MXNet实现改为PyTorch实现。
 
+* [ageron/handson-ml2](https://github.com/ageron/handson-ml2) 一系列Jupyter笔记本，引导您使用Scikit-Learn，Keras和TensorFlow 2了解Python中的机器学习和深度学习的基础知识。
+
 * [fengdu78/deeplearning_ai_books](https://github.com/fengdu78/deeplearning_ai_books) deeplearning.ai（吴恩达老师的深度学习课程笔记及资源）
 
 * [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) 精选的开源库列表，用于部署、监控、版本控制和扩展您的机器学习
@@ -2404,6 +2406,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [meituan/YOLOv6](https://github.com/meituan/YOLOv6) 专用于工业应用的单阶段目标检测框架。
 
+[xuebinqin/U-2-Net](https://github.com/xuebinqin/U-2-Net) 我们在 Pattern Recognition 2020 上新接受的论文的代码：“U^2-Net：使用嵌套 U 结构进行突出对象检测的深入发展”。
+
 [iscyy/yoloair](https://github.com/iscyy/yoloair) 基于PyTorch的YOLO算法库。统一模型代码框架、统一应用、统一改进、易于模块组合、构建更强大的网络模型。
 
 [PaddlePaddle/PaddleClas](https://github.com/PaddlePaddle/PaddleClas) 飞桨图像识别套件 PaddleClas 是飞桨为工业界和学院所准备的一个图像任务的工具集，桌面和用户训练出更好的图像分类和应用落地。PaddleClas 前沿分类、识别相关支持算法，发布行业级特色骨算法PP-HGNet、PP-LCNetv2、PP-LCNet和SSLD 半监督干式网络知识模型等模型，在此基础上打造PULC 超轻量级分类分类方案和PP-ShiTu图像识别系统。
@@ -2455,6 +2459,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet) 用于对象检测的神经网络 YOLOv4 / Scaled-YOLOv4 / YOLO
 
 [ttengwang/Caption-Anything](https://github.com/ttengwang/Caption-Anything) 一款结合了图像分割、视觉字幕和 ChatGPT 的多功能工具，可根据用户偏好生成具有不同控件的定制字幕。
+
+[WZMIAOMIAO/deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing) 用于图像处理的深度学习，包括分类和对象检测等。
 
 ## 图像风格
 
@@ -2791,6 +2797,8 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 [magicleap/SuperGluePretrainedNetwork](https://github.com/magicleap/SuperGluePretrainedNetwork)  强力胶：使用图神经网络学习特征匹配 。一个图神经网络，与最佳匹配层相结合，经过训练以对两组稀疏图像特征执行匹配。包括 PyTorch 代码和预训练权重，用于在 SuperPoint 关键点和描述符之上运行 SuperGlue 匹配网络。给定一对图像，可以使用此存储库提取图像对中的匹配特征。
 
 [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources) 免费图库摄影、视频和插图网站的链接集合
+
+[aleju/imgaug](https://github.com/aleju/imgaug) 机器学习实验的图像增强。
 
 # 因果推断
 
@@ -4149,6 +4157,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) 一个高可用、高性能、横向扩展、兼容SQL标准的企业级分布式关系数据库。蚂蚁集团从零开始构建的分布式关系 SQL 数据库。它具有高度可扩展性、弹性，可以同时处理事务和分析工作负载，并且与 MySQL 语法和功能高度兼容。OceanBase 可以部署在任何云中的虚拟机或本地物理主机上。同时，由于是多租户集群，用户可以实现数据库资源池化，提高效率。
 
+[pingcap/tidb](https://github.com/pingcap/tidb) 开源、云原生、分布式、MySQL 兼容数据库，用于弹性扩展和实时分析。开源分布式SQL数据库，支持混合事务和分析处理（HTAP）工作负载。它与 MySQL 兼容，并具有水平可扩展性、强一致性和高可用性。
+
 [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) 一个更新和有组织的阅读列表，用于说明可扩展、可靠和高性能的大型系统的模式。概念在著名工程师的文章和可靠的参考文献中进行了解释。案例研究取自为数百万至数十亿用户提供服务的经过实战考验的系统。
 
 [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes) 大数据入门指南
@@ -5091,6 +5101,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) 带有开发SDK的OpenCore引导加载程序。
 
+* [radareorg/radare2](https://github.com/radareorg/radare2) 类 UNIX 逆向工程框架和命令行工具集。最初是一个简单的命令行十六进制编辑器，专注于取证。今天，r2 是一个功能丰富的低级命令行工具，支持脚本编写。R2 可以编辑本地硬盘驱动器上的文件、查看内核内存以及在本地或通过远程 GDB 服务器调试程序。R2 广泛的架构支持允许您分析、模拟、调试、修改和反汇编任何二进制文件。
+
 # 硬件
 
 ## CPU RISC-V
@@ -5252,6 +5264,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [brickbots/HandiPi](https://github.com/brickbots/HandiPi) 带键盘和显示屏的手持式 树莓派4 计算机
 
 * [mit-han-lab/tiny-training](https://github.com/mit-han-lab/tiny-training) 256KB 内存下的设备上训练DNN
+
+* [pbatard/rufus](https://github.com/pbatard/rufus) 一个实用程序，可帮助格式化和创建可启动的USB闪存驱动器。
 
 # 网络与前后端开发
 
@@ -5494,6 +5508,30 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [Lissy93/dashy](https://github.com/Lissy93/dashy) 为您构建的自托管个人仪表板。包括状态检查，小部件，主题，图标包，UI编辑器等等！
 
 * [openedx/edx-platform](https://github.com/openedx/edx-platform) 一个面向服务的平台，用于创作和提供任何规模的在线学习。该平台是用Python和JavaScript编写的，并广泛使用Django框架。在最高级别，该平台由一个整体、一些可独立部署的应用程序（IDA）和基于ReactJS的微前端（MFE）组成。
+
+* [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) 第一个没有任何类型的用户标识符的消息传递平台 - 设计100%私有！iOS和安卓应用程序发布
+
+* [papercups-io/papercups](https://github.com/papercups-io/papercups) 开源实时客户聊天。用Elixir编写的开源实时客户支持工具Web应用程序。
+
+* [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) 将数据保护放在首位的通信平台。开源的完全可定制的通信平台，用JavaScript开发，适用于具有高标准数据保护的组织。
+
+* [Wechat-Group/WxJava](https://github.com/Wechat-Group/WxJava) 微信开发 Java SDK ，支持包括微信支付，开放平台，小程序，企业微信，公众号等的后端开发
+
+* [purescript/purescript](https://github.com/purescript/purescript) 一种小型的强类型编程语言，具有表达类型，编译为 JavaScript，由 Haskell 编写并受其启发。
+
+* [wasp-lang/wasp](https://github.com/wasp-lang/wasp) 使用 React 和 Node.js 开发全栈 Web 应用程序的最快方法。
+
+* [ant-design/ant-design](https://github.com/ant-design/ant-design) 企业级 UI 设计语言和 React UI 库
+
+* [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) 30 天的 JavaScript 编程挑战是在 30 天内学习 JavaScript 编程语言的分步指南。
+
+* [ninenines/cowboy](https://github.com/ninenines/cowboy) 用于 Erlang/OTP 的小型、快速、现代的 HTTP 服务器。
+
+* [vernemq/vernemq](https://github.com/vernemq/vernemq) 基于 Erlang/OTP 的分布式 MQTT 消息代理。专为高质量和工业用例而设计。
+
+* [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 一个离线IP地址管理器框架和定位器，支持数十亿个数据段，十微秒搜索性能。适用于多种编程语言的 XDB 引擎实现
+
+* [ossrs/srs](https://github.com/ossrs/srs) SRS是一个简单，高效，实时的视频服务器，支持RTMP，WebRTC，HLS，HTTP-FLV，SRT，MPEG-DASH和GB28181。
 
 ## 区块链
 
@@ -6173,6 +6211,40 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) 命令行应用的精选列表
 
 * [Freelander/Android_Data](https://github.com/Freelander/Android_Data) 一些安卓学习资料，希望能帮你学习安卓开发。
+
+* [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
+
+* [asdf-vm/asdf](https://github.com/asdf-vm/asdf) 可扩展的版本管理器，支持Ruby，Node.js，Elixir，Erlang等
+
+* [bbatsov/clojure-style-guide](https://github.com/bbatsov/clojure-style-guide) Clojure编程语言的社区编码风格指南
+
+* [unisonweb/unison](https://github.com/unisonweb/unison) 一种现代的静态纯函数式语言，能够使用单个程序描述整个分布式系统。
+
+* [typelead/eta](https://github.com/typelead/eta) Eta编程语言，JVM上Haskell的一种方言
+
+* [koka-lang/koka](https://github.com/koka-lang/koka) Koka 语言编译器和解释器
+
+* [gleam-lang/gleam](https://github.com/gleam-lang/gleam) 用于构建类型安全、可扩展系统的友好语言。它可以编译为Erlang（或JS），并与其他BEAM语言（如Erlang，Elixir和LFE）具有直接的互操作。
+
+* [lunatic-solutions/lunatic](https://github.com/lunatic-solutions/lunatic) 用于快速、健壮和可扩展的服务器端应用程序的通用运行时。它的灵感来自 Erlang，可以从任何编译到 WebAssembly 的语言中使用。
+
+* [rusterlium/rustler](https://github.com/rusterlium/rustler) 用于创建 Erlang NIF 函数的安全rust桥
+
+* [ergo-services/ergo](https://github.com/ergo-services/ergo) 一个基于参与者的框架，具有网络透明度，用于使用 Golang 中的 Erlang/OTP 技术和设计模式创建事件驱动的架构。零依赖关系。
+
+* [vlang/v](https://github.com/vlang/v) 简单、快速、安全、编译的语言，用于开发可维护的软件。在 <1 秒内编译自身，零库依赖性。支持自动 C => V 转换。
+
+* [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) 用于处理多媒体内容（如音频、视频、字幕和相关元数据）的库和工具的集合。
+
+* [mpv-player/mpv](https://github.com/mpv-player/mpv) 命令行的免费（如自由）媒体播放器。它支持多种媒体文件格式、音频和视频编解码器以及字幕类型。
+
+* [google/flatbuffers](https://github.com/google/flatbuffers) 跨平台序列化库，旨在实现最大的内存效率。它允许您直接访问序列化数据，而无需先解析/解压缩它，同时仍然具有很好的向前/向后兼容性。
+
+* [microsoft/vcpkg](https://github.com/microsoft/vcpkg) 帮助您管理 Windows、Linux 和 MacOS 上的 C 和 C++ 库。
+
+* [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) 类似于 ack 的代码搜索工具，但速度更快。
+
+* [vim/vim](https://github.com/vim/vim) 老式UNIX编辑器Vi的大幅改进版本。添加了许多新功能：多级撤消、语法突出显示、命令行历史记录、在线帮助、拼写检查、文件名完成、块操作、脚本语言等。还有一个GUI可用。Vi 兼容性仍然保持不变。
 
 # Star数变化
 
