@@ -1250,6 +1250,8 @@
 
 * [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) 拖放UI以构建自定义LLM流程
 
+* [xcanwin/KeepChatGPT](https://github.com/xcanwin/KeepChatGPT) ChatGPT的畅聊与增强插件。开源免费。不仅能解决所有报错不再刷新，还有保持活跃、取消审计、克隆对话、净化首页、展示大屏、展示全屏、言无不尽、拦截跟踪、日新月异等多个高级功能。让我们的AI体验无比顺畅、丝滑、高效、简洁。
+
 ### 文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -4257,6 +4259,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 [spotify/luigi](https://github.com/spotify/luigi) Luigi 是一个 Python 模块，可帮助您构建复杂的批处理作业管道。它处理依赖关系解析、工作流管理、可视化等。它还内置了Hadoop支持。
 
+[cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) 开源的云原生分布式SQL数据库。
+
 ## 数据搜索引擎
 
 [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -4334,6 +4338,12 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 [silenceshell/docker_mirror](https://github.com/silenceshell/docker_mirror) 发现国内加速的docker源。
 
 [AliyunContainerService/GPUshare-scheduler-extender](https://github.com/AliyunContainerService/GPUshare-scheduler-extender) GPU 共享调度程序扩展器
+
+[yeasy/docker_practice](https://github.com/yeasy/docker_practice) 通过真正的DevOps实践，学习和理解Docker&Container技术！
+
+[harness/drone](https://github.com/harness/drone) 基于集装箱技术的持续交付系统。Drone 使用一个简单的 YAML 构建文件来定义和执行 Docker 容器内的构建管道。
+
+[portainer/portainer](https://github.com/portainer/portainer) 让 Docker 和 Kubernetes 管理变得简单。
 
 # 安全与渗透
 
@@ -5533,6 +5543,36 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [ossrs/srs](https://github.com/ossrs/srs) SRS是一个简单，高效，实时的视频服务器，支持RTMP，WebRTC，HLS，HTTP-FLV，SRT，MPEG-DASH和GB28181。
 
+* [localForage/localForage](https://github.com/localForage/localForage) 改进了离线存储。使用简单但功能强大的API包装IndexedDB，WebSQL或localStorage。
+
+* [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce) 基于WordPress构建的可定制的开源电子商务平台。构建您能想象到的任何商务解决方案。
+
+* [wpscanteam/wpscan](https://github.com/wpscanteam/wpscan) WPScan WordPress安全扫描程序。为安全专业人员和博客维护人员编写，以测试其WordPress网站的安全性。
+
+* [roots/bedrock](https://github.com/roots/bedrock) WordPress样板，更轻松的配置和改进的文件夹结构
+
+* [timber/timber](https://github.com/timber/timber) 使用漂亮的OOP代码和Twig模板引擎创建WordPress主题
+
+* [wp-cli/wp-cli](https://github.com/wp-cli/wp-cli) WordPress的命令行界面。您可以更新插件，配置多站点安装等等，而无需使用Web浏览器。
+
+* [postlight/headless-wp-starter](https://github.com/postlight/headless-wp-starter) WordPress + React 入门套件：一步启动 WordPress 驱动的 React 应用程序
+
+* [WordPress/gutenberg](https://github.com/WordPress/gutenberg) WordPress及其他版本的块编辑器项目。插件可从官方存储库获得。
+
+* [gofiber/fiber](https://github.com/gofiber/fiber) 用 Go 编写的受 Express 启发的 Web 框架
+
+* [TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript) 在 JavaScript 中为初学者实现的算法和数据结构，遵循最佳实践。
+
+* [parallax/jsPDF](https://github.com/parallax/jsPDF) 面向所有人的客户端 JavaScript PDF 生成。
+
+* [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) 用于解析和操作 HTML 和 XML 的快速、灵活且优雅的库。
+
+* [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)  配置NGINX服务器所需的唯一工具。
+
+* [Automattic/wp-calypso](https://github.com/Automattic/wp-calypso) 新的 WordPress.com 前端 - 使用单页 Web 应用程序对 WordPress 仪表板进行了漂亮的重新设计，由 WordPress.com REST API 提供支持。Calypso 是为在一个地方阅读、写作和管理所有 WordPress 网站而构建的。
+
+* [roots/sage](https://github.com/roots/sage) WordPress入门主题，带有Laravel Blade组件和模板，Tailwind CSS和现代开发工作流程
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5602,6 +5642,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [Yixiaohan/codeparkshare](https://github.com/Yixiaohan/codeparkshare) Python初学者（零基础学习Python、Python入门）书籍、视频、资料、社区推荐
 
 * [spotify/chartify](https://github.com/spotify/chartify) Python 库，使数据科学家可以轻松创建图表。
+
+* [nvbn/thefuck](https://github.com/nvbn/thefuck) 一款出色的应用程序，灵感来自一条@liamosaur推文，可更正以前控制台命令中的错误。
 
 ## flutter
 
@@ -5698,6 +5740,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [lnishan/awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming) 竞争性编程、算法和数据结构资源的精选列表
 
 * [lk-geimfari/awesomo](https://github.com/lk-geimfari/awesomo) 用各种语言编写的很酷的开源项目。
+
+* [QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles) 浙江大学课程攻略共享计划
 
 * [apple/swift](https://github.com/apple/swift) Swift 是一种高性能的系统编程语言。它具有简洁现代的语法，提供对现有 C 和 Objective-C 代码和框架的无缝访问，并且默认情况下是内存安全的。
 
@@ -6245,6 +6289,20 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) 类似于 ack 的代码搜索工具，但速度更快。
 
 * [vim/vim](https://github.com/vim/vim) 老式UNIX编辑器Vi的大幅改进版本。添加了许多新功能：多级撤消、语法突出显示、命令行历史记录、在线帮助、拼写检查、文件名完成、块操作、脚本语言等。还有一个GUI可用。Vi 兼容性仍然保持不变。
+
+* [https://github.com/ranger/ranger](https://github.com/ranger/ranger) 受 VIM 启发的控制台文件管理器
+
+* [koekeishiya/yabai](https://github.com/koekeishiya/yabai) 基于二进制空间分区的macOS平铺窗口管理器
+
+* [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)  强大的哔哩哔哩增强脚本
+
+* [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) 一个基于 electron 的音乐软件
+
+* [iina/iina](https://github.com/iina/iina) 适用于 macOS 的现代视频播放器。
+
+* [antirez/kilo](https://github.com/antirez/kilo/) 小于 1000 LOC 的文本编辑器，具有语法突出显示和搜索功能。
+
+* [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) 統一中文文案、排版的相關用法，降低團隊成員之間的溝通成本，增強網站氣質。
 
 # Star数变化
 
