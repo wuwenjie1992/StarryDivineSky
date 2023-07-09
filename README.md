@@ -58,17 +58,27 @@
 
 * [mli/paper-reading](https://github.com/mli/paper-reading) 深度学习经典、新论文逐段精读。包括视频讲解。
 
+* [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) 机器学习框架、库和软件的精选列表
+
 * [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)  在 YouTube 上发现最新的机器学习/人工智能课程。
 
 * [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) 机器学习操作 (MLOps)，可自动执行并加速机器学习生命周期。精选的参考文献列表。
 
+* [fengdu78/lihang-code](https://github.com/fengdu78/lihang-code)  《统计学习方法》第二版的代码实现
+
+* [Dod-o/Statistical-Learning-Method_Code](https://github.com/Dod-o/Statistical-Learning-Method_Code)  手写实现李航《统计学习方法》书中全部算法 
+
 * [ShusenTang/Dive-into-DL-PyTorch](https://github.com/ShusenTang/Dive-into-DL-PyTorch) 本项目将《动手学深度学习》(Dive into Deep Learning)原书中的MXNet实现改为PyTorch实现。
+
+* [datawhalechina/leedl-tutorial](https://github.com/datawhalechina/leedl-tutorial) 《李宏毅深度学习教程》，PDF下载
 
 * [ageron/handson-ml2](https://github.com/ageron/handson-ml2) 一系列Jupyter笔记本，引导您使用Scikit-Learn，Keras和TensorFlow 2了解Python中的机器学习和深度学习的基础知识。
 
 * [fengdu78/deeplearning_ai_books](https://github.com/fengdu78/deeplearning_ai_books) deeplearning.ai（吴恩达老师的深度学习课程笔记及资源）
 
 * [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) 精选的开源库列表，用于部署、监控、版本控制和扩展您的机器学习
+
+* [FavioVazquez/ds-cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets) 统治世界的数据科学备忘单列表
 
 * [nndl/nndl.github.io](https://github.com/nndl/nndl.github.io) 《神经网络与深度学习》 邱锡鹏著 
 
@@ -84,13 +94,21 @@
 
 * [MorvanZhou/tutorials](https://github.com/MorvanZhou/tutorials) 机器学习相关教程
 
+* [rougier/scientific-visualization-book](https://github.com/rougier/scientific-visualization-book) 一本关于使用 python 和 matplotlib 进行科学可视化的开放获取书籍
+
 * [bangoc123/learn-machine-learning-in-two-months](https://github.com/bangoc123/learn-machine-learning-in-two-months) 在 2 个月内学习好机器学习所需的知识。
 
 * [ukas/ml-class](https://github.com/lukas/ml-class) 专为工程师设计的机器学习课程和教学项目
 
 * [Mohitkr95/Best-Data-Science-Resources](https://github.com/Mohitkr95/Best-Data-Science-Resources) 该存储库包含最好的数据科学免费精选资源，可为您提供所有行业驱动的技能和面试准备工具包。
 
+* [academic/awesome-datascience](https://github.com/academic/awesome-datascience) 很棒的数据科学存储库，用于学习和应用现实世界的问题。
+
 * [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南
+
+* [1c7/Crash-Course-Computer-Science-Chinese](https://github.com/1c7/Crash-Course-Computer-Science-Chinese) 计算机速成课 | Crash Course 字幕组 (全40集 2018-5-1 精校完成)
+
+* [mml-book/mml-book.github.io](https://github.com/mml-book/mml-book.github.io) 《机器学习数学》一书的配套网页
 
 * [abmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)  神经网络和相关算法的简单 PyTorch 实现的集合。将这些呈现为并排格式化的笔记。我们相信这些将帮助您更好地理解这些算法。
 
@@ -98,11 +116,17 @@
 
 * [PyTorchLightning/PyTorch-lightning](https://github.com/PyTorchLightning/PyTorch-lightning) 基于Pytorch的轻量高级计算框架，相当于Keras框架。
 
+* [bharathgs/Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list) github上pytorch相关内容的完整列表，例如不同的模型，实现，帮助程序库，教程等。
+
 * [ELS-RD/kernl](https://github.com/ELS-RD/kernl/) 第一个使用 OpenAI Triton 编写的 OSS 推理引擎，这是一种由 OpenAI 设计的新语言，可以更轻松地编写 GPU 内核。每个内核不到200行代码，易于理解和修改。
 
 * [BoltzmannEntropy/interviews.ai](https://github.com/BoltzmannEntropy/interviews.ai) 深度学习面试书：数百个完全解决的工作面试问题，来自 AI 的广泛关键主题。
 
 * [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) 精选深度学习教程、项目和社区列表。
+
+* [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) Microsoft的 Azure 云倡导者很高兴提供为期 12 周、每节课的人工智能课程。
+
+* [google-research/tuning_playbook](https://github.com/google-research/tuning_playbook) 系统地最大化深度学习模型性能的手册。重点是超参数调优的过程。我们涉及深度学习训练的其他方面，例如管道实现和优化，但我们对这些方面的处理并不打算完整。
 
 * [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) 深度学习论文阅读路线图，适合任何渴望学习这项惊人技术的人！
 
@@ -247,7 +271,7 @@
 
 * [man-group/dtale](https://github.com/man-group/dtale) pandas数据结构的可视化工具
 
-* [google/model_search](https://github.com/google/model_search) 为了帮助研究者自动、高效地开发最佳机器学习模型，谷歌开源了一个不针对特定领域的 AutoML 平台。该平台基于 TensorFlow 构建，非常灵活，既可以找出最适合给定数据集和问题的架构，也能够最小化编程时间和计算资源。
+* [google/model_search](https://github.com/google/model_search) 帮助研究者自动、高效地开发最佳机器学习模型，谷歌开源了一个不针对特定领域的 AutoML 平台。该平台基于 TensorFlow 构建，非常灵活，既可以找出最适合给定数据集和问题的架构，也能够最小化编程时间和计算资源。
 
 * [neuronika/neuronika](https://github.com/neuronika/neuronika) 纯Rust的张量和动态神经网络库。
 
@@ -265,7 +289,7 @@
 
 * [ContrastiveSR/Contrastive_Learning_Papers](https://github.com/ContrastiveSR/Contrastive_Learning_Papers) 对比学习的相关论文列表。内容包括：计算机视觉、NLP、推荐系统、图模型等方面的应用。
 
-* [Tencent/WeChat-TFCC](https://github.com/Tencent/WeChat-TFCC) C++深入学习推理框架。提供以下工具包，便于您开发和部署训练有素的 DL 模型：TFCC深度学习推理库的核心、TFCC 代码生成器、TFCC 运行时。
+* [Tencent/WeChat-TFCC](https://github.com/Tencent/WeChat-TFCC) C++深入学习推理框架。提供以下工具包，便于您开发和部署训练 DL 模型：TFCC深度学习推理库的核心、TFCC 代码生成器、TFCC 运行时。
 
 * [idrl-lab/idrlnet](https://github.com/idrl-lab/idrlnet) 基于内嵌物理知识神经网络的开源求解框架
 
@@ -277,15 +301,15 @@
 
 * [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) 微软给初学者开源了一份机器学习课程。
 
-* [sfu-db/dataprep](https://github.com/sfu-db/dataprep) 开源 Python 库，有助于自动化探索性数据分析过程。它在创建数据分析报告时很有用，它还具有 3 个用于绘制图形、绘制缺失数字和数据相关性的功能。
+* [sfu-db/dataprep](https://github.com/sfu-db/dataprep) Python 库，有助于自动化探索性数据分析过程。它在创建数据分析报告时很有用，它还具有 3 个用于绘制图形、绘制缺失数字和数据相关性的功能。
 
-* [scikit-learn-contrib/hdbscan](https://github.com/scikit-learn-contrib/hdbscan) 使用无监督学习来查找数据集的集群聚类或密集区域的工具。主要算法是HDBSCAN。该算法的高性能实现，以及用于分析结果聚类的工具。
+* [scikit-learn-contrib/hdbscan](https://github.com/scikit-learn-contrib/hdbscan) 用无监督学习来查找数据集的集群聚类或密集区域的工具。主要算法是HDBSCAN。该算法的高性能实现，以及用于分析结果聚类的工具。
 
-* [nvidia/TensorRT](https://github.com/nvidia/TensorRT) 一个C++库，用于对 NVIDIA GPU 和深度学习加速器进行高性能推论。
+* [nvidia/TensorRT](https://github.com/nvidia/TensorRT) C++库，用于对 NVIDIA GPU 和深度学习加速器进行高性能推论。
 
 * [dropreg/R-Drop](https://github.com/dropreg/R-Drop) 填补Dropout缺陷，简单又有效的正则方法。在每个 mini-batch 中，每个数据样本过两次带有 Dropout 的同一个模型，R-Drop 再使用 KL-divergence 约束两次的输出一致。
 
-* [ucbrise/actnn](https://github.com/ucbrise/actnn) 基于PyTorch的激活压缩训练框架。在同样内存限制下，通过使用 2 bit 激活压缩，可以将 batch size 扩大 6-14 倍，将模型尺寸或者输入图片扩大 6-10 倍。
+* [ucbrise/actnn](https://github.com/ucbrise/actnn) PyTorch的激活压缩训练框架。在同样内存限制下，通过使用 2 bit 激活压缩，可将 batch size 扩大 6-14 倍，将模型尺寸或者输入图片扩大 6-10 倍。
 
 * [softsys4ai/FlexiBO](https://github.com/softsys4ai/FlexiBO) 基于成本感知的多目标优化深度神经网络
 
@@ -302,6 +326,8 @@
 * [arogozhnikov/Einops](https://github.com/arogozhnikov/Einops) 深度学习操作被彻底改造（用于 pytorch、tensorflow、jax 等）. einops(爱因斯坦标记法),让代码可读性更强.
 
 * [haifengl/smile](https://github.com/haifengl/smile) Java和Scala中的快速而全面的机器学习，NLP，线性代数，图形，插值和可视化系统。凭借先进的数据结构和算法，Smile 可提供最先进的性能。
+
+* [wesm/pydata-book](https://github.com/wesm/pydata-book) Wes McKinney的“Python for Data Analysis”材料和IPython笔记本，由O'Reilly Media出版
 
 ## 特征工程
 
@@ -608,6 +634,12 @@
 * [yassouali/awesome-semi-supervised-learning](https://github.com/yassouali/awesome-semi-supervised-learning) 最新和精选的令人敬畏的半监督学习论文，方法和资源列表。未标记的数据可能相对容易收集，但很少有方法可以使用它们。半监督学习通过使用大量未标记的数据以及标记的数据来构建更好的分类器来解决此问题。由于半监督学习需要更少的人力并且具有更高的准确性，因此它在理论和实践中都非常有趣。
 
 * [vespa-engine/vespa](https://github.com/vespa-engine/vespa) 开放的大数据服务引擎。开放的大数据服务引擎 - 在服务时存储、搜索、组织和对大数据进行机器学习推理。
+
+* [ctgk/PRML](https://github.com/ctgk/PRML) 实现Bishop的书“模式识别和机器学习”中描述的算法的Python代码
+
+* [slundberg/shap](https://github.com/slundberg/shap) 一种博弈论方法，用于解释任何机器学习模型的输出。SHAP（SHapley Additive exPlanations）是一种博弈论方法，用于解释任何机器学习模型的输出。它将最优信用分配与局部解释联系起来，使用博弈论中的经典Shapley值及其相关扩展（有关详细信息和引用，请参阅论文）。虽然SHAP可以解释任何机器学习模型的输出，但我们已经为树集成方法开发了一种高速精确算法（请参阅我们的Nature MI论文）。XGBoost，LightGBM，CatBoost，scikit-learn和pyspark tree模型支持快速C++实现。
+
+* [Baiyuetribe/paper2gui](https://github.com/Baiyuetribe/paper2gui) 让每个人都简单方便的使用前沿人工智能技术。一款面向普通人的 AI 桌面 APP 工具箱，免安装即开即用，已支持 40+AI 模型，内容涵盖 AI 绘画、语音合成、视频补帧、视频超分、目标检测、图片风格化、OCR 识别等领域。支持 Windows、Mac、Linux 系统。
 
 # NLP自然语言处理
 
@@ -1251,6 +1283,14 @@
 * [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) 拖放UI以构建自定义LLM流程
 
 * [xcanwin/KeepChatGPT](https://github.com/xcanwin/KeepChatGPT) ChatGPT的畅聊与增强插件。开源免费。不仅能解决所有报错不再刷新，还有保持活跃、取消审计、克隆对话、净化首页、展示大屏、展示全屏、言无不尽、拦截跟踪、日新月异等多个高级功能。让我们的AI体验无比顺畅、丝滑、高效、简洁。
+
+* [ShishirPatil/gorilla](https://github.com/ShishirPatil/gorilla) LLM的API商店 。使 LLM 能够通过调用 API 来使用工具。给定一个自然语言查询，Gorilla 会提出语义和语法上正确的 API 来调用。通过Gorilla，我们是第一个演示如何使用LLM准确调用1，600+（并且不断增长的）API调用，同时减少幻觉的人。
+
+* [microsoft/guidance](https://github.com/microsoft/guidance) 指南使你能够比传统的提示或链接更有效、更高效地控制新式语言模型。指导程序允许您将生成、提示和逻辑控制交错到单个连续流中，以匹配语言模型实际处理文本的方式。简单的输出结构，如思维链及其许多变体（例如，ART，Auto-CoT等）已被证明可以提高LLM的性能。像 GPT-4 这样更强大的 LLM 的出现允许更丰富的结构，而 guidance 使该结构更容易、更便宜。
+
+* [fuergaosi233/wechat-chatgpt](https://github.com/fuergaosi233/wechat-chatgpt) 通过微信在微信上使用ChatGPT 
+
+* [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) GitHub Copilot服务器的开源替代品。构建GitHub Copilot的本地托管替代方案的尝试。它在NVIDIA的Triton Inference Server中使用SalesForce CodeGen模型和FasterTransformer后端。
 
 ### 文本生成、文本对话
 
@@ -2498,6 +2538,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini)  DALL·E Mini - 从文本提示生成图像
 
+[ashawkey/stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion) 文本到3D和图像到3D和网格导出与NeRF +扩散。
+
 [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
 [yangjianxin1/CLIP-Chinese](https://github.com/yangjianxin1/CLIP-Chinese) 中文多模态对比学习预训练模型 ，可获取140w中文图文对预训练数据，以及中文CLIP预训练权重。下游任务：图文相似度计算、文本相似度计算、图片相似度计算
@@ -2505,6 +2547,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 排行榜第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
+
+[google-research/magvit](https://github.com/google-research/magvit) MAGVIT 的官方 JAX 实现：掩码生成视频转换器 .引入 MAGVIT 以使用单一模型处理各种视频合成任务，并展示了其质量、效率和灵活性。
 
 [silverriver/MMChat](https://github.com/silverriver/MMChat) 大规模的对话数据集，其中包含以图像为基础的中文对话。 MMChat 中的每个对话都与一个或多个图像相关联（每个对话最多 9 张图像）。 我们设计了各种策略来确保 MMChat 中对话的质量。 数据集中的图像托管在微博的静态图像服务器上。
 
@@ -5573,6 +5617,16 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [roots/sage](https://github.com/roots/sage) WordPress入门主题，带有Laravel Blade组件和模板，Tailwind CSS和现代开发工作流程
 
+* [halo-dev/halo](https://github.com/halo-dev/halo)  强大易用的开源建站工具。 
+
+* [slidevjs/slidev](https://github.com/slidevjs/slidev) 面向开发人员的演示幻灯片
+
+* [wechaty/wechaty](https://github.com/wechaty/wechaty) 面向微信聊天机器人制造商的RPA（机器人流程自动化）SDK，可以帮助您在JavaScript，Python，Go和Java的6行中创建机器人，并提供跨平台支持，包括Linux，Windows，MacOS和Docker。
+
+* [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) Git的奇技淫巧。Git 是分布式版本管理工具，版本管理工具能记录每次的修改，只要提交到版本仓库，就可以找到之前任何时刻的状态（文本状态）。
+
+* [dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub) github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5644,6 +5698,14 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [spotify/chartify](https://github.com/spotify/chartify) Python 库，使数据科学家可以轻松创建图表。
 
 * [nvbn/thefuck](https://github.com/nvbn/thefuck) 一款出色的应用程序，灵感来自一条@liamosaur推文，可更正以前控制台命令中的错误。
+
+* [benfred/py-spy](https://github.com/benfred/py-spy) Python程序的采样分析器。它使您可以可视化Python程序花费的时间，而无需重新启动程序或以任何方式修改代码。py-spy的开销非常低：它是用 Rust 编写的，以提高速度，并且不会在与分析的 Python 程序相同的进程中运行。这意味着py-spy可以安全地用于生产Python代码。
+
+* [ManimCommunity/manim](https://github.com/ManimCommunity/manim) 社区维护的Python框架，用于创建数学动画。
+
+* [dabeaz-course/practical-python](https://github.com/dabeaz-course/practical-python) 实用的Python编程（@dabeaz课程）
+
+* [jackfrued/Python-Core-50-Courses](https://github.com/jackfrued/Python-Core-50-Courses) Python语言基础50课
 
 ## flutter
 
@@ -5899,6 +5961,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) 以 C++ 实现的数学、机器学习、计算机科学和物理学中的各种算法的集合，用于教育目的。
 
 * [chengxumiaodaren/cpp-learning](https://github.com/chengxumiaodaren/cpp-learning) C++学习
+
+* [AnthonyCalandra/modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features) 现代C++语言和库功能的备忘单。
 
 * [Tencent/libco](https://github.com/Tencent/libco) 广泛应用于微信后台服务的协程库。 已经在数万台机器上运行。
 
@@ -6303,6 +6367,18 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [antirez/kilo](https://github.com/antirez/kilo/) 小于 1000 LOC 的文本编辑器，具有语法突出显示和搜索功能。
 
 * [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) 統一中文文案、排版的相關用法，降低團隊成員之間的溝通成本，增強網站氣質。
+
+* [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) 以主题为中心的总部开放数据集列表。
+
+* [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) 程序员延寿指南
+
+* [koreader/koreader](https://github.com/koreader/koreader) 支持PDF，DjVu，EPUB，FB2和更多格式的电子书阅读器应用程序，可在Cervantes，Kindle，Kobo，PocketBook和Android设备上运行
+
+* [typst/typst](https://github.com/typst/typst) 一个新的基于标记的排版系统，功能强大且易于学习。
+
+* [rust-lang/mdBook](https://github.com/rust-lang/mdBook) 从markdown文件创建书籍。像 Gitbook 一样，但在 Rust 中实现
+
+* [phodal/github](https://github.com/phodal/github) GitHub 漫游指南——一本关于如何在 Github 上构建一个好项目的中文电子书。探索用户的行为。找到一些感兴趣的东西。
 
 # Star数变化
 
