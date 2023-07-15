@@ -15,9 +15,6 @@
     <a href="https://github.com/wuwenjie1992/StarrySky/blob/master/LICENSE" style="text-decoration:none" >
         <img src="https://img.shields.io/badge/License-MIT-blue" alt="GitHub license"/>
     </a>
-    <a href="https://github.com/wuwenjie1992/StarrySky" style="text-decoration:none" >
-        <img src="https://visitor-badge.glitch.me/badge?page_id=wuwenjie1992.StarrySky" alt="GitHub Visitors"/>
-    </a>
 </p>
 <h3 align="center">精选了千余项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
 <h3 align="center">让更多优秀的项目被人发现，让更多的人感受开源的魅力。</h3>
@@ -137,6 +134,8 @@
 * [ageron/handson-ml3](https://github.com/ageron/handson-ml3) 一系列Jupyter笔记本，引导您使用Scikit-Learn，Keras和TensorFlow 2了解Python中的机器学习和深度学习的基础知识。
 
 * [girls-in-ai/Girls-In-AI](https://github.com/girls-in-ai/Girls-In-AI) 免费学代码系列：小白python入门、数据分析data analyst、机器学习machine learning、深度学习deep learning、kaggle实战
+
+* [kailashahirwar/cheatsheets-ai](https://github.com/kailashahirwar/cheatsheets-ai) 深度学习和机器学习工程师的基本备忘单
 
 * [cbamls/AI_Tutorial](https://github.com/cbamls/AI_Tutorial) 精选机器学习，NLP，图像识别， 深度学习等人工智能领域学习资料，搜索，推荐，广告系统架构及算法技术资料整理。
 
@@ -328,6 +327,8 @@
 * [haifengl/smile](https://github.com/haifengl/smile) Java和Scala中的快速而全面的机器学习，NLP，线性代数，图形，插值和可视化系统。凭借先进的数据结构和算法，Smile 可提供最先进的性能。
 
 * [wesm/pydata-book](https://github.com/wesm/pydata-book) Wes McKinney的“Python for Data Analysis”材料和IPython笔记本，由O'Reilly Media出版
+
+* [Visualize-ML/Book3_Elements-of-Mathematics](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics) Book_3_《数学要素》 | 鸢尾花书：从加减乘除到机器学习
 
 ## 特征工程
 
@@ -640,6 +641,10 @@
 * [slundberg/shap](https://github.com/slundberg/shap) 一种博弈论方法，用于解释任何机器学习模型的输出。SHAP（SHapley Additive exPlanations）是一种博弈论方法，用于解释任何机器学习模型的输出。它将最优信用分配与局部解释联系起来，使用博弈论中的经典Shapley值及其相关扩展（有关详细信息和引用，请参阅论文）。虽然SHAP可以解释任何机器学习模型的输出，但我们已经为树集成方法开发了一种高速精确算法（请参阅我们的Nature MI论文）。XGBoost，LightGBM，CatBoost，scikit-learn和pyspark tree模型支持快速C++实现。
 
 * [Baiyuetribe/paper2gui](https://github.com/Baiyuetribe/paper2gui) 让每个人都简单方便的使用前沿人工智能技术。一款面向普通人的 AI 桌面 APP 工具箱，免安装即开即用，已支持 40+AI 模型，内容涵盖 AI 绘画、语音合成、视频补帧、视频超分、目标检测、图片风格化、OCR 识别等领域。支持 Windows、Mac、Linux 系统。
+
+* [zjhellofss/KuiperInfer](https://github.com/zjhellofss/KuiperInfer) 带你从零实现一个高性能的深度学习推理库
+
+* [huggingface/datasets](https://github.com/huggingface/datasets) 最大的 ML 模型即用型数据集中心，提供快速、易用和高效的数据处理工具
 
 # NLP自然语言处理
 
@@ -1292,6 +1297,28 @@
 
 * [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) GitHub Copilot服务器的开源替代品。构建GitHub Copilot的本地托管替代方案的尝试。它在NVIDIA的Triton Inference Server中使用SalesForce CodeGen模型和FasterTransformer后端。
 
+* [akoksal/LongForm](https://github.com/akoksal/LongForm) 使用语料库提取生成长文本的指令调优数据集和模型。通过利用英语语料库示例和增强指令创建的。从现有的语料库（如C4和维基百科）中选择一组多样化的人类编写的文档，并通过LLM为给定的文档生成指令。然后，用结构化的语料库示例（如Stack Exchange和WikiHow）和任务示例（如问答，电子邮件写作，语法错误更正，故事/诗歌生成和文本摘要）来扩展这些示例。
+
+* [BelleGroup/train_3.5M_CN](https://huggingface.co/datasets/BelleGroup/train_3.5M_CN) 约350万条由BELLE项目生成的中文指令数据。
+
+* [BelleGroup/train_2M_CN](https://huggingface.co/datasets/BelleGroup/train_2M_CN) 约200万条由BELLE项目生成的中文指令数据。
+
+* [BelleGroup/train_1M_CN](https://huggingface.co/datasets/BelleGroup/train_1M_CN) 约100万条由BELLE项目生成的中文指令数据。
+
+* [BelleGroup/train_0.5M_CN](https://huggingface.co/datasets/BelleGroup/train_0.5M_CN) 约50万条由BELLE项目生成的中文指令数据。
+
+* [BelleGroup/generated_chat_0.4M](https://huggingface.co/datasets/BelleGroup/generated_chat_0.4M) 包含约40万条由BELLE项目生成的个性化角色对话数据，包含角色介绍。
+
+* [BelleGroup/school_math_0.25M](https://huggingface.co/datasets/BelleGroup/school_math_0.25M) 包含约25万条由BELLE项目生成的中文数学题数据，包含解题过程。
+
+* [juletxara/mgsm](https://huggingface.co/datasets/juletxara/mgsm) 多语言小学数学基准（MGSM）是小学数学问题的基准。8.5K高质量语言多样化的小学数学单词问题的数据集。创建该数据集是为了支持对需要多步骤推理的基本数学问题进行问答的任务。
+
+* [sunzeyeah/chinese_chatgpt_corpus](https://huggingface.co/datasets/sunzeyeah/chinese_chatgpt_corpus) 该存储库收集了用于监督微调（SFT）和来自人类反馈的强化学习（RLHF）的中文语料库。
+
+* [zxbsmk/webnovel_cn](https://huggingface.co/datasets/zxbsmk/webnovel_cn) 从12560本网文提取的约21.7M条可用于训练小说生成的中文指令数据
+
+* [QingyiSi/Alpaca-CoT](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT) 该存储库将不断收集各种指令调优数据集。并且我们将不同的数据集标准化为相同的格式，可以直接通过羊驼模型的代码加载。
+
 ### 文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -1357,6 +1384,8 @@
 * [shawroad/CoSENT](https://github.com/shawroad/CoSENT_Pytorch) 比Sentence-BERT更有效的句向量方案 Pytorch版
 
 * [shuxinyin/SimCSE-Pytorch](https://github.com/shuxinyin/SimCSE-Pytorch) 中文SimCSE+ESimCSE的无监督 + 有监督实现 
+
+* [wangyuxinwhy/uniem](https://github.com/wangyuxinwhy/uniem) 统一嵌入模型，目标是创建中文最好的通用文本嵌入模型。202306发布 [M3E models](https://huggingface.co/moka-ai/m3e-base) ，在中文文本分类和文本检索上均优于 openai text-embedding-ada-002。
 
 * [thunlp/OpenMatch](https://github.com/thunlp/OpenMatch) 总体架构包括两大部分：一是相关文档检索，即根据用户检索词，从大规模文档集合中返回最相关的Top-K(K通常为100或1000)文档。二是文档重排序，即将各神经网络模型和非神经网络模型的排序特征整合，对Top-K文档重排序，进一步提升排序效果。OpenMatch提供了融合外部知识图谱信息的知识增强模型，和筛选大规模数据的数据增强模型。
 
@@ -1672,7 +1701,13 @@
 
 * [eecrazy/CausalBank](https://github.com/eecrazy/CausalBank) 非常大规模、开放的领域、句子级、平行的因果语料库。按照句子中出现的因果顺序分为两部分：because_mode（结果，然后是原因）和therefore_mode（原因，然后是结果）。使用预处理的英语通用爬网语料库 （5.14 TB） 中的细粒度因果模板匹配获得的，完全自动，无需任何人工注释。里面或多或少有噪音。
 
-* [InsaneLife/ChineseNLPCorpus](https://github.com/InsaneLife/ChineseNLPCorpus) 中文自然语言处理数据集，阅读理解、任务型对话数据、文本分类、实体识别&词性标注&分词、句法&语义解析、推荐系统、百科数据、指代消歧、预训练：（词向量or模型）、中文完形填空数据集、中华古诗词数据库、保险行业语料库、汉语拆字字典、中文数据集平台。
+* [InsaneLife/ChineseNLPCorpus](https://github.com/InsaneLife/ChineseNLPCorpus) 中文自然语言处理数据集，阅读理解、任务型对话数据、文本分类、实体识别&词性标注&分词、句法&语义解析、推荐系统、百科数据、指代消歧、预训练：（词向量or模型）、中文完形填空数据集、中华古诗词数据库、保险行业语料库、汉语拆字字典。
+
+* [pengxiao-song/awesome-chinese-legal-resources](https://github.com/pengxiao-song/awesome-chinese-legal-resources) 中国法律数据集和相关资源的精彩集合。致力于收集全面的中文法律数据源
+
+* [xglue](https://huggingface.co/datasets/xglue) 由11个任务组成，跨越19种语言。对于每个任务，训练数据仅以英语提供。这意味着要在XGLUE上取得成功，模型必须具有强大的零镜头跨语言迁移能力，以从特定任务的英语数据中学习并将其学到的内容转移到其他语言中。与其并发工作XTREME相比，XGLUE有两个特点：首先，它同时包含跨语言NLU和跨语言NLG任务;其次，除了包括5个现有的跨语言任务（即NER，POS，MLQA，PAWS-X和XNLI）之外，XGLUE还从Bing场景中选择了6个新任务，包括新闻分类，查询广告匹配，网页排名，QA匹配，问题生成和新闻标题生成。语言、任务和任务来源的这种多样性为量化跨语言自然语言理解和生成的预训练模型的质量提供了全面的基准。
+
+* [yhavinga/ccmatrix](https://huggingface.co/datasets/yhavinga/ccmatrix) 该语料库是使用 [CCMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix) 中所述的基于边缘的双文本挖掘技术从网络爬虫中提取的语言对。
 
 ## 关系抽取、信息抽取
 
@@ -1964,6 +1999,10 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 [sebastianruder/NLP-progress](https://github.com/sebastianruder/NLP-progress) 用于跟踪自然语言处理 (NLP) 进展的存储库，包括数据集和最常见 NLP 任务的最新技术水平。
 
 [DengBoCong/nlp-paper](https://github.com/DengBoCong/nlp-paper) 自然语言处理领域下的相关论文（附阅读笔记），复现模型以及数据处理等
+
+[ssut/py-googletrans](https://github.com/ssut/py-googletrans) （非官方）Googletrans：免费且无限制的 Google 翻译 API for Python。翻译完全免费。
+
+[https://github.com/jgm/pandoc](https://github.com/jgm/pandoc) 通用标记转换器。一个Haskell库，用于从一种标记格式转换为另一种标记格式，以及使用该库的命令行工具。
 
 # 推荐系统
 
@@ -2410,6 +2449,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR) 即用型 OCR，支持 80 多种语言和所有流行的书写脚本，包括拉丁文、中文、阿拉伯文、天城文、西里尔文等。
 
+[ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) 为扫描的 PDF 文件添加了 OCR 文本图层，允许对其进行搜索
+
 ## 视频补帧
 
 [hzwer/arXiv2020-RIFE](https://github.com/hzwer/arXiv2020-RIFE) 视频帧插值的实时中级流量估计.旷视和北大提出的一种实时中间流估计算法。用于视频帧插值，能够改善伪影、让视频更丝滑。
@@ -2545,6 +2586,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [yangjianxin1/CLIP-Chinese](https://github.com/yangjianxin1/CLIP-Chinese) 中文多模态对比学习预训练模型 ，可获取140w中文图文对预训练数据，以及中文CLIP预训练权重。下游任务：图文相似度计算、文本相似度计算、图片相似度计算
 
 [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 排行榜第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
+
+[openai/consistency_models](https://github.com/openai/consistency_models) 一致性模型的官方存储库。Diffusion Models 在生成一张图片时需要多次进行模型推理，对于实时性较强的应用，就很难让人满意了。这篇文章所claim的一步采样即能达到较好的效果。
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
 
@@ -2845,6 +2888,8 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 [neutraltone/awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources) 免费图库摄影、视频和插图网站的链接集合
 
 [aleju/imgaug](https://github.com/aleju/imgaug) 机器学习实验的图像增强。
+
+[libvips/libvips](https://github.com/libvips/libvips) 一个需求驱动的水平线程图像处理库。与类似的库相比，libvips 运行速度快，占用内存很少。涵盖算术、直方图、卷积、形态操作、频率过滤、颜色、重采样、统计等。它支持从 8 位 int 到 128 位复数的大量数值类型。影像可以具有任意数量的波段。它支持多种图像格式。
 
 # 因果推断
 
@@ -3208,7 +3253,9 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [facebookresearch/diplomacy_cicero](https://github.com/facebookresearch/diplomacy_cicero) Cicero 的代码，这是一个通过开放域自然语言协商玩外交游戏的 AI 代理。
 
-[eloialonso/iris](https://github.com/eloialonso/iris) 提出了IRIS，一种在由离散自编码器和自回归Transformer组成的世界模型中学习的数据高效的智能体。在Atari 100k基准测试中，只用了两小时的游戏时间，就取得了1.046的人类归一化平均分，并在26个中的10个游戏中优于人类。IRIS的世界模型获得了对游戏机制的深刻理解，从而在一些游戏中实现了像素的完美预测。本文还说明了世界模型的生成能力，在想象训练时提供了丰富的游戏体验。IRIS以最小的调整开辟了一条有效解决复杂环境问题的新道路。
+[eloialonso/iris](https://github.com/eloialonso/iris) 提出了IRIS，由离散自编码器和自回归Transformer组成的世界模型中学习的数据高效的智能体。在Atari 100k基准测试中，只用了两小时的游戏时间，就取得了1.046的人类归一化平均分，并在26个中的10个游戏中优于人类。IRIS的世界模型获得了对游戏机制的深刻理解，从而在一些游戏中实现了像素的完美预测。本文还说明了世界模型的生成能力，在想象训练时提供了丰富的游戏体验。IRIS以最小的调整开辟了一条有效解决复杂环境问题的新道路。
+
+[MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning) 这是一本名为“强化学习的数学基础”的新书的主页。
 
 # 语音识别与合成
 
@@ -3278,6 +3325,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 [alibaba-damo-academy/FunASR](https://github.com/alibaba-damo-academy/FunASR) 来自阿里达摩院的端到端语音识别工具包
 
 [k2-fsa/sherpa-ncnn](https://github.com/k2-fsa/sherpa-ncnn) 使用下一代 Kaldi 和 ncnn 进行实时语音识别，无需互联网连接。支持iOS，Android，Raspberry Pi，VisionFive2等。
+
+[wenet-e2e/wespeaker](https://github.com/wenet-e2e/wespeaker) 专注于说话人嵌入学习，并应用于说话人验证任务。我们支持在线特征提取或加载 kaldi 格式的预提取特征。
 
 ## 语音合成
 
@@ -3387,7 +3436,9 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [ggeop/Python-ai-assistant](https://github.com/ggeop/Python-ai-assistant) Python蟒蛇AI助手 语音命令助手服务，它可以识别人类语音，与用户交谈并执行基本命令。
 
-[spotify/pedalboard](https://github.com/spotify/pedalboard) 由Spotify的音频智能实验室构建，可以在Python和TensorFlow中使用工作室质量的音频效果。`内置音频 I/O 实用程序`：支持在所有平台上读写 AIFF、FLAC、MP3、OGG 和 WAV 文件，无需依赖关系；对读取 AAC、AC3、WMA 和其他格式的额外支持，具体取决于平台；支持对音频文件和流进行动态重采样，内存使用量为 0；通过 AudioStream 的实时音频效果。内置支持许多基本`音频转换`，包括：吉他风格效果；响度和动态范围效果；均衡器和滤波器；空间效果；音高效果；有损压缩；质量降低。在 macOS、Windows 和 Linux 上支持` VST3® 乐器和效果插件`。支持 macOS 上的乐器和效果音频单元。强大的`线程安全性、内存使用和速度保证`，以允许使用多个 CPU 内核，处理单个转换的音频速度比 pySoX 快 300 倍，比 SoxBindings（通过 iCorv）快 2-5 倍，读取音频文件的速度比librosa.load快4倍（在许多情况下）。
+[spotify/pedalboard](https://github.com/spotify/pedalboard) 由Spotify音频智能实验室构建，可以在Python和TensorFlow中使用工作室质量的音频效果。`内置音频 I/O 实用程序`：支持在所有平台上读写 AIFF、FLAC、MP3、OGG 和 WAV 文件，无需依赖关系；对读取 AAC、AC3、WMA 和其他格式的额外支持，具体取决于平台；支持对音频文件和流进行动态重采样，内存使用量为 0；通过 AudioStream 的实时音频效果。内置支持许多基本`音频转换`，包括：吉他风格效果；响度和动态范围效果；均衡器和滤波器；空间效果；音高效果；有损压缩；质量降低。在 macOS、Windows 和 Linux 上支持` VST3® 乐器和效果插件`。支持 macOS 上的乐器和效果音频单元。强大的`线程安全性、内存使用和速度保证`，以允许使用多个 CPU 内核，处理单个转换的音频速度比 pySoX 快 300 倍，比 SoxBindings（通过 iCorv）快 2-5 倍，读取音频的速度比librosa.load快4倍（在许多情况下）。
+
+[wenet-e2e/opencpop](https://github.com/wenet-e2e/opencpop) 用于歌声合成的高质量开源中文流行歌曲数据库
 
 # 生物医药
 
@@ -5157,6 +5208,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [radareorg/radare2](https://github.com/radareorg/radare2) 类 UNIX 逆向工程框架和命令行工具集。最初是一个简单的命令行十六进制编辑器，专注于取证。今天，r2 是一个功能丰富的低级命令行工具，支持脚本编写。R2 可以编辑本地硬盘驱动器上的文件、查看内核内存以及在本地或通过远程 GDB 服务器调试程序。R2 广泛的架构支持允许您分析、模拟、调试、修改和反汇编任何二进制文件。
 
+* [2dust/v2rayN](https://github.com/2dust/v2rayN) 适用于Windows的GUI客户端，支持Xray核心和v2fly核心等
+
 # 硬件
 
 ## CPU RISC-V
@@ -5319,7 +5372,17 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [mit-han-lab/tiny-training](https://github.com/mit-han-lab/tiny-training) 256KB 内存下的设备上训练DNN
 
-* [pbatard/rufus](https://github.com/pbatard/rufus) 一个实用程序，可帮助格式化和创建可启动的USB闪存驱动器。
+* [pbatard/rufus](https://github.com/pbatard/rufus) 实用程序，可帮助格式化和创建可启动的USB闪存驱动器。
+
+* [mainflux/mainflux](https://github.com/mainflux/mainflux) 工业物联网消息传递和设备管理平台。用 Go 编写的现代、可扩展、安全、开源且无专利的物联网云平台。
+
+* [ExpressLRS/ExpressLRS](https://github.com/ExpressLRS/ExpressLRS) 基于 STM32/ESP32/ESP8285 的高性能无线电链路，适用于 RC 应用。它旨在成为最好的 FPV 链接， 它基于梦幻般的 Semtech SX127x/SX1280 LoRa 硬件与乐鑫或 STM32 处理器相结合。使用 LoRa 调制以及减小的数据包大小，它实现了同类最佳范围和延迟.它使用高度优化的无线数据包结构来实现这一点，从而提供同时范围和延迟优势。它支持 900 MHz 和 2.4 GHz 链路，每种链路都有自己的优势。900 MHz 支持最大 200 Hz 的数据包速率，具有更高的穿透率。2.4 GHz 在 EdgeTX 上支持极快的 1000 Hz。拥有 60 多个不同的硬件目标和 13 个硬件制造商，硬件的选择不断增加，不同的硬件适合不同的要求。
+
+* [1technophile/OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) MQTT网关，用于ESP8266，ESP32，Sonoff RF Bridge或Arduino，双向433mhz / 315mhz / 868mhz，红外通信，BLE，蓝牙，信标检测，mi flora，mi jia，LYWSD02，LYWSD03MMC，Mi Scale，TPMS，BBQ温度计兼容性，SMS和LORA。
+
+* [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) Lean 的 LEDE 路由器系统的源码仓库。LEDE是OpenWrt 的一个分支。
+
+* [mcxiaoke/mqtt](https://github.com/mcxiaoke/mqtt) MQTT协议3.1.1中文翻译版，IoT，物联网
 
 # 网络与前后端开发
 
@@ -5627,6 +5690,18 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub) github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
 
+* [videojs/video.js](https://github.com/videojs/video.js) 视频.js - 开源HTML5视频播放器
+
+* [soimort/you-get](https://github.com/soimort/you-get) 很小的命令行实用程序，用于从 Web 下载媒体内容（视频、音频、图像），以防没有其他方便的方法可以做到这一点。
+
+* [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) 开源 API 开发生态系统。轻量级：采用简约的 UI 设计精心打造。快速：实时发送请求和获取/复制响应。
+
+* [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) 仅C++标头的 HTTP/HTTPS 服务器和客户端库
+
+* [JackJiang2011/MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK) 原创多端IM通信层框架，轻量级、高度提炼，历经8年、久经考验。可能是市面上唯一同时支持UDP + TCP + WebSocket三种协议的同类开源框架，支持 iOS、Android、Java、H5、小程序、Uniapp，服务端基于Netty。
+
+* [cluic/wxauto](https://github.com/cluic/wxauto) Windows版本微信客户端（非网页版）自动化，可实现简单的发送、接收微信消息
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5664,6 +5739,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python) 从头开始学习Python编程语言的课程，适合初学者。超过30节课，25小时视频，代码和群聊。从基础知识到创建有数据库的后端 API 等等......
 
 * [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python - 100天从新手到大师
+
+* [satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython) 通过令人惊讶的片段探索和理解Python。
 
 * [rasbt/python_reference](https://github.com/rasbt/python_reference/) 有用的函数、教程和其他 Python 相关的东西
 
@@ -5760,6 +5837,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [imaNNeoFighT/fl_chart](https://github.com/imaNNeoFighT/fl_chart) FL Chart 是高度可定制的 Flutter 图表库，支持折线图、条形图、饼图、散点图和雷达图。
 
 * [TheAlphamerc/flutter_twitter_clone](https://github.com/TheAlphamerc/flutter_twitter_clone) 使用 Firebase 实时数据库和存储在 flutter 框架中构建的全功能 Twitter 克隆
+
+* [LianjiaTech/bruno](https://github.com/LianjiaTech/bruno) 基于一整套设计体系的 Flutter 组件库。
 
 ## 其他
 
@@ -6350,11 +6429,19 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [microsoft/vcpkg](https://github.com/microsoft/vcpkg) 帮助您管理 Windows、Linux 和 MacOS 上的 C 和 C++ 库。
 
+* [libcpr/cpr](https://github.com/libcpr/cpr) libcurl的简单包装器，灵感来自优秀的Python Requests项目。
+
+* [open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) 用于与 JSON 交互的C++库。C++库，允许操作 JSON 值，包括字符串的序列化和反序列化。它还可以在反序列化/序列化步骤中保留现有注释，使其成为存储用户输入文件的方便格式。
+
+* [progschj/ThreadPool](https://github.com/progschj/ThreadPool) 一个简单的 C++11 线程池实现
+
+* [idealvin/coost](https://github.com/idealvin/coost) 一个优雅高效的跨平台C++基础库。它的目标是创建一把C++之剑，使C++编程变得简单愉快。
+
 * [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) 类似于 ack 的代码搜索工具，但速度更快。
 
 * [vim/vim](https://github.com/vim/vim) 老式UNIX编辑器Vi的大幅改进版本。添加了许多新功能：多级撤消、语法突出显示、命令行历史记录、在线帮助、拼写检查、文件名完成、块操作、脚本语言等。还有一个GUI可用。Vi 兼容性仍然保持不变。
 
-* [https://github.com/ranger/ranger](https://github.com/ranger/ranger) 受 VIM 启发的控制台文件管理器
+* [ranger/ranger](https://github.com/ranger/ranger) 受 VIM 启发的控制台文件管理器
 
 * [koekeishiya/yabai](https://github.com/koekeishiya/yabai) 基于二进制空间分区的macOS平铺窗口管理器
 
@@ -6379,6 +6466,24 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [rust-lang/mdBook](https://github.com/rust-lang/mdBook) 从markdown文件创建书籍。像 Gitbook 一样，但在 Rust 中实现
 
 * [phodal/github](https://github.com/phodal/github) GitHub 漫游指南——一本关于如何在 Github 上构建一个好项目的中文电子书。探索用户的行为。找到一些感兴趣的东西。
+
+* [lowlighter/metrics](https://github.com/lowlighter/metrics) 信息图表生成器，具有30+插件和300+选项，可显示您的GitHub帐户的统计信息并将其呈现为SVG，Markdown，PDF或JSON
+
+* [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) 动态生成的 github 自述文件的统计信息
+
+* [liu673cn/box](https://github.com/liu673cn/box)  TVbox开源版（空壳-自行配置）。通过导入特点资源接口,解析各类爬虫源、XP源、采集源等。完全无任何限制,也无任何广告。
+
+* [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）
+
+* [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) 健康学习到150岁 - 人体系统调优不完全指南
+
+* [wmjordan/PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF工具箱，可以编辑书签、剪裁旋转页面、解除限制、提取或合并文档，探查文档结构，提取图片、转成图片等等
+
+* [QuestPDF/QuestPDF](https://github.com/QuestPDF/QuestPDF) 用于PDF文档生成的现代开源.NET库。提供全面的布局引擎，由简洁且可发现的 C# Fluent API 提供支持。轻松生成 PDF 报告、发票、导出等。
+
+* [PHPOffice/PHPWord](https://github.com/PHPOffice/PHPWord) 用于读写文字处理文档的纯 PHP 库
+
+* [wuxingsanren/wildcat-vip-account](https://github.com/wuxingsanren/wildcat-vip-account) 每天分享最新的百度网盘SVIP、迅雷超级会员、手机话费折扣充值、霸王餐免费吃VIP（美团、饿了么、大众点评、肯德基、麦当劳、星巴克）、饿了么超级会员、美团外卖会员&红包券、爱奇艺VIP会员、腾讯视频VIP、优酷VIP会员、哔哩哔哩大会员、百度文库VIP、QQ音乐VIP、网易云黑胶VIP、喜马拉雅VIP、樊登读书会VIP、千图网VIP、包图网VIP、摄图网VIP、CSDN下载VIP、天眼查VIP、苹果ID等等各类VIP帐号，随取随用，完全免费，绝无套路，同时提供：百度文库VIP下载、图库素材VIP下载、学术文献VIP下载（知网维普万方读秀龙源超星、英文数据库、法律数据库、医学数据库、金融数据库）、全网视频VIP解析、全网音乐MP3免费听及下载、微信域名拦截检测API 
 
 # Star数变化
 
