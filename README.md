@@ -5384,93 +5384,63 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [mcxiaoke/mqtt](https://github.com/mcxiaoke/mqtt) MQTT协议3.1.1中文翻译版，IoT，物联网
 
+* [vernemq/vernemq](https://github.com/vernemq/vernemq) 基于 Erlang/OTP 的分布式 MQTT 消息代理。专为高质量和工业用例而设计。
+
 # 网络与前后端开发
 
-* [hoochanlon/NeiJuan](https://github.com/hoochanlon/NeiJuan) ChatGPT、Google产品等各类镜像与SS/V2/Clash/QuanX网络链，行业研究报告的知识储备库
+## JavaScript框架
 
 * [twbs/bootstrap](https://github.com/twbs/bootstrap) 最流行的 HTML、CSS 和 JavaScript 框架，用于在 Web 上开发响应式、移动优先的项目。
 
 * [vercel/next.js](https://github.com/vercel/next.js) Next.js 被一些世界上最大的公司使用，能够通过最新的 React 扩展来创建全栈 Web 应用程序，并集成强大的基于 Rust 的 Js 工具以实现最快的构建。
 
-* [supabase/supabase](https://github.com/supabase/supabase) 开源Firebase替代品。Firebase 是一家实时后端数据库创业公司，它能帮助开发者很快的写出 Web 端和移动端的应用。于 2014 年 Google 收购了 Firebase，之后把 Firebase 结合到 Google 云服务中。
-
-* [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
-
-* [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
-
 * [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) 与 Vite 相关的精彩事物的精选列表
-
-* [django/django](https://github.com/django/django) 高级 Python Web 框架，它鼓励快速开发和干净、实用的设计。
-
-* [swoole/swoole-src](https://github.com/swoole/swoole-src) 一个事件驱动、异步、基于协程的高性能并发库，适用于 PHP。
 
 * [axios/axios](https://github.com/axios/axios) 用于浏览器和 node.js 的基于 Promise 的 HTTP 客户端
 
-* [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
-
-* [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
-
-* [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。开箱即用的 TypeScript 支持。文件系统路由 à la Next.js。
+* [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
 
 * [oven-sh/bun](https://github.com/oven-sh/bun) 多合一快速且易于使用的工具。 不需要 1,000 个用于开发的 node_modules，你只需要 bun。
 
-* [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
-
-* [withastro/astro](https://github.com/withastro/astro) 现代web网站构建工具 — 强大的开发人员经验，轻量级输出。
-
-* [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)  网络如何运作 当我们在浏览器中输入 google.com 时，幕后会发生什么？
+* [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。TypeScript 支持。文件系统路由 à la Next.js。
 
 * [nestjs/nest](https://github.com/nestjs/nest) 用于在 TypeScript 和 JavaScript（ES6、ES7、ES8）之上构建高效、可扩展和企业级服务器端应用程序的渐进式 Node.js 框架
 
-* [signalwire/freeswitch](https://github.com/signalwire/freeswitch) 一种软件定义的电信堆栈，可实现从专有电信交换机到可在任何商用硬件上运行的多功能软件实施的数字化转型。可以释放任何设备的电信潜力。
+* [chartjs/Chart.js](https://github.com/chartjs/Chart.js) 使用 <canvas> 标签的简单 HTML5 图表
 
-* [logto-io/logto](https://github.com/logto-io/logto)  帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
+* [juliangarnier/anime](https://github.com/juliangarnier/anime) 轻量级的JS动画库，具有简单但功能强大的 API。
 
-* [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站,LowCode平台.
+* [mrdoob/three.js](https://github.com/mrdoob/three.js) 易于使用、轻量级、跨浏览器的通用 3D 库。当前仅包含 WebGL 渲染器，但 WebGPU（实验性）、SVG 和 CSS3D 渲染器也可作为插件使用。
 
-* [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别查询效率，提供众多主流编程语言的 xdb 数据生成和查询客户端实现。
+* [slidevjs/slidev](https://github.com/slidevjs/slidev) 面向开发人员的演示幻灯片
+
+* [TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript) 在 JavaScript 中为初学者实现的算法和数据结构，遵循最佳实践。
+
+* [parallax/jsPDF](https://github.com/parallax/jsPDF) 面向所有人的客户端 JavaScript PDF 生成。
+
+* [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) 用于解析和操作 HTML 和 XML 的快速、灵活且优雅的库。
+
+* [videojs/video.js](https://github.com/videojs/video.js) 视频.js - 开源HTML5视频播放器
+
+* [showdownjs/showdown](https://github.com/showdownjs/showdown)  Js 编写的双向 Markdown 到 HTML 到 Markdown 转换器
+
+* [shadcn/taxonomy](https://github.com/shadcn/taxonomy) 使用新路由器、服务器组件和 Next.js 13 中的所有新功能构建的开源应用程序。
+
+* [xgrommx/awesome-redux](https://github.com/xgrommx/awesome-redux) JS 应用的状态容器，提供可预测的状态管理
+
+* [wasp-lang/wasp](https://github.com/wasp-lang/wasp) 使用 React 和 Node.js 开发全栈 Web 应用程序的最快方法。
+
+* [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) 30 天的 JavaScript 编程挑战是在 30 天内学习 JavaScript 编程语言的分步指南。
+
+* [purescript/purescript](https://github.com/purescript/purescript) 一种小型的强类型编程语言，具有表达类型，编译为 JavaScript，由 Haskell 编写并受其启发。
+
+## 前端开发框架及项目
 
 * [mui/material-ui](https://github.com/mui/material-ui) 即用型基础 React 组件，永久免费。它包括 Material UI，它实现了 Google 的 Material Design。
 
-* [sogou/workflow](https://github.com/sogou/workflow) C++ 并行计算和异步网络引擎
+* [ant-design/ant-design](https://github.com/ant-design/ant-design) 企业级 UI 设计语言和 React UI 库
 
-* [soimort/you-get](https://github.com/soimort/you-get) youtube下载
-
-* [iv-org/invidious](https://github.com/iv-org/invidious)  YouTube 的前端替代
-
-* [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) 全网热门 BT Tracker 列表
-
-* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
-
-* [itgoyo/Aria2](https://github.com/itgoyo/Aria2)  突破百度云限速合集
-
-* [PanDownloadServer/Server](https://github.com/PanDownloadServer/Server) 百度云PanDownload的个人维护版本
-
-* [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
-
-* [yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，教程和源代码
-
-* [facert/awesome-spider](https://github.com/facert/awesome-spider) 收集各种爬虫 
-
-* [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘网站、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
-
-* [mastodon/mastodon](https://github.com/mastodon/mastodon) 基于 ActivityPub 的免费开源社交网络服务器，用户可以在其中关注并发现新朋友。 在 Mastodon 上，用户可以发布他们想要的任何东西：链接、图片、文本、视频。 所有服务器都可以作为联合网络进行互操作（一台服务器上的用户可以与另一台的用户无缝通信，包括实现 ActivityPub 的非 Mastodon 软件）
-
-* [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) 真正抗审查的 Twitter 替代品。最简单的开放协议，一劳永逸地创建抗审查的全球“社交”网络。 不依赖于任何受信任的中央服务器，因此具有弹性； 基于加密密钥和签名，防篡改； 它不依赖于 P2P 技术，因此可以正常工作。
-
-* [aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr) 用于抗审查全球网络的开放协议nostr的项目和资源的精选列表，包括：协议、中继、客户端、程序库、网桥和网关、工具、NIP-05身份服务、浏览器扩展、社区、教程
-
-* [irislib/iris-messenger](https://github.com/irislib/iris-messenger) 更好的社交网络Nostr的客户端。
-
-* [damus-io/damus](https://github.com/damus-io/damus) 类似twitter的nostr客户端，适用于iPhone、iPad和MacOS。
-
-* [jeffthibault/python-nostr](https://github.com/jeffthibault/python-nostr) 用于创建Nostr客户端的Python库
-
-* [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) Qt C++开发的B站视频、直播、漫画下载器。
-
-* [oatpp/oatpp](https://github.com/oatpp/oatpp) 轻巧而强大的 C++ Web 框架，用于高度可扩展和资源高效的 Web 应用程序。它是零依赖且易于携带的。
-
-* [pavlobu/deskreen](https://github.com/pavlobu/deskreen) 将带有网络浏览器的设备变成您计算机的辅助屏幕
+* [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站,LowCode平台.
 
 * [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
 
@@ -5486,29 +5456,35 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [chuzhixin/vue-admin-better](https://github.com/chuzhixin/vue-admin-better) vue后台管理
 
+* [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) 免费开放源码的中间端和后端模板，使用最新的 vue3，vite2，TypeScript 和其他主流技术开发，可作为学习参考。
+
+* [lyt-Top/vue-next-admin](https://github.com/lyt-Top/vue-next-admin) 基于 vue3.x + CompositionAPI setup 语法糖 + typescript + vite + element plus + vue-router-next + pinia 技术，适配手机、平板、pc 的后台开源免费模板，实现快速开发。
+
 * [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 后台前端解决方案，基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)。
+
+* [cool-team-official/cool-admin-vue](https://github.com/cool-team-official/cool-admin-vue) 很酷的后台权限管理框架，模块化、插件化、CRUD极速开发，基于midway.js 3.0、typeorm、mysql、jwt、element-ui、vuex、vue-router、vue等构建
+
+* [flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) 基于vite+vue3+gin搭建的开发基础平台（支持TS,JS混用），集成jwt鉴权，权限管理，动态路由，显隐可控组件，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器。
+
+* [biubiubiu01/vue3-bigData](https://github.com/biubiubiu01/vue3-bigData) 基于vue的大数据分析系统，包含各种echarts和vue
+
+* [RainManGO/vue3-composition-admin](https://github.com/RainManGO/vue3-composition-admin) 基于vue3 的管理端模板
+
+* [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin)  Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+
+* [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 & Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
+
+* [YunaiV/yudao-cloud](https://github.com/YunaiV/yudao-cloud) 基于 Spring Cloud Alibaba + MyBatis Plus + Vue &amp; Element 实现的后台管理系统 + 用户小程序，支持 RBAC 动态权限、多租户、数据权限、工作流、三方登录、支付、短信、商城等功能。
+
+* [macrozheng/mall-learning](https://github.com/macrozheng/mall-learning) mall学习教程，架构、业务、技术要点全方位解析。mall项目（50k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot 2.3.0、MyBatis 3.4.6、Elasticsearch 7.6.2、RabbitMQ 3.7.15、Redis 5.0、MongoDB 4.2.5、Mysql5.7等技术，采用Docker容器化部署。
 
 * [jaywcjlove/icongo](https://github.com/jaywcjlove/icongo) 搜索 SVG 图标。轻松地在 React 项目中包含流行的图标，并提供一个简单的工具将 SVG 转换为 React 组件。[icongo](https://icongo.github.io/)
 
-* [BiglySoftware/BiglyBT](https://github.com/BiglySoftware/BiglyBT) 基于Azureus的功能丰富的 Bittorrent 客户端
-
-* [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot) 爬取Reddit帖子并合成视频工具
-
-* [zonemeen/musicn](https://github.com/zonemeen/musicn) 下载高品质音乐的命令行工具
-
-* [foamzou/melody](https://github.com/foamzou/melody)  帮助你更好地管理音乐。帮助你将喜欢的歌曲或者音频上传到音乐平台的云盘。支持在各大音乐和视频网站检索歌曲。支持一键下载到本地，一键上传到云盘。一键“解锁”无法播放的歌曲。
-
-* [chartjs/Chart.js](https://github.com/chartjs/Chart.js) 使用 <canvas> 标签的简单 HTML5 图表
-
-* [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) Web GUI，支持 V2Ray、Xray、SS、SSR、Trojan 和 Pingtunnel
+* [Lissy93/dashy](https://github.com/Lissy93/dashy) 为您构建的自托管个人仪表板。包括状态检查，小部件，主题，图标包，UI编辑器等等！
 
 * [DataV-Team/DataV](https://github.com/DataV-Team/DataV) Vue数据可视化组件库（类似阿里DataV，大屏数据展示），提供SVG边框及装饰、图表、水位图、飞线图等组件，React版已发布
 
 * [youzan/vant-weapp](https://github.com/youzan/vant-weapp) 轻量、可靠的小程序 UI 组件库
-
-* [curl/curl](https://github.com/curl/curl) 用URL语法传输数据的命令行工具和库，支持DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP、SFTP、SMB、SMBS、SMTP、SMTPS、TELNET、TFTP、WS 和 WSS。提供了无数强大的功能
-
-* [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) 集数据库、用户管理、UI和API等工具的后端开发框架。
 
 * [lsqy/taro-music](https://github.com/lsqy/taro-music) 基于taro + taro-ui + redux + react-hooks + typescript 开发的网易云音乐小程序
 
@@ -5522,135 +5498,29 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [nslogx/Gitter](https://github.com/nslogx/Gitter) 可能是目前颜值最高的GitHub微信小程序客户端
 
+* [mark420524/question](https://github.com/mark420524/question) 小程序，微信答题小程序，可以进行答题，模拟考试。增加了词典查询，汉字成语查询等功能
+
 * [ecomfe/echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin) Apache ECharts 的微信小程序版本
 
 * [TalkingData/iview-weapp](https://github.com/TalkingData/iview-weapp) 一套高质量的微信小程序 UI 组件库
 
-* [gocolly/colly](https://github.com/gocolly/colly) 优雅的 Golang 爬虫框架
-
 * [mageslr/weapp-library](https://github.com/imageslr/weapp-library) “在线借书平台”微信小程序
-
-* [Tencent/wepy](https://github.com/Tencent/wepy) 小程序组件化开发框架
-
-* [cool-team-official/cool-admin-vue](https://github.com/cool-team-official/cool-admin-vue) 很酷的后台权限管理框架，模块化、插件化、CRUD极速开发，基于midway.js 3.0、typeorm、mysql、jwt、element-ui、vuex、vue-router、vue等构建
-
-* [biubiubiu01/vue3-bigData](https://github.com/biubiubiu01/vue3-bigData) 基于vue的大数据分析系统，包含各种echarts和vue
-
-* [RainManGO/vue3-composition-admin](https://github.com/RainManGO/vue3-composition-admin) 基于vue3 的管理端模板
-
-* [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin)  Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
-
-* [SmallRuralDog/vue3-music](https://github.com/SmallRuralDog/vue3-music) VUE3+TS开发的音乐播放器，模仿mac QQ音乐。
-
-* [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) 免费开放源码的中间端和后端模板，使用最新的 vue3，vite2，TypeScript 和其他主流技术开发，可作为学习参考。
-
-* [lyt-Top/vue-next-admin](https://github.com/lyt-Top/vue-next-admin) 基于 vue3.x + CompositionAPI setup 语法糖 + typescript + vite + element plus + vue-router-next + pinia 技术，适配手机、平板、pc 的后台开源免费模板，实现快速开发。
-
-* [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) 基于 Vue3.x + TypeScript 的在线演示文稿（幻灯片）应用，还原了大部分 Office PowerPoint 常用功能，支持 文字、图片、形状、线条、图表、表格、视频、音频、公式 几种最常用的元素类型，每一种元素都拥有高度可编辑能力，同时支持丰富的快捷键和右键菜单，支持导出本地 PPTX 文件，支持移动端基础编辑和预览，支持 PWA。您可以在此基础上搭建自己的在线幻灯片应用。
 
 * [kesixin/QuestionWechatApp](https://github.com/kesixin/QuestionWechatApp) 微信小程序，考试小程序，答题小程序，刷题小程序。毕业设计小程序，有前后端完整源码和数据库，易于二次开发。还可用于考试活动，企业内部考核，内部培训等职业考试刷题。
 
-* [Privoce/vocechat-web](https://github.com/privoce/vocechat-web) VoceChat 的 Web 客户端
+* [Tencent/wepy](https://github.com/Tencent/wepy) 小程序组件化开发框架
 
-* [Privoce/vocechat-server-rust](https://github.com/Privoce/vocechat-server-rust) 超轻量级的rust编写的社交服务器。轻松集成到您的网站/应用程序。
+* [iv-org/invidious](https://github.com/iv-org/invidious)  YouTube 的前端替代
 
-* [tw93/Pake](https://github.com/tw93/Pake/) 很简单的用 Rust 打包网页生成很小的桌面 App
-
-* [tauri-apps/tauri](https://github.com/tauri-apps/tauri) 使用 Web 前端构建更小、更快和更安全的桌面应用程序。
-
-* [codegangsta/gin](https://github.com/codegangsta/gin) Go Web 服务器的实时重新加载实用程序
-
-* [Tencent/weui](https://github.com/Tencent/weui) 微信官方设计团队的UI库，收录了移动Web应用中最实用的widgets modules。
-
-* [showdownjs/showdown](https://github.com/showdownjs/showdown)  Js 编写的双向 Markdown 到 HTML 到 Markdown 转换器
-
-* [snail007/goproxy](https://github.com/snail007/goproxy) golang实现的高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。
+* [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) 基于 Vue3.x + TypeScript 的在线演示文稿（幻灯片）应用，还原了大部分 Office PowerPoint 常用功能，支持 文字、图片、形状、线条、图表、表格、视频、音频、公式 几种最常用的元素类型，每一种元素都拥有高度可编辑能力，同时支持丰富的快捷键和右键菜单，支持导出本地 PPTX 文件，支持移动端基础编辑和预览，支持 PWA。您可以在此基础上搭建自己的在线幻灯片应用。
 
 * [vercel/swr](https://github.com/vercel/swr) 用于数据获取的 React Hooks 库。“SWR”来源于 stale-while-revalidate ，由HTTP RFC 5861推广的缓存失效策略。SWR先从缓存中返回数据（过时），然后发送请求（重新验证），最后再次附带最新数据。
 
-* [vercel/vercel](https://github.com/vercel/vercel) Vercel的前端云为开发人员提供了框架、工作流程和基础设施，以构建更快、更个性化的网络。面向前端开发人员的平台，提供创新者在灵感瞬间创建所需的速度和可靠性。
-
-* [vercel/micro](https://github.com/vercel/micro) 异步 HTTP 微服务.具有异步方法的简约微服务框架。
-
-* [shadcn/taxonomy](https://github.com/shadcn/taxonomy) 使用新路由器、服务器组件和 Next.js 13 中的所有新功能构建的开源应用程序。
-
-* [Cveinnt/LiveTerm](https://github.com/Cveinnt/LiveTerm) 在几分钟内构建终端风格的网站！
-
-* [mrdoob/three.js](https://github.com/mrdoob/three.js) 易于使用、轻量级、跨浏览器的通用 3D 库。当前仅包含 WebGL 渲染器，但 WebGPU（实验性）、SVG 和 CSS3D 渲染器也可作为插件使用。
-
 * [animate-css/animate.css](https://github.com/animate-css/animate.css) 跨浏览器的 CSS 动画库。就像容易的事一样容易使用。
 
-* [juliangarnier/anime](https://github.com/juliangarnier/anime) 轻量级的 JavaScript 动画库，具有简单但功能强大的 API。
+* [vercel/vercel](https://github.com/vercel/vercel) Vercel的前端云为开发人员提供了框架、工作流程和基础设施，以构建更快、更个性化的网络。面向前端开发人员的平台，提供创新者在灵感瞬间创建所需的速度和可靠性。
 
-* [mark420524/question](https://github.com/mark420524/question) 小程序，微信答题小程序，可以进行答题，模拟考试。增加了词典查询，汉字成语查询等功能
-
-* [flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) 基于vite+vue3+gin搭建的开发基础平台（支持TS,JS混用），集成jwt鉴权，权限管理，动态路由，显隐可控组件，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器。
-
-* [Jack-Cherish/python-spider](https://github.com/Jack-Cherish/python-spider) Python3网络爬虫实战：淘宝、京东、网易云、B站、12306、抖音、笔趣阁、漫画小说下载、音乐电影下载等
-
-* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) 非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
-
-* [fuzhengwei/itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) 《重学Java设计模式》是一本互联网真实案例实践书籍。以落地解决方案为核心，从实际业务中抽离出，交易、营销、秒杀、中间件、源码等22个真实场景，来学习设计模式的运用。
-
-* [JeffLi1993/springboot-learning-example](https://github.com/JeffLi1993/springboot-learning-example) spring boot 实践学习案例，是 spring boot 初学者及核心技术巩固的最佳实践。
-
-* [doocs/advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
-
-* [YunaiV/yudao-cloud](https://github.com/YunaiV/yudao-cloud) 基于 Spring Cloud Alibaba + MyBatis Plus + Vue &amp; Element 实现的后台管理系统 + 用户小程序，支持 RBAC 动态权限、多租户、数据权限、工作流、三方登录、支付、短信、商城等功能。
-
-* [zhoutaoo/SpringCloud](https://github.com/zhoutaoo/SpringCloud) 基于SpringCloud2.1的微服务开发脚手架，整合了spring-security-oauth2、nacos、feign、sentinel、springcloud-gateway等。服务治理方面引入elasticsearch、skywalking、springboot-admin、zipkin等，让项目开发快速进入业务开发，而不需过多时间花费在架构搭建上。
-
-* [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 & Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
-
-* [macrozheng/mall-learning](https://github.com/macrozheng/mall-learning) mall学习教程，架构、业务、技术要点全方位解析。mall项目（50k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot 2.3.0、MyBatis 3.4.6、Elasticsearch 7.6.2、RabbitMQ 3.7.15、Redis 5.0、MongoDB 4.2.5、Mysql5.7等技术，采用Docker容器化部署。
-
-* [mailpile/Mailpile](https://github.com/mailpile/Mailpile) 一个免费开放的现代，快速的电子邮件客户端，具有用户友好的加密和隐私功能
-
-* [makeplane/plane](https://github.com/makeplane/plane) 开源自托管项目规划工具，可帮助您以最简单的方式跟踪问题、历史和产品路线图。
-
-* [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre) 站点可靠性和生产工程资源的精选列表。站点可靠性工程（SRE）是 IT 运维的软件工程方案。
-
-* [humiaozuzu/awesome-flask](https://github.com/humiaozuzu/awesome-flask) 精选的 Flask ( python web 框架) 资源和插件列表
-
-* [aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss) 实用工具优先的 CSS 框架，用于快速构建自定义用户界面。
-
-* [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) 来自Laravel生态系统的书签，软件包，教程，视频和其他酷炫资源的精选列表
-
-* [phanan/htaccess](https://github.com/phanan/htaccess) 有用的 .htaccess 代码段的集合。
-
-* [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) 微服务架构相关原则和技术的精选列表。
-
-* [xgrommx/awesome-redux](https://github.com/xgrommx/awesome-redux) JS 应用的状态容器，提供可预测的状态管理
-
-* [Lissy93/dashy](https://github.com/Lissy93/dashy) 为您构建的自托管个人仪表板。包括状态检查，小部件，主题，图标包，UI编辑器等等！
-
-* [openedx/edx-platform](https://github.com/openedx/edx-platform) 一个面向服务的平台，用于创作和提供任何规模的在线学习。该平台是用Python和JavaScript编写的，并广泛使用Django框架。在最高级别，该平台由一个整体、一些可独立部署的应用程序（IDA）和基于ReactJS的微前端（MFE）组成。
-
-* [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) 第一个没有任何类型的用户标识符的消息传递平台 - 设计100%私有！iOS和安卓应用程序发布
-
-* [papercups-io/papercups](https://github.com/papercups-io/papercups) 开源实时客户聊天。用Elixir编写的开源实时客户支持工具Web应用程序。
-
-* [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) 将数据保护放在首位的通信平台。开源的完全可定制的通信平台，用JavaScript开发，适用于具有高标准数据保护的组织。
-
-* [Wechat-Group/WxJava](https://github.com/Wechat-Group/WxJava) 微信开发 Java SDK ，支持包括微信支付，开放平台，小程序，企业微信，公众号等的后端开发
-
-* [purescript/purescript](https://github.com/purescript/purescript) 一种小型的强类型编程语言，具有表达类型，编译为 JavaScript，由 Haskell 编写并受其启发。
-
-* [wasp-lang/wasp](https://github.com/wasp-lang/wasp) 使用 React 和 Node.js 开发全栈 Web 应用程序的最快方法。
-
-* [ant-design/ant-design](https://github.com/ant-design/ant-design) 企业级 UI 设计语言和 React UI 库
-
-* [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) 30 天的 JavaScript 编程挑战是在 30 天内学习 JavaScript 编程语言的分步指南。
-
-* [ninenines/cowboy](https://github.com/ninenines/cowboy) 用于 Erlang/OTP 的小型、快速、现代的 HTTP 服务器。
-
-* [vernemq/vernemq](https://github.com/vernemq/vernemq) 基于 Erlang/OTP 的分布式 MQTT 消息代理。专为高质量和工业用例而设计。
-
-* [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 一个离线IP地址管理器框架和定位器，支持数十亿个数据段，十微秒搜索性能。适用于多种编程语言的 XDB 引擎实现
-
-* [ossrs/srs](https://github.com/ossrs/srs) SRS是一个简单，高效，实时的视频服务器，支持RTMP，WebRTC，HLS，HTTP-FLV，SRT，MPEG-DASH和GB28181。
-
-* [localForage/localForage](https://github.com/localForage/localForage) 改进了离线存储。使用简单但功能强大的API包装IndexedDB，WebSQL或localStorage。
+* [Cveinnt/LiveTerm](https://github.com/Cveinnt/LiveTerm) 在几分钟内构建终端风格的网站！
 
 * [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce) 基于WordPress构建的可定制的开源电子商务平台。构建您能想象到的任何商务解决方案。
 
@@ -5666,41 +5536,181 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [WordPress/gutenberg](https://github.com/WordPress/gutenberg) WordPress及其他版本的块编辑器项目。插件可从官方存储库获得。
 
-* [gofiber/fiber](https://github.com/gofiber/fiber) 用 Go 编写的受 Express 启发的 Web 框架
-
-* [TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript) 在 JavaScript 中为初学者实现的算法和数据结构，遵循最佳实践。
-
-* [parallax/jsPDF](https://github.com/parallax/jsPDF) 面向所有人的客户端 JavaScript PDF 生成。
-
-* [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) 用于解析和操作 HTML 和 XML 的快速、灵活且优雅的库。
-
-* [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)  配置NGINX服务器所需的唯一工具。
-
 * [Automattic/wp-calypso](https://github.com/Automattic/wp-calypso) 新的 WordPress.com 前端 - 使用单页 Web 应用程序对 WordPress 仪表板进行了漂亮的重新设计，由 WordPress.com REST API 提供支持。Calypso 是为在一个地方阅读、写作和管理所有 WordPress 网站而构建的。
 
 * [roots/sage](https://github.com/roots/sage) WordPress入门主题，带有Laravel Blade组件和模板，Tailwind CSS和现代开发工作流程
 
+* [aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss) 实用工具优先的 CSS 框架，用于快速构建自定义用户界面。
+
+* [SmallRuralDog/vue3-music](https://github.com/SmallRuralDog/vue3-music) VUE3+TS开发的音乐播放器，模仿mac QQ音乐。
+
+* [tw93/Pake](https://github.com/tw93/Pake/) 很简单的用 Rust 打包网页生成很小的桌面 App
+
+* [tauri-apps/tauri](https://github.com/tauri-apps/tauri) 使用 Web 前端构建更小、更快和更安全的桌面应用程序。
+
+* [Tencent/weui](https://github.com/Tencent/weui) 微信官方设计团队的UI库，收录了移动Web应用中最实用的widgets modules。
+
+## 后端开发框架及项目
+
+* [django/django](https://github.com/django/django) 高级 Python Web 框架，它鼓励快速开发和干净、实用的设计。
+
+* [swoole/swoole-src](https://github.com/swoole/swoole-src) 一个事件驱动、异步、基于协程的高性能并发库，适用于 PHP。
+
+* [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
+
+* [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
+
+* [withastro/astro](https://github.com/withastro/astro) 现代web网站构建工具 — 强大的开发人员经验，轻量级输出。
+
+* [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) 集数据库、用户管理、UI和API等工具的后端开发框架。
+
+* [oatpp/oatpp](https://github.com/oatpp/oatpp) 轻巧而强大的 C++ Web 框架，用于高度可扩展和资源高效的 Web 应用程序。它是零依赖且易于携带的。
+
+* [codegangsta/gin](https://github.com/codegangsta/gin) Go Web 服务器的实时重新加载实用程序
+
+* [zhoutaoo/SpringCloud](https://github.com/zhoutaoo/SpringCloud) 基于SpringCloud2.1的微服务开发脚手架，整合了spring-security-oauth2、nacos、feign、sentinel、springcloud-gateway等。服务治理方面引入elasticsearch、skywalking、springboot-admin、zipkin等，让项目开发快速进入业务开发，而不需过多时间花费在架构搭建上。
+
+* [humiaozuzu/awesome-flask](https://github.com/humiaozuzu/awesome-flask) 精选的 Flask ( python web 框架) 资源和插件列表
+
+* [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) 来自Laravel生态系统的书签，软件包，教程，视频和其他酷炫资源的精选列表
+
+* [ninenines/cowboy](https://github.com/ninenines/cowboy) 用于 Erlang/OTP 的小型、快速、现代的 HTTP 服务器。
+
+* [ossrs/srs](https://github.com/ossrs/srs) SRS是一个简单，高效，实时的视频服务器，支持RTMP，WebRTC，HLS，HTTP-FLV，SRT，MPEG-DASH和GB28181。
+
+* [JeffLi1993/springboot-learning-example](https://github.com/JeffLi1993/springboot-learning-example) spring boot 实践学习案例，是 spring boot 初学者及核心技术巩固的最佳实践。
+
+* [logto-io/logto](https://github.com/logto-io/logto)  帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
+
 * [halo-dev/halo](https://github.com/halo-dev/halo)  强大易用的开源建站工具。 
 
-* [slidevjs/slidev](https://github.com/slidevjs/slidev) 面向开发人员的演示幻灯片
+* [vercel/micro](https://github.com/vercel/micro) 异步 HTTP 微服务.具有异步方法的简约微服务框架。
 
-* [wechaty/wechaty](https://github.com/wechaty/wechaty) 面向微信聊天机器人制造商的RPA（机器人流程自动化）SDK，可以帮助您在JavaScript，Python，Go和Java的6行中创建机器人，并提供跨平台支持，包括Linux，Windows，MacOS和Docker。
+* [fuzhengwei/itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) 《重学Java设计模式》是一本互联网真实案例实践书籍。以落地解决方案为核心，从实际业务中抽离出，交易、营销、秒杀、中间件、源码等22个真实场景，来学习设计模式的运用。
 
-* [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) Git的奇技淫巧。Git 是分布式版本管理工具，版本管理工具能记录每次的修改，只要提交到版本仓库，就可以找到之前任何时刻的状态（文本状态）。
+* [doocs/advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
 
-* [dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub) github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
+## 网络与前后端开发_其他
 
-* [videojs/video.js](https://github.com/videojs/video.js) 视频.js - 开源HTML5视频播放器
+* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
 
-* [soimort/you-get](https://github.com/soimort/you-get) 很小的命令行实用程序，用于从 Web 下载媒体内容（视频、音频、图像），以防没有其他方便的方法可以做到这一点。
+* [Jack-Cherish/python-spider](https://github.com/Jack-Cherish/python-spider) Python3网络爬虫实战：淘宝、京东、网易云、B站、12306、抖音、笔趣阁、漫画小说下载、音乐电影下载等
+
+* [gocolly/colly](https://github.com/gocolly/colly) 优雅的 Golang 爬虫框架
+
+* [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot) 爬取Reddit帖子并合成视频工具
+
+* [facert/awesome-spider](https://github.com/facert/awesome-spider) 收集各种爬虫 
+
+* [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘网站、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
+
+* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) 非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
+
+* [gofiber/fiber](https://github.com/gofiber/fiber) 用 Go 编写的受 Express 启发的 Web 框架
+
+* [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)  配置NGINX服务器所需的唯一工具。
 
 * [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) 开源 API 开发生态系统。轻量级：采用简约的 UI 设计精心打造。快速：实时发送请求和获取/复制响应。
 
 * [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) 仅C++标头的 HTTP/HTTPS 服务器和客户端库
 
+* [phanan/htaccess](https://github.com/phanan/htaccess) 有用的 .htaccess 代码段的集合。
+
+* [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) 微服务架构相关原则和技术的精选列表。
+
+* [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) 第一个没有任何类型的用户标识符的消息传递平台 - 设计100%私有！iOS和安卓应用程序发布
+
+* [papercups-io/papercups](https://github.com/papercups-io/papercups) 开源实时客户聊天。用Elixir编写的开源实时客户支持工具Web应用程序。
+
+* [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) 将数据保护放在首位的通信平台。开源的完全可定制的通信平台，用JavaScript开发，适用于具有高标准数据保护的组织。
+
+* [Wechat-Group/WxJava](https://github.com/Wechat-Group/WxJava) 微信开发 Java SDK ，支持包括微信支付，开放平台，小程序，企业微信，公众号等的后端开发
+
+* [wechaty/wechaty](https://github.com/wechaty/wechaty) 面向微信聊天机器人制造商的RPA（机器人流程自动化）SDK，可以帮助您在JavaScript，Python，Go和Java的6行中创建机器人，并提供跨平台支持，包括Linux，Windows，MacOS和Docker。
+
 * [JackJiang2011/MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK) 原创多端IM通信层框架，轻量级、高度提炼，历经8年、久经考验。可能是市面上唯一同时支持UDP + TCP + WebSocket三种协议的同类开源框架，支持 iOS、Android、Java、H5、小程序、Uniapp，服务端基于Netty。
 
 * [cluic/wxauto](https://github.com/cluic/wxauto) Windows版本微信客户端（非网页版）自动化，可实现简单的发送、接收微信消息
+
+* [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
+
+
+* [hoochanlon/NeiJuan](https://github.com/hoochanlon/NeiJuan) ChatGPT、Google产品等各类镜像与SS/V2/Clash/QuanX网络链，行业研究报告的知识储备库
+
+* [supabase/supabase](https://github.com/supabase/supabase) 开源Firebase替代品。Firebase 是一家实时后端数据库创业公司，它能帮助开发者很快的写出 Web 端和移动端的应用。于 2014 年 Google 收购了 Firebase，之后把 Firebase 结合到 Google 云服务中。
+
+* [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
+
+* [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)  网络如何运作 当我们在浏览器中输入 google.com 时，幕后会发生什么？
+
+* [signalwire/freeswitch](https://github.com/signalwire/freeswitch) 一种软件定义的电信堆栈，可实现从专有电信交换机到可在任何商用硬件上运行的多功能软件实施的数字化转型。可以释放任何设备的电信潜力。
+
+* [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别查询效率，提供众多主流编程语言的 xdb 数据生成和查询客户端实现。
+
+* [sogou/workflow](https://github.com/sogou/workflow) C++ 并行计算和异步网络引擎
+
+* [soimort/you-get](https://github.com/soimort/you-get) youtube下载
+
+* [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) 全网热门 BT Tracker 列表
+
+* [itgoyo/Aria2](https://github.com/itgoyo/Aria2)  突破百度云限速合集
+
+* [PanDownloadServer/Server](https://github.com/PanDownloadServer/Server) 百度云PanDownload的个人维护版本
+
+* [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
+
+* [yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，教程和源代码
+
+* [mastodon/mastodon](https://github.com/mastodon/mastodon) 基于 ActivityPub 的免费开源社交网络服务器，用户可以在其中关注并发现新朋友。 在 Mastodon 上，用户可以发布他们想要的任何东西：链接、图片、文本、视频。 所有服务器都可以作为联合网络进行互操作（一台服务器上的用户可以与另一台的用户无缝通信，包括实现 ActivityPub 的非 Mastodon 软件）
+
+* [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) 真正抗审查的 Twitter 替代品。最简单的开放协议，一劳永逸地创建抗审查的全球“社交”网络。 不依赖于任何受信任的中央服务器，因此具有弹性； 基于加密密钥和签名，防篡改； 它不依赖于 P2P 技术，因此可以正常工作。
+
+* [aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr) 用于抗审查全球网络的开放协议nostr的项目和资源的精选列表，包括：协议、中继、客户端、程序库、网桥和网关、工具、NIP-05身份服务、浏览器扩展、社区、教程
+
+* [irislib/iris-messenger](https://github.com/irislib/iris-messenger) 更好的社交网络Nostr的客户端。
+
+* [damus-io/damus](https://github.com/damus-io/damus) 类似twitter的nostr客户端，适用于iPhone、iPad和MacOS。
+
+* [jeffthibault/python-nostr](https://github.com/jeffthibault/python-nostr) 用于创建Nostr客户端的Python库
+
+* [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) Qt C++开发的B站视频、直播、漫画下载器。
+
+* [pavlobu/deskreen](https://github.com/pavlobu/deskreen) 将带有网络浏览器的设备变成您计算机的辅助屏幕
+
+* [BiglySoftware/BiglyBT](https://github.com/BiglySoftware/BiglyBT) 基于Azureus的功能丰富的 Bittorrent 客户端
+
+* [zonemeen/musicn](https://github.com/zonemeen/musicn) 下载高品质音乐的命令行工具
+
+* [foamzou/melody](https://github.com/foamzou/melody)  帮助你更好地管理音乐。帮助你将喜欢的歌曲或者音频上传到音乐平台的云盘。支持在各大音乐和视频网站检索歌曲。支持一键下载到本地，一键上传到云盘。一键“解锁”无法播放的歌曲。
+
+* [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) Web GUI，支持 V2Ray、Xray、SS、SSR、Trojan 和 Pingtunnel
+
+* [curl/curl](https://github.com/curl/curl) 用URL语法传输数据的命令行工具和库，支持DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP、SFTP、SMB、SMBS、SMTP、SMTPS、TELNET、TFTP、WS 和 WSS。提供了无数强大的功能
+
+* [Privoce/vocechat-web](https://github.com/privoce/vocechat-web) VoceChat 的 Web 客户端
+
+* [Privoce/vocechat-server-rust](https://github.com/Privoce/vocechat-server-rust) 超轻量级的rust编写的社交服务器。轻松集成到您的网站/应用程序。
+
+* [snail007/goproxy](https://github.com/snail007/goproxy) golang实现的高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。
+
+* [mailpile/Mailpile](https://github.com/mailpile/Mailpile) 一个免费开放的现代，快速的电子邮件客户端，具有用户友好的加密和隐私功能
+
+* [makeplane/plane](https://github.com/makeplane/plane) 开源自托管项目规划工具，可帮助您以最简单的方式跟踪问题、历史和产品路线图。
+
+* [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre) 站点可靠性和生产工程资源的精选列表。站点可靠性工程（SRE）是 IT 运维的软件工程方案。
+
+* [openedx/edx-platform](https://github.com/openedx/edx-platform) 一个面向服务的平台，用于创作和提供任何规模的在线学习。该平台是用Python和JavaScript编写的，并广泛使用Django框架。在最高级别，该平台由一个整体、一些可独立部署的应用程序（IDA）和基于ReactJS的微前端（MFE）组成。
+
+* [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 一个离线IP地址管理器框架和定位器，支持数十亿个数据段，十微秒搜索性能。适用于多种编程语言的 XDB 引擎实现
+
+* [localForage/localForage](https://github.com/localForage/localForage) 改进了离线存储。使用简单但功能强大的API包装IndexedDB，WebSQL或localStorage。
+
+* [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) Git的奇技淫巧。Git 是分布式版本管理工具，版本管理工具能记录每次的修改，只要提交到版本仓库，就可以找到之前任何时刻的状态（文本状态）。
+
+* [dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub) github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
+
+* [soimort/you-get](https://github.com/soimort/you-get) 很小的命令行实用程序，用于从 Web 下载媒体内容（视频、音频、图像），以防没有其他方便的方法可以做到这一点。
+
 
 ## 区块链
 
