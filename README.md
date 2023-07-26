@@ -101,7 +101,15 @@
 
 * [academic/awesome-datascience](https://github.com/academic/awesome-datascience) 很棒的数据科学存储库，用于学习和应用现实世界的问题。
 
-* [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南
+* [donnemartin/data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) 数据科学Python笔记本：深度学习（TensorFlow，Theano，Caffe，Keras），scikit-learn，Kaggle，大数据（Spark，Hadoop MapReduce，HDFS），matplotlib，pandas，NumPy，SciPy，Python essentials，AWS和各种命令行。
+
+* [NLP-LOVE/ML-NLP](https://github.com/NLP-LOVE/ML-NLP) 机器学习(Machine Learning)、深度学习(Deep Learning)、NLP面试中常考到的知识点和代码实现，也是作为一个算法工程师必会的理论基础知识。
+
+* [tangyudi/Ai-Learn](https://github.com/tangyudi/Ai-Learn) 人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，等热门领域
+
+* [GitHub - dragen1860/Deep-Learning-with-TensorFlow-book](https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book) 深度学习入门开源书，基于TensorFlow 2.0案例实战。
+
+* [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南深度学习入门开源书，基于TensorFlow 2.0案例实战。
 
 * [1c7/Crash-Course-Computer-Science-Chinese](https://github.com/1c7/Crash-Course-Computer-Science-Chinese) 计算机速成课 | Crash Course 字幕组 (全40集 2018-5-1 精校完成)
 
@@ -4356,6 +4364,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) 开源的云原生分布式SQL数据库。
 
+[wangzhiwubigdata/God-Of-BigData](https://github.com/wangzhiwubigdata/God-Of-BigData) 专注大数据学习面试，大数据成神之路开启。Flink/Spark/Hadoop/Hbase/Hive...
+
+[apache/spark](https://github.com/apache/spark) 用于大规模数据处理的统一分析引擎。它提供了 Scala、Java、Python 和 R 中的高级 API，以及支持用于数据分析的一般计算图的优化引擎。它还支持一组丰富的高级工具，包括用于SQL和数据帧的Spark SQL，用于pandas工作负载的Spark上的pandas API，用于机器学习的MLlib，用于图形处理的GraphX和用于流处理的结构化流。
+
 ## 数据搜索引擎
 
 [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -4393,6 +4405,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 [GerevAI/gerev](https://github.com/GerevAI/gerev) 人工智能驱动的企业搜索引擎
 
 [alibaba/Chat2DB](https://github.com/alibaba/Chat2DB) 智能且通用的SQL客户端和数据库报告工具，集成了ChatGPT功能。
+
+[amazon-science/esci-data](https://github.com/amazon-science/esci-data) 一个困难搜索查询的大型数据集，旨在促进查询和产品语义匹配领域的研究。对于每个查询，数据集提供最多 40 个潜在相关结果的列表，以及 ESCI 相关性判断（精确、替代、补充、不相关），指示产品与查询的相关性。每个查询产品对都附有其他信息。数据集是多语言的，因为它包含英语、日语和西班牙语的查询。
 
 ## 向量数据库、向量搜索、最近邻搜索
 
@@ -5550,6 +5564,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [Tencent/weui](https://github.com/Tencent/weui) 微信官方设计团队的UI库，收录了移动Web应用中最实用的widgets modules。
 
+* [bvaughn/react-virtualized](https://github.com/bvaughn/react-virtualized) 用于高效呈现大型列表和表格数据的 React 组件
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级 Python Web 框架，它鼓励快速开发和干净、实用的设计。
@@ -5634,7 +5650,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)  由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
 
-
 * [hoochanlon/NeiJuan](https://github.com/hoochanlon/NeiJuan) ChatGPT、Google产品等各类镜像与SS/V2/Clash/QuanX网络链，行业研究报告的知识储备库
 
 * [supabase/supabase](https://github.com/supabase/supabase) 开源Firebase替代品。Firebase 是一家实时后端数据库创业公司，它能帮助开发者很快的写出 Web 端和移动端的应用。于 2014 年 Google 收购了 Firebase，之后把 Firebase 结合到 Google 云服务中。
@@ -5710,7 +5725,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub) github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
 
 * [soimort/you-get](https://github.com/soimort/you-get) 很小的命令行实用程序，用于从 Web 下载媒体内容（视频、音频、图像），以防没有其他方便的方法可以做到这一点。
-
 
 ## 区块链
 
@@ -5793,6 +5807,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [dabeaz-course/practical-python](https://github.com/dabeaz-course/practical-python) 实用的Python编程（@dabeaz课程）
 
 * [jackfrued/Python-Core-50-Courses](https://github.com/jackfrued/Python-Core-50-Courses) Python语言基础50课
+
+* [pandas-dev/pandas](https://github.com/pandas-dev/pandas) 灵活而强大的 Python 数据分析/操作库，提供类似于 R data.frame 对象的标记数据结构、统计函数等等
 
 ## flutter
 
@@ -5969,7 +5985,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) 可以不止有 Notion 和 Miro。 AFFiNE 是下一代知识库，它将规划、分类和创建结合在一起。隐私至上、开源、可定制且随时可用。
 
-* [https://github.com/Reamd7/notion-zh_CN](https://github.com/Reamd7/notion-zh_CN) notion知识库的汉化脚本
+* [Reamd7/notion-zh_CN](https://github.com/Reamd7/notion-zh_CN) notion知识库的汉化脚本
 
 * [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) 思源是本地首创的个人知识管理系统，支持细粒度块级引用和Markdown所见即所得。
 
@@ -6050,6 +6066,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) 以 C++ 实现的数学、机器学习、计算机科学和物理学中的各种算法的集合，用于教育目的。
 
 * [chengxumiaodaren/cpp-learning](https://github.com/chengxumiaodaren/cpp-learning) C++学习
+
+* [jobbole/awesome-cpp-cn](https://github.com/jobbole/awesome-cpp-cn) C++ 资源大全中文版，标准库、Web应用框架、人工智能、数据库、图片处理、机器学习、日志、代码分析等。
 
 * [AnthonyCalandra/modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features) 现代C++语言和库功能的备忘单。
 
@@ -6393,6 +6411,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [JStumpp/awesome-android](https://github.com/JStumpp/awesome-android) 一个精选的 Android 软件包和资源列表。
 
+* [amitshekhariitbhu/Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database) 用于调试 android 数据库和共享首选项的库 - 让调试再次变得伟大
+
 * [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd) 域驱动设计 （DDD）、命令查询责任分离 （CQRS）、事件溯源和事件风暴资源的精选列表
 
 * [rShetty/awesome-podcasts](https://github.com/rShetty/awesome-podcasts) 软件工程师的重要播客列表
@@ -6494,6 +6514,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [PHPOffice/PHPWord](https://github.com/PHPOffice/PHPWord) 用于读写文字处理文档的纯 PHP 库
 
 * [wuxingsanren/wildcat-vip-account](https://github.com/wuxingsanren/wildcat-vip-account) 每天分享最新的百度网盘SVIP、迅雷超级会员、手机话费折扣充值、霸王餐免费吃VIP（美团、饿了么、大众点评、肯德基、麦当劳、星巴克）、饿了么超级会员、美团外卖会员&红包券、爱奇艺VIP会员、腾讯视频VIP、优酷VIP会员、哔哩哔哩大会员、百度文库VIP、QQ音乐VIP、网易云黑胶VIP、喜马拉雅VIP、樊登读书会VIP、千图网VIP、包图网VIP、摄图网VIP、CSDN下载VIP、天眼查VIP、苹果ID等等各类VIP帐号，随取随用，完全免费，绝无套路，同时提供：百度文库VIP下载、图库素材VIP下载、学术文献VIP下载（知网维普万方读秀龙源超星、英文数据库、法律数据库、医学数据库、金融数据库）、全网视频VIP解析、全网音乐MP3免费听及下载、微信域名拦截检测API 
+
+* [XiangLinPro/IT_book](https://github.com/XiangLinPro/IT_book) 收藏这些年来看过或者听过的一些不错的常用的上千本书籍，没准你想找的书就在这里呢，包含了互联网行业大多数书籍和面试经验题目等等。有人工智能系列（常用深度学习框架TensorFlow、pytorch、keras。NLP、机器学习，深度学习等等），大数据系列(Spark,Hadoop,Scala,kafka等)，程序员必修系列（C、C++、java、数据结构、linux，设计模式、数据库等等）
 
 # Star数变化
 
