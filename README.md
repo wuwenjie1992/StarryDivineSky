@@ -73,6 +73,10 @@
 
 * [fengdu78/deeplearning_ai_books](https://github.com/fengdu78/deeplearning_ai_books) deeplearning.ai（吴恩达老师的深度学习课程笔记及资源）
 
+* [kmario23/deep-learning-drizzle](https://github.com/kmario23/deep-learning-drizzle) 通过从这些令人兴奋的讲座中学习，让自己沉浸在深度学习、强化学习、机器学习、计算机视觉和 NLP 
+
+* [cbamls/AI_Tutorial](https://github.com/cbamls/AI_Tutorial) 精选机器学习，NLP，图像识别， 深度学习等人工智能领域学习资料，搜索，推荐，广告系统架构及算法技术资料整理。算法大牛笔记汇总
+
 * [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) 精选的开源库列表，用于部署、监控、版本控制和扩展您的机器学习
 
 * [FavioVazquez/ds-cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets) 统治世界的数据科学备忘单列表
@@ -122,6 +126,8 @@
 * [PyTorchLightning/PyTorch-lightning](https://github.com/PyTorchLightning/PyTorch-lightning) 基于Pytorch的轻量高级计算框架，相当于Keras框架。
 
 * [bharathgs/Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list) github上pytorch相关内容的完整列表，例如不同的模型，实现，帮助程序库，教程等。
+
+* [sgrvinod/Deep-Tutorials-for-PyTorch](https://github.com/sgrvinod/Deep-Tutorials-for-PyTorch) 使用 PyTorch 自行实现深度学习模型的深入教程。
 
 * [ELS-RD/kernl](https://github.com/ELS-RD/kernl/) 第一个使用 OpenAI Triton 编写的 OSS 推理引擎，这是一种由 OpenAI 设计的新语言，可以更轻松地编写 GPU 内核。每个内核不到200行代码，易于理解和修改。
 
@@ -338,19 +344,29 @@
 
 * [Visualize-ML/Book3_Elements-of-Mathematics](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics) Book_3_《数学要素》 | 鸢尾花书：从加减乘除到机器学习
 
+* [roatienza/Deep-Learning-Experiments](https://github.com/roatienza/Deep-Learning-Experiments) 了解深度学习的视频、笔记和实验
+
+* [MingchaoZhu/DeepLearning](https://github.com/MingchaoZhu/DeepLearning) 该书为《深度学习》(花书) 数学推导、原理剖析与源码级别代码实现
+
+* [aladdinpersson/Machine-Learning-Collection](https://github.com/aladdinpersson/Machine-Learning-Collection) 在此存储库中，您将找到与机器学习相关的教程和项目。我尝试使代码尽可能清晰，目标是用作学习资源和查找问题以解决特定问题的方法。对于大多数人，如果您想要代码的演练，我还在YouTube上做了视频解释。
+
+* [fastai/fastai](https://github.com/fastai/fastai) 一个深度学习库，它提供了高级组件，可以在标准深度学习领域快速轻松地提供最先进的结果，并为研究人员提供可以混合和匹配以构建新方法的低级组件。它旨在做到这两件事，而不会在易用性、灵活性或性能方面做出实质性妥协。这要归功于精心分层的架构，该架构以解耦抽象的形式表达了许多深度学习和数据处理技术的共同底层模式。这些抽象可以通过利用底层Python语言的动态性和PyTorch库的灵活性来简洁明了地表达。
+
+* [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models) 各种深度学习架构、模型和技巧的集合。Jupyter Notebooks 中 TensorFlow 和 PyTorch 的各种深度学习架构、模型和技巧的集合。
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
 
 * [ScienceKot/kydavra](https://github.com/ScienceKot/kydavra) 特征筛选工具
 
-* [aerdem4/lofo-importance](https://github.com/aerdem4/lofo-importance) LOFO（Leave One Feature Out）重要性基于选择的度量计算一组特征的重要性，对于选择的模型，通过迭代地从集合中删除每个特征，并评估模型的性能，使用验证方案 的选择，基于所选的指标。
+* [aerdem4/lofo-importance](https://github.com/aerdem4/lofo-importance) LOFO（Leave One Feature Out）重要性基于选择的度量计算一组特征的重要性，对于选择的模型，通过迭代地从集合中删除每个特征，并评估模型的性能。
 
 * [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) 解决机器学习中不平衡数据集
 
 * [ResidentMario/missingno](https://github.com/ResidentMario/missingno) 灵活且易于使用的缺失数据可视化和实用程序，可让您快速直观地了解数据集的完整性（或缺乏完整性）。 
 
-* [RUCAIBox/Negative-Sampling-Paper](https://github.com/RUCAIBox/Negative-Sampling-Paper) 该知识库收录了与负采样方法相关的 100 篇论文，涵盖推荐系统（**RS**）、计算机视觉（**CV**）、自然语言处理（**NLP**）和对比学习（**CL**）等多个研究领域。
+* [RUCAIBox/Negative-Sampling-Paper](https://github.com/RUCAIBox/Negative-Sampling-Paper) 该知识库收录了与负采样方法相关的 100 篇论文，涵盖推荐系统（RS）、计算机视觉（CV）、自然语言处理（NLP）和对比学习（CL）等多个研究领域。
 
 * [haifengl/smile](https://github.com/haifengl/smile) Smile（统计机器智能和学习引擎）是Java和Scala中的快速而全面的机器学习，NLP，线性代数，图形，插值和可视化系统。凭借先进的数据结构和算法，Smile 可提供最先进的性能。
 
@@ -653,6 +669,8 @@
 * [zjhellofss/KuiperInfer](https://github.com/zjhellofss/KuiperInfer) 带你从零实现一个高性能的深度学习推理库
 
 * [huggingface/datasets](https://github.com/huggingface/datasets) 最大的 ML 模型即用型数据集中心，提供快速、易用和高效的数据处理工具
+
+* [NVIDIA/DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples) 按模型组织的最先进的深度学习脚本 - 易于训练和部署，在企业级基础架构上具有可重现的准确性和性能。最新 NVIDIA 示例。
 
 # NLP自然语言处理
 
@@ -2553,6 +2571,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [WZMIAOMIAO/deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing) 用于图像处理的深度学习，包括分类和对象检测等。
 
+[satellite-image-deep-learning/techniques](https://github.com/satellite-image-deep-learning/techniques) 用于分析卫星和航空图像的各种深度学习技术，包括用于分类、分割和对象检测等任务的架构、模型和算法。对于研究人员、从业者和任何对深度学习的最新进展及其对计算机视觉和遥感的影响感兴趣的人来说，它都是宝贵的资源。
+
 ## 图像风格
 
 [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
@@ -2592,6 +2612,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
 [yangjianxin1/CLIP-Chinese](https://github.com/yangjianxin1/CLIP-Chinese) 中文多模态对比学习预训练模型 ，可获取140w中文图文对预训练数据，以及中文CLIP预训练权重。下游任务：图文相似度计算、文本相似度计算、图片相似度计算
+
+[jexom/sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib) 深度图库，用于 Automatic1111/stable-diffusion-webui 的控制网扩展
 
 [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 排行榜第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
 
@@ -3404,6 +3426,8 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [deezer/spleeter](https://github.com/deezer/spleeter) 人声分离模型
 
+[Anjok07/ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) GUI，用于使用深度神经网络的人声去除器。
+
 [stemrollerapp/stemroller](https://github.com/stemrollerapp/stemroller) 从任何歌曲中分离出人声、鼓、贝斯和其他器乐声部
 
 [microsoft/unilm/wavlm](https://github.com/microsoft/unilm/tree/master/wavlm) 用于全栈语音处理的大规模自我监督预训练，下游任务如ASR、声纹识别、声音分类等。
@@ -3840,6 +3864,10 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [TencentAILabHealthcare/scBERT](https://github.com/TencentAILabHealthcare/scBERT) 单细胞RNA-seq数据细胞类型注释的大规模预训练深度语言模型。可靠的细胞类型注释是单细胞RNA测序数据下游分析的先决条件。受大规模预训练语言模型的启发，提出了基于预训练深度神经网络的模型scBERT。scBERT的第一阶段，它通过对大量未标记的scRNA-seq数据进行预训练，获得了对基因 - 基因相互作用的一般理解。然后，预先训练的scBERT可以通过监督微调用于看不见和用户特异性scRNA-seq数据的细胞注释任务。
 
+[Graylab/IgFold](https://github.com/Graylab/IgFold) 通过深度学习对大量天然抗体进行快速、准确的抗体结构预测。
+
+
+
 # 图数据库图算法
 
 https://github.com/Tencent/plato
@@ -4251,6 +4279,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [yushundong/REFEREE](https://github.com/yushundong/REFEREE) “关于图神经网络中偏差的结构解释”的开源代码。 以GE-REFEREE为例来解释经过训练的GAT模型。评估它如何帮助GAT消除偏见。
 
 * [yongduosui/CAL](https://github.com/yongduosui/CAL) "可解释和可归纳图分类的因果注意"。基于PyTorch的因果注意在可解释和可推广**图分类**中的实现
+
+* [PKU-DAIR/SGL](https://github.com/PKU-DAIR/SGL) 针对可扩展图形学习的图形神经网络工具包，它支持对超大型数据集进行深度图形学习。SGL允许用户轻松实现可扩展的图形神经网络，并评估其在节点分类、节点聚类和链路预测等各种下游任务中的性能。
 
 # 大数据
 
@@ -5224,6 +5254,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [2dust/v2rayN](https://github.com/2dust/v2rayN) 适用于Windows的GUI客户端，支持Xray核心和v2fly核心等
 
+* [FelisCatus/SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)  快速轻松地在多个代理之间管理和切换。该项目可作为Chromium扩展。
+
+* [xtaci/kcptun](https://github.com/xtaci/kcptun) 基于 KCP 的可靠、安全的隧道，使用 N：M 多路复用和 FEC。
+
 # 硬件
 
 ## CPU RISC-V
@@ -5618,11 +5652,13 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [facert/awesome-spider](https://github.com/facert/awesome-spider) 收集各种爬虫 
 
-* [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘网站、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
+* [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
 
-* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) 非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
+* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) 有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
 
 * [gofiber/fiber](https://github.com/gofiber/fiber) 用 Go 编写的受 Express 启发的 Web 框架
+
+* [revel/revel](https://github.com/revel/revel) 用于 Go 语言的高生产力、全栈 Web 框架。
 
 * [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)  配置NGINX服务器所需的唯一工具。
 
@@ -5726,6 +5762,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [soimort/you-get](https://github.com/soimort/you-get) 很小的命令行实用程序，用于从 Web 下载媒体内容（视频、音频、图像），以防没有其他方便的方法可以做到这一点。
 
+* [freefq/free](https://github.com/freefq/free) 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5810,6 +5848,98 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [pandas-dev/pandas](https://github.com/pandas-dev/pandas) 灵活而强大的 Python 数据分析/操作库，提供类似于 R data.frame 对象的标记数据结构、统计函数等等
 
+## C/C++ 程序设计
+
+* [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
+
+* [huihut/interview](https://github.com/huihut/interview) C/C++ 技术面试基础知识总结
+
+* [wuye9036/CppTemplateTutorial](https://github.com/wuye9036/CppTemplateTutorial) 中文的C++ Template的教学指南。与知名书籍C++ Templates不同，该系列教程将C++ Templates作为一门图灵完备的语言来讲授，以求帮助读者对Meta-Programming融会贯通。
+
+* [Qihoo360/safe-rules](https://github.com/Qihoo360/safe-rules) 详细的C/C++编程规范指南，由360质量工程部编著，适用于桌面、服务端及嵌入式软件系统。
+
+* [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) 以 C++ 实现的数学、机器学习、计算机科学和物理学中的各种算法的集合，用于教育目的。
+
+* [chengxumiaodaren/cpp-learning](https://github.com/chengxumiaodaren/cpp-learning) C++学习
+
+* [jobbole/awesome-cpp-cn](https://github.com/jobbole/awesome-cpp-cn) C++ 资源大全中文版，标准库、Web应用框架、人工智能、数据库、图片处理、机器学习、日志、代码分析等。
+
+* [AnthonyCalandra/modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features) 现代C++语言和库功能的备忘单。
+
+* [Tencent/libco](https://github.com/Tencent/libco) 广泛应用于微信后台服务的协程库。 已经在数万台机器上运行。
+
+* [cloudwu/coroutine](https://github.com/cloudwu/Coroutine) C 的非对称协程库。
+
+* [attractivechaos/klib](https://github.com/attractivechaos/klib) 独立的轻量级 C 库，MIT/X11 许可。 大多数组件都独立于外部库，除了标准 C 库，并且彼此独立。Klib 致力于提高效率和减少内存占用。 就速度和内存使用而言，某些组件（如 khash.h、kbtree.h、ksort.h 和 kvec.h）是所有编程语言中类似算法或数据结构的最有效实现之一。
+
+* [miloyip/json-tutorial](https://github.com/miloyip/json-tutorial) 从零开始的 JSON 库教程 C/C++ 编程
+
+* [liu-jianhao/Cpp-Design-Patterns](https://github.com/liu-jianhao/Cpp-Design-Patterns) C++设计模式
+
+* [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+
+* [tangtangcoding/C-C-](https://github.com/tangtangcoding/C-C-) C语言电子书与视频资料分享
+
+* [linyacool/WebServer](https://github.com/linyacool/WebServer) C++11编写的Web服务器
+
+* [jupyter-xeus/xeus-cling](https://github.com/jupyter-xeus/xeus-cling) 用于 C++ 编程语言的 Jupyter 内核
+
+* [gozfree/gear-lib](https://github.com/gozfree/gear-lib) 一组通用的Ｃ基础库，用POSIX C实现，目标是为了跨平台兼容。适用于物联网，嵌入式，以及网络服务开发等场景。
+
+* [google/googletest](https://github.com/google/googletest) Google 测试和模拟框架  C++ 测试框架
+
+* [ocornut/imgui](https://github.com/ocornut/imgui) 具有最小依赖性的 C++ 无膨胀图形用户界面
+
+* [citra-emu/citra](https://github.com/citra-emu/citra)  用 C++ 编写的实验性开源 Nintendo 3DS 模拟器/调试器。
+
+* [microsoft/vcpkg](https://github.com/microsoft/vcpkg) 帮助您管理 Windows、Linux 和 MacOS 上的 C 和 C++ 库。
+
+* [libcpr/cpr](https://github.com/libcpr/cpr) libcurl的简单包装器，灵感来自优秀的Python Requests项目。
+
+* [open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) 用于与 JSON 交互的C++库。C++库，允许操作 JSON 值，包括字符串的序列化和反序列化。它还可以在反序列化/序列化步骤中保留现有注释，使其成为存储用户输入文件的方便格式。
+
+* [progschj/ThreadPool](https://github.com/progschj/ThreadPool) 一个简单的 C++11 线程池实现
+
+* [idealvin/coost](https://github.com/idealvin/coost) 一个优雅高效的跨平台C++基础库。它的目标是创建一把C++之剑，使C++编程变得简单愉快。
+
+* [C 程序设计 · 语雀](https://www.yuque.com/qyuhen/c11)
+
+* [koshox/pythonvm](https://github.com/koshox/pythonvm) 《自己动手写python虚拟机》C++实现 
+
+## Rust 程序设计
+
+* [rust-lang/rust](https://github.com/rust-lang/rust) rust使每个人都能构建可靠、高效的软件。Rust 的主要源代码存储库。它包含编译器、标准库和文档。
+
+* [servo/servo](https://github.com/servo/servo) 用 Rust 语言编写的原型 Web 浏览器引擎。
+
+* [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) Rust 代码和资源的精选列表。
+
+* [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) 所有算法都在 Rust 中实现
+
+* [sger/RustBooks](https://github.com/sger/RustBooks) Rust 书籍列表
+
+* [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) Rust 编写并与上游 Bitwarden 客户端兼容的 服务器 API 的替代实现，非常适合运行官方资源密集型服务可能不理想的自托管部署。Bitwarden是自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息。
+
+* [sunface/rust-course](https://github.com/sunface/rust-course)   “连续六年成为全世界最受喜爱的语言，无GC也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS未来基石" 。Rust语言圣经拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内。这可能是目前最用心的Rust中文学习教程/书籍
+
+* [rust-lang/mdBook](https://github.com/rust-lang/mdBook) 从markdown文件创建书籍。像 Gitbook 一样，但在 Rust 中实现
+
+* [iced-rs/iced](https://github.com/iced-rs/iced) 一个跨平台的 Rust GUI 库，灵感来自 Elm
+
+* [Rust 程序设计 · 语雀](https://www.yuque.com/qyuhen/rust)
+
+* [veloren/veloren](https://github.com/veloren/veloren) 用 Rust 编写的多人体素 RPG。从 Cube World、Minecraft 和 Dwarf Fortress 等游戏中汲取灵感。该游戏目前正在大力开发中，但可以玩。
+
+* [emilk/egui](https://github.com/emilk/egui) 简单、快速且高度可移植的 Rust 即时模式 GUI 库。
+
+* [bevyengine/bevy](https://github.com/bevyengine/bevy) 用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎
+
+* [rust-lang/rustlings](https://github.com/rust-lang/rustlings) 小练习，让你习惯阅读和编写 Rust 代码
+
+* [yewstack/yew](https://github.com/yewstack/yew) 用于构建客户端 Web 应用程序的 Rust / Wasm 框架
+
+* [swc-project/swc](https://github.com/swc-project/swc) 用 Rust 编写的超快 TypeScript / JavaScript 编译器。它同时是 Rust 和 JavaScript 的库。
+
 ## flutter
 
 * [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn)  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
@@ -5865,6 +5995,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [TheAlphamerc/flutter_twitter_clone](https://github.com/TheAlphamerc/flutter_twitter_clone) 使用 Firebase 实时数据库和存储在 flutter 框架中构建的全功能 Twitter 克隆
 
 * [LianjiaTech/bruno](https://github.com/LianjiaTech/bruno) 基于一整套设计体系的 Flutter 组件库。
+
+* [LianjiaTech/bruno](https://github.com/LianjiaTech/bruno) Bruno 是基于一整套设计体系的 Flutter 组件库。一套企业级移动端 Flutter 组件库.
 
 ## 其他
 
@@ -6039,6 +6171,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [yabwe/medium-editor](https://github.com/yabwe/medium-editor) Medium.com 所见即所得编辑器克隆。使用 contenteditable API 实现富文本解决方案。
 
+* [lapce/lapce](https://github.com/lapce/lapce) 用 Rust 编写的闪电般快速且功能强大的代码编辑器
+
 * [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) 允许您记录屏幕的选定区域，编辑并将其保存为 gif 或视频。需要 .NET 6 桌面运行时（或更高版本）。
 
 * [mifi/lossless-cut](https://github.com/mifi/lossless-cut) 无损视频/音频编辑的瑞士军刀。跨平台 FFmpeg GUI，用于对视频、音频、字幕和其他相关媒体文件进行极其快速和无损的操作。
@@ -6056,30 +6190,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) 用 Java 实现的设计模式
 
 * [modichirag/flowpm](https://github.com/modichirag/flowpm) TensorFlow中的粒子网格模拟N体宇宙学模拟
-
-* [huihut/interview](https://github.com/huihut/interview) C/C++ 技术面试基础知识总结
-
-* [wuye9036/CppTemplateTutorial](https://github.com/wuye9036/CppTemplateTutorial) 中文的C++ Template的教学指南。与知名书籍C++ Templates不同，该系列教程将C++ Templates作为一门图灵完备的语言来讲授，以求帮助读者对Meta-Programming融会贯通。
-
-* [Qihoo360/safe-rules](https://github.com/Qihoo360/safe-rules) 详细的C/C++编程规范指南，由360质量工程部编著，适用于桌面、服务端及嵌入式软件系统。
-
-* [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) 以 C++ 实现的数学、机器学习、计算机科学和物理学中的各种算法的集合，用于教育目的。
-
-* [chengxumiaodaren/cpp-learning](https://github.com/chengxumiaodaren/cpp-learning) C++学习
-
-* [jobbole/awesome-cpp-cn](https://github.com/jobbole/awesome-cpp-cn) C++ 资源大全中文版，标准库、Web应用框架、人工智能、数据库、图片处理、机器学习、日志、代码分析等。
-
-* [AnthonyCalandra/modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features) 现代C++语言和库功能的备忘单。
-
-* [Tencent/libco](https://github.com/Tencent/libco) 广泛应用于微信后台服务的协程库。 已经在数万台机器上运行。
-
-* [cloudwu/coroutine](https://github.com/cloudwu/Coroutine) C 的非对称协程库。
-
-* [attractivechaos/klib](https://github.com/attractivechaos/klib) 独立的轻量级 C 库，MIT/X11 许可。 大多数组件都独立于外部库，除了标准 C 库，并且彼此独立。Klib 致力于提高效率和减少内存占用。 就速度和内存使用而言，某些组件（如 khash.h、kbtree.h、ksort.h 和 kvec.h）是所有编程语言中类似算法或数据结构的最有效实现之一。
-
-* [miloyip/json-tutorial](https://github.com/miloyip/json-tutorial) 从零开始的 JSON 库教程 C/C++ 编程
-
-* [liu-jianhao/Cpp-Design-Patterns](https://github.com/liu-jianhao/Cpp-Design-Patterns) C++设计模式
 
 * [3b1b/manim](https://github.com/3b1b/manim) 用于精确编程动画的引擎，专为创建解释性数学视频而设计。
 
@@ -6105,8 +6215,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic) 解锁网易云音乐客户端变灰歌曲
 
-* [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
-
 * [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
 
 * [opensumi/core](https://github.com/opensumi/core) 帮助您快速构建云或桌面 IDE 产品。
@@ -6118,14 +6226,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) 一款高度奇幻题材的开源回合制策略游戏。
 
 * [openstf/minitouch](https://github.com/openstf/minitouch) 最小的Android多点触控事件生成器。
-
-* [gozfree/gear-lib](https://github.com/gozfree/gear-lib) 一组通用的Ｃ基础库，用POSIX C实现，目标是为了跨平台兼容。适用于物联网，嵌入式，以及网络服务开发等场景。
-
-* [tangtangcoding/C-C-](https://github.com/tangtangcoding/C-C-) C语言电子书与视频资料分享
-
-* [linyacool/WebServer](https://github.com/linyacool/WebServer) C++11编写的Web服务器
-
-* [jupyter-xeus/xeus-cling](https://github.com/jupyter-xeus/xeus-cling) 用于 C++ 编程语言的 Jupyter 内核
 
 * [sanic-org/sanic](https://github.com/sanic-org/sanic) 异步 Python 3.7+ web 框架 
 
@@ -6179,15 +6279,11 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [sunym1993/flash-linux0.11-talk](https://github.com/sunym1993/flash-linux0.11-talk) 像小说一样品读 Linux 0.11 核心代码
 
-* [sunface/rust-course](https://github.com/sunface/rust-course)   “连续六年成为全世界最受喜爱的语言，无GC也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS未来基石" 。Rust语言圣经拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内。这可能是目前最用心的Rust中文学习教程/书籍
-
 * [Textualize/textual](https://github.com/Textualize/textual) 受现代Web开发启发的 Python 的 TUI（文本用户界面）框架。
 
 * [clouddreamteam_admin/cloud-dream](https://gitee.com/clouddreamteam_admin/cloud-dream) 微信小程序—餐饮点餐商城，是针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！
 
 * [HC小区业主版: hc智慧家园小程序 ](https://gitee.com/java110/WechatOwnerService) HC小区开源项目的一个分支项目，主要给业主使用，其中包括缴物业费，缴停车费，投诉建议，家庭成员维护，房屋保修 房屋出租，公告查看，小区圈等功能。
-
-* [veloren/veloren](https://github.com/veloren/veloren) 用 Rust 编写的多人体素 RPG。从 Cube World、Minecraft 和 Dwarf Fortress 等游戏中汲取灵感。该游戏目前正在大力开发中，但可以玩。
 
 * [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) 跨平台、快速、功能丰富、基于 GPU 的终端
 
@@ -6196,14 +6292,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [H5-Dooring/dooringx](https://github.com/H5-Dooring/dooringx) 快速高效搭建可视化拖拽平台
 
 * [zadam/trilium](https://github.com/zadam/trilium) 使用 Trilium Notes 建立您的个人知识库
-
-* [LianjiaTech/bruno](https://github.com/LianjiaTech/bruno) Bruno 是基于一整套设计体系的 Flutter 组件库。一套企业级移动端 Flutter 组件库.
-
-* [google/googletest](https://github.com/google/googletest) Google 测试和模拟框架  C++ 测试框架
-
-* [ocornut/imgui](https://github.com/ocornut/imgui) 具有最小依赖性的 C++ 无膨胀图形用户界面
-
-* [emilk/egui](https://github.com/emilk/egui) 简单、快速且高度可移植的 Rust 即时模式 GUI 库。
 
 * [Eugeny/tabby](https://github.com/Eugeny/tabby) 一个更现代的终端
 
@@ -6233,10 +6321,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [jynew/jynew](https://github.com/jynew/jynew) 开源武侠RPG游戏开发框架 使用Unity引擎重制并致敬经典游戏《金庸群侠传》DOS版
 
-* [bevyengine/bevy](https://github.com/bevyengine/bevy) 用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎
-
-* [servo/servo](https://github.com/servo/servo) 用 Rust 语言编写的原型 Web 浏览器引擎。
-
 * [jupyterlab/jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git) 使用 Git 进行版本控制的 JupyterLab 扩展
 
 * [damianavila/RISE](https://github.com/damianavila/RISE) 允许您立即将 Jupyter 笔记本变成幻灯片。 
@@ -6254,10 +6338,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [XorTroll/Goldleaf](https://github.com/XorTroll/Goldleaf) Nintendo Switch 游戏机的多用途自制工具。
 
 * [Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx) 用 C# 编写的实验性 Nintendo Switch 游戏机 模拟器
-
-* [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
-
-* [citra-emu/citra](https://github.com/citra-emu/citra)  用 C++ 编写的实验性开源 Nintendo 3DS 模拟器/调试器。
 
 * [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) 用于构建业务应用程序的可扩展低代码框架。 连接到数据库、云存储、GraphQL、API 端点、Airtable 等，并使用拖放式应用程序构建器构建应用程序。 使用 JavaScript/TypeScript 构建。
 
@@ -6342,22 +6422,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [sharkdp/bat](https://github.com/sharkdp/bat) 一只长着翅膀的 cat(1) 命令的克隆体。功能:语法高亮、显示不可打印的字符、文件串联。
 
 * [starship/starship](https://github.com/starship/starship) 适用于任何 shell 的最小、极快且可无限自定义的提示符
-
-* [rust-lang/rust](https://github.com/rust-lang/rust) rust使每个人都能构建可靠、高效的软件。Rust 的主要源代码存储库。它包含编译器、标准库和文档。
-
-* [rust-lang/rustlings](https://github.com/rust-lang/rustlings) 小练习，让你习惯阅读和编写 Rust 代码
-
-* [yewstack/yew](https://github.com/yewstack/yew) 用于构建客户端 Web 应用程序的 Rust / Wasm 框架
-
-* [swc-project/swc](https://github.com/swc-project/swc) 用 Rust 编写的超快 TypeScript / JavaScript 编译器。它同时是 Rust 和 JavaScript 的库。
-
-* [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) Rust 代码和资源的精选列表。
-
-* [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) 所有算法都在 Rust 中实现
-
-* [sger/RustBooks](https://github.com/sger/RustBooks) Rust 书籍列表
-
-* [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) Rust 编写并与上游 Bitwarden 客户端兼容的 服务器 API 的替代实现，非常适合运行官方资源密集型服务可能不理想的自托管部署。Bitwarden是自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息。
 
 * [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) 在尊重您的 gitignore 的同时递归地搜索目录以查找正则表达式模式,优势速度快。
 
@@ -6457,16 +6521,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [google/flatbuffers](https://github.com/google/flatbuffers) 跨平台序列化库，旨在实现最大的内存效率。它允许您直接访问序列化数据，而无需先解析/解压缩它，同时仍然具有很好的向前/向后兼容性。
 
-* [microsoft/vcpkg](https://github.com/microsoft/vcpkg) 帮助您管理 Windows、Linux 和 MacOS 上的 C 和 C++ 库。
-
-* [libcpr/cpr](https://github.com/libcpr/cpr) libcurl的简单包装器，灵感来自优秀的Python Requests项目。
-
-* [open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) 用于与 JSON 交互的C++库。C++库，允许操作 JSON 值，包括字符串的序列化和反序列化。它还可以在反序列化/序列化步骤中保留现有注释，使其成为存储用户输入文件的方便格式。
-
-* [progschj/ThreadPool](https://github.com/progschj/ThreadPool) 一个简单的 C++11 线程池实现
-
-* [idealvin/coost](https://github.com/idealvin/coost) 一个优雅高效的跨平台C++基础库。它的目标是创建一把C++之剑，使C++编程变得简单愉快。
-
 * [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) 类似于 ack 的代码搜索工具，但速度更快。
 
 * [vim/vim](https://github.com/vim/vim) 老式UNIX编辑器Vi的大幅改进版本。添加了许多新功能：多级撤消、语法突出显示、命令行历史记录、在线帮助、拼写检查、文件名完成、块操作、脚本语言等。还有一个GUI可用。Vi 兼容性仍然保持不变。
@@ -6493,8 +6547,6 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [typst/typst](https://github.com/typst/typst) 一个新的基于标记的排版系统，功能强大且易于学习。
 
-* [rust-lang/mdBook](https://github.com/rust-lang/mdBook) 从markdown文件创建书籍。像 Gitbook 一样，但在 Rust 中实现
-
 * [phodal/github](https://github.com/phodal/github) GitHub 漫游指南——一本关于如何在 Github 上构建一个好项目的中文电子书。探索用户的行为。找到一些感兴趣的东西。
 
 * [lowlighter/metrics](https://github.com/lowlighter/metrics) 信息图表生成器，具有30+插件和300+选项，可显示您的GitHub帐户的统计信息并将其呈现为SVG，Markdown，PDF或JSON
@@ -6516,6 +6568,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [wuxingsanren/wildcat-vip-account](https://github.com/wuxingsanren/wildcat-vip-account) 每天分享最新的百度网盘SVIP、迅雷超级会员、手机话费折扣充值、霸王餐免费吃VIP（美团、饿了么、大众点评、肯德基、麦当劳、星巴克）、饿了么超级会员、美团外卖会员&红包券、爱奇艺VIP会员、腾讯视频VIP、优酷VIP会员、哔哩哔哩大会员、百度文库VIP、QQ音乐VIP、网易云黑胶VIP、喜马拉雅VIP、樊登读书会VIP、千图网VIP、包图网VIP、摄图网VIP、CSDN下载VIP、天眼查VIP、苹果ID等等各类VIP帐号，随取随用，完全免费，绝无套路，同时提供：百度文库VIP下载、图库素材VIP下载、学术文献VIP下载（知网维普万方读秀龙源超星、英文数据库、法律数据库、医学数据库、金融数据库）、全网视频VIP解析、全网音乐MP3免费听及下载、微信域名拦截检测API 
 
 * [XiangLinPro/IT_book](https://github.com/XiangLinPro/IT_book) 收藏这些年来看过或者听过的一些不错的常用的上千本书籍，没准你想找的书就在这里呢，包含了互联网行业大多数书籍和面试经验题目等等。有人工智能系列（常用深度学习框架TensorFlow、pytorch、keras。NLP、机器学习，深度学习等等），大数据系列(Spark,Hadoop,Scala,kafka等)，程序员必修系列（C、C++、java、数据结构、linux，设计模式、数据库等等）
+
+* [Go 程序设计 · 语雀](https://www.yuque.com/qyuhen/go) 
+
+* [NASM 程序设计 · 语雀](https://www.yuque.com/qyuhen/asm)
 
 # Star数变化
 
