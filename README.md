@@ -3866,8 +3866,6 @@ https://github.com/sjtu-marl/malib 专门面向 基于种群的多智能体深�
 
 [Graylab/IgFold](https://github.com/Graylab/IgFold) 通过深度学习对大量天然抗体进行快速、准确的抗体结构预测。
 
-
-
 # 图数据库图算法
 
 https://github.com/Tencent/plato
@@ -5482,11 +5480,37 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [purescript/purescript](https://github.com/purescript/purescript) 一种小型的强类型编程语言，具有表达类型，编译为 JavaScript，由 Haskell 编写并受其启发。
 
+* [vercel/pkg](https://github.com/vercel/pkg) 将 Node.js 项目打包到可执行文件中，该可执行文件甚至可以在未安装 Node.js 的设备上运行。
+
+* [AssemblyScript/assemblyscript](https://github.com/AssemblyScript/assemblyscript) 类似 TypeScript 的 WebAssembly 语言。
+
+* [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) 一个带有 C API 的 JavaScript 引擎，您可以使用它向任何 C 或 C 兼容项目添加对 JavaScript 的支持。它可以在Linux macOS和Windows上为x64处理器编译。x86 和 ARM 仅适用于 Win。未来的目标是在Linux上支持x86和ARM处理器，在macOS上支持ARM。
+
+* [jerryscript-project/jerryscript](https://github.com/jerryscript-project/jerryscript) 用于物联网的超轻量级 JavaScript 引擎。适用于资源受限的设备，如微控制器。它可以在 RAM 小于 64 KB 且闪存小于 200 KB 的设备上运行。
+
+* [svaarala/duktape](https://github.com/svaarala/duktape) 可嵌入的Javascript引擎，专注于可移植性和紧凑的占地面积.Duktape 很容易集成到 C/C++ 项目中：将 duktape.h 和 duk_config.h 添加到 duktape.c 您的构建中，并使用 Duktape API 从 C 代码调用 ECMAScript 函数，反之亦然。
+
+* [boa-dev/boa](https://github.com/boa-dev/boa) 用Rust编写的可嵌入的实验性Javascript引擎。目前，它支持某些语言。
+
+* [quickjs-zh/QuickJS](https://github.com/quickjs-zh/QuickJS) 小型并且可嵌入的Javascript引擎，它支持ES2020规范，包括模块，异步生成器和代理器。
+
+* [GoogleChromeLabs/jsvu](https://github.com/GoogleChromeLabs/jsvu) jsvu 可以轻松安装各种 JavaScript 引擎的最新版本，而无需从源代码编译它们。
+
+* [cesanta/elk](https://github.com/cesanta/elk) 用于嵌入式系统的低占用空间 JavaScript 引擎。它实现了 ES6 的一个小但可用的子集。它专为微控制器开发而设计。Elk 不是完全用 C/C++ 编写固件代码，而是允许将 JavaScript 自定义添加到用 C 开发的固件中 - 这是让客户扩展/自定义设备功能的好方法。
+
+* [kaluma-project/kaluma](https://github.com/kaluma-project/kaluma) RP2040（Raspberry Pi Pico） 的微型 JavaScript 运行时
+
+* [Taritsyn/JavaScriptEngineSwitcher](https://github.com/Taritsyn/JavaScriptEngineSwitcher) JavaScript 引擎切换器确定了访问流行 JavaScript 引擎基本功能的统一接口。此库允许您快速轻松地切换到使用另一个 JavaScript 引擎。
+
+* [webpack/webpack](https://github.com/webpack/webpack) JavaScript和相关资源的捆绑器。将许多模块打包到几个捆绑资产中。代码拆分允许按需加载应用程序的各个部分。通过“加载器”，模块可以是CommonJs，AMD，ES6模块，CSS，Images，JSON，Coffeescript，LESS，...和你的定制东西。
+
 ## 前端开发框架及项目
 
 * [mui/material-ui](https://github.com/mui/material-ui) 即用型基础 React 组件，永久免费。它包括 Material UI，它实现了 Google 的 Material Design。
 
 * [ant-design/ant-design](https://github.com/ant-design/ant-design) 企业级 UI 设计语言和 React UI 库
+
+* [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) 无头网络的最快前端。使用 React 构建现代网站。Gatsby 是一个基于 React 的免费开源框架，可帮助开发人员构建速度极快的网站和应用程序。它将动态渲染网站的控制和可扩展性与静态网站生成的速度相结合，创造了一个全新的可能性网络。
 
 * [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站,LowCode平台.
 
@@ -5792,6 +5816,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [bunturx/Awesome-Blockchain-Security](https://github.com/bunturx/Awesome-Blockchain-Security)  由伟大的@0xRajeev 创建核心焦点将是以太坊智能合约安全审计。 以太坊、Solidity、智能合约安全和审计。
 
+* [FuelLabs/sway](https://github.com/FuelLabs/sway) 使每个人都能构建可靠高效的智能合约。Sway是为Fuel区块链开发的一种语言。它深受 Rust 的启发，旨在为区块链生态系统带来现代语言开发和性能。
+
 # 其他项目
 
 ## Python
@@ -5870,7 +5896,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [cloudwu/coroutine](https://github.com/cloudwu/Coroutine) C 的非对称协程库。
 
-* [attractivechaos/klib](https://github.com/attractivechaos/klib) 独立的轻量级 C 库，MIT/X11 许可。 大多数组件都独立于外部库，除了标准 C 库，并且彼此独立。Klib 致力于提高效率和减少内存占用。 就速度和内存使用而言，某些组件（如 khash.h、kbtree.h、ksort.h 和 kvec.h）是所有编程语言中类似算法或数据结构的最有效实现之一。
+* [attractivechaos/klib](https://github.com/attractivechaos/klib) 独立轻量级 C 库，MIT/X11许可。 多数组件都独立于外部库，除了标准 C 库，并且彼此独立。Klib 致力于提高效率和减少内存占用。 就速度和内存使用而言，某些组件（如 khash.h、kbtree.h、ksort.h 和 kvec.h）是所有编程语言中类似算法或数据结构的最有效实现之一。
 
 * [miloyip/json-tutorial](https://github.com/miloyip/json-tutorial) 从零开始的 JSON 库教程 C/C++ 编程
 
@@ -5892,7 +5918,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [citra-emu/citra](https://github.com/citra-emu/citra)  用 C++ 编写的实验性开源 Nintendo 3DS 模拟器/调试器。
 
-* [microsoft/vcpkg](https://github.com/microsoft/vcpkg) 帮助您管理 Windows、Linux 和 MacOS 上的 C 和 C++ 库。
+* [microsoft/vcpkg](https://github.com/microsoft/vcpkg) 帮助您管理 Win、Linux 和 MacOS 上的 C 和 C++ 库。
 
 * [libcpr/cpr](https://github.com/libcpr/cpr) libcurl的简单包装器，灵感来自优秀的Python Requests项目。
 
@@ -5905,6 +5931,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [C 程序设计 · 语雀](https://www.yuque.com/qyuhen/c11)
 
 * [koshox/pythonvm](https://github.com/koshox/pythonvm) 《自己动手写python虚拟机》C++实现 
+
+* [carbon-language/carbon-lang](https://github.com/carbon-language/carbon-lang) Carbon Language的主要存储库：文档，设计，实现和相关工具。Carbon是一种后继语言方法，而不是试图逐步发展C++。它围绕与C++的互操作性以及现有C++代码库和开发人员的大规模采用和迁移而设计。C++仍然是性能关键型软件的主要编程语言，拥有大量且不断增长的代码库和投资。然而，如上所述，它正在努力改善和满足开发人员的需求，这在很大程度上是由于积累了数十年的技术债务。逐步改进C++非常困难，这既是由于技术债务本身，也是由于其演变过程的挑战。解决这些问题的最佳方法是避免直接继承 C 或 C++ 的遗产，而是从坚实的语言基础开始，如现代泛型系统、模块化代码组织和一致、简单的语法。
 
 ## Rust 程序设计
 
@@ -5947,6 +5975,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [osoutpost/awesome-flutter-cn](https://github.com/osoutpost/awesome-flutter-cn) Flutter 资源大全中文版。包括：组件、导航、模板、插件、框架和引擎等
 
 * [CarGuo/gsy_github_app_flutter](https://github.com/CarGuo/gsy_github_app_flutter) Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。
+
+* [alibaba/flutter-go](https://github.com/alibaba/flutter-go) flutter 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档
 
 * [mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates) 最佳 Flutter-UI 模板
 
@@ -6571,7 +6601,21 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [Go 程序设计 · 语雀](https://www.yuque.com/qyuhen/go) 
 
-* [NASM 程序设计 · 语雀](https://www.yuque.com/qyuhen/asm)
+* [NASM 程序设计 · 语雀]([NASM 程序设计 · 语雀](https://www.yuque.com/qyuhen/asm))
+
+* [ziglang/zig](https://github.com/ziglang/zig) 通用编程语言和工具链，用于维护健壮、最佳和可重用的软件。
+
+* [enso-org/enso](https://github.com/enso-org/enso) 一种屡获殊荣的交互式编程语言，具有双重视觉和文本表示。它是一个跨越整个堆栈的工具，从高级可视化和通信到后端服务的细节，所有这些都使用一种语言。
+
+* [wren-lang/wren](https://github.com/wren-lang/wren) Wren编程语言。Wren 是一种小型、快速、基于类的并发脚本语言。想想 Smalltalk 在一个 Lua 大小的包中，带有一点 Erlang，并用熟悉的现代语法包裹起来。
+
+* [mvdan/sh](https://github.com/mvdan/sh) Go写的具有 bash 支持的 shell 解析器、格式化程序和解释器;包括 SHFMT。SHELL分析器、格式化程序和解释器。支持 POSIX Shell、Bash 和 mksh。需要 Go 1.19 或更高版本。
+
+* [red/red](https://github.com/red/red) 受 Rebol 强烈启发的下一代编程语言，但由于其本机代码编译器，从系统编程到高级脚本和跨平台反应式 GUI，具有更广泛的使用领域，同时提供对并发的现代支持，所有这些都在一个零安装、配置、 ~1MB 文件中
+
+* [JetBrains/kotlin](https://github.com/JetBrains/kotlin) 它是一种开源的静态类型编程语言，由 JetBrains 和开源贡献者支持和开发。
+
+* [houshanren/hangzhou_house_knowledge](https://github.com/houshanren/hangzhou_house_knowledge) 2017年买房经历总结出来的买房购房知识分享给大家，希望对大家有所帮助。买房不易，且买且珍惜。
 
 # Star数变化
 
