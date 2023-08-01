@@ -4396,6 +4396,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 [apache/spark](https://github.com/apache/spark) 用于大规模数据处理的统一分析引擎。它提供了 Scala、Java、Python 和 R 中的高级 API，以及支持用于数据分析的一般计算图的优化引擎。它还支持一组丰富的高级工具，包括用于SQL和数据帧的Spark SQL，用于pandas工作负载的Spark上的pandas API，用于机器学习的MLlib，用于图形处理的GraphX和用于流处理的结构化流。
 
+[google/leveldb](https://github.com/google/leveldb) 一个在Google编写的快速键值存储库，它提供了从字符串键到字符串值的有序映射。
+
 ## 数据搜索引擎
 
 [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -4481,6 +4483,20 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 [harness/drone](https://github.com/harness/drone) 基于集装箱技术的持续交付系统。Drone 使用一个简单的 YAML 构建文件来定义和执行 Docker 容器内的构建管道。
 
 [portainer/portainer](https://github.com/portainer/portainer) 让 Docker 和 Kubernetes 管理变得简单。
+
+[foxlet/macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) 用于在 QEMU 中设置快速 macOS VM 的工具，由 KVM 加速。
+
+[utmapp/UTM](https://github.com/utmapp/UTM) 适用于 iOS 和 macOS 的虚拟机
+
+[kholia/OSX-KVM](https://github.com/kholia/OSX-KVM) 在 QEMU/KVM 上运行 macOS。现在有了OpenCore + Big Sur + Monterey + Ventura的支持
+
+[ima-vm/lima](https://github.com/lima-vm/lima) 在 macOS 上运行Linux 虚拟机容器
+
+[sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) 在 Docker 中运行 macOS VM！在 Docker 中运行在本机 OSX-KVM 附近！X11 转发！用于 OS X 安全研究的 CI/CD
+
+[rancher/rancher](https://github.com/rancher/rancher) 完整的容器管理平台。开源容器管理平台，专为在生产中部署容器的组织而构建。Rancher 使在任何地方运行 Kubernetes 变得容易，满足 IT 要求，并为 DevOps 团队提供支持。
+
+
 
 # 安全与渗透
 
@@ -5438,6 +5454,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [twbs/bootstrap](https://github.com/twbs/bootstrap) 最流行的 HTML、CSS 和 JavaScript 框架，用于在 Web 上开发响应式、移动优先的项目。
 
+* [nodejs/node](https://github.com/nodejs/node) Node.js JavaScript 运行时
+
 * [vercel/next.js](https://github.com/vercel/next.js) Next.js 被一些世界上最大的公司使用，能够通过最新的 React 扩展来创建全栈 Web 应用程序，并集成强大的基于 Rust 的 Js 工具以实现最快的构建。
 
 * [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) 与 Vite 相关的精彩事物的精选列表
@@ -5482,6 +5500,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [vercel/pkg](https://github.com/vercel/pkg) 将 Node.js 项目打包到可执行文件中，该可执行文件甚至可以在未安装 Node.js 的设备上运行。
 
+* [v8/v8](https://github.com/v8/v8) V8 是 Google 的开源 JavaScript 引擎。V8 实现了 ECMA-262 中指定的 ECMAScript。V8 实现了 ECMA-262 中指定的 ECMAScript。V8是用C++编写的，用于谷歌的开源浏览器谷歌浏览器。V8 实现了 ECMA-262 中指定的 ECMAScript。
+
 * [AssemblyScript/assemblyscript](https://github.com/AssemblyScript/assemblyscript) 类似 TypeScript 的 WebAssembly 语言。
 
 * [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) 一个带有 C API 的 JavaScript 引擎，您可以使用它向任何 C 或 C 兼容项目添加对 JavaScript 的支持。它可以在Linux macOS和Windows上为x64处理器编译。x86 和 ARM 仅适用于 Win。未来的目标是在Linux上支持x86和ARM处理器，在macOS上支持ARM。
@@ -5504,15 +5524,33 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [webpack/webpack](https://github.com/webpack/webpack) JavaScript和相关资源的捆绑器。将许多模块打包到几个捆绑资产中。代码拆分允许按需加载应用程序的各个部分。通过“加载器”，模块可以是CommonJs，AMD，ES6模块，CSS，Images，JSON，Coffeescript，LESS，...和你的定制东西。
 
+* [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript) 适用于 JavaScript 的干净代码概念
+
+* [babel/babel](https://github.com/babel/babel) 用于编写下一代 JavaScript 的编译器。一个帮助你用最新版本的 JavaScript 编写代码的工具。当您支持的环境本身不支持某些功能时，Babel 将帮助您将这些功能编译为受支持的版本。
+
+* [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) node.js最佳实践列表
+
 ## 前端开发框架及项目
 
 * [mui/material-ui](https://github.com/mui/material-ui) 即用型基础 React 组件，永久免费。它包括 Material UI，它实现了 Google 的 Material Design。
+
+* [airbnb/javascript](https://github.com/airbnb/javascript) JavaScript 风格指南。
+
+* [google/material-design-icons](https://github.com/google/material-design-icons) 来自谷歌的两个不同的官方图标集，使用相同的底层设计。材质图标是经典套装，而材质符号于 2022 年 4 月推出，基于可变字体技术构建。
+
+* [google/material-design-lite](https://github.com/google/material-design-lite) Material Design Lite （MDL） 允许您为静态内容网站添加 Material Design 外观。它不依赖于任何JavaScript框架或库。针对跨设备使用进行了优化，在较旧的浏览器中优雅地降级，并提供从一开始就可以访问的体验。
 
 * [ant-design/ant-design](https://github.com/ant-design/ant-design) 企业级 UI 设计语言和 React UI 库
 
 * [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) 无头网络的最快前端。使用 React 构建现代网站。Gatsby 是一个基于 React 的免费开源框架，可帮助开发人员构建速度极快的网站和应用程序。它将动态渲染网站的控制和可扩展性与静态网站生成的速度相结合，创造了一个全新的可能性网络。
 
 * [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站,LowCode平台.
+
+* [qianguyihao/Web](https://github.com/qianguyihao/Web) 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。
+
+* [hexojs/hexo](https://github.com/hexojs/hexo) 一个快速，简单和强大的博客框架，由Node.js提供支持。
+
+* [statelyai/xstate](https://github.com/statelyai/xstate) 现代 Web 的状态机和状态图。状态图是用于对有状态、反应性系统进行建模的形式。这对于以声明方式描述应用程序的行为（从各个组件到整个应用程序逻辑）非常有用。
 
 * [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
 
@@ -5624,11 +5662,19 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [bvaughn/react-virtualized](https://github.com/bvaughn/react-virtualized) 用于高效呈现大型列表和表格数据的 React 组件
 
+* [fyne-io/fyne](https://github.com/fyne-io/fyne) 受材质设计启发的 Go 中的跨平台 GUI 工具包。它旨在使用单个代码库构建在桌面和移动设备上运行的应用程序。
+
+* [SergioBenitez/Rocket](https://github.com/SergioBenitez/Rocket) Rust 的异步 Web 框架，专注于可用性、安全性、可扩展性和速度。
+
+* [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) 适用于 Web 的零配置构建工具。它将出色的开箱即用开发体验与可扩展的体系结构相结合，可以将您的项目从刚开始转变为大规模生产应用程序。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级 Python Web 框架，它鼓励快速开发和干净、实用的设计。
 
 * [swoole/swoole-src](https://github.com/swoole/swoole-src) 一个事件驱动、异步、基于协程的高性能并发库，适用于 PHP。
+
+* [celery/celery](https://github.com/celery/celery) 分布式任务队列。通过消息进行通信，通常使用代理在客户端和工作线程之间进行调解。为了启动任务，客户端将消息放入队列，然后代理将消息传递给工作线程。
 
 * [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
 
@@ -5642,13 +5688,15 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [codegangsta/gin](https://github.com/codegangsta/gin) Go Web 服务器的实时重新加载实用程序
 
-* [zhoutaoo/SpringCloud](https://github.com/zhoutaoo/SpringCloud) 基于SpringCloud2.1的微服务开发脚手架，整合了spring-security-oauth2、nacos、feign、sentinel、springcloud-gateway等。服务治理方面引入elasticsearch、skywalking、springboot-admin、zipkin等，让项目开发快速进入业务开发，而不需过多时间花费在架构搭建上。
+* [zhoutaoo/SpringCloud](https://github.com/zhoutaoo/SpringCloud) 基于SpringCloud2.1的微服务开发脚手架，整合了spring-security-oauth2、nacos、feign、sentinel、springcloud-gateway等。服务治理方面引入elasticsearch、skywalking、springboot-admin、zipkin等，让项目快速进入业务开发，而不需过多时间花费在架构搭建上。
 
 * [humiaozuzu/awesome-flask](https://github.com/humiaozuzu/awesome-flask) 精选的 Flask ( python web 框架) 资源和插件列表
 
 * [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) 来自Laravel生态系统的书签，软件包，教程，视频和其他酷炫资源的精选列表
 
-* [ninenines/cowboy](https://github.com/ninenines/cowboy) 用于 Erlang/OTP 的小型、快速、现代的 HTTP 服务器。
+* [ninenines/cowboy](https://github.com/ninenines/cowboy) 用 Erlang/OTP 的小型、快速、现代的 HTTP 服务器。
+
+* [openfaas/faas](https://github.com/openfaas/faas) 使开发人员可以轻松地将事件驱动的函数和微服务部署到 Kubernetes，而无需重复的样板编码。将代码或现有二进制文件打包在与 OCI 兼容的映像中，以获得具有自动缩放和指标的高度可扩展的终结点。
 
 * [ossrs/srs](https://github.com/ossrs/srs) SRS是一个简单，高效，实时的视频服务器，支持RTMP，WebRTC，HLS，HTTP-FLV，SRT，MPEG-DASH和GB28181。
 
@@ -5787,6 +5835,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [soimort/you-get](https://github.com/soimort/you-get) 很小的命令行实用程序，用于从 Web 下载媒体内容（视频、音频、图像），以防没有其他方便的方法可以做到这一点。
 
 * [freefq/free](https://github.com/freefq/free) 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子
+
+* [Dreamacro/clash](https://github.com/Dreamacro/clash) Go 中基于规则的隧道。入站：HTTP，HTTPS，SOCKS5服务器，TUN设备。出站： Shadowsocks（R）， VMess， Trojan， Snell， SOCKS5， HTTP（S）， Wireguard。基于规则的路由：动态脚本、域、IP 地址、进程名称等。假 IP DNS：最大限度地减少对 DNS 污染的影响并提高网络性能。透明代理：通过自动路由表/规则管理重定向 TCP 和 TProxy TCP/UDP。代理组：自动回退、负载平衡或延迟测试。远程提供程序：动态加载远程代理列表。RESTful API：通过全面的 API 就地更新配置。
+
+* [tsenart/vegeta](https://github.com/tsenart/vegeta) HTTP 负载测试工具和库。超过9000！
 
 ## 区块链
 
@@ -5968,6 +6020,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [swc-project/swc](https://github.com/swc-project/swc) 用 Rust 编写的超快 TypeScript / JavaScript 编译器。它同时是 Rust 和 JavaScript 的库。
 
+* [tokio-rs/tokio](https://github.com/tokio-rs/tokio) 使用 Rust 编写可靠异步应用程序的运行时。提供 I/O、网络、调度、定时器等
+
 ## flutter
 
 * [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn)  一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
@@ -6084,6 +6138,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [gonum/gonum](https://github.com/gonum/gonum) 用于 Go 编程语言的数字库。它包含矩阵、统计、优化等库
 
+* [uber-go/zap](https://github.com/uber-go/zap) 在 Go 中实现超快、结构化、分级的日志记录。
+
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
 
 * [ZhongFuCheng3y/athena](https://github.com/ZhongFuCheng3y/athena) Java后端知识图谱 帮助Java初学者成长
@@ -6196,6 +6252,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) Notepad++ 文本编辑器官方仓库
 
 * [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) 为web开发人员准备的无头编辑器框架
+
+* [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs) 社区驱动的Emacs发行版 - 最好的编辑器既不是Emacs也不是Vim，而是Emacs *和* Vim！
 
 * [eclipse-theia/theia](https://github.com/eclipse-theia/theia) 一个用 TypeScript 实现的云和桌面 IDE 框架。
 
@@ -6497,6 +6555,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) eovim 插件的集合
 
+* [VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim) Vim bundle 的缩写，是一个 Vim 插件管理器。
+
 * [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy)   一个联邦宇宙的链接聚合器。 类似于 Reddit、Lobste.rs 或 Hacker News 等网站：您订阅您所感兴趣的社群，发布链接和讨论，然后对它们进行投票和评论。 Lemmy 不仅仅是 reddit 的替代品；它是一个由不同人和组织运营的相互关联的社群网络，所有这些社群结合起来创建一个充满您最喜欢的新闻、文章和迷因的独立且个性化的首页。
 
 * [bnb/awesome-hyper](https://github.com/bnb/awesome-hyper) 令人愉快的*CLI*超级插件、主题和资源
@@ -6616,6 +6676,12 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) 它是一种开源的静态类型编程语言，由 JetBrains 和开源贡献者支持和开发。
 
 * [houshanren/hangzhou_house_knowledge](https://github.com/houshanren/hangzhou_house_knowledge) 2017年买房经历总结出来的买房购房知识分享给大家，希望对大家有所帮助。买房不易，且买且珍惜。
+
+* [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) 润学全球官方指定GITHUB，整理润学宗旨、纲领、理论和各类润之实例；解决为什么润，润去哪里，怎么润三大问题； 并成为新中国人的核心宗教，核心信念。
+
+* [ogham/exa](https://github.com/ogham/exa) rust编写的“ls”的现代替代品。提供更多功能和更好的默认值。它使用颜色来区分文件类型和元数据。它知道符号链接、扩展属性和 Git。它体积小，速度快，只有一个二进制文件。
+
+* [google/zx](https://github.com/google/zx) Bash 很棒，但是当涉及到编写更复杂的脚本时，许多人更喜欢更方便的编程语言。JavaScript 是一个完美的选择，但 Node.js 标准库在使用之前需要额外的麻烦。该 zx 包提供了有用的包装器 child_process ，转义参数并给出合理的默认值。
 
 # Star数变化
 
