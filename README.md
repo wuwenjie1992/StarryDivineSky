@@ -107,6 +107,10 @@
 
 * [academic/awesome-datascience](https://github.com/academic/awesome-datascience) 很棒的数据科学存储库，用于学习和应用现实世界的问题。
 
+* [eugeneyan/applied-ml](https://github.com/eugeneyan/applied-ml)  关于生产中的数据科学和机器学习的精选论文、文章和博客。
+
+* [eriklindernoren/ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch) 从头开始机器学习。机器学习模型和算法的裸骨 NumPy 实现，重点关注可访问性。旨在涵盖从线性回归到深度学习的所有内容。
+
 * [donnemartin/data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) 数据科学Python笔记本：深度学习（TensorFlow，Theano，Caffe，Keras），scikit-learn，Kaggle，大数据（Spark，Hadoop MapReduce，HDFS），matplotlib，pandas，NumPy，SciPy，Python essentials，AWS和各种命令行。
 
 * [NLP-LOVE/ML-NLP](https://github.com/NLP-LOVE/ML-NLP) 机器学习(Machine Learning)、深度学习(Deep Learning)、NLP面试中常考到的知识点和代码实现，也是作为一个算法工程师必会的理论基础知识。
@@ -156,6 +160,8 @@
 * [cbamls/AI_Tutorial](https://github.com/cbamls/AI_Tutorial) 精选机器学习，NLP，图像识别， 深度学习等人工智能领域学习资料，搜索，推荐，广告系统架构及算法技术资料整理。
 
 * [apachecn/pytorch-doc-zh](https://github.com/apachecn/pytorch-doc-zh) Pytorch 中文文档,PyTorch 是一个针对深度学习, 并且使用 GPU 和 CPU 来优化的 tensor library (张量库)
+
+* [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) 『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署
 
 * [alibaba/MNN](https://github.com/alibaba/MNN) 轻量级的深度神经网络推理引擎
 
@@ -357,6 +363,14 @@
 * [rasbt/deeplearning-models](https://github.com/rasbt/deeplearning-models) 各种深度学习架构、模型和技巧的集合。Jupyter Notebooks中TensorFlow和PyTorch的深度学习架构、模型和技巧的集合。
 
 * [bfortuner/ml-glossary](https://github.com/bfortuner/ml-glossary) 机器学习术语表
+
+* [fastai/fastbook](https://github.com/fastai/fastbook)  这些笔记本介绍了深度学习、fastai 和 PyTorch。fastai 是用于深度学习的分层 API。
+
+* [ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) 学习成为机器学习工程师的完整日常计划。
+
+* [terryum/awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers) 被引用最多的深度学习论文 on Oct 19, 2018
+
+* [d2l-ai/d2l-en](https://github.com/d2l-ai/d2l-en) 交互式深度学习书籍，包含多框架代码、数学和讨论。被斯坦福大学、麻省理工学院、哈佛大学和剑桥大学等 60 个国家的 400 所大学采用。
 
 ## 特征工程
 
@@ -677,6 +691,20 @@
 * [NVIDIA/DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples) 按模型组织的最先进的深度学习脚本 - 易于训练和部署，在企业级基础架构上具有可重现的准确性和性能。最新 NVIDIA 示例。
 
 * [xorbitsai/xorbits](https://github.com/xorbitsai/xorbits) 一个开源计算框架，可以轻松扩展数据科学和机器学习工作负载 - 从数据预处理到调优、训练和模型服务。Xorbits 可以利用多核或 GPU 来加速单台机器上的计算，或者横向扩展到数千台机器，以支持处理数 TB 的数据以及训练或为大型模型提供服务。
+
+* [plotly/dash](https://github.com/plotly/dash) 下载量最大，最值得信赖的Python框架，用于构建ML和数据科学Web应用程序。
+
+* [trekhleb/homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning) 流行的机器学习算法的Python示例，并解释了交互式Jupyter演示和数学
+
+* [MorvanZhou/tutorials](https://github.com/MorvanZhou/tutorials)  莫烦Python 机器学习相关教程
+
+* [rougier/numpy-100](https://github.com/rougier/numpy-100) 100 个 numpy 练习（含解决方案）
+
+* [fastai/numerical-linear-algebra](https://github.com/fastai/numerical-linear-algebra) 用于计算线性代数课程 fast.ai Jupyter 笔记本的免费在线教科书
+
+* [numba/numba](https://github.com/numba/numba) 开源的、NumPy 感知的 Python 优化编译器，由 Anaconda， Inc. 赞助。它使用 LLVM 编译器项目从 Python 语法生成机器代码。Numba 可以编译一个以数字为中心的 Python 子集，包括许多 NumPy 函数。此外，Numba 还支持循环的自动并行化、GPU 加速代码的生成以及 ufuncs 和 C 回调的创建。
+
+* [lanpa/tensorboardX](https://github.com/lanpa/tensorboardX) PyTorch的张量板（以及Chainer，MXNET，Numpy等）。使用简单的函数调用编写张量板事件。
 
 # NLP自然语言处理
 
@@ -5464,6 +5492,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [vernemq/vernemq](https://github.com/vernemq/vernemq) 基于 Erlang/OTP 的分布式 MQTT 消息代理。专为高质量和工业用例而设计。
 
+* [ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder) 一个免费的开源闭路电视软件应用程序，为Linux开发，支持IP，USB和模拟摄像机。
+
 # 网络与前后端开发
 
 ## JavaScript框架
@@ -5686,6 +5716,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) 谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类
 
+* [daybrush/moveable](https://github.com/daybrush/moveable) 可拖动、可调整大小、可缩放、可旋转、可扭曲、可捏、可分组、可捕捉
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -5729,6 +5761,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [fuzhengwei/itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) 《重学Java设计模式》是一本互联网真实案例实践书籍。以落地解决方案为核心，从实际业务中抽离出，交易、营销、秒杀、中间件、源码等22个真实场景，来学习设计模式的运用。
 
 * [doocs/advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
+
+* [SocketCluster/socketcluster](https://github.com/SocketCluster/socketcluster) 高度可扩展的实时发布/订阅和 RPC 框架
 
 ## 网络与前后端开发_其他
 
@@ -6722,6 +6756,10 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [dwmkerr/hacker-laws](https://github.com/dwmkerr/hacker-laws) 开发人员会发现有用的定律，理论，原则和模式。
 
 * [drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) macOS 上保护和改善隐私的指南
+
+* [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) 在量子力学思想的帮助下，从单个示例生成位图和瓦片图
+
+* [bazelbuild/bazel](https://github.com/bazelbuild/bazel) 快速、可扩展、多语言和可扩展的构建系统。构建和测试Java，C++，Android，iOS，Go和各种其他语言平台。
 
 # Star数变化
 
