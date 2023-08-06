@@ -1003,14 +1003,20 @@
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
 
+* [THUDM/ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B) 开源中英双语对话模型 ChatGLM-6B 的第二代版本，在保留了初代模型对话流畅、部署门槛较低等众多优秀特性的基础之上，引入了如下新特性：`更强大的性能`：全面升级了基座模型。ChatGLM2-6B 使用了 GLM 的混合目标函数，经过了 1.4T 中英标识符的预训练与人类偏好对齐训练，评测结果显示，相比于初代模型，MMLU（+23%）、CEval（+33%）、GSM8K（+571%） 、BBH（+60%）等数据集上的性能取得了大幅度的提升，在同尺寸开源模型中具有较强的竞争力。`更长的上下文`：基于 FlashAttention 技术，我们将基座模型的上下文长度（Context Length）由 ChatGLM-6B 的 2K 扩展到了 32K，并在对话阶段使用 8K 的上下文长度训练。对于更长的上下文，我们发布了 ChatGLM2-6B-32K 模型。LongBench 的测评结果表明，在等量级的开源模型中，32K 有着较为明显的竞争优势。`更高效的推理`：基于 Multi-Query Attention 技术，有更高效的推理速度和更低的显存占用：在官方的模型实现下，推理速度相比初代提升了 42%，INT4 量化下，6G 显存支持的对话长度由 1K 提升到了 8K。`更开放的协议`：权重对学术研究完全开放，在填写问卷进行登记后亦允许免费商业使用。
+
 * [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
 
 * [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) GLM-130B是一个开放的双语（英汉）双向密集模型，具有1300亿个参数，使用通用语言模型（GLM）算法进行预训练。它旨在支持单个 A100 （40G * 8） 或 V100 （32G * 8） 上具有 130B 参数的推理任务。通过 INT4 量化，硬件可以进一步降低到具有 4 * RTX3090 24G 的单个服务器，几乎没有性能下降。
 
+* [QwenLM/Qwen-7B](https://github.com/QwenLM/Qwen-7B) 由阿里云提出的Qwen-7B（通义千问-7B）聊天和预训练大语言模型的官方存储库。使用高质量的预训练数据进行训练。我们已经在超过2.2万亿个代币的自建大规模高质量数据集上预训练了Qwen-7B。该数据集包括纯文本和代码，涵盖广泛的领域，包括一般领域数据和专业领域数据。更好地支持语言。我们的分词器基于超过 150K 个代币的大词汇表，与其他分词器相比更有效。它对多种语言都很友好，并且有助于用户进一步微调Qwen-7B以扩展对某种语言的理解。支持 8K 上下文长度。Qwen-7B和Qwen-7B-Chat都支持8K的上下文长度，这允许输入长上下文。支持插件。Qwen-7B-Chat 是用插件相关的对齐数据训练的，因此它能够使用工具，包括 API、模型、数据库等，并且能够作为代理进行游戏。
+
+* [imoneoi/openchat](https://github.com/imoneoi/openchat) 使用不完善的数据推进开源语言模型。OpenChat是一系列基于监督微调（SFT）的开源语言模型。我们利用 ~80k ShareGPT 对话与条件反射策略和加权损失，尽管我们的方法很简单，但仍实现了卓越的表现。我们的最终愿景是开发一个高性能、开源和商用的大型语言模型，并且我们正在不断取得进展。
+
 * [lonePatient/awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models) 高质量中文预训练模型集合。包括：基础大模型、对话大模型、多模态对话大模型、大模型评估基准、开源模型库平台、开源数据集库、中文指令数据集。
 
 * [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) MiniGPT-4：使用高级大型语言模型增强视觉语言理解 提供与 Vicuna-7B 对齐的预训练 MiniGPT-4！演示 GPU 内存消耗现在可以低至 12GB。
-- [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) 纯C/C++中LLaMA模型的CPU推理。2023年FacebookResearch 开源了大规模语言模型 LLaMA，包含从 7B 到 65B 的参数范围，训练使用多达 1.4万亿 tokens 语料。LLaMA-13B 在大部分基准测评上超过了 GPT3（175B），LLaMA 可能是目前公开模型权重中效果最好的语言模型。
+- [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) 纯C/C++中LLaMA模型的CPU推理。2023年FacebookResearch 开源了大规模语言模型LLaMA，包含从 7B 到 65B 的参数范围，训练使用多达 1.4万亿 tokens 语料。LLaMA-13B在大部分基准测评上超过了GPT3-175B，LLaMA可能是目前公开模型权重中效果最好的语言模型。
 
 - [juncongmoo/pyllama](https://github.com/juncongmoo/pyllama) LLaMA - 在单个 4GB GPU 中运行 LLM
 
@@ -1378,6 +1384,36 @@
 * [zxbsmk/webnovel_cn](https://huggingface.co/datasets/zxbsmk/webnovel_cn) 从12560本网文提取的约21.7M条可用于训练小说生成的中文指令数据
 
 * [QingyiSi/Alpaca-CoT](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT) 该存储库将不断收集各种指令调优数据集。并且我们将不同的数据集标准化为相同的格式，可以直接通过羊驼模型的代码加载。
+
+* [chathub-dev/chathub](https://github.com/chathub-dev/chathub) 多合一的聊天机器人客户端。在一个应用程序中使用不同的聊天机器人，目前支持ChatGPT，新的Bing Chat，Google Bard，Claude和10 +开源模型，包括Alpaca，Vicuna，ChatGLM等。
+
+* [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI) 自托管、社区驱动、本地 OpenAI 兼容 API。在消费级硬件上运行LLM的OpenAI的直接替代品。免费的开源OpenAI替代品。LocalAI是一个运行ggml兼容模型的API：llama，gpt4all，rwkv，whisper，vicuna，koala，gpt4all-j，cerebras，falcon，dolly，starcoder和许多其他
+
+* [sunner/ChatALL](https://github.com/sunner/ChatALL) 同时与ChatGPT，Bing Chat，Bard，Alpaca，Vicuna，Claude，ChatGLM，MOSS，讯飞星火，文心一言等聊天，发现最佳答案
+
+* [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp) C++实现ChatGLM-6B和ChatGLM2-6B，以便在MacBook上进行实时聊天。
+
+* [ztxz16/fastllm](https://github.com/ztxz16/fastllm/) 纯c++的全平台llm加速库，支持python调用，chatglm-6B级模型单卡可达10000+token / s，支持glm, llama, moss基座，手机端流畅运行
+
+* [gventuri/pandas-ai](https://github.com/gventuri/pandas-ai) Python库，它将生成人工智能功能集成到Pandas中，使数据帧成为对话式的。为流行的数据分析和操作工具pandas添加了生成AI功能。
+
+* [howl-anderson/unlocking-the-power-of-llms](https://github.com/howl-anderson/unlocking-the-power-of-llms) 使用 Prompts 和 Chains 让 ChatGPT 成为神奇的生产力工具
+
+* [eugeneyan/open-llms](https://github.com/eugeneyan/open-llms) 可用于商业用途的开放LLM列表。
+
+* [Mooler0410/LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide) LLM实用指南资源的精选列表。它基于我们的调查论文：在实践中利用LLM的力量：关于ChatGPT及其他的调查。该调查部分基于本博客的后半部分。我们还构建了现代大型语言模型（LLM）的进化树，以追踪近年来语言模型的发展，并重点介绍一些最著名的模型。
+
+* [imaurer/awesome-decentralized-llm](https://github.com/imaurer/awesome-decentralized-llm) LLM资源的集合，可用于构建您可以“拥有”的产品或进行可重复的研究。
+
+* [Open LLM Leaderboard ](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) 开放LLM排行榜旨在跟踪，排名和评估LLM和聊天机器人的发布。
+
+* [botpress/botpress](https://github.com/botpress/botpress) 由 OpenAI 提供支持的下一代聊天机器人和助手的终极平台。开始以闪电般的速度为您的项目或业务构建令人难以置信的助手。
+
+* [dice2o/BingGPT](https://github.com/dice2o/BingGPT) 新必应AI聊天的桌面应用程序（Windows，macOS和Linux）
+
+* [josStorer/chatGPTBox](https://github.com/josStorer/chatGPTBox) 将 ChatGPT 深度集成到您的浏览器中，您需要的一切都在这里
+
+* [lss233/chatgpt-mirai-qq-bot](https://github.com/lss233/chatgpt-mirai-qq-bot) 一键部署！真正的 AI 聊天机器人！支持ChatGPT、文心一言、讯飞星火、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord、微信 等平台
 
 ### 文本生成、文本对话
 
