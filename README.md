@@ -1415,6 +1415,22 @@
 
 * [lss233/chatgpt-mirai-qq-bot](https://github.com/lss233/chatgpt-mirai-qq-bot) 一键部署！真正的 AI 聊天机器人！支持ChatGPT、文心一言、讯飞星火、Bing、Bard、ChatGLM、POE，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 QQ、Telegram、Discord、微信 等平台
 
+* [promptslab/Promptify](https://github.com/promptslab/Promptify) 使用 LLM 解决 NLP 问题，并使用 Promptify 轻松为流行的生成模型（如 GPT、PaLM 等）生成不同的 NLP 任务提示
+
+* [salesforce/CodeT5](https://github.com/salesforce/CodeT5) CodeT5的主页：用于代码理解和生成的开放代码LLM
+
+* [enricoros/big-agi](https://github.com/enricoros/big-agi) 由 GPT-4 及更高版本提供支持的个人 AI 应用程序，具有 AI 角色、AGI 功能、文本到图像、语音、响应流、代码突出显示和执行、PDF 导入、开发人员预设等等。使用Next.js，React，Joy。
+
+* [jaymody/picoGPT](https://github.com/jaymody/picoGPT) NumPy实现的一个不必要的微小的GPT-2。40 行代码。
+
+* [zurawiki/gptcommit](https://github.com/zurawiki/gptcommit) 一个 git prepare-commit-msg 钩子，用于使用 GPT-3 创作提交消息。使用此工具，您可以轻松生成清晰、全面和描述性的提交消息，让您专注于编写代码。
+
+* [bentoml/OpenLLM](https://github.com/bentoml/OpenLLM) 用于在生产中操作大型语言模型 （LLM） 的开放平台。轻松微调、服务、部署和监控任何 LLM。
+
+* [karpathy/llama2.c](https://github.com/karpathy/llama2.c) 在一个纯 C 文件中推理Llama 2大型语言模型
+
+* [geekan/MetaGPT](https://github.com/geekan/MetaGPT)  多代理框架：给定一行需求，返回 PRD、设计、任务、存储库。为 GPT 分配不同的角色，以形成用于复杂任务的协作软件实体。
+
 ### 文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -5351,6 +5367,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [xtaci/kcptun](https://github.com/xtaci/kcptun) 基于 KCP 的可靠、安全的隧道，使用 N：M 多路复用和 FEC。
 
 * [amark/gun](https://github.com/amark/gun) 用于同步分散图形数据的开源网络安全协议。GUN是一个工具生态系统，可让您构建社区运行和加密的应用程序 - 例如开源Firebase或Decentralized Dropbox。
+
+* [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT)  GPT 支持的渗透测试工具。由大型语言模型（LLM）提供支持的渗透测试工具。它旨在自动化渗透测试过程。它建立在 ChatGPT 之上，并以交互模式运行，以指导渗透测试人员的整体进度和特定操作。
 
 # 硬件
 
