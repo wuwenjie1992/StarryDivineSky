@@ -1003,6 +1003,8 @@
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
 
+* [facebookresearch/llama](https://github.com/facebookresearch/llama) facebook LLaMA 模型的推理代码。最新版本的 Llama 现在可供各种规模的个人、创作者、研究人员和企业访问，以便他们可以负责任地进行实验、创新和扩展他们的想法。
+
 * [THUDM/ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B) 开源中英双语对话模型 ChatGLM-6B 的第二代版本，在保留了初代模型对话流畅、部署门槛较低等众多优秀特性的基础之上，引入了如下新特性：`更强大的性能`：全面升级了基座模型。ChatGLM2-6B 使用了 GLM 的混合目标函数，经过了 1.4T 中英标识符的预训练与人类偏好对齐训练，评测结果显示，相比于初代模型，MMLU（+23%）、CEval（+33%）、GSM8K（+571%） 、BBH（+60%）等数据集上的性能取得了大幅度的提升，在同尺寸开源模型中具有较强的竞争力。`更长的上下文`：基于 FlashAttention 技术，我们将基座模型的上下文长度（Context Length）由 ChatGLM-6B 的 2K 扩展到了 32K，并在对话阶段使用 8K 的上下文长度训练。对于更长的上下文，我们发布了 ChatGLM2-6B-32K 模型。LongBench 的测评结果表明，在等量级的开源模型中，32K 有着较为明显的竞争优势。`更高效的推理`：基于 Multi-Query Attention 技术，有更高效的推理速度和更低的显存占用：在官方的模型实现下，推理速度相比初代提升了 42%，INT4 量化下，6G 显存支持的对话长度由 1K 提升到了 8K。`更开放的协议`：权重对学术研究完全开放，在填写问卷进行登记后亦允许免费商业使用。
 
 * [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
@@ -1430,6 +1432,26 @@
 * [karpathy/llama2.c](https://github.com/karpathy/llama2.c) 在一个纯 C 文件中推理Llama 2大型语言模型
 
 * [geekan/MetaGPT](https://github.com/geekan/MetaGPT)  多代理框架：给定一行需求，返回 PRD、设计、任务、存储库。为 GPT 分配不同的角色，以形成用于复杂任务的协作软件实体。
+
+* [ModelTC/lightllm](https://github.com/ModelTC/lightllm) 基于Python的LLM（大型语言模型）推理和服务框架，以其轻量级设计，易于扩展和高速性能而著称。LightLLM利用了许多备受推崇的开源实现的优势，包括但不限于FasterTransformer，TGI，vLLM和FlashAttention。
+
+* [PanQiWei/AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) 一个易于使用的LLM量化包，带有用户友好的API，基于GPTQ算法。
+
+* [princeton-nlp/tree-of-thought-llm](https://github.com/princeton-nlp/tree-of-thought-llm) 正式实现“思想之树：用大语言模型刻意解决问题”
+
+* [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) 快速轻松地将尖端的LLM技术集成到您的应用程序中。将OpenAI，Azure OpenAI和Hugging Face等大型语言模型（LLM）与C#，Python和Java等传统编程语言集成在一起。语义内核通过允许您定义可以在几行代码中链接在一起的插件来实现这一点。
+
+* [thomas-yanxin/LangChain-ChatGLM-Webui](https://github.com/thomas-yanxin/LangChain-ChatGLM-Webui) 基于LangChain和ChatGLM-6B等系列LLM的针对本地知识库的自动问答
+
+* [ssbuild/chatglm_finetuning](https://github.com/ssbuild/chatglm_finetuning) Chatglm 6b微调和羊驼微调
+
+* [liucongg/ChatGLM-Finetuning](https://github.com/liucongg/ChatGLM-Finetuning) 基于ChatGLM-6B、ChatGLM2-6B模型，进行下游具体任务微调，涉及Freeze、Lora、P-tuning、全参微调等
+
+* [HqWu-HITCS/Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM) 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。
+
+* [ OpenGVLab/Ask-Anything](https://github.com/OpenGVLab/Ask-Anything) [视频聊天GPT]聊天GPT与视频理解！还有更多支持的LM，如miniGPT4，StableLM和MOSS。
+
+* [OpenMotionLab/MotionGPT](https://github.com/OpenMotionLab/MotionGPT) 一个统一且用户友好的运动语言模型，用于学习两种模态的语义耦合，并在多个运动任务上生成高质量的运动和文本描述。
 
 ### 文本生成、文本对话
 
@@ -3960,17 +3982,19 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 [Graylab/IgFold](https://github.com/Graylab/IgFold) 通过深度学习对大量天然抗体进行快速、准确的抗体结构预测。
 
+[Graylab/IgLM](https://github.com/Graylab/IgLM) 抗体设计的衍生语言建模
+
 # 图数据库图算法
 
-https://github.com/Tencent/plato
+[Tencent/plato](https://github.com/Tencent/plato) 
 
-https://github.com/dgraph-io/dgraph
+[dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) 
 
-https://github.com/hugegraph/hugegraph
+[hugegraph/hugegraph](https://github.com/hugegraph/hugegraph)
 
-https://github.com/vtraag/leidenalg
+[vtraag/leidenalg](https://github.com/vtraag/leidenalg)
 
-https://github.com/erikbern/ann-benchmarks 最邻近搜索
+[erikbern/ann-benchmarks](https://github.com/erikbern/ann-benchmarks) 最邻近搜索
 
 [vesoft-inc/nebula](https://github.com/vesoft-inc/nebula) 分布式、可扩展、闪电般的图形数据库
 
@@ -4026,7 +4050,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [chaitjo/awesome-efficient-gnn](https://github.com/chaitjo/awesome-efficient-gnn) 令人敬畏的高效图神经网络,一份关于有效图神经网络和可扩展图表示学习的必读论文的精选列表，用于实际应用。 
 
-* [EdisonLeeeee/GraphGallery](https://github.com/EdisonLeeeee/GraphGallery) GraphGallery 是一个用于对图神经网络 (GNN) 进行基准测试的图库。实现的方法：节点分类、图净化、链接预测、节点嵌入。
+* [EdisonLeeeee/GraphGallery](https://github.com/EdisonLeeeee/GraphGallery) 一个用于对图神经网络 (GNN) 进行基准测试的图库。实现的方法：节点分类、图净化、链接预测、节点嵌入。
 
 * [Awesome-GNN-Research](https://github.com/XunKaiLi/Awesome-GNN-Research) 很棒的 GNN 研究
 
@@ -4085,7 +4109,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [jindi-tju/HGNN-AC](https://github.com/jindi-tju/HGNN-AC) “WWW21 - 通过属性完成的异构图神经网络”的源代码
 
-* [safe-graph/GNN-FakeNews](https://github.com/safe-graph/GNN-FakeNews) 基于 GNN 的假新闻检测模型的集合。异构图分类。
+* [safe-graph/GNN-FakeNews](https://github.com/safe-graph/GNN-FakeNews) 基于GNN假新闻检测模型的集合。异构图分类。
 
 * [liun-online/HeCo](https://github.com/liun-online/HeCo) 具有协同对比学习的自监督异构图神经网络。
 
@@ -4153,7 +4177,7 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 
 * [IBM/EvolveGCN](https://github.com/IBM/EvolveGCN) 动态时序知识图谱。为了实现动态学习主要注意以下三点：1、每个时间片单独学习一个GCN，每个GCN输入不同体现在图谱的邻接矩阵不同，但在代码实现时必须要求每个时刻的节点是保持一致的，而节点之间的关系存在变动；2、为了考虑动态图谱联系，用RNN将每个时间片GCN模型参数串起来进行序列学习；3、RNN循环网络采用两种：GRU，LSTM。
 
-* [twitter-research/tgn](https://github.com/twitter-research/tgn)  TGN: Temporal Graph Networks 动态图的神经网络模型
+* [twitter-research/tgn](https://github.com/twitter-research/tgn) Temporal Graph Networks 动态图的神经网络模型
 
 * [lehaifeng/T-GCN](https://github.com/lehaifeng/T-GCN) 通过图卷积网络进行的城市交通流量预测的工作。文件结构如下所示：1 T-GCN是时间图卷积网络的源代码。2 A3T-GCN是具有注意力结构的时间图卷积网络的源代码。3 AST-GCN是属性增强的时空图卷积网络的源代码。4 基准包括以下方法，例如历史平均模型（HA）、自回归综合移动平均模型（ARIMA）、支持向量回归模型（SVR）、图卷积网络模型（GCN）、门控循环单位模型（GRU）
 
@@ -5817,6 +5841,8 @@ https://github.com/erikbern/ann-benchmarks 最邻近搜索
 * [doocs/advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
 
 * [SocketCluster/socketcluster](https://github.com/SocketCluster/socketcluster) 高度可扩展的实时发布/订阅和 RPC 框架
+
+* [moleculerjs/moleculer](https://github.com/moleculerjs/moleculer) 一个快速，现代和强大的Node.js微服务框架。它可以帮助您构建高效，可靠和可扩展的服务。Moleculer 提供了许多用于构建和管理微服务的功能。
 
 ## 网络与前后端开发_其他
 
