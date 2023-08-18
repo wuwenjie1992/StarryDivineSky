@@ -778,6 +778,8 @@
 
 * [facebookresearch/bit](https://github.com/facebookresearch/bit) 鲁棒二值化多次蒸馏Transformer
 
+* [Tongjilibo/bert4torch](https://github.com/Tongjilibo/bert4torch) 优雅的pytorch transformers库
+
 ## BERT优化
 
 * [google-research/bert](https://github.com/google-research/bert) Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
@@ -1053,6 +1055,8 @@
 
 * [lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) 在PaLM架构上实现RLHF（人工反馈强化学习）,类似ChatGPT
 
+* [liltom-eth/llama2-webui](https://github.com/liltom-eth/llama2-webui) 从任何地方（Linux/Windows/Mac）在GPU或CPU上本地运行任何Llama 2。使用“llama2-wrapper”作为生成代理/应用程序的本地llama2后端。
+
 * [togethercomputer/OpenChatKit](https://github.com/togethercomputer/OpenChatKit) 一个强大的开源基础，可以为各种应用程序创建专用和通用聊天机器人。该工具包包括一个指令调优的语言模型，一个审核模型，和一个可扩展的检索系统，用于包括来自自定义存储库的最新响应。
 
 * [LianjiaTech/BELLE](https://github.com/LianjiaTech/BELLE) 开源中文对话大模型，现阶段基于开源预训练大语言模型（如BLOOM），针对中文做了优化，模型调优仅使用由ChatGPT生产的数据（不包含任何其他数据）。开放了数据集：Stanford Alpaca 生成的中文数据集1M + 0.5M；0.25M数学指令数据集和0.8M多轮任务对话数据集。
@@ -1242,9 +1246,9 @@
 
 * [Zero6992/chatGPT-discord-bot](https://github.com/Zero6992/chatGPT-discord-bot) 将 ChatGPT 集成到您自己的discord机器人中
 
-* [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) 运行您自己的 GPTChat 电报机器人，只需一个命令
+* [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) 运行您自己的GPT电报机器人，只需一个命令
 
-* [transitive-bullshit/chatgpt-twitter-bot](https://github.com/transitive-bullshit/chatgpt-twitter-bot) OpenAI的ChatGPT API支持的Twitter机器人
+* [transitive-bullshit/chatgpt-twitter-bot](https://github.com/transitive-bullshit/chatgpt-twitter-bot) ChatGPT API支持的Twitter机器人
 
 * [kxxt/chatgpt-action](https://github.com/kxxt/chatgpt-action) 让 ChatGPT 为您审查 PR 拉取请求
 
@@ -1273,6 +1277,8 @@
 * [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) 在浏览器中组装、配置和部署自治 AI 代理。为您自己的自定义 AI 命名，让它开始任何可以想象的目标。它将尝试通过思考要完成的任务、执行它们并从结果中学习来达到目标。
 
 * [openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin)  ChatGPT 检索插件可让您通过自然语言提问来轻松查找个人或工作文档。
+
+* [kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference](https://github.com/kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference) 在本地CPU推理上运行Llama 2和其他开源LLM，用于文档问答
 
 * [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox) 开源的 ChatGPT API (OpenAI API) 桌面客户端，Prompt 的调试与管理工具，支持 Windows、Mac 和 Linux
 
@@ -1452,6 +1458,24 @@
 * [ OpenGVLab/Ask-Anything](https://github.com/OpenGVLab/Ask-Anything) [视频聊天GPT]聊天GPT与视频理解！还有更多支持的LM，如miniGPT4，StableLM和MOSS。
 
 * [OpenMotionLab/MotionGPT](https://github.com/OpenMotionLab/MotionGPT) 一个统一且用户友好的运动语言模型，用于学习两种模态的语义耦合，并在多个运动任务上生成高质量的运动和文本描述。
+
+* [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) 大型语言模型（LLM）已经席卷了NLP社区AI社区的整个世界。以下是关于大型语言模型的精选论文列表，尤其是与 ChatGPT 相关的论文。它还包含LLM培训框架，部署LLM的工具，有关LLM的课程和教程以及所有公开可用的LLM检查点和API。
+
+* [DSXiangLi/DecryptPrompt](https://github.com/DSXiangLi/DecryptPrompt) 总结Prompt&LLM论文，开源数据&模型，AIGC应用
+
+* [catqaq/ChatPiXiu](https://github.com/catqaq/ChatPiXiu) 开源chatgpt替代方案/实现的调查，复制和领域/任务适应。
+
+* [DAMO-NLP-SG/LLM-Zoo](https://github.com/DAMO-NLP-SG/LLM-Zoo) 本项目收集了以下各种开源和闭源LLM的信息
+
+* [wgwang/LLMs-In-China](https://github.com/wgwang/LLMs-In-China) 旨在记录中国大模型发展情况
+
+* [OpenBMB/BMList](https://github.com/OpenBMB/BMList) 希望使用此列表来显示大模型的最新趋势。
+
+* [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt) ChatGPT 的完全开放的替代品列表
+
+* [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) 收藏AI相关的实用工具，大型语言模型
+
+* [GitHub - mckaywrigley/ai-code-translator: Use AI to translate code from one language to another.](https://github.com/mckaywrigley/ai-code-translator) 使用 AI 将代码从一种语言翻译成另一种语言。
 
 ### 文本生成、文本对话
 
