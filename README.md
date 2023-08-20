@@ -901,6 +901,8 @@
 
 * [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) 具有 Transformer 级 LLM 性能的 RNN。它可以像 GPT（可并行化）一样直接训练。因此，它结合了 RNN 和 Transformer 的优点——出色的性能、快速推理、节省 VRAM、快速训练、“无限”ctx_len 和自由句子嵌入。
 
+* [FlagOpen/FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding) 可以将任何文本映射到低维密集向量，该向量可用于检索、分类、聚类或语义搜索等任务。它也可以用于LLM的矢量数据库。
+
 ## 文本分类
 
 * [kk7nc/Text_Classification](https://github.com/kk7nc/Text_Classification) 一项文本分类算法的调查
@@ -1371,6 +1373,8 @@
 
 * [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) GitHub Copilot服务器的开源替代品。构建GitHub Copilot的本地托管替代方案的尝试。它在NVIDIA的Triton Inference Server中使用SalesForce CodeGen模型和FasterTransformer后端。
 
+* [Instruction-Tuning-with-GPT-4/GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) 旨在共享 GPT-4 生成的数据，用于构建具有监督学习和强化学习的指令遵循 LLM。
+
 * [akoksal/LongForm](https://github.com/akoksal/LongForm) 使用语料库提取生成长文本的指令调优数据集和模型。通过利用英语语料库示例和增强指令创建的。从现有的语料库（如C4和维基百科）中选择一组多样化的人类编写的文档，并通过LLM为给定的文档生成指令。然后，用结构化的语料库示例（如Stack Exchange和WikiHow）和任务示例（如问答，电子邮件写作，语法错误更正，故事/诗歌生成和文本摘要）来扩展这些示例。
 
 * [BelleGroup/train_3.5M_CN](https://huggingface.co/datasets/BelleGroup/train_3.5M_CN) 约350万条由BELLE项目生成的中文指令数据。
@@ -1387,11 +1391,29 @@
 
 * [juletxara/mgsm](https://huggingface.co/datasets/juletxara/mgsm) 多语言小学数学基准（MGSM）是小学数学问题的基准。8.5K高质量语言多样化的小学数学单词问题的数据集。创建该数据集是为了支持对需要多步骤推理的基本数学问题进行问答的任务。
 
+* [XueFuzhao/InstructionWild](https://github.com/XueFuzhao/InstructionWild)  InstructWild v2，其中包括超过 110K 个基于用户的高质量指令。我们没有使用自导来生成任何指令。我们还用指令类型和特殊标签标记这些指令的子集。
+
 * [sunzeyeah/chinese_chatgpt_corpus](https://huggingface.co/datasets/sunzeyeah/chinese_chatgpt_corpus) 该存储库收集了用于监督微调（SFT）和来自人类反馈的强化学习（RLHF）的中文语料库。
+
+* [PlexPt/chatgpt-corpus](https://github.com/PlexPt/chatgpt-corpus) ChatGPT 中文语料库 对话语料 小说语料 客服语料 用于训练大模型
 
 * [zxbsmk/webnovel_cn](https://huggingface.co/datasets/zxbsmk/webnovel_cn) 从12560本网文提取的约21.7M条可用于训练小说生成的中文指令数据
 
 * [QingyiSi/Alpaca-CoT](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT) 该存储库将不断收集各种指令调优数据集。并且我们将不同的数据集标准化为相同的格式，可以直接通过羊驼模型的代码加载。
+
+* [datasets/BAAI/COIG](https://huggingface.co/datasets/BAAI/COIG) 中文开放教学通才（COIG）项目来维护一套无害、有用和多样化的中文教学语料库。[BAAI-Zlab/COIG](https://github.com/BAAI-Zlab/COIG) 
+
+* [CLUEbenchmark/pCLUE](https://github.com/CLUEbenchmark/pCLUE) 基于提示的大规模预训练数据集，用于多任务学习和零样本学习，120万训练数据。
+
+* [FreedomIntelligence/Huatuo-26M](https://github.com/FreedomIntelligence/Huatuo-26M) 规模最大的中国医学质量保证数据集：包含 26，000，000 个问答对。
+
+* [liyucheng/zhihu_rlhf_3k](https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k) 知乎3000个用于RLHF（Reinforcement Learning from Human Feedback 基于人类反馈的强化学习）的数据
+
+* [X-PLUG/CValues](https://github.com/X-PLUG/CValues) 面向中文大模型价值观的评估与对齐研究。邀请中国知名专家学者，每位专家提出100个诱导偏见、歧视回答的刁钻问题，并对大模型的回答进行标注。项目吸引了环境科学、心理学、法理学等多个领域专家参与，并召开了专家研讨会，会后发布业内首个大语言模型治理开源中文数据集100PoisonMpts，包含专家提出的问题、专家自己撰写或认可的答案。
+
+* [DA-southampton/RedGPT](https://github.com/DA-southampton/RedGPT)  提出一种自动生成事实型对话的方法，并公开我们的部分数据。我们公开的第一批数据（RedGPT-Dataset-V1-CN）共包含5万条中文多轮对话。目标是自动生成海量、高质量、事实型多轮对话，用于训练GPT，提升GPT的事实正确性。我们采用如下方法自动生成数据。1. 采集优质的事实型文档，我们称之为reference，其来源可以是电子书、维基百科、优质垂类网站。文档需要涵盖尽量多的主题，包括但不限于人物、机构、科技、医疗、法律、人文、经济、家居、汽车、出行、美食、时尚、体育、教育、宠物。2. 利用已有的LLM（例如付费API）生成多轮对话。输入是一篇reference，prompt类似“请根据这篇文章生成多轮问答”。API会输出一段多轮对话（dialogue）。这种方法将原本只适合预训练的文档转化成可供微调的多轮对话。3. 第2步收集到大量的reference-dialogue二元组。将reference和prompt作为输入，dialogue作为目标，微调一个GPT模型（可以基于LLaMA或BLOOM的预训练基座）。我们将微调出的模型称作Reference-Enlightened-Dialogue GPT，缩写RedGPT。有了RedGPT，即可基于reference生成多轮对话，获得海量的数据。
+
+* [X-PLUG/ChatPLUG](https://github.com/X-PLUG/ChatPLUG) 旨在建立和共享一个中文开放域对话系统。在推理过程中集成外部知识是灵活的，这是一个可选的输入。您可以利用 获取最新信息或使用本地知识库获取 search engine 领域知识。通过设置 bot profiles 或使用 role-paly instructions 来自定义对话和字符的样式很容易。它通过多轮对话展示了其在开放领域对话方面的熟练程度，同时也在广泛的 NLP 任务上表现出色 multi-task abilities 。
 
 * [chathub-dev/chathub](https://github.com/chathub-dev/chathub) 多合一的聊天机器人客户端。在一个应用程序中使用不同的聊天机器人，目前支持ChatGPT，新的Bing Chat，Google Bard，Claude和10 +开源模型，包括Alpaca，Vicuna，ChatGLM等。
 
@@ -1475,7 +1497,39 @@
 
 * [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) 收藏AI相关的实用工具，大型语言模型
 
-* [GitHub - mckaywrigley/ai-code-translator: Use AI to translate code from one language to another.](https://github.com/mckaywrigley/ai-code-translator) 使用 AI 将代码从一种语言翻译成另一种语言。
+* [mckaywrigley/ai-code-translator](https://github.com/mckaywrigley/ai-code-translator) 使用 AI 将代码从一种语言翻译成另一种语言。
+
+* [datawhalechina/prompt-engineering-for-developers](https://github.com/datawhalechina/prompt-engineering-for-developers) 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版
+
+* [datawhalechina/hugging-llm](https://github.com/datawhalechina/hugging-llm) 拥抱LLM，拥抱未来。介绍 ChatGPT 原理、使用和应用，降低使用门槛，让更多感兴趣的非NLP或算法专业人士能够无障碍使用LLM创造价值。
+
+* [promptingguide.ai/zh](https://www.promptingguide.ai/zh) 提示工程（Prompt Engineering）是一门较新的学科，关注提示词开发和优化，帮助用户将大语言模型（Large Language Model, LLM）用于各场景和研究领域。 掌握了提示工程相关技能将有助于用户更好地了解大型语言模型的能力和局限性。基于对大语言模型的浓厚兴趣，我们编写了这份全新的提示工程指南，介绍了大语言模型相关的论文研究、学习指南、模型、讲座、参考资料、大语言模型能力以及与其他与提示工程相关的工具。
+
+* [phodal/aigc](https://github.com/phodal/aigc) 《构筑大语言模型应用：应用开发与架构设计》一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
+
+* [km1994/LLMsNineStoryDemonTower](https://github.com/km1994/LLMsNineStoryDemonTower) 分享 LLMs在自然语言处理（ChatGLM、Chinese-LLaMA-Alpaca、小羊驼 Vicuna、LLaMA、GPT4ALL等）、信息检索（langchain）、语言合成、语言识别、多模态等领域（Stable Diffusion、MiniGPT-4、VisualGLM-6B、Ziya-Visual等）等 实战与经验。
+
+* [iguodongiot/llm-action](https://github.com/liguodongiot/llm-action) 本项目旨在分享大模型相关技术原理以及实战经验。
+
+* [hiyouga/LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning) 易于使用的LLM微调框架（LLaMA-2，BLOOM，Falcon，Baichuan，Qwen，ChatGLM2）
+
+* [FlagOpen/FlagEval](https://github.com/FlagOpen/FlagEval) AI大型基础模型的评估工具包。我们的目标是探索和整合科学、公平、开放的基础模型评估基准、方法和工具。FlagEval将在未来支持在不同模态（如NLP，音频，CV和多模态）中/跨基础模型的多维评估（如准确性，效率，鲁棒性等）。我们希望通过对基础模型的评估，加深对基础模型的理解，促进相关的技术创新和产业化应用。
+
+* [InternLM/opencompass](https://github.com/InternLM/opencompass) LLM评估平台，支持超过50 +数据集的各种模型（LLaMA，LLaMa2，ChatGLM2，ChatGPT，Claude等）。
+
+* [OpenLMLab/GAOKAO-Bench](https://github.com/OpenLMLab/GAOKAO-Bench) 一个评估框架，利用高考问题作为数据集来评估大型语言模型。
+
+* [mikegu721/xiezhibenchmark](https://github.com/mikegu721/xiezhibenchmark) 獬豸是语言模型（LMs）的综合评估套件。它由249587道多项选择题组成，涵盖 516 个不同的学科和四个难度级别。希望可以帮助开发人员跟踪进度并分析其LM的重要优势/缺点。
+
+* [haonan-li/CMMLU](https://github.com/haonan-li/CMMLU) 综合性的中文评估基准，专门用于评估语言模型在中文语境下的知识和推理能力。CMMLU涵盖了从基础学科到高级专业水平的67个主题。它包括：需要计算和推理的自然科学，需要知识的人文科学和社会科学,以及需要生活常识的中国驾驶规则等。此外，CMMLU中的许多任务具有中国特定的答案，可能在其他地区或语言中并不普遍适用。因此是一个完全中国化的中文测试基准。
+
+* [Felixgithub2017/MMCU](https://github.com/Felixgithub2017/MMCU) 本评测只是对大模型语义理解能力的测试，并不能代表模型的全面能力评测，评测结果仅供参考。整个评测方式、评测数据集、评测记录都公开，确保可以复现。
+
+* [jeinlee1991/chinese-llm-benchmark](https://github.com/jeinlee1991/chinese-llm-benchmark) 中文大模型能力评测榜单：覆盖文心一言、chatgpt、通义千问、讯飞星火、belle / chatglm 等开源大模型，多维度能力评测。不仅提供能力评分排行榜，也提供所有模型的原始输出结果！
+
+* [thu-coai/Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) 中文安全prompts，评估和提升大模型的安全性。
+
+* [michael-wzhu/PromptCBLUE](https://github.com/michael-wzhu/PromptCBLUE) 面向医学领域多任务少样本学习的中文大规模指令调优数据集
 
 ### 文本生成、文本对话
 
@@ -2916,6 +2970,8 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 [starmemda/CAMoE](https://github.com/starmemda/CAMoE) 通过多流语料库对齐和双 Softmax 损失改进视频文本检索
 
 [facebookresearch/SLIP](https://github.com/facebookresearch/SLIP) SLIP 自监督代码发布符合语言-图像预训练
+
+[OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) 中文版CLIP，实现中文跨模态检索和表示生成。使用大规模中文数据进行训练（~2亿图文对），旨在帮助用户快速实现中文领域的图文特征&相似度计算、跨模态检索、零样本图片分类等任务。
 
 [yuewang-cuhk/awesome-vision-language-pretraining-papers](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers) 视觉和语言预训练模型 (VL-PTM) 的最新进展
 
@@ -4606,6 +4662,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 [docarray/docarray](https://github.com/docarray/docarray) 一个 Python 库，专为多模态数据的表示、传输、存储和检索而精心制作。专为多模态AI应用程序的开发量身定制，其设计可确保与广泛的Python和机器学习生态系统无缝集成。
 
+[neuml/txtai](https://github.com/neuml/txtai) 用于语义搜索、LLM 编排和语言模型工作流的一体化开源嵌入数据库
+
 # 虚拟化
 
 [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -5595,6 +5653,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [vernemq/vernemq](https://github.com/vernemq/vernemq) 基于 Erlang/OTP 的分布式 MQTT 消息代理。专为高质量和工业用例而设计。
 
 * [ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder) 一个免费的开源闭路电视软件应用程序，为Linux开发，支持IP，USB和模拟摄像机。
+
+* [qewer33/qpaperOS](https://github.com/qewer33/qpaperOS) 适用于 LILYGO T ESP32 开发板的智能手表固件
 
 # 网络与前后端开发
 
