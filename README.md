@@ -712,6 +712,8 @@
 
 * [huggingface/transformers](https://github.com/huggingface/transformers) 支持Pytorch、TensorFlow和JAX的最先进的机器学习Transformers库。提供了数以千计的预训练模型，支持100多种语言的文本分类、信息抽取、问答、摘要、翻译、文本生成。它的宗旨让最先进的 NLP 技术人人易用。
 
+* [jadore801120/attention-is-all-you-need-pytorch](https://github.com/jadore801120/attention-is-all-you-need-pytorch) PyTorch 实现的Transformer模型在“注意力就是你所需要的一切”。
+
 * [adapter-hub/adapter-transformers](https://github.com/adapter-hub/adapter-transformers) HuggingFace 的 Transformers 的友好分支，将适配器添加到 PyTorch 语言模型。可用作 HuggingFace 的直接替代品，并定期同步新的上游更改。
 
 * [microsoft/DeBERTa](https://github.com/microsoft/DeBERTa) 注意力分散的增强解码的BERT，使用了BERT和RoBERTa模型，显着提高了预训练的效率和下游任务的性能。
@@ -1530,6 +1532,26 @@
 * [thu-coai/Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) 中文安全prompts，评估和提升大模型的安全性。
 
 * [michael-wzhu/PromptCBLUE](https://github.com/michael-wzhu/PromptCBLUE) 面向医学领域多任务少样本学习的中文大规模指令调优数据集
+
+* [liaokongVFX/LangChain-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)  LangChain 的中文入门教程
+
+* [lyogavin/Anima](https://github.com/lyogavin/Anima) 第一个开源的基于QLoRA的33B中文大语言模型。基于QLoRA开源的33B guanaco训练了10000 steps。训练使用一个H100 GPU。
+
+* [PKU-YuanGroup/ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) 中文法律大模型。目前开源的仅供学术参考的版本底座为姜子牙-13B、Anima-33B，我们使用大量法律新闻、法律论坛、法条、司法解释、法律咨询、法考题、判决文书等原始文本来构造对话数据。
+
+* [AndrewZhe/lawyer-llama](https://github.com/AndrewZhe/lawyer-llama)  中文法律LLaMA，在大规模法律语料上进行了continual pretraining，让它系统的学习中国的法律知识体系。 在此基础上，我们借助ChatGPT收集了一批对中国国家统一法律职业资格考试客观题（以下简称法考）的分析和对法律咨询的回答，利用收集到的数据对模型进行指令微调，让模型习得将法律知识应用到具体场景中的能力。
+
+* [CSHaitao/LexiLaw](https://github.com/CSHaitao/LexiLaw) 经过微调的中文法律大模型，它基于 ChatGLM-6B 架构，通过在法律领域的数据集上进行微调，使其在提供法律咨询和支持方面具备更高的性能和专业性。
+
+* [LiuHC0428/LAW-GPT](https://github.com/LiuHC0428/LAW-GPT) 中文法律对话语言模型，由ChatGLM-6B LoRA 16-bit指令微调得到。数据集包括现有的法律问答数据集和基于法条和真实案例指导的self-Instruct构建的高质量法律文本问答，提高了通用语言大模型在法律领域的表现，提高了模型回答的可靠性和专业程度。
+
+* [siat-nlp/HanFei](https://github.com/siat-nlp/HanFei) 国内首个全参数训练的法律大模型 HanFei-1.0 韩非
+
+* [davidpig/lychee_law](https://github.com/davidpig/lychee_law) 律知, 法律咨询大模型，Law-GLM-10B: 基于 GLM-10B 模型, 在 30GB 中文法律数据上进行指令微调.
+
+* [HIT-SCIR-SC/QiaoBan](https://github.com/HIT-SCIR-SC/QiaoBan) 中文儿童情感陪伴大模型“巧板”。基于通用大模型，使用了通用域人机对话数据、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，训练得到，是通用大语言模型迁移至儿童情感陪伴领域的一次成功实践。三大特点：首先，基于情绪辅导理论构建的儿童情感陪伴对话数据，能够更有效地守护孩子的心理健康。其次，具有儿童心理学背景的志愿者与专家参与完成高质量对话数据的收集。使得能够更加准确地理解和回应儿童的需求，真正与他们建立深入的情感连接。最后，模型与儿童的交互方式更加贴心，让他们能够感受到温暖和认同，成为他们坚实成长道路上的得力伙伴。
+
+* [gmftbyGMFTBY/science-llm](https://github.com/gmftbyGMFTBY/science-llm) 科学领域的大规模语言模型，在redpajama arXiv上训练
 
 ### 文本生成、文本对话
 
