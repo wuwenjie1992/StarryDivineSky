@@ -1531,9 +1531,39 @@
 
 * [thu-coai/Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) 中文安全prompts，评估和提升大模型的安全性。
 
+* [SCIR-HI/Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) 本草（原名：华驼）模型仓库，基于中文医学知识的大语言模型指令微调
+
 * [michael-wzhu/PromptCBLUE](https://github.com/michael-wzhu/PromptCBLUE) 面向医学领域多任务少样本学习的中文大规模指令调优数据集
 
+* [UCSD-AI4H/Medical-Dialogue-System](https://github.com/UCSD-AI4H/Medical-Dialogue-System) 包含医生和患者之间的对话（中文）。它有 110 万次对话和 400 万条话语。数据在不断增长，并将添加更多对话。原始对话来自 haodf.com。数据的所有版权均属于 haodf.com。
+
+* [lemuria-wchen/imcs21](https://github.com/lemuria-wchen/imcs21)  IMCS-21 的新语料库基准，用于自动医疗咨询系统
+
+* [中文医疗信息处理评测基准CBLUE_数据集-阿里云天池](https://tianchi.aliyun.com/dataset/95414) 中国中文信息学会医疗健康与生物信息处理专业委员会在合法开放共享的理念下发起，由阿里云天池平台承办，并由医渡云、腾讯天衍、平安医疗、阿里夸克、北京、郑州、鹏城实验室、哈工大(深圳）、同济、中山、复旦、华东师范等开展智慧医疗研究的单位共同协办，旨在推动中文医学NLP技术和社区的发展。
+
+* [shibing624/MedicalGPT](https://github.com/shibing624/MedicalGPT) 训练医疗大模型，实现包括二次预训练、有监督微调、奖励建模、强化学习训练。
+
+* [WangRongsheng/XrayGLM](https://github.com/WangRongsheng/XrayGLM) 首个会看胸部X光片的中文多模态医学大模型
+
+* [WangRongsheng/CareLlama](https://github.com/WangRongsheng/CareLlama) 医疗大语言模型，同时它集合了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型以促进医疗LLM快速发展。
+
+* [michael-wzhu/ChatMed](https://github.com/michael-wzhu/ChatMed) 中文医疗大模型，善于在线回答患者/用户的日常医疗相关问题
+
+* [michael-wzhu/ShenNong-TCM-LLM](https://github.com/michael-wzhu/ShenNong-TCM-LLM) “神农”大模型，首个中医药中文大模型. 
+
+* [michaelwzhu/ShenNong_TCM_Dataset](https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset) 中医药指令数据集
+
+* [michaelwzhu/ChatMed_Consult_Dataset](https://huggingface.co/datasets/michaelwzhu/ChatMed_Consult_Dataset) 来自于互联网上的医疗问诊问题(11W)，反映了真实世界的不同用户/患者的医疗问诊需求。目前response都是由OpenAI GPT-3.5引擎回答的。后续会对互联网上的医生回答与患者回答进行筛选甄别，择优选择，构建质量更优的数据集。
+
+* [CMKRG/QiZhenGPT](https://github.com/CMKRG/QiZhenGPT) 利用[启真医学知识库](http://www.mk-base.com/)构建的中文医学指令数据集，并基于此在Chinese-LLaMA-Plus-7B、CaMA-13B、ChatGLM-6B模型上进行指令精调，大幅提高了模型在中文医疗场景下效果，首先针对药品知识问答发布了评测数据集，后续计划优化疾病、手术、检验等方面的问答效果，并针对医患问答、病历自动生成等应用展开拓展。
+
+* [scutcyr/BianQue](https://github.com/scutcyr/BianQue) 中文医疗对话模型扁鹊(BianQue)。实际的医生与用户交谈往往会存在“医生根据用户当前的描述进行持续多轮的询问”。并且医生在最后根据用户提供的信息综合给出建议，如下图所示。我们把医生不断问询的过程定义为 询问链（CoQ, Chain of Questioning） ，当模型处于询问链阶段，其下一个问题通常由对话上下文历史决定。结合当前开源的中文医疗问答数据集（MedDialog-CN、IMCS-V2、CHIP-MDCFNPC、MedDG、cMedQA2、Chinese-medical-dialogue-data），分析其中的单轮/多轮特性以及医生问询特性，结合实验室长期自建的生活空间健康对话大数据，构建了千万级别规模的扁鹊健康大数据BianQueCorpus。对话数据通过“病人：xxx\n医生：xxx\n病人：xxx\n医生：”的形式统一为一种指令格式，训练数据当中混合了大量target文本为医生问询的内容而非直接的建议，这将有助于提升AI模型的问询能力。基于扁鹊健康大数据BianQueCorpus，我们选择了 ChatGLM-6B 作为初始化模型，经过全量参数的指令微调训练得到了新一代BianQue2.0。扩充了药品说明书指令、医学百科知识指令以及ChatGPT蒸馏指令等数据，强化了模型的建议与知识查询能力。[BianQue - a Hugging Face Space by scutcyr](https://huggingface.co/spaces/scutcyr/BianQue) 
+
 * [liaokongVFX/LangChain-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)  LangChain 的中文入门教程
+
+* [thomas-yanxin/Sunsimiao](https://github.com/thomas-yanxin/Sunsimiao)  孙思邈中文医疗大模型 ：提供安全、可靠、普惠的中文医疗大模型
+
+* [scutcyr/SoulChat](https://github.com/scutcyr/SoulChat) 中文领域心理健康对话大模型
 
 * [lyogavin/Anima](https://github.com/lyogavin/Anima) 第一个开源的基于QLoRA的33B中文大语言模型。基于QLoRA开源的33B guanaco训练了10000 steps。训练使用一个H100 GPU。
 
@@ -1552,6 +1582,10 @@
 * [HIT-SCIR-SC/QiaoBan](https://github.com/HIT-SCIR-SC/QiaoBan) 中文儿童情感陪伴大模型“巧板”。基于通用大模型，使用了通用域人机对话数据、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，训练得到，是通用大语言模型迁移至儿童情感陪伴领域的一次成功实践。三大特点：首先，基于情绪辅导理论构建的儿童情感陪伴对话数据，能够更有效地守护孩子的心理健康。其次，具有儿童心理学背景的志愿者与专家参与完成高质量对话数据的收集。使得能够更加准确地理解和回应儿童的需求，真正与他们建立深入的情感连接。最后，模型与儿童的交互方式更加贴心，让他们能够感受到温暖和认同，成为他们坚实成长道路上的得力伙伴。
 
 * [gmftbyGMFTBY/science-llm](https://github.com/gmftbyGMFTBY/science-llm) 科学领域的大规模语言模型，在redpajama arXiv上训练
+
+* [IMOSR/MediaGPT](https://github.com/IMOSR/MediaGPT) 中文的自媒体大语言模型MediaGPT(曾用名Media LLaMA)
+
+* 
 
 ### 文本生成、文本对话
 
@@ -1942,6 +1976,8 @@
 * [xglue](https://huggingface.co/datasets/xglue) 由11个任务组成，跨越19种语言。对于每个任务，训练数据仅以英语提供。这意味着要在XGLUE上取得成功，模型必须具有强大的零镜头跨语言迁移能力，以从特定任务的英语数据中学习并将其学到的内容转移到其他语言中。与其并发工作XTREME相比，XGLUE有两个特点：首先，它同时包含跨语言NLU和跨语言NLG任务;其次，除了包括5个现有的跨语言任务（即NER，POS，MLQA，PAWS-X和XNLI）之外，XGLUE还从Bing场景中选择了6个新任务，包括新闻分类，查询广告匹配，网页排名，QA匹配，问题生成和新闻标题生成。语言、任务和任务来源的这种多样性为量化跨语言自然语言理解和生成的预训练模型的质量提供了全面的基准。
 
 * [yhavinga/ccmatrix](https://huggingface.co/datasets/yhavinga/ccmatrix) 该语料库是使用 [CCMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix) 中所述的基于边缘的双文本挖掘技术从网络爬虫中提取的语言对。
+
+* [ywjawmw/TCM_KG](https://github.com/ywjawmw/TCM_KG) 中医TCM-neo4j 知识图谱
 
 ## 关系抽取、信息抽取
 
