@@ -706,6 +706,8 @@
 
 * [lanpa/tensorboardX](https://github.com/lanpa/tensorboardX) PyTorch的张量板（以及Chainer，MXNET，Numpy等）。使用简单的函数调用编写张量板事件。
 
+* 
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1585,7 +1587,29 @@
 
 * [IMOSR/MediaGPT](https://github.com/IMOSR/MediaGPT) 中文的自媒体大语言模型MediaGPT(曾用名Media LLaMA)
 
-* 
+* [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX)  一个具有130亿个参数的大型多语言代码生成模型，在20多种语言的大型代码语料库上进行了预训练。
+
+* [ymcui/Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)  中文 LLaMA-2 & Alpaca-2 大模型二期项目 + 本地CPU/GPU训练部署 (Chinese LLaMA-2 & Alpaca-2 LLMs)
+
+* [FlagAlpha/Llama2-Chinese](https://github.com/FlagAlpha/Llama2-Chinese) Llama中文社区，最好的中文Llama大模型，完全开源可商用
+
+* [CVI-SZU/Linly](https://github.com/CVI-SZU/Linly) 提供中文对话模型 Linly-ChatFlow 、中文基础模型 Chinese-LLaMA (1-2)、Chinese-Falcon 及其训练数据。中文基础模型以 LLaMA 和 Falcon 为底座，使用中文和中英平行语料进行增量预训练，将其在英文上的语言能力扩展到中文上。公开的多语言指令数据，对中文模型进行大规模指令跟随训练，实现了 Linly-ChatFlow。此外，本项目开源了从头训练的 Linly-OpenLLaMA 模型，包含 3B、7B、13B 规模，在 1TB 中英文语料上进行预训练，针对中文优化了字词结合tokenizer。
+
+* [OpenBMB/CPM-Bee](https://github.com/OpenBMB/CPM-Bee) 一个完全开源、允许商用的百亿参数中英文基座模型，也是CPM-Live训练的第二个里程碑。它采用Transformer自回归架构（auto-regressive），在超万亿（trillion）高质量语料上进行预训练，拥有强大的基础能力。开发者和研究者可以在CPM-Bee基座模型的基础上在各类场景进行适配来以创建特定领域的应用模型。
+
+* [OpenBMB/VisCPM](https://github.com/OpenBMB/VisCPM) 基于CPM基础模型的中英双语多模态大模型系列。支持面向图像进行中英双语多模态对话。该模型使用Muffin视觉编码架构，使用CPM-Bee（10B）作为语言基座模型，并通过语言建模训练目标融合视觉和语言模型。模型训练包括预训练和指令精调两阶段：`1.预训练`：我们使用约100M高质量英文图文对数据对VisCPM-Chat进行了预训练，数据包括CC3M、CC12M、COCO、Visual Genome、Laion等。在预训练阶段，语言模型参数保持固定，仅更新视觉编码器的参数，以支持大规模视觉-语言表示的高效对齐。`2.指令精调`：采用LLaVA-150K英文指令精调数据，并混合相应翻译后的中文数据对模型进行指令精调，以对齐模型多模态基础能力和用户使用意图。在指令精调阶段，更新全部模型参数，以提升指令精调数据的利用效率。有趣的是，发现即使仅采用英文指令数据进行指令精调，模型也可以理解中文问题，但仅能用英文回答。表明模型的多语言多模态能力已得到良好泛化。在指令精调阶段进一步加入少量中文翻译数据，可以将模型回复语言和用户问题语言对齐。
+
+* [zjunlp/KnowLM](https://github.com/zjunlp/KnowLM) 一个开源的知识渊博的大型语言模型框架。以知识和大模型为中心，利用构建的中英文预训练语料库，对LLaMA等大型模型进行全面预训练。基于KG2Instructions的技术，优化了包括NER、RE和IE在内的知识提取任务，可以使用人工指令完成。
+
+* [zjunlp/KnowLM-IE · Datasets at Hugging Face](https://huggingface.co/datasets/zjunlp/KnowLM-IE) 基于知识图谱构建的，提取实体关系三元组的指令数据集
+
+* [ictnlp/BayLing](https://github.com/ictnlp/BayLing) “百聆”是基于LLaMA的对齐增强的英语/中文大语言模型，具有优越的中英文能力，在多语言和通用任务等测试中取得ChatGPT 90%的性能。
+
+* [AtomEcho/AtomGPT](https://github.com/AtomEcho/AtomGPT) 基于LLaMA的模型架构，从0开始训练，希望能在训练的过程中，将模型能力得到提升的进化过程展示出来，感受到模型学习的过程。
+
+* [FMInference/FlexGen](https://github.com/FMInference/FlexGen) 在单个 GPU 上运行大型语言模型，以实现面向吞吐量的方案。
+
+* [bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) 在家运行LLM，BitTorrent风格。微调和推理速度比卸载快10 倍。Petals协作运行像Llama和BLOOM这样的大型语言模型 - 你加载模型的一小部分，然后加入为其他部分提供服务的人来运行推理或微调。
 
 ### 文本生成、文本对话
 
@@ -1978,6 +2002,8 @@
 * [yhavinga/ccmatrix](https://huggingface.co/datasets/yhavinga/ccmatrix) 该语料库是使用 [CCMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix) 中所述的基于边缘的双文本挖掘技术从网络爬虫中提取的语言对。
 
 * [ywjawmw/TCM_KG](https://github.com/ywjawmw/TCM_KG) 中医TCM-neo4j 知识图谱
+
+* [ydli-ai/CSL](https://github.com/ydli-ai/CSL) 首个中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）。CSL 数据集可以作为预训练语料，也可以构建许多NLP任务，例如文本摘要（标题预测）、 关键词生成和文本分类等。
 
 ## 关系抽取、信息抽取
 
@@ -3632,7 +3658,9 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 [alibaba-damo-academy/KAN-TTS](https://github.com/alibaba-damo-academy/KAN-TTS) 来自阿里达摩院的TTS框架，使用 KAN-TTS，您可以训练自己的 TTS 模型
 
-[https://github.com/NATSpeech/NATSpeech](https://github.com/NATSpeech/NATSpeech) 非自回归文本转语音 （NAR-TTS） 框架，包括 PortaSpeech （NeurIPS 2021） 和 DiffSpeech （AAAI 2022） 的官方 PyTorch 实现。PortaSpeech：便携式和高质量的生成文本到语音转换（NeurIPS 2021）。DiffSinger：通过浅扩散机制合成歌唱声音（DiffSpeech）（AAAI 2022）。
+[suno-ai/bark](https://github.com/suno-ai/bark) 由Suno创建的基于变压器的文本到音频模型。Bark可以生成高度逼真的多语言语音以及其他音频 - 包括音乐，背景噪音和简单的音效。该模型还可以产生非语言交流，如笑、叹息和哭泣。为了支持研究社区，我们正在提供对预训练模型检查点的访问，这些检查点已准备好进行推理并可用于商业用途。完全生成的文本到音频模型，用于研究和演示目的。它遵循类似于AudioLM和Vall-E的GPT风格架构以及EnCodec的量化音频表示。它不是传统的 TTS 模型，而是一个完全生成的文本到音频模型，能够以意想不到的方式偏离任何给定的脚本。与以前的方法不同，输入文本提示直接转换为音频，而无需中间使用音素。因此，它可以推广到语音以外的任意指令，例如音乐歌词、音效或其他非语音声音。
+
+[NATSpeech/NATSpeech](https://github.com/NATSpeech/NATSpeech) 非自回归文本转语音 （NAR-TTS） 框架，包括 PortaSpeech （NeurIPS 2021） 和 DiffSpeech （AAAI 2022） 的官方 PyTorch 实现。PortaSpeech：便携式和高质量的生成文本到语音转换（NeurIPS 2021）。DiffSinger：通过浅扩散机制合成歌唱声音（DiffSpeech）（AAAI 2022）。
 
 [Rongjiehuang/ProDiff](https://github.com/Rongjiehuang/ProDiff) ProDiff （ACM-MM'22） 的 PyTorch 实现，具有极快的扩散语音合成管道。条件扩散概率模型，能够有效地生成高保真语音。[demo page](https://prodiff.github.io/)
 
@@ -3650,7 +3678,7 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 [JasonWei512/wavenet_vocoder](https://github.com/JasonWei512/wavenet_vocoder)  WaveNet 声码器 
 
-[tulasiram58827/TTS_TFLite](https://github.com/tulasiram58827/TTS_TFLite) TFLite中广泛流行的文本语音转换（TTS）模型的集合。
+[tulasiram58827/TTS_TFLite](https://github.com/tulasiram58827/TTS_TFLite) TFLite中广泛流行的文本语音转换TTS模型的集合。
 
 [thuhcsi/VAENAR-TTS](https://github.com/thuhcsi/VAENAR-TTS) 基于 VAE 的非自回归 TTS 模型。
 
@@ -3662,13 +3690,19 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 [PlayVoice/vits_chinese](https://github.com/PlayVoice/vits_chinese) 基于BERT和VITS结合微软自然语音特征的最佳TTS支持
 
-[YatingMusic/ddsp-singing-vocoders](https://github.com/yatingmusic/ddsp-singing-vocoders) 声码器是一种条件音频生成模型，可将声学特征（如 mel 频谱图）转换为波形。从可微分数字信号处理（DDSP）中汲取灵感，提出SawSing新型声码器，用于歌声。SawSing使用线性时变有限脉冲响应滤波器过滤锯齿波源信号来合成歌唱声音的谐波部分，该滤波器的系数由神经网络根据输入的mel频谱图估计。由于加强了相位连续性，因此可以生成歌声，而不会出现许多现有声码器的相位不连续性故障。在资源有限的场景中，收敛速度更快，且优于最先进的生成对抗网络和基于扩散的声码器，只有3个训练录音和3小时的训练时间。
+[YatingMusic/ddsp-singing-vocoders](https://github.com/yatingmusic/ddsp-singing-vocoders) 声码器是一种条件音频生成模型，可将声学特征（如 mel 频谱图）转换为波形。从可微分数字信号处理（DDSP）中汲取灵感，提出SawSing新型声码器，用于歌声。SawSing使用线性时变有限脉冲响应滤波器过滤锯齿波源信号来合成歌唱声音的谐波部分，该滤波器的系数由神经网络根据输入的mel频谱图估计。加强了相位连续性，因此可以生成歌声，不会出现许多现有声码器的相位不连续性故障。在资源有限的场景中，收敛速度更快，且优于最先进的生成对抗网络和基于扩散的声码器，只有3个训练录音和3小时的训练时间。
 
 [CjangCjengh/MoeGoe](https://github.com/CjangCjengh/MoeGoe) 用于 VITS 推理的可执行文件，包括上海方言模型。VITS：用于语音合成带有对抗学习的条件变分自编码器。
 
 [enhuiz/vall-e](https://github.com/enhuiz/vall-e) 音频LM VALL-E的非官方PyTorch实现。3 秒音频可模仿人说话的语音大模型。使用了 Meta 提出的 [Audio Codec](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/encodec%23extracting-discrete-representations) 提取离散的音频码本，作为训练标签，其包含8（音频码维数）个 Decoder Block，每个 Block 含有 12 层 TransformerDecoder 层，第一个 block 为自回归结构，其余 block 为非自回归结构。[lifeiteng/vall-e](https://github.com/lifeiteng/vall-e)
 
 [espeak-ng/espeak-ng](https://github.com/espeak-ng/espeak-ng) 开源语音合成器，支持一百多种语言和口音。
+
+[keithito/tacotron](https://github.com/keithito/tacotron) 使用预训练模型的Google的Tacotron语音合成的TensorFlow实现（非官方）
+
+[r9y9/deepvoice3_pytorch](https://github.com/r9y9/deepvoice3_pytorch) 基于卷积神经网络的文本到语音合成模型的Torch 实现
+
+
 
 ## 语音识别与合成_其他
 
@@ -4722,6 +4756,10 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 [neuml/txtai](https://github.com/neuml/txtai) 用于语义搜索、LLM 编排和语言模型工作流的一体化开源嵌入数据库
 
+## 其他__大数据
+
+[redis/redis](https://github.com/redis/redis) 一个内存中数据库，它保留在磁盘上。数据模型是键值，但支持许多不同类型的值：字符串、列表、集合、排序集、哈希、流、Hyper Log Logs、位图。
+
 # 虚拟化
 
 [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -5725,6 +5763,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [vercel/next.js](https://github.com/vercel/next.js) Next.js 被一些世界上最大的公司使用，能够通过最新的 React 扩展来创建全栈 Web 应用程序，并集成强大的基于 Rust 的 Js 工具以实现最快的构建。
 
 * [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) 与 Vite 相关的精彩事物的精选列表
+
+* [cuixiaorui/mini-vue](https://github.com/cuixiaorui/mini-vue) 实现最简 vue3 模型，帮助你更高效地学习 vue3 源代码 
 
 * [axios/axios](https://github.com/axios/axios) 用于浏览器和 node.js 的基于 Promise 的 HTTP 客户端
 
