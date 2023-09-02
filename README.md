@@ -85,7 +85,7 @@
 
 * [nndl/nndl.github.io](https://github.com/nndl/nndl.github.io) 《神经网络与深度学习》 邱锡鹏著 
 
-* [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) 500 个 AI 机器学习 深度学习 计算机视觉 NLP 代码项目
+* [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) 500个AI机器学习 深度学习 计算机视觉 NLP 代码项目
 
 * [ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) 学习成为机器学习工程师的完整日常计划。
 
@@ -134,6 +134,8 @@
 * [bharathgs/Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list) github上pytorch相关内容的完整列表，例如不同的模型，实现，帮助程序库，教程等。
 
 * [sgrvinod/Deep-Tutorials-for-PyTorch](https://github.com/sgrvinod/Deep-Tutorials-for-PyTorch) 使用 PyTorch 自行实现深度学习模型的深入教程。
+
+* [apachecn/pytorch-doc-zh](https://github.com/apachecn/pytorch-doc-zh) Pytorch 中文文档
 
 * [ELS-RD/kernl](https://github.com/ELS-RD/kernl/) 第一个使用 OpenAI Triton 编写的 OSS 推理引擎，这是一种由 OpenAI 设计的新语言，可以更轻松地编写 GPU 内核。每个内核不到200行代码，易于理解和修改。
 
@@ -847,6 +849,8 @@
 
 ## 预训练模型
 
+* [THUDM/GLM](https://github.com/THUDM/GLM) 一种预训练的通用语言模型，具有自回归空白填充目标，可以根据各种自然语言理解和生成任务进行微调。
+
 * [dbiir/UER-py](https://github.com/dbiir/UER-py) 一个用于对通用语料进行预训练并对下游任务进行微调的工具包。提供了非常丰富的模型库。包括：中文RoBERTa、基于词的中文RoBERTa、中文GPT-2预训练模型（通用、古诗词、对联、歌词、文言文）、中文T5预训练模型、中文RoBERTa下游任务微调模型（JD full 情感分类 、JD binary 情感分类 、Dianping 情感分类、Ifeng 新闻主题分类、Chinanews 新闻主题分类 、CLUENER2020 NER 、抽取式问答）等。
 
 * [OpenBMB/BMInf](https://github.com/OpenBMB/BMInf) BMInf (Big Model Inference) 是一个用于大规模预训练语言模型（PLM）推理阶段的低资源工具包。最低支持在NVIDIA GTX 1060单卡运行百亿大模型。在此基础上，使用更好的gpu运行会有更好的性能。模型能力覆盖文本补全、文本生成与对话场景。文本生成能力大幅提高。目前支持下列模型：
@@ -1021,6 +1025,8 @@
 
 * [QwenLM/Qwen-7B](https://github.com/QwenLM/Qwen-7B) 由阿里云提出的Qwen-7B（通义千问-7B）聊天和预训练大语言模型的官方存储库。使用高质量的预训练数据进行训练。我们已经在超过2.2万亿个代币的自建大规模高质量数据集上预训练了Qwen-7B。该数据集包括纯文本和代码，涵盖广泛的领域，包括一般领域数据和专业领域数据。更好地支持语言。我们的分词器基于超过 150K 个代币的大词汇表，与其他分词器相比更有效。它对多种语言都很友好，并且有助于用户进一步微调Qwen-7B以扩展对某种语言的理解。支持 8K 上下文长度。Qwen-7B和Qwen-7B-Chat都支持8K的上下文长度，这允许输入长上下文。支持插件。Qwen-7B-Chat 是用插件相关的对齐数据训练的，因此它能够使用工具，包括 API、模型、数据库等，并且能够作为代理进行游戏。
 
+* [baichuan-inc/Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B) 由百川智能继 Baichuan-7B 之后开发的包含 130 亿参数的开源可商用的大规模语言模型，在权威的中文和英文 benchmark 上均取得同尺寸最好的效果。本次发布包含有预训练 (Baichuan-13B-Base) 和对齐 (Baichuan-13B-Chat) 两个版本。Baichuan-13B 有如下几个特点：更大尺寸、更多数据：Baichuan-13B 在 Baichuan-7B 的基础上进一步扩大参数量到 130 亿，并且在高质量的语料上训练了 1.4 万亿 tokens，超过 LLaMA-13B 40%，是当前开源 13B 尺寸下训练数据量最多的模型。支持中英双语，使用 ALiBi 位置编码，上下文窗口长度为 4096。同时开源预训练和对齐模型：预训练模型是适用开发者的『 基座 』，而广大普通用户对有对话功能的对齐模型具有更强的需求。因此本次开源我们同时发布了对齐模型（Baichuan-13B-Chat），具有很强的对话能力，开箱即用，几行代码即可简单的部署。更高效的推理：为了支持更广大用户的使用，我们本次同时开源了 int8 和 int4 的量化版本，相对非量化版本在几乎没有效果损失的情况下大大降低了部署的机器资源门槛，可以部署在如 Nvidia 3090 这样的消费级显卡上。开源免费可商用：Baichuan-13B 不仅对学术研究完全开放，开发者也仅需邮件申请并获得官方商用许可后，即可以免费商用。
+
 * [imoneoi/openchat](https://github.com/imoneoi/openchat) 使用不完善的数据推进开源语言模型。OpenChat是一系列基于监督微调（SFT）的开源语言模型。我们利用 ~80k ShareGPT 对话与条件反射策略和加权损失，尽管我们的方法很简单，但仍实现了卓越的表现。我们的最终愿景是开发一个高性能、开源和商用的大型语言模型，并且我们正在不断取得进展。
 
 * [lonePatient/awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models) 高质量中文预训练模型集合。包括：基础大模型、对话大模型、多模态对话大模型、大模型评估基准、开源模型库平台、开源数据集库、中文指令数据集。
@@ -1054,6 +1060,8 @@
 * [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) 文心一言的开源版，基于 ChatGLM + Visual ChatGPT + Stable Diffusion
 
 * [hikariming/alpaca_chinese_dataset](https://github.com/hikariming/alpaca_chinese_dataset) 人工精调的中文对话数据集和一段chatglm的微调代码
+
+* [michael-wzhu/Chinese-LlaMA2](https://github.com/michael-wzhu/Chinese-LlaMA2)  META最新发布的LlaMA2的汉化版！ （完全开源可商用）
 
 * [ymcui/Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) 中文LLaMA模型和经过指令精调的Alpaca大模型。这些模型在原版LLaMA的基础上扩充了中文词表并使用了中文数据进行二次预训练，进一步提升了中文基础语义理解能力。同时，在中文LLaMA的基础上，本项目使用了中文指令数据进行指令精调，显著提升了模型对指令的理解和执行能力。
 
@@ -1583,6 +1591,8 @@
 
 * [HIT-SCIR-SC/QiaoBan](https://github.com/HIT-SCIR-SC/QiaoBan) 中文儿童情感陪伴大模型“巧板”。基于通用大模型，使用了通用域人机对话数据、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，训练得到，是通用大语言模型迁移至儿童情感陪伴领域的一次成功实践。三大特点：首先，基于情绪辅导理论构建的儿童情感陪伴对话数据，能够更有效地守护孩子的心理健康。其次，具有儿童心理学背景的志愿者与专家参与完成高质量对话数据的收集。使得能够更加准确地理解和回应儿童的需求，真正与他们建立深入的情感连接。最后，模型与儿童的交互方式更加贴心，让他们能够感受到温暖和认同，成为他们坚实成长道路上的得力伙伴。
 
+* [qiuhuachuan/smile](https://github.com/qiuhuachuan/smile) 开源的中文心理健康支持通用模型由 ChatGLM-6B LoRA 16-bit 指令微调得到。数据集通过扩展真实的心理互助 QA为多轮的心理健康支持多轮对话，提高了通用语言大模型在心理健康支持领域的表现，更加符合在长程多轮对话的应用场景。
+
 * [gmftbyGMFTBY/science-llm](https://github.com/gmftbyGMFTBY/science-llm) 科学领域的大规模语言模型，在redpajama arXiv上训练
 
 * [IMOSR/MediaGPT](https://github.com/IMOSR/MediaGPT) 中文的自媒体大语言模型MediaGPT(曾用名Media LLaMA)
@@ -1610,6 +1620,22 @@
 * [FMInference/FlexGen](https://github.com/FMInference/FlexGen) 在单个 GPU 上运行大型语言模型，以实现面向吞吐量的方案。
 
 * [bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) 在家运行LLM，BitTorrent风格。微调和推理速度比卸载快10 倍。Petals协作运行像Llama和BLOOM这样的大型语言模型 - 你加载模型的一小部分，然后加入为其他部分提供服务的人来运行推理或微调。
+
+* [THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2) 更强大的多语言代码生成模型。基于 ChatGLM2 架构加入代码预训练实现，得益于 ChatGLM2 的更优性能，CodeGeeX2 在多项指标上取得性能提升（+107% > CodeGeeX；仅60亿参数即超过150亿参数的 StarCoder-15B 近10%）
+
+* [RUC-GSAI/YuLan-Chat](https://github.com/RUC-GSAI/YuLan-Chat) 基于聊天的大型语言模型，由中国人民大学GSAI的研究人员开发（YuLan，代表玉兰，是中国人民大学的校园花）。最新版本是通过不断预训练和指令调整LLaMA-2开发的，具有高质量的中英文数据。
+
+* [Yu-Yang-Li/StarGLM](https://github.com/Yu-Yang-Li/StarGLM) 整合了司天工程相关的语料数据与知识库资料，训练得到了天文大模型。司天工程是时域天文学所提出的“十五五”天文重大基础设施，一期计划在国内多个优选观测台址布置54台（18组）口径1米级的大视场望远镜，组成多波段同时监测网络，每30分钟完成1万平方度天区的高精度三色“凝视”巡天。司天的采样频率比全球其它巡天项目高近两个量级，将突破目前探测时标的限制，在新的空域和时域下发现大批新天体、新现象，在宇宙极端高能爆发源、引力波电磁对应体、系外行星和太阳系天体等理论和观测研究中形成新的突破，在“两暗一黑三起源”等重大科学问题研究以及地球文明灾难预警等国家空间安全问题方面发挥重要作用。
+
+* [cocktailpeanut/dalai](https://github.com/cocktailpeanut/dalai) 在本地计算机上运行LLaMA语言模型的最简单方法
+
+* [Neutralzz/BiLLa](https://github.com/Neutralzz/BiLLa) 开源的推理能力增强的中英双语LLaMA模型。
+
+* [DUOMO/TransGPT](https://github.com/DUOMO/TransGPT) 国内首款开源交通大模型，主要致力于在真实交通行业中发挥实际价值。能够实现交通情况预测、智能咨询助手、公共交通服务、交通规划设计、交通安全教育、协助管理、交通事故报告和分析、自动驾驶辅助系统等功能。可以为道路工程、桥梁工程、隧道工程、公路运输、水路运输、城市公共交通运输、交通运输经济、交通运输安全等行业提供通识常识。以此为基础，可以落脚到特定的交通应用场景中。
+
+* [Duxiaoman-DI/XuanYuan](https://github.com/Duxiaoman-DI/XuanYuan) 轩辕：首个千亿级中文金融对话模型。在BLOOM-176B的基础上针对中文通用领域和金融领域进行了针对性的预训练与微调，它不仅可以应对通用领域的问题，也可以解答与金融相关的各类问题，为用户提供准确、全面的金融信息和建议。
+
+* [blcuicall/taoli](https://github.com/blcuicall/taoli) 适用于国际中文教育领域的大模型 “桃李”（Taoli）1.0 ，在国际中文教育领域数据上进行了额外训练的模型。基于目前国际中文教育领域流通的500余册国际中文教育教材与教辅书、汉语水平考试试题以及汉语学习者词典等，构建了国际中文教育资源库。 设置了多种形式的指令来充分利用知识，构造了共计 88k 条的高质量国际中文教育问答数据集，并利用收集到的数据对模型进行指令微调，让模型习得将国际中文教育知识应用到具体场景中的能力。
 
 ### 文本生成、文本对话
 
@@ -3701,8 +3727,6 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 [keithito/tacotron](https://github.com/keithito/tacotron) 使用预训练模型的Google的Tacotron语音合成的TensorFlow实现（非官方）
 
 [r9y9/deepvoice3_pytorch](https://github.com/r9y9/deepvoice3_pytorch) 基于卷积神经网络的文本到语音合成模型的Torch 实现
-
-
 
 ## 语音识别与合成_其他
 
