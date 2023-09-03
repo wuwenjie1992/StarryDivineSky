@@ -708,7 +708,7 @@
 
 * [lanpa/tensorboardX](https://github.com/lanpa/tensorboardX) PyTorch的张量板（以及Chainer，MXNET，Numpy等）。使用简单的函数调用编写张量板事件。
 
-* 
+* [swyxio/ai-notes](https://github.com/swyxio/ai-notes) 软件工程师了解新 AI 开发速度的说明。用latent.space 编写和产品头脑风暴的数据存储，但已清理 /Resources 文件夹下的规范引用。
 
 # NLP自然语言处理
 
@@ -1497,6 +1497,8 @@
 
 * [DSXiangLi/DecryptPrompt](https://github.com/DSXiangLi/DecryptPrompt) 总结Prompt&LLM论文，开源数据&模型，AIGC应用
 
+* [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) 包含笔记本、代码示例、示例应用和其他资源，用于演示如何使用 Google Cloud 上的生成式 AI 使用、开发和管理生成式 AI 工作流程，这些工作流由 Vertex AI 和生成式 AI App Builder 提供支持。
+
 * [catqaq/ChatPiXiu](https://github.com/catqaq/ChatPiXiu) 开源chatgpt替代方案/实现的调查，复制和领域/任务适应。
 
 * [DAMO-NLP-SG/LLM-Zoo](https://github.com/DAMO-NLP-SG/LLM-Zoo) 本项目收集了以下各种开源和闭源LLM的信息
@@ -1534,6 +1536,8 @@
 * [mikegu721/xiezhibenchmark](https://github.com/mikegu721/xiezhibenchmark) 獬豸是语言模型（LMs）的综合评估套件。它由249587道多项选择题组成，涵盖 516 个不同的学科和四个难度级别。希望可以帮助开发人员跟踪进度并分析其LM的重要优势/缺点。
 
 * [haonan-li/CMMLU](https://github.com/haonan-li/CMMLU) 综合性的中文评估基准，专门用于评估语言模型在中文语境下的知识和推理能力。CMMLU涵盖了从基础学科到高级专业水平的67个主题。它包括：需要计算和推理的自然科学，需要知识的人文科学和社会科学,以及需要生活常识的中国驾驶规则等。此外，CMMLU中的许多任务具有中国特定的答案，可能在其他地区或语言中并不普遍适用。因此是一个完全中国化的中文测试基准。
+
+* [CLUEbenchmark/SuperCLUElyb](https://github.com/CLUEbenchmark/SuperCLUElyb) SuperCLUE琅琊榜：中文通用大模型匿名对战评价基准
 
 * [Felixgithub2017/MMCU](https://github.com/Felixgithub2017/MMCU) 本评测只是对大模型语义理解能力的测试，并不能代表模型的全面能力评测，评测结果仅供参考。整个评测方式、评测数据集、评测记录都公开，确保可以复现。
 
@@ -1593,6 +1597,8 @@
 
 * [qiuhuachuan/smile](https://github.com/qiuhuachuan/smile) 开源的中文心理健康支持通用模型由 ChatGLM-6B LoRA 16-bit 指令微调得到。数据集通过扩展真实的心理互助 QA为多轮的心理健康支持多轮对话，提高了通用语言大模型在心理健康支持领域的表现，更加符合在长程多轮对话的应用场景。
 
+* [camel-ai/camel](https://github.com/camel-ai/camel) 骆驼：大规模语言模型社会“心灵”探索的交际代理。一种名为角色扮演的新型交流代理框架。我们的方法涉及使用开始提示来指导聊天代理完成任务，同时保持与人类意图的一致性。我们展示了如何使用角色扮演来生成对话数据，以研究聊天代理的行为和功能，为研究对话语言模型提供宝贵的资源。我们的贡献包括引入一种新的通信代理框架，为研究多智能体系统的协作行为和能力提供可扩展的方法，以及开源我们的库以支持通信代理及其他方面的研究。演示，展示了两个 ChatGPT 代理之间的对话，扮演 python 程序员和股票交易员的角色，合作开发股票市场的交易机器人。
+
 * [gmftbyGMFTBY/science-llm](https://github.com/gmftbyGMFTBY/science-llm) 科学领域的大规模语言模型，在redpajama arXiv上训练
 
 * [IMOSR/MediaGPT](https://github.com/IMOSR/MediaGPT) 中文的自媒体大语言模型MediaGPT(曾用名Media LLaMA)
@@ -1636,6 +1642,46 @@
 * [Duxiaoman-DI/XuanYuan](https://github.com/Duxiaoman-DI/XuanYuan) 轩辕：首个千亿级中文金融对话模型。在BLOOM-176B的基础上针对中文通用领域和金融领域进行了针对性的预训练与微调，它不仅可以应对通用领域的问题，也可以解答与金融相关的各类问题，为用户提供准确、全面的金融信息和建议。
 
 * [blcuicall/taoli](https://github.com/blcuicall/taoli) 适用于国际中文教育领域的大模型 “桃李”（Taoli）1.0 ，在国际中文教育领域数据上进行了额外训练的模型。基于目前国际中文教育领域流通的500余册国际中文教育教材与教辅书、汉语水平考试试题以及汉语学习者词典等，构建了国际中文教育资源库。 设置了多种形式的指令来充分利用知识，构造了共计 88k 条的高质量国际中文教育问答数据集，并利用收集到的数据对模型进行指令微调，让模型习得将国际中文教育知识应用到具体场景中的能力。
+
+* [yongzhuo/chatglm-maths](https://github.com/yongzhuo/chatglm-maths) chatglm-6b微调/LORA/PPO/推理, 样本为自动生成的整数/小数加减乘除运算, 可gpu/cpu
+
+* [MineDojo/Voyager](https://github.com/MineDojo/Voyager) 航海家：具有大型语言模型的开放式具身代理。是 Minecraft 中第一个由 LLM 驱动的体现的终身学习代理，它不断探索世界，获得各种技能，并在没有人为干预下做出新的发现。由三个组件组成：1）最大化探索的自动课程，2）不断增长的可执行代码技能库，用于存储和检索复杂行为，以及3）新的迭代提示机制，其中包含环境反馈，执行错误和自我验证以改进程序。Voyager通过黑盒查询与GPT-4交互，这绕过了模型参数微调。从经验上讲，Voyager表现出强大的上下文终身学习能力，并在玩Minecraft方面表现出非凡的熟练程度。它获得的独特物品增加了 3.3×，旅行距离延长了 2.3×，解锁关键科技树里程碑的速度比之前的 SOTA 快了 15.3×。Voyager能够利用在新的Minecraft中学到的技能库从头开始解决新任务，而其他技术则难以概括。
+
+* [DAMO-NLP-SG/Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA) 为大型语言模型提供视频和音频理解功能。Video-LLaMA建立在BLIP-2和MiniGPT-4之上。它由两个核心组件组成：（1）视觉语言（VL）分支和（2）音频语言（AL）分支。`VL 分支`（可视编码器：ViT-G/14 + BLIP-2 Q 前置器）,引入两层视频Q-Forform和帧嵌入层（应用于每帧的嵌入）来计算视频表示。使用视频到文本生成任务在 Webvid-2M 视频字幕数据集上训练 VL Branch。我们还将图像文本对（来自LLaVA的~595K图像标题）添加到预训练数据集中，以增强对静态视觉概念的理解。在预训练之后，我们使用来自MiniGPT-4，LLaVA和VideoChat的指令调整数据进一步微调我们的VL Branch。`AL 分支`（音频编码器：ImageBind-Huge）: 引入两层音频Q-Forform和音频段嵌入层（应用于每个音频段的嵌入）来计算音频表示。由于使用的音频编码器（即 ImageBind）已经跨多个模态对齐，因此我们仅根据视频/图像指令数据训练 AL Branch，只是为了将 ImageBind 的输出连接到语言解码器。在跨模态训练期间，只有视频/音频、位置嵌入层和线性层可训练。
+
+* [Timothyxxx/Chain-of-ThoughtsPapers](https://github.com/Timothyxxx/Chain-of-ThoughtsPapers) 思维链的相关论文。大型语言模型中的思维链促使了推理能力的产生。
+
+* [kyegomez/tree-of-thoughts](https://github.com/kyegomez/tree-of-thoughts) 即插即用 思想之树的实现：使用大型语言模型进行深思熟虑的问题解决，将模型推理提升至少 70%
+
+* [promptslab/Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering) 包含用于提示工程的手工策划资源，重点是生成式预训练变压器 （GPT）、ChatGPT、PaLM 等
+
+* [GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese) 《面向开发者的 ChatGPT 提示词工程》非官方版中英双语字幕
+
+* [timqian/openprompt.co](https://github.com/timqian/openprompt.co) OpenPrompt.co 上加星标最多的提示列表。该列表每 24 小时更新一次。
+
+* [thinkingjimmy/Learning-Prompt](https://github.com/thinkingjimmy/Learning-Prompt) 免费的快速`提示工程`在线课程。ChatGPT 和 Midjourney 教程现在包括在内！
+
+* [trigaten/Learn_Prompting](https://github.com/trigaten/Learn_Prompting) 关于快速`提示工程`的免费开源指南。
+
+* [prompt-engineering/prompt-patterns](https://github.com/prompt-engineering/prompt-patterns) Prompt 编写模式：如何将思维框架赋予机器，以设计模式的形式来思考 prompt
+
+* [L1Xu4n/Awesome-ChatGPT-prompts-ZH_CN](https://github.com/L1Xu4n/Awesome-ChatGPT-prompts-ZH_CN) 如何将ChatGPT调教成一只猫娘。
+
+* [prompt-engineering/click-prompt](https://github.com/prompt-engineering/click-prompt) 简化您的提示设计，使用 ClickPrompt，您只需单击一下即可轻松查看、共享和运行这些提示。ClickPrompt 用于一键轻松查看、分享和执行您的 Prompt。
+
+* [mattnigh/ChatGPT3-Free-Prompt-List](https://github.com/mattnigh/ChatGPT3-Free-Prompt-List) 学习创建 ChatGPT3 提示的免费指南
+
+* [yzfly/LangGPT](https://github.com/yzfly/LangGPT) 让每个人都能成为及时的专家！ 结构化提示词，结构化提示词。
+
+* [OpenMindClub/awesome-chatgpt](https://github.com/OpenMindClub/awesome-chatgpt) 关于ChatGPT的一切，精选的应用程序和工具列表。
+
+* [EgoAlpha/prompt-in-context-learning](https://github.com/EgoAlpha/prompt-in-context-learning) 用于上下文学习和快速工程的出色资源：掌握 ChatGPT、GPT-3 和 FlanT5 等 LLM，并提供最新和前沿的更新。
+
+* [hegelai/prompttools](https://github.com/hegelai/prompttools) 用于快速测试和实验的开源工具，支持LLM（例如OpenAI，LLaMA）和矢量数据库（例如Chroma，Weaviate，LanceDB）。
+
+* [uptrain-ai/uptrain](https://github.com/uptrain-ai/uptrain) 一个Python框架，通过允许用户检查正确性，结构完整性，偏见，幻觉等方面来确保您的LLM应用程序可靠地运行。
+
+
 
 ### 文本生成、文本对话
 
@@ -2921,13 +2967,15 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
 
-[google-research/magvit](https://github.com/google-research/magvit) MAGVIT 的官方 JAX 实现：掩码生成视频转换器 .引入 MAGVIT 以使用单一模型处理各种视频合成任务，并展示了其质量、效率和灵活性。
+[google-research/magvit](https://github.com/google-research/magvit) 官方 JAX 实现：掩码生成视频转换器 .引入 MAGVIT 以使用单一模型处理各种视频合成任务，并展示了其质量、效率和灵活性。
 
 [silverriver/MMChat](https://github.com/silverriver/MMChat) 大规模的对话数据集，其中包含以图像为基础的中文对话。 MMChat 中的每个对话都与一个或多个图像相关联（每个对话最多 9 张图像）。 我们设计了各种策略来确保 MMChat 中对话的质量。 数据集中的图像托管在微博的静态图像服务器上。
 
 [KaiyangZhou/CoOp](https://github.com/KaiyangZhou/CoOp)  通过快速学习将CLIP等视觉语言模型适应下游数据集
 
 [j-min/VL-T5](https://github.com/j-min/VL-T5) 通过文本生成统一视觉和语言任务
+
+[cloneofsimo/lora](https://github.com/cloneofsimo/lora) 用于快速文本到图像扩散微调的低秩适配。
 
 [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO第一）、VQA链接、视觉基础、文本图像生成、文本分类生成、图像分类等。
 
@@ -3784,6 +3832,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 [wenet-e2e/opencpop](https://github.com/wenet-e2e/opencpop) 用于歌声合成的高质量开源中文流行歌曲数据库
 
+[snakers4/silero-models](https://github.com/snakers4/silero-models) Silero 模型：预先训练的语音转文本、文本转语音和文本增强模型变得简单得令人尴尬.
+
 # 生物医药
 
 ## 蛋白质结构
@@ -4179,6 +4229,10 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 [Graylab/IgFold](https://github.com/Graylab/IgFold) 通过深度学习对大量天然抗体进行快速、准确的抗体结构预测。
 
 [Graylab/IgLM](https://github.com/Graylab/IgLM) 抗体设计的衍生语言建模
+
+[oxpig/AbLang](https://github.com/oxpig/AbLang) 抗体的语言模型。动机：一般蛋白质语言模型已被证明可以将蛋白质序列的语义总结为对最先进的预测方法有用的表示。然而，对于抗体特异性问题，例如恢复由于测序错误而丢失的残基，仅根据抗体训练的模型可能更强大。抗体是为数不多的可以获得此类语言模型所需序列数据的蛋白质类型之一，例如在观察到的抗体空间（OAS）数据库中。
+
+[luost26/diffab](https://github.com/luost26/diffab) 使用基于扩散的蛋白质结构生成模型进行抗原特异性抗体设计和优化（NeurIPS 2022）
 
 # 图数据库图算法
 
@@ -5172,6 +5226,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行、cli/web 工具等。
 
+* [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) 该存储库主要由 Omar Santos （@santosomar） 维护，包括与道德黑客/渗透测试、数字取证和事件响应 （DFIR）、人工智能、漏洞研究、漏洞开发、逆向工程等相关的数千种资源。
+
 * [carpedm20/awesome-hacking](https://github.com/carpedm20/awesome-hacking) 黑客教程，工具和资源的精选列表
 
 * [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) 为黑客、渗透测试人员和安全研究人员收集的各种很棒的列表
@@ -5186,7 +5242,7 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
 
-* [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 简单现代公司域名使用规律预测及生成工具
+* [LandGrey/domainNamePredictor](https://github.com/LandGrey/domainNamePredictor) 现代公司域名使用规律预测及生成工具
 
 * [Al1ex/Pentest-tools](https://github.com/Al1ex/Pentest-tools) 内网渗透工具:ACL突破、交换、真实劫持、信息收集、内网电话、密码喷洒、密码抓取、密码破解、权限提升、权限维持、横向移动、端口扫描、端口转发、网络嗅探、集成工具
 
