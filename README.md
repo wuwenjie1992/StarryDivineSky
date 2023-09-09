@@ -117,7 +117,7 @@
 
 * [tangyudi/Ai-Learn](https://github.com/tangyudi/Ai-Learn) 人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，等热门领域
 
-* [GitHub - dragen1860/Deep-Learning-with-TensorFlow-book](https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book) 深度学习入门开源书，基于TensorFlow 2.0案例实战。
+* [dragen1860/Deep-Learning-with-TensorFlow-book](https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book) 深度学习入门开源书，基于TensorFlow 2.0案例实战。
 
 * [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南深度学习入门开源书，基于TensorFlow 2.0案例实战。
 
@@ -1421,6 +1421,16 @@
 
 * [liyucheng/zhihu_rlhf_3k](https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k) 知乎3000个用于RLHF（Reinforcement Learning from Human Feedback 基于人类反馈的强化学习）的数据
 
+* [hejunqing/webMedQA](https://github.com/hejunqing/webMedQA) 从在线健康咨询网站收集的真实中国医学问答数据集。
+
+* [pubmedqa/pubmedqa](https://github.com/pubmedqa/pubmedqa) 生物医学研究问答数据集
+
+* [WENGSYX/CMCQA](https://github.com/WENGSYX/CMCQA) 中国医学领域庞大的对话问答数据集。收集自中国医学会话问答网站春雨，拥有男科、风暴科、妇产科等45个科室的医学对话资料。具体来说，CMCQA 有 130 万个完整的会话或 1983 万个语句或 6.5 亿个词元。同时，我们进一步开源所有数据，推动医疗领域会话问答相关领域的发展。
+
+* [wangrongsheng/HealthCareMagic-100k-en](https://huggingface.co/datasets/wangrongsheng/HealthCareMagic-100k-en) 从在线医疗咨询网站HealthCareMagic收集了约10万例真实的医生-患者对话。通过手动和自动方式过滤这些数据,删除医生和患者的身份信息,并使用语言工具纠正语法错误。
+
+* [wangrongsheng/icliniq-10k-en](https://huggingface.co/datasets/wangrongsheng/icliniq-10k-en) icliniq.com的1万例实际患者与医生之间对话
+
 * [X-PLUG/CValues](https://github.com/X-PLUG/CValues) 面向中文大模型价值观的评估与对齐研究。邀请中国知名专家学者，每位专家提出100个诱导偏见、歧视回答的刁钻问题，并对大模型的回答进行标注。项目吸引了环境科学、心理学、法理学等多个领域专家参与，并召开了专家研讨会，会后发布业内首个大语言模型治理开源中文数据集100PoisonMpts，包含专家提出的问题、专家自己撰写或认可的答案。
 
 * [DA-southampton/RedGPT](https://github.com/DA-southampton/RedGPT)  提出一种自动生成事实型对话的方法，并公开我们的部分数据。我们公开的第一批数据（RedGPT-Dataset-V1-CN）共包含5万条中文多轮对话。目标是自动生成海量、高质量、事实型多轮对话，用于训练GPT，提升GPT的事实正确性。我们采用如下方法自动生成数据。1. 采集优质的事实型文档，我们称之为reference，其来源可以是电子书、维基百科、优质垂类网站。文档需要涵盖尽量多的主题，包括但不限于人物、机构、科技、医疗、法律、人文、经济、家居、汽车、出行、美食、时尚、体育、教育、宠物。2. 利用已有的LLM（例如付费API）生成多轮对话。输入是一篇reference，prompt类似“请根据这篇文章生成多轮问答”。API会输出一段多轮对话（dialogue）。这种方法将原本只适合预训练的文档转化成可供微调的多轮对话。3. 第2步收集到大量的reference-dialogue二元组。将reference和prompt作为输入，dialogue作为目标，微调一个GPT模型（可以基于LLaMA或BLOOM的预训练基座）。我们将微调出的模型称作Reference-Enlightened-Dialogue GPT，缩写RedGPT。有了RedGPT，即可基于reference生成多轮对话，获得海量的数据。
@@ -1563,6 +1573,8 @@
 
 * [michael-wzhu/ChatMed](https://github.com/michael-wzhu/ChatMed) 中文医疗大模型，善于在线回答患者/用户的日常医疗相关问题
 
+* [X-jun-0130/LLM-Pretrain-FineTune](https://github.com/X-jun-0130/LLM-Pretrain-FineTune) 医疗大模型、预训练、微调
+
 * [michael-wzhu/ShenNong-TCM-LLM](https://github.com/michael-wzhu/ShenNong-TCM-LLM) “神农”大模型，首个中医药中文大模型. 
 
 * [michaelwzhu/ShenNong_TCM_Dataset](https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset) 中医药指令数据集
@@ -1680,8 +1692,6 @@
 * [hegelai/prompttools](https://github.com/hegelai/prompttools) 用于快速测试和实验的开源工具，支持LLM（例如OpenAI，LLaMA）和矢量数据库（例如Chroma，Weaviate，LanceDB）。
 
 * [uptrain-ai/uptrain](https://github.com/uptrain-ai/uptrain) 一个Python框架，通过允许用户检查正确性，结构完整性，偏见，幻觉等方面来确保您的LLM应用程序可靠地运行。
-
-
 
 ### 文本生成、文本对话
 
@@ -7102,6 +7112,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) 在量子力学思想的帮助下，从单个示例生成位图和瓦片图
 
 * [bazelbuild/bazel](https://github.com/bazelbuild/bazel) 快速、可扩展、多语言和可扩展的构建系统。构建和测试Java，C++，Android，iOS，Go和各种其他语言平台。
+
+* 
 
 # Star数变化
 
