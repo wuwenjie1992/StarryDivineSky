@@ -710,6 +710,8 @@
 
 * [swyxio/ai-notes](https://github.com/swyxio/ai-notes) 软件工程师了解新 AI 开发速度的说明。用latent.space 编写和产品头脑风暴的数据存储，但已清理 /Resources 文件夹下的规范引用。
 
+* [tensorflow/tfjs](https://github.com/tensorflow/tfjs) WebGL 加速的 JavaScript 库，用于训练和部署 ML 模型。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1025,6 +1027,8 @@
 
 * [QwenLM/Qwen-7B](https://github.com/QwenLM/Qwen-7B) 由阿里云提出的Qwen-7B（通义千问-7B）聊天和预训练大语言模型的官方存储库。使用高质量的预训练数据进行训练。我们已经在超过2.2万亿个代币的自建大规模高质量数据集上预训练了Qwen-7B。该数据集包括纯文本和代码，涵盖广泛的领域，包括一般领域数据和专业领域数据。更好地支持语言。我们的分词器基于超过 150K 个代币的大词汇表，与其他分词器相比更有效。它对多种语言都很友好，并且有助于用户进一步微调Qwen-7B以扩展对某种语言的理解。支持 8K 上下文长度。Qwen-7B和Qwen-7B-Chat都支持8K的上下文长度，这允许输入长上下文。支持插件。Qwen-7B-Chat 是用插件相关的对齐数据训练的，因此它能够使用工具，包括 API、模型、数据库等，并且能够作为代理进行游戏。
 
+* [baichuan-inc/Baichuan2](https://github.com/baichuan-inc/Baichuan2) 百川智能推出的新一代开源大语言模型，采用 2.6 万亿 Tokens 的高质量语料训练。在多个权威的中文、英文和多语言的通用、领域 benchmark 上取得同尺寸最佳的效果。本次发布包含有 7B、13B 的 Base 和 Chat 版本，并提供了 Chat 版本的 4bits 量化。所有版本对学术研究完全开放。同时，开发者通过邮件申请并获得官方商用许可后，即可免费商用。
+
 * [baichuan-inc/Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B) 由百川智能继 Baichuan-7B 之后开发的包含 130 亿参数的开源可商用的大规模语言模型，在权威的中文和英文 benchmark 上均取得同尺寸最好的效果。本次发布包含有预训练 (Baichuan-13B-Base) 和对齐 (Baichuan-13B-Chat) 两个版本。Baichuan-13B 有如下几个特点：更大尺寸、更多数据：Baichuan-13B 在 Baichuan-7B 的基础上进一步扩大参数量到 130 亿，并且在高质量的语料上训练了 1.4 万亿 tokens，超过 LLaMA-13B 40%，是当前开源 13B 尺寸下训练数据量最多的模型。支持中英双语，使用 ALiBi 位置编码，上下文窗口长度为 4096。同时开源预训练和对齐模型：预训练模型是适用开发者的『 基座 』，而广大普通用户对有对话功能的对齐模型具有更强的需求。因此本次开源我们同时发布了对齐模型（Baichuan-13B-Chat），具有很强的对话能力，开箱即用，几行代码即可简单的部署。更高效的推理：为了支持更广大用户的使用，我们本次同时开源了 int8 和 int4 的量化版本，相对非量化版本在几乎没有效果损失的情况下大大降低了部署的机器资源门槛，可以部署在如 Nvidia 3090 这样的消费级显卡上。开源免费可商用：Baichuan-13B 不仅对学术研究完全开放，开发者也仅需邮件申请并获得官方商用许可后，即可以免费商用。
 
 * [imoneoi/openchat](https://github.com/imoneoi/openchat) 使用不完善的数据推进开源语言模型。OpenChat是一系列基于监督微调（SFT）的开源语言模型。我们利用 ~80k ShareGPT 对话与条件反射策略和加权损失，尽管我们的方法很简单，但仍实现了卓越的表现。我们的最终愿景是开发一个高性能、开源和商用的大型语言模型，并且我们正在不断取得进展。
@@ -1089,6 +1093,8 @@
   - [英文-微调指令集-合集 - 67W 条 - 下载 [hugging face]](https://huggingface.co/datasets/TigerResearch/sft_en)
 
 * [masa3141/japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora) 日文指令来微调LLaMA模型
+
+* [luban-agi/Awesome-Domain-LLM](https://github.com/luban-agi/Awesome-Domain-LLM) 本项目旨在收集和梳理垂直领域的开源模型、数据集及评测基准。
 
 * [22-hours/cabrita](https://github.com/22-hours/cabrita) 葡萄牙语微调指令LLaMA
 
@@ -1557,6 +1563,10 @@
 
 * [SCIR-HI/Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) 本草（原名：华驼）模型仓库，基于中文医学知识的大语言模型指令微调
 
+* [FreedomIntelligence/HuatuoGPT-sft-data-v1](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT-sft-data-v1) 华驼大语言模型的微调数据集
+
+* [shibing624/medical](https://huggingface.co/datasets/shibing624/medical) 医疗数据集，可用于医疗领域大模型训练。共36万条，来自医疗百科数据。共8475条，来自医疗教材的文本数据。共195万条，来自1）中文医疗对话数据集 2）在线医疗百科 3）医疗知识图谱
+
 * [michael-wzhu/PromptCBLUE](https://github.com/michael-wzhu/PromptCBLUE) 面向医学领域多任务少样本学习的中文大规模指令调优数据集
 
 * [UCSD-AI4H/Medical-Dialogue-System](https://github.com/UCSD-AI4H/Medical-Dialogue-System) 包含医生和患者之间的对话（中文）。它有 110 万次对话和 400 万条话语。数据在不断增长，并将添加更多对话。原始对话来自 haodf.com。数据的所有版权均属于 haodf.com。
@@ -1566,6 +1576,16 @@
 * [中文医疗信息处理评测基准CBLUE_数据集-阿里云天池](https://tianchi.aliyun.com/dataset/95414) 中国中文信息学会医疗健康与生物信息处理专业委员会在合法开放共享的理念下发起，由阿里云天池平台承办，并由医渡云、腾讯天衍、平安医疗、阿里夸克、北京、郑州、鹏城实验室、哈工大(深圳）、同济、中山、复旦、华东师范等开展智慧医疗研究的单位共同协办，旨在推动中文医学NLP技术和社区的发展。
 
 * [shibing624/MedicalGPT](https://github.com/shibing624/MedicalGPT) 训练医疗大模型，实现包括二次预训练、有监督微调、奖励建模、强化学习训练。
+
+* [SupritYoung/Zhongjing](https://github.com/SupritYoung/Zhongjing)  基于LLaMa的中国医学ChatGPT，基于大规模训练前语料库和多回合对话数据集的训练。
+
+* [datasets/medical_dialog](https://huggingface.co/datasets/medical_dialog) MedDialog数据集（中文）包含医生和患者之间的对话（中文）。它有 110 万次对话和 400 万条话语。数据在不断增长，并将添加更多对话。原始对话来自 haodf.com。MedDialog数据集（英语）包含医生和患者之间的对话（英语）。它有26万次对话。数据在不断增长，并将添加更多对话。原始对话来自 healthcaremagic.com 和 icliniq.com。
+
+* [FreedomIntelligence/huatuo_encyclopedia_qa](https://huggingface.co/datasets/FreedomIntelligence/huatuo_encyclopedia_qa) 该数据集共有 364,420 条医学 QA 数据，其中一些以不同的方式存在多个问题。我们从纯文本（例如，医学百科全书和医学文章）中提取医学QA对。我们在中文维基百科上收集了8,699个疾病百科词条和2,736个药物百科词条。此外，我们还从前文健康网站上抓取了226,432篇高质量的医学文章。
+
+* [BillGPT/Chinese-medical-dialogue-data](https://huggingface.co/datasets/BillGPT/Chinese-medical-dialogue-data) 中文医疗对话数据
+
+* [FreedomIntelligence/CMB](https://github.com/FreedomIntelligence/CMB)  全方位多层次测评模型医疗知识;测评复杂临床问诊能力；中药科考试；临床项目
 
 * [WangRongsheng/XrayGLM](https://github.com/WangRongsheng/XrayGLM) 首个会看胸部X光片的中文多模态医学大模型
 
@@ -1591,6 +1611,10 @@
 
 * [scutcyr/SoulChat](https://github.com/scutcyr/SoulChat) 中文领域心理健康对话大模型
 
+* [kbressem/medAlpaca](https://github.com/kbressem/medAlpaca) 用于医学问答的微调大型语言模型，包括相关数据。
+
+* [llSourcell/DoctorGPT](https://github.com/llSourcell/DoctorGPT) 一种通过了美国医疗执照考试的大型语言模型。使命是为每个人提供自己的私人医生。基于 Meta 的 Llama2 70 亿参数语言模型，该模型在医学对话数据集上进行微调，然后使用强化学习和进一步改进。由于该模型的大小仅为 3 GB，因此它适用于任何本地设备，因此无需 API 即可使用它。免费的，供离线使用，可以保护患者的机密性，并且可以在iOS，Android和Web上使用。
+
 * [lyogavin/Anima](https://github.com/lyogavin/Anima) 第一个开源的基于QLoRA的33B中文大语言模型。基于QLoRA开源的33B guanaco训练了10000 steps。训练使用一个H100 GPU。
 
 * [PKU-YuanGroup/ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) 中文法律大模型。目前开源的仅供学术参考的版本底座为姜子牙-13B、Anima-33B，我们使用大量法律新闻、法律论坛、法条、司法解释、法律咨询、法考题、判决文书等原始文本来构造对话数据。
@@ -1605,11 +1629,19 @@
 
 * [davidpig/lychee_law](https://github.com/davidpig/lychee_law) 律知, 法律咨询大模型，Law-GLM-10B: 基于 GLM-10B 模型, 在 30GB 中文法律数据上进行指令微调.
 
+* [zhihaiLLM/wisdomInterrogatory](https://github.com/zhihaiLLM/wisdomInterrogatory) 由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型。核心思想：以“普法共享和司法效能提升”为目标，从推动法律智能化体系入司法实践、数字化案例建设、虚拟法律咨询服务赋能等方面提供支持，形成数字化和智能化的司法基座能力。
+
 * [HIT-SCIR-SC/QiaoBan](https://github.com/HIT-SCIR-SC/QiaoBan) 中文儿童情感陪伴大模型“巧板”。基于通用大模型，使用了通用域人机对话数据、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，训练得到，是通用大语言模型迁移至儿童情感陪伴领域的一次成功实践。三大特点：首先，基于情绪辅导理论构建的儿童情感陪伴对话数据，能够更有效地守护孩子的心理健康。其次，具有儿童心理学背景的志愿者与专家参与完成高质量对话数据的收集。使得能够更加准确地理解和回应儿童的需求，真正与他们建立深入的情感连接。最后，模型与儿童的交互方式更加贴心，让他们能够感受到温暖和认同，成为他们坚实成长道路上的得力伙伴。
 
 * [qiuhuachuan/smile](https://github.com/qiuhuachuan/smile) 开源的中文心理健康支持通用模型由 ChatGLM-6B LoRA 16-bit 指令微调得到。数据集通过扩展真实的心理互助 QA为多轮的心理健康支持多轮对话，提高了通用语言大模型在心理健康支持领域的表现，更加符合在长程多轮对话的应用场景。
 
 * [camel-ai/camel](https://github.com/camel-ai/camel) 骆驼：大规模语言模型社会“心灵”探索的交际代理。一种名为角色扮演的新型交流代理框架。我们的方法涉及使用开始提示来指导聊天代理完成任务，同时保持与人类意图的一致性。我们展示了如何使用角色扮演来生成对话数据，以研究聊天代理的行为和功能，为研究对话语言模型提供宝贵的资源。我们的贡献包括引入一种新的通信代理框架，为研究多智能体系统的协作行为和能力提供可扩展的方法，以及开源我们的库以支持通信代理及其他方面的研究。演示，展示了两个 ChatGPT 代理之间的对话，扮演 python 程序员和股票交易员的角色，合作开发股票市场的交易机器人。
+
+* [pariskang/CMLM-ZhongJing](https://github.com/pariskang/CMLM-ZhongJing) 首个中医大语言模型——"仲景"。受古代中医学巨匠张仲景深邃智慧启迪，专为传统中医领域打造的预训练大语言模型。有史以来第一个中医大语种模型——“CMLM-中京”。受中国古代医学大师张仲景深邃智慧的启发，是专为中医领域设计的预训练大语言模型。
+
+* [chaoyi-wu/PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA) “PMC-LLaMA：迈向构建医学开源语言模型”的官方代码。
+
+* [FreedomIntelligence/huatuo_knowledge_graph_qa](https://huggingface.co/datasets/FreedomIntelligence/huatuo_knowledge_graph_qa) 华佗医疗知识图谱问答数据集
 
 * [gmftbyGMFTBY/science-llm](https://github.com/gmftbyGMFTBY/science-llm) 科学领域的大规模语言模型，在redpajama arXiv上训练
 
@@ -1640,6 +1672,8 @@
 * [bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) 在家运行LLM，BitTorrent风格。微调和推理速度比卸载快10 倍。Petals协作运行像Llama和BLOOM这样的大型语言模型 - 你加载模型的一小部分，然后加入为其他部分提供服务的人来运行推理或微调。
 
 * [THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2) 更强大的多语言代码生成模型。基于 ChatGLM2 架构加入代码预训练实现，得益于 ChatGLM2 的更优性能，CodeGeeX2 在多项指标上取得性能提升（+107% > CodeGeeX；仅60亿参数即超过150亿参数的 StarCoder-15B 近10%）
+
+* [Anthropic/hh-rlhf](https://huggingface.co/datasets/Anthropic/hh-rlhf) Human preference data about helpfulness and harmlessness，有用性和无害性的人类偏好数据，关于有用和无害的人类偏好数据，来自从人类反馈中强化学习训练有用和无害的助手。这些数据旨在为后续的RLHF训练训练偏好（或奖励）模型。这些数据不适用于对话代理的监督训练。就这些数据对对话代理进行培训可能会导致有害的模型，应避免这种情况。来自红队语言模型的人工生成和注释的红队对话，以减少危害：方法、缩放行为和经验教训。这些数据旨在了解众包工人红队模型以及哪些类型的红队攻击成功与否。这些数据不用于微调或偏好建模（使用上面的数据进行偏好建模）。这些数据是从上述无害偏好建模数据派生的对话的完整记录，其中只有选择的响应被合并到整个脚本中。此外，成绩单还带有人工和自动测量的注释，以衡量整体对话的危害程度。
 
 * [RUC-GSAI/YuLan-Chat](https://github.com/RUC-GSAI/YuLan-Chat) 基于聊天的大型语言模型，由中国人民大学GSAI的研究人员开发（YuLan，代表玉兰，是中国人民大学的校园花）。最新版本是通过不断预训练和指令调整LLaMA-2开发的，具有高质量的中英文数据。
 
@@ -2961,6 +2995,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion) 具有潜在扩散模型的高分辨率图像合成
 
+[TheRamU/Fay](https://github.com/TheRamU/Fay) Fay是一个完整的开源项目，包含Fay控制器及数字人模型，可灵活组合出不同的应用场景：虚拟主播、现场推销货、商品导购、语音助理、远程语音助理、数字人互动、数字人面试官及心理测评、贾维斯、Her。
+
 [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini)  DALL·E Mini - 从文本提示生成图像
 
 [ashawkey/stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion) 文本到3D和图像到3D和网格导出与NeRF +扩散。
@@ -3743,6 +3779,10 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 [alibaba-damo-academy/KAN-TTS](https://github.com/alibaba-damo-academy/KAN-TTS) 来自阿里达摩院的TTS框架，使用 KAN-TTS，您可以训练自己的 TTS 模型
 
 [suno-ai/bark](https://github.com/suno-ai/bark) 由Suno创建的基于变压器的文本到音频模型。Bark可以生成高度逼真的多语言语音以及其他音频 - 包括音乐，背景噪音和简单的音效。该模型还可以产生非语言交流，如笑、叹息和哭泣。为了支持研究社区，我们正在提供对预训练模型检查点的访问，这些检查点已准备好进行推理并可用于商业用途。完全生成的文本到音频模型，用于研究和演示目的。它遵循类似于AudioLM和Vall-E的GPT风格架构以及EnCodec的量化音频表示。它不是传统的 TTS 模型，而是一个完全生成的文本到音频模型，能够以意想不到的方式偏离任何给定的脚本。与以前的方法不同，输入文本提示直接转换为音频，而无需中间使用音素。因此，它可以推广到语音以外的任意指令，例如音乐歌词、音效或其他非语音声音。
+
+[Plachtaa/VALL-E-X](https://github.com/Plachtaa/VALL-E-X) Microsoft的VALL-E X零样本TTS模型的开源实现。`多语言TTS`：用英语，中文和日语进行自然而富有表现力的语音合成。`零样本语音克隆`：注册一个看不见的演讲者的短短 3~10 秒录音， VALL-E X 即可创建听起来像他们的个性化、高质量的语音！`言语情绪控制`：可以合成具有与提供的声学提示相同的情感的语音，为您的音频添加额外的表现力。`零样本跨语言TTS`：让单语使用者踏上语言之旅！VALL-E X可以用另一种语言生成个性化的语音，而不会影响流利度或口音。`口音控制`：利用口音发挥创意！允许您尝试不同的口音，例如说带有英语口音的中文，反之亦然。`声学环境维护`：无需完全干净的音频提示！可适应输入的声学环境，使语音生成感觉自然而身临其境。
+
+[facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) 一个用于通过深度学习进行音频处理和生成的库。它具有最先进的 EnCodec 音频压缩器/分词器，以及 MusicGen，这是一种简单且可控的音乐生成 LM，具有文本和旋律调节功能。
 
 [NATSpeech/NATSpeech](https://github.com/NATSpeech/NATSpeech) 非自回归文本转语音 （NAR-TTS） 框架，包括 PortaSpeech （NeurIPS 2021） 和 DiffSpeech （AAAI 2022） 的官方 PyTorch 实现。PortaSpeech：便携式和高质量的生成文本到语音转换（NeurIPS 2021）。DiffSinger：通过浅扩散机制合成歌唱声音（DiffSpeech）（AAAI 2022）。
 
@@ -6082,6 +6122,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [withastro/astro](https://github.com/withastro/astro) 现代web网站构建工具 — 强大的开发人员经验，轻量级输出。
 
+* [GitHub - Tencent/mars: Mars is a cross-platform network component developed by WeChat.](https://github.com/Tencent/mars) 微信开发的跨平台网络组件。跨平台，如果您正在开发多平台或多业务应用程序，则易于部署。适用于小容量数据传输。移动平台友好，低功耗和流量消耗。适合移动应用的网络解决方案。
+
 * [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) 集数据库、用户管理、UI和API等工具的后端开发框架。
 
 * [oatpp/oatpp](https://github.com/oatpp/oatpp) 轻巧而强大的 C++ Web 框架，用于高度可扩展和资源高效的 Web 应用程序。它是零依赖且易于携带的。
@@ -7112,8 +7154,6 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) 在量子力学思想的帮助下，从单个示例生成位图和瓦片图
 
 * [bazelbuild/bazel](https://github.com/bazelbuild/bazel) 快速、可扩展、多语言和可扩展的构建系统。构建和测试Java，C++，Android，iOS，Go和各种其他语言平台。
-
-* 
 
 # Star数变化
 
