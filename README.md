@@ -1094,6 +1094,8 @@
 
 * [masa3141/japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora) 日文指令来微调LLaMA模型
 
+* [nlpxucan/WizardLM](https://github.com/nlpxucan/WizardLM) 由Evol-Instruct提供支持的遵循指令的LLM系列：WizardLM，WizardCoder和WizardMath。基于GPT-4的自动评估框架来评估聊天机器人模型的性能。WizardLM-30B取得了比Guanaco-65B更好的结果。
+
 * [luban-agi/Awesome-Domain-LLM](https://github.com/luban-agi/Awesome-Domain-LLM) 本项目旨在收集和梳理垂直领域的开源模型、数据集及评测基准。
 
 * [22-hours/cabrita](https://github.com/22-hours/cabrita) 葡萄牙语微调指令LLaMA
@@ -1227,6 +1229,8 @@
 * [gragland/chatgpt-chrome-extension](https://github.com/gragland/chatgpt-chrome-extension) ChatGPT Chrome 扩展。将 ChatGPT 集成到互联网上的每个文本框中。
 
 * [vincelwt/chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) Mac 版 ChatGPT，就在您的菜单栏中。
+
+* [huggingface/chat-ui](https://github.com/huggingface/chat-ui) 开源模型的聊天界面，例如OpenAssistant或Llama。SvelteKit应用程序，它为 hf.co/chat 上的HuggingChat应用程序提供支持。
 
 * [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) 为ChatGPT ChatGLM LLaMA StableLM MOSS等多种LLM提供了一个轻快好用的Web图形界面
 
@@ -1726,6 +1730,22 @@
 * [hegelai/prompttools](https://github.com/hegelai/prompttools) 用于快速测试和实验的开源工具，支持LLM（例如OpenAI，LLaMA）和矢量数据库（例如Chroma，Weaviate，LanceDB）。
 
 * [uptrain-ai/uptrain](https://github.com/uptrain-ai/uptrain) 一个Python框架，通过允许用户检查正确性，结构完整性，偏见，幻觉等方面来确保您的LLM应用程序可靠地运行。
+
+* [ypwhs/CreativeChatGLM](https://github.com/ypwhs/CreativeChatGLM) 欢迎来到 ChatGLM 创意世界！你可以使用修订和续写的功能来生成创意内容！
+
+* [KevinWang676/ChatGLM2-Voice-Cloning](https://github.com/KevinWang676/ChatGLM2-Voice-Cloning)  和喜欢的角色沉浸式对话吧：ChatGLM2+声音克隆+视频对话
+
+* [melih-unsal/DemoGPT](https://github.com/melih-unsal/DemoGPT) 只需使用句子即可创建 LangChain 应用程序。具有基础模型功能的自动 Gen-AI 应用程序生成器。
+
+* [joshpxyne/gpt-migrate](https://github.com/joshpxyne/gpt-migrate) 轻松地将代码库从一种框架或语言迁移到另一种框架或语言。由于 GPT-Migrate 旨在编写（并可能重写）整个代码库，因此成本可能会迅速增加。
+
+* [soulteary/docker-llama2-chat](https://github.com/soulteary/docker-llama2-chat) 一起玩LLaMA2 （官方 / 中文版 / INT4 / 骆驼2.cpp） 一起玩！只需3个步骤！（ 非 GPU / 5GB vRAM / 8~14GB vRAM）
+
+* [X-PLUG/mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl) 模块化赋能多模态大型语言模型，一种针对大型多模态语言模型的模块化设计的新训练范式。学习视觉知识，同时支持由不同形式（图像/视频/文本）组成的多回合对话。观察能力，如多图像关联和场景文本理解，基于视觉的文档理解。发布与视觉相关的指令评估集 OwlEval。
+
+* [homanp/superagent](https://github.com/homanp/superagent) 超级代理 - 构建、部署和管理 LLM 支持的代理。一个强大的工具，可简化 LLM（大型语言模型）代理到生产的配置和部署。它提供了一系列特性和功能，使开发人员能够更轻松地构建、管理和将 AI 代理部署到生产环境，包括通过矢量数据库、强大的工具、Webhook、cron 作业等构建内存和文档检索等功能。
+
+* [eth-sri/lmql](https://github.com/eth-sri/lmql) 一种用于类型化、约束引导和高效 LLM 编程的语言。一种基于Python超集的大型语言模型（LLM）的编程语言。LMQL 提供了一种将传统编程与在代码中调用 LLM 的能力交织在一起的新方法。它超越了传统的模板语言，在程序代码级别原生集成LLM交互。
 
 ### 文本生成、文本对话
 
@@ -3781,6 +3801,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 [suno-ai/bark](https://github.com/suno-ai/bark) 由Suno创建的基于变压器的文本到音频模型。Bark可以生成高度逼真的多语言语音以及其他音频 - 包括音乐，背景噪音和简单的音效。该模型还可以产生非语言交流，如笑、叹息和哭泣。为了支持研究社区，我们正在提供对预训练模型检查点的访问，这些检查点已准备好进行推理并可用于商业用途。完全生成的文本到音频模型，用于研究和演示目的。它遵循类似于AudioLM和Vall-E的GPT风格架构以及EnCodec的量化音频表示。它不是传统的 TTS 模型，而是一个完全生成的文本到音频模型，能够以意想不到的方式偏离任何给定的脚本。与以前的方法不同，输入文本提示直接转换为音频，而无需中间使用音素。因此，它可以推广到语音以外的任意指令，例如音乐歌词、音效或其他非语音声音。
 
 [Plachtaa/VALL-E-X](https://github.com/Plachtaa/VALL-E-X) Microsoft的VALL-E X零样本TTS模型的开源实现。`多语言TTS`：用英语，中文和日语进行自然而富有表现力的语音合成。`零样本语音克隆`：注册一个看不见的演讲者的短短 3~10 秒录音， VALL-E X 即可创建听起来像他们的个性化、高质量的语音！`言语情绪控制`：可以合成具有与提供的声学提示相同的情感的语音，为您的音频添加额外的表现力。`零样本跨语言TTS`：让单语使用者踏上语言之旅！VALL-E X可以用另一种语言生成个性化的语音，而不会影响流利度或口音。`口音控制`：利用口音发挥创意！允许您尝试不同的口音，例如说带有英语口音的中文，反之亦然。`声学环境维护`：无需完全干净的音频提示！可适应输入的声学环境，使语音生成感觉自然而身临其境。
+
+[OlaWod/FreeVC](https://github.com/OlaWod/FreeVC) 迈向高质量的无文本一次性语音转换。采用VITS端到端框架进行高质量波形重建，并提出了无文本标注的干净内容信息提取策略。通过对WavLM特征施加信息瓶颈来解开内容信息，并提出基于频谱图调整大小的数据增强，以提高提取内容信息的纯度。
 
 [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) 一个用于通过深度学习进行音频处理和生成的库。它具有最先进的 EnCodec 音频压缩器/分词器，以及 MusicGen，这是一种简单且可控的音乐生成 LM，具有文本和旋律调节功能。
 
