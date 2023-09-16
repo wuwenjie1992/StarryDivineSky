@@ -111,6 +111,8 @@
 
 * [eriklindernoren/ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch) 从头开始机器学习。机器学习模型和算法的裸骨 NumPy 实现，重点关注可访问性。旨在涵盖从线性回归到深度学习的所有内容。
 
+* [roboticcam/machine-learning-notes](https://github.com/roboticcam/machine-learning-notes) 不间断更新的机器学习，概率模型和深度学习的讲义(2000+页)和视频链接
+
 * [donnemartin/data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) 数据科学Python笔记本：深度学习（TensorFlow，Theano，Caffe，Keras），scikit-learn，Kaggle，大数据（Spark，Hadoop MapReduce，HDFS），matplotlib，pandas，NumPy，SciPy，Python essentials，AWS和各种命令行。
 
 * [NLP-LOVE/ML-NLP](https://github.com/NLP-LOVE/ML-NLP) 机器学习(Machine Learning)、深度学习(Deep Learning)、NLP面试中常考到的知识点和代码实现，也是作为一个算法工程师必会的理论基础知识。
@@ -1019,6 +1021,8 @@
 
 * [facebookresearch/llama](https://github.com/facebookresearch/llama) facebook LLaMA 模型的推理代码。最新版本的 Llama 现在可供各种规模的个人、创作者、研究人员和企业访问，以便他们可以负责任地进行实验、创新和扩展他们的想法。
 
+* [facebookresearch/llama-recipes](https://github.com/facebookresearch/llama-recipes) facebook LLaMA 模型的示例和手册
+
 * [THUDM/ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B) 开源中英双语对话模型 ChatGLM-6B 的第二代版本，在保留了初代模型对话流畅、部署门槛较低等众多优秀特性的基础之上，引入了如下新特性：`更强大的性能`：全面升级了基座模型。ChatGLM2-6B 使用了 GLM 的混合目标函数，经过了 1.4T 中英标识符的预训练与人类偏好对齐训练，评测结果显示，相比于初代模型，MMLU（+23%）、CEval（+33%）、GSM8K（+571%） 、BBH（+60%）等数据集上的性能取得了大幅度的提升，在同尺寸开源模型中具有较强的竞争力。`更长的上下文`：基于 FlashAttention 技术，我们将基座模型的上下文长度（Context Length）由 ChatGLM-6B 的 2K 扩展到了 32K，并在对话阶段使用 8K 的上下文长度训练。对于更长的上下文，我们发布了 ChatGLM2-6B-32K 模型。LongBench 的测评结果表明，在等量级的开源模型中，32K 有着较为明显的竞争优势。`更高效的推理`：基于 Multi-Query Attention 技术，有更高效的推理速度和更低的显存占用：在官方的模型实现下，推理速度相比初代提升了 42%，INT4 量化下，6G 显存支持的对话长度由 1K 提升到了 8K。`更开放的协议`：权重对学术研究完全开放，在填写问卷进行登记后亦允许免费商业使用。
 
 * [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
@@ -1049,13 +1053,17 @@
 
 * [OpenLMLab/MOSS](https://github.com/OpenLMLab/MOSS) 支持中英双语和多种插件的开源对话语言模型，moss-moon系列模型具有160亿参数。开源数据: moss-002-sft-data: 多轮对话数据，覆盖有用性、忠实性、无害性三个层面，包含由text-davinci-003生成的约57万条英文对话和59万条中文对话。moss-003-sft-data: 多轮对话数据，基于MOSS-002内测阶段采集的约10万用户输入数据和gpt-3.5-turbo构造而成，更加符合真实用户意图分布，包含更细粒度的有用性类别标记、更广泛的无害性数据和更长对话轮数，约含110万条对话数据。moss-003-sft-plugin-data: 插件增强的多轮对话数据，包含支持搜索引擎、文生图、计算器、解方程等四个插件在内的约30万条多轮对话数据。moss-003-pm-data: 偏好数据，包含在约18万额外对话上下文数据及使用moss-moon-003-sft所产生的回复数据上构造得到的偏好对比数据。
 
-* [baichuan-inc/baichuan-7B](https://github.com/baichuan-inc/baichuan-7B) 百川公司开发的大规模7B预训练语言模型。一个开源可商用的大规模预训练语言模型。基于 Transformer 结构，在大约 1.2 万亿 tokens 上训练的 70 亿参数模型，支持中英双语，上下文窗口长度为 4096。在标准的中文和英文 benchmark（C-Eval/MMLU）上均取得同尺寸最好的效果。
+* [baichuan-inc/baichuan-7B](https://github.com/baichuan-inc/baichuan-7B) 百川开发的大规模7B预训练语言模型。一个开源可商用的大规模预训练语言模型。基于 Transformer 结构，在大约 1.2 万亿词元上训练的 70 亿参数模型，支持中英双语，上下文窗口长度为 4096。在标准的中文和英文 benchmark（C-Eval/MMLU）上均取得同尺寸最好的效果。
+
+* [InternLM/InternLM-techreport](https://github.com/InternLM/InternLM-techreport) 书生·浦语由上海人工智能实验室和商汤科技（同等贡献）与香港中大、复旦和上海交大联合开发的多语言大语言模型。具有104B参数的多语言基础语言模型。在具有 1.6T 代币的大型语料库上进行预训练，并具有多阶段渐进过程，然后进行微调以符合人类偏好。我们还开发了一个名为Uniscale-LLM的训练系统，用于高效的大型语言模型训练。对多项基准的评估表明，InternLM在知识理解、阅读理解、数学和编码等多个方面都取得了最先进的表现。凭借如此全面的能力，InternLM在综合考试中取得了出色的表现，包括MMLU，AGIEval，C-Eval和高考-Bench，而无需借助外部工具。在这些基准测试中，InternLM 不仅明显优于开源模型，而且与 ChatGPT 相比，还获得了卓越的性能。此外，InternLM在理解中文和中国文化方面表现出出色的能力，这使其成为支持面向中文的语言应用的合适基础模型。这份手稿详细研究了我们的结果，并提供了跨各种知识领域和任务的基准和示例。
 
 * [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
 
 * [lm-sys/FastChat](https://github.com/lm-sys/FastChat) 令人印象深刻的 GPT-4 开放式聊天机器人 Vicuna：一个以 90% ChatGPT 质量的开源聊天机器人。
 
 * [project-baize/baize-chatbot](https://github.com/project-baize/baize-chatbot) 使用 LoRA 训练的开源聊天模型.它使用通过让 ChatGPT 与自己聊天生成的 100k 对话。还使用羊驼的数据来提高其性能。已发布了 7B、13B 和 30B 模型。
+
+* [https://github.com/wenge-research/YaYi](https://github.com/wenge-research/YaYi) 为客户打造安全可靠的专属大模型，基于大规模中英文多领域指令数据训练的 LlaMA 2 & BLOOM 系列模型，由中科闻歌算法团队研发。在百万级人工构造的高质量领域数据上进行指令微调得到，训练数据覆盖媒体宣传、舆情分析、公共安全、金融风控、城市治理等五大领域，上百种自然语言指令任务。
 
 * [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) 以数据为中心的 FinGPT。开源开放金融！革新
 
@@ -1112,7 +1120,7 @@
 
 * [MediaBrain-SJTU/MedicalGPT-zh](https://github.com/MediaBrain-SJTU/MedicalGPT-zh) 基于ChatGLM的在高质量指令数据集微调的中文医疗对话语言模型
 
-* [mlfoundations/open_flamingo](https://github.com/mlfoundations/open_flamingo) 用于训练大型多模态模型的开源框架。DeepMind Flamingo 模型的开源版本。提供了用于训练和评估模型的 PyTorch 实现。还提供了在新的多模式 C4 数据集上训练的初始 OpenFlamingo 9B 模型。
+* [mlfoundations/open_flamingo](https://github.com/mlfoundations/open_flamingo) 用于训练大型多模态模型的开源框架。DeepMind Flamingo模型的开源版本。提供了用于训练和评估模型的PyTorch 实现。还提供了在新的多模式 C4 数据集上训练的初始 9B 模型。
 
 * [dandelionsllm/pandallm](https://github.com/dandelionsllm/pandallm) 海外中文开源大语言模型，基于 Llama-7B, -13B, -33B, -65B 进行中文领域上的持续预训练。
 
@@ -1141,6 +1149,8 @@
 * [wangzhaode/ChatGLM-MNN](https://github.com/wangzhaode/ChatGLM-MNN) 纯C++，易于部署的ChatGLM-6B。
 
 * [vllm-project/vllm](https://github.com/vllm-project/vllm) 适用于 LLM 的高吞吐量和内存效率推理和服务引擎。在吞吐量方面，vLLM 的性能比拥抱面转换器 （HF） 高出 24 倍，文本生成推理 （TGI） 高出 3.5 倍。使用**PagedAttention**分页注意力高效管理注意力键和值存储器。
+
+* [yizhongw/self-instruct](https://github.com/yizhongw/self-instruct) 一种将预训练语言模型与指令对齐的方法。可帮助语言模型提高其遵循自然语言指令的能力。它通过使用模型自己来创建大量教学数据来实现此目的。通过自导，可以提高语言模型的指令遵循功能，而无需依赖大量的手动注释。
 
 * [adams549659584/go-proxy-bingai](https://github.com/adams549659584/go-proxy-bingai)用 Vue3 和 Go 搭建的微软 New Bing 演示站点，拥有一致的 UI 体验，支持 ChatGPT 提示词，国内可用。
 
@@ -1531,7 +1541,7 @@
 
 * [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) 收藏AI相关的实用工具，大型语言模型
 
-* [mckaywrigley/ai-code-translator](https://github.com/mckaywrigley/ai-code-translator) 使用 AI 将代码从一种语言翻译成另一种语言。
+* [mckaywrigley/ai-code-translator](https://github.com/mckaywrigley/ai-code-translator) 使用 AI 将代码从一种语言翻译成另一种。
 
 * [datawhalechina/prompt-engineering-for-developers](https://github.com/datawhalechina/prompt-engineering-for-developers) 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版
 
@@ -1560,6 +1570,8 @@
 * [CLUEbenchmark/SuperCLUElyb](https://github.com/CLUEbenchmark/SuperCLUElyb) SuperCLUE琅琊榜：中文通用大模型匿名对战评价基准
 
 * [Felixgithub2017/MMCU](https://github.com/Felixgithub2017/MMCU) 本评测只是对大模型语义理解能力的测试，并不能代表模型的全面能力评测，评测结果仅供参考。整个评测方式、评测数据集、评测记录都公开，确保可以复现。
+
+* [Felixgithub2017/CG-Eval](https://github.com/Felixgithub2017/CG-Eval) 此项测试中，受测的中文大语言模型需要对科技与工程、人文与社会科学、数学计算、医师资格考试、司法考试、注册会计师考试这六个大科目类别下的55个子科目的1.1W不同类型问题做出准确且相关的回答。 我们设计了一套复合的打分系统，对于非计算题，每一道名词解释题和简答题都有标准参考答案，采用多个标准打分然后加权求和。对于计算题目，我们会提取最终计算结果和解题过程，然后综合打分。
 
 * [jeinlee1991/chinese-llm-benchmark](https://github.com/jeinlee1991/chinese-llm-benchmark) 中文大模型能力评测榜单：覆盖文心一言、chatgpt、通义千问、讯飞星火、belle / chatglm 等开源大模型，多维度能力评测。不仅提供能力评分排行榜，也提供所有模型的原始输出结果！
 
@@ -1619,6 +1631,8 @@
 
 * [llSourcell/DoctorGPT](https://github.com/llSourcell/DoctorGPT) 一种通过了美国医疗执照考试的大型语言模型。使命是为每个人提供自己的私人医生。基于 Meta 的 Llama2 70 亿参数语言模型，该模型在医学对话数据集上进行微调，然后使用强化学习和进一步改进。由于该模型的大小仅为 3 GB，因此它适用于任何本地设备，因此无需 API 即可使用它。免费的，供离线使用，可以保护患者的机密性，并且可以在iOS，Android和Web上使用。
 
+* [itsharex/CareLlama](https://github.com/itsharex/CareLlama) 一个医疗大语言模型，同时它集合了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型以促进医疗LLM快速发展。
+
 * [lyogavin/Anima](https://github.com/lyogavin/Anima) 第一个开源的基于QLoRA的33B中文大语言模型。基于QLoRA开源的33B guanaco训练了10000 steps。训练使用一个H100 GPU。
 
 * [PKU-YuanGroup/ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) 中文法律大模型。目前开源的仅供学术参考的版本底座为姜子牙-13B、Anima-33B，我们使用大量法律新闻、法律论坛、法条、司法解释、法律咨询、法考题、判决文书等原始文本来构造对话数据。
@@ -1633,6 +1647,10 @@
 
 * [davidpig/lychee_law](https://github.com/davidpig/lychee_law) 律知, 法律咨询大模型，Law-GLM-10B: 基于 GLM-10B 模型, 在 30GB 中文法律数据上进行指令微调.
 
+* [coastalcph/lex-glue](https://github.com/coastalcph/lex-glue) 英语法律语言理解的基准数据集
+
+* [JoelNiklaus/LEXTREME](https://github.com/JoelNiklaus/LEXTREME) 涵盖24种语言的11个数据集的法律基准测试。
+
 * [zhihaiLLM/wisdomInterrogatory](https://github.com/zhihaiLLM/wisdomInterrogatory) 由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型。核心思想：以“普法共享和司法效能提升”为目标，从推动法律智能化体系入司法实践、数字化案例建设、虚拟法律咨询服务赋能等方面提供支持，形成数字化和智能化的司法基座能力。
 
 * [HIT-SCIR-SC/QiaoBan](https://github.com/HIT-SCIR-SC/QiaoBan) 中文儿童情感陪伴大模型“巧板”。基于通用大模型，使用了通用域人机对话数据、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，训练得到，是通用大语言模型迁移至儿童情感陪伴领域的一次成功实践。三大特点：首先，基于情绪辅导理论构建的儿童情感陪伴对话数据，能够更有效地守护孩子的心理健康。其次，具有儿童心理学背景的志愿者与专家参与完成高质量对话数据的收集。使得能够更加准确地理解和回应儿童的需求，真正与他们建立深入的情感连接。最后，模型与儿童的交互方式更加贴心，让他们能够感受到温暖和认同，成为他们坚实成长道路上的得力伙伴。
@@ -1643,7 +1661,9 @@
 
 * [pariskang/CMLM-ZhongJing](https://github.com/pariskang/CMLM-ZhongJing) 首个中医大语言模型——"仲景"。受古代中医学巨匠张仲景深邃智慧启迪，专为传统中医领域打造的预训练大语言模型。有史以来第一个中医大语种模型——“CMLM-中京”。受中国古代医学大师张仲景深邃智慧的启发，是专为中医领域设计的预训练大语言模型。
 
-* [chaoyi-wu/PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA) “PMC-LLaMA：迈向构建医学开源语言模型”的官方代码。
+* [Kent0n-Li/ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor) 使用医学领域知识在大型语言模型（LLaMA）上进行微调的医学聊天模型。数据集：来自 HealthCareMagic.com 100k的患者和医生之间的[真实对话](https://drive.google.com/file/d/1lyfqIwlLSClhgrCutWuEe_IACNq6XNUt/view?usp=sharing)。 来自 ICLiniq-10K 的患者医生之间的 10k 真实对话。  5k从ChatGPT [GenMedGPT-5k](https://drive.google.com/file/d/1ZKbqgYqWc7DJHs3N9TQYQVPdDQmZaClA/view?usp=sharing)和[疾病数据库](https://drive.google.com/file/d/1nDTKZ3wZbZWTkFMBkxlamrzbNz0frugg/view?usp=sharing) 生成了患者和医生之间的[对话](https://github.com/Kent0n-Li/ChatDoctor/blob/main/format_dataset.csv)。   
+
+* [chaoyi-wu/PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA) 迈向构建医学开源语言模型”的官方代码。
 
 * [FreedomIntelligence/huatuo_knowledge_graph_qa](https://huggingface.co/datasets/FreedomIntelligence/huatuo_knowledge_graph_qa) 华佗医疗知识图谱问答数据集
 
@@ -1691,7 +1711,13 @@
 
 * [Duxiaoman-DI/XuanYuan](https://github.com/Duxiaoman-DI/XuanYuan) 轩辕：首个千亿级中文金融对话模型。在BLOOM-176B的基础上针对中文通用领域和金融领域进行了针对性的预训练与微调，它不仅可以应对通用领域的问题，也可以解答与金融相关的各类问题，为用户提供准确、全面的金融信息和建议。
 
+* [chancefocus/PIXIU](https://github.com/chancefocus/PIXIU) 貔貅一个开源资源，具有第一个金融大型语言模型 （LLM）、指令调整数据和评估基准，用于全面评估金融 LLM。我们的目标是不断推动金融人工智能（AI）的开源发展。几个关键组件：FLARE：我们的金融语言理解和预测评估基准。FLARE作为金融LLM的评估套件，重点是理解和预测各种金融环境中的任务。FIT：我们的财务指令数据集。FIT是专门为财务任务量身定制的多任务和多模态指令数据集。它是为这些任务微调LLM的培训基地。FinMA：我们的金融大语言模型（LLM）。FinMA是我们项目的核心，为我们的财务任务提供学习和预测能力。主要特点：开放资源：PIXIU公开提供财务LLM，指令调整数据和评估基准中包含的数据集，以鼓励开放研究和透明度。多任务：PIXIU中的指令调优数据和基准测试涵盖了多种财务任务，包括4个财务NLP任务和1个财务预测任务。多模态：PIXIU的指令调优数据和基准由多模态财务数据组成，包括来自股票运动预测任务的时间序列数据。它涵盖了各种类型的金融文本，包括报告、新闻文章、推文和监管文件。多样性：与以前主要关注财务NLP任务的基准不同，PIXIU的评估基准包括与现实世界场景相一致的关键财务预测任务，使其更具挑战性。以及FLARE 2.0：金融语言理解和预测评估基准。
+
+* [SUFE-AIFLM-Lab/FinEval](https://github.com/SUFE-AIFLM-Lab/FinEval) 包含金融、经济、会计和证书等领域高质量多项选择题的集合。
+
 * [blcuicall/taoli](https://github.com/blcuicall/taoli) 适用于国际中文教育领域的大模型 “桃李”（Taoli）1.0 ，在国际中文教育领域数据上进行了额外训练的模型。基于目前国际中文教育领域流通的500余册国际中文教育教材与教辅书、汉语水平考试试题以及汉语学习者词典等，构建了国际中文教育资源库。 设置了多种形式的指令来充分利用知识，构造了共计 88k 条的高质量国际中文教育问答数据集，并利用收集到的数据对模型进行指令微调，让模型习得将国际中文教育知识应用到具体场景中的能力。
+
+* [icalk-nlp/EduChat](https://github.com/icalk-nlp/EduChat) 开源中英教育对话大模型。(通用基座模型，GPU部署，数据清理)
 
 * [yongzhuo/chatglm-maths](https://github.com/yongzhuo/chatglm-maths) chatglm-6b微调/LORA/PPO/推理, 样本为自动生成的整数/小数加减乘除运算, 可gpu/cpu
 
@@ -1746,6 +1772,10 @@
 * [homanp/superagent](https://github.com/homanp/superagent) 超级代理 - 构建、部署和管理 LLM 支持的代理。一个强大的工具，可简化 LLM（大型语言模型）代理到生产的配置和部署。它提供了一系列特性和功能，使开发人员能够更轻松地构建、管理和将 AI 代理部署到生产环境，包括通过矢量数据库、强大的工具、Webhook、cron 作业等构建内存和文档检索等功能。
 
 * [eth-sri/lmql](https://github.com/eth-sri/lmql) 一种用于类型化、约束引导和高效 LLM 编程的语言。一种基于Python超集的大型语言模型（LLM）的编程语言。LMQL 提供了一种将传统编程与在代码中调用 LLM 的能力交织在一起的新方法。它超越了传统的模板语言，在程序代码级别原生集成LLM交互。
+
+* [airaria/Visual-Chinese-LLaMA-Alpaca](https://github.com/airaria/Visual-Chinese-LLaMA-Alpaca) 基于中文LLaMA&Alpaca模型开发的多模态中文大模型。VisualCLA在中文LLaMA/Alpaca模型上增加了图像编码等模块，使LLaMA模型可以接收视觉信息。在此基础上，使用了中文图文对数据进行了多模态预训练，对齐图像与文本表示，赋予其基本的多模态理解能力；并使用多模态指令数据集精调，增强其对多模态指令的理解、执行和对话能力。
+
+* [LinkSoul-AI/LLaSM](https://github.com/LinkSoul-AI/LLaSM) 第一个支持中英文语音-文本多模态对话的开源可商用对话模型。便捷的语音输入将大幅改善以文本为输入的大模型的使用体验，同时避免了基于 ASR 解决方案的繁琐流程以及可能引入的错误。
 
 ### 文本生成、文本对话
 
@@ -3291,11 +3321,13 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 
 [YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) 扩散模型：方法和应用的综合调查
 
+[open-mmlab/mmgeneration](https://github.com/open-mmlab/mmgeneration) 一个强大的生成模型工具包，基于PyTorch和MMCV。`高质量的训练`：支持无条件 GAN、内部 GAN 和图像翻译模型的培训。对条件模型的支持即将推出。`强大的工具包`：为用户提供了包含GAN中多个应用程序的丰富工具包。GAN 插值、GAN 投影和 GAN 操作已集成到我们的框架中。`高效分布式训练`：对于生成模型中的高动态训练，采用了一种新的方法来训练动态模型 MMDDP 。`灵活组合的新模块化设计`：针对复杂损耗模块的定制链接，提出一种新的设计，可以实现不同模块之间的灵活组合。
+
 [rinongal/textual_inversion](https://github.com/rinongal/textual_inversion) 使用个性化文本反转到图像生成 。仅使用用户提供的概念（如对象或样式）的 3-5 张图像，通过学习冻结文本到图像模型的嵌入空间中的新“词”来表示它。 这些“词”可以组合成自然语言的句子，以直观的方式指导个性化创作。
 
 [remotion-dev/remotion](https://github.com/remotion-dev/remotion) 使用 React 以编程方式创建视频的框架。
 
-[zhegan27/VILLA](https://github.com/zhegan27/VILLA) VILLA：视觉和语言对抗训练 (NeurIPS 2020 Spotlight) 的官方存储库。 目前支持 UNITER 在 VQA、VCR、NLVR2 和 SNLI-VE 上的对抗微调。 使用域内数据的对抗性预训练将很快可用。 VILLA-base 和 VILLA-large 预训练检查点均已发布。
+[zhegan27/VILLA](https://github.com/zhegan27/VILLA) 视觉和语言对抗训练 (NeurIPS 2020 Spotlight) 的官方库。 目前支持 UNITER 在 VQA、VCR、NLVR2 和 SNLI-VE 上的对抗微调。 使用域内数据的对抗性预训练将很快可用。 VILLA-base 和 VILLA-large 预训练检查点均已发布。
 
 [piskelapp/piskel](https://github.com/piskelapp/piskel) 易于使用的精灵编辑器。 可用于创建精灵、动画、像素艺术。
 
@@ -3338,6 +3370,8 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 [libvips/libvips](https://github.com/libvips/libvips) 一个需求驱动的水平线程图像处理库。与类似的库相比，libvips 运行速度快，占用内存很少。涵盖算术、直方图、卷积、形态操作、频率过滤、颜色、重采样、统计等。它支持从 8 位 int 到 128 位复数的大量数值类型。影像可以具有任意数量的波段。它支持多种图像格式。
 
 [Charmve/computer-vision-in-action](https://github.com/Charmve/computer-vision-in-action) 学习闭环《计算机视觉实战演练：算法与应用》中文电子书、源码、读者交流社区  [计算机视觉实战演练：算法与应用🌱](https://charmve.github.io/computer-vision-in-action/)
+
+[raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2) 单目、立体和RGB-D相机的实时SLAM，具有环路检测和重新定位功能
 
 # 因果推断
 
