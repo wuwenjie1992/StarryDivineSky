@@ -1059,6 +1059,8 @@
 
 * [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
 
+* [CStanKonrad/long_llama](https://github.com/CStanKonrad/long_llama) 一种大型语言模型，能够处理256k个甚至更多的长上下文。建立在OpenLLaMA的基础上，并使用聚焦变压器（FoT）方法进行微调。聚焦转换器：上下文缩放的对比训练 （FoT） 提供了一种简单的方法，使语言模型能够处理可能包含数百万个令牌的上下文，同时在明显更短的输入上进行训练。FoT 允许注意力层的子集访问（键、值）对的内存缓存，以扩展上下文长度。FoT的独特之处在于其训练程序，借鉴了对比学习。具体来说，将内存注意层暴露给相关和不相关的键（如来自不相关文档的负样本）。这种策略激励模型区分与语义上不同的值相关的键，从而增强它们的结构。反过来，这使得推断有效上下文长度远远超出训练中看到的范围成为可能。
+
 * [lm-sys/FastChat](https://github.com/lm-sys/FastChat) 令人印象深刻的 GPT-4 开放式聊天机器人 Vicuna：一个以 90% ChatGPT 质量的开源聊天机器人。
 
 * [project-baize/baize-chatbot](https://github.com/project-baize/baize-chatbot) 使用 LoRA 训练的开源聊天模型.它使用通过让 ChatGPT 与自己聊天生成的 100k 对话。还使用羊驼的数据来提高其性能。已发布了 7B、13B 和 30B 模型。
@@ -1244,14 +1246,6 @@
 
 * [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) 为ChatGPT ChatGLM LLaMA StableLM MOSS等多种LLM提供了一个轻快好用的Web图形界面
 
-* [SCIR-HI/Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM) 基于中文医学知识的ChatGLM指令微调
-
-* [xionghonglin/DoctorGLM](https://github.com/xionghonglin/DoctorGLM) 基于ChatGLM-6B的中文问诊模型
-
-* [WangRongsheng/MedQA-ChatGLM](https://github.com/WangRongsheng/MedQA-ChatGLM) 基于真实医疗对话数据在ChatGLM上进行LoRA、P-Tuning V2、Freeze、RLHF等微调
-
-* [Toyhom/Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data) 中文医疗对话数据集，:<Andriatria_男科> 94596个问答对 <IM_内科> 220606个问答对 <OAGD_妇产科> 183751个问答对 <Oncology_肿瘤科> 75553个问答对 <Pediatric_儿科> 101602个问答对 <Surgical_外科> 115991个问答对 总计 792099个问答对
-
 * [sonnylazuardi/chat-ai-desktop](https://github.com/sonnylazuardi/chat-ai-desktop) 使用 Tauri 和 Rust 的 Mac 和 Windows 菜单栏的非官方 ChatGPT 桌面应用程序
 
 * [xx025/carrot](https://github.com/xx025/carrot) 准备了众多免费好用的ChatGPT镜像站点，当前100+站点
@@ -1267,6 +1261,8 @@
 * [202252197/ChatGPT_JCM](https://github.com/202252197/ChatGPT_JCM) OpenAI管理界面，聚合OpenAI的所有接口进行界面操作(所有模型、图片、音频、微调、文件)等，支持Markdown格式(公式、图表，表格)等
 
 * [memochou1993/gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) 使用 OpenAI API 和 LINE 消息传递 API 实现的应用程序。通过安装过程，您可以使用LINE移动应用程序开始与自己的AI助手聊天。
+
+* [yanqiangmiffy/Chinese-LangChain](https://github.com/yanqiangmiffy/Chinese-LangChain) 小必应，Q.Talk，强聊，QiangTalk，基于ChatGLM-6b+langchain实现本地化知识库检索与智能答案生成
 
 * [cesarhuret/docGPT](https://github.com/cesarhuret/docGPT) ChatGPT 直接在 Google Docs 中作为编辑器的插件
 
@@ -1373,6 +1369,8 @@
 
 * [logspace-ai/langflow](https://github.com/logspace-ai/langflow) LangChain（大语言模型链式开发工具，强大的框架，可以简化构建高级语言模型应用程序的过程。） 的 UI，采用反应流设计，提供一种轻松的方式来实验和原型流。
 
+* [liaokongVFX/LangChain-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide) LangChain 的中文入门教程
+
 * [YeungNLP/firefly-train-1.1M](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) 收集了23个常见的中文数据集，对于每个任务，由人工书写若干种指令模板，保证数据的高质量与丰富度，数据量为115万 。
 
 * [togethercomputer/RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) 包含用于准备大型数据集以训练大型语言模型的代码。重现LLaMA训练数据集的开源配方。Commoncrawl、C4、GitHub、Books、ArXiv、Wikipedia、StackExchange。合计1.2万亿令牌
@@ -1436,20 +1434,6 @@
 * [datasets/BAAI/COIG](https://huggingface.co/datasets/BAAI/COIG) 中文开放教学通才（COIG）项目来维护一套无害、有用和多样化的中文教学语料库。[BAAI-Zlab/COIG](https://github.com/BAAI-Zlab/COIG) 
 
 * [CLUEbenchmark/pCLUE](https://github.com/CLUEbenchmark/pCLUE) 基于提示的大规模预训练数据集，用于多任务学习和零样本学习，120万训练数据。
-
-* [FreedomIntelligence/Huatuo-26M](https://github.com/FreedomIntelligence/Huatuo-26M) 规模最大的中国医学质量保证数据集：包含 26，000，000 个问答对。
-
-* [liyucheng/zhihu_rlhf_3k](https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k) 知乎3000个用于RLHF（Reinforcement Learning from Human Feedback 基于人类反馈的强化学习）的数据
-
-* [hejunqing/webMedQA](https://github.com/hejunqing/webMedQA) 从在线健康咨询网站收集的真实中国医学问答数据集。
-
-* [pubmedqa/pubmedqa](https://github.com/pubmedqa/pubmedqa) 生物医学研究问答数据集
-
-* [WENGSYX/CMCQA](https://github.com/WENGSYX/CMCQA) 中国医学领域庞大的对话问答数据集。收集自中国医学会话问答网站春雨，拥有男科、风暴科、妇产科等45个科室的医学对话资料。具体来说，CMCQA 有 130 万个完整的会话或 1983 万个语句或 6.5 亿个词元。同时，我们进一步开源所有数据，推动医疗领域会话问答相关领域的发展。
-
-* [wangrongsheng/HealthCareMagic-100k-en](https://huggingface.co/datasets/wangrongsheng/HealthCareMagic-100k-en) 从在线医疗咨询网站HealthCareMagic收集了约10万例真实的医生-患者对话。通过手动和自动方式过滤这些数据,删除医生和患者的身份信息,并使用语言工具纠正语法错误。
-
-* [wangrongsheng/icliniq-10k-en](https://huggingface.co/datasets/wangrongsheng/icliniq-10k-en) icliniq.com的1万例实际患者与医生之间对话
 
 * [X-PLUG/CValues](https://github.com/X-PLUG/CValues) 面向中文大模型价值观的评估与对齐研究。邀请中国知名专家学者，每位专家提出100个诱导偏见、歧视回答的刁钻问题，并对大模型的回答进行标注。项目吸引了环境科学、心理学、法理学等多个领域专家参与，并召开了专家研讨会，会后发布业内首个大语言模型治理开源中文数据集100PoisonMpts，包含专家提出的问题、专家自己撰写或认可的答案。
 
@@ -1577,6 +1561,10 @@
 
 * [thu-coai/Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) 中文安全prompts，评估和提升大模型的安全性。
 
+* [RUCAIBox/HaluEval](https://github.com/RUCAIBox/HaluEval) 大型语言模型的大规模幻觉评估基准。包括 5,000 个带有 ChatGPT 响应的一般用户查询和来自三个任务的 30,000 个特定于任务的示例，即问答、基于知识的对话和文本摘要。
+
+#### 健康医学大模型及语料库
+
 * [SCIR-HI/Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) 本草（原名：华驼）模型仓库，基于中文医学知识的大语言模型指令微调
 
 * [FreedomIntelligence/HuatuoGPT-sft-data-v1](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT-sft-data-v1) 华驼大语言模型的微调数据集
@@ -1594,6 +1582,8 @@
 * [shibing624/MedicalGPT](https://github.com/shibing624/MedicalGPT) 训练医疗大模型，实现包括二次预训练、有监督微调、奖励建模、强化学习训练。
 
 * [SupritYoung/Zhongjing](https://github.com/SupritYoung/Zhongjing)  基于LLaMa的中国医学ChatGPT，基于大规模训练前语料库和多回合对话数据集的训练。
+
+* [PharMolix/OpenBioMed](https://github.com/PharMolix/OpenBioMed) PharMolix和AI产业研究院（AIR）联合发布的首个商业友好型多模式生物医学基础模型。它将生命语言（分子结构和蛋白质序列）与人类自然语言保持一致，在生物医学QA基准上的表现与人类专家不相上下，并在跨模态分子和蛋白质问答任务中表现出强大的性能。DrugFM是由AIR和北京人工智能研究院（BAAI）联合开发的多模态分子基础模型。它利用UniMAP，一种预先训练的分子模型，可以捕获分子的细粒度属性和表示，并结合了我们的多模态分子基础模型MolFM。DrugFM在跨模态检索上实现了SOTA。
 
 * [datasets/medical_dialog](https://huggingface.co/datasets/medical_dialog) MedDialog数据集（中文）包含医生和患者之间的对话（中文）。它有 110 万次对话和 400 万条话语。数据在不断增长，并将添加更多对话。原始对话来自 haodf.com。MedDialog数据集（英语）包含医生和患者之间的对话（英语）。它有26万次对话。数据在不断增长，并将添加更多对话。原始对话来自 healthcaremagic.com 和 icliniq.com。
 
@@ -1621,8 +1611,6 @@
 
 * [scutcyr/BianQue](https://github.com/scutcyr/BianQue) 中文医疗对话模型扁鹊(BianQue)。实际的医生与用户交谈往往会存在“医生根据用户当前的描述进行持续多轮的询问”。并且医生在最后根据用户提供的信息综合给出建议，如下图所示。我们把医生不断问询的过程定义为 询问链（CoQ, Chain of Questioning） ，当模型处于询问链阶段，其下一个问题通常由对话上下文历史决定。结合当前开源的中文医疗问答数据集（MedDialog-CN、IMCS-V2、CHIP-MDCFNPC、MedDG、cMedQA2、Chinese-medical-dialogue-data），分析其中的单轮/多轮特性以及医生问询特性，结合实验室长期自建的生活空间健康对话大数据，构建了千万级别规模的扁鹊健康大数据BianQueCorpus。对话数据通过“病人：xxx\n医生：xxx\n病人：xxx\n医生：”的形式统一为一种指令格式，训练数据当中混合了大量target文本为医生问询的内容而非直接的建议，这将有助于提升AI模型的问询能力。基于扁鹊健康大数据BianQueCorpus，我们选择了 ChatGLM-6B 作为初始化模型，经过全量参数的指令微调训练得到了新一代BianQue2.0。扩充了药品说明书指令、医学百科知识指令以及ChatGPT蒸馏指令等数据，强化了模型的建议与知识查询能力。[BianQue - a Hugging Face Space by scutcyr](https://huggingface.co/spaces/scutcyr/BianQue) 
 
-* [liaokongVFX/LangChain-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)  LangChain 的中文入门教程
-
 * [thomas-yanxin/Sunsimiao](https://github.com/thomas-yanxin/Sunsimiao)  孙思邈中文医疗大模型 ：提供安全、可靠、普惠的中文医疗大模型
 
 * [scutcyr/SoulChat](https://github.com/scutcyr/SoulChat) 中文领域心理健康对话大模型
@@ -1633,7 +1621,56 @@
 
 * [itsharex/CareLlama](https://github.com/itsharex/CareLlama) 一个医疗大语言模型，同时它集合了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型以促进医疗LLM快速发展。
 
-* [lyogavin/Anima](https://github.com/lyogavin/Anima) 第一个开源的基于QLoRA的33B中文大语言模型。基于QLoRA开源的33B guanaco训练了10000 steps。训练使用一个H100 GPU。
+* [FudanDISC/DISC-MedLLM](https://github.com/FudanDISC/DISC-MedLLM) 利用大型语言模型在端到端对话式医疗保健服务中提供准确和真实的医疗响应。它可以满足您的各种医疗保健需求，包括疾病问诊和治疗方案咨询等，为您提供高质量的健康支持服务。构建了一个高质量的数据集[Flmc/DISC-Med-SFT](https://huggingface.co/datasets/Flmc/DISC-Med-SFT)，包含超过47万个衍生于现有的医疗数据集重新构建得到的样本。采用了目标导向的策略，通过对于精心选择的几个数据源进行重构来得到SFT数据集。帮助模型学习医疗领域知识，将行为模式与人类偏好对齐，并对齐真实世界在线医疗对话的分布情况。
+- [HIT-SCIR-SC/QiaoBan](https://github.com/HIT-SCIR-SC/QiaoBan) 中文儿童情感陪伴大模型“巧板”。基于通用大模型，使用了通用域人机对话数据、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，训练得到，是通用大语言模型迁移至儿童情感陪伴领域的一次成功实践。三大特点：首先，基于情绪辅导理论构建的儿童情感陪伴对话数据，能够更有效地守护孩子的心理健康。其次，具有儿童心理学背景的志愿者与专家参与完成高质量对话数据的收集。使得能够更加准确地理解和回应儿童的需求，真正与他们建立深入的情感连接。最后，模型与儿童的交互方式更加贴心，让他们能够感受到温暖和认同，成为他们坚实成长道路上的得力伙伴。
+
+- [qiuhuachuan/smile](https://github.com/qiuhuachuan/smile) 开源的中文心理健康支持通用模型由 ChatGLM-6B LoRA 16-bit 指令微调得到。数据集通过扩展真实的心理互助 QA为多轮的心理健康支持多轮对话，提高了通用语言大模型在心理健康支持领域的表现，更加符合在长程多轮对话的应用场景。
+
+- [camel-ai/camel](https://github.com/camel-ai/camel) 骆驼：大规模语言模型社会“心灵”探索的交际代理。一种名为角色扮演的新型交流代理框架。我们的方法涉及使用开始提示来指导聊天代理完成任务，同时保持与人类意图的一致性。我们展示了如何使用角色扮演来生成对话数据，以研究聊天代理的行为和功能，为研究对话语言模型提供宝贵的资源。我们的贡献包括引入一种新的通信代理框架，为研究多智能体系统的协作行为和能力提供可扩展的方法，以及开源我们的库以支持通信代理及其他方面的研究。演示，展示了两个 ChatGPT 代理之间的对话，扮演 python 程序员和股票交易员的角色，合作开发股票市场的交易机器人。
+
+- [pariskang/CMLM-ZhongJing](https://github.com/pariskang/CMLM-ZhongJing) 首个中医大语言模型——"仲景"。受古代中医学巨匠张仲景深邃智慧启迪，专为传统中医领域打造的预训练大语言模型。有史以来第一个中医大语种模型——“CMLM-中京”。受中国古代医学大师张仲景深邃智慧的启发，是专为中医领域设计的预训练大语言模型。
+
+- [Zlasejd/HuangDI](https://github.com/Zlasejd/HuangDI) 在 Ziya-LLaMA-13B-V1的基础上加入中医教材、中医各类网站数据等语料库，训练出一个具有中医知识理解力的语言模型（pre-trained ），之后在此基础上通过海量的中医古籍指令对话数据及通用指令数据进行有监督微调（SFT），使得模型具备中医古籍知识问答能力。以《中华医典》数据库为语料来源，约338MB，由两部分组成：①非结构化的“古籍文本”：涵盖了886本标点符号及内容完整的中医古籍。②结构化的“古籍辞典”：包含“名医”、“名言”、“名词”、“名著”等六大类，由中医学界诸多知名学者对中医古籍内容知识进一步系统提炼整理，是中医古籍内容精华最为直接的集中体现。
+
+- [2020MEAI/TCMLLM](https://github.com/2020MEAI/TCMLLM) 通过大模型方式实现中医临床辅助诊疗（病证诊断、处方推荐等）中医药知识问答等任务，推动中医知识问答、临床辅助诊疗等领域的快速发展。构建的指令微调数据集包含8个数据来源，涵盖4本中医经典教科书《中医内科学》、《中医外科学》、《中医妇科学》和《中医儿科学》（即“内外妇儿”，Internal medicine，Surgery， Gynecology，Pediatrics，简称ISGP）、2020版中国药典（Chinese pharmacopeia，简称CHP）、中医临床经典医案数据（Chinese Medicine Clinical Cases，简称CMCC）、以及多个三甲医院的涵盖肺病（Lung）、中风病（Stroke）、糖尿病（Diabetes）、肝病（Liver）、脾胃病（Splenic and stomach diseases）等多病种的临床病历数据。8个数据集共68k条，token总数约为10M。
+
+- [Kent0n-Li/ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor) 使用医学领域知识在大型语言模型（LLaMA）上进行微调的医学聊天模型。数据集：来自 HealthCareMagic.com 100k的患者和医生之间的[真实对话](https://drive.google.com/file/d/1lyfqIwlLSClhgrCutWuEe_IACNq6XNUt/view?usp=sharing)。 来自 ICLiniq-10K 的患者医生之间的 10k 真实对话。 5k从ChatGPT [GenMedGPT-5k](https://drive.google.com/file/d/1ZKbqgYqWc7DJHs3N9TQYQVPdDQmZaClA/view?usp=sharing)和[疾病数据库](https://drive.google.com/file/d/1nDTKZ3wZbZWTkFMBkxlamrzbNz0frugg/view?usp=sharing) 生成了患者和医生之间的[对话](https://github.com/Kent0n-Li/ChatDoctor/blob/main/format_dataset.csv)。
+
+- [chaoyi-wu/PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA) 迈向构建医学开源语言模型”的官方代码。
+
+- [X-D-Lab/MindChat](https://github.com/X-D-Lab/MindChat) 从心理咨询、心理评估、心理诊断、心理治疗四个维度帮助人们纾解心理压力与解决心理困惑, 提高心理健康水平. 作为一个心理大模型, MindChat通过营造轻松、开放的交谈环境, 以放松身心、交流感受或分享经验的方式, 与用户建立信任和理解的关系
+
+- [FreedomIntelligence/huatuo_knowledge_graph_qa](https://huggingface.co/datasets/FreedomIntelligence/huatuo_knowledge_graph_qa) 华佗医疗知识图谱问答数据集
+
+- [hejunqing/webMedQA](https://github.com/hejunqing/webMedQA) 从在线健康咨询网站收集的真实中国医学问答数据集。
+
+- [pubmedqa/pubmedqa](https://github.com/pubmedqa/pubmedqa) 生物医学研究问答数据集
+
+- [WENGSYX/CMCQA](https://github.com/WENGSYX/CMCQA) 中国医学领域庞大的对话问答数据集。收集自中国医学会话问答网站春雨，拥有男科、风暴科、妇产科等45个科室的医学对话资料。具体来说，CMCQA 有 130 万个完整的会话或 1983 万个语句或 6.5 亿个词元。同时，我们进一步开源所有数据，推动医疗领域会话问答相关领域的发展。
+
+- [wangrongsheng/HealthCareMagic-100k-en](https://huggingface.co/datasets/wangrongsheng/HealthCareMagic-100k-en) 从在线医疗咨询网站HealthCareMagic收集了约10万例真实的医生-患者对话。通过手动和自动方式过滤这些数据,删除医生和患者的身份信息,并使用语言工具纠正语法错误。
+
+- [wangrongsheng/icliniq-10k-en](https://huggingface.co/datasets/wangrongsheng/icliniq-10k-en) icliniq.com的1万例实际患者与医生之间对话
+
+- [FreedomIntelligence/Huatuo-26M](https://github.com/FreedomIntelligence/Huatuo-26M) 规模最大的中国医学质量保证数据集：包含 2600万个问答对。
+
+- [liyucheng/zhihu_rlhf_3k](https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k) 知乎3000个用于RLHF（Reinforcement Learning from Human Feedback 基于人类反馈的强化学习）的数据
+
+- [MediaBrain-SJTU/MedicalGPT-zh](https://github.com/MediaBrain-SJTU/MedicalGPT-zh) 基于ChatGLM的在高质量指令数据集微调的中文医疗对话语言模型
+
+- [SCIR-HI/Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM) 基于中文医学知识的ChatGLM指令微调
+
+- [xionghonglin/DoctorGLM](https://github.com/xionghonglin/DoctorGLM) 基于ChatGLM-6B的中文问诊模型
+
+- [WangRongsheng/MedQA-ChatGLM](https://github.com/WangRongsheng/MedQA-ChatGLM) 基于真实医疗对话数据在ChatGLM上进行LoRA、P-Tuning V2、Freeze、RLHF等微调
+
+- [Toyhom/Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data) 中文医疗对话数据集:Andriatria_男科 94596个问答对 IM_内科 220606个问答对 OAGD_妇产科 183751个问答对 Oncology_肿瘤科 75553个问答对 Pediatric_儿科 101602个问答对 Surgical_外科115991个问答对 总计 792099个问答对
+
+- [WangRongsheng/IvyGPT](https://github.com/WangRongsheng/IvyGPT) 最贴近真实医生问诊效果的医疗大语言模型
+
+- [189569400/MedicalGPT-zh](https://github.com/189569400/MedicalGPT-zh) 基于医疗指令微调的中文医疗问诊模型
+
+#### 法律大模型
 
 * [PKU-YuanGroup/ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) 中文法律大模型。目前开源的仅供学术参考的版本底座为姜子牙-13B、Anima-33B，我们使用大量法律新闻、法律论坛、法条、司法解释、法律咨询、法考题、判决文书等原始文本来构造对话数据。
 
@@ -1653,19 +1690,11 @@
 
 * [zhihaiLLM/wisdomInterrogatory](https://github.com/zhihaiLLM/wisdomInterrogatory) 由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型。核心思想：以“普法共享和司法效能提升”为目标，从推动法律智能化体系入司法实践、数字化案例建设、虚拟法律咨询服务赋能等方面提供支持，形成数字化和智能化的司法基座能力。
 
-* [HIT-SCIR-SC/QiaoBan](https://github.com/HIT-SCIR-SC/QiaoBan) 中文儿童情感陪伴大模型“巧板”。基于通用大模型，使用了通用域人机对话数据、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，训练得到，是通用大语言模型迁移至儿童情感陪伴领域的一次成功实践。三大特点：首先，基于情绪辅导理论构建的儿童情感陪伴对话数据，能够更有效地守护孩子的心理健康。其次，具有儿童心理学背景的志愿者与专家参与完成高质量对话数据的收集。使得能够更加准确地理解和回应儿童的需求，真正与他们建立深入的情感连接。最后，模型与儿童的交互方式更加贴心，让他们能够感受到温暖和认同，成为他们坚实成长道路上的得力伙伴。
+* [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) 基于中文法律知识的大语言模型
 
-* [qiuhuachuan/smile](https://github.com/qiuhuachuan/smile) 开源的中文心理健康支持通用模型由 ChatGLM-6B LoRA 16-bit 指令微调得到。数据集通过扩展真实的心理互助 QA为多轮的心理健康支持多轮对话，提高了通用语言大模型在心理健康支持领域的表现，更加符合在长程多轮对话的应用场景。
+* [seudl/JurisLMs](https://github.com/seudl/JurisLMs) 根据不同的场景在法律法规、法律咨询、裁判文书等多种不同的语料上进一步预训练了多个模型。其中，AI Judge是由GPT2在法学语料上进一步预训练之后，结合一个法条适用模型（一个基于BERT的分类器）微调得到的一个可解释法律判决预测模型。基于中文LLaMA的智能法律咨询模型，AI Lawyer。由于缺乏标注法条的咨询语料，我们采用主动学习（Active Learning）在少量数据上进行微调获得一个法律适用模型，使得AI Lawyer可以根据用户咨询适用正确的法律法规回答问题。
 
-* [camel-ai/camel](https://github.com/camel-ai/camel) 骆驼：大规模语言模型社会“心灵”探索的交际代理。一种名为角色扮演的新型交流代理框架。我们的方法涉及使用开始提示来指导聊天代理完成任务，同时保持与人类意图的一致性。我们展示了如何使用角色扮演来生成对话数据，以研究聊天代理的行为和功能，为研究对话语言模型提供宝贵的资源。我们的贡献包括引入一种新的通信代理框架，为研究多智能体系统的协作行为和能力提供可扩展的方法，以及开源我们的库以支持通信代理及其他方面的研究。演示，展示了两个 ChatGPT 代理之间的对话，扮演 python 程序员和股票交易员的角色，合作开发股票市场的交易机器人。
-
-* [pariskang/CMLM-ZhongJing](https://github.com/pariskang/CMLM-ZhongJing) 首个中医大语言模型——"仲景"。受古代中医学巨匠张仲景深邃智慧启迪，专为传统中医领域打造的预训练大语言模型。有史以来第一个中医大语种模型——“CMLM-中京”。受中国古代医学大师张仲景深邃智慧的启发，是专为中医领域设计的预训练大语言模型。
-
-* [Kent0n-Li/ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor) 使用医学领域知识在大型语言模型（LLaMA）上进行微调的医学聊天模型。数据集：来自 HealthCareMagic.com 100k的患者和医生之间的[真实对话](https://drive.google.com/file/d/1lyfqIwlLSClhgrCutWuEe_IACNq6XNUt/view?usp=sharing)。 来自 ICLiniq-10K 的患者医生之间的 10k 真实对话。  5k从ChatGPT [GenMedGPT-5k](https://drive.google.com/file/d/1ZKbqgYqWc7DJHs3N9TQYQVPdDQmZaClA/view?usp=sharing)和[疾病数据库](https://drive.google.com/file/d/1nDTKZ3wZbZWTkFMBkxlamrzbNz0frugg/view?usp=sharing) 生成了患者和医生之间的[对话](https://github.com/Kent0n-Li/ChatDoctor/blob/main/format_dataset.csv)。   
-
-* [chaoyi-wu/PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA) 迈向构建医学开源语言模型”的官方代码。
-
-* [FreedomIntelligence/huatuo_knowledge_graph_qa](https://huggingface.co/datasets/FreedomIntelligence/huatuo_knowledge_graph_qa) 华佗医疗知识图谱问答数据集
+#### 其他大模型
 
 * [gmftbyGMFTBY/science-llm](https://github.com/gmftbyGMFTBY/science-llm) 科学领域的大规模语言模型，在redpajama arXiv上训练
 
@@ -1714,6 +1743,8 @@
 * [chancefocus/PIXIU](https://github.com/chancefocus/PIXIU) 貔貅一个开源资源，具有第一个金融大型语言模型 （LLM）、指令调整数据和评估基准，用于全面评估金融 LLM。我们的目标是不断推动金融人工智能（AI）的开源发展。几个关键组件：FLARE：我们的金融语言理解和预测评估基准。FLARE作为金融LLM的评估套件，重点是理解和预测各种金融环境中的任务。FIT：我们的财务指令数据集。FIT是专门为财务任务量身定制的多任务和多模态指令数据集。它是为这些任务微调LLM的培训基地。FinMA：我们的金融大语言模型（LLM）。FinMA是我们项目的核心，为我们的财务任务提供学习和预测能力。主要特点：开放资源：PIXIU公开提供财务LLM，指令调整数据和评估基准中包含的数据集，以鼓励开放研究和透明度。多任务：PIXIU中的指令调优数据和基准测试涵盖了多种财务任务，包括4个财务NLP任务和1个财务预测任务。多模态：PIXIU的指令调优数据和基准由多模态财务数据组成，包括来自股票运动预测任务的时间序列数据。它涵盖了各种类型的金融文本，包括报告、新闻文章、推文和监管文件。多样性：与以前主要关注财务NLP任务的基准不同，PIXIU的评估基准包括与现实世界场景相一致的关键财务预测任务，使其更具挑战性。以及FLARE 2.0：金融语言理解和预测评估基准。
 
 * [SUFE-AIFLM-Lab/FinEval](https://github.com/SUFE-AIFLM-Lab/FinEval) 包含金融、经济、会计和证书等领域高质量多项选择题的集合。
+
+* [SALT-NLP/FLANG](https://github.com/SALT-NLP/FLANG) 金融领域的基准测试和大型预训练语言模型
 
 * [blcuicall/taoli](https://github.com/blcuicall/taoli) 适用于国际中文教育领域的大模型 “桃李”（Taoli）1.0 ，在国际中文教育领域数据上进行了额外训练的模型。基于目前国际中文教育领域流通的500余册国际中文教育教材与教辅书、汉语水平考试试题以及汉语学习者词典等，构建了国际中文教育资源库。 设置了多种形式的指令来充分利用知识，构造了共计 88k 条的高质量国际中文教育问答数据集，并利用收集到的数据对模型进行指令微调，让模型习得将国际中文教育知识应用到具体场景中的能力。
 
@@ -1776,6 +1807,16 @@
 * [airaria/Visual-Chinese-LLaMA-Alpaca](https://github.com/airaria/Visual-Chinese-LLaMA-Alpaca) 基于中文LLaMA&Alpaca模型开发的多模态中文大模型。VisualCLA在中文LLaMA/Alpaca模型上增加了图像编码等模块，使LLaMA模型可以接收视觉信息。在此基础上，使用了中文图文对数据进行了多模态预训练，对齐图像与文本表示，赋予其基本的多模态理解能力；并使用多模态指令数据集精调，增强其对多模态指令的理解、执行和对话能力。
 
 * [LinkSoul-AI/LLaSM](https://github.com/LinkSoul-AI/LLaSM) 第一个支持中英文语音-文本多模态对话的开源可商用对话模型。便捷的语音输入将大幅改善以文本为输入的大模型的使用体验，同时避免了基于 ASR 解决方案的繁琐流程以及可能引入的错误。
+
+* [DAMO-NLP-MT/PolyLM](https://github.com/DAMO-NLP-MT/PolyLM) 多语言大型语言模型，旨在解决当前LLM研究中的以下空白和局限性，为推进这一领域提供全面和创新的解决方案。涵盖 18 种最常用的语言。PolyLM精通全球主要的非英语语言，如西班牙语，俄语，阿拉伯语，日语，韩语，泰语，印度尼西亚语和中文等。它是对现有开源模型的完美补充，包括：（1）LLaMA，其中英语在整个数据集中占主导地位。（2）BLOOM，未能解决大量人口使用的语言，如日语，韩语和泰语。更好的多语言教学跟踪能力。我们建议MULTIALPACA来补充ALPACA和CHINESEALPACA，使LLM更好地遵循多语言说明，特别是那些来自非英语母语人士的指示。强劲的性能。与具有相似模型大小的流行多语言LLM相比，PolyLM在各种任务（包括QA，理解和生成）上表现出卓越的性能。
+
+* [lyogavin/Anima](https://github.com/lyogavin/Anima) 第一个开源的基于QLoRA的33B中文大语言模型。基于QLoRA开源的33B guanaco训练了10000 steps。训练使用一个H100 GPU。
+
+* [Alibaba-NLP/EcomGPT](https://github.com/Alibaba-NLP/EcomGPT) 一种面向电子商务的指令调优大语言模型。共有250万条指令数据。使用电子商务基本数据类型（如产品信息，用户评论）构建原子任务来扩展数据大小和任务多样性。原子任务被定义为隐含参与解决最终任务的中间任务，我们也称之为任务链任务。
+
+* [davendw49/k2](https://github.com/davendw49/k2) 一种开源语言模型，首先在收集和清理的地球科学文献（包括地球科学开放获取论文和维基百科页面）上进一步预训练LLaMA，其次使用知识密集型指令调整数据（GeoSignal）进行微调。至于初步评估，我们使用GeoBench（由NPEE和AP地质，地理和环境科学测试组成）作为基准。与具有相似参数的几个基线模型相比，K2 在客观和主观任务上的表现优于基线。
+
+* [ddzipp/AutoAudit](https://github.com/ddzipp/AutoAudit) 专门针对网络安全领域的大语言模型，其目标是为安全审计和网络防御提供强大的自然语言处理能力。它具备分析恶意代码、检测网络攻击、预测安全漏洞等功能，为安全专业人员提供有力的支持。采用了数据集组织方法Self-Instruct，该方法结合了人工标注和自我生成的数据。数据集主要来自于Github、Kaggle、安全网站、公开的安全漏洞数据集组成，随后经过清洗、数据增强等来构造对话数据。数据集严格按照Alpaca模型数据集格式组织，分为Instruction，input，output三部分，我们规定在output输出中应当包含对具体内容的分析（analysis），安全评级（label），安全风险（risk），以及对应的解决方案（solution）。
 
 ### 文本生成、文本对话
 
@@ -6651,6 +6692,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [gonum/gonum](https://github.com/gonum/gonum) 用于 Go 编程语言的数字库。它包含矩阵、统计、优化等库
 
 * [uber-go/zap](https://github.com/uber-go/zap) 在 Go 中实现超快、结构化、分级的日志记录。
+
+* [ahmedash95/build-redis-from-scratch](https://github.com/ahmedash95/build-redis-from-scratch) 如何在 Go 中实现内存中数据库（如 Redis ）的文章系列。
 
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
 
