@@ -1669,6 +1669,14 @@
 
 * [ddzipp/AutoAudit](https://github.com/ddzipp/AutoAudit) 专门针对网络安全领域的大语言模型，其目标是为安全审计和网络防御提供强大的自然语言处理能力。它具备分析恶意代码、检测网络攻击、预测安全漏洞等功能，为安全专业人员提供有力的支持。采用了数据集组织方法Self-Instruct，该方法结合了人工标注和自我生成的数据。数据集主要来自于Github、Kaggle、安全网站、公开的安全漏洞数据集组成，随后经过清洗、数据增强等来构造对话数据。数据集严格按照Alpaca模型数据集格式组织，分为Instruction，input，output三部分，我们规定在output输出中应当包含对具体内容的分析（analysis），安全评级（label），安全风险（risk），以及对应的解决方案（solution）。
 
+* [shroominic/codeinterpreter-api](https://github.com/shroominic/codeinterpreter-api) ChatGPT 代码解释器的 LangChain 实现。使用 CodeBox 作为沙盒 python 代码执行的后端。CodeBox是LLM应用程序的最简单的云基础架构。您可以使用自己的OpenAI API密钥在本地运行除LLM之外的所有内容。
+
+* [gofireflyio/aiac](https://github.com/gofireflyio/aiac) 命令行工具，用于通过 OpenAI 的 API 生成 IaC（基础设施即代码）模板、配置、实用程序、查询等。CLI 允许您要求模型为不同的场景生成模板。它将发出请求，并将结果代码存储到文件中，或者只是将其打印到标准输出。
+
+* [anc95/ChatGPT-CodeReview](https://github.com/anc95/ChatGPT-CodeReview) 由 ChatGPT 提供支持的代码审查机器人
+
+* [sqlchat/sqlchat](https://github.com/sqlchat/sqlchat) 基于聊天的 SQL 客户端和编辑器。基于聊天的 SQL 客户端，它使用自然语言与数据库通信，实现数据库的查询、修改、添加、删除等操作。
+
 #### 健康医学大模型及语料库
 
 - [FreedomIntelligence/HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT) 华佗GPT，迈向驯服语言模型成为医生。在庞大的中国医学语料库上训练的大型语言模型（LLM）。我们与华拓GPT的目标是为医疗咨询场景构建更专业的“ChatGPT”。[demo](https://www.huatuogpt.cn/)
@@ -1919,7 +1927,57 @@
 
 * [davendw49/k2](https://github.com/davendw49/k2) 一种开源语言模型，首先在收集和清理的地球科学文献（包括地球科学开放获取论文和维基百科页面）上进一步预训练LLaMA，其次使用知识密集型指令调整数据（GeoSignal）进行微调。至于初步评估，我们使用GeoBench（由NPEE和AP地质，地理和环境科学测试组成）作为基准。与具有相似参数的几个基线模型相比，K2 在客观和主观任务上的表现优于基线。
 
-* [neukg/TechGPT](https://github.com/neukg/TechGPT) “东北大学知识图谱研究组”发布的垂直领域大语言模型。强化了如下三类任务:以“知识图谱构建”为核心的关系三元组抽取等各类信息抽取任务。以“阅读理解”为核心的各类智能问答任务。以“文本理解”为核心的关键词生成等各类序列生成任务。
+* [neukg/TechGPT](https://github.com/neukg/TechGPT) “东北大学知识图谱研究组”发布的垂直领域大语言模型。强化了如下任务:以“知识图谱构建”为核心的关系三元组抽取等各类信息抽取任务。以“阅读理解”为核心的各类智能问答任务。以“文本理解”为核心的关键词生成等各类生成任务。
+
+* [microsoft/i-Code](https://github.com/microsoft/i-Code) 构建集成和可组合的多模态人工智能。“i”代表综合多模态学习。
+
+* [arc53/DocsGPT](https://github.com/arc53/DocsGPT) GPT 支持的文档聊天，与您的文档聊天
+
+* [guangzhengli/ChatFiles](https://github.com/guangzhengli/ChatFiles)  文档聊天机器人 — 多个文件。由 GPT / 嵌入提供支持。
+
+* [whitead/paper-qa](https://github.com/whitead/paper-qa) 从PDF或文本文件（可以是原始HTML）进行问答。它努力通过文本引用来提供非常好的答案，没有幻觉。使用OpenAI嵌入和称为FAISS的矢量数据库来嵌入和搜索文档。
+
+* [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference) 用于文本生成推理的 Rust、Py 和 gRPC 服务器。在HuggingFace的生产中使用，以支持Hugging Chat，推理API和推理端点。
+
+* [mylxsw/aidea](https://github.com/mylxsw/aidea) 一款支持 GPT 以及国产大语言模型通义千问、文心一言等，支持 Stable Diffusion 文生图、图生图、 SDXL1.0、超分辨率、图片上色的全能型 APP。
+
+* [jmorganca/ollama](https://github.com/jmorganca/ollama) 在本地启动并运行 Llama 2 和其他大型语言模型
+
+* [serge-chat/serge](https://github.com/serge-chat/serge) 用[llama.cpp](https://github.com/ggerganov/llama.cpp)运行Alpaca羊驼模型。没有API密钥，完全自托管
+
+* [zetavg/LLaMA-LoRA-Tuner](https://github.com/zetavg/LLaMA-LoRA-Tuner) 用于微调和测试您自己的 LoRA 模型的 UI 工具基于 LLaMA， GPT-J 等.一键运行在谷歌Colab上。+ 一个类似 Gradio ChatGPT 的聊天用户界面，用于演示您的语言模型。
+
+* [vercel-labs/ai-chatbot](https://github.com/vercel-labs/ai-chatbot) 使用 Next.js、Vercel AI SDK、OpenAI 和 Vercel KV 构建的开源 AI 聊天机器人应用程序模板。
+
+* [RockChinQ/QChatGPT](https://github.com/RockChinQ/QChatGPT) : 高稳定性、支持插件、实时联网的 ChatGPT QQ 机器人 | 支持 Claude、Google Bard、gpt4free、One API 的 QQ 机器人平台
+
+* [zhayujie/bot-on-anything](https://github.com/zhayujie/bot-on-anything) 将 ChatGPT、必应、文心一言、谷歌Bard 等对话模型连接各类应用，如微信、公众号、QQ、Telegram、Gmail、Slack、Web、企业微信、飞书、钉钉等。
+
+* [askrella/whatsapp-chatgpt](https://github.com/askrella/whatsapp-chatgpt) WhatsApp机器人使用OpenAI的GPT和DALL-E 2来响应用户输入。
+
+* [wangrongding/wechat-bot](https://github.com/wangrongding/wechat-bot) 基于OpenAi ChatGPT + WeChaty 实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...
+
+* [OpenGVLab/InternGPT](https://github.com/OpenGVLab/InternGPT) 开源演示平台，您可以在其中轻松展示您的 AI 模型。现在它支持DragGAN，ChatGPT，ImageBind，多模态聊天，如GPT-4，SAM，交互式图像编辑等
+
+* [TBXark/ChatGPT-Telegram-Workers](https://github.com/TBXark/ChatGPT-Telegram-Workers) 在Cloudflare Workers上轻松部署您自己的Telegram ChatGPT机器人。
+
+* [leon-ai/leon](https://github.com/leon-ai/leon) 您的开源个人助理。Leon的NLU将首先使用自己的模型，而不依赖LLM。重要的是，Leon可以100%离线运行，我相信，通过量化等缩小技术，Leon迟早会以LLM为核心，并且仍然能够在边缘运行。
+
+* [minimaxir/simpleaichat](https://github.com/minimaxir/simpleaichat) Python 包可轻松与聊天应用程序接口，具有强大的功能和最小的代码复杂性。可轻松与ChatGPT和GPT-4等聊天应用程序接口，具有强大的功能和最小的代码复杂性。
+
+* [josStorer/RWKV-Runner](https://github.com/josStorer/RWKV-Runner) RWKV管理和启动工具，完全自动化，只有8MB。并提供与OpenAI API兼容的接口。RWKV 是一种完全开源的大型语言模型，可用于商业用途。
+
+* [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt) 一个Web应用程序，使您能够与ChatGPT交谈。
+
+* [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim) Neovim插件：使用ChatGPT API轻松生成自然语言
+
+* [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) 基于ChatGPT3.5 API实现的私有化web程序
+
+* [pashpashpash/vault-ai](https://github.com/pashpashpash/vault-ai) 使用 OP Stack（OpenAI + Pinecone Vector Database）为 ChatGPT 提供长期记忆。使用简单的 React 前端上传您自己的自定义知识库文件（PDF、txt、epub 等）。
+
+* [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel) 优雅而有力的网页ChatGPT界面。由OpenAI和Vercel提供支持。
+
+* [PlexPt/chatgpt-java](https://github.com/PlexPt/chatgpt-java) ChatGPT Java SDK。支持 GPT3.5、 GPT4 API。开箱即用。
 
 ### 文本生成、文本对话
 
@@ -2422,6 +2480,8 @@
 [nltk/nltk](https://github.com/nltk/nltk) 支持自然语言处理研究和开发的开源 Python 模块、数据集和教程。
 
 [keon/awesome-nlp](https://github.com/keon/awesome-nlp) 专用于自然语言处理 （NLP） 的资源精选列表
+
+[GitHub - graykode/nlp-tutorial: Natural Language Processing Tutorial for Deep Learning Researchers](https://github.com/graykode/nlp-tutorial) 面向深度学习研究人员的自然语言处理教程
 
 [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) Stanford NLP Group 的官方 Python NLP 库。 它支持在 60 多种语言上运行各种准确的自然语言处理工具。
 
@@ -3055,6 +3115,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [adeline-cs/GTR](https://github.com/adeline-cs/GTR) 场景文字识别 现有的场景文本识别（STR）方法通常使用语言模型来优化视觉识别（VR）模型预测的一维字符序列的联合概率，忽略字符实例内部和之间的视觉语义的二维空间上下文，使它们不能很好地推广到任意形状的场景文本。为了解决这个问题，本文中首次尝试基于视觉语义进行文本推理。给定 VR 模型预测的字符分割图，为每个实例构建子图，节点表示其中的像素，根据它们的空间相似性在节点之间添加边。然后，子图通过根节点顺序连接成一个完整的图。
 
+[lukas-blecher/LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) pix2tex：使用ViT将方程式图像转换为LaTeX代码。目标是创建一个基于学习的系统，该系统获取数学公式的图像并返回相应的LaTeX代码。
+
 [Layout-Parser/layout-parser](https://github.com/Layout-Parser/layout-parser) 基于深度学习的文档图像分析的统一工具包，旨在简化文档图像分析 (DIA) 任务。
 
 [phamquiluan/PubLayNet](https://github.com/phamquiluan/PubLayNet) PubLayNet数据集上的MaskRCNN。段落检测、表格检测、图形检测... 个大型文档图像数据集，其布局使用边界框和多边形分割进行标注。
@@ -3086,6 +3148,10 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab基于PyTorch的开源对象检测工具箱
 
 [microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) 基于Masked Image Modeling的预训练方法，适用于 Swin 和 SwinV2（也适用于 ViT 和 ResNet）。它可以作为计算机视觉的通用主干。它基本上是一个分层变换器，其表示是用移位窗口计算的。移位窗口方案通过将 self-attention 计算限制在不重叠的本地窗口上，同时还允许跨窗口连接，从而带来更高的效率。将 CLIP 预训练的 ViT-L 提高了 +1.6%，以达到ImageNet-1K 图像分类，这是最准确的 ViT-L 模型。在 COCO 对象检测（58.7 box AP和51.1 mask APtest-dev）和 ADE20K 语义分割（53.5 mIoU在 val）上实现了强大的性能，大大超过了以前的模型。
+
+[PaddlePaddle/PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) 易于使用的图像分割库，具有出色的预训练模型库，支持语义分割、交互式分割、全景分割、图像叠加、3D 分割等广泛的实际任务。
+
+[open-mmlab/mmsegmentation](https://github.com/open-mmlab/mmsegmentation) OpenMMLab语义分割工具箱和基准测试。
 
 [google-research/kubric](https://github.com/google-research/kubric) 一个数据生成管道，用于创建具有丰富注释的半真实合成多对象视频，例如实例分割掩码、深度图和光流。
 
@@ -3518,6 +3584,8 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 [Charmve/computer-vision-in-action](https://github.com/Charmve/computer-vision-in-action) 学习闭环《计算机视觉实战演练：算法与应用》中文电子书、源码、读者交流社区  [计算机视觉实战演练：算法与应用🌱](https://charmve.github.io/computer-vision-in-action/)
 
 [raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2) 单目、立体和RGB-D相机的实时SLAM，具有环路检测和重新定位功能
+
+[dk-liang/Awesome-Visual-Transformer](https://github.com/dk-liang/Awesome-Visual-Transformer) 收集一些关于Transformer变压器与计算机视觉的VIT论文。
 
 # 因果推断
 
@@ -3982,6 +4050,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 [Plachtaa/VALL-E-X](https://github.com/Plachtaa/VALL-E-X) Microsoft的VALL-E X零样本TTS模型的开源实现。`多语言TTS`：用英语，中文和日语进行自然而富有表现力的语音合成。`零样本语音克隆`：注册一个看不见的演讲者的短短 3~10 秒录音， VALL-E X 即可创建听起来像他们的个性化、高质量的语音！`言语情绪控制`：可以合成具有与提供的声学提示相同的情感的语音，为您的音频添加额外的表现力。`零样本跨语言TTS`：让单语使用者踏上语言之旅！VALL-E X可以用另一种语言生成个性化的语音，而不会影响流利度或口音。`口音控制`：利用口音发挥创意！允许您尝试不同的口音，例如说带有英语口音的中文，反之亦然。`声学环境维护`：无需完全干净的音频提示！可适应输入的声学环境，使语音生成感觉自然而身临其境。
 
+[openai/jukebox](https://github.com/openai/jukebox) 论文“点唱机：音乐的生成模型”的代码
+
 [OlaWod/FreeVC](https://github.com/OlaWod/FreeVC) 迈向高质量的无文本一次性语音转换。采用VITS端到端框架进行高质量波形重建，并提出了无文本标注的干净内容信息提取策略。通过对WavLM特征施加信息瓶颈来解开内容信息，并提出基于频谱图调整大小的数据增强，以提高提取内容信息的纯度。
 
 [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) 一个用于通过深度学习进行音频处理和生成的库。它具有最先进的 EnCodec 音频压缩器/分词器，以及 MusicGen，这是一种简单且可控的音乐生成 LM，具有文本和旋律调节功能。
@@ -4027,6 +4097,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 [keithito/tacotron](https://github.com/keithito/tacotron) 使用预训练模型的Google的Tacotron语音合成的TensorFlow实现（非官方）
 
 [r9y9/deepvoice3_pytorch](https://github.com/r9y9/deepvoice3_pytorch) 基于卷积神经网络的文本到语音合成模型的Torch 实现
+
+[AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) 理解和生成语音、音乐、声音和说话的头部
 
 ## 语音识别与合成_其他
 
@@ -4499,10 +4571,6 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 [erikbern/ann-benchmarks](https://github.com/erikbern/ann-benchmarks) 最邻近搜索
 
 [vesoft-inc/nebula](https://github.com/vesoft-inc/nebula) 分布式、可扩展、闪电般的图形数据库
-
-[milvus-io/milvus](https://github.com/milvus-io/milvus) 大规模特征向量的最快相似度搜索引擎 基于Faiss、Annoy等开源库，并针对性做了定制，支持结构化查询、多模查询等业界比较急需的功能；Milvus支持cpu、gpu、arm等多种类型的处理器；同时使用mysql存储元数据，并且在共享存储的支持下，Milvus可以支持分布式部署。
-
-[vearch/vearch](https://github.com/vearch/vearch) 用于嵌入式向量高效相似性搜索的分布式系统
 
 [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) The Only Native GraphQL Database With A Graph Backend.
 
@@ -5060,6 +5128,10 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 ## 向量数据库、向量搜索、最近邻搜索
 
+[milvus-io/milvus](https://github.com/milvus-io/milvus) 大规模特征向量的最快相似度搜索引擎 基于Faiss、Annoy等开源库，并针对性做了定制，支持结构化查询、多模查询等业界比较急需的功能；Milvus支持cpu、gpu、arm等多种类型的处理器；同时使用mysql存储元数据，并且在共享存储的支持下，Milvus可以支持分布式部署。
+
+[vearch/vearch](https://github.com/vearch/vearch) 用于嵌入式向量高效相似性搜索的分布式系统
+
 [spotify/annoy](https://github.com/spotify/annoy) C++/Python 中的近似最近邻针对内存使用和加载/保存到磁盘进行了优化
 
 [qdrant/qdrant](https://github.com/qdrant/qdrant) 一个矢量相似性搜索引擎和矢量数据库。它提供生产就绪的服务，并带有方便的 API 来存储、搜索和管理点 - 具有附加有效载荷的矢量 Qdrant 专为扩展过滤支持量身定制。它使其可用于各种神经网络或基于语义的匹配、分面搜索和其他应用程序。
@@ -5076,8 +5148,6 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 [marqo-ai/marqo](https://github.com/marqo-ai/marqo) 端到端的多模态矢量搜索引擎。借助 Marqo，用户可以通过单个易于使用的 API 存储和查询非结构化数据，例如文本、图像和代码。输入预处理、机器学习推理和存储都是开箱即用的，可以轻松扩展。
 
-[vearch/vearch](https://github.com/vearch/vearch) 一种基于嵌入的向量检索分布式系统
-
 [currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search) 矢量搜索相关库、服务和研究论文集
 
 [vdaas/vald](https://github.com/vdaas/vald) 高度可扩展的分布式矢量搜索引擎
@@ -5087,6 +5157,10 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 [neuml/txtai](https://github.com/neuml/txtai) 用于语义搜索、LLM 编排和语言模型工作流的一体化开源嵌入数据库
 
 [chroma-core/chroma](https://github.com/chroma-core/chroma) AI 原生开源嵌入数据库
+
+[milvus-io/milvus-lite](https://github.com/milvus-io/milvus-lite) Milvus 的轻量级版本，可以嵌入到 Python 应用程序中。
+
+[milvus-io/bootcamp](https://github.com/milvus-io/bootcamp) 处理所有非结构化数据，如反向图像搜索、音频搜索、分子搜索、视频分析、问答系统、NLP 等。使用神经网络从非结构化数据中提取特征向量，例如图像、音频和视频等。然后通过计算特征向量来分析非结构化数据，例如计算向量的欧几里得或余弦距离以获得相似性。
 
 ## 其他__大数据
 
@@ -6692,6 +6766,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates) 最佳 Flutter-UI 模板
 
+* [cfug/dio](https://github.com/cfug/dio)  一个强大的 HTTP 客户端，用于 Dart 和 Flutter，支持全局设置、拦截器、FormData、中止和取消请求、文件上传和下载、请求超时、自定义适配器等。
+
 * [xujiyou/zhihu-flutter](https://github.com/xujiyou/zhihu-flutter) Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
 
 * [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) 包含了最好的 Flutter 库、工具、教程、文章等。
@@ -6827,6 +6903,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) 用 JavaScript 实现的算法和数据结构，带有解释和进一步阅读的链接
 
 * [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) 交互式路线图、指南和其他教育内容，以帮助开发人员在他们的职业生涯中成长。包括：前端、后端、开发运营、计算机科学、质量检查、软件架构师、软件设计和架构路、JavaScript、TypeScript、React、Vue 、Angular、Node.js、GraphQL、安卓、Flutter、Python、Go、Java、Spring Boot、设计系统、DBA、区块链、ASP.NET、系统设计、Kubernetes
+
+* [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) 流行编程语言、框架和开发工具的精彩备忘单。它们在一个文件中包含您应该知道的所有内容。
 
 * [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) 对设计模式的超简化解释
 
@@ -7368,6 +7446,14 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [bazelbuild/bazel](https://github.com/bazelbuild/bazel) 快速、可扩展、多语言和可扩展的构建系统。构建和测试Java，C++，Android，iOS，Go和各种其他语言平台。
 
 * [Fechin/reference](https://github.com/Fechin/reference) 为开发人员共享快速参考备忘单。
+
+* [midoks/mdserver-web](https://github.com/midoks/mdserver-web) 一款简单Linux面板服务
+
+* [laravel/laravel](https://github.com/laravel/laravel) PHP Web应用程序框架，具有富有表现力，优雅的语法。我们已经为您的下一个大创意奠定了基础——让您自由地进行创作，而不会为小事出汗。
+
+* [laravel/framework](https://github.com/laravel/framework) 包含PHP Laravel框架的核心代码。
+
+* [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) 一个精选的列表，包含令人赞叹的 PHP 库、资源和东西。
 
 # Star数变化
 
