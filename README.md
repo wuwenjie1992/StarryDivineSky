@@ -714,6 +714,8 @@
 
 * [tensorflow/tfjs](https://github.com/tensorflow/tfjs) WebGL 加速的 JavaScript 库，用于训练和部署 ML 模型。
 
+* [aws/sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk) 用于在 Amazon SageMaker 上训练和部署机器学习模型的库
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1569,6 +1571,10 @@
 
 * [jeinlee1991/chinese-llm-benchmark](https://github.com/jeinlee1991/chinese-llm-benchmark) 中文大模型能力评测榜单：覆盖文心一言、chatgpt、通义千问、讯飞星火、belle / chatglm 等开源大模型，多维度能力评测。不仅提供能力评分排行榜，也提供所有模型的原始输出结果！
 
+* [CLUEbenchmark/CLUE](https://github.com/CLUEbenchmark/CLUE) 中文语言理解测评基准 中文理解评估基准：数据集、基线、预训练模型、语料库和排行榜
+
+* [CLUEbenchmark/SuperCLUE](https://github.com/CLUEbenchmark/SuperCLUE) 中文通用大模型综合性基准。[superclueai](https://www.superclueai.com)
+
 * [thu-coai/Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) 中文安全prompts，评估和提升大模型的安全性。
 
 * [RUCAIBox/HaluEval](https://github.com/RUCAIBox/HaluEval) 大型语言模型的大规模幻觉评估基准。包括 5,000 个带有 ChatGPT 响应的一般用户查询和来自三个任务的 30,000 个特定于任务的示例，即问答、基于知识的对话和文本摘要。
@@ -1618,6 +1624,12 @@
 * [reorx/awesome-chatgpt-api](https://github.com/reorx/awesome-chatgpt-api) 精选的应用程序和工具列表，这些应用程序和工具不仅使用新的 ChatGPT API，还允许用户配置自己的 API 密钥，从而免费和按需使用自己的配额。
 
 * [embedchain/embedchain](https://github.com/embedchain/embedchain) LLM 的数据平台 - 加载、索引、检索和同步任何非结构化数据，可以在任何数据集上轻松创建LLM驱动的机器人。支持的数据类型：视频、PDF、网页、网站地图、文档等
+
+* [shibing624/textgen](https://github.com/shibing624/textgen) 文本生成模型的实现，包括LLaMA，BLOOM，GPT2，BART，T5，SongNet等。文本生成模型，实现了包括LLaMA，ChatGLM，BLOOM，GPT2，Seq2Seq，BART，T5，UDA等模型的训练和预测，开箱即用。
+
+* [wangrui6/Zhihu-KOL](https://huggingface.co/datasets/wangrui6/Zhihu-KOL) 用于训练开放助手的知乎数据
+
+* [JosephusCheung/GuanacoDataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) Guanaco模型的数据集旨在增强多语言能力并解决各种语言任务。它以 Alpaca 模型中的 175 个任务为基础，提供不同语言的种子任务重写，并添加专门为英语语法分析、自然语言理解、跨语言自我意识和显式内容识别而设计的新任务。该数据集总共包含 534,530 个条目，以 6K 美元的低成本生成。
 
 #### 编程语言大模型及相关项目
 
@@ -1979,6 +1991,8 @@
 
 * [PlexPt/chatgpt-java](https://github.com/PlexPt/chatgpt-java) ChatGPT Java SDK。支持 GPT3.5、 GPT4 API。开箱即用。
 
+* [Chainlit/chainlit](https://github.com/Chainlit/chainlit) 在几分钟内构建Python LLM应用程序
+
 ### 文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -2034,6 +2048,12 @@
 * [deeppavlov/DeepPavlov](https://github.com/deeppavlov/DeepPavlov) 用于深度学习端到端对话系统和聊天机器人的开源库。
 
 * [bentrevett/pytorch-seq2seq](https://github.com/bentrevett/pytorch-seq2seq) 使用 PyTorch 和 TorchText 实现一些序列到序列 （seq2seq） 模型的教程。
+
+* [RasaHQ/rasa](https://github.com/RasaHQ/rasa) 开源机器学习框架，用于自动化基于文本和语音的对话：NLU、对话管理、连接到 Slack、Facebook 等 - 创建聊天机器人和语音助手
+
+* [gunthercox/ChatterBot](https://github.com/gunthercox/ChatterBot) 一个机器学习的对话对话引擎，用于创建聊天机器人
+
+* [howdyai/botkit](https://github.com/howdyai/botkit) 一个开源开发人员工具，用于为主要消息传递平台构建聊天机器人、应用程序和自定义集成。
 
 ## 文本匹配 文本相似度
 
@@ -2099,7 +2119,9 @@
 
 * [epidemic-sentence-pair](https://github.com/zzy99/epidemic-sentence-pair) 新冠疫情相似句对判定大赛 线上第一名方案。BERT模型融合、数据对称扩充、数据传递扩充、对抗训练、伪标签。
 
-* [KKenny0/sohu2021](https://github.com/KKenny0/sohu2021) 2021搜狐校园文本匹配算法大赛方案，基于BERT的交互模型，通过BERT来得到source-target pair的向量表示。任务：短短、短长和长长文本匹配。
+* [KKenny0/sohu2021](https://github.com/KKenny0/sohu2021) 2021搜狐校园文本匹配算法大赛方案，基于BERT的交互模型，通过BERT来得到source-target pair的向量表示。任务：短短、短长和长长匹配。
+
+* [DMetaSoul/chinese-semantic-textual-similarity](https://huggingface.co/datasets/DMetaSoul/chinese-semantic-textual-similarity) 为了对 like-BERT 预训练模型进行 fine-tune 调优和评测以得到更好的文本表征模，对业界开源的语义相似（STS）、自然语言推理（NLI）、问题匹配（QMC）以及相关性等数据集进行了搜集整理
 
 ## 机器阅读理解
 
@@ -2374,6 +2396,10 @@
 * [ywjawmw/TCM_KG](https://github.com/ywjawmw/TCM_KG) 中医TCM-neo4j 知识图谱
 
 * [ydli-ai/CSL](https://github.com/ydli-ai/CSL) 首个中文科学文献数据集（CSL），包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）。CSL 数据集可以作为预训练语料，也可以构建许多NLP任务，例如文本摘要（标题预测）、 关键词生成和文本分类等。
+
+* [WuDaoCorpora Text文本预训练数据集](https://data.baai.ac.cn/details/WuDaoCorporaText) 北京智源人工智能研究院（智源研究院）构建的大规模、高质量数据集，用于支撑大模型训练研究。目前由文本、对话、图文对、视频文本对四部分组成，分别致力于构建微型语言世界、提炼对话核心规律、打破图文模态壁垒、建立视频文字关联，为大模型训练提供坚实的数据支撑。采用20多种规则从100TB原始网页数据中清洗得出最终数据集，注重隐私数据信息的去除，源头上避免GPT-3存在的隐私泄露风险；包含教育、科技等50+个行业数据标签，可以支持多领域预训练模型的训练。
+
+* [beyond/chinese_clean_passages_80m](https://huggingface.co/datasets/beyond/chinese_clean_passages_80m) 包含8千余万纯净中文段落，不包含任何字母、数字。文本长度大部分介于50~200个汉字之间。数据是基于CLUE中文预训练语料集进行处理、过滤得到的。
 
 ## 关系抽取、信息抽取
 
@@ -2670,7 +2696,11 @@ https://github.com/thunlp/PromptPapers 关于基于提示的预先训练语言�
 
 [ssut/py-googletrans](https://github.com/ssut/py-googletrans) （非官方）Googletrans：免费且无限制的 Google 翻译 API for Python。翻译完全免费。
 
-[https://github.com/jgm/pandoc](https://github.com/jgm/pandoc) 通用标记转换器。一个Haskell库，用于从一种标记格式转换为另一种标记格式，以及使用该库的命令行工具。
+[jgm/pandoc](https://github.com/jgm/pandoc) 通用标记转换器。一个Haskell库，用于从一种标记格式转换为另一种标记格式，以及使用该库的命令行工具。
+
+[shibing624/bart4csc-base-chinese](https://huggingface.co/shibing624/bart4csc-base-chinese) BART中文拼写纠错模型，训练使用了SIGHAN + Wang271K 中文纠错数据集，在SIGHAN2015的测试集上达到接近SOTA水平。
+
+
 
 # 推荐系统
 
@@ -2971,6 +3001,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [Coder-Yu/SELFRec](https://github.com/Coder-Yu/SELFRec) 一个用于自我监督推荐 (SSR) 的 Python 框架，它集成了常用的数据集和指标，并实现了许多最先进的 SSR 模型。 SELFRec 具有轻量级架构并提供用户友好的界面。 它可以促进模型的实施和评估。
 
+[caserec/Datasets-for-Recommender-Systems](https://github.com/caserec/Datasets-for-Recommender-Systems) 一个以主题为中心的高质量推荐系统（RS）公共数据集。
+
 # 机器视觉
 
 ## 人像\姿势\3D人脸
@@ -3067,6 +3099,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [fengq1a0/FOF](https://github.com/fengq1a0/FOF) 学习傅里叶占有场(Fourier Occupancy Fields)用于单目实时人体重建
 
+[damo/cv_mobilenet_face-2d-keypoints_alignment](https://modelscope.cn/models/damo/cv_mobilenet_face-2d-keypoints_alignment/summary) 106点人脸关键点检测模型，该模型主要用于人脸关键点检测和对齐任务，从包含人脸的图片中检测出人脸框、人脸关键点坐标和人脸姿态角。主要借鉴MobileNetV1和MobileNetV2的思路(如下图)，MobileNetV1速度快，放在浅层用于提取特征图，MobileNetV2速度相对慢但是信息保存好，用于提取深层语义信息，模型参数量少速度快，能良好应用在移动端实时人脸关键点检测场景。
+
 ## 图像恢复
 
 [microsoft/Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life) 旧照片修复
@@ -3086,6 +3120,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [bilibili/ailab](https://github.com/bilibili/ailab) 使用百万级动漫数据进行训练的，结构与Waifu2x兼容的通用动漫图像超分辨率模型。它支持2x\3x\4x倍超分辨率，其中2倍模型支持4种降噪强度与保守修复，3倍/4倍模型支持2种降噪强度与保守修复。
 
 [nagadomi/waifu2x](https://github.com/nagadomi/waifu2x) 动漫风格艺术的图像超分辨率
+
+[andreas128/RePaint](https://github.com/andreas128/RePaint) 官方 PyTorch 代码和“重绘：使用去噪扩散概率模型进行修复”模型，CVPR 2022
 
 ## 光学字符识别OCR
 
@@ -3125,7 +3161,7 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) 为扫描的 PDF 文件添加OCR 文本图层，允许对其进行搜索
 
-## 视频补帧
+## 视频补帧、摘要
 
 [hzwer/arXiv2020-RIFE](https://github.com/hzwer/arXiv2020-RIFE) 视频帧插值的实时中级流量估计.旷视和北大提出的一种实时中间流估计算法。用于视频帧插值，能够改善伪影、让视频更丝滑。
 
@@ -3140,6 +3176,8 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 [myungsub/CAIN](https://github.com/myungsub/CAIN) 视频帧插值只需要频道注意力
 
 [nihui/cain-ncnn-vulkan](https://github.com/nihui/cain-ncnn-vulkan) CAIN，使用 ncnn 库实现的视频帧插值只需要频道注意力
+
+[damo/cv_googlenet_pgl-video-summarization](https://modelscope.cn/models/damo/cv_googlenet_pgl-video-summarization/summary) 输入一段长视频，算法对视频进行镜头切割得到视频片段，评估视频帧的重要性，输出重要视频帧的帧号，根据帧号可以合成一段短视频（摘要视频）。采用local和global的多头注意力构成的transformer模型
 
 ## 对象检测、分割
 
@@ -3257,6 +3295,10 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion) 具有潜在扩散模型的高分辨率图像合成
 
+[YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) 扩散模型论文、调查和分类法
+
+[diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) 关于扩散模型的资源和论文集
+
 [TheRamU/Fay](https://github.com/TheRamU/Fay) Fay是一个完整的开源项目，包含Fay控制器及数字人模型，可灵活组合出不同的应用场景：虚拟主播、现场推销货、商品导购、语音助理、远程语音助理、数字人互动、数字人面试官及心理测评、贾维斯、Her。
 
 [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini) DALL·E Mini - 从文本提示生成图像
@@ -3267,11 +3309,15 @@ https://github.com/NLPWM-WHU/EDUA 多样性推荐的 EDUA 模型。其采用双�
 
 [yangjianxin1/CLIP-Chinese](https://github.com/yangjianxin1/CLIP-Chinese) 中文多模态对比学习预训练模型 ，可获取140w中文图文对预训练数据，以及中文CLIP预训练权重。下游任务：图文相似度计算、文本相似度计算、图片相似度计算
 
+[lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) 让我们控制扩散模型！ControlNet 是一种神经网络结构，通过添加额外条件来控制扩散模型。
+
 [jexom/sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib) 深度图库，用于 Automatic1111/stable-diffusion-webui 的控制网扩展
 
 [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 排行榜第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
 
 [openai/consistency_models](https://github.com/openai/consistency_models) 一致性模型的官方存储库。Diffusion Models 在生成一张图片时需要多次进行模型推理，对于实时性较强的应用，就很难让人满意了。这篇文章所claim的一步采样即能达到较好的效果。
+
+[open-mmlab/mmagic](https://github.com/open-mmlab/mmagic) OpenMMLab 多模态高级、生成和智能创建工具箱。解锁魔法：生成AI（AIGC），易于使用的API，awsome模型库，扩散模型，用于文本到图像生成，图像/视频恢复/增强等。
 
 [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
 
@@ -3586,6 +3632,10 @@ https://github.com/google-research/mixmatch 集成了自洽正则化的超强半
 [raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2) 单目、立体和RGB-D相机的实时SLAM，具有环路检测和重新定位功能
 
 [dk-liang/Awesome-Visual-Transformer](https://github.com/dk-liang/Awesome-Visual-Transformer) 收集一些关于Transformer变压器与计算机视觉的VIT论文。
+
+[lukasHoel/text2room](https://github.com/lukasHoel/text2room) Text2Room 使用 2D 文本到图像模型 （ICCV2023） 从给定的文本提示生成纹理 3D 网格。
+
+[facebookresearch/ImageBind](https://github.com/facebookresearch/ImageBind) 一个嵌入空间以绑定图像的所有内容，ImageBind 学习跨六种不同模式的联合嵌入 - 图像、文本、音频、深度、热量和 IMU 数据（惯性测量单元，是用来测量物体加速度、角速度、磁场，高度等）。它支持“开箱即用”的新型紧急应用，包括跨模态检索、使用算术组合模态、跨模态检测和生成。
 
 # 因果推断
 
@@ -4025,6 +4075,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 [k2-fsa/sherpa-ncnn](https://github.com/k2-fsa/sherpa-ncnn) 使用下一代 Kaldi 和 ncnn 进行实时语音识别，无需互联网连接。支持iOS，Android，Raspberry Pi，VisionFive2等。
 
 [wenet-e2e/wespeaker](https://github.com/wenet-e2e/wespeaker) 专注于说话人嵌入学习，并应用于说话人验证任务。我们支持在线特征提取或加载 kaldi 格式的预提取特征。
+
+[damo/speech_charctc_kws_phone-xiaoyun](https://modelscope.cn/models/damo/speech_charctc_kws_phone-xiaoyun/summary) CTC语音唤醒-移动端-单麦-16k-小云小云，网络结构继承自论文《Compact Feedforward Sequential Memory Networks for Small-footprint Keyword Spotting》，其主体为4层cFSMN结构(如下图所示)，参数量约750K，适用于移动端设备运行。模型输入采用Fbank特征，训练阶段使用CTC-loss计算损失并更新参数，输出为基于char建模的中文全集token预测，token数共2599个。测试工具根据每一帧的预测数据进行后处理得到输入音频的实时检测结果。模型训练采用"basetrain + finetune"的模式，basetrain过程使用大量内部移动端数据，在此基础上，使用1万条设备端录制安静场景“小云小云”数据进行微调，得到最终面向业务的模型。由于采用了中文char全量token建模，并使用充分数据进行basetrain，本模型支持基本的唤醒词/命令词自定义功能，但具体性能无法评估。
 
 ## 语音合成
 
@@ -5165,6 +5217,10 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 ## 其他__大数据
 
 [redis/redis](https://github.com/redis/redis) 一个内存中数据库，它保留在磁盘上。数据模型是键值，但支持许多不同类型的值：字符串、列表、集合、排序集、哈希、流、Hyper Log Logs、位图。
+
+[redis/redis-py](https://github.com/redis/redis-py) redis内存中数据库的python客户端
+
+
 
 # 虚拟化
 
@@ -6400,6 +6456,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
 
+* [humiaozuzu/awesome-flask](https://github.com/humiaozuzu/awesome-flask) 精选的 Flask 资源和插件列表
+
 * [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
 
 * [withastro/astro](https://github.com/withastro/astro) 现代web网站构建工具 — 强大的开发人员经验，轻量级输出。
@@ -6438,7 +6496,13 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [SocketCluster/socketcluster](https://github.com/SocketCluster/socketcluster) 高度可扩展的实时发布/订阅和 RPC 框架
 
-* [moleculerjs/moleculer](https://github.com/moleculerjs/moleculer) 一个快速，现代和强大的Node.js微服务框架。它可以帮助您构建高效，可靠和可扩展的服务。Moleculer 提供了许多用于构建和管理微服务的功能。
+* [moleculerjs/moleculer](https://github.com/moleculerjs/moleculer) 快速，现代和强大的Node.js微服务框架。它可以帮助您构建高效，可靠和可扩展的服务。Moleculer 提供了许多用于构建和管理微服务的功能。
+
+* [sfyc23/EverydayWechat](https://github.com/sfyc23/EverydayWechat) 微信助手：1.每日定时给好友（女友）发送定制消息。2.机器人自动回复好友。3.群助手功能（例如：查询垃圾分类、天气、日历、电影实时票房、快递物流、PM2.5等）
+
+* [tinode/chat](https://github.com/tinode/chat) 即时通讯平台。Go 中的后端。客户端：Swift iOS，Java Android，JS webapp，可编写脚本的命令行;聊天机器人
+
+* [42wim/matterbridge](https://github.com/42wim/matterbridge) 一个简单的聊天桥 ,Mattermost，IRC，gitter，xmpp，Slack，Discord，Telegram，rocketchat，twitch，ssh-chat，zulip，WhatsApp，Keybase，matrix，Microsoft Teams，Nextcloud，Mumble，vk等与REST API之间的桥梁
 
 ## 网络与前后端开发_其他
 
@@ -6455,6 +6519,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) 有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
+
+* [dataabc/weiboSpider](https://github.com/dataabc/weiboSpider) 新浪微博爬虫，用python爬取新浪微博数据
 
 * [gofiber/fiber](https://github.com/gofiber/fiber) 用 Go 编写的受 Express 启发的 Web 框架
 
@@ -6598,7 +6664,7 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [bunturx/Awesome-Blockchain-Security](https://github.com/bunturx/Awesome-Blockchain-Security) 由伟大的@0xRajeev 创建核心焦点将是以太坊智能合约安全审计。 以太坊、Solidity、智能合约安全和审计。
 
-* [FuelLabs/sway](https://github.com/FuelLabs/sway) 使每个人都能构建可靠高效的智能合约。Sway是为Fuel区块链开发的一种语言。它深受 Rust 的启发，旨在为区块链生态系统带来现代语言开发和性能。
+* [FuelLabs/sway](https://github.com/FuelLabs/sway) 使每个人都能构建可靠高效的智能合约。Sway是为Fuel区块链开发的一种语言。深受 Rust 的启发，旨在为区块链生态系统带来现代语言开发和性能。
 
 # 其他项目
 
@@ -6630,6 +6696,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui) 一个针对Python的快速而强大的图形用户界面工具包，具有最小的依赖性
 
+* [geekcomputers/Python](https://github.com/geekcomputers/Python) 创建这些小程序作为实验来玩Python，或者为自己解决问题。我很乐意接受其他人的指示，以改进、简化或提高代码效率。
+
 * [emeryberger/scalene](https://github.com/emeryberger/scalene) 适用于Python的高性能，高精度CPU和内存分析器.用于Python脚本的CPU和内存分析器，能够正确处理多线程代码，还能区分Python代码和本机代码的运行时间。
 
 * [bloomberg/memray](https://github.com/bloomberg/memray) Memray 是 Python 的内存分析器。它可以跟踪 Python 代码、本机扩展模块和 Python 解释器本身中的内存分配。它可以生成几种不同类型的报告来帮助您分析捕获的内存使用数据。虽然通常用作 CLI 工具，但它也可以用作库来执行更细粒度的分析任务。
@@ -6657,6 +6725,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [pandas-dev/pandas](https://github.com/pandas-dev/pandas) 灵活而强大的 Python 数据分析/操作库，提供类似于 R data.frame 对象的标记数据结构、统计函数等等
 
 * [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) MuPDF的增强型Python绑定 - 轻量级PDF，XPS和电子书查看器，渲染器和工具包。
+
+* [postmanlabs/httpbin](https://github.com/postmanlabs/httpbin) HTTP Request & Response Service，用Py + Flask编写。
 
 ## C/C++ 程序设计
 
@@ -6734,9 +6804,19 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [sunface/rust-course](https://github.com/sunface/rust-course)  “连续六年成为全世界最受喜爱的语言，无GC也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS未来基石" 。Rust语言圣经拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内。这可能是目前最用心的Rust中文学习教程/书籍
 
-* [rust-lang/mdBook](https://github.com/rust-lang/mdBook) 从markdown文件创建书籍。像 Gitbook 一样，但在 Rust 中实现
+* [rust-lang/mdBook](https://github.com/rust-lang/mdBook) 从markdown文件创建书籍。像Gitbook 一样，但在 Rust 中实现
 
 * [iced-rs/iced](https://github.com/iced-rs/iced) 一个跨平台的 Rust GUI 库，灵感来自 Elm
+
+* [phil-opp/blog_os](https://github.com/phil-opp/blog_os) 在 Rust 中编写操作系统系列的源代码 os.phil-opp.com。
+
+* [hyperium/hyper](https://github.com/hyperium/hyper) 一个 Rust 的 HTTP 库。Hyper 是一个相对低级的库，旨在成为库和应用程序的构建块。如果您正在寻找一个方便的HTTP客户端，那么您可能希望考虑reqwest。如果您不确定选择哪种HTTP服务器，那么您可能需要考虑axum或warp，后者采用更实用的方法。两者都建在这个库之上。
+
+* [seanmonstar/reqwest](https://github.com/seanmonstar/reqwest) 一个简单而强大的 Rust HTTP 客户端
+
+* [tokio-rs/axum](https://github.com/tokio-rs/axum) 符合人体工程学的模块化 Web 框架，由Tokio、Tower和Hyper构建
+
+* [seanmonstar/warp](https://github.com/seanmonstar/warp) 一个超级简单，可组合的Web服务器框架。
 
 * [Rust 程序设计 · 语雀](https://www.yuque.com/qyuhen/rust)
 
@@ -6753,6 +6833,10 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [swc-project/swc](https://github.com/swc-project/swc) 用 Rust 编写的超快 TypeScript / JavaScript 编译器。它同时是 Rust 和 JavaScript 的库。
 
 * [tokio-rs/tokio](https://github.com/tokio-rs/tokio) 使用 Rust 编写可靠异步应用程序的运行时。提供 I/O、网络、调度、定时器等
+
+* [hyperium/tonic](https://github.com/hyperium/tonic) 具有异步/等待支持的本机 gRPC 客户端和服务器实现。
+
+* [clap-rs/clap](https://github.com/clap-rs/clap) 一个功能齐全、快速的 Rust 命令行参数解析器
 
 ## flutter
 
@@ -6973,7 +7057,7 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [getgrav/grav](https://github.com/getgrav/grav) 由 PHP、Markdown、Twig 和 Symfony 提供支持的现代、极快、极其简单且功能强大的平面文件 CMS
 
-* [strapi/strapi](https://github.com/strapi/strapi) 领先的开源无头 CMS。它是 100% JavaScript，完全可定制且开发人员优先。
+* [strapi/strapi](https://github.com/strapi/strapi) 领先的开源无头 CMS。100% JScript，完全可定制且开发人员优先。
 
 * [microsoft/vscode](https://github.com/microsoft/vscode) 微软开源的程序开发工具和编辑器
 
@@ -6981,7 +7065,7 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 
 * [quilljs/quill](https://github.com/quilljs/quill) 为兼容性和可扩展性而构建的现代所见即所得编辑器。
 
-* [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) 基于浏览器的代码编辑器。VS Code 中功能齐全的代码编辑器。
+* [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) 基于浏览器的代码编辑器。VSCode功能齐全代码编辑器。
 
 * [ianstormtaylor/slate](https://github.com/ianstormtaylor/slate) 一个完全可定制的框架，用于构建富文本编辑器。
 
@@ -7154,6 +7238,8 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) 精益副业：程序员如何优雅地做副业
 
 * [facebook/lexical](https://github.com/facebook/lexical) 可扩展的 JS Web 文本编辑器框架，强调可靠、可访问性和性能。
+
+* [fanmingming/live](https://github.com/fanmingming/live) 一个国内可直连的直播源分享项目  永久免费 直连访问 完整开源 不含广告 完善的台标 直播源支持IPv4/IPv6双栈访问 
 
 * [penpot/penpot](https://github.com/penpot/penpot) 开源设计和原型平台
 
@@ -7454,6 +7540,10 @@ https://github.com/google/brax 物理模拟引擎Brax，只需一个TPU/GPU，�
 * [laravel/framework](https://github.com/laravel/framework) 包含PHP Laravel框架的核心代码。
 
 * [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) 一个精选的列表，包含令人赞叹的 PHP 库、资源和东西。
+
+* [MichaelMure/git-bug](https://github.com/MichaelMure/git-bug) 嵌入在 git 中的分布式、离线优先错误跟踪器，带有桥接器
+
+* [asciinema/asciinema](https://github.com/asciinema/asciinema) 轻松记录终端会话，并在终端和 Web 浏览器中重播它们。
 
 # Star数变化
 
