@@ -41,6 +41,12 @@
 - [网络与前后端开发](#网络与前后端开发)
 - [其他项目](#其他项目)
 
+
+
+# Star数变化
+
+* [![关注者](https://starchart.cc/wuwenjie1992/StarrySky.svg)](https://starchart.cc/wuwenjie1992/StarrySky)
+
 # 机器学习与深度学习
 
 * [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) ![stars](https://img.shields.io/github/stars/fengdu78/Coursera-ML-AndrewNg-Notes.svg?style=social) [教程/笔记]吴恩达老师的机器学习课程个人笔记
@@ -5220,6 +5226,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [sequelize/sequelize](https://github.com/sequelize/sequelize) 功能丰富的ORM（Object Relational Mapping，为了解决面向对象与关系数据库存在的互不匹配），用于现代Node.js和TypeScript，它支持PostgreSQL（支持JSON和JSONB），MySQL，MariaDB，SQLite，MS SQL Server，Snowflake，Oracle DB（v6），DB2和DB2 for IBM i。
 
+* [Database-like ops benchmark](https://h2oai.github.io/db-benchmark/) 对开源数据科学中流行的各种类似数据库的工具进行基准测试。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -6216,6 +6224,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [qewer33/qpaperOS](https://github.com/qewer33/qpaperOS) 适用于 LILYGO T ESP32 开发板的智能手表固件
 
+* [Rem0o/FanControl.Releases](https://github.com/Rem0o/FanControl.Releases) 适用于 Windows 的高度可定制的风扇控制软件。
+
 # 网络与前后端开发
 
 ## JavaScript框架
@@ -6224,11 +6234,21 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [nodejs/node](https://github.com/nodejs/node) Node.js JavaScript 运行时
 
+* [denoland/deno](https://github.com/denoland/deno) JavaScript 和 TypeScript 的现代运行时。
+
+* [microsoft/TypeScript](https://github.com/microsoft/TypeScript) JavaScript 的一个超集，它编译为干净的 JavaScript 输出。
+
 * [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) 令人愉快的 Node.js 包和资源
+
+* [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) 一系列深入探讨 JavaScript 语言核心机制的书籍。
 
 * [vercel/next.js](https://github.com/vercel/next.js) Next.js 被一些世界上最大的公司使用，能够通过最新的 React 扩展来创建全栈 Web 应用程序，并集成强大的基于 Rust 的 Js 工具以实现最快的构建。
 
 * [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) 与 Vite 相关的精彩事物的精选列表
+
+* [vuejs/core](https://github.com/vuejs/core) 一个渐进的、可增量采用的 JavaScript 框架，用于在 Web 上构建 UI。
+
+* [vuejs/vue](https://github.com/vuejs/vue) 这是 Vue 2 的存储库。一个用于构建用户界面的渐进式框架。它从头开始设计为可增量采用，并且可以根据不同的用例在库和框架之间轻松扩展。它由一个仅关注视图层的平易近人的核心库和一个由支持库组成的生态系统组成，可帮助您解决大型单页应用程序中的复杂性。
 
 * [cuixiaorui/mini-vue](https://github.com/cuixiaorui/mini-vue) 实现最简 vue3 模型，帮助你更高效地学习 vue3 源代码 
 
@@ -6236,7 +6256,7 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
 
-* [oven-sh/bun](https://github.com/oven-sh/bun) 多合一快速且易于使用的工具。 不需要 1,000 个用于开发的 node_modules，你只需要 bun。
+* [oven-sh/bun](https://github.com/oven-sh/bun) 多合一快速且易于使用的工具。 不需要 1,000 个用于开发的 node_modules，你只需要 bun。令人难以置信的快速 JavaScript 运行时、捆绑器、测试运行器和包管理器 - 合二为一
 
 * [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。TypeScript 支持。文件系统路由 à la Next.js。
 
@@ -6280,13 +6300,13 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) 一个带有 C API 的 JavaScript 引擎，您可以使用它向任何 C 或 C 兼容项目添加对 JavaScript 的支持。它可以在Linux macOS和Windows上为x64处理器编译。x86 和 ARM 仅适用于 Win。未来的目标是在Linux上支持x86和ARM处理器，在macOS上支持ARM。
 
-* [jerryscript-project/jerryscript](https://github.com/jerryscript-project/jerryscript) 用于物联网的超轻量级 JavaScript 引擎。适用于资源受限的设备，如微控制器。它可以在 RAM 小于 64 KB 且闪存小于 200 KB 的设备上运行。
+* [jerryscript-project/jerryscript](https://github.com/jerryscript-project/jerryscript) 用于物联网的超轻量级 JS 引擎。适用于资源受限的设备，如微控制器。它可以在 RAM 小于 64 KB 且闪存小于 200 KB 的设备上运行。
 
-* [svaarala/duktape](https://github.com/svaarala/duktape) 可嵌入的Javascript引擎，专注于可移植性和紧凑的占地面积.Duktape 很容易集成到 C/C++ 项目中：将 duktape.h 和 duk_config.h 添加到 duktape.c 您的构建中，并使用 Duktape API 从 C 代码调用 ECMAScript 函数，反之亦然。
+* [svaarala/duktape](https://github.com/svaarala/duktape) 可嵌入的Js引擎，专注于可移植性和紧凑的占地面积.Duktape 很容易集成到 C/C++ 项目中：将 duktape.h 和 duk_config.h 添加到 duktape.c 您的构建中，并使用 Duktape API 从 C 代码调用 ECMAScript 函数，反之亦然。
 
-* [boa-dev/boa](https://github.com/boa-dev/boa) 用Rust编写的可嵌入的实验性Javascript引擎。目前，它支持某些语言。
+* [boa-dev/boa](https://github.com/boa-dev/boa) 用Rust编写的可嵌入的实验性Js引擎。目前，它支持某些语言。
 
-* [quickjs-zh/QuickJS](https://github.com/quickjs-zh/QuickJS) 小型并且可嵌入的Javascript引擎，它支持ES2020规范，包括模块，异步生成器和代理器。
+* [quickjs-zh/QuickJS](https://github.com/quickjs-zh/QuickJS) 小型并且可嵌入的Js引擎，支持ES2020规范，包括模块，异步生成器和代理器。
 
 * [GoogleChromeLabs/jsvu](https://github.com/GoogleChromeLabs/jsvu) jsvu 可以轻松安装各种 JavaScript 引擎的最新版本，而无需从源代码编译它们。
 
@@ -6304,6 +6324,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) node.js最佳实践列表
 
+* [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter) node.js Web 应用程序的样板
+
 * [sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript) 很棒的浏览器端 JavaScript 库、资源。
 
 * [leonardomso/33-js-concepts:](https://github.com/leonardomso/33-js-concepts) 每个开发人员都应该知道的 33 个 JavaScript 概念。
@@ -6314,29 +6336,49 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [gpujs/gpu.js](https://github.com/gpujs/gpu.js) GPU 加速的 JavaScript
 
+* [nvm-sh/nvm](https://github.com/nvm-sh/nvm) node版本管理器 - 符合 POSIX 标准的 bash 脚本，用于管理多个活动node.js版本
+
+* [NativeScript/NativeScript](https://github.com/NativeScript/NativeScript) 通过原生平台 API 为 JavaScript 提供支持。世界上最好的（TypeScript，Swift，Objective C，Kotlin，Java）。使用你喜欢的Angular，Capacitor，Ionic，React，Solid，Svelte，Vue：SwiftUI，Jetpack Compose，Flutter，你的名字兼容。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
+
+* [facebook/create-react-app](https://github.com/facebook/create-react-app) 通过运行一个命令来设置新式react Web 应用。
+
+* [facebook/react-native](https://github.com/facebook/react-native) 使用 React 构建本机应用程序的框架
+
+* [enaqx/awesome-react](https://github.com/enaqx/awesome-react) 关于 React 生态系统的精彩内容的集合
 
 * [mui/material-ui](https://github.com/mui/material-ui) 即用型基础 React 组件，永久免费。它包括 Material UI，它实现了 Google 的 Material Design。
 
 * [airbnb/javascript](https://github.com/airbnb/javascript) JavaScript 风格指南。
 
+* [bolshchikov/js-must-watch](https://github.com/bolshchikov/js-must-watch) 关于javascript的必看视频
+
 * [google/material-design-icons](https://github.com/google/material-design-icons) 来自谷歌两个不同的官方图标集，使用相同的底层设计。材质图标是经典套装，材质符号于 2022 年 4 月推出，基于可变字体技术构建。
 
-* [google/material-design-lite](https://github.com/google/material-design-lite) Material Design Lite （MDL） 允许您为静态内容网站添加 Material Design 外观。它不依赖于任何JavaScript框架或库。针对跨设备使用进行了优化，在较旧的浏览器中优雅地降级，并提供从一开始就可以访问的体验。
+* [google/material-design-lite](https://github.com/google/material-design-lite) Material Design Lite 允许您为静态内容网站添加 Material Design 外观。它不依赖于任何JavaScript框架或库。针对跨设备使用进行了优化，在较旧的浏览器中优雅地降级，并提供从一开始就可以访问的体验。
 
 * [ant-design/ant-design](https://github.com/ant-design/ant-design) 企业级 UI 设计语言和 React UI 库
 
 * [electron/electron](https://github.com/electron/electron)使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
 
+* [angular/angular](https://github.com/angular/angular) 用于构建移动和桌面 Web 应用程序的开发平台，使用 TypeScript/ JavaScript 和其他语言。
+
 * [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) 无头网络的最快前端。用 React 构建现代网站。Gatsby 是基于 React，可帮助开发人员构建速度极快的网站和应用程序。它将动态渲染网站的控制和可扩展性与静态网站生成的速度相结合，创造了一个全新的可能性网络。
+
+* [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) 与 Vue 相关的精彩事物的精选列表
+
+* [layui/layui](https://github.com/layui/layui) 一套遵循原生态开发模式的 Web UI 组件库，采用自身轻量级模块化规范，易上手，可以更简单快速地构建网页界面。
 
 * [dcloudio/uni-app](https://github.com/dcloudio/uni-app) 使用 Vue.js`开发小程序、H5、App的统一前端框架。使用 Vue 语法编写代码，uni-app 框架将其编译到 小程序（微信/支付宝/百度/字节跳动/QQ/快手/钉钉/小红书）、App（iOS/Android）、H5等平台，保证正确并达到优秀体验。
 
 * [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站,LowCode平台.
 
 * [qianguyihao/Web](https://github.com/qianguyihao/Web) 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。
+
+* [PatrickJS/awesome-angular](https://github.com/PatrickJS/awesome-angular) 令人敬畏的 Angular 资源的精选列表
 
 * [hexojs/hexo](https://github.com/hexojs/hexo) 一个快速，简单和强大的博客框架，由Node.js提供支持。
 
@@ -6490,6 +6532,52 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [Semantic-Org/Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) 基于自然语言有用原则的 UI 组件框架。允许开发人员通过简洁的 HTML、直观的 JavaScript 和简化的调试快速构建漂亮的网站，帮助使前端开发成为一种愉快的体验。语义采用响应式设计，允许您的网站在多个设备上扩展。
 
+* [markedjs/marked](https://github.com/markedjs/marked) markdown解析器和编译器。为速度而生。
+
+* [recharts/recharts](https://github.com/recharts/recharts) 使用 React 和 D3 重新定义的图表库
+
+* [palantir/blueprint](https://github.com/palantir/blueprint) 基于 React 的 Web UI 工具包
+
+* [react-native-elements/react-native-elements](https://github.com/react-native-elements/react-native-elements) 跨平台 React Native UI 工具包
+
+* [SortableJS/Sortable](https://github.com/SortableJS/Sortable) 适用于现代浏览器和触摸设备的可重新排序的拖放列表。不需要jQuery或框架。
+
+* [doczjs/docz](https://github.com/doczjs/docz) Docz 使您的代码编写和发布漂亮的交互式文档变得容易。创建展示代码的 MDX 文件，Docz 将它们转换为实时重新加载、生产就绪的网站。
+
+* [docsifyjs/docsify](https://github.com/docsifyjs/docsify) 一个神奇的文档站点生成器。Docsify将一个或多个Markdown文件转换为网站，无需构建过程。
+
+* [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) 不需要设计技能的 UI 库，其中包含精美的手工制作的 Vue 组件。无需设计技能 — 创建令人惊叹的应用程序所需的一切触手可及。
+
+* [verekia/js-stack-from-scratch](https://github.com/verekia/js-stack-from-scratch) 构建现代 JavaScript 堆栈的分步教程。
+
+* [TanStack/table](https://github.com/TanStack/table) 用于为 TS/JS 构建功能强大的表和数据网格的无头 UI - React-Table、Vue-Table、Solid-Table、Svelte-Table
+
+* [shadcn-ui/ui](https://github.com/shadcn-ui/ui) 使用Radix UI和Tailwind CSS构建的精美设计的组件。
+
+* [t4t5/sweetalert](https://github.com/t4t5/sweetalert) JavaScript的“alert警报”的漂亮替代品
+
+* [react-hook-form/react-hook-form](https://github.com/react-hook-form/react-hook-form) 用于表单状态管理和验证的 React Hooks
+
+* [typescript-cheatsheets/react](https://github.com/typescript-cheatsheets/react) 为有经验的 React 开发人员准备的备忘单，开始使用 TypeScript
+
+* [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) React 组件和库的精选列表。
+
+* [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) Auth.js 是一组基于 Web 标准 API 构建的开源包，用于在现代应用程序中使用任何 JS 运行时中任何平台上的任何框架进行身份验证。
+
+* [ionic-team/ionic-framework](https://github.com/ionic-team/ionic-framework) 一个强大的跨平台 UI 工具包，用于使用 HTML、CSS 和 JavaScript 构建原生质量的 iOS、Android 和渐进式 Web 应用程序。
+
+* [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) 为您的 React 应用程序提供简单、模块化和可访问的 UI 组件
+
+* [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) 一系列令人敬畏的设计系统。设计系统是有关原则和最佳实践的文档集合，有助于指导团队构建数字产品。它们通常体现在 UI 库和模式库中。
+
+* [saadeghi/daisyui](https://github.com/saadeghi/daisyui) 流行、最免费、最开源的顺风CSS组件库
+
+* [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) 用于移动友好型交互式地图的 JavaScript 库
+
+* [https://github.com/date-fns/date-fns](https://github.com/date-fns/date-fns) 现代 JavaScript 日期实用程序库
+
+
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -6558,6 +6646,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [telegraf/telegraf](https://github.com/telegraf/telegraf) 现代telegram电报机器人API框架 Node.js
 
+* [typeorm/typeorm](https://github.com/typeorm/typeorm) 用于TypeScript和JavaScript的ORM。支持MySQL，PostgreSQL，MariaDB，SQLite，MS SQL Server，Oracle，SAP Hana，WebSQL数据库。适用于NodeJS，Browser，Ionic，Cordova和Electron平台。
+
 ## 网络与前后端开发_其他
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
@@ -6573,6 +6663,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers) 实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、招聘、闲鱼、阿里任务、scrapy博客园、微博、百度贴吧、豆瓣电影、包图网、全景网、豆瓣音乐、某省药监局、搜狐新闻、机器学习文本采集、fofa资产采集、汽车之家、国家统计局、百度关键词收录数、蜘蛛泛目录、今日头条、豆瓣影评️️️。微信爬虫展示项目
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) 有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
+
+* [wistbean/learn_python3_spider](https://github.com/wistbean/learn_python3_spider) python爬虫教程系列、从0到1学习python爬虫，包括浏览器抓包，手机APP抓包，如 fiddler、mitmproxy，各种爬虫涉及的模块的使用，如：requests、beautifulSoup、selenium、appium、scrapy等，以及IP代理，验证码识别，Mysql，MongoDB数据库的python使用，多线程多进程爬虫的使用，css 爬虫加密逆向破解，JS爬虫逆向，分布式爬虫，爬虫项目实战实例等
 
 * [dataabc/weiboSpider](https://github.com/dataabc/weiboSpider) 新浪微博爬虫，用python爬取新浪微博数据
 
@@ -6738,6 +6830,12 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) 利用干净体系结构和 ASP.NET 核心的强大功能，为企业应用程序开发提供一种简单有效的方法。使用此模板，您可以毫不费力地创建具有 ASP.NET Core和Angular或React的单页应用程序（SPA），同时遵守清洁架构的原则。入门很简单 - 只需安装 .NET 模板。
 
+* [httpie/cli](https://github.com/httpie/cli) 适用于 API 时代的现代、用户友好的命令行 HTTP 客户端。JSON支持，颜色，会话，下载，插件等。
+
+* [nswbmw/N-blog](https://github.com/nswbmw/N-blog) 一起学 Node.js，使用 Express + MongoDB 搭建多人博客
+
+* [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) SaaS、PaaS 和 IaaS 产品列表，这些产品对 DevOps 和 infradev 部分免费。现在有许多服务提供免费套餐，但找到它们都需要时间来做出明智的决定。
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -6767,6 +6865,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [bunturx/Awesome-Blockchain-Security](https://github.com/bunturx/Awesome-Blockchain-Security) 由伟大的@0xRajeev 创建核心焦点将是以太坊智能合约安全审计。 以太坊、Solidity、智能合约安全和审计。
 
 * [FuelLabs/sway](https://github.com/FuelLabs/sway) 使每个人都能构建可靠高效的智能合约。Sway是为Fuel区块链开发的一种语言。深受 Rust 的启发，旨在为区块链生态系统带来现代语言开发和性能。
+
+* [ccxt/ccxt](https://github.com/ccxt/ccxt) JavaScript / TypeScript / Python / C# / PHP加密货币交易API，支持100多个比特币/山寨币交易所
 
 # 其他项目
 
@@ -6900,6 +7000,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [miloyip/nativejson-benchmark](https://github.com/miloyip/nativejson-benchmark) C/C++ JSON 解析器/生成器基准测试
 
+* [miloyip/json-tutorial](https://github.com/miloyip/json-tutorial) 从零开始的 JSON 库教程s
+
 ## Rust 程序设计
 
 * [rust-lang/rust](https://github.com/rust-lang/rust) rust使每个人都能构建可靠、高效的软件。Rust 的主要源代码存储库。它包含编译器、标准库和文档。
@@ -6949,6 +7051,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [hyperium/tonic](https://github.com/hyperium/tonic) 具有异步/等待支持的本机 gRPC 客户端和服务器实现。
 
 * [clap-rs/clap](https://github.com/clap-rs/clap) 一个功能齐全、快速的 Rust 命令行参数解析器
+
+* [neovide/neovide](https://github.com/neovide/neovide) 在 Rust 中没有废话的 neovim 客户端
 
 ## flutter
 
@@ -7038,6 +7142,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 开源代码库和课程。免费学习编码。
 
+* [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫
+
 * [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) 用动画的形式呈现解LeetCode题目的思路
 
 * [geekxh/hello-algorithm](https://github.com/geekxh/hello-algorithm) 针对小白的算法训练 | 包括四部分：①.大厂面经 ②.力扣图解 ③.千本开源电子书 ④.百张技术思维导图
@@ -7083,6 +7189,12 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [gopherjs/gopherjs](https://github.com/gopherjs/gopherjs) 从 Go 到 JavaScript 的编译器，用于在浏览器中运行 Go 代码
 
 * [gogf/gf](https://github.com/gogf/gf) GoFrame 是 Go 的一个模块化、功能强大、高性能的企业级应用开发框架。
+
+* [alist-org/alist](https://github.com/alist-org/alist) 一个文件列表/ WebDAV程序，支持多个存储，由Gin和Solidjs提供支持。/ 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
+
+* [gin-gonic/gin](https://github.com/gin-gonic/gin) 一个用 Go （Golang） 编写的 HTTP Web 框架。它具有类似Martini的API，性能要好得多 - 速度提高了40倍。
+
+* [cosmtrek/air](https://github.com/cosmtrek/air) Go 应用的实时重新加载
 
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
 
@@ -7591,6 +7703,4 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [asciinema/asciinema](https://github.com/asciinema/asciinema) 轻松记录终端会话，并在终端和 Web 浏览器中重播它们。
 
-# Star数变化
-
-* [![关注者](https://starchart.cc/wuwenjie1992/StarrySky.svg)](https://starchart.cc/wuwenjie1992/StarrySky)
+* [SnapKit/SnapKit](https://github.com/SnapKit/SnapKit) 一款DSL，可在iOS和OS X上轻松实现自动布局。
