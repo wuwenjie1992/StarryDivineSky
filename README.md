@@ -41,8 +41,6 @@
 - [网络与前后端开发](#网络与前后端开发)
 - [其他项目](#其他项目)
 
-
-
 # Star数变化
 
 * [![关注者](https://starchart.cc/wuwenjie1992/StarrySky.svg)](https://starchart.cc/wuwenjie1992/StarrySky)
@@ -381,6 +379,10 @@
 * [terryum/awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers) 被引用最多的深度学习论文 on Oct 19, 2018
 
 * [d2l-ai/d2l-en](https://github.com/d2l-ai/d2l-en) 交互式深度学习书籍，包含多框架代码、数学和讨论。被斯坦福大学、麻省理工学院、哈佛大学和剑桥大学等 60 个国家的 400 所大学采用。
+
+* [dragen1860/TensorFlow-2.x-Tutorials](https://github.com/dragen1860/TensorFlow-2.x-Tutorials) TensorFlow 2.x版本的教程和示例，包括CNN，RNN，GAN，Auto-Encoders，FasterRCNN，GPT，BERT示例等。 TF 2.0版入门实例代码，实战教程。
+
+* [BayesWitnesses/m2cgen](https://github.com/BayesWitnesses/m2cgen) 将 ML 模型转换为零依赖的本机代码（Java、C、Python、Go、JavaScript、Visual Basic、C#、R、PowerShell、PHP、Dart、Haskell、Ruby、F#、Rust）
 
 ## 特征工程
 
@@ -1065,7 +1067,9 @@
 
 * [baichuan-inc/baichuan-7B](https://github.com/baichuan-inc/baichuan-7B) 百川开发的大规模7B预训练语言模型。一个开源可商用的大规模预训练语言模型。基于 Transformer 结构，在大约 1.2 万亿词元上训练的 70 亿参数模型，支持中英双语，上下文窗口长度为 4096。在标准的中文和英文 benchmark（C-Eval/MMLU）上均取得同尺寸最好的效果。
 
-* [InternLM/InternLM-techreport](https://github.com/InternLM/InternLM-techreport) 书生·浦语由上海人工智能实验室和商汤科技（同等贡献）与香港中大、复旦和上海交大联合开发的多语言大语言模型。具有104B参数的多语言基础语言模型。在具有 1.6T 代币的大型语料库上进行预训练，并具有多阶段渐进过程，然后进行微调以符合人类偏好。我们还开发了一个名为Uniscale-LLM的训练系统，用于高效的大型语言模型训练。对多项基准的评估表明，InternLM在知识理解、阅读理解、数学和编码等多个方面都取得了最先进的表现。凭借如此全面的能力，InternLM在综合考试中取得了出色的表现，包括MMLU，AGIEval，C-Eval和高考-Bench，而无需借助外部工具。在这些基准测试中，InternLM 不仅明显优于开源模型，而且与 ChatGPT 相比，还获得了卓越的性能。此外，InternLM在理解中文和中国文化方面表现出出色的能力，这使其成为支持面向中文的语言应用的合适基础模型。这份手稿详细研究了我们的结果，并提供了跨各种知识领域和任务的基准和示例。
+* [InternLM/InternLM](https://github.com/InternLM/InternLM) InternLM开源了70亿和200亿参数基础模型，以及针对实际场景和训练系统量身定制的聊天模型。开源的轻量级训练框架，旨在支持模型预训练，而无需广泛的依赖关系。通过单个代码库，它支持在具有数千个 GPU 的大规模集群上进行预训练，并在单个 GPU 上进行微调，同时实现卓越的性能优化。InternLM 在 1024 个 GPU 上训练期间实现了近 90% 的加速效率。InternLM-20B选择了更深的架构，深度设置为60层。这超过了使用32或40层的传统7B和13B型号。当参数有限时，增加层数可以增强模型的整体功能。此外，与InternLM-7B相比，InternLM-20B使用的预训练数据经过了更高质量的清理，并补充了丰富的知识数据，旨在增强理解和推理能力。因此，它在理解、推理、数学和编程能力方面表现出显着的改进——所有这些都测试了语言模型的技术熟练程度。
+
+* [InternLM/InternLM-techreport](https://github.com/InternLM/InternLM-techreport) 书生·浦语由上海人工智能实验室和商汤科技（同等贡献）与香港中大、复旦和上海交大联合开发的多语言大语言模型。具有104B参数的多语言基础语言模型。在具有 1.6T 代币的大型语料库上进行预训练，并具有多阶段渐进过程，然后进行微调以符合人类偏好。我们还开发了一个名为Uniscale-LLM的训练系统，用于高效的大型语言模型训练。对多项基准的评估表明，InternLM在知识理解、阅读理解、数学和编码等多个方面都取得了最先进的表现。凭借如此全面的能力，InternLM在综合考试中取得了出色的表现，包括MMLU，AGIEval，C-Eval和高考-Bench，而无需借助外部工具。在这些基准测试中，InternLM 不仅明显优于开源模型，而且与 ChatGPT 相比，还获得了卓越的性能。此外，InternLM在理解中文和中国文化方面表现出出色的能力，这使其成为支持面向中文的语言应用的合适基础模型，并提供了跨各种知识领域和任务的基准和示例。
 
 * [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
 
@@ -1509,7 +1513,7 @@
 
 * [ModelTC/lightllm](https://github.com/ModelTC/lightllm) 基于Python的LLM（大型语言模型）推理和服务框架，以其轻量级设计，易于扩展和高速性能而著称。LightLLM利用了许多备受推崇的开源实现的优势，包括但不限于FasterTransformer，TGI，vLLM和FlashAttention。
 
-* [PanQiWei/AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) 一个易于使用的LLM量化包，带有用户友好的API，基于GPTQ算法。
+* [PanQiWei/AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) 易于使用的LLM量化包，有用户友好的API，基于GPTQ算法。
 
 * [princeton-nlp/tree-of-thought-llm](https://github.com/princeton-nlp/tree-of-thought-llm) 正式实现“思想之树：用大语言模型刻意解决问题”
 
@@ -1552,6 +1556,10 @@
 * [phodal/aigc](https://github.com/phodal/aigc) 《构筑大语言模型应用：应用开发与架构设计》一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
 
 * [prompt-engineering/understand-prompt](https://github.com/prompt-engineering/understand-prompt) 理解 Prompt：基于编程、绘画、写作的 AI 探索与总结
+
+* [brexhq/prompt-engineering](https://github.com/brexhq/prompt-engineering) 使用大型语言模型（如 OpenAI 的 GPT-4）的提示和技巧。
+
+* [mshumer/gpt-prompt-engineer](https://github.com/mshumer/gpt-prompt-engineer) 只需输入任务的描述和一些测试用例，系统就会生成、测试和排名大量提示，以找到性能最佳的提示。
 
 * [km1994/LLMsNineStoryDemonTower](https://github.com/km1994/LLMsNineStoryDemonTower) 分享 LLMs在自然语言处理（ChatGLM、Chinese-LLaMA-Alpaca、小羊驼 Vicuna、LLaMA、GPT4ALL等）、信息检索（langchain）、语言合成、语言识别、多模态等领域（Stable Diffusion、MiniGPT-4、VisualGLM-6B、Ziya-Visual等）等 实战与经验。
 
@@ -1637,6 +1645,10 @@
 
 * [JosephusCheung/GuanacoDataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) Guanaco模型的数据集旨在增强多语言能力并解决各种语言任务。它以 Alpaca 模型中的 175 个任务为基础，提供不同语言的种子任务重写，并添加专门为英语语法分析、自然语言理解、跨语言自我意识和显式内容识别而设计的新任务。该数据集总共包含 534,530 个条目，以 6K 美元的低成本生成。
 
+* [shawwn/llama-dl](https://github.com/shawwn/llama-dl) 高速下载 LLaMA，Facebook 的 65B 参数 GPT 模型
+
+* [mit-han-lab/streaming-llm](https://github.com/mit-han-lab/streaming-llm) 具有注意力接收器的高效流语言模型，可以无限长度地输入LLM进行推理，而不会牺牲效率和性能。在需要长时间交互的多轮对话等流应用程序中部署大型语言模型 （LLM），但存在两个主要挑战。首先，在解码阶段，缓存先前令牌的键和值状态 （KV） 会消耗大量内存。其次，流行的LLM不能推广到比训练序列长度更长的文本。窗口注意，其中仅缓存最新的 KV，是一种自然的方法---但我们表明，当文本长度超过缓存大小时，它会失败。我们观察到一个有趣的现象，即注意力下沉，即保留初始代币的 KV 将在很大程度上恢复窗口注意力的性能。在本文中，我们首先证明了注意力下沉的出现是由于对初始令牌作为“接收器”的强烈注意力得分，即使它们在语义上并不重要。基于上述分析，我们引入了StreamingLLM，这是一个高效的框架，使使用有限长度注意力窗口训练的LLM能够推广到无限序列长度，而无需任何微调。StreamingLLM可以使Llama-2，MPT，Falcon和Pythia使用多达400万个代币或更多代币执行稳定高效的语言建模。此外，发现在预训练期间添加占位符令牌作为专用的注意力接收器可以进一步改进流式处理部署。在流设置中，StreamingLLM 的性能优于滑动窗口重新计算基线高达 22.2 倍的加速。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -1649,13 +1661,15 @@
 
 * [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) GitHub Copilot服务器的开源替代品。构建GitHub Copilot的本地托管替代方案的尝试。它在NVIDIA的Triton Inference Server中使用SalesForce CodeGen模型和FasterTransformer后端。
 
+* [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) 使用GPT 帮助开发人员将构建应用的速度提高 20 倍
+
 * [codefuse-ai/MFTCoder](https://github.com/codefuse-ai/MFTCoder) CodeFuse 的一个开源项目，用于多任务处理 Code-LLM（代码任务的大型语言模型），其中包括模型、数据集、训练代码库和推理指南。
 
 * [salesforce/CodeT5](https://github.com/salesforce/CodeT5) CodeT5的主页：用于代码理解和生成的开放代码LLM
 
 * [mckaywrigley/ai-code-translator](https://github.com/mckaywrigley/ai-code-translator) 使用 AI 将代码从一种语言翻译成另一种。
 
-* [joshpxyne/gpt-migrate](https://github.com/joshpxyne/gpt-migrate) 轻松地将代码库从一种框架或语言迁移到另一种框架或语言。由于 GPT-Migrate 旨在编写（并可能重写）整个代码库，因此成本可能会迅速增加。
+* [joshpxyne/gpt-migrate](https://github.com/joshpxyne/gpt-migrate) 轻松地将代码库从一种框架或语言迁移到另一种。由于 GPT-Migrate 旨在编写（并可能重写）整个代码库，因此成本可能会迅速增加。
 
 * [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) 快速轻松地将尖端的LLM技术集成到您的应用程序中。将OpenAI，Azure OpenAI和Hugging Face等大型语言模型（LLM）与C#，Python和Java等传统编程语言集成在一起。语义内核通过允许您定义可以在几行代码中链接在一起的插件来实现这一点。
 
@@ -1694,6 +1708,10 @@
 * [anc95/ChatGPT-CodeReview](https://github.com/anc95/ChatGPT-CodeReview) 由 ChatGPT 提供支持的代码审查机器人
 
 * [sqlchat/sqlchat](https://github.com/sqlchat/sqlchat) 基于聊天的 SQL 客户端和编辑器。基于聊天的 SQL 客户端，它使用自然语言与数据库通信，实现数据库的查询、修改、添加、删除等操作。
+
+* [CodedotAl/gpt-code-clippy](https://github.com/CodedotAl/gpt-code-clippy) GitHub Copilot的开源版本，这是一种基于GPT-3的语言模型，称为GPT-Codex，根据GitHub公开可用的代码进行微调。
+
+* [kuafuai/DevOpsGPT](https://github.com/kuafuai/DevOpsGPT) 用于 AI 驱动软件开发的多智能体系统。将LLM与DevOps工具相结合，将自然语言需求转换为工作软件。支持任何开发语言并扩展现有代码。
 
 #### 健康医学大模型及语料库
 
@@ -1973,6 +1991,8 @@
 
 * [askrella/whatsapp-chatgpt](https://github.com/askrella/whatsapp-chatgpt) WhatsApp机器人使用OpenAI的GPT和DALL-E 2来响应用户输入。
 
+* [AutumnWhj/ChatGPT-wechat-bot](https://github.com/AutumnWhj/ChatGPT-wechat-bot) 几步即可获得一个基于 ChatGPT 的微信机器人
+
 * [wangrongding/wechat-bot](https://github.com/wangrongding/wechat-bot) 基于OpenAi ChatGPT + WeChaty 实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...
 
 * [OpenGVLab/InternGPT](https://github.com/OpenGVLab/InternGPT) 开源演示平台，您可以在其中轻松展示您的 AI 模型。现在它支持DragGAN，ChatGPT，ImageBind，多模态聊天，如GPT-4，SAM，交互式图像编辑等
@@ -1999,13 +2019,47 @@
 
 * [Chainlit/chainlit](https://github.com/Chainlit/chainlit) 在几分钟内构建Python LLM应用程序
 
-## 文本生成、文本对话
+* [gd3kr/BlenderGPT](https://github.com/gd3kr/BlenderGPT) 使用英语命令通过OpenAI的GPT-4控制Blender。
+
+* [varunshenoy/GraphGPT](https://github.com/varunshenoy/GraphGPT) 使用 GPT-3 从非结构化文本推断知识图谱
+
+* [zhaoyingjun/chatbot](https://github.com/zhaoyingjun/chatbot) ChatGPT带火了聊天机器人，主流的趋势都调整到了GPT类模式，本项目也与时俱进，会在近期更新GPT类版本。基于本项目和自己的语料可以训练出自己想要的聊天机器人，用于智能客服、在线问答、闲聊等场景。
+
+* [Significant-Gravitas/Auto-GPT-Plugins](https://github.com/Significant-Gravitas/Auto-GPT-Plugins) 用于自动 GPT 的插件。插件分为两类：第一方和第三方。第一方插件是广泛使用的插件精选列表。它们在安装插件平台时默认安装。第三方插件需要单独添加。它们可能对您的特定需求有用。
+
+* [chatanywhere/GPT_API_free](https://github.com/chatanywhere/GPT_API_free) Free ChatGPT API Key，免费ChatGPT API，支持GPT4 API（低价），ChatGPT国内可用免费转发API，直连无需代理。可以搭配ChatBox等软件/插件使用，极大降低接口使用成本。国内即可无限制畅快聊天。
+
+* [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) 无缝集成各种开源大模型，在本地设备上与您的文档聊天。没有数据离开您的设备，100%私密。
+
+* [shreyashankar/gpt3-sandbox](https://github.com/shreyashankar/gpt3-sandbox) 使用户能够使用新发布的OpenAI GPT-3 API创建很酷的Web演示，只需几行Python。
+
+* [mayooear/gpt4-pdf-chatbot-langchain](https://github.com/mayooear/gpt4-pdf-chatbot-langchain) GPT4 和 LangChain 聊天机器人，适用于大型 PDF 文档
+
+* [whoiskatrin/chart-gpt](https://github.com/whoiskatrin/chart-gpt) 基于文本输入GPT构建图表的AI工具
+
+* [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) 在 CPU 上本地运行的开源助手样式大型语言模型
+
+* [langchain-ai/chat-langchain](https://github.com/langchain-ai/chat-langchain) 本地托管的聊天机器人的实现，专门针对 LangChain 文档的问答。使用 LangChain、FastAPI 和 Next.js 构建。该应用程序利用 LangChain 的流媒体支持和异步 API 为多个用户实时更新页面。
+
+* [PrefectHQ/marvin](https://github.com/PrefectHQ/marvin) 构建激发欢乐的 使用生成式 AIAI 界面。一个轻量级的 AI 工程框架，用于构建可靠、可扩展且易于信任的自然语言界面。
+
+* [microsoft/autogen](https://github.com/microsoft/autogen) 支持使用多个代理开发LLM应用程序，这些代理可以相互交谈以解决任务。AutoGen 代理是可定制的、可对话的，并且无缝地允许人工参与。它们可以在各种模式下运行，这些模式采用LLM，人力输入和工具的组合。
+
+* [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) 基于 GPT 的自主代理，可对任何给定主题进行在线综合研究。可以生成详细、事实和公正的研究报告，并提供自定义选项，以专注于相关资源、大纲和课程。受最近的计划和求解和RAG（检索增强生成）论文的启发，GPT 研究员解决了速度、确定性和可靠性问题，通过并行代理工作提供更稳定的性能和更高的速度，而不是同步操作。
+
+### 其他_文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
 
+* [openai/gpt-3](https://github.com/openai/gpt-3) 语言模型是少样本的学习器。最近的工作表明，通过对大量文本语料库进行预训练，然后对特定任务进行微调，在许多NLP任务和基准测试上取得了实质性进展。虽然在架构中通常与任务无关，但这种方法仍然需要特定于任务的数千或数万个示例的微调数据集。相比之下，人类通常只能从几个例子或简单的指令中执行新的语言任务——这是当前NLP系统仍然难以做到的。在这里，我们表明，扩展语言模型可以大大提高与任务无关的少镜头性能，有时甚至可以通过先前最先进的微调方法达到竞争力。具体来说，我们训练 GPT-3，一种具有 1750 亿个参数的自回归语言模型，比之前任何非稀疏语言模型多 10 倍，并在少数镜头设置中测试其性能。对于所有任务，GPT-3 在没有任何梯度更新或微调的情况下应用，任务和少数镜头演示纯粹通过与模型的文本交互来指定。GPT-3 在许多 NLP 数据集上实现了强大的性能，包括翻译、问答和完形填空任务，以及一些需要即时推理或领域适应的任务，例如解密单词、在句子中使用新单词或执行 3 位数算术。同时，我们还确定了 GPT-3 的少数镜头学习仍在挣扎的一些数据集，以及 GPT-3 面临与大型网络语料库训练相关的方法问题的一些数据集。最后，我们发现 GPT-3 可以生成人类评估人员难以区分的新闻文章样本与人类撰写的文章。我们讨论了这一发现和一般 GPT-3 更广泛的社会影响。
+
 * [openai/gpt-2](https://github.com/openai/gpt-2) 论文“语言模型是无监督的多任务学习者”中的代码和模型。
 
-* [karpathy/minGPT](https://github.com/karpathy/minGPT) OpenAI GPT（生成预训练转换器）训练的最小 PyTorch 重新实现
+* [karpathy/minGPT](https://github.com/karpathy/minGPT) OpenAI GPT（生成预训练转换器）训练的最小PyTorch 重新实现
+
+* [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) 用于训练/微调中型 GPT（GPT-2） 的最简单、最快的存储库。
+
+* [minimaxir/gpt-2-simple](https://github.com/minimaxir/gpt-2-simple) Py包可以轻松地在新文本上重新训练 OpenAI 的 GPT-2 文本生成模型
 
 * [XiangLi1999/PrefixTuning](https://github.com/XiangLi1999/PrefixTuning) 前缀微调：优化文本生成的连续提示模板。提出一种更好的微调方法，通过加入前缀实现统一模型在不同任务上的微调，实现小样本学习，极大地减少了参数量。目前对于前缀的构造，大致可以分为本文的连续前缀和离散前缀（自动生成或手动设计），对于在摘要任务上加入离散前缀，有点类似于从对话中提取特征或结构，但这种方法的优势就在于它不需要大量的样本，而传统的融入结构的方法仍然需要很多样本。
 
@@ -2045,6 +2099,8 @@
 
 * [yangjianxin1/GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat) 用于中文闲聊的GPT2文本对话模型
 
+* [EssayKillerBrain/WriteGPT](https://github.com/EssayKillerBrain/WriteGPT) 基于开源GPT2.0的初代创作型人工智能 | 可扩展、进化
+
 * [RUCAIBox/MVP](https://github.com/RUCAIBox/MVP) 自然语言生成的多任务监督预训练。遵循标准的转换器编码器-解码器架构。使用标记数据集进行监督预训练。还具有特定于任务的软提示，以刺激模型执行特定任务的能力。专为自然语言生成而设计，可以适应各种生成任务。我们的模型也可以适应自然语言理解任务。收集了7种代表性生成任务的45个有标签数据集，共计3200千万条样本（23GB），来作为预训练语料。第一阶段，使用这些语料训练一个标准的Transformer，即MVP；第二阶段，冻结住MVP，利用每个任务的数据训练任务特定的连续型提示（即7组提示）。
 
 * [RUCAIBox/Context-Tuning](https://github.com/RUCAIBox/Context-Tuning) 上下文调优：学习上下文提示用于自然语言生成
@@ -2060,6 +2116,8 @@
 * [gunthercox/ChatterBot](https://github.com/gunthercox/ChatterBot) 一个机器学习的对话对话引擎，用于创建聊天机器人
 
 * [howdyai/botkit](https://github.com/howdyai/botkit) 一个开源开发人员工具，用于为主要消息传递平台构建聊天机器人、应用程序和自定义集成。
+
+* [0hq/WebGPT](https://github.com/0hq/WebGPT) 使用 WebGPU 在浏览器上运行 GPT 模型。在不到 ~1500 行的原版 Javascript 中实现 GPT 推理。
 
 ## 文本匹配 文本相似度
 
@@ -2510,7 +2568,7 @@
 
 * [keon/awesome-nlp](https://github.com/keon/awesome-nlp) 专用于自然语言处理 （NLP） 的资源精选列表
 
-* [GitHub - graykode/nlp-tutorial: Natural Language Processing Tutorial for Deep Learning Researchers](https://github.com/graykode/nlp-tutorial) 面向深度学习研究人员的自然语言处理教程
+* [graykode/nlp-tutorial](https://github.com/graykode/nlp-tutorial) 面向深度学习研究人员的自然语言处理教程
 
 * [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) Stanford NLP Group 的官方 Python NLP 库。 它支持在 60 多种语言上运行各种准确的自然语言处理工具。
 
@@ -3178,6 +3236,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [damo/cv_googlenet_pgl-video-summarization](https://modelscope.cn/models/damo/cv_googlenet_pgl-video-summarization/summary) 输入一段长视频，算法对视频进行镜头切割得到视频片段，评估视频帧的重要性，输出重要视频帧的帧号，根据帧号可以合成一段短视频（摘要视频）。采用local和global的多头注意力构成的transformer模型
 
+* [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT) 用于自动创建短视频内容的实验性 AI 框架。它简化了视频创建、素材获取、画外音合成和编辑任务。自动编辑框架：使用面向LLM的视频编辑语言简化视频创建过程。脚本和提示：为各种LLM自动编辑过程提供即用型脚本和提示。画外音/内容创作：支持多种语言。字幕生成：自动生成视频字幕。资产来源：从互联网上获取图像和视频片段，并根据需要与网络和 Pexels API 连接。内存和持久性：使用 TinyDB 确保自动编辑变量的长期持久性。
+
 ## 对象检测、分割
 
 * [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) Segment Anything Model从输入提示（如点或框）生成高质量的对象遮罩，并且可用于为图像中的所有对象生成遮罩。它已经在1100万张图像和11亿个掩码的数据集上进行了训练，并且在各种分割任务上具有强大的零样本性能。
@@ -3311,6 +3371,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) 让我们控制扩散模型！ControlNet 是一种神经网络结构，通过添加额外条件来控制扩散模型。
 
 * [jexom/sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib) 深度图库，用于 Automatic1111/stable-diffusion-webui 的控制网扩展
+
+* [Nutlope/roomGPT](https://github.com/Nutlope/roomGPT) 上传您的房间照片，使用 AI 生成您的梦想房间。使用称为ControlNet的ML模型来生成房间的变化。此应用程序使您能够上传任何房间的照片，该照片将使用 Next.js API 路由通过此 ML 模型发送照片，并返回生成的房间。
 
 * [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 排行榜第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
 
@@ -4080,6 +4142,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [damo/speech_charctc_kws_phone-xiaoyun](https://modelscope.cn/models/damo/speech_charctc_kws_phone-xiaoyun/summary) CTC语音唤醒-移动端-单麦-16k-小云小云，网络结构继承自论文《Compact Feedforward Sequential Memory Networks for Small-footprint Keyword Spotting》，其主体为4层cFSMN结构(如下图所示)，参数量约750K，适用于移动端设备运行。模型输入采用Fbank特征，训练阶段使用CTC-loss计算损失并更新参数，输出为基于char建模的中文全集token预测，token数共2599个。测试工具根据每一帧的预测数据进行后处理得到输入音频的实时检测结果。模型训练采用"basetrain + finetune"的模式，basetrain过程使用大量内部移动端数据，在此基础上，使用1万条设备端录制安静场景“小云小云”数据进行微调，得到最终面向业务的模型。由于采用了中文char全量token建模，并使用充分数据进行basetrain，本模型支持基本的唤醒词/命令词自定义功能，但具体性能无法评估。
 
+* [SevaSk/ecoute](https://github.com/SevaSk/ecoute) 一种实时转录工具，可在文本框中为用户的麦克风输入（您）和用户的扬声器输出（扬声器）提供实时脚本。它还使用 OpenAI 的 GPT-3.5 生成建议的响应，供用户根据对话的实时转录说出来。
+
 ## 语音合成
 
 * [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
@@ -4472,6 +4536,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [cansyl/MDeePred](https://github.com/cansyl/MDeePred) 多通道蛋白质的特征化来解决深度学习下药物发现中亲和力预测问题
 
+* [microsoft/BioGPT](https://github.com/microsoft/BioGPT) 用于生物医学文本生成和挖掘的生成预训练转换器的实现。提供预先训练的 BioGPT 模型检查点以及用于下游任务的微调检查点：用于PubMedQA（从PubMed摘要中收集的新颖的生物医学问答（QA）数据集。）上的问答任务、用于BC5CDR（人工标注的文档级关系抽取数据集，由1,500篇PubMed文档构成是生物医学特定领域，且仅考虑“化学诱导的疾病”关系）关系提取、用于DDI（药物间的相互作用）关系提取任务、用于KD-DTI（built *upon* *Drug*- *Bank* (*Wishart* *et* *al*. 2017) *and* *Therapeutic* *Target* *Database* (*briefly*, *TTD*) (*Wang* *et* *al*. 2020). DTI预测药物-靶点相互作用）关系提取任务、HoC 上的文档分类任务。
+
 * [CBLUEbenchmark/CBLUE](https://github.com/CBLUEbenchmark/CBLUE) 中文医疗信息处理基准CBLUE 8个中文医疗语言理解任务。包括医学文本信息抽取（实体识别、关系抽取）、医学术语归一化、医学文本分类、医学句子关系判定和医学QA共5大类任务8个子任务。
 
 * [mims-harvard/TDC](https://github.com/mims-harvard/TDC) Therapeutics Data Commons (TDC)，第一个机器学习在生物医药的大规模数据集。TDC目前包含了20+有意义的任务，和70多个高质量数据集，从靶蛋白的发现，药物动力学，安全性，药物生产都有包含到。而且不仅仅是小分子，还有抗体，疫苗，miRNA等。之后也会加入CRISPR，Clinical Trials等等。
@@ -4500,7 +4566,7 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [juexinwang/scGNN](https://github.com/juexinwang/scGNN) 新型的用于单细胞RNA测序分析的图神经网络框架
 
-* [liulizhi1996/HPOFiller](https://github.com/liulizhi1996/HPOFiller) 一种基于图卷积网络(GCN)的方法，用于预测缺失的HPO注释。 人类表型本体(HPO)是描述人类疾病中遇到的表型异常的标准化词汇（疾病的术语）。探索人类蛋白质和异常表型之间的关系在疾病的预防、诊断和治疗中具有重要意义。
+* [liulizhi1996/HPOFiller](https://github.com/liulizhi1996/HPOFiller) 基于图卷积网络(GCN)的方法，用于预测缺失的HPO注释。 人类表型本体(HPO)是描述人类疾病中遇到的表型异常的标准化词汇（疾病的术语）。探索人类蛋白质和异常表型之间的关系在疾病的预防、诊断和治疗中具有重要意义。
 
 * [zty2009/GCN-DNN](https://github.com/zty2009/GCN-DNN) 基于图卷积网络和深度神经网络的药物靶点相互作用识别
 
@@ -4546,12 +4612,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [oxpig/dlab-public](https://github.com/oxpig/dlab-public) “DLAB——基于结构的抗体虚拟筛选的深度学习方法”论文代码
 
-* [heislab/scarches](https://github.com/theislab/scarches) scArches 是一个将新生成的单细胞数据集集成到集成参考图谱中的包。我们的方法可以通过分散的培训和不同组的多个数据集的集成来促进大型协作项目。scArches 与[scanpy](https://scanpy.readthedocs.io/en/stable/)兼容。并为单细胞数据托管了几个条件生成模型的有效实现。
-- 构建单模态或多模态 (CITE-seq) 参考图集并共享经过训练的模型和数据（如果可能）。
+* [heislab/scarches](https://github.com/theislab/scarches) scArches 是一个将新生成的单细胞数据集集成到集成参考图谱中的包。我们的方法可以通过分散的培训和不同组的多个数据集的集成来促进大型协作项目。scArches 与[scanpy](https://scanpy.readthedocs.io/en/stable/)兼容。并为单细胞数据托管了几个条件生成模型的有效实现。构建单模态或多模态 (CITE-seq) 参考图集并共享经过训练的模型和数据（如果可能）。为您感兴趣的地图集下载预先训练的模型，使用新数据集对其进行更新并与您的合作者分享。在参考的顶部投影和集成查询数据集，并使用潜在表示进行下游任务，例如：差异测试、聚类、分类
 
-- 为您感兴趣的地图集下载预先训练的模型，使用新数据集对其进行更新并与您的合作者分享。
-
-- 在参考的顶部投影和集成查询数据集，并使用潜在表示进行下游任务，例如：差异测试、聚类、分类
 * [HantaoShu/DeepSEM](https://github.com/HantaoShu/DeepSEM) 基于深度学习的方法，具有新颖的神经网络架构，可以推断基因调控网络，嵌入scRNA-seq数据，并通过解释不同的模块来模拟真实的scRNA-seq数据。
 
 * [Tsedao/MultiRM](https://github.com/Tsedao/MultiRM) 基于注意力的多标签神经网络，用于对十二种广泛发生的 RNA 修饰进行综合预测和解释
@@ -4562,12 +4624,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [claudiashi57/dragonnet](https://github.com/claudiashi57/dragonnet) 适应神经网络以估计治疗效果 使用神经网络从观察数据中估计因果效应的方法。
 
-* [PaddlePaddle/PaddleHelix](https://github.com/PaddlePaddle/PaddleHelix/) 螺旋桨（PaddleHelix）是一个生物计算工具集，是用机器学习的方法，特别是深度神经网络，致力于促进以下领域的发展：
-- **新药发现**。提供1)大规模预训练模型:化合物和蛋白质; 2)多种应用:分子属性预测,药物靶点亲和力预测,和分子生成。
+* [PaddlePaddle/PaddleHelix](https://github.com/PaddlePaddle/PaddleHelix/) 螺旋桨（PaddleHelix）是一个生物计算工具集，是用机器学习的方法，特别是深度神经网络，致力于促进以下领域的发展。**新药发现**。提供1)大规模预训练模型:化合物和蛋白质; 2)多种应用:分子属性预测,药物靶点亲和力预测,和分子生成。**疫苗设计**。提供RNA设计算法,包括LinearFold和LinearPartition。**精准医疗**。提供药物联用的应用。
 
-- **疫苗设计**。提供RNA设计算法,包括LinearFold和LinearPartition。
-
-- **精准医疗**。提供药物联用的应用。
 * [OATML-Markslab/EVE](https://github.com/OATML-Markslab/EVE) 论文“使用进化数据和深度学习对遗传变异进行大规模临床解释”的官方存储库。
 
 * [ZJUFanLab/scDeepSort](https://github.com/ZJUFanLab/scDeepSort) 使用带有加权图神经网络的深度学习对单细胞转录组学进行细胞类型注释.单细胞 RNA 测序 (scRNA-seq) 的最新进展已经实现了对多个复杂组织中数千个细胞的大规模转录表征，其中准确的细胞类型识别成为 scRNA-seq 研究的先决条件和重要步骤。开发了一种预训练的细胞类型标注方法，scDeepSort 是基于加权 GNN 框架构建的，然后在两个嵌入的高质量 scRNA-seq 图集中学习，该图集包含人类和小鼠 88 个组织中的 764,741 个细胞。
@@ -5138,6 +5196,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [google/leveldb](https://github.com/google/leveldb) 一个在Google编写的快速键值存储库，它提供了从字符串键到字符串值的有序映射。
 
+* [apache/couchdb](https://github.com/apache/couchdb) 开源 NoSQL 文档数据库，用于存储 JSON 格式的数据。与关系数据库不同，CouchDB 使用无模式数据模型，简化了各种计算设备、手机和 Web 浏览器中的记录管理。特点：双向复制，用于在多个服务器和设备之间同步数据。将视图用作运行查询以及根据存储的文档文件创建报告的主要工具。使用 [REST API](https://www.ibm.com/cn-zh/topics/rest-apis) 从任何地点访问数据库，并具有完全的 CRUD（创建、读取、更新、删除）操作灵活性。设计中考虑了脱机操作。高效的文档存储。提供多种兼容性优势，可轻松地与当前基础架构集成。优点：可扩展性。没有读取锁。
+
 ## 数据搜索引擎
 
 * [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -5227,6 +5287,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [sequelize/sequelize](https://github.com/sequelize/sequelize) 功能丰富的ORM（Object Relational Mapping，为了解决面向对象与关系数据库存在的互不匹配），用于现代Node.js和TypeScript，它支持PostgreSQL（支持JSON和JSONB），MySQL，MariaDB，SQLite，MS SQL Server，Snowflake，Oracle DB（v6），DB2和DB2 for IBM i。
 
 * [Database-like ops benchmark](https://h2oai.github.io/db-benchmark/) 对开源数据科学中流行的各种类似数据库的工具进行基准测试。
+
+* [tonsky/datascript](https://github.com/tonsky/datascript) 用于 Clojure、ClojureScript 和 JS 的不可变数据库和数据日志查询引擎
 
 # 虚拟化
 
@@ -5962,6 +6024,16 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [sensepost/reGeorg](https://github.com/sensepost/reGeorg) reDuce 的继任者，拥有堡垒 Web 服务器并通过 DMZ 创建 SOCKS 代理。
 
+* [XTLS/Xray-core](https://github.com/XTLS/Xray-core) 穿透一切。也是最好的v2ray核心，支持XTLS。完全兼容的配置。
+
+* [vaxilu/x-ui](https://github.com/vaxilu/x-ui) 支持多协议多用户的 xray 面板，支持的协议：vmess、vless、trojan、shadowsocks、dokodemo-door、socks、http
+
+* [hq450/fancyss](https://github.com/hq450/fancyss) 为ASUSWRT / Merlin的路由器提供代理工具。
+
+* [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) Xray多合一一键脚本
+
+* [apernet/hysteria](https://github.com/apernet/hysteria) 一个强大、闪电般快速且无审查的代理。广泛的模式范围，包括SOCKS5，HTTP代理，TCP / UDP转发，Linux TProxy - 更不用说不断添加的其他功能。Hysteria 由自定义 QUIC 协议提供支持，即使在最不可靠和最有损的网络上也能提供无与伦比的性能。我们的协议旨在伪装成标准的HTTP / 3流量，因此很难在不造成广泛附带损害的情况下进行检测和阻止。我们有针对所有主要平台和架构的构建。随处部署，随处使用。凭借对自定义身份验证、流量统计和访问控制的内置支持，Hysteria 可以轻松集成到您的基础设施中。
+
 * [L-codes/Neo-reGeorg](https://github.com/L-codes/Neo-reGeorg) 积极重构 reGeorg 的项目，目的是：提高可用性，避免特征检测\提高 tunnel 连接安全性\提高传输内容保密性\应对更多的网络环境场景下使用
 
 * [Endava/cats](https://github.com/Endava/cats) REST API 模糊器和 OpenAPI 端点的负面测试工具。CATS 以最少的配置自动生成、运行和报告测试，无需编码工作。测试是自我修复的，不需要维护。
@@ -6226,6 +6298,10 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [Rem0o/FanControl.Releases](https://github.com/Rem0o/FanControl.Releases) 适用于 Windows 的高度可定制的风扇控制软件。
 
+* [rwaldron/johnny-five](https://github.com/rwaldron/johnny-five) JavaScript Robotics和IoT编程框架，由Bocoup开发。一个开源的，基于Firmata协议的物联网和机器人编程框架，由Nodebots社区开发。Johnny-Five 程序可以编写为 Arduino（所有型号）、Electric Imp、Beagle Bone、Intel Galileo & Edison、Linino One、Pinoccio、pcDuino3、Raspberry Pi、Particle/Spark Core & Photon、Tessel 2、TI Launchpad 等
+
+
+
 # 网络与前后端开发
 
 ## JavaScript框架
@@ -6340,6 +6416,10 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [NativeScript/NativeScript](https://github.com/NativeScript/NativeScript) 通过原生平台 API 为 JavaScript 提供支持。世界上最好的（TypeScript，Swift，Objective C，Kotlin，Java）。使用你喜欢的Angular，Capacitor，Ionic，React，Solid，Svelte，Vue：SwiftUI，Jetpack Compose，Flutter，你的名字兼容。
 
+* [MostlyAdequate/mostly-adequate-guide](https://github.com/MostlyAdequate/mostly-adequate-guide) javascript指南
+
+* [reasonml/reason](https://github.com/reasonml/reason) 利用JavaScript和OCaml生态系统的简单，快速和类型的安全代码。OCaml是Caml的继承者，CAML的缩写最初代表Categorical Abstract Machine Language,分类抽象机语言，不过后来，将这个抽象机淘汰掉了。OCaml有一个巨大并强悍的标准库，这使得她可以像Py或者Perl一样可以方便地开发各种应用程序，健壮的模块化与面向对象编程结构又使得她可以胜任大规模软件工程项目。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -6370,6 +6450,10 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) 与 Vue 相关的精彩事物的精选列表
 
+* [vuetifyjs/awesome-vuetify](https://github.com/vuetifyjs/awesome-vuetify) Vuetify 是一个不需要设计技能的 UI 库，其中包含精美的手工制作的 Vue 组件。您将在下面找到一系列应用程序和工具，这些应用程序和工具有助于展示 Vuetify 所提供的最佳功能
+
+* [nestjs/awesome-nestjs](https://github.com/nestjs/awesome-nestjs) 与NestJS 相关的精彩事物的精选列表
+
 * [layui/layui](https://github.com/layui/layui) 一套遵循原生态开发模式的 Web UI 组件库，采用自身轻量级模块化规范，易上手，可以更简单快速地构建网页界面。
 
 * [dcloudio/uni-app](https://github.com/dcloudio/uni-app) 使用 Vue.js`开发小程序、H5、App的统一前端框架。使用 Vue 语法编写代码，uni-app 框架将其编译到 小程序（微信/支付宝/百度/字节跳动/QQ/快手/钉钉/小红书）、App（iOS/Android）、H5等平台，保证正确并达到优秀体验。
@@ -6393,6 +6477,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [tabler/tabler](https://github.com/tabler/tabler) 建立在Bootstrap上的HTML Dashboard UI 工具包
 
 * [coreui/coreui-free-bootstrap-admin-template](https://github.com/coreui/coreui-free-bootstrap-admin-template) 基于由专业人士创建和支持的企业级手工制作的 UI 组件库构建的开源 Bootstrap 管理仪表板模板。CoreUI 管理模板可帮助您比以前更快地构建可靠的 Web 应用。CoreUI提供4个版本：Angular，Bootstrap，React.js和Vue.js。
+
+* [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) Node.js 库，提供了一个高级 API 来控制 DevTools 协议上的 Chrome/Chromium。Puppeteer默认以无头模式运行，但可以配置为在完整（“有头”）Chrome / Chromium中运行。示例：生成页面的屏幕截图和 PDF。对 SPA（单页应用程序）进行爬网并生成预呈现的内容（即“SSR”（服务器端呈现））。自动化表单提交、UI 测试、键盘输入等。使用最新的 JavaScript 和浏览器功能创建自动化测试环境。捕获站点的时间线跟踪，以帮助诊断性能问题。测试Chrome扩展程序。
 
 * [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) React企业应用程序的全新 UI 解决方案。
 
@@ -6574,9 +6660,23 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) 用于移动友好型交互式地图的 JavaScript 库
 
-* [https://github.com/date-fns/date-fns](https://github.com/date-fns/date-fns) 现代 JavaScript 日期实用程序库
+* [date-fns/date-fns](https://github.com/date-fns/date-fns) 现代 JavaScript 日期实用程序库
 
+* [amsul/pickadate.js](https://github.com/amsul/pickadate.js) 移动友好，响应迅速且轻量级的jQuery日期和时间输入选择器。
 
+* [iamkun/dayjs](https://github.com/iamkun/dayjs) 不可变日期时间库替代 Moment.js具有相同的现代 API
+
+* [rebassjs/rebass](https://github.com/rebassjs/rebass) 使用风格化系统构建的 React 基元 UI 组件。
+
+* [enzymejs/enzyme](https://github.com/enzymejs/enzyme) React 的 JavaScript 测试实用程序，可以更轻松地测试 React 组件的输出。您还可以操作、遍历和以某种方式模拟给定输出的运行时。
+
+* [ill-inc/biomes-game](https://github.com/ill-inc/biomes-game) Biomes是一个开源沙盒MMORPG，使用Next.js，Typescript，React和WebAssembly等Web技术为Web构建。
+
+* [reagent-project/reagent](https://github.com/reagent-project/reagent) 提供了一种编写高效 React 组件的方法，（几乎）只使用普通的 ClojureScript 函数。
+
+* [meteor/meteor](https://github.com/meteor/meteor) 一个用于构建现代 Web 应用程序的超简单环境。
+
+* [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev) 现代 JavaScript Web 开发的大图景、同义词库和分类法
 
 ## 后端开发框架及项目
 
@@ -6589,6 +6689,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
 
 * [humiaozuzu/awesome-flask](https://github.com/humiaozuzu/awesome-flask) 精选的 Flask 资源和插件列表
+
+* [expressjs/express](https://github.com/expressjs/express) 快速，无配置，极简主义的node Web框架。
 
 * [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
 
@@ -6648,6 +6750,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [typeorm/typeorm](https://github.com/typeorm/typeorm) 用于TypeScript和JavaScript的ORM。支持MySQL，PostgreSQL，MariaDB，SQLite，MS SQL Server，Oracle，SAP Hana，WebSQL数据库。适用于NodeJS，Browser，Ionic，Cordova和Electron平台。
 
+* [Unitech/pm2](https://github.com/Unitech/pm2) Node.js具有内置负载均衡器的生产进程管理器。
+
 ## 网络与前后端开发_其他
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
@@ -6667,6 +6771,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [wistbean/learn_python3_spider](https://github.com/wistbean/learn_python3_spider) python爬虫教程系列、从0到1学习python爬虫，包括浏览器抓包，手机APP抓包，如 fiddler、mitmproxy，各种爬虫涉及的模块的使用，如：requests、beautifulSoup、selenium、appium、scrapy等，以及IP代理，验证码识别，Mysql，MongoDB数据库的python使用，多线程多进程爬虫的使用，css 爬虫加密逆向破解，JS爬虫逆向，分布式爬虫，爬虫项目实战实例等
 
 * [dataabc/weiboSpider](https://github.com/dataabc/weiboSpider) 新浪微博爬虫，用python爬取新浪微博数据
+
+* [nwjs/nw.js](https://github.com/nwjs/nw.js) 直接从 DOM/WebWorker 调用所有 Node.js 模块，并启用一种使用所有 Web 技术编写应用程序的新方法。
 
 * [gofiber/fiber](https://github.com/gofiber/fiber) 用 Go 编写的受 Express 启发的 Web 框架
 
@@ -6828,6 +6934,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [top-think/think](https://github.com/top-think/think) ThinkPHP Framework ——十年匠心的高性能PHP框架
 
+* [tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth) 适用于PHP Laravel&Lumen的JSON 网络令牌认证
+
 * [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) 利用干净体系结构和 ASP.NET 核心的强大功能，为企业应用程序开发提供一种简单有效的方法。使用此模板，您可以毫不费力地创建具有 ASP.NET Core和Angular或React的单页应用程序（SPA），同时遵守清洁架构的原则。入门很简单 - 只需安装 .NET 模板。
 
 * [httpie/cli](https://github.com/httpie/cli) 适用于 API 时代的现代、用户友好的命令行 HTTP 客户端。JSON支持，颜色，会话，下载，插件等。
@@ -6835,6 +6943,10 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [nswbmw/N-blog](https://github.com/nswbmw/N-blog) 一起学 Node.js，使用 Express + MongoDB 搭建多人博客
 
 * [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) SaaS、PaaS 和 IaaS 产品列表，这些产品对 DevOps 和 infradev 部分免费。现在有许多服务提供免费套餐，但找到它们都需要时间来做出明智的决定。
+
+* [olistic/warriorjs](https://github.com/olistic/warriorjs) 令人兴奋的编程和人工智能游戏，在 WarriorJS 中，你是一名爬上高塔到达顶层 JavaScript 剑的战士。传说持剑者在 JavaScript 语言中变得开悟，但请注意：旅程并不容易。在每一层楼，你需要编写JavaScript来指导战士与敌人作战，营救俘虏，并活着到达楼梯......
+
+* [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows) 适用于 Windows 的node.js版本管理实用程序。具有讽刺意味的是，用GO写的。
 
 ## 区块链
 
@@ -7142,6 +7254,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 开源代码库和课程。免费学习编码。
 
+* [forthespada/CS-Books](https://github.com/forthespada/CS-Books) 超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计模式、前端、汇编以及校招社招各种面经
+
 * [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫
 
 * [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) 用动画的形式呈现解LeetCode题目的思路
@@ -7195,6 +7309,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [gin-gonic/gin](https://github.com/gin-gonic/gin) 一个用 Go （Golang） 编写的 HTTP Web 框架。它具有类似Martini的API，性能要好得多 - 速度提高了40倍。
 
 * [cosmtrek/air](https://github.com/cosmtrek/air) Go 应用的实时重新加载
+
+* [johnkerl/miller](https://github.com/johnkerl/miller) Miller 就像 awk、sed、剪切、连接和排序的名称索引数据，如 CSV、TSV 和表格 JSON。
 
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
 
@@ -7704,3 +7820,9 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [asciinema/asciinema](https://github.com/asciinema/asciinema) 轻松记录终端会话，并在终端和 Web 浏览器中重播它们。
 
 * [SnapKit/SnapKit](https://github.com/SnapKit/SnapKit) 一款DSL，可在iOS和OS X上轻松实现自动布局。
+
+* [NotFound9/interviewGuide](https://github.com/NotFound9/interviewGuide) 《大厂面试指北》—包括Java、JVM、数据库、mysql、网络、算法、数据结构、操作系统、设计模式、系统设计、框架原理。
+
+* [Ftindy/IPTV-URL](https://github.com/Ftindy/IPTV-URL) 本项目直播源均搜集自互联网，完全免费公开分享
+
+# end
