@@ -402,6 +402,10 @@
 
 * [Visualize-ML/Book4_Power-of-Matrix](https://github.com/Visualize-ML/Book4_Power-of-Matrix) Book_4_《矩阵力量》 | 鸢尾花书：从加减乘除到机器学习；上架！
 
+* [ShusenTang/Deep-Learning-with-PyTorch-Chinese](https://github.com/ShusenTang/Deep-Learning-with-PyTorch-Chinese) 将PyTorch官方书籍《Deep learning with PyTorch》（基本摘录版）翻译成中文版并给出可运行的相关代码。
+
+* [ritchieng/the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch) 一个精选的教程、项目、库、视频、论文、书籍以及与令人难以置信的 PyTorch 相关的任何内容。
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -901,6 +905,8 @@
 
 * [THUDM/GLM](https://github.com/THUDM/GLM) 一种预训练的通用语言模型，具有自回归空白填充目标，可以根据各种自然语言理解和生成任务进行微调。
 
+* [facebookresearch/metaseq](https://github.com/facebookresearch/metaseq) Meta AI开放了一个“重达”1750亿参数的大语言模型OPT-175B，Open Pre-trained Transformers,不仅参数比GPT-3的3750亿更少，效果还完全不输GPT-3。从完整模型到训练代码、部署代码全部开放。
+
 * [dbiir/UER-py](https://github.com/dbiir/UER-py) 一个用于对通用语料进行预训练并对下游任务进行微调的工具包。提供了非常丰富的模型库。包括：中文RoBERTa、基于词的中文RoBERTa、中文GPT-2预训练模型（通用、古诗词、对联、歌词、文言文）、中文T5预训练模型、中文RoBERTa下游任务微调模型（JD full 情感分类 、JD binary 情感分类 、Dianping 情感分类、Ifeng 新闻主题分类、Chinanews 新闻主题分类 、CLUENER2020 NER 、抽取式问答）等。
 
 * [OpenBMB/BMInf](https://github.com/OpenBMB/BMInf) BMInf (Big Model Inference) 是一个用于大规模预训练语言模型（PLM）推理阶段的低资源工具包。最低支持在NVIDIA GTX 1060单卡运行百亿大模型。在此基础上，使用更好的gpu运行会有更好的性能。模型能力覆盖文本补全、文本生成与对话场景。文本生成能力大幅提高。目前支持下列模型：
@@ -960,6 +966,8 @@
 * [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) 具有 Transformer 级 LLM 性能的 RNN。它可以像 GPT（可并行化）一样直接训练。因此，它结合了 RNN 和 Transformer 的优点——出色的性能、快速推理、节省 VRAM、快速训练、“无限”ctx_len 和自由句子嵌入。
 
 * [FlagOpen/FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding) 可以将任何文本映射到低维密集向量，该向量可用于检索、分类、聚类或语义搜索等任务。它也可以用于LLM的矢量数据库。
+
+* [XiaoMi/MiLM-6B](https://github.com/XiaoMi/MiLM-6B) 由小米开发的一个大规模预训练语言模型，参数规模为64亿。在 C-Eval 和 CMMLU 上均取得同尺寸最好的效果。
 
 ## 文本分类
 
@@ -1106,6 +1114,10 @@
 * [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
 
 * [Xwin-LM/Xwin-LM](https://github.com/Xwin-LM/Xwin-LM) 旨在为大型语言模型开发和开源对齐技术，包括监督微调（SFT），奖励模型（RM），拒绝采样，来自人类反馈的强化学习（RLHF）等。我们的第一个版本建立在Llama2基本模型的基础上，在AlpacaEval上排名TOP-1。值得注意的是，它是第一个在此基准测试上超过 GPT-4 。
+
+* [PCL-Platform.Intelligence/PanGu-Alpha](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha) 2000亿开源中文预训练语言模型「鹏城·盘古α」,以鹏城实验室为首的技术团队联合攻关，首次基于“鹏城云脑Ⅱ”和国产MindSpore框架的自动混合并行模式实现在2048卡算力集群上的大规模分布式训练，训练出业界首个2000亿参数以中文为核心的预训练生成语言模型。鹏城·盘古α预训练模型支持丰富的场景应用，在知识问答、知识检索、知识推理、阅读理解等文本生成领域表现突出，具备很强的小样本学习能力。
+
+* [PCL-Platform.Intelligence/PanGu-Dialog](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Dialog) 鹏城.盘古对话生成大模型，简称PanGu-Dialog。PanGu-Dialog是以大数据和大模型为显著特征的大规模开放域对话生成模型，充分利用了大规模预训练语言模型的知识和语言能力，基于预训练+持续微调的学习策略融合大规模普通文本和对话数据训练而成。
 
 * [CStanKonrad/long_llama](https://github.com/CStanKonrad/long_llama) 一种大型语言模型，能够处理256k个甚至更多的长上下文。建立在OpenLLaMA的基础上，并使用聚焦变压器（FoT）方法进行微调。聚焦转换器：上下文缩放的对比训练 （FoT） 提供了一种简单的方法，使语言模型能够处理可能包含数百万个令牌的上下文，同时在明显更短的输入上进行训练。FoT 允许注意力层的子集访问（键、值）对的内存缓存，以扩展上下文长度。FoT的独特之处在于其训练程序，借鉴了对比学习。具体来说，将内存注意层暴露给相关和不相关的键（如来自不相关文档的负样本）。这种策略激励模型区分与语义上不同的值相关的键，从而增强它们的结构。反过来，这使得推断有效上下文长度远远超出训练中看到的范围成为可能。
 
@@ -1691,6 +1703,8 @@
 
 * [openai/openai-python](https://github.com/openai/openai-python) OpenAI API 的官方 Python 库。提供了从用 Python 语言编写的应用程序对 OpenAI API 的便捷访问。它包括一组预定义的API资源类，这些类从API响应动态初始化自身，使其与各种版本的OpenAI API兼容。
 
+* [Lightning-AI/lit-llama](https://github.com/Lightning-AI/lit-llama) 基于nanoGPT的LLaMA语言模型的实现。支持flash注意力， Int8 和 GPTQ 4 位量化， LoRA 和 LLaMA 适配器微调， 预训练.Apache 2.0 许可。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -1702,6 +1716,10 @@
 * [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) 一个具有130亿个参数的大型多语言代码生成模型，在20多种语言的大型代码语料库上进行了预训练。
 
 * [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) GitHub Copilot服务器的开源替代品。构建GitHub Copilot的本地托管替代方案的尝试。它在NVIDIA的Triton Inference Server中使用SalesForce CodeGen模型和FasterTransformer后端。
+
+* [facebookresearch/codellama](https://github.com/facebookresearch/codellama) 基于 Llama 2 的代码大型语言模型系列，在开放模型中提供最先进的性能、填充功能、对大型输入上下文的支持以及编程任务的零镜头指令跟踪能力。我们提供多种风格来涵盖广泛的应用：基础模型（Code Llama），Python 专业化（Code Llama - Python）和指令遵循模型（Code Llama - Instruct），每个模型都有 7、13 和 34B 参数。所有模型都在16k 个令牌的序列上进行训练，并显示对最多 100k 个令牌的输入的改进。7B 和 13B 代码骆驼和代码骆驼 - 指示变体支持基于周围内容的填充。通过使用更高的代码采样微调 Llama 2 开发的。
+
+* [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder) 一种在源代码和自然语言文本上训练的语言模型 （LM）。它的训练数据包含了 80 多种不同的编程语言，以及从 GitHub 问题和提交以及笔记本中提取的文本。
 
 * [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) 使用GPT 帮助开发人员将构建应用的速度提高 20 倍
 
@@ -2107,6 +2125,10 @@
 
 * [thunlp/WebCPM](https://github.com/thunlp/WebCPM)  中文长篇问答的交互式网络搜索的官方代码。使用中文预训练模型进行交互式Web搜索的项目。开发了一个网络搜索界面，它既收集人类又收集网络搜索行为。然后，使用多达 10B 的参数微调 PLM，以模仿人类的网络搜索行为，并根据收集到的事实生成答案。开源了 Web 搜索界面、数据集、实现和模型参数。
 
+* [huggingface/transformers-bloom-inference](https://github.com/huggingface/transformers-bloom-inference) BLOOM 的快速推理解决方案
+
+* [OpenLemur/Lemur](https://github.com/OpenLemur/Lemur) Lemur 是一种可公开访问的语言模型，针对自然语言和编码功能进行了优化，可作为多功能语言代理的骨干。随着语言模型不断从对话聊天机器人发展到可以在现实世界中采取行动的功能代理，它们既需要强大的语言理解能力，也需要执行操作的能力。狐猴平衡了自然语言和编码技能，使代理能够遵循指令、推理任务并采取脚踏实地的行动。
+
 ### 其他_文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -2179,6 +2201,8 @@
 
 * [0hq/WebGPT](https://github.com/0hq/WebGPT) 使用 WebGPU 在浏览器上运行 GPT 模型。在不到 ~1500 行的原版 Javascript 中实现 GPT 推理。
 
+* [huggingface/alignment-handbook](https://github.com/huggingface/alignment-handbook) 使语言模型与人类和 AI 偏好保持一致的强大配方：OpenAI用ChatGPT打破了互联网，Meta紧随其后发布了Llama系列语言模型，使ML社区能够构建自己有能力的聊天机器人。这导致了一个丰富的数据集和模型生态系统，这些数据集和模型主要集中在通过监督微调（SFT）来教授语言模型遵循指令。该手册的初始版本将侧重于以下技术：Supervised fine-tuning监督微调，教语言模型遵循有关如何收集和策划自己的训练数据集的说明和提示。Reward modeling奖励建模：教授语言模型根据人类或AI偏好区分模型响应。Rejection sampling剔除采样：一种简单但功能强大的技术，可提高SFT模型的性能。直接偏好优化（DPO）：PPO的强大而有前途的替代方案。
+
 ## 文本匹配 文本相似度
 
 * [princeton-nlp/SimCSE](https://github.com/princeton-nlp/SimCSE) SimCSE：句子嵌入的简单对比学习 。提供无监督或有监督的对比学习。是目前文本相似度更好的方法。
@@ -2197,7 +2221,7 @@
 
 * [NTMC-Community/MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py) 通用的文本匹配工具包，旨在方便大家快速的实现、比较、以及分享最新的深度文本匹配模型。MatchZoo 的 PyTorch 版本。
 
-* [voidism/DiffCSE](https://github.com/voidism/DiffCSE) 用于学习句子嵌入的无监督对比学习框架。DiffCSE学习对原始句子和编辑句子之间的差异敏感的句子嵌入，其中编辑的句子是通过随机屏蔽原始句子，然后从屏蔽语言模型中采样来获得的。我们表明 DiffSCE 是等变对比学习的一个实例（Dangovski 等人，2021 年），它概括了对比学习并学习对某些类型的增强不敏感而对其他“有害”类型的增强敏感的表征。我们的实验表明，DiffCSE在无监督句子表示学习方法中取得了最先进的结果，在语义文本相似性任务上比SimCSE高出2.3个绝对点。
+* [voidism/DiffCSE](https://github.com/voidism/DiffCSE) 用于学习句子嵌入的无监督对比学习框架。DiffCSE学习对原始句子和编辑句子之间的差异敏感的句子嵌入，其中编辑的句子是通过随机屏蔽原始句子，然后从屏蔽语言模型中采样来获得的。我们表明 DiffSCE 是等变对比学习的一个实例（Dangovski 等人，2021 年），它概括了对比学习并学习对某些类型的增强不敏感而对其他“有害”类型的增强敏感的表征。我们的实验表明，DiffCSE在无监督句子表示学习方法中取得了最先进的结果，语义文本相似性上比SimCSE高出2.3个绝对点。
 
 * [shibing624/text2vec](https://github.com/shibing624/text2vec) 文本向量表征工具，把文本转化为向量矩阵，实现了Word2Vec、RankBM25、Sentence-BERT、CoSENT等文本表征、文本相似度计算模型，开箱即用。
 
@@ -2210,6 +2234,8 @@
 * [DataTerminatorX/Keyword-BERT](https://github.com/DataTerminatorX/Keyword-BERT) 带关键词的BERT语义匹配
 
 * [bojone/BERT-whitening](https://github.com/bojone/BERT-whitening) 简单的向量白化改善句向量质量，可以媲美甚至超过BERT-flow的效果。
+
+* [huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) 文本嵌入模型的超快速推理解决方案（rust）
 
 * [autoliuweijie/BERT-whitening-pytorch](https://github.com/autoliuweijie/BERT-whitening-pytorch) Pytorch version of BERT-whitening
 
@@ -3203,6 +3229,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [pdf2htmlEX/pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX) 将PDF转换为HTML，而不会丢失文本或格式。
 
+* [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) Web扩展和CLI工具，用于将完整网页的忠实副本保存在单个HTML文件中
+
+* [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) 适用于桌面、网络、移动等的全栈 GUI 库。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3480,6 +3510,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [typicode/json-server](https://github.com/typicode/json-server) 在不到 30 秒的时间内获得零编码的完整伪造 REST API
 
 * [ruanyf/jstraining](https://github.com/ruanyf/jstraining) 全栈工程师培训材料，帮助学习者掌握 JavaScript 全栈开发的基本知识，承担简单 Web 应用的前后端开发。
+
+* [apache/thrift](https://github.com/apache/thrift) 一个轻量级、独立于语言的软件堆栈，用于点对点 RPC 实现。Thrift 为数据传输、数据序列化和应用程序级处理提供了干净的抽象和实现。代码生成系统将简单的定义语言作为输入，并跨编程语言生成代码，这些编程语言使用抽象堆栈来构建可互操作的 RPC 客户端和服务器。Thrift 使用不同编程语言编写的程序可以轻松共享数据和调用远程过程。由于支持 28 种编程语言，Thrift 很可能支持您当前使用的语言。Thrift 专门设计用于支持跨客户端和服务器代码的非原子版本更改。这允许您升级服务器，同时仍然能够为旧客户端提供服务;或者让较新的客户端向较旧的服务器发出请求。社区提供的关于对 API 进行版本控制时的节俭和兼容性的优秀文章可以在节俭缺失指南中找到。
+
+* [drogonframework/drogon](https://github.com/drogonframework/drogon) 基于C++14/17/20的HTTP Web应用程序框架，运行在Linux/macOS/Unix/Windows上。
 
 ## 区块链
 
@@ -4664,6 +4698,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [microprediction/timemachines](https://github.com/microprediction/timemachines) 利用流行的python时间序列包的功能，如river，pydlm，tbats，pmdarima，statsmodels.tsa，neuralprophet，Facebook Prophet，Uber的orbit，Facebook的greykitite等。
 
+* [https://github.com/ngruver/llmtime](https://github.com/ngruver/llmtime) 大型语言模型是零样本的时间序列预测器
+
 # 强化学习 Reinforcement Learning
 
 * [ray-project/ray](https://github.com/ray-project/ray) 构建分布式机器学习应用提供简单和通用式的API。Ray打包了Tune、RLlib、RaySGD和Ray Serve等多款机器学习库。
@@ -4973,6 +5009,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [r9y9/deepvoice3_pytorch](https://github.com/r9y9/deepvoice3_pytorch) 基于卷积神经网络的文本到语音合成模型的Torch 实现
 
 * [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) 理解和生成语音、音乐、声音和说话的头部
+
+* [riffusion/riffusion](https://github.com/riffusion/riffusion) 稳定扩散，实时生成音乐
 
 ## 语音识别与合成_其他
 
@@ -7142,6 +7180,14 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [kitao/pyxel](https://github.com/kitao/pyxel) Pyxel是Python的复古游戏引擎。由于其受复古游戏机启发的简单规格，例如只能显示 16 种颜色，只能同时播放 4 种声音，您可以随意享受制作像素艺术风格游戏的乐趣。
 
+* [pytest-dev/pytest](https://github.com/pytest-dev/pytest) pytest 框架使编写小型测试变得容易，但可扩展以支持复杂的功能测试
+
+* [x-hw/amazing-qr](https://github.com/x-hw/amazing-qr) Python中惊人的QRCode生成器（支持动画gif） - Python amazing QR 生成器（支持 gif 动态图片二维码）
+
+* [Nuitka/Nuitka](https://github.com/Nuitka/Nuitka) 用Python编写的Python编译器。它与Python 2.6，2.7，3.4，3.5，3.6，3.7，3.8，3.9，3.10和3.11完全兼容。你给它提供你的Python应用程序，它做了很多聪明的事情，并吐出一个可执行文件或扩展模块。
+
+* [jackzhenguo/python-small-examples](https://github.com/jackzhenguo/python-small-examples) 告别枯燥，致力于打造 Python 实用小例子
+
 ## C/C++ 程序设计
 
 * [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
@@ -7284,6 +7330,10 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates) 最佳 Flutter-UI 模板
 
+* [CarGuo/gsy_github_app_flutter](https://github.com/CarGuo/gsy_github_app_flutter) Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。GSYGithubApp系列的优势：我们目前已经拥有Flutter、Weex、ReactNative、kotlin 四个版本。 功能齐全，项目框架内技术涉及面广，完成度高，持续维护，配套文章，适合全面学习，对比参考。跨平台的开源Github客户端App，更好的体验，更丰富的功能，旨在更好的日常管理和维护个人Github
+
+* [iampawan/FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps) 基本的 Flutter 应用程序，适用于开发人员。
+
 * [cfug/dio](https://github.com/cfug/dio) 一个强大的 HTTP 客户端，用于 Dart 和 Flutter，支持全局设置、拦截器、FormData、中止和取消请求、文件上传和下载、请求超时、自定义适配器等。
 
 * [xujiyou/zhihu-flutter](https://github.com/xujiyou/zhihu-flutter) Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
@@ -7333,6 +7383,26 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [LianjiaTech/bruno](https://github.com/LianjiaTech/bruno) 基于一整套设计体系的 Flutter 组件库。
 
 * [LianjiaTech/bruno](https://github.com/LianjiaTech/bruno) Bruno 是基于一整套设计体系的 Flutter 组件库。一套企业级移动端 Flutter 组件库.
+
+* [felangel/bloc](https://github.com/felangel/bloc) 有助于实现 BLoC 设计模式的可预测状态管理库。BLoC是Business Logic Component的英文缩写，译为业务逻辑组件，是一种使用响应式编程来构建应用的方式。
+
+* [dart-lang/sdk](https://github.com/dart-lang/sdk) Dart SDK，包括 VM、dart2js、核心库等。
+
+* [jonataslaw/getx](https://github.com/jonataslaw/getx) 在没有上下文的情况下打开屏幕/小吃栏/对话框/底部工作表，使用 Get 轻松管理状态并注入依赖项。
+
+* [kaina404/FlutterDouBan](https://github.com/kaina404/FlutterDouBan) Flutter豆瓣客户端,Awesome Flutter Project,全网最100%还原豆瓣客户端。首页、书影音、小组、市集及个人中心，一个不拉。
+
+* [toly1994328/FlutterUnit](https://github.com/toly1994328/FlutterUnit) Flutter 集录指南 App，Flutter源码中的可用的组件一共350个左右，纷繁复杂，也没有明确的分类标准 FlutterUnit 对大大小小，常用不常用的组件能收的尽量收录。
+
+* [alibaba/flutter_boost](https://github.com/alibaba/flutter_boost) FlutterBoost 是一个 Flutter 插件，它能够以最少的努力为您现有的本机应用程序实现 Flutter 的混合集成。
+
+* [firebase/flutterfire](https://github.com/firebase/flutterfire) 用于 Flutter 应用的 Firebase 插件集合。组 Flutter 插件，使 Flutter 应用能够使用 Firebase 服务。
+
+* [simplezhli/flutter_deer](https://github.com/simplezhli/flutter_deer) Flutter 练习项目（包括集成测试、可访问性测试）。内含完整UI设计图，更贴近真实项目的练习。颤振实践项目（包括集成测试和可访问性测试）。包含完整的 UI 设计图纸，用于更真实的实践项目。
+
+* [brianegan/flutter_architecture_samples](https://github.com/brianegan/flutter_architecture_samples) 项目演示了解决或避免构建Flutter应用中常见的问题。
+
+* [lollipopkit/flutter_server_box](https://github.com/lollipopkit/flutter_server_box) 使用 Flutter 的服务器状态和工具箱应用程序
 
 ## 其他
 
@@ -7454,13 +7524,21 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [doocs/advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
 - [ZhongFuCheng3y/athena](https://github.com/ZhongFuCheng3y/athena) Java后端知识图谱 帮助Java初学者成长
+
 - [google/guava](https://github.com/google/guava) Google Java 核心库
+
 - [apache/dubbo](https://github.com/apache/dubbo) Apache Dubbo 的 Java 实现。RPC 和微服务框架。
+
 - [winterbe/java8-tutorial](https://github.com/winterbe/java8-tutorial) 现代 Java - Java 8 指南
+
 - [AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily) 【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。
+
 - [DuGuQiuBai/Java](https://github.com/DuGuQiuBai/Java) 27天成为Java大神
+
 - [CodingDocs/awesome-java](https://github.com/CodingDocs/awesome-java) Github上令人敬畏的Java项目集合（非常棒的 Java 开源项目集合）。
+
 - [fuzhengwei/CodeGuide](https://github.com/fuzhengwei/CodeGuide) 多年从事一线互联网 Java 开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。
+
 - [dromara/Sa-Token](https://github.com/dromara/Sa-Token) 史上功能最全的Java权限认证框架！目前已集成——登录认证、权限认证、分布式Session会话、微服务网关鉴权、单点登录、OAuth2.0、踢人下线、Redis集成、前后台分离、记住我模式、模拟他人账号、临时身份切换、账号封禁、多账号认证体系、注解式鉴权、路由拦截式鉴权、花式token生成、自动续签、同端互斥登录、会话治理、密码加密、jwt集成、Spring集成、WebFlux集成...
 * [hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer) Java工程师成神之路
 
@@ -7940,6 +8018,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [NotFound9/interviewGuide](https://github.com/NotFound9/interviewGuide) 《大厂面试指北》—包括Java、JVM、数据库、mysql、网络、算法、数据结构、操作系统、设计模式、系统设计、框架原理。
 
 * [Ftindy/IPTV-URL](https://github.com/Ftindy/IPTV-URL) 本项目直播源均搜集自互联网，完全免费公开分享
+
+* [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) 直播源相关资源汇总  IPTV、M3U
 
 * [asdf-vm/asdf](https://github.com/asdf-vm/asdf) 可扩展的版本管理器，支持Ruby，Node.js，Elixir，Erlang等
 
