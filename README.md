@@ -1705,6 +1705,16 @@
 
 * [Lightning-AI/lit-llama](https://github.com/Lightning-AI/lit-llama) 基于nanoGPT的LLaMA语言模型的实现。支持flash注意力， Int8 和 GPTQ 4 位量化， LoRA 和 LLaMA 适配器微调， 预训练.Apache 2.0 许可。
 
+* [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) TensorRT-LLM 为用户提供了一个易于使用的 Python API，用于定义大型语言模型 （LLM） 并构建包含最先进优化的 TensorRT 引擎，以便在 NVIDIA GPU 上高效执行推理。TensorRT-LLM还包含用于创建Python的组件，以及执行这些TensorRT引擎的C++运行时。
+
+* [HuiMi24/chatppt](https://github.com/HuiMi24/chatppt) 由chatgpt提供支持，它可以帮助您生成PPT /幻灯片。它支持英文和中文输出
+
+* [zhile-io/pandora](https://github.com/zhile-io/pandora) 潘多拉实现了网页版 ChatGPT 的主要操作。后端优化，绕过 Cloudflare，速度喜人。
+
+* [cpacker/MemGPT](https://github.com/cpacker/MemGPT) 创建具有自我编辑记忆的永久聊天机器人！Memory-GPT是一个系统，它智能地管理LLM中的不同内存层，以便在LLM的有限上下文窗口中有效地提供扩展上下文。例如，MemGPT 知道何时将关键信息推送到矢量数据库，以及何时在聊天中检索它，从而实现永久对话。
+
+* [NExT-GPT/NExT-GPT](https://github.com/NExT-GPT/NExT-GPT) 任意多模态大语言模型，第一个端到端MM-LLM，可感知输入并以文本，图像，视频和音频等的任意组合（任意对任意）生成输出。NExt-GPT建立在现有的预训练LLM，多模态编码器和SoTA扩散模型之上，具有足够的端到端指令调谐。`1. 多模态编码阶段。`利用已建立的编码器以各种模式对输入进行编码，其中这些表示通过投影层投影为LLM可理解的类似语言的表示。`2. LLM理解和推理阶段。`利用现有的开源LLM作为核心来处理语义理解和推理的输入信息。LLM不仅直接生成文本标记，而且还生成独特的“模态信号”标记，这些令牌作为指令来指示解码层是否以及相应地输出什么模态内容。`3. 多模式生成阶段。`基于变压器的输出投影层通过来自LLM（如果有）的特定指令接收多模态信号，将信号令牌表示映射到以下多模态解码器可以理解的表示中。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -1886,6 +1896,8 @@
 - [WangRongsheng/IvyGPT](https://github.com/WangRongsheng/IvyGPT) 最贴近真实医生问诊效果的医疗大语言模型
 
 - [189569400/MedicalGPT-zh](https://github.com/189569400/MedicalGPT-zh) 基于医疗指令微调的中文医疗问诊模型
+
+- [DUTIR-BioNLP/Taiyi-LLM](https://github.com/DUTIR-BioNLP/Taiyi-LLM) 太一：一种双语（中英文）微调的大语言模型，适用于各种生物医学任务
 
 #### 法律大模型及语料库
 
@@ -2129,6 +2141,32 @@
 
 * [OpenLemur/Lemur](https://github.com/OpenLemur/Lemur) Lemur 是一种可公开访问的语言模型，针对自然语言和编码功能进行了优化，可作为多功能语言代理的骨干。随着语言模型不断从对话聊天机器人发展到可以在现实世界中采取行动的功能代理，它们既需要强大的语言理解能力，也需要执行操作的能力。狐猴平衡了自然语言和编码技能，使代理能够遵循指令、推理任务并采取脚踏实地的行动。
 
+* [llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks) 对对齐语言模型的普遍和可转移攻击
+
+* [OpenNLPLab/TransnormerLLM](https://github.com/OpenNLPLab/TransnormerLLM) 第一个基于线性注意力的LLM，在准确性和效率方面都优于传统的softmax基于注意力的模型。它是在具有多达 1.4 万亿个代币的高质量语料库上进行训练的。从以前的线性注意力架构TransNormer演变而来，进行了高级修改，包括LRPE位置嵌入，闪电注意力加速，新的门控和规范化机制。TransNormerLLM在多个公认的中文，英文和多语言通用和特定领域的基准测试中实现了其规模的竞争性能。此版本包括具有 385M、1B 和 7B 参数的基本版本。所有版本都完全开放给学术研究。开发者只需通过电子邮件申请并获得官方商业许可，即可免费使用商业用途。
+
+* [VPGTrans/VPGTrans](https://github.com/VPGTrans/VPGTrans) 跨LLM传输视觉提示生成器，实现极低成本训练一个高性能多模态大模型。从头开始训练一个视觉-语言模型（VL-LLM）往往需要消耗大量的资源，所以现有的解决方案都是把语言模型和视觉提示生成模型（Visual Prompt Generator, VPG）连接起来，但即便如此，继续调整VPG仍然需要几千个GPU小时和数百万的训练数据。通过我们提出的VPGTrans方法，可以快速（少于10%训练时间）将已有的多模态对话模型的视觉模块迁移到新的语言模型，且达到类似或更优效果。现有的常用的VL-LLM基本采取的架构：VPG（比如1.2B）->Projector（4M）->LLM（比如11B），在一个基座LLM基础上训练一个视觉soft prompt生成模块（Visual Prompt Generator, VPG），以及一个进行维度变换的线性层（Projector）。在训练过程中，LLM参数一般不会被更新，或者仅仅更新非常少量的参数。可训练参数主要来自于VPG和projector。VPGTrans框架: (1) 一阶段:projector的warm-up (2) 二阶段: 整体微调。（1）第一阶段：我们首先使用词向量转化器和原有projector进行融合作为新projector的初始化，然后用5倍学习率训练新projector一个epoch。（2）第二阶段：直接正常训练VPG和projector。
+
+* [CogStack/OpenGPT](https://github.com/CogStack/OpenGPT) 用于创建基于基础指令的数据集和培训会话领域专家大型语言模型 （LLM） 的框架。使用 OpenGPT 训练的医疗保健对话模型。
+
+* [huchenxucs/ChatDB](https://github.com/huchenxucs/ChatDB)  具有内存的大型语言模型 （LLM） 在计算上是通用的。然而，主流LLM并没有充分利用记忆，设计受到生物大脑的严重影响。由于其近似性质和容易累积错误，传统的神经记忆机制无法支持LLM模拟复杂的推理。在本文中，我们从现代计算机体系结构中寻求灵感，以使用符号记忆增强LLM，以进行复杂的多跳推理。这样的符号内存框架被实例化为LLM和一组SQL数据库，其中LLM生成SQL指令来操作SQL数据库。我们在需要复杂推理的合成数据集上验证了所提出的记忆框架的有效性。
+
+* [intel-analytics/BigDL](https://github.com/intel-analytics/BigDL/) 用于在英特尔 XPU（从笔记本电脑到 GPU 再到云）上运行 LLM（大型语言模型），使用 INT4 以极低的延迟（适用于任何 PyTorch 模型）。
+
+* [WangHuiNEU/llm](https://github.com/WangHuiNEU/llm) 大模型社区每周都要发布近百个模型，本项目会及时整理相关模型和文章并期望成为中文社区的大模型研究人员的模型和技术备忘录，每天会及时更新最新的模型，并详细解读技术细节
+
+* [Magnetic2014/llm-alignment-survey](https://github.com/Magnetic2014/llm-alignment-survey) 用于大型语言模型 （LLM） 对齐的精选阅读列表。
+
+* [zjunlp/EasyEdit](https://github.com/zjunlp/EasyEdit) 一个易于使用的LLM知识编辑框架。其目的是在特定域内有效地改变 LLM 的行为，而不会对其他输入的性能产生负面影响。它的设计易于使用和扩展。EasyEdit 包含编辑器、方法(SERAC、MEND、ROME、MEMIT、Knowledge Neuron)和评估的统一框架，分别表示编辑场景、编辑技术和评估方法。
+
+* [OpenBMB/XAgent](https://github.com/OpenBMB/XAgent) XAgent 是一个开源实验性大型语言模型 （LLM） 驱动的自治代理，可以自动解决各种任务。它被设计为可应用于各种任务的通用代理。目标是创建一个可以解决任何给定任务的超级智能代理！具有以下功能：自主性：XAgent可以在没有人类参与的情况下自动解决各种任务。`安全`：XAgent旨在安全运行。所有操作都约束在 docker 容器内。`可扩展性`：XAgent 被设计为可扩展的。您可以轻松添加新工具来增强代理的能力，甚至是新代理！`GUI`：友好的 GUI 来与代理交互。还可以使用命令行与代理进行交互。`与人类合作`：可以与您合作处理任务。它不仅能够在旅途中按照您的指导解决复杂的任务，而且在遇到挑战时还可以寻求您的帮助。XAgent由三部分组成：`调度程序`负责动态实例化任务并将其调度给不同的代理。它允许我们添加新代理并提高代理的能力。计划员负责生成和纠正任务计划。它将任务划分为子任务并为其生成里程碑，允许代理逐步解决任务。`参与者`负责执行操作以实现目标并完成子任务。参与者利用各种工具解决子任务，也可以与人类协作解决任务。ToolServer 是为 XAgent 提供强大而安全的工具来解决任务的服务器。它是一个 docker 容器。提供以下工具：`文件编辑器`提供了一个文本编辑工具来写入、读取和修改文件。`Python Notebook`提供了一个交互式Python笔记本，可以运行Python代码来验证想法，绘制图形等。`网络浏览器`提供用于搜索和访问网页的网页浏览器。`Shell` 提供了一个 bash shell 工具，可以执行任何 shell 命令，甚至可以安装程序和主机服务。`Rapid API` 提供了一个从 Rapid API 检索 API 并调用它们的工具，它提供了广泛的 API 供 XAgent 使用。还可以轻松地将新工具添加到ToolServer，以增强XAgent的能力。
+
+* [THUDM/AgentTuning](https://github.com/THUDM/AgentTuning) 使用跨多个代理任务的交互轨迹来调整LLM的第一次尝试。评估结果表明，AgentTuning 使 LLM 的代理功能能够在看不见的代理任务上具有强大的泛化能力，同时在一般语言能力方面保持良好。我们已经开源了AgentInstruct数据集和AgentLM。AgentInstruct 是一个精心策划的数据集，包含 1,866 个高质量的交互，旨在增强 6 个不同现实世界任务中的 AI 代理。AgentLM模型是通过对Llama2聊天系列的AgentInstruct数据集和ShareGPT数据集进行混合训练生成的。
+
+* [QwenLM/Qwen-VL](https://github.com/QwenLM/Qwen-VL) 由阿里云提出的Qwen-VL（通义千问-VL）聊天和预训练大视觉语言模型的官方回购。
+
+* [OpenBMB/BMTools](https://github.com/OpenBMB/BMTools) 大模型的工具学习，ChatGPT插件的开源解决方案。可以（1）通过编写python函数轻松构建插件（2）使用外部ChatGPT插件。
+
 ### 其他_文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -2202,6 +2240,8 @@
 * [0hq/WebGPT](https://github.com/0hq/WebGPT) 使用 WebGPU 在浏览器上运行 GPT 模型。在不到 ~1500 行的原版 Javascript 中实现 GPT 推理。
 
 * [huggingface/alignment-handbook](https://github.com/huggingface/alignment-handbook) 使语言模型与人类和 AI 偏好保持一致的强大配方：OpenAI用ChatGPT打破了互联网，Meta紧随其后发布了Llama系列语言模型，使ML社区能够构建自己有能力的聊天机器人。这导致了一个丰富的数据集和模型生态系统，这些数据集和模型主要集中在通过监督微调（SFT）来教授语言模型遵循指令。该手册的初始版本将侧重于以下技术：Supervised fine-tuning监督微调，教语言模型遵循有关如何收集和策划自己的训练数据集的说明和提示。Reward modeling奖励建模：教授语言模型根据人类或AI偏好区分模型响应。Rejection sampling剔除采样：一种简单但功能强大的技术，可提高SFT模型的性能。直接偏好优化（DPO）：PPO的强大而有前途的替代方案。
+
+* [yxuansu/PandaGPT](https://github.com/yxuansu/PandaGPT) 第一个能够跨六种模式的指令遵循数据的基础模型，而无需明确的监督。它展示了多种多模态功能，例如复杂的理解/推理、基于知识的描述和多回合对话。PandaGPT 是一种通用的指令遵循模型，既能看又能听👀👂。我们的试点实验表明，PandaGPT 可以执行复杂的任务，例如生成详细的图像描述、编写受视频启发的故事以及回答有关音频的问题。更有趣的是，PandaGPT 可以同时接受多模态输入并自然地组成它们的语义。例如，PandaGPT 可以连接对象在照片中的外观以及它们在音频中的声音。
 
 ## 文本匹配 文本相似度
 
