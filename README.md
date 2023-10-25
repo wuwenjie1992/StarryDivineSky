@@ -1637,6 +1637,10 @@
 
 * [CLUEbenchmark/SuperCLUE](https://github.com/CLUEbenchmark/SuperCLUE) 中文通用大模型综合性基准。[superclueai](https://www.superclueai.com)
 
+* [hkust-nlp/ceval](https://github.com/hkust-nlp/ceval) 一个全面的中文基础模型评估套件。它由 13948 道多项选择题组成，涵盖 52 个不同的学科和四个难度级别
+
+* [GitHub - EleutherAI/lm-evaluation-harness: A framework for few-shot evaluation of autoregressive language models.](https://github.com/EleutherAI/lm-evaluation-harness) 自回归语言模型的少样本评估框架。
+
 * [thu-coai/Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) 中文安全prompts，评估和提升大模型的安全性。
 
 * [RUCAIBox/HaluEval](https://github.com/RUCAIBox/HaluEval) 大型语言模型的大规模幻觉评估基准。包括 5,000 个带有 ChatGPT 响应的一般用户查询和来自三个任务的 30,000 个特定于任务的示例，即问答、基于知识的对话和文本摘要。
@@ -1714,6 +1718,14 @@
 * [cpacker/MemGPT](https://github.com/cpacker/MemGPT) 创建具有自我编辑记忆的永久聊天机器人！Memory-GPT是一个系统，它智能地管理LLM中的不同内存层，以便在LLM的有限上下文窗口中有效地提供扩展上下文。例如，MemGPT 知道何时将关键信息推送到矢量数据库，以及何时在聊天中检索它，从而实现永久对话。
 
 * [NExT-GPT/NExT-GPT](https://github.com/NExT-GPT/NExT-GPT) 任意多模态大语言模型，第一个端到端MM-LLM，可感知输入并以文本，图像，视频和音频等的任意组合（任意对任意）生成输出。NExt-GPT建立在现有的预训练LLM，多模态编码器和SoTA扩散模型之上，具有足够的端到端指令调谐。`1. 多模态编码阶段。`利用已建立的编码器以各种模式对输入进行编码，其中这些表示通过投影层投影为LLM可理解的类似语言的表示。`2. LLM理解和推理阶段。`利用现有的开源LLM作为核心来处理语义理解和推理的输入信息。LLM不仅直接生成文本标记，而且还生成独特的“模态信号”标记，这些令牌作为指令来指示解码层是否以及相应地输出什么模态内容。`3. 多模式生成阶段。`基于变压器的输出投影层通过来自LLM（如果有）的特定指令接收多模态信号，将信号令牌表示映射到以下多模态解码器可以理解的表示中。
+
+* [mleoking/PromptAppGPT](https://github.com/mleoking/PromptAppGPT)  一个基于提示的低代码快速应用开发框架。包含低代码提示开发、GPT 文本生成、DALLE 图像生成、在线提示编辑器+编译器+运行器、自动用户界面生成、支持插件扩展等功能。PromptAppGPT旨在实现基于GPT的自然语言应用程序开发。
+
+* [EmbraceAGI/LifeReloaded](https://github.com/EmbraceAGI/LifeReloaded) 由GPT-4的“高级数据分析”功能提供支持的生活模拟游戏，为您提供第二次生活机会。由GPT4的Advanced Data Analysis功能驱动的人生重来模拟器，给您人生第二春。
+
+* [srush/llama2.rs](https://github.com/srush/llama2.rs)  CPU 上 Llama2 推理的 Rust 实现
+
+* [OpenLMLab/LOMO](https://github.com/OpenLMLab/LOMO) 提出了一个新的优化器，**LO**w-Memory **O**ptimization (**LOMO**)，它将梯度计算和参数更新融合在一步中，以减少内存使用。 我们的方法使得在单张 RTX 3090 上可以进行 7B 模型的全参数微调，或者在单个 8×RTX 3090 的机器上可以进行 65B 模型的全参数微调（RTX 3090 的内存为 24GB）。
 
 #### 编程语言大模型及相关项目
 
@@ -2166,6 +2178,22 @@
 * [QwenLM/Qwen-VL](https://github.com/QwenLM/Qwen-VL) 由阿里云提出的Qwen-VL（通义千问-VL）聊天和预训练大视觉语言模型的官方回购。
 
 * [OpenBMB/BMTools](https://github.com/OpenBMB/BMTools) 大模型的工具学习，ChatGPT插件的开源解决方案。可以（1）通过编写python函数轻松构建插件（2）使用外部ChatGPT插件。
+
+* [THUDM/AgentBench](https://github.com/THUDM/AgentBench) 第一个旨在评估LLM作为代理在不同环境中的基准测试。它包含 8 个不同的环境，以更全面地评估 LLM 在各种场景中作为自主代理运行的能力。这些环境包括 5 个新创建的域，即 操作系统、数据库、知识图谱、数字纸牌游戏、横向思维难题
+
+* [InternLM/InternLM-XComposer](https://github.com/InternLM/InternLM-XComposer) 基于InternLM的视觉语言大型模型（VLLM），用于高级文本图像理解和构图。
+
+* [THUDM/CogVLM](https://github.com/THUDM/CogVLM) 强大的开源视觉语言模型（VLM）。CogVLM-17B具有100亿个视觉参数和70亿个语言参数。在10个经典的跨模态基准测试上实现了最先进的性能，包括NoCaps，Flicker30k字幕，RefCOCO，RefCOCO+，RefCOCOg，Visual7W，GQA，ScienceQA，VizWiz VQA和TDIUC，并在VQAv2，OKVQA，TextVQA，COCO字幕等方面排名第二，超过或匹配PaLI-X 55B。CogVLM还可以与您讨论图像。CogVLM 是一个强大的开源视觉语言模型，利用视觉专家模块深度整合语言编码和视觉编码，在 10 项权威跨模态基准上取得了SOTA性能。目前仅支持英文，后续会提供中英双语版本支持。CogVLM模型包括四个基本组件：视觉转换器（ViT）编码器，MLP适配器，预训练大语言模型（GPT）和视觉专家模块。
+
+* [Shaunwei/RealChar](https://github.com/Shaunwei/RealChar) 实时创建、自定义和与您的 AI 角色/同伴交谈（全部在一个代码库中！使用LLM OpenAI GPT3.5 / 4，Anthropic Claude2，Chroma Vector DB，Whisper Speech2Text，ElevenLabs Text2Speech
+
+* [LinkSoul-AI/Chinese-Llama-2-7b](https://github.com/LinkSoul-AI/Chinese-Llama-2-7b) 开源社区第一个能下载、能运行的中文 LLaMA2 模型！全部开源，完全可商用的中文版 Llama2 模型及中英文 SFT 数据集，输入格式严格遵循 llama-2-chat 格式，兼容适配所有针对原版 llama-2-chat 模型的优化。
+
+* [EleutherAI/math-lm](https://github.com/EleutherAI/math-lm) 数学的开放语言模型
+
+* [0nutation/SpeechGPT](https://github.com/0nutation/SpeechGPT) 为大型语言模型提供内在的跨模态对话能力。具有固有跨模态对话能力的大型语言模型，能够按照人类指令感知和生成多模型内容。对于离散语音表示，我们首先构建了SpeechInstruct，这是一个大规模的跨模态语音指令数据集。此外，我们采用三阶段训练策略，包括模态适应预训练、跨模态指令微调和模态链指令微调。实验结果表明，SpeechGPT具有令人印象深刻的遵循多模态人类指令的能力，并突出了用一个模型处理多种模态的潜力。
+
+* [aiwaves-cn/RecurrentGPT](https://github.com/aiwaves-cn/RecurrentGPT) 用自然语言（即文本段落）替换了长短期记忆RNN（LSTM）中的矢量化元素（即细胞状态、隐藏状态、输入和输出），并通过提示工程模拟递归机制。
 
 ### 其他_文本生成、文本对话
 
@@ -2923,7 +2951,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [nestjs/nest](https://github.com/nestjs/nest) 用于在 TypeScript 和 JavaScript（ES6、ES7、ES8）之上构建高效、可扩展和企业级服务器端应用程序的渐进式 Node.js 框架
 
-* [chartjs/Chart.js](https://github.com/chartjs/Chart.js) 使用 <canvas> 标签的简单 HTML5 图表
+* [chartjs/Chart.js](https://github.com/chartjs/Chart.js) 使用 canvas 标签的简单 HTML5 图表
 
 * [juliangarnier/anime](https://github.com/juliangarnier/anime) 轻量级的JS动画库，具有简单但功能强大的 API。
 
@@ -4200,11 +4228,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Nutlope/roomGPT](https://github.com/Nutlope/roomGPT) 上传您的房间照片，使用 AI 生成您的梦想房间。使用称为ControlNet的ML模型来生成房间的变化。此应用程序使您能够上传任何房间的照片，该照片将使用 Next.js API 路由通过此 ML 模型发送照片，并返回生成的房间。
 
-* [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 排行榜第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
+* [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持中英文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
 
 * [openai/consistency_models](https://github.com/openai/consistency_models) 一致性模型的官方存储库。Diffusion Models 在生成一张图片时需要多次进行模型推理，对于实时性较强的应用，就很难让人满意了。这篇文章所claim的一步采样即能达到较好的效果。
 
 * [open-mmlab/mmagic](https://github.com/open-mmlab/mmagic) OpenMMLab 多模态高级、生成和智能创建工具箱。解锁魔法：生成AI（AIGC），易于使用的API，awsome模型库，扩散模型，用于文本到图像生成，图像/视频恢复/增强等。
+
+* [jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) 令人敬畏的计算机视觉资源的精选列表
 
 * [alicevision/meshroom](https://github.com/alicevision/meshroom) 3D 重建软件,一款基于 AliceVision 摄影测量计算机视觉框架的免费开源 3D 重建软件。
 
@@ -4217,8 +4247,6 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [j-min/VL-T5](https://github.com/j-min/VL-T5) 通过文本生成统一视觉和语言任务
 
 * [cloneofsimo/lora](https://github.com/cloneofsimo/lora) 用于快速文本到图像扩散微调的低秩适配。
-
-* [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持英文和中文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO第一）、VQA链接、视觉基础、文本图像生成、文本分类生成、图像分类等。
 
 * [HuiGuanLab/ms-sl](https://github.com/HuiGuanLab/ms-sl) 基于传统的跨模态文本-视频检索（Video-to-Text Retrieval, T2VR）任务，提出了部分相关的视频检索（Partially Relevant Video Retrieval, PRVR）。PRVR 旨在从大量未剪辑的长视频中检索出与查询文本部分相关的对应视频。作者设计了多尺度多示例模型，该模型分别对视频进行片段尺度和帧尺度的特征表示，并引入了以关键片段为向导的注意力聚合方法，模型整体以从粗到细的方式学习文本-视频间的相似度关系。该模型也可用于提高视频库片段检索（Video Corpus Moment Retrieval，VCMR）模型的性能。
 
@@ -4264,7 +4292,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [google-research/vision_transformer](https://github.com/google-research/vision_transformer) 视觉Transformer和 MLP-混合器架构，Transformer应用于视觉，纯多层感知机视觉架构。
 
-https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（ZS-VQA）的基于知识图谱的掩码机制，更好结合外部知识的同时，缓解了误差传播对于模型性能的影响。
+* [China-UK-ZSL/ZS-F-VQA](https://github.com/China-UK-ZSL/ZS-F-VQA) 一种适用于零样本视觉问答（ZS-VQA）的基于知识图谱的掩码机制，更好结合外部知识的同时，缓解了误差传播对于模型性能的影响。
 
 * [luost26/diffusion-point-cloud](https://github.com/luost26/diffusion-point-cloud) 基于非平衡态热力学的全新三维点云生成模型
 
@@ -4470,7 +4498,7 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [open-mmlab/mmgeneration](https://github.com/open-mmlab/mmgeneration) 一个强大的生成模型工具包，基于PyTorch和MMCV。`高质量的训练`：支持无条件 GAN、内部 GAN 和图像翻译模型的培训。对条件模型的支持即将推出。`强大的工具包`：为用户提供了包含GAN中多个应用程序的丰富工具包。GAN 插值、GAN 投影和 GAN 操作已集成到我们的框架中。`高效分布式训练`：对于生成模型中的高动态训练，采用了一种新的方法来训练动态模型 MMDDP 。`灵活组合的新模块化设计`：针对复杂损耗模块的定制链接，提出一种新的设计，可以实现不同模块之间的灵活组合。
 
-* [rinongal/textual_inversion](https://github.com/rinongal/textual_inversion) 使用个性化文本反转到图像生成 。仅使用用户提供的概念（如对象或样式）的 3-5 张图像，通过学习冻结文本到图像模型的嵌入空间中的新“词”来表示它。 这些“词”可以组合成自然语言的句子，以直观的方式指导个性化创作。
+* [rinongal/textual_inversion](https://github.com/rinongal/textual_inversion) 使用个性化文本反转到图像生成 。仅使用提供的概念（如对象或样式）的 3-5 张图像，通过学习冻结文本到图像模型的嵌入空间中的新“词”来表示它。 这些“词”可以组合成自然语言句子，以直观的方式指导个性化创作。
 
 * [remotion-dev/remotion](https://github.com/remotion-dev/remotion) 使用 React 以编程方式创建视频的框架。
 
@@ -4506,7 +4534,7 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [Moguri/awesome-panda3d](https://github.com/Moguri/awesome-panda3d) 使用Panda3D（py 3D库）的优秀资源的精选列表
 
-* [photoprism/photoprism](https://github.com/photoprism/photoprism) 基于人工智能的去中心化网络照片应用程序。它利用最新技术自动标记和查找图片，而不会妨碍您。您可以在家中、私人服务器或云端运行它。
+* [photoprism/photoprism](https://github.com/photoprism/photoprism) 基于人工智能的去中心化网络照片应用程序。利用最新技术自动标记和查找图片，而不会妨碍您。您可以在家中、私人服务器或云端运行它。
 
 * [magicleap/SuperGluePretrainedNetwork](https://github.com/magicleap/SuperGluePretrainedNetwork) 强力胶：使用图神经网络学习特征匹配 。一个图神经网络，与最佳匹配层相结合，经过训练以对两组稀疏图像特征执行匹配。包括 PyTorch 代码和预训练权重，用于在 SuperPoint 关键点和描述符之上运行 SuperGlue 匹配网络。给定一对图像，可以使用此存储库提取图像对中的匹配特征。
 
@@ -4525,6 +4553,10 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [lukasHoel/text2room](https://github.com/lukasHoel/text2room) Text2Room 使用 2D 文本到图像模型 （ICCV2023） 从给定的文本提示生成纹理 3D 网格。
 
 * [facebookresearch/ImageBind](https://github.com/facebookresearch/ImageBind) 一个嵌入空间以绑定图像的所有内容，ImageBind 学习跨六种不同模式的联合嵌入 - 图像、文本、音频、深度、热量和 IMU 数据（惯性测量单元，是用来测量物体加速度、角速度、磁场，高度等）。它支持“开箱即用”的新型紧急应用，包括跨模态检索、使用算术组合模态、跨模态检测和生成。
+
+* [vdumoulin/conv_arithmetic](https://github.com/vdumoulin/conv_arithmetic) 深度学习背景下卷积算法的技术报告
+
+* [eriklindernoren/PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN) 生成对抗网络的 PyTorch 实现。
 
 # 因果推断
 
@@ -4900,6 +4932,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning) 这是一本名为“强化学习的数学基础”的新书的主页。
 
+* [ShangtongZhang/DeepRL](https://github.com/ShangtongZhang/DeepRL) 深度强化学习算法在 PyTorch 中的模块化实现
+
 # 语音识别与合成
 
 * [espnet/espnet](https://github.com/espnet/espnet) End-to-End Speech Processing Toolkit 端到端的语音处理工具箱，主要特性：kaldi风格的处理模式、ASR、TTS、语音翻译、机器翻译、语音转换、DNN框架
@@ -4990,7 +5024,7 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [voicepaw/so-vits-svc-fork](https://github.com/voicepaw/so-vits-svc-fork) so-vits-svc fork 歌唱语音转换 具有实时支持、改进的界面和更多功能。实时语音转换、更准确的音调估计、2x 更快的训练
 
-* [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) 语音数据<= 10分钟也可以用来训练一个好的VC模型 一个基于VITS的简单易用的语音转换（变声器）框架
+* [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) 小于10分钟的语音数据也可以用来训练一个好的VC模型 一个基于VITS的简单易用的语音转换（变声器）框架
 
 * [JasonWei512/Tacotron-2-Chinese](https://github.com/JasonWei512/Tacotron-2-Chinese) 中文语音合成
 
@@ -5008,11 +5042,11 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [NATSpeech/NATSpeech](https://github.com/NATSpeech/NATSpeech) 非自回归文本转语音 （NAR-TTS） 框架，包括 PortaSpeech （NeurIPS 2021） 和 DiffSpeech （AAAI 2022） 的官方 PyTorch 实现。PortaSpeech：便携式和高质量的生成文本到语音转换（NeurIPS 2021）。DiffSinger：通过浅扩散机制合成歌唱声音（DiffSpeech）（AAAI 2022）。
 
-* [Rongjiehuang/ProDiff](https://github.com/Rongjiehuang/ProDiff) ProDiff （ACM-MM'22） 的 PyTorch 实现，具有极快的扩散语音合成管道。条件扩散概率模型，能够有效地生成高保真语音。[demo page](https://prodiff.github.io/)
+* [Rongjiehuang/ProDiff](https://github.com/Rongjiehuang/ProDiff) ProDiff （ACM-MM 22） 的 PyTorch 实现，具有极快的扩散语音合成管道。条件扩散概率模型，能够有效地生成高保真语音。[demo page](https://prodiff.github.io/)
 
 * [TensorSpeech/TensorflowTTS](https://github.com/TensorSpeech/TensorflowTTS) Tensorflow 2的实时最新语音合成
 
-* [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) Parallel WaveGAN (+ MelGAN & Multi-band MelGAN) implementation with Pytorch 
+* [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) Parallel WaveGAN (+ MelGAN Multi-band MelGAN) implementation with Pytorch 
 
 * [KuangDD/zhrtvc](https://github.com/KuangDD/zhrtvc) 好用的中文语音克隆兼中文语音合成系统，包含语音编码器、语音合成器、声码器和可视化模块。 
 
@@ -5051,6 +5085,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) 理解和生成语音、音乐、声音和说话的头部
 
 * [riffusion/riffusion](https://github.com/riffusion/riffusion) 稳定扩散，实时生成音乐
+
+* [bytedance/SALMONN](https://github.com/bytedance/SALMONN) 支持语音、音频事件和音乐输入的大型语言模型（LLM），由清华大学电子工程系和字节跳动开发。SALMONN可以感知和理解各种音频输入，而不是仅语音输入或仅音频事件输入，从而获得新兴功能，例如多语言语音识别和翻译以及音频 - 语音协同推理。
 
 ## 语音识别与合成_其他
 
@@ -5594,6 +5630,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [Graph-COM/GSAT](https://github.com/Graph-COM/GSAT) 提出了一种全新的随机注意力机制（Stochastic Attention Mechanism），该机制显示出了强大的可解释能力和泛化能力。对比过去的可解释工作，该机制在6个数据集上提升了至多20%、平均12%的可解释性能；在11个数据集上提升了平均3%的模型准确率，并且在OGBG-MolHiv榜单上达到SOTA（在不使用手工设计的专家特征的模型中）。
 
+* [Diego999/pyGAT](https://github.com/Diego999/pyGAT) Pytorch 实现的图注意力网络模型，作者：Veličković et.AL 
+
 ## 异构图、 异质图
 
 * [BUPT-GAMMA/OpenHGNN](https://github.com/BUPT-GAMMA/OpenHGNN) 这是一个基于 DGL 的异构图神经网络（OpenHGNN）的开源工具包。支持特定任务的模型:RGCN[ESWC 2018]、HAN[WWW 2019]、KGCN[WWW 2019]、HetGNN[KDD 2019]、GTN[NeurIPS 2019]RSHN[ICDM 2019]、DGMI[AAAI 2020]、MAGNN[WWW 2020]、CompGCN[ICLR 2020]、NSHE[IJCAI 2020]、NARS[arxiv]、MHNF[arxiv]、HGSL[AAAI 2021]、HGNN-AC[WWW 2021]、HeCo[KDD 2021]、HPN[TKDE 2021]、RHGNN[arxiv]
@@ -5795,6 +5833,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [TAMU-VITA/L2-GCN](https://github.com/TAMU-VITA/L2-GCN) GCN高效分层训练框架
 
 * [mdeff/cnn_graph](https://github.com/mdeff/cnn_graph) 具有快速局部光谱滤波的图卷积神经网络，实现了将流行的卷积神经网络 （CNN） 有效地推广到任意图
+
+* [tkipf/pygcn](https://github.com/tkipf/pygcn) PyTorch 中的图卷积网络
 
 ## 图监督_半监督_对比学习
 
@@ -6872,6 +6912,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [apernet/hysteria](https://github.com/apernet/hysteria) 一个强大、闪电般快速且无审查的代理。广泛的模式范围，包括SOCKS5，HTTP代理，TCP / UDP转发，Linux TProxy - 更不用说不断添加的其他功能。Hysteria 由自定义 QUIC 协议提供支持，即使在最不可靠和最有损的网络上也能提供无与伦比的性能。我们的协议旨在伪装成标准的HTTP / 3流量，因此很难在不造成广泛附带损害的情况下进行检测和阻止。我们有针对所有主要平台和架构的构建。随处部署，随处使用。凭借对自定义身份验证、流量统计和访问控制的内置支持，Hysteria 可以轻松集成到您的基础设施中。
 
+* [yichengchen/clashX](https://github.com/yichengchen/clashX) 简单轻量化的代理客户端，HTTP/HTTPS 和 SOCKS 协议，地理 IP 规则支持，浪涌式配置，支持Vmess/Shadowsocks/Socks5/Trojan，支持 Netfilter TCP 重定向
+
 * [L-codes/Neo-reGeorg](https://github.com/L-codes/Neo-reGeorg) 积极重构 reGeorg 的项目，目的是：提高可用性，避免特征检测\提高 tunnel 连接安全性\提高传输内容保密性\应对更多的网络环境场景下使用
 
 * [Endava/cats](https://github.com/Endava/cats) REST API 模糊器和 OpenAPI 端点的负面测试工具。CATS 以最少的配置自动生成、运行和报告测试，无需编码工作。测试是自我修复的，不需要维护。
@@ -7198,6 +7240,10 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 
 * [spotify/chartify](https://github.com/spotify/chartify) Python 库，使数据科学家可以轻松创建图表。
 
+* [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) 全面的在Python中创建静态，动画和交互式可视化。
+
+* [matplotlib/cheatsheets](https://github.com/matplotlib/cheatsheets) Matplotlib 用户的备忘单
+
 * [nvbn/thefuck](https://github.com/nvbn/thefuck) 一款出色的应用程序，灵感来自一条@liamosaur推文，可更正以前控制台命令中的错误。
 
 * [benfred/py-spy](https://github.com/benfred/py-spy) Python程序的采样分析器。它使您可以可视化Python程序花费的时间，而无需重新启动程序或以任何方式修改代码。py-spy的开销非常低：它是用 Rust 编写的，以提高速度，并且不会在与分析的 Python 程序相同的进程中运行。这意味着py-spy可以安全地用于生产Python代码。
@@ -7303,6 +7349,8 @@ https://github.com/China-UK-ZSL/ZS-F-VQA 一种适用于零样本视觉问答（
 * [nlohmann/json](https://github.com/nlohmann/json) 适用于现代C++的 JSON
 
 * [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) ANSI C 中的超轻量级 JSON 解析器
+
+* [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) C++ 入门5答案
 
 ## Rust 程序设计
 
