@@ -838,6 +838,8 @@
 
 * [cmhungsteve/Awesome-Transformer-Attention](https://github.com/cmhungsteve/Awesome-Transformer-Attention) 包含视觉转换器和注意力机制（Vision Transformer&Attention）的综合论文列表，包括论文，代码和相关网站。
 
+* [FlagOpen/FlagAttention](https://github.com/FlagOpen/FlagAttention) 用 Triton 语言实现的内存高效注意力运算符的集合。它的灵感来自FlashAttention和FlashAttention v2，并扩展了它们以满足大型语言建模研究的需求。FlashAttention 和 FlashAttention-2 可以节省内存占用和流量以提高内存效率，但要修改它们并添加更多选项和功能需要熟练掌握 cuda 编程。因此，Flag Attention 是用 Triton 语言实现的，它更容易用于编写自定义 GPU 内核。
+
 ## BERT优化
 
 * [google-research/bert](https://github.com/google-research/bert) Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
@@ -1639,7 +1641,13 @@
 
 * [hkust-nlp/ceval](https://github.com/hkust-nlp/ceval) 一个全面的中文基础模型评估套件。它由 13948 道多项选择题组成，涵盖 52 个不同的学科和四个难度级别
 
-* [GitHub - EleutherAI/lm-evaluation-harness: A framework for few-shot evaluation of autoregressive language models.](https://github.com/EleutherAI/lm-evaluation-harness) 自回归语言模型的少样本评估框架。
+* [LaVi-Lab/CLEVA](https://github.com/LaVi-Lab/CLEVA) 由香港中文大学LaVi实验室开发的中文模型评估平台，主要功能包括：综合中文基准，包含31个任务（11个应用评估+20个能力评估任务），共37万个中文测试样本（33.98%是新采集的，缓解数据污染问题）;标准化的基于提示的评估方法，包含对所有数据的统一预处理，并使用一套一致的中文提示模板进行评估。值得信赖的排行榜，因为使用大量新数据来最大限度地减少数据污染并定期组织评估。
+
+* [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) 自回归语言模型的少样本评估框架。
+
+* [DAMO-NLP-SG/M3Exam](https://github.com/DAMO-NLP-SG/M3Exam) 一种新颖的基准，来自真实和官方的人类考试问题，用于在多语言，多模态和多层次的背景下评估LLM。
+
+* [tjunlp-lab/M3KE](https://github.com/tjunlp-lab/M3KE) 面向汉语大语言模型的大规模多层次多学科知识评估基准
 
 * [thu-coai/Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) 中文安全prompts，评估和提升大模型的安全性。
 
@@ -1725,7 +1733,7 @@
 
 * [srush/llama2.rs](https://github.com/srush/llama2.rs)  CPU 上 Llama2 推理的 Rust 实现
 
-* [OpenLMLab/LOMO](https://github.com/OpenLMLab/LOMO) 提出了一个新的优化器，**LO**w-Memory **O**ptimization (**LOMO**)，它将梯度计算和参数更新融合在一步中，以减少内存使用。 我们的方法使得在单张 RTX 3090 上可以进行 7B 模型的全参数微调，或者在单个 8×RTX 3090 的机器上可以进行 65B 模型的全参数微调（RTX 3090 的内存为 24GB）。
+* [OpenLMLab/LOMO](https://github.com/OpenLMLab/LOMO) 提出了一个新的优化器，**LO**w-Memory **O**ptimization，它将梯度计算和参数更新融合在一步中，以减少内存使用。 我们的方法使得在单张 RTX 3090 上可以进行 7B 模型的全参数微调，或者在单个 8×RTX 3090 的机器上可以进行 65B 模型的全参数微调（RTX 3090 的内存为 24GB）。
 
 #### 编程语言大模型及相关项目
 
@@ -1799,7 +1807,9 @@
 
 * [pleisto/flappy](https://github.com/pleisto/flappy) 适用于每个开发人员的生产就绪型 LLM 代理 SDK
 
-* [https://github.com/TabbyML/tabby](https://github.com/TabbyML/tabby) 一个自托管的AI编码助手，提供GitHub Copilot的开源和本地替代方案。
+* [TabbyML/tabby](https://github.com/TabbyML/tabby) 自托管的AI编码助手，提供GitHub Copilot的开源和本地替代方案。
+
+* [WisdomShell/codeshell](https://github.com/WisdomShell/codeshell) PKU-KCL开发的一系列代码大型语言模型。北京大学知识计算实验室联合四川天府银行AI团队研发的多语言代码大模型基座。CodeShell具有70亿参数，在五千亿Tokens进行了训练，上下文窗口长度为8192。在权威的代码评估Benchmark（HumanEval与MBPP）上，CodeShell取得同等规模最好的性能。
 
 #### 健康医学大模型及语料库
 
@@ -1871,7 +1881,7 @@
 
 - [Zlasejd/HuangDI](https://github.com/Zlasejd/HuangDI) 在 Ziya-LLaMA-13B-V1的基础上加入中医教材、中医各类网站数据等语料库，训练出一个具有中医知识理解力的语言模型（pre-trained ），之后在此基础上通过海量的中医古籍指令对话数据及通用指令数据进行有监督微调（SFT），使得模型具备中医古籍知识问答能力。以《中华医典》数据库为语料来源，约338MB，由两部分组成：①非结构化的“古籍文本”：涵盖了886本标点符号及内容完整的中医古籍。②结构化的“古籍辞典”：包含“名医”、“名言”、“名词”、“名著”等六大类，由中医学界诸多知名学者对中医古籍内容知识进一步系统提炼整理，是中医古籍内容精华最为直接的集中体现。
 
-- [2020MEAI/TCMLLM](https://github.com/2020MEAI/TCMLLM) 通过大模型方式实现中医临床辅助诊疗（病证诊断、处方推荐等）中医药知识问答等任务，推动中医知识问答、临床辅助诊疗等领域的快速发展。构建的指令微调数据集包含8个数据来源，涵盖4本中医经典教科书《中医内科学》、《中医外科学》、《中医妇科学》和《中医儿科学》（即“内外妇儿”，Internal medicine，Surgery， Gynecology，Pediatrics，简称ISGP）、2020版中国药典（Chinese pharmacopeia，简称CHP）、中医临床经典医案数据（Chinese Medicine Clinical Cases，简称CMCC）、以及多个三甲医院的涵盖肺病（Lung）、中风病（Stroke）、糖尿病（Diabetes）、肝病（Liver）、脾胃病（Splenic and stomach diseases）等多病种的临床病历数据。8个数据集共68k条，token总数约为10M。
+- [2020MEAI/TCMLLM](https://github.com/2020MEAI/TCMLLM) 通过大模型方式实现中医临床辅助诊疗（病证诊断、处方推荐等）中医药知识问答等任务，推动中医知识问答、临床辅助诊疗等领域的快速发展。构建的指令微调数据集包含8个数据来源，涵盖4本中医经典教科书《中医内科学》、《中医外科学》、《中医妇科学》和《中医儿科学》（即“内外妇儿”，Internal medicine，Surgery， Gynecology，Pediatrics，简称ISGP）、2020版中国药典（Chinese pharmacopeia，简称CHP）、中医临床经典医案数据（Chinese Medicine Clinical Cases，简称CMCC）、以及多个三甲医院的肺病（Lung）、中风病（Stroke）、糖尿病（Diabetes）、肝病（Liver）、脾胃病（Splenic and stomach diseases）等多病种的临床病历。共68k条，token总数约为10M。
 
 - [Kent0n-Li/ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor) 使用医学领域知识在大型语言模型（LLaMA）上进行微调的医学聊天模型。数据集：来自 HealthCareMagic.com 100k的患者和医生之间的[真实对话](https://drive.google.com/file/d/1lyfqIwlLSClhgrCutWuEe_IACNq6XNUt/view?usp=sharing)。 来自 ICLiniq-10K 的患者医生之间的 10k 真实对话。 5k从ChatGPT [GenMedGPT-5k](https://drive.google.com/file/d/1ZKbqgYqWc7DJHs3N9TQYQVPdDQmZaClA/view?usp=sharing)和[疾病数据库](https://drive.google.com/file/d/1nDTKZ3wZbZWTkFMBkxlamrzbNz0frugg/view?usp=sharing) 生成了患者和医生之间的[对话](https://github.com/Kent0n-Li/ChatDoctor/blob/main/format_dataset.csv)。
 
@@ -1910,6 +1920,8 @@
 - [189569400/MedicalGPT-zh](https://github.com/189569400/MedicalGPT-zh) 基于医疗指令微调的中文医疗问诊模型
 
 - [DUTIR-BioNLP/Taiyi-LLM](https://github.com/DUTIR-BioNLP/Taiyi-LLM) 太一：一种双语（中英文）微调的大语言模型，适用于各种生物医学任务
+
+- [bigscience-workshop/biomedica](https://github.com/bigscience-workshop/biomedical) 用于管理用于大规模语言建模的生物医学训练数据的工具，大规模轻量级、程序化访问生物医学数据集，提高数据处理的可重复性，126+ 生物医学数据集、10+ 种语言、12 个任务类别、按任务类型协调的数据集架构、有关许可、粗粒度/细粒度任务类型、域等的元数据
 
 #### 法律大模型及语料库
 
@@ -2035,7 +2047,7 @@
 
 * [ypwhs/CreativeChatGLM](https://github.com/ypwhs/CreativeChatGLM) 欢迎来到 ChatGLM 创意世界！你可以使用修订和续写的功能来生成创意内容！
 
-* [KevinWang676/ChatGLM2-Voice-Cloning](https://github.com/KevinWang676/ChatGLM2-Voice-Cloning) 和喜欢的角色沉浸式对话吧：ChatGLM2+声音克隆+视频对话
+* [KevinWang676/ChatGLM2-Voice-Cloning](https://github.com/KevinWang676/ChatGLM2-Voice-Cloning) 和喜欢的角色沉浸式对话吧：ChatGLM2 + 声音克隆+视频对话
 
 * [melih-unsal/DemoGPT](https://github.com/melih-unsal/DemoGPT) 只需使用句子即可创建 LangChain 应用程序。具有基础模型功能的自动 Gen-AI 应用程序生成器。
 
@@ -2195,6 +2207,20 @@
 
 * [aiwaves-cn/RecurrentGPT](https://github.com/aiwaves-cn/RecurrentGPT) 用自然语言（即文本段落）替换了长短期记忆RNN（LSTM）中的矢量化元素（即细胞状态、隐藏状态、输入和输出），并通过提示工程模拟递归机制。
 
+* [eric-ai-lab/MiniGPT-5](https://github.com/eric-ai-lab/MiniGPT-5) 论文“MiniGPT-5：通过生成式Vokens交错视觉和语言生成”的正式实现
+
+* [eureka-research/Eureka](https://github.com/eureka-research/Eureka) 通过编码大型语言模型进行人类级奖励设计，大型语言模型（LLM）作为顺序决策任务的高级语义规划者表现出色。然而，利用它们来学习复杂的低级操作任务，例如灵巧的笔旋转，仍然是一个悬而未决的问题。我们弥合了这一基本差距，并提出了Eureka，这是一种由LLM提供支持的人类级奖励设计算法。 Eureka 利用最先进的 LLM（如 GPT-4）的卓越零镜头生成、代码编写和上下文改进功能，对奖励代码执行上下文进化优化。由此产生的奖励可用于通过强化学习获得复杂的技能。Eureka 生成的奖励函数优于专家人工设计的奖励，无需任何特定于任务的提示或预定义的奖励模板。在包含 10 种不同机器人形态的 29 种开源强化学习环境中，Eureka 在 83% 的任务中表现优于人类专家，平均标准化改进了 52%。尤里卡的通用性还提供了一种新的无梯度方法来从人类反馈（RLHF）进行强化学习，很容易结合人类监督来提高上下文中生成的奖励的质量和安全性。最后，在课程学习环境中使用尤里卡奖励，我们首次演示了一个模拟的五指影手，能够执行钢笔旋转技巧，熟练地以人类的速度操纵笔。
+
+* [meta-math/MetaMath](https://github.com/meta-math/MetaMath) 元数学：为大型语言模型引导您自己的数学问题
+
+* [luogen1996/LaVIN](https://github.com/luogen1996/LaVIN) 提出了一种新颖且经济实惠的视觉语言教学调整解决方案，即模态混合自适应（MMA）。MA是一种端到端的优化机制，它通过轻量级适配器连接图像编码器和LLM。同时，还提出了MMA路由算法，可以帮助模型自动移动单模态和多模态指令的推理路径。基于MMA，开发了LaVIN的大型视觉语言指导模型，该模型在各种指令遵循任务中表现出比现有多模态LLM更高的训练效率和更好的推理能力。
+
+* [OpenBMB/ToolBench](https://github.com/OpenBMB/ToolBench) 一个开放的平台，用于训练、服务和评估用于工具学习的大型语言模型。旨在构建开源，大规模，高质量的指令调整SFT数据，以促进构建具有通用工具使用能力的强大LLM。我们的目标是使开源LLM能够掌握数千种不同的现实世界API。我们通过收集高质量的指令调整数据集来实现这一目标。它是使用最新的ChatGPT（gpt-3.5-turbo-16k）自动构建的，该ChatGPT通过增强的函数调用功能进行了升级。我们提供数据集，相应的训练和评估脚本，以及在ToolBench上微调的功能强大的模型ToolLLaMA。
+
+* [billxbf/ReWOO](https://github.com/billxbf/ReWOO) 高效增强语言模型的观察解耦推理，这是一种工具增强的LM范式，利用语言模型的可预见推理能力来提高系统参数和提示效率。
+
+* [MasterAI-EAM/Darwin](https://github.com/MasterAI-EAM/Darwin) 一个开源项目，致力于为自然科学构建基础大型语言模型，主要涉及物理、化学和材料科学。
+
 ### 其他_文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -2270,6 +2296,10 @@
 * [huggingface/alignment-handbook](https://github.com/huggingface/alignment-handbook) 使语言模型与人类和 AI 偏好保持一致的强大配方：OpenAI用ChatGPT打破了互联网，Meta紧随其后发布了Llama系列语言模型，使ML社区能够构建自己有能力的聊天机器人。这导致了一个丰富的数据集和模型生态系统，这些数据集和模型主要集中在通过监督微调（SFT）来教授语言模型遵循指令。该手册的初始版本将侧重于以下技术：Supervised fine-tuning监督微调，教语言模型遵循有关如何收集和策划自己的训练数据集的说明和提示。Reward modeling奖励建模：教授语言模型根据人类或AI偏好区分模型响应。Rejection sampling剔除采样：一种简单但功能强大的技术，可提高SFT模型的性能。直接偏好优化（DPO）：PPO的强大而有前途的替代方案。
 
 * [yxuansu/PandaGPT](https://github.com/yxuansu/PandaGPT) 第一个能够跨六种模式的指令遵循数据的基础模型，而无需明确的监督。它展示了多种多模态功能，例如复杂的理解/推理、基于知识的描述和多回合对话。PandaGPT 是一种通用的指令遵循模型，既能看又能听👀👂。我们的试点实验表明，PandaGPT 可以执行复杂的任务，例如生成详细的图像描述、编写受视频启发的故事以及回答有关音频的问题。更有趣的是，PandaGPT 可以同时接受多模态输入并自然地组成它们的语义。例如，PandaGPT 可以连接对象在照片中的外观以及它们在音频中的声音。
+
+* [RunpeiDong/DreamLLM](https://github.com/RunpeiDong/DreamLLM) 一个学习框架，它首先实现了多功能的多模态大语言模型（MLLM），它赋予了多模态理解和创造之间经常被忽视的协同作用。DreamLLM基于两个基本原则运作。第一个侧重于通过在原始多模态空间中直接采样来对语言和图像后验进行生成建模。其次，DreamLLM促进了原始交错文档的生成，对文本和图像内容以及非结构化布局进行了建模。一个零样本多模态通才，能够理解和创造。
+
+* [OSU-NLP-Group/Mind2Web](https://github.com/OSU-NLP-Group/Mind2Web) 论文“Mind2Web：迈向Web的通才代理”的数据集，代码和模型。
 
 ## 文本匹配 文本相似度
 
@@ -2627,6 +2657,8 @@
 * [OpenKG-ORG/OpenUE](https://github.com/openkg-org/openue) 一个从文本中通用提取的开放工具包
 
 * [universal-ie/UIE](https://github.com/universal-ie/UIE) 统一的文本到结构生成框架UIE，它可以对不同的IE任务进行统一建模，自适应地生成目标结构，并且可以从不同的知识源中学习通用的IE能力。实验结果表明，UIE在有监督和低资源环境下都取得了非常有竞争力的性能，验证了其通用性、有效性和可转移性。
+
+* [thunlp/DocRED](https://github.com/thunlp/DocRED) 大规模文档级关系提取数据集的数据集和代码。ACL 2019
 
 * [131250208/TPlinker-joint-extraction](https://github.com/131250208/TPlinker-joint-extraction) 联合抽取模型 实体关系联合抽取标注关系抽取方案
 
@@ -3301,6 +3333,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) 适用于桌面、网络、移动等的全栈 GUI 库。
 
+* [Tencent/weui-wxss](https://github.com/Tencent/weui-wxss) 微信官方设计团队的UI库，包括最有用的小部件/模块。
+
+* [xiaolin3303/wx-charts](https://github.com/xiaolin3303/wx-charts) 微信小程序图表charts组件
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3421,7 +3457,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Wechat-Group/WxJava](https://github.com/Wechat-Group/WxJava) 微信开发 Java SDK ，支持包括微信支付，开放平台，小程序，企业微信，公众号等的后端开发
 
+* [littlecodersh/ItChat](https://github.com/littlecodersh/ItChat) 微信个人号接口、微信机器人及命令行微信，三十行即可自定义个人号机器人。
+
+* [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) Mac微信功能拓展/微信插件/微信小助手
+
 * [wechaty/wechaty](https://github.com/wechaty/wechaty) 面向微信聊天机器人制造商的RPA（机器人流程自动化）SDK，可以帮助您在JavaScript，Python，Go和Java的6行中创建机器人，并提供跨平台支持，包括Linux，Windows，MacOS和Docker。
+
+* [w7corp/easywechat](https://github.com/w7corp/easywechat) 一个 PHP 微信 SDK，开源 SaaS 平台提供商微擎开源产品。
 
 * [JackJiang2011/MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK) 原创多端IM通信层框架，轻量级、高度提炼，历经8年、久经考验。可能是市面上唯一同时支持UDP + TCP + WebSocket三种协议的同类开源框架，支持 iOS、Android、Java、H5、小程序、Uniapp，服务端基于Netty。
 
@@ -4176,6 +4218,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [satellite-image-deep-learning/techniques](https://github.com/satellite-image-deep-learning/techniques) 用于分析卫星和航空图像的各种深度学习技术，包括用于分类、分割和对象检测等任务的架构、模型和算法。对于研究人员、从业者和任何对深度学习的最新进展及其对计算机视觉和遥感的影响感兴趣的人来说，它都是宝贵的资源。
 
+* [wkentaro/labelme](https://github.com/wkentaro/labelme) 使用 Python 的图像多边形注释（多边形、矩形、圆形、直线、点和图像级标志注释）。
+
 ## 图像风格
 
 * [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
@@ -4227,6 +4271,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [jexom/sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib) 深度图库，用于 Automatic1111/stable-diffusion-webui 的控制网扩展
 
 * [Nutlope/roomGPT](https://github.com/Nutlope/roomGPT) 上传您的房间照片，使用 AI 生成您的梦想房间。使用称为ControlNet的ML模型来生成房间的变化。此应用程序使您能够上传任何房间的照片，该照片将使用 Next.js API 路由通过此 ML 模型发送照片，并返回生成的房间。
+
+* [jbilcke-hf/ai-comic-factory](https://github.com/jbilcke-hf/ai-comic-factory) 使用 LLM + SDXL 生成漫画面板。
 
 * [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持中英文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
 
@@ -5087,6 +5133,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [riffusion/riffusion](https://github.com/riffusion/riffusion) 稳定扩散，实时生成音乐
 
 * [bytedance/SALMONN](https://github.com/bytedance/SALMONN) 支持语音、音频事件和音乐输入的大型语言模型（LLM），由清华大学电子工程系和字节跳动开发。SALMONN可以感知和理解各种音频输入，而不是仅语音输入或仅音频事件输入，从而获得新兴功能，例如多语言语音识别和翻译以及音频 - 语音协同推理。
+
+* [ga642381/SpeechGen](https://github.com/ga642381/SpeechGen) 用提示解锁语音语言模型的生成能力，探索了在称为SpeechGen的统一框架内应用提示调谐来刺激语音LM用于各种生成任务，该框架具有大约10M的可训练参数。
 
 ## 语音识别与合成_其他
 
@@ -6168,6 +6216,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [cube-js/cube](https://github.com/cube-js/cube) 多维数据集 — 用于构建数据应用程序的语义层。帮助数据工程师和应用程序开发人员访问新式数据存储中的数据，将其组织成一致的定义，并将其交付给每个应用程序。
 
+* [mingrammer/diagrams](https://github.com/mingrammer/diagrams) 允许您在 Python 代码中绘制云系统架构。它诞生于在没有任何设计工具的情况下对新的系统架构设计进行原型设计。您还可以描述或可视化现有系统架构。Diagrams目前支持的主要提供商包括： GCP \ Kubernetes \Alibaba Cloud \Oracle Cloud \Azure AWS 等。它还支持 On-Premise 节点、 SaaS 主要 Programming 框架和语言。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -7198,11 +7248,15 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 ## Python
 
+* [python/cpython](https://github.com/python/cpython) Python编程语言
+
 * [jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn) Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等
 
 * [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python) 从头开始学习Python编程语言的课程，适合初学者。超过30节课，25小时视频，代码和群聊。从基础知识到创建有数据库的后端 API 等等......
 
 * [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python - 100天从新手到大师
+
+* [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) 30天的Python编程挑战是在30天内学习Python编程语言的分步指南。这个挑战可能需要100多天
 
 * [satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython) 通过令人惊讶的片段探索和理解Python。
 
@@ -7273,6 +7327,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Nuitka/Nuitka](https://github.com/Nuitka/Nuitka) 用Python编写的Python编译器。它与Python 2.6，2.7，3.4，3.5，3.6，3.7，3.8，3.9，3.10和3.11完全兼容。你给它提供你的Python应用程序，它做了很多聪明的事情，并吐出一个可执行文件或扩展模块。
 
 * [jackzhenguo/python-small-examples](https://github.com/jackzhenguo/python-small-examples) 告别枯燥，致力于打造 Python 实用小例子
+
+* [faif/python-patterns](https://github.com/faif/python-patterns) Python 中的设计模式和习语的集合。
 
 ## C/C++ 程序设计
 
@@ -7527,6 +7583,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [geekxh/hello-algorithm](https://github.com/geekxh/hello-algorithm) 针对小白的算法训练 | 包括四部分：①.大厂面经 ②.力扣图解 ③.千本开源电子书 ④.百张技术思维导图
 
 * [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
+
+* [xingshaocheng/architect-awesome](https://github.com/xingshaocheng/architect-awesome) 后端架构师技术图谱
+
+* [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) 包含有关各种技术主题的问题和练习，有时与 DevOps 和 SRE 相关
 
 * [luong-komorebi/Awesome-Linux-Software ](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md) 收集了对任何用户/开发者都觉得超赞的 Linux 应用软件。
 
@@ -8114,5 +8174,11 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [libgdx/libgdx](https://github.com/libgdx/libgdx) 桌面/安卓/HTML5/iOS Java游戏开发框架
 
 * [powerline/powerline](https://github.com/powerline/powerline) Powerline是vim的状态线插件，并为其他几个应用程序提供状态线和提示，包括zsh，bash，tmux，IPython，Awesome和Qtile。
+
+* [SwiftGGTeam/the-swift-programming-language-in-chinese](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese) 中文版 Apple 官方 Swift 教程《The Swift Programming Language》
+
+* [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
+
+* [AlDanial/cloc](https://github.com/AlDanial/cloc) 对许多编程语言中源代码的空白行、注释行和物理行进行计数
 
 # end
