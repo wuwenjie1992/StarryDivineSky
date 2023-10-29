@@ -71,6 +71,8 @@
 
 * [Dod-o/Statistical-Learning-Method_Code](https://github.com/Dod-o/Statistical-Learning-Method_Code) 手写实现李航《统计学习方法》书中全部算法 
 
+* [datawhalechina/pumpkin-book](https://github.com/datawhalechina/pumpkin-book) 本书旨在对西瓜书里比较难理解的公式加以解析，以及对部分公式补充具体的推导细节。
+
 * [ShusenTang/Dive-into-DL-PyTorch](https://github.com/ShusenTang/Dive-into-DL-PyTorch) 本项目将《动手学深度学习》(Dive into Deep Learning)原书中的MXNet实现改为PyTorch实现。
 
 * [datawhalechina/leedl-tutorial](https://github.com/datawhalechina/leedl-tutorial) 《李宏毅深度学习教程》，PDF下载
@@ -144,6 +146,8 @@
 * [sgrvinod/Deep-Tutorials-for-PyTorch](https://github.com/sgrvinod/Deep-Tutorials-for-PyTorch) 使用 PyTorch 自行实现深度学习模型的深入教程。
 
 * [apachecn/pytorch-doc-zh](https://github.com/apachecn/pytorch-doc-zh) Pytorch 中文文档
+
+* [zergtant/pytorch-handbook](https://github.com/zergtant/pytorch-handbook) pytorch handbook是一本开源的书籍，目标是帮助那些希望和使用PyTorch进行深度学习开发和研究的朋友快速入门，其中包含的Pytorch教程全部通过测试保证可以成功运行
 
 * [ELS-RD/kernl](https://github.com/ELS-RD/kernl/) 第一个使用 OpenAI Triton 编写的 OSS 推理引擎，这是一种由 OpenAI 设计的新语言，可以更轻松地编写 GPU 内核。每个内核不到200行代码，易于理解和修改。
 
@@ -1645,6 +1649,8 @@
 
 * [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) 自回归语言模型的少样本评估框架。
 
+* [declare-lab/instruct-eval](https://github.com/declare-lab/instruct-eval) 用于定量评估指令调优模型的代码。Flan-T5和Alpaca等指令调整模型代表了一个令人兴奋的方向，以更低的成本接近ChatGPT等大型语言模型（LLM）的性能。但是，定性比较不同模型的性能具有挑战性。为了评估模型在各种看不见和具有挑战性的任务中的泛化程度，我们可以使用MMLU和BBH等学术基准。与评估工具和 HELM 等现有库相比，此存储库可以简单方便地评估多个模型。支持HuggingFace Transformers 的大多数模型。
+
 * [DAMO-NLP-SG/M3Exam](https://github.com/DAMO-NLP-SG/M3Exam) 一种新颖的基准，来自真实和官方的人类考试问题，用于在多语言，多模态和多层次的背景下评估LLM。
 
 * [tjunlp-lab/M3KE](https://github.com/tjunlp-lab/M3KE) 面向汉语大语言模型的大规模多层次多学科知识评估基准
@@ -1652,6 +1658,8 @@
 * [thu-coai/Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) 中文安全prompts，评估和提升大模型的安全性。
 
 * [RUCAIBox/HaluEval](https://github.com/RUCAIBox/HaluEval) 大型语言模型的大规模幻觉评估基准。包括 5,000 个带有 ChatGPT 响应的一般用户查询和来自三个任务的 30,000 个特定于任务的示例，即问答、基于知识的对话和文本摘要。
+
+* [noahshinn024/reflexion](https://github.com/noahshinn024/reflexion) 反思：语言代理与语言强化学习，提出了Reflexion框架，使用语言反馈信号(verbalre inforcement)来帮助agent从先前的失败经验中学习。具体地，Reflexion将传统梯度更新中的参数信号转变为添加在大模型上下文中的语言总结，使得agent在下一个episode中能参考上次执行失败的失败经验，从而提高agent的执行效果。这个过程和人类反思(reflexion)过程十分相似。
 
 * [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) 在 Azure 中运行的检索增强生成模式的示例应用，使用 Azure 认知搜索进行检索，并使用 Azure OpenAI 大型语言模型为 ChatGPT 风格和问答体验提供支持。
 
@@ -1734,6 +1742,8 @@
 * [srush/llama2.rs](https://github.com/srush/llama2.rs)  CPU 上 Llama2 推理的 Rust 实现
 
 * [OpenLMLab/LOMO](https://github.com/OpenLMLab/LOMO) 提出了一个新的优化器，**LO**w-Memory **O**ptimization，它将梯度计算和参数更新融合在一步中，以减少内存使用。 我们的方法使得在单张 RTX 3090 上可以进行 7B 模型的全参数微调，或者在单个 8×RTX 3090 的机器上可以进行 65B 模型的全参数微调（RTX 3090 的内存为 24GB）。
+
+* [spcl/graph-of-thoughts](https://github.com/spcl/graph-of-thoughts) 思想图Graph of Thoughts (GoT)：用大型语言模型解决复杂问题的官方实现。此框架使您能够通过将复杂问题建模为操作图 （GoO） 来解决复杂问题，该操作图以大型语言模型 （LLM） 作为引擎自动执行。该框架设计为灵活且可扩展，不仅允许您使用新的 GoT 方法解决问题，还可以实现类似于以前方法（如 CoT 或 ToT）的 GoO。
 
 #### 编程语言大模型及相关项目
 
@@ -1922,6 +1932,10 @@
 - [DUTIR-BioNLP/Taiyi-LLM](https://github.com/DUTIR-BioNLP/Taiyi-LLM) 太一：一种双语（中英文）微调的大语言模型，适用于各种生物医学任务
 
 - [bigscience-workshop/biomedica](https://github.com/bigscience-workshop/biomedical) 用于管理用于大规模语言建模的生物医学训练数据的工具，大规模轻量级、程序化访问生物医学数据集，提高数据处理的可重复性，126+ 生物医学数据集、10+ 种语言、12 个任务类别、按任务类型协调的数据集架构、有关许可、粗粒度/细粒度任务类型、域等的元数据
+
+- [GitHub - openmedlab/PULSE: PULSE: Pretrained and Unified Language Service Engine](https://github.com/openmedlab/PULSE) 中文医疗大语言模型，使用约400万个中文医学领域和通用领域的指令微调数据进行进一步调优。PULSE支持医学领域的各种自然语言处理任务，包括健康教育、医师考试问题、报告解读、医疗记录结构化以及模拟诊断和治疗。
+
+- [GitHub - openmedlab/XrayPULSE](https://github.com/openmedlab/XrayPULSE) 基于 PULSE。我们利用MedCLIP作为我们的医疗视觉编码器，并利用Q-former（BLIP2）作为适配器，通过简单的线性变换将图像注入PULSE。为了通过适配器对齐冷冻视觉编码器和LLM，我们借助chatGPT从两个数据集（MIMIC-CXR和OpenI）的自由文本放射学报告中生成中文版Xray-Report配对数据。为了促进生物医学多模态学习的研究，我们将向公众发布数据。
 
 #### 法律大模型及语料库
 
@@ -2219,7 +2233,13 @@
 
 * [billxbf/ReWOO](https://github.com/billxbf/ReWOO) 高效增强语言模型的观察解耦推理，这是一种工具增强的LM范式，利用语言模型的可预见推理能力来提高系统参数和提示效率。
 
-* [MasterAI-EAM/Darwin](https://github.com/MasterAI-EAM/Darwin) 一个开源项目，致力于为自然科学构建基础大型语言模型，主要涉及物理、化学和材料科学。
+* [MasterAI-EAM/Darwin](https://github.com/MasterAI-EAM/Darwin) 致力于为自然科学构建基础大型语言模型，主要涉及物理、化学和材料科学。
+
+* [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents) 用于构建自治语言代理的开源库/框架。该库包括长期短期记忆、工具使用、Web 导航、多智能体通信以及包括人代理交互和符号控制在内的全新功能。使用代理，只需用自然语言填写配置文件，并在终端、Gradio 接口或后端服务中部署语言代理，即可自定义语言代理或多代理系统。
+
+* [hitz-zentroa/GoLLIE](https://github.com/hitz-zentroa/GoLLIE) 信息提取大语言模型遵循指南
+
+* [neulab/prompt2model](https://github.com/neulab/prompt2model) 从自然语言指令生成可部署模型，采用自然语言任务描述（如 ChatGPT 等 LLM 使用的提示）来训练有利于部署的小型专用模型的系统。
 
 ### 其他_文本生成、文本对话
 
@@ -3065,6 +3085,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [reasonml/reason](https://github.com/reasonml/reason) 利用JavaScript和OCaml生态系统的简单，快速和类型的安全代码。OCaml是Caml的继承者，CAML的缩写最初代表Categorical Abstract Machine Language,分类抽象机语言，不过后来，将这个抽象机淘汰掉了。OCaml有一个巨大并强悍的标准库，这使得她可以像Py或者Perl一样可以方便地开发各种应用程序，健壮的模块化与面向对象编程结构又使得她可以胜任大规模软件工程项目。
 
+* [rescript-lang/rescript-compiler](https://github.com/rescript-lang/rescript-compiler) 一种健壮的类型语言，可以编译成高效且人类可读的 JavaScript。它带有一个闪电般的快速编译器工具链，可扩展到任何代码库大小。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -3337,6 +3359,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [xiaolin3303/wx-charts](https://github.com/xiaolin3303/wx-charts) 微信小程序图表charts组件
 
+* [uber/baseweb](https://github.com/uber/baseweb) 一个由现代，响应迅速，动态组件组成的设计系统。Base Web 是 Base 的 React 实现。
+
+* [fastlane/fastlane](https://github.com/fastlane/fastlane) 自动构建和发布 iOS 和 Android 应用的最简单方法
+
+* [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) 一本 golang 电子书介绍如何使用 golang 构建网络
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3413,6 +3441,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [facebook/hhvm](https://github.com/facebook/hhvm) 用于执行用Hack编写的程序的虚拟机。一个开源虚拟机，设计用于执行用Hack编写的程序。HHVM 使用实时 （JIT） 编译方法来实现卓越的性能，同时保持惊人的开发灵活性。HHVM应该与内置的Web服务器一起使用，易于部署的Proxygen，或者在nginx或Apache之上基于FastCGI的网络服务器。
 
+* [beego/beego](https://github.com/beego/beego) Go 编程语言的开源、高性能 Web 框架。
+
+* [gaia-pipeline/gaia](https://github.com/gaia-pipeline/gaia) 使用任何编程语言构建强大的管道。一个开源自动化平台，它可以轻松有趣地使用任何编程语言构建强大的管道。基于HashiCorp的go-plugin和gRPC，gaia是高效，快速，轻量级和开发人员友好的。
+
+* [davideuler/architecture.of.internet-product](https://github.com/davideuler/architecture.of.internet-product) 互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/Google/Facebook/Amazon/eBay的架构
+
 ## 网络与前后端开发_其他
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
@@ -3433,6 +3467,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [dataabc/weiboSpider](https://github.com/dataabc/weiboSpider) 新浪微博爬虫，用python爬取新浪微博数据
 
+* [crawlab-team/crawlab](https://github.com/crawlab-team/crawlab) 分布式爬虫管理平台，支持任何语言和框架
+
 * [nwjs/nw.js](https://github.com/nwjs/nw.js) 直接从 DOM/WebWorker 调用所有 Node.js 模块，并启用一种使用所有 Web 技术编写应用程序的新方法。
 
 * [gofiber/fiber](https://github.com/gofiber/fiber) 用 Go 编写的受 Express 启发的 Web 框架
@@ -3450,6 +3486,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) 微服务架构相关原则和技术的精选列表。
 
 * [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) 第一个没有任何类型的用户标识符的消息传递平台 - 设计100%私有！iOS和安卓应用程序发布
+
+* [go-telegram-bot-api/telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) Telegram Bot API 的 Golang 绑定
 
 * [papercups-io/papercups](https://github.com/papercups-io/papercups) 开源实时客户聊天。用Elixir编写的开源实时客户支持工具Web应用程序。
 
@@ -3549,9 +3587,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [freefq/free](https://github.com/freefq/free) 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子
 
+* [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) 翻墙-科学上网、翻墙工具、翻墙教程项目库
+
 * [Dreamacro/clash](https://github.com/Dreamacro/clash) Go 中基于规则的隧道。入站：HTTP，HTTPS，SOCKS5服务器，TUN设备。出站： Shadowsocks（R）， VMess， Trojan， Snell， SOCKS5， HTTP（S）， Wireguard。基于规则的路由：动态脚本、域、IP 地址、进程名称等。假 IP DNS：最大限度地减少对 DNS 污染的影响并提高网络性能。透明代理：通过自动路由表/规则管理重定向 TCP 和 TProxy TCP/UDP。代理组：自动回退、负载平衡或延迟测试。远程提供程序：动态加载远程代理列表。RESTful API：通过全面的 API 就地更新配置。
 
 * [tsenart/vegeta](https://github.com/tsenart/vegeta) HTTP 负载测试工具和库。超过9000！
+
+* [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) cqhttp的golang实现，轻量、原生跨平台.容 [OneBot-v11](https://github.com/botuniverse/onebot-11) 绝大多数内容，并在其基础上做了一些扩展，详情请看 go-cqhttp 的文档。
 
 * [zxlie/FeHelper](https://github.com/zxlie/FeHelper) Web前端助手，包括各种前端开发工具
 
@@ -3601,6 +3643,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [top-think/think](https://github.com/top-think/think) ThinkPHP Framework ——十年匠心的高性能PHP框架
 
+* [mockery/mockery](https://github.com/mockery/mockery) 简单而灵活的PHP模拟对象框架，用于PHPUnit，PHPSpec或任何其他的单元测试。其核心目标是提供一个具有简洁API的测试双重框架，该API能够使用人类可读的领域特定语言（DSL）清楚地定义所有可能的对象操作和交互。
+
 * [tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth) 适用于PHP Laravel&Lumen的JSON 网络令牌认证
 
 * [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) 利用干净体系结构和 ASP.NET 核心的强大功能，为企业应用程序开发提供一种简单有效的方法。使用此模板，您可以毫不费力地创建具有 ASP.NET Core和Angular或React的单页应用程序（SPA），同时遵守清洁架构的原则。入门很简单 - 只需安装 .NET 模板。
@@ -3624,6 +3668,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [apache/thrift](https://github.com/apache/thrift) 一个轻量级、独立于语言的软件堆栈，用于点对点 RPC 实现。Thrift 为数据传输、数据序列化和应用程序级处理提供了干净的抽象和实现。代码生成系统将简单的定义语言作为输入，并跨编程语言生成代码，这些编程语言使用抽象堆栈来构建可互操作的 RPC 客户端和服务器。Thrift 使用不同编程语言编写的程序可以轻松共享数据和调用远程过程。由于支持 28 种编程语言，Thrift 很可能支持您当前使用的语言。Thrift 专门设计用于支持跨客户端和服务器代码的非原子版本更改。这允许您升级服务器，同时仍然能够为旧客户端提供服务;或者让较新的客户端向较旧的服务器发出请求。社区提供的关于对 API 进行版本控制时的节俭和兼容性的优秀文章可以在节俭缺失指南中找到。
 
 * [drogonframework/drogon](https://github.com/drogonframework/drogon) 基于C++14/17/20的HTTP Web应用程序框架，运行在Linux/macOS/Unix/Windows上。
+
+* [makeplane/plane](https://github.com/makeplane/plane) 开源JIRA，线性和高度替代。Plane 可帮助您以最简单的方式跟踪问题、史诗和产品路线图。
 
 ## 区块链
 
@@ -6218,6 +6264,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [mingrammer/diagrams](https://github.com/mingrammer/diagrams) 允许您在 Python 代码中绘制云系统架构。它诞生于在没有任何设计工具的情况下对新的系统架构设计进行原型设计。您还可以描述或可视化现有系统架构。Diagrams目前支持的主要提供商包括： GCP \ Kubernetes \Alibaba Cloud \Oracle Cloud \Azure AWS 等。它还支持 On-Premise 节点、 SaaS 主要 Programming 框架和语言。
 
+* [PRQL/prql](https://github.com/PRQL/prql) 用于转换数据的现代语言 — 一种简单、强大、流水线式的 SQL 替代品
+
+* [go-gorm/gorm](https://github.com/go-gorm/gorm) Golang的梦幻般的ORM库，旨在对开发人员友好
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -7244,6 +7294,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [OpenMachine-ai/tinyfive](https://github.com/OpenMachine-ai/tinyfive) 一个轻量级的RISC-V仿真器和汇编器，用Python编写，带有神经网络示例。
 
+* [hybridgroup/gobot](https://github.com/hybridgroup/gobot) 用于机器人、无人机和物联网 （IoT） 的 Golang 框架
+
+* [mpaland/printf](https://github.com/mpaland/printf) 用于嵌入式系统的微小、快速、非依赖和满载的 printf 实现。广泛的测试套件通过。
+
 # 其他项目
 
 ## Python
@@ -7358,6 +7412,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [liu-jianhao/Cpp-Design-Patterns](https://github.com/liu-jianhao/Cpp-Design-Patterns) C++设计模式
 
+* [facebook/folly](https://github.com/facebook/folly) Facebook开发和使用的开源C++库。
+
 * [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 
 * [tangtangcoding/C-C-](https://github.com/tangtangcoding/C-C-) C语言电子书与视频资料分享
@@ -7461,6 +7517,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [neovide/neovide](https://github.com/neovide/neovide) 在 Rust 中没有废话的 neovim 客户端
 
 * [slint-ui/slint](https://github.com/slint-ui/slint) Slint 是一个声明性 GUI 工具包，用于为 Rust、C++ 或 JavaScript 编写的应用程序构建本机用户界面。
+
+* [rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust) Rust 编程语言嵌入式和低级开发的精选资源列表
+
+* [rust-embedded/rust-raspberrypi-OS-tutorials](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials) 树莓派上的 Rust 操作系统开发教程。面向刚接触 ARM 64 位 ARMv8-A 架构的业余操作系统开发人员。这些教程将提供有关如何 embedded system 从头开始编写整体式操作系统 kernel 的指导性分步教程。它们涵盖了常见操作系统任务的实现，例如写入串行控制台、设置虚拟内存和处理硬件异常。同时利用 Rust 的独特功能来提供安全性和速度。
+
+* [chyyuu/os_kernel_lab](https://github.com/chyyuu/os_kernel_lab) 基于 Rust/C & RISC-V 64/X86-32 的操作系统内核实验室
+
+* [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) 用于 IDE 的 Rust 编译器前端
 
 ## flutter
 
@@ -7580,6 +7644,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) 用动画的形式呈现解LeetCode题目的思路
 
+* [krahets/hello-algo](https://github.com/krahets/hello-algo) 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
+
 * [geekxh/hello-algorithm](https://github.com/geekxh/hello-algorithm) 针对小白的算法训练 | 包括四部分：①.大厂面经 ②.力扣图解 ③.千本开源电子书 ④.百张技术思维导图
 
 * [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
@@ -7591,6 +7657,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [luong-komorebi/Awesome-Linux-Software ](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md) 收集了对任何用户/开发者都觉得超赞的 Linux 应用软件。
 
 * [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫
+
+* [doocs/leetcode](https://github.com/doocs/leetcode) 本项目包含 LeetCode、《剑指 Offer（第 2 版）》、《剑指 Offer（专项突击版）》、《程序员面试金典（第 6 版）》等题目的相关题解。所有题解均由多种编程语言实现，包括但不限于：Java、Python、C++、Go、TypeScript、Rust
 
 * [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) 带有视频讲座的计算机科学课程列表。
 
@@ -7624,6 +7692,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ahmedash95/build-redis-from-scratch](https://github.com/ahmedash95/build-redis-from-scratch) 如何在 Go 中实现内存中数据库（如 Redis ）的文章系列。
 
+* [chai2010/advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) 《Go语言高级编程》图书，涵盖CGO、Go汇编、RPC、Protobuf插件实现、Web框架实现、分布式系统等高阶主题
+
 * [gopherjs/gopherjs](https://github.com/gopherjs/gopherjs) 从 Go 到 JavaScript 的编译器，用于在浏览器中运行 Go 代码
 
 * [gogf/gf](https://github.com/gogf/gf) GoFrame 是 Go 的一个模块化、功能强大、高性能的企业级应用开发框架。
@@ -7636,6 +7706,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 - [avelino/awesome-go](https://github.com/avelino/awesome-go) 精选的 Go 框架、库和软件的精选列表
 
 - [unknwon/go-study-index](https://github.com/unknwon/go-study-index) Go 语言学习资料与社区索引
+
+- [go-shiori/shiori](https://github.com/go-shiori/shiori) 使用 Go 构建的简单书签管理器
 * [johnkerl/miller](https://github.com/johnkerl/miller) Miller 就像 awk、sed、剪切、连接和排序的名称索引数据，如 CSV、TSV 和表格 JSON。
 
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
@@ -8180,5 +8252,15 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
 
 * [AlDanial/cloc](https://github.com/AlDanial/cloc) 对许多编程语言中源代码的空白行、注释行和物理行进行计数
+
+* [nim-lang/Nim](https://github.com/nim-lang/Nim) 静态类型的编译系统编程语言。它结合了来自Python，Ada和Modula等成熟语言的成功概念。它的设计侧重于效率、表现力和优雅（按优先级顺序）。
+
+* [halide/Halide](https://github.com/halide/Halide) 一种用于快速、可移植数据并行计算的语言。Halide不是一种独立的编程语言，而是嵌入在C++中。这意味着您编写C++代码，使用 Halide 的 C++ API 构建 Halide 管道的内存中表示形式。然后，可以将此表示形式编译为对象文件，或者对其进行 JIT 编译并在同一进程中运行它。Halide 还提供了一个 Python 绑定，该绑定完全支持在没有C++的情况下编写嵌入在 Python 中的 Halide。
+
+* [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) 语言服务器协议 （LSP） 定义了编辑器或 IDE 与提供语言功能（如自动完成、转到定义、查找所有引用等）的语言服务器之间使用的协议。语言服务器索引格式（LSIF，发音类似于“else if”）的目标是在开发工具或 Web UI 中支持丰富的代码导航，而无需源代码的本地副本。
+
+* [brndnmtthws/conky](https://github.com/brndnmtthws/conky) 适用于X，Wayland和其他东西的轻量级系统监视器
+
+* [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) 955 不加班的公司名单 - 工作 955，work–life balance (工作与生活的平衡)
 
 # end
