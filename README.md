@@ -2241,6 +2241,8 @@
 
 * [neulab/prompt2model](https://github.com/neulab/prompt2model) 从自然语言指令生成可部署模型，采用自然语言任务描述（如 ChatGPT 等 LLM 使用的提示）来训练有利于部署的小型专用模型的系统。
 
+* [web-arena-x/webarena](https://github.com/web-arena-x/webarena) 一个独立的、自托管的 Web 环境，用于构建LLM自治代理
+
 ### 其他_文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -3109,9 +3111,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ant-design/ant-design](https://github.com/ant-design/ant-design) 企业级 UI 设计语言和 React UI 库
 
+* [youzan/vant](https://github.com/youzan/vant) 一个轻量级的、可定制的 Vue UI 库，用于移动 Web 应用程序。特性：
+   性能极佳，组件平均体积小于 1KB（min+gzip）、80+ 个高质量组件，覆盖移动端主流场景、零外部依赖，不依赖三方 npm 包、使用 TypeScript 编写，提供完整的类型定义、单元测试覆盖率超过 90%，提供稳定性保障、提供丰富的中英文文档和组件示例、提供 Sketch 和 Axure 设计资源、支持 Vue 2-Vue 3 和微信小程序、支持 Nuxt 2-Nuxt 3，提供 Nuxt 的 Vant Module、支持主题定制，内置 700+ 个主题变量、支持按需引入和 Tree Shaking、支持无障碍访问（持续改进中）、支持深色模式、支持服务器端渲染、支持国际化，内置 30+ 种语言包
+
 * [electron/electron](https://github.com/electron/electron)使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
 
 * [angular/angular](https://github.com/angular/angular) 用于构建移动和桌面 Web 应用程序的开发平台，使用 TypeScript/ JavaScript 和其他语言。
+
+* [necolas/react-native-web](https://github.com/necolas/react-native-web) 跨平台的 React UI 包。可访问的 HTML，支持不同的设备和输入模式，渲染语义标签。高质量的互动，支持手势和多种输入模式（触摸、鼠标、键盘）。可靠的款式，依赖作用域样式和自动供应商前缀，支持 RTL 布局。响应式容器，响应元素调整大小事件。增量采用，与现有的 React DOM 组件互操作。仅捆绑您使用的内容。
 
 * [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) 无头网络的最快前端。用 React 构建现代网站。Gatsby 是基于 React，可帮助开发人员构建速度极快的网站和应用程序。它将动态渲染网站的控制和可扩展性与静态网站生成的速度相结合，创造了一个全新的可能性网络。
 
@@ -3168,6 +3175,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [RainManGO/vue3-composition-admin](https://github.com/RainManGO/vue3-composition-admin) 基于vue3 的管理端模板
 
 * [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+- [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro) 基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城等功能。
+
+- [elunez/eladmin](https://github.com/elunez/eladmin) eladmin jpa 版本：项目基于 Spring Boot 2.6.4、 Jpa、 Spring Security、Redis、Vue的前后端分离的后台管理系统，项目采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，支持一键生成前后端代码，支持动态路由
+* [elunez/eladmin-web](https://github.com/elunez/eladmin-web) eladmin jpa版本：前端源码，项目基于 Spring Boot 2.1.0 、 Spring Boot Jpa、 Spring Security、Redis、Vue的前后端分离后台管理系统
 
 * [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 & Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
 
@@ -3253,7 +3264,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [SergioBenitez/Rocket](https://github.com/SergioBenitez/Rocket) Rust 的异步 Web 框架，专注于可用性、安全性、可扩展性和速度。
 
-* [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) 适用于 Web 的零配置构建工具。它将出色的开箱即用开发体验与可扩展的体系结构相结合，可以将您的项目从刚开始转变为大规模生产应用程序。
+* [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) 用于 Web 的零配置构建工具。它将出色的开箱即用开发体验与可扩展的体系结构相结合，可以将您的项目从刚开始转变为大规模生产应用程序。
 
 * [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) 谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类
 
@@ -3365,6 +3376,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) 一本 golang 电子书介绍如何使用 golang 构建网络
 
+* [arwes/arwes](https://github.com/arwes/arwes) Web 框架，用于基于未来科幻小说设计、动画和音效构建用户界面。背后的概念受到Cyberprep和Synthwave以及《星际公民》、《光环》和《创：遗产》等作品的影响。它试图激发先进的科学和技术。
+
+* [reflex-dev/reflex](https://github.com/reflex-dev/reflex) 纯 Py的高性能、可自定义的 Web 应用程序。几秒钟内完成部署。
+
+* [wanglin2/mind-map](https://github.com/wanglin2/mind-map) 一个 js 思维导图库，不依赖任何框架，你可以使用它来快速完成 Web 思维导图产品的开发。
+
+* [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) 使用 C# 和 XAML 开发桌面、嵌入式、移动和 WebAssembly 应用。最受欢迎的 .NET 基金会社区项目。
+
+* [microsoft/playwright](https://github.com/microsoft/playwright) Web测试和自动化的框架。它允许使用单个API测试Chromium，Firefox和WebKit。旨在实现常青，功能强大，可靠和快速的跨浏览器Web自动化。
+
+* [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) 针对 Web 的自动化审核、性能指标和最佳实践。分析 Web 应用和网页，收集现代性能指标和有关开发人员最佳实践的见解。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3446,6 +3469,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [gaia-pipeline/gaia](https://github.com/gaia-pipeline/gaia) 使用任何编程语言构建强大的管道。一个开源自动化平台，它可以轻松有趣地使用任何编程语言构建强大的管道。基于HashiCorp的go-plugin和gRPC，gaia是高效，快速，轻量级和开发人员友好的。
 
 * [davideuler/architecture.of.internet-product](https://github.com/davideuler/architecture.of.internet-product) 互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/Google/Facebook/Amazon/eBay的架构
+
+* [apidoc/apidoc](https://github.com/apidoc/apidoc) RESTful Web API 文档生成器。
+
+* [miguelgrinberg/flasky](https://github.com/miguelgrinberg/flasky) O'Reilly书“Flask Web Development”的配套代码，第二版。
 
 ## 网络与前后端开发_其他
 
@@ -3670,6 +3697,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [drogonframework/drogon](https://github.com/drogonframework/drogon) 基于C++14/17/20的HTTP Web应用程序框架，运行在Linux/macOS/Unix/Windows上。
 
 * [makeplane/plane](https://github.com/makeplane/plane) 开源JIRA，线性和高度替代。Plane 可帮助您以最简单的方式跟踪问题、史诗和产品路线图。
+
+* [hashicorp/vagrant](https://github.com/hashicorp/vagrant) 用于构建和分发开发环境的工具。由Vagrant管理的开发环境可以在本地虚拟化平台（如VirtualBox或VMware）上运行，通过AWS或OpenStack在云中运行，或者在容器（如Docker或原始LXC）上运行。
+
+* [mlandauer/cuttlefish](https://github.com/mlandauer/cuttlefish) 具有可爱Web界面的事务性电子邮件服务器
+
+* [nylas/nylas-mail](https://github.com/nylas/nylas-mail) 基于现代 Web 构建的可扩展桌面邮件应用程序。
+
+* [gorilla/websocket](https://github.com/gorilla/websocket) 一个快速、经过充分测试和广泛使用的 Go. WebSocket 实现。
+
+* [allinurl/goaccess](https://github.com/allinurl/goaccess) 一个实时 Web 日志分析器和交互式查看器，可在 *nix 系统的终端中或通过浏览器运行。
+
+* [wasmerio/wasmer](https://github.com/wasmerio/wasmer) 领先的 WebAssembly 运行时，支持 WASIX、WASI 和 Emscripten，它使令人难以置信的轻量级容器能够在任何地方运行：从桌面到云，边缘甚至浏览器。
 
 ## 区块链
 
@@ -6166,6 +6205,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [apache/couchdb](https://github.com/apache/couchdb) 开源 NoSQL 文档数据库，用于存储 JSON 格式的数据。与关系数据库不同，CouchDB 使用无模式数据模型，简化了各种计算设备、手机和 Web 浏览器中的记录管理。特点：双向复制，用于在多个服务器和设备之间同步数据。将视图用作运行查询以及根据存储的文档文件创建报告的主要工具。使用 [REST API](https://www.ibm.com/cn-zh/topics/rest-apis) 从任何地点访问数据库，并具有完全的 CRUD（创建、读取、更新、删除）操作灵活性。设计中考虑了脱机操作。高效的文档存储。提供多种兼容性优势，可轻松地与当前基础架构集成。优点：可扩展性。没有读取锁。
 
+* [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) 可扩展的、分布式的、协作的、文档图形数据库，用于实时 Web。端到端的云原生数据库，专为现代应用程序而设计，包括 Web、移动、无服务器、Jamstack、后端和传统应用程序。借助 SurrealDB，您可以简化数据库和 API 基础架构，缩短开发时间，并快速、经济高效地构建安全、高性能的应用程序。
+
 ## 数据搜索引擎
 
 * [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -6241,6 +6282,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [milvus-io/milvus-lite](https://github.com/milvus-io/milvus-lite) Milvus 的轻量级版本，可以嵌入到 Python 应用程序中。
 
 * [milvus-io/bootcamp](https://github.com/milvus-io/bootcamp) 处理所有非结构化数据，如反向图像搜索、音频搜索、分子搜索、视频分析、问答系统、NLP 等。使用神经网络从非结构化数据中提取特征向量，例如图像、音频和视频等。然后通过计算特征向量来分析非结构化数据，例如计算向量的欧几里得或余弦距离以获得相似性。
+
+* [apache/zeppelin](https://github.com/apache/zeppelin) 基于 Web 的笔记本，支持数据驱动的交互式数据分析以及使用 SQL、Scala 等的协作文档。
 
 ## 其他__大数据
 
@@ -7298,6 +7341,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [mpaland/printf](https://github.com/mpaland/printf) 用于嵌入式系统的微小、快速、非依赖和满载的 printf 实现。广泛的测试套件通过。
 
+* [cesanta/mongoose](https://github.com/cesanta/mongoose) 用于 C/C++ 的网络库。它为 TCP、UDP、HTTP、WebSocket、MQTT 实现了事件驱动的非阻塞 API。它专为连接设备并使其联机而设计。自 2004 年以来在市场上，被大量开源和商业产品使用 - 它甚至在国际空间站上运行！猫鼬使嵌入式网络编程快速、强大且简单。
+
 # 其他项目
 
 ## Python
@@ -7525,6 +7570,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [chyyuu/os_kernel_lab](https://github.com/chyyuu/os_kernel_lab) 基于 Rust/C & RISC-V 64/X86-32 的操作系统内核实验室
 
 * [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) 用于 IDE 的 Rust 编译器前端
+
+* [RustPython/RustPython](https://github.com/RustPython/RustPython) 用 Rust 编写的 Python 解释器
 
 ## flutter
 
@@ -8262,5 +8309,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [brndnmtthws/conky](https://github.com/brndnmtthws/conky) 适用于X，Wayland和其他东西的轻量级系统监视器
 
 * [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) 955 不加班的公司名单 - 工作 955，work–life balance (工作与生活的平衡)
+
+* [pjialin/py12306](https://github.com/pjialin/py12306) 12306购票助手，支持集群，多账号，多任务以及 Web 页面管理
+
+* [faressoft/terminalizer](https://github.com/faressoft/terminalizer) 录制您的终端并生成动画 gif 图像或共享网络播放器
 
 # end
