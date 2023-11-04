@@ -3134,7 +3134,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [layui/layui](https://github.com/layui/layui) 一套遵循原生态开发模式的 Web UI 组件库，采用自身轻量级模块化规范，易上手，可以更简单快速地构建网页界面。
 
-* [dcloudio/uni-app](https://github.com/dcloudio/uni-app) 使用 Vue.js`开发小程序、H5、App的统一前端框架。使用 Vue 语法编写代码，uni-app 框架将其编译到 小程序（微信/支付宝/百度/字节跳动/QQ/快手/钉钉/小红书）、App（iOS/Android）、H5等平台，保证正确并达到优秀体验。
+* [dcloudio/uni-app](https://github.com/dcloudio/uni-app) 使用 Vue.js开发小程序、H5、App的统一前端框架。使用 Vue 语法编写代码，uni-app 框架将其编译到 小程序（微信/支付宝/百度/字节跳动/QQ/快手/钉钉/小红书）、App（iOS/Android）、H5等平台，保证正确并达到优秀体验。
 
 * [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站,LowCode平台.
 
@@ -3406,6 +3406,24 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [librespeed/speedtest](https://github.com/librespeed/speedtest) HTML5等的自托管速度测试。易设置，移动友好。
 
+* [transloadit/uppy](https://github.com/transloadit/uppy) 下一个用于 Web 浏览器🐶的开源文件上传器。时尚的模块化 JS文件上传器，可与任何应用程序无缝集成。它速度很快，具有易于理解的 API，让您担心比构建文件上传器更重要的问题。
+
+* [digitallyinduced/ihp](https://github.com/digitallyinduced/ihp) 构建类型安全的 Web 应用的最快方法。 IHP 是一个新的包含电池的 Web 框架，针对长期生产力和程序员的幸福感进行了优化
+
+* [evanw/esbuild](https://github.com/evanw/esbuild) 带来网络构建工具性能的新时代，并在此过程中创建一个易于使用的现代捆绑器。我们的工具比其他工具的速度快 10-100 倍
+
+* [jhen0409/react-native-debugger](https://github.com/jhen0409/react-native-debugger) 基于 React Native 官方调试器的独立应用程序，包括 React Inspector / Redux DevTools
+
+* [davidsonfellipe/awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) Web 性能优化的精选列表。
+
+* [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) 一个跨平台的 .NET 框架，用于在 Windows、Mac 或 Linux 上构建基于云的现代 Web 应用程序。
+
+* [ant-design/ant-design-mobile](https://github.com/ant-design/ant-design-mobile) 用于构建移动 Web 应用程序的基本 UI 块。
+
+* [react-dates/react-dates](https://github.com/react-dates/react-dates) 一个易于国际化、适合移动设备的 Web 日期选择器库
+
+* [microsoft/fluentui](https://github.com/microsoft/fluentui) Fluent UI Web 表示用于构建 Web 应用程序的实用程序、React 组件和 Web 组件的集合。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3538,7 +3556,17 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Intervention/image](https://github.com/Intervention/image) PHP图像处理
 
+* [Seldaek/monolog](https://github.com/Seldaek/monolog) PHP将日志发送到文件、套接字、数据库和各种Web服务
+
 * [matomo-org/matomo](https://github.com/matomo-org/matomo) Google Analytics（分析）的领先开放替代方案，可让您完全控制数据。Matomo可让您轻松地从网站和应用程序中收集数据，并可视化这些数据并提取见解。隐私是内置的。
+
+* [plausible/analytics](https://github.com/plausible/analytics) 简单开源轻量级（<1K）和隐私友好的网络分析替代谷歌分析。
+
+* [hasura/graphql-engine](https://github.com/hasura/graphql-engine) 开源产品，通过立即为您提供具有内置数据授权的 GraphQL 或 REST API，将 API 开发速度提高了 10 倍。
+
+* [supabase/realtime](https://github.com/supabase/realtime) 通过 WebSocket 进行广播、状态和发布更改
+
+* [actix/actix-web](https://github.com/actix/actix-web) 一个强大、实用且速度极快的 Rust Web 框架。
 
 ## 网络与前后端开发_其他
 
@@ -3787,6 +3815,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) 自动将环境变量从“.env”加载到“getenv（）”，`$_ENV`和“$_SERVER”。
 
 * [thephpleague/flysystem](https://github.com/thephpleague/flysystem) 本地和远程文件系统的抽象。一个PHP的文件存储库。它提供了一个接口来与多种类型的文件系统进行交互。当您使用 Flysystem 时，您不仅可以免受供应商锁定的影响，还可以获得适合您的一致体验。
+
+* [KurtBestor/Hitomi-Downloader](https://github.com/KurtBestor/Hitomi-Downloader) 桌面实用程序，用于从各种网站下载图像/视频/音乐/文本等。
+
+* [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) 易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。
+
+* [scrapy/scrapy](https://github.com/scrapy/scrapy) 用于Python的快速高级Web爬行和抓取框架。用于抓取网站并从其页面中提取结构化数据。它可以用于广泛的目的，从数据挖掘到监控和自动化测试。
+
+* [caddyserver/caddy](https://github.com/caddyserver/caddy) 具有自动 HTTPS 功能的快速且可扩展的多平台 HTTP/1-2-3 Web 服务器
+
+* [binux/pyspider](https://github.com/binux/pyspider) Python中强大的蜘蛛（网络爬虫）系统。
+
+* [kataras/iris](https://github.com/kataras/iris) 最快的 HTTP/2 Go Web 框架。新颖、现代且易于学习。使用您控制的代码进行快速开发。
 
 ## 区块链
 
@@ -4425,11 +4465,15 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ashawkey/stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion) 文本到3D和图像到3D和网格导出与NeRF +扩散。
 
+* [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) 稳定的扩散 Webui colab
+
 * [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
 * [yangjianxin1/CLIP-Chinese](https://github.com/yangjianxin1/CLIP-Chinese) 中文多模态对比学习预训练模型 ，可获取140w中文图文对预训练数据，以及中文CLIP预训练权重。下游任务：图文相似度计算、文本相似度计算、图片相似度计算
 
 * [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) 让我们控制扩散模型！ControlNet 是一种神经网络结构，通过添加额外条件来控制扩散模型。
+
+* [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) 适用于 ControlNet 的 WebUI 扩展
 
 * [jexom/sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib) 深度图库，用于 Automatic1111/stable-diffusion-webui 的控制网扩展
 
@@ -6377,6 +6421,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [sequelize/sequelize](https://github.com/sequelize/sequelize) 功能丰富的ORM（Object Relational Mapping，为了解决面向对象与关系数据库存在的互不匹配），用于现代Node.js和TypeScript，它支持PostgreSQL（支持JSON和JSONB），MySQL，MariaDB，SQLite，MS SQL Server，Snowflake，Oracle DB（v6），DB2和DB2 for IBM i。
 
+* [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) 一个快速分布式存储系统，适用于 blob、对象、文件和数据湖，适用于数十亿个文件！Blob 存储具有 O（1） 磁盘查找和云分层。Filer 支持 Cloud Drive、跨 DC 主动-主动复制、Kubernetes、POSIX FUSE 挂载、S3 API、S3 Gateway、Hadoop、WebDAV、加密、纠删码。
+
 * [Database-like ops benchmark](https://h2oai.github.io/db-benchmark/) 对开源数据科学中流行的各种类似数据库的工具进行基准测试。
 
 * [tonsky/datascript](https://github.com/tonsky/datascript) 用于 Clojure、ClojureScript 和 JS 的不可变数据库和数据日志查询引擎
@@ -6581,6 +6627,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ghtwf01/excavator](https://github.com/ghtwf01/excavator) 基于mitmproxy的插件式被动安全漏洞扫描器
 
+* [DedSecInside/TorBot](https://github.com/DedSecInside/TorBot) 暗网OSINT（公开资源情报， Open-source intelligence）
+
+* [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) 查找泄露的凭据。
+
+* [RustScan/RustScan](https://github.com/RustScan/RustScan) 现代端口扫描仪(rust)
+
+* [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) API、CLI 和 Web 应用程序，用于在 1000 个社交媒体\网站中分析和查找个人的个人资料
+
+* [fastfire/deepdarkCTI](https://github.com/fastfire/deepdarkCTI) 从深网和暗网收集网络威胁情报来源
+
 ## web shell、shellcode
 
 * web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
@@ -6659,7 +6715,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Axx8/ShellCode_Loader](https://github.com/Axx8/ShellCode_Loader) Msf&CobaltStrike免杀ShellCode加载器、免杀Shellcode加密生成工具，目前测试免杀360&火绒&电脑管家&Windows Defender
 
-## 杀毒免杀
+## 杀毒免杀、逆向工程
 
 * [TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。
 
@@ -6688,6 +6744,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [seventeenman/CallBackDump](https://github.com/seventeenman/CallBackDump) 能过国内杀软的dump lsass进程工具，参考代码链接在下面。由minidumpCallback实现，对缓冲区中内存做了些修改后再写入磁盘。工具也没有任何网络行为。dump lsass通过检索Windows内存中的lsass.exe进程来获取凭据信息并将其存储到一个文件中，从而使攻击者能够拿到有效的用户凭据。它还可以在远程系统上执行恶意代码，以便获取更多的敏感信息。
 
 * [H4de5-7/Bundler-bypass](https://github.com/H4de5-7/Bundler-bypass) 免杀捆绑器，过主流杀软。
+
+* [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) 适用于 Windows 的开源用户模式调试器。针对逆向工程和恶意软件分析进行了优化。
 
 ## 漏洞库、漏洞靶场
 
@@ -6718,6 +6776,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [sqlsec/ssrf-vuls](https://github.com/sqlsec/ssrf-vuls) 手把手带你用 SSRF 打穿内网靶场源码
 
 * [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) 在渗透测试、漏洞评估、红/蓝团队操作、漏洞赏金等期间有用的出色搜索引擎的精选列表
+
+* [aquasecurity/trivy](https://github.com/aquasecurity/trivy) 查找容器、Kubernetes、代码存储库、云等中的漏洞、错误配置、机密、SBOM
+
+* [qazbnm456/awesome-web-security](https://github.com/qazbnm456/awesome-web-security) 精心策划的网络安全材料和资源列表。
 
 ## 安卓Android
 
@@ -7333,6 +7395,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [arduino/Arduino](https://github.com/arduino/Arduino) 基于简单 I/O 板和实现处理/布线语言的开发环境的开源物理计算平台。Arduino可用于开发独立的交互式对象，也可以连接到计算机上的软件（例如Flash，Processing和MaxMSP）。
 
+* [micropython/micropython](https://github.com/micropython/micropython) 用于微控制器和受限系统的精简高效的 Python 实现
+
 * [Lichee-Pi/Tang_FPGA_Examples](https://github.com/Lichee-Pi/Tang_FPGA_Examples) LicheeTang FPGA例程
 
 * [nf9/police_light](https://github.com/nf9/police_light) Lichee Tang板实现警灯
@@ -7425,7 +7489,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [cesanta/mongoose](https://github.com/cesanta/mongoose) 用于 C/C++ 的网络库。它为 TCP、UDP、HTTP、WebSocket、MQTT 实现了事件驱动的非阻塞 API。它专为连接设备并使其联机而设计。自 2004 年以来在市场上，被大量开源和商业产品使用 - 它甚至在国际空间站上运行！猫鼬使嵌入式网络编程快速、强大且简单。
 
-* [arendst/Tasmota](https://github.com/arendst/Tasmota) 基于 ESP8266 和 ESP32 的设备的替代固件，使用 webUI 轻松配置、OTA 更新、使用计时器或规则实现自动化、可扩展性以及对 MQTT、HTTP、串行或 KNX 的完全本地控制。完整文档位于
+* [arendst/Tasmota](https://github.com/arendst/Tasmota) 基于 ESP8266 和 ESP32 的设备的替代固件，使用 webUI 轻松配置、OTA 更新、使用计时器或规则实现自动化、可扩展性以及对 MQTT、HTTP、串行或 KNX 的完全本地控制。
+
+* [tinygo-org/tinygo](https://github.com/tinygo-org/tinygo) 通过创建一个基于 LLVM 的新编译器，将 Go 编程语言引入嵌入式系统和现代 Web。可以在超过 94 个不同的微控制器板上编译和运行 TinyGo 程序，例如 BBC micro：bit 和 Arduino Uno。还可以生成大小非常紧凑的 WebAssembly （WASM） 代码。您可以为 Web 浏览器以及支持 WebAssembly 系统接口 （WASI） 系列接口的服务器和边缘计算环境编译程序。
 
 # 其他项目
 
@@ -7926,6 +7992,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) 使用 PHP 和 Laravel 构建的创建文档/wiki 内容的平台
 
+* [facebook/docusaurus](https://github.com/facebook/docusaurus) 易于维护的开源文档网站。
+
 * [foambubble/foam](https://github.com/foambubble/foam) VSCode的个人知识管理和共享系统
 
 * [gollum/gollum](https://github.com/gollum/gollum) 一个简单的、基于 Git 的 wiki，带有一个漂亮的 API 和本地前端。
@@ -8393,6 +8461,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [pjialin/py12306](https://github.com/pjialin/py12306) 12306购票助手，支持集群，多账号，多任务以及 Web 页面管理
 
 * [faressoft/terminalizer](https://github.com/faressoft/terminalizer) 录制您的终端并生成动画 gif 图像或共享网络播放器
+
+* [microsoft/terminal](https://github.com/microsoft/terminal) 新的Windows终端和原始Windows控制台主机
 
 * [vercel/hyper](https://github.com/vercel/hyper) 基于网络技术的终端，目标是为命令行界面用户创建基于开放 Web 标准构建的美观且可扩展的体验。一开始，我们的重点将主要放在速度、稳定性和为扩展作者开发正确的 API 上。
 
