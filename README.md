@@ -1703,6 +1703,8 @@
 
 * [ramonvc/freegpt-webui](https://github.com/ramonvc/freegpt-webui) GPT 3.5/4 与聊天网页用户界面。无需 API 密钥。
 
+* [vercel/ai](https://github.com/vercel/ai) 使用 React、Svelte、Vue 和 Solid 构建 AI 驱动的应用程序
+
 * [reorx/awesome-chatgpt-api](https://github.com/reorx/awesome-chatgpt-api) 精选的应用程序和工具列表，这些应用程序和工具不仅使用新的 ChatGPT API，还允许用户配置自己的 API 密钥，从而免费和按需使用自己的配额。
 
 * [embedchain/embedchain](https://github.com/embedchain/embedchain) LLM 的数据平台 - 加载、索引、检索和同步任何非结构化数据，可以在任何数据集上轻松创建LLM驱动的机器人。支持的数据类型：视频、PDF、网页、网站地图、文档等
@@ -1744,6 +1746,8 @@
 * [OpenLMLab/LOMO](https://github.com/OpenLMLab/LOMO) 提出了一个新的优化器，**LO**w-Memory **O**ptimization，它将梯度计算和参数更新融合在一步中，以减少内存使用。 我们的方法使得在单张 RTX 3090 上可以进行 7B 模型的全参数微调，或者在单个 8×RTX 3090 的机器上可以进行 65B 模型的全参数微调（RTX 3090 的内存为 24GB）。
 
 * [spcl/graph-of-thoughts](https://github.com/spcl/graph-of-thoughts) 思想图Graph of Thoughts (GoT)：用大型语言模型解决复杂问题的官方实现。此框架使您能够通过将复杂问题建模为操作图 （GoO） 来解决复杂问题，该操作图以大型语言模型 （LLM） 作为引擎自动执行。该框架设计为灵活且可扩展，不仅允许您使用新的 GoT 方法解决问题，还可以实现类似于以前方法（如 CoT 或 ToT）的 GoO。
+
+* [TheoKanning/openai-java](https://github.com/TheoKanning/openai-java) 用于使用 OpenAI 的 GPT API 的 Java 库。支持 GPT-3、ChatGPT 和 GPT-4。
 
 #### 编程语言大模型及相关项目
 
@@ -3174,10 +3178,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [RainManGO/vue3-composition-admin](https://github.com/RainManGO/vue3-composition-admin) 基于vue3 的管理端模板
 
+* [newpanjing/simpleui](https://github.com/newpanjing/simpleui) 基于vue+element-ui的django admin现代化主题。全球20000+网站都在使用
+
 * [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
 - [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro) 基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城等功能。
 
-- [elunez/eladmin](https://github.com/elunez/eladmin) eladmin jpa 版本：项目基于 Spring Boot 2.6.4、 Jpa、 Spring Security、Redis、Vue的前后端分离的后台管理系统，项目采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，支持一键生成前后端代码，支持动态路由
+- [elunez/eladmin](https://github.com/elunez/eladmin) eladmin jpa 版本：基于 Spring Boot 2.6.4、 Jpa、 Spring Security、Redis、Vue的前后端分离的后台管理系统，采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，一键生成前后端代码，支持动态路由
+
+- [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
 * [elunez/eladmin-web](https://github.com/elunez/eladmin-web) eladmin jpa版本：前端源码，项目基于 Spring Boot 2.1.0 、 Spring Boot Jpa、 Spring Security、Redis、Vue的前后端分离后台管理系统
 
 * [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 & Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
@@ -3279,7 +3287,11 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [givanz/VvvebJs](https://github.com/givanz/VvvebJs) 拖放构建网站的javascript 库 。
 
 * [strapi/strapi](https://github.com/strapi/strapi) 领先的开源无头 CMS。100% JScript，完全可定制且开发人员优先。
+- [payloadcms/payload](https://github.com/payloadcms/payload) 使用 React + TypeScript 构建一个免费开源 Headless CMS。
 
+- [getgrav/grav](https://github.com/getgrav/grav) 由 PHP、Markdown、Twig 和 Symfony 提供支持的现代、极快、极其简单且功能强大的平面文件 CMS
+
+- [octobercms/october](https://github.com/octobercms/october) 基于 Laravel PHP 框架的自托管 CMS (Content Management System) 平台。
 * [midoks/mdserver-web](https://github.com/midoks/mdserver-web) 一款简单Linux面板服务
 
 * [janishar/nodejs-backend-architecture-typescript](https://github.com/janishar/nodejs-backend-architecture-typescript) Node.js的学习为生产就绪的博客平台（如Medium和FreeCodeCamp）构建后端服务器。主要功能：基于角色，Express.js，Mongoose，Redis，Mongodb，Joi，Docker，JWT，单元集成测试。
@@ -3388,6 +3400,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) 针对 Web 的自动化审核、性能指标和最佳实践。分析 Web 应用和网页，收集现代性能指标和有关开发人员最佳实践的见解。
 
+* [o2oa/o2oa](https://github.com/o2oa/o2oa) 开源OA系统 - 码云GVP|Java开源oa|企业OA办公平台|企业OA|协同办公OA|流程平台OA|O2OA|OA，支持国产麒麟操作系统和国产数据库（达梦、人大金仓），政务OA，军工信息化OA
+
+* [jgraph/drawio](https://github.com/jgraph/drawio) 可配置的图表/白板可视化应用程序。
+
+* [librespeed/speedtest](https://github.com/librespeed/speedtest) HTML5等的自托管速度测试。易设置，移动友好。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3407,6 +3425,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [withastro/astro](https://github.com/withastro/astro) 现代web网站构建工具 — 强大的开发人员经验，轻量级输出。
 
 * [Tencent/mars](https://github.com/Tencent/mars) 微信开发的跨平台网络组件。跨平台，如果您正在开发多平台或多业务应用程序，则易于部署。适用于小容量数据传输。移动平台友好，低功耗和流量消耗。适合移动应用的网络解决方案。
+
+* [fecshop/yii2_fecshop](https://github.com/fecshop/yii2_fecshop) 多语言多货币多入口的开源电商 B2C 商城，支持移动端vue, app, html5，微信小程序微店，微信小程序商城等
 
 * [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) 集数据库、用户管理、UI和API等工具的后端开发框架。
 
@@ -3473,6 +3493,52 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [apidoc/apidoc](https://github.com/apidoc/apidoc) RESTful Web API 文档生成器。
 
 * [miguelgrinberg/flasky](https://github.com/miguelgrinberg/flasky) O'Reilly书“Flask Web Development”的配套代码，第二版。
+
+* [slimphp/Slim](https://github.com/slimphp/Slim) PHP 微框架，可帮助您快速编写简单而强大的 Web 应用程序和 API。
+
+* [walkor/workerman](https://github.com/walkor/workerman) 异步事件驱动的 PHP 套接字框架。支持HTTP，Websocket，SSL和其他自定义协议。
+
+* [filp/whoops](https://github.com/filp/whoops) HP 的错误处理程序框架。开箱即用，它提供了一个漂亮的错误界面，可以帮助您调试Web项目，但本质上它是一个简单而强大的堆叠错误处理系统。
+
+* [symfony/symfony](https://github.com/symfony/symfony) 用于Web和控制台应用程序的PHP框架以及一组可重用的PHP组件。Symfony被成千上万的Web应用程序和大多数流行的PHP项目使用。
+
+* [composer/composer](https://github.com/composer/composer) PHP 依赖管理器。Composer 帮助您声明、管理和安装 PHP 项目的依赖项。
+
+* [guzzle/guzzle](https://github.com/guzzle/guzzle) 可以轻松发送HTTP请求的PHP库，并且与Web服务集成变得简单。
+
+* [DesignPatternsPHP/DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) PHP 8.x 中几种设计模式的示例代码，这些模式大致可以分为三个不同的类别，Creational、Structural、Behavioral。
+
+* [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) PHP 的经典电子邮件发送库
+
+* [sebastianbergmann/phpunit](https://github.com/sebastianbergmann/phpunit) PHP 单元测试框架。它是单元测试框架的 xUnit 体系结构的一个实例。
+
+* [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) 一个PHP应用程序开发框架 - 一个工具包 - 适用于使用 PHP 构建网站的人。它的目标是通过为常用任务提供一组丰富的库，以及访问这些库的简单接口和逻辑结构，使你能够比从头开始编写代码更快地开发项目。
+
+* [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser) 用PHP编写的PHP解析器。其目的是简化静态代码分析和操作。
+
+* [erusev/parsedown](https://github.com/erusev/parsedown) PHP 中更好的 Markdown 解析器。
+
+* [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) 高性能PHP应用程序服务器，用Go编写的进程管理器，由插件提供支持
+
+* [laradock/laradock](https://github.com/laradock/laradock) 适用于 Docker 的完整 PHP 开发环境。
+
+* [egulias/EmailValidator](https://github.com/egulias/EmailValidator) PHP 电子邮件地址验证器
+
+* [phalcon/cphalcon](https://github.com/phalcon/cphalcon) 高性能、全栈 PHP 框架作为 C 扩展提供。
+
+* [typecho/typecho](https://github.com/typecho/typecho) 一个PHP博客平台。简单而强大。
+
+* [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) 对PHP文件进行标记，并检测违反一组定义的编码标准的行为。
+
+* [serbanghita/Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) 一个轻量级的 PHP 类，用于检测移动设备（包括平板电脑）。它使用用户代理字符串与特定 HTTP 标头相结合来检测移动环境。
+
+* [deployphp/deployer](https://github.com/deployphp/deployer) PHP部署工具，开箱即用，支持流行的框架
+
+* [yiisoft/yii2](https://github.com/yiisoft/yii2) 快速、安全和专业的 PHP 框架。开箱即用，预配置了合理的默认值。该框架很容易调整以满足您的需求，因为 Yii 被设计得很灵活。
+
+* [Intervention/image](https://github.com/Intervention/image) PHP图像处理
+
+* [matomo-org/matomo](https://github.com/matomo-org/matomo) Google Analytics（分析）的领先开放替代方案，可让您完全控制数据。Matomo可让您轻松地从网站和应用程序中收集数据，并可视化这些数据并提取见解。隐私是内置的。
 
 ## 网络与前后端开发_其他
 
@@ -3709,6 +3775,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [allinurl/goaccess](https://github.com/allinurl/goaccess) 一个实时 Web 日志分析器和交互式查看器，可在 *nix 系统的终端中或通过浏览器运行。
 
 * [wasmerio/wasmer](https://github.com/wasmerio/wasmer) 领先的 WebAssembly 运行时，支持 WASIX、WASI 和 Emscripten，它使令人难以置信的轻量级容器能够在任何地方运行：从桌面到云，边缘甚至浏览器。
+
+* [PHP-CS-Fixer/PHP-CS-Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) 自动修复PHP编码标准问题的工具;无论您是想遵循PSR-1，PSR-2等中定义的PHP编码标准，还是其他社区驱动的标准，如Symfony。您还可以通过配置来定义（团队）的风格。
+
+* [phpstan/phpstan](https://github.com/phpstan/phpstan) PHP 静态分析工具 - 无需运行即可发现代码中的错误！
+
+* [ramsey/uuid](https://github.com/ramsey/uuid) 用于生成通用唯一标识符 （UUID） 的 PHP 库。
+
+* [PHPOffice/PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) 用于读取和写入电子表格文件的纯 PHP 库
+
+* [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) 自动将环境变量从“.env”加载到“getenv（）”，`$_ENV`和“$_SERVER”。
+
+* [thephpleague/flysystem](https://github.com/thephpleague/flysystem) 本地和远程文件系统的抽象。一个PHP的文件存储库。它提供了一个接口来与多种类型的文件系统进行交互。当您使用 Flysystem 时，您不仅可以免受供应商锁定的影响，还可以获得适合您的一致体验。
 
 ## 区块链
 
@@ -6311,6 +6389,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [go-gorm/gorm](https://github.com/go-gorm/gorm) Golang的梦幻般的ORM库，旨在对开发人员友好
 
+* [ben-manes/caffeine](https://github.com/ben-manes/caffeine) 适用于 Java 的高性能缓存库，Google Guava 启发的API提供内存缓存。这些改进借鉴了Guava缓存和ConcurrentLinkedHashMap的经验。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -7251,6 +7331,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) 树莓派工具、项目、图像和资源的精选列表
 
+* [arduino/Arduino](https://github.com/arduino/Arduino) 基于简单 I/O 板和实现处理/布线语言的开发环境的开源物理计算平台。Arduino可用于开发独立的交互式对象，也可以连接到计算机上的软件（例如Flash，Processing和MaxMSP）。
+
 * [Lichee-Pi/Tang_FPGA_Examples](https://github.com/Lichee-Pi/Tang_FPGA_Examples) LicheeTang FPGA例程
 
 * [nf9/police_light](https://github.com/nf9/police_light) Lichee Tang板实现警灯
@@ -7335,13 +7417,15 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin) 基于Arduino平台的RepRap 3D打印机的优化固件。许多商用3D打印机都安装了Marlin。如果您需要特定计算机的源代码，请咨询您的供应商。
 
-* [OpenMachine-ai/tinyfive](https://github.com/OpenMachine-ai/tinyfive) 一个轻量级的RISC-V仿真器和汇编器，用Python编写，带有神经网络示例。
+* [OpenMachine-ai/tinyfive](https://github.com/OpenMachine-ai/tinyfive) 轻量级的RISC-V仿真器和汇编器，Python编写，带有神经网络示例。
 
 * [hybridgroup/gobot](https://github.com/hybridgroup/gobot) 用于机器人、无人机和物联网 （IoT） 的 Golang 框架
 
 * [mpaland/printf](https://github.com/mpaland/printf) 用于嵌入式系统的微小、快速、非依赖和满载的 printf 实现。广泛的测试套件通过。
 
 * [cesanta/mongoose](https://github.com/cesanta/mongoose) 用于 C/C++ 的网络库。它为 TCP、UDP、HTTP、WebSocket、MQTT 实现了事件驱动的非阻塞 API。它专为连接设备并使其联机而设计。自 2004 年以来在市场上，被大量开源和商业产品使用 - 它甚至在国际空间站上运行！猫鼬使嵌入式网络编程快速、强大且简单。
+
+* [arendst/Tasmota](https://github.com/arendst/Tasmota) 基于 ESP8266 和 ESP32 的设备的替代固件，使用 webUI 轻松配置、OTA 更新、使用计时器或规则实现自动化、可扩展性以及对 MQTT、HTTP、串行或 KNX 的完全本地控制。完整文档位于
 
 # 其他项目
 
@@ -7848,10 +7932,6 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [outline/outline](https://github.com/outline/outline) 成长团队最快的知识库。美观、实时协作、功能丰富且兼容降价。
 
-* [payloadcms/payload](https://github.com/payloadcms/payload) 使用 React + TypeScript 构建一个免费的开源 Headless CMS。
-
-* [getgrav/grav](https://github.com/getgrav/grav) 由 PHP、Markdown、Twig 和 Symfony 提供支持的现代、极快、极其简单且功能强大的平面文件 CMS
-
 * [microsoft/vscode](https://github.com/microsoft/vscode) 微软开源的程序开发工具和编辑器
 
 * [VSCodium/vscodium](https://github.com/VSCodium/vscodium) 没有微软品牌/遥测/许可的vscode代码二进制版本
@@ -8313,5 +8393,15 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [pjialin/py12306](https://github.com/pjialin/py12306) 12306购票助手，支持集群，多账号，多任务以及 Web 页面管理
 
 * [faressoft/terminalizer](https://github.com/faressoft/terminalizer) 录制您的终端并生成动画 gif 图像或共享网络播放器
+
+* [vercel/hyper](https://github.com/vercel/hyper) 基于网络技术的终端，目标是为命令行界面用户创建基于开放 Web 标准构建的美观且可扩展的体验。一开始，我们的重点将主要放在速度、稳定性和为扩展作者开发正确的 API 上。
+
+* [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) 用 TypeScript 编写的前端组件，它允许应用程序在浏览器中为其用户提供功能齐全的终端。它被 VS Code、Hyper 和 Theia 等流行项目使用。
+
+* [enquirer/enquirer](https://github.com/enquirer/enquirer) 时尚的 CLI 提示，用户友好、直观且易于创建。
+
+* [wez/wezterm](https://github.com/wez/wezterm) @wez 编写Rust 实现的 GPU 加速跨平台终端仿真器和多路复用器
+
+* [Morganamilo/paru](https://github.com/Morganamilo/paru) 功能丰富的 AUR 助手，Arch 用户仓库(Arch User Repository)。它是针对基于 Arch 的 Linux 发行版用户的社区驱动的仓库
 
 # end
