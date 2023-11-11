@@ -17,8 +17,10 @@
     </a>
 </p>
 <h3 align="center">精选了千余项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
+<h3 align="center">Selected more than 1000 projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc.</h3>
 <h3 align="center">让更多优秀的项目被人发现，让更多的人感受开源的魅力。</h3>
-<h3 align="center">持续更新！欢迎star！😀😀😀</h3>
+<h3 align="center">Let more excellent projects be discovered by people, let more people feel the charm of open source.</h3>
+<h3 align="center">持续更新！欢迎star！😀😀😀 Continue to update! Welcome to star! 😀😀😀</h3>
 
 # 目录
 
@@ -128,6 +130,8 @@
 * [tangyudi/Ai-Learn](https://github.com/tangyudi/Ai-Learn) 人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，等热门领域
 
 * [dragen1860/Deep-Learning-with-TensorFlow-book](https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book) 深度学习入门开源书，基于TensorFlow 2.0案例实战。
+
+* [openmlsys/openmlsys-zh](https://github.com/openmlsys/openmlsys-zh) 《机器学习系统：设计与实现》- 中文版
 
 * [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南深度学习入门开源书，基于TensorFlow 2.0案例实战。
 
@@ -409,6 +413,8 @@
 * [ShusenTang/Deep-Learning-with-PyTorch-Chinese](https://github.com/ShusenTang/Deep-Learning-with-PyTorch-Chinese) 将PyTorch官方书籍《Deep learning with PyTorch》（基本摘录版）翻译成中文版并给出可运行的相关代码。
 
 * [ritchieng/the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch) 一个精选的教程、项目、库、视频、论文、书籍以及与令人难以置信的 PyTorch 相关的任何内容。
+
+* [jeffgerickson/algorithms](https://github.com/jeffgerickson/algorithms) 杰夫·埃里克森的算法书、笔记等。杰夫·埃里克森（Jeff Erickson）是伊利诺伊大学厄巴纳-香槟分校的计算机科学教授;这本书基于他自 1998 年以来在那里教授的算法课程。
 
 ## 特征工程
 
@@ -3093,6 +3099,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [rescript-lang/rescript-compiler](https://github.com/rescript-lang/rescript-compiler) 一种健壮的类型语言，可以编译成高效且人类可读的 JavaScript。它带有一个闪电般的快速编译器工具链，可扩展到任何代码库大小。
 
+* [mbasso/awesome-wasm](https://github.com/mbasso/awesome-wasm) 关于 WebAssembly 生态系统的精彩事物的精选列表。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -3424,6 +3432,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [microsoft/fluentui](https://github.com/microsoft/fluentui) Fluent UI Web 表示用于构建 Web 应用程序的实用程序、React 组件和 Web 组件的集合。
 
+* [adamschwartz/magic-of-css](https://github.com/adamschwartz/magic-of-css) 一门CSS课程，让你变成魔术师。
+
+* [AdrienTorris/awesome-blazor](https://github.com/AdrienTorris/awesome-blazor) Blazor 的资源，这是一个使用 C#/Razor 和 HTML 的 .NET Web 框架，可通过 WebAssembly 在浏览器中运行。
+
+* [vasanthv/talk](https://github.com/vasanthv/talk)  网络群组视频通话。没有注册。没有下载。使用 WebRTC 构建的，因此您的所有视频、音频和文本聊天都是点对点的。使用 WebRTC mesh实现的。因此，通话质量与通话人数成反比。甜蜜的数字是平均高速连接中大约 6 到 8 人。
+
+* [steven-tey/dub](https://github.com/steven-tey/dub) 一种开源链接管理工具，供现代营销团队创建、共享和跟踪短链接。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3610,6 +3626,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [go-telegram-bot-api/telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) Telegram Bot API 的 Golang 绑定
 
+* [LonamiWebs/Telethon](https://github.com/LonamiWebs/Telethon) 纯 Py3 MTProto API Telegram 客户端库，也适用于机器人
+
 * [papercups-io/papercups](https://github.com/papercups-io/papercups) 开源实时客户聊天。用Elixir编写的开源实时客户支持工具Web应用程序。
 
 * [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) 将数据保护放在首位的通信平台。开源的完全可定制的通信平台，用JavaScript开发，适用于具有高标准数据保护的组织。
@@ -3700,7 +3718,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [localForage/localForage](https://github.com/localForage/localForage) 改进了离线存储。使用简单但功能强大的API包装IndexedDB，WebSQL或localStorage。
 
-* [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) Git的奇技淫巧。Git 是分布式版本管理工具，版本管理工具能记录每次的修改，只要提交到版本仓库，就可以找到之前任何时刻的状态（文本状态）。
+* [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) Git的奇技淫巧。Git是分布式版本管理工具，版本管理工具能记录每次的修改，只要提交到版本仓库，就可找到之前任何时刻状态（文本状态）。
 
 * [dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub) github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
 
@@ -6637,6 +6655,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [fastfire/deepdarkCTI](https://github.com/fastfire/deepdarkCTI) 从深网和暗网收集网络威胁情报来源
 
+* [CISOfy/lynis](https://github.com/CISOfy/lynis) 适用于Linux，macOS和基于UNIX的系统的安全审计工具.协助进行一致性测试（HIPAA/ISO27001/PCI DSS）和系统强化。无代理，安装可选。它执行深入的安全扫描并在系统本身上运行。主要目标是测试安全防御，并为进一步强化系统提供提示。它还将扫描常规系统信息、易受攻击的软件包和可能的配置问题。系统管理员和审计人员通常使用 Lynis 来评估其系统的安全防御。除了“蓝队”之外，如今渗透测试人员的工具包中也有 Lynis。
+
+* [future-architect/vuls](https://github.com/future-architect/vuls) 适用于 Linux、FreeBSD、容器、WordPress、编程语言库、网络设备的无代理漏洞扫描程序
+
+* [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler) 适用于 AWS、Azure 和 GCP 的开源安全工具，用于执行云安全最佳实践评估、审计、事件响应、合规性、持续监控、强化和取证准备。包括 CIS、NIST 800、NIST CSF、CISA、FedRAMP、PCI-DSS、GDPR、HIPAA、FFIEC、SOC2、GXP、Well-Architected Security、ENS 等。
+
+* [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) Zed 攻击代理 （ZAP） 是世界上最受欢迎的免费安全工具之一，由专门的国际志愿者团队积极维护。它可以帮助您在开发和测试应用程序时自动查找 Web 应用程序中的安全漏洞。对于有经验的渗透测试人员来说，它也是一个很好的工具，可以用于手动安全测试。
+
 ## web shell、shellcode
 
 * web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
@@ -6746,6 +6772,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [H4de5-7/Bundler-bypass](https://github.com/H4de5-7/Bundler-bypass) 免杀捆绑器，过主流杀软。
 
 * [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) 适用于 Windows 的开源用户模式调试器。针对逆向工程和恶意软件分析进行了优化。
+
+* [capstone-engine/capstone](https://github.com/capstone-engine/capstone) 用于ARM，ARM64（ARMv8），BPF，Ethereum VM，M68K，M680X，Mips，MOS65XX，PPC，RISC-V（rv32G / rv64G），SH，Sparc，SystemZ，TMS320C64X，TriCore，Webassembly，XCore和X86的Capstone反汇编/反汇编器框架。
 
 ## 漏洞库、漏洞靶场
 
@@ -7387,6 +7415,26 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [LekKit/RVVM](https://github.com/LekKit/RVVM) 用С编写和实现的RISC-V CPU和系统软件
 
+* [TheThirdOne/rars](https://github.com/TheThirdOne/rars) RARS，RISC-V汇编器，模拟器和运行时，将组装和模拟RISC-V汇编语言程序的执行。主要目标是为开始使用RISC-V的人们提供一个有效的开发环境。
+
+* [mortbopet/Ripes](https://github.com/mortbopet/Ripes) 用于 RISC-V ISA 的图形处理器模拟器和装配编辑器
+
+* [rustsbi/rustsbi](https://github.com/rustsbi/rustsbi) Rust 中的 RISC-V Supervisor 二进制接口 （RISC-V SBI） 库;在 M 或 HS 模式下运行;对嵌入式 Rust 生态系统的良好支持。
+
+* [rcore-os/rCore-Tutorial-v3](https://github.com/rcore-os/rCore-Tutorial-v3) 让我们从头开始编写一个可以在 Rust 中的 RISC-V 上运行的操作系统！
+
+* [stnolting/neorv32](https://github.com/stnolting/neorv32) 一款小巧、可定制且高度可扩展的 MCU 级 32 位 RISC-V 软核 CPU 和类似微控制器的 SoC，采用独立于平台的 VHDL 编写。
+
+* [openhwgroup/cv32e40p](https://github.com/openhwgroup/cv32e40p) CV32E40P是一款基于PULP平台RI5CY的4级RISC-V RV32IMFCXpulp CPU。一款小巧高效的32位有序RISC-V内核，具有4级流水线，可实现RV32IM[F|Zfinx]C 指令集架构和 PULP 自定义扩展，可实现更高的代码密度、性能和能效。它最初是基于OpenRISC ISA的OR10N CPU内核的一个分支。然后，以RI5CY的名义，它成为RISC-V核心（2016年），并由PULP平台团队维护，直到2020年2月，它被贡献给OpenHW集团。
+
+* [olofk/serv](https://github.com/olofk/serv) 一款屡获殊荣的位串行 RISC-V 内核的CPU。 SERV 是世界上最小的 RISC-V CPU。每当您需要一些计算并且硅空间非常宝贵时，它都是完美的伴侣。
+
+* [d0iasm/rvemu](https://github.com/d0iasm/rvemu) RISC-V仿真器，用于CLI和Web，用Rust和WebAssembly编写。它支持 xv6 和 Linux（正在进行中）。
+
+* [probe-rs/probe-rs](https://github.com/probe-rs/probe-rs) 在单独主机上调试嵌入式 ARM 和 RISC-V 目标的调试工具集和库
+
+* [syntacore/scr1](https://github.com/syntacore/scr1) 开源且免费使用的RISC-V兼容MCU级内核，由Syntacore设计和维护。它是工业级和硅验证（包括全晶圆生产），在所有主要的EDA流程和Verilator中开箱即用，并带有广泛的宣传资料和文档。
+
 ## 硬件_其他
 
 * [zhengnianli/EmbedSummary](https://github.com/zhengnianli/EmbedSummary) 精品嵌入式资源汇总
@@ -7396,6 +7444,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [arduino/Arduino](https://github.com/arduino/Arduino) 基于简单 I/O 板和实现处理/布线语言的开发环境的开源物理计算平台。Arduino可用于开发独立的交互式对象，也可以连接到计算机上的软件（例如Flash，Processing和MaxMSP）。
 
 * [micropython/micropython](https://github.com/micropython/micropython) 用于微控制器和受限系统的精简高效的 Python 实现
+
+* [adafruit/circuitpython](https://github.com/adafruit/circuitpython) 适合初学者的 Python 开源版本，适用于称为微控制器的微型廉价计算机。微控制器是许多电子产品的大脑，包括用于构建业余爱好项目和原型的各种开发板。CircuitPython 基于 MicroPython。
+
+* [micropython/micropython-lib](https://github.com/micropython/micropython-lib) 一个包的存储库，旨在用于编写 MicroPython 应用程序。此处的包分为与四个顶级目录相对应的类别：`python-stdlib`：Python 标准库中模块的兼容版本。这些应该是相应 Python 模块的直接替代品。`python-ecosys`：来自更广泛的 Python 生态系统的兼容但功能缩减的包版本。例如，可以在 Python 包索引中找到的包。`micropython`：特定于 MicroPython 的包，在其他 Python 环境中没有等效包。这包括硬件（例如传感器、外围设备或显示器）的驱动程序、使用嵌入式功能（例如蓝牙）的库，或 CPython 中没有等效项的特定于 MicroPython 的包。`unix-ffi`：这些软件包专门用于 MicroPython Unix 移植，并通过 FFI 提供对操作系统和第三方库的访问，或者对非 Unix 移植没有用的功能。
 
 * [Lichee-Pi/Tang_FPGA_Examples](https://github.com/Lichee-Pi/Tang_FPGA_Examples) LicheeTang FPGA例程
 
@@ -7443,7 +7495,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [WalkerLau/DetectHumanFaces](https://github.com/WalkerLau/DetectHumanFaces) 采用ARM Cortex-M3软核及FPGA构成了轻量级的实时人脸检测SOC，通过ov5640摄像头采集实时图像，经过检测系统的检测后，将已经框出人脸的实时图像通过HDMI输出到显示器，同时可以通过UART查看检测时间等信息，还能通过板载LED灯查看检测到的人脸数量。
 
-* [ Qirun/ARM_Cortex-M3](https://github.com/Qirun/ARM_Cortex-M3) 在FPGA上搭建Cortex-M3软核、图像协处理器，并通过OV5640摄像头采集车牌图像，实现对车牌的识别与结果显示。项目基于Altera DE1 FPGA搭载Cortex-M3软核，依据AHB-Lite总线协议，将LCD1602、RAM、图像协处理器等外设挂载至Cortex-M3。视频采集端，设计写FiFo模块、SDRAM存储与输出、读FiFo模块、灰度处理模块、二值化、VGA显示等模块。最终将400位宽的结果数据（对应20张车牌）存储在RAM中，输出至AHB总线，由Cortex-M3调用并显示识别结果。
+* [ Qirun/ARM_Cortex-M3](https://github.com/Qirun/ARM_Cortex-M3) 在FPGA上搭建Cortex-M3软核、图像协处理器，并通过OV5640摄像头采集车牌图像，实现对车牌的识别与结果显示。基于Altera DE1 FPGA搭载Cortex-M3软核，依据AHB-Lite总线协议，将LCD1602、RAM、图像协处理器等外设挂载至Cortex-M3。视频采集端，设计写FiFo模块、SDRAM存储与输出、读FiFo模块、灰度处理模块、二值化、VGA显示等模块。最终将400位宽的结果数据（对应20张车牌）存储在RAM中，输出至AHB总线，由Cortex-M3调用并显示识别结果。
 
 * [TimRudy/ice-chips-verilog](https://github.com/TimRudy/ice-chips-verilog) Verilog 中所有常见分立逻辑器件的库 74LS、74HC、74HCT 系列芯片
 
@@ -7492,6 +7544,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [arendst/Tasmota](https://github.com/arendst/Tasmota) 基于 ESP8266 和 ESP32 的设备的替代固件，使用 webUI 轻松配置、OTA 更新、使用计时器或规则实现自动化、可扩展性以及对 MQTT、HTTP、串行或 KNX 的完全本地控制。
 
 * [tinygo-org/tinygo](https://github.com/tinygo-org/tinygo) 通过创建一个基于 LLVM 的新编译器，将 Go 编程语言引入嵌入式系统和现代 Web。可以在超过 94 个不同的微控制器板上编译和运行 TinyGo 程序，例如 BBC micro：bit 和 Arduino Uno。还可以生成大小非常紧凑的 WebAssembly （WASM） 代码。您可以为 Web 浏览器以及支持 WebAssembly 系统接口 （WASI） 系列接口的服务器和边缘计算环境编译程序。
+
+* [seemoo-lab/openhaystack](https://github.com/seemoo-lab/openhaystack) 一个框架，用于通过Apple庞大的“查找我的”网络跟踪个人蓝牙设备。使用它来创建您自己的跟踪标签，您可以将其附加到物理对象（钥匙圈、背包等）或将其集成到其他支持蓝牙的设备（如笔记本电脑）中。是苹果的Find My网络（或离线查找）的逆向工程和安全分析工作的结果。
+
+* [OctoPrint/OctoPrint](https://github.com/OctoPrint/OctoPrint) 3D打印机的活泼Web界面
+
+* [sipeed/MaixPy](https://github.com/sipeed/MaixPy) MicroPython for K210 RISC-V，让我们更轻松地玩边缘AI
+
+* [tzapu/WiFiManager](https://github.com/tzapu/WiFiManager) ESP8266具有网络强制门户的WiFi连接管理器，带回退的Web 配置门户
+
+* [chipsalliance/chisel](https://github.com/chipsalliance/chisel) 现代硬件设计语言，Constructing Hardware in a Scala Embedded Language 是一种开源硬件描述语言 （HDL），用于在寄存器传输级别描述数字电子和电路，促进 ASIC 和 FPGA 的高级电路生成和设计重用。
 
 # 其他项目
 
@@ -7578,6 +7640,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [jackzhenguo/python-small-examples](https://github.com/jackzhenguo/python-small-examples) 告别枯燥，致力于打造 Python 实用小例子
 
 * [faif/python-patterns](https://github.com/faif/python-patterns) Python 中的设计模式和习语的集合。
+
+* [Jack-Cherish/PythonPark](https://github.com/Jack-Cherish/PythonPark) Python 开源项目之「自学编程之路」，保姆级教程：AI实验室、宝藏视频、数据结构、学习指南、机器学习实战、深度学习实战、网络爬虫、大厂面经、程序人生、资源分享。
 
 ## C/C++ 程序设计
 
@@ -7878,6 +7942,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [golang/go](https://github.com/golang/go) Go 是一种开源编程语言，可以轻松构建简单、可靠且高效的软件。
 
 * [dariubs/GoBooks](https://github.com/dariubs/GoBooks) go书籍列表
+
+* [https://github.com/hoanhan101/ultimate-go](https://github.com/hoanhan101/ultimate-go) 终极go学习指南
 
 * [qax-os/excelize](https://github.com/qax-os/excelize) 用于读写Microsoft Excel™ （XLAM / XLSM / XLSX / XLTM / XLTX）电子表格的Go语言库
 
@@ -8473,5 +8539,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [wez/wezterm](https://github.com/wez/wezterm) @wez 编写Rust 实现的 GPU 加速跨平台终端仿真器和多路复用器
 
 * [Morganamilo/paru](https://github.com/Morganamilo/paru) 功能丰富的 AUR 助手，Arch 用户仓库(Arch User Repository)。它是针对基于 Arch 的 Linux 发行版用户的社区驱动的仓库
+
+* [webpro/awesome-dotfiles](https://github.com/webpro/awesome-dotfiles) dotfiles 资源的精选列表。有些文章或工具可能看起来很旧或过时，但这通常意味着它们经过了实战考验并且已经成熟。随时提出新的文章、项目或工具！
+
+* [shimohq/chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation) 中国程序员易发音错误单词
 
 # end
