@@ -3440,6 +3440,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [steven-tey/dub](https://github.com/steven-tey/dub) 一种开源链接管理工具，供现代营销团队创建、共享和跟踪短链接。
 
+* [adonisjs/core](https://github.com/adonisjs/core) 全栈 Web 框架，专注于人体工程学和速度。它解决了许多 Web 开发的麻烦，为您提供了一个干净稳定的 API 来构建 Web 应用程序和微服务。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3583,6 +3585,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [supabase/realtime](https://github.com/supabase/realtime) 通过 WebSocket 进行广播、状态和发布更改
 
 * [actix/actix-web](https://github.com/actix/actix-web) 一个强大、实用且速度极快的 Rust Web 框架。
+
+* [meolu/walle-web](https://github.com/meolu/walle-web) Devops开源项目代码部署平台
+
+* [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) 领先的开源自动化服务器。使用 Java 构建，提供了 1,800 多个插件来支持几乎任何事情的自动化，因此人类可以将时间花在机器无法完成的事情上。
+
+* [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) Spring Boot 可帮助您以绝对最少的麻烦创建由 Spring 提供支持的生产级应用程序和服务。它对 Spring 平台持自以为是的看法，以便新用户和现有用户都可以快速获得他们需要的位。您可以使用 Spring Boot 创建独立的 Java 应用程序，这些应用程序可以使用更传统的 WAR 部署启动 java -jar`。我们还提供了一个运行 Spring 脚本的命令行工具。
 
 ## 网络与前后端开发_其他
 
@@ -3845,6 +3853,28 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [binux/pyspider](https://github.com/binux/pyspider) Python中强大的蜘蛛（网络爬虫）系统。
 
 * [kataras/iris](https://github.com/kataras/iris) 最快的 HTTP/2 Go Web 框架。新颖、现代且易于学习。使用您控制的代码进行快速开发。
+
+* [jhuangtw/xg2xg](https://github.com/jhuangtw/xg2xg) 一个方便的类似技术和服务的查找表，帮助前谷歌员工在现实世界中生存，系统设计入门、Hadoop 生态系统表、将 AWS 服务映射到 GCP 产品、数据库数据库、Google 开源词汇表
+
+* [netdata/netdata](https://github.com/netdata/netdata) 以高分辨率和实时监控您的服务器、容器和应用程序！
+
+* [nektos/act](https://github.com/nektos/act) 在本地运行 GitHub Actions，快速反馈 - 无需在每次要测试对 `.github/workflows/` 文件所做的更改（或对嵌入式 GitHub 操作的任何更改）时都提交/推送，而是可以在 `act` 本地运行操作。环境变量和文件系统都配置为与 GitHub 提供的内容相匹配。
+
+* [go-gitea/gitea](https://github.com/go-gitea/gitea) 轻松自托管的一体化软件开发服务，包括 Git 托管、代码审查、团队协作、包注册表和 CI/CD
+
+* [Kong/kong](https://github.com/Kong/kong) 一种云原生、与平台无关、可扩展的 API 网关，以其高性能和通过插件的可扩展性而著称。通过提供代理、路由、负载均衡、运行状况检查、身份验证等功能，Kong 充当了轻松编排微服务或传统 API 流量的中心层。Kong在Kubernetes上本地运行，这要归功于其官方的Kubernetes Ingress Controller。
+
+* [getsentry/sentry](https://github.com/getsentry/sentry) 开发人员优先的错误跟踪和性能监控
+
+* [dokku/dokku](https://github.com/dokku/dokku) 基于 Docker 的 PaaS，可帮助您构建和管理应用程序的生命周期
+
+* [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) 正在使用这个存储库来记录我学习 DevOps 的旅程。我于 2022 年 1 月 1 日开始了这个过程，并计划持续到 3 月 31 日。我每天（包括周末）将花一个小时来获得对DevOps各个方面的基本理解。这将是一个为期 90 天的强化学习期。
+
+* [antirez/smallchat](https://github.com/antirez/smallchat) 聊天服务器的最小C编程示例
+
+* [zu1k/nali](https://github.com/zu1k/nali) 一个查询IP地理信息和CDN服务提供商的离线终端工具.
+
+* [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) 非常棒的开源系统管理员资源的精选列表。
 
 ## 区块链
 
@@ -6491,6 +6521,28 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [opentofu/opentofu](https://github.com/opentofu/opentofu) 允许您以声明方式管理您的云基础架构。一个 OSS 工具，用于安全高效地构建、更改和版本控制基础设施。OpenTofu可以管理现有和流行的服务提供商以及定制的内部解决方案。
 
+* [lensapp/lens](https://github.com/lensapp/lens) 世界运行 Kubernetes 的方式，核心是一个库，由 Electron 和 React 提供支持。与通用的 Electron + React 框架/样板不同，它非常固执己见地创建类似 Lens Desktop 的应用程序，并支持 Lens Extensions。
+
+* [argoproj/argo-cd](https://github.com/argoproj/argo-cd) Kubernetes 的声明式持续部署
+
+* [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) Kubernetes 的 API 流量分析器提供实时 K8s 协议级可见性，捕获和监控进出容器、Pod、节点和集群的所有流量和有效负载。受 Wireshark 的启发，专为 Kubernetes 构建
+
+* [moby/moby](https://github.com/moby/moby) 容器生态系统的一个协作项目，用于组装基于容器的系统， Docker 创建的开源项目，用于启用和加速软件容器化。
+
+* [containrrr/watchtower](https://github.com/containrrr/watchtower) 自动执行 Docker 容器基础映像更新的过程。
+
+* [docker/awesome-compose](https://github.com/docker/awesome-compose) 这些示例提供了如何使用 Compose 文件集成不同服务以及使用 Docker Compose 管理其部署的起点。
+
+* [wagoodman/dive](https://github.com/wagoodman/dive) 用于浏览 docker 映像中每个层的工具
+
+* [hadolint/hadolint](https://github.com/hadolint/hadolint) 更智能的 Dockerfile linter，可帮助您构建最佳实践 Docker 映像。linter 将 Dockerfile 解析为 AST，并在 AST 之上执行规则。它站在 ShellCheck 的肩膀上，在指令中 `RUN` 对 Bash 代码进行 lint 检查。
+
+* [docker/compose](https://github.com/docker/compose) 使用 Docker 定义和运行多容器应用程序。撰写文件用于定义如何配置组成应用程序的一个或多个容器。拥有撰写文件后，可以使用单个命令创建和启动应用程序： docker compose up 。
+
+* [earthly/earthly](https://github.com/earthly/earthly) 超级简单的构建框架，具有快速、可重复的构建和即时熟悉的语法——就像 Dockerfile 和 Makefile 生了一个孩子一样。
+
+* [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) Docker 资源和项目的精选列表
+
 # 安全与渗透
 
 ## 扫描器、资产收集、子域名
@@ -6862,6 +6914,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [liamg/dismember](https://github.com/liamg/dismember) Linux 工具包，可用于扫描所有进程（或特定进程）的内存以查找公共机密和自定义正则表达式等。
 
 * [zapstiko/wordlists](https://github.com/zapstiko/wordlists) 所有类型的有效负载字典。
+
+* [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide) 使用 YubiKey 作为智能卡来存储 GPG 加密、签名和身份验证密钥的指南，这些密钥也可用于 SSH。本文档中的许多原则适用于其他智能卡设备。
+
+* [getsops/sops](https://github.com/getsops/sops) 用于管理机密的简单灵活的工具，一个加密文件编辑器，支持 YAML、JSON、ENV、INI 和 BINARY 格式，并使用 AWS KMS、GCP KMS、Azure Key Vault、age 和 PGP 进行加密。
 
 ## 其他_安全与渗透
 
@@ -7554,6 +7610,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [tzapu/WiFiManager](https://github.com/tzapu/WiFiManager) ESP8266具有网络强制门户的WiFi连接管理器，带回退的Web 配置门户
 
 * [chipsalliance/chisel](https://github.com/chipsalliance/chisel) 现代硬件设计语言，Constructing Hardware in a Scala Embedded Language 是一种开源硬件描述语言 （HDL），用于在寄存器传输级别描述数字电子和电路，促进 ASIC 和 FPGA 的高级电路生成和设计重用。
+
+* [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) 用于设计和仿真数字逻辑电路的教育软件。 Logisim-evolution是免费、开源和跨平台的。
 
 # 其他项目
 
@@ -8540,8 +8598,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Morganamilo/paru](https://github.com/Morganamilo/paru) 功能丰富的 AUR 助手，Arch 用户仓库(Arch User Repository)。它是针对基于 Arch 的 Linux 发行版用户的社区驱动的仓库
 
+* [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core) MacOS（或 Linux）的软件包管理器。  通过它，我们可以方便的对Mac上的各种软件进行管理，如：安装、更新、查看、搜索、卸载等。
+
 * [webpro/awesome-dotfiles](https://github.com/webpro/awesome-dotfiles) dotfiles 资源的精选列表。有些文章或工具可能看起来很旧或过时，但这通常意味着它们经过了实战考验并且已经成熟。随时提出新的文章、项目或工具！
 
 * [shimohq/chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation) 中国程序员易发音错误单词
+
+* [gradle/gradle](https://github.com/gradle/gradle) 一款构建工具，专注于构建自动化和对多语言开发的支持。如果您在任何平台上构建、测试、发布和部署软件，Gradle 提供了一个灵活的模型，可以支持从编译和打包代码到发布网站的整个开发生命周期。Gradle 旨在支持跨多种语言和平台（包括 Java、Scala、Android、Kotlin、C/C++ 和 Groovy）的构建自动化，并与开发工具和持续集成服务器（包括 Eclipse、IntelliJ 和 Jenkins）紧密集成。
+
+* [kdn251/interviews](https://github.com/kdn251/interviews) 获得这份工作需要知道的一切，包括面试、数据结构、算法、计算机书籍等
+
+* [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) 令人敬畏的iOS生态系统的精选列表，包括Objective-C和Swift项目。
+
+* [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) 适用于 macOS 的开源应用程序列表很棒。此列表包含许多本机和跨平台应用程序。
 
 # end
