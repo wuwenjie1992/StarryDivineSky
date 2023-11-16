@@ -770,6 +770,10 @@
 
 * [ashleve/lightning-hydra-template](https://github.com/ashleve/lightning-hydra-template) PyTorch Lightning + Hydra。一个非常用户友好的 ML 实验模板。
 
+* [mljar/mljar-supervised](https://github.com/mljar/mljar-supervised) 用于表格数据 AutoML 的 Python 包，具有特征工程、超参数优化、解释和自动文档
+
+* [kserve/kserve](https://github.com/kserve/kserve) 提供了一个 Kubernetes 自定义资源定义，用于在任意框架上提供机器学习 （ML） 模型。它旨在通过为 Tensorflow、XGBoost、ScikitLearn、PyTorch 和 ONNX 等常见 ML 框架提供高性能、高抽象的接口来解决生产模型服务用例。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1412,6 +1416,8 @@
 
 * [stochasticai/xTuring](https://github.com/stochasticai/xTuring) 轻松构建、定制和控制您自己的 LLM。提供快速、高效和简单的LLM微调，如LLaMA，GPT-J，Galactica等。通过提供一个易于使用的界面来微调LLM到您自己的数据和应用程序，xTuring使构建，自定义和控制LLM变得简单。整个过程可以在您的计算机内部或私有云中完成，确保数据隐私和安全。
 
+* [punica-ai/punica](https://github.com/punica-ai/punica) 将多个 LoRA 微调 LLM 作为一个整体提供服务。Punica 支持运行多个 LoRA 微调模型，但代价是运行一个模型。通过分段收集矩阵向量乘法 （SGMV）的 LoRA 是高效的，并保留了强大的批处理效果.
+
 * [Instruction-Tuning-with-GPT-4/GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) 共享 GPT-4 生成的数据，用于构建具有监督学习和强化学习的指令遵循 LLM。存储库包含：
   
   - 英语教学 - 遵循数据由 GPT-4 使用 Alpaca 提示进行微调 LLM。
@@ -1754,6 +1760,10 @@
 * [spcl/graph-of-thoughts](https://github.com/spcl/graph-of-thoughts) 思想图Graph of Thoughts (GoT)：用大型语言模型解决复杂问题的官方实现。此框架使您能够通过将复杂问题建模为操作图 （GoO） 来解决复杂问题，该操作图以大型语言模型 （LLM） 作为引擎自动执行。该框架设计为灵活且可扩展，不仅允许您使用新的 GoT 方法解决问题，还可以实现类似于以前方法（如 CoT 或 ToT）的 GoO。
 
 * [TheoKanning/openai-java](https://github.com/TheoKanning/openai-java) 用于使用 OpenAI 的 GPT API 的 Java 库。支持 GPT-3、ChatGPT 和 GPT-4。
+
+* [langgenius/dify](https://github.com/langgenius/dify) 开源助手 API 和 GPT 的替代方案。Dify.AI 是一个 LLM 应用程序开发平台。它集成了后端即服务和 LLMOps 的概念，涵盖了构建生成式 AI 原生应用程序所需的核心技术堆栈，包括内置的 RAG 引擎。
+
+* [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) 一个开源的 ChatGPT UI。
 
 #### 编程语言大模型及相关项目
 
@@ -3442,6 +3452,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [adonisjs/core](https://github.com/adonisjs/core) 全栈 Web 框架，专注于人体工程学和速度。它解决了许多 Web 开发的麻烦，为您提供了一个干净稳定的 API 来构建 Web 应用程序和微服务。
 
+* [woai3c/visual-drag-demo](https://github.com/woai3c/visual-drag-demo) 一个低代码平台的前端部分，靠拖拉拽生成页面。
+
+* [magento/magento2](https://github.com/magento/magento2) Magento开源软件提供基本的电子商务功能，可以从头开始构建独特的在线商店。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3591,6 +3605,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) 领先的开源自动化服务器。使用 Java 构建，提供了 1,800 多个插件来支持几乎任何事情的自动化，因此人类可以将时间花在机器无法完成的事情上。
 
 * [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) Spring Boot 可帮助您以绝对最少的麻烦创建由 Spring 提供支持的生产级应用程序和服务。它对 Spring 平台持自以为是的看法，以便新用户和现有用户都可以快速获得他们需要的位。您可以使用 Spring Boot 创建独立的 Java 应用程序，这些应用程序可以使用更传统的 WAR 部署启动 java -jar`。我们还提供了一个运行 Spring 脚本的命令行工具。
+
+* [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) HTML、JavaScript 和 CSS 资产的集合，可从符合 Swagger 的 API 动态生成精美的文档。允许任何人（无论是您的开发团队还是最终消费者）可视化 API 的资源并与之交互，而无需任何实现逻辑。它是根据 OpenAPI（以前称为 Swagger）规范自动生成的，带有可视化文档，便于后端实现和客户端使用。
 
 ## 网络与前后端开发_其他
 
@@ -3875,6 +3891,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [zu1k/nali](https://github.com/zu1k/nali) 一个查询IP地理信息和CDN服务提供商的离线终端工具.
 
 * [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) 非常棒的开源系统管理员资源的精选列表。
+
+* [SoftEtherVPN/SoftEtherVPN](https://github.com/SoftEtherVPN/SoftEtherVPN) 跨平台多协议 VPN 软件。
+
+* [vishnubob/wait-for-it](https://github.com/vishnubob/wait-for-it) 纯 bash 脚本，用于测试和等待 TCP 主机和端口的可用性
+
+* [Mailu/Mailu](https://github.com/Mailu/Mailu) 孤立的电子邮件分发 - 作为 Docker 映像的邮件服务器
+
+* [mailcow/mailcow-dockerized](https://github.com/mailcow/mailcow-dockerized) 一个基于 Docker 的开源群件/电子邮件套件。Mailcow 依赖于许多众所周知且长期使用的组件，这些组件结合在一起形成了一个全方位的无忧电子邮件服务器。
+
+* [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) 用于管理Nginx代理主机的Docker容器，具有简单，强大的界面
+
+* [jhy/jsoup](https://github.com/jhy/jsoup) Java HTML 解析器，专为 HTML 编辑、清理、抓取和 XSS 安全而构建。
 
 ## 区块链
 
@@ -4306,6 +4334,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [fengq1a0/FOF](https://github.com/fengq1a0/FOF) 学习傅里叶占有场(Fourier Occupancy Fields)用于单目实时人体重建
 
 * [damo/cv_mobilenet_face-2d-keypoints_alignment](https://modelscope.cn/models/damo/cv_mobilenet_face-2d-keypoints_alignment/summary) 106点人脸关键点检测模型，该模型主要用于人脸关键点检测和对齐任务，从包含人脸的图片中检测出人脸框、人脸关键点坐标和人脸姿态角。主要借鉴MobileNetV1和MobileNetV2的思路(如下图)，MobileNetV1速度快，放在浅层用于提取特征图，MobileNetV2速度相对慢但是信息保存好，用于提取深层语义信息，模型参数量少速度快，能良好应用在移动端实时人脸关键点检测场景。
+
+* [open-mmlab/mmpose](https://github.com/open-mmlab/mmpose) OpenMMLab 姿势估计工具箱和基准测试。
 
 ## 图像恢复
 
@@ -6257,7 +6287,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 # 大数据
 
-* [MySQL](https://www.mysql.com/) 开源的关系数据库管理系统 (RDBMS)。它的名字是“My”（联合创始人 Michael Widenius 的女儿 My 的名字）和“SQL”（结构化查询语言的缩写）的组合。它将数据组织成一个或多个数据表，其中数据可能相互关联；这些关系有助于构建数据。SQL 是程序员用来创建、修改和从关系数据库中提取数据以及控制用户对数据库的访问的语言。
+* [MySQL](https://www.mysql.com/) 开源的关系数据库管理系统 (RDBMS)。它的名字是“My”（联合创始人 Michael Widenius 的女儿 My 的名字）和“SQL”（结构化查询语言的缩写）的组合。它将数据组织成一个或多个数据表，其中数据可能相互关联；这些关系有助于构建数据。SQL 是程序员用来创建、修改和从关系数据库中提取数据以及控制用户对数据库的访问的语言。[mysql/mysql-server](https://github.com/mysql/mysql-server)
 
 * [MariaDB](https://mariadb.org/) MySQL的社区开发、商业支持的分支，旨在在 GNU 通用公共许可证下保持免费和开源软件。开发由 MySQL 的一些原始开发人员领导，由于担心 2009 年被甲骨文公司收购，他们将其分叉。
 
@@ -6316,6 +6346,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [byzer-org/byzer-lang](https://github.com/byzer-org/byzer-lang) Byzer（前 MLSQL）：一种用于数据管道、分析和 AI 的低代码开源编程语言。
 
 * [xephonhq/awesome-time-series-database](https://github.com/xephonhq/awesome-time-series-database) 精选的时间序列数据库、基准和论文列表
+
+* [influxdata/influxdb](https://github.com/influxdata/influxdb/) 用 Rust 编写的开源时间序列数据库，使用 Apache Arrow、Apache Parquet 和 Apache DataFusion 作为其基础构建块。InfluxDB 的最新版本 （3.x） 专注于为各种观察数据（指标、事件、日志、跟踪等）提供实时缓冲区，这些数据可通过 SQL 或 InfluxQL 进行查询，并作为 Parquet 文件批量保存到对象存储中，然后其他第三方系统可以使用。它既可以使用预写日志运行，也可以在禁用预写日志的情况下完全关闭对象存储（在此操作模式下，对于尚未持久保存到对象存储的任何缓冲数据，都有数据丢失的可能性窗口）。
 
 * [XiaoMi/soar](https://github.com/XiaoMi/soar) SQL Optimizer And Rewriter是对 SQL进行优化改写的自动化工具。
 
@@ -6376,6 +6408,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [apache/couchdb](https://github.com/apache/couchdb) 开源 NoSQL 文档数据库，用于存储 JSON 格式的数据。与关系数据库不同，CouchDB 使用无模式数据模型，简化了各种计算设备、手机和 Web 浏览器中的记录管理。特点：双向复制，用于在多个服务器和设备之间同步数据。将视图用作运行查询以及根据存储的文档文件创建报告的主要工具。使用 [REST API](https://www.ibm.com/cn-zh/topics/rest-apis) 从任何地点访问数据库，并具有完全的 CRUD（创建、读取、更新、删除）操作灵活性。设计中考虑了脱机操作。高效的文档存储。提供多种兼容性优势，可轻松地与当前基础架构集成。优点：可扩展性。没有读取锁。
 
 * [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) 可扩展的、分布式的、协作的、文档图形数据库，用于实时 Web。端到端的云原生数据库，专为现代应用程序而设计，包括 Web、移动、无服务器、Jamstack、后端和传统应用程序。借助 SurrealDB，您可以简化数据库和 API 基础架构，缩短开发时间，并快速、经济高效地构建安全、高性能的应用程序。
+
+* [pingcap/talent-plan](https://github.com/pingcap/talent-plan) 由 PingCAP 发起的开源培训计划。它旨在为对开源、分布式系统、Rust、Golang 和其他基础设施知识感兴趣的人创建或组合一些开源学习材料。因此，它提供了一系列专注于开源协作、rust 编程、分布式数据库和系统的课程。
+
+* [alibaba/druid](https://github.com/alibaba/druid) 阿里云计算平台DataWorks团队出品，为监控而生的数据库连接池。一个 JDBC 组件库，包含数据库连接池、SQL Parser 等组件, 被大量业务和技术产品使用或集成，经历过最严苛线上业务场景考验，是你值得信赖的技术产品。
+
+* [questdb/questdb](https://github.com/questdb/questdb) 用于快速摄取和 SQL 查询的开源时间序列数据库。QuestDB 非常适合金融市场数据、物联网传感器数据、应用程序指标、实时仪表板和快速分析。
+
+* [duckdb/duckdb](https://github.com/duckdb/duckdb) 进程内SQL OLAP数据库管理系统，高性能的分析数据库系统。它快速可靠、便携且易于使用。提供了丰富的SQL方言，其支持远远超出了基本的SQL。支持任意和嵌套的相关子查询、窗口函数、排序规则、复杂类型（数组、结构）等。
 
 ## 数据搜索引擎
 
@@ -6465,6 +6505,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [redisson/redisson](https://github.com/redisson/redisson) 具有内存数据网格功能的简易 Redis Java 客户端。Sync/ Async/RxJava/Reactive API.超过50个基于Redis的Java对象和服务：Set，Multimap，SortedSet，Map，List，Queue，Deque，Semaphore，Lock，AtomicLong，Map Reduce，Bloom filter，Spring Cache，Tomcat，Scheduler，JCache API，Hibernate，RPC，本地缓存...
 
+* [sohutv/cachecloud](https://github.com/sohutv/cachecloud) 搜狐视频(sohu tv)Redis私有云平台 ：支持Redis多种架构(Standalone、Sentinel、Cluster)高效管理、有效降低大规模redis运维成本，提升资源管控能力和利用率。平台提供快速搭建/迁移，运维管理，弹性伸缩，统计监控，客户端整合接入等功能。
+
 * [prisma/prisma](https://github.com/prisma/prisma) 下一代 ORM 对象关系映射（Object Relational Mapping，为了解决面向对象与关系数据库存在的互不匹配）for Node.js & TypeScript |PostgreSQL，MySQL，MariaDB，SQL Server，SQLite，MongoDB和CockroachDB
 
 * [sequelize/sequelize](https://github.com/sequelize/sequelize) 功能丰富的ORM（Object Relational Mapping，为了解决面向对象与关系数据库存在的互不匹配），用于现代Node.js和TypeScript，它支持PostgreSQL（支持JSON和JSONB），MySQL，MariaDB，SQLite，MS SQL Server，Snowflake，Oracle DB（v6），DB2和DB2 for IBM i。
@@ -6542,6 +6584,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [earthly/earthly](https://github.com/earthly/earthly) 超级简单的构建框架，具有快速、可重复的构建和即时熟悉的语法——就像 Dockerfile 和 Makefile 生了一个孩子一样。
 
 * [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) Docker 资源和项目的精选列表
+
+* [bottlerocket-os/bottlerocket](https://github.com/bottlerocket-os/bottlerocket) 专为托管容器而设计的操作系统，基于 Linux 的免费开源操作系统，用于托管容器。专注于安全性和可维护性，为基于容器的工作负载提供可靠、一致和安全的平台。
+
+* [linuxkit/linuxkit](https://github.com/linuxkit/linuxkit) 用于为容器构建安全、可移植和精益操作系统的工具包。一个用于构建自定义最小、不可变的 Linux 发行版的工具包。
 
 # 安全与渗透
 
@@ -7613,6 +7659,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) 用于设计和仿真数字逻辑电路的教育软件。 Logisim-evolution是免费、开源和跨平台的。
 
+* [openscopeproject/InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom) 交互式HTML BOM生成插件，适用于KiCad，EasyEDA，Eagle，Fusion360和Allegro PCB设计器
+
 # 其他项目
 
 ## Python
@@ -8082,6 +8130,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 - [dromara/Sa-Token](https://github.com/dromara/Sa-Token) 史上功能最全的Java权限认证框架！目前已集成——登录认证、权限认证、分布式Session会话、微服务网关鉴权、单点登录、OAuth2.0、踢人下线、Redis集成、前后台分离、记住我模式、模拟他人账号、临时身份切换、账号封禁、多账号认证体系、注解式鉴权、路由拦截式鉴权、花式token生成、自动续签、同端互斥登录、会话治理、密码加密、jwt集成、Spring集成、WebFlux集成...
 * [hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer) Java工程师成神之路
+
+* [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) 无需 Docker 守护程序即可为您的 Java 应用构建优化的 Docker 和 OCI 映像，而无需深入了解 Docker 最佳实践。
 
 * [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) 提供了一个开发人员友好的API，可以与Chromium和LibreOffice等强大的工具进行交互，以将多种文档格式（HTML，Markdown，Word，Excel等）转换为PDF文件等等！
 
@@ -8610,6 +8660,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) 令人敬畏的iOS生态系统的精选列表，包括Objective-C和Swift项目。
 
+* [nikitavoloboev/my-mac](https://github.com/nikitavoloboev/my-mac) 我在 macOS 上使用的应用/工具
+
 * [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) 适用于 macOS 的开源应用程序列表很棒。此列表包含许多本机和跨平台应用程序。
+
+* [mikefarah/yq](https://github.com/mikefarah/yq) 可移植的命令行 YAML、JSON、XML、CSV、TOML 和属性处理器
+
+* [symless/synergy-core](https://github.com/symless/synergy-core) Synergy的开源核心，跨平台键盘和鼠标共享工具（Windows，macOS，Linux）
+
+* [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) LaTeX 模板，适用于您出色的工作申请
 
 # end
