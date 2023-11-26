@@ -3111,6 +3111,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [mbasso/awesome-wasm](https://github.com/mbasso/awesome-wasm) 关于 WebAssembly 生态系统的精彩事物的精选列表。
 
+* [javascript-obfuscator/javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) 一款功能强大的免费 JavaScript 混淆器，包含各种功能，可为您的源代码提供保护。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -3456,6 +3458,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [magento/magento2](https://github.com/magento/magento2) Magento开源软件提供基本的电子商务功能，可以从头开始构建独特的在线商店。
 
+* [twbs/bootstrap-sass](https://github.com/twbs/bootstrap-sass) sass 驱动的 Bootstrap 3 版本，可直接放入您的 Sass 驱动的应用程序中。
+
+* [GoogleChrome/web-vitals](https://github.com/GoogleChrome/web-vitals) 健康网站的基本指标。“网页指标”是 Google 推出的一项计划，旨在针对对提供出色 Web 体验至关重要的质量信号提供统一指南。构成核心网页指标的指标会随着时间的推移而不断改进。2020 年的现状侧重于用户体验的三个方面（加载、互动和视觉稳定性）。
+
+* [gohugoio/hugo](https://github.com/gohugoio/hugo) 一个快速灵活的静态站点生成器，由 bep、spf13 和 Go 中的朋友们用爱构建。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3608,6 +3616,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) HTML、JavaScript 和 CSS 资产的集合，可从符合 Swagger 的 API 动态生成精美的文档。允许任何人（无论是您的开发团队还是最终消费者）可视化 API 的资源并与之交互，而无需任何实现逻辑。它是根据 OpenAPI（以前称为 Swagger）规范自动生成的，带有可视化文档，便于后端实现和客户端使用。
 
+* [chentsulin/awesome-graphql](https://github.com/chentsulin/awesome-graphql) GraphQL 的精彩列表。GraphQL 是一种针对 Graph（图状数据）进行查询特别有优势的 Query Language（查询语言）。
+
+* [django/channels](https://github.com/django/channels) 通道增强了 Django，将 WebSocket、长轮询 HTTP、任务卸载和其他异步支持引入到你的代码中，使用熟悉的 Django 设计模式和灵活的底层框架，让你不仅可以自定义行为，还可以为你自己的协议和需求编写支持。
+
+* [wsvincent/awesome-django](https://github.com/wsvincent/awesome-django) 与 Django 相关的精彩事物的精选列表
+
+* [go-micro/go-micro](https://github.com/go-micro/go-micro) Go Micro 提供了分布式系统开发的核心需求，包括 RPC 和事件驱动通信。Go Micro 的理念是理智的默认，采用可插拔架构。我们提供默认值以帮助您快速入门，但所有内容都可以轻松更换。
+
 ## 网络与前后端开发_其他
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
@@ -3649,6 +3665,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) 第一个没有任何类型的用户标识符的消息传递平台 - 设计100%私有！iOS和安卓应用程序发布
 
 * [go-telegram-bot-api/telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) Telegram Bot API 的 Golang 绑定
+
+* [Rapptz/discord.py](https://github.com/Rapptz/discord.py) 用 Python 编写的 Discord 的 API 包装器。
 
 * [LonamiWebs/Telethon](https://github.com/LonamiWebs/Telethon) 纯 Py3 MTProto API Telegram 客户端库，也适用于机器人
 
@@ -3903,6 +3921,24 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) 用于管理Nginx代理主机的Docker容器，具有简单，强大的界面
 
 * [jhy/jsoup](https://github.com/jhy/jsoup) Java HTML 解析器，专为 HTML 编辑、清理、抓取和 XSS 安全而构建。
+
+* [PostHog/posthog](https://github.com/PostHog/posthog) 提供开源产品分析、会话录制、功能标记和 A/B 测试，您可以自行托管。
+
+* [XX-net/XX-Net](https://github.com/XX-net/XX-Net) 绕过 GFW 的代理工具。不去研究墙有什么缺陷，因为所有的缺陷都会被慢慢的补上。  我们的策略是化身为普通流量，完全无法区分，最终隐身在茫茫的网络连接中。
+
+* [txthinking/brook](https://github.com/txthinking/brook)  一个跨平台可编程网络工具.
+
+* [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) 知名 SaaS 产品的开源初创公司替代品的超棒列表
+
+* [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) 一个用于构建代理以绕过网络限制的平台。
+
+* [cyfdecyf/cow](https://github.com/cyfdecyf/cow) 用 Go 编写的 HTTP 代理。COW 可以自动识别被阻止的站点并使用父代理进行访问。
+
+* [buger/goreplay](https://github.com/buger/goreplay) 用于捕获实时 HTTP 流量并将其重放到测试环境中，以便使用真实数据持续测试您的系统。可用于增强对代码部署、配置更改和基础结构更改的信心。
+
+* [postalserver/postal](https://github.com/postalserver/postal) 功能齐全的开源邮件传递平台，用于传入和传出电子邮件
+
+* [gogs/gogs](https://github.com/gogs/gogs) 一个无痛的自托管 Git 服务
 
 ## 区块链
 
@@ -4236,6 +4272,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Coder-Yu/SELFRec](https://github.com/Coder-Yu/SELFRec) 一个用于自我监督推荐 (SSR) 的 Python 框架，它集成了常用的数据集和指标，并实现了许多最先进的 SSR 模型。 SELFRec 具有轻量级架构并提供用户友好的界面。 它可以促进模型的实施和评估。
 
 * [caserec/Datasets-for-Recommender-Systems](https://github.com/caserec/Datasets-for-Recommender-Systems) 一个以主题为中心的高质量推荐系统（RS）公共数据集。
+
+* [zygmuntz/goodbooks-10k](https://github.com/zygmuntz/goodbooks-10k) 包含一万本最受欢迎（评分最多）书籍的 600 万个评分。还有：用户标记为阅读的书籍、书籍元数据（作者、年份等）、标签/货架/流派
 
 # 机器视觉
 
@@ -4943,6 +4981,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade) 一个开源强化学习框架，用于训练，评估和部署强大的交易程序。
 
+* [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) 适用于量化金融的精选库、软件包和资源列表
+
 * [OpenBB-finance/OpenBBTerminal](https://github.com/OpenBB-finance/OpenBBTerminal) 适合每个人、任何地方的投资研究。OpenBB致力于通过专注于每个人都可以访问的开源基础架构来构建投资研究的未来。
 
 * [bsolomon1124/pyfinance](https://github.com/bsolomon1124/pyfinance) 为投资管理和证券收益分析而构建的Python分析包。主要是对面向定量金融的现有包进行补充，如pyfolio和pandas-datareader等。pyfinance包含六个模块，它们分别是：datasets.py ：金融数据下载，基于request进行数据爬虫；general.py：通用财务计算，例如主动份额计算，收益分配近似值和跟踪误差优化；ols.py：回归分析，支持pandas滚动窗口回归；options.py：期权衍生品计算和策略分析；returns.py：通过CAPM框架对财务时间序列进行统计分析，旨在模拟FactSet Research Systems和Zephyr等软件的功能，并提高了速度和灵活性；utils.py：基础架构。
@@ -5101,7 +5141,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [microprediction/timemachines](https://github.com/microprediction/timemachines) 利用流行的python时间序列包的功能，如river，pydlm，tbats，pmdarima，statsmodels.tsa，neuralprophet，Facebook Prophet，Uber的orbit，Facebook的greykitite等。
 
-* [https://github.com/ngruver/llmtime](https://github.com/ngruver/llmtime) 大型语言模型是零样本的时间序列预测器
+* [ngruver/llmtime](https://github.com/ngruver/llmtime) 大型语言模型是零样本的时间序列预测器
 
 # 强化学习 Reinforcement Learning
 
@@ -5113,17 +5153,21 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) Unity 机器学习代理工具包 (ML-Agents) 是一个开源项目，它使游戏和模拟成为使用深度强化学习和模仿学习训练智能代理的环境。
 
-* [opendilab/DI-star](https://github.com/opendilab/DI-star) 星际争霸 II 的人工智能平台，具有大规模分布式训练和大师代理。
+* [opendilab/DI-star](https://github.com/opendilab/DI-star) 星际争霸2的人工智能平台，具有大规模分布式训练和大师代理。
 
 * [Farama-Foundation/D4RL](https://github.com/Farama-Foundation/D4RL) 离线强化学习的开源基准。 它为训练和基准测试算法提供标准化的环境和数据集。
 
-* [astooke/rlpyt](https://github.com/astooke/rlpyt) PyTorch 中常见深度强化学习算法的模块化优化实现，具有统一的基础设施，支持所有三个主要系列的无模型算法：策略梯度、深度 q 学习和 q 函数策略梯度。旨在成为中小型研究的高吞吐量代码库（大规模意味着像OpenAI Dota与100的GPU）。
+* [astooke/rlpyt](https://github.com/astooke/rlpyt) PyTorch中常见深度强化学习算法的模块化优化实现，具有统一的基础设施，支持三个主要系列的算法：策略梯度、深度q学习和q函数策略梯度。旨在成为中小型研究的高吞吐量代码库（大规模意味着像OpenAI Dota与100的GPU）。
 
 * [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning) 强化学习算法的实现。Python，OpenAI Gym，Tensorflow。萨顿的书和大卫·西尔弗的课程的练习和解决方案。
 
-* [keiohta/tf2rl](https://github.com/keiohta/tf2rl) 深度强化学习库，它使用 TensorFlow 2.x 实现各种深度强化学习算法。
+* [keiohta/tf2rl](https://github.com/keiohta/tf2rl) 深度强化学习库，它使用 TF2.x 实现各种深度强化学习算法。
+
+* [ShangtongZhang/reinforcement-learning-an-introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction) Python强化学习的实现
 
 * [rlgraph/rlgraph](https://github.com/rlgraph/rlgraph) 一个框架，用于在研究和实践中快速原型化，定义和执行强化学习算法。RLgraph与大多数其他库不同，因为它可以通过单个组件接口支持TensorFlow（或一般的静态图）或渴望/定义运行执行（PyTorch）。
+
+* [bulletphysics/bullet3](https://github.com/bulletphysics/bullet3) 用于 VR、游戏、视觉效果、机器人、机器学习等的实时碰撞检测和多物理场仿真。
 
 * [deepmind/trfl](https://github.com/deepmind/trfl) 一个建立在TensorFlow之上的库，它公开了几个有用的构建块，用于实现强化学习代理。
 
@@ -5264,6 +5308,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning) 这是一本名为“强化学习的数学基础”的新书的主页。
 
 * [ShangtongZhang/DeepRL](https://github.com/ShangtongZhang/DeepRL) 深度强化学习算法在 PyTorch 中的模块化实现
+
+* [GitHub - seungeunrho/minimalRL: Implementations of basic RL algorithms with minimal lines of codes! (pytorch based)](https://github.com/seungeunrho/minimalRL) 以最少的代码行实现基本RL算法！（基于PyTorch）
 
 # 语音识别与合成
 
@@ -5420,6 +5466,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [bytedance/SALMONN](https://github.com/bytedance/SALMONN) 支持语音、音频事件和音乐输入的大型语言模型（LLM），由清华大学电子工程系和字节跳动开发。SALMONN可以感知和理解各种音频输入，而不是仅语音输入或仅音频事件输入，从而获得新兴功能，例如多语言语音识别和翻译以及音频 - 语音协同推理。
 
 * [ga642381/SpeechGen](https://github.com/ga642381/SpeechGen) 用提示解锁语音语言模型的生成能力，探索了在称为SpeechGen的统一框架内应用提示调谐来刺激语音LM用于各种生成任务，该框架具有大约10M的可训练参数。
+
+* [pndurette/gTTS](https://github.com/pndurette/gTTS) Python 库和 CLI 工具，用于与 Google 翻译的文本转语音 API 交互
 
 ## 语音识别与合成_其他
 
@@ -6499,13 +6547,23 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [redis/redis](https://github.com/redis/redis) 一个内存中数据库，它保留在磁盘上。数据模型是键值，但支持许多不同类型的值：字符串、列表、集合、排序集、哈希、流、Hyper Log Logs、位图。
 
+* [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) Redis和Memcached的现代替代品
+
 * [redis/redis-py](https://github.com/redis/redis-py) redis内存中数据库的python客户端
 
 * [redis/node-redis](https://github.com/redis/node-redis) redis内存中数据库的Node.js客户端
 
+* [redis/ioredis](https://github.com/redis/ioredis) 适用于 Node.js 的强大、注重性能且功能齐全的 Redis 客户端。
+
+* [redis/jedis](https://github.com/redis/jedis) Redis Java 客户端
+
+* [redis/go-redis](https://github.com/redis/go-redis) redis内存中数据库的Go 客户端
+
 * [redisson/redisson](https://github.com/redisson/redisson) 具有内存数据网格功能的简易 Redis Java 客户端。Sync/ Async/RxJava/Reactive API.超过50个基于Redis的Java对象和服务：Set，Multimap，SortedSet，Map，List，Queue，Deque，Semaphore，Lock，AtomicLong，Map Reduce，Bloom filter，Spring Cache，Tomcat，Scheduler，JCache API，Hibernate，RPC，本地缓存...
 
 * [sohutv/cachecloud](https://github.com/sohutv/cachecloud) 搜狐视频(sohu tv)Redis私有云平台 ：支持Redis多种架构(Standalone、Sentinel、Cluster)高效管理、有效降低大规模redis运维成本，提升资源管控能力和利用率。平台提供快速搭建/迁移，运维管理，弹性伸缩，统计监控，客户端整合接入等功能。
+
+* [qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) 更快，更好，更稳定的Redis桌面管理器[GUI客户端]，兼容Linux，Windows，Mac。
 
 * [prisma/prisma](https://github.com/prisma/prisma) 下一代 ORM 对象关系映射（Object Relational Mapping，为了解决面向对象与关系数据库存在的互不匹配）for Node.js & TypeScript |PostgreSQL，MySQL，MariaDB，SQL Server，SQLite，MongoDB和CockroachDB
 
@@ -6526,6 +6584,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [go-gorm/gorm](https://github.com/go-gorm/gorm) Golang的梦幻般的ORM库，旨在对开发人员友好
 
 * [ben-manes/caffeine](https://github.com/ben-manes/caffeine) 适用于 Java 的高性能缓存库，Google Guava 启发的API提供内存缓存。这些改进借鉴了Guava缓存和ConcurrentLinkedHashMap的经验。
+
+* [ipfs/kubo](https://github.com/ipfs/kubo) Kubo是第一个IPFS实现，也是当今使用最广泛的一个。实施星际文件系统 - 用于内容寻址的 Web3 标准，可与 HTTP 互操作。因此，由IPLD的数据模型和用于网络通信的libp2p提供支持。
 
 # 虚拟化
 
@@ -6843,6 +6903,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。
 
+* [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) 精选的恶意软件分析工具和资源列表。
+
 * [awsaaaq/GoBP](https://github.com/awsaaaq/GoBP) 免杀工具 Go语言编写
 
 * [Yihsiwei/GoFileBinder](https://github.com/Yihsiwei/GoFileBinder) golang免杀捆绑器
@@ -6980,6 +7042,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) 为黑客、渗透测试人员和安全研究人员收集的各种很棒的列表
 
 * [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
+
+* [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) 一系列令人敬畏的渗透测试和攻击性网络安全资源。渗透测试是对计算机系统及其物理基础设施发起授权的模拟攻击，以暴露潜在的安全弱点和漏洞的做法。如果发现漏洞，请按照此指南负责任地报告。
 
 * [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) Flipper Zero设备的精彩资源集合。Flipper Zero配备了多种用于黑客的工具。您有用于模拟遥控器的无线电，RFID阅读器，红外收发器，甚至是GPIO引脚。
 
@@ -7417,6 +7481,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer) 字节码查看器 - 轻量级的用户友好型Java / Android字节码查看器，反编译器等。
 
+* [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy) 令人敬畏的隐私 - 尊重您的隐私的精选服务和替代方案列表，因为隐私很重要。
+
+* [k4m4/movies-for-hackers](https://github.com/k4m4/movies-for-hackers) 每个黑客和赛博朋克都必须观看的电影的精选列表。
+
+* [WerWolv/ImHex](https://github.com/WerWolv/ImHex) 一个十六进制编辑器，适用于逆向工程师、程序员和在凌晨 3 点工作时重视视网膜的人。
+
+* [GTFOBins/GTFOBins.github.io](https://github.com/GTFOBins/GTFOBins.github.io) Unix 二进制文件的精选列表，可用于绕过配置错误的系统中的本地安全限制
+
+* [sharkdp/hexyl](https://github.com/sharkdp/hexyl) 命令行十六进制查看器
+
 # 硬件
 
 ## CPU RISC-V
@@ -7693,7 +7767,11 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [microsoft/playwright-python](https://github.com/microsoft/playwright-python) 针对 Python 语言的纯自动化工具，它可以通过单个API自动执行 Chromium，Firefox 和 WebKit 浏览器，连代码都不用写，就能实现自动化功能。
 
+* [leisurelicht/wtfpython-cn](https://github.com/leisurelicht/wtfpython-cn) 收集 Python 中那些难以理解和反人类直觉的例子以及鲜为人知的功能特性, 并尝试讨论这些现象背后真正的原理
+
 * [hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui) 一个针对Python的快速而强大的图形用户界面工具包，具有最小的依赖性
+
+* [sympy/sympy](https://github.com/sympy/sympy) 用纯 Python 编写的计算机代数系统。符号计算系统（顺便说一下，通常也称为计算机代数系统，或简称为 CAS），能够计算带有变量的符号表达式。
 
 * [geekcomputers/Python](https://github.com/geekcomputers/Python) 创建这些小程序作为实验来玩Python，或者为自己解决问题。我很乐意接受其他人的指示，以改进、简化或提高代码效率。
 
@@ -7737,7 +7815,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [kitao/pyxel](https://github.com/kitao/pyxel) Pyxel是Python的复古游戏引擎。由于其受复古游戏机启发的简单规格，例如只能显示 16 种颜色，只能同时播放 4 种声音，您可以随意享受制作像素艺术风格游戏的乐趣。
 
-* [pytest-dev/pytest](https://github.com/pytest-dev/pytest) pytest 框架使编写小型测试变得容易，但可扩展以支持复杂的功能测试
+* [pytest-dev/pytest](https://github.com/pytest-dev/pytest) 使编写小型测试变得容易，但可扩展以支持复杂的功能测试
 
 * [x-hw/amazing-qr](https://github.com/x-hw/amazing-qr) Python中惊人的QRCode生成器（支持动画gif） - Python amazing QR 生成器（支持 gif 动态图片二维码）
 
@@ -7828,6 +7906,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) ANSI C 中的超轻量级 JSON 解析器
 
 * [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) C++ 入门5答案
+
+* [xtaci/algorithms](https://github.com/xtaci/algorithms) C++中的算法和数据结构。
 
 ## Rust 程序设计
 
@@ -8059,6 +8139,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [uber-go/zap](https://github.com/uber-go/zap) 在 Go 中实现超快、结构化、分级的日志记录。
 
+* [unknwon/go-fundamental-programming](https://github.com/unknwon/go-fundamental-programming) 《Go 编程基础》是一套针对 Google 出品的 Go 语言的视频语音教程，主要面向新手级别的学习者。
+
 * [ahmedash95/build-redis-from-scratch](https://github.com/ahmedash95/build-redis-from-scratch) 如何在 Go 中实现内存中数据库（如 Redis ）的文章系列。
 
 * [chai2010/advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) 《Go语言高级编程》图书，涵盖CGO、Go汇编、RPC、Protobuf插件实现、Web框架实现、分布式系统等高阶主题
@@ -8077,6 +8159,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 - [unknwon/go-study-index](https://github.com/unknwon/go-study-index) Go 语言学习资料与社区索引
 
 - [go-shiori/shiori](https://github.com/go-shiori/shiori) 使用 Go 构建的简单书签管理器
+
+- [json-iterator/go](https://github.com/json-iterator/go) 高性能 100% 兼容Go的“encoding/json”直接替代品
+
+- [go-delve/delve](https://github.com/go-delve/delve) Go 编程语言的调试器。
+
+- [talkgo/night](https://github.com/talkgo/night) Go 夜读｜通过 bilibili 在线直播的方式分享 Go 相关的技术话题，每天大家在微信/telegram/Slack 上及时沟通交流编程技术话题。
+
+- [senghoo/golang-design-pattern](https://github.com/senghoo/golang-design-pattern) 设计模式 Go实现－《研磨设计模式》读书笔记
+
+- [unknwon/the-way-to-go_ZH_CN](https://github.com/unknwon/the-way-to-go_ZH_CN) 《The Way to Go》中文译本，中文正式名《Go 入门指南》
 * [johnkerl/miller](https://github.com/johnkerl/miller) Miller 就像 awk、sed、剪切、连接和排序的名称索引数据，如 CSV、TSV 和表格 JSON。
 
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
@@ -8184,9 +8276,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ianstormtaylor/slate](https://github.com/ianstormtaylor/slate) 一个完全可定制的框架，用于构建富文本编辑器。
 
+* [helix-editor/helix](https://github.com/helix-editor/helix) 受 Kakoune / Neovim 启发的编辑器，用 Rust 编写。编辑模型很大程度上基于 Kakoune;在开发过程中，同意Kakoune的大部分设计决策。
+
 * [codex-team/editor.js](https://github.com/codex-team/editor.js) 具有干净 JSON 输出的块式编辑器
 
 * [zyedidia/micro](https://github.com/zyedidia/micro) 现代且直观的基于终端的文本编辑器。旨在通过易于安装和使用成为 nano 编辑器的继承者。
+
+* [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) 适用于 macOS 的 CodeEdit 应用程序 – 提升您的代码编辑体验。开源，永久免费。
 
 * [fastai/nbdev](https://github.com/fastai/nbdev) 编写、测试、记录和分发软件包和技术文章 — 所有这些都在一个地方，您的笔记本上。
 
@@ -8574,7 +8670,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [red/red](https://github.com/red/red) 受 Rebol 强烈启发的下一代编程语言，但由于其本机代码编译器，从系统编程到高级脚本和跨平台反应式 GUI，具有更广泛的使用领域，同时提供对并发的现代支持，所有这些都在一个零安装、配置、 ~1MB 文件中
 
-* [JetBrains/kotlin](https://github.com/JetBrains/kotlin) 它是一种开源的静态类型编程语言，由 JetBrains 和开源贡献者支持和开发。
+* [JetBrains/kotlin](https://github.com/JetBrains/kotlin) 开源的静态类型编程语言，由 JetBrains 和开源贡献者支持和开发。
 
 * [houshanren/hangzhou_house_knowledge](https://github.com/houshanren/hangzhou_house_knowledge) 2017年买房经历总结出来的买房购房知识分享给大家，希望对大家有所帮助。买房不易，且买且珍惜。
 
@@ -8660,6 +8756,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) 令人敬畏的iOS生态系统的精选列表，包括Objective-C和Swift项目。
 
+* [iCHAIT/awesome-macOS](https://github.com/iCHAIT/awesome-macOS) 适用于 macOS 的精彩应用程序、软件、工具和闪亮事物的精选列表。
+
 * [nikitavoloboev/my-mac](https://github.com/nikitavoloboev/my-mac) 我在 macOS 上使用的应用/工具
 
 * [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) 适用于 macOS 的开源应用程序列表很棒。此列表包含许多本机和跨平台应用程序。
@@ -8669,5 +8767,39 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [symless/synergy-core](https://github.com/symless/synergy-core) Synergy的开源核心，跨平台键盘和鼠标共享工具（Windows，macOS，Linux）
 
 * [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) LaTeX 模板，适用于您出色的工作申请
+
+* [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)  很棒的GitHub个人自述文件
+
+* [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) 精选的精彩自述文件列表，精美的自述文件中的元素包括但不限于：图像、屏幕截图、GIF、文本格式等。
+
+* [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) 很棒的 .NET Core、工具、框架软件的集合
+
+* [quozd/awesome-dotnet](https://github.com/quozd/awesome-dotnet) 很棒的 .NET 库、工具、框架和软件的集合。
+
+* [desktop/desktop](https://github.com/desktop/desktop) 开源的基于Electron的GitHub应用程序。它是用TypeScript编写的，并使用React。
+
+* [JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner) 为那些开始学习编程的人编写的技术面试指南。祝你一切顺利。
+
+* [mhinz/vim-galore](https://github.com/mhinz/vim-galore)  Vim 从入门到精通 [Eric Wong / Vim 从入门到精通 · GitLab](https://gitlab.com/wsdjeg/vim-galore-zh_cn)
+
+* [dipakkr/A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students) 当我在大学时，由于缺乏意识，我错过了很多机会，如黑客马拉松、会议、实习、研讨会和许多全球活动。我不希望新兴开发者和我一样受苦。因此，我和周围的其他一些开发人员为学生收集了一份资源清单。如果你在上大学，大学毕业生，或者刚开始做开发人员，你一定要去看看！
+
+* [gztchan/awesome-design](https://github.com/gztchan/awesome-design) 专注于收集高质量的资源和工具，可供UI / UX设计师在日常工作中使用。
+
+* [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) ZSH 框架、插件、主题和教程的集合。
+
+* [markets/awesome-ruby](https://github.com/markets/awesome-ruby) 由社区驱动的分类集合，包含令人敬畏的 Ruby 库、工具、框架和软件。构建现代应用程序和 Web 应用程序的基本 Ruby。
+
+* [gedoor/legado](https://github.com/gedoor/legado) 一款适用于 Android 的免费开源小说阅读器。
+
+* [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) 用于 git 命令的简单终端 UI
+
+* [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) 实现 ACME 客户端协议(使用 ACME 协议来验证您对给定域名的控制权并向您颁发证书。)的纯 Unix shell 脚本
+
+* [zh-google-styleguide/zh-google-styleguide](https://github.com/zh-google-styleguide/zh-google-styleguide) Google 开源项目风格指南 (中文版)
+
+* [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) 使用视觉效果和简单术语解释复杂的系统(通信协议、CI/CD、数据库、缓存、微服务架构、支付系统、DevOps、云服务等)。帮助您准备系统设计面试。
+
+* [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) Protocol Buffers（又名 protobuf）是 Google 用于序列化结构化数据的中立语言、平台中立、可扩展的机制。您可以在 protobuf 的文档中了解更多信息。
 
 # end
