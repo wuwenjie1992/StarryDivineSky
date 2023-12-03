@@ -153,6 +153,8 @@
 
 * [zergtant/pytorch-handbook](https://github.com/zergtant/pytorch-handbook) pytorch handbook是一本开源的书籍，目标是帮助那些希望和使用PyTorch进行深度学习开发和研究的朋友快速入门，其中包含的Pytorch教程全部通过测试保证可以成功运行
 
+* [pytorch/examples](https://github.com/pytorch/examples) 一组关于 pytorch 在视觉、文本、强化学习等方面的示例。
+
 * [ELS-RD/kernl](https://github.com/ELS-RD/kernl/) 第一个使用 OpenAI Triton 编写的 OSS 推理引擎，这是一种由 OpenAI 设计的新语言，可以更轻松地编写 GPU 内核。每个内核不到200行代码，易于理解和修改。
 
 * [BoltzmannEntropy/interviews.ai](https://github.com/BoltzmannEntropy/interviews.ai) 深度学习面试书：数百个完全解决的工作面试问题，来自 AI 的广泛关键主题。
@@ -773,6 +775,8 @@
 * [mljar/mljar-supervised](https://github.com/mljar/mljar-supervised) 用于表格数据 AutoML 的 Python 包，具有特征工程、超参数优化、解释和自动文档
 
 * [kserve/kserve](https://github.com/kserve/kserve) 提供了一个 Kubernetes 自定义资源定义，用于在任意框架上提供机器学习 （ML） 模型。它旨在通过为 Tensorflow、XGBoost、ScikitLearn、PyTorch 和 ONNX 等常见 ML 框架提供高性能、高抽象的接口来解决生产模型服务用例。
+
+* [Kanaries/pygwalker](https://github.com/Kanaries/pygwalker) 将 pandas 数据帧转换为交互式 UI 以进行可视化分析
 
 # NLP自然语言处理
 
@@ -3972,6 +3976,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) 由vue-cli-electron-builder构建的简单而漂亮的图片上传工具
 
+* [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) 悄咪咪收集的1000+个Telegram群合集
+
+* [python-telegram-bot/python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) 为 Telegram Bot API 提供了一个纯 Python 异步接口。
+
+* [DrKLO/Telegram](https://github.com/DrKLO/Telegram) 一款专注于速度和安全性的消息传递应用程序。它超快速、简单且免费。此存储库包含适用于Android的Telegram应用程序的官方源代码。
+
+* [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) 官方Telegram messenger桌面客户端的完整源代码和构建说明，基于Telegram API和MTProto安全协议。
+
+* [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) 在线请求复制工具，也是tcp流重放工具，适用于真实测试，性能测试，稳定性测试，压力测试，负载测试，冒烟测试等
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -4575,6 +4589,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [facebookresearch/Detectron](https://github.com/facebookresearch/Detectron) FAIR用于对象检测研究的研究平台，实现了Mask R-CNN和RetinaNet等流行算法。
 
+* [jolibrain/deepdetect](https://github.com/jolibrain/deepdetect) 用 C++11 编写的机器学习 API 和服务器。使最先进的机器学习易于使用并集成到现有应用程序中。它支持训练和推理，并可通过 TensorRT  和 NCNN （ARM CPU） 自动转换为嵌入式平台。它实现了对图像、文本、时间序列和其他数据的有监督和无监督深度学习的支持，重点是简单易用、测试和连接到现有应用程序。它支持分类、对象检测、分割、回归、自动编码器......
+
 ## 图像风格
 
 * [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
@@ -4611,9 +4627,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) 关于扩散模型的资源和论文集
 
+* [huggingface/diffusers](https://github.com/huggingface/diffusers) 用于在 PyTorch 中生成图像和音频的最先进的扩散模型，用于生成分子的图像、音频甚至 3D 结构。无论您是在寻找简单的推理解决方案还是训练自己的扩散模型，扩散器都是一个支持两者的模块化工具箱。我们的库的设计侧重于可用性而不是性能，简单而不是简单，以及可定制性而不是抽象。扩散器提供三个核心组件：最先进的扩散管道，只需几行代码即可在推理中运行。可互换的噪声调度器，用于不同的扩散速度和输出质量。预训练模型，可用作构建块，并与调度程序结合使用，用于创建您自己的端到端扩散系统。
+
 * [TheRamU/Fay](https://github.com/TheRamU/Fay) Fay是一个完整的开源项目，包含Fay控制器及数字人模型，可灵活组合出不同的应用场景：虚拟主播、现场推销货、商品导购、语音助理、远程语音助理、数字人互动、数字人面试官及心理测评、贾维斯、Her。
 
 * [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini) DALL·E Mini - 从文本提示生成图像
+
+* [lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) 在Pytorch中实现/复制DALL-E，OpenAI的文本到图像转换器
 
 * [ashawkey/stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion) 文本到3D和图像到3D和网格导出与NeRF +扩散。
 
@@ -4963,6 +4983,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [eriklindernoren/PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN) 生成对抗网络的 PyTorch 实现。
 
+* [spmallick/learnopencv](https://github.com/spmallick/learnopencv) 此存储库包含博客 LearnOpenCV.com 上共享的计算机视觉、深度学习和 AI 文章的代码。
+
 # 因果推断
 
 * [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -5079,6 +5101,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [QuantConnect/Lean](https://github.com/QuantConnect/Lean) 开源算法交易引擎，旨在简化策略研究、回测和实时交易。我们与常见的数据提供商和经纪公司集成，因此您可以快速部署算法交易策略。
 
+* [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) 算法交易和量化交易开源平台，用于开发交易机器人（股票市场、外汇、加密货币、比特币和期权）。
+
 ## 时间序列
 
 * [thuml/Autoformer](https://github.com/thuml/Autoformer) 用于长期序列预测的具有自相关性的分解变压器。Autoformer超越了Transformer系列，首次实现了串联。在六个基准上进行实验，涵盖五个主流应用程序。我们将我们的模型与十个基线进行比较，包括 Informer、N-BEATS 等。通常，对于长期预测设置，Autoformer 实现了 SOTA，相对于之前的基线有38% 的相对改进。
@@ -5184,6 +5208,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [microprediction/timemachines](https://github.com/microprediction/timemachines) 利用流行的python时间序列包的功能，如river，pydlm，tbats，pmdarima，statsmodels.tsa，neuralprophet，Facebook Prophet，Uber的orbit，Facebook的greykitite等。
 
 * [ngruver/llmtime](https://github.com/ngruver/llmtime) 大型语言模型是零样本的时间序列预测器
+
+* [rlabbe/Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) 使用 Jupyter Notebook 的 Kalman Filter book。专注于建立直觉和经验，而不是形式证明。包括卡尔曼滤波器、扩展卡尔曼滤波器、无迹卡尔曼滤波器、粒子滤波器等。所有练习都包括解决方案。
 
 # 强化学习 Reinforcement Learning
 
@@ -5351,7 +5377,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ShangtongZhang/DeepRL](https://github.com/ShangtongZhang/DeepRL) 深度强化学习算法在 PyTorch 中的模块化实现
 
-* [GitHub - seungeunrho/minimalRL: Implementations of basic RL algorithms with minimal lines of codes! (pytorch based)](https://github.com/seungeunrho/minimalRL) 以最少的代码行实现基本RL算法！（基于PyTorch）
+* [seungeunrho/minimalRL](https://github.com/seungeunrho/minimalRL) 以最少的代码行实现基本RL算法！（基于PyTorch）
+
+* [andri27-ts/Reinforcement-Learning](https://github.com/andri27-ts/Reinforcement-Learning) 在 60 天内学习深度强化学习！Python的讲座和代码。强化学习 + 深度学习
 
 # 语音识别与合成
 
@@ -5511,6 +5539,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [pndurette/gTTS](https://github.com/pndurette/gTTS) Python 库和 CLI 工具，用于与 Google 翻译的文本转语音 API 交互
 
+* [Rongjiehuang/FastDiff](https://github.com/Rongjiehuang/FastDiff) 用于高质量语音合成的快速条件扩散模型
+
 ## 语音识别与合成_其他
 
 * [TencentGameMate/chinese_speech_pretrain](https://github.com/TencentGameMate/chinese_speech_pretrain) WenetSpeech train_l 集的 1 万小时中文数据作为无监督预训练数据。数据主要来源于 YouTube 和 Podcast，覆盖了各种类型录制场景、背景噪声、说话方式等，其领域主要包括有声书、解说、纪录片、电视剧、访谈、新闻、朗读、演讲、综艺和其他等10大场景。
@@ -5568,6 +5598,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [wenet-e2e/opencpop](https://github.com/wenet-e2e/opencpop) 用于歌声合成的高质量开源中文流行歌曲数据库
 
 * [snakers4/silero-models](https://github.com/snakers4/silero-models) Silero 模型：预先训练的语音转文本、文本转语音和文本增强模型变得简单得令人尴尬.
+
+* [LCAV/pyroomacoustics](https://github.com/LCAV/pyroomacoustics) 用于室内应用音频信号处理的软件包。它是作为室内场景中波束成形算法的快速原型平台开发的。
 
 # 生物医药
 
@@ -6633,6 +6665,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [tendermint/tendermint](https://github.com/tendermint/tendermint) 拜占庭容错 （BFT） 中间件，它采用状态转换机器（用任何编程语言编写）并在许多机器上安全地复制它。
 
+* [lni/dragonboat](https://github.com/lni/dragonboat) Go 中功能完整且高性能的多组 Raft 库。像 Raft 这样的共识算法通过让系统在大多数成员服务器可用时继续运行来提供容错能力。例如，一个 5 台服务器的 Raft 分片，即使有 2 台服务器出现故障，也可以取得进展。在客户看来，它也是一个单一的实体，始终提供强大的数据一致性。所有 Raft 副本都可用于处理聚合读取吞吐量的读取请求。
+
+* [spandanb/learndb-py](https://github.com/spandanb/learndb-py) 通过从头开始实现数据库来学习数据库内部结构。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -7078,6 +7114,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide) 使用 YubiKey 作为智能卡来存储 GPG 加密、签名和身份验证密钥的指南，这些密钥也可用于 SSH。本文档中的许多原则适用于其他智能卡设备。
 
 * [getsops/sops](https://github.com/getsops/sops) 用于管理机密的简单灵活的工具，一个加密文件编辑器，支持 YAML、JSON、ENV、INI 和 BINARY 格式，并使用 AWS KMS、GCP KMS、Azure Key Vault、age 和 PGP 进行加密。
+
+* [google/tink](https://github.com/google/tink) 多语言、跨平台开源库，提供安全、易于正确使用且不滥用的加密 API。
 
 ## 其他_安全与渗透
 
@@ -7791,6 +7829,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [benhoyt/inih](https://github.com/benhoyt/inih) 简单。C 语言的 INI 文件解析器，适用于嵌入式系统
 
+* [beeper/beepy](https://github.com/beeper/beepy) Pi Zero的显示器键盘外设。超低功耗、高对比度、高分辨率、夏普存储液晶显示器。带背光和触摸板的点击式键盘，便于输入和导航。可自定义的键盘映射以满足您的需求。由Pi Zero W（可选）或任何其他兼容的SBC（如Radxa Zero、MQ-Pro）供电，具有薄型无焊接头。
+
 # 其他项目
 
 ## Python
@@ -7810,6 +7850,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [rasbt/python_reference](https://github.com/rasbt/python_reference/) 有用的函数、教程和其他 Python 相关的东西
 
 * [Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) 100 多个具有挑战性的 Python 编程练习
+
+* [yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook) 《Python Cookbook》第三版翻译
 
 * [MTrajK/coding-problems](https://github.com/MTrajK/coding-problems/) 各种编码/算法问题的解决方案以及许多用于学习算法和数据结构的python资源
 
@@ -7890,6 +7932,32 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [python-poetry/poetry](https://github.com/python-poetry/poetry) 帮助您声明、管理和安装 Python 项目的依赖项，确保您在任何地方都有正确的堆栈。
 
 * [google/python-fire](https://github.com/google/python-fire) 用于从任何 Python 对象自动生成命令行界面 （CLI） 的库。
+
+* [pypa/pip](https://github.com/pypa/pip) Python 的包安装程序。可使用 pip 从 Python 包索引和其他索引安装包。
+
+* [jazzband/pip-tools](https://github.com/jazzband/pip-tools) 一组工具，用于使固定的 Python 依赖项保持最新。
+
+* [mitsuhiko/rye](https://github.com/mitsuhiko/rye) Python 的实验性包管理解决方案，Armin 个人一站式商店，可以满足他所有的 Python 需求。它安装和管理 Python 安装、管理文件、安装和卸载依赖项、在后台管理 pyproject.toml  virtualenv。它支持 monorepos 和全局工具安装。
+
+* [pypa/pipenv](https://github.com/pypa/pipenv) Python virtualenv 管理工具，它支持多种系统，并很好地弥合了 pip、python（使用系统 python、pyenv 或 asdf）和 virtualenv 之间的差距。
+
+* [kivy/python-for-android](https://github.com/kivy/python-for-android) 将您的 Python 应用程序变成 Android APK
+
+* [navdeep-G/setup.py](https://github.com/navdeep-G/setup.py) 提供一个示例 setup.py 文件，该文件可用于引导下一个 Py 项目。它包括一些高级模式和最佳实践 setup.py ，以及一些注释掉的好东西。
+
+* [pypa/hatch](https://github.com/pypa/hatch) 现代、可扩展的 Python 项目管理，标准化的构建系统，默认具有可重现的构建、强大的环境管理，支持自定义脚本、可配置的 Python 分发管理、使用合理的默认值进行静态分析、轻松发布到 PyPI 或其他索引、版本管理、最佳实践项目生成、响应式 CLI，比同等工具快 ~2-3 倍
+
+* [pdm-project/pdm](https://github.com/pdm-project/pdm) 支持最新 PEP 标准的现代 Python 包和依赖项管理器
+
+* [cookiecutter/cookiecutter](https://github.com/cookiecutter/cookiecutter) 一个跨平台的命令行实用程序，用于从千篇一律的（项目模板）创建项目，例如 Python 包项目、C 项目。
+
+* [kivy/kivy](https://github.com/kivy/kivy) 用 Python 编写的开源 UI 框架，可在 Windows、Linux、macOS、Android 和 iOS 上运行
+
+* [theskumar/python-dotenv](https://github.com/theskumar/python-dotenv) 从 .env 文件中读取键值对，并将其设置为环境变量。它有助于按照 12 因素原则开发应用程序。
+
+* [tqdm/tqdm](https://github.com/tqdm/tqdm) 适用于 Python 和 CLI 的快速、可扩展的进度条
+
+* [microsoft/pyright](https://github.com/microsoft/pyright) 功能齐全、基于标准的 Python 静态类型检查器。它专为高性能而设计，可与大型 Python 源代码库一起使用。
 
 ## C/C++ 程序设计
 
@@ -8039,6 +8107,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [google/comprehensive-rust](https://github.com/google/comprehensive-rust) 这是 Google Android 团队使用的 Rust 课程。它为您提供了快速教授 Rust 的材料。
 
+* [PyO3/pyo3](https://github.com/PyO3/pyo3) Python 解释器的 Rust 绑定，包括用于创建原生 Python 扩展模块的工具。还支持从 Rust 二进制文件运行和交互 Python 代码。
+
 ## flutter
 
 * [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn) 一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
@@ -8161,6 +8231,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [geekxh/hello-algorithm](https://github.com/geekxh/hello-algorithm) 针对小白的算法训练 | 包括四部分：①.大厂面经 ②.力扣图解 ③.千本开源电子书 ④.百张技术思维导图
 
+* [liuxinyu95/AlgoXY](https://github.com/liuxinyu95/AlgoXY) 介绍了基本函数算法和数据结构，并提供了 120 个练习和答案。
+
 * [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
 
 * [xingshaocheng/architect-awesome](https://github.com/xingshaocheng/architect-awesome) 后端架构师技术图谱
@@ -8245,6 +8317,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 - [inancgumus/learngo](https://github.com/inancgumus/learngo) 1000+ 手工制作的go示例、练习和测验。 通过修复 1000+ 个小程序来学习 Go。
 
 - [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) LeetCode by Go 的解决方案，100% 测试覆盖率，运行时击败 100% / LeetCode 题解
+
+- [traefik/yaegi](https://github.com/traefik/yaegi) 另一位优雅的Go解释器。它为 Go 运行时之上的嵌入式解释器或交互式 shell 中的可执行 Go 脚本和插件提供支持。
 * [johnkerl/miller](https://github.com/johnkerl/miller) Miller 就像 awk、sed、剪切、连接和排序的名称索引数据，如 CSV、TSV 和表格 JSON。
 
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
@@ -8449,6 +8523,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [dedupeio/dedupe](https://github.com/dedupeio/dedupe) 机器学习对结构化数据快速执行模糊匹配、去重和实体解析。
 
 * [lxgr-linux/pokete](https://github.com/lxgr-linux/pokete) 基于终端的口袋妖怪类游戏
+
+* [Grimmys/rpg_tactical_fantasy_game](https://github.com/Grimmys/rpg_tactical_fantasy_game) pygame中的战术回合制游戏项目，开放支持
 
 * [GDQuest/godot-open-rpg](https://github.com/GDQuest/godot-open-rpg/tree/main) 通过这个开源 RPG 演示学习创建回合制战斗游戏
 
@@ -8893,5 +8969,11 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [gotgit/gotgithub](https://github.com/gotgit/gotgithub) 一本关于 GitHub 的开源电子书（中文版）
 
 * [hmemcpy/milewski-ctfp-pdf](https://github.com/hmemcpy/milewski-ctfp-pdf) Bartosz Milewski的“程序员范畴理论”非官方PDF和LaTeX来源。主要讲解了各种各样的范畴概念在编程中的体现和应用，对理解范畴论在计算机领域的应用有非常好的学习价值。
+
+* [ty4z2008/Qix](https://github.com/ty4z2008/Qix) 机器学习、深度学习、PostgreSQL、分布式系统、Node.js、Golang
+
+* [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) 精彩的远程作业和资源的精选列表。3
+
+* [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。
 
 # end
