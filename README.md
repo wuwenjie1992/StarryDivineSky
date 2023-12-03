@@ -1769,6 +1769,8 @@
 
 * [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) 一个开源的 ChatGPT UI。
 
+* [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) 用于大型语言模型的 Gradio Web UI。支持变压器，GPTQ，AWQ，EXL2，llama.cpp（GGUF），Llama模型。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -3117,6 +3119,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [javascript-obfuscator/javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) 一款功能强大的免费 JavaScript 混淆器，包含各种功能，可为您的源代码提供保护。
 
+* [josdejong/mathjs](https://github.com/josdejong/mathjs) JS 和 Node.js 的广泛数学库。具有灵活的表达式解析器，支持符号计算，带有大量内置函数和常量，并提供集成解决方案来处理不同的数据类型，如数字、大数、复数、分数、单位和矩阵。功能强大且易于使用。
+
+* [bytecodealliance/wasmtime](https://github.com/bytecodealliance/wasmtime) 快速安全的 WebAssembly 运行时
+
+* [ds300/patch-package](https://github.com/ds300/patch-package) 立即修复损坏的node模块
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -3151,6 +3159,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) 无头网络的最快前端。用 React 构建现代网站。Gatsby 是基于 React，可帮助开发人员构建速度极快的网站和应用程序。它将动态渲染网站的控制和可扩展性与静态网站生成的速度相结合，创造了一个全新的可能性网络。
 
 * [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) 与 Vue 相关的精彩事物的精选列表
+
+* [vitejs/vite](https://github.com/vitejs/vite) Vite（法语中“快速”的意思，发音 `/vit/` 为“veet”）是一种新型的前端构建工具，可显著改善前端开发体验。主要组成：通过本机 ES 模块提供源文件的开发服务器，具有丰富的内置功能和惊人的快速热模块替换 （HMR）。将代码与 Rollup 捆绑在一起的生成命令，经过预配置，可输出高度优化的静态资产以用于生产环境。
 
 * [vuetifyjs/awesome-vuetify](https://github.com/vuetifyjs/awesome-vuetify) Vuetify 是一个不需要设计技能的 UI 库，其中包含精美的手工制作的 Vue 组件。您将在下面找到一系列应用程序和工具，这些应用程序和工具有助于展示 Vuetify 所提供的最佳功能
 
@@ -3470,6 +3480,86 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) Airbnb，亚马逊，Instagram，Netflix，Tiktok，Spotify，Whatsapp，Youtube等流行网站的100 +开源克隆。查看源代码、演示链接、技术栈、github stars。
 
+* [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) 为前端 Web 开发人员手动策划的资源集合。
+
+* [AR-js-org/AR.js](https://github.com/AR-js-org/AR.js) 用于 Web 增强现实的轻量级库，具有图像跟踪、基于位置的 AR 和标记跟踪等功能。
+
+* [Tencent/vConsole](https://github.com/Tencent/vConsole) 用于移动网页的轻量级、可扩展的前端开发人员工具。
+
+* [atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) 使用 React 对列表进行美观且易于访问的拖放
+
+* [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever) 快速轻松地建立多份精美的简历，并创建您有史以来最好的简历！使用 Vue 和 LESS 制作。
+
+* [airyland/vux](https://github.com/airyland/vux) 基于 Vue 和 WeUI 的移动 UI 组件
+
+* [lenve/vhr](https://github.com/lenve/vhr) 微人事是前后端分离的人力资源管理系统，采用SpringBoot+Vue开发。
+
+* [terser/terser](https://github.com/terser/terser) 适用于 ES6+ 的 JavaScript 解析器、管理器和压缩器工具包
+
+* [postcss/postcss](https://github.com/postcss/postcss) 使用 JS 插件转换样式的工具。这些插件可以对您的 CSS 进行 lint 处理、支持变量和 mixin、转译未来的 CSS 语法、内联图像等等。
+
+* [airbnb/lottie-web](https://github.com/airbnb/lottie-web) 在 Web、Android 和 iOS 上原生渲染 After Effects 动画，以及 React Native。设计师可以创建和发布精美的动画，而无需工程师精心手工重新创建
+
+* [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) 24 节课，12 周，Web 开发人员入门
+
+* [wallabag/wallabag](https://github.com/wallabag/wallabag) 用于保存网页的自托管应用程序：保存和分类文章。稍后阅读。自由。
+
+* [wesbos/JavaScript30](https://github.com/wesbos/JavaScript30) 初学者文件 + JavaScript 30 天挑战的完整解决方案。
+
+* [NervJS/taro](https://github.com/NervJS/taro) 开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。
+
+* [SheetJS/sheetjs](https://github.com/SheetJS/sheetjs) 电子表格数据工具包，用于从几乎任何复杂的电子表格中提取有用的数据，并生成适用于传统和现代软件的表格。
+
+* [mobxjs/mobx](https://github.com/mobxjs/mobx) 简单、可扩展的状态管理。
+
+* [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) 创新的开源可视化应用程序，可将各种数据格式（如 JSON、YAML、XML、CSV 等）转换为交互式图形。
+
+* [troxler/awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks) 很棒的CSS框架列表。
+
+* [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) 一个实用优先的 CSS 框架，用于快速 UI 开发。一个实用程序优先的 CSS 框架，其中包含 `flex` 、 `pt-4` 等 `rotate-90` 类， `text-center` 可以直接在标记中组合以构建任何设计。
+
+* [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) 帮助您提高 CSS 技能的技巧集合。
+
+* [sampotts/plyr](https://github.com/sampotts/plyr) 一个简单的 HTML5、YouTube 和 Vimeo 播放器
+
+* [joshbuchea/HEAD](https://github.com/joshbuchea/HEAD) HTML 元素的简单指南
+
+* [niklasvh/html2canvas](https://github.com/niklasvh/html2canvas) 该脚本允许您直接在用户浏览器上截取网页或其部分的“屏幕截图”。屏幕截图基于 DOM，因此可能不是 100% 准确到真实表示，因为它不会制作实际的屏幕截图，而是根据页面上可用的信息构建屏幕截图。
+
+* [rehooks/awesome-react-hooks](https://github.com/rehooks/awesome-react-hooks) 很棒的 React Hooks 资源。Hook 是 React 团队在 React 16.8 版本中提出的新特性，在遵循函数式组件的前提下，为已知的 React 概念提供了更直接的 API：props，state，context，refs 以及声明周期，目的在于解决常年以来在 class 组件中存在的各种问题，实现更高效的编写 react 组件。
+
+* [antonioru/beautiful-react-hooks](https://github.com/antonioru/beautiful-react-hooks) 一组漂亮且（希望）有用的 React 钩子，以加快您的组件和钩子开发
+
+* [rsuite/rsuite](https://github.com/rsuite/rsuite) 用于企业系统产品的 react 组件库。它是一个经过深思熟虑且对开发人员友好的 UI 框架。
+
+* [Semantic-Org/Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React) 官方的 Semantic-UI-React 集成
+
+* [tremorlabs/tremor](https://github.com/tremorlabs/tremor) 用于快速构建仪表板的 React 库。借助 Tremor，您可以创建简单的模块化组件，轻松构建富有洞察力的仪表板。完全开源，由数据科学家和软件工程师制作，具有设计的最佳点。
+
+* [adobe/react-spectrum](https://github.com/adobe/react-spectrum) 一组库和工具，可帮助您构建自适应、可访问且可靠的用户体验。Adobe 设计系统 Spectrum 的 React 实现。Spectrum 为所有 Adobe 应用程序提供自适应、可访问且具有凝聚力的体验。
+
+* [casesandberg/react-color](https://github.com/casesandberg/react-color) 来自 Sketch、Photoshop、Chrome、Github、Twitter 等的颜色选择器
+
+* [fkhadra/react-toastify](https://github.com/fkhadra/react-toastify) 允许您轻松地向应用程序添加通知
+
+* [react-bootstrap/react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) 使用 React 构建的 Bootstrap 5 组件。
+
+* [xyflow/xyflow](https://github.com/xyflow/xyflow) 反应流 |Svelte Flow - 强大的开源库，用于使用 React或 Svelte构建基于节点的 UI.开箱即用，可无限定制。
+
+* [remix-run/react-router](https://github.com/remix-run/react-router) React JS库的一个轻量级、功能齐全的路由库。React Router 在 React 运行的任何地方运行;在 Web、node.js和 React Native。
+
+* [jaredpalmer/formik](https://github.com/jaredpalmer/formik) 在 React 中构建表单，无需流泪
+
+* [savingrun/WeHalo](https://github.com/savingrun/WeHalo) WeHalo 简约风 的微信小程序版博客
+
+* [wechat-miniprogram/miniprogram-demo](https://github.com/wechat-miniprogram/miniprogram-demo) 微信小程序组件 / API / 云开发示例
+
+* [remaxjs/remax](https://github.com/remaxjs/remax) 使用真正的 React 构建跨平台小程序
+
+* [youzan/vant-weapp](https://github.com/youzan/vant-weapp) 轻量、可靠的小程序 UI 组件库
+
+* [Meituan-Dianping/mpvue](https://github.com/Meituan-Dianping/mpvue) 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3629,6 +3719,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [wsvincent/awesome-django](https://github.com/wsvincent/awesome-django) 与 Django 相关的精彩事物的精选列表
 
 * [go-micro/go-micro](https://github.com/go-micro/go-micro) Go Micro 提供了分布式系统开发的核心需求，包括 RPC 和事件驱动通信。Go Micro 的理念是理智的默认，采用可插拔架构。我们提供默认值以帮助您快速入门，但所有内容都可以轻松更换。
+
+* [Kong/insomnia](https://github.com/Kong/insomnia) 适用于 GraphQL、REST、WebSockets、SSE 和 gRPC 的开源跨平台 API 客户端。使用云、本地和 Git 存储。
+
+* [fastify/fastify](https://github.com/fastify/fastify) 适用于 Node.js 的快速且低开销的 Web 框架
 
 ## 网络与前后端开发_其他
 
@@ -3986,6 +4080,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) 在线请求复制工具，也是tcp流重放工具，适用于真实测试，性能测试，稳定性测试，压力测试，负载测试，冒烟测试等
 
+* [TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket) 100% Java 写的准系统 WebSocket 实现。
+
+* [linlinjava/litemall](https://github.com/linlinjava/litemall) 又一个小商城。litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端
+
+* [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome) 绕过适用于 Chrome 和 Firefox 的付费墙 Web 浏览器扩展程序。
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -4335,6 +4435,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [minivision-ai/photo2cartoon](https://github.com/minivision-ai/photo2cartoon) 人像卡通化探索项目
 
+* [ShiqiYu/libfacedetection](https://github.com/ShiqiYu/libfacedetection) 用于图像中人脸检测的开源库。人脸检测速度可以达到1000FPS。
+
 * [davidsandberg/facenet](https://github.com/davidsandberg/facenet) 使用 TensorFlow 进行人脸识别
 
 * [serengil/deepface](https://github.com/serengil/deepface) 轻量级人脸识别和人脸属性分析（年龄、性别、情感和种族）库
@@ -4422,6 +4524,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [damo/cv_mobilenet_face-2d-keypoints_alignment](https://modelscope.cn/models/damo/cv_mobilenet_face-2d-keypoints_alignment/summary) 106点人脸关键点检测模型，该模型主要用于人脸关键点检测和对齐任务，从包含人脸的图片中检测出人脸框、人脸关键点坐标和人脸姿态角。主要借鉴MobileNetV1和MobileNetV2的思路(如下图)，MobileNetV1速度快，放在浅层用于提取特征图，MobileNetV2速度相对慢但是信息保存好，用于提取深层语义信息，模型参数量少速度快，能良好应用在移动端实时人脸关键点检测场景。
 
 * [open-mmlab/mmpose](https://github.com/open-mmlab/mmpose) OpenMMLab 姿势估计工具箱和基准测试。
+
+* [justadudewhohacks/face-api.js](https://github.com/justadudewhohacks/face-api.js) JavaScript API，用于浏览器中的人脸检测和人脸识别，以及带有 tensorflow 的 nodejs.js
 
 ## 图像恢复
 
@@ -6655,6 +6759,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [mingrammer/diagrams](https://github.com/mingrammer/diagrams) 允许您在 Python 代码中绘制云系统架构。它诞生于在没有任何设计工具的情况下对新的系统架构设计进行原型设计。您还可以描述或可视化现有系统架构。Diagrams目前支持的主要提供商包括： GCP \ Kubernetes \Alibaba Cloud \Oracle Cloud \Azure AWS 等。它还支持 On-Premise 节点、 SaaS 主要 Programming 框架和语言。
 
+* [alibaba/DataX](https://github.com/alibaba/DataX) 阿里云DataWorks数据集成的开源版本。在阿里巴巴集团内被广泛使用的离线数据同步工具/平台。DataX 实现了包括 MySQL、Oracle、OceanBase、SqlServer、Postgre、HDFS、Hive、ADS、HBase、TableStore(OTS)、MaxCompute(ODPS)、Hologres、DRDS, databend 等各种异构数据源之间高效的数据同步功能。
+
 * [PRQL/prql](https://github.com/PRQL/prql) 用于转换数据的现代语言 — 一种简单、强大、流水线式的 SQL 替代品
 
 * [go-gorm/gorm](https://github.com/go-gorm/gorm) Golang的梦幻般的ORM库，旨在对开发人员友好
@@ -6668,6 +6774,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [lni/dragonboat](https://github.com/lni/dragonboat) Go 中功能完整且高性能的多组 Raft 库。像 Raft 这样的共识算法通过让系统在大多数成员服务器可用时继续运行来提供容错能力。例如，一个 5 台服务器的 Raft 分片，即使有 2 台服务器出现故障，也可以取得进展。在客户看来，它也是一个单一的实体，始终提供强大的数据一致性。所有 Raft 副本都可用于处理聚合读取吞吐量的读取请求。
 
 * [spandanb/learndb-py](https://github.com/spandanb/learndb-py) 通过从头开始实现数据库来学习数据库内部结构。
+
+* [dbcli/pgcli](https://github.com/dbcli/pgcli) 具有自动完成和语法突出显示功能的 Postgres CLI
 
 # 虚拟化
 
@@ -6736,6 +6844,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [derailed/k9s](https://github.com/derailed/k9s) Kubernetes CLI 以时尚的方式管理您的集群
 
 * [eip-work/kuboard-press](https://github.com/eip-work/kuboard-press) 基于 Kubernetes 的微服务管理界面。同时提供 Kubernetes 免费中文教程，入门教程，最新版本的 Kubernetes v1.23.4 安装手册，(k8s install) 在线答疑，持续更新。
+
+* [qemu/qemu](https://github.com/qemu/qemu) QEMU是一个通用的开源机器和用户空间模拟器和虚拟器。QEMU 能够在软件中模拟完整的机器，而无需硬件虚拟化支持。通过使用动态平移，它实现了非常好的性能。QEMU 还可以与 Xen 和 KVM 虚拟机管理程序集成，以提供模拟硬件，同时允许虚拟机管理程序管理 CPU。借助虚拟机管理程序支持，QEMU 可以实现接近本机的 CPU 性能。当QEMU直接模拟CPU时，它能够在另一台机器（例如x86_64 PC板）上运行为一台机器（例如ARMv7板）制作的操作系统。
 
 # 安全与渗透
 
@@ -6908,6 +7018,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler) 适用于 AWS、Azure 和 GCP 的开源安全工具，用于执行云安全最佳实践评估、审计、事件响应、合规性、持续监控、强化和取证准备。包括 CIS、NIST 800、NIST CSF、CISA、FedRAMP、PCI-DSS、GDPR、HIPAA、FFIEC、SOC2、GXP、Well-Architected Security、ENS 等。
 
 * [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) Zed 攻击代理 （ZAP） 是世界上最受欢迎的免费安全工具之一，由专门的国际志愿者团队积极维护。它可以帮助您在开发和测试应用程序时自动查找 Web 应用程序中的安全漏洞。对于有经验的渗透测试人员来说，它也是一个很好的工具，可以用于手动安全测试。
+
+* [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch) 目录搜索 - Web 路径发现，高级网络路径暴力破解程序
 
 ## web shell、shellcode
 
@@ -7959,6 +8071,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [microsoft/pyright](https://github.com/microsoft/pyright) 功能齐全、基于标准的 Python 静态类型检查器。它专为高性能而设计，可与大型 Python 源代码库一起使用。
 
+* [PySimpleGUI/PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI) 轻松创建复杂的窗口。支持tkinter，Qt，WxPython，Remi（在浏览器中）。使用全套小部件轻松创建 GUI 应用程序。多窗口应用程序也很简单。支持 3.4 至 3.11。325+ 演示程序和食谱，用于快速入门。广泛的文档
+
 ## C/C++ 程序设计
 
 * [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
@@ -8040,6 +8154,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) C++ 入门5答案
 
 * [xtaci/algorithms](https://github.com/xtaci/algorithms) C++中的算法和数据结构。
+
+* [facebook/infer](https://github.com/facebook/infer) 适用于 Java、C、C++ 和 Objective-C 的静态分析器
 
 ## Rust 程序设计
 
@@ -8364,6 +8480,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 - [AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily) 【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。
 
+- [ReactiveX/RxJava](https://github.com/ReactiveX/RxJava) JVM 的反应式扩展 – 一个库，用于使用 Java VM 的可观察序列编写异步和基于事件的程序。
+
 - [DuGuQiuBai/Java](https://github.com/DuGuQiuBai/Java) 27天成为Java大神
 
 - [CodingDocs/awesome-java](https://github.com/CodingDocs/awesome-java) Github上令人敬畏的Java项目集合（非常棒的 Java 开源项目集合）。
@@ -8372,6 +8490,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 - [dromara/Sa-Token](https://github.com/dromara/Sa-Token) 史上功能最全的Java权限认证框架！目前已集成——登录认证、权限认证、分布式Session会话、微服务网关鉴权、单点登录、OAuth2.0、踢人下线、Redis集成、前后台分离、记住我模式、模拟他人账号、临时身份切换、账号封禁、多账号认证体系、注解式鉴权、路由拦截式鉴权、花式token生成、自动续签、同端互斥登录、会话治理、密码加密、jwt集成、Spring集成、WebFlux集成...
 * [hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer) Java工程师成神之路
+
+* [dromara/hutool](https://github.com/dromara/hutool) 功能丰富且易用的Java工具库，通过诸多实用工具类的使用，旨在帮助开发者快速、便捷地完成各类开发任务。 这些封装的工具涵盖了字符串、数字、集合、编码、日期、文件、IO、加密、数据库JDBC、JSON、HTTP客户端等一系列操作， 可以满足各种不同的开发需求。
 
 * [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) 无需 Docker 守护程序即可为您的 Java 应用构建优化的 Docker 和 OCI 映像，而无需深入了解 Docker 最佳实践。
 
@@ -8417,6 +8537,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [outline/outline](https://github.com/outline/outline) 成长团队最快的知识库。美观、实时协作、功能丰富且兼容降价。
 
 * [microsoft/vscode](https://github.com/microsoft/vscode) 微软开源的程序开发工具和编辑器
+
+* [ajaxorg/ace](https://github.com/ajaxorg/ace) 用JS编写的独立代码编辑器。我们的目标是创建一个基于浏览器的编辑器，以匹配和扩展现有本机编辑器（如TextMate，Vim或Eclipse）的功能，可用性和性能。它可以很容易地嵌入到任何网页或JavaScript应用程序中。Ace是作为Cloud9 IDE的主要编辑器和Mozilla Skywriter（Bespin）项目的继任者开发的。
 
 * [VSCodium/vscodium](https://github.com/VSCodium/vscodium) 没有微软品牌/遥测/许可的vscode代码二进制版本
 
@@ -8469,6 +8591,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) 互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。
 
 * [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) 用 Java 实现的设计模式
+
+* [lingcoder/OnJava8](https://github.com/lingcoder/OnJava8) 《On Java 8》中文版
+
+* [alibaba/arthas](https://github.com/alibaba/arthas) 阿里巴巴开源的 Java 诊断工具。允许开发人员解决Java应用程序的生产问题，而无需修改代码或重新启动服务器。
 
 * [modichirag/flowpm](https://github.com/modichirag/flowpm) TensorFlow中的粒子网格模拟N体宇宙学模拟
 
@@ -8820,6 +8946,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [mvdan/sh](https://github.com/mvdan/sh) Go写的具有 bash 支持的 shell 解析器、格式化程序和解释器;包括 SHFMT。SHELL分析器、格式化程序和解释器。支持 POSIX Shell、Bash 和 mksh。需要 Go 1.19 或更高版本。
 
+* [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) 超过 250 种 iTerm/iTerm2 的终端配色方案/主题。包括终端，Konsole，PuTTY，Xresources，XRDB，Remmina，Termite，XFCE，Tilda，FreeBSD VT，Terminator，Kitty，MobaXterm，LXTerminal，Microsoft的Windows终端，Visual Studio，Alacritty的端口
+
 * [red/red](https://github.com/red/red) 受 Rebol 强烈启发的下一代编程语言，但由于其本机代码编译器，从系统编程到高级脚本和跨平台反应式 GUI，具有更广泛的使用领域，同时提供对并发的现代支持，所有这些都在一个零安装、配置、 ~1MB 文件中
 
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) 开源的静态类型编程语言，由 JetBrains 和开源贡献者支持和开发。
@@ -8835,6 +8963,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [LibreOffice/core](https://github.com/LibreOffice/core) 只读 LibreOffice 核心存储库
 
 * [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) Zsh的主题。强调速度、灵活性和开箱即用的体验。
+
+* [zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) shell zsh 提供语法高亮显示。它允许在 zsh 提示符下将命令键入到交互式终端中时突出显示命令。这有助于在运行命令之前查看命令，尤其是在捕获语法错误时。
 
 * [dwmkerr/hacker-laws](https://github.com/dwmkerr/hacker-laws) 开发人员会发现有用的定律，理论，原则和模式。
 
@@ -8975,5 +9105,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) 精彩的远程作业和资源的精选列表。3
 
 * [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。
+
+* [reactos/reactos](https://github.com/reactos/reactos) 一个免费的Windows兼容操作系统，旨在开发一个高质量的操作系统，该操作系统与为Microsoft® Windows™ NT系列操作系统（NT4,2000，XP，2003，Vista，7）编写的应用程序和驱动程序兼容。
+
+* [0xAX/linux-insides](https://github.com/0xAX/linux-insides) 关于 linux 内核的一点点，目标很简单 - 分享我对 linux 内核内部的适度知识，并帮助对 linux 内核内部和其他低级主题感兴趣的人。
+
+* [shelljs/shelljs](https://github.com/shelljs/shelljs) Node.js 的可移植 Unix shell 命令
+
+* [HaxeFoundation/haxe](https://github.com/HaxeFoundation/haxe) 可让您轻松构建面向许多主流平台的跨平台工具和应用程序。Haxe 工具包包括：Haxe 编程语言，一种现代、高级、严格类型的编程语言、Haxe 交叉编译器，适用于许多目标的最先进的闪电般的编译器、Haxe 标准库，一个完整的跨平台通用功能库
 
 # end
