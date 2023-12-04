@@ -418,6 +418,10 @@
 
 * [jeffgerickson/algorithms](https://github.com/jeffgerickson/algorithms) 杰夫·埃里克森的算法书、笔记等。杰夫·埃里克森（Jeff Erickson）是伊利诺伊大学厄巴纳-香槟分校的计算机科学教授;这本书基于他自 1998 年以来在那里教授的算法课程。
 
+* [virgili0/Virgilio](https://github.com/virgili0/Virgilio) 开源计划，旨在指导和指导数据科学领域的任何人。我们的愿景是让每个人都有机会参与这个领域，从实践者开始，获得新技能，并学会在无限的资源网络中导航，并找到对您有用的资源。
+
+* [louisfb01/start-machine-learning](https://github.com/louisfb01/start-machine-learning) 机器学习 （ML）、人工智能 （AI） 的完整指南，无需任何该领域背景，并随时了解最新消息和最先进的技术！
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -3560,6 +3564,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Meituan-Dianping/mpvue](https://github.com/Meituan-Dianping/mpvue) 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系。
 
+* [apptension/developer-handbook](https://github.com/apptension/developer-handbook) 关于如何成为专业的 Web/移动应用程序开发人员的自以为是的指南。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4085,6 +4091,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [linlinjava/litemall](https://github.com/linlinjava/litemall) 又一个小商城。litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端
 
 * [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome) 绕过适用于 Chrome 和 Firefox 的付费墙 Web 浏览器扩展程序。
+
+* [InstaPy/InstaPy](https://github.com/InstaPy/InstaPy) 自动执行社交媒体交互以“耕种”Instagram 上的点赞、评论和关注者的工具 使用 Selenium 模块在 Python 中实现。
+
+* [tiangolo/uwsgi-nginx-flask-docker](https://github.com/tiangolo/uwsgi-nginx-flask-docker) 带有uWSGI和Nginx的Docker镜像，用于在单个容器中运行的Python中的Flask应用程序。（可选）使用 Alpine Linux。
 
 ## 区块链
 
@@ -4695,6 +4705,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [jolibrain/deepdetect](https://github.com/jolibrain/deepdetect) 用 C++11 编写的机器学习 API 和服务器。使最先进的机器学习易于使用并集成到现有应用程序中。它支持训练和推理，并可通过 TensorRT  和 NCNN （ARM CPU） 自动转换为嵌入式平台。它实现了对图像、文本、时间序列和其他数据的有监督和无监督深度学习的支持，重点是简单易用、测试和连接到现有应用程序。它支持分类、对象检测、分割、回归、自动编码器......
 
+* [jacobgil/pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) 计算机视觉的高级 AI 可解释性。支持 CNN、视觉变压器、分类、对象检测、分割、图像相似性等。
+
 ## 图像风格
 
 * [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
@@ -5088,6 +5100,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [eriklindernoren/PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN) 生成对抗网络的 PyTorch 实现。
 
 * [spmallick/learnopencv](https://github.com/spmallick/learnopencv) 此存储库包含博客 LearnOpenCV.com 上共享的计算机视觉、深度学习和 AI 文章的代码。
+
+* [facebookresearch/dino](https://github.com/facebookresearch/dino) 使用PyTorch的自监督学习进行视觉转换器训练的代码
+
+* [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) 在没有监督的情况下学习强大的视觉特征，DINOv2 模型可产生高性能的视觉特征，这些特征可以直接与分类器一起使用，就像在各种计算机视觉任务中执行线性层一样简单;这些视觉功能非常强大，并且在各个领域中表现良好，无需任何微调。这些模型在包含 142 M 张图像的数据集上进行了预训练，没有使用任何标签或注释。
 
 # 因果推断
 
@@ -5561,6 +5577,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [SevaSk/ecoute](https://github.com/SevaSk/ecoute) 一种实时转录工具，可在文本框中为用户的麦克风输入（您）和用户的扬声器输出（扬声器）提供实时脚本。它还使用 OpenAI 的 GPT-3.5 生成建议的响应，供用户根据对话的实时转录说出来。
 
+* [sooftware/conformer](https://github.com/sooftware/conformer)  Conformer 的 PyTorch 实现：用于语音识别的卷积增强转换器。Transformer 擅长捕捉基于内容的全局交互，而 CNN 则有效地利用了局部特征。Conformer 将CNN和Transformer结合，以参数高效的方式对音频序列的局部和全局依赖关系进行建模。性能明显优于以前的基于 Transformer 和 CNN 的模型。
+
 ## 语音合成
 
 * [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
@@ -5704,6 +5722,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [snakers4/silero-models](https://github.com/snakers4/silero-models) Silero 模型：预先训练的语音转文本、文本转语音和文本增强模型变得简单得令人尴尬.
 
 * [LCAV/pyroomacoustics](https://github.com/LCAV/pyroomacoustics) 用于室内应用音频信号处理的软件包。它是作为室内场景中波束成形算法的快速原型平台开发的。
+
+* [asteroid-team/asteroid](https://github.com/asteroid-team/asteroid) 面向研究人员的基于 PyTorch 的音频源分离工具包
+
+* [boy1dr/SpleeterGui](https://github.com/boy1dr/SpleeterGui) 适用于 Spleeter 的 Windows 桌面前端 - AI音乐源分离
+
+* [krantiparida/awesome-audio-visual](https://github.com/krantiparida/awesome-audio-visual) 视听处理领域的不同论文和数据集的精选列表
+
+* [Rikorose/DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) 用于全频带音频 （48kHz） 的低复杂度语音增强框架，用于深度滤波。
 
 # 生物医药
 
@@ -8073,6 +8099,24 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [PySimpleGUI/PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI) 轻松创建复杂的窗口。支持tkinter，Qt，WxPython，Remi（在浏览器中）。使用全套小部件轻松创建 GUI 应用程序。多窗口应用程序也很简单。支持 3.4 至 3.11。325+ 演示程序和食谱，用于快速入门。广泛的文档
 
+* [cool-RR/PySnooper](https://github.com/cool-RR/PySnooper) 一个穷人的调试器。如果你使用过 Bash，它就像 Python 一样 set -x ，只是它更高级。
+
+* [pyscript/pyscript](https://github.com/pyscript/pyscript) 一个框架，允许用户使用 HTML 的界面和 Pyodide、MicroPython 和 WASM 以及现代 Web 技术的强大功能在浏览器中创建丰富的 Python 应用程序。
+
+* [xianhu/LearnPython](https://github.com/xianhu/LearnPython) 以撸代码的形式学习Python
+
+* [psf/requests](https://github.com/psf/requests) 一个简单而优雅的 HTTP 库。
+
+* [huangsam/ultimate-python](https://github.com/huangsam/ultimate-python) 适合新手和专业人士的终极 Python 学习指南。
+
+* [pamoroso/free-python-books](https://github.com/pamoroso/free-python-books) Python 书籍可免费在线阅读或下载.
+
+* [junnplus/awesome-python-books](https://github.com/junnplus/awesome-python-books) Python 书籍目录
+
+* [xxg1413/python](https://github.com/xxg1413/python) Python 书籍和课程
+
+* [thonny/thonny](https://github.com/thonny/thonny) 面向初学者的 Python IDE
+
 ## C/C++ 程序设计
 
 * [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
@@ -9113,5 +9157,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [shelljs/shelljs](https://github.com/shelljs/shelljs) Node.js 的可移植 Unix shell 命令
 
 * [HaxeFoundation/haxe](https://github.com/HaxeFoundation/haxe) 可让您轻松构建面向许多主流平台的跨平台工具和应用程序。Haxe 工具包包括：Haxe 编程语言，一种现代、高级、严格类型的编程语言、Haxe 交叉编译器，适用于许多目标的最先进的闪电般的编译器、Haxe 标准库，一个完整的跨平台通用功能库
+
+* [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn) 从github 各类 awesome list 通过爬虫聚合而来
 
 # end
