@@ -422,6 +422,10 @@
 
 * [louisfb01/start-machine-learning](https://github.com/louisfb01/start-machine-learning) 机器学习 （ML）、人工智能 （AI） 的完整指南，无需任何该领域背景，并随时了解最新消息和最先进的技术！
 
+* [scipy/scipy](https://github.com/scipy/scipy) SciPy（发音为“Sigh Pie”）是一款用于数学、科学和工程的开源软件。它包括用于统计、优化、积分、线性代数、傅里叶变换、信号和图像处理、常微分方程求解器等模块。
+
+* [numpy/numpy](https://github.com/numpy/numpy) 使用 Python 进行科学计算的基础包。它提供：一个强大的 N 维数组对象、复杂的（广播）功能、用于集成 C/C++ 和 Fortran 代码的工具、有用的线性代数、傅里叶变换和随机数功能。
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -781,6 +785,10 @@
 * [kserve/kserve](https://github.com/kserve/kserve) 提供了一个 Kubernetes 自定义资源定义，用于在任意框架上提供机器学习 （ML） 模型。它旨在通过为 Tensorflow、XGBoost、ScikitLearn、PyTorch 和 ONNX 等常见 ML 框架提供高性能、高抽象的接口来解决生产模型服务用例。
 
 * [Kanaries/pygwalker](https://github.com/Kanaries/pygwalker) 将 pandas 数据帧转换为交互式 UI 以进行可视化分析
+
+* [mars-project/mars](https://github.com/mars-project/mars) 基于张量的统一框架，用于大规模数据计算，可扩展numpy，pandas，scikit-learn和Python函数。
+
+* [CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) 又名“黑客的贝叶斯方法”：介绍贝叶斯方法+概率编程，以计算/理解为先，数学为第二的观点。一切都在纯python
 
 # NLP自然语言处理
 
@@ -3730,6 +3738,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [fastify/fastify](https://github.com/fastify/fastify) 适用于 Node.js 的快速且低开销的 Web 框架
 
+* [whyour/qinglong](https://github.com/whyour/qinglong) 支持Python3、JS、Shell、Typescript 的定时任务管理平台
+
+* [matrix-org/synapse](https://github.com/matrix-org/synapse) 由 Matrix.org Foundation 编写和维护的开源 Matrix 家庭服务器。Synapse 和 Matrix 协议本身的开发今天仍在继续。简而言之，Matrix 是互联网通信的开放标准，支持联盟、加密和 VoIP。
+
+* [aws/chalice](https://github.com/aws/chalice) 用于在 python 中编写无服务器应用程序的框架。它允许您快速创建和部署使用 AWS Lambda 的应用程序。
+
+* [serverless/serverless](https://github.com/serverless/serverless) 无服务器框架 – 使用 AWS Lambda、Azure Functions、Google CloudFunctions 等，使用无服务器架构构建 Web、移动和 IoT 应用程序
+
+* [sst/sst](https://github.com/sst/sst) 在 AWS 上构建现代全栈应用程序。
+
+* [pulumi/pulumi](https://github.com/pulumi/pulumi) 只需用您喜欢的语言编写代码，Pulumi 就会使用基础设施即代码方法在 AWS、Azure、Google Cloud Platform、Kubernetes 和 120+ 提供商上自动预置和管理您的资源。跳过 YAML，使用你已经熟悉和喜爱的标准语言功能，如循环、函数、类和包管理。
+
 ## 网络与前后端开发_其他
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
@@ -4095,6 +4115,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [InstaPy/InstaPy](https://github.com/InstaPy/InstaPy) 自动执行社交媒体交互以“耕种”Instagram 上的点赞、评论和关注者的工具 使用 Selenium 模块在 Python 中实现。
 
 * [tiangolo/uwsgi-nginx-flask-docker](https://github.com/tiangolo/uwsgi-nginx-flask-docker) 带有uWSGI和Nginx的Docker镜像，用于在单个容器中运行的Python中的Flask应用程序。（可选）使用 Alpine Linux。
+
+* [psf/requests-html](https://github.com/psf/requests-html) 使解析 HTML（例如抓取 Web）尽可能简单直观
+
+* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers)  一些非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
+
+* [fortra/impacket](https://github.com/fortra/impacket) 用于处理网络协议的 Python 类的集合。专注于提供对数据包的低级编程访问，对于某些协议（例如 SMB1-3 和 MSRPC），协议实现本身。数据包可以从头开始构建，也可以从原始数据中解析，面向对象的 API 使使用协议的深层层次结构变得简单。该库提供了一组工具作为示例。
+
+* [encode/httpx](https://github.com/encode/httpx) 用于 Python 3 的全功能 HTTP 客户端库。它包括一个集成的命令行客户端，支持 HTTP/1.1 和 HTTP/2，并提供同步和异步 API。
 
 ## 区块链
 
@@ -4558,6 +4586,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [nagadomi/waifu2x](https://github.com/nagadomi/waifu2x) 动漫风格艺术的图像超分辨率
 
 * [andreas128/RePaint](https://github.com/andreas128/RePaint) 官方 PyTorch 代码和“重绘：使用去噪扩散概率模型进行修复”模型，CVPR 2022
+
+* [AaronFeng753/Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) 视频、图像和GIF放大/放大（超分辨率）和视频帧插值。通过 Waifu2x、Real-ESRGAN、Real-CUGAN、RTX Video Super Resolution VSR、SRMD、RealSR、Anime4K、RIFE、IFRNet、CAIN、DAIN 和 ACNet 实现。
 
 ## 光学字符识别OCR
 
@@ -5104,6 +5134,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [facebookresearch/dino](https://github.com/facebookresearch/dino) 使用PyTorch的自监督学习进行视觉转换器训练的代码
 
 * [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) 在没有监督的情况下学习强大的视觉特征，DINOv2 模型可产生高性能的视觉特征，这些特征可以直接与分类器一起使用，就像在各种计算机视觉任务中执行线性层一样简单;这些视觉功能非常强大，并且在各个领域中表现良好，无需任何微调。这些模型在包含 142 M 张图像的数据集上进行了预训练，没有使用任何标签或注释。
+
+* [python-pillow/Pillow](https://github.com/python-pillow/Pillow) Jeffrey A. Clark （Alex） 和贡献者推出的友好 PIL 叉。PIL 是 Fredrik Lundh 和贡献者开发的 Python 图像库。
+
+* [Zulko/moviepy](https://github.com/Zulko/moviepy) 用于视频编辑的 Python 库：剪切、串联、标题插入、视频合成（又名非线性编辑）、视频处理和创建自定义效果。可以读取和写入所有最常见的音频和视频格式，包括 GIF，并使用 Python 3.6+ 在 Windows/Mac/Linux 上运行。
 
 # 因果推断
 
@@ -6803,6 +6837,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [dbcli/pgcli](https://github.com/dbcli/pgcli) 具有自动完成和语法突出显示功能的 Postgres CLI
 
+* [tiangolo/sqlmodel](https://github.com/tiangolo/sqlmodel) Python 中的 SQL 数据库，旨在实现简单性、兼容性和稳健性。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -6872,6 +6908,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [eip-work/kuboard-press](https://github.com/eip-work/kuboard-press) 基于 Kubernetes 的微服务管理界面。同时提供 Kubernetes 免费中文教程，入门教程，最新版本的 Kubernetes v1.23.4 安装手册，(k8s install) 在线答疑，持续更新。
 
 * [qemu/qemu](https://github.com/qemu/qemu) QEMU是一个通用的开源机器和用户空间模拟器和虚拟器。QEMU 能够在软件中模拟完整的机器，而无需硬件虚拟化支持。通过使用动态平移，它实现了非常好的性能。QEMU 还可以与 Xen 和 KVM 虚拟机管理程序集成，以提供模拟硬件，同时允许虚拟机管理程序管理 CPU。借助虚拟机管理程序支持，QEMU 可以实现接近本机的 CPU 性能。当QEMU直接模拟CPU时，它能够在另一台机器（例如x86_64 PC板）上运行为一台机器（例如ARMv7板）制作的操作系统。
+
+* [kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray) 部署生产就绪的 Kubernetes 集群
+
+* [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) 精选的 Kubernetes 源代码列表
 
 # 安全与渗透
 
@@ -7160,6 +7200,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) 适用于 Windows 的开源用户模式调试器。针对逆向工程和恶意软件分析进行了优化。
 
 * [capstone-engine/capstone](https://github.com/capstone-engine/capstone) 用于ARM，ARM64（ARMv8），BPF，Ethereum VM，M68K，M680X，Mips，MOS65XX，PPC，RISC-V（rv32G / rv64G），SH，Sparc，SystemZ，TMS320C64X，TriCore，Webassembly，XCore和X86的Capstone反汇编/反汇编器框架。
+
+* [cyrus-and/gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard) GDB 仪表板是使用 Python API 编写的独立 .gdbinit 文件，它支持模块化界面，显示有关正在调试的程序的相关信息。其主要目标是减少检查当前程序状态所需的 GDB 命令数量，从而使开发人员能够主要关注控制流。
 
 ## 漏洞库、漏洞靶场
 
@@ -8116,6 +8158,44 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [xxg1413/python](https://github.com/xxg1413/python) Python 书籍和课程
 
 * [thonny/thonny](https://github.com/thonny/thonny) 面向初学者的 Python IDE
+
+* [plotly/plotly.py](https://github.com/plotly/plotly.py) Py的交互式图形库 这个项目现在包括 Plotly Express
+
+* [pyecharts/pyecharts](https://github.com/pyecharts/pyecharts) Py的数据可视化库。Apache ECharts 是由百度开源的数据可视化，凭借着良好的交互性，精巧的图表设计，得到了众多的认可。
+
+* [mwaskom/seaborn](https://github.com/mwaskom/seaborn) 基于 matplotlib 的 Python 可视化库。它提供了一个高级界面，用于绘制有吸引力的统计图形。
+
+* [bokeh/bokeh](https://github.com/bokeh/bokeh) 用于现代 Web 浏览器的交互式可视化库。它提供了优雅、简洁的多功能图形结构，并在大型或流式数据集中提供了高性能的交互性。散景可以帮助任何想要快速轻松地创建交互式绘图、仪表板和数据应用程序的人。
+
+* [google/yapf](https://github.com/google/yapf) 基于clang-format（由 Daniel Jasper 开发）的 Py 格式化程序。该算法获取代码并计算符合配置样式的最佳格式。它消除了维护代码的很多苦差事。
+
+* [getpelican/pelican](https://github.com/getpelican/pelican) 支持 Markdown 和 reST 语法的静态站点生成器。
+
+* [pyinstaller/pyinstaller](https://github.com/pyinstaller/pyinstaller)  将 Python 应用程序及其所有依赖项捆绑到一个包中。用户可以在不安装 Python 解释器或任何模块的情况下运行打包的应用。
+
+* [marceloprates/prettymaps](https://github.com/marceloprates/prettymaps) 一小组Python函数，用于从OpenStreetMap数据中绘制漂亮的地图。基于 osmnx、matplotlib 和 shapely 库。
+
+* [dabeaz-course/python-mastery](https://github.com/dabeaz-course/python-mastery) 以练习为导向的高级 Python 编程课程，十多年来在企业培训巡回赛中经过了数百次的实战测试。作者：David Beazley，他是 Python Cookbook， 3rd Edition （O'Reilly） 和 Python Distilled （Addison-Wesley） 的作者。在知识共享许可下发布。
+
+* [gto76/python-cheatsheet](https://github.com/gto76/python-cheatsheet) 全面的python备忘单
+
+* [donnemartin/interactive-coding-challenges](https://github.com/donnemartin/interactive-coding-challenges) 120+ 交互式 Python 编码面试挑战（算法和数据结构）。包括 Anki 抽认卡。
+
+* [norvig/pytudes](https://github.com/norvig/pytudes) Python程序，通常很短，难度相当大，以完善特定的技能。
+
+* [walter201230/Python](https://github.com/walter201230/Python) 最良心的 Python 教程
+
+* [python/mypy](https://github.com/python/mypy) Python 的静态类型检查器。类型检查器有助于确保在代码中正确使用变量和函数。使用 mypy，将类型提示 （PEP 484） 添加到您的 Python 程序中，当您错误地使用这些类型时，mypy 会警告您。Python 是一种动态语言，因此通常只有在尝试运行它时才会在代码中看到错误。Mypy 是一个静态检查器，因此它甚至可以在不运行程序的情况下发现程序中的错误！
+
+* [pydantic/pydantic](https://github.com/pydantic/pydantic) 使用 Python 类型提示进行数据验证。Pydantic 快速且可扩展，可以很好地与您的 linters/IDE/大脑配合使用。定义数据在纯规范 Python 3.8+ 中应该如何存在;使用 Pydantic 验证它。
+
+* [ipython/ipython](https://github.com/ipython/ipython) IPython 本身的官方存储库。IPython 组织中的其他存储库包含网站、文档构建等内容。IPython （Interactive Python） 是一个用于多种编程语言的交互式计算的命令 shell，最初是为 Python 编程语言开发的，它提供内省、富媒体、shell 语法、Tab 自动补全和历史记录。
+
+* [mahmoud/awesome-python-applications](https://github.com/mahmoud/awesome-python-applications) 运行良好的免费软件，也恰好是开源 Python。
+
+* [psf/black](https://github.com/psf/black) 毫不妥协的Python代码格式化程序。通过使用它，您同意放弃对手动格式化细节的控制。作为回报，Black 为您提供速度、确定性和免于 pycodestyle 唠叨格式的自由。您将为更重要的事情节省时间和精力。
+
+* [psf/pyperf](https://github.com/psf/pyperf) 用于编写、运行和分析基准测试的工具包。用于运行可靠基准测试的简单 API、自动校准时间预算的基准、生成多个工作进程、计算平均值和标准差、检测基准测试结果是否不稳定、用于存储基准测试结果的 JSON 格式、支持多种单位：秒、字节和整数。
 
 ## C/C++ 程序设计
 
