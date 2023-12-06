@@ -426,6 +426,8 @@
 
 * [numpy/numpy](https://github.com/numpy/numpy) 使用 Python 进行科学计算的基础包。它提供：一个强大的 N 维数组对象、复杂的（广播）功能、用于集成 C/C++ 和 Fortran 代码的工具、有用的线性代数、傅里叶变换和随机数功能。
 
+* [jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) 包含完整的 Python 数据科学手册，其形式为 （免费！Jupyter 笔记本。
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -3750,6 +3752,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [pulumi/pulumi](https://github.com/pulumi/pulumi) 只需用您喜欢的语言编写代码，Pulumi 就会使用基础设施即代码方法在 AWS、Azure、Google Cloud Platform、Kubernetes 和 120+ 提供商上自动预置和管理您的资源。跳过 YAML，使用你已经熟悉和喜爱的标准语言功能，如循环、函数、类和包管理。
 
+* [zappa/Zappa](https://github.com/zappa/Zappa) 在 AWS Lambda + API Gateway 上轻松构建和部署无服务器、事件驱动的 Python 应用程序（包括但不限于 WSGI Web 应用程序）。将其视为 Python 应用程序的“无服务器”Web 托管。这意味着无限扩展、零停机时间、零维护 - 而且成本只是您当前部署的一小部分
+
 ## 网络与前后端开发_其他
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
@@ -4123,6 +4127,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [fortra/impacket](https://github.com/fortra/impacket) 用于处理网络协议的 Python 类的集合。专注于提供对数据包的低级编程访问，对于某些协议（例如 SMB1-3 和 MSRPC），协议实现本身。数据包可以从头开始构建，也可以从原始数据中解析，面向对象的 API 使使用协议的深层层次结构变得简单。该库提供了一组工具作为示例。
 
 * [encode/httpx](https://github.com/encode/httpx) 用于 Python 3 的全功能 HTTP 客户端库。它包括一个集成的命令行客户端，支持 HTTP/1.1 和 HTTP/2，并提供同步和异步 API。
+
+* [tweepy/tweepy](https://github.com/tweepy/tweepy) 易于使用的 Python 库，用于访问 Twitter API。
+
+* [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) 用于 asyncio 和 Python 的异步 HTTP 客户端/服务器框架。
+
+* [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) 简单但可扩展的 Py实现，用于 Telegram Bot API。
+
+* [aiogram/aiogram](https://github.com/aiogram/aiogram) 现代且完全异步的Telegram Bot API框架，使用asyncio用Py编写
 
 ## 区块链
 
@@ -4649,6 +4661,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) Segment Anything Model从输入提示（如点或框）生成高质量的对象遮罩，并且可用于为图像中的所有对象生成遮罩。它已经在1100万张图像和11亿个掩码的数据集上进行了训练，并且在各种分割任务上具有强大的零样本性能。
 
+* [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)  Ultralytics YOLOv8 是一种尖端的、最先进的 （SOTA） 模型，它建立在以前 YOLO 版本的成功基础上，并引入了新功能和改进，以进一步提高性能和灵活性。YOLOv8 旨在快速、准确且易于使用，使其成为各种目标检测和跟踪、实例分割、图像分类和姿态估计任务的绝佳选择。
+
 * [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab基于PyTorch的开源对象检测工具箱
 
 * [microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) 基于Masked Image Modeling的预训练方法，适用于 Swin 和 SwinV2（也适用于 ViT 和 ResNet）。它可以作为计算机视觉的通用主干。它基本上是一个分层变换器，其表示是用移位窗口计算的。移位窗口方案通过将 self-attention 计算限制在不重叠的本地窗口上，同时还允许跨窗口连接，从而带来更高的效率。将 CLIP 预训练的 ViT-L 提高了 +1.6%，以达到ImageNet-1K 图像分类，这是最准确的 ViT-L 模型。在 COCO 对象检测（58.7 box AP和51.1 mask APtest-dev）和 ADE20K 语义分割（53.5 mIoU在 val）上实现了强大的性能，大大超过了以前的模型。
@@ -5139,6 +5153,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Zulko/moviepy](https://github.com/Zulko/moviepy) 用于视频编辑的 Python 库：剪切、串联、标题插入、视频合成（又名非线性编辑）、视频处理和创建自定义效果。可以读取和写入所有最常见的音频和视频格式，包括 GIF，并使用 Python 3.6+ 在 Windows/Mac/Linux 上运行。
 
+* [abhiTronix/vidgear](https://github.com/abhiTronix/vidgear) 高性能视频处理 Python 库，它提供了一个易于使用、高度可扩展、彻底优化的多线程 + Asyncio API 框架，它基于许多最先进的专业库，如 OpenCV、FFmpeg、ZeroMQ、picamera、starlette、yt_dlp、pyscreenshot、dxcam、aiortc 和 python-mss 在其后端服务，使我们能够灵活地利用它们的内部参数和方法，同时静默地提供强大的错误处理和实时性能
+
+* [Breakthrough/PySceneDetect](https://github.com/Breakthrough/PySceneDetect) 基于 Py 和 OpenCV 的场景剪切/过渡检测程序和库。
+
+* 
+
 # 因果推断
 
 * [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -5256,6 +5276,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [QuantConnect/Lean](https://github.com/QuantConnect/Lean) 开源算法交易引擎，旨在简化策略研究、回测和实时交易。我们与常见的数据提供商和经纪公司集成，因此您可以快速部署算法交易策略。
 
 * [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) 算法交易和量化交易开源平台，用于开发交易机器人（股票市场、外汇、加密货币、比特币和期权）。
+
+* [cantaro86/Financial-Models-Numerical-Methods](https://github.com/cantaro86/Financial-Models-Numerical-Methods) 关于量化金融的笔记本集合，带有交互式python代码。它包含几个现在不那么流行的主题，但可以非常强大。通常，偏微分方程方法、Lévy 过程、傅里叶方法或卡尔曼滤波等主题在从业者中不是很受欢迎，他们更喜欢使用更标准的工具。内容：1.1） Black-Scholes 布莱克-斯科尔斯数值方法（对数正态分布、测度变化、蒙特卡罗、二项式方法）。1.2） SDE仿真与统计（路径生成、置信区间、假设检验、几何布朗运动、Cox-Ingersoll-Ross过程、Euler Maruyama法、参数估计）1.3） 傅里叶反演方法（反演公式、数值反演、期权定价、FFT、刘易斯公式）1.4） SDE、Heston 模型（相关布朗运动、Heston 路径、Heston 分布、特征函数、期权定价）1.5） SDE，莱维过程（默顿，方差伽玛，NIG，路径生成，参数估计）2.1）布莱克-斯科尔斯偏微分方程（偏微分方程离散化，隐式方法，稀疏矩阵教程）2.2） 奇异期权（二元期权、障碍期权、亚洲期权）2.3） 美式期权（偏微分方程、早期行权、二项式法、Longstaff-Schwartz、永续看跌期权）3.1） Merton Jump-Diffusion PIDE（隐式-显式离散化、离散卷积、模型限制、蒙特卡罗、傅里叶反演、半闭式）3.2） Gamma Variance PIDE（近似跳跃扩散PIDE、蒙特卡洛、傅里叶反演、与Black-Scholes的比较）3.3） 正态逆高斯PIDE（近似跳跃扩散PIDE、蒙特卡罗、傅里叶反演、Lévy测度的性质）4.1） 交易成本定价（Davis-Panas-Zariphopoulou 模型、奇异控制问题、HJB 变分不等式、无差异定价、二项式树、性能）4.2） 波动率微笑和模型校准（波动率微笑、寻根方法、校准方法）5.1） 线性回归和卡尔曼滤波（市场数据清洗、线性回归方法、卡尔曼滤波设计、参数选择）5.2） 卡尔曼自相关跟踪 - AR（1） 过程（自回归过程、估计方法、卡尔曼滤波、卡尔曼平滑、变量自相关跟踪）5.3） 波动率跟踪（赫斯顿模拟、假设检验、分布拟合、估计方法、GARCH（1,1）、卡尔曼滤波、卡尔曼平滑）6.1） Ornstein-Uhlenbeck过程及应用（参数估计、命中时间、Vasicek PDE、卡尔曼滤波、交易策略）7.1） 经典 MVO（均值方差优化、二次规划、仅多头和长空、闭合公式）
 
 ## 时间序列
 
@@ -5612,6 +5634,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [SevaSk/ecoute](https://github.com/SevaSk/ecoute) 一种实时转录工具，可在文本框中为用户的麦克风输入（您）和用户的扬声器输出（扬声器）提供实时脚本。它还使用 OpenAI 的 GPT-3.5 生成建议的响应，供用户根据对话的实时转录说出来。
 
 * [sooftware/conformer](https://github.com/sooftware/conformer)  Conformer 的 PyTorch 实现：用于语音识别的卷积增强转换器。Transformer 擅长捕捉基于内容的全局交互，而 CNN 则有效地利用了局部特征。Conformer 将CNN和Transformer结合，以参数高效的方式对音频序列的局部和全局依赖关系进行建模。性能明显优于以前的基于 Transformer 和 CNN 的模型。
+
+* [Uberi/speech_recognition](https://github.com/Uberi/speech_recognition) Py语音识别模块，支持多种引擎和API，在线和离线。
 
 ## 语音合成
 
@@ -6233,6 +6257,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [JDGalileo/galileo](https://github.com/JDGalileo/galileo) Galileo（伽利略）是一个图深度学习框架，具备超大规模、易使用、易扩展、高性能、双后端等优点，旨在解决超大规模图算法在工业级场景的落地难题，提供图神经网络和图嵌入等模型的训练评估及预测能力。
 
+* [GitHub - networkx/networkx: Network Analysis in Python](https://github.com/networkx/networkx) Python 包，用于创建、操作和研究复杂网络的结构、动力学和功能。
+
 ## 图注意力机制
 
 * [PetarV-/GAT](https://github.com/PetarV-/GAT) Graph Attention Networks  图注意力神经网络
@@ -6570,6 +6596,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [yongduosui/CAL](https://github.com/yongduosui/CAL) "可解释和可归纳图分类的因果注意"。基于PyTorch的因果注意在可解释和可推广**图分类**中的实现
 
 * [PKU-DAIR/SGL](https://github.com/PKU-DAIR/SGL) 针对可扩展图形学习的图形神经网络工具包，它支持对超大型数据集进行深度图形学习。SGL允许用户轻松实现可扩展的图形神经网络，并评估其在节点分类、节点聚类和链路预测等各种下游任务中的性能。
+
+* [Thinklab-SJTU/pygmtools](https://github.com/Thinklab-SJTU/pygmtools) Python 图形匹配求解器库。图匹配是模式识别、数据挖掘等领域中一个基本但具有挑战性的问题。图匹配旨在通过求解NP硬组合优化问题，找到多个图之间的节点间对应关系。特点：支持多种求解器，包括传统的组合求解器（包括线性、二次和多图）和新型的基于深度学习的求解器；支持各种后端，包括 numpy 普遍可访问的后端，以及一些支持 GPU 的最先进的深度学习架构： pytorch 、jittor 、mindspore 、 paddle、tensorflow ；深度学习友好，这些操作旨在最好地保留计算过程中的梯度，并支持批处理操作以获得最佳性能。
 
 # 大数据
 
@@ -8011,6 +8039,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [beeper/beepy](https://github.com/beeper/beepy) Pi Zero的显示器键盘外设。超低功耗、高对比度、高分辨率、夏普存储液晶显示器。带背光和触摸板的点击式键盘，便于输入和导航。可自定义的键盘映射以满足您的需求。由Pi Zero W（可选）或任何其他兼容的SBC（如Radxa Zero、MQ-Pro）供电，具有薄型无焊接头。
 
+* [copy/v86](https://github.com/copy/v86) v86 模拟兼容 x86 的 CPU 和硬件。机器代码在运行时被转换为 WebAssembly 模块，以实现良好的性能。
+
 # 其他项目
 
 ## Python
@@ -8196,6 +8226,31 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [psf/black](https://github.com/psf/black) 毫不妥协的Python代码格式化程序。通过使用它，您同意放弃对手动格式化细节的控制。作为回报，Black 为您提供速度、确定性和免于 pycodestyle 唠叨格式的自由。您将为更重要的事情节省时间和精力。
 
 * [psf/pyperf](https://github.com/psf/pyperf) 用于编写、运行和分析基准测试的工具包。用于运行可靠基准测试的简单 API、自动校准时间预算的基准、生成多个工作进程、计算平均值和标准差、检测基准测试结果是否不稳定、用于存储基准测试结果的 JSON 格式、支持多种单位：秒、字节和整数。
+
+* [joke2k/faker](https://github.com/joke2k/faker) Python 包，可以为您生成虚假数据。
+
+* [Delgan/loguru](https://github.com/Delgan/loguru) 旨在为 Python 带来愉快日志记录的库。特征：开箱即用，无需样板
+  ；没有处理程序，没有格式化程序，没有过滤器；通过旋转/保留/压缩更轻松地记录文件；使用大括号样式的现代字符串格式；在线程或 main 中捕获异常；漂亮的彩色日志记录；异步、线程安全、多进程安全；完全描述性的异常；根据需要进行结构化日志记录；对昂贵函数的延迟评估；可定制的级别；更好的日期时间处理；适用于脚本和库；与标准日志记录完全兼容；通过环境变量实现个性化默认值；方便的解析器；详尽的通知程序；比内置日志记录快 10 倍。
+
+* [fabric/fabric](https://github.com/fabric/fabric) 通过 SSH 远程执行 shell 命令，从而产生有用的 Python 对象作为返回。它建立在Invoke（子流程命令执行和命令行功能）和Paramiko（SSH协议实现）之上，扩展了它们的API以相互补充并提供额外的功能。
+
+* [pallets/click](https://github.com/pallets/click) Python 包，用于以可组合的方式创建漂亮的命令行界面，并根据需要使用尽可能少的代码。它是“命令行界面创建工具包”。它是高度可配置的，但具有开箱即用的合理默认值。
+
+* [avinashkranjan/Amazing-Python-Scripts](https://github.com/avinashkranjan/Amazing-Python-Scripts) 精选的惊人 Python 脚本集合，从基础到高级，带有自动化任务脚本。
+
+* [GitHub - facebook/pyre-check: Performant type-checking for python.](https://github.com/facebook/pyre-check) 符合 PEP 484 的 Python 高性能类型检查器。Pyre 可以逐步分析包含数百万行代码的代码库，从而在开发人员编写代码时为他们提供即时反馈。您可以在 Pyre Playground 中的示例中试用它。
+
+* [arrow-py/arrow](https://github.com/arrow-py/arrow) Python 库，提供了明智且人性化的方法来创建、操作、格式化和转换日期、时间和时间戳。可以帮助您以更少的导入和更少的代码处理日期和时间。
+
+* [exaloop/codon](https://github.com/exaloop/codon) 高性能的 Python 实现，可编译为本机机器代码，而不会产生任何运行时开销。在单个线程上，与普通 Python 相比，典型的加速约为 10-100 倍或更多。密码子的性能通常与 C/C++ 相当（有时甚至更好）。与 Python 不同，Codon 支持原生多线程，这可以使速度提高许多倍。
+
+* [mahmoud/boltons](https://github.com/mahmoud/boltons) 超过230个BSD许可的纯Python实用程序
+
+* [realpython/python-guide](https://github.com/realpython/python-guide) 旨在为新手和专家 Python 开发人员提供一本关于日常安装、配置和使用 Python 的最佳实践手册。
+
+* [gaogaotiantian/viztracer](https://github.com/gaogaotiantian/viztracer) 低开销的日志记录/调试/分析工具，可以跟踪和可视化 python 代码执行。
+
+* [bee-san/pyWhat](https://github.com/bee-san/pyWhat) 识别任何东西。pyWhat 可让您轻松识别电子邮件、IP 地址等。给它一个 .pcap 文件或一些文本，它会告诉你它是什么
 
 ## C/C++ 程序设计
 
