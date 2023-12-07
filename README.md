@@ -1785,6 +1785,8 @@
 
 * [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) 用于大型语言模型的 Gradio Web UI。支持变压器，GPTQ，AWQ，EXL2，llama.cpp（GGUF），Llama模型。
 
+* [pytorch-labs/gpt-fast](https://github.com/pytorch-labs/gpt-fast) 在 python 的 <1000 LOC 中简单高效地生成 pytorch-native transformer 文本。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
