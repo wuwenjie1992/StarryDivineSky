@@ -1793,6 +1793,10 @@
 
 * [rustformers/llm](https://github.com/rustformers/llm) 用于处理大型语言模型的 Rust 库生态系统 - 它建立在用于机器学习的快速、高效的 GGML 库之上。
 
+* [AprilNEA/ChatGPT-Admin-Web](https://github.com/AprilNEA/ChatGPT-Admin-Web) 在团队和组织内共享使用AI的一站式解决方案。
+
+* [ParisNeo/lollms-webui](https://github.com/ParisNeo/lollms-webui) LLM（大型语言模型）模型的中心。该项目旨在提供一个用户友好的界面，以访问和利用各种LLM模型来完成广泛的任务。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -3147,6 +3151,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ds300/patch-package](https://github.com/ds300/patch-package) 立即修复损坏的node模块
 
+* [debug-js/debug](https://github.com/debug-js/debug) 一个以 Node.js 核心的调试技术为模型的小型 JavaScript 调试实用程序。适用于 Node.js 和 Web 浏览器
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -3584,6 +3590,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [apptension/developer-handbook](https://github.com/apptension/developer-handbook) 关于如何成为专业的 Web/移动应用程序开发人员的自以为是的指南。
 
+* [leptos-rs/leptos](https://github.com/leptos-rs/leptos) 使用 Rust 构建快速的 Web 应用程序。
+
+* [visgl/deck.gl](https://github.com/visgl/deck.gl) 简化大型数据集的高性能、基于 WebGL 的可视化。用户可以通过组合现有图层，以最小的工作量快速获得令人印象深刻的视觉效果，或者利用 deck.gl 的可扩展架构来满足自定义需求。deck.gl 将数据（通常是 JSON 对象数组）映射到一堆视觉层中，例如图标、多边形、文本;并用视图查看：例如地图、第一人称、正交。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3761,6 +3771,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [pulumi/pulumi](https://github.com/pulumi/pulumi) 只需用您喜欢的语言编写代码，Pulumi 就会使用基础设施即代码方法在 AWS、Azure、Google Cloud Platform、Kubernetes 和 120+ 提供商上自动预置和管理您的资源。跳过 YAML，使用你已经熟悉和喜爱的标准语言功能，如循环、函数、类和包管理。
 
 * [zappa/Zappa](https://github.com/zappa/Zappa) 在 AWS Lambda + API Gateway 上轻松构建和部署无服务器、事件驱动的 Python 应用程序（包括但不限于 WSGI Web 应用程序）。将其视为 Python 应用程序的“无服务器”Web 托管。这意味着无限扩展、零停机时间、零维护 - 而且成本只是您当前部署的一小部分
+
+* [encode/django-rest-framework](https://github.com/encode/django-rest-framework) 适用于 Django 的 Web API。Web 可浏览 API 对您的开发人员来说是一个巨大的可用性胜利。身份验证策略，包括 OAuth1a 和 OAuth2 的可选包。支持 ORM 和非 ORM 数据源的序列化。可一直自定义 - 如果您不需要更强大的功能，只需使用基于功能的常规视图。广泛的文档和强大的社区支持。
+
+* [aws/aws-cli](https://github.com/aws/aws-cli) 适用于 Amazon Web Services 的通用命令行界面
+
+* [webiny/webiny-js](https://github.com/webiny/webiny-js) 开源无服务器企业 CMS。包括无头 CMS、页面构建器、表单构建器和文件管理器。易于定制和扩展。部署到 AWS。
+
+* [brettstack/serverless-express](https://github.com/brettstack/serverless-express) 用 AWS 上的现有框架serverless.js Lambda、API Gateway、Lambda@Edge 和 ALB 等技术运行 Node Web 程序和 API。
+
+* [jhipster/generator-jhipster](https://github.com/jhipster/generator-jhipster) 开发平台，用于快速生成，开发和部署现代Web应用程序和微服务架构。
 
 ## 网络与前后端开发_其他
 
@@ -4147,6 +4167,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) 一个简单的零配置工具，用于使用您想要的任何名称创建本地信任的开发证书。用于制作本地信任的开发证书的简单工具。它不需要任何配置。
 
 * [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui) 用 Rust 编写的终端的 Spotify 客户端
+
+* [extrawurst/gitui](https://github.com/extrawurst/gitui) 用rust编写的，终端中提供了git GUI
+
+* [zulip/zulip](https://github.com/zulip/zulip) 开源的团队协作工具，具有独特的基于主题的线程，结合了电子邮件和聊天的优点，使远程工作高效且令人愉快。财富 500 强公司、领先的开源项目以及数以千计的其他组织每天都在使用 Zulip。Zulip 是唯一一款专为实时和异步对话而设计的现代团队聊天应用程序。
+
+* [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) 开源自托管 Web 存档。获取 URL/浏览器历史记录/书签/Pocket/Pinboard/等，保存 HTML、JS、PDF、媒体等
 
 ## 区块链
 
@@ -6885,6 +6911,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [launchbadge/sqlx](https://github.com/launchbadge/sqlx) Rust SQL 工具包。一个异步的纯 Rust SQL crate，具有编译时检查的查询，无需 DSL。支持 PostgreSQL、MySQL、SQLite 和 MSSQL。
 
+* [codenotary/immudb](https://github.com/codenotary/immudb) 基于零信任的不可变数据库，SQL/键值/文档模型，防篡改，数据更改历史。
+
+* [tiangolo/full-stack-fastapi-postgresql](https://github.com/tiangolo/full-stack-fastapi-postgresql) 全栈、现代 Web 应用程序生成器。使用 FastAPI、PostgreSQL 作为数据库、Docker、自动 HTTPS 等。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -7137,6 +7167,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch) 目录搜索 - Web 路径发现，高级网络路径暴力破解程序
 
+* [yogeshojha/rengine](https://github.com/yogeshojha/rengine) reNgine 是一个用于 Web 应用程序的自动化侦察框架，专注于通过引擎、侦察数据关联和组织、持续监控、数据库支持以及简单而直观的用户界面进行高度可配置的简化侦察过程。reNgine 使渗透测试人员可以轻松地收集侦察信息
+
 ## web shell、shellcode
 
 * web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
@@ -7214,6 +7246,22 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Tas9er/ByPassBehinder](https://github.com/Tas9er/ByPassBehinder) 冰蝎WebShell免杀生成
 
 * [Axx8/ShellCode_Loader](https://github.com/Axx8/ShellCode_Loader) Msf&CobaltStrike免杀ShellCode加载器、免杀Shellcode加密生成工具，目前测试免杀360&火绒&电脑管家&Windows Defender
+
+* [OWASP/wstg](https://github.com/OWASP/wstg) 《Web 安全测试指南》是用于测试 Web 应用程序和 Web 服务安全性的综合开源指南。
+
+* [SpiderLabs/ModSecurity](https://github.com/SpiderLabs/ModSecurity) 由 Trustwave 的 SpiderLabs 开发的适用于 Apache、IIS 和 Nginx 的开源跨平台 Web 应用程序防火墙 （WAF） 引擎。它具有强大的基于事件的编程语言，可防止针对 Web 应用程序的一系列攻击，并允许 HTTP 流量监控、日志记录和实时分析
+
+* [0xInfection/Awesome-WAF](https://github.com/0xInfection/Awesome-WAF) 从安全角度来看，Web 应用程序防火墙 （WAF）。
+
+* [EnableSecurity/wafw00f](https://github.com/EnableSecurity/wafw00f) 允许识别和指纹保护网站的 Web 应用程序防火墙 （WAF） 产品。
+
+* [flamegraph-rs/flamegraph](https://github.com/flamegraph-rs/flamegraph) Rust和其他所有项目的简单火焰图，无需 Perl 或管道
+
+* [Hacker0x01/hacker101](https://github.com/Hacker0x01/hacker101) Hacker101 的源代码 - 免费的在线 Web 和移动安全课程。
+
+* [juice-shop/juice-shop](https://github.com/juice-shop/juice-shop) OWASP Juice Shop：可能是最现代、最复杂的不安全 Web 应用程序，它可以用于安全培训、意识演示、CTF，也可以用作安全工具的白鼠！Juice Shop 包含来自整个 OWASP Top Ten 的漏洞，以及在实际应用程序中发现的许多其他安全漏洞！
+
+* [digininja/DVWA](https://github.com/digininja/DVWA) 该死的易受攻击的 Web 应用程序 
 
 ## 杀毒免杀、逆向工程
 
@@ -7815,8 +7863,6 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [sharkdp/hexyl](https://github.com/sharkdp/hexyl) 命令行十六进制查看器
 
-* [SpiderLabs/ModSecurity](https://github.com/SpiderLabs/ModSecurity) 由 Trustwave 的 SpiderLabs 开发的适用于 Apache、IIS 和 Nginx 的开源跨平台 Web 应用程序防火墙 （WAF） 引擎。它具有强大的基于事件的编程语言，可防止针对 Web 应用程序的一系列攻击，并允许 HTTP 流量监控、日志记录和实时分析
-
 # 硬件
 
 ## CPU RISC-V
@@ -8376,9 +8422,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [sger/RustBooks](https://github.com/sger/RustBooks) Rust 书籍列表
 
+* [rust-lang/book](https://github.com/rust-lang/book) Rust 编程语言，您也可以在线免费阅读这本书。请参阅本书随最新的稳定版、测试版或每晚 Rust 版本一起提供。
+
 * [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) Rust 编写并与上游 Bitwarden 客户端兼容的 服务器 API 的替代实现，非常适合运行官方资源密集型服务可能不理想的自托管部署。Bitwarden是自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息。
 
 * [sunface/rust-course](https://github.com/sunface/rust-course) “连续六年成为全世界最受喜爱的语言，无GC也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS未来基石" 。Rust语言圣经拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内。这可能是目前最用心的Rust中文学习教程/书籍
+
+* [rust-lang/cargo](https://github.com/rust-lang/cargo) Rust包管理器，Cargo下载你的Rust项目的依赖项并编译你的项目。
 
 * [rust-lang/mdBook](https://github.com/rust-lang/mdBook) 从markdown文件创建书籍。像Gitbook 一样，但在 Rust 中实现
 
@@ -9034,6 +9084,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) 从文本生成流程图或序列图等图表
 
 * [ansible/ansible](https://github.com/ansible/ansible) 一个极其简单的 IT 自动化平台，可让您的应用程序和系统更易于部署和维护。自动化从代码部署到网络配置再到云管理的一切，使用接近简单英语的语言，使用 SSH，无需在远程系统上安装代理。
+
+* [ansible/awx](https://github.com/ansible/awx) AWX 提供基于 Web 的用户界面、REST API 和基于 Ansible 构建的任务引擎。它是红帽 Ansible 自动化平台的上游项目之一。
 
 * [home-assistant/core](https://github.com/home-assistant/core) 将本地控制和隐私放在首位的开源家庭自动化。
 
