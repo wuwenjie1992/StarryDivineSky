@@ -792,6 +792,10 @@
 
 * [CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) 又名“黑客的贝叶斯方法”：介绍贝叶斯方法+概率编程，以计算/理解为先，数学为第二的观点。一切都在纯python
 
+* [tracel-ai/burn](https://github.com/tracel-ai/burn) 使用 Rust 构建的新的综合动态深度学习框架，其主要目标是极高的灵活性、计算效率和可移植性。
+
+* [rayon-rs/rayon](https://github.com/rayon-rs/rayon) Rust 的数据并行库。它非常轻巧，可以轻松地将顺序计算转换为并行计算。它还保证了数据竞争的自由。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1786,6 +1790,8 @@
 * [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) 用于大型语言模型的 Gradio Web UI。支持变压器，GPTQ，AWQ，EXL2，llama.cpp（GGUF），Llama模型。
 
 * [pytorch-labs/gpt-fast](https://github.com/pytorch-labs/gpt-fast) 在 python 的 <1000 LOC 中简单高效地生成 pytorch-native transformer 文本。
+
+* [rustformers/llm](https://github.com/rustformers/llm) 用于处理大型语言模型的 Rust 库生态系统 - 它建立在用于机器学习的快速、高效的 GGML 库之上。
 
 #### 编程语言大模型及相关项目
 
@@ -4138,6 +4144,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [aiogram/aiogram](https://github.com/aiogram/aiogram) 现代且完全异步的Telegram Bot API框架，使用asyncio用Py编写
 
+* [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) 一个简单的零配置工具，用于使用您想要的任何名称创建本地信任的开发证书。用于制作本地信任的开发证书的简单工具。它不需要任何配置。
+
+* [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui) 用 Rust 编写的终端的 Spotify 客户端
+
 ## 区块链
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -4171,6 +4181,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [FuelLabs/sway](https://github.com/FuelLabs/sway) 使每个人都能构建可靠高效的智能合约。Sway是为Fuel区块链开发的一种语言。深受 Rust 的启发，旨在为区块链生态系统带来现代语言开发和性能。
 
 * [ccxt/ccxt](https://github.com/ccxt/ccxt) JavaScript / TypeScript / Python / C# / PHP加密货币交易API，支持100多个比特币/山寨币交易所
+
+* [diem/diem](https://github.com/diem/diem) Diem的使命是建立一个值得信赖和创新的金融网络，为世界各地的人们和企业提供支持。Diem Core 实现了一个去中心化、可编程的分布式账本，它提供了一个可以为数十亿人赋能的金融基础设施。
 
 # 推荐系统
 
@@ -6869,6 +6881,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [tiangolo/sqlmodel](https://github.com/tiangolo/sqlmodel) Python 中的 SQL 数据库，旨在实现简单性、兼容性和稳健性。
 
+* [diesel-rs/diesel](https://github.com/diesel-rs/diesel) 摆脱了数据库交互的样板，并在不牺牲性能的情况下消除了运行时错误。充分利用 Rust 的类型系统来创建一个“感觉像 Rust”的低开销查询构建器。
+
+* [launchbadge/sqlx](https://github.com/launchbadge/sqlx) Rust SQL 工具包。一个异步的纯 Rust SQL crate，具有编译时检查的查询，无需 DSL。支持 PostgreSQL、MySQL、SQLite 和 MSSQL。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -6942,6 +6958,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray) 部署生产就绪的 Kubernetes 集群
 
 * [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) 精选的 Kubernetes 源代码列表
+
+* [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) 开源的跨平台文件浏览器，由用 Rust 编写的虚拟分布式文件系统提供支持。+
+
+* [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) 实现容器和函数工作负载的安全、多租户、最小开销的执行。一种开源虚拟化技术，专为创建和管理安全的多租户容器和基于函数的服务而构建，这些服务提供无服务器操作模型。Firecracker 在称为 microVM 的轻量级虚拟机中运行工作负载，这些虚拟机将硬件虚拟化技术提供的安全性和隔离属性与容器的速度和灵活性相结合。
 
 # 安全与渗透
 
@@ -7327,6 +7347,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [google/tink](https://github.com/google/tink) 多语言、跨平台开源库，提供安全、易于正确使用且不滥用的加密 API。
 
+* [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) 用 Rust 编写的非官方 Bitwarden 兼容服务器。Bitwarden 是一款安全的密码管理应用，帮助您保存密码并保证安全。
+
 ## 其他_安全与渗透
 
 * [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) 保护您的数字安全和隐私的精选提示清单
@@ -7689,6 +7711,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) Xray多合一一键脚本
 
+* [shadowsocks/shadowsocks-rust](https://github.com/shadowsocks/shadowsocks-rust) Rust 的 shadowsocks 接口
+
 * [apernet/hysteria](https://github.com/apernet/hysteria) 一个强大、闪电般快速且无审查的代理。广泛的模式范围，包括SOCKS5，HTTP代理，TCP / UDP转发，Linux TProxy - 更不用说不断添加的其他功能。Hysteria 由自定义 QUIC 协议提供支持，即使在最不可靠和最有损的网络上也能提供无与伦比的性能。我们的协议旨在伪装成标准的HTTP / 3流量，因此很难在不造成广泛附带损害的情况下进行检测和阻止。我们有针对所有主要平台和架构的构建。随处部署，随处使用。凭借对自定义身份验证、流量统计和访问控制的内置支持，Hysteria 可以轻松集成到您的基础设施中。
 
 * [yichengchen/clashX](https://github.com/yichengchen/clashX) 简单轻量化的代理客户端，HTTP/HTTPS 和 SOCKS 协议，地理 IP 规则支持，浪涌式配置，支持Vmess/Shadowsocks/Socks5/Trojan，支持 Netfilter TCP 重定向
@@ -7790,6 +7814,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [GTFOBins/GTFOBins.github.io](https://github.com/GTFOBins/GTFOBins.github.io) Unix 二进制文件的精选列表，可用于绕过配置错误的系统中的本地安全限制
 
 * [sharkdp/hexyl](https://github.com/sharkdp/hexyl) 命令行十六进制查看器
+
+* [SpiderLabs/ModSecurity](https://github.com/SpiderLabs/ModSecurity) 由 Trustwave 的 SpiderLabs 开发的适用于 Apache、IIS 和 Nginx 的开源跨平台 Web 应用程序防火墙 （WAF） 引擎。它具有强大的基于事件的编程语言，可防止针对 Web 应用程序的一系列攻击，并允许 HTTP 流量监控、日志记录和实时分析
 
 # 硬件
 
@@ -8406,7 +8432,35 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [PyO3/pyo3](https://github.com/PyO3/pyo3) Python 解释器的 Rust 绑定，包括用于创建原生 Python 扩展模块的工具。还支持从 Rust 二进制文件运行和交互 Python 代码。
 
+* [sunface/rust-by-practice](https://github.com/sunface/rust-by-practice) 通过实践学习 Rust，通过具有挑战性的示例、练习和项目缩小初学者和熟练开发人员之间的差距。
+
+* [serde-rs/serde](https://github.com/serde-rs/serde) 用于高效和通用地序列化和反序列化 Rust 数据结构的框架。
+
+* [rust-unofficial/patterns](https://github.com/rust-unofficial/patterns) 关于 Rust 编程语言设计模式和习语的开源书籍
+
+* [ruffle-rs/ruffle](https://github.com/ruffle-rs/ruffle) 用 Rust 编写的 Flash Player 模拟器
+
+* [rust-bakery/nom](https://github.com/rust-bakery/nom) 用 Rust 编写的解析器组合器库。它的目标是提供工具来构建安全的解析器，而不会影响速度或内存消耗。为此，它广泛使用了 Rust 强大的类型和内存安全性来生成快速和正确的解析器，并提供函数、宏和特征来抽象大多数容易出错的管道。
+
+* [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) 跨平台、安全、纯生rust的图形 API。它在 Vulkan、Metal、D3D12 和 OpenGL 上原生运行;以及 wasm 上的 WebGL2 和 WebGPU。该 API 基于 WebGPU 标准。它是 Firefox 和 Deno 中 WebGPU 集成的核心。
+
+* [ctjhoa/rust-learning](https://github.com/ctjhoa/rust-learning) 一堆用于学习 Rust 的博客文章、文章、视频等的链接
+
+* [linebender/druid](https://github.com/linebender/druid) 数据优先的 Rust 原生 UI 设计工具包。
+
+* [rcore-os/zCore](https://github.com/rcore-os/zCore) 在 Rust 中重新实现 Zircon 微内核。
+
+* [rcore-os/rCore-Tutorial-Book-v3](https://github.com/rcore-os/rCore-Tutorial-Book-v3) 关于如何在 Rust 中轻松编写操作系统内核的书。
+
+* [uutils/coreutils](https://github.com/uutils/coreutils) Rust 重写跨平台的GNU coreutils 
+
+* [Canop/broot](https://github.com/Canop/broot) 查看和导航目录树的新方法
+
+* [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) 显示有关代码统计信息的程序。Tokei 将显示文件数、这些文件中的总行数以及按语言分组的代码、注释和空白。
+
 ## flutter
+
+* [flutter/flutter](https://github.com/flutter/flutter) Flutter 可以轻松快速地为移动设备及其他领域构建漂亮的应用程序
 
 * [crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn) 一个很棒的Flutter学习资源，官方教程，插件，工具，文章，App，视频教程等的资源列表 
 
@@ -8423,6 +8477,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [iampawan/FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps) 基本的 Flutter 应用程序，适用于开发人员。
 
 * [cfug/dio](https://github.com/cfug/dio) 一个强大的 HTTP 客户端，用于 Dart 和 Flutter，支持全局设置、拦截器、FormData、中止和取消请求、文件上传和下载、请求超时、自定义适配器等。
+
+* [balena-io/etcher](https://github.com/balena-io/etcher) 安全、轻松地将操作系统映像闪存到 SD 卡和 USB 驱动器。
 
 * [xujiyou/zhihu-flutter](https://github.com/xujiyou/zhihu-flutter) Flutter 高仿知乎 UI，非常漂亮，也非常流畅。 
 
@@ -8725,7 +8781,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [quilljs/quill](https://github.com/quilljs/quill) 为兼容性和可扩展性而构建的现代所见即所得编辑器。
 
-* [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) 基于浏览器的代码编辑器。VSCode功能齐全代码编辑器。
+* [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) 基于浏览器的代码编辑器。VSCode功能齐全编辑器。
 
 * [ianstormtaylor/slate](https://github.com/ianstormtaylor/slate) 一个完全可定制的框架，用于构建富文本编辑器。
 
@@ -8759,6 +8815,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [lapce/lapce](https://github.com/lapce/lapce) 用 Rust 编写的闪电般快速且功能强大的代码编辑器
 
+* [xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) 一个现代编辑器，后端用 Rust 编写。
+
 * [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) 允许您记录屏幕的选定区域，编辑并将其保存为 gif 或视频。需要 .NET 6 桌面运行时（或更高版本）。
 
 * [mifi/lossless-cut](https://github.com/mifi/lossless-cut) 无损视频/音频编辑的瑞士军刀。跨平台 FFmpeg GUI，用于对视频、音频、字幕和其他相关媒体文件进行极其快速和无损的操作。
@@ -8776,6 +8834,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [lingcoder/OnJava8](https://github.com/lingcoder/OnJava8) 《On Java 8》中文版
 
 * [alibaba/arthas](https://github.com/alibaba/arthas) 阿里巴巴开源的 Java 诊断工具。允许开发人员解决Java应用程序的生产问题，而无需修改代码或重新启动服务器。
+
+* [andreabergia/rjvm](https://github.com/andreabergia/rjvm) 一个用 Rust 编写的小型 JVM。学习项目
 
 * [modichirag/flowpm](https://github.com/modichirag/flowpm) TensorFlow中的粒子网格模拟N体宇宙学模拟
 
@@ -9261,6 +9321,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) ZSH 框架、插件、主题和教程的集合。
 
+* [warpdotdev/Warp](https://github.com/warpdotdev/Warp) 基于 Rust 的现代终端，内置了 AI，因此您和您的团队可以更快地构建出色的软件。速度极快的现代基于 Rust 的 GPU 加速终端，旨在提高您和您的团队的工作效率。
+
 * [markets/awesome-ruby](https://github.com/markets/awesome-ruby) 由社区驱动的分类集合，包含令人敬畏的 Ruby 库、工具、框架和软件。构建现代应用程序和 Web 应用程序的基本 Ruby。
 
 * [gedoor/legado](https://github.com/gedoor/legado) 一款适用于 Android 的免费开源小说阅读器。
@@ -9268,6 +9330,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) 用于 git 命令的简单终端 UI
 
 * [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) 实现 ACME 客户端协议(使用 ACME 协议来验证您对给定域名的控制权并向您颁发证书。)的纯 Unix shell 脚本
+
+* [ratatui-org/ratatui](https://github.com/ratatui-org/ratatui) Rust 库，就是关于构建终端用户界面 （TUI）
 
 * [zh-google-styleguide/zh-google-styleguide](https://github.com/zh-google-styleguide/zh-google-styleguide) Google 开源项目风格指南 (中文版)
 
@@ -9296,5 +9360,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [HaxeFoundation/haxe](https://github.com/HaxeFoundation/haxe) 可让您轻松构建面向许多主流平台的跨平台工具和应用程序。Haxe 工具包包括：Haxe 编程语言，一种现代、高级、严格类型的编程语言、Haxe 交叉编译器，适用于许多目标的最先进的闪电般的编译器、Haxe 标准库，一个完整的跨平台通用功能库
 
 * [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn) 从github 各类 awesome list 通过爬虫聚合而来
+
+* [GitHub - Xfennec/progress: Linux tool to show progress for cp, mv, dd, ... (formerly known as cv)](https://github.com/Xfennec/progress) Linux 工具显示 cp、mv、dd 等的进度。（以前称为 CV）
 
 # end
