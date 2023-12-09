@@ -83,7 +83,7 @@
 
 * [fengdu78/deeplearning_ai_books](https://github.com/fengdu78/deeplearning_ai_books) deeplearning.ai（吴恩达老师的深度学习课程笔记及资源）
 
-* [GitHub - GokuMohandas/Made-With-ML](https://github.com/GokuMohandas/Made-With-ML) 了解如何设计、开发、部署和迭代生产级 ML 应用程序。在本课程中，将从实验（设计 + 开发）到生产（部署 + 迭代）。我们将通过激励组件来迭代地做到这一点，这些组件将使我们能够构建可靠的生产系统。
+* [GokuMohandas/Made-With-ML](https://github.com/GokuMohandas/Made-With-ML) 了解如何设计、开发、部署和迭代生产级 ML 应用程序。在本课程中，将从实验（设计 + 开发）到生产（部署 + 迭代）。我们将通过激励组件来迭代地做到这一点，这些组件将使我们能够构建可靠的生产系统。
 
 * [kmario23/deep-learning-drizzle](https://github.com/kmario23/deep-learning-drizzle) 通过从这些令人兴奋的讲座中学习，让自己沉浸在深度学习、强化学习、机器学习、计算机视觉和 NLP 
 
@@ -1985,9 +1985,9 @@
 
 - [bigscience-workshop/biomedica](https://github.com/bigscience-workshop/biomedical) 用于管理用于大规模语言建模的生物医学训练数据的工具，大规模轻量级、程序化访问生物医学数据集，提高数据处理的可重复性，126+ 生物医学数据集、10+ 种语言、12 个任务类别、按任务类型协调的数据集架构、有关许可、粗粒度/细粒度任务类型、域等的元数据
 
-- [GitHub - openmedlab/PULSE: PULSE: Pretrained and Unified Language Service Engine](https://github.com/openmedlab/PULSE) 中文医疗大语言模型，使用约400万个中文医学领域和通用领域的指令微调数据进行进一步调优。PULSE支持医学领域的各种自然语言处理任务，包括健康教育、医师考试问题、报告解读、医疗记录结构化以及模拟诊断和治疗。
+- [openmedlab/PULSE: PULSE: Pretrained and Unified Language Service Engine](https://github.com/openmedlab/PULSE) 中文医疗大语言模型，使用约400万个中文医学领域和通用领域的指令微调数据进行进一步调优。PULSE支持医学领域的各种自然语言处理任务，包括健康教育、医师考试问题、报告解读、医疗记录结构化以及模拟诊断和治疗。
 
-- [GitHub - openmedlab/XrayPULSE](https://github.com/openmedlab/XrayPULSE) 基于 PULSE。我们利用MedCLIP作为我们的医疗视觉编码器，并利用Q-former（BLIP2）作为适配器，通过简单的线性变换将图像注入PULSE。为了通过适配器对齐冷冻视觉编码器和LLM，我们借助chatGPT从两个数据集（MIMIC-CXR和OpenI）的自由文本放射学报告中生成中文版Xray-Report配对数据。为了促进生物医学多模态学习的研究，我们将向公众发布数据。
+- [openmedlab/XrayPULSE](https://github.com/openmedlab/XrayPULSE) 基于 PULSE。我们利用MedCLIP作为我们的医疗视觉编码器，并利用Q-former（BLIP2）作为适配器，通过简单的线性变换将图像注入PULSE。为了通过适配器对齐冷冻视觉编码器和LLM，我们借助chatGPT从两个数据集（MIMIC-CXR和OpenI）的自由文本放射学报告中生成中文版Xray-Report配对数据。为了促进生物医学多模态学习的研究，我们将向公众发布数据。
 
 #### 法律大模型及语料库
 
@@ -2374,6 +2374,8 @@
 * [RunpeiDong/DreamLLM](https://github.com/RunpeiDong/DreamLLM) 一个学习框架，它首先实现了多功能的多模态大语言模型（MLLM），它赋予了多模态理解和创造之间经常被忽视的协同作用。DreamLLM基于两个基本原则运作。第一个侧重于通过在原始多模态空间中直接采样来对语言和图像后验进行生成建模。其次，DreamLLM促进了原始交错文档的生成，对文本和图像内容以及非结构化布局进行了建模。一个零样本多模态通才，能够理解和创造。
 
 * [OSU-NLP-Group/Mind2Web](https://github.com/OSU-NLP-Group/Mind2Web) 论文“Mind2Web：迈向Web的通才代理”的数据集，代码和模型。
+
+* [dsdanielpark/Bard-API](https://github.com/dsdanielpark/Bard-API) 通过 cookie 值返回 Google Bard (大语言模型) 响应的非官方 python 包。
 
 ## 文本匹配 文本相似度
 
@@ -3021,6 +3023,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [shibing624/bart4csc-base-chinese](https://huggingface.co/shibing624/bart4csc-base-chinese) BART中文拼写纠错模型，训练使用了SIGHAN + Wang271K 中文纠错数据集，在SIGHAN2015的测试集上达到接近SOTA水平。
 
+* [sloria/TextBlob](https://github.com/sloria/TextBlob) 简单、Pythonic、文本处理——情感分析、词性标记、名词短语提取、翻译等。
+
+* [stanfordnlp/CoreNLP](https://github.com/stanfordnlp/CoreNLP) 核心 NLP 工具，用于标记化、句子分割、NER、解析、共指、情感分析等。
+
+* [NLPchina/ansj_seg](https://github.com/NLPchina/ansj_seg) ansj分词.ict的真正java实现.分词效果速度都超过开源版的ict. 中文分词,人名识别,词性标注,用户自定义词典
+
 # 网络与前后端开发
 
 ## JavaScript框架
@@ -3153,6 +3161,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [debug-js/debug](https://github.com/debug-js/debug) 一个以 Node.js 核心的调试技术为模型的小型 JavaScript 调试实用程序。适用于 Node.js 和 Web 浏览器
 
+* [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges) TypeScript 类型挑战集合，高质量的类型可以帮助提高项目的可维护性，同时避免潜在的错误。
+
+* [DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) 高质量 TypeScript 类型定义的存储库。
+
+* [jquery/jquery](https://github.com/jquery/jquery) jQuery JavaScript 库
+
+* [wangdoc/typescript-tutorial](https://github.com/wangdoc/typescript-tutorial) TypeScript 开源教程，介绍基本概念和用法，面向初学者。
+
+* [javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info) 现代 JavaScript 教程（The Modern JavaScript Tutorial），以最新的 ECMAScript 规范为基准，通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -3221,6 +3239,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) Node.js 库，提供了一个高级 API 来控制 DevTools 协议上的 Chrome/Chromium。Puppeteer默认以无头模式运行，但可以配置为在完整（“有头”）Chrome / Chromium中运行。示例：生成页面的屏幕截图和 PDF。对 SPA（单页应用程序）进行爬网并生成预呈现的内容（即“SSR”（服务器端呈现））。自动化表单提交、UI 测试、键盘输入等。使用最新的 JavaScript 和浏览器功能创建自动化测试环境。捕获站点的时间线跟踪，以帮助诊断性能问题。测试Chrome扩展程序。
 
 * [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) React企业应用程序的全新 UI 解决方案。
+
+* [alibaba/ice](https://github.com/alibaba/ice)  基于 React 的渐进式应用框架，零配置：开箱即用，支持 ES6+、TypeScript、Less、Sass、CSS 模块等，实践：文件系统路由、状态管理、请求等实践，混合：默认在构建时 （SSG） 或请求时 （SSR） 预渲染页面，插件系统：插件系统提供了丰富的功能，多端：同时支持 web、小程序和 Weex
+
+* [reduxjs/redux](https://github.com/reduxjs/redux) JavaScript 应用的可预测状态容器，可以帮助您编写行为一致、在不同环境（客户端、服务器和本机）中运行且易于测试的应用程序。最重要的是，它提供了出色的开发人员体验，例如实时代码编辑与时间旅行调试器相结合。您可以将 Redux 与 React 或任何其他视图库一起使用。Redux 核心很小（2kB，包括依赖项），并且具有丰富的插件生态系统。
+
+* [infinitered/reactotron](https://github.com/infinitered/reactotron) React 和 React Native 应用程序的强大调试器。它为开发人员提供了一个易于使用的界面，用于监控其应用程序的状态、网络请求和性能指标，可用于任何规模的项目，从小型个人应用程序到大型企业应用程序。
+
+* [jaredpalmer/tsdx](https://github.com/jaredpalmer/tsdx) 用于 TypeScript 包开发的零配置 CLI，可帮助您轻松开发、测试和发布现代 TypeScript 包
+
+* [basarat/typescript-book](https://github.com/basarat/typescript-book) TypeScript 的权威指南，也可能是最好的 TypeScript 书籍
 
 * [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) 基于 Bootstrap 4 的免费管理仪表板模板
 
@@ -3594,6 +3622,30 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [visgl/deck.gl](https://github.com/visgl/deck.gl) 简化大型数据集的高性能、基于 WebGL 的可视化。用户可以通过组合现有图层，以最小的工作量快速获得令人印象深刻的视觉效果，或者利用 deck.gl 的可扩展架构来满足自定义需求。deck.gl 将数据（通常是 JSON 对象数组）映射到一堆视觉层中，例如图标、多边形、文本;并用视图查看：例如地图、第一人称、正交。
 
+* [ErickWendel/semana-javascript-expert08](https://github.com/ErickWendel/semana-javascript-expert08) 在浏览器中上传视频之前进行预处理
+
+* [aws-amplify/amplify-js](https://github.com/aws-amplify/amplify-js) JS库，适用于前端和移动开发人员构建支持云的应用程序
+
+* [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) 互联网的图标库和工具包，被数百万设计师、开发人员和内容创作者使用。
+
+* [plotly/plotly.js](https://github.com/plotly/plotly.js) 独立的 Javascript 数据可视化库，它还为这些各自生态系统中命名 plotly 的 Python 和 R 模块提供支持（称为 Plotly.py 和 Plotly.R）。
+
+* [apexcharts/apexcharts.js](https://github.com/apexcharts/apexcharts.js) 基于 SVG 构建的交互式 JavaScript 图表
+
+* [facebook/relay](https://github.com/facebook/relay) 用于构建数据驱动的 React 应用程序的 JavaScript 框架。
+
+* [antvis/G6](https://github.com/antvis/G6) JavaScript 中的图形可视化框架
+
+* [terrastruct/d2](https://github.com/terrastruct/d2) 现代图表脚本语言，可将文本转换为图表。
+
+* [bhauman/lein-figwheel](https://github.com/bhauman/lein-figwheel) 构建ClojureScript ，并在您编码时将其热加载到浏览器中
+
+* [serverless-nextjs/serverless-next.js](https://github.com/serverless-nextjs/serverless-next.js) 通过无服务器组件在 AWS Lambda @Edge 上部署 Next.js 应用程序
+
+* [philss/floki](https://github.com/philss/floki) 简单的 HTML 解析器，它允许使用 CSS 选择器搜索节点。
+
+* [xhtml2pdf/xhtml2pdf](https://github.com/xhtml2pdf/xhtml2pdf) 使用 ReportLab 将 HTML 转换为 PDF 的库
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3728,6 +3780,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Seldaek/monolog](https://github.com/Seldaek/monolog) PHP将日志发送到文件、套接字、数据库和各种Web服务
 
+* [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) PHP开发工具，可在浏览器中使用。可让您深入了解应用程序运行时，包括 HTTP 请求、命令、队列作业和测试的请求数据、性能指标、日志条目、数据库查询、缓存查询、redis 命令、已调度事件、排队作业、呈现视图等
+
 * [matomo-org/matomo](https://github.com/matomo-org/matomo) Google Analytics（分析）的领先开放替代方案，可让您完全控制数据。Matomo可让您轻松地从网站和应用程序中收集数据，并可视化这些数据并提取见解。隐私是内置的。
 
 * [plausible/analytics](https://github.com/plausible/analytics) 简单开源轻量级（<1K）和隐私友好的网络分析替代谷歌分析。
@@ -3781,6 +3835,24 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [brettstack/serverless-express](https://github.com/brettstack/serverless-express) 用 AWS 上的现有框架serverless.js Lambda、API Gateway、Lambda@Edge 和 ALB 等技术运行 Node Web 程序和 API。
 
 * [jhipster/generator-jhipster](https://github.com/jhipster/generator-jhipster) 开发平台，用于快速生成，开发和部署现代Web应用程序和微服务架构。
+
+* [rabbitmq/rabbitmq-server](https://github.com/rabbitmq/rabbitmq-server) 开源 RabbitMQ：核心服务器和第 1 层（内置）插件
+
+* [localstack/localstack](https://github.com/localstack/localstack) 功能齐全的本地 AWS 云堆栈。离线开发和测试您的云和无服务器应用程序
+
+* [ring-clojure/ring](https://github.com/ring-clojure/ring) 受 Python 的 WSGI 和 Ruby 的 Rack 启发的 Clojure Web 应用程序库。通过将 HTTP 的细节抽象为简单、统一的 API，Ring 允许 Web 应用程序由模块化组件构建，这些组件可以在各种应用程序、Web 服务器和 Web 框架之间共享。
+
+* [neondatabase/neon](https://github.com/neondatabase/neon) 无服务器 Postgres。我们将存储和计算分开，以提供自动缩放、分支和无底存储。
+
+* [serverless/examples](https://github.com/serverless/examples) 无服务器示例 – 用 AWS Lambda、Microsoft Azure、Google Cloud Functions 等上的无服务器框架构建的无服务器架构的样板和示例集合。
+
+* [aws/serverless-application-model](https://github.com/aws/serverless-application-model) AWS 无服务器应用程序模型 （AWS SAM） 转换是一个 AWS CloudFormation 宏，用于将 SAM 模板转换为 CloudFormation 模板。
+
+* [wireapp/wire-server](https://github.com/wireapp/wire-server) Wire后端服务，含以下源代码：公共 API 反向代理（带有自定义 libzauth 模块的 Nginx），对话和团队、帐户、推送通知中心、WebSocket 推送通知、资产（图像、文件等）存储、第三方 API 集成，用于音频/视频通话的 STUN/TURN 服务器，单点登录 （SSO），迁移工具（例如，添加新表时），后台工具（基于 Swagger 的基本界面）
+
+* [aws/aws-sam-cli](https://github.com/aws/aws-sam-cli) CLI 工具，用于使用 AWS SAM 构建、测试、调试和部署无服务器应用程序
+
+* [aws-samples/aws-serverless-workshops](https://github.com/aws-samples/aws-serverless-workshops) 为 Wild Rydes 研讨会设置无服务器应用程序的代码和演练实验室
 
 ## 网络与前后端开发_其他
 
@@ -4100,7 +4172,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [yarnpkg/berry](https://github.com/yarnpkg/berry) 现代的包管理器，分为各种包。其新颖的架构允许完成目前使用现有解决方案无法完成的事情：Yarn 支持插件;添加插件就像将其添加到存储库中一样简单；Yarn 默认支持 Node，插件可以添加对其他语言的支持；Yarn 原生支持工作区，其 CLI 利用了这一点；Yarn 使用类似 bash 的可移植 shell 脚本可跨 Windows、Linux 和 macOS 移植；Yarn 首先是一个 Node API，可以通过编程方式（通过 @yarnpkg/core）使用；Yarn 是用 TypeScript 编写的，并且经过了完全的类型检查
 
-* [GitHub - DIYgod/RSSHub: 🍰 Everything is RSSible](https://github.com/DIYgod/RSSHub) 一切都是可RSS的，一个开源、易于使用且可扩展的 RSS 源生成器。它能够从几乎所有内容生成RSS提要。
+* [DIYgod/RSSHub: 🍰 Everything is RSSible](https://github.com/DIYgod/RSSHub) 一切都是可RSS的，一个开源、易于使用且可扩展的 RSS 源生成器。它能够从几乎所有内容生成RSS提要。
 
 * [Netflix/conductor](https://github.com/Netflix/conductor) Netflix 创建的一个平台，用于编排跨微服务的工作流程。Conductor 由 Netflix 的媒体工作流基础设施团队维护。
 
@@ -4173,6 +4245,44 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [zulip/zulip](https://github.com/zulip/zulip) 开源的团队协作工具，具有独特的基于主题的线程，结合了电子邮件和聊天的优点，使远程工作高效且令人愉快。财富 500 强公司、领先的开源项目以及数以千计的其他组织每天都在使用 Zulip。Zulip 是唯一一款专为实时和异步对话而设计的现代团队聊天应用程序。
 
 * [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) 开源自托管 Web 存档。获取 URL/浏览器历史记录/书签/Pocket/Pinboard/等，保存 HTML、JS、PDF、媒体等
+
+* [Jack-Cherish/python-spider](https://github.com/Jack-Cherish/python-spider) Python3网络爬虫实战：淘宝、京东、网易云、B站、12306、抖音、笔趣阁、漫画小说下载、音乐电影下载等
+
+* [TryGhost/Ghost](https://github.com/TryGhost/Ghost) 一款功能强大的应用程序，供专业出版商围绕其内容创建、共享和发展业务。它配备了现代工具，可以构建网站，发布内容，发送时事通讯并向会员提供付费订阅。
+
+* [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) 使用 IPsec/L2TP、Cisco IPsec 和 IKEv2 构建您自己的 IPsec VPN 服务器的脚本
+
+* [nextcloud/server](https://github.com/nextcloud/server) Nextcloud 服务器，您所有数据的安全家园。功能：访问您的数据 您可以将文件、联系人、日历等存储在您选择的服务器上。同步您的数据 您可以在设备之间保持文件、联系人、日历等的同步。分享您的数据...通过让其他人访问您希望他们查看或协作的内容。可扩展数百个应用程序...例如日历、通讯录、邮件、视频聊天以及您可以在我们的 App Store 中发现的所有内容。通过我们的加密机制、HackerOne 赏金计划和双因素身份验证确保安全性。
+
+* [juanfont/headscale](https://github.com/juanfont/headscale) 建立在 Wireguard 之上的现代 VPN。它的工作方式类似于网络计算机之间的覆盖网络 - 使用 NAT 遍历。
+
+* [nats-io/nats-server](https://github.com/nats-io/nats-server) 适用于 NATS.io、云和边缘原生消息传递系统的高性能服务器。
+
+* [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) 网络范围的广告和跟踪器阻止DNS服务器
+
+* [EZLippi/Tinyhttpd](https://github.com/EZLippi/Tinyhttpd) J. David Blackstone在1999年写的一个不到 500 行的超轻量型 Http Server，用来学习非常不错，可以帮助我们真正理解服务器程序的本质。
+
+* [haraka/Haraka](https://github.com/haraka/Haraka) 快速、高度可扩展且事件驱动的 SMTP 服务器
+
+* [foxcpp/maddy](https://github.com/foxcpp/maddy) 可组合的多合一邮件服务器。
+
+* [dovecot/core](https://github.com/dovecot/core) 邮件服务器
+
+* [iredmail/iRedMail](https://github.com/iredmail/iRedMail) 适用于Linux/BSD 发行版的全功能开源邮件服务器解决方案。
+
+* [navidrome/navidrome](https://github.com/navidrome/navidrome) 现代音乐服务器和流媒体与亚音速/Airsonic 兼容
+
+* [processone/ejabberd](https://github.com/processone/ejabberd) 强大、无处不在且可大规模扩展的消息传递平台（XMPP、MQTT、SIP 服务器）
+
+* [firezone/firezone](https://github.com/firezone/firezone) 基于 WireGuard® 的可扩展远程访问平台，与您的 IdP 集成，无需开放端口。开源平台，可安全地管理任何规模组织的远程访问。与大多数 VPN 不同，Firezone 采用精细、最低权限的访问管理方法，采用基于组的策略来控制对单个应用程序、整个子网以及介于两者之间的所有内容的访问。
+
+* [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) 免费订阅地址，免费节点，6小时更新一次，共享节点，节点质量高可用，完全免费。免费clash订阅地址，免费翻墙、免费科学上网、免费梯子、免费ss/v2ray/trojan节点、谷歌商店、翻墙梯子。
+
+* [artilleryio/artillery](https://github.com/artilleryio/artillery) 云规模的负载测试，就像 1-2-3 一样简单。开箱即用的无服务器和分布式。永不扩展
+
+* [novnc/noVNC](https://github.com/novnc/noVNC)  HTML VNC 客户端 JS库，也是一个基于该库构建的应用程序。noVNC 在任何现代浏览器（包括移动浏览器（iOS 和 Android））中都能正常运行。
+
+* [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) LibVNCServer/LibVNCClient 是跨平台的 C 库，可让您在程序中轻松实现 VNC 服务器或客户端功能。
 
 ## 区块链
 
@@ -4721,6 +4831,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [jizhishutong/YOLOU](https://github.com/jizhishutong/YOLOU) 收集更多关于YOLO系列的算法，让小伙伴们更好的学习物体检测的知识。同时，为了更好的应用AI技术，YOLOU也将加入相应的Deploy技术，加速我们所学算法的落地，实现价值。
 
+* [qubvel/segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) 具有预训练骨干的分割模型。PyTorch 的。主要功能是：高级 API（只需两行即可创建神经网络）、用于二进制和多类分割的 9 种模型架构（包括传奇的 Unet）、124 种可用编码器（以及 TIMM 的 500+ 种编码器）、所有编码器都具有预先训练的权重，以实现更快更好的收敛、训练例程的流行指标和损失
+
 * [ultralytics/yolov5](https://github.com/ultralytics/yolov5) 在 COCO 数据集上预训练的对象检测模型，代表 Ultralytics 对未来视觉 AI 方法的开源研究，结合了数千小时的研究和经验教训和最佳实践。
 
 * [meituan/YOLOv6](https://github.com/meituan/YOLOv6) 专用于工业应用的单阶段目标检测框架。
@@ -5197,7 +5309,11 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Breakthrough/PySceneDetect](https://github.com/Breakthrough/PySceneDetect) 基于 Py 和 OpenCV 的场景剪切/过渡检测程序和库。
 
-* 
+* [torch-points3d/torch-points3d](https://github.com/torch-points3d/torch-points3d) 用于在点云上进行深度学习的 Pytorch 框架。用于根据经典基准运行用于点云分析任务的常见深度学习模型。它严重依赖 Pytorch Geometric 和 Facebook Hydra。
+
+* [alex000kim/nsfw_data_scraper](https://github.com/alex000kim/nsfw_data_scraper) 训练 NSFW 图像分类器的脚本集合
+
+* [tnfe/FFCreator](https://github.com/tnfe/FFCreator) 基于Node.js的轻量级灵活的短视频处理库。您只需要添加一些图片、音乐或视频剪辑，就可以使用它快速创建非常令人兴奋的视频相册。
 
 # 因果推断
 
@@ -5761,6 +5877,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Rongjiehuang/FastDiff](https://github.com/Rongjiehuang/FastDiff) 用于高质量语音合成的快速条件扩散模型
 
+* [archinetai/audio-diffusion-pytorch](https://github.com/archinetai/audio-diffusion-pytorch) 在 PyTorch 中使用扩散模型生成音频。包括用于无条件音频生成、文本条件音频生成、扩散自动编码、上采样和声编码的模型。提供的模型是基于波形的，但是，U-Net（使用 a-unet ）、 DiffusionModel 、扩散方法和扩散采样器构建，对于任何维度都是通用的，并且高度可定制以适用于其他格式。注意：（1）这里没有提供预训练的模型，（2）显示的配置是指示性的，未经测试，参见Moûsai了解论文中使用的配置。
+
+* [marytts/marytts](https://github.com/marytts/marytts) 用纯 Java 编写的开源、多语言文本到语音合成系统
+
 ## 语音识别与合成_其他
 
 * [TencentGameMate/chinese_speech_pretrain](https://github.com/TencentGameMate/chinese_speech_pretrain) WenetSpeech train_l 集的 1 万小时中文数据作为无监督预训练数据。数据主要来源于 YouTube 和 Podcast，覆盖了各种类型录制场景、背景噪声、说话方式等，其领域主要包括有声书、解说、纪录片、电视剧、访谈、新闻、朗读、演讲、综艺和其他等10大场景。
@@ -5896,6 +6016,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [facebookresearch/esm](https://github.com/facebookresearch/esm) 进化规模建模（esm）：蛋白质的预训练语言模型
 
 * [uw-ipd/RoseTTAFold2NA](https://github.com/uw-ipd/RoseTTAFold2NA) RoseTTAFold2蛋白/核酸复合物预测
+
+* [pylelab/USalign](https://github.com/pylelab/USalign) 核酸和蛋白质单体结构和复杂结构的通用结构比对
 
 ## 药物发现、药物设计
 
@@ -6297,7 +6419,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [JDGalileo/galileo](https://github.com/JDGalileo/galileo) Galileo（伽利略）是一个图深度学习框架，具备超大规模、易使用、易扩展、高性能、双后端等优点，旨在解决超大规模图算法在工业级场景的落地难题，提供图神经网络和图嵌入等模型的训练评估及预测能力。
 
-* [GitHub - networkx/networkx: Network Analysis in Python](https://github.com/networkx/networkx) Python 包，用于创建、操作和研究复杂网络的结构、动力学和功能。
+* [networkx/networkx: Network Analysis in Python](https://github.com/networkx/networkx) Python 包，用于创建、操作和研究复杂网络的结构、动力学和功能。
 
 ## 图注意力机制
 
@@ -6989,9 +7111,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) 精选的 Kubernetes 源代码列表
 
-* [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) 开源的跨平台文件浏览器，由用 Rust 编写的虚拟分布式文件系统提供支持。+
+* [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) 开源的跨平台文件浏览器，由用 Rust 编写的虚拟分布式文件系统提供支持。
 
 * [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) 实现容器和函数工作负载的安全、多租户、最小开销的执行。一种开源虚拟化技术，专为创建和管理安全的多租户容器和基于函数的服务而构建，这些服务提供无服务器操作模型。Firecracker 在称为 microVM 的轻量级虚拟机中运行工作负载，这些虚拟机将硬件虚拟化技术提供的安全性和隔离属性与容器的速度和灵活性相结合。
+
+* [fission/fission](https://github.com/fission/fission) 适用于 Kubernetes 的快速简单的无服务器函数
+
+* [fnproject/fn](https://github.com/fnproject/fn) 容器原生、与云无关的无服务器平台。
 
 # 安全与渗透
 
@@ -7263,6 +7389,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [digininja/DVWA](https://github.com/digininja/DVWA) 该死的易受攻击的 Web 应用程序 
 
+* [koalaman/shellcheck](https://github.com/koalaman/shellcheck) 一个 GPLv3 工具，它为 bash/sh shell 脚本提供警告和建议
+
+* [tarunkant/Gopherus](https://github.com/tarunkant/Gopherus) 如果您知道某个地方容易受到 SSRF 攻击，此工具将帮助您生成 Gopher 有效负载，以利用 SSRF（服务器端请求伪造）并获得 RCE（远程代码执行）。它还将帮助您在受害者服务器上获取反向外壳。
+
 ## 杀毒免杀、逆向工程
 
 * [TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。
@@ -7300,6 +7430,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [capstone-engine/capstone](https://github.com/capstone-engine/capstone) 用于ARM，ARM64（ARMv8），BPF，Ethereum VM，M68K，M680X，Mips，MOS65XX，PPC，RISC-V（rv32G / rv64G），SH，Sparc，SystemZ，TMS320C64X，TriCore，Webassembly，XCore和X86的Capstone反汇编/反汇编器框架。
 
 * [cyrus-and/gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard) GDB 仪表板是使用 Python API 编写的独立 .gdbinit 文件，它支持模块化界面，显示有关正在调试的程序的相关信息。其主要目标是减少检查当前程序状态所需的 GDB 命令数量，从而使开发人员能够主要关注控制流。
+
+* [OWASP/owasp-mastg](https://github.com/OWASP/owasp-mastg) 移动应用安全测试指南 （MASTG） 是一本用于移动应用安全测试和逆向工程的综合手册。它描述了用于验证 OWASP 移动应用程序安全验证标准 （MASVS） 中列出的控件的技术过程。
 
 ## 漏洞库、漏洞靶场
 
@@ -7361,6 +7493,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [0xHJK/TotalPass](https://github.com/0xHJK/TotalPass) 默认密码扫描器 是否存在默认密码\搜索常见设备默认密码\支持手动和自动更新密码库 扫描类型有SSH\Telnet\SNMP\Redis
 
+* [certbot/certbot](https://github.com/certbot/certbot) Certbot 是 EFF 的工具，用于从 Let's Encrypt 获取证书，并（可选）在您的服务器上自动启用 HTTPS。它还可以充当使用 ACME 协议的任何其他 CA 的客户端。
+
 * [zricethezav/gitleaks](https://github.com/zricethezav/gitleaks) 用于检测和防止git repos 中的密码、api 密钥和令牌等硬编码秘密。易于使用的一体化解决方案，用于检测代码中过去或现在的秘密。
 
 * [bitsadmin/fakelogonscreen](https://github.com/bitsadmin/fakelogonscreen) 伪造 Windows 登录屏幕以窃取密码
@@ -7396,6 +7530,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [google/tink](https://github.com/google/tink) 多语言、跨平台开源库，提供安全、易于正确使用且不滥用的加密 API。
 
 * [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) 用 Rust 编写的非官方 Bitwarden 兼容服务器。Bitwarden 是一款安全的密码管理应用，帮助您保存密码并保证安全。
+
+* [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) 使用 HWID / Ohook / KMS38 / Online KMS 激活方法的 Windows 和 Office 激活器，开源代码和较少的防病毒检测。
 
 ## 其他_安全与渗透
 
@@ -7863,6 +7999,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [sharkdp/hexyl](https://github.com/sharkdp/hexyl) 命令行十六进制查看器
 
+* [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) 提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告
+
+* [carlospolop/PEASS-ng](https://github.com/carlospolop/PEASS-ng) 适用于 Win、Linux/Unix* 和 MacOS 的权限提升工具。
+
+* [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) 用于保护 Linux 服务器的不断发展的操作指南。
+
+* [v1s1t0r1sh3r3/airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon) 多用途的 bash 脚本，用于 Linux 系统审计无线网络。
+
 # 硬件
 
 ## CPU RISC-V
@@ -8115,6 +8259,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [copy/v86](https://github.com/copy/v86) v86 模拟兼容 x86 的 CPU 和硬件。机器代码在运行时被转换为 WebAssembly 模块，以实现良好的性能。
 
+* [RetroPie/RetroPie-Setup](https://github.com/RetroPie/RetroPie-Setup) Shell脚本，用于设置带有RetroArch模拟器和各种内核的Raspberry Pi / Odroid / PC
+
+* [microsoft/devicescript](https://github.com/microsoft/devicescript) 用于微型物联网设备的 TypeScript（ESP32、RP2040 等）
+
 # 其他项目
 
 ## Python
@@ -8312,7 +8460,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [avinashkranjan/Amazing-Python-Scripts](https://github.com/avinashkranjan/Amazing-Python-Scripts) 精选的惊人 Python 脚本集合，从基础到高级，带有自动化任务脚本。
 
-* [GitHub - facebook/pyre-check: Performant type-checking for python.](https://github.com/facebook/pyre-check) 符合 PEP 484 的 Python 高性能类型检查器。Pyre 可以逐步分析包含数百万行代码的代码库，从而在开发人员编写代码时为他们提供即时反馈。您可以在 Pyre Playground 中的示例中试用它。
+* [facebook/pyre-check: Performant type-checking for python.](https://github.com/facebook/pyre-check) 符合 PEP 484 的 Python 高性能类型检查器。Pyre 可以逐步分析包含数百万行代码的代码库，从而在开发人员编写代码时为他们提供即时反馈。可在 Pyre Playground 中中试用它。
 
 * [arrow-py/arrow](https://github.com/arrow-py/arrow) Python 库，提供了明智且人性化的方法来创建、操作、格式化和转换日期、时间和时间戳。可以帮助您以更少的导入和更少的代码处理日期和时间。
 
@@ -8325,6 +8473,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [gaogaotiantian/viztracer](https://github.com/gaogaotiantian/viztracer) 低开销的日志记录/调试/分析工具，可以跟踪和可视化 python 代码执行。
 
 * [bee-san/pyWhat](https://github.com/bee-san/pyWhat) 识别任何东西。pyWhat 可让您轻松识别电子邮件、IP 地址等。给它一个 .pcap 文件或一些文本，它会告诉你它是什么
+
+* [taizilongxu/interview_python](https://github.com/taizilongxu/interview_python) 关于Python的面试题
 
 ## C/C++ 程序设计
 
@@ -8722,6 +8872,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 - [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) LeetCode by Go 的解决方案，100% 测试覆盖率，运行时击败 100% / LeetCode 题解
 
 - [traefik/yaegi](https://github.com/traefik/yaegi) 另一位优雅的Go解释器。它为 Go 运行时之上的嵌入式解释器或交互式 shell 中的可执行 Go 脚本和插件提供支持。
+
+- [influxdata/telegraf](https://github.com/influxdata/telegraf) 使用 Go 构建的插件驱动的服务器代理，用于收集和报告指标。
 * [johnkerl/miller](https://github.com/johnkerl/miller) Miller 就像 awk、sed、剪切、连接和排序的名称索引数据，如 CSV、TSV 和表格 JSON。
 
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
@@ -8884,6 +9036,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [lingcoder/OnJava8](https://github.com/lingcoder/OnJava8) 《On Java 8》中文版
 
 * [alibaba/arthas](https://github.com/alibaba/arthas) 阿里巴巴开源的 Java 诊断工具。允许开发人员解决Java应用程序的生产问题，而无需修改代码或重新启动服务器。
+
+* [ LinShunKang/MyPerf4J](https://github.com/LinShunKang/MyPerf4J) 高性能 Java APM。由 ASM 提供支持。试试吧。
 
 * [andreabergia/rjvm](https://github.com/andreabergia/rjvm) 一个用 Rust 编写的小型 JVM。学习项目
 
@@ -9157,7 +9311,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [bbatsov/clojure-style-guide](https://github.com/bbatsov/clojure-style-guide) Clojure编程语言的社区编码风格指南
 
-* [unisonweb/unison](https://github.com/unisonweb/unison) 一种现代的静态纯函数式语言，能够使用单个程序描述整个分布式系统。
+* [unisonweb/unison](https://github.com/unisonweb/unison) 现代静态纯函数式语言，使用单个程序描述整个分布式系统。
 
 * [typelead/eta](https://github.com/typelead/eta) Eta编程语言，JVM上Haskell的一种方言
 
@@ -9413,6 +9567,24 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn) 从github 各类 awesome list 通过爬虫聚合而来
 
-* [GitHub - Xfennec/progress: Linux tool to show progress for cp, mv, dd, ... (formerly known as cv)](https://github.com/Xfennec/progress) Linux 工具显示 cp、mv、dd 等的进度。（以前称为 CV）
+* [Xfennec/progress](https://github.com/Xfennec/progress) Linux 工具显示 cp、mv、dd 等的进度。（以前称为 CV）
+
+* [grafana/pyroscope](https://github.com/grafana/pyroscope) 连续分析平台。调试性能问题，细化到一行代码。开源的连续分析平台。它将帮助您：查找代码中的性能问题和瓶颈、使用高基数标记/标签来分析应用程序、解决 CPU 使用率过高的问题、追踪内存泄漏、了解应用程序的调用树、自动检测代码以将分析数据链接到跟踪。
+
+* [lichess-org/lila](https://github.com/lichess-org/lila) 永远免费、无广告和开源的国际象棋服务器
+
+* [csseky/cskaoyan](https://github.com/csseky/cskaoyan) 提供计算机考研和软件工程考研专业的各个学校 考研真题
+
+* [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) 学习 Vim 和 Vimscript 并不难。这是您正在寻找的指南
+
+* [microsoft/wslg](https://github.com/microsoft/wslg) 使适用于 Linux 的 Windows 子系统能够包括对 Wayland 和 X 服务器相关方案的支持
+
+* [vygr/ChrysaLisp](https://github.com/vygr/ChrysaLisp) 64 位、MIMD、多 CPU、多线程、多核、多用户并行操作系统，具有 GUI、终端、OO 汇编器、类库、C 脚本编译器、Lisp 解释器、调试器、分析器、矢量字体引擎等功能。它支持 x64、Riscv64 和 Arm64 的 MacOS、Windows 和 Linux，并最终将转向裸机。它还允许对各种网络拓扑进行建模，并使用ChrysaLib hub_nodes加入异构主机网络。它有一个虚拟的CPU指令集和一个强大的对象和类系统，用于汇编程序和高级语言。它具有功能级动态绑定和加载功能，以及一个命令终端，该终端具有熟悉的管道式命令行应用程序界面。还提供了一个类似 Common Lisp 的解释器。
+
+* [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) 精选的令人愉快的 Bash 脚本和资源列表。
+
+* [babashka/babashka](https://github.com/babashka/babashka) 用于脚本编写的原生、快速启动的 Clojure 解释器
+
+* [screeps/screeps](https://github.com/screeps/screeps) 用于编写游戏 Screeps 的独立服务器。Screeps 是一款面向程序员的 MMO RTS 沙盒游戏，其中核心机制是为您的单位 AI 编程。你通过编写 JavaScript 来控制你的殖民地，这些 JavaScript 在由与你同等的其他玩家填充的单一持久世界中 24/7 全天候运行。
 
 # end
