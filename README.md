@@ -1113,6 +1113,8 @@
 
 * [facebookresearch/llama-recipes](https://github.com/facebookresearch/llama-recipes) facebook LLaMA 模型的示例和手册
 
+* [THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3) ChatGLM3 系列中的开源模型，在保留了前两代模型对话流畅、部署门槛低等众多优秀特性的基础上，ChatGLM3-6B 引入了如下特性：更强大的基础模型： ChatGLM3-6B 的基础模型 ChatGLM3-6B-Base 采用了更多样的训练数据、更充分的训练步数和更合理的训练策略。在语义、数学、推理、代码、知识等不同角度的数据集上测评显示，ChatGLM3-6B-Base 具有在 10B 以下的基础模型中最强的性能。更完整的功能支持： ChatGLM3-6B 采用了全新设计的 Prompt 格式，除正常的多轮对话外。同时原生支持工具调用（Function Call）、代码执行（Code Interpreter）和 Agent 任务等复杂场景。更全面的开源序列： 除了对话模型 ChatGLM3-6B 外，还开源了基础模型 ChatGLM3-6B-Base、长文本对话模型 ChatGLM3-6B-32K。以上所有权重对学术研究完全开放，在填写问卷进行登记后亦允许免费商业使用。
+
 * [THUDM/ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B) 开源中英双语对话模型 ChatGLM-6B 的第二代版本，在保留了初代模型对话流畅、部署门槛较低等众多优秀特性的基础之上，引入了如下新特性：`更强大的性能`：全面升级了基座模型。ChatGLM2-6B 使用了 GLM 的混合目标函数，经过了 1.4T 中英标识符的预训练与人类偏好对齐训练，评测结果显示，相比于初代模型，MMLU（+23%）、CEval（+33%）、GSM8K（+571%） 、BBH（+60%）等数据集上的性能取得了大幅度的提升，在同尺寸开源模型中具有较强的竞争力。`更长的上下文`：基于 FlashAttention 技术，我们将基座模型的上下文长度（Context Length）由 ChatGLM-6B 的 2K 扩展到了 32K，并在对话阶段使用 8K 的上下文长度训练。对于更长的上下文，我们发布了 ChatGLM2-6B-32K 模型。LongBench 的测评结果表明，在等量级的开源模型中，32K 有着较为明显的竞争优势。`更高效的推理`：基于 Multi-Query Attention 技术，有更高效的推理速度和更低的显存占用：在官方的模型实现下，推理速度相比初代提升了 42%，INT4 量化下，6G 显存支持的对话长度由 1K 提升到了 8K。`更开放的协议`：权重对学术研究完全开放，在填写问卷进行登记后亦允许免费商业使用。
 
 * [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 开源的、支持中英双语的对话语言模型，基于 [General Language Model (GLM)](https://github.com/THUDM/GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答。
@@ -1691,6 +1693,8 @@
 
 * [thu-coai/Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) 中文安全prompts，评估和提升大模型的安全性。
 
+* [linexjlin/GPTs](https://github.com/linexjlin/GPTs) 此存储库收集泄露的 各种 GPT 提示词。
+
 * [RUCAIBox/HaluEval](https://github.com/RUCAIBox/HaluEval) 大型语言模型的大规模幻觉评估基准。包括 5,000 个带有 ChatGPT 响应的一般用户查询和来自三个任务的 30,000 个特定于任务的示例，即问答、基于知识的对话和文本摘要。
 
 * [noahshinn024/reflexion](https://github.com/noahshinn024/reflexion) 反思：语言代理与语言强化学习，提出了Reflexion框架，使用语言反馈信号(verbalre inforcement)来帮助agent从先前的失败经验中学习。具体地，Reflexion将传统梯度更新中的参数信号转变为添加在大模型上下文中的语言总结，使得agent在下一个episode中能参考上次执行失败的失败经验，从而提高agent的执行效果。这个过程和人类反思(reflexion)过程十分相似。
@@ -1797,6 +1801,24 @@
 
 * [ParisNeo/lollms-webui](https://github.com/ParisNeo/lollms-webui) LLM（大型语言模型）模型的中心。该项目旨在提供一个用户友好的界面，以访问和利用各种LLM模型来完成广泛的任务。
 
+* [mit-han-lab/llm-awq](https://github.com/mit-han-lab/llm-awq) AWQ：用于 LLM 压缩和加速的激活感知权重量化
+
+* [vectorch-ai/ScaleLLM](https://github.com/vectorch-ai/ScaleLLM) 高效的 LLM 推理解决方案，主要特点：高效率：在高性能 LLM 推理方面表现出色，利用最先进的技术和技术，如 Flash Attention、Paged Attention、Continuous Batching 等。张量并行性：利用张量并行性实现高效的模型执行。兼容 OpenAI 的 API：与 OpenAI 兼容的高效 golang rest api 服务器。Huggingface 型号：与大多数流行的 HF 型号无缝集成，支持 safetensors。可定制：提供自定义灵活性以满足您的特定需求，并提供添加新模型的简单方法。生产就绪：ScaleLLM 在设计时考虑到了生产环境，配备了强大的系统监控和管理功能，以确保无缝的部署体验。
+
+* [tjunlp-lab/Awesome-LLMs-Evaluation-Papers](https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers) 评估大型语言模型：一项综合调查。将LLM的评估分为三大类：知识和能力评估、对齐评估和安全性评估。
+
+* [microsoft/promptflow](https://github.com/microsoft/promptflow) 构建高质量的 LLM 应用程序 - 从原型设计、测试到生产部署和监控。旨在简化基于 LLM 的 AI 应用程序的端到端开发周期，从构思、原型设计、测试、评估到生产部署和监控。它使快速工程变得更加容易，并使您能够构建具有生产质量的 LLM 应用程序。
+
+* [WooooDyy/LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List)  一项基于大型语言模型的代理的兴起和潜力的调查，由于大型语言模型 （LLM） 表现出的多功能和卓越的功能，它们被视为通用人工智能 （AGI） 的潜在希望的火花，为构建通用 AI 代理提供了希望。许多研究工作都利用 LLM 作为构建 AI 代理的基础，并取得了重大进展。
+
+* [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) 面向高级用户的 LLM 前端。本地安装界面，可让您与文本生成 AI （LLM） 交互，以与自定义角色进行聊天和角色扮演。
+
+* [BerriAI/litellm](https://github.com/BerriAI/litellm) 使用 OpenAI 格式调用所有 LLM API。使用 Bedrock、Azure、OpenAI、Cohere、Anthropic、Ollama、Sagemaker、HuggingFace、Replicate （100+ LLM）
+
+* [mosaicml/llm-foundry](https://github.com/mosaicml/llm-foundry) 用于 MosaicML 基础模型的 LLM 训练代码，包含用于训练、微调、评估和部署 LLM 的代码，以便使用 Composer 和 MosaicML 平台进行推理。该代码库设计为易于使用、高效和灵活，旨在支持使用最新技术进行快速实验。
+
+* [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) 您的个人私人 ChatGPT。在一个非常干净的 UI 中支持无限的文档、线程以及并发用户和管理。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -1812,6 +1834,10 @@
 * [facebookresearch/codellama](https://github.com/facebookresearch/codellama) 基于 Llama 2 的代码大型语言模型系列，在开放模型中提供最先进的性能、填充功能、对大型输入上下文的支持以及编程任务的零镜头指令跟踪能力。我们提供多种风格来涵盖广泛的应用：基础模型（Code Llama），Python 专业化（Code Llama - Python）和指令遵循模型（Code Llama - Instruct），每个模型都有 7、13 和 34B 参数。所有模型都在16k 个令牌的序列上进行训练，并显示对最多 100k 个令牌的输入的改进。7B 和 13B 代码骆驼和代码骆驼 - 指示变体支持基于周围内容的填充。通过使用更高的代码采样微调 Llama 2 开发的。
 
 * [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder) 一种在源代码和自然语言文本上训练的语言模型 （LM）。它的训练数据包含了 80 多种不同的编程语言，以及从 GitHub 问题和提交以及笔记本中提取的文本。
+
+* [microsoft/TypeChat](https://github.com/microsoft/TypeChat) 一个库，可以轻松使用类型构建自然语言界面。传统上，构建自然语言界面是很困难的。这些应用通常依靠复杂的决策树来确定意图并收集采取行动所需的输入。LLM使我们能够从用户那里获取自然语言输入并与意图匹配，从而使这变得更容易。这带来了新的挑战，包括需要约束模型的响应以确保安全性，构建模型的响应以进行进一步处理，以及确保模型的响应有效。提示工程旨在解决这些问题，但随着提示大小的增加，学习曲线陡峭，脆弱性增加。TypeChat 用模式工程取代了提示工程。只需定义NLP程序中支持的意向的类型即可。这可以像用于对情绪进行分类的界面一样简单，也可以像购物车或音乐应用程序的类型一样简单。例如，若要向架构添加其他意向，开发人员可以将其他类型添加到可区分的联合中。要使架构分层，开发人员可以使用“元架构”根据用户输入选择一个或多个子架构。定义类型后，TypeChat 会通过以下方式处理其余工作：1.使用类型构造 LLM 的提示。2.验证 LLM 响应是否符合架构。如果验证失败，则通过进一步的语言模型交互来修复不符合项的输出。3.简明扼要地总结（不使用 LLM）实例，并确认它与用户意图一致。
+
+* [salesforce/CodeGen](https://github.com/salesforce/CodeGen) 一系列用于程序合成的开源模型。接受过 TPU-v4 训练。与 OpenAI Codex 竞争。
 
 * [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) 使用GPT 帮助开发人员将构建应用的速度提高 20 倍
 
