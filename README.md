@@ -15,12 +15,13 @@
     <a href="https://github.com/wuwenjie1992/StarrySky/blob/master/LICENSE" style="text-decoration:none" >
         <img src="https://img.shields.io/badge/License-MIT-blue" alt="GitHub license"/>
     </a>
+
 </p>
 <h3 align="center">精选了千余项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
 <h3 align="center">Selected more than 1000 projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc.</h3>
 <h3 align="center">让更多优秀的项目被人发现，让更多的人感受开源的魅力。</h3>
 <h3 align="center">Let more excellent projects be discovered by people, let more people feel the charm of open source.</h3>
-<h3 align="center">持续更新！欢迎star！😀😀😀 Continue to update! Welcome to star! 😀😀😀</h3>
+<h3 align="center">持续更新！欢迎🌟star！😀😀😀 Continue to update! Welcome to star! 😀😀😀</h3>
 
 # 目录
 
@@ -43,17 +44,23 @@
 - [硬件](#硬件)
 - [其他项目](#其他项目)
 
-# Star数变化
+# Star🌟数变化
 
 * [![关注者](https://starchart.cc/wuwenjie1992/StarrySky.svg)](https://starchart.cc/wuwenjie1992/StarrySky)
 
+# 加入社区
+
+<a href="https://discord.gg/jUkG8kBhE3" style="text-decoration:none" target="_blank">
+   <img src="https://img.shields.io/discord/1185098807831171082?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=flat-square" alt="加入discord社区"/> 
+</a>
+
 # 机器学习与深度学习
 
-* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) ![stars](https://img.shields.io/github/stars/fengdu78/Coursera-ML-AndrewNg-Notes.svg?style=social) [教程/笔记]吴恩达老师的机器学习课程个人笔记
+* [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) ![stars](https://img.shields.io/github/stars/fengdu78/Coursera-ML-AndrewNg-Notes.svg?style=social) 吴恩达老师的机器学习课程个人笔记
 
-* [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) ![stars](https://img.shields.io/github/stars/d2l-ai/d2l-zh.svg?style=social) [教程/笔记]《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被60多个国家的400多所大学用于教学。
+* [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) ![stars](https://img.shields.io/github/stars/d2l-ai/d2l-zh.svg?style=social) 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被60多个国家的400多所大学用于教学。
 
-* [apachecn/AiLearning](https://github.com/apachecn/AiLearning) ![stars](https://img.shields.io/github/stars/apachecn/AiLearning.svg?style=social) [教程/笔记]AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
+* [apachecn/AiLearning](https://github.com/apachecn/AiLearning) ![stars](https://img.shields.io/github/stars/apachecn/AiLearning.svg?style=social) AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
 
 * [microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
 
@@ -71,7 +78,7 @@
 
 * [fengdu78/lihang-code](https://github.com/fengdu78/lihang-code) 《统计学习方法》第二版的代码实现
 
-* [Dod-o/Statistical-Learning-Method_Code](https://github.com/Dod-o/Statistical-Learning-Method_Code) 手写实现李航《统计学习方法》书中全部算法 
+* [Dod-o/Statistical-Learning-Method_Code](https://github.com/Dod-o/Statistical-Learning-Method_Code) 实现李航《统计学习方法》中全部算法 
 
 * [datawhalechina/pumpkin-book](https://github.com/datawhalechina/pumpkin-book) 本书旨在对西瓜书里比较难理解的公式加以解析，以及对部分公式补充具体的推导细节。
 
@@ -117,7 +124,7 @@
 
 * [academic/awesome-datascience](https://github.com/academic/awesome-datascience) 很棒的数据科学存储库，用于学习和应用现实世界的问题。
 
-* [eugeneyan/applied-ml](https://github.com/eugeneyan/applied-ml) 关于生产中的数据科学和机器学习的精选论文、文章和博客。
+* [eugeneyan/applied-ml](https://github.com/eugeneyan/applied-ml) 生产中的数据科学和机器学习的精选论文、文章和博客。
 
 * [eriklindernoren/ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch) 从头开始机器学习。机器学习模型和算法的裸骨 NumPy 实现，重点关注可访问性。旨在涵盖从线性回归到深度学习的所有内容。
 
@@ -796,6 +803,8 @@
 
 * [rayon-rs/rayon](https://github.com/rayon-rs/rayon) Rust 的数据并行库。它非常轻巧，可以轻松地将顺序计算转换为并行计算。它还保证了数据竞争的自由。
 
+* [flyteorg/flyte](https://github.com/flyteorg/flyte) 可扩展且灵活的工作流编排平台，可无缝统一数据、ML 和分析堆栈。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1150,6 +1159,8 @@
 * [InternLM/InternLM](https://github.com/InternLM/InternLM) InternLM开源了70亿和200亿参数基础模型，以及针对实际场景和训练系统量身定制的聊天模型。开源的轻量级训练框架，旨在支持模型预训练，而无需广泛的依赖关系。通过单个代码库，它支持在具有数千个 GPU 的大规模集群上进行预训练，并在单个 GPU 上进行微调，同时实现卓越的性能优化。InternLM 在 1024 个 GPU 上训练期间实现了近 90% 的加速效率。InternLM-20B选择了更深的架构，深度设置为60层。这超过了使用32或40层的传统7B和13B型号。当参数有限时，增加层数可以增强模型的整体功能。此外，与InternLM-7B相比，InternLM-20B使用的预训练数据经过了更高质量的清理，并补充了丰富的知识数据，旨在增强理解和推理能力。因此，它在理解、推理、数学和编程能力方面表现出显着的改进——所有这些都测试了语言模型的技术熟练程度。
 
 * [InternLM/InternLM-techreport](https://github.com/InternLM/InternLM-techreport) 书生·浦语由上海人工智能实验室和商汤科技（同等贡献）与香港中大、复旦和上海交大联合开发的多语言大语言模型。具有104B参数的多语言基础语言模型。在具有 1.6T 代币的大型语料库上进行预训练，并具有多阶段渐进过程，然后进行微调以符合人类偏好。我们还开发了一个名为Uniscale-LLM的训练系统，用于高效的大型语言模型训练。对多项基准的评估表明，InternLM在知识理解、阅读理解、数学和编码等多个方面都取得了最先进的表现。凭借如此全面的能力，InternLM在综合考试中取得了出色的表现，包括MMLU，AGIEval，C-Eval和高考-Bench，而无需借助外部工具。在这些基准测试中，InternLM 不仅明显优于开源模型，而且与 ChatGPT 相比，还获得了卓越的性能。此外，InternLM在理解中文和中国文化方面表现出出色的能力，这使其成为支持面向中文的语言应用的合适基础模型，并提供了跨各种知识领域和任务的基准和示例。
+
+* [mistralai/mistral-src](https://github.com/mistralai/mistral-src) Mistral AI 7B v0.1 模型的参考实现。一个功能强大且快速的模型，适用于许多用例。虽然速度快 6 倍，但它在所有基准测试中都与 Llama 2 70B 相当或更胜一筹，会说多种语言，具有自然的编码能力。它处理 32k 序列长度。
 
 * [clue-ai/ChatYuan](https://github.com/clue-ai/ChatYuan) 用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。它基于PromptCLUE-large结合数亿条功能对话多轮对话数据进一步训练得到。
 
@@ -1819,6 +1830,76 @@
 
 * [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) 您的个人私人 ChatGPT。在一个非常干净的 UI 中支持无限的文档、线程以及并发用户和管理。
 
+* [dataelement/bisheng](https://github.com/dataelement/bisheng) 领先的开源大模型应用开发平台，赋能和加速大模型应用开发落地，帮助用户以最佳体验进入下一代应用开发模式。
+
+* [kyrolabs/awesome-langchain](https://github.com/kyrolabs/awesome-langchain) 使用LangChain的工具和项目的精选列表。LangChain是一个了不起的框架，可以在短时间内完成LLM项目，并且生态系统正在快速发展。这里试图跟踪围绕LangChain的举措。
+
+* [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) 增强的 ChatGPT 克隆：具有 OpenAI、GPT-4 Vision、Bing、Anthropic、OpenRouter、Google Gemini、AI 模型切换、消息搜索、langchain、DALL-E-3、ChatGPT 插件、OpenAI 功能、安全多用户系统、预设、完全开源的自托管。更多功能正在开发中
+
+* [run-llama/rags](https://github.com/run-llama/rags) 一个 Streamlit 应用程序，可让您使用自然语言从数据源创建 RAG (Retrieval Augmented Generation，检索增强生成)管道。
+
+* [stas00/ml-engineering](https://github.com/stas00/ml-engineering) 一个开放的方法集合，可帮助成功训练大型语言模型和多模态模型。这是一本适合LLM/VLM培训工程师和操作员的技术材料。也就是说，这里的内容包含大量脚本和复制粘贴命令，使您能够快速满足您的需求。
+
+* [steven2358/awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) 现代生成式人工智能项目和服务的精选列表。生成式人工智能是一种通过使用在大量数据上训练的机器学习算法来创建图像、声音和文本等原创内容的技术。与其他形式的人工智能不同，它能够创建独特且以前看不见的输出，例如逼真的图像、数字艺术、音乐和写作。这些作品通常有自己独特的风格，甚至很难与人工创作的作品区分开来。生成式人工智能在艺术、娱乐、营销、学术界和计算机科学等领域有着广泛的应用。
+
+* [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat/tree/main) 开源的高性能聊天机器人框架，支持语音合成、多模态和可扩展的函数调用插件系统。支持一键免费部署您的私人 ChatGPT/LLM Web 应用程序。
+
+* [iryna-kondr/scikit-llm](https://github.com/iryna-kondr/scikit-llm) 将 LLM 无缝集成到 scikit-learn 中。将 ChatGPT 等强大的语言模型无缝集成到 scikit-learn 中，以增强文本分析任务。
+
+* [argilla-io/argilla](https://github.com/argilla-io/argilla) 以数据为中心的 LLM 开发的开源平台。集成人工和模型反馈循环，以实现持续的 LLM 优化和监督。
+
+* [taranjeet/awesome-gpts](https://github.com/taranjeet/awesome-gpts) 社区创建的所有 GPTs 的集合。
+
+* [ai-boost/Awesome-GPTs](https://github.com/ai-boost/Awesome-GPTs) 精选的超棒 GPTs列表。展示全球 AI 爱好者创建的创新和令人兴奋的 GPT 模型的空间。
+
+* [friuns2/BlackFriday-GPTs-Prompts](https://github.com/friuns2/BlackFriday-GPTs-Prompts/tree/main) 不需要 plus 订阅的免费 GPTs 列表
+
+* [GitHub - all-in-aigc/gpts-works: A Third-party GPTs store](https://github.com/all-in-aigc/gpts-works) 第三方 GPTs 商店
+
+* [Anil-matcha/Awesome-GPT-Store](https://github.com/Anil-matcha/Awesome-GPT-Store) 精心策划的专用自定义 GPTs 聊天机器人列表，旨在帮助您完成从技术问题到创造性工作的各种任务。
+
+* [devisasari/awesome-chatgpt-store](https://github.com/devisasari/awesome-chatgpt-store) 展示全球 AI 爱好者创建的 GPTs 的空间。
+
+* [snwfdhmp/awesome-gpt-prompt-engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering) 精选的 GPT 提示工程资源、工具和其他闪亮事物的清单。
+
+* [SamurAIGPT/EmbedAI](https://github.com/SamurAIGPT/EmbedAI) 利用本地 LLM 的功能，在不依赖 Internet 的情况下在文档上创建 QnA 聊天机器人。 确保完全的隐私和安全，因为您的任何数据都不会离开您的本地执行环境。即使没有互联网连接，也可以无缝处理和查询您的文档。
+
+* [pandora-next/deploy](https://github.com/pandora-next/deploy) 更强大，但还是那个让你呼吸顺畅的ChatGPT。支持GPTs，最新UI。可配置共享的tokens，会有一个功能等同chat-shared3.zhile.io的共享站（目前2622个普号、22个Plus）。
+
+* [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt) 收集Agent的系统提示，分享一些提示注入知识。可以通过向 ChatGPT 发送以下命令来获取 ChatGPT 的系统提示（核心概念是转移 ChatGPT 的注意力，使其不会意识到自己违反了规则）。
+
+* [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) 专门用于与 ChatGPT 相关的开源 GitHub 存储库的精选资源列表
+
+* [DefTruth/Awesome-LLM-Inference](https://github.com/DefTruth/Awesome-LLM-Inference) 精选的 Awesome LLM 推理论文列表，包含代码、TensorRT-LLM、vLLM、streaming-llm、AWQ、SmoothQuant、WINT8/4、Continuous Batching、FlashAttention、PagedAttention 等。
+
+* [gmpetrov/databerry](https://github.com/gmpetrov/databerry) 用于构建自定义 LLM 代理的无代码平台
+
+* [beyondguo/LLM-Tuning](https://github.com/beyondguo/LLM-Tuning) LoRA 微调和 RLHF 全流程
+
+* [chatpire/chatgpt-web-share](https://github.com/chatpire/chatgpt-web-share) ChatGPT Plus 共享方案。适用于个人、组织或团队的 ChatGPT 共享方案。共享一个 ChatGPT Plus 账号给多人使用，提供完善的管理和限制功能。
+
+* [dirk1983/chatgpt](https://github.com/dirk1983/chatgpt) 全网最易部署，响应速度最快的ChatGPT环境。PHP版调用OpenAI接口进行问答和画图，采用Stream流模式通信，一边生成一边输出。前端采用EventSource，支持Markdown格式解析，支持公式显示，代码有着色处理，支持画图。页面UI简洁，支持上下文连续会话。源码只有几个文件，没用任何框架，支持所有PHP版本，全部开源，极易二开。
+
+* [Grt1228/chatgpt-java](https://github.com/Grt1228/chatgpt-java) ChatGPT Java SDK支持流式输出、Gpt插件、联网。支持OpenAI官方所有接口。ChatGPT的Java客户端。OpenAI GPT-3.5-Turb GPT-4 Api Client for Java
+
+* [x-dr/chatgptProxyAPI](https://github.com/x-dr/chatgptProxyAPI) 使用cloudflare 搭建免费的 OpenAI api代理 ，解决网络无法访问问题。支持流式输出
+
+* [Hello-SimpleAI/chatgpt-comparison-detection](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) 论文“ChatGPT 与人类专家有多接近？比较语料库、评估和检测”。我们提出了第一个 Human vs. ChatGPT 对比语料, 叫做 HC3，在 Huggingface Datasets 上🤗提供：HC3-English \HC3-Chinese 
+
+* [openchatai/OpenCopilot](https://github.com/openchatai/OpenCopilot) 适用于您自己的 SaaS 产品的 AI Copilot。Shopify Sidekick 替代品。允许您拥有自己产品的 AI 副驾驶。它与您的底层 API 集成，可以在需要时执行 API 调用。它使用 LLM 来确定用户的请求是否需要调用 API 端点。然后，它决定调用哪个终结点，并根据给定的 API 定义传递相应的有效负载。
+
+* [LC1332/Chat-Haruhi-Suzumiya](https://github.com/LC1332/Chat-Haruhi-Suzumiya) Chat凉宫春日，一个开源的角色扮演聊天机器人 Cheng Li、Ziang Leng 等。通过大型语言模型在现实中复活动漫角色
+
+* [eon01/awesome-chatgpt](https://github.com/eon01/awesome-chatgpt) 精选的 ChatGPT 资源列表，包括库、SDK、API 等。
+
+* [awesome-assistants/awesome-assistants](https://github.com/awesome-assistants/awesome-assistants) 精选的令人敬畏的 AI 助手列表。带有所有这些助手的示例 Telegram 机器人可以在下面的链接上进行测试。
+
+* [voidful/awesome-chatgpt-dataset](https://github.com/voidful/awesome-chatgpt-dataset) 释放 LLM 的力量：探索这些数据集来训练你自己的 ChatGPT！
+
+* [yaodongC/awesome-instruction-dataset](https://github.com/yaodongc/awesome-instruction-dataset) 用于训练指令遵循 LLM 的开源数据集集合（ChatGPT、LLaMA、Alpaca）
+
+* [ntunlplab/traditional-chinese-alpaca](https://github.com/ntunlplab/traditional-chinese-alpaca) 基于羊驼数据集的繁体中文指令数据集。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -1898,6 +1979,10 @@
 * [TabbyML/tabby](https://github.com/TabbyML/tabby) 自托管的AI编码助手，提供GitHub Copilot的开源和本地替代方案。
 
 * [WisdomShell/codeshell](https://github.com/WisdomShell/codeshell) PKU-KCL开发的一系列代码大型语言模型。北京大学知识计算实验室联合四川天府银行AI团队研发的多语言代码大模型基座。CodeShell具有70亿参数，在五千亿Tokens进行了训练，上下文窗口长度为8192。在权威的代码评估Benchmark（HumanEval与MBPP）上，CodeShell取得同等规模最好的性能。
+
+* [sweepai/sweep](https://github.com/sweepai/sweep) AI 驱动的初级开发人员，用于小功能和错误修复。
+
+* [SkalskiP/awesome-chatgpt-code-interpreter-experiments](https://github.com/skalskip/awesome-chatgpt-code-interpreter-experiments) 你可以用 ChatGPT + Code Interpreter 组合做的很棒的事情
 
 #### 健康医学大模型及语料库
 
@@ -3880,6 +3965,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [aws-samples/aws-serverless-workshops](https://github.com/aws-samples/aws-serverless-workshops) 为 Wild Rydes 研讨会设置无服务器应用程序的代码和演练实验室
 
+* 
+
 ## 网络与前后端开发_其他
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
@@ -4309,6 +4396,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [novnc/noVNC](https://github.com/novnc/noVNC)  HTML VNC 客户端 JS库，也是一个基于该库构建的应用程序。noVNC 在任何现代浏览器（包括移动浏览器（iOS 和 Android））中都能正常运行。
 
 * [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) LibVNCServer/LibVNCClient 是跨平台的 C 库，可让您在程序中轻松实现 VNC 服务器或客户端功能。
+
+* [activepieces/activepieces](https://github.com/activepieces/activepieces) 您最友好的开源多合一自动化工具 工作流自动化工具 ✨ 100+ 集成 / 企业自动化工具 / ChatBot / Zapier相关应用
+
+* [huginn/huginn](https://github.com/huginn/huginn) 用于构建代理的系统，这些代理可以为您在线执行自动化任务。他们可以阅读网络、监视事件并代表您采取行动。Huginn 的代理创建和使用事件，并沿有向图传播它们。将其视为您自己的服务器上 IFTTT 或 Zapier 的可破解版本。
+
+* [pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint) APM，用于大规模分布式系统的应用程序性能管理工具。
 
 ## 区块链
 
@@ -7572,6 +7665,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [carpedm20/awesome-hacking](https://github.com/carpedm20/awesome-hacking) 黑客教程，工具和资源的精选列表
 
 * [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) 为黑客、渗透测试人员和安全研究人员收集的各种很棒的列表
+
+* [fr0gger/Awesome-GPT-Agents](https://github.com/fr0gger/Awesome-GPT-Agents) 由社区创建的编制一份专注于网络安全（进攻性和防御性）的 GPT 代理综合列表。
 
 * [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
 
