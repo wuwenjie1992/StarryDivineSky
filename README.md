@@ -805,6 +805,10 @@
 
 * [flyteorg/flyte](https://github.com/flyteorg/flyte) 可扩展且灵活的工作流编排平台，可无缝统一数据、ML 和分析堆栈。
 
+* [davisking/dlib](https://github.com/davisking/dlib) 用于在 C++ 中制作真实世界机器学习和数据分析应用程序的工具包
+
+* [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) 具有标准化输出格式的多类型数据标注和标注工具
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -3278,9 +3282,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [jquery/jquery](https://github.com/jquery/jquery) jQuery JavaScript 库
 
-* [wangdoc/typescript-tutorial](https://github.com/wangdoc/typescript-tutorial) TypeScript 开源教程，介绍基本概念和用法，面向初学者。
+* [wangdoc/typescript-tutorial](https://github.com/wangdoc/typescript-tutorial) TypeScript 教程，介绍基本概念和用法，面向初学者。
 
 * [javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info) 现代 JavaScript 教程（The Modern JavaScript Tutorial），以最新的 ECMAScript 规范为基准，通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识。
+
+* [mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog) 冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。
+
+* [tj/commander.js](https://github.com/tj/commander.js) node.js命令行界面变得简单
 
 ## 前端开发框架及项目
 
@@ -3298,6 +3306,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [bolshchikov/js-must-watch](https://github.com/bolshchikov/js-must-watch) 关于javascript的必看视频
 
+* [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) 适用于现代网站和一丝不苟的开发人员的完美前端清单
+
 * [google/material-design-icons](https://github.com/google/material-design-icons) 来自谷歌两个不同的官方图标集，使用相同的底层设计。材质图标是经典套装，材质符号于 2022 年 4 月推出，基于可变字体技术构建。
 
 * [google/material-design-lite](https://github.com/google/material-design-lite) Material Design Lite 允许您为静态内容网站添加 Material Design 外观。它不依赖于任何JavaScript框架或库。针对跨设备使用进行了优化，在较旧的浏览器中优雅地降级，并提供从一开始就可以访问的体验。
@@ -3306,6 +3316,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [youzan/vant](https://github.com/youzan/vant) 一个轻量级的、可定制的 Vue UI 库，用于移动 Web 应用程序。特性：
    性能极佳，组件平均体积小于 1KB（min+gzip）、80+ 个高质量组件，覆盖移动端主流场景、零外部依赖，不依赖三方 npm 包、使用 TypeScript 编写，提供完整的类型定义、单元测试覆盖率超过 90%，提供稳定性保障、提供丰富的中英文文档和组件示例、提供 Sketch 和 Axure 设计资源、支持 Vue 2-Vue 3 和微信小程序、支持 Nuxt 2-Nuxt 3，提供 Nuxt 的 Vant Module、支持主题定制，内置 700+ 个主题变量、支持按需引入和 Tree Shaking、支持无障碍访问（持续改进中）、支持深色模式、支持服务器端渲染、支持国际化，内置 30+ 种语言包
+
+* [nuxt/nuxt](https://github.com/nuxt/nuxt) 免费的开源框架，具有直观且可扩展的方式，可以使用 Vue.js 创建类型安全、高性能和生产级的全栈 Web 应用程序和网站。它提供了许多功能，可以轻松构建快速、SEO 友好且可扩展的 Web 应用程序，包括：服务器端渲染、静态站点生成或混合渲染；具有代码拆分功能的自动路由；状态管理；SEO优化；自动导入；可扩展 180+ 模块；部署到各种托管平台
+
+* [vuejs/pinia](https://github.com/vuejs/pinia) Vue 的官方状态管理库，直观、类型安全、轻量级和灵活的 Vue 应用状态管理，使用具有 DevTools 支持的组合 API
+
+* [GitHub - vuejs/vuex: 🗃️ Centralized State Management for Vue.js.](https://github.com/vuejs/vuex) Vue.js 的集中式状态管理。Vue 的官方状态管理库已更改为 Pinia。Pinia 具有与 Vuex 5 几乎完全相同或增强的 API，如 Vuex 5 RFC 中所述。你可以简单地将 Pinia 视为具有不同名称的 Vuex 5。Pinia 也适用于 Vue 2.x。
 
 * [electron/electron](https://github.com/electron/electron)使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
 
@@ -3342,6 +3358,20 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella) 免费Bootstrap4 管理仪表板模板
 
 * [akveo/ngx-admin](https://github.com/akveo/ngx-admin) 基于Angular 10 +的可定制管理仪表板模板
+
+* [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) 免费的开源中后端模板。采用最新 vue3 、vite4 、TypeScript 等主流技术发展，开箱即用的中后端前端方案也可用于学习参考。
+
+* [akveo/ngx-admin](https://github.com/akveo/ngx-admin) 基于 Angular 10+ 的可定制管理仪表板模板
+
+* [iview/iview-admin](https://github.com/iview/iview-admin) 基于 iView 的 Vue 2.0 管理员管理系统模板
+
+* [creativetimofficial/material-dashboard](https://github.com/creativetimofficial/material-dashboard) 免费的 Material Bootstrap Admin，具有受 Google Material Design 启发的全新设计。我们非常高兴地通过一套易于使用且美观的组件来介绍我们对材料概念的看法。Material Dashboard 建立在流行的 Bootstrap 框架之上，它带有几个经过重新设计的第三方插件，以适应其余元素。
+
+* [epicmaxco/vuestic-admin](https://github.com/epicmaxco/vuestic-admin) 免费且漂亮的 Vue.js 管理模板，具有 44+ 自定义 UI 组件。用 Vuestic UI 构建的。
+
+* [yezihaohao/react-admin](https://github.com/yezihaohao/react-admin) react 后台管理系统解决方案
+
+* [honghuangdc/soybean-admin](https://github.com/honghuangdc/soybean-admin) 基于Vue3、Vite3、TypeScript、NaiveUI 和 UnoCSS的清新优雅的中后台模版
 
 * [tabler/tabler](https://github.com/tabler/tabler) 建立在Bootstrap上的HTML Dashboard UI 工具包
 
@@ -3757,6 +3787,24 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [xhtml2pdf/xhtml2pdf](https://github.com/xhtml2pdf/xhtml2pdf) 使用 ReportLab 将 HTML 转换为 PDF 的库
 
+* [hakimel/reveal.js](https://github.com/hakimel/reveal.js) 开源的 HTML 表示框架。它使任何拥有网络浏览器的人都可以免费创建精美的演示文稿。具有强大的功能集，包括嵌套幻灯片、Markdown 支持、自动动画、PDF 导出、演讲者笔记、LaTeX 排版、语法突出显示代码和广泛的 API。
+
+* [gothinkster/realworld](https://github.com/gothinkster/realworld) “所有演示应用程序之母”——由 React、Angular、Node、Django 等提供支持的典范全栈 Medium.com 克隆
+
+* [Polymer/polymer](https://github.com/Polymer/polymer) Polymer 允许您构建封装的、可重用的 Web 组件，这些组件的工作方式与标准 HTML 元素类似，用于构建 Web 应用程序。使用使用 Polymer 构建的 Web 组件非常简单，只需导入其定义，然后像使用任何其他 HTML 元素一样使用它。`Web Components`：各种网站往往需要一些相同的模块，比如日历、调色板等等，这种模块就被称为“组件”（component）。Web Components 就是浏览器原生的组件规范。采用组件开发，有很多优点。（1）有利于代码复用。组件是模块化编程思想的体现，可以跨平台、跨框架使用，构建、部署和与其他 UI 元素互动都有统一做法。（2）使用非常容易。加载或卸载组件，只要添加或删除一行代码就可以了。（3）开发和定制很方便。组件开发不需要使用框架，只要用原生的语法就可以了。开发好的组件往往留出接口，供使用者设置常见属性，比如上面代码的heading属性，就是用来设置对话框的标题。（4）组件提供了 HTML、CSS、JavaScript 封装的方法，实现了与同一页面上其他代码的隔离。未来的网站开发，可以像搭积木一样，把组件合在一起，就组成了一个网站。这种前景是非常诱人的。
+
+* [vuejs/vue-cli](https://github.com/vuejs/vue-cli) 基于 webpack 的 Vue.js 开发工具
+
+* [pixijs/pixijs](https://github.com/pixijs/pixijs) HTML5 创作引擎：使用最快、最灵活的 2D WebGL 渲染器创建精美的数字内容。快速、轻量级的 2D 库，可在所有设备上运行。PixiJS 渲染器让每个人都可在不了解 WebGL 的情况下享受硬件加速的强大功能。
+
+* [angular/angular-cli](https://github.com/angular/angular-cli) Angular CLI 是一个命令行界面工具，用于初始化、开发、搭建脚手架、并直接从命令 shell 维护 Angular 应用程序。
+
+* [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) 将屏幕截图转换为代码（HTML/Tailwind CSS，或React或Vue或Bootstrap）。它使用 GPT-4 Vision 生成代码，使用 DALL-E 3 生成外观相似的图像。您现在还可以输入 URL 来克隆实时网站
+
+* [SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js) 通用交互式命令行用户界面的集合。
+
+* [umijs/qiankun](https://github.com/umijs/qiankun) 快速、简单、完整的微型前端解决方案。使您和您的团队能够利用微前端构建下一代企业级 Web 应用程序。微前端:使用不同 JavaScript 框架与多个团队一起构建现代 Web 应用的技术、策略和方法。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3965,7 +4013,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [aws-samples/aws-serverless-workshops](https://github.com/aws-samples/aws-serverless-workshops) 为 Wild Rydes 研讨会设置无服务器应用程序的代码和演练实验室
 
-* 
+* [hashicorp/terraform](https://github.com/hashicorp/terraform) 使你能够安全且可预测地创建、更改和改进基础结构。它是一种源代码可用的工具，可将 API 编码为声明性配置文件，这些文件可以在团队成员之间共享、视为代码、编辑、审查和版本控制。
+
+* [cli/cli](https://github.com/cli/cli) 命令行上的 GitHub。它将拉取请求、问题和其他 GitHub 概念带到您已经在使用 git 的位置和代码旁边的终端。
 
 ## 网络与前后端开发_其他
 
@@ -4402,6 +4452,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [huginn/huginn](https://github.com/huginn/huginn) 用于构建代理的系统，这些代理可以为您在线执行自动化任务。他们可以阅读网络、监视事件并代表您采取行动。Huginn 的代理创建和使用事件，并沿有向图传播它们。将其视为您自己的服务器上 IFTTT 或 Zapier 的可破解版本。
 
 * [pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint) APM，用于大规模分布式系统的应用程序性能管理工具。
+
+* [grpc/grpc](https://github.com/grpc/grpc) 现代、开源、高性能的远程过程调用 框架，可以在任何地方运行。gRPC 使客户端和服务器应用程序能够透明地进行通信，并简化连接系统的构建。
+
+* [TKkk-iOSer/WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) MacOS微信小助手 v2.0，消息自动回复、消息防撤回、远程控制(已支持语音)、微信多开、第二次登录免认证、聊天置底功能(类似置顶)、微信窗口置顶、会话多选删除、自动登录开关、通知中心快捷回复、聊天窗口表情包复制 & 存储、小助手检测更新提醒、alfred 快捷发送消息 & 打开窗口 (需安装：wechat-alfred-workflow)、会话一键已读、一键清除空会话、支持国际化、新增一键更新、新增关于小助手、去除微信url转链、史上最强 alfred 扩展、新增移除会话(不删除聊天记录)、菜单栏(关于小助手)新增 alfred 开关、新增是否使用微信自带浏览器开关、新增LaunchBar 扩展、新增禁止微信检测更新开关(非App Store版本)、新增小助手.app安装方式、支持退群监控，撤回消息定位
 
 ## 区块链
 
@@ -5433,6 +5487,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [alex000kim/nsfw_data_scraper](https://github.com/alex000kim/nsfw_data_scraper) 训练 NSFW 图像分类器的脚本集合
 
 * [tnfe/FFCreator](https://github.com/tnfe/FFCreator) 基于Node.js的轻量级灵活的短视频处理库。您只需要添加一些图片、音乐或视频剪辑，就可以使用它快速创建非常令人兴奋的视频相册。
+
+* [HumanSignal/labelImg](https://github.com/HumanSignal/labelImg) 在数十名贡献者的帮助下创建的流行图像注释工具，现已不再积极开发，而是已成为 Label Studio 社区的一部分。查看 Label Studio，这是一款最灵活的开源数据标注工具，适用于图像、文本、超文本、音频、视频和时间序列。
+
+* [pytorch/vision](https://github.com/pytorch/vision) 由流行的数据集、模型架构和用于计算机视觉的常见图像转换组成。
 
 # 因果推断
 
@@ -7412,7 +7470,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch) 目录搜索 - Web 路径发现，高级网络路径暴力破解程序
 
-* [yogeshojha/rengine](https://github.com/yogeshojha/rengine) reNgine 是一个用于 Web 应用程序的自动化侦察框架，专注于通过引擎、侦察数据关联和组织、持续监控、数据库支持以及简单而直观的用户界面进行高度可配置的简化侦察过程。reNgine 使渗透测试人员可以轻松地收集侦察信息
+* [yogeshojha/rengine](https://github.com/yogeshojha/rengine) 用于 Web 应用程序的自动化侦察框架，专注于通过引擎、侦察数据关联和组织、持续监控、数据库支持以及简单而直观的用户界面进行高度可配置的简化侦察过程。reNgine 使渗透测试人员可以轻松地收集侦察信息
+
+* [iovisor/bcc](https://github.com/iovisor/bcc) 用于基于 BPF 的 Linux IO 分析、网络、监控等的工具
 
 ## web shell、shellcode
 
@@ -8127,6 +8187,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) 用于保护 Linux 服务器的不断发展的操作指南。
 
 * [v1s1t0r1sh3r3/airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon) 多用途的 bash 脚本，用于 Linux 系统审计无线网络。
+
+* [slackhq/nebula](https://github.com/slackhq/nebula) 可扩展的 Overlay 网络工具，专注于性能、简单性和安全性。它可以让您无缝连接世界任何地方的计算机。Nebula 是可移植的，可以在 Linux、OSX、Windows、iOS 和 Android 上运行。它可以用来连接少量的计算机，但也能够连接数以万计的计算机。Nebula 包含了许多现有概念，如加密、安全组、证书和隧道，这些单独的部分在 Nebula 之前就以各种形式存在。Nebula 与现有产品的不同之处在于，它将所有这些想法结合在一起，从而产生一个大于其各个部分的总和。
 
 # 硬件
 
@@ -9055,6 +9117,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) 无需 Docker 守护程序即可为您的 Java 应用构建优化的 Docker 和 OCI 映像，而无需深入了解 Docker 最佳实践。
 
+* [zxing/zxing](https://github.com/zxing/zxing) ZXing （“Zebra Crossing”） 适用于 Java、Android 的条码扫描库
+
+* [yangchong211/YCBlogs](https://github.com/yangchong211/YCBlogs)  技术博客笔记大汇总，包括Java基础，线程，并发，数据结构；Android技术博客等等；常用设计模式；常见的算法；网络协议知识点；部分flutter笔记；还包括平时开发中遇到的bug汇总，收集了大量的面试题
+
+* [Col-E/Recaf](https://github.com/Col-E/Recaf) 易于使用的现代 Java 字节码编辑器，它抽象出了 Java 程序的复杂性
+
+* [qunarcorp/bistoury](https://github.com/qunarcorp/bistoury) 去哪儿网的java应用生产问题诊断工具，提供一站式诊断方案
+
 * [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) 提供了一个开发人员友好的API，可以与Chromium和LibreOffice等强大的工具进行交互，以将多种文档格式（HTML，Markdown，Word，Excel等）转换为PDF文件等等！
 
 * [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集GitHub高质量、有趣的开源项目。
@@ -9707,5 +9777,15 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [babashka/babashka](https://github.com/babashka/babashka) 用于脚本编写的原生、快速启动的 Clojure 解释器
 
 * [screeps/screeps](https://github.com/screeps/screeps) 用于编写游戏 Screeps 的独立服务器。Screeps 是一款面向程序员的 MMO RTS 沙盒游戏，其中核心机制是为您的单位 AI 编程。你通过编写 JavaScript 来控制你的殖民地，这些 JavaScript 在由与你同等的其他玩家填充的单一持久世界中 24/7 全天候运行。
+
+* [tonsky/FiraCode](https://github.com/tonsky/FiraCode) 带有编程连字的免费等宽字体。程序员使用大量符号，通常使用多个字符进行编码。对于人脑来说，像 或 <= := 这样的 -> 序列是单个逻辑标记，即使它们在屏幕上包含两个或三个字符。您的眼睛花费非零的能量来扫描、解析多个字符并将其连接成一个逻辑字符。Fira Code 是一种免费的等宽字体，包含用于常见编程多字符组合的连字。这只是一个字体呈现功能：底层代码保持 ASCII 兼容。这有助于更快地阅读和理解代码。一些频繁的序列，如 .. 或 // ，连字允许我们校正间距。
+
+* [github/gitignore](https://github.com/github/gitignore) 有用的 .gitignore 模板的集合
+
+* [996icu/996.ICU](https://github.com/996icu/996.ICU) 996.ICU 指的是“996工作，在ICU生病”，这是中国开发人员中具有讽刺意味的说法，这意味着遵循“996”工作时间表，你就有可能进入ICU（重症监护室）。由 IT 从业者发起的一项计划。我们欢迎来自其他领域和其他国家的人加入讨论。我们坚决维护劳动法，要求用人单位尊重劳动者的合法权益。
+
+* [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) 一个精心策划的令人敬畏的令人敬畏的清单。
+
+* [languagetool-org/languagetool](https://github.com/languagetool-org/languagetool) 开源校对软件，适用于英语、西班牙语、法语、德语、葡萄牙语、波兰语、荷兰语和其他 20 多种语言。它发现了许多简单的拼写检查器无法检测到的错误。
 
 # end
