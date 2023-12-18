@@ -2837,6 +2837,8 @@
 
 * [beyond/chinese_clean_passages_80m](https://huggingface.co/datasets/beyond/chinese_clean_passages_80m) 包含8千余万纯净中文段落，不包含任何字母、数字。文本长度大部分介于50~200个汉字之间。数据是基于CLUE中文预训练语料集进行处理、过滤得到的。
 
+* [tiiuae/falcon-refinedweb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) 由 TII 构建并在 ODC-By 1.0 许可下发布的海量英语网络数据集。通过对 CommonCrawl 进行严格的过滤和大规模重复数据删除而构建的;我们发现，在 RefinedWeb 上训练的模型在仅依赖于 Web 数据的情况下，可以达到在线性能或优于在精选数据集上训练的模型。RefinedWeb 也是“多模态友好”的：它包含处理过的样本中图像的链接和替代文本。
+
 ## 关系抽取、信息抽取
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction) 专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
@@ -3805,6 +3807,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [umijs/qiankun](https://github.com/umijs/qiankun) 快速、简单、完整的微型前端解决方案。使您和您的团队能够利用微前端构建下一代企业级 Web 应用程序。微前端:使用不同 JavaScript 框架与多个团队一起构建现代 Web 应用的技术、策略和方法。
 
+* [jgthms/bulma](https://github.com/jgthms/bulma) 基于 Flexbox 的现代 CSS 框架。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4016,6 +4020,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [hashicorp/terraform](https://github.com/hashicorp/terraform) 使你能够安全且可预测地创建、更改和改进基础结构。它是一种源代码可用的工具，可将 API 编码为声明性配置文件，这些文件可以在团队成员之间共享、视为代码、编辑、审查和版本控制。
 
 * [cli/cli](https://github.com/cli/cli) 命令行上的 GitHub。它将拉取请求、问题和其他 GitHub 概念带到您已经在使用 git 的位置和代码旁边的终端。
+
+* [pallets/quart](https://github.com/pallets/quart) 用于构建 Web 应用程序的异步 Python 微框架。
 
 ## 网络与前后端开发_其他
 
@@ -4456,6 +4462,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [grpc/grpc](https://github.com/grpc/grpc) 现代、开源、高性能的远程过程调用 框架，可以在任何地方运行。gRPC 使客户端和服务器应用程序能够透明地进行通信，并简化连接系统的构建。
 
 * [TKkk-iOSer/WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) MacOS微信小助手 v2.0，消息自动回复、消息防撤回、远程控制(已支持语音)、微信多开、第二次登录免认证、聊天置底功能(类似置顶)、微信窗口置顶、会话多选删除、自动登录开关、通知中心快捷回复、聊天窗口表情包复制 & 存储、小助手检测更新提醒、alfred 快捷发送消息 & 打开窗口 (需安装：wechat-alfred-workflow)、会话一键已读、一键清除空会话、支持国际化、新增一键更新、新增关于小助手、去除微信url转链、史上最强 alfred 扩展、新增移除会话(不删除聊天记录)、菜单栏(关于小助手)新增 alfred 开关、新增是否使用微信自带浏览器开关、新增LaunchBar 扩展、新增禁止微信检测更新开关(非App Store版本)、新增小助手.app安装方式、支持退群监控，撤回消息定位
+
+* [alexcasalboni/aws-lambda-power-tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning) 开源工具，可帮助您可视化和微调 Lambda 函数的内存/电源配置。它在您自己的 AWS 账户中运行（由 AWS Step Functions 提供支持），并支持三种优化策略：成本、速度和平衡。
+
+* [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) 用于管理hosts文件的应用程序，它基于Electron，React，Jotai，Chakra UI，CodeMirror等。
+
+* [rclone/rclone](https://github.com/rclone/rclone) 命令行程序，用于将文件和目录与不同的云存储提供商同步。如Google Drive、S3、Dropbox、Backblaze B2、One Drive、Swift、Hubic、Wasabi、Google Cloud Storage、Yandex Files
+
+* [alex/what-happens-when](https://github.com/alex/what-happens-when) 试图回答古老的面试问题“当您在浏览器中输入 google.com 并按回车键时会发生什么？
+
+* [syncthing/syncthing](https://github.com/syncthing/syncthing) 连续的文件同步程序。它在两台或多台计算机之间同步文件。我们努力实现以下目标。目标按重要性顺序列出，最重要的目标排在最前面。
 
 ## 区块链
 
@@ -5076,6 +5092,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [jacobgil/pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) 计算机视觉的高级 AI 可解释性。支持 CNN、视觉变压器、分类、对象检测、分割、图像相似性等。
 
+* [roboflow/supervision](https://github.com/roboflow/supervision) 为您编写可重复使用的计算机视觉工具。无论您是需要从硬盘加载数据集、在图像或视频上绘制检测，还是计算区域中的检测数量。
+
 ## 图像风格
 
 * [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
@@ -5109,6 +5127,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion) 具有潜在扩散模型的高分辨率图像合成
 
 * [YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) 扩散模型论文、调查和分类法
+
+* [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) 功能最强大、模块化最稳定的扩散 GUI，带有图形/节点界面。特征:节点/图形/流程图界面，无需编写任何代码即可试验和创建复杂的稳定扩散工作流程。完全支持 SD1.x、SD2.x、SDXL 和稳定的视频扩散。许多优化：仅重新执行在执行之间更改的工作流部分。命令行选项： --lowvram 使其在 vram 小于 3GB 的 GPU 上运行（在 vram 较低的 GPU 上自动启用）。即使您没有具有以下功能的 GPU，也能正常工作： --cpu （慢速）。可以加载 ckpt、safetensor 和扩散器模型/检查点。独立的 VAE 和 CLIP 型号。嵌入/文本反转。Loras（常规、locon 和 loha）。超网络。从生成的 PNG 文件加载完整的工作流（带有种子）。将工作流保存/加载为 Json 文件。节点接口可用于创建复杂的工作流程，例如用于 Hires 修复或更高级的工作流程。区域构成。使用常规模型和修复模型进行修复。ControlNet 和 T2I 适配器。高档型号（ESRGAN、ESRGAN 变体、SwinIR、Swin2SR 等）。unCLIP 型号。GLIGEN。模型合并。LCM 模型和 Loras。SDXL 涡轮增压。使用 TAESD 进行潜在预览。启动速度非常快。完全离线工作：永远不会下载任何内容。配置文件来设置模型的搜索路径。
 
 * [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) 关于扩散模型的资源和论文集
 
@@ -5161,6 +5181,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [HuiGuanLab/ms-sl](https://github.com/HuiGuanLab/ms-sl) 基于传统的跨模态文本-视频检索（Video-to-Text Retrieval, T2VR）任务，提出了部分相关的视频检索（Partially Relevant Video Retrieval, PRVR）。PRVR 旨在从大量未剪辑的长视频中检索出与查询文本部分相关的对应视频。作者设计了多尺度多示例模型，该模型分别对视频进行片段尺度和帧尺度的特征表示，并引入了以关键片段为向导的注意力聚合方法，模型整体以从粗到细的方式学习文本-视频间的相似度关系。该模型也可用于提高视频库片段检索（Video Corpus Moment Retrieval，VCMR）模型的性能。
 
 * [facebookresearch/AugLy](https://github.com/facebookresearch/AugLy) 用于音频、图像、文本和视频的数据增强库。
+
+* [aigc-apps/sd-webui-EasyPhoto](https://github.com/aigc-apps/sd-webui-EasyPhoto) 一个 Webui UI 插件，用于生成 AI 肖像，可用于训练与您相关的数字分身。
 
 * [xxxnell/how-do-vits-work](https://github.com/xxxnell/how-do-vits-work) “视觉转换器如何工作？（ICLR 2022 ）”的 PyTorch 实现。CV的多头自注意力 (MSA) 的成功并不在于弱归纳偏差以及捕获远程依赖项。 MSA 不仅是广义的 Convs，而是补充 Convs 的广义空间平滑。特别是，MSA 通过拉平损失情况来改进 NN。一个关键特征是它的数据特异性（数据依赖性），而不是远程依赖性。另一方面，ViTs 遭受非凸损失。MSA 和 Convs 表现出相反的行为，MSA 是低通滤波器，而 Convs 是高通滤波器。MSA 是形状偏向的，而 Convs 是纹理偏向的。因此，MSAs 和 Convs 是互补的。阶段末尾的 MSA（不是模型）显着提高了准确性。我们通过用 MSA 替换阶段结束时的 Convs 来引入 AlterNet。 AlterNet 在大小数据领域都优于 CNN。
 
@@ -5491,6 +5513,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [HumanSignal/labelImg](https://github.com/HumanSignal/labelImg) 在数十名贡献者的帮助下创建的流行图像注释工具，现已不再积极开发，而是已成为 Label Studio 社区的一部分。查看 Label Studio，这是一款最灵活的开源数据标注工具，适用于图像、文本、超文本、音频、视频和时间序列。
 
 * [pytorch/vision](https://github.com/pytorch/vision) 由流行的数据集、模型架构和用于计算机视觉的常见图像转换组成。
+
+* [Cadene/pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch) pytorch 预训练的 ConvNet：NASNet、ResNeXt、ResNet、InceptionV4、InceptionResnetV2、Xception、DPN 等。
 
 # 因果推断
 
@@ -6125,6 +6149,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [krantiparida/awesome-audio-visual](https://github.com/krantiparida/awesome-audio-visual) 视听处理领域的不同论文和数据集的精选列表
 
 * [Rikorose/DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) 用于全频带音频 （48kHz） 的低复杂度语音增强框架，用于深度滤波。
+
+* [spicetify/spicetify-cli](https://github.com/spicetify/spicetify-cli) 用于自定义 Spotify 客户端的命令行工具。支持 Win、MacOS 和 Linux。
 
 # 生物医药
 
@@ -7296,6 +7322,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [fnproject/fn](https://github.com/fnproject/fn) 容器原生、与云无关的无服务器平台。
 
+* [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) 在 Google Cloud Platform 上艰难地引导 Kubernetes。没有脚本。
+
 # 安全与渗透
 
 ## 扫描器、资产收集、子域名
@@ -7474,6 +7502,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [iovisor/bcc](https://github.com/iovisor/bcc) 用于基于 BPF 的 Linux IO 分析、网络、监控等的工具
 
+* [zhzyker/vulmap](https://github.com/zhzyker/vulmap) web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能 
+
+* [Datalux/Osintgram](https://github.com/Datalux/Osintgram) Instagram 上的 OSINT 工具。它提供了一个交互式外壳，可以通过其昵称对任何用户的Instagram帐户进行分析
+
 ## web shell、shellcode
 
 * web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
@@ -7612,6 +7644,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [OWASP/owasp-mastg](https://github.com/OWASP/owasp-mastg) 移动应用安全测试指南 （MASTG） 是一本用于移动应用安全测试和逆向工程的综合手册。它描述了用于验证 OWASP 移动应用程序安全验证标准 （MASVS） 中列出的控件的技术过程。
 
+* 
+
 ## 漏洞库、漏洞靶场
 
 * [pwntester/0day](https://github.com/pwntester/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC 该项目将不断更新
@@ -7645,6 +7679,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [aquasecurity/trivy](https://github.com/aquasecurity/trivy) 查找容器、Kubernetes、代码存储库、云等中的漏洞、错误配置、机密、SBOM
 
 * [qazbnm456/awesome-web-security](https://github.com/qazbnm456/awesome-web-security) 精心策划的网络安全材料和资源列表。
+
+* [Mr-xn/Penetration_Testing_POC](https://github.com/Mr-xn/Penetration_Testing_POC) 渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms
 
 ## 安卓Android
 
@@ -7711,6 +7747,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) 用 Rust 编写的非官方 Bitwarden 兼容服务器。Bitwarden 是一款安全的密码管理应用，帮助您保存密码并保证安全。
 
 * [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) 使用 HWID / Ohook / KMS38 / Online KMS 激活方法的 Windows 和 Office 激活器，开源代码和较少的防病毒检测。
+
+* [pyca/cryptography](https://github.com/pyca/cryptography) 为 Python 开发人员提供加密配方和原语的包。包括常见加密算法（如对称密码、消息摘要和密钥派生函数）的高级配方和低级接口。
 
 ## 其他_安全与渗透
 
@@ -8659,6 +8697,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [taizilongxu/interview_python](https://github.com/taizilongxu/interview_python) 关于Python的面试题
 
+* [reloadware/reloadium](https://github.com/reloadware/reloadium) Python 的热重载、分析和 AI 调试
+
 ## C/C++ 程序设计
 
 * [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
@@ -8668,6 +8708,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [wuye9036/CppTemplateTutorial](https://github.com/wuye9036/CppTemplateTutorial) 中文的C++ Template的教学指南。与知名书籍C++ Templates不同，该系列教程将C++ Templates作为一门图灵完备的语言来讲授，以求帮助读者对Meta-Programming融会贯通。
 
 * [Qihoo360/safe-rules](https://github.com/Qihoo360/safe-rules) 详细的C/C++编程规范指南，由360质量工程部编著，适用于桌面、服务端及嵌入式软件系统。
+
+* [isocpp/CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines) C++ 核心指南是一组关于使用 C++ 编码的久经考验的指南、规则和最佳实践
 
 * [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) 以 C++ 实现的数学、机器学习、计算机科学和物理学中的各种算法的集合，用于教育目的。
 
@@ -8742,6 +8784,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [xtaci/algorithms](https://github.com/xtaci/algorithms) C++中的算法和数据结构。
 
 * [facebook/infer](https://github.com/facebook/infer) 适用于 Java、C、C++ 和 Objective-C 的静态分析器
+
+* [Tencent/MMKV](https://github.com/Tencent/MMKV) 微信开发的高效、小型移动键值存储框架。
 
 ## Rust 程序设计
 
@@ -8840,6 +8884,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Canop/broot](https://github.com/Canop/broot) 查看和导航目录树的新方法
 
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) 显示有关代码统计信息的程序。Tokei 将显示文件数、这些文件中的总行数以及按语言分组的代码、注释和空白。
+
+* [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) 适用于所有编程语言、配置文件、构建工具等的静态分析 （SAST） 工具和 linter 的精选列表。重点是提高代码质量的工具。
 
 ## flutter
 
@@ -8971,6 +9017,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
 
+* [DeathKing/Learning-SICP](https://github.com/DeathKing/Learning-SICP) MIT视频公开课《计算机程序的构造和解释》中文化项目及课程学习资料搜集。
+
 * [xingshaocheng/architect-awesome](https://github.com/xingshaocheng/architect-awesome) 后端架构师技术图谱
 
 * [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) 包含有关各种技术主题的问题和练习，有时与 DevOps 和 SRE 相关
@@ -8993,6 +9041,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [williamfiset/Algorithms](https://github.com/williamfiset/Algorithms) 算法和数据结构是高效代码和良好软件设计的基础。创建和设计优秀的算法是成为模范程序员的必要条件。此存储库的目标是演示如何以最简单、最优雅的方式正确实现常见的数据结构和算法。
 
+* [xitu/gold-miner](https://github.com/xitu/gold-miner)  翻译优质互联网技术文章的社区，文章来源为 掘金 上的英文分享文章。内容覆盖区块链、人工智能、Android、iOS、前端、后端、设计、产品、算法和其他等领域，以及各大型优质 官方文档及手册，读者为热爱新技术的新锐开发者。
+
 * [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) 存储库：开发人员书籍列表
 
 * [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) 程序员如何优雅的挣零花钱，2.0版，升级为小书了。
@@ -9005,7 +9055,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [dariubs/GoBooks](https://github.com/dariubs/GoBooks) go书籍列表
 
-* [https://github.com/hoanhan101/ultimate-go](https://github.com/hoanhan101/ultimate-go) 终极go学习指南
+* [hoanhan101/ultimate-go](https://github.com/hoanhan101/ultimate-go) 终极go学习指南
 
 * [qax-os/excelize](https://github.com/qax-os/excelize) 用于读写Microsoft Excel™ （XLAM / XLSM / XLSX / XLTM / XLTX）电子表格的Go语言库
 
@@ -9016,6 +9066,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [uber-go/zap](https://github.com/uber-go/zap) 在 Go 中实现超快、结构化、分级的日志记录。
 
 * [moovweb/gvm](https://github.com/moovweb/gvm) Go 版本管理器
+
+* [golang-standards/project-layout](https://github.com/golang-standards/project-layout) 标准 Go 项目布局
 
 * [unknwon/go-fundamental-programming](https://github.com/unknwon/go-fundamental-programming) 《Go 编程基础》是一套针对 Google 出品的 Go 语言的视频语音教程，主要面向新手级别的学习者。
 
@@ -9787,5 +9839,11 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) 一个精心策划的令人敬畏的令人敬畏的清单。
 
 * [languagetool-org/languagetool](https://github.com/languagetool-org/languagetool) 开源校对软件，适用于英语、西班牙语、法语、德语、葡萄牙语、波兰语、荷兰语和其他 20 多种语言。它发现了许多简单的拼写检查器无法检测到的错误。
+
+* [ldqk/Masuit.Tools](https://github.com/ldqk/Masuit.Tools) C#万能工具库，码数吐司库，包含一些常用的操作类，大都是静态类，加密解密，反射操作，权重随机筛选算法，分布式短id，表达式树，linq扩展，文件压缩，多线程下载，硬件信息，字符串扩展方法，日期时间扩展操作，中国农历，大文件拷贝，图像裁剪，验证码，断点续传，集合扩展、Excel导出。
+
+* [ovity/octotree](https://github.com/ovity/octotree) 浏览器扩展，可增强 GitHub 代码审查和探索。
+
+* [kelseyhightower/nocode](https://github.com/kelseyhightower/nocode) 编写安全可靠的应用的最佳方式。什么都不写;不部署。
 
 # end
