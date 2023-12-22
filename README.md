@@ -1904,6 +1904,14 @@
 
 * [ntunlplab/traditional-chinese-alpaca](https://github.com/ntunlplab/traditional-chinese-alpaca) 基于羊驼数据集的繁体中文指令数据集。
 
+* [Tongji-KGLLM/RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey) 大型语言模型的检索-增强生成：一项调查
+
+* [allenai/RL4LMs](https://github.com/allenai/RL4LMs) 模块化 RL 库，可根据人类偏好微调语言模型。为训练语言模型提供易于定制的构建块，包括策略算法、奖励函数、指标、数据集和基于 LM 的参与者-批评策略的实现。
+
+* [gptshunter.com](https://www.gptshunter.com/) 发现 GPTs 项目的商店
+
+* [hyperonym/basaran](https://github.com/hyperonym/basaran) OpenAI 文本完成 API 的开源替代品。它为基于 Hugging Face Transformer 的文本生成模型提供兼容的流式处理 API。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -3146,6 +3154,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [NLPchina/ansj_seg](https://github.com/NLPchina/ansj_seg) ansj分词.ict的真正java实现.分词效果速度都超过开源版的ict. 中文分词,人名识别,词性标注,用户自定义词典
 
+* [openai/tiktoken](https://github.com/openai/tiktoken) 一个快速的 BPE 分词标记器，用于 OpenAI 的模型。
+
 # 网络与前后端开发
 
 ## JavaScript框架
@@ -3809,6 +3819,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [jgthms/bulma](https://github.com/jgthms/bulma) 基于 Flexbox 的现代 CSS 框架。
 
+* [realm/SwiftLint](https://github.com/realm/SwiftLint) 强制执行 Swift 样式和约定的工具。
+
+* [aframevr/aframe](https://github.com/aframevr/aframe) 用于构建虚拟现实体验的 Web 框架。`虚拟现实变得简单`：A-Frame 只需插入 <a-scene> 即可处理跨平台运行所需的 3D 和 WebXR 样板，包括移动设备、桌面和所有耳机（与支持 WebXR 的浏览器兼容）。`声明式 HTML`：HTML 易于阅读和复制粘贴。由于 A-Frame 可以在 HTML 中使用，因此每个人都可以访问。`实体组件架构`：three.js 之上的强大框架，为 three.js 提供了一个声明性的、可组合的、可重用的实体组件结构。可以无限制地访问 JavaScript、DOM API、three.js、WebXR 和 WebGL。`性能`：是 three.js 之上的精简框架。性能是重中之重，在高度交互的 WebXR 体验上经过了实战考验。`跨平台`：为任何与支持 WebXR 的浏览器兼容的头戴式设备构建 VR 和 AR 应用程序。仍然可以在标准台式机和智能手机上运行。`可视化检查器`：内置可视化 3D 检查器，其工作流程类似于浏览器的开发人员工具，界面类似于 Unity。打开任何 A-Frame 场景并点击 <ctrl> + <alt> + i . `功能`：内置组件（如几何体、材质、灯光、动画、模型、光线投射器、阴影、位置音频、跟踪控制器）立即开始运行。使用粒子系统、物理、多用户、海洋、山脉、语音识别或传送等社区组件
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -3947,7 +3961,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [matomo-org/matomo](https://github.com/matomo-org/matomo) Google Analytics（分析）的领先开放替代方案，可让您完全控制数据。Matomo可让您轻松地从网站和应用程序中收集数据，并可视化这些数据并提取见解。隐私是内置的。
 
-* [plausible/analytics](https://github.com/plausible/analytics) 简单开源轻量级（<1K）和隐私友好的网络分析替代谷歌分析。
+* [plausible/analytics](https://github.com/plausible/analytics) 简单开源轻量级1K和隐私友好的网络分析替代谷歌分析。
 
 * [hasura/graphql-engine](https://github.com/hasura/graphql-engine) 开源产品，通过立即为您提供具有内置数据授权的 GraphQL 或 REST API，将 API 开发速度提高了 10 倍。
 
@@ -4022,6 +4036,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [cli/cli](https://github.com/cli/cli) 命令行上的 GitHub。它将拉取请求、问题和其他 GitHub 概念带到您已经在使用 git 的位置和代码旁边的终端。
 
 * [pallets/quart](https://github.com/pallets/quart) 用于构建 Web 应用程序的异步 Python 微框架。
+
+* [gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq) GitLab CE 镜像，用于代码协作的开源软件。通过精细的访问控制来管理 Git 存储库，确保代码安全；执行代码审查并通过合并请求增强协作；完整的持续集成 （CI） 和持续部署/交付 （CD） 管道，用于构建、测试和部署应用程序；每个项目还可以有一个问题跟踪器、问题板和一个 Wiki；被超过 100,000 个组织使用，是管理本地 Git 存储库的最流行的解决方案；完全免费和开源
 
 ## 网络与前后端开发_其他
 
@@ -4472,6 +4488,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [alex/what-happens-when](https://github.com/alex/what-happens-when) 试图回答古老的面试问题“当您在浏览器中输入 google.com 并按回车键时会发生什么？
 
 * [syncthing/syncthing](https://github.com/syncthing/syncthing) 连续的文件同步程序。它在两台或多台计算机之间同步文件。我们努力实现以下目标。目标按重要性顺序列出，最重要的目标排在最前面。
+
+* [netbox-community/netbox](https://github.com/netbox-community/netbox) 用于建模和记录现代网络的领先解决方案。通过将 IP 地址管理 （IPAM） 和数据中心基础设施管理 （DCIM） 的传统规则与强大的 API 和扩展相结合，NetBox 为网络自动化提供了理想的“事实来源”。NetBox 作为 Apache 2.0 许可下的开源软件提供，是数千个组织网络自动化的基石。`物理基础设施`：精确地模拟物理世界，从全球区域到单个设备机架。然后连接一切 - 网络、控制台和电源！`现代 IPAM`：您期望的所有标准 IPAM 功能，以及 VRF 导入/导出跟踪、VLAN 管理和覆盖网络支持。`数据电路`：自信地管理来自各种服务提供商的关键电路的交付，并与您自己的基础设施无缝建模。`功率跟踪`：将上游电源的功率分布映射到各个馈电和插座。`组织`：以本机方式管理租户和联系人分配。`强大的搜索功能`：使用单一的全局搜索功能轻松找到您需要的任何内容。`全面的日志记录`：利用自动更改日志记录和用户提交的日志条目来跟踪网络随时间推移的增长情况。`无尽的自定义`：自定义字段、自定义链接、标签、导出模板、自定义验证、报告、脚本等！`灵活的权限`：高级权限系统可实现非常灵活的权限委派。`集成`：通过其REST和GraphQL API轻松将NetBox连接到您的其他工具。`插件`：尝试众多社区插件之一 - 或构建自己的插件！
+
+* [discourse/discourse](https://github.com/discourse/discourse) 您社区的在线主页。我们为那些希望完全控制其网站运行方式和位置的人提供 100% 开源社区平台。
+
+* [novuhq/novu](https://github.com/novuhq/novu)  面向开发人员的开源通知基础结构。使用单个 API 管理多渠道通知的终极服务。适用于所有消息传递提供商的单一 API（应用内、电子邮件、短信、推送、聊天）。轻松管理多个渠道的通知。配备CMS，用于高级布局和设计管理。内置对缺失变量的保护。易于设置和集成。在单个仪表板中调试和分析多渠道消息。具有实时更新的嵌入式通知中心。社区驱动。
+
+* [frappe/erpnext](https://github.com/frappe/erpnext) 免费和开源的企业资源规划 （ERP），包括以下用于管理业务的领域：会计、仓库管理、客户关系管理、销售、购买、人力资源管理系统、项目管理、支持、资产管理、质量管理、制造业、网站管理、自定义 ERPNext、还有更多
+
+* [odoo/odoo](https://github.com/odoo/odoo) 基于Web的开源商业应用程序。包括开源CRM，网站构建器，电子商务，仓库管理，项目管理，计费和会计，销售点，人力资源，营销，制造，...
 
 ## 区块链
 
@@ -5118,6 +5144,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 ## 其他_机器视觉
 
+* [opencv/opencv](https://github.com/opencv/opencv) 开源计算机视觉库
+
 * [taichi-dev/taichi](https://github.com/taichi-dev/taichi) 高效且可移植的 Python 高性能编程。该语言具有广泛的应用，包括实时物理模拟、数字计算、增强现实、人工智能、视觉和机器人技术、电影和游戏中的视觉效果、通用计算等等。
 
 * [open-mmlab/mmcv](https://github.com/open-mmlab/mmcv) MMCV 是计算机视觉研究的基础库，它提供以下功能：通用 IO API、图像/视频处理、图像和注释可视化、有用的实用程序（进度条，计时器，...）、具有挂钩机制的 PyTorch runner、各种CNN架构、CPU 和 CUDA 操作的高质量实现。
@@ -5515,6 +5543,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [pytorch/vision](https://github.com/pytorch/vision) 由流行的数据集、模型架构和用于计算机视觉的常见图像转换组成。
 
 * [Cadene/pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch) pytorch 预训练的 ConvNet：NASNet、ResNeXt、ResNet、InceptionV4、InceptionResnetV2、Xception、DPN 等。
+
+* [camenduru/ShareGPT4V-colab](https://github.com/camenduru/ShareGPT4V-colab) 使用更好的字幕改进大型多模态模型。一个开创性的大规模资源，拥有 120 万个高度描述性的标题，在多样性和信息内容方面超越了现有的数据集，涵盖了世界知识、物体属性、空间关系和美学评估。具体来说，ShareGPT4V 起源于从高级 GPT4-Vision 收集的精选 100K 高质量字幕，并已扩展到 120 万，并在这个子集上训练了出色的字幕模型。ShareGPT4V 首先证明了其在监督微调 （SFT） 阶段的有效性，方法是用我们的高质量字幕子集替换现有 SFT 数据集中等量的详细字幕，显着增强了 MME 和 MMBench 基准测试上的 LLaVA-7B、LLaVA-1.5-13B 和 Qwen-VL-Chat-7B 等 LMM，分别获得了 222.8/22.0/22.3 和 2.7/1.3/1.5。我们进一步将 ShareGPT4V 数据整合到预训练和 SFT 阶段，获得了 ShareGPT4V-7B，这是一款基于简单架构的卓越 LMM，在大多数多模态基准测试中具有卓越的性能。
+
+* [xbmc/xbmc](https://github.com/xbmc/xbmc) 屡获殊荣的免费开源家庭影院/媒体中心软件和数字媒体娱乐中心。凭借其漂亮的界面和强大的皮肤引擎。
+
+* [obsproject/obs-studio](https://github.com/obsproject/obs-studio) 专为高效捕获、合成、编码、录制和流式传输视频内容而设计的软件。
 
 # 因果推断
 
@@ -7704,7 +7738,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [WindXaa/Android-Reverse-interview](https://github.com/WindXaa/Android-Reverse-interview) 主要针对移动安全中Android逆向工程师、漏洞挖掘工程师、渗透工程师的面试指南
 
-## 密码破解、字典
+## 加密、密码破解、字典
+
+* [openssl/openssl](https://github.com/openssl/openssl) 强大的、商业级的、功能齐全的开源工具包，适用于 TLS（以前称为 SSL）、DTLS 和 QUIC（目前仅限客户端）协议。协议实现基于一个完整的通用加密库，该库也可以独立使用。还包括一个经过验证符合 FIPS 标准的加密模块。
 
 * [0xHJK/TotalPass](https://github.com/0xHJK/TotalPass) 默认密码扫描器 是否存在默认密码\搜索常见设备默认密码\支持手动和自动更新密码库 扫描类型有SSH\Telnet\SNMP\Redis
 
@@ -9845,5 +9881,37 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [ovity/octotree](https://github.com/ovity/octotree) 浏览器扩展，可增强 GitHub 代码审查和探索。
 
 * [kelseyhightower/nocode](https://github.com/kelseyhightower/nocode) 编写安全可靠的应用的最佳方式。什么都不写;不部署。
+
+* [SFTtech/openage](https://github.com/SFTtech/openage) 一个志愿者项目，旨在创建《帝国时代》、《帝国时代 II》（高清版）和《星球大战：银河战场》中使用的精灵引擎的免费引擎克隆，可与 OpenMW、OpenRA、OpenSAGE、OpenTTD 和 OpenRCT2 等项目相媲美。
+
+* [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) 功能强大、美观、简单且开放的游戏和渲染引擎，包含在一个友好的 JavaScript 框架中。
+
+* [leereilly/games](https://github.com/leereilly/games) 在 GitHub 上找到的开源游戏和游戏相关项目列表 - 老式文本冒险、教育游戏、8 位平台游戏、基于浏览器的游戏、独立游戏、GameJam 项目、商业游戏的附加组件/地图/黑客/插件、库、框架、引擎，应有尽有。
+
+* [cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x) 开源、跨平台的游戏开发工具，被全球数百万开发者使用。它的核心已经发展成为 Cocos Creator 1.x 和 2.x 的基础。用于构建 2D 游戏、交互式书籍、演示和其他图形应用程序。它基于 cocos2d-iphone，但它没有使用 Objective-C，而是使用 C++。它适用于 iOS、Android、macOS、Windows 和 Linux。
+
+* [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) 早期Westwood游戏的开源实时战略游戏引擎，例如使用SDL和OpenGL用C#编写的《命令与征服：红色警戒》。
+
+* [AbyssEngine/AbyssEngine](https://github.com/AbyssEngine/AbyssEngine) 游戏引擎，旨在运行类似于 2000 年风格的 ARPG 游戏，例如暗黑破坏神 II。该存储库提供了核心引擎以及 OpenDiablo2，这是使用该引擎对暗黑破坏神 II 的开源重新实现。
+
+* [MonoGame/MonoGame](https://github.com/MonoGame/MonoGame) 简单而强大的 .NET 框架，用于使用 C# 编程语言为台式电脑、视频游戏机和移动设备创建游戏。它已成功用于创建《愤怒的街道 4》、《Carrion》、《Celeste》、《星露谷物语》等游戏。
+
+* [boardgameio/boardgame.io](https://github.com/boardgameio/boardgame.io) 使用 JavaScript 创建回合制游戏的引擎。编写简单的函数来描述在进行特定移动时游戏状态如何变化。这会自动转换为具有在线多人游戏功能的可玩游戏，而无需您编写任何网络或存储代码。
+
+* [minetest/minetest](https://github.com/minetest/minetest) 开源体素游戏引擎，易于修改和游戏创建。
+
+* [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) Go 编程语言的开源游戏引擎。Ebitengine 的简单 API 允许您快速轻松地开发可跨多个平台部署的 2D 游戏。
+
+* [skypjack/entt](https://github.com/skypjack/entt) 游戏与现代 C++ 的结合 - 快速可靠的实体组件系统 （ECS） 等等。仅标头，小巧且易于使用的游戏编程库，以及更多用现代 C++ 编写的库。
+
+* [playcanvas/engine](https://github.com/playcanvas/engine) 基于 WebGL 和 glTF 构建的快速轻量级 JavaScript 游戏引擎
+
+* [assimp/assimp](https://github.com/assimp/assimp) 用于将各种 3D 文件格式加载为共享的内存格式。它支持 40 多种文件格式进行导入，并支持越来越多的文件格式进行导出。
+
+* [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) 旨在简化和指导初学者做出首次贡献的方式。
+
+* [ShareX/ShareX](https://github.com/ShareX/ShareX) 免费的开源程序，可让您捕获或记录屏幕的任何区域，只需按一下键即可共享。它还允许将图像、文本或其他类型的文件上传到您可以选择的许多受支持的目的地。
+
+* [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) 开源 iOS 、 iPadOS watchOS 和 tvOS 应用程序的协作列表
 
 # end
