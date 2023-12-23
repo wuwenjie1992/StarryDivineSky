@@ -3823,6 +3823,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [aframevr/aframe](https://github.com/aframevr/aframe) 用于构建虚拟现实体验的 Web 框架。`虚拟现实变得简单`：A-Frame 只需插入 <a-scene> 即可处理跨平台运行所需的 3D 和 WebXR 样板，包括移动设备、桌面和所有耳机（与支持 WebXR 的浏览器兼容）。`声明式 HTML`：HTML 易于阅读和复制粘贴。由于 A-Frame 可以在 HTML 中使用，因此每个人都可以访问。`实体组件架构`：three.js 之上的强大框架，为 three.js 提供了一个声明性的、可组合的、可重用的实体组件结构。可以无限制地访问 JavaScript、DOM API、three.js、WebXR 和 WebGL。`性能`：是 three.js 之上的精简框架。性能是重中之重，在高度交互的 WebXR 体验上经过了实战考验。`跨平台`：为任何与支持 WebXR 的浏览器兼容的头戴式设备构建 VR 和 AR 应用程序。仍然可以在标准台式机和智能手机上运行。`可视化检查器`：内置可视化 3D 检查器，其工作流程类似于浏览器的开发人员工具，界面类似于 Unity。打开任何 A-Frame 场景并点击 <ctrl> + <alt> + i . `功能`：内置组件（如几何体、材质、灯光、动画、模型、光线投射器、阴影、位置音频、跟踪控制器）立即开始运行。使用粒子系统、物理、多用户、海洋、山脉、语音识别或传送等社区组件
 
+* [liriliri/eruda](https://github.com/liriliri/eruda) 适用于移动浏览器的控制台
+
+* [FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers) 面向 Web 开发人员的实用安全指南
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4038,6 +4042,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [pallets/quart](https://github.com/pallets/quart) 用于构建 Web 应用程序的异步 Python 微框架。
 
 * [gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq) GitLab CE 镜像，用于代码协作的开源软件。通过精细的访问控制来管理 Git 存储库，确保代码安全；执行代码审查并通过合并请求增强协作；完整的持续集成 （CI） 和持续部署/交付 （CD） 管道，用于构建、测试和部署应用程序；每个项目还可以有一个问题跟踪器、问题板和一个 Wiki；被超过 100,000 个组织使用，是管理本地 Git 存储库的最流行的解决方案；完全免费和开源
+
+* [open-falcon/falcon-plus](https://github.com/open-falcon/falcon-plus) 一个开源的企业级监控系统。
+
+* [ccfos/nightingale](https://github.com/ccfos/nightingale) 多合一的可观测性解决方案，旨在结合 Prometheus 和 Grafana 的优势。它管理警报规则，并在漂亮的 Web UI 中可视化指标、日志和跟踪。
+
+* [grafana/grafana](https://github.com/grafana/grafana) 开放且可组合的可观测性和数据可视化平台。可视化来自 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等多个来源的指标、日志和跟踪。`可视化`：具有多种选项的快速灵活的客户端图形。`动态仪表板`：使用模板变量创建动态和可重用的仪表板，这些模板变量在仪表板顶部显示为下拉列表。`探索指标`：通过临时查询和动态深入分析来探索数据。拆分视图并并排比较不同的时间范围、查询和数据源。`探索日志`：体验使用保留的标签筛选器从指标切换到日志的魔力。快速搜索所有日志或实时流式传输。`警报`：直观地为最重要的指标定义警报规则。Grafana 将持续评估并向 Slack、PagerDuty、VictorOps、OpsGenie 等系统发送通知。`混合数据源`：在同一张图中混合不同的数据源！您可以基于每个查询指定数据源。这甚至适用于自定义数据源。
+
+* [shieldfy/API-Security-Checklist](https://github.com/shieldfy/API-Security-Checklist) 设计、测试和发布 API 时最重要的安全对策清单
 
 ## 网络与前后端开发_其他
 
@@ -4463,6 +4475,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) 免费订阅地址，免费节点，6小时更新一次，共享节点，节点质量高可用，完全免费。免费clash订阅地址，免费翻墙、免费科学上网、免费梯子、免费ss/v2ray/trojan节点、谷歌商店、翻墙梯子。
 
+* [vernesong/OpenClash](https://github.com/vernesong/OpenClash) 可运行在 OpenWrt 上的 Clash 客户端。兼容 Shadow socks、ShadowsocksR、Vmess、Trojan、Snell 等协议，根据灵活的规则配置实现策略代理
+
 * [artilleryio/artillery](https://github.com/artilleryio/artillery) 云规模的负载测试，就像 1-2-3 一样简单。开箱即用的无服务器和分布式。永不扩展
 
 * [novnc/noVNC](https://github.com/novnc/noVNC)  HTML VNC 客户端 JS库，也是一个基于该库构建的应用程序。noVNC 在任何现代浏览器（包括移动浏览器（iOS 和 Android））中都能正常运行。
@@ -4499,7 +4513,19 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [odoo/odoo](https://github.com/odoo/odoo) 基于Web的开源商业应用程序。包括开源CRM，网站构建器，电子商务，仓库管理，项目管理，计费和会计，销售点，人力资源，营销，制造，...
 
-## 区块链
+* [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) 用于隐私的开源 YouTube 应用程序
+
+* [diaspora/diaspora](https://github.com/diaspora/diaspora) 一个具有隐私意识的分布式开源社交网络。
+
+* [wildfirechat/im-server](https://github.com/wildfirechat/im-server) 专业级的即时通讯和实时音视频整体解决方案
+
+* [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) 简单、易用、优雅的开源个人云系统。与社区建立联系，建立自主权，降低 SaaS 的成本，并最大限度地发挥个性化副驾驶的潜力。
+
+* [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) 指定目录下提供了一个文件管理界面，可用于上传、删除、预览、重命名和编辑您的文件。它允许创建多个用户，每个用户都可以拥有自己的目录。它可以用作独立应用程序。
+
+* [StevenBlack/hosts](https://github.com/StevenBlack/hosts)  整合和扩展来自多个精心策划的来源的主机文件。（可选）选择色情、社交媒体和其他类别的扩展。
+
+## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
 
@@ -4534,6 +4560,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [ccxt/ccxt](https://github.com/ccxt/ccxt) JavaScript / TypeScript / Python / C# / PHP加密货币交易API，支持100多个比特币/山寨币交易所
 
 * [diem/diem](https://github.com/diem/diem) Diem的使命是建立一个值得信赖和创新的金融网络，为世界各地的人们和企业提供支持。Diem Core 实现了一个去中心化、可编程的分布式账本，它提供了一个可以为数十亿人赋能的金融基础设施。
+
+* [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) 用 Python 编写的免费开源加密交易机器人。它旨在支持所有主要交易所，并通过Telegram或webUI进行控制。它包含回测、绘图和资金管理工具，以及通过机器学习进行策略优化。
+
+* [status-im/status-mobile](https://github.com/status-im/status-mobile) 一个免费的（自由）开源，以太坊的移动操作系统。一个浏览器、信使和通往去中心化世界的门户。Status是一个免费（自由）的开源移动客户端，完全基于以太坊技术构建，面向Android和iOS。没错，没有中间商， go-ethereum 直接在您的设备上运行。
+
+* [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) 用于安全智能合约开发的库。建立在社区审查代码的坚实基础上。ERC20 和 ERC721 等标准的实施。灵活的基于角色的权限方案。可重用的 Solidity 组件，用于构建自定义合约和复杂的去中心化系统。
 
 # 推荐系统
 
@@ -5002,6 +5034,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) 为扫描的 PDF 文件添加OCR 文本图层，允许对其进行搜索
 
+* [RapidAI/RapidOCR](https://github.com/RapidAI/RapidOCR) 基于 PaddleOCR & OnnxRuntime & OpenVINO 的跨平台 OCR 
+
 ## 视频补帧、摘要
 
 * [hzwer/arXiv2020-RIFE](https://github.com/hzwer/arXiv2020-RIFE) 视频帧插值的实时中级流量估计.旷视和北大提出的一种实时中间流估计算法。用于视频帧插值，能够改善伪影、让视频更丝滑。
@@ -5141,6 +5175,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [SHI-Labs/Versatile-Diffusion](https://github.com/SHI-Labs/Versatile-Diffusion) 多功能扩散：文本、图像和变体合二为一的扩散模型，可以原生支持图像到文本、图像变体、文本到图像和文本变体，并且可以进一步扩展到其他应用，例如语义式解缠、图像-文本双引导生成、潜在图像到文本到图像编辑等。
 
 * [FrozenBurning/Text2Light](https://github.com/frozenburning/text2light) 零样本的文本驱动的HDR全景图生成
+
+* [junyanz/CycleGAN](https://github.com/junyanz/CycleGAN) 可以从绘画中生成照片、将马变成斑马、执行风格转换等的软件。
 
 ## 其他_机器视觉
 
@@ -5550,6 +5586,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [obsproject/obs-studio](https://github.com/obsproject/obs-studio) 专为高效捕获、合成、编码、录制和流式传输视频内容而设计的软件。
 
+* [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) [CVPR 2023年]SadTalker：学习逼真的3D运动系数，用于风格化的音频驱动的单图像说话人脸动画
+
+* [glfw/glfw](https://github.com/glfw/glfw) 用于 OpenGL、OpenGL ES 和 Vulkan 应用程序开发的开源多平台库。它提供了一个简单的、独立于平台的 API，用于创建窗口、上下文和图面、读取输入、处理事件等。
+
+* [amusi/CVPR2023-Papers-with-Code](https://github.com/amusi/CVPR2023-Papers-with-Code) CVPR 2023 论文和开源项目合集
+
 # 因果推断
 
 * [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -5947,6 +5989,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [seungeunrho/minimalRL](https://github.com/seungeunrho/minimalRL) 以最少的代码行实现基本RL算法！（基于PyTorch）
 
 * [andri27-ts/Reinforcement-Learning](https://github.com/andri27-ts/Reinforcement-Learning) 在 60 天内学习深度强化学习！Python的讲座和代码。强化学习 + 深度学习
+
+* [carla-simulator/carla](https://github.com/carla-simulator/carla) 用于自动驾驶研究的开源模拟器。
+
+* [ApolloAuto/apollo](https://github.com/ApolloAuto/apollo) 高性能、灵活的架构，可加速自动驾驶汽车的开发测试和部署。
 
 # 语音识别与合成
 
@@ -7274,6 +7320,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [tiangolo/full-stack-fastapi-postgresql](https://github.com/tiangolo/full-stack-fastapi-postgresql) 全栈、现代 Web 应用程序生成器。使用 FastAPI、PostgreSQL 作为数据库、Docker、自动 HTTPS 等。
 
+* [timescale/timescaledb](https://github.com/timescale/timescaledb) 针对快速引入和复杂查询进行了优化的开源时序 SQL 数据库。打包为 PostgreSQL 扩展。
+
+* [osquery/osquery](https://github.com/osquery/osquery) SQL 支持的操作系统检测、监控和分析。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -7642,6 +7692,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。
 
+* [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) 由国家安全局研究局创建和维护的软件逆向工程 （SRE） 框架。该框架包括一套功能齐全的高端软件分析工具，使用户能够在各种平台（包括 Windows、macOS 和 Linux）上分析编译后的代码。功能包括反汇编、汇编、反编译、绘图和脚本，以及数百种其他功能。Ghidra 支持多种处理器指令集和可执行格式，可以在用户交互和自动模式下运行。用户还可以使用 Java 或 Python 开发自己的 Ghidra 扩展组件和/或脚本。
+
 * [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) 精选的恶意软件分析工具和资源列表。
 
 * [awsaaaq/GoBP](https://github.com/awsaaaq/GoBP) 免杀工具 Go语言编写
@@ -7678,7 +7730,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [OWASP/owasp-mastg](https://github.com/OWASP/owasp-mastg) 移动应用安全测试指南 （MASTG） 是一本用于移动应用安全测试和逆向工程的综合手册。它描述了用于验证 OWASP 移动应用程序安全验证标准 （MASVS） 中列出的控件的技术过程。
 
-* 
+* [rizinorg/cutter](https://github.com/rizinorg/cutter) 由 rizin 提供支持的免费开源逆向工程平台。它旨在成为一个先进且可定制的逆向工程平台，同时牢记用户体验。
 
 ## 漏洞库、漏洞靶场
 
@@ -7805,6 +7857,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) 黑客的多合一黑客工具 包括：匿名隐藏、信息收集、词表生成器、无线攻击、SQL 注入、网络钓鱼攻击、网络攻击、后期利用、取证工具、有效载荷创建、利用框架、逆向工程、DDOS 攻击、远程管理 (RAT)、XSS 攻击、隐写工具、社交媒体蛮力、安卓黑客、IDN Homograph 攻击、电子邮件验证、哈希破解、Wifi 取消身份验证、社交媒体查找器、有效载荷注入器、网络爬取、混合工具
 
 * [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) 一系列令人敬畏的渗透测试和攻击性网络安全资源。渗透测试是对计算机系统及其物理基础设施发起授权的模拟攻击，以暴露潜在的安全弱点和漏洞的做法。如果发现漏洞，请按照此指南负责任地报告。
+
+* [prometheus/prometheus](https://github.com/prometheus/prometheus) 系统和服务监控系统。它以给定的时间间隔从配置的目标收集指标，评估规则表达式，显示结果，并在观察到指定条件时触发警报。
 
 * [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) Flipper Zero设备的精彩资源集合。Flipper Zero配备了多种用于黑客的工具。您有用于模拟遥控器的无线电，RFID阅读器，红外收发器，甚至是GPIO引脚。
 
@@ -8520,6 +8574,22 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [microsoft/devicescript](https://github.com/microsoft/devicescript) 用于微型物联网设备的 TypeScript（ESP32、RP2040 等）
 
+* [ClemensElflein/OpenMower](https://github.com/ClemensElflein/OpenMower) 让我们将廉价的现成机器人割草机升级为基于 RTK GPS 的现代智能割草机器人
+
+* [emqx/emqx](https://github.com/emqx/emqx) 适用于物联网、工业物联网和互联汽车的最具可扩展性的开源 MQTT 代理
+
+* [thingsboard/thingsboard](https://github.com/thingsboard/thingsboard) 开源物联网平台 - 设备管理、数据收集、处理和可视化。
+
+* [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) NVR具有实时本地物体检测功能，适用于IP摄像机
+
+* [mqttjs/MQTT.js](https://github.com/mqttjs/MQTT.js) Node.js 和浏览器的 MQTT 客户端
+
+* [eclipse/mosquitto](https://github.com/eclipse/mosquitto) MQTT 协议版本 5.0、3.1.1 和 3.1 的服务器的开源实现。它还包括一个 C 和 C++ 客户端库，以及用于发布和订阅的 `mosquitto_pub` 和 `mosquitto_sub` 实用程序。
+
+* [esphome/esphome](https://github.com/esphome/esphome) 通过简单而强大的配置文件来控制您的 ESP8266/ESP32 并通过家庭自动化系统远程控制它们的系统。
+
+* [MichMich/MagicMirror](https://github.com/MichMich/MagicMirror) 开源的模块化智能镜子平台。随着可安装模块的不断增加，MagicMirror² 允许您将走廊或浴室镜子转换为您的私人助理。
+
 # 其他项目
 
 ## Python
@@ -9035,6 +9105,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的计算机编程类中文书籍
 
+* [FreeCodeCampChina/freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn) FCC中国开源代码库和课程。学习编码并帮助非营利组织。
+
 * [izackwu/TeachYourselfCS-CN](https://github.com/izackwu/TeachYourselfCS-CN) TeachYourselfCS 的中文翻译
 
 * [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 开源代码库和课程。免费学习编码。
@@ -9229,6 +9301,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
    C、C++、C#、F#、Rust、Go、D、Haskell、Swift、Pascal、ispc、Python、Java 或其他 30 多种支持的语言中编辑代码，并查看代码在实际编译后的样子时间。每种语言都支持多个编译器，可以使用许多不同的工具和可视化，并且 UI 布局是可配置
 
 * [coder/code-server](https://github.com/coder/code-server) 浏览器中的 VS 代码编辑器
+
+* [logseq/logseq](https://github.com/logseq/logseq) 一个知识管理和协作平台。它侧重于隐私、寿命和用户控制。Logseq 提供了一系列用于知识管理、协作、PDF 注释和任务管理的强大工具，支持多种文件格式，包括 Markdown 和组织模式，以及用于组织和构建笔记的各种功能。
 
 * [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) Notion 的开源替代品。您负责您的数据和定制。使用 Flutter 和 Rust 构建。
 
@@ -9913,5 +9987,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [ShareX/ShareX](https://github.com/ShareX/ShareX) 免费的开源程序，可让您捕获或记录屏幕的任何区域，只需按一下键即可共享。它还允许将图像、文本或其他类型的文件上传到您可以选择的许多受支持的目的地。
 
 * [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) 开源 iOS 、 iPadOS watchOS 和 tvOS 应用程序的协作列表
+
+* [openfarmcc/OpenFarm](https://github.com/openfarmcc/OpenFarm) 免费和开放的农业和园艺知识数据库。你可以种植任何东西
+
+* [github/opensource.guide](https://github.com/github/opensource.guide) 为想要学习如何运行开源项目和为开源项目做出贡献的个人、社区和公司提供的资源集合。由 GitHub 创建和策划，以及来自外部社区审阅者的意见，但它们并非 GitHub 产品所独有。
 
 # end
