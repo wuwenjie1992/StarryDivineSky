@@ -3302,6 +3302,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [tj/commander.js](https://github.com/tj/commander.js) node.js命令行界面变得简单
 
+* [prettier/prettier](https://github.com/prettier/prettier) 固执己见的代码格式化程序。它通过解析代码并使用自己的规则重新打印代码来强制执行一致的样式，考虑了最大行长度，并在必要时包装代码。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -3827,6 +3829,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers) 面向 Web 开发人员的实用安全指南
 
+* [phoenixframework/phoenix](https://github.com/phoenixframework/phoenix) Elixir语言，快速构建丰富的交互式 Web 应用程序，使用更少的代码和更少的移动部件。加入我们不断壮大的开发者社区，使用 Phoenix 制作 API、HTML5 应用程序等，享受乐趣或大规模制作。
+
+* [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) 使用 Electron 创建应用程序的有用资源
+
+* [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) 一个很棒的 Swift 库和资源的协作列表。欢迎贡献！
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4050,6 +4058,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [grafana/grafana](https://github.com/grafana/grafana) 开放且可组合的可观测性和数据可视化平台。可视化来自 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等多个来源的指标、日志和跟踪。`可视化`：具有多种选项的快速灵活的客户端图形。`动态仪表板`：使用模板变量创建动态和可重用的仪表板，这些模板变量在仪表板顶部显示为下拉列表。`探索指标`：通过临时查询和动态深入分析来探索数据。拆分视图并并排比较不同的时间范围、查询和数据源。`探索日志`：体验使用保留的标签筛选器从指标切换到日志的魔力。快速搜索所有日志或实时流式传输。`警报`：直观地为最重要的指标定义警报规则。Grafana 将持续评估并向 Slack、PagerDuty、VictorOps、OpsGenie 等系统发送通知。`混合数据源`：在同一张图中混合不同的数据源！您可以基于每个查询指定数据源。这甚至适用于自定义数据源。
 
 * [shieldfy/API-Security-Checklist](https://github.com/shieldfy/API-Security-Checklist) 设计、测试和发布 API 时最重要的安全对策清单
+
+* [sdras/awesome-actions](https://github.com/sdras/awesome-actions) 在 GitHub 上使用的精彩操作的精选列表
+
+* [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) Git 和 GitHub 的很酷的隐藏和不那么隐藏的功能的集合。此备忘单的灵感来自于 Zach Holman 在 2012 年 Aloha Ruby 大会上的 Git 和 GitHub Secrets 演讲（幻灯片）以及他在 WDCNZ 2013 上的更多 Git 和 GitHub Secrets 演讲（幻灯片）。
+
+* [gitbucket/gitbucket](https://github.com/gitbucket/gitbucket) 一个由 Scala 提供支持的 Git 平台，易于安装、高度扩展和 GitHub API 兼容性
+
+* [playframework/playframework](https://github.com/playframework/playframework) Play 框架结合了生产力和性能，使使用 Java 和 Scala 构建可扩展的 Web 应用程序变得容易。Play 对开发人员友好，具有“只需刷新”的工作流程和内置的测试支持。借助 Play，由于无状态和非阻塞架构，应用程序可以预测地扩展。通过默认的RESTful，包括资产编译器，JSON和WebSocket支持，Play非常适合现代Web和移动应用程序。
+
+* [apache/airflow](https://github.com/apache/airflow) 以编程方式编写、调度和监控工作流的平台。当工作流被定义为代码时，它们将变得更加可维护、可版本控制、可测试和协作。使用 Airflow 将工作流创作为任务的有向无环图 （DAG）。Airflow 调度程序在遵循指定依赖项的同时，在一组工作线程上执行任务。丰富的命令行实用程序使在 DAG 上执行复杂的手术变得轻而易举。通过丰富的用户界面，可以轻松可视化生产中运行的管道、监视进度并在需要时解决问题。
+
+* [apache/skywalking](https://github.com/apache/skywalking) APM（应用程序性能监控）系统，专为微服务、云原生和基于容器的架构而设计。开源的 APM 系统，包括云原生架构中分布式系统的监控、追溯、诊断能力。
 
 ## 网络与前后端开发_其他
 
@@ -4524,6 +4544,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) 指定目录下提供了一个文件管理界面，可用于上传、删除、预览、重命名和编辑您的文件。它允许创建多个用户，每个用户都可以拥有自己的目录。它可以用作独立应用程序。
 
 * [StevenBlack/hosts](https://github.com/StevenBlack/hosts)  整合和扩展来自多个精心策划的来源的主机文件。（可选）选择色情、社交媒体和其他类别的扩展。
+
+* 
 
 ## 区块链、智能合约
 
@@ -5591,6 +5613,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [glfw/glfw](https://github.com/glfw/glfw) 用于 OpenGL、OpenGL ES 和 Vulkan 应用程序开发的开源多平台库。它提供了一个简单的、独立于平台的 API，用于创建窗口、上下文和图面、读取输入、处理事件等。
 
 * [amusi/CVPR2023-Papers-with-Code](https://github.com/amusi/CVPR2023-Papers-with-Code) CVPR 2023 论文和开源项目合集
+
+* [GitHub - zalandoresearch/fashion-mnist: A MNIST-like fashion product database. Benchmark](https://github.com/zalandoresearch/fashion-mnist)  类似MNIST的时尚产品数据库。Zalando 文章图像的数据集，由包含 60,000 个示例的训练集和包含 10,000 个示例的测试集组成。每个示例都是一个 28x28 灰度图像，与来自 10 个类的标签相关联。我们打算 `Fashion-MNIST` 直接替代原始MNIST数据集，用于对机器学习算法进行基准测试。它与训练和测试拆分的图像大小和结构相同。
 
 # 因果推断
 
@@ -7054,6 +7078,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) 一个高可用、高性能、横向扩展、兼容SQL标准的企业级分布式关系数据库。蚂蚁集团从零开始构建的分布式关系 SQL 数据库。它具有高度可扩展性、弹性，可以同时处理事务和分析工作负载，并且与 MySQL 语法和功能高度兼容。OceanBase 可以部署在任何云中的虚拟机或本地物理主机上。同时，由于是多租户集群，用户可以实现数据库资源池化，提高效率。
 
+* [apache/flink](https://github.com/apache/flink) 开源的流处理框架，具有强大的流处理和批处理能力。支持批处理和数据流式处理程序的流优先运行时；Java 和 Scala 中优雅流畅的 API;同时支持非常高吞吐量和低事件延迟的运行时；支持基于数据流模型的 DataStream API 中的事件时间和无序处理；跨不同时间语义（事件时间、处理时间）的灵活窗口（时间、计数、会话、自定义触发器）;容错，保证一次处理;流媒体节目中的自然背压；用于图形处理（批处理）、机器学习（批处理）和复杂事件处理（流式处理）的库;DataSet（批处理）API 中对迭代程序 （BSP） 的内置支持；自定义内存管理，可在内存中和核外数据处理算法之间实现高效、稳健的切换;Apache Hadoop MapReduce的兼容层；与 YARN、HDFS、HBase 和 Apache Hadoop 生态系统的其他组件集成;
+
 * [pingcap/tidb](https://github.com/pingcap/tidb) 开源、云原生、分布式、MySQL 兼容数据库，用于弹性扩展和实时分析。开源分布式SQL数据库，支持混合事务和分析处理（HTAP）工作负载。它与 MySQL 兼容，并具有水平可扩展性、强一致性和高可用性。
 
 * [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) 一个更新和有组织的阅读列表，用于说明可扩展、可靠和高性能的大型系统的模式。概念在著名工程师的文章和可靠的参考文献中进行了解释。案例研究取自为数百万至数十亿用户提供服务的经过实战考验的系统。
@@ -7260,7 +7286,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) Redis和Memcached的现代替代品
 
-* [bilibili/overlord](https://github.com/bilibili/overlord) 哔哩哔哩基于Go语言编写的memcache和redis&cluster的代理及集群管理功能，致力于提供自动化高可用的缓存服务解决方案。
+* [bilibili/overlord](https://github.com/bilibili/overlord) 哔哩哔哩基于Go语言编写的memcache和redis cluster的代理及集群管理功能，致力于提供自动化高可用的缓存服务解决方案。
 
 * [redis/redis-py](https://github.com/redis/redis-py) redis内存中数据库的python客户端
 
@@ -7277,6 +7303,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [sohutv/cachecloud](https://github.com/sohutv/cachecloud) 搜狐视频(sohu tv)Redis私有云平台 ：支持Redis多种架构(Standalone、Sentinel、Cluster)高效管理、有效降低大规模redis运维成本，提升资源管控能力和利用率。平台提供快速搭建/迁移，运维管理，弹性伸缩，统计监控，客户端整合接入等功能。
 
 * [qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) 更快，更好，更稳定的Redis桌面管理器[GUI客户端]，兼容Linux，Windows，Mac。
+
+* [luin/medis](https://github.com/luin/medis) 美观、易用的 Redis Mac 数据库管理应用程序。
+
+* [apache/kafka](https://github.com/apache/kafka) 分布式数据存储和流处理平台，可以发布和订阅记录流，按顺序存储和处理数据。
+
+* [yahoo/CMAK](https://github.com/yahoo/CMAK) 用于管理 Apache Kafka 群集的工具
 
 * [prisma/prisma](https://github.com/prisma/prisma) 下一代 ORM 对象关系映射（Object Relational Mapping，为了解决面向对象与关系数据库存在的互不匹配）for Node.js & TypeScript |PostgreSQL，MySQL，MariaDB，SQL Server，SQLite，MongoDB和CockroachDB
 
@@ -7323,6 +7355,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [timescale/timescaledb](https://github.com/timescale/timescaledb) 针对快速引入和复杂查询进行了优化的开源时序 SQL 数据库。打包为 PostgreSQL 扩展。
 
 * [osquery/osquery](https://github.com/osquery/osquery) SQL 支持的操作系统检测、监控和分析。
+
+* [PostgREST/postgrest](https://github.com/PostgREST/postgrest) 适用于任何 Postgres 数据库的 REST API
 
 # 虚拟化
 
@@ -7732,6 +7766,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [rizinorg/cutter](https://github.com/rizinorg/cutter) 由 rizin 提供支持的免费开源逆向工程平台。它旨在成为一个先进且可定制的逆向工程平台，同时牢记用户体验。
 
+* [cs01/gdbgui](https://github.com/cs01/gdbgui) 基于浏览器的 gdb 前端（gnu 调试器）。在 C、C++、Go、Rust 和 Fortran 中添加断点、查看堆栈、可视化数据结构等。从终端运行 gdbgui，浏览器中将打开一个新选项卡。
+
 ## 漏洞库、漏洞靶场
 
 * [pwntester/0day](https://github.com/pwntester/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC 该项目将不断更新
@@ -7837,6 +7873,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) 使用 HWID / Ohook / KMS38 / Online KMS 激活方法的 Windows 和 Office 激活器，开源代码和较少的防病毒检测。
 
 * [pyca/cryptography](https://github.com/pyca/cryptography) 为 Python 开发人员提供加密配方和原语的包。包括常见加密算法（如对称密码、消息摘要和密钥派生函数）的高级配方和低级接口。
+
+* [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) 现代、安全且开源的密码管理器，可存储和管理您最敏感的信息。您可以在 Windows、macOS 和 Linux 系统上运行 KeePassXC。适用于对安全个人数据管理有极高要求的人。它将许多不同类型的信息（例如用户名、密码、URL、附件和注释）保存在一个离线加密文件中，该文件可以存储在任何位置，包括私有云和公共云解决方案。为了便于识别和管理，可以为条目指定用户定义的标题和图标。此外，条目被分类为可自定义的组。集成的搜索功能允许您使用高级模式轻松查找数据库中的任何条目。可自定义、快速且易于使用的密码生成器实用程序允许您使用任意字符组合或易于记忆的密码短语创建密码。
+
+* [https://github.com/gravitational/teleport](https://github.com/gravitational/teleport) 保护对所有基础架构的访问。Teleport 为基础设施提供连接、身份验证、访问控制和审计。
 
 ## 其他_安全与渗透
 
@@ -8805,6 +8845,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [reloadware/reloadium](https://github.com/reloadware/reloadium) Python 的热重载、分析和 AI 调试
 
+* [TomSchimansky/CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) 基于 Tkinter 的 python UI 库，它提供了新的、现代的和完全可定制的小部件。它们的创建和使用方式与普通的 Tkinter 小部件类似，也可以与普通的 Tkinter 元素结合使用。小部件和窗口颜色要么适应系统外观，要么适应手动设置的模式（“浅色”、“深色”），并且所有小部件和窗口都支持 HighDPI 缩放。在所有桌面平台上获得一致且现代的外观。
+
+* 
+
 ## C/C++ 程序设计
 
 * [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
@@ -8892,6 +8936,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [facebook/infer](https://github.com/facebook/infer) 适用于 Java、C、C++ 和 Objective-C 的静态分析器
 
 * [Tencent/MMKV](https://github.com/Tencent/MMKV) 微信开发的高效、小型移动键值存储框架。
+
+* [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) 社区开发的跨平台工具包，用于C++中的创造性编码。
 
 ## Rust 程序设计
 
@@ -9127,6 +9173,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [DeathKing/Learning-SICP](https://github.com/DeathKing/Learning-SICP) MIT视频公开课《计算机程序的构造和解释》中文化项目及课程学习资料搜集。
 
+* [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) 为初创公司首席技术官精心策划的、有主见的资源清单
+
 * [xingshaocheng/architect-awesome](https://github.com/xingshaocheng/architect-awesome) 后端架构师技术图谱
 
 * [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) 包含有关各种技术主题的问题和练习，有时与 DevOps 和 SRE 相关
@@ -9180,6 +9228,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [unknwon/go-fundamental-programming](https://github.com/unknwon/go-fundamental-programming) 《Go 编程基础》是一套针对 Google 出品的 Go 语言的视频语音教程，主要面向新手级别的学习者。
 
 * [ahmedash95/build-redis-from-scratch](https://github.com/ahmedash95/build-redis-from-scratch) 如何在 Go 中实现内存中数据库（如 Redis ）的文章系列。
+
+* [jroimartin/gocui](https://github.com/jroimartin/gocui) 极简主义的 Go 包，旨在创建控制台用户界面。
 
 * [chai2010/advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) 《Go语言高级编程》图书，涵盖CGO、Go汇编、RPC、Protobuf插件实现、Web框架实现、分布式系统等高阶主题
 
@@ -9301,6 +9351,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
    C、C++、C#、F#、Rust、Go、D、Haskell、Swift、Pascal、ispc、Python、Java 或其他 30 多种支持的语言中编辑代码，并查看代码在实际编译后的样子时间。每种语言都支持多个编译器，可以使用许多不同的工具和可视化，并且 UI 布局是可配置
 
 * [coder/code-server](https://github.com/coder/code-server) 浏览器中的 VS 代码编辑器
+
+* [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) 精选的令人愉快的 VS Code 包和资源列表。
 
 * [logseq/logseq](https://github.com/logseq/logseq) 一个知识管理和协作平台。它侧重于隐私、寿命和用户控制。Logseq 提供了一系列用于知识管理、协作、PDF 注释和任务管理的强大工具，支持多种文件格式，包括 Markdown 和组织模式，以及用于组织和构建笔记的各种功能。
 
@@ -9991,5 +10043,11 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [openfarmcc/OpenFarm](https://github.com/openfarmcc/OpenFarm) 免费和开放的农业和园艺知识数据库。你可以种植任何东西
 
 * [github/opensource.guide](https://github.com/github/opensource.guide) 为想要学习如何运行开源项目和为开源项目做出贡献的个人、社区和公司提供的资源集合。由 GitHub 创建和策划，以及来自外部社区审阅者的意见，但它们并非 GitHub 产品所独有。
+
+* [MaaAssistantArknights/MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) 《明日方舟》小助手，全日常一键长草！|Arknights日常任务的一键式工具，支持所有客户。
+
+* [tldr-pages/tldr](https://github.com/tldr-pages/tldr) 社区维护的命令行工具帮助页面的集合，旨在成为传统手册页的更简单、更易上手的补充。
+
+* [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) 与软件和体系结构相关的设计模式的精选列表。软件设计模式 - 在软件设计中给定上下文中，针对常见问题的通用、可重用的解决方案。它是有关如何解决可在许多不同情况下使用的问题的描述或模板。
 
 # end
