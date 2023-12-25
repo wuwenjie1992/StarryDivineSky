@@ -3823,7 +3823,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [realm/SwiftLint](https://github.com/realm/SwiftLint) 强制执行 Swift 样式和约定的工具。
 
-* [aframevr/aframe](https://github.com/aframevr/aframe) 用于构建虚拟现实体验的 Web 框架。`虚拟现实变得简单`：A-Frame 只需插入 <a-scene> 即可处理跨平台运行所需的 3D 和 WebXR 样板，包括移动设备、桌面和所有耳机（与支持 WebXR 的浏览器兼容）。`声明式 HTML`：HTML 易于阅读和复制粘贴。由于 A-Frame 可以在 HTML 中使用，因此每个人都可以访问。`实体组件架构`：three.js 之上的强大框架，为 three.js 提供了一个声明性的、可组合的、可重用的实体组件结构。可以无限制地访问 JavaScript、DOM API、three.js、WebXR 和 WebGL。`性能`：是 three.js 之上的精简框架。性能是重中之重，在高度交互的 WebXR 体验上经过了实战考验。`跨平台`：为任何与支持 WebXR 的浏览器兼容的头戴式设备构建 VR 和 AR 应用程序。仍然可以在标准台式机和智能手机上运行。`可视化检查器`：内置可视化 3D 检查器，其工作流程类似于浏览器的开发人员工具，界面类似于 Unity。打开任何 A-Frame 场景并点击 <ctrl> + <alt> + i . `功能`：内置组件（如几何体、材质、灯光、动画、模型、光线投射器、阴影、位置音频、跟踪控制器）立即开始运行。使用粒子系统、物理、多用户、海洋、山脉、语音识别或传送等社区组件
+* [aframevr/aframe](https://github.com/aframevr/aframe) 用于构建虚拟现实体验的 Web 框架。`虚拟现实变得简单`：A-Frame 只需插入 a-scene 即可处理跨平台运行所需的 3D 和 WebXR 样板，包括移动设备、桌面和所有耳机（与支持 WebXR 的浏览器兼容）。`声明式 HTML`：HTML 易于阅读和复制粘贴。由于 A-Frame 可以在 HTML 中使用，因此每个人都可以访问。`实体组件架构`：three.js 之上的强大框架，为 three.js 提供了一个声明性的、可组合的、可重用的实体组件结构。可以无限制地访问 JavaScript、DOM API、three.js、WebXR 和 WebGL。`性能`：是 three.js 之上的精简框架。性能是重中之重，在高度交互的 WebXR 体验上经过了实战考验。`跨平台`：为任何与支持 WebXR 的浏览器兼容的头戴式设备构建 VR 和 AR 应用程序。仍然可以在标准台式机和智能手机上运行。`可视化检查器`：内置可视化 3D 检查器，其工作流程类似于浏览器的开发人员工具，界面类似于 Unity。打开任何 A-Frame 场景并点击 ctrl+alt+i . `功能`：内置组件（如几何体、材质、灯光、动画、模型、光线投射器、阴影、位置音频、跟踪控制器）立即开始运行。使用粒子系统、物理、多用户、海洋、山脉、语音识别或传送等社区组件
 
 * [liriliri/eruda](https://github.com/liriliri/eruda) 适用于移动浏览器的控制台
 
@@ -3834,6 +3834,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) 使用 Electron 创建应用程序的有用资源
 
 * [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) 一个很棒的 Swift 库和资源的协作列表。欢迎贡献！
+
+* [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) 将多个开发人员文档结合在一个干净有序的 Web UI 中，具有即时搜索、离线支持、移动版本、深色主题、键盘快捷键等功能。
+
+* [apache/echarts](https://github.com/apache/echarts) 功能强大的交互式图表和数据可视化库，适用于浏览器
+
+* [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) 标志性的字体聚合器、集合和补丁程序。3,600+ 图标，50+ 修补字体：Hack、Source Code Pro 等。字形集合：Font Awesome、Material Design Icons、Octicons 等
+
+* [ascoders/weekly](https://github.com/ascoders/weekly) 前端精读周刊。帮你理解最前沿、实用的技术。
+
+* [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) 作为 React 样板的开箱即用 UI 解决方案，适用于企业应用程序。
 
 ## 后端开发框架及项目
 
@@ -4070,6 +4080,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [apache/airflow](https://github.com/apache/airflow) 以编程方式编写、调度和监控工作流的平台。当工作流被定义为代码时，它们将变得更加可维护、可版本控制、可测试和协作。使用 Airflow 将工作流创作为任务的有向无环图 （DAG）。Airflow 调度程序在遵循指定依赖项的同时，在一组工作线程上执行任务。丰富的命令行实用程序使在 DAG 上执行复杂的手术变得轻而易举。通过丰富的用户界面，可以轻松可视化生产中运行的管道、监视进度并在需要时解决问题。
 
 * [apache/skywalking](https://github.com/apache/skywalking) APM（应用程序性能监控）系统，专为微服务、云原生和基于容器的架构而设计。开源的 APM 系统，包括云原生架构中分布式系统的监控、追溯、诊断能力。
+
+* [appwrite/appwrite](https://github.com/appwrite/appwrite) 用于开发 Web、Mobile 和 Flutter 应用程序的后端平台。与开源社区一起构建，并针对您喜爱的编码语言的开发人员体验进行了优化。
+
+* [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) 易于使用的自托管监控工具。
+
+* [git/git](https://github.com/git/git) 快速、可扩展的分布式版本控制系统，具有异常丰富的命令集，既提供高级操作，又提供对内部的完全访问。受 GNU 通用公共许可证版本 2 的保护（它的某些部分采用不同的许可证，与 GPLv2 兼容）。它最初是由 Linus Torvalds 在网络上的一群黑客的帮助下编写的。
+
+* [xkcoding/spring-boot-demo](https://github.com/xkcoding/spring-boot-demo) 用来深入学习并实战 Spring Boot 的项目。
 
 ## 网络与前后端开发_其他
 
@@ -4545,7 +4563,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [StevenBlack/hosts](https://github.com/StevenBlack/hosts)  整合和扩展来自多个精心策划的来源的主机文件。（可选）选择色情、社交媒体和其他类别的扩展。
 
-* 
+* [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) 用于从 YouTube.com 和其他视频网站下载视频的命令行程序
+
+* [iptv-org/iptv](https://github.com/iptv-org/iptv) 收集来自世界各地的公开可用的IPTV（互联网协议电视）频道。
 
 ## 区块链、智能合约
 
@@ -6504,6 +6524,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [hongliangduan/Self-supervised-molecular-pretraining-strategy-for-low-resource-reaction-prediction-scenarios](https://github.com/hongliangduan/Self-supervised-molecular-pretraining-strategy-for-low-resource-reaction-prediction-scenarios) 低资源反应预测场景的自监督分子预训练策略 
 
+* [xzenglab/KG-MTL](https://github.com/xzenglab/KG-MTL) 以协同的方式从知识图谱和分子图中提取特征。此外，我们设计了一个有效的共享单元，帮助模型在两个层次的图中共同保留药物实体的语义关系和化合物的相邻结构。在四个真实世界数据集上的广泛实验表明，我们提出的KG-MTL在两个具有代表性的分子相互作用预测任务上优于最先进的方法：药物-靶点相互作用（DTI）预测和化合物-蛋白质相互作用（CPI）预测。
+
 ## 抗菌肽
 
 * [vail-uvm/amp-gan](https://github.com/vail-uvm/amp-gan) 一种基于双向条件生成对抗网络的抗菌肽（AMPs）设计方法AMPGAN v2。AMPGAN v2使用生成器和鉴别器来学习数据驱动的先验知识，并使用条件变量控制生成。
@@ -6652,6 +6674,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [luost26/diffab](https://github.com/luost26/diffab) 使用基于扩散的蛋白质结构生成模型进行抗原特异性抗体设计和优化（NeurIPS 2022）
 
+* [volkamerlab/kissim](https://github.com/volkamerlab/kissim) 提供了一种专为激酶口袋设计的新型指纹图谱策略，允许对结构覆盖的激酶组进行相似性研究。激酶指纹图谱基于 KLIFS 口袋比对，它定义了所有激酶结构的 85 个口袋残基。这样就可以逐个残基进行比较，而无需计算成本高昂的对齐步骤。
+
 # 图数据库图算法
 
 * [Tencent/plato](https://github.com/Tencent/plato) 腾讯高性能分布式图计算框架Plato
@@ -6765,7 +6789,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [yuduo93/THIGE](https://github.com/yuduo93/THIGE) 将复杂异质的动态交互行为构建为时序异质交互图（Temporal Heterogeneous Interaction Graph, 简称为THIG）进而同时学习用户兴趣和商品表示用于商品推荐。本文提出了一种时序异质图上的表示学习方法，称之为THIGE，充分建模交互行为的异质性，刻画不同类型的兴趣偏好，并融合长、短期兴趣构建用户、商品表示。最后，在3个真实数据集上验证模型的有效性。
 
-* [iqiyi/HMGNN](https://github.com/iqiyi/HMGNN) 异构小图神经网络及其在拉新裂变风控场景的应用.尝试通过图神经网络对欺诈邀请进行检测的方法。在GCN和异构图神经网络的基础上，HMGNN使用超图和异构图卷积克服了小图和异构图带来的问题。并在实际拉新场景中取得了不错的效果。此外，我们也在尝试将其应用到更广阔的场景中，比如金融反欺诈、关注&点赞反作弊等问题。
+* [iqiyi/HMGNN](https://github.com/iqiyi/HMGNN) 异构小图神经网络及其在拉新裂变风控场景的应用.尝试通过图神经网络对欺诈邀请进行检测的方法。在GCN和异构图神经网络的基础上，HMGNN使用超图和异构图卷积克服了小图和异构图带来的问题。并在实际拉新场景中取得了不错的效果。此外，我们也在尝试将其应用到更广阔的场景中，比如金融反欺诈、关注点赞反作弊等问题。
 
 * [THUDM/cogdl](https://github.com/THUDM/cogdl) 用于图形表示学习的广泛研究平台
 
@@ -7012,7 +7036,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [megvii-research/DPGN](https://github.com/megvii-research/DPGN) Distribution Propagation Graph Network for Few-shot Learning 分布传播图网络的小样本学习
 
-* [CUAI/CorrectAndSmooth](https://github.com/CUAI/CorrectAndSmooth) 标签信息 + 简单模型 直接使用标签进行预测。与 其他方案相比，本文中的C&S模型需要的参数量往往要少得多。在很多标准直推式节点分类（transductive node classification）基准上，超过或媲美当前最优的性能。
+* [CUAI/CorrectAndSmooth](https://github.com/CUAI/CorrectAndSmooth) 标签信息 + 简单模型 直接使用标签进行预测。与其他方案相比，本文中的CS模型需要的参数量往往要少得多。在很多标准直推式节点分类（transductive node classification）基准上，超过或媲美当前最优的性能。
 
 * [YimiAChack/GraphSTONE](https://github.com/YimiAChack/GraphSTONE) Graph Structural-topic Neural Network 图结构主题神经网络 本文类比自然语言处理中的相关概念，借助主题模型学习图的结构信息。
 
@@ -7624,6 +7648,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Datalux/Osintgram](https://github.com/Datalux/Osintgram) Instagram 上的 OSINT 工具。它提供了一个交互式外壳，可以通过其昵称对任何用户的Instagram帐户进行分析
 
+* [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) 在社交网络上按用户名寻找社交媒体帐户
+
 ## web shell、shellcode
 
 * web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
@@ -7876,13 +7902,15 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) 现代、安全且开源的密码管理器，可存储和管理您最敏感的信息。您可以在 Windows、macOS 和 Linux 系统上运行 KeePassXC。适用于对安全个人数据管理有极高要求的人。它将许多不同类型的信息（例如用户名、密码、URL、附件和注释）保存在一个离线加密文件中，该文件可以存储在任何位置，包括私有云和公共云解决方案。为了便于识别和管理，可以为条目指定用户定义的标题和图标。此外，条目被分类为可自定义的组。集成的搜索功能允许您使用高级模式轻松查找数据库中的任何条目。可自定义、快速且易于使用的密码生成器实用程序允许您使用任意字符组合或易于记忆的密码短语创建密码。
 
-* [https://github.com/gravitational/teleport](https://github.com/gravitational/teleport) 保护对所有基础架构的访问。Teleport 为基础设施提供连接、身份验证、访问控制和审计。
+* [gravitational/teleport](https://github.com/gravitational/teleport) 保护对所有基础架构的访问。Teleport 为基础设施提供连接、身份验证、访问控制和审计。
 
 ## 其他_安全与渗透
 
 * [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) 保护您的数字安全和隐私的精选提示清单
 
 * [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) 自动 SQL 注入和数据库接管工具
+
+* [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) 渗透测试平台，使您能够查找，利用和验证漏洞。 该平台包括Metasploit框架及其商业对手，如Metasploit Pro。 Metasploit是一个免费的、可下载的框架，通过它可以很容易对计算机软件漏洞实施攻击。 它本身附带数百个已知软件漏洞的专业级漏洞攻击工具。
 
 * [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行、cli/web 工具等。
 
@@ -8629,6 +8657,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [esphome/esphome](https://github.com/esphome/esphome) 通过简单而强大的配置文件来控制您的 ESP8266/ESP32 并通过家庭自动化系统远程控制它们的系统。
 
 * [MichMich/MagicMirror](https://github.com/MichMich/MagicMirror) 开源的模块化智能镜子平台。随着可安装模块的不断增加，MagicMirror² 允许您将走廊或浴室镜子转换为您的私人助理。
+
+* [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) 阿波罗11号制导计算机（AGC）指令舱（Comanche055）和登月舱（Luminary099）的原始源代码。由虚拟AGC和麻省理工学院博物馆的人们数字化。目标是成为原始阿波罗 11 号源代码的存储库。
 
 # 其他项目
 
@@ -10049,5 +10079,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [tldr-pages/tldr](https://github.com/tldr-pages/tldr) 社区维护的命令行工具帮助页面的集合，旨在成为传统手册页的更简单、更易上手的补充。
 
 * [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) 与软件和体系结构相关的设计模式的精选列表。软件设计模式 - 在软件设计中给定上下文中，针对常见问题的通用、可重用的解决方案。它是有关如何解决可在许多不同情况下使用的问题的描述或模板。
+
+* [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)  一个跨平台（Windows、Linux 和 macOS）自动化和配置工具/框架，可与现有工具配合使用，并针对处理结构化数据（例如 JSON、CSV、XML 等）、REST API 和对象模型进行了优化。它包括命令行 shell、关联的脚本语言和用于处理 cmdlet 的框架。
 
 # end
