@@ -3335,7 +3335,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [vuejs/pinia](https://github.com/vuejs/pinia) Vue 的官方状态管理库，直观、类型安全、轻量级和灵活的 Vue 应用状态管理，使用具有 DevTools 支持的组合 API
 
-* [GitHub - vuejs/vuex: 🗃️ Centralized State Management for Vue.js.](https://github.com/vuejs/vuex) Vue.js 的集中式状态管理。Vue 的官方状态管理库已更改为 Pinia。Pinia 具有与 Vuex 5 几乎完全相同或增强的 API，如 Vuex 5 RFC 中所述。你可以简单地将 Pinia 视为具有不同名称的 Vuex 5。Pinia 也适用于 Vue 2.x。
+* [vuejs/vuex](https://github.com/vuejs/vuex) Vue.js 的集中式状态管理。Vue 的官方状态管理库已更改为 Pinia。Pinia 具有与 Vuex 5 几乎完全相同或增强的 API，如 Vuex 5 RFC 中所述。你可以简单地将 Pinia 视为具有不同名称的 Vuex 5。Pinia 也适用于 Vue 2.x。
 
 * [electron/electron](https://github.com/electron/electron)使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
 
@@ -3366,6 +3366,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [hexojs/hexo](https://github.com/hexojs/hexo) 一个快速，简单和强大的博客框架，由Node.js提供支持。
 
 * [statelyai/xstate](https://github.com/statelyai/xstate) 现代 Web 的状态机和状态图。状态图是用于对有状态、反应性系统进行建模的形式。这对于以声明方式描述应用程序的行为（从各个组件到整个应用程序逻辑）非常有用。
+
+* [cypress-io/cypress](https://github.com/cypress-io/cypress) 快速、简单、可靠地在浏览器中运行的任何测试内容。轻松地为现代 Web 应用程序创建测试，直观地调试，并在持续集成构建中自动运行它们。
 
 * [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
 
@@ -3845,6 +3847,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) 作为 React 样板的开箱即用 UI 解决方案，适用于企业应用程序。
 
+* 
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4088,6 +4092,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [git/git](https://github.com/git/git) 快速、可扩展的分布式版本控制系统，具有异常丰富的命令集，既提供高级操作，又提供对内部的完全访问。受 GNU 通用公共许可证版本 2 的保护（它的某些部分采用不同的许可证，与 GPLv2 兼容）。它最初是由 Linus Torvalds 在网络上的一群黑客的帮助下编写的。
 
 * [xkcoding/spring-boot-demo](https://github.com/xkcoding/spring-boot-demo) 用来深入学习并实战 Spring Boot 的项目。
+
+* [traefik/traefik](https://github.com/traefik/traefik) 一种现代 HTTP 反向代理和负载均衡器，可轻松部署微服务。Traefik 与您现有的基础设施组件（Docker、Swarm 模式、Kubernetes、Consul、Etcd、Rancher v2、Amazon ECS 等）集成，并自动动态地进行配置。将 Traefik 指向业务流程协调程序应该是您唯一需要的配置步骤。
+
+* [ityouknow/spring-boot-examples](https://github.com/ityouknow/spring-boot-examples) Spring Boot 使用的各种示例，以最简单、最实用为标准，此开源项目中的每个示例都以最小依赖，最简单为标准，帮助初学者快速掌握 Spring Boot 各组件的使用。
+
+* [pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching) 交互式 git 可视化和教程。有抱负的 git 学生可以使用这个应用程序来教育和挑战自己，以掌握 git！
 
 ## 网络与前后端开发_其他
 
@@ -4551,6 +4561,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [odoo/odoo](https://github.com/odoo/odoo) 基于Web的开源商业应用程序。包括开源CRM，网站构建器，电子商务，仓库管理，项目管理，计费和会计，销售点，人力资源，营销，制造，...
 
+* [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)  youtube-dl 分支，基于现在不活跃的 youtube-dlc。该项目的主要重点是添加新功能和补丁，同时与原始项目保持同步
+
 * [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) 用于隐私的开源 YouTube 应用程序
 
 * [diaspora/diaspora](https://github.com/diaspora/diaspora) 一个具有隐私意识的分布式开源社交网络。
@@ -4566,6 +4578,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) 用于从 YouTube.com 和其他视频网站下载视频的命令行程序
 
 * [iptv-org/iptv](https://github.com/iptv-org/iptv) 收集来自世界各地的公开可用的IPTV（互联网协议电视）频道。
+
+* [wg/wrk](https://github.com/wg/wrk) 现代 HTTP 基准测试工具，能够在单个多核 CPU 上运行时产生大量负载。它将多线程设计与可扩展的事件通知系统（如 epoll 和 kqueue）相结合。可选的 LuaJIT 脚本可以执行 HTTP 请求生成、响应处理和自定义报告。
+
+* [shadowsocks/ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) 下一代 ShadowsocksX
 
 ## 区块链、智能合约
 
@@ -5232,6 +5248,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion) 具有潜在扩散模型的高分辨率图像合成
 
+* [hua1995116/awesome-ai-painting](https://github.com/hua1995116/awesome-ai-painting) AI绘画资料合集（包含国内外可使用平台、使用教程、参数教程、部署教程、业界新闻等等）
+
 * [YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) 扩散模型论文、调查和分类法
 
 * [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) 功能最强大、模块化最稳定的扩散 GUI，带有图形/节点界面。特征:节点/图形/流程图界面，无需编写任何代码即可试验和创建复杂的稳定扩散工作流程。完全支持 SD1.x、SD2.x、SDXL 和稳定的视频扩散。许多优化：仅重新执行在执行之间更改的工作流部分。命令行选项： --lowvram 使其在 vram 小于 3GB 的 GPU 上运行（在 vram 较低的 GPU 上自动启用）。即使您没有具有以下功能的 GPU，也能正常工作： --cpu （慢速）。可以加载 ckpt、safetensor 和扩散器模型/检查点。独立的 VAE 和 CLIP 型号。嵌入/文本反转。Loras（常规、locon 和 loha）。超网络。从生成的 PNG 文件加载完整的工作流（带有种子）。将工作流保存/加载为 Json 文件。节点接口可用于创建复杂的工作流程，例如用于 Hires 修复或更高级的工作流程。区域构成。使用常规模型和修复模型进行修复。ControlNet 和 T2I 适配器。高档型号（ESRGAN、ESRGAN 变体、SwinIR、Swin2SR 等）。unCLIP 型号。GLIGEN。模型合并。LCM 模型和 Loras。SDXL 涡轮增压。使用 TAESD 进行潜在预览。启动速度非常快。完全离线工作：永远不会下载任何内容。配置文件来设置模型的搜索路径。
@@ -5761,6 +5779,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [thuml/Autoformer](https://github.com/thuml/Autoformer) 用于长期序列预测的具有自相关性的分解变压器。Autoformer超越了Transformer系列，首次实现了串联。在六个基准上进行实验，涵盖五个主流应用程序。我们将我们的模型与十个基线进行比较，包括 Informer、N-BEATS 等。通常，对于长期预测设置，Autoformer 实现了 SOTA，相对于之前的基线有38% 的相对改进。
 
 * [alan-turing-institute/sktime](https://github.com/alan-turing-institute/sktime) 时间序列的机器学习统一框架 。包括时间序列分类、回归、聚类、注释和预测。
+
+* [facebook/prophet](https://github.com/facebook/prophet) 用于为具有线性或非线性增长的多个季节性的时间序列数据生成高质量预测的工具。
 
 * [jdb78/pytorch-forecasting](https://github.com/jdb78/pytorch-forecasting) pytorch的时间系列预测库，模型包括：RecurrentNetwork、DecoderMLP、NBeats 、DeepAR 、TemporalFusionTransformer。
 
@@ -7226,6 +7246,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [duckdb/duckdb](https://github.com/duckdb/duckdb) 进程内SQL OLAP数据库管理系统，高性能的分析数据库系统。它快速可靠、便携且易于使用。提供了丰富的SQL方言，其支持远远超出了基本的SQL。支持任意和嵌套的相关子查询、窗口函数、排序规则、复杂类型（数组、结构）等。
 
+* [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) 面向开发人员、SQL 程序员、数据库管理员和分析师的免费多平台数据库工具。支持任何具有JDBC驱动程序的数据库（基本上意味着 - 任何数据库）。商业版本还支持非JDBC数据源，如MongoDB、Cassandra、Couchbase、Redis、BigTable、DynamoDB等。可以找到商业版本中支持的所有数据库的列表。
+
+* [etcd-io/etcd](https://github.com/etcd-io/etcd) 分布式可靠的键值存储，用于存储分布式系统中最关键的数据，重点是：简单：定义明确、面向用户的 API （gRPC），安全：具有可选客户端证书身份验证的自动 TLS，快速：以 10,000 次写入/秒为基准，可靠：使用 Raft 正确分发。etcd 是用 Go 语言编写的，它使用 Raft 共识算法来管理一个高度可用的复制日志。
+
 ## 数据搜索引擎
 
 * [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -7381,6 +7405,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [osquery/osquery](https://github.com/osquery/osquery) SQL 支持的操作系统检测、监控和分析。
 
 * [PostgREST/postgrest](https://github.com/PostgREST/postgrest) 适用于任何 Postgres 数据库的 REST API
+
+* [minio/minio](https://github.com/minio/minio) 高性能、兼容 S3 的对象存储。它专为大规模 AI/ML、数据湖和数据库工作负载而构建。它是软件定义的，可在任何云或本地基础架构上运行。MinIO 在开源 GNU AGPL v3 和商业企业许可证下获得双重许可。
 
 # 虚拟化
 
@@ -10056,6 +10082,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [minetest/minetest](https://github.com/minetest/minetest) 开源体素游戏引擎，易于修改和游戏创建。
 
+* [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) Android、Win、Mac 和 Linux 的 PSP 模拟器，用 C++ 编写。
+
 * [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) Go 编程语言的开源游戏引擎。Ebitengine 的简单 API 允许您快速轻松地开发可跨多个平台部署的 2D 游戏。
 
 * [skypjack/entt](https://github.com/skypjack/entt) 游戏与现代 C++ 的结合 - 快速可靠的实体组件系统 （ECS） 等等。仅标头，小巧且易于使用的游戏编程库，以及更多用现代 C++ 编写的库。
@@ -10081,5 +10109,11 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) 与软件和体系结构相关的设计模式的精选列表。软件设计模式 - 在软件设计中给定上下文中，针对常见问题的通用、可重用的解决方案。它是有关如何解决可在许多不同情况下使用的问题的描述或模板。
 
 * [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)  一个跨平台（Windows、Linux 和 macOS）自动化和配置工具/框架，可与现有工具配合使用，并针对处理结构化数据（例如 JSON、CSV、XML 等）、REST API 和对象模型进行了优化。它包括命令行 shell、关联的脚本语言和用于处理 cmdlet 的框架。
+
+* [cmderdev/cmder](https://github.com/cmderdev/cmder) 出于对 Windows 上缺乏可用的控制台模拟器的挫败感而创建的。它基于 ConEmu，对配置进行了重大改革，带有 Monokai 配色方案、惊人的叮当声（通过叮当声完成进一步增强）和自定义提示布局。
+
+* [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) 常见 unix 命令的现代/更快/更健全的替代方案的集合。
+
+* [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips) 学习英语的高级指南，可能会使您受益匪浅。离谱的英语学习指南。
 
 # end
