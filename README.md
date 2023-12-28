@@ -62,9 +62,9 @@
 
 * [apachecn/AiLearning](https://github.com/apachecn/AiLearning) ![stars](https://img.shields.io/github/stars/apachecn/AiLearning.svg?style=social) AiLearning: 机器学习 - MachineLearning - ML、深度学习 - DeepLearning - DL、自然语言处理 NLP 
 
-* [microsoft/ai-edu](https://github.com/microsoft/ai-edu) [教程/笔记]微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
+* [microsoft/ai-edu](https://github.com/microsoft/ai-edu) ![stars](https://img.shields.io/github/stars/microsoft/ai-edu.svg?style=social) 微软人工智能教育与学习共建社区。由**基础教程**、**实践案例**、**实践项目**三大模块构成，通过系统化的理论教程和丰富多样的实践案例，帮助学习者学习并掌握人工智能的知识，并锻炼在实际项目中的开发能力。
 
-* [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) [教程/笔记]10 周20 节课，全民数据科学！
+* [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) ![stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social) 10 周20 节课，全民数据科学！
 
 * [mli/paper-reading](https://github.com/mli/paper-reading) 深度学习经典、新论文逐段精读。包括视频讲解。
 
@@ -9185,6 +9185,74 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [lollipopkit/flutter_server_box](https://github.com/lollipopkit/flutter_server_box) 使用 Flutter 的服务器状态和工具箱应用程序
 
+## Go 程序设计
+
+* [golang/go](https://github.com/golang/go) Go 是一种开源编程语言，可以轻松构建简单、可靠且高效的软件。
+
+* [Go 程序设计 · 语雀](https://www.yuque.com/qyuhen/go) Go 程序设计 · 语雀
+
+* [dariubs/GoBooks](https://github.com/dariubs/GoBooks) Go书籍列表
+
+* [hoanhan101/ultimate-go](https://github.com/hoanhan101/ultimate-go) 终极Go学习指南
+
+* [qax-os/excelize](https://github.com/qax-os/excelize) 用于读写Microsoft Excel™ （XLAM / XLSM / XLSX / XLTM / XLTX）电子表格的Go语言库
+
+* [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) Go 语法和功能概述。
+
+* [gonum/gonum](https://github.com/gonum/gonum) 用于 Go 编程语言的数字库。它包含矩阵、统计、优化等库
+
+* [uber-go/zap](https://github.com/uber-go/zap) 在 Go 中实现超快、结构化、分级的日志记录。
+
+* [moovweb/gvm](https://github.com/moovweb/gvm) Go 版本管理器
+
+* [golang-standards/project-layout](https://github.com/golang-standards/project-layout) 标准 Go 项目布局
+
+* [unknwon/go-fundamental-programming](https://github.com/unknwon/go-fundamental-programming) 《Go 编程基础》是一套针对 Google 出品的 Go 语言的视频语音教程，主要面向新手级别的学习者。
+
+* [ahmedash95/build-redis-from-scratch](https://github.com/ahmedash95/build-redis-from-scratch) 如何在 Go 中实现内存中数据库（如 Redis ）的文章系列。
+
+* [jroimartin/gocui](https://github.com/jroimartin/gocui) 极简主义的 Go 包，旨在创建控制台用户界面。
+
+* [chai2010/advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) 《Go语言高级编程》图书，涵盖CGO、Go汇编、RPC、Protobuf插件实现、Web框架实现、分布式系统等高阶主题
+
+* [gopherjs/gopherjs](https://github.com/gopherjs/gopherjs) 从 Go 到 JavaScript 的编译器，用于在浏览器中运行 Go 代码
+
+* [gogf/gf](https://github.com/gogf/gf) GoFrame 是 Go 的一个模块化、功能强大、高性能的企业级应用开发框架。
+
+* [alist-org/alist](https://github.com/alist-org/alist) 一个文件列表/ WebDAV程序，支持多个存储，由Gin和Solidjs提供支持。/ 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
+
+* [gin-gonic/gin](https://github.com/gin-gonic/gin) 一个用 Go （Golang） 编写的 HTTP Web 框架。它具有类似Martini的API，性能要好得多 - 速度提高了40倍。
+
+* [cosmtrek/air](https://github.com/cosmtrek/air) Go 应用的实时重新加载
+
+* [avelino/awesome-go](https://github.com/avelino/awesome-go) 精选的 Go 框架、库和软件的精选列表
+
+* [unknwon/go-study-index](https://github.com/unknwon/go-study-index) Go 语言学习资料与社区索引
+
+* [go-shiori/shiori](https://github.com/go-shiori/shiori) 使用 Go 构建的简单书签管理器
+
+* [json-iterator/go](https://github.com/json-iterator/go) 高性能 100% 兼容Go的“encoding/json”直接替代品
+
+* [go-delve/delve](https://github.com/go-delve/delve) Go 编程语言的调试器。
+
+* [talkgo/night](https://github.com/talkgo/night) Go 夜读｜通过 bilibili 在线直播的方式分享 Go 相关的技术话题，每天大家在微信/telegram/Slack 上及时沟通交流编程技术话题。
+
+* [senghoo/golang-design-pattern](https://github.com/senghoo/golang-design-pattern) 设计模式 Go实现－《研磨设计模式》读书笔记
+
+* [unknwon/the-way-to-go_ZH_CN](https://github.com/unknwon/the-way-to-go_ZH_CN) 《The Way to Go》中文译本，中文正式名《Go 入门指南》
+
+* [TheAlgorithms/Go](https://github.com/TheAlgorithms/Go) 在 Go 中为初学者实现的算法和数据结构，遵循最佳实践。
+
+* [inancgumus/learngo](https://github.com/inancgumus/learngo) 1000+ 手工制作的go示例、练习和测验。 通过修复 1000+ 个小程序来学习 Go。
+
+* [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) LeetCode by Go 的解决方案，100% 测试覆盖率，运行时击败 100% / LeetCode 题解
+
+* [traefik/yaegi](https://github.com/traefik/yaegi) 另一位优雅的Go解释器。它为 Go 运行时之上的嵌入式解释器或交互式 shell 中的可执行 Go 脚本和插件提供支持。
+
+* [influxdata/telegraf](https://github.com/influxdata/telegraf) 使用 Go 构建的插件驱动的服务器代理，用于收集和报告指标。
+
+* [johnkerl/miller](https://github.com/johnkerl/miller) Miller 就像 awk、sed、剪切、连接和排序的名称索引数据，如 CSV、TSV 和表格 JSON。
+
 ## 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -9262,68 +9330,6 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [resumejob/awesome-resume](https://github.com/resumejob/awesome-resume) 程序员简历例句，简历模版
 
 * [apple/swift](https://github.com/apple/swift) Swift 是一种高性能的系统编程语言。它具有简洁现代的语法，提供对现有 C 和 Objective-C 代码和框架的无缝访问，并且默认情况下是内存安全的。
-
-* [golang/go](https://github.com/golang/go) Go 是一种开源编程语言，可以轻松构建简单、可靠且高效的软件。
-
-* [dariubs/GoBooks](https://github.com/dariubs/GoBooks) go书籍列表
-
-* [hoanhan101/ultimate-go](https://github.com/hoanhan101/ultimate-go) 终极go学习指南
-
-* [qax-os/excelize](https://github.com/qax-os/excelize) 用于读写Microsoft Excel™ （XLAM / XLSM / XLSX / XLTM / XLTX）电子表格的Go语言库
-
-* [a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) Go 语法和功能概述。
-
-* [gonum/gonum](https://github.com/gonum/gonum) 用于 Go 编程语言的数字库。它包含矩阵、统计、优化等库
-
-* [uber-go/zap](https://github.com/uber-go/zap) 在 Go 中实现超快、结构化、分级的日志记录。
-
-* [moovweb/gvm](https://github.com/moovweb/gvm) Go 版本管理器
-
-* [golang-standards/project-layout](https://github.com/golang-standards/project-layout) 标准 Go 项目布局
-
-* [unknwon/go-fundamental-programming](https://github.com/unknwon/go-fundamental-programming) 《Go 编程基础》是一套针对 Google 出品的 Go 语言的视频语音教程，主要面向新手级别的学习者。
-
-* [ahmedash95/build-redis-from-scratch](https://github.com/ahmedash95/build-redis-from-scratch) 如何在 Go 中实现内存中数据库（如 Redis ）的文章系列。
-
-* [jroimartin/gocui](https://github.com/jroimartin/gocui) 极简主义的 Go 包，旨在创建控制台用户界面。
-
-* [chai2010/advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) 《Go语言高级编程》图书，涵盖CGO、Go汇编、RPC、Protobuf插件实现、Web框架实现、分布式系统等高阶主题
-
-* [gopherjs/gopherjs](https://github.com/gopherjs/gopherjs) 从 Go 到 JavaScript 的编译器，用于在浏览器中运行 Go 代码
-
-* [gogf/gf](https://github.com/gogf/gf) GoFrame 是 Go 的一个模块化、功能强大、高性能的企业级应用开发框架。
-
-* [alist-org/alist](https://github.com/alist-org/alist) 一个文件列表/ WebDAV程序，支持多个存储，由Gin和Solidjs提供支持。/ 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
-
-* [gin-gonic/gin](https://github.com/gin-gonic/gin) 一个用 Go （Golang） 编写的 HTTP Web 框架。它具有类似Martini的API，性能要好得多 - 速度提高了40倍。
-
-* [cosmtrek/air](https://github.com/cosmtrek/air) Go 应用的实时重新加载
-- [avelino/awesome-go](https://github.com/avelino/awesome-go) 精选的 Go 框架、库和软件的精选列表
-
-- [unknwon/go-study-index](https://github.com/unknwon/go-study-index) Go 语言学习资料与社区索引
-
-- [go-shiori/shiori](https://github.com/go-shiori/shiori) 使用 Go 构建的简单书签管理器
-
-- [json-iterator/go](https://github.com/json-iterator/go) 高性能 100% 兼容Go的“encoding/json”直接替代品
-
-- [go-delve/delve](https://github.com/go-delve/delve) Go 编程语言的调试器。
-
-- [talkgo/night](https://github.com/talkgo/night) Go 夜读｜通过 bilibili 在线直播的方式分享 Go 相关的技术话题，每天大家在微信/telegram/Slack 上及时沟通交流编程技术话题。
-
-- [senghoo/golang-design-pattern](https://github.com/senghoo/golang-design-pattern) 设计模式 Go实现－《研磨设计模式》读书笔记
-
-- [unknwon/the-way-to-go_ZH_CN](https://github.com/unknwon/the-way-to-go_ZH_CN) 《The Way to Go》中文译本，中文正式名《Go 入门指南》
-
-- [TheAlgorithms/Go](https://github.com/TheAlgorithms/Go) 在 Go 中为初学者实现的算法和数据结构，遵循最佳实践。
-
-- [inancgumus/learngo](https://github.com/inancgumus/learngo) 1000+ 手工制作的go示例、练习和测验。 通过修复 1000+ 个小程序来学习 Go。
-
-- [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) LeetCode by Go 的解决方案，100% 测试覆盖率，运行时击败 100% / LeetCode 题解
-
-- [traefik/yaegi](https://github.com/traefik/yaegi) 另一位优雅的Go解释器。它为 Go 运行时之上的嵌入式解释器或交互式 shell 中的可执行 Go 脚本和插件提供支持。
-
-- [influxdata/telegraf](https://github.com/influxdata/telegraf) 使用 Go 构建的插件驱动的服务器代理，用于收集和报告指标。
-* [johnkerl/miller](https://github.com/johnkerl/miller) Miller 就像 awk、sed、剪切、连接和排序的名称索引数据，如 CSV、TSV 和表格 JSON。
 
 * [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
 
@@ -9841,8 +9847,6 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [wuxingsanren/wildcat-vip-account](https://github.com/wuxingsanren/wildcat-vip-account) 每天分享最新的百度网盘SVIP、迅雷超级会员、手机话费折扣充值、霸王餐免费吃VIP（美团、饿了么、大众点评、肯德基、麦当劳、星巴克）、饿了么超级会员、美团外卖会员&红包券、爱奇艺VIP会员、腾讯视频VIP、优酷VIP会员、哔哩哔哩大会员、百度文库VIP、QQ音乐VIP、网易云黑胶VIP、喜马拉雅VIP、樊登读书会VIP、千图网VIP、包图网VIP、摄图网VIP、CSDN下载VIP、天眼查VIP、苹果ID等等各类VIP帐号，随取随用，完全免费，绝无套路，同时提供：百度文库VIP下载、图库素材VIP下载、学术文献VIP下载（知网维普万方读秀龙源超星、英文数据库、法律数据库、医学数据库、金融数据库）、全网视频VIP解析、全网音乐MP3免费听及下载、微信域名拦截检测API 
 
 * [XiangLinPro/IT_book](https://github.com/XiangLinPro/IT_book) 收藏这些年来看过或者听过的一些不错的常用的上千本书籍，没准你想找的书就在这里呢，包含了互联网行业大多数书籍和面试经验题目等等。有人工智能系列（常用深度学习框架TensorFlow、pytorch、keras。NLP、机器学习，深度学习等等），大数据系列(Spark,Hadoop,Scala,kafka等)，程序员必修系列（C、C++、java、数据结构、linux，设计模式、数据库等等）
-
-* [Go 程序设计 · 语雀](https://www.yuque.com/qyuhen/go) 
 
 * [NASM 程序设计 · 语雀]([NASM 程序设计 · 语雀](https://www.yuque.com/qyuhen/asm))
 
