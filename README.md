@@ -2504,7 +2504,7 @@
 
 * [princeton-nlp/SimCSE](https://github.com/princeton-nlp/SimCSE) SimCSE：句子嵌入的简单对比学习 。提供无监督或有监督的对比学习。是目前文本相似度更好的方法。
 
-* [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers) 句子转换器：使用BERT RoBERTa XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入
+* [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers) 句子转换器：使用BERT RoBERTa XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入。该框架提供了一种简单的方法来计算句子、段落和图像的密集矢量表示。这些模型基于BERT / RoBERTa / XLM-RoBERTa等变压器网络，并在各种任务中实现最先进的性能。文本嵌入在向量空间中，使得相似的文本更接近，并且可以使用余弦相似性有效地找到。
 
 * [bojone/CoSENT](https://github.com/bojone/CoSENT) 比Sentence-BERT更有效的句向量方案.优化cos值的新方案**CoSENT**（Cosine Sentence）。[实验显示](https://kexue.fm/archives/8847)，CoSENT在收敛速度和最终效果上普遍都比InferSent和Sentence-BERT要好。
 
@@ -2970,6 +2970,8 @@
 * [PKU-TANGENT/nlp-tutorial](https://github.com/PKU-TANGENT/nlp-tutorial) NLP新手入门教程
 
 * [yuanzhoulvpi2017/zero_nlp](https://github.com/yuanzhoulvpi2017/zero_nlp) 中文nlp解决方案(大模型、数据、模型、训练、推理)
+
+* [fxsjy/jieba](https://github.com/fxsjy/jieba) 中文意为“口吃”，中文文本分割：打造成为最好的 Py 中文分词模块。
 
 * [bojone/attention](https://github.com/bojone/attention) Attention机制的实现tensorflow/keras
 
@@ -3847,7 +3849,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) 作为 React 样板的开箱即用 UI 解决方案，适用于企业应用程序。
 
-* 
+* [getredash/redash](https://github.com/getredash/redash) 让您的公司以数据为导向。连接到任何数据源，轻松可视化、仪表板和共享您的数据。Redash 旨在使任何人，无论技术复杂程度如何，都能利用大大小小的数据的力量。SQL 用户利用 Redash 来探索、查询、可视化和共享来自任何数据源的数据。他们的工作反过来又使组织中的任何人都可以使用这些数据。每天，全球数千个组织中的数百万用户使用 Redash 来开发见解并做出数据驱动的决策。
+
+* [badges/shields](https://github.com/badges/shields) 以 SVG 和光栅格式提供简洁、一致且清晰的徽章的服务，可以轻松包含在 GitHub 自述文件或任何其他网页中。该服务支持数十种持续集成服务、软件包注册表、发行版、应用商店、社交网络、代码覆盖服务和代码分析服务。它每月提供超过 8.7 亿张图像，并被世界上一些最受欢迎的开源项目使用，包括 VS Code、Vue.js 和 Bootstrap 等。
+
+* [PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) Android 图表视图/图形视图库，支持线条图、饼图、雷达图、气泡图和烛台图以及缩放、平移和动画。 
+
+* [chalk/chalk](https://github.com/chalk/chalk) 正确的终端CLI字符串样式
 
 ## 后端开发框架及项目
 
@@ -4098,6 +4106,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [ityouknow/spring-boot-examples](https://github.com/ityouknow/spring-boot-examples) Spring Boot 使用的各种示例，以最简单、最实用为标准，此开源项目中的每个示例都以最小依赖，最简单为标准，帮助初学者快速掌握 Spring Boot 各组件的使用。
 
 * [pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching) 交互式 git 可视化和教程。有抱负的 git 学生可以使用这个应用程序来教育和挑战自己，以掌握 git！
+
+* [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design) 了解如何大规模设计系统并准备系统设计面试
+
+* [Vonng/ddia](https://github.com/Vonng/ddia) 《设计数据密集型应用》DDIA中文翻译。现今，尤其是在互联网领域，大多数应用都属于数据密集型应用。本书从底层数据结构到顶层架构设计，将数据系统设计中的精髓娓娓道来。其中的宝贵经验无论是对架构师、DBA、还是后端工程师、甚至产品经理都会有帮助。这是一本理论结合实践的书，书中很多问题，译者在实际场景中都曾遇到过，读来让人击节扼腕。如果能早点读到这本书，该少走多少弯路啊！这也是一本深入浅出的书，讲述概念的来龙去脉而不是卖弄定义，介绍事物发展演化历程而不是事实堆砌，将复杂的概念讲述的浅显易懂，但又直击本质不失深度。每章最后的引用质量非常好，是深入学习各个主题的绝佳索引。本书为数据系统的设计、实现、与评价提供了很好的概念框架。读完并理解本书内容后，读者可以轻松看破大多数的技术忽悠，与技术砖家撕起来虎虎生风。
 
 ## 网络与前后端开发_其他
 
@@ -4583,6 +4595,24 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [shadowsocks/ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) 下一代 ShadowsocksX
 
+* [nsqio/nsq](https://github.com/nsqio/nsq) 实时分布式消息传递平台，旨在大规模运行，每天处理数十亿条消息。它促进了分布式和分散式拓扑结构，没有单点故障，实现了容错和高可用性以及可靠的消息传递保证。查看功能和保证。在操作上，NSQ 易于配置和部署（所有参数都在命令行上指定，编译的二进制文件没有运行时依赖性）。为了获得最大的灵活性，它与数据格式无关（消息可以是 JSON、MsgPack、协议缓冲区或其他任何格式）。官方的 Go 和 Python 库（以及许多其他客户端库）开箱即用，如果您有兴趣构建自己的库，这里有一个协议规范。
+
+* [monicahq/monica](https://github.com/monicahq/monica) 个人客户关系管理。记住你的朋友、家人和业务关系的一切。
+
+* [agalwood/Motrix](https://github.com/agalwood/Motrix) 功能齐全的下载管理器，支持下载 HTTP、FTP、BitTorrent、Magnet 等。
+
+* [brave/brave-browser](https://github.com/brave/brave-browser) 适用于 Android、Linux、macOS、Windows 的下一代 Brave (Chromium) 浏览器。
+
+* [shuzheng/zheng](https://github.com/shuzheng/zheng) 基于Spring+SpringMVC+Mybatis分布式敏捷开发系统架构，提供整套公共微服务模块：集中权限管理（单点登录）、内容管理、支付中心、用户管理（支持三方登录）、微信平台、存储系统、配置中心、日志分析、任务和通知等，支持服务治理、监控和追踪，努力为中小型企业打造全方位J2EE企业级开发解决方案。
+
+* [square/okhttp](https://github.com/square/okhttp) Square 适用于 JVM、Android 和 GraalVM 的细致 HTTP 客户端。
+
+* [square/retrofit](https://github.com/square/retrofit) 适用于 Android 和 JVM 的类型安全 HTTP 客户端
+
+* [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) 「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 网站 IP
+
+* [heyxyz/hey](https://github.com/heyxyz/hey) 使用 Lens Protocol 构建的去中心化且无需许可的社交媒体应用程序
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -4590,6 +4620,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) 比特币核心代码功能的集成/暂存树
 
 * [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) 以太坊协议的官方Go实现
+
+* [ethereum/solidity](https://github.com/ethereum/solidity) 静态类型的、面向合约的高级语言，用于在以太坊平台上实现智能合约。
 
 * [imfly/bitcoin-on-nodejs](https://github.com/imfly/bitcoin-on-nodejs) 《Node.js区块链开发》
 
@@ -4624,6 +4656,40 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [status-im/status-mobile](https://github.com/status-im/status-mobile) 一个免费的（自由）开源，以太坊的移动操作系统。一个浏览器、信使和通往去中心化世界的门户。Status是一个免费（自由）的开源移动客户端，完全基于以太坊技术构建，面向Android和iOS。没错，没有中间商， go-ethereum 直接在您的设备上运行。
 
 * [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) 用于安全智能合约开发的库。建立在社区审查代码的坚实基础上。ERC20 和 ERC721 等标准的实施。灵活的基于角色的权限方案。可重用的 Solidity 组件，用于构建自定义合约和复杂的去中心化系统。
+
+* [OffcierCia/DeFi-Developer-Road-Map](https://github.com/OffcierCia/DeFi-Developer-Road-Map) DeFi 开发者路线图是一本精心策划的开发者手册，其中包括 DApp 开发的最佳工具、资源和参考资料列表！
+
+* [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core) Fuel v2 协议的 Rust 全节点实现。Fuel（V2）的技术堆栈有三个核心支柱，分别为：`并行交易执行`：Fuel 使用 UTXO（未花费交易输出）模型形式的严格状态访问列表（strict access list），因此具有并行执行交易的能力，在计算、状态访问和事务吞吐量方面较具优势）。`Fuel 虚拟机`（FuelVM）：旨在减少传统区块链虚拟机架构的浪费处理情况，同时增加开发人员的潜在设计空间。`开发者体验`（使用 Sway 和 Forc）：Fuel 使用自己的特定领域语言 Sway（受 Rust 启发）和支持工具链 Forc（Fuel Orchestrator）提供较为强大和流畅的开发人员体验。开发环境保留了 Solidity 等智能合约语言的优势，同时采用了 Rust 工具生态系统中引入的范式，并包含利用区块链 VM 的语法。
+
+* [Consensys/smart-contract-best-practices](https://github.com/Consensys/smart-contract-best-practices) 智能合约安全最佳实践指南
+
+* [ethers-io/ethers.js](https://github.com/ethers-io/ethers.js) 在 JavaScript 中完成以太坊库和钱包实现。
+
+* [smartcontractkit/full-blockchain-solidity-course-py](https://github.com/smartcontractkit/full-blockchain-solidity-course-py) 终极可靠性、区块链和智能合约 - 从初学者到专家的完整课程 |Python 版本
+
+* [smartcontractkit/full-blockchain-solidity-course-js](https://github.com/smartcontractkit/full-blockchain-solidity-course-js) 使用 Javascript 学习区块链、Solidity 和全栈 Web3 开发
+
+* [ethereumbook/ethereumbook](https://github.com/ethereumbook/ethereumbook) 面向开发人员的书，提供了以太坊、以太坊经典、RootStock （RSK） 和其他基于 EVM 的兼容开放区块链的操作和使用指南。
+
+* [trufflesuite/truffle](https://github.com/trufflesuite/truffle) 以太坊的开发环境、测试框架和资产管道，旨在让以太坊开发人员的生活更轻松。项目维护中。
+
+* [solana-labs/solana](https://github.com/solana-labs/solana) 网络规模区块链，用于快速、安全、可扩展、去中心化的应用程序和市场。
+
+* [AmazingAng/WTF-Solidity](https://github.com/AmazingAng/WTF-Solidity) 重新学solidity，巩固一下细节，也写一个“WTF Solidity极简入门”，供小白们使用（编程大佬可以另找教程），每周更新1-3讲。
+
+* [sismo-core/sismo-badges](https://github.com/sismo-core/sismo-badges) Sismo 协议的智能合约。
+
+* [MetaMask/metamask-extension](https://github.com/MetaMask/metamask-extension) 浏览器扩展程序支持浏览支持以太坊区块链的网站
+
+* [bkrem/awesome-solidity](https://github.com/bkrem/awesome-solidity) 精选的 Solidity 资源、库、工具等列表
+
+* [scaffold-eth/scaffold-eth-2](https://github.com/scaffold-eth/scaffold-eth-2) 开源的最新工具包，用于在以太坊区块链上构建去中心化应用程序 （dapp）。它旨在使开发人员更容易创建和部署智能合约，并构建与这些合约交互的用户界面。
+
+* [foundry-rs/foundry](https://github.com/foundry-rs/foundry) 用 Rust 编写的用于以太坊应用程序开发的超快速、可移植和模块化工具包。
+
+* [Uniswap/web3-react](https://github.com/Uniswap/web3-react) 简单、可扩展、依赖性最小化的框架，用于构建现代以太坊 dApp
+
+* [web3/web3.js](https://github.com/web3/web3.js) 以太坊 JSON RPC API 和相关工具的 TypeScript 实现，由 ChainSafe Systems 维护。
 
 # 推荐系统
 
@@ -5068,6 +5134,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) 很棒的基于PaddlePaddle的多语言OCR工具包（实用的超轻量级OCR系统，支持80+语言识别，提供数据标注和合成工具，支持服务器、移动、嵌入式和物联网设备之间的训练和部署）
 
+* [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) 开源、免费的离线OCR软件。支持截屏/粘贴/批量导入图片，段落排版/排除水印，扫描/生成二维码。内置多国语言库。
+
 * [FudanVI/benchmarking-chinese-text-recognition](https://github.com/FudanVI/benchmarking-chinese-text-recognition) 该存储库包含用于对中文文本识别进行基准测试的数据集和基线。收集公开可用的场景数据集，包括**RCTW**、**ReCTS**、**LSVT**、**ArT**、**CTW** ，得到 636,455 个样本，这些样本被随机打乱，然后按 8:1:1 的比例划分，以构建训练、验证和测试数据集。六种具有代表性的方法作为基线:
 - CRNN是典型的基于 CTC 的方法，在学术界和工业界得到广泛应用。它首先将文本图像发送到 CNN 以提取图像特征，然后采用两层 LSTM 对序列特征进行编码。最后，LSTM 的输出被馈送到 CTC解码器，以最大化所有路径通往基本事实的概率。
 
@@ -5122,7 +5190,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab基于PyTorch的开源对象检测工具箱
 
-* [microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) 基于Masked Image Modeling的预训练方法，适用于 Swin 和 SwinV2（也适用于 ViT 和 ResNet）。它可以作为计算机视觉的通用主干。它基本上是一个分层变换器，其表示是用移位窗口计算的。移位窗口方案通过将 self-attention 计算限制在不重叠的本地窗口上，同时还允许跨窗口连接，从而带来更高的效率。将 CLIP 预训练的 ViT-L 提高了 +1.6%，以达到ImageNet-1K 图像分类，这是最准确的 ViT-L 模型。在 COCO 对象检测（58.7 box AP和51.1 mask APtest-dev）和 ADE20K 语义分割（53.5 mIoU在 val）上实现了强大的性能，大大超过了以前的模型。
+* [microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) 基于Masked Image Modeling的预训练方法，适用于 Swin 和 SwinV2（也适用于 ViT 和 ResNet）。它可作为CV的通用主干。它基本上是一个分层变换器，其表示是用移位窗口计算的。移位窗口方案通过将 self-attention 计算限制在不重叠的本地窗口上，同时还允许跨窗口连接，从而带来更高的效率。将 CLIP 预训练的 ViT-L 提高了 +1.6%，以达到ImageNet-1K 图像分类，这是最准确的 ViT-L 模型。在 COCO 对象检测（58.7 box AP和51.1 mask APtest-dev）和 ADE20K 语义分割（53.5 mIoU在 val）上实现了强大的性能，大大超过了以前的模型。
+
+* [facebookresearch/detr](https://github.com/facebookresearch/detr) 使用Transformer进行端到端目标检测。适用于 DETR （DEtection TRansformer） 的 PyTorch 训练代码和预训练模型。我们用 Transformer 替换了整个复杂的手工目标检测管道，并将 Faster R-CNN 与 ResNet-50 匹配，使用一半的计算能力 （FLOP） 和相同数量的参数在 COCO 上获得 42 个 AP。在 50 行 PyTorch 中进行推理。
 
 * [PaddlePaddle/PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) 易于使用的图像分割库，具有出色的预训练模型库，支持语义分割、交互式分割、全景分割、图像叠加、3D 分割等广泛的实际任务。
 
@@ -5248,11 +5318,15 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion) 具有潜在扩散模型的高分辨率图像合成
 
+* [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) 文本到图像模型\图像到视频的模型。发布 SDXL-Turbo，这是一款闪电般快速的文本到图像模型。 Stable Video Diffusion，一种图像到视频的模型。SDXL-base-0.9 ：在分辨率为 1024^2 的图像上，对基础模型进行了各种纵横比的训练。基本模型使用 OpenCLIP-ViT/G 和 CLIP-ViT/L 进行文本编码，而精简模型仅使用 OpenCLIP 模型。SDXL-refiner-0.9 ：精简器已经过训练，可以对高质量数据的小噪声水平进行降噪，因此不应用作文本到图像模型;相反，它只能用作图像到图像模型。
+
 * [hua1995116/awesome-ai-painting](https://github.com/hua1995116/awesome-ai-painting) AI绘画资料合集（包含国内外可使用平台、使用教程、参数教程、部署教程、业界新闻等等）
 
 * [YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) 扩散模型论文、调查和分类法
 
 * [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) 功能最强大、模块化最稳定的扩散 GUI，带有图形/节点界面。特征:节点/图形/流程图界面，无需编写任何代码即可试验和创建复杂的稳定扩散工作流程。完全支持 SD1.x、SD2.x、SDXL 和稳定的视频扩散。许多优化：仅重新执行在执行之间更改的工作流部分。命令行选项： --lowvram 使其在 vram 小于 3GB 的 GPU 上运行（在 vram 较低的 GPU 上自动启用）。即使您没有具有以下功能的 GPU，也能正常工作： --cpu （慢速）。可以加载 ckpt、safetensor 和扩散器模型/检查点。独立的 VAE 和 CLIP 型号。嵌入/文本反转。Loras（常规、locon 和 loha）。超网络。从生成的 PNG 文件加载完整的工作流（带有种子）。将工作流保存/加载为 Json 文件。节点接口可用于创建复杂的工作流程，例如用于 Hires 修复或更高级的工作流程。区域构成。使用常规模型和修复模型进行修复。ControlNet 和 T2I 适配器。高档型号（ESRGAN、ESRGAN 变体、SwinIR、Swin2SR 等）。unCLIP 型号。GLIGEN。模型合并。LCM 模型和 Loras。SDXL 涡轮增压。使用 TAESD 进行潜在预览。启动速度非常快。完全离线工作：永远不会下载任何内容。配置文件来设置模型的搜索路径。
+
+* [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) 图像生成软件（基于Gradio）。对 Stable Diffusion 和 Midjourney 设计的重新思考：从 Stable Diffusion 中学习，该软件是离线、开源和免费的。从Midjourney中学习，不需要手动调整，用户只需要专注于提示和图像。
 
 * [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) 关于扩散模型的资源和论文集
 
@@ -5272,6 +5346,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [yangjianxin1/CLIP-Chinese](https://github.com/yangjianxin1/CLIP-Chinese) 中文多模态对比学习预训练模型 ，可获取140w中文图文对预训练数据，以及中文CLIP预训练权重。下游任务：图文相似度计算、文本相似度计算、图片相似度计算
 
+* [jina-ai/clip-as-service](https://github.com/jina-ai/clip-as-service) 使用 CLIP 对图像和句子进行可扩展的嵌入、推理和排名。一种低延迟、高可扩展性的服务，用于嵌入图像和文本。它可以作为微服务轻松集成到神经搜索解决方案中。`快速`：使用 TensorRT、ONNX 运行时和 PyTorch 提供 CLIP 模型，而无需 JIT，速度为 800QPS。请求和响应的无阻塞双工流，专为大数据和长时间运行的任务而设计。`弹性`：在单个 GPU 上水平扩展和缩减多个 CLIP 模型，并具有自动负载均衡功能。`易于使用`：没有学习曲线，客户端和服务器上的极简设计。直观且一致的 API，用于图像和句子嵌入。`新式`：异步客户端支持。使用 TLS 和压缩在 gRPC、HTTP、WebSocket 协议之间轻松切换。`集成`：与神经搜索生态系统（包括 Jina 和 DocArray）平滑集成。立即构建跨模式和多模式解决方案。
+
 * [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) 让我们控制扩散模型！ControlNet 是一种神经网络结构，通过添加额外条件来控制扩散模型。
 
 * [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) 适用于 ControlNet 的 WebUI 扩展
@@ -5281,6 +5357,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Nutlope/roomGPT](https://github.com/Nutlope/roomGPT) 上传您的房间照片，使用 AI 生成您的梦想房间。使用称为ControlNet的ML模型来生成房间的变化。此应用程序使您能够上传任何房间的照片，该照片将使用 Next.js API 路由通过此 ML 模型发送照片，并返回生成的房间。
 
 * [jbilcke-hf/ai-comic-factory](https://github.com/jbilcke-hf/ai-comic-factory) 使用 LLM + SDXL 生成漫画面板。
+
+* [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) 拖动 GAN：基于点操作的交互式图像流形生成
 
 * [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持中英文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
 
@@ -5652,7 +5730,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [amusi/CVPR2023-Papers-with-Code](https://github.com/amusi/CVPR2023-Papers-with-Code) CVPR 2023 论文和开源项目合集
 
-* [GitHub - zalandoresearch/fashion-mnist: A MNIST-like fashion product database. Benchmark](https://github.com/zalandoresearch/fashion-mnist)  类似MNIST的时尚产品数据库。Zalando 文章图像的数据集，由包含 60,000 个示例的训练集和包含 10,000 个示例的测试集组成。每个示例都是一个 28x28 灰度图像，与来自 10 个类的标签相关联。我们打算 `Fashion-MNIST` 直接替代原始MNIST数据集，用于对机器学习算法进行基准测试。它与训练和测试拆分的图像大小和结构相同。
+* [zalandoresearch/fashion-mnist](https://github.com/zalandoresearch/fashion-mnist)  类似MNIST的时尚产品数据库。Zalando 文章图像的数据集，由包含 60,000 个示例的训练集和包含 10,000 个示例的测试集组成。每个示例都是一个 28x28 灰度图像，与来自 10 个类的标签相关联。我们打算 `Fashion-MNIST` 直接替代原始MNIST数据集，用于对机器学习算法进行基准测试。它与训练和测试拆分的图像大小和结构相同。
+
+* [albumentations-team/albumentations](https://github.com/albumentations-team/albumentations) 用于图像增强的 Python 库。图像增强用于深度学习和计算机视觉任务，以提高训练模型的质量。图像增强的目的是从现有数据创建新的训练样本。支持所有常见的计算机视觉任务，例如分类、语义分割、实例分割、对象检测和姿态估计。提供了一个简单的统一 API 来处理所有数据类型：图像（RBG 图像、灰度图像、多光谱图像）、分割掩码、边界框和关键点。该库包含 70 多种不同的增强，用于从现有数据生成新的训练样本。
 
 # 因果推断
 
@@ -7408,6 +7488,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [minio/minio](https://github.com/minio/minio) 高性能、兼容 S3 的对象存储。它专为大规模 AI/ML、数据湖和数据库工作负载而构建。它是软件定义的，可在任何云或本地基础架构上运行。MinIO 在开源 GNU AGPL v3 和商业企业许可证下获得双重许可。
 
+* [sqlitebrowser/sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser) DB浏览器SQLite版
+
+* [xuxueli/xxl-job](https://github.com/xuxueli/xxl-job) 分布式任务调度框架。它的核心设计目标是快速开发并学习简单、轻量级和易于扩展。它已经开源，许多公司在生产环境中使用它，真正的“开箱即用”。
+
+* [tikv/tikv](https://github.com/tikv/tikv) 分布式事务性键值数据库，最初是为了补充 TiDB 而创建的
+
+* [airbytehq/airbyte](https://github.com/airbytehq/airbyte) 用于 ELT 管道的数据集成平台，从 API、数据库和文件到数据库、仓库和湖泊。只有开源的数据移动解决方案才能覆盖数据源的长尾，同时使数据工程师能够自定义现有的连接器。我们的最终愿景是帮助您将数据从任何来源移动到任何目的地。Airbyte 已经为 API、数据库、数仓和数据湖提供了300+ 连接器。
+
+* [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) 现代数据编排平台。敏捷地使用低代码创建高性能工作流。它还提供了强大的用户界面，专门用于解决数据管道中的复杂任务依赖关系，并提供开箱即用的各种类型的作业。易于部署，提供四种部署方式，包括单机、集群、Docker 和 Kubernetes。简单易用，工作流可以通过四种方式创建和管理，包括 Web UI、Python SDK、Yaml 文件和 Open API。高可靠高可用，多主多工作线程的去中心化架构，原生支持水平扩展。高性能，其性能比其他编排平台快N倍，每天可支持数千万个任务。云原生，DolphinScheduler 支持编排多云/数据中心工作流，支持自定义任务类型。对工作流和工作流实例（包括任务）进行版本控制。工作流和任务的各种状态控制，支持随时暂停/停止/恢复。其他如回填支持（Web UI原生），权限控制，包括项目、资源和数据源。
+
+* [apache/rocketmq](https://github.com/apache/rocketmq) 云原生消息和流式处理平台，可以简化构建事件驱动的应用程序。分布式消息流平台，具有低时延、高性能、高可靠、万亿级容量和灵活扩展性。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -7491,6 +7583,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [fnproject/fn](https://github.com/fnproject/fn) 容器原生、与云无关的无服务器平台。
 
 * [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) 在 Google Cloud Platform 上艰难地引导 Kubernetes。没有脚本。
+
+* [labring/sealos](https://github.com/labring/sealos) 生产就绪的 K8s 发行版，为公有云和私有云提供一站式解决方案。
 
 # 安全与渗透
 
@@ -8995,6 +9089,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) 社区开发的跨平台工具包，用于C++中的创造性编码。
 
+* [gabime/spdlog](https://github.com/gabime/spdlog) 非常快速，仅标头/编译的 C++ 日志记录库。
+
+* [catchorg/Catch2](https://github.com/catchorg/Catch2) 用于单元测试、TDD 和 BDD 的现代 C++ 原生测试框架 - 使用 C++14、C++17 及更高版本
+
+* [fmtlib/fmt](https://github.com/fmtlib/fmt) 开源格式库，为 C stdio 和 C++ iostreams 提供了快速安全的替代方案。
+
+* [rigtorp/awesome-modern-cpp](https://github.com/rigtorp/awesome-modern-cpp) 有关现代 C++ 的资源集合。目标是收集资源列表，以帮助人们了解和利用现代 C++11 及更高版本。
+
+* [sumatrapdfreader/sumatrapdf](https://github.com/sumatrapdfreader/sumatrapdf) C/C++ Windows 的多格式（PDF、EPUB、MOBI、CBZ、CBR、FB2、CHM、XPS、DjVu）阅读器，采用 （A）GPLv3 许可，部分代码采用 BSD 许可。
+
+* [ttroy50/cmake-examples](https://github.com/ttroy50/cmake-examples) CMake 是一个跨平台的开源元构建系统，可以构建、测试和打包软件。这个存储库包括一些现代 CMake 配置示例，我在探索它在各种项目中的用法时已经拿起了这些配置。这些示例以类似教程的格式进行布局。第一个示例非常基础，并且利用前面的示例来展示更复杂的用例，复杂性会慢慢增加。
+
 ## Rust 程序设计
 
 * [rust-lang/rust](https://github.com/rust-lang/rust) rust使每个人都能构建可靠、高效的软件。Rust 的主要源代码存储库。它包含编译器、标准库和文档。
@@ -9094,6 +9200,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) 显示有关代码统计信息的程序。Tokei 将显示文件数、这些文件中的总行数以及按语言分组的代码、注释和空白。
 
 * [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) 适用于所有编程语言、配置文件、构建工具等的静态分析 （SAST） 工具和 linter 的精选列表。重点是提高代码质量的工具。
+
+* [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) 一个解析器生成器工具和一个增量解析库。它可以为源文件构建具体的语法树，并在编辑源文件时有效地更新语法树。目标是：通用到足以解析任何编程语言；速度足够快，可以在文本编辑器中解析每个击键；足够强大，即使在存在语法错误的情况下也能提供有用的结果；无依赖性，因此运行时库（用纯 C 语言编写）可以嵌入到任何应用程序中
 
 ## flutter
 
@@ -9486,6 +9594,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) 一个现代编辑器，后端用 Rust 编写。
 
+* [judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial) IntelliJ IDEA 简体中文专题教程，对于语言开发学习者我是非常建议你使用 IntelliJ IDEA，因为一些代码格式、命名规范在 IntelliJ IDEA 下都是有良好的提示，对于我们所处的输入法下的中文全角符号也可以得到快速发现。
+
+* [atom/atom](https://github.com/atom/atom)  21 世纪的可破解文本编辑器，基于 Electron 构建，并基于我们喜欢的编辑器的一切。我们将其设计为可深度定制，但使用默认配置仍然可以使用。
+
 * [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) 允许您记录屏幕的选定区域，编辑并将其保存为 gif 或视频。需要 .NET 6 桌面运行时（或更高版本）。
 
 * [mifi/lossless-cut](https://github.com/mifi/lossless-cut) 无损视频/音频编辑的瑞士军刀。跨平台 FFmpeg GUI，用于对视频、音频、字幕和其他相关媒体文件进行极其快速和无损的操作。
@@ -9519,6 +9631,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [DaveJarvis/keenwrite](https://github.com/DaveJarvis/keenwrite) Java的Markdown编辑器，具有实时预览，字符串插值和公式
 
 * [vinayak-mehta/present](https://github.com/vinayak-mehta/present) 基于终端的演示工具，具有颜色和效果。
+
+* [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) 熟练使用命令行是一项经常被忽视或被认为是晦涩难懂的技能，但它以明显和微妙的方式提高了您作为工程师的灵活性和生产力。这是一些关于使用命令行的笔记和技巧，我们发现在 Linux 上工作时很有用。有些技巧是基本的，有些则相当具体、复杂或晦涩难懂。这个页面不长，但如果你能使用和回忆这里的所有项目，你就会知道很多。
 
 * [girliemac/a-picture-is-worth-a-1000-words](https://github.com/girliemac/a-picture-is-worth-a-1000-words) 用简单的涂鸦来描述复杂的事情！包括：算法、web、机器学习、Git、HTTP 状态等
 
@@ -10086,6 +10200,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [minetest/minetest](https://github.com/minetest/minetest) 开源体素游戏引擎，易于修改和游戏创建。
 
+* [Anuken/Mindustry](https://github.com/Anuken/Mindustry) 自动化塔防RTS，用Java编写。
+
 * [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) Android、Win、Mac 和 Linux 的 PSP 模拟器，用 C++ 编写。
 
 * [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) Go 编程语言的开源游戏引擎。Ebitengine 的简单 API 允许您快速轻松地开发可跨多个平台部署的 2D 游戏。
@@ -10114,10 +10230,42 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)  一个跨平台（Windows、Linux 和 macOS）自动化和配置工具/框架，可与现有工具配合使用，并针对处理结构化数据（例如 JSON、CSV、XML 等）、REST API 和对象模型进行了优化。它包括命令行 shell、关联的脚本语言和用于处理 cmdlet 的框架。
 
+* [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 像Fish一样快速/不显眼的 zsh 自动建议。
+
 * [cmderdev/cmder](https://github.com/cmderdev/cmder) 出于对 Windows 上缺乏可用的控制台模拟器的挫败感而创建的。它基于 ConEmu，对配置进行了重大改革，带有 Monokai 配色方案、惊人的叮当声（通过叮当声完成进一步增强）和自定义提示布局。
 
 * [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) 常见 unix 命令的现代/更快/更健全的替代方案的集合。
 
+* [zellij-org/zellij](https://github.com/zellij-org/zellij) 面向开发人员、面向运营人员和任何喜欢终端的人的工作空间。类似的程序有时被称为“终端多路复用器”。
+
+* [termux/termux-app](https://github.com/termux/termux-app) 适用于 Android 操作系统的终端模拟器应用程序，可通过各种软件包进行扩展。适用于 Android 的终端模拟器，其环境类似于 Linux 环境。 无需Root或设置即可使用。 Termux 会自动进行最小安装 - 使用 APT 包管理器即可获得其他软件包。
+
+* [termux/termux-packages](https://github.com/termux/termux-packages) 为 Termux Android 应用程序构建包的脚本和补丁。
+
+* [gnachman/iTerm2](https://github.com/gnachman/iTerm2) Mac OS X 的终端模拟器，可以做一些令人惊奇的事情。
+
+* [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) 专业的跨平台SSH/Sftp/Shell/Telnet/串口终端。
+
 * [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips) 学习英语的高级指南，可能会使您受益匪浅。离谱的英语学习指南。
+
+* [SerenityOS/serenity](https://github.com/SerenityOS/serenity) 用于 x86-64 计算机的图形类 Unix 操作系统。一封写给 90 年代用户界面的情书，具有自定义的类 Unix 核心。它通过从其他各种系统中窃取美丽的想法来真诚地奉承。目标是将 1990 年代后期生产力软件的美学与 2000 年代后期 *nix 的高级用户可访问性结合起来。
+
+* [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。
+
+* [ryanhanwu/How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。
+
+* [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) 科技行业远程工作友好型公司（工作）列表。
+
+* [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) 精心策划的令人敬畏的计算机编程面试问题列表列表。
+
+* [Kristories/awesome-guidelines](https://github.com/Kristories/awesome-guidelines) 精选的高质量编码风格约定和标准列表。
+
+* [timqian/chinese-independent-blogs](https://github.com/timqian/chinese-independent-blogs) 中文独立博客列表
+
+* [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) 经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新
+
+* [gleitz/howdoi](https://github.com/gleitz/howdoi) 通过命令行立即得到编码答案
+
+* [brendangregg/FlameGraph](https://github.com/brendangregg/FlameGraph) 堆栈跟踪可视化工具，单击一个框以仅将火焰图缩放到此堆栈帧。要搜索并突出显示与正则表达式匹配的所有堆栈帧，请单击右上角的搜索按钮或按 Ctrl-F。默认情况下，搜索区分大小写，但可以通过按 Ctrl-I 或单击右上角的 ic 按钮来切换。
 
 # end
