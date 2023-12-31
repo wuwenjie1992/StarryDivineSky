@@ -3306,6 +3306,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [prettier/prettier](https://github.com/prettier/prettier) 固执己见的代码格式化程序。它通过解析代码并使用自己的规则重新打印代码来强制执行一致的样式，考虑了最大行长度，并在必要时包装代码。
 
+* [emscripten-core/emscripten](https://github.com/emscripten-core/emscripten) 使用 LLVM 和 Binaryen 将 C 和 C++ 编译为 WebAssembly。Emscripten 输出可以在 Web、Node.js 和 wasm 运行时中运行。
+
+* [colinhacks/zod](https://github.com/colinhacks/zod) 使用静态类型推理进行 TypeScript 优先架构验证
+
+* [vercel/turbo](https://github.com/vercel/turbo) 增量打包器和构建系统针对 JavaScript 和 TypeScript 进行了优化，用 Rust 编写——包括 Turbopack 和 Turborepo。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -3315,6 +3321,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [facebook/react-native](https://github.com/facebook/react-native) 使用 React 构建本机应用程序的框架
 
 * [enaqx/awesome-react](https://github.com/enaqx/awesome-react) 关于 React 生态系统的精彩内容的集合
+
+* [mantinedev/mantine](https://github.com/mantinedev/mantine) 功能齐全的 React 组件库
 
 * [mui/material-ui](https://github.com/mui/material-ui) 即用型基础 React 组件，永久免费。它包括 Material UI，它实现了 Google 的 Material Design。
 
@@ -3857,6 +3865,48 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [chalk/chalk](https://github.com/chalk/chalk) 正确的终端CLI字符串样式
 
+* [validatorjs/validator.js](https://github.com/validatorjs/validator.js) 字符串验证程序和清理程序库。
+
+* [t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app) 交互式 CLI，用于启动全栈、类型安全的 Next.js 应用。启动全栈、类型安全的 Next.js 应用的最佳方式。
+
+* [spf13/cobra](https://github.com/spf13/cobra) 用于创建功能强大的现代 CLI 应用程序的库。Cobra 用于许多 Go 项目，例如 Kubernetes、Hugo 和 GitHub CLI 等。
+
+* [vadimdemedes/ink](https://github.com/vadimdemedes/ink) React 用于交互式命令行应用，基于组件的 UI 构建体验与 React 在浏览器中提供的相同，但适用于命令行应用。它使用 Yoga 在终端中构建 Flexbox 布局，因此大多数类似 CSS 的道具也可以在 Ink 中使用。
+
+* [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) 强大的小TUI框架，构建终端应用程序的有趣、实用和有状态的方式。基于 Elm 架构的 Go 框架。珍珠奶茶非常适合简单和复杂的终端应用，无论是在线、全窗还是两者兼而有之。
+
+* [urfave/cli](https://github.com/urfave/cli) 一个简单、快速、有趣的包，用于在 Go 中构建命令行应用程序
+
+* [svg/svgo](https://github.com/svg/svgo) 用于优化 SVG 文件的 Node.js 工具
+
+* [infinitered/ignite](https://github.com/infinitered/ignite) React Native 七年多不断开发的结晶，是 Expo 和裸 React Native 中最受欢迎的 React Native 应用程序样板。
+
+* [dotnet/maui](https://github.com/dotnet/maui) .NET 多平台应用 UI，是一个用于构建跨移动设备、平板电脑和台式机的本机设备应用程序的框架。
+
+* [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) 经过修改的 Web 浏览器，有助于响应式 Web 开发。Web 开发人员必须具有开发工具。Web 开发人员必备的开发工具，可实现更快的响应式 Web 开发。使用 Electron 构建的修改后的浏览器。
+
+* [GeekyAnts/NativeBase](https://github.com/GeekyAnts/NativeBase) 适用于 React Native 和 Web 的移动优先、可访问的组件，可在 Android、iOS 和 Web 上构建一致的 UI。
+
+* [select2/select2](https://github.com/select2/select2) 基于 jQuery 的选择框。支持搜索、远程数据集和结果的无限滚动。
+
+* [Modernizr/Modernizr](https://github.com/Modernizr/Modernizr)  JS 库，用于检测用户浏览器中的 HTML5 和 CSS3 功能。
+
+* [backstage/backstage](https://github.com/backstage/backstage) 用于构建开发人员门户的开放平台。由集中式软件目录提供支持，可恢复微服务和基础架构的秩序，并使您的产品团队能够在不影响自主性的情况下快速交付高质量代码。
+
+* [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) React Native 应用的路由和导航。
+
+* [pmndrs/zustand](https://github.com/pmndrs/zustand) 承担 React 中状态管理的必要条件，使用简化通量原理的小型、快速且可扩展的 bearbone 状态管理解决方案。
+
+* [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) 一个 JavaScript 库，用于定位浮动元素并为其创建交互。
+
+* [highlightjs/highlight.js](https://github.com/highlightjs/highlight.js) JavaScript 编写的语法高亮。它适用于浏览器和服务器。它几乎可以处理任何标记，不依赖于任何其他框架，并且具有自动语言检测功能。
+
+* [emberjs/ember.js](https://github.com/emberjs/ember.js) JavaScript 框架，它大大减少了构建任何 Web 应用程序所需的时间、精力和资源。它专注于通过执行大多数 Web 开发项目中涉及的所有常见、重复但必不可少的任务，使您（开发人员）尽可能高效。
+
+* [expo/expo](https://github.com/expo/expo) 一个开源平台，用于使用 React 制作通用的原生应用程序。Expo 可在 Android、iOS 和 Web 上运行。
+
+* [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) 可扩展的跨平台应用的基础，使用 Electron、React、React Router、Webpack 和 React Fast Refresh。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4110,6 +4160,22 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design) 了解如何大规模设计系统并准备系统设计面试
 
 * [Vonng/ddia](https://github.com/Vonng/ddia) 《设计数据密集型应用》DDIA中文翻译。现今，尤其是在互联网领域，大多数应用都属于数据密集型应用。本书从底层数据结构到顶层架构设计，将数据系统设计中的精髓娓娓道来。其中的宝贵经验无论是对架构师、DBA、还是后端工程师、甚至产品经理都会有帮助。这是一本理论结合实践的书，书中很多问题，译者在实际场景中都曾遇到过，读来让人击节扼腕。如果能早点读到这本书，该少走多少弯路啊！这也是一本深入浅出的书，讲述概念的来龙去脉而不是卖弄定义，介绍事物发展演化历程而不是事实堆砌，将复杂的概念讲述的浅显易懂，但又直击本质不失深度。每章最后的引用质量非常好，是深入学习各个主题的绝佳索引。本书为数据系统的设计、实现、与评价提供了很好的概念框架。读完并理解本书内容后，读者可以轻松看破大多数的技术忽悠，与技术砖家撕起来虎虎生风。
+
+* [grafana/k6](https://github.com/grafana/k6) 使用 Go 和 JavaScript 的现代负载测试工具。它功能强大、可扩展且功能齐全。关键设计目标是提供最佳的开发人员体验。其核心功能是：`可配置的负载生成`。即使是低端机器也可以模拟大量流量。`测试即代码`。重用脚本、模块化逻辑、版本控制，并将测试与 CI 集成。`功能齐全的 API`。脚本 API 包含可帮助您模拟真实应用程序流量的功能。嵌入式 JavaScript 引擎。Go 的性能，JavaScript 的脚本熟悉度。多协议支持。HTTP、WebSockets、gRPC 等。大型扩展生态系统。您可以扩展 k6 来支持您的需求。许多人已经与社区分享了他们的扩展！灵活的指标存储和可视化。汇总统计信息或粒度指标，导出到您选择的服务。
+
+* [Redocly/redoc](https://github.com/Redocly/redoc) 从 OpenAPI 生成精美的 API 文档
+
+* [nrwl/nx](https://github.com/nrwl/nx) 具有内置工具和高级 CI 功能的构建系统。它可以帮助您在本地和 CI 上维护和扩展 monorepos。
+
+* [avajs/ava](https://github.com/avajs/ava) Node.js 测试运行程序，让你充满信心地进行开发
+
+* [parse-community/parse-server](https://github.com/parse-community/parse-server) 开源后端，可以部署到任何可以运行 Node.js 的基础架构。Parse Server 与 Express Web 应用程序框架配合使用。它可以添加到现有的 Web 应用程序中，也可以自行运行。
+
+* [remy/nodemon](https://github.com/remy/nodemon) 监视 node.js 应用程序中的任何更改并自动重新启动服务器 - 非常适合开发。特征：自动重新启动应用程序。检测要监视的默认文件扩展名。默认支持节点，但易于运行任何可执行文件，例如 python、ruby、make 等。忽略特定文件或目录。监视特定目录。与服务器应用程序或一次性运行实用程序和 REPL 配合使用。可通过 node require 语句编写脚本。
+
+* [trpc/trpc](https://github.com/trpc/trpc) 快速行动，不破坏任何东西。端到端类型安全 API 变得简单。经过充分测试，可投入生产。客户端上的完整静态类型安全和自动完成，用于输入、输出和错误。没有代码生成、运行时膨胀或构建管道。轻量级 - tRPC 具有零 deps 和极小的客户端占用空间。易于添加到您现有的项目中。React.js/Next.js/Express.js/Fastify 适配。订阅支持。请求批处理 - 同时发出的请求可以自动合并为一个。
+
+* [apollographql/apollo-client](https://github.com/apollographql/apollo-client) 功能齐全、生产就绪的缓存 GraphQL 客户端，适用于每个 UI 框架和 GraphQL 服务器。
 
 ## 网络与前后端开发_其他
 
@@ -4613,6 +4679,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [heyxyz/hey](https://github.com/heyxyz/hey) 使用 Lens Protocol 构建的去中心化且无需许可的社交媒体应用程序
 
+* [calcom/cal.com](https://github.com/calcom/cal.com) 为所有人安排基础设施。Calendly 和其他调度工具很棒。它使我们的生活变得非常轻松。我们用它来参加商务会议、研讨会、瑜伽课，甚至与家人通话。但是，大多数工具在控制和定制方面都非常有限。
+
+* [medusajs/medusa](https://github.com/medusajs/medusa) 一组商务模块和工具，可让您构建丰富、可靠且高性能的商务应用程序，而无需重新发明核心商务逻辑。这些模块可以定制并用于构建高级电子商务商店、市场或任何需要基础商务原语的产品。
+
+* [grpc/grpc-go](https://github.com/grpc/grpc-go) gRPC 的 Go 语言实现。基于 HTTP/2 的 RPC
+
+* [grpc/grpc-java](https://github.com/grpc/grpc-java) Java gRPC 实现。基于 HTTP/2 的 RPC
+
+* [grpc/grpc-web](https://github.com/grpc/grpc-web) 适用于 Web 客户端的 gRPC
+
+* [mattermost/mattermost](https://github.com/mattermost/mattermost) 开源平台，用在整个软件开发生命周期中实现安全协作。
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -4660,6 +4738,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [OffcierCia/DeFi-Developer-Road-Map](https://github.com/OffcierCia/DeFi-Developer-Road-Map) DeFi 开发者路线图是一本精心策划的开发者手册，其中包括 DApp 开发的最佳工具、资源和参考资料列表！
 
 * [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core) Fuel v2 协议的 Rust 全节点实现。Fuel（V2）的技术堆栈有三个核心支柱，分别为：`并行交易执行`：Fuel 使用 UTXO（未花费交易输出）模型形式的严格状态访问列表（strict access list），因此具有并行执行交易的能力，在计算、状态访问和事务吞吐量方面较具优势）。`Fuel 虚拟机`（FuelVM）：旨在减少传统区块链虚拟机架构的浪费处理情况，同时增加开发人员的潜在设计空间。`开发者体验`（使用 Sway 和 Forc）：Fuel 使用自己的特定领域语言 Sway（受 Rust 启发）和支持工具链 Forc（Fuel Orchestrator）提供较为强大和流畅的开发人员体验。开发环境保留了 Solidity 等智能合约语言的优势，同时采用了 Rust 工具生态系统中引入的范式，并包含利用区块链 VM 的语法。
+
+* [FuelLabs/fuels-rs](https://github.com/FuelLabs/fuels-rs) Fuel v2 Rust SDK。它可以用于多种用途，包括但不限于：编译、部署和测试 Sway 合约;启动本地Fuel网络;使用手工制作的脚本或合约调用来制作和签署交易;生成合约方法的类型安全的 Rust 绑定。
+
+* [FuelLabs/fuels-ts](https://github.com/FuelLabs/fuels-ts) 用于与 Fuel v2 交互的库。
 
 * [Consensys/smart-contract-best-practices](https://github.com/Consensys/smart-contract-best-practices) 智能合约安全最佳实践指南
 
@@ -7500,6 +7582,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [apache/rocketmq](https://github.com/apache/rocketmq) 云原生消息和流式处理平台，可以简化构建事件驱动的应用程序。分布式消息流平台，具有低时延、高性能、高可靠、万亿级容量和灵活扩展性。
 
+* [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) 受 Dapper 和 OpenZipkin 的启发，是由 Uber Technologies 创建并捐赠给云原生计算基金会的分布式追踪平台。它可用于监控基于微服务的分布式系统：分布式上下文传播、分布式事务监控、根本原因分析、服务依赖分析、性能/延迟优化。
+
+* [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) 阿里巴巴中间件的分布式解决方案提供一站式应用开发解决方案。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -9203,6 +9289,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) 一个解析器生成器工具和一个增量解析库。它可以为源文件构建具体的语法树，并在编辑源文件时有效地更新语法树。目标是：通用到足以解析任何编程语言；速度足够快，可以在文本编辑器中解析每个击键；足够强大，即使在存在语法错误的情况下也能提供有用的结果；无依赖性，因此运行时库（用纯 C 语言编写）可以嵌入到任何应用程序中
 
+* [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) 命令行基准测试工具。特征：跨多个运行的统计分析。支持任意 shell 命令。关于基准进度和当前估计的持续反馈。预热运行可以在实际基准测试之前执行。可以在每次计时运行之前设置缓存清除命令。统计异常值检测，用于检测来自其他程序的干扰和缓存效果。将结果导出为各种格式：CSV、JSON、Markdown、AsciiDoc。参数化基准（例如，改变线程数）。跨平台。
+
 ## flutter
 
 * [flutter/flutter](https://github.com/flutter/flutter) Flutter 可以轻松快速地为移动设备及其他领域构建漂亮的应用程序
@@ -9360,6 +9448,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [influxdata/telegraf](https://github.com/influxdata/telegraf) 使用 Go 构建的插件驱动的服务器代理，用于收集和报告指标。
 
 * [johnkerl/miller](https://github.com/johnkerl/miller) Miller 就像 awk、sed、剪切、连接和排序的名称索引数据，如 CSV、TSV 和表格 JSON。
+
+* [antonmedv/fx](https://github.com/antonmedv/fx) Go的终端 JSON 查看器和处理器
 
 ## 其他
 
@@ -9886,6 +9976,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Freelander/Android_Data](https://github.com/Freelander/Android_Data) 一些安卓学习资料，希望能帮你学习安卓开发。
 
+* [Tencent/tinker](https://github.com/Tencent/tinker) Android 的热修复解决方案库，支持 dex、库和资源更新，无需重新安装 apk。
+
 * [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
 
 * [asdf-vm/asdf](https://github.com/asdf-vm/asdf) 可扩展的版本管理器，支持Ruby，Node.js，Elixir，Erlang等
@@ -10246,6 +10338,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) 专业的跨平台SSH/Sftp/Shell/Telnet/串口终端。
 
+* [junegunn/fzf](https://github.com/junegunn/fzf) 通用的命令行模糊查找器。用于命令行的交互式 Unix 过滤器，可以与任何列表一起使用;文件、命令历史记录、进程、主机名、书签、git 提交等。
+
+* [withfig/autocomplete](https://github.com/withfig/autocomplete) 当您键入时，Fig 会在您现有的终端中弹出子命令、选项和上下文相关参数。
+
 * [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips) 学习英语的高级指南，可能会使您受益匪浅。离谱的英语学习指南。
 
 * [SerenityOS/serenity](https://github.com/SerenityOS/serenity) 用于 x86-64 计算机的图形类 Unix 操作系统。一封写给 90 年代用户界面的情书，具有自定义的类 Unix 核心。它通过从其他各种系统中窃取美丽的想法来真诚地奉承。目标是将 1990 年代后期生产力软件的美学与 2000 年代后期 *nix 的高级用户可访问性结合起来。
@@ -10267,5 +10363,17 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [gleitz/howdoi](https://github.com/gleitz/howdoi) 通过命令行立即得到编码答案
 
 * [brendangregg/FlameGraph](https://github.com/brendangregg/FlameGraph) 堆栈跟踪可视化工具，单击一个框以仅将火焰图缩放到此堆栈帧。要搜索并突出显示与正则表达式匹配的所有堆栈帧，请单击右上角的搜索按钮或按 Ctrl-F。默认情况下，搜索区分大小写，但可以通过按 Ctrl-I 或单击右上角的 ic 按钮来切换。
+
+* [chubin/cheat.sh](https://github.com/chubin/cheat.sh) 统一访问世界上最好的社区驱动的备忘单存储库。涵盖 56 种编程语言、多种 DBMS 和 1000 多个最重要的 UNIX/Linux 命令。提供对世界上最好的社区驱动的备忘单存储库的访问，与 StackOverflow 相当。随处可用，无需安装，但可以安装以供离线使用。
+
+* [jarun/nnn](https://github.com/jarun/nnn) 功能齐全的终端文件管理器。它很小，几乎是 0 配置，而且速度快得令人难以置信。nnn 可以分析磁盘使用情况、批量重命名、启动应用程序和选择文件。插件存储库有大量的插件来进一步扩展功能，例如实时预览、（取消）挂载磁盘、查找和列表、文件/目录差异、上传文件。
+
+* [Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask) 用于管理以二进制文件形式分发的 macOS 应用程序的 CLI 工作流
+
+* [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi) 适用于 Android 的免费开源漫画阅读器。
+
+* [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) 自由软件媒体系统。Jellyfin 使您能够收集、管理和流式传输您的媒体。在您的系统上运行 Jellyfin 服务器，并访问领先的免费软件娱乐系统，包括花里胡哨的功能。
+
+* [chubin/wttr.in](https://github.com/chubin/wttr.in) 查看天气的正确方法
 
 # end
