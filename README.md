@@ -435,6 +435,8 @@
 
 * [jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) 包含完整的 Python 数据科学手册，其形式为 （免费！Jupyter 笔记本。
 
+* [andkret/Cookbook](https://github.com/andkret/Cookbook) 数据工程手册
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -3907,6 +3909,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) 可扩展的跨平台应用的基础，使用 Electron、React、React Router、Webpack 和 React Fast Refresh。
 
+* [video-dev/hls.js](https://github.com/video-dev/hls.js) JS 库，实现 HTTP 实时流式处理。它依靠 HTML5 视频和 MediaSource 扩展进行播放。原理是将 MPEG-2 传输流和 AAC/MP3 流转换为 ISO BMFF （MP4） 片段。
+
+* [kefranabg/readme-md-generator](https://github.com/kefranabg/readme-md-generator) 生成漂亮的 README.md 文件的 CLI。
+
+* [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) 使用最小的 UI 使用最新的附加组件（如访问者计数、GitHub 统计信息等）轻松生成 GitHub 个人资料 README。
+
+* [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) CSS很强大，没有JS也可以做很多事情。
+
+* [you-dont-need/You-Dont-Need-Lodash-Underscore](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore) 原生使用的 JavaScript 方法列表 + ESLint 插件
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4176,6 +4188,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [trpc/trpc](https://github.com/trpc/trpc) 快速行动，不破坏任何东西。端到端类型安全 API 变得简单。经过充分测试，可投入生产。客户端上的完整静态类型安全和自动完成，用于输入、输出和错误。没有代码生成、运行时膨胀或构建管道。轻量级 - tRPC 具有零 deps 和极小的客户端占用空间。易于添加到您现有的项目中。React.js/Next.js/Express.js/Fastify 适配。订阅支持。请求批处理 - 同时发出的请求可以自动合并为一个。
 
 * [apollographql/apollo-client](https://github.com/apollographql/apollo-client) 功能齐全、生产就绪的缓存 GraphQL 客户端，适用于每个 UI 框架和 GraphQL 服务器。
+
+* [dbader/schedule](https://github.com/dbader/schedule) 人类的 Python 作业调度。使用友好的语法定期运行 Python 函数（或任何其他可调用函数）。简单易用的 API，用于调度作业，专为人类设计。用于定期作业的进程内调度程序。无需额外的流程，非常轻量级，没有外部依赖。出色的测试覆盖率。
+
+* [teambit/bit](https://github.com/teambit/bit) 用于开发可组合软件的构建系统。它使来自独立版本控制组件的应用程序组合无缝且快速。将源代码分发到独立版本控制的组件中带来了简单性，这些组件相互依赖。
+
+* [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) OpenAPI Generator 允许在给定 OpenAPI 规范（v2、v3）的情况下自动生成 API （SDK 生成）、服务器存根、文档和配置
 
 ## 网络与前后端开发_其他
 
@@ -4690,6 +4708,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [grpc/grpc-web](https://github.com/grpc/grpc-web) 适用于 Web 客户端的 gRPC
 
 * [mattermost/mattermost](https://github.com/mattermost/mattermost) 开源平台，用在整个软件开发生命周期中实现安全协作。
+
+* [pion/webrtc](https://github.com/pion/webrtc) WebRTC API 的纯 Go 实现
+
+* [cachethq/cachet](https://github.com/cachethq/cachet) 开源状态页面系统。
+
+* [asciimoo/wuzz](https://github.com/asciimoo/wuzz) 用于 HTTP 检查的交互式 cli 工具。类似于 cURL 的参数，因此它可用于检查/修改从浏览器的网络检查器复制的请求，并具有“复制为 cURL”功能。
+
+* [cilium/cilium](https://github.com/cilium/cilium) 基于 eBPF 的网络、安全性和可观测性
 
 ## 区块链、智能合约
 
@@ -7586,6 +7612,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) 阿里巴巴中间件的分布式解决方案提供一站式应用开发解决方案。
 
+* [elastic/logstash](https://github.com/elastic/logstash) 传输和处理您的日志、事件或其他数据。是 Elastic Stack 的一部分。Logstash 是一个服务器端数据处理管道，可同时从多个来源提取数据，对其进行转换，然后将其发送到您最喜欢的“存储”。
+
+* [elastic/beats](https://github.com/elastic/beats) 用 Go 编写的轻量级数据传送器，您可以将其安装在服务器上以捕获各种操作数据（例如日志、指标或网络数据包数据）。Beats 将运营数据直接或通过 Logstash 发送到 Elasticsearch，以便使用 Kibana 进行可视化。
+
+* [apache/pulsar](https://github.com/apache/pulsar) 分布式 pub-sub 消息传递平台，具有非常灵活的消息传递模型和直观的客户端 API。特点：水平可扩展（每秒发布数百万个独立主题和数百万条消息）、强大的排序和一致性保证、低延迟持久存储、主题和队列语义、负载均衡器、设计用于部署为托管服务：多租户 认证 授权 配额 支持混合非常不同的工作负载 可选硬件隔离、跟踪消费者光标位置、用于配置管理和统计的 REST API、异地复制、透明地处理分区主题、消息的透明批处理
+
+* [harelba/q](https://github.com/harelba/q) 直接在分隔文件和多文件 sqlite 数据库上运行 SQL。允许以下操作：直接对表格文本数据执行类似 SQL 语句，自动缓存数据以加速对同一文件的其他查询。直接在多文件 sqlite3 数据库上执行 SQL，而无需合并它们或将它们加载到内存中。
+
 # 虚拟化
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
@@ -7671,6 +7705,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) 在 Google Cloud Platform 上艰难地引导 Kubernetes。没有脚本。
 
 * [labring/sealos](https://github.com/labring/sealos) 生产就绪的 K8s 发行版，为公有云和私有云提供一站式解决方案。
+
+* [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) cert-manager 将证书和证书颁发者添加为 Kubernetes 集群中的资源类型，并简化了获取、续订和使用这些证书的过程。它支持从各种来源颁发证书，包括 Let's Encrypt （ACME）、HashiCorp Vault 和 Venafi TPP/TLS Protect Cloud，以及本地集群内颁发。cert-manager 还确保证书保持有效和最新，尝试在到期前的适当时间续订证书，以降低中断风险并消除工作。
+
+* [abiosoft/colima](https://github.com/abiosoft/colima) macOS（和 Linux）上的容器运行时，只需最少的设置
 
 # 安全与渗透
 
@@ -8109,6 +8147,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) 现代、安全且开源的密码管理器，可存储和管理您最敏感的信息。您可以在 Windows、macOS 和 Linux 系统上运行 KeePassXC。适用于对安全个人数据管理有极高要求的人。它将许多不同类型的信息（例如用户名、密码、URL、附件和注释）保存在一个离线加密文件中，该文件可以存储在任何位置，包括私有云和公共云解决方案。为了便于识别和管理，可以为条目指定用户定义的标题和图标。此外，条目被分类为可自定义的组。集成的搜索功能允许您使用高级模式轻松查找数据库中的任何条目。可自定义、快速且易于使用的密码生成器实用程序允许您使用任意字符组合或易于记忆的密码短语创建密码。
 
 * [gravitational/teleport](https://github.com/gravitational/teleport) 保护对所有基础架构的访问。Teleport 为基础设施提供连接、身份验证、访问控制和审计。
+
+* [Infisical/infisical](https://github.com/Infisical/infisical) 开源密钥管理平台：在团队/基础架构中同步密钥并防止密钥泄露。
 
 ## 其他_安全与渗透
 
@@ -9658,6 +9698,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [zyedidia/micro](https://github.com/zyedidia/micro) 现代且直观的基于终端的文本编辑器。旨在通过易于安装和使用成为 nano 编辑器的继承者。
 
+* [wangeditor-team/wangEditor](https://github.com/wangeditor-team/wangEditor) 开源 Web 富文本编辑器，开箱即用，配置简单。支持 JS Vue React 。
+
 * [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) 适用于 macOS 的 CodeEdit 应用程序 – 提升您的代码编辑体验。开源，永久免费。
 
 * [fastai/nbdev](https://github.com/fastai/nbdev) 编写、测试、记录和分发软件包和技术文章 — 所有这些都在一个地方，您的笔记本上。
@@ -10375,5 +10417,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) 自由软件媒体系统。Jellyfin 使您能够收集、管理和流式传输您的媒体。在您的系统上运行 Jellyfin 服务器，并访问领先的免费软件娱乐系统，包括花里胡哨的功能。
 
 * [chubin/wttr.in](https://github.com/chubin/wttr.in) 查看天气的正确方法
+
+* [muesli/duf](https://github.com/muesli/duf) 磁盘使用/免费实用程序 - 更好的“df”替代品
+
+* [crystal-lang/crystal](https://github.com/crystal-lang/crystal) 一种编程语言，具有以下目标：具有类似于 Ruby 的语法（但与它的兼容性不是目标）。静态类型检查，但不必指定变量或方法参数的类型。能够通过在 Crystal 中编写绑定来调用 C 代码。具有编译时评估和代码生成，以避免样板代码。编译为高效的本机代码。
+
+* [dotnet/roslyn](https://github.com/dotnet/roslyn) .NET 编译器为 C# 和 Visual Basic 语言提供丰富的代码分析 API。
+
+* [koel/koel](https://github.com/koel/koel) 有效的个人音乐流媒体服务器。在客户端用 Vue 编写，在服务器端用 Laravel 编写。针对 Web 开发人员，采用一些更现代的 Web 技术来完成其工作。
 
 # end
