@@ -3216,6 +3216,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [shadcn/taxonomy](https://github.com/shadcn/taxonomy) 使用新路由器、服务器组件和 Next.js 13 中的所有新功能构建的开源应用程序。
 
+* [jestjs/jest](https://github.com/jestjs/jest) 令人愉快的 JavaScript 测试，全面的 JavaScript 测试解决方案。开箱即用，适用于大多数 JavaScript 项目。快速、交互式的观看模式仅运行与更改文件相关的测试文件。捕获大型对象的快照，以简化测试并分析它们如何随时间变化。
+
 * [xgrommx/awesome-redux](https://github.com/xgrommx/awesome-redux) JS 应用的状态容器，提供可预测的状态管理
 
 * [wasp-lang/wasp](https://github.com/wasp-lang/wasp) 使用 React 和 Node.js 开发全栈 Web 应用程序的最快方法。
@@ -3314,6 +3316,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [vercel/turbo](https://github.com/vercel/turbo) 增量打包器和构建系统针对 JavaScript 和 TypeScript 进行了优化，用 Rust 编写——包括 Turbopack 和 Turborepo。
 
+* [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) 您在现代项目中经常遇到的 JS 知识备忘单。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -3352,6 +3356,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [electron/electron](https://github.com/electron/electron)使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
 
 * [angular/angular](https://github.com/angular/angular) 用于构建移动和桌面 Web 应用程序的开发平台，使用 TypeScript/ JavaScript 和其他语言。
+
+* [ElemeFE/element](https://github.com/ElemeFE/element) 用于 Web 的 Vue.js 2.0 UI 工具包。
 
 * [necolas/react-native-web](https://github.com/necolas/react-native-web) 跨平台的 React UI 包。可访问的 HTML，支持不同的设备和输入模式，渲染语义标签。高质量的互动，支持手势和多种输入模式（触摸、鼠标、键盘）。可靠的款式，依赖作用域样式和自动供应商前缀，支持 RTL 布局。响应式容器，响应元素调整大小事件。增量采用，与现有的 React DOM 组件互操作。仅捆绑您使用的内容。
 
@@ -3430,6 +3436,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 后台前端解决方案，基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)。
 
 * [cool-team-official/cool-admin-vue](https://github.com/cool-team-official/cool-admin-vue) 很酷的后台权限管理框架，模块化、插件化、CRUD极速开发，基于midway.js 3.0、typeorm、mysql、jwt、element-ui、vuex、vue-router、vue等构建
+
+* [PanJiaChen/vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 一个最小的 vue 管理模板，带有 Element UI & axios & iconfont & 权限控制 & lint
 
 * [flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) 基于vite+vue3+gin搭建的开发基础平台（支持TS,JS混用），集成jwt鉴权，权限管理，动态路由，显隐可控组件，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器。
 
@@ -3918,6 +3926,32 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) CSS很强大，没有JS也可以做很多事情。
 
 * [you-dont-need/You-Dont-Need-Lodash-Underscore](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore) 原生使用的 JavaScript 方法列表 + ESLint 插件
+
+* [wailsapp/wails](https://github.com/wailsapp/wails) 使用 Go 和 Web 技术构建桌面应用程序。
+
+* [sudheerj/javascript-interview-questions](https://github.com/sudheerj/javascript-interview-questions) 1000 个 JavaScript 面试问题列表
+
+* [jsdom/jsdom](https://github.com/jsdom/jsdom) 各种 Web 标准的 JavaScript 实现，用于 Node.js。特别是WHATWG DOM和HTML标准，用于Node.js。一般来说，该项目的目标是模拟足够多的 Web 浏览器子集，以便用于测试和抓取真实世界的 Web 应用程序。
+
+* [BuilderIO/qwik](https://github.com/BuilderIO/qwik) 提供尽可能快的页面加载时间 - 无论您的网站有多复杂。Qwik 之所以如此之快，是因为它允许完全交互式的网站在几乎没有 JavaScript 的情况下加载，并从服务器中断的地方继续。
+
+* [vuejs/vue-router](https://github.com/vuejs/vue-router) Vue 2 的官方路由器
+
+* [jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp) 用于构建超文本应用程序的 1kB 式 JavaScript 框架，最大限度地减少了完成工作所需的学习概念。视图、操作、效果和订阅都非常容易掌握并无缝协作。Hyperapp 具有易于阅读且编写有趣的声明式 API，是使用惯用 JavaScript 构建功能纯、功能丰富、基于浏览器的应用程序的最佳方式。超轻量级的虚拟 DOM、高度优化的差异算法和痴迷于极简主义的状态管理库。
+
+* [react-grid-layout/react-grid-layout](https://github.com/react-grid-layout/react-grid-layout) 用于 React 的可拖动和可调整大小的网格布局，具有响应式断点。
+
+* [solidjs/solid](https://github.com/solidjs/solid) 用于创建用户界面的声明性 JavaScript 库。它不使用虚拟 DOM，而是将其模板编译为真实的 DOM 节点，并使用细粒度反应更新它们。声明你的状态并在整个应用中使用它，当一段状态发生更改时，只有依赖于它的代码才会重新运行。
+
+* [ReactiveX/rxjs](https://github.com/ReactiveX/rxjs) JavaScript 的响应式编程库,对 Reactive-Extensions/RxJS 的重写，是 RxJS 的最新生产就绪版本。此重写旨在具有更好的性能、更好的模块化、更好的可调试调用堆栈，同时保持大部分向后兼容，并进行了一些减少 API 表面的重大更改。
+
+* [elsewhencode/project-guidelines](https://github.com/elsewhencode/project-guidelines) JavaScript 项目的一组最佳实践
+
+* [quasarframework/quasar](https://github.com/quasarframework/quasar) 在创纪录的时间内构建高性能的 VueJS 用户界面
+
+* [JakeChampion/fetch](https://github.com/JakeChampion/fetch) 基于 Promise 的机制，用于在浏览器中以编程方式发出 Web 请求。这个项目是一个 polyfill，它实现了标准 Fetch 规范的一个子集，足以替代 `fetch` 传统 Web 应用程序中大多数 XMLHttpRequest 的使用。
+
+* [charmbracelet/glow](https://github.com/charmbracelet/glow) 基于终端的 Markdown 阅读器，从头开始设计，旨在展现 CLI 的美感和功能。
 
 ## 后端开发框架及项目
 
@@ -4717,6 +4751,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [cilium/cilium](https://github.com/cilium/cilium) 基于 eBPF 的网络、安全性和可观测性
 
+* [wekan/wekan](https://github.com/wekan/wekan) 开源看板，体验高效的任务管理，开源、可定制且注重隐私的看板。
+
+* [apache/incubator-answer](https://github.com/apache/incubator-answer) 适用于任何规模团队的问答平台软件。无论是社区论坛、帮助中心还是知识管理平台，您始终可以信赖 Apache Answer。
+
+* [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) 网易云音乐 Node.js API service
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5237,6 +5277,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [JiaquanYe/TableMASTER-mmocr](https://github.com/JiaquanYe/TableMASTER-mmocr) 将表格内容识别任务分为四个子任务：表格结构识别、文本行检测、文本行识别和框分配。 基于 MASTER，我们提出了一种新颖的表结构识别架构，我们称之为 TableMASTER。
 
 * [breezedeus/cnocr](https://github.com/breezedeus/cnocr) cnocr
+
+* [naptha/tesseract.js](https://github.com/naptha/tesseract.js) 支持 100 多种语言的纯 Javascript OCR
 
 * [JiaquanYe/MASTER-mmocr](https://github.com/JiaquanYe/MASTER-mmocr) 本项目是 MMOCR 对 MASTER: Multi-Aspect Non-local Network for Scene Text Recognition （场景文本识别）的重新实现。
 
