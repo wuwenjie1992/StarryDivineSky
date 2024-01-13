@@ -811,6 +811,8 @@
 
 * [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) 具有标准化输出格式的多类型数据标注和标注工具
 
+* [metabase/metabase](https://github.com/metabase/metabase) 以最简单、快捷的方式为公司中的每个人提供商业智能和分析
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -3318,6 +3320,16 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) 您在现代项目中经常遇到的 JS 知识备忘单。
 
+* [standard/standard](https://github.com/standard/standard) JavaScript 风格指南，带有 linter 和自动代码修复程序
+
+* [pnpm/pnpm](https://github.com/pnpm/pnpm) 快速、节省磁盘空间的包管理器
+
+* [eslint/eslint](https://github.com/eslint/eslint) 查找并修复 JavaScript 代码中的问题。
+
+* [ramda/ramda](https://github.com/ramda/ramda) 实用的函数式 Javascript
+
+* [zloirock/core-js](https://github.com/zloirock/core-js) 用于 JavaScript 的模块化标准库。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -3336,7 +3348,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [bolshchikov/js-must-watch](https://github.com/bolshchikov/js-must-watch) 关于javascript的必看视频
 
-* [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) 适用于现代网站和一丝不苟的开发人员的完美前端清单
+* [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) 现代网站和一丝不苟的开发人员的完美前端清单
+
+* [rails/rails](https://github.com/rails/rails) Web 应用程序框架，它包含了根据模型-视图-控制器 （MVC） 模式创建数据库支持的 Web 应用程序所需的一切。理解 MVC 模式是理解 Rails 的关键。MVC 将应用程序分为三层：模型层、视图层和控制器层，每层都有特定的职责。
 
 * [google/material-design-icons](https://github.com/google/material-design-icons) 来自谷歌两个不同的官方图标集，使用相同的底层设计。材质图标是经典套装，材质符号于 2022 年 4 月推出，基于可变字体技术构建。
 
@@ -3953,6 +3967,52 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [charmbracelet/glow](https://github.com/charmbracelet/glow) 基于终端的 Markdown 阅读器，从头开始设计，旨在展现 CLI 的美感和功能。
 
+* [alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js) 简单易用的库，用于创建全屏滚动网站（也称为单页网站或单页网站），并在网站的各个部分内添加横向滑块。
+
+* [sudheerj/reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions) 前 500 个常见的ReactJS 面试问题和答案列表......编码练习题即将推出
+
+* [zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js) 新式复制到剪贴板。没有Flash。只需 3kb （gzip 压缩）。
+
+* [goldfire/howler.js](https://github.com/goldfire/howler.js) 用于现代网络的 Javascript 音频库。
+
+* [mochajs/mocha](https://github.com/mochajs/mocha) 简单、灵活、有趣的 Node.js 和浏览器的 JavaScript 测试框架
+
+* [js-cookie/js-cookie](https://github.com/js-cookie/js-cookie) 一个简单、轻量级的 JavaScript API，用于处理浏览器 cookie
+
+* [carbon-app/carbon](https://github.com/carbon-app/carbon) 创建和共享源代码的精美图像
+
+* [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) 有趣而棘手的 JavaScript 示例列表
+
+* [fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) 浏览器指纹库。此版本的准确率为40-60%，商业指纹识别的准确率为99.5%。该库的 V4 已获得 BSL 许可。
+
+* [caolan/async](https://github.com/caolan/async) 实用程序模块，它为使用异步 JavaScript 提供了简单、强大的功能。
+
+* [lovell/sharp](https://github.com/lovell/sharp) 高性能 Node.js 图像处理，调整 JPEG、PNG、WebP、AVIF 和 TIFF 图像大小的最快模块。使用 libvips 库。
+
+* [usablica/intro.js](https://github.com/usablica/intro.js) 轻量级、用户友好的入门和产品演练库
+
+* [goldbergyoni/javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices) 全面而详尽的 JavaScript 和 Node.js 测试最佳实践
+
+* [processing/p5.js](https://github.com/processing/p5.js) 用于创意编码的 JavaScript 库，专注于让艺术家、设计师、教育工作者、初学者和其他任何人都能访问和包容编码！P5.js 是免费和开源的，因为我们相信软件以及学习它的工具应该对每个人都开放。
+
+* [hapijs/joi](https://github.com/hapijs/joi) 最强大的 JavaScript 模式描述语言和数据验证器。
+
+* [bigskysoftware/htmx](https://github.com/bigskysoftware/htmx) 使用属性直接在 HTML 中访问 AJAX、CSS 转换、WebSocket 和服务器发送事件，因此您可以构建具有超文本的简单性和强大功能的现代UI
+
+* [FormidableLabs/webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard) webpack 开发服务器的 CLI 仪表板
+
+* [feathericons/feather](https://github.com/feathericons/feather) 一组简单漂亮的开源图标。每个图标都设计在 24x24 网格上，强调简单性、一致性和灵活性。
+
+* [dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe) 适用于移动和桌面的 JS图片库，模块化，独立于框架
+
+* [ionic-team/capacitor](https://github.com/ionic-team/capacitor) 构建用于 iOS、Android 和 Web 跨平台本机渐进式 Web 应用
+
+* [heartcombo/devise](https://github.com/heartcombo/devise) 灵活的 Rails 身份验证解决方案和 Warden。
+
+* [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) 浏览器自动化框架和生态系统。封装了各种工具和库，可实现 Web 浏览器自动化。Selenium 专门为 W3C WebDriver 规范提供了基础设施——一个与所有主要 Web 浏览器兼容的平台和语言中立的编码接口。
+
+* [jekyll/jekyll](https://github.com/jekyll/jekyll) Ruby 中一个博客感知的静态站点生成器
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4229,6 +4289,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) OpenAPI Generator 允许在给定 OpenAPI 规范（v2、v3）的情况下自动生成 API （SDK 生成）、服务器存根、文档和配置
 
+* [nexe/nexe](https://github.com/nexe/nexe) 从 Node.js 应用程序创建单个可执行文件
+
+* [grafana/loki](https://github.com/grafana/loki) 受 Prometheus 启发的可水平扩展、高度可用、多租户日志聚合系统。它的设计非常具有成本效益且易于操作。它不索引日志的内容，而是为每个日志流编制一组标签。
+
 ## 网络与前后端开发_其他
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
@@ -4250,6 +4314,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [dataabc/weiboSpider](https://github.com/dataabc/weiboSpider) 新浪微博爬虫，用python爬取新浪微博数据
 
 * [crawlab-team/crawlab](https://github.com/crawlab-team/crawlab) 分布式爬虫管理平台，支持任何语言和框架
+
+* [gorhill/uBlock](https://github.com/gorhill/uBlock) 适用于 Chromium 和 Firefox 的有效拦截器。快速而精益。
 
 * [nwjs/nw.js](https://github.com/nwjs/nw.js) 直接从 DOM/WebWorker 调用所有 Node.js 模块，并启用一种使用所有 Web 技术编写应用程序的新方法。
 
@@ -4755,7 +4821,25 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [apache/incubator-answer](https://github.com/apache/incubator-answer) 适用于任何规模团队的问答平台软件。无论是社区论坛、帮助中心还是知识管理平台，您始终可以信赖 Apache Answer。
 
+* [forem/forem](https://github.com/forem/forem) 开源平台，用于构建现代、独立和安全的社区。
+
 * [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) 网易云音乐 Node.js API service
+
+* [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) 对云中的文件进行多平台透明客户端加密
+
+* [movie-web/movie-web](https://github.com/movie-web/movie-web) 一个小型网络应用程序，可轻松观看电影和节目
+
+* [aria2/aria2](https://github.com/aria2/aria2) 轻量级的多协议和多源、跨平台的下载实用程序，在命令行中运行。它支持 HTTP/HTTPS、FTP、SFTP、BitTorrent 和 Metalink。
+
+* [gfwlist/gfwlist](https://github.com/gfwlist/gfwlist) 阻止和干扰包含敏感或不需要信息的网站
+
+* [valyala/fasthttp](https://github.com/valyala/fasthttp) Go 的快速 HTTP 包。针对高性能进行了调整。热路径中的内存分配为零。比 net/http 快 10 倍
+
+* [cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve) 自托管文件管理系统，支持多云。特征：支持将文件存储到本地存储、远程存储、七牛、阿里云 OSS、腾讯 COS、Upyun、OneDrive、S3 兼容 API。直接传输上传/下载，支持限速。与 Aria2 集成以离线下载文件，使用多个下载节点来分担负载。压缩/解压文件，批量下载文件。涵盖所有存储提供商的 WebDAV 支持。拖放以上传文件或文件夹，并具有流式上传处理功能。拖放以管理您的文件。多用户与多组。为具有到期日期的文件和文件夹创建共享链接。在线预览视频、图像、音频、ePub 文件;在线编辑文本、Office 文档。自定义主题颜色、深色模式、PWA 应用程序、SPA、i18n。多合一包装，所有功能开箱即用。
+
+* [tailscale/tailscale](https://github.com/tailscale/tailscale) 使用 WireGuard 和 2FA 的最简单、最安全的方式。
+
+* [trailofbits/algo](https://github.com/trailofbits/algo) 一组 Ansible 脚本，可简化个人 WireGuard 和 IPsec VPN 的设置。使用最安全的默认值，并与常见的云提供商合作。
 
 ## 区块链、智能合约
 
@@ -5342,11 +5426,15 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) 基于Masked Image Modeling的预训练方法，适用于 Swin 和 SwinV2（也适用于 ViT 和 ResNet）。它可作为CV的通用主干。它基本上是一个分层变换器，其表示是用移位窗口计算的。移位窗口方案通过将 self-attention 计算限制在不重叠的本地窗口上，同时还允许跨窗口连接，从而带来更高的效率。将 CLIP 预训练的 ViT-L 提高了 +1.6%，以达到ImageNet-1K 图像分类，这是最准确的 ViT-L 模型。在 COCO 对象检测（58.7 box AP和51.1 mask APtest-dev）和 ADE20K 语义分割（53.5 mIoU在 val）上实现了强大的性能，大大超过了以前的模型。
 
+* [IDEA-Research/Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything) 将Grounding-DINO与Segment Anything & Stable Diffusion相结合，识别任何内容-自动检测、分割和生成任何内容
+
 * [facebookresearch/detr](https://github.com/facebookresearch/detr) 使用Transformer进行端到端目标检测。适用于 DETR （DEtection TRansformer） 的 PyTorch 训练代码和预训练模型。我们用 Transformer 替换了整个复杂的手工目标检测管道，并将 Faster R-CNN 与 ResNet-50 匹配，使用一半的计算能力 （FLOP） 和相同数量的参数在 COCO 上获得 42 个 AP。在 50 行 PyTorch 中进行推理。
 
 * [PaddlePaddle/PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) 易于使用的图像分割库，具有出色的预训练模型库，支持语义分割、交互式分割、全景分割、图像叠加、3D 分割等广泛的实际任务。
 
 * [open-mmlab/mmsegmentation](https://github.com/open-mmlab/mmsegmentation) OpenMMLab语义分割工具箱和基准测试。
+
+* [PaddlePaddle/PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection) 基于 PaddlePaddle 的目标检测工具包。它支持目标检测、实例分割、多目标跟踪和实时多人关键点检测。
 
 * [google-research/kubric](https://github.com/google-research/kubric) 一个数据生成管道，用于创建具有丰富注释的半真实合成多对象视频，例如实例分割掩码、深度图和光流。
 
@@ -6370,6 +6458,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 ## 语音合成
 
+* [GitHub - myshell-ai/OpenVoice: Instant voice cloning by MyShell.](https://github.com/myshell-ai/OpenVoice) MyShell的即时语音克隆。OpenVoice 的优势有三个方面：1.准确的色调颜色克隆。OpenVoice可以准确克隆参考音色，生成多种语言和口音的语音。2.灵活的语音风格控制。OpenVoice 支持对语音风格（如情感和口音）以及其他风格参数（包括节奏、停顿和语调）进行精细控制。3.零样本跨语言语音克隆。生成的语音的语言和参考语音的语言都不需要在大规模说话人多语言训练数据集中呈现。
+
 * [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
 
 * [rany2/edge-tts](https://github.com/rany2/edge-tts) 从Python使用Microsoft Edge的在线文本到语音服务（无需Microsoft Edge/Windows或API密钥）
@@ -6525,6 +6615,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Rikorose/DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) 用于全频带音频 （48kHz） 的低复杂度语音增强框架，用于深度滤波。
 
 * [spicetify/spicetify-cli](https://github.com/spicetify/spicetify-cli) 用于自定义 Spotify 客户端的命令行工具。支持 Win、MacOS 和 Linux。
+
+* [beetbox/beets](https://github.com/beetbox/beets) 面向痴迷音乐极客的媒体库管理系统。一劳永逸地获得正确的音乐收藏。它会对您的收藏进行编目，并自动改进其元数据。然后，它提供了一束用于操作和访问音乐的工具。
 
 # 生物医药
 
@@ -7662,7 +7754,11 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [harelba/q](https://github.com/harelba/q) 直接在分隔文件和多文件 sqlite 数据库上运行 SQL。允许以下操作：直接对表格文本数据执行类似 SQL 语句，自动缓存数据以加速对同一文件的其他查询。直接在多文件 sqlite3 数据库上执行 SQL，而无需合并它们或将它们加载到内存中。
 
-# 虚拟化
+# 云&虚拟化
+
+* [istio/istio](https://github.com/istio/istio) 开源服务网格，透明地分层到现有的分布式应用程序上。Istio 的强大功能提供了一种统一且更高效的方式来保护、连接和监控服务。Istio 是负载均衡、服务到服务身份验证和监控的途径，只需很少或无需更改服务代码。
+
+* [apolloconfig/apollo](https://github.com/apolloconfig/apollo) 可靠的配置管理系统，适用于微服务配置管理场景。
 
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
 
@@ -7751,6 +7847,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) cert-manager 将证书和证书颁发者添加为 Kubernetes 集群中的资源类型，并简化了获取、续订和使用这些证书的过程。它支持从各种来源颁发证书，包括 Let's Encrypt （ACME）、HashiCorp Vault 和 Venafi TPP/TLS Protect Cloud，以及本地集群内颁发。cert-manager 还确保证书保持有效和最新，尝试在到期前的适当时间续订证书，以降低中断风险并消除工作。
 
 * [abiosoft/colima](https://github.com/abiosoft/colima) macOS（和 Linux）上的容器运行时，只需最少的设置
+
+* [alibaba/Sentinel](https://github.com/alibaba/Sentinel) 强大的流量控制组件，支持微服务的可靠性、弹性和监控。(面向云原生微服务的高可用流控防护组件)
+
+* [alibaba/nacos](https://github.com/alibaba/nacos) 一个易于使用的动态服务发现、配置和服务管理平台，用于构建云原生应用程序。
+
+* [go-kit/kit](https://github.com/go-kit/kit) 编程工具包，用于在 Go 中构建微服务（或优雅的单体）。我们解决分布式系统和应用程序架构中的常见问题，因此您可以专注于交付业务价值。
+
+* [dapr/dapr](https://github.com/dapr/dapr) 可移植的、事件驱动的运行时，用于跨云和边缘构建分布式应用程序。
 
 # 安全与渗透
 
@@ -8191,6 +8295,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [gravitational/teleport](https://github.com/gravitational/teleport) 保护对所有基础架构的访问。Teleport 为基础设施提供连接、身份验证、访问控制和审计。
 
 * [Infisical/infisical](https://github.com/Infisical/infisical) 开源密钥管理平台：在团队/基础架构中同步密钥并防止密钥泄露。
+
+* [GitHub - jedisct1/libsodium: A modern, portable, easy to use crypto library.](https://github.com/jedisct1/libsodium) 易于使用的全新软件库，用于加密、解密、签名、密码哈希等。
 
 ## 其他_安全与渗透
 
@@ -9165,7 +9271,7 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [TomSchimansky/CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) 基于 Tkinter 的 python UI 库，它提供了新的、现代的和完全可定制的小部件。它们的创建和使用方式与普通的 Tkinter 小部件类似，也可以与普通的 Tkinter 元素结合使用。小部件和窗口颜色要么适应系统外观，要么适应手动设置的模式（“浅色”、“深色”），并且所有小部件和窗口都支持 HighDPI 缩放。在所有桌面平台上获得一致且现代的外观。
 
-* 
+* [tiangolo/typer](https://github.com/tiangolo/typer) 用于构建 CLI 应用程序的库，用户会喜欢使用，开发人员会喜欢创建。基于 Python 3.6+ 类型提示。
 
 ## C/C++ 程序设计
 
@@ -9533,6 +9639,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [antonmedv/fx](https://github.com/antonmedv/fx) Go的终端 JSON 查看器和处理器
 
+* [fatih/vim-go](https://github.com/fatih/vim-go) 该插件增加了对 Vim 的 Go 语言支持
+
 ## 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -9605,7 +9713,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) 存储库：开发人员书籍列表
 
-* [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) 程序员如何优雅的挣零花钱，2.0版，升级为小书了。
+* [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) 程序员如何优雅的挣零花钱
+
+* [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) 为繁忙的软件工程师精心策划的编码面试材料
 
 * [resumejob/awesome-resume](https://github.com/resumejob/awesome-resume) 程序员简历例句，简历模版
 
@@ -10424,6 +10534,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [junegunn/fzf](https://github.com/junegunn/fzf) 通用的命令行模糊查找器。用于命令行的交互式 Unix 过滤器，可以与任何列表一起使用;文件、命令历史记录、进程、主机名、书签、git 提交等。
 
+* [charmbracelet/vhs](https://github.com/charmbracelet/vhs) CLI 录像机
+
 * [withfig/autocomplete](https://github.com/withfig/autocomplete) 当您键入时，Fig 会在您现有的终端中弹出子命令、选项和上下文相关参数。
 
 * [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips) 学习英语的高级指南，可能会使您受益匪浅。离谱的英语学习指南。
@@ -10467,5 +10579,15 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [dotnet/roslyn](https://github.com/dotnet/roslyn) .NET 编译器为 C# 和 Visual Basic 语言提供丰富的代码分析 API。
 
 * [koel/koel](https://github.com/koel/koel) 有效的个人音乐流媒体服务器。在客户端用 Vue 编写，在服务器端用 Laravel 编写。针对 Web 开发人员，采用一些更现代的 Web 技术来完成其工作。
+
+* [SimplifyJobs/Summer2024-Internships](https://github.com/SimplifyJobs/Summer2024-Internships) Pitt CSC和Simplify的 2024 年夏季技术实习
+
+* [kanaka/mal](https://github.com/kanaka/mal) 受 Clojure 启发的 Lisp 解释器
+
+* [rubocop/ruby-style-guide](https://github.com/rubocop/ruby-style-guide) 社区驱动的 Ruby 编码风格指南
+
+* [rbenv/rbenv](https://github.com/rbenv/rbenv) 类 Unix 系统上 Ruby 编程语言的版本管理器工具。它对于在同一台机器上的多个 Ruby 版本之间切换以及确保您正在处理的每个项目始终在正确的 Ruby 版本上运行非常有用。
+
+* [frank-lam/fullstack-tutorial](https://github.com/frank-lam/fullstack-tutorial) fullstack tutorial 2022，后台技术栈/架构师之路/全栈开发社区，春招/秋招/校招/面试
 
 # end
