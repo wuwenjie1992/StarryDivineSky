@@ -3393,6 +3393,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [qianguyihao/Web](https://github.com/qianguyihao/Web) 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。
 
+* [h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) 有用的前端相关问题列表，你可以用它来面试潜在的候选人，测试自己或完全忽略。
+
 * [PatrickJS/awesome-angular](https://github.com/PatrickJS/awesome-angular) 令人敬畏的 Angular 资源的精选列表
 
 * [hexojs/hexo](https://github.com/hexojs/hexo) 一个快速，简单和强大的博客框架，由Node.js提供支持。
@@ -4013,6 +4015,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [jekyll/jekyll](https://github.com/jekyll/jekyll) Ruby 中一个博客感知的静态站点生成器
 
+* [airbnb/visx](https://github.com/airbnb/visx) 可重用的低级可视化组件的集合。visx 结合了 d3 的强大功能来生成可视化和 react 更新 DOM 的好处。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4292,6 +4296,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [nexe/nexe](https://github.com/nexe/nexe) 从 Node.js 应用程序创建单个可执行文件
 
 * [grafana/loki](https://github.com/grafana/loki) 受 Prometheus 启发的可水平扩展、高度可用、多租户日志聚合系统。它的设计非常具有成本效益且易于操作。它不索引日志的内容，而是为每个日志流编制一组标签。
+
+* [netty/netty](https://github.com/netty/netty) 异步事件驱动的网络应用程序框架，用于快速开发可维护的高性能协议服务器和客户端。
+
+* [saleor/saleor](https://github.com/saleor/saleor) 高性能、可组合、无头商务 API。现代堆栈上以客户为中心的电子商务。无头的 GraphQL 商务平台，提供超快速、动态、个性化的购物体验。漂亮的在线商店，随时随地，在任何设备上。
 
 ## 网络与前后端开发_其他
 
@@ -4840,6 +4848,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [tailscale/tailscale](https://github.com/tailscale/tailscale) 使用 WireGuard 和 2FA 的最简单、最安全的方式。
 
 * [trailofbits/algo](https://github.com/trailofbits/algo) 一组 Ansible 脚本，可简化个人 WireGuard 和 IPsec VPN 的设置。使用最安全的默认值，并与常见的云提供商合作。
+
+* [ginuerzh/gost](https://github.com/ginuerzh/gost) GO语言实现的安全隧道。特性：多端口监听、可设置转发代理，支持多级转发(代理链)、支持标准HTTP(2)(S)/SOCKS4(A)(5)代理协议、Web代理支持探测防御、支持多种隧道类型、SOCKS5代理支持TLS协商加密、基于 TCP 的隧道 UDP、TCP/UDP透明代理、本地/远程TCP/UDP转发、支持Shadowsocks(TCP/UDP)协议、支持SNI代理、权限控制、负载均衡、路由控制、DNS解析和代理、TUN/TAP设备
 
 ## 区块链、智能合约
 
@@ -7856,6 +7866,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [dapr/dapr](https://github.com/dapr/dapr) 可移植的、事件驱动的运行时，用于跨云和边缘构建分布式应用程序。
 
+* [google/gvisor](https://github.com/google/gvisor) 用 Go 编写的应用程序内核，它实现了 Linux 系统表面的很大一部分。它包括一个名为 Open Container Initiative （OCI） 的运行时 `runsc` ，该运行时在应用程序和主机内核之间提供隔离边界。 `runsc` 运行时与 Docker 和 Kubernetes 集成，使运行沙盒容器变得简单。
+
+* [hashicorp/nomad](https://github.com/hashicorp/nomad) 易于使用、灵活且高性能的工作负载编排器，可以部署微服务、批处理、容器化和非容器化应用程序的组合。Nomad 易于操作和扩展，并具有原生 Consul 和 Vault 集成
+
 # 安全与渗透
 
 ## 扫描器、资产收集、子域名
@@ -8040,6 +8054,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) 在社交网络上按用户名寻找社交媒体帐户
 
+* [bettercap/bettercap](https://github.com/bettercap/bettercap) 用于 802.11、BLE、IPv4 和 IPv6 网络侦察和 MITM 攻击的瑞士军刀。
+
+* [samratashok/nishang](https://github.com/samratashok/nishang) 用于红队，渗透测试和攻击性安全性的攻击性PowerShell.
+
 ## web shell、shellcode
 
 * web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
@@ -8184,6 +8202,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [cs01/gdbgui](https://github.com/cs01/gdbgui) 基于浏览器的 gdb 前端（gnu 调试器）。在 C、C++、Go、Rust 和 Fortran 中添加断点、查看堆栈、可视化数据结构等。从终端运行 gdbgui，浏览器中将打开一个新选项卡。
 
+* [brannondorsey/wifi-cracking](https://github.com/brannondorsey/wifi-cracking) 使用 Airodump-ng 和 Aircrack-ng/Hashcat 破解 WPA/WPA2 Wi-Fi 路由器
+
 ## 漏洞库、漏洞靶场
 
 * [pwntester/0day](https://github.com/pwntester/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC 该项目将不断更新
@@ -8296,7 +8316,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Infisical/infisical](https://github.com/Infisical/infisical) 开源密钥管理平台：在团队/基础架构中同步密钥并防止密钥泄露。
 
-* [GitHub - jedisct1/libsodium: A modern, portable, easy to use crypto library.](https://github.com/jedisct1/libsodium) 易于使用的全新软件库，用于加密、解密、签名、密码哈希等。
+* [jedisct1/libsodium](https://github.com/jedisct1/libsodium) 易于使用的全新软件库，用于加密、解密、签名、密码哈希等。
+
+* [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) 可全平台运行的浏览器数据导出解密工具。
 
 ## 其他_安全与渗透
 
@@ -8779,6 +8801,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [v1s1t0r1sh3r3/airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon) 多用途的 bash 脚本，用于 Linux 系统审计无线网络。
 
 * [slackhq/nebula](https://github.com/slackhq/nebula) 可扩展的 Overlay 网络工具，专注于性能、简单性和安全性。它可以让您无缝连接世界任何地方的计算机。Nebula 是可移植的，可以在 Linux、OSX、Windows、iOS 和 Android 上运行。它可以用来连接少量的计算机，但也能够连接数以万计的计算机。Nebula 包含了许多现有概念，如加密、安全组、证书和隧道，这些单独的部分在 Nebula 之前就以各种形式存在。Nebula 与现有产品的不同之处在于，它将所有这些想法结合在一起，从而产生一个大于其各个部分的总和。
+
+* [threat9/routersploit](https://github.com/threat9/routersploit) 专用于嵌入式设备的开源渗透测试开发框架。
 
 # 硬件
 
@@ -9273,6 +9297,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [tiangolo/typer](https://github.com/tiangolo/typer) 用于构建 CLI 应用程序的库，用户会喜欢使用，开发人员会喜欢创建。基于 Python 3.6+ 类型提示。
 
+* [borgbackup/borg](https://github.com/borgbackup/borg) 重复数据删除备份程序。它支持压缩和经过身份验证的加密。
+
 ## C/C++ 程序设计
 
 * [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
@@ -9374,6 +9400,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [sumatrapdfreader/sumatrapdf](https://github.com/sumatrapdfreader/sumatrapdf) C/C++ Windows 的多格式（PDF、EPUB、MOBI、CBZ、CBR、FB2、CHM、XPS、DjVu）阅读器，采用 （A）GPLv3 许可，部分代码采用 BSD 许可。
 
 * [ttroy50/cmake-examples](https://github.com/ttroy50/cmake-examples) CMake 是一个跨平台的开源元构建系统，可以构建、测试和打包软件。这个存储库包括一些现代 CMake 配置示例，我在探索它在各种项目中的用法时已经拿起了这些配置。这些示例以类似教程的格式进行布局。第一个示例非常基础，并且利用前面的示例来展示更复杂的用例，复杂性会慢慢增加。
+
+* [facebook/zstd](https://github.com/facebook/zstd) 快速无损压缩算法，针对 zlib 级的实时压缩场景和更好的压缩比。它由 Huff0 和 FSE 库提供的非常快的熵级支持。Zstandard 的格式是稳定的，并记录在RFC8878中。已经有多个独立的实现可用。此存储库表示参考实现，作为开源双 BSD 或 GPLv2 许可的 C 库提供，以及生成和解码 .zst 、 .gz .xz 和 .lz4 文件的命令行实用程序。
 
 ## Rust 程序设计
 
@@ -10589,5 +10617,13 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [rbenv/rbenv](https://github.com/rbenv/rbenv) 类 Unix 系统上 Ruby 编程语言的版本管理器工具。它对于在同一台机器上的多个 Ruby 版本之间切换以及确保您正在处理的每个项目始终在正确的 Ruby 版本上运行非常有用。
 
 * [frank-lam/fullstack-tutorial](https://github.com/frank-lam/fullstack-tutorial) fullstack tutorial 2022，后台技术栈/架构师之路/全栈开发社区，春招/秋招/校招/面试
+
+* [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) 电子书管理器。它可以查看、转换、编辑和编目所有主要电子书格式的电子书。它还可以与电子书阅读器设备通信。它可以上网并获取您书籍的元数据。它可以下载报纸并将其转换为电子书，以方便阅读。它是跨平台的
+
+* [imarvinle/awesome-cs-books](https://github.com/imarvinle/awesome-cs-books) 经典编程书籍大全，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等
+
+* [xiaolincoder/CS-Base](https://github.com/xiaolincoder/CS-Base) 图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识
+
+* [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) 精选的免费课程和认证列表。
 
 # end
