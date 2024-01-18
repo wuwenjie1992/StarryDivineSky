@@ -813,6 +813,10 @@
 
 * [metabase/metabase](https://github.com/metabase/metabase) 以最简单、快捷的方式为公司中的每个人提供商业智能和分析
 
+* [chenzomi12/DeepLearningSystem](https://github.com/chenzomi12/DeepLearningSystem) 跟大家一起探讨和学习人工智能、深度学习的系统设计，而整个系统是围绕着 ZOMI 在工作当中所积累、梳理、构建 AI 系统全栈的内容。希望跟所有关注 AI 开源项目的好朋友一起探讨研究，共同促进学习讨论。
+
+* [datastacktv/data-engineer-roadmap](https://github.com/datastacktv/data-engineer-roadmap) 2021 年成为数据工程师的路线图
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1916,6 +1920,8 @@
 
 * [hyperonym/basaran](https://github.com/hyperonym/basaran) OpenAI 文本完成 API 的开源替代品。它为基于 Hugging Face Transformer 的文本生成模型提供兼容的流式处理 API。
 
+* [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) 一门 12 节课的课程，教授开始构建生成式 AI 应用程序所需的一切知识
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2421,6 +2427,8 @@
 * [neulab/prompt2model](https://github.com/neulab/prompt2model) 从自然语言指令生成可部署模型，采用自然语言任务描述（如 ChatGPT 等 LLM 使用的提示）来训练有利于部署的小型专用模型的系统。
 
 * [web-arena-x/webarena](https://github.com/web-arena-x/webarena) 一个独立的、自托管的 Web 环境，用于构建LLM自治代理
+
+* [learn-anything/learn-anything.xyz](https://github.com/learn-anything/learn-anything.xyz) 组织世界知识，探索联系并策划学习路径。Learn Anything 的最终目标是成为跟踪您所知道的内容的最佳场所和工具。你有什么想法。你接下来要学习什么。你还不知道的。以及根据您已经知道的知识，如何以最佳方式学习它。LA 的部分目标是达到 AGI 并以完全开放的方式进行。目前，这一旅程的起点是提供最先进的能力来索引一个人的任何知识，并为它提供具有不同隐私控制的聊天机器人界面。
 
 ### 其他_文本生成、文本对话
 
@@ -2963,6 +2971,8 @@
 
 * [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) Stanford NLP Group 的官方 Python NLP 库。 它支持在 60 多种语言上运行各种准确的自然语言处理工具。
 
+* [piskvorky/gensim](https://github.com/piskvorky/gensim) Python 库，用于主题建模、文档索引和大型语料库的相似性检索。目标受众是自然语言处理 （NLP） 和信息检索 （IR） 社区。特征：所有算法都与内存无关，与语料库大小无关（可以处理大于 RAM、流式、核外的输入），易于插入您自己的输入语料库/数据流（简单的流式 API），易于使用其他向量空间算法进行扩展（简单转换 API），流行算法的高效多核实现，例如在线潜在语义分析 （LSA/LSI/SVD）、潜在狄利克雷分配 （LDA）、随机投影 （RP）、分层狄利克雷过程 （HDP） 或 word2vec 深度学习。分布式计算：可以在计算机集群上运行潜在语义分析和潜在狄利克雷分配。
+
 * [huseinzol05/NLP-Models-Tensorflow](https://github.com/huseinzol05/NLP-Models-Tensorflow) 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
 * [CLUEbenchmark/FewCLUE](https://github.com/CLUEbenchmark/FewCLUE) FewCLUE 小样本学习测评基准，中文版 小样本学习（Few-shot Learning）正是解决这类在极少数据情况下的机器学习问题。结合预训练语言模型通用和强大的泛化能力基础上，探索小样本学习最佳模型和中文上的实践，是本课题的目标。FewCLUE：中文小样本学习测评基准，基于CLUE的积累和经验，并结合少样本学习的特点和近期的发展趋势，精心设计了该测评，希望可以促进中文领域上少样本学习领域更多的研究、应用和发展。模型有5种不同的方式做任务，分别是使用预训练模型直接做下游任务微调、PET\RoBERTa为基础的Ptuning方式、GPT类模型为基础的Ptuning方式、使用RoBERTa或GPT做零样本学习。
@@ -3469,6 +3479,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 - [elunez/eladmin](https://github.com/elunez/eladmin) eladmin jpa 版本：基于 Spring Boot 2.6.4、 Jpa、 Spring Security、Redis、Vue的前后端分离的后台管理系统，采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，一键生成前后端代码，支持动态路由
 
 - [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+
+- [codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin) 用于管理 Spring Boot 应用程序的管理 UI
 * [elunez/eladmin-web](https://github.com/elunez/eladmin-web) eladmin jpa版本：前端源码，项目基于 Spring Boot 2.1.0 、 Spring Boot Jpa、 Spring Security、Redis、Vue的前后端分离后台管理系统
 
 * [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 & Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
@@ -4017,6 +4029,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [airbnb/visx](https://github.com/airbnb/visx) 可重用的低级可视化组件的集合。visx 结合了 d3 的强大功能来生成可视化和 react 更新 DOM 的好处。
 
+* [bgstaal/multipleWindow3dScene](https://github.com/bgstaal/multipleWindow3dScene) 如何使用 three.js 和 localStorage 跨多个窗口“同步”3D 场景的简单示例
+
+* [vega/vega](https://github.com/vega/vega) 可视化语法，是一种用于创建、保存和共享交互式可视化设计的声明性格式。使用 Vega，您可以以 JSON 格式描述数据可视化，并使用 HTML5 Canvas 或 SVG 生成交互式视图。
+
+* [antvis/G2](https://github.com/antvis/G2) 用于仪表板构建、数据探索和讲故事的可视化语法。通过简洁的声明帮助您快速获得有意义的可视化效果，并推断其余部分。但是，您可以为复杂和高级情况配置更多内容。采用功能性声明式 API 以编程方式指定图表选项，这有助于更好的逻辑重用和更灵活的代码组织。为了满足特定需求，G2 提供了一种方便且一致的机制来扩展您能想象到的一切，无论是缩放、转换、标记等。您甚至可以基于此机制自定义全新的可视化工具。
+
+* [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas) 动态画布，TypeScript 库，它使用生成器对动画进行编程。提供上述动画实时预览的编辑器。专门的工具，旨在创建信息丰富的矢量动画并将它们与画外音同步。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4300,6 +4320,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [netty/netty](https://github.com/netty/netty) 异步事件驱动的网络应用程序框架，用于快速开发可维护的高性能协议服务器和客户端。
 
 * [saleor/saleor](https://github.com/saleor/saleor) 高性能、可组合、无头商务 API。现代堆栈上以客户为中心的电子商务。无头的 GraphQL 商务平台，提供超快速、动态、个性化的购物体验。漂亮的在线商店，随时随地，在任何设备上。
+
+* [cookiecutter/cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django) 由 Cookiecutter 提供支持，是一个用于快速启动生产就绪的 Django 项目的框架。
+
+* [apereo/cas](https://github.com/apereo/cas) 面向所有地球人及其他地区的身份和单点登录。面向 Web 的企业多语言单点登录解决方案，旨在成为满足身份验证和授权需求的综合平台。CAS 是一种开放且有据可查的身份验证协议。该协议的主要实现是此处托管的同名开源 Java 服务器组件，支持大量其他身份验证协议和功能，例如 SAML2、OpenID Connect 等。
 
 ## 网络与前后端开发_其他
 
@@ -4850,6 +4874,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [trailofbits/algo](https://github.com/trailofbits/algo) 一组 Ansible 脚本，可简化个人 WireGuard 和 IPsec VPN 的设置。使用最安全的默认值，并与常见的云提供商合作。
 
 * [ginuerzh/gost](https://github.com/ginuerzh/gost) GO语言实现的安全隧道。特性：多端口监听、可设置转发代理，支持多级转发(代理链)、支持标准HTTP(2)(S)/SOCKS4(A)(5)代理协议、Web代理支持探测防御、支持多种隧道类型、SOCKS5代理支持TLS协商加密、基于 TCP 的隧道 UDP、TCP/UDP透明代理、本地/远程TCP/UDP转发、支持Shadowsocks(TCP/UDP)协议、支持SNI代理、权限控制、负载均衡、路由控制、DNS解析和代理、TUN/TAP设备
+
+* [wagtail/wagtail](https://github.com/wagtail/wagtail) 基于 Django 的开源内容管理系统，拥有强大的社区和商业支持。它专注于用户体验，并为设计人员和开发人员提供精确的控制。
+
+* [skywind3000/kcp](https://github.com/skywind3000/kcp) 快速可靠协议，能以比 TCP 浪费 10%-20% 的带宽的代价，换取平均延迟降低 30%-40%，且最大延迟降低三倍的传输效果。纯算法实现，并不负责底层协议（如UDP）的收发，需要使用者自己定义下层数据包的发送方式，以 callback的方式提供给 KCP。 连时钟都需要外部传递进来，内部不会有任何一次系统调用。CP是为流量设计的（每秒内可以传输多少KB的数据），讲究的是充分利用带宽。而 KCP是为流速设计的（单个数据包从一端发送到一端需要多少时间），以10%-20%带宽浪费的代价换取了比 TCP快30%-40%的传输速度。TCP信道是一条流速很慢，但每秒流量很大的大运河，而KCP是水流湍急的小激流。
 
 ## 区块链、智能合约
 
@@ -5589,6 +5617,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [ashawkey/stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion) 文本到3D和图像到3D和网格导出与NeRF +扩散。
 
 * [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) 稳定的扩散 Webui colab
+
+* [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) 旨在成为一个有用的创意工具，让您可以灵活地创建以自己绘制的角色为主角的动画。
 
 * [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
@@ -7870,6 +7900,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [hashicorp/nomad](https://github.com/hashicorp/nomad) 易于使用、灵活且高性能的工作负载编排器，可以部署微服务、批处理、容器化和非容器化应用程序的组合。Nomad 易于操作和扩展，并具有原生 Consul 和 Vault 集成
 
+* [aws/aws-cdk](https://github.com/aws/aws-cdk) 用于在代码中定义云基础设施的框架。提供了高级的面向对象的抽象，以使用现代编程语言的强大功能来强制定义 AWS 资源。使用 CDK 的基础设施构造库，可以将 AWS 最佳实践封装到基础设施定义中并共享，而无需担心样板逻辑。
+
+* [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) 开源 Kubernetes 应用程序，适用于可直接编写代码的云开发环境，可在几秒钟内在云中为每个任务启动全新的自动化开发环境。它使您能够将开发环境描述为代码，并直接从浏览器或桌面 IDE 启动即时、远程和云开发环境。
+
+* [infracost/infracost](https://github.com/infracost/infracost) 显示 Terraform 的云成本估算。它允许工程师在进行更改之前查看成本明细并了解成本，无论是在终端、VS Code 还是拉取请求中。
+
+* [firebase/functions-samples](https://github.com/firebase/functions-samples) 示例应用集合，展示了使用 Cloud Functions for Firebase 的热门用例。Cloud Functions 是一个托管、私有且可扩展的 Node.js 环境，可在其中运行 JS 或 Py 代码。Cloud Functions for Firebase 集成了 Firebase 平台，让您能够编写代码来响应事件并调用其他 Firebase 功能公开的功能。
+
 # 安全与渗透
 
 ## 扫描器、资产收集、子域名
@@ -8804,6 +8842,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [threat9/routersploit](https://github.com/threat9/routersploit) 专用于嵌入式设备的开源渗透测试开发框架。
 
+* [wifiphisher/wifiphisher](https://github.com/wifiphisher/wifiphisher) 流氓接入点框架，用于执行红队参与或 Wi-Fi 安全测试。使用 Wifiphisher，渗透测试人员可以通过执行有针对性的 Wi-Fi 关联攻击，轻松实现针对无线客户端的中间人位置。Wifiphisher 可以进一步用于对连接的客户端发起受害者定制的网络钓鱼攻击，以捕获凭据（例如来自第三方登录页面或 WPA/WPA2 预共享密钥）或用恶意软件感染受害者站。
+
+* [danluu/post-mortems](https://github.com/danluu/post-mortems) 互联网公司和平台事故及相关故障的事后分析的集合。
+
 # 硬件
 
 ## CPU RISC-V
@@ -9299,6 +9341,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [borgbackup/borg](https://github.com/borgbackup/borg) 重复数据删除备份程序。它支持压缩和经过身份验证的加密。
 
+* [MagicStack/uvloop](https://github.com/MagicStack/uvloop) 内置 Asyncio 事件循环的快速直接替代品。uvloop 是在 Cython 中实现的，并在后台使用 libuv。
+
 ## C/C++ 程序设计
 
 * [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
@@ -9452,6 +9496,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [swc-project/swc](https://github.com/swc-project/swc) 用 Rust 编写的超快 TypeScript / JavaScript 编译器。它同时是 Rust 和 JavaScript 的库。
 
 * [tokio-rs/tokio](https://github.com/tokio-rs/tokio) 使用 Rust 编写可靠异步应用程序的运行时。提供 I/O、网络、调度、定时器等
+
+* [redox-os/redox](https://github.com/redox-os/redox) 用 Rust 编写的操作系统，Rust 是一种专注于安全和高性能的语言。Redox 遵循微内核设计，旨在安全、可用和免费。Redox 的灵感来自以前的内核和操作系统，例如 SeL4、MINIX、Plan 9 和 BSD。不仅仅是一个内核，它还是一个功能齐全的操作系统，提供软件包（内存分配器、文件系统、显示管理器、核心实用程序等），它们共同构成了一个功能强大且方便的操作系统。你可以粗略地把它看作是GNU或BSD生态系统，但采用的是内存安全的语言和现代技术。
 
 * [hyperium/tonic](https://github.com/hyperium/tonic) 具有异步/等待支持的本机 gRPC 客户端和服务器实现。
 
@@ -10560,6 +10606,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) 专业的跨平台SSH/Sftp/Shell/Telnet/串口终端。
 
+* [tmuxinator/tmuxinator](https://github.com/tmuxinator/tmuxinator) 轻松管理复杂的 tmux 会话
+
 * [junegunn/fzf](https://github.com/junegunn/fzf) 通用的命令行模糊查找器。用于命令行的交互式 Unix 过滤器，可以与任何列表一起使用;文件、命令历史记录、进程、主机名、书签、git 提交等。
 
 * [charmbracelet/vhs](https://github.com/charmbracelet/vhs) CLI 录像机
@@ -10625,5 +10673,11 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [xiaolincoder/CS-Base](https://github.com/xiaolincoder/CS-Base) 图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识
 
 * [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) 精选的免费课程和认证列表。
+
+* [nusr/hacker-laws-zh](https://github.com/nusr/hacker-laws-zh) 对开发人员有用的定律、理论、原则和模式。
+
+* [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) 功能强大且易于使用的屏幕截图软件。
+
+* [dandavison/delta](https://github.com/dandavison/delta) 用于 git、diff 和 grep 输出的语法突出显示
 
 # end
