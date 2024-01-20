@@ -645,6 +645,8 @@
 
 * [streamlit/streamlit](https://github.com/streamlit/streamlit) 用 Python 构建数据应用程序的最快方法
 
+* [ml-explore/mlx](https://github.com/ml-explore/mlx) Apple 机器学习研究团队推出的基于 Apple 芯片的机器学习阵列框架。主要功能包括：熟悉的 API：MLX 有一个紧跟 NumPy 的 Python API。MLX 还有一个功能齐全的 C++ API，它与 Python API 非常相似。MLX 具有更高级别的包，例如 API mlx.optimizers ，这些包与 PyTorch 密切相关， mlx.nn 以简化构建更复杂的模型。可组合函数变换：MLX支持可组合函数变换，实现自动微分、自动矢量化、计算图优化等功能。延迟计算：MLX 中的计算是延迟的。数组仅在需要时具体化。动态图构建：MLX中的计算图是动态构建的。更改函数参数的形状不会触发缓慢的编译，并且调试简单直观。多设备：操作可以在任何受支持的设备（当前为 CPU 和 GPU）上运行。统一内存：与 MLX 和其他框架的显着区别是统一内存模型。MLX 中的数组位于共享内存中。可以在任何受支持的设备类型上执行对 MLX 阵列的操作，而无需传输数据。
+
 * [huggingface/optimum](https://github.com/huggingface/optimum) 性能优化工具，AI 生态发展迅速，越来越多的专用硬件及其优化每天都在涌现,可实现在目标硬件上训练和运行模型的最高效率。
 
 * [mosaicml/composer](https://github.com/mosaicml/composer) 将神经网络训练速度提高 7 倍 更低的成本和更高的准确度更快地训练神经网络。我们已经实现了两打以上的加速方法，只需几行代码即可应用于您的训练循环，或与我们的内置 Trainer 一起使用。
@@ -816,6 +818,8 @@
 * [chenzomi12/DeepLearningSystem](https://github.com/chenzomi12/DeepLearningSystem) 跟大家一起探讨和学习人工智能、深度学习的系统设计，而整个系统是围绕着 ZOMI 在工作当中所积累、梳理、构建 AI 系统全栈的内容。希望跟所有关注 AI 开源项目的好朋友一起探讨研究，共同促进学习讨论。
 
 * [datastacktv/data-engineer-roadmap](https://github.com/datastacktv/data-engineer-roadmap) 2021 年成为数据工程师的路线图
+
+* [ujjwalkarn/Machine-Learning-Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) 包含机器学习和深度学习教程、文章和其他资源的主题精选列表。其他很棒的列表可以在此列表中找到。
 
 # NLP自然语言处理
 
@@ -3340,6 +3344,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [zloirock/core-js](https://github.com/zloirock/core-js) 用于 JavaScript 的模块化标准库。
 
+* [knex/knex](https://github.com/knex/knex) 适用于 PostgreSQL、MySQL、CockroachDB、SQL Server、SQLite3 和 Oracle 的查询构建器，旨在灵活、可移植且使用起来很有趣。
+
+* [jamiebuilds/babel-handbook](https://github.com/jamiebuilds/babel-handbook) 通用的多用途 JavaScript 编译器。通过 Babel 你可以使用（并创建）下一代的 JavaScript，以及下一代的 JavaScript 工具。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -4037,6 +4045,14 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas) 动态画布，TypeScript 库，它使用生成器对动画进行编程。提供上述动画实时预览的编辑器。专门的工具，旨在创建信息丰富的矢量动画并将它们与画外音同步。
 
+* [getzola/zola](https://github.com/getzola/zola) 一个快速的静态站点生成器，在一个二进制文件中，内置了所有内容。
+
+* [sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2) 美观、响应迅速、高度可定制和可访问 （WAI-ARIA） 的 JavaScript 弹出框替代品。零依赖性。
+
+* [twitter/typeahead.js](https://github.com/twitter/typeahead.js) 受 twitter.com 自动完成搜索功能的启发，typeahead.js 是一个灵活的 JavaScript 库，为构建健壮的提前输入提供了坚实的基础。
+
+* [twitter/twemoji](https://github.com/twitter/twemoji) 简单的库，可在所有平台上提供标准的 Unicode 表情符号支持。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4324,6 +4340,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [cookiecutter/cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django) 由 Cookiecutter 提供支持，是一个用于快速启动生产就绪的 Django 项目的框架。
 
 * [apereo/cas](https://github.com/apereo/cas) 面向所有地球人及其他地区的身份和单点登录。面向 Web 的企业多语言单点登录解决方案，旨在成为满足身份验证和授权需求的综合平台。CAS 是一种开放且有据可查的身份验证协议。该协议的主要实现是此处托管的同名开源 Java 服务器组件，支持大量其他身份验证协议和功能，例如 SAML2、OpenID Connect 等。
+
+* [pallets/jinja](https://github.com/pallets/jinja) 一个非常快速和富有表现力的模板引擎。模板中的特殊占位符允许编写类似于 Python 语法的代码。然后，将模板传递数据以呈现最终文档。
 
 ## 网络与前后端开发_其他
 
@@ -4879,6 +4897,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [skywind3000/kcp](https://github.com/skywind3000/kcp) 快速可靠协议，能以比 TCP 浪费 10%-20% 的带宽的代价，换取平均延迟降低 30%-40%，且最大延迟降低三倍的传输效果。纯算法实现，并不负责底层协议（如UDP）的收发，需要使用者自己定义下层数据包的发送方式，以 callback的方式提供给 KCP。 连时钟都需要外部传递进来，内部不会有任何一次系统调用。CP是为流量设计的（每秒内可以传输多少KB的数据），讲究的是充分利用带宽。而 KCP是为流速设计的（单个数据包从一端发送到一端需要多少时间），以10%-20%带宽浪费的代价换取了比 TCP快30%-40%的传输速度。TCP信道是一条流速很慢，但每秒流量很大的大运河，而KCP是水流湍急的小激流。
 
+* [twitter/finagle](https://github.com/twitter/finagle) 容错、与协议无关的 RPC 系统。JVM 的可扩展 RPC 系统，用于构建高并发服务器。Finagle 为多种协议实现了统一的客户端和服务器 API，专为高性能和并发性而设计。Finagle 的大部分代码都与协议无关，从而简化了新协议的实现。
+
+* [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) 适用于 Android 的自由轻量级流媒体前端。
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -4992,6 +5014,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
   - KTUP Unifying Knowledge Graph Learning and Recommendation:Towards a Better Understanding of User Preferences 一方面利用KG可以帮助更好的理解用户偏好。另一方面，用户-物品的交互可以补全KG，增强KG中缺少的事实。最终使两个部分都得到加强。
   - MKR(Multi-task Learning for KG enhanced Recommendation 融合KG和RC) 左边是推荐任务。用户和物品的特征表示作为输入，预测点击率y 右边是知识图谱任务。三元组的头结点h和关系r表示作为输入，预测的尾节点t 两者的交互由一个cross-feature-sharing units完成。由于物品向量和实体向量实际上是对同一个对象的两种描述，他们之间的信息交叉共享可以让两者都获得来自对方的额外信息，从而弥补了自身的信息稀疏性的不足。
   - ippleNet,BERT4Rec,Caser,DIN,FDSA,FPMC,GCSAN,GRU4Rec,GRU4RecF,GRU4RecKG,KSR,NARM,NextItNet,S3Rec,SASRec,SASRecF,SRGNN,STAMP,TransRec
+
+* [pytorch/torchrec](https://github.com/pytorch/torchrec)  PyTorch 域库，旨在提供大规模推荐系统 （RecSys） 所需的常见稀疏性和并行性基元。它允许作者使用跨多个 GPU 分片的大型嵌入表来训练模型。包含：并行基元，支持使用混合数据并行性/模型并行性轻松创作大型高性能多设备/多节点模型。TorchRec 分片可以使用不同的分片策略对嵌入表进行分片嵌入，包括数据并行、表分片、行分片、分片、分片。TorchRec 规划器可以自动为模型生成优化的分片计划。流水线训练与数据加载设备传输（复制到 GPU）、设备间通信 （input_dist） 和计算（向前、向后）重叠，以提高性能。由 FBGEMM 提供支持的 RecSys 的优化内核。量化支持，可降低训练和推理的精度。RecSys 的通用模块。经过生产验证的 RecSys 模型架构。RecSys 数据集（criteo 点击日志和 movielens）。端到端训练示例，例如在 criteo 点击日志数据集上训练的 dlrm 事件预测模型。
 
 * [Coder-Yu/QRec](https://github.com/Coder-Yu/QRec) QRec：快速实现推荐系统的 Python 框架（基于 TensorFlow）
 
@@ -5263,6 +5287,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [caserec/Datasets-for-Recommender-Systems](https://github.com/caserec/Datasets-for-Recommender-Systems) 一个以主题为中心的高质量推荐系统（RS）公共数据集。
 
 * [zygmuntz/goodbooks-10k](https://github.com/zygmuntz/goodbooks-10k) 包含一万本最受欢迎（评分最多）书籍的 600 万个评分。还有：用户标记为阅读的书籍、书籍元数据（作者、年份等）、标签/货架/流派
+
+* [twitter/the-algorithm-ml](https://github.com/twitter/the-algorithm-ml) 这个项目开源了 Twitter 使用的一些 ML 模型。目前这些是：“For You”重磅排名（项目/主页/回顾）。TwHIN 嵌入。
 
 # 机器视觉
 
@@ -5620,6 +5646,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) 旨在成为一个有用的创意工具，让您可以灵活地创建以自己绘制的角色为主角的动画。
 
+* [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) 为任何人制作动画：用于角色动画的一致且可控的图像到视频合成
+
 * [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
 * [yangjianxin1/CLIP-Chinese](https://github.com/yangjianxin1/CLIP-Chinese) 中文多模态对比学习预训练模型 ，可获取140w中文图文对预训练数据，以及中文CLIP预训练权重。下游任务：图文相似度计算、文本相似度计算、图片相似度计算
@@ -5635,6 +5663,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [Nutlope/roomGPT](https://github.com/Nutlope/roomGPT) 上传您的房间照片，使用 AI 生成您的梦想房间。使用称为ControlNet的ML模型来生成房间的变化。此应用程序使您能够上传任何房间的照片，该照片将使用 Next.js API 路由通过此 ML 模型发送照片，并返回生成的房间。
 
 * [jbilcke-hf/ai-comic-factory](https://github.com/jbilcke-hf/ai-comic-factory) 使用 LLM + SDXL 生成漫画面板。
+
+* [https://github.com/SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui) 使用 tldraw 和 gpt-4-vision api 根据您绘制的线框生成 html 的应用程序。
 
 * [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) 拖动 GAN：基于点操作的交互式图像流形生成
 
@@ -7716,6 +7746,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [luin/medis](https://github.com/luin/medis) 美观、易用的 Redis Mac 数据库管理应用程序。
 
+* [twitter/twemproxy](https://github.com/twitter/twemproxy) memcached 和 redis 的快速、轻量级代理
+
 * [apache/kafka](https://github.com/apache/kafka) 分布式数据存储和流处理平台，可以发布和订阅记录流，按顺序存储和处理数据。
 
 * [yahoo/CMAK](https://github.com/yahoo/CMAK) 用于管理 Apache Kafka 群集的工具
@@ -7731,6 +7763,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [tonsky/datascript](https://github.com/tonsky/datascript) 用于 Clojure、ClojureScript 和 JS 的不可变数据库和数据日志查询引擎
 
 * [cube-js/cube](https://github.com/cube-js/cube) 多维数据集 — 用于构建数据应用程序的语义层。帮助数据工程师和应用程序开发人员访问新式数据存储中的数据，将其组织成一致的定义，并将其交付给每个应用程序。
+
+* [bytebase/bytebase](https://github.com/bytebase/bytebase) 面向开发人员、DBA 和平台工程团队的世界上最先进的数据库 DevOps 和 CI/CD。用于数据库 DevOps 的 GitLab/GitHub。
 
 * [mingrammer/diagrams](https://github.com/mingrammer/diagrams) 允许您在 Python 代码中绘制云系统架构。它诞生于在没有任何设计工具的情况下对新的系统架构设计进行原型设计。您还可以描述或可视化现有系统架构。Diagrams目前支持的主要提供商包括： GCP \ Kubernetes \Alibaba Cloud \Oracle Cloud \Azure AWS 等。它还支持 On-Premise 节点、 SaaS 主要 Programming 框架和语言。
 
@@ -8242,6 +8276,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [brannondorsey/wifi-cracking](https://github.com/brannondorsey/wifi-cracking) 使用 Airodump-ng 和 Aircrack-ng/Hashcat 破解 WPA/WPA2 Wi-Fi 路由器
 
+* [winsiderss/systeminformer](https://github.com/winsiderss/systeminformer) Windows 10 免费、功能强大、用途广泛的工具，可帮助您监控系统资源、调试软件和检测恶意软件。由 Winsider Seminars & Solutions， Inc. 提供。
+
 ## 漏洞库、漏洞靶场
 
 * [pwntester/0day](https://github.com/pwntester/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC 该项目将不断更新
@@ -8277,6 +8313,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [qazbnm456/awesome-web-security](https://github.com/qazbnm456/awesome-web-security) 精心策划的网络安全材料和资源列表。
 
 * [Mr-xn/Penetration_Testing_POC](https://github.com/Mr-xn/Penetration_Testing_POC) 渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms
+
+* [Gallopsled/pwntools](https://github.com/Gallopsled/pwntools) CTF 框架和漏洞利用开发库。它是用 Python 编写的，专为快速原型设计和开发而设计，旨在使漏洞编写尽可能简单。
 
 ## 安卓Android
 
@@ -8846,6 +8884,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [danluu/post-mortems](https://github.com/danluu/post-mortems) 互联网公司和平台事故及相关故障的事后分析的集合。
 
+* [Manisso/fsociety](https://github.com/Manisso/fsociety) fsociety 黑客工具包 – 渗透测试框架
+
+* [Tencent/secguide](https://github.com/Tencent/secguide) 面向开发人员梳理的代码安全指南，旨在梳理API层面的风险点并提供详实可行的安全编码方案。
+
 # 硬件
 
 ## CPU RISC-V
@@ -9119,6 +9161,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [MichMich/MagicMirror](https://github.com/MichMich/MagicMirror) 开源的模块化智能镜子平台。随着可安装模块的不断增加，MagicMirror² 允许您将走廊或浴室镜子转换为您的私人助理。
 
 * [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) 阿波罗11号制导计算机（AGC）指令舱（Comanche055）和登月舱（Luminary099）的原始源代码。由虚拟AGC和麻省理工学院博物馆的人们数字化。目标是成为原始阿波罗 11 号源代码的存储库。
+
+* [peng-zhihui/Dummy-Robot](https://github.com/peng-zhihui/Dummy-Robot) 超迷你机械臂机器人项目。
 
 # 其他项目
 
@@ -9552,6 +9596,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) 一个解析器生成器工具和一个增量解析库。它可以为源文件构建具体的语法树，并在编辑源文件时有效地更新语法树。目标是：通用到足以解析任何编程语言；速度足够快，可以在文本编辑器中解析每个击键；足够强大，即使在存在语法错误的情况下也能提供有用的结果；无依赖性，因此运行时库（用纯 C 语言编写）可以嵌入到任何应用程序中
 
 * [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) 命令行基准测试工具。特征：跨多个运行的统计分析。支持任意 shell 命令。关于基准进度和当前估计的持续反馈。预热运行可以在实际基准测试之前执行。可以在每次计时运行之前设置缓存清除命令。统计异常值检测，用于检测来自其他程序的干扰和缓存效果。将结果导出为各种格式：CSV、JSON、Markdown、AsciiDoc。参数化基准（例如，改变线程数）。跨平台。
+
+* [lsd-rs/lsd](https://github.com/lsd-rs/lsd) 对GNU `ls` 的重写，增加了许多功能，如颜色、图标、树视图、更多的格式化选项等。该项目深受超级colorls项目的启发。
 
 ## flutter
 
@@ -10246,6 +10292,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [Tencent/tinker](https://github.com/Tencent/tinker) Android 的热修复解决方案库，支持 dex、库和资源更新，无需重新安装 apk。
 
+* [Tamsiree/RxTool](https://github.com/Tamsiree/RxTool) Android开发人员不得不收集的工具类集合 | 支付宝支付 | 微信支付（统一下单） | 微信分享 | Zip4j压缩 | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 蛛网等级 | 颜色选择器 | ArcGis | VTPK 
+
+* [gyf-dev/ImmersionBar](https://github.com/gyf-dev/ImmersionBar) android 4.4以上沉浸式状态栏和沉浸式导航栏管理，适配横竖屏切换、刘海屏、软键盘弹出等问题，可以修改状态栏字体颜色和导航栏图标颜色，以及不可修改字体颜色手机的适配，适用于Activity、Fragment、DialogFragment、Dialog，PopupWindow
+
 * [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
 
 * [asdf-vm/asdf](https://github.com/asdf-vm/asdf) 可扩展的版本管理器，支持Ruby，Node.js，Elixir，Erlang等
@@ -10679,5 +10729,19 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) 功能强大且易于使用的屏幕截图软件。
 
 * [dandavison/delta](https://github.com/dandavison/delta) 用于 git、diff 和 grep 输出的语法突出显示
+
+* [qarmin/czkawka](https://github.com/qarmin/czkawka) 多功能应用程序，用于查找重复项、空文件夹、类似图像等。
+
+* [lib-pku/libpku](https://github.com/lib-pku/libpku) 贵校大学课程各种资料民间整理
+
+* [tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh) 程序员应该访问的最佳网站
+
+* [sqshq/sampler](https://github.com/sqshq/sampler) 用于 shell 命令执行、可视化和警报的工具。使用简单的 YAML 文件进行配置。
+
+* [denisidoro/navi](https://github.com/denisidoro/navi) 用于命令行的交互式备查表工具
+
+* [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件
+
+* [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) 基于MDL论坛的KMS 服务端模拟环境“KMS Server Emulator”而制作的一款简洁高效的 KMS 激活工具。
 
 # end
