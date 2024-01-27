@@ -821,6 +821,10 @@
 
 * [ujjwalkarn/Machine-Learning-Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) 包含机器学习和深度学习教程、文章和其他资源的主题精选列表。其他很棒的列表可以在此列表中找到。
 
+* [lexfridman/mit-deep-learning](https://github.com/lexfridman/mit-deep-learning) 麻省理工学院深度学习相关课程的教程、作业和竞赛。[deeplearning.mit.edu](https://deeplearning.mit.edu/)
+
+* [google-deepmind/sonnet](https://github.com/google-deepmind/sonnet) 基于 TensorFlow 2 构建的库，旨在为机器学习研究提供简单、可组合的抽象。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -4053,6 +4057,18 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [twitter/twemoji](https://github.com/twitter/twemoji) 简单的库，可在所有平台上提供标准的 Unicode 表情符号支持。
 
+* [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) Kotlin 的现代 UI 框架，可轻松愉快地构建高性能且美观的用户界面。跨多个平台共享 UI。它基于 Jetpack Compose，由 JetBrains 和开源贡献者开发。
+
+* [webview/webview](https://github.com/webview/webview) 用于 C/C++ 的微型跨平台 webview 库。使用 WebKit （GTK/Cocoa） 和 Edge WebView2 （Windows） 。目标是为最广泛使用的平台创建一个通用的 HTML5 UI 抽象层。它支持双向 JavaScript 绑定（从 C/C++ 调用 JavaScript 和从 JavaScript 调用 C/C++）。
+
+* [WebKit/WebKit](https://github.com/WebKit/WebKit) WebKit 项目的所在地，是 Safari、Mail、App Store 和 macOS、iOS 和 Linux 上的许多其他应用程序使用的浏览器引擎。
+
+* [browserless/browserless](https://github.com/browserless/browserless) 在 Docker 中部署无头浏览器。在我们的云上运行或自带。免费用于非商业用途。
+
+* [Tencent/VasSonic](https://github.com/Tencent/VasSonic) VasSonic 是由腾讯 VAS 团队开发的一款轻量级、高性能的 Hybrid 框架，旨在加速在 Android 和 iOS 平台上运行的网站的首屏。
+
+* [Justson/AgentWeb](https://github.com/Justson/AgentWeb) 基于 Android WebView 的强大库。极度容易使用以及功能强大的库，提供了 Android WebView 一系列的问题解决方案 ，并且轻量和极度灵活。轻量级而且功能强大的 Web 库 , 大小只有 200K 。功能：进度条以及自定义进度条、文件下载、文件下载断点续传、下载通知形式提示进度、简化 Javascript 通信、支持 Android 4.4 Kitkat 以及其他版本文件上传、注入 Cookies、加强 Web 安全、支持全屏播放视频、兼容低版本 Js 安全通信、更省电 、支持调起微信支付、支持调起支付宝、默认支持定位、支持传入 WebLayout（下拉回弹效果）、支持自定义 WebView、支持 JsBridge
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4096,6 +4112,20 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [JeffLi1993/springboot-learning-example](https://github.com/JeffLi1993/springboot-learning-example) spring boot 实践学习案例，是 spring boot 初学者及核心技术巩固的最佳实践。
 
 * [logto-io/logto](https://github.com/logto-io/logto) 帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
+
+* [ory/hydra](https://github.com/ory/hydra) OpenID 认证的 OpenID Connect 和 OAuth 提供程序，用 Go 编写 - 为您的基础架构提供云原生、安全优先的™开源 API 安全性。适用于任何语言的 SDK。与硬件安全模块配合使用。与 MITREid 兼容。
+
+* [authelia/authelia](https://github.com/authelia/authelia) 开源身份验证和授权服务器，通过 Web 门户为您的应用程序提供双因素身份验证和单点登录 （SSO）。它通过允许、拒绝或重定向请求来充当反向代理的伴侣。
+
+* [pennersr/django-allauth](https://github.com/pennersr/django-allauth) 集成的 Django 应用程序集，用于处理身份验证、注册、帐户管理以及第三方（社交）帐户身份验证。
+
+* [casbin/casdoor](https://github.com/casbin/casdoor) 一个开源的 UI 优先身份和访问管理 （IAM） / 单点登录 （SSO） 平台，具有支持 OAuth 2.0、OIDC、SAML、CAS、LDAP、SCIM、WebAuthn、TOTP、MFA 和 RADIUS 的 Web UI
+
+* [jaredhanson/passport](https://github.com/jaredhanson/passport) Passport 的唯一目的是对请求进行身份验证，它通过一组可扩展的插件（称为策略）来完成。Passport 不挂载路由或采用任何特定的数据库架构，这最大限度地提高了灵活性，并允许开发人员做出应用程序级决策。API 很简单：您向 Passport 提供身份验证请求，Passport 提供钩子来控制身份验证成功或失败时发生的情况。
+
+* [casbin/casbin](https://github.com/casbin/casbin) 在 Golang 中支持 ACL、RBAC、ABAC 等访问控制模型的授权库
+
+* [supertokens/supertokens-core](https://github.com/supertokens/supertokens-core) 为您的应用程序添加安全登录和会话管理。 可用于流行语言和前端框架的 SDK，例如 Node.js、Go、Python、React.js、React Native、Vanilla JS 等。
 
 * [halo-dev/halo](https://github.com/halo-dev/halo) 强大易用的开源建站工具。 
 
@@ -4901,6 +4931,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) 适用于 Android 的自由轻量级流媒体前端。
 
+* [mayswind/AriaNg](https://github.com/mayswind/AriaNg) 一个现代的 Web 前端，使 aria2 更易于使用。
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5648,6 +5680,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) 为任何人制作动画：用于角色动画的一致且可控的图像到视频合成
 
+* [lucidrains/DALLE2-pytorch](https://github.com/lucidrains/DALLE2-pytorch) 在 Pytorch 中实现 DALL-E 2，OpenAI 更新的文本到图像合成神经网络
+
 * [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
 * [yangjianxin1/CLIP-Chinese](https://github.com/yangjianxin1/CLIP-Chinese) 中文多模态对比学习预训练模型 ，可获取140w中文图文对预训练数据，以及中文CLIP预训练权重。下游任务：图文相似度计算、文本相似度计算、图片相似度计算
@@ -6041,6 +6075,12 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [zalandoresearch/fashion-mnist](https://github.com/zalandoresearch/fashion-mnist)  类似MNIST的时尚产品数据库。Zalando 文章图像的数据集，由包含 60,000 个示例的训练集和包含 10,000 个示例的测试集组成。每个示例都是一个 28x28 灰度图像，与来自 10 个类的标签相关联。我们打算 `Fashion-MNIST` 直接替代原始MNIST数据集，用于对机器学习算法进行基准测试。它与训练和测试拆分的图像大小和结构相同。
 
 * [albumentations-team/albumentations](https://github.com/albumentations-team/albumentations) 用于图像增强的 Python 库。图像增强用于深度学习和计算机视觉任务，以提高训练模型的质量。图像增强的目的是从现有数据创建新的训练样本。支持所有常见的计算机视觉任务，例如分类、语义分割、实例分割、对象检测和姿态估计。提供了一个简单的统一 API 来处理所有数据类型：图像（RBG 图像、灰度图像、多光谱图像）、分割掩码、边界框和关键点。该库包含 70 多种不同的增强，用于从现有数据生成新的训练样本。
+
+* [isl-org/Open3D](https://github.com/isl-org/Open3D) 支持快速开发处理 3D 数据的软件。Open3D 前端在 C++ 和 Python 中公开了一组精心挑选的数据结构和算法。后端经过高度优化，并设置为并行化。
+
+* [microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes) 计算机视觉的最佳做法、代码示例和文档。应用包括人脸识别、图像理解、搜索、无人机、测绘、半自动和自动驾驶汽车。其中许多应用的关键部分是视觉识别任务，例如图像分类、对象检测和图像相似性。
+
+* [esimov/caire](https://github.com/esimov/caire) 基于 Seam Carving for Content-Aware Image Adjustment 的内容感知图像大小调整库。
 
 # 因果推断
 
@@ -6633,6 +6673,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [microsoft/unilm/wavlm](https://github.com/microsoft/unilm/tree/master/wavlm) 用于全栈语音处理的大规模自我监督预训练，下游任务如ASR、声纹识别、声音分类等。
 
 * [Windstudent/Complex-MTASSNet](https://github.com/Windstudent/Complex-MTASSNet) 多任务音源分离，两阶段模型，复杂域。
+
+* [facebookresearch/seamless_communication](https://github.com/facebookresearch/seamless_communication) 一系列 AI 模型，可实现更自然、更真实的跨语言交流。SeamlessM4T 是一个庞大的多语言多模态机器翻译模型，支持大约 100 种语言。SeamlessM4T 是 SeamlessExpression 和 SeamlessStreaming 的基础，SeamlessExpression 是一个跨语言保留韵律和语音风格元素的模型，该模型支持大约 100 种语言的同声传译和流式 ASR。SeamlessExpressive 和 SeamlessStreaming 合并为 Seamless，这是一个具有多语言、实时和富有表现力的翻译的统一模型。支持以下任务：Speech-to-speech translation 语音到语音翻译 （S2ST）、Speech-to-text translation语音到文本翻译 （S2TT）、Text-to-speech translation 文本到语音转换 （T2ST）、Text-to-text translation 文本到文本翻译 （T2TT）、Automatic speech recognition 自动语音识别 （ASR）
 
 * [Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip) 唇语识别 唇语同步 ，用来生成准确的唇语同步视频。
 
@@ -7941,6 +7983,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [infracost/infracost](https://github.com/infracost/infracost) 显示 Terraform 的云成本估算。它允许工程师在进行更改之前查看成本明细并了解成本，无论是在终端、VS Code 还是拉取请求中。
 
 * [firebase/functions-samples](https://github.com/firebase/functions-samples) 示例应用集合，展示了使用 Cloud Functions for Firebase 的热门用例。Cloud Functions 是一个托管、私有且可扩展的 Node.js 环境，可在其中运行 JS 或 Py 代码。Cloud Functions for Firebase 集成了 Firebase 平台，让您能够编写代码来响应事件并调用其他 Firebase 功能公开的功能。
+
+* [google/go-cloud](https://github.com/google/go-cloud) Go 云开发工具包 （Go CDK） 允许 Go 应用程序开发人员在云提供商的任意组合上无缝部署云应用程序。它通过为存储和数据库等常见用途提供稳定、惯用的接口来实现这一点。
 
 # 安全与渗透
 
@@ -10340,6 +10384,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [antirez/kilo](https://github.com/antirez/kilo/) 小于 1000 LOC 的文本编辑器，具有语法突出显示和搜索功能。
 
+* [LunarVim/LunarVim](https://github.com/LunarVim/LunarVim) Neovim 的 IDE，具有合理的默认值。完全免费，由社区驱动。
+
 * [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) 統一中文文案、排版的相關用法，降低團隊成員之間的溝通成本，增強網站氣質。
 
 * [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) 以主题为中心的总部开放数据集列表。
@@ -10743,5 +10789,21 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件
 
 * [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) 基于MDL论坛的KMS 服务端模拟环境“KMS Server Emulator”而制作的一款简洁高效的 KMS 激活工具。
+
+* [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition) CloudMoe Windows 10/11 激活工具包获得数字许可证，这是 GitHub 中最好的开源 Win 10/11 激活器。GitHub 上最棒的开源 Win10/Win11 数字权利（数字许可证）激活工具！
+
+* [Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon) 使用 Lua 实现功能惊人的强大 macOS 桌面自动化
+
+* [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 查找、筛选、预览、拾取。所有 lua，无时无刻不在。高度可扩展的列表模糊查找器。建立在核心的最新 neovim 强大功能之上。望远镜以模块化为中心，允许轻松定制。
+
+* [AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim) 美观且功能丰富的 neovim 配置，可扩展且易于使用，并带有一组很棒的插件
+
+* [scala/scala](https://github.com/scala/scala) Scala 2 编译器和标准库。
+
+* [lampepfl/dotty](https://github.com/lampepfl/dotty) Scala 3 编译器，也称为 Dotty。
+
+* [dortania/OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) 围绕 Acidanthera 的 OpenCorePkg 和 Lilu 展开，用于在受支持和不支持的 Mac 上运行和解锁 macOS 中的功能。
+
+* [doomemacs/doomemacs](https://github.com/doomemacs/doomemacs) GNU Emacs 的配置框架，专为 Emacs 破产老手量身定制，他们希望框架中的框架更少，包管理器有一点稳定性（和可重复性），以及手动配置的性能（或更好）。它可以成为您自己配置的基础，也可以成为 Emacs 爱好者了解更多关于我们最喜欢的操作系统的资源。
 
 # end
