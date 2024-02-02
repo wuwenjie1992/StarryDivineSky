@@ -2520,7 +2520,7 @@
 
 * [dsdanielpark/Bard-API](https://github.com/dsdanielpark/Bard-API) 通过 cookie 值返回 Google Bard (大语言模型) 响应的非官方 python 包。
 
-## 文本匹配 文本相似度
+## 文本匹配 文本检索 文本相似度
 
 * [princeton-nlp/SimCSE](https://github.com/princeton-nlp/SimCSE) SimCSE：句子嵌入的简单对比学习 。提供无监督或有监督的对比学习。是目前文本相似度更好的方法。
 
@@ -2533,6 +2533,8 @@
 * [shuxinyin/SimCSE-Pytorch](https://github.com/shuxinyin/SimCSE-Pytorch) 中文SimCSE+ESimCSE的无监督 + 有监督实现 
 
 * [wangyuxinwhy/uniem](https://github.com/wangyuxinwhy/uniem) 统一嵌入模型，目标是创建中文最好的通用文本嵌入模型。202306发布 [M3E models](https://huggingface.co/moka-ai/m3e-base) ，在中文文本分类和文本检索上均优于 openai text-embedding-ada-002。
+
+* [stanford-futuredata/ColBERT](https://github.com/stanford-futuredata/ColBERT) 一种快速准确的检索模型，可在数十毫秒内对大型文本集合进行基于 BERT 的可扩展搜索。基于上下文（contextualized）的后期交互的排序模型 Efficient and Effective Passage Search via Contextualized Late Interaction over BERT 兼顾匹配的效率和doc中的上下文信息。
 
 * [thunlp/OpenMatch](https://github.com/thunlp/OpenMatch) 总体架构包括两大部分：一是相关文档检索，即根据用户检索词，从大规模文档集合中返回最相关的Top-K(K通常为100或1000)文档。二是文档重排序，即将各神经网络模型和非神经网络模型的排序特征整合，对Top-K文档重排序，进一步提升排序效果。OpenMatch提供了融合外部知识图谱信息的知识增强模型，和筛选大规模数据的数据增强模型。
 
@@ -3025,9 +3027,7 @@
 
 * [czhang99/SynonymNet](https://github.com/czhang99/SynonymNet) 基于多个上下文双向匹配的同义实体发现
 
-PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅为1/300 tensorflow/models/tree/master/research/sequence_projection
-
-* [stanford-futuredata/ColBERT](https://github.com/stanford-futuredata/ColBERT) 基于上下文（contextualized）的后期交互的排序模型 Efficient and Effective Passage Search via Contextualized Late Interaction over BERT 兼顾匹配的效率和doc中的上下文信息
+* PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅为1/300 tensorflow/models/tree/master/research/sequence_projection
 
 * [salesforce/pytorch-qrnn](https://github.com/salesforce/pytorch-qrnn) 准循环神经网络Quasi-Recurrent Neural Network,基于使用实例可以比高度优化的 NVIDIA cuDNN LSTM 实现2到17倍快
 
@@ -4372,6 +4372,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [apereo/cas](https://github.com/apereo/cas) 面向所有地球人及其他地区的身份和单点登录。面向 Web 的企业多语言单点登录解决方案，旨在成为满足身份验证和授权需求的综合平台。CAS 是一种开放且有据可查的身份验证协议。该协议的主要实现是此处托管的同名开源 Java 服务器组件，支持大量其他身份验证协议和功能，例如 SAML2、OpenID Connect 等。
 
 * [pallets/jinja](https://github.com/pallets/jinja) 一个非常快速和富有表现力的模板引擎。模板中的特殊占位符允许编写类似于 Python 语法的代码。然后，将模板传递数据以呈现最终文档。
+
+* [temporalio/temporal](https://github.com/temporalio/temporal) 一个持久的执行平台，使开发人员能够在不牺牲生产力或可靠性的情况下构建可扩展的应用程序。临时服务器以弹性方式执行称为工作流的应用程序逻辑单元，该逻辑单元可自动处理间歇性故障，并重试失败的操作。
 
 ## 网络与前后端开发_其他
 
@@ -6568,7 +6570,9 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 ## 语音合成
 
-* [GitHub - myshell-ai/OpenVoice: Instant voice cloning by MyShell.](https://github.com/myshell-ai/OpenVoice) MyShell的即时语音克隆。OpenVoice 的优势有三个方面：1.准确的色调颜色克隆。OpenVoice可以准确克隆参考音色，生成多种语言和口音的语音。2.灵活的语音风格控制。OpenVoice 支持对语音风格（如情感和口音）以及其他风格参数（包括节奏、停顿和语调）进行精细控制。3.零样本跨语言语音克隆。生成的语音的语言和参考语音的语言都不需要在大规模说话人多语言训练数据集中呈现。
+* [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) MyShell的即时语音克隆。OpenVoice 的优势有三个方面：1.准确的色调颜色克隆。OpenVoice可以准确克隆参考音色，生成多种语言和口音的语音。2.灵活的语音风格控制。OpenVoice 支持对语音风格（如情感和口音）以及其他风格参数（包括节奏、停顿和语调）进行精细控制。3.零样本跨语言语音克隆。生成的语音的语言和参考语音的语言都不需要在大规模说话人多语言训练数据集中呈现。
+
+* [w-okada/voice-changer](https://github.com/w-okada/voice-changer) 实时语音转换器。客户端软件，使用各种语音转换AI（VC，语音转换）执行实时音频转换。 支持的语音转语音 AI 包括：MMVC、so-vits-svc 、RVC(Retrieval-based-Voice-Conversion 基于检索的语音转换)、DDSP-SVC、Beatrice JVS Corpus Edition
 
 * [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
 
@@ -7592,6 +7596,10 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [TurboWay/bigdata_analyse](https://github.com/TurboWay/bigdata_analyse) 大数据分析项目，包括1 亿条淘宝用户行为分析 、1000 万条淘宝用户行为 、300 万条《野蛮时代》的玩家 、130 万条深圳通刷卡、10 万条厦门招聘、7000 条租房、6000 条倒闭企业、COVID-19 疫情、7 万条天猫订单数据
 
+* [juicedata/juicefs](https://github.com/juicedata/juicefs) Apache License 2.0 下发布的高性能 POSIX 文件系统，专为云原生环境设计。通过 JuiceFS 存储的数据会持久化在对象存储（例如 Amazon S3）中，相应的元数据可以根据场景和需求持久化到 Redis、MySQL、TiKV 等各种兼容的数据库引擎中。JuiceFS，海量云存储可以直接连接到大数据、机器学习、人工智能以及生产环境中的各种应用平台。无需修改代码，海量云存储可以像本地存储一样高效使用。
+
+* [trinodb/trino](https://github.com/trinodb/trino) Trino 的官方存储库，用于大数据的分布式 SQL 查询引擎，以前称为 PrestoSQL。Trino 是一个用于大数据分析的快速分布式 SQL 查询引擎。
+
 * [avinassh/fast-sqlite3-inserts](https://github.com/avinassh/fast-sqlite3-inserts) 1分钟插入10亿行数据,写脚本请使用Rust
 
 * [baidu/BaikalDB](https://github.com/baidu/BaikalDB) 分布式HTAP数据库 支持PB级结构数据的顺序和随机实时读取/写入。 B与MySQL协议兼容，并且支持MySQL样式SQL方言，通过该方言，用户可以将其数据存储从MySQL无缝迁移到BaikalDB。
@@ -7870,6 +7878,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 
 * [harelba/q](https://github.com/harelba/q) 直接在分隔文件和多文件 sqlite 数据库上运行 SQL。允许以下操作：直接对表格文本数据执行类似 SQL 语句，自动缓存数据以加速对同一文件的其他查询。直接在多文件 sqlite3 数据库上执行 SQL，而无需合并它们或将它们加载到内存中。
 
+* [theanalyst/awesome-distributed-systems](https://github.com/theanalyst/awesome-distributed-systems) 关于分布式系统上令人敬畏的材料的精选列表
+
 # 云&虚拟化
 
 * [istio/istio](https://github.com/istio/istio) 开源服务网格，透明地分层到现有的分布式应用程序上。Istio 的强大功能提供了一种统一且更高效的方式来保护、连接和监控服务。Istio 是负载均衡、服务到服务身份验证和监控的途径，只需很少或无需更改服务代码。
@@ -7985,6 +7995,8 @@ PRADO 用于文档分类的投影注意网络 性能媲美BERT，但参数量仅
 * [firebase/functions-samples](https://github.com/firebase/functions-samples) 示例应用集合，展示了使用 Cloud Functions for Firebase 的热门用例。Cloud Functions 是一个托管、私有且可扩展的 Node.js 环境，可在其中运行 JS 或 Py 代码。Cloud Functions for Firebase 集成了 Firebase 平台，让您能够编写代码来响应事件并调用其他 Firebase 功能公开的功能。
 
 * [google/go-cloud](https://github.com/google/go-cloud) Go 云开发工具包 （Go CDK） 允许 Go 应用程序开发人员在云提供商的任意组合上无缝部署云应用程序。它通过为存储和数据库等常见用途提供稳定、惯用的接口来实现这一点。
+
+* [dotnet/orleans](https://github.com/dotnet/orleans) 跨平台框架，用于构建可靠、可扩展的分布式应用程序。以 .NET 的开发人员生产力为基础，并将其引入分布式应用程序（如云服务）的世界。Orleans 从单个本地服务器扩展到云中全球分布的高可用性应用程序。
 
 # 安全与渗透
 
