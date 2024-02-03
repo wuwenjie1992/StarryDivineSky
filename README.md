@@ -825,6 +825,8 @@
 
 * [google-deepmind/sonnet](https://github.com/google-deepmind/sonnet) 基于 TensorFlow 2 构建的库，旨在为机器学习研究提供简单、可组合的抽象。
 
+* [Hvass-Labs/TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials) 带有 YouTube 视频的 TensorFlow 教程
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -3423,6 +3425,14 @@
 
 * [statelyai/xstate](https://github.com/statelyai/xstate) 现代 Web 的状态机和状态图。状态图是用于对有状态、反应性系统进行建模的形式。这对于以声明方式描述应用程序的行为（从各个组件到整个应用程序逻辑）非常有用。
 
+* [TanStack/query](https://github.com/TanStack/query) 强大的异步状态管理、服务器状态实用程序和 Web 数据获取。TS/JS、React 查询、Solid 查询、Svelte 查询和 Vue 查询。
+
+* [preactjs/preact](https://github.com/preactjs/preact) 具有相同现代 API 的快速 3kB React 替代品。组件和虚拟 DOM。虚拟 DOM 组件的所有功能，无开销；熟悉的 React API 和模式：ES6 类、钩子和功能组件；通过简单的 preact/compat 别名实现广泛的 React 兼容性；您需要的一切：JSX、VDOM、DevTools、HMR、SSR；高度优化的差异算法和来自服务器端渲染的无缝水化；支持所有现代浏览器和 IE11；使用可插拔调度程序进行透明异步渲染。
+
+* [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) 很棒的 React Native 组件、新闻、工具和学习材料！
+
+* [react-boilerplate/react-boilerplate](https://github.com/react-boilerplate/react-boilerplate) 在几秒钟内开始你的下一个 react 项目，高度可扩展、离线优先的基础，具有最佳的开发人员体验，并专注于性能和最佳实践。
+
 * [cypress-io/cypress](https://github.com/cypress-io/cypress) 快速、简单、可靠地在浏览器中运行的任何测试内容。轻松地为现代 Web 应用程序创建测试，直观地调试，并在持续集成构建中自动运行它们。
 
 * [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
@@ -3599,6 +3609,16 @@
 - [getgrav/grav](https://github.com/getgrav/grav) 由 PHP、Markdown、Twig 和 Symfony 提供支持的现代、极快、极其简单且功能强大的平面文件 CMS
 
 - [octobercms/october](https://github.com/octobercms/october) 基于 Laravel PHP 框架的自托管 CMS (Content Management System) 平台。
+
+- [tinacms/tinacms](https://github.com/tinacms/tinacms) 一个完全开源的无头CMS，支持Markdown和可视化编辑
+
+- [decaporg/decap-cms](https://github.com/decaporg/decap-cms) 用于静态站点生成器的 CMS。为用户提供一种简单的方法来编辑内容并将其添加到使用静态网站生成器构建的任何网站。
+
+- [keystonejs/keystone-classic](https://github.com/keystonejs/keystone-classic) Node.js CMS 和 Web 应用程序框架
+
+- [django-cms/django-cms](https://github.com/django-cms/django-cms) 由 Django 支持的易于使用且对开发人员友好的企业 CMS
+
+- [keystonejs/keystone](https://github.com/keystonejs/keystone) 最强大的无头 CMS Node.js — 使用 GraphQL 和 React 构建
 * [midoks/mdserver-web](https://github.com/midoks/mdserver-web) 一款简单Linux面板服务
 
 * [janishar/nodejs-backend-architecture-typescript](https://github.com/janishar/nodejs-backend-architecture-typescript) Node.js的学习为生产就绪的博客平台（如Medium和FreeCodeCamp）构建后端服务器。主要功能：基于角色，Express.js，Mongoose，Redis，Mongodb，Joi，Docker，JWT，单元集成测试。
@@ -4069,6 +4089,50 @@
 
 * [Justson/AgentWeb](https://github.com/Justson/AgentWeb) 基于 Android WebView 的强大库。极度容易使用以及功能强大的库，提供了 Android WebView 一系列的问题解决方案 ，并且轻量和极度灵活。轻量级而且功能强大的 Web 库 , 大小只有 200K 。功能：进度条以及自定义进度条、文件下载、文件下载断点续传、下载通知形式提示进度、简化 Javascript 通信、支持 Android 4.4 Kitkat 以及其他版本文件上传、注入 Cookies、加强 Web 安全、支持全屏播放视频、兼容低版本 Js 安全通信、更省电 、支持调起微信支付、支持调起支付宝、默认支持定位、支持传入 WebLayout（下拉回弹效果）、支持自定义 WebView、支持 JsBridge
 
+* [cookpete/react-player](https://github.com/cookpete/react-player) 用于播放各种 URL 的 React 组件，包括文件路径、YouTube、Facebook、Twitch、SoundCloud、Streamable、Vimeo、Wistia 和 DailyMotion
+
+* [gnab/remark](https://github.com/gnab/remark) 一个简单的、浏览器内的、Markdown 驱动的幻灯片工具。
+
+* [remarkjs/react-markdown](https://github.com/remarkjs/react-markdown) React 组件来渲染 markdown。
+
+* [ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet) markdown版表情符号备忘单
+
+* [vnotex/vnote](https://github.com/vnotex/vnote) 一个令人愉快的笔记平台。基于 Qt 的免费开源笔记应用程序，现在专注于 Markdown。VNote旨在提供一个令人愉快的笔记平台，具有出色的编辑体验。
+
+* [usememos/memos](https://github.com/usememos/memos) 开源的、轻量级的笔记服务。轻松捕捉和分享您的伟大想法。
+
+* [jxnblk/mdx-deck](https://github.com/jxnblk/mdx-deck) 基于React MDX的演示文稿，在Markdown中编写演示文稿，导入和使用React组件，可自定义的主题和组件，零配置 CLI，演示者模式，演讲者笔记。
+
+* [minimaxir/big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) 顽皮字符串大列表是一个字符串列表，这些字符串在用作用户输入数据时很有可能引起问题。
+
+* [pmndrs/jotai](https://github.com/pmndrs/jotai) React 的原始和灵活的状态管理
+
+* [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) 一个完整的解决方案，用于打包和构建一个开箱即用的“自动更新”支持的 Electron 应用程序
+
+* [mozilla/pdf.js](https://github.com/mozilla/pdf.js) 使用 HTML5 构建的可移植文档格式 （PDF） 查看器。PDF.js由社区驱动，并得到Mozilla的支持。我们的目标是创建一个通用的、基于 Web 标准的平台，用于解析和渲染 PDF。
+
+* [nativefier/nativefier](https://github.com/nativefier/nativefier) 命令行工具，可以轻松地为任何网站创建“桌面应用程序”，而无需大惊小怪。应用程序由 Electron（后台使用 Chromium）包装在可在 Windows、macOS 和 Linux 上使用的操作系统可执行文件（ `.app` 、 `.exe` 等）中。
+
+* [bailicangdu/vue2-elm](https://github.com/bailicangdu/vue2-elm) 基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用
+
+* [pmndrs/react-spring](https://github.com/pmndrs/react-spring) 一个跨平台的 Spring-Physics First 动画库。
+
+* [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) 用于 Three.js 的 React 渲染器，使用可重用的、独立的组件以声明方式构建场景，这些组件对状态做出反应，易于交互，并且可以参与 React 的生态系统。
+
+* [redux-saga/redux-saga](https://github.com/redux-saga/redux-saga) 一个库，旨在使应用程序的副作用（即异步的事情，如数据获取和不纯粹的事情，如访问浏览器缓存）更易于管理，更高效地执行，更易于测试，并且更好地处理故障。
+
+* [marmelab/react-admin](https://github.com/marmelab/react-admin) 一个前端框架，用于使用 TypeScript、React 和 Material Design 构建在 REST/GraphQL API 上运行的数据驱动应用程序
+
+* [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) 一组完全无样式、完全可访问的 UI 组件，旨在与 Tailwind CSS 完美集成。
+
+* [reduxjs/react-redux](https://github.com/reduxjs/react-redux) Redux 的官方 React 绑定。高性能和灵活性。Redux 是 JavaScript 应用程序的可预测状态容器。
+
+* [alan2207/bulletproof-react](https://github.com/alan2207/bulletproof-react) 简单、可扩展且功能强大的架构，用于构建生产就绪的 React 应用程序。
+
+* [react-dnd/react-dnd](https://github.com/react-dnd/react-dnd) React 实用程序，可帮助您构建复杂的拖放界面，同时保持组件解耦。它非常适合 Trello 和 Storify 等应用程序，在这些应用程序中，拖动在应用程序的不同部分之间传输数据，组件会根据拖放事件更改其外观和应用程序状态。
+
+* [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) 独一无二的简历生成器，牢记您的隐私。完全安全、可定制、便携、开源且永久免费。今天就试试吧！
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4085,6 +4149,8 @@
 
 * [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
 
+* [wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll) 循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Batch、Spring Cloud、Spring Cloud Alibaba、Spring Security & Spring Security OAuth2，博客Spring系列源码：https://mrbird.cc
+
 * [withastro/astro](https://github.com/withastro/astro) 现代web网站构建工具 — 强大的开发人员经验，轻量级输出。
 
 * [Tencent/mars](https://github.com/Tencent/mars) 微信开发的跨平台网络组件。跨平台，如果您正在开发多平台或多业务应用程序，则易于部署。适用于小容量数据传输。移动平台友好，低功耗和流量消耗。适合移动应用的网络解决方案。
@@ -4094,6 +4160,8 @@
 * [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) 集数据库、用户管理、UI和API等工具的后端开发框架。
 
 * [oatpp/oatpp](https://github.com/oatpp/oatpp) 轻巧而强大的 C++ Web 框架，用于高度可扩展和资源高效的 Web 应用程序。它是零依赖且易于携带的。
+
+* [labstack/echo](https://github.com/labstack/echo) 高性能、可扩展、极简的 Go Web 框架。功能：优化的HTTP路由器，智能确定路由优先级、构建强大可扩展的 RESTful API、组 API、可扩展中间件框架、在根组或路由级别定义中间件、JSON\XML 和表单有效负载的数据绑定、方便的函数，可发送各种HTTP响应、集中式 HTTP 错误处理、使用任何模板引擎进行模板渲染、定义记录器的格式、高度可定制、通过 Let's Encrypt 自动 TLS、HTTP/2 支持
 
 * [codegangsta/gin](https://github.com/codegangsta/gin) Go Web 服务器的实时重新加载实用程序
 
@@ -4374,6 +4442,10 @@
 * [pallets/jinja](https://github.com/pallets/jinja) 一个非常快速和富有表现力的模板引擎。模板中的特殊占位符允许编写类似于 Python 语法的代码。然后，将模板传递数据以呈现最终文档。
 
 * [temporalio/temporal](https://github.com/temporalio/temporal) 一个持久的执行平台，使开发人员能够在不牺牲生产力或可靠性的情况下构建可扩展的应用程序。临时服务器以弹性方式执行称为工作流的应用程序逻辑单元，该逻辑单元可自动处理间歇性故障，并重试失败的操作。
+
+* [gorilla/mux](https://github.com/gorilla/mux) 强大的 HTTP 路由器和 URL 匹配器，用于构建 Go Web 服务器
+
+* [seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis) Spring源码阅读
 
 ## 网络与前后端开发_其他
 
@@ -4793,6 +4865,8 @@
 
 * [iredmail/iRedMail](https://github.com/iredmail/iRedMail) 适用于Linux/BSD 发行版的全功能开源邮件服务器解决方案。
 
+* [Foundry376/Mailspring](https://github.com/Foundry376/Mailspring) 适用于 Mac、Windows 和 Linux 的美观、快速且完全开源的邮件客户端。
+
 * [navidrome/navidrome](https://github.com/navidrome/navidrome) 现代音乐服务器和流媒体与亚音速/Airsonic 兼容
 
 * [processone/ejabberd](https://github.com/processone/ejabberd) 强大、无处不在且可大规模扩展的消息传递平台（XMPP、MQTT、SIP 服务器）
@@ -4935,6 +5009,30 @@
 
 * [mayswind/AriaNg](https://github.com/mayswind/AriaNg) 一个现代的 Web 前端，使 aria2 更易于使用。
 
+* [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) Kotlin 多平台音乐下载器，支持 Spotify / Gaana / Youtube Music / Jio Saavn / SoundCloud。
+
+* [ajayyy/SponsorBlock](https://github.com/ajayyy/SponsorBlock) 跳过 YouTube 视频赞助商（浏览器扩展程序）
+
+* [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) 适用于 Android 的 YouTube 的替代前端。
+
+* [daltoniam/Starscream](https://github.com/daltoniam/Starscream) 适用于 iOS 和 OSX 的 swift 中的 Websockets
+
+* [cloudflare/quiche](https://github.com/cloudflare/quiche) IETF 指定的 QUIC 传输协议和 HTTP/3 的实现。它提供了一个低级 API，用于处理 QUIC 数据包和处理连接状态。该应用程序负责提供 I/O（例如套接字处理）以及支持计时器的事件循环。
+
+* [cloudflare/cfssl](https://github.com/cloudflare/cfssl) Cloudflare 的 PKI 和 TLS 工具包。既是命令行工具，又是用于签名、验证和捆绑 TLS 证书的 HTTP API 服务器。
+
+* [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) 包含 Cloudflare Tunnel 的命令行客户端，这是一个隧道守护程序，用于代理从 Cloudflare 网络到源的流量。此守护程序位于 Cloudflare 网络和您的源（例如 Web 服务器）之间。Cloudflare 吸引客户端请求并通过此守护程序将其发送给您，而无需您在防火墙上戳洞，---您的源可以尽可能保持关闭状态。
+
+* [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) 用C++ / Qt编程的bittorrent客户端，它使用Arvid Norberg的libtorrent（有时称为libtorrent-rasterbar）。它旨在成为所有其他 bittorrent 客户端的良好替代品。qBittorrent 快速、稳定，并提供 unicode 支持以及许多功能。
+
+* [c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) qBittorrent 增强，基于 qBittorrent。特征：Auto Ban 迅雷、QQ、百度、Xfplay、DLBT和离线下载器；自动禁止来自中国的未知对等方选项（默认：关闭）；自动更新公共跟踪器列表（默认：关闭）;自动禁止 BitTorrent 媒体播放器对等选项（默认：关闭）；对等白名单/黑名单
+
+* [ZLMediaKit/ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit) 基于 C++11 的 WebRTC/RTSP/RTMP/HTTP/HLS/HTTP-FLV/WebSocket-FLV/HTTP-TS/HTTP-fMP4/WebSocket-TS/WebSocket-fMP4/GB28181/SRT 服务器和客户端框架
+
+* [go-chi/chi](https://github.com/go-chi/chi) 轻量级、惯用且可组合的路由器，用于构建 Go HTTP 服务
+
+* [go-resty/resty](https://github.com/go-resty/resty) Go 的简单 HTTP 和 REST 客户端库
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -4972,6 +5070,8 @@
 * [ccxt/ccxt](https://github.com/ccxt/ccxt) JavaScript / TypeScript / Python / C# / PHP加密货币交易API，支持100多个比特币/山寨币交易所
 
 * [diem/diem](https://github.com/diem/diem) Diem的使命是建立一个值得信赖和创新的金融网络，为世界各地的人们和企业提供支持。Diem Core 实现了一个去中心化、可编程的分布式账本，它提供了一个可以为数十亿人赋能的金融基础设施。
+
+* [HelloZeroNet/ZeroNet](https://github.com/HelloZeroNet/ZeroNet) 使用比特币加密货币和 BitTorrent 网络的去中心化网站
 
 * [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) 用 Python 编写的免费开源加密交易机器人。它旨在支持所有主要交易所，并通过Telegram或webUI进行控制。它包含回测、绘图和资金管理工具，以及通过机器学习进行策略优化。
 
@@ -5530,6 +5630,8 @@
 
 * [PaddlePaddle/PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) 易于使用的图像分割库，具有出色的预训练模型库，支持语义分割、交互式分割、全景分割、图像叠加、3D 分割等广泛的实际任务。
 
+* [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation) 令人敬畏的语义分割
+
 * [open-mmlab/mmsegmentation](https://github.com/open-mmlab/mmsegmentation) OpenMMLab语义分割工具箱和基准测试。
 
 * [PaddlePaddle/PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection) 基于 PaddlePaddle 的目标检测工具包。它支持目标检测、实例分割、多目标跟踪和实时多人关键点检测。
@@ -5648,6 +5750,8 @@
 
 * [taichi-dev/taichi](https://github.com/taichi-dev/taichi) 高效且可移植的 Python 高性能编程。该语言具有广泛的应用，包括实时物理模拟、数字计算、增强现实、人工智能、视觉和机器人技术、电影和游戏中的视觉效果、通用计算等等。
 
+* [blender/blender](https://github.com/blender/blender) Blender的官方镜像，免费的开源 3D 创作套件。它支持整个 3D 管线建模、绑定、动画、模拟、渲染、合成、运动跟踪和视频编辑。
+
 * [open-mmlab/mmcv](https://github.com/open-mmlab/mmcv) MMCV 是计算机视觉研究的基础库，它提供以下功能：通用 IO API、图像/视频处理、图像和注释可视化、有用的实用程序（进度条，计时器，...）、具有挂钩机制的 PyTorch runner、各种CNN架构、CPU 和 CUDA 操作的高质量实现。
 
 * [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) 最先进、功能最全、最可靠的开源自动驾驶软件。自 2010 年以来，它一直由专业工程师、计算机科学家和社区贡献者组成的多元化团队开发。我们的自动驾驶软件能够控制几乎任何可以想象的车辆系统，从传统飞机、四架飞机、多旋翼和直升机到漫游车、船只、平衡机器人，甚至潜艇。它正在不断扩展，为新的车辆类型提供支持。
@@ -5681,6 +5785,8 @@
 * [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) 旨在成为一个有用的创意工具，让您可以灵活地创建以自己绘制的角色为主角的动画。
 
 * [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) 为任何人制作动画：用于角色动画的一致且可控的图像到视频合成
+
+* [magic-research/magic-animate](https://github.com/magic-research/magic-animate) 使用扩散模型进行时间一致的人体图像动画，基于扩散的人体图像动画框架，旨在增强时间一致性，忠实地保留参考图像，并提高动画保真度。
 
 * [lucidrains/DALLE2-pytorch](https://github.com/lucidrains/DALLE2-pytorch) 在 Pytorch 中实现 DALL-E 2，OpenAI 更新的文本到图像合成神经网络
 
@@ -6083,6 +6189,14 @@
 * [microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes) 计算机视觉的最佳做法、代码示例和文档。应用包括人脸识别、图像理解、搜索、无人机、测绘、半自动和自动驾驶汽车。其中许多应用的关键部分是视觉识别任务，例如图像分类、对象检测和图像相似性。
 
 * [esimov/caire](https://github.com/esimov/caire) 基于 Seam Carving for Content-Aware Image Adjustment 的内容感知图像大小调整库。
+
+* [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl) 点云库 （PCL） 是一个独立的、大规模的、开放的项目，用于 2D/3D 图像和点云处理。已发布模块如下：filters 过滤器、features 特征、keypoints 关键点、registration注册、kdtree 、octree八叉树、segmentation 分割 、sample_consensus 、surface表面、recognition识别、io、visualization可视化
+
+* [timzhang642/3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning) 近年来，3D机器学习领域取得了巨大的进展，这是一个融合了计算机视觉、计算机图形学和机器学习的跨学科领域。这个 repo 源自我的学习笔记，将用作对新研究论文进行分类的地方。
+
+* [kjw0612/awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision) 用于计算机视觉的深度学习资源精选列表
+
+* [doitsujin/dxvk](https://github.com/doitsujin/dxvk) 基于 Vulkan 的 D3D9、D3D10 和 D3D11 for Linux / Wine 实现。适用于 Direct3D 9/10/11 的基于 Vulkan 的转换层，允许使用 Wine 在 Linux 上运行 3D 应用程序。
 
 # 因果推断
 
@@ -7564,6 +7678,8 @@
 
 * [pingcap/tidb](https://github.com/pingcap/tidb) 开源、云原生、分布式、MySQL 兼容数据库，用于弹性扩展和实时分析。开源分布式SQL数据库，支持混合事务和分析处理（HTAP）工作负载。它与 MySQL 兼容，并具有水平可扩展性、强一致性和高可用性。
 
+* [apache/doris](https://github.com/apache/doris) 简单易用、高性能、统一的分析数据库。基于 MPP 架构的简单易用、高性能、实时的分析数据库，以其极快的速度和易用性而闻名。在海量数据下，只需亚秒级响应时间即可返回查询结果，不仅可以支持高并发的点查询场景，还可以支持高吞吐量的复杂分析场景。
+
 * [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) 一个更新和有组织的阅读列表，用于说明可扩展、可靠和高性能的大型系统的模式。概念在著名工程师的文章和可靠的参考文献中进行了解释。案例研究取自为数百万至数十亿用户提供服务的经过实战考验的系统。
 
 * [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes) 大数据入门指南
@@ -7891,6 +8007,8 @@
 * [KubeOperator/KubeOperator](https://github.com/KubeOperator/KubeOperator) KubeOperator
 
 * [rancher/k3s](https://github.com/rancher/k3s) Lightweight Kubernetes. 5 less than k8s. [k3s.io](https://k3s.io)
+
+* [kubernetes/minikube](https://github.com/kubernetes/minikube) 在 macOS、Linux 和 Windows 上实现了本地 Kubernetes 集群。minikube 的主要目标是成为本地 Kubernetes 应用程序开发的最佳工具，并支持所有适合的 Kubernetes 功能。
 
 * [docker-slim/docker-slim](https://github.com/docker-slim/docker-slim) 请勿更改Docker容器映像中的任何内容并将其最小化30倍
 
@@ -9817,6 +9935,8 @@
 
 * [fatih/vim-go](https://github.com/fatih/vim-go) 该插件增加了对 Vim 的 Go 语言支持
 
+* [sirupsen/logrus](https://github.com/sirupsen/logrus) 用于 Go 的结构化、可插拔日志记录。
+
 ## 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -10817,5 +10937,15 @@
 * [dortania/OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) 围绕 Acidanthera 的 OpenCorePkg 和 Lilu 展开，用于在受支持和不支持的 Mac 上运行和解锁 macOS 中的功能。
 
 * [doomemacs/doomemacs](https://github.com/doomemacs/doomemacs) GNU Emacs 的配置框架，专为 Emacs 破产老手量身定制，他们希望框架中的框架更少，包管理器有一点稳定性（和可重复性），以及手动配置的性能（或更好）。它可以成为您自己配置的基础，也可以成为 Emacs 爱好者了解更多关于我们最喜欢的操作系统的资源。
+
+* [rxhanson/Rectangle](https://github.com/rxhanson/Rectangle) macOS 上使用键盘快捷键和贴靠区域移动窗口和调整窗口大小
+
+* [NVIDIA/open-gpu-kernel-modules](https://github.com/NVIDIA/open-gpu-kernel-modules) NVIDIA Linux 开放 GPU 内核模块源
+
+* [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) 中国独立开发者项目表，分享大家都在做什么
+
+* [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) git 的飞行规则，Git 程序员指南
+
+* [gulpjs/gulp](https://github.com/gulpjs/gulp) 一个工具包，可帮助您在开发工作流程中自动执行痛苦或耗时的任务。与平台无关 - 集成内置于所有主要 IDE 中，人们正在将 gulp 与 PHP、.NET、Node.js、Java 和其他平台一起使用。强大的生态系统 - 使用 npm 模块做任何你想做的事情 + 超过 3000 个精选插件用于流式文件转换.
 
 # end
