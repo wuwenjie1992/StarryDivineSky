@@ -3415,6 +3415,10 @@
 
 * [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站,LowCode平台.
 
+* [h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate) 一个专业的前端模板，用于构建快速、强大且适应性强的 Web 应用程序或网站。帮助您构建快速、可靠且适应性强的 Web 应用或网站。利用 100 多名开发人员的综合知识和努力启动您的项目，所有这些都在一个小包中。
+
+* [haizlin/fe-interview](https://github.com/haizlin/fe-interview) 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML / CSS/ JavaScript/ Vue/ React/ Nodejs/ TypeScript/ ECMAScritpt/Webpack/Jquery/小程序/软技能
+
 * [qianguyihao/Web](https://github.com/qianguyihao/Web) 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。
 
 * [h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) 有用的前端相关问题列表，你可以用它来面试潜在的候选人，测试自己或完全忽略。
@@ -4132,6 +4136,32 @@
 * [react-dnd/react-dnd](https://github.com/react-dnd/react-dnd) React 实用程序，可帮助您构建复杂的拖放界面，同时保持组件解耦。它非常适合 Trello 和 Storify 等应用程序，在这些应用程序中，拖动在应用程序的不同部分之间传输数据，组件会根据拖放事件更改其外观和应用程序状态。
 
 * [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) 独一无二的简历生成器，牢记您的隐私。完全安全、可定制、便携、开源且永久免费。今天就试试吧！
+
+* [nfl/react-helmet](https://github.com/nfl/react-helmet) 可重用的 React 组件将管理你对文档头的所有更改。
+
+* [redwoodjs/redwood](https://github.com/redwoodjs/redwood) 一个固执己见的全栈 JavaScript/TypeScript Web 应用程序框架，旨在让您在应用程序从副项目到启动的过程中快速前进。
+
+* [segment-boneyard/nightmare](https://github.com/segment-boneyard/nightmare) 高级浏览器自动化库。目标是公开一些模仿用户操作的简单方法（如 goto 和 type click ），其 API 对每个脚本块都感觉同步，而不是深度嵌套的回调。它最初设计用于跨没有 API 的站点自动执行任务，但最常用于 UI 测试和爬网。在幕后，它使用 Electron，它类似于 PhantomJS，但速度大约是 PhantomJS 的两倍，而且更现代。
+
+* [ariya/phantomjs](https://github.com/ariya/phantomjs) 可编写脚本的无头浏览器
+
+* [wulkano/Kap](https://github.com/wulkano/Kap) 使用 Web 技术构建的开源屏幕录像机
+
+* [sql-js/sql.js](https://github.com/sql-js/sql.js) 用于在 Web 上运行 SQLite 的 javascript 库。
+
+* [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) 30 天 React 挑战是在 30 天内学习 React 的分步指南。这些[视频](https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw)也可能有所帮助
+
+* [pubkey/rxdb](https://github.com/pubkey/rxdb) 一个快速的、本地的、反应式的、用于 JavaScript 应用程序的数据库
+
+* [pure-css/pure](https://github.com/pure-css/pure) 一组小型响应式 CSS 模块，可在每个 Web 项目中使用。
+
+* [material-components/material-components-web](https://github.com/material-components/material-components-web) 适用于 Web 的模块化和可自定义的 Material Design UI 组件
+
+* [material-components/material-web](https://github.com/material-components/material-web) UI 工具包，用于构建可自定义且可访问的 Web 应用程序。
+
+* [tabler/tabler-icons](https://github.com/tabler/tabler-icons) 超过4900个免费MIT许可的高质量SVG图标，供Web项目使用。
+
+* [Tencent/omi](https://github.com/Tencent/omi) Omi - Web 组件框架，通过无功信号进行信号驱动的无功编程；100+ OMI模板和OMI模板源代码；OMI表单和OMI表单游乐场和Lucide Omi图标；OMIU预览正在进行中&OMIU源代码；体积小，性能快；您需要的一切：Web 组件、JSX、函数组件、路由器、悬念、指令、Tailwindcss......；支持面向对象编程（OOP）和面向数据编程（DOP）；利用可构建的样式表轻松管理和共享样式
 
 ## 后端开发框架及项目
 
@@ -5033,6 +5063,8 @@
 
 * [go-resty/resty](https://github.com/go-resty/resty) Go 的简单 HTTP 和 REST 客户端库
 
+* [radishes-music/radishes](https://github.com/radishes-music/radishes) 跨平台的无版权的音乐平台
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5532,9 +5564,11 @@
 
 * [microsoft/Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life) 旧照片修复
 
-* [Sanster/lama-cleaner](https://github.com/Sanster/lama-cleaner) 由 SOTA AI 模型提供支持的图像修复工具。 从你的照片中删除任何不需要的物体、缺陷、人物或擦除和替换（由稳定扩散驱动）你照片上的任何东西。
+* [Sanster/lama-cleaner](https://github.com/Sanster/lama-cleaner) 由 SOTA AI 模型提供支持的图像修复工具。 从照片中删除任何不需要的物体、缺陷、人或擦除和替换（由稳定扩散驱动）你照片上的任何东西。
 
 * [TaoWangzj/Awesome-Face-Restoration](https://github.com/TaoWangzj/Awesome-Face-Restoration) 深层面部修复资源的完整列表 去噪、超分辨率、去模糊和去除伪影
+
+* [upscayl/upscayl](https://github.com/upscayl/upscayl) 可让您使用先进的 AI 算法放大和增强低分辨率图像。在不损失质量的情况下放大图像。
 
 * [xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 旨在开发通用图像恢复的实用算法。
 
@@ -10947,5 +10981,9 @@
 * [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) git 的飞行规则，Git 程序员指南
 
 * [gulpjs/gulp](https://github.com/gulpjs/gulp) 一个工具包，可帮助您在开发工作流程中自动执行痛苦或耗时的任务。与平台无关 - 集成内置于所有主要 IDE 中，人们正在将 gulp 与 PHP、.NET、Node.js、Java 和其他平台一起使用。强大的生态系统 - 使用 npm 模块做任何你想做的事情 + 超过 3000 个精选插件用于流式文件转换.
+
+* [InterviewMap/CS-Interview-Knowledge-Map](https://github.com/InterviewMap/CS-Interview-Knowledge-Map) 建立最佳面试地图。目前的内容包括JS、网络、浏览器相关、性能优化、安全性、框架、Git、数据结构、算法等。
+
+* [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) 一种文档驱动的项目管理工具，可最大限度地提高远程 DevOps 团队的速度。
 
 # end
