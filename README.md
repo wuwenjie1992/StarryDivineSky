@@ -4163,6 +4163,8 @@
 
 * [Tencent/omi](https://github.com/Tencent/omi) Omi - Web 组件框架，通过无功信号进行信号驱动的无功编程；100+ OMI模板和OMI模板源代码；OMI表单和OMI表单游乐场和Lucide Omi图标；OMIU预览正在进行中&OMIU源代码；体积小，性能快；您需要的一切：Web 组件、JSX、函数组件、路由器、悬念、指令、Tailwindcss......；支持面向对象编程（OOP）和面向数据编程（DOP）；利用可构建的样式表轻松管理和共享样式
 
+* [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) 现代化、开源的 Linux 服务器运维管理面板。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -7736,6 +7738,8 @@
 
 * [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) 开源极速列式数据库系统，允许实时生成数据分析报告。
 
+* [mongodb/mongo](https://github.com/mongodb/mongo) 文档数据库，旨在简化应用程序开发和扩展。借助基于领先的现代数据库构建的应用程序数据平台，更快地将您的想法推向市场。支持事务性、搜索、分析和移动使用案例，同时采用通用查询接口和开发人员喜爱的数据模型。
+
 * [canonical/dqlite](https://github.com/canonical/dqlite) 可嵌入、复制和故障耐受性 SQL 引擎。
 
 * [apache/iceberg](https://github.com/apache/iceberg) 新兴的数据湖框架之一，开创性的抽象出”表格式“（table format）这一中间层，既独立于上层的计算引擎（如Spark和Flink）和查询引擎（如Hive和Presto），也和下层的文件格式（如Parquet，ORC和Avro）相互解耦。同时，还提供了许多额外的能力：ACID事务；时间旅行（time travel），以访问之前版本的数据；完备的自定义类型、分区方式和操作的抽象；列和分区方式可以进化，而且进化对用户无感，即无需重新组织或变更数据文件；隐式分区，使SQL不用针对分区方式特殊优化；面向云存储的优化
@@ -7749,6 +7753,8 @@
 * [juicedata/juicefs](https://github.com/juicedata/juicefs) Apache License 2.0 下发布的高性能 POSIX 文件系统，专为云原生环境设计。通过 JuiceFS 存储的数据会持久化在对象存储（例如 Amazon S3）中，相应的元数据可以根据场景和需求持久化到 Redis、MySQL、TiKV 等各种兼容的数据库引擎中。JuiceFS，海量云存储可以直接连接到大数据、机器学习、人工智能以及生产环境中的各种应用平台。无需修改代码，海量云存储可以像本地存储一样高效使用。
 
 * [trinodb/trino](https://github.com/trinodb/trino) Trino 的官方存储库，用于大数据的分布式 SQL 查询引擎，以前称为 PrestoSQL。Trino 是一个用于大数据分析的快速分布式 SQL 查询引擎。
+
+* [facebook/rocksdb](https://github.com/facebook/rocksdb) 提供可嵌入的持久键值存储，以实现快速存储。由 Facebook 数据库工程团队开发和维护。它建立在 Sanjay Ghemawat （sanjay@google.com） 和 Jeff Dean （jeff@google.com） 在 LevelDB 上的早期工作之上。它构成了快速键值服务器的核心构建块，特别适用于在闪存驱动器上存储数据。它采用对数结构合并数据库 （LSM） 设计，可在写入放大因子 （WAF）、读取放大因子 （RAF） 和空间放大因子 （SAF） 之间灵活权衡。它具有多线程压缩功能，特别适合在单个数据库中存储数 TB 的数据。
 
 * [avinassh/fast-sqlite3-inserts](https://github.com/avinassh/fast-sqlite3-inserts) 1分钟插入10亿行数据,写脚本请使用Rust
 
@@ -7842,6 +7848,54 @@
 
 * [etcd-io/etcd](https://github.com/etcd-io/etcd) 分布式可靠的键值存储，用于存储分布式系统中最关键的数据，重点是：简单：定义明确、面向用户的 API （gRPC），安全：具有可选客户端证书身份验证的自动 TLS，快速：以 10,000 次写入/秒为基准，可靠：使用 Raft 正确分发。etcd 是用 Go 语言编写的，它使用 Raft 共识算法来管理一个高度可用的复制日志。
 
+* [typicode/lowdb](https://github.com/typicode/lowdb) 简单易用的类型安全本地 JSON 数据库
+
+* [pouchdb/pouchdb](https://github.com/pouchdb/pouchdb) 开源的 JavaScript 数据库，其灵感来自 Apache CouchDB，旨在在浏览器中运行良好。
+
+* [dolthub/dolt](https://github.com/dolthub/dolt) 一个 SQL 数据库，您可以像 Git 存储库一样对其进行分叉、克隆、分支、合并、推送和拉取。连接到 Dolt 就像连接到任何 MySQL 数据库以读取或修改架构和数据一样。版本控制功能通过系统表、函数和过程在 SQL 中公开。
+
+* [realm/realm-swift](https://github.com/realm/realm-swift) 一个移动数据库，直接运行在手机、平板电脑或可穿戴设备中。这个仓库保存了 iOS、macOS、tvOS 和 watchOS 版本的 Realm Swift 和 Realm Objective-C 的源代码。
+
+* [realm/realm-java](https://github.com/realm/realm-java) 移动数据库：SQLite 和 ORM 的替代品，java版
+
+* [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) 适用于 MySQL、Postgres、SQLite、SQL Server 等的现代且易于使用的 SQL 客户端。Linux、MacOS 和 Windows。
+
+* [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) golang写的数据库/sql 包的 MySQL 驱动程序
+
+* [arangodb/arangodb](https://github.com/arangodb/arangodb) 原生多模型数据库，具有用于文档、图形和键值的灵活数据模型。使用方便的类似 SQL 的查询语言或 JavaScript 扩展构建高性能应用程序。
+
+* [golang-migrate/migrate](https://github.com/golang-migrate/migrate) 用 Go 编写的数据库迁移。用作 CLI 或作为库导入。Migrate 从源读取迁移，并按正确的顺序将其应用于数据库。驱动程序是“愚蠢的”，迁移将所有内容粘合在一起，并确保逻辑是无懈可击的。数据库驱动程序不会假设某些事情或尝试更正用户输入。
+
+* [dotnet/efcore](https://github.com/dotnet/efcore) .NET 的新式对象数据库映射器。它支持 LINQ 查询、更改跟踪、更新和架构迁移。EF Core 通过提供程序插件 API 与 SQL Server、Azure SQL 数据库、SQLite、Azure Cosmos DB、MySQL、PostgreSQL 和其他数据库配合使用。
+
+* [dgraph-io/badger](https://github.com/dgraph-io/badger) 可嵌入的、持久的、快速的键值 （KV） 数据库，用纯 Go 编写。它是 Dgraph 的基础数据库，Dgraph 是一个快速的分布式图形数据库。它旨在成为非基于 Go 的键值存储（如 RocksDB）的高性能替代方案。
+
+* [rqlite/rqlite](https://github.com/rqlite/rqlite) 关系数据库，它结合了 SQLite 的简单性和健壮、容错的分布式系统的强大功能。它专为易于部署和轻量级操作而设计，为 Linux、macOS 和 Win 以及各种 CPU 平台提供开发人员友好且以操作员为中心的解决方案。
+
+* [edgedb/edgedb](https://github.com/edgedb/edgedb) 具有声明性架构、内置迁移系统和下一代查询语言的图关系数据库
+
+* [scylladb/scylladb](https://github.com/scylladb/scylladb) NoSQL数据存储使用seastar框架，与Apache Cassandra兼容
+
+* [cstack/db_tutorial](https://github.com/cstack/db_tutorial) 用 C 从头开始编写 sqlite 克隆
+
+* [coleifer/peewee](https://github.com/coleifer/peewee) 小型的、富有表现力的 ORM -- 支持 PostgreSQL、MySQL、SQLite 和 CockroachDB，ORM是对象关系映射，用于把面向对象的概念和数据库中的表的概念对应起来，方便编程和操作。
+
+* [pingcap/awesome-database-learning](https://github.com/pingcap/awesome-database-learning) 了解数据库内部结构的学习材料清单
+
+* [orbitdb/orbitdb](https://github.com/orbitdb/orbitdb) 去中心化网络的点对点数据库
+
+* [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) 用于流处理、分析和管理的可扩展 Postgres。KsqlDB 和 Apache Flink 替代方案。生产率提高 10 倍。成本效益提高 10 倍。
+
+* [bigchaindb/bigchaindb](https://github.com/bigchaindb/bigchaindb) 区块链数据库。它具有一些数据库特征和一些区块链属性，包括去中心化、不变性和对资产的原生支持。
+
+* [oceanbase/miniob](https://github.com/oceanbase/miniob) 紧凑的数据库，可帮助开发人员了解数据库的基本工作原理。
+
+* [Wisser/Jailer](https://github.com/Wisser/Jailer) 数据库子集和关系数据浏览工具。Subsetter 从数据库中创建小切片（一致且引用完整），作为 SQL（拓扑排序）、DbUnit 记录或 XML。非常适合创建测试数据的小样本或使用相关生产数据进行本地问题分析。通过数据浏览器，您可以按照表之间的关系（基于外键或用户定义）浏览数据库。
+
+* [mirage/irmin](https://github.com/mirage/irmin) 分布式数据库，遵循与 Git 相同的设计原则。OCaml 库，用于构建可合并、可分支的分布式数据存储。
+
+* [georgia-tech-db/evadb](https://github.com/georgia-tech-db/evadb) 使软件开发人员能够通过几行代码构建 AI 应用程序。其强大的 SQL API 简化了结构化和非结构化数据的 AI 应用程序开发。EvaDB的优势包括：轻松将 EvaDB 查询引擎与您的数据源（如 PostgreSQL 或 S3 存储桶）连接，并使用 SQL 查询构建 AI 驱动的应用程序。使用 Hugging Face、OpenAI、YOLO、Stable Diffusion 等预训练的 AI 模型查询您的连接数据。创建或微调用于回归、分类和时间序列预测的 AI 模型。得益于以 AI 为中心的查询优化，例如缓存、批处理和并行处理，因此可以更快地进行 AI 查询。
+
 ## 数据搜索引擎
 
 * [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -7918,7 +7972,7 @@
 
 * [milvus-io/bootcamp](https://github.com/milvus-io/bootcamp) 处理所有非结构化数据，如反向图像搜索、音频搜索、分子搜索、视频分析、问答系统、NLP 等。使用神经网络从非结构化数据中提取特征向量，例如图像、音频和视频等。然后通过计算特征向量来分析非结构化数据，例如计算向量的欧几里得或余弦距离以获得相似性。
 
-* [apache/zeppelin](https://github.com/apache/zeppelin) 基于 Web 的笔记本，支持数据驱动的交互式数据分析以及使用 SQL、Scala 等的协作文档。
+* [zilliztech/VectorDBBench](https://github.com/zilliztech/VectorDBBench) 不仅仅是主流矢量数据库和云服务的基准测试结果，还是您进行终极性能和成本效益比较的首选工具。VectorDBBench 在设计时考虑到了易用性，旨在帮助用户（甚至是非专业人士）重现结果或测试新系统，从而在众多云服务和开源矢量数据库中寻找最佳选择变得轻而易举。
 
 ## 其他__大数据
 
@@ -8029,6 +8083,8 @@
 * [harelba/q](https://github.com/harelba/q) 直接在分隔文件和多文件 sqlite 数据库上运行 SQL。允许以下操作：直接对表格文本数据执行类似 SQL 语句，自动缓存数据以加速对同一文件的其他查询。直接在多文件 sqlite3 数据库上执行 SQL，而无需合并它们或将它们加载到内存中。
 
 * [theanalyst/awesome-distributed-systems](https://github.com/theanalyst/awesome-distributed-systems) 关于分布式系统上令人敬畏的材料的精选列表
+
+* [apache/zeppelin](https://github.com/apache/zeppelin) 基于 Web 的笔记本，支持数据驱动的交互式数据分析以及使用 SQL、Scala 等的协作文档。
 
 # 云&虚拟化
 
