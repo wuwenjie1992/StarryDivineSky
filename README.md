@@ -827,6 +827,10 @@
 
 * [Hvass-Labs/TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials) 带有 YouTube 视频的 TensorFlow 教程
 
+* [aamini/introtodeeplearning](https://github.com/aamini/introtodeeplearning) 麻省理工学院 6.S191 实验室资料：深度学习简介
+
+* [dusty-nv/jetson-inference](https://github.com/dusty-nv/jetson-inference) Hello AI World 指南，介绍如何使用 TensorRT 和 NVIDIA Jetson 部署深度学习推理网络和深度视觉基元。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1157,6 +1161,10 @@
 * [baichuan-inc/Baichuan2](https://github.com/baichuan-inc/Baichuan2) 百川智能推出的新一代开源大语言模型，采用 2.6 万亿 Tokens 的高质量语料训练。在多个权威的中文、英文和多语言的通用、领域 benchmark 上取得同尺寸最佳的效果。本次发布包含有 7B、13B 的 Base 和 Chat 版本，并提供了 Chat 版本的 4bits 量化。所有版本对学术研究完全开放。同时，开发者通过邮件申请并获得官方商用许可后，即可免费商用。
 
 * [baichuan-inc/Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B) 由百川智能继 Baichuan-7B 之后开发的包含 130 亿参数的开源可商用的大规模语言模型，在权威的中文和英文 benchmark 上均取得同尺寸最好的效果。本次发布包含有预训练 (Baichuan-13B-Base) 和对齐 (Baichuan-13B-Chat) 两个版本。Baichuan-13B 有如下几个特点：更大尺寸、更多数据：Baichuan-13B 在 Baichuan-7B 的基础上进一步扩大参数量到 130 亿，并且在高质量的语料上训练了 1.4 万亿 tokens，超过 LLaMA-13B 40%，是当前开源 13B 尺寸下训练数据量最多的模型。支持中英双语，使用 ALiBi 位置编码，上下文窗口长度为 4096。同时开源预训练和对齐模型：预训练模型是适用开发者的『 基座 』，而广大普通用户对有对话功能的对齐模型具有更强的需求。因此本次开源我们同时发布了对齐模型（Baichuan-13B-Chat），具有很强的对话能力，开箱即用，几行代码即可简单的部署。更高效的推理：为了支持更广大用户的使用，我们本次同时开源了 int8 和 int4 的量化版本，相对非量化版本在几乎没有效果损失的情况下大大降低了部署的机器资源门槛，可以部署在如 Nvidia 3090 这样的消费级显卡上。开源免费可商用：Baichuan-13B 不仅对学术研究完全开放，开发者也仅需邮件申请并获得官方商用许可后，即可以免费商用。
+
+* [mlabonne/llm-course](https://github.com/mlabonne/llm-course) 使用路线图和 Colab 笔记本来学习大型语言模型 （LLMs） 的课程。该LLM课程分为三个部分：LLM 基础知识涵盖有关数学、Python 和神经网络的基本知识。科学家LLM专注于LLMs使用最新技术构建最佳产品。LLM 工程师专注于创建LLM基于应用程序并部署它们。
+
+* [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) 从头开始逐步实现类似ChatGPT的 LLM 
 
 * [imoneoi/openchat](https://github.com/imoneoi/openchat) 使用不完善的数据推进开源语言模型。OpenChat是一系列基于监督微调（SFT）的开源语言模型。我们利用 ~80k ShareGPT 对话与条件反射策略和加权损失，尽管我们的方法很简单，但仍实现了卓越的表现。我们的最终愿景是开发一个高性能、开源和商用的大型语言模型，并且我们正在不断取得进展。
 
@@ -2186,9 +2194,13 @@
 
 * [AtomEcho/AtomGPT](https://github.com/AtomEcho/AtomGPT) 基于LLaMA的模型架构，从0开始训练，希望能在训练的过程中，将模型能力得到提升的进化过程展示出来，感受到模型学习的过程。
 
-* [FMInference/FlexGen](https://github.com/FMInference/FlexGen) 单个 GPU 上运行大型语言模型，以实现面向吞吐量的方案。
+* [FMInference/FlexGen](https://github.com/FMInference/FlexGen) 单个GPU上运行大型语言模型，实现面向吞吐量的加速方案。
+
+* [BuilderIO/gpt-crawler](https://github.com/BuilderIO/gpt-crawler) 抓取网站以生成知识文件，以从 URL 创建自己的自定义 GPT
 
 * [bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) 在家运行LLM，BitTorrent风格。微调和推理速度比卸载快10 倍。Petals协作运行像Llama和BLOOM这样的大型语言模型 - 你加载模型的一小部分，然后加入为其他部分提供服务的人来运行推理或微调。
+
+* [janhq/jan](https://github.com/janhq/jan) ChatGPT 的开源替代品，可在您的计算机上 100% 离线运行。
 
 * [Anthropic/hh-rlhf](https://huggingface.co/datasets/Anthropic/hh-rlhf) Human preference data about helpfulness and harmlessness，有用性和无害性的人类偏好数据，关于有用和无害的人类偏好数据，来自从人类反馈中强化学习训练有用和无害的助手。这些数据旨在为后续的RLHF训练训练偏好（或奖励）模型。这些数据不适用于对话代理的监督训练。就这些数据对对话代理进行培训可能会导致有害的模型，应避免这种情况。来自红队语言模型的人工生成和注释的红队对话，以减少危害：方法、缩放行为和经验教训。这些数据旨在了解众包工人红队模型以及哪些类型的红队攻击成功与否。这些数据不用于微调或偏好建模（使用上面的数据进行偏好建模）。这些数据是从上述无害偏好建模数据派生的对话的完整记录，其中只有选择的响应被合并到整个脚本中。此外，成绩单还带有人工和自动测量的注释，以衡量整体对话的危害程度。
 
@@ -2439,6 +2451,20 @@
 * [web-arena-x/webarena](https://github.com/web-arena-x/webarena) 一个独立的、自托管的 Web 环境，用于构建LLM自治代理
 
 * [learn-anything/learn-anything.xyz](https://github.com/learn-anything/learn-anything.xyz) 组织世界知识，探索联系并策划学习路径。Learn Anything 的最终目标是成为跟踪您所知道的内容的最佳场所和工具。你有什么想法。你接下来要学习什么。你还不知道的。以及根据您已经知道的知识，如何以最佳方式学习它。LA 的部分目标是达到 AGI 并以完全开放的方式进行。目前，这一旅程的起点是提供最先进的能力来索引一个人的任何知识，并为它提供具有不同隐私控制的聊天机器人界面。
+
+* [dikw/hh_rlhf_cn](https://huggingface.co/datasets/dikw/hh_rlhf_cn) hh-rlhf中文翻译版本。基于Anthropic论文Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback 开源的helpful 和harmless数据，使用翻译工具进行了翻译。hh_rlhf_train 合并中英文训练集数据清洗过后17万条，hh_rlhf_test 合并中英文测试集数据 清洗过后9千条，harmless_base_cn_train 42394条，harmless_base_cn_test 2304条，helpful_base_cn_train 43722条，helpful_base_cn_test. 2346条。
+
+* [beyond/rlhf-reward-single-round-trans_chinese](https://huggingface.co/datasets/beyond/rlhf-reward-single-round-trans_chinese) 英文 reward 数据集的翻译版本，用于训练一个奖励模型。类似的英文 reward 数据集:[yitingxie/rlhf-reward-datasets](https://huggingface.co/datasets/yitingxie/rlhf-reward-datasets)  [beyond/rlhf-reward-single-round](https://huggingface.co/datasets/beyond/rlhf-reward-single-round) 
+
+* [opendilab/awesome-RLHF](https://github.com/opendilab/awesome-RLHF) 带有人类反馈资源的强化学习的精选列表（持续更新）
+
+* [PKU-Alignment/safe-rlhf](https://github.com/PKU-Alignment/safe-rlhf) 由北京大学 PKU-Alignment 团队开发的高度模块化开源 RLHF 框架。它旨在为比对研究提供训练数据和可重复的代码管道，特别是通过安全 RLHF 方法进行的约束比对LLM研究。特点是：支持SFT、RLHF和Safe RLHF训练，适用于流行的预训练模型：LLaMA、OPT、百川等。提供大型人工标记数据集（最多 1M 对），包括有用和无害的偏好，以支持可重复的 RLHF 研究。支持奖励模型和成本模型的训练，并提供预先训练的检查点。支持 SFT 和 RLHF 的自定义参数和数据集。为安全约束验证提供多尺度指标，例如 BIG-bench、GPT-4 评估。
+
+* [tatsu-lab/alpaca_eval](https://github.com/tatsu-lab/alpaca_eval) 对指令遵循模型（例如 ChatGPT）的评估通常需要人工交互。这既费时又昂贵，而且难以复制。AlpacaEval 在LLM基于自动评估中，快速、廉价、可复制，并针对 20K 人工注释进行验证。它对模型开发特别有用。尽管我们改进了以前的自动评估管道，但仍然存在一些基本限制，例如偏爱更长的输出。
+
+* [aaamoon/copilot-gpt4-service](https://github.com/aaamoon/copilot-gpt4-service) 将 Github Copilot 转换为 ChatGPT
+
+* [Lightning-AI/lit-gpt](https://github.com/Lightning-AI/lit-gpt) 基于 nanoGPT 的最先进的开源LLMs的可破解实现。支持闪光注意力、4 位和 8 位量化、LoRA 和 LLaMA 适配器微调、预训练。Apache 2.0 许可。
 
 ### 其他_文本生成、文本对话
 
@@ -4165,6 +4191,14 @@
 
 * [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) 现代化、开源的 Linux 服务器运维管理面板。
 
+* [wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table) 扩展表，用于与一些最广泛使用的 CSS 框架集成。（支持 Bootstrap、Semantic UI、Bulma、Material Design、Foundation Vue.js）
+
+* [jlmakes/scrollreveal](https://github.com/jlmakes/scrollreveal) 在元素滚动到视图中时对其进行动画处理。
+
+* [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) 轻量级、高性能、可扩展的 WebAssembly 运行时，适用于云原生、边缘和去中心化应用程序。它为无服务器应用程序、嵌入式函数、微服务、智能合约和物联网设备提供支持。
+
+* [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) 本地托管的 Web 应用，允许您对 PDF 文件执行各种操作
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4478,6 +4512,10 @@
 * [gorilla/mux](https://github.com/gorilla/mux) 强大的 HTTP 路由器和 URL 匹配器，用于构建 Go Web 服务器
 
 * [seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis) Spring源码阅读
+
+* [helmetjs/helmet](https://github.com/helmetjs/helmet) 使用各种 HTTP 标头帮助保护 Express 应用
+
+* [Ne0nd0g/merlin](https://github.com/Ne0nd0g/merlin) 跨平台的后开发HTTP/2命令和控制服务器和代理，用 go 编写。
 
 ## 网络与前后端开发_其他
 
@@ -5066,6 +5104,8 @@
 * [go-resty/resty](https://github.com/go-resty/resty) Go 的简单 HTTP 和 REST 客户端库
 
 * [radishes-music/radishes](https://github.com/radishes-music/radishes) 跨平台的无版权的音乐平台
+
+* [BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter) 微信聊天记录导出备份程序
 
 ## 区块链、智能合约
 
@@ -5664,6 +5704,8 @@
 
 * [facebookresearch/detr](https://github.com/facebookresearch/detr) 使用Transformer进行端到端目标检测。适用于 DETR （DEtection TRansformer） 的 PyTorch 训练代码和预训练模型。我们用 Transformer 替换了整个复杂的手工目标检测管道，并将 Faster R-CNN 与 ResNet-50 匹配，使用一半的计算能力 （FLOP） 和相同数量的参数在 COCO 上获得 42 个 AP。在 50 行 PyTorch 中进行推理。
 
+* [PeterL1n/BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2) 论文 Real-Time High-Resolution Background Matting 的官方存储库。我们的模型需要捕获额外的背景图像，并在 Nvidia RTX 2080 TI GPU 上以 4K 30fps 和 HD 60fps 的速度产生最先进的抠图效果。
+
 * [PaddlePaddle/PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) 易于使用的图像分割库，具有出色的预训练模型库，支持语义分割、交互式分割、全景分割、图像叠加、3D 分割等广泛的实际任务。
 
 * [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation) 令人敬畏的语义分割
@@ -5756,6 +5798,8 @@
 
 * [roboflow/supervision](https://github.com/roboflow/supervision) 为您编写可重复使用的计算机视觉工具。无论您是需要从硬盘加载数据集、在图像或视频上绘制检测，还是计算区域中的检测数量。
 
+* [lucasjinreal/yolov7_d2](https://github.com/lucasjinreal/yolov7_d2) 早期的 YOLOv7 不是官方的，YOLO 具有 Transformer 和实例分割功能，具有 TensorRT 加速功能
+
 ## 图像风格
 
 * [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
@@ -5840,9 +5884,11 @@
 
 * [Nutlope/roomGPT](https://github.com/Nutlope/roomGPT) 上传您的房间照片，使用 AI 生成您的梦想房间。使用称为ControlNet的ML模型来生成房间的变化。此应用程序使您能够上传任何房间的照片，该照片将使用 Next.js API 路由通过此 ML 模型发送照片，并返回生成的房间。
 
+* [princeton-vl/infinigen](https://github.com/princeton-vl/infinigen) 使用程序生成的无限逼真世界
+
 * [jbilcke-hf/ai-comic-factory](https://github.com/jbilcke-hf/ai-comic-factory) 使用 LLM + SDXL 生成漫画面板。
 
-* [https://github.com/SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui) 使用 tldraw 和 gpt-4-vision api 根据您绘制的线框生成 html 的应用程序。
+* [SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui) 使用 tldraw 和 gpt-4-vision api 根据您绘制的线框生成 html 的应用程序。
 
 * [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) 拖动 GAN：基于点操作的交互式图像流形生成
 
@@ -5976,7 +6022,7 @@
 
 * [phecy/SSL-FEW-SHOT](https://github.com/phecy/SSL-FEW-SHOT) 小样本图像分类的自监督学习
 
-* [yangle15/RANet-pytorch](https://github.com/yangle15/RANet-pytorch) 提出的分辨率自适应网络 (RANet) 通过利用spatial redundancy输入图像的分辨率来进行自适应推理。我们的动机是低分辨率表示足以对包含具有原型特征的大对象的简单样本进行分类，只有一些困难样本需要空间详细信息。
+* [yangle15/RANet-pytorch](https://github.com/yangle15/RANet-pytorch) 提出的分辨率自适应网络 (RANet) 通过利用spatial redundancy输入图像的分辨率来进行自适应推理。动机是低分辨率表示足以对包含具有原型特征的大对象的简单样本进行分类，只有一些困难样本需要空间详细信息。
 
 * [microsoft/NUWA](https://github.com/microsoft/NUWA) 一个统一的多模态预训练模型，可以为8个视觉合成任务(文本转图像、模板转图像、图像补全、图像操纵、文本转视频、模板转视频、视频帧预测、视频操纵) 生成新的或操纵现有的视觉数据（即图像和视频）。待开放源码。
 
@@ -5984,7 +6030,7 @@
 
 * [yuxie11/R2D2](https://github.com/yuxie11/R2D2) 大规模中文跨模式基准和视觉语言框架
 
-* [google-research-datasets/conceptual-captions](https://github.com/google-research-datasets/conceptual-captions) 包含（图像URL、字幕）对的数据集，用于机器学习图像字幕系统的训练和评估。数据集有约330万张图像(CC3M)和1200万张图像(CC12M)两个版本，并通过一个简单的过滤程序从网络自动收集弱相关描述。 
+* [google-research-datasets/conceptual-captions](https://github.com/google-research-datasets/conceptual-captions) 包含（图像URL、字幕）对的数据集，用于机器学习图像字幕系统的训练和评估。数据集有约330万张图像(CC3M)和1200万张图像(CC12M)两个版本，并通过过滤程序从网络自动收集弱相关描述。 
 
 * [ShannonAI/OpenViDial](https://github.com/ShannonAI/OpenViDial) 一个大规模多模态对话数据集.当人类交谈时，说话者接下来会说什么很大程度上取决于他所看到的。OpenViDial 是用于此目的的大型多模块对话数据集。这些对话回合和视觉上下文是从电影和电视剧中提取的，其中每个对话回合都与它发生的相应视觉上下文配对。对于OpenViDial 1.0，共包含 110 万个对话轮次，因此图像中存储了 110 万个视觉上下文。对于OpenViDial 2.0，包含 560 万个对话轮次以及 560 万个存储在图像中的视觉上下文。基于OpenViDial，同时提出了三个模型，以不同的粒度融合视觉信息，预测下一句的对话内容。
 
@@ -6006,7 +6052,7 @@
 
 * [thuiar/Self-MM](https://github.com/thuiar/Self-MM) 多模态情感分析的自监督多任务学习学习模态特定表示中的代码
 
-* [nuno-faria/tiler](https://github.com/nuno-faria/tiler) Tiler 是一种使用各种其他较小图像（图块）创建图像的工具。它不同于其他马赛克工具，因为它可以适应多种形状和大小的瓷砖（即不限于正方形）。图像可以由圆圈、线条、波浪、十字绣、乐高积木、我的世界积木、回形针、字母等组成…
+* [nuno-faria/tiler](https://github.com/nuno-faria/tiler) 使用各种其他较小图像（图块）创建图像的工具。它不同于其他马赛克工具，因为它可以适应多种形状和大小的瓷砖（即不限于正方形）。图像可以由圆圈、线条、波浪、十字绣、乐高积木、我的世界积木、回形针、字母等组成…
 
 * [leandromoreira/ffmpeg-libav-tutorial](https://github.com/leandromoreira/ffmpeg-libav-tutorial) FFmpeg libav 教程 - 了解媒体如何从基础到转换、转码等工作
 
@@ -6150,7 +6196,7 @@
 
 * [opendilab/InterFuser](https://github.com/opendilab/InterFuser) 使用可解释传感器融合Transformer实现安全增强型自动驾驶
 
-* [Kuaipedia/Kuaipedia](https://github.com/Kuaipedia/Kuaipedia) 全球首个大规模多模态短视频百科，以条目、方面、短视频为基本单位。由快首科技与哈工大、科大讯飞合作开发。亿级别多模态短视频百科体系。
+* [Kuaipedia/Kuaipedia](https://github.com/Kuaipedia/Kuaipedia) 全球首个大规模多模态短视频百科，以条目、方面、短视频为基本单位。亿级别多模态短视频百科体系。
 
 * [Moguri/awesome-panda3d](https://github.com/Moguri/awesome-panda3d) 使用Panda3D（py 3D库）的优秀资源的精选列表
 
@@ -6233,6 +6279,10 @@
 * [kjw0612/awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision) 用于计算机视觉的深度学习资源精选列表
 
 * [doitsujin/dxvk](https://github.com/doitsujin/dxvk) 基于 Vulkan 的 D3D9、D3D10 和 D3D11 for Linux / Wine 实现。适用于 Direct3D 9/10/11 的基于 Vulkan 的转换层，允许使用 Wine 在 Linux 上运行 3D 应用程序。
+
+* [EBazarov/nsfw_data_source_urls](https://github.com/EBazarov/nsfw_data_source_urls) 收集NSFW 图像 URL，用于训练NSFW图像分类器
+
+* [FujiwaraChoki/MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter) 使用 MoviePy 自动创建 YouTube Shorts。
 
 # 因果推断
 
@@ -6638,6 +6688,16 @@
 
 * [ApolloAuto/apollo](https://github.com/ApolloAuto/apollo) 高性能、灵活的架构，可加速自动驾驶汽车的开发测试和部署。
 
+* [autowarefoundation/autoware](https://github.com/autowarefoundation/autoware) 全球领先的自动驾驶开源软件项目
+
+* [vwxyzjn/cleanrl](https://github.com/vwxyzjn/cleanrl) 具有研究友好功能（PPO、DQN、C51、DDPG、TD3、SAC、PPG）的深度强化学习算法的高质量单文件实现
+
+* [wangshusen/DRL](https://github.com/wangshusen/DRL) 深度强化学习列表
+
+* [tensorlayer/TensorLayer](https://github.com/tensorlayer/TensorLayer) 面向科学家和工程师的深度学习和强化学习库，基于 TensorFlow 的新型深度学习和强化学习库，专为研究人员和工程师设计。它提供了大量可定制的神经层，以快速构建高级 AI 模型，基于此，社区开源了大量教程和应用程序。统一的深度学习和强化学习框架，适用于所有硬件、后端和操作系统。当前版本支持TensorFlow、Pytorch、MindSpore、PaddlePaddle、OneFlow和Jittor作为后端，允许用户在Nvidia-GPU、华为-昇腾等不同硬件上运行代码。
+
+* [yandexdataschool/Practical_RL](https://github.com/yandexdataschool/Practical_RL) 野外强化学习的公开课程。针对好奇者进行优化。对于所有未详细介绍的材料，都有指向更多信息和相关材料的链接（D.Silver/ Sutton/ blogs/whatever）。
+
 # 语音识别与合成
 
 * [espnet/espnet](https://github.com/espnet/espnet) End-to-End Speech Processing Toolkit 端到端的语音处理工具箱，主要特性：kaldi风格的处理模式、ASR、TTS、语音翻译、机器翻译、语音转换、DNN框架
@@ -6723,6 +6783,8 @@
 * [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) MyShell的即时语音克隆。OpenVoice 的优势有三个方面：1.准确的色调颜色克隆。OpenVoice可以准确克隆参考音色，生成多种语言和口音的语音。2.灵活的语音风格控制。OpenVoice 支持对语音风格（如情感和口音）以及其他风格参数（包括节奏、停顿和语调）进行精细控制。3.零样本跨语言语音克隆。生成的语音的语言和参考语音的语言都不需要在大规模说话人多语言训练数据集中呈现。
 
 * [w-okada/voice-changer](https://github.com/w-okada/voice-changer) 实时语音转换器。客户端软件，使用各种语音转换AI（VC，语音转换）执行实时音频转换。 支持的语音转语音 AI 包括：MMVC、so-vits-svc 、RVC(Retrieval-based-Voice-Conversion 基于检索的语音转换)、DDSP-SVC、Beatrice JVS Corpus Edition
+
+* [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 1分钟的语音数据也可以用来训练一个好的TTS模型。零样本 TTS：输入 5 秒的人声样本，体验即时文本到语音转换。Few-shot TTS：仅使用 1 分钟的训练数据对模型进行微调，以提高语音相似度和真实感。跨语言支持：使用与训练数据集不同的语言进行推理，目前支持英语、日语和中文。WebUI工具：集成工具包括语音伴奏分离、自动训练集分割、中文ASR和文本标注，协助初学者创建训练数据集和GPT/SoVITS模型。
 
 * [babysor/MockingBird](https://github.com/babysor/MockingBird) AI拟声: 5秒内克隆您的声音并生成任意语音内容。
 
@@ -8616,6 +8678,8 @@
 
 * [gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz) 从内存中提取明文密码、哈希、PIN 码和 kerberos 票证。还可以执行 pass-the-hash、pass-the-ticket 或构建*Golden Tickets*。
 
+* [hashcat/hashcat](https://github.com/hashcat/hashcat) 世界上速度最快、最先进的密码恢复实用程序，支持 300 多种高度优化的哈希算法的五种独特攻击模式。hashcat 目前支持 Linux、Win 和 macOS 上的 CPU、GPU 和其他硬件加速器，并具有帮助实现分布式密码破解的工具。
+
 * [JDArmy/SharpXDecrypt](https://github.com/JDArmy/SharpXDecrypt) Xshell全版本密码恢复工具
 
 * [L-codes/pwcrack-framework](https://github.com/L-codes/pwcrack-framework) 用Ruby编写的密码自动破解框架，目前提供了 22 个在线破解和 29 个离线破解接口，支持 52 种算法破解
@@ -9152,6 +9216,10 @@
 
 * [Tencent/secguide](https://github.com/Tencent/secguide) 面向开发人员梳理的代码安全指南，旨在梳理API层面的风险点并提供详实可行的安全编码方案。
 
+* [evilsocket/pwnagotchi](https://github.com/evilsocket/pwnagotchi) 基于 A2C 的“AI”，它利用 bettercap 从其周围的 WiFi 环境中学习，以最大限度地利用它捕获的可破解 WPA 密钥材料（被动或通过执行身份验证和关联攻击）。此材料以 PCAP 文件的形式收集，其中包含 hashcat 支持的任何形式的握手，包括 PMKID、全 WPA 握手和半 WPA 握手。
+
+* [carlospolop/hacktricks](https://github.com/carlospolop/hacktricks) 黑客技巧，找到我从 CTF、现实生活中的应用程序、阅读研究和新闻中学到的每个黑客技巧/技术/任何内容。
+
 # 硬件
 
 ## CPU RISC-V
@@ -9427,6 +9495,14 @@
 * [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) 阿波罗11号制导计算机（AGC）指令舱（Comanche055）和登月舱（Luminary099）的原始源代码。由虚拟AGC和麻省理工学院博物馆的人们数字化。目标是成为原始阿波罗 11 号源代码的存储库。
 
 * [peng-zhihui/Dummy-Robot](https://github.com/peng-zhihui/Dummy-Robot) 超迷你机械臂机器人项目。
+
+* [PX4/PX4-Autopilot](https://github.com/PX4/PX4-Autopilot) 用于无人机的 PX4 飞行控制解决方案，主要应用程序位于 src/modules 目录中。它还包含 PX4 无人机中间件平台，该平台提供运行无人机的驱动程序和中间件。PX4 具有高度的便携性，独立于操作系统，并支持开箱即用的 Linux、NuttX 和 MacOS。
+
+* [Ly0n/awesome-robotic-tooling](https://github.com/Ly0n/awesome-robotic-tooling) 用于 C++ 和 Python 专业机器人开发的工具，带有 ROS、自动驾驶和航空航天功能。
+
+* [cyberbotics/webots](https://github.com/cyberbotics/webots) 完整的开发环境，用于对机器人、车辆和机械系统进行建模、编程和仿真。
+
+* [awesome-robotic-tooling](https://github.com/Ly0n/awesome-robotic-tooling) 用于 C++ 和 Python 专业机器人开发的工具，带有 ROS、自动驾驶和航空航天的触感。
 
 # 其他项目
 
@@ -10244,6 +10320,8 @@
 
 * [benweet/stackedit](https://github.com/benweet/stackedit) 基于 PageDown 的全功能开源 Markdown 编辑器，Stack Overflow 和其他 Stack Exchange 站点使用的 Markdown 库。
 
+* [purocean/yn](https://github.com/purocean/yn) 高度可扩展的 Markdown 编辑器。版本控制、AI Copilot、思维导图、文档加密、代码片段运行、集成终端、图表嵌入、HTML小程序、Reveal.js、插件和宏替换。
+
 * [nhn/tui.editor](https://github.com/nhn/tui.editor) Markdown 所见即所得编辑器。 GFM 标准 + 图表和 UML 可扩展。
 
 * [SpaceVim/SpaceVim](https://github.com/SpaceVim/SpaceVim) 社区驱动的模块化 vim/neovim 发行版
@@ -11041,5 +11119,7 @@
 * [InterviewMap/CS-Interview-Knowledge-Map](https://github.com/InterviewMap/CS-Interview-Knowledge-Map) 建立最佳面试地图。目前的内容包括JS、网络、浏览器相关、性能优化、安全性、框架、Git、数据结构、算法等。
 
 * [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) 一种文档驱动的项目管理工具，可最大限度地提高远程 DevOps 团队的速度。
+
+* [Sitoi/dailycheckin](https://github.com/Sitoi/dailycheckin) 基于Docker/青龙面板/群晖的每日签到脚本（支持多账号使用）签到列表: ｜爱奇艺｜全民K歌｜有道云笔记｜百度贴吧｜Bilibili｜V2EX｜AcFun｜什么值得买｜阿里云盘｜i茅台申购｜小米运动｜百度搜索资源平台｜恩山论坛｜奥拉星
 
 # end
