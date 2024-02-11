@@ -831,6 +831,10 @@
 
 * [dusty-nv/jetson-inference](https://github.com/dusty-nv/jetson-inference) Hello AI World 指南，介绍如何使用 TensorRT 和 NVIDIA Jetson 部署深度学习推理网络和深度视觉基元。
 
+* [unifyai/ivy](https://github.com/unifyai/ivy) Ivy 是一个开源机器学习框架，使您能够：自动调整模型：使用 ivy. autotune 自动查找适合您特定用例的最佳框架、编译器基础结构和硬件。将代码转换为任何框架：通过使用 ivy.transpile 将任何代码从一个框架转换为另一个框架，在任何模型、库或设备的基础上使用和构建。编写与框架无关的代码：在 ivy 中编写一次代码，然后选择最合适的 ML 框架作为后端，以利用所有优势和工具。
+
+* [tencentmusic/cube-studio](https://github.com/tencentmusic/cube-studio) 开源云原生一站式机器学习/深度学习AI平台，支持sso登录，多租户/多项目组，数据资产对接，notebook在线开发，拖拉拽任务流pipeline编排，多机多卡分布式算法训练，超参搜索，推理服务VGPU，多集群调度，边缘计算，serverless，标注平台，自动化标注，数据集管理，大模型一键微调，llmops，私有知识库，AI应用商店，支持模型一键开发/推理/微调，私有化部署，支持国产cpu/gpu/npu芯片，支持RDMA，支持pytorch/ tf/ mxnet/ deepspeed/ paddle/ colossalai/ horovod/ spark/ ray/ volcano分布式
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -910,6 +914,8 @@
 * [cmhungsteve/Awesome-Transformer-Attention](https://github.com/cmhungsteve/Awesome-Transformer-Attention) 包含视觉转换器和注意力机制（Vision Transformer&Attention）的综合论文列表，包括论文，代码和相关网站。
 
 * [FlagOpen/FlagAttention](https://github.com/FlagOpen/FlagAttention) 用 Triton 语言实现的内存高效注意力运算符的集合。它的灵感来自FlashAttention和FlashAttention v2，并扩展了它们以满足大型语言建模研究的需求。FlashAttention 和 FlashAttention-2 可以节省内存占用和流量以提高内存效率，但要修改它们并添加更多选项和功能需要熟练掌握 cuda 编程。因此，Flag Attention 是用 Triton 语言实现的，它更容易用于编写自定义 GPU 内核。
+
+* [microsoft/torchscale](https://github.com/microsoft/torchscale) PyTorch 库，允许研究人员和开发人员高效地扩展 Transformers。为基础模型和 A（G）I 开发新的架构，重点是建模通用性和能力，以及训练稳定性和效率。
 
 ## BERT优化
 
@@ -1156,7 +1162,9 @@
 
 * [THUDM/GLM-130B](https://github.com/THUDM/GLM-130B) GLM-130B是一个开放的双语（英汉）双向密集模型，具有1300亿个参数，使用通用语言模型（GLM）算法进行预训练。它旨在支持单个 A100 （40G * 8） 或 V100 （32G * 8） 上具有 130B 参数的推理任务。通过 INT4 量化，硬件可以进一步降低到具有 4 * RTX3090 24G 的单个服务器，几乎没有性能下降。
 
-* [QwenLM/Qwen-7B](https://github.com/QwenLM/Qwen-7B) 由阿里云提出的Qwen-7B（通义千问-7B）聊天和预训练大语言模型的官方存储库。使用高质量的预训练数据进行训练。我们已经在超过2.2万亿个代币的自建大规模高质量数据集上预训练了Qwen-7B。该数据集包括纯文本和代码，涵盖广泛的领域，包括一般领域数据和专业领域数据。更好地支持语言。我们的分词器基于超过 150K 个代币的大词汇表，与其他分词器相比更有效。它对多种语言都很友好，并且有助于用户进一步微调Qwen-7B以扩展对某种语言的理解。支持 8K 上下文长度。Qwen-7B和Qwen-7B-Chat都支持8K的上下文长度，这允许输入长上下文。支持插件。Qwen-7B-Chat 是用插件相关的对齐数据训练的，因此它能够使用工具，包括 API、模型、数据库等，并且能够作为代理进行游戏。
+* [QwenLM/Qwen](https://github.com/QwenLM/Qwen) 阿里云提出的 Qwen （通义千问） 聊天和预训练大型语言模型的官方存储库。开源了Qwen（通义千问）系列工作，当前开源模型的参数规模为18亿（1.8B）、70亿（7B）、140亿（14B）和720亿（72B）。当前基础模型已经稳定训练了大规模高质量且多样化的数据，覆盖多语言（当前以中文和英文为主），总量高达3万亿token。在相关基准评测中，Qwen系列模型拿出非常有竞争力的表现，显著超出同规模模型并紧追一系列最强的闭源模型。此外，我们利用SFT和RLHF技术实现对齐，从基座模型训练得到对话模型。Qwen-Chat具备聊天、文字创作、摘要、信息抽取、翻译等能力，同时还具备一定的代码生成和简单数学推理的能力。在此基础上，我们针对LLM对接外部系统等方面针对性地做了优化，当前具备较强的工具调用能力，以及最近备受关注的Code Interpreter的能力和扮演Agent的能力。
+
+* [QwenLM/Qwen1.5](https://github.com/QwenLM/Qwen1.5) Qwen1.5 是 Qwen 团队、阿里云开发的大型语言模型系列 Qwen 的改进版本。即 Qwen2 的 beta 版本。与 Qwen 类似，它仍然是一个仅解码器的变压器模型，具有 SwiGLU 激活、RoPE、多头注意力。目前，我们已经取得了以下成就：6种型号尺寸：0.5B、1.8B、4B、7B、14B、72B;聊天模型中的模型质量显著提高;加强了基础模型和聊天模型中的多语言功能;所有模型都支持令牌的 32768 上下文长度;所有型号都启用系统提示，这意味着可以进行角色扮演。
 
 * [baichuan-inc/Baichuan2](https://github.com/baichuan-inc/Baichuan2) 百川智能推出的新一代开源大语言模型，采用 2.6 万亿 Tokens 的高质量语料训练。在多个权威的中文、英文和多语言的通用、领域 benchmark 上取得同尺寸最佳的效果。本次发布包含有 7B、13B 的 Base 和 Chat 版本，并提供了 Chat 版本的 4bits 量化。所有版本对学术研究完全开放。同时，开发者通过邮件申请并获得官方商用许可后，即可免费商用。
 
@@ -1940,6 +1948,10 @@
 
 * [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) 一门 12 节课的课程，教授开始构建生成式 AI 应用程序所需的一切知识
 
+* [bleedline/Awesome-gptlike-shellsite](https://github.com/bleedline/Awesome-gptlike-shellsite) 深入探索精选的gpt套壳站和必备API资源。本文为初学者和经验丰富的运营者提供一站式指南，涵盖常见问题解答和基础攻略，助您迈向套壳站副业成功之路。便宜且高并发的api。
+
+* [nat/openplayground](https://github.com/nat/openplayground) 您可以在笔记本电脑上运行的LLM游乐场。特征：使用 OpenAI、Anthropic、Cohere、Forefront、HuggingFace、Aleph Alpha、Replicate、Banana 和 llama.cpp 中的任何模型。完整的 playground UI，包括历史记录、参数调优、键盘快捷键和 logprops。使用相同的提示并排比较模型，单独调整模型参数，然后使用不同的参数重试。自动检测 HuggingFace 缓存中的本地模型，并允许您安装新模型。在手机上工作正常。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2024,10 +2036,15 @@
 
 * [SkalskiP/awesome-chatgpt-code-interpreter-experiments](https://github.com/skalskip/awesome-chatgpt-code-interpreter-experiments) 你可以用 ChatGPT + Code Interpreter 组合做的很棒的事情
 
+* [huybery/Awesome-Code-LLM](https://github.com/huybery/Awesome-Code-LLM) 精心策划的最佳代码列表 -LLM 用于研究。
+
 #### 健康医学大模型及语料库
 
+* [FreedomIntelligence/HuatuoGPT-II](https://github.com/FreedomIntelligence/HuatuoGPT-II) 医学适应的一阶段训练LLMs.（一个开放的医疗GPT）。采用创新的领域适应方法，显著提升其医学知识和对话能力。它在多个医学基准测试中展示了最先进的性能，尤其是在专家评估和新的医疗执照考试中超过了 GPT-4。开源7B、13B、34B版本。HuatuoGPT2 数据：发布部分预训练和微调指令。中医LLM评价：综合自动评价方法，对医学反应能力LLM和新鲜专业药师考试考核进行评价。
 - [FreedomIntelligence/HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT) 华佗GPT，迈向驯服语言模型成为医生。在庞大的中国医学语料库上训练的大型语言模型（LLM）。我们与华拓GPT的目标是为医疗咨询场景构建更专业的“ChatGPT”。[demo](https://www.huatuogpt.cn/)
 * [SCIR-HI/Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) 本草（原名：华驼）模型仓库，基于中文医学知识的大语言模型指令微调
+
+* [microsoft/LLaVA-Med](https://github.com/microsoft/LLaVA-Med) 用于生物医学的大型语言和视觉助手，专为多模态 GPT-4 级功能而构建。
 
 * [FreedomIntelligence/HuatuoGPT-sft-data-v1](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT-sft-data-v1) 华驼大语言模型的微调数据集
 
@@ -2140,6 +2157,10 @@
 
 - [openmedlab/XrayPULSE](https://github.com/openmedlab/XrayPULSE) 基于 PULSE。我们利用MedCLIP作为我们的医疗视觉编码器，并利用Q-former（BLIP2）作为适配器，通过简单的线性变换将图像注入PULSE。为了通过适配器对齐冷冻视觉编码器和LLM，我们借助chatGPT从两个数据集（MIMIC-CXR和OpenI）的自由文本放射学报告中生成中文版Xray-Report配对数据。为了促进生物医学多模态学习的研究，我们将向公众发布数据。
 
+- [stanford-crfm/BioMedLM](https://github.com/stanford-crfm/BioMedLM) 用于预训练和微调 BioMedLM 生物医学模型的代码。
+
+- [kyegomez/Med-PaLM](https://github.com/kyegomez/Med-PaLM) 在医疗保健领域实现多模态的生成式 AI 的负责任之路：释放 Med-PaLM 2 的力量，彻底改变医学知识，回答复杂的问题，并通过准确、安全和公平的做法增强医疗保健体验。
+
 #### 法律大模型及语料库
 
 * [PKU-YuanGroup/ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) 中文法律大模型。目前开源的仅供学术参考的版本底座为姜子牙-13B、Anima-33B，我们使用大量法律新闻、法律论坛、法条、司法解释、法律咨询、法考题、判决文书等原始文本来构造对话数据。
@@ -2172,9 +2193,11 @@
 
 #### 其他大模型
 
-* [gmftbyGMFTBY/science-llm](https://github.com/gmftbyGMFTBY/science-llm) 科学领域的大规模语言模型，在redpajama arXiv上训练
+* [gmftbyGMFTBY/science-llm](https://github.com/gmftbyGMFTBY/science-llm) 科学领域的大语言模型，在redpajama arXiv上训练
 
 * [IMOSR/MediaGPT](https://github.com/IMOSR/MediaGPT) 中文的自媒体大语言模型MediaGPT(曾用名Media LLaMA)
+
+* [wenge-research/YAYI2](https://github.com/wenge-research/YAYI2) 科闻歌研发的新一代开源大语言模型，采用了超过 2 万亿 Tokens 的高质量、多语言语料进行预训练。包括 Base 和 Chat 版本，参数规模为 30B。YAYI2-30B 是基于 Transformer 的大语言模型，采用了超过 2 万亿 Tokens 的高质量、多语言语料进行预训练。针对通用和特定领域的应用场景，我们采用了百万级指令进行微调，同时借助人类反馈强化学习方法，以更好地使模型与人类价值观对齐。[YAYI2 预训练数据](https://huggingface.co/datasets/wenge-research/yayi2_pretrain_data) ，选了约100B数据，数据大小约为500GB。在预训练阶段，我们不仅使用了互联网数据来训练模型的语言能力，还添加了通用精选数据和领域数据，以增强模型的专业技能。通用精选数据包含人工收集和整理的高质量数据。涵盖了报纸类数据、文献类数据、APP类数据、代码类数据、书籍类数据、百科类数据。其中，报纸类数据包括广泛的新闻报道和专栏文章，这类数据通常结构化程度高，信息量丰富。文献类数据包括学术论文和研究报告，为我们的数据集注入了专业和深度。代码类数据包括各种编程语言的源码，有助于构建和优化技术类数据的处理模型。书籍类数据涵盖了小说、诗歌、古文、教材等内容，提供丰富的语境和词汇，增强语言模型的理解能力。构建了一套全方位提升数据质量的数据处理流水线，包括标准化、启发式清洗、多级去重、毒性过滤四个模块。我们共收集了 240TB 原始数据，预处理后仅剩 10.6TB 高质量数据。
 
 * [ymcui/Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2) 中文 LLaMA-2 & Alpaca-2 大模型二期项目 + 本地CPU/GPU训练部署 (Chinese LLaMA-2 & Alpaca-2 LLMs)
 
@@ -2223,6 +2246,8 @@
 * [SUFE-AIFLM-Lab/FinEval](https://github.com/SUFE-AIFLM-Lab/FinEval) 包含金融、经济、会计和证书等领域高质量多项选择题的集合。
 
 * [SALT-NLP/FLANG](https://github.com/SALT-NLP/FLANG) 金融领域的基准测试和大型预训练语言模型
+
+* [FudanDISC/DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM) 专门针对金融场景下为用户提供专业、智能、全面的金融咨询服务的金融领域大模型，由复旦大学数据智能与社会计算实验室 (Fudan-DISC) 开发并开源。开源如下资源：DISC-FinLLM-SFT 训练数据样例、DISC-FinLLM 模型参数、DISC-Fin-Eval Benchmark DISC-Fin-Eval 测试、DISC-FinLLM-SFT 完整训练数据
 
 * [blcuicall/taoli](https://github.com/blcuicall/taoli) 适用于国际中文教育领域的大模型 “桃李”（Taoli）1.0 ，在国际中文教育领域数据上进行了额外训练的模型。基于目前国际中文教育领域流通的500余册国际中文教育教材与教辅书、汉语水平考试试题以及汉语学习者词典等，构建了国际中文教育资源库。 设置了多种形式的指令来充分利用知识，构造了共计 88k 条的高质量国际中文教育问答数据集，并利用收集到的数据对模型进行指令微调，让模型习得将国际中文教育知识应用到具体场景中的能力。
 
@@ -2466,6 +2491,54 @@
 
 * [Lightning-AI/lit-gpt](https://github.com/Lightning-AI/lit-gpt) 基于 nanoGPT 的最先进的开源LLMs的可破解实现。支持闪光注意力、4 位和 8 位量化、LoRA 和 LLaMA 适配器微调、预训练。Apache 2.0 许可。
 
+* [KudoAI/chatgpt.js](https://github.com/KudoAI/chatgpt.js) 功能强大的 JS 库，允许与 ChatGPT DOM 进行超级轻松的交互。
+
+* [xorbitsai/inference](https://github.com/xorbitsai/inference) 通过更改一行代码，将 OpenAI GPT 替换为应用程序中的另一个 LLM GPT。Xinference 让您可以自由地使用您需要的任何LLM内容。借助 Xinference，您可以使用任何开源语言模型、语音识别模型和多模态模型运行推理，无论是在云端、本地，还是在笔记本电脑上。
+
+* [modelscope/modelscope-agent](https://github.com/modelscope/modelscope-agent) 开源版GPTs，将ModelScope中的模型与世界连接起来的智能体框架。单个代理具有角色扮演、呼叫、LLM工具使用、计划和记忆等能力。它主要具有以下特点：简单的代理实现过程：只需指定角色指令、LLM名称和工具名称列表即可实现代理应用程序。该框架会自动安排工具使用、规划和内存的工作流。丰富的模型和工具：框架配备了丰富的LLM接口，如Dashscope和Modelscope模型接口、OpenAI模型接口等。内置丰富的工具，如代码解释器、天气查询、文本到图像、网页浏览等，可以轻松定制专属代理。接口统一，扩展性高：框架具有清晰的工具和LLM注册机制，方便用户扩展更多样化的Agent应用。低耦合：开发人员可以轻松使用内置工具、LLM内存和其他组件，而无需绑定更高级别的代理。
+
+* [DLYuanGod/TinyGPT-V](https://github.com/DLYuanGod/TinyGPT-V) 通过小骨干网实现高效的多模态大型语言模型，性能已经达到了 InstructBLIP 性能的 98%
+
+* [mnotgod96/AppAgent](https://github.com/mnotgod96/AppAgent) 作为智能手机用户的多模式代理，一个LLM基于多模式代理框架，旨在操作智能手机应用程序。
+
+* [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) 超快的 AI 网关。使用 1 个快速友好的 API 路由到 100+LLMs。它通过统一的 API 简化了对 OpenAI、Anthropic、Mistral、LLama2、Anyscale、Google Gemini 等的 API 请求。速度极快（速度提高 9.9 倍），占用空间小，跨多个模型、提供程序和密钥进行负载均衡，回退可确保应用保持弹性，具有指数回退的自动重试，根据需要插入中间件，超过 100B 词元的测试
+
+* [InternLM/HuixiangDou](https://github.com/InternLM/HuixiangDou) 基于 LLM 的领域知识助手。特点：应对群聊这类复杂场景，解答用户问题的同时，不会消息泛滥。提出一套解答技术问题的算法 pipeline。部署成本低。
+
+* [OrionStarAI/Orion](https://github.com/OrionStarAI/Orion) Orion-14B 系列模型包括一个具有140亿参数的多语言基座大模型以及一系列相关的衍生模型，包括对话模型，长文本模型，量化模型，RAG微调模型，Agent微调模型等。
+
+* [QwenLM/Qwen-Audio](https://github.com/QwenLM/Qwen-Audio) Qwen Large Audio Language Model 是阿里云提出的大型模型系列Qwen的多模态版本。Qwen-Audio接受各种音频（人类语音、自然声音、音乐和歌曲）和文本作为输入，输出文本。贡献包括：`基础音频模型`：基础的多任务音频语言模型，支持各种任务、语言和音频类型，作为通用音频理解模型。在Qwen-Audio的基础上，我们通过指令微调开发Qwen-Audio-Chat，实现多轮对话，支持多样化的音频场景。`适用于所有类型音频的多任务学习框架`：为了扩大音频语言预训练的规模，我们通过提出一个多任务训练框架，实现知识共享和避免一对多干扰，解决了与不同数据集相关的文本标签变化的挑战。我们的模型包含 30 多个任务，大量实验表明该模型具有强大的性能。`强大的性能`：在各种基准测试任务中都取得了令人印象深刻的性能，而无需任何特定任务的微调，超过了同类产品。在 Aishell1、cochlscene、ClothoAQA 和 VocalSound 的测试集上取得先进的结果。`从音频和文本输入灵活多运行聊天`：支持多音频分析、声音理解和推理、音乐欣赏和工具使用。
+
+* [microsoft/ToRA](https://github.com/microsoft/ToRA) 一系列工具集成推理代理，旨在通过与工具（例如计算库和符号求解器）交互来解决具有挑战性的数学推理问题。ToRA系列将自然语言推理与外部工具的运用无缝集成，从而融合了语言的分析能力和外部工具的计算效率。
+
+* [intel/intel-extension-for-transformers](https://github.com/intel/intel-extension-for-transformers) 在几分钟内在您喜欢的设备上构建您的聊天机器人;为 LLM 提供 SOTA 压缩技术;在英特尔平台上高效运行 LLM
+
+* [microsoft/LLMLingua](https://github.com/microsoft/LLMLingua) 为了加快LLMs推理速度并增强LLM对关键信息的感知，压缩提示和 KV-Cache，以最小的性能损失实现高达 20 倍的压缩。利用紧凑、训练有素的语言模型（如 GPT2-small、LLaMA-7B）来识别和删除提示中的非必要标记。这种方法支持使用大型语言模型进行高效推理。
+
+* [langfuse/langfuse](https://github.com/langfuse/langfuse) 开源LLM可观测性、分析、提示管理、评估、测试、监控、日志记录、跟踪、LLMOps。Langfuse：LLM工程平台。一起调试、分析和迭代 - 适用于 Typescript、Python、OpenAI、Langchain、Litellm、Flowise、Superagent 和 Langflow 的稳定 SDK + 集成
+
+* [vanna-ai/vanna](https://github.com/vanna-ai/vanna) MIT 许可的开源 Python RAG（检索增强生成）框架，用于 SQL 生成和相关功能。与您的 SQL 数据库聊天。LLMs通过使用 RAG准确生成文本到 SQL。
+
+* [bigemon/ChatGPT-ToolBox](https://github.com/bigemon/ChatGPT-ToolBox) 由ChatGPT自己编写的ChatGPT工具箱。 当前功能: 1. 绕过高负载禁止登录 2.关闭数据监管 3.链路维持(减少网络错误) 4.API混合接入 5.会话导入导出 6.聊天记录下载 7.解锁GPT4-Mobile
+
+* [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) Chrome扩展程序，可查看ChatGPT摘要以及Google搜索结果和YouTube视频，还支持Yahoo、PubMed、PMC、NewsPicks、Github、Nikkei、Bing、Google Patents，以及任何页面摘要。
+
+* [stanford-oval/WikiChat](https://github.com/stanford-oval/WikiChat) 通过从维基百科检索数据来阻止大型语言模型的幻觉。
+
+* [awesome-chatgpt/awesome-chatgpt](https://github.com/awesome-chatgpt/awesome-chatgpt/tree/main) 令人敬畏的资源集合，包括与 ChatGPT 相关的各种工具、文档、资源、应用程序和用例。
+
+* [casibase/casibase](https://github.com/casibase/casibase) 开源 AI 类 LangChain RAG（Retrieval-Augmented Generation）知识数据库，具有 Web UI 和企业 SSO，支持 OpenAI、Azure、LLaMA、Google Gemini、HuggingFace、Claude、Grok 等
+
+* [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) 基于 Qwen 构建的代理框架和应用程序，具有插件、代码解释器、RAG 和 Chrome 扩展。它还附带了示例应用程序，例如浏览器助手、代码解释器和自定义助手。
+
+* [assafelovic/gpt-newspaper](https://github.com/assafelovic/gpt-newspaper) 创新的自主代理，旨在创建根据用户偏好量身定制的个性化报纸。GPT 报纸通过利用人工智能的力量根据个人品味和兴趣策划、撰写、设计和编辑内容，彻底改变了我们消费新闻的方式。
+
+* [weijunext/smart-excel-ai](https://github.com/weijunext/smart-excel-ai) 使用 ChatGPT 在几秒钟内生成您需要的 Excel 公式。
+
+* [bclswl0827/ChatGemini](https://github.com/bclswl0827/ChatGemini) 基于 Google Gemini 的网页客户端，对标 ChatGPT 3.5，操作逻辑同 ChatGPT 3.5 一致，同时支持在聊天中上传图片，应用会自动调用 Gemini-Pro-Vision 模型进行识图。
+
+* [yuchenlin/LLM-Blender](https://github.com/yuchenlin/LLM-Blender) 创新集成框架，利用多个开源LLMs的不同优势来获得始终如一的卓越性能。通过排名切除劣势，通过融合生成整合优势，增强能力LLMs。
+
 ### 其他_文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -2547,6 +2620,12 @@
 * [OSU-NLP-Group/Mind2Web](https://github.com/OSU-NLP-Group/Mind2Web) 论文“Mind2Web：迈向Web的通才代理”的数据集，代码和模型。
 
 * [dsdanielpark/Bard-API](https://github.com/dsdanielpark/Bard-API) 通过 cookie 值返回 Google Bard (大语言模型) 响应的非官方 python 包。
+
+* [thu-coai/CDial-GPT](https://github.com/thu-coai/CDial-GPT) 大规模中文短文本会话数据集和中文预训练对话模型
+
+* [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) 与Zotero集成：您可以使用该插件根据所选文本或PDF文件搜索和询问库中的项目。使用 GPT 生成回复文本：support gpt-3.5-turbo 和 gpt-4。询问有关当前 PDF 文件（全文或所选文本）的问题。对所选论文（摘要）提出问题。 将所选论文总结成几个高度浓缩的句子。根据所选文本搜索库中的项目。
+
+* [microsoft/LMOps](https://github.com/microsoft/LMOps) 关于构建具有基础模型的 AI 产品的基础研究和技术的研究计划，特别是关于通过LLMs生成式 AI 模型实现 AI 功能的通用技术。更好的提示：自动提示优化、提示器、可扩展提示、通用提示检索、检索器、LLM上下文演示选择。更长的上下文：结构化提示、长度外推转换器。LLM对齐：通过LLM反馈对齐。LLM加速器（更快的推理）：无损加速LLMs。LLM自定义：适应LLM领域。
 
 ## 文本匹配 文本检索 文本相似度
 
@@ -4199,6 +4278,12 @@
 
 * [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) 本地托管的 Web 应用，允许您对 PDF 文件执行各种操作
 
+* [ahmadbilaldev/langui](https://github.com/ahmadbilaldev/langui) 适用于 AI 的 UI。为您的 GPT、生成式 AI 和LLM项目量身定制的开源 Tailwind 组件。
+
+* [ohmplatform/FreedomGPT](https://github.com/ohmplatform/FreedomGPT) 基于 React 和 Electron 的应用程序，该应用程序使用基于聊天的界面在 Mac 和 Windows 上本地（离线和私有）执行 FreedomGPT LLM
+
+* [dot-agent/nextpy](https://github.com/dot-agent/nextpy) 轻松快速⚡地构建任何 Web 应用程序。它简化了从后端到前端（是的，Python 中的视觉🦚上令人惊叹的前端！）、AI 集成、API 等所有方面的 Python 开发，从而为人类和 AI 代理提供支持。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4352,6 +4437,8 @@
 * [Seldaek/monolog](https://github.com/Seldaek/monolog) PHP将日志发送到文件、套接字、数据库和各种Web服务
 
 * [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) PHP开发工具，可在浏览器中使用。可让您深入了解应用程序运行时，包括 HTTP 请求、命令、队列作业和测试的请求数据、性能指标、日志条目、数据库查询、缓存查询、redis 命令、已调度事件、排队作业、呈现视图等
+
+* [phacility/phabricator](https://github.com/phacility/phabricator) php Web应用程序的集合。
 
 * [matomo-org/matomo](https://github.com/matomo-org/matomo) Google Analytics（分析）的领先开放替代方案，可让您完全控制数据。Matomo可让您轻松地从网站和应用程序中收集数据，并可视化这些数据并提取见解。隐私是内置的。
 
@@ -8064,6 +8151,8 @@
 
 * [twitter/twemproxy](https://github.com/twitter/twemproxy) memcached 和 redis 的快速、轻量级代理
 
+* [Snapchat/KeyDB](https://github.com/Snapchat/KeyDB) Redis 的高性能分支，专注于多线程、内存效率和高吞吐量。除了性能改进外，KeyDB 还提供主动复制、闪存存储和子密钥过期等功能。KeyDB 具有 MVCC 架构，允许您执行 KEYS 和 SCAN 等查询，而不会阻塞数据库和降低性能。KeyDB 保持与 Redis 协议、模块和脚本的完全兼容。这包括脚本和事务的原子性保证。由于 KeyDB 与 Redis 开发保持同步，因此 KeyDB 是 Redis 功能的超集，因此 KeyDB 可以替代现有的 Redis 部署。在相同的硬件上，KeyDB 可以实现比 Redis 高得多的吞吐量。主动复制简化了热备盘故障转移，使您能够轻松地在副本上分配写入，并使用基于 TCP 的简单负载平衡/故障转移。KeyDB的更高性能允许您在更少的硬件上做更多的事情，从而降低运营成本和复杂性。
+
 * [apache/kafka](https://github.com/apache/kafka) 分布式数据存储和流处理平台，可以发布和订阅记录流，按顺序存储和处理数据。
 
 * [yahoo/CMAK](https://github.com/yahoo/CMAK) 用于管理 Apache Kafka 群集的工具
@@ -8455,6 +8544,8 @@
 * [bettercap/bettercap](https://github.com/bettercap/bettercap) 用于 802.11、BLE、IPv4 和 IPv6 网络侦察和 MITM 攻击的瑞士军刀。
 
 * [samratashok/nishang](https://github.com/samratashok/nishang) 用于红队，渗透测试和攻击性安全性的攻击性PowerShell.
+
+* [aress31/burpgpt](https://github.com/aress31/burpgpt) Burp Suite 扩展，集成了 OpenAI 的 GPT，可执行额外的被动扫描以发现高度定制的漏洞，并支持运行任何类型的基于流量的分析。
 
 ## web shell、shellcode
 
@@ -9220,6 +9311,8 @@
 
 * [carlospolop/hacktricks](https://github.com/carlospolop/hacktricks) 黑客技巧，找到我从 CTF、现实生活中的应用程序、阅读研究和新闻中学到的每个黑客技巧/技术/任何内容。
 
+* [vpncn/vpncn.github.io](https://github.com/vpncn/vpncn.github.io) 2024中国VPN推荐以及上网，稳定好用。对比SSR、蓝灯、V2ray、VPS搭梯等上网软件，中国最新上网下载推荐，访问Chatgpt。
+
 # 硬件
 
 ## CPU RISC-V
@@ -9420,6 +9513,8 @@
 
 * [1technophile/OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) MQTT网关，用于ESP8266，ESP32，Sonoff RF Bridge或Arduino，双向433mhz / 315mhz / 868mhz，红外通信，BLE，蓝牙，信标检测，mi flora，mi jia，LYWSD02，LYWSD03MMC，Mi Scale，TPMS，BBQ温度计兼容性，SMS和LORA。
 
+* [Aircoookie/WLED](https://github.com/Aircoookie/WLED) 通过 WiFi 使用 ESP8266 或 ESP32 控制WS2812B和更多类型的数字 RGB LED
+
 * [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) Lean 的 LEDE 路由器系统的源码仓库。LEDE是OpenWrt 的一个分支。
 
 * [mcxiaoke/mqtt](https://github.com/mcxiaoke/mqtt) MQTT协议3.1.1中文翻译版，IoT，物联网
@@ -9503,6 +9598,8 @@
 * [cyberbotics/webots](https://github.com/cyberbotics/webots) 完整的开发环境，用于对机器人、车辆和机械系统进行建模、编程和仿真。
 
 * [awesome-robotic-tooling](https://github.com/Ly0n/awesome-robotic-tooling) 用于 C++ 和 Python 专业机器人开发的工具，带有 ROS、自动驾驶和航空航天的触感。
+
+* [MichaIng/DietPi](https://github.com/MichaIng/DietPi) 非常轻量级的基于 Debian 的操作系统。它针对最小的 CPU 和 RAM 资源使用进行了高度优化，确保您的 SBC 始终发挥其最大潜力。
 
 # 其他项目
 
