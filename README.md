@@ -835,6 +835,16 @@
 
 * [tencentmusic/cube-studio](https://github.com/tencentmusic/cube-studio) 开源云原生一站式机器学习/深度学习AI平台，支持sso登录，多租户/多项目组，数据资产对接，notebook在线开发，拖拉拽任务流pipeline编排，多机多卡分布式算法训练，超参搜索，推理服务VGPU，多集群调度，边缘计算，serverless，标注平台，自动化标注，数据集管理，大模型一键微调，llmops，私有知识库，AI应用商店，支持模型一键开发/推理/微调，私有化部署，支持国产cpu/gpu/npu芯片，支持RDMA，支持pytorch/ tf/ mxnet/ deepspeed/ paddle/ colossalai/ horovod/ spark/ ray/ volcano分布式
 
+* [bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter) ai副业赚钱资讯信息的大合集，将在全网搜索并整理ai副业赚钱的相关方法、技术、工具、以及一些可以赚钱的平台和渠道。 期望能在AI时代，打破信息茧房，利用AI智能化做副业，赚取工作之余的额外收益。
+
+* [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) 通过自动检测 ML 数据集中的问题来帮助您清理数据和标签。为了促进对混乱的真实数据进行机器学习，这个以数据为中心的 AI 包使用现有模型来估计数据集问题，这些问题可以修复以训练更好的模型。
+
+* [owainlewis/awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) 人工智能 （AI） 课程、书籍、视频讲座和论文的精选列表。
+
+* [aws/amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples) 示例  Jupyter 笔记本，演示如何使用 Amazon SageMaker 构建、训练和部署机器学习模型
+
+* [Netflix/metaflow](https://github.com/Netflix/metaflow) 轻松构建和管理现实生活中的 ML、AI 和数据科学项目
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1952,6 +1962,10 @@
 
 * [nat/openplayground](https://github.com/nat/openplayground) 您可以在笔记本电脑上运行的LLM游乐场。特征：使用 OpenAI、Anthropic、Cohere、Forefront、HuggingFace、Aleph Alpha、Replicate、Banana 和 llama.cpp 中的任何模型。完整的 playground UI，包括历史记录、参数调优、键盘快捷键和 logprops。使用相同的提示并排比较模型，单独调整模型参数，然后使用不同的参数重试。自动检测 HuggingFace 缓存中的本地模型，并允许您安装新模型。在手机上工作正常。
 
+* [GAIR-NLP/auto-j](https://github.com/GAIR-NLP/auto-j) 用于评估对齐的生成式判断的官方存储库。新的开源生成判断器，可以有效地评估它们LLMs如何与人类偏好保持一致。它的特点是：通用性：Auto-J 基于来自真实世界用户查询的数据和来自各种LLMs响应的数据进行训练，涵盖 58 个真实世界场景。灵活性：Auto-J 支持成对响应比较和单响应评估，只需切换到相应的提示即可。可解释性：Auto-J 提供详细的自然语言评论，可提高其评估结果的可靠性，并促进人类参与评估循环。
+
+* [thu-coai/BPO](https://github.com/thu-coai/BPO) 在不进行模型训练的情况下对齐大型语言模型，黑盒提示优化 （BPO） 提供了一种概念上的新视角来弥合人类和 LLMs在 Vicuna Eval 的成对评估中，BPO 在没有训练的情况下进一步对齐 gpt-3.5-turbo 和 claude-2。性能也优于PPO和DPO，并呈现出正交的改进。通过优化用户指令，从输入角度对模型进行对齐。过程分三步：1、`反馈数据收集`：为了建模人类偏好，首先搜集了一系列带有反馈信号的开源指令微调数据集，并对这些数据经过精心筛选和过滤。2、`构造提示优化对`：使用这些反馈数据来引导大型模型识别出用户偏好的特征。首先让模型分析用户喜欢的回复和不喜欢的回复，找出其中蕴含的人类偏好特征。接着，基于这些特征，再利用模型优化原始的用户输入，以期得到更符合用户喜好的模型输出。3、`训练提示优化器`：经过步骤一和步骤二，我们得到了大量隐含人类偏好的提示对。利用这些提示对，我们训练一个相对较小的模型，从而构建提示偏好优化器。最终，我们可以利用该提示优化器对用户指令进行优化，并应用在广泛的LLM上。[ BPO 数据集](https://huggingface.co/datasets/THUDM/BPO)
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2538,6 +2552,26 @@
 * [bclswl0827/ChatGemini](https://github.com/bclswl0827/ChatGemini) 基于 Google Gemini 的网页客户端，对标 ChatGPT 3.5，操作逻辑同 ChatGPT 3.5 一致，同时支持在聊天中上传图片，应用会自动调用 Gemini-Pro-Vision 模型进行识图。
 
 * [yuchenlin/LLM-Blender](https://github.com/yuchenlin/LLM-Blender) 创新集成框架，利用多个开源LLMs的不同优势来获得始终如一的卓越性能。通过排名切除劣势，通过融合生成整合优势，增强能力LLMs。
+
+* [zhoudaquan/ChatAnything](https://github.com/zhoudaquan/ChatAnything) 使用当前无限的大型语言模型进行增强，产生具有预期视觉外观的假想 Facetime 头像聊天
+
+* [zhangliwei7758/unity-AI-Chat-Toolkit](https://github.com/zhangliwei7758/unity-AI-Chat-Toolkit) 使用unity实现AI聊天相关功能。包含了对chatgpt、chatglm等大语言模型的api调用的代码实现以及实现了微软Azure以及百度AI的语音功能，语音服务均采用web api实现，支持Win / WebGL / Android等平台
+
+* [AINativeLab/gptstore-data-backup](https://github.com/AINativeLab/gptstore-data-backup) GPT Store 趋势数据的每日存档
+
+* [JimLiu/gpt-games](https://github.com/JimLiu/gpt-games) 使用 GPT 构建游戏，游戏北京浮生记的 GPT 版本，让你通过 ChatGPT 也可以体验游戏。
+
+* [tiingweii-shii/Awesome-Resource-Efficient-LLM-Papers](https://github.com/tiingweii-shii/Awesome-Resource-Efficient-LLM-Papers) 关于资源节约LLMs的高质量论文的精选清单
+
+* [lafmdp/Awesome-Papers-Autonomous-Agent](https://github.com/lafmdp/Awesome-Papers-Autonomous-Agent) 最近关于构建自主代理的论文集。包括两个主题：基于RL的代理/LLM基于代理。在人工智能中，智能代理(智能体)是以智能方式行事的代理;它感知自己的环境，自主采取行动以实现目标，并可能通过学习或获取知识来提高其表现。智能代理可以是简单的，也可以是复杂的：恒温器其他控制系统被认为是智能代理的一个例子，就像人类一样，任何符合定义的系统，例如公司、国家或生物群落。
+
+* [Aaronhuang-778/BiLLM](https://github.com/Aaronhuang-778/BiLLM) 突破训练后量化的LLMs极限，预训练的大型语言模型 （LLMs） 表现出卓越的通用语言处理能力，但对内存和计算资源有很大的要求。作为一种强大的压缩技术，二值化可以将模型权重大幅降低到仅 1 位，从而降低昂贵的计算和内存要求。然而，现有的量化技术无法在超低位宽下保持LLM性能。为了应对这一挑战，我们提出了BiLLM，这是一种为预训练LLMs量身定制的突破性1位训练后量化方案。基于权重分布LLMs，BiLLM首先识别并结构性地选择显著权重，并通过有效的二元残差近似策略将压缩损失最小化。此外，考虑到非显著权重的钟形分布，我们提出了一种最佳的拆分搜索，以准确地对它们进行分组和二值化。BiLLM首次实现了高精度推理（例如，LLaMA2-70B上的8.41困惑），在各种LLMs系列和评估指标中仅具有1.08位权重，远远优于SOTA量化方法LLM。此外，BiLLM 可在单个 GPU 上在 0.5 小时内实现 70 亿个权重的二值化过程LLM，表现出令人满意的时间效率。
+
+* [Meituan-AutoML/MobileVLM](https://github.com/Meituan-AutoML/MobileVLM) 适用于移动设备的强大而开放的视觉语言助手
+
+* [FlagAI-Open/FlagAI](https://github.com/FlagAI-Open/FlagAI) 快速、易用且可扩展的大型模型工具包。我们的目标是支持在各种下游任务中以多模态的方式训练、微调和部署大规模模型。
+
+* [Nutlope/notesGPT](https://github.com/Nutlope/notesGPT) 在几秒钟内从您的笔记中生成操作项。由 Convex(数据库和云函数)、Together.ai (LLM Mixtral)和 Whisper (ASR) 提供支持。
 
 ### 其他_文本生成、文本对话
 
@@ -4284,6 +4318,8 @@
 
 * [dot-agent/nextpy](https://github.com/dot-agent/nextpy) 轻松快速⚡地构建任何 Web 应用程序。它简化了从后端到前端（是的，Python 中的视觉🦚上令人惊叹的前端！）、AI 集成、API 等所有方面的 Python 开发，从而为人类和 AI 代理提供支持。
 
+* [Avaiga/taipy](https://github.com/Avaiga/taipy) 立即将数据和 AI 算法转换为生产就绪型 Web 应用程序。开发应用程序的前端，而无需了解 HTML、CSS 和 JS。通过简单的语法，加速创建可自定义的多页仪表板，并生成交互式界面，包括图表和各种广泛使用的控件。对数据流进行建模并编排管道。在存储、记录和可操作方案（管道执行）时对其进行管理，从而实现假设分析或 KPI 比较。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4603,6 +4639,8 @@
 * [helmetjs/helmet](https://github.com/helmetjs/helmet) 使用各种 HTTP 标头帮助保护 Express 应用
 
 * [Ne0nd0g/merlin](https://github.com/Ne0nd0g/merlin) 跨平台的后开发HTTP/2命令和控制服务器和代理，用 go 编写。
+
+* [xyproto/algernon](https://github.com/xyproto/algernon) 小型独立纯 Go Web 服务器，支持 Lua、Teal、Markdown、HTTP/2、QUIC、Redis 和 PostgreSQL
 
 ## 网络与前后端开发_其他
 
@@ -5323,6 +5361,14 @@
 * [PaddlePaddle/PaddleRec](https://github.com/PaddlePaddle/PaddleRec) 大规模推荐算法库，包含推荐系统经典及最新算法LR、Wide&Deep、DSSM、TDM、MIND、Word2Vec、Bert4Rec、DeepWalk、SSR、AITM，DSIN，SIGN，IPREC、GRU4Rec、Youtube_dnn、NCF、GNN、FM、FFM、DeepFM、DCN、DIN、DIEN、DLRM、MMOE、PLE、ESMM、ESCMM, MAML、xDeepFM、DeepFEFM、NFM、AFM、RALM、DMR、GateNet、NAML、DIFM、Deep Crossing、PNN、BST、AutoInt、FGCNN、FLEN、Fibinet、ListWise、DeepRec、ENSFM，TiSAS，AutoFIS等，包含经典推荐系统数据集criteo 、movielens等
 
 * [wangshusen/RecommenderSystem](https://github.com/wangshusen/RecommenderSystem) 结合小红书的业务场景和内部实践，讲解主流的工业界推荐系统技术。
+
+* [CHIANGEL/Awesome-LLM-for-RecSys](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) 关于大型语言模型（LLM）相关推荐系统主题的AWESOME论文和资源的集合。
+
+* [WLiK/LLM4Rec-Awesome-Papers](https://github.com/WLiK/LLM4Rec-Awesome-Papers) 关于大型语言模型的推荐系统的精彩论文和资源列表。大致分为三类：LLM Embeddings + RS、LLM Tokens + RS、LLM as RS
+
+* [HKUDS/LLMRec](https://github.com/HKUDS/LLMRec) 新颖的框架，它通过将三种简单而有效的LLM基于图增强策略应用于推荐系统来增强推荐器。LLMRec 旨在充分利用在线平台（例如 Netflix、MovieLens）中的内容，通过 i） 加强 u-i 交互边缘，ii） 增强项目节点属性，以及 iii） 从自然语言的角度直观地进行用户节点分析来增强交互图。
+
+* [HKUDS/RLMRec](https://github.com/HKUDS/RLMRec) 与模型无关的框架 RLMRec，通过LLM授权的表示学习来增强现有的推荐者。它提出了一种范式，将表征学习与LLMs捕获用户行为和偏好的复杂语义方面相结合。RLMRec 整合了辅助文本信号，开发了由 LLMs赋能的用户/项目分析范式，并通过跨视图对齐框架将协作关系信号的LLMs语义空间与表示空间对齐。
 
 * [ZiyaoGeng/Recommender-System-with-TF2.0](https://github.com/ZiyaoGeng/Recommender-System-with-TF2.0) CTR预言论文进行复现，包括传统模型（MF，FM，FFM等），神经网络（WDL，DCN等）以及序列模型（DIN）。
 
@@ -6785,6 +6831,8 @@
 
 * [yandexdataschool/Practical_RL](https://github.com/yandexdataschool/Practical_RL) 野外强化学习的公开课程。针对好奇者进行优化。对于所有未详细介绍的材料，都有指向更多信息和相关材料的链接（D.Silver/ Sutton/ blogs/whatever）。
 
+* [openai/baselines](https://github.com/openai/baselines) OpenAI Baselines 是一组高质量的强化学习算法实现。
+
 # 语音识别与合成
 
 * [espnet/espnet](https://github.com/espnet/espnet) End-to-End Speech Processing Toolkit 端到端的语音处理工具箱，主要特性：kaldi风格的处理模式、ASR、TTS、语音翻译、机器翻译、语音转换、DNN框架
@@ -6884,6 +6932,8 @@
 * [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) SoftVC VITS 歌声转换。这个项目与 Vits 有着根本的不同。 Vits 是 TTS，这个项目是 SVC。本项目不能进行TTS，Vits不能进行SVC，两种项目模型不通用。
 
 * [voicepaw/so-vits-svc-fork](https://github.com/voicepaw/so-vits-svc-fork) so-vits-svc fork 歌唱语音转换 具有实时支持、改进的界面和更多功能。实时语音转换、更准确的音调估计、2x 更快的训练
+
+* [jianchang512/clone-voice](https://github.com/jianchang512/clone-voice) 带web界面的声音克隆工具，使用你的音色或任意声音来录制音频。支持 中、英、日、韩、法、德、意等语言，可在线从麦克风录制声音。为保证合成效果，建议录制时长5秒到20秒，发音清晰准确，不要存在背景噪声。
 
 * [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) 小于10分钟的语音数据也可以用来训练一个好的VC模型 一个基于VITS的简单易用的语音转换（变声器）框架
 
@@ -7032,6 +7082,8 @@
 * [spicetify/spicetify-cli](https://github.com/spicetify/spicetify-cli) 用于自定义 Spotify 客户端的命令行工具。支持 Win、MacOS 和 Linux。
 
 * [beetbox/beets](https://github.com/beetbox/beets) 面向痴迷音乐极客的媒体库管理系统。一劳永逸地获得正确的音乐收藏。它会对您的收藏进行编目，并自动改进其元数据。然后，它提供了一束用于操作和访问音乐的工具。
+
+* [resemble-ai/resemble-enhance](https://github.com/resemble-ai/resemble-enhance) AI 驱动的工具，旨在通过执行降噪和增强来提高语音的整体质量。它由两个模块组成：一个降噪器，用于将语音与嘈杂的音频分开，另一个增强器通过恢复音频失真和扩展音频带宽来进一步提高感知音频质量。这两个模型都使用高质量的 44.1kHz 语音数据进行训练，从而保证以高质量增强您的语音。
 
 # 生物医药
 
@@ -7300,6 +7352,8 @@
 * [microsoft/BioGPT](https://github.com/microsoft/BioGPT) 用于生物医学文本生成和挖掘的生成预训练转换器的实现。提供预先训练的 BioGPT 模型检查点以及用于下游任务的微调检查点：用于PubMedQA（从PubMed摘要中收集的新颖的生物医学问答（QA）数据集。）上的问答任务、用于BC5CDR（人工标注的文档级关系抽取数据集，由1,500篇PubMed文档构成是生物医学特定领域，且仅考虑“化学诱导的疾病”关系）关系提取、用于DDI（药物间的相互作用）关系提取任务、用于KD-DTI（built *upon* *Drug*- *Bank* (*Wishart* *et* *al*. 2017) *and* *Therapeutic* *Target* *Database* (*briefly*, *TTD*) (*Wang* *et* *al*. 2020). DTI预测药物-靶点相互作用）关系提取任务、HoC 上的文档分类任务。
 
 * [CBLUEbenchmark/CBLUE](https://github.com/CBLUEbenchmark/CBLUE) 中文医疗信息处理基准CBLUE 8个中文医疗语言理解任务。包括医学文本信息抽取（实体识别、关系抽取）、医学术语归一化、医学文本分类、医学句子关系判定和医学QA共5大类任务8个子任务。
+
+* [dmis-lab/biobert](https://github.com/dmis-lab/biobert) 用于生物医学文本挖掘的预训练生物医学语言表示模型
 
 * [mims-harvard/TDC](https://github.com/mims-harvard/TDC) Therapeutics Data Commons (TDC)，第一个机器学习在生物医药的大规模数据集。TDC目前包含了20+有意义的任务，和70多个高质量数据集，从靶蛋白的发现，药物动力学，安全性，药物生产都有包含到。而且不仅仅是小分子，还有抗体，疫苗，miRNA等。之后也会加入CRISPR，Clinical Trials等等。
 
@@ -9313,6 +9367,10 @@
 
 * [vpncn/vpncn.github.io](https://github.com/vpncn/vpncn.github.io) 2024中国VPN推荐以及上网，稳定好用。对比SSR、蓝灯、V2ray、VPS搭梯等上网软件，中国最新上网下载推荐，访问Chatgpt。
 
+* [infosecn1nja/Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit) 包含尖端的开源安全工具 （OST），这些工具将在对手模拟期间为您提供帮助，并且用于威胁猎人的信息可以更轻松地进行检测和预防控制。以下工具列表可能被 APT 和人为勒索软件 （HumOR） 等威胁行为者滥用。如果您想为此列表做出贡献，请向我发送拉取请求。
+
+* [trimstray/the-practical-linux-hardening-guide](https://github.com/trimstray/the-practical-linux-hardening-guide) 本指南详细介绍了如何创建安全的 Linux 生产系统。OpenSCAP（C2S/CIS、STIG）。
+
 # 硬件
 
 ## CPU RISC-V
@@ -9849,6 +9907,8 @@
 * [cloudwu/coroutine](https://github.com/cloudwu/Coroutine) C 的非对称协程库。
 
 * [attractivechaos/klib](https://github.com/attractivechaos/klib) 独立轻量级 C 库，MIT/X11许可。 多数组件都独立于外部库，除了标准 C 库，并且彼此独立。Klib 致力于提高效率和减少内存占用。 就速度和内存使用而言，某些组件（如 khash.h、kbtree.h、ksort.h 和 kvec.h）是所有编程语言中类似算法或数据结构的最有效实现之一。
+
+* [nothings/stb](https://github.com/nothings/stb) 用于 C/C++ 的单文件公共域（或 MIT 许可）库
 
 * [miloyip/json-tutorial](https://github.com/miloyip/json-tutorial) 从零开始的 JSON 库教程 C/C++ 编程
 
@@ -11218,5 +11278,7 @@
 * [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) 一种文档驱动的项目管理工具，可最大限度地提高远程 DevOps 团队的速度。
 
 * [Sitoi/dailycheckin](https://github.com/Sitoi/dailycheckin) 基于Docker/青龙面板/群晖的每日签到脚本（支持多账号使用）签到列表: ｜爱奇艺｜全民K歌｜有道云笔记｜百度贴吧｜Bilibili｜V2EX｜AcFun｜什么值得买｜阿里云盘｜i茅台申购｜小米运动｜百度搜索资源平台｜恩山论坛｜奥拉星
+
+* [xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english) 不要再 “学” 英语，你就该 “用” 英语
 
 # end
