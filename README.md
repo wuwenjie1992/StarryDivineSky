@@ -927,6 +927,8 @@
 
 * [microsoft/torchscale](https://github.com/microsoft/torchscale) PyTorch 库，允许研究人员和开发人员高效地扩展 Transformers。为基础模型和 A（G）I 开发新的架构，重点是建模通用性和能力，以及训练稳定性和效率。
 
+* [NielsRogge/Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials) HuggingFace的 Transformers 库制作的演示。
+
 ## BERT优化
 
 * [google-research/bert](https://github.com/google-research/bert) Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
@@ -1178,7 +1180,9 @@
 
 * [baichuan-inc/Baichuan2](https://github.com/baichuan-inc/Baichuan2) 百川智能推出的新一代开源大语言模型，采用 2.6 万亿 Tokens 的高质量语料训练。在多个权威的中文、英文和多语言的通用、领域 benchmark 上取得同尺寸最佳的效果。本次发布包含有 7B、13B 的 Base 和 Chat 版本，并提供了 Chat 版本的 4bits 量化。所有版本对学术研究完全开放。同时，开发者通过邮件申请并获得官方商用许可后，即可免费商用。
 
-* [baichuan-inc/Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B) 由百川智能继 Baichuan-7B 之后开发的包含 130 亿参数的开源可商用的大规模语言模型，在权威的中文和英文 benchmark 上均取得同尺寸最好的效果。本次发布包含有预训练 (Baichuan-13B-Base) 和对齐 (Baichuan-13B-Chat) 两个版本。Baichuan-13B 有如下几个特点：更大尺寸、更多数据：Baichuan-13B 在 Baichuan-7B 的基础上进一步扩大参数量到 130 亿，并且在高质量的语料上训练了 1.4 万亿 tokens，超过 LLaMA-13B 40%，是当前开源 13B 尺寸下训练数据量最多的模型。支持中英双语，使用 ALiBi 位置编码，上下文窗口长度为 4096。同时开源预训练和对齐模型：预训练模型是适用开发者的『 基座 』，而广大普通用户对有对话功能的对齐模型具有更强的需求。因此本次开源我们同时发布了对齐模型（Baichuan-13B-Chat），具有很强的对话能力，开箱即用，几行代码即可简单的部署。更高效的推理：为了支持更广大用户的使用，我们本次同时开源了 int8 和 int4 的量化版本，相对非量化版本在几乎没有效果损失的情况下大大降低了部署的机器资源门槛，可以部署在如 Nvidia 3090 这样的消费级显卡上。开源免费可商用：Baichuan-13B 不仅对学术研究完全开放，开发者也仅需邮件申请并获得官方商用许可后，即可以免费商用。
+* [baichuan-inc/Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B) 由百川智能继 Baichuan-7B 之后开发的包含 130 亿参数的开源可商用的大规模语言模型，在权威的中文和英文 benchmark 上均取得同尺寸最好的效果。本次发布包含有预训练 (Baichuan-13B-Base) 和对齐 (Baichuan-13B-Chat) 两个版本。Baichuan-13B 有如下几个特点：更大尺寸、更多数据：Baichuan-13B 在 Baichuan-7B 的基础上进一步扩大参数量到 130 亿，并且在高质量的语料上训练了 1.4 万亿 tokens，超过 LLaMA-13B 40%，是当前开源 13B 尺寸下训练数据量最多的模型。支持中英双语，使用 ALiBi 位置编码，上下文窗口长度为 4096。同时开源预训练和对齐模型：预训练模型是适用开发者的『 基座 』，而广大普通用户对有对话功能的对齐模型具有更强的需求。因此本次开源我们同时发布了对齐模型（Baichuan-13B-Chat），具有很强的对话能力，开箱即用，几行代码即可简单的部署。更高效的推理：为了支持更广大用户的使用，我们本次同时开源了 int8 和 int4 的量化版本，相对非量化版本在几乎没有效果损失的情况下大大降低了部署的机器资源门槛，可以部署在如 Nvidia 3090 这样的消费级显卡上。开源免费可商用：B对学术研究完全开放，开发者也仅需邮件申请并获得官方商用许可后，可免费商用。
+
+* [01-ai/Yi](https://github.com/01-ai/Yi) 01.AI 从头开始训练的下一代开源大型语言模型。作为双语语言模型，并在 3T 多语言语料库上进行训练，Yi 系列模型成为全球最强大的LLM模型之一，在语言理解、常识推理、阅读理解等方面显示出前景。Yi-34B-Chat 模型在 AlpacaEval 排行榜上排名第二（仅次于 GPT-4 Turbo），表现优于其他LLMs模型（如 GPT-4、Mixtral、Claude）（基于截至 2024 年 1 月的数据）。Yi-34B模型在各种基准测试中，包括Hugging Face Open LLM Leaderboard（预训练）和C-Eval（基于截至2023年11月的数据）中，在所有现有的开源模型（如Falcon-180B、Llama-70B、Claude）中排名第一。感谢 Transformer 和 Llama 开源社区，因为它们减少了从头开始构建所需的工作量，并能够在 AI 生态系统中使用相同的工具。
 
 * [mlabonne/llm-course](https://github.com/mlabonne/llm-course) 使用路线图和 Colab 笔记本来学习大型语言模型 （LLMs） 的课程。该LLM课程分为三个部分：LLM 基础知识涵盖有关数学、Python 和神经网络的基本知识。科学家LLM专注于LLMs使用最新技术构建最佳产品。LLM 工程师专注于创建LLM基于应用程序并部署它们。
 
@@ -1966,6 +1970,12 @@
 
 * [thu-coai/BPO](https://github.com/thu-coai/BPO) 在不进行模型训练的情况下对齐大型语言模型，黑盒提示优化 （BPO） 提供了一种概念上的新视角来弥合人类和 LLMs在 Vicuna Eval 的成对评估中，BPO 在没有训练的情况下进一步对齐 gpt-3.5-turbo 和 claude-2。性能也优于PPO和DPO，并呈现出正交的改进。通过优化用户指令，从输入角度对模型进行对齐。过程分三步：1、`反馈数据收集`：为了建模人类偏好，首先搜集了一系列带有反馈信号的开源指令微调数据集，并对这些数据经过精心筛选和过滤。2、`构造提示优化对`：使用这些反馈数据来引导大型模型识别出用户偏好的特征。首先让模型分析用户喜欢的回复和不喜欢的回复，找出其中蕴含的人类偏好特征。接着，基于这些特征，再利用模型优化原始的用户输入，以期得到更符合用户喜好的模型输出。3、`训练提示优化器`：经过步骤一和步骤二，我们得到了大量隐含人类偏好的提示对。利用这些提示对，我们训练一个相对较小的模型，从而构建提示偏好优化器。最终，我们可以利用该提示优化器对用户指令进行优化，并应用在广泛的LLM上。[ BPO 数据集](https://huggingface.co/datasets/THUDM/BPO)
 
+* [kwai/KwaiYii](https://github.com/kwai/KwaiYii) 由快手AI团队从零到一独立自主研发的一系列大规模语言模型（Large Language Model），当前包含了多种参数规模的模型，并覆盖了预训练模型（KwaiYii-Base)、对话模型（KwaiYii-Chat)。
+
+* [deepseek-ai/DeepSeek-MoE](https://github.com/deepseek-ai/DeepSeek-MoE) DeepSeekMoE 16B 是一种具有 16.4B 参数的专家混合 （MoE） 语言模型。它采用了创新的 MoE 架构，该架构涉及两个主要策略：细粒度专家细分和共享专家隔离。它在 2T 英文和中文词元上从头开始训练，表现出与 DeekSeek 7B 和 LLaMA2 7B 相当的性能，只有大约 40% 的计算。
+
+* [Mozilla-Ocho/llamafile](https://github.com/Mozilla-Ocho/llamafile) 目标是使开发人员和最终用户更容易访问开源大型语言模型。我们通过将 llama.cpp 与 Cosmopolitan Libc 合并到一个框架中来做到这一点，该框架将所有复杂性LLMs折叠成一个单文件可执行文件（称为“llamafile”），该可执行文件可在大多数计算机上本地运行，无需安装。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -1991,6 +2001,8 @@
 * [codefuse-ai/MFTCoder](https://github.com/codefuse-ai/MFTCoder) CodeFuse 的一个开源项目，用于多任务处理 Code-LLM（代码任务的大型语言模型），其中包括模型、数据集、训练代码库和推理指南。
 
 * [salesforce/CodeT5](https://github.com/salesforce/CodeT5) CodeT5的主页：用于代码理解和生成的开放代码LLM
+
+* [getcursor/cursor](https://github.com/getcursor/cursor) 基于 VSCode 🤖 的 AI 代码编辑器。聊天：与了解整个代码库的机器人交谈。编辑：要求 AI 更改代码块，查看编辑的内联差异。调试：将鼠标悬停在 linter 错误或堆栈跟踪上以自动修复它们。
 
 * [mckaywrigley/ai-code-translator](https://github.com/mckaywrigley/ai-code-translator) 使用 AI 将代码从一种语言翻译成另一种。
 
@@ -4320,6 +4332,12 @@
 
 * [Avaiga/taipy](https://github.com/Avaiga/taipy) 立即将数据和 AI 算法转换为生产就绪型 Web 应用程序。开发应用程序的前端，而无需了解 HTML、CSS 和 JS。通过简单的语法，加速创建可自定义的多页仪表板，并生成交互式界面，包括图表和各种广泛使用的控件。对数据流进行建模并编排管道。在存储、记录和可操作方案（管道执行）时对其进行管理，从而实现假设分析或 KPI 比较。
 
+* [mdbootstrap/TW-Elements](https://github.com/mdbootstrap/TW-Elements) Tailwind CSS 的大量免费交互式组件集合。
+
+* [IanLunn/Hover](https://github.com/IanLunn/Hover) CSS3 驱动的悬停效果，可用于链接、按钮、徽标、SVG、特色图像等。轻松应用于您自己的元素，修改或仅用于灵感。在 CSS、Sass 和 LESS 中可用。
+
+* [Advanced-Frontend/Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question) 公众号「高级前端进阶」作者，每天搞定一道前端大厂面试题
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4461,6 +4479,8 @@
 * [typecho/typecho](https://github.com/typecho/typecho) 一个PHP博客平台。简单而强大。
 
 * [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) 对PHP文件进行标记，并检测违反一组定义的编码标准的行为。
+
+* [filamentphp/filament](https://github.com/filamentphp/filament) Laravel 的精美全栈组件集合。使用 Livewire、Alpine.js 和 Tailwind CSS 为您的下一个应用程序提供完美的起点。
 
 * [serbanghita/Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) 一个轻量级的 PHP 类，用于检测移动设备（包括平板电脑）。它使用用户代理字符串与特定 HTTP 标头相结合来检测移动环境。
 
@@ -5232,6 +5252,12 @@
 
 * [BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter) 微信聊天记录导出备份程序
 
+* [chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) 用于连接、快速、next.js等的单行node.js http 代理中间件
+
+* [knadh/listmonk](https://github.com/knadh/listmonk) 高性能、自托管、时事通讯和邮件列表管理器，具有现代仪表板。
+
+* [KRTirtho/spotube](https://github.com/KRTirtho/spotube) 开源 Spotify 客户端，不需要 Premium，也不使用 Electron，适用于桌面和移动设备
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5985,6 +6011,8 @@
 
 * [huggingface/diffusers](https://github.com/huggingface/diffusers) 用于在 PyTorch 中生成图像和音频的最先进的扩散模型，用于生成分子的图像、音频甚至 3D 结构。无论您是在寻找简单的推理解决方案还是训练自己的扩散模型，扩散器都是一个支持两者的模块化工具箱。我们的库的设计侧重于可用性而不是性能，简单而不是简单，以及可定制性而不是抽象。扩散器提供三个核心组件：最先进的扩散管道，只需几行代码即可在推理中运行。可互换的噪声调度器，用于不同的扩散速度和输出质量。预训练模型，可用作构建块，并与调度程序结合使用，用于创建您自己的端到端扩散系统。
 
+* [Stability-AI/StableStudio](https://github.com/Stability-AI/StableStudio) Stability AI 的官方开源版本 DreamStudio，这是我们用于生成式 AI 的用户界面。基于 Web 的应用程序，允许用户创建和编辑生成的图像。
+
 * [TheRamU/Fay](https://github.com/TheRamU/Fay) Fay是一个完整的开源项目，包含Fay控制器及数字人模型，可灵活组合出不同的应用场景：虚拟主播、现场推销货、商品导购、语音助理、远程语音助理、数字人互动、数字人面试官及心理测评、贾维斯、Her。
 
 * [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini) DALL·E Mini - 从文本提示生成图像
@@ -6002,6 +6030,10 @@
 * [magic-research/magic-animate](https://github.com/magic-research/magic-animate) 使用扩散模型进行时间一致的人体图像动画，基于扩散的人体图像动画框架，旨在增强时间一致性，忠实地保留参考图像，并提高动画保真度。
 
 * [lucidrains/DALLE2-pytorch](https://github.com/lucidrains/DALLE2-pytorch) 在 Pytorch 中实现 DALL-E 2，OpenAI 更新的文本到图像合成神经网络
+
+* [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) 在 Apple 芯片上使用 Core ML 实现稳定扩散
+
+* [divamgupta/diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) 适用于 MacOS 的Stable Diffusion GUI 应用程序
 
 * [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
@@ -8319,6 +8351,8 @@
 
 * [kubesphere/kubesphere](https://github.com/kubesphere/kubesphere) 专为 Kubernetes 多云、数据中心和边缘管理⎈ desktop_computer cloud 量身定制的容器平台
 
+* [hashicorp/consul](https://github.com/hashicorp/consul) 分布式、高度可用且具有数据中心感知能力的解决方案，用于跨动态分布式基础架构连接和配置应用程序。
+
 * [foxlet/macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) 用于在 QEMU 中设置快速 macOS VM 的工具，由 KVM 加速。
 
 * [utmapp/UTM](https://github.com/utmapp/UTM) 适用于 iOS 和 macOS 的虚拟机
@@ -8346,6 +8380,8 @@
 * [docker/awesome-compose](https://github.com/docker/awesome-compose) 这些示例提供了如何使用 Compose 文件集成不同服务以及使用 Docker Compose 管理其部署的起点。
 
 * [wagoodman/dive](https://github.com/wagoodman/dive) 用于浏览 docker 映像中每个层的工具
+
+* [bcicen/ctop](https://github.com/bcicen/ctop) 容器运行情况监控界面
 
 * [hadolint/hadolint](https://github.com/hadolint/hadolint) 更智能的 Dockerfile linter，可帮助您构建最佳实践 Docker 映像。linter 将 Dockerfile 解析为 AST，并在 AST 之上执行规则。它站在 ShellCheck 的肩膀上，在指令中 `RUN` 对 Bash 代码进行 lint 检查。
 
@@ -9371,6 +9407,8 @@
 
 * [trimstray/the-practical-linux-hardening-guide](https://github.com/trimstray/the-practical-linux-hardening-guide) 本指南详细介绍了如何创建安全的 Linux 生产系统。OpenSCAP（C2S/CIS、STIG）。
 
+* [anderspitman/awesome-tunneling](https://github.com/anderspitman/awesome-tunneling) 此列表的目的是跟踪和比较隧道解决方案。这主要针对那些想要做一些事情的自托管者和开发人员，例如通过公共域名公开本地 Web 服务器，使用自动 HTTPS，即使在 NAT 或其他受限网络后面也是如此。
+
 # 硬件
 
 ## CPU RISC-V
@@ -9901,6 +9939,8 @@
 * [jobbole/awesome-cpp-cn](https://github.com/jobbole/awesome-cpp-cn) C++ 资源大全中文版，标准库、Web应用框架、人工智能、数据库、图片处理、机器学习、日志、代码分析等。
 
 * [AnthonyCalandra/modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features) 现代C++语言和库功能的备忘单。
+
+* [llvm/llvm-project](https://github.com/llvm/llvm-project) LLVM 项目是模块化和可重用的编译器和工具链技术的集合。用于构建高度优化的编译器、优化器和运行时环境的工具包。LLVM 项目有多个组件。该项目的核心本身称为“LLVM”。它包含处理中间表示并将其转换为目标文件所需的所有工具、库和头文件。工具包括汇编程序、反汇编程序、位码分析器和位码优化器。类 C 语言使用 Clang 前端。此组件使用 LLVM 将 C、C++、Objective-C 和 Objective-C++ 代码编译为 LLVM 位码，然后从那里编译为目标文件。其他组件包括：libc++ C++ 标准库、LLD 链接器等。
 
 * [Tencent/libco](https://github.com/Tencent/libco) 广泛应用于微信后台服务的协程库。 已经在数万台机器上运行。
 
@@ -11280,5 +11320,9 @@
 * [Sitoi/dailycheckin](https://github.com/Sitoi/dailycheckin) 基于Docker/青龙面板/群晖的每日签到脚本（支持多账号使用）签到列表: ｜爱奇艺｜全民K歌｜有道云笔记｜百度贴吧｜Bilibili｜V2EX｜AcFun｜什么值得买｜阿里云盘｜i茅台申购｜小米运动｜百度搜索资源平台｜恩山论坛｜奥拉星
 
 * [xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english) 不要再 “学” 英语，你就该 “用” 英语
+
+* [files-community/Files](https://github.com/files-community/Files) 构建适用于 Windows 的最佳文件管理器
+
+* [hellzerg/optimizer](https://github.com/hellzerg/optimizer) 高级配置实用程序，旨在增强您在 Windows 上的隐私和安全性。强烈建议在全新安装 Windows 后使用此工具，以实现最大的隐私和安全优势。根据您的 Windows 版本，Optimizer 还可以帮助您应用特定的系统调整。
 
 # end
