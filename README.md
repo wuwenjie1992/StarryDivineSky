@@ -1976,6 +1976,8 @@
 
 * [Mozilla-Ocho/llamafile](https://github.com/Mozilla-Ocho/llamafile) 目标是使开发人员和最终用户更容易访问开源大型语言模型。我们通过将 llama.cpp 与 Cosmopolitan Libc 合并到一个框架中来做到这一点，该框架将所有复杂性LLMs折叠成一个单文件可执行文件（称为“llamafile”），该可执行文件可在大多数计算机上本地运行，无需安装。
 
+* [flexflow/FlexFlow](https://github.com/flexflow/FlexFlow) 开源编译器和分布式系统，用于低延迟、高性能的 LLM 服务。FlexFlow Serve 在单节点、多 GPU 推理方面比现有系统高出 1.3-2.0 倍，在多节点、多 GPU 推理方面比现有系统高出 1.4-2.4 倍。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2256,6 +2258,8 @@
 * [RUC-GSAI/YuLan-Chat](https://github.com/RUC-GSAI/YuLan-Chat) 基于聊天的大型语言模型，由中国人民大学GSAI的研究人员开发（YuLan，代表玉兰，是中国人民大学的校园花）。最新版本是通过不断预训练和指令调整LLaMA-2开发的，具有高质量的中英文数据。
 
 * [Yu-Yang-Li/StarGLM](https://github.com/Yu-Yang-Li/StarGLM) 整合了司天工程相关的语料数据与知识库资料，训练得到了天文大模型。司天工程是时域天文学所提出的“十五五”天文重大基础设施，一期计划在国内多个优选观测台址布置54台（18组）口径1米级的大视场望远镜，组成多波段同时监测网络，每30分钟完成1万平方度天区的高精度三色“凝视”巡天。司天的采样频率比全球其它巡天项目高近两个量级，将突破目前探测时标的限制，在新的空域和时域下发现大批新天体、新现象，在宇宙极端高能爆发源、引力波电磁对应体、系外行星和太阳系天体等理论和观测研究中形成新的突破，在“两暗一黑三起源”等重大科学问题研究以及地球文明灾难预警等国家空间安全问题方面发挥重要作用。
+
+* [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM) 面壁智能与清华大学自然语言处理实验室共同开源的系列端侧大模型，主体语言模型 MiniCPM-2B 仅有 24亿的非词嵌入参数量, 总计2.7B参数量。经过 SFT 后，在公开综合性评测集上，与 Mistral-7B相近（中文、数学、代码能力更优），整体性能超越 Llama2-13B、MPT-30B、Falcon-40B 等模型。经过 DPO 后，在当前最接近用户体感的评测集 MTBench上，也超越了 Llama2-70B-Chat、Vicuna-33B、Mistral-7B-Instruct-v0.1、Zephyr-7B-alpha 等众多代表性开源大模型。以 MiniCPM-2B 为基础构建端侧多模态大模型 MiniCPM-V，整体性能在同规模模型中实现最佳，超越基于 Phi-2 构建的现有多模态大模型，在部分评测集上达到与 9.6B Qwen-VL-Chat 相当甚至更好的性能。经过 Int4 量化后，可在手机上进行部署推理，流式输出速度略高于人类说话速度。也直接跑通了多模态大模型在手机上的部署。一张1080/2080可高效参数微调，一张3090/4090可全参数微调，一台机器可持续训练 MiniCPM，二次开发成本较低。
 
 * [cocktailpeanut/dalai](https://github.com/cocktailpeanut/dalai) 在本地计算机上运行LLaMA语言模型的最简单方法
 
@@ -10507,6 +10511,8 @@
 
 * [codex-team/editor.js](https://github.com/codex-team/editor.js) 具有干净 JSON 输出的块式编辑器
 
+* [laurent22/joplin](https://github.com/laurent22/joplin) 安全的笔记和待办事项应用程序，具有适用于 Windows、macOS、Linux、Android 和 iOS 的同步功能。免费的开源笔记和待办事项应用程序，可以处理大量组织到笔记本中的笔记。笔记是可搜索的，可以直接从应用程序或您自己的文本编辑器中复制、标记和修改。注释采用 Markdown 格式。
+
 * [zyedidia/micro](https://github.com/zyedidia/micro) 现代且直观的基于终端的文本编辑器。旨在通过易于安装和使用成为 nano 编辑器的继承者。
 
 * [wangeditor-team/wangEditor](https://github.com/wangeditor-team/wangEditor) 开源 Web 富文本编辑器，开箱即用，配置简单。支持 JS Vue React 。
@@ -10604,6 +10610,22 @@
 * [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) 一款高度奇幻题材的开源回合制策略游戏。
 
 * [openstf/minitouch](https://github.com/openstf/minitouch) 最小的Android多点触控事件生成器。
+
+* [android/architecture-samples](https://github.com/android/architecture-samples) 展示了开发 Android 应用的不同体系结构方法。在它的不同分支中，你会发现相同的应用（一个 TODO 应用程序）的实现略有不同。
+
+* [android/architecture-components-samples](https://github.com/android/architecture-components-samples) Android 体系结构组件示例。
+
+* [android/compose-samples](https://github.com/android/compose-samples) 包含一组单独的 Android Studio 项目，可帮助您了解 Android 中的 Compose。每个示例都演示了不同的用例、复杂程度和 API。
+
+* [android/sunflower](https://github.com/android/sunflower) 一款园艺应用，演示了将基于视图的应用迁移到 Jetpack Compose 的 Android 开发最佳实践。
+
+* [android/nowinandroid](https://github.com/android/nowinandroid) 完全使用 Kotlin 和 Jetpack Compose 构建的全功能 Android 应用
+
+* [android/uamp](https://github.com/android/uamp) 实现跨多种外形规格运行的音频媒体应用，并在 Android 手机、平板电脑、Android Auto、Android Wear、Android TV、Google Cast 设备和 Google Assistant 上提供一致的用户体验。
+
+* [bumptech/glide](https://github.com/bumptech/glide) 适用于 Android 的图像加载和缓存库，专注于平滑滚动
+
+* [Blankj/AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) 功能强大且易于使用的Android库。该库封装了 Android 开发中常用的函数，这些函数具有完整的演示和单元测试。通过使用其封装的 API，可以大大提高开发效率。
 
 * [sanic-org/sanic](https://github.com/sanic-org/sanic) 异步 Python 3.7+ web 框架 
 
@@ -10821,6 +10843,10 @@
 
 * [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) 创意编码：生成艺术，数据可视化，交互设计，资源。
 
+* [alibaba/fastjson](https://github.com/alibaba/fastjson) Java 库，可用于将 Java 对象转换为其 JSON 表示形式。它还可用于将 JSON 字符串转换为等效的 Java 对象。Fastjson 可以处理任意 Java 对象，包括您没有源代码的预先存在的对象。
+
+* [alibaba/fastjson2](https://github.com/alibaba/fastjson2) 性能出色的 Java JSON 库。和FASTJSON 1相比，性能有非常大的提升，解决了autoType功能因为兼容和白名单的安全性问题。
+
 * [immich-app/immich](https://github.com/immich-app/immich) 直接从您的手机进行自托管照片和视频备份解决方案。
 
 * [SwifterSwift/SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) 包含 500 多个原生 Swift 扩展的便捷集合，可提高您的工作效率。
@@ -10829,6 +10855,8 @@
 
 * [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) 命令行应用的精选列表
 
+* [Trinea/android-open-project](https://github.com/Trinea/android-open-project) Android 开源项目分类汇总
+
 * [Freelander/Android_Data](https://github.com/Freelander/Android_Data) 一些安卓学习资料，希望能帮你学习安卓开发。
 
 * [Tencent/tinker](https://github.com/Tencent/tinker) Android 的热修复解决方案库，支持 dex、库和资源更新，无需重新安装 apk。
@@ -10836,6 +10864,12 @@
 * [Tamsiree/RxTool](https://github.com/Tamsiree/RxTool) Android开发人员不得不收集的工具类集合 | 支付宝支付 | 微信支付（统一下单） | 微信分享 | Zip4j压缩 | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 蛛网等级 | 颜色选择器 | ArcGis | VTPK 
 
 * [gyf-dev/ImmersionBar](https://github.com/gyf-dev/ImmersionBar) android 4.4以上沉浸式状态栏和沉浸式导航栏管理，适配横竖屏切换、刘海屏、软键盘弹出等问题，可以修改状态栏字体颜色和导航栏图标颜色，以及不可修改字体颜色手机的适配，适用于Activity、Fragment、DialogFragment、Dialog，PopupWindow
+
+* [bilibili/ijkplayer](https://github.com/bilibili/ijkplayer) 基于 FFmpeg n3.4 的 Android/iOS 视频播放器，支持 MediaCodec、VideoToolbox。
+
+* [square/leakcanary](https://github.com/square/leakcanary) 适用于 Android 的内存泄漏检测库。
+
+* [codepath/android_guides](https://github.com/codepath/android_guides) 面向 Android 开发人员的广泛开源指南
 
 * [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
 
@@ -11324,5 +11358,7 @@
 * [files-community/Files](https://github.com/files-community/Files) 构建适用于 Windows 的最佳文件管理器
 
 * [hellzerg/optimizer](https://github.com/hellzerg/optimizer) 高级配置实用程序，旨在增强您在 Windows 上的隐私和安全性。强烈建议在全新安装 Windows 后使用此工具，以实现最大的隐私和安全优势。根据您的 Windows 版本，Optimizer 还可以帮助您应用特定的系统调整。
+
+* [microsoft/calculator](https://github.com/microsoft/calculator) Windows 计算器：Windows 附带的简单而强大的计算器
 
 # end
