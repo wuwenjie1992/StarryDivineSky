@@ -10128,6 +10128,10 @@
 
 * [uutils/coreutils](https://github.com/uutils/coreutils) Rust 重写跨平台的GNU coreutils 
 
+* [ratatui-org/ratatui](https://github.com/ratatui-org/ratatui) Rust 库，就是关于构建终端用户界面 （TUI）
+
+* [ogham/exa](https://github.com/ogham/exa) rust编写的“ls”的现代替代品。提供更多功能和更好的默认值。它使用颜色来区分文件类型和元数据。它知道符号链接、扩展属性和 Git。它体积小，速度快，只有一个二进制文件。
+
 * [Canop/broot](https://github.com/Canop/broot) 查看和导航目录树的新方法
 
 * [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) 显示有关代码统计信息的程序。Tokei 将显示文件数、这些文件中的总行数以及按语言分组的代码、注释和空白。
@@ -10304,6 +10308,294 @@
 
 * [sirupsen/logrus](https://github.com/sirupsen/logrus) 用于 Go 的结构化、可插拔日志记录。
 
+## Java 程序设计
+
+* [akullpp/awesome-java](https://github.com/akullpp/awesome-java) Java 编程语言的优秀框架、库和软件的精选列表。
+
+* [itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer) Java学习指南，内容涵盖Java基础、并发编程、虚拟机、企业级开发、面试等核心知识点。
+
+* [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) 「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+
+* [doocs/advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
+
+* [ZhongFuCheng3y/athena](https://github.com/ZhongFuCheng3y/athena) Java后端知识图谱 帮助Java初学者成长
+
+* [google/guava](https://github.com/google/guava) Google Java 核心库
+
+* [apache/dubbo](https://github.com/apache/dubbo) Apache Dubbo 的 Java 实现。RPC 和微服务框架。
+
+* [winterbe/java8-tutorial](https://github.com/winterbe/java8-tutorial) 现代 Java - Java 8 指南
+
+* [AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily) 【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。
+
+* [ReactiveX/RxJava](https://github.com/ReactiveX/RxJava) JVM 的反应式扩展 – 一个库，用于使用 Java VM 的可观察序列编写异步和基于事件的程序。
+
+* [DuGuQiuBai/Java](https://github.com/DuGuQiuBai/Java) 27天成为Java大神
+
+* [CodingDocs/awesome-java](https://github.com/CodingDocs/awesome-java) Github上令人敬畏的Java项目集合（非常棒的 Java 开源项目集合）。
+
+* [fuzhengwei/CodeGuide](https://github.com/fuzhengwei/CodeGuide) 多年从事一线互联网 Java 开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。
+
+* [dromara/Sa-Token](https://github.com/dromara/Sa-Token) 史上功能最全的Java权限认证框架！目前已集成——登录认证、权限认证、分布式Session会话、微服务网关鉴权、单点登录、OAuth2.0、踢人下线、Redis集成、前后台分离、记住我模式、模拟他人账号、临时身份切换、账号封禁、多账号认证体系、注解式鉴权、路由拦截式鉴权、花式token生成、自动续签、同端互斥登录、会话治理、密码加密、jwt集成、Spring集成、WebFlux集成...
+
+* [hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer) Java工程师成神之路
+
+* [dromara/hutool](https://github.com/dromara/hutool) 功能丰富且易用的Java工具库，通过诸多实用工具类的使用，旨在帮助开发者快速、便捷地完成各类开发任务。 这些封装的工具涵盖了字符串、数字、集合、编码、日期、文件、IO、加密、数据库JDBC、JSON、HTTP客户端等一系列操作， 可以满足各种不同的开发需求。
+
+* [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) 无需 Docker 守护程序即可为您的 Java 应用构建优化的 Docker 和 OCI 映像，而无需深入了解 Docker 最佳实践。
+
+* [zxing/zxing](https://github.com/zxing/zxing) ZXing （“Zebra Crossing”） 适用于 Java、Android 的条码扫描库
+
+* [yangchong211/YCBlogs](https://github.com/yangchong211/YCBlogs)  技术博客笔记大汇总，包括Java基础，线程，并发，数据结构；Android技术博客等等；常用设计模式；常见的算法；网络协议知识点；部分flutter笔记；还包括平时开发中遇到的bug汇总，收集了大量的面试题
+
+* [Col-E/Recaf](https://github.com/Col-E/Recaf) 易于使用的现代 Java 字节码编辑器，它抽象出了 Java 程序的复杂性
+
+* [qunarcorp/bistoury](https://github.com/qunarcorp/bistoury) 去哪儿网的java应用生产问题诊断工具，提供一站式诊断方案
+
+* [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) 用 Java 实现的设计模式
+
+* [lingcoder/OnJava8](https://github.com/lingcoder/OnJava8) 《On Java 8》中文版
+
+* [alibaba/arthas](https://github.com/alibaba/arthas) 阿里巴巴开源的 Java 诊断工具。允许开发人员解决Java应用程序的生产问题，而无需修改代码或重新启动服务器。
+
+* [ LinShunKang/MyPerf4J](https://github.com/LinShunKang/MyPerf4J) 高性能 Java APM。由 ASM 提供支持。试试吧。
+
+* [andreabergia/rjvm](https://github.com/andreabergia/rjvm) 一个用 Rust 编写的小型 JVM。学习项目
+
+* [alibaba/fastjson](https://github.com/alibaba/fastjson) Java 库，可用于将 Java 对象转换为其 JSON 表示形式。它还可用于将 JSON 字符串转换为等效的 Java 对象。Fastjson 可以处理任意 Java 对象，包括您没有源代码的预先存在的对象。
+
+* [alibaba/fastjson2](https://github.com/alibaba/fastjson2) 性能出色的 Java JSON 库。和FASTJSON 1相比，性能有非常大的提升，解决了autoType功能因为兼容和白名单的安全性问题。
+
+* [gradle/gradle](https://github.com/gradle/gradle) 一款构建工具，专注于构建自动化和对多语言开发的支持。如果您在任何平台上构建、测试、发布和部署软件，Gradle 提供了一个灵活的模型，可以支持从编译和打包代码到发布网站的整个开发生命周期。Gradle 旨在支持跨多种语言和平台（包括 Java、Scala、Android、Kotlin、C/C++ 和 Groovy）的构建自动化，并与开发工具和持续集成服务器（包括 Eclipse、IntelliJ 和 Jenkins）紧密集成。
+
+## Android 应用
+
+* [android/architecture-samples](https://github.com/android/architecture-samples) 展示了开发 Android 应用的不同体系结构方法。在它的不同分支中，你会发现相同的应用（一个 TODO 应用程序）的实现略有不同。
+
+* [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
+
+* [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy) Android实时显示控制软件
+
+* [openstf/minitouch](https://github.com/openstf/minitouch) 最小的Android多点触控事件生成器。
+
+* [android/architecture-components-samples](https://github.com/android/architecture-components-samples) Android 体系结构组件示例。
+
+* [android/compose-samples](https://github.com/android/compose-samples) 包含一组单独的 Android Studio 项目，可帮助您了解 Android 中的 Compose。每个示例都演示了不同的用例、复杂程度和 API。
+
+* [android/sunflower](https://github.com/android/sunflower) 一款园艺应用，演示了将基于视图的应用迁移到 Jetpack Compose 的 Android 开发最佳实践。
+
+* [android/nowinandroid](https://github.com/android/nowinandroid) 完全使用 Kotlin 和 Jetpack Compose 构建的全功能 Android 应用
+
+* [android/uamp](https://github.com/android/uamp) 实现跨多种外形规格运行的音频媒体应用，并在 Android 手机、平板电脑、Android Auto、Android Wear、Android TV、Google Cast 设备和 Google Assistant 上提供一致的用户体验。
+
+* [bumptech/glide](https://github.com/bumptech/glide) 适用于 Android 的图像加载和缓存库，专注于平滑滚动
+
+* [Blankj/AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) 功能强大且易于使用的Android库。该库封装了 Android 开发中常用的函数，这些函数具有完整的演示和单元测试。通过使用其封装的 API，可以大大提高开发效率。
+
+* [waydroid/waydroid](https://github.com/waydroid/waydroid) 基于容器在GNU/Linux 系统上启动完整的 Android 系统。
+
+* [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。
+
+* [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) 一个很棒的Android UI / UX库的精选列表。
+
+* [JStumpp/awesome-android](https://github.com/JStumpp/awesome-android) 一个精选的 Android 软件包和资源列表。
+
+* [amitshekhariitbhu/Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database) 用于调试 android 数据库和共享首选项的库 - 让调试再次变得伟大
+
+* [Trinea/android-open-project](https://github.com/Trinea/android-open-project) Android 开源项目分类汇总
+
+* [Freelander/Android_Data](https://github.com/Freelander/Android_Data) 一些安卓学习资料，希望能帮你学习安卓开发。
+
+* [Tencent/tinker](https://github.com/Tencent/tinker) Android 的热修复解决方案库，支持 dex、库和资源更新，无需重新安装 apk。
+
+* [Tamsiree/RxTool](https://github.com/Tamsiree/RxTool) Android开发人员不得不收集的工具类集合 | 支付宝支付 | 微信支付（统一下单） | 微信分享 | Zip4j压缩 | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 蛛网等级 | 颜色选择器 | ArcGis | VTPK 
+
+* [gyf-dev/ImmersionBar](https://github.com/gyf-dev/ImmersionBar) android 4.4以上沉浸式状态栏和沉浸式导航栏管理，适配横竖屏切换、刘海屏、软键盘弹出等问题，可以修改状态栏字体颜色和导航栏图标颜色，以及不可修改字体颜色手机的适配，适用于Activity、Fragment、DialogFragment、Dialog，PopupWindow
+
+* [bilibili/ijkplayer](https://github.com/bilibili/ijkplayer) 基于 FFmpeg n3.4 的 Android/iOS 视频播放器，支持 MediaCodec、VideoToolbox。
+
+* [square/leakcanary](https://github.com/square/leakcanary) 适用于 Android 的内存泄漏检测库。
+
+* [codepath/android_guides](https://github.com/codepath/android_guides) 面向 Android 开发人员的广泛开源指南
+
+* [gedoor/legado](https://github.com/gedoor/legado) 一款适用于 Android 的免费开源小说阅读器。
+
+* [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi) 适用于 Android 的免费开源漫画阅读器。
+
+## 编辑器
+
+* [vim/vim](https://github.com/vim/vim) 老式UNIX编辑器Vi的大幅改进版本。添加了许多新功能：多级撤消、语法突出显示、命令行历史记录、在线帮助、拼写检查、文件名完成、块操作、脚本语言等。还有一个GUI可用。Vi 兼容性仍然保持不变。
+
+* [coder/code-server](https://github.com/coder/code-server) 浏览器中的 VS 代码编辑器
+
+* [microsoft/vscode](https://github.com/microsoft/vscode) 微软开源的程序开发工具和编辑器
+
+* [ajaxorg/ace](https://github.com/ajaxorg/ace) 用JS编写的独立代码编辑器。我们的目标是创建一个基于浏览器的编辑器，以匹配和扩展现有本机编辑器（如TextMate，Vim或Eclipse）的功能，可用性和性能。它可以很容易地嵌入到任何网页或JavaScript应用程序中。Ace是作为Cloud9 IDE的主要编辑器和Mozilla Skywriter（Bespin）项目的继任者开发的。
+
+* [VSCodium/vscodium](https://github.com/VSCodium/vscodium) 没有微软品牌/遥测/许可的vscode代码二进制版本
+
+* [quilljs/quill](https://github.com/quilljs/quill) 为兼容性和可扩展性而构建的现代所见即所得编辑器。
+
+* [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) 基于浏览器的代码编辑器。VSCode功能齐全编辑器。
+
+* [ianstormtaylor/slate](https://github.com/ianstormtaylor/slate) 一个完全可定制的框架，用于构建富文本编辑器。
+
+* [helix-editor/helix](https://github.com/helix-editor/helix) 受 Kakoune / Neovim 启发的编辑器，用 Rust 编写。编辑模型很大程度上基于 Kakoune;在开发过程中，同意Kakoune的大部分设计决策。
+
+* [codex-team/editor.js](https://github.com/codex-team/editor.js) 具有干净 JSON 输出的块式编辑器
+
+* [laurent22/joplin](https://github.com/laurent22/joplin) 安全的笔记和待办事项应用程序，具有适用于 Windows、macOS、Linux、Android 和 iOS 的同步功能。免费的开源笔记和待办事项应用程序，可以处理大量组织到笔记本中的笔记。笔记是可搜索的，可以直接从应用程序或您自己的文本编辑器中复制、标记和修改。注释采用 Markdown 格式。
+
+* [zyedidia/micro](https://github.com/zyedidia/micro) 现代且直观的基于终端的文本编辑器。旨在通过易于安装和使用成为 nano 编辑器的继承者。
+
+* [wangeditor-team/wangEditor](https://github.com/wangeditor-team/wangEditor) 开源 Web 富文本编辑器，开箱即用，配置简单。支持 JS Vue React 。
+
+* [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) 适用于 macOS 的 CodeEdit 应用程序 – 提升您的代码编辑体验。开源，永久免费。
+
+* [fastai/nbdev](https://github.com/fastai/nbdev) 编写、测试、记录和分发软件包和技术文章 — 所有这些都在一个地方，您的笔记本上。
+
+* [benweet/stackedit](https://github.com/benweet/stackedit) 基于 PageDown 的全功能开源 Markdown 编辑器，Stack Overflow 和其他 Stack Exchange 站点使用的 Markdown 库。
+
+* [purocean/yn](https://github.com/purocean/yn) 高度可扩展的 Markdown 编辑器。版本控制、AI Copilot、思维导图、文档加密、代码片段运行、集成终端、图表嵌入、HTML小程序、Reveal.js、插件和宏替换。
+
+* [nhn/tui.editor](https://github.com/nhn/tui.editor) Markdown 所见即所得编辑器。 GFM 标准 + 图表和 UML 可扩展。
+
+* [SpaceVim/SpaceVim](https://github.com/SpaceVim/SpaceVim) 社区驱动的模块化 vim/neovim 发行版
+
+* [NvChad/NvChad](https://github.com/NvChad/NvChad) 超快的 Neovim 框架提供可靠的默认设置和漂亮的 UI，增强您的 neovim 体验。
+
+* [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) Notepad++ 文本编辑器官方仓库
+
+* [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) 为web开发人员准备的无头编辑器框架
+
+* [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs) 社区驱动的Emacs发行版 - 最好的编辑器既不是Emacs也不是Vim，而是Emacs *和* Vim！
+
+* [eclipse-theia/theia](https://github.com/eclipse-theia/theia) 一个用 TypeScript 实现的云和桌面 IDE 框架。
+
+* [yabwe/medium-editor](https://github.com/yabwe/medium-editor) Medium.com 所见即所得编辑器克隆。使用 contenteditable API 实现富文本解决方案。
+
+* [lapce/lapce](https://github.com/lapce/lapce) 用 Rust 编写的闪电般快速且功能强大的代码编辑器
+
+* [xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) 一个现代编辑器，后端用 Rust 编写。
+
+* [judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial) IntelliJ IDEA 简体中文专题教程，对于语言开发学习者我是非常建议你使用 IntelliJ IDEA，因为一些代码格式、命名规范在 IntelliJ IDEA 下都是有良好的提示，对于我们所处的输入法下的中文全角符号也可以得到快速发现。
+
+* [atom/atom](https://github.com/atom/atom)  21 世纪的可破解文本编辑器，基于 Electron 构建，并基于我们喜欢的编辑器的一切。我们将其设计为可深度定制，但使用默认配置仍然可以使用。
+
+* [DaveJarvis/keenwrite](https://github.com/DaveJarvis/keenwrite) Java的Markdown编辑器，具有实时预览，字符串插值和公式
+
+* [marktext/marktext](https://github.com/marktext/marktext) 简单优雅的markdown编辑器，适用于 Linux、mac 和 Win。
+
+* [facebook/lexical](https://github.com/facebook/lexical) 可扩展的 JS Web 文本编辑器框架，强调可靠、可访问性和性能。
+
+* [ranger/ranger](https://github.com/ranger/ranger) 受 VIM 启发的控制台文件管理器
+
+* [antirez/kilo](https://github.com/antirez/kilo/) 小于 1000 LOC 的文本编辑器，具有语法突出显示和搜索功能。
+
+* [LunarVim/LunarVim](https://github.com/LunarVim/LunarVim) Neovim 的 IDE，具有合理的默认值。完全免费，由社区驱动。
+
+* [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) 语言服务器协议 （LSP） 定义了编辑器或 IDE 与提供语言功能（如自动完成、转到定义、查找所有引用等）的语言服务器之间使用的协议。语言服务器索引格式（LSIF，发音类似于“else if”）的目标是在开发工具或 Web UI 中支持丰富的代码导航，而无需源代码的本地副本。
+
+* [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 查找、筛选、预览、拾取。所有 lua，无时无刻不在。高度可扩展的列表模糊查找器。建立在核心的最新 neovim 强大功能之上。望远镜以模块化为中心，允许轻松定制。
+
+* [AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim) 美观且功能丰富的 neovim 配置，可扩展且易于使用，并带有一组很棒的插件
+
+* [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) 学习 Vim 和 Vimscript 并不难。这是您正在寻找的指南
+
+* [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) eovim 插件的集合
+
+* [VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim) Vim bundle 的缩写，是一个 Vim 插件管理器。
+
+* [powerline/powerline](https://github.com/powerline/powerline) Powerline是vim的状态线插件，并为其他几个应用程序提供状态线和提示，包括zsh，bash，tmux，IPython，Awesome和Qtile。
+
+* [mhinz/vim-galore](https://github.com/mhinz/vim-galore)  Vim 从入门到精通 [Eric Wong / Vim 从入门到精通 · GitLab](https://gitlab.com/wsdjeg/vim-galore-zh_cn)
+
+* [doomemacs/doomemacs](https://github.com/doomemacs/doomemacs) GNU Emacs 的配置框架，专为 Emacs 破产老手量身定制，他们希望框架中的框架更少，包管理器有一点稳定性（和可重复性），以及手动配置的性能（或更好）。它可以成为您自己配置的基础，也可以成为 Emacs 爱好者了解更多关于我们最喜欢的操作系统的资源。
+
+## 终端
+
+* [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) 精选的令人愉快的 Bash 脚本和资源列表。
+
+* [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) 很棒的命令行框架、工具包、指南和小玩意的精选列表。
+
+* [vinayak-mehta/present](https://github.com/vinayak-mehta/present) 基于终端的演示工具，具有颜色和效果。
+
+* [willmcgugan/rich](https://github.com/willmcgugan/rich) 一个终端内富文本和美化的python库。
+
+* [davidbrochart/nbterm](https://github.com/davidbrochart/nbterm) 在终端中查看、编辑、执行Jupyter笔记。
+
+* [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) 跨平台、快速、功能丰富、基于 GPU 的终端
+
+* [Eugeny/tabby](https://github.com/Eugeny/tabby) 一个更现代的终端
+
+* [nushell/nushell](https://github.com/nushell/nushell) 一种新型终端。从 PowerShell、函数式编程语言和现代 CLI 工具等项目中汲取灵感。 Nu 不是将文件和数据视为原始文本流，而是将每个输入视为具有结构的东西。
+
+* [yudai/gotty](https://github.com/yudai/gotty) 将您的终端共享为 Web 应用程序
+
+* [alacritty/alacritty](https://github.com/alacritty/alacritty) 一个跨平台的 OpenGL 终端模拟器。
+
+* [mvdan/sh](https://github.com/mvdan/sh) Go写的具有 bash 支持的 shell 解析器、格式化程序和解释器;包括 SHFMT。SHELL分析器、格式化程序和解释器。支持 POSIX Shell、Bash 和 mksh。需要 Go 1.19 或更高版本。
+
+* [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) 超过 250 种 iTerm/iTerm2 的终端配色方案/主题。包括终端，Konsole，PuTTY，Xresources，XRDB，Remmina，Termite，XFCE，Tilda，FreeBSD VT，Terminator，Kitty，MobaXterm，LXTerminal，Microsoft的Windows终端，Visual Studio，Alacritty的端口
+
+* [zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) shell zsh 提供语法高亮显示。它允许在 zsh 提示符下将命令键入到交互式终端中时突出显示命令。这有助于在运行命令之前查看命令，尤其是在捕获语法错误时。
+
+* [asciinema/asciinema](https://github.com/asciinema/asciinema) 轻松记录终端会话，并在终端和 Web 浏览器中重播它们。
+
+* [faressoft/terminalizer](https://github.com/faressoft/terminalizer) 录制您的终端并生成动画 gif 图像或共享网络播放器
+
+* [microsoft/terminal](https://github.com/microsoft/terminal) 新的Windows终端和原始Windows控制台主机
+
+* [vercel/hyper](https://github.com/vercel/hyper) 基于网络技术的终端，目标是为命令行界面用户创建基于开放 Web 标准构建的美观且可扩展的体验。一开始，我们的重点将主要放在速度、稳定性和为扩展作者开发正确的 API 上。
+
+* [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) 用 TypeScript 编写的前端组件，它允许应用程序在浏览器中为其用户提供功能齐全的终端。它被 VS Code、Hyper 和 Theia 等流行项目使用。
+
+* [enquirer/enquirer](https://github.com/enquirer/enquirer) 时尚的 CLI 提示，用户友好、直观且易于创建。
+
+* [wez/wezterm](https://github.com/wez/wezterm) @wez 编写Rust 实现的 GPU 加速跨平台终端仿真器和多路复用器
+
+* [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) ZSH 框架、插件、主题和教程的集合。
+
+* [warpdotdev/Warp](https://github.com/warpdotdev/Warp) 基于 Rust 的现代终端，内置了 AI，因此您和您的团队可以更快地构建出色的软件。速度极快的现代基于 Rust 的 GPU 加速终端，旨在提高您和您的团队的工作效率。
+
+* [zellij-org/zellij](https://github.com/zellij-org/zellij) 面向开发人员、面向运营人员和任何喜欢终端的人的工作空间。类似的程序有时被称为“终端多路复用器”。
+
+* [termux/termux-app](https://github.com/termux/termux-app) 适用于 Android 操作系统的终端模拟器应用程序，可通过各种软件包进行扩展。适用于 Android 的终端模拟器，其环境类似于 Linux 环境。 无需Root或设置即可使用。 Termux 会自动进行最小安装 - 使用 APT 包管理器即可获得其他软件包。
+
+* [termux/termux-packages](https://github.com/termux/termux-packages) 为 Termux Android 应用程序构建包的脚本和补丁。
+
+* [gnachman/iTerm2](https://github.com/gnachman/iTerm2) Mac OS X 的终端模拟器，可以做一些令人惊奇的事情。
+
+* [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) 专业的跨平台SSH/Sftp/Shell/Telnet/串口终端。
+
+* [tmuxinator/tmuxinator](https://github.com/tmuxinator/tmuxinator) 轻松管理复杂的 tmux 会话
+
+* [junegunn/fzf](https://github.com/junegunn/fzf) 通用的命令行模糊查找器。用于命令行的交互式 Unix 过滤器，可以与任何列表一起使用;文件、命令历史记录、进程、主机名、书签、git 提交等。
+
+* [charmbracelet/vhs](https://github.com/charmbracelet/vhs) CLI 录像机
+
+* [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) 常见 unix 命令的现代/更快/更健全的替代方案的集合。
+
+* [withfig/autocomplete](https://github.com/withfig/autocomplete) 当您键入时，Fig 会在您现有的终端中弹出子命令、选项和上下文相关参数。
+
+* [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)  一个跨平台（Windows、Linux 和 macOS）自动化和配置工具/框架，可与现有工具配合使用，并针对处理结构化数据（例如 JSON、CSV、XML 等）、REST API 和对象模型进行了优化。它包括命令行 shell、关联的脚本语言和用于处理 cmdlet 的框架。
+
+* [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 像Fish一样快速/不显眼的 zsh 自动建议。
+
+* [cmderdev/cmder](https://github.com/cmderdev/cmder) 出于对 Windows 上缺乏可用的控制台模拟器的挫败感而创建的。它基于 ConEmu，对配置进行了重大改革，带有 Monokai 配色方案、惊人的叮当声（通过叮当声完成进一步增强）和自定义提示布局。
+
+* [jarun/nnn](https://github.com/jarun/nnn) 功能齐全的终端文件管理器。它很小，几乎是 0 配置，而且速度快得令人难以置信。nnn 可以分析磁盘使用情况、批量重命名、启动应用程序和选择文件。插件存储库有大量的插件来进一步扩展功能，例如实时预览、（取消）挂载磁盘、查找和列表、文件/目录差异、上传文件。
+
+* [charmbracelet/gum](https://github.com/charmbracelet/gum) 一款令人着迷的 shell 脚本工具，无需编写任何代码就能利用 Bubbles 和 Lip Gloss 的功能在脚本和别名中发挥作用。
+
+* [xonsh/xonsh](https://github.com/xonsh/xonsh) Python驱动的跨平台Unix shell
+
+* [starship/starship](https://github.com/starship/starship) 适用于任何 shell 的最小、极快且可无限自定义的提示符
+
+* [shelljs/shelljs](https://github.com/shelljs/shelljs) Node.js 的可移植 Unix shell 命令
+
+* [sqshq/sampler](https://github.com/sqshq/sampler) 用于 shell 命令执行、可视化和警报的工具。使用简单的 YAML 文件进行配置。
+
 ## 其他
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
@@ -10410,53 +10702,11 @@
 
 * [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) 令人敬畏的 CS 课程，这些课程提供高质量的材料，即免费在线提供作业、讲座、笔记、阅读材料和考试。
 
-* [akullpp/awesome-java](https://github.com/akullpp/awesome-java) Java 编程语言的优秀框架、库和软件的精选列表。
-
-* [itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer) Java学习指南，内容涵盖Java基础、并发编程、虚拟机、企业级开发、面试等核心知识点。
-
-* [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) 「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
-
-* [doocs/advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
-- [ZhongFuCheng3y/athena](https://github.com/ZhongFuCheng3y/athena) Java后端知识图谱 帮助Java初学者成长
-
-- [google/guava](https://github.com/google/guava) Google Java 核心库
-
-- [apache/dubbo](https://github.com/apache/dubbo) Apache Dubbo 的 Java 实现。RPC 和微服务框架。
-
-- [winterbe/java8-tutorial](https://github.com/winterbe/java8-tutorial) 现代 Java - Java 8 指南
-
-- [AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily) 【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。
-
-- [ReactiveX/RxJava](https://github.com/ReactiveX/RxJava) JVM 的反应式扩展 – 一个库，用于使用 Java VM 的可观察序列编写异步和基于事件的程序。
-
-- [DuGuQiuBai/Java](https://github.com/DuGuQiuBai/Java) 27天成为Java大神
-
-- [CodingDocs/awesome-java](https://github.com/CodingDocs/awesome-java) Github上令人敬畏的Java项目集合（非常棒的 Java 开源项目集合）。
-
-- [fuzhengwei/CodeGuide](https://github.com/fuzhengwei/CodeGuide) 多年从事一线互联网 Java 开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。
-
-- [dromara/Sa-Token](https://github.com/dromara/Sa-Token) 史上功能最全的Java权限认证框架！目前已集成——登录认证、权限认证、分布式Session会话、微服务网关鉴权、单点登录、OAuth2.0、踢人下线、Redis集成、前后台分离、记住我模式、模拟他人账号、临时身份切换、账号封禁、多账号认证体系、注解式鉴权、路由拦截式鉴权、花式token生成、自动续签、同端互斥登录、会话治理、密码加密、jwt集成、Spring集成、WebFlux集成...
-* [hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer) Java工程师成神之路
-
-* [dromara/hutool](https://github.com/dromara/hutool) 功能丰富且易用的Java工具库，通过诸多实用工具类的使用，旨在帮助开发者快速、便捷地完成各类开发任务。 这些封装的工具涵盖了字符串、数字、集合、编码、日期、文件、IO、加密、数据库JDBC、JSON、HTTP客户端等一系列操作， 可以满足各种不同的开发需求。
-
-* [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) 无需 Docker 守护程序即可为您的 Java 应用构建优化的 Docker 和 OCI 映像，而无需深入了解 Docker 最佳实践。
-
-* [zxing/zxing](https://github.com/zxing/zxing) ZXing （“Zebra Crossing”） 适用于 Java、Android 的条码扫描库
-
-* [yangchong211/YCBlogs](https://github.com/yangchong211/YCBlogs)  技术博客笔记大汇总，包括Java基础，线程，并发，数据结构；Android技术博客等等；常用设计模式；常见的算法；网络协议知识点；部分flutter笔记；还包括平时开发中遇到的bug汇总，收集了大量的面试题
-
-* [Col-E/Recaf](https://github.com/Col-E/Recaf) 易于使用的现代 Java 字节码编辑器，它抽象出了 Java 程序的复杂性
-
-* [qunarcorp/bistoury](https://github.com/qunarcorp/bistoury) 去哪儿网的java应用生产问题诊断工具，提供一站式诊断方案
-
 * [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) 提供了一个开发人员友好的API，可以与Chromium和LibreOffice等强大的工具进行交互，以将多种文档格式（HTML，Markdown，Word，Excel等）转换为PDF文件等等！
 
 * [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集GitHub高质量、有趣的开源项目。
 
 * [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) 收集了各种类别的出色 macOS 软件。
-
-* [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) 很棒的命令行框架、工具包、指南和小玩意的精选列表。
 
 * [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) 一系列应用创意，可用于提高您的编码技能。
 
@@ -10464,8 +10714,6 @@
 
 * [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) 一个交互式编译器探索网站。在
    C、C++、C#、F#、Rust、Go、D、Haskell、Swift、Pascal、ispc、Python、Java 或其他 30 多种支持的语言中编辑代码，并查看代码在实际编译后的样子时间。每种语言都支持多个编译器，可以使用许多不同的工具和可视化，并且 UI 布局是可配置
-
-* [coder/code-server](https://github.com/coder/code-server) 浏览器中的 VS 代码编辑器
 
 * [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) 精选的令人愉快的 VS Code 包和资源列表。
 
@@ -10495,60 +10743,6 @@
 
 * [outline/outline](https://github.com/outline/outline) 成长团队最快的知识库。美观、实时协作、功能丰富且兼容降价。
 
-* [microsoft/vscode](https://github.com/microsoft/vscode) 微软开源的程序开发工具和编辑器
-
-* [ajaxorg/ace](https://github.com/ajaxorg/ace) 用JS编写的独立代码编辑器。我们的目标是创建一个基于浏览器的编辑器，以匹配和扩展现有本机编辑器（如TextMate，Vim或Eclipse）的功能，可用性和性能。它可以很容易地嵌入到任何网页或JavaScript应用程序中。Ace是作为Cloud9 IDE的主要编辑器和Mozilla Skywriter（Bespin）项目的继任者开发的。
-
-* [VSCodium/vscodium](https://github.com/VSCodium/vscodium) 没有微软品牌/遥测/许可的vscode代码二进制版本
-
-* [quilljs/quill](https://github.com/quilljs/quill) 为兼容性和可扩展性而构建的现代所见即所得编辑器。
-
-* [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) 基于浏览器的代码编辑器。VSCode功能齐全编辑器。
-
-* [ianstormtaylor/slate](https://github.com/ianstormtaylor/slate) 一个完全可定制的框架，用于构建富文本编辑器。
-
-* [helix-editor/helix](https://github.com/helix-editor/helix) 受 Kakoune / Neovim 启发的编辑器，用 Rust 编写。编辑模型很大程度上基于 Kakoune;在开发过程中，同意Kakoune的大部分设计决策。
-
-* [codex-team/editor.js](https://github.com/codex-team/editor.js) 具有干净 JSON 输出的块式编辑器
-
-* [laurent22/joplin](https://github.com/laurent22/joplin) 安全的笔记和待办事项应用程序，具有适用于 Windows、macOS、Linux、Android 和 iOS 的同步功能。免费的开源笔记和待办事项应用程序，可以处理大量组织到笔记本中的笔记。笔记是可搜索的，可以直接从应用程序或您自己的文本编辑器中复制、标记和修改。注释采用 Markdown 格式。
-
-* [zyedidia/micro](https://github.com/zyedidia/micro) 现代且直观的基于终端的文本编辑器。旨在通过易于安装和使用成为 nano 编辑器的继承者。
-
-* [wangeditor-team/wangEditor](https://github.com/wangeditor-team/wangEditor) 开源 Web 富文本编辑器，开箱即用，配置简单。支持 JS Vue React 。
-
-* [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) 适用于 macOS 的 CodeEdit 应用程序 – 提升您的代码编辑体验。开源，永久免费。
-
-* [fastai/nbdev](https://github.com/fastai/nbdev) 编写、测试、记录和分发软件包和技术文章 — 所有这些都在一个地方，您的笔记本上。
-
-* [benweet/stackedit](https://github.com/benweet/stackedit) 基于 PageDown 的全功能开源 Markdown 编辑器，Stack Overflow 和其他 Stack Exchange 站点使用的 Markdown 库。
-
-* [purocean/yn](https://github.com/purocean/yn) 高度可扩展的 Markdown 编辑器。版本控制、AI Copilot、思维导图、文档加密、代码片段运行、集成终端、图表嵌入、HTML小程序、Reveal.js、插件和宏替换。
-
-* [nhn/tui.editor](https://github.com/nhn/tui.editor) Markdown 所见即所得编辑器。 GFM 标准 + 图表和 UML 可扩展。
-
-* [SpaceVim/SpaceVim](https://github.com/SpaceVim/SpaceVim) 社区驱动的模块化 vim/neovim 发行版
-
-* [NvChad/NvChad](https://github.com/NvChad/NvChad) 超快的 Neovim 框架提供可靠的默认设置和漂亮的 UI，增强您的 neovim 体验。
-
-* [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) Notepad++ 文本编辑器官方仓库
-
-* [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) 为web开发人员准备的无头编辑器框架
-
-* [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs) 社区驱动的Emacs发行版 - 最好的编辑器既不是Emacs也不是Vim，而是Emacs *和* Vim！
-
-* [eclipse-theia/theia](https://github.com/eclipse-theia/theia) 一个用 TypeScript 实现的云和桌面 IDE 框架。
-
-* [yabwe/medium-editor](https://github.com/yabwe/medium-editor) Medium.com 所见即所得编辑器克隆。使用 contenteditable API 实现富文本解决方案。
-
-* [lapce/lapce](https://github.com/lapce/lapce) 用 Rust 编写的闪电般快速且功能强大的代码编辑器
-
-* [xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) 一个现代编辑器，后端用 Rust 编写。
-
-* [judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial) IntelliJ IDEA 简体中文专题教程，对于语言开发学习者我是非常建议你使用 IntelliJ IDEA，因为一些代码格式、命名规范在 IntelliJ IDEA 下都是有良好的提示，对于我们所处的输入法下的中文全角符号也可以得到快速发现。
-
-* [atom/atom](https://github.com/atom/atom)  21 世纪的可破解文本编辑器，基于 Electron 构建，并基于我们喜欢的编辑器的一切。我们将其设计为可深度定制，但使用默认配置仍然可以使用。
-
 * [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) 允许您记录屏幕的选定区域，编辑并将其保存为 gif 或视频。需要 .NET 6 桌面运行时（或更高版本）。
 
 * [mifi/lossless-cut](https://github.com/mifi/lossless-cut) 无损视频/音频编辑的瑞士军刀。跨平台 FFmpeg GUI，用于对视频、音频、字幕和其他相关媒体文件进行极其快速和无损的操作。
@@ -10561,33 +10755,15 @@
 
 * [coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy) 互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。
 
-* [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) 用 Java 实现的设计模式
-
-* [lingcoder/OnJava8](https://github.com/lingcoder/OnJava8) 《On Java 8》中文版
-
-* [alibaba/arthas](https://github.com/alibaba/arthas) 阿里巴巴开源的 Java 诊断工具。允许开发人员解决Java应用程序的生产问题，而无需修改代码或重新启动服务器。
-
-* [ LinShunKang/MyPerf4J](https://github.com/LinShunKang/MyPerf4J) 高性能 Java APM。由 ASM 提供支持。试试吧。
-
-* [andreabergia/rjvm](https://github.com/andreabergia/rjvm) 一个用 Rust 编写的小型 JVM。学习项目
-
 * [modichirag/flowpm](https://github.com/modichirag/flowpm) TensorFlow中的粒子网格模拟N体宇宙学模拟
 
 * [3b1b/manim](https://github.com/3b1b/manim) 用于精确编程动画的引擎，专为创建解释性数学视频而设计。
 
-* [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy) Android实时显示控制软件
-
 * [bennettfeely/bennett](https://github.com/bennettfeely/bennett) ztext 易于实现的3D网页排版。适用于每种字体。
-
-* [DaveJarvis/keenwrite](https://github.com/DaveJarvis/keenwrite) Java的Markdown编辑器，具有实时预览，字符串插值和公式
-
-* [vinayak-mehta/present](https://github.com/vinayak-mehta/present) 基于终端的演示工具，具有颜色和效果。
 
 * [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) 熟练使用命令行是一项经常被忽视或被认为是晦涩难懂的技能，但它以明显和微妙的方式提高了您作为工程师的灵活性和生产力。这是一些关于使用命令行的笔记和技巧，我们发现在 Linux 上工作时很有用。有些技巧是基本的，有些则相当具体、复杂或晦涩难懂。这个页面不长，但如果你能使用和回忆这里的所有项目，你就会知道很多。
 
 * [girliemac/a-picture-is-worth-a-1000-words](https://github.com/girliemac/a-picture-is-worth-a-1000-words) 用简单的涂鸦来描述复杂的事情！包括：算法、web、机器学习、Git、HTTP 状态等
-
-* [willmcgugan/rich](https://github.com/willmcgugan/rich) 一个终端内富文本和美化的python库。
 
 * [dxx/react-bilibili](https://github.com/dxx/react-bilibili) 高仿B站web移动端
 
@@ -10599,8 +10775,6 @@
 
 * [nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic) 解锁网易云音乐客户端变灰歌曲
 
-* [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
-
 * [opensumi/core](https://github.com/opensumi/core) 帮助您快速构建云或桌面 IDE 产品。
 
 * [xiangyuecn/Recorder](https://github.com/xiangyuecn/Recorder) html5 js 录音 mp3 wav ogg webm amr 格式，支持pc和Android、iOS部分浏览器、Hybrid App（提供Android iOS App源码）、微信
@@ -10609,27 +10783,7 @@
 
 * [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) 一款高度奇幻题材的开源回合制策略游戏。
 
-* [openstf/minitouch](https://github.com/openstf/minitouch) 最小的Android多点触控事件生成器。
-
-* [android/architecture-samples](https://github.com/android/architecture-samples) 展示了开发 Android 应用的不同体系结构方法。在它的不同分支中，你会发现相同的应用（一个 TODO 应用程序）的实现略有不同。
-
-* [android/architecture-components-samples](https://github.com/android/architecture-components-samples) Android 体系结构组件示例。
-
-* [android/compose-samples](https://github.com/android/compose-samples) 包含一组单独的 Android Studio 项目，可帮助您了解 Android 中的 Compose。每个示例都演示了不同的用例、复杂程度和 API。
-
-* [android/sunflower](https://github.com/android/sunflower) 一款园艺应用，演示了将基于视图的应用迁移到 Jetpack Compose 的 Android 开发最佳实践。
-
-* [android/nowinandroid](https://github.com/android/nowinandroid) 完全使用 Kotlin 和 Jetpack Compose 构建的全功能 Android 应用
-
-* [android/uamp](https://github.com/android/uamp) 实现跨多种外形规格运行的音频媒体应用，并在 Android 手机、平板电脑、Android Auto、Android Wear、Android TV、Google Cast 设备和 Google Assistant 上提供一致的用户体验。
-
-* [bumptech/glide](https://github.com/bumptech/glide) 适用于 Android 的图像加载和缓存库，专注于平滑滚动
-
-* [Blankj/AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) 功能强大且易于使用的Android库。该库封装了 Android 开发中常用的函数，这些函数具有完整的演示和单元测试。通过使用其封装的 API，可以大大提高开发效率。
-
 * [sanic-org/sanic](https://github.com/sanic-org/sanic) 异步 Python 3.7+ web 框架 
-
-* [davidbrochart/nbterm](https://github.com/davidbrochart/nbterm) 在终端中查看、编辑、执行Jupyter笔记。
 
 * [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) 哔哩哔哩-API收集整理
 
@@ -10673,8 +10827,6 @@
 
 * [PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
 
-* [marktext/marktext](https://github.com/marktext/marktext) 简单优雅的markdown编辑器，适用于 Linux、mac 和 Win。
-
 * [weartist/computer_book_list](https://github.com/weartist/computer_book_list) 综合了豆瓣，goodreads综合评分的计算机书籍书单
 
 * [sunym1993/flash-linux0.11-talk](https://github.com/sunym1993/flash-linux0.11-talk) 像小说一样品读 Linux 0.11 核心代码
@@ -10685,17 +10837,11 @@
 
 * [HC小区业主版: hc智慧家园小程序 ](https://gitee.com/java110/WechatOwnerService) HC小区开源项目的一个分支项目，主要给业主使用，其中包括缴物业费，缴停车费，投诉建议，家庭成员维护，房屋保修 房屋出租，公告查看，小区圈等功能。
 
-* [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) 跨平台、快速、功能丰富、基于 GPU 的终端
-
 * [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China) 中华人民共和国行政区划：省级（省份）、 地级（城市）、 县级（区县）、 乡级（乡镇街道）、 村级（村委会居委会） ，中国省市区镇村二级三级四级五级联动地址数据。
 
 * [H5-Dooring/dooringx](https://github.com/H5-Dooring/dooringx) 快速高效搭建可视化拖拽平台
 
 * [zadam/trilium](https://github.com/zadam/trilium) 使用 Trilium Notes 建立您的个人知识库
-
-* [Eugeny/tabby](https://github.com/Eugeny/tabby) 一个更现代的终端
-
-* [nushell/nushell](https://github.com/nushell/nushell) 一种新型终端。从 PowerShell、函数式编程语言和现代 CLI 工具等项目中汲取灵感。 Nu 不是将文件和数据视为原始文本流，而是将每个输入视为具有结构的东西。
 
 * [TastSong/CrazyCar](https://github.com/TastSong/CrazyCar) 网络联机游戏解决方案---Unity制作的联机赛车游戏，服务端为SpringBoot + Mybatis；后台为Vue + Element；游戏端采用QFramework框架，支持KCP和WebSocket网络(商用级)
 
@@ -10705,17 +10851,11 @@
 
 * [polybar/polybar](https://github.com/polybar/polybar) 快速且易于使用的状态栏
 
-* [yudai/gotty](https://github.com/yudai/gotty) 将您的终端共享为 Web 应用程序
-
-* [alacritty/alacritty](https://github.com/alacritty/alacritty) 一个跨平台的 OpenGL 终端模拟器。
-
 * [pmgl/microstudio](https://github.com/pmgl/microstudio) 免费、开源的在线游戏引擎 nodejs
 
 * [flareteam/flare-game](https://github.com/flareteam/flare-game) 使用 FLARE 引擎的奇幻动作角色扮演游戏
 
 * [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) 精益副业：程序员如何优雅地做副业
-
-* [facebook/lexical](https://github.com/facebook/lexical) 可扩展的 JS Web 文本编辑器框架，强调可靠、可访问性和性能。
 
 * [fanmingming/live](https://github.com/fanmingming/live) 一个国内可直连的直播源分享项目  永久免费 直连访问 完整开源 不含广告 完善的台标 直播源支持IPv4/IPv6双栈访问 
 
@@ -10735,8 +10875,6 @@
 
 * [charmbracelet/vhs](https://github.com/charmbracelet/vhs) 集测试和演示 CLI 于一身的视频记录仪，它会根据你的指令生成相关的操作视频。
 
-* [waydroid/waydroid](https://github.com/waydroid/waydroid) 基于容器在GNU/Linux 系统上启动完整的 Android 系统。
-
 * [XorTroll/Goldleaf](https://github.com/XorTroll/Goldleaf) Nintendo Switch 游戏机的多用途自制工具。
 
 * [Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx) 用 C# 编写的实验性 Nintendo Switch 游戏机 模拟器
@@ -10746,8 +10884,6 @@
 * [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) Windows 启动器，Alfred 和 Launchy 的替代品。
 
 * [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) 用于素描手绘图的虚拟白板 [->立即使用](https://excalidraw.com)
-
-* [charmbracelet/gum](https://github.com/charmbracelet/gum) 一款令人着迷的 shell 脚本工具，无需编写任何代码就能利用 Bubbles 和 Lip Gloss 的功能在脚本和别名中发挥作用。
 
 * [Splode/pomotroid](https://github.com/Splode/pomotroid) 简单且视觉上令人愉悦的番茄钟计时器。
 
@@ -10761,11 +10897,7 @@
 
 * [jserv/shecc](https://github.com/jserv/shecc) 从头开始构建，针对 32 位 Arm 和 RISC-V 架构，作为 C 语言子集的自编译编译器。
 
-* [xonsh/xonsh](https://github.com/xonsh/xonsh) Python驱动的跨平台Unix shell
-
 * [nocodb/nocodb](https://github.com/nocodb/nocodb) 开源 Airtable 替代方案 将任何 MySQL、PostgreSQL、SQL Server、SQLite 和 MariaDB 变成智能电子表格。
-
-* [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。
 
 * [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) 国内个人知识管理系统，支持细粒度块级引用和Markdown。
 
@@ -10774,8 +10906,6 @@
 * [Davy-Zhou/zip2pdf](https://github.com/Davy-Zhou/zip2pdf) 基于Python自动化解压压缩包成PDG，PDG合成PDF 
 
 * [sharkdp/bat](https://github.com/sharkdp/bat) 一只长着翅膀的 cat(1) 命令的克隆体。功能:语法高亮、显示不可打印的字符、文件串联。
-
-* [starship/starship](https://github.com/starship/starship) 适用于任何 shell 的最小、极快且可无限自定义的提示符
 
 * [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) 在尊重您的 gitignore 的同时递归地搜索目录以查找正则表达式模式,优势速度快。
 
@@ -10792,8 +10922,6 @@
 * [home-assistant/core](https://github.com/home-assistant/core) 将本地控制和隐私放在首位的开源家庭自动化。
 
 * [godotengine/godot](https://github.com/godotengine/godot) 一个功能丰富的跨平台游戏引擎，用于从统一界面创建 2D 和 3D 游戏。它提供了一套完善的常用工具，让用户可以专注于制作游戏，而无需重新发明轮子。游戏可以一键导出到多个平台，包括主要的桌面平台（Linux、macOS、Windows）、移动平台（Android、iOS），以及基于 Web 的平台和控制台。
-
-* [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) 一个很棒的Android UI / UX库的精选列表。
 
 * [ventoy/Ventoy](https://github.com/ventoy/Ventoy) 用于为 ISO/WIM/IMG/VHD(x)/EFI 文件创建可启动 USB 驱动器
 
@@ -10823,29 +10951,17 @@
 
 * [typst/typst](https://github.com/typst/typst) 一个新的基于标记的排版系统，功能强大且易于学习。
 
-* [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) eovim 插件的集合
-
-* [VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim) Vim bundle 的缩写，是一个 Vim 插件管理器。
-
 * [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy) 一个联邦宇宙的链接聚合器。 类似于 Reddit、Lobste.rs 或 Hacker News 等网站：您订阅您所感兴趣的社群，发布链接和讨论，然后对它们进行投票和评论。 Lemmy 不仅仅是 reddit 的替代品；它是一个由不同人和组织运营的相互关联的社群网络，所有这些社群结合起来创建一个充满您最喜欢的新闻、文章和迷因的独立且个性化的首页。
 
 * [bnb/awesome-hyper](https://github.com/bnb/awesome-hyper) 令人愉快的*CLI*超级插件、主题和资源
 
 * [hackerkid/Mind-Expanding-Books](https://github.com/hackerkid/Mind-Expanding-Books) 思维扩展书籍 每个人都应该读的书！
 
-* [JStumpp/awesome-android](https://github.com/JStumpp/awesome-android) 一个精选的 Android 软件包和资源列表。
-
-* [amitshekhariitbhu/Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database) 用于调试 android 数据库和共享首选项的库 - 让调试再次变得伟大
-
 * [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd) 域驱动设计 （DDD）、命令查询责任分离 （CQRS）、事件溯源和事件风暴资源的精选列表
 
 * [rShetty/awesome-podcasts](https://github.com/rShetty/awesome-podcasts) 软件工程师的重要播客列表
 
 * [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) 创意编码：生成艺术，数据可视化，交互设计，资源。
-
-* [alibaba/fastjson](https://github.com/alibaba/fastjson) Java 库，可用于将 Java 对象转换为其 JSON 表示形式。它还可用于将 JSON 字符串转换为等效的 Java 对象。Fastjson 可以处理任意 Java 对象，包括您没有源代码的预先存在的对象。
-
-* [alibaba/fastjson2](https://github.com/alibaba/fastjson2) 性能出色的 Java JSON 库。和FASTJSON 1相比，性能有非常大的提升，解决了autoType功能因为兼容和白名单的安全性问题。
 
 * [immich-app/immich](https://github.com/immich-app/immich) 直接从您的手机进行自托管照片和视频备份解决方案。
 
@@ -10854,22 +10970,6 @@
 * [ellisonleao/magictools](https://github.com/ellisonleao/magictools) 游戏开发资源列表。
 
 * [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) 命令行应用的精选列表
-
-* [Trinea/android-open-project](https://github.com/Trinea/android-open-project) Android 开源项目分类汇总
-
-* [Freelander/Android_Data](https://github.com/Freelander/Android_Data) 一些安卓学习资料，希望能帮你学习安卓开发。
-
-* [Tencent/tinker](https://github.com/Tencent/tinker) Android 的热修复解决方案库，支持 dex、库和资源更新，无需重新安装 apk。
-
-* [Tamsiree/RxTool](https://github.com/Tamsiree/RxTool) Android开发人员不得不收集的工具类集合 | 支付宝支付 | 微信支付（统一下单） | 微信分享 | Zip4j压缩 | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 蛛网等级 | 颜色选择器 | ArcGis | VTPK 
-
-* [gyf-dev/ImmersionBar](https://github.com/gyf-dev/ImmersionBar) android 4.4以上沉浸式状态栏和沉浸式导航栏管理，适配横竖屏切换、刘海屏、软键盘弹出等问题，可以修改状态栏字体颜色和导航栏图标颜色，以及不可修改字体颜色手机的适配，适用于Activity、Fragment、DialogFragment、Dialog，PopupWindow
-
-* [bilibili/ijkplayer](https://github.com/bilibili/ijkplayer) 基于 FFmpeg n3.4 的 Android/iOS 视频播放器，支持 MediaCodec、VideoToolbox。
-
-* [square/leakcanary](https://github.com/square/leakcanary) 适用于 Android 的内存泄漏检测库。
-
-* [codepath/android_guides](https://github.com/codepath/android_guides) 面向 Android 开发人员的广泛开源指南
 
 * [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
 
@@ -10901,10 +11001,6 @@
 
 * [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) 类似于 ack 的代码搜索工具，但速度更快。
 
-* [vim/vim](https://github.com/vim/vim) 老式UNIX编辑器Vi的大幅改进版本。添加了许多新功能：多级撤消、语法突出显示、命令行历史记录、在线帮助、拼写检查、文件名完成、块操作、脚本语言等。还有一个GUI可用。Vi 兼容性仍然保持不变。
-
-* [ranger/ranger](https://github.com/ranger/ranger) 受 VIM 启发的控制台文件管理器
-
 * [koekeishiya/yabai](https://github.com/koekeishiya/yabai) 基于二进制空间分区的macOS平铺窗口管理器
 
 * [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) 强大的哔哩哔哩增强脚本
@@ -10912,10 +11008,6 @@
 * [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) 一个基于 electron 的音乐软件
 
 * [iina/iina](https://github.com/iina/iina) 适用于 macOS 的现代视频播放器。
-
-* [antirez/kilo](https://github.com/antirez/kilo/) 小于 1000 LOC 的文本编辑器，具有语法突出显示和搜索功能。
-
-* [LunarVim/LunarVim](https://github.com/LunarVim/LunarVim) Neovim 的 IDE，具有合理的默认值。完全免费，由社区驱动。
 
 * [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) 統一中文文案、排版的相關用法，降低團隊成員之間的溝通成本，增強網站氣質。
 
@@ -10957,10 +11049,6 @@
 
 * [wren-lang/wren](https://github.com/wren-lang/wren) Wren编程语言。Wren 是一种小型、快速、基于类的并发脚本语言。想想 Smalltalk 在一个 Lua 大小的包中，带有一点 Erlang，并用熟悉的现代语法包裹起来。
 
-* [mvdan/sh](https://github.com/mvdan/sh) Go写的具有 bash 支持的 shell 解析器、格式化程序和解释器;包括 SHFMT。SHELL分析器、格式化程序和解释器。支持 POSIX Shell、Bash 和 mksh。需要 Go 1.19 或更高版本。
-
-* [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) 超过 250 种 iTerm/iTerm2 的终端配色方案/主题。包括终端，Konsole，PuTTY，Xresources，XRDB，Remmina，Termite，XFCE，Tilda，FreeBSD VT，Terminator，Kitty，MobaXterm，LXTerminal，Microsoft的Windows终端，Visual Studio，Alacritty的端口
-
 * [red/red](https://github.com/red/red) 受 Rebol 强烈启发的下一代编程语言，但由于其本机代码编译器，从系统编程到高级脚本和跨平台反应式 GUI，具有更广泛的使用领域，同时提供对并发的现代支持，所有这些都在一个零安装、配置、 ~1MB 文件中
 
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) 开源的静态类型编程语言，由 JetBrains 和开源贡献者支持和开发。
@@ -10969,15 +11057,11 @@
 
 * [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) 润学全球官方指定GITHUB，整理润学宗旨、纲领、理论和各类润之实例；解决为什么润，润去哪里，怎么润三大问题； 并成为新中国人的核心宗教，核心信念。
 
-* [ogham/exa](https://github.com/ogham/exa) rust编写的“ls”的现代替代品。提供更多功能和更好的默认值。它使用颜色来区分文件类型和元数据。它知道符号链接、扩展属性和 Git。它体积小，速度快，只有一个二进制文件。
-
 * [google/zx](https://github.com/google/zx) Bash 很棒，但是当涉及到编写更复杂的脚本时，许多人更喜欢更方便的编程语言。JavaScript 是一个完美的选择，但 Node.js 标准库在使用之前需要额外的麻烦。该 zx 包提供了有用的包装器 child_process ，转义参数并给出合理的默认值。
 
 * [LibreOffice/core](https://github.com/LibreOffice/core) 只读 LibreOffice 核心存储库
 
 * [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) Zsh的主题。强调速度、灵活性和开箱即用的体验。
-
-* [zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) shell zsh 提供语法高亮显示。它允许在 zsh 提示符下将命令键入到交互式终端中时突出显示命令。这有助于在运行命令之前查看命令，尤其是在捕获语法错误时。
 
 * [dwmkerr/hacker-laws](https://github.com/dwmkerr/hacker-laws) 开发人员会发现有用的定律，理论，原则和模式。
 
@@ -10991,8 +11075,6 @@
 
 * [MichaelMure/git-bug](https://github.com/MichaelMure/git-bug) 嵌入在 git 中的分布式、离线优先错误跟踪器，带有桥接器
 
-* [asciinema/asciinema](https://github.com/asciinema/asciinema) 轻松记录终端会话，并在终端和 Web 浏览器中重播它们。
-
 * [SnapKit/SnapKit](https://github.com/SnapKit/SnapKit) 一款DSL，可在iOS和OS X上轻松实现自动布局。
 
 * [NotFound9/interviewGuide](https://github.com/NotFound9/interviewGuide) 《大厂面试指北》—包括Java、JVM、数据库、mysql、网络、算法、数据结构、操作系统、设计模式、系统设计、框架原理。
@@ -11005,8 +11087,6 @@
 
 * [libgdx/libgdx](https://github.com/libgdx/libgdx) 桌面/安卓/HTML5/iOS Java游戏开发框架
 
-* [powerline/powerline](https://github.com/powerline/powerline) Powerline是vim的状态线插件，并为其他几个应用程序提供状态线和提示，包括zsh，bash，tmux，IPython，Awesome和Qtile。
-
 * [SwiftGGTeam/the-swift-programming-language-in-chinese](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese) 中文版 Apple 官方 Swift 教程《The Swift Programming Language》
 
 * [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
@@ -11017,25 +11097,11 @@
 
 * [halide/Halide](https://github.com/halide/Halide) 一种用于快速、可移植数据并行计算的语言。Halide不是一种独立的编程语言，而是嵌入在C++中。这意味着您编写C++代码，使用 Halide 的 C++ API 构建 Halide 管道的内存中表示形式。然后，可以将此表示形式编译为对象文件，或者对其进行 JIT 编译并在同一进程中运行它。Halide 还提供了一个 Python 绑定，该绑定完全支持在没有C++的情况下编写嵌入在 Python 中的 Halide。
 
-* [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) 语言服务器协议 （LSP） 定义了编辑器或 IDE 与提供语言功能（如自动完成、转到定义、查找所有引用等）的语言服务器之间使用的协议。语言服务器索引格式（LSIF，发音类似于“else if”）的目标是在开发工具或 Web UI 中支持丰富的代码导航，而无需源代码的本地副本。
-
 * [brndnmtthws/conky](https://github.com/brndnmtthws/conky) 适用于X，Wayland和其他东西的轻量级系统监视器
 
 * [formulahendry/955.WLB](https://github.com/formulahendry/955.WLB) 955 不加班的公司名单 - 工作 955，work–life balance (工作与生活的平衡)
 
 * [pjialin/py12306](https://github.com/pjialin/py12306) 12306购票助手，支持集群，多账号，多任务以及 Web 页面管理
-
-* [faressoft/terminalizer](https://github.com/faressoft/terminalizer) 录制您的终端并生成动画 gif 图像或共享网络播放器
-
-* [microsoft/terminal](https://github.com/microsoft/terminal) 新的Windows终端和原始Windows控制台主机
-
-* [vercel/hyper](https://github.com/vercel/hyper) 基于网络技术的终端，目标是为命令行界面用户创建基于开放 Web 标准构建的美观且可扩展的体验。一开始，我们的重点将主要放在速度、稳定性和为扩展作者开发正确的 API 上。
-
-* [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) 用 TypeScript 编写的前端组件，它允许应用程序在浏览器中为其用户提供功能齐全的终端。它被 VS Code、Hyper 和 Theia 等流行项目使用。
-
-* [enquirer/enquirer](https://github.com/enquirer/enquirer) 时尚的 CLI 提示，用户友好、直观且易于创建。
-
-* [wez/wezterm](https://github.com/wez/wezterm) @wez 编写Rust 实现的 GPU 加速跨平台终端仿真器和多路复用器
 
 * [Morganamilo/paru](https://github.com/Morganamilo/paru) 功能丰富的 AUR 助手，Arch 用户仓库(Arch User Repository)。它是针对基于 Arch 的 Linux 发行版用户的社区驱动的仓库
 
@@ -11052,8 +11118,6 @@
 * [webpro/awesome-dotfiles](https://github.com/webpro/awesome-dotfiles) dotfiles 资源的精选列表。有些文章或工具可能看起来很旧或过时，但这通常意味着它们经过了实战考验并且已经成熟。随时提出新的文章、项目或工具！
 
 * [shimohq/chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation) 中国程序员易发音错误单词
-
-* [gradle/gradle](https://github.com/gradle/gradle) 一款构建工具，专注于构建自动化和对多语言开发的支持。如果您在任何平台上构建、测试、发布和部署软件，Gradle 提供了一个灵活的模型，可以支持从编译和打包代码到发布网站的整个开发生命周期。Gradle 旨在支持跨多种语言和平台（包括 Java、Scala、Android、Kotlin、C/C++ 和 Groovy）的构建自动化，并与开发工具和持续集成服务器（包括 Eclipse、IntelliJ 和 Jenkins）紧密集成。
 
 * [kdn251/interviews](https://github.com/kdn251/interviews) 获得这份工作需要知道的一切，包括面试、数据结构、算法、计算机书籍等
 
@@ -11085,25 +11149,15 @@
 
 * [JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner) 为那些开始学习编程的人编写的技术面试指南。祝你一切顺利。
 
-* [mhinz/vim-galore](https://github.com/mhinz/vim-galore)  Vim 从入门到精通 [Eric Wong / Vim 从入门到精通 · GitLab](https://gitlab.com/wsdjeg/vim-galore-zh_cn)
-
 * [dipakkr/A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students) 当我在大学时，由于缺乏意识，我错过了很多机会，如黑客马拉松、会议、实习、研讨会和许多全球活动。我不希望新兴开发者和我一样受苦。因此，我和周围的其他一些开发人员为学生收集了一份资源清单。如果你在上大学，大学毕业生，或者刚开始做开发人员，你一定要去看看！
 
 * [gztchan/awesome-design](https://github.com/gztchan/awesome-design) 专注于收集高质量的资源和工具，可供UI / UX设计师在日常工作中使用。
 
-* [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) ZSH 框架、插件、主题和教程的集合。
-
-* [warpdotdev/Warp](https://github.com/warpdotdev/Warp) 基于 Rust 的现代终端，内置了 AI，因此您和您的团队可以更快地构建出色的软件。速度极快的现代基于 Rust 的 GPU 加速终端，旨在提高您和您的团队的工作效率。
-
 * [markets/awesome-ruby](https://github.com/markets/awesome-ruby) 由社区驱动的分类集合，包含令人敬畏的 Ruby 库、工具、框架和软件。构建现代应用程序和 Web 应用程序的基本 Ruby。
-
-* [gedoor/legado](https://github.com/gedoor/legado) 一款适用于 Android 的免费开源小说阅读器。
 
 * [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) 用于 git 命令的简单终端 UI
 
 * [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) 实现 ACME 客户端协议(使用 ACME 协议来验证您对给定域名的控制权并向您颁发证书。)的纯 Unix shell 脚本
-
-* [ratatui-org/ratatui](https://github.com/ratatui-org/ratatui) Rust 库，就是关于构建终端用户界面 （TUI）
 
 * [zh-google-styleguide/zh-google-styleguide](https://github.com/zh-google-styleguide/zh-google-styleguide) Google 开源项目风格指南 (中文版)
 
@@ -11119,15 +11173,13 @@
 
 * [ty4z2008/Qix](https://github.com/ty4z2008/Qix) 机器学习、深度学习、PostgreSQL、分布式系统、Node.js、Golang
 
-* [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) 精彩的远程作业和资源的精选列表。3
+* [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) 精彩的远程作业和资源的精选列表。
 
 * [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。
 
 * [reactos/reactos](https://github.com/reactos/reactos) 一个免费的Windows兼容操作系统，旨在开发一个高质量的操作系统，该操作系统与为Microsoft® Windows™ NT系列操作系统（NT4,2000，XP，2003，Vista，7）编写的应用程序和驱动程序兼容。
 
 * [0xAX/linux-insides](https://github.com/0xAX/linux-insides) 关于 linux 内核的一点点，目标很简单 - 分享我对 linux 内核内部的适度知识，并帮助对 linux 内核内部和其他低级主题感兴趣的人。
-
-* [shelljs/shelljs](https://github.com/shelljs/shelljs) Node.js 的可移植 Unix shell 命令
 
 * [HaxeFoundation/haxe](https://github.com/HaxeFoundation/haxe) 可让您轻松构建面向许多主流平台的跨平台工具和应用程序。Haxe 工具包包括：Haxe 编程语言，一种现代、高级、严格类型的编程语言、Haxe 交叉编译器，适用于许多目标的最先进的闪电般的编译器、Haxe 标准库，一个完整的跨平台通用功能库
 
@@ -11141,13 +11193,9 @@
 
 * [csseky/cskaoyan](https://github.com/csseky/cskaoyan) 提供计算机考研和软件工程考研专业的各个学校 考研真题
 
-* [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) 学习 Vim 和 Vimscript 并不难。这是您正在寻找的指南
-
 * [microsoft/wslg](https://github.com/microsoft/wslg) 使适用于 Linux 的 Windows 子系统能够包括对 Wayland 和 X 服务器相关方案的支持
 
 * [vygr/ChrysaLisp](https://github.com/vygr/ChrysaLisp) 64 位、MIMD、多 CPU、多线程、多核、多用户并行操作系统，具有 GUI、终端、OO 汇编器、类库、C 脚本编译器、Lisp 解释器、调试器、分析器、矢量字体引擎等功能。它支持 x64、Riscv64 和 Arm64 的 MacOS、Windows 和 Linux，并最终将转向裸机。它还允许对各种网络拓扑进行建模，并使用ChrysaLib hub_nodes加入异构主机网络。它有一个虚拟的CPU指令集和一个强大的对象和类系统，用于汇编程序和高级语言。它具有功能级动态绑定和加载功能，以及一个命令终端，该终端具有熟悉的管道式命令行应用程序界面。还提供了一个类似 Common Lisp 的解释器。
-
-* [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) 精选的令人愉快的 Bash 脚本和资源列表。
 
 * [babashka/babashka](https://github.com/babashka/babashka) 用于脚本编写的原生、快速启动的 Clojure 解释器
 
@@ -11215,32 +11263,6 @@
 
 * [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) 与软件和体系结构相关的设计模式的精选列表。软件设计模式 - 在软件设计中给定上下文中，针对常见问题的通用、可重用的解决方案。它是有关如何解决可在许多不同情况下使用的问题的描述或模板。
 
-* [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)  一个跨平台（Windows、Linux 和 macOS）自动化和配置工具/框架，可与现有工具配合使用，并针对处理结构化数据（例如 JSON、CSV、XML 等）、REST API 和对象模型进行了优化。它包括命令行 shell、关联的脚本语言和用于处理 cmdlet 的框架。
-
-* [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 像Fish一样快速/不显眼的 zsh 自动建议。
-
-* [cmderdev/cmder](https://github.com/cmderdev/cmder) 出于对 Windows 上缺乏可用的控制台模拟器的挫败感而创建的。它基于 ConEmu，对配置进行了重大改革，带有 Monokai 配色方案、惊人的叮当声（通过叮当声完成进一步增强）和自定义提示布局。
-
-* [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) 常见 unix 命令的现代/更快/更健全的替代方案的集合。
-
-* [zellij-org/zellij](https://github.com/zellij-org/zellij) 面向开发人员、面向运营人员和任何喜欢终端的人的工作空间。类似的程序有时被称为“终端多路复用器”。
-
-* [termux/termux-app](https://github.com/termux/termux-app) 适用于 Android 操作系统的终端模拟器应用程序，可通过各种软件包进行扩展。适用于 Android 的终端模拟器，其环境类似于 Linux 环境。 无需Root或设置即可使用。 Termux 会自动进行最小安装 - 使用 APT 包管理器即可获得其他软件包。
-
-* [termux/termux-packages](https://github.com/termux/termux-packages) 为 Termux Android 应用程序构建包的脚本和补丁。
-
-* [gnachman/iTerm2](https://github.com/gnachman/iTerm2) Mac OS X 的终端模拟器，可以做一些令人惊奇的事情。
-
-* [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) 专业的跨平台SSH/Sftp/Shell/Telnet/串口终端。
-
-* [tmuxinator/tmuxinator](https://github.com/tmuxinator/tmuxinator) 轻松管理复杂的 tmux 会话
-
-* [junegunn/fzf](https://github.com/junegunn/fzf) 通用的命令行模糊查找器。用于命令行的交互式 Unix 过滤器，可以与任何列表一起使用;文件、命令历史记录、进程、主机名、书签、git 提交等。
-
-* [charmbracelet/vhs](https://github.com/charmbracelet/vhs) CLI 录像机
-
-* [withfig/autocomplete](https://github.com/withfig/autocomplete) 当您键入时，Fig 会在您现有的终端中弹出子命令、选项和上下文相关参数。
-
 * [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips) 学习英语的高级指南，可能会使您受益匪浅。离谱的英语学习指南。
 
 * [SerenityOS/serenity](https://github.com/SerenityOS/serenity) 用于 x86-64 计算机的图形类 Unix 操作系统。一封写给 90 年代用户界面的情书，具有自定义的类 Unix 核心。它通过从其他各种系统中窃取美丽的想法来真诚地奉承。目标是将 1990 年代后期生产力软件的美学与 2000 年代后期 *nix 的高级用户可访问性结合起来。
@@ -11265,11 +11287,7 @@
 
 * [chubin/cheat.sh](https://github.com/chubin/cheat.sh) 统一访问世界上最好的社区驱动的备忘单存储库。涵盖 56 种编程语言、多种 DBMS 和 1000 多个最重要的 UNIX/Linux 命令。提供对世界上最好的社区驱动的备忘单存储库的访问，与 StackOverflow 相当。随处可用，无需安装，但可以安装以供离线使用。
 
-* [jarun/nnn](https://github.com/jarun/nnn) 功能齐全的终端文件管理器。它很小，几乎是 0 配置，而且速度快得令人难以置信。nnn 可以分析磁盘使用情况、批量重命名、启动应用程序和选择文件。插件存储库有大量的插件来进一步扩展功能，例如实时预览、（取消）挂载磁盘、查找和列表、文件/目录差异、上传文件。
-
 * [Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask) 用于管理以二进制文件形式分发的 macOS 应用程序的 CLI 工作流
-
-* [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi) 适用于 Android 的免费开源漫画阅读器。
 
 * [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) 自由软件媒体系统。Jellyfin 使您能够收集、管理和流式传输您的媒体。在您的系统上运行 Jellyfin 服务器，并访问领先的免费软件娱乐系统，包括花里胡哨的功能。
 
@@ -11313,8 +11331,6 @@
 
 * [tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh) 程序员应该访问的最佳网站
 
-* [sqshq/sampler](https://github.com/sqshq/sampler) 用于 shell 命令执行、可视化和警报的工具。使用简单的 YAML 文件进行配置。
-
 * [denisidoro/navi](https://github.com/denisidoro/navi) 用于命令行的交互式备查表工具
 
 * [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件
@@ -11325,17 +11341,11 @@
 
 * [Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon) 使用 Lua 实现功能惊人的强大 macOS 桌面自动化
 
-* [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 查找、筛选、预览、拾取。所有 lua，无时无刻不在。高度可扩展的列表模糊查找器。建立在核心的最新 neovim 强大功能之上。望远镜以模块化为中心，允许轻松定制。
-
-* [AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim) 美观且功能丰富的 neovim 配置，可扩展且易于使用，并带有一组很棒的插件
-
 * [scala/scala](https://github.com/scala/scala) Scala 2 编译器和标准库。
 
 * [lampepfl/dotty](https://github.com/lampepfl/dotty) Scala 3 编译器，也称为 Dotty。
 
 * [dortania/OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) 围绕 Acidanthera 的 OpenCorePkg 和 Lilu 展开，用于在受支持和不支持的 Mac 上运行和解锁 macOS 中的功能。
-
-* [doomemacs/doomemacs](https://github.com/doomemacs/doomemacs) GNU Emacs 的配置框架，专为 Emacs 破产老手量身定制，他们希望框架中的框架更少，包管理器有一点稳定性（和可重复性），以及手动配置的性能（或更好）。它可以成为您自己配置的基础，也可以成为 Emacs 爱好者了解更多关于我们最喜欢的操作系统的资源。
 
 * [rxhanson/Rectangle](https://github.com/rxhanson/Rectangle) macOS 上使用键盘快捷键和贴靠区域移动窗口和调整窗口大小
 
