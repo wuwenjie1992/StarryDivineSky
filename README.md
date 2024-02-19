@@ -142,8 +142,6 @@
 
 * [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/) 计算机自学指南深度学习入门开源书，基于TensorFlow 2.0案例实战。
 
-* [1c7/Crash-Course-Computer-Science-Chinese](https://github.com/1c7/Crash-Course-Computer-Science-Chinese) 计算机速成课 | Crash Course 字幕组 (全40集 2018-5-1 精校完成)
-
 * [mml-book/mml-book.github.io](https://github.com/mml-book/mml-book.github.io) 《机器学习数学》一书的配套网页
 
 * [abmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) 神经网络和相关算法的简单 PyTorch 实现的集合。将这些呈现为并排格式化的笔记。我们相信这些将帮助您更好地理解这些算法。
@@ -422,8 +420,6 @@
 * [ShusenTang/Deep-Learning-with-PyTorch-Chinese](https://github.com/ShusenTang/Deep-Learning-with-PyTorch-Chinese) 将PyTorch官方书籍《Deep learning with PyTorch》（基本摘录版）翻译成中文版并给出可运行的相关代码。
 
 * [ritchieng/the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch) 一个精选的教程、项目、库、视频、论文、书籍以及与令人难以置信的 PyTorch 相关的任何内容。
-
-* [jeffgerickson/algorithms](https://github.com/jeffgerickson/algorithms) 杰夫·埃里克森的算法书、笔记等。杰夫·埃里克森（Jeff Erickson）是伊利诺伊大学厄巴纳-香槟分校的计算机科学教授;这本书基于他自 1998 年以来在那里教授的算法课程。
 
 * [virgili0/Virgilio](https://github.com/virgili0/Virgilio) 开源计划，旨在指导和指导数据科学领域的任何人。我们的愿景是让每个人都有机会参与这个领域，从实践者开始，获得新技能，并学会在无限的资源网络中导航，并找到对您有用的资源。
 
@@ -3381,8 +3377,6 @@
 
 * [slidevjs/slidev](https://github.com/slidevjs/slidev) 面向开发人员的演示幻灯片
 
-* [TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript) 在 JavaScript 中为初学者实现的算法和数据结构，遵循最佳实践。
-
 * [parallax/jsPDF](https://github.com/parallax/jsPDF) 面向所有人的客户端 JavaScript PDF 生成。
 
 * [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) 用于解析和操作 HTML 和 XML 的快速、灵活且优雅的库。
@@ -3400,8 +3394,6 @@
 * [wasp-lang/wasp](https://github.com/wasp-lang/wasp) 使用 React 和 Node.js 开发全栈 Web 应用程序的最快方法。
 
 * [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) 30 天的 JavaScript 编程挑战是在 30 天内学习 JavaScript 编程语言的分步指南。
-
-* [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) 用 JavaScript 实现的算法和数据结构，带有解释和进一步阅读的链接
 
 * [purescript/purescript](https://github.com/purescript/purescript) 一种小型的强类型编程语言，具有表达类型，编译为 JavaScript，由 Haskell 编写并受其启发。
 
@@ -4361,6 +4353,8 @@
 * [wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll) 循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Batch、Spring Cloud、Spring Cloud Alibaba、Spring Security & Spring Security OAuth2，博客Spring系列源码：https://mrbird.cc
 
 * [withastro/astro](https://github.com/withastro/astro) 现代web网站构建工具 — 强大的开发人员经验，轻量级输出。
+
+* [xingshaocheng/architect-awesome](https://github.com/xingshaocheng/architect-awesome) 后端架构师技术图谱
 
 * [Tencent/mars](https://github.com/Tencent/mars) 微信开发的跨平台网络组件。跨平台，如果您正在开发多平台或多业务应用程序，则易于部署。适用于小容量数据传输。移动平台友好，低功耗和流量消耗。适合移动应用的网络解决方案。
 
@@ -9723,8 +9717,6 @@
 
 * [yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook) 《Python Cookbook》第三版翻译
 
-* [MTrajK/coding-problems](https://github.com/MTrajK/coding-problems/) 各种编码/算法问题的解决方案以及许多用于学习算法和数据结构的python资源
-
 * [vinta/awesome-python](https://github.com/vinta/awesome-python) 很棒的 Python 框架、库、软件和资源的精选列表
 
 * [joaoventura/full-speed-python](https://github.com/joaoventura/full-speed-python) 全速 Python：一本面向自学者的书
@@ -9869,8 +9861,6 @@
 
 * [gto76/python-cheatsheet](https://github.com/gto76/python-cheatsheet) 全面的python备忘单
 
-* [donnemartin/interactive-coding-challenges](https://github.com/donnemartin/interactive-coding-challenges) 120+ 交互式 Python 编码面试挑战（算法和数据结构）。包括 Anki 抽认卡。
-
 * [norvig/pytudes](https://github.com/norvig/pytudes) Python程序，通常很短，难度相当大，以完善特定的技能。
 
 * [walter201230/Python](https://github.com/walter201230/Python) 最良心的 Python 教程
@@ -9923,6 +9913,26 @@
 * [borgbackup/borg](https://github.com/borgbackup/borg) 重复数据删除备份程序。它支持压缩和经过身份验证的加密。
 
 * [MagicStack/uvloop](https://github.com/MagicStack/uvloop) 内置 Asyncio 事件循环的快速直接替代品。uvloop 是在 Cython 中实现的，并在后台使用 libuv。
+
+* [mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks Markdown文档、Julia、Python或R脚本
+
+* [giampaolo/psutil](https://github.com/giampaolo/psutil) 用于 Python 中进程和系统监控的跨平台库
+
+* [sanic-org/sanic](https://github.com/sanic-org/sanic) 异步 Python 3.7+ web 框架 
+
+* [Textualize/textual](https://github.com/Textualize/textual) 受现代Web开发启发的 Python 的 TUI（文本用户界面）框架。
+
+* [ijl/orjson](https://github.com/ijl/orjson) 支持数据类、日期时间和 numpy 的高速、准确的 Python JSON 库
+
+* [Davy-Zhou/zip2pdf](https://github.com/Davy-Zhou/zip2pdf) 基于Python自动化解压压缩包成PDG，PDG合成PDF 
+
+* [jupyterlab/jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git) 使用 Git 进行版本控制的 JupyterLab 扩展
+
+* [damianavila/RISE](https://github.com/damianavila/RISE) 允许您立即将 Jupyter 笔记本变成幻灯片。 
+
+* [jupyter/nbdime](https://github.com/jupyter/nbdime) 用于区分和合并 Jupyter 笔记本的工具。
+
+* [voila-dashboards/voila](https://github.com/voila-dashboards/voila) 将 Jupyter 笔记本变成独立的网络应用程序
 
 ## C/C++ 程序设计
 
@@ -10009,8 +10019,6 @@
 * [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) ANSI C 中的超轻量级 JSON 解析器
 
 * [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) C++ 入门5答案
-
-* [xtaci/algorithms](https://github.com/xtaci/algorithms) C++中的算法和数据结构。
 
 * [facebook/infer](https://github.com/facebook/infer) 适用于 Java、C、C++ 和 Objective-C 的静态分析器
 
@@ -10290,8 +10298,6 @@
 
 * [unknwon/the-way-to-go_ZH_CN](https://github.com/unknwon/the-way-to-go_ZH_CN) 《The Way to Go》中文译本，中文正式名《Go 入门指南》
 
-* [TheAlgorithms/Go](https://github.com/TheAlgorithms/Go) 在 Go 中为初学者实现的算法和数据结构，遵循最佳实践。
-
 * [inancgumus/learngo](https://github.com/inancgumus/learngo) 1000+ 手工制作的go示例、练习和测验。 通过修复 1000+ 个小程序来学习 Go。
 
 * [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) LeetCode by Go 的解决方案，100% 测试覆盖率，运行时击败 100% / LeetCode 题解
@@ -10512,6 +10518,8 @@
 
 * [doomemacs/doomemacs](https://github.com/doomemacs/doomemacs) GNU Emacs 的配置框架，专为 Emacs 破产老手量身定制，他们希望框架中的框架更少，包管理器有一点稳定性（和可重复性），以及手动配置的性能（或更好）。它可以成为您自己配置的基础，也可以成为 Emacs 爱好者了解更多关于我们最喜欢的操作系统的资源。
 
+* [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) 精选的令人愉快的 VS Code 包和资源列表。
+
 ## 终端
 
 * [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) 精选的令人愉快的 Bash 脚本和资源列表。
@@ -10596,126 +10604,7 @@
 
 * [sqshq/sampler](https://github.com/sqshq/sampler) 用于 shell 命令执行、可视化和警报的工具。使用简单的 YAML 文件进行配置。
 
-## 其他
-
-* [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
-
-* [torvalds/linux](https://github.com/torvalds/linux) Linux内核源码树
-
-* [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
-
-* [public-apis/public-apis](https://github.com/public-apis/public-apis) 一个免费API的集合列表，可用于软件和Web开发
-
-* [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) 了解如何设计大型系统。准备系统设计面试。包括 Anki 抽认卡。
-
-* [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) 免费提供的编程书籍
-
-* [ossu/computer-science](https://github.com/ossu/computer-science) 计算机科学免费自学教育之路！
-
-* [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) 编程教程列表，有抱负的软件开发人员可以在其中学习如何从头开始构建应用程序。这些教程分为不同的主要编程语言。教程可能涉及多种技术和语言。
-
-* [wangzheng0822/algo](https://github.com/wangzheng0822/algo) 数据结构和算法必知必会的50个代码实现
-
-* [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的计算机编程类中文书籍
-
-* [FreeCodeCampChina/freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn) FCC中国开源代码库和课程。学习编码并帮助非营利组织。
-
-* [izackwu/TeachYourselfCS-CN](https://github.com/izackwu/TeachYourselfCS-CN) TeachYourselfCS 的中文翻译
-
-* [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 开源代码库和课程。免费学习编码。
-
-* [forthespada/CS-Books](https://github.com/forthespada/CS-Books) 超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计模式、前端、汇编以及校招社招各种面经
-
-* [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫
-
-* [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) 用动画的形式呈现解LeetCode题目的思路
-
-* [krahets/hello-algo](https://github.com/krahets/hello-algo) 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
-
-* [geekxh/hello-algorithm](https://github.com/geekxh/hello-algorithm) 针对小白的算法训练 | 包括四部分：①.大厂面经 ②.力扣图解 ③.千本开源电子书 ④.百张技术思维导图
-
-* [liuxinyu95/AlgoXY](https://github.com/liuxinyu95/AlgoXY) 介绍了基本函数算法和数据结构，并提供了 120 个练习和答案。
-
-* [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
-
-* [DeathKing/Learning-SICP](https://github.com/DeathKing/Learning-SICP) MIT视频公开课《计算机程序的构造和解释》中文化项目及课程学习资料搜集。
-
-* [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) 为初创公司首席技术官精心策划的、有主见的资源清单
-
-* [xingshaocheng/architect-awesome](https://github.com/xingshaocheng/architect-awesome) 后端架构师技术图谱
-
-* [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) 包含有关各种技术主题的问题和练习，有时与 DevOps 和 SRE 相关
-
-* [luong-komorebi/Awesome-Linux-Software ](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md) 收集了对任何用户/开发者都觉得超赞的 Linux 应用软件。
-
-* [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫
-
-* [doocs/leetcode](https://github.com/doocs/leetcode) 本项目包含 LeetCode、《剑指 Offer（第 2 版）》、《剑指 Offer（专项突击版）》、《程序员面试金典（第 6 版）》等题目的相关题解。所有题解均由多种编程语言实现，包括但不限于：Java、Python、C++、Go、TypeScript、Rust
-
-* [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) 带有视频讲座的计算机科学课程列表。
-
-* [ForrestKnight/open-source-cs](https://github.com/ForrestKnight/open-source-cs) 来自麻省理工学院、斯坦福和普林斯顿等知名大学的精选免费课程列表，与本科计算机科学学位相同的要求，减去通识教育。
-
-* [lnishan/awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming) 竞争性编程、算法和数据结构资源的精选列表
-
-* [lk-geimfari/awesomo](https://github.com/lk-geimfari/awesomo) 用各种语言编写的很酷的开源项目。
-
-* [QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles) 浙江大学课程攻略共享计划
-
-* [williamfiset/Algorithms](https://github.com/williamfiset/Algorithms) 算法和数据结构是高效代码和良好软件设计的基础。创建和设计优秀的算法是成为模范程序员的必要条件。此存储库的目标是演示如何以最简单、最优雅的方式正确实现常见的数据结构和算法。
-
-* [xitu/gold-miner](https://github.com/xitu/gold-miner)  翻译优质互联网技术文章的社区，文章来源为 掘金 上的英文分享文章。内容覆盖区块链、人工智能、Android、iOS、前端、后端、设计、产品、算法和其他等领域，以及各大型优质 官方文档及手册，读者为热爱新技术的新锐开发者。
-
-* [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) 存储库：开发人员书籍列表
-
-* [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) 程序员如何优雅的挣零花钱
-
-* [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) 为繁忙的软件工程师精心策划的编码面试材料
-
-* [resumejob/awesome-resume](https://github.com/resumejob/awesome-resume) 程序员简历例句，简历模版
-
-* [apple/swift](https://github.com/apple/swift) Swift 是一种高性能的系统编程语言。它具有简洁现代的语法，提供对现有 C 和 Objective-C 代码和框架的无缝访问，并且默认情况下是内存安全的。
-
-* [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
-
-* [resumejob/interview-questions](https://github.com/resumejob/interview-questions) Interview Questions for Google, Amazon, Apple, etc. 根据超过 2000 篇真实面经整理的腾讯，阿里，字节跳动，Shopee，美团，滴滴高频面试题
-
-* [charlax/professional-programming](https://github.com/charlax/professional-programming) 程序员的全栈资源集合。
-
-* [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) 来自计算机科学界的论文可供阅读和讨论。
-
-* [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm) 共 60 多篇原创文章，都是基于 LeetCode 的题目，涵盖了所有题型和技巧，而且一定要做到举一反三，通俗易懂，绝不是简单的代码堆砌，后面有目录。
-
-* [azl397985856/leetcode](https://github.com/azl397985856/leetcode) leetcode题解，记录自己的leetcode解题之路。
-
-* [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
-
-* [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) 交互式路线图、指南和其他教育内容，以帮助开发人员在他们的职业生涯中成长。包括：前端、后端、开发运营、计算机科学、质量检查、软件架构师、软件设计和架构路、JavaScript、TypeScript、React、Vue 、Angular、Node.js、GraphQL、安卓、Flutter、Python、Go、Java、Spring Boot、设计系统、DBA、区块链、ASP.NET、系统设计、Kubernetes
-
-* [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) 流行编程语言、框架和开发工具的精彩备忘单。它们在一个文件中包含您应该知道的所有内容。
-
-* [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) 对设计模式的超简化解释
-
-* [google/styleguide](https://github.com/google/styleguide) 谷歌风格指南 每个主要的开源项目都有自己的风格指南：一组关于如何为该项目编写代码的约定（有时是任意的）。当其中的所有代码都采用一致的风格时，理解大型代码库会容易得多。
-
-* [mwouts/jupytext](https://github.com/mwouts/jupytext) Jupyter Notebooks Markdown文档、Julia、Python或R脚本
-
-* [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) 令人敬畏的 CS 课程，这些课程提供高质量的材料，即免费在线提供作业、讲座、笔记、阅读材料和考试。
-
-* [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) 提供了一个开发人员友好的API，可以与Chromium和LibreOffice等强大的工具进行交互，以将多种文档格式（HTML，Markdown，Word，Excel等）转换为PDF文件等等！
-
-* [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集GitHub高质量、有趣的开源项目。
-
-* [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) 收集了各种类别的出色 macOS 软件。
-
-* [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) 一系列应用创意，可用于提高您的编码技能。
-
-* [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) Linux命令大全搜索，包含手册、详解、学习、搜集。
-
-* [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) 一个交互式编译器探索网站。在
-   C、C++、C#、F#、Rust、Go、D、Haskell、Swift、Pascal、ispc、Python、Java 或其他 30 多种支持的语言中编辑代码，并查看代码在实际编译后的样子时间。每种语言都支持多个编译器，可以使用许多不同的工具和可视化，并且 UI 布局是可配置
-
-* [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) 精选的令人愉快的 VS Code 包和资源列表。
+## 知识管理 wiki知识库
 
 * [logseq/logseq](https://github.com/logseq/logseq) 一个知识管理和协作平台。它侧重于隐私、寿命和用户控制。Logseq 提供了一系列用于知识管理、协作、PDF 注释和任务管理的强大工具，支持多种文件格式，包括 Markdown 和组织模式，以及用于组织和构建笔记的各种功能。
 
@@ -10743,6 +10632,275 @@
 
 * [outline/outline](https://github.com/outline/outline) 成长团队最快的知识库。美观、实时协作、功能丰富且兼容降价。
 
+* [zadam/trilium](https://github.com/zadam/trilium) 使用 Trilium Notes 建立您的个人知识库
+
+* [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) 国内个人知识管理系统，支持细粒度块级引用和Markdown。
+
+## 计算机编程 数据结构与算法
+
+* [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) 免费提供的编程书籍
+
+* [ossu/computer-science](https://github.com/ossu/computer-science) 计算机科学免费自学教育之路！
+
+* [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) 编程教程列表，有抱负的软件开发人员可以在其中学习如何从头开始构建应用程序。这些教程分为不同的主要编程语言。教程可能涉及多种技术和语言。
+
+* [wangzheng0822/algo](https://github.com/wangzheng0822/algo) 数据结构和算法必知必会的50个代码实现
+
+* [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的计算机编程类中文书籍
+
+* [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
+
+* [DeathKing/Learning-SICP](https://github.com/DeathKing/Learning-SICP) MIT视频公开课《计算机程序的构造和解释》中文化项目及课程学习资料搜集。
+
+* [weartist/computer_book_list](https://github.com/weartist/computer_book_list) 综合了豆瓣，goodreads综合评分的计算机书籍书单
+
+* [csseky/cskaoyan](https://github.com/csseky/cskaoyan) 提供计算机考研和软件工程考研专业的各个学校 考研真题
+
+* [1c7/Crash-Course-Computer-Science-Chinese](https://github.com/1c7/Crash-Course-Computer-Science-Chinese) 计算机速成课 | Crash Course 字幕组 (全40集 2018-5-1 精校完成)
+
+* [jeffgerickson/algorithms](https://github.com/jeffgerickson/algorithms) 杰夫·埃里克森的算法书、笔记等。杰夫·埃里克森（Jeff Erickson）是伊利诺伊大学厄巴纳-香槟分校的计算机科学教授;这本书基于他自 1998 年以来在那里教授的算法课程。
+
+* [chubin/cheat.sh](https://github.com/chubin/cheat.sh) 统一访问世界上最好的社区驱动的备忘单存储库。涵盖 56 种编程语言、多种 DBMS 和 1000 多个最重要的 UNIX/Linux 命令。提供对世界上最好的社区驱动的备忘单存储库的访问，与 StackOverflow 相当。随处可用，无需安装，但可以安装以供离线使用。
+
+* [FreeCodeCampChina/freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn) FCC中国开源代码库和课程。学习编码并帮助非营利组织。
+
+* [izackwu/TeachYourselfCS-CN](https://github.com/izackwu/TeachYourselfCS-CN) TeachYourselfCS 的中文翻译
+
+* [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 开源代码库和课程。免费学习编码。
+
+* [forthespada/CS-Books](https://github.com/forthespada/CS-Books) 超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计模式、前端、汇编以及校招社招各种面经
+
+* [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫
+
+* [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) 用动画的形式呈现解LeetCode题目的思路
+
+* [krahets/hello-algo](https://github.com/krahets/hello-algo) 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
+
+* [geekxh/hello-algorithm](https://github.com/geekxh/hello-algorithm) 针对小白的算法训练 | 包括四部分：①.大厂面经 ②.力扣图解 ③.千本开源电子书 ④.百张技术思维导图
+
+* [liuxinyu95/AlgoXY](https://github.com/liuxinyu95/AlgoXY) 介绍了基本函数算法和数据结构，并提供了 120 个练习和答案。
+
+* [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫
+
+* [doocs/leetcode](https://github.com/doocs/leetcode) 本项目包含 LeetCode、《剑指 Offer（第 2 版）》、《剑指 Offer（专项突击版）》、《程序员面试金典（第 6 版）》等题目的相关题解。所有题解均由多种编程语言实现，包括但不限于：Java、Python、C++、Go、TypeScript、Rust
+
+* [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) 带有视频讲座的计算机科学课程列表。
+
+* [ForrestKnight/open-source-cs](https://github.com/ForrestKnight/open-source-cs) 来自麻省理工学院、斯坦福和普林斯顿等知名大学的精选免费课程列表，与本科计算机科学学位相同的要求，减去通识教育。
+
+* [lnishan/awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming) 竞争性编程、算法和数据结构资源的精选列表
+
+* [lk-geimfari/awesomo](https://github.com/lk-geimfari/awesomo) 用各种语言编写的很酷的开源项目。
+
+* [QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles) 浙江大学课程攻略共享计划
+
+* [williamfiset/Algorithms](https://github.com/williamfiset/Algorithms) 算法和数据结构是高效代码和良好软件设计的基础。创建和设计优秀的算法是成为模范程序员的必要条件。此存储库的目标是演示如何以最简单、最优雅的方式正确实现常见的数据结构和算法。
+
+* [xitu/gold-miner](https://github.com/xitu/gold-miner)  翻译优质互联网技术文章的社区，文章来源为 掘金 上的英文分享文章。内容覆盖区块链、人工智能、Android、iOS、前端、后端、设计、产品、算法和其他等领域，以及各大型优质 官方文档及手册，读者为热爱新技术的新锐开发者。
+
+* [7-sevens/Developer-Books](https://github.com/7-sevens/Developer-Books) 存储库：开发人员书籍列表
+
+* [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) 为繁忙的软件工程师精心策划的编码面试材料
+
+* [girliemac/a-picture-is-worth-a-1000-words](https://github.com/girliemac/a-picture-is-worth-a-1000-words) 用简单的涂鸦来描述复杂的事情！包括：算法、web、机器学习、Git、HTTP 状态等
+
+* [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) 代码算法的可视化交互式在线平台。
+
+* [NotFound9/interviewGuide](https://github.com/NotFound9/interviewGuide) 《大厂面试指北》—包括Java、JVM、数据库、mysql、网络、算法、数据结构、操作系统、设计模式、系统设计、框架原理。
+
+* [kdn251/interviews](https://github.com/kdn251/interviews) 获得这份工作需要知道的一切，包括面试、数据结构、算法、计算机书籍等
+
+* [imarvinle/awesome-cs-books](https://github.com/imarvinle/awesome-cs-books) 经典编程书籍大全，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等
+
+* [xiaolincoder/CS-Base](https://github.com/xiaolincoder/CS-Base) 图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识
+
+* [InterviewMap/CS-Interview-Knowledge-Map](https://github.com/InterviewMap/CS-Interview-Knowledge-Map) 建立最佳面试地图。目前的内容包括JS、网络、浏览器相关、性能优化、安全性、框架、Git、数据结构、算法等。
+
+* [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) 精心策划的令人敬畏的计算机编程面试问题列表列表。
+
+* [Kristories/awesome-guidelines](https://github.com/Kristories/awesome-guidelines) 精选的高质量编码风格约定和标准列表。
+
+* [azl397985856/leetcode](https://github.com/azl397985856/leetcode) leetcode题解，记录自己的leetcode解题之路。
+
+* [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
+
+* [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) 交互式路线图、指南和其他教育内容，以帮助开发人员在他们的职业生涯中成长。包括：前端、后端、开发运营、计算机科学、质量检查、软件架构师、软件设计和架构路、JavaScript、TypeScript、React、Vue 、Angular、Node.js、GraphQL、安卓、Flutter、Python、Go、Java、Spring Boot、设计系统、DBA、区块链、ASP.NET、系统设计、Kubernetes
+
+* [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) 流行编程语言、框架和开发工具的精彩备忘单。它们在一个文件中包含您应该知道的所有内容。
+
+* [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) 每个软件开发人员都应该知道的（主要是）技术知识的集合
+
+* [resumejob/interview-questions](https://github.com/resumejob/interview-questions) Interview Questions for Google, Amazon, Apple, etc. 根据超过 2000 篇真实面经整理的腾讯，阿里，字节跳动，Shopee，美团，滴滴高频面试题
+
+* [charlax/professional-programming](https://github.com/charlax/professional-programming) 程序员的全栈资源集合。
+
+* [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) 来自计算机科学界的论文可供阅读和讨论。
+
+* [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm) 共 60 多篇原创文章，都是基于 LeetCode 的题目，涵盖了所有题型和技巧，而且一定要做到举一反三，通俗易懂，绝不是简单的代码堆砌，后面有目录。
+
+* [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) 令人敬畏的 CS 课程，这些课程提供高质量的材料，即免费在线提供作业、讲座、笔记、阅读材料和考试。
+
+* [XiangLinPro/IT_book](https://github.com/XiangLinPro/IT_book) 收藏这些年来看过或者听过的一些不错的常用的上千本书籍，没准你想找的书就在这里呢，包含了互联网行业大多数书籍和面试经验题目等等。有人工智能系列（常用深度学习框架TensorFlow、pytorch、keras。NLP、机器学习，深度学习等等），大数据系列(Spark,Hadoop,Scala,kafka等)，程序员必修系列（C、C++、java、数据结构、linux，设计模式、数据库等等）
+
+* [JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner) 为那些开始学习编程的人编写的技术面试指南。祝你一切顺利。
+
+* [dipakkr/A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students) 当我在大学时，由于缺乏意识，我错过了很多机会，如黑客马拉松、会议、实习、研讨会和许多全球活动。我不希望新兴开发者和我一样受苦。因此，我和周围的其他一些开发人员为学生收集了一份资源清单。如果你在上大学，大学毕业生，或者刚开始做开发人员，你一定要去看看！
+
+* [TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript) 在 JavaScript 中为初学者实现的算法和数据结构，遵循最佳实践。
+
+* [xtaci/algorithms](https://github.com/xtaci/algorithms) C++中的算法和数据结构。
+
+* [TheAlgorithms/Go](https://github.com/TheAlgorithms/Go) 在 Go 中为初学者实现的算法和数据结构，遵循最佳实践。
+
+* [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) 用 JavaScript 实现的算法和数据结构，带有解释和进一步阅读的链接
+
+* [MTrajK/coding-problems](https://github.com/MTrajK/coding-problems/) 各种编码/算法问题的解决方案以及许多用于学习算法和数据结构的python资源
+
+* [donnemartin/interactive-coding-challenges](https://github.com/donnemartin/interactive-coding-challenges) 120+ 交互式 Python 编码面试挑战（算法和数据结构）。包括 Anki 抽认卡。
+
+* [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) 一个交互式编译器探索网站。在
+   C、C++、C#、F#、Rust、Go、D、Haskell、Swift、Pascal、ispc、Python、Java 或其他 30 多种支持的语言中编辑代码，并查看代码在实际编译后的样子时间。每种语言都支持多个编译器，可以使用许多不同的工具和可视化，并且 UI 布局是可配置
+
+* [3b1b/manim](https://github.com/3b1b/manim) 用于精确编程动画的引擎，专为创建解释性数学视频而设计。
+
+* [apple/swift](https://github.com/apple/swift) Swift 是一种高性能的系统编程语言。它具有简洁现代的语法，提供对现有 C 和 Objective-C 代码和框架的无缝访问，并且默认情况下是内存安全的。
+
+* [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
+
+* [nim-lang/Nim](https://github.com/nim-lang/Nim) 静态类型的编译系统编程语言。它结合了来自Python，Ada和Modula等成熟语言的成功概念。它的设计侧重于效率、表现力和优雅（按优先级顺序）。
+
+* [bbatsov/clojure-style-guide](https://github.com/bbatsov/clojure-style-guide) Clojure编程语言的社区编码风格指南
+
+* [unisonweb/unison](https://github.com/unisonweb/unison) 现代静态纯函数式语言，使用单个程序描述整个分布式系统。
+
+* [typelead/eta](https://github.com/typelead/eta) Eta编程语言，JVM上Haskell的一种方言
+
+* [koka-lang/koka](https://github.com/koka-lang/koka) Koka 语言编译器和解释器
+
+* [gleam-lang/gleam](https://github.com/gleam-lang/gleam) 用于构建类型安全、可扩展系统的友好语言。它可以编译为Erlang（或JS），并与其他BEAM语言（如Erlang，Elixir和LFE）具有直接的互操作。
+
+* [NASM 程序设计 · 语雀]([NASM 程序设计 · 语雀](https://www.yuque.com/qyuhen/asm))
+
+* [ziglang/zig](https://github.com/ziglang/zig) 通用编程语言和工具链，用于维护健壮、最佳和可重用的软件。
+
+* [enso-org/enso](https://github.com/enso-org/enso) 一种屡获殊荣的交互式编程语言，具有双重视觉和文本表示。它是一个跨越整个堆栈的工具，从高级可视化和通信到后端服务的细节，所有这些都使用一种语言。
+
+* [wren-lang/wren](https://github.com/wren-lang/wren) Wren编程语言。Wren 是一种小型、快速、基于类的并发脚本语言。想想 Smalltalk 在一个 Lua 大小的包中，带有一点 Erlang，并用熟悉的现代语法包裹起来。
+
+* [red/red](https://github.com/red/red) 受 Rebol 强烈启发的下一代编程语言，但由于其本机代码编译器，从系统编程到高级脚本和跨平台反应式 GUI，具有更广泛的使用领域，同时提供对并发的现代支持，所有这些都在一个零安装、配置、 ~1MB 文件中
+
+* [JetBrains/kotlin](https://github.com/JetBrains/kotlin) 开源的静态类型编程语言，由 JetBrains 和开源贡献者支持和开发。
+
+* [halide/Halide](https://github.com/halide/Halide) 一种用于快速、可移植数据并行计算的语言。Halide不是一种独立的编程语言，而是嵌入在C++中。这意味着您编写C++代码，使用 Halide 的 C++ API 构建 Halide 管道的内存中表示形式。然后，可以将此表示形式编译为对象文件，或者对其进行 JIT 编译并在同一进程中运行它。Halide 还提供了一个 Python 绑定，该绑定完全支持在没有C++的情况下编写嵌入在 Python 中的 Halide。
+
+* [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。
+
+* [HaxeFoundation/haxe](https://github.com/HaxeFoundation/haxe) 可让您轻松构建面向许多主流平台的跨平台工具和应用程序。Haxe 工具包包括：Haxe 编程语言，一种现代、高级、严格类型的编程语言、Haxe 交叉编译器，适用于许多目标的最先进的闪电般的编译器、Haxe 标准库，一个完整的跨平台通用功能库
+
+* [crystal-lang/crystal](https://github.com/crystal-lang/crystal) 一种编程语言，具有以下目标：具有类似于 Ruby 的语法（但与它的兼容性不是目标）。静态类型检查，但不必指定变量或方法参数的类型。能够通过在 Crystal 中编写绑定来调用 C 代码。具有编译时评估和代码生成，以避免样板代码。编译为高效的本机代码。
+
+## 游戏
+
+* [raysan5/raylib](https://github.com/raysan5/raylib) 一个简单易用的视频游戏编程库 
+
+* [rwv/chinese-dos-games](https://github.com/rwv/chinese-dos-games) 中文 DOS 游戏
+
+* [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) 一款高度奇幻题材的开源回合制策略游戏。
+
+* [lxgr-linux/pokete](https://github.com/lxgr-linux/pokete) 基于终端的口袋妖怪类游戏
+
+* [Grimmys/rpg_tactical_fantasy_game](https://github.com/Grimmys/rpg_tactical_fantasy_game) pygame中的战术回合制游戏项目，开放支持
+
+* [GDQuest/godot-open-rpg](https://github.com/GDQuest/godot-open-rpg/tree/main) 通过这个开源 RPG 演示学习创建回合制战斗游戏
+
+* [deepmind/mujoco](https://github.com/deepmind/mujoco) 多关节动力学与接触。通用物理模拟器。
+
+* [keenon/nimblephysics](https://github.com/keenon/nimblephysics) Nimble：深度学习的物理引擎
+
+* [TastSong/CrazyCar](https://github.com/TastSong/CrazyCar) 网络联机游戏解决方案---Unity制作的联机赛车游戏，服务端为SpringBoot + Mybatis；后台为Vue + Element；游戏端采用QFramework框架，支持KCP和WebSocket网络(商用级)
+
+* [clear-code-projects/Zelda](https://github.com/clear-code-projects/Zelda) 用 Python 构建一个塞尔达风格的游戏
+
+* [pmgl/microstudio](https://github.com/pmgl/microstudio) 免费、开源的在线游戏引擎 nodejs
+
+* [flareteam/flare-game](https://github.com/flareteam/flare-game) 使用 FLARE 引擎的奇幻动作角色扮演游戏
+
+* [jynew/jynew](https://github.com/jynew/jynew) 开源武侠RPG游戏开发框架 使用Unity引擎重制并致敬经典游戏《金庸群侠传》DOS版
+
+* [XorTroll/Goldleaf](https://github.com/XorTroll/Goldleaf) Nintendo Switch 游戏机的多用途自制工具。
+
+* [Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx) 用 C# 编写的实验性 Nintendo Switch 游戏机 模拟器
+
+* [godotengine/godot](https://github.com/godotengine/godot) 一个功能丰富的跨平台游戏引擎，用于从统一界面创建 2D 和 3D 游戏。它提供了一套完善的常用工具，让用户可以专注于制作游戏，而无需重新发明轮子。游戏可以一键导出到多个平台，包括主要的桌面平台（Linux、macOS、Windows）、移动平台（Android、iOS），以及基于 Web 的平台和控制台。
+
+* [ellisonleao/magictools](https://github.com/ellisonleao/magictools) 游戏开发资源列表。
+
+* [libgdx/libgdx](https://github.com/libgdx/libgdx) 桌面/安卓/HTML5/iOS Java游戏开发框架
+
+* [screeps/screeps](https://github.com/screeps/screeps) 用于编写游戏 Screeps 的独立服务器。Screeps 是一款面向程序员的 MMO RTS 沙盒游戏，其中核心机制是为您的单位 AI 编程。你通过编写 JavaScript 来控制你的殖民地，这些 JavaScript 在由与你同等的其他玩家填充的单一持久世界中 24/7 全天候运行。
+
+* [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) 功能强大、美观、简单且开放的游戏和渲染引擎，包含在一个友好的 JavaScript 框架中。
+
+* [leereilly/games](https://github.com/leereilly/games) 在 GitHub 上找到的开源游戏和游戏相关项目列表 - 老式文本冒险、教育游戏、8 位平台游戏、基于浏览器的游戏、独立游戏、GameJam 项目、商业游戏的附加组件/地图/黑客/插件、库、框架、引擎，应有尽有。
+
+* [cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x) 开源、跨平台的游戏开发工具，被全球数百万开发者使用。它的核心已经发展成为 Cocos Creator 1.x 和 2.x 的基础。用于构建 2D 游戏、交互式书籍、演示和其他图形应用程序。它基于 cocos2d-iphone，但它没有使用 Objective-C，而是使用 C++。它适用于 iOS、Android、macOS、Windows 和 Linux。
+
+* [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) 早期Westwood游戏的开源实时战略游戏引擎，例如使用SDL和OpenGL用C#编写的《命令与征服：红色警戒》。
+
+* [AbyssEngine/AbyssEngine](https://github.com/AbyssEngine/AbyssEngine) 游戏引擎，旨在运行类似于 2000 年风格的 ARPG 游戏，例如暗黑破坏神 II。该存储库提供了核心引擎以及 OpenDiablo2，这是使用该引擎对暗黑破坏神 II 的开源重新实现。
+
+* [MonoGame/MonoGame](https://github.com/MonoGame/MonoGame) 简单而强大的 .NET 框架，用于使用 C# 编程语言为台式电脑、视频游戏机和移动设备创建游戏。它已成功用于创建《愤怒的街道 4》、《Carrion》、《Celeste》、《星露谷物语》等游戏。
+
+* [boardgameio/boardgame.io](https://github.com/boardgameio/boardgame.io) 使用 JavaScript 创建回合制游戏的引擎。编写简单的函数来描述在进行特定移动时游戏状态如何变化。这会自动转换为具有在线多人游戏功能的可玩游戏，而无需您编写任何网络或存储代码。
+
+* [minetest/minetest](https://github.com/minetest/minetest) 开源体素游戏引擎，易于修改和游戏创建。
+
+* [Anuken/Mindustry](https://github.com/Anuken/Mindustry) 自动化塔防RTS，用Java编写。
+
+* [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) Android、Win、Mac 和 Linux 的 PSP 模拟器，用 C++ 编写。
+
+* [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) Go 编程语言的开源游戏引擎。Ebitengine 的简单 API 允许您快速轻松地开发可跨多个平台部署的 2D 游戏。
+
+* [skypjack/entt](https://github.com/skypjack/entt) 游戏与现代 C++ 的结合 - 快速可靠的实体组件系统 （ECS） 等等。仅标头，小巧且易于使用的游戏编程库，以及更多用现代 C++ 编写的库。
+
+* [playcanvas/engine](https://github.com/playcanvas/engine) 基于 WebGL 和 glTF 构建的快速轻量级 JavaScript 游戏引擎
+
+## 其他
+
+* [torvalds/linux](https://github.com/torvalds/linux) Linux内核源码树
+
+* [ruanyf/weekly](https://github.com/ruanyf/weekly) 科技爱好者周刊，每周五发布
+
+* [public-apis/public-apis](https://github.com/public-apis/public-apis) 一个免费API的集合列表，可用于软件和Web开发
+
+* [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) 了解如何设计大型系统。准备系统设计面试。包括 Anki 抽认卡。
+
+* [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) 程序员在家做饭方法指南。
+
+* [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) 为初创公司首席技术官精心策划的、有主见的资源清单
+
+* [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) 包含有关各种技术主题的问题和练习，有时与 DevOps 和 SRE 相关
+
+* [luong-komorebi/Awesome-Linux-Software ](https://github.com/luong-komorebi/Awesome-Linux-Software/blob/master/README_zh-CN.md) 收集了对任何用户/开发者都觉得超赞的 Linux 应用软件。
+
+* [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) 程序员如何优雅的挣零花钱
+
+* [resumejob/awesome-resume](https://github.com/resumejob/awesome-resume) 程序员简历例句，简历模版
+
+* [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) 对设计模式的超简化解释
+
+* [google/styleguide](https://github.com/google/styleguide) 谷歌风格指南 每个主要的开源项目都有自己的风格指南：一组关于如何为该项目编写代码的约定（有时是任意的）。当其中的所有代码都采用一致的风格时，理解大型代码库会容易得多。
+
+* [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) 提供了一个开发人员友好的API，可以与Chromium和LibreOffice等强大的工具进行交互，以将多种文档格式（HTML，Markdown，Word，Excel等）转换为PDF文件等等！
+
+* [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集GitHub高质量、有趣的开源项目。
+
+* [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) 收集了各种类别的出色 macOS 软件。
+
+* [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) 一系列应用创意，可用于提高您的编码技能。
+
+* [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) Linux命令大全搜索，包含手册、详解、学习、搜集。
+
 * [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) 允许您记录屏幕的选定区域，编辑并将其保存为 gif 或视频。需要 .NET 6 桌面运行时（或更高版本）。
 
 * [mifi/lossless-cut](https://github.com/mifi/lossless-cut) 无损视频/音频编辑的瑞士军刀。跨平台 FFmpeg GUI，用于对视频、音频、字幕和其他相关媒体文件进行极其快速和无损的操作。
@@ -10757,33 +10915,19 @@
 
 * [modichirag/flowpm](https://github.com/modichirag/flowpm) TensorFlow中的粒子网格模拟N体宇宙学模拟
 
-* [3b1b/manim](https://github.com/3b1b/manim) 用于精确编程动画的引擎，专为创建解释性数学视频而设计。
-
 * [bennettfeely/bennett](https://github.com/bennettfeely/bennett) ztext 易于实现的3D网页排版。适用于每种字体。
 
 * [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) 熟练使用命令行是一项经常被忽视或被认为是晦涩难懂的技能，但它以明显和微妙的方式提高了您作为工程师的灵活性和生产力。这是一些关于使用命令行的笔记和技巧，我们发现在 Linux 上工作时很有用。有些技巧是基本的，有些则相当具体、复杂或晦涩难懂。这个页面不长，但如果你能使用和回忆这里的所有项目，你就会知道很多。
 
-* [girliemac/a-picture-is-worth-a-1000-words](https://github.com/girliemac/a-picture-is-worth-a-1000-words) 用简单的涂鸦来描述复杂的事情！包括：算法、web、机器学习、Git、HTTP 状态等
-
 * [dxx/react-bilibili](https://github.com/dxx/react-bilibili) 高仿B站web移动端
 
 * [alyssaxuu/flowy](https://github.com/alyssaxuu/flowy) 创建具有流程图功能的 WebApps 成为一项极其简单的任务。 通过将库实施到您的项目中，几分钟内构建自动化软件、思维导图或简单的编程平台。
-
-* [raysan5/raylib](https://github.com/raysan5/raylib) 一个简单易用的视频游戏编程库 
-
-* [rwv/chinese-dos-games](https://github.com/rwv/chinese-dos-games) 中文 DOS 游戏
 
 * [nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic) 解锁网易云音乐客户端变灰歌曲
 
 * [opensumi/core](https://github.com/opensumi/core) 帮助您快速构建云或桌面 IDE 产品。
 
 * [xiangyuecn/Recorder](https://github.com/xiangyuecn/Recorder) html5 js 录音 mp3 wav ogg webm amr 格式，支持pc和Android、iOS部分浏览器、Hybrid App（提供Android iOS App源码）、微信
-
-* [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) 代码算法的可视化交互式在线平台。
-
-* [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) 一款高度奇幻题材的开源回合制策略游戏。
-
-* [sanic-org/sanic](https://github.com/sanic-org/sanic) 异步 Python 3.7+ web 框架 
 
 * [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) 哔哩哔哩-API收集整理
 
@@ -10794,16 +10938,6 @@
 * [jina-ai/jina](https://github.com/jina-ai/jina) 一个神经搜索框架，它使任何人都可以在几分钟内构建 SOTA 和可扩展的深度学习搜索应用程序。可扩展的索引、查询、理解任何数据：视频、图像、长/短文本、音乐、源代码、PDF 等。
 
 * [dedupeio/dedupe](https://github.com/dedupeio/dedupe) 机器学习对结构化数据快速执行模糊匹配、去重和实体解析。
-
-* [lxgr-linux/pokete](https://github.com/lxgr-linux/pokete) 基于终端的口袋妖怪类游戏
-
-* [Grimmys/rpg_tactical_fantasy_game](https://github.com/Grimmys/rpg_tactical_fantasy_game) pygame中的战术回合制游戏项目，开放支持
-
-* [GDQuest/godot-open-rpg](https://github.com/GDQuest/godot-open-rpg/tree/main) 通过这个开源 RPG 演示学习创建回合制战斗游戏
-
-* [deepmind/mujoco](https://github.com/deepmind/mujoco) 多关节动力学与接触。通用物理模拟器。
-
-* [keenon/nimblephysics](https://github.com/keenon/nimblephysics) Nimble：深度学习的物理引擎
 
 * [Alinshans/MyTinySTL](https://github.com/Alinshans/MyTinySTL) 实现了大部分STL中的容器与函数，但仍存在许多bug。
 
@@ -10827,11 +10961,7 @@
 
 * [PureDarwin/PureDarwin](https://github.com/PureDarwin/PureDarwin) Darwin 是 macOS 的开源核心，PureDarwin 是一个社区项目，旨在将 Darwin 扩展为一个完整的、可用的操作系统。
 
-* [weartist/computer_book_list](https://github.com/weartist/computer_book_list) 综合了豆瓣，goodreads综合评分的计算机书籍书单
-
 * [sunym1993/flash-linux0.11-talk](https://github.com/sunym1993/flash-linux0.11-talk) 像小说一样品读 Linux 0.11 核心代码
-
-* [Textualize/textual](https://github.com/Textualize/textual) 受现代Web开发启发的 Python 的 TUI（文本用户界面）框架。
 
 * [clouddreamteam_admin/cloud-dream](https://gitee.com/clouddreamteam_admin/cloud-dream) 微信小程序—餐饮点餐商城，是针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！
 
@@ -10841,19 +10971,7 @@
 
 * [H5-Dooring/dooringx](https://github.com/H5-Dooring/dooringx) 快速高效搭建可视化拖拽平台
 
-* [zadam/trilium](https://github.com/zadam/trilium) 使用 Trilium Notes 建立您的个人知识库
-
-* [TastSong/CrazyCar](https://github.com/TastSong/CrazyCar) 网络联机游戏解决方案---Unity制作的联机赛车游戏，服务端为SpringBoot + Mybatis；后台为Vue + Element；游戏端采用QFramework框架，支持KCP和WebSocket网络(商用级)
-
-* [clear-code-projects/Zelda](https://github.com/clear-code-projects/Zelda) 用 Python 构建一个塞尔达风格的游戏
-
-* [ijl/orjson](https://github.com/ijl/orjson) 支持数据类、日期时间和 numpy 的高速、准确的 Python JSON 库
-
 * [polybar/polybar](https://github.com/polybar/polybar) 快速且易于使用的状态栏
-
-* [pmgl/microstudio](https://github.com/pmgl/microstudio) 免费、开源的在线游戏引擎 nodejs
-
-* [flareteam/flare-game](https://github.com/flareteam/flare-game) 使用 FLARE 引擎的奇幻动作角色扮演游戏
 
 * [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) 精益副业：程序员如何优雅地做副业
 
@@ -10861,23 +10979,9 @@
 
 * [penpot/penpot](https://github.com/penpot/penpot) 开源设计和原型平台
 
-* [jynew/jynew](https://github.com/jynew/jynew) 开源武侠RPG游戏开发框架 使用Unity引擎重制并致敬经典游戏《金庸群侠传》DOS版
-
-* [jupyterlab/jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git) 使用 Git 进行版本控制的 JupyterLab 扩展
-
-* [damianavila/RISE](https://github.com/damianavila/RISE) 允许您立即将 Jupyter 笔记本变成幻灯片。 
-
-* [jupyter/nbdime](https://github.com/jupyter/nbdime) 用于区分和合并 Jupyter 笔记本的工具。
-
-* [voila-dashboards/voila](https://github.com/voila-dashboards/voila) 将 Jupyter 笔记本变成独立的网络应用程序
-
 * [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) 使用 PUT/POST 将推送通知发送到您的手机或桌面
 
 * [charmbracelet/vhs](https://github.com/charmbracelet/vhs) 集测试和演示 CLI 于一身的视频记录仪，它会根据你的指令生成相关的操作视频。
-
-* [XorTroll/Goldleaf](https://github.com/XorTroll/Goldleaf) Nintendo Switch 游戏机的多用途自制工具。
-
-* [Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx) 用 C# 编写的实验性 Nintendo Switch 游戏机 模拟器
 
 * [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) 来自 Microsoft 的一组熟悉、友好和现代的表情符号
 
@@ -10899,11 +11003,7 @@
 
 * [nocodb/nocodb](https://github.com/nocodb/nocodb) 开源 Airtable 替代方案 将任何 MySQL、PostgreSQL、SQL Server、SQLite 和 MariaDB 变成智能电子表格。
 
-* [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) 国内个人知识管理系统，支持细粒度块级引用和Markdown。
-
 * [freembook.com](https://freembook.com/) 书籍查询网页，可查询：书号 书名 SS号 DX号
-
-* [Davy-Zhou/zip2pdf](https://github.com/Davy-Zhou/zip2pdf) 基于Python自动化解压压缩包成PDG，PDG合成PDF 
 
 * [sharkdp/bat](https://github.com/sharkdp/bat) 一只长着翅膀的 cat(1) 命令的克隆体。功能:语法高亮、显示不可打印的字符、文件串联。
 
@@ -10921,8 +11021,6 @@
 
 * [home-assistant/core](https://github.com/home-assistant/core) 将本地控制和隐私放在首位的开源家庭自动化。
 
-* [godotengine/godot](https://github.com/godotengine/godot) 一个功能丰富的跨平台游戏引擎，用于从统一界面创建 2D 和 3D 游戏。它提供了一套完善的常用工具，让用户可以专注于制作游戏，而无需重新发明轮子。游戏可以一键导出到多个平台，包括主要的桌面平台（Linux、macOS、Windows）、移动平台（Android、iOS），以及基于 Web 的平台和控制台。
-
 * [ventoy/Ventoy](https://github.com/ventoy/Ventoy) 用于为 ISO/WIM/IMG/VHD(x)/EFI 文件创建可启动 USB 驱动器
 
 * [microsoft/PowerToys](https://github.com/microsoft/PowerToys) Microsoft PowerToys 是一组实用程序，供高级用户调整和简化 Windows 体验以提高工作效率。
@@ -10932,8 +11030,6 @@
 * [pomber/git-history](https://github.com/pomber/git-history) 从任何 git 存储库快速浏览文件的历史记录
 
 * [RelaxedJS/ReLaXed](https://github.com/RelaxedJS/ReLaXed) 使用 Web 技术创建 PDF 文档
-
-* [giampaolo/psutil](https://github.com/giampaolo/psutil) 用于 Python 中进程和系统监控的跨平台库
 
 * [tianshiyeben/wgcloud](https://github.com/tianshiyeben/wgcloud) Linux运维监控工具，支持系统硬件信息，内存，cpu，温度，磁盘空间及IO，硬盘smart，系统负载，网络流量等监控，服务接口，大屏展示，拓扑图，进程监控，端口监控，docker监控，文件防篡改，日志监控，数据可视化，web ssh，堡垒机，指令下发批量执行，Linux面板(探针)，SNMP，故障告警
 
@@ -10967,23 +11063,9 @@
 
 * [SwifterSwift/SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) 包含 500 多个原生 Swift 扩展的便捷集合，可提高您的工作效率。
 
-* [ellisonleao/magictools](https://github.com/ellisonleao/magictools) 游戏开发资源列表。
-
 * [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) 命令行应用的精选列表
 
-* [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
-
 * [asdf-vm/asdf](https://github.com/asdf-vm/asdf) 可扩展的版本管理器，支持Ruby，Node.js，Elixir，Erlang等
-
-* [bbatsov/clojure-style-guide](https://github.com/bbatsov/clojure-style-guide) Clojure编程语言的社区编码风格指南
-
-* [unisonweb/unison](https://github.com/unisonweb/unison) 现代静态纯函数式语言，使用单个程序描述整个分布式系统。
-
-* [typelead/eta](https://github.com/typelead/eta) Eta编程语言，JVM上Haskell的一种方言
-
-* [koka-lang/koka](https://github.com/koka-lang/koka) Koka 语言编译器和解释器
-
-* [gleam-lang/gleam](https://github.com/gleam-lang/gleam) 用于构建类型安全、可扩展系统的友好语言。它可以编译为Erlang（或JS），并与其他BEAM语言（如Erlang，Elixir和LFE）具有直接的互操作。
 
 * [lunatic-solutions/lunatic](https://github.com/lunatic-solutions/lunatic) 用于快速、健壮和可扩展的服务器端应用程序的通用运行时。它的灵感来自 Erlang，可以从任何编译到 WebAssembly 的语言中使用。
 
@@ -11039,20 +11121,6 @@
 
 * [wuxingsanren/wildcat-vip-account](https://github.com/wuxingsanren/wildcat-vip-account) 每天分享最新的百度网盘SVIP、迅雷超级会员、手机话费折扣充值、霸王餐免费吃VIP（美团、饿了么、大众点评、肯德基、麦当劳、星巴克）、饿了么超级会员、美团外卖会员&红包券、爱奇艺VIP会员、腾讯视频VIP、优酷VIP会员、哔哩哔哩大会员、百度文库VIP、QQ音乐VIP、网易云黑胶VIP、喜马拉雅VIP、樊登读书会VIP、千图网VIP、包图网VIP、摄图网VIP、CSDN下载VIP、天眼查VIP、苹果ID等等各类VIP帐号，随取随用，完全免费，绝无套路，同时提供：百度文库VIP下载、图库素材VIP下载、学术文献VIP下载（知网维普万方读秀龙源超星、英文数据库、法律数据库、医学数据库、金融数据库）、全网视频VIP解析、全网音乐MP3免费听及下载、微信域名拦截检测API 
 
-* [XiangLinPro/IT_book](https://github.com/XiangLinPro/IT_book) 收藏这些年来看过或者听过的一些不错的常用的上千本书籍，没准你想找的书就在这里呢，包含了互联网行业大多数书籍和面试经验题目等等。有人工智能系列（常用深度学习框架TensorFlow、pytorch、keras。NLP、机器学习，深度学习等等），大数据系列(Spark,Hadoop,Scala,kafka等)，程序员必修系列（C、C++、java、数据结构、linux，设计模式、数据库等等）
-
-* [NASM 程序设计 · 语雀]([NASM 程序设计 · 语雀](https://www.yuque.com/qyuhen/asm))
-
-* [ziglang/zig](https://github.com/ziglang/zig) 通用编程语言和工具链，用于维护健壮、最佳和可重用的软件。
-
-* [enso-org/enso](https://github.com/enso-org/enso) 一种屡获殊荣的交互式编程语言，具有双重视觉和文本表示。它是一个跨越整个堆栈的工具，从高级可视化和通信到后端服务的细节，所有这些都使用一种语言。
-
-* [wren-lang/wren](https://github.com/wren-lang/wren) Wren编程语言。Wren 是一种小型、快速、基于类的并发脚本语言。想想 Smalltalk 在一个 Lua 大小的包中，带有一点 Erlang，并用熟悉的现代语法包裹起来。
-
-* [red/red](https://github.com/red/red) 受 Rebol 强烈启发的下一代编程语言，但由于其本机代码编译器，从系统编程到高级脚本和跨平台反应式 GUI，具有更广泛的使用领域，同时提供对并发的现代支持，所有这些都在一个零安装、配置、 ~1MB 文件中
-
-* [JetBrains/kotlin](https://github.com/JetBrains/kotlin) 开源的静态类型编程语言，由 JetBrains 和开源贡献者支持和开发。
-
 * [houshanren/hangzhou_house_knowledge](https://github.com/houshanren/hangzhou_house_knowledge) 2017年买房经历总结出来的买房购房知识分享给大家，希望对大家有所帮助。买房不易，且买且珍惜。
 
 * [The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run) 润学全球官方指定GITHUB，整理润学宗旨、纲领、理论和各类润之实例；解决为什么润，润去哪里，怎么润三大问题； 并成为新中国人的核心宗教，核心信念。
@@ -11077,25 +11145,15 @@
 
 * [SnapKit/SnapKit](https://github.com/SnapKit/SnapKit) 一款DSL，可在iOS和OS X上轻松实现自动布局。
 
-* [NotFound9/interviewGuide](https://github.com/NotFound9/interviewGuide) 《大厂面试指北》—包括Java、JVM、数据库、mysql、网络、算法、数据结构、操作系统、设计模式、系统设计、框架原理。
-
 * [Ftindy/IPTV-URL](https://github.com/Ftindy/IPTV-URL) 本项目直播源均搜集自互联网，完全免费公开分享
 
 * [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) 直播源相关资源汇总  IPTV、M3U
 
 * [asdf-vm/asdf](https://github.com/asdf-vm/asdf) 可扩展的版本管理器，支持Ruby，Node.js，Elixir，Erlang等
 
-* [libgdx/libgdx](https://github.com/libgdx/libgdx) 桌面/安卓/HTML5/iOS Java游戏开发框架
-
 * [SwiftGGTeam/the-swift-programming-language-in-chinese](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese) 中文版 Apple 官方 Swift 教程《The Swift Programming Language》
 
-* [ruby/ruby](https://github.com/ruby/ruby) 一种解释型面向对象的编程语言，通常用于 Web 开发。它还提供了许多脚本功能来处理纯文本和序列化文件，或管理系统任务。它简单、直接且可扩展。
-
 * [AlDanial/cloc](https://github.com/AlDanial/cloc) 对许多编程语言中源代码的空白行、注释行和物理行进行计数
-
-* [nim-lang/Nim](https://github.com/nim-lang/Nim) 静态类型的编译系统编程语言。它结合了来自Python，Ada和Modula等成熟语言的成功概念。它的设计侧重于效率、表现力和优雅（按优先级顺序）。
-
-* [halide/Halide](https://github.com/halide/Halide) 一种用于快速、可移植数据并行计算的语言。Halide不是一种独立的编程语言，而是嵌入在C++中。这意味着您编写C++代码，使用 Halide 的 C++ API 构建 Halide 管道的内存中表示形式。然后，可以将此表示形式编译为对象文件，或者对其进行 JIT 编译并在同一进程中运行它。Halide 还提供了一个 Python 绑定，该绑定完全支持在没有C++的情况下编写嵌入在 Python 中的 Halide。
 
 * [brndnmtthws/conky](https://github.com/brndnmtthws/conky) 适用于X，Wayland和其他东西的轻量级系统监视器
 
@@ -11118,8 +11176,6 @@
 * [webpro/awesome-dotfiles](https://github.com/webpro/awesome-dotfiles) dotfiles 资源的精选列表。有些文章或工具可能看起来很旧或过时，但这通常意味着它们经过了实战考验并且已经成熟。随时提出新的文章、项目或工具！
 
 * [shimohq/chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation) 中国程序员易发音错误单词
-
-* [kdn251/interviews](https://github.com/kdn251/interviews) 获得这份工作需要知道的一切，包括面试、数据结构、算法、计算机书籍等
 
 * [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) 令人敬畏的iOS生态系统的精选列表，包括Objective-C和Swift项目。
 
@@ -11147,10 +11203,6 @@
 
 * [desktop/desktop](https://github.com/desktop/desktop) 开源的基于Electron的GitHub应用程序。它是用TypeScript编写的，并使用React。
 
-* [JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner) 为那些开始学习编程的人编写的技术面试指南。祝你一切顺利。
-
-* [dipakkr/A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students) 当我在大学时，由于缺乏意识，我错过了很多机会，如黑客马拉松、会议、实习、研讨会和许多全球活动。我不希望新兴开发者和我一样受苦。因此，我和周围的其他一些开发人员为学生收集了一份资源清单。如果你在上大学，大学毕业生，或者刚开始做开发人员，你一定要去看看！
-
 * [gztchan/awesome-design](https://github.com/gztchan/awesome-design) 专注于收集高质量的资源和工具，可供UI / UX设计师在日常工作中使用。
 
 * [markets/awesome-ruby](https://github.com/markets/awesome-ruby) 由社区驱动的分类集合，包含令人敬畏的 Ruby 库、工具、框架和软件。构建现代应用程序和 Web 应用程序的基本 Ruby。
@@ -11175,13 +11227,9 @@
 
 * [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) 精彩的远程作业和资源的精选列表。
 
-* [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。
-
 * [reactos/reactos](https://github.com/reactos/reactos) 一个免费的Windows兼容操作系统，旨在开发一个高质量的操作系统，该操作系统与为Microsoft® Windows™ NT系列操作系统（NT4,2000，XP，2003，Vista，7）编写的应用程序和驱动程序兼容。
 
 * [0xAX/linux-insides](https://github.com/0xAX/linux-insides) 关于 linux 内核的一点点，目标很简单 - 分享我对 linux 内核内部的适度知识，并帮助对 linux 内核内部和其他低级主题感兴趣的人。
-
-* [HaxeFoundation/haxe](https://github.com/HaxeFoundation/haxe) 可让您轻松构建面向许多主流平台的跨平台工具和应用程序。Haxe 工具包包括：Haxe 编程语言，一种现代、高级、严格类型的编程语言、Haxe 交叉编译器，适用于许多目标的最先进的闪电般的编译器、Haxe 标准库，一个完整的跨平台通用功能库
 
 * [icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn) 从github 各类 awesome list 通过爬虫聚合而来
 
@@ -11191,15 +11239,11 @@
 
 * [lichess-org/lila](https://github.com/lichess-org/lila) 永远免费、无广告和开源的国际象棋服务器
 
-* [csseky/cskaoyan](https://github.com/csseky/cskaoyan) 提供计算机考研和软件工程考研专业的各个学校 考研真题
-
 * [microsoft/wslg](https://github.com/microsoft/wslg) 使适用于 Linux 的 Windows 子系统能够包括对 Wayland 和 X 服务器相关方案的支持
 
 * [vygr/ChrysaLisp](https://github.com/vygr/ChrysaLisp) 64 位、MIMD、多 CPU、多线程、多核、多用户并行操作系统，具有 GUI、终端、OO 汇编器、类库、C 脚本编译器、Lisp 解释器、调试器、分析器、矢量字体引擎等功能。它支持 x64、Riscv64 和 Arm64 的 MacOS、Windows 和 Linux，并最终将转向裸机。它还允许对各种网络拓扑进行建模，并使用ChrysaLib hub_nodes加入异构主机网络。它有一个虚拟的CPU指令集和一个强大的对象和类系统，用于汇编程序和高级语言。它具有功能级动态绑定和加载功能，以及一个命令终端，该终端具有熟悉的管道式命令行应用程序界面。还提供了一个类似 Common Lisp 的解释器。
 
 * [babashka/babashka](https://github.com/babashka/babashka) 用于脚本编写的原生、快速启动的 Clojure 解释器
-
-* [screeps/screeps](https://github.com/screeps/screeps) 用于编写游戏 Screeps 的独立服务器。Screeps 是一款面向程序员的 MMO RTS 沙盒游戏，其中核心机制是为您的单位 AI 编程。你通过编写 JavaScript 来控制你的殖民地，这些 JavaScript 在由与你同等的其他玩家填充的单一持久世界中 24/7 全天候运行。
 
 * [tonsky/FiraCode](https://github.com/tonsky/FiraCode) 带有编程连字的免费等宽字体。程序员使用大量符号，通常使用多个字符进行编码。对于人脑来说，像 或 <= := 这样的 -> 序列是单个逻辑标记，即使它们在屏幕上包含两个或三个字符。您的眼睛花费非零的能量来扫描、解析多个字符并将其连接成一个逻辑字符。Fira Code 是一种免费的等宽字体，包含用于常见编程多字符组合的连字。这只是一个字体呈现功能：底层代码保持 ASCII 兼容。这有助于更快地阅读和理解代码。一些频繁的序列，如 .. 或 // ，连字允许我们校正间距。
 
@@ -11218,32 +11262,6 @@
 * [kelseyhightower/nocode](https://github.com/kelseyhightower/nocode) 编写安全可靠的应用的最佳方式。什么都不写;不部署。
 
 * [SFTtech/openage](https://github.com/SFTtech/openage) 一个志愿者项目，旨在创建《帝国时代》、《帝国时代 II》（高清版）和《星球大战：银河战场》中使用的精灵引擎的免费引擎克隆，可与 OpenMW、OpenRA、OpenSAGE、OpenTTD 和 OpenRCT2 等项目相媲美。
-
-* [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) 功能强大、美观、简单且开放的游戏和渲染引擎，包含在一个友好的 JavaScript 框架中。
-
-* [leereilly/games](https://github.com/leereilly/games) 在 GitHub 上找到的开源游戏和游戏相关项目列表 - 老式文本冒险、教育游戏、8 位平台游戏、基于浏览器的游戏、独立游戏、GameJam 项目、商业游戏的附加组件/地图/黑客/插件、库、框架、引擎，应有尽有。
-
-* [cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x) 开源、跨平台的游戏开发工具，被全球数百万开发者使用。它的核心已经发展成为 Cocos Creator 1.x 和 2.x 的基础。用于构建 2D 游戏、交互式书籍、演示和其他图形应用程序。它基于 cocos2d-iphone，但它没有使用 Objective-C，而是使用 C++。它适用于 iOS、Android、macOS、Windows 和 Linux。
-
-* [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) 早期Westwood游戏的开源实时战略游戏引擎，例如使用SDL和OpenGL用C#编写的《命令与征服：红色警戒》。
-
-* [AbyssEngine/AbyssEngine](https://github.com/AbyssEngine/AbyssEngine) 游戏引擎，旨在运行类似于 2000 年风格的 ARPG 游戏，例如暗黑破坏神 II。该存储库提供了核心引擎以及 OpenDiablo2，这是使用该引擎对暗黑破坏神 II 的开源重新实现。
-
-* [MonoGame/MonoGame](https://github.com/MonoGame/MonoGame) 简单而强大的 .NET 框架，用于使用 C# 编程语言为台式电脑、视频游戏机和移动设备创建游戏。它已成功用于创建《愤怒的街道 4》、《Carrion》、《Celeste》、《星露谷物语》等游戏。
-
-* [boardgameio/boardgame.io](https://github.com/boardgameio/boardgame.io) 使用 JavaScript 创建回合制游戏的引擎。编写简单的函数来描述在进行特定移动时游戏状态如何变化。这会自动转换为具有在线多人游戏功能的可玩游戏，而无需您编写任何网络或存储代码。
-
-* [minetest/minetest](https://github.com/minetest/minetest) 开源体素游戏引擎，易于修改和游戏创建。
-
-* [Anuken/Mindustry](https://github.com/Anuken/Mindustry) 自动化塔防RTS，用Java编写。
-
-* [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) Android、Win、Mac 和 Linux 的 PSP 模拟器，用 C++ 编写。
-
-* [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) Go 编程语言的开源游戏引擎。Ebitengine 的简单 API 允许您快速轻松地开发可跨多个平台部署的 2D 游戏。
-
-* [skypjack/entt](https://github.com/skypjack/entt) 游戏与现代 C++ 的结合 - 快速可靠的实体组件系统 （ECS） 等等。仅标头，小巧且易于使用的游戏编程库，以及更多用现代 C++ 编写的库。
-
-* [playcanvas/engine](https://github.com/playcanvas/engine) 基于 WebGL 和 glTF 构建的快速轻量级 JavaScript 游戏引擎
 
 * [assimp/assimp](https://github.com/assimp/assimp) 用于将各种 3D 文件格式加载为共享的内存格式。它支持 40 多种文件格式进行导入，并支持越来越多的文件格式进行导出。
 
@@ -11273,10 +11291,6 @@
 
 * [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) 科技行业远程工作友好型公司（工作）列表。
 
-* [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) 精心策划的令人敬畏的计算机编程面试问题列表列表。
-
-* [Kristories/awesome-guidelines](https://github.com/Kristories/awesome-guidelines) 精选的高质量编码风格约定和标准列表。
-
 * [timqian/chinese-independent-blogs](https://github.com/timqian/chinese-independent-blogs) 中文独立博客列表
 
 * [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) 经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新
@@ -11285,8 +11299,6 @@
 
 * [brendangregg/FlameGraph](https://github.com/brendangregg/FlameGraph) 堆栈跟踪可视化工具，单击一个框以仅将火焰图缩放到此堆栈帧。要搜索并突出显示与正则表达式匹配的所有堆栈帧，请单击右上角的搜索按钮或按 Ctrl-F。默认情况下，搜索区分大小写，但可以通过按 Ctrl-I 或单击右上角的 ic 按钮来切换。
 
-* [chubin/cheat.sh](https://github.com/chubin/cheat.sh) 统一访问世界上最好的社区驱动的备忘单存储库。涵盖 56 种编程语言、多种 DBMS 和 1000 多个最重要的 UNIX/Linux 命令。提供对世界上最好的社区驱动的备忘单存储库的访问，与 StackOverflow 相当。随处可用，无需安装，但可以安装以供离线使用。
-
 * [Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask) 用于管理以二进制文件形式分发的 macOS 应用程序的 CLI 工作流
 
 * [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) 自由软件媒体系统。Jellyfin 使您能够收集、管理和流式传输您的媒体。在您的系统上运行 Jellyfin 服务器，并访问领先的免费软件娱乐系统，包括花里胡哨的功能。
@@ -11294,8 +11306,6 @@
 * [chubin/wttr.in](https://github.com/chubin/wttr.in) 查看天气的正确方法
 
 * [muesli/duf](https://github.com/muesli/duf) 磁盘使用/免费实用程序 - 更好的“df”替代品
-
-* [crystal-lang/crystal](https://github.com/crystal-lang/crystal) 一种编程语言，具有以下目标：具有类似于 Ruby 的语法（但与它的兼容性不是目标）。静态类型检查，但不必指定变量或方法参数的类型。能够通过在 Crystal 中编写绑定来调用 C 代码。具有编译时评估和代码生成，以避免样板代码。编译为高效的本机代码。
 
 * [dotnet/roslyn](https://github.com/dotnet/roslyn) .NET 编译器为 C# 和 Visual Basic 语言提供丰富的代码分析 API。
 
@@ -11312,10 +11322,6 @@
 * [frank-lam/fullstack-tutorial](https://github.com/frank-lam/fullstack-tutorial) fullstack tutorial 2022，后台技术栈/架构师之路/全栈开发社区，春招/秋招/校招/面试
 
 * [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) 电子书管理器。它可以查看、转换、编辑和编目所有主要电子书格式的电子书。它还可以与电子书阅读器设备通信。它可以上网并获取您书籍的元数据。它可以下载报纸并将其转换为电子书，以方便阅读。它是跨平台的
-
-* [imarvinle/awesome-cs-books](https://github.com/imarvinle/awesome-cs-books) 经典编程书籍大全，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等
-
-* [xiaolincoder/CS-Base](https://github.com/xiaolincoder/CS-Base) 图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识
 
 * [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) 精选的免费课程和认证列表。
 
@@ -11356,8 +11362,6 @@
 * [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) git 的飞行规则，Git 程序员指南
 
 * [gulpjs/gulp](https://github.com/gulpjs/gulp) 一个工具包，可帮助您在开发工作流程中自动执行痛苦或耗时的任务。与平台无关 - 集成内置于所有主要 IDE 中，人们正在将 gulp 与 PHP、.NET、Node.js、Java 和其他平台一起使用。强大的生态系统 - 使用 npm 模块做任何你想做的事情 + 超过 3000 个精选插件用于流式文件转换.
-
-* [InterviewMap/CS-Interview-Knowledge-Map](https://github.com/InterviewMap/CS-Interview-Knowledge-Map) 建立最佳面试地图。目前的内容包括JS、网络、浏览器相关、性能优化、安全性、框架、Git、数据结构、算法等。
 
 * [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) 一种文档驱动的项目管理工具，可最大限度地提高远程 DevOps 团队的速度。
 
