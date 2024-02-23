@@ -841,6 +841,12 @@
 
 * [Netflix/metaflow](https://github.com/Netflix/metaflow) 轻松构建和管理现实生活中的 ML、AI 和数据科学项目
 
+* [chenyuntc/pytorch-book](https://github.com/chenyuntc/pytorch-book)  书籍《深度学习框架PyTorch：入门与实践（第2版）》的对应代码，但是也可以作为一个独立的PyTorch入门指南和教程。
+
+* [NVIDIA-AI-IOT/torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt) 易于使用的 PyTorch 到 TensorRT 转换器
+
+* [PaddlePaddle/models](https://github.com/PaddlePaddle/models) 飞桨产业级开源模型库，官方维护，PaddlePaddle支持，包括CV、NLP、Speech、Rec、TS、大模型等。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1974,6 +1980,16 @@
 
 * [flexflow/FlexFlow](https://github.com/flexflow/FlexFlow) 开源编译器和分布式系统，用于低延迟、高性能的 LLM 服务。FlexFlow Serve 在单节点、多 GPU 推理方面比现有系统高出 1.3-2.0 倍，在多节点、多 GPU 推理方面比现有系统高出 1.4-2.4 倍。
 
+* [OpenBMB/UltraFeedback](https://github.com/OpenBMB/UltraFeedback) 大规模、细粒度、多样化的偏好数据集（和模型）。UltraFeedback 是一个大规模、细粒度、多样化的偏好数据集，用于训练强大的奖励模型和批评者模型。从各种资源（包括 UltraChat、ShareGPT、Evol-Instruct、TruthfulQA、FalseQA 和 FLAN，数据集统计信息见此处）收集了大约 64k 个提示。然后，使用这些提示来查询多个 LLM，并为每个提示生成 4 个不同的响应，从而产生总共 256k 个样本。为了收集高质量的偏好和文本反馈，设计了一个细粒度的注释指令，其中包含 4 个不同的方面，即指令遵循、真实性、诚实性和帮助性。然后，我们要求 GPT-4 根据指令对收集到的样本进行注释。
+
+* [xiaogang00/white-paper-for-large-model-security-and-privacy](https://github.com/xiaogang00/white-paper-for-large-model-security-and-privacy) 大型模型安全和隐私白皮书，大型生成模型也存在数据/模型安全和隐私问题。我们应该注意到，大型生成模型会带来很多安全和隐私问题，因为它们在改变我们生活方面表现出巨大的力量，例如数据泄露和假新闻的传播。在本白皮书中，我们首先总结了大型生成模型的发展，包括其影响和社会影响。然后，我们总结了现有大型生成模型中当前存在的安全和隐私问题，例如数据和模型安全、版权问题和伦理问题。最后，我们针对当前的安全和隐私问题给出了相应的建议。它们可以用来指出未来的研究和发展方向，也可以作为政府决策的参考。
+
+* [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) 开源Py包，验证和纠正大语言模型的输出
+
+* [OpenMOSS/HalluQA](https://github.com/OpenMOSS/HalluQA) “中文大型语言模型中的幻觉评估”数据集和评估脚本，包含 450 个精心设计的对抗性问题，跨越多个领域，考虑了中国的历史文化、习俗和社会现象。第 1 步，可能会诱发模型幻觉的问题。第 2 步，使用 ChatGPT3.5 / Puyu / GLM-130B 生成答案并收集对抗性问题。第3步，为每个对抗性问题编写多个正确和错误的答案，并添加支持证据。第4步，检查所有带注释的问答对并删除低质样本。
+
+* [liziniu/ReMax](https://github.com/liziniu/ReMax) 论文代码（ReMax：一种简单、高效、有效的强化学习方法，用于对齐大型语言模型）。一种强化学习方法，专为 RLHF 中的奖励最大化而量身定制。ReMax 具有内存效率。与PPO相比，ReMax可以节省约50%的GPU内存消耗，可以分配1.3倍的大批量。ReMax 运行速度很快。它不需要训练价值模型，并且需要更少的计算。通常，它可以实现大约 2 倍的训练加速。ReMax易于调整以获得良好的性能。在 AlpacaEval 基准测试中，当被 GPT-4 判断时，ReMax 的胜率分别比 SFT、DPO 和 PPO 高出 84.22%、75.28% 和 63.60%。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2584,6 +2600,8 @@
 * [FlagAI-Open/FlagAI](https://github.com/FlagAI-Open/FlagAI) 快速、易用且可扩展的大型模型工具包。我们的目标是支持在各种下游任务中以多模态的方式训练、微调和部署大规模模型。
 
 * [Nutlope/notesGPT](https://github.com/Nutlope/notesGPT) 在几秒钟内从您的笔记中生成操作项。由 Convex(数据库和云函数)、Together.ai (LLM Mixtral)和 Whisper (ASR) 提供支持。
+
+* [zhiweihu1103/AgriMa](https://github.com/zhiweihu1103/AgriMa) 后稷-首个开源中文农业大模型。由山西大学、山西农业大学、The Fin AI联合研发，以Baichuan为底座，基于海量有监督农业领域相关数据微调，具备广泛的农业知识和智能分析能力，该模型旨在为农业领域提供全面而高效的信息处理和决策支持。
 
 ### 其他_文本生成、文本对话
 
@@ -3332,6 +3350,8 @@
 * [NLPchina/ansj_seg](https://github.com/NLPchina/ansj_seg) ansj分词.ict的真正java实现.分词效果速度都超过开源版的ict. 中文分词,人名识别,词性标注,用户自定义词典
 
 * [openai/tiktoken](https://github.com/openai/tiktoken) 一个快速的 BPE 分词标记器，用于 OpenAI 的模型。
+
+* [JohnSnowLabs/spark-nlp](https://github.com/JohnSnowLabs/spark-nlp) 建立在 Apache Spark 之上的最先进的自然语言处理库。它为机器学习管道提供了简单、高性能和准确的 NLP 注释，这些管道可在分布式环境中轻松扩展。Spark NLP 自带 36000+ 种预训练流水线和模型，支持 200+ 多种语言。它还提供诸如标记化、分词、词性标记、单词和句子嵌入、命名实体识别、依赖项解析、拼写检查、文本分类、情感分析、标记分类、机器翻译（+180 种语言）、摘要、问答、表格问答、文本生成、图像分类、图像到文本（字幕）、自动语音识别、零样本学习等任务，以及更多 NLP 任务。
 
 # 网络与前后端开发
 
@@ -5256,6 +5276,12 @@
 
 * [KRTirtho/spotube](https://github.com/KRTirtho/spotube) 开源 Spotify 客户端，不需要 Premium，也不使用 Electron，适用于桌面和移动设备
 
+* [msgbyte/tailchat](https://github.com/msgbyte/tailchat) 不仅是 IM。相反，它为个人/团队设计了一个以IM为中心的高度定制化的应用平台，以第三方应用作为增强功能，以插件系统作为中间的胶水连接层。
+
+* [koishijs/koishi](https://github.com/koishijs/koishi) 用爱制作的跨平台聊天机器人框架
+
+* [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) 适用于 Ubuntu、Debian、AlmaLinux、Rocky Linux、CentOS 和 Fedora 的 OpenVPN road warrior 安装程序
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -6965,6 +6991,8 @@
 
 * [jianchang512/clone-voice](https://github.com/jianchang512/clone-voice) 带web界面的声音克隆工具，使用你的音色或任意声音来录制音频。支持 中、英、日、韩、法、德、意等语言，可在线从麦克风录制声音。为保证合成效果，建议录制时长5秒到20秒，发音清晰准确，不要存在背景噪声。
 
+* [yl4579/StyleTTS2](https://github.com/yl4579/StyleTTS2) 通过大型语音语言模型的风格扩散和对抗训练实现人级文本转语音
+
 * [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) 小于10分钟的语音数据也可以用来训练一个好的VC模型 一个基于VITS的简单易用的语音转换（变声器）框架
 
 * [JasonWei512/Tacotron-2-Chinese](https://github.com/JasonWei512/Tacotron-2-Chinese) 中文语音合成
@@ -7386,6 +7414,8 @@
 * [dmis-lab/biobert](https://github.com/dmis-lab/biobert) 用于生物医学文本挖掘的预训练生物医学语言表示模型
 
 * [mims-harvard/TDC](https://github.com/mims-harvard/TDC) Therapeutics Data Commons (TDC)，第一个机器学习在生物医药的大规模数据集。TDC目前包含了20+有意义的任务，和70多个高质量数据集，从靶蛋白的发现，药物动力学，安全性，药物生产都有包含到。而且不仅仅是小分子，还有抗体，疫苗，miRNA等。之后也会加入CRISPR，Clinical Trials等等。
+
+* [alibaba-research/ChineseBLUE](https://github.com/alibaba-research/ChineseBLUE) 中国生物医学语言理解评估基准
 
 * [lrsoenksen/CL_RNA_SynthBio](https://github.com/lrsoenksen/CL_RNA_SynthBio) RNA合成生物学的深度学习
 
@@ -8782,6 +8812,8 @@
 * [brannondorsey/wifi-cracking](https://github.com/brannondorsey/wifi-cracking) 使用 Airodump-ng 和 Aircrack-ng/Hashcat 破解 WPA/WPA2 Wi-Fi 路由器
 
 * [winsiderss/systeminformer](https://github.com/winsiderss/systeminformer) Windows 10 免费、功能强大、用途广泛的工具，可帮助您监控系统资源、调试软件和检测恶意软件。由 Winsider Seminars & Solutions， Inc. 提供。
+
+* [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) 开源的 .NET 程序集浏览器和反编译器。
 
 ## 漏洞库、漏洞靶场
 
@@ -10436,6 +10468,8 @@
 
 * [microsoft/vscode](https://github.com/microsoft/vscode) 微软开源的程序开发工具和编辑器
 
+* [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) 让您的 Vim/Neovim 像 VS Code 一样智能
+
 * [ajaxorg/ace](https://github.com/ajaxorg/ace) 用JS编写的独立代码编辑器。我们的目标是创建一个基于浏览器的编辑器，以匹配和扩展现有本机编辑器（如TextMate，Vim或Eclipse）的功能，可用性和性能。它可以很容易地嵌入到任何网页或JavaScript应用程序中。Ace是作为Cloud9 IDE的主要编辑器和Mozilla Skywriter（Bespin）项目的继任者开发的。
 
 * [VSCodium/vscodium](https://github.com/VSCodium/vscodium) 没有微软品牌/遥测/许可的vscode代码二进制版本
@@ -10538,6 +10572,8 @@
 
 * [nushell/nushell](https://github.com/nushell/nushell) 一种新型终端。从 PowerShell、函数式编程语言和现代 CLI 工具等项目中汲取灵感。 Nu 不是将文件和数据视为原始文本流，而是将每个输入视为具有结构的东西。
 
+* [dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible) 记录仅使用内置 bash 功能执行各种任务的常见和鲜为人知的方法。使用这本圣经中的片段可以帮助从脚本中删除不需要的依赖项，并且在大多数情况下使它们更快。我在开发 neofetch、pxltrm 和其他小型项目时遇到了这些技巧，并发现了一些技巧。
+
 * [yudai/gotty](https://github.com/yudai/gotty) 将您的终端共享为 Web 应用程序
 
 * [alacritty/alacritty](https://github.com/alacritty/alacritty) 一个跨平台的 OpenGL 终端模拟器。
@@ -10603,6 +10639,42 @@
 * [shelljs/shelljs](https://github.com/shelljs/shelljs) Node.js 的可移植 Unix shell 命令
 
 * [sqshq/sampler](https://github.com/sqshq/sampler) 用于 shell 命令执行、可视化和警报的工具。使用简单的 YAML 文件进行配置。
+
+* [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) 跨平台、可定制的科幻终端模拟器，有高级监控和触摸支持。
+
+* [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) 使用 macOS 终端 shell 做很棒的事情。
+
+* [Bash-it/bash-it](https://github.com/Bash-it/bash-it)  Bash 3.2+ 的社区 Bash 命令和脚本的集合。（还有 oh-my-zsh）包括自动完成、主题、别名、自定义函数等等。Bash-it 提供了一个坚实的框架，用于在日常工作中使用、开发和维护 shell 脚本和自定义命令。如果您经常使用 Bourne Again Shell （Bash），并且一直在寻找一种简单的方法来控制所有这些漂亮的小脚本和别名，那么 Bash-it 适合您！
+
+* [sorin-ionescu/prezto](https://github.com/sorin-ionescu/prezto) Zsh 的配置框架;它通过合理的默认值、别名、函数、自动完成和提示主题丰富了命令行界面环境。
+
+* [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) 用户友好的命令行 shell。包括语法高亮显示、键入时自动建议和花哨的选项卡补全等功能，无需配置即可工作。
+
+* [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) 简约、强大且高度可定制的 Zsh 提示符
+
+* [atuinsh/atuin](https://github.com/atuinsh/atuin) 将现有的 shell 历史记录替换为 SQLite 数据库，并记录命令的其他上下文。此外，它还通过 Atuin 服务器提供机器之间历史记录的可选和完全加密同步。
+
+* [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) 更智能的 cd 命令。灵感来自 Z 和 AutoJump。
+
+* [sindresorhus/pure](https://github.com/sindresorhus/pure) 漂亮、最小、快速的 ZSH 提示符
+
+* [direnv/direnv](https://github.com/direnv/direnv) 整理您的 .profile。它使用一项新功能来增强现有 shell，该功能可以根据当前目录加载和卸载环境变量。
+
+* [ish-app/ish](https://github.com/ish-app/ish) 适用于 iOS 的 Linux shell
+
+* [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) Oh My Fish 提供了核心基础设施，允许您安装扩展或修改 shell 外观的软件包。它快速、可扩展且易于使用。
+
+* [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch) 用 bash 3.2+ 编写的命令行系统信息工具
+
+* [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) 最可定制和低延迟的跨平台/shell 提示渲染器
+
+* [Powerlevel9k/powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k) 用于构建美观且功能强大的 CLI 的工具，专为您定制。P9k 对 CLI UX 产生了重大影响，P10k 现在延续了它的传统。
+
+* [liquidprompt/liquidprompt](https://github.com/liquidprompt/liquidprompt) 功能齐全且精心设计的 Bash & Zsh 自适应提示
+
+* [dunwu/linux-tutorial](https://github.com/dunwu/linux-tutorial) Linux教程，主要内容：Linux 命令、Linux 系统运维、软件运维、精选常用Shell脚本
+
+* [brenns10/lsh](https://github.com/brenns10/lsh) C 语言中 shell 的简单实现，它是我网站上教程的主题。它演示了 shell 工作原理的基础知识。即：读取、解析、分叉、执行和等待。由于其目的是演示（不是功能完整性，甚至不适合随意使用），因此它有许多局限性
 
 ## 知识管理 wiki知识库
 
@@ -10798,6 +10870,8 @@
 * [HaxeFoundation/haxe](https://github.com/HaxeFoundation/haxe) 可让您轻松构建面向许多主流平台的跨平台工具和应用程序。Haxe 工具包包括：Haxe 编程语言，一种现代、高级、严格类型的编程语言、Haxe 交叉编译器，适用于许多目标的最先进的闪电般的编译器、Haxe 标准库，一个完整的跨平台通用功能库
 
 * [crystal-lang/crystal](https://github.com/crystal-lang/crystal) 一种编程语言，具有以下目标：具有类似于 Ruby 的语法（但与它的兼容性不是目标）。静态类型检查，但不必指定变量或方法参数的类型。能够通过在 Crystal 中编写绑定来调用 C 代码。具有编译时评估和代码生成，以避免样板代码。编译为高效的本机代码。
+
+* [greyireland/algorithm-pattern](https://github.com/greyireland/algorithm-pattern) 算法模板，最科学的刷题方式，最快速的刷题路径，你值得拥有~
 
 ## 游戏
 
