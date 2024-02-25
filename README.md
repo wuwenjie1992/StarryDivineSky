@@ -433,6 +433,8 @@
 
 * [andkret/Cookbook](https://github.com/andkret/Cookbook) 数据工程手册
 
+* [ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide](https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide) 为本科生或任何想在扎实基础上深入研究人工智能领域的任何人提供详细和量身定制的指南。本指南适用于任何具有基本编程知识或计算机科学背景的人，有兴趣成为深度学习和 NLP 研究科学家。
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -847,6 +849,20 @@
 
 * [PaddlePaddle/models](https://github.com/PaddlePaddle/models) 飞桨产业级开源模型库，官方维护，PaddlePaddle支持，包括CV、NLP、Speech、Rec、TS、大模型等。
 
+* [dair-ai/ML-Papers-Explained](https://github.com/dair-ai/ML-Papers-Explained) ML 中关键概念的解释
+
+* [automl/auto-sklearn](https://github.com/automl/auto-sklearn) 使用 scikit-learn 进行自动化机器学习
+
+* [probml/pml-book](https://github.com/probml/pml-book) “概率机器学习”——凯文·墨菲 （Kevin Murphy） 的系列丛书
+
+* [paperswithcode/ai-deadlines](https://github.com/paperswithcode/ai-deadlines) 倒数计时，用于跟踪CV/NLP/ML/RO 会议截止日期。
+
+* [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) 用于优化和部署 AI 推理的开源工具包，提高计算机视觉、自动语音识别、自然语言处理和其他常见任务中的深度学习性能。使用通过 TensorFlow、PyTorch 等流行框架训练的模型。减少资源需求，并在从边缘到云的一系列英特尔®平台上高效部署。
+
+* [Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured) 开源库和 API，用于构建用于标记、训练或生产机器学习管道的自定义预处理管道。
+
+* [NVIDIA/nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-container-toolkit) NVIDIA 容器工具包允许用户构建和运行 GPU 加速容器。该工具包包括一个容器运行时库和实用程序，用于自动配置容器以利用 NVIDIA GPU。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1061,6 +1077,8 @@
 * [FlagOpen/FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding) 可以将任何文本映射到低维密集向量，该向量可用于检索、分类、聚类或语义搜索等任务。它也可以用于LLM的矢量数据库。
 
 * [XiaoMi/MiLM-6B](https://github.com/XiaoMi/MiLM-6B) 由小米开发的一个大规模预训练语言模型，参数规模为64亿。在 C-Eval 和 CMMLU 上均取得同尺寸最好的效果。
+
+* [yuzhimanhua/Awesome-Scientific-Language-Models](https://github.com/yuzhimanhua/Awesome-Scientific-Language-Models) 科学领域（例如，数学、物理、化学、生物学、医学、材料科学和地球科学）中预训练语言模型的精选列表，涵盖不同的模型大小（从 <100M 到 70B 参数）和模态（例如，语言、视觉、分子、蛋白质、图形和表格）。
 
 ## 文本分类
 
@@ -1990,6 +2008,38 @@
 
 * [liziniu/ReMax](https://github.com/liziniu/ReMax) 论文代码（ReMax：一种简单、高效、有效的强化学习方法，用于对齐大型语言模型）。一种强化学习方法，专为 RLHF 中的奖励最大化而量身定制。ReMax 具有内存效率。与PPO相比，ReMax可以节省约50%的GPU内存消耗，可以分配1.3倍的大批量。ReMax 运行速度很快。它不需要训练价值模型，并且需要更少的计算。通常，它可以实现大约 2 倍的训练加速。ReMax易于调整以获得良好的性能。在 AlpacaEval 基准测试中，当被 GPT-4 判断时，ReMax 的胜率分别比 SFT、DPO 和 PPO 高出 84.22%、75.28% 和 63.60%。
 
+* [OpenLLMAI/OpenRLHF](https://github.com/OpenLLMAI/OpenRLHF) 基于Ray的高性能RLHF框架（支持70B+全调谐& LoRA & Mixtral &KTO）
+
+* [tatsu-lab/alpaca_farm](https://github.com/tatsu-lab/alpaca_farm) RLHF和替代方案的仿真框架。在不收集人工数据的情况下开发 RLHF 方法。
+
+* [anthropics/hh-rlhf](https://github.com/anthropics/hh-rlhf) “通过从人类反馈中强化学习来训练有用且无害的助手”的人类偏好数据
+
+* [alan-ai/alan-sdk-web](https://github.com/alan-ai/alan-sdk-web) 适用于 Web 的生成式 AI SDK，用于为使用 JavaScript、React、Angular、Vue、Ember、Electron 构建的应用程序构建 AI 助手
+
+* [archiki/ADaPT](https://github.com/archiki/ADaPT) 使用语言模型进行按需分解和规划
+
+* [ai-collection/ai-collection](https://github.com/ai-collection/ai-collection) 一系列令人敬畏的生成式 AI 应用程序
+
+* [SJTU-IPADS/PowerInfer](https://github.com/SJTU-IPADS/PowerInfer) 在具有消费级 GPU 的 PC 上提供高速大型语言模型
+
+* [danswer-ai/danswer](https://github.com/danswer-ai/danswer) 用自然语言提问，并获得私人资源支持的答案。连接到 Slack、GitHub、Confluence 等工具。允许您使用自然语言提出问题，并根据团队特定文档获得答案。想想 ChatGPT，如果它可以访问您团队的独特知识。
+
+* [xlang-ai/OpenAgents](https://github.com/xlang-ai/OpenAgents)  现实世界的开放平台的语言智能体，用于在日常生活中使用和托管语言智能体的开放平台。
+
+* [langchain4j/langchain4j](https://github.com/langchain4j/langchain4j) Java版LangChain，简化将 AI/LLM功能集成到 Java 应用程序中的过程。
+
+* [weaigc/bingo](https://github.com/weaigc/bingo) 高度还原 New Bing 网页版的主要操作，国内可用，兼容绝大多数微软 Bing AI 的功能，可自行部署使用。
+
+* [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) AI 自主代理列表
+
+* [hao-ai-lab/LookaheadDecoding](https://github.com/hao-ai-lab/LookaheadDecoding) 用 Lookahead 解码打破推理的LLM顺序依赖关系
+
+* [TaskingAI/TaskingAI](https://github.com/TaskingAI/TaskingAI) TaskingAI 将 Firebase 的简单性带入了 AI 原生应用开发。该平台支持使用LLMs来自各种提供商的各种应用程序创建类似 GPT 的多租户应用程序。它具有独特的模块化功能，如推理、检索、助手和工具，无缝集成以增强开发过程。TaskingAI 的凝聚力设计确保了 AI 应用程序开发的高效、智能和用户友好的体验。
+
+* [salesforce/DialogStudio](https://github.com/salesforce/DialogStudio) 为对话式 AI 提供最丰富、最多样化的统一数据集集合和指令感知模型
+
+* [YuchuanTian/AIGC_text_detector](https://github.com/YuchuanTian/AIGC_text_detector) 我们在AIGC检测方面工作的官方代码：“AI生成文本的多尺度阳性-未标记检测”（ICLR'24 Spotlight）
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2077,6 +2127,8 @@
 * [SkalskiP/awesome-chatgpt-code-interpreter-experiments](https://github.com/skalskip/awesome-chatgpt-code-interpreter-experiments) 你可以用 ChatGPT + Code Interpreter 组合做的很棒的事情
 
 * [huybery/Awesome-Code-LLM](https://github.com/huybery/Awesome-Code-LLM) 精心策划的最佳代码列表 -LLM 用于研究。
+
+* [unit-mesh/build-your-ai-coding-assistant](https://github.com/unit-mesh/build-your-ai-coding-assistant) 《构建你自己的 AI 辅助编码助手》 —— 介绍如何 DIY 一个端到端（从 IDE 插件、模型选型、数据集构建到模型微调）的 AI 辅助编程工具，类似于 GitHub Copilot、JetBrains AI Assistant、AutoDev 等。
 
 #### 健康医学大模型及语料库
 
@@ -2603,6 +2655,10 @@
 
 * [zhiweihu1103/AgriMa](https://github.com/zhiweihu1103/AgriMa) 后稷-首个开源中文农业大模型。由山西大学、山西农业大学、The Fin AI联合研发，以Baichuan为底座，基于海量有监督农业领域相关数据微调，具备广泛的农业知识和智能分析能力，该模型旨在为农业领域提供全面而高效的信息处理和决策支持。
 
+* [LLaVA-VL/LLaVA-Plus-Codebase](https://github.com/LLaVA-VL/LLaVA-Plus-Codebase) 即插即用的大型语言和视觉助手
+
+* [unum-cloud/uform](https://github.com/unum-cloud/uform) 袖珍型多模态 AI，用于跨多语言文本、图像和视频的内容理解和生成，比 OpenAI CLIP 和 LLaVA  快 5 倍
+
 ### 其他_文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -2690,6 +2746,8 @@
 * [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) 与Zotero集成：您可以使用该插件根据所选文本或PDF文件搜索和询问库中的项目。使用 GPT 生成回复文本：support gpt-3.5-turbo 和 gpt-4。询问有关当前 PDF 文件（全文或所选文本）的问题。对所选论文（摘要）提出问题。 将所选论文总结成几个高度浓缩的句子。根据所选文本搜索库中的项目。
 
 * [microsoft/LMOps](https://github.com/microsoft/LMOps) 关于构建具有基础模型的 AI 产品的基础研究和技术的研究计划，特别是关于通过LLMs生成式 AI 模型实现 AI 功能的通用技术。更好的提示：自动提示优化、提示器、可扩展提示、通用提示检索、检索器、LLM上下文演示选择。更长的上下文：结构化提示、长度外推转换器。LLM对齐：通过LLM反馈对齐。LLM加速器（更快的推理）：无损加速LLMs。LLM自定义：适应LLM领域。
+
+* [SUSYUSTC/MathTranslate](https://github.com/SUSYUSTC/MathTranslate/tree/main) 用 Latex 翻译科学论文，尤其是 ARXIV 论文
 
 ## 文本匹配 文本检索 文本相似度
 
@@ -3039,6 +3097,8 @@
 * [beyond/chinese_clean_passages_80m](https://huggingface.co/datasets/beyond/chinese_clean_passages_80m) 包含8千余万纯净中文段落，不包含任何字母、数字。文本长度大部分介于50~200个汉字之间。数据是基于CLUE中文预训练语料集进行处理、过滤得到的。
 
 * [tiiuae/falcon-refinedweb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) 由 TII 构建并在 ODC-By 1.0 许可下发布的海量英语网络数据集。通过对 CommonCrawl 进行严格的过滤和大规模重复数据删除而构建的;我们发现，在 RefinedWeb 上训练的模型在仅依赖于 Web 数据的情况下，可以达到在线性能或优于在精选数据集上训练的模型。RefinedWeb 也是“多模态友好”的：它包含处理过的样本中图像的链接和替代文本。
+
+* [ssymmetry/BBT-FinCUGE-Applications](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main) 大规模中文金融领域语料库BBT-FinCorpus，包含以下四种语料： 公司公告 在过去二十年中由中国所有上市公司发布的公司公告。原始数据为 PDF 格式，总大小约为 2TB。使用 PDF 解析器将 PDF 文件转换为文我们件，转换后的文件的总大小为 105GB。研究报告 由券商、投行等投资机构发布的针对宏观经济、板块、行业和个股的研究报告，分析研究对象的现状并展望其未来发展趋势。原始数据为PDF格式，总大小约为1TB。经转化后的文我们件总量约11GB。财经新闻 从新浪财经，腾讯财经，凤凰财经，36Kr 和虎嗅等网站爬取的过去五年内的财经新闻。经清洗后的文我们件总量约 20GB。社交媒体 股吧和雪球网过去二十年内的所有股民和博主发表的帖子。经清洗后的文本总量约 120GB。
 
 ## 关系抽取、信息抽取
 
@@ -4354,6 +4414,44 @@
 
 * [Advanced-Frontend/Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question) 公众号「高级前端进阶」作者，每天搞定一道前端大厂面试题
 
+* [shoelace-style/shoelace](https://github.com/shoelace-style/shoelace) 基于 Web 标准构建的专业设计、日常 UI 组件的集合。适用于所有框架以及常规 HTML/CSS/JS
+
+* [framework7io/framework7](https://github.com/framework7io/framework7) 构建 iOS 和 Android 应用程序的全功能 HTML 框架
+
+* [weilanwl/coloruicss](https://github.com/weilanwl/coloruicss) 鲜亮的高饱和色彩，专注视觉的小程序组件库
+
+* [twbs/ratchet](https://github.com/twbs/ratchet) 使用简单的 HTML、CSS 和 JavaScript 组件构建移动应用程序。
+
+* [picocss/pico](https://github.com/picocss/pico) 极简而轻量级的入门工具包，优先考虑语义语法，使每个 HTML 元素在默认情况下都具有响应性和优雅性。
+
+* [google/iosched](https://github.com/google/iosched) Android 版 Google I/O 应用
+
+* [stylus/stylus](https://github.com/stylus/stylus) 为 nodejs 构建的富有表现力、健壮性、功能丰富的 CSS 语言
+
+* [less/less.js](https://github.com/less/less.js) 动态CSS样式表语言
+
+* [abpframework/abp](https://github.com/abpframework/abp) 适用于 ASP.NET Core 的开源 Web 应用程序框架。在 .NET 和 ASP.NET Core 平台之上构建具有最佳实践的企业软件解决方案。提供基础基础架构、生产就绪启动模板、应用程序模块、UI 主题、工具、指南和文档。
+
+* [aspnetboilerplate/aspnetboilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) 通用应用程序框架，专为新的现代 Web 应用程序而设计。为您提供可靠的开发体验。
+
+* [appium/appium](https://github.com/appium/appium) 基于 W3C WebDriver 协议构建的各种应用的跨平台自动化框架
+
+* [Tonejs/Tone.js](https://github.com/Tonejs/Tone.js) 用于在浏览器中制作交互式音乐的 Web 音频框架。
+
+* [barbajs/barba](https://github.com/barbajs/barba) 小型（缩小和压缩 7kb）且易于使用的库，可帮助您在网站页面之间创建流畅和平滑的过渡。它使您的网站像 SPA（单页应用程序）一样运行，并有助于减少页面之间的延迟，最大限度地减少浏览器 HTTP 请求并增强用户的 Web 体验。
+
+* [theatre-js/theatre](https://github.com/theatre-js/theatre) 适用于 Web 的动态设计编辑器
+
+* [emilwallner/Screenshot-to-code](https://github.com/emilwallner/Screenshot-to-code) 将设计模型转换为静态网站的神经网络。
+
+* [ffmpegwasm/ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm) 是 FFmpeg 的纯 Webassembly / Javascript 端口。它支持在浏览器中录制视频和音频，转换和流式传输。
+
+* [formkit/auto-animate](https://github.com/formkit/auto-animate) 零配置的插入式动画实用程序，可为您的 Web 应用程序添加平滑过渡。您可以将它与 React、Vue 或任何其他 JavaScript 应用程序一起使用。
+
+* [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) 适用于游戏和应用的 UI 自动化框架
+
+* [johannesjo/super-productivity](https://github.com/johannesjo/super-productivity) 私密且安全的 AI 工具，帮助每个人提高工作效率。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4369,6 +4467,8 @@
 * [expressjs/express](https://github.com/expressjs/express) 快速，无配置，极简主义的node Web框架。
 
 * [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
+
+* [toutiaoio/awesome-architecture](https://github.com/toutiaoio/awesome-architecture) 架构师技术图谱，助你早日成为架构师
 
 * [wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll) 循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Batch、Spring Cloud、Spring Cloud Alibaba、Spring Security & Spring Security OAuth2，博客Spring系列源码：https://mrbird.cc
 
@@ -4679,6 +4779,8 @@
 * [Ne0nd0g/merlin](https://github.com/Ne0nd0g/merlin) 跨平台的后开发HTTP/2命令和控制服务器和代理，用 go 编写。
 
 * [xyproto/algernon](https://github.com/xyproto/algernon) 小型独立纯 Go Web 服务器，支持 Lua、Teal、Markdown、HTTP/2、QUIC、Redis 和 PostgreSQL
+
+* [bxcodec/go-clean-arch](https://github.com/bxcodec/go-clean-arch) Go 项目中实现 Clean Architecture 的示例。独立于框架。该体系结构不依赖于某些功能丰富的软件库的存在。这允许您使用此类框架作为工具，而不必将系统塞进其有限的约束中。可测试。可以在没有 UI、数据库、Web 服务器或任何其他外部元素的情况下测试业务规则。独立于 UI。UI 可以轻松更改，而无需更改系统的其余部分。例如，可以在不更改业务规则的情况下将 Web UI 替换为控制台 UI。独立于数据库。可以将 Oracle 或 SQL Server 换成 Mongo、BigTable、CouchDB 或其他东西。您的业务规则未绑定到数据库。独立于任何外部机构。
 
 ## 网络与前后端开发_其他
 
@@ -5282,6 +5384,32 @@
 
 * [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) 适用于 Ubuntu、Debian、AlmaLinux、Rocky Linux、CentOS 和 Fedora 的 OpenVPN road warrior 安装程序
 
+* [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) 最好和最简单的免费开源网站更改检测、网站观察器、补货监控和通知服务。补货监控，变化检测。为简单而设计 - 只需免费监控哪些网站有文本更改。免费开源网页变更检测、网站污损监控、价格变更通知
+
+* [haproxy/haproxy](https://github.com/haproxy/haproxy) HAProxy Load Balancer 的开发分支（git.haproxy.org 镜像）。高性能的负载均衡软件。因为其专注于负载均衡这一些事情，因此与nginx比起来在负载均衡这件事情上做更好，更专业。
+
+* [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) 以与语言无关的方式扩展实时消息服务器。Pubnub、Pusher、Ably 的自托管替代品。设置一次，永远设置。开源、可扩展的实时消息服务器。Centrifugo可以即时向通过支持的传输（WebSocket、HTTP-streaming、SSE/EventSource、GRPC、SockJS、WebTransport）连接的应用程序在线用户发送消息。具有频道订阅的概念——因此它是一个面向用户的 PUB/SUB 服务器。
+
+* [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) 支持所有平台的现代下载管理器。使用 Go 和 Flutter 构建。
+
+* [ekzhang/sshx](https://github.com/ekzhang/sshx) 通过网络进行快速、协作的实时终端共享
+
+* [adnanh/webhook](https://github.com/adnanh/webhook) 轻量级的传入 Webhook 服务器，用于运行 shell 命令
+
+* [openresty/openresty](https://github.com/openresty/openresty) 基于 Nginx 和 LuaJIT 的高性能 Web 平台
+
+* [janeczku/calibre-web](https://github.com/janeczku/calibre-web) 用于浏览、阅读和下载存储在 Calibre 数据库中的电子书的 Web 应用程序
+
+* [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) 阿里云盘 WebDAV 服务
+
+* [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop) 流媒体 torrent 应用程序。适用于 Mac、Windows 和 Linux。
+
+* [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) 具有 Windows、macOS、Linux 和 Web 同步和备份功能的现代电子书管理器和阅读器
+
+* [rrweb-io/rrweb](https://github.com/rrweb-io/rrweb) “记录和重放网络”，用于记录和重放用户在网络上的交互的工具。
+
+* [apernet/OpenGFW](https://github.com/apernet/OpenGFW)  Linux 上 GFW（中国防火墙）的灵活、易用的开源实现
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5681,6 +5809,8 @@
 
 * [twitter/the-algorithm-ml](https://github.com/twitter/the-algorithm-ml) 这个项目开源了 Twitter 使用的一些 ML 模型。目前这些是：“For You”重磅排名（项目/主页/回顾）。TwHIN 嵌入。
 
+* [SAI990323/TALLRec](https://github.com/SAI990323/TALLRec/tree/main) 新颖的框架TALLRec，使LLM能够高效和有效地适应推荐任务。
+
 # 机器视觉
 
 ## 人像\姿势\3D人脸
@@ -5690,6 +5820,8 @@
 * [yoyo-nb/Thin-Plate-Spline-Motion-Model](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) 用于图像动画的薄板样条运动模型 人脸、人物动作姿势模拟
 
 * [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) 图像动画的一阶运动模型,实现静态图像到动态图像的转换.人脸、人物动作姿势模拟
+
+* [leap-ai/headshots-starter](https://github.com/leap-ai/headshots-starter) 可在几分钟内生成专业的 AI 头像。
 
 * [minivision-ai/photo2cartoon](https://github.com/minivision-ai/photo2cartoon) 人像卡通化探索项目
 
@@ -5887,6 +6019,8 @@
 
 * [facebookresearch/detr](https://github.com/facebookresearch/detr) 使用Transformer进行端到端目标检测。适用于 DETR （DEtection TRansformer） 的 PyTorch 训练代码和预训练模型。我们用 Transformer 替换了整个复杂的手工目标检测管道，并将 Faster R-CNN 与 ResNet-50 匹配，使用一半的计算能力 （FLOP） 和相同数量的参数在 COCO 上获得 42 个 AP。在 50 行 PyTorch 中进行推理。
 
+* [GitHub - vietanhdev/anylabeling: Effortless AI-assisted data labeling with AI support from YOLO, Segment Anything, MobileSAM!!](https://github.com/vietanhdev/anylabeling) 借助 YOLO、Segment Anything、MobileSAM 的 AI 支持，轻松实现 AI 辅助数据标注！！
+
 * [PeterL1n/BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2) 论文 Real-Time High-Resolution Background Matting 的官方存储库。我们的模型需要捕获额外的背景图像，并在 Nvidia RTX 2080 TI GPU 上以 4K 30fps 和 HD 60fps 的速度产生最先进的抠图效果。
 
 * [PaddlePaddle/PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) 易于使用的图像分割库，具有出色的预训练模型库，支持语义分割、交互式分割、全景分割、图像叠加、3D 分割等广泛的实际任务。
@@ -6029,6 +6163,8 @@
 
 * [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) 功能最强大、模块化最稳定的扩散 GUI，带有图形/节点界面。特征:节点/图形/流程图界面，无需编写任何代码即可试验和创建复杂的稳定扩散工作流程。完全支持 SD1.x、SD2.x、SDXL 和稳定的视频扩散。许多优化：仅重新执行在执行之间更改的工作流部分。命令行选项： --lowvram 使其在 vram 小于 3GB 的 GPU 上运行（在 vram 较低的 GPU 上自动启用）。即使您没有具有以下功能的 GPU，也能正常工作： --cpu （慢速）。可以加载 ckpt、safetensor 和扩散器模型/检查点。独立的 VAE 和 CLIP 型号。嵌入/文本反转。Loras（常规、locon 和 loha）。超网络。从生成的 PNG 文件加载完整的工作流（带有种子）。将工作流保存/加载为 Json 文件。节点接口可用于创建复杂的工作流程，例如用于 Hires 修复或更高级的工作流程。区域构成。使用常规模型和修复模型进行修复。ControlNet 和 T2I 适配器。高档型号（ESRGAN、ESRGAN 变体、SwinIR、Swin2SR 等）。unCLIP 型号。GLIGEN。模型合并。LCM 模型和 Loras。SDXL 涡轮增压。使用 TAESD 进行潜在预览。启动速度非常快。完全离线工作：永远不会下载任何内容。配置文件来设置模型的搜索路径。
 
+* [6174/comflowy](https://github.com/6174/comflowy) 借助 ComfyUI 和 Stable Diffusion 释放无限可能，致力于打造精炼的 AI-Gen 工具，并为开发者和用户培养一个充满活力的社区。这个社区可以提供什么：更全面、更系统的 Stable Diffusion & ComfyUI 教程；通过 Discord 社区进行互动讨论；工作流和模型内容的数据库：ComfyUI 的重要价值在于它能够共享或导入工作流。Better ComfyUI 的开源版本Comflowyspace。
+
 * [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) 图像生成软件（基于Gradio）。对 Stable Diffusion 和 Midjourney 设计的重新思考：从 Stable Diffusion 中学习，该软件是离线、开源和免费的。从Midjourney中学习，不需要手动调整，用户只需要专注于提示和图像。
 
 * [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) 关于扩散模型的资源和论文集
@@ -6049,6 +6185,10 @@
 
 * [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) 旨在成为一个有用的创意工具，让您可以灵活地创建以自己绘制的角色为主角的动画。
 
+* [tencent-ailab/IP-Adapter](https://github.com/tencent-ailab/IP-Adapter) 图像提示适配器旨在使预训练的文本到图像扩散模型能够生成具有图像提示的图像。
+
+* [ChenyangSi/FreeU](https://github.com/ChenyangSi/FreeU/tree/main) 免费大幅提高扩散模型样本质量的方法：无需训练，无需引入其他参数，也不会增加内存或采样时间。
+
 * [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) 为任何人制作动画：用于角色动画的一致且可控的图像到视频合成
 
 * [magic-research/magic-animate](https://github.com/magic-research/magic-animate) 使用扩散模型进行时间一致的人体图像动画，基于扩散的人体图像动画框架，旨在增强时间一致性，忠实地保留参考图像，并提高动画保真度。
@@ -6058,6 +6198,8 @@
 * [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) 在 Apple 芯片上使用 Core ML 实现稳定扩散
 
 * [divamgupta/diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) 适用于 MacOS 的Stable Diffusion GUI 应用程序
+
+* [cbh123/emoji](https://github.com/cbh123/emoji) 使用 AI 为 Slack 制作表情符号
 
 * [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
@@ -6473,6 +6615,10 @@
 
 * [FujiwaraChoki/MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter) 使用 MoviePy 自动创建 YouTube Shorts。
 
+* [JoeyDeVries/LearnOpenGL](https://github.com/JoeyDeVries/LearnOpenGL) 本书及其随附网站中所有 OpenGL 章节的代码存储库 learnopengl.com
+
+* [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) 音视频流媒体权威资料整理，500+份文章，论文，视频，实践项目，协议，业界大神名单。
+
 # 因果推断
 
 * [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -6539,7 +6685,9 @@
 
 * [quantopian/pyfolio](https://github.com/quantopian/pyfolio) 用于金融投资组合的性能和风险分析。它可以很好地与Zipline回测库一起工作。
 
-* [quantopian/zipline](https://github.com/quantopian/zipline) 美国著名的量化策略平台quantopian开发和维护的量化交易库，并且quantopian量化平台的回测引擎也是基于zipline的，除此之外，像国内比较有名的三大矿聚宽(JointQuant)、米筐(RiceQuant)、优矿的回测引擎也是基于此。另外，由于quantopian平台多年的使用，zipline的专业性是可以保证的，并且zipline在github中的代码也在保持不断更新和改进。zipline是一种事件驱动（event-driven）的回测框架，有完整的文档和社区，如果你是对国外美股交易感兴趣，那么zipline将比较合适；但是对于国内像A股的数据则无法支持，只能通过本地化的数据进行回测。
+* [quantopian/zipline](https://github.com/quantopian/zipline) 美国著名量化策略平台quantopian开发和维护的量化交易库，并且quantopian平台的回测引擎也是基于zipline的，除此之外，像国内有名的矿聚宽(JointQuant)、米筐(RiceQuant)、优矿的回测引擎也是基于此。zipline是一种事件驱动（event-driven）的回测框架，有完整的文档和社区，如果你是对国外美股交易感兴趣，那么zipline将比较合适；但是对于国内像A股的数据则无法支持，只能通过本地化的数据进行回测。
+
+* [UFund-Me/Qbot](https://github.com/UFund-Me/Qbot) AI 自动量化交易机器人，旨在实现量化投资的潜力，赋能人工智能技术。支持多种机器学习建模范式。包括监督学习、市场动态建模和强化学习。
 
 * [gbeced/pyalgotrade](https://github.com/gbeced/pyalgotrade) 一个事件驱动的回测框架，虽然不如zipline的名气大，但是同样也具有完善的社区和详细的文档。据说pyalgotrade的运行速度和灵活度要比zipline强，但是缺点是不支持pandas。
 
@@ -6969,6 +7117,8 @@
 
 * [Uberi/speech_recognition](https://github.com/Uberi/speech_recognition) Py语音识别模块，支持多种引擎和API，在线和离线。
 
+* [SocialSisterYi/bcut-asr](https://github.com/SocialSisterYi/bcut-asr) 使用必剪API的语音字幕识别
+
 ## 语音合成
 
 * [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) MyShell的即时语音克隆。OpenVoice 的优势有三个方面：1.准确的色调颜色克隆。OpenVoice可以准确克隆参考音色，生成多种语言和口音的语音。2.灵活的语音风格控制。OpenVoice 支持对语音风格（如情感和口音）以及其他风格参数（包括节奏、停顿和语调）进行精细控制。3.零样本跨语言语音克隆。生成的语音的语言和参考语音的语言都不需要在大规模说话人多语言训练数据集中呈现。
@@ -6985,9 +7135,15 @@
 
 * [jaywalnut310/vits](https://github.com/jaywalnut310/vits) 一种用于端到端文本语音转换的条件变分自编码器，它比现有的两阶段模型产生更自然的声音。该方法采用变分推理和归一化流以及对抗式训练过程，提高了生成式建模的表达能力。
 
+* [MoonInTheRiver/DiffSinger](https://github.com/MoonInTheRiver/DiffSinger) DiffSinger：通过浅扩散机制（SVS和TTS）进行歌声合成;AAAI 2022年;官方代码
+
 * [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) SoftVC VITS 歌声转换。这个项目与 Vits 有着根本的不同。 Vits 是 TTS，这个项目是 SVC。本项目不能进行TTS，Vits不能进行SVC，两种项目模型不通用。
 
 * [voicepaw/so-vits-svc-fork](https://github.com/voicepaw/so-vits-svc-fork) so-vits-svc fork 歌唱语音转换 具有实时支持、改进的界面和更多功能。实时语音转换、更准确的音调估计、2x 更快的训练
+
+* [isletennos/MMVC_Trainer](https://github.com/isletennos/MMVC_Trainer) 人工智能实时语音转换器（培训师）
+
+* [Plachtaa/VITS-fast-fine-tuning](https://github.com/Plachtaa/VITS-fast-fine-tuning/tree/main) 用于快速扬声器适配 TTS 和多对多语音转换的 VITS 微调管道
 
 * [jianchang512/clone-voice](https://github.com/jianchang512/clone-voice) 带web界面的声音克隆工具，使用你的音色或任意声音来录制音频。支持 中、英、日、韩、法、德、意等语言，可在线从麦克风录制声音。为保证合成效果，建议录制时长5秒到20秒，发音清晰准确，不要存在背景噪声。
 
@@ -7003,9 +7159,13 @@
 
 * [Plachtaa/VALL-E-X](https://github.com/Plachtaa/VALL-E-X) Microsoft的VALL-E X零样本TTS模型的开源实现。`多语言TTS`：用英语，中文和日语进行自然而富有表现力的语音合成。`零样本语音克隆`：注册一个看不见的演讲者的短短 3~10 秒录音， VALL-E X 即可创建听起来像他们的个性化、高质量的语音！`言语情绪控制`：可以合成具有与提供的声学提示相同的情感的语音，为您的音频添加额外的表现力。`零样本跨语言TTS`：让单语使用者踏上语言之旅！VALL-E X可以用另一种语言生成个性化的语音，而不会影响流利度或口音。`口音控制`：利用口音发挥创意！允许您尝试不同的口音，例如说带有英语口音的中文，反之亦然。`声学环境维护`：无需完全干净的音频提示！可适应输入的声学环境，使语音生成感觉自然而身临其境。
 
+* [haoheliu/AudioLDM](https://github.com/haoheliu/AudioLDM) 生成语音、音效、音乐等。文本到音频生成：生成给定文本输入的音频。音频到音频生成：给定一个音频，生成另一个包含相同类型声音的音频。文本引导式音频到音频风格传输：使用文本描述将音频的声音传输到另一个音频中。
+
 * [openai/jukebox](https://github.com/openai/jukebox) 论文“点唱机：音乐的生成模型”的代码
 
 * [OlaWod/FreeVC](https://github.com/OlaWod/FreeVC) 迈向高质量的无文本一次性语音转换。采用VITS端到端框架进行高质量波形重建，并提出了无文本标注的干净内容信息提取策略。通过对WavLM特征施加信息瓶颈来解开内容信息，并提出基于频谱图调整大小的数据增强，以提高提取内容信息的纯度。
+
+* [fishaudio/Bert-VITS2](https://github.com/fishaudio/Bert-VITS2) 具有多语言 BERT 的 vits2 骨干网
 
 * [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) 一个用于通过深度学习进行音频处理和生成的库。它具有最先进的 EnCodec 音频压缩器/分词器，以及 MusicGen，这是一种简单且可控的音乐生成 LM，具有文本和旋律调节功能。
 
@@ -7067,6 +7227,26 @@
 
 * [marytts/marytts](https://github.com/marytts/marytts) 用纯 Java 编写的开源、多语言文本到语音合成系统
 
+* [KoljaB/RealtimeTTS](https://github.com/KoljaB/RealtimeTTS) 专为实时应用程序设计的最先进的文本转语音 （TTS） 库。它以最小的延迟将文本流快速转换为高质量的听觉输出。
+
+* [PlayVoice/VI-SVS](https://github.com/PlayVoice/VI-SVS) 基于VITS的歌声合成，不同于VISinger
+
+* [fatchord/WaveRNN](https://github.com/fatchord/WaveRNN) WaveRNN 声码器 + TTS
+
+* [p0p4k/pflowtts_pytorch](https://github.com/p0p4k/pflowtts_pytorch) 通过语音提示实现快速且数据高效的零样本 TTS
+
+* [netease-youdao/EmotiVoice](https://github.com/netease-youdao/EmotiVoice) 功能强大且现代的开源文本转语音引擎，可供您免费使用。EmotiVoice 会说英语和中文，并有超过 2000 种不同的声音（有关详细信息，请参阅语音列表）。最突出的特点是情绪合成，让你创造出具有广泛情绪的语音，包括快乐、兴奋、悲伤、愤怒等。
+
+* [Edresson/YourTTS](https://github.com/Edresson/YourTTS) 面向所有人的零样本多扬声器 TTS 和零样本语音转换
+
+* [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) 以质量为重点的多语音TTS系统，强大的多声部功能。高度逼真的韵律和语调。
+
+* [yxlllc/DDSP-SVC](https://github.com/yxlllc/DDSP-SVC) 基于DDSP（微分数字信号处理）的实时端到端歌唱语音转换系统
+
+* [innnky/emotional-vits](https://github.com/innnky/emotional-vits) 无需情感标注的情感可控语音合成模型，基于VITS
+
+* [see2023/Bert-VITS2-ext](https://github.com/see2023/Bert-VITS2-ext) 基于Bert-VITS2做的表情、动画测试，比如TTS同步产生脸部表情数据。
+
 ## 语音识别与合成_其他
 
 * [TencentGameMate/chinese_speech_pretrain](https://github.com/TencentGameMate/chinese_speech_pretrain) WenetSpeech train_l 集的 1 万小时中文数据作为无监督预训练数据。数据主要来源于 YouTube 和 Podcast，覆盖了各种类型录制场景、背景噪声、说话方式等，其领域主要包括有声书、解说、纪录片、电视剧、访谈、新闻、朗读、演讲、综艺和其他等10大场景。
@@ -7078,6 +7258,10 @@
 * [deezer/spleeter](https://github.com/deezer/spleeter) 人声分离模型
 
 * [Anjok07/ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) GUI，用于使用深度神经网络的人声去除器。
+
+* [google-research/sound-separation](https://github.com/google-research/sound-separation) 用于分离声音的开源数据集和深度学习模型。
+
+* [WenzheLiu-Speech/awesome-speech-enhancement](https://github.com/WenzheLiu-Speech/awesome-speech-enhancement) 总结了用于单/多通道语音增强/语音分离的论文、代码和工具。
 
 * [stemrollerapp/stemroller](https://github.com/stemrollerapp/stemroller) 从任何歌曲中分离出人声、鼓、贝斯和其他器乐声部
 
@@ -7212,6 +7396,8 @@
 * [uw-ipd/RoseTTAFold2NA](https://github.com/uw-ipd/RoseTTAFold2NA) RoseTTAFold2蛋白/核酸复合物预测
 
 * [pylelab/USalign](https://github.com/pylelab/USalign) 核酸和蛋白质单体结构和复杂结构的通用结构比对
+
+* [agemagician/ProtTrans](https://github.com/agemagician/ProtTrans) 正在为蛋白质提供最先进的预训练语言模型。使用 Transformers 模型在 Summit 的数千个 GPU 和数百个 Google TPU 上进行了训练。
 
 ## 药物发现、药物设计
 
@@ -7546,6 +7732,20 @@
 * [luost26/diffab](https://github.com/luost26/diffab) 使用基于扩散的蛋白质结构生成模型进行抗原特异性抗体设计和优化（NeurIPS 2022）
 
 * [volkamerlab/kissim](https://github.com/volkamerlab/kissim) 提供了一种专为激酶口袋设计的新型指纹图谱策略，允许对结构覆盖的激酶组进行相似性研究。激酶指纹图谱基于 KLIFS 口袋比对，它定义了所有激酶结构的 85 个口袋残基。这样就可以逐个残基进行比较，而无需计算成本高昂的对齐步骤。
+
+* [jerryji1993/DNABERT](https://github.com/jerryji1993/DNABERT) 来自 Transformers 模型的预训练双向编码器表示，用于基因组中的 DNA 语言
+
+* [google/deepvariant](https://github.com/google/deepvariant) 使用深度神经网络从下一代 DNA 测序数据中调用遗传变异。基于深度学习的 trio 变体调用器，构建在 DeepVariant 之上。DeepTrio 扩展了 DeepVariant 的功能，使其能够利用神经网络的力量来预测三人组或二重组的基因组变异。
+
+* [sourmash-bio/sourmash](https://github.com/sourmash-bio/sourmash) 快速搜索、比较和分析基因组和宏基因组数据集。 K-mer 分析多功能工具，为各种序列比较提供稳定、强大的编程和命令行 API。
+
+* [KamilSJaron/smudgeplot](https://github.com/KamilSJaron/smudgeplot) 利用全基因组测序数据推断倍性和杂合性结构。该工具从 kmer 计数数据库中提取杂合 kmer 对。够通过比较 kmer 对覆盖率 （CovA + CovB） 的总和与其相对覆盖率 （CovB / （CovA + CovB）） 来解开基因组结构。这种方法还使我们能够分析具有重复性、各种倍性水平等的晦涩基因组。
+
+* [shenwei356/kmcp](https://github.com/shenwei356/kmcp) 准确的宏基因组分析和快速的大规模序列/基因组搜索
+
+* [mcveanlab/mccortex](https://github.com/mcveanlab/mccortex) 从头基因组组装和多样本变异检出，使用 Linked de bruijn 图进行多样本从头组装和变体调用。有和没有参考基因组的变异检出。在密切相关的样本或高度分歧的样本之间。从细菌基因组到哺乳动物基因组。
+
+* [HUANGLIZI/LViT](https://github.com/HUANGLIZI/LViT) [IEEE医学影像汇刊/TMI]此 repo 是“LViT：语言在医学图像分割中的视觉转换器”的官方实现
 
 # 图数据库图算法
 
@@ -8267,6 +8467,8 @@
 
 * [Snapchat/KeyDB](https://github.com/Snapchat/KeyDB) Redis 的高性能分支，专注于多线程、内存效率和高吞吐量。除了性能改进外，KeyDB 还提供主动复制、闪存存储和子密钥过期等功能。KeyDB 具有 MVCC 架构，允许您执行 KEYS 和 SCAN 等查询，而不会阻塞数据库和降低性能。KeyDB 保持与 Redis 协议、模块和脚本的完全兼容。这包括脚本和事务的原子性保证。由于 KeyDB 与 Redis 开发保持同步，因此 KeyDB 是 Redis 功能的超集，因此 KeyDB 可以替代现有的 Redis 部署。在相同的硬件上，KeyDB 可以实现比 Redis 高得多的吞吐量。主动复制简化了热备盘故障转移，使您能够轻松地在副本上分配写入，并使用基于 TCP 的简单负载平衡/故障转移。KeyDB的更高性能允许您在更少的硬件上做更多的事情，从而降低运营成本和复杂性。
 
+* [golang/groupcache](https://github.com/golang/groupcache) 一个缓存和缓存填充库，在许多情况下旨在替代 memcached。
+
 * [apache/kafka](https://github.com/apache/kafka) 分布式数据存储和流处理平台，可以发布和订阅记录流，按顺序存储和处理数据。
 
 * [yahoo/CMAK](https://github.com/yahoo/CMAK) 用于管理 Apache Kafka 群集的工具
@@ -8408,6 +8610,8 @@
 * [docker/awesome-compose](https://github.com/docker/awesome-compose) 这些示例提供了如何使用 Compose 文件集成不同服务以及使用 Docker Compose 管理其部署的起点。
 
 * [wagoodman/dive](https://github.com/wagoodman/dive) 用于浏览 docker 映像中每个层的工具
+
+* [louislam/dockge](https://github.com/louislam/dockge) 花哨易用且灵敏的自托管 docker compose面向堆栈的管理器
 
 * [bcicen/ctop](https://github.com/bcicen/ctop) 容器运行情况监控界面
 
@@ -8853,6 +9057,8 @@
 
 * [Gallopsled/pwntools](https://github.com/Gallopsled/pwntools) CTF 框架和漏洞利用开发库。它是用 Python 编写的，专为快速原型设计和开发而设计，旨在使漏洞编写尽可能简单。
 
+* [LandGrey/SpringBootVulExploit](https://github.com/LandGrey/SpringBootVulExploit) SpringBoot 相关漏洞学习资料，利用方法和技巧合集，黑盒安全评估 check list
+
 ## 安卓Android
 
 * [Simp1er/AndroidSec](https://github.com/Simp1er/AndroidSec) 记录一些我自己在学习安卓逆向过程中的海洋的东西
@@ -8935,6 +9141,8 @@
 
 * [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) 可全平台运行的浏览器数据导出解密工具。
 
+* [keeweb/keeweb](https://github.com/keeweb/keeweb) 与KeePass兼容的免费跨平台密码管理器
+
 ## 其他_安全与渗透
 
 * [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) 保护您的数字安全和隐私的精选提示清单
@@ -8944,6 +9152,8 @@
 * [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) 渗透测试平台，使您能够查找，利用和验证漏洞。 该平台包括Metasploit框架及其商业对手，如Metasploit Pro。 Metasploit是一个免费的、可下载的框架，通过它可以很容易对计算机软件漏洞实施攻击。 它本身附带数百个已知软件漏洞的专业级漏洞攻击工具。
 
 * [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) 一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行、cli/web 工具等。
+
+* [vitalysim/Awesome-Hacking-Resources](https://github.com/vitalysim/Awesome-Hacking-Resources) 黑客/渗透测试资源集合，让您变得更好！
 
 * [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) 该存储库主要由 Omar Santos （@santosomar） 维护，包括与道德黑客/渗透测试、数字取证和事件响应 （DFIR）、人工智能、漏洞研究、漏洞开发、逆向工程等相关的数千种资源。
 
@@ -9439,6 +9649,8 @@
 
 * [anderspitman/awesome-tunneling](https://github.com/anderspitman/awesome-tunneling) 此列表的目的是跟踪和比较隧道解决方案。这主要针对那些想要做一些事情的自托管者和开发人员，例如通过公共域名公开本地 Web 服务器，使用自动 HTTPS，即使在 NAT 或其他受限网络后面也是如此。
 
+* [yaklang/yakit](https://github.com/yaklang/yakit) 网络安全一体化平台，基于安全融合的理念，Yaklang.io 团队研发出了安全领域垂直语言Yaklang，对于一些无法原生集成在 Yak 平台中的产品/工具，利用Yaklang可以重新编写他们的“高质量替代”。对于一些生态完整且认可度较高的产品，Yaklang能直接编译融合，并对源码进行必要修改，更好地适配Yaklang语言。对于一些不想写代码的安全从业者，Yakit会为Yaklang中所有的能力提供合适的GUI。
+
 # 硬件
 
 ## CPU RISC-V
@@ -9727,6 +9939,8 @@
 
 * [MichaIng/DietPi](https://github.com/MichaIng/DietPi) 非常轻量级的基于 Debian 的操作系统。它针对最小的 CPU 和 RAM 资源使用进行了高度优化，确保您的 SBC 始终发挥其最大潜力。
 
+* [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) FreeCAD的官方源代码，FreeCAD是一个免费的开源多平台3D参数化建模器。
+
 # 其他项目
 
 ## Python
@@ -9965,6 +10179,12 @@
 * [jupyter/nbdime](https://github.com/jupyter/nbdime) 用于区分和合并 Jupyter 笔记本的工具。
 
 * [voila-dashboards/voila](https://github.com/voila-dashboards/voila) 将 Jupyter 笔记本变成独立的网络应用程序
+
+* [jazzband/tablib](https://github.com/jazzband/tablib) 用于 XLS、CSV、JSON、YAML 和 c 表格数据集的 Python 模块。
+
+* [robotframework/robotframework](https://github.com/robotframework/robotframework) 用于验收测试和 RPA 的通用自动化框架
+
+* [tebelorg/RPA-Python](https://github.com/tebelorg/RPA-Python) 用于 RPA（机器人流程自动化）的 Python 包
 
 ## C/C++ 程序设计
 
@@ -10345,6 +10565,8 @@
 * [fatih/vim-go](https://github.com/fatih/vim-go) 该插件增加了对 Vim 的 Go 语言支持
 
 * [sirupsen/logrus](https://github.com/sirupsen/logrus) 用于 Go 的结构化、可插拔日志记录。
+
+* [go-vgo/robotgo](https://github.com/go-vgo/robotgo) RobotGo、Go Native 跨平台 RPA 和 GUI 自动化@vcaesar
 
 ## Java 程序设计
 
@@ -10939,6 +11161,8 @@
 
 * [playcanvas/engine](https://github.com/playcanvas/engine) 基于 WebGL 和 glTF 构建的快速轻量级 JavaScript 游戏引擎
 
+* [google/filament](https://github.com/google/filament) 基于物理的实时渲染引擎，适用于 Android、iOS、Windows、Linux、macOS 和 WebGL2
+
 ## 其他
 
 * [torvalds/linux](https://github.com/torvalds/linux) Linux内核源码树
@@ -11448,5 +11672,19 @@
 * [hellzerg/optimizer](https://github.com/hellzerg/optimizer) 高级配置实用程序，旨在增强您在 Windows 上的隐私和安全性。强烈建议在全新安装 Windows 后使用此工具，以实现最大的隐私和安全优势。根据您的 Windows 版本，Optimizer 还可以帮助您应用特定的系统调整。
 
 * [microsoft/calculator](https://github.com/microsoft/calculator) Windows 计算器：Windows 附带的简单而强大的计算器
+
+* [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) 用于软件规划、IT 领导和模板文档的架构决策记录 （ADR） 示例
+
+* [github-linguist/linguist](https://github.com/github-linguist/linguist) 用于检测 blob 语言、忽略二进制文件或供应商文件、禁止显示差异中生成的文件以及生成语言细分图。
+
+* [auris/awesome-scala](https://github.com/lauris/awesome-scala) 社区驱动的有用 Scala 库、框架和软件列表。
+
+* [Awesome-HarmonyOS/HarmonyOS](https://github.com/Awesome-HarmonyOS/HarmonyOS) 华为鸿蒙操作系统。
+
+* [MaterialDesignInXAML/MaterialDesignInXamlToolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit) Google 的 Material Design in XAML & WPF， for C# & VB.Net.
+
+* [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture) Clean Architecture 解决方案模板：具有 ASP.NET Core 的 Clean Architecture 的起点
+
+* [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) 采用领域驱动设计方法的全模块化整体式应用程序。
 
 # end
