@@ -3581,6 +3581,8 @@
 
 * [jamiebuilds/babel-handbook](https://github.com/jamiebuilds/babel-handbook) 通用的多用途 JavaScript 编译器。通过 Babel 你可以使用（并创建）下一代的 JavaScript，以及下一代的 JavaScript 工具。
 
+* [nodejs/node-gyp](https://github.com/nodejs/node-gyp) Node.js原生插件构建工具
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -4404,7 +4406,7 @@
 
 * [ohmplatform/FreedomGPT](https://github.com/ohmplatform/FreedomGPT) 基于 React 和 Electron 的应用程序，该应用程序使用基于聊天的界面在 Mac 和 Windows 上本地（离线和私有）执行 FreedomGPT LLM
 
-* [dot-agent/nextpy](https://github.com/dot-agent/nextpy) 轻松快速⚡地构建任何 Web 应用程序。它简化了从后端到前端（是的，Python 中的视觉🦚上令人惊叹的前端！）、AI 集成、API 等所有方面的 Python 开发，从而为人类和 AI 代理提供支持。
+* [dot-agent/nextpy](https://github.com/dot-agent/nextpy) 轻松快速⚡地构建任何 Web 应用程序。它简化了从后端到前端（是的，Python 中的视觉上令人惊叹的前端！）、AI 集成、API 等所有方面的 Python 开发，从而为人类和 AI 代理提供支持。
 
 * [Avaiga/taipy](https://github.com/Avaiga/taipy) 立即将数据和 AI 算法转换为生产就绪型 Web 应用程序。开发应用程序的前端，而无需了解 HTML、CSS 和 JS。通过简单的语法，加速创建可自定义的多页仪表板，并生成交互式界面，包括图表和各种广泛使用的控件。对数据流进行建模并编排管道。在存储、记录和可操作方案（管道执行）时对其进行管理，从而实现假设分析或 KPI 比较。
 
@@ -4451,6 +4453,69 @@
 * [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) 适用于游戏和应用的 UI 自动化框架
 
 * [johannesjo/super-productivity](https://github.com/johannesjo/super-productivity) 私密且安全的 AI 工具，帮助每个人提高工作效率。
+
+* [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io) 学术个人网站的 Github 页面模板
+
+* [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) 基于 Web 的工具，用于查看、编辑、格式化和验证 JSON
+
+* [emotion-js/emotion](https://github.com/emotion-js/emotion) 专为高性能样式组合而设计的 CSS-in-JS 库
+
+* [callstack/linaria](https://github.com/callstack/linaria) JS 库中的零运行时 CSS
+
+* [necolas/normalize.css](https://github.com/necolas/normalize.css) CSS 重置的现代替代方案
+
+* [styled-components/styled-components](https://github.com/styled-components/styled-components) 组件时代的视觉基元。使用 ES6 和 CSS 的精华来轻松设置应用程序的样式
+
+* [Dogfalo/materialize](https://github.com/Dogfalo/materialize) 基于 Material Design 的 CSS 框架
+
+* [postcss/autoprefixer](https://github.com/postcss/autoprefixer) PostCSS 插件，用于解析 CSS 并使用 Can I Use 中的值向 CSS 规则添加供应商前缀。它被谷歌推荐，并在Twitter和阿里巴巴中使用。
+
+* [nostalgic-css/NES.css](https://github.com/nostalgic-css/NES.css) NES 风格的 CSS 框架 | Famicom 风格的 CSS 框架
+
+* [chokcoco/iCSS](https://github.com/chokcoco/iCSS) 本 Repo 围绕 CSS/Web动画 展开，谈一些有趣的话题，内容天马行空，想到什么说什么，不仅是为了拓宽解决问题的思路，更涉及一些容易忽视或是十分有趣的 CSS 细节。
+
+* [primer/css](https://github.com/primer/css) 支持 GitHub 的 CSS 设计系统
+
+* [ksky521/nodeppt](https://github.com/ksky521/nodeppt) 网络演示工具，nodeppt 2.0 基于webslides、webpack、markdown-it、posthtml 重构，https://nodeppt.js.org
+
+* [stylelint/stylelint](https://github.com/stylelint/stylelint) 一个强大的 CSS linter，可帮助您避免错误并强制执行约定。
+
+* [selectize/selectize.js](https://github.com/selectize/selectize.js) 可扩展的基于 jQuery 的自定义; select UI 控件。它可用于标记、联系人列表、国家/地区选择器等。目标是通过干净而强大的 API 提供可靠且可用的体验。
+
+* [mdx-js/mdx](https://github.com/mdx-js/mdx) 可创作的格式，可让您在 Markdown 文档中无缝编写 JSX。您可以导入组件（如交互式图表或警报），并将它们嵌入到您的内容中。这使得编写带有组件的长篇内容变得爆炸。
+
+* [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) 为繁忙的工程师准备前端面试材料
+
+* [mdbootstrap/mdb-ui-kit](https://github.com/mdbootstrap/mdb-ui-kit) Bootstrap 5 和 Material Design UI 套件，Bootstrap 5 UI KIT - 700+ 组件，纯 JavaScript，MIT 许可证，安装简单。
+
+* [Popmotion/popmotion](https://github.com/Popmotion/popmotion) 简单的动画库，提供令人愉悦的用户界面
+
+* [vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue) 基于 Ant Design 和 Vue 的企业级 UI 组件。
+
+* [thedaviddias/Front-End-Performance-Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist) 唯一运行速度比其他检查表更快的前端性能检查表
+
+* [Chalarangelo/30-seconds-of-css](https://github.com/Chalarangelo/30-seconds-of-css) 满足您所有开发需求的简短 CSS 代码片段
+
+* [grab/front-end-guide](https://github.com/grab/front-end-guide) 学习指南和现代前端堆栈介绍。
+
+* [thomaspark/bootswatch](https://github.com/thomaspark/bootswatch) Bootstrap 的开源主题集合
+
+* [jessepollak/card](https://github.com/jessepollak/card) 在一行代码中使您的信用卡表格更好
+
+* [vueComponent/ant-design-vue-pro](https://github.com/vueComponent/ant-design-vue-pro)  像专业人士一样使用 Ant Design Vue2
+
+* [yygmind/blog](https://github.com/yygmind/blog) 每周重点攻克一个前端面试重难点，走进高级前端的世界
+
+* [tsayen/dom-to-image](https://github.com/tsayen/dom-to-image) 使用 HTML5 画布从 DOM 节点生成图像
+
+* [hakanyalcinkaya/kodluyoruz-frontend-101-egitimi](https://github.com/hakanyalcinkaya/kodluyoruz-frontend-101-egitimi) 从头开始进行项目的前端和 React 培训
+
+* [lipis/flag-icons](https://github.com/lipis/flag-icons) SVG 中所有国家国旗的精选集合 - 加上 CSS，以便于集成
+
+* [https://github.com/milligram/milligram](https://github.com/milligram/milligram) 一个极简的CSS框架。Milligram 提供最少的样式设置，以实现快速、干净的起点。就是这样！只有 2kb gzipped！这与 UI 框架无关。专为更好的性能和更高的生产率而设计，需要重置的属性更少，从而使代码更清晰。希望你喜欢！
+
+* [https://github.com/alexfoxy/lax.js](https://github.com/alexfoxy/lax.js) 简单轻量级（<4kb gzip压缩）香草JavaScript库，可在滚动时创建流畅而美丽的动画。
+
 
 ## 后端开发框架及项目
 
