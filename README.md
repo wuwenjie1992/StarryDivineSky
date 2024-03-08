@@ -17,8 +17,8 @@
     </a>
 
 </p>
-<h3 align="center">精选了千余项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
-<h3 align="center">Selected more than 1000 projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc.</h3>
+<h3 align="center">精选了5K+项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
+<h3 align="center">Selected more than 5000 projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc.</h3>
 <h3 align="center">让更多优秀的项目被人发现，让更多的人感受开源的魅力。</h3>
 <h3 align="center">Let more excellent projects be discovered by people, let more people feel the charm of open source.</h3>
 <h3 align="center">持续更新！欢迎🌟star！😀😀😀 Continue to update! Welcome to star! 😀😀😀</h3>
@@ -5490,6 +5490,18 @@
 
 * [cloudflare/pingora](https://github.com/cloudflare/pingora) Rust 框架，用于构建快速、可靠和可编程的网络系统。Pingora 经过了实战考验，因为它已经为每秒超过 4000 万个互联网请求提供服务了几年多。
 
+* [docker-mailserver/docker-mailserver](https://github.com/docker-mailserver/docker-mailserver) 生产就绪的全栈但简单的邮件服务器（SMTP、IMAP、LDAP、反垃圾邮件、防病毒等）在容器内运行。
+
+* [localsend/localsend](https://github.com/localsend/localsend) AirDrop 的开源跨平台替代方案，可让您通过本地网络安全地与附近的设备共享文件和消息，而无需互联网连接。
+
+* [schollz/croc](https://github.com/schollz/croc) 轻松安全地将内容从一台计算机发送到另一台计算机
+
+* [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) 用于 SFTP、S3、FTP、WebDAV、Git、Minio、LDAP、CalDAV、CardDAV、Mysql、Backblaze 等的现代 Web 客户端。
+
+* [szimek/sharedrop](https://github.com/szimek/sharedrop) 由 WebRTC 提供支持的轻松 P2P 文件传输 - 灵感来自 Apple AirDrop
+
+* 
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -6266,6 +6278,8 @@
 * [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) 旨在成为一个有用的创意工具，让您可以灵活地创建以自己绘制的角色为主角的动画。
 
 * [tencent-ailab/IP-Adapter](https://github.com/tencent-ailab/IP-Adapter) 图像提示适配器旨在使预训练的文本到图像扩散模型能够生成具有图像提示的图像。
+
+* [willwulfken/MidJourney-Styles-and-Keywords-Reference](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference) 包含可用于 MidJourney AI 的样式和关键字的参考。还有一些页面显示分辨率比较、图像权重等等！
 
 * [ChenyangSi/FreeU](https://github.com/ChenyangSi/FreeU/tree/main) 免费大幅提高扩散模型样本质量的方法：无需训练，无需引入其他参数，也不会增加内存或采样时间。
 
@@ -8949,6 +8963,12 @@
 
 * [aress31/burpgpt](https://github.com/aress31/burpgpt) Burp Suite 扩展，集成了 OpenAI 的 GPT，可执行额外的被动扫描以发现高度定制的漏洞，并支持运行任何类型的基于流量的分析。
 
+* [chaitin/xray](https://github.com/chaitin/xray) 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档
+
+* [laramies/theHarvester](https://github.com/laramies/theHarvester) 简单易用但功能强大的工具，设计用于红色的侦察阶段团队评估或渗透测试。它执行开源情报 （OSINT） 收集以帮助确定域的外部威胁态势。
+
+* [soxoj/maigret](https://github.com/soxoj/maigret) 通过用户名从数千个站点收集有关某人的档案
+
 ## web shell、shellcode
 
 * web shell 使用PHP、Python、Ruby 等编程语言编写的恶意代码，可以上传到网站以访问存储在该网站上的文件。一旦它被上传，黑客可以利用它来编辑，删除或下载网站上的任何文件，或上传他们自己想要的文件或程式码。
@@ -9222,6 +9242,8 @@
 * [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) 可全平台运行的浏览器数据导出解密工具。
 
 * [keeweb/keeweb](https://github.com/keeweb/keeweb) 与KeePass兼容的免费跨平台密码管理器
+
+* [fail2ban/fail2ban](https://github.com/fail2ban/fail2ban) 用于禁止导致多个身份验证错误的主机的守护程序，Fail2Ban 扫描日志文件，例如 `/var/log/auth.log` 并禁止 IP 地址进行过多失败的登录尝试。它通过更新系统防火墙规则来拒绝来自这些 IP 地址的新连接，并在可配置的时间内实现此目的。Fail2Ban 开箱即用，可以读取许多标准日志文件，例如 sshd 和 Apache 的日志文件，并且可以轻松配置为读取您选择的任何日志文件，以处理您希望的任何错误。尽管 Fail2Ban 能够降低错误身份验证尝试的速率，但它无法消除弱身份验证带来的风险。如果确实想要保护服务，请将服务设置为仅使用双因素或公共/私有身份验证机制。
 
 ## 其他_安全与渗透
 
@@ -10578,6 +10600,10 @@
 
 * [lollipopkit/flutter_server_box](https://github.com/lollipopkit/flutter_server_box) 使用 Flutter 的服务器状态和工具箱应用程序
 
+* [flutter/packages](https://github.com/flutter/packages) 由 Flutter 团队维护的有用软件包的集合
+
+* [flutter/plugins](https://github.com/flutter/plugins) 这个 repo 是 main flutter repo 的配套 repo。它包含 Flutter 第一方插件（即由 Flutter 核心团队开发的插件）的源代码。READ ONLY
+
 ## Go 程序设计
 
 * [golang/go](https://github.com/golang/go) Go 是一种开源编程语言，可以轻松构建简单、可靠且高效的软件。
@@ -10679,6 +10705,8 @@
 * [DuGuQiuBai/Java](https://github.com/DuGuQiuBai/Java) 27天成为Java大神
 
 * [CodingDocs/awesome-java](https://github.com/CodingDocs/awesome-java) Github上令人敬畏的Java项目集合（非常棒的 Java 开源项目集合）。
+
+* [aalansehaiyang/technology-talk](https://github.com/aalansehaiyang/technology-talk) 【大厂面试专栏】一份Java程序员需要的技术指南，这里有面试题、系统架构、职场锦囊、主流中间件等，让你成为更牛的自己！
 
 * [fuzhengwei/CodeGuide](https://github.com/fuzhengwei/CodeGuide) 多年从事一线互联网 Java 开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。
 
@@ -11266,6 +11294,8 @@
 * [crystal-lang/crystal](https://github.com/crystal-lang/crystal) 一种编程语言，具有以下目标：具有类似于 Ruby 的语法（但与它的兼容性不是目标）。静态类型检查，但不必指定变量或方法参数的类型。能够通过在 Crystal 中编写绑定来调用 C 代码。具有编译时评估和代码生成，以避免样板代码。编译为高效的本机代码。
 
 * [greyireland/algorithm-pattern](https://github.com/greyireland/algorithm-pattern) 算法模板，最科学的刷题方式，最快速的刷题路径，你值得拥有~
+
+* [Sairyss/domain-driven-hexagon](https://github.com/Sairyss/domain-driven-hexagon) 了解领域驱动设计、软件架构、设计模式和最佳实践。包含代码示例
 
 ## 游戏
 
