@@ -2040,6 +2040,8 @@
 
 * [YuchuanTian/AIGC_text_detector](https://github.com/YuchuanTian/AIGC_text_detector) 我们在AIGC检测方面工作的官方代码：“AI生成文本的多尺度阳性-未标记检测”（ICLR'24 Spotlight）
 
+* [open-webui/open-webui](https://github.com/open-webui/open-webui) 用户友好的 WebUILLMs，支持的LLM运行器包括 Ollama 和 OpenAI 兼容的 API。直观的界面。响应式设计：在桌面和移动设备上享受无缝体验。快速响应。轻松设置：使用 Docker 或 Kubernetes（kubectl、kustomize 或 helm）无缝安装。代码语法高亮显示。完整的 Markdown 和 LaTeX 支持。本地 RAG 集成：通过开创性的检索增强生成 （RAG） 支持深入了解聊天交互的未来。此功能将文档交互无缝集成到您的聊天体验中。您可以将文档直接加载到聊天中或将文件添加到文档库中，使用 `#` 提示符中的命令轻松访问它们。网页浏览功能：使用 `#` 命令后跟 URL 将网站无缝集成到您的聊天体验中。提示预设支持：使用聊天输入中 `/` 的命令立即访问预设提示。毫不费力地加载预定义的对话启动器并加快您的交互速度。通过Open WebUI社区集成轻松导入提示。RLHF 注释：通过竖起大拇指和竖起大拇指对消息进行评分来增强您的消息，从而促进创建用于人类反馈强化学习 （RLHF） 的数据集。利用您的消息来训练或微调模型，同时确保本地保存数据的机密性。对话标记：轻松分类和定位特定聊天，以便快速参考和简化数据收集。下载/删除模型。GGUF 文件模型创建。多种模式支持：在不同的聊天模式之间无缝切换，实现多样化的互动。多模态支持：与支持多模态交互的模型无缝交互，包括图像（例如 LLava）。模型文件生成器。多种模型对话：毫不费力地同时与各种模型互动，利用它们的独特优势来获得最佳响应。通过并行利用一组不同的模型来增强您的体验。协作聊天：通过无缝编排群组对话，利用多个模型的集体智慧。使用该 `@` 命令指定模型，从而在聊天界面中启用动态和多样化的对话。让自己沉浸在编织在聊天环境中的集体智慧中。OpenAI API 集成。历史访问。聊天记录。导入/导出聊天记录。语音输入支持：通过语音交互与模型互动;享受直接与模特交谈的便利。此外，探索在静音 3 秒后自动发送语音输入的选项，以获得简化的体验。使用高级参数进行微调控制：通过调整温度等参数和定义系统提示来根据您的特定偏好和需求定制对话，从而获得更深层次的控制。外部 Ollama 服务器连接。基于角色的访问控制 （RBAC）：使用受限权限确保安全访问;只有经过授权的个人才能访问您的 Ollama，并且为管理员保留独家模型创建/提取权限。后端反向代理支持：通过Open WebUI后端和Ollama之间的直接通信来增强安全性。持续更新。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2733,7 +2735,7 @@
 
 * [huggingface/alignment-handbook](https://github.com/huggingface/alignment-handbook) 使语言模型与人类和 AI 偏好保持一致的强大配方：OpenAI用ChatGPT打破了互联网，Meta紧随其后发布了Llama系列语言模型，使ML社区能够构建自己有能力的聊天机器人。这导致了一个丰富的数据集和模型生态系统，这些数据集和模型主要集中在通过监督微调（SFT）来教授语言模型遵循指令。该手册的初始版本将侧重于以下技术：Supervised fine-tuning监督微调，教语言模型遵循有关如何收集和策划自己的训练数据集的说明和提示。Reward modeling奖励建模：教授语言模型根据人类或AI偏好区分模型响应。Rejection sampling剔除采样：一种简单但功能强大的技术，可提高SFT模型的性能。直接偏好优化（DPO）：PPO的强大而有前途的替代方案。
 
-* [yxuansu/PandaGPT](https://github.com/yxuansu/PandaGPT) 第一个能够跨六种模式的指令遵循数据的基础模型，而无需明确的监督。它展示了多种多模态功能，例如复杂的理解/推理、基于知识的描述和多回合对话。PandaGPT 是一种通用的指令遵循模型，既能看又能听👀👂。我们的试点实验表明，PandaGPT 可以执行复杂的任务，例如生成详细的图像描述、编写受视频启发的故事以及回答有关音频的问题。更有趣的是，PandaGPT 可以同时接受多模态输入并自然地组成它们的语义。例如，PandaGPT 可以连接对象在照片中的外观以及它们在音频中的声音。
+* [yxuansu/PandaGPT](https://github.com/yxuansu/PandaGPT) 第一个能够跨六种模式的指令遵循数据的基础模型，而无需明确的监督。它展示了多种多模态功能，例如复杂的理解/推理、基于知识的描述和多回合对话。PandaGPT 是一种通用的指令遵循模型，既能看又能听。可以执行复杂的任务，例如生成详细的图像描述、编写受视频启发的故事以及回答有关音频的问题。更有趣的是，PandaGPT 可以同时接受多模态输入并自然地组成它们的语义。例如，PandaGPT 可以连接对象在照片中的外观以及它们在音频中的声音。
 
 * [RunpeiDong/DreamLLM](https://github.com/RunpeiDong/DreamLLM) 一个学习框架，它首先实现了多功能的多模态大语言模型（MLLM），它赋予了多模态理解和创造之间经常被忽视的协同作用。DreamLLM基于两个基本原则运作。第一个侧重于通过在原始多模态空间中直接采样来对语言和图像后验进行生成建模。其次，DreamLLM促进了原始交错文档的生成，对文本和图像内容以及非结构化布局进行了建模。一个零样本多模态通才，能够理解和创造。
 
@@ -2748,6 +2750,8 @@
 * [microsoft/LMOps](https://github.com/microsoft/LMOps) 关于构建具有基础模型的 AI 产品的基础研究和技术的研究计划，特别是关于通过LLMs生成式 AI 模型实现 AI 功能的通用技术。更好的提示：自动提示优化、提示器、可扩展提示、通用提示检索、检索器、LLM上下文演示选择。更长的上下文：结构化提示、长度外推转换器。LLM对齐：通过LLM反馈对齐。LLM加速器（更快的推理）：无损加速LLMs。LLM自定义：适应LLM领域。
 
 * [SUSYUSTC/MathTranslate](https://github.com/SUSYUSTC/MathTranslate/tree/main) 用 Latex 翻译科学论文，尤其是 ARXIV 论文
+
+* [google/sentencepiece](https://github.com/google/sentencepiece) 用于基于神经网络的文本生成的无监督文本分词器。
 
 ## 文本匹配 文本检索 文本相似度
 
@@ -3582,6 +3586,8 @@
 * [jamiebuilds/babel-handbook](https://github.com/jamiebuilds/babel-handbook) 通用的多用途 JavaScript 编译器。通过 Babel 你可以使用（并创建）下一代的 JavaScript，以及下一代的 JavaScript 工具。
 
 * [nodejs/node-gyp](https://github.com/nodejs/node-gyp) Node.js原生插件构建工具
+
+* [lint-staged/lint-staged](https://github.com/lint-staged/lint-staged)  在 git 暂存文件上运行 linters，在提交代码之前运行 Linting 更有意义。通过这样做，您可以确保没有错误进入存储库并强制执行代码样式。但是，在整个项目上运行 lint 过程很慢，并且 linting 结果可能无关紧要。最终，您只想删除将要提交的文件。
 
 ## 前端开发框架及项目
 
@@ -4523,6 +4529,10 @@
 * [jonasschmedtmann/complete-javascript-course](https://github.com/jonasschmedtmann/complete-javascript-course) 我的 Complete JavaScript 课程的入门文件、最终项目和常见问题解答
 
 * [expo/create-react-native-app](https://github.com/expo/create-react-native-app) 创建在 iOS、Android 和 Web 上运行的 React Native 应用程序
+
+* [Instagram/IGListKit](https://github.com/Instagram/IGListKit) 数据驱动的 UICollectionView 框架，用于构建快速灵活的列表。
+
+* [Anarios/return-youtube-dislike](https://github.com/Anarios/return-youtube-dislike) Chrome 扩展程序返回 youtube 不喜欢
 
 ## 后端开发框架及项目
 
@@ -5500,7 +5510,11 @@
 
 * [szimek/sharedrop](https://github.com/szimek/sharedrop) 由 WebRTC 提供支持的轻松 P2P 文件传输 - 灵感来自 Apple AirDrop
 
-* 
+* [nukeop/nuclear](https://github.com/nukeop/nuclear) 为您查找免费音乐的流媒体音乐播放器
+
+* [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) 下载您的 Spotify 播放列表和歌曲以及专辑封面和元数据（如果找到匹配项，则从 YouTube 下载）。
+
+* [caprover/caprover](https://github.com/caprover/caprover) 最简单的应用程序/数据库部署平台和 Web 服务器包，适用于 NodeJS、Python、PHP、Ruby、Go 应用程序。
 
 ## 区块链、智能合约
 
@@ -6163,6 +6177,8 @@
 
 * [Megvii-BaseDetection/YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) 高性能目标检测器YOLOX。并将YOLO检测器切换到anchor-free的方式，并结合其他先进的检测技术，如decouple head和标签分配策略SimOTA，实现了当前目标检测最优性能。
 
+* [hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection) 使用深度学习进行对象检测的纸质列表。
+
 * [yuantn/MI-AOD](https://github.com/yuantn/MI-AOD) 用于目标检测的多示例主动学习方法, 提出多示例主动目标检测MI-AOD，通过观察示例级的不确定性来选择信息量最大的图像用于检测器的训练。
 
 * [microsoft/SoftTeacher](https://github.com/microsoft/SoftTeacher) ICCV2021 使用软教师进行端到端的半监督目标检测
@@ -6712,6 +6728,8 @@
 * [JoeyDeVries/LearnOpenGL](https://github.com/JoeyDeVries/LearnOpenGL) 本书及其随附网站中所有 OpenGL 章节的代码存储库 learnopengl.com
 
 * [0voice/audio_video_streaming](https://github.com/0voice/audio_video_streaming) 音视频流媒体权威资料整理，500+份文章，论文，视频，实践项目，协议，业界大神名单。
+
+* [danielgatis/rembg](https://github.com/danielgatis/rembg) 去除图像背景的工具
 
 # 因果推断
 
@@ -8563,6 +8581,10 @@
 
 * [golang/groupcache](https://github.com/golang/groupcache) 一个缓存和缓存填充库，在许多情况下旨在替代 memcached。
 
+* [huangz1990/redis-3.0-annotated](https://github.com/huangz1990/redis-3.0-annotated) 带有详细注释的 Redis 3.0 代码
+
+* [DataTalksClub/data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) 免费数据工程课程
+
 * [apache/kafka](https://github.com/apache/kafka) 分布式数据存储和流处理平台，可以发布和订阅记录流，按顺序存储和处理数据。
 
 * [yahoo/CMAK](https://github.com/yahoo/CMAK) 用于管理 Apache Kafka 群集的工具
@@ -10047,6 +10069,8 @@
 
 * [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) 精选的RaspberryPi工具、项目、图像和资源列表
 
+* [DarkFlippers/unleashed-firmware](https://github.com/DarkFlippers/unleashed-firmware)  Flipper Zero Unleashed 固件存储库，最稳定的自定义固件专注于原始固件组件的新功能和改进，几乎没有 UI 更改
+
 # 其他项目
 
 ## Python
@@ -11002,6 +11026,8 @@
 
 * [zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) shell zsh 提供语法高亮显示。它允许在 zsh 提示符下将命令键入到交互式终端中时突出显示命令。这有助于在运行命令之前查看命令，尤其是在捕获语法错误时。
 
+* [casey/just](https://github.com/casey/just) 一个命令运行器，保存和运行特定于项目的命令的便捷方法。
+
 * [asciinema/asciinema](https://github.com/asciinema/asciinema) 轻松记录终端会话，并在终端和 Web 浏览器中重播它们。
 
 * [faressoft/terminalizer](https://github.com/faressoft/terminalizer) 录制您的终端并生成动画 gif 图像或共享网络播放器
@@ -11093,6 +11119,8 @@
 * [dunwu/linux-tutorial](https://github.com/dunwu/linux-tutorial) Linux教程，主要内容：Linux 命令、Linux 系统运维、软件运维、精选常用Shell脚本
 
 * [brenns10/lsh](https://github.com/brenns10/lsh) C 语言中 shell 的简单实现，它是我网站上教程的主题。它演示了 shell 工作原理的基础知识。即：读取、解析、分叉、执行和等待。由于其目的是演示（不是功能完整性，甚至不适合随意使用），因此它有许多局限性
+
+* [wtfutil/wtf](https://github.com/wtfutil/wtf) 您终端的个人信息仪表板，可让您一目了然地访问您非常重要但不经常需要的统计信息和数据。
 
 ## 知识管理 wiki知识库
 
@@ -11396,6 +11424,8 @@
 * [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) 提供了一个开发人员友好的API，可以与Chromium和LibreOffice等强大的工具进行交互，以将多种文档格式（HTML，Markdown，Word，Excel等）转换为PDF文件等等！
 
 * [Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo) 收集GitHub高质量、有趣的开源项目。
+
+* [jnv/lists](https://github.com/jnv/lists) 在 GitHub 和其他地方策划的列表（列表）的最终列表
 
 * [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) 收集了各种类别的出色 macOS 软件。
 
@@ -11894,5 +11924,13 @@
 * [Igglybuff/awesome-piracy](https://github.com/Igglybuff/awesome-piracy) 精选的令人敬畏的warez和盗版链接列表
 
 * [Tencent/xLua](https://github.com/Tencent/xLua) C#（Unity、.Net、Mono）的 lua 编程解决方案，它支持 android、ios、windows、linux、osx 等。
+
+* [jordansissel/fpm](https://github.com/jordansissel/fpm) Effing 包管理！为多个平台（deb、rpm 等）构建软件包非常轻松和合理。
+
+* [alexandresanlim/Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile) 使用这些惊人的徽章改善您的 README.md 个人资料。
+
+* [StylishThemes/GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark) 深色 GitHub 风格
+
+* [trimstray/test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) Linux 系统管理员测试问题和答案的集合。通过这些 Q/A 测试您在不同领域的知识和技能。
 
 # end
