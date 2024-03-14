@@ -435,6 +435,8 @@
 
 * [ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide](https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide) 为本科生或任何想在扎实基础上深入研究人工智能领域的任何人提供详细和量身定制的指南。本指南适用于任何具有基本编程知识或计算机科学背景的人，有兴趣成为深度学习和 NLP 研究科学家。
 
+* [doccano/doccano](https://github.com/doccano/doccano) 面向机器学习从业者的开源注释工具。
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -862,6 +864,8 @@
 * [Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured) 开源库和 API，用于构建用于标记、训练或生产机器学习管道的自定义预处理管道。
 
 * [NVIDIA/nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-container-toolkit) NVIDIA 容器工具包允许用户构建和运行 GPU 加速容器。该工具包包括一个容器运行时库和实用程序，用于自动配置容器以利用 NVIDIA GPU。
+
+* [microsoft/CNTK](https://github.com/microsoft/CNTK) 统一的深度学习工具包，它通过有向图将神经网络描述为一系列计算步骤。在此有向图中，叶节点表示输入值或网络参数，而其他节点表示输入的矩阵运算。CNTK允许用户轻松实现和组合常用模型类型，例如前馈 DNN、卷积网络 （CNN） 和循环网络 （RNN/LSTM） 。它实现了随机梯度下降（SGD，误差反向传播）学习，并在多个 GPU 和服务器之间实现了自动微分和并行化。
 
 # NLP自然语言处理
 
@@ -3589,6 +3593,8 @@
 
 * [lint-staged/lint-staged](https://github.com/lint-staged/lint-staged)  在 git 暂存文件上运行 linters，在提交代码之前运行 Linting 更有意义。通过这样做，您可以确保没有错误进入存储库并强制执行代码样式。但是，在整个项目上运行 lint 过程很慢，并且 linting 结果可能无关紧要。最终，您只想删除将要提交的文件。
 
+* [gvergnaud/ts-pattern](https://github.com/gvergnaud/ts-pattern) 用于 TypeScript 的详尽模式匹配库，具有智能类型推理功能。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -4534,6 +4540,20 @@
 
 * [Anarios/return-youtube-dislike](https://github.com/Anarios/return-youtube-dislike) Chrome 扩展程序返回 youtube 不喜欢
 
+* [atlas-engineer/nyxt](https://github.com/atlas-engineer/nyxt) 专为黑客设计的键盘驱动的 Web 浏览器。受 Emacs 和 Vim 的启发，它具有熟悉的键绑定（Emacs、vi、CUA），并且在 Lisp 中可以无限扩展。
+
+* [darkreader/darkreader](https://github.com/darkreader/darkreader) Dark Reader Chrome 和 Firefox 扩展程序，分析网页，旨在减少浏览网页时的眼睛疲劳。
+
+* [FormidableLabs/victory](https://github.com/FormidableLabs/victory) 用于构建交互式数据可视化的可组合 React 组件的集合
+
+* [frappe/charts](https://github.com/frappe/charts) 简单、响应迅速、现代的 SVG 图表，零依赖性
+
+* [webpack-contrib/webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) Webpack 插件和 CLI 实用程序，将捆绑包内容表示为方便的交互式可缩放树状图
+
+* [dream-num/univer](https://github.com/dream-num/univer) 一套企业文档和数据协作解决方案。包括电子表格、文档和幻灯片。高度可扩展的设计允许开发人员基于 Universal 定制个性化功能。
+
+* [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) TypeScript ORM。在 Node、Bun 和 Deno 上运行。也是一个 JavaScript ORM。支持所有 PostgreSQL、MySQL 和 SQLite 数据库，包括 Turso、Neon、Xata、PlanetScale、Cloudflare D1、FlyIO LiteFS、Vercel Postgres、Supabase 和 AWS Data API 等无服务器数据库。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4867,6 +4887,16 @@
 * [bxcodec/go-clean-arch](https://github.com/bxcodec/go-clean-arch) Go 项目中实现 Clean Architecture 的示例。独立于框架。该体系结构不依赖于某些功能丰富的软件库的存在。这允许您使用此类框架作为工具，而不必将系统塞进其有限的约束中。可测试。可以在没有 UI、数据库、Web 服务器或任何其他外部元素的情况下测试业务规则。独立于 UI。UI 可以轻松更改，而无需更改系统的其余部分。例如，可以在不更改业务规则的情况下将 Web UI 替换为控制台 UI。独立于数据库。可以将 Oracle 或 SQL Server 换成 Mongo、BigTable、CouchDB 或其他东西。您的业务规则未绑定到数据库。独立于任何外部机构。
 
 * [feathersjs/feathers](https://github.com/feathersjs/feathers) 全栈框架，用于使用 TypeScript 或 JavaScript 创建 Web API 和实时应用程序。可以与任何后端技术交互，支持许多开箱即用的数据库，并适用于任何前端，如 React、VueJS、Angular、React Native、Android 或 iOS。
+
+* [Tencent/matrix](https://github.com/Tencent/matrix) 微信开发的一款插件式、非侵入式 APM 系统。微信中用于监控、定位和分析性能问题的 APM（应用程序性能管理）。它是一种插件风格的非侵入性解决方案，目前可在 iOS、macOS 和 Android 上使用。
+
+* [caronc/apprise](https://github.com/caronc/apprise) 允许您向当今几乎所有最流行的通知服务发送通知，例如：Telegram、Discord、Slack、Amazon SNS、Gotify等
+
+* [akka/akka](https://github.com/akka/akka) 在 JVM 上构建高度并发、分布式和弹性的消息驱动型应用程序
+
+* [capnproto/capnproto](https://github.com/capnproto/capnproto) Cap'n Proto 序列化/RPC 系统 - 核心工具和 C++ 库
+
+* [vectordotdev/vector](https://github.com/vectordotdev/vector) 高性能的端到端（代理和聚合器）可观测性数据管道，可让您控制可观测性数据。收集、转换所有日志和指标，并将其路由到您今天想要的任何供应商以及您明天可能想要的任何其他供应商。Vector 可在您需要的地方实现大幅降低成本、新颖的数据丰富和数据安全性，而不是您的供应商最方便的地方。此外，它是开源的，比该领域的所有替代方案快 10 倍。
 
 ## 网络与前后端开发_其他
 
@@ -5516,6 +5546,14 @@
 
 * [caprover/caprover](https://github.com/caprover/caprover) 最简单的应用程序/数据库部署平台和 Web 服务器包，适用于 NodeJS、Python、PHP、Ruby、Go 应用程序。
 
+* [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) 自托管指南。了解有关本地托管（本地和专用 Web 服务器）以及由您自己或您的组织管理软件应用程序的所有信息。包括云、LLMs、WireGuard、自动化、家庭助理和网络。
+
+* [leiurayer/downkyi](https://github.com/leiurayer/downkyi) 哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。
+
+* [zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne) 用于地球的智能可编程以太网交换机。它允许所有联网设备、虚拟机、容器和应用程序进行通信，就好像它们都驻留在同一个物理数据中心或云区域中一样。这是通过将加密寻址的安全对等网络（称为 VL1）与有点类似于 VXLAN（称为 VL2）的以太网仿真层相结合来实现的。我们的 VL2 以太网虚拟化层包括高级企业 SDN 功能，例如用于网络微分段和安全监控的细粒度访问控制规则。所有 ZeroTier 流量都使用只有您才能控制的密钥进行端到端加密。大多数流量都是点对点的，但我们为无法建立点对点连接的用户提供免费（但速度慢）的中继。
+
+* [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) 开源实时聊天、电子邮件支持、全渠道服务台。Intercom、Zendesk、Salesforce Service Cloud 等的替代品。支持以下对话渠道：网站：使用我们的实时聊天小部件与您的客户交谈，并利用我们的 SDK 来识别用户并提供上下文支持。Facebook、Instagram、Twitter、Telegram、WhatsApp、Line、Twilio 短信、API 通道、电子邮件。其他功能包括：CRM、自定义属性、共享多品牌收件箱、私人笔记、预制回复、对话标签、自动分配：根据可用性和负载智能地分配给有权访问收件箱的座席、对话连续性、多语言支持、强大的 API 和 Webhook
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5929,9 +5967,13 @@
 
 * [leap-ai/headshots-starter](https://github.com/leap-ai/headshots-starter) 可在几分钟内生成专业的 AI 头像。
 
+* [InstantID/InstantID](https://github.com/InstantID/InstantID) 在数秒内实现零样本人身份保留生成，最先进的免调谐方法，只需一张图像即可实现 ID 保留生成，支持各种下游任务。InstantID 实现了更好的保真度，并保留了良好的文本可编辑性（面孔和样式融合得更好）。[InstantX/InstantID](https://huggingface.co/InstantX/InstantID) 
+
 * [minivision-ai/photo2cartoon](https://github.com/minivision-ai/photo2cartoon) 人像卡通化探索项目
 
 * [ShiqiYu/libfacedetection](https://github.com/ShiqiYu/libfacedetection) 用于图像中人脸检测的开源库。人脸检测速度可以达到1000FPS。
+
+* [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) 用于 PC 流媒体或视频通话的实时换脸
 
 * [davidsandberg/facenet](https://github.com/davidsandberg/facenet) 使用 TensorFlow 进行人脸识别
 
@@ -6030,6 +6072,8 @@
 * [Sanster/lama-cleaner](https://github.com/Sanster/lama-cleaner) 由 SOTA AI 模型提供支持的图像修复工具。 从照片中删除任何不需要的物体、缺陷、人或擦除和替换（由稳定扩散驱动）你照片上的任何东西。
 
 * [TaoWangzj/Awesome-Face-Restoration](https://github.com/TaoWangzj/Awesome-Face-Restoration) 深层面部修复资源的完整列表 去噪、超分辨率、去模糊和去除伪影
+
+* [sczhou/CodeFormer](https://github.com/sczhou/CodeFormer) 使用 Codebook Lookup Transformer 实现强大的盲脸恢复，增强旧照片/修复 AI 艺术，面部修复，面部颜色增强和修复。[sczhou/CodeFormer](https://huggingface.co/spaces/sczhou/CodeFormer) 
 
 * [upscayl/upscayl](https://github.com/upscayl/upscayl) 可让您使用先进的 AI 算法放大和增强低分辨率图像。在不损失质量的情况下放大图像。
 
@@ -6731,6 +6775,12 @@
 
 * [danielgatis/rembg](https://github.com/danielgatis/rembg) 去除图像背景的工具
 
+* [Curzibn/Luban](https://github.com/Curzibn/Luban) 可能是最接近微信朋友圈的图片压缩算法
+
+* [leandromoreira/digital_video_introduction](https://github.com/leandromoreira/digital_video_introduction) 视频技术的实践介绍：图像、视频、编解码器（av1、vp9、h265）等（ffmpeg 编码）
+
+* [ssloy/tinyrenderer](https://github.com/ssloy/tinyrenderer) 简短的计算机图形学/渲染课程，通过编写 OpenGL 的克隆（一个简化得多的克隆）来展示 OpenGL 的工作方式。令人惊讶的是，我经常遇到无法克服学习 OpenGL / DirectX 的最初障碍的人。因此，我准备了一系列简短的讲座，之后我的学生展示了相当不错的渲染器。
+
 # 因果推断
 
 * [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -6851,7 +6901,9 @@
 
 * [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) 算法交易和量化交易开源平台，用于开发交易机器人（股票市场、外汇、加密货币、比特币和期权）。
 
-* [cantaro86/Financial-Models-Numerical-Methods](https://github.com/cantaro86/Financial-Models-Numerical-Methods) 关于量化金融的笔记本集合，带有交互式python代码。它包含几个现在不那么流行的主题，但可以非常强大。通常，偏微分方程方法、Lévy 过程、傅里叶方法或卡尔曼滤波等主题在从业者中不是很受欢迎，他们更喜欢使用更标准的工具。内容：1.1） Black-Scholes 布莱克-斯科尔斯数值方法（对数正态分布、测度变化、蒙特卡罗、二项式方法）。1.2） SDE仿真与统计（路径生成、置信区间、假设检验、几何布朗运动、Cox-Ingersoll-Ross过程、Euler Maruyama法、参数估计）1.3） 傅里叶反演方法（反演公式、数值反演、期权定价、FFT、刘易斯公式）1.4） SDE、Heston 模型（相关布朗运动、Heston 路径、Heston 分布、特征函数、期权定价）1.5） SDE，莱维过程（默顿，方差伽玛，NIG，路径生成，参数估计）2.1）布莱克-斯科尔斯偏微分方程（偏微分方程离散化，隐式方法，稀疏矩阵教程）2.2） 奇异期权（二元期权、障碍期权、亚洲期权）2.3） 美式期权（偏微分方程、早期行权、二项式法、Longstaff-Schwartz、永续看跌期权）3.1） Merton Jump-Diffusion PIDE（隐式-显式离散化、离散卷积、模型限制、蒙特卡罗、傅里叶反演、半闭式）3.2） Gamma Variance PIDE（近似跳跃扩散PIDE、蒙特卡洛、傅里叶反演、与Black-Scholes的比较）3.3） 正态逆高斯PIDE（近似跳跃扩散PIDE、蒙特卡罗、傅里叶反演、Lévy测度的性质）4.1） 交易成本定价（Davis-Panas-Zariphopoulou 模型、奇异控制问题、HJB 变分不等式、无差异定价、二项式树、性能）4.2） 波动率微笑和模型校准（波动率微笑、寻根方法、校准方法）5.1） 线性回归和卡尔曼滤波（市场数据清洗、线性回归方法、卡尔曼滤波设计、参数选择）5.2） 卡尔曼自相关跟踪 - AR（1） 过程（自回归过程、估计方法、卡尔曼滤波、卡尔曼平滑、变量自相关跟踪）5.3） 波动率跟踪（赫斯顿模拟、假设检验、分布拟合、估计方法、GARCH（1,1）、卡尔曼滤波、卡尔曼平滑）6.1） Ornstein-Uhlenbeck过程及应用（参数估计、命中时间、Vasicek PDE、卡尔曼滤波、交易策略）7.1） 经典 MVO（均值方差优化、二次规划、仅多头和长空、闭合公式）
+* [cantaro86/Financial-Models-Numerical-Methods](https://github.com/cantaro86/Financial-Models-Numerical-Methods) 量化金融的笔记本集合，带有交互式py代码。偏微分方程方法、Lévy 过程、傅里叶方法或卡尔曼滤波等主题。内容：1.1） Black-Scholes 布莱克-斯科尔斯数值方法（对数正态分布、测度变化、蒙特卡罗、二项式方法）。1.2） SDE仿真与统计（路径生成、置信区间、假设检验、几何布朗运动、Cox-Ingersoll-Ross过程、Euler Maruyama法、参数估计）1.3） 傅里叶反演方法（反演公式、数值反演、期权定价、FFT、刘易斯公式）1.4） SDE、Heston 模型（相关布朗运动、Heston 路径、Heston 分布、特征函数、期权定价）1.5） SDE，莱维过程（默顿，方差伽玛，NIG，路径生成，参数估计）2.1）布莱克-斯科尔斯偏微分方程（偏微分方程离散化，隐式方法，稀疏矩阵教程）2.2） 奇异期权（二元期权、障碍期权、亚洲期权）2.3） 美式期权（偏微分方程、早期行权、二项式法、Longstaff-Schwartz、永续看跌期权）3.1） Merton Jump-Diffusion PIDE（隐式-显式离散化、离散卷积、模型限制、蒙特卡罗、傅里叶反演、半闭式）3.2） Gamma Variance PIDE（近似跳跃扩散PIDE、蒙特卡洛、傅里叶反演、与Black-Scholes的比较）3.3） 正态逆高斯PIDE（近似跳跃扩散PIDE、蒙特卡罗、傅里叶反演、Lévy测度的性质）4.1） 交易成本定价（Davis-Panas-Zariphopoulou 模型、奇异控制问题、HJB 变分不等式、无差异定价、二项式树、性能）4.2） 波动率微笑和模型校准（波动率微笑、寻根方法、校准方法）5.1） 线性回归和卡尔曼滤波（市场数据清洗、线性回归方法、卡尔曼滤波设计、参数选择）5.2） 卡尔曼自相关跟踪 - AR（1） 过程（自回归过程、估计方法、卡尔曼滤波、卡尔曼平滑、变量自相关跟踪）5.3） 波动率跟踪（赫斯顿模拟、假设检验、分布拟合、估计方法、GARCH（1,1）、卡尔曼滤波、卡尔曼平滑）6.1） Ornstein-Uhlenbeck过程及应用（参数估计、命中时间、Vasicek PDE、卡尔曼滤波、交易策略）7.1） 经典 MVO（均值方差优化、二次规划、仅多头和长空、闭合公式）
+
+* [ranaroussi/yfinance](https://github.com/ranaroussi/yfinance) 从雅虎财经的 API 下载市场数据
 
 ## 时间序列
 
@@ -8291,6 +8343,8 @@
 
 * [apache/doris](https://github.com/apache/doris) 简单易用、高性能、统一的分析数据库。基于 MPP 架构的简单易用、高性能、实时的分析数据库，以其极快的速度和易用性而闻名。在海量数据下，只需亚秒级响应时间即可返回查询结果，不仅可以支持高并发的点查询场景，还可以支持高吞吐量的复杂分析场景。
 
+* [apache/zookeeper](https://github.com/apache/zookeeper) 集中式服务，实现高度可靠的分布式协调。用于维护配置信息、命名、提供分布式同步和提供组服务。所有这些类型的服务都以某种形式被分布式应用程序使用。每次实施它们时，都会有很多工作来修复不可避免的错误和竞争条件。由于实现此类服务的困难，应用程序最初通常会吝啬它们，这使得它们在存在变化时变得脆弱并且难以管理。即使操作得当，这些服务的不同实现也会导致部署应用程序时的管理复杂性。
+
 * [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) 一个更新和有组织的阅读列表，用于说明可扩展、可靠和高性能的大型系统的模式。概念在著名工程师的文章和可靠的参考文献中进行了解释。案例研究取自为数百万至数十亿用户提供服务的经过实战考验的系统。
 
 * [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes) 大数据入门指南
@@ -8471,6 +8525,10 @@
 
 * [georgia-tech-db/evadb](https://github.com/georgia-tech-db/evadb) 使软件开发人员能够通过几行代码构建 AI 应用程序。其强大的 SQL API 简化了结构化和非结构化数据的 AI 应用程序开发。EvaDB的优势包括：轻松将 EvaDB 查询引擎与您的数据源（如 PostgreSQL 或 S3 存储桶）连接，并使用 SQL 查询构建 AI 驱动的应用程序。使用 Hugging Face、OpenAI、YOLO、Stable Diffusion 等预训练的 AI 模型查询您的连接数据。创建或微调用于回归、分类和时间序列预测的 AI 模型。得益于以 AI 为中心的查询优化，例如缓存、批处理和并行处理，因此可以更快地进行 AI 查询。
 
+* [apple/foundationdb](https://github.com/apple/foundationdb) 分布式数据库，旨在跨商用服务器集群处理大量结构化数据。它将数据组织为有序的键值存储，并将 ACID 事务用于所有操作。它特别适用于读/写工作负载，但对于写入密集型工作负载也具有出色的性能。用户使用 API 语言绑定与数据库进行交互。
+
+* [citusdata/citus](https://github.com/citusdata/citus)  PostgreSQL 扩展，可将 Postgres 转换为分布式数据库，因此您可以在任何规模下实现高性能。借助 Citus，您可以使用新的超能力扩展 PostgreSQL 数据库：分布式表在 PostgreSQL 节点集群中进行分片，以组合其 CPU、内存、存储和 I/O 容量。引用表将复制到所有节点，以便从分布式表中进行联接和外键，并实现最大读取性能。分布式查询引擎在整个集群中路由和并行化分布式表上的 SELECT、DML 和其他操作。列式存储可压缩数据，加快扫描速度，并支持常规表和分布式表上的快速投影。通过从任何节点进行查询，可以利用集群的全部容量进行分布式查询
+
 ## 数据搜索引擎
 
 * [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -8548,6 +8606,8 @@
 * [milvus-io/bootcamp](https://github.com/milvus-io/bootcamp) 处理所有非结构化数据，如反向图像搜索、音频搜索、分子搜索、视频分析、问答系统、NLP 等。使用神经网络从非结构化数据中提取特征向量，例如图像、音频和视频等。然后通过计算特征向量来分析非结构化数据，例如计算向量的欧几里得或余弦距离以获得相似性。
 
 * [zilliztech/VectorDBBench](https://github.com/zilliztech/VectorDBBench) 不仅仅是主流矢量数据库和云服务的基准测试结果，还是您进行终极性能和成本效益比较的首选工具。VectorDBBench 在设计时考虑到了易用性，旨在帮助用户（甚至是非专业人士）重现结果或测试新系统，从而在众多云服务和开源矢量数据库中寻找最佳选择变得轻而易举。
+
+* [Tencent/wcdb](https://github.com/Tencent/wcdb) WCDB是由微信开发的跨平台数据库框架。高效、完整、易用的移动数据库框架，用于微信应用。它基于SQLite和SQLCipher，支持五种语言：C++，Java，Kotlin，Swift和Objective-C。
 
 ## 其他__大数据
 
@@ -8668,6 +8728,8 @@
 * [theanalyst/awesome-distributed-systems](https://github.com/theanalyst/awesome-distributed-systems) 关于分布式系统上令人敬畏的材料的精选列表
 
 * [apache/zeppelin](https://github.com/apache/zeppelin) 基于 Web 的笔记本，支持数据驱动的交互式数据分析以及使用 SQL、Scala 等的协作文档。
+
+* [dtm-labs/dtm](https://github.com/dtm-labs/dtm) 分布式事务框架，支持工作流、saga、tcc、xa、两阶段消息、发件箱模式，支持多种语言。
 
 # 云&虚拟化
 
@@ -8794,6 +8856,8 @@
 * [google/go-cloud](https://github.com/google/go-cloud) Go 云开发工具包 （Go CDK） 允许 Go 应用程序开发人员在云提供商的任意组合上无缝部署云应用程序。它通过为存储和数据库等常见用途提供稳定、惯用的接口来实现这一点。
 
 * [dotnet/orleans](https://github.com/dotnet/orleans) 跨平台框架，用于构建可靠、可扩展的分布式应用程序。以 .NET 的开发人员生产力为基础，并将其引入分布式应用程序（如云服务）的世界。Orleans 从单个本地服务器扩展到云中全球分布的高可用性应用程序。
+
+* [helm/helm](https://github.com/helm/helm) 用于管理Kubernetes的工具。预配置的 Kubernetes 资源包。
 
 # 安全与渗透
 
@@ -9266,6 +9330,8 @@
 * [keeweb/keeweb](https://github.com/keeweb/keeweb) 与KeePass兼容的免费跨平台密码管理器
 
 * [fail2ban/fail2ban](https://github.com/fail2ban/fail2ban) 用于禁止导致多个身份验证错误的主机的守护程序，Fail2Ban 扫描日志文件，例如 `/var/log/auth.log` 并禁止 IP 地址进行过多失败的登录尝试。它通过更新系统防火墙规则来拒绝来自这些 IP 地址的新连接，并在可配置的时间内实现此目的。Fail2Ban 开箱即用，可以读取许多标准日志文件，例如 sshd 和 Apache 的日志文件，并且可以轻松配置为读取您选择的任何日志文件，以处理您希望的任何错误。尽管 Fail2Ban 能够降低错误身份验证尝试的速率，但它无法消除弱身份验证带来的风险。如果确实想要保护服务，请将服务设置为仅使用双因素或公共/私有身份验证机制。
+
+* [Ciphey/Ciphey](https://github.com/Ciphey/Ciphey) 在不知道密钥或密码的情况下自动解密加密，解码编码和破解哈希
 
 ## 其他_安全与渗透
 
@@ -10071,6 +10137,10 @@
 
 * [DarkFlippers/unleashed-firmware](https://github.com/DarkFlippers/unleashed-firmware)  Flipper Zero Unleashed 固件存储库，最稳定的自定义固件专注于原始固件组件的新功能和改进，几乎没有 UI 更改
 
+* [RT-Thread/rt-thread](https://github.com/RT-Thread/rt-thread) 开源的物联网实时操作系统 （RTOS）
+
+* [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) 适用于 Atmel AVR 和 Arm USB 系列的开源键盘固件
+
 # 其他项目
 
 ## Python
@@ -10216,6 +10286,8 @@
 * [xxg1413/python](https://github.com/xxg1413/python) Python 书籍和课程
 
 * [thonny/thonny](https://github.com/thonny/thonny) 面向初学者的 Python IDE
+
+* [pola-rs/polars](https://github.com/pola-rs/polars) 由多线程、矢量化查询引擎提供支持的数据帧 Dataframe，Rust编写
 
 * [plotly/plotly.py](https://github.com/plotly/plotly.py) Py的交互式图形库 这个项目现在包括 Plotly Express
 
@@ -10382,7 +10454,11 @@
 
 * [koshox/pythonvm](https://github.com/koshox/pythonvm) 《自己动手写python虚拟机》C++实现 
 
+* [federico-busato/Modern-CPP-Programming](https://github.com/federico-busato/Modern-CPP-Programming) 现代 C++ 编程课程 （C++ 11/14/17/20/23），这门开放获取课程面向那些已经熟悉 C 和面向对象编程的人，以达到 C++ 编程的熟练程度。该课程涵盖 C++ 编程的基础知识，并转向高级 C++ 语义和概念。
+
 * [carbon-language/carbon-lang](https://github.com/carbon-language/carbon-lang) Carbon Language的主要存储库：文档，设计，实现和相关工具。Carbon是一种后继语言方法，而不是试图逐步发展C++。它围绕与C++的互操作性以及现有C++代码库和开发人员的大规模采用和迁移而设计。C++仍然是性能关键型软件的主要编程语言，拥有大量且不断增长的代码库和投资。然而，如上所述，它正在努力改善和满足开发人员的需求，这在很大程度上是由于积累了数十年的技术债务。逐步改进C++非常困难，这既是由于技术债务本身，也是由于其演变过程的挑战。解决这些问题的最佳方法是避免直接继承 C 或 C++ 的遗产，而是从坚实的语言基础开始，如现代泛型系统、模块化代码组织和一致、简单的语法。
+
+* [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp)  C++ 库代码的开源集合，旨在增强 C++ 标准库。Abseil 库代码是从 Google 自己的 C++ 代码库中收集的，经过广泛的测试并在生产中使用，与我们日常编码生活中依赖的代码相同。
 
 * [akheron/jansson](https://github.com/akheron/jansson) 用于编码、解码和操作 JSON 数据的 C 库
 
@@ -10418,9 +10494,15 @@
 
 * [sumatrapdfreader/sumatrapdf](https://github.com/sumatrapdfreader/sumatrapdf) C/C++ Windows 的多格式（PDF、EPUB、MOBI、CBZ、CBR、FB2、CHM、XPS、DjVu）阅读器，采用 （A）GPLv3 许可，部分代码采用 BSD 许可。
 
+* [CnTransGroup/EffectiveModernCppChinese](https://github.com/CnTransGroup/EffectiveModernCppChinese) 《Effective Modern C++ 》翻译
+
 * [ttroy50/cmake-examples](https://github.com/ttroy50/cmake-examples) CMake 是一个跨平台的开源元构建系统，可以构建、测试和打包软件。这个存储库包括一些现代 CMake 配置示例，我在探索它在各种项目中的用法时已经拿起了这些配置。这些示例以类似教程的格式进行布局。第一个示例非常基础，并且利用前面的示例来展示更复杂的用例，复杂性会慢慢增加。
 
 * [facebook/zstd](https://github.com/facebook/zstd) 快速无损压缩算法，针对 zlib 级的实时压缩场景和更好的压缩比。它由 Huff0 和 FSE 库提供的非常快的熵级支持。Zstandard 的格式是稳定的，并记录在RFC8878中。已经有多个独立的实现可用。此存储库表示参考实现，作为开源双 BSD 或 GPLv2 许可的 C 库提供，以及生成和解码 .zst 、 .gz .xz 和 .lz4 文件的命令行实用程序。
+
+* [xmake-io/xmake](https://github.com/xmake-io/xmake) 基于 Lua 的跨平台构建实用程序
+
+* [upx/upx](https://github.com/upx/upx) eXecutables 的终极打包器c++
 
 ## Rust 程序设计
 
@@ -10654,6 +10736,8 @@
 
 * [ahmedash95/build-redis-from-scratch](https://github.com/ahmedash95/build-redis-from-scratch) 如何在 Go 中实现内存中数据库（如 Redis ）的文章系列。
 
+* [restic/restic](https://github.com/restic/restic) Golang 编写的快速、高效和安全的备份程序。它支持三种主要操作系统（Linux、macOS、Windows）和一些较小的操作系统（FreeBSD、OpenBSD）。
+
 * [jroimartin/gocui](https://github.com/jroimartin/gocui) 极简主义的 Go 包，旨在创建控制台用户界面。
 
 * [chai2010/advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) 《Go语言高级编程》图书，涵盖CGO、Go汇编、RPC、Protobuf插件实现、Web框架实现、分布式系统等高阶主题
@@ -10728,6 +10812,8 @@
 
 * [DuGuQiuBai/Java](https://github.com/DuGuQiuBai/Java) 27天成为Java大神
 
+* [openjdk/jdk](https://github.com/openjdk/jdk) JDK主线开发
+
 * [CodingDocs/awesome-java](https://github.com/CodingDocs/awesome-java) Github上令人敬畏的Java项目集合（非常棒的 Java 开源项目集合）。
 
 * [aalansehaiyang/technology-talk](https://github.com/aalansehaiyang/technology-talk) 【大厂面试专栏】一份Java程序员需要的技术指南，这里有面试题、系统架构、职场锦囊、主流中间件等，让你成为更牛的自己！
@@ -10739,6 +10825,16 @@
 * [hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer) Java工程师成神之路
 
 * [dromara/hutool](https://github.com/dromara/hutool) 功能丰富且易用的Java工具库，通过诸多实用工具类的使用，旨在帮助开发者快速、便捷地完成各类开发任务。 这些封装的工具涵盖了字符串、数字、集合、编码、日期、文件、IO、加密、数据库JDBC、JSON、HTTP客户端等一系列操作， 可以满足各种不同的开发需求。
+
+* [crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout) Java Core Sprout：基本、并发、算法
+
+* [alibaba/easyexcel](https://github.com/alibaba/easyexcel) 快速、简洁、解决大文件内存溢出的java处理Excel工具
+
+* [mybatis/mybatis-3](https://github.com/mybatis/mybatis-3) MyBatis SQL 映射器框架使关系数据库与面向对象的应用程序更容易使用。MyBatis 使用 XML 描述符或注解将对象与存储过程或 SQL 语句耦合。简单性是 MyBatis 数据映射器相对于对象关系映射工具的最大优势。
+
+* [brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP) “零开销”生产就绪型 JDBC 连接池。该库大约为 130Kb，非常轻巧。
+
+* [dianping/cat](https://github.com/dianping/cat) CAT 作为服务端项目基础组件，提供了 Java, C/C++, Node.js, Python, Go 等多语言客户端，已经在美团点评的基础架构中间件框架（MVC框架，RPC框架，数据库框架，缓存框架等，消息队列，配置系统等）深度集成，为美团点评各业务线提供系统丰富的性能指标、健康状况、实时告警等。
 
 * [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) 无需 Docker 守护程序即可为您的 Java 应用构建优化的 Docker 和 OCI 映像，而无需深入了解 Docker 最佳实践。
 
@@ -10899,6 +10995,8 @@
 * [android-async-http/android-async-http](https://github.com/android-async-http/android-async-http) 基于 Apache 的 HttpClient 库构建的基于回调的异步 Android Http 客户端。
 
 * [permissions-dispatcher/PermissionsDispatcher](https://github.com/permissions-dispatcher/PermissionsDispatcher) 用于处理 Android 运行时权限的声明性 API。
+
+* [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) ehviewer，用爱发电，快乐前行
 
 ## 编辑器
 
@@ -11932,5 +12030,15 @@
 * [StylishThemes/GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark) 深色 GitHub 风格
 
 * [trimstray/test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) Linux 系统管理员测试问题和答案的集合。通过这些 Q/A 测试您在不同领域的知识和技能。
+
+* [matheusfelipeog/beautiful-docs](https://github.com/matheusfelipeog/beautiful-docs) 我喜欢文档。如果您使用/正在编写供多个人使用和使用的代码，那么您也应该喜欢它。文档和其他资源将决定项目的成功与否。你希望开发越开放和协作，文档就越重要。
+
+* [docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar) 开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速
+
+* [conwnet/github1s](https://github.com/conwnet/github1s) 一秒钟使用 VS Code 读取 GitHub 代码。
+
+* [libgit2/libgit2](https://github.com/libgit2/libgit2) 可在应用程序中使用的 Git 的跨平台、可链接库实现。Git 核心方法的可移植、纯 C 实现，作为具有可靠 API 的可链接库提供，允许将 Git 功能构建到您的应用程序中。Rugged （Ruby）、LibGit2Sharp （.NET）、pygit2 （Python） 和 NodeGit （Node） 等语言绑定允许您使用自己喜欢的语言构建 Git 工具。
+
+* [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys) 开发人员的瑞士军刀。DevToys 帮助完成日常开发任务，例如格式化 JSON、比较文本和测试正则表达式。
 
 # end
