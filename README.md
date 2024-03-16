@@ -66,7 +66,7 @@
 
 * [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) ![stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social) 10 周20 节课，全民数据科学！
 
-* [mli/paper-reading](https://github.com/mli/paper-reading) 深度学习经典、新论文逐段精读。包括视频讲解。
+* [mli/paper-reading](https://github.com/mli/paper-reading) ![stars](https://img.shields.io/github/stars/mli/paper-reading.svg?style=social) 深度学习经典、新论文逐段精读。包括视频讲解。
 
 * [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) 机器学习框架、库和软件的精选列表
 
@@ -866,6 +866,8 @@
 * [NVIDIA/nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-container-toolkit) NVIDIA 容器工具包允许用户构建和运行 GPU 加速容器。该工具包包括一个容器运行时库和实用程序，用于自动配置容器以利用 NVIDIA GPU。
 
 * [microsoft/CNTK](https://github.com/microsoft/CNTK) 统一的深度学习工具包，它通过有向图将神经网络描述为一系列计算步骤。在此有向图中，叶节点表示输入值或网络参数，而其他节点表示输入的矩阵运算。CNTK允许用户轻松实现和组合常用模型类型，例如前馈 DNN、卷积网络 （CNN） 和循环网络 （RNN/LSTM） 。它实现了随机梯度下降（SGD，误差反向传播）学习，并在多个 GPU 和服务器之间实现了自动微分和并行化。
+
+* [guipsamora/pandas_exercises](https://github.com/guipsamora/pandas_exercises) 练习python Pandas库， 名字衍生自术语 "panel data"（面板数据）和 "Python data analysis"（Python 数据分析），提供高性能、易于使用的数据结构和数据分析工具。
 
 # NLP自然语言处理
 
@@ -3595,6 +3597,8 @@
 
 * [gvergnaud/ts-pattern](https://github.com/gvergnaud/ts-pattern) 用于 TypeScript 的详尽模式匹配库，具有智能类型推理功能。
 
+* [Schniz/fnm](https://github.com/Schniz/fnm) 快速简单的Node.js版本管理器，内置于 Rust 中
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -4554,6 +4558,18 @@
 
 * [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) TypeScript ORM。在 Node、Bun 和 Deno 上运行。也是一个 JavaScript ORM。支持所有 PostgreSQL、MySQL 和 SQLite 数据库，包括 Turso、Neon、Xata、PlanetScale、Cloudflare D1、FlyIO LiteFS、Vercel Postgres、Supabase 和 AWS Data API 等无服务器数据库。
 
+* [plouc/nivo](https://github.com/plouc/nivo) 一组丰富的 dataviz 组件，构建在令人敬畏的 d3 和 React 库之上
+
+* [keen/dashboards](https://github.com/keen/dashboards) 响应式仪表板模板
+
+* [dexie/Dexie.js](https://github.com/dexie/Dexie.js) indexedDB 的包装库 - 浏览器中的标准数据库。
+
+* [aidenybai/million](https://github.com/aidenybai/million) 优化 React 性能，让React 在几分钟内提高 70%。
+
+* [edent/SuperTinyIcons](https://github.com/edent/SuperTinyIcons) 每个小于 1KB！Super Tiny Icons 是您最喜爱的网站和应用程序徽标的微小 SVG 版本
+
+* [GitHub - sveltejs/kit: web development, streamlined](https://github.com/sveltejs/kit) 简化Web 开发，由 Svelte 和 Vite 提供支持，速度融入每个缝隙：快速设置、快速开发、快速构建、快速页面加载、快速导航。再也不用浪费时间去弄清楚捆绑器配置、路由、SSR、CSP、TypeScript、部署设置和所有其他无聊的东西了。快乐地编码。为您提供了成功的工具，无论您正在构建什么。它可以在 JavaScript 的任何地方运行。用于使用 Svelte 快速开发健壮、高性能的 Web 应用程序。如果你来自 React，SvelteKit 类似于 Next。如果你来自 Vue，SvelteKit 类似于 Nuxt。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4897,6 +4913,10 @@
 * [capnproto/capnproto](https://github.com/capnproto/capnproto) Cap'n Proto 序列化/RPC 系统 - 核心工具和 C++ 库
 
 * [vectordotdev/vector](https://github.com/vectordotdev/vector) 高性能的端到端（代理和聚合器）可观测性数据管道，可让您控制可观测性数据。收集、转换所有日志和指标，并将其路由到您今天想要的任何供应商以及您明天可能想要的任何其他供应商。Vector 可在您需要的地方实现大幅降低成本、新颖的数据丰富和数据安全性，而不是您的供应商最方便的地方。此外，它是开源的，比该领域的所有替代方案快 10 倍。
+
+* [LMAX-Exchange/disruptor](https://github.com/LMAX-Exchange/disruptor) 高性能线程间消息传递库
+
+* [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) 该存储库包含系统设计资源，这些资源在准备面试和学习分布式系统时非常有用
 
 ## 网络与前后端开发_其他
 
@@ -5554,6 +5574,14 @@
 
 * [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) 开源实时聊天、电子邮件支持、全渠道服务台。Intercom、Zendesk、Salesforce Service Cloud 等的替代品。支持以下对话渠道：网站：使用我们的实时聊天小部件与您的客户交谈，并利用我们的 SDK 来识别用户并提供上下文支持。Facebook、Instagram、Twitter、Telegram、WhatsApp、Line、Twilio 短信、API 通道、电子邮件。其他功能包括：CRM、自定义属性、共享多品牌收件箱、私人笔记、预制回复、对话标签、自动分配：根据可用性和负载智能地分配给有权访问收件箱的座席、对话连续性、多语言支持、强大的 API 和 Webhook
 
+* [dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh) 从命令行轻松快速地共享文件。此代码包含服务器，其中包含创建自己的实例所需的一切。目前支持 s3 （Amazon S3）、gdrive （Google Drive）、storj （Storj） 提供程序和本地文件系统 （local）。
+
+* [microsoft/IoT-For-Beginners](https://github.com/microsoft/IoT-For-Beginners) 12 周，24 节课，面向所有人的物联网！
+
+* [Moya/Moya](https://github.com/Moya/Moya) 用 Swift 编写的网络抽象层。
+
+* [mamoe/mirai](https://github.com/mamoe/mirai) 在全平台下运行，提供 QQ Android 协议支持的高效率机器人库
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -5660,15 +5688,7 @@
 
 * [tensorflow/recommenders](https://github.com/tensorflow/recommenders) 使用 TensorFlow 构建推荐系统模型的库。
 
-* [RUCAIBox/RecBole](https://github.com/RUCAIBox/RecBole) 统一，全面，高效的推荐库，包括：
-  
-  - AFM,AutoInt,DCN,DeepFM,DSSM,FFM,FM,FNN,FwFM,LR,NFM,PNN,WideDeep,xDeepFM,BPR,ConvNCF,DGCF,DMF,FISM,GCMC,ItemKNN,LightGCN,NAIS,NeuMF,NGCF,Pop,SpectralCF,CFKG,
-  - CKE（Collaborative Knowledge base Embedding 发自16年KDD，将KG与CF融合做联合训练）
-  - KGAT Knowledge Graph Attention Network for Recommendation 用KG做增强，捕捉这种高阶交互式特征，做推荐预测。
-  - KGCN,KGNNLS,
-  - KTUP Unifying Knowledge Graph Learning and Recommendation:Towards a Better Understanding of User Preferences 一方面利用KG可以帮助更好的理解用户偏好。另一方面，用户-物品的交互可以补全KG，增强KG中缺少的事实。最终使两个部分都得到加强。
-  - MKR(Multi-task Learning for KG enhanced Recommendation 融合KG和RC) 左边是推荐任务。用户和物品的特征表示作为输入，预测点击率y 右边是知识图谱任务。三元组的头结点h和关系r表示作为输入，预测的尾节点t 两者的交互由一个cross-feature-sharing units完成。由于物品向量和实体向量实际上是对同一个对象的两种描述，他们之间的信息交叉共享可以让两者都获得来自对方的额外信息，从而弥补了自身的信息稀疏性的不足。
-  - ippleNet,BERT4Rec,Caser,DIN,FDSA,FPMC,GCSAN,GRU4Rec,GRU4RecF,GRU4RecKG,KSR,NARM,NextItNet,S3Rec,SASRec,SASRecF,SRGNN,STAMP,TransRec
+* [RUCAIBox/RecBole](https://github.com/RUCAIBox/RecBole) 统一，全面，高效的推荐库，包括：AFM,AutoInt,DCN,DeepFM,DSSM,FFM,FM,FNN,FwFM,LR,NFM,PNN,WideDeep,xDeepFM,BPR,ConvNCF,DGCF,DMF,FISM,GCMC,ItemKNN,LightGCN,NAIS,NeuMF,NGCF,Pop,SpectralCF,CFKG。CKE（Collaborative Knowledge base Embedding 发自16年KDD，将KG与CF融合做联合训练）。KGAT Knowledge Graph Attention Network for Recommendation 用KG做增强，捕捉这种高阶交互式特征，做推荐预测。KGCN,KGNNLS。KTUP Unifying Knowledge Graph Learning and Recommendation:Towards a Better Understanding of User Preferences 一方面利用KG可以帮助更好的理解用户偏好，另一方面，用户-物品的交互可以补全KG，增强KG中缺少的事实，最终使两个部分都得到加强。MKR(Multi-task Learning for KG enhanced Recommendation 融合KG和RC) 左边是推荐任务，用户和物品的特征表示作为输入，预测点击率y 右边是知识图谱任务。三元组的头结点h和关系r表示作为输入，预测的尾节点t 两者的交互由一个cross-feature-sharing units完成，由于物品向量和实体向量实际上是对同一个对象的两种描述，他们之间的信息交叉共享可以让两者都获得来自对方的额外信息，从而弥补了自身的信息稀疏性的不足。ippleNet,BERT4Rec,Caser,DIN,FDSA,FPMC,GCSAN,GRU4Rec,GRU4RecF,GRU4RecKG,KSR,NARM,NextItNet,S3Rec,SASRec,SASRecF,SRGNN,STAMP,TransRec。
 
 * [pytorch/torchrec](https://github.com/pytorch/torchrec)  PyTorch 域库，旨在提供大规模推荐系统 （RecSys） 所需的常见稀疏性和并行性基元。它允许作者使用跨多个 GPU 分片的大型嵌入表来训练模型。包含：并行基元，支持使用混合数据并行性/模型并行性轻松创作大型高性能多设备/多节点模型。TorchRec 分片可以使用不同的分片策略对嵌入表进行分片嵌入，包括数据并行、表分片、行分片、分片、分片。TorchRec 规划器可以自动为模型生成优化的分片计划。流水线训练与数据加载设备传输（复制到 GPU）、设备间通信 （input_dist） 和计算（向前、向后）重叠，以提高性能。由 FBGEMM 提供支持的 RecSys 的优化内核。量化支持，可降低训练和推理的精度。RecSys 的通用模块。经过生产验证的 RecSys 模型架构。RecSys 数据集（criteo 点击日志和 movielens）。端到端训练示例，例如在 criteo 点击日志数据集上训练的 dlrm 事件预测模型。
 
@@ -6109,18 +6129,7 @@
 
 * [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) 开源、免费的离线OCR软件。支持截屏/粘贴/批量导入图片，段落排版/排除水印，扫描/生成二维码。内置多国语言库。
 
-* [FudanVI/benchmarking-chinese-text-recognition](https://github.com/FudanVI/benchmarking-chinese-text-recognition) 该存储库包含用于对中文文本识别进行基准测试的数据集和基线。收集公开可用的场景数据集，包括**RCTW**、**ReCTS**、**LSVT**、**ArT**、**CTW** ，得到 636,455 个样本，这些样本被随机打乱，然后按 8:1:1 的比例划分，以构建训练、验证和测试数据集。六种具有代表性的方法作为基线:
-- CRNN是典型的基于 CTC 的方法，在学术界和工业界得到广泛应用。它首先将文本图像发送到 CNN 以提取图像特征，然后采用两层 LSTM 对序列特征进行编码。最后，LSTM 的输出被馈送到 CTC解码器，以最大化所有路径通往基本事实的概率。
-
-- ASTER 是典型的基于校正的方法，旨在处理不规则的文本图像。引入了空间变换器网络 (STN)，将给定的文本图像纠正为易于识别的外观。然后将校正后的文本图像发送到 CNN 和两层 LSTM 提取特征。ASTER 利用注意力机制来预测最终的文本序列。
-
-- MORAN 是基于整流的方法。它首先采用多对象校正网络（MORN）以弱监督方式预测校正后的像素偏移（与利用 STN 的 ASTER 不同）。输出像素偏移进一步用于生成校正后的图像，该图像进一步发送到基于注意力的解码器（ASRN）进行文本识别。
-
-- SAR 利用二维特征图进行更稳健的解码。特别是，它主要是针对不规则文本提出的。一方面，SAR 在 CNN 编码器中采用更强大的残差块来学习更强的图像表示。另一方面，与 CRNN、ASTER 和 MORAN 将给定图像压缩成一维特征图不同，SAR 对特征图的空间维度采用二维注意力进行解码，从而在弯曲和斜体文字。
-
-- SEED是基于语义的方法。它引入了一个语义模块来提取全局语义嵌入并利用它来初始化解码器的第一个隐藏状态。SEED的解码器在继承ASTER结构的同时，吸收语义嵌入为识别过程提供先验，从而在识别低质量文本图像方面表现出优越性。
-
-- TransOCR 是基于 Transformer 的方法之一。它最初旨在为超分辨率任务提供文本先验。它使用 ResNet-34 作为编码器，使用自注意力模块作为解码器。与基于 RNN 的解码器不同，自注意力模块更有效地捕获给定文本图像的语义特征。
+* [FudanVI/benchmarking-chinese-text-recognition](https://github.com/FudanVI/benchmarking-chinese-text-recognition) 该存储库包含用于对中文文本识别进行基准测试的数据集和基线。收集公开可用的场景数据集，包括**RCTW**、**ReCTS**、**LSVT**、**ArT**、**CTW** ，得到 636,455 个样本，这些样本被随机打乱，然后按 8:1:1 的比例划分，以构建训练、验证和测试数据集。六种具有代表性的方法作为基线:CRNN是典型的基于 CTC 的方法，在学术界和工业界得到广泛应用，它首先将文本图像发送到 CNN 以提取图像特征，然后采用两层 LSTM 对序列特征进行编码，最后，LSTM 的输出被馈送到 CTC解码器，以最大化所有路径通往基本事实的概率。ASTER 是典型的基于校正的方法，旨在处理不规则的文本图像，引入了空间变换器网络 (STN)，将给定的文本图像纠正为易于识别的外观，然后将校正后的文本图像发送到 CNN 和两层 LSTM 提取特征，ASTER 利用注意力机制来预测最终的文本序列。MORAN 是基于整流的方法，它首先采用多对象校正网络（MORN）以弱监督方式预测校正后的像素偏移（与利用 STN 的 ASTER 不同），输出像素偏移进一步用于生成校正后的图像，该图像进一步发送到基于注意力的解码器（ASRN）进行文本识别。SAR 利用二维特征图进行更稳健的解码，特别是，它主要是针对不规则文本提出的，一方面，SAR 在 CNN 编码器中采用更强大的残差块来学习更强的图像表示，另一方面，与 CRNN、ASTER 和 MORAN 将给定图像压缩成一维特征图不同，SAR 对特征图的空间维度采用二维注意力进行解码，从而在弯曲和斜体文字。SEED是基于语义的方法，它引入了一个语义模块来提取全局语义嵌入并利用它来初始化解码器的第一个隐藏状态，SEED的解码器在继承ASTER结构的同时，吸收语义嵌入为识别过程提供先验，从而在识别低质量文本图像方面表现出优越性。TransOCR 是基于 Transformer 的方法之一，它最初旨在为超分辨率任务提供文本先验，它使用 ResNet-34 作为编码器，使用自注意力模块作为解码器，与基于 RNN 的解码器不同，自注意力模块更有效地捕获给定文本图像的语义特征。
 * [adeline-cs/GTR](https://github.com/adeline-cs/GTR) 场景文字识别 现有的场景文本识别（STR）方法通常使用语言模型来优化视觉识别（VR）模型预测的一维字符序列的联合概率，忽略字符实例内部和之间的视觉语义的二维空间上下文，使它们不能很好地推广到任意形状的场景文本。为了解决这个问题，本文中首次尝试基于视觉语义进行文本推理。给定 VR 模型预测的字符分割图，为每个实例构建子图，节点表示其中的像素，根据它们的空间相似性在节点之间添加边。然后，子图通过根节点顺序连接成一个完整的图。
 
 * [lukas-blecher/LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) pix2tex：使用ViT将方程式图像转换为LaTeX代码。目标是创建一个基于学习的系统，该系统获取数学公式的图像并返回相应的LaTeX代码。
@@ -8731,6 +8740,8 @@
 
 * [dtm-labs/dtm](https://github.com/dtm-labs/dtm) 分布式事务框架，支持工作流、saga、tcc、xa、两阶段消息、发件箱模式，支持多种语言。
 
+* 
+
 # 云&虚拟化
 
 * [istio/istio](https://github.com/istio/istio) 开源服务网格，透明地分层到现有的分布式应用程序上。Istio 的强大功能提供了一种统一且更高效的方式来保护、连接和监控服务。Istio 是负载均衡、服务到服务身份验证和监控的途径，只需很少或无需更改服务代码。
@@ -10862,6 +10873,14 @@
 
 * [gradle/gradle](https://github.com/gradle/gradle) 一款构建工具，专注于构建自动化和对多语言开发的支持。如果您在任何平台上构建、测试、发布和部署软件，Gradle 提供了一个灵活的模型，可以支持从编译和打包代码到发布网站的整个开发生命周期。Gradle 旨在支持跨多种语言和平台（包括 Java、Scala、Android、Kotlin、C/C++ 和 Groovy）的构建自动化，并与开发工具和持续集成服务器（包括 Eclipse、IntelliJ 和 Jenkins）紧密集成。
 
+* [eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x) 用于在 JVM 上构建响应式应用程序的工具包
+
+* [quarkusio/quarkus](https://github.com/quarkusio/quarkus) 云原生 （Linux） 容器优先框架，用于编写 Java 应用程序。容器优先：占用空间最小的 Java 应用程序，最适合在容器中运行。云原生：在 Kubernetes 等环境中采用 12 因素架构。统一命令式和响应式：将非阻塞式和命令式开发风格引入一个编程模型。基于标准：基于您喜欢和使用的标准和框架（RESTEasy 和 JAX-RS、Hibernate ORM 和 JPA、Netty、Eclipse Vert.x、Eclipse MicroProfile、Apache Camel......微服务优先：为 Java 应用程序带来闪电般的快速启动时间和代码周转。Developer Joy：以开发为中心的体验，毫不妥协，让您的出色应用立即栩栩如生。
+
+* [kunal-kushwaha/DSA-Bootcamp-Java](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java) 包括 WeMakeDevs 的 Java 数据结构和算法 + 面试准备训练营的代码示例、作业和注释。
+
+* [mockito/mockito](https://github.com/mockito/mockito) 最流行的模拟框架，用于用 Java 编写的单元测试
+
 ## Android 应用
 
 * [android/architecture-samples](https://github.com/android/architecture-samples) 展示了开发 Android 应用的不同体系结构方法。在它的不同分支中，你会发现相同的应用（一个 TODO 应用程序）的实现略有不同。
@@ -11094,6 +11113,10 @@
 
 * [Laverna/laverna](https://github.com/Laverna/laverna)  JavaScript 笔记应用程序，具有 Markdown 编辑器和加密支持。把它看作是Evernote的开源替代品。
 
+* [textmate/textmate](https://github.com/textmate/textmate) 适用于 macOS 10.12 或更高版本的图形文本编辑器
+
+* [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) 支持 PDF 注释的手写笔记软件。用 C++ 和 GTK3 编写，支持 Linux、macOS 和 Windows 10。支持来自 Wacom 数位板等设备的笔输入。
+
 ## 终端
 
 * [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) 精选的令人愉快的 Bash 脚本和资源列表。
@@ -11220,6 +11243,8 @@
 
 * [wtfutil/wtf](https://github.com/wtfutil/wtf) 您终端的个人信息仪表板，可让您一目了然地访问您非常重要但不经常需要的统计信息和数据。
 
+* [NixOS/nix](https://github.com/NixOS/nix) 强大的包管理器，适用于 Linux 和其他 Unix 系统，它使包管理可靠且可重现。
+
 ## 知识管理 wiki知识库
 
 * [logseq/logseq](https://github.com/logseq/logseq) 一个知识管理和协作平台。它侧重于隐私、寿命和用户控制。Logseq 提供了一系列用于知识管理、协作、PDF 注释和任务管理的强大工具，支持多种文件格式，包括 Markdown 和组织模式，以及用于组织和构建笔记的各种功能。
@@ -11330,6 +11355,8 @@
 
 * [kdn251/interviews](https://github.com/kdn251/interviews) 获得这份工作需要知道的一切，包括面试、数据结构、算法、计算机书籍等
 
+* [chefyuan/algorithm-base](https://github.com/chefyuan/algorithm-base) 一位酷爱做饭的程序员，立志用动画将算法说的通俗易懂。
+
 * [imarvinle/awesome-cs-books](https://github.com/imarvinle/awesome-cs-books) 经典编程书籍大全，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等
 
 * [xiaolincoder/CS-Base](https://github.com/xiaolincoder/CS-Base) 图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识
@@ -11423,6 +11450,10 @@
 
 * [Sairyss/domain-driven-hexagon](https://github.com/Sairyss/domain-driven-hexagon) 了解领域驱动设计、软件架构、设计模式和最佳实践。包含代码示例
 
+* [iamshuaidi/CS-Book](https://github.com/iamshuaidi/CS-Book) 计算机类常用电子书整理，并且附带下载链接，包括Java，Python，Linux，Go，C，C++，数据结构与算法，人工智能，计算机基础，面试，设计模式，数据库，前端等书籍
+
+* [Ebazhanov/linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) LinkedIn 答案 2023 技能评估的完整参考（aws-lambda、rest-api、javascript、react、git、html、jquery、mongodb、java、Go、python、机器学习、power-point） LinkedIn excel 测试 lösungen， LinkedIn 机器学习测试 LinkedIn 测试问题和答案
+
 ## 游戏
 
 * [raysan5/raylib](https://github.com/raysan5/raylib) 一个简单易用的视频游戏编程库 
@@ -11446,6 +11477,8 @@
 * [clear-code-projects/Zelda](https://github.com/clear-code-projects/Zelda) 用 Python 构建一个塞尔达风格的游戏
 
 * [pmgl/microstudio](https://github.com/pmgl/microstudio) 免费、开源的在线游戏引擎 nodejs
+
+* [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) 《过山车大亨 2 🎢》的C++开源重新实现
 
 * [flareteam/flare-game](https://github.com/flareteam/flare-game) 使用 FLARE 引擎的奇幻动作角色扮演游戏
 
@@ -11492,6 +11525,12 @@
 * [google/filament](https://github.com/google/filament) 基于物理的实时渲染引擎，适用于 Android、iOS、Windows、Linux、macOS 和 WebGL2
 
 * [HabitRPG/habitica](https://github.com/HabitRPG/habitica) 一个免费的习惯养成及生产力应用，让你“游戏人生”。游戏里的奖惩措施能激励你完成任务，还有一个强大的互动社区给你完成任务的好建议。Habitica能够帮助你达成目标，变得健康，勤奋，快乐。
+
+* [mapeditor/tiled](https://github.com/mapeditor/tiled) 通用的图块地图编辑器，适用于所有基于图块的游戏，例如 RPG、平台游戏或 Breakout 克隆游戏
+
+* [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) 在浏览器中玩液体（即使在移动设备上也有效）
+
+* [ange-yaghi/engine-sim](https://github.com/ange-yaghi/engine-sim) 内燃机模拟器，可生成逼真的音频。
 
 ## 其他
 
