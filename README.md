@@ -4568,7 +4568,13 @@
 
 * [edent/SuperTinyIcons](https://github.com/edent/SuperTinyIcons) 每个小于 1KB！Super Tiny Icons 是您最喜爱的网站和应用程序徽标的微小 SVG 版本
 
-* [GitHub - sveltejs/kit: web development, streamlined](https://github.com/sveltejs/kit) 简化Web 开发，由 Svelte 和 Vite 提供支持，速度融入每个缝隙：快速设置、快速开发、快速构建、快速页面加载、快速导航。再也不用浪费时间去弄清楚捆绑器配置、路由、SSR、CSP、TypeScript、部署设置和所有其他无聊的东西了。快乐地编码。为您提供了成功的工具，无论您正在构建什么。它可以在 JavaScript 的任何地方运行。用于使用 Svelte 快速开发健壮、高性能的 Web 应用程序。如果你来自 React，SvelteKit 类似于 Next。如果你来自 Vue，SvelteKit 类似于 Nuxt。
+* [sveltejs/kit](https://github.com/sveltejs/kit) 简化Web 开发，由 Svelte 和 Vite 提供支持，速度融入每个缝隙：快速设置、快速开发、快速构建、快速页面加载、快速导航。再也不用浪费时间去弄清楚捆绑器配置、路由、SSR、CSP、TypeScript、部署设置和所有其他无聊的东西了。快乐地编码。为您提供了成功的工具，无论您正在构建什么。它可以在 JavaScript 的任何地方运行。用于使用 Svelte 快速开发健壮、高性能的 Web 应用程序。如果你来自 React，SvelteKit 类似于 Next。如果你来自 Vue，SvelteKit 类似于 Nuxt。
+
+* [getgridea/gridea](https://github.com/getgridea/gridea) 静态的博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记和想法
+
+* [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it) Markdown 解析器，做对了。100%CommonMark支持，扩展，语法插件和高速
+
+* [socketio/socket.io-client](https://github.com/socketio/socket.io-client) 实时应用程序框架（客户端），可在客户端和服务器之间实现低延迟、双向和基于事件的通信。
 
 ## 后端开发框架及项目
 
@@ -5582,6 +5588,10 @@
 
 * [mamoe/mirai](https://github.com/mamoe/mirai) 在全平台下运行，提供 QQ Android 协议支持的高效率机器人库
 
+* [hubotio/hubot](https://github.com/hubotio/hubot) 构建聊天机器人的框架，以 GitHub 的同名 Campfire 机器人 hubot 为蓝本。他很酷。可以使用脚本进行扩展，并且可以在许多不同的聊天服务上工作。
+
+* [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) 人人影视 机器人和网站，包含人人影视全部资源以及众多网友的网盘分享
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -6130,6 +6140,7 @@
 * [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) 开源、免费的离线OCR软件。支持截屏/粘贴/批量导入图片，段落排版/排除水印，扫描/生成二维码。内置多国语言库。
 
 * [FudanVI/benchmarking-chinese-text-recognition](https://github.com/FudanVI/benchmarking-chinese-text-recognition) 该存储库包含用于对中文文本识别进行基准测试的数据集和基线。收集公开可用的场景数据集，包括**RCTW**、**ReCTS**、**LSVT**、**ArT**、**CTW** ，得到 636,455 个样本，这些样本被随机打乱，然后按 8:1:1 的比例划分，以构建训练、验证和测试数据集。六种具有代表性的方法作为基线:CRNN是典型的基于 CTC 的方法，在学术界和工业界得到广泛应用，它首先将文本图像发送到 CNN 以提取图像特征，然后采用两层 LSTM 对序列特征进行编码，最后，LSTM 的输出被馈送到 CTC解码器，以最大化所有路径通往基本事实的概率。ASTER 是典型的基于校正的方法，旨在处理不规则的文本图像，引入了空间变换器网络 (STN)，将给定的文本图像纠正为易于识别的外观，然后将校正后的文本图像发送到 CNN 和两层 LSTM 提取特征，ASTER 利用注意力机制来预测最终的文本序列。MORAN 是基于整流的方法，它首先采用多对象校正网络（MORN）以弱监督方式预测校正后的像素偏移（与利用 STN 的 ASTER 不同），输出像素偏移进一步用于生成校正后的图像，该图像进一步发送到基于注意力的解码器（ASRN）进行文本识别。SAR 利用二维特征图进行更稳健的解码，特别是，它主要是针对不规则文本提出的，一方面，SAR 在 CNN 编码器中采用更强大的残差块来学习更强的图像表示，另一方面，与 CRNN、ASTER 和 MORAN 将给定图像压缩成一维特征图不同，SAR 对特征图的空间维度采用二维注意力进行解码，从而在弯曲和斜体文字。SEED是基于语义的方法，它引入了一个语义模块来提取全局语义嵌入并利用它来初始化解码器的第一个隐藏状态，SEED的解码器在继承ASTER结构的同时，吸收语义嵌入为识别过程提供先验，从而在识别低质量文本图像方面表现出优越性。TransOCR 是基于 Transformer 的方法之一，它最初旨在为超分辨率任务提供文本先验，它使用 ResNet-34 作为编码器，使用自注意力模块作为解码器，与基于 RNN 的解码器不同，自注意力模块更有效地捕获给定文本图像的语义特征。
+
 * [adeline-cs/GTR](https://github.com/adeline-cs/GTR) 场景文字识别 现有的场景文本识别（STR）方法通常使用语言模型来优化视觉识别（VR）模型预测的一维字符序列的联合概率，忽略字符实例内部和之间的视觉语义的二维空间上下文，使它们不能很好地推广到任意形状的场景文本。为了解决这个问题，本文中首次尝试基于视觉语义进行文本推理。给定 VR 模型预测的字符分割图，为每个实例构建子图，节点表示其中的像素，根据它们的空间相似性在节点之间添加边。然后，子图通过根节点顺序连接成一个完整的图。
 
 * [lukas-blecher/LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) pix2tex：使用ViT将方程式图像转换为LaTeX代码。目标是创建一个基于学习的系统，该系统获取数学公式的图像并返回相应的LaTeX代码。
@@ -6302,6 +6313,8 @@
 
 * [junyanz/CycleGAN](https://github.com/junyanz/CycleGAN) 可以从绘画中生成照片、将马变成斑马、执行风格转换等的软件。
 
+* [NVIDIA/FastPhotoStyle](https://github.com/NVIDIA/FastPhotoStyle) 风格迁移、深度学习、特征变换
+
 ## 其他_机器视觉
 
 * [opencv/opencv](https://github.com/opencv/opencv) 开源计算机视觉库
@@ -6389,6 +6402,8 @@
 * [OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) 统一的序列到序列预训练模型（支持中英文），它统一了模态（即跨模态、视觉、语言）和任务（支持微调和提示调优）：图像字幕（MSCOCO 第一） ), VQA (链接),视觉基础，文本到图像生成，文本分类，文本生成，图像分类等。
 
 * [openai/consistency_models](https://github.com/openai/consistency_models) 一致性模型的官方存储库。Diffusion Models 在生成一张图片时需要多次进行模型推理，对于实时性较强的应用，就很难让人满意了。这篇文章所claim的一步采样即能达到较好的效果。
+
+* [CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion) 基于潜在扩散模型的高分辨率图像合成
 
 * [open-mmlab/mmagic](https://github.com/open-mmlab/mmagic) OpenMMLab 多模态高级、生成和智能创建工具箱。解锁魔法：生成AI（AIGC），易于使用的API，awsome模型库，扩散模型，用于文本到图像生成，图像/视频恢复/增强等。
 
@@ -6789,6 +6804,16 @@
 * [leandromoreira/digital_video_introduction](https://github.com/leandromoreira/digital_video_introduction) 视频技术的实践介绍：图像、视频、编解码器（av1、vp9、h265）等（ffmpeg 编码）
 
 * [ssloy/tinyrenderer](https://github.com/ssloy/tinyrenderer) 简短的计算机图形学/渲染课程，通过编写 OpenGL 的克隆（一个简化得多的克隆）来展示 OpenGL 的工作方式。令人惊讶的是，我经常遇到无法克服学习 OpenGL / DirectX 的最初障碍的人。因此，我准备了一系列简短的讲座，之后我的学生展示了相当不错的渲染器。
+
+* [phillipi/pix2pix](https://github.com/phillipi/pix2pix) 使用条件对抗网络进行图像到图像转换
+
+* [graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting) “用于实时辐射场渲染的 3D 高斯飞溅”的原始参考实现，摘要：光辉场方法最近彻底改变了用多张照片或视频拍摄的场景的新颖视图合成。然而，实现高视觉质量仍然需要神经网络，而神经网络的训练和渲染成本很高，而最近的更快方法不可避免地会以速度换取质量。对于无界和完整的场景（而不是孤立的对象）和 1080p 分辨率渲染，目前没有一种方法可以实现实时显示速率。我们介绍了三个关键要素，使我们能够在保持有竞争力的训练时间的同时实现最先进的视觉质量，重要的是，它们允许在 1080p 分辨率下进行高质量的实时（≥ 30 fps）新颖视图合成。首先，从相机校准过程中产生的稀疏点开始，我们用 3D 高斯来表示场景，它保留了连续体积辐射场的理想属性以进行场景优化，同时避免了在空白空间中不必要的计算;其次，我们对三维高斯进行交错优化/密度控制，特别是优化各向异性协方差，以实现场景的准确表示;第三，我们开发了一种快速可见性感知渲染算法，该算法支持各向异性飞溅，既能加速训练，又能实现实时渲染。我们在几个已建立的数据集上展示了最先进的视觉质量和实时渲染。
+
+* [NVlabs/stylegan2](https://github.com/NVlabs/stylegan2) 分析和改进StyleGAN的图像质量
+
+* [NVlabs/stylegan](https://github.com/NVlabs/stylegan) StyleGAN - 官方 TensorFlow 实现
+
+* [hindupuravinash/the-gan-zoo](https://github.com/hindupuravinash/the-gan-zoo) 每周都有新的GAN论文问世，很难全部跟踪，更不用说研究人员为这些GAN命名的令人难以置信的创造性方式了！所以，这里有一个列表，最初是一个有趣的活动，汇编了所有命名的 GAN！
 
 # 因果推断
 
@@ -7499,6 +7524,16 @@
 * [beetbox/beets](https://github.com/beetbox/beets) 面向痴迷音乐极客的媒体库管理系统。一劳永逸地获得正确的音乐收藏。它会对您的收藏进行编目，并自动改进其元数据。然后，它提供了一束用于操作和访问音乐的工具。
 
 * [resemble-ai/resemble-enhance](https://github.com/resemble-ai/resemble-enhance) AI 驱动的工具，旨在通过执行降噪和增强来提高语音的整体质量。它由两个模块组成：一个降噪器，用于将语音与嘈杂的音频分开，另一个增强器通过恢复音频失真和扩展音频带宽来进一步提高感知音频质量。这两个模型都使用高质量的 44.1kHz 语音数据进行训练，从而保证以高质量增强您的语音。
+
+* [kyleneideck/BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) macOS 音频实用工具“背景音乐”：自动暂停音乐、设置各个 App 的音量并录制系统音频。
+
+* [ExistentialAudio/BlackHole](https://github.com/ExistentialAudio/BlackHole) 现代 macOS 音频环回驱动程序，允许应用程序以零额外延迟将音频传递给其他应用程序。
+
+* [audacity/audacity](https://github.com/audacity/audacity) 易于使用的多轨音频编辑器和录音机。从主机系统可用的任何真实或虚拟音频设备进行录制。导出/导入多种音频格式，可通过 FFmpeg 进行扩展。使用 32 位浮点音频处理的高品质。插件 支持多种音频插件格式，包括 VST、LV2 和 AU。用于链接命令和批处理的宏。使用 Python、Perl 或任何其他支持命名管道的语言编写脚本。Nyquist，一种功能强大的内置脚本语言，也可用于创建插件。编辑具有采样精度和任意采样率的多轨编辑。VI用户的可访问性。用于分析音频或其他信号数据的分析和可视化工具。
+
+* [AudioKit/AudioKit](https://github.com/AudioKit/AudioKit) 适用于 iOS、macOS 和 tvOS 的音频合成、处理和分析平台
+
+* [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) 免费的基于代码的音乐创作和表演工具。对于专业音乐家和 DJ 来说功能强大。富有表现力的构图和表演。盲人和部分视力障碍者可以使用。简单的计算和音乐课程。通过创作或表演从古典和爵士乐到嘻哈和电子舞曲等各种风格的音乐来学习创造性地编码。每个人都免费提供友好的教程。
 
 # 生物医药
 
@@ -10515,6 +10550,12 @@
 
 * [upx/upx](https://github.com/upx/upx) eXecutables 的终极打包器c++
 
+* [jart/cosmopolitan](https://github.com/jart/cosmopolitan) Cosmopolitan Libc 使 C 语言成为一种随处运行一次的语言，就像 Java 一样，但它不需要解释器或虚拟机。取而代之的是，它重新配置了库存 GCC 和 Clang，以输出 POSIX 批准的多语言格式，该格式在 Linux + Mac + Windows + FreeBSD + OpenBSD + NetBSD + BIOS 上本地运行，具有最佳性能和可以想象到的最小的占用空间。
+
+* [bkaradzic/bgfx](https://github.com/bkaradzic/bgfx) 跨平台、与图形 API 无关的“自带引擎/框架”风格的渲染库。
+
+* [TheCherno/Hazel](https://github.com/TheCherno/Hazel) Windows 的早期交互式应用程序和渲染引擎。
+
 ## Rust 程序设计
 
 * [rust-lang/rust](https://github.com/rust-lang/rust) rust使每个人都能构建可靠、高效的软件。Rust 的主要源代码存储库。它包含编译器、标准库和文档。
@@ -11454,6 +11495,8 @@
 
 * [Ebazhanov/linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) LinkedIn 答案 2023 技能评估的完整参考（aws-lambda、rest-api、javascript、react、git、html、jquery、mongodb、java、Go、python、机器学习、power-point） LinkedIn excel 测试 lösungen， LinkedIn 机器学习测试 LinkedIn 测试问题和答案
 
+* [hackjutsu/Lepton](https://github.com/hackjutsu/Lepton) 由 GitHub Gist 提供支持的精益代码片段管理器
+
 ## 游戏
 
 * [raysan5/raylib](https://github.com/raysan5/raylib) 一个简单易用的视频游戏编程库 
@@ -12079,5 +12122,7 @@
 * [libgit2/libgit2](https://github.com/libgit2/libgit2) 可在应用程序中使用的 Git 的跨平台、可链接库实现。Git 核心方法的可移植、纯 C 实现，作为具有可靠 API 的可链接库提供，允许将 Git 功能构建到您的应用程序中。Rugged （Ruby）、LibGit2Sharp （.NET）、pygit2 （Python） 和 NodeGit （Node） 等语言绑定允许您使用自己喜欢的语言构建 Git 工具。
 
 * [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys) 开发人员的瑞士军刀。DevToys 帮助完成日常开发任务，例如格式化 JSON、比较文本和测试正则表达式。
+
+* [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) 用于可视化 GitHub 状态的工具。
 
 # end
