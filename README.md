@@ -144,6 +144,8 @@
 
 * [mml-book/mml-book.github.io](https://github.com/mml-book/mml-book.github.io) 《机器学习数学》一书的配套网页
 
+* [afshinea/stanford-cs-229-machine-learning](https://github.com/afshinea/stanford-cs-229-machine-learning) 斯坦福大学 CS 229 机器学习的 VIP 备忘单
+
 * [abmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) 神经网络和相关算法的简单 PyTorch 实现的集合。将这些呈现为并排格式化的笔记。我们相信这些将帮助您更好地理解这些算法。
 
 * [yunjey/pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial) 深度学习研究人员的 PyTorch 教程
@@ -436,6 +438,8 @@
 * [ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide](https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide) 为本科生或任何想在扎实基础上深入研究人工智能领域的任何人提供详细和量身定制的指南。本指南适用于任何具有基本编程知识或计算机科学背景的人，有兴趣成为深度学习和 NLP 研究科学家。
 
 * [doccano/doccano](https://github.com/doccano/doccano) 面向机器学习从业者的开源注释工具。
+
+* [janishar/mit-deep-learning-book-pdf](https://github.com/janishar/mit-deep-learning-book-pdf) 麻省理工学院深度学习书 PDF 格式（完整和部分），作者：Ian Goodfellow、Yoshua Bengio 和 Aaron Courville
 
 ## 特征工程
 
@@ -1449,6 +1453,8 @@
 
 * [memochou1993/gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) 使用 OpenAI API 和 LINE 消息传递 API 实现的应用程序。通过安装过程，您可以使用LINE移动应用程序开始与自己的AI助手聊天。
 
+* [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) 来自 GPT 商店中最受好评的 GPT 的精选 chatgpt 提示列表。提示工程，提示攻击和提示保护。高级提示工程论文。
+
 * [yanqiangmiffy/Chinese-LangChain](https://github.com/yanqiangmiffy/Chinese-LangChain) 小必应，Q.Talk，强聊，QiangTalk，基于ChatGLM-6b+langchain实现本地化知识库检索与智能答案生成
 
 * [cesarhuret/docGPT](https://github.com/cesarhuret/docGPT) ChatGPT 直接在 Google Docs 中作为编辑器的插件
@@ -2048,6 +2054,32 @@
 
 * [open-webui/open-webui](https://github.com/open-webui/open-webui) 用户友好的 WebUILLMs，支持的LLM运行器包括 Ollama 和 OpenAI 兼容的 API。直观的界面。响应式设计：在桌面和移动设备上享受无缝体验。快速响应。轻松设置：使用 Docker 或 Kubernetes（kubectl、kustomize 或 helm）无缝安装。代码语法高亮显示。完整的 Markdown 和 LaTeX 支持。本地 RAG 集成：通过开创性的检索增强生成 （RAG） 支持深入了解聊天交互的未来。此功能将文档交互无缝集成到您的聊天体验中。您可以将文档直接加载到聊天中或将文件添加到文档库中，使用 `#` 提示符中的命令轻松访问它们。网页浏览功能：使用 `#` 命令后跟 URL 将网站无缝集成到您的聊天体验中。提示预设支持：使用聊天输入中 `/` 的命令立即访问预设提示。毫不费力地加载预定义的对话启动器并加快您的交互速度。通过Open WebUI社区集成轻松导入提示。RLHF 注释：通过竖起大拇指和竖起大拇指对消息进行评分来增强您的消息，从而促进创建用于人类反馈强化学习 （RLHF） 的数据集。利用您的消息来训练或微调模型，同时确保本地保存数据的机密性。对话标记：轻松分类和定位特定聊天，以便快速参考和简化数据收集。下载/删除模型。GGUF 文件模型创建。多种模式支持：在不同的聊天模式之间无缝切换，实现多样化的互动。多模态支持：与支持多模态交互的模型无缝交互，包括图像（例如 LLava）。模型文件生成器。多种模型对话：毫不费力地同时与各种模型互动，利用它们的独特优势来获得最佳响应。通过并行利用一组不同的模型来增强您的体验。协作聊天：通过无缝编排群组对话，利用多个模型的集体智慧。使用该 `@` 命令指定模型，从而在聊天界面中启用动态和多样化的对话。让自己沉浸在编织在聊天环境中的集体智慧中。OpenAI API 集成。历史访问。聊天记录。导入/导出聊天记录。语音输入支持：通过语音交互与模型互动;享受直接与模特交谈的便利。此外，探索在静音 3 秒后自动发送语音输入的选项，以获得简化的体验。使用高级参数进行微调控制：通过调整温度等参数和定义系统提示来根据您的特定偏好和需求定制对话，从而获得更深层次的控制。外部 Ollama 服务器连接。基于角色的访问控制 （RBAC）：使用受限权限确保安全访问;只有经过授权的个人才能访问您的 Ollama，并且为管理员保留独家模型创建/提取权限。后端反向代理支持：通过Open WebUI后端和Ollama之间的直接通信来增强安全性。持续更新。
 
+* [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) 构建、部署和操作完全自定义的 AI Copilot。应用内 AI 聊天机器人、应用内 AI 代理和 AI 驱动的文本区域的框架。
+
+* [n4ze3m/dialoqbase](https://github.com/n4ze3m/dialoqbase) 使用个性化知识库创建自定义聊天机器人。该应用程序利用高级语言模型来生成准确且上下文感知的响应。此外，它还利用 PostgreSQL（一种强大的关系数据库管理系统）进行高效的向量搜索操作和存储知识库。
+
+* [yangjian102621/chatgpt-plus](https://github.com/yangjian102621/chatgpt-plus) AI 助手全套开源解决方案，自带运营管理后台，开箱即用。集成了 ChatGPT, Azure, ChatGLM,讯飞星火，文心一言等多个平台的大语言模型。支持 MJ AI 绘画，Stable Diffusion AI 绘画，微博热搜等插件工具。采用 Go + Vue3 + element-plus 实现。
+
+* [paulpierre/RasaGPT](https://github.com/paulpierre/RasaGPT) 第一个建立在 Rasa 和 Langchain 之上的无LLM头聊天机器人平台。使用 Rasa、FastAPI、Langchain、LlamaIndex、SQLModel、pgvector、ngrok、telegram 构建
+
+* [xusenlinzy/api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm) LLaMA, LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, Xverse, SqlCoder, CodeLLaMA, ChatGLM, ChatGLM2, ChatGLM3 etc. 开源大模型的统一后端接口
+
+* [refuel-ai/autolabel](https://github.com/refuel-ai/autolabel)  Python 库，用于使用您选择的任何大型语言模型 （LLM） 标记、清理和丰富文本数据集。访问大型、干净和多样化的标记数据集是任何机器学习工作成功的关键组成部分。LLMs像 GPT-4 这样的先进技术能够以高精度自动标记数据，而且与手动标记相比，成本和时间只是其中的一小部分。
+
+* [mckaywrigley/chatbot-ui-lite](https://github.com/mckaywrigley/chatbot-ui-lite) 一个简单的聊天机器人入门工具包，用于使用 Next.js、TypeScript 和 Tailwind CSS 的 OpenAI 聊天模型。
+
+* [jxnl/instructor](https://github.com/jxnl/instructor) 处理大型语言模型的结构化输出变得轻而易举 （LLMs）。它建立在 Pydantic 之上，提供了一个简单、透明且用户友好的 API 来管理验证、重试和流式响应。准备好为您的LLM工作流程增添动力
+
+* [lmstudio-ai/model-catalog](https://github.com/lmstudio-ai/model-catalog) 大型语言模型文件的标准化 JSON 描述符集合。
+
+* [adamcohenhillel/ADeus](https://github.com/adamcohenhillel/ADeus) 一种开源 AI 可穿戴设备，可捕获您在现实世界中所说和听到的内容，然后将其转录并存储在您自己的服务器上。然后，您可以使用该应用程序与 Adeus 聊天，它将包含有关您想要谈论的内容的所有正确上下文 - 一个真正个性化的个人 AI。
+
+* [FasterDecoding/Medusa](https://github.com/FasterDecoding/Medusa) 简单的框架，它使具有多个解码头LLM的生成加速技术民主化。美杜莎添加了额外的“头”来LLMs同时预测多个未来的代币。当使用美杜莎增强模型时，原始模型保持不变，并且在训练过程中只会对新头部进行微调。在生成过程中，这些头每个头都会为相应的位置产生多个可能的单词。然后使用基于树的注意力机制对这些选项进行组合和处理。最后，采用典型的验收方案从候选者中选择最长的合理前缀进行进一步解码。
+
+* [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) 用于测试和评估LLM输出质量的工具。测试您的提示、模型、RAG。评估和比较LLM输出，捕获回归，并提高提示质量。LLM适用于 OpenAI/Azure GPT、Anthropic Claude、VertexAI Gemini、Ollama、本地和专用模型（如 Mistral/Mixtral/Llama with CI/CD）的评估
+
+* [GitHub - tmc/langchaingo: LangChain for Go, the easiest way to write LLM-based programs in Go](https://github.com/tmc/langchaingo) LangChain for Go，在 Go 中编写LLM基于 -based 的程序的最简单方法
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2137,6 +2169,10 @@
 * [huybery/Awesome-Code-LLM](https://github.com/huybery/Awesome-Code-LLM) 精心策划的最佳代码列表 -LLM 用于研究。
 
 * [unit-mesh/build-your-ai-coding-assistant](https://github.com/unit-mesh/build-your-ai-coding-assistant) 《构建你自己的 AI 辅助编码助手》 —— 介绍如何 DIY 一个端到端（从 IDE 插件、模型选型、数据集构建到模型微调）的 AI 辅助编程工具，类似于 GitHub Copilot、JetBrains AI Assistant、AutoDev 等。
+
+* [codefuse-ai/Awesome-Code-LLM](https://github.com/codefuse-ai/Awesome-Code-LLM) 针对代码和相关数据集的语言建模研究的精选列表。
+
+* [OpenCodeInterpreter/OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) 开源代码生成系统，旨在弥合大型语言模型和 GPT-4 Code Interpreter 等复杂专有系统之间的差距。它通过集成执行和迭代优化功能，显著增强了代码生成功能。
 
 #### 健康医学大模型及语料库
 
@@ -2666,6 +2702,14 @@
 * [LLaVA-VL/LLaVA-Plus-Codebase](https://github.com/LLaVA-VL/LLaVA-Plus-Codebase) 即插即用的大型语言和视觉助手
 
 * [unum-cloud/uform](https://github.com/unum-cloud/uform) 袖珍型多模态 AI，用于跨多语言文本、图像和视频的内容理解和生成，比 OpenAI CLIP 和 LLaVA  快 5 倍
+
+* [OrionStarAI/OrionStar-Yi-34B-Chat](https://github.com/OrionStarAI/OrionStar-Yi-34B-Chat) 开源中英文Chat模型，由猎户星空基于Yi-34B开源模型、使用15W+高质量语料微调而成。
+
+* [lightyear-turing/TuringMM-34B-Chat](https://github.com/lightyear-turing/TuringMM-34B-Chat) 开源的中英文Chat模型，由北京光年无限科技有限公司基于Yi-34B开源模型、基于14w的精标教育数据进行sft微调以及15W对齐数据进行DPO偏好学习得到的一个微调模型。
+
+* [Tele-AI/Telechat](https://github.com/Tele-AI/Telechat) 中电信人工智能科技研发训练的大语言模型，其中7B模型基座采用1.5万亿 Tokens中英文高质量语料进行训练，12B模型基座采用3万亿 Tokens中英文高质量语料进行训练。开源了对话模型TeleChat-7B与TeleChat-12B。TeleChat-PTD 是由电信星辰大模型TeleChat预训练语料中抽取出的的综合性大规模中文数据集。数据主要来源于网页、书籍、官方媒体等。 我们使用规则+模型的方式进行了相关的过滤，并对数据进行了相似性去重，尽可能地提取出高质量地数据。TeleChat-PTD 数据集大约公开了2.7亿条数据，数据由纯中文文本构成，原始大小约1TB,压缩后480G，共189个文件。数据集中已经去除了其它冗余信息。[数据下载](https://huggingface.co/datasets/Tele-AI/TeleChat-PTD) 
+
+* [Clouditera/SecGPT](https://github.com/Clouditera/secgpt) 将人工智能技术引入网络安全领域，以提高网络防御的效率和效果。其使命是推动网络安全智能化，为社会提供更安全的数字生活环境。SecGPT可以作为基座安全模型，用于探索各种网络安全任务。
 
 ### 其他_文本生成、文本对话
 
@@ -3423,6 +3467,8 @@
 
 * [JohnSnowLabs/spark-nlp](https://github.com/JohnSnowLabs/spark-nlp) 建立在 Apache Spark 之上的最先进的自然语言处理库。它为机器学习管道提供了简单、高性能和准确的 NLP 注释，这些管道可在分布式环境中轻松扩展。Spark NLP 自带 36000+ 种预训练流水线和模型，支持 200+ 多种语言。它还提供诸如标记化、分词、词性标记、单词和句子嵌入、命名实体识别、依赖项解析、拼写检查、文本分类、情感分析、标记分类、机器翻译（+180 种语言）、摘要、问答、表格问答、文本生成、图像分类、图像到文本（字幕）、自动语音识别、零样本学习等任务，以及更多 NLP 任务。
 
+* [tisfeng/Easydict](https://github.com/tisfeng/Easydict) 简洁优雅的词典翻译 macOS App。开箱即用，支持离线 OCR 识别，支持有道词典，苹果系统词典翻译，ChatGPT，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。
+
 # 网络与前后端开发
 
 ## JavaScript框架
@@ -4154,7 +4200,7 @@
 
 * [realm/SwiftLint](https://github.com/realm/SwiftLint) 强制执行 Swift 样式和约定的工具。
 
-* [aframevr/aframe](https://github.com/aframevr/aframe) 用于构建虚拟现实体验的 Web 框架。`虚拟现实变得简单`：A-Frame 只需插入 a-scene 即可处理跨平台运行所需的 3D 和 WebXR 样板，包括移动设备、桌面和所有耳机（与支持 WebXR 的浏览器兼容）。`声明式 HTML`：HTML 易于阅读和复制粘贴。由于 A-Frame 可以在 HTML 中使用，因此每个人都可以访问。`实体组件架构`：three.js 之上的强大框架，为 three.js 提供了一个声明性的、可组合的、可重用的实体组件结构。可以无限制地访问 JavaScript、DOM API、three.js、WebXR 和 WebGL。`性能`：是 three.js 之上的精简框架。性能是重中之重，在高度交互的 WebXR 体验上经过了实战考验。`跨平台`：为任何与支持 WebXR 的浏览器兼容的头戴式设备构建 VR 和 AR 应用程序。仍然可以在标准台式机和智能手机上运行。`可视化检查器`：内置可视化 3D 检查器，其工作流程类似于浏览器的开发人员工具，界面类似于 Unity。打开任何 A-Frame 场景并点击 ctrl+alt+i . `功能`：内置组件（如几何体、材质、灯光、动画、模型、光线投射器、阴影、位置音频、跟踪控制器）立即开始运行。使用粒子系统、物理、多用户、海洋、山脉、语音识别或传送等社区组件
+* [aframevr/aframe](https://github.com/aframevr/aframe) 用于构建虚拟现实体验的 Web 框架。`虚拟现实变得简单`：A-Frame 只需插入 a-scene 即可处理跨平台运行所需的 3D 和 WebXR 样板，包括移动设备、桌面和所有耳机（与支持 WebXR 的浏览器兼容）。`声明式 HTML`：HTML 易于阅读和复制粘贴。可以在 HTML 中使用，因此每个人都可以访问。`实体组件架构`：three.js 之上的强大框架，为 three.js 提供了一个声明性的、可组合的、可重用的实体组件结构。可以无限制地访问 JavaScript、DOM API、three.js、WebXR 和 WebGL。`性能`：是 three.js 之上的精简框架。性能是重中之重，在高度交互的 WebXR 体验上经过了实战考验。`跨平台`：为任何与支持 WebXR 的浏览器兼容的头戴式设备构建 VR 和 AR 应用程序。仍然可以在标准台式机和智能手机上运行。`可视化检查器`：内置可视化 3D 检查器，其工作流程类似于浏览器的开发人员工具，界面类似于 Unity。打开任何 A-Frame 场景并点击 ctrl+alt+i . `功能`：内置组件（如几何体、材质、灯光、动画、模型、光线投射器、阴影、位置音频、跟踪控制器）立即开始运行。使用粒子系统、物理、多用户、海洋、山脉、语音识别或传送等社区组件
 
 * [liriliri/eruda](https://github.com/liriliri/eruda) 适用于移动浏览器的控制台
 
@@ -4576,6 +4622,10 @@
 
 * [socketio/socket.io-client](https://github.com/socketio/socket.io-client) 实时应用程序框架（客户端），可在客户端和服务器之间实现低延迟、双向和基于事件的通信。
 
+* [chromium/chromium](https://github.com/chromium/chromium) 开源浏览器项目，旨在为所有用户构建一种更安全、更快速、更稳定的网络体验方式。
+
+* [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium?tab=readme-ov-file#downloads) Google Chromium，没有与 Google 集成。尽可能保留默认的 Chromium 体验。Chromium 的直接替代品。Ungoogled-Chromium 功能进行了调整，以增强隐私、控制和透明度。但是，几乎所有这些功能都必须手动激活或启用。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4693,6 +4743,8 @@
 * [filp/whoops](https://github.com/filp/whoops) HP 的错误处理程序框架。开箱即用，它提供了一个漂亮的错误界面，可以帮助您调试Web项目，但本质上它是一个简单而强大的堆叠错误处理系统。
 
 * [symfony/symfony](https://github.com/symfony/symfony) 用于Web和控制台应用程序的PHP框架以及一组可重用的PHP组件。Symfony被成千上万的Web应用程序和大多数流行的PHP项目使用。
+
+* [spatie/laravel-permission](https://github.com/spatie/laravel-permission) PHP将用户与角色和权限关联
 
 * [composer/composer](https://github.com/composer/composer) PHP 依赖管理器。Composer 帮助您声明、管理和安装 PHP 项目的依赖项。
 
@@ -4923,6 +4975,10 @@
 * [LMAX-Exchange/disruptor](https://github.com/LMAX-Exchange/disruptor) 高性能线程间消息传递库
 
 * [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) 该存储库包含系统设计资源，这些资源在准备面试和学习分布式系统时非常有用
+
+* [saltstack/salt](https://github.com/saltstack/salt) 大规模自动管理和配置任何基础架构或应用程序的软件。基于 Python 构建，是一种事件驱动的自动化工具和框架，用于部署、配置和管理复杂的 IT 系统。使用 Salt 自动执行常见的基础架构管理任务，并确保基础架构的所有组件都以一致的所需状态运行。
+
+* [apache/apisix](https://github.com/apache/apisix) 一个动态、实时、高性能的 API 网关。APISIX API Gateway 提供了丰富的流量管理功能，如负载均衡、动态上游、灰度释放、熔断、认证、可观测性等。你可以使用 APISIX API Gateway 来处理传统的南北向流量，以及服务之间的东西向流量。它也可以用作 k8s 入口控制器。
 
 ## 网络与前后端开发_其他
 
@@ -6315,6 +6371,8 @@
 
 * [NVIDIA/FastPhotoStyle](https://github.com/NVIDIA/FastPhotoStyle) 风格迁移、深度学习、特征变换
 
+* [lengstrom/fast-style-transfer](https://github.com/lengstrom/fast-style-transfer) TensorFlow CNN 用于快速样式变换，在几分之一秒内将名画的风格添加到任何照片中！您甚至可以设置视频样式！
+
 ## 其他_机器视觉
 
 * [opencv/opencv](https://github.com/opencv/opencv) 开源计算机视觉库
@@ -6815,6 +6873,8 @@
 
 * [hindupuravinash/the-gan-zoo](https://github.com/hindupuravinash/the-gan-zoo) 每周都有新的GAN论文问世，很难全部跟踪，更不用说研究人员为这些GAN命名的令人难以置信的创造性方式了！所以，这里有一个列表，最初是一个有趣的活动，汇编了所有命名的 GAN！
 
+* [tonybeltramelli/pix2code](https://github.com/tonybeltramelli/pix2code) 从图形用户界面屏幕截图生成代码
+
 # 因果推断
 
 * [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -6938,6 +6998,8 @@
 * [cantaro86/Financial-Models-Numerical-Methods](https://github.com/cantaro86/Financial-Models-Numerical-Methods) 量化金融的笔记本集合，带有交互式py代码。偏微分方程方法、Lévy 过程、傅里叶方法或卡尔曼滤波等主题。内容：1.1） Black-Scholes 布莱克-斯科尔斯数值方法（对数正态分布、测度变化、蒙特卡罗、二项式方法）。1.2） SDE仿真与统计（路径生成、置信区间、假设检验、几何布朗运动、Cox-Ingersoll-Ross过程、Euler Maruyama法、参数估计）1.3） 傅里叶反演方法（反演公式、数值反演、期权定价、FFT、刘易斯公式）1.4） SDE、Heston 模型（相关布朗运动、Heston 路径、Heston 分布、特征函数、期权定价）1.5） SDE，莱维过程（默顿，方差伽玛，NIG，路径生成，参数估计）2.1）布莱克-斯科尔斯偏微分方程（偏微分方程离散化，隐式方法，稀疏矩阵教程）2.2） 奇异期权（二元期权、障碍期权、亚洲期权）2.3） 美式期权（偏微分方程、早期行权、二项式法、Longstaff-Schwartz、永续看跌期权）3.1） Merton Jump-Diffusion PIDE（隐式-显式离散化、离散卷积、模型限制、蒙特卡罗、傅里叶反演、半闭式）3.2） Gamma Variance PIDE（近似跳跃扩散PIDE、蒙特卡洛、傅里叶反演、与Black-Scholes的比较）3.3） 正态逆高斯PIDE（近似跳跃扩散PIDE、蒙特卡罗、傅里叶反演、Lévy测度的性质）4.1） 交易成本定价（Davis-Panas-Zariphopoulou 模型、奇异控制问题、HJB 变分不等式、无差异定价、二项式树、性能）4.2） 波动率微笑和模型校准（波动率微笑、寻根方法、校准方法）5.1） 线性回归和卡尔曼滤波（市场数据清洗、线性回归方法、卡尔曼滤波设计、参数选择）5.2） 卡尔曼自相关跟踪 - AR（1） 过程（自回归过程、估计方法、卡尔曼滤波、卡尔曼平滑、变量自相关跟踪）5.3） 波动率跟踪（赫斯顿模拟、假设检验、分布拟合、估计方法、GARCH（1,1）、卡尔曼滤波、卡尔曼平滑）6.1） Ornstein-Uhlenbeck过程及应用（参数估计、命中时间、Vasicek PDE、卡尔曼滤波、交易策略）7.1） 经典 MVO（均值方差优化、二次规划、仅多头和长空、闭合公式）
 
 * [ranaroussi/yfinance](https://github.com/ranaroussi/yfinance) 从雅虎财经的 API 下载市场数据
+
+* [firefly-iii/firefly-iii](https://github.com/firefly-iii/firefly-iii) 免费开源的个人理财经理，可以帮助您跟踪您的支出和收入，因此您可以花更少的钱并节省更多的钱。Firefly III 支持使用预算、类别和标签。使用一堆外部工具，您可以导入数据。它还有许多简洁的财务报告。
 
 ## 时间序列
 
@@ -8775,7 +8837,7 @@
 
 * [dtm-labs/dtm](https://github.com/dtm-labs/dtm) 分布式事务框架，支持工作流、saga、tcc、xa、两阶段消息、发件箱模式，支持多种语言。
 
-* 
+* [k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) 用于扫描 Kubernetes 集群、诊断和分类问题的工具，用简单的英语。它将 SRE 经验编入其分析器中，并帮助提取最相关的信息以使用 AI 来丰富它。与 OpenAI、Azure、Bedrock、Google Gemini 和本地模型的开箱即用集成。
 
 # 云&虚拟化
 
@@ -9831,6 +9893,8 @@
 
 * [2dust/v2rayN](https://github.com/2dust/v2rayN) 适用于Windows的GUI客户端，支持Xray核心和v2fly核心等
 
+* [233boy/v2ray](https://github.com/233boy/v2ray) 最好用的 V2Ray 一键安装脚本 & 管理脚本
+
 * [FelisCatus/SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) 快速轻松地在多个代理之间管理和切换。该项目可作为Chromium扩展。
 
 * [xtaci/kcptun](https://github.com/xtaci/kcptun) 基于 KCP 的可靠、安全的隧道，使用 N：M 多路复用和 FEC。
@@ -10556,6 +10620,8 @@
 
 * [TheCherno/Hazel](https://github.com/TheCherno/Hazel) Windows 的早期交互式应用程序和渲染引擎。
 
+* [zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) 用于Windows平台的网速监控悬浮窗软件，可以显示当前网速、CPU及内存利用率，支持嵌入到任务栏显示，支持更换皮肤、历史流量统计等功能。
+
 ## Rust 程序设计
 
 * [rust-lang/rust](https://github.com/rust-lang/rust) rust使每个人都能构建可靠、高效的软件。Rust 的主要源代码存储库。它包含编译器、标准库和文档。
@@ -11068,6 +11134,8 @@
 
 * [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) 让您的 Vim/Neovim 像 VS Code 一样智能
 
+* [amix/vimrc](https://github.com/amix/vimrc) 在过去的 10 年里，我一直在使用和调整 Vim。这个配置是最终的 vimrc（或者至少是我的版本）。有两个版本：基本：如果你想要一些小的东西，只需将 basic.vim 复制到你的 ~/.vimrc 中，你就会有一个很好的基本设置。The Awesome：包括大量有用的插件、配色方案和配置
+
 * [ajaxorg/ace](https://github.com/ajaxorg/ace) 用JS编写的独立代码编辑器。我们的目标是创建一个基于浏览器的编辑器，以匹配和扩展现有本机编辑器（如TextMate，Vim或Eclipse）的功能，可用性和性能。它可以很容易地嵌入到任何网页或JavaScript应用程序中。Ace是作为Cloud9 IDE的主要编辑器和Mozilla Skywriter（Bespin）项目的继任者开发的。
 
 * [VSCodium/vscodium](https://github.com/VSCodium/vscodium) 没有微软品牌/遥测/许可的vscode代码二进制版本
@@ -11497,9 +11565,17 @@
 
 * [hackjutsu/Lepton](https://github.com/hackjutsu/Lepton) 由 GitHub Gist 提供支持的精益代码片段管理器
 
+* [gyoogle/tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer) 新开发者专业知识与技术访谈百科全书
+
+* [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop) 汇总各大互联网公司容易考察的高频leetcode题
+
+* [haoel/leetcode](https://github.com/haoel/leetcode) LeetCode 问题的解决方案
+
 ## 游戏
 
 * [raysan5/raylib](https://github.com/raysan5/raylib) 一个简单易用的视频游戏编程库 
+
+* [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) 用于 Steam 客户端的工具，它允许 Windows 独有的游戏在 Linux 操作系统上运行。它使用 Wine 来促进这一点。
 
 * [rwv/chinese-dos-games](https://github.com/rwv/chinese-dos-games) 中文 DOS 游戏
 
@@ -11574,6 +11650,8 @@
 * [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) 在浏览器中玩液体（即使在移动设备上也有效）
 
 * [ange-yaghi/engine-sim](https://github.com/ange-yaghi/engine-sim) 内燃机模拟器，可生成逼真的音频。
+
+* [lucoiso/UEHttpGPT](https://github.com/lucoiso/UEHttpGPT) 虚幻引擎插件，通过异步 REST 请求促进与 OpenAI 基于 GPT 的服务（ChatGPT 和 DALL-E），使开发人员可以轻松地与这些服务进行通信。
 
 ## 其他
 
