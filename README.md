@@ -873,6 +873,10 @@
 
 * [guipsamora/pandas_exercises](https://github.com/guipsamora/pandas_exercises) 练习python Pandas库， 名字衍生自术语 "panel data"（面板数据）和 "Python data analysis"（Python 数据分析），提供高性能、易于使用的数据结构和数据分析工具。
 
+* [kedro-org/kedro](https://github.com/kedro-org/kedro) 用于生产就绪型数据科学的工具箱。它使用软件工程最佳实践来帮助你创建可重现、可维护和模块化的数据工程和数据科学管道。基于Cookiecutter数据科学的标准、可修改且易于使用的项目模板。一系列轻量级数据连接器，用于跨多种不同的文件格式和文件系统（包括本地和网络文件系统、云对象存储和 HDFS）保存和加载数据。数据目录还包括基于文件的系统的数据和模型版本控制。使用 Kedro-Viz 自动解析纯 Python 函数和数据管道可视化之间的依赖关系。部署策略，包括单机或分布式计算机部署，以及对在 Argo、Prefect、Kubeflow、AWS Batch 和 Databricks 上部署的额外支持。
+
+* [great-expectations/great_expectations](https://github.com/great-expectations/great_expectations) 由数据工程师设计并为数据工程师设计的数据质量平台。它可以帮助您快速、清晰地发现问题，同时还可以更轻松地与非技术利益相关者协作。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -2078,7 +2082,23 @@
 
 * [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) 用于测试和评估LLM输出质量的工具。测试您的提示、模型、RAG。评估和比较LLM输出，捕获回归，并提高提示质量。LLM适用于 OpenAI/Azure GPT、Anthropic Claude、VertexAI Gemini、Ollama、本地和专用模型（如 Mistral/Mixtral/Llama with CI/CD）的评估
 
-* [GitHub - tmc/langchaingo: LangChain for Go, the easiest way to write LLM-based programs in Go](https://github.com/tmc/langchaingo) LangChain for Go，在 Go 中编写LLM基于 -based 的程序的最简单方法
+* [tmc/langchaingo](https://github.com/tmc/langchaingo) LangChain for Go，Go 编写基于LLM程序的最简单方法
+
+* [AnswerDotAI/fsdp_qlora](https://github.com/AnswerDotAI/fsdp_qlora) 使用量化 LoRA + FSDP 进行LLMs训练。
+
+* [getzep/zep](https://github.com/getzep/zep) 人工智能助手的长期记忆。从聊天记录中回忆、理解和提取数据。为个性化 AI 体验提供支持。
+
+* [XueFuzhao/OpenMoE](https://github.com/XueFuzhao/OpenMoE) 一系列开源专家混合 （MoE） 大型语言模型
+
+* [tensorchord/Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps) 为开发人员提供的最佳 LLMOps 工具列表，包括各种大型语言模型、大型模型服务、LLMOps 平台、向量检索、训练微调、ML 平台、工作流、管理分析等。
+
+* [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) 以闪电般的速度提供 MLOps 和 LLMOps 见解，具有零配置可观测性。Phoenix 通过提供以下功能，为监视模型和LLM应用程序提供笔记本优先体验：LLM跟踪。LLM Evals。嵌入分析。RAG 分析。结构化数据分析 。
+
+* [Giskard-AI/giskard](https://github.com/Giskard-AI/giskard) 自动检测 AI 模型中的漏洞，从表格模型到 LLM，包括性能偏差、数据泄露、虚假相关性、幻觉、毒性、安全问题等等。
+
+* [huggingface/trl](https://github.com/huggingface/trl) 全栈工具，使用监督微调步骤 （SFT）、奖励建模 （RM） 和近端策略优化 （PPO） 以及直接偏好优化 （DPO） 等方法微调和调整转换器语言和扩散模型。该库建立在 transformers库之上，因此允许使用那里可用的任何模型架构。accelerate 是 trl 其骨干，允许使用 DDP 和 DeepSpeed 等方法将模型训练从单个 GPU 扩展到大规模多节点集群。PEFT 完全集成，允许在适度的硬件上使用量化和 LoRA 或 QLoRA 等方法训练最大的模型。unsloth 还集成了专用内核，可以显着加快训练速度。
+
+* [unslothai/unsloth](https://github.com/unslothai/unsloth) 速度提高 2-5 倍，内存减少 70%，QLoRA 和 LoRA 微调。所有内核均用 OpenAI 的 Triton 语言编写。精度损失为 0% - 无近似方法 - 全部准确无误。无需更换硬件。自 2018+ 起支持 NVIDIA GPU。最低 CUDA 功能 7.0。支持 4 位和 16 位 QLoRA / LoRA 通过bitsandbytes进行微调。开源训练速度提高 5 倍。
 
 #### 编程语言大模型及相关项目
 
@@ -2097,6 +2117,8 @@
 * [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder) 一种在源代码和自然语言文本上训练的语言模型 （LM）。它的训练数据包含了 80 多种不同的编程语言，以及从 GitHub 问题和提交以及笔记本中提取的文本。
 
 * [microsoft/TypeChat](https://github.com/microsoft/TypeChat) 一个库，可以轻松使用类型构建自然语言界面。传统上，构建自然语言界面是很困难的。这些应用通常依靠复杂的决策树来确定意图并收集采取行动所需的输入。LLM使我们能够从用户那里获取自然语言输入并与意图匹配，从而使这变得更容易。这带来了新的挑战，包括需要约束模型的响应以确保安全性，构建模型的响应以进行进一步处理，以及确保模型的响应有效。提示工程旨在解决这些问题，但随着提示大小的增加，学习曲线陡峭，脆弱性增加。TypeChat 用模式工程取代了提示工程。只需定义NLP程序中支持的意向的类型即可。这可以像用于对情绪进行分类的界面一样简单，也可以像购物车或音乐应用程序的类型一样简单。例如，若要向架构添加其他意向，开发人员可以将其他类型添加到可区分的联合中。要使架构分层，开发人员可以使用“元架构”根据用户输入选择一个或多个子架构。定义类型后，TypeChat 会通过以下方式处理其余工作：1.使用类型构造 LLM 的提示。2.验证 LLM 响应是否符合架构。如果验证失败，则通过进一步的语言模型交互来修复不符合项的输出。3.简明扼要地总结（不使用 LLM）实例，并确认它与用户意图一致。
+
+* [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin) 自主的 AI 软件工程师，能够执行复杂的工程任务并与用户在软件开发项目上积极协作。希望通过开源社区的力量复制、增强和创新 Devin。利用了 shell、代码编辑器和 Web 浏览器等工具的组合，展示了软件开发LLMs中未开发的潜力。目标是探索和扩展 Devin 能力，确定其优势和需要改进的领域，以指导开放代码模型的进展。
 
 * [salesforce/CodeGen](https://github.com/salesforce/CodeGen) 一系列用于程序合成的开源模型。接受过 TPU-v4 训练。与 OpenAI Codex 竞争。
 
@@ -2710,6 +2732,8 @@
 * [Tele-AI/Telechat](https://github.com/Tele-AI/Telechat) 中电信人工智能科技研发训练的大语言模型，其中7B模型基座采用1.5万亿 Tokens中英文高质量语料进行训练，12B模型基座采用3万亿 Tokens中英文高质量语料进行训练。开源了对话模型TeleChat-7B与TeleChat-12B。TeleChat-PTD 是由电信星辰大模型TeleChat预训练语料中抽取出的的综合性大规模中文数据集。数据主要来源于网页、书籍、官方媒体等。 我们使用规则+模型的方式进行了相关的过滤，并对数据进行了相似性去重，尽可能地提取出高质量地数据。TeleChat-PTD 数据集大约公开了2.7亿条数据，数据由纯中文文本构成，原始大小约1TB,压缩后480G，共189个文件。数据集中已经去除了其它冗余信息。[数据下载](https://huggingface.co/datasets/Tele-AI/TeleChat-PTD) 
 
 * [Clouditera/SecGPT](https://github.com/Clouditera/secgpt) 将人工智能技术引入网络安全领域，以提高网络防御的效率和效果。其使命是推动网络安全智能化，为社会提供更安全的数字生活环境。SecGPT可以作为基座安全模型，用于探索各种网络安全任务。
+
+* [iusztinpaul/hands-on-llms](https://github.com/iusztinpaul/hands-on-llms) 通过设计、培训和部署实时财务顾问LLM系统，免费了解 LLM、LLMOps 和向量数据库 ~ 源代码 + 视频和阅读材料
 
 ### 其他_文本生成、文本对话
 
@@ -6484,6 +6508,8 @@
 * [facebookresearch/AugLy](https://github.com/facebookresearch/AugLy) 用于音频、图像、文本和视频的数据增强库。
 
 * [aigc-apps/sd-webui-EasyPhoto](https://github.com/aigc-apps/sd-webui-EasyPhoto) 一个 Webui UI 插件，用于生成 AI 肖像，可用于训练与您相关的数字分身。
+
+* [alembics/disco-diffusion](https://github.com/alembics/disco-diffusion) 用于生成 AI 艺术和动画的笔记本、模型和技术的科学怪人融合。
 
 * [xxxnell/how-do-vits-work](https://github.com/xxxnell/how-do-vits-work) “视觉转换器如何工作？（ICLR 2022 ）”的 PyTorch 实现。CV的多头自注意力 (MSA) 的成功并不在于弱归纳偏差以及捕获远程依赖项。 MSA 不仅是广义的 Convs，而是补充 Convs 的广义空间平滑。特别是，MSA 通过拉平损失情况来改进 NN。一个关键特征是它的数据特异性（数据依赖性），而不是远程依赖性。另一方面，ViTs 遭受非凸损失。MSA 和 Convs 表现出相反的行为，MSA 是低通滤波器，而 Convs 是高通滤波器。MSA 是形状偏向的，而 Convs 是纹理偏向的。因此，MSAs 和 Convs 是互补的。阶段末尾的 MSA（不是模型）显着提高了准确性。我们通过用 MSA 替换阶段结束时的 Convs 来引入 AlterNet。 AlterNet 在大小数据领域都优于 CNN。
 
@@ -10312,6 +10338,8 @@
 * [matplotlib/cheatsheets](https://github.com/matplotlib/cheatsheets) Matplotlib 用户的备忘单
 
 * [nvbn/thefuck](https://github.com/nvbn/thefuck) 一款出色的应用程序，灵感来自一条@liamosaur推文，可更正以前控制台命令中的错误。
+
+* [jupyter/notebook](https://github.com/jupyter/notebook) 基于 Web 的交互式计算笔记本环境。Project Jupyter 的与语言无关的 HTML 笔记本应用程序。2015 年，Jupyter notebook 作为 IPython 代码库 The Big Split™ 的一部分发布。IPython 3 是最后一个主要的单体版本，包含与语言无关的代码（如 IPython 笔记本）和特定语言的代码（如 Python 的 IPython 内核）。由于计算跨越多种语言，Project Jupyter 将继续在此存储库中开发与语言无关的 Jupyter 笔记本，并在社区的帮助下开发特定于语言的内核，这些内核可以在他们自己的离散存储库中找到。
 
 * [benfred/py-spy](https://github.com/benfred/py-spy) Python程序的采样分析器。它使您可以可视化Python程序花费的时间，而无需重新启动程序或以任何方式修改代码。py-spy的开销非常低：它是用 Rust 编写的，以提高速度，并且不会在与分析的 Python 程序相同的进程中运行。这意味着py-spy可以安全地用于生产Python代码。
 
