@@ -877,6 +877,10 @@
 
 * [great-expectations/great_expectations](https://github.com/great-expectations/great_expectations) 由数据工程师设计并为数据工程师设计的数据质量平台。它可以帮助您快速、清晰地发现问题，同时还可以更轻松地与非技术利益相关者协作。
 
+* [lancedb/lance](https://github.com/lancedb/lance) 用于 ML 的现代列式数据格式，并在 LLMs Rust 中实现。只需 2 行代码即可从 parquet 转换，随机访问、矢量索引和数据版本控制速度提高 100 倍。兼容 Pandas、DuckDB、Polars、Pyarrow，还有更多集成即将推出。
+
+* [allegroai/clearml](https://github.com/allegroai/clearml) ClearML - 自动神奇的 CI/CD，可简化您的 AI 工作负载。实验管理、数据管理、管道、编排、调度和服务在一个 MLOps/LLMOps 解决方案中
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -2100,6 +2104,28 @@
 
 * [unslothai/unsloth](https://github.com/unslothai/unsloth) 速度提高 2-5 倍，内存减少 70%，QLoRA 和 LoRA 微调。所有内核均用 OpenAI 的 Triton 语言编写。精度损失为 0% - 无近似方法 - 全部准确无误。无需更换硬件。自 2018+ 起支持 NVIDIA GPU。最低 CUDA 功能 7.0。支持 4 位和 16 位 QLoRA / LoRA 通过bitsandbytes进行微调。开源训练速度提高 5 倍。
 
+* [ray-project/ray-llm](https://github.com/ray-project/ray-llm) 一个LLM服务解决方案，可以轻松部署和管理各种LLMs开源，建立在 Ray Serve 之上。RayLLM 利用 Ray Serve，它对自动缩放和多节点部署提供本机支持。RayLLM 可以扩展到零，并创建新的模型副本（每个副本由多个 GPU 工作线程组成）以响应需求。
+
+* [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) LLM用于 RAG、知识挖掘和流分析的应用模板。准备与 Docker 一起运行，与您的数据源同步。
+
+* [jackmpcollins/magentic](https://github.com/jackmpcollins/magentic) 轻松地将大型语言模型集成到 Python 代码中。只需使用 `@prompt` 装饰器创建函数，即可从 LLM.将查询和函数调用与常规 Python 代码混合LLM使用，以创建复杂的逻辑。
+
+* [deep-diver/LLM-As-Chatbot](https://github.com/deep-diver/LLM-As-Chatbot) 让人们使用大量开源的指令遵循微调LLM模型作为聊天机器人服务。互联网搜索支持[serper.dev](https://serper.dev/)
+
+* [pezzolabs/pezzo](https://github.com/pezzolabs/pezzo) 开源、开发人员优先的 LLMOps 平台，旨在简化提示设计、版本管理、即时交付、协作、故障排除、可观测性等。
+
+* [msoedov/langcorn](https://github.com/msoedov/langcorn) 使用 FastAPI 自动为 LangChain LLM 应用程序和代理提供服务。
+
+* [OpenBMB/ProAgent](https://github.com/OpenBMB/ProAgent) 从机器人流程自动化到代理流程自动化，引入了 `Agentic Process Automation` （APA），这是一种突破性的自动化范式，使用LLM基于代理的代理，通过将人力卸载到与构建和执行相关的代理来实现高级自动化。然后，我们实例化 `ProAgent` ，一个LLM基于代理，旨在根据人类指令制作工作流程，并通过协调专业代理做出复杂的决策。通过实证实验，详细阐述了APA的工作流程构建和执行流程，展示了APA的可行性，揭示了由智能体驱动的自动化新范式的可能性
+
+* [daveebbelaar/langchain-experiments](https://github.com/daveebbelaar/langchain-experiments) 侧重于试验 LangChain 库，以构建具有大型语言模型的强大应用程序 （LLMs）。通过利用  GPT-3.5 Turbo 、GPT-4等最先进的语言模型，该项目展示了如何从 YouTube 视频成绩单创建可搜索的数据库，使用 FAISS 库执行相似性搜索查询，并用相关和准确的信息回答用户问题。
+
+* [BradyFU/Woodpecker](https://github.com/BradyFU/Woodpecker) 引入了一种名为 Woodpecker 的免训练方法。就像啄木鸟治愈树木一样，它会从生成的文本中挑选并纠正幻觉。具体来说，啄木鸟包括五个阶段：关键概念提取、问题表述、视觉知识验证、视觉声明生成和幻觉纠正。啄木鸟以补救后的方式实施，可以轻松地为不同的MLLM提供服务，同时可以通过访问五个阶段的中间输出进行解释。我们从定量和定性两个方面对啄木鸟进行了评估，并展示了这种新范式的巨大潜力。在 POPE 基准测试中，我们的方法比基线 MiniGPT-4/mPLUG-Owl 的准确率提高了 30.66%/24.33%。
+
+* [locuslab/wanda](https://github.com/locuslab/wanda) 一种简单有效的大型语言模型修剪方法（按权重和激活进行修剪）
+
+* [VILA-Lab/ATLAS](https://github.com/VILA-Lab/ATLAS) 为大型语言模型制定有效查询和提示的资源和研究（LLMs）。主要贡献是引入了 26 项 prompts 指导原则，旨在优化与LLMs各种规模的交互，例如 LLaMA-1/2、GPT-3.5 和 GPT-4。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -3062,6 +3088,8 @@
 ## NLP语料和数据集
 
 * [thu-coai/CrossWOZ](https://github.com/thu-coai/CrossWOZ) 中文跨域任务导向对话数据集.它包含5个领域的6K对话会话和102K语音，包括酒店，餐厅，景点，地铁和出租车。
+
+* [lmmlzn/Awesome-LLMs-Datasets](https://github.com/lmmlzn/Awesome-LLMs-Datasets) 从五个维度总结现有的代表性LLMs文本数据集：预训练语料库、微调指令数据集、偏好数据集、评估数据集和传统 NLP 数据集。（定期更新）
 
 * [goto456/stopwords](https://github.com/goto456/stopwords) 中文常用停用词表
 
@@ -8192,7 +8220,7 @@
 
 * [leoribeiro/struc2vec](https://github.com/leoribeiro/struc2vec) struc2vec算法学习任何图形中节点的连续表示,捕获节点之间的结构等效性。
 
-* [HLTCHKUST/ke-dialogue](https://github.com/HLTCHKUST/ke-dialogue) 提出了一种将任意大小的知识库直接嵌入到模型参数中的方法
+* [HLTCHKUST/ke-dialogue](https://github.com/HLTCHKUST/ke-dialogue) 将任意大小的知识库直接嵌入到模型参数中的方法
 
 * [aditya-grover/node2vec](https://github.com/aditya-grover/node2vec) 由Aditya Grover和Jure Leskovec提出的一种Graph Embedding方法，node2vec在DeepWalk的基础上引入BFS（广度优先搜索）和DFS（深度优先搜索）两种有偏的随机游走方式，以达到分别表征网络的结构对等性（structural equivalence）和同质性（homophily）的目的。
 
@@ -8216,11 +8244,7 @@
 
 * [KDDCUP_2020_AutoGraph_1st_Place](https://github.com/aister2020/KDDCUP_2020_AutoGraph_1st_Place) KDDCUP 2020自动图形表示学习：第一名解决方案。实现了四种不同的模型GCN、GAT、GraphSage、TAGConv.
 
-* [JinheonBaek/GMT](https://github.com/JinheonBaek/GMT) 使用 Graph Multiset Pooling 准确学习图表示。GMT 也包含在 PyTorch Geometric 中nn.glob.GraphMultisetTransformer ，可以在其中更轻松地实现模型。贡献：
-  
-  - 将图池化问题视为多集编码问题，在此问题下，考虑具有多个注意单元的集合中节点之间的关系，以仅使用一个全局函数来紧凑地表示整个图，而无需额外的消息传递操作。
-  - 展示了现有的 GNN 与我们的参数池操作可以与 WL 测试一样强大，并且还可以轻松扩展到具有可学习集群的节点集群方法。
-  - 广泛验证了 GMT 在合成图和现实图上的图分类、重建和生成任务，在这些任务上，它在很大程度上优于大多数图池基线。
+* [JinheonBaek/GMT](https://github.com/JinheonBaek/GMT) 使用 Graph Multiset Pooling 准确学习图表示。GMT 也包含在 PyTorch Geometric 中nn.glob.GraphMultisetTransformer ，可以在其中更轻松地实现模型。贡献：将图池化问题视为多集编码问题，在此问题下，考虑具有多个注意单元的集合中节点之间的关系，以仅使用一个全局函数来紧凑地表示整个图，而无需额外的消息传递操作。展示了现有的 GNN 与我们的参数池操作可以与 WL 测试一样强大，并且还可以轻松扩展到具有可学习集群的节点集群方法。广泛验证了 GMT 在合成图和现实图上的图分类、重建和生成任务，在这些任务上，它在很大程度上优于大多数图池基线。
 
 ## 时空网络_交通预测_动态图
 
@@ -8740,6 +8764,10 @@
 * [zilliztech/VectorDBBench](https://github.com/zilliztech/VectorDBBench) 不仅仅是主流矢量数据库和云服务的基准测试结果，还是您进行终极性能和成本效益比较的首选工具。VectorDBBench 在设计时考虑到了易用性，旨在帮助用户（甚至是非专业人士）重现结果或测试新系统，从而在众多云服务和开源矢量数据库中寻找最佳选择变得轻而易举。
 
 * [Tencent/wcdb](https://github.com/Tencent/wcdb) WCDB是由微信开发的跨平台数据库框架。高效、完整、易用的移动数据库框架，用于微信应用。它基于SQLite和SQLCipher，支持五种语言：C++，Java，Kotlin，Swift和Objective-C。
+
+* [lancedb/lancedb](https://github.com/lancedb/lancedb) 面向 AI 应用程序的开发人员友好型无服务器向量数据库。轻松为您的LLM应用程序添加长期记忆！
+
+* [infiniflow/infinity](https://github.com/infiniflow/infinity) 专LLM为应用程序构建的 AI 原生数据库，提供令人难以置信的快速全文和矢量搜索
 
 ## 其他__大数据
 
