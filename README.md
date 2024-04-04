@@ -2126,6 +2126,16 @@
 
 * [VILA-Lab/ATLAS](https://github.com/VILA-Lab/ATLAS) 为大型语言模型制定有效查询和提示的资源和研究（LLMs）。主要贡献是引入了 26 项 prompts 指导原则，旨在优化与LLMs各种规模的交互，例如 LLaMA-1/2、GPT-3.5 和 GPT-4。
 
+* [postgresml/postgresml](https://github.com/postgresml/postgresml) GPU 驱动的 AI 应用程序数据库。利用 SQL 的简单性和最新的 NLP、ML + LLM 模型，更快地将您的应用推向市场。
+
+* [llmware-ai/llmware](https://github.com/llmware-ai/llmware) 提供基于企业级LLM的开发框架、工具和微调模型。
+
+* [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) 用于合并预训练大型语言模型的工具。当前支持的合并方法的快速概述：Linear 线性，经典的合并方法，简单的加权平均值。SLERP系列，球形插值两个模型的参数。Task Arithmetic 任务算术，通过减去基础模型来计算每个模型的“任务向量”，线性合并任务向量并加回基数，非常适合从共同祖先微调的模型，对于几种更复杂的合并方法来说，也是一个超级有用的合并框架。TIES，建立在任务算术框架之上，通过稀疏化任务向量并应用符号共识算法来解决模型之间的干扰，允许您合并更多模型并保留其更多优势。DARE，与TIES一样，稀疏化任务向量以减少干扰，DARE使用随机修剪和新颖的重新缩放，以更好地匹配原始模型的性能。passthrough 是一种无操作，它只是通过未修改的输入张量传递，它旨在用于只有一个输入模型的层堆叠类型合并。Model Stock，使用微调模型的一些简洁的几何属性来计算线性插值的良好权重，至少需要三个模型，包括一个基本模型。
+
+* [google/BIG-bench](https://github.com/google/BIG-bench) 协作基准测试，旨在探索大型语言模型并推断其未来能力。BIG-bench 中包含的 200 多个任务。
+
+* [bigscience-workshop/promptsource](https://github.com/bigscience-workshop/promptsource) 用于创建、共享和使用自然语言提示的工具。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2221,6 +2231,10 @@
 * [codefuse-ai/Awesome-Code-LLM](https://github.com/codefuse-ai/Awesome-Code-LLM) 针对代码和相关数据集的语言建模研究的精选列表。
 
 * [OpenCodeInterpreter/OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) 开源代码生成系统，旨在弥合大型语言模型和 GPT-4 Code Interpreter 等复杂专有系统之间的差距。它通过集成执行和迭代优化功能，显著增强了代码生成功能。
+
+* [whoiskatrin/sql-translator](https://github.com/whoiskatrin/sql-translator) 使用人工智能将自然语言查询转换为 SQL 代码的工具。这个项目是100%免费和开源的。
+
+* [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) 可扩展的框架，可以在任何硬件上有效地合并模型，MergeKit 包含广泛的合并技术，并在数千个合并模型的开发中发挥了重要作用，其中许多模型的评估处于或接近 Open LLM 排行榜的前列。开源语言模型领域的快速扩展提供了一个机会，可以通过组合这些模型检查点（checkpoint）的参数来合并它们的能力。迁移学习的进步，即为特定任务微调预训练模型的过程，促成了大量用特定于任务的模型的发展，这些模型通常专门用于单个任务，无法利用彼此的优势。模型合并有助于创建多任务模型，而无需额外的训练，为提高模型性能和多功能性提供了一条有前途的途径。通过保留原始模型的内在功能，模型合并解决了人工智能中的复杂挑战，包括灾难性遗忘和多任务学习的困难。当前支持的合并方法的快速概述：Linear (Model Soups 经典的合并方法 - 一个简单的加权平均值。) 、SLERP、Task Arithmetic、TIES 、DARE TIES、DARE Task Arithmetic 、Passthrough、Model Stock
 
 #### 健康医学大模型及语料库
 
@@ -2760,6 +2774,8 @@
 * [Clouditera/SecGPT](https://github.com/Clouditera/secgpt) 将人工智能技术引入网络安全领域，以提高网络防御的效率和效果。其使命是推动网络安全智能化，为社会提供更安全的数字生活环境。SecGPT可以作为基座安全模型，用于探索各种网络安全任务。
 
 * [iusztinpaul/hands-on-llms](https://github.com/iusztinpaul/hands-on-llms) 通过设计、培训和部署实时财务顾问LLM系统，免费了解 LLM、LLMOps 和向量数据库 ~ 源代码 + 视频和阅读材料
+
+* [openai/prm800k](https://github.com/openai/prm800k) 一个过程监督数据集，包含 800,000 个步骤级正确性标签，用于模型生成的 MATH 数据集中的问题解决方案。
 
 ### 其他_文本生成、文本对话
 
@@ -4678,6 +4694,8 @@
 
 * [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium?tab=readme-ov-file#downloads) Google Chromium，没有与 Google 集成。尽可能保留默认的 Chromium 体验。Chromium 的直接替代品。Ungoogled-Chromium 功能进行了调整，以增强隐私、控制和透明度。但是，几乎所有这些功能都必须手动激活或启用。
 
+* [NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS) 用于交互式流程图、组织结构图、设计工具、规划工具、可视化语言的 JavaScript 图表库。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -4731,6 +4749,8 @@
 * [logto-io/logto](https://github.com/logto-io/logto) 帮助您在几分钟内建立登录、身份验证和用户身份。我们为 Web 和本机应用程序提供基于 OIDC 的身份服务和用户名、电话号码、电子邮件和社交登录的最终用户体验。
 
 * [ory/hydra](https://github.com/ory/hydra) OpenID 认证的 OpenID Connect 和 OAuth 提供程序，用 Go 编写 - 为您的基础架构提供云原生、安全优先的™开源 API 安全性。适用于任何语言的 SDK。与硬件安全模块配合使用。与 MITREid 兼容。
+
+* [ory/kratos](https://github.com/ory/kratos) 下一代身份服务器将您的 Auth0、Okta、Firebase 替换为强化的安全性和 PassKeys、SMS、OIDC、社交登录、MFA、FIDO、TOTP 和 OTP、WebAuthn、无密码等等。Golang、无头、API 优先。
 
 * [authelia/authelia](https://github.com/authelia/authelia) 开源身份验证和授权服务器，通过 Web 门户为您的应用程序提供双因素身份验证和单点登录 （SSO）。它通过允许、拒绝或重定向请求来充当反向代理的伴侣。
 
@@ -5030,7 +5050,9 @@
 
 * [saltstack/salt](https://github.com/saltstack/salt) 大规模自动管理和配置任何基础架构或应用程序的软件。基于 Python 构建，是一种事件驱动的自动化工具和框架，用于部署、配置和管理复杂的 IT 系统。使用 Salt 自动执行常见的基础架构管理任务，并确保基础架构的所有组件都以一致的所需状态运行。
 
-* [apache/apisix](https://github.com/apache/apisix) 一个动态、实时、高性能的 API 网关。APISIX API Gateway 提供了丰富的流量管理功能，如负载均衡、动态上游、灰度释放、熔断、认证、可观测性等。你可以使用 APISIX API Gateway 来处理传统的南北向流量，以及服务之间的东西向流量。它也可以用作 k8s 入口控制器。
+* [apache/apisix](https://github.com/apache/apisix) 动态、实时、高性能的 API 网关。提供了丰富的流量管理功能，如负载均衡、动态上游、灰度释放、熔断、认证、可观测性等。使用 APISIX API Gateway 来处理传统的南北向流量，以及服务之间的东西向流量。也可用作 k8s 入口控制器。
+
+* [smallnest/rpcx](https://github.com/smallnest/rpcx) Go 中最好的微服务框架，就像阿里巴巴 Dubbo，但功能更多，易于扩展。试试吧。Java有dubbo， Golang有rpcx！为云而构建！
 
 ## 网络与前后端开发_其他
 
@@ -6542,6 +6564,8 @@
 * [xxxnell/how-do-vits-work](https://github.com/xxxnell/how-do-vits-work) “视觉转换器如何工作？（ICLR 2022 ）”的 PyTorch 实现。CV的多头自注意力 (MSA) 的成功并不在于弱归纳偏差以及捕获远程依赖项。 MSA 不仅是广义的 Convs，而是补充 Convs 的广义空间平滑。特别是，MSA 通过拉平损失情况来改进 NN。一个关键特征是它的数据特异性（数据依赖性），而不是远程依赖性。另一方面，ViTs 遭受非凸损失。MSA 和 Convs 表现出相反的行为，MSA 是低通滤波器，而 Convs 是高通滤波器。MSA 是形状偏向的，而 Convs 是纹理偏向的。因此，MSAs 和 Convs 是互补的。阶段末尾的 MSA（不是模型）显着提高了准确性。我们通过用 MSA 替换阶段结束时的 Convs 来引入 AlterNet。 AlterNet 在大小数据领域都优于 CNN。
 
 * [salesforce/LAVIS](https://github.com/salesforce/LAVIS) 用于语言和视觉智能研究和应用的 Python 深度学习库。 该库旨在为工程师和研究人员提供一站式解决方案，以针对其特定的多模式场景快速开发模型，并跨标准和定制数据集对它们进行基准测试。 它具有统一的界面设计以访问:10 多个任务（检索、字幕、视觉问答、多模态分类等）；20 多个数据集（COCO、Flickr、Nocaps、Conceptual Commons、SBU 等）；30 多个最先进的基础语言视觉模型的预训练权重及其特定于任务的改编，包括 ALBEF、BLIP、ALPRO、CLIP。
+
+* [luban-agi/Awesome-AIGC-Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials) 收集了关于AIGC的各种精选教程和资源，既适合初学者也适合进阶AI爱好者。
 
 * [willard-yuan/awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers) 经典图像检索论文合集
 
@@ -8685,6 +8709,8 @@
 
 * [citusdata/citus](https://github.com/citusdata/citus)  PostgreSQL 扩展，可将 Postgres 转换为分布式数据库，因此您可以在任何规模下实现高性能。借助 Citus，您可以使用新的超能力扩展 PostgreSQL 数据库：分布式表在 PostgreSQL 节点集群中进行分片，以组合其 CPU、内存、存储和 I/O 容量。引用表将复制到所有节点，以便从分布式表中进行联接和外键，并实现最大读取性能。分布式查询引擎在整个集群中路由和并行化分布式表上的 SELECT、DML 和其他操作。列式存储可压缩数据，加快扫描速度，并支持常规表和分布式表上的快速投影。通过从任何节点进行查询，可以利用集群的全部容量进行分布式查询
 
+* [mongodb/mongo-go-driver](https://github.com/mongodb/mongo-go-driver) MongoDB 的官方 Golang 驱动程序
+
 ## 数据搜索引擎
 
 * [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -9366,6 +9392,8 @@
 * [winsiderss/systeminformer](https://github.com/winsiderss/systeminformer) Windows 10 免费、功能强大、用途广泛的工具，可帮助您监控系统资源、调试软件和检测恶意软件。由 Winsider Seminars & Solutions， Inc. 提供。
 
 * [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) 开源的 .NET 程序集浏览器和反编译器。
+
+* [semgrep/semgrep](https://github.com/semgrep/semgrep) 适用于多种语言的轻量级静态分析。查找具有类似源代码的模式的 bug 变体。可以扫描代码和包依赖项以查找已知问题、软件漏洞，并高精度地查找密钥
 
 ## 漏洞库、漏洞靶场
 
@@ -11502,9 +11530,13 @@
 
 * [lk-geimfari/awesomo](https://github.com/lk-geimfari/awesomo) 用各种语言编写的很酷的开源项目。
 
+* [leachim6/hello-world](https://github.com/leachim6/hello-world) 在每种计算机语言中的Hello world。
+
 * [QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles) 浙江大学课程攻略共享计划
 
 * [williamfiset/Algorithms](https://github.com/williamfiset/Algorithms) 算法和数据结构是高效代码和良好软件设计的基础。创建和设计优秀的算法是成为模范程序员的必要条件。此存储库的目标是演示如何以最简单、最优雅的方式正确实现常见的数据结构和算法。
+
+* [AkashSingh3031/The-Complete-FAANG-Preparation](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation) 包含所有 DSA（数据结构、算法、Love Babbar Bhaiya 的 450 个 DSA、FAANG 问题）、技术主题（OS + DBMS + SQL + CN + OOP）理论+问题、FAANG 面试问题和其他内容（编程 MCQ、谜题、能力、推理）。用于演示的编程语言是C++，Python
 
 * [xitu/gold-miner](https://github.com/xitu/gold-miner)  翻译优质互联网技术文章的社区，文章来源为 掘金 上的英文分享文章。内容覆盖区块链、人工智能、Android、iOS、前端、后端、设计、产品、算法和其他等领域，以及各大型优质 官方文档及手册，读者为热爱新技术的新锐开发者。
 
@@ -11627,6 +11659,8 @@
 
 * [haoel/leetcode](https://github.com/haoel/leetcode) LeetCode 问题的解决方案
 
+* [gluon-lang/gluon](https://github.com/gluon-lang/gluon) 一种用 Rust 编写的静态、类型推断和可嵌入语言。专为应用程序嵌入而设计。
+
 ## 游戏
 
 * [raysan5/raylib](https://github.com/raysan5/raylib) 一个简单易用的视频游戏编程库 
@@ -11638,6 +11672,8 @@
 * [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) 一款高度奇幻题材的开源回合制策略游戏。
 
 * [lxgr-linux/pokete](https://github.com/lxgr-linux/pokete) 基于终端的口袋妖怪类游戏
+
+* [pygame/pygame](https://github.com/pygame/pygame) 免费的开源 python 编程语言库，用于制作基于优秀 SDL 库构建的游戏等多媒体应用程序。C、Python、原生、OpenGL。
 
 * [Grimmys/rpg_tactical_fantasy_game](https://github.com/Grimmys/rpg_tactical_fantasy_game) pygame中的战术回合制游戏项目，开放支持
 
