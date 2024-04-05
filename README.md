@@ -2136,6 +2136,12 @@
 
 * [bigscience-workshop/promptsource](https://github.com/bigscience-workshop/promptsource) 用于创建、共享和使用自然语言提示的工具。
 
+* [FranxYao/chain-of-thought-hub](https://github.com/FranxYao/chain-of-thought-hub) 使用思维链提示对大型语言模型的复杂推理能力进行基准测试
+
+* [langchain-ai/langserve](https://github.com/langchain-ai/langserve) 帮助开发人员将 LangChain 可运行的可运行程序和链部署为 REST API。该库与 FastAPI 集成，并使用 pydantic 进行数据验证。
+
+* [BCG-X-Official/agentkit](https://github.com/BCG-X-Official/agentkit) 使用 Nextjs、FastAPI 和 Langchain 构建受约束的代理
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -3536,6 +3542,8 @@
 * [JohnSnowLabs/spark-nlp](https://github.com/JohnSnowLabs/spark-nlp) 建立在 Apache Spark 之上的最先进的自然语言处理库。它为机器学习管道提供了简单、高性能和准确的 NLP 注释，这些管道可在分布式环境中轻松扩展。Spark NLP 自带 36000+ 种预训练流水线和模型，支持 200+ 多种语言。它还提供诸如标记化、分词、词性标记、单词和句子嵌入、命名实体识别、依赖项解析、拼写检查、文本分类、情感分析、标记分类、机器翻译（+180 种语言）、摘要、问答、表格问答、文本生成、图像分类、图像到文本（字幕）、自动语音识别、零样本学习等任务，以及更多 NLP 任务。
 
 * [tisfeng/Easydict](https://github.com/tisfeng/Easydict) 简洁优雅的词典翻译 macOS App。开箱即用，支持离线 OCR 识别，支持有道词典，苹果系统词典翻译，ChatGPT，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。
+
+* [salesforce/decaNLP](https://github.com/salesforce/decaNLP) 一项多任务挑战，涵盖十项任务：问答 （SQuAD）、机器翻译 （IWSLT）、摘要 （CNN/DM）、自然语言推理 （MNLI）、情感分析 （SST）、语义角色标签 （QA-SRL）、零样本关系提取 （QA-ZRE）、面向目标的对话 （WOZ）、语义解析 （WikiSQL） 和常识推理 （MWSC）。每个任务都转换为问答，这使得使用我们新的多任务问答网络 （MQAN） 成为可能。
 
 # 网络与前后端开发
 
@@ -6284,6 +6292,8 @@
 * [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) 为扫描的 PDF 文件添加OCR 文本图层，允许对其进行搜索
 
 * [RapidAI/RapidOCR](https://github.com/RapidAI/RapidOCR) 基于 PaddleOCR & OnnxRuntime & OpenVINO 的跨平台 OCR 
+
+* [breezedeus/Pix2Text](https://github.com/breezedeus/Pix2Text) Pix 输入、Latex 和文本输出。从图像中识别中文、英文文本和数学公式。支持80+种语言。
 
 ## 视频补帧、摘要
 
