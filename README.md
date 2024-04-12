@@ -2142,6 +2142,8 @@
 
 * [BCG-X-Official/agentkit](https://github.com/BCG-X-Official/agentkit) 使用 Nextjs、FastAPI 和 Langchain 构建受约束的代理
 
+* [stitionai/devika](https://github.com/stitionai/devika) 一名代理 AI 软件工程师，可以理解高级人类指令，将它们分解为步骤，研究相关信息，并编写代码以实现给定的目标。Devika 旨在成为 Cognition AI 的 Devin 的有竞争力的开源替代品。Devika 利用大型语言模型、规划和推理算法以及 Web 浏览能力来智能开发软件。Devika 旨在通过提供 AI 对程序员来彻底改变我们构建软件的方式，该程序员可以在最少的人工指导下承担复杂的编码任务。无论您是需要创建新功能、修复错误还是从头开始开发整个项目，Devika 都能为您提供帮助。主要特点：通过 Ollama 支持 Claude 3、GPT-4、GPT-3.5 和 LocalLLMs。为获得最佳性能：使用 Claude 3 系列型号。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -3840,6 +3842,12 @@
 
 * [infinitered/reactotron](https://github.com/infinitered/reactotron) React 和 React Native 应用程序的强大调试器。它为开发人员提供了一个易于使用的界面，用于监控其应用程序的状态、网络请求和性能指标，可用于任何规模的项目，从小型个人应用程序到大型企业应用程序。
 
+* [vasanthk/react-bits](https://github.com/vasanthk/react-bits) react模式、技术、技巧和窍门
+
+* [adam-golab/react-developer-roadmap](https://github.com/adam-golab/react-developer-roadmap) 成为 React 开发人员的路线图
+
+* [mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) 强大、高性能的 React Native Camera 库
+
 * [jaredpalmer/tsdx](https://github.com/jaredpalmer/tsdx) 用于 TypeScript 包开发的零配置 CLI，可帮助您轻松开发、测试和发布现代 TypeScript 包
 
 * [basarat/typescript-book](https://github.com/basarat/typescript-book) TypeScript 的权威指南，也可能是最好的 TypeScript 书籍
@@ -3923,6 +3931,8 @@
 * [animate-css/animate.css](https://github.com/animate-css/animate.css) 跨浏览器的 CSS 动画库。就像容易的事一样容易使用。
 
 * [vercel/vercel](https://github.com/vercel/vercel) Vercel的前端云为开发人员提供了框架、工作流程和基础设施，以构建更快、更个性化的网络。面向前端开发人员的平台，提供创新者在灵感瞬间创建所需的速度和可靠性。
+
+* [Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign) 来自社区的 7000+ 个 Material Design 图标
 
 * [Cveinnt/LiveTerm](https://github.com/Cveinnt/LiveTerm) 在几分钟内构建终端风格的网站！
 
@@ -4650,7 +4660,7 @@
 
 * [lipis/flag-icons](https://github.com/lipis/flag-icons) SVG 中所有国家国旗的精选集合 - 加上 CSS，以便于集成
 
-* [milligram/milligram](https://github.com/milligram/milligram) 一个极简的CSS框架。Milligram 提供最少的样式设置，以实现快速、干净的起点。就是这样！只有 2kb gzipped！这与 UI 框架无关。专为更好的性能和更高的生产率而设计，需要重置的属性更少，从而使代码更清晰。希望你喜欢！
+* [milligram/milligram](https://github.com/milligram/milligram) 极简的CSS框架。Milligram 提供最少的样式设置，以实现快速、干净的起点。就是这样！只有 2kb gzipped！这与 UI 框架无关。专为更好的性能和更高的生产率而设计，需要重置的属性更少，从而使代码更清晰。
 
 * [alexfoxy/lax.js](https://github.com/alexfoxy/lax.js) 简单轻量级（<4kb gzip压缩）香草JavaScript库，可在滚动时创建流畅而美丽的动画。
 
@@ -4703,6 +4713,40 @@
 * [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium?tab=readme-ov-file#downloads) Google Chromium，没有与 Google 集成。尽可能保留默认的 Chromium 体验。Chromium 的直接替代品。Ungoogled-Chromium 功能进行了调整，以增强隐私、控制和透明度。但是，几乎所有这些功能都必须手动激活或启用。
 
 * [NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS) 用于交互式流程图、组织结构图、设计工具、规划工具、可视化语言的 JavaScript 图表库。
+
+* [nightwatchjs/nightwatch](https://github.com/nightwatchjs/nightwatch) 使用 Node.js 编写并使用 W3C Webdriver API 编写的集成端到端测试框架。
+
+* [febobo/web-interview](https://github.com/febobo/web-interview) 语音打卡社群维护的前端面试题库，包含不限于Vue面试题，React面试题，JS面试题，HTTP面试题，工程化面试题，CSS面试题，算法面试题，大厂面试题，高频面试题
+
+* [tariqbuilds/linux-dash](https://github.com/tariqbuilds/linux-dash) 适用于 Linux 的精美 Web 仪表板
+
+* [teamcapybara/capybara](https://github.com/teamcapybara/capybara) 模拟真实用户如何与您的应用程序交互来帮助您测试 Web 应用程序。它与运行测试的驱动程序无关，并内置了 Rack::Test 和 Selenium 支持。WebKit 通过外部 Gem 受支持。
+
+* [tsparticles/tsparticles](https://github.com/tsparticles/tsparticles) 轻松创建高度可定制的 JavaScript 粒子效果、五彩纸屑爆炸和烟花动画，并将它们用作您网站的动画背景
+
+* [arco-design/arco-design](https://github.com/arco-design/arco-design) 基于 Arco Design 的综合 React UI 组件库
+
+* [projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams) 用 React 编写的超级简单、严肃的图表库，可以正常工作，灵感来自Blender、Labview和虚幻引擎。该库完全用 Typescript 和 React 编写的现代代码库利用强大的泛型、先进的软件工程原理，并分为多个模块。整个库（包括其核心）是可破解和可扩展的，可以扩展、重新布线和重新组装成完全不同的软件，以满足您自己的软件需求。HTML 节点作为一等公民，该库最初是为了表示高级动态节点而编写的，由于复杂的输入要求 ux 要求，这些节点很难表示为 SVG。该库专为流程而设计，面向希望在运行时重新连接程序并希望使其软件更具动态性的软件工程师。提供的默认值的快速图表编辑为尽可能快地编辑图表提供了最高优先级。
+
+* [uber/react-vis](https://github.com/uber/react-vis) 用于渲染常见数据可视化图表的 react 组件集合，例如折线图/面积图/条形图、热图、散点图、等值线图、六边形热图、饼图和圆环图、旭日图、雷达图、平行坐标和树状图。
+
+* [Nozbe/WatermelonDB](https://github.com/Nozbe/WatermelonDB) 用于强大的 React 和 React Native 应用程序的响应式和异步数据库
+
+* [cyclejs/cyclejs](https://github.com/cyclejs/cyclejs) 用于可预测代码的功能性和响应式 JavaScript 框架
+
+* [reactstrap/reactstrap](https://github.com/reactstrap/reactstrap) Bootstrap 5 的无状态 React 组件。
+
+* [styleguidist/react-styleguidist](https://github.com/styleguidist/react-styleguidist) 组件开发环境，具有热重载的开发服务器和可以与团队分享的生活方式指南。它列出了组件 `propTypes` ，并显示了基于 Markdown 文件的实时、可编辑的使用示例。查看演示样式指南。
+
+* [react-icons/react-icons](https://github.com/react-icons/react-icons) 流行图标包的 SVG React 图标
+
+* [callstack/react-native-paper](https://github.com/callstack/react-native-paper) 跨平台的 UI 工具包库，包含一系列可定制和生产就绪的组件，默认情况下，这些组件遵循并遵守 Google 的 Material Design 指南。
+
+* [reactioncommerce/reaction](https://github.com/reactioncommerce/reaction) 使用 Node.js、MongoDB 和 GraphQL 构建的 API 优先、无头商务平台。它与 npm、Docker 和 Kubernetes 配合得很好。
+
+* [hwix/react-native-navigation](https://github.com/wix/react-native-navigation) 在 iOS 和 Android 上为 React Native 应用程序提供 100% 的原生平台导航。JavaScript API 简单且跨平台 - 只需将其安装在您的应用程序中，即可为您的用户提供他们应得的原生感觉。
+
+* [danilowoz/react-content-loader](https://github.com/danilowoz/react-content-loader) SVG 驱动的组件，可轻松创建占位符加载（如 Facebook 的卡片加载）。
 
 ## 后端开发框架及项目
 
@@ -4871,6 +4915,8 @@
 * [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) PHP开发工具，可在浏览器中使用。可让您深入了解应用程序运行时，包括 HTTP 请求、命令、队列作业和测试的请求数据、性能指标、日志条目、数据库查询、缓存查询、redis 命令、已调度事件、排队作业、呈现视图等
 
 * [phacility/phabricator](https://github.com/phacility/phabricator) php Web应用程序的集合。
+
+* [codeguy/php-the-right-way](https://github.com/codeguy/php-the-right-way) 一个易于阅读的快速参考，包括 PHP 最佳实践、公认的编码标准以及指向 Web 上权威教程的链接
 
 * [matomo-org/matomo](https://github.com/matomo-org/matomo) Google Analytics（分析）的领先开放替代方案，可让您完全控制数据。Matomo可让您轻松地从网站和应用程序中收集数据，并可视化这些数据并提取见解。隐私是内置的。
 
@@ -5061,6 +5107,8 @@
 * [apache/apisix](https://github.com/apache/apisix) 动态、实时、高性能的 API 网关。提供了丰富的流量管理功能，如负载均衡、动态上游、灰度释放、熔断、认证、可观测性等。使用 APISIX API Gateway 来处理传统的南北向流量，以及服务之间的东西向流量。也可用作 k8s 入口控制器。
 
 * [smallnest/rpcx](https://github.com/smallnest/rpcx) Go 中最好的微服务框架，就像阿里巴巴 Dubbo，但功能更多，易于扩展。试试吧。Java有dubbo， Golang有rpcx！为云而构建！
+
+* [TonnyL/Awesome_APIs](https://github.com/TonnyL/Awesome_APIs) 面向开发人员的 AWESOME API 集合。
 
 ## 网络与前后端开发_其他
 
@@ -5729,6 +5777,20 @@
 * [hubotio/hubot](https://github.com/hubotio/hubot) 构建聊天机器人的框架，以 GitHub 的同名 Campfire 机器人 hubot 为蓝本。他很酷。可以使用脚本进行扩展，并且可以在许多不同的聊天服务上工作。
 
 * [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) 人人影视 机器人和网站，包含人人影视全部资源以及众多网友的网盘分享
+
+* [element-hq/element-web](https://github.com/element-hq/element-web) 一个光鲜亮丽的 Web Matrix 协作客户端。
+
+* [gotify/server](https://github.com/gotify/server) 简单的服务器，用于每个 WebSocket 实时发送和接收消息。
+
+* [sockjs/sockjs-client](https://github.com/sockjs/sockjs-client) WebSocket 仿真 - Javascript 客户端
+
+* [Jackett/Jackett](https://github.com/Jackett/Jackett) 您最喜欢的 torrent 跟踪器，Jackett 用作代理服务器：它将来自应用程序（Sonarr、Radarr、SickRage、CouchPotato、Mylar3、Lidarr、DuckieTV、qBittorrent、Nefarious 等）的查询转换为特定于跟踪器站点的 http 查询，解析 html 或 json 响应，然后将结果发送回请求软件。这允许获取最近上传的内容（如 RSS）并执行搜索。Jackett 是维护索引器抓取和翻译逻辑的单一存储库 - 消除了其他应用程序的负担。
+
+* [lingochamp/FileDownloader](https://github.com/lingochamp/FileDownloader) Android多任务文件下载引擎。多任务、多线程（MultiConnection）、断点-恢复、高并发、简单易用、单/非单进程
+
+* [lingochamp/okdownload](https://github.com/lingochamp/okdownload) 可靠、灵活、快速、强大的Android下载引擎。
+
+* [web1n/wechat-universal-flatpak](https://github.com/web1n/wechat-universal-flatpak/tree/main) 基于微信 Linux Universal 版打包，无发行版限制。
 
 ## 区块链、智能合约
 
@@ -9097,6 +9159,8 @@
 
 * [zhzyker/vulmap](https://github.com/zhzyker/vulmap/) web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能
 
+* [Lissy93/web-check](https://github.com/Lissy93/web-check) 用于分析任何网站的多合一 OSINT 工具
+
 * [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch) 暴力破解网络服务器的目录和文件，网络路径扫描器
 
 * [wpscanteam/wpscan](https://github.com/wpscanteam/wpscan) WordPress 安全扫描器。为安全专家和博客维护者编写，用于测试其 WordPress 网站的安全性。
@@ -11082,6 +11146,8 @@
 
 * [mockito/mockito](https://github.com/mockito/mockito) 最流行的模拟框架，用于用 Java 编写的单元测试
 
+* [jwtk/jjwt](https://github.com/jwtk/jjwt) 用于在 JVM 和 Android 上创建和验证 JSON Web 令牌 （JWT） 和 JSON Web 密钥 （JWK）。
+
 ## Android 应用
 
 * [android/architecture-samples](https://github.com/android/architecture-samples) 展示了开发 Android 应用的不同体系结构方法。在它的不同分支中，你会发现相同的应用（一个 TODO 应用程序）的实现略有不同。
@@ -11217,6 +11283,8 @@
 * [permissions-dispatcher/PermissionsDispatcher](https://github.com/permissions-dispatcher/PermissionsDispatcher) 用于处理 Android 运行时权限的声明性 API。
 
 * [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) ehviewer，用爱发电，快乐前行
+
+* [alibaba/vlayout](https://github.com/alibaba/vlayout) RecyclerView 的强大 LayoutManager 扩展，它为 RecyclerView 提供了一组布局。使其能够处理同一 recyclerview 中的网格、列表和其他布局时的复杂情况。
 
 ## 编辑器
 
@@ -11447,6 +11515,8 @@
 * [wtfutil/wtf](https://github.com/wtfutil/wtf) 您终端的个人信息仪表板，可让您一目了然地访问您非常重要但不经常需要的统计信息和数据。
 
 * [NixOS/nix](https://github.com/NixOS/nix) 强大的包管理器，适用于 Linux 和其他 Unix 系统，它使包管理可靠且可重现。
+
+* [claudiodangelis/qrcp](https://github.com/claudiodangelis/qrcp) 通过扫描二维码，通过 wifi 将文件从您的计算机传输到您的移动设备，而无需离开终端
 
 ## 知识管理 wiki知识库
 
@@ -11755,6 +11825,8 @@
 
 * [lucoiso/UEHttpGPT](https://github.com/lucoiso/UEHttpGPT) 虚幻引擎插件，通过异步 REST 请求促进与 OpenAI 基于 GPT 的服务（ChatGPT 和 DALL-E），使开发人员可以轻松地与这些服务进行通信。
 
+* [miloyip/game-programmer](https://github.com/miloyip/game-programmer) 游戏程序员的学习路径
+
 ## 其他
 
 * [torvalds/linux](https://github.com/torvalds/linux) Linux内核源码树
@@ -11864,6 +11936,8 @@
 * [H5-Dooring/dooringx](https://github.com/H5-Dooring/dooringx) 快速高效搭建可视化拖拽平台
 
 * [polybar/polybar](https://github.com/polybar/polybar) 快速且易于使用的状态栏
+
+* [videolan/vlc](https://github.com/videolan/vlc) 自由和开源的媒体播放器和多媒体引擎，专注于播放所有内容，并在任何地方运行。VLC 可以播放大多数多媒体文件、光盘、流、设备，还能够将流转换、编码、流式传输和操作为多种格式。
 
 * [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) 精益副业：程序员如何优雅地做副业
 
@@ -12304,5 +12378,7 @@
 * [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys) 开发人员的瑞士军刀。DevToys 帮助完成日常开发任务，例如格式化 JSON、比较文本和测试正则表达式。
 
 * [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) 用于可视化 GitHub 状态的工具。
+
+* [mono/mono](https://github.com/mono/mono) 软件平台，旨在让开发人员轻松创建跨平台应用程序。它是 Microsoft 的 .NET Framework 的开源实现，基于 C# 和公共语言运行库的 ECMA 标准。
 
 # end
