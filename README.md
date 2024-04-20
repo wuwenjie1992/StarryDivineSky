@@ -2144,6 +2144,24 @@
 
 * [stitionai/devika](https://github.com/stitionai/devika) 一名代理 AI 软件工程师，可以理解高级人类指令，将它们分解为步骤，研究相关信息，并编写代码以实现给定的目标。Devika 旨在成为 Cognition AI 的 Devin 的有竞争力的开源替代品。Devika 利用大型语言模型、规划和推理算法以及 Web 浏览能力来智能开发软件。Devika 旨在通过提供 AI 对程序员来彻底改变我们构建软件的方式，该程序员可以在最少的人工指导下承担复杂的编码任务。无论您是需要创建新功能、修复错误还是从头开始开发整个项目，Devika 都能为您提供帮助。主要特点：通过 Ollama 支持 Claude 3、GPT-4、GPT-3.5 和 LocalLLMs。为获得最佳性能：使用 Claude 3 系列型号。
 
+* [missuo/FreeGPT35](https://github.com/missuo/FreeGPT35) 利用免登录 ChatGPT Web 提供的无限制免费 GPT-3.5-Turbo API 服务。
+
+* [nilsherzig/LLocalSearch](https://github.com/nilsherzig/LLocalSearch) 使用LLM代理的完全本地运行的搜索聚合器。用户可以提出一个问题，系统将使用一连串来LLMs找到答案。用户可以看到代理的进度和最终答案。不需要 OpenAI 或 Google API 密钥。
+
+* [DachengLi1/LongChat](https://github.com/DachengLi1/LongChat) 支持训练和评估基于长上下文LLM的聊天机器人。
+
+* [fanqiwan/FuseAI](https://github.com/fanqiwan/FuseAI) 大型语言模型的知识融合，专注于模型融合主题的开源研究社区。在 Foundation 和 Chat 上应用模型融合LLMs，未来计划融合 Agent/MoELLMs。FuseChat-7B-VaRM，它融合了三个LLMs具有不同架构和规模的著名聊天，即 NH2-Mixtral-8x7B、NH2-Solar-10.7B 和 OpenChat-3.5-7B。FuseChat-7B-VaRM 在 MT-Bench 上的平均性能为 8.22，优于 Starling-7B、Yi-34B-Chat 和 Tulu-2-DPO-70B 等各种强大的聊天，LLMs甚至超过了 GPT-3.5（March）、Claude-2.1，并接近 Mixtral-8x7B-Instruct。FuseChat采用融合后合并的策略，有两个主要阶段。首先，对源LLMs进行成对知识融合，通过轻量级微调推导出多个结构和大小相同的目标LLMs;然后，将这些目标LLMs合并到参数空间中，提出了一种基于参数矩阵微调前后变化比确定合并权重的新方法VaRM。
+
+* [katanaml/sparrow](https://github.com/katanaml/sparrow) 用于从各种文档和图像中高效提取和处理数据。它可以无缝处理表单、发票、收据和其他非结构化数据源。Sparrow 以其模块化架构脱颖而出，提供独立的服务和管道，所有这些都针对强大的性能进行了优化。Sparrow 的关键功能之一 - 可插拔架构。您可以使用 LlamaIndex、Haystack 或 Unstructured 等工具和框架轻松集成和运行数据提取管道。Sparrow 通过 Ollama 或 Apple MLX 启用本地LLM数据提取管道。使用 Sparrow 解决方案，您可以获得 API，这有助于处理数据并将其转换为结构化输出，随时可以与自定义工作流程集成。
+
+* [GPT-Fathom/GPT-Fathom](https://github.com/GPT-Fathom/GPT-Fathom) 开源且可LLM复制的评估套件，在一致设置下对领先的开源和闭源LLMs以及OpenAI的早期模型进行基准测试，以 20+个精选基准测试。
+
+* [RUCAIBox/StructGPT](https://github.com/RUCAIBox/StructGPT) 大型语言模型对结构化数据进行推理的通用框架
+
+* [FranxYao/Long-Context-Data-Engineering](https://github.com/FranxYao/Long-Context-Data-Engineering) 实现论文数据工程，将语言模型扩展到 128K 上下文。使用 `tensor_parallel` 从这个存储库实现的 `device_map` ，因为它比 huggingface 快得多，比 vLLM 轻量级。但它有一个小错误，如果你的 GPU 内存不够大，它会卡住而不是通过内存溢出异常。因此，请确保您有足够的 GPU 内存。
+
+* [OpenBMB/InfiniteBench](https://github.com/OpenBMB/InfiniteBench) 尖端的基准测试，用于评估语言模型在超长上下文（100k+ 令牌）上处理、理解和推理的能力。长上下文对于增强应用程序LLMs并实现高级交互至关重要。InfiniteBench 旨在通过针对 100k+ 的上下文长度（比传统数据集长 10 倍）来测试语言模型的界限，从而突破语言模型的界限。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2243,6 +2261,8 @@
 * [whoiskatrin/sql-translator](https://github.com/whoiskatrin/sql-translator) 使用人工智能将自然语言查询转换为 SQL 代码的工具。这个项目是100%免费和开源的。
 
 * [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) 可扩展的框架，可以在任何硬件上有效地合并模型，MergeKit 包含广泛的合并技术，并在数千个合并模型的开发中发挥了重要作用，其中许多模型的评估处于或接近 Open LLM 排行榜的前列。开源语言模型领域的快速扩展提供了一个机会，可以通过组合这些模型检查点（checkpoint）的参数来合并它们的能力。迁移学习的进步，即为特定任务微调预训练模型的过程，促成了大量用特定于任务的模型的发展，这些模型通常专门用于单个任务，无法利用彼此的优势。模型合并有助于创建多任务模型，而无需额外的训练，为提高模型性能和多功能性提供了一条有前途的途径。通过保留原始模型的内在功能，模型合并解决了人工智能中的复杂挑战，包括灾难性遗忘和多任务学习的困难。当前支持的合并方法的快速概述：Linear (Model Soups 经典的合并方法 - 一个简单的加权平均值。) 、SLERP、Task Arithmetic、TIES 、DARE TIES、DARE Task Arithmetic 、Passthrough、Model Stock
+
+* [ingyamilmolinar/doctorgpt](https://github.com/ingyamilmolinar/doctorgpt) 将 GPT 投入生产，用于应用程序日志错误诊断
 
 #### 健康医学大模型及语料库
 
@@ -2785,6 +2805,14 @@
 
 * [openai/prm800k](https://github.com/openai/prm800k) 一个过程监督数据集，包含 800,000 个步骤级正确性标签，用于模型生成的 MATH 数据集中的问题解决方案。
 
+* [CrazyBoyM/llama2-Chinese-chat](https://github.com/CrazyBoyM/llama2-Chinese-chat) llama2 13b 中文多轮对话模型，且"首发版"已在LLM排行榜取得优秀成绩（至今仍在同类模型中处于较领先位置）。llama2 Chinese chat - 本项目是一个教程记录整理的repo，旨在提供给新手的参照价值和开箱即用的中文LLaMa2对话体验。包含训练过程记录，各种主要量化方式，部署后端api的推荐方案，以及在一个具体的前端网页上实现开箱即用的流畅对话体验。
+
+* [SUSTech/SUS-Chat-34B](https://huggingface.co/SUSTech/SUS-Chat-34B) 由南方科技大学和IDEA-CCNL联合发布的34B中英双语对话模型。该模型基于 `01-ai/Yi-34B` 数百万个高质量的多语言教学数据，并对其进行了微调。在保持基础模型强大的语言能力的同时，通过高质量的指令微调改善了模型对人类指令的响应，并擅长通过思维链模仿人类的思维过程。它在长文本中引入了指令间注意力共享，将窗口大小从 4K 扩展到 8K，显着增强了多回合对话的可用性。采用14亿令牌的高质量复杂指令数据进行训练，涵盖中英文、多轮对话、数学、推理等各类指令数据
+
+* [zjunlp/OceanGPT-7b](https://huggingface.co/zjunlp/OceanGPT-7b) 使用 KnowLM 训练的海洋科学任务，[OceanBench](https://huggingface.co/datasets/zjunlp/OceanBench)的基准测试，以评估海洋学任务的能力LLMs。它总共包括15个与海洋相关的任务，如问答、提取和描述。
+
+* [GitHub - arielnlee/Platypus: Code for fine-tuning Platypus fam LLMs using LoRA](https://github.com/arielnlee/Platypus) # 鸭嘴兽：快速、廉价、强大的 LLMs。基于 LLaMA 和 LLaMa-2 变压器架构的一系列微调和合并变体。鸭嘴兽利用 LoRA 和 PEFT。
+
 ### 其他_文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -2994,6 +3022,8 @@
 * [malllabiisc/EmbedKGQA](https://github.com/malllabiisc/EmbedKGQA) 基于知识图谱嵌入的链路预测处理多跳问答。首先训练实体嵌入，随后利用实体嵌入学习问题嵌入，预测时对所有实体，构建(head entity, question)并评分，并选择评分最高的头实体作为答案。能很好地处理知识图谱中的不完整和稀疏的问题。
 
 * [BDBC-KG-NLP/QA-Survey](https://github.com/BDBC-KG-NLP/QA-Survey) 北航大数据高精尖中心研究张日崇团队对问答系统的总结。包括基于知识图谱的问答（KBQA），基于文本的问答系统（TextQA），基于表格的问答系统（TabletQA）和基于视觉的问答系统（VisualQA），每类系统分别对学术界和工业界进行总结。
+
+* [LHRLAB/ChatKBQA](https://github.com/LHRLAB/ChatKBQA) 使用微调的大型语言模型生成然后检索知识库问答的框架
 
 * [xianghuisun/Chinese_KGQA](https://github.com/xianghuisun/Chinese_KGQA) 实现基于知识图谱的中文问答系统
 
@@ -3229,6 +3259,14 @@
 * [tiiuae/falcon-refinedweb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) 由 TII 构建并在 ODC-By 1.0 许可下发布的海量英语网络数据集。通过对 CommonCrawl 进行严格的过滤和大规模重复数据删除而构建的;我们发现，在 RefinedWeb 上训练的模型在仅依赖于 Web 数据的情况下，可以达到在线性能或优于在精选数据集上训练的模型。RefinedWeb 也是“多模态友好”的：它包含处理过的样本中图像的链接和替代文本。
 
 * [ssymmetry/BBT-FinCUGE-Applications](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main) 大规模中文金融领域语料库BBT-FinCorpus，包含以下四种语料： 公司公告 在过去二十年中由中国所有上市公司发布的公司公告。原始数据为 PDF 格式，总大小约为 2TB。使用 PDF 解析器将 PDF 文件转换为文我们件，转换后的文件的总大小为 105GB。研究报告 由券商、投行等投资机构发布的针对宏观经济、板块、行业和个股的研究报告，分析研究对象的现状并展望其未来发展趋势。原始数据为PDF格式，总大小约为1TB。经转化后的文我们件总量约11GB。财经新闻 从新浪财经，腾讯财经，凤凰财经，36Kr 和虎嗅等网站爬取的过去五年内的财经新闻。经清洗后的文我们件总量约 20GB。社交媒体 股吧和雪球网过去二十年内的所有股民和博主发表的帖子。经清洗后的文本总量约 120GB。
+
+* [lmsys/lmsys-chat-1m](https://huggingface.co/datasets/lmsys/lmsys-chat-1m) 该数据集包含 100 万个真实世界的对话和 25 个最先进的 LLMs.它是从 2023 年 4 月至 8 月期间在 Vicuna 演示和 Chatbot Arena 网站上从野外的 210K 个唯一 IP 地址中收集的。每个示例都包含对话 ID、模型名称、OpenAI API JSON 格式的对话文本、检测到的语言标记和 OpenAI 审核 API 标记。
+
+* [lmsys/chatbot_arena_conversations](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations) 该数据集包含 33K 个具有成对人类偏好的清理对话。它是从 2023 年 4 月至 6 月期间聊天机器人竞技场上的 13K 个唯一 IP 地址中收集的。每个示例都包括一个问题 ID、两个模型名称、OpenAI API JSON 格式的完整对话文本、用户投票、匿名用户 ID、检测到的语言标签、OpenAI 审核 API 标签、附加有毒标签和时间戳。
+
+* [RyokoAI/ShareGPT52K](https://huggingface.co/datasets/RyokoAI/ShareGPT52K) 该数据集是在关闭之前通过 ShareGPT API 抓取的大约 90,000 个对话的集合。这些对话包括用户提示和 OpenAI 的 ChatGPT 的响应。
+
+* [CausalLM/Refined-Anime-Text](https://huggingface.co/datasets/CausalLM/Refined-Anime-Text) 包含超过一百万条、约4400万个 GPT-4/3.5 token的、全新合成的文本数据集的动漫主题子集。该数据集此前从未公开发布过。由于社区对动漫文化的浓厚兴趣，且考虑到通识数据集中此类题材的代表性不足，以及原始文本中网络俚语和无关内容的泛滥而导致的低质量、难以清理的问题，我们决定发布这份子集供进一步研究。这份数据集旨在用于研究大型语言模型中网络亚文化的数据治理，并探索具有挑战性的 LLM 持续预训练问题，例如特定主题的知识蒸馏以及对未见知识的持续学习。
 
 ## 关系抽取、信息抽取
 
@@ -6609,6 +6647,8 @@
 
 * [CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion) 基于潜在扩散模型的高分辨率图像合成
 
+* [FoundationVision/VAR](https://github.com/FoundationVision/VAR) 一种新的视觉生成方法将 GPT 风格的模型提升到超越扩散和缩放定律。视觉自回归建模 （VAR） 将图像上的自回归学习重新定义为从粗到细的“下一尺度预测”或“下一分辨率预测”，与标准光栅扫描的“下一标记预测”不同。
+
 * [open-mmlab/mmagic](https://github.com/open-mmlab/mmagic) OpenMMLab 多模态高级、生成和智能创建工具箱。解锁魔法：生成AI（AIGC），易于使用的API，awsome模型库，扩散模型，用于文本到图像生成，图像/视频恢复/增强等。
 
 * [jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) 令人敬畏的计算机视觉资源的精选列表
@@ -6886,6 +6926,8 @@
 * [remotion-dev/remotion](https://github.com/remotion-dev/remotion) 使用 React 以编程方式创建视频的框架。
 
 * [zhegan27/VILLA](https://github.com/zhegan27/VILLA) 视觉和语言对抗训练 (NeurIPS 2020 Spotlight) 的官方库。 目前支持 UNITER 在 VQA、VCR、NLVR2 和 SNLI-VE 上的对抗微调。 使用域内数据的对抗性预训练将很快可用。 VILLA-base 和 VILLA-large 预训练检查点均已发布。
+
+* [Sally-SH/VSP-LLM](https://github.com/sally-sh/vsp-llm) 视觉语音处理与LLMs（VSP-LLM）相结合，通过带来压倒性的LLMs功率来最大限度地提高上下文建模能力。具体来说，VSP-LLM旨在执行视觉语音识别和翻译的多任务，其中给定的指令控制任务的类型。通过采用自监督视觉语音模型，将输入视频映射到 LLM 的输入潜在空间。针对输入帧中存在冗余信息的事实，我们提出了一种新颖的重复数据删除方法，该方法通过采用视觉语音单元来减少嵌入的视觉特征。通过所提出的重复数据删除和低秩适配器 （LoRA），VSP-LLM 可以以计算高效的方式进行训练。
 
 * [piskelapp/piskel](https://github.com/piskelapp/piskel) 易于使用的精灵编辑器。 可用于创建精灵、动画、像素艺术。
 
@@ -8167,6 +8209,8 @@
 
 * [HUANGLIZI/LViT](https://github.com/HUANGLIZI/LViT) [IEEE医学影像汇刊/TMI]此 repo 是“LViT：语言在医学图像分割中的视觉转换器”的官方实现
 
+* [AI4Chem/ChemLLM-7B-Chat-1.5-DPO](https://huggingface.co/AI4Chem/ChemLLM-7B-Chat-1.5-DPO) 第一个用于化学和分子科学的开源大型语言模型，基于 InternLM-2 构建
+
 # 图数据库图算法
 
 * [Tencent/plato](https://github.com/Tencent/plato) 腾讯高性能分布式图计算框架Plato
@@ -8578,6 +8622,8 @@
 * [PKU-DAIR/SGL](https://github.com/PKU-DAIR/SGL) 针对可扩展图形学习的图形神经网络工具包，它支持对超大型数据集进行深度图形学习。SGL允许用户轻松实现可扩展的图形神经网络，并评估其在节点分类、节点聚类和链路预测等各种下游任务中的性能。
 
 * [Thinklab-SJTU/pygmtools](https://github.com/Thinklab-SJTU/pygmtools) Python 图形匹配求解器库。图匹配是模式识别、数据挖掘等领域中一个基本但具有挑战性的问题。图匹配旨在通过求解NP硬组合优化问题，找到多个图之间的节点间对应关系。特点：支持多种求解器，包括传统的组合求解器（包括线性、二次和多图）和新型的基于深度学习的求解器；支持各种后端，包括 numpy 普遍可访问的后端，以及一些支持 GPU 的最先进的深度学习架构： pytorch 、jittor 、mindspore 、 paddle、tensorflow ；深度学习友好，这些操作旨在最好地保留计算过程中的梯度，并支持批处理操作以获得最佳性能。
+
+* [HKUDS/GraphGPT](https://github.com/HKUDS/GraphGPT) 该框架与图结构知识和图指令调优范式保持一致LLMs。图神经网络 （GNN） 通过图节点之间的递归信息交换和聚合来理解高级图结构。为了提高模型的鲁棒性，自监督学习（SSL）已成为一种很有前途的数据增强方法。然而，用于生成预训练图嵌入的现有方法通常依赖于对特定下游任务标签的微调，这限制了它们在标记数据稀缺或不可用的情况下的可用性。为了解决这个问题，我们的研究重点是在具有挑战性的零样本学习场景中提高图模型的泛化能力。受大型语言模型（LLMs）成功的启发，我们的目标是开发一种面向图的图LLM，即使没有来自下游图数据的任何信息，也可以在不同的下游数据集和任务中实现高度泛化。在这项工作中，我们提出了与图结构知识和图指令调优范式相一致LLMs的 GraphGPT 框架。我们的框架包含一个文本图基础组件，以在文本信息和图结构之间建立联系。此外，我们还提出了一种双阶段指令调优范式，并配有轻量级图形-文本对齐投影仪。该范式探索了自监督图结构信号和特定于任务的图指令，以指导LLMs理解复杂的图结构并提高其在不同下游任务中的适应性。我们的框架在监督和零样本图学习任务上进行了评估，展示了卓越的泛化性和优于最先进的基线。
 
 # 大数据
 
@@ -11827,6 +11873,8 @@
 
 * [miloyip/game-programmer](https://github.com/miloyip/game-programmer) 游戏程序员的学习路径
 
+* [liyucheng09/ChatGPT_Agent](https://github.com/liyucheng09/ChatGPT_Agent) 由 ChatGPT 代理提供支持的游戏演示
+
 ## 其他
 
 * [torvalds/linux](https://github.com/torvalds/linux) Linux内核源码树
@@ -12380,5 +12428,7 @@
 * [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) 用于可视化 GitHub 状态的工具。
 
 * [mono/mono](https://github.com/mono/mono) 软件平台，旨在让开发人员轻松创建跨平台应用程序。它是 Microsoft 的 .NET Framework 的开源实现，基于 C# 和公共语言运行库的 ECMA 标准。
+
+* [digitalarchive.wilsoncenter.org](https://digitalarchive.wilsoncenter.org/) 威尔逊中心数字档案馆是一个资源，学生、研究人员和专家可以在这里访问来自世界各地政府和组织的曾经的秘密文件。数字档案馆由威尔逊中心的历史和公共政策项目建造和维护，包含来自世界各地档案馆的解密历史资料，包括外交电报、高层通信、会议记录、情报估计等。由于其中大部分信息都有英文翻译，这些历史文献丰富了国际学术、历史教育和关于重要全球问题和挑战的公共政策辩论。历史与公共政策计划致力于从世界各地的存储库中公开 20 世纪和 21 世纪国际历史的主要来源记录，促进基于这些记录的学术研究，并使用这些材料为课堂、公共和政策辩论提供背景关于全球事务。
 
 # end
