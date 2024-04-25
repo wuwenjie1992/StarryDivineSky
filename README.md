@@ -441,6 +441,8 @@
 
 * [janishar/mit-deep-learning-book-pdf](https://github.com/janishar/mit-deep-learning-book-pdf) 麻省理工学院深度学习书 PDF 格式（完整和部分），作者：Ian Goodfellow、Yoshua Bengio 和 Aaron Courville
 
+* [amusi/Deep-Learning-Interview-Book](https://github.com/amusi/Deep-Learning-Interview-Book) 深度学习面试宝典（含数学、机器学习、深度学习、计算机视觉、自然语言处理和SLAM等方向）
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -1200,6 +1202,8 @@
 
 * [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT#auto-gpt-an-autonomous-gpt-4-experiment) 使用GPT4来自动完成目标任务。一个实验性开源应用程序，展示了 GPT-4 语言模型的功能。该程序由 GPT-4 驱动，将 LLM 的“思想”链接在一起，以自主实现您设定的任何目标。作为 GPT-4 完全自主运行的首批示例之一，Auto-GPT 突破了 AI 的可能性界限。
 
+* [meta-llama/llama3](https://github.com/meta-llama/llama3) Meta Llama 3 官方 GitHub 站点。我们正在释放大型语言模型的力量。我们最新版本的 Llama 现在可供各种规模的个人、创作者、研究人员和企业使用，以便他们可以负责任地试验、创新和扩展他们的想法。此版本包括预训练和指令调整的 Llama 3 语言模型的模型权重和起始代码，包括 8B 到 70B 参数的大小。此存储库旨在作为加载 Llama 3 模型和运行推理的最小示例。
+
 * [facebookresearch/llama](https://github.com/facebookresearch/llama) facebook LLaMA 模型的推理代码。最新版本的 Llama 现在可供各种规模的个人、创作者、研究人员和企业访问，以便他们可以负责任地进行实验、创新和扩展他们的想法。
 
 * [facebookresearch/llama-recipes](https://github.com/facebookresearch/llama-recipes) facebook LLaMA 模型的示例和手册
@@ -1221,6 +1225,8 @@
 * [baichuan-inc/Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B) 由百川智能继 Baichuan-7B 之后开发的包含 130 亿参数的开源可商用的大规模语言模型，在权威的中文和英文 benchmark 上均取得同尺寸最好的效果。本次发布包含有预训练 (Baichuan-13B-Base) 和对齐 (Baichuan-13B-Chat) 两个版本。Baichuan-13B 有如下几个特点：更大尺寸、更多数据：Baichuan-13B 在 Baichuan-7B 的基础上进一步扩大参数量到 130 亿，并且在高质量的语料上训练了 1.4 万亿 tokens，超过 LLaMA-13B 40%，是当前开源 13B 尺寸下训练数据量最多的模型。支持中英双语，使用 ALiBi 位置编码，上下文窗口长度为 4096。同时开源预训练和对齐模型：预训练模型是适用开发者的『 基座 』，而广大普通用户对有对话功能的对齐模型具有更强的需求。因此本次开源我们同时发布了对齐模型（Baichuan-13B-Chat），具有很强的对话能力，开箱即用，几行代码即可简单的部署。更高效的推理：为了支持更广大用户的使用，我们本次同时开源了 int8 和 int4 的量化版本，相对非量化版本在几乎没有效果损失的情况下大大降低了部署的机器资源门槛，可以部署在如 Nvidia 3090 这样的消费级显卡上。开源免费可商用：B对学术研究完全开放，开发者也仅需邮件申请并获得官方商用许可后，可免费商用。
 
 * [01-ai/Yi](https://github.com/01-ai/Yi) 01.AI 从头开始训练的下一代开源大型语言模型。作为双语语言模型，并在 3T 多语言语料库上进行训练，Yi 系列模型成为全球最强大的LLM模型之一，在语言理解、常识推理、阅读理解等方面显示出前景。Yi-34B-Chat 模型在 AlpacaEval 排行榜上排名第二（仅次于 GPT-4 Turbo），表现优于其他LLMs模型（如 GPT-4、Mixtral、Claude）（基于截至 2024 年 1 月的数据）。Yi-34B模型在各种基准测试中，包括Hugging Face Open LLM Leaderboard（预训练）和C-Eval（基于截至2023年11月的数据）中，在所有现有的开源模型（如Falcon-180B、Llama-70B、Claude）中排名第一。感谢 Transformer 和 Llama 开源社区，因为它们减少了从头开始构建所需的工作量，并能够在 AI 生态系统中使用相同的工具。
+
+* [CrazyBoyM/llama3-Chinese-chat](https://github.com/CrazyBoyM/llama3-Chinese-chat) Llama3 中文仓库（聚合资料：各种网友及厂商微调、魔改版本有趣权重 & 训练、推理、部署教程视频 & 文档）
 
 * [mlabonne/llm-course](https://github.com/mlabonne/llm-course) 使用路线图和 Colab 笔记本来学习大型语言模型 （LLMs） 的课程。该LLM课程分为三个部分：LLM 基础知识涵盖有关数学、Python 和神经网络的基本知识。科学家LLM专注于LLMs使用最新技术构建最佳产品。LLM 工程师专注于创建LLM基于应用程序并部署它们。
 
@@ -2162,6 +2168,14 @@
 
 * [OpenBMB/InfiniteBench](https://github.com/OpenBMB/InfiniteBench) 尖端的基准测试，用于评估语言模型在超长上下文（100k+ 令牌）上处理、理解和推理的能力。长上下文对于增强应用程序LLMs并实现高级交互至关重要。InfiniteBench 旨在通过针对 100k+ 的上下文长度（比传统数据集长 10 倍）来测试语言模型的界限，从而突破语言模型的界限。
 
+* [jzhang38/TinyLlama](https://github.com/jzhang38/TinyLlama) 在 3 万亿个代币上预训练 1.1B Llama 模型。采用了与 Llama 2 完全相同的架构和分词器。这意味着 TinyLlama 可以在许多基于 Llama 构建的开源项目中插入和播放。此外，TinyLlama 结构紧凑，只有 1.1B 参数。这种紧凑性使其能够满足众多需要有限计算和内存占用的应用程序。
+
+* [openai/openai-node](https://github.com/openai/openai-node) OpenAI API 的官方 Node.js / Typescript 库
+
+* [openai-php/client](https://github.com/openai-php/client) 由社区维护的增强型 PHP API 客户端，允许您与 OpenAI API 进行交互。
+
+* [InternLM/xtuner](https://github.com/InternLM/xtuner) 高效、灵活且功能齐全的工具包，用于微调大型模型（InternLM2、Llama3、Phi3、Qwen、Mistral 等）。自动调度 FlashAttention 和 Triton 内核等高性能算子，以提高训练吞吐量。与 DeepSpeed 兼容，轻松利用各种 ZeRO 优化技术。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2263,6 +2277,8 @@
 * [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) 可扩展的框架，可以在任何硬件上有效地合并模型，MergeKit 包含广泛的合并技术，并在数千个合并模型的开发中发挥了重要作用，其中许多模型的评估处于或接近 Open LLM 排行榜的前列。开源语言模型领域的快速扩展提供了一个机会，可以通过组合这些模型检查点（checkpoint）的参数来合并它们的能力。迁移学习的进步，即为特定任务微调预训练模型的过程，促成了大量用特定于任务的模型的发展，这些模型通常专门用于单个任务，无法利用彼此的优势。模型合并有助于创建多任务模型，而无需额外的训练，为提高模型性能和多功能性提供了一条有前途的途径。通过保留原始模型的内在功能，模型合并解决了人工智能中的复杂挑战，包括灾难性遗忘和多任务学习的困难。当前支持的合并方法的快速概述：Linear (Model Soups 经典的合并方法 - 一个简单的加权平均值。) 、SLERP、Task Arithmetic、TIES 、DARE TIES、DARE Task Arithmetic 、Passthrough、Model Stock
 
 * [ingyamilmolinar/doctorgpt](https://github.com/ingyamilmolinar/doctorgpt) 将 GPT 投入生产，用于应用程序日志错误诊断
+
+* [openai/human-eval](https://github.com/openai/human-eval) openai在2021年提出的，评估大型语言模型在代码上的表现
 
 #### 健康医学大模型及语料库
 
@@ -3393,6 +3409,8 @@
 * [PKU-TANGENT/nlp-tutorial](https://github.com/PKU-TANGENT/nlp-tutorial) NLP新手入门教程
 
 * [yuanzhoulvpi2017/zero_nlp](https://github.com/yuanzhoulvpi2017/zero_nlp) 中文nlp解决方案(大模型、数据、模型、训练、推理)
+
+* [crownpku/Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP) 中文自然语言处理相关资料
 
 * [fxsjy/jieba](https://github.com/fxsjy/jieba) 中文意为“口吃”，中文文本分割：打造成为最好的 Py 中文分词模块。
 
@@ -6395,7 +6413,9 @@
 
 * [breezedeus/Pix2Text](https://github.com/breezedeus/Pix2Text) Pix 输入、Latex 和文本输出。从图像中识别中文、英文文本和数学公式。支持80+种语言。
 
-## 视频补帧、摘要
+## 视频生成、补帧、摘要
+
+* [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) 致力于高效制作高质量视频并使所有人都可以使用模型、工具和内容的计划。通过采用开源原则，Open-Sora 不仅使对高级视频生成技术的访问民主化，而且还提供了一个简化且用户友好的平台，简化了视频制作的复杂性。通过Open-Sora，我们的目标是在内容创作领域激发创新、创造力和包容性。Open-Sora 1.1，它支持 2s~15s、144p 到 720p、任意宽高比的文本到图像、文本到视频、图像到视频、视频到视频、无限时间生成。此外，还发布了完整的视频处理流水线。
 
 * [hzwer/arXiv2020-RIFE](https://github.com/hzwer/arXiv2020-RIFE) 视频帧插值的实时中级流量估计.旷视和北大提出的一种实时中间流估计算法。用于视频帧插值，能够改善伪影、让视频更丝滑。
 
@@ -8828,6 +8848,8 @@
 * [citusdata/citus](https://github.com/citusdata/citus)  PostgreSQL 扩展，可将 Postgres 转换为分布式数据库，因此您可以在任何规模下实现高性能。借助 Citus，您可以使用新的超能力扩展 PostgreSQL 数据库：分布式表在 PostgreSQL 节点集群中进行分片，以组合其 CPU、内存、存储和 I/O 容量。引用表将复制到所有节点，以便从分布式表中进行联接和外键，并实现最大读取性能。分布式查询引擎在整个集群中路由和并行化分布式表上的 SELECT、DML 和其他操作。列式存储可压缩数据，加快扫描速度，并支持常规表和分布式表上的快速投影。通过从任何节点进行查询，可以利用集群的全部容量进行分布式查询
 
 * [mongodb/mongo-go-driver](https://github.com/mongodb/mongo-go-driver) MongoDB 的官方 Golang 驱动程序
+
+* [apache/arrow](https://github.com/apache/arrow) 多语言工具箱，用于加速数据交换和内存处理。初创团队主要来自于Dremio公司和由Apache Parquet（一种列式存储格式）的开发人员于2016年创建。其最初的定位是通过定义一套通用数据结构和 API，使数据可以在不同的编程语言和计算引擎之间以零复制（zero-copy）的方式进行共享和交换，从而提高数据处理的效率。Arrow 的核心数据结构是统一的列式内存格式，该格式采用了内存连续布局和零复制策略，以减少数据传输的开销。它支持对连续的列式数据使用现代处理器中包SIMD（单指令、多数据）进行向量化操作。此外，Arrow 还提供了一套丰富的数据操作接口，如过滤、转换、聚合等，以支持高效的数据分析和处理。随着时间的推移，Apache Arrow 在逐渐扩展和发展，到现在Apache Arrow已经发展成为一个用于构建处理和传输大型数据集的高性能应用程序软件开发平台，它不仅支持多种编程语言（如C++, Java, Python, R等），还与许多主流的数据处理框架集成，如 Apache Spark、Pandas、TensorFlow 等。
 
 ## 数据搜索引擎
 
@@ -11874,6 +11896,10 @@
 * [miloyip/game-programmer](https://github.com/miloyip/game-programmer) 游戏程序员的学习路径
 
 * [liyucheng09/ChatGPT_Agent](https://github.com/liyucheng09/ChatGPT_Agent) 由 ChatGPT 代理提供支持的游戏演示
+
+* [fogleman/Craft](https://github.com/fogleman/Craft) 使用现代 OpenGL（着色器）用 C 语言编写的简单 Minecraft 克隆。
+
+* [rapiz1/DungeonRush](https://github.com/rapiz1/DungeonRush) 受 Snake 启发的开源游戏，用纯 C 语言编写，带有 SDL
 
 ## 其他
 
