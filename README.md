@@ -2176,6 +2176,38 @@
 
 * [InternLM/xtuner](https://github.com/InternLM/xtuner) 高效、灵活且功能齐全的工具包，用于微调大型模型（InternLM2、Llama3、Phi3、Qwen、Mistral 等）。自动调度 FlashAttention 和 Triton 内核等高性能算子，以提高训练吞吐量。与 DeepSpeed 兼容，轻松利用各种 ZeRO 优化技术。
 
+* [hiyouga/FastEdit](https://github.com/hiyouga/FastEdit) 帮助开发人员使用单个命令有效地将新鲜和自定义的知识注入大型语言模型中。实现的算法:Rank-One Model Editing (ROME)
+
+* [SkyworkAI/Skywork](https://github.com/SkyworkAI/Skywork) 天工系列模型在3.2TB高质量多语言和代码数据上进行预训练。我们开源了模型参数，训练数据，评估数据，评估方法。
+
+* [microsoft/promptbench](https://github.com/microsoft/promptbench) 用于评估和理解大型语言模型的统一库。快速模型性能评估：我们提供用户友好的界面，允许快速构建模型、加载数据集和评估模型性能。提示工程：我们实施了几种提示工程方法。例如：Few-shot Chain-of-Thought、Emotion Prompt、Expert Prompting等。评估对抗性提示：promptbench 集成了提示攻击 ，使研究人员能够模拟模型上的黑盒对抗性提示攻击并评估其鲁棒性。动态评估以减轻潜在的测试数据污染：我们集成了动态评估框架DyVal，该框架以可控的复杂性即时生成评估样本。
+
+* [HowieHwong/TrustGPT](https://github.com/HowieHwong/TrustGPT) 我们能信任大型语言模型吗？：通过毒性、偏见和价值一致性评估实现负责任的大型语言模型的基准
+
+* [llmeval/llmeval-1](https://github.com/llmeval/llmeval-1) 中文大语言模型评测第一期，涵盖了17个大类、453个问题，包括事实性问答、阅读理解、框架生成、段落重写、摘要、数学解题、推理、诗歌生成、编程等各个领域。 在这些问题上，为大模型的回答设置了5个评分项，分别是：正确性、流畅性、信息量、逻辑性和无害性。 在构造了评测目标的基础上，有多种方法可以对模型进行评测。包括分项评测、众包对比评测、公众对比评测、GPT 4自动分项评测、GPT 4 对比评测等方式。
+
+* [llmeval/llmeval-2](https://github.com/llmeval/llmeval-2) 评测以用户日常使用为主线，结合线上用户问题分布情况，重点考察不同专业本科生和研究生在日常学习和生活中希望借助大模型得到帮助的任务。12个学科分别构造领域知识测试集，出题人基于外部数据库，对每个学科领域构造对应测试题集，题型为单项选择题与问答题。
+
+* [llmeval/llmeval-3](https://github.com/llmeval/llmeval-3) 聚焦于专业知识能力评测，涵盖哲学、经济学、法学、教育学、文学、历史学、理学、工学、农学、医学、军事学、管理学、艺术学等教育部划定的13个学科门类、50余个二级学科，共计约20W道标准生成式问答题目（后续我们将继续收集题目将总题库扩充至100W）。
+
+* [xingyaoww/mint-bench](https://github.com/xingyaoww/mint-bench) ICLR 2024 论文 MINT 的官方 Repo：使用工具和语言反馈LLMs进行多回合交互评估
+
+* [HITsz-TMG/awesome-llm-attributions](https://github.com/HITsz-TMG/awesome-llm-attributions) 归因是指模型（例如 LLM）生成和提供证据的能力，通常以参考文献或引用的形式，以证实其产生的主张或陈述。这些证据来自可识别的来源，确保可以从基础语料库中逻辑地推断出声明，使其易于理解和验证。归因的主要目的包括使用户能够验证模型提出的声明，促进生成与引用来源密切相关的文本，以提高准确性并减少错误信息或幻觉，以及建立一个结构化框架来评估与所提出的声明相关的支持证据的完整性和相关性。
+
+* [stanford-oval/storm](https://github.com/stanford-oval/storm) 一个LLM强大的知识管理系统，用于研究一个主题并生成带有引文的完整报告。一个LLM基于互联网搜索从头开始编写类似维基百科的文章的系统。虽然该系统无法生成通常需要大量编辑的可出版文章，但经验丰富的维基百科编辑发现它在他们的写作前阶段很有帮助。STORM 将生成带有引文的长篇文章分为两个步骤：写作前阶段：系统进行基于互联网的研究，以收集参考文献并生成大纲。写作阶段：系统使用大纲和参考文献生成带有引文的完整文章。STORM 将研究过程自动化的核心确定为自动提出要提出的好问题。直接提示语言模型提问效果不佳。为了提高问题的深度和广度，STORM采用了两种策略：视角引导提问：给定输入主题，STORM 通过调查来自相似主题的现有文章来发现不同的观点，并使用它们来控制提问过程。模拟对话：STORM模拟维基百科作者与基于互联网资源的主题专家之间的对话，使语言模型能够更新其对主题的理解并提出后续问题。基于两个阶段的分离，STORM使用dspy以高度模块化的方式实现。
+
+* [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) 用于编程（而非提示）基础模型的框架。用于通过算法优化 LM 提示和权重的框架，尤其是当 LM 在管道中使用一次或多次时。要使用 LM 构建一个没有 DSPy 的复杂系统，您通常必须：（1） 将问题分解为多个步骤，（2） 很好地提示您的 LM，直到每个步骤单独工作良好，（3） 调整步骤以很好地协同工作，（4） 生成合成示例来调整每个步骤，以及 （5） 使用这些示例对较小的 LM 进行微调以降低成本。目前，这很困难，也很混乱：每次更改管道、LM 或数据时，所有提示（或微调步骤）都可能需要更改。为了使它更系统、更强大，DSPy 做了两件事。首先，它将程序的流程 （ modules ） 与每个步骤的参数（LM 提示和权重）分开。其次，DSPy 引入了新的 optimizers ，这是 LM 驱动的算法，可以调整 LM 调用的提示和/或权重， metric 前提是您想要最大化。DSPy 可以定期教授强大的模型（如 GPT-3.5 or GPT-4 ）和本地模型（如 T5-base or Llama2-13b ）在任务中更加可靠，即具有更高的质量和/或避免特定的故障模式。DSPy 优化器会将同一程序“编译”为不同的指令、小样本提示和/或每个 LM 的权重更新（微调）。这是一种新的范式，在这种范式中，LM 及其提示逐渐淡出背景，作为可以从数据中学习的更大系统的可优化部分。顶级域名;更少的提示，更高的分数，以及更系统地解决 LM 的艰巨任务的方法。
+
+* [TheDuckAI/arb](https://github.com/TheDuckAI/arb) Advanced LLMs Reasoning Benchmark 数据集，新颖的基准数据集，由高级推理问题组成，旨在评估LLMs文本理解和专家领域推理，提供比以前的基准更具挑战性的测试，其特点是测试更深入的数学、物理、生物学、化学和法律知识的问题
+
+* [sambanova/toolbench](https://github.com/sambanova/toolbench) ToolBench 是一个基准测试，为了研究各类LLMs在软件工具操作上的差距。由用于实际任务的各种软件工具组成。还提供了易于使用的基础设施，以直接评估每个模型的执行成功率。
+
+* [HowieHwong/TrustLLM](https://github.com/HowieHwong/TrustLLM) 关于可信度的综合研究LLMs，包括可信度不同维度的原则，建立的基准，评估和主流LLMs可信度的分析，以及对开放挑战和未来方向的讨论。具体来说，我们首先提出了一套跨越八个不同维度的可信赖LLMs原则。基于这些原则，我们进一步建立了六个维度的基准，包括真实性、安全性、公平性、鲁棒性、隐私和机器伦理。然后，我们提出了一项研究，评估了 TrustLLM 中的 16 个主流LLMs，包括 30 多个数据集。本文档解释了如何使用 trustllm python 包来帮助您更快地评估可信度的性能LLM。
+
+* [thunlp/InfLLM](https://github.com/thunlp/InfLLM) 揭示使用免训练记忆理解超长序列的内在能力LLMs，InfLLM 将远程上下文存储到额外的内存单元中，并采用一种有效的机制来查找与令牌相关的单元以进行注意力计算。因此，InfLLM 允许LLMs有效地处理长序列，同时保持捕获长距离依赖关系的能力。在没有任何训练的情况下，InfLLM 可以在LLMs几千个令牌的序列上进行预训练，从而获得比在长序列上不断训练这些LLMs令牌的竞争基线更好的性能。即使序列长度缩放到 1024K，InfLLM 仍然有效地捕获长距离依赖关系。
+
+* [lrhh123/ChatGPT-On-CS](https://github.com/lrhh123/ChatGPT-On-CS) 基于大模型的智能对话客服工具，支持微信、千牛、哔哩哔哩、抖音企业号、抖音、抖店、微博聊天、小红书专业号运营、小红书、知乎等平台接入，可选择 GPT3.5/GPT4.0/ 懒人百宝箱 （后续会支持更多平台），能处理文本、语音和图片，通过插件访问操作系统和互联网等外部资源，支持基于自有知识库定制企业 AI 应用。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2279,6 +2311,8 @@
 * [ingyamilmolinar/doctorgpt](https://github.com/ingyamilmolinar/doctorgpt) 将 GPT 投入生产，用于应用程序日志错误诊断
 
 * [openai/human-eval](https://github.com/openai/human-eval) openai在2021年提出的，评估大型语言模型在代码上的表现
+
+* [liutiedong/goat](https://github.com/liutiedong/goat) 擅长算术任务的微调 LLaMA
 
 #### 健康医学大模型及语料库
 
@@ -3283,6 +3317,8 @@
 * [RyokoAI/ShareGPT52K](https://huggingface.co/datasets/RyokoAI/ShareGPT52K) 该数据集是在关闭之前通过 ShareGPT API 抓取的大约 90,000 个对话的集合。这些对话包括用户提示和 OpenAI 的 ChatGPT 的响应。
 
 * [CausalLM/Refined-Anime-Text](https://huggingface.co/datasets/CausalLM/Refined-Anime-Text) 包含超过一百万条、约4400万个 GPT-4/3.5 token的、全新合成的文本数据集的动漫主题子集。该数据集此前从未公开发布过。由于社区对动漫文化的浓厚兴趣，且考虑到通识数据集中此类题材的代表性不足，以及原始文本中网络俚语和无关内容的泛滥而导致的低质量、难以清理的问题，我们决定发布这份子集供进一步研究。这份数据集旨在用于研究大型语言模型中网络亚文化的数据治理，并探索具有挑战性的 LLM 持续预训练问题，例如特定主题的知识蒸馏以及对未见知识的持续学习。
+
+* [openai/miniF2F](https://github.com/openai/miniF2F) 正式的数学基准测试（跨多个正式系统进行翻译），由奥林匹克竞赛（AMC、AIME、IMO）以及高中和本科数学课程的练习陈述组成。
 
 ## 关系抽取、信息抽取
 
@@ -6449,7 +6485,9 @@
 
 * [facebookresearch/detr](https://github.com/facebookresearch/detr) 使用Transformer进行端到端目标检测。适用于 DETR （DEtection TRansformer） 的 PyTorch 训练代码和预训练模型。我们用 Transformer 替换了整个复杂的手工目标检测管道，并将 Faster R-CNN 与 ResNet-50 匹配，使用一半的计算能力 （FLOP） 和相同数量的参数在 COCO 上获得 42 个 AP。在 50 行 PyTorch 中进行推理。
 
-* [GitHub - vietanhdev/anylabeling: Effortless AI-assisted data labeling with AI support from YOLO, Segment Anything, MobileSAM!!](https://github.com/vietanhdev/anylabeling) 借助 YOLO、Segment Anything、MobileSAM 的 AI 支持，轻松实现 AI 辅助数据标注！！
+* [vietanhdev/anylabeling](https://github.com/vietanhdev/anylabeling) 借助 YOLO、Segment Anything、MobileSAM 的 AI 支持，轻松实现 AI 辅助数据标注！！
+
+* [caoyunkang/GPT4V-for-Generic-Anomaly-Detection](https://github.com/caoyunkang/GPT4V-for-Generic-Anomaly-Detection) 异常检测是跨不同领域和数据类型的一项关键任务。但是，现有的异常检测模型通常是针对特定领域和模式设计的。本研究探讨了使用 GPT-4V（ision），一种强大的视觉语言模型，以通用方式处理异常检测任务。我们研究了GPT-4V在多模态、多域异常检测任务中的应用，包括图像、视频、点云和时间序列数据，涉及工业、医疗、逻辑、视频、3D异常检测和定位等多个应用领域。为了提高 GPT-4V 的性能，我们加入了不同类型的附加提示，例如班级信息、人类专业知识和参考图像作为提示。根据我们的实验，GPT-4V 被证明在检测和解释零/单次异常检测中的全局和细粒度语义模式方面非常有效。这样可以准确区分正常和异常实例。总体而言，GPT-4V在通用异常检测和理解方面表现出良好的性能，从而为异常检测开辟了一条新的途径。
 
 * [PeterL1n/BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2) 论文 Real-Time High-Resolution Background Matting 的官方存储库。我们的模型需要捕获额外的背景图像，并在 Nvidia RTX 2080 TI GPU 上以 4K 30fps 和 HD 60fps 的速度产生最先进的抠图效果。
 
@@ -6678,6 +6716,18 @@
 * [google-research/magvit](https://github.com/google-research/magvit) 官方 JAX 实现：掩码生成视频转换器 .引入 MAGVIT 以使用单一模型处理各种视频合成任务，并展示了其质量、效率和灵活性。
 
 * [silverriver/MMChat](https://github.com/silverriver/MMChat) 大规模的对话数据集，其中包含以图像为基础的中文对话。 MMChat 中的每个对话都与一个或多个图像相关联（每个对话最多 9 张图像）。 我们设计了各种策略来确保 MMChat 中对话的质量。 数据集中的图像托管在微博的静态图像服务器上。
+
+* [tyxsspa/AnyText](https://github.com/tyxsspa/AnyText) 多语言视觉文本生成和编辑，近年来，随着AIGC的爆火，图片生成技术得到飞速发展，当前AI生成的图片已达到真假难辨的高保真度。不过，当合成图片中出现文字内容时，仍能够使AI露出马脚，因为当前主流方法尚无法在图片中生成准确可读的字符。最近半年来已有学者开始研究文本生成的问题，但这些方法大多以英文为主，无法解决中文这种字形繁杂、字符数以万计的文字生成。因此，我们提出了一种新颖的文字生成方法AnyText，通过创新性的算法设计，可以支持中文、英语、日语、韩语等多语言的文字生成，还支持对输入图片中的文字内容进行编辑。本模型所涉及的文字生成技术为电商海报、Logo设计、创意涂鸦、表情包等新型AIGC应用提供了可能性。
+
+* [deepseek-ai/DeepSeek-VL](https://github.com/deepseek-ai/DeepSeek-VL) 专为真实世界视觉和语言理解应用而设计的开源视觉语言 （VL） 模型。DeepSeek-VL具备通用的多模态理解能力，能够在复杂场景下处理逻辑图、网页、公式识别、科学文献、自然图像和具身智能。
+
+* [PKU-YuanGroup/MoE-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA) 大型视觉语言模型的专家组合，MoE-LLaVA-Qwen1.5，更好地支持汉语。在更高的图像分辨率下训练更强的模型（例如768×768）。
+
+* [TencentARC/InstantMesh](https://github.com/TencentARC/InstantMesh) 使用稀疏视图大型重建模型从单个图像生成高效的 3D 网格
+
+* [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) 面向图文理解的开源多模态大模型系列。该系列模型接受图像和文本输入，并提供高质量的文本输出。我们发布了两个版本的模型，旨在实现领先的性能和高效的部署：MiniCPM-V 2.8B：可在终端设备上部署的先进多模态大模型。最新发布的 MiniCPM-V 2.0 可以接受 180 万像素的任意长宽比图像输入，实现了和 Gemini Pro 相近的场景文字识别能力以及和 GPT-4V 相匹的低幻觉率。OmniLMM-12B：相比同规模其他模型在多个基准测试中具有领先性能，实现了相比 GPT-4V 更低的幻觉率。
+
+* [FreedomIntelligence/ALLaVA](https://github.com/FreedomIntelligence/ALLaVA) 利用 GPT4V 合成数据构建精简视觉语言模型
 
 * [KaiyangZhou/CoOp](https://github.com/KaiyangZhou/CoOp) 通过快速学习将CLIP等视觉语言模型适应下游数据集
 
@@ -10329,6 +10379,8 @@
 
 * [FASTSHIFT/WatchX](https://github.com/FASTSHIFT/WatchX) 开源智能手表, 高质量流畅(60FPS+)的动画效果, 易于扩展的系统框架.
 
+* [amaranth-lang/amaranth](https://github.com/amaranth-lang/amaranth) 开源工具链，用于使用 Python 编程语言开发基于同步数字逻辑的硬件，以及评估板定义、片上系统工具包等。它旨在易于学习和使用，减少或消除常见的编码错误，并使用可重用的组件简化复杂硬件的设计。
+
 * [MegEngine/MegPeak](https://github.com/MegEngine/MegPeak) 测试处理器峰值计算工具，支持OpenCL驱动的arm，x86和GPU。
 
 * [killerp/off_asr](https://gitee.com/killerp/off_asr) 智能遥控器（离线版）本项目基于esp32a1s模组，设计了一个遥控器，除了实现基本的红外遥控功能，人们还能通过语音，手机远程进行红外遥控。同时又加入温度传感器，并支持将温度数据上传云端，使能随时随地查看、分析数据。
@@ -11132,6 +11184,8 @@
 
 * [therecipe/qt](https://github.com/therecipe/qt) Go（Golang）的Qt绑定，支持Windows / macOS / Linux / FreeBSD / Android / iOS / Sailfish OS / Raspberry Pi / AsteroidOS / Ubuntu Touch / JavaScript / WebAssembly
 
+* [xxjwxc/uber_go_guide_cn](https://github.com/xxjwxc/uber_go_guide_cn) Uber 是一家美国硅谷的科技公司，也是 Go 语言的早期 adopter。其开源了很多 golang 项目，诸如被 Gopher 圈熟知的 zap、jaeger 等。2018 年年末 Uber 将内部的 Go 风格规范 开源到 GitHub，经过一年的积累和更新，该规范已经初具规模，并受到广大 Gopher 的关注。本文是该规范的中文版本。本版本会根据原版实时更新。
+
 ## Java 程序设计
 
 * [akullpp/awesome-java](https://github.com/akullpp/awesome-java) Java 编程语言的优秀框架、库和软件的精选列表。
@@ -11901,6 +11955,22 @@
 
 * [rapiz1/DungeonRush](https://github.com/rapiz1/DungeonRush) 受 Snake 启发的开源游戏，用纯 C 语言编写，带有 SDL
 
+* [tobspr-games/shapez.io](https://github.com/tobspr-games/shapez.io)  Steam 上的一款开源基地建设游戏，灵感来自异星工厂
+
+* [hiloteam/Hilo](https://github.com/hiloteam/Hilo) 阿里巴巴集团开发的跨端 HTML5 游戏开发解决方案。它可以帮助开发人员在几分钟内方便地构建 HTML5 游戏。
+
+* [4ian/GDevelop](https://github.com/4ian/GDevelop) 功能齐全的无代码开源游戏开发软件。您可以为移动设备、桌面设备和 Web 构建游戏。GDevelop 快速且易于使用：游戏逻辑是使用直观且强大的基于事件的系统构建的。
+
+* [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) 开源游戏服务器应用程序和框架，专为托管大型多人在线角色扮演游戏 （MMORPG） 而设计。它基于流行的 MMORPG 魔兽世界 （WoW），旨在重现 3.3.5a 补丁中原始游戏的游戏体验。原始代码基于 MaNGOS、TrinityCore 和 SunwellCore，此后进行了广泛的开发，以提高游戏的稳定性、游戏机制和模块化。AC 也已经成长为一个社区驱动的项目，拥有大量的贡献者和开发人员。它是用 C++ 编写的，为创建模仿官方魔兽世界服务器的机制和行为的私人服务器提供了坚实的基础。
+
+* [diasurgical/devilutionX](https://github.com/diasurgical/devilutionX) 适用于现代操作系统的暗黑破坏神构建，DevilutionX 是暗黑破坏神和地狱火的一个端口，它致力于使游戏运行变得简单，同时提供引擎改进、错误修复和一些可选的生活质量功能。
+
+* [diasurgical/devilution](https://github.com/diasurgical/devilution) 暗黑破坏神下放 - 1996 年电脑游戏背后的魔法
+
+* [egametang/ET](https://github.com/egametang/ET) Unity3D 客户端和 C# 服务器框架
+
+* [yairm210/Unciv](https://github.com/yairm210/Unciv) 使用 LibGDX 制作的 《 文明V 》Civ V 的开源、以可修改性为重点的 Android 和桌面重制版
+
 ## 其他
 
 * [torvalds/linux](https://github.com/torvalds/linux) Linux内核源码树
@@ -11946,6 +12016,8 @@
 * [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) 很棒的初学者友好项目列表。
 
 * [ixinzhi/loving-books](https://github.com/ixinzhi/loving-books) 恋爱指南
+
+* [lTbgykio/Books-Free-Books](https://github.com/lTbgykio/Books-Free-Books) 免费书籍汇总。目录：Web 开发、系统管理、编程语言、数据库、软件开发、人工智能、数学理论、其他
 
 * [sindresorhus/awesome](https://github.com/sindresorhus/awesome) 关于各种有趣主题的精彩列表
 
