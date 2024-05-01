@@ -883,6 +883,8 @@
 
 * [allegroai/clearml](https://github.com/allegroai/clearml) ClearML - 自动神奇的 CI/CD，可简化您的 AI 工作负载。实验管理、数据管理、管道、编排、调度和服务在一个 MLOps/LLMOps 解决方案中
 
+* [personqianduixue/Math_Model](https://github.com/personqianduixue/Math_Model) 数学建模、美赛、美国大学生数学建模竞赛、全国大学生数学建模竞赛、华为杯研究生数学建模、国赛LaTeX模板、美赛LaTeX模板、mathorcup、电工杯、华中赛、APMCM、深圳杯、中青杯、华东杯、数维杯、东三省数学建模、认证杯、数学建模书籍、常用matlab算法、国赛评阅要点、软件模型算法汇总、智能算法、优化算法、现代的算法
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1099,6 +1101,8 @@
 * [XiaoMi/MiLM-6B](https://github.com/XiaoMi/MiLM-6B) 由小米开发的一个大规模预训练语言模型，参数规模为64亿。在 C-Eval 和 CMMLU 上均取得同尺寸最好的效果。
 
 * [yuzhimanhua/Awesome-Scientific-Language-Models](https://github.com/yuzhimanhua/Awesome-Scientific-Language-Models) 科学领域（例如，数学、物理、化学、生物学、医学、材料科学和地球科学）中预训练语言模型的精选列表，涵盖不同的模型大小（从 <100M 到 70B 参数）和模态（例如，语言、视觉、分子、蛋白质、图形和表格）。
+
+* [CLUEbenchmark/CLUEPretrainedModels](https://github.com/CLUEbenchmark/CLUEPretrainedModels) 高质量中文预训练模型集合：最先进大模型、最快小模型、相似度专门模型
 
 ## 文本分类
 
@@ -2208,6 +2212,69 @@
 
 * [lrhh123/ChatGPT-On-CS](https://github.com/lrhh123/ChatGPT-On-CS) 基于大模型的智能对话客服工具，支持微信、千牛、哔哩哔哩、抖音企业号、抖音、抖店、微博聊天、小红书专业号运营、小红书、知乎等平台接入，可选择 GPT3.5/GPT4.0/ 懒人百宝箱 （后续会支持更多平台），能处理文本、语音和图片，通过插件访问操作系统和互联网等外部资源，支持基于自有知识库定制企业 AI 应用。
 
+* [LuckyyySTA/Awesome-LLM-hallucination](https://github.com/LuckyyySTA/Awesome-LLM-hallucination) 大型语言模型中的幻觉调查：原则、分类法、挑战和开放性问题。我们调查了与大型语言模型幻觉相关的论文。这包括相关的调查或分析论文、幻觉原因、幻觉检测和基准、幻觉缓解，以及该领域的挑战和开放性问题。
+
+* [ninehills/llm-inference-benchmark](https://github.com/ninehills/llm-inference-benchmark) LLM-推理基准测试
+
+* [turboderp/exllamav2](https://github.com/turboderp/exllamav2) 用于在现代消费级 GPU 上本地运行LLMs的快速推理库
+
+* [OpenNMT/CTranslate2](https://github.com/OpenNMT/CTranslate2) C++ 和 Python 库，用于使用 Transformer 模型进行高效推理。该项目实现了一个自定义运行时，该运行时应用了许多性能优化技术，例如权重量化、层融合、批量重新排序等，以加速和减少 Transformer 模型在 CPU 和 GPU 上的内存使用。
+
+* [InternLM/lmdeploy](https://github.com/InternLM/lmdeploy) 用于压缩、部署和提供LLMs的工具包。高效推理：LMDeploy 通过引入持久批处理（又称连续批处理）、阻塞 KV 缓存、动态拆分和融合、张量并行、高性能 CUDA 内核等关键功能，提供比 vLLM 高 1.8 倍的请求吞吐量。有效量化：LMDeploy 支持纯权重和 k/v 量化，4 位推理性能比 FP16 高 2.4 倍。量化质量已通过 OpenCompass 评估得到确认。轻松的分发服务器：利用请求分发服务，LMDeploy 有助于在多台机器和卡上轻松高效地部署多模型服务。交互式推理模式：通过缓存多轮对话过程中的注意力 k/v，引擎可以记住对话历史，从而避免对历史会话的重复处理。
+
+* [freshllms/freshqa](https://github.com/freshllms/freshqa) 新颖的动态 QA 基准测试，包含多种问答类型，包括需要快速变化的世界知识的问题以及需要揭穿的具有错误前提的问题。LLMs我们在双模式评估程序下对各种封闭和开源进行了基准测试，使我们能够衡量正确性和幻觉。通过涉及超过50K个判断的人工评估，我们揭示了这些模型的局限性，并展示了巨大的改进空间：例如，所有模型（无论模型大小如何）都在涉及快速变化的知识和错误前提的问题上挣扎。在这些结果的激励下，我们提出了 FreshPrompt，这是一种简单的几次提示方法，通过将从搜索引擎检索到的相关和最新信息合并到提示中，大大提高了 FreshQA LLM 的性能。
+
+* [LC1332/Luotuo-QA](https://github.com/LC1332/Luotuo-QA) 骆驼QA是指给定一段特定的文本，用户针对文本中的内容，进行一个提问。语言模型试图理解文本中的内容，对用户的问题进行回答。这里我们从陈丹琦学姐参与的CoQA数据集出发，基于唐杰老师实验室发布的GLM6B模型，建立了中文的骆驼QA模型。
+
+* [CLUEbenchmark/SuperCLUE-safety](https://github.com/CLUEbenchmark/SuperCLUE-safety) 中文大模型多轮对抗安全基准，生成式大模型生成内容具有一定的不可控性，输出的内容并不总是可靠、安全和负责任的。比如当用户不良诱导或恶意输入的时候， 模型可能产生一些不合适的内容，甚至是价值观倾向错误的内容。这些都限制了大模型应用的普及以及大模型的广泛部署。
+
+* [CrazyBoyM/phi3-Chinese](https://github.com/CrazyBoyM/phi3-Chinese) phi3以小搏大（从微软放出的跑分数据看），用不到1/2的小体积（3.8b）超越llama3 8b版性能表现，增大了在手机上部署的可行性。该仓库致力于收录分散在开源社区的各种phi3的训练变体版本，让更多网友发现那些不为人知的特色有趣权重。同时也会顺便整理phi相关训练、推理、部署的简单教程。
+
+* [vahe1994/AQLM](https://github.com/vahe1994/AQLM) 用于通过加法量化对大型语言模型进行极端压缩，与GPTQ等更简单的量化方法相比，AQLM量化需要更长的时间来校准。这只会影响量化时间，而不会影响推理时间。我们的工作建立在 MCQ 系列中的经典算法 Additive Quantization 之上，并使其适应语言模型的量化。
+
+* [openai/summarize_from_feedback](https://huggingface.co/datasets/openai/summarize_from_feedback) 在“从人类反馈中学习”( Learning to Summarize from Human Feedback paper)一文中，根据人类反馈训练了一个奖励模型(reward model)。然后使用奖励模型来训练总结模型，使其与人类的偏好保持一致。这是为奖励建模而发布的人类反馈数据集。此数据集分为两部分： comparisons 和 axis 。在这一 comparisons 部分中，人类注释者被要求从两个摘要中选择最好的。在这一 axis 部分中，人类注释者对摘要的质量进行了李克特量表的评分。 comparisons 该部件仅具有训练和验证拆分，并且 axis 该部件仅具有测试和验证拆分。
+
+* [openai/webgpt_comparisons](https://huggingface.co/datasets/openai/webgpt_comparisons) 在 WebGPT 论文中，作者根据人类反馈训练了一个奖励模型。他们使用奖励模型来训练一个长篇问答模型，以符合人类的偏好。这是在 WebGPT 项目结束时被标记为适合奖励建模的所有比较的数据集。总共有 19,578 个比较。数据集中的每个示例都包含一个问题的一对模型答案以及关联的元数据。每个答案都有一个来自人类的偏好分数，可用于确定两个答案中哪一个更好。
+
+* [Shenzhi-Wang/Llama3-Chinese-Chat](https://github.com/Shenzhi-Wang/Llama3-Chinese-Chat) 第一个基于Meta-Llama-3-8B-Instruct模型的ORPO专门针对中文进行微调的中文聊天模型。
+
+* [chtmp223/topicGPT](https://github.com/chtmp223/topicGPT) 通过提示大型语言模型进行主题建模”的脚本和提示。
+
+* [pjlab-sys4nlp/llama-moe](https://github.com/pjlab-sys4nlp/llama-moe) 通过持续的预培训建立来自 LLaMA 的专家组合。于 LLaMA 和 SlimPajama 的一系列开源专家混合 （MoE） 模型。我们通过以下两个步骤构建 LLaMA-MoE：将 LLaMA 的 FFN 划分为稀疏专家，并为每一层专家插入 top-K 门。使用来自 Sheared LLaMA 的优化数据采样权重和来自 SlimPajama 的过滤数据集，持续预训练初始化的 MoE 模型。
+
+* [https://github.com/X-PLUG/CValues](https://github.com/X-PLUG/CValues) 面向中文大模型价值观的评估与对齐研究。联合天猫精灵团队发起「给AI的100瓶毒药」项目，邀请中国知名专家学者，每位专家提出100个诱导偏见、歧视回答的刁钻问题，并对大模型的回答进行标注。项目吸引了环境科学、心理学、法理学等多个领域专家参与，并召开了专家研讨会，会后发布业内首个大语言模型治理开源中文数据集100PoisonMpts，包含专家提出的问题、专家自己撰写或认可的答案。提出一个评估中文大模型价值观水平的benchmark，基于safety和responsibility两个评价准则。我们评测了10+大模型，实验既包含人工评测、也构造多项选择题进行自动化评测。
+
+* [PandaBearLab/prompt-tutorial](https://github.com/PandaBearLab/prompt-tutorial)  chatGpt提示词课程，文包括的内容：prompt 原理、prompt 技巧、我的一些经验、一些公开的prompt模板、AI工具系列
+
+* [stanfordnlp/pyreft](https://github.com/stanfordnlp/pyreft) 一种强大、高效且可解释的微调方法。pyreft ，一个表示微调 （ReFT） 库，支持通过可训练的干预调整内部语言模型表示。通过更少的微调参数和更健壮的性能， pyreft 可以提高微调效率，降低微调成本，同时为研究适配参数的可解释性打开大门。
+
+* [xlang-ai/UnifiedSKG](https://github.com/xlang-ai/UnifiedSKG) 使用文本到文本语言模型进行统一和多任务结构化知识基础，结构化知识基础 （SKG） 利用结构化知识来完成用户请求，例如对数据库进行语义解析和对知识库进行问答。由于SKG任务的输入和输出是异质的，因此它们在历史上被不同的社区分开研究，这限制了对SKG的系统性和兼容性研究。在本文中，我们通过提出 UnifiedSKG 框架来克服这一局限性，该框架将 21 个 SKG 任务统一为文本到文本的格式，旨在促进系统的 SKG 研究，而不是专属于单个任务、领域或数据集。我们表明，像 T5 这样的大型语言模型，在必要时进行简单的修改，几乎可以在所有 21 个任务上实现最先进的性能。UnifiedSKG促进多任务学习。我们表明，多任务前缀调整对大多数任务都有好处，大大提高了整体性能。UnifiedSKG 是一个具有挑战性的零样本和少样本学习测试平台，T0、GPT-3 和 Codex 都在其中苦苦挣扎。UnifiedSKG 还支持对 SKG 任务中的结构化知识编码变体进行一系列对照实验。我们发现 T5 对结构化知识编码变化的敏感性因任务而异。
+
+* [google-research/xtreme](https://github.com/google-research/xtreme) 评估预训练多语言模型跨语言泛化能力的基准，涵盖 40 种类型不同的语言，包括 9 个任务。XTREME中包含的任务涵盖了自然语言处理中的一系列标准范式，包括句子分类、结构化预测、句子检索和问答。
+
+* [princeton-nlp/LLM-Shearing](https://github.com/princeton-nlp/LLM-Shearing) 剪切 LLaMA：通过结构化修剪加速语言模型预训练，与从头开始预训练相比，修剪强大的基础模型是获得强大的小规模语言模型的一种极具成本效益的方法。下图显示，给定 Llama-2-7B 模型（使用 2T 令牌预训练）的存在，修剪它会产生一个与 OpenLLaMA 模型一样强大的模型，其预训练成本仅为 3%。
+
+* [agi-templar/Stable-Alignment](https://github.com/agi-templar/Stable-Alignment) 多智能体社交模拟 + RLHF 的高效、有效和稳定的替代方案。论文“在模拟人类社会中训练社会一致的语言模型”的代码。目标是提供一种 RLHF 替代方案，该替代方案在对齐性能方面具有卓越性，在数据学习方面非常高效，并且易于在扩展环境中部署。我们没有训练一个可以在优化过程中进行游戏的额外奖励模型，而是直接在模拟社交游戏中训练记录的交互数据。我们发现高质量的数据+可靠的算法是稳定对齐学习的秘诀。
+
+* [lm-sys/llm-decontaminator](https://github.com/lm-sys/llm-decontaminator) 在没有更强的去除训练样本污染的情况下，Llama-rephraser：13B 模型在主要基准测试 （MMLU/GSK-8K/HumanEval） 中达到 GPT-4 性能！为了确保结果的有效性，我们遵循了 OpenAI 的去污方法，没有发现数据污染的证据。本文提出了一种基于更强LLM的去污器，并将其应用于现实世界的训练数据集（例如， the Stack、RedPajama），揭示了训练数据集与广泛使用的基准测试的显着重叠。现有的检测方法（例如，n-gram重叠，嵌入相似性）无法检测到这种污染。嵌入相似性方法很难将改写的问题与同一主题（高中美国历史）中的其他问题区分开来。而本文提出可以使用“LLM去污器”来量化数据集相对于基准的重新表述的样本。根据检测结果，您可以估计数据集中改写样本的污染情况，并将其从训练集中移除。该LLM净化器包括两个步骤：对于每个测试用例，“LLM去污器”使用嵌入相似性搜索识别相似度最高的前 k 个训练项。从这些项目中，“LLM去污器”生成 k 个潜在的改写对，每对都使用高级 LLM，例如 GPT-4 进行改写评估。结果表明，我们提出LLM的方法在去除改写样本方面明显优于现有方法。
+
+* [thu-coai/SafetyBench](https://github.com/thu-coai/SafetyBench) 评估安全性LLMs的综合基准，它包括 11,435 个不同的多项选择题，涵盖 7 个不同的安全问题类别。SafetyBench 还整合了中文和英文数据，便于以两种语言进行评估。
+
+* [OpenLMLab/LEval](https://github.com/OpenLMLab/LEval) L-Eval 的数据和代码，一个全面的长上下文语言模型评估基准，全面的长上下文语言模型（LCLM）评估套件，具有20个子任务，508个长文档和2,000多个人工标记的查询-响应对，包括不同的问题风格，域和输入长度（3k~200k标记）。L-Eval 有 2 组：封闭式任务和开放式任务。封闭式组主要测试对较长上下文的推理和理解能力，开放式组由需要聚合长文档信息（下载数据）的更多总结任务组成。
+
+* [bigai-nlco/LooGLE](https://github.com/bigai-nlco/LooGLE) 一个LLM全面的评估基准，用于长时间理解上下文，其中包含最新的（全部在2022年之后）和超长的现实文档（每个文档超过24k令牌，其中许多超过100k字）和6,000个新生成的问题，跨越不同的领域和类别。
+
+* [https://github.com/dwzhu-pku/PoSE](https://github.com/dwzhu-pku/PoSE) 位置跳跃训练，将上下文窗口有效扩展至LLMs极长 （ICLR 2024），引入了位置跳跃 （PoSE） 训练，用于高效适应大型语言模型~（LLMs） 到极长的上下文窗口。PoSE 通过在训练期间使用具有操纵位置索引的固定上下文窗口模拟长输入来模拟长输入，从而将训练长度与目标上下文窗口大小分离。以上下文窗口从 2,048 扩展到 8,192 为例，我们将 2,048 个标记的原始上下文窗口划分为两个块，并通过添加一个明显的跳过偏差项来调整第二个块的位置索引。对于每个训练示例，这些偏差项以及每个块的长度都会发生变化，以便模型可以通过微调来适应目标上下文窗口的所有相对位置。值得注意的是，通过将微调长度与目标上下文窗口解耦，PoSE 理论上可以无限扩展上下文窗口，仅受推理内存使用的限制。随着高效推理的不断进步~（例如，vLLM、Flash Attention），我们相信 PoSE 在进一步扩展上下文窗口方面具有巨大的前景。
+
+* [https://github.com/IAAR-Shanghai/UHGEval](https://github.com/IAAR-Shanghai/UHGEval) 基于无约束生成的中国大型语言模型幻觉基准测试，一个综合框架，旨在评估幻觉现象。其架构提供了灵活性和可扩展性，允许轻松集成新的数据集、模型和评估指标。该框架对评估常见的幻觉任务是用户友好的，包括我们的新华幻觉和牛津的TruthfulQA等。
+
+* [OpenAccess-AI-Collective/axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) 旨在简化各种 AI 模型微调的工具，支持多种配置和架构。 特征：训练各种 Huggingface 模型，如llama、pythia、falcon、mpt；支持 fullfinetune、lora、qlora、relora 和 gptq；使用简单的 yaml 文件或 CLI 覆盖自定义配置；加载不同的数据集格式，使用自定义格式，或自带标记化数据集；集成了 xformer、flash注意力、rope缩放和多重包装；通过 FSDP 或 Deepspeed 与单个 GPU 或多个 GPU 配合使用；在本地或云端使用 Docker 轻松运行；将结果和检查点（可选）记录到 wandb 或 mlflow
+
+* [bigscience-workshop/xmtf](https://github.com/bigscience-workshop/xmtf) 通过多任务微调实现跨语言泛化
+
+* [https://github.com/tangqiaoyu/ToolAlpaca](https://github.com/tangqiaoyu/ToolAlpaca) 具有 3000 个模拟案例的语言模型的通用工具学习。用于在最少的人工监督下学习紧凑语言模型中的通用工具使用能力。它通过多智能体仿真环境生成工具使用语料库，提供来自 400 多个工具的 3.9k 工具使用实例，从而解决了工具学习的挑战。
+
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2219,6 +2286,8 @@
 * [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) 一个具有130亿个参数的大型多语言代码生成模型，在20多种语言的大型代码语料库上进行了预训练。
 
 * [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) GitHub Copilot服务器的开源替代品。构建GitHub Copilot的本地托管替代方案的尝试。它在NVIDIA的Triton Inference Server中使用SalesForce CodeGen模型和FasterTransformer后端。
+
+* [QwenLM/CodeQwen1.5](https://github.com/QwenLM/CodeQwen1.5) Qwen 的代码版本，是 Qwen 团队开发的大型语言模型系列，阿里云。基于 Transformer 的纯解码器语言模型，在大量代码数据上进行了预训练。强大的代码生成能力和在一系列基准测试中的竞争性能;支持长上下文理解和生成，上下文长度为 64K 令牌;支持92种编码语言;在文本转SQL、bug修复等方面具有出色的性能。
 
 * [facebookresearch/codellama](https://github.com/facebookresearch/codellama) 基于 Llama 2 的代码大型语言模型系列，在开放模型中提供最先进的性能、填充功能、对大型输入上下文的支持以及编程任务的零镜头指令跟踪能力。我们提供多种风格来涵盖广泛的应用：基础模型（Code Llama），Python 专业化（Code Llama - Python）和指令遵循模型（Code Llama - Instruct），每个模型都有 7、13 和 34B 参数。所有模型都在16k 个令牌的序列上进行训练，并显示对最多 100k 个令牌的输入的改进。7B 和 13B 代码骆驼和代码骆驼 - 指示变体支持基于周围内容的填充。通过使用更高的代码采样微调 Llama 2 开发的。
 
@@ -2313,6 +2382,12 @@
 * [openai/human-eval](https://github.com/openai/human-eval) openai在2021年提出的，评估大型语言模型在代码上的表现
 
 * [liutiedong/goat](https://github.com/liutiedong/goat) 擅长算术任务的微调 LLaMA
+
+* [HC-Guo/Owl](https://github.com/HC-Guo/Owl) 大型语言模型，专为 AIOps 字段设计，用于处理与 IT 运营相关的任务（故障诊断、日志分析等）
+
+* [bigcode-project/octopack](https://github.com/bigcode-project/octopack) 指令调优代码大型语言模型，数据[bigcode/commitpack](https://huggingface.co/datasets/bigcode/commitpack) 4TB 的 GitHub 提交，涵盖 350 种编程语言，[bigcode/commitpackft](https://huggingface.co/datasets/bigcode/commitpackft) CommitPack 的过滤版本，用于类似于指令的高质量提交消息，在 CommitPackFT + OASST 上调整的 StarCoder-16B 模型，在 CommitPackFT + OASST 上优化的 CodeGeeX2-6B 指令。[bigcode/humanevalpack](https://huggingface.co/datasets/bigcode/humanevalpack) 扩展 OpenAI 的 HumanEval 以涵盖 6 种语言的 3 个场景
+
+* [OFA-Sys/gsm8k-ScRel](https://github.com/OFA-Sys/gsm8k-ScRel) 基于大型语言模型学习数学推理的扩展关系的代码和数据
 
 #### 健康医学大模型及语料库
 
@@ -2466,6 +2541,8 @@
 * [LawRefBook/Laws](https://github.com/LawRefBook/Laws) 本项目收集各类法律法规、部门规章、案例等，并将其按照章节等信息进行了处理。
 
 * [FudanDISC/DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM) 利用大型语言模型（LLM）提供广泛法律服务的智能法律系统。[DISC-Law-SFT 数据集](https://huggingface.co/datasets/ShengbinYue/DISC-Law-SFT) 
+
+* [open-compass/LawBench](https://github.com/open-compass/LawBench) 对大型语言模型的法律知识进行基准测试
 
 #### 其他大模型
 
@@ -2862,6 +2939,12 @@
 * [zjunlp/OceanGPT-7b](https://huggingface.co/zjunlp/OceanGPT-7b) 使用 KnowLM 训练的海洋科学任务，[OceanBench](https://huggingface.co/datasets/zjunlp/OceanBench)的基准测试，以评估海洋学任务的能力LLMs。它总共包括15个与海洋相关的任务，如问答、提取和描述。
 
 * [GitHub - arielnlee/Platypus: Code for fine-tuning Platypus fam LLMs using LoRA](https://github.com/arielnlee/Platypus) # 鸭嘴兽：快速、廉价、强大的 LLMs。基于 LLaMA 和 LLaMa-2 变压器架构的一系列微调和合并变体。鸭嘴兽利用 LoRA 和 PEFT。
+
+* [HIT-SCIR/huozi](https://github.com/HIT-SCIR/huozi) 活字3.0为一个稀疏混合专家模型，支持32K上下文，具有丰富的中、英文知识和强大的数学推理、代码生成能力。活字3.0较旧版活字具有更强的指令遵循能力和安全性。[中文MT-Bench](https://github.com/HIT-SCIR/huozi/blob/main/data/mt-bench-zh): 本数据集是英文MT-Bench对话能力评测数据集的中文版。它包含了一系列多轮对话问题，每一组问题都经过了精心的人工校对，并为适应中文语境进行了必要的调整。
+
+* [thu-coai/CharacterGLM-6B](https://github.com/thu-coai/CharacterGLM-6B) 用大型语言模型来进行自定义中文 AI 角色对话，主要考虑了七种属性，包括身份、兴趣、观点、经历、成就、社交关系和其他。行为主要由一些动态的元素组成：语言特征、情感表达和互动模式。例如，老年人更倾向于使用一些更正式的语言，而青少年则更喜欢用网络流行语。CharacterGLM则主要考虑了语言学特征和性格作为行为方面的设计。收集了包含属性和行为的角色描述，并众包构建了一个大规模高质量的对话数据集，并将角色描述转化为了自然语言提示，进而使用从6B到66B参数的ChatGLM模型进行微调来打造CharacterGLM。此外，还收集了一部分线上交互数据来增强 CharacterGLM 的训练，以实现CharacterGLM的自我完善式迭代。
+
+* [IEIT-Yuan/Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0) 源2.0 是浪潮信息发布的新一代基础语言大模型。我们开源了全部的3个模型：源2.0-102B、源2.0-51B、源2.0-2B。提供预训练、微调、推理服务的相关脚本，以供研发人员做进一步开发。源2.0是在源1.0的基础上，利用更多样的高质量预训练数据和指令微调数据集，令模型在语义、数学、推理、代码、知识等不同方面具备更强的理解能力。
 
 ### 其他_文本生成、文本对话
 
@@ -3319,6 +3402,12 @@
 * [CausalLM/Refined-Anime-Text](https://huggingface.co/datasets/CausalLM/Refined-Anime-Text) 包含超过一百万条、约4400万个 GPT-4/3.5 token的、全新合成的文本数据集的动漫主题子集。该数据集此前从未公开发布过。由于社区对动漫文化的浓厚兴趣，且考虑到通识数据集中此类题材的代表性不足，以及原始文本中网络俚语和无关内容的泛滥而导致的低质量、难以清理的问题，我们决定发布这份子集供进一步研究。这份数据集旨在用于研究大型语言模型中网络亚文化的数据治理，并探索具有挑战性的 LLM 持续预训练问题，例如特定主题的知识蒸馏以及对未见知识的持续学习。
 
 * [openai/miniF2F](https://github.com/openai/miniF2F) 正式的数学基准测试（跨多个正式系统进行翻译），由奥林匹克竞赛（AMC、AIME、IMO）以及高中和本科数学课程的练习陈述组成。
+
+* [liuhuanyong/DomainWordsDict](https://github.com/liuhuanyong/DomainWordsDict) 涵盖68个领域、共计916万词的专业词典知识库，可用于文本分类、知识增强、领域词汇库扩充等自然语言处理应用。
+
+* [CLUEbenchmark/CLUEDatasetSearch](https://github.com/CLUEbenchmark/CLUEDatasetSearch) 搜索所有中文NLP数据集，附常用英文NLP数据集。包括 NER、QA、情感分析、文本分类、文本匹配、文本摘要、机器翻译、知识图谱、语料库、阅读理解等。
+
+
 
 ## 关系抽取、信息抽取
 
