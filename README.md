@@ -969,6 +969,12 @@
 
 * [NielsRogge/Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials) HuggingFace的 Transformers 库制作的演示。
 
+* [lucidrains/recurrent-memory-transformer-pytorch](https://github.com/lucidrains/recurrent-memory-transformer-pytorch) 在 Pytorch 中实现 Recurrent Memory Transformer （openreview）。他们最近发表了一篇简短的后续论文，证明它至少能够复制 100 万个代币的信息。毫无疑问，在我看来，RMT 会成为比 AdA 更强大的 RL 代理，AdA 只是一个 Transformer-XL - 更新：递归内存决策转换器
+
+* [lhao499/RingAttention](https://github.com/lhao499/RingAttention) 使用块态变换器实现近乎无限的上下文的环形(Ring)注意力。Blockwise Parallel Transformer （BPT） 以分块方式计算注意力和前馈，允许训练和推断序列，其长度是标准内存效率注意力方法（如flash（闪光）注意力）可管理的序列的四倍。Ringwise Parallel Transformer 的环形注意力使训练序列的长度达到“设备数量”的长度，比 BPT 的长度长几倍。这是通过将注意力和前馈计算分布在多个设备上并将通信与计算重叠来实现的。由于注意力和前馈网络的块计算，可以在上下文大小上使用数千万个令牌进行训练，而不会增加任何通信或计算开销。
+
+* [lucidrains/MEGABYTE-pytorch](https://github.com/lucidrains/MEGABYTE-pytorch) 在 Pytorch 中实现 MEGABYTE，使用多尺度转换器预测百万字节序列。为了解决当前transformer模型对输入的限制，MetaAI提出的MetaByte引入了一个概念，称为patch，将模型的输入序列分割成固定大小的patches，这是一个类似于token的概念，但是显然比token覆盖的范围要宽。然后通过一个全局的模块，建立一个大的自回归transformer，把输入和输出从tokens变成patches。同时，引入了一个本地的模块，用于每个patch内部的字节的预测，其输入是从全局模块来的上下文patches表示结果，输出是预测下一个patch，这是一个小的自回归模型。
+
 ## BERT优化
 
 * [google-research/bert](https://github.com/google-research/bert) Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
@@ -2098,7 +2104,7 @@
 
 * [tmc/langchaingo](https://github.com/tmc/langchaingo) LangChain for Go，Go 编写基于LLM程序的最简单方法
 
-* [AnswerDotAI/fsdp_qlora](https://github.com/AnswerDotAI/fsdp_qlora) 使用量化 LoRA + FSDP 进行LLMs训练。
+* [AnswerDotAI/fsdp_qlora](https://github.com/AnswerDotAI/fsdp_qlora) 使用量化 LoRA + FSDP 进行LLMs训练。FSDP-QLoRA 结合了数据并行性（Fully Sharded Data Parallelism（FSDP） 支持跨 GPU 分片模型参数、优化器状态和梯度）、4 位量化和 LoRA（QLoRA Quantized LoRA），可在双 24GB GPU 系统上训练 LLMs 多达 70B 参数。该技术由 Answer.AI 与 BitsandBytes 合作发布，旨在使训练 LLMs 更加高效，并且对每个人来说都更容易使用。[bitsandbytes/fsdp_qlora](https://huggingface.co/docs/bitsandbytes/main/en/fsdp_qlora)
 
 * [getzep/zep](https://github.com/getzep/zep) 人工智能助手的长期记忆。从聊天记录中回忆、理解和提取数据。为个性化 AI 体验提供支持。
 
@@ -2206,6 +2212,8 @@
 
 * [sambanova/toolbench](https://github.com/sambanova/toolbench) ToolBench 是一个基准测试，为了研究各类LLMs在软件工具操作上的差距。由用于实际任务的各种软件工具组成。还提供了易于使用的基础设施，以直接评估每个模型的执行成功率。
 
+* [karpathy/llm.c](https://github.com/karpathy/llm.c) LLM简单、纯 C/CUDA 的培训。不需要 245MB 的 PyTorch 或 107MB 的 cPython。训练 GPT-2 （CPU， fp32） 在单个文件 train_gpt2.c 中是 ~1,000 行干净代码，在 GPU 上训练它是 ~2,000 行（添加 CUDA 内核）在 train_gpt2.cu 中。代码立即编译并运行，它与 PyTorch 参考实现完全匹配，并且它 ~匹配（编译）PyTorch 的速度（fp32，无闪存注意）。我选择 GPT-2 作为第一个工作示例，因为它是 LLMs的祖父，第一次将现代堆栈放在一起。
+
 * [HowieHwong/TrustLLM](https://github.com/HowieHwong/TrustLLM) 关于可信度的综合研究LLMs，包括可信度不同维度的原则，建立的基准，评估和主流LLMs可信度的分析，以及对开放挑战和未来方向的讨论。具体来说，我们首先提出了一套跨越八个不同维度的可信赖LLMs原则。基于这些原则，我们进一步建立了六个维度的基准，包括真实性、安全性、公平性、鲁棒性、隐私和机器伦理。然后，我们提出了一项研究，评估了 TrustLLM 中的 16 个主流LLMs，包括 30 多个数据集。本文档解释了如何使用 trustllm python 包来帮助您更快地评估可信度的性能LLM。
 
 * [thunlp/InfLLM](https://github.com/thunlp/InfLLM) 揭示使用免训练记忆理解超长序列的内在能力LLMs，InfLLM 将远程上下文存储到额外的内存单元中，并采用一种有效的机制来查找与令牌相关的单元以进行注意力计算。因此，InfLLM 允许LLMs有效地处理长序列，同时保持捕获长距离依赖关系的能力。在没有任何训练的情况下，InfLLM 可以在LLMs几千个令牌的序列上进行预训练，从而获得比在长序列上不断训练这些LLMs令牌的竞争基线更好的性能。即使序列长度缩放到 1024K，InfLLM 仍然有效地捕获长距离依赖关系。
@@ -2235,6 +2243,8 @@
 * [openai/summarize_from_feedback](https://huggingface.co/datasets/openai/summarize_from_feedback) 在“从人类反馈中学习”( Learning to Summarize from Human Feedback paper)一文中，根据人类反馈训练了一个奖励模型(reward model)。然后使用奖励模型来训练总结模型，使其与人类的偏好保持一致。这是为奖励建模而发布的人类反馈数据集。此数据集分为两部分： comparisons 和 axis 。在这一 comparisons 部分中，人类注释者被要求从两个摘要中选择最好的。在这一 axis 部分中，人类注释者对摘要的质量进行了李克特量表的评分。 comparisons 该部件仅具有训练和验证拆分，并且 axis 该部件仅具有测试和验证拆分。
 
 * [openai/webgpt_comparisons](https://huggingface.co/datasets/openai/webgpt_comparisons) 在 WebGPT 论文中，作者根据人类反馈训练了一个奖励模型。他们使用奖励模型来训练一个长篇问答模型，以符合人类的偏好。这是在 WebGPT 项目结束时被标记为适合奖励建模的所有比较的数据集。总共有 19,578 个比较。数据集中的每个示例都包含一个问题的一对模型答案以及关联的元数据。每个答案都有一个来自人类的偏好分数，可用于确定两个答案中哪一个更好。
+
+* [xfactlab/orpo](https://github.com/xfactlab/orpo) 提出了一种称为ORPO的方法（Odds Ratio Preference Optimization，赔率比偏好优化），这种方法针对不受欢迎的生成内容施与小小惩罚就足以实现偏好对齐的 SFT，通过将 SFT 和对齐结合到一个新的目标（损失函数）中来训练基础大语言模型，从而免去了耗时耗力的SFT阶段。根据论文架构图显示，ORPO不需要监督微调、奖励模型和参考模型。
 
 * [Shenzhi-Wang/Llama3-Chinese-Chat](https://github.com/Shenzhi-Wang/Llama3-Chinese-Chat) 第一个基于Meta-Llama-3-8B-Instruct模型的ORPO专门针对中文进行微调的中文聊天模型。
 
@@ -2274,6 +2284,35 @@
 
 * [https://github.com/tangqiaoyu/ToolAlpaca](https://github.com/tangqiaoyu/ToolAlpaca) 具有 3000 个模拟案例的语言模型的通用工具学习。用于在最少的人工监督下学习紧凑语言模型中的通用工具使用能力。它通过多智能体仿真环境生成工具使用语料库，提供来自 400 多个工具的 3.9k 工具使用实例，从而解决了工具学习的挑战。
 
+* [aurora-develop/aurora](https://github.com/aurora-develop/aurora) （带UI）免费的GPT3.5，支持使用3.5的access 调用，注：仅ip属地支持免登录使用ChatGpt可以使用(也可以自定义Baseurl来绕过限制)
+
+* [McGill-NLP/webllama](https://github.com/McGill-NLP/webllama) 使用Llama 3 构建的最强大的代理，并针对带有对话的 Web 导航进行了微调。构建有效的以人为本的代理来浏览网页。我们不想取代用户，而是为他们配备强大的助手。
+
+* [FMInference/H2O](https://github.com/FMInference/H2O) 用于大型语言模型高效生成推理的重磅 Oracle，大型语言模型（LLMs）尽管最近取得了令人瞩目的成就，但部署成本明显过高，特别是对于涉及长内容生成的应用程序，例如对话系统和故事写作。通常，除了模型参数外，还存储了大量瞬态状态信息（称为 KV 缓存），并随序列长度和批量大小线性缩放。在本文中，我们介绍了一种实现 KV 缓存的新方法，该方法可显着减少其内存占用。我们的方法基于一个值得注意的观察结果，即在计算注意力分数时，一小部分代币贡献了大部分价值。我们称这些代币为重击者（H2）。通过全面的调查，我们发现 （i） H2 的出现是自然的，并且与文本中频繁同时出现标记密切相关，以及 （ii） 删除它们会导致显着的性能下降。基于这些见解，我们提出了 Heavy Hitter Oracle （H2O），这是一种 KV 缓存驱逐策略，可动态保留最近代币和 H2 代币的平衡。我们将KV缓存逐出表述为一个动态子模问题，并证明了（在温和的假设下）我们新颖的逐出算法的理论保证，可以帮助指导未来的工作。我们使用 OPT、LLaMA 和 GPT-NeoX 在各种任务中验证了算法的准确性。在 OPT-6.7B 和 OPT-30B 上，我们实施了 20% 重击器的 H2O，将吞吐量提高了 29×、29× 和 3× 三个领先的推理系统 DeepSpeed Zero-Inference、Hugging Face Accelerate 和 FlexGen。在相同的批量大小下，H2O 最多可以减少 1.9× 的延迟。
+
+* [OpenMOSS/CoLLiE](https://github.com/OpenMOSS/CoLLiE) 帮助您从零开始训练大模型的完整工具箱。它提供了数据预处理、模型微调、模型保存以及训练过程各项指标监测等功能。CoLLiE集成了现有的并行策略、高效参数微调方法和高效优化器，以加快训练的速度，提高训练的质量，降低训练的开销。CoLLiE支持主流的多种模型（如MOSS, InternLM, LLaMA, ChatGLM等），您可以轻松在不同的模型之间切换。此外，CoLLiE提供了丰富的文档，使初学者可以快速入门。同时，CoLLiE还提供了高度可定制化的功能和灵活的配置选项，使有经验的用户能够根据自己的需求进行个性化定制。无论您是初学者还是有经验的专业人士，CoLLiE都可以为您提供满足需求的解决方案。CoLLiE 基于 DeepSpeed 和 PyTorch，为大型语言模型提供协作式和高效的调优方法。
+
+* [aurorax-neo/free-gpt3.5-2api](https://github.com/aurorax-neo/free-gpt3.5-2api) 免费chat GPT API
+
+* [open-compass/T-Eval](https://github.com/open-compass/T-Eval) 逐步评估大型语言模型的工具利用能力
+
+* [ymcui/Chinese-LLaMA-Alpaca-3](https://github.com/ymcui/Chinese-LLaMA-Alpaca-3) 基于Meta最新发布的新一代开源大模型Llama-3开发，是Chinese-LLaMA-Alpaca开源大模型相关系列项目（一期、二期）的第三期。本项目开源了中文Llama-3基座模型和中文Llama-3-Instruct指令精调大模型。这些模型在原版Llama-3的基础上使用了大规模中文数据进行增量预训练，并且使用精选指令数据进行精调，进一步提升了中文基础语义和指令理解能力，相比二代相关模型获得了显著性能提升。
+
+* [https://github.com/zjukg/KnowPAT](https://github.com/zjukg/KnowPAT) 一种LLMs与人类知识偏好保持一致的新管道。KnowPAT结合领域知识图谱来构建偏好集并设计新的对齐目标，以微调.LLMs
+
+* [usyd-fsalab/fp6_llm](https://github.com/usyd-fsalab/fp6_llm) 高效的 GPU 支持 6 位量化 （FP6） LLM 推理。与 4 位和 8 位量化对应物相比，6 位量化 （FP6） 可以在模型质量和推理成本之间实现更好的权衡，从而有效地减小大型语言模型的大小 （LLMs），并在各种应用程序中保持一致地保持模型质量。为了支持现代 GPU LLMs 的 6 位推理，我们提供了 FP6-LLM 的官方实现，在 fp16/int8 基线上实现了线性层的显著加速和 GPU 内存的缩减。高效的 CUDA 实现，用于启用 Tensor Core 的线性层（FP6 中的权重和 FP16 格式的激活）的混合输入矩阵乘法。
+
+* [https://github.com/Abbey4799/CELLO](https://github.com/Abbey4799/CELLO) CELLO 是系统评估大型语言 MOdels 的 ComplEx 指令理解能力的基准 （AAAI 2024）。我们为复杂指令设计了八个特征，并根据真实场景构建了一个全面的评估数据集。我们建立了四个标准并制定了相应的指标，因为目前的指标是不充分的、有偏见的或过于严格和粗糙的。我们通过大量的实验比较了具有代表性的面向中文和面向英语的模型在遵循复杂指令方面的性能。
+
+* [tmlr-group/DeepInception](https://github.com/tmlr-group/DeepInception) 催眠大型语言模型成为越狱者。披露了一种轻量级的方法，称为DeepInception，它可以很容易地催眠LLM成为越狱者并解锁其滥用风险。具体来说，《深度盗梦空间》利用拟LLM人化能力构建新颖的嵌套场景来表现，实现了正常场景下逃避使用控制的自适应方式，为进一步的直接越狱提供了可能性。根据经验，我们进行了全面的实验以证明其功效。我们的 DeepInception 可以达到与前代同行竞争的越狱成功率，并在后续交互中实现连续越狱，这揭示了 Falcon、Vicuna、Llama-2 和 GPT-3.5/4/4V 等开源/闭源LLMs自输的关键弱点。我们的调查呼吁人们应该更加关注安全方面，LLMs并加强对滥用风险的防御。
+
+* [Datayoo/HuggingFists](https://github.com/Datayoo/HuggingFists) 一个低代码数据流工具，允许方便地LLM使用 和 HuggingFace 模型，其中一些功能被认为是 Langchain 的低代码版本。
+
+* [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) 《开源大模型食用指南》基于Linux环境快速部署开源大模型，更适合中国宝宝的部署教程
+
+* [developersdigest/llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) 使用 Next.js、Groq、Mixtral、Langchain、OpenAI、Brave 和 Serper 构建受Perplexity(LLM智能搜索)启发的答案搜索引擎。包含构建复杂的应答引擎所需的代码和说明，该引擎利用了 Groq、Mistral AI 的 Mixtral、Langchain.JS、Brave Search、Serper API 和 OpenAI 的功能。该项目旨在根据用户查询有效地返回源、答案、图像、视频和后续问题，对于对自然语言处理和搜索技术感兴趣的开发人员来说，这是一个理想的起点。
+
+* [Zjh-819/LLMDataHub](https://github.com/Zjh-819/LLMDataHub) 指令微调数据集的快速指南，提供了专为聊天机器人训练设计的精选数据集集合，包括链接、大小、语言、用法以及每个数据集的简要描述。我们的目标是让研究人员和从业者更容易识别和选择最相关和最有用的数据集，以满足他们的聊天机器人LLM培训需求。无论您是致力于提高聊天机器人对话质量、响应生成还是语言理解，此存储库都能满足您的需求。
 
 #### 编程语言大模型及相关项目
 
@@ -2388,6 +2427,8 @@
 * [bigcode-project/octopack](https://github.com/bigcode-project/octopack) 指令调优代码大型语言模型，数据[bigcode/commitpack](https://huggingface.co/datasets/bigcode/commitpack) 4TB 的 GitHub 提交，涵盖 350 种编程语言，[bigcode/commitpackft](https://huggingface.co/datasets/bigcode/commitpackft) CommitPack 的过滤版本，用于类似于指令的高质量提交消息，在 CommitPackFT + OASST 上调整的 StarCoder-16B 模型，在 CommitPackFT + OASST 上优化的 CodeGeeX2-6B 指令。[bigcode/humanevalpack](https://huggingface.co/datasets/bigcode/humanevalpack) 扩展 OpenAI 的 HumanEval 以涵盖 6 种语言的 3 个场景
 
 * [OFA-Sys/gsm8k-ScRel](https://github.com/OFA-Sys/gsm8k-ScRel) 基于大型语言模型学习数学推理的扩展关系的代码和数据
+
+* [albertan017/LLM4Decompile](https://github.com/albertan017/LLM4Decompile) 逆向工程：使用大型语言模型反编译二进制代码
 
 #### 健康医学大模型及语料库
 
@@ -2946,6 +2987,12 @@
 
 * [IEIT-Yuan/Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0) 源2.0 是浪潮信息发布的新一代基础语言大模型。我们开源了全部的3个模型：源2.0-102B、源2.0-51B、源2.0-2B。提供预训练、微调、推理服务的相关脚本，以供研发人员做进一步开发。源2.0是在源1.0的基础上，利用更多样的高质量预训练数据和指令微调数据集，令模型在语义、数学、推理、代码、知识等不同方面具备更强的理解能力。
 
+* [Alibaba-NLP/SeqGPT](https://github.com/Alibaba-NLP/SeqGPT) 用于开放域序列理解的开箱即用大型语言模型
+
+* [https://github.com/Kipok/NeMo-Skills](https://github.com/Kipok/NeMo-Skills) 提供了一个管道来提高大型语言模型的“技能”（LLMs）。目前，我们专注于解决简单数学问题的能力，但更多的技能即将到来（例如编码和表格理解）。
+
+* [xverse-ai/XVERSE-65B](https://github.com/xverse-ai/XVERSE-65B) 由深圳元象科技自主研发的支持多语言的大语言模型（Large Language Model），参数规模为 650 亿，本次开源的模型为底座模型 XVERSE-65B。
+
 ### 其他_文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -3053,6 +3100,8 @@
 * [wangyuxinwhy/uniem](https://github.com/wangyuxinwhy/uniem) 统一嵌入模型，目标是创建中文最好的通用文本嵌入模型。202306发布 [M3E models](https://huggingface.co/moka-ai/m3e-base) ，在中文文本分类和文本检索上均优于 openai text-embedding-ada-002。
 
 * [stanford-futuredata/ColBERT](https://github.com/stanford-futuredata/ColBERT) 一种快速准确的检索模型，可在数十毫秒内对大型文本集合进行基于 BERT 的可扩展搜索。基于上下文（contextualized）的后期交互的排序模型 Efficient and Effective Passage Search via Contextualized Late Interaction over BERT 兼顾匹配的效率和doc中的上下文信息。
+
+* [McGill-NLP/llm2vec](https://github.com/McGill-NLP/llm2vec) LLM2Vec 是将仅LLMs解码器转换为文本编码器的简单方法。它由 3 个简单步骤组成：1） 启用双向注意力，2） 使用掩蔽的下一个令牌预测进行训练，以及 3） 无监督对比学习。该模型可以进一步微调，以实现最先进的性能。
 
 * [thunlp/OpenMatch](https://github.com/thunlp/OpenMatch) 总体架构包括两大部分：一是相关文档检索，即根据用户检索词，从大规模文档集合中返回最相关的Top-K(K通常为100或1000)文档。二是文档重排序，即将各神经网络模型和非神经网络模型的排序特征整合，对Top-K文档重排序，进一步提升排序效果。OpenMatch提供了融合外部知识图谱信息的知识增强模型，和筛选大规模数据的数据增强模型。
 
@@ -3407,7 +3456,25 @@
 
 * [CLUEbenchmark/CLUEDatasetSearch](https://github.com/CLUEbenchmark/CLUEDatasetSearch) 搜索所有中文NLP数据集，附常用英文NLP数据集。包括 NER、QA、情感分析、文本分类、文本匹配、文本摘要、机器翻译、知识图谱、语料库、阅读理解等。
 
+* [facebookresearch/anli](https://github.com/facebookresearch/anli/) 对抗性的自然语言推理基准，该数据集通过迭代、对抗性的人与模型在环程序收集。
 
+* [google-research-datasets/tydiqa](https://github.com/google-research-datasets/tydiqa) 包含 200k 个人工注释的问答对，采用 11 种类型不同的语言，在看不到答案和不使用翻译的情况下编写，专为自动问答系统的训练和评估而设计。此存储库为数据集提供评估代码和基线系统。
+
+* [castorini/mr.tydi](https://github.com/castorini/mr.tydi) 基于 TyDi 的多语言基准数据集，涵盖 11 种类型不同的语言。
+
+* [dqwang122/MLROUGE](https://github.com/dqwang122/MLROUGE) 用于多语言摘要的 ROUGE
+
+* [https://github.com/esdurmus/Wikilingua](https://github.com/esdurmus/Wikilingua) 多语言抽象摘要数据集，来自 WikiHow 的 18 种语言的 ~770k 篇文章和摘要对。
+
+* [PhilipMay/stsb-multi-mt](https://github.com/PhilipMay/stsb-multi-mt) 机器翻译的多语言 STS 基准数据集。
+
+* [unicamp-dl/mMARCO](https://github.com/unicamp-dl/mMARCO) MS MS MARCO 段落排名数据集的多语言版本。翻译了 MS MARCO 段落排名数据集，这是一个大规模的 IR 数据集，包含从 Bing 的搜索查询日志中抽取的超过五十万个匿名问题。mMARCO 包括 14 种语言（包括原始英文版本）。
+
+* [cluebenchmark/OCNLI](https://github.com/cluebenchmark/OCNLI) 中文原版自然语言推理任务
+
+* [jgc128/mednli](https://github.com/jgc128/mednli) 临床领域的自然语言推理数据集
+
+* [alipay/RJU_Ant_QA](https://github.com/alipay/RJU_Ant_QA) RJUA-QA（仁济医院泌尿外科和蚂蚁集团协作问答数据集）是一个创新的泌尿外科医学专业QA推理数据集。
 
 ## 关系抽取、信息抽取
 
