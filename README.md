@@ -443,6 +443,8 @@
 
 * [amusi/Deep-Learning-Interview-Book](https://github.com/amusi/Deep-Learning-Interview-Book) 深度学习面试宝典（含数学、机器学习、深度学习、计算机视觉、自然语言处理和SLAM等方向）
 
+* [xenova/transformers.js](https://github.com/xenova/transformers.js) 最先进的 Web 机器学习。直接在浏览器中运行🤗Transformers，无需服务器！ 被设计为在功能上等同于 Hugging Face 的 transformers python 库，这意味着您可以使用非常相似的 API 运行相同的预训练模型。这些模型支持不同模式的常见任务，例如：自然语言处理：文本分类、命名实体识别、问答、语言建模、摘要、翻译、多项选择和文本生成。计算机视觉：图像分类、物体检测和分割。音频：自动语音识别和音频分类。多模态：零样本图像分类。Transformers.js使用 ONNX 运行时在浏览器中运行模型。最好的部分是，您可以使用 🤗 Optimum 轻松地将预训练的 PyTorch、TensorFlow 或 JAX 模型转换为 ONNX。
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -884,6 +886,8 @@
 * [allegroai/clearml](https://github.com/allegroai/clearml) ClearML - 自动神奇的 CI/CD，可简化您的 AI 工作负载。实验管理、数据管理、管道、编排、调度和服务在一个 MLOps/LLMOps 解决方案中
 
 * [personqianduixue/Math_Model](https://github.com/personqianduixue/Math_Model) 数学建模、美赛、美国大学生数学建模竞赛、全国大学生数学建模竞赛、华为杯研究生数学建模、国赛LaTeX模板、美赛LaTeX模板、mathorcup、电工杯、华中赛、APMCM、深圳杯、中青杯、华东杯、数维杯、东三省数学建模、认证杯、数学建模书籍、常用matlab算法、国赛评阅要点、软件模型算法汇总、智能算法、优化算法、现代的算法
+
+* [BrainJS/brain.js](https://github.com/BrainJS/brain.js) GPU 加速了适用于浏览器和 Node.js 的 JavaScript 中的神经网络
 
 # NLP自然语言处理
 
@@ -3476,6 +3480,8 @@
 
 * [alipay/RJU_Ant_QA](https://github.com/alipay/RJU_Ant_QA) RJUA-QA（仁济医院泌尿外科和蚂蚁集团协作问答数据集）是一个创新的泌尿外科医学专业QA推理数据集。
 
+* [houbb/sensitive-word](https://github.com/houbb/sensitive-word) 敏感词/违禁词/违法词/脏词。基于 DFA 算法实现的高性能 java 敏感词过滤工具框架。请勿发布涉及政治、广告、营销、翻墙、违反国家法律法规等内容。高性能敏感词检测过滤组件，附带繁体简体互换，支持全角半角互换，汉字转拼音，模糊搜索等功能。
+
 ## 关系抽取、信息抽取
 
 * [roomylee/awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction) 专门用于关系提取的精选资源列表，关系提取是自然语言处理 (NLP) 中最重要的任务之一。
@@ -3970,6 +3976,20 @@
 * [gvergnaud/ts-pattern](https://github.com/gvergnaud/ts-pattern) 用于 TypeScript 的详尽模式匹配库，具有智能类型推理功能。
 
 * [Schniz/fnm](https://github.com/Schniz/fnm) 快速简单的Node.js版本管理器，内置于 Rust 中
+
+* [glideapps/quicktype](https://github.com/glideapps/quicktype) 从 JSON、Schema 和 GraphQL 生成类型和转换器
+
+* [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) 简单的、无需配置的本地私有 npm 注册表。无需整个数据库即可开始！Verdaccio 开箱即用，拥有自己的微型数据库，并且能够代理其他注册表（例如 npmjs.org），并在此过程中缓存下载的模块。对于那些希望扩展其存储功能的人来说，Verdaccio 支持各种社区制作的插件，以挂接到 Amazon 的 s3、Google Cloud Storage 等服务或创建自己的插件。
+
+* [fibjs/fibjs](https://github.com/fibjs/fibjs) 基于 Chrome 的 V8 JavaScript 引擎构建的 JavaScript 运行时。fibjs使用 fibers(纤程)-switch、同步式和非阻塞IO模型来构建可扩展的系统。
+
+* [krausest/js-framework-benchmark](https://github.com/krausest/js-framework-benchmark) 一些流行的 javascript 框架的性能比较，基准测试创建一个包含随机条目的大表，并测量各种操作的时间，包括渲染持续时间。
+
+* [rwaldron/idiomatic.js](https://github.com/rwaldron/idiomatic.js) 编写一致、惯用的 JavaScript 的原则
+
+* [TypeStrong/ts-node](https://github.com/TypeStrong/ts-node) 用 node.js 来执行 TypeScript，具有源映射和本机 ESM 支持。它JIT将TypeScript转换为JavaScript，使您能够直接在Node.js上执行TypeScript，而无需预编译。这是通过挂接节点的模块加载 API 来实现的，使其能够与其他Node.js工具和库无缝使用。
+
+* [gruntjs/grunt](https://github.com/gruntjs/grunt) JavaScript 任务运行程序。在执行重复性任务（如缩小、编译、单元测试、linting）时，您需要做的工作越少，您的工作就越容易。通过 Gruntfile 配置它后，任务运行器可以为您和您的团队完成大部分日常工作，而工作量基本上为零。Grunt 生态系统非常庞大，而且每天都在增长。有数百个插件可供选择，您可以使用 Grunt 以最少的努力自动执行几乎任何事情。如果有人还没有构建您需要的东西，那么创作自己的 Grunt 插件并将其发布到 npm 是一件轻而易举的事。了解如何开始。
 
 ## 前端开发框架及项目
 
@@ -4996,6 +5016,55 @@
 
 * [danilowoz/react-content-loader](https://github.com/danilowoz/react-content-loader) SVG 驱动的组件，可轻松创建占位符加载（如 Facebook 的卡片加载）。
 
+* [vuejs/vitepress](https://github.com/vuejs/vitepress) 由 Vue 驱动的静态站点生成器，也是 VuePress 的精神继承者，建立在 Vite 之上。
+
+* [vuematerial/vue-material](https://github.com/vuematerial/vue-material) 带有 Material Design 的即用型 Vue 组件，永久免费。
+
+* [c3js/c3](https://github.com/c3js/c3) 基于 D3 的可重用图表库，可以将图表更深入地集成到 Web 应用程序中。
+
+* [shadcn-ui/taxonomy](https://github.com/shadcn-ui/taxonomy) 使用新的路由器、服务器组件和 Next.js 13 中的所有新功能构建的开源应用程序。
+
+* [angular-ui/ui-router](https://github.com/angular-ui/ui-router) 在 AngularJS 中使用嵌套视图进行灵活路由的事实上的解决方案
+
+* [blitz-js/blitz](https://github.com/blitz-js/blitz) Next.js的全栈工具包
+
+* [katspaugh/wavesurfer.js](https://github.com/katspaugh/wavesurfer.js) 
+交互式波形渲染和音频播放库，非常适合 Web 应用程序。它利用现代 Web 技术提供强大且视觉上引人入胜的音频体验。
+
+* [troisjs/trois](https://github.com/troisjs/trois) ThreeJS + VueJS 3 + ViteJS，重写一些 WebGL 演示
+
+* [arkenfox/user.js](https://github.com/arkenfox/user.js) Firefox 隐私、安全和反跟踪：用于配置和强化的综合user.js模板
+
+* [markmead/hyperui](https://github.com/markmead/hyperui) 用于应用程序 UI、电子商务和营销的免费 Tailwind CSS 组件，支持深色模式、RTL 和 Alpine JS
+
+* [https://github.com/mapbox/mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js)  JavaScript 库，用于在 Web 上创建交互式、可自定义的矢量地图。它采用符合 Mapbox 样式规范的地图样式，将其应用于符合 Mapbox 矢量切片规范的矢量切片，并使用 WebGL 进行渲染。
+
+* [visgl/react-map-gl](https://github.com/visgl/react-map-gl) 围绕 MapboxGL（地图） JS 的 React 友好 API 包装器
+
+* [you-dont-need/You-Dont-Need-Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs) 很棒的时间和日期库，具有许多出色的功能和实用程序。但是，如果您正在处理对性能敏感的 Web 应用程序，则由于其复杂的 API 和较大的捆绑包大小，可能会导致巨大的性能开销。
+
+* [exceljs/exceljs](https://github.com/exceljs/exceljs) js 读取、操作电子表格数据和样式并将其写入 XLSX 和 JSON。从 Excel 电子表格文件作为项目进行逆向工程。
+
+* [jwilber/roughViz](https://github.com/jwilber/roughViz) 可重用的 JavaScript 库，用于在浏览器中创建粗略/手绘样式的图表。
+
+* [bpmn-io/bpmn-js](https://github.com/bpmn-io/bpmn-js) BPMN 2.0 渲染工具包和 Web 建模器。在浏览器中查看和编辑 BPMN 2.0 图表。
+
+* [HugoBlox/hugo-blox-builder](https://github.com/HugoBlox/hugo-blox-builder) 轻松创建任何类型的网站 - 无需代码。 一个应用程序，没有依赖项，没有 JS
+
+* [rawgraphs/rawgraphs-app](https://github.com/rawgraphs/rawgraphs-app) 一个 Web 界面，用于在 RAWGraphs 核心之上创建基于矢量的自定义可视化。RAWGraphs 是一个开放的 Web 工具，用于在令人惊叹的 d3.js 库之上创建基于矢量的自定义可视化。它由DensityDesign Research Lab（米兰理工大学）、Calibro和INMAGIK开发。
+
+* [bubkoo/html-to-image](https://github.com/bubkoo/html-to-image) 使用 HTML5 canvas 和 SVG 从 DOM 节点来生成图像。
+
+* [cure53/DOMPurify](https://github.com/cure53/DOMPurify) 纯 DOM、超快速、超宽容的 XSS 清理程序，适用于 HTML、MathML 和 SVG。DOMPurify 使用安全默认值，但提供了许多可配置性和钩子。
+
+* [obsidiandynamics/kafdrop](https://github.com/obsidiandynamics/kafdrop)  Web UI，用于查看 Kafka 主题和浏览消费者组。该工具显示代理、主题、分区、使用者等信息，并允许您查看消息。
+
+* [BrowserBox/BrowserBox](https://github.com/BrowserBox/BrowserBox) 从服务器上运行的浏览器浏览 Web，而不是在本地设备上。轻量级虚拟浏览器。为了安全、隐私等。基于 Web 的小型浏览器，可以嵌入到任何地方。它也是多人游戏，允许许多客户端同时在屏幕上共享相同的浏览会话。它轻巧且快速，消耗最少的系统资源，同时调整其流媒体质量，以利用尽可能多的带宽来提供低延迟、响应迅速的体验。
+
+* [Countly/countly-server](https://github.com/Countly/countly-server) 产品分析平台，可帮助团队跟踪、分析和处理他们在移动、Web 和桌面应用程序上的用户操作和行为。
+
+* [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) WebGL2 中的交互式矢量瓦片地图
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -5357,6 +5426,12 @@
 * [smallnest/rpcx](https://github.com/smallnest/rpcx) Go 中最好的微服务框架，就像阿里巴巴 Dubbo，但功能更多，易于扩展。试试吧。Java有dubbo， Golang有rpcx！为云而构建！
 
 * [TonnyL/Awesome_APIs](https://github.com/TonnyL/Awesome_APIs) 面向开发人员的 AWESOME API 集合。
+
+* [eggjs/egg](https://github.com/eggjs/egg) 与Node.js & Koa一起构建更好的企业框架和应用程序
+
+* [koajs/koa](https://github.com/koajs/koa) 富有表现力的 HTTP 中间件框架，用于node.js使 Web 应用程序和 API 编写起来更愉快。Koa 的中间件堆栈以类似堆栈的方式流动，允许您在下游执行操作，然后过滤和操作上游的响应。只有几乎所有 HTTP 服务器通用的方法才会直接集成到 Koa 的小型 ~570 SLOC 代码库中。这包括内容协商、节点不一致的规范化、重定向等。Koa 没有与任何中间件捆绑在一起。
+
+* [Activiti/Activiti](https://github.com/Activiti/Activiti) Activiti 是一个轻量级的工作流和业务流程管理 （BPM） 平台，面向业务人员、开发人员和系统管理员。它的核心是用于 Java 的超快速且坚如磐石的 BPMN 2 流程引擎。它是开源的，并在 Apache 许可下分发。Activiti 可以在任何 Java 应用程序、服务器、集群或...
 
 ## 网络与前后端开发_其他
 
@@ -6040,6 +6115,26 @@
 
 * [web1n/wechat-universal-flatpak](https://github.com/web1n/wechat-universal-flatpak/tree/main) 基于微信 Linux Universal 版打包，无发行版限制。
 
+* [versatica/mediasoup](https://github.com/versatica/mediasoup) 尖端的 WebRTC 视频会议。MediaSoup 及其客户端库旨在实现以下目标：成为 SFU（选择性转发单元）。支持 WebRTC 和普通 RTP 输入和输出。是服务器端的Node.js模块或 Rust crate。成为客户端的小型 TypeScript 和 C++ 库。极简主义：只需处理媒体层即可。信令不可知：不要强制要求任何信令协议。是超低级别的 API。支持所有现有的 WebRTC 端点。启用与知名多媒体库/工具的集成。
+
+* [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) 用于软件和 Web 开发的免费 API 的集合列表。
+
+* [drakkan/sftpgo](https://github.com/drakkan/sftpgo/) 功能齐全且高度可配置的 SFTP、HTTP/S、FTP/S 和 WebDAV 服务器 - S3、Google Cloud Storage、Azure Blob
+
+* [sergiotapia/magnetissimo](https://github.com/sergiotapia/magnetissimo) 为所有流行的 torrent 站点编制索引并将其保存到本地数据库的 Web 应用程序。
+
+* [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) Usenet 和 BitTorrent 用户的 PVR。它可以监控您喜欢的节目的新剧集的多个 RSS 提要，并会抓取、排序和重命名它们。它还可以配置为在质量更好的格式可用时自动升级已下载文件的质量。
+
+* [Radarr/Radarr](https://github.com/Radarr/Radarr) Usenet 和 BitTorrent 用户的电影收藏管理器。它可以监控新电影的多个 RSS 源，并将与客户端和索引器交互以抓取、排序和重命名它们。它还可以配置为在有更好的质量格式可用时自动升级库中现有文件的质量。请注意，仅支持给定影片的一种类型。如果您想要给定电影的 4k 版本和 1080p 版本，则需要多个实例。
+
+* [webtorrent/instant.io](https://github.com/webtorrent/instant.io) 通过 WebTorrent 传输流式文件（网络上的种子）。使用 WebTorrent 协议（基于 WebRTC 的 BitTorrent）下载/上传文件。由 WebTorrent 提供支持，这是第一个无需插件即可在浏览器中运行的 torrent 客户端。WebTorrent 由 JavaScript 和 WebRTC 提供支持。支持 Chrome、Firefox、Opera（桌面和 Android）。在控制台中运行 localStorage.debug = '*' 并刷新以获取详细的日志输出。
+
+* [transmission-remote-gui/transgui](https://github.com/transmission-remote-gui/transgui) 功能丰富的跨平台传输BitTorrent客户端。比内置的 Web GUI 更快，功能更多。
+
+* [roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) 基于浏览器的多语言 IMAP 客户端，具有类似应用程序的用户界面。它提供了您期望从电子邮件客户端获得的全部功能，包括 MIME 支持、地址簿、文件夹管理、邮件搜索和拼写检查。Roundcube Webmail 是用 PHP 编写的，需要 MySQL、PostgreSQL 或 SQLite 数据库。凭借其插件 API，它很容易扩展，并且用户界面可以使用皮肤完全自定义。设计用于在 Web 服务器上运行的代码主要用 PHP 和 Javascript 编写。它包括一个自定义框架，其中包含派生自 IlohaMail 的 IMAP 库，并且需要一组外部库（请参阅 composer.json 和 jsdeps.json 文件）。
+
+* [https://github.com/pallets/werkzeug](https://github.com/pallets/werkzeug) 全面的 python WSGI Web 应用程序库。它最初是 WSGI 应用程序的各种实用程序的简单集合，现已成为最先进的 WSGI 实用程序库之一。包括：一个交互式调试器，允许在浏览器中使用堆栈中任何帧的交互式解释器检查堆栈跟踪和源代码。一个功能齐全的请求对象，其中包含用于与标头、查询参数、表单数据、文件和 Cookie 交互的对象。一个响应对象，可以包装其他 WSGI 应用程序并处理流数据。用于将 URL 匹配到端点并为端点生成 URL 的路由系统，以及用于从 URL 捕获变量的可扩展系统。HTTP 实用程序，用于处理实体标记、缓存控制、日期、用户代理、cookie、文件等。在本地开发应用程序时使用的线程 WSGI 服务器。一个测试客户端，用于在测试期间模拟 HTTP 请求，而无需运行服务器。
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -6123,6 +6218,8 @@
 * [Uniswap/web3-react](https://github.com/Uniswap/web3-react) 简单、可扩展、依赖性最小化的框架，用于构建现代以太坊 dApp
 
 * [web3/web3.js](https://github.com/web3/web3.js) 以太坊 JSON RPC API 和相关工具的 TypeScript 实现，由 ChainSafe Systems 维护。
+
+* [fltenwall/web3-awesome](https://github.com/fltenwall/web3-awesome) web3百科全书， 打造 web3 全球第一中文资源
 
 # 推荐系统
 
@@ -9181,9 +9278,15 @@
 
 * [yahoo/CMAK](https://github.com/yahoo/CMAK) 用于管理 Apache Kafka 群集的工具
 
+* [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) MySQL 和 MariaDB 的 Web 界面，phpMyAdmin 使用 Composer 来管理库依赖项;使用 Git 开发版本时，必须手动运行 Composer。有关详细信息，请参阅文档。
+
 * [prisma/prisma](https://github.com/prisma/prisma) 下一代 ORM 对象关系映射（Object Relational Mapping，为了解决面向对象与关系数据库存在的互不匹配）for Node.js & TypeScript |PostgreSQL，MySQL，MariaDB，SQL Server，SQLite，MongoDB和CockroachDB
 
 * [sequelize/sequelize](https://github.com/sequelize/sequelize) 功能丰富的ORM（Object Relational Mapping，为了解决面向对象与关系数据库存在的互不匹配），用于现代Node.js和TypeScript，它支持PostgreSQL（支持JSON和JSONB），MySQL，MariaDB，SQLite，MS SQL Server，Snowflake，Oracle DB（v6），DB2和DB2 for IBM i。
+
+* [mikro-orm/mikro-orm](https://github.com/mikro-orm/mikro-orm) 基于数据映射器、工作单元和身份映射模式的 Node.js 的 TypeScript ORM。支持 MongoDB、MySQL、MariaDB、MS SQL Server、PostgreSQL 和 SQLite/libSQL 数据库。
+
+* [porsager/postgres](https://github.com/porsager/postgres) Postgres.js - 适用于 Node.js、Deno、Bun 和 CloudFlare 的最快全功能 PostgreSQL 客户端
 
 * [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) 一个快速分布式存储系统，适用于 blob、对象、文件和数据湖，适用于数十亿个文件！Blob 存储具有 O（1） 磁盘查找和云分层。Filer 支持 Cloud Drive、跨 DC 主动-主动复制、Kubernetes、POSIX FUSE 挂载、S3 API、S3 Gateway、Hadoop、WebDAV、加密、纠删码。
 
@@ -9264,6 +9367,8 @@
 * [dtm-labs/dtm](https://github.com/dtm-labs/dtm) 分布式事务框架，支持工作流、saga、tcc、xa、两阶段消息、发件箱模式，支持多种语言。
 
 * [k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) 用于扫描 Kubernetes 集群、诊断和分类问题的工具，用简单的英语。它将 SRE 经验编入其分析器中，并帮助提取最相关的信息以使用 AI 来丰富它。与 OpenAI、Azure、Bedrock、Google Gemini 和本地模型的开箱即用集成。
+
+* [mongodb/node-mongodb-native](https://github.com/mongodb/node-mongodb-native) 官方的MongoDB Node.js驱动程序
 
 # 云&虚拟化
 
@@ -10383,6 +10488,10 @@
 
 * [yaklang/yakit](https://github.com/yaklang/yakit) 网络安全一体化平台，基于安全融合的理念，Yaklang.io 团队研发出了安全领域垂直语言Yaklang，对于一些无法原生集成在 Yak 平台中的产品/工具，利用Yaklang可以重新编写他们的“高质量替代”。对于一些生态完整且认可度较高的产品，Yaklang能直接编译融合，并对源码进行必要修改，更好地适配Yaklang语言。对于一些不想写代码的安全从业者，Yakit会为Yaklang中所有的能力提供合适的GUI。
 
+* [chaitin/safeline](https://github.com/chaitin/safeline) 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。核心检测能力由智能语义分析算法驱动，专为社区而生，不让黑客越雷池半步。
+
+* [Safe3/uuWAF](https://github.com/Safe3/uuWAF) 工业级免费、高性能、高扩展，支持AI和语义引擎的Web应用和API安全防护产品-南墙。Web应用防火墙、WAF、WAAP
+
 # 硬件
 
 ## CPU RISC-V
@@ -10932,6 +11041,8 @@
 
 * [tebelorg/RPA-Python](https://github.com/tebelorg/RPA-Python) 用于 RPA（机器人流程自动化）的 Python 包
 
+* [python-visualization/folium](https://github.com/python-visualization/folium) folium 建立在 Python 生态系统的数据整理优势和 Leaflet.js 库的映射优势之上。在 Python 中操作您的数据，然后通过 folium 将其可视化在 Leaflet 地图中。
+
 ## C/C++ 程序设计
 
 * [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
@@ -11346,7 +11457,11 @@
 
 * [akullpp/awesome-java](https://github.com/akullpp/awesome-java) Java 编程语言的优秀框架、库和软件的精选列表。
 
+* [jobbole/awesome-java-cn](https://github.com/jobbole/awesome-java-cn) Java资源大全中文版，包括开发库、开发工具、网站、博客、微信、微博等，由伯乐在线持续更新。
+
 * [itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer) Java学习指南，内容涵盖Java基础、并发编程、虚拟机、企业级开发、面试等核心知识点。
+
+* [alibaba/p3c](https://github.com/alibaba/p3c) 阿里巴巴Java编码指南，该指南整合了阿里巴巴集团技术团队多年来的最佳编程实践。大量的 Java 编程团队对跨项目的代码质量提出了苛刻的要求，因为我们鼓励重用和更好地理解彼此的程序。我们过去见过很多编程问题。例如，有缺陷的数据库表结构和索引设计可能会导致软件架构缺陷和性能风险。另一个例子是令人困惑的代码结构难以维护。此外，未经身份验证的易受攻击的代码容易受到黑客攻击。为了解决这类问题，我们为阿里巴巴的Java开发人员编写了本文档。
 
 * [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) 「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
 
@@ -11426,9 +11541,13 @@
 
 * [jwtk/jjwt](https://github.com/jwtk/jjwt) 用于在 JVM 和 Android 上创建和验证 JSON Web 令牌 （JWT） 和 JSON Web 密钥 （JWK）。
 
+* [apache/shenyu](https://github.com/apache/shenyu) Apache ShenYu 是一个用于服务代理、协议转换和 API 治理的 Java 原生 API 网关。适用于所有微服务的可扩展、高性能、响应式 API 网关解决方案。
+
 ## Android 应用
 
 * [android/architecture-samples](https://github.com/android/architecture-samples) 展示了开发 Android 应用的不同体系结构方法。在它的不同分支中，你会发现相同的应用（一个 TODO 应用程序）的实现略有不同。
+
+* [KotlinBy/awesome-kotlin](https://github.com/KotlinBy/awesome-kotlin) 精选的 Kotlin 相关内容列表 灵感来自 awesome-java。
 
 * [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) 通过USB（或通过TCP / IP）连接的Android设备的显示和控制
 
@@ -11564,6 +11683,18 @@
 
 * [alibaba/vlayout](https://github.com/alibaba/vlayout) RecyclerView 的强大 LayoutManager 扩展，它为 RecyclerView 提供了一组布局。使其能够处理同一 recyclerview 中的网格、列表和其他布局时的复杂情况。
 
+* [ktorio/ktor](https://github.com/ktorio/ktor) 在 Kotlin 中以最小的工作量快速创建连接应用程序的框架
+
+* [JetBrains/Exposed](https://github.com/JetBrains/Exposed) 轻量级 SQL 库，位于 Kotlin 语言的 JDBC 驱动程序之上。Exposed 有两种类型的数据库访问：类型安全的 SQL 包装 DSL 和轻量级数据访问对象 （DAO）。
+
+* [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin) 用于 Kotlin 和 Kotlin 多平台的实用轻量级依赖注入框架
+
+* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) 对具有多平台支持的 Kotlin 协程的库支持。
+
+* [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) Kotlin 序列化由编译器插件组成，该插件为可序列化类生成访问者代码、具有核心序列化 API 的运行时库以及具有各种序列化格式的支持库。
+
+* [youlookwhat/CloudReader](https://github.com/youlookwhat/CloudReader) 云阅：一款基于网易云音乐UI，使用玩Android Api，Retrofit2 + RxJava2 + Room + MVVM-databinding架构开发的Android客户端
+
 ## 编辑器
 
 * [vim/vim](https://github.com/vim/vim) 老式UNIX编辑器Vi的大幅改进版本。添加了许多新功能：多级撤消、语法突出显示、命令行历史记录、在线帮助、拼写检查、文件名完成、块操作、脚本语言等。还有一个GUI可用。Vi 兼容性仍然保持不变。
@@ -11665,6 +11796,8 @@
 * [textmate/textmate](https://github.com/textmate/textmate) 适用于 macOS 10.12 或更高版本的图形文本编辑器
 
 * [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) 支持 PDF 注释的手写笔记软件。用 C++ 和 GTK3 编写，支持 Linux、macOS 和 Windows 10。支持来自 Wacom 数位板等设备的笔输入。
+
+* [JetBrains/intellij-community](https://github.com/JetBrains/intellij-community) 帮助您从源代码构建 IntelliJ IDEA 社区版，这是 IntelliJ 平台开发的基础。
 
 ## 终端
 
@@ -12126,6 +12259,8 @@
 * [egametang/ET](https://github.com/egametang/ET) Unity3D 客户端和 C# 服务器框架
 
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) 使用 LibGDX 制作的 《 文明V 》Civ V 的开源、以可修改性为重点的 Android 和桌面重制版
+
+* [colyseus/colyseus](https://github.com/colyseus/colyseus) 权威的 Node.js 多人游戏框架，其 SDK 可用于 Web、Unity、Defold、Haxe、Cocos 和 Construct3。该项目的重点是为实时和回合制游戏提供可同步的数据结构、匹配以及服务器端和客户端的易用性。
 
 ## 其他
 
