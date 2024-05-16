@@ -889,6 +889,12 @@
 
 * [BrainJS/brain.js](https://github.com/BrainJS/brain.js) GPU 加速了适用于浏览器和 Node.js 的 JavaScript 中的神经网络
 
+* [OpenRefine/OpenRefine](https://github.com/OpenRefine/OpenRefine) 基于 Java 的强大工具，它允许您加载数据、理解数据、清理数据、协调数据，并使用来自 Web 的数据进行扩充。所有这些都来自网络浏览器以及您自己计算机的舒适性和隐私性。
+
+* [saulpw/visidata](https://github.com/saulpw/visidata) 用于表格数据的交互式多功能工具。它将电子表格的清晰度、终端的效率和 Python 的强大功能结合到一个轻量级实用程序中，可以轻松处理数百万行。VisiData 支持 tsv、csv、sqlite、json、xlsx （Excel）、hdf5 和许多其他格式。
+
+* [finos/perspective](https://github.com/finos/perspective) 数据可视化和分析组件，特别适用于大型和/或流数据集。使用它来创建用户可配置的报告、仪表板、笔记本和应用程序，然后在浏览器中独立部署，或与 Python 和/或 Jupyterlab 协同部署。一个快速、内存高效的流式查询引擎，用 C++ 编写并针对 WebAssembly 和 Python 编译，具有用于 Apache Arrow 的读/写/流式处理，以及基于 ExprTK 的高性能列式表达式语言。一个与框架无关的用户界面，打包为自定义元素，通过 WebAssembly 在浏览器内提供支持，或通过 WebSocket 服务器 （Python/Node） 虚拟提供支持。JupyterLab 小部件和 Python 客户端库，用于笔记本中的交互式数据分析，以及可扩展的生产 Voila 应用程序。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -6135,6 +6141,18 @@
 
 * [https://github.com/pallets/werkzeug](https://github.com/pallets/werkzeug) 全面的 python WSGI Web 应用程序库。它最初是 WSGI 应用程序的各种实用程序的简单集合，现已成为最先进的 WSGI 实用程序库之一。包括：一个交互式调试器，允许在浏览器中使用堆栈中任何帧的交互式解释器检查堆栈跟踪和源代码。一个功能齐全的请求对象，其中包含用于与标头、查询参数、表单数据、文件和 Cookie 交互的对象。一个响应对象，可以包装其他 WSGI 应用程序并处理流数据。用于将 URL 匹配到端点并为端点生成 URL 的路由系统，以及用于从 URL 捕获变量的可扩展系统。HTTP 实用程序，用于处理实体标记、缓存控制、日期、用户代理、cookie、文件等。在本地开发应用程序时使用的线程 WSGI 服务器。一个测试客户端，用于在测试期间模拟 HTTP 请求，而无需运行服务器。
 
+* [hiddify/hiddify-next](https://github.com/hiddify/hiddify-next) 多平台自动代理客户端，支持Sing-box、X-ray、TUIC、Hysteria、Reality、Trojan、SSH等。它是开源的、安全的、无广告的。
+
+* [kangvcar/InfoSpider](https://github.com/kangvcar/InfoSpider) 集众多数据源于一身的爬虫工具箱，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、淘宝、支付宝、中国移动、中国联通、中国电信、知乎、哔哩哔哩、网易云音乐、QQ好友、QQ群、生成朋友圈相册、浏览器浏览历史、12306、博客园、CSDN博客、开源中国博客、简书。
+
+* [berty/berty](https://github.com/berty/berty) 安全的点对点消息传递应用程序，无论是否具有互联网访问、蜂窝数据或网络信任，都可以使用。建立在 Wesh 协议之上的隐私优先消息传递应用程序。安全和私密：默认情况下，消息是端到端加密的；元数据保持在最低限度；创建帐户不需要电话号码或电子邮件地址；即使在对抗性网络上使用时，也能保留其属性；具有审查弹性；去中心化、分布式、点对点和无服务器；由于采用了 BLE 技术和 mDNS，因此不需要互联网连接。；永久免费和开源Berty 被设计为在所有其他传统信使失败时用作通信工具。Berty Messenger 提供以下用例：当您需要通过不受信任的网络共享敏感信息时，例如在旅行时；
+如果您想匿名交流；如果您想完全控制您的数据，因此不想依赖第三方服务器；
+在积极监控和调整其网络的国家，限制其使用并审查其某些内容；在连接较弱或根本没有连接的区域。
+
+* [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) 开箱即用的高性能异步抖音、快手、TikTok、Bilibili数据爬取工具，支持API调用，在线批量解析及下载。
+
+* [secdev/scapy](https://github.com/secdev/scapy) 基于Python的交互式数据包操作程序和库。它能够伪造或解码各种协议的数据包，通过网络发送它们，捕获它们，使用 pcap 文件存储或读取它们，匹配请求和回复等等。它旨在通过使用有效的默认值来允许快速数据包原型设计。它可以轻松处理大多数经典任务，如扫描、跟踪路由、探测、单元测试、攻击或网络发现（它可以替换 hping 、 等的 85% nmap arpspoof arp-sk arping tcpdump wireshark p0f 的 、它在大多数其他工具无法处理的许多其他特定任务中也表现得很好，例如发送无效帧、注入您自己的 802.11 帧、组合技术（VLAN 跳跃 + ARP 缓存中毒、WEP 受保护信道上的 VoIP 解码等）等。Scapy 支持 Python 3.7+。它旨在跨平台运行，并在许多不同的平台（Linux、OSX、*BSD 和 Windows）上运行。
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -6172,6 +6190,16 @@
 * [ccxt/ccxt](https://github.com/ccxt/ccxt) JavaScript / TypeScript / Python / C# / PHP加密货币交易API，支持100多个比特币/山寨币交易所
 
 * [diem/diem](https://github.com/diem/diem) Diem的使命是建立一个值得信赖和创新的金融网络，为世界各地的人们和企业提供支持。Diem Core 实现了一个去中心化、可编程的分布式账本，它提供了一个可以为数十亿人赋能的金融基础设施。
+
+* [monero-project/monero](https://github.com/monero-project/monero) 门罗币：安全、私密、无法追踪的加密货币 。你是你的银行，你控制着你的资金，除非你允许他们这样做，否则没有人可以追踪你的转账。隐私：门罗币使用加密系统，允许您发送和接收资金，而无需在区块链（每个人都拥有的交易分类账）上轻松显示您的交易。这可确保您的购买、收据和所有转账在默认情况下保持私密。安全性：利用分布式点对点共识网络的强大功能，网络上的每笔交易都受到加密保护。单个钱包有一个 25 个单词的助记词种子，只显示一次，可以写下来备份钱包。钱包文件应使用强密码进行加密，以确保它们在被盗时毫无用处。不可追踪性：通过利用环签名（某种类型的密码学的特殊属性），门罗币能够确保交易不仅不可追踪，而且具有可选的模糊度量，确保交易不容易与单个用户或计算机绑定。去中心化：门罗币的效用取决于其去中心化的点对点共识网络——任何人都应该能够运行门罗币软件，验证区块链的完整性，并使用消费级商品硬件参与门罗币网络的各个方面。门罗币网络的去中心化是通过软件开发来维持的，该软件开发最大限度地降低了运行门罗币软件的成本，并抑制了专用非商品硬件的扩散。这是门罗币的核心实现。它是开源的，可以不受限制地完全免费使用，但以下许可协议中指定的除外。对创建以兼容方式使用协议和网络的门罗币替代实现的任何人没有任何限制。
+
+* [bitcoinbook/bitcoinbook](https://github.com/bitcoinbook/bitcoinbook) 掌握比特币第 3 版 - 对开放区块链进行编程
+
+* [kroma-network/tachyon](https://github.com/kroma-network/tachyon) GPU加速的模块化ZK（Zero Knowledge 零知识证明）后端，设计目标：通用：多功能的 ZK 库使开发人员能够以最小的工作量实现任何证明方案，从而提高开发人员的工作效率，要创建通用后端，使代码结构尽可能与代数结构保持一致至关重要。易于使用：实现广泛采用对于任何产品的成功都至关重要，因此，Tachyon项目的关键焦点之一是包括为各种编程语言和运行时提供软件包。超快：超光速子的首要要求是速度，不仅仅是任何速度，而是超快的速度，这需要 Tachyon 在 CPU 和 GPU 平台上提供卓越的性能。GPU 互操作性：Tachyon 的代码旨在在大多数情况下与 CPU 和 GPU 兼容。
+
+* [krzyzanowskim/CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) CryptoSwift 是用 Swift 实现的标准和安全加密算法的不断增长的集合。特征：简单易用、字符串和数据的便捷扩展、支持增量更新流...、支持iOS、Android、macOS、AppleTV、watchOS、Linux。Hash (Digest) 哈希（摘要）、循环冗余校验 （CRC）、Cipher 密码、RSA（公钥加密算法）、信息身份验证器、 密码操作模式、基于密码的密钥派生函数、数据填充、使用关联数据进行身份验证加密 （AEAD）。
+
+* [xmrig/xmrig](https://github.com/xmrig/xmrig) 高性能、开源、跨平台的RandomX、KawPow、CryptoNight 和 GhostRider 统一的 CPU/GPU 矿工和 RandomX 基准测试。`RandomX`是一个对通用CPU友好的工作量证明算法，它使用随机代码执行和多种内存困难技术使特定的硬件（ASIC）没有特别的优势。`KAWPOW`是一种挖矿算法，主要归功于Ravencoin，它还支持其他加密货币，如Gravium、Hilux以及其他不太受欢迎的项目，该算法可防止ASIC和潜在的中心化，为了实现这一点，开发人员在X15和SHA51算法之间进行交替，它们的选择还取决于前一个块的散列。`CryptoNight` 是一个内存难解（memory-hard）哈希函数，内存难解主要是指运算过程中需要大量的暂存器，一般的 GPU 或 ASIC 很难做到有这么大的内存空间（因为成本太高），设计架构上对 GPU, FPGA 和 ASIC 不友好，其运算步骤大概分为四步，第一步：初始化大量伪随机数（存放在暂存器），伪随机指的是结果看起来像的随机产生，但每次输入相同的参数，结果都是一样的，（大概需要 2M 内存）第二步：对这些伪随机数进行大量读写操作，运算过程及中间需要保存的数据对于 GPU 或 ADIC 来说也是不友好的，（大概需要 524,288 次）第三步：源数据替换，第四步：选择合适的哈希算法，并对所有的数据进行哈希运算以得到最终结果（这里的哈希运行能确保最终生成的数据长度是相同的）。GhostRider是专门为Rap​​toreum创建的算法。它的构建旨在阻止专用硬件（例如ASIC和FPGA）的出现，从而使任何人都可以竞争性地挖掘它并增加总体分散性。
 
 * [HelloZeroNet/ZeroNet](https://github.com/HelloZeroNet/ZeroNet) 使用比特币加密货币和 BitTorrent 网络的去中心化网站
 
@@ -7071,6 +7099,8 @@
 * [google-research/mint](https://github.com/google-research/mint) 多模式内容创建模型训练基础设施，包括 FACT 模型（AI Choreographer）实现。带有 AIST++ 的音乐条件 3D 舞蹈生成。
 
 * [yihongXU/TransCenter](https://github.com/yihongXU/TransCenter)TransCenter：用于多对象跟踪的密集查询转换器
+
+* [cvat-ai/cvat](https://github.com/cvat-ai/cvat) 使用 CVAT（行业领先的机器学习数据引擎）更好地进行注释。任何规模的团队都可以使用和信任任何规模的数据。用于计算机视觉的交互式视频和图像注释工具。它被全球数以万计的用户和公司使用。我们的使命是帮助世界各地的开发人员、公司和组织使用以数据为中心的 AI 方法解决实际问题。
 
 * [ashkamath/mdetr](https://github.com/ashkamath/mdetr) 用于端到端多模态理解的调制检测。输入描述文本及图片，识别出文字描述的对应物体。
 
@@ -8949,6 +8979,7 @@
 * [HKUDS/GraphGPT](https://github.com/HKUDS/GraphGPT) 该框架与图结构知识和图指令调优范式保持一致LLMs。图神经网络 （GNN） 通过图节点之间的递归信息交换和聚合来理解高级图结构。为了提高模型的鲁棒性，自监督学习（SSL）已成为一种很有前途的数据增强方法。然而，用于生成预训练图嵌入的现有方法通常依赖于对特定下游任务标签的微调，这限制了它们在标记数据稀缺或不可用的情况下的可用性。为了解决这个问题，我们的研究重点是在具有挑战性的零样本学习场景中提高图模型的泛化能力。受大型语言模型（LLMs）成功的启发，我们的目标是开发一种面向图的图LLM，即使没有来自下游图数据的任何信息，也可以在不同的下游数据集和任务中实现高度泛化。在这项工作中，我们提出了与图结构知识和图指令调优范式相一致LLMs的 GraphGPT 框架。我们的框架包含一个文本图基础组件，以在文本信息和图结构之间建立联系。此外，我们还提出了一种双阶段指令调优范式，并配有轻量级图形-文本对齐投影仪。该范式探索了自监督图结构信号和特定于任务的图指令，以指导LLMs理解复杂的图结构并提高其在不同下游任务中的适应性。我们的框架在监督和零样本图学习任务上进行了评估，展示了卓越的泛化性和优于最先进的基线。
 
 # 大数据
+## 数据库管理系统
 
 * [MySQL](https://www.mysql.com/) 开源的关系数据库管理系统 (RDBMS)。它的名字是“My”（联合创始人 Michael Widenius 的女儿 My 的名字）和“SQL”（结构化查询语言的缩写）的组合。它将数据组织成一个或多个数据表，其中数据可能相互关联；这些关系有助于构建数据。SQL 是程序员用来创建、修改和从关系数据库中提取数据以及控制用户对数据库的访问的语言。[mysql/mysql-server](https://github.com/mysql/mysql-server)
 
@@ -8979,6 +9010,8 @@
 * [apache/incubator-shardingsphere](https://github.com/apache/incubator-shardingsphere) 分布式数据库中间件生态圈
 
 * [Tencent/wwsearch](https://github.com/Tencent/wwsearch) 企业微信后台自研的全文检索引擎
+
+* [apache/druid](https://github.com/apache/druid) Apache Druid：高性能的实时分析数据库，可在负载下大规模对流和批处理数据进行亚秒级查询。在具有数十亿到数万亿行的高基数和高维数据集上，在毫秒内执行 OLAP 查询，而无需预先定义或缓存查询。构建实时分析应用程序，以一致的性能支持每秒 100 到 100,000 次查询，采用比其他数据库使用更少的基础架构的高效架构。通过 Druid 与 Apache Kafka 和 Amazon Kinesis 的原生集成释放流数据潜力，因为它支持每秒数百万个事件的到达时查询、低延迟摄取和有保证的一致性。Druid 专为快速查询和摄取非常重要的工作流而设计。Druid 擅长为 UI 提供支持、运行操作（即席）查询或处理高并发性。考虑将 Druid 作为各种用例的数据仓库的开源替代品。设计文档解释了关键概念。你可以通过我们的本地或 Docker 快速入门开始使用 Druid。Druid 提供了一组丰富的 API（通过 HTTP 和 JDBC）来加载、管理和查询您的数据。您还可以通过内置的 Web 控制台与 Druid 进行交互。使用点击式向导加载流式处理和批处理数据，以指导您完成引入设置。监视一次性任务和引入主管。轻松管理集群。从一个方便的位置查看数据源、区段、引入任务和服务。所有这些都由 SQL 系统表提供支持，允许您查看每个视图的基础查询。使用内置的查询工作台对 DruidSQL 和本机查询进行原型设计，或连接帮助您充分利用 Druid 的众多工具之一。
 
 * [apache/airflow](https://github.com/apache/airflow) 一个以编程方式编写，安排和监视工作流的平台
 
@@ -9154,6 +9187,8 @@
 
 * [apache/arrow](https://github.com/apache/arrow) 多语言工具箱，用于加速数据交换和内存处理。初创团队主要来自于Dremio公司和由Apache Parquet（一种列式存储格式）的开发人员于2016年创建。其最初的定位是通过定义一套通用数据结构和 API，使数据可以在不同的编程语言和计算引擎之间以零复制（zero-copy）的方式进行共享和交换，从而提高数据处理的效率。Arrow 的核心数据结构是统一的列式内存格式，该格式采用了内存连续布局和零复制策略，以减少数据传输的开销。它支持对连续的列式数据使用现代处理器中包SIMD（单指令、多数据）进行向量化操作。此外，Arrow 还提供了一套丰富的数据操作接口，如过滤、转换、聚合等，以支持高效的数据分析和处理。随着时间的推移，Apache Arrow 在逐渐扩展和发展，到现在Apache Arrow已经发展成为一个用于构建处理和传输大型数据集的高性能应用程序软件开发平台，它不仅支持多种编程语言（如C++, Java, Python, R等），还与许多主流的数据处理框架集成，如 Apache Spark、Pandas、TensorFlow 等。
 
+* [pgadmin-org/pgadmin4](https://github.com/pgadmin-org/pgadmin4) PostgreSQL 最受欢迎且功能丰富的开源管理和开发平台，PostgreSQL 是世界上最先进的开源数据库。pgAdmin 4 是作为 Web 应用程序编写的，服务器端使用 Python（Flask），客户端使用 ReactJS、HTML5 和 CSS，用于客户端处理和 UI。虽然使用 Web 技术开发，但 pgAdmin 4 可以使用浏览器部署在 Web 服务器上，也可以独立部署在工作站上。runtime/ 子目录包含一个基于 NWjs 的运行时应用程序，旨在允许这样做，它将执行 Python 服务器并显示 UI。
+
 ## 数据搜索引擎
 
 * [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -9193,6 +9228,8 @@
 * [alibaba/Chat2DB](https://github.com/alibaba/Chat2DB) 智能且通用的SQL客户端和数据库报告工具，集成了ChatGPT功能。
 
 * [amazon-science/esci-data](https://github.com/amazon-science/esci-data) 一个困难搜索查询的大型数据集，旨在促进查询和产品语义匹配领域的研究。对于每个查询，数据集提供最多 40 个潜在相关结果的列表，以及 ESCI 相关性判断（精确、替代、补充、不相关），指示产品与查询的相关性。每个查询产品对都附有其他信息。数据集是多语言的，因为它包含英语、日语和西班牙语的查询。
+
+* [searxng/searxng](https://github.com/searxng/searxng) 免费的互联网元搜索引擎，它汇总了来自各种搜索服务和数据库的结果。既不会跟踪用户，也不会对用户进行分析。
 
 ## 向量数据库、向量搜索、最近邻搜索
 
@@ -9237,6 +9274,8 @@
 * [lancedb/lancedb](https://github.com/lancedb/lancedb) 面向 AI 应用程序的开发人员友好型无服务器向量数据库。轻松为您的LLM应用程序添加长期记忆！
 
 * [infiniflow/infinity](https://github.com/infiniflow/infinity) 专LLM为应用程序构建的 AI 原生数据库，提供令人难以置信的快速全文和矢量搜索
+
+* [tensorchord/pgvecto.rs](https://github.com/tensorchord/pgvecto.rs) Postgres 中可扩展、低延迟和支持混合的矢量搜索。彻底改变矢量搜索，而不是数据库。超低延迟、高精度的矢量搜索。使用 SPLADE 或 BM25 算法进行基于关键字的向量搜索。跨任何语言的全面文本搜索，由 tsvector 提供支持。完整的 SQL 支持，支持连接和筛选器，没有限制或额外配置。非阻塞插入，具有最新的查询就绪情况。无需将向量和元数据与外部向量数据库同步，简化开发。支持 FP16 和 INT8 数据类型，以提高存储和计算效率。使用二进制向量进行向量索引，并支持 Jaccard 距离。子向量索引，如向量[0：256]，用于增强的套娃嵌入。支持高达 65535 的矢量长度，是最新尖端模型的理想选择。与 PostgreSQL 集成的久经考验的数据库生态系统。逻辑复制支持，确保高可用性。利用 PostgreSQL 实现高效的属性存储。简单的访问控制，如只读角色，由 PostgreSQL 提供支持。
 
 ## 其他__大数据
 
@@ -9370,6 +9409,57 @@
 
 * [mongodb/node-mongodb-native](https://github.com/mongodb/node-mongodb-native) 官方的MongoDB Node.js驱动程序
 
+* [xo/usql](https://github.com/xo/usql) PostgreSQL，MySQL，Oracle数据库，SQLite3，Microsoft SQL Server和许多其他数据库（包括NoSQL和非关系数据库）的通用命令行界面
+
+* [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) 用于关键任务应用程序的云原生分布式 SQL 数据库。旨在支持所有 PostgreSQL 功能。它最适合云原生 OLTP（即实时、业务关键型）应用程序，这些应用程序需要绝对的数据正确性，并且至少需要以下一项：可伸缩性、对故障的高容忍度或全球分布式部署。核心特点：`强大的 RDBMS 功能` Yugabyte SQL（简称 YSQL）重用了 PostgreSQL 的查询层（类似于 Amazon Aurora PostgreSQL），从而支持其大部分功能（数据类型、查询、表达式、运算符和函数、存储过程、触发器、扩展等）。以下是 YSQL 当前支持的功能的详细列表。`分布式事务` 事务设计基于 Google Spanner 架构。通过使用混合逻辑时钟将 Raft 共识用于复制和集群范围的分布式 ACID 事务，可以实现写入的强一致性。支持快照、可序列化和读取提交隔离级别。默认情况下，读取（查询）具有很强的一致性，但可以动态调整以从关注者和只读副本中读取。`持续可用性` YugabyteDB 通过本机故障转移和修复对常见中断具有极强的弹性。YugabyteDB可以配置为自动容忍磁盘、节点、可用区、区域和云故障。对于在公有云上跨多个区域部署一个区域的典型部署，RPO 为 0（表示故障时不会丢失任何数据），RTO 为 3 秒（表示故障节点提供的数据在 3 秒内可用）。`水平可扩展性` 扩展 YugabyteDB 集群以实现更高的 IOPS 或数据存储就像向集群添加节点一样简单。`地理分布式多云` YugabyteDB 可以部署在公共云中，也可以原生部署在 Kubernetes 中。它支持跨三个或更多容错域的部署，例如多区域、多区域和多云部署。它还支持具有单向主从和双向多主主配置的 xCluster 异步复制，可在双区域部署中利用。若要以低延迟提供（过时）数据，只读副本也是一项受支持的功能。`多 API 设计` YugabyteDB 的查询层构建为可扩展的。目前，YugabyteDB 支持两个分布式 SQL API：Yugabyte SQL （YSQL），一个完全关系的 API，重用 PostgreSQL 的查询层，以及 Yugabyte Cloud QL （YCQL），一个半关系型 SQL，支持 Apache Cassandra QL 根的文档/索引。`100% 开源` YugabyteDB 在 Apache 2.0 许可下是完全开源的。开源版本具有强大的企业功能，例如分布式备份、静态数据加密、动态 TLS 加密、更改数据捕获、只读副本等。
+
+* [mbdavid/LiteDB](https://github.com/mbdavid/LiteDB) 小型、快速和轻量级的 .NET NoSQL 嵌入式数据库。
+
+* [manticoresoftware/manticoresearch](https://github.com/manticoresoftware/manticoresearch) 易于使用的开源快速数据库，用于搜索 |现在是 Elasticsearch 的好替代品 |即将在 ELK 中直接替代 E。它非常快，因此比替代品更具成本效益，例如 Manticore 是：对于小数据，速度比 MySQL 快 182 倍；比 Elasticsearch 快 29 倍的日志分析；对于小型数据集，速度比 Elasticsearch 快 15 倍；中型数据比 Elasticsearch 快 5 倍；比 Elasticsearch 大数据快 4 倍；在单个服务器上提取数据的最大吞吐量比 Elasticsearch 快 2 倍。凭借其现代多线程架构和高效的查询并行化功能，Manticore 能够充分利用您的所有 CPU 内核，以实现尽可能快的响应时间。强大而快速的全文搜索可与小型和大型数据集无缝协作。小型、中型和大型数据集的逐行存储。对于更大的数据集，Manticore 通过 Manticore 列式库提供列式存储支持，能够处理太大而无法放入 RAM 的数据集。系统会自动创建高性能二级索引，从而节省您的时间和精力。基于成本的查询优化器可优化搜索查询以获得最佳性能。Manticore 是 SQL 优先的，利用 SQL 作为其本机语法，并提供与 MySQL 协议的兼容性，允许您使用您喜欢的 MySQL 客户端。借助 PHP、Python、JavaScript、Typescript、Java、Elixir 和 Go 中的客户端，与 Manticore Search 的集成变得容易。Manticore 还提供了一个编程化的 HTTP JSON 协议，用于更通用的数据和模式管理。Manticore Search 内置于 C++ 中，可快速启动并使用最少的 RAM，低级优化有助于其令人印象深刻的性能。通过实时插入，可以立即访问新添加的文档。互动课程可通过互动课程获得，让学习变得轻而易举。Manticore 还拥有内置的复制和负载平衡功能，可提高可靠性。可以轻松地从 MySQL、PostgreSQL、ODBC、xml 和 csv 等来源同步数据。虽然不完全符合 ACID，但 Manticore 仍然支持事务和二进制日志以确保安全写入。使用内置工具和 SQL 命令轻松备份和恢复数据。
+
+* [digoal/blog](https://github.com/digoal/blog) PostgreSQL, Greenplum 学习视频，开源，数据库，商业，思想。
+
+* [flyway/flyway](https://github.com/flyway/flyway)  数据库迁移变得简单。在所有实例中轻松可靠地改进数据库架构。支持的数据库：Aurora MySQL、Aurora PostgreSQL、Azure Synapse、Clickhouse、CockroachDB、DB2、Derby、Firebird、Google BigQuery、Google Cloud Spanner、H2、HSQLDB、Informix、MariaDB、MongoDB、MySQL、Oracle、Percona XtraDB Cluster、PostgreSQL、Redshift、SAP HANA（包括 SAP HANA Cloud）、SingleStoreDB、Snowflake、SQLite、SQL Server、Sybase ASE、TiDB、TimescaleDB、YugabyteDB
+
+* [doctrine/dbal](https://github.com/doctrine/dbal) 基于 PHP 的 Doctrine 数据库抽象层，具有许多用于数据库模式自省和模式管理的功能。提供了一个面向对象的 API 和许多额外的水平功能，如数据库模式内省和操作。
+
+* [twpayne/chezmoi](https://github.com/twpayne/chezmoi) 安全地跨多台不同的机器管理您的点文件。Chezmoi 可帮助您跨多台计算机管理您的个人配置文件（dotfiles，如 ~/.gitconfig ）。Chezmoi 提供了许多功能，除了符号链接或使用裸 Git 存储库之外，还包括：模板（用于处理机器之间的微小差异）、密码管理器支持（用于安全地存储您的机密）、从存档导入文件（非常适合 shell 和编辑器插件）、完整文件加密（使用 GPG 或 AGE）和运行脚本（用于处理其他所有事情）。
+
+* [syndtr/goleveldb](https://github.com/syndtr/goleveldb)  Go 编程语言实现的 LevelDB 键/值数据库。
+
+* [spacejam/sled](https://github.com/spacejam/sled) 基于rust的嵌入式数据库，特征：类似于 threadsafe BTreeMap 的 API；可序列化 （ACID） 事务，用于对多个密钥空间中的多个密钥进行原子读取和写入；全原子单键操作，包括比较和交换；零拷贝读取；写入批处理；订阅键前缀的更改；多个键空间；合并运算符；对项目范围进行正向和反向迭代器；一个碰撞安全的单调 ID 生成器，每秒能够生成 7千5百万-1.25 亿个唯一 ID；zstd 压缩（使用 compression 构建功能，默认禁用）；CPU 可扩展的无锁实现；闪存优化的日志结构化存储；使用现代 B 树技术（如前缀编码和后缀截断）来降低具有共享前缀的长键的存储成本。如果密钥的长度和顺序相同，那么在大多数情况下，系统可以避免存储 99%+ 的密钥数据，本质上就像一个学习索引
+
+* [StarRocks/starrocks](https://github.com/StarRocks/starrocks) Linux 基金会的一个项目，是面向全分析场景的下一代亚秒级 MPP OLAP 数据库，包括多维度分析、实时分析、即席查询等。InfoWorld 的 2023 年 BOSSIE 最佳开源软件奖。旨在使数据密集型实时分析变得快速和简单。它的查询速度比其他流行的解决方案快 5 到 10 倍。StarRocks 在更新历史记录的同时，可以很好地进行实时分析。它还可以轻松地利用来自数据湖的历史数据来增强实时分析。使用 StarRocks，您可以摆脱非规范化的表，获得最佳的性能和灵活性。特征：原生矢量化SQL引擎：StarRocks采用矢量化技术，充分利用CPU的并行算力，在多维分析中实现亚秒级查询返回，比以往系统快5-10倍。标准 SQL：StarRocks 支持 ANSI SQL 语法（完全支持 TPC-H 和 TPC-DS）。它还与MySQL协议兼容。可以使用各种客户端和 BI 软件来访问 StarRocks。 智能查询优化：StarRocks 可以通过 CBO（Cost Based Optimizer，成本优化器）对复杂查询进行优化。有了更好的执行计划，数据分析效率就会大大提高。实时更新：StarRocks 更新后的模型可以根据主键进行更新/删除操作，在并发更新的同时实现高效查询。智能物化视图：StarRocks 的物化视图可在数据导入过程中自动更新，并在执行查询时自动选择。直接查询数据湖中的数据：StarRocks 支持直接访问来自 Apache Hive™、Apache Iceberg™ 和 Apache Hudi™ 的数据，无需导入。资源管理：支持 StarRocks 限制查询资源消耗，实现同一集群租户间资源的隔离和高效利用。易于维护：简单的架构使 StarRocks 易于部署、维护和扩展。StarRocks 敏捷地调整查询计划，在集群扩容或扩容时均衡资源，并在节点故障时自动恢复数据副本。
+
+* [datafuselabs/databend](https://github.com/datafuselabs/databend) 基于 Rust的开源云数据仓库，可作为 Snowflake 的经济高效的替代方案。它专注于快速查询执行和数据摄取，专为对世界上最大的数据集进行复杂分析而设计。云原生：与 AWS S3、Azure Blob、Google Cloud 等集成。高性能：Rust 构建，具有尖端、高速矢量化执行。经济高效：专为可扩展的存储和计算而设计，在提高性能的同时降低成本。AI 驱动的分析：使用 AI 功能实现高级分析。数据简化：简化数据引入，无需外部 ETL。格式灵活性：支持多种数据格式和类型，包括 JSON、CSV、Parquet、GEO 等。ACID 事务：通过原子、一致、隔离和持久的操作确保数据完整性。版本控制：为数据提供类似 Git 的版本控制，允许随时查询、克隆和还原。无模式：VARIANT 数据类型，支持无模式数据存储和灵活的数据建模。灵活索引：虚拟列、聚合索引和全文索引，可加快数据检索速度。社区驱动：加入热情好客的社区，获得用户友好的云分析体验。
+
+* [groue/GRDB.swift](https://github.com/groue/GRDB.swift) SQLite数据库工具包，专注于swift应用程序开发
+
+* [volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler) 生成针对您的数据库架构量身定制的 Go ORM。
+
+* [vrana/adminer](https://github.com/vrana/adminer) 单个 PHP 文件中的数据库管理
+
+* [apache/seatunnel](https://github.com/apache/seatunnel) 新一代超高性能、分布式、海量数据集成工具，能够每天同步大量数据。它因其效率和稳定性而受到众多公司的信任。SeaTunnel 解决了常见的数据集成挑战：多样化的数据源：与数百个不断发展的数据源无缝集成。复杂同步场景：支持多种同步方式，包括实时同步、CDC同步、全量数据库同步等。资源效率：最大限度地减少计算资源和 JDBC 连接，以实现实时同步。质量和监控：提供数据质量和监控，以防止数据丢失或重复。主要特点：多样化的连接器：支持 100 多个连接器，并不断扩展。批量流集成：易于调整的连接器简化了数据集成管理。分布式快照算法：确保同步数据之间的数据一致性。多引擎支持：适用于 SeaTunnel Zeta 引擎、Flink 和 Spark。JDBC多路复用和日志解析：高效同步多表和数据库。高吞吐低时延：提供低时延的高吞吐量数据同步。实时监控：在同步过程中提供详细的见解。两种作业开发方法：支持使用 SeaTunnel Web 项目进行编码和可视化作业管理。
+
+* [debezium/debezium](https://github.com/debezium/debezium) 各种数据库的更改数据捕获。为变更数据捕获 （CDC） 提供了一个低延迟的数据流平台。您设置并配置 Debezium 以监视您的数据库，然后您的应用程序会为对数据库所做的每个行级更改使用事件。只有提交的更改是可见的，因此应用程序不必担心回滚的事务或更改。Debezium 提供了所有变更事件的单一模型，因此您的应用程序不必担心每种数据库管理系统的复杂性。此外，Debezium 将数据更改的历史记录记录在持久的复制日志中，因此您的应用程序可以随时停止和重新启动，并且它将能够使用它在不运行时错过的所有事件，从而确保所有事件都得到正确和完整的处理。监控数据库并在数据更改时收到通知一直很复杂。关系数据库触发器可能很有用，但特定于每个数据库，并且通常仅限于更新同一数据库中的状态（不与外部进程通信）。一些数据库提供用于监控更改的 API 或框架，但没有标准，因此每个数据库的方法都不同，需要大量知识渊博的专业代码。确保以相同的顺序查看和处理所有更改，同时将对数据库的影响降至最低，这仍然非常具有挑战性。Debezium 提供了为您完成这项工作的模块。有些模块是通用的，可以与多个数据库管理系统配合使用，但在功能和性能方面也受到一些限制。其他模块是为特定的数据库管理系统量身定制的，因此它们通常功能更强大，并且它们利用了系统的特定功能。Debezium 通过重用 Kafka 和 Kafka Connect 来实现其持久性、可靠性和容错质量。部署到 Kafka Connect 分布式、可伸缩、容错服务的每个连接器都监视单个上游数据库服务器，捕获所有更改并将其记录在一个或多个 Kafka 主题（通常每个数据库表一个主题）中。Kafka 确保所有这些数据更改事件都是复制的和完全有序的，并允许许多客户端独立使用这些相同的数据更改事件，而对上游系统的影响很小。此外，客户端可以随时停止消费，当他们重新启动时，他们会从中断的地方恢复。每个客户端都可以确定是要一次性还是至少一次性传递所有数据更改事件，并且每个数据库/表的所有数据更改事件都按照它们在上游数据库中发生的顺序传递。不需要或不需要这种级别的容错、性能、可伸缩性和可靠性的应用程序可以使用 Debezium 的嵌入式连接器引擎直接在应用程序空间内运行连接器。他们仍然希望获得相同的数据更改事件，但更愿意让连接器将它们直接发送到应用程序，而不是将它们保存在 Kafka 中。常见用例：`缓存失效`：一旦条目的记录发生更改或删除，就会自动使缓存中的条目失效。如果缓存在单独的进程（例如 Redis、Memcache、Infinispan 等）中运行，则可以将简单的缓存失效逻辑放入单独的进程或服务中，从而简化主应用程序。在某些情况下，可以使逻辑更复杂一些，并且可以使用更改事件中的更新数据来更新受影响的缓存条目。`简化单片式应用`：许多应用程序会更新数据库，然后在提交更改后执行其他工作：更新搜索索引、更新缓存、发送通知、运行业务逻辑等。这通常称为“双重写入”，因为应用程序正在写入单个事务之外的多个系统。不仅应用程序逻辑复杂且更难维护，而且如果应用程序在提交后但在执行某些/所有其他更新之前崩溃，双重写入还存在丢失数据或使各种系统不一致的风险。使用变更数据捕获，当数据提交到原始数据库中时，可以在单独的线程或单独的进程/服务中执行这些其他活动。这种方法对故障的容忍度更高，不会错过事件，可以更好地扩展，并且更容易支持升级和操作。`共享数据库`：当多个应用程序共享一个数据库时，一个应用程序意识到另一个应用程序提交的更改通常并非易事。一种方法是使用消息总线，尽管非事务性消息总线会遇到上述“双重写入”问题。然而，这在 Debezium 中变得非常简单：每个应用程序都可以监控数据库并对更改做出反应。`数据集成`：数据通常存储在多个位置，尤其是当它用于不同的目的并且形式略有不同时。保持多个系统的同步可能具有挑战性，但可以使用 Debezium 和简单的事件处理逻辑快速实现简单的 ETL 类型的解决方案。`CQRS系列`：命令查询责任分离 （CQRS） 体系结构模式使用一个数据模型进行更新，使用一个或多个其他数据模型进行读取。当更改记录在更新端时，这些更改将被处理并用于更新各种读取表示形式。因此，CQRS 应用程序通常更加复杂，尤其是当它们需要确保可靠和完全有序的处理时。Debezium 和 CDC 可以使这一点更易于理解：写入记录为正常，但 Debezium 将这些更改捕获在持久的、完全有序的流中，这些流由异步更新只读视图的服务使用。写入端表可以表示面向域的实体，或者当 CQRS 与事件溯配对时，写入端表是命令的仅追加事件日志。
+
+* [kysely-org/kysely](https://github.com/kysely-org/kysely) 类型安全且自动完成友好的 TypeScript SQL 查询构建器。灵感来自Knex.js。主要为Node.js开发，但也可以在所有其他 JavaScript 环境（如 Deno、Bun、Cloudflare Workers 和 Web 浏览器）上运行。
+
+* [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) 快速、经济高效且可扩展的监控解决方案和时间序列数据库。具有以下突出功能：它可以用作 Prometheus 的长期存储。它可以用作 Grafana 中 Prometheus 的直接替代品，支持 Prometheus 查询 API。它可以用作 Grafana 中 Graphite 的直接替代品，因为它支持 Graphite API，与 Graphite 相比，VictoriaMetrics 可将基础设施成本降低 10 倍以上。它易于设置和操作：VictoriaMetrics 由一个没有外部依赖项的小型可执行文件组成。所有配置都是通过具有合理默认值的显式命令行标志完成的。所有数据都存储在 -storageDataPath 命令行标志指定的单个目录中。可以使用 vmbackup/vmrestore 工具轻松快速地从即时快照进行备份。它实现了类似 PromQL 的查询语言 - MetricsQL，它在 PromQL 之上提供了改进的功能。它提供全局查询视图。多个 Prometheus 实例或任何其他数据源可能会将数据摄取到 VictoriaMetrics 中。稍后，可以通过单个查询查询此数据。它为数据引入和数据查询提供了高性能以及良好的垂直和水平可伸缩性。它的性能比 InfluxDB 和 TimescaleDB 高出 20 倍。在处理数百万个独特的时间序列（又名高基数）时，它使用的 RAM 比 InfluxDB 少 10 倍，比 Prometheus、Thanos 或 Cortex 少 7 倍。它针对具有高流失率的时间序列进行了优化。它提供了高数据压缩率：根据这些基准测试，与TimescaleDB相比，在有限的存储中可以存储多达70倍的数据点，与Prometheus、Thanos或Cortex相比，所需的存储空间减少了7倍。根据这个基准。它针对具有高延迟 IO 和低 IOPS 的存储（AWS、Google Cloud、Microsoft Azure 等中的 HDD 和网络存储）进行了优化。请参阅这些基准测试中的磁盘 IO 图。单节点 VictoriaMetrics 可以替代使用 Thanos、M3DB、Cortex、InfluxDB 或 TimescaleDB 等竞争解决方案构建的中等规模的集群。查看垂直可扩展性基准测试，将 Thanos 与 VictoriaMetrics 集群进行比较，以及 PromCon 2019 上的远程写入存储大战演讲。由于存储架构，它可以保护存储在不干净的关闭（即 OOM、硬件重置或 kill -9 ）时免受数据损坏。它支持通过以下协议进行指标抓取、摄取和回填：从 Prometheus 导出器抓取的指标、Prometheus 远程写入 API、Prometheus展览形式、基于 HTTP TCP 和 UDP 的 InfluxDB 线路协议、带有标签的Graphite plaintext协议、Statsd 明文协议、OpenTSDB消息、HTTP OpenTSDB /api/put 请求、JSON 行格式、任意 CSV 数据、本机二进制格式、DataDog 代理或 DogStatsD、NewRelic 基础结构代理、OpenTelemetry 指标格式。它支持强大的流聚合，可以用作 statsd 的替代方案。它支持指标重新标记。它可以通过系列限制器处理高基数问题和高流失率问题。它非常适合处理来自 APM、Kubernetes、物联网传感器、联网汽车、工业遥测、财务数据和各种企业工作负载的大量时间序列数据。它有一个开源集群版本。它可以将数据存储在基于 NFS 的存储上，例如 Amazon EFS 和 Google Filestore。
+
+* [sabledb-io/sabledb](https://github.com/sabledb-io/sabledb) 键值NoSQL数据库， RocksDb 它作为其存储引擎，并与Redis协议兼容。与 Redis 相比，它旨在降低内存成本并增加容量。 SableDb 功能包括通过任何 Redis 客户端进行与 Redis 兼容的访问、高达 64K 的数据库支持、使用事务日志尾随的异步复制和 TLS 连接支持。
+
+* [ploomber/ploomber](https://github.com/ploomber/ploomber) 构建数据管道的最快方法。使用您喜欢的编辑器（Jupyter、VSCode、PyCharm）以交互方式进行开发和部署，而无需更改代码（Kubernetes、Airflow、AWS Batch 和 SLURM）。你有旧版笔记本吗？使用单个命令将它们重构为模块化管道。
+
+* [VertaAI/modeldb](https://github.com/VertaAI/modeldb) 用于机器学习模型版本控制、元数据和实验管理的开源系统。开源系统，用于对机器学习模型（包括其成分代码、数据、配置和环境）进行版本控制，并在整个模型生命周期中跟踪 ML 元数据。
+
+* [lux-org/lux](https://github.com/lux-org/lux) Python 库，通过自动化可视化和数据分析过程来促进快速简便的数据探索。通过简单地在 Jupyter 笔记本中打印出数据帧，Lux 推荐一组可视化效果，突出显示数据集中有趣的趋势和模式。可视化通过交互式小部件显示，使用户能够快速浏览大量可视化并理解其数据。
+
+
+
+
+
+
 # 云&虚拟化
 
 * [istio/istio](https://github.com/istio/istio) 开源服务网格，透明地分层到现有的分布式应用程序上。Istio 的强大功能提供了一种统一且更高效的方式来保护、连接和监控服务。Istio 是负载均衡、服务到服务身份验证和监控的途径，只需很少或无需更改服务代码。
@@ -9391,6 +9481,8 @@
 * [AliyunContainerService/GPUshare-scheduler-extender](https://github.com/AliyunContainerService/GPUshare-scheduler-extender) GPU共享调度程序扩展器
 
 * [yeasy/docker_practice](https://github.com/yeasy/docker_practice) 真正的DevOps实践，学习和理解Docker&Container技术
+
+* [kubescape/kubescape](https://github.com/kubescape/kubescape) 开源的 Kubernetes 安全平台，适用于 IDE、CI/CD 管道和集群。它包括风险分析、安全性、合规性和错误配置扫描，为 Kubernetes 用户和管理员节省宝贵的时间、精力和资源。包括漏洞和错误配置扫描。您可以通过 CLI 运行扫描，或添加 Kubescape Helm 图表，该图表可以深入了解集群中正在发生的事情。Kubescape 包括错误配置和漏洞扫描，以及风险分析和安全合规指标。所有结果都显示在上下文中，用户会根据扫描结果获得许多有关操作的提示。它面向 DevSecOps 从业者或平台工程师，提供易于使用的 CLI 界面、灵活的输出格式和自动扫描功能。
 
 * [harness/drone](https://github.com/harness/drone) 基于集装箱技术的持续交付系统。Drone 使用一个简单的 YAML 构建文件来定义和执行 Docker 容器内的构建管道。
 
@@ -10492,6 +10584,15 @@
 
 * [Safe3/uuWAF](https://github.com/Safe3/uuWAF) 工业级免费、高性能、高扩展，支持AI和语义引擎的Web应用和API安全防护产品-南墙。Web应用防火墙、WAF、WAAP
 
+* [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) 对 Windows 的开放和轻量级修改，旨在优化性能、隐私和安全性。它通过消除对游戏性能产生负面影响的因素来增强 Windows。优化包括增强的隐私性、可用性、性能和更改，以最大限度地减少卡顿和输入延迟，同时专注于维护功能。Atlas 删除了 Windows 中嵌入的大部分遥测数据，并实施了许多组策略，以最大程度地减少数据收集。但是，它无法确保 Windows 范围之外的隐私，例如浏览器和其他第三方应用程序。Atlas在性能和兼容性之间取得了平衡。它实现了许多有意义的更改，以提高 Windows 性能和响应能力，而不会破坏基本功能。Atlas不会对安慰剂效应或边际收益进行调整，使Atlas更加稳定和兼容。
+
+* [wazuh/wazuh](https://github.com/wazuh/wazuh) 开源安全平台。为端点和云工作负载提供统一的 XDR 和 SIEM 保护。免费的开源平台，用于威胁预防、检测和响应。它能够保护本地、虚拟化、容器化和基于云的环境的工作负载。Wazuh 解决方案由部署到受监控系统的端点安全代理和用于收集和分析代理收集的数据的管理服务器组成。此外，Wazuh 已与 Elastic Stack 完全集成，提供搜索引擎和数据可视化工具，允许用户浏览他们的安全警报。
+
+* [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) 如何保护任何东西，安全工程是构建安全系统的学科。它的经验教训不仅适用于计算机安全。事实上，在这个 repo 中，我的目标是记录一个保护任何东西的过程，无论是中世纪城堡、艺术博物馆还是计算机网络。没有所谓的系统是安全的，只有针对特定对手的安全。这就是为什么了解你的对手是谁，以及每个对手背后的动机和能力很重要的原因。
+
+* []() 
+
+
 # 硬件
 
 ## CPU RISC-V
@@ -10791,6 +10892,8 @@
 * [RT-Thread/rt-thread](https://github.com/RT-Thread/rt-thread) 开源的物联网实时操作系统 （RTOS）
 
 * [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) 适用于 Atmel AVR 和 Arm USB 系列的开源键盘固件
+
+* [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) 一个可扩展的实时操作系统 （RTOS），支持多种硬件架构，针对资源受限的设备进行了优化，并在构建时考虑到了安全性。Zephyr OS 基于小尺寸内核，专为资源受限系统而设计：从简单的嵌入式环境传感器和 LED 可穿戴设备到复杂的智能手表和物联网无线网关。Zephyr 内核支持多种架构，包括 ARM（Cortex-A、Cortex-R、Cortex-M）、Intel x86、ARC、Nios II、Tensilica Xtensa 和 RISC-V、SPARC、MIPS 以及大量支持的主板。
 
 # 其他项目
 
@@ -11557,6 +11660,8 @@
 
 * [amitshekhariitbhu/android-interview-questions](https://github.com/amitshekhariitbhu/android-interview-questions) 您的 Android 面试备忘单 - Android 面试问题和答案
 
+* [ashishb/android-security-awesome](https://github.com/ashishb/android-security-awesome) 与 Android 安全相关的资源集合。工具、学术/研究/出版物/书籍、漏洞利用/漏洞/缺陷
+
 * [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy) Android实时显示控制软件
 
 * [openstf/minitouch](https://github.com/openstf/minitouch) 最小的Android多点触控事件生成器。
@@ -11975,6 +12080,8 @@
 
 * [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的计算机编程类中文书籍
 
+* [wolverinn/Waking-Up](https://github.com/wolverinn/Waking-Up) 计算机基础（计算机网络/操作系统/数据库/Git...）面试问题全面总结，包含详细的follow-up question以及答案；全部采用【问题+追问+答案】的形式，即拿即用，直击互联网大厂面试；可用于模拟面试、面试前复习、短期内快速备战面试
+
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
 
 * [DeathKing/Learning-SICP](https://github.com/DeathKing/Learning-SICP) MIT视频公开课《计算机程序的构造和解释》中文化项目及课程学习资料搜集。
@@ -12002,6 +12109,8 @@
 * [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫
 
 * [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) 用动画的形式呈现解LeetCode题目的思路
+
+* [OpenGenus/cosmos](https://github.com/OpenGenus/cosmos) Cosmos 是您一生中会遇到和使用的每个算法和数据结构的个人离线集合。这提供了各种语言的解决方案，包括 C 、C++ 、Java 、JavaScript、Swift、Python、Go等。这项工作由一个由数百人组成的社区维护，是一项大规模的协作努力，旨在将现成的编码知识带到离线状态。cosmos 的高级结构：人工智能、回溯、位操作、元胞自动机、压缩算法 、计算几何、密码学、数据结构、设计模式、分而治之、动态规划、图形算法、贪婪算法、数学算法、联网、数值分析、在线挑战、操作系统、量子算法、随机算法、搜索、选择、排序、平方根分解、字符串算法、未分类。每种类型都有数百个问题，解决方案以多种语言进行，包括 C 、 C++ 、 Java Python Go 等。
 
 * [krahets/hello-algo](https://github.com/krahets/hello-algo) 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
 
