@@ -439,6 +439,10 @@
 
 * [doccano/doccano](https://github.com/doccano/doccano) 面向机器学习从业者的开源注释工具。
 
+* [mrdbourke/machine-learning-roadmap](https://github.com/mrdbourke/machine-learning-roadmap) 2020 年机器学习路线图（2023 年仍有 90% 有效）,连接机器学习中许多最重要概念的路线图，如何学习它们以及使用哪些工具来执行它们。
+
+* [VowpalWabbit/vowpal_wabbit](https://github.com/VowpalWabbit/vowpal_wabbit) 机器学习系统，它通过在线、哈希、allreduce、reductions、learning2search、active 和交互式学习、Bandit等技术推动了机器学习的前沿。
+
 * [janishar/mit-deep-learning-book-pdf](https://github.com/janishar/mit-deep-learning-book-pdf) 麻省理工学院深度学习书 PDF 格式（完整和部分），作者：Ian Goodfellow、Yoshua Bengio 和 Aaron Courville
 
 * [amusi/Deep-Learning-Interview-Book](https://github.com/amusi/Deep-Learning-Interview-Book) 深度学习面试宝典（含数学、机器学习、深度学习、计算机视觉、自然语言处理和SLAM等方向）
@@ -673,6 +677,8 @@
 
 * [DataCanvasIO/Hypernets](https://github.com/DataCanvasIO/Hypernets) 通用自动化机器学习框架，用于简化特定领域中端到端 AutoML 工具包的开发。包括 tensorflow、keras、pytorch 等深度学习框架，以及 sklearn、lightgbm、xgboost 等机器学习库。引入了抽象的搜索空间表示，同时兼顾了超参数优化和神经架构搜索（NAS）的要求，使 Hypernets 成为能够适应各种自动化机器学习需求的通用框架。
 
+* [KindXiaoming/pykan](https://github.com/KindXiaoming/pykan) Kolmogorov-Arnold 网络 （KAN） 是多层感知器 （MLP） 的有前途的替代品。KAN 与 MLP 一样具有强大的数学基础：MLP 基于通用近似定理，而 KAN 基于 Kolmogorov-Arnold 表示定理。KAN 和 MLP 是双重的：KAN 在边缘具有激活函数，而 MLP 在节点上具有激活函数。这个简单的变化使KAN在模型准确性和可解释性方面都比MLP更好。KAN 比 MLP 具有更快的扩展速度，KAN 比参数较少的 MLP 具有更好的准确性。KAN可以直观地可视化。KAN 提供 MLP 无法提供的可解释性和交互性。我们可以使用KAN来潜在地发现新的科学定律。
+
 * [RadeonOpenCompute/ROCm](https://github.com/RadeonOpenCompute/ROCm) ROCm - 用于 HPC 和超大规模 GPU 计算的开源平台
 
 * [PaddlePaddle/Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite) 飞桨多端多平台高性能深度学习推理引擎.支持多平台：涵盖 Android、iOS、嵌入式 Linux 设备、Windows、macOS 和 Linux 主机。支持多种语言：包括 Java、Python、C++。轻量化和高性能：针对移动端设备的机器学习进行优化，压缩模型和二进制文件体积，高效推理，降低内存消耗
@@ -894,6 +900,24 @@
 * [saulpw/visidata](https://github.com/saulpw/visidata) 用于表格数据的交互式多功能工具。它将电子表格的清晰度、终端的效率和 Python 的强大功能结合到一个轻量级实用程序中，可以轻松处理数百万行。VisiData 支持 tsv、csv、sqlite、json、xlsx （Excel）、hdf5 和许多其他格式。
 
 * [finos/perspective](https://github.com/finos/perspective) 数据可视化和分析组件，特别适用于大型和/或流数据集。使用它来创建用户可配置的报告、仪表板、笔记本和应用程序，然后在浏览器中独立部署，或与 Python 和/或 Jupyterlab 协同部署。一个快速、内存高效的流式查询引擎，用 C++ 编写并针对 WebAssembly 和 Python 编译，具有用于 Apache Arrow 的读/写/流式处理，以及基于 ExprTK 的高性能列式表达式语言。一个与框架无关的用户界面，打包为自定义元素，通过 WebAssembly 在浏览器内提供支持，或通过 WebSocket 服务器 （Python/Node） 虚拟提供支持。JupyterLab 小部件和 Python 客户端库，用于笔记本中的交互式数据分析，以及可扩展的生产 Voila 应用程序。
+
+* [HigherOrderCO/HVM](https://github.com/HigherOrderCO/HVM) 基于Rust的一个大规模并行交互的高阶虚拟机。通过将高级语言（如 Python 和 Haskell）的程序编译为 HVM，可以直接在大规模并行硬件（如 GPU）上运行这些语言，并具有近乎理想的加速。HVM2 是 HVM1 的继任者，HVM1 是该概念的 2022 年原型。与其前身相比，HVM2 更简单、更快，最重要的是更正确。HOC为其PAPER上列出的所有功能提供长期支持。该存储库提供了用于指定 HVM2 网络的低级 IR 语言，以及从该语言到 C 和 CUDA 的编译器。它不适合直接供人类使用。如果您正在寻找一种与 HVM2 交互的高级语言，请选Bend。
+
+* [tensorflow/serving](https://github.com/tensorflow/serving) 灵活、高性能的机器学习模型服务系统，专为生产环境而设计。它涉及机器学习的推理方面，在训练后获取模型并管理其生命周期，通过高性能、引用计数的查找表为客户提供版本化访问。TensorFlow Serving 提供与 TensorFlow 模型的开箱即用集成，但可以轻松扩展以服务其他类型的模型和数据。
+
+* [feast-dev/feast](https://github.com/feast-dev/feast) 用于机器学习的开源功能存储。Feast 是管理现有基础设施的最快途径，用于生产用于模型训练和在线推理的分析数据。通过管理离线存储（用于处理用于横向扩展批量评分或模型训练的历史数据）、低延迟在线存储（支持实时预测）和经过实战测试的功能服务器（用于在线提供预先计算的功能），使功能始终可用于训练和服务。通过生成时间点正确的特征集来避免数据泄露，以便数据科学家可以专注于特征工程，而不是调试容易出错的数据集连接逻辑，这可确保将来的特征值不会在训练期间泄漏到模型中。通过提供单个数据访问层将特征存储从特征检索中抽象出来，将 ML 与数据基础架构分离，确保模型在从训练模型迁移到服务模型、从批处理模型迁移到实时模型以及从一个数据基础设施系统迁移到另一个数据基础设施时保持可移植性。
+
+* [pytorch/tutorials](https://github.com/pytorch/tutorials) PyTorch 教程。熟悉 PyTorch 概念和模块。在本快速入门指南中了解如何加载数据、构建深度神经网络、训练和保存模型。
+
+* [SeldonIO/seldon-core](https://github.com/SeldonIO/seldon-core) MLOps 框架，用于打包、部署、监视和管理数千个生产机器学习模型。Seldon core 将您的 ML 模型（Tensorflow、Pytorch、H2o 等）或语言包装器（Python、Java 等）转换为生产 REST/GRPC 微服务。Seldon 可处理扩展到数千个生产机器学习模型，并提供开箱即用的高级机器学习功能，包括高级指标、请求日志记录、解释器、异常值检测器、A/B 测试、金丝雀等。
+
+* [https://github.com/kubeflow/pipelines](https://github.com/kubeflow/pipelines) 机器学习 （ML） 工具包，致力于使 Kubernetes 上的 ML 工作流部署变得简单、可移植和可扩展。Kubeflow 流水线是使用 Kubeflow Pipelines SDK 构建的可重用的端到端 ML 工作流。Kubeflow 流水线服务具有以下目标：端到端编排，启用和简化端到端机器学习管道的编排；轻松实验，让您轻松尝试众多想法和技术，并管理您的各种试验/实验；易于重用，使您能够重用组件和管道，以快速拼凑端到端解决方案，而无需每次都重新构建。
+
+* [hibayesian/awesome-automl-papers](https://github.com/hibayesian/awesome-automl-papers) 自动化机器学习论文、文章、教程、幻灯片和项目的精选列表，自动化机器学习 （AutoML） 提供了使机器学习可供非机器学习专家使用的方法和流程，以提高机器学习的效率并加速机器学习的研究。
+
+* [lazyprogrammer/machine_learning_examples](https://github.com/lazyprogrammer/machine_learning_examples) 机器学习示例和教程的集合。
+
+* [https://github.com/PAIR-code/facets](https://github.com/PAIR-code/facets) 包含两个用于理解和分析机器学习数据集的可视化效果：Facets Overview 和 Facets Dive。可视化作为 Polymer Web 组件实现，由 Typescript 代码提供支持，可以轻松嵌入到 Jupyter 笔记本或网页中。
 
 # NLP自然语言处理
 
@@ -3997,6 +4021,8 @@
 
 * [gruntjs/grunt](https://github.com/gruntjs/grunt) JavaScript 任务运行程序。在执行重复性任务（如缩小、编译、单元测试、linting）时，您需要做的工作越少，您的工作就越容易。通过 Gruntfile 配置它后，任务运行器可以为您和您的团队完成大部分日常工作，而工作量基本上为零。Grunt 生态系统非常庞大，而且每天都在增长。有数百个插件可供选择，您可以使用 Grunt 以最少的努力自动执行几乎任何事情。如果有人还没有构建您需要的东西，那么创作自己的 Grunt 插件并将其发布到 npm 是一件轻而易举的事。了解如何开始。
 
+* [Unleash/unleash](https://github.com/Unleash/unleash) 专为开发人员打造的开源功能管理解决方案。Unleash 是一个强大的功能管理开源解决方案。它简化了您的开发工作流程，加快了软件交付速度，并使团队能够控制向最终用户推出新功能的方式和时间。借助 Unleash，您可以按照自己的节奏在更小、更易于管理的版本中将代码部署到生产环境。Unleash 中的功能标志允许您使用真实的生产数据测试代码，从而降低对用户体验产生负面影响的风险。它还使您的团队能够同时处理多个功能，而无需单独的功能分支。Unleash 是 GitHub 上最流行的功能标记开源解决方案。它支持 15 个官方客户端和服务器 SDK 以及超过 15 个社区 SDK。如果您愿意，您甚至可以创建自己的 SDK。Unleash 与任何语言和框架兼容。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -4149,13 +4175,15 @@
 * [newpanjing/simpleui](https://github.com/newpanjing/simpleui) 基于vue+element-ui的django admin现代化主题。全球20000+网站都在使用
 
 * [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
-- [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro) 基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城等功能。
 
-- [elunez/eladmin](https://github.com/elunez/eladmin) eladmin jpa 版本：基于 Spring Boot 2.6.4、 Jpa、 Spring Security、Redis、Vue的前后端分离的后台管理系统，采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，一键生成前后端代码，支持动态路由
+* [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro) 基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城等功能。
 
-- [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+* [elunez/eladmin](https://github.com/elunez/eladmin) eladmin jpa 版本：基于 Spring Boot 2.6.4、 Jpa、 Spring Security、Redis、Vue的前后端分离的后台管理系统，采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，一键生成前后端代码，支持动态路由
 
-- [codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin) 用于管理 Spring Boot 应用程序的管理 UI
+* [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+
+* [codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin) 用于管理 Spring Boot 应用程序的管理 UI
+
 * [elunez/eladmin-web](https://github.com/elunez/eladmin-web) eladmin jpa版本：前端源码，项目基于 Spring Boot 2.1.0 、 Spring Boot Jpa、 Spring Security、Redis、Vue的前后端分离后台管理系统
 
 * [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 & Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
@@ -4296,7 +4324,17 @@
 
 * [palantir/blueprint](https://github.com/palantir/blueprint) 基于 React 的 Web UI 工具包
 
+* [kusti8/proton-native](https://github.com/kusti8/proton-native) 跨平台桌面应用的 React 环境，特征：与 React Native 相同的语法和组件；与现有的 React 库（如 Redux）一起使用；跨平台；不再有Electron；兼容所有普通Node.js包；热重载
+
+* [revery-ui/revery](https://github.com/revery-ui/revery) 原生、高性能、跨平台桌面应用程序 - 使用 Reason，Revery 有点像超快的原生代码 Electron - 捆绑了类似 React/Redux 的库和快速构建系统，Revery 是用 reasonml 构建的，reasonml 是 OCaml 之上的类似 javascript 的语法，这意味着 JS 开发人员可以使用该语言。您的应用程序使用 Reason/OCaml 工具链编译为原生代码 - 具有与原生 C 代码相当的即时启动和性能。Revery 具有平台加速、GPU 加速的渲染功能。编译器本身也很快！
+
 * [react-native-elements/react-native-elements](https://github.com/react-native-elements/react-native-elements) 跨平台 React Native UI 工具包
+
+* [nodegui/nodegui](https://github.com/nodegui/nodegui) 用于使用 Node.js 和 CSS 构建跨平台原生桌面应用程序的库。NodeGUI 由 Qt6  提供支持，与其他基于铬的解决方案（如 Electron）相比，它具有 CPU 和内存效率。特征:跨平台；CPU 和内存占用量低、对于 Hello World 程序，当前 CPU 在空闲时保持在 0%，内存使用率低于 20MB；使用 CSS 进行样式设置（包括实际的级联）。还完全支持 Flexbox 布局；完整的 Nodejs API 支持（目前在 Node v16.x 上运行 - 并且易于升级）。因此可以访问所有与 Nodejs 兼容的 NPM 模块。；本机小部件事件侦听器支持。支持Qt / NodeJs提供的所有事件。；可用于商业应用；良好的 Devtools 支持；良好的文档和网站；为贡献者提供良好的文档；对暗模式的良好支持（感谢Qt）。；一流的 Typescript 支持。
+
+* [unoplatform/uno](https://github.com/unoplatform/uno) 使用 C# 和 XAML 构建移动、桌面和 WebAssembly 应用。开源和专业支持。它允许 C# 和 WinUI XAML 和/或 C# 代码在所有目标平台上运行，同时允许你控制每个像素。它开箱即用地支持 Fluent、Material 和 Cupertino 设计系统。Uno 平台实现了越来越多的 WinRT 和 WinUI API，例如 Microsoft.UI.Xaml，以使 WinUI 应用程序能够在具有本机性能的所有平台上运行。
+
+* [gui-cs/Terminal.Gui](https://github.com/gui-cs/Terminal.Gui) 适用于 .NET 的跨平台终端 UI 工具包，用于构建适用于 Windows、Mac 和 Linux/Unix 的 .NET、.NET Core 和 Mono 的丰富控制台应用的工具包。特征：跨平台 - Windows、Mac 和 Linux。Curses、Windows 控制台和 .NET 控制台的终端驱动程序意味着应用在彩色和单色终端上都能正常工作。键盘和鼠标输入 - 支持键盘和鼠标输入，包括对拖放的支持。灵活布局 - 支持绝对布局和创新的计算布局系统。计算布局使控件之间的相对布局变得容易，并启用动态终端 UI。剪贴板支持 - 剪切、复制和粘贴通过 Clipboard 类提供的文本。任意视图 - 所有可见的 UI 元素都是 View 类的子类，而这些子类又可以包含任意数量的子视图。高级应用功能 - Mainloop 支持处理事件、空闲处理程序、计时器和监控文件描述符。大多数类对于线程都是安全的。反应式扩展 - 使用反应式扩展，并受益于增强的代码可读性，以及应用 MVVM 模式和 ReactiveUI 数据绑定的能力。请参阅示例应用的源代码，了解如何实现此目的。
 
 * [SortableJS/Sortable](https://github.com/SortableJS/Sortable) 适用于现代浏览器和触摸设备的可重新排序的拖放列表。不需要jQuery或框架。
 
@@ -4355,6 +4393,8 @@
 * [mixmark-io/turndown](https://github.com/mixmark-io/turndown) 用JavaScript编写的HTML到Markdown转换器
 
 * [pdf2htmlEX/pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX) 将PDF转换为HTML，而不会丢失文本或格式。
+
+* [alibaba/weex](https://github.com/alibaba/weex) 用于构建移动跨平台 UI 的框架，Weex 使用原生组件和原生模块来利用原生渲染性能和平台能力。组件和模块都是可插拔和可扩展的。您可以使用单个代码库生成不同的捆绑包文件，以便在 Web、Android 和 iOS 平台上运行。原生组件和模块在每个平台上都有不同的实现，但它们都公开了相同的 API。Weex 拥抱现有的 Web 生态系统，您可以使用现代前端技术来开发您的移动应用程序。Weex 支持最常用的 CSS 属性和最流行的前端框架，比如 Vue 和 Rax，未来可能会更多。Weex在许多超级应用中大规模使用的时间长了，总共服务了近亿人。Weex还衍生了许多用于行业发展的工程产品和平台。
 
 * [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) Web扩展和CLI工具，用于将完整网页的忠实副本保存在单个HTML文件中
 
@@ -5070,6 +5110,16 @@
 * [Countly/countly-server](https://github.com/Countly/countly-server) 产品分析平台，可帮助团队跟踪、分析和处理他们在移动、Web 和桌面应用程序上的用户操作和行为。
 
 * [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) WebGL2 中的交互式矢量瓦片地图
+
+* [https://github.com/aurelia/framework](https://github.com/aurelia/framework) Aurelia 1 框架入口点，汇集了 Aurelia 的所有必需子模块。现代的前端 JavaScript 框架，用于构建浏览器、移动和桌面应用程序。它侧重于与 Web 平台规范紧密保持一致，使用约定而不是配置，并最大限度地减少框架入侵。基本上，我们希望你只写你的代码，而框架不会妨碍你。
+
+* [skonvajs/konva](https://github.com/konvajs/konva) HTML5 Canvas JavaScript 框架，它通过为桌面和移动应用程序启用画布交互性来扩展 2D 上下文。支持高性能动画、过渡、节点嵌套、分层、过滤、缓存、桌面和移动应用程序的事件处理等等。
+
+* [CosmicMind/Material](https://github.com/CosmicMind/Material) 用于创建美观应用程序的 UI/UX 框架。Material 的动画系统已经过完全重新设计，以利用 Motion，一个专门用于动画和过渡的库。特征：完全可定制、运动动画和过渡、用于自动布局和网格系统的布局工具、颜色库、卡、FABMenu、图标、文本字段、Snackbar、制表符、芯片、搜索栏、导航控制器、导航抽屉、底部导航栏、示例项目
+
+* [rough-stuff/rough](https://github.com/rough-stuff/rough) 小型 （<9 kB） 图形库，可让您以粗略的手绘风格进行绘制。该库定义了用于绘制直线、曲线、圆弧、多边形、圆形和椭圆的基元。它还支持绘制 SVG 路径。
+
+* [mojs/mojs](https://github.com/mojs/mojs)  JavaScript 动态图形库，它是一个快速、支持 Retina 的模块化和开源库。与其他库相比，它具有不同的语法和代码动画结构方法。声明式 API 为您提供了对动画的完全控制，使其易于自定义。该库提供了从头开始制作动画的内置组件，如 html、形状、漩涡、突发和交错，但也为您提供了帮助您以最自然的方式制作动画的工具。在您的网站上使用 mojs 将增强用户体验，在视觉上丰富您的内容并精确地创建令人愉悦的动画。
 
 ## 后端开发框架及项目
 
@@ -6153,6 +6203,10 @@
 
 * [secdev/scapy](https://github.com/secdev/scapy) 基于Python的交互式数据包操作程序和库。它能够伪造或解码各种协议的数据包，通过网络发送它们，捕获它们，使用 pcap 文件存储或读取它们，匹配请求和回复等等。它旨在通过使用有效的默认值来允许快速数据包原型设计。它可以轻松处理大多数经典任务，如扫描、跟踪路由、探测、单元测试、攻击或网络发现（它可以替换 hping 、 等的 85% nmap arpspoof arp-sk arping tcpdump wireshark p0f 的 、它在大多数其他工具无法处理的许多其他特定任务中也表现得很好，例如发送无效帧、注入您自己的 802.11 帧、组合技术（VLAN 跳跃 + ARP 缓存中毒、WEP 受保护信道上的 VoIP 解码等）等。Scapy 支持 Python 3.7+。它旨在跨平台运行，并在许多不同的平台（Linux、OSX、*BSD 和 Windows）上运行。
 
+* [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) 简单、安全且符合标准的 Web 服务器，适用于要求最苛刻的应用程序。μWebSockets 针对速度和内存占用进行了精心优化，速度足够快，可以比大多数替代服务器更快地完成加密的 TLS 1.3 消息传递，甚至可以执行未加密的明文消息传递。μWebSockets完全是用C&C++编写的，但与Node.js后端无缝集成。这允许使用广泛的能力快速编写功能强大的应用程序的脚本。请参见μWebSockets.js。μWebSockets 为世界上许多最大的加密货币交易所提供支持，每天处理数十亿美元的交易量。如果您交易加密货币，您很有可能通过μWebSockets进行交易。围绕一个方便的URL路由器设计，支持通配符和参数 - 与WebSockets的高效发布/订阅功能配对。μWebSockets 应该是任何具有高要求的实时 Web 项目的明显、完整的起点。μWebSockets 建立在 μSockets 之上，μSockets 是一个在三个不同层中实现事件、网络和加密的基础库。每一层都有多个实现，您可以使用标志控制编译后的组合。目前有五个事件循环集成;libuv、ASIO、GCD 和原始 epoll/kqueue。
+
+* [VinciGit00/Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai) 网络抓取 python 库，它使用LLM和指导图形逻辑为网站和本地文档（XML、HTML、JSON 等）创建抓取管道。有三种主要的抓取管道可用于从网站（或本地文件）中提取信息：只需要用户提示和输入源的单页抓取工具;从搜索引擎的前 n 个搜索结果中提取信息的多页抓取工具;从网站中提取信息并生成音频文件的单页抓取工具。
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -6586,6 +6640,8 @@
 
 * [tencent-ailab/hifi3dface](https://github.com/tencent-ailab/hifi3dface )RGB-D 的高保真3D 数字人类创建
 
+* [alievk/avatarify-python](https://github.com/alievk/avatarify-python) Zoom、Skype 和其他视频会议应用程序的头像。基于一阶运动模型( First Order Motion Model)。Avatarify 附带了一组标准的名人头像，但您只需将头像复制到 avatars 文件夹中即可扩展此集。
+
 * [iPERDance/iPERCore](https://github.com/iPERDance/iPERCore) 处理人体图像合成任务。其中包括人体运动模仿、外观转换和新视角合成等。并且，该项目的代码、数据集已开源。
 
 * [anandpawara/Real_Time_Image_Animation](https://github.com/anandpawara/Real_Time_Image_Animation) 实时图像动画,使原图的人像与新图上的人脸动作一致。
@@ -6758,6 +6814,8 @@
 
 * [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)  Ultralytics YOLOv8 是一种尖端的、最先进的 （SOTA） 模型，它建立在以前 YOLO 版本的成功基础上，并引入了新功能和改进，以进一步提高性能和灵活性。YOLOv8 旨在快速、准确且易于使用，使其成为各种目标检测和跟踪、实例分割、图像分类和姿态估计任务的绝佳选择。
 
+* [ultralytics/yolov3](https://github.com/ultralytics/yolov3) 全球最受欢迎的视觉 AI，代表了 Ultralytics 对未来视觉 AI 方法的开源研究，融合了数千小时研发的经验教训和最佳实践。可用于执行检测、分割、obb（定向物体检测）、分类和姿态估计，这些任务中的每一个都有不同的目标和用例。
+
 * [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab基于PyTorch的开源对象检测工具箱
 
 * [microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) 基于Masked Image Modeling的预训练方法，适用于 Swin 和 SwinV2（也适用于 ViT 和 ResNet）。它可作为CV的通用主干。它基本上是一个分层变换器，其表示是用移位窗口计算的。移位窗口方案通过将 self-attention 计算限制在不重叠的本地窗口上，同时还允许跨窗口连接，从而带来更高的效率。将 CLIP 预训练的 ViT-L 提高了 +1.6%，以达到ImageNet-1K 图像分类，这是最准确的 ViT-L 模型。在 COCO 对象检测（58.7 box AP和51.1 mask APtest-dev）和 ADE20K 语义分割（53.5 mIoU在 val）上实现了强大的性能，大大超过了以前的模型。
@@ -6896,6 +6954,8 @@
 
 * [lengstrom/fast-style-transfer](https://github.com/lengstrom/fast-style-transfer) TensorFlow CNN 用于快速样式变换，在几分之一秒内将名画的风格添加到任何照片中！您甚至可以设置视频样式！
 
+* [fogleman/primitive](https://github.com/fogleman/primitive) 使用几何基元再现图像。提供目标图像作为输入。该算法试图找到可以绘制的单个最佳形状，以最大程度地减少目标图像和绘制图像之间的误差。它重复此过程，一次添加一个形状。大约需要 50 到 200 个形状才能达到可识别但又具有艺术性和抽象性的结果。由于该算法具有随机组件，因此您可以多次针对同一输入图像运行它，以使静态图像栩栩如生。特征：爬坡或模拟退火进行优化（爬坡多个随机形状几乎与退火一样好，而且速度更快）；在纯 Go 中对形状进行扫描线光栅化（更适合实现以下功能）；基于每个形状的受影响像素的最佳颜色计算（颜色是直接计算的，而不是优化的）；部分图像差异，可加快评分速度（仅需要考虑变化的像素）；抗锯齿输出渲染。
+
 ## 其他_机器视觉
 
 * [opencv/opencv](https://github.com/opencv/opencv) 开源计算机视觉库
@@ -6959,6 +7019,8 @@
 * [cbh123/emoji](https://github.com/cbh123/emoji) 使用 AI 为 Slack 制作表情符号
 
 * [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
+
+* [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip) CLIP （对比语言-图像预训练）的开源实现。在各种数据源和计算预算上训练了多个模型，从小规模实验到大型运行，包括在 LAION-400M、LAION-2B 和 DataComp-1B 等数据集上训练的模型。在论文中详细研究了我们的许多模型及其缩放特性，用于对比语言图像学习的可重复缩放定律。此存储库专注于训练 CLIP 模型。要在下游分类任务（如 ImageNet）上微调经过训练的零样本模型，请参阅我们的其他存储库：WiSE-FT。WiSE-FT 存储库包含我们关于零样本模型的鲁棒微调的论文的代码，其中我们介绍了一种微调零样本模型的技术，同时在分布偏移下保持鲁棒性。
 
 * [yangjianxin1/CLIP-Chinese](https://github.com/yangjianxin1/CLIP-Chinese) 中文多模态对比学习预训练模型 ，可获取140w中文图文对预训练数据，以及中文CLIP预训练权重。下游任务：图文相似度计算、文本相似度计算、图片相似度计算
 
@@ -7406,6 +7468,8 @@
 
 * [leandromoreira/digital_video_introduction](https://github.com/leandromoreira/digital_video_introduction) 视频技术的实践介绍：图像、视频、编解码器（av1、vp9、h265）等（ffmpeg 编码）
 
+* [mltframework/shotcut](https://github.com/mltframework/shotcut) 跨平台 （Qt）、开源 （GPLv3） 视频编辑器
+
 * [ssloy/tinyrenderer](https://github.com/ssloy/tinyrenderer) 简短的计算机图形学/渲染课程，通过编写 OpenGL 的克隆（一个简化得多的克隆）来展示 OpenGL 的工作方式。令人惊讶的是，我经常遇到无法克服学习 OpenGL / DirectX 的最初障碍的人。因此，我准备了一系列简短的讲座，之后我的学生展示了相当不错的渲染器。
 
 * [phillipi/pix2pix](https://github.com/phillipi/pix2pix) 使用条件对抗网络进行图像到图像转换
@@ -7419,6 +7483,8 @@
 * [hindupuravinash/the-gan-zoo](https://github.com/hindupuravinash/the-gan-zoo) 每周都有新的GAN论文问世，很难全部跟踪，更不用说研究人员为这些GAN命名的令人难以置信的创造性方式了！所以，这里有一个列表，最初是一个有趣的活动，汇编了所有命名的 GAN！
 
 * [tonybeltramelli/pix2code](https://github.com/tonybeltramelli/pix2code) 从图形用户界面屏幕截图生成代码
+
+* [alyssaxuu/screenity](https://github.com/alyssaxuu/screenity) 免费且隐私友好的屏幕录像机，没有限制。功能强大的隐私友好型屏幕录像机和注释工具，可为工作、教育等制作更好的视频。您可以创建令人惊叹的产品演示、教程、演示文稿或与您的团队分享反馈 - 所有这些都是免费的。特征：对您的选项卡、特定区域、桌面、任何应用程序或相机进行无限制的记录；录制麦克风或内部音频，并使用一键通等功能；通过在屏幕上的任意位置绘图、添加文本、箭头、形状等进行注释；使用 AI 驱动的相机背景或模糊来增强您的录制效果；平滑放大录音以专注于特定区域；模糊任何页面的任何敏感内容以保持其私密性；使用全面的编辑器删除或添加音频、剪切、修剪或裁剪您的录音；突出显示您的点击和光标，然后进入聚光灯模式；设置闹钟以自动停止录制；导出为 mp4、gif 和 webm，或将视频直接保存到 Google 云端硬盘以共享链接；设置倒计时、隐藏 UI 的某些部分或将其移动到任何位置；只有您可以看到您的视频，我们不会收集您的任何数据。您甚至可以离线；没有限制，随心所欲地制作任意数量的视频；还有更多 - 全部免费，无需登录
 
 # 因果推断
 
@@ -7475,6 +7541,8 @@
 * [wangshub/RL-Stock](https://github.com/wangshub/RL-Stock) 如何用深度强化学习自动炒股。
 
 * [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade) 一个开源强化学习框架，用于训练，评估和部署强大的交易程序。
+
+* [juspay/hyperswitch](https://github.com/juspay/hyperswitch) 用 Rust 编写的开源支付开关，使支付快速、可靠且经济实惠。社区主导的开放式支付交换机，可为每个数字企业提供最佳支付基础设施。使用 Hyperswitch，您可以：减少对 Stripe 或 Braintree 等单个处理器的依赖；将开发工作量减少 90%，以添加和维护集成；通过无缝故障转移和自动重试提高成功率；通过智能路由降低处理费用；通过完全可见性和控制力自定义支付流程；通过本地/替代支付方式扩大业务覆盖面。截至 2023 年 9 月，我们支持 50+ 种支付处理器和多种全球支付方式。此外，我们还根据新处理器的覆盖范围和社区要求不断集成新处理器。我们的目标是到 2023 年下半年支持 100+ 处理器。您可以在此处找到最新的支付处理器列表、支持的方法和功能。
 
 * [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) 适用于量化金融的精选库、软件包和资源列表
 
@@ -7667,6 +7735,8 @@
 * [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) Unity 机器学习代理工具包 (ML-Agents) 是一个开源项目，它使游戏和模拟成为使用深度强化学习和模仿学习训练智能代理的环境。
 
 * [opendilab/DI-star](https://github.com/opendilab/DI-star) 星际争霸2的人工智能平台，具有大规模分布式训练和大师代理。
+
+* [DLR-RM/stable-baselines3](https://github.com/DLR-RM/stable-baselines3) PyTorch 版本的 Stable Baselines，强化学习算法的可靠实现。主要特点：最先进的RL方法、自定义环境、自定义策略、通用接口、观测空间支持、Ipython / 笔记本友好、Tensorboard 支持、PEP8 代码样式、自定义回调、高代码覆盖率、类型提示
 
 * [Farama-Foundation/D4RL](https://github.com/Farama-Foundation/D4RL) 离线强化学习的开源基准。 它为训练和基准测试算法提供标准化的环境和数据集。
 
@@ -8141,6 +8211,8 @@
 * [AudioKit/AudioKit](https://github.com/AudioKit/AudioKit) 适用于 iOS、macOS 和 tvOS 的音频合成、处理和分析平台
 
 * [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) 免费的基于代码的音乐创作和表演工具。对于专业音乐家和 DJ 来说功能强大。富有表现力的构图和表演。盲人和部分视力障碍者可以使用。简单的计算和音乐课程。通过创作或表演从古典和爵士乐到嘻哈和电子舞曲等各种风格的音乐来学习创造性地编码。每个人都免费提供友好的教程。
+
+* [MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) 适用于 Google Play 音乐的精美跨平台桌面播放器
 
 # 生物医药
 
@@ -9189,6 +9261,8 @@
 
 * [pgadmin-org/pgadmin4](https://github.com/pgadmin-org/pgadmin4) PostgreSQL 最受欢迎且功能丰富的开源管理和开发平台，PostgreSQL 是世界上最先进的开源数据库。pgAdmin 4 是作为 Web 应用程序编写的，服务器端使用 Python（Flask），客户端使用 ReactJS、HTML5 和 CSS，用于客户端处理和 UI。虽然使用 Web 技术开发，但 pgAdmin 4 可以使用浏览器部署在 Web 服务器上，也可以独立部署在工作站上。runtime/ 子目录包含一个基于 NWjs 的运行时应用程序，旨在允许这样做，它将执行 Python 服务器并显示 UI。
 
+* [sosedoff/pgweb](https://github.com/sosedoff/pgweb) PostgreSQL 数据库的跨平台客户端，基于 Web 的 PostgreSQL 数据库浏览器，用 Go 编写，适用于 Mac、Linux 和 Windows 机器。作为零依赖关系的简单二进制文件分发。非常易于使用，并包含适量的功能。
+
 ## 数据搜索引擎
 
 * [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -9455,10 +9529,7 @@
 
 * [lux-org/lux](https://github.com/lux-org/lux) Python 库，通过自动化可视化和数据分析过程来促进快速简便的数据探索。通过简单地在 Jupyter 笔记本中打印出数据帧，Lux 推荐一组可视化效果，突出显示数据集中有趣的趋势和模式。可视化通过交互式小部件显示，使用户能够快速浏览大量可视化并理解其数据。
 
-
-
-
-
+* [tobymao/sqlglot](https://github.com/tobymao/sqlglot) Python SQL 解析器和转译器，无依赖性的 SQL 解析器、转译器、优化器和引擎。它可用于格式化 SQL 或在 21 种不同的方言之间进行翻译，例如 DuckDB、Presto / Trino、Spark / Databricks、Snowflake 和 BigQuery。它旨在读取各种 SQL 输入，并在目标方言中输出语法和语义正确的 SQL。
 
 # 云&虚拟化
 
@@ -9475,6 +9546,8 @@
 * [kubernetes/minikube](https://github.com/kubernetes/minikube) 在 macOS、Linux 和 Windows 上实现了本地 Kubernetes 集群。minikube 的主要目标是成为本地 Kubernetes 应用程序开发的最佳工具，并支持所有适合的 Kubernetes 功能。
 
 * [docker-slim/docker-slim](https://github.com/docker-slim/docker-slim) 请勿更改Docker容器映像中的任何内容并将其最小化30倍
+
+* [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) kustomize 允许您自定义原始的、无模板的 YAML 文件以用于多种用途，使原始 YAML 保持不变并按原样使用。kustomize 以 Kubernetes 为目标;它理解并可以修补 kubernetes 样式的 API 对象。这就像 make ，因为它所做的是在文件中声明的，就像 sed 一样，因为它发出编辑过的文本。
 
 * [silenceshell/docker_mirror](https://github.com/silenceshell/docker_mirror) 发现国内加速的docker源。
 
@@ -11146,6 +11219,10 @@
 
 * [python-visualization/folium](https://github.com/python-visualization/folium) folium 建立在 Python 生态系统的数据整理优势和 Leaflet.js 库的映射优势之上。在 Python 中操作您的数据，然后通过 folium 将其可视化在 Leaflet 地图中。
 
+* [davidhalter/jedi](https://github.com/davidhalter/jedi) 很棒的 Python 自动完成、静态分析和重构库，Jedi 专注于自动完成和转到功能。其他功能包括重构、代码搜索和查找引用。有一个简单的 API 可供使用。有一个参考实现作为 VIM-Plugin。REPL中的自动完成也是可能的，IPython本机使用它，对于CPython REPL，您可以安装它。绝地武士经过了很好的测试，错误应该很少见。
+
+* [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) 最好的免费和开源自动时间跟踪器。跨平台、可扩展、注重隐私。在不损害用户隐私的情况下收集尽可能多的有价值的生活数据。
+
 ## C/C++ 程序设计
 
 * [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
@@ -11196,6 +11273,8 @@
 
 * [ocornut/imgui](https://github.com/ocornut/imgui) 具有最小依赖性的 C++ 无膨胀图形用户界面
 
+* [SFML/SFML](https://github.com/SFML/SFML) 简单、快速、跨平台和面向对象的多媒体 API。它提供对窗口、图形、音频和网络的访问。它是用 C++ 编写的，并具有各种语言的绑定，例如 C、.Net、Ruby、Python。
+
 * [citra-emu/citra](https://github.com/citra-emu/citra) 用 C++ 编写的实验性开源 Nintendo 3DS 模拟器/调试器。
 
 * [microsoft/vcpkg](https://github.com/microsoft/vcpkg) 帮助您管理 Win、Linux 和 MacOS 上的 C 和 C++ 库。
@@ -11205,6 +11284,8 @@
 * [open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) 用于与 JSON 交互的C++库。C++库，允许操作 JSON 值，包括字符串的序列化和反序列化。它还可以在反序列化/序列化步骤中保留现有注释，使其成为存储用户输入文件的方便格式。
 
 * [progschj/ThreadPool](https://github.com/progschj/ThreadPool) 一个简单的 C++11 线程池实现
+
+* [libevent/libevent](https://github.com/libevent/libevent) 事件通知库。libevent API 提供了一种机制，用于在文件描述符上发生特定事件或达到超时后执行回调函数。此外，libevent 还支持由于信号或定期超时而产生的回调。libevent 旨在替换事件驱动网络服务器中的事件循环。应用程序只需要调用 event_dispatch，然后动态添加或删除事件，而无需更改事件循环。目前 libevent 支持 /dev/poll、kqueue、event ports、POSIX select、Windows select、poll和 epoll。内部事件机制完全独立于公开的事件 API，对 libevent 的简单更新可以提供新功能，而无需重新设计应用程序。因此，Libevent 允许可移植应用程序开发，并提供操作系统上可用的最具可扩展性的事件通知机制。Libevent 还可用于多线程应用程序，方法是隔离每个event_base，以便只有一个线程访问它，或者通过锁定对单个共享event_base的访问。Libevent 应该在 Linux、*BSD、Mac OS X、Solaris、Windows 等平台上编译。Libevent 还为缓冲网络 IO 提供了一个复杂的框架，支持套接字、过滤器、速率限制、SSL、零拷贝文件传输和 IOCP。Libevent 支持多种有用的协议，包括 DNS、HTTP 和最小的 RPC 框架。使用 libevent 的程序：Chromium – Google 的开源网络浏览器（使用 Libevent）；Memcached – 高性能分布式内存对象缓存系统；Transmission 一个快速、简单且免费的 BitTorrent 客户端；NTP – 使时钟正确的网络时间协议（在 SNTP 中使用 Libevent）；tmux – 一个干净、现代、BSD 许可的终端多路复用器，类似于 GNU 屏幕；Tor – 一个匿名的互联网通信系统。libevhtp – libevent 的 http 客户端/服务器 API 的快速灵活替代品 
 
 * [idealvin/coost](https://github.com/idealvin/coost) 一个优雅高效的跨平台C++基础库。它的目标是创建一把C++之剑，使C++编程变得简单愉快。
 
@@ -11610,6 +11691,8 @@
 
 * [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) 无需 Docker 守护程序即可为您的 Java 应用构建优化的 Docker 和 OCI 映像，而无需深入了解 Docker 最佳实践。
 
+* [https://github.com/plantuml/plantuml](https://github.com/plantuml/plantuml) 从文本描述生成 UML 图。PlantUML 是一个java组件，允许您通过简单的文本描述创建各种 UML 图。从序列图到部署图等，PlantUML 提供了一种创建复杂系统的可视化表示的简单方法。支持的图表类型：时序图、用例图、类图、对象图、活动图、旧语法、组件图、部署图、状态图、时序图、JSON 数据、YAML 数据、EBNF（扩展的 Backus-Naur 形式）、正则表达式、网络图 （nwdiag）、Salt（线框图形界面或UI模型）、Archimate 图、SDL（规范和描述语言）、Ditaa 图、甘特图、年表图、思维导图、WBS（工作分解结构）、数学符号（AsciiMath、JLaTeXMath）、信息工程（IE）图、实体关系（ER）图
+
 * [zxing/zxing](https://github.com/zxing/zxing) ZXing （“Zebra Crossing”） 适用于 Java、Android 的条码扫描库
 
 * [yangchong211/YCBlogs](https://github.com/yangchong211/YCBlogs)  技术博客笔记大汇总，包括Java基础，线程，并发，数据结构；Android技术博客等等；常用设计模式；常见的算法；网络协议知识点；部分flutter笔记；还包括平时开发中遇到的bug汇总，收集了大量的面试题
@@ -11826,6 +11909,8 @@
 
 * [codex-team/editor.js](https://github.com/codex-team/editor.js) 具有干净 JSON 输出的块式编辑器
 
+* [notable/notable](https://github.com/notable/notable) 基于 Markdown 的笔记应用程序，并不糟糕。特征：笔记是用 GitHub Flavored Markdown 编写的，您还可以编写 KaTeX 表达式、美人鱼图等等，请查看我们完整的 Markdown 备忘单。Notable 还为您提供了一个非常强大的 Markdown 编辑器，它实际上与 VS Code 使用的编辑器相同，因此内置了多光标、小地图和一流的语法突出显示等功能。笔记和附件只是存储在您的磁盘上，这非常便携且功能强大：您可以使用自己喜欢的编辑器编辑笔记，通过Dropbox同步它们，在它们上运行Git，运行基于正则表达式的搜索并替换它们等。还提供深色主题。将来还将添加对自定义主题的支持。禅宗模式提供简约的编辑和阅读体验，隐藏所有不必要的内容。
+
 * [laurent22/joplin](https://github.com/laurent22/joplin) 安全的笔记和待办事项应用程序，具有适用于 Windows、macOS、Linux、Android 和 iOS 的同步功能。免费的开源笔记和待办事项应用程序，可以处理大量组织到笔记本中的笔记。笔记是可搜索的，可以直接从应用程序或您自己的文本编辑器中复制、标记和修改。注释采用 Markdown 格式。
 
 * [zyedidia/micro](https://github.com/zyedidia/micro) 现代且直观的基于终端的文本编辑器。旨在通过易于安装和使用成为 nano 编辑器的继承者。
@@ -11999,6 +12084,8 @@
 * [Bash-it/bash-it](https://github.com/Bash-it/bash-it)  Bash 3.2+ 的社区 Bash 命令和脚本的集合。（还有 oh-my-zsh）包括自动完成、主题、别名、自定义函数等等。Bash-it 提供了一个坚实的框架，用于在日常工作中使用、开发和维护 shell 脚本和自定义命令。如果您经常使用 Bourne Again Shell （Bash），并且一直在寻找一种简单的方法来控制所有这些漂亮的小脚本和别名，那么 Bash-it 适合您！
 
 * [sorin-ionescu/prezto](https://github.com/sorin-ionescu/prezto) Zsh 的配置框架;它通过合理的默认值、别名、函数、自动完成和提示主题丰富了命令行界面环境。
+
+* [ClementTsang/bottom](https://github.com/ClementTsang/bottom) 用于终端的可定制的跨平台图形化进程/系统监视器。支持 Linux、macOS 和 Windows。灵感来自 gtop、gotop 和 htop。特征：图形可视化小部件，CPU 使用率随时间推移，处于平均和每核水平，RAM 和交换使用情况随时间推移，网络 I/O 使用情况随时间的变化，支持放大/缩小显示的当前时间间隔。用于显示以下信息的小部件：磁盘容量/使用情况，温度传感器，电池使用情况，一个进程小部件，用于显示、排序和搜索有关进程的信息，以及支持：Kill信号，树模式，对 Linux、macOS 和 Windows 的跨平台支持，未来计划推出更多支持。可自定义的行为，可通过命令行选项或配置文件进行控制，例如：自定义和内置颜色主题、自定义小组件行为、更改小部件的布局、过滤掉某些小部件中的条目。其他一些好东西，比如：受 htop 启发的基本模式、扩展，只关注一个小部件
 
 * [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) 用户友好的命令行 shell。包括语法高亮显示、键入时自动建议和花哨的选项卡补全等功能，无需配置即可工作。
 
@@ -12327,6 +12414,8 @@
 
 * [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) Android、Win、Mac 和 Linux 的 PSP 模拟器，用 C++ 编写。
 
+* [aseprite/aseprite](https://github.com/aseprite/aseprite) 动画精灵编辑器和像素艺术工具（Windows、macOS、Linux），主要特点是：精灵由层和帧组成，作为独立的概念。支持颜色配置文件和不同的颜色模式：RGBA、索引（最多 256 种颜色的调色板）、灰度。动画设施，实时预览和洋葱皮。将动画导出/导入到/从精灵表、GIF 文件或 PNG 文件序列（以及 FLC、FLI、JPG、BMP、PCX、TGA）中导出/导入动画。支持多个编辑器。用于组织工作的图层组，以及用于转描的参考图层。像素艺术特定工具，如像素完美手绘模式、着色墨水、自定义画笔、轮廓、宽像素等。其他特殊绘图工具，如压力敏感度、对称工具、描边和填充选择、渐变。平铺模式可用于绘制图案和纹理。同时转换多个帧/图层。Lua 脚本功能。CLI - 用于自动执行任务的命令行界面。快速参考/备忘单键盘快捷键（可自定义的按键和鼠标滚轮）。重新打开关闭的文件并在崩溃时恢复数据。每个操作的撤消/重做，并支持非线性撤消。
+
 * [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) Go 编程语言的开源游戏引擎。Ebitengine 的简单 API 允许您快速轻松地开发可跨多个平台部署的 2D 游戏。
 
 * [skypjack/entt](https://github.com/skypjack/entt) 游戏与现代 C++ 的结合 - 快速可靠的实体组件系统 （ECS） 等等。仅标头，小巧且易于使用的游戏编程库，以及更多用现代 C++ 编写的库。
@@ -12339,6 +12428,8 @@
 
 * [mapeditor/tiled](https://github.com/mapeditor/tiled) 通用的图块地图编辑器，适用于所有基于图块的游戏，例如 RPG、平台游戏或 Breakout 克隆游戏
 
+* [ppy/osu](https://github.com/ppy/osu) 一款免费获胜的节奏游戏。节奏只需点击一下即可！
+
 * [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) 在浏览器中玩液体（即使在移动设备上也有效）
 
 * [ange-yaghi/engine-sim](https://github.com/ange-yaghi/engine-sim) 内燃机模拟器，可生成逼真的音频。
@@ -12346,6 +12437,8 @@
 * [lucoiso/UEHttpGPT](https://github.com/lucoiso/UEHttpGPT) 虚幻引擎插件，通过异步 REST 请求促进与 OpenAI 基于 GPT 的服务（ChatGPT 和 DALL-E），使开发人员可以轻松地与这些服务进行通信。
 
 * [miloyip/game-programmer](https://github.com/miloyip/game-programmer) 游戏程序员的学习路径
+
+* [BeyondDimension/SteamTools](https://github.com/BeyondDimension/SteamTools) 开源跨平台的多功能 Steam 工具箱。此工具的大部分功能都是需要您下载安装 Steam 才能使用。功能：网络加速、账号切换、库存游戏、游戏工具。
 
 * [liyucheng09/ChatGPT_Agent](https://github.com/liyucheng09/ChatGPT_Agent) 由 ChatGPT 代理提供支持的游戏演示
 
@@ -12594,6 +12687,8 @@
 * [google/flatbuffers](https://github.com/google/flatbuffers) 跨平台序列化库，旨在实现最大的内存效率。它允许您直接访问序列化数据，而无需先解析/解压缩它，同时仍然具有很好的向前/向后兼容性。
 
 * [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) 类似于 ack 的代码搜索工具，但速度更快。
+
+* [hluk/CopyQ](https://github.com/hluk/CopyQ) 一款高级剪贴板管理器，具有强大的编辑和脚本功能。特征：支持 Linux、Windows 和 OS X 10.15+；存储文本、HTML、图像和任何其他自定义格式；快速浏览和筛选剪贴板历史记录中的项目；在选项卡中对项目进行排序、创建、编辑、删除、复制/粘贴、拖放项目；为项目添加注释和标签；具有可自定义命令的系统范围的键盘快捷键；使用键盘快捷键、从托盘或从主窗口粘贴项目；完全可定制的外观；高级命令行界面和脚本；忽略从指定窗口复制或包含指定文本的剪贴板；支持带有键盘快捷键的简单类似 Vim 的编辑器
 
 * [koekeishiya/yabai](https://github.com/koekeishiya/yabai) 基于二进制空间分区的macOS平铺窗口管理器
 
