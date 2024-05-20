@@ -9071,6 +9071,8 @@
 
 * [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) 一个更新和有组织的阅读列表，用于说明可扩展、可靠和高性能的大型系统的模式。概念在著名工程师的文章和可靠的参考文献中进行了解释。案例研究取自为数百万至数十亿用户提供服务的经过实战考验的系统。
 
+* [apache/hive](https://github.com/apache/hive) Apache Hive （TM） 数据仓库软件有助于使用 SQL 读取、写入和管理驻留在分布式存储中的大型数据集。它建立在 Apache Hadoop （TM） 之上，提供：通过 SQL 轻松访问数据的工具，从而实现数据仓库任务，例如提取/转换/加载 （ETL）、报告和数据分析；一种将结构强加于各种数据格式的机制；访问直接存储在 Apache HDFS （TM） 或其他数据存储系统（如 Apache HBase （TM））中的文件；使用 Apache Hadoop MapReduce 或 Apache Tez 框架执行查询。Hive 提供标准的 SQL 功能，包括许多后来的 2003 和 2011 分析功能。其中包括 OLAP 函数、子查询、通用表表达式等。Hive 的 SQL 还可以通过用户定义函数 （UDF）、用户定义聚合 （UDAF） 和用户定义表函数 （UDTF） 使用用户代码进行扩展。Hive 用户可以选择 Apache Hadoop MapReduce 或 Apache Tez 框架作为其执行后端。请注意，MapReduce框架从Hive 2开始就被弃用了，推荐使用Apache Tez。MapReduce是一个成熟的框架，在大规模上得到了验证。但是，MapReduce是一个纯粹的批处理框架，使用它的查询可能会遇到更高的延迟（数十秒），即使在较小的数据集上也是如此。Apache Tez 专为交互式查询而设计，与 MapReduce 相比，开销大大降低。用户可以随时在这些框架之间自由切换。在每种情况下，Hive 都最适合处理的数据量大到需要分布式系统的用例。Hive 不是为联机事务处理而设计的。它最适合用于传统的数据仓库任务。Hive 旨在最大限度地提高可扩展性（通过动态向 Hadoop 集群添加更多计算机进行横向扩展）、性能、可扩展性、容错性以及与其输入格式的松散耦合。
+
 * [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes) 大数据入门指南
 
 * [newTendermint/awesome-bigdata](https://github.com/newTendermint/awesome-bigdata) 令人敬畏的大数据框架、资源和其他令人敬畏的精选列表。
@@ -9262,6 +9264,16 @@
 * [pgadmin-org/pgadmin4](https://github.com/pgadmin-org/pgadmin4) PostgreSQL 最受欢迎且功能丰富的开源管理和开发平台，PostgreSQL 是世界上最先进的开源数据库。pgAdmin 4 是作为 Web 应用程序编写的，服务器端使用 Python（Flask），客户端使用 ReactJS、HTML5 和 CSS，用于客户端处理和 UI。虽然使用 Web 技术开发，但 pgAdmin 4 可以使用浏览器部署在 Web 服务器上，也可以独立部署在工作站上。runtime/ 子目录包含一个基于 NWjs 的运行时应用程序，旨在允许这样做，它将执行 Python 服务器并显示 UI。
 
 * [sosedoff/pgweb](https://github.com/sosedoff/pgweb) PostgreSQL 数据库的跨平台客户端，基于 Web 的 PostgreSQL 数据库浏览器，用 Go 编写，适用于 Mac、Linux 和 Windows 机器。作为零依赖关系的简单二进制文件分发。非常易于使用，并包含适量的功能。
+
+* [FerretDB/FerretDB](https://github.com/FerretDB/FerretDB) MongoDB 事实上的开源替代品。FerretDB 是一个开源代理，使用 PostgreSQL 或 SQLite 作为数据库引擎，将 MongoDB 5.0+ 有线协议查询转换为 SQL。
+
+* [delta-io/delta](https://github.com/delta-io/delta) 开源存储框架，支持使用 Spark、PrestoDB、Flink、Trino 和 Hive 等计算引擎以及 API 构建湖仓一体架构。以下是一些比较流行的 Delta Lake 集成：Apache Spark™：此连接器允许 Apache Spark™ 读取和写入 Delta Lake。Apache Flink（预览版）：此连接器允许 Apache Flink 写入 Delta Lake。PrestoDB：此连接器允许 PrestoDB 从 Delta Lake 读取数据。Trino：此连接器允许 Trino 读取和写入 Delta Lake。Delta Standalone：此库允许基于 Scala 和 Java 的项目（包括 Apache Flink、Apache Hive、Apache Beam 和 PrestoDB）读取和写入 Delta Lake。Apache Hive：此连接器允许 Apache Hive 从 Delta Lake 读取数据。Delta Rust API：该库允许 Rust（使用 Python 和 Ruby 绑定）对 Delta 表进行低级访问，旨在与数据处理框架一起使用，例如 datafusion、ballista、rust-dataframe、vega 等。
+
+* [Sequel-Ace/Sequel-Ace](https://github.com/Sequel-Ace/Sequel-Ace) 适用于 macOS 的 MySQL/MariaDB 数据库管理
+
+* [tursodatabase/libsql](https://github.com/tursodatabase/libsql) SQLite 的一个分支，它既是开源的，也是开放贡献的。由 Turso 创建和维护。我们的目标是改进它，以适应比SQLite最初设计的更多的用例，并计划在任何有意义的地方使用第三方OSS代码。特征：嵌入式副本，允许您在应用内复制数据库。用于远程 SQLite 访问的 libSQL 服务器，类似于 PostgreSQL 或 MySQL。支持 Rust、JavaScript、Python、Go 等。
+
+* [apache/storm](https://github.com/apache/storm) 分布式实时计算系统。与Hadoop提供一组用于进行批处理的通用原语类似，Storm提供了一组用于执行实时计算的通用原语。Storm 很简单，可以与任何编程语言一起使用，被许多公司使用，而且使用起来很有趣！Apache Storm 有许多用例：实时分析、在线机器学习、持续计算、分布式 RPC、ETL 等。Apache Storm 速度很快：基准测试显示，每个节点每秒处理超过 100 万个元组。它具有可扩展性、容错性，可保证您的数据得到处理，并且易于设置和操作。Apache Storm 与您已经使用的排队和数据库技术集成。Apache Storm 拓扑使用数据流，并以任意复杂的方式处理这些流，根据需要在计算的每个阶段之间重新划分流。在本教程中阅读更多内容。
 
 ## 数据搜索引擎
 
@@ -9545,6 +9557,8 @@
 
 * [kubernetes/minikube](https://github.com/kubernetes/minikube) 在 macOS、Linux 和 Windows 上实现了本地 Kubernetes 集群。minikube 的主要目标是成为本地 Kubernetes 应用程序开发的最佳工具，并支持所有适合的 Kubernetes 功能。
 
+* [rootsongjc/kubernetes-handbook](https://github.com/rootsongjc/kubernetes-handbook) Kubernetes中文指南/云原生应用架构实战手册。Kubernetes 是 Google 于 2014 年 6 月基于其内部使用的 Borg 系统开源出来的容器编排调度引擎，Google 将其作为初始和核心项目贡献给 CNCF（云原生计算基金会），近年来逐渐发展出了云原生生态。Kubernetes 的目标不仅仅是一个编排系统，而是提供一个规范用以描述集群的架构，定义服务的最终状态，使系统自动地达到和维持该状态。Kubernetes 作为云原生应用的基石，相当于一个云原生操作系统，其重要性不言而喻。云原生技术有利于各组织在公有云、私有云和混合云等新型动态环境中，构建和运行可弹性扩展的应用。云原生的代表技术包括 容器、服务网格、微服务、不可变基础设施 和 声明式 API。这些技术能够构建容错性好、易于管理和便于观察的松耦合系统。结合可靠的自动化手段，云原生技术使工程师能够轻松地对系统作出频繁和可预测的重大变更。——CNCF（云原生计算基金会）。Kubernetes Handbook 项目始于 2016 年底，开源于 2017 年 3 月，作为第一本系统介绍 Kubernetes 的中文电子书，其后经过不断完善。写作本书的过程中，笔者记录了从零开始学习和使用 Kubernetes 的历程，着重于经验总结和资料分享，亦有 Kubernetes 核心概念解析，希望能够帮助大家少走弯路，为大家介绍 Kubernetes 周边生态，如微服务、DevOps、大数据应用、服务网格、云原生应用、Serverless 等领域。
+
 * [docker-slim/docker-slim](https://github.com/docker-slim/docker-slim) 请勿更改Docker容器映像中的任何内容并将其最小化30倍
 
 * [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) kustomize 允许您自定义原始的、无模板的 YAML 文件以用于多种用途，使原始 YAML 保持不变并按原样使用。kustomize 以 Kubernetes 为目标;它理解并可以修补 kubernetes 样式的 API 对象。这就像 make ，因为它所做的是在文件中声明的，就像 sed 一样，因为它发出编辑过的文本。
@@ -9662,6 +9676,8 @@
 * [dotnet/orleans](https://github.com/dotnet/orleans) 跨平台框架，用于构建可靠、可扩展的分布式应用程序。以 .NET 的开发人员生产力为基础，并将其引入分布式应用程序（如云服务）的世界。Orleans 从单个本地服务器扩展到云中全球分布的高可用性应用程序。
 
 * [helm/helm](https://github.com/helm/helm) 用于管理Kubernetes的工具。预配置的 Kubernetes 资源包。
+
+* [apache/openwhisk](https://github.com/apache/openwhisk) 用于构建云应用程序的无服务器函数平台。OpenWhisk 提供了一个丰富的编程模型，用于从函数创建无服务器 API、将函数组合到无服务器工作流中，以及使用规则和触发器将事件连接到函数。OpenWhisk 也可以安装在 Kubernetes 集群上。您可以使用从公有云提供商（例如 AKS、EKS、IKS、GKE）预配的托管 Kubernetes 集群，也可以使用您自己管理的集群。此外，对于本地开发，OpenWhisk 与 Minikube 和 Kubernetes for Mac 兼容，使用 Docker 18.06（或更高版本）中内置的支持。
 
 # 安全与渗透
 
@@ -12168,6 +12184,8 @@
 * [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的计算机编程类中文书籍
 
 * [wolverinn/Waking-Up](https://github.com/wolverinn/Waking-Up) 计算机基础（计算机网络/操作系统/数据库/Git...）面试问题全面总结，包含详细的follow-up question以及答案；全部采用【问题+追问+答案】的形式，即拿即用，直击互联网大厂面试；可用于模拟面试、面试前复习、短期内快速备战面试
+
+* [ZachGoldberg/Startup-CTO-Handbook](https://github.com/ZachGoldberg/Startup-CTO-Handbook) 涵盖领导力、管理和技术主题的书，面向软件工程团队的领导者
 
 * [washam/coding-interview-university](https://github.com/jwasham/coding-interview-university) 成为软件工程师的完整计算机学习计划。
 
