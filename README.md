@@ -923,6 +923,8 @@
 
 * [https://github.com/PAIR-code/facets](https://github.com/PAIR-code/facets) 包含两个用于理解和分析机器学习数据集的可视化效果：Facets Overview 和 Facets Dive。可视化作为 Polymer Web 组件实现，由 Typescript 代码提供支持，可以轻松嵌入到 Jupyter 笔记本或网页中。
 
+* [lmcinnes/umap](https://github.com/lmcinnes/umap) 均匀流形近似和投影 （UMAP ,Uniform Manifold Approximation and Projection） 是一种降维技术，可用于类似于 t-SNE 的可视化，但也可用于一般的非线性降维。该算法建立在关于数据的三个假设之上：数据均匀分布在黎曼流形上;黎曼度量是局部常数（或可以近似）;流形是本地连接的。根据这些假设，可以对具有模糊拓扑结构的流形进行建模。通过搜索具有最接近的等效模糊拓扑结构的数据的低维投影来找到嵌入。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1271,6 +1273,8 @@
 * [baichuan-inc/Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B) 由百川智能继 Baichuan-7B 之后开发的包含 130 亿参数的开源可商用的大规模语言模型，在权威的中文和英文 benchmark 上均取得同尺寸最好的效果。本次发布包含有预训练 (Baichuan-13B-Base) 和对齐 (Baichuan-13B-Chat) 两个版本。Baichuan-13B 有如下几个特点：更大尺寸、更多数据：Baichuan-13B 在 Baichuan-7B 的基础上进一步扩大参数量到 130 亿，并且在高质量的语料上训练了 1.4 万亿 tokens，超过 LLaMA-13B 40%，是当前开源 13B 尺寸下训练数据量最多的模型。支持中英双语，使用 ALiBi 位置编码，上下文窗口长度为 4096。同时开源预训练和对齐模型：预训练模型是适用开发者的『 基座 』，而广大普通用户对有对话功能的对齐模型具有更强的需求。因此本次开源我们同时发布了对齐模型（Baichuan-13B-Chat），具有很强的对话能力，开箱即用，几行代码即可简单的部署。更高效的推理：为了支持更广大用户的使用，我们本次同时开源了 int8 和 int4 的量化版本，相对非量化版本在几乎没有效果损失的情况下大大降低了部署的机器资源门槛，可以部署在如 Nvidia 3090 这样的消费级显卡上。开源免费可商用：B对学术研究完全开放，开发者也仅需邮件申请并获得官方商用许可后，可免费商用。
 
 * [01-ai/Yi](https://github.com/01-ai/Yi) 01.AI 从头开始训练的下一代开源大型语言模型。作为双语语言模型，并在 3T 多语言语料库上进行训练，Yi 系列模型成为全球最强大的LLM模型之一，在语言理解、常识推理、阅读理解等方面显示出前景。Yi-34B-Chat 模型在 AlpacaEval 排行榜上排名第二（仅次于 GPT-4 Turbo），表现优于其他LLMs模型（如 GPT-4、Mixtral、Claude）（基于截至 2024 年 1 月的数据）。Yi-34B模型在各种基准测试中，包括Hugging Face Open LLM Leaderboard（预训练）和C-Eval（基于截至2023年11月的数据）中，在所有现有的开源模型（如Falcon-180B、Llama-70B、Claude）中排名第一。感谢 Transformer 和 Llama 开源社区，因为它们减少了从头开始构建所需的工作量，并能够在 AI 生态系统中使用相同的工具。
+
+* [naklecha/llama3-from-scratch](https://github.com/naklecha/llama3-from-scratch) llama3 从头开始实现，此外，我将直接从 Meta 为 llama3 提供的模型文件加载张量。详细解释 llama3 大模型每一个运算步骤。
 
 * [CrazyBoyM/llama3-Chinese-chat](https://github.com/CrazyBoyM/llama3-Chinese-chat) Llama3 中文仓库（聚合资料：各种网友及厂商微调、魔改版本有趣权重 & 训练、推理、部署教程视频 & 文档）
 
@@ -5161,6 +5165,26 @@
 
 * [mojs/mojs](https://github.com/mojs/mojs)  JavaScript 动态图形库，它是一个快速、支持 Retina 的模块化和开源库。与其他库相比，它具有不同的语法和代码动画结构方法。声明式 API 为您提供了对动画的完全控制，使其易于自定义。该库提供了从头开始制作动画的内置组件，如 html、形状、漩涡、突发和交错，但也为您提供了帮助您以最自然的方式制作动画的工具。在您的网站上使用 mojs 将增强用户体验，在视觉上丰富您的内容并精确地创建令人愉悦的动画。
 
+* [mde/ejs](https://github.com/mde/ejs) JavaScript的嵌入式模板。用<% %>来控制流程，中间 JavaScript 的静态缓存，模板的静态缓存。
+
+* [Juanpe/SkeletonView](https://github.com/Juanpe/SkeletonView) 一种swift优雅的骨架动画，可以向用户展示正在发生的事情，并让他们准备好他们正在等待的内容
+
+* [xmartlabs/Eureka](https://github.com/xmartlabs/Eureka) Swift 中优雅的 iOS 表单构建器
+
+* [snabbdom/snabbdom](https://github.com/snabbdom/snabbdom) 一个虚拟 DOM 库，专注于简单性、模块化、强大的功能和性能。虚拟DOM真是太棒了。它允许我们将应用程序的视图表示为其状态的函数。但是现有的解决方案太臃肿，太慢，缺乏功能，API偏向于OOP，和/或缺乏我需要的功能。Snabbdom 由一个非常简单、高性能和可扩展的核心组成，该内核仅≈ 200 个 SLOC。它提供了一个模块化架构，具有丰富的功能，可以通过自定义模块进行扩展。为了保持核心的简单性，所有非必要的功能都委托给模块。
+
+* [https://github.com/shepherd-pro/shepherd](https://github.com/shepherd-pro/shepherd) Shepherd 可以轻松创建自定义用户引导之旅、培训和公告，以推动用户采用。Shepherd 使您能够引导用户完成您的应用程序或网站中的自定义游览或旅程。Shepherd 具有高度可定制性，样式极简，允许强大的自定义，同时易于使用。支持各种框架，包括 React、Ember、Angular、Vue.js、ES 模块或纯 JavaScript。
+
+* [logaretm/vee-validate](https://github.com/logaretm/vee-validate) 无痛 Vue 的表单，特征：简单：熟悉且易于设置的声明式验证；灵活：同步、异步、字段级或表单级验证；快速：使用直观的 API 和较小的占用空间更快地构建更快的表单；最小：仅处理复杂的表单问题，让您完全控制其他一切；UI 不可知：适用于本机 HTML 元素或您喜欢的 UI 库组件；渐进式：无论您是将Vue.js用作渐进式增强功能还是在复杂设置中，都有效；内置规则：具有 25+ 条规则的配套库，涵盖了大多数 Web 应用程序中的大多数需求； i18n：45+ 个内置规则语言环境，由来自世界各地的开发人员贡献
+
+* [catppuccin/catppuccin](https://github.com/catppuccin/catppuccin) 社区驱动的粉彩主题，旨在成为低对比度和高对比度主题之间的中间地带。它由 4 种舒缓的温暖口味组成，每种口味有 26 种令人眼花缭乱的颜色，非常适合编码、设计等等！此外，该存储库还跟踪实际调色板的开发、项目的文档、组织范围的资产、资源和维护人员/开发人员的代码示例。
+
+* [dotnet/runtime](https://github.com/dotnet/runtime) .NET 是适用于云、移动、桌面和 IoT 应用的跨平台运行时。所有受支持的平台生成 .NET 运行时、库和共享主机 （ dotnet ） 安装程序的代码，以及 .NET 运行时和库的源代码。
+
+* [gristlabs/grist-core](https://github.com/gristlabs/grist-core) Grist 是电子表格的演变。它结合了电子表格的灵活性和数据库的健壮性。grist-core （此存储库）具有运行强大的电子表格托管服务器所需的一切。grist-electron 是一款 Linux/macOS/Windows 桌面应用程序，用于查看和编辑本地存储的电子表格。grist-static 是 Grist 的完全浏览器内构建，用于在没有后端支持的情况下在网站上显示电子表格。
+
+* [DustinBrett/daedalOS](https://github.com/DustinBrett/daedalOS) 浏览器中的桌面环境，包括：文件系统、窗口、开始菜单、任务栏、背景、应用程序。
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -5293,11 +5317,15 @@
 
 * [sebastianbergmann/phpunit](https://github.com/sebastianbergmann/phpunit) PHP 单元测试框架。它是单元测试框架的 xUnit 体系结构的一个实例。
 
+* [https://github.com/doctrine/orm](https://github.com/doctrine/orm) Doctrine ORM 是 PHP 8.1+ 的对象关系映射器，它为 PHP 对象提供透明的持久性。它位于强大的数据库抽象层 （DBAL） 之上。它的主要功能之一是可以选择使用专有的面向对象的 SQL 方言编写数据库查询，称为 Doctrine Query Language （DQL），其灵感来自 Hibernate 的 HQL。这为开发人员提供了强大的 SQL 替代方案，可以保持灵活性，而无需不必要的代码重复。
+
 * [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) 一个PHP应用程序开发框架 - 一个工具包 - 适用于使用 PHP 构建网站的人。它的目标是通过为常用任务提供一组丰富的库，以及访问这些库的简单接口和逻辑结构，使你能够比从头开始编写代码更快地开发项目。
 
 * [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser) 用PHP编写的PHP解析器。其目的是简化静态代码分析和操作。
 
 * [erusev/parsedown](https://github.com/erusev/parsedown) PHP 中更好的 Markdown 解析器。
+
+* [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) 适用于 Laravel 的 IDE 帮助程序，此软件包会生成帮助程序文件，使 IDE 能够提供准确的自动完成功能。生成是根据项目中的文件完成的，因此它们始终是最新的。
 
 * [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) 高性能PHP应用程序服务器，用Go编写的进程管理器，由插件提供支持
 
@@ -5335,7 +5363,7 @@
 
 * [plausible/analytics](https://github.com/plausible/analytics) 简单开源轻量级1K和隐私友好的网络分析替代谷歌分析。
 
-* [hasura/graphql-engine](https://github.com/hasura/graphql-engine) 开源产品，通过立即为您提供具有内置数据授权的 GraphQL 或 REST API，将 API 开发速度提高了 10 倍。
+* [hasura/graphql-engine](https://github.com/hasura/graphql-engine) 开源产品，通过立即为您提供具有内置数据授权的 GraphQL 或 REST API，将 API 开发速度提高了 10 倍。在一个或多个域上构建、操作、协作和发展企业级 GraphQL API（联合或单体）的最快、最简单的方式。借助 Hasura DDN，您可以毫不费力地将所有数据库、服务和代码连接到一个统一的数据图中，并通过一个强大的超级图 API 将其公开，具有无与伦比的可组合性和速度。特色：使用“连接，而不是代码”的方法，在几分钟内在您的域上构建 API。使用令人难以置信的可组合和标准化 API 简化自助式数据访问和聚合。只有将性能调低到数据库查询的超级图查询规划器。领域团队（子图）可以协作构建和发展超图。在直观的 API 门户中发现、获取和编写所需的数据。提供任何规模的性能、安全性和可靠性，而不会造成 DevOps 负担。
 
 * [supabase/realtime](https://github.com/supabase/realtime) 通过 WebSocket 进行广播、状态和发布更改
 
@@ -5528,6 +5556,12 @@
 * [koajs/koa](https://github.com/koajs/koa) 富有表现力的 HTTP 中间件框架，用于node.js使 Web 应用程序和 API 编写起来更愉快。Koa 的中间件堆栈以类似堆栈的方式流动，允许您在下游执行操作，然后过滤和操作上游的响应。只有几乎所有 HTTP 服务器通用的方法才会直接集成到 Koa 的小型 ~570 SLOC 代码库中。这包括内容协商、节点不一致的规范化、重定向等。Koa 没有与任何中间件捆绑在一起。
 
 * [Activiti/Activiti](https://github.com/Activiti/Activiti) Activiti 是一个轻量级的工作流和业务流程管理 （BPM） 平台，面向业务人员、开发人员和系统管理员。它的核心是用于 Java 的超快速且坚如磐石的 BPMN 2 流程引擎。它是开源的，并在 Apache 许可下分发。Activiti 可以在任何 Java 应用程序、服务器、集群或...
+
+* [bagisto/bagisto](https://github.com/bagisto/bagisto) 免费和开源的 laravel 电子商务平台，建立在一些最热门的技术之上，例如 Laravel（PHP 框架）和Vue.js渐进式 Javascript 框架。Bagisto 可以帮助您减少建立在线商店或从实体店迁移到要求苛刻的在线世界的时间、成本和劳动力。您的企业（无论规模大小）都可以从中受益。最好的部分是，设置起来很简单！
+
+* [amplication/amplication](https://github.com/amplication/amplication) 开源后端开发平台。构建生产就绪型服务，无需在重复编码上浪费时间。强大的开源开发平台，旨在彻底改变可扩展且安全的 .NET 和 Node.js 应用程序的创建。Amplication 是唯一一个在几分钟内将想法转化为生产就绪代码的 AI 平台。我们通过可扩展的代码实现后端应用程序开发自动化，确保一致性、可预测性并遵守最高标准
+
+* [nhost/nhost](https://github.com/nhost/nhost) 使用 GraphQL 的开源 Firebase 替代方案。Nhost 由开源软件组成：数据库：PostgreSQL，Instant GraphQL API：Hasura，身份验证：Hasura Auth，存储：Hasura Storage，无服务器函数：Node.js（JavaScript 和 TypeScript），用于本地开发的 Nhost CLI
 
 ## 网络与前后端开发_其他
 
@@ -6247,6 +6281,12 @@
 
 * [VinciGit00/Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai) 网络抓取 python 库，它使用LLM和指导图形逻辑为网站和本地文档（XML、HTML、JSON 等）创建抓取管道。有三种主要的抓取管道可用于从网站（或本地文件）中提取信息：只需要用户提示和输入源的单页抓取工具;从搜索引擎的前 n 个搜索结果中提取信息的多页抓取工具;从网站中提取信息并生成音频文件的单页抓取工具。
 
+* [google/go-github](https://github.com/google/go-github) 用于访问 GitHub v3 API 的 Go 库
+
+* [http-party/http-server](https://github.com/http-party/http-server) 一个简单的零配置命令行 HTTP 服务器，它足够强大，可用于生产用途，但它足够简单且易于破解，可用于测试、本地开发和学习。
+
+* [coredns/coredns](https://github.com/coredns/coredns) DNS 服务器/转发器，用 Go 编写，用于链接插件。每个插件都执行一个（DNS）功能。快速灵活的DNS服务器。这里的关键词是灵活：使用CoreDNS，您可以通过使用插件对DNS数据做任何您想做的事情。如果某些功能没有开箱即用，您可以通过编写插件来添加它。
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -6658,6 +6698,8 @@
 
 * [deepinsight/insightface](https://github.com/deepinsight/insightface) 最先进的2D和3D人脸分析项目 人脸识别\检测\对齐
 
+* [facefusion/facefusion](https://github.com/facefusion/facefusion) 下一代换脸器和增强器。人脸分析：年龄、性别、人脸检测器、尺寸、分数。口罩。面部增强。换脸。唇型同步器。
+
 * [yoyo-nb/Thin-Plate-Spline-Motion-Model](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) 用于图像动画的薄板样条运动模型 人脸、人物动作姿势模拟
 
 * [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) 图像动画的一阶运动模型,实现静态图像到动态图像的转换.人脸、人物动作姿势模拟
@@ -7065,6 +7107,8 @@
 * [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) 图像生成软件（基于Gradio）。对 Stable Diffusion 和 Midjourney 设计的重新思考：从 Stable Diffusion 中学习，该软件是离线、开源和免费的。从Midjourney中学习，不需要手动调整，用户只需要专注于提示和图像。
 
 * [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) 关于扩散模型的资源和论文集
+
+* [cumulo-autumn/StreamDiffusion](https://github.com/cumulo-autumn/StreamDiffusion) 用于实时交互生成图片的流水线级解决方案，创新的扩散管道，专为实时交互式生成而设计。它为当前基于扩散的图像生成技术引入了显著的性能增强。主要特点：流批处理，通过高效的批处理操作简化数据处理。无残差分类器指南，改进的引导机制，可最大限度地减少计算冗余。随机相似性过滤器，通过高级过滤技术提高 GPU 利用率。队列，高效管理输入和输出操作，实现更顺畅的执行。KV 缓存的预计算，优化缓存策略以加速处理。模型加速工具，利用各种工具进行模型优化和性能提升。
 
 * [huggingface/diffusers](https://github.com/huggingface/diffusers) 用于在 PyTorch 中生成图像和音频的最先进的扩散模型，用于生成分子的图像、音频甚至 3D 结构。无论您是在寻找简单的推理解决方案还是训练自己的扩散模型，扩散器都是一个支持两者的模块化工具箱。我们的库的设计侧重于可用性而不是性能，简单而不是简单，以及可定制性而不是抽象。扩散器提供三个核心组件：最先进的扩散管道，只需几行代码即可在推理中运行。可互换的噪声调度器，用于不同的扩散速度和输出质量。预训练模型，可用作构建块，并与调度程序结合使用，用于创建您自己的端到端扩散系统。
 
@@ -7568,6 +7612,10 @@
 
 * [alyssaxuu/screenity](https://github.com/alyssaxuu/screenity) 免费且隐私友好的屏幕录像机，没有限制。功能强大的隐私友好型屏幕录像机和注释工具，可为工作、教育等制作更好的视频。您可以创建令人惊叹的产品演示、教程、演示文稿或与您的团队分享反馈 - 所有这些都是免费的。特征：对您的选项卡、特定区域、桌面、任何应用程序或相机进行无限制的记录；录制麦克风或内部音频，并使用一键通等功能；通过在屏幕上的任意位置绘图、添加文本、箭头、形状等进行注释；使用 AI 驱动的相机背景或模糊来增强您的录制效果；平滑放大录音以专注于特定区域；模糊任何页面的任何敏感内容以保持其私密性；使用全面的编辑器删除或添加音频、剪切、修剪或裁剪您的录音；突出显示您的点击和光标，然后进入聚光灯模式；设置闹钟以自动停止录制；导出为 mp4、gif 和 webm，或将视频直接保存到 Google 云端硬盘以共享链接；设置倒计时、隐藏 UI 的某些部分或将其移动到任何位置；只有您可以看到您的视频，我们不会收集您的任何数据。您甚至可以离线；没有限制，随心所欲地制作任意数量的视频；还有更多 - 全部免费，无需登录
 
+* [thumbor/thumbor](https://github.com/thumbor/thumbor) globo.com 的开源照片缩略图服务，智能成像服务，可实现按需裁剪、调整大小、应用滤镜和优化图像。自动裁剪照片可能是一种令人沮丧的体验，涉及断头。thumbor 使用 AI 进行智能检测。
+
+* [ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick) ImageMagick® 是一个免费的开源软件套件，用于编辑和操作数字图像。它可用于创建、编辑、合成或转换位图图像，并支持多种文件格式，包括 JPEG、PNG、GIF、TIFF 和 PDF。ImageMagick 广泛应用于 Web 开发、平面设计和视频编辑等行业，以及科学研究、医学成像和天文学。其多功能性和可定制性，以及强大的图像处理能力，使其成为各种图像相关任务的热门选择。ImageMagick 包括一个用于执行复杂图像处理任务的命令行界面，以及用于将其功能集成到软件应用程序中的 API。它是用 C 语言编写的，可以在各种操作系统上使用，包括 Linux、Windows 和 macOS。
+
 # 因果推断
 
 * [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -7697,6 +7745,10 @@
 * [firefly-iii/firefly-iii](https://github.com/firefly-iii/firefly-iii) 免费开源的个人理财经理，可以帮助您跟踪您的支出和收入，因此您可以花更少的钱并节省更多的钱。Firefly III 支持使用预算、类别和标签。使用一堆外部工具，您可以导入数据。它还有许多简洁的财务报告。
 
 ## 时间序列
+
+* [Zeying-Gong/PatchMixer](https://github.com/Zeying-Gong/PatchMixer) 最先进的长期时间序列预测，用于长期时间序列预测的 Patch-Mixing 架构。PatchMixer 主要由两个卷积层和两个预测头组成。它的显着特点是“补丁混合”设计，这意味着模型最初将输入时间序列分割成更小的时间补丁，然后集成来自这些补丁内部和之间的信息。从定量上看，与最先进的 Transformer （PatchTST） 相比，PatchMixer 在 MSE 上总体上相对减少了 3.9%，在 MAE 上相对减少了 3.0%。当根据性能最佳的基于 MLP 的模型 （DLinear） 进行评估时，我们的模型显示 MSE 上的 11.6% 和 MAE 上的 9.4% 总体下降。此外，与基于CNN的最佳模型（TimesNet）的可实现结果相比，我们证明了MSE上21.2%和MAE上12.5%的总体相对减少显着。
+
+* [HuggingFace 中的 PatchTSMixer - 入门](https://github.com/huggingface/blog/blob/main/patchtsmixer.md) 基于MLP-Mixer架构的轻量级时间序列建模方法。PatchTSMixer 在预测方面优于最先进的 MLP 和 Transformer 模型，差距很大，为 8-60%。它还优于 Patch-Transformer 型号的最新强大基准测试（1-2%），内存和运行时间显着减少 （2-3 倍）。有关详细信息，请参阅[论文](https://arxiv.org/pdf/2306.09364.pdf)。概述：PatchTSMixer 将给定的输入多变量时间序列拆分为一系列补丁或窗口。随后，它将序列传递到嵌入层，该嵌入层生成多维张量。多维张量随后传递到 PatchTSMixer 主干网，主干网由一系列 MLP Mixer 层组成。每个 MLP 混频器层通过一系列排列和 MLP 操作来学习 patch 间、 patch 内和 channel 间的相关性。PatchTSMixer 还采用残余连接和门控注意力来优先考虑重要特征。因此，一系列 MLP 混频器层创建了以下 PatchTSMixer 主干。PatchTSMixer 采用模块化设计，可无缝支持掩码时间序列预训练以及直接时间序列预测。
 
 * [thuml/Autoformer](https://github.com/thuml/Autoformer) 用于长期序列预测的具有自相关性的分解变压器。Autoformer超越了Transformer系列，首次实现了串联。在六个基准上进行实验，涵盖五个主流应用程序。我们将我们的模型与十个基线进行比较，包括 Informer、N-BEATS 等。通常，对于长期预测设置，Autoformer 实现了 SOTA，相对于之前的基线有38% 的相对改进。
 
@@ -8080,6 +8132,8 @@
 
 ## 语音合成
 
+* [2noise/ChatTTS](https://github.com/2noise/ChatTTS) 专为LLM助手等对话场景设计的文本转语音模型。它支持英文和中文。我们的模型训练了 100,000+ 小时，由中文和英文组成。HuggingFace 上的开源版本是一个 40,000 小时的预训练模型，没有 SFT。特色：对话式 TTS：ChatTTS 针对基于对话的任务进行了优化，可实现自然和富有表现力的语音合成。它支持多个扬声器，促进交互式对话。细粒度控制：该模型可以预测和控制细粒度的韵律特征，包括笑声、停顿和感叹词。更好的韵律：ChatTTS 在韵律方面超过了大多数开源 TTS 模型。我们提供预训练模型来支持进一步的研究和开发。
+
 * [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) MyShell的即时语音克隆。OpenVoice 的优势有三个方面：1.准确的色调颜色克隆。OpenVoice可以准确克隆参考音色，生成多种语言和口音的语音。2.灵活的语音风格控制。OpenVoice 支持对语音风格（如情感和口音）以及其他风格参数（包括节奏、停顿和语调）进行精细控制。3.零样本跨语言语音克隆。生成的语音的语言和参考语音的语言都不需要在大规模说话人多语言训练数据集中呈现。
 
 * [w-okada/voice-changer](https://github.com/w-okada/voice-changer) 实时语音转换器。客户端软件，使用各种语音转换AI（VC，语音转换）执行实时音频转换。 支持的语音转语音 AI 包括：MMVC、so-vits-svc 、RVC(Retrieval-based-Voice-Conversion 基于检索的语音转换)、DDSP-SVC、Beatrice JVS Corpus Edition
@@ -8093,6 +8147,8 @@
 * [coqui-ai/TTS](https://github.com/coqui-ai/TTS) 用于文本到语音的深度学习工具包，在研究和生产中经过实战测试。TTS 带有预训练模型、用于测量数据集质量的工具，并且已经在 20 多种语言中用于产品和研究项目。实例：`tts --model_name tts_models/zh-CN/baker/tacotron2-DDC-GST --text "你好。"`
 
 * [jaywalnut310/vits](https://github.com/jaywalnut310/vits) 一种用于端到端文本语音转换的条件变分自编码器，它比现有的两阶段模型产生更自然的声音。该方法采用变分推理和归一化流以及对抗式训练过程，提高了生成式建模的表达能力。
+
+* [rhasspy/piper](https://github.com/rhasspy/piper) 快速的本地神经文本到语音系统，听起来很棒，并针对 Raspberry Pi 4 进行了优化。支持多种语言。
 
 * [MoonInTheRiver/DiffSinger](https://github.com/MoonInTheRiver/DiffSinger) DiffSinger：通过浅扩散机制（SVS和TTS）进行歌声合成;AAAI 2022年;官方代码
 
@@ -8297,6 +8353,8 @@
 * [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) 免费的基于代码的音乐创作和表演工具。对于专业音乐家和 DJ 来说功能强大。富有表现力的构图和表演。盲人和部分视力障碍者可以使用。简单的计算和音乐课程。通过创作或表演从古典和爵士乐到嘻哈和电子舞曲等各种风格的音乐来学习创造性地编码。每个人都免费提供友好的教程。
 
 * [MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) 适用于 Google Play 音乐的精美跨平台桌面播放器
+
+* [wenet-e2e/WeTextProcessing](https://github.com/wenet-e2e/WeTextProcessing) 中文的文本规范化和反向文本规范化
 
 # 生物医药
 
@@ -9627,6 +9685,12 @@
 
 * [tobymao/sqlglot](https://github.com/tobymao/sqlglot) Python SQL 解析器和转译器，无依赖性的 SQL 解析器、转译器、优化器和引擎。它可用于格式化 SQL 或在 21 种不同的方言之间进行翻译，例如 DuckDB、Presto / Trino、Spark / Databricks、Snowflake 和 BigQuery。它旨在读取各种 SQL 输入，并在目标方言中输出语法和语义正确的 SQL。
 
+* [JSQLParser/JSqlParser](https://github.com/JSQLParser/JSqlParser) JSqlParser 解析 SQL 语句并将其转换为 Java 类的层次结构。生成的层次结构可以使用访客模式进行导航
+
+* [thanos-io/thanos](https://github.com/thanos-io/thanos) 具有长期存储功能的高可用性 Prometheus 设置。CNCF孵化项目。Thanos 是一组组件，可以组合成一个具有无限存储容量的高可用度量系统，可以在现有 Prometheus 部署之上无缝添加。Thanos 利用 Prometheus 2.0 存储格式，以经济高效的方式将历史指标数据存储在任何对象存储中，同时保持快速查询延迟。此外，它还提供跨所有 Prometheus 安装的全局查询视图，并可以动态合并来自 Prometheus HA 对的数据。
+
+* [SeaQL/sea-orm](https://github.com/SeaQL/sea-orm) 关系型 ORM，可帮助您在熟悉动态语言的情况下在 Rust 中构建 Web 服务。
+
 # 云&虚拟化
 
 * [istio/istio](https://github.com/istio/istio) 开源服务网格，透明地分层到现有的分布式应用程序上。Istio 的强大功能提供了一种统一且更高效的方式来保护、连接和监控服务。Istio 是负载均衡、服务到服务身份验证和监控的途径，只需很少或无需更改服务代码。
@@ -9762,6 +9826,8 @@
 * [helm/helm](https://github.com/helm/helm) 用于管理Kubernetes的工具。预配置的 Kubernetes 资源包。
 
 * [apache/openwhisk](https://github.com/apache/openwhisk) 用于构建云应用程序的无服务器函数平台。OpenWhisk 提供了一个丰富的编程模型，用于从函数创建无服务器 API、将函数组合到无服务器工作流中，以及使用规则和触发器将事件连接到函数。OpenWhisk 也可以安装在 Kubernetes 集群上。您可以使用从公有云提供商（例如 AKS、EKS、IKS、GKE）预配的托管 Kubernetes 集群，也可以使用您自己管理的集群。此外，对于本地开发，OpenWhisk 与 Minikube 和 Kubernetes for Mac 兼容，使用 Docker 18.06（或更高版本）中内置的支持。
+
+* [https://github.com/conductor-oss/conductor](https://github.com/conductor-oss/conductor) Conductor 是一个事件驱动的编排平台，Netflix 最初创建的一个平台，用于编排微服务和事件。Conductor OSS 由 Orkes 的开发团队以及开源社区的成员共同维护。用于商业和非商业用途的 Apache-2.0 许可证。自由部署、修改和回馈。通过完全抽象的后端，您可以选择自己的数据库持久层和排队服务。企业就绪的、基于Java Spring的平台，已经在Netflix和其他地方的生产系统中进行了实战测试。强大的流控制结构，包括决策、动态分叉连接和子工作流。支持变量和模板。多种语言的客户端库允许使用 Java、Node JS、Python 和 C# 实现 worker。适用于编排器和工作线程的分布式架构，可从单个工作流扩展到数百万个并发流程。Conductor 允许您使用简单而精细的任务来构建复杂的应用程序，这些任务不需要了解或跟踪应用程序执行流的状态。Conductor 跟踪状态，按正确的顺序（按顺序或并行，由您定义）调用任务，根据需要重试调用，优雅地处理故障场景，并输出最终结果。利用 Conductor 中的工作流，开发人员能够真正专注于他们的核心任务 - 使用他们选择的语言构建他们的应用程序代码。Conductor 承担了与确保其工作流程的高可靠性、事务一致性和长期耐用性相关的繁重工作。简单地说，无论您的应用程序组件位于何处，也无论它们使用哪种语言编写，您都可以在 Conductor 中构建一个工作流，以可靠且可扩展的方式编排它们的执行。
 
 # 安全与渗透
 
@@ -11052,6 +11118,8 @@
 
 * [cyberbotics/webots](https://github.com/cyberbotics/webots) 完整的开发环境，用于对机器人、车辆和机械系统进行建模、编程和仿真。
 
+* [jart/blink](https://github.com/jart/blink) 最小的 x86-64-Linux 模拟器，blink 是在不同的操作系统和硬件体系结构上运行 x86-64-linux 程序的虚拟机。它被设计为执行与 qemu-x86_64 命令相同的操作，除了：Blink 的大小为 221kb（禁用可选功能时为 115kb），而 qemu-x86_64 是 4mb 的二进制文件。Blink 可以在任何 POSIX 系统上运行您的 Linux 二进制文件，而 qemu-x86_64 仅支持 Linux。在某些基准测试中，Blink 的速度比 qemu-x86_64 快 2 倍，例如 SSE 整数/浮点数学。Blink 在运行编译器等临时程序时也快得多。blinkenlights 是一个终端用户界面，可用于跨平台调试 x86_64-Linux 或 i8086 程序。与 GDB 不同，Blinkenlights 专注于可视化程序执行。它使用 UNICODE IBM Code Page 437 字符来显示二进制内存面板，这些面板会随着您单步执行程序的汇编代码而变化。可以使用鼠标滚轮滚动和缩放这些内存面板。Blinkenlights 还允许反向调试，其中在汇编显示上滚动允许倒带执行历史记录。
+
 * [awesome-robotic-tooling](https://github.com/Ly0n/awesome-robotic-tooling) 用于 C++ 和 Python 专业机器人开发的工具，带有 ROS、自动驾驶和航空航天的触感。
 
 * [MichaIng/DietPi](https://github.com/MichaIng/DietPi) 非常轻量级的基于 Debian 的操作系统。它针对最小的 CPU 和 RAM 资源使用进行了高度优化，确保您的 SBC 始终发挥其最大潜力。
@@ -11382,6 +11450,10 @@
 * [libcpr/cpr](https://github.com/libcpr/cpr) libcurl的简单包装器，灵感来自优秀的Python Requests项目。
 
 * [open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) 用于与 JSON 交互的C++库。C++库，允许操作 JSON 值，包括字符串的序列化和反序列化。它还可以在反序列化/序列化步骤中保留现有注释，使其成为存储用户输入文件的方便格式。
+
+* [cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) 适用于 C++ 的工业级无锁队列。特征：超快的性能。单头文件实现，只需将其放入您的项目中即可。完全线程安全的无锁队列，从任意数量的线程并发使用。C++11 实现 -- 在可能的情况下移动（而不是复制）元素。模板化，避免了专门处理指针的需要 -- 内存是为您管理的。对元素类型或最大数量没有人为限制。内存可以预先分配一次，也可以根据需要动态分配。完全可移植（无需汇编;所有操作均通过标准 C++ 11 原语完成）。支持超快速批量操作，包括低开销阻塞版本 （BlockingConcurrentQueue）。异常安全。
+
+* [electronicarts/EASTL](https://github.com/electronicarts/EASTL) EASTL 代表 Electronic Arts 标准模板库。它是一个广泛而强大的实现，强调高性能。它是容器、算法和迭代器的 C++ 模板库，可用于跨多个平台的运行时和工具开发。它是此类库的相当广泛和健壮的实现，并且强调高性能高于所有其他考虑因素。
 
 * [progschj/ThreadPool](https://github.com/progschj/ThreadPool) 一个简单的 C++11 线程池实现
 
@@ -11865,6 +11937,8 @@
 
 * [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer) 灵活、易于使用、多合一的抽屉库，适用于您的 Android 项目。现在采用材料 2 设计的全新设计。
 
+* [AppIntro/AppIntro](https://github.com/AppIntro/AppIntro) 为您的 Android 应用程序制作一个很酷的介绍。可帮助您为应用构建酷炫的轮播介绍。 AppIntro 支持请求权限，并帮助您在短短几分钟内创建出色的入门体验。
+
 * [material-components/material-components-android](https://github.com/material-components/material-components-android) 适用于 Android 的模块化和可自定义的 Material Design UI 组件
 
 * [bumptech/glide](https://github.com/bumptech/glide) 适用于 Android 的图像加载和缓存库，专注于平滑滚动
@@ -11990,6 +12064,8 @@
 * [coder/code-server](https://github.com/coder/code-server) 浏览器中的 VS 代码编辑器
 
 * [microsoft/vscode](https://github.com/microsoft/vscode) 微软开源的程序开发工具和编辑器
+
+* [material-theme/vsc-material-theme](https://github.com/material-theme/vsc-material-theme) Material Theme，Visual Studio Code 最史诗般的主题
 
 * [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) 让您的 Vim/Neovim 像 VS Code 一样智能
 
@@ -12221,6 +12297,12 @@
 
 * [claudiodangelis/qrcp](https://github.com/claudiodangelis/qrcp) 通过扫描二维码，通过 wifi 将文件从您的计算机传输到您的移动设备，而无需离开终端
 
+* [imsnif/bandwhich](https://github.com/imsnif/bandwhich) CLI 实用程序，用于按进程、连接和远程 IP/主机名显示当前网络利用率 
+
+* [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs) Nixpkgs 是超过 100,000 个软件包的集合，可以与 Nix 包管理器一起安装。它还实现了 NixOS，一个纯功能的 Linux 发行版。
+
+* [so-fancy/diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) diff-so-fancy 努力使您的差异具有人类可读性，而不是机器可读性。这有助于提高代码质量，并帮助您更快地发现缺陷。
+
 ## 知识管理 wiki知识库
 
 * [logseq/logseq](https://github.com/logseq/logseq) 一个知识管理和协作平台。它侧重于隐私、寿命和用户控制。Logseq 提供了一系列用于知识管理、协作、PDF 注释和任务管理的强大工具，支持多种文件格式，包括 Markdown 和组织模式，以及用于组织和构建笔记的各种功能。
@@ -12450,6 +12532,10 @@
 
 * [gluon-lang/gluon](https://github.com/gluon-lang/gluon) 一种用 Rust 编写的静态、类型推断和可嵌入语言。专为应用程序嵌入而设计。
 
+* [Universidade-Livre/ciencia-da-computacao](https://github.com/Universidade-Livre/ciencia-da-computacao) 计算机科学自学成才的途径，巴西自由大学提供的计算机科学课程是使用来自巴西的在线和葡萄牙语材料进行的完整计算机科学教育。本课程不是为特定技术的培训而设计的，也不是针对针对市场的专业技能而设计的，而是为那些希望自己的教育、高质量的、基于计算机基本概念的人设计的，专为具有纪律、承诺和（最重要的是）良好学习习惯的学生而设计，这些学生大多是独立的，但寻求巴西其他学生社区的支持。
+
+* [https://github.com/witheve/Eve](https://github.com/witheve/Eve) Eve 是一种编程语言，基于多年构建以人为本的编程平台的研究。
+
 ## 游戏
 
 * [raysan5/raylib](https://github.com/raysan5/raylib) 一个简单易用的视频游戏编程库 
@@ -12565,6 +12651,8 @@
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) 使用 LibGDX 制作的 《 文明V 》Civ V 的开源、以可修改性为重点的 Android 和桌面重制版
 
 * [colyseus/colyseus](https://github.com/colyseus/colyseus) 权威的 Node.js 多人游戏框架，其 SDK 可用于 Web、Unity、Defold、Haxe、Cocos 和 Construct3。该项目的重点是为实时和回合制游戏提供可同步的数据结构、匹配以及服务器端和客户端的易用性。
+
+* [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) 在网页中添加 Live2D 看板娘。兼容 PJAX，支持无刷新加载。
 
 ## 其他
 
@@ -13125,5 +13213,15 @@
 * [mono/mono](https://github.com/mono/mono) 软件平台，旨在让开发人员轻松创建跨平台应用程序。它是 Microsoft 的 .NET Framework 的开源实现，基于 C# 和公共语言运行库的 ECMA 标准。
 
 * [digitalarchive.wilsoncenter.org](https://digitalarchive.wilsoncenter.org/) 威尔逊中心数字档案馆是一个资源，学生、研究人员和专家可以在这里访问来自世界各地政府和组织的曾经的秘密文件。数字档案馆由威尔逊中心的历史和公共政策项目建造和维护，包含来自世界各地档案馆的解密历史资料，包括外交电报、高层通信、会议记录、情报估计等。由于其中大部分信息都有英文翻译，这些历史文献丰富了国际学术、历史教育和关于重要全球问题和挑战的公共政策辩论。历史与公共政策计划致力于从世界各地的存储库中公开 20 世纪和 21 世纪国际历史的主要来源记录，促进基于这些记录的学术研究，并使用这些材料为课堂、公共和政策辩论提供背景关于全球事务。
+
+* [H-M-H/Weylus](https://github.com/H-M-H/Weylus) 将平板电脑用作计算机上的图形输入板/触摸屏。
+
+* [rubocop/rubocop](https://github.com/rubocop/rubocop) 一个 Ruby 静态代码分析器和格式化程序，基于社区 Ruby 风格指南。
+
+* [chocolatey/choco](https://github.com/chocolatey/choco) 像 yum 或 apt-get，但适用于 Windows 的包管理器
+
+* [jbogard/MediatR](https://github.com/jbogard/MediatR) .NET 中的简单调解器实现，没有依赖关系的进程内消息传递。支持请求/响应、命令、查询、通知和事件，同步和异步，并通过 C# 泛型差异进行智能调度。
+
+* [Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges) Markdown 徽章，将徽章添加到您的个人资料和项目。个人开发人员品牌、个人资料和项目的徽章。
 
 # end
