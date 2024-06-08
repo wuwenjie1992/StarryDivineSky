@@ -3905,6 +3905,8 @@
 
 * [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
 
+* [xcatliu/typescript-tutorial](https://github.com/xcatliu/typescript-tutorial) 从 JavaScript 程序员的角度总结思考，循序渐进的理解 TypeScript。TypeScript 虽然有官方手册及其非官方中文版，但是它每一章都希望能详尽的描述一个概念，导致前面的章节就会包含很多后面才会学习到的内容，而有些本该一开始就了解的基础知识却在后面才会涉及。如果是初学者，可能需要阅读多次才能理解。所以它更适合用来查阅，而不是学习。
+
 * [oven-sh/bun](https://github.com/oven-sh/bun) 多合一快速且易于使用的工具。 不需要 1,000 个用于开发的 node_modules，你只需要 bun。令人难以置信的快速 JavaScript 运行时、捆绑器、测试运行器和包管理器 - 合二为一
 
 * [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。TypeScript 支持。文件系统路由 à la Next.js。
@@ -4067,6 +4069,12 @@
 
 * [Unleash/unleash](https://github.com/Unleash/unleash) 专为开发人员打造的开源功能管理解决方案。Unleash 是一个强大的功能管理开源解决方案。它简化了您的开发工作流程，加快了软件交付速度，并使团队能够控制向最终用户推出新功能的方式和时间。借助 Unleash，您可以按照自己的节奏在更小、更易于管理的版本中将代码部署到生产环境。Unleash 中的功能标志允许您使用真实的生产数据测试代码，从而降低对用户体验产生负面影响的风险。它还使您的团队能够同时处理多个功能，而无需单独的功能分支。Unleash 是 GitHub 上最流行的功能标记开源解决方案。它支持 15 个官方客户端和服务器 SDK 以及超过 15 个社区 SDK。如果您愿意，您甚至可以创建自己的 SDK。Unleash 与任何语言和框架兼容。
 
+* [gibbok/typescript-book](https://github.com/gibbok/typescript-book) 简明 TypeScript 书：TypeScript 有效开发的简明指南。免费和开源。《简明 TypeScript 手册》全面而简洁地概述了 TypeScript 的功能。它提供了清晰的解释，涵盖了该语言最新版本的所有方面，从其强大的类型系统到高级功能。无论您是初学者还是经验丰富的开发人员，本书都是增强您对 TypeScript 的理解和熟练程度的宝贵资源。
+
+* [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) 用于使 ESLint 和 Prettier 能够支持 TypeScript 的工具。ESLint 静态分析您的代码以快速发现问题。它允许围绕代码的外观或行为创建一系列称为 lint 规则的断言，以及自动修复程序建议以为您改进代码，并从共享插件加载 lint 规则。TypeScript 为 JavaScript 添加了额外的语法，允许您在代码中声明对象和函数的形状。它提供了一组语言服务，允许使用该类型信息运行强大的推理和自动化。typescript-eslint 使 ESLint 能够在 TypeScript 代码上运行。它引入了这两种工具的优点，以帮助您编写最好的 JavaScript 或 TypeScript 代码。ESLint 和 TypeScript 在内部以不同的方式表示代码。ESLint 的默认 JavaScript 解析器无法以特定于 TypeScript 的语法进行本机读取，并且其规则本身无法访问 TypeScript 的类型信息。允许 ESLint 解析 TypeScript 语法。为 ESLint 规则创建一组工具，以便能够使用 TypeScript 的类型信息。提供了特定于 TypeScript 和/或使用该类型信息的大量 lint 规则列表。
+
+* [JacksonTian/fks](https://github.com/JacksonTian/fks) 前端知识结构。整理和维护前端开发领域知识体系。它起源于对一张前端知识结构图的回忆，该图详细展示了前端开发的相关知识和技术点。随着时间的发展，这些技术点可能会发生变化，因此需要一个协作的平台来更新和维护这些信息。项目包含的内容非常广泛，可以分为以下几个主要部分：浏览器和引擎：列举了不同浏览器及其渲染引擎，如IE、Firefox、Chrome、Safari和Opera。编程语言：包括JavaScript、TypeScript、CoffeeScript等，以及Node.js作为服务器端编程语言。涵盖了HTML5、CSS/CSS3、Sass、LESS等样式预处理器。介绍了各种文本编辑器、IDE和调试工具，如Visual Studio Code、VIM、Sublime Text等。包括Git、SVN等版本控制工具，以及GitHub、GitLab等代码托管平台。提到了ESLint、JSLint等代码质量工具，以及编码风格和代码组织。介绍了单元测试、自动化测试和性能测试的工具和概念。列举了多个前端框架和库，如Vue、React、jQuery等。涉及HTTP、ECMAScript、W3C标准等。包括性能优化工具和概念，如YSlow、PageSpeed等。搜索引擎优化相关的知识。涵盖了数据结构、OOP/AOP、设计模式、编程范型等。压缩合并、文档输出、构建工具等。HTML5/CSS3、响应式设计、移动应用开发等。HTML、CSS、JavaScript等标准。CSRF、XSS、CSP等安全概念。为前端开发者推荐了一系列书籍，分为入门和进阶两个层次。提供了前端工作面试的问题和资源。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -4152,30 +4160,6 @@
 
 * [cypress-io/cypress](https://github.com/cypress-io/cypress) 快速、简单、可靠地在浏览器中运行的任何测试内容。轻松地为现代 Web 应用程序创建测试，直观地调试，并在持续集成构建中自动运行它们。
 
-* [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
-
-* [ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella) 免费Bootstrap4 管理仪表板模板
-
-* [akveo/ngx-admin](https://github.com/akveo/ngx-admin) 基于Angular 10 +的可定制管理仪表板模板
-
-* [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) 免费的开源中后端模板。采用最新 vue3 、vite4 、TypeScript 等主流技术发展，开箱即用的中后端前端方案也可用于学习参考。
-
-* [akveo/ngx-admin](https://github.com/akveo/ngx-admin) 基于 Angular 10+ 的可定制管理仪表板模板
-
-* [iview/iview-admin](https://github.com/iview/iview-admin) 基于 iView 的 Vue 2.0 管理员管理系统模板
-
-* [creativetimofficial/material-dashboard](https://github.com/creativetimofficial/material-dashboard) 免费的 Material Bootstrap Admin，具有受 Google Material Design 启发的全新设计。我们非常高兴地通过一套易于使用且美观的组件来介绍我们对材料概念的看法。Material Dashboard 建立在流行的 Bootstrap 框架之上，它带有几个经过重新设计的第三方插件，以适应其余元素。
-
-* [epicmaxco/vuestic-admin](https://github.com/epicmaxco/vuestic-admin) 免费且漂亮的 Vue.js 管理模板，具有 44+ 自定义 UI 组件。用 Vuestic UI 构建的。
-
-* [yezihaohao/react-admin](https://github.com/yezihaohao/react-admin) react 后台管理系统解决方案
-
-* [honghuangdc/soybean-admin](https://github.com/honghuangdc/soybean-admin) 基于Vue3、Vite3、TypeScript、NaiveUI 和 UnoCSS的清新优雅的中后台模版
-
-* [tabler/tabler](https://github.com/tabler/tabler) 建立在Bootstrap上的HTML Dashboard UI 工具包
-
-* [coreui/coreui-free-bootstrap-admin-template](https://github.com/coreui/coreui-free-bootstrap-admin-template) 基于由专业人士创建和支持的企业级手工制作的 UI 组件库构建的开源 Bootstrap 管理仪表板模板。CoreUI 管理模板可帮助您比以前更快地构建可靠的 Web 应用。CoreUI提供4个版本：Angular，Bootstrap，React.js和Vue.js。
-
 * [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) Node.js 库，提供了一个高级 API 来控制 DevTools 协议上的 Chrome/Chromium。Puppeteer默认以无头模式运行，但可以配置为在完整（“有头”）Chrome / Chromium中运行。示例：生成页面的屏幕截图和 PDF。对 SPA（单页应用程序）进行爬网并生成预呈现的内容（即“SSR”（服务器端呈现））。自动化表单提交、UI 测试、键盘输入等。使用最新的 JavaScript 和浏览器功能创建自动化测试环境。捕获站点的时间线跟踪，以帮助诊断性能问题。测试Chrome扩展程序。
 
 * [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) React企业应用程序的全新 UI 解决方案。
@@ -4195,50 +4179,6 @@
 * [jaredpalmer/tsdx](https://github.com/jaredpalmer/tsdx) 用于 TypeScript 包开发的零配置 CLI，可帮助您轻松开发、测试和发布现代 TypeScript 包
 
 * [basarat/typescript-book](https://github.com/basarat/typescript-book) TypeScript 的权威指南，也可能是最好的 TypeScript 书籍
-
-* [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) 基于 Bootstrap 4 的免费管理仪表板模板
-
-* [chuzhixin/vue-admin-better](https://github.com/chuzhixin/vue-admin-better) vue后台管理
-
-* [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) 免费开放源码的中间端和后端模板，使用最新的 vue3，vite2，TypeScript 和其他主流技术开发，可作为学习参考。
-
-* [lyt-Top/vue-next-admin](https://github.com/lyt-Top/vue-next-admin) 基于 vue3.x + CompositionAPI setup 语法糖 + typescript + vite + element plus + vue-router-next + pinia 技术，适配手机、平板、pc 的后台开源免费模板，实现快速开发。
-
-* [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 后台前端解决方案，基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)。
-
-* [cool-team-official/cool-admin-vue](https://github.com/cool-team-official/cool-admin-vue) 很酷的后台权限管理框架，模块化、插件化、CRUD极速开发，基于midway.js 3.0、typeorm、mysql、jwt、element-ui、vuex、vue-router、vue等构建
-
-* [PanJiaChen/vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 一个最小的 vue 管理模板，带有 Element UI & axios & iconfont & 权限控制 & lint
-
-* [flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) 基于vite+vue3+gin搭建的开发基础平台（支持TS,JS混用），集成jwt鉴权，权限管理，动态路由，显隐可控组件，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器。
-
-* [biubiubiu01/vue3-bigData](https://github.com/biubiubiu01/vue3-bigData) 基于vue的大数据分析系统，包含各种echarts和vue
-
-* [RainManGO/vue3-composition-admin](https://github.com/RainManGO/vue3-composition-admin) 基于vue3 的管理端模板
-
-* [newpanjing/simpleui](https://github.com/newpanjing/simpleui) 基于vue+element-ui的django admin现代化主题。全球20000+网站都在使用
-
-* [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
-
-* [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro) 基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城等功能。
-
-* [elunez/eladmin](https://github.com/elunez/eladmin) eladmin jpa 版本：基于 Spring Boot 2.6.4、 Jpa、 Spring Security、Redis、Vue的前后端分离的后台管理系统，采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，一键生成前后端代码，支持动态路由
-
-* [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
-
-* [codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin) 用于管理 Spring Boot 应用程序的管理 UI
-
-* [elunez/eladmin-web](https://github.com/elunez/eladmin-web) eladmin jpa版本：前端源码，项目基于 Spring Boot 2.1.0 、 Spring Boot Jpa、 Spring Security、Redis、Vue的前后端分离后台管理系统
-
-* [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 & Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
-
-* [YunaiV/yudao-cloud](https://github.com/YunaiV/yudao-cloud) 基于 Spring Cloud Alibaba + MyBatis Plus + Vue &amp; Element 实现的后台管理系统 + 用户小程序，支持 RBAC 动态权限、多租户、数据权限、工作流、三方登录、支付、短信、商城等功能。
-
-* [macrozheng/mall-learning](https://github.com/macrozheng/mall-learning) mall学习教程，架构、业务、技术要点全方位解析。mall项目（50k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot 2.3.0、MyBatis 3.4.6、Elasticsearch 7.6.2、RabbitMQ 3.7.15、Redis 5.0、MongoDB 4.2.5、Mysql5.7等技术，采用Docker容器化部署。
-
-* [jaywcjlove/icongo](https://github.com/jaywcjlove/icongo) 搜索 SVG 图标。轻松地在 React 项目中包含流行的图标，并提供一个简单的工具将 SVG 转换为 React 组件。[icongo](https://icongo.github.io/)
-
-* [Lissy93/dashy](https://github.com/Lissy93/dashy) 为您构建的自托管个人仪表板。包括状态检查，小部件，主题，图标包，UI编辑器等等！
 
 * [DataV-Team/DataV](https://github.com/DataV-Team/DataV) Vue数据可视化组件库（类似阿里DataV，大屏数据展示），提供SVG边框及装饰、图表、水位图、飞线图等组件，React版已发布
 
@@ -4898,8 +4838,6 @@
 
 * [Tencent/omi](https://github.com/Tencent/omi) Omi - Web 组件框架，通过无功信号进行信号驱动的无功编程；100+ OMI模板和OMI模板源代码；OMI表单和OMI表单游乐场和Lucide Omi图标；OMIU预览正在进行中&OMIU源代码；体积小，性能快；您需要的一切：Web 组件、JSX、函数组件、路由器、悬念、指令、Tailwindcss......；支持面向对象编程（OOP）和面向数据编程（DOP）；利用可构建的样式表轻松管理和共享样式
 
-* [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) 现代化、开源的 Linux 服务器运维管理面板。
-
 * [wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table) 扩展表，用于与一些最广泛使用的 CSS 框架集成。（支持 Bootstrap、Semantic UI、Bulma、Material Design、Foundation Vue.js）
 
 * [jlmakes/scrollreveal](https://github.com/jlmakes/scrollreveal) 在元素滚动到视图中时对其进行动画处理。
@@ -5185,6 +5123,90 @@
 
 * [DustinBrett/daedalOS](https://github.com/DustinBrett/daedalOS) 浏览器中的桌面环境，包括：文件系统、窗口、开始菜单、任务栏、背景、应用程序。
 
+* [zyronon/douyin](https://github.com/zyronon/douyin) Vue3 + Pinia 仿抖音，Vue 在移动端的最佳实践 .模仿 TikTok 、Vue 移动端最佳实践。douyin-vue 是一个模仿 抖音|TikTok 的移动端短视频项目。Vue 在移动端的"最佳实践"，媲美原生 App 丝滑流畅的使用体验。使用了最新的 Vue 技术栈，基于 Vue3、Vite5 、Pinia实现。数据保存在项目本地，通过 axios-mock-adapter 库拦截Api 并返回本地json数据，模拟真实后端请求。
+
+* [zedeus/nitter](https://github.com/zedeus/nitter) 一个免费和开源的替代Twitter前端，专注于隐私和性能。灵感来自Invidious项目。没有 JavaScript 或广告。所有请求都通过后端，客户端从不与 Twitter 交谈。阻止 Twitter 跟踪您的 IP 或 JavaScript 指纹。使用 Twitter 的非官方 API（无需速率限制或开发者帐户）。轻量级（@nim_lang，60KB vs 784KB twitter.com）。RSS 订阅源。主题。移动支持（响应式设计）。AGPLv3 许可，不允许专有实例。
+
+* [https://github.com/didi/DoKit](https://github.com/didi/DoKit) 一款面向泛前端产品研发全生命周期的效率平台。DoKit诞生于滴滴城运服体验技术部，是一款面向泛前端产品研发全生命周期的效率平台。经过两年的发展，当前DoKit已经发展成了一个相对完整的生态，比如DoKit For Android、DoKit For iOS、DoKit For 小程序、DoKit For Flutter、DoKit For Web。同时我们的项目被BAT以及滴滴、字节、快手、京东等等头部独角兽企业广泛使用并获得良好的口碑。随着dokit.cn平台端的推出，标志着DoKit已经从单纯的效率工具正式进入了效率工具平台的阶段。与此同时我们一直都未停下持续探索的精神，积极地在更多平台领域进行尝试，不给自己设限。我们相信DoKit的未来充满无限可能。每一个稍微有点规模的 App，总会自带一些线下的测试功能代码，比如环境切换功能、帧率查看功能等等，这些功能的切换入口往往放在各式各样的入口中，比如一些特殊的手势，双击 statusBar，双击某一个功能区块，或者新建一个 keyWindow 始终至于 App 最上方等等，而且每一个 App 里面的线下附带功能模块很多是相似的，比如帧率查看、内存和 CPU 监控等等，但是现在基本上都是每个 App 都是自己实现了一份，经历了以上的问题之后，DoKit 就有了它存在的意义。DoKit 是一个功能平台，能够让每一个 App 快速接入一些常用的或者你没有实现的一些辅助开发工具、测试效率工具、视觉辅助工具，而且能够完美在 Doraemon 面板中接入你已经实现的与业务紧密耦合的一些非通有的辅助工具，并搭配我们的dokit平台，让功能得到延伸，接入方便，便于扩展。简单总结：1、DoKit 能够快速让你的业务测试代码能够在这里统一管理，统一收口；2、DoKit 内置很多常用的工具，避免重复实现，一次接入，你将会拥有强大的工具集合；3、搭配dokit平台，借助接口Mock、健康体检、文件同步助手、一机多控让你方便和他人协同，极大的提升研发过程中的效率。
+
+### 管理面板
+
+* [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
+
+* [ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella) 免费Bootstrap4 管理仪表板模板
+
+* [akveo/ngx-admin](https://github.com/akveo/ngx-admin) 基于Angular 10 +的可定制管理仪表板模板
+
+* [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) 免费的开源中后端模板。采用最新 vue3 、vite4 、TypeScript 等主流技术发展，开箱即用的中后端前端方案也可用于学习参考。
+
+* [akveo/ngx-admin](https://github.com/akveo/ngx-admin) 基于 Angular 10+ 的可定制管理仪表板模板
+
+* [iview/iview-admin](https://github.com/iview/iview-admin) 基于 iView 的 Vue 2.0 管理员管理系统模板
+
+* [creativetimofficial/material-dashboard](https://github.com/creativetimofficial/material-dashboard) 免费的 Material Bootstrap Admin，具有受 Google Material Design 启发的全新设计。我们非常高兴地通过一套易于使用且美观的组件来介绍我们对材料概念的看法。Material Dashboard 建立在流行的 Bootstrap 框架之上，它带有几个经过重新设计的第三方插件，以适应其余元素。
+
+* [epicmaxco/vuestic-admin](https://github.com/epicmaxco/vuestic-admin) 免费且漂亮的 Vue.js 管理模板，具有 44+ 自定义 UI 组件。用 Vuestic UI 构建的。
+
+* [newbee-ltd/newbee-mall](https://github.com/newbee-ltd/newbee-mall) 一套电商系统，包括基础版本(Spring Boot+Thymeleaf)、前后端分离版本(Spring Boot+Vue 3+Element-Plus+Vue-Router 4+Pinia+Vant 4) 、秒杀版本、Go语言版本、微服务版本(Spring Cloud Alibaba+Nacos+Sentinel+Seata+Spring Cloud Gateway+OpenFeign+ELK)。 前台商城系统包含首页门户、商品分类、新品上线、首页轮播、商品推荐、商品搜索、商品展示、购物车、订单结算、订单流程、个人订单管理、会员中心、帮助中心等模块。 后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理、设置等模块。
+
+* [yezihaohao/react-admin](https://github.com/yezihaohao/react-admin) react 后台管理系统解决方案
+
+* [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) 现代化、开源的 Linux 服务器运维管理面板。
+
+* [lin-xin/vue-manage-system](https://github.com/lin-xin/vue-manage-system) 基于 Vue3 + pinia + Element Plus 的后台管理系统解决方案。该方案作为一套多功能的后台框架模板，适用于绝大部分的后台管理系统开发。基于 Vue3 + pinia + typescript，引用 Element Plus 组件库，方便开发。实现逻辑简单，适合外包项目，快速交付。
+
+* [honghuangdc/soybean-admin](https://github.com/honghuangdc/soybean-admin) 基于Vue3、Vite3、TypeScript、NaiveUI 和 UnoCSS的清新优雅的中后台模版
+
+* [tabler/tabler](https://github.com/tabler/tabler) 建立在Bootstrap上的HTML Dashboard UI 工具包
+
+* [coreui/coreui-free-bootstrap-admin-template](https://github.com/coreui/coreui-free-bootstrap-admin-template) 基于由专业人士创建和支持的企业级手工制作的 UI 组件库构建的开源 Bootstrap 管理仪表板模板。CoreUI 管理模板可帮助您比以前更快地构建可靠的 Web 应用。CoreUI提供4个版本：Angular，Bootstrap，React.js和Vue.js。
+
+* [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) 基于 Bootstrap 4 的免费管理仪表板模板
+
+* [chuzhixin/vue-admin-better](https://github.com/chuzhixin/vue-admin-better) vue后台管理
+
+* [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) 免费开放源码的中间端和后端模板，使用最新的 vue3，vite2，TypeScript 和其他主流技术开发，可作为学习参考。
+
+* [lyt-Top/vue-next-admin](https://github.com/lyt-Top/vue-next-admin) 基于 vue3.x + CompositionAPI setup 语法糖 + typescript + vite + element plus + vue-router-next + pinia 技术，适配手机、平板、pc 的后台开源免费模板，实现快速开发。
+
+* [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 后台前端解决方案，基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)。
+
+* [cool-team-official/cool-admin-vue](https://github.com/cool-team-official/cool-admin-vue) 很酷的后台权限管理框架，模块化、插件化、CRUD极速开发，基于midway.js 3.0、typeorm、mysql、jwt、element-ui、vuex、vue-router、vue等构建
+
+* [PanJiaChen/vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 一个最小的 vue 管理模板，带有 Element UI & axios & iconfont & 权限控制 & lint
+
+* [flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) 基于vite+vue3+gin搭建的开发基础平台（支持TS,JS混用），集成jwt鉴权，权限管理，动态路由，显隐可控组件，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器。
+
+* [biubiubiu01/vue3-bigData](https://github.com/biubiubiu01/vue3-bigData) 基于vue的大数据分析系统，包含各种echarts和vue
+
+* [RainManGO/vue3-composition-admin](https://github.com/RainManGO/vue3-composition-admin) 基于vue3 的管理端模板
+
+* [newpanjing/simpleui](https://github.com/newpanjing/simpleui) 基于vue+element-ui的django admin现代化主题。全球20000+网站都在使用
+
+* [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+
+* [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro) 基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城等功能。
+
+* [elunez/eladmin](https://github.com/elunez/eladmin) eladmin jpa 版本：基于 Spring Boot 2.6.4、 Jpa、 Spring Security、Redis、Vue的前后端分离的后台管理系统，采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，一键生成前后端代码，支持动态路由
+
+* [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+
+* [codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin) 用于管理 Spring Boot 应用程序的管理 UI
+
+* [elunez/eladmin-web](https://github.com/elunez/eladmin-web) eladmin jpa版本：前端源码，项目基于 Spring Boot 2.1.0 、 Spring Boot Jpa、 Spring Security、Redis、Vue的前后端分离后台管理系统
+
+* [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 & Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
+
+* [YunaiV/yudao-cloud](https://github.com/YunaiV/yudao-cloud) 基于 Spring Cloud Alibaba + MyBatis Plus + Vue &amp; Element 实现的后台管理系统 + 用户小程序，支持 RBAC 动态权限、多租户、数据权限、工作流、三方登录、支付、短信、商城等功能。
+
+* [macrozheng/mall-learning](https://github.com/macrozheng/mall-learning) mall学习教程，架构、业务、技术要点全方位解析。mall项目（50k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot 2.3.0、MyBatis 3.4.6、Elasticsearch 7.6.2、RabbitMQ 3.7.15、Redis 5.0、MongoDB 4.2.5、Mysql5.7等技术，采用Docker容器化部署。
+
+* [jaywcjlove/icongo](https://github.com/jaywcjlove/icongo) 搜索 SVG 图标。轻松地在 React 项目中包含流行的图标，并提供一个简单的工具将 SVG 转换为 React 组件。[icongo](https://icongo.github.io/)
+
+* [Lissy93/dashy](https://github.com/Lissy93/dashy) 为您构建的自托管个人仪表板。包括状态检查，小部件，主题，图标包，UI编辑器等等！
+
+
+
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -5296,68 +5318,6 @@
 * [apidoc/apidoc](https://github.com/apidoc/apidoc) RESTful Web API 文档生成器。
 
 * [miguelgrinberg/flasky](https://github.com/miguelgrinberg/flasky) O'Reilly书“Flask Web Development”的配套代码，第二版。
-
-* [slimphp/Slim](https://github.com/slimphp/Slim) PHP 微框架，可帮助您快速编写简单而强大的 Web 应用程序和 API。
-
-* [walkor/workerman](https://github.com/walkor/workerman) 异步事件驱动的 PHP 套接字框架。支持HTTP，Websocket，SSL和其他自定义协议。
-
-* [filp/whoops](https://github.com/filp/whoops) HP 的错误处理程序框架。开箱即用，它提供了一个漂亮的错误界面，可以帮助您调试Web项目，但本质上它是一个简单而强大的堆叠错误处理系统。
-
-* [symfony/symfony](https://github.com/symfony/symfony) 用于Web和控制台应用程序的PHP框架以及一组可重用的PHP组件。Symfony被成千上万的Web应用程序和大多数流行的PHP项目使用。
-
-* [spatie/laravel-permission](https://github.com/spatie/laravel-permission) PHP将用户与角色和权限关联
-
-* [composer/composer](https://github.com/composer/composer) PHP 依赖管理器。Composer 帮助您声明、管理和安装 PHP 项目的依赖项。
-
-* [guzzle/guzzle](https://github.com/guzzle/guzzle) 可以轻松发送HTTP请求的PHP库，并且与Web服务集成变得简单。
-
-* [DesignPatternsPHP/DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) PHP 8.x 中几种设计模式的示例代码，这些模式大致可以分为三个不同的类别，Creational、Structural、Behavioral。
-
-* [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) PHP 的经典电子邮件发送库
-
-* [sebastianbergmann/phpunit](https://github.com/sebastianbergmann/phpunit) PHP 单元测试框架。它是单元测试框架的 xUnit 体系结构的一个实例。
-
-* [https://github.com/doctrine/orm](https://github.com/doctrine/orm) Doctrine ORM 是 PHP 8.1+ 的对象关系映射器，它为 PHP 对象提供透明的持久性。它位于强大的数据库抽象层 （DBAL） 之上。它的主要功能之一是可以选择使用专有的面向对象的 SQL 方言编写数据库查询，称为 Doctrine Query Language （DQL），其灵感来自 Hibernate 的 HQL。这为开发人员提供了强大的 SQL 替代方案，可以保持灵活性，而无需不必要的代码重复。
-
-* [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) 一个PHP应用程序开发框架 - 一个工具包 - 适用于使用 PHP 构建网站的人。它的目标是通过为常用任务提供一组丰富的库，以及访问这些库的简单接口和逻辑结构，使你能够比从头开始编写代码更快地开发项目。
-
-* [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser) 用PHP编写的PHP解析器。其目的是简化静态代码分析和操作。
-
-* [erusev/parsedown](https://github.com/erusev/parsedown) PHP 中更好的 Markdown 解析器。
-
-* [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) 适用于 Laravel 的 IDE 帮助程序，此软件包会生成帮助程序文件，使 IDE 能够提供准确的自动完成功能。生成是根据项目中的文件完成的，因此它们始终是最新的。
-
-* [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) 高性能PHP应用程序服务器，用Go编写的进程管理器，由插件提供支持
-
-* [laradock/laradock](https://github.com/laradock/laradock) 适用于 Docker 的完整 PHP 开发环境。
-
-* [egulias/EmailValidator](https://github.com/egulias/EmailValidator) PHP 电子邮件地址验证器
-
-* [phalcon/cphalcon](https://github.com/phalcon/cphalcon) 高性能、全栈 PHP 框架作为 C 扩展提供。
-
-* [typecho/typecho](https://github.com/typecho/typecho) 一个PHP博客平台。简单而强大。
-
-* [dompdf/dompdf](https://github.com/dompdf/dompdf) 适用于 PHP 的 HTML 到 PDF 转换器。用 PHP 编写的符合 CSS 2.1 的 HTML 布局和渲染引擎。一个样式驱动的渲染器：它将下载和读取外部样式表、内联样式标签和单个 HTML 元素的样式属性。它还支持大多数表示 HTML 属性。
-
-* [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) 对PHP文件进行标记，并检测违反一组定义的编码标准的行为。
-
-* [filamentphp/filament](https://github.com/filamentphp/filament) Laravel 的精美全栈组件集合。使用 Livewire、Alpine.js 和 Tailwind CSS 为您的下一个应用程序提供完美的起点。
-
-* [serbanghita/Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) 一个轻量级的 PHP 类，用于检测移动设备（包括平板电脑）。它使用用户代理字符串与特定 HTTP 标头相结合来检测移动环境。
-
-* [deployphp/deployer](https://github.com/deployphp/deployer) PHP部署工具，开箱即用，支持流行的框架
-
-* [yiisoft/yii2](https://github.com/yiisoft/yii2) 快速、安全和专业的 PHP 框架。开箱即用，预配置了合理的默认值。该框架很容易调整以满足您的需求，因为 Yii 被设计得很灵活。
-
-* [Intervention/image](https://github.com/Intervention/image) PHP图像处理
-
-* [Seldaek/monolog](https://github.com/Seldaek/monolog) PHP将日志发送到文件、套接字、数据库和各种Web服务
-
-* [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) PHP开发工具，可在浏览器中使用。可让您深入了解应用程序运行时，包括 HTTP 请求、命令、队列作业和测试的请求数据、性能指标、日志条目、数据库查询、缓存查询、redis 命令、已调度事件、排队作业、呈现视图等
-
-* [phacility/phabricator](https://github.com/phacility/phabricator) php Web应用程序的集合。
-
-* [codeguy/php-the-right-way](https://github.com/codeguy/php-the-right-way) 一个易于阅读的快速参考，包括 PHP 最佳实践、公认的编码标准以及指向 Web 上权威教程的链接
 
 * [matomo-org/matomo](https://github.com/matomo-org/matomo) Google Analytics（分析）的领先开放替代方案，可让您完全控制数据。Matomo可让您轻松地从网站和应用程序中收集数据，并可视化这些数据并提取见解。隐私是内置的。
 
@@ -5562,6 +5522,81 @@
 * [amplication/amplication](https://github.com/amplication/amplication) 开源后端开发平台。构建生产就绪型服务，无需在重复编码上浪费时间。强大的开源开发平台，旨在彻底改变可扩展且安全的 .NET 和 Node.js 应用程序的创建。Amplication 是唯一一个在几分钟内将想法转化为生产就绪代码的 AI 平台。我们通过可扩展的代码实现后端应用程序开发自动化，确保一致性、可预测性并遵守最高标准
 
 * [nhost/nhost](https://github.com/nhost/nhost) 使用 GraphQL 的开源 Firebase 替代方案。Nhost 由开源软件组成：数据库：PostgreSQL，Instant GraphQL API：Hasura，身份验证：Hasura Auth，存储：Hasura Storage，无服务器函数：Node.js（JavaScript 和 TypeScript），用于本地开发的 Nhost CLI
+
+* [dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) 基于 GraphQL 模式和 GraphQL 操作（查询/变更/订阅）生成代码的工具，灵活支持自定义插件。GraphQL Code Generator 是一种从 GraphQL 模式生成代码的工具。无论您是开发前端还是后端，您都可以利用 GraphQL 代码生成器从 GraphQL 模式和 GraphQL 文档（查询/突变/订阅/片段）生成输出。通过分析模式和文档并对其进行解析，GraphQL Code Generator 可以基于预定义的模板或基于自定义用户定义的模板以多种格式输出代码。无论您使用哪种语言，GraphQL Code Generator 都能满足您的需求。
+
+### PHP开发
+
+* [php/php-src](https://github.com/php/php-src) PHP 是一种流行的通用脚本语言，特别适合 Web 开发。快速、灵活和实用，PHP 为从您的博客到世界上最受欢迎的网站的一切提供支持。PHP基金会是一个由个人和组织组成的集体，他们团结一致，以确保PHP语言的长期繁荣。PHP（“PHP: Hypertext Preprocessor”，超文本预处理器的字母缩写）是一种被广泛应用的开放源代码的多用途脚本语言，它可嵌入到 HTML中，尤其适合 web 开发。PHP 能做任何事。PHP 主要是用于服务端的脚本程序，因此可以用 PHP 来完成任何其它的 CGI 程序能够完成的工作，例如收集表单数据，生成动态网页，或者发送／接收 Cookies。但 PHP 的功能远不局限于此。PHP 脚本主要用于以下三个领域：`服务端脚本`。这是 PHP 最传统，也是最主要的目标领域。开展这项工作需要具备以下三点：PHP 解析器（CGI 或者服务器模块）、web 服务器和 web 浏览器。需要在运行 web 服务器时，安装并配置 PHP，然后，可以用 web 浏览器来访问 PHP 程序的输出，即浏览服务端的 PHP 页面。如果只是实验 PHP 编程，所有的这些都可以运行在自己家里的电脑中。请查阅安装一章以获取更多信息。`命令行脚本`。可以编写一段 PHP 脚本，并且不需要任何服务器或者浏览器来运行它。通过这种方式，仅仅只需要 PHP 解析器来执行。这种用法对于依赖 cron（Unix 或者 Linux 环境）或者 Task Scheduler（Windows 环境）的日常运行的脚本来说是理想的选择。这些脚本也可以用来处理简单的文本。请参阅 PHP 的命令行模式以获取更多信息。`编写桌面应用程序`,对于有着图形界面的桌面应用程序来说，PHP 或许不是一种最好的语言，但是如果用户非常精通 PHP，并且希望在客户端应用程序中使用 PHP 的一些高级特性，可以利用 PHP-GTK 来编写这些程序。用这种方法，还可以编写跨平台的应用程序。PHP-GTK 是 PHP 的一个扩展，在通常发布的 PHP 包中并不包含它。如果对 PHP-GTK 感兴趣，请访问其» 网站以获取更多信息。
+
+* [slimphp/Slim](https://github.com/slimphp/Slim) PHP 微框架，可帮助您快速编写简单而强大的 Web 应用程序和 API。
+
+* [walkor/workerman](https://github.com/walkor/workerman) 异步事件驱动的 PHP 套接字框架。支持HTTP，Websocket，SSL和其他自定义协议。
+
+* [filp/whoops](https://github.com/filp/whoops) PHP 的错误处理程序框架。开箱即用，它提供了一个漂亮的错误界面，可以帮助您调试Web项目，但本质上它是一个简单而强大的堆叠错误处理系统。
+
+* [symfony/symfony](https://github.com/symfony/symfony) 用于Web和控制台应用程序的PHP框架以及一组可重用的PHP组件。Symfony被成千上万的Web应用程序和大多数流行的PHP项目使用。
+
+* [spatie/laravel-permission](https://github.com/spatie/laravel-permission) PHP将用户与角色和权限关联
+
+* [composer/composer](https://github.com/composer/composer) PHP 依赖管理器。Composer 帮助您声明、管理和安装 PHP 项目的依赖项。
+
+* [guzzle/guzzle](https://github.com/guzzle/guzzle) 可以轻松发送HTTP请求的PHP库，并且与Web服务集成变得简单。
+
+* [DesignPatternsPHP/DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) PHP 8.x 中几种设计模式的示例代码，这些模式大致可以分为三个不同的类别，Creational、Structural、Behavioral。
+
+* [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) PHP 的经典电子邮件发送库
+
+* [sebastianbergmann/phpunit](https://github.com/sebastianbergmann/phpunit) PHP 单元测试框架。它是单元测试框架的 xUnit 体系结构的一个实例。
+
+* [https://github.com/doctrine/orm](https://github.com/doctrine/orm) Doctrine ORM 是 PHP 8.1+ 的对象关系映射器，它为 PHP 对象提供透明的持久性。它位于强大的数据库抽象层 （DBAL） 之上。它的主要功能之一是可以选择使用专有的面向对象的 SQL 方言编写数据库查询，称为 Doctrine Query Language （DQL），其灵感来自 Hibernate 的 HQL。这为开发人员提供了强大的 SQL 替代方案，可以保持灵活性，而无需不必要的代码重复。
+
+* [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) 一个PHP应用程序开发框架 - 一个工具包 - 适用于使用 PHP 构建网站的人。它的目标是通过为常用任务提供一组丰富的库，以及访问这些库的简单接口和逻辑结构，使你能够比从头开始编写代码更快地开发项目。
+
+* [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser) 用PHP编写的PHP解析器。其目的是简化静态代码分析和操作。
+
+* [erusev/parsedown](https://github.com/erusev/parsedown) PHP 中更好的 Markdown 解析器。
+
+* [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) 适用于 Laravel 的 IDE 帮助程序，此软件包会生成帮助程序文件，使 IDE 能够提供准确的自动完成功能。生成是根据项目中的文件完成的，因此它们始终是最新的。
+
+* [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) 高性能PHP应用程序服务器，用Go编写的进程管理器，由插件提供支持
+
+* [laradock/laradock](https://github.com/laradock/laradock) 适用于 Docker 的完整 PHP 开发环境。
+
+* [egulias/EmailValidator](https://github.com/egulias/EmailValidator) PHP 电子邮件地址验证器
+
+* [phalcon/cphalcon](https://github.com/phalcon/cphalcon) 高性能、全栈 PHP 框架作为 C 扩展提供。
+
+* [typecho/typecho](https://github.com/typecho/typecho) 一个PHP博客平台。简单而强大。
+
+* [dompdf/dompdf](https://github.com/dompdf/dompdf) 适用于 PHP 的 HTML 到 PDF 转换器。用 PHP 编写的符合 CSS 2.1 的 HTML 布局和渲染引擎。一个样式驱动的渲染器：它将下载和读取外部样式表、内联样式标签和单个 HTML 元素的样式属性。它还支持大多数表示 HTML 属性。
+
+* [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) 对PHP文件进行标记，并检测违反一组定义的编码标准的行为。
+
+* [filamentphp/filament](https://github.com/filamentphp/filament) Laravel 的精美全栈组件集合。使用 Livewire、Alpine.js 和 Tailwind CSS 为您的下一个应用程序提供完美的起点。
+
+* [serbanghita/Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) 一个轻量级的 PHP 类，用于检测移动设备（包括平板电脑）。它使用用户代理字符串与特定 HTTP 标头相结合来检测移动环境。
+
+* [deployphp/deployer](https://github.com/deployphp/deployer) PHP部署工具，开箱即用，支持流行的框架
+
+* [yiisoft/yii2](https://github.com/yiisoft/yii2) 快速、安全和专业的 PHP 框架。开箱即用，预配置了合理的默认值。该框架很容易调整以满足您的需求，因为 Yii 被设计得很灵活。
+
+* [Intervention/image](https://github.com/Intervention/image) PHP图像处理
+
+* [Seldaek/monolog](https://github.com/Seldaek/monolog) PHP将日志发送到文件、套接字、数据库和各种Web服务
+
+* [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) PHP开发工具，可在浏览器中使用。可让您深入了解应用程序运行时，包括 HTTP 请求、命令、队列作业和测试的请求数据、性能指标、日志条目、数据库查询、缓存查询、redis 命令、已调度事件、排队作业、呈现视图等
+
+* [phacility/phabricator](https://github.com/phacility/phabricator) php Web应用程序的集合。
+
+* [vimeo/psalm](https://github.com/vimeo/psalm) 用于查找PHP应用程序中错误的静态分析工具
+
+* [https://github.com/barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) 将 PHP Debug Bar 与 Laravel 集成的软件包。它包括一个 ServiceProvider，用于注册调试栏并将其附加到输出。您可以通过 Laravel 发布资产并对其进行配置。它引导一些收集器与Laravel一起工作，并实现了几个特定于Laravel的自定义DataCollector。它配置为显示重定向和 （jQuery） Ajax 请求。（显示在下拉列表中）有关更多配置选项，请阅读文档。
+
+* [https://github.com/YOURLS/YOURLS](https://github.com/YOURLS/YOURLS) YOURLS 是一组 PHP 脚本，允许您在服务器上运行您自己的 短链接，URL 缩短器。您将可以完全控制您的数据、详细统计数据、分析、插件等。它是免费和开源的。
+
+* [codeguy/php-the-right-way](https://github.com/codeguy/php-the-right-way) 一个易于阅读的快速参考，包括 PHP 最佳实践、公认的编码标准以及指向 Web 上权威教程的链接
+
 
 ## 网络与前后端开发_其他
 
@@ -6286,6 +6321,10 @@
 * [http-party/http-server](https://github.com/http-party/http-server) 一个简单的零配置命令行 HTTP 服务器，它足够强大，可用于生产用途，但它足够简单且易于破解，可用于测试、本地开发和学习。
 
 * [coredns/coredns](https://github.com/coredns/coredns) DNS 服务器/转发器，用 Go 编写，用于链接插件。每个插件都执行一个（DNS）功能。快速灵活的DNS服务器。这里的关键词是灵活：使用CoreDNS，您可以通过使用插件对DNS数据做任何您想做的事情。如果某些功能没有开箱即用，您可以通过编写插件来添加它。
+
+* [tdlib/td](https://github.com/tdlib/td) TDLib（Telegram 数据库库）是一个用于构建 Telegram 客户端的跨平台库。它几乎可以在任何编程语言中轻松使用。TDLib 有很多优点。值得注意的是 TDLib ：跨平台： TDLib 可在 Android、iOS、Windows、macOS、Linux、FreeBSD、OpenBSD、NetBSD、illumos、Windows Phone、WebAssembly、watchOS、tvOS、visionOS、Tizen、Cygwin 上使用。它还应该在其他 *nix 系统上工作，无论是否付出最小的努力。多语言： TDLib 可以很容易地与任何能够执行 C 函数的编程语言一起使用。此外，它已经具有本机 Java（使用 JNI ）绑定和 .NET（使用 C++/CLI 和 C++/CX ）绑定。易于使用： TDLib 负责所有网络实施细节、加密和本地数据存储。高性能：在 Telegram Bot API 中，每个 TDLib 实例同时处理超过 24000 个活动机器人。有据可查：所有 TDLib API 方法和公共接口都有完整的文档记录。一致性： TDLib 保证所有更新都以正确的顺序交付。可靠： TDLib 在缓慢且不可靠的 Internet 连接上保持稳定。安全：所有本地数据都使用用户提供的加密密钥进行加密。完全异步：请求 TDLib 不要相互阻止或其他任何内容，响应在可用时发送。
+
+* [JeffreySu/WeiXinMPSDK](https://github.com/JeffreySu/WeiXinMPSDK) 微信全平台 .NET SDK， Senparc.Weixin for C#，支持 .NET Framework 及 .NET Core、.NET 8.0。已支持微信公众号、小程序、小游戏、微信支付、企业微信/企业号、开放平台、JSSDK、微信周边等全平台。 WeChat SDK for C#.
 
 ## 区块链、智能合约
 
@@ -9505,6 +9544,8 @@
 
 * [tensorchord/pgvecto.rs](https://github.com/tensorchord/pgvecto.rs) Postgres 中可扩展、低延迟和支持混合的矢量搜索。彻底改变矢量搜索，而不是数据库。超低延迟、高精度的矢量搜索。使用 SPLADE 或 BM25 算法进行基于关键字的向量搜索。跨任何语言的全面文本搜索，由 tsvector 提供支持。完整的 SQL 支持，支持连接和筛选器，没有限制或额外配置。非阻塞插入，具有最新的查询就绪情况。无需将向量和元数据与外部向量数据库同步，简化开发。支持 FP16 和 INT8 数据类型，以提高存储和计算效率。使用二进制向量进行向量索引，并支持 Jaccard 距离。子向量索引，如向量[0：256]，用于增强的套娃嵌入。支持高达 65535 的矢量长度，是最新尖端模型的理想选择。与 PostgreSQL 集成的久经考验的数据库生态系统。逻辑复制支持，确保高可用性。利用 PostgreSQL 实现高效的属性存储。简单的访问控制，如只读角色，由 PostgreSQL 提供支持。
 
+* [SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb) 将 AI 引入您的数据库！直接使用现有数据基础架构构建、部署和管理任何 AI 应用程序，而无需移动数据。包括流式推理、可扩展模型训练和向量搜索。SuperDuperDB 是一个 Python 框架，用于将 AI 模型、API 和矢量搜索引擎直接与您现有的数据库集成，包括托管您自己的模型、流式推理和可扩展的模型训练/微调。
+
 ## 其他__大数据
 
 * [redis/redis](https://github.com/redis/redis) 一个内存中数据库，它保留在磁盘上。数据模型是键值，但支持许多不同类型的值：字符串、列表、集合、排序集、哈希、流、Hyper Log Logs、位图。
@@ -10308,6 +10349,8 @@
 * [Ciphey/Ciphey](https://github.com/Ciphey/Ciphey) 在不知道密钥或密码的情况下自动解密加密，解码编码和破解哈希
 
 ## 其他_安全与渗透
+
+* [https://github.com/NARKOZ/hacker-scripts](https://github.com/NARKOZ/hacker-scripts) 由 NARKOZ 维护的 Hacker Scripts 是一个开放源码的 GitHub 仓库，包含了各种小到大范围的脚本，涵盖了文件操作、网络监测、系统信息获取等多个领域。这些脚本大多是用 Bash 编写的，因此它们可以在任何支持 Bash 的 Unix-like 系统（如 Linux 和 macOS）上运行。在编程和黑客文化的世界中，效率是关键。GitHub 上的 Hacker Scripts 项目就是这样一个宝藏，它集合了一系列实用的 Bash 脚本，帮助开发者、系统管理员和爱好者自动化日常任务，提升工作效率。
 
 * [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) 保护您的数字安全和隐私的精选提示清单
 
