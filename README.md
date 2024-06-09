@@ -1,18 +1,18 @@
 <p align="center">
 <img src="https://avatars.githubusercontent.com/u/1947722" width="300" height="300">
 </p>
-<h1 align="center">StarrySky</h1>
+<h1 align="center">StarryDivineSky</h1>
 <p align="center">
-    <a href="https://github.com/wuwenjie1992/StarrySky/issues" style="text-decoration:none">
-        <img src="https://img.shields.io/github/issues/wuwenjie1992/StarrySky.svg" alt="GitHub issues"/>
+    <a href="https://github.com/wuwenjie1992/StarryDivineSky/issues" style="text-decoration:none">
+        <img src="https://img.shields.io/github/issues/wuwenjie1992/StarryDivineSky.svg" alt="GitHub issues"/>
     </a>
-    <a href="https://github.com/wuwenjie1992/StarrySky/stargazers" style="text-decoration:none" >
-        <img src="https://img.shields.io/github/stars/wuwenjie1992/StarrySky.svg" alt="GitHub stars"/>
+    <a href="https://github.com/wuwenjie1992/StarryDivineSky/stargazers" style="text-decoration:none" >
+        <img src="https://img.shields.io/github/stars/wuwenjie1992/StarryDivineSky.svg" alt="GitHub stars"/>
     </a>
-    <a href="https://github.com/wuwenjie1992/StarrySky/network/members" style="text-decoration:none" >
-        <img src="https://img.shields.io/github/forks/wuwenjie1992/StarrySky.svg" alt="GitHub forks"/>
+    <a href="https://github.com/wuwenjie1992/StarryDivineSky/network/members" style="text-decoration:none" >
+        <img src="https://img.shields.io/github/forks/wuwenjie1992/StarryDivineSky.svg" alt="GitHub forks"/>
     </a>
-    <a href="https://github.com/wuwenjie1992/StarrySky/blob/master/LICENSE" style="text-decoration:none" >
+    <a href="https://github.com/wuwenjie1992/StarryDivineSky/blob/master/LICENSE" style="text-decoration:none" >
         <img src="https://img.shields.io/badge/License-MIT-blue" alt="GitHub license"/>
     </a>
 
@@ -46,7 +46,7 @@
 
 # Star🌟数变化
 
-* [![关注者](https://starchart.cc/wuwenjie1992/StarrySky.svg)](https://starchart.cc/wuwenjie1992/StarrySky)
+* [![关注者](https://starchart.cc/wuwenjie1992/StarryDivineSky.svg)](https://starchart.cc/wuwenjie1992/StarryDivineSky)
 
 # 加入社区
 
@@ -252,12 +252,7 @@
 
 * [serge-sans-paille/pythran](https://github.com/serge-sans-paille/pythran) 将 Python 代码转成 C++ 代码执行 一个 AOT (Ahead-Of-Time - 预先编译) 编译器，大幅度提升性能。
 
-* [RAPIDS Open GPU Data Science](http://rapids.ai) RAPIDS 开放 GPU 数据科学库
-  
-  * cudf cuDF - GPU DataFrame Library GPU数据表库
-  * cuml cuML - RAPIDS Machine Learning Library RAPIDS 机器学习库
-  * cugraph cuGraph - RAPIDS Graph Analytics Library RAPIDS 图分析库
-  * cusignal cuSignal - RAPIDS Signal Processing Library RAPIDS信号处理库
+* [RAPIDS Open GPU Data Science](http://rapids.ai) RAPIDS 开放 GPU 数据科学库。cuDF - GPU DataFrame Library GPU数据表库。cuML - RAPIDS Machine Learning Library RAPIDS 机器学习库。cuGraph - RAPIDS Graph Analytics Library RAPIDS 图分析库。cuSignal - RAPIDS Signal Processing Library RAPIDS信号处理库
 
 * [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) 包括了机器人设计中常用的定位算法、测绘算法、路径规划算法、SLAM 、路径跟踪算法。
 
@@ -1287,11 +1282,12 @@
 * [lonePatient/awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models) 高质量中文预训练模型集合。包括：基础大模型、对话大模型、多模态对话大模型、大模型评估基准、开源模型库平台、开源数据集库、中文指令数据集。
 
 * [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) MiniGPT-4：使用高级大型语言模型增强视觉语言理解 提供与 Vicuna-7B 对齐的预训练 MiniGPT-4！演示 GPU 内存消耗现在可以低至 12GB。
-- [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) 纯C/C++中LLaMA模型的CPU推理。2023年FacebookResearch 开源了大规模语言模型LLaMA，包含从 7B 到 65B 的参数范围，训练使用多达 1.4万亿 tokens 语料。LLaMA-13B在大部分基准测评上超过了GPT3-175B，LLaMA可能是目前公开模型权重中效果最好的语言模型。
 
-- [juncongmoo/pyllama](https://github.com/juncongmoo/pyllama) LLaMA - 在单个 4GB GPU 中运行 LLM
+* [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) 纯C/C++中LLaMA模型的CPU推理。2023年FacebookResearch 开源了大规模语言模型LLaMA，包含从 7B 到 65B 的参数范围，训练使用多达 1.4万亿 tokens 语料。LLaMA-13B在大部分基准测评上超过了GPT3-175B，LLaMA可能是目前公开模型权重中效果最好的语言模型。
 
-- [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) 斯坦福大学的LLaMA羊驼模型。用2K数据微调模型，构建和共享一个遵循指令的LLaMA模型。
+* [juncongmoo/pyllama](https://github.com/juncongmoo/pyllama) LLaMA - 在单个 4GB GPU 中运行 LLM
+
+* [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) 斯坦福大学的LLaMA羊驼模型。用2K数据微调模型，构建和共享一个遵循指令的LLaMA模型。
 * [LC1332/Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora) 在LLaMA、斯坦福大学Alpaca、Alpaca LoRA、Cabrita、Japanese-Alpaca-LoRA的基础上，调试了一个中国LLaMA模型。同时使用ChatGPT API将alpaca_data. json翻译为中文，再进行微调。
 
 * [tloen/alpaca-lora](https://github.com/tloen/alpaca-lora) 在消费者硬件上使用指令来微调LLaMA模型。使用低秩自适应（LoRA）重现斯坦福大学Alpaca结果的代码。我们提供了一个与 text-davinci-003质量相似的Instruct模型，可以在Raspberry Pi上运行（用于研究），并且代码很容易扩展到 13b ， 30b 和 65b模型。
@@ -1350,14 +1346,7 @@
 
 * [cryscan/multilingual-share](https://huggingface.co/datasets/cryscan/multilingual-share) 为了推进中文AI的发展，促进AI技术公开化、国际化，我们成立了 ShareGPT-90k 项目，希望借助大家的力量推进数据清洗与对齐工作。可能与各位想象的有所不同，GPT模型主要通过预训练数据集赋能，语料的质量对模型最终性能至关重要。然而，百度知道、CSDN、知乎等平台软文过多；小木虫等高质量平台语料过少；个人博客内容质量参差不齐。OpenAI完成数据集的收集花费了巨大成本，以至于需要从微软集资。我们无力承担如此巨大的开销，于是需要各位有志于筹建开放获取语料，并有一定外语基础的网友们献上自己的力量。[RWKV-Wiki/MultilingualShareGPT](https://github.com/RWKV-Wiki/MultilingualShareGPT)
 
-* [TigerResearch/TigerBot](https://github.com/TigerResearch/TigerBot) 多语言多任务LLM，在 BLOOM 基础上的模型：TigerBot-7B, TigerBot-7B-base，TigerBot-180B。数据：预训练 100G，从 2TB 过滤后的数据中经过去噪去重清洗而得；监督微调 1G 或 100 万条数据，按比例涵盖用户指令常见的 10 大类 120 小类任务。
-  
-  * [中文开源预训练集 - 55G，包含中文书籍、中文互联网、中文百科](https://huggingface.co/datasets/TigerResearch/pretrain_zh) 
-  
-  * [英文开源预训练集 - 51G，包含英文书籍、英文互联网、英文百科](https://huggingface.co/datasets/TigerResearch/pretrain_en) 
-  - [中文-微调指令集-合集 - 53W 条 - 下载 [hugging face]](https://huggingface.co/datasets/TigerResearch/sft_zh)
-  
-  - [英文-微调指令集-合集 - 67W 条 - 下载 [hugging face]](https://huggingface.co/datasets/TigerResearch/sft_en)
+* [TigerResearch/TigerBot](https://github.com/TigerResearch/TigerBot) 多语言多任务LLM，在 BLOOM 基础上的模型：TigerBot-7B, TigerBot-7B-base，TigerBot-180B。数据：预训练 100G，从 2TB 过滤后的数据中经过去噪去重清洗而得；监督微调 1G 或 100 万条数据，按比例涵盖用户指令常见的 10 大类 120 小类任务。[中文开源预训练集 - 55G，包含中文书籍、中文互联网、中文百科](https://huggingface.co/datasets/TigerResearch/pretrain_zh)、 [英文开源预训练集 - 51G，包含英文书籍、英文互联网、英文百科](https://huggingface.co/datasets/TigerResearch/pretrain_en) 、[中文-微调指令集-合集 - 53W 条](https://huggingface.co/datasets/TigerResearch/sft_zh)、[英文-微调指令集-合集 - 67W 条 - 下载](https://huggingface.co/datasets/TigerResearch/sft_en)
 
 * [masa3141/japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora) 日文指令来微调LLaMA模型
 
@@ -1599,12 +1588,7 @@
 
 * [punica-ai/punica](https://github.com/punica-ai/punica) 将多个 LoRA 微调 LLM 作为一个整体提供服务。Punica 支持运行多个 LoRA 微调模型，但代价是运行一个模型。通过分段收集矩阵向量乘法 （SGMV）的 LoRA 是高效的，并保留了强大的批处理效果.
 
-* [Instruction-Tuning-with-GPT-4/GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) 共享 GPT-4 生成的数据，用于构建具有监督学习和强化学习的指令遵循 LLM。存储库包含：
-  
-  - 英语教学 - 遵循数据由 GPT-4 使用 Alpaca 提示进行微调 LLM。
-  - 由 GPT-4 使用由 ChatGPT 从羊驼翻译的中文提示生成的中文指令跟踪数据。
-  - 按 GPT-4 排名以训练奖励模型的比较数据。
-  - 关于非自然指令的答案 来自 GPT-4 的数据，用于大规模量化 GPT-4 和指令调整模型之间的差距。
+* [Instruction-Tuning-with-GPT-4/GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) 共享 GPT-4 生成的数据，用于构建具有监督学习和强化学习的指令遵循 LLM。存储库包含：英语教学 - 遵循数据由 GPT-4 使用 Alpaca 提示进行微调 LLM。由 GPT-4 使用由 ChatGPT 从羊驼翻译的中文提示生成的中文指令跟踪数据。按 GPT-4 排名以训练奖励模型的比较数据。关于非自然指令的答案 来自 GPT-4 的数据，用于大规模量化 GPT-4 和指令调整模型之间的差距。
 
 * [lxe/simple-llm-finetuner](https://github.com/lxe/simple-llm-finetuner) 初学者友好的界面，旨在通过商用NVIDIA GPU上的PEFT库，使用LoRA方法微调各种语言模型。使用较小的数据集和 256 的样本长度，您甚至可以在常规的 Colab Tesla T4 实例上运行它。
 
@@ -1990,7 +1974,7 @@
 
 * [friuns2/BlackFriday-GPTs-Prompts](https://github.com/friuns2/BlackFriday-GPTs-Prompts/tree/main) 不需要 plus 订阅的免费 GPTs 列表
 
-* [GitHub - all-in-aigc/gpts-works: A Third-party GPTs store](https://github.com/all-in-aigc/gpts-works) 第三方 GPTs 商店
+* [all-in-aigc/gpts-works](https://github.com/all-in-aigc/gpts-works) 第三方 GPTs 商店
 
 * [Anil-matcha/Awesome-GPT-Store](https://github.com/Anil-matcha/Awesome-GPT-Store) 精心策划的专用自定义 GPTs 聊天机器人列表，旨在帮助您完成从技术问题到创造性工作的各种任务。
 
@@ -2354,16 +2338,6 @@
 
 * [billmei/every-chatgpt-gui](https://github.com/billmei/every-chatgpt-gui) ChatGPT 的每个前端 GUI 客户端项目列表
 
-* []() 
-
-* []() 
-
-* []() 
-
-* []() 
-
-* []() 
-
 * [stanford-crfm/levanter](https://github.com/stanford-crfm/levanter) 用于训练大型语言模型 （LLMs） 和其他基础模型的框架，旨在实现可读性、可伸缩性和可重复性。清晰易读：Levanter 使用我们命名的张量库 Haliax 编写易于理解、可组合的深度学习代码，同时仍然保持高性能。可扩展：Levanter 可扩展到大型模型，并能够在各种硬件上进行训练，包括 GPU 和 TPU。可重现：Levanter 是按位确定性的，这意味着相同的配置将始终产生相同的结果，即使面对抢占和恢复。
 
 * [horizon-ui/chatgpt-ai-template](https://github.com/horizon-ui/chatgpt-ai-template) Horizon AI 模板 - 最时尚的开源 ChatGPT UI AI 模板和入门套件，适用于 React、NextJS 和 Chakra UI
@@ -2410,6 +2384,8 @@
 
 * [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica) 人工智能驱动的搜索引擎。它是 Perplexity AI 的开源替代品。可以深入互联网寻找答案。受 Perplexity AI 的启发，它是一个开源选项，不仅可以搜索网络，还可以理解您的问题。它使用先进的机器学习算法（如相似性搜索和嵌入）来优化结果，并提供明确的答案和引用的来源。Perplexica 使用 SearxNG 保持最新和完全开源，确保您始终在不损害隐私的情况下获得最新信息。特征：本地 LLMs：您可以使用 Ollama 使用本地LLMs，例如 Llama3 和 Mistral。Copilot 模式：（开发中）通过生成不同的查询来查找更相关的互联网资源，从而增强搜索。与普通搜索一样，它不仅使用 SearxNG 的上下文，而是访问排名靠前的匹配项，并尝试直接从页面中找到与用户查询相关的来源。正常模式：处理查询并执行 Web 搜索。专注模式：特殊模式，可更好地回答特定类型的问题。Perplexica 目前有 6 种对焦模式：所有模式：搜索整个网络以找到最佳结果。写作助手模式：有助于编写不需要搜索网络的任务。学术搜索模式：查找文章和论文，非常适合学术研究。YouTube 搜索模式：根据搜索查询查找 YouTube 视频。Wolfram Alpha 搜索模式：使用 Wolfram Alpha 回答需要计算或数据分析的查询.Reddit 搜索模式：在 Reddit 中搜索与查询相关的讨论和意见。当前信息：某些搜索工具可能会为您提供过时的信息，因为它们使用来自爬网机器人的数据，并将其转换为嵌入内容并将其存储在索引中。与它们不同的是，Perplexica 使用 SearxNG（一个元搜索引擎）来获取结果并重新排名并从中获取最相关的来源，确保您始终获得最新信息，而无需每日数据更新的开销。
 
+* [reorproject/reor](https://github.com/reorproject/reor) 私人和本地AI个人知识管理应用程序。Reor 是一款 AI 驱动的桌面笔记应用程序：它会自动链接相关笔记、回答笔记上的问题、提供语义搜索并可以生成 AI 抽认卡。所有内容都存储在本地，您可以使用类似 Obsidian 的 Markdown 编辑器编辑笔记。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2453,6 +2429,8 @@
 * [shobrook/stackexplain](https://github.com/shobrook/stackexplain) 用 ChatGPT 解释您编程中的错误消息
 
 * [eth-sri/lmql](https://github.com/eth-sri/lmql) 一种用于类型化、约束引导和高效 LLM 编程的语言。一种基于Python超集的大型语言模型（LLM）的编程语言。LMQL 提供了一种将传统编程与在代码中调用 LLM 的能力交织在一起的新方法。它超越了传统的模板语言，在程序代码级别原生集成LLM交互。
+
+* [BloopAI/bloop](https://github.com/BloopAI/bloop) 用 Rust 编写的快速代码搜索引擎。用自然语言提问，搜索代码，并使用现有代码库作为上下文生成补丁。工程师们通过使用 bloop 来提高他们的工作效率：用简单的语言解释文件或功能的工作原理；编写新功能，使用其代码作为上下文；了解如何使用文档记录不佳的开源库；查明错误；询问有关其他语言的英语语言代码库的问题；通过检查现有功能来减少代码重复。特征：基于 AI 的对话搜索；Code Studio，一个LLM使用代码作为上下文的游乐场；超快的正则表达式搜索；同步本地仓库和 GitHub 仓库；复杂的查询筛选器，因此您可以缩小结果范围；使用符号搜索查找函数、变量或特征；使用 Tree-sitter 构建的 10+ 种最流行语言的精确代码导航（转到参考和转到定义）；以隐私为中心的设备嵌入，用于语义搜索。
 
 * [ricklamers/gpt-code-ui](https://github.com/ricklamers/gpt-code-ui) OpenAI的ChatGPT代码解释器（生成代码、运行代码）的开源实现。
 
@@ -2533,7 +2511,9 @@
 #### 健康医学大模型及语料库
 
 * [FreedomIntelligence/HuatuoGPT-II](https://github.com/FreedomIntelligence/HuatuoGPT-II) 医学适应的一阶段训练LLMs.（一个开放的医疗GPT）。采用创新的领域适应方法，显著提升其医学知识和对话能力。它在多个医学基准测试中展示了最先进的性能，尤其是在专家评估和新的医疗执照考试中超过了 GPT-4。开源7B、13B、34B版本。HuatuoGPT2 数据：发布部分预训练和微调指令。中医LLM评价：综合自动评价方法，对医学反应能力LLM和新鲜专业药师考试考核进行评价。
-- [FreedomIntelligence/HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT) 华佗GPT，迈向驯服语言模型成为医生。在庞大的中国医学语料库上训练的大型语言模型（LLM）。我们与华拓GPT的目标是为医疗咨询场景构建更专业的“ChatGPT”。[demo](https://www.huatuogpt.cn/)
+
+* [FreedomIntelligence/HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT) 华佗GPT，迈向驯服语言模型成为医生。在庞大的中国医学语料库上训练的大型语言模型（LLM）。我们与华拓GPT的目标是为医疗咨询场景构建更专业的“ChatGPT”。[demo](https://www.huatuogpt.cn/)
+
 * [SCIR-HI/Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) 本草（原名：华驼）模型仓库，基于中文医学知识的大语言模型指令微调
 
 * [microsoft/LLaVA-Med](https://github.com/microsoft/LLaVA-Med) 用于生物医学的大型语言和视觉助手，专为多模态 GPT-4 级功能而构建。
@@ -2593,65 +2573,66 @@
 * [itsharex/CareLlama](https://github.com/itsharex/CareLlama) 一个医疗大语言模型，同时它集合了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型以促进医疗LLM快速发展。
 
 * [FudanDISC/DISC-MedLLM](https://github.com/FudanDISC/DISC-MedLLM) 利用大型语言模型在端到端对话式医疗保健服务中提供准确和真实的医疗响应。它可以满足您的各种医疗保健需求，包括疾病问诊和治疗方案咨询等，为您提供高质量的健康支持服务。构建了一个高质量的数据集[Flmc/DISC-Med-SFT](https://huggingface.co/datasets/Flmc/DISC-Med-SFT)，包含超过47万个衍生于现有的医疗数据集重新构建得到的样本。采用了目标导向的策略，通过对于精心选择的几个数据源进行重构来得到SFT数据集。帮助模型学习医疗领域知识，将行为模式与人类偏好对齐，并对齐真实世界在线医疗对话的分布情况。
-- [HIT-SCIR-SC/QiaoBan](https://github.com/HIT-SCIR-SC/QiaoBan) 中文儿童情感陪伴大模型“巧板”。基于通用大模型，使用了通用域人机对话数据、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，训练得到，是通用大语言模型迁移至儿童情感陪伴领域的一次成功实践。三大特点：首先，基于情绪辅导理论构建的儿童情感陪伴对话数据，能够更有效地守护孩子的心理健康。其次，具有儿童心理学背景的志愿者与专家参与完成高质量对话数据的收集。使得能够更加准确地理解和回应儿童的需求，真正与他们建立深入的情感连接。最后，模型与儿童的交互方式更加贴心，让他们能够感受到温暖和认同，成为他们坚实成长道路上的得力伙伴。
 
-- [qiuhuachuan/smile](https://github.com/qiuhuachuan/smile) 开源的中文心理健康支持通用模型由 ChatGLM-6B LoRA 16-bit 指令微调得到。数据集通过扩展真实的心理互助 QA为多轮的心理健康支持多轮对话，提高了通用语言大模型在心理健康支持领域的表现，更加符合在长程多轮对话的应用场景。
+* [HIT-SCIR-SC/QiaoBan](https://github.com/HIT-SCIR-SC/QiaoBan) 中文儿童情感陪伴大模型“巧板”。基于通用大模型，使用了通用域人机对话数据、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，训练得到，是通用大语言模型迁移至儿童情感陪伴领域的一次成功实践。三大特点：首先，基于情绪辅导理论构建的儿童情感陪伴对话数据，能够更有效地守护孩子的心理健康。其次，具有儿童心理学背景的志愿者与专家参与完成高质量对话数据的收集。使得能够更加准确地理解和回应儿童的需求，真正与他们建立深入的情感连接。最后，模型与儿童的交互方式更加贴心，让他们能够感受到温暖和认同，成为他们坚实成长道路上的得力伙伴。
 
-- [camel-ai/camel](https://github.com/camel-ai/camel) 骆驼：大规模语言模型社会“心灵”探索的交际代理。一种名为角色扮演的新型交流代理框架。我们的方法涉及使用开始提示来指导聊天代理完成任务，同时保持与人类意图的一致性。我们展示了如何使用角色扮演来生成对话数据，以研究聊天代理的行为和功能，为研究对话语言模型提供宝贵的资源。我们的贡献包括引入一种新的通信代理框架，为研究多智能体系统的协作行为和能力提供可扩展的方法，以及开源我们的库以支持通信代理及其他方面的研究。演示，展示了两个 ChatGPT 代理之间的对话，扮演 python 程序员和股票交易员的角色，合作开发股票市场的交易机器人。
+* [qiuhuachuan/smile](https://github.com/qiuhuachuan/smile) 开源的中文心理健康支持通用模型由 ChatGLM-6B LoRA 16-bit 指令微调得到。数据集通过扩展真实的心理互助 QA为多轮的心理健康支持多轮对话，提高了通用语言大模型在心理健康支持领域的表现，更加符合在长程多轮对话的应用场景。
 
-- [pariskang/CMLM-ZhongJing](https://github.com/pariskang/CMLM-ZhongJing) 首个中医大语言模型——"仲景"。受古代中医学巨匠张仲景深邃智慧启迪，专为传统中医领域打造的预训练大语言模型。有史以来第一个中医大语种模型——“CMLM-中京”。受中国古代医学大师张仲景深邃智慧的启发，是专为中医领域设计的预训练大语言模型。
+* [camel-ai/camel](https://github.com/camel-ai/camel) 骆驼：大规模语言模型社会“心灵”探索的交际代理。一种名为角色扮演的新型交流代理框架。我们的方法涉及使用开始提示来指导聊天代理完成任务，同时保持与人类意图的一致性。我们展示了如何使用角色扮演来生成对话数据，以研究聊天代理的行为和功能，为研究对话语言模型提供宝贵的资源。我们的贡献包括引入一种新的通信代理框架，为研究多智能体系统的协作行为和能力提供可扩展的方法，以及开源我们的库以支持通信代理及其他方面的研究。演示，展示了两个 ChatGPT 代理之间的对话，扮演 python 程序员和股票交易员的角色，合作开发股票市场的交易机器人。
 
-- [Zlasejd/HuangDI](https://github.com/Zlasejd/HuangDI) 在 Ziya-LLaMA-13B-V1的基础上加入中医教材、中医各类网站数据等语料库，训练出一个具有中医知识理解力的语言模型（pre-trained ），之后在此基础上通过海量的中医古籍指令对话数据及通用指令数据进行有监督微调（SFT），使得模型具备中医古籍知识问答能力。以《中华医典》数据库为语料来源，约338MB，由两部分组成：①非结构化的“古籍文本”：涵盖了886本标点符号及内容完整的中医古籍。②结构化的“古籍辞典”：包含“名医”、“名言”、“名词”、“名著”等六大类，由中医学界诸多知名学者对中医古籍内容知识进一步系统提炼整理，是中医古籍内容精华最为直接的集中体现。
+* [pariskang/CMLM-ZhongJing](https://github.com/pariskang/CMLM-ZhongJing) 首个中医大语言模型——"仲景"。受古代中医学巨匠张仲景深邃智慧启迪，专为传统中医领域打造的预训练大语言模型。有史以来第一个中医大语种模型——“CMLM-中京”。受中国古代医学大师张仲景深邃智慧的启发，是专为中医领域设计的预训练大语言模型。
 
-- [2020MEAI/TCMLLM](https://github.com/2020MEAI/TCMLLM) 通过大模型方式实现中医临床辅助诊疗（病证诊断、处方推荐等）中医药知识问答等任务，推动中医知识问答、临床辅助诊疗等领域的快速发展。构建的指令微调数据集包含8个数据来源，涵盖4本中医经典教科书《中医内科学》、《中医外科学》、《中医妇科学》和《中医儿科学》（即“内外妇儿”，Internal medicine，Surgery， Gynecology，Pediatrics，简称ISGP）、2020版中国药典（Chinese pharmacopeia，简称CHP）、中医临床经典医案数据（Chinese Medicine Clinical Cases，简称CMCC）、以及多个三甲医院的肺病（Lung）、中风病（Stroke）、糖尿病（Diabetes）、肝病（Liver）、脾胃病（Splenic and stomach diseases）等多病种的临床病历。共68k条，token总数约为10M。
+* [Zlasejd/HuangDI](https://github.com/Zlasejd/HuangDI) 在 Ziya-LLaMA-13B-V1的基础上加入中医教材、中医各类网站数据等语料库，训练出一个具有中医知识理解力的语言模型（pre-trained ），之后在此基础上通过海量的中医古籍指令对话数据及通用指令数据进行有监督微调（SFT），使得模型具备中医古籍知识问答能力。以《中华医典》数据库为语料来源，约338MB，由两部分组成：①非结构化的“古籍文本”：涵盖了886本标点符号及内容完整的中医古籍。②结构化的“古籍辞典”：包含“名医”、“名言”、“名词”、“名著”等六大类，由中医学界诸多知名学者对中医古籍内容知识进一步系统提炼整理，是中医古籍内容精华最为直接的集中体现。
 
-- [Kent0n-Li/ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor) 使用医学领域知识在大型语言模型（LLaMA）上进行微调的医学聊天模型。数据集：来自 HealthCareMagic.com 100k的患者和医生之间的[真实对话](https://drive.google.com/file/d/1lyfqIwlLSClhgrCutWuEe_IACNq6XNUt/view?usp=sharing)。 来自 ICLiniq-10K 的患者医生之间的 10k 真实对话。 5k从ChatGPT [GenMedGPT-5k](https://drive.google.com/file/d/1ZKbqgYqWc7DJHs3N9TQYQVPdDQmZaClA/view?usp=sharing)和[疾病数据库](https://drive.google.com/file/d/1nDTKZ3wZbZWTkFMBkxlamrzbNz0frugg/view?usp=sharing) 生成了患者和医生之间的[对话](https://github.com/Kent0n-Li/ChatDoctor/blob/main/format_dataset.csv)。
+* [2020MEAI/TCMLLM](https://github.com/2020MEAI/TCMLLM) 通过大模型方式实现中医临床辅助诊疗（病证诊断、处方推荐等）中医药知识问答等任务，推动中医知识问答、临床辅助诊疗等领域的快速发展。构建的指令微调数据集包含8个数据来源，涵盖4本中医经典教科书《中医内科学》、《中医外科学》、《中医妇科学》和《中医儿科学》（即“内外妇儿”，Internal medicine，Surgery， Gynecology，Pediatrics，简称ISGP）、2020版中国药典（Chinese pharmacopeia，简称CHP）、中医临床经典医案数据（Chinese Medicine Clinical Cases，简称CMCC）、以及多个三甲医院的肺病（Lung）、中风病（Stroke）、糖尿病（Diabetes）、肝病（Liver）、脾胃病（Splenic and stomach diseases）等多病种的临床病历。共68k条，token总数约为10M。
 
-- [chaoyi-wu/PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA) 迈向构建医学开源语言模型”的官方代码。
+* [Kent0n-Li/ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor) 使用医学领域知识在大型语言模型（LLaMA）上进行微调的医学聊天模型。数据集：来自 HealthCareMagic.com 100k的患者和医生之间的[真实对话](https://drive.google.com/file/d/1lyfqIwlLSClhgrCutWuEe_IACNq6XNUt/view?usp=sharing)。 来自 ICLiniq-10K 的患者医生之间的 10k 真实对话。 5k从ChatGPT [GenMedGPT-5k](https://drive.google.com/file/d/1ZKbqgYqWc7DJHs3N9TQYQVPdDQmZaClA/view?usp=sharing)和[疾病数据库](https://drive.google.com/file/d/1nDTKZ3wZbZWTkFMBkxlamrzbNz0frugg/view?usp=sharing) 生成了患者和医生之间的[对话](https://github.com/Kent0n-Li/ChatDoctor/blob/main/format_dataset.csv)。
 
-- [X-D-Lab/MindChat](https://github.com/X-D-Lab/MindChat) 从心理咨询、心理评估、心理诊断、心理治疗四个维度帮助人们纾解心理压力与解决心理困惑, 提高心理健康水平. 作为一个心理大模型, MindChat通过营造轻松、开放的交谈环境, 以放松身心、交流感受或分享经验的方式, 与用户建立信任和理解的关系
+* [chaoyi-wu/PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA) 迈向构建医学开源语言模型”的官方代码。
 
-- [FreedomIntelligence/huatuo_knowledge_graph_qa](https://huggingface.co/datasets/FreedomIntelligence/huatuo_knowledge_graph_qa) 华佗医疗知识图谱问答数据集
+* [X-D-Lab/MindChat](https://github.com/X-D-Lab/MindChat) 从心理咨询、心理评估、心理诊断、心理治疗四个维度帮助人们纾解心理压力与解决心理困惑, 提高心理健康水平. 作为一个心理大模型, MindChat通过营造轻松、开放的交谈环境, 以放松身心、交流感受或分享经验的方式, 与用户建立信任和理解的关系
 
-- [hejunqing/webMedQA](https://github.com/hejunqing/webMedQA) 从在线健康咨询网站收集的真实中国医学问答数据集。
+* [FreedomIntelligence/huatuo_knowledge_graph_qa](https://huggingface.co/datasets/FreedomIntelligence/huatuo_knowledge_graph_qa) 华佗医疗知识图谱问答数据集
 
-- [pubmedqa/pubmedqa](https://github.com/pubmedqa/pubmedqa) 生物医学研究问答数据集
+* [hejunqing/webMedQA](https://github.com/hejunqing/webMedQA) 从在线健康咨询网站收集的真实中国医学问答数据集。
 
-- [WENGSYX/CMCQA](https://github.com/WENGSYX/CMCQA) 中国医学领域庞大的对话问答数据集。收集自中国医学会话问答网站春雨，拥有男科、风暴科、妇产科等45个科室的医学对话资料。具体来说，CMCQA 有 130 万个完整的会话或 1983 万个语句或 6.5 亿个词元。同时，我们进一步开源所有数据，推动医疗领域会话问答相关领域的发展。
+* [pubmedqa/pubmedqa](https://github.com/pubmedqa/pubmedqa) 生物医学研究问答数据集
 
-- [wangrongsheng/HealthCareMagic-100k-en](https://huggingface.co/datasets/wangrongsheng/HealthCareMagic-100k-en) 从在线医疗咨询网站HealthCareMagic收集了约10万例真实的医生-患者对话。通过手动和自动方式过滤这些数据,删除医生和患者的身份信息,并使用语言工具纠正语法错误。
+* [WENGSYX/CMCQA](https://github.com/WENGSYX/CMCQA) 中国医学领域庞大的对话问答数据集。收集自中国医学会话问答网站春雨，拥有男科、风暴科、妇产科等45个科室的医学对话资料。具体来说，CMCQA 有 130 万个完整的会话或 1983 万个语句或 6.5 亿个词元。同时，我们进一步开源所有数据，推动医疗领域会话问答相关领域的发展。
 
-- [wangrongsheng/icliniq-10k-en](https://huggingface.co/datasets/wangrongsheng/icliniq-10k-en) icliniq.com的1万例实际患者与医生之间对话
+* [wangrongsheng/HealthCareMagic-100k-en](https://huggingface.co/datasets/wangrongsheng/HealthCareMagic-100k-en) 从在线医疗咨询网站HealthCareMagic收集了约10万例真实的医生-患者对话。通过手动和自动方式过滤这些数据,删除医生和患者的身份信息,并使用语言工具纠正语法错误。
 
-- [FreedomIntelligence/Huatuo-26M](https://github.com/FreedomIntelligence/Huatuo-26M) 规模最大的中国医学质量保证数据集：包含 2600万个问答对。
+* [wangrongsheng/icliniq-10k-en](https://huggingface.co/datasets/wangrongsheng/icliniq-10k-en) icliniq.com的1万例实际患者与医生之间对话
 
-- [liyucheng/zhihu_rlhf_3k](https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k) 知乎3000个用于RLHF（Reinforcement Learning from Human Feedback 基于人类反馈的强化学习）的数据
+* [FreedomIntelligence/Huatuo-26M](https://github.com/FreedomIntelligence/Huatuo-26M) 规模最大的中国医学质量保证数据集：包含 2600万个问答对。
 
-- [MediaBrain-SJTU/MedicalGPT-zh](https://github.com/MediaBrain-SJTU/MedicalGPT-zh) 基于ChatGLM的在高质量指令数据集微调的中文医疗对话语言模型
+* [liyucheng/zhihu_rlhf_3k](https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k) 知乎3000个用于RLHF（Reinforcement Learning from Human Feedback 基于人类反馈的强化学习）的数据
 
-- [SCIR-HI/Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM) 基于中文医学知识的ChatGLM指令微调
+* [MediaBrain-SJTU/MedicalGPT-zh](https://github.com/MediaBrain-SJTU/MedicalGPT-zh) 基于ChatGLM的在高质量指令数据集微调的中文医疗对话语言模型
 
-- [xionghonglin/DoctorGLM](https://github.com/xionghonglin/DoctorGLM) 基于ChatGLM-6B的中文问诊模型
+* [SCIR-HI/Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM) 基于中文医学知识的ChatGLM指令微调
 
-- [WangRongsheng/MedQA-ChatGLM](https://github.com/WangRongsheng/MedQA-ChatGLM) 基于真实医疗对话数据在ChatGLM上进行LoRA、P-Tuning V2、Freeze、RLHF等微调
+* [xionghonglin/DoctorGLM](https://github.com/xionghonglin/DoctorGLM) 基于ChatGLM-6B的中文问诊模型
 
-- [Toyhom/Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data) 中文医疗对话数据集:Andriatria_男科 94596个问答对 IM_内科 220606个问答对 OAGD_妇产科 183751个问答对 Oncology_肿瘤科 75553个问答对 Pediatric_儿科 101602个问答对 Surgical_外科115991个问答对 总计 792099个问答对
+* [WangRongsheng/MedQA-ChatGLM](https://github.com/WangRongsheng/MedQA-ChatGLM) 基于真实医疗对话数据在ChatGLM上进行LoRA、P-Tuning V2、Freeze、RLHF等微调
 
-- [WangRongsheng/IvyGPT](https://github.com/WangRongsheng/IvyGPT) 最贴近真实医生问诊效果的医疗大语言模型
+* [Toyhom/Chinese-medical-dialogue-data](https://github.com/Toyhom/Chinese-medical-dialogue-data) 中文医疗对话数据集:Andriatria_男科 94596个问答对 IM_内科 220606个问答对 OAGD_妇产科 183751个问答对 Oncology_肿瘤科 75553个问答对 Pediatric_儿科 101602个问答对 Surgical_外科115991个问答对 总计 792099个问答对
 
-- [189569400/MedicalGPT-zh](https://github.com/189569400/MedicalGPT-zh) 基于医疗指令微调的中文医疗问诊模型
+* [WangRongsheng/IvyGPT](https://github.com/WangRongsheng/IvyGPT) 最贴近真实医生问诊效果的医疗大语言模型
 
-- [DUTIR-BioNLP/Taiyi-LLM](https://github.com/DUTIR-BioNLP/Taiyi-LLM) 太一：一种双语（中英文）微调的大语言模型，适用于各种生物医学任务
+* [189569400/MedicalGPT-zh](https://github.com/189569400/MedicalGPT-zh) 基于医疗指令微调的中文医疗问诊模型
 
-- [bigscience-workshop/biomedica](https://github.com/bigscience-workshop/biomedical) 用于管理用于大规模语言建模的生物医学训练数据的工具，大规模轻量级、程序化访问生物医学数据集，提高数据处理的可重复性，126+ 生物医学数据集、10+ 种语言、12 个任务类别、按任务类型协调的数据集架构、有关许可、粗粒度/细粒度任务类型、域等的元数据
+* [DUTIR-BioNLP/Taiyi-LLM](https://github.com/DUTIR-BioNLP/Taiyi-LLM) 太一：一种双语（中英文）微调的大语言模型，适用于各种生物医学任务
 
-- [openmedlab/PULSE: PULSE: Pretrained and Unified Language Service Engine](https://github.com/openmedlab/PULSE) 中文医疗大语言模型，使用约400万个中文医学领域和通用领域的指令微调数据进行进一步调优。PULSE支持医学领域的各种自然语言处理任务，包括健康教育、医师考试问题、报告解读、医疗记录结构化以及模拟诊断和治疗。
+* [bigscience-workshop/biomedica](https://github.com/bigscience-workshop/biomedical) 用于管理用于大规模语言建模的生物医学训练数据的工具，大规模轻量级、程序化访问生物医学数据集，提高数据处理的可重复性，126+ 生物医学数据集、10+ 种语言、12 个任务类别、按任务类型协调的数据集架构、有关许可、粗粒度/细粒度任务类型、域等的元数据
 
-- [openmedlab/XrayPULSE](https://github.com/openmedlab/XrayPULSE) 基于 PULSE。我们利用MedCLIP作为我们的医疗视觉编码器，并利用Q-former（BLIP2）作为适配器，通过简单的线性变换将图像注入PULSE。为了通过适配器对齐冷冻视觉编码器和LLM，我们借助chatGPT从两个数据集（MIMIC-CXR和OpenI）的自由文本放射学报告中生成中文版Xray-Report配对数据。为了促进生物医学多模态学习的研究，我们将向公众发布数据。
+* [openmedlab/PULSE: PULSE: Pretrained and Unified Language Service Engine](https://github.com/openmedlab/PULSE) 中文医疗大语言模型，使用约400万个中文医学领域和通用领域的指令微调数据进行进一步调优。PULSE支持医学领域的各种自然语言处理任务，包括健康教育、医师考试问题、报告解读、医疗记录结构化以及模拟诊断和治疗。
 
-- [stanford-crfm/BioMedLM](https://github.com/stanford-crfm/BioMedLM) 用于预训练和微调 BioMedLM 生物医学模型的代码。
+* [openmedlab/XrayPULSE](https://github.com/openmedlab/XrayPULSE) 基于 PULSE。我们利用MedCLIP作为我们的医疗视觉编码器，并利用Q-former（BLIP2）作为适配器，通过简单的线性变换将图像注入PULSE。为了通过适配器对齐冷冻视觉编码器和LLM，我们借助chatGPT从两个数据集（MIMIC-CXR和OpenI）的自由文本放射学报告中生成中文版Xray-Report配对数据。为了促进生物医学多模态学习的研究，我们将向公众发布数据。
 
-- [kyegomez/Med-PaLM](https://github.com/kyegomez/Med-PaLM) 在医疗保健领域实现多模态的生成式 AI 的负责任之路：释放 Med-PaLM 2 的力量，彻底改变医学知识，回答复杂的问题，并通过准确、安全和公平的做法增强医疗保健体验。
+* [stanford-crfm/BioMedLM](https://github.com/stanford-crfm/BioMedLM) 用于预训练和微调 BioMedLM 生物医学模型的代码。
+
+* [kyegomez/Med-PaLM](https://github.com/kyegomez/Med-PaLM) 在医疗保健领域实现多模态的生成式 AI 的负责任之路：释放 Med-PaLM 2 的力量，彻底改变医学知识，回答复杂的问题，并通过准确、安全和公平的做法增强医疗保健体验。
 
 #### 法律大模型及语料库
 
@@ -3469,18 +3450,7 @@
 
 * [GuocaiL/nlp_corpus](https://github.com/GuocaiL/nlp_corpus) open_ner_data网上开放的ner数据集、boson数据集、clue细粒度实体识别数据集、微软实体识别数据集、人民网实体识别数据集（98年）、中药说明书实体识别数据集（“万创杯”中医药天池大数据竞赛）、视频_音乐_图书数据集、微博数据集
 
-* [zejunwang1/CSTS:](https://github.com/zejunwang1/CSTS) 中文自然语言推理与语义相似度数据集 
-  
-  - 哈工大 LCQMC 数据集
-  - AFQMC 蚂蚁金融语义相似度数据集
-  - OPPO 小布对话文本语义匹配数据集
-  - 谷歌 PAWS-X 数据集
-  - 北大中文文本复述数据集 PKU-Paraphrase-Bank
-  - Chinese-STS-B 数据集
-  - Chinese-MNLI 自然语言推理数据集
-  - Chinese-SNLI 自然语言推理数据集
-  - OCNLI 中文原版自然语言推理数据集
-  - CINLID 中文成语语义推理数据集
+* [zejunwang1/CSTS:](https://github.com/zejunwang1/CSTS) 中文自然语言推理与语义相似度数据集。哈工大 LCQMC 数据集；AFQMC 蚂蚁金融语义相似度数据集；OPPO 小布对话文本语义匹配数据集；谷歌 PAWS-X 数据集；北大中文文本复述数据集 PKU-Paraphrase-Bank；Chinese-STS-B 数据集；Chinese-MNLI 自然语言推理数据集；Chinese-SNLI 自然语言推理数据集；OCNLI 中文原版自然语言推理数据集；CINLID 中文成语语义推理数据集
 
 * [sailxuOvO/CC-Riddle](https://github.com/sailxuOvO/CC-Riddle) 汉字谜语问答数据集
 
@@ -4271,21 +4241,23 @@
 * [givanz/VvvebJs](https://github.com/givanz/VvvebJs) 拖放构建网站的javascript 库 。
 
 * [strapi/strapi](https://github.com/strapi/strapi) 领先的开源无头 CMS。100% JScript，完全可定制且开发人员优先。
-- [payloadcms/payload](https://github.com/payloadcms/payload) 使用 React + TypeScript 构建一个免费开源 Headless CMS。
 
-- [getgrav/grav](https://github.com/getgrav/grav) 由 PHP、Markdown、Twig 和 Symfony 提供支持的现代、极快、极其简单且功能强大的平面文件 CMS
+* [payloadcms/payload](https://github.com/payloadcms/payload) 使用 React + TypeScript 构建一个免费开源 Headless CMS。
 
-- [octobercms/october](https://github.com/octobercms/october) 基于 Laravel PHP 框架的自托管 CMS (Content Management System) 平台。
+* [getgrav/grav](https://github.com/getgrav/grav) 由 PHP、Markdown、Twig 和 Symfony 提供支持的现代、极快、极其简单且功能强大的平面文件 CMS
 
-- [tinacms/tinacms](https://github.com/tinacms/tinacms) 一个完全开源的无头CMS，支持Markdown和可视化编辑
+* [octobercms/october](https://github.com/octobercms/october) 基于 Laravel PHP 框架的自托管 CMS (Content Management System) 平台。
 
-- [decaporg/decap-cms](https://github.com/decaporg/decap-cms) 用于静态站点生成器的 CMS。为用户提供一种简单的方法来编辑内容并将其添加到使用静态网站生成器构建的任何网站。
+* [tinacms/tinacms](https://github.com/tinacms/tinacms) 一个完全开源的无头CMS，支持Markdown和可视化编辑
 
-- [keystonejs/keystone-classic](https://github.com/keystonejs/keystone-classic) Node.js CMS 和 Web 应用程序框架
+* [decaporg/decap-cms](https://github.com/decaporg/decap-cms) 用于静态站点生成器的 CMS。为用户提供一种简单的方法来编辑内容并将其添加到使用静态网站生成器构建的任何网站。
 
-- [django-cms/django-cms](https://github.com/django-cms/django-cms) 由 Django 支持的易于使用且对开发人员友好的企业 CMS
+* [keystonejs/keystone-classic](https://github.com/keystonejs/keystone-classic) Node.js CMS 和 Web 应用程序框架
 
-- [keystonejs/keystone](https://github.com/keystonejs/keystone) 最强大的无头 CMS Node.js — 使用 GraphQL 和 React 构建
+* [django-cms/django-cms](https://github.com/django-cms/django-cms) 由 Django 支持的易于使用且对开发人员友好的企业 CMS
+
+* [keystonejs/keystone](https://github.com/keystonejs/keystone) 最强大的无头 CMS Node.js — 使用 GraphQL 和 React 构建
+
 * [midoks/mdserver-web](https://github.com/midoks/mdserver-web) 一款简单Linux面板服务
 
 * [janishar/nodejs-backend-architecture-typescript](https://github.com/janishar/nodejs-backend-architecture-typescript) Node.js的学习为生产就绪的博客平台（如Medium和FreeCodeCamp）构建后端服务器。主要功能：基于角色，Express.js，Mongoose，Redis，Mongodb，Joi，Docker，JWT，单元集成测试。
@@ -10872,9 +10844,6 @@
 
 * [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) 如何保护任何东西，安全工程是构建安全系统的学科。它的经验教训不仅适用于计算机安全。事实上，在这个 repo 中，我的目标是记录一个保护任何东西的过程，无论是中世纪城堡、艺术博物馆还是计算机网络。没有所谓的系统是安全的，只有针对特定对手的安全。这就是为什么了解你的对手是谁，以及每个对手背后的动机和能力很重要的原因。
 
-* []() 
-
-
 # 硬件
 
 ## CPU RISC-V
@@ -11139,7 +11108,7 @@
 
 * [emqx/emqx](https://github.com/emqx/emqx) 适用于物联网、工业物联网和互联汽车的最具可扩展性的开源 MQTT 代理
 
-* [thingsboard/thingsboard](https://github.com/thingsboard/thingsboard) 开源物联网平台 - 设备管理、数据收集、处理和可视化。
+* [thingsboard/thingsboard](https://github.com/thingsboard/thingsboard) 开源物联网平台，包括设备管理、数据收集、处理和可视化。
 
 * [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) NVR具有实时本地物体检测功能，适用于IP摄像机
 
@@ -11189,7 +11158,7 @@
 
 * [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python) 从头开始学习Python编程语言的课程，适合初学者。超过30节课，25小时视频，代码和群聊。从基础知识到创建有数据库的后端 API 等等......
 
-* [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python - 100天从新手到大师
+* [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python 100天从新手到大师
 
 * [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) 30天的Python编程挑战是在30天内学习Python编程语言的分步指南。这个挑战可能需要100多天
 
@@ -11253,7 +11222,7 @@
 
 * [pandas-dev/pandas](https://github.com/pandas-dev/pandas) 灵活而强大的 Python 数据分析/操作库，提供类似于 R data.frame 对象的标记数据结构、统计函数等等
 
-* [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) MuPDF的增强型Python绑定 - 轻量级PDF，XPS和电子书查看器，渲染器和工具包。
+* [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) MuPDF的增强型Python绑定， 轻量级PDF，XPS和电子书查看器，渲染器和工具包。
 
 * [postmanlabs/httpbin](https://github.com/postmanlabs/httpbin) HTTP Request & Response Service，用Py + Flask编写。
 
@@ -11628,6 +11597,8 @@
 
 * [rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust) Rust 编程语言嵌入式和低级开发的精选资源列表
 
+* [actix/actix](https://github.com/actix/actix) Rust 的 Actor 框架。特征：异步和同步执行组件；本地/线程上下文中的执行组件通信；使用 futures 进行异步消息处理；Actor 监督；有类型的消息体（无 Any 类型）；在稳定的 Rust 1.68+ 上运行
+
 * [rust-embedded/rust-raspberrypi-OS-tutorials](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials) 树莓派上的 Rust 操作系统开发教程。面向刚接触 ARM 64 位 ARMv8-A 架构的业余操作系统开发人员。这些教程将提供有关如何 embedded system 从头开始编写整体式操作系统 kernel 的指导性分步教程。它们涵盖了常见操作系统任务的实现，例如写入串行控制台、设置虚拟内存和处理硬件异常。同时利用 Rust 的独特功能来提供安全性和速度。
 
 * [chyyuu/os_kernel_lab](https://github.com/chyyuu/os_kernel_lab) 基于 Rust/C & RISC-V 64/X86-32 的操作系统内核实验室
@@ -11677,6 +11648,12 @@
 * [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) 命令行基准测试工具。特征：跨多个运行的统计分析。支持任意 shell 命令。关于基准进度和当前估计的持续反馈。预热运行可以在实际基准测试之前执行。可以在每次计时运行之前设置缓存清除命令。统计异常值检测，用于检测来自其他程序的干扰和缓存效果。将结果导出为各种格式：CSV、JSON、Markdown、AsciiDoc。参数化基准（例如，改变线程数）。跨平台。
 
 * [lsd-rs/lsd](https://github.com/lsd-rs/lsd) 对GNU `ls` 的重写，增加了许多功能，如颜色、图标、树视图、更多的格式化选项等。该项目深受超级colorls项目的启发。
+
+* [sxyazi/yazi](https://github.com/sxyazi/yazi) 用 Rust 编写的基于异步 I/O 的超快终端文件管理器。基于非阻塞异步 I/O。它旨在提供高效、用户友好和可定制的文件管理体验。完全异步支持：所有 I/O 操作都是异步的，CPU 任务分布在多个线程上，从而充分利用可用资源。强大的异步任务调度和管理：提供实时进度更新、任务取消和内部任务优先级分配。内置支持多种图像协议：还集成了 Überzug++，几乎覆盖了所有终端。内置代码高亮和图片解码：结合预加载机制，大大加快图片和正常文件加载速度。并发插件系统：UI插件（重写大部分UI）、功能插件、自定义预览器/预加载器/提取器;只是一些 Lua 的碎片。 数据分发服务：基于客户端-服务器架构（无需额外的服务器进程），集成基于 Lua 的发布-订阅模型，实现跨实例通信和状态持久化。包管理器：使用一个命令安装插件和主题，使它们始终保持最新状态，或将它们固定到特定版本。与 fd、rg、fzf、zoxide 集成。类似 Vim 的 input/select/which/notify 组件，CD 路径自动完成。多标签支持、跨目录选择、可滚动预览（用于视频、PDF、存档、目录、代码等）。批量重命名、可视化模式、文件选择器。主题系统、鼠标支持、垃圾桶、自定义布局、CSI u。
+
+* [pretzelhammer/rust-blog](https://github.com/pretzelhammer/rust-blog) 为 Rust 初学者和 Rust 高级初学者编写教育内容。
+
+* [dtolnay/proc-macro-workshop](https://github.com/dtolnay/proc-macro-workshop) 此存储库包含一系列旨在学习编写 Rust 过程宏的项目 — 生成 Rust 代码的 Rust 代码。这些项目中的每一个都来自一个引人注目的真实用例。在这里的 5 个项目中，有 3 个是我亲自在工业代码库中实现的宏，另外 2 个作为其他作者在 crates.io 上的库存在。
 
 ## flutter
 
