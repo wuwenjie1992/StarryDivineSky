@@ -910,13 +910,13 @@
 
 * [SeldonIO/seldon-core](https://github.com/SeldonIO/seldon-core) MLOps 框架，用于打包、部署、监视和管理数千个生产机器学习模型。Seldon core 将您的 ML 模型（Tensorflow、Pytorch、H2o 等）或语言包装器（Python、Java 等）转换为生产 REST/GRPC 微服务。Seldon 可处理扩展到数千个生产机器学习模型，并提供开箱即用的高级机器学习功能，包括高级指标、请求日志记录、解释器、异常值检测器、A/B 测试、金丝雀等。
 
-* [https://github.com/kubeflow/pipelines](https://github.com/kubeflow/pipelines) 机器学习 （ML） 工具包，致力于使 Kubernetes 上的 ML 工作流部署变得简单、可移植和可扩展。Kubeflow 流水线是使用 Kubeflow Pipelines SDK 构建的可重用的端到端 ML 工作流。Kubeflow 流水线服务具有以下目标：端到端编排，启用和简化端到端机器学习管道的编排；轻松实验，让您轻松尝试众多想法和技术，并管理您的各种试验/实验；易于重用，使您能够重用组件和管道，以快速拼凑端到端解决方案，而无需每次都重新构建。
+* [kubeflow/pipelines](https://github.com/kubeflow/pipelines) 机器学习 （ML） 工具包，致力于使 Kubernetes 上的 ML 工作流部署变得简单、可移植和可扩展。Kubeflow 流水线是使用 Kubeflow Pipelines SDK 构建的可重用的端到端 ML 工作流。Kubeflow 流水线服务具有以下目标：端到端编排，启用和简化端到端机器学习管道的编排；轻松实验，让您轻松尝试众多想法和技术，并管理您的各种试验/实验；易于重用，使您能够重用组件和管道，以快速拼凑端到端解决方案，而无需每次都重新构建。
 
 * [hibayesian/awesome-automl-papers](https://github.com/hibayesian/awesome-automl-papers) 自动化机器学习论文、文章、教程、幻灯片和项目的精选列表，自动化机器学习 （AutoML） 提供了使机器学习可供非机器学习专家使用的方法和流程，以提高机器学习的效率并加速机器学习的研究。
 
 * [lazyprogrammer/machine_learning_examples](https://github.com/lazyprogrammer/machine_learning_examples) 机器学习示例和教程的集合。
 
-* [https://github.com/PAIR-code/facets](https://github.com/PAIR-code/facets) 包含两个用于理解和分析机器学习数据集的可视化效果：Facets Overview 和 Facets Dive。可视化作为 Polymer Web 组件实现，由 Typescript 代码提供支持，可以轻松嵌入到 Jupyter 笔记本或网页中。
+* [PAIR-code/facets](https://github.com/PAIR-code/facets) 包含两个用于理解和分析机器学习数据集的可视化效果：Facets Overview 和 Facets Dive。可视化作为 Polymer Web 组件实现，由 Typescript 代码提供支持，可以轻松嵌入到 Jupyter 笔记本或网页中。
 
 * [lmcinnes/umap](https://github.com/lmcinnes/umap) 均匀流形近似和投影 （UMAP ,Uniform Manifold Approximation and Projection） 是一种降维技术，可用于类似于 t-SNE 的可视化，但也可用于一般的非线性降维。该算法建立在关于数据的三个假设之上：数据均匀分布在黎曼流形上;黎曼度量是局部常数（或可以近似）;流形是本地连接的。根据这些假设，可以对具有模糊拓扑结构的流形进行建模。通过搜索具有最接近的等效模糊拓扑结构的数据的低维投影来找到嵌入。
 
@@ -2264,7 +2264,7 @@
 
 * [pjlab-sys4nlp/llama-moe](https://github.com/pjlab-sys4nlp/llama-moe) 通过持续的预培训建立来自 LLaMA 的专家组合。于 LLaMA 和 SlimPajama 的一系列开源专家混合 （MoE） 模型。我们通过以下两个步骤构建 LLaMA-MoE：将 LLaMA 的 FFN 划分为稀疏专家，并为每一层专家插入 top-K 门。使用来自 Sheared LLaMA 的优化数据采样权重和来自 SlimPajama 的过滤数据集，持续预训练初始化的 MoE 模型。
 
-* [https://github.com/X-PLUG/CValues](https://github.com/X-PLUG/CValues) 面向中文大模型价值观的评估与对齐研究。联合天猫精灵团队发起「给AI的100瓶毒药」项目，邀请中国知名专家学者，每位专家提出100个诱导偏见、歧视回答的刁钻问题，并对大模型的回答进行标注。项目吸引了环境科学、心理学、法理学等多个领域专家参与，并召开了专家研讨会，会后发布业内首个大语言模型治理开源中文数据集100PoisonMpts，包含专家提出的问题、专家自己撰写或认可的答案。提出一个评估中文大模型价值观水平的benchmark，基于safety和responsibility两个评价准则。我们评测了10+大模型，实验既包含人工评测、也构造多项选择题进行自动化评测。
+* [X-PLUG/CValues](https://github.com/X-PLUG/CValues) 面向中文大模型价值观的评估与对齐研究。联合天猫精灵团队发起「给AI的100瓶毒药」项目，邀请中国知名专家学者，每位专家提出100个诱导偏见、歧视回答的刁钻问题，并对大模型的回答进行标注。项目吸引了环境科学、心理学、法理学等多个领域专家参与，并召开了专家研讨会，会后发布业内首个大语言模型治理开源中文数据集100PoisonMpts，包含专家提出的问题、专家自己撰写或认可的答案。提出一个评估中文大模型价值观水平的benchmark，基于safety和responsibility两个评价准则。我们评测了10+大模型，实验既包含人工评测、也构造多项选择题进行自动化评测。
 
 * [PandaBearLab/prompt-tutorial](https://github.com/PandaBearLab/prompt-tutorial)  chatGpt提示词课程，文包括的内容：prompt 原理、prompt 技巧、我的一些经验、一些公开的prompt模板、AI工具系列
 
@@ -2286,15 +2286,15 @@
 
 * [bigai-nlco/LooGLE](https://github.com/bigai-nlco/LooGLE) 一个LLM全面的评估基准，用于长时间理解上下文，其中包含最新的（全部在2022年之后）和超长的现实文档（每个文档超过24k令牌，其中许多超过100k字）和6,000个新生成的问题，跨越不同的领域和类别。
 
-* [https://github.com/dwzhu-pku/PoSE](https://github.com/dwzhu-pku/PoSE) 位置跳跃训练，将上下文窗口有效扩展至LLMs极长 （ICLR 2024），引入了位置跳跃 （PoSE） 训练，用于高效适应大型语言模型~（LLMs） 到极长的上下文窗口。PoSE 通过在训练期间使用具有操纵位置索引的固定上下文窗口模拟长输入来模拟长输入，从而将训练长度与目标上下文窗口大小分离。以上下文窗口从 2,048 扩展到 8,192 为例，我们将 2,048 个标记的原始上下文窗口划分为两个块，并通过添加一个明显的跳过偏差项来调整第二个块的位置索引。对于每个训练示例，这些偏差项以及每个块的长度都会发生变化，以便模型可以通过微调来适应目标上下文窗口的所有相对位置。值得注意的是，通过将微调长度与目标上下文窗口解耦，PoSE 理论上可以无限扩展上下文窗口，仅受推理内存使用的限制。随着高效推理的不断进步~（例如，vLLM、Flash Attention），我们相信 PoSE 在进一步扩展上下文窗口方面具有巨大的前景。
+* [dwzhu-pku/PoSE](https://github.com/dwzhu-pku/PoSE) 位置跳跃训练，将上下文窗口有效扩展至LLMs极长 （ICLR 2024），引入了位置跳跃 （PoSE） 训练，用于高效适应大型语言模型~（LLMs） 到极长的上下文窗口。PoSE 通过在训练期间使用具有操纵位置索引的固定上下文窗口模拟长输入来模拟长输入，从而将训练长度与目标上下文窗口大小分离。以上下文窗口从 2,048 扩展到 8,192 为例，我们将 2,048 个标记的原始上下文窗口划分为两个块，并通过添加一个明显的跳过偏差项来调整第二个块的位置索引。对于每个训练示例，这些偏差项以及每个块的长度都会发生变化，以便模型可以通过微调来适应目标上下文窗口的所有相对位置。值得注意的是，通过将微调长度与目标上下文窗口解耦，PoSE 理论上可以无限扩展上下文窗口，仅受推理内存使用的限制。随着高效推理的不断进步~（例如，vLLM、Flash Attention），我们相信 PoSE 在进一步扩展上下文窗口方面具有巨大的前景。
 
-* [https://github.com/IAAR-Shanghai/UHGEval](https://github.com/IAAR-Shanghai/UHGEval) 基于无约束生成的中国大型语言模型幻觉基准测试，一个综合框架，旨在评估幻觉现象。其架构提供了灵活性和可扩展性，允许轻松集成新的数据集、模型和评估指标。该框架对评估常见的幻觉任务是用户友好的，包括我们的新华幻觉和牛津的TruthfulQA等。
+* [IAAR-Shanghai/UHGEval](https://github.com/IAAR-Shanghai/UHGEval) 基于无约束生成的中国大型语言模型幻觉基准测试，一个综合框架，旨在评估幻觉现象。其架构提供了灵活性和可扩展性，允许轻松集成新的数据集、模型和评估指标。该框架对评估常见的幻觉任务是用户友好的，包括我们的新华幻觉和牛津的TruthfulQA等。
 
 * [OpenAccess-AI-Collective/axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) 旨在简化各种 AI 模型微调的工具，支持多种配置和架构。 特征：训练各种 Huggingface 模型，如llama、pythia、falcon、mpt；支持 fullfinetune、lora、qlora、relora 和 gptq；使用简单的 yaml 文件或 CLI 覆盖自定义配置；加载不同的数据集格式，使用自定义格式，或自带标记化数据集；集成了 xformer、flash注意力、rope缩放和多重包装；通过 FSDP 或 Deepspeed 与单个 GPU 或多个 GPU 配合使用；在本地或云端使用 Docker 轻松运行；将结果和检查点（可选）记录到 wandb 或 mlflow
 
 * [bigscience-workshop/xmtf](https://github.com/bigscience-workshop/xmtf) 通过多任务微调实现跨语言泛化
 
-* [https://github.com/tangqiaoyu/ToolAlpaca](https://github.com/tangqiaoyu/ToolAlpaca) 具有 3000 个模拟案例的语言模型的通用工具学习。用于在最少的人工监督下学习紧凑语言模型中的通用工具使用能力。它通过多智能体仿真环境生成工具使用语料库，提供来自 400 多个工具的 3.9k 工具使用实例，从而解决了工具学习的挑战。
+* [tangqiaoyu/ToolAlpaca](https://github.com/tangqiaoyu/ToolAlpaca) 具有 3000 个模拟案例的语言模型的通用工具学习。用于在最少的人工监督下学习紧凑语言模型中的通用工具使用能力。它通过多智能体仿真环境生成工具使用语料库，提供来自 400 多个工具的 3.9k 工具使用实例，从而解决了工具学习的挑战。
 
 * [aurora-develop/aurora](https://github.com/aurora-develop/aurora) （带UI）免费的GPT3.5，支持使用3.5的access 调用，注：仅ip属地支持免登录使用ChatGpt可以使用(也可以自定义Baseurl来绕过限制)
 
@@ -2310,11 +2310,11 @@
 
 * [ymcui/Chinese-LLaMA-Alpaca-3](https://github.com/ymcui/Chinese-LLaMA-Alpaca-3) 基于Meta最新发布的新一代开源大模型Llama-3开发，是Chinese-LLaMA-Alpaca开源大模型相关系列项目（一期、二期）的第三期。本项目开源了中文Llama-3基座模型和中文Llama-3-Instruct指令精调大模型。这些模型在原版Llama-3的基础上使用了大规模中文数据进行增量预训练，并且使用精选指令数据进行精调，进一步提升了中文基础语义和指令理解能力，相比二代相关模型获得了显著性能提升。
 
-* [https://github.com/zjukg/KnowPAT](https://github.com/zjukg/KnowPAT) 一种LLMs与人类知识偏好保持一致的新管道。KnowPAT结合领域知识图谱来构建偏好集并设计新的对齐目标，以微调.LLMs
+* [zjukg/KnowPAT](https://github.com/zjukg/KnowPAT) 一种LLMs与人类知识偏好保持一致的新管道。KnowPAT结合领域知识图谱来构建偏好集并设计新的对齐目标，以微调.LLMs
 
 * [usyd-fsalab/fp6_llm](https://github.com/usyd-fsalab/fp6_llm) 高效的 GPU 支持 6 位量化 （FP6） LLM 推理。与 4 位和 8 位量化对应物相比，6 位量化 （FP6） 可以在模型质量和推理成本之间实现更好的权衡，从而有效地减小大型语言模型的大小 （LLMs），并在各种应用程序中保持一致地保持模型质量。为了支持现代 GPU LLMs 的 6 位推理，我们提供了 FP6-LLM 的官方实现，在 fp16/int8 基线上实现了线性层的显著加速和 GPU 内存的缩减。高效的 CUDA 实现，用于启用 Tensor Core 的线性层（FP6 中的权重和 FP16 格式的激活）的混合输入矩阵乘法。
 
-* [https://github.com/Abbey4799/CELLO](https://github.com/Abbey4799/CELLO) CELLO 是系统评估大型语言 MOdels 的 ComplEx 指令理解能力的基准 （AAAI 2024）。我们为复杂指令设计了八个特征，并根据真实场景构建了一个全面的评估数据集。我们建立了四个标准并制定了相应的指标，因为目前的指标是不充分的、有偏见的或过于严格和粗糙的。我们通过大量的实验比较了具有代表性的面向中文和面向英语的模型在遵循复杂指令方面的性能。
+* [Abbey4799/CELLO](https://github.com/Abbey4799/CELLO) CELLO 是系统评估大型语言 MOdels 的 ComplEx 指令理解能力的基准 （AAAI 2024）。我们为复杂指令设计了八个特征，并根据真实场景构建了一个全面的评估数据集。我们建立了四个标准并制定了相应的指标，因为目前的指标是不充分的、有偏见的或过于严格和粗糙的。我们通过大量的实验比较了具有代表性的面向中文和面向英语的模型在遵循复杂指令方面的性能。
 
 * [tmlr-group/DeepInception](https://github.com/tmlr-group/DeepInception) 催眠大型语言模型成为越狱者。披露了一种轻量级的方法，称为DeepInception，它可以很容易地催眠LLM成为越狱者并解锁其滥用风险。具体来说，《深度盗梦空间》利用拟LLM人化能力构建新颖的嵌套场景来表现，实现了正常场景下逃避使用控制的自适应方式，为进一步的直接越狱提供了可能性。根据经验，我们进行了全面的实验以证明其功效。我们的 DeepInception 可以达到与前代同行竞争的越狱成功率，并在后续交互中实现连续越狱，这揭示了 Falcon、Vicuna、Llama-2 和 GPT-3.5/4/4V 等开源/闭源LLMs自输的关键弱点。我们的调查呼吁人们应该更加关注安全方面，LLMs并加强对滥用风险的防御。
 
@@ -2332,7 +2332,7 @@
 
 * [young-geng/EasyLM](https://github.com/young-geng/EasyLM) 在 JAX/Flax LLMs 中进行预训练、微调、评估和服务的一站式解决方案，EasyLM 可以利用 JAX 的 pjit 功能将训练扩展到LLM数百个 TPU/GPU 加速器。
 
-* [https://github.com/ianarawjo/ChainForge](https://github.com/ianarawjo/ChainForge) 用于战斗测试的开源可视化编程环境提示 LLMs。用于分析和评估LLM响应的数据流提示工程环境。它面向提示、聊天响应和响应质量的早期、快速和肮脏的探索，超越了与个人LLMs的临时聊天。使用 ChainForge，您可以：一次查询多个LLMs，以快速有效地测试提示的想法和变化。比较不同提示排列、不同模型和不同模型设置的响应质量，以选择适合您用例的最佳提示和模型。设置评估指标（评分功能），并立即可视化提示、提示参数、模型和模型设置的结果。跨模板参数和聊天模型同时进行多个对话。模板不仅提示，而且跟进聊天消息，并在聊天对话的每个回合检查和评估输出。
+* [ianarawjo/ChainForge](https://github.com/ianarawjo/ChainForge) 用于战斗测试的开源可视化编程环境提示 LLMs。用于分析和评估LLM响应的数据流提示工程环境。它面向提示、聊天响应和响应质量的早期、快速和肮脏的探索，超越了与个人LLMs的临时聊天。使用 ChainForge，您可以：一次查询多个LLMs，以快速有效地测试提示的想法和变化。比较不同提示排列、不同模型和不同模型设置的响应质量，以选择适合您用例的最佳提示和模型。设置评估指标（评分功能），并立即可视化提示、提示参数、模型和模型设置的结果。跨模板参数和聊天模型同时进行多个对话。模板不仅提示，而且跟进聊天消息，并在聊天对话的每个回合检查和评估输出。
 
 * [intel/neural-compressor](https://github.com/intel/neural-compressor) SOTA低比特LLM量化（INT8/FP8/INT4/FP4/NF4）和稀疏性;TensorFlow、PyTorch 和 ONNX Runtime 上的领先模型压缩技术。® 英特尔神经压缩器旨在提供流行的模型压缩技术，如量化、修剪（稀疏性）、蒸馏和神经架构搜索等主流框架，如 TensorFlow、PyTorch、ONNX Runtime 和 MXNet，以及英特尔扩展，如面向 TensorFlow 的英特尔扩展和面向 PyTorch 的英特尔扩展。
 
@@ -2372,11 +2372,11 @@
 
 * [Farama-Foundation/chatarena](https://github.com/Farama-Foundation/chatarena) 提供多智能体语言游戏环境的库，并促进了对自主LLM智能体及其社交交互的研究。它提供以下功能：抽象：它提供了一个灵活的框架，基于马尔可夫决策过程来定义多个参与者、环境以及它们之间的交互。语言游戏环境：它提供了一组可以帮助理解、基准测试或训练代理LLMs的环境。用户友好的界面：它提供 Web UI 和 CLI，以开发/提示工程师您的LLM代理在环境中行动。
 
-* [https://github.com/amazon-science/auto-cot](https://github.com/amazon-science/auto-cot) “大型语言模型中的自动思维链提示”的官方实现，用“让我们一步一步地思考”的提示让 AI 振作起来？请多多说。让我们不仅要一步一步地思考，还要一个一个地思考。Auto-CoT 使用更多的cheers和多样性来节省思维链提示设计中的巨大手动工作，匹配甚至超过 GPT-3 上的手动设计性能。
+* [amazon-science/auto-cot](https://github.com/amazon-science/auto-cot) “大型语言模型中的自动思维链提示”的官方实现，用“让我们一步一步地思考”的提示让 AI 振作起来？请多多说。让我们不仅要一步一步地思考，还要一个一个地思考。Auto-CoT 使用更多的cheers和多样性来节省思维链提示设计中的巨大手动工作，匹配甚至超过 GPT-3 上的手动设计性能。
 
 * [LLMBook-zh/LLMBook-zh.github.io](https://github.com/LLMBook-zh/LLMBook-zh.github.io) 《大语言模型》作者：赵鑫，李军毅，周昆，唐天一，文继荣。希望读者通过阅读本书，能够深入了解大模型技术的现状和未来趋势，为自己的研究和实践提供指导和启发。让我们携手努力，共同推动人工智能技术的发展，为建立更智能、更可持续的未来做出贡献。
 
-* [https://github.com/RUCAIBox/LLMBox](https://github.com/RUCAIBox/LLMBox) 用于实现LLMs的综合库，包括统一的训练管道和全面的模型评估。
+* [RUCAIBox/LLMBox](https://github.com/RUCAIBox/LLMBox) 用于实现LLMs的综合库，包括统一的训练管道和全面的模型评估。
 
 * [jackaduma/awesome_LLMs_interview_notes](https://github.com/jackaduma/awesome_LLMs_interview_notes) 主要记录大模型（LLMs）算法工程师相关的面试题和参考答案
 
@@ -3050,7 +3050,7 @@
 
 * [Alibaba-NLP/SeqGPT](https://github.com/Alibaba-NLP/SeqGPT) 用于开放域序列理解的开箱即用大型语言模型
 
-* [https://github.com/Kipok/NeMo-Skills](https://github.com/Kipok/NeMo-Skills) 提供了一个管道来提高大型语言模型的“技能”（LLMs）。目前，我们专注于解决简单数学问题的能力，但更多的技能即将到来（例如编码和表格理解）。
+* [Kipok/NeMo-Skills](https://github.com/Kipok/NeMo-Skills) 提供了一个管道来提高大型语言模型的“技能”（LLMs）。目前，我们专注于解决简单数学问题的能力，但更多的技能即将到来（例如编码和表格理解）。
 
 * [xverse-ai/XVERSE-65B](https://github.com/xverse-ai/XVERSE-65B) 由深圳元象科技自主研发的支持多语言的大语言模型（Large Language Model），参数规模为 650 亿，本次开源的模型为底座模型 XVERSE-65B。
 
@@ -3512,7 +3512,7 @@
 
 * [dqwang122/MLROUGE](https://github.com/dqwang122/MLROUGE) 用于多语言摘要的 ROUGE
 
-* [https://github.com/esdurmus/Wikilingua](https://github.com/esdurmus/Wikilingua) 多语言抽象摘要数据集，来自 WikiHow 的 18 种语言的 ~770k 篇文章和摘要对。
+* [esdurmus/Wikilingua](https://github.com/esdurmus/Wikilingua) 多语言抽象摘要数据集，来自 WikiHow 的 18 种语言的 ~770k 篇文章和摘要对。
 
 * [PhilipMay/stsb-multi-mt](https://github.com/PhilipMay/stsb-multi-mt) 机器翻译的多语言 STS 基准数据集。
 
@@ -3873,13 +3873,9 @@
 
 * [axios/axios](https://github.com/axios/axios) 用于浏览器和 node.js 的基于 Promise 的 HTTP 客户端
 
-* [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
-
 * [xcatliu/typescript-tutorial](https://github.com/xcatliu/typescript-tutorial) 从 JavaScript 程序员的角度总结思考，循序渐进的理解 TypeScript。TypeScript 虽然有官方手册及其非官方中文版，但是它每一章都希望能详尽的描述一个概念，导致前面的章节就会包含很多后面才会学习到的内容，而有些本该一开始就了解的基础知识却在后面才会涉及。如果是初学者，可能需要阅读多次才能理解。所以它更适合用来查阅，而不是学习。
 
 * [oven-sh/bun](https://github.com/oven-sh/bun) 多合一快速且易于使用的工具。 不需要 1,000 个用于开发的 node_modules，你只需要 bun。令人难以置信的快速 JavaScript 运行时、捆绑器、测试运行器和包管理器 - 合二为一
-
-* [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。TypeScript 支持。文件系统路由 à la Next.js。
 
 * [nestjs/nest](https://github.com/nestjs/nest) 用于在 TypeScript 和 JavaScript（ES6、ES7、ES8）之上构建高效、可扩展和企业级服务器端应用程序的渐进式 Node.js 框架
 
@@ -4224,8 +4220,6 @@
 
 * [fyne-io/fyne](https://github.com/fyne-io/fyne) 受材质设计启发的 Go 中的跨平台 GUI 工具包。它旨在使用单个代码库构建在桌面和移动设备上运行的应用程序。
 
-* [SergioBenitez/Rocket](https://github.com/SergioBenitez/Rocket) Rust 的异步 Web 框架，专注于可用性、安全性、可扩展性和速度。
-
 * [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) 用于 Web 的零配置构建工具。它将出色的开箱即用开发体验与可扩展的体系结构相结合，可以将您的项目从刚开始转变为大规模生产应用程序。
 
 * [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) 谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类
@@ -4366,8 +4360,6 @@
 
 * [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) 一本 golang 电子书介绍如何使用 golang 构建网络
 
-* [arwes/arwes](https://github.com/arwes/arwes) Web 框架，用于基于未来科幻小说设计、动画和音效构建用户界面。背后的概念受到Cyberprep和Synthwave以及《星际公民》、《光环》和《创：遗产》等作品的影响。它试图激发先进的科学和技术。
-
 * [reflex-dev/reflex](https://github.com/reflex-dev/reflex) 纯 Py的高性能、可自定义的 Web 应用程序。几秒钟内完成部署。
 
 * [wanglin2/mind-map](https://github.com/wanglin2/mind-map) 一个 js 思维导图库，不依赖任何框架，你可以使用它来快速完成 Web 思维导图产品的开发。
@@ -4386,8 +4378,6 @@
 
 * [transloadit/uppy](https://github.com/transloadit/uppy) 下一个用于 Web 浏览器🐶的开源文件上传器。时尚的模块化 JS文件上传器，可与任何应用程序无缝集成。它速度很快，具有易于理解的 API，让您担心比构建文件上传器更重要的问题。
 
-* [digitallyinduced/ihp](https://github.com/digitallyinduced/ihp) 构建类型安全的 Web 应用的最快方法。 IHP 是一个新的包含电池的 Web 框架，针对长期生产力和程序员的幸福感进行了优化
-
 * [evanw/esbuild](https://github.com/evanw/esbuild) 带来网络构建工具性能的新时代，并在此过程中创建一个易于使用的现代捆绑器。我们的工具比其他工具的速度快 10-100 倍
 
 * [jhen0409/react-native-debugger](https://github.com/jhen0409/react-native-debugger) 基于 React Native 官方调试器的独立应用程序，包括 React Inspector / Redux DevTools
@@ -4404,13 +4394,9 @@
 
 * [adamschwartz/magic-of-css](https://github.com/adamschwartz/magic-of-css) 一门CSS课程，让你变成魔术师。
 
-* [AdrienTorris/awesome-blazor](https://github.com/AdrienTorris/awesome-blazor) Blazor 的资源，这是一个使用 C#/Razor 和 HTML 的 .NET Web 框架，可通过 WebAssembly 在浏览器中运行。
-
 * [vasanthv/talk](https://github.com/vasanthv/talk)  网络群组视频通话。没有注册。没有下载。使用 WebRTC 构建的，因此您的所有视频、音频和文本聊天都是点对点的。使用 WebRTC mesh实现的。因此，通话质量与通话人数成反比。甜蜜的数字是平均高速连接中大约 6 到 8 人。
 
 * [steven-tey/dub](https://github.com/steven-tey/dub) 一种开源链接管理工具，供现代营销团队创建、共享和跟踪短链接。
-
-* [adonisjs/core](https://github.com/adonisjs/core) 全栈 Web 框架，专注于人体工程学和速度。它解决了许多 Web 开发的麻烦，为您提供了一个干净稳定的 API 来构建 Web 应用程序和微服务。
 
 * [woai3c/visual-drag-demo](https://github.com/woai3c/visual-drag-demo) 一个低代码平台的前端部分，靠拖拉拽生成页面。
 
@@ -5037,7 +5023,7 @@
 
 * [markmead/hyperui](https://github.com/markmead/hyperui) 用于应用程序 UI、电子商务和营销的免费 Tailwind CSS 组件，支持深色模式、RTL 和 Alpine JS
 
-* [https://github.com/mapbox/mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js)  JavaScript 库，用于在 Web 上创建交互式、可自定义的矢量地图。它采用符合 Mapbox 样式规范的地图样式，将其应用于符合 Mapbox 矢量切片规范的矢量切片，并使用 WebGL 进行渲染。
+* [mapbox/mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js)  JavaScript 库，用于在 Web 上创建交互式、可自定义的矢量地图。它采用符合 Mapbox 样式规范的地图样式，将其应用于符合 Mapbox 矢量切片规范的矢量切片，并使用 WebGL 进行渲染。
 
 * [visgl/react-map-gl](https://github.com/visgl/react-map-gl) 围绕 MapboxGL（地图） JS 的 React 友好 API 包装器
 
@@ -5065,7 +5051,7 @@
 
 * [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) WebGL2 中的交互式矢量瓦片地图
 
-* [https://github.com/aurelia/framework](https://github.com/aurelia/framework) Aurelia 1 框架入口点，汇集了 Aurelia 的所有必需子模块。现代的前端 JavaScript 框架，用于构建浏览器、移动和桌面应用程序。它侧重于与 Web 平台规范紧密保持一致，使用约定而不是配置，并最大限度地减少框架入侵。基本上，我们希望你只写你的代码，而框架不会妨碍你。
+* [aurelia/framework](https://github.com/aurelia/framework) Aurelia 1 框架入口点，汇集了 Aurelia 的所有必需子模块。现代的前端 JavaScript 框架，用于构建浏览器、移动和桌面应用程序。它侧重于与 Web 平台规范紧密保持一致，使用约定而不是配置，并最大限度地减少框架入侵。基本上，我们希望你只写你的代码，而框架不会妨碍你。
 
 * [skonvajs/konva](https://github.com/konvajs/konva) HTML5 Canvas JavaScript 框架，它通过为桌面和移动应用程序启用画布交互性来扩展 2D 上下文。支持高性能动画、过渡、节点嵌套、分层、过滤、缓存、桌面和移动应用程序的事件处理等等。
 
@@ -5083,7 +5069,7 @@
 
 * [snabbdom/snabbdom](https://github.com/snabbdom/snabbdom) 一个虚拟 DOM 库，专注于简单性、模块化、强大的功能和性能。虚拟DOM真是太棒了。它允许我们将应用程序的视图表示为其状态的函数。但是现有的解决方案太臃肿，太慢，缺乏功能，API偏向于OOP，和/或缺乏我需要的功能。Snabbdom 由一个非常简单、高性能和可扩展的核心组成，该内核仅≈ 200 个 SLOC。它提供了一个模块化架构，具有丰富的功能，可以通过自定义模块进行扩展。为了保持核心的简单性，所有非必要的功能都委托给模块。
 
-* [https://github.com/shepherd-pro/shepherd](https://github.com/shepherd-pro/shepherd) Shepherd 可以轻松创建自定义用户引导之旅、培训和公告，以推动用户采用。Shepherd 使您能够引导用户完成您的应用程序或网站中的自定义游览或旅程。Shepherd 具有高度可定制性，样式极简，允许强大的自定义，同时易于使用。支持各种框架，包括 React、Ember、Angular、Vue.js、ES 模块或纯 JavaScript。
+* [shepherd-pro/shepherd](https://github.com/shepherd-pro/shepherd) Shepherd 可以轻松创建自定义用户引导之旅、培训和公告，以推动用户采用。Shepherd 使您能够引导用户完成您的应用程序或网站中的自定义游览或旅程。Shepherd 具有高度可定制性，样式极简，允许强大的自定义，同时易于使用。支持各种框架，包括 React、Ember、Angular、Vue.js、ES 模块或纯 JavaScript。
 
 * [logaretm/vee-validate](https://github.com/logaretm/vee-validate) 无痛 Vue 的表单，特征：简单：熟悉且易于设置的声明式验证；灵活：同步、异步、字段级或表单级验证；快速：使用直观的 API 和较小的占用空间更快地构建更快的表单；最小：仅处理复杂的表单问题，让您完全控制其他一切；UI 不可知：适用于本机 HTML 元素或您喜欢的 UI 库组件；渐进式：无论您是将Vue.js用作渐进式增强功能还是在复杂设置中，都有效；内置规则：具有 25+ 条规则的配套库，涵盖了大多数 Web 应用程序中的大多数需求； i18n：45+ 个内置规则语言环境，由来自世界各地的开发人员贡献
 
@@ -5099,7 +5085,7 @@
 
 * [zedeus/nitter](https://github.com/zedeus/nitter) 一个免费和开源的替代Twitter前端，专注于隐私和性能。灵感来自Invidious项目。没有 JavaScript 或广告。所有请求都通过后端，客户端从不与 Twitter 交谈。阻止 Twitter 跟踪您的 IP 或 JavaScript 指纹。使用 Twitter 的非官方 API（无需速率限制或开发者帐户）。轻量级（@nim_lang，60KB vs 784KB twitter.com）。RSS 订阅源。主题。移动支持（响应式设计）。AGPLv3 许可，不允许专有实例。
 
-* [https://github.com/didi/DoKit](https://github.com/didi/DoKit) 一款面向泛前端产品研发全生命周期的效率平台。DoKit诞生于滴滴城运服体验技术部，是一款面向泛前端产品研发全生命周期的效率平台。经过两年的发展，当前DoKit已经发展成了一个相对完整的生态，比如DoKit For Android、DoKit For iOS、DoKit For 小程序、DoKit For Flutter、DoKit For Web。同时我们的项目被BAT以及滴滴、字节、快手、京东等等头部独角兽企业广泛使用并获得良好的口碑。随着dokit.cn平台端的推出，标志着DoKit已经从单纯的效率工具正式进入了效率工具平台的阶段。与此同时我们一直都未停下持续探索的精神，积极地在更多平台领域进行尝试，不给自己设限。我们相信DoKit的未来充满无限可能。每一个稍微有点规模的 App，总会自带一些线下的测试功能代码，比如环境切换功能、帧率查看功能等等，这些功能的切换入口往往放在各式各样的入口中，比如一些特殊的手势，双击 statusBar，双击某一个功能区块，或者新建一个 keyWindow 始终至于 App 最上方等等，而且每一个 App 里面的线下附带功能模块很多是相似的，比如帧率查看、内存和 CPU 监控等等，但是现在基本上都是每个 App 都是自己实现了一份，经历了以上的问题之后，DoKit 就有了它存在的意义。DoKit 是一个功能平台，能够让每一个 App 快速接入一些常用的或者你没有实现的一些辅助开发工具、测试效率工具、视觉辅助工具，而且能够完美在 Doraemon 面板中接入你已经实现的与业务紧密耦合的一些非通有的辅助工具，并搭配我们的dokit平台，让功能得到延伸，接入方便，便于扩展。简单总结：1、DoKit 能够快速让你的业务测试代码能够在这里统一管理，统一收口；2、DoKit 内置很多常用的工具，避免重复实现，一次接入，你将会拥有强大的工具集合；3、搭配dokit平台，借助接口Mock、健康体检、文件同步助手、一机多控让你方便和他人协同，极大的提升研发过程中的效率。
+* [didi/DoKit](https://github.com/didi/DoKit) 一款面向泛前端产品研发全生命周期的效率平台。DoKit诞生于滴滴城运服体验技术部，是一款面向泛前端产品研发全生命周期的效率平台。经过两年的发展，当前DoKit已经发展成了一个相对完整的生态，比如DoKit For Android、DoKit For iOS、DoKit For 小程序、DoKit For Flutter、DoKit For Web。同时我们的项目被BAT以及滴滴、字节、快手、京东等等头部独角兽企业广泛使用并获得良好的口碑。随着dokit.cn平台端的推出，标志着DoKit已经从单纯的效率工具正式进入了效率工具平台的阶段。与此同时我们一直都未停下持续探索的精神，积极地在更多平台领域进行尝试，不给自己设限。我们相信DoKit的未来充满无限可能。每一个稍微有点规模的 App，总会自带一些线下的测试功能代码，比如环境切换功能、帧率查看功能等等，这些功能的切换入口往往放在各式各样的入口中，比如一些特殊的手势，双击 statusBar，双击某一个功能区块，或者新建一个 keyWindow 始终至于 App 最上方等等，而且每一个 App 里面的线下附带功能模块很多是相似的，比如帧率查看、内存和 CPU 监控等等，但是现在基本上都是每个 App 都是自己实现了一份，经历了以上的问题之后，DoKit 就有了它存在的意义。DoKit 是一个功能平台，能够让每一个 App 快速接入一些常用的或者你没有实现的一些辅助开发工具、测试效率工具、视觉辅助工具，而且能够完美在 Doraemon 面板中接入你已经实现的与业务紧密耦合的一些非通有的辅助工具，并搭配我们的dokit平台，让功能得到延伸，接入方便，便于扩展。简单总结：1、DoKit 能够快速让你的业务测试代码能够在这里统一管理，统一收口；2、DoKit 内置很多常用的工具，避免重复实现，一次接入，你将会拥有强大的工具集合；3、搭配dokit平台，借助接口Mock、健康体检、文件同步助手、一机多控让你方便和他人协同，极大的提升研发过程中的效率。
 
 ### 管理面板
 
@@ -5177,8 +5163,6 @@
 
 * [Lissy93/dashy](https://github.com/Lissy93/dashy) 为您构建的自托管个人仪表板。包括状态检查，小部件，主题，图标包，UI编辑器等等！
 
-
-
 ## 后端开发框架及项目
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
@@ -5186,8 +5170,6 @@
 * [swoole/swoole-src](https://github.com/swoole/swoole-src) 一个事件驱动、异步、基于协程的高性能并发库，适用于 PHP。
 
 * [celery/celery](https://github.com/celery/celery) 分布式任务队列。通过消息进行通信，通常使用代理在客户端和工作线程之间进行调解。为了启动任务，客户端将消息放入队列，然后代理将消息传递给工作线程。
-
-* [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
 
 * [humiaozuzu/awesome-flask](https://github.com/humiaozuzu/awesome-flask) 精选的 Flask 资源和插件列表
 
@@ -5214,6 +5196,34 @@
 * [labstack/echo](https://github.com/labstack/echo) 高性能、可扩展、极简的 Go Web 框架。功能：优化的HTTP路由器，智能确定路由优先级、构建强大可扩展的 RESTful API、组 API、可扩展中间件框架、在根组或路由级别定义中间件、JSON\XML 和表单有效负载的数据绑定、方便的函数，可发送各种HTTP响应、集中式 HTTP 错误处理、使用任何模板引擎进行模板渲染、定义记录器的格式、高度可定制、通过 Let's Encrypt 自动 TLS、HTTP/2 支持
 
 * [codegangsta/gin](https://github.com/codegangsta/gin) Go Web 服务器的实时重新加载实用程序
+
+* [denoland/fresh](https://github.com/denoland/fresh) 下一代 Web 框架，专为速度、可靠性和简单性而构建。一些突出的特点：边缘实时渲染。在客户端上无缝渲染某些组件，以实现最大的交互性。零运行时开销：默认情况下不向客户端发送 JS。没有构建步骤。无需配置。TypeScript 支持。文件系统路由 à la Next.js。
+
+* [tiangolo/fastapi](https://github.com/tiangolo/fastapi) 现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示使用 Python 3.7+ 构建 API。
+
+* [remix-run/remix](https://github.com/remix-run/remix) 建立更好的网站。使用 Web 基础创建现代、有弹性的用户体验。全栈 Web 框架，可让您专注于用户界面并通过 Web 基础知识进行工作，以提供快速、流畅且有弹性的用户体验，可部署到任何 Node.js 服务器甚至非 Node.js 环境像 Cloudflare Workers 一样的边缘。
+
+* [adonisjs/core](https://github.com/adonisjs/core) 全栈 Web 框架，专注于人体工程学和速度。它解决了许多 Web 开发的麻烦，为您提供了一个干净稳定的 API 来构建 Web 应用程序和微服务。
+
+* [digitallyinduced/ihp](https://github.com/digitallyinduced/ihp) 构建类型安全的 Web 应用的最快方法。 IHP 是一个新的包含电池的 Web 框架，针对长期生产力和程序员的幸福感进行了优化
+
+* [gofiber/fiber](https://github.com/gofiber/fiber) 用 Go 编写的受 Express 启发的 Web 框架
+
+* [revel/revel](https://github.com/revel/revel) 用于 Go 语言的高生产力、全栈 Web 框架。
+
+* [kataras/iris](https://github.com/kataras/iris) 最快的 HTTP/2 Go Web 框架。新颖、现代且易于学习。使用您控制的代码进行快速开发。
+
+* [sanic-org/sanic](https://github.com/sanic-org/sanic) 异步 Python 3.7+ web 框架 
+
+* [tokio-rs/axum](https://github.com/tokio-rs/axum) 符合人体工程学的模块化 Web 框架，由Tokio、Tower和Hyper构建
+
+* [gin-gonic/gin](https://github.com/gin-gonic/gin) 一个用 Go （Golang） 编写的 HTTP Web 框架。它具有类似Martini的API，性能要好得多 - 速度提高了40倍。
+
+* [SergioBenitez/Rocket](https://github.com/SergioBenitez/Rocket) Rust 的异步 Web 框架，专注于可用性、安全性、可扩展性和速度。
+
+* [AdrienTorris/awesome-blazor](https://github.com/AdrienTorris/awesome-blazor) Blazor 的资源，这是一个使用 C#/Razor 和 HTML 的 .NET Web 框架，可通过 WebAssembly 在浏览器中运行。
+
+* [arwes/arwes](https://github.com/arwes/arwes) Web 框架，用于基于未来科幻小说设计、动画和音效构建用户界面。背后的概念受到Cyberprep和Synthwave以及《星际公民》、《光环》和《创：遗产》等作品的影响。它试图激发先进的科学和技术。
 
 * [zhoutaoo/SpringCloud](https://github.com/zhoutaoo/SpringCloud) 基于SpringCloud2.1的微服务开发脚手架，整合了spring-security-oauth2、nacos、feign、sentinel、springcloud-gateway等。服务治理方面引入elasticsearch、skywalking、springboot-admin、zipkin等，让项目快速进入业务开发，而不需过多时间花费在架构搭建上。
 
@@ -5521,7 +5531,7 @@
 
 * [sebastianbergmann/phpunit](https://github.com/sebastianbergmann/phpunit) PHP 单元测试框架。它是单元测试框架的 xUnit 体系结构的一个实例。
 
-* [https://github.com/doctrine/orm](https://github.com/doctrine/orm) Doctrine ORM 是 PHP 8.1+ 的对象关系映射器，它为 PHP 对象提供透明的持久性。它位于强大的数据库抽象层 （DBAL） 之上。它的主要功能之一是可以选择使用专有的面向对象的 SQL 方言编写数据库查询，称为 Doctrine Query Language （DQL），其灵感来自 Hibernate 的 HQL。这为开发人员提供了强大的 SQL 替代方案，可以保持灵活性，而无需不必要的代码重复。
+* [doctrine/orm](https://github.com/doctrine/orm) Doctrine ORM 是 PHP 8.1+ 的对象关系映射器，它为 PHP 对象提供透明的持久性。它位于强大的数据库抽象层 （DBAL） 之上。它的主要功能之一是可以选择使用专有的面向对象的 SQL 方言编写数据库查询，称为 Doctrine Query Language （DQL），其灵感来自 Hibernate 的 HQL。这为开发人员提供了强大的 SQL 替代方案，可以保持灵活性，而无需不必要的代码重复。
 
 * [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) 一个PHP应用程序开发框架 - 一个工具包 - 适用于使用 PHP 构建网站的人。它的目标是通过为常用任务提供一组丰富的库，以及访问这些库的简单接口和逻辑结构，使你能够比从头开始编写代码更快地开发项目。
 
@@ -5563,14 +5573,15 @@
 
 * [vimeo/psalm](https://github.com/vimeo/psalm) 用于查找PHP应用程序中错误的静态分析工具
 
-* [https://github.com/barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) 将 PHP Debug Bar 与 Laravel 集成的软件包。它包括一个 ServiceProvider，用于注册调试栏并将其附加到输出。您可以通过 Laravel 发布资产并对其进行配置。它引导一些收集器与Laravel一起工作，并实现了几个特定于Laravel的自定义DataCollector。它配置为显示重定向和 （jQuery） Ajax 请求。（显示在下拉列表中）有关更多配置选项，请阅读文档。
+* [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) 将 PHP Debug Bar 与 Laravel 集成的软件包。它包括一个 ServiceProvider，用于注册调试栏并将其附加到输出。您可以通过 Laravel 发布资产并对其进行配置。它引导一些收集器与Laravel一起工作，并实现了几个特定于Laravel的自定义DataCollector。它配置为显示重定向和 （jQuery） Ajax 请求。（显示在下拉列表中）有关更多配置选项，请阅读文档。
 
-* [https://github.com/YOURLS/YOURLS](https://github.com/YOURLS/YOURLS) YOURLS 是一组 PHP 脚本，允许您在服务器上运行您自己的 短链接，URL 缩短器。您将可以完全控制您的数据、详细统计数据、分析、插件等。它是免费和开源的。
+* [YOURLS/YOURLS](https://github.com/YOURLS/YOURLS) YOURLS 是一组 PHP 脚本，允许您在服务器上运行您自己的 短链接，URL 缩短器。您将可以完全控制您的数据、详细统计数据、分析、插件等。它是免费和开源的。
 
 * [codeguy/php-the-right-way](https://github.com/codeguy/php-the-right-way) 一个易于阅读的快速参考，包括 PHP 最佳实践、公认的编码标准以及指向 Web 上权威教程的链接
 
+## 网络服务
 
-## 网络与前后端开发_其他
+### 网络爬虫
 
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
 
@@ -5592,13 +5603,21 @@
 
 * [crawlab-team/crawlab](https://github.com/crawlab-team/crawlab) 分布式爬虫管理平台，支持任何语言和框架
 
+* [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) 易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。
+
+* [binux/pyspider](https://github.com/binux/pyspider) Python中强大的蜘蛛（网络爬虫）系统。
+
+* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers)  一些非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
+
+* [Jack-Cherish/python-spider](https://github.com/Jack-Cherish/python-spider) Python3网络爬虫实战：淘宝、京东、网易云、B站、12306、抖音、笔趣阁、漫画小说下载、音乐电影下载等
+
+* [kangvcar/InfoSpider](https://github.com/kangvcar/InfoSpider) 集众多数据源于一身的爬虫工具箱，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、淘宝、支付宝、中国移动、中国联通、中国电信、知乎、哔哩哔哩、网易云音乐、QQ好友、QQ群、生成朋友圈相册、浏览器浏览历史、12306、博客园、CSDN博客、开源中国博客、简书。
+
+### 网络服务_其他
+
 * [gorhill/uBlock](https://github.com/gorhill/uBlock) 适用于 Chromium 和 Firefox 的有效拦截器。快速而精益。
 
 * [nwjs/nw.js](https://github.com/nwjs/nw.js) 直接从 DOM/WebWorker 调用所有 Node.js 模块，并启用一种使用所有 Web 技术编写应用程序的新方法。
-
-* [gofiber/fiber](https://github.com/gofiber/fiber) 用 Go 编写的受 Express 启发的 Web 框架
-
-* [revel/revel](https://github.com/revel/revel) 用于 Go 语言的高生产力、全栈 Web 框架。
 
 * [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) 配置NGINX服务器所需的唯一工具。
 
@@ -5826,15 +5845,9 @@
 
 * [KurtBestor/Hitomi-Downloader](https://github.com/KurtBestor/Hitomi-Downloader) 桌面实用程序，用于从各种网站下载图像/视频/音乐/文本等。
 
-* [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) 易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。
-
 * [scrapy/scrapy](https://github.com/scrapy/scrapy) 用于Python的快速高级Web爬行和抓取框架。用于抓取网站并从其页面中提取结构化数据。它可以用于广泛的目的，从数据挖掘到监控和自动化测试。
 
 * [caddyserver/caddy](https://github.com/caddyserver/caddy) 具有自动 HTTPS 功能的快速且可扩展的多平台 HTTP/1-2-3 Web 服务器
-
-* [binux/pyspider](https://github.com/binux/pyspider) Python中强大的蜘蛛（网络爬虫）系统。
-
-* [kataras/iris](https://github.com/kataras/iris) 最快的 HTTP/2 Go Web 框架。新颖、现代且易于学习。使用您控制的代码进行快速开发。
 
 * [jhuangtw/xg2xg](https://github.com/jhuangtw/xg2xg) 一个方便的类似技术和服务的查找表，帮助前谷歌员工在现实世界中生存，系统设计入门、Hadoop 生态系统表、将 AWS 服务映射到 GCP 产品、数据库数据库、Google 开源词汇表
 
@@ -5940,8 +5953,6 @@
 
 * [psf/requests-html](https://github.com/psf/requests-html) 使解析 HTML（例如抓取 Web）尽可能简单直观
 
-* [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers)  一些非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。
-
 * [fortra/impacket](https://github.com/fortra/impacket) 用于处理网络协议的 Python 类的集合。专注于提供对数据包的低级编程访问，对于某些协议（例如 SMB1-3 和 MSRPC），协议实现本身。数据包可以从头开始构建，也可以从原始数据中解析，面向对象的 API 使使用协议的深层层次结构变得简单。该库提供了一组工具作为示例。
 
 * [encode/httpx](https://github.com/encode/httpx) 用于 Python 3 的全功能 HTTP 客户端库。它包括一个集成的命令行客户端，支持 HTTP/1.1 和 HTTP/2，并提供同步和异步 API。
@@ -5963,8 +5974,6 @@
 * [zulip/zulip](https://github.com/zulip/zulip) 开源的团队协作工具，具有独特的基于主题的线程，结合了电子邮件和聊天的优点，使远程工作高效且令人愉快。财富 500 强公司、领先的开源项目以及数以千计的其他组织每天都在使用 Zulip。Zulip 是唯一一款专为实时和异步对话而设计的现代团队聊天应用程序。
 
 * [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) 开源自托管 Web 存档。获取 URL/浏览器历史记录/书签/Pocket/Pinboard/等，保存 HTML、JS、PDF、媒体等
-
-* [Jack-Cherish/python-spider](https://github.com/Jack-Cherish/python-spider) Python3网络爬虫实战：淘宝、京东、网易云、B站、12306、抖音、笔趣阁、漫画小说下载、音乐电影下载等
 
 * [TryGhost/Ghost](https://github.com/TryGhost/Ghost) 一款功能强大的应用程序，供专业出版商围绕其内容创建、共享和发展业务。它配备了现代工具，可以构建网站，发布内容，发送时事通讯并向会员提供付费订阅。
 
@@ -6270,11 +6279,9 @@
 
 * [roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) 基于浏览器的多语言 IMAP 客户端，具有类似应用程序的用户界面。它提供了您期望从电子邮件客户端获得的全部功能，包括 MIME 支持、地址簿、文件夹管理、邮件搜索和拼写检查。Roundcube Webmail 是用 PHP 编写的，需要 MySQL、PostgreSQL 或 SQLite 数据库。凭借其插件 API，它很容易扩展，并且用户界面可以使用皮肤完全自定义。设计用于在 Web 服务器上运行的代码主要用 PHP 和 Javascript 编写。它包括一个自定义框架，其中包含派生自 IlohaMail 的 IMAP 库，并且需要一组外部库（请参阅 composer.json 和 jsdeps.json 文件）。
 
-* [https://github.com/pallets/werkzeug](https://github.com/pallets/werkzeug) 全面的 python WSGI Web 应用程序库。它最初是 WSGI 应用程序的各种实用程序的简单集合，现已成为最先进的 WSGI 实用程序库之一。包括：一个交互式调试器，允许在浏览器中使用堆栈中任何帧的交互式解释器检查堆栈跟踪和源代码。一个功能齐全的请求对象，其中包含用于与标头、查询参数、表单数据、文件和 Cookie 交互的对象。一个响应对象，可以包装其他 WSGI 应用程序并处理流数据。用于将 URL 匹配到端点并为端点生成 URL 的路由系统，以及用于从 URL 捕获变量的可扩展系统。HTTP 实用程序，用于处理实体标记、缓存控制、日期、用户代理、cookie、文件等。在本地开发应用程序时使用的线程 WSGI 服务器。一个测试客户端，用于在测试期间模拟 HTTP 请求，而无需运行服务器。
+* [pallets/werkzeug](https://github.com/pallets/werkzeug) 全面的 python WSGI Web 应用程序库。它最初是 WSGI 应用程序的各种实用程序的简单集合，现已成为最先进的 WSGI 实用程序库之一。包括：一个交互式调试器，允许在浏览器中使用堆栈中任何帧的交互式解释器检查堆栈跟踪和源代码。一个功能齐全的请求对象，其中包含用于与标头、查询参数、表单数据、文件和 Cookie 交互的对象。一个响应对象，可以包装其他 WSGI 应用程序并处理流数据。用于将 URL 匹配到端点并为端点生成 URL 的路由系统，以及用于从 URL 捕获变量的可扩展系统。HTTP 实用程序，用于处理实体标记、缓存控制、日期、用户代理、cookie、文件等。在本地开发应用程序时使用的线程 WSGI 服务器。一个测试客户端，用于在测试期间模拟 HTTP 请求，而无需运行服务器。
 
 * [hiddify/hiddify-next](https://github.com/hiddify/hiddify-next) 多平台自动代理客户端，支持Sing-box、X-ray、TUIC、Hysteria、Reality、Trojan、SSH等。它是开源的、安全的、无广告的。
-
-* [kangvcar/InfoSpider](https://github.com/kangvcar/InfoSpider) 集众多数据源于一身的爬虫工具箱，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、淘宝、支付宝、中国移动、中国联通、中国电信、知乎、哔哩哔哩、网易云音乐、QQ好友、QQ群、生成朋友圈相册、浏览器浏览历史、12306、博客园、CSDN博客、开源中国博客、简书。
 
 * [berty/berty](https://github.com/berty/berty) 安全的点对点消息传递应用程序，无论是否具有互联网访问、蜂窝数据或网络信任，都可以使用。建立在 Wesh 协议之上的隐私优先消息传递应用程序。安全和私密：默认情况下，消息是端到端加密的；元数据保持在最低限度；创建帐户不需要电话号码或电子邮件地址；即使在对抗性网络上使用时，也能保留其属性；具有审查弹性；去中心化、分布式、点对点和无服务器；由于采用了 BLE 技术和 mDNS，因此不需要互联网连接。；永久免费和开源Berty 被设计为在所有其他传统信使失败时用作通信工具。Berty Messenger 提供以下用例：当您需要通过不受信任的网络共享敏感信息时，例如在旅行时；
 如果您想匿名交流；如果您想完全控制您的数据，因此不想依赖第三方服务器；
@@ -9840,7 +9847,7 @@
 
 * [apache/openwhisk](https://github.com/apache/openwhisk) 用于构建云应用程序的无服务器函数平台。OpenWhisk 提供了一个丰富的编程模型，用于从函数创建无服务器 API、将函数组合到无服务器工作流中，以及使用规则和触发器将事件连接到函数。OpenWhisk 也可以安装在 Kubernetes 集群上。您可以使用从公有云提供商（例如 AKS、EKS、IKS、GKE）预配的托管 Kubernetes 集群，也可以使用您自己管理的集群。此外，对于本地开发，OpenWhisk 与 Minikube 和 Kubernetes for Mac 兼容，使用 Docker 18.06（或更高版本）中内置的支持。
 
-* [https://github.com/conductor-oss/conductor](https://github.com/conductor-oss/conductor) Conductor 是一个事件驱动的编排平台，Netflix 最初创建的一个平台，用于编排微服务和事件。Conductor OSS 由 Orkes 的开发团队以及开源社区的成员共同维护。用于商业和非商业用途的 Apache-2.0 许可证。自由部署、修改和回馈。通过完全抽象的后端，您可以选择自己的数据库持久层和排队服务。企业就绪的、基于Java Spring的平台，已经在Netflix和其他地方的生产系统中进行了实战测试。强大的流控制结构，包括决策、动态分叉连接和子工作流。支持变量和模板。多种语言的客户端库允许使用 Java、Node JS、Python 和 C# 实现 worker。适用于编排器和工作线程的分布式架构，可从单个工作流扩展到数百万个并发流程。Conductor 允许您使用简单而精细的任务来构建复杂的应用程序，这些任务不需要了解或跟踪应用程序执行流的状态。Conductor 跟踪状态，按正确的顺序（按顺序或并行，由您定义）调用任务，根据需要重试调用，优雅地处理故障场景，并输出最终结果。利用 Conductor 中的工作流，开发人员能够真正专注于他们的核心任务 - 使用他们选择的语言构建他们的应用程序代码。Conductor 承担了与确保其工作流程的高可靠性、事务一致性和长期耐用性相关的繁重工作。简单地说，无论您的应用程序组件位于何处，也无论它们使用哪种语言编写，您都可以在 Conductor 中构建一个工作流，以可靠且可扩展的方式编排它们的执行。
+* [conductor-oss/conductor](https://github.com/conductor-oss/conductor) Conductor 是一个事件驱动的编排平台，Netflix 最初创建的一个平台，用于编排微服务和事件。Conductor OSS 由 Orkes 的开发团队以及开源社区的成员共同维护。用于商业和非商业用途的 Apache-2.0 许可证。自由部署、修改和回馈。通过完全抽象的后端，您可以选择自己的数据库持久层和排队服务。企业就绪的、基于Java Spring的平台，已经在Netflix和其他地方的生产系统中进行了实战测试。强大的流控制结构，包括决策、动态分叉连接和子工作流。支持变量和模板。多种语言的客户端库允许使用 Java、Node JS、Python 和 C# 实现 worker。适用于编排器和工作线程的分布式架构，可从单个工作流扩展到数百万个并发流程。Conductor 允许您使用简单而精细的任务来构建复杂的应用程序，这些任务不需要了解或跟踪应用程序执行流的状态。Conductor 跟踪状态，按正确的顺序（按顺序或并行，由您定义）调用任务，根据需要重试调用，优雅地处理故障场景，并输出最终结果。利用 Conductor 中的工作流，开发人员能够真正专注于他们的核心任务 - 使用他们选择的语言构建他们的应用程序代码。Conductor 承担了与确保其工作流程的高可靠性、事务一致性和长期耐用性相关的繁重工作。简单地说，无论您的应用程序组件位于何处，也无论它们使用哪种语言编写，您都可以在 Conductor 中构建一个工作流，以可靠且可扩展的方式编排它们的执行。
 
 # 安全与渗透
 
@@ -10322,7 +10329,7 @@
 
 ## 其他_安全与渗透
 
-* [https://github.com/NARKOZ/hacker-scripts](https://github.com/NARKOZ/hacker-scripts) 由 NARKOZ 维护的 Hacker Scripts 是一个开放源码的 GitHub 仓库，包含了各种小到大范围的脚本，涵盖了文件操作、网络监测、系统信息获取等多个领域。这些脚本大多是用 Bash 编写的，因此它们可以在任何支持 Bash 的 Unix-like 系统（如 Linux 和 macOS）上运行。在编程和黑客文化的世界中，效率是关键。GitHub 上的 Hacker Scripts 项目就是这样一个宝藏，它集合了一系列实用的 Bash 脚本，帮助开发者、系统管理员和爱好者自动化日常任务，提升工作效率。
+* [NARKOZ/hacker-scripts](https://github.com/NARKOZ/hacker-scripts) 由 NARKOZ 维护的 Hacker Scripts 是一个开放源码的 GitHub 仓库，包含了各种小到大范围的脚本，涵盖了文件操作、网络监测、系统信息获取等多个领域。这些脚本大多是用 Bash 编写的，因此它们可以在任何支持 Bash 的 Unix-like 系统（如 Linux 和 macOS）上运行。在编程和黑客文化的世界中，效率是关键。GitHub 上的 Hacker Scripts 项目就是这样一个宝藏，它集合了一系列实用的 Bash 脚本，帮助开发者、系统管理员和爱好者自动化日常任务，提升工作效率。
 
 * [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) 保护您的数字安全和隐私的精选提示清单
 
@@ -10964,6 +10971,10 @@
 
 * [syntacore/scr1](https://github.com/syntacore/scr1) 开源且免费使用的RISC-V兼容MCU级内核，由Syntacore设计和维护。它是工业级和硅验证（包括全晶圆生产），在所有主要的EDA流程和Verilator中开箱即用，并带有广泛的宣传资料和文档。
 
+* [jasonlin316/RISC-V-CPU](https://github.com/jasonlin316/RISC-V-CPU) 支持向量指令的 RISC-V 5 级流水线 CPU。使用 U18 技术流片。这是一个 32 位 5 级流水线 RISC-V CPU，支持基本指令和一些向量运算。为了流片，还要进行栅极级合成和APR。仿真由NC-verilog完成，并由Desgin Compiler合成。该芯片已于2019年12月2日进行了测试，所有功能均正常工作。
+
+* [larsbrinkhoff/awesome-cpus](https://github.com/larsbrinkhoff/awesome-cpus) 所有 CPU 和 MCU 文档都集中在一个地方。此存储库包含各种 CPU 的文档。有数据表、程序员手册、快速参考卡等。
+
 ## 硬件_其他
 
 * [zhengnianli/EmbedSummary](https://github.com/zhengnianli/EmbedSummary) 精品嵌入式资源汇总
@@ -11147,6 +11158,56 @@
 * [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) 适用于 Atmel AVR 和 Arm USB 系列的开源键盘固件
 
 * [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) 一个可扩展的实时操作系统 （RTOS），支持多种硬件架构，针对资源受限的设备进行了优化，并在构建时考虑到了安全性。Zephyr OS 基于小尺寸内核，专为资源受限系统而设计：从简单的嵌入式环境传感器和 LED 可穿戴设备到复杂的智能手表和物联网无线网关。Zephyr 内核支持多种架构，包括 ARM（Cortex-A、Cortex-R、Cortex-M）、Intel x86、ARC、Nios II、Tensilica Xtensa 和 RISC-V、SPARC、MIPS 以及大量支持的主板。
+
+* [Arduino-IRremote/Arduino-IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote) Arduino红外远程库：使用多种协议发送和接收红外信号
+
+* [arduino/arduino-cli](https://github.com/arduino/arduino-cli) Arduino CLI 是一个多合一的解决方案，它提供板/库管理器、草图构建器、板检测、上传器以及从命令行或机器界面使用任何 Arduino 兼容板和平台所需的许多其他工具。
+
+* [blynkkk/blynk-library](https://github.com/blynkkk/blynk-library) 用于物联网板的 Blynk 库。适用于 Arduino、ESP32、ESP8266、Raspberry Pi、Particle、ARM Mbed 等。Blynk 是一个独特的物联网平台，用于将任何硬件连接到云、设计应用程序来控制它们，以及大规模管理已部署的产品。使用 Blynk Library，您可以将 400 多种硬件型号（包括 ESP8266、ESP32、NodeMCU、所有 Arduinos、Raspberry Pi、Particle、Texas Instruments 等）连接到 Blynk Cloud。使用适用于 iOS 和 Android 应用程序的 Blynk 应用程序，您可以轻松地拖放任何 DIY 或商业项目的图形界面。这是一种纯粹的 WYSIWG 体验：无需在 iOS 或 Android 上编码。硬件可以使用主板上可用的硬件连接（如 ESP32）或使用各种扩展板（以太网、WiFi、GSM、LTE 等）通过 Internet 连接到 Blynk Cloud。Blynk Cloud 可供 Blynk 的每个用户免费使用。
+
+* [SpenceKonde/ATTinyCore](https://github.com/SpenceKonde/ATTinyCore) 适用于 ATtiny 1634、828、x313、x4、x41、x5、x61、x7 和 x8 的 Arduino 内核。支持通过 ISP、串行 （Optiboot） 或 VUSB （Micronucleus） 进行编程。
+
+* [MCUdude/MiniCore](https://github.com/MCUdude/MiniCore) 适用于 ATmega8、ATmega48、ATmega88、ATmega168、ATmega328 和 ATmega328PB 的 Arduino 硬件包。从 MiniCore 版本 3 及更高版本开始，Optiboot 引导加载程序已被高级 Urboot 引导加载程序所取代。它更小、更快，并具有自动波特率检测功能，并且可以读取和写入 EEPROM。引导加载程序提供但MiniCore未使用的其他很酷的功能是存储在闪存中的用户程序元数据（可以通过Avrdude -xshowall轻松查看）和芯片擦除功能。如果您已经安装了 Optiboot 并且不想将其替换为 Urboot，您仍然可以上传程序而不会出现任何兼容性问题。但是，如果您要将引导加载程序刻录到新芯片上，Urboot 是您的不二之选。
+
+* [MCUdude/MightyCore](https://github.com/MCUdude/MightyCore) 用于 ATmega8535、ATmega16、ATmega32、ATmega164、ATmega324、ATmega644 和 ATmega1284 的 Arduino 内核，均运行 Urboot 引导加载程序。大多数Arduino UNO兼容库都可以使用此内核。如果没有，移植库是相当简单的。此内核至少需要 Arduino IDE v1.6，其中建议使用 v1.8.9 或更高版本。IDE 2.x 也应该可以工作。
+
+* [feilipu/Arduino_FreeRTOS_Library](https://github.com/feilipu/Arduino_FreeRTOS_Library) 适用于所有 Arduino ATmega 设备（Uno R3、Leonardo、Mega 等）的 FreeRTOS 库。FreeRTOS 具有多种配置选项，可以从 FreeRTOSConfig.h 文件中指定这些选项。为了保持与所有Arduino硬件选项的通用性，选择了一些合理的默认值。当您获得使用 FreeRTOS 的经验时，请随意更改这些默认值。通常，ATmega 看门狗定时器用于生成 15ms 时间片（Ticks）。对于需要高精度定时的应用，滴答声可来自硬件定时器或外部时钟。在分配的时间片完成之前暂停或延迟的任务将执行还原回计划程序。
+
+* [lexus2k/ssd1306](https://github.com/lexus2k/ssd1306) 适用于在 Arduino/ESP32/Linux （Rasperry） 平台上运行的 SSD1306、SSD1331、SSD1351、IL9163、ILI9341、ST7735、PCD8544、诺基亚 5110 显示器的驱动程序。
+
+* [Bodmer/TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) Arduino 和 PlatformIO IDE 兼容 TFT 库，针对支持不同驱动芯片的 Raspberry Pi Pico （RP2040）、STM32、ESP8266 和 ESP32 进行了优化。功能丰富的Arduino IDE兼容图形和字体库，适用于32位处理器。该库面向 32 位处理器，已针对 RP2040、STM32、ESP8266 和 ESP32 类型进行了性能优化，可以使用其他 32 位处理器，但将使用较慢的通用 Arduino 接口调用。可以使用Arduino IDE的库管理器加载库。直接内存访问 （DMA） 可与带有 SPI 接口显示器的 ESP32、RP2040 和 STM32 处理器一起使用，以提高渲染性能。具有并行接口（8 位和 16 位）的 DMA 仅支持 RP2040。
+
+* [espressif/arduino-esp32](https://github.com/espressif/arduino-esp32) ESP32、ESP32-S2、ESP32-S3、ESP32-C3、ESP32-C6 和 ESP32-H2 的 Arduino 核心。ESP32 是由乐鑫设计的单 2.4 GHz Wi-Fi 和蓝牙 SoC（片上系统）。ESP32 专为移动、可穿戴电子产品和物联网 （IoT） 应用而设计。它具有低功耗芯片的所有先进特性，包括细粒度时钟门控、多种功耗模式和动态功耗调节。例如，在低功耗物联网传感器中枢应用场景中，ESP32 会定期唤醒，并且仅在检测到指定条件时才会唤醒。低占空比用于最大限度地减少芯片消耗的能量。功率放大器的输出也是可调的，因此有助于在通信范围、数据速率和功耗之间实现最佳平衡。ESP32 系列可作为芯片或模块提供。
+
+* [neu-rah/ArduinoMenu](https://github.com/neu-rah/ArduinoMenu) arduino 框架的通用菜单/交互系统，全自动或用户代码驱动的导航系统。使用此系统，您可以定义处理所有输入/输出的菜单、子菜单、输入字段和其他迭代对象，并可以作为用户迭代的结果调用用户定义的处理程序。用户函数可以作为单击/进入时调用的单个操作进行操作，也可以作为事件驱动函数响应焦点输入/输出或输入/Esc 事件。该系统被设计为一个非阻塞轮询系统，允许并发任务运行。或者，系统可以在半自动模式下运行，从用户代码发出导航命令。
+
+* [moononournation/Arduino_GFX](https://github.com/moononournation/Arduino_GFX) Arduino_GFX是一个Arduino图形库，支持具有各种数据总线接口的各种显示器。这个库从 Adafruit_GFX、LovyanGFX、TFT_eSPI、Ucglib 等开始重写
+
+* [SpacehuhnTech/esp8266_deauther](https://github.com/SpacehuhnTech/esp8266_deauther) 经济实惠的WiFi黑客平台，用于测试和学习。扫描WiFi设备，阻止选定的连接，创建数十个网络并混淆WiFi扫描仪。此固件允许您轻松执行各种操作以使用ESP8266测试 802.11 网络。这也是一个学习WiFi、微控制器、Arduino、黑客和电子/编程的好项目。取消身份验证攻击是主要功能，可用于断开设备与其WiFi网络的连接。尽管这种拒绝服务攻击并不是什么新鲜事，但许多设备仍然容易受到攻击。幸运的是，随着更多支持WiFi 6的设备的使用，这种情况正在慢慢改变。但是许多过时的WiFi设备仍然存在，例如在廉价的物联网硬件中。使用ESP8266 Deauther，您可以轻松地在2.4GHz WiFi网络/设备上测试这种攻击，看看它是否成功。如果是这样，您就知道应该升级您的网络。
+
+* [cyberman54/ESP32-Paxcounter](https://github.com/cyberman54/ESP32-Paxcounter) Wifi 和 BLE 驱动的客流计量，使用廉价的 ESP32 板。Paxcounter 是一款基于 ESP32 MCU 的设备，用于实时计量客流和多传感器数据。它计算周围有多少移动设备。这可以估计周围有多少人。Paxcounter 检测空中的 Wifi 和蓝牙信号，通过评估移动设备的 MAC 地址来关注移动设备。同时，它读取和存储来自多个连接的环境传感器的数据。这个项目的目的是在不侵犯隐私的情况下做到这一点：如果你只是想计算它们，你不需要跟踪人们拥有的设备。因此，Paxcounter不会持久存储MAC地址，也不会对扫描的设备进行指纹识别。数据可以存储在本地SD卡上，使用LoRaWAN网络（例如TheThingsNetwork或Helium）或基于TCP/IP的MQTT传输到云端，也可以使用串行（SPI）接口传输到本地主机。您可以使用 ESP32 深度睡眠模式构建此项目电池供电，并使用单个 18650 锂离子电池实现较长的正常运行时间。
+
+* [nodemcu/nodemcu-firmware](https://github.com/nodemcu/nodemcu-firmware) NodeMCU 是乐鑫基于 Lua 的开源固件，用于 ESP8266 WiFi SOC，并使用基于闪存的模块 SPIFFS 文件系统。NodeMCU 是用 C 语言实现的，并分层在乐鑫 NON-OS SDK 上。该固件最初是作为流行的基于ESP8266的 NodeMCU 开发模块的配套项目开发的，但该项目现在得到了社区的支持，并且固件现在可以在任何 ESP 模块上运行。总结：易于编程的无线节点和/或接入点；基于 Lua 5.1.4 或 Lua 5.3，但没有 debug 、 io os 和 （大多数） math 模块；异步事件驱动编程模型；超过 70 个内置 C 模块和近 20 个 Lua 模块；提供带或不带浮点支持的固件（仅整数使用较少的内存）。
+
+* [stlink-org/stlink](https://github.com/stlink-org/stlink) stlink 是一个开源工具集，用于对 STMicroelectronics 制造的 STM32 器件和电路板进行编程和调试。它支持几个所谓的STLINK编程器板（及其克隆），这些板使用微控制器芯片将命令从USB转换为JTAG/SWD。
+
+* [adam-maj/tiny-gpu](https://github.com/adam-maj/tiny-gpu) Verilog 中的最小 GPU 设计，可从头开始了解 GPU 的工作原理。内置<15个完整记录的Verilog文件，有关架构和ISA的完整文档，工作矩阵加法/乘法内核，以及对内核模拟和执行跟踪的完全支持。由于 GPU 市场竞争如此激烈，所有现代架构的低级技术细节仍然是专有的。最好的选择是通过 Miaow 和 VeriGPU 等开源 GPU 实现，并尝试弄清楚发生了什么。这是具有挑战性的，因为这些项目旨在实现功能完整和功能，因此它们非常复杂。tiny-gpu 是一个最小的 GPU 实现，针对从头开始了解 GPU 的工作原理进行了优化。具体来说，随着通用 GPU （GPGPU） 和 ML 加速器（如 Google 的 TPU）的趋势，tiny-gpu 专注于突出所有这些架构的一般原则，而不是图形特定硬件的细节。该项目主要侧重于探索：架构 - GPU 的架构是什么样的？最重要的元素是什么？并行化 - SIMD progamming 模型是如何在硬件中实现的？内存 - GPU 如何解决内存带宽有限的限制？
+
+* [jbush001/NyuziProcessor](https://github.com/jbush001/NyuziProcessor) Nyuzi 是一款实验性 GPGPU 处理器，专注于计算密集型任务。它包括用System Verilog编写的可综合硬件设计，指令集仿真器，基于LLVM 的C / C++编译器，软件库和测试。它可用于试验微架构和指令集设计权衡。
+
+* [enjoy-digital/litex](https://github.com/enjoy-digital/litex) LiteX 框架提供了一个方便高效的基础设施来创建 FPGA 内核/SoC，探索各种数字设计架构并创建完整的基于 FPGA 的系统。
+
+* [open-sdr/openwifi](https://github.com/open-sdr/openwifi) openwifi：Linux mac80211 兼容全栈 IEEE802.11/Wi-Fi 设计，基于 SDR（软件定义无线电）。此存储库包括 Linux 驱动程序和软件。openwifi-hw 存储库具有 FPGA 设计。您有责任遵守您的本地频谱法规或使用电缆来避免潜在的空中干扰。
+
+* [FPGAwars/icestudio](https://github.com/FPGAwars/icestudio) 简化开源 FPGA 的数字设计：icestudio.io。专注于 FPGA 领域新人的设计工具：第 1 步：绘制电路。第 2 步：将其上传到您喜欢的开源 FPGA 板。第 3 步：完成！
+
+* [LeiWang1999/FPGA](https://github.com/LeiWang1999/FPGA) 本项目旨在帮助大家进行FPGA的入门，分享FPGA相关的优秀文章，优秀项目。
+
+* [hughperkins/VeriGPU](https://github.com/hughperkins/VeriGPU) 开源 GPU，在 Verilog 中，松散地基于 RISC-V ISA，构建面向 ASIC 流片的开源 GPU，用于机器学习 （“ML”）。希望可以让它与 PyTorch 深度学习框架一起使用。
+
+* [fulldecent/system-bus-radio](https://github.com/fulldecent/system-bus-radio) 在没有无线电发射硬件的计算机上利用 system bus 传输AM无线电信号。有些计算机故意与世界其他地方断开连接。这包括删除他们的互联网、无线、蓝牙、USB、外部文件存储和音频功能。这称为“气隙”。即使在这种情况下，该程序也可以传输无线电。公开可用的文件已经讨论了使用各种电磁辐射从安全系统中渗透的问题。美国国家安全局和美国国防部发布的 TEMPEST 指南中对此进行了记录。这个项目只是增加了这个讨论。
+
+* [hlorenzi/customasm](https://github.com/hlorenzi/customasm) 汇编程序，允许您提供自己的自定义指令集来汇编您的源文件！例如，如果您正在尝试测试新虚拟机的字节码，或者您渴望为刚刚在 FPGA 芯片中实现的新微处理器架构编写程序，它可能很有用！
 
 # 其他项目
 
@@ -11375,8 +11436,6 @@
 
 * [giampaolo/psutil](https://github.com/giampaolo/psutil) 用于 Python 中进程和系统监控的跨平台库
 
-* [sanic-org/sanic](https://github.com/sanic-org/sanic) 异步 Python 3.7+ web 框架 
-
 * [Textualize/textual](https://github.com/Textualize/textual) 受现代Web开发启发的 Python 的 TUI（文本用户界面）框架。
 
 * [ijl/orjson](https://github.com/ijl/orjson) 支持数据类、日期时间和 numpy 的高速、准确的 Python JSON 库
@@ -11564,8 +11623,6 @@
 * [hyperium/hyper](https://github.com/hyperium/hyper) 一个 Rust 的 HTTP 库。Hyper 是一个相对低级的库，旨在成为库和应用程序的构建块。如果您正在寻找一个方便的HTTP客户端，那么您可能希望考虑reqwest。如果您不确定选择哪种HTTP服务器，那么您可能需要考虑axum或warp，后者采用更实用的方法。两者都建在这个库之上。
 
 * [seanmonstar/reqwest](https://github.com/seanmonstar/reqwest) 一个简单而强大的 Rust HTTP 客户端
-
-* [tokio-rs/axum](https://github.com/tokio-rs/axum) 符合人体工程学的模块化 Web 框架，由Tokio、Tower和Hyper构建
 
 * [seanmonstar/warp](https://github.com/seanmonstar/warp) 一个超级简单，可组合的Web服务器框架。
 
@@ -11787,8 +11844,6 @@
 
 * [alist-org/alist](https://github.com/alist-org/alist) 一个文件列表/ WebDAV程序，支持多个存储，由Gin和Solidjs提供支持。/ 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
 
-* [gin-gonic/gin](https://github.com/gin-gonic/gin) 一个用 Go （Golang） 编写的 HTTP Web 框架。它具有类似Martini的API，性能要好得多 - 速度提高了40倍。
-
 * [cosmtrek/air](https://github.com/cosmtrek/air) Go 应用的实时重新加载
 
 * [avelino/awesome-go](https://github.com/avelino/awesome-go) 精选的 Go 框架、库和软件的精选列表
@@ -11883,7 +11938,7 @@
 
 * [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) 无需 Docker 守护程序即可为您的 Java 应用构建优化的 Docker 和 OCI 映像，而无需深入了解 Docker 最佳实践。
 
-* [https://github.com/plantuml/plantuml](https://github.com/plantuml/plantuml) 从文本描述生成 UML 图。PlantUML 是一个java组件，允许您通过简单的文本描述创建各种 UML 图。从序列图到部署图等，PlantUML 提供了一种创建复杂系统的可视化表示的简单方法。支持的图表类型：时序图、用例图、类图、对象图、活动图、旧语法、组件图、部署图、状态图、时序图、JSON 数据、YAML 数据、EBNF（扩展的 Backus-Naur 形式）、正则表达式、网络图 （nwdiag）、Salt（线框图形界面或UI模型）、Archimate 图、SDL（规范和描述语言）、Ditaa 图、甘特图、年表图、思维导图、WBS（工作分解结构）、数学符号（AsciiMath、JLaTeXMath）、信息工程（IE）图、实体关系（ER）图
+* [plantuml/plantuml](https://github.com/plantuml/plantuml) 从文本描述生成 UML 图。PlantUML 是一个java组件，允许您通过简单的文本描述创建各种 UML 图。从序列图到部署图等，PlantUML 提供了一种创建复杂系统的可视化表示的简单方法。支持的图表类型：时序图、用例图、类图、对象图、活动图、旧语法、组件图、部署图、状态图、时序图、JSON 数据、YAML 数据、EBNF（扩展的 Backus-Naur 形式）、正则表达式、网络图 （nwdiag）、Salt（线框图形界面或UI模型）、Archimate 图、SDL（规范和描述语言）、Ditaa 图、甘特图、年表图、思维导图、WBS（工作分解结构）、数学符号（AsciiMath、JLaTeXMath）、信息工程（IE）图、实体关系（ER）图
 
 * [zxing/zxing](https://github.com/zxing/zxing) ZXing （“Zebra Crossing”） 适用于 Java、Android 的条码扫描库
 
@@ -12554,7 +12609,7 @@
 
 * [Universidade-Livre/ciencia-da-computacao](https://github.com/Universidade-Livre/ciencia-da-computacao) 计算机科学自学成才的途径，巴西自由大学提供的计算机科学课程是使用来自巴西的在线和葡萄牙语材料进行的完整计算机科学教育。本课程不是为特定技术的培训而设计的，也不是针对针对市场的专业技能而设计的，而是为那些希望自己的教育、高质量的、基于计算机基本概念的人设计的，专为具有纪律、承诺和（最重要的是）良好学习习惯的学生而设计，这些学生大多是独立的，但寻求巴西其他学生社区的支持。
 
-* [https://github.com/witheve/Eve](https://github.com/witheve/Eve) Eve 是一种编程语言，基于多年构建以人为本的编程平台的研究。
+* [witheve/Eve](https://github.com/witheve/Eve) Eve 是一种编程语言，基于多年构建以人为本的编程平台的研究。
 
 ## 游戏
 
