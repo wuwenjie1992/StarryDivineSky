@@ -76,6 +76,48 @@
 
 * [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) 机器学习操作 (MLOps)，可自动执行并加速机器学习生命周期。精选的参考文献列表。
 
+* [fuzzylabs/awesome-open-mlops](https://github.com/fuzzylabs/awesome-open-mlops) MLOps（机器学习操作）是一门帮助人们在生产环境中成功训练、部署和运行机器学习模型的学科。因为这是一个快速发展的新领域，所以有很多工具，而且新的工具一直在出现。这是 Fuzzy Labs 指南，介绍了免费和开源 MLOps 工具的世界。
+
+* [kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops) 精选的精彩 MLOps 工具列表。包括：AutoML 自动机器学习
+CI/CD for Machine Learning
+用于机器学习的 CI/CD
+Cron Job Monitoring Cron作业监控
+Data Catalog 数据目录
+Data Enrichment 数据扩充
+Data Exploration 数据探索
+Data Management 数据管理
+Data Processing 数据处理
+Data Validation 数据验证
+Data Visualization 数据可视化
+Drift Detection 漂移检测
+Feature Engineering 特征工程
+Feature Store 功能商店
+Hyperparameter Tuning 超参数调优
+Knowledge Sharing 知识共享
+Machine Learning Platform
+机器学习平台
+Model Fairness and Privacy
+模型公平性和隐私性
+Model Interpretability 模型可解释性
+Model Lifecycle 模型生命周期
+Model Serving 模型服务
+Model Testing & Validation
+模型测试和验证
+Optimization Tools 优化工具
+Simplification Tools 简化工具
+Visual Analysis and Debugging
+可视化分析与调试
+Workflow Tools 工作流工具
+Resources 资源
+Articles 文章
+Books 书
+Events 事件
+Other Lists 其他列表
+Podcasts 播客
+Slack 松弛
+Websites 网站链接
+Contributing 贡献
+
 * [fengdu78/lihang-code](https://github.com/fengdu78/lihang-code) 《统计学习方法》第二版的代码实现
 
 * [Dod-o/Statistical-Learning-Method_Code](https://github.com/Dod-o/Statistical-Learning-Method_Code) 实现李航《统计学习方法》中全部算法 
@@ -919,6 +961,10 @@
 * [PAIR-code/facets](https://github.com/PAIR-code/facets) 包含两个用于理解和分析机器学习数据集的可视化效果：Facets Overview 和 Facets Dive。可视化作为 Polymer Web 组件实现，由 Typescript 代码提供支持，可以轻松嵌入到 Jupyter 笔记本或网页中。
 
 * [lmcinnes/umap](https://github.com/lmcinnes/umap) 均匀流形近似和投影 （UMAP ,Uniform Manifold Approximation and Projection） 是一种降维技术，可用于类似于 t-SNE 的可视化，但也可用于一般的非线性降维。该算法建立在关于数据的三个假设之上：数据均匀分布在黎曼流形上;黎曼度量是局部常数（或可以近似）;流形是本地连接的。根据这些假设，可以对具有模糊拓扑结构的流形进行建模。通过搜索具有最接近的等效模糊拓扑结构的数据的低维投影来找到嵌入。
+
+* [D-X-Y/Awesome-AutoDL](https://github.com/D-X-Y/Awesome-AutoDL) 自动化深度学习：神经架构搜索不是终点（AutoDL 资源精选列表和深入分析）。自动化深度学习相关资源的精选列表。灵感来自令人敬畏的深度愿景、令人敬畏的对抗性机器学习、令人敬畏的深度学习论文和令人敬畏的架构搜索。
+
+* [merrymercy/awesome-tensor-compilers](https://github.com/merrymercy/awesome-tensor-compilers) 张量计算和深度学习的出色编译器项目和论文列表。
 
 # NLP自然语言处理
 
@@ -6305,6 +6351,8 @@
 
 * [JeffreySu/WeiXinMPSDK](https://github.com/JeffreySu/WeiXinMPSDK) 微信全平台 .NET SDK， Senparc.Weixin for C#，支持 .NET Framework 及 .NET Core、.NET 8.0。已支持微信公众号、小程序、小游戏、微信支付、企业微信/企业号、开放平台、JSSDK、微信周边等全平台。 WeChat SDK for C#.
 
+* [grpc-ecosystem/awesome-grpc](https://github.com/grpc-ecosystem/awesome-grpc) gRPC 有用资源的精选列表。gRPC 是一个现代开源高性能远程过程调用 （RPC） 框架，可以在任何环境中运行。它可以有效地连接数据中心内和数据中心之间的服务，并提供对负载均衡、跟踪、运行状况检查和身份验证的可插拔支持。它也适用于分布式计算的最后一英里，将设备、移动应用程序和浏览器连接到后端服务。简单的服务定义：使用协议缓冲区定义服务，这是一种强大的二进制序列化工具集和语言。快速启动并扩展：使用单行安装运行时和开发环境，并使用该框架扩展到每秒数百万个 RPC。跨语言和平台工作：以各种语言和平台为您的服务自动生成惯用的客户端和服务器存根。双向流式处理和集成身份验证：双向流式处理和完全集成的可插拔身份验证，具有基于 HTTP/2 的传输。
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -6400,6 +6448,10 @@
 * [web3/web3.js](https://github.com/web3/web3.js) 以太坊 JSON RPC API 和相关工具的 TypeScript 实现，由 ChainSafe Systems 维护。
 
 * [fltenwall/web3-awesome](https://github.com/fltenwall/web3-awesome) web3百科全书， 打造 web3 全球第一中文资源
+
+* [iptv-org/awesome-iptv](https://github.com/iptv-org/awesome-iptv) 与IPTV相关的资源精选列表。
+
+* [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。被称为赛博菩萨的 Cloudflare 提供内容交付网络 （CDN） 服务、DDoS 缓解、互联网安全和分布式域名服务器 （DNS） 服务，位于访问者和 Cloudflare 用户的托管提供商之间，充当网站的反向代理。内容：图床、邮箱、博客、短链、网站分析、隧道、加速、文件分享、测速、监控、文章、其他、教程。
 
 # 推荐系统
 
@@ -9343,6 +9395,10 @@
 
 * [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) 开源的云原生分布式SQL数据库。
 
+* [madd86/awesome-system-design](https://github.com/madd86/awesome-system-design) 分布式计算（又名大数据）的精彩系统设计文章、视频和资源的精选列表。无论您是在准备面试，还是想设计面向分布式/微服务的应用程序，此列表都一定会帮助您实现这一目标。
+
+* [dhamaniasad/awesome-postgres](https://github.com/dhamaniasad/awesome-postgres) 受 awesome-mysql 启发的出色 PostgreSQL 软件、库、工具和资源的精选列表。PostgreSQL，通常简称为 Postgres，是一个对象关系数据库 （ORDBMS）。PostgreSQL 符合 ACID 标准且具有事务性。内容：高可用性、备份、图形用户界面、分布式、命令行界面、服务器、监测、扩展、优化、工具、语言绑定、PaaS（PostgreSQL 即服务）、Docker 镜像、资源、教程、博客、文章、文档、通讯、视频、社区、路线图。
+
 * [wangzhiwubigdata/God-Of-BigData](https://github.com/wangzhiwubigdata/God-Of-BigData) 专注大数据学习面试，大数据成神之路开启。Flink/Spark/Hadoop/Hbase/Hive...
 
 * [apache/spark](https://github.com/apache/spark) 用于大规模数据处理的统一分析引擎。它提供了 Scala、Java、Python 和 R 中的高级 API，以及支持用于数据分析的一般计算图的优化引擎。它还支持一组丰富的高级工具，包括用于SQL和数据帧的Spark SQL，用于pandas工作负载的Spark上的pandas API，用于机器学习的MLlib，用于图形处理的GraphX和用于流处理的结构化流。
@@ -9711,6 +9767,8 @@
 
 * [SeaQL/sea-orm](https://github.com/SeaQL/sea-orm) 关系型 ORM，可帮助您在熟悉动态语言的情况下在 Rust 中构建 Web 服务。
 
+* [fenixsoft/awesome-fenix](https://github.com/fenixsoft/awesome-fenix) 这是一部以“如何构建一套可靠的分布式大型软件系统”为叙事主线的开源文档，是一幅帮助开发人员整理现代软件架构各条分支中繁多知识点的技能地图。文章《什么是“凤凰架构”》详细阐述了这部文档的主旨、目标与名字的来由，文章《如何开始》简述了文档每章讨论的主要话题与内容详略分布，供阅前参考。除文档部分外，笔者同时还建立了若干配套的代码工程，这是针对不同架构、技术方案（如单体架构、微服务、服务网格、无服务架构，等等）的演示程序。它们既是文档中所述知识的实践示例，亦可作为实际项目新创建时的可参考引用的基础代码。
+
 # 云&虚拟化
 
 * [istio/istio](https://github.com/istio/istio) 开源服务网格，透明地分层到现有的分布式应用程序上。Istio 的强大功能提供了一种统一且更高效的方式来保护、连接和监控服务。Istio 是负载均衡、服务到服务身份验证和监控的途径，只需很少或无需更改服务代码。
@@ -9849,6 +9907,8 @@
 
 * [conductor-oss/conductor](https://github.com/conductor-oss/conductor) Conductor 是一个事件驱动的编排平台，Netflix 最初创建的一个平台，用于编排微服务和事件。Conductor OSS 由 Orkes 的开发团队以及开源社区的成员共同维护。用于商业和非商业用途的 Apache-2.0 许可证。自由部署、修改和回馈。通过完全抽象的后端，您可以选择自己的数据库持久层和排队服务。企业就绪的、基于Java Spring的平台，已经在Netflix和其他地方的生产系统中进行了实战测试。强大的流控制结构，包括决策、动态分叉连接和子工作流。支持变量和模板。多种语言的客户端库允许使用 Java、Node JS、Python 和 C# 实现 worker。适用于编排器和工作线程的分布式架构，可从单个工作流扩展到数百万个并发流程。Conductor 允许您使用简单而精细的任务来构建复杂的应用程序，这些任务不需要了解或跟踪应用程序执行流的状态。Conductor 跟踪状态，按正确的顺序（按顺序或并行，由您定义）调用任务，根据需要重试调用，优雅地处理故障场景，并输出最终结果。利用 Conductor 中的工作流，开发人员能够真正专注于他们的核心任务 - 使用他们选择的语言构建他们的应用程序代码。Conductor 承担了与确保其工作流程的高可靠性、事务一致性和长期耐用性相关的繁重工作。简单地说，无论您的应用程序组件位于何处，也无论它们使用哪种语言编写，您都可以在 Conductor 中构建一个工作流，以可靠且可扩展的方式编排它们的执行。
 
+* [akuity/awesome-argo](https://github.com/akuity/awesome-argo) Argo 由一组用于在 Kubernetes 上部署和运行应用程序和工作负载的开源工具组成，包括：Argo 工作流：支持 DAG 和基于步骤的工作流的 Kubernetes 原生工作流引擎。Argo CD：具有完整加载 UI 的声明式持续交付。Argo Rollouts：Canary 和 Blue-Green 等高级 Kubernetes 部署策略变得简单。Argo Events：Kubernetes 基于事件的依赖项管理。项目包括：生态系统项目、书、博客文章、视频认证、社区等。
+
 # 安全与渗透
 
 ## 扫描器、资产收集、子域名
@@ -9890,6 +9950,8 @@
 * [zhzyker/vulmap](https://github.com/zhzyker/vulmap/) web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能
 
 * [Lissy93/web-check](https://github.com/Lissy93/web-check) 用于分析任何网站的多合一 OSINT 工具
+
+* [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint) 一个令人敬畏的开源智能工具和资源的精选列表。开源情报 （OSINT） 是从公开来源收集的情报。在情报界 （IC） 中，“公开”一词是指公开的、公开的来源（而不是隐蔽或秘密的来源）。此列表旨在帮助所有从事网络威胁情报 （CTI）、威胁搜寻或 OSINT 的人。从初学者到高级。目录：一般搜索、主要国家搜索引擎、元搜索、专业搜索引擎、可视化搜索和聚类搜索引擎、类似网站搜索、文档和幻灯片搜索、文件搜索、Pastebins、代码搜索、主要社交网络、实时搜索、社交媒体搜索和通用社交媒体工具、社交媒体工具、Twitter、脸书、Instagram、Pinterest、Reddit 、VKontakte、Tumblr、LinkedIn、Telegram、博客搜索、论坛和讨论区搜索、用户名检查、人员调查、电子邮件搜索/电子邮件检查、电话号码研究、车辆/汽车研究、专家搜索、公司研究、求职资源、问答网站、领域和知识产权研究、关键词发现和研究、网络历史记录和网站捕获、语言工具、图像搜索、图像分析、视频搜索和其他视频工具、学术资源和灰色文献、地理空间研究和制图工具、新闻、新闻摘要和发现工具、事实核查、数据与统计、网络监控、浏览器、线浏览、VPN服务、信息图表和数据可视化、社交网络分析、隐私和加密工具、DNS、其他工具、威胁情报、OSINT 视频、OSINT 博客、其他资源、相关精彩列表
 
 * [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch) 暴力破解网络服务器的目录和文件，网络路径扫描器
 
@@ -9983,6 +10045,8 @@
 
 * [graynjo/Heimdallr](https://github.com/graynjo/Heimdallr) 完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗
 
+* [paralax/awesome-honeypots](https://github.com/paralax/awesome-honeypots) 一个精选的很棒的蜜罐列表，以及相关组件等等，分为 Web、服务等类别，重点是免费和开源项目。包括：数据库蜜罐、网络蜜罐、服务蜜罐、分布式蜜罐、反蜜罐的东西、 ICS/SCADA蜜罐、僵尸网络 C2 工具、IPv6 攻击检测工具、动态代码检测工具包、将网站转换为服务器蜜罐的工具、恶意软件收集器、分布式传感器部署、网络分析工具、日志匿名器、低交互蜜罐（路由器后门）、Honeynet Farm 流量重定向器、HTTPS 代理、用于 USB 传播恶意软件的蜜罐、被动网络审计框架解析器、VM 监控和工具、二进制调试器、移动分析工具、低交互蜜罐、SSH 蜜罐等。
+
 * [StarCrossPortal/scalpel](https://github.com/StarCrossPortal/scalpel) 命令行漏洞扫描工具，支持深度参数注入，拥有一个强大的数据解析和变异算法，可以将常见的数据格式（json, xml, form等）解析为树结构，然后根据poc中的规则，对树进行变异，包括对叶子节点和树结构 的变异。变异完成之后，将树结构还原为原始的数据格式。
 
 * [dark-kingA/superSearchPlus](https://github.com/dark-kingA/superSearchPlus) 谷歌插件版本- 聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 js敏感信息提取 注释资源扫描 目录扫描 整合了目前常见的资产测绘平台 同时支持数据导出
@@ -10013,6 +10077,8 @@
 
 * [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) API、CLI 和 Web 应用程序，用于在 1000 个社交媒体\网站中分析和查找个人的个人资料
 
+* [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) 令人敬畏的威胁情报，威胁情报的简明定义：基于证据的知识，包括背景、机制、指标、影响和可操作的建议，涉及对资产的现有或新出现的威胁或危害，可用于为有关主体对该威胁或危害的响应提供决策信息。下面列出的大多数资源都提供了列表和/或 API，以获取（希望）有关威胁的最新信息。有些人认为这些来源是威胁情报，但意见不一。要创建真正的威胁情报，需要一定数量的（特定于域或业务的）分析。
+
 * [fastfire/deepdarkCTI](https://github.com/fastfire/deepdarkCTI) 从深网和暗网收集网络威胁情报来源
 
 * [CISOfy/lynis](https://github.com/CISOfy/lynis) 适用于Linux，macOS和基于UNIX的系统的安全审计工具.协助进行一致性测试（HIPAA/ISO27001/PCI DSS）和系统强化。无代理，安装可选。它执行深入的安全扫描并在系统本身上运行。主要目标是测试安全防御，并为进一步强化系统提供提示。它还将扫描常规系统信息、易受攻击的软件包和可能的配置问题。系统管理员和审计人员通常使用 Lynis 来评估其系统的安全防御。除了“蓝队”之外，如今渗透测试人员的工具包中也有 Lynis。
@@ -10020,6 +10086,8 @@
 * [future-architect/vuls](https://github.com/future-architect/vuls) 适用于 Linux、FreeBSD、容器、WordPress、编程语言库、网络设备的无代理漏洞扫描程序
 
 * [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler) 适用于 AWS、Azure 和 GCP 的开源安全工具，用于执行云安全最佳实践评估、审计、事件响应、合规性、持续监控、强化和取证准备。包括 CIS、NIST 800、NIST CSF、CISA、FedRAMP、PCI-DSS、GDPR、HIPAA、FFIEC、SOC2、GXP、Well-Architected Security、ENS 等。
+
+* [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) 安全事件响应工具和资源的精选列表，旨在帮助安全分析师和 DFIR 团队。数字取证和事件响应 （DFIR） 团队是组织中负责管理安全事件响应的人员组，包括收集事件证据、修正其影响以及实施控制措施以防止事件在未来再次发生。内容：对手仿真、多合一工具、书、社区、磁盘映像创建工具、证据收集、事件管理、知识库、Linux 发行版、Linux 证据收集、日志分析、内存分析、内存成像工具、OSX 证据收集、其他列表、其他工具、剧本、进程转储工具、沙盒/反转工具、扫描仪工具、时间轴工具、视频、Windows 证据收集
 
 * [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) Zed 攻击代理 （ZAP） 是世界上最受欢迎的免费安全工具之一，由专门的国际志愿者团队积极维护。它可以帮助您在开发和测试应用程序时自动查找 Web 应用程序中的安全漏洞。对于有经验的渗透测试人员来说，它也是一个很好的工具，可以用于手动安全测试。
 
@@ -11208,6 +11276,8 @@
 * [fulldecent/system-bus-radio](https://github.com/fulldecent/system-bus-radio) 在没有无线电发射硬件的计算机上利用 system bus 传输AM无线电信号。有些计算机故意与世界其他地方断开连接。这包括删除他们的互联网、无线、蓝牙、USB、外部文件存储和音频功能。这称为“气隙”。即使在这种情况下，该程序也可以传输无线电。公开可用的文件已经讨论了使用各种电磁辐射从安全系统中渗透的问题。美国国家安全局和美国国防部发布的 TEMPEST 指南中对此进行了记录。这个项目只是增加了这个讨论。
 
 * [hlorenzi/customasm](https://github.com/hlorenzi/customasm) 汇编程序，允许您提供自己的自定义指令集来汇编您的源文件！例如，如果您正在尝试测试新虚拟机的字节码，或者您渴望为刚刚在 FPGA 芯片中实现的新微处理器架构编写程序，它可能很有用！
+
+* [HQarroum/awesome-iot](https://github.com/HQarroum/awesome-iot) 精选的物联网项目和资源列表。目录：硬件、软件、操作系统、编程语言、框架、中间件、库和工具、杂项、协议和网络、技术、标准和联盟、资源、书、文章、文件
 
 # 其他项目
 
@@ -12611,6 +12681,16 @@
 
 * [witheve/Eve](https://github.com/witheve/Eve) Eve 是一种编程语言，基于多年构建以人为本的编程平台的研究。
 
+* [ocaml-community/awesome-ocaml](https://github.com/ocaml-community/awesome-ocaml) 精选的 OCaml 工具、框架、库和文章的参考资料列表。此外，还有一系列免费提供的书籍、论文和演示文稿。
+
+* [qinwf/awesome-R](https://github.com/qinwf/awesome-R) 精选的 R 包和工具列表。灵感来自令人敬畏的机器学习。包括：集成开发环境、语法、数据操作、图形显示、Html 小部件、可重复的研究、网络技术和服务、并行计算、高性能、语言 API、数据库管理、机器学习、自然语言处理、贝 叶 斯、优化、金融、生物信息学和生物统计学、网络分析、空间、R 开发、日志、数据包、其他工具、其他引擎、R学习、资源、网站链接、书、播客、参考卡、慕课、列表、其他精彩列表、贡献
+
+* [aalhour/awesome-compilers](https://github.com/aalhour/awesome-compilers) 编译器、解释器和运行时领域的精彩资源、学习材料、工具、框架、平台、技术和源代码项目的精选列表。这份名单偏向于教育。
+
+* [mezod/awesome-indie](https://github.com/mezod/awesome-indie) 帮助独立开发者赚钱的资源。从自己的代码中赚钱从未如此简单，但仍然很难。在这里，我尝试整理一份资源列表，以帮助每个有兴趣从他们的数字产品中赚钱的人获得灵感并尝试一下。无论是将副业货币化、引导商业理念等。项目不需要很大，实际上，如果它们不需要，那就更好了，它们只需要有利可图。他们可能会在最初的大部分工作后提供被动收入，谁知道呢，甚至可能帮助您实现财务独立。独立游戏确实有很多生活方式的好处:)所有这些资源可能有助于激励你，让你走上正确的轨道，但最终重要的是制作和尝试东西。因此，请负责任地吞噬这些内容:)
+
+* [awesome-developer-streams](https://github.com/bnb/awesome-developer-streams) 灵感来自令人敬畏的列表，专注于开发人员 + 流媒体。精选优秀开发人员直播列表的网站。这个列表由社区维护，旨在为那些对编程和技术感兴趣的人提供丰富多样的内容。网站上的内容分为多个部分，包括：A 到 Z 的字母顺序排列的开发人员列表。数字列表，展示了一些特定的开发人员及其专长。流媒体平台 Twitch 的目录列表，方便用户快速找到感兴趣的内容。在列表中，你可以找到开发人员们的名字、他们的直播主题、使用的编程语言和框架、以及他们开发的流媒体平台。这些开发人员来自不同的背景，有的是独立开发者，有的是企业工程师，他们通过直播分享自己的知识、项目开发过程、以及编码技巧等。
+
 ## 游戏
 
 * [raysan5/raylib](https://github.com/raysan5/raylib) 一个简单易用的视频游戏编程库 
@@ -13298,5 +13378,11 @@
 * [jbogard/MediatR](https://github.com/jbogard/MediatR) .NET 中的简单调解器实现，没有依赖关系的进程内消息传递。支持请求/响应、命令、查询、通知和事件，同步和异步，并通过 C# 泛型差异进行智能调度。
 
 * [Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges) Markdown 徽章，将徽章添加到您的个人资料和项目。个人开发人员品牌、个人资料和项目的徽章。
+
+* [rossant/awesome-math](https://github.com/rossant/awesome-math) 精选的精彩数学资源列表。内容：一般资源、学习平台、学会学习、Youtube系列、工具、问题和答案、百科全书、书、杂志、博客、杂项、数学分支、数学基础、过渡到纯粹的严谨数学、集合论、逻辑、范畴理论、类型理论、同伦类型理论、超现实数字、数论、代数数论、解析数论、代数、抽象代数、群论、线性代数、环理论、伽罗瓦理论、代数、组合数学、图论、几何和拓扑、微分几何、代数几何、代数统计、拓扑学、代数拓扑、分析、实分析、谐波分析、复杂分析、泛函分析、测量理论、常微分方程、偏微分方程、概率与统计、概率论、统计学、统计学习、随机过程、数值分析、信号处理、计算机科学数学、数学生物学、数学物理、学生讲义、相关精彩列表、许可证。
+
+* [sshuair/awesome-gis](https://github.com/sshuair/awesome-gis) 地理空间相关资源的集合，包括制图工具、地理分析工具、开发人员工具、数据、会议和社区、新闻、大规模开放在线课程、一些令人惊叹的地图站点等。
+
+* [sacridini/Awesome-Geospatial](https://github.com/sacridini/Awesome-Geospatial) 一长串地理空间分析工具。地理空间分析，或简称空间分析，是一种将统计分析和其他分析技术应用于具有地理或空间方面的数据的方法。
 
 # end
