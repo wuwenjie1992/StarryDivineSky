@@ -650,6 +650,8 @@
 
 * [microsoft/PersonalizedFL](https://github.com/microsoft/PersonalizedFL) 面向研究的个性化联邦学习代码库
 
+* [microsoft/DeepSpeedExamples](https://github.com/microsoft/DeepSpeedExamples) 此存储库包含各种示例，包括训练、推理、压缩、基准测试和使用 DeepSpeed 的应用程序。
+
 ## 其他_机器学习与深度学习
 
 * [JuliaLang/julia](https://github.com/JuliaLang/julia) 用于科学计算的高级、高性能动态语言。
@@ -935,6 +937,8 @@
 * [amusi/AI-Job-Notes](https://github.com/amusi/AI-Job-Notes) AI算法岗求职攻略：涵盖校招时间表、准备攻略、刷题指南、内推、AI公司清单和答疑等资料。AI算法岗方向涉及：AIGC、大模型、深度学习、机器学习、计算机视觉、自然语言处理、图像处理、自动驾驶、元宇宙、AIGC、SLAM等。
 
 * [poloclub/cnn-explainer](https://github.com/poloclub/cnn-explainer) 使用交互式可视化学习卷积神经网络。
+
+* [modelscope/modelscope](https://github.com/modelscope/modelscope) ModelScope 建立在“模型即服务”（MaaS） 的概念之上。它旨在汇集来自人工智能社区的最先进的机器学习模型，并简化在实际应用中利用人工智能模型的过程。此存储库中开源的核心 ModelScope 库提供了允许开发人员执行模型推理、训练和评估的接口和实现。特别是，ModelScope 库具有丰富的 API 抽象层，可提供统一的体验，以探索跨 CV、NLP、语音、多模态和科学计算等领域的最先进模型。不同领域的模型贡献者可以通过分层 API 将模型集成到 ModelScope 生态系统中，从而轻松统一地访问他们的模型。集成后，只需几行代码即可完成模型推理、微调和评估。同时，还提供了灵活性，以便在必要时可以定制模型应用程序中的不同组件。除了包含各种不同模型的实现外，ModelScope 库还支持与 ModelScope 后端服务进行必要的交互，尤其是与 Model-Hub 和 Dataset-Hub 的交互。这种交互有助于在后台无缝执行各种实体（模型和数据集）的管理，包括实体查找、版本控制、缓存管理等。
 
 # NLP自然语言处理
 
@@ -1339,6 +1343,8 @@
 * [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) 以数据为中心的 FinGPT。开源开放金融！革新
 
 * [EleutherAI/gpt-neox](https://github.com/EleutherAI/gpt-neox) 在GPU上训练大规模语言模型。基于 NVIDIA 的威震天语言模型，并已通过 DeepSpeed 的技术以及一些新颖的优化进行了增强。目标是使这个存储库成为一个集中且可访问的地方，以收集用于训练大规模自回归语言模型的技术，并加速对大规模训练的研究。
+
+* [google/gemma_pytorch](https://github.com/google/gemma_pytorch) Gemma 是一个轻量级、最先进的开放模型系列，由用于创建 Google Gemini 模型的研究和技术构建而成。它们是文本到文本、仅解码器的大型语言模型，提供英语版本，具有开放权重、预训练变体和指令调整变体。这是 Gemma 模型的官方 PyTorch 实现。我们使用 PyTorch 和 PyTorch/XLA 提供模型和推理实现，并支持在 CPU、GPU 和 TPU 上运行推理。
 
 * [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm) 文心一言的开源版，基于 ChatGLM + Visual ChatGPT + Stable Diffusion
 
@@ -1934,9 +1940,9 @@
 
 * [TheoKanning/openai-java](https://github.com/TheoKanning/openai-java) 用于使用 OpenAI 的 GPT API 的 Java 库。支持 GPT-3、ChatGPT 和 GPT-4。
 
-* [langgenius/dify](https://github.com/langgenius/dify) 开源助手 API 和 GPT 的替代方案。Dify.AI 是一个 LLM 应用程序开发平台。它集成了后端即服务和 LLMOps 的概念，涵盖了构建生成式 AI 原生应用程序所需的核心技术堆栈，包括内置的 RAG 引擎。
+* [langgenius/dify](https://github.com/langgenius/dify) 开源助手 API 和 GPT 的替代方案。Dify.AI 是一个 LLM 应用程序开发平台。它集成了后端即服务和 LLMOps 的概念，涵盖了构建生成式 AI 原生应用程序所需的核心技术堆栈，包括内置的 RAG 引擎。其直观的界面结合了 AI 工作流程、RAG 管道、代理功能、模型管理、可观测性功能等，让您快速从原型到生产。以下是核心功能列表：1. 工作流：利用以下所有功能及其他功能，在可视化画布上构建和测试强大的 AI 工作流。2. 全面的模型支持：与LLMs来自数十家推理提供商和自托管解决方案的数百个专有/开源无缝集成，涵盖 GPT、Mistral、Llama3 和任何兼容 OpenAI API 的模型。可以在此处找到受支持的模型提供程序的完整列表。3. 提示 IDE：直观的界面，用于制作提示、比较模型性能以及向基于聊天的应用程序添加文本转语音等附加功能。4. RAG Pipeline：广泛的 RAG 功能，涵盖从文档摄取到检索的所有内容，开箱即用地支持从 PDF、PPT 和其他常见文档格式中提取文本。5. 代理能力：您可以基于LLM函数调用或 ReAct 定义代理，并为代理添加预建或自定义工具。Dify 为 AI 代理提供 50+ 内置工具，如 Google Search、DELL·E， Stable Diffusion 和 WolframAlpha.6. LLMOps：监控和分析应用程序日志和性能随时间的变化。您可以根据生产数据和注释不断改进提示、数据集和模型。7. 后端即服务：Dify 的所有产品都带有相应的 API，因此您可以毫不费力地将 Dify 集成到您自己的业务逻辑中。
 
-* [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) 一个开源的 ChatGPT UI。
+* [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) 一个开源的 ChatGPT UI。支持很多大模型的 AI 聊天。使用了nextjs、Supabase。
 
 * [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) 用于大型语言模型的 Gradio Web UI。支持变压器，GPTQ，AWQ，EXL2，llama.cpp（GGUF），Llama模型。
 
@@ -3545,6 +3551,90 @@
 * [alipay/RJU_Ant_QA](https://github.com/alipay/RJU_Ant_QA) RJUA-QA（仁济医院泌尿外科和蚂蚁集团协作问答数据集）是一个创新的泌尿外科医学专业QA推理数据集。
 
 * [houbb/sensitive-word](https://github.com/houbb/sensitive-word) 敏感词/违禁词/违法词/脏词。基于 DFA 算法实现的高性能 java 敏感词过滤工具框架。请勿发布涉及政治、广告、营销、翻墙、违反国家法律法规等内容。高性能敏感词检测过滤组件，附带繁体简体互换，支持全角半角互换，汉字转拼音，模糊搜索等功能。
+
+* [RyokoAI/Fandom23K](https://huggingface.co/datasets/RyokoAI/Fandom23K) Fandom23K是一个数据集，由2023年3月14日至3月18日期间从大约23,665个 Fandom.com wiki抓取的15,616,749篇文章组成。它是即将推出的 BigKnow2022 数据集的一个子集。语言：英语。
+
+* [RyokoAI/Honeyfeed3600](https://huggingface.co/datasets/RyokoAI/Honeyfeed3600) Honeyfeed3600 是一个数据集，由英语网络小说网站 Honeyfeed 上发布的大约 3,600 个系列的 38,000 多个章节的文本组成。语言：英语。
+
+* [RyokoAI/CNNovel125K](https://huggingface.co/datasets/RyokoAI/CNNovel125K) CNNovel125K是一个数据集，由从中国小说托管网站 http://ibiquw.com 下载的大约125,000部小说组成。
+
+* [RyokoAI/ScribbleHub17K](https://huggingface.co/datasets/RyokoAI/ScribbleHub17K) ScribbleHub17K 是一个数据集，由原始故事共享网站 Scribble Hub 上发布的大约 17,500 个系列的 373,000 多个章节的文本组成。语言：英语。
+
+* [statmt/cc100](https://huggingface.co/datasets/statmt/cc100) 该语料库试图重新创建用于训练 XLM-R 的数据集。该语料库包括 100+ 种语言的单语数据，还包括罗马化语言的数据（用 *_rom 表示）。这是使用 CC-Net 存储库通过处理 2018 年 1 月至 12 月的 Commoncrawl 快照提供的 url 和段落索引构建的。CC-100 主要用于预训练语言模型和单词表示。语言：多语言。
+
+* [uonlp/CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) 庞大的多语言数据集，拥有 167 种语言的 6.3 万亿个代币，专为大型语言模型 （LLM） 开发量身定制。我们的数据集通过严格的多阶段流水线进行细致的清理和重复数据删除，以实现模型训练的最佳质量，包括语言识别、基于 URL 的过滤、基于指标的清洗、文档细化和重复数据删除。我们在文档级别使用 MinHash 来实现不同语言数据集的模糊重复数据删除。我们的数据清理框架包括多种标准和阈值选择，以大量数据样本为指导，确保在各个方面进行全面的噪声过滤。CulturaX 在 HuggingFace 中完全向公众发布，以促进多语言的研究和进步LLMs。我们的数据集结合了 mC4（3.1.0 版）[1] 的最新版本和截至今年的所有可访问的 OSCAR 语料库，包括 20.19、21.09、22.01 和 23.01 [2]。经过深度清理和重复数据删除后，CulturaX 涉及 16TB 的镶木地板格式数据（解压缩后可扩展至 27TB）。我们数据集的一半以上专门用于非英语语言，以显着增加数据量并增强训练模型在多语言场景中的可行性。
+
+* [allenai/c4](https://huggingface.co/datasets/allenai/c4) Common Crawl 的 Web 爬虫语料库的庞大、干净版本。基于 Common Crawl 数据集：“https://commoncrawl.org”。这是 Google C4 数据集的处理版本。我们准备了五种变体的数据： en 、 en.noclean 、 en.noblocklist、realnewslike 和 multilingual （mC4）。en ：305GB，en.noclean ：2.3TB， en.noblocklist ：380GB，realnewslike ：15GB，multilingual （mC4）：9.7TB（108 个子集，每种语言一个）。该 en.noblocklist 变体与 en 变体完全相同，只是我们关闭了所谓的“坏词过滤器”，该过滤器会从 https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words 列表中删除所有包含单词的文档。
+
+* [LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words) 各种语言的肮脏、顽皮、淫秽和其他坏话和词语的清单
+
+* [legacy-datasets/mc4](https://huggingface.co/datasets/legacy-datasets/mc4) 已弃用：数据集“mc4”已弃用，将被删除。请改用“allenai/c4”。
+
+* [teleprint-me/phi-1](https://huggingface.co/datasets/teleprint-me/phi-1) 该数据集是为训练 phi-1 模型而创建的，基于论文“教科书是你所需要的一切”。它包含来自各种教科书的高质量数据，使用 OpenAI 的 GPT-3.5 和 GPT-4 模型进行转换和合成。 
+
+* [laion/OIG](https://huggingface.co/datasets/laion/OIG) 中等质量的大型指令数据集以及一个较小的高质量指令数据集 （OIG-small-chip2）。OIG目前为44M。我们将继续发布更大的多样化指令数据集，目标是创建 1 万亿个不同指令的代币——足以从头开始预训练LLM。
+
+* [GAIR/lima](https://huggingface.co/datasets/GAIR/lima) 仅需要少量的指令微调数据(1000条)就可以教会模型产生高质量输出。此外，1000条SFT数据就达到了很好的指令微调效果，也说明了高质量数据对于模型的重要性，这一点与 Textbooks Are All You Need 有异曲同工之妙。
+
+* [Open-Orca/OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca) OpenOrca 数据集是增强的 FLAN 集合数据的集合。目前 ~1M GPT-4 完成，~3.2M GPT-3.5 完成。它与ORCA论文中提出的分布一致，以表格形式呈现，目前代表了完整预期数据集的部分完成，并且正在不断生成以扩大其范围。这些数据主要用于自然语言处理领域的训练和评估。该数据集支持多种任务，包括语言建模、文本生成和文本增强。
+
+* [CohereForAI/aya_collection](https://huggingface.co/datasets/CohereForAI/aya_collection) Aya Collection 是一个庞大的多语言集合，由 5.13 亿个提示和完成实例组成，涵盖广泛的任务。该集合整合了来自流利演讲者的指令式模板，并将其应用于精选的数据集列表，以及将指令式数据集翻译成 101 种语言。Aya 数据集是一个人工策划的多语言指令和响应数据集，也是该集合的一部分。由三个不同的数据源组成：模板化数据：我们与流利的演讲者合作创建模板，允许将现有数据集自动扩展为各种语言。翻译数据：我们使用 NLLB 3.3B 参数机器翻译模型将 19 个数据集的手工选择子集翻译成 101 种语言（114 种方言）。Aya 数据集：我们将 Aya 数据集作为整个集合的子集发布。这是集合中唯一一个完整地进行人工注释的数据集。
+
+* [CohereForAI/aya_evaluation_suite](https://huggingface.co/datasets/CohereForAI/aya_evaluation_suite) 总共包含 26,750 个开放式对话式提示，用于评估多语言开放式生成质量。为了在语言覆盖率和人工策展的质量之间取得平衡，我们创建了一个评估套件，其中包括：人工策划的 7 种语言示例 （ tur, eng, yor, arb, zho, por, tel ） → aya-human-annotated .将精心挑选的示例机器翻译成 101 种语言 → dolly-machine-translated .人工译后编辑成 6 种语言 （ hin, srp, rus, fra, arb, spa ） → dolly-human-edited .包括 Aya Evaluation Suite 以下子集：aya-human-annotated：250 个人类编写的原始提示，每个提示有 7 种语言。dolly-machine-translated：来自 databricks-dolly-15k 的 200 个人工选择的提示，使用 NLLB 模型自动将英语翻译成 101 种语言（总共 114 种方言）。dolly-human-edited：200 个 dolly-machine 翻译的提示，由流利的演讲者对 6 种语言进行后期编辑。
+
+* [CohereForAI/aya_dataset](https://huggingface.co/datasets/CohereForAI/aya_dataset) 一个 Aya Dataset 多语言教学微调数据集，由开放科学社区通过 Cohere For AI 的 Aya Annotation Platform 策划。该数据集总共包含 204k 个人工注释的提示完成对以及注释者的人口统计数据。该数据集可用于训练、微调和评估多语言LLMs语言。
+
+* [CohereForAI/xP3x](https://huggingface.co/datasets/CohereForAI/xP3x) xP3x（Crosslingual Public Pool of Prompts eXtended）是277种语言和16个NLP任务的提示和数据集的集合。它包含所有 xP3 + 更多！它用于在Aya @ C4AI 项目中培训mT0和BLOOMZ的未来竞争者
+
+* [allenai/prosocial-dialog](https://huggingface.co/datasets/allenai/prosocial-dialog) 大规模的多轮英语对话数据集，用于教导会话代理按照社会规范对有问题的内容做出反应。ProsocialDialog 涵盖了各种不道德、有问题、有偏见和有毒的情况，包含鼓励亲社会行为的响应，这些响应基于常识性社会规则（即经验法则，RoT）。ProsocialDialog 通过人类与 AI 协作框架创建，由 58K 个对话组成，其中包含 331K 个话语、160K 个独特的 RoT 和 497K 个对话安全标签，并附有自由格式的理由。为了创建 ProsocialDialog，我们建立了一个人类与 AI 协作的数据创建框架，其中 GPT-3 生成潜在的不安全话语，众包工作者为它们提供亲社会响应。这种方法使我们能够规避两个实质性的挑战：（1）人类之间没有可用的大规模亲社会对话语料库，以及（2）要求人类写出不道德、有毒或有问题的话语可能会导致心理伤害（Roberts，2017;Steiger 等人，2021 年）。
+
+* [OpenAssistant/oasst1](https://huggingface.co/datasets/OpenAssistant/oasst1) 为了使大规模对齐研究民主化，我们发布了 OpenAssistant Conversations （OASST1），这是一个人工生成的、人工注释的助手式对话语料库，由 35 种不同语言的 161,443 条消息组成，带有 461,292 个质量评级的注释，产生了超过 10,000 个完全注释的对话树。该语料库是全球众包工作的产物，涉及 13,500 多名志愿者。OpenAssistant Conversations 包含 35 种不同的语言。
+
+* [tasksource/oasst1_pairwise_rlhf_reward](https://huggingface.co/datasets/tasksource/oasst1_pairwise_rlhf_reward) 主要用于奖励建模（reward modeling）。该数据集包含2万条多语言的oasst1 reward数据，用于训练基于人类反馈的强化学习模型（RLHF）。这些数据通过比较不同响应的有用性来生成奖励信号，从而帮助改进文本生成模型的表现。
+
+* [HuggingFaceH4/stack-exchange-preferences](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences) 此数据集包含来自stack-exchange堆栈溢出数据转储的问题和答案，用于首选项模型训练。重要的是，这些问题已经过过滤，以符合以下偏好模型标准（紧随 Askell 等人，2021 年）：有 >=2 个答案。这些数据还可用于教学微调和语言模型训练。仅英语，可能存在其他语言。
+
+* [ehovy/race](https://huggingface.co/datasets/ehovy/race) 大规模的阅读理解数据集，拥有超过28,000个段落和近100,000个问题。该数据集来自中国的英语考试，专为初中生和高中生设计。该数据集可以用作机器理解的训练集和测试集。
+
+* [rajpurkar/squad](https://huggingface.co/datasets/rajpurkar/squad) 斯坦福问答数据集 （SQuAD） 是一个阅读理解数据集，由众包工作者在一组维基百科文章中提出的问题组成，其中每个问题的答案都是相应阅读段落中的一段文本或跨度，或者问题可能无法回答。SQuAD 1.1 包含 100,000+ 个问答对，涉及 500+ 篇文章。语言：英语。
+
+* [hotpotqa/hotpot_qa](https://huggingface.co/datasets/hotpotqa/hotpot_qa) HotpotQA 是一个具有 113k 个基于维基百科的问答对的新数据集，具有四个关键特征：（1） 问题需要对多个支持文档进行查找和推理才能回答;（2）问题多种多样，不局限于任何预先存在的知识库或知识图式;（3）我们提供推理所需的句子级支持事实，允许QA系统在强有力的监督下进行推理并解释预测;（4）我们提供了一种新型的事实比较问题，以测试QA系统提取相关事实并进行必要比较的能力。
+
+* [ought/raft](https://huggingface.co/datasets/ought/raft) 真实世界的注释小样本任务 （RAFT） 数据集是在现实世界中发现的英语数据集的聚合。与每个数据集相关的是二元或多类分类任务，旨在提高我们对语言模型在具有具体现实价值的任务上的表现的理解。每个数据集中仅提供 50 个标记示例。
+
+* [EleutherAI/proof-pile-2](https://huggingface.co/datasets/EleutherAI/proof-pile-2) 包含 550 亿个数学和科学文档的代币数据集。创建此数据集是为了训练 Llemma 7B 和 Llemma 34B 模型。它由三个子集组成：arxiv （29B 代币）：RedPajama 的 ArXiv 子集；open-web-math （15B tokens）：OpenWebMath 数据集，其中包含来自互联网的大量高质量数学文本；algebraic-stack （11B tokens）：一个新的数学代码数据集，包括数值计算、计算机代数和形式数学。
+
+* [EleutherAI/pile](https://huggingface.co/datasets/EleutherAI/pile)  825 GiB 多样化的开源语言建模数据集，由 22 个较小的高质量数据集组合在一起。此数据集为英文 （ EN ）。enron_emails、europarl、free_law、hacker_news、nih_exporter、pubmed、pubmed_central、ubuntu_irc、uspto、github。
+
+* [EleutherAI/lambada_openai](https://huggingface.co/datasets/EleutherAI/lambada_openai) 该数据集由OpenAI预处理的LAMBADA测试拆分组成（请参阅此处和此处的相关讨论）。它还包含德语、西班牙语、法语和意大利语的机器翻译版本。LAMBADA用于通过单词预测任务评估计算模型的文本理解能力。LAMBADA是叙事文本的集合，其共同特点是，如果人类受试者接触到整个文本，他们能够猜出他们的最后一个单词，但如果他们只看到目标单词前面的最后一个句子，则不能。为了在LAMBADA上取得成功，计算模型不能简单地依赖于本地上下文，而必须能够在更广泛的话语中跟踪信息。
+
+* [katielink/healthsearchqa](https://huggingface.co/datasets/katielink/healthsearchqa) 谷歌为Med-PaLM论文（arXiv预印本）发布的消费者健康问题数据集。我们策划了自己的附加数据集，其中包含 3,173 个经常搜索的消费者问题，称为 HealthSearchQA。该数据集是使用种子医疗条件及其相关症状策划的。我们使用种子数据来检索由搜索引擎生成的公开可用的常用搜索问题，这些问题显示给所有输入种子词的用户。我们将数据集作为回答消费者医疗问题的开放基准发布，并希望这将成为社区的有用资源，作为反映现实世界消费者关注的数据集。
+
+* [BAAI/AquilaMoE-SFT](https://huggingface.co/BAAI/AquilaMoE-SFT) 构建了一个包含4TB中英文代币的双语预训练数据集。该数据集包括网页、arXiv 论文、百科全书数据、书籍、代码和 QA 对。它涵盖了广泛的高质量开源预训练数据，如 RedPajama-Data-V2、falcon-refinedweb、C4、Pile、WuDaoCorporaText、ChineseWebText 等。上述开源数据经过语言过滤以仅保留中英文文本，启发式细化以删除低质量内容，重复数据删除以保持唯一性，特定领域过滤以确保相关性，数据质量检查，去除有毒和露骨内容，最后以指定比例进行数据混合。
+
+* [allenai/wiqa](https://huggingface.co/datasets/allenai/wiqa) WIQA 数据集 V1 有 39705 个问题，其中包含段落上下文中的扰动和可能的影响。数据集分为 29808 个训练问题、6894 个开发问题和 3003 个测试问题。
+
+* [allenai/qasc](https://huggingface.co/datasets/allenai/qasc) QASC 是一个专注于句子构成的问答数据集。它由 9,980 道关于小学科学的 8 路多项选择题（8,134 训练集、926 开发集、920 测试集）组成，并带有 17M 个句子的语料库。
+
+* [nyu-mll/glue](https://huggingface.co/datasets/nyu-mll/glue) GLUE，通用语言理解评估基准 （https://gluebenchmark.com/） 是用于训练、评估和分析自然语言理解系统的资源集合。GLUE 基准测试的排行榜可以在这个地址找到。它包括以下任务：ax：一个手动策划的评估数据集，用于对各种语言现象的系统性能进行细粒度分析。该数据集通过自然语言推理 （NLI） 问题评估句子理解。使用在 MulitNLI 上训练的模型来生成此数据集的预测。cola：语言可接受性语料库由来自语言学理论书籍和期刊文章的英语可接受性判断组成。每个示例都是一个单词序列，注释它是否是语法英语句子。mnli：多体裁自然语言推理语料库是一个带有文本蕴涵注释的句子对的众包集合。给定一个前提句和一个假设句，任务是预测前提是否包含假设（蕴涵），是否与假设相矛盾（矛盾），或者两者都不是（中性）。前提句子是从十个不同的来源收集的，包括转录的演讲、小说和政府报告。基准测试的作者使用标准测试集，他们从RTE作者那里获得了自有标签，并在匹配（域内）和不匹配（跨域）部分进行评估。他们还使用并推荐 SNLI 语料库作为辅助训练数据的 550k 示例。mnli_matched：匹配的验证和测试从 MNLI 拆分。mnli_mismatched：不匹配的验证和测试从 MNLI 拆分。mrpc：Microsoft研究释义语料库（Dolan&Brockett，2005）是一个从在线新闻来源自动提取的句子对语料库，并带有人工注释，用于确定该对中的句子在语义上是否等价。qnli：斯坦福问答数据集是一个由问题-段落对组成的问答数据集，其中段落中的一个句子（来自维基百科）包含相应问题的答案（由注释者编写）。基准测试的作者通过在相应上下文中的每个问题和每个句子之间形成一对，并过滤掉问题和上下文句子之间词汇重叠程度低的对，将任务转换为句对分类。任务是确定上下文句子是否包含问题的答案。原始任务的修改版本删除了模型选择确切答案的要求，但也删除了简化的假设，即答案始终存在于输入中，并且词汇重叠是可靠的提示。qqp：Quora Question Pairs2 数据集是来自社区问答网站 Quora 的问题对集合。任务是确定一对问题在语义上是否等价。rte：识别文本蕴涵 （RTE） 数据集来自一系列年度文本蕴涵挑战。基准测试的作者结合了来自RTE1（Dagan等人，2006），RTE2（Bar Haim等人，2006），RTE3（Giampiccolo等人，2007）和RTE5（Bentivogli等人，2009）的数据。示例是根据新闻和维基百科文本构建的。基准测试的作者将所有数据集转换为两类拆分，对于三类数据集，为了保持一致性，他们将中立和矛盾折叠为非蕴涵。sst2：斯坦福情感树库由电影评论中的句子和他们情感的人类注释组成。任务是预测给定句子的情绪。它使用双向（正/负）类拆分，仅带有句子级标签。stsb：语义文本相似性基准（Cer et al.， 2017）是从新闻标题、视频和图像标题以及自然语言推理数据中提取的句子对的集合。每对都经过人工注释，相似度分数从 1 到 5。wnli：Winograd Schema Challenge （Levesque et al.， 2011） 是一项阅读理解任务，其中系统必须阅读带有代词的句子，并从选项列表中选择该代词的指称。这些示例是手动构建的，以挫败简单的统计方法：每个示例都取决于句子中单个单词或短语提供的上下文信息。为了将问题转换为句子对分类，基准测试的作者通过将模棱两可的代词替换为每个可能的指称来构造句子对。任务是预测替换代词的句子是否由原始句子引起。他们使用一个小型评估集，该评估集由源自小说书籍的新示例组成，这些示例由原始语料库的作者私下共享。虽然包含的训练集在两个类之间是平衡的，但测试集在它们之间是不平衡的（65% 不是蕴涵）。此外，由于数据怪癖，开发集是对抗性的：假设有时在训练和开发示例之间共享，因此如果模型记住了训练示例，它们将预测相应开发集示例上的错误标签。与 QNLI 一样，每个示例都是单独评估的，因此模型在此任务上的分数与其在未转换的原始任务上的分数之间没有系统的对应关系。基准测试的作者调用转换数据集 WNLI （Winograd NLI）。GLUE中的语言数据为英语 （BCP-47 en ）。
+
+* [ErnestSDavis/winograd_wsc](https://huggingface.co/datasets/ErnestSDavis/winograd_wsc) Winograd 模式是一对句子，它们仅在一个或两个单词上有所不同，并且包含歧义，该歧义在两个句子中以相反的方式解决，并且需要使用世界知识和推理来解决它。数据集为英文。图灵测试的改进版本。此数据由专家手动编写，因此架构为：很容易被人类读者消除歧义（理想情况下，很容易，以至于读者甚至没有注意到存在歧义）;无法通过简单的技术（例如选择限制）解决;谷歌证明;也就是说，没有明显的文本语料库统计测试可以可靠地正确地消除这些歧义。
+
+* [EleutherAI/lichess-puzzles](https://huggingface.co/datasets/EleutherAI/lichess-puzzles) 这是来自 Lichess 数据库的 ~1.5M 国际象棋谜题的集合，该数据库包含 ~3.9M 谜题（截至 2024-05-09）。《你能学会算法吗？从简单到困难的问题与循环网络的泛化“被包括在内，除了 26,079 个谜题，这些谜题不再出现在 Lichess 数据库中（假设它们可能出于充分的理由被删除）。对于每个谜题， ctx 都是一个实际的 Lichess 游戏的 SAN 成绩单（每个半步都有编号），直到谜题位置。请注意，这包括 Lichess 和 Easy-to-Hard 数据集中 Moves 列的第一次移动。target 是最好的下一步，在SAN中，具有领先的空间。此移动（列中 Moves 的第二步）通常与实际的 Lichess 游戏不同，后者可能包含错误。不包括拼图解决方案的其他动作。这种格式与“弱到强泛化”中使用的格式相匹配，并且这组谜题也旨在尽可能相似（除了 Lichess 删除的 26k）。
+
+* [EleutherAI/wikitext_document_level](https://huggingface.co/datasets/EleutherAI/wikitext_document_level) WikiText语言建模数据集是从维基百科上经过验证的“良好”和“精选”文章中提取的超过1亿个标记的集合。该数据集可在知识共享署名-相同方式共享许可下使用。与Penn Treebank（PTB）的预处理版本相比，WikiText-2大2倍以上，WikiText-103大110倍以上。WikiText数据集还具有更大的词汇量，并保留了原始大小写，标点符号和数字 - 所有这些都在PTB中被删除。由于该数据集由完整的文章组成，因此非常适合可以利用长期依赖关系的模型。
+
+* [abisee/cnn_dailymail](https://huggingface.co/datasets/abisee/cnn_dailymail) CNN / DailyMail 数据集是一个英语数据集，包含由 CNN 和每日邮报的记者撰写的 300 多篇独特的新闻文章。当前版本支持抽取式和抽象式摘要，尽管原始版本是为机器阅读和理解以及抽象问答而创建的。
+
+* [lil-lab/newsroom](https://huggingface.co/datasets/lil-lab/newsroom) NEWSROOM是一个大型数据集，用于训练和评估摘要系统。它包含130万篇文章和摘要，由38家主要出版物的新闻编辑室的作者和编辑撰写。
+
+* [allenai/quartz](https://huggingface.co/datasets/allenai/quartz) QuaRTz 是一个众包数据集，包含 3864 个关于开放域定性关系的多项选择题。每个问题都与 405 个不同的背景句子（有时是短段落）中的一个配对。QuaRTz 数据集 V1 包含 3864 个关于开放域定性关系的问题。每个问题都与 405 个不同的背景句子（有时是短段落）中的一个配对。
+
+* [allenai/ropes](https://huggingface.co/datasets/allenai/ropes) ROPES（情境中的段落效应推理）是一个 QA 数据集，用于测试系统将文本中的知识应用于新情境的能力。一个系统呈现了一个背景段落，其中包含因果关系或定性关系（例如，“动物传粉者提高了花朵受精的效率”），使用该背景的新情况，以及需要在上下文中推理背景段落中关系的影响的问题。阅读理解任务被框定为抽取式问答问题。模型通过计算单词级 F1 和完全匹配 （EM） 指标来评估，遵循最近阅读理解数据集（例如 SQuAD）的常见做法。数据集中的文本为英文文本。
+
+* [allenai/math_qa](https://huggingface.co/datasets/allenai/math_qa) 大规模的数学单词问题数据集。我们的数据集是通过使用一种新的表示语言来使用完全指定的操作程序对 AQuA-RAT 数据集进行注释来收集的。AQuA-RAT提供了问题、选项、理由和正确的选项。
+
+* [community-datasets/definite_pronoun_resolution](https://huggingface.co/datasets/community-datasets/definite_pronoun_resolution) 由作者本科班的 30 名学生组成。这些句子对涵盖的主题从真实事件（例如，伊朗袭击沙特驻美国大使的计划）到电影中的事件/角色（例如，蝙蝠侠）和纯粹的虚构情况，在很大程度上反映了流行文化，如90年代初出生的美国孩子所感知的。每个带注释的示例跨越四行：第一行包含句子，第二行包含目标代词，第三行包含两个候选先行词，第四行包含正确的先行词。如果目标代词在句子中出现不止一次，则它的第一个出现就是要解决的问题。
 
 ## 关系抽取、信息抽取
 
@@ -7069,6 +7159,8 @@
 
 * [lucasjinreal/yolov7_d2](https://github.com/lucasjinreal/yolov7_d2) 早期的 YOLOv7 不是官方的，YOLO 具有 Transformer 和实例分割功能，具有 TensorRT 加速功能
 
+* [nadermx/backgroundremover](https://github.com/nadermx/backgroundremover) Background Remover 可让您使用 AI 通过免费和开源的简单命令行界面从图像和视频中删除背景。
+
 ## 图像风格
 
 * [mchong6/GANsNRoses](https://github.com/mchong6/GANsNRoses) 多样化的 im2im 和 vid2vid 自拍到动漫转换。从人脸面部图像映射动漫风格图像。
@@ -7101,7 +7193,9 @@
 
 ## 多模态大模型
 
-* [microsoft/unilm/layoutlm](https://github.com/microsoft/unilm/tree/master/layoutlm) 多模态预训练模型 LayoutLM 2.0，不仅考虑了文本和页面布局信息，还将图像信息融合到了多模态框架内。下游任务微调：表单理解 票据理解 复杂布局长文档理解 文档图像分类 视觉问答 
+* [microsoft/unilm/layoutlm](https://github.com/microsoft/unilm/tree/master/layoutlm) 多模态预训练模型 LayoutLM 2.0，不仅考虑了文本和页面布局信息，还将图像信息融合到了多模态框架内。下游任务微调：表单理解 票据理解 复杂布局长文档理解 文档图像分类 视觉问答
+
+* [LargeWorldModel/LWM](https://github.com/LargeWorldModel/LWM) 大世界模型（LWM）是一种通用的大上下文多模态自回归模型。它使用 RingAttention 在包含各种长视频和书籍的大型数据集上进行训练，可以执行语言、图像和视频的理解和生成。当前的语言模型在理解世界不容易用语言描述的方面存在不足，并且难以完成复杂的长篇任务。视频序列提供了语言和静态图像中不存在的有价值的时间信息，使其对于与语言的联合建模具有吸引力。这样的模型可以发展对人类文本知识和物理世界的理解，从而实现更广泛的人工智能能力来协助人类。然而，由于内存限制、计算复杂性和有限的数据集，从数以百万计的视频和语言序列中学习带来了挑战。为了应对这些挑战，我们策划了一个包含各种视频和书籍的大型数据集，利用 RingAttention 技术对长序列进行可扩展的训练，并逐渐将上下文大小从 4K 增加到 1M 令牌。本文做出了以下贡献：（a）最大的上下文大小神经网络：我们在长视频和语言序列上训练了最大的上下文大小转换器之一，在困难的检索任务和长视频理解方面设定了新的基准。（b） 克服视觉语言训练挑战的解决方案，包括使用掩码序列打包来混合不同的序列长度，使用失权来平衡语言和视觉，以及使用模型生成的QA数据集进行长序列聊天。（c） 高度优化的实现，具有 RingAttention、屏蔽序列打包和其他关键功能，用于训练数百万长度的多模态序列。（d） 完全开源的7B参数模型系列，能够处理超过100万个令牌的长文本文档（LWM-Text、LWM-Text-Chat）和视频（LWM、LWM-Chat）。 这项工作为在长视频和语言的海量数据集上进行训练铺平了道路，以发展对人类知识和多模态世界的理解，以及更广泛的能力。
 
 * [mlfoundations/open_flamingo](https://github.com/mlfoundations/open_flamingo) 用于训练大型多模态模型的开源框架。DeepMind Flamingo模型的开源版本。提供了用于训练和评估模型的PyTorch 实现。还提供了在新的多模式 C4 数据集上训练的初始 9B 模型。
 
@@ -7217,7 +7311,11 @@
 
 * [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) 让我们控制扩散模型！ControlNet 是一种神经网络结构，通过添加额外条件来控制扩散模型。
 
+* [Stability-AI/StableCascade](https://github.com/Stability-AI/StableCascade) 该模型建立在 Würstchen 架构之上，它与其他模型（如 Stable Diffusion）的主要区别在于它在更小的潜在空间上工作。为什么这很重要？潜在空间越小，推理运行速度就越快，训练成本就越低。潜空间有多小？Stable Diffusion 使用 8 的压缩系数，导致 1024x1024 图像被编码为 128x128。Stable Cascade 实现了 42 的压缩系数，这意味着可以将 1024x1024 图像编码为 24x24，同时保持清晰的重建。然后，在高度压缩的潜在空间中训练文本条件模型。该架构的早期版本比 Stable Diffusion 1.5 降低了 16 倍的成本。因此，这种模型非常适合效率重要的用途。此外，所有已知的扩展，如微调、LoRA、ControlNet、IP 适配器、LCM 等也可以使用这种方法。其中一些已经在训练和推理部分提供（微调、ControlNet、LoRA）。此外，Stable Cascade 在视觉和评估方面都取得了令人印象深刻的结果。根据我们的评估，在几乎所有比较中，Stable Cascade 在快速对齐和美学质量方面都表现最佳。Stable Cascade 对效率的关注体现在其架构和更高的压缩潜在空间上。模型概述：稳定级联由三个模型组成：A级、B级和C级，代表用于生成图像的级联，因此得名“稳定级联”。A阶段和B阶段用于压缩图像，类似于VAE在稳定扩散中的工作。但是，如前所述，通过此设置，可以实现更高的图像压缩。此外，阶段 C 负责在给定文本提示的情况下生成小型 24 x 24 潜伏。请注意，阶段A是VAE，阶段B和C都是扩散模型。
+
 * [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) 适用于 ControlNet 的 WebUI 扩展
+
+* [facebookresearch/DiT](https://github.com/facebookresearch/DiT) 带变压器的可扩展扩散模型 （DiT）。我们训练潜扩散模型，用在潜伏补丁上运行的变压器取代常用的U-Net主干网。我们通过Gflops测量的前向传递复杂性来分析扩散变压器（DiTs）的可扩展性。我们发现，具有较高 Gflops 的 DiT---通过增加转换器深度/宽度或增加输入令牌数量---始终具有较低的 FID。除了良好的可扩展性外，我们的 DiT-XL/2 模型在类条件 ImageNet 512×512 和 256×256 基准测试上优于所有先前的扩散模型，在后者上实现了 2.27 的先进 FID。
 
 * [jexom/sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib) 深度图库，用于 Automatic1111/stable-diffusion-webui 的控制网扩展
 
@@ -10271,6 +10369,8 @@
 * [semgrep/semgrep](https://github.com/semgrep/semgrep) 适用于多种语言的轻量级静态分析。查找具有类似源代码的模式的 bug 变体。可以扫描代码和包依赖项以查找已知问题、软件漏洞，并高精度地查找密钥
 
 ## 漏洞库、漏洞靶场
+
+* [trickest/cve](https://github.com/trickest/cve) 收集并使用其 PoC 更新所有可用和最新的 CVE。几乎所有公开可用的 CVE PoC。从 cvelist 收集 CVE 详细信息。按年份拆分 CVE。使用案例：四处浏览，找到一个不错的 PoC，然后进行测试！Watch 存储库，以便在新 PoC 公开后立即接收有关它们的通知。搜索特定产品（可能还有版本）以查找与其相关的所有公共漏洞。
 
 * [pwntester/0day](https://github.com/pwntester/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC 该项目将不断更新
 
@@ -13391,7 +13491,5 @@
 * [sacridini/Awesome-Geospatial](https://github.com/sacridini/Awesome-Geospatial) 一长串地理空间分析工具。地理空间分析，或简称空间分析，是一种将统计分析和其他分析技术应用于具有地理或空间方面的数据的方法。
 
 * [daliansky/Hackintosh](https://github.com/daliansky/Hackintosh) 黑苹果操作系统 Hackintosh 长期维护模型 EFI 和安装教程
-
-
 
 # end
