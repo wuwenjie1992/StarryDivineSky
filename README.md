@@ -17,8 +17,8 @@
     </a>
 
 </p>
-<h3 align="center">精选了5K+项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
-<h3 align="center">Selected more than 5000 projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc.</h3>
+<h3 align="center">精选了6K+项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
+<h3 align="center">Selected more than 6000 projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc.</h3>
 <h3 align="center">让更多优秀的项目被人发现，让更多的人感受开源的魅力。</h3>
 <h3 align="center">Let more excellent projects be discovered by people, let more people feel the charm of open source.</h3>
 <h3 align="center">持续更新！欢迎🌟star！😀😀😀 Continue to update! Welcome to star! 😀😀😀</h3>
@@ -1024,7 +1024,7 @@
 
 * [NielsRogge/Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials) HuggingFace的 Transformers 库制作的演示。
 
-* [lucidrains/recurrent-memory-transformer-pytorch](https://github.com/lucidrains/recurrent-memory-transformer-pytorch) 在 Pytorch 中实现 Recurrent Memory Transformer （openreview）。他们最近发表了一篇简短的后续论文，证明它至少能够复制 100 万个代币的信息。毫无疑问，在我看来，RMT 会成为比 AdA 更强大的 RL 代理，AdA 只是一个 Transformer-XL - 更新：递归内存决策转换器
+* [lucidrains/recurrent-memory-transformer-pytorch](https://github.com/lucidrains/recurrent-memory-transformer-pytorch) 在 Pytorch 中实现 Recurrent Memory Transformer （openreview）。他们最近发表了一篇简短的后续论文，证明它至少能够复制 100 万个词元的信息。毫无疑问，在我看来，RMT 会成为比 AdA 更强大的 RL 代理，AdA 只是一个 Transformer-XL - 更新：递归内存决策转换器
 
 * [lhao499/RingAttention](https://github.com/lhao499/RingAttention) 使用块态变换器实现近乎无限的上下文的环形(Ring)注意力。Blockwise Parallel Transformer （BPT） 以分块方式计算注意力和前馈，允许训练和推断序列，其长度是标准内存效率注意力方法（如flash（闪光）注意力）可管理的序列的四倍。Ringwise Parallel Transformer 的环形注意力使训练序列的长度达到“设备数量”的长度，比 BPT 的长度长几倍。这是通过将注意力和前馈计算分布在多个设备上并将通信与计算重叠来实现的。由于注意力和前馈网络的块计算，可以在上下文大小上使用数千万个令牌进行训练，而不会增加任何通信或计算开销。
 
@@ -1320,7 +1320,7 @@
 
 * [InternLM/InternLM](https://github.com/InternLM/InternLM) InternLM开源了70亿和200亿参数基础模型，以及针对实际场景和训练系统量身定制的聊天模型。开源的轻量级训练框架，旨在支持模型预训练，而无需广泛的依赖关系。通过单个代码库，它支持在具有数千个 GPU 的大规模集群上进行预训练，并在单个 GPU 上进行微调，同时实现卓越的性能优化。InternLM 在 1024 个 GPU 上训练期间实现了近 90% 的加速效率。InternLM-20B选择了更深的架构，深度设置为60层。这超过了使用32或40层的传统7B和13B型号。当参数有限时，增加层数可以增强模型的整体功能。此外，与InternLM-7B相比，InternLM-20B使用的预训练数据经过了更高质量的清理，并补充了丰富的知识数据，旨在增强理解和推理能力。因此，它在理解、推理、数学和编程能力方面表现出显着的改进——所有这些都测试了语言模型的技术熟练程度。
 
-* [InternLM/InternLM-techreport](https://github.com/InternLM/InternLM-techreport) 书生·浦语由上海人工智能实验室和商汤科技（同等贡献）与香港中大、复旦和上海交大联合开发的多语言大语言模型。具有104B参数的多语言基础语言模型。在具有 1.6T 代币的大型语料库上进行预训练，并具有多阶段渐进过程，然后进行微调以符合人类偏好。我们还开发了一个名为Uniscale-LLM的训练系统，用于高效的大型语言模型训练。对多项基准的评估表明，InternLM在知识理解、阅读理解、数学和编码等多个方面都取得了最先进的表现。凭借如此全面的能力，InternLM在综合考试中取得了出色的表现，包括MMLU，AGIEval，C-Eval和高考-Bench，而无需借助外部工具。在这些基准测试中，InternLM 不仅明显优于开源模型，而且与 ChatGPT 相比，还获得了卓越的性能。此外，InternLM在理解中文和中国文化方面表现出出色的能力，这使其成为支持面向中文的语言应用的合适基础模型，并提供了跨各种知识领域和任务的基准和示例。
+* [InternLM/InternLM-techreport](https://github.com/InternLM/InternLM-techreport) 书生·浦语由上海人工智能实验室和商汤科技（同等贡献）与香港中大、复旦和上海交大联合开发的多语言大语言模型。具有104B参数的多语言基础语言模型。在具有 1.6T 词元的大型语料库上进行预训练，并具有多阶段渐进过程，然后进行微调以符合人类偏好。我们还开发了一个名为Uniscale-LLM的训练系统，用于高效的大型语言模型训练。对多项基准的评估表明，InternLM在知识理解、阅读理解、数学和编码等多个方面都取得了最先进的表现。凭借如此全面的能力，InternLM在综合考试中取得了出色的表现，包括MMLU，AGIEval，C-Eval和高考-Bench，而无需借助外部工具。在这些基准测试中，InternLM 不仅明显优于开源模型，而且与 ChatGPT 相比，还获得了卓越的性能。此外，InternLM在理解中文和中国文化方面表现出出色的能力，这使其成为支持面向中文的语言应用的合适基础模型，并提供了跨各种知识领域和任务的基准和示例。
 
 * [mistralai/mistral-src](https://github.com/mistralai/mistral-src) Mistral AI 7B v0.1 模型的参考实现。一个功能强大且快速的模型，适用于许多用例。虽然速度快 6 倍，但它在所有基准测试中都与 Llama 2 70B 相当或更胜一筹，会说多种语言，具有自然的编码能力。它处理 32k 序列长度。
 
@@ -1910,7 +1910,7 @@
 
 * [shawwn/llama-dl](https://github.com/shawwn/llama-dl) 高速下载 LLaMA，Facebook 的 65B 参数 GPT 模型
 
-* [mit-han-lab/streaming-llm](https://github.com/mit-han-lab/streaming-llm) 具有注意力接收器的高效流语言模型，可以无限长度地输入LLM进行推理，而不会牺牲效率和性能。在需要长时间交互的多轮对话等流应用程序中部署大型语言模型 （LLM），但存在两个主要挑战。首先，在解码阶段，缓存先前令牌的键和值状态 （KV） 会消耗大量内存。其次，流行的LLM不能推广到比训练序列长度更长的文本。窗口注意，其中仅缓存最新的 KV，是一种自然的方法---但我们表明，当文本长度超过缓存大小时，它会失败。我们观察到一个有趣的现象，即注意力下沉，即保留初始代币的 KV 将在很大程度上恢复窗口注意力的性能。在本文中，我们首先证明了注意力下沉的出现是由于对初始令牌作为“接收器”的强烈注意力得分，即使它们在语义上并不重要。基于上述分析，我们引入了StreamingLLM，这是一个高效的框架，使使用有限长度注意力窗口训练的LLM能够推广到无限序列长度，而无需任何微调。StreamingLLM可以使Llama-2，MPT，Falcon和Pythia使用多达400万个代币或更多代币执行稳定高效的语言建模。此外，发现在预训练期间添加占位符令牌作为专用的注意力接收器可以进一步改进流式处理部署。在流设置中，StreamingLLM 的性能优于滑动窗口重新计算基线高达 22.2 倍的加速。
+* [mit-han-lab/streaming-llm](https://github.com/mit-han-lab/streaming-llm) 具有注意力接收器的高效流语言模型，可以无限长度地输入LLM进行推理，而不会牺牲效率和性能。在需要长时间交互的多轮对话等流应用程序中部署大型语言模型 （LLM），但存在两个主要挑战。首先，在解码阶段，缓存先前令牌的键和值状态 （KV） 会消耗大量内存。其次，流行的LLM不能推广到比训练序列长度更长的文本。窗口注意，其中仅缓存最新的 KV，是一种自然的方法---但我们表明，当文本长度超过缓存大小时，它会失败。我们观察到一个有趣的现象，即注意力下沉，即保留初始词元的 KV 将在很大程度上恢复窗口注意力的性能。在本文中，我们首先证明了注意力下沉的出现是由于对初始令牌作为“接收器”的强烈注意力得分，即使它们在语义上并不重要。基于上述分析，我们引入了StreamingLLM，这是一个高效的框架，使使用有限长度注意力窗口训练的LLM能够推广到无限序列长度，而无需任何微调。StreamingLLM可以使Llama-2，MPT，Falcon和Pythia使用多达400万个词元或更多词元执行稳定高效的语言建模。此外，发现在预训练期间添加占位符令牌作为专用的注意力接收器可以进一步改进流式处理部署。在流设置中，StreamingLLM 的性能优于滑动窗口重新计算基线高达 22.2 倍的加速。
 
 * [OpenBMB/AgentVerse](https://github.com/OpenBMB/AgentVerse) 提供了一个灵活的框架，简化了为大型语言模型 （LLM） 构建自定义多代理环境的过程。
 
@@ -2132,7 +2132,7 @@
 
 * [adamcohenhillel/ADeus](https://github.com/adamcohenhillel/ADeus) 一种开源 AI 可穿戴设备，可捕获您在现实世界中所说和听到的内容，然后将其转录并存储在您自己的服务器上。然后，您可以使用该应用程序与 Adeus 聊天，它将包含有关您想要谈论的内容的所有正确上下文 - 一个真正个性化的个人 AI。
 
-* [FasterDecoding/Medusa](https://github.com/FasterDecoding/Medusa) 简单的框架，它使具有多个解码头LLM的生成加速技术民主化。美杜莎添加了额外的“头”来LLMs同时预测多个未来的代币。当使用美杜莎增强模型时，原始模型保持不变，并且在训练过程中只会对新头部进行微调。在生成过程中，这些头每个头都会为相应的位置产生多个可能的单词。然后使用基于树的注意力机制对这些选项进行组合和处理。最后，采用典型的验收方案从候选者中选择最长的合理前缀进行进一步解码。
+* [FasterDecoding/Medusa](https://github.com/FasterDecoding/Medusa) 简单的框架，它使具有多个解码头LLM的生成加速技术民主化。美杜莎添加了额外的“头”来LLMs同时预测多个未来的词元。当使用美杜莎增强模型时，原始模型保持不变，并且在训练过程中只会对新头部进行微调。在生成过程中，这些头每个头都会为相应的位置产生多个可能的单词。然后使用基于树的注意力机制对这些选项进行组合和处理。最后，采用典型的验收方案从候选者中选择最长的合理前缀进行进一步解码。
 
 * [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) 用于测试和评估LLM输出质量的工具。测试您的提示、模型、RAG。评估和比较LLM输出，捕获回归，并提高提示质量。LLM适用于 OpenAI/Azure GPT、Anthropic Claude、VertexAI Gemini、Ollama、本地和专用模型（如 Mistral/Mixtral/Llama with CI/CD）的评估
 
@@ -2212,7 +2212,7 @@
 
 * [OpenBMB/InfiniteBench](https://github.com/OpenBMB/InfiniteBench) 尖端的基准测试，用于评估语言模型在超长上下文（100k+ 令牌）上处理、理解和推理的能力。长上下文对于增强应用程序LLMs并实现高级交互至关重要。InfiniteBench 旨在通过针对 100k+ 的上下文长度（比传统数据集长 10 倍）来测试语言模型的界限，从而突破语言模型的界限。
 
-* [jzhang38/TinyLlama](https://github.com/jzhang38/TinyLlama) 在 3 万亿个代币上预训练 1.1B Llama 模型。采用了与 Llama 2 完全相同的架构和分词器。这意味着 TinyLlama 可以在许多基于 Llama 构建的开源项目中插入和播放。此外，TinyLlama 结构紧凑，只有 1.1B 参数。这种紧凑性使其能够满足众多需要有限计算和内存占用的应用程序。
+* [jzhang38/TinyLlama](https://github.com/jzhang38/TinyLlama) 在 3 万亿个词元上预训练 1.1B Llama 模型。采用了与 Llama 2 完全相同的架构和分词器。这意味着 TinyLlama 可以在许多基于 Llama 构建的开源项目中插入和播放。此外，TinyLlama 结构紧凑，只有 1.1B 参数。这种紧凑性使其能够满足众多需要有限计算和内存占用的应用程序。
 
 * [openai/openai-node](https://github.com/openai/openai-node) OpenAI API 的官方 Node.js / Typescript 库
 
@@ -2322,7 +2322,7 @@
 
 * [McGill-NLP/webllama](https://github.com/McGill-NLP/webllama) 使用Llama 3 构建的最强大的代理，并针对带有对话的 Web 导航进行了微调。构建有效的以人为本的代理来浏览网页。我们不想取代用户，而是为他们配备强大的助手。
 
-* [FMInference/H2O](https://github.com/FMInference/H2O) 用于大型语言模型高效生成推理的重磅 Oracle，大型语言模型（LLMs）尽管最近取得了令人瞩目的成就，但部署成本明显过高，特别是对于涉及长内容生成的应用程序，例如对话系统和故事写作。通常，除了模型参数外，还存储了大量瞬态状态信息（称为 KV 缓存），并随序列长度和批量大小线性缩放。在本文中，我们介绍了一种实现 KV 缓存的新方法，该方法可显着减少其内存占用。我们的方法基于一个值得注意的观察结果，即在计算注意力分数时，一小部分代币贡献了大部分价值。我们称这些代币为重击者（H2）。通过全面的调查，我们发现 （i） H2 的出现是自然的，并且与文本中频繁同时出现标记密切相关，以及 （ii） 删除它们会导致显着的性能下降。基于这些见解，我们提出了 Heavy Hitter Oracle （H2O），这是一种 KV 缓存驱逐策略，可动态保留最近代币和 H2 代币的平衡。我们将KV缓存逐出表述为一个动态子模问题，并证明了（在温和的假设下）我们新颖的逐出算法的理论保证，可以帮助指导未来的工作。我们使用 OPT、LLaMA 和 GPT-NeoX 在各种任务中验证了算法的准确性。在 OPT-6.7B 和 OPT-30B 上，我们实施了 20% 重击器的 H2O，将吞吐量提高了 29×、29× 和 3× 三个领先的推理系统 DeepSpeed Zero-Inference、Hugging Face Accelerate 和 FlexGen。在相同的批量大小下，H2O 最多可以减少 1.9× 的延迟。
+* [FMInference/H2O](https://github.com/FMInference/H2O) 用于大型语言模型高效生成推理的重磅 Oracle，大型语言模型（LLMs）尽管最近取得了令人瞩目的成就，但部署成本明显过高，特别是对于涉及长内容生成的应用程序，例如对话系统和故事写作。通常，除了模型参数外，还存储了大量瞬态状态信息（称为 KV 缓存），并随序列长度和批量大小线性缩放。在本文中，我们介绍了一种实现 KV 缓存的新方法，该方法可显着减少其内存占用。我们的方法基于一个值得注意的观察结果，即在计算注意力分数时，一小部分词元贡献了大部分价值。我们称这些词元为重击者（H2）。通过全面的调查，我们发现 （i） H2 的出现是自然的，并且与文本中频繁同时出现标记密切相关，以及 （ii） 删除它们会导致显着的性能下降。基于这些见解，我们提出了 Heavy Hitter Oracle （H2O），这是一种 KV 缓存驱逐策略，可动态保留最近词元和 H2 词元的平衡。我们将KV缓存逐出表述为一个动态子模问题，并证明了（在温和的假设下）我们新颖的逐出算法的理论保证，可以帮助指导未来的工作。我们使用 OPT、LLaMA 和 GPT-NeoX 在各种任务中验证了算法的准确性。在 OPT-6.7B 和 OPT-30B 上，我们实施了 20% 重击器的 H2O，将吞吐量提高了 29×、29× 和 3× 三个领先的推理系统 DeepSpeed Zero-Inference、Hugging Face Accelerate 和 FlexGen。在相同的批量大小下，H2O 最多可以减少 1.9× 的延迟。
 
 * [OpenMOSS/CoLLiE](https://github.com/OpenMOSS/CoLLiE) 帮助您从零开始训练大模型的完整工具箱。它提供了数据预处理、模型微调、模型保存以及训练过程各项指标监测等功能。CoLLiE集成了现有的并行策略、高效参数微调方法和高效优化器，以加快训练的速度，提高训练的质量，降低训练的开销。CoLLiE支持主流的多种模型（如MOSS, InternLM, LLaMA, ChatGLM等），您可以轻松在不同的模型之间切换。此外，CoLLiE提供了丰富的文档，使初学者可以快速入门。同时，CoLLiE还提供了高度可定制化的功能和灵活的配置选项，使有经验的用户能够根据自己的需求进行个性化定制。无论您是初学者还是有经验的专业人士，CoLLiE都可以为您提供满足需求的解决方案。CoLLiE 基于 DeepSpeed 和 PyTorch，为大型语言模型提供协作式和高效的调优方法。
 
@@ -2906,7 +2906,7 @@
 
 * [llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks) 对对齐语言模型的普遍和可转移攻击
 
-* [OpenNLPLab/TransnormerLLM](https://github.com/OpenNLPLab/TransnormerLLM) 第一个基于线性注意力的LLM，在准确性和效率方面都优于传统的softmax基于注意力的模型。它是在具有多达 1.4 万亿个代币的高质量语料库上进行训练的。从以前的线性注意力架构TransNormer演变而来，进行了高级修改，包括LRPE位置嵌入，闪电注意力加速，新的门控和规范化机制。TransNormerLLM在多个公认的中文，英文和多语言通用和特定领域的基准测试中实现了其规模的竞争性能。此版本包括具有 385M、1B 和 7B 参数的基本版本。所有版本都完全开放给学术研究。开发者只需通过电子邮件申请并获得官方商业许可，即可免费使用商业用途。
+* [OpenNLPLab/TransnormerLLM](https://github.com/OpenNLPLab/TransnormerLLM) 第一个基于线性注意力的LLM，在准确性和效率方面都优于传统的softmax基于注意力的模型。它是在具有多达 1.4 万亿个词元的高质量语料库上进行训练的。从以前的线性注意力架构TransNormer演变而来，进行了高级修改，包括LRPE位置嵌入，闪电注意力加速，新的门控和规范化机制。TransNormerLLM在多个公认的中文，英文和多语言通用和特定领域的基准测试中实现了其规模的竞争性能。此版本包括具有 385M、1B 和 7B 参数的基本版本。所有版本都完全开放给学术研究。开发者只需通过电子邮件申请并获得官方商业许可，即可免费使用商业用途。
 
 * [CogStack/OpenGPT](https://github.com/CogStack/OpenGPT) 用于创建基于基础指令的数据集和培训会话领域专家大型语言模型 （LLM） 的框架。使用 OpenGPT 训练的医疗保健对话模型。
 
@@ -3562,7 +3562,7 @@
 
 * [statmt/cc100](https://huggingface.co/datasets/statmt/cc100) 该语料库试图重新创建用于训练 XLM-R 的数据集。该语料库包括 100+ 种语言的单语数据，还包括罗马化语言的数据（用 *_rom 表示）。这是使用 CC-Net 存储库通过处理 2018 年 1 月至 12 月的 Commoncrawl 快照提供的 url 和段落索引构建的。CC-100 主要用于预训练语言模型和单词表示。语言：多语言。
 
-* [uonlp/CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) 庞大的多语言数据集，拥有 167 种语言的 6.3 万亿个代币，专为大型语言模型 （LLM） 开发量身定制。我们的数据集通过严格的多阶段流水线进行细致的清理和重复数据删除，以实现模型训练的最佳质量，包括语言识别、基于 URL 的过滤、基于指标的清洗、文档细化和重复数据删除。我们在文档级别使用 MinHash 来实现不同语言数据集的模糊重复数据删除。我们的数据清理框架包括多种标准和阈值选择，以大量数据样本为指导，确保在各个方面进行全面的噪声过滤。CulturaX 在 HuggingFace 中完全向公众发布，以促进多语言的研究和进步LLMs。我们的数据集结合了 mC4（3.1.0 版）[1] 的最新版本和截至今年的所有可访问的 OSCAR 语料库，包括 20.19、21.09、22.01 和 23.01 [2]。经过深度清理和重复数据删除后，CulturaX 涉及 16TB 的镶木地板格式数据（解压缩后可扩展至 27TB）。我们数据集的一半以上专门用于非英语语言，以显着增加数据量并增强训练模型在多语言场景中的可行性。
+* [uonlp/CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) 庞大的多语言数据集，拥有 167 种语言的 6.3 万亿个词元，专为大型语言模型 （LLM） 开发量身定制。我们的数据集通过严格的多阶段流水线进行细致的清理和重复数据删除，以实现模型训练的最佳质量，包括语言识别、基于 URL 的过滤、基于指标的清洗、文档细化和重复数据删除。我们在文档级别使用 MinHash 来实现不同语言数据集的模糊重复数据删除。我们的数据清理框架包括多种标准和阈值选择，以大量数据样本为指导，确保在各个方面进行全面的噪声过滤。CulturaX 在 HuggingFace 中完全向公众发布，以促进多语言的研究和进步LLMs。我们的数据集结合了 mC4（3.1.0 版）[1] 的最新版本和截至今年的所有可访问的 OSCAR 语料库，包括 20.19、21.09、22.01 和 23.01 [2]。经过深度清理和重复数据删除后，CulturaX 涉及 16TB 的镶木地板格式数据（解压缩后可扩展至 27TB）。我们数据集的一半以上专门用于非英语语言，以显着增加数据量并增强训练模型在多语言场景中的可行性。
 
 * [allenai/c4](https://huggingface.co/datasets/allenai/c4) Common Crawl 的 Web 爬虫语料库的庞大、干净版本。基于 Common Crawl 数据集：“https://commoncrawl.org”。这是 Google C4 数据集的处理版本。我们准备了五种变体的数据： en 、 en.noclean 、 en.noblocklist、realnewslike 和 multilingual （mC4）。en ：305GB，en.noclean ：2.3TB， en.noblocklist ：380GB，realnewslike ：15GB，multilingual （mC4）：9.7TB（108 个子集，每种语言一个）。该 en.noblocklist 变体与 en 变体完全相同，只是我们关闭了所谓的“坏词过滤器”，该过滤器会从 https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words 列表中删除所有包含单词的文档。
 
@@ -3572,7 +3572,7 @@
 
 * [teleprint-me/phi-1](https://huggingface.co/datasets/teleprint-me/phi-1) 该数据集是为训练 phi-1 模型而创建的，基于论文“教科书是你所需要的一切”。它包含来自各种教科书的高质量数据，使用 OpenAI 的 GPT-3.5 和 GPT-4 模型进行转换和合成。 
 
-* [laion/OIG](https://huggingface.co/datasets/laion/OIG) 中等质量的大型指令数据集以及一个较小的高质量指令数据集 （OIG-small-chip2）。OIG目前为44M。我们将继续发布更大的多样化指令数据集，目标是创建 1 万亿个不同指令的代币——足以从头开始预训练LLM。
+* [laion/OIG](https://huggingface.co/datasets/laion/OIG) 中等质量的大型指令数据集以及一个较小的高质量指令数据集 （OIG-small-chip2）。OIG目前为44M。我们将继续发布更大的多样化指令数据集，目标是创建 1 万亿个不同指令的词元——足以从头开始预训练LLM。
 
 * [GAIR/lima](https://huggingface.co/datasets/GAIR/lima) 仅需要少量的指令微调数据(1000条)就可以教会模型产生高质量输出。此外，1000条SFT数据就达到了很好的指令微调效果，也说明了高质量数据对于模型的重要性，这一点与 Textbooks Are All You Need 有异曲同工之妙。
 
@@ -3602,7 +3602,7 @@
 
 * [ought/raft](https://huggingface.co/datasets/ought/raft) 真实世界的注释小样本任务 （RAFT） 数据集是在现实世界中发现的英语数据集的聚合。与每个数据集相关的是二元或多类分类任务，旨在提高我们对语言模型在具有具体现实价值的任务上的表现的理解。每个数据集中仅提供 50 个标记示例。
 
-* [EleutherAI/proof-pile-2](https://huggingface.co/datasets/EleutherAI/proof-pile-2) 包含 550 亿个数学和科学文档的代币数据集。创建此数据集是为了训练 Llemma 7B 和 Llemma 34B 模型。它由三个子集组成：arxiv （29B 代币）：RedPajama 的 ArXiv 子集；open-web-math （15B tokens）：OpenWebMath 数据集，其中包含来自互联网的大量高质量数学文本；algebraic-stack （11B tokens）：一个新的数学代码数据集，包括数值计算、计算机代数和形式数学。
+* [EleutherAI/proof-pile-2](https://huggingface.co/datasets/EleutherAI/proof-pile-2) 包含 550 亿个数学和科学文档的词元数据集。创建此数据集是为了训练 Llemma 7B 和 Llemma 34B 模型。它由三个子集组成：arxiv （29B 词元）：RedPajama 的 ArXiv 子集；open-web-math （15B tokens）：OpenWebMath 数据集，其中包含来自互联网的大量高质量数学文本；algebraic-stack （11B tokens）：一个新的数学代码数据集，包括数值计算、计算机代数和形式数学。
 
 * [EleutherAI/pile](https://huggingface.co/datasets/EleutherAI/pile)  825 GiB 多样化的开源语言建模数据集，由 22 个较小的高质量数据集组合在一起。此数据集为英文 （ EN ）。enron_emails、europarl、free_law、hacker_news、nih_exporter、pubmed、pubmed_central、ubuntu_irc、uspto、github。
 
@@ -3610,7 +3610,7 @@
 
 * [katielink/healthsearchqa](https://huggingface.co/datasets/katielink/healthsearchqa) 谷歌为Med-PaLM论文（arXiv预印本）发布的消费者健康问题数据集。我们策划了自己的附加数据集，其中包含 3,173 个经常搜索的消费者问题，称为 HealthSearchQA。该数据集是使用种子医疗条件及其相关症状策划的。我们使用种子数据来检索由搜索引擎生成的公开可用的常用搜索问题，这些问题显示给所有输入种子词的用户。我们将数据集作为回答消费者医疗问题的开放基准发布，并希望这将成为社区的有用资源，作为反映现实世界消费者关注的数据集。
 
-* [BAAI/AquilaMoE-SFT](https://huggingface.co/BAAI/AquilaMoE-SFT) 构建了一个包含4TB中英文代币的双语预训练数据集。该数据集包括网页、arXiv 论文、百科全书数据、书籍、代码和 QA 对。它涵盖了广泛的高质量开源预训练数据，如 RedPajama-Data-V2、falcon-refinedweb、C4、Pile、WuDaoCorporaText、ChineseWebText 等。上述开源数据经过语言过滤以仅保留中英文文本，启发式细化以删除低质量内容，重复数据删除以保持唯一性，特定领域过滤以确保相关性，数据质量检查，去除有毒和露骨内容，最后以指定比例进行数据混合。
+* [BAAI/AquilaMoE-SFT](https://huggingface.co/BAAI/AquilaMoE-SFT) 构建了一个包含4TB中英文词元的双语预训练数据集。该数据集包括网页、arXiv 论文、百科全书数据、书籍、代码和 QA 对。它涵盖了广泛的高质量开源预训练数据，如 RedPajama-Data-V2、falcon-refinedweb、C4、Pile、WuDaoCorporaText、ChineseWebText 等。上述开源数据经过语言过滤以仅保留中英文文本，启发式细化以删除低质量内容，重复数据删除以保持唯一性，特定领域过滤以确保相关性，数据质量检查，去除有毒和露骨内容，最后以指定比例进行数据混合。
 
 * [allenai/wiqa](https://huggingface.co/datasets/allenai/wiqa) WIQA 数据集 V1 有 39705 个问题，其中包含段落上下文中的扰动和可能的影响。数据集分为 29808 个训练问题、6894 个开发问题和 3003 个测试问题。
 
@@ -3635,6 +3635,162 @@
 * [allenai/math_qa](https://huggingface.co/datasets/allenai/math_qa) 大规模的数学单词问题数据集。我们的数据集是通过使用一种新的表示语言来使用完全指定的操作程序对 AQuA-RAT 数据集进行注释来收集的。AQuA-RAT提供了问题、选项、理由和正确的选项。
 
 * [community-datasets/definite_pronoun_resolution](https://huggingface.co/datasets/community-datasets/definite_pronoun_resolution) 由作者本科班的 30 名学生组成。这些句子对涵盖的主题从真实事件（例如，伊朗袭击沙特驻美国大使的计划）到电影中的事件/角色（例如，蝙蝠侠）和纯粹的虚构情况，在很大程度上反映了流行文化，如90年代初出生的美国孩子所感知的。每个带注释的示例跨越四行：第一行包含句子，第二行包含目标代词，第三行包含两个候选先行词，第四行包含正确的先行词。如果目标代词在句子中出现不止一次，则它的第一个出现就是要解决的问题。
+
+* [math-ai/StackMathQA](https://huggingface.co/datasets/math-ai/StackMathQA) StackMathQA 是一个精心策划的 200 万个数学问题和答案的集合，来自各种 Stack Exchange 站点。该存储库旨在为数学和人工智能研究领域的研究人员、教育工作者和爱好者提供综合资源。
+
+* [argilla/OpenHermesPreferences](https://huggingface.co/datasets/argilla/OpenHermesPreferences) 包含 ~100 万个 AI 偏好的数据集，源自 teknium/OpenHermes-2.5。它将来自源数据集的响应与其他两个模型（Mixtral-8x7B-Instruct-v0.1 和 Nous-Hermes-2-Yi-34B）的响应相结合，并使用 PairRM 作为偏好模型来进行评分和排名。该数据集可用于训练偏好模型或通过直接偏好优化(DPO)等技术对齐语言模型。
+
+* [argilla/distilabel-capybara-dpo-7k-binarized](https://huggingface.co/datasets/argilla/distilabel-capybara-dpo-7k-binarized) 在 LDJnr/Capybara 上使用 distilabel 构建的 DPO 数据集。多回合对话数据是微调聊天模型的关键。最相关的 RLHF 作品（Anthropic、Meta Llama2 等）已使用多回合偏好数据。不幸的是，DPO/RLHF 的多轮开放数据集很少。该数据集是填补开源 AI 社区这一空白的一系列数据集中的第一个。该数据集是一个多回合偏好数据集，用于提高开源的聊天能力LLMs。选择和拒绝的配对按照 OpenAI 的对话格式进行格式化，用户和助手之间可能会有几次轮换。要将此数据集用于 DPO，请仅使用最后一条助手消息作为 chosen / rejected ，其余消息用作 prompt 。
+
+* [argilla/dpo-mix-7k](https://huggingface.co/datasets/argilla/dpo-mix-7k) 将 Argilla 构建的 DPO 数据集与 distilabel 相结合的小型鸡尾酒。此数据集的目标是通过仅过滤高评级的选定响应来获得一个小型、高质量的 DPO 数据集。
+
+* [commoncrawl.org](https://commoncrawl.org/) Common Crawl 维护着一个免费、开放的 Web 爬虫数据存储库，任何人都可以使用。Common Crawl 是一家成立于 2007 年的 501(c)(3) 非营利组织。我们为研究人员提供开放网络数据的大规模提取、转换和分析。超过 2500 亿个网页，跨越 17 年。自 2007 年以来免费开放语料库。在超过10,000篇研究论文中被引用。每月添加 3-50 亿个新页面。
+
+* [sheng-z.github.io/ReCoRD-explorer](https://sheng-z.github.io/ReCoRD-explorer/) 一个需要常识推理的大规模阅读理解数据集。ReCoRD 由从 CNN/Daily Mail 新闻文章自动生成的查询组成;每个查询的答案都是相应新闻的总结段落中的文本跨度。ReCoRD的目标是评估机器在阅读理解方面的常识推理能力。ReCoRD 包含来自 70,000+ 篇新闻文章的 120,000+ 个查询。每个查询都经过众包工作者的验证。与现有的阅读理解数据集不同，ReCoRD包含大量需要常识推理的查询，因此为未来的研究弥合人类和机器常识阅读理解之间的差距提出了很好的挑战。
+
+* [allenai.org/data/quoref](https://allenai.org/data/quoref) Quoref 是一个 QA 数据集，用于测试阅读理解系统的核心推理能力。在这个跨度选择基准中，包含来自维基百科的 4.7K 个段落的 24K 个问题，系统必须在段落中选择适当的跨度来回答问题之前解决硬共引用问题。
+
+* [allenai.org/data/drop](https://allenai.org/data/drop) 对段落内容的离散推理（Discrete Reasoning Over the content of Paragraphs ），最近引入了许多不同的阅读理解数据集来研究自然语言中的各种现象，从简单的释义匹配和实体类型到实体跟踪和理解上下文的含义。
+
+* [www.natcorp.ox.ac.uk](http://www.natcorp.ox.ac.uk/) 英国国家语料库 （BNC） 是一个 1 亿字的书面和口语样本集合，来自各种来源，旨在代表 20 世纪后期英国英语的广泛横截面，包括口语和书面语。
+
+* [data.statmt.org/news-crawl](https://data.statmt.org/news-crawl/) 通过爬虫技术获得的各种语言的新闻内容。
+
+* [argilla/distilabel-intel-orca-dpo-pairs](https://huggingface.co/datasets/argilla/distilabel-intel-orca-dpo-pairs) 该数据集是广泛使用的数据集的“分布式标记”版本：Intel/orca_dpo_pairs。原始数据集已被 100 多个开源从业者和模型使用。我们从修复UltraFeedback（以及在此之前的Alpacas和Dollys）中知道，这个数据集可以得到很大的改进。为了继续我们的使命，为开源LLMs和社区构建最佳的对齐数据集，我们花了几个小时使用 distilabel 对其进行改进。原始数据集只是假设 gpt4/3.5-turbo 始终是最佳响应。我们从UltraFeedback中了解到，情况并非总是如此。此外，DPO 微调受益于偏好对的多样性。
+
+* [BAAI/CCI-Data](https://huggingface.co/datasets/BAAI/CCI-Data) 随着大型语言模型的快速发展，工业界和学术界对高质量数据集的需求也在不断增长。这些数据集不仅需要包含海量信息，还需要严格的筛选和清理，以确保其准确性以及下游模型和应用程序的安全性。然而，目前业内流行的公共数据集存在一定的质量和安全风险，尤其是在中国领域，优质数据集尤其缺乏。此外，构建一个安全的中文数据集也面临着许多挑战。因此，构建一个经过严格筛选和标准化处理的数据集，对于公司的LLMs创新发展尤为重要。我们的CCI（中国语料库互联网）数据集由来自中国大陆互联网站点的高质量，值得信赖的来源组成。它经过了严格的数据清理和重复数据删除，在内容质量方面进行了有针对性的检测和过滤。数据处理的规则包括：基于规则的过滤：基于密度的提取、关键词过滤、垃圾信息过滤、简体中文和繁体中文的转换等。基于模型的过滤：通过训练分类模型过滤低质量内容。重复数据删除：数据集内和数据集之间的重复数据删除。此外，针对预训练数据规模大、容易导致评价数据泄露的问题，在数据处理阶段，我们特意对当前几个主流的中国评价数据集进行了严格的筛选和过滤。发布的 CCI 语料库 （CCI v1.0.0） 大小为 104GB。数据集的总时间跨度为 2001 年 1 月至 2023 年 11 月。
+
+* [bigcode/the-stack](https://huggingface.co/datasets/bigcode/the-stack) 包含超过 6TB 的许可源代码文件，涵盖 358 种编程语言。该数据集是作为 BigCode 项目的一部分创建的，BigCode 项目是一个开放的科学合作项目，致力于负责任地开发代码的大型语言模型 （代码LLMs）。用作代码LLMs的预训练数据集，即代码生成 AI 系统，它能够从自然语言描述以及其他代码片段中合成程序。
+
+* [databricks/databricks-dolly-15k](https://huggingface.co/datasets/databricks/databricks-dolly-15k) 开源数据集，其中包含数千名 Databricks 员工在 InstructGPT 论文中概述的几个行为类别中生成的指令跟踪记录，包括头脑风暴、分类、封闭式 QA、生成、信息提取、开放式 QA 和摘要。根据知识共享署名-相同方式共享 3.0 未本地化版本许可的条款，该数据集可用于任何目的，无论是学术目的还是商业目的。Databricks 员工被邀请在八个不同的指令类别中的每一个类别中创建提示/响应对，包括 InstructGPT 论文中概述的七个，以及一个开放式自由格式类别。贡献者被指示避免使用来自网络上除维基百科以外的任何来源的信息（针对指令类别的特定子集），并明确指示避免使用生成式人工智能来制定指令或响应。
+
+* [HuggingFaceFW/fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) 由超过 15T 个来自 CommonCrawl 的清理和重复数据删除的英文 Web 数据组成。数据处理管道针对LLM性能进行了优化，并在我们的大规模数据处理库 datatrove 上运行。FineWeb 最初是 RefinedWeb 的完全开放复制，在 ODC-By 1.0 许可下发布完整数据集。然而，通过仔细添加额外的过滤步骤，我们成功地将 FineWeb 的性能推高到远高于原始 RefinedWeb 的性能，并且在我们的数据集上训练的模型也优于在其他常用的高质量 Web 数据集（如 C4、Dolma-v1.6、The Pile、SlimPajama、RedPajam2）上训练的模型。也就是说，我们认为仍有进一步过滤和改进的空间，并打算继续探索如何在即将到来的 FineWeb 版本中提高数据集质量。
+
+* [HuggingFaceTB/cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia) 由 Mixtral-8x7B-Instruct-v0.1 生成的合成教科书、博客文章、故事、帖子和 WikiHow 文章的数据集，该数据集包含超过 3000 万个文件和 250 亿个令牌，使其成为迄今为止最大的开放合成数据集。它涵盖了各种主题;我们试图映射 RefinedWeb 和 RedPajama 等 Web 数据集中存在的世界知识，并生成涵盖它们的合成内容。数据集由 8 个拆分组成，具体取决于拆分中使用的种子数据的来源。当我们要求不同的风格（例如学术教科书与博客文章）或受众（例如幼儿与大学生）时，一些种子样本可能会出现不止一次。例如，每个 stanford 示例都与 4 种不同的提示样式和受众一起使用，请查看 format 和 audience 列了解更多详细信息。我们观察到，相应地调整受众和提示风格可以显着增强多样性;通过MinHash消除重复的比例低于1%。
+
+* [annas-archive.org/datasets](https://annas-archive.org/datasets) 人类历史上最大的真正开放的图书馆。我们镜像了 Sci-Hub 和 LibGen。我们抓取和开源 Z-Lib、DuXiu 等。30,445,640 本书，100,357,126 篇论文——永久保存。我们所有的代码和数据都是完全开源的。我们的使命是存档世界上所有的书籍（以及报纸、杂志等），并使它们被广泛访问。我们认为，所有书籍都应该广泛镜像，以确保冗余和弹性。这就是为什么我们将来自各种来源的文件汇集在一起的原因。有些来源是完全开放的，可以批量镜像（例如Sci-Hub）。其他人是封闭的和保护性的，所以我们试图抓取它们以“解放”他们的书。还有一些则介于两者之间。我们所有的数据都可以下载，我们所有的元数据都可以生成或下载为 ElasticSearch 和 MariaDB 数据库。原始数据可以通过这样的 JSON 文件手动浏览。
+
+* [stanfordnlp.github.io/coqa](https://stanfordnlp.github.io/coqa/) 用于构建会话问答系统的大规模数据集。CoQA 挑战的目标是衡量机器理解文本段落和回答对话中出现的一系列相互关联的问题的能力。CoQA 包含 127,000+ 个问题，答案来自 8000+ 个对话。每个对话都是通过配对两个众包工作者以问答的形式聊天来收集的。CoQA 的独特功能包括 1） 问题是对话式的;2）答案可以是自由格式的文本;3）每个答案还带有段落中突出显示的证据子序列;4）这些段落是从七个不同的领域收集的。CoQA有许多具有挑战性的现象，这些现象在现有的阅读理解数据集中不存在，例如，共指和语用推理。
+
+* [中文成语语义推理数据集(CINLID)](https://www.luge.ai/#/luge/dataDetail?id=39) 收集了106832条由人工撰写的成语对（含少量歇后语、俗语等短文本），通过人工标注的方式进行平衡分类，标签为entailment、contradiction和neutral，支持自然语言推理（NLI）的任务。entailment：表示含义很接近，前者涵盖了后者或者语义完全相同，即近义词或者同义词/等义词。如开心、快乐；美丽、漂亮。它对应于上述提及的同一关系、包含关系。neutral：表示语义上无明显关联性、不属于同一语义范畴的词汇。它对应于上述提及的分离关系。contradiction：表示两个含义相反的词，包括绝对反义词和相对反义词2类，即分为成对的意义相反、互相对立的词。如：真——假，动——静，拥护——反对。这类反义词所表达的概念意义互相排斥。或成对的经常处于并举、对立位置的词。如：黑——白，高山——平地。这类反义词没有矛盾对立关系，但对比鲜明。这种情况较复杂，它对应于上述提及的分离关系和重叠关系。比如，黑、白虽是反义，但都同属颜色这个大类，有一定的主题重叠关系；但它们的方向相反，有一定的分离倾向，对应上述提及的重叠关系。注：训练集80124 条，测试集26708条。
+
+* [Project Gutenberg](https://www.gutenberg.org/) 古腾堡计划，拥有 70,000 多本免费电子书的图书馆。您将在这里找到世界上最伟大的文学作品，重点是美国版权已过期的旧作品。数以千计的志愿者将电子书数字化并认真校对，供您欣赏。古腾堡计划是第一家免费电子书或电子书的提供商。古腾堡计划的创始人迈克尔·哈特 （Michael Hart） 于 1971 年发明了电子书，他的记忆至今仍激励着电子书和相关内容的创作。迈克尔·哈特（Michael Hart）在2004年的一篇文章中提供了有关使命宣言的更多细节，以及指导古腾堡计划完成该使命的活动的一些信念。
+
+* [smashwords.com](https://www.smashwords.com/about) 欢迎来到 Smashwords 商店！浏览近 100 万本原创电子书，包括每天免费定价的约 100,000 本。强大的搜索工具可让您轻松找到下一本精彩读物。Smashwords 是一家电子书零售商，为全球读者提供服务。截至 2022 年底，Smashwords 正在帮助全球超过 160,000 名作者和小型出版社出版和发行近 600,000 本电子书。 同样到 2022 年底，Smashwords Store 连续第六年实现销售额增长，再创纪录。 
+
+* [data.baai.ac.cn/BAAI-MTP](https://data.baai.ac.cn/details/BAAI-MTP) 北京智源人工智能研究院信息检索与知识计算组构建并对外发布数据集MTP（Massive Text Pairs）。MTP由总计3亿条中英文关联文本对构成；其中，中文记录达1亿条，英文数据达2亿条。MTP为迄今开源的最大规模中英文关联文本对数据集，为训练中英文语义向量模型提供了重要的基础。通过对现有可用的中英文网络文本数据进行收集、整理，我们最终获得了总计3亿条的文本对数据(1.3TB)，其中英文文本对2亿条(634GB)，中文文本对1亿条(666GB)。包括：wudao，cmrc2018，dureader，simclue，csl，amazon_reviews_multi，wiki_atomic_edits，mlqa，xlsum，Misc*，sentence-transformers Data，wikipedia，cc-net，stackexchange，reddit，S2orc
+
+* [paracrawl.eu](https://paracrawl.eu/) 更广泛/持续地提供欧洲语言的平行语料库。该语料库是作为 ParaCrawl 项目的一部分发布的，该项目由欧盟通过连接欧洲基金共同资助。第 9 版是 ParaCrawl Action 3 的最终版本：“继续为欧洲语言提供并行语料库的 Web-Scale”。
+
+* [UNCorpus 联合国平行语料库
+](https://conferences.unite.un.org/UNCorpus) 联合国平行语料库 v1.0 由公有领域的联合国正式记录和其他会议文件组成。这些文件大多以联合国六种正式语文提供。该语料库的当前版本包含 1990 年至 2014 年间生成和手动翻译的内容，包括句子级别的对齐方式。该语料库的创建是联合国对使用多种语文的承诺的一部分，也是对统计机器翻译（SMT）在大会和会议管理部（DGACM）翻译服务和联合国SMT系统（Tapta4UN）中日益增长的重要性的反应。语料库的目的是允许访问多语言语言资源，并促进各种自然语言处理任务（包括机器翻译）的研究和进展。为方便起见，该语料库还预先打包为特定语言的双文本和六种语言的平行语料库子集。联合国平行语料库不作任何明示或暗示的保证。联合国对联合国语料库所载资料的准确性或完整性不作任何具体保证或陈述。在任何情况下，联合国均不对声称因使用联合国语料库而招致或遭受的任何损失、责任、伤害或损害负责。使用联合国语料库的风险由用户自行承担。用户明确承认并同意，联合国不对任何用户的行为负责。如果用户对联合国语料库中提供的任何材料不满意，用户的唯一和排他性补救措施是停止使用联合国语料库。
+
+* [skylion007/OpenWebTextCorpus](https://skylion007.github.io/OpenWebTextCorpus/) 旨在重现 OpenAI 的 WebText 数据集，详见此处。此发行版由布朗大学的 Aaron Gokaslan 和 Vanya Cohen 创建。以下文章概述了重现数据集所采取的步骤，并为那些寻求为其进一步发展做出贡献的人提供了信息。我们首先从 Reddit 提交数据集中提取所有 Reddit 帖子 URL。这些链接经过重复数据删除，过滤以排除非 html 内容，然后随机洗牌。然后，这些链接被并行分发到几台机器上供下载，并使用报纸python包提取所有网页。使用Facebook FastText，过滤掉了非英语网页。随后，使用局部敏感度哈希 （LSH） 识别近乎重复的文档。文档被散列成 5 克的集合，所有相似性阈值大于 0.5 的文档都被删除。其余文档被标记化，标记少于 128 的文档被删除。这从 8,013,769 个文档中留下了 38GB 的文本数据（使用 SI 单位为 40GB）。鉴于 OpenAI 发布的有关 WebText 和 GPT-2 的信息有限，我们承认数据集可能还有进一步改进的空间。因此，我们欢迎您的贡献和改进建议。我们希望这个数据集的可用性能够鼓励进一步复制 GPT-2 的工作，并被证明对其他项目有用。我们将很快在 master 分支上发布更多代码。
+
+* [archive.org/stackexchange](https://archive.org/download/stackexchange) archive.org 存档的 stackexchange 的文件
+
+* [data.baai.ac.cn/ArabicText-2022](https://data.baai.ac.cn/details/ArabicText-2022) 北京智源人工智能研究院认知模型与数据研究团队与埃及阿拉伯科技与海运学院（AASTMT）、亚历山大图书馆（BA）、阿布扎比阿联酋起源人工智能研究院（IIAI）等阿拉伯语国家和地区优势高校院所和科研机构合作，构建了目前全球数据量最大的开源阿拉伯语预训练数据集ArabicText 2022，可用于阿拉伯语语言模型的训练。通过对现有可用的阿拉伯语网络文本数据进行收集、整理、扩充和清洗，我们最终获得了200GB+的高质量预训练文本。在数据清洗过程中，我们基于支撑WuDaoCorpora的网页文本深度清洗工具WudaoCleaner，针对阿语进行了高度适配和优化，同时我们将开源的阿语文本清洗库ArabertPreprocessor融入清洗流程中，保证了清洗后的文本质量。相较于现有开源阿语文本数据集，我们此次开源的数据集的体量为全球最大，且新闻、资讯、百科等文字与知识富集类数据占比超过65%，有利于模型从数据中学习到更多的先验知识。
+
+* [data.baai.ac.cn/OL-CC](https://data.baai.ac.cn/details/OL-CC) OpenLabel-Chinese Conversations Dataset (OL-CC) 是首个以众包方式、人工生成的开源中文对话指令集，基于 openlabel.baai.ac.cn 开放平台进行数据收集，包含 10k+ “指令-回答”数据对和 1.6k+ 人工指令数据。指令类型丰富，包括问答任务、文本写作、文本抽取、编辑改写、分类选择、头脑风暴、 闲聊对话、逻辑&数学等任务。截至目前，已有 276 位志愿者参与了数据集的建设。志愿者完成了以下任务：a) 扮演人类用户向AI助手发出指令，b) 扮演AI助手根据上文指令撰写回答。两个任务为异步任务，因此本数据集分为两个部分：a) 完整的“指令-回答”对，b) 尚没有被回答的指令。
+
+* [中文语言理解和生成评测基准-cuge](http://cuge.baai.ac.cn) CUGE包含高质量中文自然语言处理数据集、排行榜与在线评测平台，旨在构建全面系统的中文机器语言能力评测体系，形成多层次维度的评测方案，力求更加科学、规范、高质量地推进中文自然语言处理技术的标准评测。数据集包括：语言理解能力-词句级、语言理解能力-篇章级、信息获取及问答能力、语言生成能力、对话交互能力、多语言能力、数学推理能力。CUGE由北京智源人工智能研究院支持于2021年12月30日建成，委员单位由15个国内优势科研单位组成，旨在构建全面系统的中文机器语言能力评测体系，形成多层次维度的评测方案，力求更加科学、规范、高质量地推进中文自然语言处理技术的标准评测。自2023年1月开始，CUGE的研发及建设由清华大学人工智能研究院、中文中文信息学会计算语言学专业委员会共同支持。
+
+* [super.gluebenchmark.com](https://super.gluebenchmark.com/) 在过去的一年里，用于预训练和迁移学习的新模型和方法在一系列语言理解任务中推动了显着的性能改进。一年多前推出的 GLUE 基准测试提供了一个单一数字的指标，总结了各种此类任务的进展，但该基准测试的性能最近超过了非专家人类的水平，这表明进一步研究的空间有限。在本文中，我们介绍了 SuperGLUE，这是一个以 GLUE 为风格的新基准测试，具有一组新的更困难的语言理解任务、一个软件工具包和一个公共排行榜。SuperGLUE 可在此 http URL 上获得。
+
+* [dumps.wikimedia.org](https://dumps.wikimedia.org/) 维基媒体下载，所有维基媒体wiki的完整副本，以wiki文本源和嵌入XML的元数据的形式出现。此外，还提供了许多 SQL 形式的原始数据库表。这些快照至少每月提供一次，通常每月提供两次。如果您是这些转储的常规用户，请考虑订阅 xmldatadumps-l 以获取定期更新。所有维基百科wiki中所有页面的副本，以HTML形式呈现。
+
+* [text-machine.cs.uml.edu/quail](https://text-machine.cs.uml.edu/lab2/projects/quail/) 一种新的问答数据集，它结合了常识性、基于文本和无法回答的问题，针对不同的类型和推理类型进行了平衡。9 种推理类型的推理类型注释：时间推理、因果推理、事实推理、共指推理、字符属性、其信念状态、后续实体状态、事件持续时间和不可回答。类型：CC 许可小说、美国之音新闻、博客、Quora 800 文本中的用户故事，每个 18 个问题（~14K 个问题）。
+
+* [PolyAI/banking77](https://huggingface.co/datasets/PolyAI/banking77) 由网上银行查询组成的数据集，并附有相应的意向。BANKING77数据集在银行领域提供了一组非常细粒度的意图。它包含 13,083 个客户服务查询，标记为 77 个意图。它专注于细粒度的单域意图检测。语言：英语。
+
+* [qgyd2021/lip_service_4chan](https://huggingface.co/datasets/qgyd2021/lip_service_4chan) 基于网站 吵架对线陪练员 的服务. 我们采用对话数据中的提问做 prompt, 然后调用 吵架对线陪练员 来获得答案.满嘴芬芳.
+
+* [alisawuffles/WANLI](https://huggingface.co/datasets/alisawuffles/WANLI) WANLI （Worker-AI Collaboration for NLI） 是用于自然语言推理 （NLI） 任务的 108K 英语句子对的集合。每个示例都是通过首先在 MultiNLI （Williams et al.， 2018） 中识别共享具有挑战性的推理模式的“口袋”示例来创建的，然后指示 GPT-3 编写具有相同模式的新示例。生成的示例集会自动过滤，以包含最有可能帮助模型训练的示例，最后由人工注释者进行标记和选择性修改。与现有的NLI数据集相比，万里具有独特的经验优势。值得注意的是，在 WANLI 而不是 MultiNLI（大 4 倍）上训练模型可以提高我们考虑的 7 个域外测试集的性能，包括 HANS 的 11% 和 Adversarial NLI 的 9%。
+
+* [community-datasets/eu_regulatory_ir](https://huggingface.co/datasets/community-datasets/eu_regulatory_ir) 欧盟 （EU） 有一个类似于组织监管合规的立法计划。根据《欧盟运作条约》（TFEU），所有公布的欧盟指令必须在国家层面生效。因此，所有欧盟成员国都必须通过一项法律，在指令规定的期限内（通常为 2 年）转换新发布的指令。在这里，我们有两个数据集，EU2UK 和 UK2EU，包含欧盟指令和英国法规，它们既可以作为查询，也可以作为文档，前提是英国法律与其转换的欧盟指令相关，反之亦然。
+
+* [community-datasets/gnad10](https://huggingface.co/datasets/community-datasets/gnad10) 10k 德语新闻文章数据集由来自奥地利在线报纸网站 DER Standard 的 10273 篇德语新闻文章组成。每篇新闻文章都由报纸雇用的专业论坛版主分为 9 类之一。该数据集是从原始的 One Million Posts 语料库扩展而来的。创建该数据集是为了支持德语中的主题分类，因为在英语数据集上有效的分类器在德语数据集上可能不那么有效，因为变形量更大，复合词更长。此外，该数据集可用作德语主题分类的基准数据集。
+
+* [community-datasets/setimes](https://huggingface.co/datasets/community-datasets/setimes) 英语和东南欧语言的平行语料库
+
+* [community-datasets/tapaco](https://huggingface.co/datasets/community-datasets/tapaco) 从 Tatoeba 数据库中提取的 73 种语言的免费释义语料库。Tatoeba是一个主要面向语言学习者的众包项目。其目的是为特定的语言结构和单词提供例句和翻译。释义语料库是通过用 Tatoeba 句子和句子之间的等价链接填充图形来创建的，“意思是同一事物”。然后遍历此图以提取释义集。应用了几个与语言无关的过滤器和修剪步骤来删除无趣的句子。对三种语言进行的人工评估表明，推断出的释义中有一半到四分之三是正确的，剩下的大多数释义要么是正确的，要么是微不足道的，要么是中和形态学区别的近乎释义。该语料库共包含190万个句子，每种语言有200-25万个句子。它涵盖了一系列语言，据我们所知，没有其他释义数据集存在。释义检测和生成已成为 NLP 中的热门任务，并越来越多地集成到各种常见的下游任务中，例如机器翻译、信息检索、问答和语义解析。大多数现有数据集仅涵盖一种语言（在大多数情况下为英语）或少数语言。此外，一些释义数据集侧重于词汇和短语，而不是句子释义，而其他释义数据集则使用机器翻译（半）自动创建。
+
+* [theatticusproject/cuad-qa](https://huggingface.co/datasets/theatticusproject/cuad-qa) 合同理解Atticus数据集 （CUAD） v1 是一个包含 510 个商业法律合同中 13,000 多个标签的语料库，这些标签已被手动标记，以识别律师在审查与公司交易相关的合同时寻找的 41 类重要条款。
+
+* [ibm/duorc](https://huggingface.co/datasets/ibm/duorc) DuoRC 数据集是一个英语语言数据集，其中包含从维基百科和 IMDb 电影情节上的众包 AMT 工作人员那里收集的问题和答案。工人们可以自由地从情节中挑选答案或综合自己的答案。它包含两个子数据集 - SelfRC 和 ParaphraseRC。SelfRC数据集完全建立在维基百科电影情节上。释义RC有从维基百科电影情节中写出的问题，答案是根据相应的IMDb电影情节给出的。abstractive-qa ：该数据集可用于训练抽象问答模型。一个抽象的问答模型由一个段落和一个问题提出，并期望生成一个多词答案。extractive-qa ：该数据集可用于训练抽取式问答模型。抽取式问答模型包含一段经文和一个问题，并有望预测段落中答案跨度的开始和结束。模型性能通过精确匹配和 F1 分数来衡量，。
+
+* [MBZUAI/Bactrian-X](https://huggingface.co/datasets/MBZUAI/Bactrian-X) Bactrain-X 数据集是 52 种语言的 3.4M 指令-响应对的集合，通过使用 Google 翻译 API 将 67K 英语指令 （alpaca-52k + dolly-15k） 翻译成 51 种语言获得。然后将翻译后的指令输入到 ChatGPT （ gpt-3.5-turbo ） 以获得其自然响应，从而产生 52 种语言的 3.4M 指令-响应对（52 种语言 x 67k 个实例 = 3.4M 个实例）。
+
+* [b3x0m/Chinese-H-Novels](https://huggingface.co/datasets/b3x0m/Chinese-H-Novels) 17plus小说语料库。
+
+* [allenai/sciq](https://huggingface.co/datasets/allenai/sciq) SciQ 数据集包含 13,679 个关于物理、化学和生物学等的众包科学考试问题。这些问题采用多项选择形式，每个选项有 4 个答案选项。对于大多数问题，都提供了带有正确答案支持证据的附加段落。
+
+* [microsoft/wiki_qa](https://huggingface.co/datasets/microsoft/wiki_qa) WikiQA语料库是一组公开可用的问题和句子对，用于研究开放领域的问答。
+
+* [allenai/social_i_qa](https://huggingface.co/datasets/allenai/social_i_qa) 我们介绍了社交智商：社交互动QA，这是一个用于测试社交常识智力的新问答基准。与许多先前关注物理或分类知识的基准相反，社会智商侧重于对人们的行为及其社会影响的推理。例如，给定一个动作，如“杰西看了一场音乐会”，以及一个像“杰西为什么要这样做？”这样的问题，人们可以很容易地推断出杰西想“看他们最喜欢的表演者”或“享受音乐”，而不是“看看里面发生了什么”或“看看它是否有效”。Social IQa 中的动作跨越了各种各样的社交场合，答案候选人既包含人工策划的答案，也包含对抗性过滤的机器生成的候选人。Social IQa 包含超过 37,000 个 QA 对，用于评估模型推理日常事件和情况的社会影响的能力。
+
+* [m-a-p/Matrix](https://huggingface.co/datasets/m-a-p/Matrix) 一个包含46900亿个词元的开源预训练数据集，这个包含中英文文本的双语数据集用于训练neo模型。数据集由多个组件组成，每个组件来自不同的来源，并在语言建模和处理中用于各种目的。以下是每个组件的简要概述：摘自 Common Crawl 项目，具有丰富多样的互联网文本，包括网站、博客、新闻文章等。编码相关数据的集合。由涵盖广泛学科的学术和研究论文组成，提供技术和特定领域的语言。包括一系列已出版书籍的文本，包括文学、非小说类、教科书等。主要以 Q&A 格式提供文本集合。包含学术考试中使用的各种教材和评估。来自各种新闻来源的文本集合，报道时事和新闻报道。来自各种百科全书来源的文章，不限于维基百科，涵盖了广泛的主题和信息。包括专利文件中的文本，提供发明及其应用的详细说明。
+
+* [LooksJuicy/ruozhiba](https://huggingface.co/datasets/LooksJuicy/ruozhiba) 受COIG-CQIA启发，构建类似数据集，但答案风格相对更简洁。弱智吧精选问题数据来自github提供的疑问句，调用GPT-4获取答案，并过滤掉明显拒答的回复。
+
+* [Leymore/ruozhiba](https://github.com/Leymore/ruozhiba) 从百度弱智吧上收集的一系列帖子。旨在启发人们娱乐性使用 ChatGPT 等 LLM 时的思路。
+
+* [m-a-p/COIG-CQIA](https://huggingface.co/datasets/m-a-p/COIG-CQIA) 欢迎来到COIG-CQIA，COIG-CQIA全称为Chinese Open Instruction Generalist - Quality is All You Need， 是一个开源的高质量指令微调数据集，旨在为中文NLP社区提供高质量且符合人类交互行为的指令微调数据。COIG-CQIA以中文互联网获取到的问答及文章作为原始数据，经过深度清洗、重构及人工审核构建而成。本项目受LIMA: Less Is More for Alignment等研究启发，使用少量高质量的数据即可让大语言模型学习到人类交互行为，因此在数据构建中我们十分注重数据的来源、质量与多样性，数据集详情请见数据介绍以及我们接下来的论文。来自零一万物、中科院深圳先进技术研究院，和M-A-P等机构的研究者们。本数据集主要语言为中文。本数据集适用于指令微调，训练模型具备响应指令的能力。
+
+* [m-a-p/CodeFeedback-Filtered-Instruction](https://huggingface.co/datasets/m-a-p/CodeFeedback-Filtered-Instruction) 从四个著名的开源代码指令调优数据集中提取的精选代码指令查询集合：Magicoder-OSS-Instruct、ShareGPT 的 Python 代码子集、Magicoder-Evol-Install 和 Evol-Instruct-Code。最初，从这些数据集中聚合了 287k 个查询。为了分离出最复杂和最翔实的指令，采用了严格的过滤过程。这涉及利用开源聊天模型 Qwen-72B-Chat 进行选择性过滤。代码查询及其在编译数据集中的相应响应由 LLM分配的复杂度分数（从 1 到 5）进行评估，并且仅保留评级为 4 或 5 的代码查询作为种子集。这种细致的过滤过程最终收集了 156k 条高质量的单轮代码指令。
+
+* [m-a-p/CMMMU](https://huggingface.co/datasets/m-a-p/CMMMU) CMMMU包括从大学考试，测验和教科书中手动收集的12k个多模态问题，涵盖六个核心学科：艺术与设计，商业，科学，健康与医学，人文与社会科学以及技术与工程，就像它的同伴MMMU一样。这些问题涉及 30 个主题，包括 39 种高度异质的图像类型，例如图表、图表、地图、表格、乐谱和化学结构。
+
+* [m-a-p/MusicPile](https://huggingface.co/datasets/m-a-p/MusicPile) 用于在大型语言模型中发展音乐能力的预训练语料库。它有 5.17M 个样本和大约 4.16B 个词元，包括网络爬虫语料库、百科全书、音乐书籍、youtube 音乐字幕、abc 符号的音乐作品、数学内容和代码。
+
+* [m-a-p/MusicPile-sft](https://huggingface.co/datasets/m-a-p/MusicPile-sft) MusicPile-sft 是 MusicPile 的一个子集。它包含 1.14M 个样本，音乐语言与乐谱（abc 符号）的比例为 2：1。
+
+* [BAAI/Infinity-Instruct](https://huggingface.co/datasets/BAAI/Infinity-Instruct) 指令数据的质量和规模对于模型性能至关重要。最近，开源模型越来越依赖于包含数百万个实例的微调数据集，因此需要高质量和大规模。然而，开源社区长期以来一直受到构建如此广泛和高质量的指令微调数据集的高成本的制约，这限制了相关的研究和应用。为了弥补这一差距，我们推出了 Infinity Instruct 项目，旨在开发一个大规模、高质量的指令数据集。为了构建一个千万级的高质量指令数据集，我们收集了大量的开源数据作为种子，并使用指令选择和指令演化两种策略对数据集进行迭代。我们建议应用基础数据集，其中包含从开源数据集中选择的数百万条指令，以提高模型在具有挑战性的下游任务（例如，代码、数学）上的性能。我们建议应用聊天数据集，其中包含从一小部分高质量种子数据演变而来的大约 1M 条指令，以进一步提高模型在真实对话场景中的指令跟随能力。我们的数据集版本信息如下：从开源社区收集大规模的指导数据。数据源如下所示：OpenHermes-2.5、UltraInteract_sft、CodeBagel、CodeFeedback-Filtered-Instruction、self-oss-instruct-sc2-exec-filter-50k、CodeExercise-Python-27k、Evol-Instruct-Code-80k-v1、MathInstruct、orca-math-word-problems-200k、MetaMathQa。
+
+* [LSDSem/story_cloze](https://huggingface.co/datasets/LSDSem/story_cloze) “故事完形填空测试”是一种新的常识推理框架，用于评估故事理解、故事生成和脚本学习。这个测试要求一个系统为一个四句话的故事选择正确的结局。
+
+* [nyu-mll/multi_nli](https://huggingface.co/datasets/nyu-mll/multi_nli) 多类型自然语言推理 （MultiNLI） 语料库是一个众包集合，包含 433k 个句子对，并带有文本蕴涵信息注释。该语料库以 SNLI 语料库为蓝本，但不同之处在于它涵盖了一系列类型的口语和书面文本，并支持独特的跨体裁概括评估。该语料库是哥本哈根EMNLP的RepEval 2017研讨会共同任务的基础。
+
+* [codefuse-ai/CodeExercise-Python-27k](https://huggingface.co/datasets/codefuse-ai/CodeExercise-Python-27k) 该数据集由 27K Python 编程练习（英文）组成，涵盖数百个与 Python 相关的主题，包括基本语法和数据结构、算法应用、数据库查询、机器学习等。请注意，此数据集是在教师模型和 Camel 的帮助下生成的，没有经过严格的验证。问题或答案中可能存在错误或语义重复，因此请谨慎使用。
+
+* [nickrosh/evol-teacher](https://github.com/nickrosh/evol-teacher) 开源 WizardCoder 数据集，此存储库实现了 WizardCoder 白文中描述的代码生成指令过程。目前，WizardCoder 是性能最高的代码生成模型之一，仅次于 ChatGPT。它采用 Code Alpaca 20k 数据集，并通过随机选择的进化提示来演化每条指令，以增加指令的复杂性。这些提示的范围从增加时间/空间复杂性到增加需求，再到添加错误代码以提高鲁棒性等。这通过修剪和后处理完成三次，以删除不需要的指令和响应。与Alpaca方法中通常生成的指令相比，更复杂的迭代添加提供了更高质量和更深入的指令。这与 WizardCoder 和 WizardLM 的情况一样，可以带来非常接近 RLHF 模型性能的强大性能。
+
+* [TIGER-Lab/MathInstruct](https://huggingface.co/datasets/TIGER-Lab/MathInstruct) 精心策划的指令调优数据集，轻量级但可通用。MathInstruct 由 13 个数学原理数据集编译而成，其中 6 个是这项工作新策划的。它特别关注思维链 （CoT） 和思维程序 （PoT） 原理的混合使用，并确保广泛覆盖不同的数学领域。
+
+* [microsoft/orca-math-word-problems-200k](https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k) 该数据集包含 ~200K 个小学数学单词问题。此数据集中的所有答案都是使用 Azure GPT4-Turbo 生成的。有关数据集构建的详细信息，请参阅 Orca-Math： Unlocking the potential of SLM in Elementary School Math。该数据集旨在增强语言模型的数学能力。它旨在为语言模型提供坚实的基础，使其在数学问题解决方面表现出色。
+
+* [meta-math/MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) 所有 MetaMathQA 数据都是从 GSM8K 和 MATH 的训练集增强的。所有增强数据均来自测试集。
+
+* [stanfordnlp/sentiment140](https://huggingface.co/datasets/stanfordnlp/sentiment140) Sentiment140 由带有表情符号的 Twitter 消息组成，这些表情符号用作情绪分类的嘈杂标签。
+
+* [IWSLT/iwslt2017](https://huggingface.co/datasets/IWSLT/iwslt2017) IWSLT 2017 多语言任务通过单一的 MT 系统处理文本翻译，包括零样本翻译，包括英语、德语、荷兰语、意大利语和罗马尼亚语。作为非官方任务，传统的双语文本翻译提供英语和阿拉伯语、法语、日语、中文、德语和韩语之间的翻译。
+
+* [ontonotes/conll2012_ontonotesv5](https://huggingface.co/datasets/ontonotes/conll2012_ontonotesv5) OntoNotes 语料库的最终版本，是一个大规模、多体裁、多语言的语料库，手动注释了句法、语义和话语信息。支持的任务：命名实体识别、共指解析、语义角色标记
+
+* [open-web-math/open-web-math](https://huggingface.co/datasets/open-web-math/open-web-math) OpenWebMath 是一个数据集，包含来自互联网的大部分高质量数学文本。它从 Common Crawl 上的 200B 多个 HTML 文件中过滤和提取到一组 630 万个文档，总共包含 14.7B 个令牌。OpenWebMath 旨在用于预训练和微调大型语言模型。OpenWebMath 包含来自 130k 多个不同域的文档，包括来自论坛、教育页面和博客的数据。该数据集包含涵盖数学、物理、统计学、计算机科学等的文档。
+
+* [nvidia/HelpSteer2](https://huggingface.co/datasets/nvidia/HelpSteer2) 开源的有用性数据集 （CC-BY-4.0），它支持对齐模型以变得更有帮助、更符合事实和连贯性，同时可以根据其响应的复杂性和冗长性进行调整。该数据集是与 Scale AI 合作创建的。HelpSteer 包含 21， 362 个样本，每个样本包含一个提示、一个响应以及响应的五个人工注释属性，每个属性的范围在 0 到 4 之间，其中越高意味着每个属性越好。连续样本（例如样本 1 与 2、3 与 4 ...）共享相同的提示，因此除了训练 SteerLM 回归 RM 之外，还可以将其用于基于有用性分数的偏好对（例如训练 DPO 或偏好 RM）。大约 29% 的提示是多回合的。在本例中，提示由所有用户轮次和除最后一个助手轮次之外的所有轮次组成，后者包含在响应字段中。这样做是因为属性值仅针对最后一个助手回合进行评估。
+
+* [stanfordnlp/imdb](https://huggingface.co/datasets/stanfordnlp/imdb) 大型电影评论数据集。这是一个用于二元情感分类的数据集，包含的数据比以前的基准数据集多得多。我们提供一套 25,000 条极性电影评论用于培训，25,000 条用于测试。还有其他未标记的数据可供使用。
+
+* [Samsung/samsum](https://huggingface.co/datasets/Samsung/samsum) SAMSum 数据集包含大约 16k 个类似信使的对话和摘要。对话是由精通英语的语言学家创建和记录的。语言学家被要求创建与他们每天写的对话相似的对话，以反映他们现实生活中信使对接的主题比例。风格和语域是多样化的——对话可以是非正式的、半正式的或正式的，它们可能包含俚语、表情符号和错别字。然后，用摘要对对话进行注释。人们认为摘要应该是人们在对话中以第三人称谈论的内容的简明扼要。SAMSum 数据集由波兰三星研发研究所编制，并出于研究目的分发（非商业许可：CC BY-NC-ND 4.0）。
+
+* [teknium/OpenHermes-2.5](https://huggingface.co/datasets/teknium/OpenHermes-2.5) Open Hermes 2.5 数据集是 Open Hermes 1 数据集的延续，规模更大、更多样化、质量更高，达到 100 万，主要是合成生成的指令和聊天样本。
+
+* [ceval/ceval-exam](https://huggingface.co/datasets/ceval/ceval-exam) C-Eval是一个全面的中文基础模型评估套件。它由 13948 道多项选择题组成，涵盖 52 个不同的学科和四个难度级别。每个主题由三个部分组成：dev、val 和 test。每个主题的开发集由五个示例组成，并附有对少镜头评估的解释。val 集旨在用于超参数优化。测试集用于模型评估。测试拆分上的标签不发布，用户需要提交结果才能自动获得测试精度。
+
+* [shareAI/ShareGPT-Chinese-English-90k](https://huggingface.co/datasets/shareAI/ShareGPT-Chinese-English-90k) 高质量的中英并行双语人机QA数据集，覆盖真实复杂场景下的用户问题。它用于训练高质量的对话模型（在指令分发方面比那些通过反复调用 API 接口来模拟机器生成的问答生成的数据集更健壮，如 Moss） 特征：提供语义完全等效的中英并行语料库，方便双语对话模型训练。所有问题都是来自用户的真实询问，而不是通过人工想象或 API 轮询（如 Moss）捏造的，更贴近用户场景的真实分布及其问题表达。ShareGPT 数据集是通过网民自愿分享收集的，充当自然过滤器（通过人类感知），筛选出大多数体验不佳的对话。注意：此数据集是在 ChatGPT 出现认知能力显着下降迹象之前收集的。（据推测，这可能部分是因为官方将 150B gpt3.5 替换为大约 10B 的蒸馏版本以减少开支，部分原因是引入更多拒绝响应导致模型连接知识和逻辑的能力下降。中英文平行双语优质人机问答数据集，覆盖真实复杂场景下的用户提问。用于训练高质量的对话模型 （比那些通过反复调用api接口生成机器模拟问答的数据在指令分布上更鲁棒） 特点：1.同时提供意义表达完全相同的中英文平行对照语料，可进行双语对话模型训练。2.所有问题均非人为臆想加上api轮询拟造的假数据（如Moss)，更加符合真实用户场景的指令分布和提问表达。3.sharegpt数据集是由网友自发分享而收集到的，相当于有一层非常天然的过滤（通过人类感觉），筛除了大部分体验不好的对话。
+
+* [BAAI/COIG-PC](https://huggingface.co/datasets/BAAI/COIG-PC) COIG-PC数据集是一个精心策划和全面的中文任务和数据集合，旨在促进中文自然语言处理（NLP）语言模型的微调和优化。该数据集旨在为研究人员和开发人员提供一套丰富的资源，以提高语言模型处理中文文本的能力，可用于文本生成、信息提取、情感分析、机器翻译等各个领域。COIG-PC 数据集是自然语言处理 （NLP） 领域的宝贵资源，原因有很多：解决语言复杂性：汉语以其错综复杂、字符种类繁多和语法结构多样而闻名。像 COIG-PC 这样专为中文量身定制的专用数据集对于在模型训练期间充分解决这些复杂性至关重要。全面的数据聚合：COIG-PC数据集是整合市场上几乎所有可用的中文数据集的广泛努力的结果。这种全面的聚合使其成为中国 NLP 最详尽的集合之一。重复数据删除和规范化：COIG-PC 数据集经过严格的手动处理，以消除重复数据并执行规范化。这确保了数据集没有冗余，数据一致且结构良好，使其对模型训练更加用户友好和高效。微调和优化：数据集基于指令的措辞有助于更好地微调和优化语言模型。这种结构使模型能够更好地理解和执行任务，这对于提高看不见或新任务的性能特别有益。COIG-PC数据集具有全面的汇总、细致的选择、重复数据删除和规范化功能，是训练和优化针对中国语言和文化量身定制的语言模型的无与伦比的资源。它解决了中文语言处理的独特挑战，并成为中文NLP进步的催化剂。
+
+* [Skywork/SkyPile-150B](https://huggingface.co/datasets/Skywork/SkyPile-150B) 综合性的大规模中文数据集，专门用于大型语言模型的预训练。它源自广泛的可公开访问的中文互联网网页。为了确保其质量，采用了严格的过滤、广泛的重复数据删除和彻底的敏感数据过滤。此外，我们还利用 fastText 和 BERT 等高级工具过滤掉低质量的数据。SkyPile-150B数据集的可公开访问部分包含大约2.33亿个独特的网页，每个网页平均包含1000多个汉字。该数据集总共包括大约 1500 亿个令牌和 620 GB 的纯文本数据。SkyPile-150B数据集完全由中国数据组成。我们利用超过 200w 的规则和 BERT 基础模型来确定数据集中存在的敏感数据，并随后删除了我们检测到的任何有害条目。尽管我们尽了最大努力，但SkyPile-150B，鉴于其从公开可用的网页构建，可能包含敏感信息，例如电子邮件地址，电话号码或IP地址。我们已努力通过重复数据删除和低质量过滤来最大程度地减少这种情况，但 SkyPile-150B 的用户应保持警惕。互联网上充斥着潜在的有毒或有偏见的数据。我们已尝试使用特定的 URL 过滤方法来缓解此问题，但我们鼓励用户保持对这一潜在问题的意识。
+
+* [wikimedia/wikipedia](https://huggingface.co/datasets/wikimedia/wikipedia) 该数据集是从维基百科转储 （ https://dumps.wikimedia.org/） 构建的，每种语言都有一个子集，每个子集都包含一个火车拆分。每个示例都包含一个完整的维基百科文章的内容，并清理以去除 Markdown 和不需要的部分（参考文献等）。该数据集通常用于语言建模。
+
+* [liwu/MNBVC](https://huggingface.co/datasets/liwu/MNBVC) 中文互联网上最古老最神秘(没有之一)的里屋社区于2023.1.1庄重宣布:在英明神武的里屋管子带领下，决心发挥社区所长(哪都长)，帮助开源社区长期更新一份最大的中文互联网语料集。Huggingface上的MNBVC数据集在逐渐更新中，请到https://github.com/esbatmop/MNBVC 获取未完成清洗的更多数据。MNBVC数据集包含数个子集：law_judgement: 来自法律文书的文本。gov_xuexiqiangguo: 来自学习强国的文本。gov_report: 来自政府工作报告的文本。co_ann_report: 企业年报文本。code_metadata: 代码元数据。qa_zhihu: 来自知乎的问答数据。qa_wikihow: 来自wikihow的问答数据。qa_mfa: 外交部问答数据。news_peoples_daily: 来自人民日报的文本数据。wikipedia: 来自维基百科的文本数据。qa_stackexchange: 来自StackExchange的问答数据。qa_chatgpt: 使用ChatGPT构造的问答语料，感谢genggui001贡献语料。math_qa : 和数学领域有关的问答数据。emath :中国数学爱好者论坛语料数据。math_chat: 和数学领域有关的对话数据数据，可以提升模型Chain of Thought的能力。crawler_oscar: 从CommonCrawl中清洗出来的通用文本数据。
+一些游戏的平行语料数据。Hogwarts_legacy : 霍格沃茨指遗。The_Wither_3 : 巫师三。
+
+* [m-a-p/COIG-CQIA](https://huggingface.co/datasets/m-a-p/COIG-CQIA) COIG-CQIA全称为Chinese Open Instruction Generalist - Quality is All You Need， 是一个开源的高质量指令微调数据集，旨在为中文NLP社区提供高质量且符合人类交互行为的指令微调数据。COIG-CQIA以中文互联网获取到的问答及文章作为原始数据，经过深度清洗、重构及人工审核构建而成。本项目受LIMA: Less Is More for Alignment等研究启发，使用少量高质量的数据即可让大语言模型学习到人类交互行为，因此在数据构建中我们十分注重数据的来源、质量与多样性。
 
 ## 关系抽取、信息抽取
 
@@ -3737,6 +3893,77 @@
 * [lonePatient/BERT-NER-Pytorch](https://github.com/lonePatient/BERT-NER-Pytorch) Chinese NER(Named Entity Recognition) using BERT(Softmax, CRF, Span)
 
 * [gaohongkui/GlobalPointer_pytorch](https://github.com/gaohongkui/GlobalPointer_pytorch) 全局指针统一处理嵌套与非嵌套NER的Pytorch实现
+
+* [DFKI-NLP/tacrev](https://github.com/DFKI-NLP/tacrev) TACRED（TAC Knowledge Base Population）是一个用于关系抽取任务的数据集，其中包含了从新闻文章中提取的实体对及其对应的关系标签。
+
+* [qgyd2021/chinese_ner_sft](https://huggingface.co/datasets/qgyd2021/chinese_ner_sft) 中文实体识别指令数据集
+收集开源的实体识别数据集, 将其制作为 sft 数据集用于 LLM 微调.该数据集的目的是构建通用实体识别的LLM研究.数据集分为三大类, {dataset_name}: 为对应的实体识别数据集.{dataset_name}_template: 是为各数据集编写的 prompt 模板, 因为各数据集的主题不同, 所以模板分别编写会更加准确.{dataset_name}_prompt: 是根据 {dataset_name} 和 {dataset_name}_template 合成的 prompt 数据集. .数据集从网上收集整理如下:CMeEE\CCKS2019_task1\CLUENER2020\MSRA\NLPCC2018_task4\CCFBDCI\MMC\WeiBo\ECommerce\YouKu\FinanceSina\Resume\Bank\DLNER
+
+* [qgyd2021/few_shot_ner_sft](https://huggingface.co/datasets/qgyd2021/few_shot_ner_sft) 小样本实体识别，收集实体识别的数据集, 将其整理成 prompt-response 的形式. 基于语言模型的实体识别.该数据集可用于:指令语言模型训练.数据集创建. (特定领域有少量标注数据时, 可与此数据集一起训练模型, 然后生成样本用于数据标注).在 prompt 生成过程中会加入一些 示例, 我们尽量使各实体的标签满足 n_way, n_shot.
+
+* [qgyd2021/h_novel](https://huggingface.co/datasets/qgyd2021/h_novel) SQ小说, 用于制作特殊的 GPT 语言模型..
+
+* [csebuetnlp/xlsum](https://huggingface.co/datasets/csebuetnlp/xlsum) 全面而多样化的数据集，包含来自 BBC 的 135 万个专业注释的文章摘要对，使用一组精心设计的启发式方法提取。该数据集涵盖了 45 种语言，从低资源到高资源，其中许多语言目前没有可用的公共数据集。XL-Sum 具有高度抽象性、简洁性和高质量，正如人类和内在评估所表明的那样。
+
+* [csebuetnlp/CrossSum](https://huggingface.co/datasets/csebuetnlp/CrossSum) 大型数据集，包括 1500+ 语言对的 170 万个跨语言文章摘要样本，构成 45 种语言。我们使用多语言 XL-Sum 数据集，并使用与语言无关的表示模型通过跨语言检索来对齐用不同语言编写的相同文章。
+
+* [sentence-transformers/embedding-training-data](https://huggingface.co/datasets/sentence-transformers/embedding-training-data) 该存储库包含用于训练文本嵌入模型的训练文件，例如使用句子转换器。
+
+* [stanfordnlp/snli](https://huggingface.co/datasets/stanfordnlp/snli) SNLI 语料库（1.0 版）是 570k 人工编写的英语句子对的集合，这些句子对经过手动标记，用于平衡分类，标签包括 entailment、contradiction 和 neutral，支持自然语言推理 （NLI） 的任务，也称为识别文本蕴涵 （RTE）。数据集中的语言是 Flickr 网站用户所说的英语，以及 Amazon Mechanical Turk 的众包工作者所说的语言。英语的 BCP-47 代码是 en。
+
+* [OpenAssistant/oasst2](https://huggingface.co/datasets/OpenAssistant/oasst2) Open Assistant 对话数据集第 2 版 （OASST2）,此数据集包含消息树。每个消息树都有一个初始提示消息作为根节点，该节点可以有多个子消息作为回复，并且这些子消息可以有多个回复。所有消息都有一个角色属性：可以是“assistant”或“prompter”。从提示到叶节点的对话线程中的角色在“提示器”和“助手”之间严格交替。
+
+* [oscar-corpus/oscar](https://huggingface.co/datasets/oscar-corpus/oscar) 庞大的多语言语料库，通过使用 goclassy 架构对 Common Crawl 语料库进行语言分类和过滤而获得。数据以原始形式和重复数据删除形式按语言分发。
+
+* [AndyChiang/cloth](https://huggingface.co/datasets/AndyChiang/cloth) CLOTH 是一个数据集，收集了来自初中和高中英语考试的近 100,000 道完形填空问题。
+
+* [allenai/quac](https://huggingface.co/datasets/allenai/quac) Question Answering in Context 是一个用于建模、理解和参与信息搜索对话的数据集。数据实例由两个众包工作者之间的交互式对话组成：（1）一个学生提出一系列自由格式的问题，以尽可能多地了解隐藏的维基百科文本，以及（2）一个教师通过提供文本的简短摘录（跨度）来回答问题。QuAC 引入了现有机器理解数据集中没有的挑战：它的问题通常更加开放、无法回答，或者仅在对话上下文中才有意义。数据集中的文本为英文文本。
+
+* [qgyd2021/sentence_pair](https://huggingface.co/datasets/qgyd2021/sentence_pair) 中文文本句子对数据集。包括：文本语义相似度、客服问句匹配、中文问题匹配、金融语义相似度、助手对话短文本语义匹配、医疗疾病问答迁移学习数据、新冠疫情相似句、自然语言推理数据。
+
+* [qgyd2021/rlhf_reward_dataset](https://huggingface.co/datasets/qgyd2021/rlhf_reward_dataset) 奖励模型数据集。数据集从网上收集整理如下:beyond/rlhf-reward-single-round-trans_chinese;dikw/hh_rlhf_cn;Anthropic/hh-rlhf;liyucheng/zhihu_rlhf_3k;stanfordnlp/SHP。
+
+* [stanfordnlp/SHP](https://huggingface.co/datasets/stanfordnlp/SHP) 包含 385K 个人类集体偏好，而不是对 18 个不同主题领域的问题/说明的回答，从烹饪到法律咨询。这些偏好旨在反映一种响应相对于另一种响应的有用性，并旨在用于训练 RLHF 奖励模型和 NLG 评估模型（例如，SteamSHP）。每个示例都是一个 Reddit 帖子，其中包含一个问题/说明和该帖子的一对顶级评论，其中一条评论更受 Reddit 用户（集体）的青睐。SHP 利用了这样一个事实，即如果评论 A 是在评论 B 之后写的，但仍然具有更高的分数，那么 A 表面上比 B 更受欢迎。如果 A 是在 B 之前写的，那么我们无法得出这样的结论，因为它的分数更高可能是可见性更高的结果。我们选择的数据，其中偏好标签旨在反映哪种反应更有帮助，而不是哪种危害更小，后者是过去许多工作的重点。SHP 与 Anthropic 的 HH-RLHF 数据集有何不同？最值得注意的是，SHP 中的所有数据都是自然发生的和人工编写的，而 HH-RLHF 中的响应是机器编写的，这为我们提供了两种可以相互补充的截然不同的分布。SHP 与其他抓取 Reddit 的数据集（如 ELI5）有何不同？SHP 使用时间戳信息来推断偏好，而 ELI5 仅提供评论和分数——后者不足以推断偏好，因为之前发表的评论往往会从更高的可见性中获得更高的分数。
+
+* [openbmb/UltraInteract_sft](https://huggingface.co/datasets/openbmb/UltraInteract_sft) 大规模、高质量的对齐数据集，专为复杂的推理任务而设计。对于每条指令，它都包含一个首选项树，由（1）具有统一格式的多种规划策略的推理链（2）与环境与批判的多回合互动轨迹（3）成对数据，促进偏好学习。UltraInteract 为每条指令收集一个首选项树，该指令是根指令，每个操作都是一个节点。轨迹是由一系列动作组成的从根到叶的路径。在每个首选项树中，正确操作的所有节点和所有以正确操作结尾的轨迹都可用于 SFT。配对的正确和不正确的节点或轨迹可用于偏好学习。以下是有关UltraInteract的一些统计数据。它由 86k 指令、286k 正确答案和 219k 对组成。
+
+* [pleisto/wikipedia-cn-20230720-filtered](https://huggingface.co/datasets/pleisto/wikipedia-cn-20230720-filtered) 本数据集基于中文维基2023年7月20日的dump存档。作为一项以数据为中心的工作，本数据集仅保留了 254,547条 质量较高的词条内容。具体而言：过滤了Template, Category, Wikipedia, File, Topic, Portal, MediaWiki, Draft, Help等特殊类型的词条。使用启发式的方法和自有的NLU模型过滤了一部分质量较低的词条。过滤了一部分内容较为敏感或存在争议性的词条。进行了简繁转换和习惯用词转换，确保符合中国大陆地区的习惯用词。
+
+* [BelleGroup/multiturn_chat_0.8M](https://huggingface.co/datasets/BelleGroup/multiturn_chat_0.8M) 包含约80万条由BELLE项目生成的用户与助手的多轮对话。注意：此数据集是由ChatGPT产生的，未经过严格校验，内容可能包含错误。使用过程中请注意这一点。instruction中包含多轮对话的上文内容，以Human:和Assistant:区分，output中包含当前助手角色的回答。
+
+* [Helsinki-NLP/opus-100](https://huggingface.co/datasets/Helsinki-NLP/opus-100) OPUS-100 是一个以英语为中心的多语言语料库，涵盖 100 种语言。OPUS-100 以英语为中心，这意味着所有训练对在源端或目标端都包含英语。语料库涵盖100种语言（包括英语）。这些语言是根据OPUS中可用的并行数据量选择的。OPUS-100 包含大约 55M 个句子对。在 99 个语言对中，44 个有 1M 个训练数据的句子对，73 个至少有 100k，95 个至少有 10k。
+
+* [bigscience/xP3](https://huggingface.co/datasets/bigscience/xP3) xP3（Crosslingual Public Pool of Prompts）是46种语言和16个NLP任务的提示和数据集的集合。它用于训练 BLOOMZ 和 mT0，多语言语言模型能够遵循数十种语言的人类指令。
+
+* [THUIR/T2Ranking](https://huggingface.co/datasets/THUIR/T2Ranking) 中国的大型排名基准。在信息检索（IR）领域，对于学术界和工业界来说，段落排名都是重要且具有挑战性的话题。段落排名的目标是编译一个搜索结果列表，根据与大型段落集合中的查询的相关性排序。通常，段落排名包括两个阶段：段落检索和段落重新排名。为了支持段落排名研究，构建了各种基准数据集。然而，用于段落排名的常用数据集通常集中在英语上。对于非英语场景，例如中文，现有数据集在数据规模、细粒度相关性标注和漏报问题等方面存在局限性。为了解决这个问题，我们引入了 T 2 Ranking，这是一个大规模的中国通过排名基准。T 2 Ranking 包括超过 300K 个查询和超过 2M 个来自真实世界搜索引擎的独特段落。具体来说，我们从搜狗搜索引擎的用户日志中抽取基于问题的搜索查询，搜狗搜索引擎是中国流行的搜索系统。对于每个查询，我们从不同的搜索引擎中提取相应文档的内容。经过基于模型的段落分割和基于聚类的段落重复数据消除，得到大规模的段落语料库。对于给定的查询及其相应的段落，我们聘请专家注释员为每个查询-段落对提供 4 级相关性判断。与现有数据集相比，T 2 Ranking数据集具有以下特点和优势：该数据集聚焦于中文搜索场景，与现有的中文段落排名数据集相比，在数据尺度上具有优势，可以更好地支持深度学习算法的设计；该数据集具有大量的细粒度相关标注，有助于挖掘查询和段落之间的细粒度关系，构建更准确的排序算法；通过从多个商业搜索引擎中检索段落结果并提供完整的注释，在一定程度上缓解了假阴性问题，有利于提供更准确的评估；我们设计了多种策略来保证数据集的高质量，例如使用段落段模型和段落聚类模型来增强段落的语义完整性和多样性，并采用主动学习的注释方法来提高数据注释的效率和质量。
+
+* [shibing624/nli_zh](https://huggingface.co/datasets/shibing624/nli_zh) 常见中文语义匹配数据集，包含ATEC、BQ、LCQMC、PAWSX、STS-B共5个任务。支持中文文本匹配任务，文本相似度计算等相关任务。数据集均是简体中文文本。
+
+* [nvidia/ChatRAG-Bench](https://huggingface.co/datasets/nvidia/ChatRAG-Bench) ChatRAG Bench 是评估模型对文档或检索上下文的对话 QA 能力的基准。ChatRAG Bench 建立在 10 个现有数据集之上并派生而来：Doc2Dial、QuAC、QReCC、TopioCQA、INSCIT、CoQA、HybriDialogue、DoQA、SQA、ConvFinQA。ChatRAG Bench 涵盖了广泛的文档和问题类型，这些文档和问题类型要求模型从长上下文中生成响应、理解和推理表格、进行算术计算以及指示何时在上下文中找不到问题。此处介绍了此基准测试的详细信息。
+
+* [nvidia/Aegis-AI-Content-Safety-Dataset-1.0](https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-1.0) Aegis AI 内容安全数据集是一个开源内容安全数据集 （CC-BY-4.0），遵循 Nvidia 的内容安全分类法，涵盖 13 个关键风险类别。Aegis AI 内容安全数据集由人类和LLMs人与人之间的近 11,000 似手动注释的交互组成，分为 10,798 训练样本和 1,199 测试样本。为了整理数据集，我们使用了来自Anthropic HH-RLHF的关于无害性的人类偏好数据的拥抱脸版本。我们只提取提示，并从 Mistral-7B-v0.1 中引出响应。Mistral 擅长遵循指令，并为内容审核类别生成高质量的响应。我们在系统提示中使用示例，通过指示 Mistral 不要生成类似的响应来确保多样性。我们的数据包括四种不同的格式：仅用户提示、带用户提示的系统提示、带 Mistral 响应的单轮用户提示和带 Mistral 响应的多轮用户提示。
+
+* [cimec/lambada](https://huggingface.co/datasets/cimec/lambada) LAMBADA通过单词预测任务评估计算模型的文本理解能力。LAMBADA 是叙事段落的集合，其共同特点是，如果人类受试者接触到整个段落，他们能够猜出他们的最后一个单词，但如果他们只看到目标单词之前的最后一个句子，则不能。为了在LAMBADA上取得成功，计算模型不能简单地依赖于本地上下文，而必须能够在更广泛的话语中跟踪信息。LAMBADA 数据集提取自 BookCorpus，由 10'022 个段落组成，分为 4'869 个开发段落和 5'153 个测试段落。在 LAMBADA 上测试的语言模型的训练数据包括 2'662 部小说的全文（与 dev+test 中的小说不相交），共计 2.03 亿字。数据集中的文本为英文文本。关联的 BCP-47 代码为 en 。
+
+* [stanfordnlp/sst2](https://huggingface.co/datasets/stanfordnlp/sst2) 斯坦福情感树库是一个具有完全标记的解析树的语料库，可以对语言中情感的组合效应进行全面分析。该语料库基于Pang和Lee（2005）引入的数据集，由从电影评论中提取的11,855个单句组成。它使用斯坦福解析器进行解析，包括来自这些解析树的总共 215,154 个独特的短语，每个短语都由 3 名人类法官注释。对完整句子的二元分类实验（否定或有点否定与有点肯定或肯定，丢弃中性句子）将数据集称为 SST-2 或 SST 二进制。数据集中的文本为英文 （ en ）。
+
+* [Replete-AI/code_bagel](https://huggingface.co/datasets/Replete-AI/code_bagel) 大约 8 亿个唯一编码数据，支持 100 多种编码语言。该数据集包含 320 万+行高质量、过滤、未经审查、重复数据删除、唯一的编码数据。创建此数据集的过程如下：下载所有单个数据集。使用 Meta.ai 创建代码，将数据集中的数据提取为 alpaca 格式，并为其中的大多数添加指令。使用相同的提取方法将所有数据集合并为 1 个数据集。使用 Claude.ai 创建代码以对数据进行重复数据删除和取消审查。
+
+* [fancyzhx/ag_news](https://huggingface.co/datasets/fancyzhx/ag_news) AG 收集了超过 100 万篇新闻文章。在一年多的活动中，ComeToMyHead 从 2000 多个新闻来源收集了新闻文章。ComeToMyHead是一个学术新闻搜索引擎，自2004年7月开始运行。该数据集由学术界提供，用于数据挖掘（聚类、分类等）、信息检索（排名、搜索等）、xml、数据压缩、数据流和任何其他非商业活动的研究目的。有关更多信息，请参阅链接 http://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html 。AG的新闻主题分类数据集由Xiang Zhang（xiang.zhang@nyu.edu）根据上述数据集构建。在以下论文中将其用作文本分类基准：Xiang Zhang， Junbo Zhao， Yann LeCun.用于文本分类的字符级卷积网络。神经信息处理系统进展 28 （NIPS 2015）。
+
+* [eriktks/conll2003](https://huggingface.co/datasets/eriktks/conll2003) CoNLL-2003 的共同任务涉及与语言无关的命名实体识别。我们将重点介绍四种类型的命名实体：不属于前三组的人员、地点、组织和杂项实体的名称。CoNLL-2003 共享任务数据文件包含四列，用一个空格分隔。每个单词都放在单独的行上，每个句子后面都有一个空行。每行的第一项是一个单词，第二项是词性 （POS） 标记，第三项是句法块标记，第四项是命名实体标记。块标记和命名实体标记的格式为 I-TYPE，这意味着该单词位于 TYPE 类型的短语中。只有当两个相同类型的短语紧跟在一起时，第二个短语的第一个单词才会带有标签 B-TYPE，以表明它开始了一个新短语。带有标签 O 的单词不是短语的一部分。请注意，数据集使用 IOB2 标记方案，而原始数据集使用 IOB1。
+
+* [defunct-datasets/amazon_reviews_multi](https://huggingface.co/datasets/defunct-datasets/amazon_reviews_multi) 我们提供了一个用于多语言文本分类的亚马逊商品评论数据集。该数据集包含2015年11月1日至2019年11月1日期间收集的英文、日文、德文、法文、中文和西班牙文综述。数据集中的每条记录都包含评论文本、评论标题、星级评定、匿名评论者 ID、匿名产品 ID 和粗粒度产品类别（例如“书籍”、“电器”等）语料库在星级之间是平衡的，因此每个星级评定占每种语言评论的 20%。对于每种语言，在训练、开发和测试集中分别有 200,000、5,000 和 5,000 条评论。每位评论者的最大评论数为 20 条，每个产品的最大评论数为 20 条。所有评论在 2,000 个字符后被截断，并且所有评论的长度至少为 20 个字符。请注意，评论的语言不一定与其市场的语言相匹配（例如，来自 amazon.de 的评论主要用德语撰写，但也可以用英语等撰写）。出于这个原因，我们应用了一种基于Bojanowski等人（2017）工作的语言检测算法来确定评论文本的语言，并删除了不是用预期语言编写的评论。
+
+* [defunct-datasets/amazon_us_reviews](https://huggingface.co/datasets/defunct-datasets/amazon_us_reviews) 亚马逊买家评论（又名产品评论）是亚马逊的标志性产品之一。自 1995 年首次评论以来的二十多年里，数百万亚马逊客户贡献了超过 1 条评论，以表达意见并描述他们对 Amazon.com 网站上产品的体验。这使得亚马逊买家评论成为自然语言处理 （NLP）、信息检索 （IR） 和机器学习 （ML） 等领域的学术研究人员的丰富信息来源。因此，我们将发布这些数据，以进一步研究与了解客户产品体验相关的多个学科。具体来说，该数据集的构建是为了表示客户评估和意见的样本、不同地理区域对产品的看法变化以及评论中的促销意图或偏见。作为此版本的一部分，研究人员可以获得超过 130+ 百万条客户评论。这些数据以 AWS 美国东部区域的 amazon-reviews-pds S3 存储桶中的 TSV 文件形式提供。数据文件中的每一行对应于一个单独的审阅（制表符分隔，没有引号和转义字符）。每个数据集都包含以下列： marketplace - 撰写评论的商城的 2 个字母的国家/地区代码。customer_id - 随机标识符，可用于汇总单个作者撰写的评论。review_id - 审阅的唯一 ID。product_id - 与评价相关的唯一商品编号。在多语言数据集中，同一产品在不同国家/地区的评论可以按同一product_id分组。 product_parent - 可用于汇总同一产品评论的随机标识符。product_title - 产品的标题。 product_category - 可用于对评论进行分组的广泛产品类别（也用于将数据集分组为连贯的部分）。star_rating - 评论的 1-5 星评级。helpful_votes - 有用的票数。total_votes - 评论收到的总票数。vine - 评论是作为 Vine 程序的一部分编写的。verified_purchase - 评论是针对已验证的购买。review_headline - 评论的标题。review_body - 评论文本。review_date - 撰写评论的日期。
+
+* [defunct-datasets/bookcorpusopen](https://huggingface.co/datasets/defunct-datasets/bookcorpusopen) 书籍是细粒度信息的丰富来源，包括人物、物体或场景的样子，以及高级语义，即某人在想什么、感受什么以及这些状态如何通过故事演变。此版本的 bookcorpus 有 17868 个数据集项（书籍）。每个项目都包含两个字段：标题和文本。标题是图书名称（仅文件名），而文本包含未处理的图书文本。该书料库由肖恩·普雷瑟（Shawn Presser）编写，并由The-Eye慷慨主持。The-Eye 是一个非营利性、社区驱动的平台，致力于存档和长期保存任何和所有数据，包括但不限于......网站、书籍、游戏、软件、视频、音频、其他数字暗箱和想法。
+
+* [defunct-datasets/the_pile_openwebtext2](https://huggingface.co/datasets/defunct-datasets/the_pile_openwebtext2) OpenWebText2 是 EleutherAi/The Pile 数据集的一部分，是原始 OpenWebTextCorpus 的增强版本，涵盖了从 2005 年到 2020 年 4 月的所有 Reddit 提交，在相应的 PushShift 转储文件发布后，还有几个月可用。
+
+* [defunct-datasets/the_pile_stack_exchange](https://huggingface.co/datasets/defunct-datasets/the_pile_stack_exchange) 此数据集是 EleutherAI/The Pile 数据集的一部分，是处理 stackexchange 数据转储的语言模型数据集，该数据转储是 Stack Exchange 网络上所有用户贡献内容的匿名转储。
+
+* [defunct-datasets/the_pile_books3](https://huggingface.co/datasets/defunct-datasets/the_pile_books3) 该数据集包含所有纯.txt形式的书目，即 197,000 本书的处理方式与 bookcorpusopen（又名 books1）完全相同。似乎类似于 OpenAI 在他们论文中引用的神秘的“books2”数据集。不幸的是，OpenAI 不会提供细节，所以我们对任何差异知之甚少。人们怀疑这是“全部的自由”，但这纯粹是猜想。
 
 ## 其他_NLP自然语言处理
 
@@ -7237,6 +7464,8 @@
 
 * [OthersideAI/self-operating-computer](https://github.com/OthersideAI/self-operating-computer) 使多模态模型能够操作计算机的框架。使用与人类操作员相同的输入和输出，模型查看屏幕并决定一系列鼠标和键盘操作以达到目标。主要特点：兼容性：专为各种多模式模型而设计。集成：目前与 GPT-4v、Gemini Pro Vision、Claude 3 和 LLaVa 集成。未来计划：支持其他型号。
 
+* [MMInstruction/M3IT](https://huggingface.co/datasets/MMInstruction/M3IT) 我们的数据集汇集了经典视觉语言任务的各种任务，包括字幕、视觉问答~（VQA）、视觉条件生成、推理和分类。英文和中文。80 翻译版本可在 M3IT-80 找到。
+
 ## 其他_机器视觉
 
 * [opencv/opencv](https://github.com/opencv/opencv) 开源计算机视觉库
@@ -7776,6 +8005,10 @@
 * [thumbor/thumbor](https://github.com/thumbor/thumbor) globo.com 的开源照片缩略图服务，智能成像服务，可实现按需裁剪、调整大小、应用滤镜和优化图像。自动裁剪照片可能是一种令人沮丧的体验，涉及断头。thumbor 使用 AI 进行智能检测。
 
 * [ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick) ImageMagick® 是一个免费的开源软件套件，用于编辑和操作数字图像。它可用于创建、编辑、合成或转换位图图像，并支持多种文件格式，包括 JPEG、PNG、GIF、TIFF 和 PDF。ImageMagick 广泛应用于 Web 开发、平面设计和视频编辑等行业，以及科学研究、医学成像和天文学。其多功能性和可定制性，以及强大的图像处理能力，使其成为各种图像相关任务的热门选择。ImageMagick 包括一个用于执行复杂图像处理任务的命令行界面，以及用于将其功能集成到软件应用程序中的 API。它是用 C 语言编写的，可以在各种操作系统上使用，包括 Linux、Windows 和 macOS。
+
+* [ByteDance/Hyper-SD](https://huggingface.co/ByteDance/Hyper-SD) Hyper-SD是最先进的扩散模型加速技术之一。在这个存储库中，我们发布了从 SDXL Base 1.0 和 Stable-Diffusion v1-5 中提炼出来的模型。协同融合了 ODE 轨迹保留和重新制定的优点，同时在阶跃压缩期间保持近乎无损的性能。首先，我们引入了轨迹分段一致性蒸馏，在预定义的时间步长段内逐步进行一致蒸馏，这有助于从高阶角度保留原始常微分方程轨迹。其次，我们结合了人工反馈学习，以提高模型在低步长状态下的性能，并减轻蒸馏过程产生的性能损失。第三，我们集成了分数蒸馏，以进一步提高模型的低步长生成能力，并首次尝试利用统一的 LoRA 来支持所有步骤的推理过程。大量的实验和用户研究表明，Hyper-SD 在 SDXL 和 SD1.5 上都能实现 1 到 8 个推理步骤的 SOTA 性能。
+
+* [segmind/SSD-1B](https://huggingface.co/segmind/SSD-1B) Segmind Stable Diffusion Model （SSD-1B） 是 Stable Diffusion XL （SDXL） 的精炼 50% 缩小版本，提供 60% 的加速，同时保持高质量的文本到图像生成功能。它已经在各种数据集上进行了训练，包括 Grit 和 Midjourney 抓取数据，以增强其基于文本提示创建各种视觉内容的能力。该模型采用知识蒸馏策略，先后利用多个专家模型（包括 SDXL、ZavyChromaXL 和 JuggernautXL）的教学，结合它们的优势并产生令人印象深刻的视觉输出。
 
 # 因果推断
 
@@ -8516,6 +8749,10 @@
 * [MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) 适用于 Google Play 音乐的精美跨平台桌面播放器
 
 * [wenet-e2e/WeTextProcessing](https://github.com/wenet-e2e/WeTextProcessing) 中文的文本规范化和反向文本规范化
+
+* [mozilla-foundation/common_voice_13_0](https://huggingface.co/datasets/mozilla-foundation/common_voice_13_0) 由唯一的 MP3 和相应的文本文件组成。数据集中记录的 27141 小时中的许多还包括年龄、性别和口音等人口统计元数据，这有助于提高语音识别引擎的准确性。该数据集目前包含 108 种语言的 17689 个验证小时数，后续会添加更多语音和语言。
+
+
 
 # 生物医药
 
@@ -9592,7 +9829,7 @@
 
 * [typesense/typesense](https://github.com/typesense/typesense) Algolia + Pinecone 的开源替代品和 ElasticSearch 的更易于使用的替代品。 快速、容错、内存模糊搜索引擎，用于构建令人愉悦的搜索体验
 
-* [https://github.com/openobserve/openobserve](https://github.com/openobserve/openobserve) 简化10倍，存储成本降低140 倍，高性能，PB级 - Elasticsearch/Splunk/Datadog 替代（日志、指标、跟踪）。OpenObserve（简称 O2）是一个云原生可观测性平台，专为日志、指标、跟踪、分析、RUM（真实用户监控 - 性能、错误、会话回放）而构建，旨在以 PB 级规模工作。它简单易用，与需要理解和调整大量设置的 Elasticsearch 形成鲜明对比。在 2 分钟内启动并运行 OpenObserve。OpenObserve 是 Elasticsearch 的无缝替代品，适用于使用 API 采集数据并执行搜索的用户。OpenObserve 自带用户界面，无需单独安装。与 Elasticsearch 相比，使用 OpenObserve，您可以将日志存储成本降低 ~140 倍。下面，我们将介绍使用 Fluent Bit 将日志从生产 Kubernetes 集群推送到 Elasticsearch 和 OpenObserve 的结果。
+* [openobserve/openobserve](https://github.com/openobserve/openobserve) 简化10倍，存储成本降低140 倍，高性能，PB级 - Elasticsearch/Splunk/Datadog 替代（日志、指标、跟踪）。OpenObserve（简称 O2）是一个云原生可观测性平台，专为日志、指标、跟踪、分析、RUM（真实用户监控 - 性能、错误、会话回放）而构建，旨在以 PB 级规模工作。它简单易用，与需要理解和调整大量设置的 Elasticsearch 形成鲜明对比。在 2 分钟内启动并运行 OpenObserve。OpenObserve 是 Elasticsearch 的无缝替代品，适用于使用 API 采集数据并执行搜索的用户。OpenObserve 自带用户界面，无需单独安装。与 Elasticsearch 相比，使用 OpenObserve，您可以将日志存储成本降低 ~140 倍。下面，我们将介绍使用 Fluent Bit 将日志从生产 Kubernetes 集群推送到 Elasticsearch 和 OpenObserve 的结果。
 
 * [zincsearch/zincsearch](https://github.com/zincsearch/zincsearch) 轻量级elasticsearch 替代方案，需要最少的资源，用 Go 编写。
 
@@ -11587,6 +11824,8 @@
 
 * [mahmoud/boltons](https://github.com/mahmoud/boltons) 超过230个BSD许可的纯Python实用程序
 
+* [gruns/icecream](https://github.com/gruns/icecream) 永远不要再使用 print（） 进行调试。ic() 就像 print() ，但更好：它打印表达式/变量名称及其值。打字速度提高 60%。数据结构打印。输出以语法突出显示。它可以选择包括程序上下文：文件名、行号和父函数。
+
 * [realpython/python-guide](https://github.com/realpython/python-guide) 旨在为新手和专家 Python 开发人员提供一本关于日常安装、配置和使用 Python 的最佳实践手册。
 
 * [gaogaotiantian/viztracer](https://github.com/gaogaotiantian/viztracer) 低开销的日志记录/调试/分析工具，可以跟踪和可视化 python 代码执行。
@@ -12194,6 +12433,8 @@
 * [Yalantis/uCrop](https://github.com/Yalantis/uCrop) 适用于 Android 的图像裁剪库
 
 * [LuckSiege/PictureSelector](https://github.com/LuckSiege/PictureSelector) Android平台的PictureSelector，支持从相册中获取图片、视频、音频和照片、剪切（单张图片或多张图片剪切）、压缩、主题自定义配置等功能，并支持动态访问和适用于Android 5.0+系统的开源图片选择框架
+
+* [microg/GmsCore](https://github.com/microg/GmsCore) 一个 FLOSS（免费/自由开源软件）框架，允许为 Google Play 服务设计的应用程序在 Play 服务不可用的系统上运行。
 
 * [Blankj/AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) 功能强大且易于使用的Android库。该库封装了 Android 开发中常用的函数，这些函数具有完整的演示和单元测试。通过使用其封装的 API，可以大大提高开发效率。
 
