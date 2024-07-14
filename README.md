@@ -1422,7 +1422,7 @@
 
 * [adams549659584/go-proxy-bingai](https://github.com/adams549659584/go-proxy-bingai)用 Vue3 和 Go 搭建的微软 New Bing 演示站点，拥有一致的 UI 体验，支持 ChatGPT 提示词，国内可用。
 
-* [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) 包含 ChatGPT 提示，以更好地使用 ChatGPT
+* [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) 包含 ChatGPT 提示，以更好地使用 ChatGPT。[fka/awesome-chatgpt-prompts](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts) 这是一个很棒的 ChatGPT 提示的数据集存储库。
 
 * [humanloop/awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) ChatGPT和GPT-3的惊人工具、演示和文档
 
@@ -2409,6 +2409,8 @@
 * [reorproject/reor](https://github.com/reorproject/reor) 私人和本地AI个人知识管理应用程序。Reor 是一款 AI 驱动的桌面笔记应用程序：它会自动链接相关笔记、回答笔记上的问题、提供语义搜索并可以生成 AI 抽认卡。所有内容都存储在本地，您可以使用类似 Obsidian 的 Markdown 编辑器编辑笔记。
 
 * [yihong0618/bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker) AI 翻译工具，它使用 ChatGPT 帮助用户创建多语言版本的 epub/txt/srt 文件和书籍。此工具专为翻译已进入公有领域的 epub 图书而设计，不适用于受版权保护的作品。
+
+
 
 #### 编程语言大模型及相关项目
 
@@ -3791,6 +3793,63 @@
 一些游戏的平行语料数据。Hogwarts_legacy : 霍格沃茨指遗。The_Wither_3 : 巫师三。
 
 * [m-a-p/COIG-CQIA](https://huggingface.co/datasets/m-a-p/COIG-CQIA) COIG-CQIA全称为Chinese Open Instruction Generalist - Quality is All You Need， 是一个开源的高质量指令微调数据集，旨在为中文NLP社区提供高质量且符合人类交互行为的指令微调数据。COIG-CQIA以中文互联网获取到的问答及文章作为原始数据，经过深度清洗、重构及人工审核构建而成。本项目受LIMA: Less Is More for Alignment等研究启发，使用少量高质量的数据即可让大语言模型学习到人类交互行为，因此在数据构建中我们十分注重数据的来源、质量与多样性。
+
+* [togethercomputer/RedPajama-Data-1T](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T) RedPajama 是 LLaMa 数据集的洁净室、完全开源的实现。主要是英语，尽管维基百科切片包含多种语言。创建此数据集是为了尽可能密切地跟踪 LLaMa 论文，以尝试重现其配方。我们从 Commoncrawl 下载了 5 个转储，并通过官方 cc_net 管道运行这些转储。然后，我们在段落级别进行重复数据删除，并使用经过训练的线性分类器过滤掉低质量的文本，该分类器将段落分类为维基百科参考文献或随机 Commoncrawl 样本。C4 是从 Huggingface 下载的。唯一的预处理步骤是将数据转换为我们自己的格式。原始 GitHub 数据是从 Google BigQuery 下载的。我们在文件级别进行重复数据删除并过滤掉低质量的文件，并且只保留在 MIT、BSD 或 Apache 许可下分发的项目。我们使用 Huggingface 上提供的维基百科数据集，该数据集基于 2023-03-20 的维基百科转储，包含 20 种不同语言的文本。数据集采用预处理格式，因此删除了超链接、注释和其他格式样板。ArXiv 数据从 arxiv 请求方付款存储桶中的 Amazon S3 下载。我们只保留源文件，并删除序言、注释、宏和参考书目。数据集的 Stack Exchange 拆分可从 Internet Archive 下载。在这里，我们只保留来自 28 个最大网站的帖子，删除 html 标签，将帖子分组为问答对，并按分数对答案排序。
+
+* [togethercomputer/RedPajama-Data-V2](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2) RedPajama-V2 是一个用于训练大型语言模型的开放数据集。该数据集包括来自 84 个 CommonCrawl 快照的 100B 多个文本文档，并使用 CCNet 管道进行处理。其中，语料库中有 30B 个文档还带有质量信号。此外，我们还提供了重复文档的 ID，可用于创建包含 20B 重复数据删除文档的数据集。
+
+* [togethercomputer/Long-Data-Collections](https://huggingface.co/datasets/togethercomputer/Long-Data-Collections) 长上下文数据集的汇编，专门设计用于需要从大型文本输入中进行广泛理解和推理的任务。目前，它包含用于训练健壮基础模型的数据，这些数据可以在 pretrain/ 目录中找到。此外，它还包括针对特定需求量身定制的数据集，位于 fine-tune/ 目录中。这些专门的数据集包括源自自然问题的多段落问答和以 BookSum 数据集为例的长上下文摘要。预训练数据是用于训练 AI 模型的各种数据集的集合。这些数据集包括各种来源，提供广泛的信息，从书籍到科学论文和教学数据。
+
+* [togethercomputer/RedPajama-Data-Instruct](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct) 从 P3 （BigScience） 和 Natural Instruction （AI2） 的各种 NLP 任务集合中挑选出来的，并分两步对 HELM 进行主动去污：（1） 我们首先使用 HELM 中的每个验证示例作为查询进行语义搜索，并从 Instruct 数据集中获取前 100 个相似实例，并检查任何返回的实例与验证示例重叠（使用 10-Gram）的任务。如果返回的实例和验证示例对应于相同的任务，我们将删除整个任务（在此步骤中，如果返回的实例恰好使用与验证示例相同的维基百科文章，但提出不同的问题，我们将保留该任务）;（2） 然后，我们删除所有与任何 HELM 验证示例有任何 10 Gram 重叠的实例。我们总共筛选掉了 137 个任务和 5.2M 个实例（在 1069 个任务和 93.3M 个实例中）。
+
+* [allenai/dolma](https://huggingface.co/datasets/allenai/dolma) 包含 3 万亿个词元的数据集，来自各种网络内容、学术出版物、代码、书籍和百科全书材料。包括：Common Crawl、The Stack、C4、Reddit、PeS2o（STEM论文）、Project Gutenberg（书）、Wikipedia, Wikibooks。
+
+* [allenai/MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) MADLAD-400 （Multilingual Audited Dataset： Low-resource And Document-level） 是一个基于 Common Crawl 的文档级多语言数据集，共涵盖 419 种语言。这将使用截至 2022 年 8 月 1 日可用的 CommonCrawl 的所有快照。与类似数据集相比，此数据集的主要优点是它更多语言（419 种语言），经过审核和过滤，并且是文档级的。主要缺点也是它的强度 - 由于过滤程度更高，它可能缺乏某些应用程序所需的召回率。发布了两个版本：嘈杂数据集，除了文档级 LangID 之外没有过滤，以及干净数据集，它应用了各种过滤器，尽管它本身自然有相当多的噪音。每个数据集都以已删除重复数据的文档级形式发布。
+
+* [oscar-corpus/OSCAR-2301](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301) OSCAR项目（Open Super-large Crawled Aggregated coRpus）是一个开源项目，旨在为机器学习（ML）和人工智能（AI）应用提供基于Web的多语言资源和数据集。该项目特别专注于提供大量未注释的原始数据，这些数据通常用于大型深度学习模型的预训练。OSCAR 项目开发了高性能数据管道，专门用于对大量 Web 数据进行分类和过滤。该项目还特别关注提高基于网络的语料库的数据质量，以及为资源匮乏的语言提供数据，以便尽可能多的社区能够使用这些新的机器学习/人工智能技术。
+
+* [anon8231489123/ShareGPT_Vicuna_unfiltered](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered) ~100k ShareGPT 对话通过以下方式缩小到 53k：删除非英语对话，删除过多的 unicode（通常表示中文或韩文文本），删除过多的重复字符，删除各种实例“AI 道德化”，删除了带有这些短语的对话（以及此处无法提及的其他短语）。
+
+* [tatsu-lab/alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca) 由 OpenAI text-davinci-003 引擎生成的 52,000 条指令和演示的数据集。此指令数据可用于对语言模型进行指令调整，并使语言模型更好地遵循指令。作者基于 Self-Instruct 框架的数据生成管道进行构建，并进行了以下修改：生成指令数据的 text-davinci-003 引擎，而不是 davinci .编写了一个新的提示，明确要求text-davinci-003生成指令。使用了更激进的批量解码，即一次生成 20 条指令，这大大降低了数据生成的成本。通过摒弃分类指令和非分类指令之间的差异，简化了数据生成管道。每条指令只生成一个实例，而不是像 Self-Instructed 那样生成 2 到 3 个实例。这生成了一个指令跟踪数据集，其中包含以低得多的成本（不到 500 美元）获得的 52K 示例。在一项初步研究中，作者还发现，52K生成的数据比Self-Instruct发布的数据要多样化得多。Alpaca 数据集专为指令训练预训练语言模型而设计。Alpaca 中的数据是英文的 （BCP-47 en）。
+
+* [legacy-datasets/wikipedia](https://huggingface.co/datasets/legacy-datasets/wikipedia) 维基百科数据集包含所有语言的清理文章。数据集是从维基百科转储 （ https://dumps.wikimedia.org/） 构建的，每种语言都有一个拆分。每个示例都包含一个完整的维基百科文章的内容，并清理以去除 Markdown 和不需要的部分（参考文献等）。
+
+* [yahma/alpaca-cleaned](https://huggingface.co/datasets/yahma/alpaca-cleaned) 这是斯坦福大学发布的原始羊驼数据集的清理版本。Alpaca 是一个由 OpenAI text-davinci-003 引擎生成的 52,000 条指令和演示的数据集。此指令数据可用于对语言模型进行指令调整，并使语言模型更好地遵循指令。以下问题已在原始版本中发现，并在此数据集中修复：幻觉：原始数据集中的许多指令都有引用互联网数据的指令，这只会导致 GPT3 产生幻觉答案。合并指令：由于某种原因，在原始数据集中有许多指令被合并在一起。空输出：原始数据集中的某些条目的输出为空。空代码示例：原始数据集中的某些描述缺少代码示例，因此难以理解代码的预期行为。生成图像的说明：原始数据集中的一些描述包括生成图像的说明，这显然是不可能的。N/A 输出：原始数据集中的某些代码片段具有 N/A 输出。输入字段不一致：原始数据集在输入字段本应为空时，其输入字段的使用不一致。错误答案：原始数据集中的某些说明/问题有不正确的答案。据估计，大约 80% 的数学问题都有不正确的答案。无意义/不清楚的指令：许多指令不清楚，如果指令不明确，我们会尝试澄清（或重写）指令。稍微不清楚但可以推断出含义的说明不会改变。无关的转义和控制字符：原始数据集具有多个具有无关转义和控制字符的条目。Alpaca 中的数据是英文的 （BCP-47 en）。
+
+* [roneneldan/TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories) 包含合成生成的（由 GPT-3.5 和 GPT-4）仅使用少量词汇的短篇小说的数据集。
+
+* [HuggingFaceH4/ultrachat_200k](https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k) 这是 UltraChat 数据集的严格过滤版本，用于训练 Zephyr-7B-β，这是一种最先进的 7b 聊天模型。原始数据集由 ChatGPT 生成的 1.4M 对话组成，涵盖广泛的主题。为了创建 UltraChat 200k ，我们应用了以下逻辑：选择数据子集，以便更快地进行监督微调。数据集的真大小写，正如我们观察到的那样，大约 5% 的数据包含语法错误。删除助手回复“我没有情绪”或“我没有意见”等短语的对话，即使是不涉及任何内容的基于事实的提示。数据集有四个拆分，适用于：监督微调 （ sft ）。通过拒绝抽样或 PPO 等技术进行生成排名 （ gen ）。
+
+* [stingning/ultrachat](https://huggingface.co/datasets/stingning/ultrachat) 由 Turbo API 提供支持的开源、大规模和多轮对话数据。考虑到保护隐私等因素，我们不会直接使用互联网上的任何数据作为提示。为了保证生成质量，在生成过程中采用了两个独立的ChatGPT Turbo API，一个扮演用户生成查询的角色，另一个扮演响应的角色。我们通过精心设计的提示来指导用户模型，以模仿人类用户行为并迭代调用这两个 API。生成的对话经过进一步的后处理和过滤。ULtraChat由三个部分组成：关于世界的问题：该领域的对话数据来自与现实世界中的概念、实体和对象相关的广泛调查。涵盖的主题非常广泛，涵盖技术、艺术和创业等领域。写作和创作：该领域的对话数据是由从头开始写作/创作的需求驱动的，包括 AI 助手在创作过程中可能帮助的任何任务，从电子邮件撰写到制作叙事和戏剧等等。对现有材料的援助：该领域的对话数据是根据现有材料生成的，包括但不限于重写、延续、总结和推理，涵盖各种主题。
+
+* [garage-bAInd/Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus) 该数据集专注于提高LLM逻辑推理能力，并用于训练鸭嘴兽2模型。它由以下数据集组成，这些数据集使用关键字搜索和句子转换器进行过滤，以删除相似度高于 80% 的问题。移除了 Hugging Face 基准测试集中出现的大约 200 个问题。
+数据集名称：PRM800K、MATH、ScienceQA、SciBench、ReClor、TheoremQA、nuprl/leetcode-solutions-python-testgen-gpt4、jondurbin/airoboros-gpt4-1.4.1、TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k、ARB、timdettmers/openassistant-guanaco
+
+* [HuggingFaceH4/no_robots](https://huggingface.co/datasets/HuggingFaceH4/no_robots) 高质量的数据集，其中包含 10,000 条指令和演示，由熟练的人类注释者创建。此数据可用于监督微调 （SFT），以使语言模型更好地遵循指令。No Robots 是根据 OpenAI 的 InstructGPT 论文中描述的指令数据集建模的，主要由以下类别的单轮指令组成：No Robots 数据集专为指令微调预训练语言模型而设计，我们建议根据以下内容进行基准测试：MT-Bench：一个跨越 80 个对话和 10 个领域的多回合基准测试。AlpacaEval：一个单轮基准测试，用于评估聊天和指导 text-davinci-003 模型的性能。请注意，MT-Bench 和 AlpacaEval 依靠 LLMs GPT-4 来判断模型响应的质量，因此排名表现出各种偏差，包括对从 GPT 中提取的模型的偏好。因此，您可能会发现，从使用 No Robots 训练的模型中获得的分数低于其他合成数据集。因此，我们还建议在以下位置提交您的模型以供人工评估：Chatbot Arena：在头对头比较中对聊天模型进行实时、人工评估。No Robots 中的数据是英文的 （BCP-47 en）。
+
+* [timdettmers/openassistant-guanaco](https://huggingface.co/datasets/timdettmers/openassistant-guanaco) 此数据集是 Open Assistant 数据集的子集，可在此处找到：[OpenAssistant/oasst1](https://huggingface.co/datasets/OpenAssistant/oasst1/tree/main) 此数据子集仅包含会话树中评分最高的路径，共有 9,846 个样本。该数据集用于使用 QLoRA 训练 Guanaco。
+
+* [TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k](https://huggingface.co/datasets/TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k) Tigerbot 基于leetcode-solutions数据集，加工生成的代码类sft数据集，原始来源：[/erichartford/leetcode-solutions](https://www.kaggle.com/datasets/erichartford/leetcode-solutions)
+
+* [TigerResearch/tigerbot-law-plugin](https://huggingface.co/datasets/TigerResearch/tigerbot-law-plugin) Tigerbot 模型rethink时使用的外脑原始数据，法律11大类，共5.5W+条款。宪法、刑法、行政法、司法解释、民法商法、民法典、行政法规、社会法、部门规章、经济法、诉讼与非诉讼程序法。
+
+* [TigerResearch/tigerbot-zhihu-zh-10k](https://huggingface.co/datasets/TigerResearch/tigerbot-zhihu-zh-10k) Tigerbot 基于开源搜集的知乎数据生成的sft问答对
+
+* [TigerResearch/sft_zh](https://huggingface.co/datasets/TigerResearch/sft_zh) Tigerbot 开源项目中微调中文sft-zh数据合集。本合集涵盖本组织下开源的其他中文sft-中文-数据集，不需要重复下载。alpaca 中文、百科问答、名著问答、猜谜语、阅读理解、问答、知乎问答。
+
+* [TigerResearch/pretrain_zh](https://huggingface.co/datasets/TigerResearch/pretrain_zh) Tigerbot pretrain数据的中文部分。包含(未压缩前) 中文书籍zh-books 12G, 中文互联网zh-webtext 25G, 中文百科zh-wiki 19G。
+
+* [jondurbin/airoboros-gpt4-1.4.1](https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.4.1) 数据由 gpt-4 生成，因此受 OpenAI ToS 的约束。用于生成数据 airoboros 的工具是 apache-2。此训练数据的具体重点领域：琐事、数学、荒谬的数学、编码、封闭式上下文问答、封闭式语境问答，有多个语境可供选择作为混杂因素、写作、多选题等。
+
+* [b-mc2/sql-create-context](https://huggingface.co/datasets/b-mc2/sql-create-context) 有 78,577 个自然语言查询、SQL CREATE TABLE 语句和 SQL 查询示例，这些示例使用 CREATE 语句作为上下文来回答问题。此数据集在构建时LLMs考虑了文本到 sql，旨在防止在文本到 sql 数据集上训练时经常出现列名和表名的幻觉。CREATE TABLE 语句通常可以从不同的 DBMS 复制和粘贴，并提供表名、列名及其数据类型。通过仅提供 CREATE TABLE 语句作为上下文，我们有望为模型提供更好的基础，而无需提供实际的数据行，从而限制令牌的使用和对私有、敏感或专有数据的暴露。对WikiSQL和Spider的合并数据进行了清理和数据增强。我在 Spider 和 WikiSQL 的查询中使用了 SQLGlot，并将它们解析为不同的表和列，然后根据 > < 运算符的使用以及 SUM() on 列的使用 MIN() MAX() AVG() 来推断列数据类型。虽然这并不完美，但它增加了推断列的正确数据类型的可能性，否则列默认为 VARCHAR 类型。然后，这些表和列用于使用推断类型的 CREATE TABLE 语句。再次使用 SQLGlot 来确保 SQL 查询和 CREATE TABLE 语句都分析没有错误。某些没有列名的查询（例如 SELECT * FROM 表）在 CREATE TABLE 语句中添加了默认的 Id 列。其他一些使用泛型 table 作为 FROM 表的查询已更改为 的 table_name_1 变体或其他数字，这也反映在 CREATE TABLE 语句中。
+
+* [cognitivecomputations/dolphin](https://huggingface.co/datasets/cognitivecomputations/dolphin) 该数据集试图复制Microsoft的Orca的结果，我们的数据集包括：~100 万 FLANv2 通过 GPT-4 完成增强 （flan1m-alpaca-uncensored.jsonl），~350 万 FLANv2 增加了 GPT-3.5 完成 （flan5m-alpaca-uncensored.jsonl）。我们遵循了 Orca 论文中概述的子混音和系统提示分布。除了少数例外。我们将所有 75k 的 CoT 包含在 FLAN-1m 数据集中，而不是对其进行采样。此外，我们发现许多项目是重复的，因此我们删除了重复项，从而在 ChatGPT 数据集中产生了 3.5m 的指令。然后，我们过滤掉了对齐、拒绝、回避和偏见的实例，以生成一个未经审查的模型，可以在该模型上分层您的个性化对齐 LoRA。
+
+* [HuggingFaceFW/fineweb-edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) 从 FineWeb数据集中筛选出来的1.3T令牌和5.4T令牌（FineWeb-Edu-score-2）的教育网页组成。这是 1.3 万亿版本。为了提高 FineWeb 的质量，我们使用 LLama3-70B-Inform 生成的注释开发了一个教育质量分类器。然后，我们使用此分类器仅保留最具教育意义的网页。FineWeb-Edu 在流行的基准测试中优于 FineWeb，并显示了在合成数据上训练的分类器的强大功能。除了数据集（包括自 2013 年以来所有过滤的 CommonCrawl 转储）外，我们还发布了用于过滤的教育分类器以及用于训练和运行推理的代码，网址为：[huggingface/cosmopedia](https://github.com/huggingface/cosmopedia/tree/main/classification)
+
+* [liuhaotian/LLaVA-Instruct-150K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) 数据集类型：LLaVA Visual Instruct 150K 是一组 GPT 生成的多模态指令跟踪数据。它用于视觉指令调整和构建面向 GPT-4 视觉/语言能力的大型多模态。数据集日期：LLaVA Visual Instruct 150K 于 2023 年 4 月通过提示 GPT-4-0314 API 收集。
+
+* [cerebras/SlimPajama-627B](https://huggingface.co/datasets/cerebras/SlimPajama-627B) 数据集由 59166 个 jsonl 文件组成，压缩为 ~895GB。它是 Together 的 RedPajama 的清洁和重复数据删除版本。今天，我们发布了 SlimPajama，这是最大的广泛重复数据删除、多语料库、开源数据集，用于训练大型语言模型。SlimPajama 是通过清理和删除 Together 中的 1.2T 词元 RedPajama 数据集而创建的。通过过滤掉低质量的数据和重复项，我们能够删除 49.6% 的字节，将数据集从 1210B 缩减到 627B 令牌。我们相信 SlimPajama 提供最高质量和计算效率最高的数据来训练高达 627B 词元的运行。当上采样时，我们预计 SlimPajama 在万亿词元规模的训练中表现等于或优于 RedPajama-1T。除了数据之外，我们还发布了我们为创建 SlimPajama 而构建的工具。将 MinHashLSH 重复数据删除应用于像 RedPajama 这样的万亿个令牌数据集是无法使用现成的开源代码实现的。我们对现有解决方案进行了多项改进，以生成一个基础架构，该基础架构可以以分布式、多线程和内存高效的方式对万亿个令牌数据集执行 MinHashLSH 重复数据删除。今天，我们正在开源这个基础设施，使社区能够在未来轻松创建更高质量、广泛去重的数据集。
 
 ## 关系抽取、信息抽取
 
@@ -7146,7 +7205,7 @@
 
 * [Mukosame/Anime2Sketch](https://github.com/Mukosame/Anime2Sketch) 动画/插图的草图提取器。
 
-* [google/mediapipe](https://github.com/google/mediapipe) 适用于直播和流媒体的跨平台、可定制的 ML 解决方案。包括：人脸检测、面网、虹膜手、姿势、整体姿势、人脸检测、头发分割、物体检测、箱子追踪、即时运动追踪、日常物体的实时 3D 物体检测、关键点神经不变特征变换。
+* [google/mediapipe](https://github.com/google/mediapipe) 适用于直播和流媒体的跨平台、可定制的 ML 解决方案。包括：人脸、面网、虹膜手、姿势、整体姿势、人脸检测、头发分割、物体检测、箱子追踪、即时运动追踪、日常物体的实时 3D 物体检测、关键点神经不变特征变换。人脸检测模型：检测是否存在具有一些关键面部特征的人脸。人脸网格模型：添加人脸的完整映射。模型会输出 478 个三维人脸特征点的估计值。Blendshape 预测模型：接收人脸网格模型的输出，并预测 52 个融合变形分数，这些分数是代表不同面部表情的系数。手部特征点模型包可检测已检测到的手部区域内 21 个指节坐标的关键点定位。该模型基于大约 3 万张真实图像以及对各种背景施加的几个渲染合成手部模型进行了训练。
 
 * [minivision-ai/photo2cartoon](https://github.com/minivision-ai/photo2cartoon) 人像卡通化探索项目
 
@@ -7177,6 +7236,10 @@
 * [open-mmlab/mmpose](https://github.com/open-mmlab/mmpose) OpenMMLab 姿势估计工具箱和基准测试。
 
 * [justadudewhohacks/face-api.js](https://github.com/justadudewhohacks/face-api.js) JavaScript API，用于浏览器中的人脸检测和人脸识别，以及带有 tensorflow 的 nodejs.js
+
+* [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 大型人脸属性数据集，包含超过 200K 张名人图片，每张图片有 40 个属性注释。此数据集中的图像涵盖了较大的姿势变化和背景杂乱。
+
+* [switchablenorms/CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) CelebAMask-HQ 是一个大规模的人脸图像数据集，其中包含从 CelebA 数据集中选择的 30,000 张高分辨率人脸图像，遵循 CelebA-HQ。每个图像都有与 CelebA 相对应的面部属性的分割蒙版。CelebAMask-HQ 的面具以 512 x 512 的大小和 19 个类别手动注释，包括所有面部组件和配件，例如皮肤、鼻子、眼睛、眉毛、耳朵、嘴巴、嘴唇、头发、帽子、眼镜、耳环、项链、脖子和布料。CelebAMask-HQ 可用于训练和评估人脸解析、人脸识别和人脸生成和编辑的 GAN 算法。
 
 ## 图像恢复
 
