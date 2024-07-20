@@ -802,6 +802,8 @@
 
 * [tensorflow/tfjs](https://github.com/tensorflow/tfjs) WebGL 加速的 JavaScript 库，用于训练和部署 ML 模型。
 
+* [tensorflow/rust](https://github.com/tensorflow/rust) TensorFlow 的 Rust 语言绑定。
+
 * [aws/sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk) 用于在 Amazon SageMaker 上训练和部署机器学习模型的库
 
 * [ggerganov/ggml](https://github.com/ggerganov/ggml) 用于机器学习的张量库，用 C 语言编写、16 位浮点支持、整数量化支持（4 位、5 位、8 位等）、自动区分、ADAM和L-BFGS优化器、针对苹果芯片进行了优化、在x86架构上利用AVX / AVX2内部函数、在 ppc64 架构上利用 VSX 内部函数、无第三方依赖关系、运行时内存分配为零
@@ -1218,6 +1220,8 @@
 ## 文本摘要
 
 * [xcfcode/Summarization-Papers](https://github.com/xcfcode/Summarization-Papers) 文本摘要论文总结
+
+* [ritun16/llm-text-summarizations](https://github.com/ritun16/llm-text-summarization) 使用大型语言模型 （LLMs） 进行文本摘要的综合指南和代码库。深入研究从分块到聚类的技术，并利用 GPT-3.5 和 GPT-4 LLMs 等的力量。
 
 * [abisee/pointer-generator](https://github.com/abisee/pointer-generator) 使用指针生成器网络进行汇总
 
@@ -2404,11 +2408,17 @@
 
 * [hyp1231/awesome-llm-powered-agent](https://github.com/hyp1231/awesome-llm-powered-agent) 由于大型语言模型（LLMs）令人印象深刻的规划、推理和工具调用功能，人们正在积极研究和开发LLM由智能体驱动的代理。这些智能体可以自主（和协作）解决复杂的任务，或模拟人类交互。
 
-* [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica) 人工智能驱动的搜索引擎。它是 Perplexity AI 的开源替代品。可以深入互联网寻找答案。受 Perplexity AI 的启发，它是一个开源选项，不仅可以搜索网络，还可以理解您的问题。它使用先进的机器学习算法（如相似性搜索和嵌入）来优化结果，并提供明确的答案和引用的来源。Perplexica 使用 SearxNG 保持最新和完全开源，确保您始终在不损害隐私的情况下获得最新信息。特征：本地 LLMs：您可以使用 Ollama 使用本地LLMs，例如 Llama3 和 Mistral。Copilot 模式：（开发中）通过生成不同的查询来查找更相关的互联网资源，从而增强搜索。与普通搜索一样，它不仅使用 SearxNG 的上下文，而是访问排名靠前的匹配项，并尝试直接从页面中找到与用户查询相关的来源。正常模式：处理查询并执行 Web 搜索。专注模式：特殊模式，可更好地回答特定类型的问题。Perplexica 目前有 6 种对焦模式：所有模式：搜索整个网络以找到最佳结果。写作助手模式：有助于编写不需要搜索网络的任务。学术搜索模式：查找文章和论文，非常适合学术研究。YouTube 搜索模式：根据搜索查询查找 YouTube 视频。Wolfram Alpha 搜索模式：使用 Wolfram Alpha 回答需要计算或数据分析的查询.Reddit 搜索模式：在 Reddit 中搜索与查询相关的讨论和意见。当前信息：某些搜索工具可能会为您提供过时的信息，因为它们使用来自爬网机器人的数据，并将其转换为嵌入内容并将其存储在索引中。与它们不同的是，Perplexica 使用 SearxNG（一个元搜索引擎）来获取结果并重新排名并从中获取最相关的来源，确保您始终获得最新信息，而无需每日数据更新的开销。
+* [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica) 人工智能驱动的搜索引擎。它是 Perplexity AI 的开源替代品。可以深入互联网寻找答案。受 Perplexity AI 的启发，它是一个开源选项，不仅可以搜索网络，还可以理解您的问题。它使用先进的机器学习算法（如相似性搜索和嵌入）来优化结果，并提供明确的答案和引用的来源。Perplexica 使用 SearxNG 保持最新和完全开源，确保您始终在不损害隐私的情况下获得最新信息。特征：本地 LLMs：您可以使用 Ollama 使用本地LLMs，例如 Llama3 和 Mistral。Copilot 模式：（开发中）通过生成不同的查询来查找更相关的互联网资源，从而增强搜索。与普通搜索一样，它不仅使用 SearxNG 的上下文，而是访问排名靠前的匹配项，并尝试直接从页面中找到与用户查询相关的来源。正常模式：处理查询并执行 Web 搜索。专注模式：特殊模式，可更好地回答特定类型的问题。Perplexica 目前有 6 种对焦模式：所有模式：搜索整个网络以找到最佳结果。写作助手模式：有助于编写不需要搜索网络的任务。学术搜索模式：查找文章和论文，非常适合学术研究。YouTube 搜索模式：根据搜索查询查找 YouTube 视频。Wolfram Alpha 搜索模式：使用 Wolfram Alpha 回答需要计算或数据分析的查询.Reddit 搜索模式：在 Reddit 中搜索与查询相关的讨论和意见。当前信息：某些搜索工具可能会为您提供过时的信息，因为它们使用来自爬虫机器人的数据，并将其转换为嵌入内容并将其存储在索引中。与它们不同的是，Perplexica 使用 SearxNG（一个元搜索引擎）来获取结果并重新排名并从中获取最相关的来源，确保您始终获得最新信息，而无需每日数据更新的开销。
 
 * [reorproject/reor](https://github.com/reorproject/reor) 私人和本地AI个人知识管理应用程序。Reor 是一款 AI 驱动的桌面笔记应用程序：它会自动链接相关笔记、回答笔记上的问题、提供语义搜索并可以生成 AI 抽认卡。所有内容都存储在本地，您可以使用类似 Obsidian 的 Markdown 编辑器编辑笔记。
 
 * [yihong0618/bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker) AI 翻译工具，它使用 ChatGPT 帮助用户创建多语言版本的 epub/txt/srt 文件和书籍。此工具专为翻译已进入公有领域的 epub 图书而设计，不适用于受版权保护的作品。
+
+* [infiniflow/ragflow](https://github.com/infiniflow/ragflow) RAGFlow 是一个基于深度文档理解的开源 RAG（检索增强生成）引擎。它为任何规模的企业提供简化的 RAG 工作流程，结合LLM（大型语言模型）以提供真实的问答功能，并以来自各种复杂格式数据的有根据的引用为后盾。主要特点： `“质量进，质量出”`：从具有复杂格式的非结构化数据中提取基于文档理解的深度知识。找到“数据大海捞针”，从字面上看是无限的词元。`基于模板的分块`：智能且可解释。大量模板选项可供选择。`减少幻觉的有根据的引文`：文本分块的可视化，以允许人工干预。快速查看关键参考文献和可追溯的引文，以支持有根据的答案。`与异构数据源的兼容性`：支持 Word、幻灯片、excel、txt、图像、扫描副本、结构化数据、网页等。`自动化且轻松的 RAG 工作流程`：简化的 RAG 编排，可满足个人和大型企业的需求。可LLMs配置和嵌入模型。多次召回与融合重新排名配对。直观的 API，可与业务无缝集成。
+
+* [evilsocket/cake](https://github.com/evilsocket/cake) 适用于移动、桌面和服务器的分布式LLM推理。一个 Rust 框架，用于基于 Candle 的 LLama3 等大型模型的分布式推理。该项目的目标是通过将消费类硬件重新利用到 iOS、Android、macOS、Linux 和 Windows 设备的异构集群中，能够运行大型 （70B+） 模型，有效地利用计划中的过时作为工具，使 AI 更易于访问和民主。这个想法是将转换器模块分片到多个设备，以便能够在通常不适合单个设备的 GPU 内存的模型上运行推理。对同一工作线程上的连续变压器模块的推理是批处理的，以最大程度地减少由于数据传输而导致的延迟。
+
+
 
 
 
@@ -3448,7 +3458,7 @@
 
 * [esbatmop/MNBVC](https://github.com/esbatmop/MNBVC) Massive Never-ending BT Vast Chinese corpus超大规模中文语料集。对标chatGPT训练的40T数据。MNBVC数据集不但包括主流文化，也包括各个小众文化甚至火星文的数据。MNBVC数据集包括新闻、作文、小说、书籍、杂志、论文、台词、帖子、wiki、古诗、歌词、商品介绍、笑话、糗事、聊天记录等一切形式的纯文本中文数据。
 
-* [oscar-corpus/OSCAR-2201](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201) 通过使用 unoliant 架构对通用爬网语料库进行语言分类和过滤而获得的一个巨大的多语言语料库。数据以原始形式和重复数据删除形式按语言分发。
+* [oscar-corpus/OSCAR-2201](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201) 通过使用 unoliant 架构对通用爬虫语料库进行语言分类和过滤而获得的一个巨大的多语言语料库。数据以原始形式和重复数据删除形式按语言分发。
 
 * [festvox/datasets-CMU_DoG](https://github.com/festvox/datasets-CMU_DoG) CMU 文档基础对话数据集 该数据集包含 4112 个对话，每个对话平均 21.43 轮。这使该数据集可以在生成响应的同时提供相关的聊天历史记录。
 
@@ -3496,7 +3506,7 @@
 
 * [qkaren/Counterfactual-StoryRW](https://github.com/qkaren/Counterfactual-StoryRW) “虚构故事推理和生成”的数据集和代码
 
-* [eecrazy/CausalBank](https://github.com/eecrazy/CausalBank) 非常大规模、开放的领域、句子级、平行的因果语料库。按照句子中出现的因果顺序分为两部分：because_mode（结果，然后是原因）和therefore_mode（原因，然后是结果）。使用预处理的英语通用爬网语料库 （5.14 TB） 中的细粒度因果模板匹配获得的，完全自动，无需任何人工注释。里面或多或少有噪音。
+* [eecrazy/CausalBank](https://github.com/eecrazy/CausalBank) 非常大规模、开放的领域、句子级、平行的因果语料库。按照句子中出现的因果顺序分为两部分：because_mode（结果，然后是原因）和therefore_mode（原因，然后是结果）。使用预处理的英语通用爬虫语料库 （5.14 TB） 中的细粒度因果模板匹配获得的，完全自动，无需任何人工注释。里面或多或少有噪音。
 
 * [InsaneLife/ChineseNLPCorpus](https://github.com/InsaneLife/ChineseNLPCorpus) 中文自然语言处理数据集，阅读理解、任务型对话数据、文本分类、实体识别&词性标注&分词、句法&语义解析、推荐系统、百科数据、指代消歧、预训练：（词向量or模型）、中文完形填空数据集、中华古诗词数据库、保险行业语料库、汉语拆字字典。
 
@@ -3850,6 +3860,12 @@
 * [liuhaotian/LLaVA-Instruct-150K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) 数据集类型：LLaVA Visual Instruct 150K 是一组 GPT 生成的多模态指令跟踪数据。它用于视觉指令调整和构建面向 GPT-4 视觉/语言能力的大型多模态。数据集日期：LLaVA Visual Instruct 150K 于 2023 年 4 月通过提示 GPT-4-0314 API 收集。
 
 * [cerebras/SlimPajama-627B](https://huggingface.co/datasets/cerebras/SlimPajama-627B) 数据集由 59166 个 jsonl 文件组成，压缩为 ~895GB。它是 Together 的 RedPajama 的清洁和重复数据删除版本。今天，我们发布了 SlimPajama，这是最大的广泛重复数据删除、多语料库、开源数据集，用于训练大型语言模型。SlimPajama 是通过清理和删除 Together 中的 1.2T 词元 RedPajama 数据集而创建的。通过过滤掉低质量的数据和重复项，我们能够删除 49.6% 的字节，将数据集从 1210B 缩减到 627B 令牌。我们相信 SlimPajama 提供最高质量和计算效率最高的数据来训练高达 627B 词元的运行。当上采样时，我们预计 SlimPajama 在万亿词元规模的训练中表现等于或优于 RedPajama-1T。除了数据之外，我们还发布了我们为创建 SlimPajama 而构建的工具。将 MinHashLSH 重复数据删除应用于像 RedPajama 这样的万亿个令牌数据集是无法使用现成的开源代码实现的。我们对现有解决方案进行了多项改进，以生成一个基础架构，该基础架构可以以分布式、多线程和内存高效的方式对万亿个令牌数据集执行 MinHashLSH 重复数据删除。今天，我们正在开源这个基础设施，使社区能够在未来轻松创建更高质量、广泛去重的数据集。
+
+* [hendrycks/math](https://github.com/hendrycks/math) MATH 数据集 （NeurIPS 2021）,使用 MATH 数据集衡量数学问题的解决。
+
+* [lupantech/ScienceQA](https://github.com/lupantech/ScienceQA) 科学问答，这是一个新的基准，由 ~21k 多模态多项选择题组成，具有多种科学主题及其答案的注释以及相应的讲座和解释。我们进一步设计语言模型，以学习生成讲座和解释作为思维链 （CoT），以在回答 ScienceQA 问题时模仿多跳推理过程。ScienceQA 展示了 CoT 在语言模型中的实用性，因为 CoT 在少样本 GPT-3 中将问答性能提高了 1.20%，在微调的统一 QA 中提高了 3.99%。ScienceQA 是从小学和高中科学课程中收集的，包含 21,208 个多模态多项选择科学问题。在ScienceQA的问题中，10,332个（48.7%）有图像上下文，10,220个（48.2%）有文本上下文，6,532个（30.8%）两者兼而有之。大多数问题都附有扎实的讲座（83.9%）和详细的解释（90.5%）。讲座和讲解分别提供了一般的外部知识和得出正确答案的具体原因。据我们所知，ScienceQA是第一个对讲座和答案解释进行注释的大规模多模态数据集。与以前的数据集相比，ScienceQA 具有更丰富的领域多样性，来自自然科学、语言科学和社会科学三个学科。每个科目的问题首先按主题（生物、物理、化学等）分类，然后按类别（植物、细胞、动物等）分类，最后按技能（将水果和蔬菜分类为植物部分，识别非洲国家等）。ScienceQA 具有 26 个主题、127 个类别和 379 项技能，涵盖广泛的领域。
+
+* [mandyyyyii/scibench](https://github.com/mandyyyyii/scibench) SciBench 是源自教学教科书的大学水平科学问题的新基准。该基准测试旨在评估 的LLMs复杂推理能力、强大的领域知识和高级计算能力。我们开发了一种创新的评估协议，用于详细分析推理能力。
 
 ## 关系抽取、信息抽取
 
@@ -4439,6 +4455,12 @@
 
 * [web-infra-dev/rspack](https://github.com/web-infra-dev/rspack) 基于 Rust 的快速 Web 捆绑器，具有与 webpack 兼容的 API。Rspack 是一个用 Rust 编写的高性能 JavaScript 打包器。它提供了与 webpack 生态系统的强大兼容性，允许无缝替换 webpack，并提供闪电般的构建速度。特征：快速启动，基于 Rust，构建速度极快，为您带来极致的开发体验。闪电 HMR，HMR 内置增量编译机制，速度极快，完全有能力开发大型项目。Webpack 兼容，兼容 webpack 生态中的插件和加载器，无缝集成社区构建的优秀库。对 TypeScript、JSX、CSS、CSS 模块、Sass 等的开箱即用支持。生产优化，默认内置各种优化策略，如摇树、缩小等。与框架无关，不受任何前端框架的约束，确保足够的灵活性。
 
+* [rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) 促进 Wasm 模块和 JavaScript 之间的高级交互。轻。只需按实际使用量付费。 wasm-bindgen 仅为您实际使用的 JavaScript 导入和导出的 Rust 功能生成绑定和粘合。例如，导入和使用该 document.querySelector 方法不会导致 Node.prototype.appendChild 或 window.alert 包含在绑定中。ECMAScript 模块。只需导入 WebAssembly 模块，就像导入 JavaScript 模块一样。未来兼容 WebAssembly 模块和 ECMAScript 模块集成。在设计时考虑了“Web IDL 绑定”建议。最终，Rust 生成的 wasm 函数和原生 DOM 方法之间不会有任何 JavaScript 填充码。因为 wasm 函数是静态类型检查的，所以其中一些原生方法的动态类型检查应该变得没有必要了，这有望解锁比 JavaScript DOM 访问更快的速度。
+
+* [rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack) 该工具旨在成为构建和使用 rust 生成的 WebAssembly 的一站式商店，您希望在浏览器或Node.js中与 JavaScript 进行互操作。 wasm-pack 帮助您构建 rust 生成的 WebAssembly 包，您可以将其发布到 npm 注册表，或者以其他方式与您已使用的工作流（例如 webpack）中的任何 javascript 包一起使用。
+
+* [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) 通过 Node-API 在 Rust 中构建编译Node.js附加组件的框架
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -4524,7 +4546,7 @@
 
 * [cypress-io/cypress](https://github.com/cypress-io/cypress) 快速、简单、可靠地在浏览器中运行的任何测试内容。轻松地为现代 Web 应用程序创建测试，直观地调试，并在持续集成构建中自动运行它们。
 
-* [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) Node.js 库，提供了一个高级 API 来控制 DevTools 协议上的 Chrome/Chromium。Puppeteer默认以无头模式运行，但可以配置为在完整（“有头”）Chrome / Chromium中运行。示例：生成页面的屏幕截图和 PDF。对 SPA（单页应用程序）进行爬网并生成预呈现的内容（即“SSR”（服务器端呈现））。自动化表单提交、UI 测试、键盘输入等。使用最新的 JavaScript 和浏览器功能创建自动化测试环境。捕获站点的时间线跟踪，以帮助诊断性能问题。测试Chrome扩展程序。
+* [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) Node.js 库，提供了一个高级 API 来控制 DevTools 协议上的 Chrome/Chromium。Puppeteer默认以无头模式运行，但可以配置为在完整（“有头”）Chrome / Chromium中运行。示例：生成页面的屏幕截图和 PDF。对 SPA（单页应用程序）进行爬虫并生成预呈现的内容（即“SSR”（服务器端呈现））。自动化表单提交、UI 测试、键盘输入等。使用最新的 JavaScript 和浏览器功能创建自动化测试环境。捕获站点的时间线跟踪，以帮助诊断性能问题。测试Chrome扩展程序。
 
 * [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) React企业应用程序的全新 UI 解决方案。
 
@@ -5104,7 +5126,7 @@
 
 * [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas) 动态画布，TypeScript 库，它使用生成器对动画进行编程。提供上述动画实时预览的编辑器。专门的工具，旨在创建信息丰富的矢量动画并将它们与画外音同步。
 
-* [getzola/zola](https://github.com/getzola/zola) 一个快速的静态站点生成器，在一个二进制文件中，内置了所有内容。
+* [getzola/zola](https://github.com/getzola/zola) 一个快速的静态站点生成器，在一个二进制文件中，内置了所有内容。Zola 作为单个可执行文件提供，具有 Sass 编译、语法突出显示、目录和许多其他传统上需要设置开发环境或向您的网站添加一些 JavaScript 库的功能。平均站点将在不到一秒的时间内生成，包括 Sass 编译和语法高亮。Zola 将您的整个网站呈现为静态文件，使您无需支付任何费用即可轻松处理任何类型的流量，而无需担心管理服务器或数据库。从CLI到模板引擎，一切都设计得非常直观。不过，不要相信我的话，看看文档，自己看看。Zola 不碍事，因此您可以专注于您的内容，无论是博客、知识库、登录页面还是它们的组合。Zola 带有简码和内部链接，可以更轻松地编写内容。
 
 * [sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2) 美观、响应迅速、高度可定制和可访问 （WAI-ARIA） 的 JavaScript 弹出框替代品。零依赖性。
 
@@ -5172,7 +5194,7 @@
 
 * [redwoodjs/redwood](https://github.com/redwoodjs/redwood) 一个固执己见的全栈 JavaScript/TypeScript Web 应用程序框架，旨在让您在应用程序从副项目到启动的过程中快速前进。
 
-* [segment-boneyard/nightmare](https://github.com/segment-boneyard/nightmare) 高级浏览器自动化库。目标是公开一些模仿用户操作的简单方法（如 goto 和 type click ），其 API 对每个脚本块都感觉同步，而不是深度嵌套的回调。它最初设计用于跨没有 API 的站点自动执行任务，但最常用于 UI 测试和爬网。在幕后，它使用 Electron，它类似于 PhantomJS，但速度大约是 PhantomJS 的两倍，而且更现代。
+* [segment-boneyard/nightmare](https://github.com/segment-boneyard/nightmare) 高级浏览器自动化库。目标是公开一些模仿用户操作的简单方法（如 goto 和 type click ），其 API 对每个脚本块都感觉同步，而不是深度嵌套的回调。它最初设计用于跨没有 API 的站点自动执行任务，但最常用于 UI 测试和爬虫。在幕后，它使用 Electron，它类似于 PhantomJS，但速度大约是 PhantomJS 的两倍，而且更现代。
 
 * [ariya/phantomjs](https://github.com/ariya/phantomjs) 可编写脚本的无头浏览器
 
@@ -5485,6 +5507,10 @@
 
 * [didi/DoKit](https://github.com/didi/DoKit) 一款面向泛前端产品研发全生命周期的效率平台。DoKit诞生于滴滴城运服体验技术部，是一款面向泛前端产品研发全生命周期的效率平台。经过两年的发展，当前DoKit已经发展成了一个相对完整的生态，比如DoKit For Android、DoKit For iOS、DoKit For 小程序、DoKit For Flutter、DoKit For Web。同时我们的项目被BAT以及滴滴、字节、快手、京东等等头部独角兽企业广泛使用并获得良好的口碑。随着dokit.cn平台端的推出，标志着DoKit已经从单纯的效率工具正式进入了效率工具平台的阶段。与此同时我们一直都未停下持续探索的精神，积极地在更多平台领域进行尝试，不给自己设限。我们相信DoKit的未来充满无限可能。每一个稍微有点规模的 App，总会自带一些线下的测试功能代码，比如环境切换功能、帧率查看功能等等，这些功能的切换入口往往放在各式各样的入口中，比如一些特殊的手势，双击 statusBar，双击某一个功能区块，或者新建一个 keyWindow 始终至于 App 最上方等等，而且每一个 App 里面的线下附带功能模块很多是相似的，比如帧率查看、内存和 CPU 监控等等，但是现在基本上都是每个 App 都是自己实现了一份，经历了以上的问题之后，DoKit 就有了它存在的意义。DoKit 是一个功能平台，能够让每一个 App 快速接入一些常用的或者你没有实现的一些辅助开发工具、测试效率工具、视觉辅助工具，而且能够完美在 Doraemon 面板中接入你已经实现的与业务紧密耦合的一些非通有的辅助工具，并搭配我们的dokit平台，让功能得到延伸，接入方便，便于扩展。简单总结：1、DoKit 能够快速让你的业务测试代码能够在这里统一管理，统一收口；2、DoKit 内置很多常用的工具，避免重复实现，一次接入，你将会拥有强大的工具集合；3、搭配dokit平台，借助接口Mock、健康体检、文件同步助手、一机多控让你方便和他人协同，极大的提升研发过程中的效率。
 
+* [parcel-bundler/lightningcss](https://github.com/parcel-bundler/lightningcss) 一个用 Rust 编写的极快的 CSS 解析器、转换器、打包器和微型器。
+
+* [djc/askama](https://github.com/djc/askama) 类型安全、编译的类似 Jinja 的 Rust 模板。Askama 实现了一个基于 Jinja 的模板渲染引擎。它在编译时根据用户定义 struct 的模板生成 Rust 代码，以保存模板的上下文。
+
 ### 管理面板
 
 * [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
@@ -5631,6 +5657,8 @@
 
 * [ninenines/cowboy](https://github.com/ninenines/cowboy) 用 Erlang/OTP 的小型、快速、现代的 HTTP 服务器。
 
+* [emmett-framework/granian](https://github.com/emmett-framework/granian) 用于 Python 应用程序的 Rust HTTP 服务器。Granian设计背后的主要原因是：有一个单一的、正确的 HTTP 实现，支持版本 1、2（最终是 3）,为多个平台提供单一软件包,避免 unix 系统上常见的 Gunicorn + uvicorn + http-tools 依赖组合,与现有替代品相比，提供稳定的性能。特征：支持 ASGI/3、RSGI 和 WSGI 接口应用，实现 HTTP/1 和 HTTP/2 协议，支持 HTTPS，支持 Websockets。
+
 * [openfaas/faas](https://github.com/openfaas/faas) 使开发人员可以轻松地将事件驱动的函数和微服务部署到 Kubernetes，而无需重复的样板编码。将代码或现有二进制文件打包在与 OCI 兼容的映像中，以获得具有自动缩放和指标的高度可扩展的终结点。
 
 * [ossrs/srs](https://github.com/ossrs/srs) SRS是一个简单，高效，实时的视频服务器，支持RTMP，WebRTC，HLS，HTTP-FLV，SRT，MPEG-DASH和GB28181。
@@ -5704,6 +5732,8 @@
 * [plausible/analytics](https://github.com/plausible/analytics) 简单开源轻量级1K和隐私友好的网络分析替代谷歌分析。
 
 * [hasura/graphql-engine](https://github.com/hasura/graphql-engine) 开源产品，通过立即为您提供具有内置数据授权的 GraphQL 或 REST API，将 API 开发速度提高了 10 倍。在一个或多个域上构建、操作、协作和发展企业级 GraphQL API（联合或单体）的最快、最简单的方式。借助 Hasura DDN，您可以毫不费力地将所有数据库、服务和代码连接到一个统一的数据图中，并通过一个强大的超级图 API 将其公开，具有无与伦比的可组合性和速度。特色：使用“连接，而不是代码”的方法，在几分钟内在您的域上构建 API。使用令人难以置信的可组合和标准化 API 简化自助式数据访问和聚合。只有将性能调低到数据库查询的超级图查询规划器。领域团队（子图）可以协作构建和发展超图。在直观的 API 门户中发现、获取和编写所需的数据。提供任何规模的性能、安全性和可靠性，而不会造成 DevOps 负担。
+
+* [graphql-rust/juniper](https://github.com/graphql-rust/juniper) GraphQL 是 Facebook 开发的一种数据查询语言，旨在为移动和 Web 应用程序前端提供服务。在 Rust 中编写类型安全且速度极快的 GraphQL 服务器成为可能。我们还尝试使声明和解析 GraphQL 模式在 Rust 允许的范围内尽可能方便。不包括 Web 服务器，而是提供构建块，使与现有服务器的集成变得简单明了。它可以选择为 Actix、Hyper、Rocket 和 Warp 框架提供预构建的集成，包括嵌入式 Graphiql 和 GraphQL Playground，以便于调试。
 
 * [supabase/realtime](https://github.com/supabase/realtime) 通过 WebSocket 进行广播、状态和发布更改
 
@@ -5905,6 +5935,16 @@
 
 * [dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) 基于 GraphQL 模式和 GraphQL 操作（查询/变更/订阅）生成代码的工具，灵活支持自定义插件。GraphQL Code Generator 是一种从 GraphQL 模式生成代码的工具。无论您是开发前端还是后端，您都可以利用 GraphQL 代码生成器从 GraphQL 模式和 GraphQL 文档（查询/突变/订阅/片段）生成输出。通过分析模式和文档并对其进行解析，GraphQL Code Generator 可以基于预定义的模板或基于自定义用户定义的模板以多种格式输出代码。无论您使用哪种语言，GraphQL Code Generator 都能满足您的需求。
 
+* [LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production) Zero To Production In Rust 是对使用 Rust 进行后端开发的自以为是的介绍。从零到生产是您作为 Rust 后端开发人员的理想起点。您将边做边学：您将从头开始构建一个功能齐全的电子邮件通讯 API。本书由 11 章组成，共 ~600 页。
+
+* [tokio-rs/tracing](https://github.com/tokio-rs/tracing) Rust 的应用程序级跟踪。用于检测 Rust 程序以收集结构化的、基于事件的诊断信息的框架。 tracing 由 Tokio 项目维护，但不需要使用 tokio 运行时。为了记录跟踪事件，可执行文件必须使用与 tracing 兼容的收集器实现。收集器实现一种收集跟踪数据的方法，例如将其记录到标准输出中。 tracing-subscriber 的 fmt 模块提供了一个收集器，用于记录具有合理默认值的跟踪。此外， tracing-subscriber 还能够使用 log 检测库和模块发出的消息。
+
+* [flosse/rust-web-framework-comparison](https://github.com/flosse/rust-web-framework-comparison) 一些用 Rust 编写的 Web 框架的比较。本概述仅包含适用于稳定 Rust 的框架。
+
+* [poem-web/poem](https://github.com/poem-web/poem) 一个功能齐全且易于使用的 Web 框架，带有 Rust 编程语言。
+
+* [salvo-rs/salvo](https://github.com/salvo-rs/salvo) 一个强大的 Web 框架，采用简化的设计构建。Salvo 是一个非常简单和强大的 Rust Web 后端框架。开发后端服务只需要基本的 Rust 知识。
+
 ### PHP开发
 
 * [php/php-src](https://github.com/php/php-src) PHP 是一种流行的通用脚本语言，特别适合 Web 开发。快速、灵活和实用，PHP 为从您的博客到世界上最受欢迎的网站的一切提供支持。PHP基金会是一个由个人和组织组成的集体，他们团结一致，以确保PHP语言的长期繁荣。PHP（“PHP: Hypertext Preprocessor”，超文本预处理器的字母缩写）是一种被广泛应用的开放源代码的多用途脚本语言，它可嵌入到 HTML中，尤其适合 web 开发。PHP 能做任何事。PHP 主要是用于服务端的脚本程序，因此可以用 PHP 来完成任何其它的 CGI 程序能够完成的工作，例如收集表单数据，生成动态网页，或者发送／接收 Cookies。但 PHP 的功能远不局限于此。PHP 脚本主要用于以下三个领域：`服务端脚本`。这是 PHP 最传统，也是最主要的目标领域。开展这项工作需要具备以下三点：PHP 解析器（CGI 或者服务器模块）、web 服务器和 web 浏览器。需要在运行 web 服务器时，安装并配置 PHP，然后，可以用 web 浏览器来访问 PHP 程序的输出，即浏览服务端的 PHP 页面。如果只是实验 PHP 编程，所有的这些都可以运行在自己家里的电脑中。请查阅安装一章以获取更多信息。`命令行脚本`。可以编写一段 PHP 脚本，并且不需要任何服务器或者浏览器来运行它。通过这种方式，仅仅只需要 PHP 解析器来执行。这种用法对于依赖 cron（Unix 或者 Linux 环境）或者 Task Scheduler（Windows 环境）的日常运行的脚本来说是理想的选择。这些脚本也可以用来处理简单的文本。请参阅 PHP 的命令行模式以获取更多信息。`编写桌面应用程序`,对于有着图形界面的桌面应用程序来说，PHP 或许不是一种最好的语言，但是如果用户非常精通 PHP，并且希望在客户端应用程序中使用 PHP 的一些高级特性，可以利用 PHP-GTK 来编写这些程序。用这种方法，还可以编写跨平台的应用程序。PHP-GTK 是 PHP 的一个扩展，在通常发布的 PHP 包中并不包含它。如果对 PHP-GTK 感兴趣，请访问其» 网站以获取更多信息。
@@ -5981,6 +6021,9 @@
 
 ### 网络爬虫
 
+* [apify/crawlee](https://github.com/apify/crawlee) Crawlee - 一个 Web 抓取和浏览器自动化库，供Node.js构建可靠的爬虫。在 JavaScript 和 TypeScript 中。提取 AI、LLMsRAG 或 GPT 的数据。 从网站下载 HTML、PDF、JPG、PNG 和其他文件。适用于 Puppeteer、Playwright、Cheerio、JSDOM 和原始 HTTP。有头和无头模式。使用代理轮换。Crawlee 端到端地覆盖您的爬行和抓取，并帮助您构建可靠的抓取工具。快。即使使用默认配置，您的爬虫也会看起来像人类一样，并在现代机器人保护的雷达下飞行。Crawlee 为您提供了抓取 Web 链接、抓取数据并将其存储到磁盘或云中的工具，同时保持可配置以满足您的项目需求。特征：用于 HTTP 和无头浏览器爬虫的单一界面、要抓取的 URL 的持久队列（广度和深度优先）、表格数据和文件的可插拔存储、
+使用可用系统资源自动扩展、集成代理轮换和会话管理、可通过钩子自定义的生命周期、CLI 引导项目、可配置的路由错误处理和重试、Dockerfile 已准备好部署、用泛型的 TypeScript 编写。 HTTP 爬虫：零配置 HTTP2 支持，即使对于代理也是如此、自动生成类似浏览器的标题、复制浏览器 TLS 指纹、集成了快速 HTML 解析器。Cheerio 和 JSDOM、是的，您也可以抓取 JSON API。真正的浏览器抓取：JavaScript 呈现和屏幕截图、无头和有头支持、零配置生成类人指纹、自动浏览器管理、使用具有相同界面的 Playwright 和 Puppeteer、Chrome、Firefox、Webkit 等。
+
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
 
 * [Jack-Cherish/python-spider](https://github.com/Jack-Cherish/python-spider) Python3网络爬虫实战：淘宝、京东、网易云、B站、12306、抖音、笔趣阁、漫画小说下载、音乐电影下载等
@@ -6010,6 +6053,16 @@
 * [Jack-Cherish/python-spider](https://github.com/Jack-Cherish/python-spider) Python3网络爬虫实战：淘宝、京东、网易云、B站、12306、抖音、笔趣阁、漫画小说下载、音乐电影下载等
 
 * [kangvcar/InfoSpider](https://github.com/kangvcar/InfoSpider) 集众多数据源于一身的爬虫工具箱，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、淘宝、支付宝、中国移动、中国联通、中国电信、知乎、哔哩哔哩、网易云音乐、QQ好友、QQ群、生成朋友圈相册、浏览器浏览历史、12306、博客园、CSDN博客、开源中国博客、简书。
+
+* [rapiz1/rathole](https://github.com/rapiz1/rathole) 一个轻量级和高性能的反向代理，用于 NAT 遍历，用 Rust 编写。frp 和 ngrok 的替代品。与 frp 和 ngrok 一样，rathole 可以帮助通过具有公共 IP 的服务器将 NAT 后面设备上的服务暴露给 Internet。高性能 可以实现比 frp 高得多的吞吐量，并且在处理大量连接时更稳定。低资源消耗 与类似工具相比，消耗的内存要少得多。请参阅基准测试。二进制文件可以小至 ~500KiB，以适应设备（如路由器等嵌入式设备）的约束。服务的安全令牌是强制性的，并且是服务方面的。服务器和客户端负责自己的配置。使用可选的噪声协议，可以轻松配置加密。无需创建自签名证书！还支持 TLS。可以通过热重载配置文件来动态添加或删除热重载服务。HTTP API 是 WIP。
+
+* [fhamborg/news-please](https://github.com/fhamborg/news-please) News-Please 是一个开源、易于使用的新闻爬虫，几乎可以从任何新闻网站中提取结构化信息。它可以递归地跟踪内部超链接并读取 RSS 源，以获取最新和旧的存档文章。您只需要提供新闻网站的根 URL 即可完全抓取它。news-please 结合了多个最先进的库和工具的强大功能，例如 scrapy、报纸和可读性。
+
+* [miso-belica/jusText](https://github.com/miso-belica/jusText) 用于从 HTML 页面中删除样板内容（如导航链接、页眉和页脚）的工具。它旨在主要保留包含完整句子的文本，因此非常适合创建语言资源，例如 Web 语料库。
+
+* [flairNLP/fundus](https://github.com/flairNLP/fundus) 静态新闻爬虫。Fundus 让您只需几行 Python 代码即可抓取在线新闻文章！无论是来自实时网站还是CC-NEWS数据集。支持：抓取一堆英语新闻文章；对特定新闻源进行爬取；抓取 100 万篇文章，为了抓取如此大量的数据，Fundus 依赖于 CommonCrawl Web 存档，尤其是 新闻抓取 CC-NEWS 。如果您不熟悉 CommonCrawl 或 CC-NEWS 查看他们的网站。评估基准中最高的F1分数。[dobbersc/fundus-evaluation](https://github.com/dobbersc/fundus-evaluation)
+
+* [adbar/trafilatura](https://github.com/adbar/trafilatura) 发现和提取网络上的文本数据，Python和命令行工具，用于收集Web上的文本和元数据：抓取，抓取，提取，输出为CSV，JSON，HTML，MD，TXT，XML。旨在收集 Web 上的文本并简化将原始 HTML 转换为结构化、有意义的数据的过程。它包括所有必要的发现和文本处理组件，以执行 Web 爬虫、下载、抓取和提取主要文本、元数据和注释。它旨在保持方便和模块化：不需要数据库，输出可以转换为常用格式。从 HTML 批量到基本部分可以缓解许多与文本质量相关的问题，通过关注实际内容，避免重复出现的元素（页眉、页脚等）引起的噪音，并使用选定的信息理解数据。提取器设计为强大且速度相当快，可在数百万个文档上运行。该工具的多功能性使其可用于定量和数据驱动的方法。它用于学术领域及其他领域（例如自然语言处理、计算社会科学、搜索引擎优化和信息安全）。
 
 ### 网络服务_其他
 
@@ -6301,7 +6354,7 @@
 
 * [yarnpkg/berry](https://github.com/yarnpkg/berry) 现代的包管理器，分为各种包。其新颖的架构允许完成目前使用现有解决方案无法完成的事情：Yarn 支持插件;添加插件就像将其添加到存储库中一样简单；Yarn 默认支持 Node，插件可以添加对其他语言的支持；Yarn 原生支持工作区，其 CLI 利用了这一点；Yarn 使用类似 bash 的可移植 shell 脚本可跨 Windows、Linux 和 macOS 移植；Yarn 首先是一个 Node API，可以通过编程方式（通过 @yarnpkg/core）使用；Yarn 是用 TypeScript 编写的，并且经过了完全的类型检查
 
-* [DIYgod/RSSHub: 🍰 Everything is RSSible](https://github.com/DIYgod/RSSHub) 一切都是可RSS的，一个开源、易于使用且可扩展的 RSS 源生成器。它能够从几乎所有内容生成RSS提要。
+* [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) 一切都是可RSS的，一个开源、易于使用且可扩展的 RSS 源生成器。它能够从几乎所有内容生成RSS提要。
 
 * [Netflix/conductor](https://github.com/Netflix/conductor) Netflix 创建的一个平台，用于编排跨微服务的工作流程。Conductor 由 Netflix 的媒体工作流基础设施团队维护。
 
@@ -6681,6 +6734,8 @@
 
 * [hiddify/hiddify-next](https://github.com/hiddify/hiddify-next) 多平台自动代理客户端，支持Sing-box、X-ray、TUIC、Hysteria、Reality、Trojan、SSH等。它是开源的、安全的、无广告的。
 
+* [pallets/itsdangerous](https://github.com/pallets/itsdangerous) 将可信数据安全地传递到不受信任的环境并返回。各种帮助程序将数据传递到不受信任的环境，并使其安全无恙地恢复。数据经过加密签名，以确保令牌未被篡改。可以自定义数据序列化的方式。根据需要压缩数据。加载令牌时，可以自动添加和验证时间戳。
+
 * [berty/berty](https://github.com/berty/berty) 安全的点对点消息传递应用程序，无论是否具有互联网访问、蜂窝数据或网络信任，都可以使用。建立在 Wesh 协议之上的隐私优先消息传递应用程序。安全和私密：默认情况下，消息是端到端加密的；元数据保持在最低限度；创建帐户不需要电话号码或电子邮件地址；即使在对抗性网络上使用时，也能保留其属性；具有审查弹性；去中心化、分布式、点对点和无服务器；由于采用了 BLE 技术和 mDNS，因此不需要互联网连接。；永久免费和开源Berty 被设计为在所有其他传统信使失败时用作通信工具。Berty Messenger 提供以下用例：当您需要通过不受信任的网络共享敏感信息时，例如在旅行时；
 如果您想匿名交流；如果您想完全控制您的数据，因此不想依赖第三方服务器；
 在积极监控和调整其网络的国家，限制其使用并审查其某些内容；在连接较弱或根本没有连接的区域。
@@ -6710,6 +6765,10 @@
 * [zfile-dev/zfile](https://github.com/zfile-dev/zfile) 在线云盘、网盘、OneDrive、云存储、私有云、对象存储、h5ai、上传、下载。ZFile 是一个适用于个人的在线网盘(列目录)程序，可以将你各个存储类型的存储源，统一到一个网页中查看、预览、维护，再也不用去登录各种各样的网页登录后管理文件，现在你只需要在 ZFile 中使用。你只需要填写存储源相关信息，其他的令牌刷新，授权都是尽量自动化的，且有完善的文档帮助你使用。支持对接 S3、OneDrive、SharePoint、Google Drive、多吉云、又拍云、本地存储、FTP、SFTP 等存储源。支持在线浏览图片、播放音视频，文本文件、Office、obj（3d）等文件类型。
 
 * [xykt/IPQuality](https://github.com/xykt/IPQuality) 用于 IP 质量检测的脚本。中英文双语言支持。支持IPv4/IPv6双栈查询；精美排版，直观显示，多终端单屏优化展示，便于截图分享；基础信息、IP类型、风险评分、风险因子、流媒体解锁、邮局检测六大模块；基础数据源自Maxmind数据库；风险信息 IPinfo / ipregistry / ipapi / AbuseIPDB / IP2LOCATION / IPQS / DB-IP / SCAMALYTICS / IPWHOIS 多数据库整合；流媒体及AI多个服务商 TikTok / Disney+ / Netflix / Youtube / AmazonPrimeVideo / Spotify / ChatGPT 解锁及解锁类型检测；多邮局服务商 Gmail / Outlook / Yahoo / Apple / QQ / Mail.ru / AOL / GMX / Mail.com / 163 / Sohu / Sina 连通性检测；多邮局服务商 Gmail / Outlook / Yahoo / Apple / QQ / Mail.ru / AOL / GMX / Mail.com / 163 / 搜狐 / Sina 连通性检测；IP地址黑名单400+数据库检测
+
+* [caorushizi/mediago](https://github.com/caorushizi/mediago) m3u8[m3u8-downloader] 视频在线提取工具 流媒体下载 、视频下载 、 m3u8下载 、 B站视频下载 桌面客户端 windows mac
+
+* [cloudflare/boringtun](https://github.com/cloudflare/boringtun) Rust 中的用户空间 WireGuard® 实现，专为便携性和速度而设计。BoringTun 已成功部署在数百万台 iOS 和 Android 消费类设备以及数千台 Cloudflare Linux 服务器上。可执行文件 boringtun-cli ，用于 Linux 和 macOS 的用户空间 WireGuard 实现。该库 boringtun 可用于在各种平台（包括 iOS 和 Android）上实现快速高效的 WireGuard 客户端应用程序。它实现了底层的 WireGuard 协议，没有网络或隧道堆栈，这些协议可以以平台惯用的方式实现。WireGuard ® 是一款极其简单但快速且现代的 VPN，它利用了最先进的加密技术。它旨在比 IPsec 更快、更简单、更精简、更有用，同时避免了令人头疼的问题。它打算比OpenVPN性能高得多。WireGuard 被设计为通用 VPN，可在嵌入式接口和超级计算机上运行，适用于许多不同的情况。它最初是为 Linux 内核发布的，现在是跨平台（Windows、macOS、BSD、iOS、Android）并可广泛部署的。它目前正在大量开发中，但它已经被认为是业内最安全、最容易使用和最简单的 VPN 解决方案。
 
 ## 区块链、智能合约
 
@@ -8072,6 +8131,8 @@
 * [ByteDance/Hyper-SD](https://huggingface.co/ByteDance/Hyper-SD) Hyper-SD是最先进的扩散模型加速技术之一。在这个存储库中，我们发布了从 SDXL Base 1.0 和 Stable-Diffusion v1-5 中提炼出来的模型。协同融合了 ODE 轨迹保留和重新制定的优点，同时在阶跃压缩期间保持近乎无损的性能。首先，我们引入了轨迹分段一致性蒸馏，在预定义的时间步长段内逐步进行一致蒸馏，这有助于从高阶角度保留原始常微分方程轨迹。其次，我们结合了人工反馈学习，以提高模型在低步长状态下的性能，并减轻蒸馏过程产生的性能损失。第三，我们集成了分数蒸馏，以进一步提高模型的低步长生成能力，并首次尝试利用统一的 LoRA 来支持所有步骤的推理过程。大量的实验和用户研究表明，Hyper-SD 在 SDXL 和 SD1.5 上都能实现 1 到 8 个推理步骤的 SOTA 性能。
 
 * [segmind/SSD-1B](https://huggingface.co/segmind/SSD-1B) Segmind Stable Diffusion Model （SSD-1B） 是 Stable Diffusion XL （SDXL） 的精炼 50% 缩小版本，提供 60% 的加速，同时保持高质量的文本到图像生成功能。它已经在各种数据集上进行了训练，包括 Grit 和 Midjourney 抓取数据，以增强其基于文本提示创建各种视觉内容的能力。该模型采用知识蒸馏策略，先后利用多个专家模型（包括 SDXL、ZavyChromaXL 和 JuggernautXL）的教学，结合它们的优势并产生令人印象深刻的视觉输出。
+
+* [image-rs/image](https://github.com/image-rs/image) 在 Rust 中编码和解码图像，提供了基本的图像处理功能和方法，用于在各种图像格式之间进行转换。提供的所有图像处理函数都对实现 GenericImageView 和 GenericImage 特征并返回 ImageBuffer .
 
 # 因果推断
 
@@ -9882,6 +9943,8 @@
 
 * [apache/storm](https://github.com/apache/storm) 分布式实时计算系统。与Hadoop提供一组用于进行批处理的通用原语类似，Storm提供了一组用于执行实时计算的通用原语。Storm 很简单，可以与任何编程语言一起使用，被许多公司使用，而且使用起来很有趣！Apache Storm 有许多用例：实时分析、在线机器学习、持续计算、分布式 RPC、ETL 等。Apache Storm 速度很快：基准测试显示，每个节点每秒处理超过 100 万个元组。它具有可扩展性、容错性，可保证您的数据得到处理，并且易于设置和操作。Apache Storm 与您已经使用的排队和数据库技术集成。Apache Storm 拓扑使用数据流，并以任意复杂的方式处理这些流，根据需要在计算的每个阶段之间重新划分流。在本教程中阅读更多内容。
 
+* [erikgrinaker/toydb](https://github.com/erikgrinaker/toydb) Rust 中的分布式 SQL 数据库，作为学习项目编写。大多数组件都是从头开始构建的，包括：基于 Raft 的分布式共识引擎，用于线性化状态机复制。符合 ACID 标准的事务引擎，具有基于 MVCC 的快照隔离。具有 BitCask 和内存后端的可插拔存储引擎。基于迭代器的查询引擎，具有启发式优化和时间旅行支持。SQL 接口，包括投影、筛选器、联接、聚合和事务。toyDB 不适合在现实世界中使用，但其他学习数据库内部的人可能会感兴趣。
+
 ## 数据搜索引擎
 
 * [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -10310,6 +10373,10 @@
 
 * [uber/cadence](https://github.com/uber/cadence) 分布式、可扩展、持久且高度可用的编排引擎，用于以可扩展和弹性的方式执行异步长时间运行的业务逻辑。开源的无故障状态代码平台和工作流引擎，专为解决与第三方 API、内部服务和长期运行的业务流程进行复杂交互的挑战。Cadence 为使用需要容错的基于微服务的架构以及包含无数多步骤并发工作流或与多个第三方 API 交互的应用程序的开发团队提供了很多价值。Cadence 将应用程序的整个状态保存在与任何特定进程无关的持久虚拟内存中。存储的应用程序状态包括用户定义活动的所有调用参数和返回结果。然后，它使用该信息来赶上并重播被中断的工作流。
 
+* [amethyst/specs](https://github.com/amethyst/specs) Specs 是一个用 Rust 编写的实体组件系统。与大多数其他 ECS 库不同，它提供轻松并行：高灵活性、包含 5 种不同的组件存储，用户可以对其进行扩展；它的类型大多不是耦合的，所以你可以很容易地自己编写一些部分，并且仍然使用规范；System 可以读取和写入组件和资源，可以相互依赖，并且可以使用屏障来强制系统执行的几个阶段；适用于实际应用的高性能。
+
+* [containers/youki](https://github.com/containers/youki) 用 Rust 编写的容器运行时，youki 是 Rust 中 OCI 运行时规范的实现，类似于 runc。Youki 有可能比 runc 更快、使用更少的内存，因此可以在内存使用要求严格的环境中工作。
+
 # 安全与渗透
 
 ## 扫描器、资产收集、子域名
@@ -10515,6 +10582,8 @@
 * [laramies/theHarvester](https://github.com/laramies/theHarvester) 简单易用但功能强大的工具，设计用于红色的侦察阶段团队评估或渗透测试。它执行开源情报 （OSINT） 收集以帮助确定域的外部威胁态势。
 
 * [soxoj/maigret](https://github.com/soxoj/maigret) 通过用户名从数千个站点收集有关某人的档案
+
+* [epi052/feroxbuster](https://github.com/epi052/feroxbuster) 一个用 Rust 编写的快速、简单、递归的内容发现工具。强制浏览是一种攻击，其目的是枚举和访问 Web 应用程序未引用但攻击者仍可访问的资源。feroxbuster 使用暴力破解与单词列表相结合来搜索目标目录中未链接的内容。这些资源可能会存储有关 Web 应用程序和操作系统的敏感信息，例如源代码、凭据、内部网络寻址等。此攻击也称为可预测资源位置、文件枚举、目录枚举和资源枚举。
 
 ## web shell、shellcode
 
@@ -10833,6 +10902,8 @@
 * [grafana/grafana](https://github.com/grafana/grafana) 开放、可组合的可观测性和数据可视化平台。可视化来自多个来源的指标、日志和跟踪，如 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等等。
 
 * [pinecone-wifi/pinecone](https://github.com/pinecone-wifi/pinecone) WLAN网络审计工具，适合红队使用。它可以通过模块进行扩展，并且设计为在基于 Debian 的操作系统中运行。松果专门用于与树莓派一起使用，作为便携式无线审计盒。
+
+* [Trusted-AI/adversarial-robustness-toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) 用于机器学习安全的 Python 库 - 规避、中毒、提取、推理 - 红蓝团队。Adversarial Robustness Toolbox （ART） 是用于机器学习安全性的 Python 库。ART由Linux基金会人工智能与数据基金会（LF AI & Data）主办。ART 提供的工具使开发人员和研究人员能够防御和评估机器学习模型和应用程序，以应对规避、中毒、提取和推理的对抗性威胁。ART 支持所有流行的机器学习框架（TensorFlow、Keras、PyTorch、MXNet、scikit-learn、XGBoost、LightGBM、CatBoost、GPy 等）、所有数据类型（图像、表格、音频、视频等）和机器学习任务（分类、对象检测、语音识别、生成、认证等）。
 
 * [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
 
@@ -11682,9 +11753,13 @@
 
 * [HQarroum/awesome-iot](https://github.com/HQarroum/awesome-iot) 精选的物联网项目和资源列表。目录：硬件、软件、操作系统、编程语言、框架、中间件、库和工具、杂项、协议和网络、技术、标准和联盟、资源、书、文章、文件
 
+* [gfx-rs/gfx](https://github.com/gfx-rs/gfx) gfx-rs 是 Rust 中的一个低级、跨平台的图形和计算抽象库。从 v0.9 版本开始，gfx-hal 现在处于维护模式。GFX-HAL 的开发主要由 WGPU 驱动，WGPU 现在已经切换到自己的 GPU 抽象，称为 WGPU-HAL。
+
+* [embassy-rs/embassy](https://github.com/embassy-rs/embassy) 现代嵌入式框架，使用 Rust 和 async。Embassy 是嵌入式应用程序的下一代框架。使用 Rust 编程语言、其异步工具和 Embassy 库，更快地编写安全、正确和节能的嵌入式代码。Rust 编程语言速度极快且内存效率高，没有运行时、垃圾回收器或操作系统。它在编译时捕获各种错误，这要归功于其完整的内存和线程安全性以及富有表现力的类型系统。Rust 的 async/await 允许在嵌入式系统中实现前所未有的简单和高效的多任务处理。任务在编译时转换为协作运行的状态机。它不需要动态内存分配，而是在单个堆栈上运行，因此不需要对每个任务的堆栈大小进行调整。它摒弃了对具有内核上下文切换的传统 RTOS 的需求，并且比 RTOS 更快、更小！
+
 # 其他项目
 
-## Python
+## Python 程序
 
 * [python/cpython](https://github.com/python/cpython) Python编程语言
 
@@ -11937,6 +12012,7 @@
 
 * [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) 最好的免费和开源自动时间跟踪器。跨平台、可扩展、注重隐私。在不损害用户隐私的情况下收集尽可能多的有价值的生活数据。
 
+
 ## C/C++ 程序设计
 
 * [skyline-emu/skyline](https://github.com/skyline-emu/skyline) 实验性模拟器，可在 ARMv8 Android™ 设备上运行并模拟 Nintendo Switch™ 游戏机系统的功能
@@ -12069,6 +12145,8 @@
 
 * [zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) 用于Windows平台的网速监控悬浮窗软件，可以显示当前网速、CPU及内存利用率，支持嵌入到任务栏显示，支持更换皮肤、历史流量统计等功能。
 
+* [unikraft/unikraft](https://github.com/unikraft/unikraft) 下一代云原生内核，旨在解锁一流的性能、安全原语和效率节约。Unikraft 使您能够从根本上定制和构建自定义操作系统/内核，从而为下一代云原生、无容器应用程序提供支持;解锁一流的性能、安全原语和效率节约。特征：虽然基于 Linux 的系统可能需要数十秒才能启动，但 Unikraft 将在几毫秒内启动。Unikraft 拥有模块化设计方法，允许开发人员仅包含必要的组件，从而实现更精简、更高效的操作系统配置。Unikraft专为性能而构建，可最大限度地减少开销并利用特定于平台的优化，确保应用程序达到最佳性能水平。Unikraft支持多种硬件架构，包括x86、ARM（以及即将推出的RISC-V），在各种硬件平台上提供了部署的灵活性。Unikraft 为多种编程语言和硬件架构提供广泛的支持，使开发人员能够灵活地选择最适合您需求的工具和平台。Unikraft专为云和边缘计算环境而设计，可跨分布式计算基础设施无缝部署应用程序。通过有选择地仅包含必要的组件，Unikraft 减少了攻击面，增强了部署场景中的安全性。Unikraft还包括许多其他现代安全功能。Unikraft直观的工具链和用户友好的界面简化了开发过程，使开发人员能够专注于构建创新的解决方案。Unikraft 优化了资源利用率，从而减少了占用空间（意味着更高的服务器饱和度）并提高了资源受限环境中的效率。Unikraft 是一个开源项目，由 100 多名开发人员组成的充满活力的社区推动，促进了工业界和学术界的合作和创新。
+
 ## Rust 程序设计
 
 * [rust-lang/rust](https://github.com/rust-lang/rust) rust使每个人都能构建可靠、高效的软件。Rust 的主要源代码存储库。它包含编译器、标准库和文档。
@@ -12089,7 +12167,7 @@
 
 * [rust-lang/cargo](https://github.com/rust-lang/cargo) Rust包管理器，Cargo下载你的Rust项目的依赖项并编译你的项目。
 
-* [rust-lang/mdBook](https://github.com/rust-lang/mdBook) 从markdown文件创建书籍。像Gitbook 一样，但在 Rust 中实现
+* [rust-lang/mdBook](https://github.com/rust-lang/mdBook) 从markdown文件创建书籍。像Gitbook 一样，但在 Rust 中实现。它非常适合创建产品或 API 文档、教程、课程材料或任何需要干净、易于导航和可定制的演示文稿的内容。轻量级 Markdown 语法可帮助您更专注于您的内容；集成搜索支持；许多不同语言的代码块的颜色语法突出显示；主题文件允许自定义输出的格式；预处理器可以为自定义语法和修改内容提供扩展；后端可以将输出呈现为多种格式；用 Rust 编写，速度、安全性和简单性；Rust 代码示例的自动化测试。
 
 * [iced-rs/iced](https://github.com/iced-rs/iced) 一个跨平台的 Rust GUI 库，灵感来自 Elm
 
@@ -12187,7 +12265,57 @@
 
 * [dtolnay/proc-macro-workshop](https://github.com/dtolnay/proc-macro-workshop) 此存储库包含一系列旨在学习编写 Rust 过程宏的项目 — 生成 Rust 代码的 Rust 代码。这些项目中的每一个都来自一个引人注目的真实用例。在这里的 5 个项目中，有 3 个是我亲自在工业代码库中实现的宏，另外 2 个作为其他作者在 crates.io 上的库存在。
 
-## flutter
+* [rcore-os/rCore](https://github.com/rcore-os/rCore) THU uCore OS 的 Rust 版本，兼容 Linux。将成为下一代教学操作系统。支持的架构和主板：x86_64（第 1 层）：QEMU、PC （i5/i7）,RISCV32/64（Tier 2）：QEMU、HiFive Unleashed,AArch64（第 2 层）：QEMU、Raspberry Pi 3B+,MIPS32（第 3 层）：QEMU、TrivialMIPS.
+
+* [arceos-org/arceos](https://github.com/arceos-org/arceos) 一个用 Rust 编写的实验性模块化操作系统。ArceOS 的灵感很大程度上来自 Unikraft。
+
+* [o8vm/octox](https://github.com/o8vm/octox) 受 xv6-riscv 启发的 Rust 类 Unix 操作系统。octox 松散地遵循 xv6 的结构和风格，但在纯 Rust 中实现。从内核、用户空间、mkfs 到构建系统，一切都尽可能用安全的 Rust 编写。对外部没有依赖性。用户空间有一个类似于 Rust 的带有 K&R malloc 的 std 的库。多核支持、作为内核侧内存分配器的伙伴分配器、支持日志记录的文件系统等。
+
+* [rustls/rustls](https://github.com/rustls/rustls) Rust 中的现代 TLS 库,Rustls 在许多组织和项目的生产中使用。我们的目标是保持合理的 API 表面稳定性，但随着我们进行更改以适应新功能或性能改进，API 可能会发生变化。Rustls 是一个 TLS 库，旨在提供良好的加密安全性，无需配置即可实现该安全性，并且默认情况下不提供不安全的功能或过时的加密。Rustls 为客户端和服务器实现了 TLS1.2 和 TLS1.3。请参阅协议功能的完整列表。
+
+* [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) 一堆 lints 来捕捉常见错误并改进您的 Rust 代码。
+
+* [BurntSushi/xsv](https://github.com/BurntSushi/xsv) 用 Rust 编写的快速 CSV 命令行工具包。xsv 是一个命令行程序，用于索引、切片、分析、拆分和连接 CSV 文件。命令应该简单、快速且可组合：简单的任务应该很容易。性能权衡应在 CLI 界面中公开。构图不应以牺牲性能为代价。
+
+* [microsoft/windows-rs](https://github.com/microsoft/windows-rs) windows 和 windows-sys crate 允许您使用直接从描述 API 的元数据中动态生成的代码来调用任何 Windows API 过去、现在和将来，并直接进入您的 Rust 包中，在那里您可以调用它们，就好像它们只是另一个 Rust 模块一样。Rust 语言投影遵循 C++/WinRT 建立的传统，即使用标准语言和编译器为 Windows 构建语言投影，为 Rust 开发人员调用 Windows API 提供了一种自然而惯用的方式。
+
+* [oxc-project/oxc](https://github.com/oxc-project/oxc) 用 Rust 编写的 JavaScript 工具的集合。Oxidation Compiler 正在为 JavaScript 和 TypeScript 创建一系列高性能工具。Oxc 正在构建解析器、linter、格式化程序、转译器、压缩器、解析器......都是用 Rust 编写的。
+
+* [johnthagen/min-sized-rust](https://github.com/johnthagen/min-sized-rust) 最小化 Rust 二进制文件大小，默认情况下，Rust 会针对执行速度、编译速度和调试难易性进行优化，而不是二进制大小，因为对于绝大多数应用程序来说，这是理想的。但是对于开发人员想要优化二进制大小的情况，Rust 提供了实现此目的的机制。
+
+* [rust-lang/rustfmt](https://github.com/rust-lang/rustfmt) 根据样式指南格式化 Rust 代码的工具。Rustfmt 尝试处理尽可能多的 Rust 代码。有时，代码甚至不需要编译！
+
+* [rust-lang/rustup](https://github.com/rust-lang/rustup) Rust 工具链安装程序，Rustup 从官方发布渠道安装了 Rust 编程语言，使您能够轻松地在稳定版、测试版和夜间编译器之间切换并保持更新。它通过通用平台的标准库的二进制构建使交叉编译更加简单。它可以在 Rust 支持的所有平台上运行，包括 Windows。
+
+* [rerun-io/rerun](https://github.com/rerun-io/rerun) 可视化多模态数据流。快速、易于使用且易于集成。使用 egui 内置于 Rust 中。使用rerun SDK（适用于 C++、Python 和 Rust）记录图像、张量、点云和文本等数据。日志将流式传输到重新运行查看器以进行实时可视化或归档以供以后使用。
+
+* [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) 用于代码结构搜索、lint 和重写的 CLI 工具。用 Rust 编写。ast-grep 是一个基于 AST 的工具，用于按模式代码搜索代码。将其视为您的老朋友， grep 但它匹配 AST 节点而不是文本。您可以像编写普通代码一样编写模式。它将匹配具有相同语法结构的所有代码。您可以使用 $ 符号 + 大写字母作为通配符，例如 $MATCH ，以匹配任何单个 AST 节点。将其视为 正则表达式点 . ，但它不是文本的。
+
+* [pemistahl/grex](https://github.com/pemistahl/grex) 带有 Python 绑定的命令行工具和 Rust 库，用于从用户提供的测试用例生成正则表达式。旨在简化创建正则表达式的复杂繁琐的任务。它通过从用户提供的测试用例自动生成单个正则表达式来实现。结果表达式保证与生成表达式的测试用例匹配。
+
+* [serde-rs/json](https://github.com/serde-rs/json) 用于高效、通用地序列化和反序列化 Rust 数据结构的框架。JSON 是一种无处不在的开放标准格式，它使用人类可读的文本来传输由键值对组成的数据对象。您可能会发现自己需要在 Rust 中使用 JSON 数据的三种常见方法：作为文本数据，在 HTTP 终结点上接收、从文件中读取或准备发送到远程服务器的未处理的 JSON 数据字符串；作为非类型化或松散类型的表示形式，也许你想在传递一些JSON数据之前检查它是否有效，但不知道它所包含的内容的结构，或者您想进行非常基本的操作，例如在特定位置插入键；作为强类型的 Rust 数据结构，当您希望所有或大部分数据符合特定结构，并希望完成实际工作时，JSON 的松散性质不会绊倒您。Serde JSON 提供了高效、灵活、安全的方式来转换这些表示之间的数据。
+
+* [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) Rust 中并发编程的工具。原子：AtomicCell ，线程安全的可变内存位置；AtomicConsume ，用于从具有“消耗”排序的原始原子类型中读取。 数据结构:deque ，用于构建任务调度程序的工作窃取 deques；ArrayQueue ，一个有界的 MPMC 队列，用于在构造时分配固定容量的缓冲区；SegQueue ，一个无界 MPMC 队列，可按需分配小型缓冲区和段。内存管理：epoch ，一个垃圾回收器。 线程同步:channel ，用于消息传递的多生产者多消费者通道；Parker ，一个线程停放原语；ShardedLock ，具有快速并发读取的分片读写器锁；WaitGroup ，用于同步某些计算的开始或结束。工具：Backoff ，用于自旋循环中的指数退避。CachePadded ，用于填充值并将其与缓存行的长度对齐；scope ，用于生成从堆栈中借用局部变量的线程。
+
+* [tokio-rs/mio](https://github.com/tokio-rs/mio) 快速、低级的 Rust I/O 库，专注于非阻塞 API 和事件通知，用于构建高性能 I/O 应用程序，与操作系统抽象相比，开销尽可能小。
+
+* [cross-rs/cross](https://github.com/cross-rs/cross) Rust crate 的“零设置”交叉编译和“交叉测试”。cross 将提供交叉编译所需的所有成分，而无需触及您的系统安装。cross 提供了一个跨工具链和跨编译库的环境，可生成最可移植的二进制文件。“交叉测试”， cross 可以测试 i686 和 x86_64 以外的架构的板条箱。支持稳定版、测试版和夜间频道。
+
+* [mre/idiomatic-rust](https://github.com/mre/idiomatic-rust) 经过同行评审的文章/演讲/存储库集合，教授简明扼要的 Rust。这个存储库收集了用于编写干净、惯用的 Rust 代码的资源。您可以在此处找到此列表的可排序/可搜索版本。
+
+* [nicoburns/blessed-rs](https://github.com/nicoburns/blessed-rs) Rust 生态系统的社区指南。例如，Rust 中的标准库比 Python 或 Go 中的标准库小得多。这些语言对 HTTP（S）、JSON、时区、随机数和异步 IO 等内容提供了“包括电池”支持。另一方面，Rust 从 crates.io 生态系统和 Cargo 包管理器中获得了类似的东西。但是有将近 10 万个板条箱可供选择，新 Rust 开发人员的一个共同抱怨是他们不知道从哪里开始，他们应该使用哪些板条箱，以及他们应该信任哪些板条箱。此列表试图回答这些问题。
+
+* [ralfbiedert/cheats.rs](https://github.com/ralfbiedert/cheats.rs) Rust 语言备忘单，为喜欢高信息密度的人提供的单页 Rust 资源。
+
+* [ferrous-systems/elements-of-rust](https://github.com/ferrous-systems/elements-of-rust) Rust 风格和理念，使用 Rust 有效表达意图的软件工程技术集合。
+
+* [brson/rust-anthology](https://github.com/brson/rust-anthology) 向最优秀的人学习 Rust，收集 Rust 的最佳短篇文章。Rust 需要更多的文档，对吧？嗯，是的，确实如此，但实际上现在有很多很棒的 Rust 文档，还有很多很棒的 Rust 作家！这个项目旨在将他们的作品收集成一本书。
+
+* [rust-lang/rust-by-example](https://github.com/rust-lang/rust-by-example) 通过示例学习 Rust（包括实时代码编辑器）。Rust 是一种现代系统编程语言，专注于安全性、速度和并发性。它通过在不使用垃圾回收的情况下实现内存安全来实现这些目标。Rust by Example （RBE） 是一组可运行的示例，用于说明各种 Rust 概念和标准库。要从这些示例中获得更多收益，请不要忘记在本地安装 Rust 并查看官方文档。
+
+* [rust-lang/rfcs](https://github.com/rust-lang/rfcs) Rust RFC - RFC 手册 - 活动 RFC 列表，“RFC”（征求意见）流程旨在为 Rust 的更改（例如新功能）提供一致且可控的路径，以便所有利益相关者都能对项目的方向充满信心。
+
+## Flutter 程序
 
 * [flutter/flutter](https://github.com/flutter/flutter) Flutter 可以轻松快速地为移动设备及其他领域构建漂亮的应用程序
 
@@ -12717,6 +12845,8 @@
 
 * [JetBrains/intellij-community](https://github.com/JetBrains/intellij-community) 帮助您从源代码构建 IntelliJ IDEA 社区版，这是 IntelliJ 平台开发的基础。
 
+* [espanso/espanso](https://github.com/espanso/espanso) 用 Rust 编写的跨平台文本扩展器，文本扩展器是一种程序，可以检测您何时键入特定关键字并将其替换为其他内容。这在许多方面都很有用：省去大量的打字，扩展常用句子。创建系统范围的代码片段。执行自定义脚本。像专业人士一样使用表情符号。
+
 ## 终端
 
 * [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) 精选的令人愉快的 Bash 脚本和资源列表。
@@ -12854,6 +12984,10 @@
 * [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs) Nixpkgs 是超过 100,000 个软件包的集合，可以与 Nix 包管理器一起安装。它还实现了 NixOS，一个纯功能的 Linux 发行版。
 
 * [so-fancy/diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) diff-so-fancy 努力使您的差异具有人类可读性，而不是机器可读性。这有助于提高代码质量，并帮助您更快地发现缺陷。
+
+* [dalance/procs](https://github.com/dalance/procs) 用 Rust 编写的 ps 的现代替代品
+
+* [lotabout/skim](https://github.com/lotabout/skim) 我们一生中的一半时间都花在导航上：文件、行、命令......它是一个通用的模糊查找器，可以节省您的时间。
 
 ## 知识管理 wiki知识库
 
@@ -13147,6 +13281,10 @@
 * [screeps/screeps](https://github.com/screeps/screeps) 用于编写游戏 Screeps 的独立服务器。Screeps 是一款面向程序员的 MMO RTS 沙盒游戏，其中核心机制是为您的单位 AI 编程。你通过编写 JavaScript 来控制你的殖民地，这些 JavaScript 在由与你同等的其他玩家填充的单一持久世界中 24/7 全天候运行。
 
 * [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) 功能强大、美观、简单且开放的游戏和渲染引擎，包含在一个友好的 JavaScript 框架中。
+
+* [FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox) 一个功能丰富、可用于生产的通用 2D/3D 游戏引擎，用 Rust 编写，带有场景编辑器。以前称为 rg3d。
+
+* [EmbarkStudios/rust-gpu](https://github.com/EmbarkStudios/rust-gpu)  GPU 图形和计算着色器的一流语言和生态系统。编译和运行简单的着色器是有效的，核心库的很大一部分也可以编译。但是，许多事情尚未实现。这意味着，虽然在技术上可用，但该项目远未准备好投入生产。GitHub 上跟踪了对 Rust 和 SPIR-V 中特定功能的支持。从历史上看，在游戏中，GPU编程是通过编写HLSL或在较小程度上GLSL完成的。这些是简单的编程语言，多年来随着渲染 API 的发展而发展。然而，随着游戏引擎的发展，这些语言未能提供处理大型代码库的机制，并且与其他编程语言相比，它们通常落后于曲线。我们希望通过这个项目，通过将现有的、低级的、安全的、高性能的语言引入GPU来推动行业向前发展;即 Rust。随之而来的是一些不容忽视的额外好处：业界最好的封装/模块系统之一，内置安全对抗竞争条件或越界内存访问，各种工具和实用程序来改进程序员工作流程，以及许多其他工具和实用程序！
 
 * [leereilly/games](https://github.com/leereilly/games) 在 GitHub 上找到的开源游戏和游戏相关项目列表 - 老式文本冒险、教育游戏、8 位平台游戏、基于浏览器的游戏、独立游戏、GameJam 项目、商业游戏的附加组件/地图/黑客/插件、库、框架、引擎，应有尽有。
 
@@ -13795,5 +13933,7 @@
 * [sacridini/Awesome-Geospatial](https://github.com/sacridini/Awesome-Geospatial) 一长串地理空间分析工具。地理空间分析，或简称空间分析，是一种将统计分析和其他分析技术应用于具有地理或空间方面的数据的方法。
 
 * [daliansky/Hackintosh](https://github.com/daliansky/Hackintosh) 黑苹果操作系统 Hackintosh 长期维护模型 EFI 和安装教程
+
+* [nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator) Java，TypeScript / JavaScript，Python，Rust，C++，C中的高质量QR码生成器库。
 
 # end
