@@ -27,7 +27,7 @@
 
 - [机器学习与深度学习](#机器学习与深度学习)
 - [NLP自然语言处理](#NLP自然语言处理)
-  * [🚀🚀🚀类chatgpt大语言对话模型及数据](#类chatgpt大语言对话模型及数据)
+  * [🚀🚀🚀大语言对话模型及数据](#大语言对话模型及数据)
 - [网络与前后端开发](#网络与前后端开发)
 - [推荐系统](#推荐系统)
 - [机器视觉](#机器视觉)
@@ -942,6 +942,8 @@
 
 * [modelscope/modelscope](https://github.com/modelscope/modelscope) ModelScope 建立在“模型即服务”（MaaS） 的概念之上。它旨在汇集来自人工智能社区的最先进的机器学习模型，并简化在实际应用中利用人工智能模型的过程。此存储库中开源的核心 ModelScope 库提供了允许开发人员执行模型推理、训练和评估的接口和实现。特别是，ModelScope 库具有丰富的 API 抽象层，可提供统一的体验，以探索跨 CV、NLP、语音、多模态和科学计算等领域的最先进模型。不同领域的模型贡献者可以通过分层 API 将模型集成到 ModelScope 生态系统中，从而轻松统一地访问他们的模型。集成后，只需几行代码即可完成模型推理、微调和评估。同时，还提供了灵活性，以便在必要时可以定制模型应用程序中的不同组件。除了包含各种不同模型的实现外，ModelScope 库还支持与 ModelScope 后端服务进行必要的交互，尤其是与 Model-Hub 和 Dataset-Hub 的交互。这种交互有助于在后台无缝执行各种实体（模型和数据集）的管理，包括实体查找、版本控制、缓存管理等。
 
+* [zenml-io/zenml](https://github.com/zenml-io/zenml) 构建可移植、生产就绪的 MLOps 管道。ZenML 是一个 MLOps 框架，适用于希望标准化机器学习实践的数据科学家或 ML 工程师。只需将@step和@pipeline添加到现有的 Python 函数中即可开始使用。轻松预配 MLOps 堆栈或重用现有基础架构：该框架是从业者构建复杂 ML 管道的温和切入点，几乎不需要了解底层基础设施的复杂性。ZenML 管道可以在 AWS、GCP、Azure、Airflow、Kubeflow 甚至 Kubernetes 上运行，而无需更改任何代码或了解底层内部结构。ZenML提供了不同的功能，可以帮助人们在远程环境中快速上手。如果要在所选云提供商上从头开始部署远程堆栈，可以通过仪表板使用一键式部署功能。在生产基础架构上轻松运行工作负载：配置 MLOps 堆栈后，可以轻松地在其上运行工作负载；跟踪模型、管道和工件：创建生成人员、地点以及生成数据和模型的完整谱系，您将能够找出谁在什么时间生成了哪个模型，使用哪些数据以及代码的哪个版本。这保证了完全的可重复性和可审计性。专为机器学习而构建，可集成到您喜爱的工具中：虽然 ZenML 带来了很多盒子的价值，但它也可以集成到您现有的工具和基础设施中，而您不必被锁定。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1265,7 +1267,9 @@
 
 ## 文本生成、文本对话
 
-### 类ChatGPT大语言对话模型及数据
+### 大语言对话模型及数据
+
+* [karpathy/LLM101n](https://github.com/karpathy/LLM101n) 在本课程中，我们将构建一个 Storyteller AI 大型语言模型 （LLM）。携手合作，您将能够使用 AI 创建、完善和说明小故事。我们将从头开始构建从基础到类似于 ChatGPT 的功能 Web 应用程序的所有内容，从头开始使用 Python、C 和 CUDA，并且具有最少的计算机科学先决条件。到最后，你应该对人工智能LLMs和更普遍的深度学习有相对深入的了解。
 
 * [Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT#auto-gpt-an-autonomous-gpt-4-experiment) 使用GPT4来自动完成目标任务。一个实验性开源应用程序，展示了 GPT-4 语言模型的功能。该程序由 GPT-4 驱动，将 LLM 的“思想”链接在一起，以自主实现您设定的任何目标。作为 GPT-4 完全自主运行的首批示例之一，Auto-GPT 突破了 AI 的可能性界限。
 
@@ -1347,6 +1351,8 @@
 * [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) 以数据为中心的 FinGPT。开源开放金融！革新
 
 * [EleutherAI/gpt-neox](https://github.com/EleutherAI/gpt-neox) 在GPU上训练大规模语言模型。基于 NVIDIA 的威震天语言模型，并已通过 DeepSpeed 的技术以及一些新颖的优化进行了增强。目标是使这个存储库成为一个集中且可访问的地方，以收集用于训练大规模自回归语言模型的技术，并加速对大规模训练的研究。
+
+* [microsoft/graphrag](https://github.com/microsoft/graphrag) 基于图形的模块化检索增强生成 （RAG） 系统，GraphRAG 项目是一个数据管道和转换套件，旨在使用 LLMs的强大功能从非结构化文本中提取有意义的结构化数据。该存储库提供了一种使用知识图谱记忆结构来增强LLM输出的方法。GraphRAG 是一种基于 AI 的内容解释和搜索功能。使用 LLMs，它解析数据以创建知识图谱并回答用户有关用户提供的私有数据集的问题。GraphRAG 能够连接大量信息中的信息，并使用这些连接来回答使用关键字和基于向量的搜索机制难以或无法回答的问题。在上一个问题的基础上，提供关于系统如何为各种用途提供功能的半技术性、高级信息。这使得系统可以使用 GraphRAG 来回答问题，其中答案涵盖许多文档以及主题问题，例如“此数据集中的顶级主题是什么？GraphRAG的预期用途是什么？GraphRAG 旨在支持关键信息发现和分析用例，在这些用例中，获得有用见解所需的信息跨越许多文档、嘈杂、混杂着 MI 和/或虚假信息，或者当用户旨在回答的问题比底层数据可以直接回答的问题更抽象或主题化时。GraphRAG 设计用于用户已经接受过负责任的分析方法培训并期望进行批判性推理的环境；GraphRAG 能够提供对复杂信息主题的高度洞察力，但是需要领域专家对答案进行人工分析，以验证和增强 GraphRAG 生成的响应。GraphRAG 旨在与特定领域的文本数据语料库一起部署和使用；GraphRAG 本身不收集用户数据，但鼓励用户验证所选LLM用于配置 GraphRAG 的数据隐私政策。如何评估 GraphRAG？使用哪些指标来衡量绩效？GraphRAG 已通过多种方式进行了评估；主要关注点是 1） 数据集的准确表示，数据集的准确表示已经通过手动检查和自动测试进行了测试，并针对从随机选择的测试语料库子集创建的“黄金答案”；2） 提供响应的透明度和基础性，通过自动答案覆盖率评估和对返回的底层上下文的人工检查来测试回复的透明度和基础性；3） 对提示和数据语料库注入攻击的弹性，我们使用手动和半自动技术测试用户提示注入攻击（“越狱”）和交叉提示注入攻击（“数据攻击”）； 4） 低幻觉率，幻觉率是使用索赔覆盖率指标、手动检查答案和来源以及对抗性攻击来评估幻觉率的，这些攻击是通过对抗性和极具挑战性的数据集尝试强迫幻觉。GraphRAG的局限性是什么？用户在使用系统时，如何最大程度地减少 GraphRAG 限制的影响？GraphRAG 依赖于一个构造良好的索引示例；对于一般应用（例如，以人、地点、组织、事物等为导向的内容），我们提供了示例索引提示；对于独特的数据集，有效的索引可能依赖于对特定领域概念的正确识别；索引是一项相对昂贵的操作;缓解索引编制的最佳做法是在目标域中创建一个小型测试数据集，以确保索引器在执行大型索引操作之前具有性能。哪些操作因素和设置允许有效和负责任地使用 GraphRAG？GraphRAG 专为具有领域复杂性和应对困难信息挑战经验的用户而设计；虽然该方法通常对注入攻击和识别相互冲突的信息源很鲁棒，但该系统是为受信任的用户设计的；对回答进行适当的人工分析对于产生可靠的见解非常重要，并且应追踪信息的来源，以确保人类与作为答案生成的一部分所做的推论达成一致；GraphRAG 在自然语言文本数据上产生最有效的结果，这些文本数据共同关注一个整体主题或主题，并且具有丰富的实体——实体是可以唯一识别的人、地点、事物或物体；虽然 GraphRAG 已经过评估，因为它对提示和数据语料注入攻击的弹性，并且已经针对特定类型的危害进行了探究，LLM但用户使用 GraphRAG 配置可能会产生不适当或令人反感的内容，这可能使得在没有特定于用例和模型的额外缓解措施的情况下，不适合针对敏感上下文进行部署。开发人员应评估其上下文的输出，并使用可用的安全分类器、对特定安全过滤器和功能进行建模，或适合其用例的自定义解决方案。
 
 * [google/gemma_pytorch](https://github.com/google/gemma_pytorch) Gemma 是一个轻量级、最先进的开放模型系列，由用于创建 Google Gemini 模型的研究和技术构建而成。它们是文本到文本、仅解码器的大型语言模型，提供英语版本，具有开放权重、预训练变体和指令调整变体。这是 Gemma 模型的官方 PyTorch 实现。我们使用 PyTorch 和 PyTorch/XLA 提供模型和推理实现，并支持在 CPU、GPU 和 TPU 上运行推理。
 
@@ -2418,9 +2424,97 @@
 
 * [evilsocket/cake](https://github.com/evilsocket/cake) 适用于移动、桌面和服务器的分布式LLM推理。一个 Rust 框架，用于基于 Candle 的 LLama3 等大型模型的分布式推理。该项目的目标是通过将消费类硬件重新利用到 iOS、Android、macOS、Linux 和 Windows 设备的异构集群中，能够运行大型 （70B+） 模型，有效地利用计划中的过时作为工具，使 AI 更易于访问和民主。这个想法是将转换器模块分片到多个设备，以便能够在通常不适合单个设备的 GPU 内存的模型上运行推理。对同一工作线程上的连续变压器模块的推理是批处理的，以最大程度地减少由于数据传输而导致的延迟。
 
+* [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs) 极快LLM的推理速度。Mistral.rs 是一个快速LLM推理平台，支持在各种设备上进行推理、量化和易于使用的应用程序，具有兼容 Open-AI API 的 HTTP 服务器和 Python 绑定。
 
+* [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) 基于 LLM 大语言模型的知识库问答系统。开箱即用、模型中立、灵活编排，支持快速嵌入到第三方业务系统，1Panel 官方出品。开箱即用：支持直接上传文档、自动爬取在线文档，支持文本自动拆分、向量化、RAG（检索增强生成），智能问答交互体验好；模型中立：支持对接各种大语言模型，包括本地私有大模型（Llama 3 / Qwen 2 等）、国内公共大模型（通义千问 / 智谱 AI / 百度千帆 / Kimi / DeepSeek 等）和国外公共大模型（OpenAI / Azure OpenAI / Gemini 等）；灵活编排：内置强大的工作流引擎，支持编排 AI 工作过程，满足复杂业务场景下的需求；无缝嵌入：支持零编码快速嵌入到第三方业务系统，让已有系统快速拥有智能问答能力，提高用户满意度。
 
+* [LLM-Red-Team/kimi-free-api](https://github.com/LLM-Red-Team/kimi-free-api) KIMI AI 长文本大模型逆向API白嫖测试【特长：长文本解读整理】，支持高速流式输出、智能体对话、联网搜索、长文档解读、图像OCR、多轮对话，零配置部署，多路token支持，自动清理会话痕迹。
 
+* [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) Mooncake 是 Moonshot AI 提供的领先LLM服务 Kimi 的服务平台。以 KVCache 为中心的服务LLM分解架构，Mooncake 采用以 KVCache 为中心的分解架构，将预填充和解码集群分开。它还利用 GPU 集群中未充分利用的 CPU、DRAM 和 SSD 资源来实现 KVCache 的分解缓存。Mooncake 的核心是其以 KVCache 为中心的调度器，它在最大化整体有效吞吐量的同时满足与延迟相关的服务级别目标 （SLO） 要求之间取得平衡。与假设所有请求都将得到处理的传统研究不同，Mooncake 面临着高度过载场景带来的挑战。为了缓解这些问题，我们制定了基于预测的早期拒绝政策。实验表明，Mooncake 在长上下文场景中表现出色。与基线方法相比，Mooncake 在遵守 SLO 的同时，在某些模拟场景中可以实现高达 525% 的吞吐量提升。在实际工作负载下，Mooncake 的创新架构使 Kimi 能够处理 75% 以上的请求。
+
+* [lm-sys/RouteLLM](https://github.com/lm-sys/RouteLLM) 用于服务和评估LLM路由器的框架 - 在不影响质量的情况下节省LLM成本！我们的核心功能包括：直接替代 OpenAI 的客户端（或启动兼容 OpenAI 的服务器），将更简单的查询路由到更便宜的模型。训练有素的路由器开箱即用，我们已经证明，在 MT Bench 等广泛使用的基准测试中，它可以将成本降低多达 85%，同时保持 95% 的 GPT-4 性能。基准测试还表明，这些路由器实现了与商业产品相同的性能，同时便宜>40%。轻松扩展框架以包含新路由器，并比较路由器在多个基准测试中的性能。
+
+* [truera/trulens](https://github.com/truera/trulens) TruLens 提供了一套用于开发和监控神经网络的工具，包括大型语言模型。这包括使用 TruLens-Eval 评估LLMs和LLM基于应用程序的工具，以及使用 TruLens-Explain 的深度学习可解释性。TruLens-Eval 和 TruLens-Explain 装在单独的封装中，可以独立使用。更快地创建可靠且功能强大的LLM应用程序。TruLens 是一种软件工具，可帮助您使用反馈功能客观地衡量基于应用程序LLM的质量和有效性。反馈函数有助于以编程方式评估输入、输出和中间结果的质量，以便您可以加快和扩大实验评估。将其用于各种用例，包括问答、摘要、检索增强生成和基于代理的应用程序。
+
+* [b4rtaz/distributed-llama](https://github.com/b4rtaz/distributed-llama) 张量并行性就是您所需要的。在弱设备上运行LLMs，或者通过分配工作负载和划分 RAM 使用量来使功能强大的设备更加强大。这个项目证明，在多个设备之间分配工作LLMs负载并实现显着的加速是可能的。分布式 Llama 允许您在内部运行大量LLMs内容。该项目使用 TCP 套接字来同步状态。您可以使用家用路由器轻松配置 AI 集群。该项目分为两部分：根节点 - 它负责加载模型和权重并将它们转发给工作线程。此外，它还同步神经网络的状态。根节点也是一个工作节点，它处理神经网络的自己的切片。工作节点 - 它处理神经网络的自己的切片。它不需要与模型相关的任何配置。您始终需要根节点，您可以添加 2^n - 1 个工作节点来加快推理速度。神经网络的 RAM 使用量在所有节点上分配。根节点需要的 RAM 比工作节点多一点。
+
+* [thu-bpm/markllm](https://github.com/thu-bpm/markllm) MarkLLM 是一个开源工具包，旨在促进大型语言模型 （LLMs） 中水印技术的研究和应用。随着大型语言模型 （LLMs） 的使用范围扩大，确保机器生成文本的真实性和来源变得至关重要。MarkLLM 简化了对水印技术的访问、理解和评估，使其可供研究人员和更广泛的社区使用。实现框架：MarkLLM 为各种LLM水印算法的实现提供了一个统一且可扩展的平台。它目前支持来自两个著名家族的九种特定算法，促进了水印技术的集成和扩展。目前支持的算法：KGW,Unigram,SWEET,UPV,EWD,SIR,X-SIR,EXP,EXP-Edit,ITS-Edit。可视化解决方案：该工具包包括自定义可视化工具，可以清晰而深入地了解不同水印算法在各种场景下的运行方式。这些可视化有助于揭开算法机制的神秘面纱，使用户更容易理解它们。评估模块：MarkLLM 拥有 12 种评估工具，涵盖可检测性、鲁棒性和对文本质量的影响，在其评估水印技术的综合方法中脱颖而出。它还具有可定制的自动化评估管道，可满足不同的需求和场景，从而增强了工具包的实际实用性。
+
+* [bricks-cloud/BricksLLM](https://github.com/bricks-cloud/BricksLLM)  Go 编写的云原生 AI 企业级 API 网关，可帮助您监控每个 API 密钥并施加成本或速率限制。为每个用户、应用程序或环境提供精细的访问控制和监控。支持 OpenAI、Azure OpenAI、Anthropic、vLLM 和开源LLMs。
+
+* [varunshenoy/super-json-mode](https://github.com/varunshenoy/super-json-mode) 超级 JSON 模式是一个 Python 框架，LLM通过将目标模式分解为原子组件，然后并行执行生成，可以有效地创建结构化输出。它既支持通过 OpenAI 的传统完成 API 实现的最新技术LLMs，也支持开源，LLMs例如通过 Hugging Face Transformers 和 vLLM。更多LLMs内容将很快得到支持！与依赖提示和 HF Transformer 的朴素 JSON 生成管道相比，我们发现超级 JSON 模式的输出生成速度提高了 10 倍。与朴素一代相比，它也更具确定性，不太可能遇到解析问题。
+
+* [QmiAI/Qmedia](https://github.com/QmiAI/Qmedia) 专为内容创作者设计的开源 AI 内容搜索引擎。支持文本、图像和短视频的提取。允许完全本地部署（Web 应用程序、RAG 服务器、LLM服务器）。支持多模式 RAG 内容问答。主要特点：搜索图像/文本和短视频材料。高效分析图片/文字和短视频内容，整合零散信息。提供内容来源，分解图像/文本和短视频信息，通过内容卡片呈现信息。根据用户的兴趣和需求，从图像/文本和短视频内容中生成自定义搜索结果。本地部署，支持离线内容搜索和私有数据问答。
+
+* [AUGMXNT/deccp](https://github.com/AUGMXNT/deccp) 逃避和取消中国LLM的审查制度，当前代码是用于取消审查 Qwen 2 Instruct 模型的 PoC。95 个拒绝问题数据集[augmxnt/deccp](https://huggingface.co/datasets/augmxnt/deccp)，实验得知：在相同的问题上，中文的拒绝率实际上比英语少得多（>80%）。总结一下：Qwen 2 Instruct 被广泛地 RL 以符合政府/政策要求；EN 与 CN 响应中的一些明显差异；可以消除大部分的拒绝，但这并不一定能改善中国的回应，所以如果这种调整困扰你，你不应该使用RL的中国模型。
+
+* [Psycoy/MixEval](https://github.com/Psycoy/MixEval) MixEval的官方评估套件和动态数据发布。在领先的基准测试中，MixEval 和 MixEval-Hard 与 Arena Elo 和 Arena Elo （En） 的相关性最高。在估计在Chatbot Arena上评估单个模型的成本（约合2,936美元）时，我们参考了Amazon Mechanical Turk的众包价格（每票0.05美元）。Chatbot Arena 的价格高得令人望而却步，而 MixEval 和 MixEval-Hard 是便宜且具有成本效益的替代品。基于基准事实值的动态基准测试，源自现成的基准测试混合物，它LLMs以高性能的模型排名（即，与 Chatbot Arena 的 0.96 相关性）进行评估，同时在本地快速运行（运行 MMLU 的时间和成本的 6%），其查询每月稳定且轻松地更新以避免污染。
+
+* [phidatahq/phidata](https://github.com/phidatahq/phidata) 使用内存、知识和工具构建 AI 助手。Phidata 是一个用于构建自主助手（又名代理）的框架，这些助手具有长期记忆、上下文知识和使用函数调用采取行动的能力。使用 phidata 将任何LLM内容变成 AI 助手，它可以：使用 DuckDuckGo、Google 等搜索网络。使用 SQL、DuckDb 等分析数据。进行研究并生成报告。回答来自 PDF、API 等的问题。为电影、书籍等编写剧本。总结文章、视频等。执行发送电子邮件、查询数据库等任务。利用内存、知识和工具进行扩展LLMs：记忆：将聊天记录存储在数据库中，LLMs并允许进行长期对话。知识：将信息存储在矢量数据库中，并提供LLMs业务上下文。工具：启用此选项LLMs可执行从 API 拉取数据、发送电子邮件或查询数据库等操作。
+
+* [leptonai/search_with_lepton](https://github.com/leptonai/search_with_lepton) 使用 Lepton AI 构建基于对话的快速搜索演示。使用少于 500 行代码构建您自己的对话式搜索引擎。内置支持LLM；内置对搜索引擎的支持；可定制的漂亮UI界面；可共享的缓存搜索结果。有两个默认支持的搜索引擎：Bing 和 Google。
+
+* [https://github.com/langchain-ai/opengpts](https://github.com/langchain-ai/opengpts) 创建与 OpenAI 的 GPT 和助手 API 类似的体验。它由 LangGraph 提供支持 - 一个用于创建代理运行时的框架。它还建立在LangChain、LangServe和LangSmith之上。OpenGPT 为您提供更多控制权，允许您配置：您使用的（LLM在LangChain提供的60+之间选择）；您使用的提示（使用 LangSmith 调试这些提示）；您给它的工具（从LangChain的100+工具中选择，或轻松编写自己的工具）；您使用的向量数据库（从LangChain的60+向量数据库集成中选择）；您使用的检索算法；您使用的聊天记录数据库。最重要的是，它使您可以完全控制应用程序的认知架构。目前，已实现三种不同的架构：助理、RAG、聊天机器人。
+
+* [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) 通过LLMs可组合性构建应用程序，LangChain是用TypeScript编写的，可用于：Node.js（ESM 和 CommonJS） - 18.x、19.x、20.x、22.x；Cloudflare Workers；Vercel / Next.js（浏览器、Serverless 和 Edge 功能）；Supabase Edge 函数；浏览器；Deno。LangChain是一个用于开发由语言模型驱动的应用程序的框架。它使应用程序能够：具有上下文感知能力：将语言模型连接到上下文源（提示指令、少量镜头示例、内容以使其响应为基础等）；原因：依靠语言模型进行推理（关于如何根据提供的上下文回答、采取什么行动等）。该框架由几个部分组成：开源库：使用 LangChain 的开源构建块、组件和第三方集成来构建您的应用程序，使用 LangGraph.js 构建具有一流和人机交互支持的状态代理。生产化：使用LangSmith来检查、监控和评估您的链，以便您可以放心地持续优化和部署。部署：使用 LangGraph Cloud（目前仅限 Python）将您的 LangGraph 应用程序转换为生产就绪的 API 和助手。
+
+* [microsoft/lida](https://github.com/microsoft/lida) LIDA是一个用于生成数据可视化和数据忠实信息图表的库。LIDA 与语法无关（适用于任何编程语言和可视化库，例如 matplotlib、seaborn、altair、d3 等），并与多个大型语言模型提供商（OpenAI、Azure OpenAI、PaLM、Cohere、Huggingface）配合使用。
+
+* [PawanOsman/ChatGPT](https://github.com/PawanOsman/ChatGPT) 欢迎使用 ChatGPT API 免费反向代理，它以 OpenAI 熟悉的结构提供对 ChatGPT （ gpt-3.5-turbo ） 的免费自托管 API 访问，因此无需更改代码。
+
+* [microsoft/vidur](https://github.com/microsoft/vidur) 高保真和可LLM扩展的推理模拟器。它可以帮助您：容量规划并为您的LLM部署找到最佳部署配置。测试新的研究理念，如新的调度算法，优化，如推测解码等。研究模型在不同工作负载和配置下的系统性能。
+
+* [decodingml/llm-twin-course](https://github.com/decodingml/llm-twin-course) 免费学习如何使用 LLMOps 最佳实践构建端到端生产就绪的 LLM 和 RAG 系统：~ 源代码 + 12 节实践课。您将学习如何从头到尾构建和构建真实世界的LLM系统 - 从数据收集到部署。您还将学习利用 MLOps 最佳实践，例如实验跟踪器、模型注册表、提示监视和版本控制。
+
+* [cohere-ai/cohere-toolkit](https://github.com/cohere-ai/cohere-toolkit) Cohere Toolkit 是预构建组件的集合，使用户能够快速构建和部署 RAG 应用程序。
+
+* [truefoundry/cognita](https://github.com/truefoundry/cognita) TrueFoundry 开发的 RAG（Retrieval Augmented Generation）框架，用于构建模块化、开源应用程序。Langchain/LlamaIndex 提供了易于使用的抽象，可用于在 jupyter 笔记本上进行快速实验和原型设计。但是，当事情进入生产阶段时，会有一些限制，例如组件应该是模块化的、易于扩展和可扩展的。这就是 Cognita 发挥作用的地方。Cognita 在后台使用 Langchain/Llamaindex，并为您的代码库提供一个组织，其中每个 RAG 组件都是模块化的、API 驱动的且易于扩展。Cognita 可以在本地设置中轻松使用，同时为您提供生产就绪环境以及无代码 UI 支持。Cognita 还默认支持增量索引。Cognita 是一个开源框架，用于组织您的 RAG 代码库以及用于处理不同 RAG 自定义的前端。它提供了一种组织代码库的简单方法，以便轻松在本地测试代码库，同时还可以将其部署在生产就绪环境中。从 Jupyter Notebook 生产 RAG 系统时出现的关键问题是：分块和嵌入作业：通常需要将分块和嵌入代码抽象出来并作为作业进行部署，有时，作业需要按计划运行或通过事件触发，以保持数据更新；查询服务：从查询中生成答案的代码需要封装在像 FastAPI 这样的 api 服务器中，并且应该作为服务进行部署，此服务应该能够同时处理多个查询，并且还可以使用更高的流量自动缩放；LLM / 嵌入模型部署：很多时候，如果我们使用的是开源模型，我们会在 Jupyter notebook 中加载模型，这需要在生产环境中作为单独的服务进行托管，并且需要将模型作为 API 调用；Vector DB 部署：大多数测试发生在内存或磁盘上的 Vector DB 上，在生产环境中，需要以更具可扩展性和可靠性的方式部署数据库。Cognita 使定制和试验 RAG 系统的所有内容变得非常容易，并且仍然能够以一种良好的方式部署它。它还附带了一个 UI，可以更轻松地尝试不同的 RAG 配置并实时查看结果。您可以在本地使用它，也可以在使用/不使用任何Truefoundry组件的情况下使用它。但是，使用Truefoundry组件可以更轻松地测试不同的模型并以可扩展的方式部署系统。Cognita 允许您使用一个应用程序托管多个 RAG 系统。
+
+* [microsoft/UFO](https://github.com/microsoft/UFO) 用于 Windows 操作系统交互的以 UI 为中心的代理。UFO 是一个以 UI 为中心的多代理框架，通过在单个或跨多个应用程序中无缝导航和操作来满足 Windows 操作系统上的用户请求。UFO作为一个多智能体框架运行，包括：HostAgent 任务是选择一个应用程序来满足用户请求，当请求跨越多个应用程序，并且任务在前一个应用程序中部分完成时，此代理也可能切换到不同的应用程序；AppAgent  负责在选定的应用程序上迭代执行操作，直到在特定应用程序中成功完成任务；Application Automator 的任务是将 HostAgent 和 AppAgent 的操作转换为与应用程序的交互，并通过 UI 控件、本机 API 或 AI 工具进行交互。
+
+* [baptisteArno/typebot.io](https://github.com/baptisteArno/typebot.io) Typebot 是一个强大的聊天机器人构建器，您可以自行托管。它允许您直观地创建高级聊天机器人，将它们嵌入到您的网络/移动应用程序上的任何位置，并实时收集结果。Typebot 使创建高级聊天机器人变得容易。它提供了适用于任何业务用例的构建块。我会定期通过错误修复、新功能和性能改进来改进 Typebot。具有 34+ 构建块的聊天构建器，例如： 气泡：文本、图像/GIF、视频、音频、嵌入； 输入：文本、电子邮件、电话号码、按钮、图片选择、日期选择器、付款 （Stripe）、文件选择器......输入；逻辑：条件分支、URL 重定向、脚本 （Javascript）、A/B 测试；集成：Webhook / HTTP 请求、OpenAI、Google 表格、Google Analytics、Meta Pixel、Zapier、Make.com、Chatwoot、更多
+
+* [logancyang/obsidian-copilot](https://github.com/logancyang/obsidian-copilot) Copilot for Obsidian 是 Obsidian 内部的一个免费开源 ChatGPT 界面。它具有简约的设计，并且易于使用。我的目标是让这个 AI 助手以本地为先，以隐私为中心。它有一个本地向量存储，可以完全离线地使用本地模型进行聊天和 QA。
+
+* [TransformerLensOrg/TransformerLens](https://github.com/TransformerLensOrg/TransformerLens) GPT 风格语言模型的机械可解释性库。机理可解释性的目标是采用经过训练的模型，并对模型在训练期间从其权重中学习的算法进行逆向工程。TransformerLens 允许您加载 50+ 种不同的开源语言模型，并向您公开模型的内部激活。您可以在模型中缓存任何内部激活，并添加函数以在模型运行时编辑、删除或替换这些激活。
+
+* [OSU-NLP-Group/HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG) HippoRAG 是一个新颖的 RAG 框架，其灵感来自人类的长期记忆，能够LLMs不断整合外部文档中的知识。RAG + 知识图谱 + 个性化 PageRank。
+
+* [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) 将语言代理构建为图形。LangGraph 是一个库，用于构建有状态的多参与者应用程序，用于LLMs创建代理和多代理工作流。与其他LLM框架相比，它提供了以下核心优势：周期、可控性和持久性。LangGraph 允许您定义涉及周期的流程，这对于大多数代理架构来说是必不可少的，并将其与基于 DAG 的解决方案区分开来。作为一个非常低级的框架，它提供了对应用程序的流和状态的细粒度控制，这对于创建可靠的代理至关重要。此外，LangGraph 还包含内置的持久性，可实现高级的人机交互和内存功能。LangGraph 的灵感来自 Pregel 和 Apache Beam。公共接口的灵感来自 NetworkX。LangGraph 由 LangChain 的创建者 LangChain Inc 构建，但可以在没有 LangChain 的情况下使用。主要特点：循环和分支：在应用中实现循环和条件。持久性：在图表中的每一步后自动保存状态，随时暂停和恢复图形执行，以支持错误恢复、人机交互工作流、时间旅行等。Human-in-the-Loop：中断图形执行以批准或编辑代理计划的下一个操作。流式处理支持：流式传输每个节点产生的输出（包括令牌流式处理）。与LangChain集成：LangGraph与LangChain和LangSmith无缝集成（但不需要它们）。
+
+* [SciSharp/LLamaSharp](https://github.com/SciSharp/LLamaSharp) 可在本地设备上高效运行LLM的 C#/.NET 库 （LLaMA/LLaVA）。
+
+* [AugustDev/enchanted](https://github.com/AugustDev/enchanted) Enchanted 是 iOS 和 macOS 应用程序，用于使用 Ollama 与 Llama2、Mistral 或 Vicuna 等私人自托管语言模型聊天。
+
+* [ConnectAI-E/AutoGPT-Next-Web](https://github.com/ConnectAI-E/AutoGPT-Next-Web) 在浏览器中组装、配置和部署自主 AI 代理。特点：1 分钟内使用 Vercel 免费一键部署，搭建个人的 AutoGPT 网站；更好的本地支持，输入中文后内容将以中文展示，而不是英文；源自 AgentGPT 优秀的响应式 UI 设计，支持深色模式；支持绑定自有域名，绑定后，你可以无障碍快速访问；支持访问码控制，只有你或者受信的人才可以使用网站。
+
+* [predibase/lorax](https://github.com/predibase/lorax) 多 LoRA 推理服务器，可扩展到 1000 个微调LLMs。LoRAX（LoRA eXchange）是一个框架，允许用户在单个 GPU 上为数千个微调模型提供服务，从而在不影响吞吐量或延迟的情况下显着降低服务成本。特征：动态适配器加载：在您的请求中包含来自 HuggingFace、Predibase 或任何文件系统的任何微调的 LoRA 适配器，它将实时加载而不会阻塞并发请求。根据请求合并适配器，以立即创建强大的集成。异构连续批处理：将不同适配器的请求打包到同一批次中，使延迟和吞吐量与并发适配器的数量几乎保持不变。适配器交换调度：在 GPU 和 CPU 内存之间异步预取和卸载适配器，调度请求批处理以优化系统的聚合吞吐量。优化推理：高吞吐量和低延迟优化，包括张量并行性、预编译 CUDA 内核（flash-attention、paged attention、SGMV）、量化、令牌流。准备好用于生产的预构建 Docker 镜像、Kubernetes 的 Helm 图表、Prometheus 指标以及使用 Open Telemetry 的分布式跟踪。兼容 OpenAI 的 API，支持多轮聊天对话。通过每个请求租户隔离的专用适配器。结构化输出（JSON模式）。免费用于商业用途：Apache 2.0 许可证。
+
+* [gpustack/gpustack](https://github.com/gpustack/gpustack) GPUStack 是一个开源的 GPU 集群管理器，用于运行大型语言模型。主要特点：支持多种硬件：在 Apple MacBook、Windows PC 和 Linux 服务器中使用不同品牌的 GPU 运行。与您的 GPU 库存一起扩展：轻松添加更多 GPU 或节点以扩大您的运营规模。轻量级 Python 包：最小的依赖项和运营开销。兼容 OpenAI 的 API：提供与 OpenAI 标准兼容的 API。用户和 API 密钥管理：简化了用户和 API 密钥的管理。GPU指标监控：实时监控 GPU 性能和利用率。词元使用和费率指标：跟踪令牌使用情况并有效管理速率限制。
+
+* [BASI-LABS/parseltongue](https://github.com/BASI-LABS/parseltongue) 能强大的提示黑客工具/浏览器扩展，用于实时标记化可视化和无缝文本转换，支持二进制、base64、leetspeak、特殊字符和多种语言等格式。非常适合红队成员、开发人员、语言学家和潜在的探索者。
+
+* [ibeatai/beat-ai](https://github.com/ibeatai/beat-ai) <Beat AI> 又名 <零生万物> , 是一本专属于软件开发工程师的 AI 入门圣经，手把手带你上手写 AI。从神经网络到大模型，从高层设计到微观原理，从工程实现到算法，学完后，你会发现 AI 也并不是想象中那么高不可攀、无法战胜，Just beat it !
+
+* [openai/openai-quickstart-node](https://github.com/openai/openai-quickstart-node) OpenAI API 快速入门教程中的Node.js示例应用。
+
+* [modelscope/swift](https://github.com/modelscope/swift) SWIFT 支持 300+ LLMs 和 50+ MLLM（多模态大型模型）的训练（PreTraining/Fine-tuning/RLHF）、推理、评估和部署。开发者可以直接将我们的框架应用到自己的研究和生产环境中，实现从模型训练和评估到应用的完整工作流程。除了支持PEFT提供的轻量级训练方案外，我们还提供完整的Adapters库，以支持NEFTune、LoRA+、LLaMA-PRO等最新的训练技术。此适配器库可以直接在您自己的自定义工作流程中使用，而无需我们的训练脚本。为了方便不熟悉深度学习的用户使用，我们提供了一个用于控制训练和推理的 Gradio 网页用户界面，并为初学者提供了附带的深度学习课程和最佳实践。SWIFT web-ui 在 Huggingface space 和 ModelScope studio 上都可用，请随时尝试！
+
+* [exo-explore/exo](https://github.com/exo-explore/exo) 在家中使用日常设备运行自己的 AI 集群。忘记昂贵的 NVIDIA GPU，将现有设备统一到一个强大的 GPU 中：iPhone、iPad、Android、Mac、Linux，几乎任何设备！特征：广泛的模型支持，exo支持LLaMA（MLX和tinygrad）等热门型号。动态模型分区，EXO 根据当前网络拓扑和可用设备资源对模型进行最佳拆分。这使您能够运行比在任何单个设备上更大的模型。自动设备发现，EXO 将使用可用的最佳方法自动发现其他设备。零手动配置。ChatGPT 兼容 API，exo 提供了一个与 ChatGPT 兼容的 API，用于运行模型，只需在您的应用程序中进行一行更改，即可使用 exo 在您自己的硬件上运行模型。设备平等，与其他分布式推理框架不同，exo 不使用 master-worker 架构，exo 设备连接 p2p，只要设备连接到网络中的某个位置，它就可以用于运行模型,Exo支持不同的分区策略，可以在设备之间分割模型，默认的分区策略是环形内存加权分区，这将在一个环中运行推理，其中每个设备运行与设备内存成正比的多个模型层。
+
+* [multimodal-art-projection/MAP-NEO](https://github.com/multimodal-art-projection/MAP-NEO) MAP-NEO 是一个完全开源的大型语言模型，包括预训练数据、数据处理管道 （Matrix）、预训练脚本和对齐代码。它在 4.5T 中英文代币上从头开始训练，表现出与 LLaMA2 7B 相当的性能。MAP-Neo 模型在推理、数学和编码等具有挑战性的任务中提供类似专有模型的性能，优于同等规模的同类产品。出于研究目的，我们的目标是在LLM培训过程中实现完全透明。为此，我们全面发布了 MAP-Neo，包括最终和中间检查点、自训练标记器、预训练语料库，以及高效、稳定优化的预训练代码库。
+
+* [miurla/morphic](https://github.com/miurla/morphic) 具有生成式 UI 的 AI 驱动的搜索引擎。特征：使用 GenerativeUI 进行搜索和回答；理解用户的问题；搜索历史功能；共享搜索结果（可选）；视频搜索支持（可选）；从指定的 URL 获取答案；用作搜索引擎 ；支持 OpenAI 以外的提供商；指定模型以生成答案；Groq API支持
+
+* [higgsfield-ai/higgsfield](https://github.com/higgsfield-ai/higgsfield) 容错、高度可扩展的 GPU 编排，以及专为训练具有数十亿到数万亿个参数的模型而设计的机器学习框架。Higgsfield 是一个开源、容错、高度可扩展的 GPU 编排，以及一个机器学习框架，专为训练具有数十亿到数万亿个参数的模型而设计，例如大型语言模型 （LLMs）。Higgsfield 作为 GPU 工作负载管理器和机器学习框架，具有五个主要功能：将对计算资源（节点）的独占和非独占访问权限分配给用户进行训练任务。支持 ZeRO-3 deepspeed API 和 PyTorch 的全分片数据并行 API，实现万亿参数模型的高效分片。提供一个框架，用于在分配的节点上启动、执行和监控大型神经网络的训练。通过维护用于运行试验的队列来管理资源争用。通过与 GitHub 和 GitHub Actions 的无缝集成，促进机器学习开发的持续集成，Higgsfield 简化了训练大型模型的过程，并为开发人员提供了多功能且强大的工具集。
+
+* [rashadphz/farfalle](https://github.com/rashadphz/farfalle) 开源 AI 驱动的搜索引擎。（Perplexity克隆）。在本地LLMs运行（llama3、gemma、mistral、phi3），通过 LiteLLM 自定义LLMs，或使用云模型（Groq/Llama3、OpenAI/gpt4-o）
+
+* [betalgo/openai](https://github.com/betalgo/openai) 用于访问 OpenAI 的 API 的 .NET SDK，作为社区库提供。此 SDK 允许您轻松地将 OpenAI 的功能集成到您的 .NET 应用程序中。
+
+* [ridgerchu/matmulfreellm](https://github.com/ridgerchu/matmulfreellm) 实现无 MatMul LM。MatMul-Free LM 是一种语言模型架构，无需矩阵乘法 （MatMul） 运算。此存储库提供了与 🤗 Transformers 库兼容的 MatMul-Free LM 实现。我们评估了缩放定律如何拟合 Transformer++ 和我们的模型中的 370M、1.3B 和 2.7B 参数模型。为了公平比较，每个操作的处理方式相同，尽管我们的模型在某些层中使用了更有效的三元权重。有趣的是，与 Transformer++ 相比，我们模型的缩放投影表现出更陡峭的下降，这表明我们的架构在利用额外计算来提高性能方面更有效。
+
+* [Nutlope/turboseek](https://github.com/Nutlope/turboseek) 受 Perplexity 启发的 AI 搜索引擎，由 Together.ai 提供支持。技术栈：带有 Tailwind 的Next.js应用路由器；共同使用 AI 进行LLM推理；Mixtral 8x7B 和 Llama-3 用于LLMs；用于搜索 API 的 Bing；适用于网站分析。运作方式：回答用户的问题；向必应搜索 API 发出请求，以查找前 6 个结果并显示它们；从 bing 发回的 6 个链接中抓取文本，并将其存储为上下文；向 Mixtral-8x7B 发出请求，其中包含用户的问题 + 上下文，并将其流回给用户；再次向 Llama-3-8B 提出 3 个相关问题，用户可以跟进。
 
 #### 编程语言大模型及相关项目
 
@@ -2445,6 +2539,8 @@
 * [codota/TabNine](https://github.com/codota/TabNine) 您控制的 AI 代码助手。通过一流的 AI 代码生成保持流畅，自动生成高质量代码，将纯文本转换为代码，消除重复性任务，并将更多时间花在您喜欢的工作上。通过整个 SDLC 的 AI 聊天更快地构建更好的应用程序，从代码创建和解释，到测试和文档生成以及错误修复，更快的应用程序开发已经进入了聊天。高度个性化的 AI，适合您的工作方式，基于代码和模式的上下文感知建议，支持您使用的最流行的语言、库和 IDE，能够创建基于代码库训练的定制模型。完全的代码隐私，零数据保留，以自己的方式部署 Tabnine：本地、VPC 或安全 SaaS，Tabnine 的专有模型从未在您的代码上进行过训练，未经您的明确许可，绝不会存储或共享您的代码。保护风险和知识产权责任，Tabnine 的 Protected 模型仅在许可许可的代码上进行训练，企业用户获得额外的赔偿保护，具有企业级安全性和合规性（具有 SOC 2 和 GDPR）。Tabnine 是原创的 AI 代码助手，受到数百万开发人员和数千家公司的信赖。在您最喜欢的 IDE 中免费获取 Tabnine。
 
 * [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin) 自主的 AI 软件工程师，能够执行复杂的工程任务并与用户在软件开发项目上积极协作。希望通过开源社区的力量复制、增强和创新 Devin。利用了 shell、代码编辑器和 Web 浏览器等工具的组合，展示了软件开发LLMs中未开发的潜力。目标是探索和扩展 Devin 能力，确定其优势和需要改进的领域，以指导开放代码模型的进展。
+
+* [plandex-ai/plandex](https://github.com/plandex-ai/plandex) 在您的终端中进行 AI 驱动的开发。专为大型实际任务而设计。处理你的积压工作，使用不熟悉的技术，摆脱困境，减少在无聊的事情上花费的时间。Plandex 是您终端中可靠且对开发人员友好的 AI 编码代理。它可以计划和完成跨越许多文件和步骤的大型任务。Plandex 专为实际用例而设计，可以帮助您快速构建新应用程序、向现有代码库添加新功能、编写测试和脚本、理解代码并修复错误。
 
 * [salesforce/CodeGen](https://github.com/salesforce/CodeGen) 一系列用于程序合成的开源模型。接受过 TPU-v4 训练。与 OpenAI Codex 竞争。
 
@@ -2545,6 +2641,14 @@
 * [ise-uiuc/magicoder](https://github.com/ise-uiuc/magicoder) 由 OSS-Intit 提供支持的模型系列，这是一种新颖的方法LLMs，通过开源代码片段为代码生成低偏差和高质量的指令数据。OSS-Instruct 通过赋予LLM它们丰富的开源引用来产生更多样化、更真实和可控的数据，从而减轻了合成指令数据的固有偏见。
 
 * [SqueezeAILab/LLMCompiler](https://github.com/SqueezeAILab/LLMCompiler) 通过自动识别哪些任务可以并行执行，哪些任务是相互依赖的，从而实现并LLMs行函数调用的高效和有效的编排，包括开源和闭源模型。
+
+* [princeton-nlp/SWE-agent](https://github.com/princeton-nlp/SWE-agent) SWE-agent 处理 GitHub 问题并尝试使用 GPT-4 或您选择的 LM 自动修复它。它解决了 SWE-bench 评估集中 12.47% 的错误，运行时间仅为 1 分钟。
+
+* [langroid/langroid](https://github.com/langroid/langroid) Langroid 是一个直观、轻量级、可扩展且有原则的 Python 框架，可轻松构建LLM由前 CMU 和威斯康星大学麦迪逊分校研究人员提供的应用程序。您可以设置代理，为它们配备可选组件（LLM矢量存储和工具/函数），为它们分配任务，并让它们通过交换消息来协作解决问题。这种多智能体范式的灵感来自Actor框架。Langroid是对LLM应用程序开发的一种新尝试，在简化开发人员体验方面进行了相当多的思考;它不使用 Langchain。
+
+* [shobrook/adrenaline](https://github.com/shobrook/adrenaline) 即时回答任何编程问题，所有技术方面的 AI 专家。我们的目标是回答任何技术问题。目前，这包括以下问题：一般编程概念，GitHub 存储库，文档网站，代码片段。Adrenaline还可以搜索互联网并从相关来源中找到答案，采用多步推理来回答更复杂的问题，甚至生成图表来帮助解释事情。
+
+* [Ironclad/rivet](https://github.com/Ironclad/rivet) 开源可视化 AI 编程环境和 TypeScript 库。Rivet，用于创建复杂的 AI 代理和提示链接的 IDE，并将其嵌入到您的应用程序中。
 
 #### 健康医学大模型及语料库
 
@@ -2704,7 +2808,7 @@
 
 * [open-compass/LawBench](https://github.com/open-compass/LawBench) 对大型语言模型的法律知识进行基准测试
 
-#### 其他大模型
+#### 其他及垂直领域大模型
 
 * [gmftbyGMFTBY/science-llm](https://github.com/gmftbyGMFTBY/science-llm) 科学领域的大语言模型，在redpajama arXiv上训练
 
@@ -3092,6 +3196,34 @@
 
 * [xverse-ai/XVERSE-65B](https://github.com/xverse-ai/XVERSE-65B) 由深圳元象科技自主研发的支持多语言的大语言模型（Large Language Model），参数规模为 650 亿，本次开源的模型为底座模型 XVERSE-65B。
 
+* [jina-ai/reader](https://github.com/jina-ai/reader) 将任何 URL 转换为具有简单前缀 https://r.jina.ai/ 的LLM友好输入。您LLMs应该得到更好的输入。Reader 执行以下两项操作：阅读：它将任何 URL 转换为带有 LLM https://r.jina.ai/https://your.url 的 -friendly 输入。免费为您的代理和 RAG 系统提供改进的输出。搜索：它使用 https://s.jina.ai/your+query .这使您可以LLMs从网络上访问最新的世界知识。
+
+* [ai4finance-foundation/finrobot](https://github.com/ai4finance-foundation/finrobot) 用于金融应用程序的开源 AI 代理平台，使用 LLMs。FinRobot 是一个超越 FinGPT 范围的 AI 代理平台，代表了为金融应用精心设计的综合解决方案。它集成了各种各样的人工智能技术，超越了单纯的语言模型。这一广阔的愿景凸显了该平台的多功能性和适应性，满足了金融业的多方面需求。FinRobot的整体框架分为四个不同的层，每个层都旨在解决金融AI处理和应用的特定方面：1.金融 AI 代理层：金融 AI 代理层现在包括金融思维链 （CoT） 提示，增强了复杂的分析和决策能力；市场预测代理、文档分析代理和交易策略代理利用 CoT 将金融挑战分解为逻辑步骤，将其先进的算法和领域专业知识与金融市场不断变化的动态相结合，以获得准确、可操作的见解。2.金融LLMs算法层：金融LLMs算法层配置并利用针对特定领域和全球市场分析量身定制的特别调整模型。3.LLMOps 和 DataOps 层：LLMOps 层实施了多源集成策略，利用一系列最先进的模型，选择LLMs最适合特定财务任务的。4.多源LLM基础模型层：此基础层支持各种通用和专用LLMs的即插即用功能。`FinRobot：座席工作流程`。1.感知：该模块从市场提要、新闻和经济指标中捕获和解释多模式财务数据，使用复杂的技术来构建数据以进行彻底分析。2.大脑：作为核心处理单元，该模块使用LLMs并利用金融思维链 （CoT） 流程感知来自感知模块的数据，以生成结构化指令。3.操作：该模块执行来自大脑模块的指令，应用工具将分析见解转化为可操作的结果;行动包括交易、投资组合调整、生成报告或发送警报，从而积极影响金融环境。`FinRobot：智能调度程序`.确保模型多样性和优化集成和选择LLM最适合每个任务的核心。Director Agent：此组件协调任务分配过程，确保根据任务的性能指标和对特定任务的适用性将任务分配给代理。代理注册：管理注册并跟踪系统内代理的可用性，促进高效的任务分配过程。Agent Adaptor：根据特定任务定制代理功能，增强其性能并在整个系统中集成。任务管理器：管理和存储为各种财务任务量身定制的不同通用和基于微调LLMs的代理，定期更新以确保相关性和有效性。
+
+* [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) 代码优先代理框架，用于无缝规划和执行数据分析任务。TaskWeaver 是一个代码优先代理框架，用于无缝规划和执行数据分析任务。这个创新的框架通过代码片段解释用户请求，并以函数的形式有效地协调各种插件，以有状态的方式执行数据分析任务。与许多仅使用LLMs文本跟踪聊天记录的代理框架不同，TaskWeaver 同时保留聊天记录和代码执行历史记录，包括内存中数据。此功能增强了代理框架的表现力，使其成为处理复杂数据结构（如高维表格数据）的理想选择。特色：丰富的数据结构 -例如 DataFrames，而不是处理字符串。自定义算法 - 允许您将自己的算法封装到插件中并编排它们。整合特定领域的知识 - 旨在轻松整合特定领域的知识，以提高可靠性。有状态执行 -  旨在支持生成的代码的有状态执行，以确保一致且流畅的用户体验。代码验证 - 旨在在执行之前验证生成的代码。它可以检测生成的代码中的潜在问题，并提供修复建议。易于使用 - 包含示例插件、示例和教程，可帮助您入门。 提供开箱即用的体验，允许用户在安装后立即运行它。易于调试 -  具有详细和透明的日志，可帮助您了解整个过程，包括LLM提示、代码生成和执行过程。安全注意事项 - 支持基本的会话管理，以将不同用户的数据分开。代码执行被分成不同的进程，以避免相互干扰。易于扩展 - 以使用多个代理作为插件完成更复杂的任务。
+
+* [lavague-ai/LaVague](https://github.com/lavague-ai/LaVague) LaVague 是一个开源的大型行动模型框架，用于开发 AI Web 代理。我们的网络代理采用一个目标，例如“打印 Hugging Face 扩散器库的安装步骤”，并通过利用我们的两个核心组件执行实现这一目标所需的操作：一个世界模型，它采用目标和当前状态（又称当前网页）并将其转化为指令；一个动作引擎，它将这些指令“编译”为动作代码，例如Selenium或Playwright并执行它们。
+
+* [explodinggradients/ragas](https://github.com/explodinggradients/ragas) 检索增强生成 （RAG） 管道的评估框架。RAG 表示一类使用外部数据来增强LLM上下文的LLM应用程序。现有的工具和框架可以帮助你构建这些管道，但评估它并量化你的管道性能可能很困难。这就是 Ragas （RAG Assessment） 的用武之地。Ragas 为您提供了基于最新研究的工具，用于评估LLM生成的文本，让您深入了解 RAG 管道。Ragas 可以与您的 CI/CD 集成，以提供持续检查以确保性能。Ragas 提供了几个指标来评估 RAG 系统的各个方面：1.检索器：提供衡量检索系统性能的context_precision和context_recall。2.生成器 （LLM）：提供衡量幻觉的忠诚度和衡量答案与问题相关性的answer_relevancy。在这里，我们使用了四个指标，但它们代表什么？忠实度 - 根据问题衡量答案与上下文的事实一致性。Context_precision - 衡量检索到的上下文与问题的相关性，传达检索管道的质量。Answer_relevancy - 衡量答案与问题的相关性。Context_recall - 衡量检索器检索回答问题所需的所有必要信息的能力。
+
+* [Dataherald/dataherald](https://github.com/Dataherald/dataherald) 与 SQL 数据库交互，使用 LLMs Natural Language to SQL。Dataherald 是一个自然语言到 SQL 的引擎，专为对关系数据进行企业级问答而构建。它允许您从数据库中设置一个 API，该 API 可以用简单的英语回答问题。您可以使用 Dataherald 执行以下操作：允许业务用户从数据仓库中获取见解，而无需通过数据分析师；从 SaaS 应用程序内的生产数据库启用 Q+A；从您的专有数据创建 ChatGPT 插件。
+
+* [onuratakan/gpt-computer-assistant](https://github.com/onuratakan/gpt-computer-assistant) 为 Windows 和 Linux\MacOS 提供 GPT-4O\ChatGPT  应用程序的替代工作。这样一来，这是一项新鲜而稳定的作品。此时，您可以轻松地安装为 Python 库，但我们将准备一个管道来提供本机安装脚本 （.exe）。
+
+* [OpenGVLab/InternVL](https://github.com/OpenGVLab/InternVL) InternVL 系列：GPT-4o 的开创性开源替代品。接近GPT-4o表现的可商用开源多模态对话模型。InternVL 1.5，这是一种开源多模态大型语言模型 （MLLM），旨在弥合开源和专有商业模型在多模态理解方面的能力差距。我们介绍三种简单的设计：强视觉编码器：我们探索了一种针对大规模视觉基础模型的持续学习策略——InternViT-6B，提升其视觉理解能力，使其可以在不同的LLMs环境中转移和复用。动态高分辨率：我们根据输入图像的纵横比和分辨率，将图像划分为 1 到 40 的 448 × 448 像素的瓦片，最高支持 4K 分辨率输入。高质量的双语数据集：我们精心收集了一个高质量的双语数据集，涵盖了常见场景、文档图像，并用中英文问答对进行标注，显著提高了OCR和中文相关任务的性能。
+
+* []() 
+
+* []() 
+
+* []() 
+
+* []() 
+
+* []() 
+
+* []() 
+
 ### 其他_文本生成、文本对话
 
 * [Awesome-TOD-NLG-Survey](https://github.com/yizhen20133868/Awesome-TOD-NLG-Survey) 面向任务的对话系统 (TOD) 中自然语言生成的调查：最新进展和新前沿
@@ -3350,6 +3482,8 @@
 
 * [txsun1997/CoLAKE](https://github.com/txsun1997/CoLAKE) 使用知识图谱以增强预训练模型的效果 首先将上下文看作全连接图，并根据句子中的实体在KG上抽取子图，通过两个图中共现的实体将全连接图和KG子图融合起来；最终本文将文本上下文和知识上下文一起用MLM进行预训练，将mask的范围推广到word、entity和relation；为训练该模型，本文采用cpu-gpu混合训练策略结合负采样机制减少训练时间；最终本文提出的方法在知识图谱补全和若干NLP任务上均带来了增益。然后本文将该图转化为序列，使用Transformer进行预训练，并在训练时采用特殊的type embedding来表示实体、词语与其他子图信息
 
+* [neo4j-labs/llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder) 知识图谱生成器应用程序。该应用程序旨在将非结构化数据（pdfs，docs，txt，youtube视频，网页等）转换为存储在Neo4j中的知识图谱。它利用大型语言模型（OpenAI、Gemini 等）的强大功能从文本中提取节点、关系及其属性，并使用 Langchain 框架创建结构化知识图谱。从本地计算机、GCS 或 S3 存储桶或 Web 源上传文件，选择您的LLM模型并生成知识图谱。主要特点：知识图谱创建：使用 LLMs将非结构化数据转换为结构化知识图谱。提供架构：提供您自己的自定义架构或使用设置中的现有架构来生成图形。查看图表：在 Bloom 中一次查看特定源或多个源的图表。与数据聊天：通过对话查询与 Neo4j 数据库中的数据进行交互，还可以检索有关查询响应源的元数据。
+
 * [JanKalo/KnowlyBERT](https://github.com/JanKalo/KnowlyBERT) 提出了一种混合的语言知识模型查询系统，该系统使用语言模型来应对现实世界中知识图谱的不完整性问题。作为KnowlyBERT的输入，用户可以向系统提出以实体为中心的SPARQL查询。首先，查询语言模型（a）；然后，对不完整的知识图谱进行查询，并获得结果（b）；另外SPARQL查询被翻译成多种自然语言语句，这些语言语句在“关系模板生成”步骤中由语言模型完成；语言模型返回多个单词列表以及每个单词（c）的置信度值；然后将这些列表合并为一个列表（d），并根据知识图谱类型信息（e）使用我们的语义过滤步骤进行过滤。此外，执行阈值处理，削减不相关的结果（f）；将语言模型和知识图谱的结果合并（g）并返回给用户。
 
 * [yeliu918/KG-BART](https://github.com/yeliu918/KG-BART) 知识图谱增强的预训练模型的生成式常识推理.可利用图上的注意力来聚集丰富的概念语义，从而增强对看不见的概念集的模型泛化。
@@ -3435,6 +3569,8 @@
 * [brightmart/nlp_chinese_corpus](https://github.com/brightmart/nlp_chinese_corpus) 大规模中文自然语言处理语料 维基百科json版(wiki2019zh) 新闻语料json版(news2016zh) 百科类问答json版(baike2018qa) 社区问答json版(webtext2019zh) ：大规模高质量数据集 翻译语料(translation2019zh)
 
 * [msra-nlc/ChineseKBQA](https://github.com/msra-nlc/ChineseKBQA) NLPCC-ICCPOL 2016 Shared Task: Open Domain Chinese Question Answering [开放域中文问答数据集](http://tcci.ccf.org.cn/conference/2016/pages/page05_evadata.html)
+
+* [verazuo/jailbreak_llms](https://github.com/verazuo/jailbreak_llms) CCS'24 一个数据集由来自 Reddit、Discord、网站和开源数据集的 15,140 个 ChatGPT 提示（包括 1,405 个越狱提示）组成。为了评估越狱提示的有效性，我们构建了一个问题集，其中包含 OpenAI 使用政策中采用的 13 个禁止场景的 390 个问题。
 
 * [jkszw2014/bert-kbqa-NLPCC2017](https://github.com/jkszw2014/bert-kbqa-NLPCC2017) A trial of kbqa based on bert for NLPCC2016/2017 Task 5 (基于BERT的中文知识库问答实践） 
 
@@ -4256,6 +4392,20 @@
 * [tisfeng/Easydict](https://github.com/tisfeng/Easydict) 简洁优雅的词典翻译 macOS App。开箱即用，支持离线 OCR 识别，支持有道词典，苹果系统词典翻译，ChatGPT，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。
 
 * [salesforce/decaNLP](https://github.com/salesforce/decaNLP) 一项多任务挑战，涵盖十项任务：问答 （SQuAD）、机器翻译 （IWSLT）、摘要 （CNN/DM）、自然语言推理 （MNLI）、情感分析 （SST）、语义角色标签 （QA-SRL）、零样本关系提取 （QA-ZRE）、面向目标的对话 （WOZ）、语义解析 （WikiSQL） 和常识推理 （MWSC）。每个任务都转换为问答，这使得使用我们新的多任务问答网络 （MQAN） 成为可能。
+
+* [ripperhe/Bob](https://github.com/ripperhe/Bob) Bob 是一款 macOS 平台的翻译和 OCR 软件。主要特性：翻译功能：划词翻译、截图翻译、输入翻译、翻译多开、自定义插件、自动识别语种、驼峰拆分、蛇形拆分、AppleScript 调用、PopClip 调用。OCR 功能：截图 OCR、静默截图 OCR、访达选图；OCR、离线识别、连续识别、二维码识别、自动复制、智能分段；支持的服务：文本翻译：系统翻译、火山翻译、腾讯翻译君、阿里翻译、百度翻译、有道翻译、彩云小译、小牛翻译、Google 翻译、Microsoft 翻译、Amazon 翻译、DeepL 翻译、OpenAI 翻译；文本识别：离线文本识别、火山 OCR、腾讯 OCR、腾讯图片翻译、百度 OCR、有道 OCR、Google OCR；语音合成：离线语音合成、火山语音合成 、腾讯语音合成、Google 语音合成、Microsoft 语音合成
+
+* [opendatalab/PDF-Extract-Kit](https://github.com/opendatalab/PDF-Extract-Kit) 用于高质量 PDF 内容提取的综合工具包。PDF 文档包含丰富的知识，但从 PDF 中提取高质量内容并非易事。为了解决这个问题，我们将 PDF 内容提取的任务分解为几个组件：布局检测：使用 LayoutLMv3 模型进行区域检测，如图片、表格、标题、文本等;公式检测：使用 YOLOv8 检测公式，包括内联公式和孤立公式;公式识别：使用UniMERNet进行公式识别;光学字符识别：使用PaddleOCR进行文本识别;通过注释各种 PDF 文档，我们训练了用于布局检测和公式检测的鲁棒模型。我们的流程可以在各种类型的PDF文档（如学术论文、教科书、研究报告和财务报表）上实现准确的提取结果，即使在扫描模糊或水印的情况下也非常强大。
+
+* [VikParuchuri/marker](https://github.com/VikParuchuri/marker) 快速将PDF转换为Markdown，准确无误。支持各种文档（针对书籍和科学论文进行了优化）；支持所有语言；删除页眉/页脚/其他工件；设置表格和代码块的格式；提取并保存图像以及 Markdown；将大多数方程转换为latex；适用于 GPU、CPU 或 MPS。Marker 是深度学习模型的管道：提取文本，必要时进行 OCR（heuristics、surya、tesseract）；检测页面布局并查找阅读顺序 （surya）；清理和格式化每个块；合并块并对完整文本进行后处理
+
+* [adithya-s-k/omniparse](https://github.com/adithya-s-k/omniparse) 可将任何非结构化数据提取并解析为针对 GenAI （LLM） 应用程序优化的结构化、可操作的数据。无论您是处理文档、表格、图像、视频、音频文件还是网页，OmniParse 都能让您的数据保持干净、结构化，并为 RAG、微调等 AI 应用程序做好准备。特征：完全本地，无外部 API；适合 T4 GPU；支持 ~20 种文件类型；将文档、多媒体和网页转换为高质量的结构化 Markdown；表格提取、图像提取/字幕、音频/视频转录、网页抓取；可使用 Docker 和 Skypilot 轻松部署；Colab 友好；由 Gradio 提供支持的交互式用户界面。处理数据具有挑战性，因为它具有不同的形状和大小。OmniParse 旨在成为一个摄取/解析平台，您可以在其中摄取任何类型的数据，例如文档、图像、音频、视频和 Web 内容，并获得对 GenAI （LLM） 友好的最结构化和可操作的输出。
+
+* [CosmosShadow/gptpdf](https://github.com/CosmosShadow/gptpdf) 使用 VLLM（如 GPT-4o）将 PDF 解析为 markdown。我们的方法非常简单（只有 293 行代码），但几乎可以完美地解析排版、数学公式、表格、图片、图表等。
+
+* [opendatalab/MinerU](https://github.com/opendatalab/MinerU) 一站式开源高质量数据提取工具，支持PDF/网页/多格式电子书提取。包括以下主要功能：Magic-PDF PDF 文档提取、网页和电子书提取。Magic-PDF 是一种旨在将 PDF 文档转换为 Markdown 格式的工具，能够处理存储在本地或支持 S3 协议的对象存储上的文件。
+
+* [getomni-ai/zerox](https://github.com/getomni-ai/zerox) 一种非常简单的方法，可以对文档进行 OCR 处理以进行 AI 摄取。毕竟，文档是一种视觉表示。具有奇怪的布局、表格、图表等。视觉模型很有意义！
 
 # 网络与前后端开发
 
@@ -5114,6 +5264,8 @@
 
 * [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) 浏览器自动化框架和生态系统。封装了各种工具和库，可实现 Web 浏览器自动化。Selenium 专门为 W3C WebDriver 规范提供了基础设施——一个与所有主要 Web 浏览器兼容的平台和语言中立的编码接口。
 
+* [mherrmann/helium](https://github.com/mherrmann/helium) Helium 是一个 Python 库，用于自动化 Chrome 和 Firefox 等浏览器。要开始使用 Helium，您需要 Python 3 和 Chrome 或 Firefox。我建议创建一个虚拟环境。这使您可以只为当前项目安装 Helium，而不是在整个计算机上全局安装 Helium。在引擎盖下，Helium 将每个调用转发到 Selenium。不同的是，Helium 的 API 级别要高得多。在 Selenium 中，您需要使用 HTML ID、XPaths 和 CSS 选择器来识别网页元素。另一方面，Helium 允许您通过用户可见的标签来引用元素。因此，Helium 脚本通常比类似的 Selenium 脚本短 30-50%。更重要的是，它们更易于阅读，并且在底层网页的变化方面更稳定。
+
 * [jekyll/jekyll](https://github.com/jekyll/jekyll) Ruby 中一个博客感知的静态站点生成器
 
 * [airbnb/visx](https://github.com/airbnb/visx) 可重用的低级可视化组件的集合。visx 结合了 d3 的强大功能来生成可视化和 react 更新 DOM 的好处。
@@ -5510,6 +5662,8 @@
 * [parcel-bundler/lightningcss](https://github.com/parcel-bundler/lightningcss) 一个用 Rust 编写的极快的 CSS 解析器、转换器、打包器和微型器。
 
 * [djc/askama](https://github.com/djc/askama) 类型安全、编译的类似 Jinja 的 Rust 模板。Askama 实现了一个基于 Jinja 的模板渲染引擎。它在编译时根据用户定义 struct 的模板生成 Rust 代码，以保存模板的上下文。
+
+* [mattboldt/typed.js](https://github.com/mattboldt/typed.js) JavaScript 类型动画库，Typed.js 是一个会打字的库。输入任何字符串，并观察它以您设置的速度输入，将键入的内容退格，并为您设置的字符串数量开始一个新句子。
 
 ### 管理面板
 
@@ -6063,6 +6217,12 @@
 * [flairNLP/fundus](https://github.com/flairNLP/fundus) 静态新闻爬虫。Fundus 让您只需几行 Python 代码即可抓取在线新闻文章！无论是来自实时网站还是CC-NEWS数据集。支持：抓取一堆英语新闻文章；对特定新闻源进行爬取；抓取 100 万篇文章，为了抓取如此大量的数据，Fundus 依赖于 CommonCrawl Web 存档，尤其是 新闻抓取 CC-NEWS 。如果您不熟悉 CommonCrawl 或 CC-NEWS 查看他们的网站。评估基准中最高的F1分数。[dobbersc/fundus-evaluation](https://github.com/dobbersc/fundus-evaluation)
 
 * [adbar/trafilatura](https://github.com/adbar/trafilatura) 发现和提取网络上的文本数据，Python和命令行工具，用于收集Web上的文本和元数据：抓取，抓取，提取，输出为CSV，JSON，HTML，MD，TXT，XML。旨在收集 Web 上的文本并简化将原始 HTML 转换为结构化、有意义的数据的过程。它包括所有必要的发现和文本处理组件，以执行 Web 爬虫、下载、抓取和提取主要文本、元数据和注释。它旨在保持方便和模块化：不需要数据库，输出可以转换为常用格式。从 HTML 批量到基本部分可以缓解许多与文本质量相关的问题，通过关注实际内容，避免重复出现的元素（页眉、页脚等）引起的噪音，并使用选定的信息理解数据。提取器设计为强大且速度相当快，可在数百万个文档上运行。该工具的多功能性使其可用于定量和数据驱动的方法。它用于学术领域及其他领域（例如自然语言处理、计算社会科学、搜索引擎优化和信息安全）。
+
+* [mendableai/firecrawl](https://github.com/mendableai/firecrawl) 将整个网站变成 LLM-ready Markdown 或结构化数据。使用单个 API 进行抓取、抓取和提取。抓取任何网站并将其转换为LLM就绪的 Markdown 或结构化数据。由 Mendable.ai 和 Firecrawl 社区构建。包括强大的抓取、抓取和数据提取功能。Firecrawl 是一种 API 服务，它获取 URL、抓取它并将其转换为干净的 markdown 或结构化数据。我们会抓取所有可访问的子页面，并为每个子页面提供干净的数据。无需站点地图。
+
+* [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) Crawl4AI 简化了 Web 爬虫和数据提取，使其可用于大型语言模型 （LLMs） 和 AI 应用程序。
+
+* [mishushakov/llm-scraper](https://github.com/mishushakov/llm-scraper) 将任何网页转换为结构LLMs化数据，特征：支持本地（Ollama、GGUF）、OpenAI、Vercel AI SDK 提供商；使用 Zod 定义的架构；使用 TypeScript 实现完全的类型安全；基于Playwright框架；流式处理对象；代码生成；支持 4 种格式化模式：用于加载原始 HTML 的 html、markdown 用于加载 markdown、用于加载提取文本的文本（使用 Readability.js）、用于加载屏幕截图的图像（仅限多模式）
 
 ### 网络服务_其他
 
@@ -6770,6 +6930,8 @@
 
 * [cloudflare/boringtun](https://github.com/cloudflare/boringtun) Rust 中的用户空间 WireGuard® 实现，专为便携性和速度而设计。BoringTun 已成功部署在数百万台 iOS 和 Android 消费类设备以及数千台 Cloudflare Linux 服务器上。可执行文件 boringtun-cli ，用于 Linux 和 macOS 的用户空间 WireGuard 实现。该库 boringtun 可用于在各种平台（包括 iOS 和 Android）上实现快速高效的 WireGuard 客户端应用程序。它实现了底层的 WireGuard 协议，没有网络或隧道堆栈，这些协议可以以平台惯用的方式实现。WireGuard ® 是一款极其简单但快速且现代的 VPN，它利用了最先进的加密技术。它旨在比 IPsec 更快、更简单、更精简、更有用，同时避免了令人头疼的问题。它打算比OpenVPN性能高得多。WireGuard 被设计为通用 VPN，可在嵌入式接口和超级计算机上运行，适用于许多不同的情况。它最初是为 Linux 内核发布的，现在是跨平台（Windows、macOS、BSD、iOS、Android）并可广泛部署的。它目前正在大量开发中，但它已经被认为是业内最安全、最容易使用和最简单的 VPN 解决方案。
 
+* [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) 安全的跨平台 Git 凭据存储，可对 GitHub、Azure Repos 和其他常用 Git 托管服务进行身份验证。Git 凭据管理器 （GCM） 是基于 .NET 构建的安全 Git 凭据帮助程序，可在 Windows、macOS 和 Linux 上运行。它旨在为每个主要的源代码控制托管服务和平台提供一致且安全的身份验证体验，包括多因素身份验证。GCM 支持（按字母顺序排列）Azure DevOps、Azure DevOps Server（以前称为 Team Foundation Server）、Bitbucket、GitHub 和 GitLab。与 Git 的内置凭据帮助程序（Windows：wincred，macOS：osxkeychain，Linux：gnome-keyring/libsecret）相比，它们仅为用户名/密码提供单因素身份验证支持。GCM 取代了基于 .NET Framework 的 Git Credential Manager（适用于 Windows）和基于 Java 的 Git Credential Manager（适用于 Mac 和 Linux）。
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -6971,6 +7133,8 @@
 * [vze92/DMR](https://github.com/vze92/DMR) Deep Match to Rank Model for Personalized Click-Through Rate Prediction DMR：Matching和Ranking相结合的点击率预估模型
 
 * [kang205/SASRec](https://github.com/kang205/SASRec) 源于Transformer的基于自注意力的序列推荐模型
+
+* [microsoft/RecAI](https://github.com/microsoft/RecAI) 利用大型语言模型构建下一代推荐系统。大型语言模型（LLMs）为开发尖端推荐系统提供了巨大的潜力，特别是在增强交互性、可解释性和可控性方面。这些都是历来构成挑战的方面。然而，由于缺乏特定的领域知识，LLM将通用用于推荐目的的直接应用是不可行的。RecAI项目旨在通过研究各种策略来弥合这一差距，以集成LLMs到推荐系统中，人们通常将这一概念称为LLM4Rec。我们的目标是通过整体观点和方法论来反映LLM4Rec的现实需求。我们相信，通过采用整体视角，我们可以将 LLM4Rec 的大部分实际需求整合到 RecAI 项目中探索的一种或多种技术中。这些技术包括但不限于推荐器 AI 代理、通过个性化提示注入知识、微调语言模型作为推荐器、评估和LLMs模型解释器。最终目标是创建一个更复杂、交互式和以用户为中心的推荐系统。`推荐 AI 代理`：LLMs提供自然的交互并智能地响应人类指令，但缺乏特定领域的专业知识。相比之下，传统的推荐系统在域内数据训练方面表现出色，但仅限于结构化数据，缺乏交互性。InteRecAgent 引入了一个结合了两者优势的 AI 代理：它采用大脑LLM和传统推荐模型作为工具。因此，矩阵分解等传统模型可以转换为对话式、交互式和可解释的推荐系统。`选择性知识插件`：我们如何在不微调模型的情况下增强LLM特定领域的能力？那么提示就是关键。在这项工作中，我们引入了一种LLMs通过选择性知识进行增强的方法，以便可以通过提示注入大规模的、不断发展的和特定领域的数据模式。`嵌入 RecLM`：密集检索是一系列场景中的关键组件，包括推荐系统和检索增强生成 （RAG）。虽然生成语言模型（如 GPT）专为顺序令牌生成而设计，但它们并未针对面向检索的嵌入进行优化。这就是我们的项目 RecLM-emb 发挥作用的地方。RecLM-emb 与文本嵌入模型（如 text-embedding-ada-002）保持一致，但它专门针对项目检索进行了优化。目标是嵌入用于项目检索的所有内容。目前仅支持文本模式，例如搜索查询、项目描述和用户说明。`生成式 RecLM`：需要注意的是，不同域的数据模式差异很大，这意味着通用LLM型可能无法在特定域内提供优化的性能。为了适应特定的领域数据模式，为领域项目目录奠定基础，并增强指令跟踪能力，本项目讨论了为推荐者微调生成语言模型的过程，称为 RecLM-gen。技术包括监督微调 （SFT） 和强化学习 （RL）。这种方法的潜在应用包括排名器、对话推荐器和用户模拟器。`模型解释器`：基于深度学习的推荐系统因其在有效性和效率方面的优势而广泛应用于各种在线服务中。然而，这些模型通常缺乏可解释性，使它们对用户和开发人员来说都不太可靠和透明。在这项工作中，我们提出了一种新的推荐系统模型解释方法，称为 RecExplainer，通过用作LLMs代理模型并学习模仿和理解目标推荐模型。`RecLM 评估器`：评估对于评估模型的真实能力和确定需要进一步改进的薄弱环节至关重要。在以类似人类的方式使用语言模型作为推荐器的时代，评估方法已经明显偏离了传统风格。该项目旨在为基于LM的推荐系统的评估提供全面的服务。无论是提供经过训练的 LM 还是 API（例如 Azure OpenAI API），它都会从各个角度评估模型的性能，包括检索、排名、解释功能和常规 AI 能力。
 
 * [shichence/AutoInt](https://github.com/shichence/AutoInt) 使用Multi-Head self-Attention进行自动的特征提取
 
@@ -7396,6 +7560,8 @@
 
 * [ultralytics/yolov3](https://github.com/ultralytics/yolov3) 全球最受欢迎的视觉 AI，代表了 Ultralytics 对未来视觉 AI 方法的开源研究，融合了数千小时研发的经验教训和最佳实践。可用于执行检测、分割、obb（定向物体检测）、分类和姿态估计，这些任务中的每一个都有不同的目标和用例。
 
+* [CVHub520/X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling) 借助 Segment Anything 和其他出色模型的 AI 支持，轻松进行数据标记。X-AnyLabeling 是一款基于AI推理引擎和丰富功能特性于一体的强大辅助标注工具，其专注于实际应用，致力于为图像数据工程师提供工业级的一站式解决方案，可自动快速进行各种复杂任务的标定。关键功能：支持GPU推理加速；支持图像和视频处理；支持单帧和批量预测所有任务；支持自定义模型和二次开发设计；支持一键导入和导出主流的标签格式，如COCO\VOC\YOLO\DOTA\MOT\MASK；支持多种图像标注样式，包括 ：多边形、矩形、旋转框、圆形、线条、点，以及 文本检测、识别 和 KIE 标注；支持各类视觉任务，如图像分类、目标检测、实例分割、姿态估计、旋转检测、多目标跟踪、光学字符识别、图像文本描述、车道线检测、分割一切系列等。
+
 * [mikel-brostrom/boxmot](https://github.com/mikel-brostrom/boxmot) 用于分割、目标检测和姿态估计模型的可插拔 SOTA 跟踪模块。此存储库包含一组可插拔的最先进的多目标跟踪器，用于分割、对象检测和姿态估计模型。对于使用外观描述的方法，重型（CLIPReID）和轻型最先进的ReID模型（LightMBN，OSNet等）都可以自动下载。我们提供了有关如何将此软件包与流行的对象检测模型（例如：Yolov8、Yolo-NAS 和 YOLOX）一起使用的示例。
 
 * [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) OpenMMLab基于PyTorch的开源对象检测工具箱
@@ -7548,6 +7714,8 @@
 
 * [mlfoundations/open_flamingo](https://github.com/mlfoundations/open_flamingo) 用于训练大型多模态模型的开源框架。DeepMind Flamingo模型的开源版本。提供了用于训练和评估模型的PyTorch 实现。还提供了在新的多模式 C4 数据集上训练的初始 9B 模型。
 
+* [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 利用AI大模型，一键生成高清短视频。只需提供一个视频主题或 关键词 ，就可以全自动生成视频文案、视频素材、视频字幕、视频背景音乐，然后合成一个高清的短视频。功能特性：完整的MVC架构，代码 结构清晰，易于维护，支持API和Web界面； 支持视频文案 AI自动生成，也可以自定义文案； 支持多种高清视频尺寸； 竖屏 9:16，1080x1920、 横屏 16:9，1920x1080； 支持 批量视频生成，可以一次生成多个视频，然后选择一个最满意的； 支持 视频片段时长 设置，方便调节素材切换频率； 支持中文和英文视频文案； 支持 多种语音 合成，可实时试听效果； 支持 字幕生成，可以调整；字体、位置、颜色、大小，同时支持字幕描边设置； 支持 背景音乐，随机或者指定音乐文件，可设置背景音乐音量； 视频素材来源 高清，而且 无版权，也可以使用自己的 本地素材； 支持 OpenAI、Moonshot、Azure、gpt4free、one-api、通义千问、Google Gemini、Ollama、 DeepSeek、 文心一言 等多种模型接入；中国用户建议使用 DeepSeek 或 Moonshot 作为大模型提供商。
+
 * [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA) 面向多模态 GPT-4 级别功能构建的大型语言和视觉助手。
 
 * [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) 多模态大型语言模型的最新论文和数据集
@@ -7563,6 +7731,12 @@
 * [X-PLUG/mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl) 模块化赋能多模态大型语言模型，一种针对大型多模态语言模型的模块化设计的新训练范式。学习视觉知识，同时支持由不同形式（图像/视频/文本）组成的多回合对话。观察能力，如多图像关联和场景文本理解，基于视觉的文档理解。发布与视觉相关的指令评估集 OwlEval。
 
 * [airaria/Visual-Chinese-LLaMA-Alpaca](https://github.com/airaria/Visual-Chinese-LLaMA-Alpaca) 基于中文LLaMA&Alpaca模型开发的多模态中文大模型。VisualCLA在中文LLaMA/Alpaca模型上增加了图像编码等模块，使LLaMA模型可以接收视觉信息。在此基础上，使用了中文图文对数据进行了多模态预训练，对齐图像与文本表示，赋予其基本的多模态理解能力；并使用多模态指令数据集精调，增强其对多模态指令的理解、执行和对话能力。
+
+* [alpha-vllm/lumina-t2x](https://github.com/alpha-vllm/lumina-t2x) Lumina-T2X是一个统一的框架，用于文本到任何模态生成。一系列文本条件扩散转换器 （DiT），能够将文本描述转换为生动的图像、动态视频、详细的多视图 3D 图像和合成语音。Lumina-T2X的核心是基于流量的大扩散变压器（Flag-DiT）——一个强大的引擎，支持多达70亿个参数，并将序列长度扩展到128,000个令牌。Lumina-T2X从Sora中汲取灵感，将图像，视频，3D对象的多视图和语音频谱图集成在时空潜在标记空间中，并且可以生成任何分辨率，纵横比和持续时间的输出。
+
+* [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) 使用LLMs计算机视觉自动执行基于浏览器的工作流。Skyvern 使用LLMs计算机视觉自动执行基于浏览器的工作流程。它提供了一个简单的 API 端点，可以完全自动化大量网站上的手动工作流程，取代脆弱或不可靠的自动化解决方案。Skyvern 不仅依赖于代码定义的 XPath 交互，还依赖于计算机视觉和LLMs混合的提示来实时解析视口中的项目，创建交互计划并与之交互。这种方法为我们提供了一些优点：Skyvern 可以在以前从未见过的网站上运行，因为它能够将视觉元素映射到完成工作流程所需的操作，而无需任何自定义代码；Skyvern 可以抵抗网站布局更改，因为在尝试导航时，我们的系统没有预先确定的 XPaths 或其他选择器；Skyvern 能够采用单个工作流程并将其应用于大量网站，因为它能够通过完成工作流程所需的交互进行推理；Skyvern LLMs 利用交互进行推理，以确保我们能够涵盖复杂的情况。
+
+* [YangLing0818/RPG-DiffusionMaster](https://github.com/YangLing0818/RPG-DiffusionMaster) RPG采用先进的大语言模型(LLM)来提升对图像生成的文字提示的理解，将图像分解为不同的部分或区域。RPG是一种强大的免训练范式，可以利用专有的MLLM（如GPT-4、Gemini-Pro）或开源的本地MLLM（如miniGPT-4）作为提示的字幕重配和区域规划器，通过我们的互补区域扩散来实现SOTA文本到图像的生成和编辑。我们的框架非常灵活，可以推广到任意MLLM架构和扩散主干网。RPG还能够生成超高分辨率的图像。高度准确的图像生成： RPG框架能够根据复杂的描述生成高度准确和详细的图像，尤其在处理包含多个对象、属性和关系的场景时表现出色，生成的图像与文本描述高度一致。超越现有技术： 与现有的文本到图像模型相比，RPG框架展现了更好的性能，尤其在处理多元素组合和文本-图像语义对齐方面。灵活性和广泛适用性： 实验表明，RPG框架能够与不同的多模态大型语言模型和扩散模型兼容，适用于多种图像生成场景。提升质量和细节： 生成的图像不仅在视觉上吸引人，而且细节丰富，对于艺术创作、设计和娱乐等领域至关重要。RPG框架还能够处理复杂的交互和环境，生成的图像在构图和细节方面表现出色。
 
 * [LinkSoul-AI/LLaSM](https://github.com/LinkSoul-AI/LLaSM) 第一个支持中英文语音-文本多模态对话的开源可商用对话模型。便捷的语音输入将大幅改善以文本为输入的大模型的使用体验，同时避免了基于 ASR 解决方案的繁琐流程以及可能引入的错误。
 
@@ -7587,6 +7761,14 @@
 * [OthersideAI/self-operating-computer](https://github.com/OthersideAI/self-operating-computer) 使多模态模型能够操作计算机的框架。使用与人类操作员相同的输入和输出，模型查看屏幕并决定一系列鼠标和键盘操作以达到目标。主要特点：兼容性：专为各种多模式模型而设计。集成：目前与 GPT-4v、Gemini Pro Vision、Claude 3 和 LLaVa 集成。未来计划：支持其他型号。
 
 * [MMInstruction/M3IT](https://huggingface.co/datasets/MMInstruction/M3IT) 我们的数据集汇集了经典视觉语言任务的各种任务，包括字幕、视觉问答~（VQA）、视觉条件生成、推理和分类。英文和中文。80 翻译版本可在 M3IT-80 找到。
+
+* [open-compass/VLMEvalKit](https://github.com/open-compass/VLMEvalKit) 大型视觉语言模型 （LVLM） 的开源评估工具包，支持 ~100 个 VLM，30+ 基准测试。VLMEvalKit（python 包名称为 vlmeval）是大型视觉语言模型 （LVLM） 的开源评估工具包。它支持在各种基准测试下对 LVLM 进行单命令评估，而无需在多个存储库下进行繁重的数据准备工作量。在VLMEvalKit中，我们对所有LVLM都采用基于生成的评估，并提供通过精确匹配和LLM基于答案提取获得的评估结果。
+
+* [opendilab/LMDrive](https://github.com/opendilab/LMDrive) 使用大型语言模型实现闭环端到端驾驶。一个端到端、闭环、基于语言的自动驾驶框架，通过多模态多视图传感器数据和自然语言指令与动态环境进行交互。我们的目标是开发一种智能驾驶智能体，该智能体可以基于三个输入源生成驾驶动作：1）传感器数据（多视角摄像头和激光雷达），使智能体能够生成感知并符合当前场景的动作;2）导航指令（例如变道、转弯），以便智能体可以驾驶以满足自然语言的要求（来自人类或导航软件的指令）;3）人类注意指令，使智能体能够与人类互动，适应人类的建议和偏好（例如注意对抗性事件，处理长尾事件等）。
+
+* [OpenMOSS/AnyGPT](https://github.com/OpenMOSS/AnyGPT) 一种任意对任意的多模态语言模型，它利用离散表示来统一处理各种模态，包括语音、文本、图像和音乐。基本模型对齐了四种模态，允许在不同模态和文本之间进行多模态转换。此外，我们构建了基于各种生成模型的 AnyInstruct 数据集，其中包含任意模态互换的指令。在这个数据集上训练，我们的聊天模型可以进行自由的多模态对话，其中可以随意插入多模态数据。AnyGPT 提出了一种生成训练方案，该方案将所有模态数据转换为统一的离散表示，使用 Next Token Prediction 任务在大型语言模型 （LLM） 上进行统一训练。从“压缩就是智能”的角度来看：当 Tokenizer 的质量足够高，而 Tokenizer 的困惑度 （PPL） LLM 足够低时，就可以将互联网上的大量多模态数据压缩到同一个模型中，从而涌现出纯文本中LLM不存在的功能。
+
+* [SHI-Labs/CuMo](https://github.com/SHI-Labs/CuMo) LLM通过共同升级再造的专家组合扩展多模式。将 Co-upcycled Top-K 稀疏门控专家混合模块整合到视觉编码器和 MLP 连接器中，从而增强了多模态的能力LLMs。我们进一步采用辅助损失的三阶段培训方法，以稳定培训过程并保持专家的平衡负载。CuMo 在开源数据集上进行了专门训练，LLMs并在多个 VQA 和可视化指令跟踪基准上实现了与其他最先进的多模态相当的性能。
 
 ## 其他_机器视觉
 
@@ -7635,6 +7817,8 @@
 * [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) 旨在成为一个有用的创意工具，让您可以灵活地创建以自己绘制的角色为主角的动画。
 
 * [tencent-ailab/IP-Adapter](https://github.com/tencent-ailab/IP-Adapter) 图像提示适配器旨在使预训练的文本到图像扩散模型能够生成具有图像提示的图像。
+
+* [KwaiVGI/LivePortrait](https://github.com/KwaiVGI/LivePortrait) 有拼接和重定向控制的高效肖像动画。摒弃了主流的基于扩散的方法，探索并扩展了基于隐式关键点的框架的潜力，该框架有效地平衡了计算效率和可控性。在此基础上，我们开发了一个名为 LivePortrait 的视频驱动人像动画框架，重点是在实际使用中实现更好的泛化、可控性和效率。为了提高生成质量和泛化能力，我们将训练数据放大到约6900万帧的高质量帧，采用混合图视频训练策略，升级网络架构，设计更好的运动变换和优化目标。此外，我们发现紧凑的隐式关键点可以有效地表示一种混合形状，并精心提出了一个拼接模块和两个重定向模块，这些模块利用一个计算开销可以忽略不计的小 MLP 来增强可控性。实验结果表明，与基于扩散的方法相比，我们的框架也具有有效性。在配备 PyTorch 的 RTX 4090 GPU 上，生成速度显着达到 12.8ms。第一阶段的流水线：基础模型训练，优化了外观和运动提取器、变形模块和解码器，在此阶段，模型是从头开始训练的；第二阶段的管道：拼接和重定向模块培训，在第一阶段训练基础模型后，我们冻结了外观和运动提取器、变形模块和解码器，在第二阶段，只有拼接模块和重定向模块进行了优化。
 
 * [willwulfken/MidJourney-Styles-and-Keywords-Reference](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference) 包含可用于 MidJourney AI 的样式和关键字的参考。还有一些页面显示分辨率比较、图像权重等等！
 
@@ -8133,6 +8317,8 @@
 * [segmind/SSD-1B](https://huggingface.co/segmind/SSD-1B) Segmind Stable Diffusion Model （SSD-1B） 是 Stable Diffusion XL （SDXL） 的精炼 50% 缩小版本，提供 60% 的加速，同时保持高质量的文本到图像生成功能。它已经在各种数据集上进行了训练，包括 Grit 和 Midjourney 抓取数据，以增强其基于文本提示创建各种视觉内容的能力。该模型采用知识蒸馏策略，先后利用多个专家模型（包括 SDXL、ZavyChromaXL 和 JuggernautXL）的教学，结合它们的优势并产生令人印象深刻的视觉输出。
 
 * [image-rs/image](https://github.com/image-rs/image) 在 Rust 中编码和解码图像，提供了基本的图像处理功能和方法，用于在各种图像格式之间进行转换。提供的所有图像处理函数都对实现 GenericImageView 和 GenericImage 特征并返回 ImageBuffer .
+
+* [darktable-org/darktable](https://github.com/darktable-org/darktable) Darktable 是一个开源摄影工作流程应用程序和 RAW 开发人员。Darktable 是一个开源摄影工作流程应用程序和非破坏性 RAW 开发人员 - 摄影师的虚拟 LightTable 和暗室。它在数据库中管理您的数字底片，让您可以通过可缩放的光照表查看它们，并使您能够开发原始图像、增强它们并将它们导出到本地或远程存储。darktable 不是免费的 Adobe® Lightroom® 替代品。
 
 # 因果推断
 
@@ -8648,6 +8834,11 @@
 
 * [SocialSisterYi/bcut-asr](https://github.com/SocialSisterYi/bcut-asr) 使用必剪API的语音字幕识别
 
+* [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) Buzz 在您的个人计算机上离线转录和翻译音频。由 OpenAI 的 Whisper 提供支持。特征：导入音频和视频文件并将脚本导出为 TXT、SRT 和 VTT；从计算机的麦克风转录和翻译成文本（资源密集型，可能不是实时的）；支持 Whisper、Whisper.cpp、Faster Whisper、兼容 Whisper 的 Hugging Face 模型和 OpenAI Whisper API；适用于 Mac、Windows 和 Linux
+
+* [modelscope/FunClip](https://github.com/modelscope/FunClip) 开源、准确、易用的视频语音识别和剪辑工具，LLM基于AI剪辑集成。FunClip 是一个完全开源、本地部署的自动化视频剪辑工具。它利用阿里巴巴同艺语音实验室的开源 FunASR Paraformer 系列模型对视频进行语音识别。然后，用户可以从识别结果中自由选择文本片段或说话人，点击剪辑按钮，获取所选片段对应的视频片段。
+
+
 ## 语音合成
 
 * [2noise/ChatTTS](https://github.com/2noise/ChatTTS) 专为LLM助手等对话场景设计的文本转语音模型。它支持英文和中文。我们的模型训练了 100,000+ 小时，由中文和英文组成。HuggingFace 上的开源版本是一个 40,000 小时的预训练模型，没有 SFT。特色：对话式 TTS：ChatTTS 针对基于对话的任务进行了优化，可实现自然和富有表现力的语音合成。它支持多个扬声器，促进交互式对话。细粒度控制：该模型可以预测和控制细粒度的韵律特征，包括笑声、停顿和感叹词。更好的韵律：ChatTTS 在韵律方面超过了大多数开源 TTS 模型。我们提供预训练模型来支持进一步的研究和开发。
@@ -8876,7 +9067,11 @@
 
 * [mozilla-foundation/common_voice_13_0](https://huggingface.co/datasets/mozilla-foundation/common_voice_13_0) 由唯一的 MP3 和相应的文本文件组成。数据集中记录的 27141 小时中的许多还包括年龄、性别和口音等人口统计元数据，这有助于提高语音识别引擎的准确性。该数据集目前包含 108 种语言的 17689 个验证小时数，后续会添加更多语音和语言。
 
+* [FunAudioLLM/SenseVoice](https://github.com/FunAudioLLM/SenseVoice) SenseVoice 是一种语音基础模型，具有多种语音理解功能，包括自动语音识别 （ASR）、口语识别 （LID）、语音情感识别 （SER） 和音频事件检测 （AED）。多语言语音识别：经过超过 400,000 小时的数据训练，支持 50 多种语言，识别性能超过了 Whisper 模型。丰富的转录：具备出色的情绪识别能力，在测试数据上达到并超越当前最佳情绪识别模型的有效性；提供声音事件检测能力，支持bgm、掌声、笑声、哭声、咳嗽声、打喷嚏等各种常见人机交互事件的检测。高效推理：SenseVoice-Small 模型利用非自回归端到端框架，可实现极低的推理延迟。只需 70 毫秒即可处理 10 秒的音频，比 Whisper-Large 快 15 倍。方便的微调：提供便捷的微调脚本和策略，让用户根据自己的业务场景，轻松解决长尾样本问题。服务部署：提供服务部署管道，支持多并发请求，客户端语言包括 Python、C++、HTML、Java 和 C# 等。
 
+* [FunAudioLLM/CosyVoice](https://github.com/FunAudioLLM/CosyVoice) 多语言大语音生成模型，提供推理、训练和部署全栈能力。一个旨在增强人类与大型语言模型之间的自然语音交互的框架 （LLMs）。其核心是两款创新模型：SenseVoice，用于高精度多语言语音识别、情感识别和音频事件检测;和 CosyVoice，用于生成具有多语言、音色和情感控制的自然语音。SenseVoice 提供极低的延迟并支持 50 多种语言，而 CosyVoice 在多语言语音生成、零样本语音生成、跨语言语音克隆和指令跟踪功能方面表现出色。SenseVoice 和 CosyVoice 相关的模型已经在 Modelscope 和 Huggingface 上开源，相应的训练、推理和微调代码也发布在 GitHub 上。通过将这些模型与 LLMs集成，FunAudioLLM 实现了语音翻译、情感语音聊天、交互式播客和富有表现力的有声读物旁白等应用，从而突破了语音交互技术的界限。
+
+* [QwenLM/Qwen2-Audio](https://github.com/QwenLM/Qwen2-Audio) 阿里云提出的Qwen2-Audio聊天和预训练大型音频语言模型的官方仓库。它能够接受各种音频信号输入，并对语音指令进行音频分析或直接文本响应。我们介绍了两种不同的音频交互模式：语音聊天：用户无需文字输入即可自由地与Qwen2-Audio进行语音交互;音频分析：用户可以在交互过程中提供音频和文本指令进行分析。
 
 # 生物医药
 
@@ -9945,6 +10140,8 @@
 
 * [erikgrinaker/toydb](https://github.com/erikgrinaker/toydb) Rust 中的分布式 SQL 数据库，作为学习项目编写。大多数组件都是从头开始构建的，包括：基于 Raft 的分布式共识引擎，用于线性化状态机复制。符合 ACID 标准的事务引擎，具有基于 MVCC 的快照隔离。具有 BitCask 和内存后端的可插拔存储引擎。基于迭代器的查询引擎，具有启发式优化和时间旅行支持。SQL 接口，包括投影、筛选器、联接、聚合和事务。toyDB 不适合在现实世界中使用，但其他学习数据库内部的人可能会感兴趣。
 
+* [readysettech/readyset](https://github.com/readysettech/readyset) Readyset 是一个 MySQL 和 Postgres 线路兼容的缓存层，位于现有数据库的前面，以加速查询并水平扩展读取吞吐量。在后台，ReadySet 缓存缓存的 select 语句的结果，并随着基础数据的变化随着时间的推移逐步更新这些结果。
+
 ## 数据搜索引擎
 
 * [searx/searx](https://github.com/searx/searx) 尊重隐私的元搜索引擎
@@ -10036,6 +10233,8 @@
 * [tensorchord/pgvecto.rs](https://github.com/tensorchord/pgvecto.rs) Postgres 中可扩展、低延迟和支持混合的矢量搜索。彻底改变矢量搜索，而不是数据库。超低延迟、高精度的矢量搜索。使用 SPLADE 或 BM25 算法进行基于关键字的向量搜索。跨任何语言的全面文本搜索，由 tsvector 提供支持。完整的 SQL 支持，支持连接和筛选器，没有限制或额外配置。非阻塞插入，具有最新的查询就绪情况。无需将向量和元数据与外部向量数据库同步，简化开发。支持 FP16 和 INT8 数据类型，以提高存储和计算效率。使用二进制向量进行向量索引，并支持 Jaccard 距离。子向量索引，如向量[0：256]，用于增强的套娃嵌入。支持高达 65535 的矢量长度，是最新尖端模型的理想选择。与 PostgreSQL 集成的久经考验的数据库生态系统。逻辑复制支持，确保高可用性。利用 PostgreSQL 实现高效的属性存储。简单的访问控制，如只读角色，由 PostgreSQL 提供支持。
 
 * [SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb) 将 AI 引入您的数据库！直接使用现有数据基础架构构建、部署和管理任何 AI 应用程序，而无需移动数据。包括流式推理、可扩展模型训练和向量搜索。SuperDuperDB 是一个 Python 框架，用于将 AI 模型、API 和矢量搜索引擎直接与您现有的数据库集成，包括托管您自己的模型、流式推理和可扩展的模型训练/微调。
+
+* [pinecone-io/examples](https://github.com/pinecone-io/examples) 示例应用程序和 Jupyter Notebook 的集合，您可以运行、下载、研究和修改它们，以便亲身体验 Pinecone 向量数据库和常见的 AI 模式、工具和算法。
 
 ## 其他__大数据
 
@@ -11757,6 +11956,8 @@
 
 * [embassy-rs/embassy](https://github.com/embassy-rs/embassy) 现代嵌入式框架，使用 Rust 和 async。Embassy 是嵌入式应用程序的下一代框架。使用 Rust 编程语言、其异步工具和 Embassy 库，更快地编写安全、正确和节能的嵌入式代码。Rust 编程语言速度极快且内存效率高，没有运行时、垃圾回收器或操作系统。它在编译时捕获各种错误，这要归功于其完整的内存和线程安全性以及富有表现力的类型系统。Rust 的 async/await 允许在嵌入式系统中实现前所未有的简单和高效的多任务处理。任务在编译时转换为协作运行的状态机。它不需要动态内存分配，而是在单个堆栈上运行，因此不需要对每个任务的堆栈大小进行调整。它摒弃了对具有内核上下文切换的传统 RTOS 的需求，并且比 RTOS 更快、更小！
 
+* [MetaWu2077/Esp32_VoiceChat_LLMs](https://github.com/MetaWu2077/Esp32_VoiceChat_LLMs) 基于 ESP32 的设备，主要用于与大型语言模型的语音聊天
+
 # 其他项目
 
 ## Python 程序
@@ -12100,6 +12301,8 @@
 * [Tencent/rapidjson](https://github.com/Tencent/rapidjson) 快速JSON解析/生成器，同时使用C++ SAX/DOM 样式 API 
 
 * [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson) 用于Arduino和嵌入式C++的JSON库。简单高效。
+
+* [rui314/chibicc](https://github.com/rui314/chibicc) 实现大多数 C11 功能的小型 C 编译器。尽管它仍然可能像其他小型编译器一样属于“玩具编译器”类别，但 chibicc 可以编译几个真实世界的程序，包括 Git、SQLite、libpng 和 chibicc 本身，而无需对编译的程序进行修改。这些程序生成的可执行文件通过其相应的测试套件。因此，chibicc 实际上支持多种 C11 功能，并且能够正确编译数十万行真实世界的 C 代码。chibicc 是作为我目前正在写的一本关于 C 编译器和低级编程的书的参考实现而开发的。这本书以循序渐进的方法涵盖了这个广泛的主题;在第一章中，读者将实现一个“编译器”，该编译器只接受一个数字作为“语言”，然后它将在本书的每个部分一次获得一个特性，直到编译器接受的语言与C11规范指定的语言匹配。我从阿卜杜勒阿齐兹·古鲁姆（Abdulaziz Ghuloum）的论文中采用了这种渐进的方法。此项目的每次提交都对应于本书的一个部分。为此，不仅项目的最终状态，而且每个提交都经过精心编写，并考虑到了可读性。读者应该能够通过阅读这个项目的一个或几个提交来了解如何实现 C 语言功能。例如，while、[]、？： 和 thread-local 变量是这样实现的。如果您有足够的空闲时间，从第一次提交开始阅读它可能会很有趣。如果您喜欢这个项目，请考虑在这本书可用时购买一份！我把chibicc发音为chee bee cee cee。“chibi”在日语中是“小”或“小”的意思。“cc”代表 C 编译器。
 
 * [miloyip/nativejson-benchmark](https://github.com/miloyip/nativejson-benchmark) C/C++ JSON 解析器/生成器基准测试
 
@@ -12801,6 +13004,8 @@
 
 * [xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) 一个现代编辑器，后端用 Rust 编写。
 
+* [dvorka/mindforger](https://github.com/dvorka/mindforger) 带有LLM的思考笔记本和 Markdown 编辑器。MindForger 是开放、免费、性能良好的 Markdown 编辑器/IDE，尊重您的隐私。MindForger 功能概述：开放、免费、集成 OpenAI GPT、知识管理器、Markdown 编辑器（数学、图表、图像、目录生成器）、大纲、拼写检查、Markdown IDE（多文档工作区、部分重构、克隆、范围和模板）、组织者（艾森豪威尔矩阵、看板）、知识图谱导航器、知识自动链接、边浏览边思考、边写边想、按名称/标签/文本/正则表达式查找、查找相似部分（关联）、标记、表情符号、清单、最近部分、外部部分编辑器、主题、国际化、导出（用于机器学习的 OHE 的 CSV、HTML）和导入 （TWiki）。
+
 * [judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial) IntelliJ IDEA 简体中文专题教程，对于语言开发学习者我是非常建议你使用 IntelliJ IDEA，因为一些代码格式、命名规范在 IntelliJ IDEA 下都是有良好的提示，对于我们所处的输入法下的中文全角符号也可以得到快速发现。
 
 * [atom/atom](https://github.com/atom/atom)  21 世纪的可破解文本编辑器，基于 Electron 构建，并基于我们喜欢的编辑器的一切。我们将其设计为可深度定制，但使用默认配置仍然可以使用。
@@ -12908,6 +13113,8 @@
 * [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) 专业的跨平台SSH/Sftp/Shell/Telnet/串口终端。
 
 * [tmuxinator/tmuxinator](https://github.com/tmuxinator/tmuxinator) 轻松管理复杂的 tmux 会话
+
+* [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) 适用于 Windows 的命令行安装程序。消除用户帐户控制 （UAC） 提示通知。隐藏向导样式安装程序的图形用户界面 （GUI）。防止污染 PATH 环境变量。通常，当设备上安装了不同的应用程序时，此变量会变得杂乱无章。避免安装和卸载应用程序时产生的意外副作用。自动解析并安装依赖项。执行所有必要的步骤，使应用进入工作状态。Scoop 对脚本非常友好。通过使用可重复的设置，您的环境可以变成您喜欢的样子。如果您构建了希望其他人使用的软件，Scoop 是构建安装程序（如 MSI 或 InnoSetup）的替代方法。您只需将应用压缩为.zip文件，并提供描述如何安装它的 JSON 清单。
 
 * [junegunn/fzf](https://github.com/junegunn/fzf) 通用的命令行模糊查找器。用于命令行的交互式 Unix 过滤器，可以与任何列表一起使用;文件、命令历史记录、进程、主机名、书签、git 提交等。
 
@@ -13022,6 +13229,8 @@
 * [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) 国内个人知识管理系统，支持细粒度块级引用和Markdown。
 
 ## 计算机编程 数据结构与算法
+
+* [HackerNews/API](https://github.com/HackerNews/API) Hacker News API 黑客新闻 API。通过与 Firebase 合作，我们以近乎实时的方式提供公开的 Hacker News 数据。借助 Firebase，您可以从 Android、iOS 和 Web 轻松访问。服务器不会被排除在外。如果您可以使用众多 Firebase 客户端库之一，那么您真的应该这样做。这些库可以有效地处理网络，并且可以在情况发生变化时引发事件。
 
 * [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) 免费提供的编程书籍
 
@@ -13246,6 +13455,8 @@
 
 * [pygame/pygame](https://github.com/pygame/pygame) 免费的开源 python 编程语言库，用于制作基于优秀 SDL 库构建的游戏等多媒体应用程序。C、Python、原生、OpenGL。
 
+* [PlayCover/PlayCover](https://github.com/PlayCover/PlayCover) 在支持鼠标、键盘和控制器的 Apple Silicon Mac 上运行 iOS 应用和游戏。旨在让您在运行 macOS 12.0 或更高版本的 Apple Silicon 设备上运行 iOS 应用程序和游戏。PlayCover 的工作原理是将应用程序放入模仿 iPad 的包装器中。这使应用程序能够在本地运行并表现得非常好。PlayCover 还允许您将自定义触摸控件映射到键盘，这在 Sideloadly 等其他侧载方法中是不可能的。这些控件包括所有必需品，包括 WASD、相机移动、左键和右键点击以及单独的键盘映射，类似于流行的 Android 模拟器的键盘映射系统，称为 Bluestacks。该软件最初设计用于在您的 Apple Silicon 设备上运行 Genshin Impact，但它现在可以运行各种应用程序。不幸的是，并非所有游戏都受支持，有些游戏可能有错误。
+
 * [Grimmys/rpg_tactical_fantasy_game](https://github.com/Grimmys/rpg_tactical_fantasy_game) pygame中的战术回合制游戏项目，开放支持
 
 * [GDQuest/godot-open-rpg](https://github.com/GDQuest/godot-open-rpg/tree/main) 通过这个开源 RPG 演示学习创建回合制战斗游戏
@@ -13355,6 +13566,8 @@
 * [colyseus/colyseus](https://github.com/colyseus/colyseus) 权威的 Node.js 多人游戏框架，其 SDK 可用于 Web、Unity、Defold、Haxe、Cocos 和 Construct3。该项目的重点是为实时和回合制游戏提供可同步的数据结构、匹配以及服务器端和客户端的易用性。
 
 * [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) 在网页中添加 Live2D 看板娘。兼容 PJAX，支持无刷新加载。
+
+* [PojavLauncherTeam/PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) 基于 Boardwalk 的 Minecraft： Java Edition Launcher for Android 和 iOS。此存储库包含 Android 平台的源代码。PojavLauncher 是一个启动器，可让您在 Android 设备上玩 Minecraft： Java Edition！它几乎可以运行Minecraft的所有版本，仅允许您使用.jar安装程序来安装Forge和Fabric等modloaders，OptiFine和LabyMod之类的mods，以及Wurst之类的黑客客户端等等！
 
 ## 其他
 
@@ -13935,5 +14148,9 @@
 * [daliansky/Hackintosh](https://github.com/daliansky/Hackintosh) 黑苹果操作系统 Hackintosh 长期维护模型 EFI 和安装教程
 
 * [nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator) Java，TypeScript / JavaScript，Python，Rust，C++，C中的高质量QR码生成器库。
+
+* [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) komorebi 是一个平铺窗口管理器，可作为 Microsoft 桌面窗口管理器在 Windows 10 及更高版本中的扩展。komorebi 允许您使用 CLI 控制应用程序窗口、虚拟工作区和显示监视器，CLI 可以与 whkd 和 AutoHotKey 等第三方软件一起使用，以设置用户定义的键盘快捷键。默认情况下，Komorebi 的目标是对操作系统和桌面环境进行尽可能少的修改。用户可以自由地在他们自己的 komorebi 配置文件中进行此类修改，但在可预见的未来，这些修改将保持选择加入和默认关闭状态。
+
+* [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) 字幕编辑器
 
 # end
