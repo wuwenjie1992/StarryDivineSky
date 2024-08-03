@@ -572,6 +572,8 @@
 
 * [antmachineintelligence/mtgbmcode](https://github.com/antmachineintelligence/mtgbmcode) 提出了多任务梯度提升机 (MT-GBM)，这是一种基于 GBDT 的多任务学习方法。MT-GBM 可以根据多任务损失找到共享树结构和拆分分支。
 
+* [parrt/dtreeviz](https://github.com/parrt/dtreeviz) 用于决策树可视化和模型解释的 python 库。决策树是梯度提升机和随机森林 （tm） 的基本构建块，这可能是结构化数据中两种最流行的机器学习模型。在了解这些模型的工作原理和解释模型时，可视化决策树是一个巨大的帮助。可视化效果的灵感来自 R2D3 的教育动画;机器学习的视觉介绍。请参阅如何可视化决策树，以更深入地讨论我们的决策树可视化库和我们所做的可视化设计决策。目前 dtreeviz 支持：scikit-learn、XGBoost、Spark MLlib、LightGBM 和 Tensorflow。作者：特伦斯·帕尔 （Terence Parr） 是谷歌的技术主管，直到 2022 年，他是旧金山大学的数据科学/计算机科学教授，并于 2012 年担任旧金山大学数据科学硕士课程的创始主任。Tudor Lapusan ；Prince Grover。主要代码和可视化清理由 Matthew Epland （@mepland） 完成。
+
 ## 神经网络结构搜索 Neural Architecture Search
 
 * [huawei-noah/CARS](https://github.com/huawei-noah/CARS) 华为提出基于进化算法和权值共享的神经网络结构搜索
@@ -944,6 +946,14 @@
 
 * [zenml-io/zenml](https://github.com/zenml-io/zenml) 构建可移植、生产就绪的 MLOps 管道。ZenML 是一个 MLOps 框架，适用于希望标准化机器学习实践的数据科学家或 ML 工程师。只需将@step和@pipeline添加到现有的 Python 函数中即可开始使用。轻松预配 MLOps 堆栈或重用现有基础架构：该框架是从业者构建复杂 ML 管道的温和切入点，几乎不需要了解底层基础设施的复杂性。ZenML 管道可以在 AWS、GCP、Azure、Airflow、Kubeflow 甚至 Kubernetes 上运行，而无需更改任何代码或了解底层内部结构。ZenML提供了不同的功能，可以帮助人们在远程环境中快速上手。如果要在所选云提供商上从头开始部署远程堆栈，可以通过仪表板使用一键式部署功能。在生产基础架构上轻松运行工作负载：配置 MLOps 堆栈后，可以轻松地在其上运行工作负载；跟踪模型、管道和工件：创建生成人员、地点以及生成数据和模型的完整谱系，您将能够找出谁在什么时间生成了哪个模型，使用哪些数据以及代码的哪个版本。这保证了完全的可重复性和可审计性。专为机器学习而构建，可集成到您喜爱的工具中：虽然 ZenML 带来了很多盒子的价值，但它也可以集成到您现有的工具和基础设施中，而您不必被锁定。
 
+* [deepchecks/deepchecks](https://github.com/deepchecks/deepchecks) Deepchecks：用于持续验证ML模型和数据的测试。Deepchecks 是一个整体的开源解决方案，可满足您所有的 AI 和 ML 验证需求，能够彻底测试您的数据和模型，从研究到生产。Deepchecks 是一个全面的开源解决方案，可满足您所有的 AI 和 ML 验证需求，使您能够彻底测试从研究到生产的数据和模型。Deepchecks的核心包括各种内置检查，用于测试所有类型的数据和模型相关问题。这些检查针对各种模型和数据类型（表格、NLP、视觉）实现，并且可以轻松自定义和扩展。检查结果可用于自动对模型的生产准备情况做出明智的决策，并在生产中随时间推移对其进行监控。检查结果可以通过可视化报告进行检查（通过将它们保存到 HTML 文件，或在 Jupyter 中查看它们），使用代码进行处理（使用其 pythonic / json 输出），并使用 Deepchecks 的动态 UI 进行检查和协作（用于检查测试结果和生产监控）。
+
+* [instill-ai/instill-core](https://github.com/instill-ai/instill-core) Inthrow Core 是一款用于数据、模型和管道编排的全栈 AI 基础设施工具，旨在简化构建多功能 AI 优先应用程序的各个方面。访问 Instill Core 很简单，无论您是选择 ☁️ Instill、Cloud 还是通过 instill-core 存储库进行自托管。
+
+* [whylabs/whylogs](https://github.com/whylabs/whylogs) 用于机器学习模型和数据管道的开源数据记录库。提供对数据质量和模型性能随时间变化的可见性。支持隐私保护数据收集，确保安全性和稳健性。
+
+* [zetane/viewer](https://github.com/zetane/viewer) 免费的 Zetane Viewer 是一款帮助理解和加速机器学习和人工神经网络发现的工具。它可以通过可视化和理解模型的架构和内部数据（特征图、权重、偏差和层输出张量）来打开 AI 黑匣子。它可以被认为是一种工具，用于对人工神经网络和机器学习算法进行神经成像或脑成像。您还可以使用 Zetane Python API 通过几个命令直接从现有脚本或笔记本启动您自己的 Zetane 工作区。
+
 # NLP自然语言处理
 
 ## Transformer库与优化
@@ -1096,6 +1106,8 @@
 * [volcengine/veGiantModel](https://github.com/volcengine/veGiantModel) 字节跳动应用ML团队的基于torch的高效训练库。 使巨型模型（例如GPT、BERT和T5）训练变得简单高效。 建立在 Megatron 和 DeepSpeed 之上，通过集成高效通信库BytePs并提供定制的管道分区来提高通信效率。
 
 * [extreme-bert/extreme-bert](https://github.com/extreme-bert/extreme-bert) 可加速 BERT 在自定义数据集上的预训练和微调。
+
+* [allenai/scibert](https://github.com/allenai/scibert) 在科学文本上训练的 BERT 模型。SciBERT 接受过 semanticscholar.org 语料库中的论文培训。语料库大小为1.14M论文，3.1B词元。我们在培训中使用论文的全文，而不仅仅是摘要。SciBERT 有自己的词汇表（scivocab），旨在与训练语料库最匹配。我们训练了有大小写和无大小写的版本。我们还纳入了在原始 BERT 词汇表（basevocab）上训练的模型进行比较。它在广泛的科学领域 nlp 任务上实现了最先进的性能。评估的细节在论文中。评估代码和数据包含在此存储库中。
 
 ## 预训练模型
 
@@ -1278,6 +1290,8 @@
 * [facebookresearch/llama](https://github.com/facebookresearch/llama) facebook LLaMA 模型的推理代码。最新版本的 Llama 现在可供各种规模的个人、创作者、研究人员和企业访问，以便他们可以负责任地进行实验、创新和扩展他们的想法。
 
 * [facebookresearch/llama-recipes](https://github.com/facebookresearch/llama-recipes) facebook LLaMA 模型的示例和手册
+
+* [THUDM/GLM-4](https://github.com/THUDM/GLM-4) GLM-4-9B 是智谱 AI 推出的最新一代预训练模型 GLM-4 系列中的开源版本。 在语义、数学、推理、代码和知识等多方面的数据集测评中， GLM-4-9B 及其人类偏好对齐的版本 GLM-4-9B-Chat 均表现出超越 Llama-3-8B 的卓越性能。除了能进行多轮对话，GLM-4-9B-Chat 还具备网页浏览、代码执行、自定义工具调用（Function Call）和长文本推理（支持最大 128K 上下文）等高级功能。本代模型增加了多语言支持，支持包括日语，韩语，德语在内的 26 种语言。我们还推出了支持 1M 上下文长度（约 200 万中文字符）的 GLM-4-9B-Chat-1M 模型和基于 GLM-4-9B 的多模态模型 GLM-4V-9B。GLM-4V-9B 具备 1120 * 1120 高分辨率下的中英双语多轮对话能力，在中英文综合能力、感知推理、文字识别、图表理解等多方面多模态评测中，GLM-4V-9B 表现出超越 GPT-4-turbo-2024-04-09、Gemini 1.0 Pro、Qwen-VL-Max 和 Claude 3 Opus 的卓越性能。
 
 * [THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3) ChatGLM3 系列中的开源模型，在保留了前两代模型对话流畅、部署门槛低等众多优秀特性的基础上，ChatGLM3-6B 引入了如下特性：更强大的基础模型： ChatGLM3-6B 的基础模型 ChatGLM3-6B-Base 采用了更多样的训练数据、更充分的训练步数和更合理的训练策略。在语义、数学、推理、代码、知识等不同角度的数据集上测评显示，ChatGLM3-6B-Base 具有在 10B 以下的基础模型中最强的性能。更完整的功能支持： ChatGLM3-6B 采用了全新设计的 Prompt 格式，除正常的多轮对话外。同时原生支持工具调用（Function Call）、代码执行（Code Interpreter）和 Agent 任务等复杂场景。更全面的开源序列： 除了对话模型 ChatGLM3-6B 外，还开源了基础模型 ChatGLM3-6B-Base、长文本对话模型 ChatGLM3-6B-32K。以上所有权重对学术研究完全开放，在填写问卷进行登记后亦允许免费商业使用。
 
@@ -2502,7 +2516,7 @@
 
 * [exo-explore/exo](https://github.com/exo-explore/exo) 在家中使用日常设备运行自己的 AI 集群。忘记昂贵的 NVIDIA GPU，将现有设备统一到一个强大的 GPU 中：iPhone、iPad、Android、Mac、Linux，几乎任何设备！特征：广泛的模型支持，exo支持LLaMA（MLX和tinygrad）等热门型号。动态模型分区，EXO 根据当前网络拓扑和可用设备资源对模型进行最佳拆分。这使您能够运行比在任何单个设备上更大的模型。自动设备发现，EXO 将使用可用的最佳方法自动发现其他设备。零手动配置。ChatGPT 兼容 API，exo 提供了一个与 ChatGPT 兼容的 API，用于运行模型，只需在您的应用程序中进行一行更改，即可使用 exo 在您自己的硬件上运行模型。设备平等，与其他分布式推理框架不同，exo 不使用 master-worker 架构，exo 设备连接 p2p，只要设备连接到网络中的某个位置，它就可以用于运行模型,Exo支持不同的分区策略，可以在设备之间分割模型，默认的分区策略是环形内存加权分区，这将在一个环中运行推理，其中每个设备运行与设备内存成正比的多个模型层。
 
-* [multimodal-art-projection/MAP-NEO](https://github.com/multimodal-art-projection/MAP-NEO) MAP-NEO 是一个完全开源的大型语言模型，包括预训练数据、数据处理管道 （Matrix）、预训练脚本和对齐代码。它在 4.5T 中英文代币上从头开始训练，表现出与 LLaMA2 7B 相当的性能。MAP-Neo 模型在推理、数学和编码等具有挑战性的任务中提供类似专有模型的性能，优于同等规模的同类产品。出于研究目的，我们的目标是在LLM培训过程中实现完全透明。为此，我们全面发布了 MAP-Neo，包括最终和中间检查点、自训练标记器、预训练语料库，以及高效、稳定优化的预训练代码库。
+* [multimodal-art-projection/MAP-NEO](https://github.com/multimodal-art-projection/MAP-NEO) MAP-NEO 是一个完全开源的大型语言模型，包括预训练数据、数据处理管道 （Matrix）、预训练脚本和对齐代码。它在 4.5T 中英文词元上从头开始训练，表现出与 LLaMA2 7B 相当的性能。MAP-Neo 模型在推理、数学和编码等具有挑战性的任务中提供类似专有模型的性能，优于同等规模的同类产品。出于研究目的，我们的目标是在LLM培训过程中实现完全透明。为此，我们全面发布了 MAP-Neo，包括最终和中间检查点、自训练标记器、预训练语料库，以及高效、稳定优化的预训练代码库。
 
 * [miurla/morphic](https://github.com/miurla/morphic) 具有生成式 UI 的 AI 驱动的搜索引擎。特征：使用 GenerativeUI 进行搜索和回答；理解用户的问题；搜索历史功能；共享搜索结果（可选）；视频搜索支持（可选）；从指定的 URL 获取答案；用作搜索引擎 ；支持 OpenAI 以外的提供商；指定模型以生成答案；Groq API支持
 
@@ -2515,6 +2529,12 @@
 * [ridgerchu/matmulfreellm](https://github.com/ridgerchu/matmulfreellm) 实现无 MatMul LM。MatMul-Free LM 是一种语言模型架构，无需矩阵乘法 （MatMul） 运算。此存储库提供了与 🤗 Transformers 库兼容的 MatMul-Free LM 实现。我们评估了缩放定律如何拟合 Transformer++ 和我们的模型中的 370M、1.3B 和 2.7B 参数模型。为了公平比较，每个操作的处理方式相同，尽管我们的模型在某些层中使用了更有效的三元权重。有趣的是，与 Transformer++ 相比，我们模型的缩放投影表现出更陡峭的下降，这表明我们的架构在利用额外计算来提高性能方面更有效。
 
 * [Nutlope/turboseek](https://github.com/Nutlope/turboseek) 受 Perplexity 启发的 AI 搜索引擎，由 Together.ai 提供支持。技术栈：带有 Tailwind 的Next.js应用路由器；共同使用 AI 进行LLM推理；Mixtral 8x7B 和 Llama-3 用于LLMs；用于搜索 API 的 Bing；适用于网站分析。运作方式：回答用户的问题；向必应搜索 API 发出请求，以查找前 6 个结果并显示它们；从 bing 发回的 6 个链接中抓取文本，并将其存储为上下文；向 Mixtral-8x7B 发出请求，其中包含用户的问题 + 上下文，并将其流回给用户；再次向 Llama-3-8B 提出 3 个相关问题，用户可以跟进。
+
+* [CarperAI/trlx](https://github.com/CarperAI/trlx) trlX 是一个分布式训练框架，从头开始设计，专注于使用提供的奖励函数或奖励标记数据集进行强化学习，从而微调大型语言模型。Accelerate 支持的培训器为 Hugging Face 模型提供训练支持🤗，允许用户微调多达 20B 参数的因果和基于 T5 的语言模型，例如 facebook/opt-6.7b、EleutherAI/gpt-neox-20b 和 google/flan-t5-xxl。对于超过 20B 参数的模型， trlX 提供 NVIDIA NeMo 支持的训练器，这些训练器利用高效的并行技术来有效地扩展。
+
+* [Deeptrain-Community/chatnio](https://github.com/Deeptrain-Community/chatnio) 下一代 AI 一站式 B/C 端解决方案，支持 OpenAI，Midjourney，Claude，讯飞星火，Stable Diffusion，DALL·E，ChatGLM，通义千问，腾讯混元，360 智脑，百川 AI，火山方舟，新必应，Gemini，Moonshot 等模型，支持对话分享，自定义预设，云端同步，模型市场，支持弹性计费和订阅计划模式，支持图片解析，支持联网搜索，支持模型缓存，丰富美观的后台管理与仪表盘数据统计。支持 OpenAI 格式中转, 自研渠道均衡负载和分配算法, 兼容多种模型格式, 支持多渠道管理 (优先级/权重/用户分组/模型映射/状态管理), 支持内置渠道重试 (支持自定义渠道重试次数), 内置上游隐藏。强大 Markdown 语法支持 (支持 代码高亮 / LaTeX 公式 / Mermaid 思维导图 / 图表绘制), 支持对话云端同步, 支持分享对话, 支持对话保存为图片 (携带站点 Logo 等信息), 支持分享管理和站点直链分享对话, 支持集成绘图模型 (DALL-E / Stable Diffusion / Midjourney 等), 支持 Midjourney U/V/R 操作。开箱即用的文档解析服务, 支持 Pdf / Docx / Pptx / Xlsx / 音频 / 图片等文件类型解析, 支持多种图片存储方案 (Base64 / Local / AWS S3 / Cloudflare R2 / 腾讯云 COS / 阿里云 OSS / MinIO / Telegram CDN 等), 同时支持 OCR 图片识别 (基于开源 PaddleOCR 支持私有化部署)。支持多种计费方式 (不计费 / 次数 / Token 计费), 支持设置允许模型, 支持快速导入内置价格模板 (可自定义汇率)或同步上游价格设定, 同时在弹性计费基础上支持订阅计划 (支持订阅计划自定义配额 / 计划分层 / 升降级 / 折扣设定), 支持设置订阅配额图表设置, 支持快速导入其他级别订阅, 支持同步上游订阅设置。支持完备兑换码体系, 支持设置数量和点数, 支持批量生成和兑换码管理, 支持礼品码/兑换码类型 (礼品码一种礼品码类型一个用户只能使用一次可用于福利发放, 兑换码一种兑换码类型一个用户可以使用多次可用于发卡和兑换商品), 支持礼品码查看领取用户 / 创建时间 / 领取时间等信息。丰富的模型市场功能, 支持自定义模型名称, 模型 Logo, 模型标签 (如官方/绘图/高定价/高质量/多模态等), 自动绑定价格设定中的模型价格, 支持设置默认列表显示模型, 支持顺序拖拽自定义排序, 支持设置是否为高上下文 (搭配文件解析服务实现非高上下文模型的内容切割), 使用户可以更好的了解模型的特性。支持系统 / 自定义预设, 云端同步, 支持搜索预设, 支持预设管理, 支持预设克隆, 支持设置预设图像 / 简介 / 上下文角色消息。支持同一请求入参的缓存, 支持设置自定义缓存可能性大小 (同一入参的最大缓存结果数量, 防止多次请求返回相同结果), 支持设置缓存过期时间 (缓存结果的有效时间)。支持 SearXNG 开源搜索引擎联网搜索, 支持 Google / Bing / DuckDuckGo / Yahoo / WikiPedia / Arxiv / Qwant 等数十种搜索引擎搜索, 支持安全搜索模式, 内容截断, 图片代理, 测试搜索可用性等功能。 (支持全部模型 & 模型无需支持 function calling)。支持 Web / PWA / App 三端, UI 移动端适配, 支持明暗主题切换, 国际化支持 (多语言切换)，支持 Windows / MacOS / Linux / Android / iOS App。内置 SEO 优化, 支持自定义站点 Logo / 站点名称 / 页脚 / 联系方式等, 支持设置用户初始点数, 支持站点公告 / 通知功能, 支持设置 SMTP 发件。
+
+* [stanford-crfm/helm](https://github.com/stanford-crfm/helm) 语言模型整体评估 （HELM），一个提高语言模型透明度的框架 （https://arxiv.org/abs/2211.09110）。该框架还用于在文本到图像模型的整体评估 （HEIM） （https://arxiv.org/abs/2311.04287） 中评估文本到图像模型。
 
 #### 编程语言大模型及相关项目
 
@@ -2545,6 +2565,8 @@
 * [salesforce/CodeGen](https://github.com/salesforce/CodeGen) 一系列用于程序合成的开源模型。接受过 TPU-v4 训练。与 OpenAI Codex 竞争。
 
 * [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) 使用GPT 帮助开发人员将构建应用的速度提高 20 倍
+
+* [deepseek-ai/DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2) 开源的专家混合 （MoE） 代码语言模型，在特定代码任务中实现了与 GPT4-Turbo 相当的性能。具体来说，DeepSeek-Coder-V2 从 DeepSeek-V2 的中间检查点进一步预训练，并增加了 6 万亿个令牌。通过这种持续的预训练，DeepSeek-Coder-V2 大大增强了 DeepSeek-V2 的编码和数学推理能力，同时在一般语言任务中保持了相当的性能。与 DeepSeek-Coder-33B 相比，DeepSeek-Coder-V2 在与代码相关的任务的各个方面以及推理和通用功能方面都取得了重大进步。此外，DeepSeek-Coder-V2 将其对编程语言的支持从 86 扩展到 338，同时将上下文长度从 16K 扩展到 128K。
 
 * [codefuse-ai/MFTCoder](https://github.com/codefuse-ai/MFTCoder) CodeFuse 的一个开源项目，用于多任务处理 Code-LLM（代码任务的大型语言模型），其中包括模型、数据集、训练代码库和推理指南。
 
@@ -3212,17 +3234,7 @@
 
 * [OpenGVLab/InternVL](https://github.com/OpenGVLab/InternVL) InternVL 系列：GPT-4o 的开创性开源替代品。接近GPT-4o表现的可商用开源多模态对话模型。InternVL 1.5，这是一种开源多模态大型语言模型 （MLLM），旨在弥合开源和专有商业模型在多模态理解方面的能力差距。我们介绍三种简单的设计：强视觉编码器：我们探索了一种针对大规模视觉基础模型的持续学习策略——InternViT-6B，提升其视觉理解能力，使其可以在不同的LLMs环境中转移和复用。动态高分辨率：我们根据输入图像的纵横比和分辨率，将图像划分为 1 到 40 的 448 × 448 像素的瓦片，最高支持 4K 分辨率输入。高质量的双语数据集：我们精心收集了一个高质量的双语数据集，涵盖了常见场景、文档图像，并用中英文问答对进行标注，显著提高了OCR和中文相关任务的性能。
 
-* []() 
-
-* []() 
-
-* []() 
-
-* []() 
-
-* []() 
-
-* []() 
+* [liou666/polyglot](https://github.com/liou666/polyglot) 一款跨平台的桌面端应用程序（目前已支持web版本）。基于ChatGPT和Azure人工智能语言模型作为底层服务，旨在提供一个易于使用的语言练习平台，方便进行多语种的口语练习。 
 
 ### 其他_文本生成、文本对话
 
@@ -3352,6 +3364,8 @@
 
 * [huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) 文本嵌入模型的超快速推理解决方案（rust）
 
+* [netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding) 网易有道为RAG产品提供的开源嵌入和重新排序模型。由网易有道开发的中英文 B ilingual 和 Crosslingual Embedding（BCEmbedding）包括 EmbeddingModel 和 RerankerModel。EmbeddingModel 专门用于生成语义向量，在语义搜索和问答中起着至关重要的作用，而 RerankerModel 擅长优化搜索结果和排名任务。BCEmbedding 是有道检索增强生成 （RAG） 实现的基石，特别是 QAnything，这是一个开源实现，广泛集成到有道速读和有道翻译等各种有道产品中。BCEmbedding以其双语和跨语言能力而著称，在弥合中英文语言鸿沟方面表现出色，实现了在MTEB的语义表示评估中表现出色;LlamaIndex 中 RAG 评估领域的新基准。为 RAG 社区提供双语跨语言的两阶段检索模型仓库，无需微调即可直接使用，包括 EmbeddingModel 和 RerankerModel：一种模式：EmbeddingModel处理中英文双语和跨语言检索任务。RerankerModel 支持英语、中文、日语和韩语。一种模式：通过RAG优化覆盖常见的业务应用场景。例如教育、医疗场景、法律、金融、文学、常见问题解答、教科书、维基百科、一般对话。易于集成：我们在 BCEmbedding 中提供 API，用于 LlamaIndex 和 LangChain 集成。其他要点：RerankerModel 支持长段落（超过 512 个词元，少于 32k 个词元）重新排名;RerankerModel 提供有意义的相关性分数，有助于删除低质量的段落。
+
 * [autoliuweijie/BERT-whitening-pytorch](https://github.com/autoliuweijie/BERT-whitening-pytorch) Pytorch version of BERT-whitening
 
 * [nilboy/gaic_track3_pair_sim](https://github.com/nilboy/gaic_track3_pair_sim) 短文本语义匹配，2021年全球人工智能技术创新大赛-赛道三-冠军方案
@@ -3425,6 +3439,8 @@
 * [PaddlePaddle/RocketQA](https://github.com/PaddlePaddle/RocketQA) 信息检索和问答的密集检索，包括中英文最先进的模型。
 
 ## 知识图谱问答KBQA、多跳推理
+
+* [BinNong/meet-libai](https://github.com/BinNong/meet-libai) 通过大模型构建李白知识图谱，结合大模型训练出专业的AI智能体，以生成式对话应用的形式，推动李白文化的普及与推广。
 
 * [RUCAIBox/KBQAPapers](https://github.com/RUCAIBox/KBQAPapers) 知识图谱问答KBQA论文集
 
@@ -6390,7 +6406,7 @@
 
 * [Budibase/budibase](https://github.com/Budibase/budibase) 用于在几分钟内创建内部工具、工作流和管理面板的低代码平台。支持 PostgreSQL、MySQL、MSSQL、MongoDB、Rest API、Docker、K8s 等
 
-* [n8n-io/n8n](https://github.com/n8n-io/n8n) 免费和源代码可用的公平代码许可的工作流自动化工具。跨不同服务轻松自动执行任务。
+* [n8n-io/n8n](https://github.com/n8n-io/n8n) 免费和源代码可用的公平代码许可的工作流自动化工具。跨不同服务轻松自动执行任务。N8n 是一个可扩展的工作流程自动化工具。通过公平代码分发模型，n8n 将始终具有可见的源代码，可用于自托管，并允许您添加自己的自定义函数、逻辑和应用程序。 n8n 基于节点的方法使其具有高度的通用性，使您能够将任何东西连接到所有东西。N8n 有 200+ 个不同的节点来自动化工作流程。使用 n8n 的 LangChain 节点，您可以在工作流程中构建 AI 驱动的功能。LangChain节点是可配置的，这意味着您可以选择您喜欢的代理、LLM内存等。除了LangChain节点，您还可以像往常一样连接任何n8n节点：这意味着您可以将LangChain逻辑与其他数据源和服务集成。
 
 * [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) 一次编写组件，到处运行。编译为 React、Vue、Qwik、Solid、Angular、Svelte 等
 
@@ -7500,6 +7516,8 @@
 
 * [breezedeus/cnocr](https://github.com/breezedeus/cnocr) cnocr
 
+* [alibabaresearch/advancedliteratemachinery](https://github.com/alibabaresearch/advancedliteratemachinery) 一系列原创的、创新的想法和算法，旨在实现先进的识字机械。该项目由阿里巴巴集团通益实验室语言技术实验室的OCR团队进行维护。我们研究的最终目标是建立一个具有高级智能的系统，即拥有阅读、思考和创造的能力，这些能力如此先进，以至于在未来的某一天甚至可能超过人类的智力。我们将这种系统命名为高级识字机械（ALM）。首先，我们目前专注于教机器从图像和文档中读取。在未来的岁月里，我们将探索赋予机器思考和创造的智力能力的可能性，赶上并超越GPT-4和GPT-4V。
+
 * [naptha/tesseract.js](https://github.com/naptha/tesseract.js) 支持 100 多种语言的纯 Javascript OCR
 
 * [JiaquanYe/MASTER-mmocr](https://github.com/JiaquanYe/MASTER-mmocr) 本项目是 MMOCR 对 MASTER: Multi-Aspect Non-local Network for Scene Text Recognition （场景文本识别）的重新实现。
@@ -7714,6 +7732,8 @@
 
 * [mlfoundations/open_flamingo](https://github.com/mlfoundations/open_flamingo) 用于训练大型多模态模型的开源框架。DeepMind Flamingo模型的开源版本。提供了用于训练和评估模型的PyTorch 实现。还提供了在新的多模式 C4 数据集上训练的初始 9B 模型。
 
+* [https://github.com/SoraWebui/SoraWebui](https://github.com/SoraWebui/SoraWebui) SoraWebui 是一个开源的 Sora Web 客户端，使用户能够使用 OpenAI 的 Sora 模型轻松地从文本创建视频。简化视频创建，具有简单的一键式网站部署功能。使用SoraWebui，任何人都可以通过简单地输入文本来创建视频，使其成为视频制作和AI技术的专业人士和爱好者的可访问工具。
+
 * [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 利用AI大模型，一键生成高清短视频。只需提供一个视频主题或 关键词 ，就可以全自动生成视频文案、视频素材、视频字幕、视频背景音乐，然后合成一个高清的短视频。功能特性：完整的MVC架构，代码 结构清晰，易于维护，支持API和Web界面； 支持视频文案 AI自动生成，也可以自定义文案； 支持多种高清视频尺寸； 竖屏 9:16，1080x1920、 横屏 16:9，1920x1080； 支持 批量视频生成，可以一次生成多个视频，然后选择一个最满意的； 支持 视频片段时长 设置，方便调节素材切换频率； 支持中文和英文视频文案； 支持 多种语音 合成，可实时试听效果； 支持 字幕生成，可以调整；字体、位置、颜色、大小，同时支持字幕描边设置； 支持 背景音乐，随机或者指定音乐文件，可设置背景音乐音量； 视频素材来源 高清，而且 无版权，也可以使用自己的 本地素材； 支持 OpenAI、Moonshot、Azure、gpt4free、one-api、通义千问、Google Gemini、Ollama、 DeepSeek、 文心一言 等多种模型接入；中国用户建议使用 DeepSeek 或 Moonshot 作为大模型提供商。
 
 * [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA) 面向多模态 GPT-4 级别功能构建的大型语言和视觉助手。
@@ -7769,6 +7789,12 @@
 * [OpenMOSS/AnyGPT](https://github.com/OpenMOSS/AnyGPT) 一种任意对任意的多模态语言模型，它利用离散表示来统一处理各种模态，包括语音、文本、图像和音乐。基本模型对齐了四种模态，允许在不同模态和文本之间进行多模态转换。此外，我们构建了基于各种生成模型的 AnyInstruct 数据集，其中包含任意模态互换的指令。在这个数据集上训练，我们的聊天模型可以进行自由的多模态对话，其中可以随意插入多模态数据。AnyGPT 提出了一种生成训练方案，该方案将所有模态数据转换为统一的离散表示，使用 Next Token Prediction 任务在大型语言模型 （LLM） 上进行统一训练。从“压缩就是智能”的角度来看：当 Tokenizer 的质量足够高，而 Tokenizer 的困惑度 （PPL） LLM 足够低时，就可以将互联网上的大量多模态数据压缩到同一个模型中，从而涌现出纯文本中LLM不存在的功能。
 
 * [SHI-Labs/CuMo](https://github.com/SHI-Labs/CuMo) LLM通过共同升级再造的专家组合扩展多模式。将 Co-upcycled Top-K 稀疏门控专家混合模块整合到视觉编码器和 MLP 连接器中，从而增强了多模态的能力LLMs。我们进一步采用辅助损失的三阶段培训方法，以稳定培训过程并保持专家的平衡负载。CuMo 在开源数据集上进行了专门训练，LLMs并在多个 VQA 和可视化指令跟踪基准上实现了与其他最先进的多模态相当的性能。
+
+* [Luodian/Otter](https://github.com/Luodian/Otter) 基于 OpenFlamingo（DeepMind 的 Flamingo 的开源版本）的多模态模型，在 MIMIC-IT 上进行了训练，并展示了改进的指令遵循和上下文学习能力。
+
+* [baaivision/Emu](https://github.com/baaivision/Emu) BAAI的生成式多模态模型，人类在上下文中轻松解决多模态任务的能力（即，只需一些演示或简单的指令），是当前的多模态系统在很大程度上难以模仿的。在这项工作中，我们证明了大型多模态模型的任务无关的上下文学习能力可以通过有效的扩展得到显着增强。我们引入了 Emu2，这是一个具有 370 亿个参数的生成多模态模型，在具有统一自回归目标的大规模多模态序列上进行训练。Emu2 表现出强大的多模态上下文学习能力，甚至可以解决需要即时推理的任务，例如视觉提示和基于对象的生成。该模型在少样本设置下的多个多模态理解任务上创造了新纪录。当指令调整为遵循特定指令时，Emu2 在具有挑战性的任务上进一步实现了新的最先进的技术，例如大型多模态模型的问答基准和开放式主题驱动的生成。这些成就表明，Emu2可以作为各种多模态任务的基础模型和通用接口。
+
+* [NVlabs/VILA](https://github.com/NVlabs/VILA) VILA - 一种具有训练、推理和评估配方的多图像视觉语言模型，可从云部署到边缘（Jetson Orin 和笔记本电脑）。VILA 是一种视觉语言模型 （VLM），使用大规模交错的图文数据进行预训练，可实现视频理解和多图像理解能力。VILA 可通过 AWQ 4bit 量化和 TinyChat 框架在边缘部署。我们发现：（1）图文对是不够的，交错的图文是必不可少的;（2）交错图文预训练中的解冻LLM使上下文学习成为可能;（3）重新混合纯文本指令数据对于提高VLM和纯文本性能至关重要;（4） 令牌压缩扩展 #video 帧。VILA展示了吸引人的功能，包括：视频推理、上下文学习、视觉思维链和更好的世界知识。
 
 ## 其他_机器视觉
 
@@ -7832,9 +7858,19 @@
 
 * [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) 在 Apple 芯片上使用 Core ML 实现稳定扩散
 
+* [3DTopia/LGM](https://github.com/3DTopia/LGM) 用于高分辨率 3D 内容创建的大型多视图高斯模型。推理大约需要 10GB GPU 内存（加载所有 imagedream、mvdream 和我们的 LGM）。
+
+* [geekyutao/Inpaint-Anything](https://github.com/geekyutao/Inpaint-Anything) 使用 Segment Anything 和 inpainting 模型绘制任何内容。用户可以通过单击来选择图像中的任何对象。凭借强大的视觉模型，例如 SAM、LaMa 和稳定扩散 （SD），Inpaint Anything 能够顺利地去除物体（即去除任何东西）。此外，在用户输入文本的提示下，Inpaint Anything 可以用任何所需的内容填充对象（即 Fill Anything）或任意替换它的背景（即 Replace Anything）。
+
 * [divamgupta/diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) 适用于 MacOS 的Stable Diffusion GUI 应用程序
 
+* [luosiallen/latent-consistency-model](https://github.com/luosiallen/latent-consistency-model) 潜在一致性模型：使用几步推理合成高分辨率图像。
+
+* [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) 享受 Diffusion 模型的魔力！DiffSynth Studio 是一个扩散引擎。我们重组了包括 Text Encoder、UNet、VAE 等在内的架构，保持了与开源社区模型的兼容性，同时提高了计算性能。我们提供了许多有趣的功能。享受 Diffusion 模型的魔力！到目前为止，DiffSynth Studio 支持以下模型：ExVideo，Kolors，Stable Diffusion 3，Stable Video Diffusion，Hunyuan-DiT，RIFE，ESRGAN，Ip-Adapter，AnimateDiff，ControlNet，Stable Diffusion XL，Stable Diffusion
+
 * [cbh123/emoji](https://github.com/cbh123/emoji) 使用 AI 为 Slack 制作表情符号
+
+* [ali-vilab/VGen](https://github.com/ali-vilab/VGen) VGen是由阿里巴巴集团同义实验室开发的开源视频合成代码库，采用最先进的视频生成模型。此存储库包括以下方法的实现：I2VGen-xl：通过级联扩散模型实现高质量图像到视频合成；VideoComposer：具有运动可控性的合成视频合成；面向文本转视频生成的分层时空解耦；使用无文本视频扩大文本到视频生成的秘诀；InstructVideo：使用人工反馈指导视频扩散模型；DreamVideo：使用自定义主题和动作组成您的梦想视频；VideoLCM：视频潜在一致性模型；Modelscope文字转视频技术报告。VGen 可以从输入文本、图像、所需的运动、所需的主题甚至提供的反馈信号中生成高质量的视频。它还提供了各种常用的视频生成工具，例如可视化、采样、训练、推理、使用图像和视频的联接训练、加速等。
 
 * [OpenAI/CLIP](https://github.com/OpenAI/CLIP) 对比语言图像预训练
 
@@ -8320,6 +8356,10 @@
 
 * [darktable-org/darktable](https://github.com/darktable-org/darktable) Darktable 是一个开源摄影工作流程应用程序和 RAW 开发人员。Darktable 是一个开源摄影工作流程应用程序和非破坏性 RAW 开发人员 - 摄影师的虚拟 LightTable 和暗室。它在数据库中管理您的数字底片，让您可以通过可缩放的光照表查看它们，并使您能够开发原始图像、增强它们并将它们导出到本地或远程存储。darktable 不是免费的 Adobe® Lightroom® 替代品。
 
+* [roboflow/inference](https://github.com/roboflow/inference) 用于计算机视觉的快速、易于使用、生产就绪的推理服务器，支持许多流行的模型架构和微调模型的部署。Roboflow Inference 是一个开源平台，旨在简化计算机视觉模型的部署。它使开发人员能够执行对象检测、分类和实例分割，并通过 Python 原生包、自托管推理服务器或完全托管的 API 利用 CLIP、Segment Anything 和 YOLO-World 等基础模型。
+
+* [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer) 在浏览器中可视化和探索 3D 模型的解决方案。在线 3D 查看器 （https://3dviewer.net） 是一种免费的开源 Web 解决方案。
+
 # 因果推断
 
 * [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -8463,6 +8503,12 @@
 * [jdb78/pytorch-forecasting](https://github.com/jdb78/pytorch-forecasting) pytorch的时间系列预测库，模型包括：RecurrentNetwork、DecoderMLP、NBeats 、DeepAR 、TemporalFusionTransformer。
 
 * [qingsongedu/time-series-transformers-review](https://github.com/qingsongedu/time-series-transformers-review) 专业策划的关于时间序列的变压器的很棒的资源（论文、代码、数据等）列表。
+
+* [Nixtla/statsforecast](https://github.com/Nixtla/statsforecast) 使用统计和计量经济学模型进行闪电般的快速预测。StatsForecast 提供了一系列广泛使用的单变量时间序列预测模型，包括自动 ARIMA、ETS、CES 和 Theta 建模，这些建模针对使用 numba 的高性能进行了优化。它还包括大量基准测试模型。目前用于统计模型的 Python 替代方案速度慢、不准确且扩展性不佳。因此，我们创建了一个库，可用于在生产环境中进行预测或作为基准测试。StatsForecast 包括大量的模型，可以有效地拟合数百万个时间序列。
+
+* [google-research/timesfm](https://github.com/google-research/timesfm) TimesFM（时间序列基础模型）是由 Google Research 开发的用于时间序列预测的预训练时间序列基础模型。TimesFM-1.0-200M是第一个开放模型检查点：它使用可选的频率指示器，对多达 512 个时间点和任何地平线长度的上下文长度执行单变量时间序列预测；它侧重于点预测，不支持概率预测，我们通过实验提供了分位数头，但它们在预训练后尚未校准；它要求上下文是连续的（即没有“洞”），并且上下文和视界具有相同的频率。
+
+* [Nixtla/nixtla](https://github.com/Nixtla/nixtla) TimeGPT-1：用于预测和异常检测的生产就绪预训练时间序列基础模型。用于在超过 100B 数据点上训练的时间序列的生成式预训练转换器。它只需几行代码即可准确预测零售、电力、金融和物联网等各个领域。
 
 * [arrigonialberto86/deepar](https://github.com/arrigonialberto86/deepar) Amazon于2017年提出的基于深度学习的时间序列预测方法
 
@@ -8844,6 +8890,10 @@
 * [2noise/ChatTTS](https://github.com/2noise/ChatTTS) 专为LLM助手等对话场景设计的文本转语音模型。它支持英文和中文。我们的模型训练了 100,000+ 小时，由中文和英文组成。HuggingFace 上的开源版本是一个 40,000 小时的预训练模型，没有 SFT。特色：对话式 TTS：ChatTTS 针对基于对话的任务进行了优化，可实现自然和富有表现力的语音合成。它支持多个扬声器，促进交互式对话。细粒度控制：该模型可以预测和控制细粒度的韵律特征，包括笑声、停顿和感叹词。更好的韵律：ChatTTS 在韵律方面超过了大多数开源 TTS 模型。我们提供预训练模型来支持进一步的研究和开发。
 
 * [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) MyShell的即时语音克隆。OpenVoice 的优势有三个方面：1.准确的色调颜色克隆。OpenVoice可以准确克隆参考音色，生成多种语言和口音的语音。2.灵活的语音风格控制。OpenVoice 支持对语音风格（如情感和口音）以及其他风格参数（包括节奏、停顿和语调）进行精细控制。3.零样本跨语言语音克隆。生成的语音的语言和参考语音的语言都不需要在大规模说话人多语言训练数据集中呈现。
+
+* [myshell-ai/MeloTTS](https://github.com/myshell-ai/MeloTTS) MyShell.ai 的高质量多语言文本转语音库。支持英语、西班牙语、法语、中文、日语和韩语。
+
+* [huggingface/parler-tts](https://github.com/huggingface/parler-tts) Parler-TTS 是一种轻量级文本转语音 （TTS） 模型，可以按照给定说话者的风格（性别、音调、说话风格等）生成高质量、自然的语音。它复制了 Dan Lyth 和 Simon King 分别来自 Stability AI 和爱丁堡大学的论文 Natural language guidance of high-fidelity text-to-speech with synthetic annotations 的工作。与其他 TTS 模型相反，Parler-TTS 是一个完全开源的版本。所有数据集、预处理、训练代码和权重都在宽松许可下公开发布，使社区能够在我们的工作基础上开发自己强大的 TTS 模型。
 
 * [w-okada/voice-changer](https://github.com/w-okada/voice-changer) 实时语音转换器。客户端软件，使用各种语音转换AI（VC，语音转换）执行实时音频转换。 支持的语音转语音 AI 包括：MMVC、so-vits-svc 、RVC(Retrieval-based-Voice-Conversion 基于检索的语音转换)、DDSP-SVC、Beatrice JVS Corpus Edition
 
@@ -9494,6 +9544,10 @@
 * [HUANGLIZI/LViT](https://github.com/HUANGLIZI/LViT) [IEEE医学影像汇刊/TMI]此 repo 是“LViT：语言在医学图像分割中的视觉转换器”的官方实现
 
 * [AI4Chem/ChemLLM-7B-Chat-1.5-DPO](https://huggingface.co/AI4Chem/ChemLLM-7B-Chat-1.5-DPO) 第一个用于化学和分子科学的开源大型语言模型，基于 InternLM-2 构建
+
+* [allenai/scispacy](https://github.com/allenai/scispacys) 完整的 spaCy 管道和科学/生物医学文档模型。特别是，有一个自定义分词器，可以在 spaCy 基于规则的分词器之上添加分词规则，一个在生物医学数据和实体跨度检测模型上训练的 POS 标记器和句法解析器。另外，还有用于更具体任务的NER模型。
+
+* [openbabel/openbabel](https://github.com/openbabel/openbabel) Open Babel 是一个化学工具箱，旨在使用多种语言的化学数据。这是一个开放的协作项目，允许任何人搜索、转换、分析或存储来自分子建模、化学、固态材料、生物化学或相关领域的数据。
 
 # 图数据库图算法
 
@@ -10576,6 +10630,8 @@
 
 * [containers/youki](https://github.com/containers/youki) 用 Rust 编写的容器运行时，youki 是 Rust 中 OCI 运行时规范的实现，类似于 runc。Youki 有可能比 runc 更快、使用更少的内存，因此可以在内存使用要求严格的环境中工作。
 
+* [lucavallin/barco](https://github.com/lucavallin/barco) barco 是旨在根据互联网上的其他指南更多地了解 Linux 容器和 Linux 内核。Linux 容器由一组 Linux 内核功能组成：命名空间，用于将内核对象分组到不同的集合中，这些集合可以由特定的进程树访问，命名空间有多种类型，例如，PID命名空间用于隔离进程树，而网络命名空间用于隔离网络堆栈。seccomp，用于限制进程可以进行的系统调用（通过 syscalls 处理）。功能：用于对 uid 0 （root） 可以执行的操作设置限制（通过 syscalls 处理）。cgroups：用于限制进程可以使用的资源（例如内存、磁盘 I/O、CPU-tme）（通过 cgroupfs 处理）。
+
 # 安全与渗透
 
 ## 扫描器、资产收集、子域名
@@ -10886,6 +10942,8 @@
 
 * [TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。
 
+* [mytechnotalent/Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering) 涵盖 x86、x64、32 位 ARM 和 64 位 ARM 架构的免费综合逆向工程教程。
+
 * [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) 由国家安全局研究局创建和维护的软件逆向工程 （SRE） 框架。该框架包括一套功能齐全的高端软件分析工具，使用户能够在各种平台（包括 Windows、macOS 和 Linux）上分析编译后的代码。功能包括反汇编、汇编、反编译、绘图和脚本，以及数百种其他功能。Ghidra 支持多种处理器指令集和可执行格式，可以在用户交互和自动模式下运行。用户还可以使用 Java 或 Python 开发自己的 Ghidra 扩展组件和/或脚本。
 
 * [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) 精选的恶意软件分析工具和资源列表。
@@ -10935,6 +10993,8 @@
 * [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) 开源的 .NET 程序集浏览器和反编译器。
 
 * [semgrep/semgrep](https://github.com/semgrep/semgrep) 适用于多种语言的轻量级静态分析。查找具有类似源代码的模式的 bug 变体。可以扫描代码和包依赖项以查找已知问题、软件漏洞，并高精度地查找密钥
+
+* [JusticeRage/Gepetto](https://github.com/JusticeRage/Gepetto) Gepetto 是一个 Python 脚本，它使用各种大型语言模型为 IDA Pro 反编译的函数提供意义。目前，它可以要求他们解释函数的作用，并自动重命名其变量。
 
 ## 漏洞库、漏洞靶场
 
@@ -11958,6 +12018,8 @@
 
 * [MetaWu2077/Esp32_VoiceChat_LLMs](https://github.com/MetaWu2077/Esp32_VoiceChat_LLMs) 基于 ESP32 的设备，主要用于与大型语言模型的语音聊天
 
+* [issus/altium-library](https://github.com/issus/altium-library) 开源Altium数据库库，拥有超过200,000个高质量组件和完整的3D模型。Celestial Altium库是由Altium行业专家Mark Harris创建的用于Altium Designer的大型免费开源数据库库。该数据库托管在为图书馆构建的专用云平台上，以确保您始终拥有最新的组件。Celestial Altium图书馆从概念上就被设计为包含高质量的数据，具有准确的足迹和出色的3D模型。它是免费使用的，并且是开源的。Celestial Altium图书馆已经包含大量组件，并且正在积极开发中以扩大组件覆盖范围。使用Celestial Altium库更快地构建您的下一个项目，创建精美的原理图和令人惊叹的3D PCB。
+
 # 其他项目
 
 ## Python 程序
@@ -12518,6 +12580,8 @@
 
 * [rust-lang/rfcs](https://github.com/rust-lang/rfcs) Rust RFC - RFC 手册 - 活动 RFC 列表，“RFC”（征求意见）流程旨在为 Rust 的更改（例如新功能）提供一致且可控的路径，以便所有利益相关者都能对项目的方向充满信心。
 
+* [yoav-lavi/melody](https://github.com/yoav-lavi/melody) Melody 是一种编译为正则表达式的语言，旨在提高可读性和可维护性。
+
 ## Flutter 程序
 
 * [flutter/flutter](https://github.com/flutter/flutter) Flutter 可以轻松快速地为移动设备及其他领域构建漂亮的应用程序
@@ -12677,6 +12741,8 @@
 * [influxdata/telegraf](https://github.com/influxdata/telegraf) 使用 Go 构建的插件驱动的服务器代理，用于收集和报告指标。
 
 * [johnkerl/miller](https://github.com/johnkerl/miller) Miller 就像 awk、sed、剪切、连接和排序的名称索引数据，如 CSV、TSV 和表格 JSON。
+
+* [expr-lang/expr](https://github.com/expr-lang/expr) Expr 是一种以 Go 为中心的表达式语言，旨在以无与伦比的准确性、安全性和速度提供动态配置。Expr 将简单的语法与强大的功能相结合，易于使用。
 
 * [antonmedv/fx](https://github.com/antonmedv/fx) Go的终端 JSON 查看器和处理器
 
@@ -13051,6 +13117,8 @@
 * [JetBrains/intellij-community](https://github.com/JetBrains/intellij-community) 帮助您从源代码构建 IntelliJ IDEA 社区版，这是 IntelliJ 平台开发的基础。
 
 * [espanso/espanso](https://github.com/espanso/espanso) 用 Rust 编写的跨平台文本扩展器，文本扩展器是一种程序，可以检测您何时键入特定关键字并将其替换为其他内容。这在许多方面都很有用：省去大量的打字，扩展常用句子。创建系统范围的代码片段。执行自定义脚本。像专业人士一样使用表情符号。
+
+* [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode) 用于语言服务器协议的 Emacs 客户端/库，语言服务器协议客户端 （v3.14）。lsp-mode 旨在通过提供与最流行的 Emacs 包（如 company、flycheck 和 projectile）的可选集成来提供类似 IDE 的体验。
 
 ## 终端
 
@@ -13440,6 +13508,16 @@
 * [mezod/awesome-indie](https://github.com/mezod/awesome-indie) 帮助独立开发者赚钱的资源。从自己的代码中赚钱从未如此简单，但仍然很难。在这里，我尝试整理一份资源列表，以帮助每个有兴趣从他们的数字产品中赚钱的人获得灵感并尝试一下。无论是将副业货币化、引导商业理念等。项目不需要很大，实际上，如果它们不需要，那就更好了，它们只需要有利可图。他们可能会在最初的大部分工作后提供被动收入，谁知道呢，甚至可能帮助您实现财务独立。独立游戏确实有很多生活方式的好处:)所有这些资源可能有助于激励你，让你走上正确的轨道，但最终重要的是制作和尝试东西。因此，请负责任地吞噬这些内容:)
 
 * [awesome-developer-streams](https://github.com/bnb/awesome-developer-streams) 灵感来自令人敬畏的列表，专注于开发人员 + 流媒体。精选优秀开发人员直播列表的网站。这个列表由社区维护，旨在为那些对编程和技术感兴趣的人提供丰富多样的内容。网站上的内容分为多个部分，包括：A 到 Z 的字母顺序排列的开发人员列表。数字列表，展示了一些特定的开发人员及其专长。流媒体平台 Twitch 的目录列表，方便用户快速找到感兴趣的内容。在列表中，你可以找到开发人员们的名字、他们的直播主题、使用的编程语言和框架、以及他们开发的流媒体平台。这些开发人员来自不同的背景，有的是独立开发者，有的是企业工程师，他们通过直播分享自己的知识、项目开发过程、以及编码技巧等。
+
+* [roc-lang/roc](https://github.com/roc-lang/roc) 一种快速、友好、实用的语言。Roc 代码旨在快速构建和快速运行。它可以编译为机器代码或 WebAssembly。Roc 的语法、语义和包含的工具集都优先考虑用户友好性。Roc 有少量的简单语言原语。它是一种单一范式的函数式语言。您可以使用此 read-eval-print 循环 （REPL） 来尝试 Roc，该循环在 WebAssembly 的浏览器中运行。您可以使用 Roc 创建脚本和命令行界面 （CLI）。编译器生成二进制可执行文件，因此 Roc 程序可以在未安装 Roc 本身的设备上运行。
+
+* [mouredev/retos-programacion-2023](https://github.com/mouredev/retos-programacion-2023) 2023 年每周一次的代码练习，来自 MoureDev 社区，以练习任何编程语言的逻辑。
+
+* [winglang/wing](https://github.com/winglang/wing) 面向云的编程语言 统一的编程模型，将基础结构和运行时代码组合成一种语言。
+
+* [ritz078/transform](https://github.com/ritz078/transform) 在线的多语言转换工具。
+
+
 
 ## 游戏
 
