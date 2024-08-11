@@ -2536,6 +2536,18 @@
 
 * [stanford-crfm/helm](https://github.com/stanford-crfm/helm) 语言模型整体评估 （HELM），一个提高语言模型透明度的框架 （https://arxiv.org/abs/2211.09110）。该框架还用于在文本到图像模型的整体评估 （HEIM） （https://arxiv.org/abs/2311.04287） 中评估文本到图像模型。
 
+* [towhee-io/towhee](https://github.com/towhee-io/towhee) Towhee 是一个致力于使神经数据处理管道简单快速的框架。旨在通过使用基于大型语言模型 （LLM） 的管道编排来简化非结构化数据的处理。它具有独特的优势，可以从各种非结构化数据类型（包括冗长的文本、图像、音频和视频文件）中提取宝贵的见解。利用生成式 AI 和 SOTA 深度学习模型的功能，Towhee 能够将这些未处理的数据转换为特定格式，例如文本、图像或嵌入。然后，可以有效地将这些内容加载到适当的存储系统中，例如矢量数据库。开发人员最初可以使用用户友好的 Pythonic API 构建直观的数据处理管道原型，然后针对生产环境进行优化。
+
+* [InternLM/MindSearch](https://github.com/InternLM/MindSearch) 基于LLMWeb搜索引擎的多智能体框架（如 Perplexity.ai Pro和SearchGPT）。您可以简单地使用自己的 perplexity.ai 式搜索引擎进行部署，使用闭源LLMs（GPT、Claude）或开源LLMs（InternLM2.5-7b-chat）。它具有以下特点：询问您想知道的一切： 旨在解决您生活中的任何问题并使用网络知识。 深入的知识发现： 浏览数百个网页来回答您的问题，提供更深入、更广泛的知识库答案。 详细的解决方案路径：  公开所有详细信息，允许用户检查他们想要的一切。这大大提高了其最终响应的可信度和可用性。优化UI外观：为用户提供各种界面，包括React、Gradio、Streamlit和Terminal，根据您的需要选择任何类型。动态图谱构建过程：将用户查询分解为原子子问题，作为图中的节点，并根据WebSearcher的搜索结果逐步扩展图。
+
+* [sakanaai/evolutionary-model-merge](https://github.com/sakanaai/evolutionary-model-merge) 大模型合并配方的进化优化。该存储库是 SakanaAI 的 Evolutionary Model Merge 系列的中心枢纽，展示了其发布和资源。它包括用于再现我们论文中提出的评估的模型和代码。通过结合数据流空间和参数空间中的模型，自动生成新的强大模型。这种方法无需梯度训练，减少了计算资源需求。这种方法不仅适用于单一领域的模型合并，还可以跨领域合并，例如将日语LLM与数学专用LLM合并，生成一个既会日语又具备数学推理能力的大语言模型。
+
+* [mlfoundations/dclm](https://github.com/mlfoundations/dclm) DataComp-LM （DCLM） 是一个综合框架，旨在构建和训练具有不同数据集的大型语言模型 （LLMs）。它提供了来自 CommonCrawl 的 300 多个未经过滤的令牌的标准化语料库、基于 open_lm 框架的有效预训练配方，以及一套包含 50 多个评估的广泛套件。此存储库提供了用于处理原始数据、标记化、洗牌、训练模型以及评估其性能的工具和指南。DCLM 使研究人员能够在不同的计算规模（从 411M 到 7B 参数模型）上试验各种数据集构建策略。我们的基线实验表明，通过优化数据集设计，模型性能有了显著提高。DCLM 已经能够创建多个高质量的数据集，这些数据集在各个尺度上都表现良好，并且优于所有开放数据集。
+
+* [nashsu/FreeAskInternet](https://github.com/nashsu/FreeAskInternet) FreeAskInternet 是一个完全免费、私有且本地运行的搜索聚合器和使用 MULTI 生成的答案LLMs，无需 GPU。用户可以提出一个问题，系统将进行多引擎搜索，并将搜索结果组合起来LLM，并根据搜索结果生成答案。这一切都是免费使用的。特征：完全免费（无需任何 API 密钥）；完全本地（无需GPU，任何计算机都可以运行）；完全私有（所有东西都在本地运行，使用自定义llm）；无需LLM硬件即可运行（无需 GPU！）；使用免费的 ChatGPT3.5 / Qwen / Kimi / ZhipuAI（GLM） API（无需 API 密钥！谢谢OpenAI）；定制LLM（ollama，llama.cpp）支持，是的，我们爱ollama；使用 Docker Compose 快速轻松地部署；Web 和 Mobile 友好的界面，专为 Web Search 增强的 AI 聊天而设计，允许从任何设备轻松访问。
+
+* [netease-youdao/QAnything](https://github.com/netease-youdao/QAnything) QAnything（Question and Answer based on Anything）是一个本地知识库问答系统，旨在支持多种文件格式和数据库，允许离线安装和使用。使用 QAnything，您可以简单地拖放任何格式的任何本地存储文件，并获得准确、快速和可靠的答案。目前支持的格式包括：PDF（pdf）、Word（docx）、PPT（pptx）、XLS（xlsx）、Markdown（md）、Email（eml）、TXT（txt）、Image（jpg，jpeg，png）、CSV（csv）、Web links（html）以及即将推出的更多格式。主要特点：数据安全，支持全程拔网线安装使用。跨语言QA支持，无论文档使用何种语言，中英文QA自由切换。支持海量数据QA，两阶段检索排名，解决大规模数据检索的降级问题;数据越多，性能越好。高性能生产级系统，可直接部署用于企业应用程序。人性化，无需繁琐的配置，一键安装部署，随时可用。多知识库 QA支持选择多个知识库进行问答。为什么是 2 阶段检索？在具有大量知识库数据的场景中，两阶段方法的优点非常明显。如果仅使用第一阶段嵌入检索，则随着数据量的增加，将会出现检索降级的问题，如下图中的绿线所示。但是，在第二阶段重新排名后，精度可以有稳定的提高，数据越多，性能越好。QAnything 使用检索组件 BCEmbedding，该组件以其双语和跨语言熟练度而著称。BCEmbedding擅长弥合中英文语言鸿沟，实现了在MTEB的语义表示评估中表现出色;LlamaIndex 中 RAG 评估领域的新基准。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -5282,6 +5294,8 @@
 
 * [mherrmann/helium](https://github.com/mherrmann/helium) Helium 是一个 Python 库，用于自动化 Chrome 和 Firefox 等浏览器。要开始使用 Helium，您需要 Python 3 和 Chrome 或 Firefox。我建议创建一个虚拟环境。这使您可以只为当前项目安装 Helium，而不是在整个计算机上全局安装 Helium。在引擎盖下，Helium 将每个调用转发到 Selenium。不同的是，Helium 的 API 级别要高得多。在 Selenium 中，您需要使用 HTML ID、XPaths 和 CSS 选择器来识别网页元素。另一方面，Helium 允许您通过用户可见的标签来引用元素。因此，Helium 脚本通常比类似的 Selenium 脚本短 30-50%。更重要的是，它们更易于阅读，并且在底层网页的变化方面更稳定。
 
+* [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) 定制 Selenium Chromedriver |零配置 |通过所有机器人缓解系统（如 Distil / Imperva/ Datadadome / CloudFlare IUAM），优化的 Selenium Chromedriver 补丁，不会触发 Distill Network / Imperva / DataDome / Botprotect.io 等反机器人服务 自动下载驱动程序二进制文件并进行修补。
+
 * [jekyll/jekyll](https://github.com/jekyll/jekyll) Ruby 中一个博客感知的静态站点生成器
 
 * [airbnb/visx](https://github.com/airbnb/visx) 可重用的低级可视化组件的集合。visx 结合了 d3 的强大功能来生成可视化和 react 更新 DOM 的好处。
@@ -5680,6 +5694,10 @@
 * [djc/askama](https://github.com/djc/askama) 类型安全、编译的类似 Jinja 的 Rust 模板。Askama 实现了一个基于 Jinja 的模板渲染引擎。它在编译时根据用户定义 struct 的模板生成 Rust 代码，以保存模板的上下文。
 
 * [mattboldt/typed.js](https://github.com/mattboldt/typed.js) JavaScript 类型动画库，Typed.js 是一个会打字的库。输入任何字符串，并观察它以您设置的速度输入，将键入的内容退格，并为您设置的字符串数量开始一个新句子。
+
+* [ai/easings.net](https://github.com/ai/easings.net) 缓动函数 ：自定义参数随时间变化的速率。 现实生活中，物体并不是突然启动或者停止， 当然也不可能一直保持匀速移动。就像我们 打开抽屉的过程那样，刚开始拉的那一下动作很快， 但是当抽屉被拉出来之后我们会不自觉的放慢动作。 或是掉落在地板上的物体，一开始下降的速度很快， 接着就会在地板上来回反弹直到停止。 这个页面将帮助你选择正确的缓动函数。
+
+* [pacocoursey/cmdk](https://github.com/pacocoursey/cmdk) 快速、无样式的命令菜单 React 组件。⌘K 是一个命令菜单 React 组件，也可以用作可访问的组合框。您渲染项目，它会自动过滤和排序它们。⌘K 支持完全可组合的 API ，因此您可以将项目包装在其他组件中，甚至可以包装为静态 JSX。
 
 ### 管理面板
 
@@ -6240,7 +6258,11 @@
 
 * [mishushakov/llm-scraper](https://github.com/mishushakov/llm-scraper) 将任何网页转换为结构LLMs化数据，特征：支持本地（Ollama、GGUF）、OpenAI、Vercel AI SDK 提供商；使用 Zod 定义的架构；使用 TypeScript 实现完全的类型安全；基于Playwright框架；流式处理对象；代码生成；支持 4 种格式化模式：用于加载原始 HTML 的 html、markdown 用于加载 markdown、用于加载提取文本的文本（使用 Readability.js）、用于加载屏幕截图的图像（仅限多模式）
 
+* [TeamWiseFlow/wiseflow](https://github.com/TeamWiseFlow/wiseflow) Wiseflow 是一种敏捷的信息挖掘工具，可从网站、微信公众号、社交平台等各种来源提取简洁的消息。它会自动对它们进行分类并上传到数据库。
+
 ### 网络服务_其他
+
+* [livekit/livekit](https://github.com/livekit/livekit) WebRTC的端到端堆栈。交换网板介质服务器和SDK。LiveKit 是一个开源项目，提供基于 WebRTC 的可扩展的多用户会议。它旨在提供在应用程序中构建实时视频音频数据功能所需的一切。LiveKit 的服务器是用 Go 编写的，使用出色的 Pion WebRTC 实现。特征：可扩展的分布式WebRTC SFU（选择性转发单元）；现代、功能完备的客户端 SDK；专为生产而打造，支持 JWT 身份验证；强大的网络和连接性，UDP/TCP/TURN；易于部署：单个二进制文件、Docker 或 Kubernetes；高级功能包括：说话人检测、联播、端到端优化、选择性订阅、审核 API、端到端加密、SVC 编解码器（VP9、AV1）、Webhook、分布式和多区域
 
 * [gorhill/uBlock](https://github.com/gorhill/uBlock) 适用于 Chromium 和 Firefox 的有效拦截器。快速而精益。
 
@@ -6947,6 +6969,8 @@
 * [cloudflare/boringtun](https://github.com/cloudflare/boringtun) Rust 中的用户空间 WireGuard® 实现，专为便携性和速度而设计。BoringTun 已成功部署在数百万台 iOS 和 Android 消费类设备以及数千台 Cloudflare Linux 服务器上。可执行文件 boringtun-cli ，用于 Linux 和 macOS 的用户空间 WireGuard 实现。该库 boringtun 可用于在各种平台（包括 iOS 和 Android）上实现快速高效的 WireGuard 客户端应用程序。它实现了底层的 WireGuard 协议，没有网络或隧道堆栈，这些协议可以以平台惯用的方式实现。WireGuard ® 是一款极其简单但快速且现代的 VPN，它利用了最先进的加密技术。它旨在比 IPsec 更快、更简单、更精简、更有用，同时避免了令人头疼的问题。它打算比OpenVPN性能高得多。WireGuard 被设计为通用 VPN，可在嵌入式接口和超级计算机上运行，适用于许多不同的情况。它最初是为 Linux 内核发布的，现在是跨平台（Windows、macOS、BSD、iOS、Android）并可广泛部署的。它目前正在大量开发中，但它已经被认为是业内最安全、最容易使用和最简单的 VPN 解决方案。
 
 * [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) 安全的跨平台 Git 凭据存储，可对 GitHub、Azure Repos 和其他常用 Git 托管服务进行身份验证。Git 凭据管理器 （GCM） 是基于 .NET 构建的安全 Git 凭据帮助程序，可在 Windows、macOS 和 Linux 上运行。它旨在为每个主要的源代码控制托管服务和平台提供一致且安全的身份验证体验，包括多因素身份验证。GCM 支持（按字母顺序排列）Azure DevOps、Azure DevOps Server（以前称为 Team Foundation Server）、Bitbucket、GitHub 和 GitLab。与 Git 的内置凭据帮助程序（Windows：wincred，macOS：osxkeychain，Linux：gnome-keyring/libsecret）相比，它们仅为用户名/密码提供单因素身份验证支持。GCM 取代了基于 .NET Framework 的 Git Credential Manager（适用于 Windows）和基于 Java 的 Git Credential Manager（适用于 Mac 和 Linux）。
+
+* [SagerNet/sing-box](https://github.com/SagerNet/sing-box) 通用代理平台，一款功能强大的跨平台代理客户端软件，支持多种代理协议，如 Shadowsocks、Trojan、VMess 等。它整合了多种代理协议，支持跨平台使用，并提供灵活的流量控制功能，可用于改善网络连接、绕过网络限制以及优化网络流量路由。此外，Sing-box 还可以创建网络代理服务器、客户端和透明代理，并允许用户管理和使用本地、iCloud 和远程配置文件。
 
 ## 区块链、智能合约
 
@@ -9023,6 +9047,9 @@
 
 ## 语音识别与合成_其他
 
+* [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobiles) 一个基于 React native 开发的音乐软件。
+* [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobiles) 一个基于 React native 开发的音乐软件。
+
 * [TencentGameMate/chinese_speech_pretrain](https://github.com/TencentGameMate/chinese_speech_pretrain) WenetSpeech train_l 集的 1 万小时中文数据作为无监督预训练数据。数据主要来源于 YouTube 和 Podcast，覆盖了各种类型录制场景、背景噪声、说话方式等，其领域主要包括有声书、解说、纪录片、电视剧、访谈、新闻、朗读、演讲、综艺和其他等10大场景。
 
 * [zzw922cn/awesome-speech-recognition-speech-synthesis-papers](https://github.com/zzw922cn/awesome-speech-recognition-speech-synthesis-papers) 自动语音识别 （ASR）、说话人验证、语音合成、文本到语音转换 （TTS）、语言建模、歌唱语音合成 （SVS）、语音转换 （VC）
@@ -10288,6 +10315,10 @@
 
 * [SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb) 将 AI 引入您的数据库！直接使用现有数据基础架构构建、部署和管理任何 AI 应用程序，而无需移动数据。包括流式推理、可扩展模型训练和向量搜索。SuperDuperDB 是一个 Python 框架，用于将 AI 模型、API 和矢量搜索引擎直接与您现有的数据库集成，包括托管您自己的模型、流式推理和可扩展的模型训练/微调。
 
+* [qdrant/fastembed](https://github.com/qdrant/fastembed) FastEmbed 是一个轻量级、快速的 Python 库，专为嵌入生成而构建。我们支持流行的文本模型。轻量级：FastEmbed 是一个轻量级的库，几乎没有外部依赖性，我们不需要 GPU，也不需要下载 GB 的 PyTorch 依赖项，而是使用 ONNX 运行时，这使它成为 AWS Lambda 等无服务器运行时的绝佳候选者。快速：FastEmbed 专为速度而设计，我们使用 ONNX 运行时，它比 PyTorch 更快，我们还使用数据并行性来编码大型数据集。准确：FastEmbed 优于 OpenAI Ada-002，我们还支持一组不断扩展的模型，包括一些多语言模型。
+
+* [asg017/sqlite-vec](https://github.com/asg017/sqlite-vec) 正在进行中的向量搜索SQLite扩展，可在任何地方运行。一个非常小的，“足够快”的向量搜索SQLite扩展，可以在任何地方运行！sqlite-vss 的继任者。在 vec0 虚拟表中存储和查询浮点数、int8 和二进制向量；用纯C语言编写，没有依赖项，可以在SQLite运行的任何地方运行（Linux / Mac OS / Windows，在带有WASM，Raspberry Pis等的浏览器中）；使用 rowid IN （...） 子查询预过滤向量
+
 * [pinecone-io/examples](https://github.com/pinecone-io/examples) 示例应用程序和 Jupyter Notebook 的集合，您可以运行、下载、研究和修改它们，以便亲身体验 Pinecone 向量数据库和常见的 AI 模式、工具和算法。
 
 ## 其他__大数据
@@ -10631,6 +10662,8 @@
 * [containers/youki](https://github.com/containers/youki) 用 Rust 编写的容器运行时，youki 是 Rust 中 OCI 运行时规范的实现，类似于 runc。Youki 有可能比 runc 更快、使用更少的内存，因此可以在内存使用要求严格的环境中工作。
 
 * [lucavallin/barco](https://github.com/lucavallin/barco) barco 是旨在根据互联网上的其他指南更多地了解 Linux 容器和 Linux 内核。Linux 容器由一组 Linux 内核功能组成：命名空间，用于将内核对象分组到不同的集合中，这些集合可以由特定的进程树访问，命名空间有多种类型，例如，PID命名空间用于隔离进程树，而网络命名空间用于隔离网络堆栈。seccomp，用于限制进程可以进行的系统调用（通过 syscalls 处理）。功能：用于对 uid 0 （root） 可以执行的操作设置限制（通过 syscalls 处理）。cgroups：用于限制进程可以使用的资源（例如内存、磁盘 I/O、CPU-tme）（通过 cgroupfs 处理）。
+
+* [budtmo/docker-android](https://github.com/budtmo/docker-android) Android 的 Docker 解决方案 ，支持 noVNC 和视频录制。Docker-Android 是一个 docker 镜像，用于与 Android 相关的所有内容。它可用于应用程序开发和测试（本机、Web 和混合应用程序）。使用此项目的优势：具有不同设备配置文件和皮肤的模拟器，例如三星Galaxy S6，LG Nexus 4，HTC Nexus One等。支持 vnc 能够看到 docker 容器内部发生了什么。支持日志共享功能，所有日志都可以从web-UI访问。能够使用 adb connect 从容器外部控制模拟器。与其他云解决方案集成，例如Genymotion云。它可以用来构建Android项目。它可用于使用不同的测试框架运行单元和 UI-Test，例如 Appium、Espresso 等。
 
 # 安全与渗透
 
@@ -10996,6 +11029,8 @@
 
 * [JusticeRage/Gepetto](https://github.com/JusticeRage/Gepetto) Gepetto 是一个 Python 脚本，它使用各种大型语言模型为 IDA Pro 反编译的函数提供意义。目前，它可以要求他们解释函数的作用，并自动重命名其变量。
 
+* [Ackites/KillWxapkg](https://github.com/Ackites/KillWxapkg) 自动化反编译微信小程序，小程序安全评估工具，发现小程序安全问题，自动解密，解包，可还原工程目录，支持Hook，小程序修改
+
 ## 漏洞库、漏洞靶场
 
 * [trickest/cve](https://github.com/trickest/cve) 收集并使用其 PoC 更新所有可用和最新的 CVE。几乎所有公开可用的 CVE PoC。从 cvelist 收集 CVE 详细信息。按年份拆分 CVE。使用案例：四处浏览，找到一个不错的 PoC，然后进行测试！Watch 存储库，以便在新 PoC 公开后立即接收有关它们的通知。搜索特定产品（可能还有版本）以查找与其相关的所有公共漏洞。
@@ -11069,6 +11104,8 @@
 * [certbot/certbot](https://github.com/certbot/certbot) Certbot 是 EFF 的工具，用于从 Let's Encrypt 获取证书，并（可选）在您的服务器上自动启用 HTTPS。它还可以充当使用 ACME 协议的任何其他 CA 的客户端。
 
 * [zricethezav/gitleaks](https://github.com/zricethezav/gitleaks) 用于检测和防止git repos 中的密码、api 密钥和令牌等硬编码秘密。易于使用的一体化解决方案，用于检测代码中过去或现在的秘密。
+
+* [Cyan4973/xxHash](https://github.com/Cyan4973/xxHash) xxHash 是一种极快的哈希算法，以 RAM 速度限制进行处理。代码具有高度的可移植性，并在所有平台上生成相同的哈希值（小端/大端）。该库包括以下算法：XXH32：使用 32 位算术生成 32 位哈希；XXH64：使用 64 位算术生成 64 位哈希；XXH3（自 v0.8.0 起）：使用矢量化算术生成 64 位或 128 位哈希。128 位变体称为 XXH128。所有变体都成功完成了 SMHasher 测试套件，该套件评估哈希函数的质量（碰撞、色散和随机性）。此外，还提供了其他测试，这些测试可以更全面地评估 64 位哈希的速度和冲突属性。
 
 * [bitsadmin/fakelogonscreen](https://github.com/bitsadmin/fakelogonscreen) 伪造 Windows 登录屏幕以窃取密码
 
@@ -12019,6 +12056,8 @@
 * [MetaWu2077/Esp32_VoiceChat_LLMs](https://github.com/MetaWu2077/Esp32_VoiceChat_LLMs) 基于 ESP32 的设备，主要用于与大型语言模型的语音聊天
 
 * [issus/altium-library](https://github.com/issus/altium-library) 开源Altium数据库库，拥有超过200,000个高质量组件和完整的3D模型。Celestial Altium库是由Altium行业专家Mark Harris创建的用于Altium Designer的大型免费开源数据库库。该数据库托管在为图书馆构建的专用云平台上，以确保您始终拥有最新的组件。Celestial Altium图书馆从概念上就被设计为包含高质量的数据，具有准确的足迹和出色的3D模型。它是免费使用的，并且是开源的。Celestial Altium图书馆已经包含大量组件，并且正在积极开发中以扩大组件覆盖范围。使用Celestial Altium库更快地构建您的下一个项目，创建精美的原理图和令人惊叹的3D PCB。
+
+* [LibreHardwareMonitor/LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) Open Hardware Monitor 的一个分支，是一款免费软件，可以监控计算机的温度传感器、风扇速度、电压、负载和时钟速度。
 
 # 其他项目
 
@@ -13264,6 +13303,10 @@
 
 * [lotabout/skim](https://github.com/lotabout/skim) 我们一生中的一半时间都花在导航上：文件、行、命令......它是一个通用的模糊查找器，可以节省您的时间。
 
+* [svenstaro/genact](https://github.com/svenstaro/genact) 无意义的活动生成器，假装忙碌或等待你的电脑，而你实际上应该在做真正的工作！用你疯狂的多任务处理技能给人们留下深刻印象。只需打开几个 genact 实例并观看节目。Genact 有多个场景，假装正在做一些令人兴奋或有用的事情，而实际上根本没有发生任何事情。
+
+* [marticliment/UniGetUI](https://github.com/marticliment/UniGetUI) UniGetUI：包管理器的图形界面。可以被可怕地描述为包管理器管理器来管理您的包管理器。该项目的主要目标是为 Windows 10 和 11 最常见的 CLI 包管理器创建一个直观的 GUI，例如 WinGet、Scoop、Chocolatey、Pip、Npm、.NET Tool 和 PowerShell Gallery。 使用此应用程序，您可以轻松下载、安装、更新和卸载在受支持的包管理器上发布的任何软件 - 以及更多！
+
 ## 知识管理 wiki知识库
 
 * [logseq/logseq](https://github.com/logseq/logseq) 一个知识管理和协作平台。它侧重于隐私、寿命和用户控制。Logseq 提供了一系列用于知识管理、协作、PDF 注释和任务管理的强大工具，支持多种文件格式，包括 Markdown 和组织模式，以及用于组织和构建笔记的各种功能。
@@ -14230,5 +14273,13 @@
 * [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) komorebi 是一个平铺窗口管理器，可作为 Microsoft 桌面窗口管理器在 Windows 10 及更高版本中的扩展。komorebi 允许您使用 CLI 控制应用程序窗口、虚拟工作区和显示监视器，CLI 可以与 whkd 和 AutoHotKey 等第三方软件一起使用，以设置用户定义的键盘快捷键。默认情况下，Komorebi 的目标是对操作系统和桌面环境进行尽可能少的修改。用户可以自由地在他们自己的 komorebi 配置文件中进行此类修改，但在可预见的未来，这些修改将保持选择加入和默认关闭状态。
 
 * [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) 字幕编辑器
+
+* [aoaostar/legado](https://github.com/aoaostar/legado) 「阅读」APP 源，一些「阅读」小说书源、订阅源、主题、排版配置
+
+* [piotrkulpinski/openalternative](https://github.com/piotrkulpinski/openalternative) 一个由社区驱动的专有软件和应用程序的开源替代品列表。我们的目标是成为您研究新的开源服务的第一站，以帮助您发展业务。我们将帮助您找到您已经使用的产品的替代品和评论。
+
+* [alienator88/Pearcleaner](https://github.com/alienator88/Pearcleaner) 一个免费的、源代码可用和公平代码许可的 Mac 应用程序清理器
+
+* [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking) Github⭐排名 Github 星号和分叉排名列表。Github Top100 不同语言的明星列表。每天自动更新。|Github仓库排名，每日自动更新
 
 # end
