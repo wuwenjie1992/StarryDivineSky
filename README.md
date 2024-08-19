@@ -2548,6 +2548,8 @@
 
 * [netease-youdao/QAnything](https://github.com/netease-youdao/QAnything) QAnything（Question and Answer based on Anything）是一个本地知识库问答系统，旨在支持多种文件格式和数据库，允许离线安装和使用。使用 QAnything，您可以简单地拖放任何格式的任何本地存储文件，并获得准确、快速和可靠的答案。目前支持的格式包括：PDF（pdf）、Word（docx）、PPT（pptx）、XLS（xlsx）、Markdown（md）、Email（eml）、TXT（txt）、Image（jpg，jpeg，png）、CSV（csv）、Web links（html）以及即将推出的更多格式。主要特点：数据安全，支持全程拔网线安装使用。跨语言QA支持，无论文档使用何种语言，中英文QA自由切换。支持海量数据QA，两阶段检索排名，解决大规模数据检索的降级问题;数据越多，性能越好。高性能生产级系统，可直接部署用于企业应用程序。人性化，无需繁琐的配置，一键安装部署，随时可用。多知识库 QA支持选择多个知识库进行问答。为什么是 2 阶段检索？在具有大量知识库数据的场景中，两阶段方法的优点非常明显。如果仅使用第一阶段嵌入检索，则随着数据量的增加，将会出现检索降级的问题，如下图中的绿线所示。但是，在第二阶段重新排名后，精度可以有稳定的提高，数据越多，性能越好。QAnything 使用检索组件 BCEmbedding，该组件以其双语和跨语言熟练度而著称。BCEmbedding擅长弥合中英文语言鸿沟，实现了在MTEB的语义表示评估中表现出色;LlamaIndex 中 RAG 评估领域的新基准。
 
+* [deepseek-ai/DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) DeepSeek-V2：强大、经济且高效的专家混合语言模型，一种强大的专家混合 （MoE） 语言模型，其特点是经济的训练和高效的推理。它包含 236B 个总参数，其中 21B 为每个词元激活。与DeepSeek 67B相比，DeepSeek-V2性能更强，同时节省了42.5%的训练成本，减少了93.3%的KV缓存，最大生成吞吐量提升了5.76倍。我们在由 8.1 万亿个词元组成的多样化、高质量的语料库上预训练了 DeepSeek-V2。在这种全面的预训练之后，是监督微调 （SFT） 和强化学习 （RL） 的过程，以充分释放模型的能力。评估结果验证了我们方法的有效性，因为DeepSeek-V2在标准基准测试和开放式生成评估中都取得了卓越的性能。大海捞针 （NIAH） 测试的评估结果。DeepSeek-V2 在高达 128K 的所有上下文窗口长度上都表现良好。我们在 AlpacaEval 2.0 和 MTBench 上评估了我们的模型，显示了 DeepSeek-V2-Chat-RL 在英语会话生成方面的竞争性能。我们在 LiveCodeBench （0901-0401） 上评估我们的模型，这是一个为实时编码挑战而设计的基准测试。如图所示，DeepSeek-V2 在 LiveCodeBench 方面表现出相当的熟练程度，取得了超过其他几个复杂模型的Pass@1分数。这一性能突出了该模型在处理实时编码任务方面的有效性。DeepSeek-V2 采用创新架构，保证训练经济高效：在注意力方面，我们设计了MLA（Multi-head Latent Attention），它利用低秩键值联合压缩来消除推理时键值缓存的瓶颈，从而支持高效的推理。对于前馈网络 （FFN），我们采用 DeepSeekMoE 架构，这是一种高性能的 MoE 架构，能够以更低的成本训练更强大的模型。
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2565,6 +2567,8 @@
 * [facebookresearch/codellama](https://github.com/facebookresearch/codellama) 基于 Llama 2 的代码大型语言模型系列，在开放模型中提供最先进的性能、填充功能、对大型输入上下文的支持以及编程任务的零镜头指令跟踪能力。我们提供多种风格来涵盖广泛的应用：基础模型（Code Llama），Python 专业化（Code Llama - Python）和指令遵循模型（Code Llama - Instruct），每个模型都有 7、13 和 34B 参数。所有模型都在16k 个令牌的序列上进行训练，并显示对最多 100k 个令牌的输入的改进。7B 和 13B 代码骆驼和代码骆驼 - 指示变体支持基于周围内容的填充。通过使用更高的代码采样微调 Llama 2 开发的。
 
 * [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder) 一种在源代码和自然语言文本上训练的语言模型 （LM）。它的训练数据包含了 80 多种不同的编程语言，以及从 GitHub 问题和提交以及笔记本中提取的文本。
+
+* [aixcoder-plugin/aiXcoder-7B](https://github.com/aixcoder-plugin/aiXcoder-7B) 在 1.2T Unique Token 上进行了广泛的训练，模型的预训练任务以及上下文信息都针对真实世界的代码生成上下文进行了独特设计。aiXcoder 7B Base 在所有参数大小相似的模型中脱颖而出，成为代码完成场景中最有效的模型，并且在多语言 nl2code 基准测试中的平均性能也超过了 codellama 34B 和 StarCoder2 15B 等主流模型。
 
 * [microsoft/TypeChat](https://github.com/microsoft/TypeChat) 一个库，可以轻松使用类型构建自然语言界面。传统上，构建自然语言界面是很困难的。这些应用通常依靠复杂的决策树来确定意图并收集采取行动所需的输入。LLM使我们能够从用户那里获取自然语言输入并与意图匹配，从而使这变得更容易。这带来了新的挑战，包括需要约束模型的响应以确保安全性，构建模型的响应以进行进一步处理，以及确保模型的响应有效。提示工程旨在解决这些问题，但随着提示大小的增加，学习曲线陡峭，脆弱性增加。TypeChat 用模式工程取代了提示工程。只需定义NLP程序中支持的意向的类型即可。这可以像用于对情绪进行分类的界面一样简单，也可以像购物车或音乐应用程序的类型一样简单。例如，若要向架构添加其他意向，开发人员可以将其他类型添加到可区分的联合中。要使架构分层，开发人员可以使用“元架构”根据用户输入选择一个或多个子架构。定义类型后，TypeChat 会通过以下方式处理其余工作：1.使用类型构造 LLM 的提示。2.验证 LLM 响应是否符合架构。如果验证失败，则通过进一步的语言模型交互来修复不符合项的输出。3.简明扼要地总结（不使用 LLM）实例，并确认它与用户意图一致。
 
@@ -10017,7 +10021,7 @@
 
 * [newTendermint/awesome-bigdata](https://github.com/newTendermint/awesome-bigdata) 令人敬畏的大数据框架、资源和其他令人敬畏的精选列表。
 
-* [guangzhengli/k8s-tutorials](https://github.com/guangzhengli/k8s-tutorials) k8s 教程
+* [tigerbeetle/tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) TigerBeetle 是一个专为关键任务安全和性能而设计的分布式财务会计数据库。它通过采用高性能、高安全性的设计原则，确保了在处理复杂和高要求的金融交易环境中的稳定性和可靠性。以下是 TigerBeetle 的关键特性概述：1. 高性能与高安全性：TigerBeetle 被设计用于关键任务，如财务交易和会计数据处理，这要求系统在处理大量交易时保持高性能和高安全性。2. 分布式数据库系统：TigerBeetle 是一个分布式数据库系统，意味着它可以在多个节点上运行，通过分布式架构提供水平扩展能力，以处理更高的交易吞吐量。3. 事件处理核心：系统的核心是事件处理机制，负责接收和处理所有传入的交易事件。事件处理核心将事件分解为一系列原子操作，确保数据的一致性和完整性。4. 分布式状态机：每个节点都运行一个状态机，用于处理事件并更新数据库状态。这确保了在分布式环境中的一致性和可靠性。5. 复制和同步机制：TigerBeetle 通过复制和同步机制确保数据的一致性。每个节点维护一个日志，记录所有已处理的事件，以便在节点间进行同步。6. 心跳检测和故障恢复：系统设计有心跳检测机制，用于检测节点的健康状态，并在检测到故障时进行自动恢复。这提高了系统的稳定性和安全性。7. 可扩展性：TigerBeetle 通过分布式的架构设计，能够在多节点上进行水平扩展，以处理更高的交易吞吐量。8. 一致性：采用分布式状态机和复制机制，确保在分布式环境中的一致性和可靠性。9. 性能优化：通过事件分解和原子操作，TigerBeetle 能够更高效地处理高并发的交易事件。10. 安全性：设计有故障检测和恢复机制，增强了系统的稳定性和安全性。通过这些关键特性，TigerBeetle 成为了一个适合处理高负载、高安全性的金融交易的分布式数据库系统。
 
 * [seata/seata](https://github.com/seata/seata) 简单可扩展的自主事务体系结构
 
@@ -10520,6 +10524,8 @@
 * [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) docker 简单终端 UI
 
 * [KubeOperator/KubeOperator](https://github.com/KubeOperator/KubeOperator) KubeOperator
+
+* [guangzhengli/k8s-tutorials](https://github.com/guangzhengli/k8s-tutorials) k8s 教程
 
 * [rancher/k3s](https://github.com/rancher/k3s) Lightweight Kubernetes. 5 less than k8s. [k3s.io](https://k3s.io)
 
@@ -12621,6 +12627,8 @@
 
 * [yoav-lavi/melody](https://github.com/yoav-lavi/melody) Melody 是一种编译为正则表达式的语言，旨在提高可读性和可维护性。
 
+* [mainmatter/100-exercises-to-learn-rust](https://github.com/mainmatter/100-exercises-to-learn-rust) 一门学习 Rust 的自定进度课程，一次一个练习。你会从对 Rust 一无所知到能够开始 编写自己的程序。您将通过解决 100 个问题来学习 Rust。
+
 ## Flutter 程序
 
 * [flutter/flutter](https://github.com/flutter/flutter) Flutter 可以轻松快速地为移动设备及其他领域构建漂亮的应用程序
@@ -13560,7 +13568,7 @@
 
 * [ritz078/transform](https://github.com/ritz078/transform) 在线的多语言转换工具。
 
-
+* [YSGStudyHards/DotNetGuide](https://github.com/YSGStudyHards/DotNetGuide) C#/.NET/.NET Core学习、工作、面试指南】记录、收集和总结C#/.NET/.NET Core基础知识、学习路线、开发实战、编程技巧练习、学习视频、文章、书籍、项目框架、社区组织、开发必备工具、技术前沿周刊、常见面试题、面试须知、简历模板、人才招聘、以及自己在学习和工作中的一些微薄见解。希望能和大家一起学习，共同进步。如果本知识库能为您提供帮助，别忘了给予支持哦(关注、点赞、分享)。
 
 ## 游戏
 
