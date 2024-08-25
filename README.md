@@ -452,6 +452,12 @@
 
 * [tensorpack/tensorpack](https://github.com/tensorpack/tensorpack) 基于图模式 TensorFlow 的神经网络训练接口。另一个 TF 高级 API，具有以下亮点：注重训练速度。Tensorpack 的速度是免费的——它以高效的方式使用 TensorFlow，没有额外的开销。在普通的 CNN 上，它的训练速度比等效的 Keras 代码快 1.2~5 倍。如果使用 Tensorpack 编写，您的训练可能会更快。可扩展的数据并行多 GPU/分布式训练策略是现成的。有关更多基准测试，请参阅 tensorpack/benchmarks。符号编程（例如 tf.data ）不提供研究所需的数据处理灵活性。Tensorpack 通过各种自动并行化策略从纯 Python 中榨取最大的性能。
 
+* [TsingZ0/PFLlib](https://github.com/TsingZ0/PFLlib) PFLlib 是一个用户友好的个性化联邦学习（Personalized Federated Learning, pFL）算法库，旨在为初学者提供一个集成评估平台，以便他们能够开始学习和研究联邦学习（Federated Learning, FL）。该库专注于解决数据和模型的异构性问题，特别是统计异质性，这是由于用户的个性化行为导致的非独立同分布（Non-IID）和数据不平衡现象。PFLlib 包含了多种算法，其中传统联邦学习（Traditional Federated Learning, tFL）和个性化联邦学习（Personalized Federated Learning, pFL）是主要的两种类型。tFL 侧重于共同学习全局模型，而 pFL 则旨在为每个用户学习个性化的模型。PFLlib 提供了34个联邦学习算法，其中包含27个个性化联邦学习算法，涵盖了3大类数据异质场景和20个数据集。PFLlib 的主要目的是降低初学者研究联邦学习的门槛，通过简单的示范指南和代码示例，使新手用户能够快速上手。此外，PFLlib 还支持高效 GPU 内存使用及新增的隐私保护功能，进一步提升了其在实际应用中的可用性和安全性。PFLlib 是一个专门为初学者设计的个性化联邦学习算法库，通过提供多种算法和集成评估平台，帮助用户解决数据和模型的异构性问题，特别是统计异质性问题。
+
+
+
+
+
 ## 特征工程
 
 * [FeatureLabs/featuretools](https://github.com/FeatureLabs/featuretools) 特征工程工具箱
@@ -742,7 +748,7 @@
 
 * [Guang000/Awesome-Dataset-Distillation](https://github.com/Guang000/Awesome-Dataset-Distillation) 数据集蒸馏是合成一个小数据集的任务，使得在其上训练的模型在原始大数据集上实现高性能。 数据集蒸馏算法将要蒸馏的大型真实数据集（训练集）作为输入，并输出一个小的合成蒸馏数据集，该数据集通过在单独的真实数据集（验证/测试集）上在该蒸馏数据集上训练的测试模型进行评估。 一个好的小型蒸馏数据集不仅对数据集理解有用，而且具有各种应用（例如，持续学习、隐私、神经架构搜索等）。
 
-* [TimDettmers/bitsandbytes](https://github.com/TimDettmers/bitsandbytes) PyTorch 的 8 位 CUDA 函数。具有混合精度分解的 8 位矩阵乘法；LLM.int8() 推理；8 位优化器：Adam、AdamW、RMSProp、LARS、LAMB（节省 75% 的内存）；稳定嵌入层：通过更好的初始化和规范化；提高稳定性 8 位量化：分位数、线性和动态量化；快速分位数估计：比其他算法快 100 倍
+* [TimDettmers/bitsandbytes](https://github.com/TimDettmers/bitsandbytes) PyTorch 的 8 位 CUDA 函数。具有混合精度分解的 8 位矩阵乘法；LLM.int8 推理；8 位优化器：Adam、AdamW、RMSProp、LARS、LAMB（节省 75% 的内存）；稳定嵌入层：通过更好的初始化和规范化；提高稳定性 8 位量化：分位数、线性和动态量化；快速分位数估计：比其他算法快 100 倍
 
 * [ydataai/ydata-profiling](https://github.com/ydataai/ydata-profiling) 从 pandas DataFrame 对象创建 HTML 分析报告
 
@@ -2550,6 +2556,22 @@
 
 * [deepseek-ai/DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) DeepSeek-V2：强大、经济且高效的专家混合语言模型，一种强大的专家混合 （MoE） 语言模型，其特点是经济的训练和高效的推理。它包含 236B 个总参数，其中 21B 为每个词元激活。与DeepSeek 67B相比，DeepSeek-V2性能更强，同时节省了42.5%的训练成本，减少了93.3%的KV缓存，最大生成吞吐量提升了5.76倍。我们在由 8.1 万亿个词元组成的多样化、高质量的语料库上预训练了 DeepSeek-V2。在这种全面的预训练之后，是监督微调 （SFT） 和强化学习 （RL） 的过程，以充分释放模型的能力。评估结果验证了我们方法的有效性，因为DeepSeek-V2在标准基准测试和开放式生成评估中都取得了卓越的性能。大海捞针 （NIAH） 测试的评估结果。DeepSeek-V2 在高达 128K 的所有上下文窗口长度上都表现良好。我们在 AlpacaEval 2.0 和 MTBench 上评估了我们的模型，显示了 DeepSeek-V2-Chat-RL 在英语会话生成方面的竞争性能。我们在 LiveCodeBench （0901-0401） 上评估我们的模型，这是一个为实时编码挑战而设计的基准测试。如图所示，DeepSeek-V2 在 LiveCodeBench 方面表现出相当的熟练程度，取得了超过其他几个复杂模型的Pass@1分数。这一性能突出了该模型在处理实时编码任务方面的有效性。DeepSeek-V2 采用创新架构，保证训练经济高效：在注意力方面，我们设计了MLA（Multi-head Latent Attention），它利用低秩键值联合压缩来消除推理时键值缓存的瓶颈，从而支持高效的推理。对于前馈网络 （FFN），我们采用 DeepSeekMoE 架构，这是一种高性能的 MoE 架构，能够以更低的成本训练更强大的模型。
 
+* [pytorch/torchchat](https://github.com/pytorch/torchchat) 在服务器、桌面和移动设备上使用PyTorch本地运行 LLMs。TorchChat 是一个小型代码库，展示了无缝运行大型语言模型 （LLMs） 的能力。使用 torchchat，您可以在自己的 （C/C++） 应用程序（桌面或服务器）以及 iOS 和 Android 上使用 Python 运行LLMs。
+
+* [goldfishh/chatgpt-tool-hub](https://github.com/goldfishh/chatgpt-tool-hub) 一个开源的 chatgpt 工具生态系统，您可以在其中将工具与 chatgpt 结合使用并使用自然语言做任何事情。这是一个能让ChatGPT使用多个神奇工具的执行引擎，你能用自然语言命令ChatGPT使用联网、搜索、数学运算、控制电脑、执行代码等工具，扩大ChatGPT使用范围提高你的生产力。
+
+* [jiaweizzhao/GaLore](https://github.com/jiaweizzhao/GaLore) 通过梯度低秩投影进行内存效率LLM训练。梯度低秩投影 （GaLore） 是一种内存高效的低秩训练策略，允许全参数学习，但比常见的低秩自适应方法（如 LoRA）内存效率更高。作为一种梯度投影方法，GaLore 与优化器的选择无关，只需两行代码即可轻松插入到现有优化器中。GaLore 的官方发布将包括：多 GPU 训练（DDP 和 FSDP）的每层权重更新（使用 PyTorch）。内存高效的低秩梯度累积（与 PyTorch 一起使用）。优化了 GaLoreAdamW8bit（使用 bitsandbytes）。
+
+* [karpathy/nano-llama31](https://github.com/karpathy/nano-llama31) 这个 repo 之于 Llama 3.1，就像 nanoGPT 之于 GPT-2。也就是说，它是 Llama 3.1 架构的最小、无依赖的实现，它可以非常简单地训练、微调和推理。这与 Meta 的官方代码发布和 huggingface 实现相比，后者都具有更重的依赖性和更多的代码。代码目前主要针对 Llama 3.1 的 8B 基础模型。
+
+* [Langboat/Mengzi3](https://github.com/Langboat/Mengzi3) Mengzi3 8B/13B模型基于Llama架构，语料精选自网页、百科、社交、媒体、新闻，以及高质量的开源数据集。通过在万亿tokens上进行多语言语料的继续训练，模型的中文能力突出并且兼顾多语言能力。孟子3 8B/13B基于Llama架构，语料库选自网页、百科、社交网络、媒体、新闻、高质量开源数据集。通过继续在数万亿个词元上训练多语言语料库，该模型具有出色的中文能力，并考虑到了多语言能力。
+
+* [dvmazur/mixtral-offloading](https://github.com/dvmazur/mixtral-offloading) 在 Colab 或消费者桌面上运行 Mixtral-8x7B 模型，通过多种技术的组合实现了对Mixtral-8x7B模型的高效推理：使用 HQQ 进行混合量化，我们为注意力层和专家应用单独的量化方案，以将模型拟合到组合的 GPU 和 CPU 内存中。MoE 卸载策略，每层的每个专家都单独卸载，仅在需要时将背包带到 GPU，我们将活跃的 EA 存储在 LRU 缓存中，以减少在计算相邻令牌的激活时 GPU-RAM 通信。
+
+* [databricks/dbrx](https://github.com/databricks/dbrx) 由 Databricks 开发的大型语言模型的代码示例和资源。DBRX 是一个混合专家 （MoE） 模型，具有 132B 总参数和 36B 实时参数。我们使用 16 位专家，其中 4 位在训练或推理期间处于活跃状态。DBRX 针对 12T 文本标记进行了预训练。DBRX 的上下文长度为 32K 个令牌。该模型是使用我们的开源库 Composer、Foundry、LLMMegaBlocks 和 Streaming 的优化版本进行训练的。对于 instruct 模型，我们使用了 ChatML 格式。有关详细信息，请参阅 DBRX Instruct 模型卡。
+
+* [evalplus/evalplus](https://github.com/evalplus/evalplus) 对合成代码的LLM严格评估 - NeurIPS 2023。EvalPlus 是 LLM4Code 的严格评估框架，具有：HumanEval+：测试次数比原来的 HumanEval 多 80 倍！MBPP+：测试次数是原始 MBPP 的 35 倍！评估框架：我们的 packages/images/tools 可以在上述基准测试中轻松安全地评估 LLMs。为什么选择EvalPlus？精确的评估和排名：查看我们的排行榜以获取严格的评估前后的最新LLM排名。编码严谨性：看看分数差异！尤其是在使用 EvalPlus 测试之前和之后！丢弃越少越好，因为它意味着代码生成更加严格和不那么松懈;而大幅下降意味着生成的代码往往很脆弱。预生成样本：EvalPlus 通过开源 LLM——无需重新运行昂贵的基准测试！
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -3251,6 +3273,10 @@
 * [OpenGVLab/InternVL](https://github.com/OpenGVLab/InternVL) InternVL 系列：GPT-4o 的开创性开源替代品。接近GPT-4o表现的可商用开源多模态对话模型。InternVL 1.5，这是一种开源多模态大型语言模型 （MLLM），旨在弥合开源和专有商业模型在多模态理解方面的能力差距。我们介绍三种简单的设计：强视觉编码器：我们探索了一种针对大规模视觉基础模型的持续学习策略——InternViT-6B，提升其视觉理解能力，使其可以在不同的LLMs环境中转移和复用。动态高分辨率：我们根据输入图像的纵横比和分辨率，将图像划分为 1 到 40 的 448 × 448 像素的瓦片，最高支持 4K 分辨率输入。高质量的双语数据集：我们精心收集了一个高质量的双语数据集，涵盖了常见场景、文档图像，并用中英文问答对进行标注，显著提高了OCR和中文相关任务的性能。
 
 * [liou666/polyglot](https://github.com/liou666/polyglot) 一款跨平台的桌面端应用程序（目前已支持web版本）。基于ChatGPT和Azure人工智能语言模型作为底层服务，旨在提供一个易于使用的语言练习平台，方便进行多语种的口语练习。 
+
+* [mshumer/gpt-author](https://github.com/mshumer/gpt-author) 该项目利用 GPT-4、Stable Diffusion 和 Anthropic API 调用链来生成原创奇幻小说。用户可以提供一个初始提示并输入他们想要的章节数，然后人工智能会生成一整本小说，输出一个与电子书阅读器兼容的 EPUB 文件。一本 15 章的小说的制作成本低至 4 美元，而且只需几分钟即可写完。
+
+* [filip-michalsky/SalesGPT](https://github.com/filip-michalsky/SalesGPT) 情境感知 AI 销售代理，可自动执行销售推广。此存储库是用于销售的上下文感知 AI 代理的实现，可以使用LLMs语音、电子邮件和文本（短信、WhatsApp、微信、微博、Telegram 等）工作。SalesGPT 具有上下文感知能力，这意味着它可以理解自己处于销售对话的哪个阶段，并采取相应的行动。此外，SalesGPT 可以使用工具，例如您自己的预定义产品知识库，从而显着减少幻觉。AI 销售代理了解对话阶段（您可以根据自己的需求定义自己的阶段）：简介：通过介绍您自己和您的公司来开始对话。资格： 通过确认他们是否是与您的产品/服务交谈的合适人选来对潜在客户进行资格审查。价值主张：简要说明您的产品/服务如何使潜在客户受益。需求分析：提出开放式问题，以揭示潜在客户的需求和痛点。解决方案展示： 根据潜在客户的需求，将您的产品/服务作为可以解决他们痛点的解决方案展示。异议处理：解决潜在客户可能对您的产品/服务提出的任何异议。关闭：通过提出下一步来要求出售。结束对话：用户不想继续对话，因此结束通话。
 
 ### 其他_文本生成、文本对话
 
@@ -4019,7 +4045,7 @@
 
 * [jondurbin/airoboros-gpt4-1.4.1](https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.4.1) 数据由 gpt-4 生成，因此受 OpenAI ToS 的约束。用于生成数据 airoboros 的工具是 apache-2。此训练数据的具体重点领域：琐事、数学、荒谬的数学、编码、封闭式上下文问答、封闭式语境问答，有多个语境可供选择作为混杂因素、写作、多选题等。
 
-* [b-mc2/sql-create-context](https://huggingface.co/datasets/b-mc2/sql-create-context) 有 78,577 个自然语言查询、SQL CREATE TABLE 语句和 SQL 查询示例，这些示例使用 CREATE 语句作为上下文来回答问题。此数据集在构建时LLMs考虑了文本到 sql，旨在防止在文本到 sql 数据集上训练时经常出现列名和表名的幻觉。CREATE TABLE 语句通常可以从不同的 DBMS 复制和粘贴，并提供表名、列名及其数据类型。通过仅提供 CREATE TABLE 语句作为上下文，我们有望为模型提供更好的基础，而无需提供实际的数据行，从而限制令牌的使用和对私有、敏感或专有数据的暴露。对WikiSQL和Spider的合并数据进行了清理和数据增强。我在 Spider 和 WikiSQL 的查询中使用了 SQLGlot，并将它们解析为不同的表和列，然后根据 > < 运算符的使用以及 SUM() on 列的使用 MIN() MAX() AVG() 来推断列数据类型。虽然这并不完美，但它增加了推断列的正确数据类型的可能性，否则列默认为 VARCHAR 类型。然后，这些表和列用于使用推断类型的 CREATE TABLE 语句。再次使用 SQLGlot 来确保 SQL 查询和 CREATE TABLE 语句都分析没有错误。某些没有列名的查询（例如 SELECT * FROM 表）在 CREATE TABLE 语句中添加了默认的 Id 列。其他一些使用泛型 table 作为 FROM 表的查询已更改为 的 table_name_1 变体或其他数字，这也反映在 CREATE TABLE 语句中。
+* [b-mc2/sql-create-context](https://huggingface.co/datasets/b-mc2/sql-create-context) 有 78,577 个自然语言查询、SQL CREATE TABLE 语句和 SQL 查询示例，这些示例使用 CREATE 语句作为上下文来回答问题。此数据集在构建时LLMs考虑了文本到 sql，旨在防止在文本到 sql 数据集上训练时经常出现列名和表名的幻觉。CREATE TABLE 语句通常可以从不同的 DBMS 复制和粘贴，并提供表名、列名及其数据类型。通过仅提供 CREATE TABLE 语句作为上下文，我们有望为模型提供更好的基础，而无需提供实际的数据行，从而限制令牌的使用和对私有、敏感或专有数据的暴露。对WikiSQL和Spider的合并数据进行了清理和数据增强。我在 Spider 和 WikiSQL 的查询中使用了 SQLGlot，并将它们解析为不同的表和列，然后根据 > < 运算符的使用以及 SUM on 列的使用 MIN  MAX  AVG  来推断列数据类型。虽然这并不完美，但它增加了推断列的正确数据类型的可能性，否则列默认为 VARCHAR 类型。然后，这些表和列用于使用推断类型的 CREATE TABLE 语句。再次使用 SQLGlot 来确保 SQL 查询和 CREATE TABLE 语句都分析没有错误。某些没有列名的查询（例如 SELECT * FROM 表）在 CREATE TABLE 语句中添加了默认的 Id 列。其他一些使用泛型 table 作为 FROM 表的查询已更改为 的 table_name_1 变体或其他数字，这也反映在 CREATE TABLE 语句中。
 
 * [cognitivecomputations/dolphin](https://huggingface.co/datasets/cognitivecomputations/dolphin) 该数据集试图复制Microsoft的Orca的结果，我们的数据集包括：~100 万 FLANv2 通过 GPT-4 完成增强 （flan1m-alpaca-uncensored.jsonl），~350 万 FLANv2 增加了 GPT-3.5 完成 （flan5m-alpaca-uncensored.jsonl）。我们遵循了 Orca 论文中概述的子混音和系统提示分布。除了少数例外。我们将所有 75k 的 CoT 包含在 FLAN-1m 数据集中，而不是对其进行采样。此外，我们发现许多项目是重复的，因此我们删除了重复项，从而在 ChatGPT 数据集中产生了 3.5m 的指令。然后，我们过滤掉了对齐、拒绝、回避和偏见的实例，以生成一个未经审查的模型，可以在该模型上分层您的个性化对齐 LoRA。
 
@@ -7852,6 +7878,8 @@
 
 * [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) 关于扩散模型的资源和论文集
 
+* [black-forest-labs/flux](https://github.com/black-forest-labs/flux) FLUX.1 模型的官方推理仓库。FLUX.1 是由 Stable Diffusion 创始团队推出的开源 AI 图像生成模型，拥有 120 亿参数，是迄今为止最大的文生图模型。该模型包含三种变体：顶级性能的 FLUX.1 [pro]、开源非商业用途的 FLUX.1 [dev] 和快速高效的 FLUX.1 [schnell] 。FLUX.1 模型采用了创新的混合架构，融合了多模态处理能力和并行扩散机制的 Transformer 技术，并将其扩展至高达 120 亿个参数。这些模型在训练生成模型时表现出色，能够生成逼真的图像和高度逼真的人体解剖学表现。此外，FLUX.1 在文字生成、复杂指令遵循和人手生成上具备优势。FLUX.1 [pro] 版本专为商业用途设计，提供最先进的图像生成性能，包括顶级的提示词遵循、视觉质量、图像细节和输出多样性。而 FLUX.1 [dev] 版本则以非商业许可的方式开源，适合开发者和研究者使用。FLUX.1 [schnell] 版本则是面向个人开发者使用的极速版本，支持独立部署。总体而言，FLUX.1 在图像质量、提示词的准确跟随、尺寸适应性、排版以及输出的多样性方面，已经超越了市场上的其他流行模型如 Midjourney v6.0、DALL·E 3 (HD) 和 SD3-Ultra 等。这一新模型不仅继承了 Stable Diffusion 的优良基因，更在多个方面实现了重大突破。
+
 * [cumulo-autumn/StreamDiffusion](https://github.com/cumulo-autumn/StreamDiffusion) 用于实时交互生成图片的流水线级解决方案，创新的扩散管道，专为实时交互式生成而设计。它为当前基于扩散的图像生成技术引入了显著的性能增强。主要特点：流批处理，通过高效的批处理操作简化数据处理。无残差分类器指南，改进的引导机制，可最大限度地减少计算冗余。随机相似性过滤器，通过高级过滤技术提高 GPU 利用率。队列，高效管理输入和输出操作，实现更顺畅的执行。KV 缓存的预计算，优化缓存策略以加速处理。模型加速工具，利用各种工具进行模型优化和性能提升。
 
 * [huggingface/diffusers](https://github.com/huggingface/diffusers) 用于在 PyTorch 中生成图像和音频的最先进的扩散模型，用于生成分子的图像、音频甚至 3D 结构。无论您是在寻找简单的推理解决方案还是训练自己的扩散模型，扩散器都是一个支持两者的模块化工具箱。我们的库的设计侧重于可用性而不是性能，简单而不是简单，以及可定制性而不是抽象。扩散器提供三个核心组件：最先进的扩散管道，只需几行代码即可在推理中运行。可互换的噪声调度器，用于不同的扩散速度和输出质量。预训练模型，可用作构建块，并与调度程序结合使用，用于创建您自己的端到端扩散系统。
@@ -8836,13 +8864,9 @@
 
 ## 语音识别
 
-* [wenet-e2e/wenet](https://github.com/wenet-e2e/wenet) 面向工业落地应用的语音识别工具包，提供了从语音识别模型的训练到部署的一条龙服务，其主要特点如下：
-  
-  * 使用 conformer 网络结构和 CTC/attention loss 联合优化方法，统一的流式/非流式语音识别方案，具有业界一流的识别效果。
-  * 提供云上和端上直接部署的方案，最小化模型训练和产品落地之间的工程工作。
-  * 框架简洁，模型训练部分完全基于 pytorch 生态，不依赖于 kaldi 等复杂的工具。
-  * 详细的注释和文档，非常适合用于学习端到端语音识别的基础知识和实现细节。
-  * 支持时间戳，对齐，端点检测，语言模型等相关功能。
+* [wenet-e2e/wenet](https://github.com/wenet-e2e/wenet) 面向工业落地应用的语音识别工具包，提供了从语音识别模型的训练到部署的一条龙服务，其主要特点如下：使用 conformer 网络结构和 CTC/attention loss 联合优化方法，统一的流式/非流式语音识别方案，具有业界一流的识别效果。提供云上和端上直接部署的方案，最小化模型训练和产品落地之间的工程工作。框架简洁，模型训练部分完全基于 pytorch 生态，不依赖于 kaldi 等复杂的工具。详细的注释和文档，非常适合用于学习端到端语音识别的基础知识和实现细节。支持时间戳，对齐，端点检测，语言模型等相关功能。
+
+* [MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization) 该存储库将 Whisper ASR 功能与语音活动检测 （VAD） 和说话人嵌入相结合，以识别 Whisper 生成的转录中每个句子的说话人。首先，从音频中提取人声以提高说话人嵌入的准确性，然后使用 Whisper 生成转录，然后使用 WhisperX 校正和对齐时间戳，以帮助最大限度地减少由于时移导致的分类错误。然后将音频传递到 MarbleNet 进行 VAD 和分割以排除静音，然后使用 TitaNet 提取说话人嵌入以识别每个段落的说话人，然后将结果与 WhisperX 生成的时间戳相关联，以根据时间戳检测每个单词的说话人，然后使用标点符号模型重新对齐以补偿微小的时间偏移。
 
 * [k2-fsa/k2](https://github.com/k2-fsa/k2) 愿景是能够将有限状态自动机 (FSA) 和有限状态传感器 (FST) 算法无缝集成到基于 autograd 的机器学习工具包中，例如 PyTorch 和 TensorFlow。对于语音识别应用，这应该可以很容易地插入和组合各种训练目标，例如交叉熵、CTC 和 MMI，并联合优化具有多个解码通道的语音识别系统，包括格重新评分和置信度估计。
 
@@ -9145,6 +9169,14 @@
 * [MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) 适用于 Google Play 音乐的精美跨平台桌面播放器
 
 * [wenet-e2e/WeTextProcessing](https://github.com/wenet-e2e/WeTextProcessing) 中文的文本规范化和反向文本规范化
+
+* [PlayVoice/whisper-vits-svc](https://github.com/PlayVoice/whisper-vits-svc) 基于VITS的端到端歌声转换对抗学习变分推理算法。基于VITS模型架构的开源端到端歌声转换项目。该项目支持多说话人转换，能够混合创建新音色，并能处理带轻伴奏的声音。它集成了Whisper和BigVGAN等技术，提高了抗噪性和音质。此外，为了增加生成音色的稳定性，可以使用Retrieval-based-Voice-Conversion仓库中描述的方法，该方法包括在hubert和whisper特征上训练检索索引，然后使用默认设置进行训练。
+
+* [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) 说话人分类的神经构建块：语音活动检测、说话人变化检测、重叠语音检测、说话人嵌入。用 Python 编写的开源工具包，用于说话人分类。它基于 PyTorch 机器学习框架，带有最先进的预训练模型和管道，可以根据您自己的数据进一步微调以获得更好的性能。
+
+* [jianchang512/vocal-separate](https://github.com/jianchang512/vocal-separate) 极简的人声和背景音乐分离工具，本地化网页操作，无需连接外网。使用 2stems/4stems/5stems 模型。将一首歌曲或者含有背景音乐的音视频文件，拖拽到本地网页中，即可将其中的人声和音乐声分离为单独的音频wav文件，可选单独分离“钢琴声”、“贝斯声”、“鼓声”等。自动调用本地浏览器打开本地网页，模型已内置，无需连接外网下载。支持视频(mp4/mov/mkv/avi/mpeg)和音频(mp3/wav)格式。只需点两下鼠标，一选择音视频文件，二启动处理。
+
+* [collabora/WhisperFusion](https://github.com/collabora/WhisperFusion) WhisperFusion 建立在 WhisperLive 和 WhisperSpeech 的功能之上，可提供与 AI 的无缝对话。在实时语音转文本管道之上集成了 Mistral，这是一种大型语言模型 （LLM）。和 Whisper 都LLM经过优化，可以作为 TensorRT 引擎高效运行，从而最大限度地提高性能和实时处理能力。而 WhiperSpeech 使用 torch.compile 进行了优化。特征：实时语音转文本：利用 OpenAI WhisperLive 将口语实时转换为文本。大型语言模型集成：添加大型语言模型 Mistral，以增强对转录文本的理解和上下文。TensorRT 优化：和 Whisper 都LLM经过优化，可以作为 TensorRT 引擎运行，确保高性能和低延迟处理。torch.compile：WhisperSpeech 使用 torch.compile 来加速推理，通过将 PyTorch 代码进行 JIT 编译到优化的内核中，使 PyTorch 代码运行得更快。
 
 * [mozilla-foundation/common_voice_13_0](https://huggingface.co/datasets/mozilla-foundation/common_voice_13_0) 由唯一的 MP3 和相应的文本文件组成。数据集中记录的 27141 小时中的许多还包括年龄、性别和口音等人口统计元数据，这有助于提高语音识别引擎的准确性。该数据集目前包含 108 种语言的 17689 个验证小时数，后续会添加更多语音和语言。
 
@@ -12270,7 +12302,7 @@
 
 * [mahmoud/boltons](https://github.com/mahmoud/boltons) 超过230个BSD许可的纯Python实用程序
 
-* [gruns/icecream](https://github.com/gruns/icecream) 永远不要再使用 print（） 进行调试。ic() 就像 print() ，但更好：它打印表达式/变量名称及其值。打字速度提高 60%。数据结构打印。输出以语法突出显示。它可以选择包括程序上下文：文件名、行号和父函数。
+* [gruns/icecream](https://github.com/gruns/icecream) 永远不要再使用 print 进行调试。ic 就像 print，但更好：它打印表达式/变量名称及其值。打字速度提高 60%。数据结构打印。输出以语法突出显示。它可以选择包括程序上下文：文件名、行号和父函数。
 
 * [realpython/python-guide](https://github.com/realpython/python-guide) 旨在为新手和专家 Python 开发人员提供一本关于日常安装、配置和使用 Python 的最佳实践手册。
 
@@ -13103,6 +13135,10 @@
 
 * [NvChad/NvChad](https://github.com/NvChad/NvChad) 超快的 Neovim 框架提供可靠的默认设置和漂亮的 UI，增强您的 neovim 体验。
 
+* [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon) Neovim 插件，由 ThePrimeagen 开发，旨在改进开发者在编辑器中管理代码文件和执行项目命令的方式。通过提供一种更高效的方式来标记和访问常用的文件，harpoon 能够帮助开发者减少在项目中切换文件时的重复动作，从而提高开发效率。
+
+* [stevearc/oil.nvim](https://github.com/stevearc/oil.nvim) Neovim 文件浏览器：像缓冲区一样编辑您的文件系统。一个类似文件浏览器的 vim-vinegar，让你可以像普通的 Neovim 缓冲区一样编辑你的文件系统。
+
 * [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) Notepad++ 文本编辑器官方仓库
 
 * [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) 为web开发人员准备的无头编辑器框架
@@ -13166,6 +13202,8 @@
 * [espanso/espanso](https://github.com/espanso/espanso) 用 Rust 编写的跨平台文本扩展器，文本扩展器是一种程序，可以检测您何时键入特定关键字并将其替换为其他内容。这在许多方面都很有用：省去大量的打字，扩展常用句子。创建系统范围的代码片段。执行自定义脚本。像专业人士一样使用表情符号。
 
 * [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode) 用于语言服务器协议的 Emacs 客户端/库，语言服务器协议客户端 （v3.14）。lsp-mode 旨在通过提供与最流行的 Emacs 包（如 company、flycheck 和 projectile）的可选集成来提供类似 IDE 的体验。
+
+* [Textualize/frogmouth](https://github.com/Textualize/frogmouth) 用于您的终端的 Markdown 查看器/浏览器，使用 Textual 构建。Frogmouth 可以在本地或通过 URL 打开 *.md 文件。有一个熟悉的类似浏览器的导航堆栈、历史记录、书签和目录。
 
 ## 终端
 
