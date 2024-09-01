@@ -27,7 +27,7 @@
 
 - [机器学习与深度学习](#机器学习与深度学习)
 - [NLP自然语言处理](#NLP自然语言处理)
-  * [🚀🚀🚀大语言对话模型及数据](#大语言对话模型及数据)
+  * [大语言对话模型及数据](#大语言对话模型及数据)
 - [网络与前后端开发](#网络与前后端开发)
 - [推荐系统](#推荐系统)
 - [机器视觉](#机器视觉)
@@ -4244,6 +4244,8 @@
 
 * [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) Stanford NLP Group 的官方 Python NLP 库。 它支持在 60 多种语言上运行各种准确的自然语言处理工具。
 
+* [oxford-cs-deepnlp-2017/lectures](https://github.com/oxford-cs-deepnlp-2017/lectures) 此存储库包含牛津大学 Hilary Term 2017 中提供的深度自然语言处理课程的讲座幻灯片和课程描述。这是一门关于自然语言处理的高级课程。自动处理自然语言输入并生成语言输出是通用人工智能的关键组成部分。人类交流中固有的歧义和噪声使传统的符号 AI 技术无法有效地表示和分析语言数据。最近，基于神经网络的统计技术在自然语言处理方面取得了许多显著的成功，从而在该领域引起了极大的商业和学术兴趣。这是一门应用课程，侧重于使用递归神经网络分析和生成语音和文本的最新进展。我们介绍了相关机器学习模型的数学定义，并推导出了它们相关的优化算法。该课程涵盖了神经网络在 NLP 中的一系列应用，包括分析文本中的潜在维度、将语音转录为文本、在语言之间进行翻译以及回答问题。这些主题分为三个高级主题，从理解神经网络在顺序语言建模中的使用，到理解它们作为转导任务的条件语言模型的使用，最后到将这些技术与其他机制相结合进行高级应用的方法。在整个课程中，还讨论了此类模型在 CPU 和 GPU 硬件上的实际实现。本课程由 Phil Blunsom 组织，并与 DeepMind 自然语言研究小组合作提供。
+
 * [piskvorky/gensim](https://github.com/piskvorky/gensim) Python 库，用于主题建模、文档索引和大型语料库的相似性检索。目标受众是自然语言处理 （NLP） 和信息检索 （IR） 社区。特征：所有算法都与内存无关，与语料库大小无关（可以处理大于 RAM、流式、核外的输入），易于插入您自己的输入语料库/数据流（简单的流式 API），易于使用其他向量空间算法进行扩展（简单转换 API），流行算法的高效多核实现，例如在线潜在语义分析 （LSA/LSI/SVD）、潜在狄利克雷分配 （LDA）、随机投影 （RP）、分层狄利克雷过程 （HDP） 或 word2vec 深度学习。分布式计算：可以在计算机集群上运行潜在语义分析和潜在狄利克雷分配。
 
 * [huseinzol05/NLP-Models-Tensorflow](https://github.com/huseinzol05/NLP-Models-Tensorflow) 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
@@ -5729,6 +5731,12 @@
 
 * [pacocoursey/cmdk](https://github.com/pacocoursey/cmdk) 快速、无样式的命令菜单 React 组件。⌘K 是一个命令菜单 React 组件，也可以用作可访问的组合框。您渲染项目，它会自动过滤和排序它们。⌘K 支持完全可组合的 API ，因此您可以将项目包装在其他组件中，甚至可以包装为静态 JSX。
 
+* [timlrx/tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) 这是一个Next.js的 Tailwind CSS 博客入门模板。开箱即用，配置了最新技术，使技术写作变得轻而易举。易于配置和定制。非常适合作为现有 Jekyll 和 Hugo 个人博客的替代品。
+
+* [jeecgboot/JimuReport](https://github.com/jeecgboot/JimuReport) 「开源可视化报表，商业BI替代方案」积木报表是一款类似excel操作风格，在线拖拽完成设计的报表工具。低代码产品的臂膀！功能涵盖: 报表设计、图形报表、打印设计、大屏设计等，完全免费！秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、解决各类报表难题。
+
+* [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。（使用 NextJS 和 Notion API 构建的静态博客，支持多种部署选项。无需服务器，建立网站零门槛。专为 Notion 和所有创作者设计。 
+
 ### 管理面板
 
 * [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
@@ -5804,6 +5812,9 @@
 * [jaywcjlove/icongo](https://github.com/jaywcjlove/icongo) 搜索 SVG 图标。轻松地在 React 项目中包含流行的图标，并提供一个简单的工具将 SVG 转换为 React 组件。[icongo](https://icongo.github.io/)
 
 * [Lissy93/dashy](https://github.com/Lissy93/dashy) 为您构建的自托管个人仪表板。包括状态检查，小部件，主题，图标包，UI编辑器等等！
+
+* [talebook/talebook](https://github.com/talebook/talebook) 一个简单的在线版个人书库。基于Calibre的简单的个人图书管理系统，支持在线阅读。主要特点是：美观的界面：由于Calibre自带的网页太丑太难用，于是基于Vue，独立编写了新的界面，支持PC访问和手机浏览；支持多用户：为了网友们更方便使用，开发了多用户功能，支持豆瓣（已废弃）、QQ、微博、Github等社交网站的登录；支持在线阅读：借助Readium.js 库，支持了网页在线阅读电子书；支持批量扫描导入书籍；支持邮件推送：可方便推送到Kindle；支持OPDS：可使用KyBooks等APP方便地读书；支持一键安装，网页版初始化配置，轻松启动网站；优化大书库时文件存放路径，可以按字母分类、或者文件名保持中文；支持快捷更新书籍信息：支持从百度百科、豆瓣搜索并导入书籍基础信息；支持私人模式：需要输入访问码，才能进入网站，便于小圈子分享网站；本项目曾用名：calibre-webserver.
+
 
 ## 后端开发框架及项目
 
@@ -5919,7 +5930,7 @@
 
 * [42wim/matterbridge](https://github.com/42wim/matterbridge) 一个简单的聊天桥 ,Mattermost，IRC，gitter，xmpp，Slack，Discord，Telegram，rocketchat，twitch，ssh-chat，zulip，WhatsApp，Keybase，matrix，Microsoft Teams，Nextcloud，Mumble，vk等与REST API之间的桥梁
 
-* [Tencent/APIJSON](https://github.com/Tencent/APIJSON) 零代码、全功能、强安全 ORM 库 🚀 后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构。
+* [Tencent/APIJSON](https://github.com/Tencent/APIJSON) 零代码、全功能、强安全 ORM 库  后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构。
 
 * [discordjs/discord.js](https://github.com/discordjs/discord.js) 一个强大的JavaScript库，用于与Discord API交互
 
@@ -6162,6 +6173,8 @@
 * [poem-web/poem](https://github.com/poem-web/poem) 一个功能齐全且易于使用的 Web 框架，带有 Rust 编程语言。
 
 * [salvo-rs/salvo](https://github.com/salvo-rs/salvo) 一个强大的 Web 框架，采用简化的设计构建。Salvo 是一个非常简单和强大的 Rust Web 后端框架。开发后端服务只需要基本的 Rust 知识。
+
+* [yangzongzhuan/RuoYi-Vue3](https://github.com/yangzongzhuan/RuoYi-Vue3) 基于SpringBoot+Vue3前后端分离的Java快速开发框架。本仓库为前端技术栈 Vue3 + Element Plus + Vite 版本。配套后端代码仓库地址RuoYi-Vue 或 RuoYi-Vue-fast 版本。前端技术栈（Vue2 + Element + Vue CLI）
 
 ### PHP开发
 
@@ -6584,6 +6597,8 @@
 
 * [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) 一切都是可RSS的，一个开源、易于使用且可扩展的 RSS 源生成器。它能够从几乎所有内容生成RSS提要。
 
+* [cooderl/wewe-rss](https://github.com/cooderl/wewe-rss) 更优雅的微信公众号订阅方式，支持私有化部署、微信公众号RSS生成（基于微信读书）v2.x
+
 * [Netflix/conductor](https://github.com/Netflix/conductor) Netflix 创建的一个平台，用于编排跨微服务的工作流程。Conductor 由 Netflix 的媒体工作流基础设施团队维护。
 
 * [pytube/pytube](https://github.com/pytube/pytube) 一个轻量级、无依赖的 Python 库（和命令行实用程序），用于下载 YouTube 视频。
@@ -7002,6 +7017,8 @@
 
 * [SagerNet/sing-box](https://github.com/SagerNet/sing-box) 通用代理平台，一款功能强大的跨平台代理客户端软件，支持多种代理协议，如 Shadowsocks、Trojan、VMess 等。它整合了多种代理协议，支持跨平台使用，并提供灵活的流量控制功能，可用于改善网络连接、绕过网络限制以及优化网络流量路由。此外，Sing-box 还可以创建网络代理服务器、客户端和透明代理，并允许用户管理和使用本地、iCloud 和远程配置文件。
 
+* [imputnet/cobalt](https://github.com/imputnet/cobalt) Cobalt 是一个不会惹你生气的媒体下载器。它快速、友好，并且没有任何现代网络充斥的废话：没有广告、跟踪器或侵入性分析。粘贴链接，获取文件，继续前进。就是这么简单。它应该是什么样的。cobalt 不是盗版工具，不能用作盗版工具。它只能下载免费的、可公开访问的内容。此类内容可以通过任何浏览器的开发工具轻松下载。按下一个按钮更容易，因此我为此类重复操作制作了一个方便、无广告的工具。
+
 ## 区块链、智能合约
 
 * [chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
@@ -7109,6 +7126,8 @@
 * [shenweichen/DeepCTR](https://github.com/shenweichen/DeepCTR) 易于使用、模块化和可扩展的基于深度学习的 CTR 模型包，用于搜索和推荐。
 
 * [hongleizhang/RSPapers](https://github.com/hongleizhang/RSPapers) 推荐系统必读论文精选列表。
+
+* [wangshusen/RecommenderSystem](https://github.com/wangshusen/RecommenderSystem) 工业界的推荐系统教程，概要：推荐系统的基本概念、推荐系统的链路、AB测试。召回：基于物品的协同过滤（ItemCF）、Swing模型、基于用户的协同过滤（UserCF）、离散特征处理、矩阵补充、双塔模型：模型和训练、双塔模型：正负样本、双塔模型：线上服务、双塔模型+自监督学习、Deep Retrieval 召回、其它召回通道、曝光过滤。排序：多目标排序模型、多门专家混合 （MMoE）、预估分数融合、播放时长建模、推荐系统的特征、粗排三塔模型。交叉结构：因式分解机 （FM）、Deep & Cross Network (深度交叉网络)、LHUC、SENet & FiBiNET、用户行为序列建模：用户行为序列特征、DIN 模型、SIM 模型。多样性：多样性的度量、MMR 算法、规则约束、DPP：数学基础、DPP：多样性算法。物品冷启动 ：评价指标、简单的召回通道、聚类召回、Look-Alike人群扩散、流量调控、冷启动的AB测试。涨指标的方法：概述、召回、排序、多样性、特殊人群、交互行为。
 
 * [YuyangZhangFTD/awesome-RecSys-papers](https://github.com/YuyangZhangFTD/awesome-RecSys-papers) 推荐系统中的经典论文
 
@@ -7425,6 +7444,8 @@
 
 * [yoyo-nb/Thin-Plate-Spline-Motion-Model](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) 用于图像动画的薄板样条运动模型 人脸、人物动作姿势模拟
 
+* [s0md3v/roop](https://github.com/s0md3v/roop) 一键换脸，拍摄一个视频，并将其中的面孔替换为您选择的面孔。您只需要一张所需人脸的图像。没有数据集，就没有训练。
+
 * [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) 图像动画的一阶运动模型,实现静态图像到动态图像的转换.人脸、人物动作姿势模拟
 
 * [leap-ai/headshots-starter](https://github.com/leap-ai/headshots-starter) 可在几分钟内生成专业的 AI 头像。
@@ -7646,6 +7667,8 @@
 
 * [vietanhdev/anylabeling](https://github.com/vietanhdev/anylabeling) 借助 YOLO、Segment Anything、MobileSAM 的 AI 支持，轻松实现 AI 辅助数据标注！！
 
+* [NVlabs/FoundationPose](https://github.com/NVlabs/FoundationPose) CVPR 2024 亮点 FoundationPose：新物体的统一 6D 姿态估计和跟踪，我们提出了 FoundationPose，这是一个用于 6D 物体姿态估计和跟踪的统一基础模型，支持基于模型和无模型的设置。我们的方法可以在测试时立即应用于新物体，而无需进行微调，只要给出其CAD模型，或者捕获少量参考图像即可。我们通过神经隐式表示弥合了这两种设置之间的差距，该表示允许有效的新视图合成，使下游姿态估计模块在相同的统一框架下保持不变。通过大规模合成训练，借助大型语言模型LLM新颖的基于transformer的架构和对比学习公式，实现了强大的泛化性。对涉及具有挑战性的场景和对象的多个公共数据集的广泛评估表明，我们的统一方法大大优于专门针对每项任务的现有方法。此外，尽管减少了假设，但它甚至可以获得与实例级方法相当的结果。
+
 * [caoyunkang/GPT4V-for-Generic-Anomaly-Detection](https://github.com/caoyunkang/GPT4V-for-Generic-Anomaly-Detection) 异常检测是跨不同领域和数据类型的一项关键任务。但是，现有的异常检测模型通常是针对特定领域和模式设计的。本研究探讨了使用 GPT-4V（ision），一种强大的视觉语言模型，以通用方式处理异常检测任务。我们研究了GPT-4V在多模态、多域异常检测任务中的应用，包括图像、视频、点云和时间序列数据，涉及工业、医疗、逻辑、视频、3D异常检测和定位等多个应用领域。为了提高 GPT-4V 的性能，我们加入了不同类型的附加提示，例如班级信息、人类专业知识和参考图像作为提示。根据我们的实验，GPT-4V 被证明在检测和解释零/单次异常检测中的全局和细粒度语义模式方面非常有效。这样可以准确区分正常和异常实例。总体而言，GPT-4V在通用异常检测和理解方面表现出良好的性能，从而为异常检测开辟了一条新的途径。
 
 * [PeterL1n/BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2) 论文 Real-Time High-Resolution Background Matting 的官方存储库。我们的模型需要捕获额外的背景图像，并在 Nvidia RTX 2080 TI GPU 上以 4K 30fps 和 HD 60fps 的速度产生最先进的抠图效果。
@@ -7788,7 +7811,13 @@
 
 * [https://github.com/SoraWebui/SoraWebui](https://github.com/SoraWebui/SoraWebui) SoraWebui 是一个开源的 Sora Web 客户端，使用户能够使用 OpenAI 的 Sora 模型轻松地从文本创建视频。简化视频创建，具有简单的一键式网站部署功能。使用SoraWebui，任何人都可以通过简单地输入文本来创建视频，使其成为视频制作和AI技术的专业人士和爱好者的可访问工具。
 
+* [lichao-sun/Mora](https://github.com/lichao-sun/Mora) Mora：更像是 Sora 的通才视频生成。Mora 是一个多智能体框架，旨在利用与多个视觉智能体的协作方法，促进通用视频生成任务。它旨在复制和扩展 OpenAI 的 Sora 的功能。受 OpenAI Sora： First Impressions 的启发，我们利用 Mora 制作了害羞的儿童视频。尽管 Mora 在视频时长 80 秒方面已经达到了与 Sora 相似的水平，但 Mora 在分辨率、物体一致性、运动流畅度等方面仍然存在很大差距。Mora：用于视频生成的多智能体框架：多代理协作： 利用多个高级视觉 AI 代理，每个代理都专注于视频生成过程的不同方面，以在各种任务中实现高质量的结果。任务范围广： 能够执行文本到视频生成、文本条件图像到视频生成、扩展生成的视频、视频到视频编辑、连接视频和模拟数字世界，从而涵盖广泛的视频生成应用程序。开源和可扩展：Mora 的开源性质促进了社区内的创新和协作，从而允许持续改进和定制。经过验证的性能：实验结果表明，Mora 能够在各种任务中实现接近 Sora 的性能，使其成为视频生成领域引人注目的开源替代方案。
+
+* [invictus717/MetaTransformer](https://github.com/invictus717/MetaTransformer) Meta-Transformer 框架与多模态大型语言模型相结合，该模型执行多模态联合训练，支持更多模态，包括 fMRI、深度图和法线图，并在 25 个基准测试中展示了非常令人印象深刻的性能。作为基础模型，Meta-Transformer 可以处理来自 12 种模态的数据，这决定了它可以支持广泛的应用程序。如图所示，Meta-Transformer可以为下游任务提供服务，包括股票分析📈、天气预报❄️ ⛄ ☁️ ☔ ☀️ ⚡、遥感📡、自动驾驶🚗、社交网络🌍、语音识别🔉等。表 1：Meta-Transformer 能够处理多达 12 种模态，包括自然语言  、RGB 图像  、点云  、音频  、视频  、表格数据  、图形  、时间序列数据  、高光谱图像  、IMU  、医学图像  和红外图像  。此存储库旨在探索 transformer 在多模态学习中的潜力和可扩展性。我们利用 Transformer 的优势来处理长度变化序列。然后，我们按照元方案提出数据到序列的标记化，然后将其应用于 12 种模态，包括文本、图像、点云、音频、视频、红外、超光谱、X 射线、表格、图形、时间序列和惯性测量单元 （IMU） 数据。在获得令牌序列后，我们采用模态共享编码器来提取不同模态的表示。借助特定于任务的磁头，Meta-Transformer 可以处理不同模态的各种任务，例如：分类、检测和分割。
+
 * [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 利用AI大模型，一键生成高清短视频。只需提供一个视频主题或 关键词 ，就可以全自动生成视频文案、视频素材、视频字幕、视频背景音乐，然后合成一个高清的短视频。功能特性：完整的MVC架构，代码 结构清晰，易于维护，支持API和Web界面； 支持视频文案 AI自动生成，也可以自定义文案； 支持多种高清视频尺寸； 竖屏 9:16，1080x1920、 横屏 16:9，1920x1080； 支持 批量视频生成，可以一次生成多个视频，然后选择一个最满意的； 支持 视频片段时长 设置，方便调节素材切换频率； 支持中文和英文视频文案； 支持 多种语音 合成，可实时试听效果； 支持 字幕生成，可以调整；字体、位置、颜色、大小，同时支持字幕描边设置； 支持 背景音乐，随机或者指定音乐文件，可设置背景音乐音量； 视频素材来源 高清，而且 无版权，也可以使用自己的 本地素材； 支持 OpenAI、Moonshot、Azure、gpt4free、one-api、通义千问、Google Gemini、Ollama、 DeepSeek、 文心一言 等多种模型接入；中国用户建议使用 DeepSeek 或 Moonshot 作为大模型提供商。
+
+* [Yuliang-Liu/Monkey](https://github.com/Yuliang-Liu/Monkey) 【CVPR 2024亮点】Monkey （LMM）：图像分辨率和文本标签对于大型多模态模型来说很重要。
 
 * [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA) 面向多模态 GPT-4 级别功能构建的大型语言和视觉助手。
 
@@ -7876,6 +7905,14 @@
 
 * [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) 图像生成软件（基于Gradio）。对 Stable Diffusion 和 Midjourney 设计的重新思考：从 Stable Diffusion 中学习，该软件是离线、开源和免费的。从Midjourney中学习，不需要手动调整，用户只需要专注于提示和图像。
 
+* [Stability-AI/StableSwarmUI](https://github.com/Stability-AI/StableSwarmUI) StableSwarmUI，一个模块化的稳定扩散 Web 用户界面，重点是使工具易于访问、高性能和可扩展性。此项目处于 Beta 状态。这意味着对于大多数任务，Swarm 都为您提供了出色的工具，但还有更多计划。Swarm 被推荐为大多数用户、初学者和专业人士的理想 UI。还有一些事情需要解决。初学者用户会喜欢 Swarm 的主要 Generate 选项卡界面，它可以轻松生成具有各种强大功能的任何内容。高级用户可能更喜欢 Comfy Workflow 选项卡来获取不受限制的原始图形，但仍有理由返回到 Generate 选项卡以获得便利功能（图像编辑器、自动工作流生成等）和电动工具（例如 Grid Generator）。
+
+* [Kwai-Kolors/Kolors](https://github.com/Kwai-Kolors/Kolors) Kolors：用于逼真文本到图像合成的扩散模型的有效训练。Kolors是一个基于潜扩散的大规模文本转图像生成模型，由快手Kolors团队开发。经过数十亿个文本-图像对的训练，Kolors 在视觉质量、复杂语义准确性和中英文字符的文本渲染方面与开源和闭源模型相比都表现出显着优势。此外，Kolors支持中文和英文输入，在理解和生成中文特定内容方面表现出强大的表现。有关详细信息，请参阅此技术报告。
+
+* [PixArt-alpha/PixArt-sigma](https://github.com/PixArt-alpha/PixArt-sigma) PixArt-Σ：用于 4K 文本到图像生成的 Diffusion Transformer 的弱到强训练。PixArt-Σ的一个关键特点是其训练效率。它利用PixArt-α的基础预训练，通过加入高质量数据，从较弱的基线模型进化到更强的模型。通过利用Transformer Latent Diffusion模型和高质量数据，实现了从较弱的基线模型到更强模型的进化，从而能够生成4K分辨率的高质量图像。
+
+* [ShineChen1024/MagicClothing](https://github.com/ShineChen1024/MagicClothing) Magic Clothing正式实现：可控服装驱动的图像合成。Magic Clothing 是 OOTDiffusion 的一个分支版本，专注于可控服装驱动的图像合成。
+
 * [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) 关于扩散模型的资源和论文集
 
 * [black-forest-labs/flux](https://github.com/black-forest-labs/flux) FLUX.1 模型的官方推理仓库。FLUX.1 是由 Stable Diffusion 创始团队推出的开源 AI 图像生成模型，拥有 120 亿参数，是迄今为止最大的文生图模型。该模型包含三种变体：顶级性能的 FLUX.1 [pro]、开源非商业用途的 FLUX.1 [dev] 和快速高效的 FLUX.1 [schnell] 。FLUX.1 模型采用了创新的混合架构，融合了多模态处理能力和并行扩散机制的 Transformer 技术，并将其扩展至高达 120 亿个参数。这些模型在训练生成模型时表现出色，能够生成逼真的图像和高度逼真的人体解剖学表现。此外，FLUX.1 在文字生成、复杂指令遵循和人手生成上具备优势。FLUX.1 [pro] 版本专为商业用途设计，提供最先进的图像生成性能，包括顶级的提示词遵循、视觉质量、图像细节和输出多样性。而 FLUX.1 [dev] 版本则以非商业许可的方式开源，适合开发者和研究者使用。FLUX.1 [schnell] 版本则是面向个人开发者使用的极速版本，支持独立部署。总体而言，FLUX.1 在图像质量、提示词的准确跟随、尺寸适应性、排版以及输出的多样性方面，已经超越了市场上的其他流行模型如 Midjourney v6.0、DALL·E 3 (HD) 和 SD3-Ultra 等。这一新模型不仅继承了 Stable Diffusion 的优良基因，更在多个方面实现了重大突破。
@@ -7893,6 +7930,8 @@
 * [lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) 在Pytorch中实现/复制DALL-E，OpenAI的文本到图像转换器
 
 * [ashawkey/stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion) 文本到3D和图像到3D和网格导出与NeRF +扩散。
+
+* [AiuniAI/Unique3D](https://github.com/AiuniAI/Unique3D) Unique3D的官方实现：从单张图像生成高质量、高效的3D网格。Unique3D 在 30 秒内从单视图野生图像生成高保真且多样化的纹理网格。
 
 * [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) 稳定的扩散 Webui colab
 
@@ -8544,6 +8583,8 @@
 
 * [firefly-iii/firefly-iii](https://github.com/firefly-iii/firefly-iii) 免费开源的个人理财经理，可以帮助您跟踪您的支出和收入，因此您可以花更少的钱并节省更多的钱。Firefly III 支持使用预算、类别和标签。使用一堆外部工具，您可以导入数据。它还有许多简洁的财务报告。
 
+* [https://github.com/kungfu-origin/kungfu](https://github.com/kungfu-origin/kungfu) 专为量化交易者设计的开源交易执行系统。解决以下问题：低延迟交易 - 量化交易者对系统内响应速度有极高要求，功夫提供微秒级别的系统响应，支持带纳秒级时间戳的交易数据实时存储和盘后分析。开放的策略编写方式 - 功夫支持 Python 3 及 C++ 形式的策略编写，策略师可以不受限的自由使用第三方计算库，放飞创意。友好的使用方式 - 告别 Linux shell 小黑屋，功夫提供图形化操作界面，简化策略运维流程。而进阶用户仍然具备通过底层 API 以无界面形式使用系统的能力。跨平台运行 - 三大主流平台（Windows、MacOSX、Linux）皆可编译运行。功夫系统架构如下：后台核心（C++）长拳（longfist） - 金融交易相关的数据格式定义，提供涵盖 c++/python/js/sqlite 的序列化支持。易筋经（yijinjing） - 专为金融交易设计的超低延迟时间序列内存数据库，提供纳秒级时间精度，可落地交易相关的全部数据。咏春（wingchun） - 策略执行引擎，提供策略开发接口，实时维护策略账目及持仓情况。策略接口（C++/Python）RxCpp - 响应式事件处理框架，可对丰富数据类型的金融交易数据进行灵活处理。numpy/pandas - 自带的 Python 运行环境原生提供 numpy/pandas 等工具供策略使用。前端UI（Node.js）Electron - 跨平台的桌面应用开发框架Vue.js - UI开发框架功夫在系统设计上支持任意柜台的对接（涵盖中国所有股票、期货市场），功夫开源版提供 XTP 柜台对接的参考实现。
+
 ## 时间序列
 
 * [Zeying-Gong/PatchMixer](https://github.com/Zeying-Gong/PatchMixer) 最先进的长期时间序列预测，用于长期时间序列预测的 Patch-Mixing 架构。PatchMixer 主要由两个卷积层和两个预测头组成。它的显着特点是“补丁混合”设计，这意味着模型最初将输入时间序列分割成更小的时间补丁，然后集成来自这些补丁内部和之间的信息。从定量上看，与最先进的 Transformer （PatchTST） 相比，PatchMixer 在 MSE 上总体上相对减少了 3.9%，在 MAE 上相对减少了 3.0%。当根据性能最佳的基于 MLP 的模型 （DLinear） 进行评估时，我们的模型显示 MSE 上的 11.6% 和 MAE 上的 9.4% 总体下降。此外，与基于CNN的最佳模型（TimesNet）的可实现结果相比，我们证明了MSE上21.2%和MAE上12.5%的总体相对减少显着。
@@ -8941,6 +8982,10 @@
 
 * [2noise/ChatTTS](https://github.com/2noise/ChatTTS) 专为LLM助手等对话场景设计的文本转语音模型。它支持英文和中文。我们的模型训练了 100,000+ 小时，由中文和英文组成。HuggingFace 上的开源版本是一个 40,000 小时的预训练模型，没有 SFT。特色：对话式 TTS：ChatTTS 针对基于对话的任务进行了优化，可实现自然和富有表现力的语音合成。它支持多个扬声器，促进交互式对话。细粒度控制：该模型可以预测和控制细粒度的韵律特征，包括笑声、停顿和感叹词。更好的韵律：ChatTTS 在韵律方面超过了大多数开源 TTS 模型。我们提供预训练模型来支持进一步的研究和开发。
 
+* [https://github.com/jianchang512/ChatTTS-ui](https://github.com/jianchang512/ChatTTS-ui) 一个简单的本地网页界面，使用ChatTTS将文字合成为语音，同时支持对外提供API接口。
+
+* [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) 由Fish Audio开发的开源文本转语音（TTS）解决方案，旨在提供高效、多语言支持的语音合成技术。以下是Fish Speech的主要功能和特点：高效的文本到语音转换：Fish Speech利用先进的算法，能够迅速将输入的文本信息转换成听起来自然、流畅的语音。多语言支持：该工具支持中文、英文和日文，经过大量数据的训练，能够生成高质量的语音内容。具体来说，Fish Speech使用了约十五万小时的三语数据进行训练，对中文的支持非常完美。高效生成速度：Fish Speech是唯一一个能够以每秒20个标记生成语音的开源TTS模型。零样本语音克隆：用户只需录制说话人短时间的语音样本，即可迅速进行语音克隆，无需繁琐的训练过程。高保真语音合成：采用最新的AI算法，生成接近真人的语音，提供自然流畅的听觉体验。高度可定制性：Fish Speech提供了极高的自定义性和灵活性，以满足用户的个性化需求。用户可以根据自己的需求进行设置，并且支持本地化部署。低显存需求：该工具对显存的需求极低，仅需4GB，可以在个人设备上轻松运行和微调。模型轻量化：尽管模型参数仅为亿级，但其设计高效轻量，可以在个人设备上轻松运行和微调。情感表达：Fish Speech不仅能够生成自然和富有表现力的语音，还支持带有情感的语音合成。开源和社区支持：Fish Speech是一个开源项目，用户可以在GitHub上找到其代码并进行贡献。Fish Speech凭借其高效的文本到语音转换能力、多语言支持、零样本语音克隆、高保真语音合成、高度可定制性、低显存需求和模型轻量化等特点，成为了一个在文本转语音领域具有重要影响力的开源项目。
+
 * [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) MyShell的即时语音克隆。OpenVoice 的优势有三个方面：1.准确的色调颜色克隆。OpenVoice可以准确克隆参考音色，生成多种语言和口音的语音。2.灵活的语音风格控制。OpenVoice 支持对语音风格（如情感和口音）以及其他风格参数（包括节奏、停顿和语调）进行精细控制。3.零样本跨语言语音克隆。生成的语音的语言和参考语音的语言都不需要在大规模说话人多语言训练数据集中呈现。
 
 * [myshell-ai/MeloTTS](https://github.com/myshell-ai/MeloTTS) MyShell.ai 的高质量多语言文本转语音库。支持英语、西班牙语、法语、中文、日语和韩语。
@@ -9076,7 +9121,6 @@
 ## 语音识别与合成_其他
 
 * [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobiles) 一个基于 React native 开发的音乐软件。
-* [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobiles) 一个基于 React native 开发的音乐软件。
 
 * [TencentGameMate/chinese_speech_pretrain](https://github.com/TencentGameMate/chinese_speech_pretrain) WenetSpeech train_l 集的 1 万小时中文数据作为无监督预训练数据。数据主要来源于 YouTube 和 Podcast，覆盖了各种类型录制场景、背景噪声、说话方式等，其领域主要包括有声书、解说、纪录片、电视剧、访谈、新闻、朗读、演讲、综艺和其他等10大场景。
 
@@ -9091,6 +9135,8 @@
 * [google-research/sound-separation](https://github.com/google-research/sound-separation) 用于分离声音的开源数据集和深度学习模型。
 
 * [WenzheLiu-Speech/awesome-speech-enhancement](https://github.com/WenzheLiu-Speech/awesome-speech-enhancement) 总结了用于单/多通道语音增强/语音分离的论文、代码和工具。
+
+* [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans) 这是一个视频翻译配音工具，可将一种语言的视频翻译为指定语言的视频，自动生成和添加该语言的字幕和配音。语音识别支持 faster-whisper模型 openai-whisper模型 和 GoogleSpeech zh_recogn阿里中文语音识别模型.文字翻译支持 微软翻译|Google翻译|百度翻译|腾讯翻译|ChatGPT|AzureAI|Gemini|DeepL|DeepLX|字节火山|离线翻译OTT。文字合成语音支持 Microsoft Edge tts Google tts Azure AI TTS Openai TTS Elevenlabs TTS 自定义TTS服务器api GPT-SoVITS clone-voice ChatTTS-ui Fish TTS CosyVoice
 
 * [stemrollerapp/stemroller](https://github.com/stemrollerapp/stemroller) 从任何歌曲中分离出人声、鼓、贝斯和其他器乐声部
 
@@ -13352,6 +13398,8 @@
 * [svenstaro/genact](https://github.com/svenstaro/genact) 无意义的活动生成器，假装忙碌或等待你的电脑，而你实际上应该在做真正的工作！用你疯狂的多任务处理技能给人们留下深刻印象。只需打开几个 genact 实例并观看节目。Genact 有多个场景，假装正在做一些令人兴奋或有用的事情，而实际上根本没有发生任何事情。
 
 * [marticliment/UniGetUI](https://github.com/marticliment/UniGetUI) UniGetUI：包管理器的图形界面。可以被可怕地描述为包管理器管理器来管理您的包管理器。该项目的主要目标是为 Windows 10 和 11 最常见的 CLI 包管理器创建一个直观的 GUI，例如 WinGet、Scoop、Chocolatey、Pip、Npm、.NET Tool 和 PowerShell Gallery。 使用此应用程序，您可以轻松下载、安装、更新和卸载在受支持的包管理器上发布的任何软件 - 以及更多！
+
+* [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) 一个简单易用的 PowerShell 脚本，用于从 Windows 中删除预安装的应用程序、禁用遥测、从 Windows 搜索中删除 Bing，以及执行各种其他更改以整理和改善您的 Windows 体验。此脚本适用于 Windows 10 和 Windows 11。
 
 ## 知识管理 wiki知识库
 
