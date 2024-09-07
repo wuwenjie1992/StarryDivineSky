@@ -7446,12 +7446,18 @@
 
 * [s0md3v/roop](https://github.com/s0md3v/roop) 一键换脸，拍摄一个视频，并将其中的面孔替换为您选择的面孔。您只需要一张所需人脸的图像。没有数据集，就没有训练。
 
+* [lipku/metahuman-stream](https://github.com/lipku/metahuman-stream) 实时互动流式数字人，实现音视频同步对话。基本可以达到商业效果。特征：支持多种数字人模型， ernerf、musetalk、wav2lip；支持声音克隆；支持数字人说话被打断；支持全身视频拼接；支持rtmp和webrtc；支持视频编排，不说话时播放自定义视频
+
+* [williamyang1991/Rerender_A_Video](https://github.com/williamyang1991/Rerender_A_Video) 重新呈现视频：零样本的文本引导视频到视频翻译。大型文本到图像扩散模型在生成高质量图像方面表现出令人印象深刻的熟练程度。然而，当将这些模型应用于视频域时，确保视频帧之间的时间一致性仍然是一项艰巨的挑战。本文提出了一种新的零镜头文本引导视频到视频翻译框架，以使图像模型适应视频。该框架包括关键帧翻译和全视频翻译两部分。第一部分使用经过调整的扩散模型来生成关键帧，并应用分层跨帧约束来加强形状、纹理和颜色的连贯性。第二部分通过时间感知 Patch 匹配和帧混合将关键帧传播到其他帧。我们的框架以低成本实现了全局样式和局部纹理时间一致性（无需重新训练或优化）。该调整与现有的图像扩散技术兼容，使我们的框架能够利用它们，例如使用 LoRA 自定义特定主题，以及使用 ControlNet 引入额外的空间指导。广泛的实验结果表明，我们提出的框架在渲染高质量和时间相干视频方面优于现有方法。 特征：时间一致性：用于低级别时间一致性的跨帧约束。零样本：无需培训或微调。灵活性：与现成的模型（例如 ControlNet、LoRA）兼容，用于自定义翻译。
+
 * [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) 图像动画的一阶运动模型,实现静态图像到动态图像的转换.人脸、人物动作姿势模拟
 
 * [leap-ai/headshots-starter](https://github.com/leap-ai/headshots-starter) 可在几分钟内生成专业的 AI 头像。
 
 * [InstantID/InstantID](https://github.com/InstantID/InstantID) 在数秒内实现零样本人身份保留生成，最先进的免调谐方法，只需一张图像即可实现 ID 保留生成，支持各种下游任务。InstantID 实现了更好的保真度，并保留了良好的文本可编辑性（面孔和样式融合得更好）。[InstantX/InstantID](https://huggingface.co/InstantX/InstantID) 
 * [Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB) 超轻-快速-通用-人脸检测器-1MB，超轻量级人脸检测模型。模型大小方面，默认FP32精度（.pth）文件大小为1.04~1.1MB，推理框架int8量化大小约为300KB。就模型的计算量而言，320x240的输入分辨率约为90~109 MFlops。该模型有两个版本，version-slim（网络骨干简化，稍快）和version-RFB（带有修改后的RFB模块，精度更高）。提供320x240和640x480不同输入分辨率的Widerface训练预训练模型，以更好地在不同应用场景下工作。支持 onnx 导出，便于迁移和推理。提供 NCNN C++ 推理代码。提供MNN C++推理代码，MNN Python推理代码，FP32/INT8量化模型。提供 Caffe 型号和 onnx2caffe 转换代码。Caffe python 推理代码和 OpencvDNN 推理代码。
+
+* [https://github.com/mayuelala/FollowYourPose](https://github.com/mayuelala/FollowYourPose) [AAAI 2024]Follow-Your-Pose：此存储库是“Follow-Your-Pose：使用无姿势视频生成姿势引导的文本到视频”的官方实现
 
 * [minivision-ai/photo2cartoon](https://github.com/minivision-ai/photo2cartoon) 人像卡通化探索项目
 
@@ -7911,6 +7917,8 @@
 
 * [PixArt-alpha/PixArt-sigma](https://github.com/PixArt-alpha/PixArt-sigma) PixArt-Σ：用于 4K 文本到图像生成的 Diffusion Transformer 的弱到强训练。PixArt-Σ的一个关键特点是其训练效率。它利用PixArt-α的基础预训练，通过加入高质量数据，从较弱的基线模型进化到更强的模型。通过利用Transformer Latent Diffusion模型和高质量数据，实现了从较弱的基线模型到更强模型的进化，从而能够生成4K分辨率的高质量图像。
 
+* [Acly/krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion) 在 Krita 中使用 AI 生成图像的简化界面。使用可选的文本提示进行 Inpaint 和 Outpaint，无需调整。该项目的主要目标是：精度和控制,从文本创建整个图像可能是不可预测的,为了获得您设想的结果，您可以将生成限制为选区，以可变程度的强度优化现有内容，将文本集中在图像区域，并使用参考图像、草图、线条图、深度图等引导生成。工作流集成，大多数图像生成工具都非常关注 AI 参数，该项目旨在成为一个不显眼的工具，与 Krita 中的图像编辑工作流程集成和协同，无缝绘制、绘画、编辑和生成，无需担心分辨率和技术细节。本地、开放、免费，我们致力于开源模型，自定义预设，自带模型，并在您的硬件上本地运行所有内容，云生成也可用于快速启动，无需大量投资。特征：修复：使用选区进行生成式填充、扩展，以添加或删除对象；实时绘画：让 AI 实时解释您的画布以获得即时反馈；放大：在不耗尽内存的情况下将图像放大和丰富到 4k、8k 及以上；Stable Diffusion：支持 Stable Diffusion 1.5 和 XL，对 SD3 的部分支持；ControlNet：涂鸦、线条图、Canny edge、姿势、深度、法线、分割、+更多；IP 适配器：参考图像、样式和构图传输、面部交换；区域：将单个文本描述分配给由图层定义的图像区域；Job Queue：在处理映像时排队和取消生成作业；历史记录：随时预览结果并浏览前几代和提示；强默认值：多功能默认样式预设允许简化 UI；自定义：创建您自己的预设 - 自定义检查点、LoRA、采样器等。
+
 * [ShineChen1024/MagicClothing](https://github.com/ShineChen1024/MagicClothing) Magic Clothing正式实现：可控服装驱动的图像合成。Magic Clothing 是 OOTDiffusion 的一个分支版本，专注于可控服装驱动的图像合成。
 
 * [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) 关于扩散模型的资源和论文集
@@ -7960,6 +7968,13 @@
 * [divamgupta/diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) 适用于 MacOS 的Stable Diffusion GUI 应用程序
 
 * [luosiallen/latent-consistency-model](https://github.com/luosiallen/latent-consistency-model) 潜在一致性模型：使用几步推理合成高分辨率图像。
+
+* [https://github.com/jina-ai/dalle-flow](https://github.com/jina-ai/dalle-flow) DALL·E Flow 是一种交互式工作流，用于从文本提示生成高清图像。首先，它利用 DALL·E-Mega、GLID-3 XL 和 Stable Diffusion 生成候选图像，然后调用 CLIP-as-service 对候选图像进行排名。首选候选材料被送入 GLID-3 XL 进行扩散，这通常可以丰富纹理和背景。最后，通过 SwinIR 将候选图像放大到 1024x1024。DALL·E Flow 是在客户端-服务器架构中使用 Jina 构建的，这赋予了它高可扩展性、无阻塞流和现代 Pythonic 接口。客户端可以通过 gRPC/Websocket/HTTP 和 TLS 与服务器交互。为什么选择 Human-in-the-loop？生成艺术是一个创造性的过程。虽然 DALL·E 释放人们的创造力，拥有单一提示单一输出的 UX/UI 将想象力锁定在单一的可能性上，无论这个单一的结果多么精细，这都是糟糕的。DALL·E Flow 是单行代码的替代方案，通过将生成艺术正式化为迭代过程。
+
+* [PixArt-alpha/PixArt-alpha](https://github.com/PixArt-alpha/PixArt-alpha) PixArt-α：用于逼真文本到图像合成的 Diffusion Transformer 的快速训练。提出了三个核心设计：（1） 训练策略分解：我们设计了三个不同的训练步骤，分别优化像素依赖性、文本图像对齐和图像审美质量;（2） 高效的 T2I Transformer：我们将交叉注意力模块整合到 Diffusion Transformer （DiT） 中，以注入文本条件并简化计算密集型类条件分支;（3） 信息量大的数据：我们强调文本-图像对中概念密度的重要性，并利用大型视觉-语言模型自动标记密集的伪标题，以辅助文本-图像对齐学习。因此，PIXART-α 的训练速度明显超过现有的大规模 T2I 模型，例如，PIXART-α 仅占用 Stable Diffusion v1.5 训练时间的 10.8%（~675 对 ~6,250 个 A100 GPU 日），节省了近 300,000 美元（26,000 美元对 320,000 美元），并减少了 90% 的二氧化碳排放。此外，与更大的 SOTA 模型 RAPHAEL 相比，我们的训练成本仅为 1%。大量实验表明，PIXART-α 在图像质量、艺术性和语义控制方面表现出色。 我们希望 PIXART-α 能为 AIGC 社区和初创公司提供新的见解，以加速从头开始构建自己的高质量、低成本的生成模型。PixArt-alpha/PixArt-LCM-XL-2-1024-MS 检查点，
+LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的解决方案，只需几个步骤即可实现超快速推理。[PixArt-alpha/PixArt-LCM](https://huggingface.co/spaces/PixArt-alpha/PixArt-LCM)
+
+* [saharmor/dalle-playground](https://github.com/saharmor/dalle-playground) 使用 Stable Diffusion 从任何文本提示生成图像的游乐场（过去：使用 DALL-E Mini）
 
 * [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) 享受 Diffusion 模型的魔力！DiffSynth Studio 是一个扩散引擎。我们重组了包括 Text Encoder、UNet、VAE 等在内的架构，保持了与开源社区模型的兼容性，同时提高了计算性能。我们提供了许多有趣的功能。享受 Diffusion 模型的魔力！到目前为止，DiffSynth Studio 支持以下模型：ExVideo，Kolors，Stable Diffusion 3，Stable Video Diffusion，Hunyuan-DiT，RIFE，ESRGAN，Ip-Adapter，AnimateDiff，ControlNet，Stable Diffusion XL，Stable Diffusion
 
@@ -8455,6 +8470,10 @@
 
 * [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer) 在浏览器中可视化和探索 3D 模型的解决方案。在线 3D 查看器 （https://3dviewer.net） 是一种免费的开源 Web 解决方案。
 
+* [NVIDIA/warp](https://github.com/NVIDIA/warp) Warp 是一个用于编写高性能模拟和图形代码的 Python 框架。Warp 采用常规的 Python 函数，并对其进行 JIT 编译为可以在 CPU 或 GPU 上运行的高效内核代码。Warp 专为空间计算而设计，并附带一组丰富的基元，使编写用于物理模拟、感知、机器人和几何处理的程序变得容易。此外，Warp 内核是可微分的，可以用作具有 PyTorch 和 JAX 等框架的机器学习管道的一部分。
+
+* [adobe-research/custom-diffusion](https://github.com/adobe-research/custom-diffusion) 自定义扩散允许您为新概念的几张图像 （~4-20） 微调文本到图像的扩散模型，例如稳定扩散。我们的方法速度很快（在 2 个 A100 GPU 上需要 ~6 分钟），因为它只微调交叉注意力层中的模型参数子集，即键和值投影矩阵。这也将每个额外概念的额外存储空间减少到 75MB。我们的方法进一步允许您使用多个概念的组合，例如新对象 + 新艺术风格、多个新对象和新对象 + 新类别。
+
 # 因果推断
 
 * [microsoft/EconML](https://github.com/microsoft/EconML) ALICE（因果关系和经济学的自动学习和智能）是微软研究项目，旨在将AI概念应用于经济决策。 其目标之一是构建一个工具包，将最先进的机器学习技术与计量经济学相结合，以便将自动化应用于复杂的因果关系
@@ -8596,6 +8615,8 @@
 * [alan-turing-institute/sktime](https://github.com/alan-turing-institute/sktime) 时间序列的机器学习统一框架 。包括时间序列分类、回归、聚类、注释和预测。
 
 * [facebook/prophet](https://github.com/facebook/prophet) 用于为具有线性或非线性增长的多个季节性的时间序列数据生成高质量预测的工具。
+
+* [KimMeen/Time-LLM](https://github.com/KimMeen/Time-LLM) Time-LLM： 通过重新编程大型语言模型进行时间序列预测。Time-LLM 是一种重编程框架，用于重新用于LLMs一般时间序列预测，同时保持骨干语言模型不变。值得注意的是，我们发现时间序列分析（例如，预测）可以被看作是另一个“语言任务”，可以由现成LLM的。时间-LLM包括两个关键组成部分：（1）将输入时间序列重新编程为对用户LLM来说更自然的文本原型表示，以及（2）通过声明性提示（例如，领域专家知识和任务指令）增强输入上下文以指导LLM推理。（2024 年 3 月）：Time-LLM 已升级为通用框架，用于将各种语言模型重新用于时间序列预测。它现在默认支持 Llama-7B，并包括与另外两个较小的 PLM（GPT-2 和 BERT）的兼容性。只需调整 --llm_model 和 --llm_dim 即可切换主干。Time-LLM 已被包含在 NeuralForecast 中。时间LLM 已被 XiMou Optimization Technology Co.， Ltd. （XMO） 用于太阳能、风能和天气预报。
 
 * [jdb78/pytorch-forecasting](https://github.com/jdb78/pytorch-forecasting) pytorch的时间系列预测库，模型包括：RecurrentNetwork、DecoderMLP、NBeats 、DeepAR 、TemporalFusionTransformer。
 
