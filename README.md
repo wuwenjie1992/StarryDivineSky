@@ -458,6 +458,10 @@
 
 * [BinRoot/TensorFlow-Book](https://github.com/BinRoot/TensorFlow-Book) 随附的 Machine Learning with TensorFlow 源代码。请参阅本书以获取分步说明。
 
+* [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) SkyPilot：在任何基础设施（Kubernetes 或 12+ 云）上运行 AI 和批处理作业。通过简单的界面实现统一执行、成本节约和高可用性。SkyPilot 消除了基础设施负担：在任何基础设施上启动开发集群、作业和服务；轻松的作业管理：对许多作业进行排队、运行和自动恢复。SkyPilot 支持多个集群、云和硬件 （Sky）：带上您的预留 GPU、Kubernetes 集群或 12+ 云，灵活预置 GPU、TPU、CPU，具有自动重试功能。SkyPilot降低您的云成本并最大化GPU可用性：Autostop：自动清理空闲资源；托管 Spot：使用 Spot 实例节省 3-6 倍的成本，并具有抢占自动恢复功能；优化器：通过自动选择最便宜和最可用的基础设施，节省2倍的成本。SkyPilot 支持您现有的 GPU、TPU 和 CPU 工作负载，无需更改代码。
+
+* [zml/zml](https://github.com/zml/zml) 在 ZML，我们正在高性能 AI 推理堆栈之上创建令人兴奋的 AI 产品。我们的堆栈专为生产而构建，使用令人惊叹的 Zig 语言、MLIR 和 Bazel 的强大功能。
+
 
 ## 特征工程
 
@@ -2606,6 +2610,27 @@
 
 * [yangling0818/buffer-of-thought-llm](https://github.com/yangling0818/buffer-of-thought-llm) 思想缓冲：使用大型语言模型进行思想增强推理。BoT，这是一种新颖且多功能的思维增强推理方法，旨在提高大型语言模型 （LLMs。具体来说，我们提出了一个元缓冲区来存储一系列高级思想，称为思想模板，这些思想是从各种任务中解决问题的过程中提炼出来的。对于每个问题，我们检索一个相关的思想模板，并使用特定的推理结构自适应地实例化它，以进行有效的推理。为了确保可扩展性和稳定性，我们还提出了一个 buffer-manager 来动态更新 meta-buffer，从而随着更多任务的解决而增强其容量。我们对 10 项具有挑战性的推理密集型任务进行了广泛的实验，与以前的最先进的 （SOTA） 方法相比，性能有了显著提高：Game of 24 的性能提高了 11%，几何形状的性能提高了 20%，Checkmate-in-One 的性能提高了 51%。进一步的分析表明，我们的 BoT 具有卓越的泛化能力和稳健性，而平均只需要多查询提示方法（例如，树/思想图）成本的 12%。值得注意的是，我们发现我们的 Llama3-8B + BoT 有可能超越 Llama3-70B 模型。
 
+* [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) 用于编排角色扮演、自主 AI 代理的尖端框架。通过培养协作智能，CrewAI 使座席能够无缝协作，处理复杂的任务。CrewAI 旨在使 AI 代理能够承担角色、共享目标并在一个有凝聚力的单位中运作 - 就像一个运转良好的船员一样。无论您是在构建智能助手平台、自动化客户服务集成还是多代理研究团队，CrewAI 都可以为复杂的多代理交互提供支柱。主要特点：基于角色的代理设计：使用特定角色、目标和工具自定义代理。自主代理间委派：代理可以自主委派任务并相互查询，从而提高解决问题的效率。灵活的任务管理：使用可自定义的工具定义任务并将其动态分配给代理。流程驱动：目前仅支持顺序任务执行和分层流程，但更复杂的流程（如共识和自主）。将输出另存为文件：将单个任务的输出另存为文件，以便以后使用。将输出解析为 Pydantic 或 Json：如果需要，可以将单个任务的输出解析为 Pydantic 模型或 Json。使用开源模型：使用 Open AI 或开源模型运行 crewAI 
+
+* [alibaba/ChatLearn](https://github.com/alibaba/ChatLearn/) 用于大规模对齐的灵活高效的训练框架。ChatLearn 是由阿里云 PAI 平台开发的大规模对齐训练框架。用户友好的编程界面：用户可以通过包装一些功能来专注于对单个模型进行编程，而系统则负责资源调度、数据和控制流传输以及分布式执行。高度可扩展的训练方法：ChatLearn 提供 RLHF、DPO、OnlineDPO 和 GRPO 等对齐训练，同时还支持用户定义的模型执行流程，从而实现高度方便和可定制的训练过程。多样化的分布式加速引擎：用户可以利用各种计算后端进行模型构建，例如 Megatron-LM、DeepSpeed、vLLM 等。例如，我们可以使用 Megatron-LM 进行训练，使用 vLLM 来加快推理速度。灵活的并行策略和资源分配：ChatLearn 支持针对各种模型配置的不同并行策略，从而能够根据每个模型的计算、内存和通信特性制定不同的并行方法，此外，ChatLearn 还具有灵活的资源调度机制，可适应跨模型对资源的独占或共享使用，通过其系统调度策略，它促进了高效的串行/并行执行和优化的 GPU 内存共享，从而提高了整体性能和效率。高性能：与目前最先进的 SOTA（系统）相比，在 7B+7B（策略 + 奖励）规模下实现了 52% 的性能提升，在 70B+70B 规模上实现了 137% 的提升，同时， 支持更大规模的对齐训练，例如 300B+300B。
+
+* [sgl-project/sglang](https://github.com/sgl-project/sglang) SGLang 是一个适用于大型语言模型和视觉语言模型的快速服务框架。它通过共同设计后端运行时和前端语言，使您与模型的交互更快、更可控。核心功能包括：快速后端运行时：使用 RadixAttention 为前缀缓存、前跃移约束解码、连续批处理、标记注意力（分页注意力）、张量并行性、FlashInfer 内核、分块预填充和量化 （INT4/FP8/AWQ/GPTQ） 提供高效服务。灵活的前端语言：为编程 LLM，包括链式生成调用、高级提示、控制流、多模态输入、并行性和外部交互。广泛的模型支持：支持各种生成模型（Llama 3、Gemma 2、Mistral、QWen、DeepSeek、LLaVA 等）和嵌入模型 （e5-mistral），易于扩展以集成新模型。活跃的社区：SGLang 是开源的，并由一个活跃的社区提供支持，并得到行业采用。与 TensorRT LLM 和 vLLM 相比，SGLang Runtime 在在线和离线场景中始终如一地提供卓越或有竞争力的性能，使用 FP8 和 FP16 处理从 Llama-8B 到 Llama-405B 的模型，以及在 A100 和 H100 GPU 上。SGLang 的性能始终优于 vLLM，在 Llama-70B 上的通量提高了 3.1 倍。它也经常匹配或有时优于 TensorRT LLM 。更重要的是，SGLang 是完全开源的，用纯 Python 编写，核心调度器在不到 4K 行的代码中实现。
+
+* [linkedin/Liger-Kernel](https://github.com/linkedin/Liger-Kernel) Liger Kernel 是专为 LLM。它可以有效地提高 20% 的多 GPU 训练吞吐量，并减少 60% 的内存使用。我们已经实施了 Hugging Face CompatibleRMSNorm、RoPE、SwiGLU、CrossEntropy、FusedLinearCrossEntropy 等。该内核可与 Flash Attention、PyTorch FSDP 和 Microsoft DeepSpeed 配合使用，开箱即用。我们欢迎社区的贡献，为 LLM。只需一行代码，Liger Kernel 就可以将吞吐量提高 20% 以上，并将内存使用量降低 60%，从而实现更长的上下文长度、更大的批处理大小和海量词汇。主要特点：易用性：只需用一行代码修补你的 Hugging Face 模型，或者使用我们的 Liger Kernel 模块编写你自己的模型。省时省内存：本着与 Flash-Attn 相同的精神，但适用于 RMSNorm、RoPE、SwiGLU 和 CrossEntropy！通过内核融合、就地替换和分块技术，将多 GPU 训练吞吐量提高 20%，并将内存使用量降低 60%。确切：计算是精确的 - 没有近似值！前向和后向传递均通过严格的单元测试实现，并针对没有 Liger 内核的训练运行进行收敛测试，以确保准确性。轻：Liger Kernel 的依赖项最少，只需要 Torch 和 Triton，不需要额外的库！告别依赖性头痛！支持多 GPU：与多 GPU 设置（PyTorch FSDP、DeepSpeed、DDP 等）兼容。Trainer 框架集成：Axolotl、LLaMa-Factory、SFTTrainer、Hugging Face Trainer、SWIFT
+
+* [0xeb/TheBigPromptLibrary](https://github.com/0xeb/TheBigPromptLibrary) Big Prompt Library 存储库是各种 LLM 提供商和解决方案（如 ChatGPT、Microsoft Copilot 系统、Claude、Gab.ai、Gemini、Cohere 等）的各种系统提示、自定义指令、越狱提示、GPT/指令保护提示等的集合，为学习编写系统提示和创建自定义 GPT 提供重要的教育价值。
+
+* [HandsOnLLM/Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) O'Reilly Book 的官方代码存储库 - “Hands-On Large Language Models” 通过本书的视觉教育性质和 250 多个定制图表，学习您今天使用大型语言模型所需的实用工具和概念！第 1 章：语言模型简介。第 2 章：标记和嵌入。第 3 章：深入了解 Transformer LLMs。第 4 章：文本分类。第 5 章：文本聚类和主题建模。第 6 章：提示工程。第 7 章：高级文本生成技术和工具。第 8 章：语义搜索和检索 - 增强生成。第 9 章：多模态大型语言模型。第 10 章：创建文本嵌入模型。第 11 章：微调分类的表示模型。第 12 章：微调生成模型。
+
+* [jingyaogong/minimind](https://github.com/jingyaogong/minimind) 【大模型】3小时完全从0训练一个仅有26M的小参数GPT，最低仅需2G显卡即可推理训练！MiniMind极其轻量，体积约是 GPT3 的 1/7000，力求做到最普通的个人GPU也可快速推理甚至训练。MiniMind改进自DeepSeek-V2、Llama3结构，项目包含整个数据处理、pretrain、sft、dpo的全部阶段，包含混合专家(MoE)模型。这是一个既是开源项目，又是入门LLM教程，同时也是一个初具雏形的开源模型，希望能起到抛砖引玉的作用。因此，本项目的目标是把上手LLM的门槛无限降低， 直接从0开始训练一个极其轻量的语言模型。项目包含：公开MiniMind模型代码（包含Dense和MoE模型）、Pretrain、SFT指令微调、LoRA微调、DPO偏好优化的全过程代码、数据集和来源。兼容transformers、accelerate、trl、peft等流行框架。训练支持单机单卡、单机多卡(DDP、DeepSpeed)训练，使用wandb可视化训练流程。支持在任意位置停止，及在任意位置继续训练。在Ceval数据集上进行模型测试的代码。实现Openai-Api基本的chat接口，便于集成到第三方ChatUI使用（FastGPT、Open-WebUI等）。
+
+* [pytorch/torchtitan](https://github.com/pytorch/torchtitan) torchtitan 是使用原生 PyTorch 进行大规模 LLM。它现在（并将继续是）一个存储库，用于在干净、最小的代码库中展示 PyTorch 最新的分布式训练功能。TorchTitan 是对任何伟大的大规模 LLM、Megablocks、LLM Foundry、Deepspeed 等。相反，我们希望 torchtitan 中展示的功能能够迅速被这些代码库采用。Torchtitan 不太可能围绕它发展一个大型社区。我们在构建 torchtitan 时的指导原则：旨在易于理解、使用和扩展，以用于不同的培训目的。应用 1D、2D 或 （即将推出的） 3D Parallel 时，对模型代码的更改最小。模块化组件，而不是整体式代码库。几分钟即可开始，而不是几小时！
+
+* [OpenBuddy/OpenBuddy](https://github.com/OpenBuddy/OpenBuddy) OpenBuddy 是一个针对全球用户的强大开放式多语言聊天机器人模型，强调对话式 AI 和对英语、中文和其他语言的无缝多语言支持。OpenBuddy 基于 Tii 的 Falcon 模型和 Facebook 的 LLaMA 模型构建，经过微调以包括扩展词汇表、额外的常用字符和增强的令牌嵌入。通过利用这些改进和多轮对话数据集，OpenBuddy 提供了一个强大的模型，能够回答各种语言的问题和执行翻译任务。
+
+* [sail-sg/sailor-llm](https://github.com/sail-sg/sailor-llm) 东南亚的开放语言模型，Sailor 是一套为东南亚 （SEA） 量身定制的开放语言模型，专注于印度尼西亚语、泰语、越南语、马来语和老挝语等语言。通过精心策划数据开发的，旨在理解和生成东南亚地区不同语言环境中的文本。Sailor 基于 Qwen 1.5 构建，包含不同尺寸的模型，从 0.5B 到 14B 版本，可满足不同的要求。基准测试结果表明 Sailor 熟练掌握东南亚语言的问答、常识推理、阅读理解等任务。
+
+* [lmstudio-ai/lms](https://github.com/lmstudio-ai/lms) LM Studio 的命令行工具。使用 lmstudio.js 构建。LM Studio 是一个功能强大的命令行工具，专为 LM Studio 设计，提供模型管理和本地API服务。它基于 lmstudio.js 构建，支持 Windows、Linux 和 macOS 多个平台。用户可以通过简单的命令进行安装、启动和管理模型，并支持 GPU 加速。无论是查看模型状态、加载和卸载模型，还是创建新项目，lms 都能轻松应对。工具还支持流式日志监控，确保用户对模型运行状态一目了然。LM Studio 的命令行工具 lms 是 LM Studio 的官方命令行工具，为用户提供了便捷的模型管理和推理功能。它基于 lmstudio.js 构建，支持 Windows、Linux 和 macOS 多个平台。用户可以通过命令行实现模型的管理和推理，简化了复杂的模型操作过程。LM Studio 还提供了多种部署方式，如 REST API、命令行工具等，方便用户在本地部署模型。通过 lms 命令行工具，用户可以轻松管理模型，并支持流式日志监控，确保模型运行状态透明可见。
 
 #### 编程语言大模型及相关项目
 
@@ -3319,6 +3344,18 @@
 
 * [LLM-Red-Team/metaso-free-api](https://github.com/LLM-Red-Team/metaso-free-api) 秘塔AI搜索逆向API白嫖测试【特长：超强检索超长输出】，支持高速流式输出、超强联网搜索（全网or学术以及简洁、深入、研究三种模式），零配置部署，多路token支持
 
+* [DaveBben/esp32-llm](https://github.com/DaveBben/esp32-llm) 在 ESP32 上运行 LLM。使用的 “Large” 语言模型实际上非常小。它是在 tiny stories 数据集上训练的 260K 参数 tinyllamas 检查点。LLM 实现是使用 llama.2c 完成的，并进行了少量优化，使其在 ESP32 上运行得更快。LLMs 需要大量内存。即使是这个小的仍然需要 1MB 的 RAM。我使用了 ESP32-S3FH4R2因为它有 2MB 的嵌入式 PSRAM。通过对 llama2.c 进行以下更改，我能够达到 19.13 tok/s：在数学运算中利用 ESP32 的两个内核。利用 ESP-DSP 库中专为 ESP32-S3 设计的一些特殊点积函数，这些功能利用了 ESP32-S3 为数不多的 SIMD 指令。将 CPU 速度提高到 240 MHz，将 PSRAM 速度提高到 80MHZ，并增加指令缓存大小。
+
+
+
+
+
+
+
+
+
+
+
 
 ### 其他_文本生成、文本对话
 
@@ -3409,6 +3446,10 @@
 * [google/sentencepiece](https://github.com/google/sentencepiece) 用于基于神经网络的文本生成的无监督文本分词器。
 
 * [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) 生成式 AI 正在经历快速增长，该存储库是生成式 AI 研究、访谈材料、笔记本等更新的综合中心！
+
+* [user1342/Tomato](https://github.com/user1342/Tomato) LLM 隐写术与最小熵耦合 - 在自然语言中隐藏加密消息。如何运作：LLM 生成的封面文本：LLM 像往常一样，根据提示生成连贯的文本。使用 MEC 嵌入：MEC 用于将隐藏消息（密文）的概率分布与LLM，这种耦合最小化了联合熵，确保隐写文本（带有嵌入消息的封面文本）保留了自然语言的统计属性，使隐藏的消息实际上无法被检测到。解码过程：在解码过程中，LLM 通过提供隐写文本的上下文感知解释来提供帮助，然后反向使用 MEC 将隐藏的消息与隐藏文本分离，该过程利用嵌入过程中使用的相同概率分布，确保在不影响隐藏文本完整性的情况下准确提取消息。此方法可确保隐藏的消息无缝集成到文本中，并且可以在以后安全、精确地检索，同时将检测风险降至最低。
+
+
 
 ## 文本匹配 文本检索 文本相似度
 
@@ -4793,6 +4834,8 @@
 
 * [PatrickJS/awesome-angular](https://github.com/PatrickJS/awesome-angular) 令人敬畏的 Angular 资源的精选列表
 
+* [primefaces/primeng](https://github.com/primefaces/primeng) 使用 PrimeNG 的全面可定制、功能丰富的 UI 组件套件提升您的 Web 应用程序。有了 PrimeNG，将您的开发愿景变为现实从未如此简单。在与设计无关的基础设施上精心制作，可从大量主题（如 Material、Bootstrap、Tailwind、PrimeOne）中进行选择或开发您自己的主题。400+ 准备好复制粘贴 UI 块，以立即构建出色的应用程序。专业设计、高度可定制的应用程序模板，以时尚的方式开始。
+
 * [hexojs/hexo](https://github.com/hexojs/hexo) 一个快速，简单和强大的博客框架，由Node.js提供支持。
 
 * [statelyai/xstate](https://github.com/statelyai/xstate) 现代 Web 的状态机和状态图。状态图是用于对有状态、反应性系统进行建模的形式。这对于以声明方式描述应用程序的行为（从各个组件到整个应用程序逻辑）非常有用。
@@ -5788,6 +5831,10 @@
 
 * [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。（使用 NextJS 和 Notion API 构建的静态博客，支持多种部署选项。无需服务器，建立网站零门槛。专为 Notion 和所有创作者设计。 
 
+* [timqian/chart.xkcd](https://github.com/timqian/chart.xkcd) Chart.xkcd 是一个图表库，用于绘制“粗略”、“卡通”或“手绘”样式的图表。
+
+* [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) 完整的开源稍后阅读解决方案，适合喜欢文本的人。我们创建 Omnivore 是因为我们热爱阅读，我们希望它更具社交性。特色：突出显示、注释、搜索和共享，全键盘导航，自动保存长篇文章中的位置，通过电子邮件添加新闻稿文章（支持 substack！），PDF 支持，用 Node.js 和 TypeScript 编写的 Web 应用程序，原生 iOS 程序，Android 程序，适用于 Android 用户的渐进式 Web 应用程序，Chrome、Safari、Firefox 和 Edge 的浏览器扩展，标签（又称标记），离线支持，文本转语音（仅限 iOS），通过我们的 Logseq 插件支持 Logseq，通过我们的 Obsidian 插件支持 Obsidian，每个部分都是完全开源的！对其进行分叉、扩展或将其部署到您自己的服务器。omnivore.app 一个免费托管的 Omnivore 版本
+
 ### 管理面板
 
 * [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
@@ -6213,6 +6260,10 @@
 
 * [nhost/nhost](https://github.com/nhost/nhost) 使用 GraphQL 的开源 Firebase 替代方案。Nhost 由开源软件组成：数据库：PostgreSQL，Instant GraphQL API：Hasura，身份验证：Hasura Auth，存储：Hasura Storage，无服务器函数：Node.js（JavaScript 和 TypeScript），用于本地开发的 Nhost CLI
 
+* [lihengming/spring-boot-api-project-seed](https://github.com/lihengming/spring-boot-api-project-seed) 基于Spring Boot & MyBatis的种子项目，用于快速构建中小型API、RESTful API项目，该种子项目已经有过多个真实项目的实践，稳定、简单、快速，使我们摆脱那些重复劳动，专注于业务代码的编写，减少加班。下面是一个简单的使用演示，看如何基于本项目在短短几十秒钟内实现一套简单的API，并运行提供服务。特征&提供：最佳实践的项目结构、配置文件、精简的POM（查看项目结构图）；统一响应结果封装及生成工具；统一异常处理；简单的接口签名认证；常用基础方法抽象封装；使用Druid Spring Boot Starter 集成Druid数据库连接池与监控；使用FastJsonHttpMessageConverter，提高JSON序列化速度；集成MyBatis、通用Mapper插件、PageHelper分页插件，实现单表业务零SQL；提供代码生成器根据表名生成对应的Model、Mapper、MapperXML、Service、ServiceImpl、Controller等基础代码，其中Controller模板默认提供POST和RESTful两套，根据需求在CodeGenerator.genController(tableName)方法中自己选择，默认使用POST模板。代码模板可根据实际项目的需求来扩展，由于每个公司业务都不太一样，所以只提供了一些比较基础、通用的模板，主要是提供一个思路来减少重复代码的编写，我在实际项目的使用中，其实根据公司业务的抽象编写了大量的模板。另外，使用模板也有助于保持团队代码风格的统一
+
+* [kekingcn/kkFileView](https://github.com/kekingcn/kkFileView) 文档在线预览项目解决方案，使用流行的 Spring Boot 框架构建，便于设置和部署。这个多功能的开源项目为各种文档格式提供基本支持，包括：支持 Office 文档，如 doc、docx、xls、xlsx、xlsm、ppt、pptx、csv、tsv、、dotm、xlt、xltm、dot、xlam、dotx、xla、页面等。支持 wps、dps、et、ett、wpt 等国内 WPS Office 文档。支持 OpenOffice、LibreOffice 办公文档，如 odt、ods、ots、odp、otp、six、ott、fodt 和 fods。支持 vsd、vsdx 等 Visio 流程图文件。支持 wmf、emf 等 Windows 系统镜像文件。支持 psd 、eps 等 Photoshop 软件模型文件。支持 pdf、ofd 和 rtf 等文档格式。支持 xmind 等软件模型文件。支持 BPMN 工作流程文件。支持 eml 邮件文件。支持 epub 书籍文档。支持 3D 模型文件，如 obj、3ds、stl、ply、gltf、glb、off、3dm、fbx、dae、wrl、3mf、ifc、brep、step、iges、fcstd、bim 等。支持 dwg、dxf、dwfiges 、 igs、 dwt 、 dng 、 ifc 、 dwfx 、 stl 、 cf2 、 plt 等 CAD 模型文件。支持所有纯文本文件，如 txt、xml（渲染）、md（渲染）、java、php、py、js、css 等。支持 zip、rar、jar、tar、gzip、7z 等压缩包。支持 jpg、jpeg、png、gif、bmp、ico、jfif、webp 等的图像预览（翻转、缩放、镜像）。支持 tif 和 tiff 等图像信息模型文件。支持 tga 等图像格式文件。支持 svg 等矢量图像格式文件。支持 mp3、wav、mp4、flv。支持多种音频和视频格式文件，如 avi、mov、wmv、mkv、3gp 和 rm。支持 dcm、drawio .
+
 * [dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) 基于 GraphQL 模式和 GraphQL 操作（查询/变更/订阅）生成代码的工具，灵活支持自定义插件。GraphQL Code Generator 是一种从 GraphQL 模式生成代码的工具。无论您是开发前端还是后端，您都可以利用 GraphQL 代码生成器从 GraphQL 模式和 GraphQL 文档（查询/突变/订阅/片段）生成输出。通过分析模式和文档并对其进行解析，GraphQL Code Generator 可以基于预定义的模板或基于自定义用户定义的模板以多种格式输出代码。无论您使用哪种语言，GraphQL Code Generator 都能满足您的需求。
 
 * [LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production) Zero To Production In Rust 是对使用 Rust 进行后端开发的自以为是的介绍。从零到生产是您作为 Rust 后端开发人员的理想起点。您将边做边学：您将从头开始构建一个功能齐全的电子邮件通讯 API。本书由 11 章组成，共 ~600 页。
@@ -6601,6 +6652,8 @@
 * [netdata/netdata](https://github.com/netdata/netdata) 以高分辨率和实时监控您的服务器、容器和应用程序！
 
 * [nektos/act](https://github.com/nektos/act) 在本地运行 GitHub Actions，快速反馈 - 无需在每次要测试对 `.github/workflows/` 文件所做的更改（或对嵌入式 GitHub 操作的任何更改）时都提交/推送，而是可以在 `act` 本地运行操作。环境变量和文件系统都配置为与 GitHub 提供的内容相匹配。
+
+* [actions/starter-workflows](https://github.com/actions/starter-workflows) 这些是帮助人们开始使用 GitHub Actions 的工作流程文件。每当您开始创建新的 GitHub Actions 工作流程时，都会显示它们。如果您想开始使用 GitHub Actions，可以通过单击要创建工作流程的存储库中的“Actions”选项卡来使用这些入门工作流程。每个工作流都必须用 YAML 编写，并且具有 .yml 扩展。他们还需要一个相应的 .properties.json 文件，其中包含有关工作流的额外元数据（显示在 GitHub.com UI 中）。
 
 * [go-gitea/gitea](https://github.com/go-gitea/gitea) 轻松自托管的一体化软件开发服务，包括 Git 托管、代码审查、团队协作、包注册表和 CI/CD
 
@@ -11379,6 +11432,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 
 * [pinecone-wifi/pinecone](https://github.com/pinecone-wifi/pinecone) WLAN网络审计工具，适合红队使用。它可以通过模块进行扩展，并且设计为在基于 Debian 的操作系统中运行。松果专门用于与树莓派一起使用，作为便携式无线审计盒。
 
+* [wikiZ/RedGuard](https://github.com/wikiZ/RedGuard) RedGuard 是基于命令与控制 （C2） 前流控制技术的衍生工具，具有更轻的设计、高效的流量交互以及与 go 编程语言开发的可靠兼容性。随着网络攻击的不断演进，红蓝队演习变得越来越复杂，RedGuard 旨在为红队提供更好的 C2 通道隐藏解决方案，为 C2 通道提供流控，阻断“恶意”分析流量，更好地完成整个攻击任务。
+
 * [Trusted-AI/adversarial-robustness-toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) 用于机器学习安全的 Python 库 - 规避、中毒、提取、推理 - 红蓝团队。Adversarial Robustness Toolbox （ART） 是用于机器学习安全性的 Python 库。ART由Linux基金会人工智能与数据基金会（LF AI & Data）主办。ART 提供的工具使开发人员和研究人员能够防御和评估机器学习模型和应用程序，以应对规避、中毒、提取和推理的对抗性威胁。ART 支持所有流行的机器学习框架（TensorFlow、Keras、PyTorch、MXNet、scikit-learn、XGBoost、LightGBM、CatBoost、GPy 等）、所有数据类型（图像、表格、音频、视频等）和机器学习任务（分类、对象检测、语音识别、生成、认证等）。
 
 * [occlum/occlum](https://github.com/occlum/occlum) 蚂蚁集团自研的开源可信执行环境（Trusted Execution Environments，简称 TEE） OS 系统 Occlum ,大幅降低 SGX 应用开发的门槛.机密计算（Confidential Computing）使得数据始终保持加密和强隔离状态，从而确保用户数据的安全和隐私。
@@ -12941,6 +12996,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 
 * [avelino/awesome-go](https://github.com/avelino/awesome-go) 精选的 Go 框架、库和软件的精选列表
 
+* [sourcegraph/conc](https://github.com/sourcegraph/conc) Conc 是 Go 中结构化并发的工具带，使常见任务更轻松、更安全。
+
 * [unknwon/go-study-index](https://github.com/unknwon/go-study-index) Go 语言学习资料与社区索引
 
 * [go-shiori/shiori](https://github.com/go-shiori/shiori) 使用 Go 构建的简单书签管理器
@@ -12968,6 +13025,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [expr-lang/expr](https://github.com/expr-lang/expr) Expr 是一种以 Go 为中心的表达式语言，旨在以无与伦比的准确性、安全性和速度提供动态配置。Expr 将简单的语法与强大的功能相结合，易于使用。
 
 * [antonmedv/fx](https://github.com/antonmedv/fx) Go的终端 JSON 查看器和处理器
+
+* [tidwall/tile38](https://github.com/tidwall/tile38) Tile38 是一个开源（MIT 许可）、内存中的地理位置数据存储、空间索引和实时地理围栏服务器。它支持多种对象类型，包括纬度/经度点、边界框、XYZ 图块、Geohashes 和 GeoJSON。
 
 * [fatih/vim-go](https://github.com/fatih/vim-go) 该插件增加了对 Vim 的 Go 语言支持
 
@@ -13114,6 +13173,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [bumptech/glide](https://github.com/bumptech/glide) 适用于 Android 的图像加载和缓存库，专注于平滑滚动
 
 * [Yalantis/uCrop](https://github.com/Yalantis/uCrop) 适用于 Android 的图像裁剪库
+
+* [lecho/hellocharts-android](https://github.com/lecho/hellocharts-android) 适用于 Android 的图表库与 API 8+ 兼容，多种图表类型具有缩放、滚动和动画功能
 
 * [LuckSiege/PictureSelector](https://github.com/LuckSiege/PictureSelector) Android平台的PictureSelector，支持从相册中获取图片、视频、音频和照片、剪切（单张图片或多张图片剪切）、压缩、主题自定义配置等功能，并支持动态访问和适用于Android 5.0+系统的开源图片选择框架
 
@@ -13546,6 +13607,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [wangzheng0822/algo](https://github.com/wangzheng0822/algo) 数据结构和算法必知必会的50个代码实现
 
 * [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的计算机编程类中文书籍
+
+* [seanprashad/leetcode-patterns](https://github.com/seanprashad/leetcode-patterns) 此存储库适用于任何希望提高软件工程面试问题解决技能的个人。问题被分组到各自的子主题下，以便专注于重复应用常见模式，而不是随机处理问题。为了在练习时获得最大的成功，强烈建议了解以下数据结构的方法和运行时及其操作：Arrays\Maps\Linked Lists\Queues\Heaps\Stacks\Trees\Graphs，此外，您应该很好地掌握常见的算法，例如：广度优先搜索、深度优先搜索、二分搜索、递归
 
 * [wolverinn/Waking-Up](https://github.com/wolverinn/Waking-Up) 计算机基础（计算机网络/操作系统/数据库/Git...）面试问题全面总结，包含详细的follow-up question以及答案；全部采用【问题+追问+答案】的形式，即拿即用，直击互联网大厂面试；可用于模拟面试、面试前复习、短期内快速备战面试
 
