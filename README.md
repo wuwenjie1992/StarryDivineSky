@@ -2632,6 +2632,42 @@
 
 * [lmstudio-ai/lms](https://github.com/lmstudio-ai/lms) LM Studio 的命令行工具。使用 lmstudio.js 构建。LM Studio 是一个功能强大的命令行工具，专为 LM Studio 设计，提供模型管理和本地API服务。它基于 lmstudio.js 构建，支持 Windows、Linux 和 macOS 多个平台。用户可以通过简单的命令进行安装、启动和管理模型，并支持 GPU 加速。无论是查看模型状态、加载和卸载模型，还是创建新项目，lms 都能轻松应对。工具还支持流式日志监控，确保用户对模型运行状态一目了然。LM Studio 的命令行工具 lms 是 LM Studio 的官方命令行工具，为用户提供了便捷的模型管理和推理功能。它基于 lmstudio.js 构建，支持 Windows、Linux 和 macOS 多个平台。用户可以通过命令行实现模型的管理和推理，简化了复杂的模型操作过程。LM Studio 还提供了多种部署方式，如 REST API、命令行工具等，方便用户在本地部署模型。通过 lms 命令行工具，用户可以轻松管理模型，并支持流式日志监控，确保模型运行状态透明可见。
 
+* [hymie122/RAG-Survey](https://github.com/hymie122/RAG-Survey) 为AIGC收集RAG的精彩论文。我们在论文“人工智能生成内容的检索增强生成：一项调查”中提出了 RAG 基础、增强和应用的分类法。基于查询的 RAG、基于潜在表示的 RAG、基于 Logit 的 RAG、投机性 RAG；RAG 增强功能：输入增强、查询转换、数据增强、检索增强、递归检索、数据块优化、微调检索器、混合检索、重新排名、检索转换、生成器增强功能、提示工程、解码调优、微调生成器、结果增强、重写输出、RAG 管道增强、适应性检索（规则 - Baesd、基于模型）、迭代 RAG。
+
+* [AnswerDotAI/RAGatouille](https://github.com/AnswerDotAI/RAGatouille) 在任何 RAG 管道中轻松使用和训练最先进的后期交互检索方法 （ColBERT）。专为模块化和易用性而设计，并以研究为后盾。
+
+* [IAAR-Shanghai/CRUD_RAG](https://github.com/IAAR-Shanghai/CRUD_RAG) CRUD-RAG：大型语言模型检索增强生成的综合中文基准。本项目全面支持中文 RAG 系统评价，包括中文原生数据集、评价任务和基线模型;它涵盖了 CRUD（创建、读取、更新、删除）操作，这些操作用于评估 RAG 系统添加、减少、更正信息以及根据检索信息回答问题的能力;它包含 36166 个测试样本，这是可用的中国 RAG 测试数量最多的;支持 ROUGE、BLEU、bertScore、RAGQuestEval 等多种评价指标，并提供一键式评价功能;
+
+* [stanford-futuredata/ARES](https://github.com/stanford-futuredata/ARES) ARES 是用于评估检索增强生成 （RAG） 模型的开创性框架。自动化流程将合成数据生成与微调分类器相结合，以有效地评估上下文相关性、答案忠实度和答案相关性，从而最大限度地减少对大量人工注释的需求。ARES 采用合成查询生成和预测驱动推理 （PPI），提供具有统计置信度的准确评估。
+
+* [sigoden/aichat](https://github.com/sigoden/aichat) 全能AI CLI工具，具有Chat-REPL、Shell Assistant、RAG、AI工具和代理功能，可以访问OpenAI、Claude、Gemini、Ollama、Groq等。
+
+* [thinkany-ai/rag-search](https://github.com/thinkany-ai/rag-search) 按 thinkany.ai 划分的 RAG 搜索 API
+
+* [wasiahmad/Awesome-LLM-Synthetic-Data](https://github.com/wasiahmad/Awesome-LLM-Synthetic-Data) 基于 LLM 的综合数据生成的阅读清单
+
+* [andysingal/llm-course](https://github.com/andysingal/llm-course) 列出了一些关于大型语言模型、视觉基础模型、人工智能生成内容、相关数据集和应用程序的很棒的公共项目。
+
+* [LightChen233/Awesome-Multilingual-LLM](https://github.com/LightChen233/Awesome-Multilingual-LLM) Awesome-多语言LLM。实际上，世界上有 7000 多种语言。随着全球化进程的加快，大型语言模型的成功应该考虑服务于不同的国家和语言。为此，多语言大型语言模型（MLLM）在处理多种语言时具有优势，越来越受到关注。
+
+* [supermemoryai/opensearch-ai](https://github.com/supermemoryai/opensearch-ai) 一个个性化的 AI 搜索引擎，可在您浏览网页时了解您和您的兴趣。这就像一个perplexity / searchGPT 克隆，但对你来说。
+
+* [IntelligenzaArtificiale/Free-Auto-GPT](https://github.com/IntelligenzaArtificiale/Free-Auto-GPT) Free Auto GPT with NO paids API 是一个存储库，提供 Auto GPT 的简单版本，Auto GPT 是一个能够独立执行任务的自主 AI 代理。与其他版本不同，我们的实现不依赖于任何付费的 OpenAI API，任何人都可以访问它。
+
+* [orhanerday/open-ai](https://github.com/orhanerday/open-ai) OpenAI PHP SDK ：下载次数最多、分叉次数最多、贡献次数最多、社区支持和使用的 OpenAI GPT-3 和 DALL-E 的 PHP（Laravel 、Symfony、Yii、Cake PHP 或任何 PHP 框架）SDK。它还支持类似 chatGPT 的流媒体。（支持 ChatGPT AI）
+
+* [father-bot/chatgpt_telegram_bot](https://github.com/father-bot/chatgpt_telegram_bot) 带有 ChatGPT 的 Telegram 机器人，基于 Python，使用 OpenAI 的 API。特征：低延迟回复（通常需要大约 3-5 秒）；无请求限制；消息流（观看演示）；GPT-4 和 GPT-4 Turbo 支持；GPT-4 Vision 支持；群聊支持（/help_group_chat获取说明）；DALLE 2（选择艺术家模式以生成图像）；语音消息识别；代码突出显示；15 种特殊聊天模式：助理、代码助理、艺术家、心理学家、埃隆马斯克等。您可以通过编辑配置/chat_modes.yml轻松创建自己的聊天模式；支持 ChatGPT API；允许的 Telegram 用户列表；跟踪在 OpenAI API 上花费的 $ 余额
+
+* [n3d1117/chatgpt-telegram-bot](https://github.com/n3d1117/chatgpt-telegram-bot) Telegram 机器人，它与 OpenAI 的官方 ChatGPT API 集成以提供答案，用 Python 编写
+
+* [langgptai/wonderful-prompts](https://github.com/langgptai/wonderful-prompts) 中文 prompt 精选，ChatGPT 使用指南，提升 ChatGPT 可玩性和可用性！上百个高质量 prompt 让你得心应手的驾驭 AI 。本项目是 ChatGPT 中文指南作者 优化、精选的系列中文 ChatGPT Prompts，并提供图文使用示例，让大家能够更好的学习使用 ChatGPT。
+
+* []() 
+
+* []() 
+
+* []() 
+
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
@@ -2772,6 +2808,8 @@
 
 * [codefuse-ai/codefuse-devops-eval](https://github.com/codefuse-ai/codefuse-devops-eval) DevOps-Eval是专为DevOps领域的基础模型设计的综合评估套件。我们希望DevOps-Eval可以帮助开发者，特别是DevOps领域的开发者，跟踪进度并分析他们模型的重要优点/缺点。目前有 7486 道多项选择题，涵盖 8 个不同的一般类别，如下所示。AIOps 子类别共有 2840 个样本，涵盖日志解析、时间序列异常检测、时间序列分类、时间序列预测和根本原因分析等场景。ToolLearning 子类别中共有 1509 个样本，涵盖 59 个领域的 239 个工具场景。
 
+* [bin123apple/autocoder](https://github.com/bin123apple/autocoder) 我们引入了一个专为代码生成任务设计的新模型。它在 HumanEval 基础数据集上的测试准确性超过了 GPT-4 Turbo（2024 年 4 月）和 GPT-4o。
+
 #### 健康医学大模型及语料库
 
 * [FreedomIntelligence/HuatuoGPT-II](https://github.com/FreedomIntelligence/HuatuoGPT-II) 医学适应的一阶段训练LLMs.（一个开放的医疗GPT）。采用创新的领域适应方法，显著提升其医学知识和对话能力。它在多个医学基准测试中展示了最先进的性能，尤其是在专家评估和新的医疗执照考试中超过了 GPT-4。开源7B、13B、34B版本。HuatuoGPT2 数据：发布部分预训练和微调指令。中医LLM评价：综合自动评价方法，对医学反应能力LLM和新鲜专业药师考试考核进行评价。
@@ -2897,6 +2935,8 @@
 * [stanford-crfm/BioMedLM](https://github.com/stanford-crfm/BioMedLM) 用于预训练和微调 BioMedLM 生物医学模型的代码。
 
 * [kyegomez/Med-PaLM](https://github.com/kyegomez/Med-PaLM) 在医疗保健领域实现多模态的生成式 AI 的负责任之路：释放 Med-PaLM 2 的力量，彻底改变医学知识，回答复杂的问题，并通过准确、安全和公平的做法增强医疗保健体验。
+
+* [Teddy-XiongGZ/MedRAG](https://github.com/Teddy-XiongGZ/MedRAG) MedRAG，一个用于医学问答 （QA） 检索增强生成 （RAG） 的系统工具包。MedRAG 用于实施各种 RAG 系统，用于 MIRAGE（医学信息检索增强一代评估）的基准研究。
 
 #### 法律大模型及语料库
 
@@ -3346,15 +3386,15 @@
 
 * [DaveBben/esp32-llm](https://github.com/DaveBben/esp32-llm) 在 ESP32 上运行 LLM。使用的 “Large” 语言模型实际上非常小。它是在 tiny stories 数据集上训练的 260K 参数 tinyllamas 检查点。LLM 实现是使用 llama.2c 完成的，并进行了少量优化，使其在 ESP32 上运行得更快。LLMs 需要大量内存。即使是这个小的仍然需要 1MB 的 RAM。我使用了 ESP32-S3FH4R2因为它有 2MB 的嵌入式 PSRAM。通过对 llama2.c 进行以下更改，我能够达到 19.13 tok/s：在数学运算中利用 ESP32 的两个内核。利用 ESP-DSP 库中专为 ESP32-S3 设计的一些特殊点积函数，这些功能利用了 ESP32-S3 为数不多的 SIMD 指令。将 CPU 速度提高到 240 MHz，将 PSRAM 速度提高到 80MHZ，并增加指令缓存大小。
 
+* [open-chinese/alpaca-chinese-dataset](https://github.com/open-chinese/alpaca-chinese-dataset) Alpaca Chinese Dataset -- 中文指令微调数据集【人工+GPT4o持续更新】
 
+* []() 
 
+* []() 
 
+* []() 
 
-
-
-
-
-
+* []() 
 
 
 ### 其他_文本生成、文本对话
@@ -3450,6 +3490,9 @@
 * [user1342/Tomato](https://github.com/user1342/Tomato) LLM 隐写术与最小熵耦合 - 在自然语言中隐藏加密消息。如何运作：LLM 生成的封面文本：LLM 像往常一样，根据提示生成连贯的文本。使用 MEC 嵌入：MEC 用于将隐藏消息（密文）的概率分布与LLM，这种耦合最小化了联合熵，确保隐写文本（带有嵌入消息的封面文本）保留了自然语言的统计属性，使隐藏的消息实际上无法被检测到。解码过程：在解码过程中，LLM 通过提供隐写文本的上下文感知解释来提供帮助，然后反向使用 MEC 将隐藏的消息与隐藏文本分离，该过程利用嵌入过程中使用的相同概率分布，确保在不影响隐藏文本完整性的情况下准确提取消息。此方法可确保隐藏的消息无缝集成到文本中，并且可以在以后安全、精确地检索，同时将检测风险降至最低。
 
 
+* [https://github.com/AdityaNG/kan-gpt](https://github.com/AdityaNG/kan-gpt) 使用 Kolmogorov-Arnold 网络 （KAN） 进行语言建模的生成式预训练转换器 （GPT） 的 PyTorch 实现
+
+* [Ceelog/DictionaryByGPT4](https://github.com/Ceelog/DictionaryByGPT4) 一本 GPT4 生成的单词书，超过 8000 个单词分析，涵盖了词义、例句、词根词缀、变形、文化背景、记忆技巧和小故事
 
 ## 文本匹配 文本检索 文本相似度
 
@@ -7128,6 +7171,26 @@
 * [imputnet/cobalt](https://github.com/imputnet/cobalt) Cobalt 是一个不会惹你生气的媒体下载器。它快速、友好，并且没有任何现代网络充斥的废话：没有广告、跟踪器或侵入性分析。粘贴链接，获取文件，继续前进。就是这么简单。它应该是什么样的。cobalt 不是盗版工具，不能用作盗版工具。它只能下载免费的、可公开访问的内容。此类内容可以通过任何浏览器的开发工具轻松下载。按下一个按钮更容易，因此我为此类重复操作制作了一个方便、无广告的工具。
 
 * [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) 文件快递柜-匿名口令分享文本，文件，像拿快递一样取文件。主要特色： 轻量简洁： 项目基于Fastapi + Sqlite3 + Vue3 + ElementUI。轻松上传： 支持复制粘贴和拖拽选择。多种类型： 支持文本和文件。防止爆破： 错误次数限制。防止滥用： IP限制上传次数。口令分享： 随机口令，存取文件，自定义次数及有效期。国际化： 支持中文简体、繁体以及英文等。匿名分享： 无需注册，无需登录。管理面板： 查看和删除文件。一键部署： 支持Docker一键部署。自由拓展： 支持S3协议和本地文件流，可根据需求在storage文件中新增存储引擎。简单明了： 适合新手练手项目。 终端下载： 终端命令wget https://share.lanol.cn/share/select?code=83432
+
+* [PyGithub/PyGithub](https://github.com/PyGithub/PyGithub) 用于访问 GitHub REST API 的 Python 库。此库使您能够管理 Python 应用程序中的 GitHub 资源，例如存储库、用户配置文件和组织。
+
+* [https://github.com/qhjqhj00/memorag](https://github.com/qhjqhj00/memorag) 创新的 RAG 框架，建立在高效、超长的内存模型之上。与主要处理具有明确信息需求的查询的标准 RAG 不同，MemoRAG 利用其内存模型来实现对整个数据库的全局理解。通过从记忆中调用特定于查询的线索，MemoRAG 增强了证据检索，从而生成更准确且上下文更丰富的响应。
+
+* [2471023025/RALM_Survey](https://github.com/2471023025/RALM_Survey)  RALM 调查存储库，其中包含根据我们的调查论文：RAG 和 RAU：自然语言处理中检索增强语言模型的调查，其中包含最先进的 RAG 和其他技术的摘要。在这个存储库中，我们将介绍我们论文的最核心研究方法，并以最易于访问的方式了解 RALM 的最新工作。
+
+* [yixuantt/MultiHop-RAG](https://github.com/yixuantt/MultiHop-RAG) “MultiHop-RAG：用于评估跨文档检索增强生成的数据集”（COLM 2024） 的存储库。MultiHop-RAG：一个 QA 数据集，用于评估 RAG 管道中元数据跨文档的检索和推理。它包含 2556 个查询，每个查询的证据分布在 2 到 4 个文档中。查询还涉及文档元数据，反映了实际 RAG 应用程序中常见的复杂场景。
+
+* []() 
+
+* []() 
+
+* []() 
+
+* []() 
+
+* []() 
+
+
 
 ## 区块链、智能合约
 
