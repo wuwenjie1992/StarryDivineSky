@@ -1065,6 +1065,10 @@
 
 * [lucidrains/MEGABYTE-pytorch](https://github.com/lucidrains/MEGABYTE-pytorch) 在 Pytorch 中实现 MEGABYTE，使用多尺度转换器预测百万字节序列。为了解决当前transformer模型对输入的限制，MetaAI提出的MetaByte引入了一个概念，称为patch，将模型的输入序列分割成固定大小的patches，这是一个类似于token的概念，但是显然比token覆盖的范围要宽。然后通过一个全局的模块，建立一个大的自回归transformer，把输入和输出从tokens变成patches。同时，引入了一个本地的模块，用于每个patch内部的字节的预测，其输入是从全局模块来的上下文patches表示结果，输出是预测下一个patch，这是一个小的自回归模型。
 
+* [lucidrains/ring-attention-pytorch](https://github.com/lucidrains/ring-attention-pytorch) Ring Attention 的实现，来自 Berkeley AI 的 Liu 等人，在 Pytorch 中。它基本上将数据跨序列维度（而不是 batch）拆分，并将 ring reduce 应用于注意力矩阵 flash attention 样式的瓦片的处理。我相信这被用于最新 Gemini 的 1-1000 万tokens。至少是某种形式的;另一种可能性是在 RMT 之上未发布的改进。此外，该存储库还包含 Striped Attention 的逻辑，这是一篇后续论文，用于排列序列以更好地平衡自回归转换器的工作负荷。它还包含对分组查询注意力的支持，由 Llama 系列注意力模型推广。这将进一步节省 Ring Reduce 期间的通信成本。
+
+* [dingo-actual/infini-transformer](https://github.com/dingo-actual/infini-transformer) Infini-Transformer （https://arxiv.org/abs/2404.07143） 是一个功能强大且用途广泛的 transformer 模型，专为各种自然语言处理任务而设计。它利用最先进的技术和架构来实现卓越的性能和无限上下文长度的可扩展性。
+
 ## BERT优化
 
 * [google-research/bert](https://github.com/google-research/bert) Bidirectional Encoder Representations from Transformers 来自Transformers的双向编码器表示法
@@ -1297,6 +1301,8 @@
 * [OpenSUM/CPSUM](https://github.com/OpenSUM/CPSUM) 半监督抽取式摘要的噪声注入一致性训练和熵约束伪标签
 
 * [krystalan/ClidSum](https://github.com/krystalan/ClidSum) 一个跨语言对话摘要的基准数据集 
+
+* [mahnazkoupaee/WikiHow-Dataset](https://github.com/mahnazkoupaee/WikiHow-Dataset) WikiHow：大规模文本摘要数据集，每篇文章由多个段落组成，每个段落都以一句话开头。通过合并段落以形成文章，合并段落大纲以形成摘要，生成的数据集版本包含超过 200,000 个长序列对。
 
 ## 文本生成、文本对话
 
@@ -2662,15 +2668,131 @@
 
 * [langgptai/wonderful-prompts](https://github.com/langgptai/wonderful-prompts) 中文 prompt 精选，ChatGPT 使用指南，提升 ChatGPT 可玩性和可用性！上百个高质量 prompt 让你得心应手的驾驭 AI 。本项目是 ChatGPT 中文指南作者 优化、精选的系列中文 ChatGPT Prompts，并提供图文使用示例，让大家能够更好的学习使用 ChatGPT。
 
-* []() 
+* [zjunlp/EasyInstruct](https://github.com/zjunlp/EasyInstruct) Python 包，在您的研究实验中被提议作为大型语言模型（LLMs GPT-4、LLaMA、ChatGLM。EasyInstruct 将指令生成、选择和提示模块化，同时还考虑了它们的组合和交互。
 
-* []() 
+* [THUDM/LongAlign](https://github.com/THUDM/LongAlign) LongAlign 是长上下文上 LLM。我们提出了 LongAlign-10k 数据集，其中包含 10,000 个长度为 8k-64k 的长指令数据。我们研究了训练策略，即打包（带有损失加权）和排序批处理，它们都在我们的代码中实现。对于实际的长上下文评估，我们引入了 LongBench-Chat，它评估了 10k-100k 长度的查询的指令跟踪功能。
 
-* []() 
+* [PygmalionAI/aphrodite-engine](https://github.com/PygmalionAI/aphrodite-engine) Aphrodite 是 PygmalionAI 的官方后端引擎（大规模 LLM 推理引擎）。它旨在用作 PygmalionAI 网站的推理终端节点，并允许以极快的速度向大量用户提供与 Hugging Face 兼容的模型（感谢 vLLM 的 Paged Attention）。
+
+* [tairov/llama2.mojo](https://github.com/tairov/llama2.mojo) 随着 Mojo 的发布，我受到启发，将我的 Python 移植 llama2.py 并将其转换为 Mojo。结果如何？一个利用Mojo的SIMD和矢量化原语的版本，将Python的性能提升了近250倍。令人印象深刻的是，经过一些原生改进后，Mojo 版本在多线程推理方面比原始 llama2.c 高出 30%。此外，它在 CPU 上的 baby-llama 推理上的性能比 llama.cpp 高 20%。这展示了通过 Mojo 的高级功能进行硬件级优化的潜力。
+
+* [neuralmagic/deepsparse](https://github.com/neuralmagic/deepsparse) DeepSparse 是一种 CPU 推理运行时，它利用稀疏性来加速神经网络推理。DeepSparse 与我们用于修剪和量化模型的优化库 SparseML 相结合，可在 CPU 硬件上提供卓越的推理性能。Neural Magic 很高兴地宣布在 DeepSparse 中初步支持高性能 LLM 推理：稀疏内核，用于通过非结构化稀疏权重加速和节省内存。8 位权重和激活量化支持。有效使用缓存的注意力键和值，以最大限度地减少内存移动。我们与奥地利 IST 合作开发，我们最近的论文详细介绍了一种称为稀疏微调的新技术，该技术使我们能够在微调过程中将 MPT-7B 修剪到 60% 的稀疏度，而不会降低准确性。凭借我们对 LLMs，DeepSparse 将稀疏量化模型的速度从密集基线加速了 7 倍。
+
+* [Infini-AI-Lab/Sequoia](https://github.com/Infini-AI-Lab/Sequoia) 可扩展、强大且具有硬件感知能力的推测解码
+
+* [Infini-AI-Lab/TriForce](https://github.com/Infini-AI-Lab/TriForce) 通过分层推测解码实现长序列生成的无损加速。一种可扩展且强大的分层推测解码系统，能够为长上下文 LLMs（Llamma2-7B-128K、LWM-Text-Chat-128K、Llama2-13B-128K 等）提供服务，在消费类 GPU 上以 0.1 秒的延迟无损（16 位精度，保留原始输出分布）进行长序列生成。我们证明 TriForce 可以在两个 RTX 4090 上有效地为 128K 上下文的 Llama2-13B 提供服务，达到平均令牌间隔时间 （TBT） 低至 0.22 秒，这比高度优化的卸载系统快 7.8 倍。此外，借助 TriForce，Llama2-7B-128K 可以在两台 RTX 4090 上提供服务，TBT 为 0.11 秒，仅比一台 A100 慢 0.5 倍。此外，TriForce 在单个 RTX 4090 GPU 上执行的性能是 DeepSpeed-Zero-Inference 的 4.86 倍。除了卸载之外，TriForce 还为 A100 等数据中心 GPU 提供了片上解决方案。TriForce 有效地解决了这一挑战，同时通过集成基于检索的绘图和分层推测来证明地保持了模型质量。这种方法利用原始模型权重和检索中的一小部分 KV 缓存作为草稿模型，这可以通过具有 StreamingLLM 缓存的轻量级模型进一步推测，以减少草稿延迟。通过缓解与 KV 缓存和模型权重相关的双重瓶颈，它显著加快了长上下文 LLM 的卸载服务。
+
+* [THUDM/LongBench](https://github.com/THUDM/LongBench) LongBench 是第一个对大型语言模型的长上下文理解能力进行双语、多任务和综合评估的基准。LongBench 包括不同的语言（中文和英文），以便更全面地评估大型模型在长上下文中的多语言功能。此外，LongBench 由六大类和 21 个不同的任务组成，涵盖了单文档 QA、多文档 QA、摘要、小样本学习、合成任务和代码完成等关键长文本应用场景。我们充分意识到模型评估过程中可能涉及的高成本，尤其是在长上下文场景（例如手动注释成本或 API 调用成本）的背景下。因此，我们采用了一种全自动的评估方法，旨在测量和评估模型以最低的成本理解长期上下文的能力。LongBench 包括 14 个英文任务、5 个中文任务和 2 个代码任务，大多数任务的平均长度从 5k 到 15k 不等，总共有 4750 个测试数据。有关 LongBench 任务的详细统计数据和构建方法，请参阅此处。此外，我们还提供了 LongBench-E，这是一个通过均匀采样构建的具有更均匀长度分布的测试集，在 0-4k、4k-8k 和 8k+ 长度区间内具有可比的数据量，以提供模型在不同输入长度下的性能变化分析。
+
+* [THUDM/LongCite](https://github.com/THUDM/LongCite) LongCite：使 LLMs 能够在长上下文 QA 中生成细粒度引文。开源了两个模型：LongCite-glm4-9b 和 LongCite-llama3.1-8b，它们分别基于 GLM-4-9B 和 Meta-Llama-3.1-8B 进行训练，并支持高达 128K 的上下文。这两个模型指向了我们论文中的“LongCite-9B”和“LongCite-8B”模型。给定基于长上下文的查询，这些模型可以生成准确的响应和精确的句子级引用，使用户可以轻松验证输出信息。
+
+* [allenai/WildBench](https://github.com/allenai/WildBench) LLMs使用来自真实用户的挑战性任务进行基准测试。
+
+* [RockyHHH/Safety-Evaluating](https://github.com/RockyHHH/Safety-Evaluating) 本文提出了一个基于“文心一言”的中国LLMs的安全评估基准，其中包括8种典型的安全场景和6种指令攻击类型。此外，本文还提出了安全评估的框架和过程，利用手动编写和收集开源数据的测试Prompts，以及人工干预结合利用LLM强大的评估能力作为“共同评估者”。
+
+* [yangjianxin1/LongQLoRA](https://github.com/yangjianxin1/LongQLoRA) LongQLoRA 是一种节省内存且有效的方法，可通过较少的训练 GPU 来扩展大型语言模型的上下文长度。在单个 32GB V100 GPU 上，LongQLoRA 可以将 LLaMA2 7B 和 13B 的上下文长度从 4096 扩展到 8192，甚至扩展到 12k。LongQLoRA 在 PG19 和证明桩数据集上实现了有竞争力的困惑性能，仅经过 1000 个微调步骤，我们的模型优于 LongLoRA，非常接近 MPT-7B-8K。
+
+* [ashishpatel26/LLM-Finetuning](https://github.com/ashishpatel26/LLM-Finetuning) 欢迎来到 PEFT（预训练-评估微调）项目存储库！该项目的重点是使用 LoRA 和 Hugging Face 的 transformers 库有效地微调大型语言模型。
+
+* [ComposioHQ/composio](https://github.com/ComposioHQ/composio) Composio为您的AI代理和LLMs100+高质量的函数调用集成。适用于 AI 代理的生产就绪工具集。为您的代理配备高质量的工具和集成，而无需担心身份验证、准确性和可靠性，只需一行代码即可完成！主要特点：
+100+ 工具，支持一系列不同的类别：软件（在GitHub、Notion、Linear、Gmail、Slack、Hubspot、Salesforce等90多个网站上做任何事情）、操作系统（点击任意位置，输入任何内容，复制到剪贴板等等）、浏览器（智能搜索、截屏、MultiOn、下载、上传等）、搜索（Google搜索，Perplexity搜索，Tavily，Exa等）、软件（Ngrok、Database、Redis、Vercel、Git 等）、RAG（代理 RAG 可即时处理任何类型的数据）。框架：在一行代码中将工具与 OpenAI、Claude、LlamaIndex、Langchain、CrewAI、Autogen、Gemini、Julep、Lyzr 等代理框架一起使用。托管授权：支持六种不同的身份验证协议。将访问令牌、刷新令牌、OAuth、API 密钥、JWT 等抽象出来，以便您可以专注于构建代理。准确性：由于更好的工具设计，您的工具调用的代理准确性提高了 40%。可嵌入：在您的应用程序的后端进行白标化，为您的所有用户和代理管理身份验证和集成，并保持一致的体验。可插拔：旨在非常轻松地使用其他工具、框架和授权协议进行扩展。
+
+* [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) Cheshire Cat 是一个框架，用于在任何语言模型上构建自定义 AI。如果您曾经使用 WordPress 或 Django 等系统构建 Web 应用程序，请将 Cat 想象成一个类似的工具，但专门用于 AI。
+
+* [yomorun/yomo](https://github.com/yomorun/yomo) 用于地理分布式边缘 AI 基础设施的有状态无服务器框架。借助函数调用支持，编写一次，在任何模型上运行。
+
+* [Calcium-Ion/new-api](https://github.com/Calcium-Ion/new-api) AI模型接口管理与分发系统，支持将多种大模型转为OpenAI格式调用、支持Midjourney Proxy、Suno、Rerank，兼容易支付协议，仅供个人或者企业内部管理与分发渠道使用，请勿用于商业用途，本项目基于One API二次开发。
+
+* [rohan-paul/LLM-FineTuning-Large-Language-Models](https://github.com/rohan-paul/LLM-FineTuning-Large-Language-Models) LLM （Large Language Models） 微调项目和常见实用技术说明
+
+* [PickleBoxer/dev-chatgpt-prompts](https://github.com/PickleBoxer/dev-chatgpt-prompts) 开发者 ChatGPT 提示个人合集。此存储库包含一系列强大的 ChatGPT 提示，可以帮助您让创意源源不断。无论您是初学者还是经验丰富的专业人士，这些提示都可以帮助您跳出框框思考并找到解决问题的新方法。该列表分为几类：  prompts for coders， students， marketers， and content writers 。因此，无论您的职业是什么，这里都有适合每个人的东西！让我们深入了解这些强大的 ChatGPT 提示，它们可以帮助您将创造力提升到一个新的水平！
+
+* [idootop/mi-gpt](https://github.com/idootop/mi-gpt) 将小爱音箱接入 ChatGPT 和豆包，改造成你的专属语音助手。MiGPT 通过将小爱音箱、米家智能设备，与 ChatGPT 的理解能力完美融合，让你的智能家居更懂你。MiGPT 不仅仅是关于设备自动化，而是关于：打造一个懂你、有温度、与你共同进化的家。未来，你的每个智能家居设备，从灯泡、插座，到扫地机器人、电视等，都可以作为一个个独立的智能体 (Agent)，更智能、更贴心的响应你的指令。这些独立的智能体，也可以彼此感知，彼此配合，构成一个更强大的协作网络。而小爱音箱就像是你的智能家居专属管家，全心全意为你服务，释放智能家居的真正潜力。
+
+* [https://github.com/akl7777777/ShellGPT](https://github.com/akl7777777/ShellGPT) ShellGPT 是一个免费的 chatgpt 客户端，现在支持在线 search.no 需要密钥，无需登录。多节点自动测速开关，无字数限制的长文翻译，AI graphics.免费的chatgpt客户端，已支持联网搜索，无需密钥，无需登录，多节点自动测速切换，长文翻译不限字数，AI出图
+
+* [OkGoDoIt/OpenAI-API-dotnet](https://github.com/OkGoDoIt/OpenAI-API-dotnet) 用于访问 OpenAI GPT-3 API 的非官方 C#/.NET SDK
+
+* [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts) 欢迎来到“Awesome Claude Prompts”存储库！这是用于 Claude 模型的提示示例的集合。Claude 模型是由 Anthropic 创建的 AI 助手，能够生成类似人类的文本。通过向它提供提示，它可以生成继续对话或扩展给定提示的响应。Claude 提供了许多 ChatGPT 不支持的惊人功能，例如更长的上下文（高达 100k）、免费文件上传等，使其比 ChatGPT 更强大。在此存储库中，您将找到可与 Claude 一起使用的各种提示。我们鼓励您将自己的提示添加到列表中，并使用 Claude 生成新的提示。
+
+* [jank/curiosity](https://github.com/jank/curiosity) 涉足 ReAct 聊天机器人，我开始这个玩具项目是为了涉足 LangGraph 和 FastHTML。我的目标是在尝试构建类似 Perplexity 的用户体验的同时，对这些技术堆栈进行一些接触。其核心是一个简单的 ReAct 代理，它使用 Tavily 搜索来增强文本生成。与任何优秀的 Web 项目一样，大部分时间都花在了使其在视觉上看起来可接受且从交互角度来看是合理的。
+
+* [Daiyimo/Access-chatGPT-in-Siri](https://github.com/Daiyimo/Access-chatGPT-in-Siri) Siri接入ChatGPT指南。目前接口已开放全端，全端可用！目前的API接口已适配全部支持ChatGPT接口的应用，Siri只是其中一个分支，无论是chathub、opencat、chatbox、问天等应用，都可以直接使用，即填即用
+
+* [MustangYM/OSXChatGpt](https://github.com/MustangYM/OSXChatGpt) 在您的 Mac 上轻松使用 OpenAI ChatGPT！
+
+* [kevinamiri/Instructgpt-prompts](https://github.com/kevinamiri/Instructgpt-prompts) 一组基于 ChatGPT 和 GPT-3.5 指令的提示，用于生成和分类文本。该项目包括 ChatGPT 和 GPT-3.5 模型的提示，旨在协助完成写作、分析和理解任务。下面有许多提示，您可以使用这些提示为您的项目生成内容、调试代码、查找问题的解决方案，或者只是了解有关这些模型可以做什么的更多信息。通过使用适当的指令动词，您可以指导模型解决任何与语言相关的任务。
+
+* [flyun/chatAir](https://github.com/flyun/chatAir) ChatGPT、Gemini 和 Claude 的原生安卓应用程序ChatGPT、Gemini 和 Claude 的原生安卓应用程序
+
+* [bincooo/chatgpt-adapter](https://github.com/bincooo/chatgpt-adapter) 集成了openai-api、bing、gemini、coze、claude、绘画 多款AI的聊天接口适配到 OpenAI API 标准接口服务端。
+
+* [kangfenmao/cherry-studio](https://github.com/kangfenmao/cherry-studio) Cherry Studio 是一个桌面客户端，支持多个 LLM 提供程序，可在 Windows、Mac 和 Linux 上使用。
+
+* [wikieden/Awesome-ChatGPT-Prompts-CN](https://github.com/wikieden/Awesome-ChatGPT-Prompts-CN) ChatGPT调教指南-咒语指南-聊天提示词指南
+
+* [alfianlosari/ChatGPTSwift](https://github.com/alfianlosari/ChatGPTSwift) 使用 Swift 访问 ChatGPT API
+
+* [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) 使用 Vercel 一键免费创建私人 ChatGPT 网站 -- 通过 Vercel 一键免费创建私有的 ChatGPT 站点
+
+* [pacholoamit/chatgpt-prompts](https://github.com/pacholoamit/chatgpt-prompts) 一个 NodeJS ChatGPT 提示库，包含超过 140+ 个很棒的提示
+
+* [THUDM/AlignBench](https://github.com/THUDM/AlignBench) 大模型多维度中文对齐评测基准 (ACL 2024)。AlignBench 构建了人类参与的数据构建流程，来保证评测数据的动态更新。AlignBench 采用多维度、规则校准的模型评价方法（LLM-as-Judge），并且结合思维链（Chain-of-Thought）生成对模型回复的多维度分析和最终的综合评分，增强了评测的高可靠性和可解释性。
+
+* [protectai/rebuff](https://github.com/protectai/rebuff) Rebuff 旨在通过多层防御保护 AI 应用程序免受即时注入 （PI） 攻击。Rebuff 提供 4 层防御：启发式：在潜在恶意输入到达 LLM。LLM 基于检测：使用专用的 LLM 来分析传入的提示并识别潜在的攻击。VectorDB：将以前攻击的嵌入存储在向量数据库中，以识别和防止将来发生类似的攻击。金丝雀令牌：将金丝雀令牌添加到提示中以检测泄漏，从而允许框架将有关传入提示的嵌入存储在向量数据库中并防止未来的攻击。
+
+* [seanzhang-zhichen/llama3-chinese](https://github.com/seanzhang-zhichen/llama3-chinese) Llama3-Chinese是以Meta-Llama-3-8B为底座，使用 DORA + LORA+ 的训练方法，在50w高质量中文多轮SFT数据 + 10w英文多轮SFT数据 + 2000单轮自我认知数据训练而来的大模型。
+
+* [click33/chatgpt---mirror-station-summary](https://github.com/click33/chatgpt---mirror-station-summary) 汇总所有 chatgpt 镜像站，免费、付费、多模态、国内外大模型汇总等等 持续更新中
+
+* [cosin2077/chaty](https://github.com/cosin2077/chaty) 使用 Chaty，您对 ChatGPT 的需求将变为现实！Chaty 允许您：将其用作命令行助手;部署私有 ChatGPT Web 服务;为 ChatGPT 部署 NodeJS API;部署 WeChat ChatGPT 机器人;部署 Telegram ChatGPT 机器人
+
+* [yokoffing/ChatGPT-Prompts](https://github.com/yokoffing/ChatGPT-Prompts) ChatGPT 和 Bing AI 提示策展，“提示工程是与 AI 雄辩地沟通的艺术。”- Greg Brockman。欢迎来到 “ChatGPT Prompts” 仓库！这是与 ChatGPT 模型一起使用的提示示例集合。
+
+* [limaoyi1/Auto-PPT](https://github.com/limaoyi1/Auto-PPT) Auto generate pptx using gpt-3.5， Free to use online / 通过gpt-3.5生成PPT，免费在线使用
+
+* [bionic-gpt/bionic-gpt](https://github.com/bionic-gpt/bionic-gpt) BionicGPT 是 ChatGPT 的本地替代品，提供生成式 AI 的优势，同时保持严格的数据机密性。
+
+* [traceloop/openllmetry](https://github.com/traceloop/openllmetry) OpenLLMetry 是一个开源项目，可让您轻松开始监控和调试 LLM。跟踪以非侵入性方式完成，构建在 OpenTelemetry 之上。您可以选择将跟踪导出到 Traceloop 或现有的可观测性堆栈。
+
+* [whylabs/langkit](https://github.com/whylabs/langkit) LangKit：用于监控大型语言模型 （LLMs）。从提示和响应中提取信号，确保安全与保障。功能包括文本质量、相关性指标和情感分析。一个用于 LLM 可观测性的综合工具。开箱即用的指标包括：文本质量（可读性分数、复杂性和等级分数）；文本相关性（提示/响应之间的相似性分数、针对用户定义的主题的相似性分数）；安全和隐私（patterns - 与用户定义的正则表达式模式组匹配的字符串计数、越狱 - 已知越狱尝试的相似性分数、提示注入 - 已知提示注入攻击的相似性分数、幻觉 - 反应之间的一致性检查、拒绝 - 与已知 LLM 拒绝服务响应的相似度得分）；情绪和毒性（情感分析、毒性分析）
+
+* [poloclub/transformer-explainer](https://github.com/poloclub/transformer-explainer) Transformer Explainer 是一种交互式可视化工具，旨在帮助任何人了解基于 Transformer 的模型（如 GPT）的工作原理。它直接在浏览器中运行实时 GPT-2 模型，允许您试验自己的文本并实时观察 Transformer 的内部组件和操作如何协同工作以预测下一个令牌。在 http://poloclub.github.io/transformer-explainer 上试用 Transformer Explainer，并在 YouTube https://youtu.be/ECR4oAwocjs 上观看演示视频。
+
+* [CyberAlbSecOP/Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting) ChatGPT 越狱，GPT 助手提示泄漏，GPT 提示注入，LLM 提示安全，超级提示，提示破解，提示安全，AI 提示工程，对抗机器学习。
+
+* [successfulstudy/promptoftheyear](https://github.com/successfulstudy/promptoftheyear) 在不断发展的大型语言模型 （LLMs，制作有效的提示已成为一项必不可少的技能。这就是我创建这个系列的原因，展示了今年在各种有趣领域中最具影响力的提示。
+
+* [NeoVertex1/SuperPrompt](https://github.com/NeoVertex1/SuperPrompt) SuperPrompt 是一种设计提示的尝试，可以帮助我们理解 AI 代理。这个提示花了我好几个月的时间，并且仍处于永久测试阶段。您将希望将此提示与 Claude 一起使用（作为说明），但它也适用于其他 llms。
+
+* [elder-plinius/L1B3RT45](https://github.com/elder-plinius/L1B3RT45) 用于释放 AI 模型的越狱提示，所有旗舰 AI 模型的越狱。
+
+* [protectai/llm-guard](https://github.com/protectai/llm-guard) LLM AI 的 LLM Guard 是一款综合工具，旨在加强大型语言模型 （LLMs）。通过提供清理、有害语言检测、防止数据泄露和抵御即时注入攻击，LLM 确保您与 LLMs保持安全。
+
+* [Josh-XT/AGiXT](https://github.com/Josh-XT/AGiXT) AGiXT 是一个动态的人工智能自动化平台，旨在协调众多提供商的高效 AI 指令管理和任务执行。我们的解决方案将自适应内存处理与广泛的命令相结合，以增强 AI 的理解和响应能力，从而提高任务完成度。该平台的智能功能，如智能指示和智能聊天，无缝集成了网络搜索、规划策略和对话连续性，改变了用户与人工智能之间的交互。通过利用包括网页浏览和命令执行在内的强大插件系统，AGiXT 成为 AI 模型和用户之间的多功能桥梁。随着 AI 提供商名单的不断扩大、代码评估能力、全面的链管理和平台互操作性，AGiXT 不断发展以驱动众多应用程序，确立了其在 AI 技术前沿的地位。
+
+* [OpenCSGs/csghub](https://github.com/OpenCSGs/csghub) CSGHub 是一个开源的大型模型平台，就像 Hugging Face 的本地版本一样。您可以使用用户界面轻松管理模型和数据集、部署模型应用程序以及设置模型微调或推理作业。CSGHub 还提供了与 hf sdk 完全兼容的 Python SDK。加入我们，共同构建更安全、更开放的平台
+
+* [https://github.com/abilzerian/LLM-Prompt-Library](https://github.com/abilzerian/LLM-Prompt-Library) 高级 LLM 提示存储库，此存储库包含一系列精选的提示，这些提示专为各种大型语言模型（LLMs，例如 Siri、GPT-4o、Claude 3 Opus、Llama3、Gemini 等。这些提示涵盖了广泛的应用，从文本操作到医疗援助和代码生成。
+
+* [MadcowD/ell](https://github.com/MadcowD/ell) ell 是一个轻量级的函数式提示工程框架，构建在几个核心原则之上：1. 提示是程序，而不是字符串。提示不仅仅是字符串;它们都是导致字符串被发送到语言模型的代码。在 ell 中，我们认为一种将语言模型用作离散子例程的特殊方法，称为语言模型程序。2. 提示实际上是机器学习模型的参数。提示工程的过程涉及许多迭代，类似于机器学习中的优化过程。由于 LMP 只是函数，因此 ell 为此过程提供了丰富的工具。ell 通过静态和动态分析以及 GPT-4o-mini自动生成的提交消息，将提示的自动版本控制和序列化直接发送到本地存储。此过程类似于机器学习训练循环中的检查点，但它不需要任何特殊的 IDE 或编辑器 - 全部使用常规 Python 代码完成。3. 用于监控、版本控制和可视化的工具。使用正确的工具，Prompt 工程从一门黑暗的艺术变成了一门科学。Ell Studio 是一个本地开源工具，用于提示版本控制、监控、可视化。使用 Ell Studio，您可以随着时间的推移经验化您的提示优化过程，并在为时已晚之前捕获回归。4. 多模态应该是一流的。LLMs 可以处理和生成各种类型的内容，包括文本、图片、音频和视频。使用这些数据类型进行提示工程应该像使用文本一样简单。
+
+* [utkusen/promptmap](https://github.com/utkusen/promptmap) 提示注入是一种安全漏洞，可以用来控制 ChatGPT 实例的行为。通过向系统注入恶意提示，攻击者可以强制 ChatGPT 实例执行意外操作。promptmap 是一个自动测试 ChatGPT 实例上的提示注入攻击的工具。它会分析您的 ChatGPT 规则以了解其上下文和目的。这种理解用于生成为目标量身定制的创意攻击提示。promptmap 然后按照你提供的系统提示符运行一个 ChatGPT 实例，并向其发送攻击提示。它可以通过检查来自您的 ChatGPT 实例的答案来确定提示注入攻击是否成功。
+
+* [microsoft/aici](https://github.com/microsoft/aici) 人工智能控制器接口 （AICI） 允许您构建控制器，以实时约束和指导大型语言模型 （LLM。控制器是灵活的程序，能够实现约束解码、提示和生成文本的动态编辑，以及跨多个并行代协调执行。控制器在逐个令牌解码期间合并自定义逻辑，并在 LLM。这允许各种 Controller 策略，从编程或基于查询的解码到多代理对话，都可以在与 LLM。AICI 的目的是让构建和试验现有和全新的控制器策略变得容易，以改进 LLM 代次。通过抽象出底层 LLM，AICI 旨在简化控制器的开发，使编写快速控制器变得更加容易，并简化 LLM 推理和服务引擎之间的兼容性。AICI 专为本地和云执行而设计，包括（最终）多租户 LLM 部署。控制器作为轻量级 WebAssembly （Wasm） 模块实现，这些模块与 LLM，在 GPU 忙于令牌生成时利用 CPU。AICI 是推理堆栈中的一层，旨在允许 Guidance、LMQL 等控制库在其上运行，并获得效率和性能改进，以及跨 LLM。
+
+* [hijkzzz/Awesome-LLM-Strawberry](https://github.com/hijkzzz/Awesome-LLM-Strawberry) 这是OpenAI Strawberry（o1）和Reasoning的研究论文和博客的集合。OpenAI o1 系列模型是新的大型语言模型，经过强化学习训练，可执行复杂推理。o1 模型在回答之前会思考，并且可以在响应用户之前产生一个很长的内部思维链。o1 模型在科学推理方面表现出色，在竞争性编程问题 （Codeforces） 中排名第 89 个百分位，在美国数学奥林匹克竞赛 （AIME） 的资格赛中跻身美国前 500 名学生之列，并在物理、生物和化学问题的基准 （GPQA） 上超过人类博士水平的准确性。
+
+* [zou-group/textgrad](https://github.com/zou-group/textgrad) TextGrad 是一个强大的框架，通过文本构建自动“微分”。它利用大型语言模型（LLMs）提供的文本反馈进行反向传播，从而实现自动优化。TextGrad 的 API 设计与 PyTorch 非常相似，使得熟悉 PyTorch 的用户可以快速上手。这个框架允许用户定义自己的损失函数，并使用文本反馈对其进行优化。TextGrad 的基本原理是通过 LLMs 之间的 API 调用，自动执行提示优化的过程，从而提升逻辑推理能力。TextGrad 的主要特点包括：简单直观的 API：类似于 PyTorch 的 API，使得用户可以轻松适应其用例。基于文本反馈的优化：通过 LLMs 提供的文本反馈进行反向传播，实现自动优化。灵活性和易用性：TextGrad 遵循 PyTorch 的语法和抽象，使用灵活且易于使用。即插即用：用户只需提供目标函数，无需调整框架的组件或提示。TextGrad 的应用场景广泛，包括但不限于自然语言处理和人工智能开发，为这些领域提供了新的优化思路。通过 TextGrad，用户可以自动转换“逐步推理”提示，使其更适合特定的应用需求。TextGrad 是一个创新的框架，通过文本反馈实现自动优化，特别适合那些希望利用大型语言模型进行文本处理和优化的开发者。
+
+* [shmsw25/FActScore](https://github.com/shmsw25/FActScore) 用于评估长格式生成事实性的包。我们的 EMNLP 2023 论文“FActScore：长格式文本生成中事实精度的细粒度原子评估”的原始实现
 
 #### 编程语言大模型及相关项目
 
 * [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) GPT 工程师易于调整、扩展，它根据提示生成整个代码库。指定您希望它构建的内容，AI 要求澄清，然后构建它。
+
+* [voideditor/void](https://github.com/voideditor/void) Void 是开源的 Cursor 替代方案。使用最好的 AI 工具编写代码，保留对数据的完全控制权，并访问强大的 AI 功能。按 'Tab' 应用自动完成。Ctrl + K
+内联编辑您的选择。Ctrl + L 提出问题并包含文件。Void 是 VS Code 的一个分支。我们让您一键传输所有主题、键位和设置。社区功能：任何人都可以推进我们的路线图或构建自己的 AI 集成；为您的文件编制索引；使用 AI 进行智能搜索；微调生成（例如 Docstrings）；查看和编辑基础提示。实验性功能：快速应用，即使在 1000 行的文件中也是如此；情境感知；第三方集成。任何 LLM，任何地方：在本地托管您自己的模型，或直接与您最喜欢的模型通信；本地托管，再也不会用完 API 积分，我们提供像 Ollama 这样的工具来在本地托管质量模型；直接发送到 Claude、GPT 或 Gemini；与其他编辑器不同，我们不充当您的 LLM。
 
 * [THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2) 更强大的多语言代码生成模型。基于 ChatGLM2 架构加入代码预训练实现，得益于 ChatGLM2 的更优性能，CodeGeeX2 在多项指标上取得性能提升（+107% > CodeGeeX；仅60亿参数即超过150亿参数的 StarCoder-15B 近10%）
 
@@ -2810,6 +2932,10 @@
 
 * [bin123apple/autocoder](https://github.com/bin123apple/autocoder) 我们引入了一个专为代码生成任务设计的新模型。它在 HumanEval 基础数据集上的测试准确性超过了 GPT-4 Turbo（2024 年 4 月）和 GPT-4o。
 
+* [NoDataFound/hackGPT](https://github.com/NoDataFound/hackGPT) 我利用 OpenAI 和 ChatGPT 来做黑客的事情
+
+* [gersteinlab/ML-bench](https://github.com/gersteinlab/ML-bench) ML-Bench 的官方存储库：在存储库级代码上评估用于机器学习任务的大型语言模型和代理 （https://arxiv.org/abs/2311.09835）
+
 #### 健康医学大模型及语料库
 
 * [FreedomIntelligence/HuatuoGPT-II](https://github.com/FreedomIntelligence/HuatuoGPT-II) 医学适应的一阶段训练LLMs.（一个开放的医疗GPT）。采用创新的领域适应方法，显著提升其医学知识和对话能力。它在多个医学基准测试中展示了最先进的性能，尤其是在专家评估和新的医疗执照考试中超过了 GPT-4。开源7B、13B、34B版本。HuatuoGPT2 数据：发布部分预训练和微调指令。中医LLM评价：综合自动评价方法，对医学反应能力LLM和新鲜专业药师考试考核进行评价。
@@ -2937,6 +3063,12 @@
 * [kyegomez/Med-PaLM](https://github.com/kyegomez/Med-PaLM) 在医疗保健领域实现多模态的生成式 AI 的负责任之路：释放 Med-PaLM 2 的力量，彻底改变医学知识，回答复杂的问题，并通过准确、安全和公平的做法增强医疗保健体验。
 
 * [Teddy-XiongGZ/MedRAG](https://github.com/Teddy-XiongGZ/MedRAG) MedRAG，一个用于医学问答 （QA） 检索增强生成 （RAG） 的系统工具包。MedRAG 用于实施各种 RAG 系统，用于 MIRAGE（医学信息检索增强一代评估）的基准研究。
+
+
+* [HICAI-ZJU/Scientific-LLM-Survey](https://github.com/HICAI-ZJU/Scientific-LLM-Survey) 科学大型语言模型：生物和化学领域的调查。包括：Textual Scientific 大型语言模型（医疗、生物学、化学）；分子大型语言模型（分子性质预测、交互预测、分子生成/设计/编辑
+、逆合成/反应预测）；蛋白质大型语言模型（蛋白质序列表示、蛋白质序列生成/设计）基因组大型语言模型（常规、Function预测、变异和进化预测、DNA-蛋白质相互作用预测、RNA预测）；多模态科学大型语言模型（分子和文本；蛋白质&文本；蛋白质&分子；细胞&文本；全面）
+
+* [thu-coai/PsyQA](https://github.com/thu-coai/PsyQA) 一个中文心理健康支持问答数据集，提供了丰富的援助策略标注。可用于生成富有援助策略的长咨询文本。
 
 #### 法律大模型及语料库
 
@@ -3388,14 +3520,11 @@
 
 * [open-chinese/alpaca-chinese-dataset](https://github.com/open-chinese/alpaca-chinese-dataset) Alpaca Chinese Dataset -- 中文指令微调数据集【人工+GPT4o持续更新】
 
-* []() 
+* [ahmetbersoz/chatgpt-prompts-for-academic-writing](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing) 这份写作提示列表涵盖了一系列主题和任务，包括集思广益研究思路、改进语言和风格、进行文献综述以及制定研究计划。用于文献综述生成器的自定义 GPT 已经发布。它可以有效地解析研究出版物的 PDF 文件，提取关键主题，并为您的学术出版物创建文献综述部分。
 
-* []() 
+* [GAIR-NLP/MathPile](https://github.com/GAIR-NLP/MathPile) [NeurlPS D&B 2024]面向数学的生成式 AI：MathPile
 
-* []() 
-
-* []() 
-
+* [allenai/dolma](https://github.com/allenai/dolma) 用于生成和检查 OLMo 预训练数据的数据和工具。Dolma 数据集：一个包含 3 万亿个tokens的开放数据集，来自 Web 内容、学术出版物、代码、书籍和百科全书材料的各种组合。Dolma Toolkit：用于管理用于语言建模的数据集的高性能工具包 -- 此存储库包含 Dolma Toolkit 的源代码。
 
 ### 其他_文本生成、文本对话
 
@@ -5878,6 +6007,10 @@
 
 * [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) 完整的开源稍后阅读解决方案，适合喜欢文本的人。我们创建 Omnivore 是因为我们热爱阅读，我们希望它更具社交性。特色：突出显示、注释、搜索和共享，全键盘导航，自动保存长篇文章中的位置，通过电子邮件添加新闻稿文章（支持 substack！），PDF 支持，用 Node.js 和 TypeScript 编写的 Web 应用程序，原生 iOS 程序，Android 程序，适用于 Android 用户的渐进式 Web 应用程序，Chrome、Safari、Firefox 和 Edge 的浏览器扩展，标签（又称标记），离线支持，文本转语音（仅限 iOS），通过我们的 Logseq 插件支持 Logseq，通过我们的 Obsidian 插件支持 Obsidian，每个部分都是完全开源的！对其进行分叉、扩展或将其部署到您自己的服务器。omnivore.app 一个免费托管的 Omnivore 版本
 
+* [markmap/markmap](https://github.com/markmap/markmap) 将您的 Markdown 可视化为思维导图。这个项目在很大程度上受到了 dundalek 的 markmap 的启发。
+
+* [penrose/penrose](https://github.com/penrose/penrose) Penrose 是一个平台，使人们只需在纯文本中键入符号即可创建漂亮的图表。目标是让非专家也能轻松创建和探索高质量的图表，并提供对具有挑战性的技术概念的更深入见解。我们的目标是使创建视觉直觉的过程大众化。Penrose 已经了解图表的领域以及如何设置图表的样式。您只需定义对象和关系。Penrose 通过将这三个程序转换为使用符号微分解决的优化问题来开展工作。如果您需要添加新形状，这并不是一项艰苦的工作 -- Penrose 会自动创建一个满足您所有约束条件的新图表。
+
 ### 管理面板
 
 * [akveo/blur-admin](https://github.com/akveo/blur-admin) : AngularJS Bootstrap Admin 管理面板前端框架
@@ -8111,6 +8244,8 @@
 * [borisdayma/dalle-mini](https://github.com/borisdayma/dalle-mini) DALL·E Mini - 从文本提示生成图像
 
 * [lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) 在Pytorch中实现/复制DALL-E，OpenAI的文本到图像转换器
+
+* [Moonvy/OpenPromptStudio](https://github.com/Moonvy/OpenPromptStudio) 这是一个旨在把 AIGC 提示词（现在支持 Midjourney）可视化并提供编辑功能的工具，有以下特性：显示英文提示词的中文翻译；翻译输入的中文提示词到英文（因为 Midjourney 仅支持英文提示词）；为提示词进行分类（普通、样式、质量、命令）；轻松的排序、隐藏提示词；把提示词可视化结果导出为图片；常用提示词词典；通过 Notion 管理提示词词典
 
 * [ashawkey/stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion) 文本到3D和图像到3D和网格导出与NeRF +扩散。
 
@@ -13472,6 +13607,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode) 用于语言服务器协议的 Emacs 客户端/库，语言服务器协议客户端 （v3.14）。lsp-mode 旨在通过提供与最流行的 Emacs 包（如 company、flycheck 和 projectile）的可选集成来提供类似 IDE 的体验。
 
 * [Textualize/frogmouth](https://github.com/Textualize/frogmouth) 用于您的终端的 Markdown 查看器/浏览器，使用 Textual 构建。Frogmouth 可以在本地或通过 URL 打开 *.md 文件。有一个熟悉的类似浏览器的导航堆栈、历史记录、书签和目录。
+
+* [Bryley/neoai.nvim](https://github.com/Bryley/neoai.nvim) NeoAI 是一个 Neovim 插件，它将 OpenAI 的 GPT-4 的强大功能直接带到您的编辑器中。它可以帮助您生成代码、重写文本，甚至在代码上下文中获取建议。该插件具有用户友好的界面，可以轻松与 AI 交互并获得所需的帮助。
 
 ## 终端
 
