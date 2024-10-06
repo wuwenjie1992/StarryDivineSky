@@ -4935,6 +4935,8 @@
 
 * [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) 通过 Node-API 在 Rust 中构建编译Node.js附加组件的框架
 
+* [imba/imba](https://github.com/imba/imba) Imba 是一种友好的 Web 全栈编程语言，可编译为高性能 JavaScript。它具有对定义、扩展、子类化、实例化和渲染 DOM 节点的语言级支持。Imba 的语法最小、美观，并且包含许多巧妙的功能。它以一种强大的方式结合了 logic、markup 和 styling。更少的击键和更少的切换文件意味着您将能够快速构建内容。
+
 ## 前端开发框架及项目
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
@@ -6010,6 +6012,12 @@
 * [markmap/markmap](https://github.com/markmap/markmap) 将您的 Markdown 可视化为思维导图。这个项目在很大程度上受到了 dundalek 的 markmap 的启发。
 
 * [penrose/penrose](https://github.com/penrose/penrose) Penrose 是一个平台，使人们只需在纯文本中键入符号即可创建漂亮的图表。目标是让非专家也能轻松创建和探索高质量的图表，并提供对具有挑战性的技术概念的更深入见解。我们的目标是使创建视觉直觉的过程大众化。Penrose 已经了解图表的领域以及如何设置图表的样式。您只需定义对象和关系。Penrose 通过将这三个程序转换为使用符号微分解决的优化问题来开展工作。如果您需要添加新形状，这并不是一项艰苦的工作 -- Penrose 会自动创建一个满足您所有约束条件的新图表。
+
+* [palxiao/poster-design](https://github.com/palxiao/poster-design) 一款漂亮且功能强大的在线海报设计器，图片编辑器，仿稿定设计，适用于多种场景：海报生成、电商产品图、文章长图、视频/公众号封面等。
+
+* [maxence-charriere/go-app](https://github.com/maxence-charriere/go-app) 一个使用 Go 编程语言和 WebAssembly 构建渐进式 Web 应用程序的包。塑造 UI 是通过使用声明性语法完成的，该语法仅使用 Go 编程语言创建和组合 HTML 元素。它使用 Go HTTP 标准模型。使用 go-app 创建的应用程序可以开箱即用地在自己的窗口中运行，支持离线模式，并且对 SEO 友好。
+
+* [marko-js/marko](https://github.com/marko-js/marko) 一种基于 HTML 的声明性语言，使构建 Web 应用程序变得有趣。Marko 是 HTML 重新构想的一种语言，用于构建动态和反应式用户界面。几乎所有有效的 HTML 都是有效的 Marko，并且 Marko 扩展了 HTML，以便以更声明的方式构建现代应用程序。这些扩展包括条件和列表、状态和组件。Marko 支持单文件组件和跨单独文件的组件。
 
 ### 管理面板
 
@@ -7313,17 +7321,9 @@
 
 * [yixuantt/MultiHop-RAG](https://github.com/yixuantt/MultiHop-RAG) “MultiHop-RAG：用于评估跨文档检索增强生成的数据集”（COLM 2024） 的存储库。MultiHop-RAG：一个 QA 数据集，用于评估 RAG 管道中元数据跨文档的检索和推理。它包含 2556 个查询，每个查询的证据分布在 2 到 4 个文档中。查询还涉及文档元数据，反映了实际 RAG 应用程序中常见的复杂场景。
 
-* []() 
+* [orhun/git-cliff](https://github.com/orhun/git-cliff) 一个高度可定制的更新日志生成器，遵循传统的提交规范。git-cliff 可以通过利用常规提交以及正则表达式驱动的自定义解析器从 Git 历史记录生成更改日志文件。可以使用配置文件自定义 changelog 模板以匹配所需的格式。
 
-* []() 
-
-* []() 
-
-* []() 
-
-* []() 
-
-
+* [pre-commit/pre-commit](https://github.com/pre-commit/pre-commit) 一个用于管理和维护多语言 pre-commit hook 的框架。Git 钩子脚本可用于在提交代码审查之前识别简单问题。我们在每次提交时都运行钩子，以自动指出代码中的问题，例如缺少分号、尾随空格和 debug 语句。通过在代码审查之前指出这些问题，这允许代码审查者专注于更改的架构，而不会浪费时间在琐碎的风格吹毛求疵上。随着我们创建更多的库和项目，我们认识到在项目之间共享我们的 pre-commit 钩子是很痛苦的。我们从一个项目复制并粘贴了笨拙的 bash 脚本，并且必须手动更改钩子以适用于不同的项目结构。我们认为您应该始终使用最好的行业标准 Linter。一些最好的 Linter 是用您在项目中未使用的语言编写的，或者您计算机上没有安装的语言。例如，scss-lint 是用 Ruby 编写的 SCSS 的 Linter。如果您在 Node 中编写项目，您应该能够将 scss-lint 用作预提交钩子，而无需将 Gemfile 添加到您的项目或了解如何安装 scss-lint。我们构建了 pre-commit 来解决我们的 hook 问题。它是一个用于 pre-commit 钩子的多语言包管理器。你指定一个你想要的钩子列表，pre-commit 在每次提交之前管理用任何语言编写的任何钩子的安装和执行。pre-commit 经过专门设计，不需要 root 访问权限。如果你的某个开发人员没有安装 node，但修改了 JavaScript 文件，pre-commit 会自动处理下载和构建 node 以在没有 root 的情况下运行 eslint。
 
 ## 区块链、智能合约
 
@@ -7938,6 +7938,14 @@
 * [PKU-YuanGroup/Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) 本项目旨在重现 Sora（Open AI T2V 模型），我们希望开源社区为本项目做出贡献。推出 Open-Sora-Plan v1.1.0，它显着增强了视频生成质量和文本控制功能。该项目旨在创建一个简单且可扩展的存储库，以重现 Sora（OpenAI，但我们更愿意将其称为“ClosedAI”）。我们希望开源社区能够为这个项目做出贡献。欢迎拉取请求!!本项目希望通过开源社区的力量复现Sora，由北大-兔展AIGC联合实验室共同发起，当前版本离目标差距仍然较大，仍需持续完善和快速迭代。项目阶段：设置代码库并在landscape景观数据集上训练无条件模型。训练可提高分辨率和持续时间的模型。在landscape景观数据集上进行text2video实验。在 video2text 数据集上训练 1080p 模型。具有更多条件的控制模型。
 
 * [hzwer/arXiv2020-RIFE](https://github.com/hzwer/arXiv2020-RIFE) 视频帧插值的实时中级流量估计.旷视和北大提出的一种实时中间流估计算法。用于视频帧插值，能够改善伪影、让视频更丝滑。
+
+* [TMElyralab/MusePose](https://github.com/TMElyralab/MusePose) MusePose：用于虚拟人生成的姿势驱动的图像到视频框架。MusePose 是一个图像到视频的生成框架，用于虚拟人体受控信号，例如姿势。当前发布的模型是通过优化 Moore-AnimateAnyone 实现的 AnimateAnyone。
+
+* [TMElyralab/MuseTalk](https://github.com/TMElyralab/MuseTalk) MuseTalk：具有潜在空间修复的实时高质量嘴部同步。我们介绍了 MuseTalk，这是一种实时高质量口型同步模型（在 NVIDIA Tesla V100 上为 30fps+）。MuseTalk 可以与输入视频（例如由 MuseV 生成）一起应用，作为一个完整的虚拟人解决方案。
+
+* [TMElyralab/MuseV](https://github.com/TMElyralab/MuseV) MuseV：具有视觉条件并行降噪的无限长度和高保真虚拟人类视频生成。
+
+* [MooreThreads/Moore-AnimateAnyone](https://github.com/MooreThreads/Moore-AnimateAnyone) 基于 AnimateAnyone 管道的人脸重演方法：使用驾驶视频的面部特征点来控制给定源图像的姿势，并保持源图像的身份。特别地，我们将头部姿态（包括眨眼）和嘴巴动作与行车视频的地标解开，可以精确控制源人脸的表情和动作。
 
 * [Justin62628/Squirrel-RIFE](https://github.com/Justin62628/Squirrel-RIFE) 基于RIFE算法的中文补帧软件.
 
@@ -9571,6 +9579,14 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 
 * [QwenLM/Qwen2-Audio](https://github.com/QwenLM/Qwen2-Audio) 阿里云提出的Qwen2-Audio聊天和预训练大型音频语言模型的官方仓库。它能够接受各种音频信号输入，并对语音指令进行音频分析或直接文本响应。我们介绍了两种不同的音频交互模式：语音聊天：用户无需文字输入即可自由地与Qwen2-Audio进行语音交互;音频分析：用户可以在交互过程中提供音频和文本指令进行分析。
 
+* [modelscope/FunCodec](https://github.com/modelscope/FunCodec) 基本的、可复制的、可集成的神经语音编解码器开源工具包。用于音频量化和下游应用，例如文本到语音合成、音乐生成等。
+
+* []() 
+
+* []() 
+
+* []() 
+
 # 生物医药
 
 ## 蛋白质结构
@@ -9673,6 +9689,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 
 * [ETHmodlab/molgrad](https://github.com/ETHmodlab/molgrad) 通过将积分梯度可解释人工智能（XAI）方法应用于图神经网络模型，提高了理性分子设计的建模透明度，并基于四个药理学相关ADME终点的实验，验证了所提出的方法能够突出与已知药效团基序一致的分子特征和结构元素，正确识别性质断崖，并提供了对非特异性配体-靶标相互作用的见解。
 
+* [AstraZeneca/chemicalx](https://github.com/AstraZeneca/chemicalx) 基于 PyTorch 和 TorchDrug 的深度学习库，用于药物对评分。（KDD 2022 年）。ChemicalX 是一个用于药物相互作用、多药副作用和协同作用预测的深度学习库。该库由数据加载器和集成的基准测试数据集组成。它还包括最先进的深度神经网络架构，用于解决药物对评分任务。实现的方法涵盖传统的基于 SMILES 字符串的技术和基于神经消息传递的模型。我们的框架解决了计算化学的药物对评分任务。在这项任务中，机器学习模型必须预测在生物或化学环境中同时施用两种药物的结果。解决此任务的深度学习模型的架构具有两个不同的部分：1.一个药物编码器层，将一对药物作为输入（下面的蓝色和红色药物）。2.在管理上下文中输出分数的头层 - 在我们的解释图中为 polypharmacy。
+
 * [thinng/GraphDTA](https://github.com/thinng/GraphDTA) 使用图神经网络预测药物-靶标的结合亲和力
 
 * [isjakewong/MIRACLE](https://github.com/isjakewong/MIRACLE) 多视图图对比表示学习用于药物药物相互作用预测
@@ -9730,6 +9748,10 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [microsoft/Graphormer](https://github.com/microsoft/Graphormer) 图结构数据上的Transformer变种，应用于2D 分子化学结构图预测分子性质，还可以应用于主流图预测任务、社交网络的推荐和广告、知识图谱、自动驾驶的雷达点云数据、对交通物流运输等的时空预测和优化、程序理解和生成等等，还包括分子性质预测所涉及的行业，比如药物发掘、材料发现、分子动力学模拟、蛋白质结构预测等等。
 
 * [dptech-corp/Uni-Mol](https://github.com/dptech-corp/Uni-Mol) 通用的 3D 分子预训练框架，显着扩大了药物设计中的表示能力和应用范围。由两个模型组成：一个由 209M 分子 3D 构象训练的分子预训练模型； 由 3M 候选蛋白质口袋数据训练的口袋预训练模型。两种模型独立用于不同的任务，并在用于蛋白质-配体结合任务时结合使用。 Uni-Mol 在 14/15 分子特性预测任务中优于 SOTA。 此外，在3D空间任务中实现了卓越的性能，包括蛋白质-配体结合位姿预测(protein-ligand binding pose prediction)、分子构象生成(molecular conformation generation)等。
+
+* [thomas0809/MolScribe](https://github.com/thomas0809/MolScribe) 通过图像到图生成实现稳健的分子结构识别。一种图像到图形模型，可将分子图像转换为其化学结构。
+
+* [chemprop/chemprop](https://github.com/chemprop/chemprop) Chemprop 是一个存储库，包含用于分子性质预测的消息传递神经网络。基于 PyTorch 的框架，用于训练和评估消息传递神经网络 （MPNN） 以进行分子特性预测。例如：预测新分子的溶解度、生成分子指纹图等等。
 
 * [HIPS/neural-fingerprint](https://github.com/HIPS/neural-fingerprint) 图卷积网络用于学习分子指纹。使用神经网络在数据样本中归纳总结，然后来预测新型分子的属性或者性质。
 
@@ -9996,6 +10018,16 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [allenai/scispacy](https://github.com/allenai/scispacys) 完整的 spaCy 管道和科学/生物医学文档模型。特别是，有一个自定义分词器，可以在 spaCy 基于规则的分词器之上添加分词规则，一个在生物医学数据和实体跨度检测模型上训练的 POS 标记器和句法解析器。另外，还有用于更具体任务的NER模型。
 
 * [openbabel/openbabel](https://github.com/openbabel/openbabel) Open Babel 是一个化学工具箱，旨在使用多种语言的化学数据。这是一个开放的协作项目，允许任何人搜索、转换、分析或存储来自分子建模、化学、固态材料、生物化学或相关领域的数据。
+
+* [https://github.com/duerrsimon/bioicons](https://github.com/duerrsimon/bioicons) 一个免费的开源图标库，用于生物学和化学中的科学插图。
+
+* [awesome-python-chemistry](https://github.com/lmmentel/awesome-python-chemistry) 与化学相关的精彩 Python 框架、库、软件和资源的精选列表。
+
+* [psi4/psi4](https://github.com/psi4/psi4) Psi4 是一套开源的 ab initio 量子化学程序，旨在高效、高精度地模拟分子特性。我们通常在多核机器上使用 >2500 基函数执行计算。
+
+* [hsiaoyi0504/awesome-cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics) 化学信息学（也称为化学信息学、化学信息学和化学信息学）是使用计算机和信息技术应用于化学领域的一系列问题。一份精选的 Cheminformatics 软件、资源和库列表。主要基于命令行，并且是免费的或开源的。
+
+* []() 
 
 # 图数据库图算法
 
@@ -11475,6 +11507,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [helloexp/0day](https://github.com/helloexp/0day) 各CMS、各平台、各系统、各软件漏洞的EXP、POC 
 
 * [lxflxfcl/monitor](https://github.com/lxflxfcl/monitor) 漏洞监控平台。目前实现了监控GitHub、微软、CNNVD三者的漏洞信息，并使用企业微信实时推送。还可以使用邮箱推送，默认关闭。
+
+* [screetsec/TheFatRat](https://github.com/screetsec/TheFatRat) Thefatrat 是一个大规模的漏洞利用工具 ： 生成后门的简单工具和发布漏洞利用攻击（如浏览器攻击等）的简单工具。该工具编译具有流行负载的恶意软件，然后编译后的恶意软件可以在 Windows、Android、mac 上执行。使用此工具创建的恶意软件还能够绕过大多数 AV 软件。
 
 * [binganao/vulns-2022](https://github.com/binganao/vulns-2022) 用于搜集 2022 年的漏洞，注意：本项目并不刻意搜集 POC 或 EXP，主要以CVE-2021、CVE-2022 为关键词，包含但不限于漏洞资讯、漏洞复现、漏洞分析、漏洞验证、漏洞利用
 
@@ -13200,6 +13234,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 
 * [go-shiori/shiori](https://github.com/go-shiori/shiori) 使用 Go 构建的简单书签管理器
 
+* [sqlc-dev/sqlc](https://github.com/sqlc-dev/sqlc) 将 SQL 编译为类型安全的代码; 在故障发生之前发现故障。架构更新和编写不佳的查询通常会使生产数据库瘫痪。这很糟糕。建议架构更改时，在应用架构更改时，在生产环境中运行的现有查询和代码可能会失败。输入 sqlc verify，如果存在任何问题，它会根据新的架构更改和错误分析现有查询。运作方式：1.您编写 SQL 查询 2.运行 sqlc 来生成代码，为这些查询提供类型安全接口 3.您可以调用 sqlc 生成的方法编写应用程序代码。
+
 * [json-iterator/go](https://github.com/json-iterator/go) 高性能 100% 兼容Go的“encoding/json”直接替代品
 
 * [go-delve/delve](https://github.com/go-delve/delve) Go 编程语言的调试器。
@@ -13235,6 +13271,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [therecipe/qt](https://github.com/therecipe/qt) Go（Golang）的Qt绑定，支持Windows / macOS / Linux / FreeBSD / Android / iOS / Sailfish OS / Raspberry Pi / AsteroidOS / Ubuntu Touch / JavaScript / WebAssembly
 
 * [xxjwxc/uber_go_guide_cn](https://github.com/xxjwxc/uber_go_guide_cn) Uber 是一家美国硅谷的科技公司，也是 Go 语言的早期 adopter。其开源了很多 golang 项目，诸如被 Gopher 圈熟知的 zap、jaeger 等。2018 年年末 Uber 将内部的 Go 风格规范 开源到 GitHub，经过一年的积累和更新，该规范已经初具规模，并受到广大 Gopher 的关注。本文是该规范的中文版本。本版本会根据原版实时更新。
+
+* [lxn/walk](https://github.com/lxn/walk) 用于 Go 编程语言的 Windows GUI 工具包。使用 Walk 创建 GUI 的首选方法是使用其声明式 sub 包。
 
 ## Java 程序设计
 
