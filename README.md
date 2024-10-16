@@ -8157,6 +8157,8 @@
 
 * [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) 多模态大型语言模型的最新论文和数据集
 
+* [swordlidev/Efficient-Multimodal-LLMs-Survey](https://github.com/swordlidev/Efficient-Multimodal-LLMs-Survey) 高效的多模态大型语言模型：一项调查 [arXiv] 我们将积极维护这个存储库，并在出现新研究时纳入它。如果您有任何问题，请联系 swordli@tencent.com。欢迎合作进行学术研究和撰写论文。（欢迎学术合作）。
+
 * [THUDM/VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) 多模态中英双语对话语言模型
 
 * [DAMO-NLP-SG/M3Exam](https://github.com/DAMO-NLP-SG/M3Exam) 一种新颖的基准，来自真实和官方的人类考试问题，用于在多语言，多模态和多层次的背景下评估LLM。
@@ -8212,6 +8214,8 @@
 * [baaivision/Emu](https://github.com/baaivision/Emu) BAAI的生成式多模态模型，人类在上下文中轻松解决多模态任务的能力（即，只需一些演示或简单的指令），是当前的多模态系统在很大程度上难以模仿的。在这项工作中，我们证明了大型多模态模型的任务无关的上下文学习能力可以通过有效的扩展得到显着增强。我们引入了 Emu2，这是一个具有 370 亿个参数的生成多模态模型，在具有统一自回归目标的大规模多模态序列上进行训练。Emu2 表现出强大的多模态上下文学习能力，甚至可以解决需要即时推理的任务，例如视觉提示和基于对象的生成。该模型在少样本设置下的多个多模态理解任务上创造了新纪录。当指令调整为遵循特定指令时，Emu2 在具有挑战性的任务上进一步实现了新的最先进的技术，例如大型多模态模型的问答基准和开放式主题驱动的生成。这些成就表明，Emu2可以作为各种多模态任务的基础模型和通用接口。
 
 * [NVlabs/VILA](https://github.com/NVlabs/VILA) VILA - 一种具有训练、推理和评估配方的多图像视觉语言模型，可从云部署到边缘（Jetson Orin 和笔记本电脑）。VILA 是一种视觉语言模型 （VLM），使用大规模交错的图文数据进行预训练，可实现视频理解和多图像理解能力。VILA 可通过 AWQ 4bit 量化和 TinyChat 框架在边缘部署。我们发现：（1）图文对是不够的，交错的图文是必不可少的;（2）交错图文预训练中的解冻LLM使上下文学习成为可能;（3）重新混合纯文本指令数据对于提高VLM和纯文本性能至关重要;（4） 令牌压缩扩展 #video 帧。VILA展示了吸引人的功能，包括：视频推理、上下文学习、视觉思维链和更好的世界知识。
+
+* [TencentARC/SEED-Story](https://github.com/TencentARC/SEED-Story) 我们介绍了 SEED-Story，这是一种基于 SEED-X 的 MLLM，能够生成多模态长篇故事，由丰富而连贯的叙述文本以及字符和风格一致的图像组成。我们还发布了 StoryStream，这是一个专为训练和基准测试多模态故事生成而设计的大规模数据集。
 
 ## 其他_机器视觉
 
@@ -9857,6 +9861,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 
 * [xzenglab/KG-MTL](https://github.com/xzenglab/KG-MTL) 以协同的方式从知识图谱和分子图中提取特征。此外，我们设计了一个有效的共享单元，帮助模型在两个层次的图中共同保留药物实体的语义关系和化合物的相邻结构。在四个真实世界数据集上的广泛实验表明，我们提出的KG-MTL在两个具有代表性的分子相互作用预测任务上优于最先进的方法：药物-靶点相互作用（DTI）预测和化合物-蛋白质相互作用（CPI）预测。
 
+* [zjunlp/Mol-Instructions](https://github.com/zjunlp/Mol-Instructions) 用于大型语言模型的开放、大规模生物分子指令数据集。Mol-Instructions 包括 3 个主要成分：面向分子的指令：该组件深入研究了小分子的世界，强调了它们的固有特性和行为。它阐明了各种化学反应和分子设计的基本挑战，在六项任务中提供了 148,4K 条指令。面向蛋白质的指令：该组件植根于生物科学，在五类不同任务中提供 505K 条指令。这些任务旨在预测蛋白质的结构、功能和活性，并促进基于文本指令的蛋白质设计。生物分子文本指令：主要设计用于满足生物信息学和化学信息学领域的 NLP 任务，这部分封装了通过 53K 指令表示的六个信息提取和问答任务。
+
 ## 抗菌肽
 
 * [vail-uvm/amp-gan](https://github.com/vail-uvm/amp-gan) 一种基于双向条件生成对抗网络的抗菌肽（AMPs）设计方法AMPGAN v2。AMPGAN v2使用生成器和鉴别器来学习数据驱动的先验知识，并使用条件变量控制生成。
@@ -10038,6 +10044,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [psi4/psi4](https://github.com/psi4/psi4) Psi4 是一套开源的 ab initio 量子化学程序，旨在高效、高精度地模拟分子特性。我们通常在多核机器上使用 >2500 基函数执行计算。
 
 * [hsiaoyi0504/awesome-cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics) 化学信息学（也称为化学信息学、化学信息学和化学信息学）是使用计算机和信息技术应用于化学领域的一系列问题。一份精选的 Cheminformatics 软件、资源和库列表。主要基于命令行，并且是免费的或开源的。
+
+* [PathologyFoundation/plip](https://github.com/PathologyFoundation/plip) 病理学语言和图像预训练 （PLIP） 是 Pathology AI （Nature Medicine） 的第一个视觉和语言基础模型。PLIP 是一种大规模的预训练模型，可用于从病理图像和文本描述中提取视觉和语言特征。该模型是原始 CLIP 模型的微调版本。
 
 * []() 
 
@@ -10984,6 +10992,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 
 * [apache/beam](https://github.com/apache/beam) 用于批处理和流式处理数据的统一编程模型。Apache Beam 是一个统一的模型，用于定义批处理和流数据并行处理管道，以及一组用于构建管道的特定语言 SDK，以及用于在分布式处理后端（包括 Apache Flink、Apache Spark、Google Cloud Dataflow 和 Hazelcast Jet）上执行管道的 Runner。Beam 提供了一种通用方法来表达令人尴尬的并行数据处理管道，并支持三类用户，每类用户都有相对不同的背景和需求。最终用户：使用现有 SDK 编写管道，并在现有运行器上运行它。这些用户希望专注于编写他们的应用程序逻辑，而让其他一切都正常工作。SDK 编写者：开发针对特定用户社区（Java、Python、Scala、Go、R、图形等）的 Beam SDK。这些用户是语言极客，他们更愿意被屏蔽在各种运行器及其实现的所有细节之外。Runner Writers：具有分布式处理的执行环境，并希望支持针对 Beam 模型编写的程序。希望免受多个 SDK 细节的影响。Beam 背后的模型是从几个 Google 内部数据处理项目演变而来的，包括 MapReduce、FlumeJava 和 Millwheel。该模型最初称为“数据流模型”。要了解有关 Beam 模型的更多信息（尽管仍以 Dataflow 的原始名称命名），请参阅 O'Reilly 雷达网站上的 World Beyond Batch： Streaming 101 和 Streaming 102 帖子，以及 VLDB 2015 论文。eam 编程模型中的关键概念是：PCollection ：表示数据的集合，其大小可以是有界的，也可以是无界的。PTransform ：表示将输入 PCollections 转换为输出 PCollections 的计算。Pipeline ：管理 PTransforms 和 PCollections 的有向无环图，该图已准备好执行。PipelineRunner ：指定管道的执行位置和方式。
 
+* [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) 免费、简单、直观的在线数据库图表编辑器和 SQL 生成器。DrawDB 是浏览器中功能强大且用户友好的数据库实体关系 （DBER） 编辑器。只需单击几下即可构建图表、导出 sql 脚本、自定义编辑器等，而无需创建帐户。drawDB 提供什么？导出 DDL 脚本以在数据库上运行，或将图表导出为 JSON 或图像。已经有 Schema？导入 DDL 脚本以生成图表。自定义 UI 以符合您的偏好。在视图中选择所需的组件。使用键盘快捷键加快开发速度。从预构建的模板开始。快速入门或获取设计灵感。有样板结构？通过将它们保存为模板并在需要时加载它们来节省时间。撤消、重做、复制、粘贴、复制等。添加表格、主题区域和注释。检测并解决图表中的错误，以确保脚本正确无误。我们支持 5 种关系数据库 - MySQL、PostgreSQL、SQLite、MariaDB、SQL Server。为对象关系数据库添加自定义类型，或创建自定义 JSON 方案。在团队会议和讨论期间在大屏幕上展示您的图表。跟踪任务并在完成后将其标记为已完成。
+
 # 云&虚拟化
 
 * [istio/istio](https://github.com/istio/istio) 开源服务网格，透明地分层到现有的分布式应用程序上。Istio 的强大功能提供了一种统一且更高效的方式来保护、连接和监控服务。Istio 是负载均衡、服务到服务身份验证和监控的途径，只需很少或无需更改服务代码。
@@ -11139,6 +11149,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [lucavallin/barco](https://github.com/lucavallin/barco) barco 是旨在根据互联网上的其他指南更多地了解 Linux 容器和 Linux 内核。Linux 容器由一组 Linux 内核功能组成：命名空间，用于将内核对象分组到不同的集合中，这些集合可以由特定的进程树访问，命名空间有多种类型，例如，PID命名空间用于隔离进程树，而网络命名空间用于隔离网络堆栈。seccomp，用于限制进程可以进行的系统调用（通过 syscalls 处理）。功能：用于对 uid 0 （root） 可以执行的操作设置限制（通过 syscalls 处理）。cgroups：用于限制进程可以使用的资源（例如内存、磁盘 I/O、CPU-tme）（通过 cgroupfs 处理）。
 
 * [budtmo/docker-android](https://github.com/budtmo/docker-android) Android 的 Docker 解决方案 ，支持 noVNC 和视频录制。Docker-Android 是一个 docker 镜像，用于与 Android 相关的所有内容。它可用于应用程序开发和测试（本机、Web 和混合应用程序）。使用此项目的优势：具有不同设备配置文件和皮肤的模拟器，例如三星Galaxy S6，LG Nexus 4，HTC Nexus One等。支持 vnc 能够看到 docker 容器内部发生了什么。支持日志共享功能，所有日志都可以从web-UI访问。能够使用 adb connect 从容器外部控制模拟器。与其他云解决方案集成，例如Genymotion云。它可以用来构建Android项目。它可用于使用不同的测试框架运行单元和 UI-Test，例如 Appium、Espresso 等。
+
+* [GoogleCloudPlatform/terraformer](https://github.com/GoogleCloudPlatform/terraformer) CLI 工具从现有基础设施生成 terraform 文件（反向 Terraform）。基础设施到代码。一个 CLI 工具，用于根据现有基础设施生成 tf/json 和 tfstate 文件（反向 Terraform）。免责声明：这不是 Google 官方产品。
 
 # 安全与渗透
 
@@ -13285,6 +13297,8 @@ LCM 是一种扩散蒸馏方法，可直接在潜在空间中预测 PF-ODE 的�
 * [xxjwxc/uber_go_guide_cn](https://github.com/xxjwxc/uber_go_guide_cn) Uber 是一家美国硅谷的科技公司，也是 Go 语言的早期 adopter。其开源了很多 golang 项目，诸如被 Gopher 圈熟知的 zap、jaeger 等。2018 年年末 Uber 将内部的 Go 风格规范 开源到 GitHub，经过一年的积累和更新，该规范已经初具规模，并受到广大 Gopher 的关注。本文是该规范的中文版本。本版本会根据原版实时更新。
 
 * [lxn/walk](https://github.com/lxn/walk) 用于 Go 编程语言的 Windows GUI 工具包。使用 Walk 创建 GUI 的首选方法是使用其声明式 sub 包。
+
+* [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) gRPC-Gateway 是 Google 协议缓冲区编译器协议的插件。它读取 protobuf 服务定义并生成一个反向代理服务器，该服务器将 RESTful HTTP API 转换为 gRPC。此服务器是根据服务定义中的 google.api.http 注释生成的。这有助于您同时以 gRPC 和 RESTful 样式提供 API。
 
 ## Java 程序设计
 
