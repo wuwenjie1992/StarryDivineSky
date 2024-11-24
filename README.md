@@ -17,8 +17,8 @@
     </a>
 
 </p>
-<h3 align="center">精选了10K+ 项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
-<h3 align="center">Selected more than 10K+ projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc.</h3>
+<h3 align="center">精选了10K+项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉等内容。</h3>
+<h3 align="center">Selected more than 10K projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc.</h3>
 <h3 align="center">让更多优秀的项目被人发现，让更多的人感受开源的魅力。</h3>
 <h3 align="center">Let more excellent projects be discovered by people, let more people feel the charm of open source.</h3>
 <h3 align="center">持续更新！欢迎🌟star！😀😀😀 Continue to update! Welcome to star! 😀😀😀</h3>
@@ -46,7 +46,7 @@
 
 # Tips注意
 
-* 文件内容较长，建议clone后阅读或搜索。
+* 文件内容较长，建议clone后阅读或搜索。The file content is long, it is recommended to read or search after cloning.
 
 # Star🌟数变化
 
@@ -316,6 +316,8 @@
 
 * [zenml-io/zenml](https://github.com/zenml-io/zenml) 构建可移植、生产就绪的 MLOps 管道。ZenML 是一个 MLOps 框架，适用于希望标准化机器学习实践的数据科学家或 ML 工程师。只需将@step和@pipeline添加到现有的 Python 函数中即可开始使用。轻松预配 MLOps 堆栈或重用现有基础架构：该框架是从业者构建复杂 ML 管道的温和切入点，几乎不需要了解底层基础设施的复杂性。ZenML 管道可以在 AWS、GCP、Azure、Airflow、Kubeflow 甚至 Kubernetes 上运行，而无需更改任何代码或了解底层内部结构。ZenML提供了不同的功能，可以帮助人们在远程环境中快速上手。如果要在所选云提供商上从头开始部署远程堆栈，可以通过仪表板使用一键式部署功能。在生产基础架构上轻松运行工作负载：配置 MLOps 堆栈后，可以轻松地在其上运行工作负载；跟踪模型、管道和工件：创建生成人员、地点以及生成数据和模型的完整谱系，您将能够找出谁在什么时间生成了哪个模型，使用哪些数据以及代码的哪个版本。这保证了完全的可重复性和可审计性。专为机器学习而构建，可集成到您喜爱的工具中：虽然 ZenML 带来了很多盒子的价值，但它也可以集成到您现有的工具和基础设施中，而您不必被锁定。
 
+* [reservoirpy/reservoirpy](https://github.com/reservoirpy/reservoirpy) ReservoirPy是一个简单易用的Python库，用于实现高效的储层计算（RC）架构，特别是回声状态网络（ESN）。它提供灵活的接口，支持离线和在线训练、并行实现、稀疏矩阵计算、快速谱初始化和高级学习规则等功能。用户可以轻松创建包含多个储层、读出和复杂反馈回路的复杂架构。该库还包含图形工具，可以帮助用户使用hyperopt库探索超参数。此外，它还包含多个教程，介绍了奇特的架构和科学论文的复现示例。该库适用于Python 3.8及更高版本。水库计算(Reservoir computing)是一种从循环神经网络理论中衍生出的计算框架，通过一个称为水库的固定非线性系统的动力学，将输入信号映射到更高维的计算空间。在将输入信号输入到被视为“黑盒”的水库后，训练一个简单的读取机制来读取水库的状态并将其映射到所需的输出。这个框架的第一个关键优势是，训练仅在读取阶段进行，因为水库的动力学是固定的。第二个优势是，可以使用自然存在的系统（包括经典和量子力学系统）的计算能力来降低有效的计算成本。
+
 * [replicate/cog](https://github.com/replicate/cog) Cog 是一个开源工具，可让您将机器学习模型打包到标准的生产就绪容器中。特色：Docker 容器没有痛苦，编写自己的 Dockerfile 可能是一个令人困惑的过程，使用 Cog，您可以使用一个简单的配置文件来定义您的环境，它会生成一个包含所有最佳实践的 Docker 镜像：Nvidia 基础镜像、依赖项的高效缓存、安装特定的 Python 版本、合理的环境变量默认值等。不再有 CUDA 地狱，Cog 知道哪些 CUDA/cuDNN/PyTorch/Tensorflow/Python 组合是兼容的，并会为您正确设置。使用标准 Python 定义模型的输入和输出，Cog 生成一个 OpenAPI 架构，并使用 Pydantic 验证输入和输出。自动 HTTP 预测服务器：您的模型类型用于使用 FastAPI 动态生成 RESTful HTTP API。自动队列工作程序，长时间运行的深度学习模型或批处理最好使用队列进行架构，Cog 模型开箱即用。Redis 目前受支持，更多支持正在开发中。云存储，文件可以直接读取和写入 Amazon S3 和 Google Cloud Storage。为生产做好准备，将模型部署到运行 Docker 映像的任何位置。您自己的基础设施或 Replicate。
 
 * [arrayfire/arrayfire](https://github.com/arrayfire/arrayfire) ArrayFire是一个通用张量库，简化了针对CPU、GPU和其他硬件加速设备的并行架构的软件开发过程。它提供数百种加速的张量计算函数，涵盖数组处理、计算机视觉、图像处理、线性代数、机器学习、标准数学、信号处理、统计和向量算法等领域。ArrayFire拥有易于使用、稳定且文档齐全的API，并通过严格的基准测试和测试确保最佳性能和数值精度。它支持CUDA、oneAPI、OpenCL和原生CPU，可在Windows、Mac和Linux上运行。ArrayFire还内置了通过Forge实现的可视化功能，并提供商业友好的开源许可和企业支持。ArrayFire通过`af::array`对象提供对加速器上数据的抽象，开发者编写对ArrayFire数组进行操作的代码，这些代码会自动转换为在计算设备上执行的近乎最佳的内核。ArrayFire可在从低功耗移动电话到高性能GPU支持超级计算机的各种设备上运行。它支持来自所有主要供应商（英特尔、AMD、ARM）的CPU，来自主要制造商（AMD、英特尔、英伟达和高通）的GPU，以及Windows、Mac和Linux上的各种其他加速器设备。
@@ -516,6 +518,8 @@
 
 * [SimonVandenhende/Multi-Task-Learning-PyTorch](https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorch) 该项目使用PyTorch实现多任务学习架构，包括MTI-Net（ECCV2020），并提供了一个多任务学习资源库。项目代码基于论文&quot;Multi-Task Learning for Dense Prediction Tasks: A Survey&quot;和&quot;MTI-Net: Multi-Scale Task Interaction Networks for Multi-Task Learning&quot;。用户可以根据自己的需求修改代码，例如更改数据集路径、输出目录和模型配置等。项目支持PASCAL和NYUD数据集，并提供语义分割、深度估计、法线估计、边缘检测、显著性检测和人体部位分割等任务。
 
+* [YihongDong/FAN](https://github.com/YihongDong/FAN) FAN (Fourier Analysis Networks) 是一种新型神经网络，它通过将傅里叶分析融入神经网络结构，有效地提升了模型对周期性信号的建模能力。FAN 层使用余弦和正弦函数来提取输入信号的频率信息，并结合非线性激活函数，从而在保留原始信息的同时，增强了模型对周期性模式的识别能力。该项目提供多个应用场景的代码，包括周期性建模、情感分析、时间序列预测、符号公式表示和图像识别，并提供详细的运行说明和数据集获取方式。
+
 * [XiaoMi/mace](https://github.com/XiaoMi/mace) MACE是一个针对移动端异构计算平台优化的深度学习推理框架，支持 Android、iOS、Linux 和 Windows 设备。MACE 旨在提升性能、降低功耗、提高响应速度、优化内存使用和库体积，并提供模型保护功能。MACE 支持 TensorFlow、Caffe 和 ONNX 模型格式，并提供丰富的模型库，可在 [MACE Model Zoo](https://github.com/XiaoMi/mace-models) 中找到。用户可以通过 [文档](https://mace.readthedocs.io) 学习如何使用 MACE，并可通过 GitHub 问题、Slack 和 QQ 群与开发团队交流。
 
 * [ebhy/budgetml](https://github.com/ebhy/budgetml) BudgetML是一个快速、低成本的机器学习模型部署工具，它利用Google Cloud Platform的预抢占实例（比普通实例便宜80%），并自动生成安全的HTTPS API端点，确保最低的运行成本和最小的停机时间。它使用FastAPI构建，提供交互式Swagger文档，并支持通过LetsEncrypt和docker-swag生成SSL证书。BudgetML还提供完整的OAuth2安全端点，支持密码和Bearer模式。与传统云函数或Kubernetes集群相比，BudgetML更轻量级，更易于使用，适合快速部署模型并降低成本。
@@ -658,6 +662,8 @@
 
 * [ropensci/drake](https://github.com/ropensci/drake) drake是一个专注于 R 语言的管道工具包，用于提高可重复性和高性能计算。它可以帮助你构建、管理和执行数据分析管道，并自动处理依赖关系，确保结果的准确性和可重复性。drake 已经被 `targets` 包取代，`targets` 包功能更强大，使用更便捷。你可以访问 [https://books.ropensci.org/targets/drake.html](https://books.ropensci.org/targets/drake.html) 获取更多信息和迁移建议。
 
+* [8080labs/pyforest](https://github.com/8080labs/pyforest) pyforest是一个Python库，能自动导入常用的数据科学库，无需手动编写import语句。它在Jupyter Notebook中工作，在你使用某个库时自动导入并将其添加到第一个单元格，未使用则不导入，方便快捷地进行数据分析，提高效率，支持pandas、numpy、matplotlib、seaborn等众多库。安装方法为`pip install --upgrade pyforest`及`python -m pyforest install_extensions`，并重启Jupyter服务器。
+
 * [pydata/patsy](https://github.com/pydata/patsy) Patsy是一个Python库，用于描述统计模型（特别是线性模型或具有线性成分的模型）并构建设计矩阵。它将R语言中的公式语法引入Python，方便用户使用公式来描述模型。Patsy不再积极开发，但目前仍可使用。用户可考虑迁移到其继承项目Formulaic。Patsy依赖于Python、six、numpy等库，并可选依赖于pytest/pytest-cov和scipy。用户可以使用pip install patsy命令安装该库。
 
 * [NexaAI/nexa-sdk](https://github.com/NexaAI/nexa-sdk) Nexa SDK是一个支持 ONNX 和 GGML 模型的综合工具包，支持文本生成、图像生成、视觉语言模型 (VLM)、自动语音识别 (ASR) 和文本转语音 (TTS) 功能。它提供一个与 OpenAI 兼容的 API 服务器，支持 JSON 模式函数调用和流支持，并提供一个用户友好的 Streamlit UI。Nexa SDK 支持 CUDA、Metal 和 ROCm 等 GPU 加速，可运行在任何具有 Python 环境的设备上，并提供可执行版本。
@@ -673,6 +679,8 @@
 * [vega/altair](https://github.com/vega/altair) Vega-Altair是一个用于 Python 的声明式统计可视化库，它基于强大的Vega-Lite JSON 规范，提供简单易用的 API，帮助你快速创建美观且有效的可视化图表。你可以在 JupyterLab、Jupyter Notebook、Visual Studio Code 等环境中使用它，并导出为 PNG/SVG 等格式。Vega-Altair 的独特之处在于它不仅支持可视化，还支持交互，例如使用刷选工具过滤散点图并联动更新直方图。
 
 * [lyhue1991/torchkeras](https://github.com/lyhue1991/torchkeras) torchkeras是一个易于使用的 PyTorch 模型训练工具，它提供简洁的代码结构，方便用户快速构建、训练和评估模型。它借鉴了Keras 的设计理念，提供类似的 API，简化了模型构建和训练过程，同时保留了 PyTorch 的灵活性和性能。torchkeras旨在简化模型训练，并提供常用的功能，例如模型构建、训练、评估、可视化等，方便用户快速上手 PyTorch 模型训练。
+
+* [JuliaLang/IJulia.jl](https://github.com/JuliaLang/IJulia.jl) IJulia是Julia语言的Jupyter内核，允许用户在Jupyter Notebook（或JupyterLab等）交互式环境中使用Julia编程语言。它结合了Julia的强大功能和Jupyter的交互式笔记本功能，支持代码、文本、数学公式和多媒体的整合。IJulia可与多种Jupyter用户界面配合使用，并提供便捷的安装和启动方式，用户可选择自行安装Jupyter或让IJulia创建和管理其自身的Python/Jupyter安装。
 
 * [Kaggle/kaggle-api](https://github.com/Kaggle/kaggle-api) Kaggle API是 Kaggle 网站的官方 API，使用 Python 3 实现，可以通过命令行工具访问。用户可以通过安装 `kaggle` 包来使用 API，并通过环境变量或配置文件设置 API 凭据。API 提供了多种功能，例如列出模型、获取数据集等。开发者可以通过修改 `src/` 目录下的代码，并使用 `hatch` 工具编译和运行代码，还可以进行集成测试。Kaggle API 遵循 Apache 2.0 许可证。
 
@@ -732,6 +740,8 @@
 
 * [SeldonIO/alibi](https://github.com/SeldonIO/alibi) Alibi是一个Python库，用于机器学习模型的检查和解释，提供高质量的实现，包括黑盒、白盒、局部和全局解释方法，适用于分类和回归模型。该库支持各种解释方法，例如锚点解释、集成梯度、反事实示例和累积局部效应，可用于理解模型的预测结果。Alibi还提供了一系列示例和文档，帮助用户快速上手。
 
+* [ml-tooling/ml-workspace](https://github.com/ml-tooling/ml-workspace) MLWorkspace是一个一体化的基于Web的机器学习和数据科学IDE，预装了TensorFlow、PyTorch、Jupyter、VS Code等众多流行库和工具，方便用户快速构建ML解决方案。它支持通过Docker轻松部署在Mac、Linux和Windows上，并提供Jupyter、JupyterLab和VS Code等多种Web IDE，以及Tensorboard和Netdata等集成监控工具，可通过Web、SSH或VNC访问。
+
 * [rusty1s/pytorch_sparse](https://github.com/rusty1s/pytorch_sparse) PyTorchSparse 是一个用于优化稀疏矩阵操作的 PyTorch 扩展库，支持自动微分。它包含了多种稀疏矩阵操作，包括合并、转置、稀疏-稠密矩阵乘法和稀疏-稀疏矩阵乘法，支持多种数据类型，并在 CPU 和 GPU 上实现。该库简化了稀疏张量的操作，用户只需传入索引和值张量即可，并支持对值张量的自动微分。
 
 * [has2k1/plotnine](https://github.com/has2k1/plotnine) plotnine是一个基于 ggplot2 的 Python 图形语法库，它允许你通过将数据框中的变量映射到图形对象的视觉属性（位置、颜色、大小等）来构建图形。这种图形语法方法使得构建复杂图形变得简单直观，同时保持简单图形的易用性。plotnine 的API 与 ggplot2 相似，因此你可以参考 ggplot2 文档来学习更多用法。
@@ -763,6 +773,8 @@
 * [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) 跨平台深度学习训练和推理机加速器，与深度学习框架，可以兼容TensorFlow、Keras和PyTorch等多种深度学习框架。Open Neural Network Exchange 是用于表示深度学习模型的开放格式，定义了通用运算符、机器学习和深度学习模型的构建块以及通用文件格式，可与各种框架工具和编译器一起使用。
 
 * [pytorch/ignite](https://github.com/pytorch/ignite) Ignite是一个 PyTorch 高级库，它提供灵活且透明的训练和评估神经网络的方法。它简化了训练和验证循环，并通过事件和处理程序提供强大的功能。Ignite 采用库式方法，不会反转程序控制，允许用户在需要时使用它。此外，它还提供可扩展的 API，用于度量、实验管理器和其他组件。
+
+* [facebookresearch/hydra](https://github.com/facebookresearch/hydra) Hydra是一个用于优雅配置复杂应用程序的框架，它通过简化配置管理来提高开发效率。Hydra的工作原理是利用结构化的配置文件，支持多种配置格式和参数覆盖机制，从而方便地管理和运行复杂的实验和应用。它拥有活跃的社区和丰富的生态系统，并被广泛应用于机器学习等领域。
 
 * [raminmh/liquid_time_constant_networks](https://github.com/raminmh/liquid_time_constant_networks) 一种能适应实时世界系统的变化的神经网络。神经网络的设计灵感来自生物大脑，设计灵感直接来自秀丽隐杆线虫（C. elegans）。他说：「它的神经系统仅有 302 个神经元，但却可以产生超出预期的复杂动态。」 Liquid 网络的流动性使其能更弹性地应对意料之外的数据或噪声数据。
 
@@ -806,6 +818,8 @@
 
 * [asheeshcric/awesome-contrastive-self-supervised-learning](https://github.com/asheeshcric/awesome-contrastive-self-supervised-learning) 这是一个关于对比自监督学习的论文列表，包含了对比自监督学习领域的最新研究成果，涵盖了各种主题，例如对比学习的应用、对比学习的理论基础、对比学习的攻击和防御等。该项目还提供了论文的链接和代码链接，方便用户学习和研究。
 
+* [IRkernel/IRkernel](https://github.com/IRkernel/IRkernel) IRkernel是Jupyter Notebook的原生R内核，允许用户在Jupyter环境中直接运行R代码。它需要Jupyter和R环境，安装方便，可通过R包管理器安装并注册内核。用户可自定义内核名称，支持多版本R环境的配置，并提供多种启动方式，包括命令行和Docker容器。
+
 * [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) 用于优化和部署 AI 推理的开源工具包，提高计算机视觉、自动语音识别、自然语言处理和其他常见任务中的深度学习性能。使用通过 TensorFlow、PyTorch 等流行框架训练的模型。减少资源需求，并在从边缘到云的一系列英特尔®平台上高效部署。
 
 * [tensorly/tensorly](https://github.com/tensorly/tensorly) TensorLy是一个用Python编写的张量学习库，旨在简化并提供张量分解、张量学习和张量代数操作。它支持NumPy、PyTorch、JAX、TensorFlow、CuPy和Paddle等后端，可以在CPU或GPU上高效运行。用户可以通过pip或conda安装TensorLy，并根据需要选择不同的后端。
@@ -815,6 +829,8 @@
 * [tensorchord/envd](https://github.com/tensorchord/envd) envd是一个命令行工具，用于创建基于容器的 AI/ML 开发环境。它使用简单的 Python 代码来定义环境所需软件包，并通过 `envd up` 命令快速构建隔离的开发环境。envd 支持本地和云端部署，并与 OCI 镜像规范兼容，可以轻松共享和部署环境。
 
 * [PytorchLightning/metrics](https://github.com/PytorchLightning/metrics) PyTorch原生的函数和度量模块的集合，用于简单的性能评估。可以使用常见的指标，如准确性，召回率，精度，AUROC, RMSE, R²等，或者创建你自己的指标。支持超过25个指标，并不断增加更多通用任务和特定领域的标准(目标检测，NLP等)。
+
+* [pydata/xarray](https://github.com/pydata/xarray) xarray是一个Python库，用于处理N维标记数组和数据集。它结合了NumPy的计算能力和pandas的数据结构，提供高效的N维数据分析工具，支持多种数据格式，并具有强大的标签和元数据处理功能，方便进行科学计算和数据可视化。
 
 * [SimonBlanke/Gradient-Free-Optimizers](https://github.com/SimonBlanke/Gradient-Free-Optimizers) 该项目提供了一套简单可靠的无梯度优化算法，适用于数值离散搜索空间，包括局部、全局、基于种群和顺序优化技术。项目包含多种优化算法，并提供易于使用的接口，方便用户在不同场景下选择合适的算法进行优化。
 
@@ -2446,6 +2462,8 @@
 
 * [X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent) Mobile-Agent是一个强大的移动设备操作助手家族，它通过多智能体协作实现高效的导航，支持多种移动设备操作，包括手机、PC 等。项目已在 NeurIPS 2024 和 ICLR 2024 Workshop on Large Language Model (LLM) Agents 等顶级会议上发表，并获得了 CCL 2024 最佳演示奖。用户可以通过 Hugging Face 和 ModelScope 体验 Mobile-Agent-v2 的演示，无需配置模型和设备即可立即体验。Mobile-Agent-v3 拥有更小的内存占用 (8 GB) 和更快的推理速度 (10s-15s 每操作)，并完全使用开源模型。
 
+* [codefuse-ai/CodeFuse-muAgent](https://github.com/codefuse-ai/CodeFuse-muAgent) muAgent是一个由 LLM 和 EKG（事件知识图谱）驱动的创新型 Agent 框架，它结合了多 Agent、函数调用、代码解释器等技术。通过基于画布的拖放和简单的文本编写，大型语言模型可以在人类的指导下帮助执行各种复杂的 SOP。该框架兼容市场上现有的框架，并能够实现四个核心差异化技术功能：复杂推理、在线协作、人机交互、知识按需获取。该框架已在蚂蚁集团的多个复杂 DevOps 场景中得到验证，同时，欢迎体验我们快速构建的卧底游戏！
+
 * [THUDM/AgentTuning](https://github.com/THUDM/AgentTuning) 使用跨多个代理任务的交互轨迹来调整LLM的第一次尝试。评估结果表明，AgentTuning 使 LLM 的代理功能能够在看不见的代理任务上具有强大的泛化能力，同时在一般语言能力方面保持良好。我们已经开源了AgentInstruct数据集和AgentLM。AgentInstruct 是一个精心策划的数据集，包含 1,866 个高质量的交互，旨在增强 6 个不同现实世界任务中的 AI 代理。AgentLM模型是通过对Llama2聊天系列的AgentInstruct数据集和ShareGPT数据集进行混合训练生成的。
 
 * [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) 使用GPT3/4来自动完成任务。一个 AI 支持的任务管理系统示例. 该系统使用 OpenAI 和 Pinecone API 创建, 优先级排序和执行任务. 该系统背后的主要思想是基于先前任务的结果和预定义的目标创建任务. 脚本然后使用 OpenAI 的自然语言处理（NLP）能力根据目标创建新任务, 并使用 Pinecone 存储和检索任务结果以获得上下文. 这是原始的[任务驱动的自驱代理](https://twitter.com/yoheinakajima/status/1640934493489070080?s=20)的简化版本.
@@ -2455,6 +2473,8 @@
 * [lafmdp/Awesome-Papers-Autonomous-Agent](https://github.com/lafmdp/Awesome-Papers-Autonomous-Agent) 最近关于构建自主代理的论文集。包括两个主题：基于RL的代理/LLM基于代理。在人工智能中，智能代理(智能体)是以智能方式行事的代理;它感知自己的环境，自主采取行动以实现目标，并可能通过学习或获取知识来提高其表现。智能代理可以是简单的，也可以是复杂的：恒温器其他控制系统被认为是智能代理的一个例子，就像人类一样，任何符合定义的系统，例如公司、国家或生物群落。
 
 * [lupantech/chameleon-llm](https://github.com/lupantech/chameleon-llm) Chameleon是一个基于GPT-4的即插即用组合推理框架，它可以解决科学问题、数学问题和表格问答等任务。该项目利用工具使用和大型语言模型，通过将推理过程分解成多个步骤，并使用不同的工具来解决每个步骤，从而实现更强大的推理能力。该项目已发表在arXiv上，并获得了广泛关注，包括被AlphaSignal评为AI论文排行榜第一名，以及在MarkTechPost、DAIR.AI和WorldofAI等媒体平台上报道。
+
+* [microsoft/TinyTroupe](https://github.com/microsoft/TinyTroupe) TinyTroupe是一个实验性的Python库，利用大型语言模型（例如GPT-4）模拟具有特定性格、兴趣和目标的虚拟人物，从而模拟真实的人际互动和消费者类型。它可用于增强想象力，例如评估广告、软件测试、生成合成数据、提供产品反馈和进行头脑风暴等，帮助用户在广告、软件测试、产品管理等领域获得洞见，做出更明智的决策。目前该项目仍在积极开发中，API可能频繁变化。
 
 * [frdel/agent-zero](https://github.com/frdel/agent-zero) Agent Zero是一个个人化的、可有机生长的AI框架，它不是预先定义的，而是通过使用不断学习和成长。它完全透明、可读、可理解、可定制和交互式，使用计算机作为工具来完成任务。它具有响应式UI、自动记忆和反思功能，可以作为通用助手，执行各种任务，并通过创建子代理来进行多代理协作。Agent Zero可以自定义和扩展，用户可以修改系统提示和工具来改变框架的行为。
 
@@ -2475,6 +2495,8 @@
 * [ranpox/awesome-computer-use](https://github.com/ranpox/awesome-computer-use) 这是一个收集了计算机使用代理资源的项目，包括视频、博客、论文和项目。该项目目前正在建设中，并将持续更新。该项目收集了关于计算机使用代理的各种资源，包括视频、博客、论文和项目，涵盖了建模、框架、接地、代理数据和评估等方面，并提供了一些具体案例和演示，例如使用Claude 3.5 进行自动化操作、编码和任务编排。
 
 * [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) 基于 GPT 的自主代理，可对任何给定主题进行在线综合研究。可以生成详细、事实和公正的研究报告，并提供自定义选项，以专注于相关资源、大纲和课程。受最近的计划和求解和RAG（检索增强生成）论文的启发，GPT 研究员解决了速度、确定性和可靠性问题，通过并行代理工作提供更稳定的性能和更高的速度，而不是同步操作。
+
+* [tsinghua-fib-lab/AgentSquare](https://github.com/tsinghua-fib-lab/AgentSquare) AgentSquare是论文 &quot;AgentSquare: Automatic LLM Agent Search in Modular Design Space&quot;的官方实现，提供代码、提示和结果。该项目通过模块化设计空间自动搜索 LLM 代理，并提供演示和快速入门指南。用户可以利用提供的代码和模块库，快速构建和评估 LLM 代理，并参与模块化设计挑战，贡献新的模块，推动 LLM 代理研究社区的发展。
 
 * [aymeric-roucher/GAIA](https://github.com/aymeric-roucher/GAIA) 使用《Transformers Agents》击败 GAIA 基准。 GAIA 由 450 多个具有明确答案的重要问题组成，需要不同级别的工具和自主性来解决。因此它分为 3 个级别，其中 1 级应该可以被非常优秀的LLMs突破，而 3 级则表明模型能力的大幅提升。每个级别都分为一个完全公开的用于验证的开发集，以及一个包含私人答案和元数据的测试集。
 
@@ -2992,6 +3014,8 @@
 
 * [IEIT-Yuan/Yuan2.0-M32](https://github.com/IEIT-Yuan/Yuan2.0-M32) Yuan2.0-M32是一个混合专家 (MoE) 语言模型，有 32 位专家，其中 2 位活跃专家。提出了一种新的路由器网络——注意力路由器（Attention Router），并已被采用以提高专家选择的效率，与使用经典路由器网络的模型相比，准确率提高了 3.8%。 Yuan 2.0-M32使用2000B token从头开始训练，其训练计算量仅为相同参数规模的稠密模型所需的9.25%。 Yuan2.0-M32 在编码、数学和各种专业领域展示了竞争能力，总共 40B 的活动参数中仅使用 3.7B，每个代币的前向计算为 7.4 GFLOPS，仅为 Llama3 的 1/19。 70B的要求。 Yuan 2.0-M32 在 MATH 和 ARC-Challenge 基准测试中超越了 Llama3-70B，分别达到了 55.9% 和 95.8% 的准确率。
 
+* [LightChen233/reasoning-boundary](https://github.com/LightChen233/reasoning-boundary) 该项目提出了一个新的推理粒度 (RG) 框架，用于量化和优化链式思维 (CoT) 的能力。该框架通过定义推理粒度来量化 CoT 的上限，并建立了粒度的组合法则，从而为各种现实世界的 CoT 任务提供了一种实用的量化方法。此外，该项目还提出了三种类型的推理粒度，并通过组合法则优化这些类别，以促进推理粒度提升和推理路径优化，从而改进 CoT 的性能。该项目在 25 个模型和 4 个任务上进行了广泛的实验，验证了该框架的存在性和合理性，并解释了 10 种 CoT 策略的有效性，从两个角度指导优化。该项目旨在提供对大型语言模型 (LLM) 中推理的边界和优化策略的全面理解。
+
 * [DaveBben/esp32-llm](https://github.com/DaveBben/esp32-llm) 在 ESP32 上运行 LLM。使用的 “Large” 语言模型实际上非常小。它是在 tiny stories 数据集上训练的 260K 参数 tinyllamas 检查点。LLM 实现是使用 llama.2c 完成的，并进行了少量优化，使其在 ESP32 上运行得更快。LLMs 需要大量内存。即使是这个小的仍然需要 1MB 的 RAM。我使用了 ESP32-S3FH4R2因为它有 2MB 的嵌入式 PSRAM。通过对 llama2.c 进行以下更改，我能够达到 19.13 tok/s：在数学运算中利用 ESP32 的两个内核。利用 ESP-DSP 库中专为 ESP32-S3 设计的一些特殊点积函数，这些功能利用了 ESP32-S3 为数不多的 SIMD 指令。将 CPU 速度提高到 240 MHz，将 PSRAM 速度提高到 80MHZ，并增加指令缓存大小。
 
 * [microsoft/GRIN-MoE](https://github.com/microsoft/GRIN-MoE) GRIN-MoE 是一个基于梯度信息引导的混合专家模型，它在只有 6.6B 活跃参数的情况下，在各种任务（特别是编码和数学任务）中取得了优异的性能。GRIN 使用 SparseMixer-v2 来估计与专家路由相关的梯度，而传统的 MoE 训练将专家门控视为梯度估计的代理。GRIN 在训练 MoE 时无需使用专家并行或令牌丢弃，而传统的 MoE训练则需要使用这些技术。该模型适用于需要内存/计算受限环境、延迟限制场景和强大推理能力（特别是代码、数学和逻辑）的通用 AI 系统和应用程序。开发者应注意语言模型的常见限制，并在使用模型之前评估和缓解准确性、安全性以及公平性问题。
@@ -3012,11 +3036,15 @@
 
 * [SUSTech/SUS-Chat-34B](https://huggingface.co/SUSTech/SUS-Chat-34B) 由南方科技大学和IDEA-CCNL联合发布的34B中英双语对话模型。该模型基于 `01-ai/Yi-34B` 数百万个高质量的多语言教学数据，并对其进行了微调。在保持基础模型强大的语言能力的同时，通过高质量的指令微调改善了模型对人类指令的响应，并擅长通过思维链模仿人类的思维过程。它在长文本中引入了指令间注意力共享，将窗口大小从 4K 扩展到 8K，显着增强了多回合对话的可用性。采用14亿令牌的高质量复杂指令数据进行训练，涵盖中英文、多轮对话、数学、推理等各类指令数据
 
+* [SimpleBerry/LLaMA-O1](https://github.com/SimpleBerry/LLaMA-O1) LLaMA-O1 是一个开源的大型推理模型框架，使用 PyTorch 和 HuggingFace进行训练、推理和评估。它结合了蒙特卡洛树搜索 (MCTS)、自我博弈强化学习、PPO、AlphaGo Zero 的双策略范式和大型语言模型，旨在实现强大的推理能力。该项目提供预训练模型、训练代码和评估工具，并支持使用 OpenLongCoT 数据集进行训练。用户可以通过安装依赖库、克隆代码并运行训练脚本进行模型训练，并使用提供的推理和评估工具进行测试。该项目还提供相关文献和联系方式，方便用户进行交流和学习。
+
 * [microsoft/Samba](https://github.com/microsoft/Samba) Samba是一个简单而强大的混合模型，具有**无限**的上下文长度。其架构非常简单：Samba = Mamba + MLP + 滑动窗口注意力+ 层级 MLP 堆叠。最大的模型 Samba-3.8B 在 Phi3 数据集的 3.2 万亿个 token 上进行训练，在主要基准测试（例如 MMLU、GSM8K 和 HumanEval）上大幅超越 Phi3-mini。Samba 还可以通过最少的指令微调实现完美的**长上下文**检索能力，同时保持其对序列长度的**线性复杂度**。这种能力使 Samba-3.8B-instruct 在下游任务（如长上下文摘要）中取得了令人印象深刻的性能。
 
 * [johnma2006/mamba-minimal](https://github.com/johnma2006/mamba-minimal) mamba-minimal是一个用 PyTorch 实现的 Mamba 模型，它以单文件形式提供了一个简化的 Mamba 实现，并保证了与官方实现的数值输出一致。该项目以可读性为优先，代码经过注释，但没有包含官方实现中的速度优化和参数初始化，旨在帮助用户理解 Mamba 模型的工作原理。用户可以通过 demo.ipynb 文件查看示例代码，并使用该项目进行文本生成等任务。该项目基于 Albert Gu 和 Tri Dao的论文 &quot;Mamba: Linear-Time Sequence Modeling with Selective State Spaces&quot;，并参考了官方实现。
 
 * [blcuicall/taoli](https://github.com/blcuicall/taoli) 适用于国际中文教育领域的大模型 “桃李”（Taoli）1.0 ，在国际中文教育领域数据上进行了额外训练的模型。基于目前国际中文教育领域流通的500余册国际中文教育教材与教辅书、汉语水平考试试题以及汉语学习者词典等，构建了国际中文教育资源库。 设置了多种形式的指令来充分利用知识，构造了共计 88k 条的高质量国际中文教育问答数据集，并利用收集到的数据对模型进行指令微调，让模型习得将国际中文教育知识应用到具体场景中的能力。
+
+* [thunlp/LLMxMapReduce](https://github.com/thunlp/LLMxMapReduce) LLMxMapReduce是一个用于处理长序列的无训练框架，它利用分治策略来实现对完整文档的理解。该框架将整个文档分成多个片段，由LLMs分别处理，然后将中间结果聚合以生成最终输出。为了解决分治策略可能导致的长距离信息丢失问题，LLMxMapReduce设计了结构化信息协议来处理片段间依赖关系，以及上下文置信度校准机制来解决片段间冲突。实验结果表明，LLMxMapReduce在长序列基准测试中优于现有的开源和商业长上下文LLMs，并且适用于多种模型。
 
 * [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) 对话式 AI 工具包，专为从事ASR、TTS、语言模型和NLP的研究人员而构建。NeMo的主要目标是帮助来自工业界和学术界的研究人员重用以前的工作（代码和预训练模型），并更轻松地创建新的对话AI模型。所有 NeMo 模型都使用 Lightning 进行训练，训练可自动扩展到 1000 多个 GPU。此外，NeMo 威震天 LLM 模型可以使用张量和管道模型并行性训练多达 1 万亿个参数。NeMo 模型可以针对推理进行优化，并使用 NVIDIA Riva 针对生产用例进行部署。
 
@@ -3103,6 +3131,8 @@
 * [WangHuiNEU/llm](https://github.com/WangHuiNEU/llm) 大模型社区每周都要发布近百个模型，本项目会及时整理相关模型和文章并期望成为中文社区的大模型研究人员的模型和技术备忘录，每天会及时更新最新的模型，并详细解读技术细节
 
 * [zjunlp/OceanGPT-7b](https://huggingface.co/zjunlp/OceanGPT-7b) 使用 KnowLM 训练的海洋科学任务，[OceanBench](https://huggingface.co/datasets/zjunlp/OceanBench)的基准测试，以评估海洋学任务的能力LLMs。它总共包括15个与海洋相关的任务，如问答、提取和描述。
+
+* [harishsg993010/LLM-Research-Scripts](https://github.com/harishsg993010/LLM-Research-Scripts) 该项目包含代码和数据集，主要用于研究大型语言模型的推理能力。项目改进了来自bklieger-groq/g1的代码，并附带了Llama 3.1 8B解决推理问题的截图和Claude Sonnet解决2023年IMO问题的截图。
 
 * [karpathy/minbpe](https://github.com/karpathy/minbpe) 字节对编码 （BPE） 算法的最小、干净的代码通常用于 LLM 分词化。GPT-2 论文和来自 OpenAI 的相关 GPT-2 代码发布为 LLMs（例如 GPT、Llama、Mistral）都使用这种算法来训练他们的分词器。
 
@@ -3478,6 +3508,8 @@
 
 * [learn-anything/learn-anything.xyz](https://github.com/learn-anything/learn-anything.xyz) 组织世界知识，探索联系并策划学习路径。Learn Anything 的最终目标是成为跟踪您所知道的内容的最佳场所和工具。你有什么想法。你接下来要学习什么。你还不知道的。以及根据您已经知道的知识，如何以最佳方式学习它。LA 的部分目标是达到 AGI 并以完全开放的方式进行。目前，这一旅程的起点是提供最先进的能力来索引一个人的任何知识，并为它提供具有不同隐私控制的聊天机器人界面。
 
+* [DAMO-NLP-SG/CoI-Agent](https://github.com/DAMO-NLP-SG/CoI-Agent) CoI-Agent是一个利用大型语言模型（LLM）代理来革新研究的新颖想法开发项目的代码库。该项目基于论文“Chain of Ideas: Revolutionizing Researchvia Novel Idea Development with LLM Agents”，并提供了一个在线演示。用户可以通过输入研究主题，利用CoI-Agent生成新的研究想法。该项目使用SciPDF Parser解析PDF文件，并利用LLM API进行语义搜索和生成。用户需要安装SciPDF Parser、Grobid和配置LLM API密钥才能使用该项目。
+
 * [developersdigest/llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) 使用 Next.js、Groq、Mixtral、Langchain、OpenAI、Brave 和 Serper 构建受Perplexity(LLM智能搜索)启发的答案搜索引擎。包含构建复杂的应答引擎所需的代码和说明，该引擎利用了 Groq、Mistral AI 的 Mixtral、Langchain.JS、Brave Search、Serper API 和 OpenAI 的功能。该项目旨在根据用户查询有效地返回源、答案、图像、视频和后续问题，对于对自然语言处理和搜索技术感兴趣的开发人员来说，这是一个理想的起点。
 
 * [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) 该存储库展示了检索增强生成 （RAG） 系统的各种高级技术。RAG 系统将信息检索与生成模型相结合，以提供准确且上下文丰富的响应。欢迎来到当今可用的最全面、最动态的检索增强生成 （RAG） 教程集合之一。该存储库是旨在提高 RAG 系统的准确性、效率和上下文丰富性的尖端技术中心。主要特点：最先进的 RAG 增强功能、每种技术的全面文档、实用实施指南、定期更新最新进展。
@@ -3490,13 +3522,19 @@
 
 * [thunlp/WebCPM](https://github.com/thunlp/WebCPM) 中文长篇问答的交互式网络搜索的官方代码。使用中文预训练模型进行交互式Web搜索的项目。开发了一个网络搜索界面，它既收集人类又收集网络搜索行为。然后，使用多达 10B 的参数微调 PLM，以模仿人类的网络搜索行为，并根据收集到的事实生成答案。开源了 Web 搜索界面、数据集、实现和模型参数。
 
+* [shaheryaryousaf/fastapi-docgpt](https://github.com/shaheryaryousaf/fastapi-docgpt) 这是一个基于FastAPI的文档问答系统，它允许用户上传PDF文件，系统会将文件内容嵌入到Qdrant向量数据库中，并使用OpenAI的嵌入模型根据上传文档内容回答用户提出的问题。该项目使用了LangChain处理PDF和嵌入，并提供Swagger API文档。  用户需要安装Python、Qdrant、OpenAI API Key等，并设置环境变量才能运行。
+
 * [KnowledgeCanvas/knowledge](https://github.com/KnowledgeCanvas/knowledge) 知识是一种用于保存、搜索、访问、探索和聊天所有您喜爱的网站、文档和文件的工具。通过 Knowledge 的新聊天功能，深入体验更具互动性的学习体验！利用大型语言模型的强大功能，与您的项目和资源进行动态对话。提出问题、探索概念并加深您的理解，所有这些都在直观的聊天界面中完成。
 
 * [bhavnicksm/chonkie](https://github.com/bhavnicksm/chonkie) Chonkie是一个轻量级、快速、易于使用的 RAG 文本分块库。它提供多种分块方法，包括基于词、句子、语义相似度和 SDPM 的分块，支持多种主流分词器。Chonkie 的安装和使用非常简单，只需安装并导入即可使用，无需担心依赖关系和性能问题。Chonkie 还提供丰富的文档和示例，方便用户快速上手。
 
 * [stanford-futuredata/ARES](https://github.com/stanford-futuredata/ARES) ARES 是用于评估检索增强生成 （RAG） 模型的开创性框架。自动化流程将合成数据生成与微调分类器相结合，以有效地评估上下文相关性、答案忠实度和答案相关性，从而最大限度地减少对大量人工注释的需求。ARES 采用合成查询生成和预测驱动推理 （PPI），提供具有统计置信度的准确评估。
 
+* [yixuantt/MultiHop-RAG](https://github.com/yixuantt/MultiHop-RAG) “MultiHop-RAG：用于评估跨文档检索增强生成的数据集”（COLM 2024） 的存储库。MultiHop-RAG：一个 QA 数据集，用于评估 RAG 管道中元数据跨文档的检索和推理。它包含 2556 个查询，每个查询的证据分布在 2 到 4 个文档中。查询还涉及文档元数据，反映了实际 RAG 应用程序中常见的复杂场景。
+
 * [zjunlp/OneGen](https://github.com/zjunlp/OneGen) 我们引入了一个 One-pass Generation and retrieval 框架 （OneGen），用于在生成、检索或混合任务上微调 LLMs。我们的核心思想是通过将检索任务分配给以自回归方式生成的 retirval 标记，将生成和检索集成到同一个上下文中，从而使 LLM 能够在单个正向传递中执行这两个任务。
+
+* [qhjqhj00/memorag](https://github.com/qhjqhj00/memorag) 创新的 RAG 框架，建立在高效、超长的内存模型之上。与主要处理具有明确信息需求的查询的标准 RAG 不同，MemoRAG 利用其内存模型来实现对整个数据库的全局理解。通过从记忆中调用特定于查询的线索，MemoRAG 增强了证据检索，从而生成更准确且上下文更丰富的响应。
 
 * [miurla/morphic](https://github.com/miurla/morphic) 具有生成式 UI 的 AI 驱动的搜索引擎。特征：使用 GenerativeUI 进行搜索和回答；理解用户的问题；搜索历史功能；共享搜索结果（可选）；视频搜索支持（可选）；从指定的 URL 获取答案；用作搜索引擎 ；支持 OpenAI 以外的提供商；指定模型以生成答案；Groq API支持
 
@@ -3505,6 +3543,8 @@
 * [swirlai/swirl-search](https://github.com/swirlai/swirl-search) 开源软件，它使用 AI 同时搜索多个内容和数据源，使用阅读器LLM找到最佳结果，然后提示生成式 AI，使您能够从自己的数据中获得答案。旨在简化 AI 基础设施的设置。它支持检索增强生成 （RAG）、分析和 Co-Pilot 等强大工具，通过 AI 增强企业的决策能力。
 
 * [jjleng/sensei](https://github.com/jjleng/sensei) 另一个开源 Perplexity。一款人工智能驱动的答案引擎。ensei Search 使用以下技术构建：  前端：Next.js、Tailwind CSS  后端：FastAPI、OpenAI 客户端  LLMs: Command-R, Qwen-2-72b-instruct, WizardLM-2 8x22B, Claude Haiku, GPT-3.5-turbo  搜索：SearxNG、必应  内存：Redis  部署：AWS、 Paka
+
+* [2471023025/RALM_Survey](https://github.com/2471023025/RALM_Survey) RALM 调查存储库，其中包含根据我们的调查论文：RAG 和 RAU：自然语言处理中检索增强语言模型的调查，其中包含最先进的 RAG 和其他技术的摘要。在这个存储库中，我们将介绍我们论文的最核心研究方法，并以最易于访问的方式了解 RALM 的最新工作。
 
 * [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) AI Engineering Hub是一个提供深入的 AI 工程教程和资源的项目，包含 LLM 和 RAG的教程、真实世界的 AI 代理应用以及可用于项目实施、调整和扩展的示例，适合初学者、从业人员和研究人员。该项目欢迎贡献者，并提供订阅免费数据科学电子书的选项。
 
@@ -3714,6 +3754,8 @@
 
 * [zjunlp/KnowledgeEditingPapers](https://github.com/zjunlp/KnowledgeEditingPapers) 关于大型语言模型的知识编辑的必读论文。知识编辑是一个引人注目的研究领域，专注于促进对模型行为的有效修改，尤其是基础模型。目的是在指定的感兴趣范围内实施这些更改，而不会对模型在更广泛输入范围内的性能产生负面影响。Knowledge Editing 与以下主题有着密切的联系：更新和修复大型语言模型的 bug；语言模型作为知识库，在大型语言模型中定位知识；终身学习、忘却等；大型语言模型的安全性和隐私性。
 
+* [ZHZisZZ/weak-to-strong-search](https://github.com/ZHZisZZ/weak-to-strong-search) 该项目提出了一种名为“弱到强搜索”的全新方法，通过搜索小型语言模型来对齐大型语言模型，以提高其指令遵循能力和控制生成内容的能力。该方法使用小型模型作为评分器，指导大型模型的解码过程，从而实现对大型模型的微调。项目提供了两种应用场景：使用小型模型指导大型模型更好地遵循指令，以及使用小型模型控制大型模型生成特定情感的文本。项目还提供了代码和教程，方便用户快速上手体验。
+
 * [CarperAI/trlx](https://github.com/CarperAI/trlx) trlX 是一个分布式训练框架，从头开始设计，专注于使用提供的奖励函数或奖励标记数据集进行强化学习，从而微调大型语言模型。Accelerate 支持的培训器为 Hugging Face 模型提供训练支持🤗，允许用户微调多达 20B 参数的因果和基于 T5 的语言模型，例如 facebook/opt-6.7b、EleutherAI/gpt-neox-20b 和 google/flan-t5-xxl。对于超过 20B 参数的模型， trlX 提供 NVIDIA NeMo 支持的训练器，这些训练器利用高效的并行技术来有效地扩展。
 
 * [mistralai/mistral-finetune](https://github.com/mistralai/mistral-finetune) Mistral-finetune是一个轻量级代码库，用于高效地微调Mistral模型。它基于LoRA技术，该技术冻结大部分模型权重，仅训练少量低秩矩阵扰动，从而实现高效的微调。该代码库针对多GPU单节点训练设置进行了优化，适用于A100或H100 GPU，对于较小的模型（如7B模型）可以使用单个GPU。该项目提供了一个简单易懂的入门指南，用于微调Mistral模型，支持Mistral Large v2、Mistral Nemo等模型，并提供模型下载链接和校验和。
@@ -3729,6 +3771,8 @@
 * [eric-mitchell/mend](https://github.com/eric-mitchell/mend) MEND是一个用于大规模模型编辑的快速方法，它利用梯度分解来实现高效的模型编辑。该项目提供了一个Python代码库，支持多种模型编辑算法，包括MEND、KnowledgeEditor和Editable Neural Networks，并可用于各种任务，例如文本生成、事实核查和问答。用户可以根据需要选择不同的模型和数据集，并通过调整参数进行多重编辑实验。该项目还提供了详细的文档和示例代码，方便用户快速上手。
 
 * [kmeng01/rome](https://github.com/kmeng01/rome) ROME是一个用于定位和编辑大型语言模型（LLM）中事实关联的库，支持OpenAI的GPT-2 XL（1.5B）和EleutherAI的GPT-J（6B）。该库利用“因果追踪”技术来识别LLM中事实关联的来源，并使用“秩一模型编辑”技术来修改模型的行为，使其产生更准确的输出。用户可以通过简单的API接口来指定要修改的关联，并观察模型输出的变化。该库还提供了一套评估方法，用于评估不同编辑方法的效果。
+
+* [renqibing/ActorAttack](https://github.com/renqibing/ActorAttack) ActorAttack是一个针对大型语言模型（LLM）的多轮越狱攻击框架，通过自动发现攻击线索，利用LLM的知识来推断攻击链，最终生成多轮越狱攻击数据。该项目包含攻击数据生成、安全微调和攻击方法等内容，并提供了一个名为SafeMTData的数据集，包含多轮越狱攻击数据和安全对齐数据。该项目旨在研究LLM在多轮场景下的安全漏洞，并提供安全微调方法以提高LLM的安全性能。
 
 * [akoksal/LongForm](https://github.com/akoksal/LongForm) 使用语料库提取生成长文本的指令调优数据集和模型。通过利用英语语料库示例和增强指令创建的。从现有的语料库（如C4和维基百科）中选择一组多样化的人类编写的文档，并通过LLM为给定的文档生成指令。然后，用结构化的语料库示例（如Stack Exchange和WikiHow）和任务示例（如问答，电子邮件写作，语法错误更正，故事/诗歌生成和文本摘要）来扩展这些示例。
 
@@ -4018,6 +4062,8 @@
 
 * [xvyaward/owq](https://github.com/xvyaward/owq) OWQ是一个针对大型语言模型的低精度量化方法，它通过保留少量弱列为FP16，并将其他权重量化为3/4位，实现了显著的质量提升，同时仅带来微不足道的存储和计算开销。OWQ支持多种模型，包括OPT、LLaMA、BLOOM和Falcon，并提供高效的3/4位矩阵-FP16向量乘积CUDA内核。用户可以方便地使用OWQ对模型进行量化，并评估其困惑度和零样本准确性。项目还提供3/4位压缩权重保存/加载功能，以及针对不同GPU的CUDA内核测试结果。
 
+* [waltonfuture/Diff-eRank](https://github.com/waltonfuture/Diff-eRank) Diff-eRank是一种基于排序的指标，用于评估大型语言模型（LLM），它基于信息论和几何原理，通过分析模型的隐藏表示来量化模型在训练后丢弃冗余信息的能力。该指标适用于单模态（语言）和多模态场景。研究发现，Diff-eRank在模型规模扩大时会增加，并且与传统的指标（如损失和准确率）保持一致的关系。该项目提供了代码和示例，可以计算单个句子或数据集的 Diff-eRank，并提供了相应的论文和项目链接。
+
 * [swuecho/chat](https://github.com/swuecho/chat) 这是一个面向团队的聊天 Web 应用，使用 Sass 构建，并提供用户管理和速率限制功能。它支持 ChatGPT（OpenAI 和 Azure）、Claude、Gemini 和 Ollama 模型。该项目提供一个用户友好的界面，允许用户创建聊天室、发送消息、管理用户和设置速率限制。它还支持多种模型，用户可以选择最适合他们需求的模型。该项目使用 Golang 和 Node.js 构建，并提供详细的安装和部署指南。用户可以通过 Docker Compose 轻松部署该应用。
 
 * [huggingface/llm-swarm](https://github.com/huggingface/llm-swarm) llm-swarm 是一个用于在 Slurm 集群中管理可扩展的开放 LLM推理端点的工具。它可以利用本地 LLM 或 Hugging Face Hub上的推理端点生成用于预训练或微调的合成数据集。该项目集成了 huggingface/text-generation-inference 和 vLLM，可以实现大规模文本生成。llm-swarm 需要一个支持 Docker 的 Slurm 集群或访问 Hugging Face 推理端点。用户可以通过提供的示例代码快速上手，并使用模板文件配置 Slurm 任务和 Nginx 负载均衡器。
@@ -4046,6 +4092,8 @@
 
 * [lencx/Noi](https://github.com/lencx/Noi) Noi是一款基于 AI 的定制化浏览器，旨在简化您的数字体验。它集成了精选的 AI 网站，并允许您添加任何 URL，提供个性化的浏览体验。Noi 提供强大的自定义选项，包括添加、同步、批量标记和删除提示。Noi Ask 功能允许您向多个 AI 聊天发送批量消息，简化与多个 AI 服务同时交互的过程。Noi 还提供多种主题、缓存模式、Cookie 数据隔离等功能，满足不同用户的需求。
 
+* [Hsu1023/DuQuant](https://github.com/Hsu1023/DuQuant) DuQuant是一种用于量化大型语言模型 (LLM) 的新方法，它通过双重变换（旋转和置换）来消除模型中的异常值，从而显著提升量化后的模型性能。该方法在各种模型类型和下游任务上都取得了最先进的 4 位权重-激活量化结果。DuQuant 已在 NeurIPS 2024 大会上被评为口头报告，并已开源，用户可以通过提供的代码库进行安装和使用，并根据需要调整参数以进行量化实验。
+
 * [Efficient-ML/Awesome-Model-Quantization](https://github.com/Efficient-ML/Awesome-Model-Quantization) 这是一个关于模型量化的资源列表，包含论文、文档和代码。该项目旨在为模型量化研究提供信息，并持续更新。欢迎贡献项目中缺失的论文和代码库。该项目还包含一个名为“Awesome Efficient LLM_Diffusion”的子项目，专注于大型语言模型和扩散模型的压缩和加速方法。此外，该项目还包括两个基准测试：BiBench 和 MQBench，分别用于评估网络二值化和模型量化算法。
 
 * [richawo/minimal-llm-ui](https://github.com/richawo/minimal-llm-ui) Minimal-LLM-UI 是一个简洁的 React 界面，用于与 Ollama本地语言模型进行交互，提供离线聊天功能。它支持模型切换、对话保存、记忆上下文等功能，并使用 LangchainJs 和 Ollama 实现与模型的交互。用户可以轻松地与本地模型进行实时聊天，并通过自定义 API 端点配置 Ollama 的运行地址。项目使用 React、Next.js 和 Tailwind CSS 构建，并提供详细的入门指南和待办事项列表。
@@ -4064,7 +4112,11 @@
 
 * [alexrozanski/LlamaChat](https://github.com/alexrozanski/LlamaChat) LlamaChat是一款 macOS 应用，允许您在 Mac 上与 LLaMA、Alpaca 和GPT4All 模型进行本地聊天。它支持多种模型格式，包括 `.pth`和 `.ggml`，并允许您在应用内将 `.pth` 文件转换为 `.ggml` 文件。LlamaChat 还提供聊天历史记录、有趣的人物形象、高级来源命名以及模型上下文调试等功能。该应用需要 macOS 13 Ventura 和 Intel 或 Apple Silicon 处理器。
 
+* [Chainlit/chainlit](https://github.com/Chainlit/chainlit) 在几分钟内构建 Python LLM 应用程序。快速构建：与现有代码库无缝集成或在几分钟内从头开始。多平台：编写一次助手逻辑，随处使用。数据持久性：收集、监控和分析用户数据。可视化多步骤推理：一目了然地了解产生输出的中间步骤。Chainlit 与所有 Python 程序和库兼容。话虽如此，它附带了一组与流行库和框架的集成。
+
 * [dirk1983/chatgpt](https://github.com/dirk1983/chatgpt) 全网最易部署，响应速度最快的ChatGPT环境。PHP版调用OpenAI接口进行问答和画图，采用Stream流模式通信，一边生成一边输出。前端采用EventSource，支持Markdown格式解析，支持公式显示，代码有着色处理，支持画图。页面UI简洁，支持上下文连续会话。源码只有几个文件，没用任何框架，支持所有PHP版本，全部开源，极易二开。
+
+* [thu-nics/MoA](https://github.com/thu-nics/MoA) MoA是一个自动压缩大型语言模型的开源项目，通过混合稀疏注意力机制，为每个注意力头搜索不同的弹性规则，克服了传统稀疏注意力方法的局限性。MoA可以显著减少GPU内存占用，并大幅提升解码速度，同时保持模型性能。该项目提供预压缩配置，方便用户快速使用，并提供自动搜索管道，允许用户自定义压缩策略。
 
 * [ilur98/DGQ](https://github.com/ilur98/DGQ) DGQ是一个高效的细粒度量化方法，专门为大型语言模型（LLM）设计，它支持A8W4模型，并提供内存高效的线性层和CUTLASS内核实现，以实现快速推理。该项目还提供了一个示例脚本，用于执行DGQ量化和评估量化后的模型，并支持边缘设备。该项目基于GPTQ、GPTQ-for-LLaMa、AWQ、SmoothQuant、torch-int和fasttransformer等项目。
 
@@ -4318,8 +4370,6 @@
 
 * [nomic-ai/pyllamacpp](https://github.com/nomic-ai/pyllamacpp) 支持 llama.cpp + gpt4all 的 Python 绑定
 
-* [Chainlit/chainlit](https://github.com/Chainlit/chainlit) 在几分钟内构建Python LLM应用程序
-
 * [Niek/chatgpt-web](https://github.com/Niek/chatgpt-web) 使用 OpenAI API 的 ChatGPT Web 界面
 
 * [wangzhaode/ChatGLM-MNN](https://github.com/wangzhaode/ChatGLM-MNN) 纯C++，易于部署的ChatGLM-6B。
@@ -4335,6 +4385,8 @@
 #### 法律大模型及语料库
 
 ##### 
+
+* [HKAIR-Lab/HK-O1aw](https://github.com/HKAIR-Lab/HK-O1aw) HK-O1aw 是一个专为香港法律系统设计的法律助手，它可以处理复杂的法律推理。该模型基于LLaMA-3.1-8B，并使用Align-Anything框架和O1aw-Dataset进行训练，旨在提升大型语言模型在法律领域的推理和问题解决能力。HK-O1aw 采用先进的O1推理能力，可以进行复杂的法律分析，理解上下文，识别先例和解释法规，是香港首个针对普通法体系的复杂推理模型，对提升法律服务和教育具有重要意义。目前，HK-O1aw 可以为用户提供法律问题的详细推理路径，并作为法律教育的交互式工具，帮助学生理解复杂的概念和练习法律起草。未来，该模型将持续更新，以增强其在专业环境中的部署，目标是为律师提供法律研究、案例分析和起草法律意见的支持，从而提高香港法律框架的效率和准确性。
 
 * [seudl/JurisLMs](https://github.com/seudl/JurisLMs) 根据不同的场景在法律法规、法律咨询、裁判文书等多种不同的语料上进一步预训练了多个模型。其中，AI Judge是由GPT2在法学语料上进一步预训练之后，结合一个法条适用模型（一个基于BERT的分类器）微调得到的一个可解释法律判决预测模型。基于中文LLaMA的智能法律咨询模型，AI Lawyer。由于缺乏标注法条的咨询语料，我们采用主动学习（Active Learning）在少量数据上进行微调获得一个法律适用模型，使得AI Lawyer可以根据用户咨询适用正确的法律法规回答问题。
 
@@ -4428,9 +4480,13 @@
 
 * [bigcode-project/octopack](https://github.com/bigcode-project/octopack) 指令调优代码大型语言模型，数据[bigcode/commitpack](https://huggingface.co/datasets/bigcode/commitpack) 4TB 的 GitHub 提交，涵盖 350 种编程语言，[bigcode/commitpackft](https://huggingface.co/datasets/bigcode/commitpackft) CommitPack 的过滤版本，用于类似于指令的高质量提交消息，在 CommitPackFT + OASST 上调整的 StarCoder-16B 模型，在 CommitPackFT + OASST 上优化的 CodeGeeX2-6B 指令。[bigcode/humanevalpack](https://huggingface.co/datasets/bigcode/humanevalpack) 扩展 OpenAI 的 HumanEval 以涵盖 6 种语言的 3 个场景
 
+* [tablegpt/tablegpt-agent](https://github.com/tablegpt/tablegpt-agent) TableGPTAgent是一个为TableGPT2（一系列用于表格问答的LLM）预先构建的代理，基于Langgraph库，提供与TableGPT2交互的友好界面。该项目支持异步调用，并提供快速入门指南，用户可通过示例代码与TableGPT模型进行交互，并利用该代理分析和处理表格数据，例如读取数据集（如CSV文件），进行分析，并生成代码来回答与表格相关的问题。该项目依赖于pybox，默认情况下，pybox在集群模式下运行，用户可选择安装可选依赖项以在本地环境中运行该代理。
+
 * [Integuru-AI/Integuru](https://github.com/Integuru-AI/Integuru) Integuru是一个AI代理，通过逆向工程平台的内部API生成集成代码。它可以分析浏览器网络请求，识别关键信息，并生成可运行的Python代码，实现自动化操作。例如，用户可以通过Integuru下载账单，只需提供浏览器网络请求文件和描述操作的提示即可。Integuru会识别关键请求，构建依赖关系图，并生成代码，完成下载任务。该项目支持用户自定义输入变量，并提供多种模型选择，如gpt-4o和o1-preview。用户可以通过命令行或Jupyter Notebook使用Integuru。
 
 * [cline/cline](https://github.com/cline/cline) Cline是一个集成在 IDE 中的 AI 编码助手，可以根据你的指令创建、编辑文件、执行命令、使用浏览器等。它利用 Claude 3.5Sonnet 的代码生成能力，能够逐步完成复杂的任务。Cline 通过分析文件结构、代码 AST 和相关文件，了解项目信息，并提供安全可靠的帮助。它可以创建和编辑文件、执行终端命令、在无头浏览器中执行网页操作，并提供可视化结果。Cline支持 OpenRouter、Anthropic、OpenAI、Google Gemini 等 API 提供商，以及本地模型。
+
+* [LingmaTongyi/Lingma-SWE-GPT](https://github.com/LingmaTongyi/Lingma-SWE-GPT) Lingma SWE-GPT是一个开源大型语言模型，专门用于软件改进，基于Qwen系列模型并使用软件工程开发过程数据进行额外训练，以增强其解决复杂软件工程任务的能力。它采用三阶段软件工程过程数据合成和推理工作流程（SWESynInfer），在SWE-benchVerified排行榜上取得了显著成果，例如72B版本在解决方案率上达到30.20%，故障定位成功率达51.16%，并优于同等规模的其他开源模型。项目提供7B和72B两种模型，并附带详细的安装和部署指南。
 
 * [codefuse-ai/codefuse-devops-eval](https://github.com/codefuse-ai/codefuse-devops-eval) DevOps-Eval是专为DevOps领域的基础模型设计的综合评估套件。我们希望DevOps-Eval可以帮助开发者，特别是DevOps领域的开发者，跟踪进度并分析他们模型的重要优点/缺点。目前有 7486 道多项选择题，涵盖 8 个不同的一般类别，如下所示。AIOps 子类别共有 2840 个样本，涵盖日志解析、时间序列异常检测、时间序列分类、时间序列预测和根本原因分析等场景。ToolLearning 子类别中共有 1509 个样本，涵盖 59 个领域的 239 个工具场景。
 
@@ -5196,6 +5252,8 @@
 
 * [FlagOpen/FlagAttention](https://github.com/FlagOpen/FlagAttention) 用 Triton 语言实现的内存高效注意力运算符的集合。它的灵感来自FlashAttention和FlashAttention v2，并扩展了它们以满足大型语言建模研究的需求。FlashAttention 和 FlashAttention-2 可以节省内存占用和流量以提高内存效率，但要修改它们并添加更多选项和功能需要熟练掌握 cuda 编程。因此，Flag Attention 是用 Triton 语言实现的，它更容易用于编写自定义 GPU 内核。
 
+* [Haiyang-W/TokenFormer](https://github.com/Haiyang-W/TokenFormer) TokenFormer是一个完全基于注意力机制的神经网络，它将模型参数进行token化，从而最大限度地提高Transformer的灵活性。该项目是TokenFormer论文的官方实现，它通过将模型参数token化，并将注意力机制应用于输入token和模型参数之间的交互，从而实现了一种新的可扩展架构。该项目代码简洁易懂，依赖性少，并提供模型库、快速入门指南和待办事项列表。
+
 * [facebookresearch/xformers](https://github.com/facebookresearch/xformers) xFormers 是一个可定制且优化的 Transformer 模块工具箱，支持可组合的构建方式。它提供独立的、可定制的模块，无需样板代码即可使用，适用于视觉、NLP 等多个领域。xFormers 包含最前沿的组件，这些组件尚未在 PyTorch等主流库中提供，并且为了提高迭代速度，组件尽可能快且内存高效。xFormers 包含自己的 CUDA 内核，但在相关时会分派到其他库。
 
 * [thuml/Flowformer](https://github.com/thuml/Flowformer) 任务通用的线性复杂度Transformer 。在图论中的经典网络流（Flow network）模型中，“守恒”（Conservation）是一个重要现象，即每个节点的流入量等于流出量。受到“固定资源情况下，必定引起竞争”的启发，通过网络流视角重新分析经典注意力机制中的信息流动，并通过守恒性质将竞争引入注意力机制设计，以避免平凡注意力问题。
@@ -5404,6 +5462,8 @@
 
 * [MuCGEC/scorers/ChERRANT](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers/ChERRANT) 借鉴了英文上主流的GEC(Grammatical Error Correction 语法纠错)评估工具[ERRANT](https://github.com/chrisjbryant/errant)，搭建了中文GEC评估工具ChERRANT（Chinese ERRANT）。ChERRANT的主要功能是通过对比预测编辑和标准编辑，计算预测结果的精确度、召回度、F值指标，从而评估语法纠错模型的性能。应用:搜索query纠错、语音纠错、舆情文本纠错
 
+* [chardet/chardet](https://github.com/chardet/chardet) Chardet是一个Python库，用于检测文本文件的字符编码，支持多种编码格式，包括ASCII、UTF-8、GB2312、SHIFT_JIS等，并提供命令行工具方便使用。它基于统计模型，通过分析文本数据来推断编码，并给出置信度评分。该项目是Mark Pilgrim的C语言版本chardet的Python 3兼容版本，目前支持Python 3.8及以上版本，可通过pip installchardet安装。
+
 * [nyu-mll/GLUE-baselines](https://github.com/nyu-mll/GLUE-baselines) 该项目提供用于Generalized Language Understanding Evaluation (GLUE)基准测试的基线代码，旨在探索多任务学习方法来学习句子表示。项目包含用于下载GLUE数据集、预处理数据和运行基线模型的脚本。用户可以根据需要选择使用GloVe、CoVe或ELMo等预训练词嵌入，并设置相应的参数。该项目已弃用，推荐使用更完善的jiant工具包。
 
 * [alibaba/kiwi](https://github.com/alibaba/kiwi) Kiwi是一个国际化翻译全流程解决方案，提供一站式服务，包括提取中文文案、校验文案是否存在中文、查找对应文案等功能。它包含 `kiwi-intl`、`kiwi-cli` 和 `kiwi-linter` 三个子项目，分别用于文案管理、命令行工具和代码检查。Kiwi 可以帮助开发者轻松地进行国际化翻译，避免传统方法中常见的错误和效率低下问题。
@@ -5413,6 +5473,8 @@
 * [huseinzol05/NLP-Models-Tensorflow](https://github.com/huseinzol05/NLP-Models-Tensorflow) 抽象总结 聊天机器人依赖解析器 实体标记 提取摘要 发电机 语言检测 神经机器翻译 光学字符识别 POS标签 问题答案 句子对 语音转文字 拼写校正 小队问题答案 抽干 文字扩充 文字分类 文字相似度 文字转语音 主题生成器 主题建模 无监督提取摘要 矢量化器 老少少的声码器 可视化 注意Attention
 
 * [sebastianruder/NLP-progress](https://github.com/sebastianruder/NLP-progress) 它旨在涵盖传统和核心NLP任务，如依赖解析和词性标记，以及最近的任务，如阅读理解和自然语言推理。主要目的是为读者提供基准数据集的快速概述以及他们感兴趣的任务的最新技术，这是进一步研究的垫脚石。为此，如果有一个地方已经发布并定期维护任务的结果，例如公共排行榜。
+
+* [daviddrysdale/python-phonenumbers](https://github.com/daviddrysdale/python-phonenumbers) 该项目是Google libphonenumber库的Python版本，支持Python 2.5-2.7和3.x。它能够解析、验证和格式化电话号码，支持多种格式，并能检查号码的可能性和有效性，例如判断一个号码是否属于已分配的交换机。通过pip安装即可使用，主要对象是PhoneNumber，用户需提供号码和国家/地区信息进行解析。
 
 * [sebastian-hofstaetter/intra-document-cascade](https://github.com/sebastian-hofstaetter/intra-document-cascade) IDCM模型: 文档内部级联选择段落服务于文档排序。采用文档内部级联策略，在运行复杂并且高效果的排序模型（ETM，Effective Teacher Model）之前，使用高效率的模型（ESM，Efficient Student Model）进行候选文档中多余段落的删除。相比bert，具有基本相同的效果，而且查询延迟降低400%以上。
 
@@ -6184,6 +6246,8 @@
 
 * [libuv/libuv](https://github.com/libuv/libuv) libuv是一个跨平台异步 I/O 支持库，主要用于 Node.js，但也应用于 Luvit、Julia、uvloop 等项目。它提供全功能事件循环（支持 epoll、kqueue、IOCP、event ports）、异步 TCP/UDP 套接字、异步 DNS 解析、异步文件系统操作、文件系统事件、TTY 控制、IPC、子进程、线程池、信号处理、高精度时钟、线程同步原语等功能。libuv 遵循语义化版本控制，并保持跨主要版本稳定 ABI。项目代码遵循 MIT 许可证，文档遵循 CC BY 4.0 许可证。可以通过 GitHub 仓库或官方下载网站获取libuv。
 
+* [winstonjs/winston](https://github.com/winstonjs/winston) Winston是一个简单易用的通用日志库，支持多种传输方式（例如，将日志存储到文件、数据库或控制台）。它允许配置不同的日志级别（例如，错误、警告、信息等），并能灵活地格式化日志输出。通过`winston.createLogger`创建自定义日志器，并添加所需传输方式来实现日志记录，例如将错误日志写入error.log文件，所有日志写入combined.log文件，非生产环境下则输出到控制台。  默认日志器不包含任何传输方式，需自行添加，否则可能导致高内存占用。
+
 * [ekalinin/nodeenv](https://github.com/ekalinin/nodeenv) nodeenv是一个用于创建隔离的 Node.js 环境的工具，它可以为每个项目创建一个独立的 Node.js 环境，避免不同项目之间库的冲突。它还能与 virtualenv（Python 虚拟环境工具）集成，方便在 Python 项目中使用 Node.js。nodeenv 支持从源代码编译安装 Node.js，也可以从预编译包安装，并提供多种选项，例如指定 Node.js 版本、安装 npm 版本、使用镜像源等。用户可以根据需要创建不同的 Node.js 环境，并方便地切换和管理。
 
 * [loiane/javascript-datastructures-algorithms](https://github.com/loiane/javascript-datastructures-algorithms) 这是一个用于教育目的的 JavaScript 和 TypeScript 数据结构和算法集合，包含了 &quot;Learning JavaScript Data Structures and Algorithms&quot; 书籍的第三版源代码，涵盖了数组、栈、队列、链表、集合、字典、递归、树、堆、图、排序和搜索算法等内容，并提供 ES2015+ 版本的算法，新增了数据结构和算法，并包含了可用于浏览器或 Node.js 的数据结构和算法库，以及 Mocha + Chai测试代码和 TypeScript 版本的源代码。
@@ -6202,9 +6266,15 @@
 
 * [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) 简单的、无需配置的本地私有 npm 注册表。无需整个数据库即可开始！Verdaccio 开箱即用，拥有自己的微型数据库，并且能够代理其他注册表（例如 npmjs.org），并在此过程中缓存下载的模块。对于那些希望扩展其存储功能的人来说，Verdaccio 支持各种社区制作的插件，以挂接到 Amazon 的 s3、Google Cloud Storage 等服务或创建自己的插件。
 
+* [jspreadsheet/ce](https://github.com/jspreadsheet/ce) Jspreadsheet CE是一个轻量级的纯JavaScript插件，用于创建交互式网页表格和电子表格，兼容其他电子表格软件。它支持从JS数组、JSON、CSV或XLSX文件创建在线表格，并能与Excel进行复制粘贴操作。该插件易于集成第三方插件，自定义列、编辑器及其他功能，并提供多种原生列类型以满足常见需求，是网页数据管理的完整解决方案。
+
+* [lodash/lodash](https://github.com/lodash/lodash) Lodash是一个现代化的JavaScript实用工具库，提供模块化、高性能和额外功能。它简化了数组、数字、对象和字符串等数据的处理，包含迭代、操作和测试值以及创建组合函数等方法，并提供多种构建版本和模块格式，例如核心构建、完整构建以及函数式编程(FP)构建，方便用户根据需求选择和安装，支持npm和浏览器环境。
+
 * [gibbok/typescript-book](https://github.com/gibbok/typescript-book) 简明 TypeScript 书：TypeScript 有效开发的简明指南。免费和开源。《简明 TypeScript 手册》全面而简洁地概述了 TypeScript 的功能。它提供了清晰的解释，涵盖了该语言最新版本的所有方面，从其强大的类型系统到高级功能。无论您是初学者还是经验丰富的开发人员，本书都是增强您对 TypeScript 的理解和熟练程度的宝贵资源。
 
 * [jonschlinkert/gray-matter](https://github.com/jonschlinkert/gray-matter) gray-matter是一个智能的 YAML 前置 matter 解析器，被 metalsmith、Gatsby、Netlify、Assemble、mapbox-gl、phenomic、vuejs vitepress、TinaCMS、Shopify Polaris、Ant Design、Astro、hashicorp、garden、slidev、saber、sourcegraph 等众多项目使用。它简单易用，经过实战检验。默认解析 YAML，但也支持解析 JSON、Coffee、TOML 前置 matter，并支持自定义解析器。
+
+* [piscinajs/piscina](https://github.com/piscinajs/piscina) Piscina是一个快速高效的 Node.js 工作线程池实现，它支持固定任务和可变任务场景，并提供灵活的池大小配置。Piscina 使用高效的线程间通信机制，并支持异步任务跟踪、运行和等待时间统计、取消任务、内存资源限制、CommonJS、ESM 和 TypeScript 等特性。此外，Piscina 还支持自定义任务队列和 Linux 上的 CPU 调度优先级。
 
 * [jamiebuilds/the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) 这是一个用 JavaScript 编写的超简化编译器示例，它展示了现代编译器所有主要部分的工作原理。它旨在帮助你了解大多数编译器从头到尾的工作方式。项目包含一个可运行的 JavaScript 文件，你可以在 Glitch 上在线体验它。即使你平时不接触编译器，了解编译器的原理也能帮助你更好地理解很多工具背后的工作机制。
 
@@ -6214,11 +6284,15 @@
 
 * [imba/imba](https://github.com/imba/imba) Imba 是一种友好的 Web 全栈编程语言，可编译为高性能 JavaScript。它具有对定义、扩展、子类化、实例化和渲染 DOM 节点的语言级支持。Imba 的语法最小、美观，并且包含许多巧妙的功能。它以一种强大的方式结合了 logic、markup 和 styling。更少的击键和更少的切换文件意味着您将能够快速构建内容。
 
+* [jquense/yup](https://github.com/jquense/yup) Yup是一个用于运行时值解析和验证的模式构建器，它提供简洁且强大的模式接口，支持TypeScript，内置异步验证，并可扩展自定义方法。通过链式方法构建模式，实现对输入值的解析和断言，支持严格模式验证，并提供丰富的错误细节以方便调试，同时允许自定义错误信息和国际化。
+
 * [rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack) 该工具旨在成为构建和使用 rust 生成的 WebAssembly 的一站式商店，您希望在浏览器或Node.js中与 JavaScript 进行互操作。 wasm-pack 帮助您构建 rust 生成的 WebAssembly 包，您可以将其发布到 npm 注册表，或者以其他方式与您已使用的工作流（例如 webpack）中的任何 javascript 包一起使用。
 
 * [vuejs/vue](https://github.com/vuejs/vue) 这是 Vue 2 的存储库。一个用于构建用户界面的渐进式框架。它从头开始设计为可增量采用，并且可以根据不同的用例在库和框架之间轻松扩展。它由一个仅关注视图层的平易近人的核心库和一个由支持库组成的生态系统组成，可帮助您解决大型单页应用程序中的复杂性。
 
 * [cesanta/elk](https://github.com/cesanta/elk) 用于嵌入式系统的低占用空间 JavaScript 引擎。它实现了 ES6 的一个小但可用的子集。它专为微控制器开发而设计。Elk 不是完全用 C/C++ 编写固件代码，而是允许将 JavaScript 自定义添加到用 C 开发的固件中 - 这是让客户扩展/自定义设备功能的好方法。
+
+* [lerna/lerna](https://github.com/lerna/lerna) Lerna是一个快速、现代的构建系统，用于管理和发布来自同一仓库的多个JavaScript/TypeScript包。它由Nrwl维护，提供文档、教程和社区支持，帮助开发者高效管理和发布多个npm包。Lerna的特色在于其速度和现代化的构建流程，简化了多包管理的复杂性。
 
 * [lint-staged/lint-staged](https://github.com/lint-staged/lint-staged) 在 git 暂存文件上运行 linters，在提交代码之前运行 Linting 更有意义。通过这样做，您可以确保没有错误进入存储库并强制执行代码样式。但是，在整个项目上运行 lint 过程很慢，并且 linting 结果可能无关紧要。最终，您只想删除将要提交的文件。
 
@@ -6227,6 +6301,8 @@
 * [jestjs/jest](https://github.com/jestjs/jest) 令人愉快的 JavaScript 测试，全面的 JavaScript 测试解决方案。开箱即用，适用于大多数 JavaScript 项目。快速、交互式的观看模式仅运行与更改文件相关的测试文件。捕获大型对象的快照，以简化测试并分析它们如何随时间变化。
 
 * [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) 一个带有 C API 的 JavaScript 引擎，您可以使用它向任何 C 或 C 兼容项目添加对 JavaScript 的支持。它可以在Linux macOS和Windows上为x64处理器编译。x86 和 ARM 仅适用于 Win。未来的目标是在Linux上支持x86和ARM处理器，在macOS上支持ARM。
+
+* [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) 这是一个包含大量JavaScript难题及详解的GitHub项目，涵盖从基础到高级的知识点，适合测试JavaScript技能、巩固知识或准备编码面试。该项目定期更新，答案以折叠形式呈现，方便学习者使用。项目已提供多种语言版本。
 
 * [webpack/webpack](https://github.com/webpack/webpack) JavaScript和相关资源的捆绑器。将许多模块打包到几个捆绑资产中。代码拆分允许按需加载应用程序的各个部分。通过“加载器”，模块可以是CommonJs，AMD，ES6模块，CSS，Images，JSON，Coffeescript，LESS，...和你的定制东西。
 
@@ -6268,6 +6344,8 @@
 
 * [knex/knex](https://github.com/knex/knex) 适用于 PostgreSQL、MySQL、CockroachDB、SQL Server、SQLite3 和 Oracle 的查询构建器，旨在灵活、可移植且使用起来很有趣。
 
+* [ruanyf/jstraining](https://github.com/ruanyf/jstraining) 全栈工程师培训材料，帮助学习者掌握 JavaScript 全栈开发的基本知识，承担简单 Web 应用的前后端开发。
+
 * [vercel/turbo](https://github.com/vercel/turbo) 增量打包器和构建系统针对 JavaScript 和 TypeScript 进行了优化，用 Rust 编写——包括 Turbopack 和 Turborepo。
 
 * [emscripten-core/emscripten](https://github.com/emscripten-core/emscripten) 使用 LLVM 和 Binaryen 将 C 和 C++ 编译为 WebAssembly。Emscripten 输出可以在 Web、Node.js 和 wasm 运行时中运行。
@@ -6295,6 +6373,8 @@
 * [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) 30 天的 JavaScript 编程挑战是在 30 天内学习 JavaScript 编程语言的分步指南。
 
 * [nvm-sh/nvm](https://github.com/nvm-sh/nvm) node版本管理器 - 符合 POSIX 标准的 bash 脚本，用于管理多个活动node.js版本
+
+* [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows) 适用于 Windows 的node.js版本管理实用程序。具有讽刺意味的是，用GO写的。
 
 * [vuejs/core](https://github.com/vuejs/core) 一个渐进的、可增量采用的 JavaScript 框架，用于在 Web 上构建 UI。
 
@@ -6546,7 +6626,11 @@
 
 * [wojtekmaj/react-pdf](https://github.com/wojtekmaj/react-pdf) React-PDF 是一个库，它允许您在 React 应用程序中像显示图像一样轻松地显示 PDF 文档。它支持各种文件格式，包括 URL、base64 内容和 Uint8Arrays。您可以使用 `npm install react-pdf` 或 `yarn add react-pdf` 安装它。要使用它，请导入 `Document` 组件并将其嵌入到您的 React 代码中，并提供 PDF 文件作为 prop。然后，您可以在 `Document` 中使用组件来呈现单个页面。该库与现代浏览器兼容，需要 React 16.8 或更高版本。
 
+* [iconify/iconify](https://github.com/iconify/iconify) Iconify是一个通用的图标框架，支持150多个图标集和超过200,000个图标，包括FontAwesome、Material Design Icons等，可通过Web组件或React、Vue、Svelte组件嵌入HTML，并提供Figma、Sketch和Adobe XD插件以及图标搜索功能。其核心在于按需从Iconify API加载图标数据，避免加载所有图标，从而实现图标选择的无限可能性。项目包含核心组件、Web组件及各种框架的包装器，图标数据则存储在独立的iconify/icon-sets仓库中。
+
 * [redlib-org/redlib](https://github.com/redlib-org/redlib) Redlib是一个类似于Invidious的私有Reddit前端，它使用Rust语言编写，速度快，没有JavaScript、广告、跟踪或臃肿。所有请求都通过服务器代理，包括媒体，并使用强大的内容安全策略防止浏览器直接访问Reddit。Redlib实现了大多数Reddit的（未登录）功能，但仍缺少一些功能。它受Invidious、Nitter和Bibliogram等其他替代前端的启发。Redlib希望提供一种更便捷的方式来浏览Reddit，而无需广告、跟踪和臃肿。
+
+* [wojtekmaj/react-date-picker](https://github.com/wojtekmaj/react-date-picker) react-date-picker是一个用于React应用的日期选择器组件，支持选择日期、月份、年份甚至年代，几乎支持所有语言，无需moment.js。安装方法：`npm install react-date-picker` 或 `yarn add react-date-picker`，使用方式简单，通过`u003cDatePicker/u003e`组件和`onChange`属性即可实现日期选择功能，并提供在线演示和与时间选择器、日期时间选择器的集成方案。注意：该组件依赖于现代浏览器技术，不支持旧版浏览器。
 
 * [bencodezen/vue-enterprise-boilerplate](https://github.com/bencodezen/vue-enterprise-boilerplate) 这是一个使用 Vue CLI 和 Vite 创建的 Vue 3 SPA 项目的架构和开发环境样板，它提供了一套完善的开发流程，包括测试、构建、代码风格检查等。它基于 Chris Fritz 的 Vue 2 企业样板，并进行了更新和改进，支持 TypeScript 类型检查和 `.vue` 文件的类型支持，并集成了 Vitest 和 Playwright 用于单元测试和端到端测试。项目还提供了详细的安装和使用说明，以及开发环境的推荐配置，方便开发者快速上手。
 
@@ -6566,7 +6650,11 @@
 
 * [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) Zotero PDFTranslate是一款Zotero插件，可以将PDF、EPub、网页、元数据、注释和笔记翻译成目标语言，支持20多种翻译服务。用户可以选择文本进行翻译，翻译结果会显示在弹出窗口和右侧边栏中，也可以将翻译结果添加到注释或笔记中。插件还提供独立的翻译窗口，方便用户查看和比较来自多个引擎的翻译结果。用户可以通过快捷键`Ctrl+T`进行翻译，也可以手动选择翻译服务和目标语言。
 
+* [jpuri/react-draft-wysiwyg](https://github.com/jpuri/react-draft-wysiwyg) react-draft-wysiwyg是一个基于ReactJS和DraftJS的所见即所得(WYSIWYG)富文本编辑器，提供可配置工具栏（支持自定义控件、样式和图标）、多种文本样式和块类型支持（包括内联样式、标题、列表、链接等）、图片和嵌入链接支持、撤销/重做功能、多种内容格式转换（HTML、JSON、Markdown）以及国际化支持，可作为受控或不受控的React组件使用，项目地址：https://jpuri.github.io/react-draft-wysiwyg。
+
 * [alyssaxuu/omni](https://github.com/alyssaxuu/omni) Omni是一款浏览器增强工具，它提供了一个强大的命令界面，让你像专业人士一样使用浏览器。你可以通过命令搜索标签、书签、浏览历史记录，执行各种操作等等。Omni支持Chrome和Firefox浏览器，并提供丰富的功能，包括标签管理、书签管理、浏览历史搜索、50多个提升效率的操作、与Notion、Figma、Docs、Asana等工具集成、快捷键操作、高级设置等等，所有功能免费使用，无需登录。
+
+* [uber/react-digraph](https://github.com/uber/react-digraph) react-digraph是一个React组件库，用于轻松创建有向图编辑器，无需实现任何SVG绘图或事件处理逻辑。它支持节点和边的多选功能（通过Ctrl-Shift-鼠标事件），并提供丰富的回调函数（如`onCreateNode`、`onCreateEdge`等）用于自定义图编辑操作。  版本8.0.0引入了重大更改，包括合并onSelectNode/onSelectEdge为onSelect函数，并使用SelectionT对象管理选中节点和边。  需要安装react和react-dom作为依赖。
 
 * [thedaviddias/Front-End-Design-Checklist](https://github.com/thedaviddias/Front-End-Design-Checklist) 该项目提供了一个全面的前端设计清单，旨在帮助前端开发者分析和理解网页设计，确保前端开发的质量。清单涵盖了设计需求、分析和预备阶段、验证、开发阶段以及生产前准备等多个方面，包括网格系统、颜色、字体、链接、图片、表单、响应式设计等内容。开发者可以通过使用该清单与设计师进行沟通，确保所有重要元素都被考虑，并避免在开发过程中出现遗漏或问题。
 
@@ -6576,11 +6664,17 @@
 
 * [mdbootstrap/material-design-for-bootstrap](https://github.com/mdbootstrap/material-design-for-bootstrap) Material Design for Bootstrap4 是一个免费的 Bootstrap 4 UI 工具包，包含 700多个组件，支持 MIT 许可证，简单易安装。它由MDBootstrap 创建，受到 200 万开发者和设计师的信赖，并被 NASA、Nike、Amazon 等知名公司和机构使用。该项目提供多种安装方式，包括 .zip、npm 或 cdnjs，并提供免费的 MDBGO 托管服务，支持 WordPress 集成，提供自定义域名、SSL 支持、免费数据库、前端和后端模板等功能。
 
+* [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit) dnd-kit是一个轻量级、高性能、易访问且可扩展的React拖放工具包，它基于React Hooks（`useDraggable`和`useDroppable`）构建，无需重构应用或添加额外DOM节点。dnd-kit支持多种用例（列表、网格、嵌套上下文等），具有自定义碰撞检测算法、多种激活器、拖动覆盖层等特性，并内置对多种输入方式（指针、鼠标、触摸和键盘）以及辅助功能的支持，其核心库大小约为10kb，无外部依赖。
+
 * [ai/easings.net](https://github.com/ai/easings.net) 缓动函数 ：自定义参数随时间变化的速率。 现实生活中，物体并不是突然启动或者停止， 当然也不可能一直保持匀速移动。就像我们 打开抽屉的过程那样，刚开始拉的那一下动作很快， 但是当抽屉被拉出来之后我们会不自觉的放慢动作。 或是掉落在地板上的物体，一开始下降的速度很快， 接着就会在地板上来回反弹直到停止。 这个页面将帮助你选择正确的缓动函数。
 
 * [primefaces/primeng](https://github.com/primefaces/primeng) 使用 PrimeNG 的全面可定制、功能丰富的 UI 组件套件提升您的 Web 应用程序。有了 PrimeNG，将您的开发愿景变为现实从未如此简单。在与设计无关的基础设施上精心制作，可从大量主题（如 Material、Bootstrap、Tailwind、PrimeOne）中进行选择或开发您自己的主题。400+ 准备好复制粘贴 UI 块，以立即构建出色的应用程序。专业设计、高度可定制的应用程序模板，以时尚的方式开始。
 
 * [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) 这是一个为开发者和 IT 从业者提供实用在线工具的项目，拥有出色的用户体验。你可以访问 [https://it-tools.tech](https://it-tools.tech) 体验这些工具。该项目提供自托管解决方案，可通过 Docker Hub、GitHub Packages 或其他平台（如 Cloudron、Tipi和 Unraid）进行部署。你也可以通过 GitHub 提交功能请求或参与贡献。该项目使用 Vue.js 和 TypeScript 开发，并提供详细的开发指南和代码示例。
+
+* [downshift-js/downshift](https://github.com/downshift-js/downshift) Downshift是一个用于构建简单、灵活、符合WAI-ARIA规范的React自动完成、组合框或下拉选择组件的React Hooks库。它提供`useSelect`、`useCombobox`和`useMultipleSelection`等Hooks，简化了构建无障碍组件的流程，并支持最新的ARIA组合框模式。此外，Downshift还提供一个`Downshift`组件（使用render prop），但推荐使用更新的Hooks。  该库旨在解决构建易访问且灵活的自动完成和选择组件的难题。
+
+* [flexxui/flexx](https://github.com/flexxui/flexx) Flexx是一个纯Python库，用于创建图形用户界面（GUI），它使用Web技术进行渲染，并通过PScript编译器动态生成JavaScript代码。你可以用它创建跨平台的桌面应用、网页应用，并导出为独立的HTML文档，也支持在Jupyter Notebook中使用。Flexx旨在提供一个单一的应用框架，以简化桌面应用、网页应用的开发，并具有良好的可维护性，但需注意区分服务器端和浏览器端的Python代码。
 
 * [ParthJadhav/Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer) Tkinter Designer是一个使用Figma设计软件快速创建Python GUI的工具，它通过分析Figma设计文件生成相应的代码和文件，简化了GUI开发过程。该项目支持多帧设计，用户可以在一个设计文件中创建多个框架，并生成相应的代码和文件。Tkinter Designer的优势在于其拖放式界面，比手动编写代码更快，并能生成更美观的界面。用户可以通过YouTube视频或项目文档了解详细的使用说明。
 
@@ -6598,6 +6692,8 @@
 
 * [andrew--r/frontend-case-studies](https://github.com/andrew--r/frontend-case-studies) 这是一个精选的企业级前端开发技术演讲和文章列表，旨在帮助开发者了解如何将框架和技术应用于现实世界中的问题，并解决大规模应用的挑战。该项目收录了来自 AdRoll、Airbnb、Amazon、Atlassian、BBC、Bloomberg、BuzzFeed、Cloudflare、Dropbox、eBay、Etsy、Facebook、Figma、GitHub、Google、Instagram、LinkedIn、Netflix、PayPal、Pinterest、Reddit、Shopify、Slack 等众多知名公司的案例研究。
 
+* [appbaseio/reactivesearch](https://github.com/appbaseio/reactivesearch) ReactiveSearch是一个用于React和Vue的UI组件库，用于构建与Elasticsearch、OpenSearch、Solr和MongoDB交互的搜索界面。它提供超过20个UI组件，包括列表、范围滑块、搜索UI、结果显示和图表等，并支持将现有UI组件集成到库中。组件通过应用过滤器或搜索索引来实现搜索和过滤功能，例如`SingleList`组件应用精确匹配过滤器。  该项目还提供React Native和Flutter的替代方案Searchbox。
+
 * [antvis/F2](https://github.com/antvis/F2) F2是一个专注于移动端的可视化图表库，提供简洁、交互式且灵活的图表绘制方案，完美适配 H5 页面、小程序、Weex 等多种移动端环境。F2 基于 Grammar of Graphics 理念构建，拥有完善的图表语法体系，便于用户快速构建各种图表类型。F2 针对移动端场景优化，拥有轻量级的体积和高效的渲染性能，并提供丰富的图表交互功能，帮助开发者快速构建移动端图表应用。
 
 * [nodegui/react-nodegui](https://github.com/nodegui/react-nodegui) React NodeGUI是一个使用 React 构建高性能、原生、跨平台桌面应用程序的框架，它不再维护，但可供开发者自行维护。它基于 React和 Qt5，比 Electron 等基于 Chromium 的解决方案更节省 CPU 和内存。React NodeGUI 实际上是 NodeGUI 的 React 渲染器，提供完整的 Node.js API 支持，并支持 CSS 样式和 Flexbox 布局。它还支持原生小部件事件监听器、良好的开发者工具和TypeScript 支持。
@@ -6610,13 +6706,25 @@
 
 * [tapexyz/tape](https://github.com/tapexyz/tape) Tape是一个开源的媒体分享平台，它使用 Pnpm 作为包管理器，包含多个应用程序和包，例如前端应用程序、视频嵌入播放器、后台任务、API、元标签生成器和无许可注册合约。用户可以在 Discord 社区中讨论功能、提出想法或寻求帮助。开发者可以通过安装依赖项、启动应用程序并访问 http://localhost:4783 来开始使用 Tape。代码库是开源的，并使用 AGPLv3许可证。
 
+* [JedWatson/react-select](https://github.com/JedWatson/react-select) React-Select是用于React.js的强大选择组件，支持灵活的数据处理、可扩展的样式API（基于emotion）、组件注入API以实现UI行为的完全控制以及可控状态属性和模块化架构。它开箱即用，易于定制，并包含选项分组、Portal支持和动画等功能，可通过npm安装，并提供丰富的属性配置，例如`isMulti` (多选)、`isSearchable` (可搜索)等，方便开发者创建各种自定义选择器。
+
 * [fresns/fresns](https://github.com/fresns/fresns) Fresns是一款免费开源的跨平台通用型社交网络服务软件，支持灵活多样的内容形式，可满足各种运营场景。它采用模块化设计，易于二次开发，支持多种数据库，包括 MySQL、MariaDB、PostgreSQL、SQL Server 和 SQLite。用户可通过官方文档进行安装和操作，开发者可参考扩展文档和数据库结构进行开发。Fresns 提供丰富的 API 接口，方便 Web 和 App 开发者进行集成。
+
+* [reactjs/react-tabs](https://github.com/reactjs/react-tabs) react-tabs是一个易于使用的、可访问的ReactJS标签组件，它包含四个组件（Tabs, TabList, TabPanel, Tab）协同工作。 通过简单的API和属性配置，例如`defaultIndex`设置初始选中标签，`direction`设置标签方向，`disabledTabClassName`设置禁用标签样式等，开发者可以轻松创建可访问且功能强大的标签页。该组件已在真实移动设备和浏览器上测试，并支持受控和非受控模式。
+
+* [styletron/styletron](https://github.com/styletron/styletron) Styletron是一个用于组件化样式的通用工具包，属于CSS in JS范畴，它与React配合良好，但也支持其他框架或纯JS。Styletron通过创建无状态的单元素样式化组件并使用属性接口实现条件/动态样式，其设计原则注重组件化、类型化JavaScript和可移植性，无需额外工具即可使用。项目提供React相关包(styletron-react)以及其他引擎和标准包，详细文档请访问styletron.org。
 
 * [RitikPatni/Front-End-Web-Development-Resources](https://github.com/RitikPatni/Front-End-Web-Development-Resources) 这是一个面向前端开发者的开源资源库，包含大量学习资料和工具，涵盖了从基础知识到进阶技能的各个方面，例如 Flexbox 和 Grid布局指南、命令行工具使用教程、代码编辑器扩展推荐、CSS 框架、图标库、颜色搭配、字体选择、设计灵感、动画框架、地理位置 API、模拟工具、书籍推荐、挑战练习、免费学生工具等，旨在帮助开发者提升前端开发技能。
 
 * [jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp) 用于构建超文本应用程序的 1kB 式 JavaScript 框架，最大限度地减少了完成工作所需的学习概念。视图、操作、效果和订阅都非常容易掌握并无缝协作。Hyperapp 具有易于阅读且编写有趣的声明式 API，是使用惯用 JavaScript 构建功能纯、功能丰富、基于浏览器的应用程序的最佳方式。超轻量级的虚拟 DOM、高度优化的差异算法和痴迷于极简主义的状态管理库。
 
+* [antfu-collective/icones](https://github.com/antfu-collective/icones) Icxc3xb4nes 是一个基于 Iconify 的图标浏览器，支持即时模糊搜索，无需网络查询。它提供了一系列功能，包括图标包功能（可将选定的图标打包成可直接使用的图标字体）、复制使用脚本、直接下载 SVG、移动端友好、收藏夹功能、分类筛选、暗黑模式等。Icxc3xb4nes 使用 Vite 和 Vue 3 构建，并提供 VS Code 扩展。未来计划推出 Electron 客户端和完全离线模式。
+
 * [Tencent/omi](https://github.com/Tencent/omi) Omi - Web 组件框架，通过无功信号进行信号驱动的无功编程；100+ OMI模板和OMI模板源代码；OMI表单和OMI表单游乐场和Lucide Omi图标；OMIU预览正在进行中&amp;OMIU源代码；体积小，性能快；您需要的一切：Web 组件、JSX、函数组件、路由器、悬念、指令、Tailwindcss......；支持面向对象编程（OOP）和面向数据编程（DOP）；利用可构建的样式表轻松管理和共享样式
+
+* [welldone-software/why-did-you-render](https://github.com/welldone-software/why-did-you-render) Welldone Software开发的why-did-you-render通过Monkey Patch的方式修改React，帮助开发者识别React组件中可能存在的冗余渲染，从而优化性能。它支持React和React Native，能追踪组件何时以及为何重新渲染，并特别指出由于props传递导致的无谓渲染，例如传递style={{width: '100%'}}给大型纯组件。安装方便，需在开发环境下使用，并注意React版本和配置（例如Babel配置）。
+
+* [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) Twin.macro是一个在构建时将Tailwind CSS的便捷性和css-in-js库（如Emotion、styled-components等）的灵活性结合起来的工具。它通过Babel在编译阶段将Tailwind类名转换为CSS对象，并将其传递给选择的css-in-js库，无需额外客户端包，从而保持构建体积小巧。  它支持多种使用方式，例如直接在jsx元素上使用`tw`宏，或在css-in-js库中混合使用Tailwind类名和自定义样式。
 
 * [nuxt/nuxt](https://github.com/nuxt/nuxt) 免费的开源框架，具有直观且可扩展的方式，可以使用 Vue.js 创建类型安全、高性能和生产级的全栈 Web 应用程序和网站。它提供了许多功能，可以轻松构建快速、SEO 友好且可扩展的 Web 应用程序，包括：服务器端渲染、静态站点生成或混合渲染；具有代码拆分功能的自动路由；状态管理；SEO优化；自动导入；可扩展 180+ 模块；部署到各种托管平台
 
@@ -6630,11 +6738,21 @@
 
 * [ochococo/Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift) 这是一个使用 Swift 5.0 实现设计模式的项目，包含行为型、创建型和结构型三种模式，并提供 Xcode 10.2 Playground文件，方便学习和使用。项目由 [@nsmeme](http://twitter.com/nsmeme) (Oktawian Chojnacki) 创建，并由[@binglogo](https://twitter.com/binglogo) 翻译成中文。项目包含详细的代码示例和解释，并提供 CONTRIBUTING.md 文件，指导如何生成 README、Playground 和 zip 文件。
 
+* [sachinchoolur/lightGallery](https://github.com/sachinchoolur/lightGallery) lightGallery是一个可定制、模块化、响应式的lightbox图库插件，无需依赖，支持React、Angular、Vue.js和TypeScript。它具有丰富的功能，例如响应式设计、模块化架构、触摸设备优化、多种动画效果、社交分享、视频支持、缩放、全屏支持、键盘导航、以及易于通过CSS和设置进行自定义等，并提供详细文档和多种安装方式（NPM、Yarn、Bower、CDN和GitHub）。
+
 * [jglovier/resume-template](https://github.com/jglovier/resume-template) 这是一个基于 Jekyll 和 GitHub Pages 的简单简历模板，提供本地运行和 Docker运行方式，方便用户测试和定制。用户可以通过修改 `/_config.yml` 文件和 `/_layouts/resume.html` 文件进行个性化设置，并可免费发布到 GitHub Pages。项目提供路线图和贡献指南，鼓励用户参与改进。项目代码和样式采用 MIT 许可证，但模板中的示例内容不可用于用户自己的简历。
+
+* [unlayer/react-email-editor](https://github.com/unlayer/react-email-editor) 这是一个基于React.js的拖拽式邮件编辑器组件，它封装了Unlayer强大的可视化邮件构建器，方便开发者在应用中集成。用户可通过npm安装，并使用JSX渲染组件，调用其提供的loadDesign、saveDesign和exportHtml等方法来加载、保存和导出邮件设计。该组件提供多种属性配置，并支持Unlayer的所有方法，详情可参考Unlayer文档及项目提供的示例代码和演示。
 
 * [reduxjs/redux](https://github.com/reduxjs/redux) JavaScript 应用的可预测状态容器，可以帮助您编写行为一致、在不同环境（客户端、服务器和本机）中运行且易于测试的应用程序。最重要的是，它提供了出色的开发人员体验，例如实时代码编辑与时间旅行调试器相结合。您可以将 Redux 与 React 或任何其他视图库一起使用。Redux 核心很小（2kB，包括依赖项），并且具有丰富的插件生态系统。
 
+* [revolist/revogrid](https://github.com/revolist/revogrid) RevoGrid是一个高性能的虚拟数据表格组件，使用StencilJS构建，支持百万级单元格和数千列，具有极快的渲染速度。它结合了Excel的优秀特性，并具有智能虚拟DOM、虚拟滚动等技术以优化性能，支持公式计算、主子表、拖拽、排序、过滤、导出、单元格合并、自定义模板等高级功能，并提供丰富的可定制选项，例如列类型、单元格编辑器等。
+
 * [2227324689/gpmall](https://github.com/2227324689/gpmall) 咕泡学院实战项目“咕泡商城”是一个基于SpringBoot+Dubbo构建的电商平台，采用微服务架构，包含商城、电商、微服务、高并发、kafka、Elasticsearch等技术。该项目旨在帮助学员深入理解微服务架构，并提供一个实际的电商平台构建经验，涵盖了业务逻辑、技术实现、性能优化等方面，适合想要学习微服务架构和电商平台开发的Java开发者。
+
+* [styled-components/polished](https://github.com/styled-components/polished) Polished是一个轻量级的JavaScript样式工具集，提供Sass风格的辅助函数和mixin，方便开发者在JavaScript中编写样式。它兼容多种框架（如styled-components、emotion等），支持Webpack和Rollup的tree shaking以减小bundle体积，并提供Flow和TypeScript定义，以及Babel插件以优化性能。  Polished让开发者轻松创建美观的应用，并简化从预处理器到JS样式的迁移过程。
+
+* [heroku/react-refetch](https://github.com/heroku/react-refetch) ReactRefetch是一个简单、声明式且可组合的React组件数据获取库，它通过`connect()`装饰器将组件属性映射到数据请求URL，从而简化数据获取流程，避免了在组件内部直接处理数据请求的复杂性，使组件保持无状态。该库支持懒加载、轮询和数据提交等高级功能，并受React Redux启发，但更适用于主要从服务器获取和渲染只读数据的应用场景。
 
 * [BrowserBox/BrowserBox](https://github.com/BrowserBox/BrowserBox) 从服务器上运行的浏览器浏览 Web，而不是在本地设备上。轻量级虚拟浏览器。为了安全、隐私等。基于 Web 的小型浏览器，可以嵌入到任何地方。它也是多人游戏，允许许多客户端同时在屏幕上共享相同的浏览会话。它轻巧且快速，消耗最少的系统资源，同时调整其流媒体质量，以利用尽可能多的带宽来提供低延迟、响应迅速的体验。
 
@@ -6652,13 +6770,19 @@
 
 * [vhpoet/react-native-styling-cheat-sheet](https://github.com/vhpoet/react-native-styling-cheat-sheet) React NativeStyling Cheat Sheet 是一个方便的资源，它将 React Native 样式相关的资料集中在一个页面上，方便开发者快速查找和使用。该项目从官方文档中提取了大量内容，并以表格的形式列出了各个样式属性的名称、类型、默认值和描述，涵盖了 Flexbox、ShadowPropTypesIOS、Transforms 以及 Image、ScrollView、Text、TextInput、View 等组件的样式属性。
 
+* [surveyjs/survey-library](https://github.com/surveyjs/survey-library) SurveyJS是一个免费的JavaScript表单构建库，支持React、Angular、Vue、jQuery和Knockout等框架，可创建动态JSON表单，收集回复并发送数据到任意数据库。它支持多页表单、弹出式调查、测验等多种形式，并提供表单构建器生成JSON配置。该库使用JSON对象与服务器交互，所有数据存储在您自己的服务器上，并提供丰富的输入类型和验证功能。
+
 * [reactjs/react.dev](https://github.com/reactjs/react.dev) react.dev是 React 官方文档网站的源代码仓库，使用 Next.js 构建，包含 React 文档、示例代码和相关工具。开发者可通过该仓库获取React 文档的最新版本，并参与文档的贡献和翻译工作，所有贡献内容遵循 CC-BY-4.0 许可协议。开发者可通过克隆仓库、安装依赖、运行开发服务器等步骤在本地运行该网站，并进行文档修改、测试和提交。
 
 * [badges/shields](https://github.com/badges/shields) 以 SVG 和光栅格式提供简洁、一致且清晰的徽章的服务，可以轻松包含在 GitHub 自述文件或任何其他网页中。该服务支持数十种持续集成服务、软件包注册表、发行版、应用商店、社交网络、代码覆盖服务和代码分析服务。它每月提供超过 8.7 亿张图像，并被世界上一些最受欢迎的开源项目使用，包括 VS Code、Vue.js 和 Bootstrap 等。
 
 * [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) Awesome Design Tools是一个收集了各种设计工具和插件的资源库，涵盖了设计流程的各个方面，包括可访问性工具、动画工具、协作工具、原型设计工具等。该项目由 Flawless App 团队维护，现已加入 Abstract 公司。用户可以通过目录或关键词搜索找到所需工具，也可以提交新的工具或插件。项目鼓励用户贡献，并提供简单的贡献指南。
 
+* [jsx-eslint/eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) ESLint插件`eslint-plugin-react`提供React相关的代码风格检查规则。它通过安装并配置到ESLint中使用，能自动检测React代码中的潜在问题，例如JSX语法错误、组件属性错误等。  该插件支持自定义配置，例如React版本、JSX转换方式以及自定义组件包装函数等，以适应不同的项目需求。  安装方法为`npm install eslint eslint-plugin-react --save-dev`。
+
 * [gristlabs/grist-core](https://github.com/gristlabs/grist-core) Grist 是电子表格的演变。它结合了电子表格的灵活性和数据库的健壮性。grist-core （此存储库）具有运行强大的电子表格托管服务器所需的一切。grist-electron 是一款 Linux/macOS/Windows 桌面应用程序，用于查看和编辑本地存储的电子表格。grist-static 是 Grist 的完全浏览器内构建，用于在没有后端支持的情况下在网站上显示电子表格。
+
+* [formatjs/formatjs](https://github.com/formatjs/formatjs) FormatJS是一个包含多个库的单体仓库，其中最著名的是react-intl。它提供国际化和本地化解决方案，帮助开发者轻松地将应用翻译成多种语言。该项目包含多个npm包，例如用于命令行工具、日期时间格式化、显示名称和列表格式化的包，并提供Slack社区支持。其核心是基于ICU消息格式，实现高效且准确的文本格式化和本地化。
 
 * [kando-menu/kando](https://github.com/kando-menu/kando) Kando是一款跨平台的圆形菜单，为你的桌面提供一种非传统、快速、高效且有趣的方式与电脑交互。你可以使用 Kando 启动应用程序、模拟键盘快捷键、打开文件等等。Kando 支持鼠标、触控笔和触控输入，适用于需要频繁使用鼠标或触控笔的用户。Kando 已在 Windows、macOS、GNOME/X11、GNOME/Wayland、KDE/X11 和 KDE/Wayland等平台上测试。
 
@@ -6666,9 +6790,17 @@
 
 * [vitejs/vite](https://github.com/vitejs/vite) Vite（法语中“快速”的意思，发音 `/vit/` 为“veet”）是一种新型的前端构建工具，可显著改善前端开发体验。主要组成：通过本机 ES 模块提供源文件的开发服务器，具有丰富的内置功能和惊人的快速热模块替换 （HMR）。将代码与 Rollup 捆绑在一起的生成命令，经过预配置，可输出高度优化的静态资产以用于生产环境。
 
+* [pinterest/gestalt](https://github.com/pinterest/gestalt) Gestalt是Pinterest的开源React UI组件库，遵循Pinterest的设计语言规范，包含全面的指南、最佳实践和工具，方便设计师和工程师构建高质量产品；它支持npm和yarn安装，并提供ES6模块和预编译CSS文件；项目采用monorepo结构，支持TypeScript，但主要服务于Pinterest内部，外部开发者提供的功能请求和问题反馈可能无法得到及时响应。
+
 * [FrontEndGitHub/FrontEndGitHub](https://github.com/FrontEndGitHub/FrontEndGitHub) 这是一个GitHub仓库，汇集了最全面的前端资源，涵盖前端学习、开发资源、数据结构与算法、开发工具、求职面试等多个方面。该项目旨在帮助前端开发者快速获取优质资源，提升学习效率，并提供便捷的学习路径。仓库包含超过10个类别，覆盖了JavaScript、Vue、React、Node、小程序、Flutter、Deno、HTML、CSS等热门技术领域。
 
+* [i18next/react-i18next](https://github.com/i18next/react-i18next) react-i18next 是一个基于 i18next 国际化生态系统的React 国际化解决方案，它能让你轻松地将你的 React 应用翻译成多种语言。通过简单的组件和 API，你可以使用 `t` 函数和 `u003cTransu003e` 组件替换你的文本，实现高效的国际化，其文档位于 react.i18next.com。  v10及以上版本使用Hooks，v9版本为传统版本，可通过npm安装不同版本。
+
 * [PlasmoHQ/plasmo](https://github.com/PlasmoHQ/plasmo) Plasmo是一个面向开发者的浏览器扩展框架，它简化了扩展开发流程，并提供丰富的功能，例如 React 和 Typescript 支持、声明式开发、内容脚本 UI、标签页、实时重载、环境变量、存储和消息 API、远程代码捆绑、多浏览器和清单支持、自动部署等。Plasmo还支持 Svelte 和 Vue，并提供 Firebase 认证、Redux 和 Supabase 认证等示例。
+
+* [getnikola/nikola](https://github.com/getnikola/nikola) Nikola是一个静态网站和博客生成器，它将内容转换为可部署的网站。它具有博客功能（标签、Feed、存档、评论等）、主题定制、快速构建、丰富的插件、支持多种输入语言（reStructuredText、Markdown等）、图像库、语法高亮、多语言支持等特性，并基于Python 3.8+，通过pip安装即可使用，安全、资源占用少且避免厂商锁定。
+
+* [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) ReactTesting Library是一个轻量级的React组件测试工具库，它鼓励良好的测试实践，避免测试中包含组件的实现细节，从而提高测试的可维护性。其核心原则是：测试越接近软件的使用方式，就能提供越高的信心。该库基于react-dom和react-dom/test-utils，通过npm或yarn安装，需要安装`@testing-library/react`和`@testing-library/dom`两个包。
 
 * [gitname/react-gh-pages](https://github.com/gitname/react-gh-pages) 本项目是一个教程，教你如何使用 `create-react-app` 创建一个 React 应用并将其部署到 GitHub Pages。项目使用 `gh-pages` npm 包将应用部署到 GitHub Pages，GitHub Pages 是 GitHub 提供的免费网页托管服务。教程包含创建空仓库、创建 React 应用、配置 `gh-pages` 部署等步骤，最终将生成一个可自定义的 React 应用并部署到 GitHub Pages 上。
 
@@ -6682,11 +6814,33 @@
 
 * [basecamp/omakub](https://github.com/basecamp/omakub) Omakub是一个一键式工具，可以将全新的 Ubuntu 系统转换为一个配置完善、美观且现代的 Web 开发环境。它提供了一个经过精心选择的工具集，无需手动配置，让您快速开始开发工作。Omakub 秉持着对 Linux 最佳实践的理念，提供了一个完善的开发环境。您可以在 [omakub.org](https://omakub.org) 观看介绍视频和了解更多信息。
 
+* [molefrog/wouter](https://github.com/molefrog/wouter) Wouter是一个仅重约2.1KB的极简React和Preact路由库，它基于Hooks，提供`Route`、`Link`、`Switch`和`Redirect`等组件，并拥有`useLocation`、`useRoute`和`useRouter`等Hook API，方便开发者更精细地控制路由。它体积小巧，功能完备，兼容React和Preact，并且无需顶层`u003cRouter /u003e`组件。许多知名项目如Ultra、React-three-fiber等都在使用它。
+
+* [mac-s-g/react-json-view](https://github.com/mac-s-g/react-json-view) react-json-view是一个React组件，用于显示和编辑JavaScript数组和JSON对象，提供响应式界面，可用于任何基于web的JavaScript应用程序。它支持多种主题和自定义选项，例如折叠、缩进和图标样式，并可通过npm安装。该项目目前已停止维护，建议使用[@microlink/react-json-view](https://github.com/microlinkhq/react-json-view)作为替代方案。
+
 * [segment-boneyard/nightmare](https://github.com/segment-boneyard/nightmare) 高级浏览器自动化库。目标是公开一些模仿用户操作的简单方法（如 goto 和 type click ），其 API 对每个脚本块都感觉同步，而不是深度嵌套的回调。它最初设计用于跨没有 API 的站点自动执行任务，但最常用于 UI 测试和爬虫。在幕后，它使用 Electron，它类似于 PhantomJS，但速度大约是 PhantomJS 的两倍，而且更现代。
 
 * [tnfe/TNT-Weekly](https://github.com/tnfe/TNT-Weekly) TNT-Weekly是一个每周推荐国内外前端领域优秀文章和行业进展的项目，旨在帮助前端开发者快速了解最新技术和趋势。项目提供精选的优质文章，涵盖了前端开发、H5、小程序等多个领域，并附有简要的介绍和链接，方便读者快速获取信息。用户可以关注 TNT-Weekly 的官方公众号或 GitHub 仓库，获取最新的推荐内容。
 
+* [lingui/js-lingui](https://github.com/lingui/js-lingui) Lingui.js是一个轻量级(3kb)、易于阅读且自动化的JavaScript国际化框架，使用强大的ICU MessageFormat，支持丰富的文本格式(包括JSX)，并提供CLI工具管理整个国际化流程，包括消息提取、验证和翻译检查。它兼容React，并提供React组件，也支持纯JavaScript项目，且与react-intl具有良好的兼容性。Lingui.js拥有活跃的社区支持。
+
 * [visgl/deck.gl](https://github.com/visgl/deck.gl) 简化大型数据集的高性能、基于 WebGL 的可视化。用户可以通过组合现有图层，以最小的工作量快速获得令人印象深刻的视觉效果，或者利用 deck.gl 的可扩展架构来满足自定义需求。deck.gl 将数据（通常是 JSON 对象数组）映射到一堆视觉层中，例如图标、多边形、文本;并用视图查看：例如地图、第一人称、正交。
+
+* [searchkit/searchkit](https://github.com/searchkit/searchkit) Searchkit是一个开源库，用于快速构建基于Elasticsearch或OpenSearch的搜索用户界面，兼容React、Vue、Angular等框架以及Algolia的Instantsearch组件。它提供预构建的UI组件（如搜索框、筛选器和结果展示），并通过Node API代理Elasticsearch请求，支持Elasticsearch Query DSL以实现高级查询功能，方便开发者快速创建强大的搜索体验。
+
+* [hustcc/echarts-for-react](https://github.com/hustcc/echarts-for-react) 这是一个简单易用的React组件，用于封装Apache ECharts图表库。它提供简洁的API，只需传入图表配置选项即可渲染ECharts图表，并支持多种配置和事件回调，例如主题定制、懒加载更新和自定义事件处理。开发者可根据需要选择性地导入ECharts模块以减小打包体积，兼容React 15.0.0及以上版本和ECharts 3.0.0及以上版本。
+
+* [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) Immutable.js是一个JavaScript库，提供持久化的不可变数据集合，包括List、Map、Set等，通过结构共享（利用哈希映射Trie和向量Trie）提高效率，避免了数据复制和缓存的需要；其不可变特性简化了应用开发，并支持高级的记忆化和变更检测技术；它还提供惰性Seq，允许高效地链式调用集合方法，无需创建中间表示。
+
+* [jquense/react-big-calendar](https://github.com/jquense/react-big-calendar) react-big-calendar是一个基于React的日历组件，其设计现代，兼容现代浏览器，并使用flexbox布局。它提供类似Google日历和Outlook日历的功能，支持多种日期库（Moment.js、Globalize.js、date-fns、Day.js）进行本地化和日期格式化，需安装并引入相应的本地化程序。通过npm或yarn安装后即可使用，并提供多种示例和入门项目。
+
+* [gpbl/react-day-picker](https://github.com/gpbl/react-day-picker) ReactDayPicker是一个高度可定制的React日期选择器组件，用于在网页应用中添加日期选择器、日历和日期输入框。它支持多种选择模式（单选、多选、范围选择等），可轻松自定义样式、本地化（包括ISO 8601日期、时区和Jalali日历），并符合WCAG 2.1 AA无障碍性要求，基于TypeScript开发，依赖date-fns库进行日期处理。
+
+* [sekoyo/react-image-crop](https://github.com/sekoyo/react-image-crop) react-image-crop是一个轻量级(小于5KB gzip)的React图像裁剪工具，无需依赖，支持响应式布局、触控和键盘操作，可进行自由或固定比例裁剪，并允许设置最小/最大裁剪尺寸，甚至可以裁剪非图像内容。它通过回调函数`onChange`实时更新裁剪区域，并提供像素和百分比两种坐标单位，方便用户灵活控制裁剪结果。
+
+* [effector/effector](https://github.com/effector/effector) Effector是一个易于使用的JavaScript业务逻辑库，支持React、React Native、Vue、Svelte、Node.js和原生JavaScript应用，并提供开箱即用的最佳TypeScript支持。它遵循五个基本原则：轻量级、自由组合、避免争议性概念、API清晰易预测以及基于简单元素构建应用。通过npm安装，并提供针对React、SolidJS、Vue和Svelte的扩展包。
+
+* [remirror/remirror](https://github.com/remirror/remirror) Remirror是一个基于ProseMirror的React工具包，用于构建跨平台的文本编辑器。它提供易于使用的扩展和API，让开发者可以快速创建功能强大的富文本编辑器。通过简单的代码即可实现诸如加粗、斜体等基本功能，并提供详细文档和示例，方便上手。Remirror具有高度可定制性，并支持多种扩展以满足不同的需求。
 
 * [up-for-grabs/up-for-grabs.net](https://github.com/up-for-grabs/up-for-grabs.net) Up-for-grabs.net 是一个网站，它列出了专门为新手贡献者准备的任务的开源项目。这些任务是开始参与开源项目或帮助分担开源项目工作量的绝佳方式。该网站的代码库包含网站内容，你可以通过提交请求来添加你自己的项目。网站使用 Netlify部署，并提供详细的贡献指南和工作原理文档，方便你参与贡献。
 
@@ -6694,17 +6848,37 @@
 
 * [rails/webpacker](https://github.com/rails/webpacker) Webpacker是一个用于在 Rails 中管理类似应用程序的 JavaScript 模块的工具，它已不再维护，建议使用 jsbundling-rails 或 import maps 代替。对于现有的 Webpacker 项目，可以迁移到 jsbundling-rails 或 import maps，也可以继续使用 Webpacker，但不会更新到新版本的 JavaScript 库。Webpacker 的 v6 版本将由 Shakapacker 项目继续开发。
 
+* [video-react/video-react](https://github.com/video-react/video-react) video-react是一个基于React库构建的HTML5网页视频播放器，它提供易于使用的组件，例如Player组件，只需简单几行代码即可集成到你的React项目中。该项目由Mux维护，持续更新和改进，并支持多种浏览器，包括Chrome、Firefox和Safari等。项目灵感来源于video.js，并使用了reactstrap、Google Material Icons和iconmon等资源。
+
+* [dapi-labs/react-nice-avatar](https://github.com/dapi-labs/react-nice-avatar) react-nice-avatar是一个React库，用于生成个性化头像。它通过`genConfig`函数生成头像配置，该函数可接受种子字符串（例如姓名或邮箱）或自定义属性对象（例如性别、发型等）来创建配置，也可生成随机配置。生成的配置可用于渲染`Avatar`组件，并通过`width`、`height`、`shape`等属性自定义头像大小和形状。
+
+* [thebuilder/react-intersection-observer](https://github.com/thebuilder/react-intersection-observer) react-intersection-observer是一个React库，利用Intersection Observer API检测元素何时进入或离开视口。它提供Hooks（`useInView`）、render props（`u003cInViewu003e`）和普通子元素三种使用方式，具有性能优化、原生API匹配、TypeScript编写、易于测试和Tree-shakeable等特性，包体积小（`useInView`约1.15kB，`u003cInViewu003e`约1.6kB）。
+
+* [FirebaseExtended/reactfire](https://github.com/FirebaseExtended/reactfire) ReactFire是一个简化Firebase交互的React库，提供Hooks、Context Providers和组件，方便函数式组件轻松访问Firebase实时数据和身份验证状态，并自动处理订阅取消。它支持多种Firebase库，例如Firestore和Remote Config，并安全地配置这些库的设置。该项目目前处于实验阶段，由谷歌维护，但并非Firebase官方支持产品。
+
 * [jeecgboot/JimuReport](https://github.com/jeecgboot/JimuReport) 「开源可视化报表，商业BI替代方案」积木报表是一款类似excel操作风格，在线拖拽完成设计的报表工具。低代码产品的臂膀！功能涵盖: 报表设计、图形报表、打印设计、大屏设计等，完全免费！秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、解决各类报表难题。
+
+* [ProseMirror/prosemirror](https://github.com/ProseMirror/prosemirror) ProseMirror是一个基于contentEditable的富文本语义内容编辑器，支持协同编辑和自定义文档模式。它由多个模块组成，此仓库主要用于问题追踪和开发辅助。项目提供丰富的示例和文档，并采用MIT许可证开源，用户可通过npm安装使用各个模块；开发者可通过提供的脚本进行项目开发、构建、测试和管理。
+
+* [nosir/cleave.js](https://github.com/nosir/cleave.js) Cleave.js是一个已被弃用的JavaScript库，其新版本为cleave-zen。它主要用于自动格式化输入文本内容，例如信用卡号码、电话号码和日期等，支持自定义分隔符、前缀和块模式，并提供多种集成方式，包括CommonJS、AMD、ESModule和React/Angular组件。虽然已弃用，但其简化输入字段格式化的功能依然值得参考。
 
 * [wangyuan389/mall-cook](https://github.com/wangyuan389/mall-cook) Mall-Cook是一个基于 Vue 开发的低代码商城搭建平台，支持可视化搭建H5 和小程序多端商城。它提供丰富的页面可视化搭建功能，并支持 JSON Schema 生成组件，方便用户快速构建商城页面。平台基于 uni-app 框架，可一键生成 H5 和小程序多端应用，极大提升开发效率。用户可访问演示网站体验平台功能。
 
 * [lgwebdream/FE-Interview](https://github.com/lgwebdream/FE-Interview) FE-Interview是一个前端面试刷题项目，包含1000+道前端面试真题，涵盖HTML、CSS、JavaScript、Vue、React、Node、TypeScript、Webpack、算法、网络与安全、浏览器等多个方面，并提供详细的解答和解析，是前端面试准备的必备资源。项目特色在于其独有的面试题详解，帮助用户深入理解知识点，提升面试技巧。
 
+* [vanilla-extract-css/vanilla-extract](https://github.com/vanilla-extract-css/vanilla-extract) vanilla-extract是一个TypeScript库，用于在构建时生成静态CSS文件，实现零运行时开销。它结合了TypeScript类型安全、局部作用域类名和CSS变量，类似于CSS Modules，但功能更强大，支持主题系统、`calc`表达式计算等。该库与任何前端框架兼容，并提供可选的运行时版本用于开发和测试，以及动态主题API。
+
 * [linuxserver/Heimdall](https://github.com/linuxserver/Heimdall) Heimdall是一个应用程序仪表板和启动器，它可以帮助你整理所有网络应用程序的链接，并提供优雅的解决方案来组织你的书签。它支持自定义链接和搜索功能，并可以作为你的浏览器起始页。Heimdall 还支持增强型应用程序，例如 NZBGet 和 Sabnzbd，可以显示实时统计信息，例如队列大小和下载速度。
 
 * [alshedivat/al-folio](https://github.com/alshedivat/al-folio) al-folio是一个为学者设计的简洁、美观、响应式的 Jekyll 主题，适合创建个人主页、博客、实验室页面、课程、研讨会、会议和聚会等网页，并拥有一个活跃的用户社区。该主题使用 Jekyll 构建，支持 Docker 镜像部署，并提供多种功能，例如自定义导航栏、社交媒体集成、文章列表、代码高亮等。
 
+* [siriwatknp/mui-treasury](https://github.com/siriwatknp/mui-treasury) mui-treasury是一个基于Material-UI的、可直接使用的组件集合，其组件设计灵感源于Dribbble和Pinterest等平台。用户可以通过复制粘贴代码或使用CLI命令（npx mui-treasury@latest clone [组件名称]）两种方式将组件添加到项目中。该项目提供多种CLI选项，支持一次克隆多个组件，并包含TypeScript和JavaScript模板。
+
 * [shepherd-pro/shepherd](https://github.com/shepherd-pro/shepherd) Shepherd 可以轻松创建自定义用户引导之旅、培训和公告，以推动用户采用。Shepherd 使您能够引导用户完成您的应用程序或网站中的自定义游览或旅程。Shepherd 具有高度可定制性，样式极简，允许强大的自定义，同时易于使用。支持各种框架，包括 React、Ember、Angular、Vue.js、ES 模块或纯 JavaScript。
+
+* [jupyter-widgets/ipywidgets](https://github.com/jupyter-widgets/ipywidgets) ipywidgets是用于Jupyter Notebook和IPython内核的交互式HTML小部件，允许创建动态、交互式的可视化和应用程序。它通过在浏览器中渲染交互式HTML元素来工作，并使用消息传递机制与Python内核进行通信，从而实现用户界面与Python代码的实时交互。该项目提供稳定版和开发版，并有丰富的文档和示例。
+
+* [pimterry/loglevel](https://github.com/pimterry/loglevel) loglevel是一个轻量级的JavaScript日志库，为任何可用的`console.log`方法添加了可靠的日志级别方法，支持trace/debug/info/warn/error级别日志，并可按级别过滤日志，即使在不支持`console`对象的旧浏览器中也能正常工作，默认情况下日志级别为warn，文件大小仅1.4KB（压缩后），并包含TypeScript类型定义。
 
 * [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io) Webstack.cc 是一个静态响应式网址导航网站，基于 Bootstrap 前端框架开发，提供多种主题和功能，例如自定义导航栏、添加网站、搜索等。该项目是开源的，代码托管在 GitHub 上，用户可以自由使用和修改。项目特色是简洁易用，用户可以轻松创建自己的导航网站，方便管理和访问常用的网站。
 
@@ -6712,7 +6886,11 @@
 
 * [felixrieseberg/macintosh.js](https://github.com/felixrieseberg/macintosh.js) macintosh.js 是一个使用 Electron 构建的虚拟苹果 Macintosh，运行着 System 8操作系统，模拟 1991 年的 Macintosh Quadra。该项目通过模拟 Macintosh 的硬件和软件环境，让用户在现代电脑上体验经典的 Macintosh 操作系统。项目提供 Windows、macOS 和 Linux 平台的下载，用户可以根据自己的系统选择合适的版本。
 
+* [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) Semi-Design是一个现代化、全面且灵活的React UI库和设计系统，提供3000多个设计令牌，方便构建自定义设计系统，并支持一键式设计转代码（D2C）和代码转设计（C2D），确保设计与代码的一致性；它具有完整的无障碍支持、国际化支持以及严格的质量保证，基于TypeScript编写，易于阅读和维护。
+
 * [unilei/aipan-netdisk-search](https://github.com/unilei/aipan-netdisk-search) 本项目是一个基于 Vue 与 Nuxt.js 技术打造的开源网盘搜索项目，旨在让人人皆可拥有属于自己的网盘搜索网站。项目提供多种部署方式，包括Vercel 和 Docker，方便用户快速启动。项目使用第三方 API 进行搜索，并提供管理面板方便用户自定义配置。强烈建议自行部署，并欢迎所有参与者贡献！
+
+* [bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers) 该项目是一个为开发者精心整理的设计和UI资源列表，包含股票照片、网页模板、CSS框架、UI库、工具等等，涵盖UI图形、字体、颜色、图标、素材图片、视频、音乐音效、矢量图、产品和图片模型、HTML和CSS模板以及各种前端框架和库等多个方面，旨在帮助开发者快速找到所需的设计资源。
 
 * [LukasMasuch/best-of-react](https://github.com/LukasMasuch/best-of-react) 🏆Best-of React 是一个每周更新的优秀 React 开源库和工具排名列表，包含 430 个项目，总计 500 万颗星，分为 22 个类别。每个项目根据从 GitHub 和不同包管理器自动收集的各种指标计算的项目质量评分进行排名。您可以通过提交问题、Pull Request 或直接编辑 projects.yaml 文件来添加或更新项目。
 
@@ -6720,7 +6898,11 @@
 
 * [umap-project/umap](https://github.com/umap-project/umap) uMap是一个基于Django和Leaflet的开源项目，它可以让你快速创建包含OpenStreetMap图层的网页地图并嵌入到你的网站中。uMap的设计理念是：OpenStreetMap的使用越多，它就会得到越多的改进。你可以访问项目网站了解更多信息，查看文档获取技术细节，并加入Matrix聊天室或邮件列表与开发者交流。
 
+* [bokuweb/react-rnd](https://github.com/bokuweb/react-rnd) react-rnd是一个用于React的组件，支持拖拽和大小调整。它允许用户通过简单的props控制组件的大小和位置，并提供回调函数来响应拖拽和调整大小的操作。开发者可以使用npm或yarn安装，并通过设置`size`和`position`属性以及相应的回调函数来实现自定义功能，例如实时更新组件大小和位置。
+
 * [nhn/tui.calendar](https://github.com/nhn/tui.calendar) TOAST UI Calendar是一个功能齐全的 JavaScript 日历组件，提供月视图、周视图、日视图等多种视图类型，支持拖拽和调整日程大小，并提供默认弹窗等功能。它提供 JavaScript、React 和 Vue 版本，方便开发者在不同框架中使用。此外，TOAST UI Calendar 还支持自定义配置，可满足各种场景下的需求。
+
+* [Hacker0x01/react-datepicker](https://github.com/Hacker0x01/react-datepicker) ReactDate Picker是一个简单易用的React日期选择器组件，支持npm和yarn安装。它提供简洁的API，可轻松配置，例如设置时间选择器和本地化，并支持自定义样式。通过`selected`和`onChange`属性控制日期选择，还提供`onSelect`和`onClickOutside`等事件处理函数。更多配置和示例可参考项目网站和文档。
 
 * [wxWidgets/wxWidgets](https://github.com/wxWidgets/wxWidgets) wxWidgets是一个跨平台的C++ GUI库，使用原生控件编写高级GUI应用程序。它支持Windows、Unix和macOS等主流桌面平台，并提供跨平台的非GUI功能抽象。wxWidgets是免费的，可用于开源和商业应用，并提供完整的源代码、文档和示例。它支持C++11及以上版本的编译器，并提供社区支持和商业支持。
 
@@ -6728,53 +6910,137 @@
 
 * [Blazity/next-saas-starter](https://github.com/Blazity/next-saas-starter) 这是一个免费的 Next.js SaaS 产品响应式着陆页模板，使用 JAMStack 架构构建。它提供最佳 SEO 设置、绿色 Web Vitals、高性能和简洁的代码库，并支持 Tina CMS 集成、博客、Mailchimp 和 Sendgrid 集成、暗模式、自定义主题、一键部署等功能。你可以使用 Vercel 或其他无服务器部署环境进行部署。
 
+* [reduxjs/redux-toolkit](https://github.com/reduxjs/redux-toolkit) ReduxToolkit是Redux官方推荐的工具集，旨在简化Redux开发。它解决了Redux配置复杂、依赖包多和样板代码多的问题，提供`configureStore`等API简化配置，并包含RTK Query用于简化数据获取和缓存，从而提高开发效率。它并非解决所有Redux问题，而是专注于简化常见用例，建议配合官方模板使用。
+
+* [rpldy/react-uploady](https://github.com/rpldy/react-uploady) React-Uploady是一个轻量级的React文件上传库，只需几行代码即可构建客户端文件上传功能。它提供浏览器文件上传的基础功能，并支持高度自定义，包含组件、钩子和多种特性，可根据需要选择安装依赖。该库体积小巧，依赖极少，并提供分块上传支持，且拥有完善的文档和视频教程。
+
+* [reduxjs/reselect](https://github.com/reduxjs/reselect) Reselect是一个用于创建记忆化选择器函数的库，常与Redux一起使用，但也可用于任何普通的不可变JS数据。它能高效地计算派生数据，仅在参数改变时才重新计算，并支持选择器组合，从而使Redux能存储最小可能的状态，提高应用性能。Reselect已包含在Redux Toolkit中，也可单独安装使用。
+
 * [anvaka/VivaGraphJS](https://github.com/anvaka/VivaGraphJS) VivaGraphJS是一个可扩展的 JavaScript 图形绘制库，支持多种渲染引擎和布局算法。它基于 ngraph 库，提供丰富的功能，例如在 Amazon、Vkontakte 等项目中用于可视化产品关系、稀疏矩阵和社交网络。用户可以轻松定制节点和链接的外观，并选择不同的布局算法和渲染引擎，例如 WebGL 渲染。
+
+* [yocontra/react-responsive](https://github.com/yocontra/react-responsive) react-responsive是一个易于使用的React媒体查询模块，用于响应式设计。它支持多种方式检测设备类型及屏幕尺寸，例如通过Hooks（`useMediaQuery`）或组件（`MediaQuery`）,  并提供简洁的API，支持自定义媒体查询，兼容IE6及以上浏览器，也支持在服务器端渲染(SSR)环境下强制指定设备参数。
+
+* [i18next/i18next](https://github.com/i18next/i18next) i18next是一个流行的国际化框架，适用于浏览器或任何其他JavaScript环境（例如Node.js、Deno），它提供灵活的后台连接、缓存、语言检测、复数形式处理、上下文处理、嵌套和变量替换等功能，并支持多种框架，具有可扩展性，旨在构建强大的生态系统，让多语言翻译变得简单易行。
 
 * [ljianshu/Blog](https://github.com/ljianshu/Blog) 该项目是一个优质的前端博客，由公众号[前端工匠]的作者打造，专注于基础知识讲解。项目包含了前端、TS、构建工具等方面的知识，并提供详细的解析和示例。项目还包含了大量实战案例，可以帮助读者快速掌握前端开发技巧。项目作者鼓励读者积极参与讨论，共同学习进步。
 
 * [storybookjs/storybook](https://github.com/storybookjs/storybook) 前端用于单独构建UI组件和页面。专为 UI 开发、测试和文档编制而设计。组件驱动开发环境。它通过隔离组件使开发更快更容易，它可以一次只处理一个组件。在 web 应用程序中构建小的原子组件和复杂的页面，使用 Storybook 可以让你专注于组件开发，无需去关注 API 文档的编写。
 
+* [iamhosseindhv/notistack](https://github.com/iamhosseindhv/notistack) Notistack是一个高度可定制的通知Snackbar（吐司）库，支持堆叠显示。它易于使用，提供流畅的过渡动画，并可通过`SnackbarProvider`组件和`enqueueSnackbar`函数或`useSnackbar`钩子轻松显示通知，且支持多种版本以兼容不同版本的Material-UI。  项目提供在线演示和文档，方便开发者快速上手。
+
 * [hotoo/pinyin](https://github.com/hotoo/pinyin) pinyin是一个 Node.js 和 Web 浏览器环境下使用的汉字拼音转换工具，它提供准确的拼音转换结果，支持多种音调标记方式，并提供丰富的配置选项。pinyin 的核心功能是将汉字转换为拼音，支持多音字识别、音调标记、分词等功能，可用于汉字拼音转换、语音合成、文本检索等场景。
+
+* [alibaba/ChatUI](https://github.com/alibaba/ChatUI) ChatUI是一个基于React的对话UI设计语言和库，它基于阿里巴巴Alime Chatbot的最佳实践，采用TypeScript编写，具有响应式设计、无障碍支持和强大的主题定制功能，并支持多种语言和主流浏览器（包括IE11，需使用polyfill）。  项目提供npm包方便安装使用，并包含丰富的组件如Bubble等。
+
+* [Shopify/polaris](https://github.com/Shopify/polaris) ShopifyPolaris是一个设计系统，包含React组件、设计token、VS Code扩展和文档网站等，用于构建Shopify商家管理后台的优秀用户体验。它是一个大型单体仓库（monorepo），使用Turborepo管理多个npm包，开发者可通过npm安装并使用其组件。Polaris旨在促进协作，并持续演进以提升商家体验。
 
 * [alibaba/ice](https://github.com/alibaba/ice) 基于 React 的渐进式应用框架，零配置：开箱即用，支持 ES6+、TypeScript、Less、Sass、CSS 模块等，实践：文件系统路由、状态管理、请求等实践，混合：默认在构建时 （SSG） 或请求时 （SSR） 预渲染页面，插件系统：插件系统提供了丰富的功能，多端：同时支持 web、小程序和 Weex
 
 * [maxence-charriere/go-app](https://github.com/maxence-charriere/go-app) 一个使用 Go 编程语言和 WebAssembly 构建渐进式 Web 应用程序的包。塑造 UI 是通过使用声明性语法完成的，该语法仅使用 Go 编程语言创建和组合 HTML 元素。它使用 Go HTTP 标准模型。使用 go-app 创建的应用程序可以开箱即用地在自己的窗口中运行，支持离线模式，并且对 SEO 友好。
 
+* [hypeserver/react-date-range](https://github.com/hypeserver/react-date-range) react-date-range是一个React组件，用于选择日期和日期范围，它使用date-fns进行日期操作，支持无状态日期操作、高度可配置、多范围选择、拖放选择和键盘操作，并提供`DatePicker`和`DateRangePicker`组件，目前项目未维护，但仍可稳定使用。  安装需使用npm并安装依赖react和date-fns。
+
+* [react-monaco-editor/react-monaco-editor](https://github.com/react-monaco-editor/react-monaco-editor) react-monaco-editor是一个React组件，它封装了微软的Monaco Editor，方便在React项目中使用强大的代码编辑器功能。它通过简单的属性配置即可实现代码高亮、自动补全等特性，并提供回调函数处理代码变化。  使用时需安装组件并配置Webpack以支持Monaco Editor，注意处理CSS模块冲突。
+
 * [aurelia/framework](https://github.com/aurelia/framework) Aurelia 1 框架入口点，汇集了 Aurelia 的所有必需子模块。现代的前端 JavaScript 框架，用于构建浏览器、移动和桌面应用程序。它侧重于与 Web 平台规范紧密保持一致，使用约定而不是配置，并最大限度地减少框架入侵。基本上，我们希望你只写你的代码，而框架不会妨碍你。
 
 * [didi/LogicFlow](https://github.com/didi/LogicFlow) LogicFlow是一个专注于业务自定义的流程图编辑框架，支持实现脑图、ER图、UML、工作流等各种图编辑场景。它提供了一系列可视化编辑功能，用户可以轻松定制流程图的样式和行为，并实现各种业务逻辑。LogicFlow 还提供丰富的扩展能力，可以方便地集成到各种应用场景中。
 
+* [system-ui/theme-ui](https://github.com/system-ui/theme-ui) ThemeUI是一个基于约束式设计原则的React主题库，用于构建一致且可主题化的React应用。它提供灵活的API，方便开发者创建自定义组件库、设计系统、网页应用和Gatsby主题等，并兼容几乎所有UI组件库，支持深色模式和响应式设计，内置主题规范，使用Emotion实现作用域样式。
+
+* [adazzle/react-data-grid](https://github.com/adazzle/react-data-grid) react-data-grid是一个功能丰富且可定制的React数据表格组件，支持React 18.0+、虚拟化以提升性能、树状抖动和TypeScript类型检查，并具有丰富的特性，例如冻结列、列大小调整、多列排序、行选择、行分组、单元格编辑和自定义渲染器等，方便开发者构建高效易用的数据表格。
+
 * [sparrowcode/PermissionsKit](https://github.com/sparrowcode/PermissionsKit) PermissionsKit是一个 iOS 权限管理库，提供统一的 API 用于请求各种权限并获取其状态，支持授权、拒绝和未确定三种状态。它支持蓝牙、日历、相机、通讯录、FaceID、健康、位置、麦克风、运动、音乐、通知、照片、提醒、语音、Siri 等权限，并提供详细的文档和示例代码。
+
+* [mosch/react-avatar-editor](https://github.com/mosch/react-avatar-editor) react-avatar-editor是一个用于裁剪头像和个人资料图片的React组件，提供直观的界面进行图像缩放、裁剪和旋转操作，支持自定义输入控件，可生成圆形或方形图像，并使用TypeScript编写，具有完整的类型定义。  该组件易于使用，只需通过npm或yarn安装即可，并提供在线演示。
+
+* [fullcalendar/fullcalendar-react](https://github.com/fullcalendar/fullcalendar-react) 这是FullCalendar的官方React组件，它允许你在React应用中轻松集成FullCalendar日历功能。通过npm安装组件及其插件（如dayGrid），然后使用`FullCalendar`组件并传入配置选项（例如事件、视图等）即可渲染日历。该组件基于FullCalendar核心库，并提供了丰富的文档和示例项目供参考。
+
+* [react-syntax-highlighter/react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter) ReactSyntax Highlighter是一个React组件，使用lowlight和refractor库进行语法高亮显示，它通过构建虚拟DOM来高效更新代码块，避免了直接操作DOM带来的性能问题，并支持使用内联样式或className两种方式自定义样式，提供了多种编程语言和样式主题选择，避免了外部样式表的依赖。
 
 * [chanind/hanzi-writer](https://github.com/chanind/hanzi-writer) Hanzi Writer是一个免费开源的JavaScript库，用于制作汉字笔画顺序动画和笔画顺序练习测验，支持简体和繁体字。该项目使用来自Make me a Hanzi项目的汉字SVG和笔画顺序数据，并进行了部分调整。用户可以通过项目网站获取更多信息和使用说明，并可通过GitHub仓库参与贡献。
 
+* [ctrlplusb/easy-peasy](https://github.com/ctrlplusb/easy-peasy) EasyPeasy是一个针对React的Redux抽象库，提供简化的API，注重开发者体验。它使状态管理快速简便，同时利用Redux的架构优势和生态系统，支持零配置、React Hooks API、TypeScript、数据获取封装、计算属性等特性，并兼容Redux DevTools和React Native，通过npm install easy-peasy即可安装。
+
+* [wojtekmaj/react-calendar](https://github.com/wojtekmaj/react-calendar) react-calendar是一个用于React应用的强大日历组件，支持选择日期、月份、年份甚至年代，并支持范围选择和多种语言，无需moment.js。通过npm或yarn安装，只需简单几行代码即可集成，并提供onChange属性获取选择值，同时提供在线演示和丰富的示例，方便自定义样式和功能。
+
 * [rehooks/awesome-react-hooks](https://github.com/rehooks/awesome-react-hooks) 很棒的 React Hooks 资源。Hook 是 React 团队在 React 16.8 版本中提出的新特性，在遵循函数式组件的前提下，为已知的 React 概念提供了更直接的 API：props，state，context，refs 以及声明周期，目的在于解决常年以来在 class 组件中存在的各种问题，实现更高效的编写 react 组件。
 
+* [ariakit/ariakit](https://github.com/ariakit/ariakit) Ariakit是一个基于React的工具包，用于构建无障碍的Web应用程序。它提供可访问的组件，简化了开发过程，并确保应用符合无障碍性标准。通过简单的API和易于使用的组件，Ariakit帮助开发者快速构建高质量的React应用。  安装方法：npm i@ariakit/react 或 yarn add @ariakit/react。
+
+* [streamich/react-use](https://github.com/streamich/react-use) react-use是一个React Hooks集合库，提供了许多常用的Hooks，例如用于追踪设备电池状态、地理位置、鼠标悬停、键盘按键、媒体查询等传感器相关的Hooks，以及其他实用工具。它基于libreact项目，并提供丰富的示例和文档，方便开发者快速上手和使用，通过npm安装即可。
+
+* [react-grid-layout/react-draggable](https://github.com/react-grid-layout/react-draggable) React-Draggable是一个简单的React组件，用于使元素可拖动，它通过CSS Transform移动元素，兼容多种定位方式，并提供受控和非受控两种模式。  安装方便，支持npm安装，并提供UMD版本。  组件DraggableCore直接包裹目标元素，无需额外DOM节点，DraggableCore提供更底层的控制。
+
+* [securingsincity/react-ace](https://github.com/securingsincity/react-ace) react-ace是一个基于React的Ace代码编辑器组件，提供多种视图模式（包括分割视图和差异视图），支持多种编程语言和主题，并提供详细文档和示例。它使用ace-builds构建，安装方便，可通过npm或yarn安装。该项目已停止支持Brace，并提供了从版本7迁移到版本8的指南。
+
+* [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) FluidFramework是一个使用JavaScript或TypeScript构建分布式、实时协作Web应用程序的库，其核心代码包含客户端包和参考排序服务。它包含多个pnpm工作区，分别管理不同功能的包，并提供文档和示例代码，方便开发者学习和使用，相关资源可在其官网和GitHub仓库中找到。
+
 * [shadowwalker/next-pwa](https://github.com/shadowwalker/next-pwa) 这是一个针对 Next.js 的零配置 PWA 插件，它使用 workbox等工具，提供优化后的预缓存和运行时缓存，帮助开发者轻松构建 PWA 应用，并最大程度地提高 Lighthouse 评分。该插件支持离线功能、自定义 worker、国际化等特性，并兼容 Next.js9.1+ 版本，无需自定义服务器。
+
+* [reactjs/react-modal](https://github.com/reactjs/react-modal) react-modal是React.js的一个无障碍模态对话框组件，提供易于使用的API和丰富的自定义选项。它通过设置`appElement`确保无障碍性，并支持自定义样式、动画和事件回调。开发者可以使用npm或yarn安装，并参考文档中的示例快速上手，创建具有良好访问性的模态窗口。
+
+* [wa0x6e/cal-heatmap](https://github.com/wa0x6e/cal-heatmap) Cal-Heatmap是一个JavaScript图表库，用于创建时间序列日历热力图，类似于GitHub贡献日历，但功能更强大，支持动画日期导航、时间间隔自定义、布局/UI完全控制、本地化和时区支持、插件系统、广泛的浏览器支持以及更多特性，可用于直观地展现时间序列数据。
+
+* [ReactTooltip/react-tooltip](https://github.com/ReactTooltip/react-tooltip) react-tooltip是一个React组件库，用于创建工具提示。它易于安装和使用，只需导入CSS文件（v5.13.0之前的版本）并使用`Tooltip`组件即可创建带有`data-tooltip-id`和`data-tooltip-content`属性的工具提示。该项目开源，并提供详细文档和故障排除指南，且支持npm和yarn安装。
 
 * [GoogleChrome/web-vitals](https://github.com/GoogleChrome/web-vitals) 健康网站的基本指标。“网页指标”是 Google 推出的一项计划，旨在针对对提供出色 Web 体验至关重要的质量信号提供统一指南。构成核心网页指标的指标会随着时间的推移而不断改进。2020 年的现状侧重于用户体验的三个方面（加载、互动和视觉稳定性）。
 
 * [didi/chameleon](https://github.com/didi/chameleon) Chameleon(CML) 是一款跨平台开发框架，使用一套代码即可运行在多个平台，实现“所见即所得”的效果。CML 基于Web 标准，并提供丰富的组件库和 API，简化跨平台开发流程。CML 采用混合渲染技术，在不同平台上使用最优的渲染方式，保证应用的性能和体验。
 
+* [grid-js/gridjs](https://github.com/grid-js/gridjs) Grid.js是一个轻量级、易于使用的表格库，支持所有主流浏览器和IE11+，无需依赖特定框架，可与React、Angular、Preact或原生JavaScript等一起使用，其核心是用TypeScript编写，通过简洁的API即可创建功能强大的表格，详尽的文档和示例可在官网gridjs.io/docs找到。
+
+* [mljar/mercury](https://github.com/mljar/mercury) mljar/mercury项目是一个将Jupyter Notebook转换为Web应用程序的工具，无需前端经验即可通过Python代码添加交互式小部件，实现Notebook的代码隐藏/显示、PDF/HTML导出、多Notebook共享及嵌入网站等功能，并支持创建Web应用、演示文稿、网站、数据仪表板和报告等。
+
+* [JetBrains/ring-ui](https://github.com/JetBrains/ring-ui) RingUI是JetBrains出品的一套Web UI组件库，提供构建JetBrains内部产品和第三方插件所需的UI组件。它提供两种安装方式：预构建版本方便快速上手，源码版本则适用于复杂项目并需要集成到Webpack构建流程中。组件使用ES模块导入，并包含丰富的示例和文档。
+
 * [wasm3/wasm3](https://github.com/wasm3/wasm3) Wasm3是一个快速且通用的 WebAssembly 解释器和运行时，基于CoreMark 1.0 和独立基准测试，性能表现出色。项目目前处于维护阶段，但仍会积极审查和合并 Pull Requests。Wasm3 可作为库用于多种编程语言，包括 Python、Rust、C/C++、D、GoLang、Zig、Perl、Swift 和 .Net。
 
 * [XMuli/QtExamples](https://github.com/XMuli/QtExamples) 该项目是一个 Qt 相关知识的系列教程，涵盖了 Qt GUI 控件使用、网络编程、架构原理、运行机制理解等内容，并解析了DTK 重绘控件方式的框架，还包括 Visual Studio 和 Qt Creator 的 IDE 技巧。项目以文章形式呈现，旨在帮助学习者深入理解 Qt 的相关知识。
 
+* [mui/mui-x](https://github.com/mui/mui-x) MUI X是一个高级React UI组件库，提供数据表格、日期时间选择器、图表和树状视图等组件，用于构建复杂的数据密集型应用。它基于Material UI，但组件独立且高度可定制。MUI X采用开放核心模式，部分组件使用MIT许可证免费提供，高级功能需商业许可。
+
+* [facebookexperimental/Recoil](https://github.com/facebookexperimental/Recoil) Recoil是Facebook推出的一个实验性React状态管理库，它弥补了React自身在状态管理方面的不足，并兼容React最新特性；通过原子(atom)和选择器(selector)等概念实现高效的状态管理，提供比React原生方式更强大的功能；项目已开源，并提供完善的文档和教程。
+
+* [segmentio/evergreen](https://github.com/segmentio/evergreen) Segment公司出品的Evergreen是一个开箱即用的React UI框架，其组件灵活可组合，并具备企业级UI设计语言。它基于CSS-in-JS和ui-box组件，支持强大的主题定制和服务器端渲染(SSR)，并提供完善的文档和社区支持，旨在构建易于使用且适应未来需求的Web应用。
+
 * [galkahana/HummusJS](https://github.com/galkahana/HummusJS) HummusJS是一个基于 Node.js 的高性能 PDF 文件和流处理模块，可用于创建、修改和解析 PDF 文件。它提供丰富的功能，包括文档创建、页面操作、内容提取、对象操作等。HummusJS 已经停止维护，但用户可以迁移到 MuhammaraJS，它是一个HummusJS 的替代方案。
+
+* [immerjs/immer](https://github.com/immerjs/immer) Immer是一个用于创建不可变状态的JavaScript库，它允许你通过修改现有状态树来生成新的不可变状态树，简化了状态管理，其工作原理是利用代理（Proxy）技术，在修改过程中追踪变化，并高效地生成新的不可变状态，曾获得React和JavaScript开源大奖。
 
 * [helloqingfeng/Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource) 这是一个GitHub仓库，收集了大量前端资源，包括学习资料、开发工具、面试技巧等，旨在帮助开发者提升前端技能。仓库内容涵盖了JavaScript、前端框架、工具库、面试准备等方面，并提供了一些学习路线建议，非常适合前端学习者和开发者参考。
 
 * [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。（使用 NextJS 和 Notion API 构建的静态博客，支持多种部署选项。无需服务器，建立网站零门槛。专为 Notion 和所有创作者设计。
 
+* [grommet/grommet](https://github.com/grommet/grommet) Grommet是一个基于React的UI框架，提供易用性、模块化、响应式设计和主题定制等特性，打包简洁。它注重核心用户体验，通过npm或Yarn安装，并提供详细文档、示例和社区支持。开发者可以使用Storybook浏览组件示例，并可通过提供的模板快速上手。
+
 * [nordicgiant2/awesome-landing-page](https://github.com/nordicgiant2/awesome-landing-page) 该项目是一个收集了大量精美实用的落地页模板的仓库，这些模板使用各种前端技术构建，涵盖了 React、Vue、Angular 等框架，并提供了来自不同开源项目的链接，方便开发者参考和使用。开发者可以 fork 该项目并提交 PR 来分享自己的落地页模板。
+
+* [Ionaru/easy-markdown-editor](https://github.com/Ionaru/easy-markdown-editor) EasyMDE是一个简单易用、美观且可嵌入的JavaScript Markdown编辑器，适用于初学者和专家。它具有内置自动保存和拼写检查功能，支持自定义主题、工具栏按钮和JavaScript钩子，并实时渲染Markdown语法，方便用户查看编辑效果，可通过npm或CDN安装使用。
+
+* [reactchartjs/react-chartjs-2](https://github.com/reactchartjs/react-chartjs-2) react-chartjs-2是一个React组件库，它基于流行的图表库Chart.js，支持Chart.js v3和v4版本。通过简单的组件导入和使用，例如`u003cDoughnut data={...} /u003e`，即可在React项目中轻松创建各种图表。该库提供了丰富的文档和示例，方便开发者快速上手和集成。
+
+* [akiran/react-slick](https://github.com/akiran/react-slick) react-slick是一个基于React的轮播组件，它是slick carousel的React版本。它提供丰富的配置选项，例如dots、infinite、speed等，方便开发者创建各种类型的轮播效果。通过npm或yarn安装，并引入slick-carousel的CSS文件即可使用，文档和示例代码详见项目官网。
 
 * [haizlin/fe-interview](https://github.com/haizlin/fe-interview) 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML / CSS/ JavaScript/ Vue/ React/ Nodejs/ TypeScript/ ECMAScritpt/Webpack/Jquery/小程序/软技能
 
 * [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) 定制 Selenium Chromedriver |零配置 |通过所有机器人缓解系统（如 Distil / Imperva/ Datadadome / CloudFlare IUAM），优化的 Selenium Chromedriver 补丁，不会触发 Distill Network / Imperva / DataDome / Botprotect.io 等反机器人服务 自动下载驱动程序二进制文件并进行修补。
 
+* [mbrn/material-table](https://github.com/mbrn/material-table) material-table是一个基于Material-UI的强大React数据表格组件，具有丰富的额外功能，例如数据编辑、导出、过滤、分组、本地化、远程数据支持等。它提供自定义渲染、组件覆盖等特性，方便开发者定制。项目文档和示例可在material-table.com查看。
+
+* [cssinjs/jss](https://github.com/cssinjs/jss) JSS是一个已不再维护的项目，它是一个使用JavaScript生成样式表的库，其工作原理是利用JavaScript作为宿主语言来编写CSS。该项目已被作者放弃维护，推荐使用新的开源工具Webstudio，它可以可视化构建和生成优化的CSS和React组件以及Remix应用。
+
 * [miguelgrinberg/microblog](https://github.com/miguelgrinberg/microblog) 这是一个基于Flask框架的微博客应用程序，是作者Flask Mega-Tutorial系列教程中的示例项目，对应2024年版教程。该项目提供详细的教程指导，帮助用户学习Flask框架的使用，并包含2018年和2021年版本的代码链接，以及2012年原始版本的代码链接。
 
+* [suren-atoyan/monaco-react](https://github.com/suren-atoyan/monaco-react) 这是一个用于React的Monaco编辑器组件库，无需Webpack等打包工具配置即可在任何React应用中使用Monaco编辑器。它提供简洁的API与Monaco交互，支持多种模式的编辑器，并已集成@monaco-editor/loader，可用于create-react-app、Next.js等项目，TypeScript编写。
+
+* [primer/react](https://github.com/primer/react) PrimerReact是GitHub Primer设计系统的一个React实现，提供详细文档（primer.style/react），包含各种组件、主题和设计原则。通过npm或yarn安装(@primer/react)，并可使用提供的模板快速上手。项目积极维护，欢迎贡献代码，并鼓励提出新的组件建议。
+
 * [choojs/choo](https://github.com/choojs/choo) Choo是一个轻量级的 4kb 前端框架，使用函数式编程方式，基于事件驱动，提供简洁的 API，仅需 6 个方法即可上手。它支持同构渲染，可在 Node 和浏览器中无缝运行。Choo 还支持服务器渲染，并提供组件化开发模式，方便构建复杂的应用。
+
+* [radix-ui/primitives](https://github.com/radix-ui/primitives) Radix Primitives是一个开源的UI组件库，用于构建高质量、可访问的Web应用和设计系统，由WorkOS维护。它是一个低级别组件库，注重可访问性、可定制性和开发者体验，可作为设计系统的基础层或增量采用，文档详见radix-ui.com/docs/primitives。
+
+* [TahaSh/swapy](https://github.com/TahaSh/swapy) Swapy是一个与框架无关的工具，只需几行代码即可将任何布局转换为拖放交换布局。它是一个简单的 JavaScript 工具，可以将您现有的任何布局转换为拖放交换布局。您可以在 [https://swapy.tahazsh.com/](https://swapy.tahazsh.com/)找到 Swapy 的文档。
 
 * [rjsf-team/react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) react-jsonschema-form 是一个基于 React 的组件库，使用 JSON Schema 来声明式地构建和定制 Web 表单。它支持多种主题，包括 Ant Design、Bootstrap3/4、Chakra UI、Fluent UI、Material UI 和 Semantic UI。项目提供完善的文档和在线演示，并欢迎贡献者参与。
 
@@ -6788,15 +7054,29 @@
 
 * [solidjs/solid](https://github.com/solidjs/solid) 用于创建用户界面的声明性 JavaScript 库。它不使用虚拟 DOM，而是将其模板编译为真实的 DOM 节点，并使用细粒度反应更新它们。声明你的状态并在整个应用中使用它，当一段状态发生更改时，只有依赖于它的代码才会重新运行。
 
+* [jquense/react-widgets](https://github.com/jquense/react-widgets) react-widgets是一个基于React构建的、功能丰富且易访问的表单输入组件库，提供多种经过优化的、可扩展的输入组件，方便快速上手；它使用monorepo结构管理多个npm包，安装方式为`npm install react-widgets`，并提供详细文档和演示。
+
+* [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) Carbon是由IBM构建的开源设计系统，基于IBM设计语言，包含可运行代码、设计工具、资源、人机界面指南和活跃的社区；它提供React组件、Web组件和Sass样式等，并支持Angular、Svelte和Vue等框架，方便开发者构建一致的用户界面。
+
+* [timolins/react-hot-toast](https://github.com/timolins/react-hot-toast) react-hot-toast是一个轻量级(小于5kb)、可定制的React通知库，提供默认美观的热通知效果。它支持Promise API自动加载器、无头钩子(useToaster)自定义通知和良好的无障碍性，通过npm或yarn安装即可轻松使用，并提供详细文档和示例。
+
+* [react-cosmos/react-cosmos](https://github.com/react-cosmos/react-cosmos) ReactCosmos是一个用于独立开发和测试React UI组件的沙盒环境，它允许开发者隔离组件进行开发和测试，提高效率。通过其提供的文档和社区支持，开发者可以轻松上手并集成到现有项目中，官方网站提供在线演示和完整文档。
+
+* [xiaolin/react-image-gallery](https://github.com/xiaolin/react-image-gallery) ReactImage Gallery是一个React组件，用于创建带缩略图支持的图片库和轮播图，支持移动端滑动、全屏显示和自定义渲染，提供大量自定义选项，例如图片加载方式、样式和布局等，只需简单几行代码即可集成到你的React项目中。
+
 * [ReactiveX/rxjs](https://github.com/ReactiveX/rxjs) JavaScript 的响应式编程库,对 Reactive-Extensions/RxJS 的重写，是 RxJS 的最新生产就绪版本。此重写旨在具有更好的性能、更好的模块化、更好的可调试调用堆栈，同时保持大部分向后兼容，并进行了一些减少 API 表面的重大更改。
 
 * [hectorqin/reader](https://github.com/hectorqin/reader) reader是一个阅读3服务器版项目，支持桌面端和 iOS 设备。后端使用 Kotlin + Spring Boot + Vert.x + Coroutine，前端使用 Vue.js + Element。该项目提供在线体验，并支持 Telegram 群组交流。由于 Demo 服务器未备案已被关停，建议自行搭建。
 
 * [react-dnd/react-dnd](https://github.com/react-dnd/react-dnd) React 实用程序，可帮助您构建复杂的拖放界面，同时保持组件解耦。它非常适合 Trello 和 Storify 等应用程序，在这些应用程序中，拖动在应用程序的不同部分之间传输数据，组件会根据拖放事件更改其外观和应用程序状态。
 
+* [framer/motion](https://github.com/framer/motion) Motion是一个开源的动画库，支持React和JavaScript，它拥有独特的混合引擎，结合了JavaScript动画的强大功能和原生浏览器API的高性能，提供简洁易用的API，方便开发者在React和JavaScript项目中快速创建动画效果，并支持MIT许可。
+
 * [webview/webview](https://github.com/webview/webview) 用于 C/C++ 的微型跨平台 webview 库。使用 WebKit （GTK/Cocoa） 和 Edge WebView2 （Windows） 。目标是为最广泛使用的平台创建一个通用的 HTML5 UI 抽象层。它支持双向 JavaScript 绑定（从 C/C++ 调用 JavaScript 和从 JavaScript 调用 C/C++）。
 
 * [vasanthv/talk](https://github.com/vasanthv/talk) 网络群组视频通话。没有注册。没有下载。使用 WebRTC 构建的，因此您的所有视频、音频和文本聊天都是点对点的。使用 WebRTC mesh实现的。因此，通话质量与通话人数成反比。甜蜜的数字是平均高速连接中大约 6 到 8 人。
+
+* [FortAwesome/react-fontawesome](https://github.com/FortAwesome/react-fontawesome) 这是一个使用SVG和JS的Font Awesome React组件，支持React 16.3.0及以上版本(使用0.2.x或更高版本)，低于此版本需使用0.1.x版本。它提供官方文档，并由众多贡献者维护。该组件利用forwardRef特性，方便在React中使用Font Awesome图标。
 
 * [rails/rails](https://github.com/rails/rails) Web 应用程序框架，它包含了根据模型-视图-控制器 （MVC） 模式创建数据库支持的 Web 应用程序所需的一切。理解 MVC 模式是理解 Rails 的关键。MVC 将应用程序分为三层：模型层、视图层和控制器层，每层都有特定的职责。
 
@@ -6816,6 +7096,8 @@
 
 * [scastiel/github-stars-video](https://github.com/scastiel/github-stars-video) GitHub Stars Video项目可以生成展示你 GitHub 仓库星标数的动画视频，使用Remotion 库进行视频制作，并借助 Remotion Lambda 在 AWS 上进行生成，同时利用 Next.js、TailwindCSS 和 shadcn/UI 等技术构建网页应用，并部署在 Vercel 上。
 
+* [floating-ui/react-popper](https://github.com/floating-ui/react-popper) react-popper是基于Popper库的React定位库，它是一个React组件，用于轻松实现工具提示、下拉菜单等元素的精准定位。该库目前处于维护模式，建议使用基于Floating UI的替代方案。安装需同时安装react-popper和@popperjs/core。
+
 * [zmh-program/fystart](https://github.com/zmh-program/fystart) Fystart 是一个 AI 赋能的美观轻量起始页，支持云端同步和 PWA 离线访问。它提供了一言、工具箱、卡片、搜索联想、翻译等组件，并基于 Chat Nio 提供 AI 搜索建议。Fystart 已经停止开发，新起始页请访问 bingtang.com。
 
 * [dcloudio/uni-app](https://github.com/dcloudio/uni-app) 使用 Vue.js开发小程序、H5、App的统一前端框架。使用 Vue 语法编写代码，uni-app 框架将其编译到 小程序（微信/支付宝/百度/字节跳动/QQ/快手/钉钉/小红书）、App（iOS/Android）、H5等平台，保证正确并达到优秀体验。
@@ -6824,15 +7106,23 @@
 
 * [withastro/starlight](https://github.com/withastro/starlight) Starlight是一个基于 Astro 的文档网站框架，用于构建美观、易访问且高性能的文档网站。Starlight 的文档网站也是用 Starlight 自身构建的，并提供 Discord 频道和 GitHub 问题追踪等支持渠道，欢迎贡献者参与项目。
 
+* [stitchesjs/stitches](https://github.com/stitchesjs/stitches) Stitches是一个CSS-in-JS库，具有近乎零运行时开销、服务器端渲染(SSR)和多变体支持，并提供一流的开发者体验，但目前已不再积极维护。它包含框架无关的核心库和React包装器，提供`styled` API，详见stitches.dev。
+
 * [infinitered/reactotron](https://github.com/infinitered/reactotron) React 和 React Native 应用程序的强大调试器。它为开发人员提供了一个易于使用的界面，用于监控其应用程序的状态、网络请求和性能指标，可用于任何规模的项目，从小型个人应用程序到大型企业应用程序。
 
 * [milligram/milligram](https://github.com/milligram/milligram) 极简的CSS框架。Milligram 提供最少的样式设置，以实现快速、干净的起点。就是这样！只有 2kb gzipped！这与 UI 框架无关。专为更好的性能和更高的生产率而设计，需要重置的属性更少，从而使代码更清晰。
 
 * [niklasvh/html2canvas](https://github.com/niklasvh/html2canvas) 该脚本允许您直接在用户浏览器上截取网页或其部分的“屏幕截图”。屏幕截图基于 DOM，因此可能不是 100% 准确到真实表示，因为它不会制作实际的屏幕截图，而是根据页面上可用的信息构建屏幕截图。
 
+* [bvaughn/react-window](https://github.com/bvaughn/react-window) react-window是一个React组件库，用于高效渲染大型列表和表格数据。它通过只渲染视口内可见的部分数据来提高性能，减少渲染工作量、缩短渲染时间并降低内存占用，从而解决大型数据渲染的性能瓶颈。
+
+* [alibaba/BizCharts](https://github.com/alibaba/BizCharts) BizCharts是一个基于G2和React的强大数据可视化库，具有易用、扩展性强和支持多种图表等特点，使用React ES6语法，可通过npm或umd安装，并提供丰富的示例和文档，方便开发者快速上手创建各种数据图表。
+
 * [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium?tab=readme-ov-file#downloads) Google Chromium，没有与 Google 集成。尽可能保留默认的 Chromium 体验。Chromium 的直接替代品。Ungoogled-Chromium 功能进行了调整，以增强隐私、控制和透明度。但是，几乎所有这些功能都必须手动激活或启用。
 
 * [abpframework/abp](https://github.com/abpframework/abp) 适用于 ASP.NET Core 的开源 Web 应用程序框架。在 .NET 和 ASP.NET Core 平台之上构建具有最佳实践的企业软件解决方案。提供基础基础架构、生产就绪启动模板、应用程序模块、UI 主题、工具、指南和文档。
+
+* [gregberge/loadable-components](https://github.com/gregberge/loadable-components) Loadable Components是React的代码分割库，它简化了代码分割过程，减小bundle体积。通过`import`语句动态加载组件，提升页面加载速度。项目提供详细文档和示例，支持服务器端渲染，并与React.lazy进行对比。
 
 * [vuejs/vuex](https://github.com/vuejs/vuex) Vue.js 的集中式状态管理。Vue 的官方状态管理库已更改为 Pinia。Pinia 具有与 Vuex 5 几乎完全相同或增强的 API，如 Vuex 5 RFC 中所述。你可以简单地将 Pinia 视为具有不同名称的 Vuex 5。Pinia 也适用于 Vue 2.x。
 
@@ -6845,6 +7135,8 @@
 * [processing/p5.js](https://github.com/processing/p5.js) 用于创意编码的 JavaScript 库，专注于让艺术家、设计师、教育工作者、初学者和其他任何人都能访问和包容编码！P5.js 是免费和开源的，因为我们相信软件以及学习它的工具应该对每个人都开放。
 
 * [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) 浏览器自动化框架和生态系统。封装了各种工具和库，可实现 Web 浏览器自动化。Selenium 专门为 W3C WebDriver 规范提供了基础设施——一个与所有主要 Web 浏览器兼容的平台和语言中立的编码接口。
+
+* [primefaces/primereact](https://github.com/primefaces/primereact) PrimeReact是一个功能丰富的开源React UI组件库，提供大量预设主题（如Material、Bootstrap和PrimeOne）和无样式模式，支持按需导入组件以减小包体积，通过npm、yarn或pnpm安装，并提供详细文档和示例。
 
 * [emberjs/ember.js](https://github.com/emberjs/ember.js) JavaScript 框架，它大大减少了构建任何 Web 应用程序所需的时间、精力和资源。它专注于通过执行大多数 Web 开发项目中涉及的所有常见、重复但必不可少的任务，使您（开发人员）尽可能高效。
 
@@ -6898,6 +7190,8 @@
 
 * [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) 轻量级、高性能、可扩展的 WebAssembly 运行时，适用于云原生、边缘和去中心化应用程序。它为无服务器应用程序、嵌入式函数、微服务、智能合约和物联网设备提供支持。
 
+* [umijs/umi](https://github.com/umijs/umi) umi是React社区的一个框架，它简化了React应用的开发，具有易于上手和扩展性强的特点，其工作原理是基于插件机制，方便开发者定制和扩展功能，并拥有活跃的社区支持。
+
 * [hwix/react-native-navigation](https://github.com/wix/react-native-navigation) 在 iOS 和 Android 上为 React Native 应用程序提供 100% 的原生平台导航。JavaScript API 简单且跨平台 - 只需将其安装在您的应用程序中，即可为您的用户提供他们应得的原生感觉。
 
 * [vercel/vercel](https://github.com/vercel/vercel) Vercel的前端云为开发人员提供了框架、工作流程和基础设施，以构建更快、更个性化的网络。面向前端开发人员的平台，提供创新者在灵感瞬间创建所需的速度和可靠性。
@@ -6939,6 +7233,8 @@
 * [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas) 动态画布，TypeScript 库，它使用生成器对动画进行编程。提供上述动画实时预览的编辑器。专门的工具，旨在创建信息丰富的矢量动画并将它们与画外音同步。
 
 * [rough-stuff/rough](https://github.com/rough-stuff/rough) 小型 （&lt;9 kB） 图形库，可让您以粗略的手绘风格进行绘制。该库定义了用于绘制直线、曲线、圆弧、多边形、圆形和椭圆的基元。它还支持绘制 SVG 路径。
+
+* [ag-grid/ag-grid](https://github.com/ag-grid/ag-grid) AGGrid是一个功能齐全、高度可定制的JavaScript数据表格，用于构建企业应用程序，提供卓越的性能，无第三方依赖，并支持React、Angular、Vue和纯JavaScript。
 
 * [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) 用于 Three.js 的 React 渲染器，使用可重用的、独立的组件以声明方式构建场景，这些组件对状态做出反应，易于交互，并且可以参与 React 的生态系统。
 
@@ -7768,11 +8064,57 @@
 
 * [iv-org/invidious](https://github.com/iv-org/invidious) YouTube 的前端替代
 
+### 前端项目_其他
+
+* [pydantic/FastUI](https://github.com/pydantic/FastUI) FastUI是一种使用声明式 Python 代码构建 Web 应用界面的新方法，它将 Pydantic 模型与 TypeScript 接口相结合，在构建时通过 TypeScript和 pyright/mypy 进行验证，在运行时通过 Pydantic 进行验证。FastUI 由 `fastui` PyPI 包、`@pydantic/fastui` npm 包、`@pydantic/fastui-bootstrap` npm 包和 `@pydantic/fastui-prebuilt` npm 包组成，支持使用 Bootstrap 构建组件，并提供预构建的 React 应用，方便开发者使用。FastUI 允许 Python 开发者使用 React 构建响应式 Web 应用，而无需编写 JavaScript 代码或使用 `npm`，同时允许前端开发者专注于构建可复用的组件，实现真正的关注点分离。
+
+* [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) 该项目收集了众多流行互联网平台的开源替代前端，例如 YouTube、Twitter 等，旨在提供隐私友好、无广告、无跟踪的替代方案。项目提供详细的项目列表，包括每个项目的 GitHub 链接、官方实例地址、安装指南等信息，方便用户选择合适的替代方案。项目还鼓励用户提交新的开源项目，以丰富项目内容。
+
+* [olistic/warriorjs](https://github.com/olistic/warriorjs) 令人兴奋的编程和人工智能游戏，在 WarriorJS 中，你是一名爬上高塔到达顶层 JavaScript 剑的战士。传说持剑者在 JavaScript 语言中变得开悟，但请注意：旅程并不容易。在每一层楼，你需要编写JavaScript来指导战士与敌人作战，营救俘虏，并活着到达楼梯......
+
+* [frappe/erpnext](https://github.com/frappe/erpnext) 免费和开源的企业资源规划 （ERP），包括以下用于管理业务的领域：会计、仓库管理、客户关系管理、销售、购买、人力资源管理系统、项目管理、支持、资产管理、质量管理、制造业、网站管理、自定义 ERPNext、还有更多
+
+* [openedx/edx-platform](https://github.com/openedx/edx-platform) 一个面向服务的平台，用于创作和提供任何规模的在线学习。该平台是用Python和JavaScript编写的，并广泛使用Django框架。在最高级别，该平台由一个整体、一些可独立部署的应用程序（IDA）和基于ReactJS的微前端（MFE）组成。
+
+* [medusajs/medusa](https://github.com/medusajs/medusa) 一组商务模块和工具，可让您构建丰富、可靠且高性能的商务应用程序，而无需重新发明核心商务逻辑。这些模块可以定制并用于构建高级电子商务商店、市场或任何需要基础商务原语的产品。
+
+* [TryGhost/Ghost](https://github.com/TryGhost/Ghost) 一款功能强大的应用程序，供专业出版商围绕其内容创建、共享和发展业务。它配备了现代工具，可以构建网站，发布内容，发送时事通讯并向会员提供付费订阅。
+
+* [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) 用于构建、部署和维护内部应用程序的开源平台。您可以构建任何东西，从简单的 CRUD 应用程序、管理面板、仪表板到自定义业务应用程序和复杂的多步骤工作流。
+
+* [apache/incubator-answer](https://github.com/apache/incubator-answer) 适用于任何规模团队的问答平台软件。无论是社区论坛、帮助中心还是知识管理平台，您始终可以信赖 Apache Answer。
+
+* [discourse/discourse](https://github.com/discourse/discourse) 您社区的在线主页。我们为那些希望完全控制其网站运行方式和位置的人提供 100% 开源社区平台。
+
+* [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) 一次编写组件，到处运行。编译为 React、Vue、Qwik、Solid、Angular、Svelte 等
+
+* [brave/brave-browser](https://github.com/brave/brave-browser) 适用于 Android、Linux、macOS、Windows 的下一代 Brave (Chromium) 浏览器。
+
+* [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) 由vue-cli-electron-builder构建的简单而漂亮的图片上传工具
+
+* [GrapesJS/grapesjs](https://github.com/GrapesJS/grapesjs) 无需编码即可构建模板的下一代Web 构建器框架。
+
+* [forem/forem](https://github.com/forem/forem) 开源平台，用于构建现代、独立和安全的社区。
+
+* [nswbmw/N-blog](https://github.com/nswbmw/N-blog) 一起学 Node.js，使用 Express + MongoDB 搭建多人博客
+
+* [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) 用于软件和 Web 开发的免费 API 的集合列表。
+
+* [refinedev/refine](https://github.com/refinedev/refine) 不受限制地构建基于 React 的 CRUD 应用程序。
+
+* [zxlie/FeHelper](https://github.com/zxlie/FeHelper) Web前端助手，包括各种前端开发工具
+
+* [sockjs/sockjs-client](https://github.com/sockjs/sockjs-client) WebSocket 仿真 - Javascript 客户端
+
+* [cachethq/cachet](https://github.com/cachethq/cachet) 开源状态页面系统。
+
 ### 管理面板
 
 * [talebook/talebook](https://github.com/talebook/talebook) 一个简单的在线版个人书库。基于Calibre的简单的个人图书管理系统，支持在线阅读。主要特点是：美观的界面：由于Calibre自带的网页太丑太难用，于是基于Vue，独立编写了新的界面，支持PC访问和手机浏览；支持多用户：为了网友们更方便使用，开发了多用户功能，支持豆瓣（已废弃）、QQ、微博、Github等社交网站的登录；支持在线阅读：借助Readium.js 库，支持了网页在线阅读电子书；支持批量扫描导入书籍；支持邮件推送：可方便推送到Kindle；支持OPDS：可使用KyBooks等APP方便地读书；支持一键安装，网页版初始化配置，轻松启动网站；优化大书库时文件存放路径，可以按字母分类、或者文件名保持中文；支持快捷更新书籍信息：支持从百度百科、豆瓣搜索并导入书籍基础信息；支持私人模式：需要输入访问码，才能进入网站，便于小圈子分享网站；本项目曾用名：calibre-webserver.
 
 * [newbee-ltd/newbee-mall](https://github.com/newbee-ltd/newbee-mall) 一套电商系统，包括基础版本(Spring Boot+Thymeleaf)、前后端分离版本(Spring Boot+Vue 3+Element-Plus+Vue-Router 4+Pinia+Vant 4) 、秒杀版本、Go语言版本、微服务版本(Spring Cloud Alibaba+Nacos+Sentinel+Seata+Spring Cloud Gateway+OpenFeign+ELK)。 前台商城系统包含首页门户、商品分类、新品上线、首页轮播、商品推荐、商品搜索、商品展示、购物车、订单结算、订单流程、个人订单管理、会员中心、帮助中心等模块。 后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理、设置等模块。
+
+* [holoviz/panel](https://github.com/holoviz/panel) Panel是一个开源的Python库，允许你轻松构建强大的工具、仪表板和复杂的应用程序，完全使用Python完成。它具有内置的理念，将PyData生态系统、强大的数据表等等都触手可及。高层次的反应式API和低层次的基于回调的API确保你可以快速构建探索性应用程序，但如果你构建具有丰富交互性的复杂的多页应用程序，也不会受到限制。Panel是HoloViz生态系统的一部分，它是连接的数据探索工具生态系统的门户。
 
 * [ckan/ckan](https://github.com/ckan/ckan) CKAN是一个开源的数据管理系统，用于构建数据中心和数据门户网站，它简化了数据发布、共享和使用流程。CKAN 是catalog.data.gov、open.canada.ca/data 和 data.humdata.org 等众多网站的驱动引擎。CKAN 提供强大的平台，用于对数据集进行目录编制、存储和访问，并提供丰富的用户界面、完整的 API（用于数据和目录）、可视化工具等功能。有关更多信息，请访问 ckan.org。
 
@@ -7780,9 +8122,21 @@
 
 * [streamaserver/streama](https://github.com/streamaserver/streama) Streama是一个自托管的流媒体服务器，可以让你像使用Netflix一样管理和观看自己的电影和电视剧。它支持从本地文件系统中读取视频文件，并提供用户管理、播放器、管理员面板等功能。你可以通过GitHub Releases下载稳定版或测试版，并通过官方文档进行安装和设置。Streama还提供了一个在线演示，你可以使用demoUser账户和密码进行体验。
 
+* [flatlogic/react-dashboard](https://github.com/flatlogic/react-dashboard) 这是一个基于React、Bootstrap、Node.js和GraphQL的同构React管理面板模板，包含响应式布局、React Router、Sass样式、身份验证和CRUD示例等功能，并提供Node.js后端集成。  该项目易于上手，提供详细的快速入门指南，帮助开发者快速构建业务软件。 通过克隆项目、安装依赖、运行`yarn dev`即可启动包含GraphQL服务器和IDE的本地开发环境。
+
+* [flatlogic/react-material-admin](https://github.com/flatlogic/react-material-admin) ReactMaterial Admin是一个基于React、Material-UI和React Router构建的管理面板模板，无需jQuery和Bootstrap。它使用React Hooks和React Context（而非Redux），提供现代化的仪表盘设计，包含多种页面组件（如Dashboard、图表、表格等），并支持移动端响应式布局，可通过git clone、yarn install和yarn start快速启动。完整版包含更多组件和主题支持。
+
+* [django-import-export/django-import-export](https://github.com/django-import-export/django-import-export) django-import-export是一个Django应用和库，用于方便地导入和导出数据，支持与Django Admin集成。它支持多种文件格式（CSV、XLSX、JSON等），既可以通过程序代码操作，也可以通过Django Admin界面进行可视化操作，并提供数据预览、批量导入、外键关系处理、数据验证等功能，确保数据导入导出过程可靠且全面。
+
 * [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 &amp; Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
 
 * [dromara/domain-admin](https://github.com/dromara/domain-admin) Domain Admin是一个基于 Python + Vue3.js 开发的域名和 SSL 证书监测平台，提供域名和 SSL 证书的集中管理功能，支持自动续签，可以有效降低管理成本，避免因证书过期导致网站无法访问的问题。该项目具有易于部署、功能强大、界面友好等特点，并提供完整的文档和示例，方便用户快速上手。
+
+* [sehmaschine/django-grappelli](https://github.com/sehmaschine/django-grappelli) DjangoGrappelli是Django后台管理界面的一个基于网格的替代方案/扩展，提供更美观的用户界面。它与最新的稳定版Django版本兼容，并提供详细的文档和多个版本以支持不同Django版本，例如与Django 5.x兼容的4.0.1版本和与Django 4.2兼容的3.0.9版本。项目代码托管在GitHub上，网站提供更多信息。
+
+* [apptension/saas-boilerplate](https://github.com/apptension/saas-boilerplate) Apptension的SaaS Boilerplate是一个开源免费的SaaS项目启动套件，基于React、Django和AWS，帮助你更快地构建SaaS产品。它包含前端、后端API、管理面板和工作进程等必需功能，并提供可扩展的AWS架构和持续部署，让你专注于核心业务逻辑而非重复性编码，从而快速启动项目并进行创新。
+
+* [zulip/zulip](https://github.com/zulip/zulip) 开源的团队协作工具，具有独特的基于主题的线程，结合了电子邮件和聊天的优点，使远程工作高效且令人愉快。财富 500 强公司、领先的开源项目以及数以千计的其他组织每天都在使用 Zulip。Zulip 是唯一一款专为实时和异步对话而设计的现代团队聊天应用程序。
 
 * [creativetimofficial/material-dashboard](https://github.com/creativetimofficial/material-dashboard) 免费的 Material Bootstrap Admin，具有受 Google Material Design 启发的全新设计。我们非常高兴地通过一套易于使用且美观的组件来介绍我们对材料概念的看法。Material Dashboard 建立在流行的 Bootstrap 框架之上，它带有几个经过重新设计的第三方插件，以适应其余元素。
 
@@ -7790,13 +8144,19 @@
 
 * [lin-xin/vue-manage-system](https://github.com/lin-xin/vue-manage-system) 基于 Vue3 + pinia + Element Plus 的后台管理系统解决方案。该方案作为一套多功能的后台框架模板，适用于绝大部分的后台管理系统开发。基于 Vue3 + pinia + typescript，引用 Element Plus 组件库，方便开发。实现逻辑简单，适合外包项目，快速交付。
 
+* [aminalaee/sqladmin](https://github.com/aminalaee/sqladmin) SQLAdmin是一个灵活的SQLAlchemy模型管理界面，支持Starlette和FastAPI框架，并整合了SQLAlchemy同步/异步引擎、WTForms表单构建以及SQLModel。它使用Tabler作为UI框架，方便开发者通过简单的代码快速搭建数据库管理后台，并提供在线演示和详细文档。
+
 * [macrozheng/mall-learning](https://github.com/macrozheng/mall-learning) mall学习教程，架构、业务、技术要点全方位解析。mall项目（50k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot 2.3.0、MyBatis 3.4.6、Elasticsearch 7.6.2、RabbitMQ 3.7.15、Redis 5.0、MongoDB 4.2.5、Mysql5.7等技术，采用Docker容器化部署。
+
+* [devias-io/material-kit-react](https://github.com/devias-io/material-kit-react) 这是一个基于React、Next.js和MUI组件构建的免费React管理面板，包含登录、注册、仪表盘等页面；付费专业版提供更多页面、组件、以及Firebase、Auth0等身份验证系统和暗黑模式支持；项目使用MIT许可证开源，可通过git clone快速启动。
 
 * [NG-ZORRO/ng-zorro-antd](https://github.com/NG-ZORRO/ng-zorro-antd) NG-ZORRO 是一个基于 Ant Design 的企业级 Angular UI 组件库，提供60 多个高质量的 Angular 组件，使用 TypeScript 编写，具有可预测的静态类型，支持 OnPush 模式，性能高，可进行强大的主题定制，并支持多种语言的国际化。
 
 * [elunez/eladmin](https://github.com/elunez/eladmin) eladmin jpa 版本：基于 Spring Boot 2.6.4、 Jpa、 Spring Security、Redis、Vue的前后端分离的后台管理系统，采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，一键生成前后端代码，支持动态路由
 
 * [coreui/coreui-free-bootstrap-admin-template](https://github.com/coreui/coreui-free-bootstrap-admin-template) 基于由专业人士创建和支持的企业级手工制作的 UI 组件库构建的开源 Bootstrap 管理仪表板模板。CoreUI 管理模板可帮助您比以前更快地构建可靠的 Web 应用。CoreUI提供4个版本：Angular，Bootstrap，React.js和Vue.js。
+
+* [fastapi-admin/fastapi-admin](https://github.com/fastapi-admin/fastapi-admin) FastAPI Admin是一个基于FastAPI、TortoiseORM和Tabler UI的快速后台管理面板，其设计灵感源于Django admin。它支持Redis，并提供在线演示和详细文档，用户可通过pip安装。项目采用Apache-2.0许可证。
 
 * [flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) 基于vite+vue3+gin搭建的开发基础平台（支持TS,JS混用），集成jwt鉴权，权限管理，动态路由，显隐可控组件，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器。
 
@@ -7807,6 +8167,8 @@
 * [gnmyt/Nexterm](https://github.com/gnmyt/Nexterm) Nexterm是一款开源的服务器管理软件，支持 SSH、VNC 和 RDP 协议，允许用户通过网页界面管理服务器。用户可以通过 Nexterm 的预览功能体验其功能，该项目采用 MIT 许可证。
 
 * [lyt-Top/vue-next-admin](https://github.com/lyt-Top/vue-next-admin) 基于 vue3.x + CompositionAPI setup 语法糖 + typescript + vite + element plus + vue-router-next + pinia 技术，适配手机、平板、pc 的后台开源免费模板，实现快速开发。
+
+* [odoo/odoo](https://github.com/odoo/odoo) 基于Web的开源商业应用程序。包括开源CRM，网站构建器，电子商务，仓库管理，项目管理，计费和会计，销售点，人力资源，营销，制造，...
 
 * [jaywcjlove/icongo](https://github.com/jaywcjlove/icongo) 搜索 SVG 图标。轻松地在 React 项目中包含流行的图标，并提供一个简单的工具将 SVG 转换为 React 组件。[icongo](https://icongo.github.io/)
 
@@ -7820,11 +8182,15 @@
 
 * [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 后台前端解决方案，基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)。
 
+* [linlinjava/litemall](https://github.com/linlinjava/litemall) 又一个小商城。litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端
+
 * [Lissy93/dashy](https://github.com/Lissy93/dashy) 为您构建的自托管个人仪表板。包括状态检查，小部件，主题，图标包，UI编辑器等等！
 
 * [PanJiaChen/vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 一个最小的 vue 管理模板，带有 Element UI &amp; axios &amp; iconfont &amp; 权限控制 &amp; lint
 
 * [epicmaxco/vuestic-admin](https://github.com/epicmaxco/vuestic-admin) 免费且漂亮的 Vue.js 管理模板，具有 44+ 自定义 UI 组件。用 Vuestic UI 构建的。
+
+* [wekan/wekan](https://github.com/wekan/wekan) 开源看板，体验高效的任务管理，开源、可定制且注重隐私的看板。
 
 * [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) Vue3+Vite4+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
 
@@ -7980,10 +8346,6 @@
 
 ## 后端开发框架及项目
 
-* [kekingcn/kkFileView](https://github.com/kekingcn/kkFileView) 文档在线预览项目解决方案，使用流行的 Spring Boot 框架构建，便于设置和部署。这个多功能的开源项目为各种文档格式提供基本支持，包括：支持 Office 文档，如 doc、docx、xls、xlsx、xlsm、ppt、pptx、csv、tsv、、dotm、xlt、xltm、dot、xlam、dotx、xla、页面等。支持 wps、dps、et、ett、wpt 等国内 WPS Office 文档。支持 OpenOffice、LibreOffice 办公文档，如 odt、ods、ots、odp、otp、six、ott、fodt 和 fods。支持 vsd、vsdx 等 Visio 流程图文件。支持 wmf、emf 等 Windows 系统镜像文件。支持 psd 、eps 等 Photoshop 软件模型文件。支持 pdf、ofd 和 rtf 等文档格式。支持 xmind 等软件模型文件。支持 BPMN 工作流程文件。支持 eml 邮件文件。支持 epub 书籍文档。支持 3D 模型文件，如 obj、3ds、stl、ply、gltf、glb、off、3dm、fbx、dae、wrl、3mf、ifc、brep、step、iges、fcstd、bim 等。支持 dwg、dxf、dwfiges 、 igs、 dwt 、 dng 、 ifc 、 dwfx 、 stl 、 cf2 、 plt 等 CAD 模型文件。支持所有纯文本文件，如 txt、xml（渲染）、md（渲染）、java、php、py、js、css 等。支持 zip、rar、jar、tar、gzip、7z 等压缩包。支持 jpg、jpeg、png、gif、bmp、ico、jfif、webp 等的图像预览（翻转、缩放、镜像）。支持 tif 和 tiff 等图像信息模型文件。支持 tga 等图像格式文件。支持 svg 等矢量图像格式文件。支持 mp3、wav、mp4、flv。支持多种音频和视频格式文件，如 avi、mov、wmv、mkv、3gp 和 rm。支持 dcm、drawio .
-
-* [lihengming/spring-boot-api-project-seed](https://github.com/lihengming/spring-boot-api-project-seed) 基于Spring Boot &amp; MyBatis的种子项目，用于快速构建中小型API、RESTful API项目，该种子项目已经有过多个真实项目的实践，稳定、简单、快速，使我们摆脱那些重复劳动，专注于业务代码的编写，减少加班。下面是一个简单的使用演示，看如何基于本项目在短短几十秒钟内实现一套简单的API，并运行提供服务。特征&amp;提供：最佳实践的项目结构、配置文件、精简的POM（查看项目结构图）；统一响应结果封装及生成工具；统一异常处理；简单的接口签名认证；常用基础方法抽象封装；使用Druid Spring Boot Starter 集成Druid数据库连接池与监控；使用FastJsonHttpMessageConverter，提高JSON序列化速度；集成MyBatis、通用Mapper插件、PageHelper分页插件，实现单表业务零SQL；提供代码生成器根据表名生成对应的Model、Mapper、MapperXML、Service、ServiceImpl、Controller等基础代码，其中Controller模板默认提供POST和RESTful两套，根据需求在CodeGenerator.genController(tableName)方法中自己选择，默认使用POST模板。代码模板可根据实际项目的需求来扩展，由于每个公司业务都不太一样，所以只提供了一些比较基础、通用的模板，主要是提供一个思路来减少重复代码的编写，我在实际项目的使用中，其实根据公司业务的抽象编写了大量的模板。另外，使用模板也有助于保持团队代码风格的统一
-
 * [kestra-io/kestra](https://github.com/kestra-io/kestra) Kestra是一个开源的事件驱动型工作流编排平台，它简化了**定时**和**事件驱动**工作流的创建。它将**基础设施即代码**的最佳实践应用于数据、流程和微服务编排，使您能够直接从UI中使用几行YAML构建可靠的[工作流](https://kestra.io/docs/getting-started)。主要特点包括：**代码和UI一体化**，支持**Git版本控制**；**事件驱动和定时工作流**，通过简单的`trigger`定义实现自动化；**声明式YAML接口**，使用内置代码编辑器中的简单配置定义工作流；**丰富的插件生态系统**，内置数百个插件，可从任何数据库、云存储或API提取数据，并**以任何语言运行脚本**；**直观的UI和代码编辑器**，提供语法高亮、自动完成和实时语法验证，方便从UI中构建和可视化工作流；**可扩展性**，旨在处理数百万个工作流，并具有高可用性和容错性；**版本控制友好**，从内置代码编辑器编写工作流，并直接从Kestra推送到您首选的Git分支，实现CI/CD管道和版本控制系统的最佳实践；**结构和弹性**，使用**命名空间**、**标签**、**子工作流**、**重试**、**超时**、**错误处理**、**输入**、**输出**（在UI中生成工件）、**变量**、**条件分支**、**高级调度**、**事件触发器**、**回填**等功能，为您的工作流带来秩序和弹性。
 
 * [snowplow/snowplow](https://github.com/snowplow/snowplow) Snowplow是一个面向开发人员的下一代客户数据基础设施，用于收集行为数据。它可以收集各种事件（如页面浏览、点击、视频播放等），并将数据存储在您控制的可扩展数据仓库中，例如 Amazon Redshift、Databricks、Elasticsearch、Google BigQuery 和 Snowflake，或者通过流式传输到 Amazon Kinesis、Google PubSub 和 Kafka 等平台。Snowplow 还提供多种工具来建模和分析行为数据，例如 dbt、Looker、Metabase、Mode、Streamlit、Superset 和 Redash 等。Snowplow 的“玻璃盒”技术架构能够每天处理数十亿个事件，并提供超过 20 个 SDK 来收集来自 Web、移动、服务器端和其他来源的数据。Snowplow 还采用基于模式和验证的独特方法，确保数据尽可能干净，并提供超过 15 种数据增强功能，帮助您充分利用数据。Snowplow 可以轻松地集成到现代数据栈中，并被 Burberry、Strava 和 Auto Trader 等数千家组织使用，以收集、管理和运营实时事件数据，从而获得更深入的客户旅程洞察，预测客户行为，提供差异化的客户体验以及检测欺诈活动。
@@ -8000,7 +8362,9 @@
 
 * [falconry/falcon](https://github.com/falconry/falcon) Falcon是一个轻量级的 ASGI/WSGI 框架，专为 Python 开发人员构建可靠、正确且可扩展的 REST API 和微服务而设计。它采用简洁的设计，拥抱 HTTP 和 REST 架构风格，避免了其他框架的繁重依赖和不必要的抽象。Falcon 应用可以与任何 WSGI或 ASGI 服务器配合使用，并在 CPython 3.8+ 和 PyPy 3.8+ 上运行良好。Falcon 的主要特点包括：支持 ASGI、WSGI 和 WebSocket，原生 asyncio 支持，无魔法全局变量，稳定且向后兼容的接口，基于 RESTful 路由的简单 API 建模，高度优化且可扩展的代码库，通过请求和响应类轻松访问头信息和主体，通过中间件组件和钩子实现 DRY 请求处理，严格遵守 RFC 规范，提供直观的 HTTP 错误响应，简化的异常处理，使用 WSGI/ASGI 助手和模拟进行快速测试，支持 CPython 3.8+ 和 PyPy 3.8+。
 
-* [apache/jmeter](https://github.com/apache/jmeter) Apache JMeter是一个开源的负载测试工具，用于分析和测量各种服务的性能。它是一个用 Java 编写的应用程序，可以模拟服务器、网络或对象上的高负载，以测试其强度或分析不同负载类型下的整体性能。JMeter 支持多种协议，包括 HTTP、HTTPS、FTP、数据库、LDAP、JMS、SMTP、POP3、IMAP、TCP、Java 对象等。它还提供了一个功能齐全的测试 IDE，允许快速记录、构建和调试测试计划，并支持命令行模式（无 GUI/无头模式）以从任何兼容 Java 的操作系统进行负载测试。JMeter 生成动态 HTML 报告，并提供实时报告功能，可以将数据发送到第三方数据库，如 InfluxDB 或 Graphite。JMeter 的核心高度可扩展，支持可插拔的采样器，并允许使用脚本采样器（兼容 JSR223 语言）来扩展其功能。
+* [pallets/werkzeug](https://github.com/pallets/werkzeug) 全面的 python WSGI Web 应用程序库。它最初是 WSGI 应用程序的各种实用程序的简单集合，现已成为最先进的 WSGI 实用程序库之一。包括：一个交互式调试器，允许在浏览器中使用堆栈中任何帧的交互式解释器检查堆栈跟踪和源代码。一个功能齐全的请求对象，其中包含用于与标头、查询参数、表单数据、文件和 Cookie 交互的对象。一个响应对象，可以包装其他 WSGI 应用程序并处理流数据。用于将 URL 匹配到端点并为端点生成 URL 的路由系统，以及用于从 URL 捕获变量的可扩展系统。HTTP 实用程序，用于处理实体标记、缓存控制、日期、用户代理、cookie、文件等。在本地开发应用程序时使用的线程 WSGI 服务器。一个测试客户端，用于在测试期间模拟 HTTP 请求，而无需运行服务器。
+
+* [n8n-io/n8n](https://github.com/n8n-io/n8n) 免费和源代码可用的公平代码许可的工作流自动化工具。跨不同服务轻松自动执行任务。N8n 是一个可扩展的工作流程自动化工具。通过公平代码分发模型，n8n 将始终具有可见的源代码，可用于自托管，并允许您添加自己的自定义函数、逻辑和应用程序。 n8n 基于节点的方法使其具有高度的通用性，使您能够将任何东西连接到所有东西。N8n 有 200+ 个不同的节点来自动化工作流程。使用 n8n 的 LangChain 节点，您可以在工作流程中构建 AI 驱动的功能。LangChain节点是可配置的，这意味着您可以选择您喜欢的代理、LLM内存等。除了LangChain节点，您还可以像往常一样连接任何n8n节点：这意味着您可以将LangChain逻辑与其他数据源和服务集成。
 
 * [grafana/k6](https://github.com/grafana/k6) 使用 Go 和 JavaScript 的现代负载测试工具。它功能强大、可扩展且功能齐全。关键设计目标是提供最佳的开发人员体验。其核心功能是：`可配置的负载生成`。即使是低端机器也可以模拟大量流量。`测试即代码`。重用脚本、模块化逻辑、版本控制，并将测试与 CI 集成。`功能齐全的 API`。脚本 API 包含可帮助您模拟真实应用程序流量的功能。嵌入式 JavaScript 引擎。Go 的性能，JavaScript 的脚本熟悉度。多协议支持。HTTP、WebSockets、gRPC 等。大型扩展生态系统。您可以扩展 k6 来支持您的需求。许多人已经与社区分享了他们的扩展！灵活的指标存储和可视化。汇总统计信息或粒度指标，导出到您选择的服务。
 
@@ -8012,13 +8376,13 @@
 
 * [encode/starlette](https://github.com/encode/starlette) Starlette是一个轻量级的 ASGI 框架/工具包，非常适合用 Python构建异步 Web 服务。它已投入生产，并提供以下功能：轻量级、低复杂度的 HTTP Web 框架；WebSocket 支持；进程内后台任务；启动和关闭事件；基于 `httpx` 的测试客户端；CORS、GZip、静态文件、流式响应；会话和 Cookie 支持；100% 测试覆盖率；100% 类型注释代码库；很少的硬依赖；与 `asyncio` 和 `trio` 后端兼容；在独立基准测试中表现出色。Starlette 可以作为完整的框架或 ASGI 工具包使用，其组件可以独立使用。它还支持模块化，可以构建可重用的组件，这些组件可以在任何 ASGI 框架之间共享。
 
-* [pydantic/FastUI](https://github.com/pydantic/FastUI) FastUI是一种使用声明式 Python 代码构建 Web 应用界面的新方法，它将 Pydantic 模型与 TypeScript 接口相结合，在构建时通过 TypeScript和 pyright/mypy 进行验证，在运行时通过 Pydantic 进行验证。FastUI 由 `fastui` PyPI 包、`@pydantic/fastui` npm 包、`@pydantic/fastui-bootstrap` npm 包和 `@pydantic/fastui-prebuilt` npm 包组成，支持使用 Bootstrap 构建组件，并提供预构建的 React 应用，方便开发者使用。FastUI 允许 Python 开发者使用 React 构建响应式 Web 应用，而无需编写 JavaScript 代码或使用 `npm`，同时允许前端开发者专注于构建可复用的组件，实现真正的关注点分离。
-
 * [bxcodec/go-clean-arch](https://github.com/bxcodec/go-clean-arch) Go 项目中实现 Clean Architecture 的示例。独立于框架。该体系结构不依赖于某些功能丰富的软件库的存在。这允许您使用此类框架作为工具，而不必将系统塞进其有限的约束中。可测试。可以在没有 UI、数据库、Web 服务器或任何其他外部元素的情况下测试业务规则。独立于 UI。UI 可以轻松更改，而无需更改系统的其余部分。例如，可以在不更改业务规则的情况下将 Web UI 替换为控制台 UI。独立于数据库。可以将 Oracle 或 SQL Server 换成 Mongo、BigTable、CouchDB 或其他东西。您的业务规则未绑定到数据库。独立于任何外部机构。
 
 * [Dokploy/dokploy](https://github.com/Dokploy/dokploy) Dokploy是一个开源的平台即服务（PaaS），可以替代Vercel、Netlify和Heroku，它可以简化应用程序和数据库的部署和管理。Dokploy支持多种应用程序类型（Node.js、PHP、Python、Go、Ruby等）和数据库（MySQL、PostgreSQL、MongoDB、MariaDB和Redis），并提供自动备份、Docker Compose支持、多节点扩展、模板部署、Traefik集成、实时监控、Docker管理、CLI/API、通知、多服务器部署和自托管等功能。用户可以通过一条简单的命令在VPS上安装Dokploy，并参考官方文档进行详细操作。Dokploy的开发和运营得到了Hostinger、LX Aer、Supafort等赞助商的支持。
 
 * [apex/up](https://github.com/apex/up) Up是一个开源工具，可以将无服务器应用程序、API 和静态网站快速部署到 AWS，无需管理或扩展机器，也不需要为闲置服务器付费，只需使用 `$ up` 命令即可部署应用程序。Up 支持 Node.js、Golang、Python、Java、Crystal、Clojure 和静态网站，并提供免费的开源版本和付费的 Pro 版本，Pro 版本提供加密环境变量、错误警报、无限团队成员、无限应用程序、优先邮件支持等功能，每月 19.99 美元。快速入门：安装 Up，创建 `app.js` 文件，使用 `$ up` 命令部署应用程序，然后在浏览器中打开应用程序或将 URL 复制到剪贴板。
+
+* [nsqio/nsq](https://github.com/nsqio/nsq) 实时分布式消息传递平台，旨在大规模运行，每天处理数十亿条消息。它促进了分布式和分散式拓扑结构，没有单点故障，实现了容错和高可用性以及可靠的消息传递保证。查看功能和保证。在操作上，NSQ 易于配置和部署（所有参数都在命令行上指定，编译的二进制文件没有运行时依赖性）。为了获得最大的灵活性，它与数据格式无关（消息可以是 JSON、MsgPack、协议缓冲区或其他任何格式）。官方的 Go 和 Python 库（以及许多其他客户端库）开箱即用，如果您有兴趣构建自己的库，这里有一个协议规范。
 
 * [windmill-labs/windmill](https://github.com/windmill-labs/windmill) Windmill是一个开源的开发平台，可以帮助您构建和管理内部工具，包括 API、后台任务、工作流和 UI。它提供了一个快速的工作流引擎，速度比 Airflow 快 13 倍，并且是 Retool 和 Temporal 的开源替代方案。Windmill 可以将脚本自动转换为可共享的UI，并支持多种脚本语言，包括 Python、TypeScript、Go、Bash、SQL 和 GraphQL。您可以将脚本组合成工作流，或使用低代码构建更丰富的应用程序。Windmill 支持自托管，并提供 Docker Compose、Kubernetes 和二进制文件等部署选项。它还提供了安全沙箱、秘密管理和性能优化等功能。
 
@@ -8027,6 +8391,8 @@
 * [encode/uvicorn](https://github.com/encode/uvicorn) Uvicorn是一个用于 Python 的 ASGI web 服务器，它支持 HTTP/1.1 和 WebSockets。它基于 ASGI 规范，允许开发者构建跨异步框架通用的工具。Uvicorn 可以通过 `pip` 安装，并提供多种可选依赖项，例如 `uvloop`、`httptools`和 `websockets`，以提高性能和功能。Uvicorn 的快速入门示例展示了如何创建一个简单的 ASGI 应用并启动服务器。与传统的 WSGI 框架相比，ASGI 允许使用异步并发模型，从而提高性能并支持长连接，例如长轮询 HTTP 或 WebSocket 连接。Uvicorn 并非唯一支持 ASGI 的服务器，其他选择包括Daphne 和 Hypercorn。
 
 * [jpillora/chisel](https://github.com/jpillora/chisel) Chisel是一个快速且安全的 TCP/UDP 隧道工具，通过 HTTP 传输，使用 SSH 进行加密。它是一个单一可执行文件，包含客户端和服务器，用 Go 语言编写。Chisel 主要用于穿透防火墙，但也可用作网络安全端点。它支持多种功能，包括高性能、加密连接、身份验证、自动重连、多隧道端点、代理支持、反向端口转发、反向代理、SOCKS5连接等。用户可以通过二进制文件、Docker 镜像、Fedora 包或源代码进行安装。Chisel 提供了一个 Heroku 演示应用程序，展示了如何使用 Chisel 穿透防火墙访问本地服务器。
+
+* [awesto/django-shop](https://github.com/awesto/django-shop) django-SHOP是一个基于Django的易用、有趣且快速的电子商务系统，旨在与django-CMS无缝集成。它通过构建反映产品物理属性的数据库模型，避免了预定义模型的局限性，并支持复杂的变体层次结构，无需使用容易导致数据库性能问题的Entity-Attribute-Value模型。该系统采用组件化页面构建方式，允许灵活地组合页面布局，并提供HTML和RESTful服务两种视图，以适应不同客户端的需求。此外，它还提供可编程的购物车修改器和订单履行流程，方便定制税费计算、折扣、运费等业务逻辑。
 
 * [apollographql/apollo-server](https://github.com/apollographql/apollo-server) `@apollo/server` 是一个符合规范且生产就绪的 JavaScript GraphQL 服务器，允许您以 Schema-First 的方式进行开发。它适用于 Express、Connect、Hapi、Koa 等框架。它是一个开源项目，提供了一个简单的 API 用于集成任何 Node.js Web 框架或无服务器环境。它提供简洁的设置、增量采用、通用兼容性和生产就绪性，使您能够快速构建生产就绪的、自文档化的 GraphQL API，并使用任何数据源。您可以在文档网站上找到完整的文档，该文档展示了如何运行一个独立服务器以及如何与 Express 集成。
 
@@ -8038,17 +8404,23 @@
 
 * [python-diamond/Diamond](https://github.com/python-diamond/Diamond) Diamond是一个用Python编写的守护进程，用于收集系统指标并发布到Graphite（和其他系统）。它可以收集CPU、内存、网络、I/O、负载和磁盘指标。此外，它还提供了一个API，用于实现自定义收集器，以从几乎任何来源收集指标。Diamond已成功部署到1000台机器的集群中，每分钟推送300万个数据点。它也被部署在Fabric的基础设施中，轮询数百个指标源，每分钟推送数百万个数据点。可以通过`pip install diamond`安装Diamond，并修改`diamond.conf`文件以满足您的需求。
 
+* [django-compressor/django-compressor](https://github.com/django-compressor/django-compressor) DjangoCompressor是一个Django应用，用于压缩和合并项目中的JavaScript和CSS文件，并将它们缓存为单个静态文件，从而提高网站性能。它支持多种编译器（如CoffeeScript、LESS和SASS），并允许自定义处理步骤。通过在模板中使用`{% compress js/css %}`和`{% endcompress %}`标签，Django Compressor会处理其中的代码，并最终输出指向优化后的文件的`u003cscriptu003e`或`u003clinku003e`标签，或者直接内联到模板中。此外，它还提供命令行工具`manage.py compress`用于手动运行压缩过程。
+
 * [interagent/http-api-design](https://github.com/interagent/http-api-design) 本指南介绍了一组 HTTP+JSON API 设计实践，这些实践最初是从 Heroku 平台 API 的工作中提取的。本指南为该 API 的添加提供信息，并为 Heroku 的新内部 API 提供指导。我们希望 Heroku 以外的 API 设计人员也对它感兴趣。我们的目标是保持一致性，专注于业务逻辑，同时避免设计困境。我们正在寻找一种好的、一致的、有据可查的方法来设计 API，但不一定是唯一/理想的方法。我们假设你熟悉 HTTP+JSON API 的基础知识，并且不会涵盖本指南中所有基础知识。
 
 * [keploy/keploy](https://github.com/keploy/keploy) Keploy是一个面向开发人员的 API 测试工具，它可以从实际用户流量中生成测试用例和模拟数据，速度比单元测试更快。Keploy 不仅记录 API 调用，还记录数据库调用并在测试期间回放它们，使其易于使用、功能强大且可扩展。Keploy 还推出了世界上第一个单元测试生成器（ut-gen），它可以理解代码语义并生成有意义的单元测试，旨在自动生成单元测试、改进边缘情况并提高测试覆盖率。用户可以通过安装代理来快速集成 Keploy，无需更改代码。
 
-* [networknt/light-4j](https://github.com/networknt/light-4j) Light-4j是一个快速、轻量级、云原生微服务框架，旨在解决传统Java EE平台的性能和生产力问题。它基于Undertow HTTP核心构建，提供嵌入式网关，通过插件架构处理跨领域问题，包括分布式OAuth2 JWT安全验证、OpenAPI规范运行时验证、指标收集、全局异常处理、敏感数据屏蔽、跨站脚本清理、审计、内容类型解析、标准化响应代码和消息等功能。与SpringBoot相比，Light-4j速度快44倍，内存占用仅为其1/5，并提供基准测试结果和第三方比较数据。
-
 * [tokio-rs/tracing](https://github.com/tokio-rs/tracing) Rust 的应用程序级跟踪。用于检测 Rust 程序以收集结构化的、基于事件的诊断信息的框架。 tracing 由 Tokio 项目维护，但不需要使用 tokio 运行时。为了记录跟踪事件，可执行文件必须使用与 tracing 兼容的收集器实现。收集器实现一种收集跟踪数据的方法，例如将其记录到标准输出中。 tracing-subscriber 的 fmt 模块提供了一个收集器，用于记录具有合理默认值的跟踪。此外， tracing-subscriber 还能够使用 log 检测库和模块发出的消息。
+
+* [viewflow/viewflow](https://github.com/viewflow/viewflow) Viewflow是一个基于Django的低代码工作流库，它提供可复用的组件，简化了业务应用的开发，包括用户管理、工作流和报表等功能，并支持自定义和与现有系统集成。Viewflow包含轻量级的核心库(Viewflow Core)和功能更全面的商业版本(Viewflow PRO)，用户可通过少量代码创建功能完整的应用，并具有现代化的用户界面和内置的CRUD功能。它支持Python3.8+和Django 4.0+，安装方便，并提供快速入门示例，例如创建简单的披萨订单工作流。
 
 * [graphql/graphiql](https://github.com/graphql/graphiql) GraphiQL是一个 GraphQL IDE 的官方项目，包含一个语言服务、LSP 服务器、CLI 服务、CodeMirror 模式和 Monaco 模式，以及一个 GraphiQL实例和扩展示例。它提供了一个图形化的交互式浏览器 GraphQL IDE，支持使用 GraphQL 模式进行查询、突变和订阅，并提供代码补全、语法高亮、错误提示等功能。用户可以尝试在线演示，或使用最新版本构建的 Netlify 演示。GraphiQL 基于React 实现，使用 CodeMirror 和 GraphQL 语言服务，并提供详细的文档。
 
 * [bottlepy/bottle](https://github.com/bottlepy/bottle) Bottle 是一个快速、简单、轻量级的 Python WSGI 微 Web 框架。它作为单个文件模块分发，除了 Python 标准库之外没有其他依赖项。路由：请求函数调用映射，支持干净和动态 URL。模板：快速内置模板引擎，并支持 mako、jinja2 和 cheetah 模板。公用事业：方便地访问表单数据、文件上传、Cookie、标头和其他 HTTP 功能。服务器：内置开发服务器和即用型适配器，适用于各种支持 WSGI 的 HTTP 服务器（例如 gunicorn、paste 或 cheroot）。
+
+* [stephenmcd/mezzanine](https://github.com/stephenmcd/mezzanine) Mezzanine是一个基于Django框架的强大、一致且灵活的内容管理平台，提供简单易扩展的架构，支持多种内容类型管理（页面、博客、表单、产品等），并拥有丰富的功能，例如：WYSIWYG编辑器、拖拽式页面排序、SEO优化、电商模块、多语言支持、社交媒体集成等。它类似于WordPress，但更注重集成性和效率，并拥有活跃的社区和BSD许可证。Mezzanine还提供可配置的仪表盘小部件、自定义模板以及与其他Django应用的无缝集成。
+
+* [karatelabs/karate](https://github.com/karatelabs/karate) Karate是一个开源工具，将 API 测试自动化、模拟、性能测试和 UI 自动化整合到一个统一框架中，语法简洁易懂，即使是非程序员也能轻松上手。它内置断言和 HTML 报告，支持并行测试，并提供跨平台的独立可执行文件，方便团队使用。Karate支持 HTTP、JSON、GraphQL 和 XML，并允许在同一个测试脚本中混合 API 和 UI 测试自动化。此外，它还提供 Java API，方便用户将 Karate 的自动化和数据断言功能集成到自己的程序中。
 
 * [apache/airflow](https://github.com/apache/airflow) 以编程方式编写、调度和监控工作流的平台。当工作流被定义为代码时，它们将变得更加可维护、可版本控制、可测试和协作。使用 Airflow 将工作流创作为任务的有向无环图 （DAG）。Airflow 调度程序在遵循指定依赖项的同时，在一组工作线程上执行任务。丰富的命令行实用程序使在 DAG 上执行复杂的手术变得轻而易举。通过丰富的用户界面，可以轻松可视化生产中运行的管道、监视进度并在需要时解决问题。
 
@@ -8076,17 +8448,19 @@
 
 * [apache/tomcat](https://github.com/apache/tomcat) Apache Tomcat是一个开源的 Jakarta Servlet、Jakarta Pages、Jakarta Expression Language 和 Jakarta WebSocket技术的实现，它作为 Jakarta EE 平台的一部分进行开发。Tomcat 被广泛应用于各种行业和组织的众多大型关键任务 Web 应用程序，并提供免费的社区支持，包括邮件列表和 IRC 频道。用户可以通过官方网站获取最新版本下载、文档和安装指南，并通过 CONTRIBUTING.md 文件了解如何参与项目贡献。
 
-* [xuchengsheng/spring-reading](https://github.com/xuchengsheng/spring-reading) 该项目是一个深入研究 Spring 框架的开源项目，涵盖了 IOC 容器、AOP、事务管理、Spring MVC、数据访问、安全、Boot 自动配置等核心概念和关键功能，还包含 Spring 事件机制、缓存抽象、响应式编程等高级主题，并对 Spring 源码的编程风格与设计模式进行了深入探讨。项目提供代码示例和详细解析，帮助开发者深入理解 Spring 框架的内部机制，并能够更好地应用于实际开发中。
-
 * [gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq) GitLab CE 镜像，用于代码协作的开源软件。通过精细的访问控制来管理 Git 存储库，确保代码安全；执行代码审查并通过合并请求增强协作；完整的持续集成 （CI） 和持续部署/交付 （CD） 管道，用于构建、测试和部署应用程序；每个项目还可以有一个问题跟踪器、问题板和一个 Wiki；被超过 100,000 个组织使用，是管理本地 Git 存储库的最流行的解决方案；完全免费和开源
 
 * [Mantle/Mantle](https://github.com/Mantle/Mantle) Mantle是一个用于 Cocoa 和 Cocoa Touch 应用的模型框架，它简化了模型层的编写。Mantle 通过提供一个简单的 API 来处理数据映射、属性验证和编码，使你能够轻松地将 JSON 或其他数据格式转换为模型对象。Mantle 采用一种基于键值编码的机制，通过将字典中的键映射到模型对象的属性，实现数据到模型对象的转换。此外，Mantle 还支持属性验证，确保模型对象的数据完整性。
 
 * [baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus) MyBatis-Plus是一个 MyBatis 的增强工具包，旨在简化开发。它提供了一些高效、实用、开箱即用的 MyBatis 功能，可以有效地节省开发时间。MyBatis-Plus 与 MyBatis 完全兼容，并提供自动配置、数据库操作接口、灵活的条件包装器、多种主键生成策略、Lambda 风格 API、强大的代码生成器、自动分页功能、SQL 注入防御、Active Record 支持、可插拔自定义接口以及内置的扩展功能。
 
+* [log4js-node/log4js-node](https://github.com/log4js-node/log4js-node) log4js-node是log4js的Node.js版本，提供彩色控制台日志、文件追加器（支持基于文件大小或日期的日志轮转）、Connect/Express服务器日志器以及可配置的日志布局和级别等功能；它还支持SMTP、GELF、Loggly、Logstash、logFaces、RabbitMQ、Redis、Hipchat、Slack、mailgun和InfluxDB等多种可选追加器，方便用户灵活配置日志输出；通过npm install log4js即可安装，并提供详细文档和迁移指南。
+
 * [graphql-go/graphql](https://github.com/graphql-go/graphql) graphql-go/graphql 是一个 Go 语言实现的 GraphQL 库，遵循官方参考实现 `graphql-js`。它支持查询、变异和订阅，并提供完整的文档和示例。可以通过 `go get github.com/graphql-go/graphql` 安装该库，并使用提供的示例代码快速开始使用。该项目还包含一些第三方库，例如 `graphql-go-handler` 用于处理 HTTP 请求中的 GraphQL 查询，`graphql-relay-go` 用于构建支持 React Relay 的 GraphQL 服务器。
 
 * [vectordotdev/vector](https://github.com/vectordotdev/vector) 高性能的端到端（代理和聚合器）可观测性数据管道，可让您控制可观测性数据。收集、转换所有日志和指标，并将其路由到您今天想要的任何供应商以及您明天可能想要的任何其他供应商。Vector 可在您需要的地方实现大幅降低成本、新颖的数据丰富和数据安全性，而不是您的供应商最方便的地方。此外，它是开源的，比该领域的所有替代方案快 10 倍。
+
+* [Suor/django-cacheops](https://github.com/Suor/django-cacheops) django-cacheops是一个高效的ORM缓存应用，支持自动或手动查询集缓存以及基于事件的细粒度自动失效。它使用Redis作为ORM缓存的后端，并支持使用Redis或文件系统进行简单的基于时间的缓存失效。该项目还提供装饰器缓存用户函数或视图、Django和Jinja2模板扩展、事务支持、防止缓存雪崩机制以及一些Django性能优化技巧。  需要Python 3.7+，Django3.2+和Redis 4.0+。
 
 * [emmett-framework/granian](https://github.com/emmett-framework/granian) 用于 Python 应用程序的 Rust HTTP 服务器。Granian设计背后的主要原因是：有一个单一的、正确的 HTTP 实现，支持版本 1、2（最终是 3）,为多个平台提供单一软件包,避免 unix 系统上常见的 Gunicorn + uvicorn + http-tools 依赖组合,与现有替代品相比，提供稳定的性能。特征：支持 ASGI/3、RSGI 和 WSGI 接口应用，实现 HTTP/1 和 HTTP/2 协议，支持 HTTPS，支持 Websockets。
 
@@ -8094,17 +8468,25 @@
 
 * [koajs/koa](https://github.com/koajs/koa) 富有表现力的 HTTP 中间件框架，用于node.js使 Web 应用程序和 API 编写起来更愉快。Koa 的中间件堆栈以类似堆栈的方式流动，允许您在下游执行操作，然后过滤和操作上游的响应。只有几乎所有 HTTP 服务器通用的方法才会直接集成到 Koa 的小型 ~570 SLOC 代码库中。这包括内容协商、节点不一致的规范化、重定向等。Koa 没有与任何中间件捆绑在一起。
 
+* [wemake-services/wemake-django-template](https://github.com/wemake-services/wemake-django-template) wemake-django-template是一个先进的Django 4.2项目模板，专注于代码质量和安全性。它使用Cookiecutter生成项目，集成了poetry依赖管理、mypy类型检查、pytest单元测试、flake8和wemake-python-styleguide代码风格检查、docker容器化、sphinx文档生成以及Gitlab CI/CD流水线等工具，并默认启用Caddy服务器和HTTPS。该模板旨在简化Django项目搭建，并确保项目遵循最佳实践。
+
 * [remy/nodemon](https://github.com/remy/nodemon) 监视 node.js 应用程序中的任何更改并自动重新启动服务器 - 非常适合开发。特征：自动重新启动应用程序。检测要监视的默认文件扩展名。默认支持节点，但易于运行任何可执行文件，例如 python、ruby、make 等。忽略特定文件或目录。监视特定目录。与服务器应用程序或一次性运行实用程序和 REPL 配合使用。可通过 node require 语句编写脚本。
 
-* [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) Spring Boot 可帮助您以绝对最少的麻烦创建由 Spring 提供支持的生产级应用程序和服务。它对 Spring 平台持自以为是的看法，以便新用户和现有用户都可以快速获得他们需要的位。您可以使用 Spring Boot 创建独立的 Java 应用程序，这些应用程序可以使用更传统的 WAR 部署启动 java -jar`。我们还提供了一个运行 Spring 脚本的命令行工具。
+* [graphql-python/graphene-django](https://github.com/graphql-python/graphene-django) Graphene-Django是一个开源库，它无缝地整合了Django和Graphene，方便开发者快速高效地构建基于Django的GraphQL API。它支持Django模型的无缝集成、自动生成GraphQL schema、Django认证和权限系统集成以及Django分页系统，并提供完善的文档和社区支持，方便测试和扩展。通过简单的配置和代码编写，即可在Django项目中轻松创建和使用GraphQL API。
 
 * [fkromer/best-of-django](https://github.com/fkromer/best-of-django) 这是一个精选的 Django 相关 Python 包列表，包含 230 个开源项目，总共 510K 星，分为 59 个类别。所有项目都根据项目质量评分进行排名，该评分是根据从 GitHub 和不同的包管理器自动收集的各种指标计算得出的。该项目每周更新，欢迎贡献者添加或更新项目，你可以通过提交 issue、pull request 或者直接编辑 projects.yaml 文件来参与。
 
+* [vintasoftware/django-react-boilerplate](https://github.com/vintasoftware/django-react-boilerplate) 这是一个基于Django 5和React的项目模板，集成了TypeScript、Webpack、Bootstrap 5等众多现代化工具，用于快速构建前后端分离的Web应用。它利用Django构建后端REST API，React构建交互式前端UI，并通过Webpack打包静态资源。项目预设了Celery用于后台任务处理，以及PostgreSQL和Redis数据库，并包含方便部署到Render.com的配置，显著提升开发效率。
+
 * [mxsm/rocketmq-rust](https://github.com/mxsm/rocketmq-rust) RocketMQ-Rust是 Apache RocketMQ 消息中间件的 Rust 语言实现，旨在为 Rust 开发者提供高性能、可靠的消息队列服务。它利用 Rust 语言的优势，如内存安全、零成本抽象和高并发性能，并采用异步非阻塞设计，支持高并发消息处理。RocketMQ-Rust 兼容Rust 生态系统，与其他库和框架集成良好，并支持跨平台运行，包括 Linux、Windows 和 macOS。
+
+* [vercel/ncc](https://github.com/vercel/ncc) ncc是一个命令行工具，能将Node.js项目及其所有依赖打包成单个文件，支持TypeScript、二进制插件和动态require。它旨在简化npm包发布、服务器端部署，并提升启动速度和性能，无需复杂的打包器配置。ncc支持多种命令和选项，包括构建、运行、缓存管理以及代码压缩、源映射生成等功能，并提供对TypeScript和各种npm包的支持。
 
 * [amplication/amplication](https://github.com/amplication/amplication) 开源后端开发平台。构建生产就绪型服务，无需在重复编码上浪费时间。强大的开源开发平台，旨在彻底改变可扩展且安全的 .NET 和 Node.js 应用程序的创建。Amplication 是唯一一个在几分钟内将想法转化为生产就绪代码的 AI 平台。我们通过可扩展的代码实现后端应用程序开发自动化，确保一致性、可预测性并遵守最高标准
 
-* [playframework/playframework](https://github.com/playframework/playframework) Play 框架结合了生产力和性能，使使用 Java 和 Scala 构建可扩展的 Web 应用程序变得容易。Play 对开发人员友好，具有“只需刷新”的工作流程和内置的测试支持。借助 Play，由于无状态和非阻塞架构，应用程序可以预测地扩展。通过默认的RESTful，包括资产编译器，JSON和WebSocket支持，Play非常适合现代Web和移动应用程序。
+* [zostera/django-bootstrap3](https://github.com/zostera/django-bootstrap3) django-bootstrap3是一个Django项目，用于无缝集成Bootstrap 3框架。它简化了在Django项目中使用Bootstrap 3的过程，只需安装、添加到INSTALLED_APPS并加载bootstrap3模板库即可使用其提供的模板标签（如bootstrap_form）方便地渲染表单等Bootstrap组件。该项目提供详细文档和示例应用，并支持Python和Django的常用版本，遵循BSD-3-Clause许可证。
+
+* [dfunckt/django-rules](https://github.com/dfunckt/django-rules) django-rules是一个轻量级但功能强大的Django授权应用，无需数据库即可实现对象级权限控制，其核心是一个类似决策树的通用规则系统框架，也可独立用在其他环境。它文档齐全、经过测试、可靠易用，支持多种类型的可调用对象构建复杂的谓词图，并能高效地与Django视图、模板和Admin无缝集成，实现对象级权限管理。
 
 * [curl/curl-cheat-sheet](https://github.com/curl/curl-cheat-sheet) 该项目是一个单页文档，包含了 HTTP 协议中最重要的 curl 命令选项的解释，方便用户快速查找和使用 curl 命令。文档以表格形式呈现，涵盖了常见操作，如设置输出、超时、请求方法、认证、代理、Cookie 操作、压缩、重定向等，并提供了相应的 curl 命令选项。用户可以根据需要选择合适的选项，快速完成 HTTP 请求。
 
@@ -8114,29 +8496,51 @@
 
 * [fkromer/best-of-fastapi](https://github.com/fkromer/best-of-fastapi) &quot;best-of-fastapi&quot; 是一个自动评分的 Python 包列表，用于FastAPI 项目，每周更新。它包含 39 个优秀的开源项目，总共 87K 个星标，分为 11 个类别。每个项目根据从 GitHub 和不同包管理器自动收集的各种指标计算出的项目质量得分进行排名。您可以通过提交问题、拉取请求或直接编辑项目文件来添加或更新项目。
 
-* [Nepxion/Discovery](https://github.com/Nepxion/Discovery) Nepxion Discovery是一个针对 Spring Cloud 的解决方案，提供蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移、多活等功能，帮助开发者构建高可用、高性能的微服务架构。它基于插件化框架，支持多种注册中心和配置中心，并提供丰富的功能扩展，可满足各种场景下的微服务治理需求。
+* [dynaconf/dynaconf](https://github.com/dynaconf/dynaconf) Dynaconf是Python的配置管理工具，遵循12-factor app原则，支持多种文件格式(toml, yaml, json, ini, py)及环境变量优先级覆盖，内置对Django和Flask的支持，并提供命令行工具用于初始化、验证和管理配置，还支持HashicorpVault和Redis作为配置和密钥存储。它能够安全地管理默认值、校验、解析和模板化设置，保护敏感信息。
+
+* [vitalik/django-ninja](https://github.com/vitalik/django-ninja) DjangoNinja是一个快速、异步就绪的Django框架，用于基于Python类型提示构建API。它易于使用，性能高，得益于Pydantic和异步支持；通过类型提示和自动文档生成，加快开发速度；遵循OpenAPI和JSON Schema标准，并与Django核心和ORM良好集成。  项目提供交互式API文档，安装方便，只需`pip install django-ninja`即可开始使用。
 
 * [FastEndpoints/FastEndpoints](https://github.com/FastEndpoints/FastEndpoints) FastEndpoints是一个轻量级的 ASP.NET 6 及更高版本 REST API 开发框架，它提供了一种简单易用的方式来创建 REST API，并比 Minimal APIs和 MVC 控制器更快、更节省内存，在基准测试中每秒可处理 35,000 多个请求。FastEndpoints鼓励使用 REPR 设计模式（请求-端点-响应）来创建可维护的端点，并提供丰富的文档和社区支持。
+
+* [timonweb/django-tailwind](https://github.com/timonweb/django-tailwind) django-tailwind项目简化了在Django项目中使用Tailwind CSS的过程，提供热重载功能以避免手动刷新页面，支持CSS导入、Sass变量和嵌套，包含官方Tailwind CSS插件，兼容Tailwind CSS v3.x及Django 3.2+版本，安装方便，可通过pip安装，推荐使用`[reload]`扩展以启用自动页面重载。完整文档请访问https://django-tailwind.readthedocs.io/。
+
+* [milesmcc/shynet](https://github.com/milesmcc/shynet) Shynet是一个现代化、注重隐私且无需Cookie或JavaScript的详细网站分析工具。它自行托管，数据完全属于用户所有，避免了第三方数据泄露和烦人的Cookie通知。Shynet使用轻量级的跟踪脚本，即使JavaScript不可用也能正常工作，并提供访问量、会话数和页面加载时间等多种指标，支持单机部署或扩展至大型集群。
 
 * [YMFE/yapi](https://github.com/YMFE/yapi) YApi 是一个可本地部署的、功能强大、易于使用的 API 管理平台，旨在为开发、产品、测试人员提供高效的接口管理服务。它基于 Json5和 Mockjs 定义接口返回值结构和文档，支持可视化界面设计、自动测试、MockServer 模拟数据、导入导出 Postman、har、Swagger 数据等功能，帮助团队更高效地协作开发和测试 API。
 
 * [apereo/cas](https://github.com/apereo/cas) 面向所有地球人及其他地区的身份和单点登录。面向 Web 的企业多语言单点登录解决方案，旨在成为满足身份验证和授权需求的综合平台。CAS 是一种开放且有据可查的身份验证协议。该协议的主要实现是此处托管的同名开源 Java 服务器组件，支持大量其他身份验证协议和功能，例如 SAML2、OpenID Connect 等。
 
+* [django-guardian/django-guardian](https://github.com/django-guardian/django-guardian) django-guardian是Django框架的权限管理扩展，实现基于对象的细粒度权限控制。它通过在Django的授权后端之上构建，允许对每个对象分别设置权限，例如，用户A可以修改对象X，但不能修改对象Y。安装简单，只需使用pip安装并进行简单的配置即可，支持Django 3.2+版本，并与Django admin集成，方便管理对象权限。
+
 * [sindresorhus/ky](https://github.com/sindresorhus/ky) Ky是一个基于 Fetch API 的轻量级、优雅的 JavaScript HTTP 客户端，它针对现代浏览器、Node.js、Bun 和 Deno。Ky提供了比原生 fetch 更简洁的 API，包括方法快捷方式（如 ky.post()）、将非 2xx 状态码视为错误、重试失败请求、JSON 选项、超时支持、URL 前缀选项、自定义默认值的实例、钩子和 TypeScript 友好性等功能。
 
-* [bagisto/bagisto](https://github.com/bagisto/bagisto) 免费和开源的 laravel 电子商务平台，建立在一些最热门的技术之上，例如 Laravel（PHP 框架）和Vue.js渐进式 Javascript 框架。Bagisto 可以帮助您减少建立在线商店或从实体店迁移到要求苛刻的在线世界的时间、成本和劳动力。您的企业（无论规模大小）都可以从中受益。最好的部分是，设置起来很简单！
+* [joke2k/django-environ](https://github.com/joke2k/django-environ) django-environ是一个Python包，它允许你使用12-factor方法，通过环境变量来配置Django应用。它简化了从环境文件和操作系统获取环境变量并将其转换为Django设置的过程，支持多种数据库和缓存配置，例如通过解析数据库URL字符串（例如psql://user:pass@127.0.0.1:8458/db）来配置数据库连接。该项目遵循MIT许可证。
+
+* [evansd/whitenoise](https://github.com/evansd/whitenoise) WhiteNoise是一个极简的Python Web应用静态文件服务库，只需少量配置即可让你的应用自行服务静态文件，无需依赖nginx、Amazon S3等外部服务，特别适用于Heroku和OpenShift等PaaS平台。它支持CDN以提升高流量网站性能，并自动处理gzip/Brotli压缩、缓存头设置等最佳实践，兼容任何WSGI应用，对Django有特殊优化。
 
 * [arialdomartini/Back-End-Developer-Interview-Questions](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions) 该项目是一个后端开发面试问题列表，旨在帮助面试官启发面试问题，测试候选人或作为参考。项目特点是包含了设计模式、代码设计、语言等多个方面的面试问题，并鼓励面试官与候选人进行深入的讨论，而非简单地寻求正确答案。项目灵感来源于前端开发面试问题列表，并提供中文翻译版本。
 
+* [django-commons/django-debug-toolbar](https://github.com/django-commons/django-debug-toolbar) DjangoDebug Toolbar是一个可配置的调试工具栏，显示关于当前请求/响应的各种调试信息，点击面板可查看更多细节；它包含内置面板和众多社区贡献的第三方面板；当前稳定版本为5.0.0-alpha，支持Django 4.2.0及以上版本，但不支持Django异步视图；文档和安装指南请访问https://django-debug-toolbar.readthedocs.io/。
+
 * [mjhea0/awesome-fastapi](https://github.com/mjhea0/awesome-fastapi) 这是一个关于 FastAPI的精选资源列表，FastAPI 是一个现代、高性能、包含电池的 PythonWeb 框架，非常适合构建 RESTful API。该项目包含第三方扩展、资源、托管方案、项目示例等内容，涵盖了从数据库集成、身份验证到管理面板、开发工具等多个方面，旨在帮助开发者更轻松地使用 FastAPI 进行开发。
+
+* [fastapi-users/fastapi-users](https://github.com/fastapi-users/fastapi-users) FastAPI Users是一个为FastAPI项目提供可定制用户管理的库，它包含开箱即用的注册、登录、密码重置和邮箱验证路由，支持多种数据库后端（包括SQLAlchemy和MongoDB），并提供多种身份验证策略（JWT、数据库、Redis）和传输方式（Authorization header、Cookie），方便开发者快速构建安全可靠的用户系统。
+
+* [zostera/django-bootstrap4](https://github.com/zostera/django-bootstrap4) django-bootstrap4项目无缝整合Django和Bootstrap 4框架，方便开发者在Django项目中使用Bootstrap 4。通过pip安装后，只需在settings.py中添加&quot;bootstrap4&quot;到INSTALLED_APPS，并在模板中加载bootstrap4库和使用bootstrap_*标签即可轻松使用Bootstrap 4组件，项目提供详细文档和示例应用，遵循BSD-3-Clause许可证。
 
 * [KunMinX/Jetpack-MVVM-Best-Practice](https://github.com/KunMinX/Jetpack-MVVM-Best-Practice) KunMinX/Jetpack-MVVM-Best-Practice 是一个 Jetpack MVVM 最佳实践项目，它以简洁的代码展示了对视图控制器和标准化开发模式的深入理解。该项目旨在帮助开发者更好地理解和应用 Google 开源的 Jetpack MVVM 架构，并提供高品质的应用示例。项目包含详细的文档和示例代码，方便开发者学习和实践。
 
 * [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) HTML、JavaScript 和 CSS 资产的集合，可从符合 Swagger 的 API 动态生成精美的文档。允许任何人（无论是您的开发团队还是最终消费者）可视化 API 的资源并与之交互，而无需任何实现逻辑。它是根据 OpenAPI（以前称为 Swagger）规范自动生成的，带有可视化文档，便于后端实现和客户端使用。
 
+* [Kong/kong](https://github.com/Kong/kong) 一种云原生、与平台无关、可扩展的 API 网关，以其高性能和通过插件的可扩展性而著称。通过提供代理、路由、负载均衡、运行状况检查、身份验证等功能，Kong 充当了轻松编排微服务或传统 API 流量的中心层。Kong在Kubernetes上本地运行，这要归功于其官方的Kubernetes Ingress Controller。
+
 * [imsyy/DailyHotApi](https://github.com/imsyy/DailyHotApi) 今日热榜 API是一个聚合热门数据的 API 接口，支持 RSS 模式和 JSON 模式，并提供 Vercel 部署方案。该项目特点包括快速响应、支持多种部署方式、简洁的路由设计，方便用户扩展。该项目提供多种热门数据源，例如哔哩哔哩、AcFun、微博、知乎、百度等，用户可根据需要选择使用。
 
+* [zostera/django-bootstrap5](https://github.com/zostera/django-bootstrap5) django-bootstrap5是一个用于Django框架的Bootstrap 5集成项目，旨在无缝融合Django和Bootstrap 5，已准备好投入生产环境。它通过pip安装，并在Django的`INSTALLED_APPS`中注册，然后在模板中使用`bootstrap_*`标签即可轻松使用Bootstrap 5组件，项目提供详细文档和示例应用，并遵循BSD-3-Clause许可证。
+
 * [encode/django-rest-framework](https://github.com/encode/django-rest-framework) 适用于 Django 的 Web API。Web 可浏览 API 对您的开发人员来说是一个巨大的可用性胜利。身份验证策略，包括 OAuth1a 和 OAuth2 的可选包。支持 ORM 和非 ORM 数据源的序列化。可一直自定义 - 如果您不需要更强大的功能，只需使用基于功能的常规视图。广泛的文档和强大的社区支持。
+
+* [django-extensions/django-extensions](https://github.com/django-extensions/django-extensions) DjangoExtensions是一个Django框架的扩展集合，提供许多自定义管理命令，例如生成应用模型图、显示URL模式、检查模板错误等。它需要Django3.2或更高版本，可以通过pip安装。安装后，将其添加到项目`settings.py`文件的`INSTALLED_APPS`中即可使用其提供的命令行工具增强Django开发效率。
 
 * [99designs/gqlgen](https://github.com/99designs/gqlgen) gqlgen是一个基于 go generate 的 GraphQL 服务器库，它采用 Schema First 的方法，使用 GraphQL Schema Definition Language 定义 API，并优先考虑类型安全，通过代码生成来简化开发流程。gqlgen 提供了丰富的功能，包括自定义模型、显式解析器等，帮助开发者构建高效、安全的 GraphQL 服务器。
 
@@ -8144,9 +8548,7 @@
 
 * [geektutu/7days-golang](https://github.com/geektutu/7days-golang) 该项目包含7天用Go从零实现系列程序，涵盖了Web框架Gee、分布式缓存GeeCache、对象关系映射ORM框架GeeORM、RPC框架GeeRPC等。每个项目都附带详细的教程和代码示例，帮助开发者快速学习和实践Go语言。项目特色在于从零开始实现，便于理解底层原理，并提供完整代码供参考。
 
-* [dyc87112/SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning) 该项目是一个 SpringBoot 基础教程，包含 1.x 和 2.x 版本，旨在帮助用户学习 Spring Boot 的基础知识。教程内容丰富，涵盖了 Spring Boot 的各个方面，并提供详细的代码示例。用户可以通过教程目录快速找到所需内容，并通过加入 Spring 技术交流群获得更多学习资源和帮助。
-
-* [azkaban/azkaban](https://github.com/azkaban/azkaban) Azkaban是一个工作流管理系统，使用 Gradle 构建，需要 Java 8或更高版本。它提供了一个可视化的界面来定义、调度和监控工作流，支持多种任务类型，并提供安全控制和日志管理功能。Azkaban 的文档正在更新，新的文档网站正在开发中，开发者可以参与文档的贡献。
+* [jazzband/djangorestframework-simplejwt](https://github.com/jazzband/djangorestframework-simplejwt) djangorestframework-simplejwt是Django REST Framework的一个JSON Web Token认证插件，它简化了JWT认证流程，方便开发者在Django项目中实现安全的基于token的认证。该插件提供了完整的文档和多种语言支持，并支持多种Python版本和Django版本。通过简单的配置即可快速集成到你的项目中。
 
 * [git/git](https://github.com/git/git) 快速、可扩展的分布式版本控制系统，具有异常丰富的命令集，既提供高级操作，又提供对内部的完全访问。受 GNU 通用公共许可证版本 2 的保护（它的某些部分采用不同的许可证，与 GPLv2 兼容）。它最初是由 Linus Torvalds 在网络上的一群黑客的帮助下编写的。
 
@@ -8154,7 +8556,7 @@
 
 * [saltstack/salt](https://github.com/saltstack/salt) 大规模自动管理和配置任何基础架构或应用程序的软件。基于 Python 构建，是一种事件驱动的自动化工具和框架，用于部署、配置和管理复杂的 IT 系统。使用 Salt 自动执行常见的基础架构管理任务，并确保基础架构的所有组件都以一致的所需状态运行。
 
-* [Activiti/Activiti](https://github.com/Activiti/Activiti) Activiti 是一个轻量级的工作流和业务流程管理 （BPM） 平台，面向业务人员、开发人员和系统管理员。它的核心是用于 Java 的超快速且坚如磐石的 BPMN 2 流程引擎。它是开源的，并在 Apache 许可下分发。Activiti 可以在任何 Java 应用程序、服务器、集群或...
+* [strawberry-graphql/strawberry](https://github.com/strawberry-graphql/strawberry) Strawberry是一个基于Python的GraphQL库，利用类型注解简化GraphQL schema的定义。它基于dataclass，提供简洁易用的API，支持类型检查（通过mypy插件）和与Django、WebSocket的集成，方便快速构建GraphQL服务器。  项目提供debug server和CLI工具，并有丰富的示例和文档。
 
 * [sapegin/jest-cheat-sheet](https://github.com/sapegin/jest-cheat-sheet) Jest cheat sheet是一个 Jest 测试框架的速查表，提供各种匹配器、异步测试、模拟、数据驱动测试、跳过测试等功能的示例代码和说明。它还包含了使用 Babel 和 TypeScript 的指南以及其他资源链接。该项目的目标是帮助开发者快速学习和使用 Jest 进行测试。
 
@@ -8164,19 +8566,31 @@
 
 * [zappa/Zappa](https://github.com/zappa/Zappa) 在 AWS Lambda + API Gateway 上轻松构建和部署无服务器、事件驱动的 Python 应用程序（包括但不限于 WSGI Web 应用程序）。将其视为 Python 应用程序的“无服务器”Web 托管。这意味着无限扩展、零停机时间、零维护 - 而且成本只是您当前部署的一小部分
 
+* [django-oscar/django-oscar](https://github.com/django-oscar/django-oscar) django-oscar是一个基于Django的领域驱动型电商框架，可高度定制以满足各种电商需求，从大型B2C到复杂的B2B网站。其核心功能可灵活调整，拥有完善的文档和活跃的社区支持，并提供Docker镜像方便部署。目前支持3.2 LTS (支持到2026年1月) 和3.1 版本。
+
 * [simov/grant](https://github.com/simov/grant) Grant是一个支持 200 多个提供商的 OAuth 代理库，它提供了一个统一的 API 来处理 OAuth 授权流程，简化了应用程序与不同服务之间的集成。Grant 支持多种授权流程，包括授权码流、隐式流和密码流，并提供了一个 OAuth Playground 用于测试和调试。
 
 * [dbader/schedule](https://github.com/dbader/schedule) 人类的 Python 作业调度。使用友好的语法定期运行 Python 函数（或任何其他可调用函数）。简单易用的 API，用于调度作业，专为人类设计。用于定期作业的进程内调度程序。无需额外的流程，非常轻量级，没有外部依赖。出色的测试覆盖率。
 
+* [etianen/django-reversion](https://github.com/etianen/django-reversion) django-reversion是Django框架的一个扩展，它为模型实例提供版本控制功能，允许回滚到模型实例历史中的任何点，恢复已删除的模型实例，并提供简单的admin集成。它支持Python 3.8+和Django 4.2+。该项目由Dave Hall开发，并由许多其他贡献者参与。
+
 * [pulumi/pulumi](https://github.com/pulumi/pulumi) 只需用您喜欢的语言编写代码，Pulumi 就会使用基础设施即代码方法在 AWS、Azure、Google Cloud Platform、Kubernetes 和 120+ 提供商上自动预置和管理您的资源。跳过 YAML，使用你已经熟悉和喜爱的标准语言功能，如循环、函数、类和包管理。
 
-* [zhoutaoo/SpringCloud](https://github.com/zhoutaoo/SpringCloud) 基于SpringCloud2.1的微服务开发脚手架，整合了spring-security-oauth2、nacos、feign、sentinel、springcloud-gateway等。服务治理方面引入elasticsearch、skywalking、springboot-admin、zipkin等，让项目快速进入业务开发，而不需过多时间花费在架构搭建上。
+* [jschneier/django-storages](https://github.com/jschneier/django-storages) django-storages是一个Django项目，提供多种存储后端，方便用户在单个库中管理文件存储。它兼容多个Django版本，支持通过pip安装，并提供详细文档和GitHub issue追踪。该项目由Tidelift部分支持，安全漏洞应通过Tidelift安全联系方式报告。
 
 * [apache/apisix](https://github.com/apache/apisix) 动态、实时、高性能的 API 网关。提供了丰富的流量管理功能，如负载均衡、动态上游、灰度释放、熔断、认证、可观测性等。使用 APISIX API Gateway 来处理传统的南北向流量，以及服务之间的东西向流量。也可用作 k8s 入口控制器。
 
-* [apache/curator](https://github.com/apache/curator) Apache Curator是一个 Java/JVM 客户端库，用于 Apache ZooKeeper（一个分布式协调服务）。它提供高级 API 框架和实用程序，简化并提高使用 Apache ZooKeeper 的可靠性。Curator 包含针对常见用例的配方和扩展，例如服务发现和 Java 8 异步 DSL。
+* [inventree/InvenTree](https://github.com/inventree/InvenTree) InvenTree是一个开源的库存管理系统，提供强大的底层库存控制和零件追踪功能。它基于Python/Django数据库后端，具有Web管理界面和REST API，并支持强大的插件系统以扩展功能。可访问演示站点和文档，并支持错误报告和功能请求。
+
+* [python-social-auth/social-app-django](https://github.com/python-social-auth/social-app-django) 这是一个Django应用，是Python Social Auth生态系统的一部分，它简化了Django项目中多种社交平台的认证和注册流程。该项目支持最新的Django版本，文档齐全，可通过pip安装，并遵循BSD许可证。开发者可通过PayPal捐赠支持项目维护。
+
+* [shuup/shuup](https://github.com/shuup/shuup) Shuup是一个基于Django和Python的开源电子商务平台，提供完整的电商功能。它使用Docker简化部署，并提供详细的文档和开发指南。贡献者需签署CLA协议，项目采用OSL-3.0开源许可证。目前正计划升级到Django 3.x及更新主题系统。
 
 * [LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production) Zero To Production In Rust 是对使用 Rust 进行后端开发的自以为是的介绍。从零到生产是您作为 Rust 后端开发人员的理想起点。您将边做边学：您将从头开始构建一个功能齐全的电子邮件通讯 API。本书由 11 章组成，共 ~600 页。
+
+* [jazzband/django-simple-history](https://github.com/jazzband/django-simple-history) django-simple-history是一个Django应用，用于记录模型的每次创建、更新和删除操作的历史记录，并允许通过管理界面查看和恢复更改，支持Django 4.2和5.0以及多个Python版本，文档详见https://django-simple-history.readthedocs.io/en/stable/。
+
+* [jazzband/django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit) DjangoOAuth Toolkit是一个Django项目，用于轻松地在Django应用中添加OAuth2认证和授权服务器功能，它基于OAuthLib库并遵循RFC标准，支持Python 3.8+和Django 4.2、5.0或5.1版本，可通过pip安装，并提供完整的文档和多种途径参与贡献。
 
 * [temporalio/temporal](https://github.com/temporalio/temporal) 一个持久的执行平台，使开发人员能够在不牺牲生产力或可靠性的情况下构建可扩展的应用程序。临时服务器以弹性方式执行称为工作流的应用程序逻辑单元，该逻辑单元可自动处理间歇性故障，并重试失败的操作。
 
@@ -8208,11 +8622,7 @@
 
 * [saleor/saleor](https://github.com/saleor/saleor) 高性能、可组合、无头商务 API。现代堆栈上以客户为中心的电子商务。无头的 GraphQL 商务平台，提供超快速、动态、个性化的购物体验。漂亮的在线商店，随时随地，在任何设备上。
 
-* [yangzongzhuan/RuoYi-Vue3](https://github.com/yangzongzhuan/RuoYi-Vue3) 基于SpringBoot+Vue3前后端分离的Java快速开发框架。本仓库为前端技术栈 Vue3 + Element Plus + Vite 版本。配套后端代码仓库地址RuoYi-Vue 或 RuoYi-Vue-fast 版本。前端技术栈（Vue2 + Element + Vue CLI）
-
 * [fuzhengwei/itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) 《重学Java设计模式》是一本互联网真实案例实践书籍。以落地解决方案为核心，从实际业务中抽离出，交易、营销、秒杀、中间件、源码等22个真实场景，来学习设计模式的运用。
-
-* [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
 
 * [42wim/matterbridge](https://github.com/42wim/matterbridge) 一个简单的聊天桥 ,Mattermost，IRC，gitter，xmpp，Slack，Discord，Telegram，rocketchat，twitch，ssh-chat，zulip，WhatsApp，Keybase，matrix，Microsoft Teams，Nextcloud，Mumble，vk等与REST API之间的桥梁
 
@@ -8236,11 +8646,7 @@
 
 * [parse-community/parse-server](https://github.com/parse-community/parse-server) 开源后端，可以部署到任何可以运行 Node.js 的基础架构。Parse Server 与 Express Web 应用程序框架配合使用。它可以添加到现有的 Web 应用程序中，也可以自行运行。
 
-* [ityouknow/spring-boot-examples](https://github.com/ityouknow/spring-boot-examples) Spring Boot 使用的各种示例，以最简单、最实用为标准，此开源项目中的每个示例都以最小依赖，最简单为标准，帮助初学者快速掌握 Spring Boot 各组件的使用。
-
 * [authelia/authelia](https://github.com/authelia/authelia) 开源身份验证和授权服务器，通过 Web 门户为您的应用程序提供双因素身份验证和单点登录 （SSO）。它通过允许、拒绝或重定向请求来充当反向代理的伴侣。
-
-* [wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll) 循序渐进，学习Spring Boot、Spring Boot &amp; Shiro、Spring Batch、Spring Cloud、Spring Cloud Alibaba、Spring Security &amp; Spring Security OAuth2，博客Spring系列源码：https://mrbird.cc
 
 * [apache/skywalking](https://github.com/apache/skywalking) APM（应用程序性能监控）系统，专为微服务、云原生和基于容器的架构而设计。开源的 APM 系统，包括云原生架构中分布式系统的监控、追溯、诊断能力。
 
@@ -8283,8 +8689,6 @@
 * [cli/cli](https://github.com/cli/cli) 命令行上的 GitHub。它将拉取请求、问题和其他 GitHub 概念带到您已经在使用 git 的位置和代码旁边的终端。
 
 * [chentsulin/awesome-graphql](https://github.com/chentsulin/awesome-graphql) GraphQL 的精彩列表。GraphQL 是一种针对 Graph（图状数据）进行查询特别有优势的 Query Language（查询语言）。
-
-* [doocs/advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
 
 * [fecshop/yii2_fecshop](https://github.com/fecshop/yii2_fecshop) 多语言多货币多入口的开源电商 B2C 商城，支持移动端vue, app, html5，微信小程序微店，微信小程序商城等
 
@@ -8338,8 +8742,6 @@
 
 * [flosse/rust-web-framework-comparison](https://github.com/flosse/rust-web-framework-comparison) 一些用 Rust 编写的 Web 框架的比较。本概述仅包含适用于稳定 Rust 的框架。
 
-* [JeffLi1993/springboot-learning-example](https://github.com/JeffLi1993/springboot-learning-example) spring boot 实践学习案例，是 spring boot 初学者及核心技术巩固的最佳实践。
-
 * [gitbucket/gitbucket](https://github.com/gitbucket/gitbucket) 一个由 Scala 提供支持的 Git 平台，易于安装、高度扩展和 GitHub API 兼容性
 
 * [localstack/localstack](https://github.com/localstack/localstack) 功能齐全的本地 AWS 云堆栈。离线开发和测试您的云和无服务器应用程序
@@ -8363,6 +8765,8 @@
 * [tokio-rs/axum](https://github.com/tokio-rs/axum) 符合人体工程学的模块化 Web 框架，由Tokio、Tower和Hyper构建
 
 * [poem-web/poem](https://github.com/poem-web/poem) 一个功能齐全且易于使用的 Web 框架，带有 Rust 编程语言。
+
+* [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) 用于管理Nginx代理主机的Docker容器，具有简单，强大的界面
 
 * [django/django](https://github.com/django/django) 高级Python Web框架，它鼓励快速开发和干净、实用的设计。
 
@@ -8404,8 +8808,6 @@
 
 * [pallets/quart](https://github.com/pallets/quart) 用于构建 Web 应用程序的异步 Python 微框架。
 
-* [discordjs/discord.js](https://github.com/discordjs/discord.js) 一个强大的JavaScript库，用于与Discord API交互
-
 * [revel/revel](https://github.com/revel/revel) 用于 Go 语言的高生产力、全栈 Web 框架。
 
 * [aws/aws-cli](https://github.com/aws/aws-cli) 适用于 Amazon Web Services 的通用命令行界面
@@ -8415,8 +8817,6 @@
 * [supabase/realtime](https://github.com/supabase/realtime) 通过 WebSocket 进行广播、状态和发布更改
 
 * [fastify/fastify](https://github.com/fastify/fastify) 适用于 Node.js 的快速且低开销的 Web 框架
-
-* [xkcoding/spring-boot-demo](https://github.com/xkcoding/spring-boot-demo) 用来深入学习并实战 Spring Boot 的项目。
 
 * [toutiaoio/awesome-architecture](https://github.com/toutiaoio/awesome-architecture) 架构师技术图谱，助你早日成为架构师
 
@@ -8462,6 +8862,56 @@
 
 * [xingshaocheng/architect-awesome](https://github.com/xingshaocheng/architect-awesome) 后端架构师技术图谱
 
+### JAVA开发
+
+* [kekingcn/kkFileView](https://github.com/kekingcn/kkFileView) 文档在线预览项目解决方案，使用流行的 Spring Boot 框架构建，便于设置和部署。这个多功能的开源项目为各种文档格式提供基本支持，包括：支持 Office 文档，如 doc、docx、xls、xlsx、xlsm、ppt、pptx、csv、tsv、、dotm、xlt、xltm、dot、xlam、dotx、xla、页面等。支持 wps、dps、et、ett、wpt 等国内 WPS Office 文档。支持 OpenOffice、LibreOffice 办公文档，如 odt、ods、ots、odp、otp、six、ott、fodt 和 fods。支持 vsd、vsdx 等 Visio 流程图文件。支持 wmf、emf 等 Windows 系统镜像文件。支持 psd 、eps 等 Photoshop 软件模型文件。支持 pdf、ofd 和 rtf 等文档格式。支持 xmind 等软件模型文件。支持 BPMN 工作流程文件。支持 eml 邮件文件。支持 epub 书籍文档。支持 3D 模型文件，如 obj、3ds、stl、ply、gltf、glb、off、3dm、fbx、dae、wrl、3mf、ifc、brep、step、iges、fcstd、bim 等。支持 dwg、dxf、dwfiges 、 igs、 dwt 、 dng 、 ifc 、 dwfx 、 stl 、 cf2 、 plt 等 CAD 模型文件。支持所有纯文本文件，如 txt、xml（渲染）、md（渲染）、java、php、py、js、css 等。支持 zip、rar、jar、tar、gzip、7z 等压缩包。支持 jpg、jpeg、png、gif、bmp、ico、jfif、webp 等的图像预览（翻转、缩放、镜像）。支持 tif 和 tiff 等图像信息模型文件。支持 tga 等图像格式文件。支持 svg 等矢量图像格式文件。支持 mp3、wav、mp4、flv。支持多种音频和视频格式文件，如 avi、mov、wmv、mkv、3gp 和 rm。支持 dcm、drawio .
+
+* [lihengming/spring-boot-api-project-seed](https://github.com/lihengming/spring-boot-api-project-seed) 基于Spring Boot &amp; MyBatis的种子项目，用于快速构建中小型API、RESTful API项目，该种子项目已经有过多个真实项目的实践，稳定、简单、快速，使我们摆脱那些重复劳动，专注于业务代码的编写，减少加班。下面是一个简单的使用演示，看如何基于本项目在短短几十秒钟内实现一套简单的API，并运行提供服务。特征&amp;提供：最佳实践的项目结构、配置文件、精简的POM（查看项目结构图）；统一响应结果封装及生成工具；统一异常处理；简单的接口签名认证；常用基础方法抽象封装；使用Druid Spring Boot Starter 集成Druid数据库连接池与监控；使用FastJsonHttpMessageConverter，提高JSON序列化速度；集成MyBatis、通用Mapper插件、PageHelper分页插件，实现单表业务零SQL；提供代码生成器根据表名生成对应的Model、Mapper、MapperXML、Service、ServiceImpl、Controller等基础代码，其中Controller模板默认提供POST和RESTful两套，根据需求在CodeGenerator.genController(tableName)方法中自己选择，默认使用POST模板。代码模板可根据实际项目的需求来扩展，由于每个公司业务都不太一样，所以只提供了一些比较基础、通用的模板，主要是提供一个思路来减少重复代码的编写，我在实际项目的使用中，其实根据公司业务的抽象编写了大量的模板。另外，使用模板也有助于保持团队代码风格的统一
+
+* [OpenFeign/feign](https://github.com/OpenFeign/feign) Feign是一个 Java HTTP 客户端绑定器，它简化了编写 Java HTTP客户端的过程，灵感来自 Retrofit、JAXRS-2.0 和 WebSocket。Feign的主要目标是简化将 Denominator 统一绑定到 HTTP API 的过程，无论其是否符合 ReSTful 规范。Feign 利用 Jersey 和 CXF等工具为 ReST 或 SOAP 服务编写 Java 客户端，并允许用户在 Apache HC 等 HTTP 库之上编写自己的代码。Feign 通过可定制的解码器和错误处理将代码连接到 HTTP API，从而实现最小开销和代码，这些解码器和错误处理可以编写到任何基于文本的 HTTP API。Feign 通过将注解处理成模板化的请求来工作，并在输出之前以简单的方式将参数应用于这些模板。尽管 Feign 仅支持基于文本的 API，但它极大地简化了系统方面，例如重放请求。此外，Feign 使得在了解这一点的情况下轻松地对转换进行单元测试。Feign 10.x 及更高版本基于 Java 8，应该可以在 Java 9、10 和 11 上运行。对于需要 JDK 6 兼容性的用户，请使用 Feign 9.x。Feign 的路线图包括响应缓存、完整的 URI 模板表达式支持、Logger API 重构、Retry API 重构、异步执行支持以及 Reactive 执行支持。
+
+* [apache/jmeter](https://github.com/apache/jmeter) Apache JMeter是一个开源的负载测试工具，用于分析和测量各种服务的性能。它是一个用 Java 编写的应用程序，可以模拟服务器、网络或对象上的高负载，以测试其强度或分析不同负载类型下的整体性能。JMeter 支持多种协议，包括 HTTP、HTTPS、FTP、数据库、LDAP、JMS、SMTP、POP3、IMAP、TCP、Java 对象等。它还提供了一个功能齐全的测试 IDE，允许快速记录、构建和调试测试计划，并支持命令行模式（无 GUI/无头模式）以从任何兼容 Java 的操作系统进行负载测试。JMeter 生成动态 HTML 报告，并提供实时报告功能，可以将数据发送到第三方数据库，如 InfluxDB 或 Graphite。JMeter 的核心高度可扩展，支持可插拔的采样器，并允许使用脚本采样器（兼容 JSR223 语言）来扩展其功能。
+
+* [networknt/light-4j](https://github.com/networknt/light-4j) Light-4j是一个快速、轻量级、云原生微服务框架，旨在解决传统Java EE平台的性能和生产力问题。它基于Undertow HTTP核心构建，提供嵌入式网关，通过插件架构处理跨领域问题，包括分布式OAuth2 JWT安全验证、OpenAPI规范运行时验证、指标收集、全局异常处理、敏感数据屏蔽、跨站脚本清理、审计、内容类型解析、标准化响应代码和消息等功能。与SpringBoot相比，Light-4j速度快44倍，内存占用仅为其1/5，并提供基准测试结果和第三方比较数据。
+
+* [xuchengsheng/spring-reading](https://github.com/xuchengsheng/spring-reading) 该项目是一个深入研究 Spring 框架的开源项目，涵盖了 IOC 容器、AOP、事务管理、Spring MVC、数据访问、安全、Boot 自动配置等核心概念和关键功能，还包含 Spring 事件机制、缓存抽象、响应式编程等高级主题，并对 Spring 源码的编程风格与设计模式进行了深入探讨。项目提供代码示例和详细解析，帮助开发者深入理解 Spring 框架的内部机制，并能够更好地应用于实际开发中。
+
+* [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) Spring Boot 可帮助您以绝对最少的麻烦创建由 Spring 提供支持的生产级应用程序和服务。它对 Spring 平台持自以为是的看法，以便新用户和现有用户都可以快速获得他们需要的位。您可以使用 Spring Boot 创建独立的 Java 应用程序，这些应用程序可以使用更传统的 WAR 部署启动 java -jar`。我们还提供了一个运行 Spring 脚本的命令行工具。
+
+* [playframework/playframework](https://github.com/playframework/playframework) Play 框架结合了生产力和性能，使使用 Java 和 Scala 构建可扩展的 Web 应用程序变得容易。Play 对开发人员友好，具有“只需刷新”的工作流程和内置的测试支持。借助 Play，由于无状态和非阻塞架构，应用程序可以预测地扩展。通过默认的RESTful，包括资产编译器，JSON和WebSocket支持，Play非常适合现代Web和移动应用程序。
+
+* [Nepxion/Discovery](https://github.com/Nepxion/Discovery) Nepxion Discovery是一个针对 Spring Cloud 的解决方案，提供蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移、多活等功能，帮助开发者构建高可用、高性能的微服务架构。它基于插件化框架，支持多种注册中心和配置中心，并提供丰富的功能扩展，可满足各种场景下的微服务治理需求。
+
+* [shuzheng/zheng](https://github.com/shuzheng/zheng) 基于Spring+SpringMVC+Mybatis分布式敏捷开发系统架构，提供整套公共微服务模块：集中权限管理（单点登录）、内容管理、支付中心、用户管理（支持三方登录）、微信平台、存储系统、配置中心、日志分析、任务和通知等，支持服务治理、监控和追踪，努力为中小型企业打造全方位J2EE企业级开发解决方案。
+
+* [dyc87112/SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning) 该项目是一个 SpringBoot 基础教程，包含 1.x 和 2.x 版本，旨在帮助用户学习 Spring Boot 的基础知识。教程内容丰富，涵盖了 Spring Boot 的各个方面，并提供详细的代码示例。用户可以通过教程目录快速找到所需内容，并通过加入 Spring 技术交流群获得更多学习资源和帮助。
+
+* [azkaban/azkaban](https://github.com/azkaban/azkaban) Azkaban是一个工作流管理系统，使用 Gradle 构建，需要 Java 8或更高版本。它提供了一个可视化的界面来定义、调度和监控工作流，支持多种任务类型，并提供安全控制和日志管理功能。Azkaban 的文档正在更新，新的文档网站正在开发中，开发者可以参与文档的贡献。
+
+* [Activiti/Activiti](https://github.com/Activiti/Activiti) Activiti 是一个轻量级的工作流和业务流程管理 （BPM） 平台，面向业务人员、开发人员和系统管理员。它的核心是用于 Java 的超快速且坚如磐石的 BPMN 2 流程引擎。它是开源的，并在 Apache 许可下分发。Activiti 可以在任何 Java 应用程序、服务器、集群或...
+
+* [zhoutaoo/SpringCloud](https://github.com/zhoutaoo/SpringCloud) 基于SpringCloud2.1的微服务开发脚手架，整合了spring-security-oauth2、nacos、feign、sentinel、springcloud-gateway等。服务治理方面引入elasticsearch、skywalking、springboot-admin、zipkin等，让项目快速进入业务开发，而不需过多时间花费在架构搭建上。
+
+* [apache/curator](https://github.com/apache/curator) Apache Curator是一个 Java/JVM 客户端库，用于 Apache ZooKeeper（一个分布式协调服务）。它提供高级 API 框架和实用程序，简化并提高使用 Apache ZooKeeper 的可靠性。Curator 包含针对常见用例的配方和扩展，例如服务发现和 Java 8 异步 DSL。
+
+* [yangzongzhuan/RuoYi-Vue3](https://github.com/yangzongzhuan/RuoYi-Vue3) 基于SpringBoot+Vue3前后端分离的Java快速开发框架。本仓库为前端技术栈 Vue3 + Element Plus + Vite 版本。配套后端代码仓库地址RuoYi-Vue 或 RuoYi-Vue-fast 版本。前端技术栈（Vue2 + Element + Vue CLI）
+
+* [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
+
+* [ityouknow/spring-boot-examples](https://github.com/ityouknow/spring-boot-examples) Spring Boot 使用的各种示例，以最简单、最实用为标准，此开源项目中的每个示例都以最小依赖，最简单为标准，帮助初学者快速掌握 Spring Boot 各组件的使用。
+
+* [wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll) 循序渐进，学习Spring Boot、Spring Boot &amp; Shiro、Spring Batch、Spring Cloud、Spring Cloud Alibaba、Spring Security &amp; Spring Security OAuth2，博客Spring系列源码：https://mrbird.cc
+
+* [doocs/advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
+
+* [JeffLi1993/springboot-learning-example](https://github.com/JeffLi1993/springboot-learning-example) spring boot 实践学习案例，是 spring boot 初学者及核心技术巩固的最佳实践。
+
+* [xkcoding/spring-boot-demo](https://github.com/xkcoding/spring-boot-demo) 用来深入学习并实战 Spring Boot 的项目。
+
+* [TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket) 100% Java 写的准系统 WebSocket 实现。
+
+* [grpc/grpc-java](https://github.com/grpc/grpc-java) Java gRPC 实现。基于 HTTP/2 的 RPC
+
 * [seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis) Spring源码阅读
 
 ### PHP开发
@@ -8482,6 +8932,8 @@
 
 * [spatie/laravel-medialibrary](https://github.com/spatie/laravel-medialibrary) Laravel Media Library是一个 Laravel 包，用于将各种文件与 Eloquent 模型关联。它提供了一个简单的 API 来操作文件，例如添加、删除、获取文件信息等。该包支持各种文件类型，并可以利用 Laravel 的 Filesystem 功能，将文件存储在不同的存储系统中，例如本地磁盘、S3 等。此外，该包还支持对图片和 PDF 进行图像处理操作。
 
+* [bagisto/bagisto](https://github.com/bagisto/bagisto) 免费和开源的 laravel 电子商务平台，建立在一些最热门的技术之上，例如 Laravel（PHP 框架）和Vue.js渐进式 Javascript 框架。Bagisto 可以帮助您减少建立在线商店或从实体店迁移到要求苛刻的在线世界的时间、成本和劳动力。您的企业（无论规模大小）都可以从中受益。最好的部分是，设置起来很简单！
+
 * [Licoy/wordpress-theme-puock](https://github.com/Licoy/wordpress-theme-puock) Puock是一款基于WordPress开发的高颜值自适应主题，支持白天与黑夜模式、无刷新加载、第三方登录等功能。用户可前往GitHub Releases页面下载最新版本，并根据WordPress管理界面中的“外观-主题”进行安装和启用。Puock主题支持多种语言，并提供QQ群和微信群供用户交流。
 
 * [WiKi-Hub-2023/WiKi-Hub-2023.github.io](https://github.com/WiKi-Hub-2023/WiKi-Hub-2023.github.io) 该项目包含1000个PHP代码审计案例，案例来源为3.8W个已公开的漏洞（截至2016年7月），案例保存在`./bugs`和`./upload`文件夹中。项目使用特征匹配技术，准确率达到95%，可以帮助开发者学习PHP漏洞的原理和修复方法，即使是新手也能快速掌握。
@@ -8490,15 +8942,23 @@
 
 * [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) PHP开发工具，可在浏览器中使用。可让您深入了解应用程序运行时，包括 HTTP 请求、命令、队列作业和测试的请求数据、性能指标、日志条目、数据库查询、缓存查询、redis 命令、已调度事件、排队作业、呈现视图等
 
+* [mockery/mockery](https://github.com/mockery/mockery) 简单而灵活的PHP模拟对象框架，用于PHPUnit，PHPSpec或任何其他的单元测试。其核心目标是提供一个具有简洁API的测试双重框架，该API能够使用人类可读的领域特定语言（DSL）清楚地定义所有可能的对象操作和交互。
+
 * [dompdf/dompdf](https://github.com/dompdf/dompdf) 适用于 PHP 的 HTML 到 PDF 转换器。用 PHP 编写的符合 CSS 2.1 的 HTML 布局和渲染引擎。一个样式驱动的渲染器：它将下载和读取外部样式表、内联样式标签和单个 HTML 元素的样式属性。它还支持大多数表示 HTML 属性。
 
 * [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) 一个PHP应用程序开发框架 - 一个工具包 - 适用于使用 PHP 构建网站的人。它的目标是通过为常用任务提供一组丰富的库，以及访问这些库的简单接口和逻辑结构，使你能够比从头开始编写代码更快地开发项目。
+
+* [thephpleague/flysystem](https://github.com/thephpleague/flysystem) 本地和远程文件系统的抽象。一个PHP的文件存储库。它提供了一个接口来与多种类型的文件系统进行交互。当您使用 Flysystem 时，您不仅可以免受供应商锁定的影响，还可以获得适合您的一致体验。
+
+* [PHP-CS-Fixer/PHP-CS-Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) 自动修复PHP编码标准问题的工具;无论您是想遵循PSR-1，PSR-2等中定义的PHP编码标准，还是其他社区驱动的标准，如Symfony。您还可以通过配置来定义（团队）的风格。
 
 * [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) 适用于 Laravel 的 IDE 帮助程序，此软件包会生成帮助程序文件，使 IDE 能够提供准确的自动完成功能。生成是根据项目中的文件完成的，因此它们始终是最新的。
 
 * [YOURLS/YOURLS](https://github.com/YOURLS/YOURLS) YOURLS 是一组 PHP 脚本，允许您在服务器上运行您自己的 短链接，URL 缩短器。您将可以完全控制您的数据、详细统计数据、分析、插件等。它是免费和开源的。
 
 * [filp/whoops](https://github.com/filp/whoops) PHP 的错误处理程序框架。开箱即用，它提供了一个漂亮的错误界面，可以帮助您调试Web项目，但本质上它是一个简单而强大的堆叠错误处理系统。
+
+* [laravel/laravel](https://github.com/laravel/laravel) PHP Web应用程序框架，具有富有表现力，优雅的语法。我们已经为您的下一个大创意奠定了基础——让您自由地进行创作，而不会为小事出汗。
 
 * [yiisoft/yii2](https://github.com/yiisoft/yii2) 快速、安全和专业的 PHP 框架。开箱即用，预配置了合理的默认值。该框架很容易调整以满足您的需求，因为 Yii 被设计得很灵活。
 
@@ -8516,6 +8976,8 @@
 
 * [walkor/workerman](https://github.com/walkor/workerman) 异步事件驱动的 PHP 套接字框架。支持HTTP，Websocket，SSL和其他自定义协议。
 
+* [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) 自动将环境变量从“.env”加载到“getenv（）”，`$_ENV`和“$_SERVER”。
+
 * [composer/composer](https://github.com/composer/composer) PHP 依赖管理器。Composer 帮助您声明、管理和安装 PHP 项目的依赖项。
 
 * [sebastianbergmann/phpunit](https://github.com/sebastianbergmann/phpunit) PHP 单元测试框架。它是单元测试框架的 xUnit 体系结构的一个实例。
@@ -8530,17 +8992,31 @@
 
 * [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser) 用PHP编写的PHP解析器。其目的是简化静态代码分析和操作。
 
+* [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) 一个精选的列表，包含令人赞叹的 PHP 库、资源和东西。
+
+* [phpstan/phpstan](https://github.com/phpstan/phpstan) PHP 静态分析工具 - 无需运行即可发现代码中的错误！
+
 * [Seldaek/monolog](https://github.com/Seldaek/monolog) PHP将日志发送到文件、套接字、数据库和各种Web服务
+
+* [ramsey/uuid](https://github.com/ramsey/uuid) 用于生成通用唯一标识符 （UUID） 的 PHP 库。
+
+* [top-think/think](https://github.com/top-think/think) ThinkPHP Framework ——十年匠心的高性能PHP框架
 
 * [vimeo/psalm](https://github.com/vimeo/psalm) 用于查找PHP应用程序中错误的静态分析工具
 
+* [tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth) 适用于PHP Laravel&amp;Lumen的JSON 网络令牌认证
+
 * [deployphp/deployer](https://github.com/deployphp/deployer) PHP部署工具，开箱即用，支持流行的框架
+
+* [PHPOffice/PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) 用于读取和写入电子表格文件的纯 PHP 库
 
 * [phalcon/cphalcon](https://github.com/phalcon/cphalcon) 高性能、全栈 PHP 框架作为 C 扩展提供。
 
 * [laradock/laradock](https://github.com/laradock/laradock) 适用于 Docker 的完整 PHP 开发环境。
 
 * [typecho/typecho](https://github.com/typecho/typecho) 一个PHP博客平台。简单而强大。
+
+* [laravel/framework](https://github.com/laravel/framework) 包含PHP Laravel框架的核心代码。
 
 * [erusev/parsedown](https://github.com/erusev/parsedown) PHP 中更好的 Markdown 解析器。
 
@@ -8554,37 +9030,349 @@
 
 * [Intervention/image](https://github.com/Intervention/image) PHP图像处理
 
-## 网络服务
+### 后端项目_其他
 
-### 网络服务_其他
+* [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) 简单、安全且符合标准的 Web 服务器，适用于要求最苛刻的应用程序。μWebSockets 针对速度和内存占用进行了精心优化，速度足够快，可以比大多数替代服务器更快地完成加密的 TLS 1.3 消息传递，甚至可以执行未加密的明文消息传递。μWebSockets完全是用C&amp;C++编写的，但与Node.js后端无缝集成。这允许使用广泛的能力快速编写功能强大的应用程序的脚本。请参见μWebSockets.js。μWebSockets 为世界上许多最大的加密货币交易所提供支持，每天处理数十亿美元的交易量。如果您交易加密货币，您很有可能通过μWebSockets进行交易。围绕一个方便的URL路由器设计，支持通配符和参数 - 与WebSockets的高效发布/订阅功能配对。μWebSockets 应该是任何具有高要求的实时 Web 项目的明显、完整的起点。μWebSockets 建立在 μSockets 之上，μSockets 是一个在三个不同层中实现事件、网络和加密的基础库。每一层都有多个实现，您可以使用标志控制编译后的组合。目前有五个事件循环集成;libuv、ASIO、GCD 和原始 epoll/kqueue。
+
+* [yanzhenjie/AndServer](https://github.com/yanzhenjie/AndServer) AndServer是一个运行在 Android 平台上的 HTTP 和反向代理服务器，提供类似SpringMVC 的注解，方便开发者快速上手。它支持静态网页部署、动态HTTP API 部署以及反向代理服务器功能。用户可以通过简单的代码创建 Web 服务器，并使用注解定义 API 接口，例如使用 `@RestController`、`@RequestMapping`、`@PostMapping` 等注解。AndServer 还支持获取客户端连接信息，方便开发者进行定制化操作。此外，AndServer 也能作为反向代理服务器，将请求转发到指定的地址。开发者可以通过 Gradle 构建工具添加 AndServer 依赖，并根据项目需求选择相应的版本。
+
+* [y123456yz/reading-code-of-nginx-1.9.2](https://github.com/y123456yz/reading-code-of-nginx-1.9.2) 该项目是对 Nginx 1.9.2 源码进行通读分析并添加中文注释，包含详尽的函数中文分析注释以及相关函数流程调用注释，旨在帮助开发者更深入地理解 Nginx 的工作原理。项目特色是提供最全面的 Nginx 源码阅读分析中文注释，并已更新完毕。该项目适用于希望深入学习 Nginx 源码、了解其内部机制的开发者，以及需要进行 Nginx 性能优化或定制开发的工程师。
+
+* [brick-design/brick-design](https://github.com/brick-design/brick-design) 低代码框架，支持流式布局与自由布局拖拽编排，可视化拖拽、随意嵌套组合、实时渲染、实时辅助线展示、自由布局支持辅助对齐、支持自动吸附、实时组件间距展示、实时拖拽排序、状态域管理，可视化属性配置、可视化样式配置、多设备适配展示，支持逻辑渲染、模板字符变量、表达式、自定义方法、自定义状态
+
+* [0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui) Nginx UI是一个由 0xJacky 和 Hintay 开发的 Nginx Web界面，提供多种语言版本，支持从可执行文件、systemd和 Docker 等方式启动，并提供详细的文档和演示。用户可以通过 Nginx UI 界面查看 Nginx 的状态信息、配置信息、日志信息等，并进行一些简单的操作，例如重启 Nginx、修改配置等。
+
+* [prometheus/client_python](https://github.com/prometheus/client_python) PrometheusPython Client是Prometheus官方提供的Python客户端库，用于将Python应用指标数据导出到Prometheus监控系统。通过pip install prometheus-client安装，详细文档见https://prometheus.github.io/client_python。该库帮助开发者轻松集成Prometheus监控，实现应用性能和状态的监控和告警。
+
+* [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) 利用干净体系结构和 ASP.NET 核心的强大功能，为企业应用程序开发提供一种简单有效的方法。使用此模板，您可以毫不费力地创建具有 ASP.NET Core和Angular或React的单页应用程序（SPA），同时遵守清洁架构的原则。入门很简单 - 只需安装 .NET 模板。
+
+* [huginn/huginn](https://github.com/huginn/huginn) 用于构建代理的系统，这些代理可以为您在线执行自动化任务。他们可以阅读网络、监视事件并代表您采取行动。Huginn 的代理创建和使用事件，并沿有向图传播它们。将其视为您自己的服务器上 IFTTT 或 Zapier 的可破解版本。
+
+* [twitter/finagle](https://github.com/twitter/finagle) 容错、与协议无关的 RPC 系统。JVM 的可扩展 RPC 系统，用于构建高并发服务器。Finagle 为多种协议实现了统一的客户端和服务器 API，专为高性能和并发性而设计。Finagle 的大部分代码都与协议无关，从而简化了新协议的实现。
+
+* [calcom/cal.com](https://github.com/calcom/cal.com) 为所有人安排基础设施。Calendly 和其他调度工具很棒。它使我们的生活变得非常轻松。我们用它来参加商务会议、研讨会、瑜伽课，甚至与家人通话。但是，大多数工具在控制和定制方面都非常有限。
+
+* [locustio/locust](https://github.com/locustio/locust) 易于使用、可编写脚本且可扩展的性能测试工具。在常规 Python 代码中定义负载测试，而不是受仅假装为真实代码的 UI 或域特定语言的约束。这使得 Locust 可以无限扩展并且对开发人员非常友好。
+
+* [hashicorp/vagrant](https://github.com/hashicorp/vagrant) 用于构建和分发开发环境的工具。由Vagrant管理的开发环境可以在本地虚拟化平台（如VirtualBox或VMware）上运行，通过AWS或OpenStack在云中运行，或者在容器（如Docker或原始LXC）上运行。
+
+* [jeecgboot/jeecg-boo](https://github.com/jeecgboot/jeecg-boot) 「企业级低代码平台」前后端分离架构SpringBoot，SpringCloud，Ant Design&amp;Vue，Mybatis，Shiro，JWT。强大的代码生成器让前后端代码一键生成，无需写任何代码。
+
+* [grpc/grpc](https://github.com/grpc/grpc) 现代、开源、高性能的远程过程调用 框架，可以在任何地方运行。gRPC 使客户端和服务器应用程序能够透明地进行通信，并简化连接系统的构建。
+
+* [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) 一个简单的零配置工具，用于使用您想要的任何名称创建本地信任的开发证书。用于制作本地信任的开发证书的简单工具。它不需要任何配置。
+
+* [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) SaaS、PaaS 和 IaaS 产品列表，这些产品对 DevOps 和 infradev 部分免费。现在有许多服务提供免费套餐，但找到它们都需要时间来做出明智的决定。
+
+* [illacloud/illa-builder](https://github.com/illacloud/illa-builder) 健壮的开源低代码平台，开发人员可以使用它来构建内部工具。通过使用ILLA的组件和动作库，开发人员可以保存大量构建工具的时间。
+
+* [YaoApp/yao](https://github.com/YaoApp/yao) 高性能低代码应用引擎，可在数分钟内创建Web服务和应用，适用于AI、IoT、工业互联网、车联网、DevOps、能源、金融和许多其他用例。
+
+* [wagtail/wagtail](https://github.com/wagtail/wagtail) 基于 Django 的开源内容管理系统，拥有强大的社区和商业支持。它专注于用户体验，并为设计人员和开发人员提供精确的控制。
+
+* [Budibase/budibase](https://github.com/Budibase/budibase) 用于在几分钟内创建内部工具、工作流和管理面板的低代码平台。支持 PostgreSQL、MySQL、MSSQL、MongoDB、Rest API、Docker、K8s 等
+
+* [lowdefy/lowdefy](https://github.com/lowdefy/lowdefy) 开源、自托管、低代码的框架，用于使用YAML或JSON构建内部工具、Web应用、管理面板、BI仪表板、工作流和CRUD应用。
+
+* [activepieces/activepieces](https://github.com/activepieces/activepieces) 您最友好的开源多合一自动化工具 工作流自动化工具 ✨ 100+ 集成 / 企业自动化工具 / ChatBot / Zapier相关应用
+
+* [Netflix/conductor](https://github.com/Netflix/conductor) Netflix 创建的一个平台，用于编排跨微服务的工作流程。Conductor 由 Netflix 的媒体工作流基础设施团队维护。
+
+* [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) 开源 API 开发生态系统。轻量级：采用简约的 UI 设计精心打造。快速：实时发送请求和获取/复制响应。
+
+* [caprover/caprover](https://github.com/caprover/caprover) 最简单的应用程序/数据库部署平台和 Web 服务器包，适用于 NodeJS、Python、PHP、Ruby、Go 应用程序。
+
+* [apache/brpc](https://github.com/apache/brpc) 使用C++语言的工业级RPC框架，通常用于高性能系统，如搜索，存储，机器学习，广告，推荐等。
+
+* [nwjs/nw.js](https://github.com/nwjs/nw.js) 直接从 DOM/WebWorker 调用所有 Node.js 模块，并启用一种使用所有 Web 技术编写应用程序的新方法。
+
+* [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre) 站点可靠性和生产工程资源的精选列表。站点可靠性工程（SRE）是 IT 运维的软件工程方案。
+
+* [apitable/apitable](https://github.com/apitable/apitable) 面向 API 的低代码平台，用于构建协作应用程序，比所有其他 Airtable 开源替代品都要好。
+
+* [allinurl/goaccess](https://github.com/allinurl/goaccess) 一个实时 Web 日志分析器和交互式查看器，可在 *nix 系统的终端中或通过浏览器运行。
+
+* [directus/directus](https://github.com/directus/directus) 即时 REST+GraphQL API 和直观的无代码数据协作应用程序，适用于任何 SQL 数据库。
+
+* [dokku/dokku](https://github.com/dokku/dokku) 基于 Docker 的 PaaS，可帮助您构建和管理应用程序的生命周期
+
+* [zeromicro/go-zero](https://github.com/zeromicro/go-zero) 带有 cli 工具的云原生 Go 微服务框架，可提高工作效率。
+
+* [pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint) APM，用于大规模分布式系统的应用程序性能管理工具。
+
+* [netdata/netdata](https://github.com/netdata/netdata) 以高分辨率和实时监控您的服务器、容器和应用程序！
+
+* [baidu/amis](https://github.com/baidu/amis) 前端低代码框架，通过 JSON 配置就能生成各种页面。
+
+* [baidu/amis](https://github.com/baidu/amis) 前端低代码框架，通过 JSON 配置就能生成各种页面。
+
+* [typicode/json-server](https://github.com/typicode/json-server) 在不到 30 秒的时间内获得零编码的完整伪造 REST API
+
+* [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) 知名 SaaS 产品的开源初创公司替代品的超棒列表
+
+* [alibaba/lowcode-engine](https://github.com/alibaba/lowcode-engine) 一套面向扩展设计的企业级低代码技术体系
+
+* [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) 非常棒的开源系统管理员资源的精选列表。
+
+* [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) 微服务架构相关原则和技术的精选列表。
+
+* [go-kratos/kratos](https://github.com/go-kratos/kratos) 面向云原生时代的终极 Go 微服务框架。
+
+* [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) 配置NGINX服务器所需的唯一工具。
+
+* [node-red/node-red](https://github.com/node-red/node-red) 事件驱动应用程序的低代码编程
+
+* [phanan/htaccess](https://github.com/phanan/htaccess) 有用的 .htaccess 代码段的集合。
+
+* [taowen/awesome-lowcode](https://github.com/taowen/awesome-lowcode) 国内低代码平台从业者交流
+
+* [openblocks-dev/openblocks](https://github.com/openblocks-dev/openblocks) 开源低代码替代方案
+
+## 网络信息服务
+
+### 信息沟通
 
 * [stalwartlabs/mail-server](https://github.com/stalwartlabs/mail-server) 安全且现代的一体化邮件服务器（IMAP、JMAP、POP3、SMTP）。开源邮件服务器解决方案，支持 JMAP、IMAP4、POP3 和 SMTP 以及广泛的现代功能。它是用 Rust 编写的，旨在安全、快速、健壮和可扩展。主要特点：  JMAP、IMAP4、POP3 和 ManageSieve 服务器：  具有 Sieve 脚本、WebSocket、Blob 管理和 Quotas 扩展的 JMAP 服务器。  IMAP4rev2 和 IMAP4rev1 服务器，支持多种扩展。  具有扩展、STLS 和 SASL 支持的 POP3 服务器。  用于管理 Sieve 脚本的 ManageSieve 服务器。  SMTP 服务器：  内置 DMARC、DKIM、SPF 和 ARC 支持邮件身份验证。  通过 DANE、MTA-STS 和 SMTP TLS 报告实现强大的传输安全性。  使用精细配置规则、sieve 脚本、MTA 钩子和更精细的集成进行入站限制和过滤。  分布式虚拟队列，支持延迟交付、优先交付、配额、路由规则和限制。  信封重写和消息修改。  内置垃圾邮件和网络钓鱼过滤器：  与流行的解决方案相当的全面过滤规则集。  LLM 驱动的垃圾邮件过滤和邮件分析。  具有自动训练功能的统计垃圾邮件分类器。  DNS 阻止列表 （DNSBL） 检查 IP 地址、域和哈希值。  使用 Pyzor 进行基于摘要的协作式垃圾邮件筛选。  针对同形 URL 攻击、发件人欺骗和其他技术的网络钓鱼防护。  可信回复跟踪，用于识别真实的电子邮件回复并确定其优先级。  按 IP 地址、ASN、域和电子邮件地址监控发件人声誉。  灰名单，暂时推迟未知发件人。  垃圾邮件陷阱，用于设置诱饵电子邮件地址，以捕获和分析垃圾邮件。  灵活且可扩展：  支持 RocksDB、FoundationDB、PostgreSQL、mySQL、SQLite、S3-Compatible、Redis 和 ElasticSearch 的可插拔存储后端。  集群支持节点自动发现和分区容忍故障检测。  提供 17 种语言的全文搜索。  Sieve 脚本语言，支持所有已注册的扩展。  电子邮件别名、邮件列表、子地址和无限别名地址支持。  使用 autoconfig 和 autodiscover 自动配置和发现账户。  通过域和租户隔离实现多租户支持。  每个用户和租户的磁盘配额。  安全可靠：  使用 S/MIME 或 OpenPGP 进行静态加密。  使用 TLS-ALPN-01、DNS-01 或 HTTP-01 质询通过 ACME 自动配置 TLS 证书。  自动阻止攻击、滥用或扫描服务器以查找漏洞的 IP 地址。  速率限制。  安全审计（阅读报告）。  内存安全（感谢 Rust）。  身份验证和授权：  OpenID Connect 身份验证。  使用授权代码和设备授权流程的 OAuth 2.0 授权。  LDAP、OIDC、SQL 或内置身份验证后端支持。  使用基于时间的一次性密码 （2FA-TOTP） 进行双重身份验证  应用程序密码 （App Passwords）。  角色和权限。  访问控制列表 （ACL）。  可观测性：  使用 OpenTelemetry、journald、日志文件和控制台支持进行日志记录和跟踪。  使用 OpenTelemetry 和 Prometheus 集成的指标。  用于事件驱动型自动化的 Webhook。  电子邮件和 Webhook 通知的警报。  实时跟踪和指标。  基于 Web 的管理：  具有实时统计信息和监控的仪表板。帐户、域、群组和邮件列表管理。邮件和出站 DMARC 和 TLS 报告的 SMTP 队列管理。用于接收的 DMARC、TLS-RPT 和故障 （ARF） 报告的报告可视化界面。配置邮件服务器的各个方面。具有搜索和筛选功能的日志查看器。用于密码重置和静态加密密钥管理的自助服务门户。
 
+* [tdlib/td](https://github.com/tdlib/td) TDLib（Telegram 数据库库）是一个用于构建 Telegram 客户端的跨平台库。它几乎可以在任何编程语言中轻松使用。TDLib 有很多优点。值得注意的是 TDLib ：跨平台： TDLib 可在 Android、iOS、Windows、macOS、Linux、FreeBSD、OpenBSD、NetBSD、illumos、Windows Phone、WebAssembly、watchOS、tvOS、visionOS、Tizen、Cygwin 上使用。它还应该在其他 *nix 系统上工作，无论是否付出最小的努力。多语言： TDLib 可以很容易地与任何能够执行 C 函数的编程语言一起使用。此外，它已经具有本机 Java（使用 JNI ）绑定和 .NET（使用 C++/CLI 和 C++/CX ）绑定。易于使用： TDLib 负责所有网络实施细节、加密和本地数据存储。高性能：在 Telegram Bot API 中，每个 TDLib 实例同时处理超过 24000 个活动机器人。有据可查：所有 TDLib API 方法和公共接口都有完整的文档记录。一致性： TDLib 保证所有更新都以正确的顺序交付。可靠： TDLib 在缓慢且不可靠的 Internet 连接上保持稳定。安全：所有本地数据都使用用户提供的加密密钥进行加密。完全异步：请求 TDLib 不要相互阻止或其他任何内容，响应在可用时发送。
+
+* [TKkk-iOSer/WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) MacOS微信小助手 v2.0，消息自动回复、消息防撤回、远程控制(已支持语音)、微信多开、第二次登录免认证、聊天置底功能(类似置顶)、微信窗口置顶、会话多选删除、自动登录开关、通知中心快捷回复、聊天窗口表情包复制 &amp; 存储、小助手检测更新提醒、alfred 快捷发送消息 &amp; 打开窗口 (需安装：wechat-alfred-workflow)、会话一键已读、一键清除空会话、支持国际化、新增一键更新、新增关于小助手、去除微信url转链、史上最强 alfred 扩展、新增移除会话(不删除聊天记录)、菜单栏(关于小助手)新增 alfred 开关、新增是否使用微信自带浏览器开关、新增LaunchBar 扩展、新增禁止微信检测更新开关(非App Store版本)、新增小助手.app安装方式、支持退群监控，撤回消息定位
+
+* [modoboa/modoboa](https://github.com/modoboa/modoboa) Modoboa是一个简化的邮件托管和管理平台，提供现代化的 Web 用户界面，包含管理面板和 Webmail 等实用组件。它与 Postfix 或 Dovecot等知名软件集成，并使用 SQL 数据库（MySQL、PostgreSQL 或 SQLite）作为所有组件之间通信的中心点。Modoboa 以模块化设计，易于扩展，所有现有功能都是扩展。它使用 Python 3 编写，并使用 Django、jQuery 和 Bootstrap 框架。主要功能包括管理面板、声誉保护（DNSBL 检查、DMARC 报告等）、Amavis 前端、Webmail、日历、通讯录、用户级 Sieve 过滤器、Postfix 自动回复消息和电子邮件流量统计图表。可以通过官方安装程序轻松安装，详细文档可帮助用户安装、使用或扩展 Modoboa。提供演示安装供试用，并通过 Discord 和 Github 提供社区支持。
+
+* [berty/berty](https://github.com/berty/berty) 安全的点对点消息传递应用程序，无论是否具有互联网访问、蜂窝数据或网络信任，都可以使用。建立在 Wesh 协议之上的隐私优先消息传递应用程序。安全和私密：默认情况下，消息是端到端加密的；元数据保持在最低限度；创建帐户不需要电话号码或电子邮件地址；即使在对抗性网络上使用时，也能保留其属性；具有审查弹性；去中心化、分布式、点对点和无服务器；由于采用了 BLE 技术和 mDNS，因此不需要互联网连接。；永久免费和开源Berty 被设计为在所有其他传统信使失败时用作通信工具。Berty Messenger 提供以下用例：当您需要通过不受信任的网络共享敏感信息时，例如在旅行时；
+
+* [antirez/botlib](https://github.com/antirez/botlib) Botlib是一个用 C 语言编写的 Telegram 机器人框架，它提供了一个Telegram 机器人 API 的子集实现，并通过事件循环等待 Telegram API事件，在新的线程中调用回调函数。回调函数可以访问各种 API 来执行 Telegram 操作。此外，它还提供了一组高级包装器，用于SQLite3、JSON 和动态字符串（SDS 库）。该库选择用 C 语言编写，因为它提供了一个比预期更高级的机器人编写体验，并确保了代码的稳定性和可移植性，使其能够在任何支持 `libcurl` 和 `libsqlite3` 的平台上运行。该库还利用线程来处理长时间运行的请求，并提供了一个简单的示例，展示了如何使用该框架开发一个简单的机器人。
+
+* [Jinnrry/PMail](https://github.com/Jinnrry/PMail) PMail是一个轻量级的个人邮件服务器，仅需一个文件即可运行，支持发送/接收邮件和网页管理功能。它支持 DKIM、SPF校验，并可自动获取和更新 Let's Encrypt 证书。用户只需一个服务器、一个域名和几分钟的配置时间，即可拥有自己的域名邮箱。PMail 支持多种协议，如 POP3、SMTP，用户可以使用任何邮件客户端。它还支持多域名、多用户，并提供完整的邮件发送和接收功能。用户可以通过浏览器访问 `http://127.0.0.1` 或服务器公网 IP 进行配置，并使用 [https://www.mail-tester.com/](https://www.mail-tester.com/) 检查邮箱安全配置。
+
+* [roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) 基于浏览器的多语言 IMAP 客户端，具有类似应用程序的用户界面。它提供了您期望从电子邮件客户端获得的全部功能，包括 MIME 支持、地址簿、文件夹管理、邮件搜索和拼写检查。Roundcube Webmail 是用 PHP 编写的，需要 MySQL、PostgreSQL 或 SQLite 数据库。凭借其插件 API，它很容易扩展，并且用户界面可以使用皮肤完全自定义。设计用于在 Web 服务器上运行的代码主要用 PHP 和 Javascript 编写。它包括一个自定义框架，其中包含派生自 IlohaMail 的 IMAP 库，并且需要一组外部库（请参阅 composer.json 和 jsdeps.json 文件）。
+
+* [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) 开源实时聊天、电子邮件支持、全渠道服务台。Intercom、Zendesk、Salesforce Service Cloud 等的替代品。支持以下对话渠道：网站：使用我们的实时聊天小部件与您的客户交谈，并利用我们的 SDK 来识别用户并提供上下文支持。Facebook、Instagram、Twitter、Telegram、WhatsApp、Line、Twilio 短信、API 通道、电子邮件。其他功能包括：CRM、自定义属性、共享多品牌收件箱、私人笔记、预制回复、对话标签、自动分配：根据可用性和负载智能地分配给有权访问收件箱的座席、对话连续性、多语言支持、强大的 API 和 Webhook
+
+* [owncast/owncast](https://github.com/owncast/owncast) 通过自行运行实时流视频来控制它。开箱即用的流媒体 + 聊天。Owncast 是一个开源、自托管、去中心化、单用户实时视频流和聊天服务器，用于运行您自己的实时流，其风格类似于大型主流选项。它提供对您的内容、界面、审核和受众的完全所有权。通常，Owncast 与任何使用 RTMP 向远程服务器广播的软件兼容。RTMP 是所有主要直播流媒体服务都使用的，因此，如果您当前正在使用其中一种，则可以将现有软件指向您的 Owncast 实例。
+
+* [axllent/mailpit](https://github.com/axllent/mailpit) Mailpit是一个轻量级、快速、零依赖的跨平台邮件测试工具和API，专为开发者设计。它充当SMTP服务器，提供现代化的Web界面用于查看和测试捕获的邮件，并包含一个API用于自动化集成测试。Mailpit的灵感来源于MailHog，但MailHog已经不再维护。Mailpit支持多种功能，包括：静态二进制文件或多架构Docker镜像部署、现代化的Web UI、SMTP服务器、REST API、实时Web UI更新、POP3服务器、HTML检查、链接检查、垃圾邮件检查以及创建截图。
+
+* [mfts/papermark](https://github.com/mfts/papermark) Papermark是 DocSend 的开源替代方案，提供内置分析功能和自定义域名。它允许您安全地共享文档，通过自定义链接进行访问，并添加自定义品牌和域名。Papermark 还提供文档跟踪和页面级分析功能，并允许您自托管和自定义。项目使用 Next.js、TypeScript、Tailwind CSS、Prisma ORM、PostgreSQL 数据库等技术构建，并集成 NextAuth.js 用于身份验证、Tinybird 用于分析、Resend 用于电子邮件发送、Stripe 用于支付以及 Vercel 用于托管。
+
+* [liiight/notifiers](https://github.com/liiight/notifiers) Notifiers是一个简单易用的 Python 库，它提供了一个统一的接口，让你可以轻松地向各种通知服务发送通知，例如 Pushover、SimplePush、Slack、Gmail、Telegram、Gitter、Pushbullet、Join、Zulip、Twilio、Pagerduty、Mailgun、PopcornNotify、StatusPage.io、iCloud、VictorOps 和 Notify。Notifiers 使用 requests、jsonschema 和 click 等稳定依赖库，避免了安装第三方 SDK 的麻烦。它支持所有新添加的提供商，并通过全面测试确保代码和通知的稳定性。
+
+* [useplunk/plunk](https://github.com/useplunk/plunk) Plunk是一个基于 AWS SES 的开源邮件平台，提供自托管的电子邮件发送服务，类似于 SendGrid、Resend 或 Mailgun。它支持发送事务性邮件、创建基于用户行为的自动化邮件和发送广播邮件，方便用户从应用程序中轻松发送电子邮件。用户可以通过 Docker 镜像 `driaug/plunk` 自行部署 Plunk，详细部署指南可在官方文档中找到。项目鼓励贡献者参与，贡献指南可在 CONTRIBUTING.md 中找到。
+
+* [ngc660sec/NGCBot](https://github.com/ngc660sec/NGCBot) NGCBot V2.2 是一个基于 HOOK 机制的微信机器人，拥有丰富的功能，包括安全新闻定时推送、Kfc 文案、备案查询、手机号归属地查询、WHOIS 信息查询、星座查询、天气查询、摸鱼日历、微步威胁情报查询、美女视频、美女图片、帮助菜单等。它还支持积分功能、自动拉人、检测广告、自动群发、Ai 回复等功能，并拥有高度的自定义程度，即使是小白也能轻松上手！
+
+* [novuhq/novu](https://github.com/novuhq/novu) 面向开发人员的开源通知基础结构。使用单个 API 管理多渠道通知的终极服务。适用于所有消息传递提供商的单一 API（应用内、电子邮件、短信、推送、聊天）。轻松管理多个渠道的通知。配备CMS，用于高级布局和设计管理。内置对缺失变量的保护。易于设置和集成。在单个仪表板中调试和分析多渠道消息。具有实时更新的嵌入式通知中心。社区驱动。
+
+* [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) 以与语言无关的方式扩展实时消息服务器。Pubnub、Pusher、Ably 的自托管替代品。设置一次，永远设置。开源、可扩展的实时消息服务器。Centrifugo可以即时向通过支持的传输（WebSocket、HTTP-streaming、SSE/EventSource、GRPC、SockJS、WebTransport）连接的应用程序在线用户发送消息。具有频道订阅的概念——因此它是一个面向用户的 PUB/SUB 服务器。
+
+* [songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher) message-pusher是一个基于 Golang 的消息推送服务，支持多种推送方式，包括微信、钉钉、企业微信、Bark、Telegram 等，支持 Markdown 格式，仅单可执行文件，开箱即用。用户可以轻松搭建专属于自己的消息推送服务，方便地将消息推送至不同的平台。该项目使用数据库来存储推送信息，并提供 Web 界面进行配置和管理。
+
+* [mastodon/mastodon](https://github.com/mastodon/mastodon) 基于 ActivityPub 的免费开源社交网络服务器，用户可以在其中关注并发现新朋友。 在 Mastodon 上，用户可以发布他们想要的任何东西：链接、图片、文本、视频。 所有服务器都可以作为联合网络进行互操作（一台服务器上的用户可以与另一台的用户无缝通信，包括实现 ActivityPub 的非 Mastodon 软件）
+
+* [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) 真正抗审查的 Twitter 替代品。最简单的开放协议，一劳永逸地创建抗审查的全球“社交”网络。 不依赖于任何受信任的中央服务器，因此具有弹性； 基于加密密钥和签名，防篡改； 它不依赖于 P2P 技术，因此可以正常工作。
+
+* [JeffreySu/WeiXinMPSDK](https://github.com/JeffreySu/WeiXinMPSDK) 微信全平台 .NET SDK， Senparc.Weixin for C#，支持 .NET Framework 及 .NET Core、.NET 8.0。已支持微信公众号、小程序、小游戏、微信支付、企业微信/企业号、开放平台、JSSDK、微信周边等全平台。 WeChat SDK for C#.
+
+* [JackJiang2011/MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK) 原创多端IM通信层框架，轻量级、高度提炼，历经8年、久经考验。可能是市面上唯一同时支持UDP + TCP + WebSocket三种协议的同类开源框架，支持 iOS、Android、Java、H5、小程序、Uniapp，服务端基于Netty。
+
+* [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server) 由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
+
+* [wechaty/wechaty](https://github.com/wechaty/wechaty) 面向微信聊天机器人制造商的RPA（机器人流程自动化）SDK，可以帮助您在JavaScript，Python，Go和Java的6行中创建机器人，并提供跨平台支持，包括Linux，Windows，MacOS和Docker。
+
+* [aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr) 用于抗审查全球网络的开放协议nostr的项目和资源的精选列表，包括：协议、中继、客户端、程序库、网桥和网关、工具、NIP-05身份服务、浏览器扩展、社区、教程
+
+* [mailcow/mailcow-dockerized](https://github.com/mailcow/mailcow-dockerized) 一个基于 Docker 的开源群件/电子邮件套件。Mailcow 依赖于许多众所周知且长期使用的组件，这些组件结合在一起形成了一个全方位的无忧电子邮件服务器。
+
+* [hubotio/hubot](https://github.com/hubotio/hubot) 构建聊天机器人的框架，以 GitHub 的同名 Campfire 机器人 hubot 为蓝本。他很酷。可以使用脚本进行扩展，并且可以在许多不同的聊天服务上工作。
+
+* [DrKLO/Telegram](https://github.com/DrKLO/Telegram) 一款专注于速度和安全性的消息传递应用程序。它超快速、简单且免费。此存储库包含适用于Android的Telegram应用程序的官方源代码。
+
+* [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) 将数据保护放在首位的通信平台。开源的完全可定制的通信平台，用JavaScript开发，适用于具有高标准数据保护的组织。
+
+* [localsend/localsend](https://github.com/localsend/localsend) AirDrop 的开源跨平台替代方案，可让您通过本地网络安全地与附近的设备共享文件和消息，而无需互联网连接。
+
+* [InstaPy/InstaPy](https://github.com/InstaPy/InstaPy) 自动执行社交媒体交互以“耕种”Instagram 上的点赞、评论和关注者的工具 使用 Selenium 模块在 Python 中实现。
+
+* [docker-mailserver/docker-mailserver](https://github.com/docker-mailserver/docker-mailserver) 生产就绪的全栈但简单的邮件服务器（SMTP、IMAP、LDAP、反垃圾邮件、防病毒等）在容器内运行。
+
+* [Wechat-Group/WxJava](https://github.com/Wechat-Group/WxJava) 微信开发 Java SDK ，支持包括微信支付，开放平台，小程序，企业微信，公众号等的后端开发
+
+* [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) 第一个没有任何类型的用户标识符的消息传递平台 - 设计100%私有！iOS和安卓应用程序发布
+
+* [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) 官方Telegram messenger桌面客户端的完整源代码和构建说明，基于Telegram API和MTProto安全协议。
+
+* [adam-p/markdown-here](https://github.com/adam-p/markdown-here) Google Chrome，Firefox和Thunderbird扩展程序可让您在Markdown中编写电子邮件并在发送前呈现。
+
+* [littlecodersh/ItChat](https://github.com/littlecodersh/ItChat) 微信个人号接口、微信机器人及命令行微信，三十行即可自定义个人号机器人。
+
+* [mailpile/Mailpile](https://github.com/mailpile/Mailpile) 一个免费开放的现代，快速的电子邮件客户端，具有用户友好的加密和隐私功能
+
+* [cluic/wxauto](https://github.com/cluic/wxauto) Windows版本微信客户端（非网页版）自动化，可实现简单的发送、接收微信消息
+
+* [processone/ejabberd](https://github.com/processone/ejabberd) 强大、无处不在且可大规模扩展的消息传递平台（XMPP、MQTT、SIP 服务器）
+
+* [papercups-io/papercups](https://github.com/papercups-io/papercups) 开源实时客户聊天。用Elixir编写的开源实时客户支持工具Web应用程序。
+
+* [Privoce/vocechat-server-rust](https://github.com/Privoce/vocechat-server-rust) 超轻量级的rust编写的社交服务器。轻松集成到您的网站/应用程序。
+
+* [Foundry376/Mailspring](https://github.com/Foundry376/Mailspring) 适用于 Mac、Windows 和 Linux 的美观、快速且完全开源的邮件客户端。
+
+* [knadh/listmonk](https://github.com/knadh/listmonk) 高性能、自托管、时事通讯和邮件列表管理器，具有现代仪表板。
+
+* [heyxyz/hey](https://github.com/heyxyz/hey) 使用 Lens Protocol 构建的去中心化且无需许可的社交媒体应用程序
+
+* [nats-io/nats-server](https://github.com/nats-io/nats-server) 适用于 NATS.io、云和边缘原生消息传递系统的高性能服务器。
+
+* [mamoe/mirai](https://github.com/mamoe/mirai) 在全平台下运行，提供 QQ Android 协议支持的高效率机器人库
+
+* [iredmail/iRedMail](https://github.com/iredmail/iRedMail) 适用于Linux/BSD 发行版的全功能开源邮件服务器解决方案。
+
+* [postalserver/postal](https://github.com/postalserver/postal) 功能齐全的开源邮件传递平台，用于传入和传出电子邮件
+
+* [gotify/server](https://github.com/gotify/server) 简单的服务器，用于每个 WebSocket 实时发送和接收消息。
+
+* [aiogram/aiogram](https://github.com/aiogram/aiogram) 现代且完全异步的Telegram Bot API框架，使用asyncio用Py编写
+
+* [w7corp/easywechat](https://github.com/w7corp/easywechat) 一个 PHP 微信 SDK，开源 SaaS 平台提供商微擎开源产品。
+
+* [Mailu/Mailu](https://github.com/Mailu/Mailu) 孤立的电子邮件分发 - 作为 Docker 映像的邮件服务器
+
+* [damus-io/damus](https://github.com/damus-io/damus) 类似twitter的nostr客户端，适用于iPhone、iPad和MacOS。
+
+* [LonamiWebs/Telethon](https://github.com/LonamiWebs/Telethon) 纯 Py3 MTProto API Telegram 客户端库，也适用于机器人
+
+* [web1n/wechat-universal-flatpak](https://github.com/web1n/wechat-universal-flatpak/tree/main) 基于微信 Linux Universal 版打包，无发行版限制。
+
+* [nylas/nylas-mail](https://github.com/nylas/nylas-mail) 基于现代 Web 构建的可扩展桌面邮件应用程序。
+
+* [python-telegram-bot/python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) 为 Telegram Bot API 提供了一个纯 Python 异步接口。
+
+* [wildfirechat/im-server](https://github.com/wildfirechat/im-server) 专业级的即时通讯和实时音视频整体解决方案
+
+* [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) 简单但可扩展的 Py实现，用于 Telegram Bot API。
+
+* [diaspora/diaspora](https://github.com/diaspora/diaspora) 一个具有隐私意识的分布式开源社交网络。
+
+* [discordjs/discord.js](https://github.com/discordjs/discord.js) 一个强大的JavaScript库，用于与Discord API交互
+
+* [tweepy/tweepy](https://github.com/tweepy/tweepy) 易于使用的 Python 库，用于访问 Twitter API。
+
+* [mlandauer/cuttlefish](https://github.com/mlandauer/cuttlefish) 具有可爱Web界面的事务性电子邮件服务器
+
+* [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) Mac微信功能拓展/微信插件/微信小助手
+
+* [Rapptz/discord.py](https://github.com/Rapptz/discord.py) 用 Python 编写的 Discord 的 API 包装器。
+
+* [koishijs/koishi](https://github.com/koishijs/koishi) 用爱制作的跨平台聊天机器人框架
+
+* [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) 悄咪咪收集的1000+个Telegram群合集
+
+* [irislib/iris-messenger](https://github.com/irislib/iris-messenger) 更好的社交网络Nostr的客户端。
+
+* [foxcpp/maddy](https://github.com/foxcpp/maddy) 可组合的多合一邮件服务器。
+
+* [jeffthibault/python-nostr](https://github.com/jeffthibault/python-nostr) 用于创建Nostr客户端的Python库
+
+* [antirez/smallchat](https://github.com/antirez/smallchat) 聊天服务器的最小C编程示例
+
+* [BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter) 微信聊天记录导出备份程序
+
+* [go-telegram-bot-api/telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) Telegram Bot API 的 Golang 绑定
+
+* [Privoce/vocechat-web](https://github.com/privoce/vocechat-web) VoceChat 的 Web 客户端
+
+* [dovecot/core](https://github.com/dovecot/core) 邮件服务器
+
+### 网络代理
+
+* [cloudflare/boringtun](https://github.com/cloudflare/boringtun) Rust 中的用户空间 WireGuard® 实现，专为便携性和速度而设计。BoringTun 已成功部署在数百万台 iOS 和 Android 消费类设备以及数千台 Cloudflare Linux 服务器上。可执行文件 boringtun-cli ，用于 Linux 和 macOS 的用户空间 WireGuard 实现。该库 boringtun 可用于在各种平台（包括 iOS 和 Android）上实现快速高效的 WireGuard 客户端应用程序。它实现了底层的 WireGuard 协议，没有网络或隧道堆栈，这些协议可以以平台惯用的方式实现。WireGuard ® 是一款极其简单但快速且现代的 VPN，它利用了最先进的加密技术。它旨在比 IPsec 更快、更简单、更精简、更有用，同时避免了令人头疼的问题。它打算比OpenVPN性能高得多。WireGuard 被设计为通用 VPN，可在嵌入式接口和超级计算机上运行，适用于许多不同的情况。它最初是为 Linux 内核发布的，现在是跨平台（Windows、macOS、BSD、iOS、Android）并可广泛部署的。它目前正在大量开发中，但它已经被认为是业内最安全、最容易使用和最简单的 VPN 解决方案。
+
+* [OpenVPN/openvpn](https://github.com/OpenVPN/openvpn) OpenVPN 是一个开源 VPN 守护进程。混合劳动力、迁移到云的工作负载、SaaS 的增长以及分布在多个环境中的应用程序。您的安全、IT 和网络团队面临的复杂性超乎想象。幸运的是，答案并不一定很复杂。OpenVPN 旨在为各种规模的公司提供简单、灵活且经济高效的安全远程访问，无论其资源位于何处。OpenVPN 是一款功能齐全的 SSL VPN，它使用行业标准 SSL/TLS 协议实现 OSI 第 2 层或第 3 层安全网络扩展，支持基于证书、智能卡和/或用户名/密码凭据的灵活客户端身份验证方法，并允许用户或使用应用于 VPN 虚拟接口的防火墙规则的特定于组的访问控制策略。 OpenVPN 不是 Web 应用程序代理，也不通过 Web 浏览器运行。OpenVPN 2.0 通过提供可扩展的客户端/服务器模式扩展了OpenVPN 1.x的功能，允许多个客户端通过单个 TCP 或 UDP 端口连接到单个 OpenVPN 服务器进程。 OpenVPN 2.3 包含大量改进，包括完整的 IPv6 支持和 PolarSSL 支持。
+
+* [ekzhang/bore](https://github.com/ekzhang/bore) bore是一个用Rust编写的简单命令行工具，用于创建到本地主机的隧道，绕过标准的NAT连接防火墙，将本地端口暴露给远程服务器。它类似于localtunnel和ngrok，但bore旨在成为一个高效、无意见的工具，用于转发TCP流量，易于安装和自托管，没有多余的功能。bore的代码量约为400行安全、异步的Rust代码，设置非常简单，只需运行一个客户端和服务器二进制文件即可。bore可以通过Homebrew、预构建的二进制文件或从源代码构建来安装。它还提供Docker镜像，允许用户从一个最小的“scratch”容器运行静态链接的bore二进制文件。bore支持本地转发和自托管，用户可以通过命令行选项配置本地端口、远程服务器地址、端口号、本地主机等参数。
+
+* [haad/proxychains](https://github.com/haad/proxychains) ProxyChains是一个Unix程序，它通过预加载的动态链接库（DLL）钩住动态链接程序中与网络相关的libc函数，并将连接重定向到SOCKS4a/5或HTTP代理。它支持多种代理类型，包括SOCKS4、SOCKS5和HTTP，并支持用户/密码身份验证（SOCKS4/5）和基本身份验证（HTTP）。ProxyChains可以用于各种场景，例如绕过防火墙、使用多个代理链、为不支持代理的程序提供代理功能，以及通过代理访问内网。该项目最新版本（4.x）去除了需要动态链接的&quot;dig&quot;二进制文件的dnsresolver脚本，从而提高了DNS操作速度，并允许使用.onion地址。它还添加了通过命令行开关/环境变量传递配置文件的支持。
+
+* [inconshreveable/ngrok](https://github.com/inconshreveable/ngrok) ngrok是一个全球分布式的反向代理，它可以安全、保护并加速您的应用程序和网络服务，无论您在何处运行它们。ngrok就像您应用程序的前门，它将您的反向代理、防火墙、API 网关和全局负载均衡器整合到一个系统中。ngrok 可以捕获并分析所有到您 Web 服务的流量，以便您稍后进行检查和重放。该项目已存档，不再开发、支持或维护，但 ngrok 的云服务仍在运行，您可以注册使用。ngrok 还继续在开源生态系统中贡献，例如 ngrok kubernetes 运算符、ngrok 代理 SDK 等。ngrok 可以用于多种场景，例如站点到站点的连接、开发者预览、Webhook 测试、API 网关、设备网关等。
+
+* [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) 该项目是一个 Clash Premium 规则集 (RULE-SET)，兼容 ClashX Pro、Clash forWindows 等基于 Clash Premium 内核的客户端。规则集数据源自 [@Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)和 [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)，并使用 [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list) 和 [@17mon/china_ip_list](https://github.com/17mon/china_ip_list) 提供的中国大陆 IPv4 地址信息。该项目仅适用于 Clash Premium 版本，并支持 TUN 加速模式，提供 TCP 和 UDP 流量转发。项目规则集每天 6:30 自动更新，确保规则集最新。
+
+* [Dreamacro/clash](https://github.com/Dreamacro/clash) Go 中基于规则的隧道。入站：HTTP，HTTPS，SOCKS5服务器，TUN设备。出站： Shadowsocks（R）， VMess， Trojan， Snell， SOCKS5， HTTP（S）， Wireguard。基于规则的路由：动态脚本、域、IP 地址、进程名称等。假 IP DNS：最大限度地减少对 DNS 污染的影响并提高网络性能。透明代理：通过自动路由表/规则管理重定向 TCP 和 TProxy TCP/UDP。代理组：自动回退、负载平衡或延迟测试。远程提供程序：动态加载远程代理列表。RESTful API：通过全面的 API 就地更新配置。
+
+* [SagerNet/sing-box](https://github.com/SagerNet/sing-box) 通用代理平台，一款功能强大的跨平台代理客户端软件，支持多种代理协议，如 Shadowsocks、Trojan、VMess 等。它整合了多种代理协议，支持跨平台使用，并提供灵活的流量控制功能，可用于改善网络连接、绕过网络限制以及优化网络流量路由。此外，Sing-box 还可以创建网络代理服务器、客户端和透明代理，并允许用户管理和使用本地、iCloud 和远程配置文件。
+
+* [ginuerzh/gost](https://github.com/ginuerzh/gost) GO语言实现的安全隧道。特性：多端口监听、可设置转发代理，支持多级转发(代理链)、支持标准HTTP(2)(S)/SOCKS4(A)(5)代理协议、Web代理支持探测防御、支持多种隧道类型、SOCKS5代理支持TLS协商加密、基于 TCP 的隧道 UDP、TCP/UDP透明代理、本地/远程TCP/UDP转发、支持Shadowsocks(TCP/UDP)协议、支持SNI代理、权限控制、负载均衡、路由控制、DNS解析和代理、TUN/TAP设备
+
+* [LibNyanpasu/clash-nyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu) Clash Nyanpasu是一款基于Tauri的Clash图形界面，支持Clash Premium、Mihomo和Clash Rust。它提供配置文件管理和增强功能，支持提供商管理，并采用Google Material You设计语言。用户可以通过YAML、JavaScript和Lua来定制配置文件，并享受流畅的动画体验。项目还提供安装指南、常见问题解答和开发环境配置说明，欢迎用户提交问题和代码贡献。
+
+* [Z-Siqi/Clash-for-Windows_Chinese](https://github.com/Z-Siqi/Clash-for-Windows_Chinese) Clash for Windows汉化版项目提供Clash for Windows的汉化版、汉化补丁以及汉化版安装程序。该项目支持多种Clash版本，用户可通过安装程序直接安装汉化版，或使用补丁对现有版本进行汉化。项目特色包括：使用安装程序安装汉化版可自动更新汉化内容，使用补丁则需要手动更新。该项目已于2023年11月3日存档，不再提供更新。
+
+* [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) 包含 Cloudflare Tunnel 的命令行客户端，这是一个隧道守护程序，用于代理从 Cloudflare 网络到源的流量。此守护程序位于 Cloudflare 网络和您的源（例如 Web 服务器）之间。Cloudflare 吸引客户端请求并通过此守护程序将其发送给您，而无需您在防火墙上戳洞，---您的源可以尽可能保持关闭状态。
+
+* [firezone/firezone](https://github.com/firezone/firezone) 基于 WireGuard® 的可扩展远程访问平台，与您的 IdP 集成，无需开放端口。开源平台，可安全地管理任何规模组织的远程访问。与大多数 VPN 不同，Firezone 采用精细、最低权限的访问管理方法，采用基于组的策略来控制对单个应用程序、整个子网以及介于两者之间的所有内容的访问。
+
+* [Anankke/SSPanel-Uim](https://github.com/Anankke/SSPanel-Uim) SSPanel-UIM是一个多功能代理服务管理系统，支持 Shadowsocks(2022) / V2Ray / Trojan / TUIC 等协议，集成多种支付系统，支持自定义节点配置、模块化订阅系统、多种订阅格式，并提供智能回复、文档生成等 AI 功能，需要 Git、Nginx、PHP 8.2+、MariaDB 10.11+、Redis 7.0+ 等软件环境。
+
+* [netchx/netch](https://github.com/netchx/netch) Netch是一个简单的代理客户端，支持多种代理协议，包括 Socks5、Shadowsocks、ShadowsocksR、WireGuard、Trojan、VMess 和 VLESS。它提供多种模式，包括进程模式、共享模式、隧道模式和 Web 代理模式，并支持 UDP NAT FullCone 功能。Netch 使用.NET 6.0 x64 开发，并遵循 GPLv3 许可协议。
+
+* [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) 翻墙-科学上网、自由上网、免费科学上网、免费翻墙、油管youtube、fanqiang、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙、科学上网
+
+* [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) 免费订阅地址，免费节点，6小时更新一次，共享节点，节点质量高可用，完全免费。免费clash订阅地址，免费翻墙、免费科学上网、免费梯子、免费ss/v2ray/trojan节点、谷歌商店、翻墙梯子。
+
+* [XX-net/XX-Net](https://github.com/XX-net/XX-Net) 绕过 GFW 的代理工具。不去研究墙有什么缺陷，因为所有的缺陷都会被慢慢的补上。  我们的策略是化身为普通流量，完全无法区分，最终隐身在茫茫的网络连接中。
+
+* [snail007/goproxy](https://github.com/snail007/goproxy) golang实现的高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。
+
+* [msgbyte/tailchat](https://github.com/msgbyte/tailchat) 不仅是 IM。相反，它为个人/团队设计了一个以IM为中心的高度定制化的应用平台，以第三方应用作为增强功能，以插件系统作为中间的胶水连接层。
+
+* [Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray) Linux / Windows / macOS 跨平台 V2Ray 客户端 | 支持 VMess / VLESS / SSR / Trojan / Trojan-Go / NaiveProxy / HTTP / HTTPS / SOCKS5 | 使用 C++ / Qt 开发 | 可拓展插件式设计
+
+* [vernesong/OpenClash](https://github.com/vernesong/OpenClash) 可运行在 OpenWrt 上的 Clash 客户端。兼容 Shadow socks、ShadowsocksR、Vmess、Trojan、Snell 等协议，根据灵活的规则配置实现策略代理
+
+* [hiddify/hiddify-next](https://github.com/hiddify/hiddify-next) 多平台自动代理客户端，支持Sing-box、X-ray、TUIC、Hysteria、Reality、Trojan、SSH等。它是开源的、安全的、无广告的。
+
+* [trailofbits/algo](https://github.com/trailofbits/algo) 一组 Ansible 脚本，可简化个人 WireGuard 和 IPsec VPN 的设置。使用最安全的默认值，并与常见的云提供商合作。
+
+* [freefq/free](https://github.com/freefq/free) 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子
+
+* [juanfont/headscale](https://github.com/juanfont/headscale) 建立在 Wireguard 之上的现代 VPN。它的工作方式类似于网络计算机之间的覆盖网络 - 使用 NAT 遍历。
+
+* [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) 适用于 Ubuntu、Debian、AlmaLinux、Rocky Linux、CentOS 和 Fedora 的 OpenVPN road warrior 安装程序
+
+* [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
+
+* [cyfdecyf/cow](https://github.com/cyfdecyf/cow) 用 Go 编写的 HTTP 代理。COW 可以自动识别被阻止的站点并使用父代理进行访问。
+
+* [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) 使用 IPsec/L2TP、Cisco IPsec 和 IKEv2 构建您自己的 IPsec VPN 服务器的脚本
+
+* [chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) 用于连接、快速、next.js等的单行node.js http 代理中间件
+
+* [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) Web GUI，支持 V2Ray、Xray、SS、SSR、Trojan 和 Pingtunnel
+
+* [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) 翻墙-科学上网、翻墙工具、翻墙教程项目库
+
+* [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) 一个用于构建代理以绕过网络限制的平台。
+
+* [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) Xray 基于 Nginx 的 VLESS + XTLS 一键安装脚本
+
+* [SoftEtherVPN/SoftEtherVPN](https://github.com/SoftEtherVPN/SoftEtherVPN) 跨平台多协议 VPN 软件。
+
+* [grpc/grpc-web](https://github.com/grpc/grpc-web) 适用于 Web 客户端的 gRPC
+
+* [shadowsocks/ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) 下一代 ShadowsocksX
+
+### 网络协议
+
 * [safing/portmaster](https://github.com/safing/portmaster) 免费的开源应用程序防火墙，可以为您完成繁重的工作。恢复隐私并收回对所有计算机网络活动的控制。通过良好的默认设置，您的隐私可以毫不费力地得到改善。如果您想配置和控制一切细节 - Portmaster 也能满足您的需求。特征：监控所有网络活动；完全控制：阻止任何内容；自动阻止跟踪器和恶意软件；设置全局和每个应用程序设置；安全 DNS (Doh/DoT)；记录和搜索网络活动；每个应用程序的带宽使用量 ；SPN，我们的下一代隐私网络。Portmaster 是适用于 Windows 和 Linux 桌面的隐私套件。基础技术：在 Linux 上使用 nfqueue 并在 Windows 上使用内核驱动程序 (WFP) 集成到网络堆栈中。数据包在原始数据包级别被拦截 - 每个数据包都会被看到并可以被阻止。连接的所有权是在 Linux 上使用 eBPF 和/proc以及在 Windows 上使用内核驱动程序和 IP Helper API ( iphlpapi.dll ) 来找到的。大多数设置可以为每个应用程序定义，可以通过不同的方式进行匹配。支持具有奇怪或隐藏路径/参与者的特殊进程：Linux 上的 Snap、AppImage 和脚本支持。Windows 上的 Windows 应用商店应用程序和 svchost.exe 系统服务支持。您设备上的一切都是 100% 本地化。 （当然，SPN 除外）更新已完全签名并自动下载。自动下载并应用情报数据（阻止列表、geoip）。Portmaster 核心服务作为系统服务运行，UI 元素（应用程序、通知程序）在用户上下文中运行。也可以在浏览器中打开UI。DNS 功能：安全 DNS，拦截“误入歧途”的 DNS 查询并将其重新路由到自身以实现无缝集成。DNS 查询由默认或配置的 DoT/DoH 解析器解析。完全支持水平分割和水平验证，以防御重新绑定攻击。隐私过滤器：定义允许的网络范围：本地主机、LAN、Internet、P2P、入站。基于互联网实体的简单规则：域、IP、国家/地区等。过滤器列表阻止常见的恶意软件、广告、跟踪器域等。网络历史记录：在本地数据库中记录连接及其详细信息，并在以后搜索所有内容，自动删除旧历史记录或按需删除。带宽可见性：监控每个连接和应用程序的带宽使用情况。SPN - 安全隐私网络：针对 VPN 和 Tor“之间”用例的隐私网络。就像 Tor 一样，在多跳上使用洋葱加密。选择的路线可以覆盖网络内的大部分距离，以增强隐私性。选靠近目标服务器的出口。在许多情况下，这会自动解除地理封锁。排除应用程序和域/实体使用 SPN。更改每个应用程序的路由算法和焦点。节点由 Safing（Portmaster 背后的公司）和社区托管。速度相当不错（&gt;100MBit/s）。
-
-* [m1k1o/neko](https://github.com/m1k1o/neko) 欢迎使用 Neko，这是一个在 Docker 中运行并使用 WebRTC 技术的自托管虚拟浏览器。Neko 是一个强大的工具，可让您在虚拟环境中运行功能齐全的浏览器，使您能够从任何地方安全、私密地访问互联网。使用 Neko，您可以像在常规浏览器上一样浏览 Web、运行应用程序和执行其他任务，所有这些都在一个安全隔离的环境中进行。无论您是希望测试 Web 应用程序的开发人员，还是寻求安全浏览体验的注重隐私的用户，或者只是想要利用虚拟浏览器的便利性和灵活性的人，Neko 都是完美的解决方案。除了安全和隐私功能外，Neko 还允许多个用户同时访问它。这使其成为需要共享浏览器访问权限的团队或组织，以及希望使用多个设备访问同一虚拟环境的个人的理想解决方案。使用 Neko，您可以轻松安全地与他人共享对浏览器的访问权限，而无需担心维护单独的配置或设置。无论您是需要协作处理项目、访问共享资源，还是只想与朋友或家人共享对浏览器的访问权限，Neko 都能轻松实现。Neko 也是举办观看派对和交互式演示的绝佳工具。凭借其虚拟浏览器功能，Neko 允许您举办可从任何地方访问的观看派对和演示，而无需面对面的聚会。这使得您很容易与朋友和同事保持联系，即使您无法亲自见面。使用 Neko，您可以轻松举办观看派对或进行互动演示，无论是休闲还是工作。只需邀请您的客人加入虚拟环境，您就可以共享屏幕并与他们实时互动。
-
-* [pre-commit/pre-commit](https://github.com/pre-commit/pre-commit) 一个用于管理和维护多语言 pre-commit hook 的框架。Git 钩子脚本可用于在提交代码审查之前识别简单问题。我们在每次提交时都运行钩子，以自动指出代码中的问题，例如缺少分号、尾随空格和 debug 语句。通过在代码审查之前指出这些问题，这允许代码审查者专注于更改的架构，而不会浪费时间在琐碎的风格吹毛求疵上。随着我们创建更多的库和项目，我们认识到在项目之间共享我们的 pre-commit 钩子是很痛苦的。我们从一个项目复制并粘贴了笨拙的 bash 脚本，并且必须手动更改钩子以适用于不同的项目结构。我们认为您应该始终使用最好的行业标准 Linter。一些最好的 Linter 是用您在项目中未使用的语言编写的，或者您计算机上没有安装的语言。例如，scss-lint 是用 Ruby 编写的 SCSS 的 Linter。如果您在 Node 中编写项目，您应该能够将 scss-lint 用作预提交钩子，而无需将 Gemfile 添加到您的项目或了解如何安装 scss-lint。我们构建了 pre-commit 来解决我们的 hook 问题。它是一个用于 pre-commit 钩子的多语言包管理器。你指定一个你想要的钩子列表，pre-commit 在每次提交之前管理用任何语言编写的任何钩子的安装和执行。pre-commit 经过专门设计，不需要 root 访问权限。如果你的某个开发人员没有安装 node，但修改了 JavaScript 文件，pre-commit 会自动处理下载和构建 node 以在没有 root 的情况下运行 eslint。
-
-* [hyperknot/openfreemap](https://github.com/hyperknot/openfreemap) OpenFreeMap是一个免费开源的地图托管解决方案，使用 OpenStreetMap 数据为网站和应用程序提供自定义地图样式。它可以自托管或使用其公共实例。所有内容都是开源的，包括完整的生产设置，没有“开源核心”模式。地图数据来自 OpenStreetMap。使用其公共实例完全免费，没有地图视图或请求数量限制，无需注册、用户数据库、API 密钥或 cookie。它通过捐赠来支付公共实例的运行成本。它还提供每周完整的地球下载，包括 Btrfs 和 MBTiles 格式。该项目的目标是使用现有工具提供免费的生产级矢量瓦片托管，这些工具包括 OpenStreetMap、OpenMapTiles、Planetiler、MapLibre、Natural Earth 和Wikidata。该项目专注于瓦片生成、Web 服务器和每周自动更新，并提供公共实例，自 2024 年 6 月起成为 MapHub 的生产基础地图服务。该项目不提供搜索、地理编码、路线计算、导航、静态图像生成、栅格瓦片托管、卫星图像托管、高程查找或自定义瓦片或数据集托管。它也不是一个可以本地安装的项目，而是专门用于设置干净的 Ubuntu 服务器或虚拟机的部署脚本。它使用 Fabric 并通过 SSH运行命令，可以一键设置生产就绪的服务器，用于瓦片托管和生成。该项目有意不使用 Docker，但欢迎其他人创建基于 Docker 的版本。它不承诺为自托管者提供无忧的自动更新。
 
 * [netbox-community/netbox](https://github.com/netbox-community/netbox) 用于建模和记录现代网络的领先解决方案。通过将 IP 地址管理 （IPAM） 和数据中心基础设施管理 （DCIM） 的传统规则与强大的 API 和扩展相结合，NetBox 为网络自动化提供了理想的“事实来源”。NetBox 作为 Apache 2.0 许可下的开源软件提供，是数千个组织网络自动化的基石。`物理基础设施`：精确地模拟物理世界，从全球区域到单个设备机架。然后连接一切 - 网络、控制台和电源！`现代 IPAM`：您期望的所有标准 IPAM 功能，以及 VRF 导入/导出跟踪、VLAN 管理和覆盖网络支持。`数据电路`：自信地管理来自各种服务提供商的关键电路的交付，并与您自己的基础设施无缝建模。`功率跟踪`：将上游电源的功率分布映射到各个馈电和插座。`组织`：以本机方式管理租户和联系人分配。`强大的搜索功能`：使用单一的全局搜索功能轻松找到您需要的任何内容。`全面的日志记录`：利用自动更改日志记录和用户提交的日志条目来跟踪网络随时间推移的增长情况。`无尽的自定义`：自定义字段、自定义链接、标签、导出模板、自定义验证、报告、脚本等！`灵活的权限`：高级权限系统可实现非常灵活的权限委派。`集成`：通过其REST和GraphQL API轻松将NetBox连接到您的其他工具。`插件`：尝试众多社区插件之一 - 或构建自己的插件！
 
 * [pfsense/pfsense](https://github.com/pfsense/pfsense) pfSense是一个基于 FreeBSD 的免费网络防火墙发行版，它使用自定义内核并包含第三方免费软件包来提供额外的功能。pfSense 软件通过其软件包系统能够提供与常见商业防火墙相同或更强大的功能，且没有人工限制。它已成功替代了全球众多安装中的所有知名商业防火墙，包括 Check Point、Cisco PIX、Cisco ASA、Juniper、Sonicwall、Netgear、Watchguard、Astaro 等。pfSense 软件包含一个 Web 界面，用于配置所有包含的组件，无需任何 UNIX 知识，无需使用命令行，也无需手动编辑任何规则集。熟悉商业防火墙的用户可以快速上手 Web 界面，但对于不熟悉商业级防火墙的用户来说可能需要一定的学习曲线。pfSense 项目始于 2004 年，是 [m0n0wall](http://m0n0.ch/wall/index.php &quot;m0n0wall project homepage&quot;) 项目的衍生项目（该项目于 2015 年 2 月 15 日结束），但自那时起已发生了重大变化。pfSense 的版权归 [Rubicon Communications, LLC (Netgate)](https://pfsense.org/license &quot;License Information&quot;) 所有，并根据开源许可证发布。更多信息请访问 [https://pfsense.org/](https://pfsense.org/ &quot;The pfSense homepage&quot;)，并通过购买捆绑硬件设备或商业支持来支持团队。
 
-* [tdlib/td](https://github.com/tdlib/td) TDLib（Telegram 数据库库）是一个用于构建 Telegram 客户端的跨平台库。它几乎可以在任何编程语言中轻松使用。TDLib 有很多优点。值得注意的是 TDLib ：跨平台： TDLib 可在 Android、iOS、Windows、macOS、Linux、FreeBSD、OpenBSD、NetBSD、illumos、Windows Phone、WebAssembly、watchOS、tvOS、visionOS、Tizen、Cygwin 上使用。它还应该在其他 *nix 系统上工作，无论是否付出最小的努力。多语言： TDLib 可以很容易地与任何能够执行 C 函数的编程语言一起使用。此外，它已经具有本机 Java（使用 JNI ）绑定和 .NET（使用 C++/CLI 和 C++/CX ）绑定。易于使用： TDLib 负责所有网络实施细节、加密和本地数据存储。高性能：在 Telegram Bot API 中，每个 TDLib 实例同时处理超过 24000 个活动机器人。有据可查：所有 TDLib API 方法和公共接口都有完整的文档记录。一致性： TDLib 保证所有更新都以正确的顺序交付。可靠： TDLib 在缓慢且不可靠的 Internet 连接上保持稳定。安全：所有本地数据都使用用户提供的加密密钥进行加密。完全异步：请求 TDLib 不要相互阻止或其他任何内容，响应在可用时发送。
-
-* [OpenFeign/feign](https://github.com/OpenFeign/feign) Feign是一个 Java HTTP 客户端绑定器，它简化了编写 Java HTTP客户端的过程，灵感来自 Retrofit、JAXRS-2.0 和 WebSocket。Feign的主要目标是简化将 Denominator 统一绑定到 HTTP API 的过程，无论其是否符合 ReSTful 规范。Feign 利用 Jersey 和 CXF等工具为 ReST 或 SOAP 服务编写 Java 客户端，并允许用户在 Apache HC 等 HTTP 库之上编写自己的代码。Feign 通过可定制的解码器和错误处理将代码连接到 HTTP API，从而实现最小开销和代码，这些解码器和错误处理可以编写到任何基于文本的 HTTP API。Feign 通过将注解处理成模板化的请求来工作，并在输出之前以简单的方式将参数应用于这些模板。尽管 Feign 仅支持基于文本的 API，但它极大地简化了系统方面，例如重放请求。此外，Feign 使得在了解这一点的情况下轻松地对转换进行单元测试。Feign 10.x 及更高版本基于 Java 8，应该可以在 Java 9、10 和 11 上运行。对于需要 JDK 6 兼容性的用户，请使用 Feign 9.x。Feign 的路线图包括响应缓存、完整的 URI 模板表达式支持、Logger API 重构、Retry API 重构、异步执行支持以及 Reactive 执行支持。
-
 * [mininet/mininet](https://github.com/mininet/mininet) 软件定义网络的快速原型设计。在笔记本电脑上模拟几乎任何网络的最佳方式！Mininet 在一台计算机上模拟由主机、链路和交换机组成的完整网络。要创建双主机、单交换机网络示例，只需运行：Mininet 对于交互式开发、测试和演示非常有用，尤其是那些使用 OpenFlow 和 SDN 的开发、测试和演示。在 Mininet 中构建原型的基于 OpenFlow 的网络控制器通常可以传输到硬件，只需进行最少的更改即可实现全线速执行。Mininet 使用基于进程的虚拟化和网络命名空间创建虚拟网络，这些功能在最近的 Linux 内核中可用。在 Mininet 中，主机被模拟为在网络命名空间中运行的 bash 进程，因此通常在 Linux 服务器（如 Web 服务器或客户端程序）上运行的任何代码都应该在 Mininet“主机”中运行良好。Mininet “Host” 将拥有自己的私有网络接口，并且只能看到自己的进程。Mininet 中的交换机是基于软件的交换机，如 Open vSwitch 或 OpenFlow 参考交换机。链路是虚拟以太网对，它们位于 Linux 内核中，并将我们的模拟交换机连接到模拟主机（进程）。
 
-* [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) 简单、安全且符合标准的 Web 服务器，适用于要求最苛刻的应用程序。μWebSockets 针对速度和内存占用进行了精心优化，速度足够快，可以比大多数替代服务器更快地完成加密的 TLS 1.3 消息传递，甚至可以执行未加密的明文消息传递。μWebSockets完全是用C&amp;C++编写的，但与Node.js后端无缝集成。这允许使用广泛的能力快速编写功能强大的应用程序的脚本。请参见μWebSockets.js。μWebSockets 为世界上许多最大的加密货币交易所提供支持，每天处理数十亿美元的交易量。如果您交易加密货币，您很有可能通过μWebSockets进行交易。围绕一个方便的URL路由器设计，支持通配符和参数 - 与WebSockets的高效发布/订阅功能配对。μWebSockets 应该是任何具有高要求的实时 Web 项目的明显、完整的起点。μWebSockets 建立在 μSockets 之上，μSockets 是一个在三个不同层中实现事件、网络和加密的基础库。每一层都有多个实现，您可以使用标志控制编译后的组合。目前有五个事件循环集成;libuv、ASIO、GCD 和原始 epoll/kqueue。
-
 * [scottlamb/moonfire-nvr](https://github.com/scottlamb/moonfire-nvr) Moonfire NVR是一款开源的安全摄像头网络视频录像机，它可以将 IP摄像头的 H.264-over-RTSP 流保存到磁盘，并使用混合格式存储：视频帧存储在旋转磁盘上的目录中，其他数据存储在闪存上的 SQLite3 数据库中。它可以根据需要构建 `.mp4` 文件，并且不需要解码、分析或重新编码视频帧，因此对 CPU 的要求很低。它可以在一台 Raspberry Pi 2 上处理六个 1080p/30fps 流，并且 CPU 使用率不到 10%。目前，Web 界面比较基础，包含一个可过滤的视频片段列表，支持将片段修剪到任意时间范围。还提供了一个实验性的实时视图 UI。Moonfire NVR 尚未支持运动检测、https/TLS 支持，并且只有基于控制台的（而非基于 Web 的）配置 UI。Moonfire NVR 仍处于1.0 之前的版本，不保证兼容性：配置和存储格式可能会在不同版本之间发生变化。它提供了一个升级过程，但操作难度较大。未来计划添加视频分析等功能，最终目标是构建一个功能齐全的、面向爱好者的多摄像头 NVR，只需要一台廉价的机器和一个大硬盘即可。
-
-* [cloudflare/boringtun](https://github.com/cloudflare/boringtun) Rust 中的用户空间 WireGuard® 实现，专为便携性和速度而设计。BoringTun 已成功部署在数百万台 iOS 和 Android 消费类设备以及数千台 Cloudflare Linux 服务器上。可执行文件 boringtun-cli ，用于 Linux 和 macOS 的用户空间 WireGuard 实现。该库 boringtun 可用于在各种平台（包括 iOS 和 Android）上实现快速高效的 WireGuard 客户端应用程序。它实现了底层的 WireGuard 协议，没有网络或隧道堆栈，这些协议可以以平台惯用的方式实现。WireGuard ® 是一款极其简单但快速且现代的 VPN，它利用了最先进的加密技术。它旨在比 IPsec 更快、更简单、更精简、更有用，同时避免了令人头疼的问题。它打算比OpenVPN性能高得多。WireGuard 被设计为通用 VPN，可在嵌入式接口和超级计算机上运行，适用于许多不同的情况。它最初是为 Linux 内核发布的，现在是跨平台（Windows、macOS、BSD、iOS、Android）并可广泛部署的。它目前正在大量开发中，但它已经被认为是业内最安全、最容易使用和最简单的 VPN 解决方案。
-
-* [OpenVPN/openvpn](https://github.com/OpenVPN/openvpn) OpenVPN 是一个开源 VPN 守护进程。混合劳动力、迁移到云的工作负载、SaaS 的增长以及分布在多个环境中的应用程序。您的安全、IT 和网络团队面临的复杂性超乎想象。幸运的是，答案并不一定很复杂。OpenVPN 旨在为各种规模的公司提供简单、灵活且经济高效的安全远程访问，无论其资源位于何处。OpenVPN 是一款功能齐全的 SSL VPN，它使用行业标准 SSL/TLS 协议实现 OSI 第 2 层或第 3 层安全网络扩展，支持基于证书、智能卡和/或用户名/密码凭据的灵活客户端身份验证方法，并允许用户或使用应用于 VPN 虚拟接口的防火墙规则的特定于组的访问控制策略。 OpenVPN 不是 Web 应用程序代理，也不通过 Web 浏览器运行。OpenVPN 2.0 通过提供可扩展的客户端/服务器模式扩展了OpenVPN 1.x的功能，允许多个客户端通过单个 TCP 或 UDP 端口连接到单个 OpenVPN 服务器进程。 OpenVPN 2.3 包含大量改进，包括完整的 IPv6 支持和 PolarSSL 支持。
 
 * [AlexxIT/go2rtc](https://github.com/AlexxIT/go2rtc) go2rtc是一个功能强大的摄像头流媒体应用程序，支持 RTSP、WebRTC、HomeKit、FFmpeg、RTMP 等多种协议。它具有零依赖、零配置的特点，可以在 Windows、macOS、Linux、ARM 等多种操作系统上运行。go2rtc 支持从 RTSP、RTMP、HTTP、USB 摄像头以及其他来源进行流媒体传输，并可以将流媒体传输到 RTSP、WebRTC、MSE/MP4、HomeKit、HLS 或 MJPEG 等目标。go2rtc 还支持将任何来源发布到流行的流媒体服务（如 YouTube、Telegram 等），并支持 H265 WebRTC 浏览器播放（仅限 Safari）。go2rtc 可以通过 FFmpeg 进行实时转码，并支持在某些摄像头播放音频文件和直播流。此外，go2rtc 还支持多源双向编解码器协商，可以将来自不同来源的音轨混合到单个流中，并自动匹配客户端支持的编解码器。go2rtc 还支持通过 ngrok 从私有网络进行流媒体传输，可以集成到任何智能家居平台或作为独立应用程序使用。
 
@@ -8592,101 +9380,225 @@
 
 * [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) GoodbyeDPI是一款针对 Windows 系统的深层数据包检测绕过工具，旨在绕过许多互联网服务提供商使用的深层数据包检测系统，这些系统会阻止访问特定网站。它可以处理使用光纤分路器或端口镜像（被动 DPI）连接的 DPI，这些 DPI 不会阻止任何数据，但会比请求的目标更快地回复，以及顺序连接的主动 DPI。它需要 Windows 7、8、8.1、10 或 11以及管理员权限。该工具提供快速启动脚本，例如针对俄罗斯的 `1_russia_blacklist_dnsredir.cmd` 和针对其他国家的 `2_any_country_dnsredir.cmd`，这些脚本将 GoodbyeDPI 启动在推荐模式下，并将 DNS 解析器重定向到 Yandex DNS 的非标准端口，以防止 DNS 污染。此外，它还提供多种配置选项，例如 HTTP 分片、HTTPS 分片、DNS重定向、黑名单等，用户可以根据需要进行配置。
 
-* [pallets/werkzeug](https://github.com/pallets/werkzeug) 全面的 python WSGI Web 应用程序库。它最初是 WSGI 应用程序的各种实用程序的简单集合，现已成为最先进的 WSGI 实用程序库之一。包括：一个交互式调试器，允许在浏览器中使用堆栈中任何帧的交互式解释器检查堆栈跟踪和源代码。一个功能齐全的请求对象，其中包含用于与标头、查询参数、表单数据、文件和 Cookie 交互的对象。一个响应对象，可以包装其他 WSGI 应用程序并处理流数据。用于将 URL 匹配到端点并为端点生成 URL 的路由系统，以及用于从 URL 捕获变量的可扩展系统。HTTP 实用程序，用于处理实体标记、缓存控制、日期、用户代理、cookie、文件等。在本地开发应用程序时使用的线程 WSGI 服务器。一个测试客户端，用于在测试期间模拟 HTTP 请求，而无需运行服务器。
-
 * [apache/thrift](https://github.com/apache/thrift) 一个轻量级、独立于语言的软件堆栈，用于点对点 RPC 实现。Thrift 为数据传输、数据序列化和应用程序级处理提供了干净的抽象和实现。代码生成系统将简单的定义语言作为输入，并跨编程语言生成代码，这些编程语言使用抽象堆栈来构建可互操作的 RPC 客户端和服务器。Thrift 使用不同编程语言编写的程序可以轻松共享数据和调用远程过程。由于支持 28 种编程语言，Thrift 很可能支持您当前使用的语言。Thrift 专门设计用于支持跨客户端和服务器代码的非原子版本更改。这允许您升级服务器，同时仍然能够为旧客户端提供服务;或者让较新的客户端向较旧的服务器发出请求。社区提供的关于对 API 进行版本控制时的节俭和兼容性的优秀文章可以在节俭缺失指南中找到。
 
 * [secdev/scapy](https://github.com/secdev/scapy) 基于Python的交互式数据包操作程序和库。它能够伪造或解码各种协议的数据包，通过网络发送它们，捕获它们，使用 pcap 文件存储或读取它们，匹配请求和回复等等。它旨在通过使用有效的默认值来允许快速数据包原型设计。它可以轻松处理大多数经典任务，如扫描、跟踪路由、探测、单元测试、攻击或网络发现（它可以替换 hping 、 等的 85% nmap arpspoof arp-sk arping tcpdump wireshark p0f 的 、它在大多数其他工具无法处理的许多其他特定任务中也表现得很好，例如发送无效帧、注入您自己的 802.11 帧、组合技术（VLAN 跳跃 + ARP 缓存中毒、WEP 受保护信道上的 VoIP 解码等）等。Scapy 支持 Python 3.7+。它旨在跨平台运行，并在许多不同的平台（Linux、OSX、*BSD 和 Windows）上运行。
-
-* [TKkk-iOSer/WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) MacOS微信小助手 v2.0，消息自动回复、消息防撤回、远程控制(已支持语音)、微信多开、第二次登录免认证、聊天置底功能(类似置顶)、微信窗口置顶、会话多选删除、自动登录开关、通知中心快捷回复、聊天窗口表情包复制 &amp; 存储、小助手检测更新提醒、alfred 快捷发送消息 &amp; 打开窗口 (需安装：wechat-alfred-workflow)、会话一键已读、一键清除空会话、支持国际化、新增一键更新、新增关于小助手、去除微信url转链、史上最强 alfred 扩展、新增移除会话(不删除聊天记录)、菜单栏(关于小助手)新增 alfred 开关、新增是否使用微信自带浏览器开关、新增LaunchBar 扩展、新增禁止微信检测更新开关(非App Store版本)、新增小助手.app安装方式、支持退群监控，撤回消息定位
-
-* [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) 安全的跨平台 Git 凭据存储，可对 GitHub、Azure Repos 和其他常用 Git 托管服务进行身份验证。Git 凭据管理器 （GCM） 是基于 .NET 构建的安全 Git 凭据帮助程序，可在 Windows、macOS 和 Linux 上运行。它旨在为每个主要的源代码控制托管服务和平台提供一致且安全的身份验证体验，包括多因素身份验证。GCM 支持（按字母顺序排列）Azure DevOps、Azure DevOps Server（以前称为 Team Foundation Server）、Bitbucket、GitHub 和 GitLab。与 Git 的内置凭据帮助程序（Windows：wincred，macOS：osxkeychain，Linux：gnome-keyring/libsecret）相比，它们仅为用户名/密码提供单因素身份验证支持。GCM 取代了基于 .NET Framework 的 Git Credential Manager（适用于 Windows）和基于 Java 的 Git Credential Manager（适用于 Mac 和 Linux）。
 
 * [jeessy2/ddns-go](https://github.com/jeessy2/ddns-go) 简单易用的DDNS。自动获得你的公网 IPv4 或 IPv6 地址，并解析到对应的域名服务。支持阿里云、腾讯云、Dnspod、Cloudflare、回调、华为云、百度云、Porkbun、GoDaddy、Namecheap、NameSilo...支持Mac、Windows、Linux系统，支持ARM、x86架构。支持的域名服务商 阿里云 腾讯云 Dnspod Cloudflare 华为云 Callback 百度云 Porkbun GoDaddy Namecheap NameSilo Dynadot。支持接口/网卡/命令获取IP。支持以服务的方式运行。默认间隔5分钟同步一次。支持同时配置多个DNS服务商。支持多个域名同时解析。支持多级域名。网页中配置，简单又方便，默认勾选禁止从公网访问。网页中方便快速查看最近50条日志。支持Webhook通知。支持TTL。支持部分DNS服务商传递自定义参数，实现地域解析/多IP等功能。
 
 * [xykt/IPQuality](https://github.com/xykt/IPQuality) 用于 IP 质量检测的脚本。中英文双语言支持。支持IPv4/IPv6双栈查询；精美排版，直观显示，多终端单屏优化展示，便于截图分享；基础信息、IP类型、风险评分、风险因子、流媒体解锁、邮局检测六大模块；基础数据源自Maxmind数据库；风险信息 IPinfo / ipregistry / ipapi / AbuseIPDB / IP2LOCATION / IPQS / DB-IP / SCAMALYTICS / IPWHOIS 多数据库整合；流媒体及AI多个服务商 TikTok / Disney+ / Netflix / Youtube / AmazonPrimeVideo / Spotify / ChatGPT 解锁及解锁类型检测；多邮局服务商 Gmail / Outlook / Yahoo / Apple / QQ / Mail.ru / AOL / GMX / Mail.com / 163 / Sohu / Sina 连通性检测；多邮局服务商 Gmail / Outlook / Yahoo / Apple / QQ / Mail.ru / AOL / GMX / Mail.com / 163 / 搜狐 / Sina 连通性检测；IP地址黑名单400+数据库检测
 
-* [modoboa/modoboa](https://github.com/modoboa/modoboa) Modoboa是一个简化的邮件托管和管理平台，提供现代化的 Web 用户界面，包含管理面板和 Webmail 等实用组件。它与 Postfix 或 Dovecot等知名软件集成，并使用 SQL 数据库（MySQL、PostgreSQL 或 SQLite）作为所有组件之间通信的中心点。Modoboa 以模块化设计，易于扩展，所有现有功能都是扩展。它使用 Python 3 编写，并使用 Django、jQuery 和 Bootstrap 框架。主要功能包括管理面板、声誉保护（DNSBL 检查、DMARC 报告等）、Amavis 前端、Webmail、日历、通讯录、用户级 Sieve 过滤器、Postfix 自动回复消息和电子邮件流量统计图表。可以通过官方安装程序轻松安装，详细文档可帮助用户安装、使用或扩展 Modoboa。提供演示安装供试用，并通过 Discord 和 Github 提供社区支持。
-
-* [n8n-io/n8n](https://github.com/n8n-io/n8n) 免费和源代码可用的公平代码许可的工作流自动化工具。跨不同服务轻松自动执行任务。N8n 是一个可扩展的工作流程自动化工具。通过公平代码分发模型，n8n 将始终具有可见的源代码，可用于自托管，并允许您添加自己的自定义函数、逻辑和应用程序。 n8n 基于节点的方法使其具有高度的通用性，使您能够将任何东西连接到所有东西。N8n 有 200+ 个不同的节点来自动化工作流程。使用 n8n 的 LangChain 节点，您可以在工作流程中构建 AI 驱动的功能。LangChain节点是可配置的，这意味着您可以选择您喜欢的代理、LLM内存等。除了LangChain节点，您还可以像往常一样连接任何n8n节点：这意味着您可以将LangChain逻辑与其他数据源和服务集成。
-
 * [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) 跨平台、直观、可靠地用于轻松监控您的互联网流量的应用程序。特征：选择您电脑的网络适配器进行检查；选择一组过滤器应用于观察到的流量；查看有关您的互联网流量的总体统计数据；查看有关交通强度的实时图表；即使应用程序最小化，也要密切关注您的网络；将全面的捕获报告导出为PCAP 文件；识别6000 多个上层服务、协议、木马和蠕虫；找出与您交换流量的主机的域名和ASN；识别本地网络中的连接；获取有关远程主机所在国家/地区的信息（ IP 地理位置）；保存您最喜爱的网络主机；实时搜索和检查您的每个网络连接；设置自定义通知以在发生定义的网络事件时通知您；选择最适合您的风格，包括自定义主题支持。
 
-* [ekzhang/bore](https://github.com/ekzhang/bore) bore是一个用Rust编写的简单命令行工具，用于创建到本地主机的隧道，绕过标准的NAT连接防火墙，将本地端口暴露给远程服务器。它类似于localtunnel和ngrok，但bore旨在成为一个高效、无意见的工具，用于转发TCP流量，易于安装和自托管，没有多余的功能。bore的代码量约为400行安全、异步的Rust代码，设置非常简单，只需运行一个客户端和服务器二进制文件即可。bore可以通过Homebrew、预构建的二进制文件或从源代码构建来安装。它还提供Docker镜像，允许用户从一个最小的“scratch”容器运行静态链接的bore二进制文件。bore支持本地转发和自托管，用户可以通过命令行选项配置本地端口、远程服务器地址、端口号、本地主机等参数。
-
-* [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) 文件快递柜-匿名口令分享文本，文件，像拿快递一样取文件。主要特色： 轻量简洁： 项目基于Fastapi + Sqlite3 + Vue3 + ElementUI。轻松上传： 支持复制粘贴和拖拽选择。多种类型： 支持文本和文件。防止爆破： 错误次数限制。防止滥用： IP限制上传次数。口令分享： 随机口令，存取文件，自定义次数及有效期。国际化： 支持中文简体、繁体以及英文等。匿名分享： 无需注册，无需登录。管理面板： 查看和删除文件。一键部署： 支持Docker一键部署。自由拓展： 支持S3协议和本地文件流，可根据需求在storage文件中新增存储引擎。简单明了： 适合新手练手项目。 终端下载： 终端命令wget https://share.lanol.cn/share/select?code=83432
-
 * [squeaky-pl/japronto](https://github.com/squeaky-pl/japronto) Japronto是一个超高速、可扩展的异步 Python 3.5+ HTTP工具包，集成了基于 uvloop 和 picohttpparser 的管道式 HTTP服务器。它针对速度爱好者、喜欢底层编程的人和早期采用者。Japronto 的性能非常出色，能够处理每秒数百万个请求。它使用手写优化的 C 代码，利用现代 CPU 的优势，并结合了 picohttpparser 进行头和分块编码解析，以及 uvloop 提供的异步 I/O。它还尝试通过尽可能地将写入操作组合在一起来减少系统调用。目前 Japronto 处于早期预览阶段，API 可能在不同版本之间发生变化，需要更多测试。它不适合用于生产环境，但可以尝试使用并提供反馈。如果你正在寻找下一个项目的框架，建议使用 Sanic。
-
-* [cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve) 自托管文件管理系统，支持多云。特征：支持将文件存储到本地存储、远程存储、七牛、阿里云 OSS、腾讯 COS、Upyun、OneDrive、S3 兼容 API。直接传输上传/下载，支持限速。与 Aria2 集成以离线下载文件，使用多个下载节点来分担负载。压缩/解压文件，批量下载文件。涵盖所有存储提供商的 WebDAV 支持。拖放以上传文件或文件夹，并具有流式上传处理功能。拖放以管理您的文件。多用户与多组。为具有到期日期的文件和文件夹创建共享链接。在线预览视频、图像、音频、ePub 文件;在线编辑文本、Office 文档。自定义主题颜色、深色模式、PWA 应用程序、SPA、i18n。多合一包装，所有功能开箱即用。
-
-* [berty/berty](https://github.com/berty/berty) 安全的点对点消息传递应用程序，无论是否具有互联网访问、蜂窝数据或网络信任，都可以使用。建立在 Wesh 协议之上的隐私优先消息传递应用程序。安全和私密：默认情况下，消息是端到端加密的；元数据保持在最低限度；创建帐户不需要电话号码或电子邮件地址；即使在对抗性网络上使用时，也能保留其属性；具有审查弹性；去中心化、分布式、点对点和无服务器；由于采用了 BLE 技术和 mDNS，因此不需要互联网连接。；永久免费和开源Berty 被设计为在所有其他传统信使失败时用作通信工具。Berty Messenger 提供以下用例：当您需要通过不受信任的网络共享敏感信息时，例如在旅行时；
-
-* [jopohl/urh](https://github.com/jopohl/urh) Universal Radio Hacker(URH) 是一款用于无线协议分析的完整工具套件，支持多种常见的软件定义无线电（SDR）。URH 可以轻松解调信号并自动检测调制参数，方便识别空中传输的比特和字节。由于数据在传输前通常会进行编码，URH 提供可自定义的解码功能，可以破解复杂的编码，例如 CC1101 数据白化。在协议逆向工程方面，URH 可以通过手动分配协议字段和消息类型，或使用基于规则的智能自动推断协议字段来帮助用户。此外，URH 还包含一个针对无状态协议的模糊测试组件和一个用于有状态攻击的模拟环境。用户可以查看安装说明、官方用户指南、演示视频和维基百科页面了解更多信息。
 
 * [skywind3000/kcp](https://github.com/skywind3000/kcp) 快速可靠协议，能以比 TCP 浪费 10%-20% 的带宽的代价，换取平均延迟降低 30%-40%，且最大延迟降低三倍的传输效果。纯算法实现，并不负责底层协议（如UDP）的收发，需要使用者自己定义下层数据包的发送方式，以 callback的方式提供给 KCP。 连时钟都需要外部传递进来，内部不会有任何一次系统调用。CP是为流量设计的（每秒内可以传输多少KB的数据），讲究的是充分利用带宽。而 KCP是为流速设计的（单个数据包从一端发送到一端需要多少时间），以10%-20%带宽浪费的代价换取了比 TCP快30%-40%的传输速度。TCP信道是一条流速很慢，但每秒流量很大的大运河，而KCP是水流湍急的小激流。
 
 * [livekit/livekit](https://github.com/livekit/livekit) WebRTC的端到端堆栈。交换网板介质服务器和SDK。LiveKit 是一个开源项目，提供基于 WebRTC 的可扩展的多用户会议。它旨在提供在应用程序中构建实时视频音频数据功能所需的一切。LiveKit 的服务器是用 Go 编写的，使用出色的 Pion WebRTC 实现。特征：可扩展的分布式WebRTC SFU（选择性转发单元）；现代、功能完备的客户端 SDK；专为生产而打造，支持 JWT 身份验证；强大的网络和连接性，UDP/TCP/TURN；易于部署：单个二进制文件、Docker 或 Kubernetes；高级功能包括：说话人检测、联播、端到端优化、选择性订阅、审核 API、端到端加密、SVC 编解码器（VP9、AV1）、Webhook、分布式和多区域
 
-* [antirez/botlib](https://github.com/antirez/botlib) Botlib是一个用 C 语言编写的 Telegram 机器人框架，它提供了一个Telegram 机器人 API 的子集实现，并通过事件循环等待 Telegram API事件，在新的线程中调用回调函数。回调函数可以访问各种 API 来执行 Telegram 操作。此外，它还提供了一组高级包装器，用于SQLite3、JSON 和动态字符串（SDS 库）。该库选择用 C 语言编写，因为它提供了一个比预期更高级的机器人编写体验，并确保了代码的稳定性和可移植性，使其能够在任何支持 `libcurl` 和 `libsqlite3` 的平台上运行。该库还利用线程来处理长时间运行的请求，并提供了一个简单的示例，展示了如何使用该框架开发一个简单的机器人。
-
-* [haad/proxychains](https://github.com/haad/proxychains) ProxyChains是一个Unix程序，它通过预加载的动态链接库（DLL）钩住动态链接程序中与网络相关的libc函数，并将连接重定向到SOCKS4a/5或HTTP代理。它支持多种代理类型，包括SOCKS4、SOCKS5和HTTP，并支持用户/密码身份验证（SOCKS4/5）和基本身份验证（HTTP）。ProxyChains可以用于各种场景，例如绕过防火墙、使用多个代理链、为不支持代理的程序提供代理功能，以及通过代理访问内网。该项目最新版本（4.x）去除了需要动态链接的&quot;dig&quot;二进制文件的dnsresolver脚本，从而提高了DNS操作速度，并允许使用.onion地址。它还添加了通过命令行开关/环境变量传递配置文件的支持。
-
 * [xtaci/kcp-go](https://github.com/xtaci/kcp-go) kcp-go是一个基于 Golang 的可靠 UDP 库，它提供了一种在 UDP 数据包上实现平滑、弹性、有序、错误检查和匿名传输流的方式。该库已在开源项目 kcptun 中得到验证，并被数百万台设备（从低端 MIPS 路由器到高端服务器）用于各种应用，包括在线游戏、直播、文件同步和网络加速。kcp-go 针对延迟敏感场景设计，具有缓存友好和内存优化设计，提供高性能核心，能够处理单个商品服务器上的 5000 多个并发连接。它与 net.Conn 和 net.Listener 兼容，可以作为 net.TCPConn 的直接替代品。kcp-go支持 FEC（前向纠错）和包级加密，并利用 sendmmsg 和 recvmmsg 等平台特定优化来提高性能。
-
-* [inconshreveable/ngrok](https://github.com/inconshreveable/ngrok) ngrok是一个全球分布式的反向代理，它可以安全、保护并加速您的应用程序和网络服务，无论您在何处运行它们。ngrok就像您应用程序的前门，它将您的反向代理、防火墙、API 网关和全局负载均衡器整合到一个系统中。ngrok 可以捕获并分析所有到您 Web 服务的流量，以便您稍后进行检查和重放。该项目已存档，不再开发、支持或维护，但 ngrok 的云服务仍在运行，您可以注册使用。ngrok 还继续在开源生态系统中贡献，例如 ngrok kubernetes 运算符、ngrok 代理 SDK 等。ngrok 可以用于多种场景，例如站点到站点的连接、开发者预览、Webhook 测试、API 网关、设备网关等。
 
 * [henrypp/simplewall](https://github.com/henrypp/simplewall) simplewall是一个轻量级工具，用于配置 Windows 过滤平台 (WFP)，可以控制计算机上的网络活动。它体积不到 1MB，兼容 Windows 7 SP1 及更高版本操作系统。simplewall 提供简单的界面，支持自定义规则创建、内置阻止列表（用于阻止 Windows 监控和遥测）、丢弃数据包信息通知和日志记录（Win7+）、允许数据包信息日志记录（Win8+）、Windows 子系统 Linux (WSL) 支持、Windows 服务支持、Windows 应用商店支持等功能。它免费开源，支持本地化和 IPv6。注意，simplewall 不是 Windows 防火墙的控制界面，它独立于 Windows 防火墙工作，通过 Windows过滤平台 (WFP) 实现网络过滤。
 
-* [zfile-dev/zfile](https://github.com/zfile-dev/zfile) 在线云盘、网盘、OneDrive、云存储、私有云、对象存储、h5ai、上传、下载。ZFile 是一个适用于个人的在线网盘(列目录)程序，可以将你各个存储类型的存储源，统一到一个网页中查看、预览、维护，再也不用去登录各种各样的网页登录后管理文件，现在你只需要在 ZFile 中使用。你只需要填写存储源相关信息，其他的令牌刷新，授权都是尽量自动化的，且有完善的文档帮助你使用。支持对接 S3、OneDrive、SharePoint、Google Drive、多吉云、又拍云、本地存储、FTP、SFTP 等存储源。支持在线浏览图片、播放音视频，文本文件、Office、obj（3d）等文件类型。
-
-* [shiyanhui/dht](https://github.com/shiyanhui/dht) 该项目使用Go 语言实现了 BitTorrent DHT 协议，包含了 BEP-3、BEP-5、BEP-9 和 BEP-10协议的实现，支持标准模式和爬取模式。标准模式遵循 BEP 协议，可作为标准 DHT 服务器使用；爬取模式旨在尽可能多地爬取元数据信息，不遵循标准 BEP 协议，可用于构建类似 BTDigg 的 BT 搜索引擎。项目提供示例代码，并提供已编译的二进制文件供下载。需要注意的是，默认爬取模式配置需要约 300M 内存，可根据需要调整 MaxNodes 和 BlackListMaxSize 参数。目前项目尚不支持局域网运行，因为存在 NAT 穿透问题。未来计划包括实现 NAT 穿透、完成 BEP-3 协议实现以及优化性能。
-
-* [github/docs](https://github.com/github/docs) GitHub Docs是 docs.github.com 的开源代码仓库，包含网站代码和 Markdown源文件。GitHub 文档团队在私有仓库中进行预发布内容工作，并定期同步到此公共仓库。你可以通过点击页面底部的“Make a contribution”按钮提交拉取请求，进行快速修复，例如拼写错误、更新或链接修复。你也可以通过创建本地环境或打开 Codespace 来贡献。对于更复杂的贡献，请使用最合适的 issue模板打开 issue，描述你想要看到的更改。如果你想贡献，可以查看我们的“help wanted board”以查找已获准进行工作的开放 issue。所有代码都已获得 MIT 许可，GitHub 产品文档已获得 CC-BY许可。
-
-* [qutebrowser/qutebrowser](https://github.com/qutebrowser/qutebrowser) qutebrowser是一个基于 Python 和 Qt 的键盘驱动、类似 Vim 的浏览器，它以极简的 GUI 为特色，灵感来源于 dwb、Vimperator/Pentadactyl 等浏览器/插件。qutebrowser 的主要维护者 The-Compiler 目前依靠捐赠进行部分时间开发，欢迎访问GitHub Sponsors 页面或其他捐赠方式支持项目。用户可以通过 GitHub 发布页面下载 qutebrowser，并参考 INSTALL 文件进行安装。项目文档和支持渠道可访问帮助页面，用户可以阅读贡献指南参与项目开发，并通过内置的 :report 命令、GitHub 问题追踪器或邮件列表报告 bug 或提出功能请求。qutebrowser 需要 Python 和 Qt 等软件和库才能运行。
-
 * [zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne) 用于地球的智能可编程以太网交换机。它允许所有联网设备、虚拟机、容器和应用程序进行通信，就好像它们都驻留在同一个物理数据中心或云区域中一样。这是通过将加密寻址的安全对等网络（称为 VL1）与有点类似于 VXLAN（称为 VL2）的以太网仿真层相结合来实现的。我们的 VL2 以太网虚拟化层包括高级企业 SDN 功能，例如用于网络微分段和安全监控的细粒度访问控制规则。所有 ZeroTier 流量都使用只有您才能控制的密钥进行端到端加密。大多数流量都是点对点的，但我们为无法建立点对点连接的用户提供免费（但速度慢）的中继。
-
-* [conan-io/conan](https://github.com/conan-io/conan) Conan是一个开源的 C/C++ 包管理器，它完全去中心化，用户可以在自己的服务器上私密地托管包。Conan 支持跨平台使用，包括 Linux、OSX、Windows、Solaris、FreeBSD 等，并提供对 Docker 和 WSL 的支持。Conan 可以创建、上传和下载任何配置和平台的二进制文件，包括交叉编译，节省开发和持续集成的时间。Conan 可以与任何构建系统集成，包括 CMake、MSBuild、Makefiles、Meson 等。Conan 基于 Python 的配方和扩展点，使其具有强大的灵活性和可扩展性。Conan 拥有一个活跃的社区，在 GitHub 和 Slack 上提供支持。Conan 稳定可靠，被许多公司用于生产环境。
-
-* [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) 该项目是一个 Clash Premium 规则集 (RULE-SET)，兼容 ClashX Pro、Clash forWindows 等基于 Clash Premium 内核的客户端。规则集数据源自 [@Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)和 [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)，并使用 [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list) 和 [@17mon/china_ip_list](https://github.com/17mon/china_ip_list) 提供的中国大陆 IPv4 地址信息。该项目仅适用于 Clash Premium 版本，并支持 TUN 加速模式，提供 TCP 和 UDP 流量转发。项目规则集每天 6:30 自动更新，确保规则集最新。
 
 * [kasmtech/KasmVNC](https://github.com/kasmtech/KasmVNC) KasmVNC是一个现代化的基于 Web 的 VNC 服务器和客户端，提供安全可靠的远程桌面访问。它突破了传统的 VNC 协议规范，支持现代技术，并增强了安全性。用户可以通过任何现代浏览器访问 KasmVNC，无需使用传统的 VNC 客户端应用程序。KasmVNC 使用现代的 YAML 配置，方便管理。Kasm Technologies 开发了 Kasm Workspaces，一个容器化的流媒体平台，并开源了 Workspace 镜像，包括容器化的桌面和应用程序以及基础镜像，供开发者创建自定义的流媒体容器。这些容器可以独立使用，也可以在 Kasm Workspaces 平台中使用，该平台提供完整的企业级功能。
 
-* [anacrolix/torrent](https://github.com/anacrolix/torrent) 这是一个用 Go 语言编写的功能完备的 BitTorrent 客户端库和命令行工具，重点在于作为库供其他项目使用。它支持协议加密、DHT、PEX、uTP 和各种扩展，并提供多种数据存储后端，例如 blob、文件、bolt、mmap 和 sqlite。该库还支持直接从 BitTorrent 网络流式传输数据，并提供各种 Go 惯用的 `io` 包接口来访问 torrent 和其文件。它还包含一些用于其他目的的依赖包，例如 `go-libutp`、`dht`、`bencode` 和 `tracker`。该项目已被多个下游项目使用，例如 cove、confluence、Gopeed、Erigon、exatorrent、bitmagnet、TorrServer、distribyted、Mangayomi 和 Simple Torrent。
-
-* [yanzhenjie/AndServer](https://github.com/yanzhenjie/AndServer) AndServer是一个运行在 Android 平台上的 HTTP 和反向代理服务器，提供类似SpringMVC 的注解，方便开发者快速上手。它支持静态网页部署、动态HTTP API 部署以及反向代理服务器功能。用户可以通过简单的代码创建 Web 服务器，并使用注解定义 API 接口，例如使用 `@RestController`、`@RequestMapping`、`@PostMapping` 等注解。AndServer 还支持获取客户端连接信息，方便开发者进行定制化操作。此外，AndServer 也能作为反向代理服务器，将请求转发到指定的地址。开发者可以通过 Gradle 构建工具添加 AndServer 依赖，并根据项目需求选择相应的版本。
-
-* [Jinnrry/PMail](https://github.com/Jinnrry/PMail) PMail是一个轻量级的个人邮件服务器，仅需一个文件即可运行，支持发送/接收邮件和网页管理功能。它支持 DKIM、SPF校验，并可自动获取和更新 Let's Encrypt 证书。用户只需一个服务器、一个域名和几分钟的配置时间，即可拥有自己的域名邮箱。PMail 支持多种协议，如 POP3、SMTP，用户可以使用任何邮件客户端。它还支持多域名、多用户，并提供完整的邮件发送和接收功能。用户可以通过浏览器访问 `http://127.0.0.1` 或服务器公网 IP 进行配置，并使用 [https://www.mail-tester.com/](https://www.mail-tester.com/) 检查邮箱安全配置。
-
-* [roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) 基于浏览器的多语言 IMAP 客户端，具有类似应用程序的用户界面。它提供了您期望从电子邮件客户端获得的全部功能，包括 MIME 支持、地址簿、文件夹管理、邮件搜索和拼写检查。Roundcube Webmail 是用 PHP 编写的，需要 MySQL、PostgreSQL 或 SQLite 数据库。凭借其插件 API，它很容易扩展，并且用户界面可以使用皮肤完全自定义。设计用于在 Web 服务器上运行的代码主要用 PHP 和 Javascript 编写。它包括一个自定义框架，其中包含派生自 IlohaMail 的 IMAP 库，并且需要一组外部库（请参阅 composer.json 和 jsdeps.json 文件）。
-
-* [nsqio/nsq](https://github.com/nsqio/nsq) 实时分布式消息传递平台，旨在大规模运行，每天处理数十亿条消息。它促进了分布式和分散式拓扑结构，没有单点故障，实现了容错和高可用性以及可靠的消息传递保证。查看功能和保证。在操作上，NSQ 易于配置和部署（所有参数都在命令行上指定，编译的二进制文件没有运行时依赖性）。为了获得最大的灵活性，它与数据格式无关（消息可以是 JSON、MsgPack、协议缓冲区或其他任何格式）。官方的 Go 和 Python 库（以及许多其他客户端库）开箱即用，如果您有兴趣构建自己的库，这里有一个协议规范。
-
 * [julienschmidt/httprouter](https://github.com/julienschmidt/httprouter) HttpRouter是一个轻量级、高性能的 HTTP 请求路由器，专为Go 语言设计，提供比 Go 默认路由器更强大的功能和性能。它支持路由模式中的变量匹配，并能根据请求方法进行匹配。 HttpRouter 使用压缩动态 Trie 树结构进行高效匹配，并针对高性能和低内存占用进行了优化。它支持显式匹配，避免了多个路由模式匹配同一 URL 的问题，并提供自动处理尾部斜杠、路径自动修正、路径参数提取等功能。 HttpRouter 还能处理请求处理过程中出现的 panic，并提供自定义错误处理、OPTIONS 请求支持和 RESTful API 设计等功能。
 
-* [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) 开源实时聊天、电子邮件支持、全渠道服务台。Intercom、Zendesk、Salesforce Service Cloud 等的替代品。支持以下对话渠道：网站：使用我们的实时聊天小部件与您的客户交谈，并利用我们的 SDK 来识别用户并提供上下文支持。Facebook、Instagram、Twitter、Telegram、WhatsApp、Line、Twilio 短信、API 通道、电子邮件。其他功能包括：CRM、自定义属性、共享多品牌收件箱、私人笔记、预制回复、对话标签、自动分配：根据可用性和负载智能地分配给有权访问收件箱的座席、对话连续性、多语言支持、强大的 API 和 Webhook
-
-* [x-wrt/x-wrt](https://github.com/x-wrt/x-wrt) 该项目是 OpenWrt 的一个分支，OpenWrt 是一个针对嵌入式设备的 Linux 操作系统。与提供单一静态固件不同，OpenWrt 提供一个完全可写的文件系统和包管理系统，允许用户通过包自定义设备以满足各种应用需求。对于开发者来说，OpenWrt 是构建应用程序的框架，而对于用户来说，这意味着可以完全自定义设备，以实现超出预期用途的功能。项目提供预编译的固件镜像，并提供一个固件选择器帮助用户快速找到可用于从厂商固件迁移到 OpenWrt 的镜像。该项目还提供开发指南，帮助用户构建自己的固件。
-
-* [ipfs/ipfs-desktop](https://github.com/ipfs/ipfs-desktop) IPFS Desktop是一个适用于 Windows、Mac 和 Linux 的 IPFS 桌面应用程序，提供用户友好的界面，无需命令行即可使用 IPFS。它包含一个完整的 IPFS 节点，并提供便捷的操作系统菜单栏/任务栏快捷方式，以及一个集成的文件管理器、对等节点地图和内容浏览器。IPFS Desktop允许用户轻松地将文件、文件夹和截图导入 IPFS，管理节点内容，可视化全球 IPFS 对等节点，探索 IPFS 文件的“Merkle 森林”，并享受操作系统范围内的 IPFS 文件和链接支持。用户可以在使用过程中学习 IPFS 命令。
-
-* [Dreamacro/clash](https://github.com/Dreamacro/clash) Go 中基于规则的隧道。入站：HTTP，HTTPS，SOCKS5服务器，TUN设备。出站： Shadowsocks（R）， VMess， Trojan， Snell， SOCKS5， HTTP（S）， Wireguard。基于规则的路由：动态脚本、域、IP 地址、进程名称等。假 IP DNS：最大限度地减少对 DNS 污染的影响并提高网络性能。透明代理：通过自动路由表/规则管理重定向 TCP 和 TProxy TCP/UDP。代理组：自动回退、负载平衡或延迟测试。远程提供程序：动态加载远程代理列表。RESTful API：通过全面的 API 就地更新配置。
-
-* [yarnpkg/berry](https://github.com/yarnpkg/berry) 现代的包管理器，分为各种包。其新颖的架构允许完成目前使用现有解决方案无法完成的事情：Yarn 支持插件;添加插件就像将其添加到存储库中一样简单；Yarn 默认支持 Node，插件可以添加对其他语言的支持；Yarn 原生支持工作区，其 CLI 利用了这一点；Yarn 使用类似 bash 的可移植 shell 脚本可跨 Windows、Linux 和 macOS 移植；Yarn 首先是一个 Node API，可以通过编程方式（通过 @yarnpkg/core）使用；Yarn 是用 TypeScript 编写的，并且经过了完全的类型检查
-
 * [real-logic/aeron](https://github.com/real-logic/aeron) Aeron是一个高效可靠的UDP单播、多播和IPC消息传输库，提供Java、C和C++客户端，以及.NET客户端。Aeron支持跨机器或同一机器上的IPC高效消息交换，并通过Archive模块将消息流记录到持久存储以供以后或实时重放。AeronCluster提供基于Raft共识算法的容错服务。Aeron以性能为核心，旨在提供最高吞吐量和最低、最可预测的延迟。它与Simple Binary Encoding (SBE)集成，以实现最佳的消息编码和解码性能。许多用于创建Aeron的数据结构已分解到Agrona项目中。
-
-* [nextcloud/server](https://github.com/nextcloud/server) Nextcloud 服务器，您所有数据的安全家园。功能：访问您的数据 您可以将文件、联系人、日历等存储在您选择的服务器上。同步您的数据 您可以在设备之间保持文件、联系人、日历等的同步。分享您的数据...通过让其他人访问您希望他们查看或协作的内容。可扩展数百个应用程序...例如日历、通讯录、邮件、视频聊天以及您可以在我们的 App Store 中发现的所有内容。通过我们的加密机制、HackerOne 赏金计划和双因素身份验证确保安全性。
-
-* [owncast/owncast](https://github.com/owncast/owncast) 通过自行运行实时流视频来控制它。开箱即用的流媒体 + 聊天。Owncast 是一个开源、自托管、去中心化、单用户实时视频流和聊天服务器，用于运行您自己的实时流，其风格类似于大型主流选项。它提供对您的内容、界面、审核和受众的完全所有权。通常，Owncast 与任何使用 RTMP 向远程服务器广播的软件兼容。RTMP 是所有主要直播流媒体服务都使用的，因此，如果您当前正在使用其中一种，则可以将现有软件指向您的 Owncast 实例。
 
 * [ogham/dog](https://github.com/ogham/dog) dog是一个命令行 DNS 客户端，类似于 `dig`，它拥有彩色输出、支持标准命令行参数语法、支持 DNS-over-TLS 和DNS-over-HTTPS 协议，并可以输出 JSON 格式。dog 可以查询域名、指定查询类型、使用特定名称服务器、使用 TCP 协议、设置 EDNS、自定义交易 ID 等。用户可以通过下载预编译的二进制文件或从源代码编译安装 dog，也可以使用 Arch Linux、Homebrew或 NixOS 的包管理器安装。dog 使用 Rust 语言编写，需要 Rustc 版本 1.45.0 或更高版本。
 
 * [curl/trurl](https://github.com/curl/trurl) trurl是一个命令行工具，用于解析和操作 URL。它可以用于替换 URL的主机名、创建 URL、重定向 URL、更改端口号、提取URL 的路径和端口、追加路径和查询参数、从标准输入读取 URL、输出 JSON 格式的 URL 信息、移除查询参数中的跟踪信息、显示查询参数的特定键值、排序查询参数的键值对、处理使用分号分隔的查询参数、接受 URL 路径中的空格等。trurl 需要 libcurl 7.62.0 或更高版本，并且在 Linux 和 Windows 系统上都可以使用。
 
-* [axllent/mailpit](https://github.com/axllent/mailpit) Mailpit是一个轻量级、快速、零依赖的跨平台邮件测试工具和API，专为开发者设计。它充当SMTP服务器，提供现代化的Web界面用于查看和测试捕获的邮件，并包含一个API用于自动化集成测试。Mailpit的灵感来源于MailHog，但MailHog已经不再维护。Mailpit支持多种功能，包括：静态二进制文件或多架构Docker镜像部署、现代化的Web UI、SMTP服务器、REST API、实时Web UI更新、POP3服务器、HTML检查、链接检查、垃圾邮件检查以及创建截图。
+* [benoitc/gunicorn](https://github.com/benoitc/gunicorn) Gunicorn是一个用于 UNIX 的 Python WSGI HTTP 服务器，它基于 Ruby 的 Unicorn项目的预分叉工作模型。Gunicorn 与各种 Web 框架兼容，实现简单，资源占用少，速度快。它支持 Python 3.7 及更高版本，可以通过 `pip install gunicorn` 安装。使用方式为 `gunicorn [OPTIONS] APP_MODULE`，其中 `APP_MODULE` 格式为 `$(MODULE_NAME):$(VARIABLE_NAME)`，例如 `gunicorn --workers=2 test:app`。项目文档位于 https://docs.gunicorn.org，代码遵循 MIT 许可协议。
+
+* [filecxx/FileCentipede](https://github.com/filecxx/FileCentipede) FileCentipede是一款跨平台的互联网文件上传/下载管理器，支持 HTTP(S)、FTP(S)、SSH、磁力链接、BitTorrent、m3u8、ed2k 和在线视频等多种协议。它还包含 WebDAV 客户端、FTP 客户端和 SSH 客户端。FileCentipede旨在快速、可定制且用户友好，并支持多种协议，包含 HTTP 请求器、文件合并和编码器等多种辅助工具。通过浏览器集成，您可以从网站下载音频和视频，甚至加密视频。FileCentipede 免费且无广告。
+
+* [hatoo/oha](https://github.com/hatoo/oha) Oha是一个轻量级的 HTTP 负载生成器，灵感来自 rakyll/hey，并带有 TUI 动画。它使用 Rust 编写，并由tokio 和 ratatui 提供支持，可以实时显示负载测试结果。Oha 支持多种平台，包括 Linux、Windows 和 macOS，并提供多种安装方式，包括 Cargo、Arch Linux、Homebrew、winget 和 x-cmd。用户可以使用命令行参数设置请求数量、并发连接数、HTTP/2并发请求数、持续时间等，并通过 TUI 动画直观地观察测试结果。
+
+* [versatica/mediasoup](https://github.com/versatica/mediasoup) 尖端的 WebRTC 视频会议。MediaSoup 及其客户端库旨在实现以下目标：成为 SFU（选择性转发单元）。支持 WebRTC 和普通 RTP 输入和输出。是服务器端的Node.js模块或 Rust crate。成为客户端的小型 TypeScript 和 C++ 库。极简主义：只需处理媒体层即可。信令不可知：不要强制要求任何信令协议。是超低级别的 API。支持所有现有的 WebRTC 端点。启用与知名多媒体库/工具的集成。
+
+* [lexiforest/curl_cffi](https://github.com/lexiforest/curl_cffi) curl_cffi是一个基于 cffi 的 Python 库，它使用 curl-impersonate分支来实现一个能够模拟浏览器 TLS/JA3 和 HTTP/2指纹的 HTTP 客户端。与其他纯 Python HTTP 客户端（如 httpx 或 requests）不同，curl_cffi 可以模拟浏览器的指纹，这使得它能够绕过一些网站的封锁。它比 requests/httpx 快，与 aiohttp/pycurl 相当，支持 asyncio 和代理轮换，并支持 HTTP 2.0 和 websocket。
+
+* [Tencent/tquic](https://github.com/Tencent/tquic) TQUIC是一个高性能、轻量级、跨平台的 QUIC 库，由腾讯开发。它支持多种拥塞控制算法（CUBIC、BBR、BBRv3、COPA），支持多路径 QUIC，并提供 Rust/C/C++ API。TQUIC 经过严格测试，包括单元测试、模糊测试、集成测试、性能基准测试、互操作性测试等，并通过了 IETF 互操作性测试。TQUIC 符合 QUIC 和 HTTP/3 RFC 规范，并提供详细的文档和社区支持。
+
+* [jagt/clumsy](https://github.com/jagt/clumsy) clumsy是一款 Windows 网络模拟工具，它可以人为地降低您的网络连接速度，并模拟各种网络问题，例如延迟、丢包和数据篡改。clumsy 基于 WinDivert 库，能够拦截并修改网络数据包，无需安装或配置代理，适用于任何应用程序，甚至可以在离线状态下模拟网络问题。clumsy 提供交互式控制面板，让您可以实时调整网络状况并观察效果。
+
+* [webhooksite/webhook.site](https://github.com/webhooksite/webhook.site) Webhook.site是一个方便的工具，可以立即显示 HTTP 请求，方便测试和调试 Webhook。它提供一个独特的随机 URL，无需互联网服务器即可接收 Webhook，并支持将 Webhook 转换为其他格式，以及通过自定义操作图形编辑器或 WebhookScript 脚本语言进行处理。该项目开源，提供自托管版本和云版本，云版本提供更多功能，部分需要付费订阅。
+
+* [trojan-gfw/trojan](https://github.com/trojan-gfw/trojan) 一种无法识别的机制，可以帮助你绕过 GFW。特洛伊木马通过 TLS 提供多种协议，以避免主动/被动检测和 ISP QoS 限制。特洛伊木马程序不是固定的程序或协议。这是一个想法，一个模仿最常见的服务，在某种程度上它的行为相同，可以帮助你永久地穿过防火长城，而不会被识别出来。我们是 GreatER Fire;我们运送特洛伊木马。
+
+* [mr-karan/doggo](https://github.com/mr-karan/doggo) doggo 是用 Golang 编写的现代命令行 DNS 客户端（如 dig）。它以简洁明了的方式输出信息，并支持 DoH、DoT、DoQ 和 DNSCrypt 等协议。它完全受到用 Rust 编写的 dog 的启发。我想向它添加一些功能，但由于我不了解 Rust，我发现这是一个很好的机会，可以自己尝试在 Go 中从头开始编写 DNS 客户端。因此名称 dog + go =&gt; doggo。
+
+* [ktbyers/netmiko](https://github.com/ktbyers/netmiko) Netmiko是一个多厂商库，简化了使用Paramiko通过SSH连接网络设备的过程，它能高效地执行show命令获取输出和进行配置更改，并支持多种平台，避免了低级状态控制（例如复杂的正则表达式匹配）。通过pip安装后，只需提供设备类型、主机名、用户名、密码等信息即可建立连接，并使用send_command()方法执行命令。
+
+* [httpie/http-prompt](https://github.com/httpie/http-prompt) HTTP Prompt是一个基于 HTTPie 和 prompt_toolkit 的交互式命令行 HTTP 客户端，它支持自动补全、语法高亮等功能，方便用户进行API 测试和调试。用户可以通过 HTTP Prompt 发送 HTTP 请求，查看响应内容，并进行交互式操作，提升 API 开发效率。项目主页：https://http-prompt.com，文档地址：https://docs.http-prompt.com。
+
+* [gwuhaolin/livego](https://github.com/gwuhaolin/livego) livego是一个用 Go 语言编写的简单高效的直播服务器，支持 RTMP、HLS、HTTP-FLV 等传输协议，FLV 和 TS容器格式，以及 H264、AAC、MP3 等编码格式。用户可以通过 RTMP 协议将视频流推送到服务器，然后通过RTMP、FLV 或 HLS 协议进行播放。livego 易于安装和使用，支持 Docker 部署，并提供丰富的配置选项。
+
+* [ducaale/xh](https://github.com/ducaale/xh) xh是一个友好且快速的 HTTP 请求工具，它借鉴了 HTTPie 的优秀设计，并专注于提升性能。它支持多种安装方式，包括使用 cURL、Powershell、各种包管理器以及预编译二进制文件。xh 可以通过命令行发送 HTTP 请求，并支持多种请求方法、数据格式和选项，例如 JSON、表单、多部分表单等。
+
+* [pymumu/smartdns](https://github.com/pymumu/smartdns) SmartDNS是一个本地 DNS 服务器，它通过查询多个上游 DNS 服务器，获取最快的网站 IP 地址，从而提升上网速度。它支持 DoH 和 DoT 协议，提供更高的安全性和隐私保护。SmartDNS 可以部署在 OpenWrt、路由器、Windows 等多种平台上，并提供网页版管理界面，方便用户配置和使用。
+
+* [fortra/impacket](https://github.com/fortra/impacket) 用于处理网络协议的 Python 类的集合。专注于提供对数据包的低级编程访问，对于某些协议（例如 SMB1-3 和 MSRPC），协议实现本身。数据包可以从头开始构建，也可以从原始数据中解析，面向对象的 API 使使用协议的深层层次结构变得简单。该库提供了一组工具作为示例。
+
+* [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) MyIP是一个功能强大的 IP 工具箱，提供多种功能，包括查看本地 IP 地址、IP 地理位置信息、网站可用性测试、WebRTC 连接检测、DNS 泄漏测试、速度测试、ping 测试、MTR 测试、DNS 解析、Whois 查询、MAC 地址查询等。该项目支持多种语言，并提供网页版和 Docker 部署方式。
+
+* [pallets/itsdangerous](https://github.com/pallets/itsdangerous) 将可信数据安全地传递到不受信任的环境并返回。各种帮助程序将数据传递到不受信任的环境，并使其安全无恙地恢复。数据经过加密签名，以确保令牌未被篡改。可以自定义数据序列化的方式。根据需要压缩数据。加载令牌时，可以自动添加和验证时间戳。
+
+* [cjdelisle/cjdns](https://github.com/cjdelisle/cjdns) cjdns是一个使用公钥加密进行地址分配和分布式哈希表进行路由的加密 IPv6 网络。它提供近乎零配置的网络，并避免了现有网络中存在的许多安全和可扩展性问题。cjdns 使用 Rust 语言编写，并提供跨平台支持。项目拥有活跃的社区，并提供丰富的文档和教程。
+
+* [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p) rust-libp2p是libp2p网络协议栈的Rust实现，提供核心组件如传输层、多路复用器和应用层协议。其代码库包含核心模块、多种传输协议实现、多路复用器实现、网络层实现以及应用层协议示例，并遵循IPFS行为准则。开发者可通过文档、示例和社区论坛获取支持。
+
+* [evilsocket/opensnitch](https://github.com/evilsocket/opensnitch) OpenSnitch 是一个受 Little Snitch 启发的 GNU/Linux 交互式应用程序防火墙。主要特点：交互式出站连接过滤。在整个系统范围内阻止广告、跟踪器或恶意软件域。能够从 GUI (nftables)配置系统防火墙。配置输入策略、允许入站服务等。从集中式 GUI 管理多个节点。
+
+* [coredns/coredns](https://github.com/coredns/coredns) DNS 服务器/转发器，用 Go 编写，用于链接插件。每个插件都执行一个（DNS）功能。快速灵活的DNS服务器。这里的关键词是灵活：使用CoreDNS，您可以通过使用插件对DNS数据做任何您想做的事情。如果某些功能没有开箱即用，您可以通过编写插件来添加它。
+
+* [paramiko/paramiko](https://github.com/paramiko/paramiko) Paramiko是一个用纯Python编写的SSHv2协议库，支持客户端和服务器功能，是Fabric库的基础。它适用于需要高级/底层功能或运行Python SSH服务器的用户，但对于普通SSH客户端使用场景，建议使用Fabric。Paramiko依赖于cryptography库，并以OpenSSH为主要参考实现。
+
+* [riemann/riemann](https://github.com/riemann/riemann) Riemann是一个用Clojure编写的网络事件流处理系统，它可以聚合来自服务器和应用程序的事件，并使用强大的流处理语言进行分析。Riemann通过监控分布式系统，帮助用户及时发现问题并采取行动。项目主页为：https://riemann.io。
+
+* [mqtt/mqtt.org](https://github.com/mqtt/mqtt.org) mqtt.org网站是 MQTT 协议的官方网站，使用 Jekyll 框架构建。该网站提供有关 MQTT 协议的最新信息、文档、资源和社区论坛。用户可以通过 `bundle exec jekyll serve` 命令启动本地服务器，并使用 `bundle update` 命令更新项目依赖。
+
+* [curl/curl](https://github.com/curl/curl) 用URL语法传输数据的命令行工具和库，支持DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP、SFTP、SMB、SMBS、SMTP、SMTPS、TELNET、TFTP、WS 和 WSS。提供了无数强大的功能
+
+* [wg/wrk](https://github.com/wg/wrk) 现代 HTTP 基准测试工具，能够在单个多核 CPU 上运行时产生大量负载。它将多线程设计与可扩展的事件通知系统（如 epoll 和 kqueue）相结合。可选的 LuaJIT 脚本可以执行 HTTP 请求生成、响应处理和自定义报告。
+
+* [cloudflare/quiche](https://github.com/cloudflare/quiche) IETF 指定的 QUIC 传输协议和 HTTP/3 的实现。它提供了一个低级 API，用于处理 QUIC 数据包和处理连接状态。该应用程序负责提供 I/O（例如套接字处理）以及支持计时器的事件循环。
+
+* [haproxy/haproxy](https://github.com/haproxy/haproxy) HAProxy Load Balancer 的开发分支（git.haproxy.org 镜像）。高性能的负载均衡软件。因为其专注于负载均衡这一些事情，因此与nginx比起来在负载均衡这件事情上做更好，更专业。
+
+* [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) cqhttp的golang实现，轻量、原生跨平台.容 [OneBot-v11](https://github.com/botuniverse/onebot-11) 绝大多数内容，并在其基础上做了一些扩展，详情请看 go-cqhttp 的文档。
+
+* [buger/goreplay](https://github.com/buger/goreplay) 用于捕获实时 HTTP 流量并将其重放到测试环境中，以便使用真实数据持续测试您的系统。可用于增强对代码部署、配置更改和基础结构更改的信心。
+
+* [asciimoo/wuzz](https://github.com/asciimoo/wuzz) 用于 HTTP 检查的交互式 cli 工具。类似于 cURL 的参数，因此它可用于检查/修改从浏览器的网络检查器复制的请求，并具有“复制为 cURL”功能。
+
+* [cloudflare/pingora](https://github.com/cloudflare/pingora) Rust 框架，用于构建快速、可靠和可编程的网络系统。Pingora 经过了实战考验，因为它已经为每秒超过 4000 万个互联网请求提供服务了几年多。
+
+* [novnc/noVNC](https://github.com/novnc/noVNC) HTML VNC 客户端 JS库，也是一个基于该库构建的应用程序。noVNC 在任何现代浏览器（包括移动浏览器（iOS 和 Android））中都能正常运行。
+
+* [http-party/http-server](https://github.com/http-party/http-server) 一个简单的零配置命令行 HTTP 服务器，它足够强大，可用于生产用途，但它足够简单且易于破解，可用于测试、本地开发和学习。
+
+* [EZLippi/Tinyhttpd](https://github.com/EZLippi/Tinyhttpd) J. David Blackstone在1999年写的一个不到 500 行的超轻量型 Http Server，用来学习非常不错，可以帮助我们真正理解服务器程序的本质。
+
+* [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别查询效率，提供众多主流编程语言的 xdb 数据生成和查询客户端实现。
+
+* [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) 在线请求复制工具，也是tcp流重放工具，适用于真实测试，性能测试，稳定性测试，压力测试，负载测试，冒烟测试等
+
+* [encode/httpx](https://github.com/encode/httpx) 用于 Python 3 的全功能 HTTP 客户端库。它包括一个集成的命令行客户端，支持 HTTP/1.1 和 HTTP/2，并提供同步和异步 API。
+
+* [ZLMediaKit/ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit) 基于 C++11 的 WebRTC/RTSP/RTMP/HTTP/HLS/HTTP-FLV/WebSocket-FLV/HTTP-TS/HTTP-fMP4/WebSocket-TS/WebSocket-fMP4/GB28181/SRT 服务器和客户端框架
+
+* [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 一个离线IP地址管理器框架和定位器，支持数十亿个数据段，十微秒搜索性能。适用于多种编程语言的 XDB 引擎实现
+
+* [tiangolo/uwsgi-nginx-flask-docker](https://github.com/tiangolo/uwsgi-nginx-flask-docker) 带有uWSGI和Nginx的Docker镜像，用于在单个容器中运行的Python中的Flask应用程序。（可选）使用 Alpine Linux。
+
+* [cloudflare/cfssl](https://github.com/cloudflare/cfssl) Cloudflare 的 PKI 和 TLS 工具包。既是命令行工具，又是用于签名、验证和捆绑 TLS 证书的 HTTP API 服务器。
+
+* [StevenBlack/hosts](https://github.com/StevenBlack/hosts) 整合和扩展来自多个精心策划的来源的主机文件。（可选）选择色情、社交媒体和其他类别的扩展。
+
+* [httpie/cli](https://github.com/httpie/cli) 适用于 API 时代的现代、用户友好的命令行 HTTP 客户端。JSON支持，颜色，会话，下载，插件等。
+
+* [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) LibVNCServer/LibVNCClient 是跨平台的 C 库，可让您在程序中轻松实现 VNC 服务器或客户端功能。
+
+* [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) 「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 网站 IP
+
+* [drakkan/sftpgo](https://github.com/drakkan/sftpgo/) 功能齐全且高度可配置的 SFTP、HTTP/S、FTP/S 和 WebDAV 服务器 - S3、Google Cloud Storage、Azure Blob
+
+* [valyala/fasthttp](https://github.com/valyala/fasthttp) Go 的快速 HTTP 包。针对高性能进行了调整。热路径中的内存分配为零。比 net/http 快 10 倍
+
+* [alex/what-happens-when](https://github.com/alex/what-happens-when) 试图回答古老的面试问题“当您在浏览器中输入 google.com 并按回车键时会发生什么？
+
+* [artilleryio/artillery](https://github.com/artilleryio/artillery) 云规模的负载测试，就像 1-2-3 一样简单。开箱即用的无服务器和分布式。永不扩展
+
+* [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) 用于管理hosts文件的应用程序，它基于Electron，React，Jotai，Chakra UI，CodeMirror等。
+
+* [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works) 网络如何运作 当我们在浏览器中输入 google.com 时，幕后会发生什么？
+
+* [rrweb-io/rrweb](https://github.com/rrweb-io/rrweb) “记录和重放网络”，用于记录和重放用户在网络上的交互的工具。
+
+* [drogonframework/drogon](https://github.com/drogonframework/drogon) 基于C++14/17/20的HTTP Web应用程序框架，运行在Linux/macOS/Unix/Windows上。
+
+* [caddyserver/caddy](https://github.com/caddyserver/caddy) 具有自动 HTTPS 功能的快速且可扩展的多平台 HTTP/1-2-3 Web 服务器
+
+* [gorilla/websocket](https://github.com/gorilla/websocket) 一个快速、经过充分测试和广泛使用的 Go. WebSocket 实现。
+
+* [go-chi/chi](https://github.com/go-chi/chi) 轻量级、惯用且可组合的路由器，用于构建 Go HTTP 服务
+
+* [vishnubob/wait-for-it](https://github.com/vishnubob/wait-for-it) 纯 bash 脚本，用于测试和等待 TCP 主机和端口的可用性
+
+* [square/okhttp](https://github.com/square/okhttp) Square 适用于 JVM、Android 和 GraalVM 的细致 HTTP 客户端。
+
+* [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) 用于 asyncio 和 Python 的异步 HTTP 客户端/服务器框架。
+
+* [zu1k/nali](https://github.com/zu1k/nali) 一个查询IP地理信息和CDN服务提供商的离线终端工具.
+
+* [apernet/OpenGFW](https://github.com/apernet/OpenGFW) Linux 上 GFW（中国防火墙）的灵活、易用的开源实现
+
+* [adnanh/webhook](https://github.com/adnanh/webhook) 轻量级的传入 Webhook 服务器，用于运行 shell 命令
+
+* [cdnjs/cdnjs](https://github.com/cdnjs/cdnjs) 免费和开源 CDN，旨在让开发人员的生活更轻松。
+
+* [tailscale/tailscale](https://github.com/tailscale/tailscale) 使用 WireGuard 和 2FA 的最简单、最安全的方式。
+
+* [haraka/Haraka](https://github.com/haraka/Haraka) 快速、高度可扩展且事件驱动的 SMTP 服务器
+
+* [square/retrofit](https://github.com/square/retrofit) 适用于 Android 和 JVM 的类型安全 HTTP 客户端
+
+* [gfwlist/gfwlist](https://github.com/gfwlist/gfwlist) 阻止和干扰包含敏感或不需要信息的网站
+
+* [ekzhang/sshx](https://github.com/ekzhang/sshx) 通过网络进行快速、协作的实时终端共享
+
+* [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) 网络范围的广告和跟踪器阻止DNS服务器
+
+* [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) 仅C++标头的 HTTP/HTTPS 服务器和客户端库
+
+* [microsoft/IoT-For-Beginners](https://github.com/microsoft/IoT-For-Beginners) 12 周，24 节课，面向所有人的物联网！
+
+* [element-hq/element-web](https://github.com/element-hq/element-web) 一个光鲜亮丽的 Web Matrix 协作客户端。
+
+* [grpc/grpc-go](https://github.com/grpc/grpc-go) gRPC 的 Go 语言实现。基于 HTTP/2 的 RPC
+
+* [cilium/cilium](https://github.com/cilium/cilium) 基于 eBPF 的网络、安全性和可观测性
+
+* [openresty/openresty](https://github.com/openresty/openresty) 基于 Nginx 和 LuaJIT 的高性能 Web 平台
+
+* [tsenart/vegeta](https://github.com/tsenart/vegeta) HTTP 负载测试工具和库。超过9000！
+
+* [yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，教程和源代码
+
+* [go-resty/resty](https://github.com/go-resty/resty) Go 的简单 HTTP 和 REST 客户端库
+
+* [sogou/workflow](https://github.com/sogou/workflow) C++ 并行计算和异步网络引擎
+
+* [Moya/Moya](https://github.com/Moya/Moya) 用 Swift 编写的网络抽象层。
+
+* [txthinking/brook](https://github.com/txthinking/brook) 一个跨平台可编程网络工具.
+
+* [pion/webrtc](https://github.com/pion/webrtc) WebRTC API 的纯 Go 实现
+
+### 网络服务_其他
+
+* [m1k1o/neko](https://github.com/m1k1o/neko) 欢迎使用 Neko，这是一个在 Docker 中运行并使用 WebRTC 技术的自托管虚拟浏览器。Neko 是一个强大的工具，可让您在虚拟环境中运行功能齐全的浏览器，使您能够从任何地方安全、私密地访问互联网。使用 Neko，您可以像在常规浏览器上一样浏览 Web、运行应用程序和执行其他任务，所有这些都在一个安全隔离的环境中进行。无论您是希望测试 Web 应用程序的开发人员，还是寻求安全浏览体验的注重隐私的用户，或者只是想要利用虚拟浏览器的便利性和灵活性的人，Neko 都是完美的解决方案。除了安全和隐私功能外，Neko 还允许多个用户同时访问它。这使其成为需要共享浏览器访问权限的团队或组织，以及希望使用多个设备访问同一虚拟环境的个人的理想解决方案。使用 Neko，您可以轻松安全地与他人共享对浏览器的访问权限，而无需担心维护单独的配置或设置。无论您是需要协作处理项目、访问共享资源，还是只想与朋友或家人共享对浏览器的访问权限，Neko 都能轻松实现。Neko 也是举办观看派对和交互式演示的绝佳工具。凭借其虚拟浏览器功能，Neko 允许您举办可从任何地方访问的观看派对和演示，而无需面对面的聚会。这使得您很容易与朋友和同事保持联系，即使您无法亲自见面。使用 Neko，您可以轻松举办观看派对或进行互动演示，无论是休闲还是工作。只需邀请您的客人加入虚拟环境，您就可以共享屏幕并与他们实时互动。
+
+* [pre-commit/pre-commit](https://github.com/pre-commit/pre-commit) 一个用于管理和维护多语言 pre-commit hook 的框架。Git 钩子脚本可用于在提交代码审查之前识别简单问题。我们在每次提交时都运行钩子，以自动指出代码中的问题，例如缺少分号、尾随空格和 debug 语句。通过在代码审查之前指出这些问题，这允许代码审查者专注于更改的架构，而不会浪费时间在琐碎的风格吹毛求疵上。随着我们创建更多的库和项目，我们认识到在项目之间共享我们的 pre-commit 钩子是很痛苦的。我们从一个项目复制并粘贴了笨拙的 bash 脚本，并且必须手动更改钩子以适用于不同的项目结构。我们认为您应该始终使用最好的行业标准 Linter。一些最好的 Linter 是用您在项目中未使用的语言编写的，或者您计算机上没有安装的语言。例如，scss-lint 是用 Ruby 编写的 SCSS 的 Linter。如果您在 Node 中编写项目，您应该能够将 scss-lint 用作预提交钩子，而无需将 Gemfile 添加到您的项目或了解如何安装 scss-lint。我们构建了 pre-commit 来解决我们的 hook 问题。它是一个用于 pre-commit 钩子的多语言包管理器。你指定一个你想要的钩子列表，pre-commit 在每次提交之前管理用任何语言编写的任何钩子的安装和执行。pre-commit 经过专门设计，不需要 root 访问权限。如果你的某个开发人员没有安装 node，但修改了 JavaScript 文件，pre-commit 会自动处理下载和构建 node 以在没有 root 的情况下运行 eslint。
+
+* [hyperknot/openfreemap](https://github.com/hyperknot/openfreemap) OpenFreeMap是一个免费开源的地图托管解决方案，使用 OpenStreetMap 数据为网站和应用程序提供自定义地图样式。它可以自托管或使用其公共实例。所有内容都是开源的，包括完整的生产设置，没有“开源核心”模式。地图数据来自 OpenStreetMap。使用其公共实例完全免费，没有地图视图或请求数量限制，无需注册、用户数据库、API 密钥或 cookie。它通过捐赠来支付公共实例的运行成本。它还提供每周完整的地球下载，包括 Btrfs 和 MBTiles 格式。该项目的目标是使用现有工具提供免费的生产级矢量瓦片托管，这些工具包括 OpenStreetMap、OpenMapTiles、Planetiler、MapLibre、Natural Earth 和Wikidata。该项目专注于瓦片生成、Web 服务器和每周自动更新，并提供公共实例，自 2024 年 6 月起成为 MapHub 的生产基础地图服务。该项目不提供搜索、地理编码、路线计算、导航、静态图像生成、栅格瓦片托管、卫星图像托管、高程查找或自定义瓦片或数据集托管。它也不是一个可以本地安装的项目，而是专门用于设置干净的 Ubuntu 服务器或虚拟机的部署脚本。它使用 Fabric 并通过 SSH运行命令，可以一键设置生产就绪的服务器，用于瓦片托管和生成。该项目有意不使用 Docker，但欢迎其他人创建基于 Docker 的版本。它不承诺为自托管者提供无忧的自动更新。
+
+* [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) 安全的跨平台 Git 凭据存储，可对 GitHub、Azure Repos 和其他常用 Git 托管服务进行身份验证。Git 凭据管理器 （GCM） 是基于 .NET 构建的安全 Git 凭据帮助程序，可在 Windows、macOS 和 Linux 上运行。它旨在为每个主要的源代码控制托管服务和平台提供一致且安全的身份验证体验，包括多因素身份验证。GCM 支持（按字母顺序排列）Azure DevOps、Azure DevOps Server（以前称为 Team Foundation Server）、Bitbucket、GitHub 和 GitLab。与 Git 的内置凭据帮助程序（Windows：wincred，macOS：osxkeychain，Linux：gnome-keyring/libsecret）相比，它们仅为用户名/密码提供单因素身份验证支持。GCM 取代了基于 .NET Framework 的 Git Credential Manager（适用于 Windows）和基于 Java 的 Git Credential Manager（适用于 Mac 和 Linux）。
+
+* [jopohl/urh](https://github.com/jopohl/urh) Universal Radio Hacker(URH) 是一款用于无线协议分析的完整工具套件，支持多种常见的软件定义无线电（SDR）。URH 可以轻松解调信号并自动检测调制参数，方便识别空中传输的比特和字节。由于数据在传输前通常会进行编码，URH 提供可自定义的解码功能，可以破解复杂的编码，例如 CC1101 数据白化。在协议逆向工程方面，URH 可以通过手动分配协议字段和消息类型，或使用基于规则的智能自动推断协议字段来帮助用户。此外，URH 还包含一个针对无状态协议的模糊测试组件和一个用于有状态攻击的模拟环境。用户可以查看安装说明、官方用户指南、演示视频和维基百科页面了解更多信息。
+
+* [github/docs](https://github.com/github/docs) GitHub Docs是 docs.github.com 的开源代码仓库，包含网站代码和 Markdown源文件。GitHub 文档团队在私有仓库中进行预发布内容工作，并定期同步到此公共仓库。你可以通过点击页面底部的“Make a contribution”按钮提交拉取请求，进行快速修复，例如拼写错误、更新或链接修复。你也可以通过创建本地环境或打开 Codespace 来贡献。对于更复杂的贡献，请使用最合适的 issue模板打开 issue，描述你想要看到的更改。如果你想贡献，可以查看我们的“help wanted board”以查找已获准进行工作的开放 issue。所有代码都已获得 MIT 许可，GitHub 产品文档已获得 CC-BY许可。
+
+* [conan-io/conan](https://github.com/conan-io/conan) Conan是一个开源的 C/C++ 包管理器，它完全去中心化，用户可以在自己的服务器上私密地托管包。Conan 支持跨平台使用，包括 Linux、OSX、Windows、Solaris、FreeBSD 等，并提供对 Docker 和 WSL 的支持。Conan 可以创建、上传和下载任何配置和平台的二进制文件，包括交叉编译，节省开发和持续集成的时间。Conan 可以与任何构建系统集成，包括 CMake、MSBuild、Makefiles、Meson 等。Conan 基于 Python 的配方和扩展点，使其具有强大的灵活性和可扩展性。Conan 拥有一个活跃的社区，在 GitHub 和 Slack 上提供支持。Conan 稳定可靠，被许多公司用于生产环境。
+
+* [x-wrt/x-wrt](https://github.com/x-wrt/x-wrt) 该项目是 OpenWrt 的一个分支，OpenWrt 是一个针对嵌入式设备的 Linux 操作系统。与提供单一静态固件不同，OpenWrt 提供一个完全可写的文件系统和包管理系统，允许用户通过包自定义设备以满足各种应用需求。对于开发者来说，OpenWrt 是构建应用程序的框架，而对于用户来说，这意味着可以完全自定义设备，以实现超出预期用途的功能。项目提供预编译的固件镜像，并提供一个固件选择器帮助用户快速找到可用于从厂商固件迁移到 OpenWrt 的镜像。该项目还提供开发指南，帮助用户构建自己的固件。
+
+* [yarnpkg/berry](https://github.com/yarnpkg/berry) 现代的包管理器，分为各种包。其新颖的架构允许完成目前使用现有解决方案无法完成的事情：Yarn 支持插件;添加插件就像将其添加到存储库中一样简单；Yarn 默认支持 Node，插件可以添加对其他语言的支持；Yarn 原生支持工作区，其 CLI 利用了这一点；Yarn 使用类似 bash 的可移植 shell 脚本可跨 Windows、Linux 和 macOS 移植；Yarn 首先是一个 Node API，可以通过编程方式（通过 @yarnpkg/core）使用；Yarn 是用 TypeScript 编写的，并且经过了完全的类型检查
 
 * [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) 这是一个用于屏蔽 Google 搜索结果中中文垃圾信息的项目，该项目通过维护一个黑名单列表，阻止特定网站或域名出现在搜索结果中，从而帮助用户获得更优质的搜索体验。该项目使用 uBlacklist 技术，可以有效屏蔽各种垃圾信息，例如“小 X 网”或“小X 资讯网”，并提供更准确、更可靠的搜索结果。该项目与 Google Hit Hider by Domain 和 AC-baidu 等类似项目相比，具有更强大的屏蔽功能，可以更有效地过滤中文垃圾信息。
 
@@ -8696,415 +9608,63 @@
 
 * [Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube) PeerTube是一个免费、去中心化、联邦化的视频平台，旨在替代 YouTube、Dailymotion 或 Vimeo 等中心化平台，提供更自由、更开放的视频分享体验。它使用 ActivityPub 协议实现联邦化，允许用户在不同 PeerTube 实例之间互相关注和分享视频。PeerTube 还支持 P2P技术，直接在用户的浏览器中进行视频传输，减少对服务器的依赖，提高视频播放效率。用户可以创建自己的视频频道，上传、分享和观看视频，并与其他用户互动。
 
-* [imputnet/cobalt](https://github.com/imputnet/cobalt) Cobalt 是一个不会惹你生气的媒体下载器。它快速、友好，并且没有任何现代网络充斥的废话：没有广告、跟踪器或侵入性分析。粘贴链接，获取文件，继续前进。就是这么简单。它应该是什么样的。cobalt 不是盗版工具，不能用作盗版工具。它只能下载免费的、可公开访问的内容。此类内容可以通过任何浏览器的开发工具轻松下载。按下一个按钮更容易，因此我为此类重复操作制作了一个方便、无广告的工具。
-
-* [mfts/papermark](https://github.com/mfts/papermark) Papermark是 DocSend 的开源替代方案，提供内置分析功能和自定义域名。它允许您安全地共享文档，通过自定义链接进行访问，并添加自定义品牌和域名。Papermark 还提供文档跟踪和页面级分析功能，并允许您自托管和自定义。项目使用 Next.js、TypeScript、Tailwind CSS、Prisma ORM、PostgreSQL 数据库等技术构建，并集成 NextAuth.js 用于身份验证、Tinybird 用于分析、Resend 用于电子邮件发送、Stripe 用于支付以及 Vercel 用于托管。
-
-* [liiight/notifiers](https://github.com/liiight/notifiers) Notifiers是一个简单易用的 Python 库，它提供了一个统一的接口，让你可以轻松地向各种通知服务发送通知，例如 Pushover、SimplePush、Slack、Gmail、Telegram、Gitter、Pushbullet、Join、Zulip、Twilio、Pagerduty、Mailgun、PopcornNotify、StatusPage.io、iCloud、VictorOps 和 Notify。Notifiers 使用 requests、jsonschema 和 click 等稳定依赖库，避免了安装第三方 SDK 的麻烦。它支持所有新添加的提供商，并通过全面测试确保代码和通知的稳定性。
-
 * [gelstudios/gitfiti](https://github.com/gelstudios/gitfiti) gitfiti是一个利用GitHub提交历史记录来创作“涂鸦”的工具。它通过生成脚本（powershell或bash）来修改提交日期，从而在GitHub提交历史日历上绘制图案。由于会修改仓库历史记录，建议在使用gitfiti时创建一个新的GitHub仓库。gitfiti提供了多种预设图案，用户也可以自定义图案。此外，gitfiti支持从文件加载图案，并提供文本和字母选项。需要注意的是，使用gitfiti需要等待一段时间才能在提交图中看到效果。
 
 * [mislav/hub](https://github.com/mislav/hub) hub是一个命令行工具，它扩展了git，提供额外的功能和命令，使与GitHub的交互更加便捷。它可以用于克隆仓库、创建pullrequest、管理issue等操作，并支持使用SSH或HTTPS协议。hub可以与git命令无缝衔接，也可以直接与GitHub API交互，方便脚本编写。hub可在多种平台上安装，包括macOS、Linux、Windows等，并提供多种安装方式，如Homebrew、Nix、Scoop、Chocolatey等。此外，hub还可以在GitHub Actions中使用，方便自动化操作。
 
-* [lizongying/my-tv](https://github.com/lizongying/my-tv) 这是一个名为“我的电视”的电视直播软件，安装即可使用。用户可以通过GitHub或Gitee下载安装包，并使用手机或平板电脑安装使用。该软件支持多种机型，包括小米电视、海信电视等。用户可以通过ADB命令安装软件，也可以使用手机自带的安装功能。该软件提供了丰富的直播频道，包括央视、卫视、地方台等，用户可以根据自己的需求选择观看。该软件仍在开发中，未来将支持更多频道和功能。
-
-* [benoitc/gunicorn](https://github.com/benoitc/gunicorn) Gunicorn是一个用于 UNIX 的 Python WSGI HTTP 服务器，它基于 Ruby 的 Unicorn项目的预分叉工作模型。Gunicorn 与各种 Web 框架兼容，实现简单，资源占用少，速度快。它支持 Python 3.7 及更高版本，可以通过 `pip install gunicorn` 安装。使用方式为 `gunicorn [OPTIONS] APP_MODULE`，其中 `APP_MODULE` 格式为 `$(MODULE_NAME):$(VARIABLE_NAME)`，例如 `gunicorn --workers=2 test:app`。项目文档位于 https://docs.gunicorn.org，代码遵循 MIT 许可协议。
-
 * [TeamPiped/Piped](https://github.com/TeamPiped/Piped) Piped是一个开源的 YouTube 前端替代方案，旨在高效且注重隐私。它不使用官方 YouTube API，而是通过 NewPipeExtractor 提取信息，并提供无广告、无追踪、轻量级、无限滚动、主题切换、登录、订阅、播放列表等功能，还支持 SponsorBlock、LBRY和 Return YouTube Dislike 集成。Piped 采用多区域负载均衡，设计高效，能够同时处理数千用户，并提供公开的 JSON API和基于 Matrix 的联邦协议，允许不同实例之间协作。
-
-* [dessant/search-by-image](https://github.com/dessant/search-by-image) Search by Image是一款浏览器扩展，支持 Chrome、Edge 和 Safari，可以轻松进行反向图片搜索，并支持超过 30 个搜索引擎。它可以帮助记者和研究人员验证图片的真实性，识别社交媒体上的虚假信息，也方便摄影师了解自己的作品在网络上的传播情况，以及购物者寻找类似商品的折扣。该扩展支持多种搜索模式，包括从网页上选定区域的图片、从设备上传的图片、来自私有网站的图片以及网页截图。
 
 * [actions/starter-workflows](https://github.com/actions/starter-workflows) 这些是帮助人们开始使用 GitHub Actions 的工作流程文件。每当您开始创建新的 GitHub Actions 工作流程时，都会显示它们。如果您想开始使用 GitHub Actions，可以通过单击要创建工作流程的存储库中的“Actions”选项卡来使用这些入门工作流程。每个工作流都必须用 YAML 编写，并且具有 .yml 扩展。他们还需要一个相应的 .properties.json 文件，其中包含有关工作流的额外元数据（显示在 GitHub.com UI 中）。
 
-* [filecxx/FileCentipede](https://github.com/filecxx/FileCentipede) FileCentipede是一款跨平台的互联网文件上传/下载管理器，支持 HTTP(S)、FTP(S)、SSH、磁力链接、BitTorrent、m3u8、ed2k 和在线视频等多种协议。它还包含 WebDAV 客户端、FTP 客户端和 SSH 客户端。FileCentipede旨在快速、可定制且用户友好，并支持多种协议，包含 HTTP 请求器、文件合并和编码器等多种辅助工具。通过浏览器集成，您可以从网站下载音频和视频，甚至加密视频。FileCentipede 免费且无广告。
-
-* [ente-io/ente](https://github.com/ente-io/ente) Ente是一个完全开源的端到端加密云存储平台，提供替代Google Photos和ApplePhotos的Ente Photos应用，以及替代Authy的2FA应用Ente Auth。该项目由Cure53、Symbolic Software和Fallible等机构进行安全审计，并提供5GB免费存储空间。Ente Photos支持3倍数据复制、设备端机器学习、跨平台、私密分享、协作相册、家庭计划等功能，并提供桌面和网页版。Ente Auth则是一个免费的开源端到端加密身份验证器应用。
-
-* [johang/btfs](https://github.com/johang/btfs) BTFS是一个基于FUSE的BitTorrent文件系统，它允许你将任何.torrent文件或磁力链接挂载为一个只读目录，并在需要时按需下载文件内容，支持ls、cat、cp等工具以及vlc、mplayer等应用程序。你只需使用btfs命令将torrent文件或磁力链接挂载到指定目录，然后就可以像访问普通目录一样使用它。BTFS支持Debian/Ubuntu、Arch Linux、Gentoo、Fedora、OpenSUSE和macOS等系统，并依赖于fuse、libtorrent和libcurl等库。
-
-* [Jackett/Jackett](https://github.com/Jackett/Jackett) 您最喜欢的 torrent 跟踪器，Jackett 用作代理服务器：它将来自应用程序（Sonarr、Radarr、SickRage、CouchPotato、Mylar3、Lidarr、DuckieTV、qBittorrent、Nefarious 等）的查询转换为特定于跟踪器站点的 http 查询，解析 html 或 json 响应，然后将结果发送回请求软件。这允许获取最近上传的内容（如 RSS）并执行搜索。Jackett 是维护索引器抓取和翻译逻辑的单一存储库 - 消除了其他应用程序的负担。
-
 * [KoriIku/luxirty-search](https://github.com/KoriIku/luxirty-search) Luxirty Search是一款基于 Google 的搜索引擎，它屏蔽内容农场，无广告，无跟踪，干净，简洁，快速。它通过屏蔽特定网站（如 CSDN、知乎、百度等）和使用 `site:` 运算符来过滤掉垃圾信息，并优先展示高质量网站（如 GitHub、Stackoverflow、v2ex、cnblog）的内容。此外，它还支持搜索 v2ex 和 Reddit 等平台。Luxirty Search 旨在提供一个干净、高效的搜索体验，帮助用户快速找到所需信息。
 
-* [sigoden/dufs](https://github.com/sigoden/dufs) Dufs是一个功能丰富的文件服务器，支持静态文件服务、上传、搜索、访问控制、WebDAV等功能。它提供命令行界面，支持多种安装方式，包括使用cargo、Docker和Homebrew。Dufs可以配置访问权限，支持HTTPS和CORS，并提供多种日志记录选项。用户可以通过简单的命令行参数控制Dufs的行为，例如指定服务路径、端口号、访问权限等。Dufs还支持单页应用程序（SPA）和静态网站的部署。
-
-* [useplunk/plunk](https://github.com/useplunk/plunk) Plunk是一个基于 AWS SES 的开源邮件平台，提供自托管的电子邮件发送服务，类似于 SendGrid、Resend 或 Mailgun。它支持发送事务性邮件、创建基于用户行为的自动化邮件和发送广播邮件，方便用户从应用程序中轻松发送电子邮件。用户可以通过 Docker 镜像 `driaug/plunk` 自行部署 Plunk，详细部署指南可在官方文档中找到。项目鼓励贡献者参与，贡献指南可在 CONTRIBUTING.md 中找到。
-
-* [RsyncProject/rsync](https://github.com/RsyncProject/rsync) Rsync是一个开源工具，提供快速增量文件传输功能，并支持备份和恢复操作等多种用例。它使用增量传输算法，仅传输文件差异，无需在链接两端都存在完整文件。Rsync通常使用ssh或rsh与远程系统通信，无需特殊权限，但需要一个可用的ssh或rsh系统。Rsync也可以在守护进程模式下运行，监听套接字，通常用于公开文件分发。更多信息请访问官方网站：https://rsync.samba.org/。
-
 * [Spotifyd/spotifyd](https://github.com/Spotifyd/spotifyd) Spotifyd是一个开源的Spotify客户端，以UNIX守护进程的形式运行，它像官方客户端一样流式传输音乐，但更轻量级，支持更多平台。Spotifyd还支持Spotify Connect协议，使其可以作为设备显示，并可以通过官方客户端进行控制。Spotifyd需要Spotify Premium帐户才能使用。该项目基于librespot的逆向工程工作，并欢迎开发者参与贡献，特别是针对标记为“good first issue”的简单任务。
-
-* [versatica/mediasoup](https://github.com/versatica/mediasoup) 尖端的 WebRTC 视频会议。MediaSoup 及其客户端库旨在实现以下目标：成为 SFU（选择性转发单元）。支持 WebRTC 和普通 RTP 输入和输出。是服务器端的Node.js模块或 Rust crate。成为客户端的小型 TypeScript 和 C++ 库。极简主义：只需处理媒体层即可。信令不可知：不要强制要求任何信令协议。是超低级别的 API。支持所有现有的 WebRTC 端点。启用与知名多媒体库/工具的集成。
 
 * [o2sh/onefetch](https://github.com/o2sh/onefetch) Onefetch是一个用 Rust 编写的命令行 Git 信息工具，可以显示本地 Git仓库的项目信息和代码统计信息，无需网络连接。它可以自动检测开源许可证，并提供代码分布、待处理变更、依赖项数量、主要贡献者、磁盘大小、创建日期、代码行数等信息。支持超过 100 种编程语言，并可以通过命令行参数进行自定义配置，例如格式、信息行、忽略文件和目录、输出格式等。
 
 * [IonicaBizau/git-stats](https://github.com/IonicaBizau/git-stats) `git-stats` 是一个本地 Git 统计工具，可以生成类似 GitHub 的贡献日历，并提供其他统计信息。它支持导入和删除提交，以及从 GitHub 和 BitBucket 导入所有提交。用户可以通过命令行工具或 Node.js 模块使用它，并自定义数据存储文件、主题和日期范围。默认情况下，它会将提交历史记录保存在 `~/.git-stats` 文件夹中，也可以通过 `~/.git-stats-config.js` 文件配置默认设置。
 
-* [ngc660sec/NGCBot](https://github.com/ngc660sec/NGCBot) NGCBot V2.2 是一个基于 HOOK 机制的微信机器人，拥有丰富的功能，包括安全新闻定时推送、Kfc 文案、备案查询、手机号归属地查询、WHOIS 信息查询、星座查询、天气查询、摸鱼日历、微步威胁情报查询、美女视频、美女图片、帮助菜单等。它还支持积分功能、自动拉人、检测广告、自动群发、Ai 回复等功能，并拥有高度的自定义程度，即使是小白也能轻松上手！
-
-* [SagerNet/sing-box](https://github.com/SagerNet/sing-box) 通用代理平台，一款功能强大的跨平台代理客户端软件，支持多种代理协议，如 Shadowsocks、Trojan、VMess 等。它整合了多种代理协议，支持跨平台使用，并提供灵活的流量控制功能，可用于改善网络连接、绕过网络限制以及优化网络流量路由。此外，Sing-box 还可以创建网络代理服务器、客户端和透明代理，并允许用户管理和使用本地、iCloud 和远程配置文件。
-
 * [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) YesPlayMusic 是一个高颜值的第三方网易云音乐播放器，支持 Windows、macOS 和 Linux。它使用 Vue.js 全面开发，支持网易云音乐账号登录、MV 播放、歌词显示、私人 FM 和每日推荐歌单等功能。此外，它还支持 UnblockNeteaseMusic，可以自动使用代理服务器解锁网易云音乐的限制，播放更多歌曲。用户可以通过官方网站下载使用，并加入 Telegram 交流群获取最新信息。
-
-* [novuhq/novu](https://github.com/novuhq/novu) 面向开发人员的开源通知基础结构。使用单个 API 管理多渠道通知的终极服务。适用于所有消息传递提供商的单一 API（应用内、电子邮件、短信、推送、聊天）。轻松管理多个渠道的通知。配备CMS，用于高级布局和设计管理。内置对缺失变量的保护。易于设置和集成。在单个仪表板中调试和分析多渠道消息。具有实时更新的嵌入式通知中心。社区驱动。
-
-* [ginuerzh/gost](https://github.com/ginuerzh/gost) GO语言实现的安全隧道。特性：多端口监听、可设置转发代理，支持多级转发(代理链)、支持标准HTTP(2)(S)/SOCKS4(A)(5)代理协议、Web代理支持探测防御、支持多种隧道类型、SOCKS5代理支持TLS协商加密、基于 TCP 的隧道 UDP、TCP/UDP透明代理、本地/远程TCP/UDP转发、支持Shadowsocks(TCP/UDP)协议、支持SNI代理、权限控制、负载均衡、路由控制、DNS解析和代理、TUN/TAP设备
-
-* [y123456yz/reading-code-of-nginx-1.9.2](https://github.com/y123456yz/reading-code-of-nginx-1.9.2) 该项目是对 Nginx 1.9.2 源码进行通读分析并添加中文注释，包含详尽的函数中文分析注释以及相关函数流程调用注释，旨在帮助开发者更深入地理解 Nginx 的工作原理。项目特色是提供最全面的 Nginx 源码阅读分析中文注释，并已更新完毕。该项目适用于希望深入学习 Nginx 源码、了解其内部机制的开发者，以及需要进行 Nginx 性能优化或定制开发的工程师。
-
-* [nyaadevs/nyaa](https://github.com/nyaadevs/nyaa) NyaaV2是一个面向猫的 Bittorrent 软件，使用 Python 3.7 开发。它支持 MySQL/MariaDB 数据库，并提供数据库迁移功能。项目使用 Flask-Migrate 和 Alembic 进行数据库迁移，并提供测试用例。用户可以使用 `pyenv` 管理 Python 版本，并通过 `pip` 安装依赖项。项目提供开发服务器，方便开发者进行测试和开发。此外，项目还支持 Elasticsearch，可以实现高级搜索功能。
-
-* [webtorrent/instant.io](https://github.com/webtorrent/instant.io) 通过 WebTorrent 传输流式文件（网络上的种子）。使用 WebTorrent 协议（基于 WebRTC 的 BitTorrent）下载/上传文件。由 WebTorrent 提供支持，这是第一个无需插件即可在浏览器中运行的 torrent 客户端。WebTorrent 由 JavaScript 和 WebRTC 提供支持。支持 Chrome、Firefox、Opera（桌面和 Android）。在控制台中运行 localStorage.debug = ‘*‘ 并刷新以获取详细的日志输出。
-
-* [Nv7-GitHub/googlesearch](https://github.com/Nv7-GitHub/googlesearch) googlesearch是一个 Python 库，用于轻松地搜索 Google。它使用 requests 和 BeautifulSoup4库来抓取 Google 搜索结果。该库支持多种搜索选项，包括结果数量、语言、地区、安全搜索、高级搜索等。用户可以通过简单的 Python 代码调用该库，获取搜索结果并提取标题、URL、描述等信息。该库还支持使用代理服务器进行搜索，并提供选项控制请求间隔时间。
-
-* [lexiforest/curl_cffi](https://github.com/lexiforest/curl_cffi) curl_cffi是一个基于 cffi 的 Python 库，它使用 curl-impersonate分支来实现一个能够模拟浏览器 TLS/JA3 和 HTTP/2指纹的 HTTP 客户端。与其他纯 Python HTTP 客户端（如 httpx 或 requests）不同，curl_cffi 可以模拟浏览器的指纹，这使得它能够绕过一些网站的封锁。它比 requests/httpx 快，与 aiohttp/pycurl 相当，支持 asyncio 和代理轮换，并支持 HTTP 2.0 和 websocket。
-
-* [Tencent/tquic](https://github.com/Tencent/tquic) TQUIC是一个高性能、轻量级、跨平台的 QUIC 库，由腾讯开发。它支持多种拥塞控制算法（CUBIC、BBR、BBRv3、COPA），支持多路径 QUIC，并提供 Rust/C/C++ API。TQUIC 经过严格测试，包括单元测试、模糊测试、集成测试、性能基准测试、互操作性测试等，并通过了 IETF 互操作性测试。TQUIC 符合 QUIC 和 HTTP/3 RFC 规范，并提供详细的文档和社区支持。
-
-* [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) 以与语言无关的方式扩展实时消息服务器。Pubnub、Pusher、Ably 的自托管替代品。设置一次，永远设置。开源、可扩展的实时消息服务器。Centrifugo可以即时向通过支持的传输（WebSocket、HTTP-streaming、SSE/EventSource、GRPC、SockJS、WebTransport）连接的应用程序在线用户发送消息。具有频道订阅的概念——因此它是一个面向用户的 PUB/SUB 服务器。
-
-* [timvisee/ffsend](https://github.com/timvisee/ffsend) ffsend是一个命令行工具，可以轻松安全地分享文件。它使用 FirefoxSend 服务，支持文件加密和密码保护，并提供下载限制、文件过期时间等功能。ffsend 支持上传和下载文件和目录，并提供 URL 短链接和 QR 码生成等功能。用户可以自定义 Send 主机，并查看和删除共享文件。该工具适用于脚本化操作，具有低内存占用和准确的错误报告。
-
-* [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources) 该项目是一个自动更新 IPTV 来源的工具，它整合了多个来源，包括epg.pw、iptv.org、YueChan/Live、YanG-1989/m3u 等，并提供 EPG 数据。项目支持多种部署方式，包括 GitHub Pages、Docker 和 Node.js，并提供环境变量配置，例如自定义回滚 URL、关闭来源代理、自定义 GitHub Raw 来源代理 URL 等。项目还提供 IPTV 检查功能，可以检查 IPTV 来源的有效性。
-
-* [jagt/clumsy](https://github.com/jagt/clumsy) clumsy是一款 Windows 网络模拟工具，它可以人为地降低您的网络连接速度，并模拟各种网络问题，例如延迟、丢包和数据篡改。clumsy 基于 WinDivert 库，能够拦截并修改网络数据包，无需安装或配置代理，适用于任何应用程序，甚至可以在离线状态下模拟网络问题。clumsy 提供交互式控制面板，让您可以实时调整网络状况并观察效果。
-
-* [filecoin-project/lotus](https://github.com/filecoin-project/lotus) Lotus是 Filecoin 分布式存储网络的 Go 语言实现，它提供了完整的 Filecoin 功能，包括数据存储、检索和交易。Lotus 项目包含了完整的文档和构建指南，并提供独立的模块，例如 go-fil-markets 和 builtin-actors，方便开发者进行二次开发。Lotus 致力于打造安全、可靠、高效的分布式存储网络，为用户提供更加便捷的存储和数据访问服务。
-
-* [LibNyanpasu/clash-nyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu) Clash Nyanpasu是一款基于Tauri的Clash图形界面，支持Clash Premium、Mihomo和Clash Rust。它提供配置文件管理和增强功能，支持提供商管理，并采用Google Material You设计语言。用户可以通过YAML、JavaScript和Lua来定制配置文件，并享受流畅的动画体验。项目还提供安装指南、常见问题解答和开发环境配置说明，欢迎用户提交问题和代码贡献。
-
-* [webhooksite/webhook.site](https://github.com/webhooksite/webhook.site) Webhook.site是一个方便的工具，可以立即显示 HTTP 请求，方便测试和调试 Webhook。它提供一个独特的随机 URL，无需互联网服务器即可接收 Webhook，并支持将 Webhook 转换为其他格式，以及通过自定义操作图形编辑器或 WebhookScript 脚本语言进行处理。该项目开源，提供自托管版本和云版本，云版本提供更多功能，部分需要付费订阅。
-
-* [trojan-gfw/trojan](https://github.com/trojan-gfw/trojan) 一种无法识别的机制，可以帮助你绕过 GFW。特洛伊木马通过 TLS 提供多种协议，以避免主动/被动检测和 ISP QoS 限制。特洛伊木马程序不是固定的程序或协议。这是一个想法，一个模仿最常见的服务，在某种程度上它的行为相同，可以帮助你永久地穿过防火长城，而不会被识别出来。我们是 GreatER Fire;我们运送特洛伊木马。
-
-* [Z-Siqi/Clash-for-Windows_Chinese](https://github.com/Z-Siqi/Clash-for-Windows_Chinese) Clash for Windows汉化版项目提供Clash for Windows的汉化版、汉化补丁以及汉化版安装程序。该项目支持多种Clash版本，用户可通过安装程序直接安装汉化版，或使用补丁对现有版本进行汉化。项目特色包括：使用安装程序安装汉化版可自动更新汉化内容，使用补丁则需要手动更新。该项目已于2023年11月3日存档，不再提供更新。
-
-* [brick-design/brick-design](https://github.com/brick-design/brick-design) 低代码框架，支持流式布局与自由布局拖拽编排，可视化拖拽、随意嵌套组合、实时渲染、实时辅助线展示、自由布局支持辅助对齐、支持自动吸附、实时组件间距展示、实时拖拽排序、状态域管理，可视化属性配置、可视化样式配置、多设备适配展示，支持逻辑渲染、模板字符变量、表达式、自定义方法、自定义状态
-
-* [mr-karan/doggo](https://github.com/mr-karan/doggo) doggo 是用 Golang 编写的现代命令行 DNS 客户端（如 dig）。它以简洁明了的方式输出信息，并支持 DoH、DoT、DoQ 和 DNSCrypt 等协议。它完全受到用 Rust 编写的 dog 的启发。我想向它添加一些功能，但由于我不了解 Rust，我发现这是一个很好的机会，可以自己尝试在 Go 中从头开始编写 DNS 客户端。因此名称 dog + go =&gt; doggo。
-
-* [Tribler/tribler](https://github.com/Tribler/tribler) Tribler是一个增强隐私的 BitTorrent 客户端，旨在提供匿名访问内容。它通过实现一个类似于 Tor 的匿名网络，使用隐藏服务进行种子和端到端加密，以实现匿名下载和流媒体。Tribler 的目标是让隐私、强大的加密和身份验证成为互联网的规范，自 2004 年以来一直致力于确保“唯一能关闭 Tribler 的方法是关闭互联网”。
 
 * [arslanbilal/git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet) 这是一个 Git和 Git Flow 的速查表，旨在帮助你快速掌握常用的 Git 命令，无需死记硬背。该项目包含了 Git 的基本操作，包括设置、创建、本地更改、搜索、提交历史、移动/重命名、分支和标签、更新和发布、合并和变基、撤销操作以及 Git Flow 工作流程。你可以自由地贡献、更新语法错误，并添加你的语言文件。
 
-* [songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher) message-pusher是一个基于 Golang 的消息推送服务，支持多种推送方式，包括微信、钉钉、企业微信、Bark、Telegram 等，支持 Markdown 格式，仅单可执行文件，开箱即用。用户可以轻松搭建专属于自己的消息推送服务，方便地将消息推送至不同的平台。该项目使用数据库来存储推送信息，并提供 Web 界面进行配置和管理。
-
-* [Radarr/Radarr](https://github.com/Radarr/Radarr) Usenet 和 BitTorrent 用户的电影收藏管理器。它可以监控新电影的多个 RSS 源，并将与客户端和索引器交互以抓取、排序和重命名它们。它还可以配置为在有更好的质量格式可用时自动升级库中现有文件的质量。请注意，仅支持给定影片的一种类型。如果您想要给定电影的 4k 版本和 1080p 版本，则需要多个实例。
-
-* [shuzheng/zheng](https://github.com/shuzheng/zheng) 基于Spring+SpringMVC+Mybatis分布式敏捷开发系统架构，提供整套公共微服务模块：集中权限管理（单点登录）、内容管理、支付中心、用户管理（支持三方登录）、微信平台、存储系统、配置中心、日志分析、任务和通知等，支持服务治理、监控和追踪，努力为中小型企业打造全方位J2EE企业级开发解决方案。
-
-* [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) 该项目收集了众多流行互联网平台的开源替代前端，例如 YouTube、Twitter 等，旨在提供隐私友好、无广告、无跟踪的替代方案。项目提供详细的项目列表，包括每个项目的 GitHub 链接、官方实例地址、安装指南等信息，方便用户选择合适的替代方案。项目还鼓励用户提交新的开源项目，以丰富项目内容。
-
 * [fangzesheng/free-api](https://github.com/fangzesheng/free-api) 这是一个收集免费 API 接口的项目，旨在为开发者提供便捷的 API 资源。项目收集了网络上众多免费 API，并提供统一的接入方式，方便开发者快速使用。项目会定期更新新的 API 接口，并提供相关文档和示例代码，方便开发者快速上手。开发者可以通过项目网站或 GitHub仓库获取 API 列表和相关信息。
-
-* [httpie/http-prompt](https://github.com/httpie/http-prompt) HTTP Prompt是一个基于 HTTPie 和 prompt_toolkit 的交互式命令行 HTTP 客户端，它支持自动补全、语法高亮等功能，方便用户进行API 测试和调试。用户可以通过 HTTP Prompt 发送 HTTP 请求，查看响应内容，并进行交互式操作，提升 API 开发效率。项目主页：https://http-prompt.com，文档地址：https://docs.http-prompt.com。
-
-* [mastodon/mastodon](https://github.com/mastodon/mastodon) 基于 ActivityPub 的免费开源社交网络服务器，用户可以在其中关注并发现新朋友。 在 Mastodon 上，用户可以发布他们想要的任何东西：链接、图片、文本、视频。 所有服务器都可以作为联合网络进行互操作（一台服务器上的用户可以与另一台的用户无缝通信，包括实现 ActivityPub 的非 Mastodon 软件）
-
-* [gwuhaolin/livego](https://github.com/gwuhaolin/livego) livego是一个用 Go 语言编写的简单高效的直播服务器，支持 RTMP、HLS、HTTP-FLV 等传输协议，FLV 和 TS容器格式，以及 H264、AAC、MP3 等编码格式。用户可以通过 RTMP 协议将视频流推送到服务器，然后通过RTMP、FLV 或 HLS 协议进行播放。livego 易于安装和使用，支持 Docker 部署，并提供丰富的配置选项。
 
 * [danielkummer/git-flow-cheatsheet](https://github.com/danielkummer/git-flow-cheatsheet) 这是一个关于Git Flow 使用的速查表，提供 Vincent Driessen 分支模型的高级仓库操作扩展，帮助开发者更好地管理代码版本。该项目包含了 Git Flow 的基本命令和使用方法，包括初始化、创建特性分支、发布版本、修复紧急问题等操作，并提供详细的命令说明和示例，方便开发者快速上手 Git Flow。
 
-* [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) 包含 Cloudflare Tunnel 的命令行客户端，这是一个隧道守护程序，用于代理从 Cloudflare 网络到源的流量。此守护程序位于 Cloudflare 网络和您的源（例如 Web 服务器）之间。Cloudflare 吸引客户端请求并通过此守护程序将其发送给您，而无需您在防火墙上戳洞，---您的源可以尽可能保持关闭状态。
-
-* [yixuantt/MultiHop-RAG](https://github.com/yixuantt/MultiHop-RAG) “MultiHop-RAG：用于评估跨文档检索增强生成的数据集”（COLM 2024） 的存储库。MultiHop-RAG：一个 QA 数据集，用于评估 RAG 管道中元数据跨文档的检索和推理。它包含 2556 个查询，每个查询的证据分布在 2 到 4 个文档中。查询还涉及文档元数据，反映了实际 RAG 应用程序中常见的复杂场景。
-
-* [streamlink/streamlink](https://github.com/streamlink/streamlink) Streamlink是一个命令行工具，可以将来自各种服务的视频流导入视频播放器。它基于插件系统，支持 Twitch、YouTube 等大多数流行的流媒体服务。用户可以使用 Streamlink 将流媒体内容保存到本地文件或获取流媒体元数据。Streamlink 是 Livestreamer 项目的衍生项目，并提供 Python API 和 CLI 文档。
-
-* [Kong/kong](https://github.com/Kong/kong) 一种云原生、与平台无关、可扩展的 API 网关，以其高性能和通过插件的可扩展性而著称。通过提供代理、路由、负载均衡、运行状况检查、身份验证等功能，Kong 充当了轻松编排微服务或传统 API 流量的中心层。Kong在Kubernetes上本地运行，这要归功于其官方的Kubernetes Ingress Controller。
-
-* [ducaale/xh](https://github.com/ducaale/xh) xh是一个友好且快速的 HTTP 请求工具，它借鉴了 HTTPie 的优秀设计，并专注于提升性能。它支持多种安装方式，包括使用 cURL、Powershell、各种包管理器以及预编译二进制文件。xh 可以通过命令行发送 HTTP 请求，并支持多种请求方法、数据格式和选项，例如 JSON、表单、多部分表单等。
-
-* [firezone/firezone](https://github.com/firezone/firezone) 基于 WireGuard® 的可扩展远程访问平台，与您的 IdP 集成，无需开放端口。开源平台，可安全地管理任何规模组织的远程访问。与大多数 VPN 不同，Firezone 采用精细、最低权限的访问管理方法，采用基于组的策略来控制对单个应用程序、整个子网以及介于两者之间的所有内容的访问。
-
-* [0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui) Nginx UI是一个由 0xJacky 和 Hintay 开发的 Nginx Web界面，提供多种语言版本，支持从可执行文件、systemd和 Docker 等方式启动，并提供详细的文档和演示。用户可以通过 Nginx UI 界面查看 Nginx 的状态信息、配置信息、日志信息等，并进行一些简单的操作，例如重启 Nginx、修改配置等。
-
 * [agis/git-style-guide](https://github.com/agis/git-style-guide) 这是一个 Git风格指南，受 Linux 内核提交补丁指南、git 手册页和社区流行实践的启发。它提供了一套关于分支命名、提交信息、合并等方面的最佳实践，旨在帮助开发者保持代码库整洁、易于理解和维护。该指南包含中文简体、繁体等多种语言版本，并鼓励开发者积极贡献。
-
-* [pymumu/smartdns](https://github.com/pymumu/smartdns) SmartDNS是一个本地 DNS 服务器，它通过查询多个上游 DNS 服务器，获取最快的网站 IP 地址，从而提升上网速度。它支持 DoH 和 DoT 协议，提供更高的安全性和隐私保护。SmartDNS 可以部署在 OpenWrt、路由器、Windows 等多种平台上，并提供网页版管理界面，方便用户配置和使用。
-
-* [fortra/impacket](https://github.com/fortra/impacket) 用于处理网络协议的 Python 类的集合。专注于提供对数据包的低级编程访问，对于某些协议（例如 SMB1-3 和 MSRPC），协议实现本身。数据包可以从头开始构建，也可以从原始数据中解析，面向对象的 API 使使用协议的深层层次结构变得简单。该库提供了一组工具作为示例。
-
-* [popcorn-official/popcorn-desktop](https://github.com/popcorn-official/popcorn-desktop) Popcorn Time是一个跨平台的免费 BitTorrent 客户端，包含集成媒体播放器，支持 Windows、Mac 和 Linux 系统。它是 Butter-Project 的分支，你可以从项目网站 popcorn-time.site 或 GitHub 发布页面下载最新版本。项目还提供最新开发版本供测试人员使用，可以通过 GitHub Actions 页面获取。
-
-* [qhjqhj00/memorag](https://github.com/qhjqhj00/memorag) 创新的 RAG 框架，建立在高效、超长的内存模型之上。与主要处理具有明确信息需求的查询的标准 RAG 不同，MemoRAG 利用其内存模型来实现对整个数据库的全局理解。通过从记忆中调用特定于查询的线索，MemoRAG 增强了证据检索，从而生成更准确且上下文更丰富的响应。
-
-* [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) MyIP是一个功能强大的 IP 工具箱，提供多种功能，包括查看本地 IP 地址、IP 地理位置信息、网站可用性测试、WebRTC 连接检测、DNS 泄漏测试、速度测试、ping 测试、MTR 测试、DNS 解析、Whois 查询、MAC 地址查询等。该项目支持多种语言，并提供网页版和 Docker 部署方式。
-
-* [Anankke/SSPanel-Uim](https://github.com/Anankke/SSPanel-Uim) SSPanel-UIM是一个多功能代理服务管理系统，支持 Shadowsocks(2022) / V2Ray / Trojan / TUIC 等协议，集成多种支付系统，支持自定义节点配置、模块化订阅系统、多种订阅格式，并提供智能回复、文档生成等 AI 功能，需要 Git、Nginx、PHP 8.2+、MariaDB 10.11+、Redis 7.0+ 等软件环境。
-
-* [netchx/netch](https://github.com/netchx/netch) Netch是一个简单的代理客户端，支持多种代理协议，包括 Socks5、Shadowsocks、ShadowsocksR、WireGuard、Trojan、VMess 和 VLESS。它提供多种模式，包括进程模式、共享模式、隧道模式和 Web 代理模式，并支持 UDP NAT FullCone 功能。Netch 使用.NET 6.0 x64 开发，并遵循 GPLv3 许可协议。
-
-* [zulip/zulip](https://github.com/zulip/zulip) 开源的团队协作工具，具有独特的基于主题的线程，结合了电子邮件和聊天的优点，使远程工作高效且令人愉快。财富 500 强公司、领先的开源项目以及数以千计的其他组织每天都在使用 Zulip。Zulip 是唯一一款专为实时和异步对话而设计的现代团队聊天应用程序。
-
-* [c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) qBittorrent 增强，基于 qBittorrent。特征：Auto Ban 迅雷、QQ、百度、Xfplay、DLBT和离线下载器；自动禁止来自中国的未知对等方选项（默认：关闭）；自动更新公共跟踪器列表（默认：关闭）;自动禁止 BitTorrent 媒体播放器对等选项（默认：关闭）；对等白名单/黑名单
-
-* [pallets/itsdangerous](https://github.com/pallets/itsdangerous) 将可信数据安全地传递到不受信任的环境并返回。各种帮助程序将数据传递到不受信任的环境，并使其安全无恙地恢复。数据经过加密签名，以确保令牌未被篡改。可以自定义数据序列化的方式。根据需要压缩数据。加载令牌时，可以自动添加和验证时间戳。
-
-* [cjdelisle/cjdns](https://github.com/cjdelisle/cjdns) cjdns是一个使用公钥加密进行地址分配和分布式哈希表进行路由的加密 IPv6 网络。它提供近乎零配置的网络，并避免了现有网络中存在的许多安全和可扩展性问题。cjdns 使用 Rust 语言编写，并提供跨平台支持。项目拥有活跃的社区，并提供丰富的文档和教程。
-
-* [evilsocket/opensnitch](https://github.com/evilsocket/opensnitch) OpenSnitch 是一个受 Little Snitch 启发的 GNU/Linux 交互式应用程序防火墙。主要特点：交互式出站连接过滤。在整个系统范围内阻止广告、跟踪器或恶意软件域。能够从 GUI (nftables)配置系统防火墙。配置输入策略、允许入站服务等。从集中式 GUI 管理多个节点。
-
-* [olistic/warriorjs](https://github.com/olistic/warriorjs) 令人兴奋的编程和人工智能游戏，在 WarriorJS 中，你是一名爬上高塔到达顶层 JavaScript 剑的战士。传说持剑者在 JavaScript 语言中变得开悟，但请注意：旅程并不容易。在每一层楼，你需要编写JavaScript来指导战士与敌人作战，营救俘虏，并活着到达楼梯......
-
-* [coredns/coredns](https://github.com/coredns/coredns) DNS 服务器/转发器，用 Go 编写，用于链接插件。每个插件都执行一个（DNS）功能。快速灵活的DNS服务器。这里的关键词是灵活：使用CoreDNS，您可以通过使用插件对DNS数据做任何您想做的事情。如果某些功能没有开箱即用，您可以通过编写插件来添加它。
-
-* [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) 翻墙-科学上网、自由上网、免费科学上网、免费翻墙、油管youtube、fanqiang、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙、科学上网
-
-* [2471023025/RALM_Survey](https://github.com/2471023025/RALM_Survey) RALM 调查存储库，其中包含根据我们的调查论文：RAG 和 RAU：自然语言处理中检索增强语言模型的调查，其中包含最先进的 RAG 和其他技术的摘要。在这个存储库中，我们将介绍我们论文的最核心研究方法，并以最易于访问的方式了解 RALM 的最新工作。
-
-* [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) 利用干净体系结构和 ASP.NET 核心的强大功能，为企业应用程序开发提供一种简单有效的方法。使用此模板，您可以毫不费力地创建具有 ASP.NET Core和Angular或React的单页应用程序（SPA），同时遵守清洁架构的原则。入门很简单 - 只需安装 .NET 模板。
-
-* [arvidn/libtorrent](https://github.com/arvidn/libtorrent) libtorrent是一个开源的 C++ 库，实现了 BitTorrent 协议以及大多数流行的扩展，使其适用于现实世界的部署。它可以配置以适应服务器和嵌入式设备。libtorrent 的主要目标是高效和易于使用。更多详细的构建和使用说明请参见 libtorrent.org网站。
 
 * [nektos/act](https://github.com/nektos/act) 在本地运行 GitHub Actions，快速反馈 - 无需在每次要测试对 `.github/workflows/` 文件所做的更改（或对嵌入式 GitHub 操作的任何更改）时都提交/推送，而是可以在 `act` 本地运行操作。环境变量和文件系统都配置为与 GitHub 提供的内容相匹配。
 
 * [git-tips/tips](https://github.com/git-tips/tips) 这是一个收集了常用 Git 命令和技巧的项目，包含日常使用、分支管理、历史操作、远程仓库操作等方面的技巧，并提供了一个名为 `git-tip` 的 CLI 工具来方便使用这些技巧。项目还提供多种语言的版本，方便不同语言背景的用户使用。
 
-* [nilaoda/N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE) N_m3u8DL-RE 是一个跨平台的 MPD/M3U8/ISM 流媒体下载工具，支持简体中文、繁体中文和英文。它可以下载 DASH/HLS/MSS 流媒体，并提供多种功能，例如自定义下载路径、多线程下载、断点续传等。用户可以通过命令行或图形界面使用该工具。
-
-* [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) 真正抗审查的 Twitter 替代品。最简单的开放协议，一劳永逸地创建抗审查的全球“社交”网络。 不依赖于任何受信任的中央服务器，因此具有弹性； 基于加密密钥和签名，防篡改； 它不依赖于 P2P 技术，因此可以正常工作。
-
-* [huginn/huginn](https://github.com/huginn/huginn) 用于构建代理的系统，这些代理可以为您在线执行自动化任务。他们可以阅读网络、监视事件并代表您采取行动。Huginn 的代理创建和使用事件，并沿有向图传播它们。将其视为您自己的服务器上 IFTTT 或 Zapier 的可破解版本。
-
-* [twitter/finagle](https://github.com/twitter/finagle) 容错、与协议无关的 RPC 系统。JVM 的可扩展 RPC 系统，用于构建高并发服务器。Finagle 为多种协议实现了统一的客户端和服务器 API，专为高性能和并发性而设计。Finagle 的大部分代码都与协议无关，从而简化了新协议的实现。
-
-* [frappe/erpnext](https://github.com/frappe/erpnext) 免费和开源的企业资源规划 （ERP），包括以下用于管理业务的领域：会计、仓库管理、客户关系管理、销售、购买、人力资源管理系统、项目管理、支持、资产管理、质量管理、制造业、网站管理、自定义 ERPNext、还有更多
-
-* [riemann/riemann](https://github.com/riemann/riemann) Riemann是一个用Clojure编写的网络事件流处理系统，它可以聚合来自服务器和应用程序的事件，并使用强大的流处理语言进行分析。Riemann通过监控分布式系统，帮助用户及时发现问题并采取行动。项目主页为：https://riemann.io。
-
-* [codelucas/newspaper](https://github.com/codelucas/newspaper) 新闻、全文和文章元数据提取。由 lxml 提供速度支持。特征：多线程文章下载框架、新闻网址识别、从 html 中提取文本、图像、关键字、摘要、作者、Google 趋势词提取、支持 10+ 种语言（英语、中文、德语、阿拉伯语等）。
-
-* [openedx/edx-platform](https://github.com/openedx/edx-platform) 一个面向服务的平台，用于创作和提供任何规模的在线学习。该平台是用Python和JavaScript编写的，并广泛使用Django框架。在最高级别，该平台由一个整体、一些可独立部署的应用程序（IDA）和基于ReactJS的微前端（MFE）组成。
-
 * [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) 正在使用这个存储库来记录我学习 DevOps 的旅程。我于 2022 年 1 月 1 日开始了这个过程，并计划持续到 3 月 31 日。我每天（包括周末）将花一个小时来获得对DevOps各个方面的基本理解。这将是一个为期 90 天的强化学习期。
 
 * [orhun/git-cliff](https://github.com/orhun/git-cliff) 一个高度可定制的更新日志生成器，遵循传统的提交规范。git-cliff 可以通过利用常规提交以及正则表达式驱动的自定义解析器从 Git 历史记录生成更改日志文件。可以使用配置文件自定义 changelog 模板以匹配所需的格式。
 
-* [mqtt/mqtt.org](https://github.com/mqtt/mqtt.org) mqtt.org网站是 MQTT 协议的官方网站，使用 Jekyll 框架构建。该网站提供有关 MQTT 协议的最新信息、文档、资源和社区论坛。用户可以通过 `bundle exec jekyll serve` 命令启动本地服务器，并使用 `bundle update` 命令更新项目依赖。
-
-* [mockery/mockery](https://github.com/mockery/mockery) 简单而灵活的PHP模拟对象框架，用于PHPUnit，PHPSpec或任何其他的单元测试。其核心目标是提供一个具有简洁API的测试双重框架，该API能够使用人类可读的领域特定语言（DSL）清楚地定义所有可能的对象操作和交互。
-
-* [rakshasa/rtorrent](https://github.com/rakshasa/rtorrent) rTorrent是一个命令行BitTorrent客户端，以其高性能和可扩展性著称。该项目提供稳定版和开发版，并提供相关工具，如rbedit，用于编辑bencode文件。用户可以通过Paypal、Patreon、SubscribeStar等方式捐赠支持rTorrent的开发。
-
-* [curl/curl](https://github.com/curl/curl) 用URL语法传输数据的命令行工具和库，支持DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP、SFTP、SMB、SMBS、SMTP、SMTPS、TELNET、TFTP、WS 和 WSS。提供了无数强大的功能
-
-* [wg/wrk](https://github.com/wg/wrk) 现代 HTTP 基准测试工具，能够在单个多核 CPU 上运行时产生大量负载。它将多线程设计与可扩展的事件通知系统（如 epoll 和 kqueue）相结合。可选的 LuaJIT 脚本可以执行 HTTP 请求生成、响应处理和自定义报告。
-
-* [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) 最好和最简单的免费开源网站更改检测、网站观察器、补货监控和通知服务。补货监控，变化检测。为简单而设计 - 只需免费监控哪些网站有文本更改。免费开源网页变更检测、网站污损监控、价格变更通知
-
-* [wwb521/live](https://github.com/wwb521/live) 这是一个提供高质量电视直播源的项目，永久免费，包含 IPTV 和 TvBox两种类型，并提供相应的 txt 和 m3u 地址，支持 IPV6 地址，方便用户使用。项目还提供一些推荐的播放器和网站，方便用户观看直播。
-
-* [calcom/cal.com](https://github.com/calcom/cal.com) 为所有人安排基础设施。Calendly 和其他调度工具很棒。它使我们的生活变得非常轻松。我们用它来参加商务会议、研讨会、瑜伽课，甚至与家人通话。但是，大多数工具在控制和定制方面都非常有限。
-
-* [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) 用C++ / Qt编程的bittorrent客户端，它使用Arvid Norberg的libtorrent（有时称为libtorrent-rasterbar）。它旨在成为所有其他 bittorrent 客户端的良好替代品。qBittorrent 快速、稳定，并提供 unicode 支持以及许多功能。
-
-* [JeffreySu/WeiXinMPSDK](https://github.com/JeffreySu/WeiXinMPSDK) 微信全平台 .NET SDK， Senparc.Weixin for C#，支持 .NET Framework 及 .NET Core、.NET 8.0。已支持微信公众号、小程序、小游戏、微信支付、企业微信/企业号、开放平台、JSSDK、微信周边等全平台。 WeChat SDK for C#.
-
-* [thephpleague/flysystem](https://github.com/thephpleague/flysystem) 本地和远程文件系统的抽象。一个PHP的文件存储库。它提供了一个接口来与多种类型的文件系统进行交互。当您使用 Flysystem 时，您不仅可以免受供应商锁定的影响，还可以获得适合您的一致体验。
-
-* [JackJiang2011/MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK) 原创多端IM通信层框架，轻量级、高度提炼，历经8年、久经考验。可能是市面上唯一同时支持UDP + TCP + WebSocket三种协议的同类开源框架，支持 iOS、Android、Java、H5、小程序、Uniapp，服务端基于Netty。
-
-* [locustio/locust](https://github.com/locustio/locust) 易于使用、可编写脚本且可扩展的性能测试工具。在常规 Python 代码中定义负载测试，而不是受仅假装为真实代码的 UI 或域特定语言的约束。这使得 Locust 可以无限扩展并且对开发人员非常友好。
-
-* [medusajs/medusa](https://github.com/medusajs/medusa) 一组商务模块和工具，可让您构建丰富、可靠且高性能的商务应用程序，而无需重新发明核心商务逻辑。这些模块可以定制并用于构建高级电子商务商店、市场或任何需要基础商务原语的产品。
-
-* [foamzou/melody](https://github.com/foamzou/melody) 帮助你更好地管理音乐。帮助你将喜欢的歌曲或者音频上传到音乐平台的云盘。支持在各大音乐和视频网站检索歌曲。支持一键下载到本地，一键上传到云盘。一键“解锁”无法播放的歌曲。
-
-* [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) 免费订阅地址，免费节点，6小时更新一次，共享节点，节点质量高可用，完全免费。免费clash订阅地址，免费翻墙、免费科学上网、免费梯子、免费ss/v2ray/trojan节点、谷歌商店、翻墙梯子。
-
-* [dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh) 从命令行轻松快速地共享文件。此代码包含服务器，其中包含创建自己的实例所需的一切。目前支持 s3 （Amazon S3）、gdrive （Google Drive）、storj （Storj） 提供程序和本地文件系统 （local）。
-
-* [syhyz1990/baiduyun](https://github.com/syhyz1990/baiduyun) 这是一个免费开源的网盘下载助手，支持百度网盘和腾讯微云等网盘，基于PCSAPI，支持Windows、Mac、Linux等平台，可配合IDM、XDown、Aria2等下载工具使用，还支持JSON-RPC和cURL命令行下载。
-
-* [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) Usenet 和 BitTorrent 用户的 PVR。它可以监控您喜欢的节目的新剧集的多个 RSS 提要，并会抓取、排序和重命名它们。它还可以配置为在质量更好的格式可用时自动升级已下载文件的质量。
-
 * [supabase/supabase](https://github.com/supabase/supabase) 开源Firebase替代品。Firebase 是一家实时后端数据库创业公司，它能帮助开发者很快的写出 Web 端和移动端的应用。于 2014 年 Google 收购了 Firebase，之后把 Firebase 结合到 Google 云服务中。
-
-* [hashicorp/vagrant](https://github.com/hashicorp/vagrant) 用于构建和分发开发环境的工具。由Vagrant管理的开发环境可以在本地虚拟化平台（如VirtualBox或VMware）上运行，通过AWS或OpenStack在云中运行，或者在容器（如Docker或原始LXC）上运行。
-
-* [OpenIMSDK/Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server) 由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
-
-* [cloudflare/quiche](https://github.com/cloudflare/quiche) IETF 指定的 QUIC 传输协议和 HTTP/3 的实现。它提供了一个低级 API，用于处理 QUIC 数据包和处理连接状态。该应用程序负责提供 I/O（例如套接字处理）以及支持计时器的事件循环。
-
-* [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) 指定目录下提供了一个文件管理界面，可用于上传、删除、预览、重命名和编辑您的文件。它允许创建多个用户，每个用户都可以拥有自己的目录。它可以用作独立应用程序。
-
-* [haproxy/haproxy](https://github.com/haproxy/haproxy) HAProxy Load Balancer 的开发分支（git.haproxy.org 镜像）。高性能的负载均衡软件。因为其专注于负载均衡这一些事情，因此与nginx比起来在负载均衡这件事情上做更好，更专业。
 
 * [jhuangtw/xg2xg](https://github.com/jhuangtw/xg2xg) 一个方便的类似技术和服务的查找表，帮助前谷歌员工在现实世界中生存，系统设计入门、Hadoop 生态系统表、将 AWS 服务映射到 GCP 产品、数据库数据库、Google 开源词汇表
 
 * [alexcasalboni/aws-lambda-power-tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning) 开源工具，可帮助您可视化和微调 Lambda 函数的内存/电源配置。它在您自己的 AWS 账户中运行（由 AWS Step Functions 提供支持），并支持三种优化策略：成本、速度和平衡。
 
-* [wechaty/wechaty](https://github.com/wechaty/wechaty) 面向微信聊天机器人制造商的RPA（机器人流程自动化）SDK，可以帮助您在JavaScript，Python，Go和Java的6行中创建机器人，并提供跨平台支持，包括Linux，Windows，MacOS和Docker。
-
 * [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) 自托管指南。了解有关本地托管（本地和专用 Web 服务器）以及由您自己或您的组织管理软件应用程序的所有信息。包括云、LLMs、WireGuard、自动化、家庭助理和网络。
-
-* [XX-net/XX-Net](https://github.com/XX-net/XX-Net) 绕过 GFW 的代理工具。不去研究墙有什么缺陷，因为所有的缺陷都会被慢慢的补上。  我们的策略是化身为普通流量，完全无法区分，最终隐身在茫茫的网络连接中。
-
-* [TryGhost/Ghost](https://github.com/TryGhost/Ghost) 一款功能强大的应用程序，供专业出版商围绕其内容创建、共享和发展业务。它配备了现代工具，可以构建网站，发布内容，发送时事通讯并向会员提供付费订阅。
-
-* [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) 用于构建、部署和维护内部应用程序的开源平台。您可以构建任何东西，从简单的 CRUD 应用程序、管理面板、仪表板到自定义业务应用程序和复杂的多步骤工作流。
-
-* [PHP-CS-Fixer/PHP-CS-Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) 自动修复PHP编码标准问题的工具;无论您是想遵循PSR-1，PSR-2等中定义的PHP编码标准，还是其他社区驱动的标准，如Symfony。您还可以通过配置来定义（团队）的风格。
-
-* [aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr) 用于抗审查全球网络的开放协议nostr的项目和资源的精选列表，包括：协议、中继、客户端、程序库、网桥和网关、工具、NIP-05身份服务、浏览器扩展、社区、教程
-
-* [snail007/goproxy](https://github.com/snail007/goproxy) golang实现的高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。
-
-* [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) cqhttp的golang实现，轻量、原生跨平台.容 [OneBot-v11](https://github.com/botuniverse/onebot-11) 绝大多数内容，并在其基础上做了一些扩展，详情请看 go-cqhttp 的文档。
-
-* [jeecgboot/jeecg-boo](https://github.com/jeecgboot/jeecg-boot) 「企业级低代码平台」前后端分离架构SpringBoot，SpringCloud，Ant Design&amp;Vue，Mybatis，Shiro，JWT。强大的代码生成器让前后端代码一键生成，无需写任何代码。
 
 * [jonas/tig](https://github.com/jonas/tig) Tig 是一个基于 ncurses 的 git 文本模式接口。它主要用作 Git 存储库浏览器，但也可以帮助在 chunk 级别暂存提交的更改，并充当各种 Git 命令输出的寻呼机。
 
-* [mailcow/mailcow-dockerized](https://github.com/mailcow/mailcow-dockerized) 一个基于 Docker 的开源群件/电子邮件套件。Mailcow 依赖于许多众所周知且长期使用的组件，这些组件结合在一起形成了一个全方位的无忧电子邮件服务器。
-
-* [rclone/rclone](https://github.com/rclone/rclone) 命令行程序，用于将文件和目录与不同的云存储提供商同步。如Google Drive、S3、Dropbox、Backblaze B2、One Drive、Swift、Hubic、Wasabi、Google Cloud Storage、Yandex Files
-
-* [msgbyte/tailchat](https://github.com/msgbyte/tailchat) 不仅是 IM。相反，它为个人/团队设计了一个以IM为中心的高度定制化的应用平台，以第三方应用作为增强功能，以插件系统作为中间的胶水连接层。
-
-* [buger/goreplay](https://github.com/buger/goreplay) 用于捕获实时 HTTP 流量并将其重放到测试环境中，以便使用真实数据持续测试您的系统。可用于增强对代码部署、配置更改和基础结构更改的信心。
-
-* [grpc/grpc](https://github.com/grpc/grpc) 现代、开源、高性能的远程过程调用 框架，可以在任何地方运行。gRPC 使客户端和服务器应用程序能够透明地进行通信，并简化连接系统的构建。
-
 * [signalwire/freeswitch](https://github.com/signalwire/freeswitch) 一种软件定义的电信堆栈，可实现从专有电信交换机到可在任何商用硬件上运行的多功能软件实施的数字化转型。可以释放任何设备的电信潜力。
-
-* [hubotio/hubot](https://github.com/hubotio/hubot) 构建聊天机器人的框架，以 GitHub 的同名 Campfire 机器人 hubot 为蓝本。他很酷。可以使用脚本进行扩展，并且可以在许多不同的聊天服务上工作。
-
-* [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) 一个简单的零配置工具，用于使用您想要的任何名称创建本地信任的开发证书。用于制作本地信任的开发证书的简单工具。它不需要任何配置。
 
 * [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) Git的奇技淫巧。Git是分布式版本管理工具，版本管理工具能记录每次的修改，只要提交到版本仓库，就可找到之前任何时刻状态（文本状态）。
 
-* [asciimoo/wuzz](https://github.com/asciimoo/wuzz) 用于 HTTP 检查的交互式 cli 工具。类似于 cURL 的参数，因此它可用于检查/修改从浏览器的网络检查器复制的请求，并具有“复制为 cURL”功能。
-
-* [Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray) Linux / Windows / macOS 跨平台 V2Ray 客户端 | 支持 VMess / VLESS / SSR / Trojan / Trojan-Go / NaiveProxy / HTTP / HTTPS / SOCKS5 | 使用 C++ / Qt 开发 | 可拓展插件式设计
-
-* [cloudflare/pingora](https://github.com/cloudflare/pingora) Rust 框架，用于构建快速、可靠和可编程的网络系统。Pingora 经过了实战考验，因为它已经为每秒超过 4000 万个互联网请求提供服务了几年多。
-
-* [laravel/laravel](https://github.com/laravel/laravel) PHP Web应用程序框架，具有富有表现力，优雅的语法。我们已经为您的下一个大创意奠定了基础——让您自由地进行创作，而不会为小事出汗。
-
-* [odoo/odoo](https://github.com/odoo/odoo) 基于Web的开源商业应用程序。包括开源CRM，网站构建器，电子商务，仓库管理，项目管理，计费和会计，销售点，人力资源，营销，制造，...
-
-* [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) SaaS、PaaS 和 IaaS 产品列表，这些产品对 DevOps 和 infradev 部分免费。现在有许多服务提供免费套餐，但找到它们都需要时间来做出明智的决定。
-
 * [wasmerio/wasmer](https://github.com/wasmerio/wasmer) 领先的 WebAssembly 运行时，支持 WASIX、WASI 和 Emscripten，它使令人难以置信的轻量级容器能够在任何地方运行：从桌面到云，边缘甚至浏览器。
-
-* [syncthing/syncthing](https://github.com/syncthing/syncthing) 连续的文件同步程序。它在两台或多台计算机之间同步文件。我们努力实现以下目标。目标按重要性顺序列出，最重要的目标排在最前面。
-
-* [illacloud/illa-builder](https://github.com/illacloud/illa-builder) 健壮的开源低代码平台，开发人员可以使用它来构建内部工具。通过使用ILLA的组件和动作库，开发人员可以保存大量构建工具的时间。
-
-* [novnc/noVNC](https://github.com/novnc/noVNC) HTML VNC 客户端 JS库，也是一个基于该库构建的应用程序。noVNC 在任何现代浏览器（包括移动浏览器（iOS 和 Android））中都能正常运行。
-
-* [YaoApp/yao](https://github.com/YaoApp/yao) 高性能低代码应用引擎，可在数分钟内创建Web服务和应用，适用于AI、IoT、工业互联网、车联网、DevOps、能源、金融和许多其他用例。
-
-* [DrKLO/Telegram](https://github.com/DrKLO/Telegram) 一款专注于速度和安全性的消息传递应用程序。它超快速、简单且免费。此存储库包含适用于Android的Telegram应用程序的官方源代码。
-
-* [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) 简单、易用、优雅的开源个人云系统。与社区建立联系，建立自主权，降低 SaaS 的成本，并最大限度地发挥个性化副驾驶的潜力。
-
-* [leiurayer/downkyi](https://github.com/leiurayer/downkyi) 哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。
-
-* [http-party/http-server](https://github.com/http-party/http-server) 一个简单的零配置命令行 HTTP 服务器，它足够强大，可用于生产用途，但它足够简单且易于破解，可用于测试、本地开发和学习。
-
-* [EZLippi/Tinyhttpd](https://github.com/EZLippi/Tinyhttpd) J. David Blackstone在1999年写的一个不到 500 行的超轻量型 Http Server，用来学习非常不错，可以帮助我们真正理解服务器程序的本质。
-
-* [wagtail/wagtail](https://github.com/wagtail/wagtail) 基于 Django 的开源内容管理系统，拥有强大的社区和商业支持。它专注于用户体验，并为设计人员和开发人员提供精确的控制。
-
-* [vernesong/OpenClash](https://github.com/vernesong/OpenClash) 可运行在 OpenWrt 上的 Clash 客户端。兼容 Shadow socks、ShadowsocksR、Vmess、Trojan、Snell 等协议，根据灵活的规则配置实现策略代理
-
-* [ionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 离线IP地址定位库和IP定位数据管理框架，10微秒级别查询效率，提供众多主流编程语言的 xdb 数据生成和查询客户端实现。
 
 * [PyGithub/PyGithub](https://github.com/PyGithub/PyGithub) 用于访问 GitHub REST API 的 Python 库。此库使您能够管理 Python 应用程序中的 GitHub 资源，例如存储库、用户配置文件和组织。
 
-* [Budibase/budibase](https://github.com/Budibase/budibase) 用于在几分钟内创建内部工具、工作流和管理面板的低代码平台。支持 PostgreSQL、MySQL、MSSQL、MongoDB、Rest API、Docker、K8s 等
-
-* [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) 将数据保护放在首位的通信平台。开源的完全可定制的通信平台，用JavaScript开发，适用于具有高标准数据保护的组织。
-
-* [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) 在线请求复制工具，也是tcp流重放工具，适用于真实测试，性能测试，稳定性测试，压力测试，负载测试，冒烟测试等
-
-* [soimort/you-get](https://github.com/soimort/you-get) 很小的命令行实用程序，用于从 Web 下载媒体内容（视频、音频、图像），以防没有其他方便的方法可以做到这一点。
-
-* [encode/httpx](https://github.com/encode/httpx) 用于 Python 3 的全功能 HTTP 客户端库。它包括一个集成的命令行客户端，支持 HTTP/1.1 和 HTTP/2，并提供同步和异步 API。
-
-* [apache/incubator-answer](https://github.com/apache/incubator-answer) 适用于任何规模团队的问答平台软件。无论是社区论坛、帮助中心还是知识管理平台，您始终可以信赖 Apache Answer。
-
-* [aria2/aria2](https://github.com/aria2/aria2) 轻量级的多协议和多源、跨平台的下载实用程序，在命令行中运行。它支持 HTTP/HTTPS、FTP、SFTP、BitTorrent 和 Metalink。
-
-* [lowdefy/lowdefy](https://github.com/lowdefy/lowdefy) 开源、自托管、低代码的框架，用于使用YAML或JSON构建内部工具、Web应用、管理面板、BI仪表板、工作流和CRUD应用。
-
-* [ZLMediaKit/ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit) 基于 C++11 的 WebRTC/RTSP/RTMP/HTTP/HLS/HTTP-FLV/WebSocket-FLV/HTTP-TS/HTTP-fMP4/WebSocket-TS/WebSocket-fMP4/GB28181/SRT 服务器和客户端框架
-
-* [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 一个离线IP地址管理器框架和定位器，支持数十亿个数据段，十微秒搜索性能。适用于多种编程语言的 XDB 引擎实现
-
-* [hiddify/hiddify-next](https://github.com/hiddify/hiddify-next) 多平台自动代理客户端，支持Sing-box、X-ray、TUIC、Hysteria、Reality、Trojan、SSH等。它是开源的、安全的、无广告的。
-
 * [dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub) github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
-
-* [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) youtube-dl 分支，基于现在不活跃的 youtube-dlc。该项目的主要重点是添加新功能和补丁，同时与原始项目保持同步
-
-* [localsend/localsend](https://github.com/localsend/localsend) AirDrop 的开源跨平台替代方案，可让您通过本地网络安全地与附近的设备共享文件和消息，而无需互联网连接。
-
-* [InstaPy/InstaPy](https://github.com/InstaPy/InstaPy) 自动执行社交媒体交互以“耕种”Instagram 上的点赞、评论和关注者的工具 使用 Selenium 模块在 Python 中实现。
-
-* [trailofbits/algo](https://github.com/trailofbits/algo) 一组 Ansible 脚本，可简化个人 WireGuard 和 IPsec VPN 的设置。使用最安全的默认值，并与常见的云提供商合作。
-
-* [caorushizi/mediago](https://github.com/caorushizi/mediago) m3u8[m3u8-downloader] 视频在线提取工具 流媒体下载 、视频下载 、 m3u8下载 、 B站视频下载 桌面客户端 windows mac
-
-* [activepieces/activepieces](https://github.com/activepieces/activepieces) 您最友好的开源多合一自动化工具 工作流自动化工具 ✨ 100+ 集成 / 企业自动化工具 / ChatBot / Zapier相关应用
-
-* [freefq/free](https://github.com/freefq/free) 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子
-
-* [lingochamp/FileDownloader](https://github.com/lingochamp/FileDownloader) Android多任务文件下载引擎。多任务、多线程（MultiConnection）、断点-恢复、高并发、简单易用、单/非单进程
-
-* [baihengaead/wifi-crack-tool](https://github.com/baihengaead/wifi-crack-tool) WiFi密码暴力破解工具-图形界面，支持WPA/WPA2/WPA3、多开并发、自动破解、自定义密码本、自动生成密码字典
-
-* [Netflix/conductor](https://github.com/Netflix/conductor) Netflix 创建的一个平台，用于编排跨微服务的工作流程。Conductor 由 Netflix 的媒体工作流基础设施团队维护。
-
-* [ruanyf/jstraining](https://github.com/ruanyf/jstraining) 全栈工程师培训材料，帮助学习者掌握 JavaScript 全栈开发的基本知识，承担简单 Web 应用的前后端开发。
-
-* [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) 开源 API 开发生态系统。轻量级：采用简约的 UI 设计精心打造。快速：实时发送请求和获取/复制响应。
-
-* [tiangolo/uwsgi-nginx-flask-docker](https://github.com/tiangolo/uwsgi-nginx-flask-docker) 带有uWSGI和Nginx的Docker镜像，用于在单个容器中运行的Python中的Flask应用程序。（可选）使用 Alpine Linux。
-
-* [cloudflare/cfssl](https://github.com/cloudflare/cfssl) Cloudflare 的 PKI 和 TLS 工具包。既是命令行工具，又是用于签名、验证和捆绑 TLS 证书的 HTTP API 服务器。
-
-* [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) 开箱即用的高性能异步抖音、快手、TikTok、Bilibili数据爬取工具，支持API调用，在线批量解析及下载。
 
 * [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) 一切都是可RSS的，一个开源、易于使用且可扩展的 RSS 源生成器。它能够从几乎所有内容生成RSS提要。
 
-* [StevenBlack/hosts](https://github.com/StevenBlack/hosts) 整合和扩展来自多个精心策划的来源的主机文件。（可选）选择色情、社交媒体和其他类别的扩展。
-
-* [discourse/discourse](https://github.com/discourse/discourse) 您社区的在线主页。我们为那些希望完全控制其网站运行方式和位置的人提供 100% 开源社区平台。
-
-* [juanfont/headscale](https://github.com/juanfont/headscale) 建立在 Wireguard 之上的现代 VPN。它的工作方式类似于网络计算机之间的覆盖网络 - 使用 NAT 遍历。
-
-* [caprover/caprover](https://github.com/caprover/caprover) 最简单的应用程序/数据库部署平台和 Web 服务器包，适用于 NodeJS、Python、PHP、Ruby、Go 应用程序。
-
-* [docker-mailserver/docker-mailserver](https://github.com/docker-mailserver/docker-mailserver) 生产就绪的全栈但简单的邮件服务器（SMTP、IMAP、LDAP、反垃圾邮件、防病毒等）在容器内运行。
-
-* [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) 下载您的 Spotify 播放列表和歌曲以及专辑封面和元数据（如果找到匹配项，则从 YouTube 下载）。
-
-* [httpie/cli](https://github.com/httpie/cli) 适用于 API 时代的现代、用户友好的命令行 HTTP 客户端。JSON支持，颜色，会话，下载，插件等。
-
-* [apache/brpc](https://github.com/apache/brpc) 使用C++语言的工业级RPC框架，通常用于高性能系统，如搜索，存储，机器学习，广告，推荐等。
-
-* [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) 开源自托管 Web 存档。获取 URL/浏览器历史记录/书签/Pocket/Pinboard/等，保存 HTML、JS、PDF、媒体等
-
-* [nwjs/nw.js](https://github.com/nwjs/nw.js) 直接从 DOM/WebWorker 调用所有 Node.js 模块，并启用一种使用所有 Web 技术编写应用程序的新方法。
-
-* [Wechat-Group/WxJava](https://github.com/Wechat-Group/WxJava) 微信开发 Java SDK ，支持包括微信支付，开放平台，小程序，企业微信，公众号等的后端开发
-
-* [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) 用于 SFTP、S3、FTP、WebDAV、Git、Minio、LDAP、CalDAV、CardDAV、Mysql、Backblaze 等的现代 Web 客户端。
-
-* [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre) 站点可靠性和生产工程资源的精选列表。站点可靠性工程（SRE）是 IT 运维的软件工程方案。
-
-* [linlinjava/litemall](https://github.com/linlinjava/litemall) 又一个小商城。litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端
-
 * [go-gitea/gitea](https://github.com/go-gitea/gitea) 轻松自托管的一体化软件开发服务，包括 Git 托管、代码审查、团队协作、包注册表和 CI/CD
-
-* [LibVNC/libvncserver](https://github.com/LibVNC/libvncserver) LibVNCServer/LibVNCClient 是跨平台的 C 库，可让您在程序中轻松实现 VNC 服务器或客户端功能。
-
-* [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) 第一个没有任何类型的用户标识符的消息传递平台 - 设计100%私有！iOS和安卓应用程序发布
 
 * [makeplane/plane](https://github.com/makeplane/plane) 开源JIRA，线性和高度替代。Plane 可帮助您以最简单的方式跟踪问题、史诗和产品路线图。
 
@@ -9112,387 +9672,59 @@
 
 * [astrada/google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse) Google Drive 的 FUSE 文件系统（Filesystem in Userspace，用户空间中的文件系统），用 OCaml 编写。
 
-* [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) 官方Telegram messenger桌面客户端的完整源代码和构建说明，基于Telegram API和MTProto安全协议。
-
-* [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) 「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 网站 IP
-
-* [drakkan/sftpgo](https://github.com/drakkan/sftpgo/) 功能齐全且高度可配置的 SFTP、HTTP/S、FTP/S 和 WebDAV 服务器 - S3、Google Cloud Storage、Azure Blob
-
-* [apitable/apitable](https://github.com/apitable/apitable) 面向 API 的低代码平台，用于构建协作应用程序，比所有其他 Airtable 开源替代品都要好。
-
-* [valyala/fasthttp](https://github.com/valyala/fasthttp) Go 的快速 HTTP 包。针对高性能进行了调整。热路径中的内存分配为零。比 net/http 快 10 倍
-
-* [adam-p/markdown-here](https://github.com/adam-p/markdown-here) Google Chrome，Firefox和Thunderbird扩展程序可让您在Markdown中编写电子邮件并在发送前呈现。
-
-* [allinurl/goaccess](https://github.com/allinurl/goaccess) 一个实时 Web 日志分析器和交互式查看器，可在 *nix 系统的终端中或通过浏览器运行。
-
-* [alex/what-happens-when](https://github.com/alex/what-happens-when) 试图回答古老的面试问题“当您在浏览器中输入 google.com 并按回车键时会发生什么？
-
 * [makeplane/plane](https://github.com/makeplane/plane) 开源自托管项目规划工具，可帮助您以最简单的方式跟踪问题、历史和产品路线图。
 
-* [artilleryio/artillery](https://github.com/artilleryio/artillery) 云规模的负载测试，就像 1-2-3 一样简单。开箱即用的无服务器和分布式。永不扩展
-
-* [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) 适用于 Ubuntu、Debian、AlmaLinux、Rocky Linux、CentOS 和 Fedora 的 OpenVPN road warrior 安装程序
-
-* [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
-
-* [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) 用于管理hosts文件的应用程序，它基于Electron，React，Jotai，Chakra UI，CodeMirror等。
-
-* [littlecodersh/ItChat](https://github.com/littlecodersh/ItChat) 微信个人号接口、微信机器人及命令行微信，三十行即可自定义个人号机器人。
-
-* [hoochanlon/NeiJuan](https://github.com/hoochanlon/NeiJuan) ChatGPT、Google产品等各类镜像与SS/V2/Clash/QuanX网络链，行业研究报告的知识储备库
-
-* [mailpile/Mailpile](https://github.com/mailpile/Mailpile) 一个免费开放的现代，快速的电子邮件客户端，具有用户友好的加密和隐私功能
-
-* [directus/directus](https://github.com/directus/directus) 即时 REST+GraphQL API 和直观的无代码数据协作应用程序，适用于任何 SQL 数据库。
-
-* [cyfdecyf/cow](https://github.com/cyfdecyf/cow) 用 Go 编写的 HTTP 代理。COW 可以自动识别被阻止的站点并使用父代理进行访问。
-
-* [pytube/pytube](https://github.com/pytube/pytube) 一个轻量级、无依赖的 Python 库（和命令行实用程序），用于下载 YouTube 视频。
-
-* [cluic/wxauto](https://github.com/cluic/wxauto) Windows版本微信客户端（非网页版）自动化，可实现简单的发送、接收微信消息
-
 * [KRTirtho/spotube](https://github.com/KRTirtho/spotube) 开源 Spotify 客户端，不需要 Premium，也不使用 Electron，适用于桌面和移动设备
-
-* [sergiotapia/magnetissimo](https://github.com/sergiotapia/magnetissimo) 为所有流行的 torrent 站点编制索引并将其保存到本地数据库的 Web 应用程序。
-
-* [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) Kotlin 多平台音乐下载器，支持 Spotify / Gaana / Youtube Music / Jio Saavn / SoundCloud。
 
 * [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) 具有 Windows、macOS、Linux 和 Web 同步和备份功能的现代电子书管理器和阅读器
 
 * [localForage/localForage](https://github.com/localForage/localForage) 改进了离线存储。使用简单但功能强大的API包装IndexedDB，WebSQL或localStorage。
 
-* [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) 人人影视 机器人和网站，包含人人影视全部资源以及众多网友的网盘分享
-
-* [transmission-remote-gui/transgui](https://github.com/transmission-remote-gui/transgui) 功能丰富的跨平台传输BitTorrent客户端。比内置的 Web GUI 更快，功能更多。
-
-* [processone/ejabberd](https://github.com/processone/ejabberd) 强大、无处不在且可大规模扩展的消息传递平台（XMPP、MQTT、SIP 服务器）
-
-* [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows) 适用于 Windows 的node.js版本管理实用程序。具有讽刺意味的是，用GO写的。
-
-* [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) 一次编写组件，到处运行。编译为 React、Vue、Qwik、Solid、Angular、Svelte 等
-
 * [PostHog/posthog](https://github.com/PostHog/posthog) 提供开源产品分析、会话录制、功能标记和 A/B 测试，您可以自行托管。
-
-* [papercups-io/papercups](https://github.com/papercups-io/papercups) 开源实时客户聊天。用Elixir编写的开源实时客户支持工具Web应用程序。
-
-* [janeczku/calibre-web](https://github.com/janeczku/calibre-web) 用于浏览、阅读和下载存储在 Calibre 数据库中的电子书的 Web 应用程序
-
-* [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works) 网络如何运作 当我们在浏览器中输入 google.com 时，幕后会发生什么？
-
-* [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) 自动将环境变量从“.env”加载到“getenv（）”，`$_ENV`和“$_SERVER”。
-
-* [wekan/wekan](https://github.com/wekan/wekan) 开源看板，体验高效的任务管理，开源、可定制且注重隐私的看板。
-
-* [rrweb-io/rrweb](https://github.com/rrweb-io/rrweb) “记录和重放网络”，用于记录和重放用户在网络上的交互的工具。
-
-* [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) 使用 IPsec/L2TP、Cisco IPsec 和 IKEv2 构建您自己的 IPsec VPN 服务器的脚本
-
-* [Privoce/vocechat-server-rust](https://github.com/Privoce/vocechat-server-rust) 超轻量级的rust编写的社交服务器。轻松集成到您的网站/应用程序。
-
-* [Foundry376/Mailspring](https://github.com/Foundry376/Mailspring) 适用于 Mac、Windows 和 Linux 的美观、快速且完全开源的邮件客户端。
-
-* [drogonframework/drogon](https://github.com/drogonframework/drogon) 基于C++14/17/20的HTTP Web应用程序框架，运行在Linux/macOS/Unix/Windows上。
-
-* [knadh/listmonk](https://github.com/knadh/listmonk) 高性能、自托管、时事通讯和邮件列表管理器，具有现代仪表板。
 
 * [goharbor/harbor](https://github.com/goharbor/harbor) 开源的受信任的云原生注册表项目，用于存储、签名和扫描内容。
 
-* [brave/brave-browser](https://github.com/brave/brave-browser) 适用于 Android、Linux、macOS、Windows 的下一代 Brave (Chromium) 浏览器。
-
-* [agalwood/Motrix](https://github.com/agalwood/Motrix) 功能齐全的下载管理器，支持下载 HTTP、FTP、BitTorrent、Magnet 等。
-
-* [heyxyz/hey](https://github.com/heyxyz/hey) 使用 Lens Protocol 构建的去中心化且无需许可的社交媒体应用程序
-
-* [caddyserver/caddy](https://github.com/caddyserver/caddy) 具有自动 HTTPS 功能的快速且可扩展的多平台 HTTP/1-2-3 Web 服务器
-
-* [iptv-org/iptv](https://github.com/iptv-org/iptv) 收集来自世界各地的公开可用的IPTV（互联网协议电视）频道。
-
 * [monicahq/monica](https://github.com/monicahq/monica) 个人客户关系管理。记住你的朋友、家人和业务关系的一切。
-
-* [KurtBestor/Hitomi-Downloader](https://github.com/KurtBestor/Hitomi-Downloader) 桌面实用程序，用于从各种网站下载图像/视频/音乐/文本等。
-
-* [nats-io/nats-server](https://github.com/nats-io/nats-server) 适用于 NATS.io、云和边缘原生消息传递系统的高性能服务器。
-
-* [dokku/dokku](https://github.com/dokku/dokku) 基于 Docker 的 PaaS，可帮助您构建和管理应用程序的生命周期
-
-* [szimek/sharedrop](https://github.com/szimek/sharedrop) 由 WebRTC 提供支持的轻松 P2P 文件传输 - 灵感来自 Apple AirDrop
-
-* [mamoe/mirai](https://github.com/mamoe/mirai) 在全平台下运行，提供 QQ Android 协议支持的高效率机器人库
-
-* [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) 用于管理Nginx代理主机的Docker容器，具有简单，强大的界面
-
-* [iredmail/iRedMail](https://github.com/iredmail/iRedMail) 适用于Linux/BSD 发行版的全功能开源邮件服务器解决方案。
-
-* [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) 支持所有平台的现代下载管理器。使用 Go 和 Flutter 构建。
 
 * [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome) 绕过适用于 Chrome 和 Firefox 的付费墙 Web 浏览器扩展程序。
 
 * [mattermost/mattermost](https://github.com/mattermost/mattermost) 开源平台，用在整个软件开发生命周期中实现安全协作。
 
-* [gorilla/websocket](https://github.com/gorilla/websocket) 一个快速、经过充分测试和广泛使用的 Go. WebSocket 实现。
-
-* [postalserver/postal](https://github.com/postalserver/postal) 功能齐全的开源邮件传递平台，用于传入和传出电子邮件
-
-* [zeromicro/go-zero](https://github.com/zeromicro/go-zero) 带有 cli 工具的云原生 Go 微服务框架，可提高工作效率。
-
-* [gotify/server](https://github.com/gotify/server) 简单的服务器，用于每个 WebSocket 实时发送和接收消息。
-
-* [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) 一个精选的列表，包含令人赞叹的 PHP 库、资源和东西。
-
-* [aiogram/aiogram](https://github.com/aiogram/aiogram) 现代且完全异步的Telegram Bot API框架，使用asyncio用Py编写
-
-* [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) 用于从 YouTube.com 和其他视频网站下载视频的命令行程序
-
-* [pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint) APM，用于大规模分布式系统的应用程序性能管理工具。
-
-* [w7corp/easywechat](https://github.com/w7corp/easywechat) 一个 PHP 微信 SDK，开源 SaaS 平台提供商微擎开源产品。
-
-* [go-chi/chi](https://github.com/go-chi/chi) 轻量级、惯用且可组合的路由器，用于构建 Go HTTP 服务
-
-* [netdata/netdata](https://github.com/netdata/netdata) 以高分辨率和实时监控您的服务器、容器和应用程序！
-
-* [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) 由vue-cli-electron-builder构建的简单而漂亮的图片上传工具
-
-* [chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) 用于连接、快速、next.js等的单行node.js http 代理中间件
-
-* [vishnubob/wait-for-it](https://github.com/vishnubob/wait-for-it) 纯 bash 脚本，用于测试和等待 TCP 主机和端口的可用性
-
-* [square/okhttp](https://github.com/square/okhttp) Square 适用于 JVM、Android 和 GraalVM 的细致 HTTP 客户端。
-
 * [gorhill/uBlock](https://github.com/gorhill/uBlock) 适用于 Chromium 和 Firefox 的有效拦截器。快速而精益。
-
-* [phpstan/phpstan](https://github.com/phpstan/phpstan) PHP 静态分析工具 - 无需运行即可发现代码中的错误！
-
-* [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) 用于 asyncio 和 Python 的异步 HTTP 客户端/服务器框架。
-
-* [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop) 流媒体 torrent 应用程序。适用于 Mac、Windows 和 Linux。
-
-* [schollz/croc](https://github.com/schollz/croc) 轻松安全地将内容从一台计算机发送到另一台计算机
-
-* [baidu/amis](https://github.com/baidu/amis) 前端低代码框架，通过 JSON 配置就能生成各种页面。
-
-* [baidu/amis](https://github.com/baidu/amis) 前端低代码框架，通过 JSON 配置就能生成各种页面。
-
-* [zu1k/nali](https://github.com/zu1k/nali) 一个查询IP地理信息和CDN服务提供商的离线终端工具.
-
-* [Mailu/Mailu](https://github.com/Mailu/Mailu) 孤立的电子邮件分发 - 作为 Docker 映像的邮件服务器
 
 * [umami-software/umami](https://github.com/umami-software/umami) Google Analytics 的一款简单快速、注重隐私的替代品。
 
-* [apernet/OpenGFW](https://github.com/apernet/OpenGFW) Linux 上 GFW（中国防火墙）的灵活、易用的开源实现
-
-* [typicode/json-server](https://github.com/typicode/json-server) 在不到 30 秒的时间内获得零编码的完整伪造 REST API
-
-* [damus-io/damus](https://github.com/damus-io/damus) 类似twitter的nostr客户端，适用于iPhone、iPad和MacOS。
-
 * [pavlobu/deskreen](https://github.com/pavlobu/deskreen) 将带有网络浏览器的设备变成您计算机的辅助屏幕
-
-* [LonamiWebs/Telethon](https://github.com/LonamiWebs/Telethon) 纯 Py3 MTProto API Telegram 客户端库，也适用于机器人
-
-* [adnanh/webhook](https://github.com/adnanh/webhook) 轻量级的传入 Webhook 服务器，用于运行 shell 命令
-
-* [cdnjs/cdnjs](https://github.com/cdnjs/cdnjs) 免费和开源 CDN，旨在让开发人员的生活更轻松。
-
-* [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA) Web GUI，支持 V2Ray、Xray、SS、SSR、Trojan 和 Pingtunnel
-
-* [GrapesJS/grapesjs](https://github.com/GrapesJS/grapesjs) 无需编码即可构建模板的下一代Web 构建器框架。
-
-* [forem/forem](https://github.com/forem/forem) 开源平台，用于构建现代、独立和安全的社区。
 
 * [movie-web/movie-web](https://github.com/movie-web/movie-web) 一个小型网络应用程序，可轻松观看电影和节目
 
-* [nswbmw/N-blog](https://github.com/nswbmw/N-blog) 一起学 Node.js，使用 Express + MongoDB 搭建多人博客
-
-* [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) 知名 SaaS 产品的开源初创公司替代品的超棒列表
-
-* [web1n/wechat-universal-flatpak](https://github.com/web1n/wechat-universal-flatpak/tree/main) 基于微信 Linux Universal 版打包，无发行版限制。
-
-* [nylas/nylas-mail](https://github.com/nylas/nylas-mail) 基于现代 Web 构建的可扩展桌面邮件应用程序。
-
-* [python-telegram-bot/python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) 为 Telegram Bot API 提供了一个纯 Python 异步接口。
-
 * [navidrome/navidrome](https://github.com/navidrome/navidrome) 现代音乐服务器和流媒体与亚音速/Airsonic 兼容
-
-* [tailscale/tailscale](https://github.com/tailscale/tailscale) 使用 WireGuard 和 2FA 的最简单、最安全的方式。
-
-* [wildfirechat/im-server](https://github.com/wildfirechat/im-server) 专业级的即时通讯和实时音视频整体解决方案
-
-* [iawia002/lux](https://github.com/iawia002/lux) 用 Go 编写的快速简单的视频下载库和 CLI 工具
-
-* [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) 简单但可扩展的 Py实现，用于 Telegram Bot API。
-
-* [ramsey/uuid](https://github.com/ramsey/uuid) 用于生成通用唯一标识符 （UUID） 的 PHP 库。
-
-* [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) 翻墙-科学上网、翻墙工具、翻墙教程项目库
-
-* [lingochamp/okdownload](https://github.com/lingochamp/okdownload) 可靠、灵活、快速、强大的Android下载引擎。
-
-* [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) 用于软件和 Web 开发的免费 API 的集合列表。
-
-* [refinedev/refine](https://github.com/refinedev/refine) 不受限制地构建基于 React 的 CRUD 应用程序。
-
-* [top-think/think](https://github.com/top-think/think) ThinkPHP Framework ——十年匠心的高性能PHP框架
-
-* [haraka/Haraka](https://github.com/haraka/Haraka) 快速、高度可扩展且事件驱动的 SMTP 服务器
-
-* [diaspora/diaspora](https://github.com/diaspora/diaspora) 一个具有隐私意识的分布式开源社交网络。
-
-* [mayswind/AriaNg](https://github.com/mayswind/AriaNg) 一个现代的 Web 前端，使 aria2 更易于使用。
 
 * [ajayyy/SponsorBlock](https://github.com/ajayyy/SponsorBlock) 跳过 YouTube 视频赞助商（浏览器扩展程序）
 
-* [alibaba/lowcode-engine](https://github.com/alibaba/lowcode-engine) 一套面向扩展设计的企业级低代码技术体系
-
-* [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) 非常棒的开源系统管理员资源的精选列表。
-
-* [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) 一个用于构建代理以绕过网络限制的平台。
-
-* [tweepy/tweepy](https://github.com/tweepy/tweepy) 易于使用的 Python 库，用于访问 Twitter API。
-
-* [square/retrofit](https://github.com/square/retrofit) 适用于 Android 和 JVM 的类型安全 HTTP 客户端
-
-* [tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth) 适用于PHP Laravel&amp;Lumen的JSON 网络令牌认证
-
-* [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
-
-* [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) Qt C++开发的B站视频、直播、漫画下载器。
-
-* [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) 对云中的文件进行多平台透明客户端加密
-
-* [gfwlist/gfwlist](https://github.com/gfwlist/gfwlist) 阻止和干扰包含敏感或不需要信息的网站
-
-* [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) 微服务架构相关原则和技术的精选列表。
-
 * [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) 适用于 Android 的自由轻量级流媒体前端。
-
-* [ekzhang/sshx](https://github.com/ekzhang/sshx) 通过网络进行快速、协作的实时终端共享
-
-* [mlandauer/cuttlefish](https://github.com/mlandauer/cuttlefish) 具有可爱Web界面的事务性电子邮件服务器
-
-* [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) Xray 基于 Nginx 的 VLESS + XTLS 一键安装脚本
-
-* [PHPOffice/PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) 用于读取和写入电子表格文件的纯 PHP 库
-
-* [BiglySoftware/BiglyBT](https://github.com/BiglySoftware/BiglyBT) 基于Azureus的功能丰富的 Bittorrent 客户端
-
-* [go-kratos/kratos](https://github.com/go-kratos/kratos) 面向云原生时代的终极 Go 微服务框架。
-
-* [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) 网络范围的广告和跟踪器阻止DNS服务器
-
-* [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) 仅C++标头的 HTTP/HTTPS 服务器和客户端库
 
 * [nukeop/nuclear](https://github.com/nukeop/nuclear) 为您查找免费音乐的流媒体音乐播放器
 
-* [microsoft/IoT-For-Beginners](https://github.com/microsoft/IoT-For-Beginners) 12 周，24 节课，面向所有人的物联网！
-
-* [element-hq/element-web](https://github.com/element-hq/element-web) 一个光鲜亮丽的 Web Matrix 协作客户端。
-
-* [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) Mac微信功能拓展/微信插件/微信小助手
-
-* [Rapptz/discord.py](https://github.com/Rapptz/discord.py) 用 Python 编写的 Discord 的 API 包装器。
-
 * [daltoniam/Starscream](https://github.com/daltoniam/Starscream) 适用于 iOS 和 OSX 的 swift 中的 Websockets
-
-* [grpc/grpc-go](https://github.com/grpc/grpc-go) gRPC 的 Go 语言实现。基于 HTTP/2 的 RPC
-
-* [cilium/cilium](https://github.com/cilium/cilium) 基于 eBPF 的网络、安全性和可观测性
 
 * [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) 适用于 Android 的 YouTube 的替代前端。
 
-* [YueChan/Live](https://github.com/YueChan/Live) 收集于互联网上的一些高清直播源。
-
-* [zxlie/FeHelper](https://github.com/zxlie/FeHelper) Web前端助手，包括各种前端开发工具
-
 * [getsentry/sentry](https://github.com/getsentry/sentry) 开发人员优先的错误跟踪和性能监控
-
-* [openresty/openresty](https://github.com/openresty/openresty) 基于 Nginx 和 LuaJIT 的高性能 Web 平台
 
 * [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui) 用 Rust 编写的终端的 Spotify 客户端
 
-* [koishijs/koishi](https://github.com/koishijs/koishi) 用爱制作的跨平台聊天机器人框架
-
-* [tsenart/vegeta](https://github.com/tsenart/vegeta) HTTP 负载测试工具和库。超过9000！
-
-* [TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket) 100% Java 写的准系统 WebSocket 实现。
-
 * [extrawurst/gitui](https://github.com/extrawurst/gitui) 用rust编写的，终端中提供了git GUI
-
-* [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) 配置NGINX服务器所需的唯一工具。
-
-* [yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) 30天自制C++服务器，教程和源代码
-
-* [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) 悄咪咪收集的1000+个Telegram群合集
 
 * [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) 用于隐私的开源 YouTube 应用程序
 
-* [node-red/node-red](https://github.com/node-red/node-red) 事件驱动应用程序的低代码编程
-
-* [phanan/htaccess](https://github.com/phanan/htaccess) 有用的 .htaccess 代码段的集合。
-
-* [PanDownloadServer/Server](https://github.com/PanDownloadServer/Server) 百度云PanDownload的个人维护版本
-
-* [irislib/iris-messenger](https://github.com/irislib/iris-messenger) 更好的社交网络Nostr的客户端。
-
-* [laravel/framework](https://github.com/laravel/framework) 包含PHP Laravel框架的核心代码。
-
-* [grpc/grpc-java](https://github.com/grpc/grpc-java) Java gRPC 实现。基于 HTTP/2 的 RPC
-
-* [foxcpp/maddy](https://github.com/foxcpp/maddy) 可组合的多合一邮件服务器。
-
-* [go-resty/resty](https://github.com/go-resty/resty) Go 的简单 HTTP 和 REST 客户端库
-
-* [zonemeen/musicn](https://github.com/zonemeen/musicn) 下载高品质音乐的命令行工具
-
-* [sockjs/sockjs-client](https://github.com/sockjs/sockjs-client) WebSocket 仿真 - Javascript 客户端
-
-* [jeffthibault/python-nostr](https://github.com/jeffthibault/python-nostr) 用于创建Nostr客户端的Python库
-
-* [sogou/workflow](https://github.com/sogou/workflow) C++ 并行计算和异步网络引擎
-
-* [Moya/Moya](https://github.com/Moya/Moya) 用 Swift 编写的网络抽象层。
-
 * [google/go-github](https://github.com/google/go-github) 用于访问 GitHub v3 API 的 Go 库
 
-* [antirez/smallchat](https://github.com/antirez/smallchat) 聊天服务器的最小C编程示例
-
-* [txthinking/brook](https://github.com/txthinking/brook) 一个跨平台可编程网络工具.
-
 * [radishes-music/radishes](https://github.com/radishes-music/radishes) 跨平台的无版权的音乐平台
-
-* [BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter) 微信聊天记录导出备份程序
-
-* [taowen/awesome-lowcode](https://github.com/taowen/awesome-lowcode) 国内低代码平台从业者交流
 
 * [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) 网易云音乐 Node.js API service
 
 * [gogs/gogs](https://github.com/gogs/gogs) 一个无痛的自托管 Git 服务
-
-* [go-telegram-bot-api/telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) Telegram Bot API 的 Golang 绑定
-
-* [SoftEtherVPN/SoftEtherVPN](https://github.com/SoftEtherVPN/SoftEtherVPN) 跨平台多协议 VPN 软件。
-
-* [grpc/grpc-web](https://github.com/grpc/grpc-web) 适用于 Web 客户端的 gRPC
-
-* [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) 全网热门 BT Tracker 列表
-
-* [pion/webrtc](https://github.com/pion/webrtc) WebRTC API 的纯 Go 实现
-
-* [cachethq/cachet](https://github.com/cachethq/cachet) 开源状态页面系统。
-
-* [itgoyo/Aria2](https://github.com/itgoyo/Aria2) 突破百度云限速合集
-
-* [openblocks-dev/openblocks](https://github.com/openblocks-dev/openblocks) 开源低代码替代方案
-
-* [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) 阿里云盘 WebDAV 服务
-
-* [Privoce/vocechat-web](https://github.com/privoce/vocechat-web) VoceChat 的 Web 客户端
-
-* [shadowsocks/ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) 下一代 ShadowsocksX
-
-* [dovecot/core](https://github.com/dovecot/core) 邮件服务器
-
-* [soimort/you-get](https://github.com/soimort/you-get) youtube下载
 
 ### 网络爬虫
 
@@ -9522,6 +9754,8 @@
 
 * [flairNLP/fundus](https://github.com/flairNLP/fundus) 静态新闻爬虫。Fundus 让您只需几行 Python 代码即可抓取在线新闻文章！无论是来自实时网站还是CC-NEWS数据集。支持：抓取一堆英语新闻文章；对特定新闻源进行爬取；抓取 100 万篇文章，为了抓取如此大量的数据，Fundus 依赖于 CommonCrawl Web 存档，尤其是 新闻抓取 CC-NEWS 。如果您不熟悉 CommonCrawl 或 CC-NEWS 查看他们的网站。评估基准中最高的F1分数。[dobbersc/fundus-evaluation](https://github.com/dobbersc/fundus-evaluation)
 
+* [dessant/search-by-image](https://github.com/dessant/search-by-image) Search by Image是一款浏览器扩展，支持 Chrome、Edge 和 Safari，可以轻松进行反向图片搜索，并支持超过 30 个搜索引擎。它可以帮助记者和研究人员验证图片的真实性，识别社交媒体上的虚假信息，也方便摄影师了解自己的作品在网络上的传播情况，以及购物者寻找类似商品的折扣。该扩展支持多种搜索模式，包括从网页上选定区域的图片、从设备上传的图片、来自私有网站的图片以及网页截图。
+
 * [mendableai/firecrawl](https://github.com/mendableai/firecrawl) 将整个网站变成 LLM-ready Markdown 或结构化数据。使用单个 API 进行抓取、抓取和提取。抓取任何网站并将其转换为LLM就绪的 Markdown 或结构化数据。由 Mendable.ai 和 Firecrawl 社区构建。包括强大的抓取、抓取和数据提取功能。Firecrawl 是一种 API 服务，它获取 URL、抓取它并将其转换为干净的 markdown 或结构化数据。我们会抓取所有可访问的子页面，并为每个子页面提供干净的数据。无需站点地图。
 
 * [kangvcar/InfoSpider](https://github.com/kangvcar/InfoSpider) 集众多数据源于一身的爬虫工具箱，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、淘宝、支付宝、中国移动、中国联通、中国电信、知乎、哔哩哔哩、网易云音乐、QQ好友、QQ群、生成朋友圈相册、浏览器浏览历史、12306、博客园、CSDN博客、开源中国博客、简书。
@@ -9531,6 +9765,8 @@
 * [mishushakov/llm-scraper](https://github.com/mishushakov/llm-scraper) 将任何网页转换为结构LLMs化数据，特征：支持本地（Ollama、GGUF）、OpenAI、Vercel AI SDK 提供商；使用 Zod 定义的架构；使用 TypeScript 实现完全的类型安全；基于Playwright框架；流式处理对象；代码生成；支持 4 种格式化模式：用于加载原始 HTML 的 html、markdown 用于加载 markdown、用于加载提取文本的文本（使用 Readability.js）、用于加载屏幕截图的图像（仅限多模式）
 
 * [Neet-Nestor/Telegram-Media-Downloader](https://github.com/Neet-Nestor/Telegram-Media-Downloader) 这是一个 Telegram网页版媒体下载脚本，它可以解锁并启用从聊天、故事，甚至下载被禁用或限制的私人频道中的图片、GIF、音频和视频的下载功能。该脚本通过用户脚本实现，无需任何额外的软件，只需安装浏览器扩展（如 Tampermonkey 或 Violentmonkey）即可使用。该脚本还支持不同 Telegram 网页版版本的功能，例如音频消息下载仅适用于 K 网页版。
+
+* [Nv7-GitHub/googlesearch](https://github.com/Nv7-GitHub/googlesearch) googlesearch是一个 Python 库，用于轻松地搜索 Google。它使用 requests 和 BeautifulSoup4库来抓取 Google 搜索结果。该库支持多种搜索选项，包括结果数量、语言、地区、安全搜索、高级搜索等。用户可以通过简单的 Python 代码调用该库，获取搜索结果并提取标题、URL、描述等信息。该库还支持使用代理服务器进行搜索，并提供选项控制请求间隔时间。
 
 * [JoeanAmier/XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) 这是一个小红书链接提取和作品采集工具，可以提取账号发布、收藏、点赞、专辑作品链接，以及搜索结果作品和用户链接，并采集作品信息和下载地址，最终下载小红书无水印作品文件。该工具支持 Python 3.12，并提供用户脚本（UserScript）版本，方便用户使用。注意：由于小红书平台规则更新，建议更新用户脚本版本以获得最佳使用体验。
 
@@ -9552,6 +9788,8 @@
 
 * [bookstairs/bookhunter](https://github.com/bookstairs/bookhunter) bookhunter 是一个用于从互联网抓取电子书的下载工具，支持从Talebook、SoBooks、中小學教材、Telegram 频道等多个网站下载书籍，并提供多种安装方式，包括 Homebrew、Scoop 和手动下载。该项目是 hellojukay/dl-talebook 的完全重写版本，并支持阿里云盘、蓝奏云、电信云盘等多种云盘下载。
 
+* [wzdnzd/aggregator](https://github.com/wzdnzd/aggregator) 这是一个用于爬取和聚合代理的平台，它可以一键获取多个来源的代理，方便用户使用。该项目仅供学习交流，不保证稳定性和安全性，用户需自行承担使用风险，且禁止用于任何非法活动。项目使用Python编写，核心功能包括代理爬取和处理，用户可参考配置文件进行配置。
+
 * [coursera-dl/coursera-dl](https://github.com/coursera-dl/coursera-dl) Coursera Downloader是一个Python脚本，用于下载Coursera课程的视频和其他资源。它可以根据课程名称和账户凭据，自动获取课程和周次信息，并下载相关材料到相应命名的文件和目录中。该脚本比wget更方便，因为它可以根据课程大纲页面信息为视频命名，并避免下载重复视频。
 
 * [hardikvasa/google-images-download](https://github.com/hardikvasa/google-images-download) 这是一个Python 脚本，可以从 Google 图片搜索结果中下载数百张图片到本地硬盘，无需额外配置即可运行。该项目提供详细的文档，包括安装说明、参数解释和代码示例。请注意，该脚本仅供学习使用，用户需遵守版权法律，避免下载和使用侵犯版权的图片。
@@ -9559,6 +9797,10 @@
 * [seleniumbase/SeleniumBase](https://github.com/seleniumbase/SeleniumBase) Python 用于网络爬虫、抓取、测试和报告的一体化框架。多合一浏览器自动化框架。支持 pytest。UC 模式提供隐身功能。包括许多工具。SeleniumBase 是用于 Web 自动化活动的专业工具包。专为测试网站、绕过 CAPTCHA、提高生产力、完成任务和扩展业务而构建。
 
 * [qd-today/qd](https://github.com/qd-today/qd) QD是一个基于HAR编辑器和Tornado服务器的HTTP请求定时任务自动执行框架，它可以帮助你轻松地创建和管理HTTP请求定时任务，并提供可视化的界面进行操作。QD支持多种功能，包括任务管理、日志记录、任务监控等，并提供Docker镜像方便部署。
+
+* [codelucas/newspaper](https://github.com/codelucas/newspaper) 新闻、全文和文章元数据提取。由 lxml 提供速度支持。特征：多线程文章下载框架、新闻网址识别、从 html 中提取文本、图像、关键字、摘要、作者、Google 趋势词提取、支持 10+ 种语言（英语、中文、德语、阿拉伯语等）。
+
+* [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) 最好和最简单的免费开源网站更改检测、网站观察器、补货监控和通知服务。补货监控，变化检测。为简单而设计 - 只需免费监控哪些网站有文本更改。免费开源网页变更检测、网站污损监控、价格变更通知
 
 * [opendatalab/magic-html](https://github.com/opendatalab/magic-html) magic-html - 通用HTML数据提取器。magic-html提供了一套工具，能够轻松地从HTML中提取主体区域内容。无论您处理的是复杂的HTML结构还是简单的网页，这个库都旨在为您的HTML抽取需求提供一个便捷高效的接口。
 
@@ -9599,6 +9841,158 @@
 * [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) python爬虫例子
 
 * [facert/awesome-spider](https://github.com/facert/awesome-spider) 收集各种爬虫
+
+### 资源传输下载
+
+* [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) 文件快递柜-匿名口令分享文本，文件，像拿快递一样取文件。主要特色： 轻量简洁： 项目基于Fastapi + Sqlite3 + Vue3 + ElementUI。轻松上传： 支持复制粘贴和拖拽选择。多种类型： 支持文本和文件。防止爆破： 错误次数限制。防止滥用： IP限制上传次数。口令分享： 随机口令，存取文件，自定义次数及有效期。国际化： 支持中文简体、繁体以及英文等。匿名分享： 无需注册，无需登录。管理面板： 查看和删除文件。一键部署： 支持Docker一键部署。自由拓展： 支持S3协议和本地文件流，可根据需求在storage文件中新增存储引擎。简单明了： 适合新手练手项目。 终端下载： 终端命令wget https://share.lanol.cn/share/select?code=83432
+
+* [cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve) 自托管文件管理系统，支持多云。特征：支持将文件存储到本地存储、远程存储、七牛、阿里云 OSS、腾讯 COS、Upyun、OneDrive、S3 兼容 API。直接传输上传/下载，支持限速。与 Aria2 集成以离线下载文件，使用多个下载节点来分担负载。压缩/解压文件，批量下载文件。涵盖所有存储提供商的 WebDAV 支持。拖放以上传文件或文件夹，并具有流式上传处理功能。拖放以管理您的文件。多用户与多组。为具有到期日期的文件和文件夹创建共享链接。在线预览视频、图像、音频、ePub 文件;在线编辑文本、Office 文档。自定义主题颜色、深色模式、PWA 应用程序、SPA、i18n。多合一包装，所有功能开箱即用。
+
+* [zfile-dev/zfile](https://github.com/zfile-dev/zfile) 在线云盘、网盘、OneDrive、云存储、私有云、对象存储、h5ai、上传、下载。ZFile 是一个适用于个人的在线网盘(列目录)程序，可以将你各个存储类型的存储源，统一到一个网页中查看、预览、维护，再也不用去登录各种各样的网页登录后管理文件，现在你只需要在 ZFile 中使用。你只需要填写存储源相关信息，其他的令牌刷新，授权都是尽量自动化的，且有完善的文档帮助你使用。支持对接 S3、OneDrive、SharePoint、Google Drive、多吉云、又拍云、本地存储、FTP、SFTP 等存储源。支持在线浏览图片、播放音视频，文本文件、Office、obj（3d）等文件类型。
+
+* [shiyanhui/dht](https://github.com/shiyanhui/dht) 该项目使用Go 语言实现了 BitTorrent DHT 协议，包含了 BEP-3、BEP-5、BEP-9 和 BEP-10协议的实现，支持标准模式和爬取模式。标准模式遵循 BEP 协议，可作为标准 DHT 服务器使用；爬取模式旨在尽可能多地爬取元数据信息，不遵循标准 BEP 协议，可用于构建类似 BTDigg 的 BT 搜索引擎。项目提供示例代码，并提供已编译的二进制文件供下载。需要注意的是，默认爬取模式配置需要约 300M 内存，可根据需要调整 MaxNodes 和 BlackListMaxSize 参数。目前项目尚不支持局域网运行，因为存在 NAT 穿透问题。未来计划包括实现 NAT 穿透、完成 BEP-3 协议实现以及优化性能。
+
+* [anacrolix/torrent](https://github.com/anacrolix/torrent) 这是一个用 Go 语言编写的功能完备的 BitTorrent 客户端库和命令行工具，重点在于作为库供其他项目使用。它支持协议加密、DHT、PEX、uTP 和各种扩展，并提供多种数据存储后端，例如 blob、文件、bolt、mmap 和 sqlite。该库还支持直接从 BitTorrent 网络流式传输数据，并提供各种 Go 惯用的 `io` 包接口来访问 torrent 和其文件。它还包含一些用于其他目的的依赖包，例如 `go-libutp`、`dht`、`bencode` 和 `tracker`。该项目已被多个下游项目使用，例如 cove、confluence、Gopeed、Erigon、exatorrent、bitmagnet、TorrServer、distribyted、Mangayomi 和 Simple Torrent。
+
+* [ipfs/ipfs-desktop](https://github.com/ipfs/ipfs-desktop) IPFS Desktop是一个适用于 Windows、Mac 和 Linux 的 IPFS 桌面应用程序，提供用户友好的界面，无需命令行即可使用 IPFS。它包含一个完整的 IPFS 节点，并提供便捷的操作系统菜单栏/任务栏快捷方式，以及一个集成的文件管理器、对等节点地图和内容浏览器。IPFS Desktop允许用户轻松地将文件、文件夹和截图导入 IPFS，管理节点内容，可视化全球 IPFS 对等节点，探索 IPFS 文件的“Merkle 森林”，并享受操作系统范围内的 IPFS 文件和链接支持。用户可以在使用过程中学习 IPFS 命令。
+
+* [nextcloud/server](https://github.com/nextcloud/server) Nextcloud 服务器，您所有数据的安全家园。功能：访问您的数据 您可以将文件、联系人、日历等存储在您选择的服务器上。同步您的数据 您可以在设备之间保持文件、联系人、日历等的同步。分享您的数据...通过让其他人访问您希望他们查看或协作的内容。可扩展数百个应用程序...例如日历、通讯录、邮件、视频聊天以及您可以在我们的 App Store 中发现的所有内容。通过我们的加密机制、HackerOne 赏金计划和双因素身份验证确保安全性。
+
+* [imputnet/cobalt](https://github.com/imputnet/cobalt) Cobalt 是一个不会惹你生气的媒体下载器。它快速、友好，并且没有任何现代网络充斥的废话：没有广告、跟踪器或侵入性分析。粘贴链接，获取文件，继续前进。就是这么简单。它应该是什么样的。cobalt 不是盗版工具，不能用作盗版工具。它只能下载免费的、可公开访问的内容。此类内容可以通过任何浏览器的开发工具轻松下载。按下一个按钮更容易，因此我为此类重复操作制作了一个方便、无广告的工具。
+
+* [lizongying/my-tv](https://github.com/lizongying/my-tv) 这是一个名为“我的电视”的电视直播软件，安装即可使用。用户可以通过GitHub或Gitee下载安装包，并使用手机或平板电脑安装使用。该软件支持多种机型，包括小米电视、海信电视等。用户可以通过ADB命令安装软件，也可以使用手机自带的安装功能。该软件提供了丰富的直播频道，包括央视、卫视、地方台等，用户可以根据自己的需求选择观看。该软件仍在开发中，未来将支持更多频道和功能。
+
+* [ente-io/ente](https://github.com/ente-io/ente) Ente是一个完全开源的端到端加密云存储平台，提供替代Google Photos和ApplePhotos的Ente Photos应用，以及替代Authy的2FA应用Ente Auth。该项目由Cure53、Symbolic Software和Fallible等机构进行安全审计，并提供5GB免费存储空间。Ente Photos支持3倍数据复制、设备端机器学习、跨平台、私密分享、协作相册、家庭计划等功能，并提供桌面和网页版。Ente Auth则是一个免费的开源端到端加密身份验证器应用。
+
+* [johang/btfs](https://github.com/johang/btfs) BTFS是一个基于FUSE的BitTorrent文件系统，它允许你将任何.torrent文件或磁力链接挂载为一个只读目录，并在需要时按需下载文件内容，支持ls、cat、cp等工具以及vlc、mplayer等应用程序。你只需使用btfs命令将torrent文件或磁力链接挂载到指定目录，然后就可以像访问普通目录一样使用它。BTFS支持Debian/Ubuntu、Arch Linux、Gentoo、Fedora、OpenSUSE和macOS等系统，并依赖于fuse、libtorrent和libcurl等库。
+
+* [Jackett/Jackett](https://github.com/Jackett/Jackett) 您最喜欢的 torrent 跟踪器，Jackett 用作代理服务器：它将来自应用程序（Sonarr、Radarr、SickRage、CouchPotato、Mylar3、Lidarr、DuckieTV、qBittorrent、Nefarious 等）的查询转换为特定于跟踪器站点的 http 查询，解析 html 或 json 响应，然后将结果发送回请求软件。这允许获取最近上传的内容（如 RSS）并执行搜索。Jackett 是维护索引器抓取和翻译逻辑的单一存储库 - 消除了其他应用程序的负担。
+
+* [sigoden/dufs](https://github.com/sigoden/dufs) Dufs是一个功能丰富的文件服务器，支持静态文件服务、上传、搜索、访问控制、WebDAV等功能。它提供命令行界面，支持多种安装方式，包括使用cargo、Docker和Homebrew。Dufs可以配置访问权限，支持HTTPS和CORS，并提供多种日志记录选项。用户可以通过简单的命令行参数控制Dufs的行为，例如指定服务路径、端口号、访问权限等。Dufs还支持单页应用程序（SPA）和静态网站的部署。
+
+* [RsyncProject/rsync](https://github.com/RsyncProject/rsync) Rsync是一个开源工具，提供快速增量文件传输功能，并支持备份和恢复操作等多种用例。它使用增量传输算法，仅传输文件差异，无需在链接两端都存在完整文件。Rsync通常使用ssh或rsh与远程系统通信，无需特殊权限，但需要一个可用的ssh或rsh系统。Rsync也可以在守护进程模式下运行，监听套接字，通常用于公开文件分发。更多信息请访问官方网站：https://rsync.samba.org/。
+
+* [nyaadevs/nyaa](https://github.com/nyaadevs/nyaa) NyaaV2是一个面向猫的 Bittorrent 软件，使用 Python 3.7 开发。它支持 MySQL/MariaDB 数据库，并提供数据库迁移功能。项目使用 Flask-Migrate 和 Alembic 进行数据库迁移，并提供测试用例。用户可以使用 `pyenv` 管理 Python 版本，并通过 `pip` 安装依赖项。项目提供开发服务器，方便开发者进行测试和开发。此外，项目还支持 Elasticsearch，可以实现高级搜索功能。
+
+* [webtorrent/instant.io](https://github.com/webtorrent/instant.io) 通过 WebTorrent 传输流式文件（网络上的种子）。使用 WebTorrent 协议（基于 WebRTC 的 BitTorrent）下载/上传文件。由 WebTorrent 提供支持，这是第一个无需插件即可在浏览器中运行的 torrent 客户端。WebTorrent 由 JavaScript 和 WebRTC 提供支持。支持 Chrome、Firefox、Opera（桌面和 Android）。在控制台中运行 localStorage.debug = ‘*‘ 并刷新以获取详细的日志输出。
+
+* [timvisee/ffsend](https://github.com/timvisee/ffsend) ffsend是一个命令行工具，可以轻松安全地分享文件。它使用 FirefoxSend 服务，支持文件加密和密码保护，并提供下载限制、文件过期时间等功能。ffsend 支持上传和下载文件和目录，并提供 URL 短链接和 QR 码生成等功能。用户可以自定义 Send 主机，并查看和删除共享文件。该工具适用于脚本化操作，具有低内存占用和准确的错误报告。
+
+* [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources) 该项目是一个自动更新 IPTV 来源的工具，它整合了多个来源，包括epg.pw、iptv.org、YueChan/Live、YanG-1989/m3u 等，并提供 EPG 数据。项目支持多种部署方式，包括 GitHub Pages、Docker 和 Node.js，并提供环境变量配置，例如自定义回滚 URL、关闭来源代理、自定义 GitHub Raw 来源代理 URL 等。项目还提供 IPTV 检查功能，可以检查 IPTV 来源的有效性。
+
+* [filecoin-project/lotus](https://github.com/filecoin-project/lotus) Lotus是 Filecoin 分布式存储网络的 Go 语言实现，它提供了完整的 Filecoin 功能，包括数据存储、检索和交易。Lotus 项目包含了完整的文档和构建指南，并提供独立的模块，例如 go-fil-markets 和 builtin-actors，方便开发者进行二次开发。Lotus 致力于打造安全、可靠、高效的分布式存储网络，为用户提供更加便捷的存储和数据访问服务。
+
+* [Tribler/tribler](https://github.com/Tribler/tribler) Tribler是一个增强隐私的 BitTorrent 客户端，旨在提供匿名访问内容。它通过实现一个类似于 Tor 的匿名网络，使用隐藏服务进行种子和端到端加密，以实现匿名下载和流媒体。Tribler 的目标是让隐私、强大的加密和身份验证成为互联网的规范，自 2004 年以来一直致力于确保“唯一能关闭 Tribler 的方法是关闭互联网”。
+
+* [Radarr/Radarr](https://github.com/Radarr/Radarr) Usenet 和 BitTorrent 用户的电影收藏管理器。它可以监控新电影的多个 RSS 源，并将与客户端和索引器交互以抓取、排序和重命名它们。它还可以配置为在有更好的质量格式可用时自动升级库中现有文件的质量。请注意，仅支持给定影片的一种类型。如果您想要给定电影的 4k 版本和 1080p 版本，则需要多个实例。
+
+* [streamlink/streamlink](https://github.com/streamlink/streamlink) Streamlink是一个命令行工具，可以将来自各种服务的视频流导入视频播放器。它基于插件系统，支持 Twitch、YouTube 等大多数流行的流媒体服务。用户可以使用 Streamlink 将流媒体内容保存到本地文件或获取流媒体元数据。Streamlink 是 Livestreamer 项目的衍生项目，并提供 Python API 和 CLI 文档。
+
+* [popcorn-official/popcorn-desktop](https://github.com/popcorn-official/popcorn-desktop) Popcorn Time是一个跨平台的免费 BitTorrent 客户端，包含集成媒体播放器，支持 Windows、Mac 和 Linux 系统。它是 Butter-Project 的分支，你可以从项目网站 popcorn-time.site 或 GitHub 发布页面下载最新版本。项目还提供最新开发版本供测试人员使用，可以通过 GitHub Actions 页面获取。
+
+* [c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) qBittorrent 增强，基于 qBittorrent。特征：Auto Ban 迅雷、QQ、百度、Xfplay、DLBT和离线下载器；自动禁止来自中国的未知对等方选项（默认：关闭）；自动更新公共跟踪器列表（默认：关闭）;自动禁止 BitTorrent 媒体播放器对等选项（默认：关闭）；对等白名单/黑名单
+
+* [arvidn/libtorrent](https://github.com/arvidn/libtorrent) libtorrent是一个开源的 C++ 库，实现了 BitTorrent 协议以及大多数流行的扩展，使其适用于现实世界的部署。它可以配置以适应服务器和嵌入式设备。libtorrent 的主要目标是高效和易于使用。更多详细的构建和使用说明请参见 libtorrent.org网站。
+
+* [nilaoda/N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE) N_m3u8DL-RE 是一个跨平台的 MPD/M3U8/ISM 流媒体下载工具，支持简体中文、繁体中文和英文。它可以下载 DASH/HLS/MSS 流媒体，并提供多种功能，例如自定义下载路径、多线程下载、断点续传等。用户可以通过命令行或图形界面使用该工具。
+
+* [rakshasa/rtorrent](https://github.com/rakshasa/rtorrent) rTorrent是一个命令行BitTorrent客户端，以其高性能和可扩展性著称。该项目提供稳定版和开发版，并提供相关工具，如rbedit，用于编辑bencode文件。用户可以通过Paypal、Patreon、SubscribeStar等方式捐赠支持rTorrent的开发。
+
+* [wwb521/live](https://github.com/wwb521/live) 这是一个提供高质量电视直播源的项目，永久免费，包含 IPTV 和 TvBox两种类型，并提供相应的 txt 和 m3u 地址，支持 IPV6 地址，方便用户使用。项目还提供一些推荐的播放器和网站，方便用户观看直播。
+
+* [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) 用C++ / Qt编程的bittorrent客户端，它使用Arvid Norberg的libtorrent（有时称为libtorrent-rasterbar）。它旨在成为所有其他 bittorrent 客户端的良好替代品。qBittorrent 快速、稳定，并提供 unicode 支持以及许多功能。
+
+* [foamzou/melody](https://github.com/foamzou/melody) 帮助你更好地管理音乐。帮助你将喜欢的歌曲或者音频上传到音乐平台的云盘。支持在各大音乐和视频网站检索歌曲。支持一键下载到本地，一键上传到云盘。一键“解锁”无法播放的歌曲。
+
+* [dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh) 从命令行轻松快速地共享文件。此代码包含服务器，其中包含创建自己的实例所需的一切。目前支持 s3 （Amazon S3）、gdrive （Google Drive）、storj （Storj） 提供程序和本地文件系统 （local）。
+
+* [syhyz1990/baiduyun](https://github.com/syhyz1990/baiduyun) 这是一个免费开源的网盘下载助手，支持百度网盘和腾讯微云等网盘，基于PCSAPI，支持Windows、Mac、Linux等平台，可配合IDM、XDown、Aria2等下载工具使用，还支持JSON-RPC和cURL命令行下载。
+
+* [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) Usenet 和 BitTorrent 用户的 PVR。它可以监控您喜欢的节目的新剧集的多个 RSS 提要，并会抓取、排序和重命名它们。它还可以配置为在质量更好的格式可用时自动升级已下载文件的质量。
+
+* [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) 指定目录下提供了一个文件管理界面，可用于上传、删除、预览、重命名和编辑您的文件。它允许创建多个用户，每个用户都可以拥有自己的目录。它可以用作独立应用程序。
+
+* [rclone/rclone](https://github.com/rclone/rclone) 命令行程序，用于将文件和目录与不同的云存储提供商同步。如Google Drive、S3、Dropbox、Backblaze B2、One Drive、Swift、Hubic、Wasabi、Google Cloud Storage、Yandex Files
+
+* [syncthing/syncthing](https://github.com/syncthing/syncthing) 连续的文件同步程序。它在两台或多台计算机之间同步文件。我们努力实现以下目标。目标按重要性顺序列出，最重要的目标排在最前面。
+
+* [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) 简单、易用、优雅的开源个人云系统。与社区建立联系，建立自主权，降低 SaaS 的成本，并最大限度地发挥个性化副驾驶的潜力。
+
+* [leiurayer/downkyi](https://github.com/leiurayer/downkyi) 哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。
+
+* [soimort/you-get](https://github.com/soimort/you-get) 很小的命令行实用程序，用于从 Web 下载媒体内容（视频、音频、图像），以防没有其他方便的方法可以做到这一点。
+
+* [aria2/aria2](https://github.com/aria2/aria2) 轻量级的多协议和多源、跨平台的下载实用程序，在命令行中运行。它支持 HTTP/HTTPS、FTP、SFTP、BitTorrent 和 Metalink。
+
+* [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) youtube-dl 分支，基于现在不活跃的 youtube-dlc。该项目的主要重点是添加新功能和补丁，同时与原始项目保持同步
+
+* [caorushizi/mediago](https://github.com/caorushizi/mediago) m3u8[m3u8-downloader] 视频在线提取工具 流媒体下载 、视频下载 、 m3u8下载 、 B站视频下载 桌面客户端 windows mac
+
+* [lingochamp/FileDownloader](https://github.com/lingochamp/FileDownloader) Android多任务文件下载引擎。多任务、多线程（MultiConnection）、断点-恢复、高并发、简单易用、单/非单进程
+
+* [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) 开箱即用的高性能异步抖音、快手、TikTok、Bilibili数据爬取工具，支持API调用，在线批量解析及下载。
+
+* [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) 下载您的 Spotify 播放列表和歌曲以及专辑封面和元数据（如果找到匹配项，则从 YouTube 下载）。
+
+* [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) 开源自托管 Web 存档。获取 URL/浏览器历史记录/书签/Pocket/Pinboard/等，保存 HTML、JS、PDF、媒体等
+
+* [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) 用于 SFTP、S3、FTP、WebDAV、Git、Minio、LDAP、CalDAV、CardDAV、Mysql、Backblaze 等的现代 Web 客户端。
+
+* [pytube/pytube](https://github.com/pytube/pytube) 一个轻量级、无依赖的 Python 库（和命令行实用程序），用于下载 YouTube 视频。
+
+* [sergiotapia/magnetissimo](https://github.com/sergiotapia/magnetissimo) 为所有流行的 torrent 站点编制索引并将其保存到本地数据库的 Web 应用程序。
+
+* [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) Kotlin 多平台音乐下载器，支持 Spotify / Gaana / Youtube Music / Jio Saavn / SoundCloud。
+
+* [tgbot-collection/YYeTsBot](https://github.com/tgbot-collection/YYeTsBot) 人人影视 机器人和网站，包含人人影视全部资源以及众多网友的网盘分享
+
+* [transmission-remote-gui/transgui](https://github.com/transmission-remote-gui/transgui) 功能丰富的跨平台传输BitTorrent客户端。比内置的 Web GUI 更快，功能更多。
+
+* [janeczku/calibre-web](https://github.com/janeczku/calibre-web) 用于浏览、阅读和下载存储在 Calibre 数据库中的电子书的 Web 应用程序
+
+* [agalwood/Motrix](https://github.com/agalwood/Motrix) 功能齐全的下载管理器，支持下载 HTTP、FTP、BitTorrent、Magnet 等。
+
+* [iptv-org/iptv](https://github.com/iptv-org/iptv) 收集来自世界各地的公开可用的IPTV（互联网协议电视）频道。
+
+* [KurtBestor/Hitomi-Downloader](https://github.com/KurtBestor/Hitomi-Downloader) 桌面实用程序，用于从各种网站下载图像/视频/音乐/文本等。
+
+* [szimek/sharedrop](https://github.com/szimek/sharedrop) 由 WebRTC 提供支持的轻松 P2P 文件传输 - 灵感来自 Apple AirDrop
+
+* [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) 支持所有平台的现代下载管理器。使用 Go 和 Flutter 构建。
+
+* [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) 用于从 YouTube.com 和其他视频网站下载视频的命令行程序
+
+* [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop) 流媒体 torrent 应用程序。适用于 Mac、Windows 和 Linux。
+
+* [schollz/croc](https://github.com/schollz/croc) 轻松安全地将内容从一台计算机发送到另一台计算机
+
+* [iawia002/lux](https://github.com/iawia002/lux) 用 Go 编写的快速简单的视频下载库和 CLI 工具
+
+* [lingochamp/okdownload](https://github.com/lingochamp/okdownload) 可靠、灵活、快速、强大的Android下载引擎。
+
+* [mayswind/AriaNg](https://github.com/mayswind/AriaNg) 一个现代的 Web 前端，使 aria2 更易于使用。
+
+* [liupan1890/aliyunpan](https://github.com/liupan1890/aliyunpan) 阿里云盘小白羊版 阿里云盘PC版 aliyundriver
+
+* [vooidzero/B23Downloader](https://github.com/vooidzero/B23Downloader) Qt C++开发的B站视频、直播、漫画下载器。
+
+* [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) 对云中的文件进行多平台透明客户端加密
+
+* [BiglySoftware/BiglyBT](https://github.com/BiglySoftware/BiglyBT) 基于Azureus的功能丰富的 Bittorrent 客户端
+
+* [YueChan/Live](https://github.com/YueChan/Live) 收集于互联网上的一些高清直播源。
+
+* [PanDownloadServer/Server](https://github.com/PanDownloadServer/Server) 百度云PanDownload的个人维护版本
+
+* [zonemeen/musicn](https://github.com/zonemeen/musicn) 下载高品质音乐的命令行工具
+
+* [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) 全网热门 BT Tracker 列表
+
+* [itgoyo/Aria2](https://github.com/itgoyo/Aria2) 突破百度云限速合集
+
+* [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) 阿里云盘 WebDAV 服务
+
+* [soimort/you-get](https://github.com/soimort/you-get) youtube下载
 
 # A04_机器视觉
 
@@ -9998,6 +10392,8 @@
 
 * [HandBrake/HandBrake](https://github.com/HandBrake/HandBrake) HandBrake是一个开源的视频转码器，可在 Linux、Mac 和 Windows 上使用，它基于 GNU 通用公共许可证 (GPL) 版本 2。HandBrake可以将您现有的视频转换为适用于手机、平板电脑、电视媒体播放器、游戏机、电脑或网页浏览器等设备的格式。HandBrake支持大多数常见的视频文件和格式，包括消费级和专业视频摄像机、手机和平板电脑等移动设备、游戏和电脑屏幕录制以及 DVD 和蓝光光盘。HandBrake 利用 FFmpeg、x264 和 x265 等工具从这些来源创建新的 MP4 或 MKV 视频文件。有关下载、构建/安装和使用 HandBrake 的信息，请参阅官方 HandBrake 文档。
 
+* [photoview/photoview](https://github.com/photoview/photoview) Photoview是一款简单易用的自托管照片库，专为摄影师设计，旨在提供一种快速简便的方式来浏览包含数千张高分辨率照片的目录。您可以配置 Photoview 在文件系统上的目录中查找照片和视频。扫描器会自动识别您的媒体并开始生成缩略图，从而实现超快的浏览速度。扫描完媒体后，它们会显示在网站上，并按照与文件系统相同的组织方式排列。  Photoview 支持用户管理，每个用户都与本地文件系统上的路径相关联，该用户可以访问该路径中的照片。此外，Photoview 还支持共享功能，可以轻松地与他人共享相册和单个媒体。
+
 * [rhsimplex/image-match](https://github.com/rhsimplex/image-match) image-match是一个用于从海量图像库中快速查找近似匹配图像的Python包，类似于pHash，但它包含一个数据库后端，可以轻松扩展到数十亿张图像，并支持高达10,000张图像/秒的持续高图像插入速率。该算法旨在查找几乎重复的图像，例如版权侵权检测，不适合查找概念上相似的图像。基于Wong et al.的论文《_An image signaturefor any kind of image_》，并提供一个现有的[参考实现](https://www.pureftpd.org/project/libpuzzle)。[Pavlov](https://usepavlov.com/)团队发布了一个优秀的[image-match容器化版本](https://github.com/pavlovml/match)，方便扩展和部署。
 
 * [luispedro/mahotas](https://github.com/luispedro/mahotas) Mahotas是一个用Python编写的快速计算机视觉库，底层算法使用C++实现，以提高速度。它基于NumPy数组进行操作，提供超过100个图像处理和计算机视觉函数，并不断更新。Mahotas支持Python 2.7和3.4+版本，包含诸如分水岭算法、凸点计算、形态学操作、特征提取（Zernike、Haralick、LBP、TAS）、SURF特征、阈值化、卷积、Sobel边缘检测、样条插值和SLIC超像素等功能。它以每月发布新版本，并提供稳定且高效的接口，即使是多年以前的代码也能在最新版本中正常运行。如果你在出版物中使用Mahotas，请引用相关论文。
@@ -10029,6 +10425,8 @@
 * [hybridgroup/gocv](https://github.com/hybridgroup/gocv) GoCV是一个 Go 语言库，它为 OpenCV 4 及更高版本提供绑定，支持 DNN、CUDA、OpenCV Contrib 和 OpenVINO。GoCV 支持在 Linux、macOS 和 Windows 上使用最新的 Go 和 OpenCV 版本，旨在使 Go 语言成为 OpenCV 生态系统中的一流客户端。GoCV 支持 CUDA，利用 Nvidia GPU 进行硬件加速，并支持 Intel OpenVINO。GoCV 提供了丰富的示例，包括视频读取、人脸检测等，方便用户快速上手。
 
 * [darktable-org/darktable](https://github.com/darktable-org/darktable) Darktable 是一个开源摄影工作流程应用程序和 RAW 开发人员。Darktable 是一个开源摄影工作流程应用程序和非破坏性 RAW 开发人员 - 摄影师的虚拟 LightTable 和暗室。它在数据库中管理您的数字底片，让您可以通过可缩放的光照表查看它们，并使您能够开发原始图像、增强它们并将它们导出到本地或远程存储。darktable 不是免费的 Adobe® Lightroom® 替代品。
+
+* [LibrePhotos/librephotos](https://github.com/LibrePhotos/librephotos) LibrePhotos是一个自托管的开源照片管理服务，支持各种照片和视频类型，包括原始照片。它通过扫描文件系统，利用面部识别、反向地理编码、对象/场景检测等技术，自动生成相册（例如“柏林周四”），并提供时间轴视图、多用户支持和语义图像搜索等功能。其底层技术栈包括ImageMagick、FFmpeg、ExifTool、face_recognition、scikit-learn等。
 
 * [opencv/opencv-python](https://github.com/opencv/opencv-python) 该项目提供预编译的 opencv-python、opencv-python-headless、opencv-contrib-python 和 opencv-contrib-python-headless 包，方便用户在不同环境下使用 OpenCV 库。项目支持多种平台，包括 Windows、macOS 和 Linux，并提供 headless 版本，适用于服务器或无 GUI 环境。用户可以通过 pip 安装对应版本的包，并使用 `import cv2` 导入库，即可开始使用 OpenCV 的各种功能。
 
@@ -10184,6 +10582,8 @@
 
 * [open-mmlab/mmgeneration](https://github.com/open-mmlab/mmgeneration) 一个强大的生成模型工具包，基于PyTorch和MMCV。`高质量的训练`：支持无条件 GAN、内部 GAN 和图像翻译模型的培训。对条件模型的支持即将推出。`强大的工具包`：为用户提供了包含GAN中多个应用程序的丰富工具包。GAN 插值、GAN 投影和 GAN 操作已集成到我们的框架中。`高效分布式训练`：对于生成模型中的高动态训练，采用了一种新的方法来训练动态模型 MMDDP 。`灵活组合的新模块化设计`：针对复杂损耗模块的定制链接，提出一种新的设计，可以实现不同模块之间的灵活组合。
 
+* [zituitui/BELM](https://github.com/zituitui/BELM) BELM是一个用于扩散模型精确反转的双向显式线性多步采样器，该项目是NeurIPS 2024论文的官方实现，它通过引入双向显式约束，将现有的启发式精确反转采样器作为特例，并从变步长变公式线性多步法推导出BELM公式，从而实现精确反转。BELM框架中的局部截断误差分析表明，现有的启发式设计会导致次优的LTE，因此该项目提出了通过LTE最小化方法的最佳BELM (O-BELM) 采样器，并通过实验验证了O-BELM在精确反转和高质量采样方面的优势，以及在图像编辑和插值等应用中的潜力。
+
 * [16131zzzzzzzz/EveryoneNobel](https://github.com/16131zzzzzzzz/EveryoneNobel) EveryoneNobel是一个基于ComfyUI的灵活框架，用于生成个性化的诺贝尔奖图像。它利用ComfyUI进行图像生成，并使用HTML模板在图像上显示文本。该项目不仅是一个生成诺贝尔奖图像的流程，也是一个潜在的通用框架。该框架将ComfyUI生成的视觉效果转换为最终产品，为进一步的应用和定制提供结构化的方法。用户可以通过该项目生成包含文本的诺贝尔奖图像，也可以生成不包含文本的图像。该项目还提供详细的安装和使用指南，以及一个QQ群供用户交流。
 
 * [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) 文本到图像模型图像到视频的模型。发布 SDXL-Turbo，这是一款闪电般快速的文本到图像模型。 Stable Video Diffusion，一种图像到视频的模型。SDXL-base-0.9 ：在分辨率为 1024^2 的图像上，对基础模型进行了各种纵横比的训练。基本模型使用 OpenCLIP-ViT/G 和 CLIP-ViT/L 进行文本编码，而精简模型仅使用 OpenCLIP 模型。SDXL-refiner-0.9 ：精简器已经过训练，可以对高质量数据的小噪声水平进行降噪，因此不应用作文本到图像模型;相反，它只能用作图像到图像模型。
@@ -10201,6 +10601,8 @@
 * [Fictiverse/Redream](https://github.com/Fictiverse/Redream) Redream是一个基于 Automatic1111 Stable Diffusion API 的实时扩散工具，它允许用户从屏幕区域实时生成图像。用户可以选择屏幕区域，绘制遮罩，并调整扩散参数，例如种子值、步骤数、去噪强度和 CFG 比例。Redream 还支持保存预设，以方便用户快速加载常用的扩散设置。Redream 需要 Windows 操作系统、Automatic1111 stable-diffusion-webui、ControlNet扩展和 .NET 6.0 框架。用户可以通过 Redream 的界面轻松控制扩散过程，并保存生成的图像帧。
 
 * [lllyasviel/stable-diffusion-webui-forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) Stable Diffusion WebUIForge 是基于 Stable Diffusion WebUI 的一个平台，旨在简化开发、优化资源管理、加速推理并探索实验性功能。它借鉴了 Minecraft Forge 的理念，目标是成为 SD WebUI 的 Forge。Forge 目前基于 SD-WebUI 1.10.1，并定期与原版 WebUI同步。Forge 提供了多种功能，包括对 Flux BitsandBytes 模型、NF4、GGUF 等的支持，以及 GPU Weight 滑块、队列/异步交换切换等功能。Forge 还提供了易于使用的安装包，包含 Git、Python 和 CUDA/PyTorch。
+
+* [linzhiqiu/t2v_metrics](https://github.com/linzhiqiu/t2v_metrics) VQAScore是一个用于评估文本到图像/视频/3D模型的自动评估工具，只需一行Python代码即可使用。它利用图像到文本生成模型来评估文本到视觉生成模型，在合成文本提示方面显著优于CLIPScore和PickScore等现有指标，并且比使用人类反馈或ChatGPT和GPT-4Vision等专有模型的现有技术（例如ImageReward、HPSv2、TIFA、Davidsonian、VPEval、VIEScore）更简单。该项目还包含GenAI-Bench，一个用于评估和改进合成文本到视觉生成的基准。
 
 * [ToTheBeginning/PuLID](https://github.com/ToTheBeginning/PuLID) PuLID是一个用于纯净和闪电般快速的 ID 定制的对比对齐方法，该项目已在 NeurIPS 2024 上发表。PuLID通过对比学习来学习图像的潜在表征，从而实现对图像 ID 的精确控制。该项目提供代码、模型和演示，支持用户在本地或云端进行快速推理。PuLID-FLUX 是 PuLID 的一个变体，它可以运行在消费级 GPU 上，并提供在线和本地演示。该项目还提供了一系列示例和应用，展示了 PuLID 在图像生成和编辑方面的强大功能。
 
@@ -10554,6 +10956,8 @@
 
 * [dvlab-research/MGM](https://github.com/dvlab-research/MGM) 多模态大语言模型Mini-Gemini，它采用双视觉编码器，分别提供低分辨率的视觉嵌入和高分辨率的候选区域；提出了一种区域信息挖掘方法，用于在高分辨率区 域与低分辨率视觉查询之间进行像素级挖掘；利用大规模语言模型(MLM) 同时实现文本与图像的理解和生成。该框架支持从2B到34B的一系列密集和MoE大型语言模型（LLMs），同时进行图像理解、推理和生成。我们基于 LLaVA 构建此存储库。
 
+* [shihongl1998/LLM-as-a-blackbox-optimizer](https://github.com/shihongl1998/LLM-as-a-blackbox-optimizer) 该项目名为&quot;LLM-as-a-blackbox-optimizer&quot;，是 CVPR 2024 论文 &quot;Language Models as Black-Box Optimizers for Vision-Language Models&quot; 的代码实现。它使用大型语言模型 (LLM) 和提示反转技术来自动优化视觉语言模型(VLM)。项目包含两种优化方法：文本到图像优化和提示反转，分别对应不同的优化目标和流程。该项目还提供了详细的环境配置、数据集安装和使用方法说明，并提供了相应的引用信息。
+
 * [fairseq/examples/MMPT](https://github.com/facebookresearch/fairseq/tree/main/examples/MMPT) 用于多模态视频理解的工具包！包含两篇多模态视频理解论文[VideoCLIP](https://arxiv.org/pdf/2109.14084.pdf) (EMNLP, 2021) 和[VLM](https://aclanthology.org/2021.findings-acl.370.pdf) (ACL Findings, 2021) 的实现。VideoCLIP 是一种对比学习模型，用于将零样本迁移到检索/分类/序列标记样式任务。VLM 是一种掩码语言模型样式预训练，仅使用一个带有掩码模态模型 (MMM) 的编码器来执行检索/生成/序列标签样式任务。
 
 * [luogen1996/LaVIN](https://github.com/luogen1996/LaVIN) 提出了一种新颖且经济实惠的视觉语言教学调整解决方案，即模态混合自适应（MMA）。MA是一种端到端的优化机制，它通过轻量级适配器连接图像编码器和LLM。同时，还提出了MMA路由算法，可以帮助模型自动移动单模态和多模态指令的推理路径。基于MMA，开发了LaVIN的大型视觉语言指导模型，该模型在各种指令遵循任务中表现出比现有多模态LLM更高的训练效率和更好的推理能力。
@@ -10599,6 +11003,8 @@
 * [facebookresearch/ImageBind](https://github.com/facebookresearch/ImageBind) 一个嵌入空间以绑定图像的所有内容，ImageBind 学习跨六种不同模式的联合嵌入 - 图像、文本、音频、深度、热量和 IMU 数据（惯性测量单元，是用来测量物体加速度、角速度、磁场，高度等）。它支持“开箱即用”的新型紧急应用，包括跨模态检索、使用算术组合模态、跨模态检测和生成。
 
 * [microsoft/Oscar](https://github.com/microsoft/Oscar) 跨模态预训练方法Oscar（Object-Semantics Aligned Pre-training）。它利用在图像中检测到的对象标签作为锚点来显着简化图像-文本对齐的学习。在 650 万个文本图像对的公共语料库上对 Oscar 进行预训练，并在下游任务上对其进行微调，在六项成熟的视觉语言理解和生成任务上创造新的最新技术。
+
+* [vikhyat/moondream](https://github.com/vikhyat/moondream) Moondream是一个轻量级的视觉语言模型，它能够在任何地方运行并提供出色的性能。它可以根据图像回答问题，例如描述图像内容、识别图像中的物体或回答关于图像的具体问题。Moondream支持批量推理，并提供基于Transformers的简单易用的使用方法。用户可以通过Hugging Face访问模型和演示。
 
 * [X-PLUG/mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl) 模块化赋能多模态大型语言模型，一种针对大型多模态语言模型的模块化设计的新训练范式。学习视觉知识，同时支持由不同形式（图像/视频/文本）组成的多回合对话。观察能力，如多图像关联和场景文本理解，基于视觉的文档理解。发布与视觉相关的指令评估集 OwlEval。
 
@@ -10794,6 +11200,8 @@
 
 * [baaivision/EVA](https://github.com/baaivision/EVA) EVA系列项目是BAAI视觉团队开发的一系列视觉表示模型，旨在探索大规模视觉表示学习的极限。该项目包含EVA-01、EVA-02、EVA-CLIP等多个模型，涵盖了图像分类、目标检测、文本图像匹配等多种视觉任务。EVA-CLIP-18B是该系列中参数规模最大的模型，拥有180亿个参数。该项目代码已开源，并与Hugging Face和timm等平台集成，方便用户使用。BAAI视觉团队正在招聘全职研究员、工程师和实习生，欢迎对基础模型、自监督学习和多模态学习感兴趣的人才加入。
 
+* [Mark12Ding/SAM2Long](https://github.com/Mark12Ding/SAM2Long) SAM2Long是一个基于 SAM 2 的长视频分割增强方法，它通过引入一个无训练记忆树来解决 SAM 2 在长视频场景中存在的误差累积问题，从而提高了在物体遮挡和再现等挑战性场景下的分割精度。该方法通过维护多种分割假设并动态剪枝非最佳路径，在不增加参数或额外训练的情况下，最大限度地发挥了 SAM 2 的潜力，并在多个视频目标分割基准测试中取得了优于 SAM 2 的性能，尤其是在 SA-V 和 LVOS 等长视频数据集上，J &amp; F 分数平均提高了 3 分。
+
 * [opendatacam/opendatacam](https://github.com/opendatacam/opendatacam) OpenDataCam是一个开源工具，使用计算机视觉来识别和统计视频中移动的物体，例如车辆、行人等。它可以用于交通流量分析、人群统计等场景。用户可以通过简单的设置，使用OpenDataCam来统计来自摄像头和视频的移动物体。OpenDataCam支持多种物体识别，并提供易于使用的界面和API，用户也可以训练自定义模型。它可以在小型设备上运行，也可以在云端运行，并且用户拥有数据的所有权。用户可以通过Docker镜像快速安装和使用OpenDataCam。
 
 * [Jun-CEN/SegmentAnyRGBD](https://github.com/Jun-CEN/SegmentAnyRGBD) Segment Any RGBD项目是一个基于 SAM 的工具箱，用于分割渲染深度图像。它利用深度图的几何信息，通过颜色映射将其转换为 RGB 图像，然后输入 SAM 进行分割。与传统的 RGB 图像相比，渲染深度图像忽略了纹理信息，更能突出几何特征。该项目提供了两种模式：使用 RGB 图像或渲染深度图像进行分割，并能生成语义掩码和带类别信息的 SAM 掩码。该项目是首个将 SAM 用于直接提取几何信息的研究，并利用 OVSeg 进行零样本语义分割。
@@ -10811,6 +11219,8 @@
 * [shenyunhang/APE](https://github.com/shenyunhang/APE) APE是一个通用视觉感知模型，它在160个数据集上取得了最先进的性能，并支持对数千个词汇或语言描述的物体进行检测和分割。APE可以灵活地支持前景物体和背景内容的实例分割和语义分割，并且能够在各种场景中识别和理解视觉信息。该项目提供了训练代码、推理代码和演示，并支持本地和在线演示。用户可以参考项目中的数据集准备指南，使用COCO、LVIS、Objects365、Openimages等数据集进行训练和测试。
 
 * [shallowdream204/DreamClear](https://github.com/shallowdream204/DreamClear) DreamClear是一个用于真实世界图像恢复的高容量模型，它通过隐私安全的训练数据集构建来实现。该项目在NeurIPS 2024上发表，并提供预训练模型和代码，可用于图像分割、检测和恢复任务。DreamClear通过构建一个包含250张真实世界低质量图像的RealLQ250基准数据集，并使用PixArt-XL-2-1024模型进行训练，实现了高容量的图像恢复能力。该项目还提供方便的推理代码和演示，并支持多种分辨率的训练和推理。
+
+* [WeitaiKang/SegVG](https://github.com/WeitaiKang/SegVG) SegVG是一个用于视觉定位的模型，它将目标边界框作为分割信号，为视觉定位提供额外的像素级监督。该模型通过提出的三重对齐模块，对查询、文本和视觉令牌进行三角形更新，以减轻域差异。SegVG在RefCOCO、RefCOCO+、RefCOCOg和ReferItGame等多个数据集上取得了显著的性能提升。该项目提供了PyTorch实现，并包含训练和评估脚本。用户可以根据需要调整参数，并使用提供的模型权重进行测试。
 
 * [JDAI-CV/fast-reid](https://github.com/JDAI-CV/fast-reid) FastReID是一个基于 PyTorch 的开源重识别算法研究平台，它提供了多种最先进的重识别算法实现，并支持多种任务，例如图像检索和人脸识别。它基于之前的 reid-strong-baseline 项目进行重写，并包含了更多功能，例如循环损失、丰富的可视化方法和评估指标，以及在传统、跨域、部分和车辆重识别上的最优结果。FastReID 可以作为库来支持其他项目，并提供模型库、部署脚本和详细文档。
 
@@ -11040,11 +11450,15 @@
 
 * [continue-revolution/sd-webui-animatediff](https://github.com/continue-revolution/sd-webui-animatediff) AnimateDiff for AUTOMATIC1111 Stable Diffusion WebUI 扩展将 AnimateDiff 集成到AUTOMATIC1111 Stable Diffusion WebUI 中，并与 ControlNet结合，提供易于使用的 AI 视频制作工具。该扩展通过在运行时将运动模块插入 UNet，无需重新加载模型权重，并支持ControlNet 补全、IP-Adapter 提示旅行、稀疏控制、ControlNet 关键帧等功能。此外，还支持 FreeInit 和 AnimateLCM，提供更灵活的视频生成方式。该扩展致力于将有趣的研究成果整合到 WebUI 和 Forge 中，并持续更新以提供更强大的视频生成能力。
 
+* [AdaCache-DiT/AdaCache](https://github.com/AdaCache-DiT/AdaCache) AdaCache是一个用于加速视频扩散模型 (DiTs) 的无训练方法，它利用视频生成过程中不同视频所需的去噪步骤数量差异，通过缓存计算并根据视频内容定制缓存计划，从而实现显著的推理加速，同时保持生成质量。该方法还引入了运动正则化 (MoReg) 方案，利用视频信息来控制计算分配，进一步提高效率。AdaCache 可以在多个视频 DiT 基线上实现即插即用，无需牺牲生成质量即可显著提高推理速度。该项目基于 Open-Sora 实现，并提供详细的安装指南和推理示例。
+
 * [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) 致力于高效制作高质量视频并使所有人都可以使用模型、工具和内容的计划。通过采用开源原则，Open-Sora 不仅使对高级视频生成技术的访问民主化，而且还提供了一个简化且用户友好的平台，简化了视频制作的复杂性。通过Open-Sora，我们的目标是在内容创作领域激发创新、创造力和包容性。Open-Sora 1.1，它支持 2s~15s、144p 到 720p、任意宽高比的文本到图像、文本到视频、图像到视频、视频到视频、无限时间生成。此外，还发布了完整的视频处理流水线。
 
 * [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT) 用于自动创建短视频内容的实验性 AI 框架。它简化了视频创建、素材获取、画外音合成和编辑任务。自动编辑框架：使用面向LLM的视频编辑语言简化视频创建过程。脚本和提示：为各种LLM自动编辑过程提供即用型脚本和提示。画外音/内容创作：支持多种语言。字幕生成：自动生成视频字幕。资产来源：从互联网上获取图像和视频片段，并根据需要与网络和 Pexels API 连接。内存和持久性：使用 TinyDB 确保自动编辑变量的长期持久性。
 
 * [OpenGVLab/video-mamba-suite](https://github.com/OpenGVLab/video-mamba-suite) Video Mamba Suite是一个使用Mamba模型进行视频理解的工具集，它包含14个模型/模块，涵盖了视频时间建模、时空建模、跨模态交互等多个方面，并在12个视频理解任务上进行了评估。该项目旨在探索Mamba在视频理解领域中的应用潜力，并与Transformer进行比较，以评估其作为一种可行替代方案的可能性。该项目已发布代码，并支持包括动作定位、动作识别、长视频问答等多个任务。
+
+* [PolyU-ChenLab/ETBench](https://github.com/PolyU-ChenLab/ETBench) E.T.Bench是一个面向开放式事件级视频-语言理解的综合解决方案，包含三个主要贡献：一个大规模高质量的事件级和时间敏感视频理解基准测试，一个专门用于时间敏感视频条件聊天的多模态大型语言模型，以及一个专门针对时间敏感视频理解场景的精心收集的指令微调数据集。该项目专注于时间敏感视频理解的四个关键能力：引用、定位、密集字幕和复杂理解。
 
 * [Ikaros-521/AI-Vtuber](https://github.com/Ikaros-521/AI-Vtuber) AI Vtuber是一个由 【ChatterBot/ChatGPT/claude/langchain/chatglm/text-gen-webui/闻达/千问/kimi/ollama】 驱动的虚拟主播【Live2D/UE/xuniren】，可以在 【Bilibili/抖音/快手/微信视频号/拼多多/斗鱼/YouTube/twitch/TikTok】 直播中与观众实时互动 或 直接在本地进行聊天。它使用TTS技术【edge-tts/VITS/elevenlabs/bark/bert-vits2/睿声】生成回答并可以选择【so-vits-svc/DDSP-SVC】变声；指令协同SD画图。
 
@@ -11073,6 +11487,8 @@
 * [sczhou/ProPainter](https://github.com/sczhou/ProPainter) ProPainter是一个用于视频修复的深度学习模型，它在ICCV 2023上发表。该模型通过改进传播和Transformer机制，在视频修复任务中取得了显著的性能提升。ProPainter能够有效地修复视频中的缺失区域，例如物体移除、视频补全等。项目提供代码和模型，并提供在线演示，用户可以在Hugging Face和OpenXLab平台上体验。
 
 * [TachibanaYoshino/AnimeGANv3](https://github.com/TachibanaYoshino/AnimeGANv3) AnimeGANv3是一个基于生成对抗网络 (GAN) 的模型，可以将照片或视频转换为动画风格。该项目提供模型和代码，用户可以轻松地使用它进行动画风格转换。项目特色包括：快速转换速度、多种动画风格选择、支持照片和视频转换等。该项目还提供了在线演示、模型下载和相关论文，方便用户学习和使用。
+
+* [farewellthree/PPLLaVA](https://github.com/farewellthree/PPLLaVA) PPLLaVA项目是一个基于提示引导的多样化视频序列理解模型的GPU实现，其论文已发表在arXiv(2411.02327)，该项目提供Hugging Face模型权重和Apache 2.0许可证，并支持NPU代码。PPLLaVA通过提示指导，实现对不同视频序列的理解，并在多个视频理解基准测试中取得了领先的性能。
 
 * [gabeur/mmt](https://github.com/gabeur/mmt) 用于视频检索的多模态变压器 提出的多模态转换器 (MMT) 从视频中聚合多模态特征序列（例如外观、运动、音频、OCR 等）。然后，它将聚合的多模式特征嵌入到带有文本的共享空间中以进行检索。它在 MSRVTT、ActivityNet 和 LSMDC 数据集上实现了最先进的性能。
 
@@ -11774,13 +12190,21 @@
 
 * [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) cert-manager 将证书和证书颁发者添加为 Kubernetes 集群中的资源类型，并简化了获取、续订和使用这些证书的过程。它支持从各种来源颁发证书，包括 Let‘s Encrypt （ACME）、HashiCorp Vault 和 Venafi TPP/TLS Protect Cloud，以及本地集群内颁发。cert-manager 还确保证书保持有效和最新，尝试在到期前的适当时间续订证书，以降低中断风险并消除工作。
 
+* [Azure/azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python) AzureSDK for Python项目提供用于访问Azure服务的Python客户端库，支持Python3.8及以上版本。该SDK包含多个服务库，每个库都提供独立的、易于使用的API，用于与特定Azure服务交互，例如上传Blob。新发布的客户端库遵循统一的指导原则，并共享核心功能，例如重试、日志记录和身份验证。开发者可通过官方文档获取更多信息和使用指导。
+
 * [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) 实现容器和函数工作负载的安全、多租户、最小开销的执行。一种开源虚拟化技术，专为创建和管理安全的多租户容器和基于函数的服务而构建，这些服务提供无服务器操作模型。Firecracker 在称为 microVM 的轻量级虚拟机中运行工作负载，这些虚拟机将硬件虚拟化技术提供的安全性和隔离属性与容器的速度和灵活性相结合。
+
+* [madhuakula/kubernetes-goat](https://github.com/madhuakula/kubernetes-goat) Kubernetes Goat是一个故意设计为存在漏洞的 Kubernetes 集群环境，用于学习和练习Kubernetes 安全，它提供了一个交互式动手操作平台。你可以通过运行 `setup-kubernetes-goat.sh` 脚本在你的 Kubernetes 集群中设置 Kubernetes Goat 资源，并通过 `access-kubernetes-goat.sh` 脚本访问它。访问 `http://127.0.0.1:1234` 即可开始你的 Kubernetes 安全学习之旅。
+
+* [googleapis/google-cloud-python](https://github.com/googleapis/google-cloud-python) 这是一个Python库，提供对Google Cloud Platform服务的访问。它包含不同稳定级别的客户端库，包括GA（稳定版）、Beta版和Alpha版，分别对应不同的稳定性和更新频率。该库提供多种Google Cloud服务的客户端，例如AI Platform和API Gateway等，并提供详细的版本和问题跟踪信息。  用户可根据自身需求选择合适的客户端库版本。
 
 * [AliyunContainerService/pouch](https://github.com/AliyunContainerService/pouch) PouchContainer是阿里巴巴开源的企业级容器引擎，旨在推动容器技术发展，并支持 OCI 标准。它提供丰富的容器功能，包括安全隔离、P2P 分发、内核兼容性以及 Kubernetes 兼容性。PouchContainer 能够打包、交付和运行任何应用程序，并提供轻量级运行环境，最小化操作工作量，简化云原生应用开发和传统应用迁移。
 
 * [AleoNet/snarkOS](https://github.com/AleoNet/snarkOS) snarkOS是一个用于零知识应用的去中心化操作系统，它是 Aleo 网络的核心，负责验证交易并以公开可验证的方式存储加密的应用程序状态。该项目提供构建指南，包括运行 Aleo 节点（验证器、客户端、证明者）所需的硬件和软件要求。用户可以根据自身需求选择运行不同类型的节点，并参与 Aleo 网络的运行。
 
 * [goauthentik/authentik](https://github.com/goauthentik/authentik) authentik是一个开源的身份提供者，强调灵活性和多功能性，支持多种协议。它可以作为 Okta/Auth0、Entra ID、Ping Identity 或其他传统 IdP 的自托管替代方案，用于员工和 B2B2C 使用。可以通过 Docker Compose 或 Helm Chart 进行安装，并提供详细的文档和截图。开发者可以参考开发者文档，并通过 GitHub Issue/PR 贡献代码。
+
+* [aws/aws-sdk-pandas](https://github.com/aws/aws-sdk-pandas) awswrangler是AWS官方提供的开源Python库，它简化了pandas与多种AWS服务的集成，例如Athena、Glue、Redshift、S3等。  它允许用户方便地读取和写入各种数据格式（Parquet、CSV、JSON、EXCEL）到这些服务，并支持多种数据库（PostgreSQL、MySQL、SQLServer等）。  通过awswrangler，开发者可以高效地处理和分析存储在AWS上的数据。
 
 * [jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles) 这是一个包含各种 Dockerfile 的仓库，作者 Jessfraz 在桌面和服务器上使用这些 Dockerfile 来创建镜像。这些 Dockerfile 大部分都托管在 Docker Hub 上，并提供公共下载。仓库还提供了一个 Makefile，方便用户构建、测试和运行 Dockerfile。用户也可以参考作者的 dotfiles 仓库，其中包含了所有Dockerfile 的别名。
 
@@ -11796,6 +12220,8 @@
 
 * [firebase/functions-samples](https://github.com/firebase/functions-samples) 示例应用集合，展示了使用 Cloud Functions for Firebase 的热门用例。Cloud Functions 是一个托管、私有且可扩展的 Node.js 环境，可在其中运行 JS 或 Py 代码。Cloud Functions for Firebase 集成了 Firebase 平台，让您能够编写代码来响应事件并调用其他 Firebase 功能公开的功能。
 
+* [kubernetes-client/python](https://github.com/kubernetes-client/python) 这是一个Kubernetes官方的Python客户端库，提供与Kubernetes API交互的功能。通过`pip install kubernetes`即可安装，并包含丰富的示例代码方便使用，例如列出所有Pod或监控命名空间对象。该库遵循语义化版本控制，并提供与不同Kubernetes版本兼容的客户端版本矩阵。
+
 * [google/gvisor](https://github.com/google/gvisor) 用 Go 编写的应用程序内核，它实现了 Linux 系统表面的很大一部分。它包括一个名为 Open Container Initiative （OCI） 的运行时 `runsc` ，该运行时在应用程序和主机内核之间提供隔离边界。 `runsc` 运行时与 Docker 和 Kubernetes 集成，使运行沙盒容器变得简单。
 
 * [aws/aws-cdk](https://github.com/aws/aws-cdk) 用于在代码中定义云基础设施的框架。提供了高级的面向对象的抽象，以使用现代编程语言的强大功能来强制定义 AWS 资源。使用 CDK 的基础设施构造库，可以将 AWS 最佳实践封装到基础设施定义中并共享，而无需担心样板逻辑。
@@ -11809,6 +12235,8 @@
 * [dotnet/orleans](https://github.com/dotnet/orleans) 跨平台框架，用于构建可靠、可扩展的分布式应用程序。以 .NET 的开发人员生产力为基础，并将其引入分布式应用程序（如云服务）的世界。Orleans 从单个本地服务器扩展到云中全球分布的高可用性应用程序。
 
 * [GoogleCloudPlatform/terraformer](https://github.com/GoogleCloudPlatform/terraformer) CLI 工具从现有基础设施生成 terraform 文件（反向 Terraform）。基础设施到代码。一个 CLI 工具，用于根据现有基础设施生成 tf/json 和 tfstate 文件（反向 Terraform）。免责声明：这不是 Google 官方产品。
+
+* [apache/libcloud](https://github.com/apache/libcloud) ApacheLibcloud是一个Python库，它隐藏了不同云提供商API之间的差异，允许您通过统一且易于使用的API管理不同的云资源，支持多种云计算资源管理，例如计算、存储等，项目采用Apache 2.0许可证。
 
 * [lensapp/lens](https://github.com/lensapp/lens) 世界运行 Kubernetes 的方式，核心是一个库，由 Electron 和 React 提供支持。与通用的 Electron + React 框架/样板不同，它非常固执己见地创建类似 Lens Desktop 的应用程序，并支持 Lens Extensions。
 
@@ -12382,6 +12810,8 @@
 
 * [CarGuo/gsy_github_app_flutter](https://github.com/CarGuo/gsy_github_app_flutter) Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。GSYGithubApp系列的优势：我们目前已经拥有Flutter、Weex、ReactNative、kotlin 四个版本。 功能齐全，项目框架内技术涉及面广，完成度高，持续维护，配套文章，适合全面学习，对比参考。跨平台的开源Github客户端App，更好的体验，更丰富的功能，旨在更好的日常管理和维护个人Github
 
+* [guozhigq/pilipala](https://github.com/guozhigq/pilipala) PiliPala 是一个使用 Flutter 开发的 BiliBili 第三方客户端，提供多种功能，包括推荐视频列表、热门视频列表、分区直达、搜索、用户相关功能等。项目目前已实现移动端（Android 和 iOS）版本，并计划开发网页端、桌面端等版本。PiliPala 致力于为用户提供更加便捷、高效、个性化的 BiliBili 使用体验。
+
 * [flame-engine/flame](https://github.com/flame-engine/flame) Flame是一个基于 Flutter 的游戏引擎，提供游戏循环、组件/对象系统、特效和粒子、碰撞检测、手势和输入处理、图像、动画、精灵和精灵表等功能，以及简化开发的通用工具。Flame 还提供桥接包，可以无缝集成其他包，例如用于音频播放的 flame_audio 和用于状态管理的 flame_bloc。
 
 * [simplezhli/flutter_deer](https://github.com/simplezhli/flutter_deer) Flutter 练习项目（包括集成测试、可访问性测试）。内含完整UI设计图，更贴近真实项目的练习。颤振实践项目（包括集成测试和可访问性测试）。包含完整的 UI 设计图纸，用于更真实的实践项目。
@@ -12537,6 +12967,8 @@
 * [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) gRPC-Gateway 是 Google 协议缓冲区编译器协议的插件。它读取 protobuf 服务定义并生成一个反向代理服务器，该服务器将 RESTful HTTP API 转换为 gRPC。此服务器是根据服务定义中的 google.api.http 注释生成的。这有助于您同时以 gRPC 和 RESTful 样式提供 API。
 
 * [uber-go/guide](https://github.com/uber-go/guide) Uber Go风格指南是一个开源项目，它记录了 Uber 在 Go 代码中使用的模式和约定，该指南已被翻译成多种语言，包括中文、繁体中文、韩语、日语、西班牙语、泰语、葡萄牙语、波兰语、俄语、法语、土耳其语、乌克兰语、波斯语和越南语。
+
+* [gopherdata/gophernotes](https://github.com/gopherdata/gophernotes) gophernotes 是一个用于 Jupyter Notebook 和 nteract 的 Go 内核，允许在浏览器或桌面应用程序中交互式地使用 Go 语言。它利用 gomacro 解释器，支持在笔记本当中编写、运行 Go 代码，并包含图表、公式等，最终成果可通过多种途径分享。
 
 * [tmrts/go-patterns](https://github.com/tmrts/go-patterns) 该项目是一个 Go 设计模式、配方和习语的精选列表，包含了创建型、结构型和行为型模式，以及同步模式，例如条件变量、互斥锁和读写锁，并提供了详细的代码示例和解释，帮助开发者更好地理解和应用 Go 设计模式。
 
@@ -12752,6 +13184,8 @@
 
 * [Instagram/MonkeyType](https://github.com/Instagram/MonkeyType) MonkeyType是一个 Python 库，通过收集运行时类型来生成静态类型注解。它可以自动生成存根文件，甚至直接将类型注解添加到您的 Python 代码中。例如，您可以运行 `monkeytype run myscript.py` 来收集 `myscript.py` 中函数调用的类型信息，然后使用 `monkeytype stub some.module` 生成 `some.module` 的存根文件，或使用 `monkeytype apply some.module` 将类型注解直接应用到 `some.module` 中。MonkeyType 使用 `sys.setprofile` 钩子来拦截函数调用、返回值和生成器 yield，并记录参数/返回值/yield 值的类型。它基于这些数据生成存根文件，并可以使用 `libcst` 将这些存根文件直接应用到您的代码中。
 
+* [qutebrowser/qutebrowser](https://github.com/qutebrowser/qutebrowser) qutebrowser是一个基于 Python 和 Qt 的键盘驱动、类似 Vim 的浏览器，它以极简的 GUI 为特色，灵感来源于 dwb、Vimperator/Pentadactyl 等浏览器/插件。qutebrowser 的主要维护者 The-Compiler 目前依靠捐赠进行部分时间开发，欢迎访问GitHub Sponsors 页面或其他捐赠方式支持项目。用户可以通过 GitHub 发布页面下载 qutebrowser，并参考 INSTALL 文件进行安装。项目文档和支持渠道可访问帮助页面，用户可以阅读贡献指南参与项目开发，并通过内置的 :report 命令、GitHub 问题追踪器或邮件列表报告 bug 或提出功能请求。qutebrowser 需要 Python 和 Qt 等软件和库才能运行。
+
 * [HypothesisWorks/hypothesis](https://github.com/HypothesisWorks/hypothesis) Hypothesis是一个强大、灵活且易于使用的基于属性的测试库。它允许您编写由示例源参数化的测试，并自动生成简单易懂的示例来使您的测试失败，从而简化测试编写并提高测试效率。这种测试方式通常被称为“基于属性的测试”，Hypothesis 与 Haskell 库QuickCheck 类似，但它更适合现有的测试风格，无需任何 Haskell 或函数式编程知识。Hypothesis for Python 是原始实现，也是目前唯一完全生产就绪并积极维护的实现。此外，Hypothesis 的核心引擎 Conjecture 也已移植到 Rust，并计划将其用于重构 Hypothesis for Python，从而降低移植到其他语言的难度。
 
 * [agronholm/typeguard](https://github.com/agronholm/typeguard) Typeguard是一个 Python 库，用于在运行时对使用 PEP 484类型注解定义的函数参数（和返回值）以及任意对象进行类型检查。它可以与静态类型检查器一起使用，作为额外的类型安全层，以捕获仅在运行时才能检测到的类型违规。它提供两种主要方式进行类型检查：使用 `check_type` 函数，类似于 `isinstance()`，但支持任意类型注解；以及代码插桩，通过将类型检查代码注入到整个模块或单个函数中，自动检查函数参数、返回值和对已注解局部变量的赋值。代码插桩可以通过 `@typechecked` 函数或导入钩子 `typeguard.install_import_hook()` 实现。
@@ -12805,6 +13239,8 @@
 * [fluiddyn/fluidfoam](https://github.com/fluiddyn/fluidfoam) fluidfoam 包提供了 Python 类，可用于使用 OpenFoam 数据执行一些绘图。OpenFOAM是一个完全由C++编写，在linux下运行，面向对象的计算流体力学（CFD）类库。OpenFOAM跟商用的CFD软件Ansys Fluent，CFX类似，但其为开源的，采用类似于我们日常习惯的方法在软件中描述偏微分方程的有限体积离散化。2004年开始OpenFOAM一直作为免费使用的开源软件，有OpenFOAM和OpenFOAM-Extened两个版本，分别有Henry Weller负责的OpenCFD以及Hrvoje Jasak负责的Wikki公司分别维护。
 
 * [lds133/weather_landscape](https://github.com/lds133/weather_landscape) 该项目通过将天气预报信息编码到风景图像中，提供了一种直观、轻松的方式来查看天气信息。图像中包含时间标记、天气事件和条件，例如日出日落时间、风向风力、温度变化、云量、降水等。图像的设计灵感来自风景画，利用图像元素的视觉变化来表达天气信息，避免了传统天气预报中大量数字数据的复杂性，使信息更加直观易懂。项目使用 Python 和 Pillow 库实现，并基于 OpenWeather 数据，可以生成用于 E-Ink 显示屏的图像。
+
+* [jupyterlab-contrib/jupyterlab-variableInspector](https://github.com/jupyterlab-contrib/jupyterlab-variableInspector) Jupyterlab-variableInspector 是一个JupyterLab扩展，用于显示当前使用的变量及其值，支持Python、R和Scala等语言。它能检查控制台和notebook中的变量，并以数据表格方式显示矩阵（大型矩阵可能性能较差），还能交互式显示Jupyter Widgets。安装方法为`pip install lckr_jupyterlab_variableinspector`，需JupyterLab u003e= 3.0及其他依赖库（如pandas、numpy等，具体依赖库取决于使用的语言和功能）。  注意，显示大型数据可能占用大量内存并降低浏览器速度。
 
 * [nteract/papermill](https://github.com/nteract/papermill) Papermill是一个用于参数化、执行和分析 Jupyter 笔记本的工具。它允许你为笔记本设置参数，并执行它们，从而实现自动化工作流程。例如，你可以使用参数来运行财务报告，并根据结果选择下一个要运行的笔记本。Papermill 通过在笔记本中添加一个名为 `parameters`的单元格来实现参数化，并使用 `injected-parameters` 单元格来注入参数值。它支持 Python 3.8+ 版本，并提供多种安装选项，包括 `pip install papermill` 和 `pip install papermill[all]`。
 
@@ -12882,11 +13318,19 @@
 
 * [Kozea/pygal](https://github.com/Kozea/pygal) Pygal是一个用 Python 编写的动态 SVG 图表库，用于创建各种类型的图表，例如条形图、折线图、饼图等。它提供了一个简单易用的 API，可用于生成交互式图表，并支持多种定制选项。Pygal 的文档位于 www.pygal.org，可以通过 pip install pygal 命令安装。用户可以 fork 项目并提交 pull request 以贡献代码，并可以通过 Flattr 或 gittip 支持项目。Pygal采用 LGPLv3 许可证。
 
+* [gorakhargosh/watchdog](https://github.com/gorakhargosh/watchdog) Watchdog是一个Python库和shell工具，用于监控文件系统事件，支持Python3.9+版本。它提供API用于编写监控程序，并包含名为`watchmedo`的实用程序，可以根据文件变化执行命令或自定义操作（例如，通过`tricks.yaml`文件配置触发特定动作），方便监控指定文件类型或执行特定shell命令。  安装方法为使用pip安装`watchdog`或`watchdog[watchmedo]`（包含`watchmedo`工具）。
+
+* [sdispater/pendulum](https://github.com/sdispater/pendulum) Pendulum是一个易于使用的Python库，简化了日期和时间处理。它基于Python标准库的datetime，提供更清晰的API和更便捷的时区处理，所有Pendulum实例都是时区感知的且默认使用UTC。它能轻松进行时区转换、日期计算和格式化，并提供更直观的timedelta方法。虽然与标准datetime类兼容，但少数库（如sqlite3, mysqlclient, PyMySQL, django）可能需要适配器才能正确使用。
+
 * [pytest-dev/pytest-cov](https://github.com/pytest-dev/pytest-cov) pytest-cov 是 pytest 的一个插件，用于生成代码覆盖率报告。它比直接使用 `coverage run` 更强大，支持子进程和 pytest-xdist，确保在不同环境下都能准确地获取覆盖率数据。它还与 coverage 包兼容，支持通过命令行选项或配置文件配置覆盖率收集。用户可以使用 `pip install pytest-cov` 安装该插件，并通过 `pytest --cov=myproj tests/` 命令运行测试并生成覆盖率报告。
 
 * [FactoryBoy/factory_boy](https://github.com/FactoryBoy/factory_boy) FactoryBoy是一个用于 Python 的测试夹具替换工具，它使用易于使用的工厂来替代静态、难以维护的夹具，从而简化复杂对象的测试。它支持多种 ORM（Django、MongoDB、SQLAlchemy）并易于扩展到其他库。FactoryBoy 的主要特点包括：直观的声明式语法、支持链式工厂调用、支持多种构建策略（保存/未保存实例、模拟对象）以及每个类支持多个工厂，包括继承。
 
+* [keleshev/schema](https://github.com/keleshev/schema) schema是一个Python库，用于验证Python数据结构（例如从配置文件、表单、外部服务或命令行解析中获得的数据，并从JSON/YAML或其他格式转换为Python数据类型）。它通过定义模式来验证数据，如果数据有效则返回验证后的数据，无效则抛出SchemaError异常；也提供`is_valid`方法用于简单地检查数据有效性。支持Python 2.6到3.9以及PyPy，并遵循语义版本控制。
+
 * [python/mypy](https://github.com/python/mypy) Python 的静态类型检查器。类型检查器有助于确保在代码中正确使用变量和函数。使用 mypy，将类型提示 （PEP 484） 添加到您的 Python 程序中，当您错误地使用这些类型时，mypy 会警告您。Python 是一种动态语言，因此通常只有在尝试运行它时才会在代码中看到错误。Mypy 是一个静态检查器，因此它甚至可以在不运行程序的情况下发现程序中的错误！
+
+* [prompt-toolkit/python-prompt-toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit) python-prompt-toolkit是一个强大的Python库，用于构建交互式命令行应用程序。它提供语法高亮、多行输入编辑、代码补全、Emacs和Vi键绑定等功能，支持Unicode、鼠标操作和自动建议，并可在Linux、OS X、FreeBSD、OpenBSD和Windows系统上运行。该库轻量级，依赖Pygments和wcwidth，可作为GNU readline的替代品，甚至超越其功能。通过`pip install prompt_toolkit`即可安装。
 
 * [PyCQA/flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) flake8-bugbear 是一个 Flake8 插件，用于在你的程序中查找潜在的bug 和设计问题。它包含了 pyflakes 和 pycodestyle 中没有的警告信息。该插件旨在识别可能存在问题的代码模式，例如使用裸 `except:` 语句、对 `os.environ` 进行不安全的赋值、使用可变数据结构作为默认参数等。它通过提供更严格的代码检查规则，帮助开发者编写更健壮、更可靠的代码。
 
@@ -12894,7 +13338,15 @@
 
 * [TomSchimansky/CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) 基于 Tkinter 的 python UI 库，它提供了新的、现代的和完全可定制的小部件。它们的创建和使用方式与普通的 Tkinter 小部件类似，也可以与普通的 Tkinter 元素结合使用。小部件和窗口颜色要么适应系统外观，要么适应手动设置的模式（“浅色”、“深色”），并且所有小部件和窗口都支持 HighDPI 缩放。在所有桌面平台上获得一致且现代的外观。
 
+* [marshmallow-code/marshmallow](https://github.com/marshmallow-code/marshmallow) Marshmallow是一个轻量级库，用于将复杂对象与简单的Python数据类型进行相互转换，它与ORM/ODM/框架无关。通过定义Schema，Marshmallow可以验证输入数据、将输入数据反序列化为应用程序对象，并将应用程序对象序列化为基础Python类型（例如，用于HTTP API的JSON）。可以使用pip install -U marshmallow安装，更多文档请访问https://marshmallow.readthedocs.io/。
+
+* [jmcarpenter2/swifter](https://github.com/jmcarpenter2/swifter) Swifter是一个Python包，能高效地将任意函数应用于pandas DataFrame或Series，自动选择最快的方式（单核、多核或Dask并行处理）。它能向量化函数以提高速度，如果向量化不可行，则自动比较pandas apply和多核处理的效率，选择更快的方案。Swifter也支持Modin DataFrame和groupby.apply操作，安装方便，使用简单，只需用`swifter.apply()`替换`apply()`即可。
+
 * [pypa/twine](https://github.com/pypa/twine) Twine是一个用于将 Python 包发布到 PyPI 的工具，它可以独立于构建系统上传源代码和二进制发行版，支持新项目和已有项目的上传。Twine 提供了详细的文档，包括功能介绍、安装和使用说明，以及其他资源链接。开发者可以参考 Twine 的开发者文档，了解如何参与项目，包括项目架构概述和未来发展计划。Twine 项目遵循 PSF 行为准则。
+
+* [jupyter-incubator/sparkmagic](https://github.com/jupyter-incubator/sparkmagic) Sparkmagic是一个Jupyter工具集，用于通过REST服务器与远程Spark集群交互，支持Livy、Lighter和Ilum等服务器。它提供多种语言的Spark代码交互运行功能，包含用于将Jupyter转化为集成Spark环境的内核，并具有自动创建SparkContext和SQLContext、自动可视化SQL查询结果、轻松执行SparkSQL查询等特色功能，方便用户在Jupyter Notebook中高效地使用Spark。
+
+* [dry-python/returns](https://github.com/dry-python/returns) Returns是一个Python库，它通过提供多种容器（如Maybe、Result、IO等）来增强函数返回值的类型安全性和表达能力，从而实现更清晰、更健壮的函数式编程。它支持类型提示和mypy检查，并提供辅助工具简化代码编写，兼容异步操作，帮助开发者编写更易于维护和理解的代码。  该库包含丰富的文档、测试和教程，方便快速上手。
 
 * [hynek/structlog](https://github.com/hynek/structlog) structlog是一个用于 Python 的生产级日志记录解决方案，它简单、强大且快速。它使用函数和字典来处理日志，提供熟悉的 API 并让您完全掌控。structlog 灵活的设计让您可以选择让它处理日志输出，或者将日志转发到现有的日志系统，例如标准库的 logging模块。它支持 JSON、logfmt 和漂亮的控制台输出格式，并提供出色的性能。
 
@@ -12908,17 +13360,31 @@
 
 * [ml-tooling/best-of-jupyter](https://github.com/ml-tooling/best-of-jupyter) 这是一个精心整理的 Jupyter 项目列表，包含 300 个优秀的开源项目，共计 40 万颗星，分为 13 个类别。所有项目都根据项目质量评分进行排名，该评分基于从 GitHub 和不同的包管理器自动收集的各种指标。如果您想添加或更新项目，请随时打开一个问题、提交一个拉取请求，或直接编辑 projects.yaml 文件。欢迎贡献！
 
+* [Kaggle/docker-python](https://github.com/Kaggle/docker-python) 该项目提供Kaggle用于运行Python Notebook的CPU和GPU Docker镜像，包含构建镜像的Dockerfile，镜像存储在Google Container Registry上(CPU:gcr.io/kaggle-images/python；GPU: gcr.io/kaggle-gpu-images/python)。用户可通过提供的脚本构建和测试新镜像，并可提交请求添加新的软件包。  该镜像方便用户在Kaggle云端运行Python代码，无需本地配置环境。
+
 * [sumerc/yappi](https://github.com/sumerc/yappi) Yappi是一个支持多线程、asyncio 和 gevent 的 Python 性能分析器，它完全用 C 语言编写，速度很快。它可以跟踪并分析多线程程序、异步代码和 gevent 代码的性能，并提供直观的界面来查看和分析结果。Yappi 还支持将结果保存为 callgrind或 pstat 格式，并提供丰富的功能，例如根据时间或 CPU 时间进行聚合、过滤和排序。
 
 * [geopy/geopy](https://github.com/geopy/geopy) geopy是一个 Python 库，用于使用第三方地理编码服务和数据源查找地址、城市、国家和地标的坐标。它支持 OpenStreetMap Nominatim、Google GeocodingAPI (V3) 等多种地理编码服务，并提供计算两点之间距离的功能，包括大地测量距离和大圆距离。geopy 可用于将地址转换为坐标，将坐标转换为地址，以及计算两点之间的距离。
 
 * [davidhalter/jedi](https://github.com/davidhalter/jedi) 很棒的 Python 自动完成、静态分析和重构库，Jedi 专注于自动完成和转到功能。其他功能包括重构、代码搜索和查找引用。有一个简单的 API 可供使用。有一个参考实现作为 VIM-Plugin。REPL中的自动完成也是可能的，IPython本机使用它，对于CPython REPL，您可以安装它。绝地武士经过了很好的测试，错误应该很少见。
 
+* [tartley/colorama](https://github.com/tartley/colorama) Colorama是一个Python库，用于在Windows系统上实现ANSI转义序列，从而支持彩色终端文本和光标定位。它通过包装标准输出流，将ANSI序列转换为相应的Win32调用，从而在Windows上实现与Unix/Mac系统相同的彩色终端输出效果。  该库简单易用，跨平台兼容，无需额外依赖，可通过pip或conda安装，并支持多种Python版本。
+
+* [jd/tenacity](https://github.com/jd/tenacity) Tenacity是一个用Python编写的Apache 2.0许可的通用重试库，用于简化向任何事物添加重试行为的任务。它具有通用的装饰器API，可以指定停止条件（例如尝试次数限制）和等待条件（例如指数退避），并支持自定义异常重试、预期结果重试、协程重试和上下文管理器代码块重试。通过pip install tenacity即可安装。
+
 * [SciTools/cartopy](https://github.com/SciTools/cartopy) Cartopy是一个 Python 包，旨在简化数据分析和可视化中的地图绘制。它提供面向对象的投影定义、点、线、多边形和图像在投影之间的转换，并与 Matplotlib 集成，提供简单直观的界面。Cartopy 通过将 shapefile 读取与 Shapely 功能集成，实现强大的矢量数据处理。文档可在 https://scitools.org.uk/cartopy/docs/latest/ 找到。
 
 * [nipunn1313/mypy-protobuf](https://github.com/nipunn1313/mypy-protobuf) mypy-protobuf是一个开源工具，用于从 protobuf 定义文件生成 mypy 桩文件，帮助你在使用 protobuf 时进行类型检查。它支持从 .proto 文件中的注释生成 .pyi 文件的 docstring，并使用 NewType 包装枚举值，以提供更强的类型安全。你可以通过 pip 安装 mypy-protobuf，并在使用 protoc 命令时添加 `--mypy_out` 选项来生成桩文件。
 
 * [wemake-services/wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) `wemake-python-styleguide` 是一个严格且有主见的 Python 代码风格检查工具，它是一个 `flake8` 插件，并依赖于其他一些插件。它可以帮助开发者确保代码风格一致、避免潜在错误、提高代码审查效率、减少代码修改次数，最终提升代码质量。该项目提供详细的文档和 GitHub Actions 集成，方便开发者快速上手使用。
+
+* [grantjenks/python-sortedcontainers](https://github.com/grantjenks/python-sortedcontainers) grantjenks/python-sortedcontainers是一个纯Python编写的、Apache2许可的排序集合库，速度与C扩展一样快。它提供SortedList、SortedDict和SortedSet三种高效的排序容器类型，所有操作都运行在亚线性时间内，并具有极高的内存效率，比典型的二叉树实现效率更高。该库易于使用，无需C编译器，并包含全面的文档和测试。
+
+* [jupyterhub/binderhub](https://github.com/jupyterhub/binderhub) BinderHub是一个基于JupyterHub和Repo2Docker的云端代码运行平台，它允许用户从GitHub等仓库构建和注册Docker镜像，并连接到JupyterHub实例，从而在云端运行代码和交互式Jupyter Notebook。BinderHub简化了可重复计算环境的创建和共享，方便用户和作者快速访问和交互，也允许部署者自定义搭建自己的BinderHub服务器。
+
+* [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) UltraJSON是一个用C语言编写并提供Python绑定的超高速JSON编码器和解码器，支持Python 3.9+。它可作为大多数Python JSON解析器的替代品，提供诸如`encode_html_chars`、`ensure_ascii`、`escape_forward_slashes`和`indent`等编码选项以控制输出格式。但由于架构原因，项目目前仅维护，建议迁移到更快速且更安全的orjson。
+
+* [amoffat/sh](https://github.com/amoffat/sh) sh是一个用于Python 3.8-3.11和PyPy的强大的子进程替代库，它允许你像调用函数一样调用任何程序，例如`from sh import ifconfig; print(ifconfig(&quot;eth0&quot;))`。sh并非Python实现的系统命令集合，它依赖于Unix系统调用，仅支持类Unix系统（Linux、macOS、BSD等），不支持Windows。  项目提供完整文档，可通过pip安装。
 
 * [ml-tooling/best-of-python-dev](https://github.com/ml-tooling/best-of-python-dev) 🏆&quot;Best-of Python Developer Tools&quot; 是一个每周更新的 Python 开发者工具和库排名列表，包含 270 个优秀的开源项目，共计 960K 星，分为 17 个类别。每个项目根据来自 GitHub 和不同包管理器的各种指标自动计算的项目质量评分进行排名。欢迎贡献，您可以提交问题、拉取请求或直接编辑项目列表。
 
@@ -12928,19 +13394,35 @@
 
 * [csurfer/pyheatmagic](https://github.com/csurfer/pyheatmagic) pyheatmagic 是一个 IPython 魔术命令，使用 py-heat 库将 Python 代码的执行过程可视化为热图，方便用户直观地分析代码执行效率。用户可以使用 `%%heat` 命令查看热图，也可以使用 `%%heat -o file.png` 命令将热图保存为文件。该项目支持使用 pip 或直接从仓库安装，并提供详细的安装和使用说明。
 
+* [pytransitions/transitions](https://github.com/pytransitions/transitions) Transitions是一个轻量级的面向对象的Python有限状态机实现，具有许多扩展功能，支持Python 2.7+和3.0+版本，通过`pip install transitions`即可安装。它使用简单的面向对象方法实现状态机，允许定义状态、转换和回调函数，并支持多种高级特性，例如层次状态机、图表生成、线程和异步操作等。
+
+* [python-jsonschema/jsonschema](https://github.com/python-jsonschema/jsonschema) jsonschema是一个Python库，实现了JSON Schema规范，支持多种JSON Schema草案版本(包括Draft 2020-12, Draft2019-09, Draft 7, Draft 6, Draft 4和Draft 3)，可进行完整验证或迭代式验证以报告所有错误，并支持以编程方式查询验证失败的属性或项目。通过pip安装，并提供命令行工具和扩展功能以支持格式验证。
+
+* [Suor/funcy](https://github.com/Suor/funcy) Funcy是一个实用且功能强大的Python函数工具库，灵感源于Clojure和Underscore。它提供丰富的函数，用于集合操作（合并、转换、选择、分割等）、序列处理（迭代、过滤、分组等）以及函数组合和装饰器等，简化Python代码并提升开发效率，支持Python 3.4+和pypy3，安装方式为`pip install funcy`。
+
+* [pytoolz/toolz](https://github.com/pytoolz/toolz) Toolz是Python的一个函数式标准库，提供迭代器、函数和字典的实用函数，包含itertoolz(迭代器操作)、functoolz(高阶函数)和dicttoolz(字典操作)三个部分，这些函数源于函数式编程，可组合完成复杂任务；它支持Python 3.8+，纯Python编写，无外部依赖，轻量级；Cytoolz项目提供其Cython实现版本。
+
 * [rsalmei/alive-progress](https://github.com/rsalmei/alive-progress) alive-progress是一个全新的 Python 进度条库，它提供实时吞吐量、预计完成时间 (ETA) 和酷炫的动画效果。它使用多线程机制，以低 CPU 使用率的方式更新进度条，并提供准确的 ETA，帮助你更好地规划时间和管理工作负载。此外，它还支持暂停和恢复进度，并提供最终的处理结果摘要。
 
 * [uiri/toml](https://github.com/uiri/toml) 这个名为“toml”的 Python 库旨在处理 TOML 数据。它可以将 TOML 格式的字符串解析为 Python 字典，并将 Python 字典转换回 TOML 字符串。它支持 TOML 测试套件并遵循 TOML 规范。该库提供诸如用于解析的“toml.loads”、用于字符串转换的“toml.dumps”和用于写入文件的“toml.dump”等函数。
 
 * [buildbot/buildbot](https://github.com/buildbot/buildbot) Buildbot是一个基于Python的持续集成测试框架，由Brian Warner最初开发，目前由Botherders团队维护。它包含多个组件，如master、worker、www/base、www/console_view、www/waterfall_view等，每个组件都有详细的README文档。Buildbot的官方网站是http://buildbot.net，相关项目包括buildbot-media和buildbot-website。
 
+* [abhishekkrthakur/colabcode](https://github.com/abhishekkrthakur/colabcode) ColabCode是一个Python库，允许在Google Colab或Kaggle Notebook中运行VS Code (codeserver)。它通过简单的pip安装和命令行或Python API调用启动codeserver，可选地设置端口号、密码和Google Drive挂载。  该项目预装了一些VS Code扩展，并提供一个Colab入门notebook和YouTube演示视频，方便用户快速上手。
+
 * [huyubing/books-pdf](https://github.com/huyubing/books-pdf) books-pdf 项目提供了一个 Python 脚本，用于将书籍的 HTML 文件转换为 PDF格式，支持添加目录、页眉页脚、封面等功能，并能够根据用户需求自定义输出格式。该项目使用 Beautiful Soup 库解析 HTML 文件，并使用 ReportLab 库生成 PDF 文件，方便用户将电子书转换为可打印的 PDF 版本。
+
+* [jupyter/nbgrader](https://github.com/jupyter/nbgrader) nbgrader是一个用于布置和批改Jupyter Notebook作业的系统，它提供Jupyter Notebook的教师工具栏扩展、教师表单批改扩展和学生作业列表扩展，方便教师创建、发布、收集和批改作业，学生提交和查看作业。该系统还提供命令行工具，实现高效的作业管理，并支持自动和手动批改。
+
+* [nteract/nteract](https://github.com/nteract/nteract) nteract是一个开源组织，致力于创建卓越的交互式计算体验，方便用户协作。它包含一个核心SDK以及桌面和网页应用程序，基于Electron构建，并提供Jupyter扩展。该项目是一个单体仓库，包含SDK、应用代码及文档，开发者可通过其文档和API参考构建基于nteract的笔记本应用。
 
 * [pypa/hatch](https://github.com/pypa/hatch) 现代、可扩展的 Python 项目管理，标准化的构建系统，默认具有可重现的构建、强大的环境管理，支持自定义脚本、可配置的 Python 分发管理、使用合理的默认值进行静态分析、轻松发布到 PyPI 或其他索引、版本管理、最佳实践项目生成、响应式 CLI，比同等工具快 ~2-3 倍
 
 * [pytest-dev/pytest-xdist](https://github.com/pytest-dev/pytest-xdist) pytest-xdist是一个 pytest 插件，它扩展了 pytest，提供新的测试执行模式，例如将测试分布到多个 CPU 上以加速测试执行。例如，使用 `pytest -n auto` 命令，pytest 会根据 CPU 数量自动生成多个工作进程，并随机分配测试到这些进程上。该插件的文档可在 Read The Docs 上找到。
 
 * [ml-tooling/best-of-python](https://github.com/ml-tooling/best-of-python) 这是一个每周更新的 Python 开源库和工具排名列表，包含 390个项目，共计 180 万颗星，分为 28 个类别。每个项目的排名基于从 GitHub 和不同的包管理器自动收集的各种指标计算得出的项目质量评分。该项目欢迎贡献，你可以提交问题、拉取请求或直接编辑项目文件。
+
+* [microsoft/vscode-jupyter](https://github.com/microsoft/vscode-jupyter) Microsoft为VS Code开发的Jupyter扩展程序，支持在VS Code中运行Jupyter Notebook，并兼容多种语言内核。它并非Jupyter内核本身，需要用户已安装Jupyter包的Python环境。该扩展程序还自动安装其他扩展以增强功能，并支持在浏览器（vscode.dev和GitHub Codespaces）中编辑Jupyter Notebook。
 
 * [hhatto/autopep8](https://github.com/hhatto/autopep8) autopep8是一个用于自动格式化 Python 代码以符合 PEP 8 风格指南的工具。它使用 pycodestyle 工具来识别需要格式化的代码部分，并能够修复 pycodestyle 报告的大多数格式问题。autopep8 可以直接修改文件，并提供多种选项来控制格式化行为，例如代码行长度、缩进方式等。
 
@@ -12956,6 +13438,8 @@
 
 * [run-ai/runai-model-streamer](https://github.com/run-ai/runai-model-streamer) Run:ai Model Streamer 是一个 Python SDK，用于将张量从张量文件流式传输到 GPU 内存，支持并发和流式传输。它提供了一个 API 用于加载 SafeTensors 文件和构建 AI 模型，实现无缝加载模型。该项目使用 devcontainer 进行开发，并提供构建、测试和本地安装的命令。
 
+* [tkem/cachetools](https://github.com/tkem/cachetools) cachetools是一个Python库，提供多种缓存集合和装饰器，包括类似`@lru_cache`的缓存功能。它基于不同的缓存算法（例如LRU、TTL）实现多种缓存类，并提供装饰器方便地记忆函数和方法调用，从而提高代码效率。通过`pip install cachetools`安装，支持类型提示。
+
 * [pyinvoke/invoke](https://github.com/pyinvoke/invoke) Invoke是一个 Python 库，用于管理面向 shell 的子进程，并将可执行的 Python 代码组织成可通过命令行调用的任务，它从 make、rake 和 Fabric 1.x 等工具中汲取灵感，提供强大且简洁的功能集。Invoke 支持 Python 2.7 和 3.4+ 版本，并提供详细的变更日志和路线图。
 
 * [psf/pyperf](https://github.com/psf/pyperf) 用于编写、运行和分析基准测试的工具包。用于运行可靠基准测试的简单 API、自动校准时间预算的基准、生成多个工作进程、计算平均值和标准差、检测基准测试结果是否不稳定、用于存储基准测试结果的 JSON 格式、支持多种单位：秒、字节和整数。
@@ -12963,6 +13447,12 @@
 * [bloomberg/memray](https://github.com/bloomberg/memray) Memray 是 Python 的内存分析器。它可以跟踪 Python 代码、本机扩展模块和 Python 解释器本身中的内存分配。它可以生成几种不同类型的报告来帮助您分析捕获的内存使用数据。虽然通常用作 CLI 工具，但它也可以用作库来执行更细粒度的分析任务。
 
 * [ionelmc/pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) pytest-benchmark是一个 pytest 插件，用于对代码进行基准测试。它将测试分组到回合中，并根据所选计时器进行校准。该插件提供了 `benchmark` fixture，用于对函数进行基准测试。只需使用 `pytest` 运行测试，插件会自动进行基准测试并生成结果表格。
+
+* [Supervisor/supervisor](https://github.com/Supervisor/supervisor) Supervisor是一个运行在类Unix系统上的客户端/服务器进程控制系统，用于监控和管理多个进程；它支持Linux、macOS和Solaris等系统，但不支持Windows；Supervisor通过Python编写，支持Python 2.7和Python 3.4及以上版本；更多信息和文档请访问supervisord.org。
+
+* [beeware/toga](https://github.com/beeware/toga) Toga是一个Python原生、操作系统原生的GUI工具包，允许开发者使用Python创建跨平台的桌面应用程序。它通过利用每个操作系统的原生UI组件来实现外观和感觉的本地化，并提供简洁易用的API。  您可以通过`pip install toga-demo`快速体验其功能。
+
+* [pyeve/cerberus](https://github.com/pyeve/cerberus) Cerberus是一个轻量级、可扩展的Python数据验证库，提供开箱即用的类型检查和其他基本功能，并支持自定义验证扩展。它遵循语义化版本控制，兼容多种Python解释器，并可通过pip安装。项目采用开源许可，欢迎用户捐助支持其持续发展。
 
 * [wireservice/csvkit](https://github.com/wireservice/csvkit) csvkit是一个用于处理 CSV 数据的命令行工具集，它可以将 CSV数据转换为其他格式，并提供各种操作功能，例如数据转换、筛选、排序、合并等。它受到 pdftk、GDAL 和 csvcut 工具的启发，并提供丰富的文档、代码仓库和问题跟踪系统。
 
@@ -13001,6 +13491,8 @@
 * [kitao/pyxel](https://github.com/kitao/pyxel) Pyxel是Python的复古游戏引擎。由于其受复古游戏机启发的简单规格，例如只能显示 16 种颜色，只能同时播放 4 种声音，您可以随意享受制作像素艺术风格游戏的乐趣。
 
 * [emeryberger/scalene](https://github.com/emeryberger/scalene) 适用于Python的高性能，高精度CPU和内存分析器.用于Python脚本的CPU和内存分析器，能够正确处理多线程代码，还能区分Python代码和本机代码的运行时间。
+
+* [facelessuser/pymdown-extensions](https://github.com/facelessuser/pymdown-extensions) PyMdown Extensions是Python Markdown的扩展库，提供丰富的扩展功能，文档详见https://facelessuser.github.io/pymdown-extensions/，采用MIT许可证，可通过PyPI安装使用。
 
 * [arrow-py/arrow](https://github.com/arrow-py/arrow) Python 库，提供了明智且人性化的方法来创建、操作、格式化和转换日期、时间和时间戳。可以帮助您以更少的导入和更少的代码处理日期和时间。
 
@@ -13218,7 +13710,11 @@
 
 * [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) Rust 中并发编程的工具。原子：AtomicCell ，线程安全的可变内存位置；AtomicConsume ，用于从具有“消耗”排序的原始原子类型中读取。 数据结构:deque ，用于构建任务调度程序的工作窃取 deques；ArrayQueue ，一个有界的 MPMC 队列，用于在构造时分配固定容量的缓冲区；SegQueue ，一个无界 MPMC 队列，可按需分配小型缓冲区和段。内存管理：epoch ，一个垃圾回收器。 线程同步:channel ，用于消息传递的多生产者多消费者通道；Parker ，一个线程停放原语；ShardedLock ，具有快速并发读取的分片读写器锁；WaitGroup ，用于同步某些计算的开始或结束。工具：Backoff ，用于自旋循环中的指数退避。CachePadded ，用于填充值并将其与缓存行的长度对齐；scope ，用于生成从堆栈中借用局部变量的线程。
 
+* [mattwparas/steel](https://github.com/mattwparas/steel) Steel是一个用 Rust 编写的可嵌入且可扩展的 Scheme 方言。它受 Racket 启发，旨在成为一个易于使用的 Scheme 变体，适合嵌入应用程序或独立使用，并提供用 Rust 实现的高性能函数。该语言实现包含一个基于 `syntax-rules` 风格的强大宏系统和一个字节码虚拟机。目前，它没有明确遵循任何特定的 Scheme 规范。Steel 支持有限的 `syntax-rules` 风格宏，可以轻松集成 Rust 函数和结构，并能从 Rust 或单独文件调用脚本。它还提供高效的性能优化，包括 `map`、`filter` 等常见函数和数据结构，以及高阶契约。Steel 内置了不可变数据结构，包括列表、向量、哈希映射和哈希集。它还实现了受 Racket 启发的更高阶契约，以支持契约式设计，并使用 `define/contract` 宏简化了契约定义。
+
 * [flxzt/rnote](https://github.com/flxzt/rnote) Rnote是一个开源的矢量绘图应用程序，用于素描、手写笔记以及标注文档和图片。它面向学生、教师以及拥有绘图板的用户，提供PDF和图片导入导出、无限画布以及适应大、小屏幕的自适应UI等功能。Rnote使用Rust和GTK4编写，支持压力敏感的触控笔输入、多种形状工具、选择工具、自定义背景、可配置的触控笔按钮快捷键、集成工作区浏览器、拖放和剪贴板支持、PDF、位图和SVG图片导入、导出为SVG、PDF和Xopp等格式，并支持多文档标签页、自动保存和打印。文件格式仍在开发中，可能存在版本兼容性问题。Rnote可在Linux、MacOS和Windows上使用，并提供Flatpak、App Bundle和Windows安装程序。
+
+* [mitsuhiko/insta](https://github.com/mitsuhiko/insta) insta是一个用于 Rust 的快照测试库，它允许你将值与参考值（快照）进行比较。与简单的字符串断言不同，快照测试允许你测试复杂的值，并提供全面的工具来审查更改。快照测试特别适用于参考值很大或经常变化的情况。insta还支持内联快照，这些快照直接存储在源文件中，而不是单独的文件中。该库还提供了一个 vscode 扩展，可以语法高亮快照文件、审查快照等等。insta 使用 `similar` 进行所有差异操作，你可以独立使用它。你还可以使用 `similar-asserts` 为标准的 `assert_eq!` 宏获得内联差异，以实现类似 insta 的差异，用于常规比较。
 
 * [rust-lang/mdBook](https://github.com/rust-lang/mdBook) 从markdown文件创建书籍。像Gitbook 一样，但在 Rust 中实现。它非常适合创建产品或 API 文档、教程、课程材料或任何需要干净、易于导航和可定制的演示文稿的内容。轻量级 Markdown 语法可帮助您更专注于您的内容；集成搜索支持；许多不同语言的代码块的颜色语法突出显示；主题文件允许自定义输出的格式；预处理器可以为自定义语法和修改内容提供扩展；后端可以将输出呈现为多种格式；用 Rust 编写，速度、安全性和简单性；Rust 代码示例的自动化测试。
 
@@ -13265,6 +13761,8 @@
 * [rcore-os/rCore](https://github.com/rcore-os/rCore) THU uCore OS 的 Rust 版本，兼容 Linux。将成为下一代教学操作系统。支持的架构和主板：x86_64（第 1 层）：QEMU、PC （i5/i7）,RISCV32/64（Tier 2）：QEMU、HiFive Unleashed,AArch64（第 2 层）：QEMU、Raspberry Pi 3B+,MIPS32（第 3 层）：QEMU、TrivialMIPS.
 
 * [BurntSushi/xsv](https://github.com/BurntSushi/xsv) 用 Rust 编写的快速 CSV 命令行工具包。xsv 是一个命令行程序，用于索引、切片、分析、拆分和连接 CSV 文件。命令应该简单、快速且可组合：简单的任务应该很容易。性能权衡应在 CLI 界面中公开。构图不应以牺牲性能为代价。
+
+* [evcxr/evcxr](https://github.com/evcxr/evcxr) Evcxr是一个Rust的评估上下文，包含Jupyter内核和Rust REPL，以及一个共享库和运行时库。它提供类似REPL的体验，但运行在浏览器中，推荐使用Jupyter内核进行体验，并提供教程。该项目采用MIT许可证和Apache 2.0许可证双重授权。
 
 * [brson/rust-anthology](https://github.com/brson/rust-anthology) 向最优秀的人学习 Rust，收集 Rust 的最佳短篇文章。Rust 需要更多的文档，对吧？嗯，是的，确实如此，但实际上现在有很多很棒的 Rust 文档，还有很多很棒的 Rust 作家！这个项目旨在将他们的作品收集成一本书。
 
@@ -13406,6 +13904,8 @@
 
 * [LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi) komorebi 是一个平铺窗口管理器，可作为 Microsoft 桌面窗口管理器在 Windows 10 及更高版本中的扩展。komorebi 允许您使用 CLI 控制应用程序窗口、虚拟工作区和显示监视器，CLI 可以与 whkd 和 AutoHotKey 等第三方软件一起使用，以设置用户定义的键盘快捷键。默认情况下，Komorebi 的目标是对操作系统和桌面环境进行尽可能少的修改。用户可以自由地在他们自己的 komorebi 配置文件中进行此类修改，但在可预见的未来，这些修改将保持选择加入和默认关闭状态。
 
+* [Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller) Bulk Crap Uninstaller (BCU) 是一款免费的应用程序卸载工具，它可以快速高效地卸载大量应用程序，并清理残留文件。BCU 支持 Windows Store Apps、Steam、Windows 功能，并针对多种卸载系统（NSIS、InnoSetup、Msiexec 等）进行了优化。它可以检测孤儿应用程序，根据预制列表运行卸载程序，并提供更多功能。BCU 适用于 IT 专业人员和普通用户，其易用性让每个人都能轻松使用。该项目开源并免费使用，用户可以自由地用于个人和商业用途。
+
 * [adobe-fonts/source-han-serif](https://github.com/adobe-fonts/source-han-serif) Source Han Serif是一个开源的 OpenType 全方位中日韩字体项目，提供适用于中日韩三种语言的字体文件，并包含用于构建这些字体的源文件。该项目使用 AFDKO 工具构建，用户可以下载各种配置的字体文件，包括 OTF、OTC、Super OTC、Subset OTF和 Variable OTF/TTF/WOFF2 格式。用户也可以从源代码构建字体，需要安装 AFDKO 工具。该项目鼓励用户参与，并提供设计指南和官方字体说明文件，以了解 Source Han Serif 的设计理念和背景。
 
 * [CodyReichert/awesome-cl](https://github.com/CodyReichert/awesome-cl) Awesome-cl 是一个精心整理的 Common Lisp 框架、库和其他工具的列表。它包含了各种各样的库，涵盖了从人工智能到游戏开发的各个领域，并提供了详细的分类和介绍。该项目还推荐了一些社区标准库，并提供了一些更小众但同样优秀的库的推荐。用户可以根据自己的需求选择合适的库，并通过该项目提供的链接访问库的文档和代码。该项目还提供了一个贡献指南，方便用户添加新的库到列表中。
@@ -13435,6 +13935,8 @@
 * [lyz-code/best-of-digital-gardens](https://github.com/lyz-code/best-of-digital-gardens) 这是一个整理了 93 个优秀数字花园的排名列表，这些数字花园将内容来源公开为 Git 仓库，总共获得了 21K 个星标，并被归类到 1 个类别中。所有项目都根据项目质量评分进行排名，该评分基于从 GitHub 和不同包管理器自动收集的各种指标计算得出。如果你想添加或更新项目，欢迎打开一个 issue、提交 pull request 或直接编辑 projects.yaml 文件。
 
 * [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) 熟练使用命令行是一项经常被忽视或被认为是晦涩难懂的技能，但它以明显和微妙的方式提高了您作为工程师的灵活性和生产力。这是一些关于使用命令行的笔记和技巧，我们发现在 Linux 上工作时很有用。有些技巧是基本的，有些则相当具体、复杂或晦涩难懂。这个页面不长，但如果你能使用和回忆这里的所有项目，你就会知道很多。
+
+* [TandoorRecipes/recipes](https://github.com/TandoorRecipes/recipes) Tandoor Recipes是一个强大的食谱管理应用，可以管理食谱、规划膳食、创建购物清单等。它支持强大的搜索功能（包括全文搜索和TrigramSimilarity）、标签管理、批量操作、从众多网站导入食谱、小数和分数支持以及Docker部署等。该应用还针对移动设备进行了优化，并支持多种语言和多种导入导出方式，例如从其他食谱管理器导入。
 
 * [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy) 一个联邦宇宙的链接聚合器。 类似于 Reddit、Lobste.rs 或 Hacker News 等网站：您订阅您所感兴趣的社群，发布链接和讨论，然后对它们进行投票和评论。 Lemmy 不仅仅是 reddit 的替代品；它是一个由不同人和组织运营的相互关联的社群网络，所有这些社群结合起来创建一个充满您最喜欢的新闻、文章和迷因的独立且个性化的首页。
 
@@ -14044,6 +14546,8 @@
 
 * [ixinzhi/loving-books](https://github.com/ixinzhi/loving-books) 恋爱指南
 
+* [hoochanlon/NeiJuan](https://github.com/hoochanlon/NeiJuan) 国立台湾大学、新加坡国立大学、早稻田大学、东京大学，中央研究院（台湾）以及中国重点高校及科研机构，社科、经济、数学、博弈论、哲学、系统工程类学术论文等知识库。
+
 ## 游戏
 
 * [RHY3756547/FreeSO](https://github.com/RHY3756547/FreeSO) FreeSO是一个基于 Monogame 的《模拟人生在线》完整重制项目，旨在忠实还原原作，并加入硬件渲染、自定义动态光照、高分辨率输出和超过两层楼的房屋等功能。用户可以通过官方网站提供的安装程序安装 FreeSO 和原始 TSO 文件，并连接到官方服务器进行游戏。FreeSO 依赖于原始游戏文件（对象、头像、UI）运行，这些文件可以从 EA 服务器下载。FreeSO 本身是一个游戏引擎，不包含任何版权材料。FreeSO 也是《模拟人生 1》引擎重制项目 Simitone 的基础项目，该项目主要针对移动设备。项目中包含的内容系统、HIT VM 和 SimAntics VM支持 TSO 和 TS1 游戏文件，这意味着 TS1 可以通过 FreeSO 中的 TSO UI 前端以有限的方式运行。Simitone 通过将社区和游戏系统与合适的 UI 前端绑定，完全恢复了 TS1 的游戏玩法。FreeSO 引擎还支持实验性的 3D 模式，允许玩家从不同的视角观看游戏。3D 网格是在运行时从对象精灵中包含的 z 缓冲区重建的。FreeSO 还为墙壁和地板在运行时生成 3D 几何体，并在启用该模式时切换到具有不同控制的备用相机。可以通过启动参数 `-3d` 启用该模式。Volcanic 是 FreeSO 的扩展，允许用户查看、修改和保存游戏对象，以及 SimAntics VM 的实时实例。它具有用于对象的各种资源编辑器，其中最突出的是脚本编辑器。它允许轻松创建新对象和调试现有对象。Volcanic 在 FSO 引擎加载 TS1 对象和其他资源时也能正常工作。用户可以通过测试最新版本中的尖端功能、提交错误报告和参与论坛讨论来为 FreeSO 做出贡献。项目需要 Visual Studio 2019和 MonoGame 3.5（可选）。
@@ -14175,6 +14679,8 @@
 * [Hopson97/MineCraft-One-Week-Challenge](https://github.com/Hopson97/MineCraft-One-Week-Challenge) 这是一个用C++和OpenGL在短短一周内完成的类似Minecraft的体素游戏项目。项目包含了基本的渲染引擎、第一人称视角相机、块编辑功能，以及16x16个区块的区域。项目还包含了不同阶段的代码版本，包括一个具有良好图形效果和昼夜循环的版本，以及一个经过优化的版本。项目提供详细的构建说明，以及每天的开发进度记录，包括代码行数和开发时间。
 
 * [googleforgames/open-match](https://github.com/googleforgames/open-match) Open Match是一个开源的游戏匹配框架，旨在简化构建可扩展和可扩展的匹配器。它旨在让游戏开发者完全控制如何进行匹配，同时消除处理大规模生产服务挑战的负担。Open Match 提供灵活性和可扩展性，允许开发者自定义匹配逻辑和集成各种游戏服务。项目提供详细的文档、演示说明和贡献指南，并提供 Slack 频道、问题跟踪器和邮件列表等支持渠道。
+
+* [PokeAPI/pokeapi](https://github.com/PokeAPI/pokeapi) PokeAPI是一个基于 RESTful 架构的 Pokémon 数据 API，提供访问 Pokémon 游戏数据的功能，并支持 GraphQL 查询。用户可以通过简单的 API 请求获取 Pokémon 的信息，如名称、类型、技能等。项目提供多种部署方式，包括本地环境、Docker 和 Kubernetes，并提供数据库构建和维护工具。用户可以根据自己的需求选择合适的部署方式，并轻松获取 Pokémon 数据。
 
 * [The-Powder-Toy/The-Powder-Toy](https://github.com/The-Powder-Toy/The-Powder-Toy) ThePowder Toy 是一款免费的物理沙盒游戏，使用 C++ 和 SDL开发，模拟空气压力、速度、热量等物理现象。玩家可以利用各种材料、液体、气体和电子元件构建复杂的机器、武器、炸弹、地形等，并观察它们之间的相互作用。游戏还提供Lua API，允许玩家自动化操作或制作插件。源代码采用 GNU 通用公共许可证发布，玩家可以修改游戏或参与开发。
 
@@ -14858,11 +15364,17 @@
 
 * [YSGStudyHards/DotNetGuide](https://github.com/YSGStudyHards/DotNetGuide) C#/.NET/.NET Core学习、工作、面试指南】记录、收集和总结C#/.NET/.NET Core基础知识、学习路线、开发实战、编程技巧练习、学习视频、文章、书籍、项目框架、社区组织、开发必备工具、技术前沿周刊、常见面试题、面试须知、简历模板、人才招聘、以及自己在学习和工作中的一些微薄见解。希望能和大家一起学习，共同进步。如果本知识库能为您提供帮助，别忘了给予支持哦(关注、点赞、分享)。
 
+* [jupyter-lsp/jupyterlab-lsp](https://github.com/jupyter-lsp/jupyterlab-lsp) JupyterLab-lsp是基于语言服务器协议(LSP)的JupyterLab代码辅助工具，提供代码导航、悬停提示、代码检查、自动补全和重命名等功能，支持Python、R、Julia等多种语言。它通过集成语言服务器，在无需运行内核的情况下也能提供高级静态分析自动补全，并能与内核建议合并，提升代码编写效率。  该项目具有丰富的特性，例如代码跳转、引用高亮、自动签名提示等，显著改善JupyterLab的代码编辑体验。
+
+* [zakirullin/cognitive-load](https://github.com/zakirullin/cognitive-load) Cognitive Load是一个关注代码可读性和开发者理解难度的项目，它认为代码的复杂性会造成认知负荷，进而影响开发效率。项目通过分析代码中常见的认知负荷来源，例如复杂的条件语句、嵌套的 if 语句、继承关系等，并提供相应的优化建议，旨在降低代码的认知负荷，提升代码可读性和可维护性。项目还提供了具体示例和代码片段，帮助开发者理解认知负荷的概念以及如何进行优化。
+
 * [phodal/growth-ebook](https://github.com/phodal/growth-ebook) Growth Engineering: TheDefinitive Guide，全栈增长工程师指南。本书是一本实战指南，涵盖了增长工程师所需的知识体系，从用户增长、产品增长、数据分析、营销策略等方面进行全面阐述。作者结合自身经验，分享了大量案例和实践方法，帮助读者构建完整的增长思维，并掌握实际操作技巧。该项目还提供配套的Growth in Action实战案例，以及Repractise系列文章，帮助读者进一步学习和实践。
 
 * [plasma-umass/coz](https://github.com/plasma-umass/coz) Coz是一个针对原生代码（C/C++/Rust）的性能分析工具，它使用一种名为“因果分析”的新技术来测量优化潜力，并预测优化代码对整体吞吐量或延迟的影响。Coz 生成的分析结果展示了优化代码行的“性价比”，帮助开发者找到最值得优化的代码部分。Coz 支持多种语言，包括 Java、Go 和 Swift，并可以在大多数现代 Linux 系统上运行。用户可以通过 apt 安装 Coz，也可以从源代码构建。
 
 * [seanprashad/leetcode-patterns](https://github.com/seanprashad/leetcode-patterns) 此存储库适用于任何希望提高软件工程面试问题解决技能的个人。问题被分组到各自的子主题下，以便专注于重复应用常见模式，而不是随机处理问题。为了在练习时获得最大的成功，强烈建议了解以下数据结构的方法和运行时及其操作：ArraysMapsLinked ListsQueuesHeapsStacksTreesGraphs，此外，您应该很好地掌握常见的算法，例如：广度优先搜索、深度优先搜索、二分搜索、递归
+
+* [dotnet/interactive](https://github.com/dotnet/interactive) .NET Interactive是一个交互式代码运行和编辑引擎及API，支持多种语言（如C#、F#、PowerShell、JavaScript、SQL、KQL、Python、R），可在Jupyter Notebook、Visual Studio Code的Polyglot Notebooks扩展等环境中运行，实现多语言代码混合使用、变量共享及远程机器间的交互。其特色在于简化多语言编程体验，无需安装多个内核或库，并支持构建REPL和嵌入式脚本引擎，甚至可在小型设备上运行。
 
 * [Xtremilicious/projectlearn-project-based-learning](https://github.com/Xtremilicious/projectlearn-project-based-learning) ProjectLearn是一个项目学习资源库，提供精心策划的项目教程，帮助学习者从头开始构建应用程序。涵盖 Web 开发、移动开发、游戏开发、机器学习、深度学习和人工智能等多个领域，包含 ReactJS、NodeJS、VueJS、Flutter、React Native、.NET Core、Unity、TensorFlow、OpenCV、Keras 等热门语言和技术。通过参与这些项目，学习者可以以更有效的方式学习代码，并获得宝贵的实战经验。
 
@@ -14924,11 +15436,15 @@
 
 * [ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design) 这是一个用于学习低级别设计 (LLD) 和面向对象设计 (OOD)并为面试做准备的资源库。它包含基本 OOP 概念、SOLID原则、设计模式、UML 图表以及如何回答 LLD 面试问题的指南。该项目还提供了一些 LLD 面试问题，从简单的停车场设计到中等难度的发布-订阅系统设计，涵盖了各种主题。
 
+* [IHaskell/IHaskell](https://github.com/IHaskell/IHaskell) IHaskell是Jupyter项目的一个内核，允许在Jupyter前端（包括控制台和笔记本）中使用Haskell，支持GHC 8.4到9.10版本。它提供交互式浏览器内笔记本，方便用户在CoCalc或mybinder.org上直接使用。安装方法包含Linux、macOS和WSL (Windows Subsystem for Linux)的详细步骤，需要安装Stack和Jupyter等依赖。
+
 * [bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources) 该项目是一个 DevOps 资源库，包含大量关于 DevOps 的有用资源和信息，并提供DevOps 学习路线图。项目涵盖了 Linux、Jenkins、AWS、SRE、Prometheus、Docker、Python、Ansible、Git、Kubernetes、Terraform、OpenStack、SQL、NoSQL、Azure 和 GCP 等多个领域，用户可以自由地提交 Pull Request 添加更多资源。
 
 * [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) 这是一个包含面试时可以问公司的技术类问题列表，旨在帮助求职者更好地了解公司和职位。该项目包含了各种问题，涵盖了团队、工作内容、技术栈、公司文化等方面，并提供多种语言版本。求职者可以根据自己的情况选择合适的提问，并通过提问了解公司是否适合自己。
 
 * [JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) Json.NET 是一个流行的、高性能的 .NET JSON 框架，用于将 .NET 对象序列化为 JSON 并将 JSON 字符串反序列化为 .NET 对象。它提供了丰富的功能，包括自定义序列化和反序列化、属性映射、JSON 转换器和 LINQ to JSON 查询。Json.NET 支持各种 .NET 平台，包括 .NET Framework、.NET Core 和 Mono。
+
+* [almond-sh/almond](https://github.com/almond-sh/almond) almond是一个用于Jupyter的Scala内核，允许用户在Jupyter Notebook中使用Scala编程语言。它通过提供一个Scala运行环境来实现这一功能，方便用户进行交互式编程、数据分析和机器学习等任务。项目文档和开发者文档可在项目网站和GitHub仓库中找到，欢迎贡献代码和提出问题。
 
 * [0voice/expert_readed_books](https://github.com/0voice/expert_readed_books) 这是一个推荐工程师阅读书籍的项目，涵盖了计算机科学、软件技术、创业、思想、数学、人物传记等多个领域，并根据书籍类别进行了分类，方便工程师们根据自身需求进行选择。项目提供书籍列表、简介和阅读后的感想，帮助工程师们提升专业技能和个人素养。
 
@@ -15318,6 +15834,8 @@
 
 * [snap-stanford/deepsnap](https://github.com/snap-stanford/deepsnap) DeepSNAP是一个 Python 库，用于简化图上的深度学习。它支持灵活的图操作、标准管道、异构图和简单的 API。DeepSNAP 结合了强大的图库（如 NetworkX）和深度学习框架（如 PyTorch Geometric）。它提供了一个直观的 API，使您可以轻松地使用数百种图算法来操作和转换图，甚至在每次训练迭代中。DeepSNAP 还提供标准的管道用于数据集拆分、负采样和定义节点/边/图级目标，并支持灵活且通用的异构 GNN，允许您控制消息参数化和传递方式。DeepSNAP 的 API 易于使用，可以与 PyTorch Geometric 中实现的现有 GNN 模型/数据集无缝衔接。如果您熟悉 PyTorch Geometric，则几乎不需要学习曲线。您可以使用 pip install deepsnap 安装 DeepSNAP，并使用提供的示例代码进行节点分类、链接预测和图分类。有关更多信息，请访问 DeepSNAP文档。
 
+* [Zhuofeng-Li/TEG-Benchmark](https://github.com/Zhuofeng-Li/TEG-Benchmark) TEG-DB是一个文本边缘图（TEG）数据集和基准测试库，它包含节点和边缘上的丰富文本描述、数据加载器和各种基线模型的性能基准，包括预训练语言模型（PLM）、图神经网络（GNN）及其组合。与仅在节点上具有文本信息的文本属性图（TAG）不同，TEG在节点和边缘上都包含文本内容，边缘文本对于理解文档含义和语义关系至关重要。TEG-DB提供了10个综合的TEG数据集，涵盖书籍推荐、电子商务、学术和社交网络等领域，每个数据集都包含节点和边缘上的丰富原始文本数据，为分析和建模目的提供多样化的信息。该项目旨在通过提供标准化的数据格式和易于使用的工具来促进文本边缘图领域的科研。
+
 * [Thinklab-SJTU/pygmtools](https://github.com/Thinklab-SJTU/pygmtools) Python 图形匹配求解器库。图匹配是模式识别、数据挖掘等领域中一个基本但具有挑战性的问题。图匹配旨在通过求解NP硬组合优化问题，找到多个图之间的节点间对应关系。特点：支持多种求解器，包括传统的组合求解器（包括线性、二次和多图）和新型的基于深度学习的求解器；支持各种后端，包括 numpy 普遍可访问的后端，以及一些支持 GPU 的最先进的深度学习架构： pytorch 、jittor 、mindspore 、 paddle、tensorflow ；深度学习友好，这些操作旨在最好地保留计算过程中的梯度，并支持批处理操作以获得最佳性能。
 
 * [graphframex/graphframex](https://github.com/graphframex/graphframex) GraphFramEx是一个用于系统评估图神经网络 (GNN) 可解释性方法的框架。它提出了一种独特的度量标准，即特征化分数，该分数结合了保真度度量，并根据解释的充分性或必要性对解释进行分类。该框架涵盖了节点和图分类任务，并比较了 GNN 可解释性领域中最具代表性的生成式和非生成式输入级可解释性技术。该框架包含了多种可解释性方法，包括非生成式方法（如遮挡、SA、Grad-CAM、集成梯度、GNNExplainer、SubgraphX、PGM-Explainer）和生成式方法（如PGExplainer、RCExplainer、GSAT、GraphCFE、DiffExplainer、GflowExplainer）。
@@ -15335,6 +15853,8 @@
 * [Wuyxin/DIR-GNN](https://github.com/Wuyxin/DIR-GNN) DIR-GNN 是一个用于训练内在可解释的图神经网络的项目，该项目旨在提高模型对分布外数据的鲁棒性和泛化能力。该项目通过构建干预分布来识别因果特征，并利用干预分布来发现使标签在干预下保持不变的特征，从而实现对模型决策的解释。项目提供代码和数据，用户可以根据提供的示例进行训练和测试。
 
 * [BUPT-GAMMA/Graph-Structure-Estimation-Neural-Networks](https://github.com/BUPT-GAMMA/Graph-Structure-Estimation-Neural-Networks) 用于估计适配于GNN的图结构，以提高下游任务性能。GEN引入结构模型考虑图生成过程中的潜在社团结构，并提出观察模型将多方面信息（例如，多阶邻域相似性）作为图结构的观测。基于这些模型，GEN利用贝叶斯推断框架得到最终估计图。大量实验结果验证了GEN的有效性及其估计图的合理性。
+
+* [LUOyk1999/tunedGNN](https://github.com/LUOyk1999/tunedGNN) 该项目是 NeurIPS 2024 论文 &quot;Classic GNNs areStrong Baselines: Reassessing GNNs for Node Classification&quot; 的代码实现，它重新评估了经典 GNN 在节点分类任务中的性能，发现它们是强大的基线模型。项目包含针对中型和大型图的实验代码，并提供 Python 环境配置指南和引用信息。
 
 * [YuGuangWang/PAN](https://github.com/YuGuangWang/PAN) 借鉴了物理中的一些概念，设计了一种 path integral based graph neural networks (PAN)。 PAN 将图拉普拉斯泛化到一种新的转移矩阵 maximal entropy transition (MET) matrix。重要的是，MET 矩阵的对角线元素直接和子图中心性相关，因此提供了一种自然的自适应池化机制。
 
@@ -15872,6 +16392,8 @@
 
 * [redpanda-data/redpanda](https://github.com/redpanda-data/redpanda) Redpanda是一个为开发者设计的流数据平台，与 Apache Kafka API 兼容，速度快 10 倍，无需 ZooKeeper 和 JVM。它提供完整的流数据平台功能，包括可配置的分层存储和丰富的连接器生态系统，为开发者提供更轻松、更便捷的使用体验。Redpanda 支持多种平台，如 Debian/Ubuntu、Fedora/RedHat/Amazon Linux 和 macOS，并提供预编译包和手动构建选项。用户可以通过 Redpanda网站和 GitHub 仓库获取更多信息和支持。
 
+* [dpkp/kafka-python](https://github.com/dpkp/kafka-python) dpkp/kafka-python是一个Apache Kafka的Python客户端，其设计与官方Java客户端类似，并包含一些Pythonic接口。它支持Kafka 0.8.0到2.6版本，但建议使用0.9+版本以充分利用协调消费者组功能；对于旧版本，需要手动分配分区。可以通过pip install kafka-python安装，并提供高级消息消费者KafkaConsumer，支持迭代器方式读取消息，以及手动分配分区、反序列化等功能，目前建议使用wbarnha/kafka-python-ng替代。
+
 * [rq/rq](https://github.com/rq/rq) RQ(Redis Queue) 是一个简单易用的 Python 库，用于将任务排队并在后台使用 worker 处理它们。它以 Redis 为后端，旨在降低入门门槛，并易于集成到 Web 架构中。RQ 支持将任务排队、调度任务和重试失败的任务，并提供了一个 worker 来执行排队的任务。用户可以通过 pip 命令安装 RQ，并参考文档了解更多信息。RQ 受到 Celery、Resque 和其他项目的启发，旨在提供一个轻量级的替代方案。
 
 * [flyway/flyway](https://github.com/flyway/flyway) 数据库迁移变得简单。在所有实例中轻松可靠地改进数据库架构。支持的数据库：Aurora MySQL、Aurora PostgreSQL、Azure Synapse、Clickhouse、CockroachDB、DB2、Derby、Firebird、Google BigQuery、Google Cloud Spanner、H2、HSQLDB、Informix、MariaDB、MongoDB、MySQL、Oracle、Percona XtraDB Cluster、PostgreSQL、Redshift、SAP HANA（包括 SAP HANA Cloud）、SingleStoreDB、Snowflake、SQLite、SQL Server、Sybase ASE、TiDB、TimescaleDB、YugabyteDB
@@ -15911,6 +16433,8 @@
 * [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) 一个快速分布式存储系统，适用于 blob、对象、文件和数据湖，适用于数十亿个文件！Blob 存储具有 O（1） 磁盘查找和云分层。Filer 支持 Cloud Drive、跨 DC 主动-主动复制、Kubernetes、POSIX FUSE 挂载、S3 API、S3 Gateway、Hadoop、WebDAV、加密、纠删码。
 
 * [sohutv/cachecloud](https://github.com/sohutv/cachecloud) 搜狐视频(sohu tv)Redis私有云平台 ：支持Redis多种架构(Standalone、Sentinel、Cluster)高效管理、有效降低大规模redis运维成本，提升资源管控能力和利用率。平台提供快速搭建/迁移，运维管理，弹性伸缩，统计监控，客户端整合接入等功能。
+
+* [databricks/koalas](https://github.com/databricks/koalas) Koalas项目是一个已弃用的库，它在Apache Spark之上实现了pandas DataFrameAPI，允许用户在无需学习新API的情况下使用Spark处理大数据，并支持单一代码库同时兼容pandas和Spark。由于其功能已集成到Apache Spark 3.2及以上版本中，建议使用PySpark。
 
 * [harelba/q](https://github.com/harelba/q) 直接在分隔文件和多文件 sqlite 数据库上运行 SQL。允许以下操作：直接对表格文本数据执行类似 SQL 语句，自动缓存数据以加速对同一文件的其他查询。直接在多文件 sqlite3 数据库上执行 SQL，而无需合并它们或将它们加载到内存中。
 
@@ -16184,17 +16708,25 @@
 
 * [juicedata/juicefs](https://github.com/juicedata/juicefs) Apache License 2.0 下发布的高性能 POSIX 文件系统，专为云原生环境设计。通过 JuiceFS 存储的数据会持久化在对象存储（例如 Amazon S3）中，相应的元数据可以根据场景和需求持久化到 Redis、MySQL、TiKV 等各种兼容的数据库引擎中。JuiceFS，海量云存储可以直接连接到大数据、机器学习、人工智能以及生产环境中的各种应用平台。无需修改代码，海量云存储可以像本地存储一样高效使用。
 
+* [python-gino/gino](https://github.com/python-gino/gino) GINO是一个轻量级的异步ORM，基于SQLAlchemy core构建，支持Pythonasyncio，兼容PostgreSQL(使用asyncpg)和MySQL(使用aiomysql)，具有强大的SQLAlchemy-asyncpg双向转换器、异步数据库API、异步CRUD模型以及完善的连接和事务管理，并支持SQLAlchemy生态系统（例如Alembic迁移工具），同时提供丰富的PostgreSQL JSONB支持，并拥有活跃的社区支持，方便集成Starlette/FastAPI、aiohttp、Sanic、Tornado和Quart等框架。
+
 * [MySQL](https://www.mysql.com/) 开源的关系数据库管理系统 (RDBMS)。它的名字是“My”（联合创始人 Michael Widenius 的女儿 My 的名字）和“SQL”（结构化查询语言的缩写）的组合。它将数据组织成一个或多个数据表，其中数据可能相互关联；这些关系有助于构建数据。SQL 是程序员用来创建、修改和从关系数据库中提取数据以及控制用户对数据库的访问的语言。[mysql/mysql-server](https://github.com/mysql/mysql-server)
 
 * [mongo-express/mongo-express](https://github.com/mongo-express/mongo-express) mongo-express是一个基于 Node.js 和 Express 的 Web 版 MongoDB 管理界面，提供连接多个数据库、查看/添加/删除数据库、集合和文档、预览音频/视频/图像资产、支持 GridFS、使用 BSON 数据类型、支持副本集等功能。它还支持自定义 CA/TLS/SSL 和 CA 验证禁用，并提供移动/响应式设计。用户可以通过 npm、yarn 或 pnpm 安装 mongo-express，并使用 `config.default.js`文件配置基本访问认证。
 
 * [microsoft/azuredatastudio](https://github.com/microsoft/azuredatastudio) Azure Data Studio是一款跨平台的数据管理和开发工具，支持连接到流行的云和本地数据库，包括 Azure SQL 和 SQL Server。 它支持 Windows、macOS 和 Linux，并提供扩展库以支持 MySQL、PostgreSQL 和 MongoDB 等其他数据库。 您可以从项目页面下载最新版本，并查看变更日志和发布说明以了解每个版本的新功能。 此外，官方文档提供了详细的入门指南、连接快速入门和功能教程。
 
+* [tortoise/tortoise-orm](https://github.com/tortoise/tortoise-orm) Tortoise ORM是一个易于使用的基于asyncio的Python ORM，其设计灵感来自Django，注重关系型数据库操作。它提供简洁的API，方便开发者从同步ORM迁移到asyncio环境，并在基准测试中表现出色，与Pony ORM性能相当。Tortoise ORM支持SQLite、MySQL、PostgreSQL、Microsoft SQL Server和Oracle数据库，有效解决重复代码、SQL注入风险和数据规则管理等问题，提升开发效率和数据安全性。
+
 * [teableio/teable](https://github.com/teableio/teable) Teable是一个基于 Postgres 的下一代 Airtable 替代方案，它提供了一个快速、实时、专业、开发者友好的无代码数据库。Teable 使用简单的类似电子表格的界面来创建复杂的企业级数据库应用程序，并通过无代码的方式解锁高效的应用程序开发，同时避免数据安全和可扩展性的障碍。Teable 提供模板中心、100 万行演示和 API 等功能，方便用户快速上手和体验。
 
 * [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) 一个高可用、高性能、横向扩展、兼容SQL标准的企业级分布式关系数据库。蚂蚁集团从零开始构建的分布式关系 SQL 数据库。它具有高度可扩展性、弹性，可以同时处理事务和分析工作负载，并且与 MySQL 语法和功能高度兼容。OceanBase 可以部署在任何云中的虚拟机或本地物理主机上。同时，由于是多租户集群，用户可以实现数据库资源池化，提高效率。
 
+* [ponyorm/pony](https://github.com/ponyorm/pony) PonyORM是一个高级对象关系映射器，它允许使用Python生成器表达式和lambda表达式编写数据库查询，并将其转换为SQL。它支持SQLite、MySQL、PostgreSQL和Oracle数据库，提供简洁的实体定义、简明的查询语言和交互式Python解释器环境，并具有易于理解的错误信息和可读的SQL输出，从而加快应用开发速度。此外，它还提供在线数据库设计工具和丰富的文档。
+
 * [NicolasLM/bplustree](https://github.com/NicolasLM/bplustree) bplustree 是一个基于磁盘的 B+ 树 Python 3 库，它提供类似字典的操作，但数据存储在磁盘上。适用于数据量过大无法放入内存、需要持久化数据、需要保持键值顺序的情况。该库支持线程安全的多读单写模式，并使用预写日志 (WAL) 来确保数据安全，即使程序异常退出也能保证数据完整性。通过调整节点大小、页面大小等参数可以优化性能。
+
+* [kayak/pypika](https://github.com/kayak/pypika) PyPika是一个Python SQL查询构建器，它使用反映最终查询的语法来展现SQL语言的全部丰富性，尤其擅长数据分析类型的SQL查询。它通过构建器模式构建查询，避免了混乱的字符串格式化和连接，并易于扩展以充分利用特定SQL数据库厂商的功能，提供快速、表达性和灵活的方式来替代手写的SQL，支持Python 3.6+版本，安装方式为`pip install pypika`。
 
 * [igorbarinov/awesome-data-engineering](https://github.com/igorbarinov/awesome-data-engineering) 该项目是一个数据工程工具的精选列表，旨在帮助软件开发者找到合适的工具。它涵盖了数据库、数据比较、数据摄取、文件系统、序列化格式、流式处理、批处理、图表和仪表盘、工作流、数据湖管理、ELK、Docker、数据集、监控、分析、测试和社区等多个方面，并提供了一些具体工具的链接和介绍，例如MySQL、Redis、Cassandra、HBase等。
 
@@ -16202,17 +16734,29 @@
 
 * [apache/hadoop](https://github.com/apache/hadoop) Apache Hadoop是一个开源软件框架，用于分布式存储和处理大型数据集。它提供了Hadoop Distributed File System (HDFS) 用于存储数据，以及 MapReduce框架用于处理数据。Hadoop 允许用户在廉价的硬件集群上运行应用程序，并能够处理海量数据。 更多信息请访问官方网站 http://hadoop.apache.org/ 和维基 https://cwiki.apache.org/confluence/display/HADOOP/。
 
+* [encode/databases](https://github.com/encode/databases) Databases是一个Python库，提供对多种数据库的异步支持，使用强大的SQLAlchemyCore表达式语言进行查询，支持PostgreSQL、MySQL和SQLite数据库。它兼容多个异步Web框架，例如Starlette、Sanic等，并支持多种异步数据库驱动，例如asyncpg、aiopg等。通过简单的API即可连接数据库并执行查询操作，方便开发者构建异步数据库应用。
+
 * [apache/cassandra](https://github.com/apache/cassandra) Apache Cassandra是一个高度可扩展的分区行存储数据库，它将数据分布在多台机器上，并通过主键对数据进行组织。Cassandra 使用类似SQL 的 CQL 语言进行数据操作，支持自动重新分区，并在集群中添加或移除机器时保持数据一致性。用户可以通过 CQL 语言进行数据读写操作，并使用 cqlsh 命令行工具与数据库交互。
 
 * [apache/spark](https://github.com/apache/spark) 用于大规模数据处理的统一分析引擎。它提供了 Scala、Java、Python 和 R 中的高级 API，以及支持用于数据分析的一般计算图的优化引擎。它还支持一组丰富的高级工具，包括用于SQL和数据帧的Spark SQL，用于pandas工作负载的Spark上的pandas API，用于机器学习的MLlib，用于图形处理的GraphX和用于流处理的结构化流。
 
 * [etcd-io/etcd](https://github.com/etcd-io/etcd) 分布式可靠的键值存储，用于存储分布式系统中最关键的数据，重点是：简单：定义明确、面向用户的 API （gRPC），安全：具有可选客户端证书身份验证的自动 TLS，快速：以 10,000 次写入/秒为基准，可靠：使用 Raft 正确分发。etcd 是用 Go 语言编写的，它使用 Raft 共识算法来管理一个高度可用的复制日志。
 
+* [PyMySQL/mysqlclient](https://github.com/PyMySQL/mysqlclient) mysqlclient是MySQL和MariaDB数据库的Python连接器，它是MySQLdb1的增强版，支持Python 3并修复了许多bug，可通过pip安装。Windows系统安装较为复杂，建议使用预编译的二进制轮文件；macOS和Linux系统则需要安装必要的依赖包，具体步骤请参考项目README。项目不提供技术支持，如有问题请参考README中提供的其他资源。
+
+* [pynamodb/PynamoDB](https://github.com/pynamodb/PynamoDB) PynamoDB是Amazon DynamoDB的Python接口，提供简洁优雅的API，简化DynamoDB的复杂操作。它允许创建、查询和更新DynamoDB表，支持多种查询条件和索引，并提供详细文档和示例。通过简单的Python代码即可操作DynamoDB，例如创建模型、定义属性、创建表、查询数据等。注意1.6.0和3.0.1版本对UnicodeSetAttribute的修改。
+
 * [ctripcorp/drc](https://github.com/ctripcorp/drc) 携程框架架构研发部数据中心组推出的用于数据双向或多向复制的数据库中间件，服务于异地多活项目，同时赋予了业务全球化的部署能力。为了做到真正的数据异地多活，实现MySQL同机房就近读写，机房故障时无需进行数据库DR操作，只进行流量切换，就需要引入数据实时双向(多向)复制组件。
+
+* [PyMySQL/PyMySQL](https://github.com/PyMySQL/PyMySQL) PyMySQL是一个纯Python编写的MySQL和MariaDB数据库客户端库，遵循PEP249规范。它支持Python 3.7+和PyPy 3.x，兼容MySQL 5.7+和MariaDB 10.4+。通过pip安装，并可根据需要安装额外的依赖项以支持不同的认证方式，例如sha256_password、caching_sha2_password和ed25519。项目提供在线文档和示例代码，方便用户快速上手使用。
 
 * [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) 可扩展的、分布式的、协作的、文档图形数据库，用于实时 Web。端到端的云原生数据库，专为现代应用程序而设计，包括 Web、移动、无服务器、Jamstack、后端和传统应用程序。借助 SurrealDB，您可以简化数据库和 API 基础架构，缩短开发时间，并快速、经济高效地构建安全、高性能的应用程序。
 
 * [PostgreSQL](https://www.postgresql.org/) 一个免费的开源关系数据库管理系统 (RDBMS)，强调可扩展性和 SQL 合规性。它最初被命名为 POSTGRES，指的是它的起源是加州大学伯克利分校开发的 Ingres 数据库的继承者。一个功能强大的开源对象关系数据库系统，经过 30 多年的积极开发，在可靠性、功能稳健性和性能方面赢得了良好的声誉。
+
+* [sqlalchemy/alembic](https://github.com/sqlalchemy/alembic) Alembic是SQLAlchemy的数据库迁移工具，它允许创建和应用数据库模式迁移脚本。通过生成可升级和降级的迁移脚本，Alembic支持事务性DDL操作，并提供最小化脚本构建、自动生成迁移以及SQL脚本输出等功能，方便开发者管理数据库模式的演变，即使在复杂的依赖关系下也能保证迁移的可靠性。
+
+* [mongodb/mongo-python-driver](https://github.com/mongodb/mongo-python-driver) PyMongo是MongoDB官方提供的Python驱动程序，用于在Python中与MongoDB数据库交互，它包含bson（BSON格式实现）和gridfs（基于pymongo的gridfs实现）包。PyMongo支持MongoDB 4.0到8.0版本，可通过pip安装，并支持多种认证方式，如GSSAPI和MONGODB-AWS。  如有问题，请访问MongoDB官方支持渠道或StackOverflow寻求帮助。
 
 * [ApsaraDB/PolarDB-for-PostgreSQL](https://github.com/ApsaraDB/PolarDB-for-PostgreSQL) 阿里云自主研发的云原生数据库服务。PolarDB-X 是一款面向超高并发、海量存储、复杂查询场景设计的云原生分布式数据库系统。其采用 Shared-nothing  与存储计算分离架构，支持水平扩展、分布式事务、混合负载等能力，具备企业级、云原生、高可用、高度兼容 MySQL 系统及生态等特点。
 
@@ -16222,7 +16766,11 @@
 
 * [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) 面向开发人员、SQL 程序员、数据库管理员和分析师的免费多平台数据库工具。支持任何具有JDBC驱动程序的数据库（基本上意味着 - 任何数据库）。商业版本还支持非JDBC数据源，如MongoDB、Cassandra、Couchbase、Redis、BigTable、DynamoDB等。可以找到商业版本中支持的所有数据库的列表。
 
+* [ibis-project/ibis](https://github.com/ibis-project/ibis) Ibis是一个轻便的Python数据框库，它使用DuckDB提供快速的本地数据框处理，并支持延迟数据框表达式和交互式数据探索。Ibis允许用户使用相同的API与20多个后端交互，只需一行代码即可在本地迭代和远程部署，从而实现代码的可移植性，并能混合使用Python数据框和SQL代码。
+
 * [apache/mesos](https://github.com/apache/mesos) Apache Mesos是一个集群管理器，它提供高效的资源隔离和共享，可以跨多个分布式应用程序或框架运行。它可以在动态共享的节点池上运行Hadoop、Jenkins、Spark、Aurora等框架。该项目提供用户邮件列表、开发邮件列表和文档，并提供安装指南。Apache Mesos遵循Apache 2.0许可证。
+
+* [MongoEngine/mongoengine](https://github.com/MongoEngine/mongoengine) MongoEngine是基于PyMongo的Python对象文档映射器(ODM)，用于简化MongoDB数据库的访问。它提供类似ORM的接口，让开发者可以使用Python类来定义MongoDB文档结构，并进行增删改查等操作，支持MongoDB 3.6及以上版本。  项目提供了教程、用户指南和API参考文档，并依赖于pymongo等库。
 
 * [apache/doris](https://github.com/apache/doris) 简单易用、高性能、统一的分析数据库。基于 MPP 架构的简单易用、高性能、实时的分析数据库，以其极快的速度和易用性而闻名。在海量数据下，只需亚秒级响应时间即可返回查询结果，不仅可以支持高并发的点查询场景，还可以支持高吞吐量的复杂分析场景。
 
@@ -16237,6 +16785,8 @@
 * [mongodb/mongo](https://github.com/mongodb/mongo) 文档数据库，旨在简化应用程序开发和扩展。借助基于领先的现代数据库构建的应用程序数据平台，更快地将您的想法推向市场。支持事务性、搜索、分析和移动使用案例，同时采用通用查询接口和开发人员喜爱的数据模型。
 
 * [greenplum-db/gpdb](https://github.com/greenplum-db/gpdb) 基于 PostgreSQL 的高级、功能齐全的开源数据仓库。 它提供对 PB 级数据量的强大而快速的分析。 Greenplum Database 专门针对大数据分析，由世界上最先进的基于成本的查询优化器提供支持，可在大数据量上提供高分析查询性能。
+
+* [pudo/dataset](https://github.com/pudo/dataset) dataset是一个易于使用的SQL数据库数据处理库，支持隐式建表、批量加载和事务处理，其核心功能是让数据库读写像操作JSON文件一样简单，安装方法为`pip install dataset`，注意1.0版本后数据导出功能已拆分为独立的datafreeze包。
 
 * [pingcap/talent-plan](https://github.com/pingcap/talent-plan) 由 PingCAP 发起的开源培训计划。它旨在为对开源、分布式系统、Rust、Golang 和其他基础设施知识感兴趣的人创建或组合一些开源学习材料。因此，它提供了一系列专注于开源协作、rust 编程、分布式数据库和系统的课程。
 
@@ -16260,9 +16810,13 @@
 
 * [dgraph-io/badger](https://github.com/dgraph-io/badger) 可嵌入的、持久的、快速的键值 （KV） 数据库，用纯 Go 编写。它是 Dgraph 的基础数据库，Dgraph 是一个快速的分布式图形数据库。它旨在成为非基于 Go 的键值存储（如 RocksDB）的高性能替代方案。
 
+* [BeanieODM/beanie](https://github.com/BeanieODM/beanie) Beanie是一个异步的Python对象文档映射器(ODM)，用于MongoDB数据库，基于Pydantic模型构建数据模型，支持数据和模式迁移，提供简洁的API用于数据库操作（增删改查），并通过示例展示了其易用性。
+
 * [ctripcorp/x-pipe](https://github.com/ctripcorp/x-pipe) 携程框架部门研发的Redis多数据中心复制管理系统。基于Redis的Master-Slave复制协议，实现低延时、高可用的Redis多中心、跨公网数据复制，并且提供一键机房切换，复制监控、异常报警等功能。
 
 * [sosedoff/pgweb](https://github.com/sosedoff/pgweb) PostgreSQL 数据库的跨平台客户端，基于 Web 的 PostgreSQL 数据库浏览器，用 Go 编写，适用于 Mac、Linux 和 Windows 机器。作为零依赖关系的简单二进制文件分发。非常易于使用，并包含适量的功能。
+
+* [mongodb/motor](https://github.com/mongodb/motor) Motor是MongoDB的异步Python驱动程序，支持asyncio和Tornado框架，提供基于协程的非阻塞MongoDB访问API，适用于高吞吐量环境，可充分利用现代硬件资源。  它依赖于pip安装，并需要Unix/Windows系统。
 
 * [hhyo/Archery](https://github.com/hhyo/Archery) [archer](https://github.com/jly8866/archer)的分支项目，定位于SQL审核查询平台，旨在提升DBA的工作效率，支持多数据库的SQL上线和查询，同时支持丰富的MySQL运维功能，所有功能都兼容手机端操作
 
@@ -16406,11 +16960,15 @@
 
 * [quickwit-oss/quickwit](https://github.com/quickwit-oss/quickwit) 用于可观测性的云原生搜索引擎。Datadog、Elasticsearch、Loki 和 Tempo 的开源替代品。特征：全文搜索和聚合查询；兼容 Elasticsearch 的 API，将 Quickwit 与任何 Elasticsearch 或 OpenSearch 客户端配合使用；Jaeger 本地；用于日志和跟踪的 OTEL 原生；无架构或严格架构索引；无模式分析；云存储（Amazon S3、Azure Blob Storage、Google Cloud Storage 等）的亚秒级搜索；解耦计算和存储、无状态索引器和搜索器；Grafana 数据源；RESTful API。企业就绪：多个数据源 Kafka / Kinesis / Pulsar 原生；多租户，使用多个索引和分区进行索引；保留策略；删除任务（适用于 GDPR 用例）；分布式且高度可用*的引擎，可在几秒钟内横向扩展（*HA 索引仅适用于 Kafka）；
 
+* [elastic/elasticsearch-dsl-py](https://github.com/elastic/elasticsearch-dsl-py) elasticsearch-dsl-py是一个高级Python客户端，用于简化Elasticsearch查询的编写和执行。它基于官方低级客户端elasticsearch-py，提供更方便、更符合Python风格的查询方式，并与Elasticsearch JSON DSL保持一致。该库支持定义映射、检索和保存文档，并提供可选的Python对象包装器，同时兼容Elasticsearch 2.x及以上版本（需匹配主版本号），例如Elasticsearch 8.x需使用8.x.y版本的库。 通过pip install elasticsearch-dsl安装。
+
 * [paradedb/paradedb](https://github.com/paradedb/paradedb) ParadeDB是一个基于 Postgres 的 Elasticsearch 替代方案，它以 Postgres 为基础，提供类似 Elasticsearch 的实时搜索和分析功能。该项目正在开发中，目前已实现全文本搜索、密集和稀疏向量搜索以及针对数据湖和表格格式的快速分析功能。用户可以通过 Docker 镜像或 Kubernetes Helm图表部署 ParadeDB，并使用其提供的扩展功能。项目还提供详细的文档和社区支持。
 
 * [amazon-science/esci-data](https://github.com/amazon-science/esci-data) 一个困难搜索查询的大型数据集，旨在促进查询和产品语义匹配领域的研究。对于每个查询，数据集提供最多 40 个潜在相关结果的列表，以及 ESCI 相关性判断（精确、替代、补充、不相关），指示产品与查询的相关性。每个查询产品对都附有其他信息。数据集是多语言的，因为它包含英语、日语和西班牙语的查询。
 
 * [chrismattmann/tika-python](https://github.com/chrismattmann/tika-python) Tika-Python 是与 Apache Tika REST 服务的 Python 绑定，允许在 Python 社区中本地调用 Tika™。Apache Tika 是一个内容分析工具包，可以检测上千种文件类型，并提取它们的元数据和文本。tika在设计上十分精巧，单一的接口使它易于使用，在搜索引擎索引，内容分析，翻译等诸多方面得到了广泛使用。
+
+* [elastic/elasticsearch-py](https://github.com/elastic/elasticsearch-py) Elasticsearch-py是Elasticsearch的官方Python客户端，提供数据类型转换、集群节点自动发现、持久连接、负载均衡、错误连接惩罚、TLS和HTTP认证等功能，支持线程安全和可插拔架构，方便Python开发者与Elasticsearch进行交互，包含创建、索引、获取、搜索、更新和删除文档等常用操作。
 
 * [NLPchina/elasticsearch-sql](https://github.com/NLPchina/elasticsearch-sql) Elasticsearch-SQL项目允许使用熟悉的 SQL 语法查询 Elasticsearch，并支持在 SQL 中使用ES 函数。该项目已不再积极开发，建议使用官方的 x-pack-sql 或 OpenDistro for Elasticsearch SQL。项目提供多种 Elasticsearch 版本的插件，支持从 1.x 到 8.x 版本，并提供Web 前端界面。
 
@@ -17219,6 +17777,8 @@
 * [zapstiko/wordlists](https://github.com/zapstiko/wordlists) 所有类型的有效负载字典。
 
 * [JDArmy/SharpXDecrypt](https://github.com/JDArmy/SharpXDecrypt) Xshell全版本密码恢复工具
+
+* [baihengaead/wifi-crack-tool](https://github.com/baihengaead/wifi-crack-tool) WiFi密码暴力破解工具-图形界面，支持WPA/WPA2/WPA3、多开并发、自动破解、自定义密码本、自动生成密码字典
 
 ## 安卓Android
 
@@ -18291,6 +18851,8 @@
 * [Kowsher/LLMMixer](https://github.com/Kowsher/LLMMixer) LLMMixer是一个用于时间序列预测的框架，它结合了多尺度时间序列分解和大型语言模型（LLM）的强大功能，通过捕捉短期和长期时间模式来提高预测精度。LLMMixer能够理解复杂趋势，使其在时间序列预测任务中非常有效。该项目提供预处理好的数据集，并提供示例脚本供用户训练模型。项目代码基于Time-Series-Library、TimeMixer、TimeLLM、Autoformer和iTransformer等开源项目。
 
 * [uber/orbit](https://github.com/uber/orbit) Orbit是一个用于贝叶斯时间序列预测的Python包，它提供了一个直观的初始化-拟合-预测接口，并使用概率编程语言进行底层操作。它支持指数平滑 (ETS)、局部全局趋势 (LGT)、阻尼局部趋势 (DLT) 和基于核的时间回归 (KTR) 等模型，并提供马尔可夫链蒙特卡罗 (MCMC)、最大后验 (MAP) 和变分推断 (VI) 等采样/优化方法。你可以通过`pip install orbit-ml`命令安装稳定版本。
+
+* [ibm-granite/granite-tsfm](https://github.com/ibm-granite/granite-tsfm) Granite-TSFM项目提供用于时间序列基础模型(TSFM)的公共notebook、工具和服务组件，其核心模型已在Hugging Face上发布。该项目支持Python 3.9-3.12版本，包含用于模型预训练和微调的notebook，并提供PatchTSMixer、PatchTST和TinyTimeMixer (TTM)等模型的示例和教程，其中包括Google Colab教程。此外，项目还包含一个NeurIPS 2023演示的安装方法，但预训练和微调模型需另行获取。
 
 * [Time-MoE/Time-MoE](https://github.com/Time-MoE/Time-MoE) Time-MoE是首个将时间序列基础模型扩展到 24 亿参数的项目，它使用混合专家架构，并通过 Time-300B数据集（包含超过 3000 亿个时间点）进行训练。Time-MoE 采用解码器结构，以自回归方式进行预测，支持任意预测范围和 4096 个时间点的上下文长度。目前已发布了不同规模的 Time-MoE 模型，包括 50M、200M 和 1.1B 参数的版本，并在 Hugging Face 上提供下载。
 
@@ -19704,6 +20266,8 @@
 
 * [sokrypton/ColabDesign](https://github.com/sokrypton/ColabDesign) ColabDesign是一个基于 Google Colab 的蛋白质设计平台，旨在让所有人都能轻松使用蛋白质设计工具。它提供了多种模型，包括使用 TrRosetta、AlphaFold 和RoseTTAFold 进行结构预测和设计的 TrDesign、AfDesign 和 RfDesign，以及使用 ProteinMPNN 和 TrMRF 进行序列预测的模型。此外，它还包含用于序列和结构预测的实验性模型，例如 MSA_transformer 和 Rfdiffusion。该项目还拥有一个 Discord频道供用户交流，并提供相关演示文稿和视频。
 
+* [microsoft/AI2BMD](https://github.com/microsoft/AI2BMD) AI²BMD是一个利用*从头算*精度高效模拟蛋白质分子动力学的程序。该项目提供模拟程序、数据集和相关材料，并已在《自然》杂志上发表。AI²BMD使用机器学习模型来加速*从头算*电子结构计算，从而实现对蛋白质动力学的准确模拟。用户可以通过提供的Docker镜像和Python启动器轻松运行模拟，并可下载包含2000万个二肽构象的蛋白质单元数据集和包含200万个Chignolin构象的AIMD-Chig数据集，用于训练和验证模型。
+
 * [baaihealth/OpenComplex](https://github.com/baaihealth/OpenComplex) OpenComplex是一个开源平台，用于开发蛋白质和 RNA 复合物模型，基于 DeepMind 的Alphafold 2 和 AQ Laboratory 的 OpenFold，它支持 Alphafold 2和 OpenFold 的几乎所有功能，并引入了新的功能，例如重新实现 Alphafold-Multimer 模型、高精度 RNA 和蛋白质-RNA复合物模型、在 Ampere GPU 上的内核融合和优化，可提高 16% 的性能。该项目提供了安装指南、数据准备方法、训练和推理示例，以及测试和引用信息，并提供 Apache 2.0 许可证。
 
 * [dptech-corp/Uni-Fold-jax](https://github.com/dptech-corp/Uni-Fold-jax) Uni-Fold-JAX 是一个基于 JAX 的可训练的 AlphaFold 实现，它允许用户从头开始训练自己的深度蛋白质折叠模型。该项目基于 DeepMind的 AlphaFold v2.0 开源代码，并提供了训练模型所需的代码。Uni-Fold-JAX 使用 Transformer 架构，并采用与 AlphaFold2 相同的数据处理流程，用户可以利用提供的脚本下载必要的数据库和工具来准备训练数据。Uni-Fold-JAX 还提供了一个名为Hermite 的蛋白质结构预测服务，用户可以免费试用。
@@ -19992,6 +20556,8 @@
 
 * [PetoiCamp/OpenCat](https://github.com/PetoiCamp/OpenCat) OpenCat是一个开源的四足机器人宠物框架，基于Arduino和Raspberry Pi，由Petoi开发，旨在为STEM教育、编码和机器人教育、物联网机器人应用、AI增强机器人应用服务、研究和DIY机器人套件开发提供一个平台。该项目受到波士顿动力公司的Big Dog和Spot Mini的启发，旨在促进四足机器人研究、教育和工程开发的协作，并为大众带来STEM概念，鼓励更多人（包括儿童和成人）加入机器人AI革命，创造更多应用。OpenCat已部署在Petoi的所有仿生手掌大小、逼真的机器人宠物上，包括可爱的机器人猫Nybble和高性能的机器人狗Bittle。该项目提供了一个基础的开源平台，用于创建令人惊叹的可编程步态、运动和逆运动学四足机器人的部署，并通过基于块的编码/C/C++/Python编程语言将模拟带到现实世界。用户已经部署了许多机器人/AI/IoT应用，例如：具有自主运动和物体检测的机器人狗、Raspberry Pi机器人项目、NVIDIA Issac模拟和强化学习、基于视觉和激光雷达的SLAM、使用Tiny Machine Learning Models的模仿学习、使用AWS的机器人车队物联网自动化、3D打印配件以及构建自己的DIY 3D打印机器人宠物。
 
+* [etchdroid/etchdroid](https://github.com/etchdroid/etchdroid) EtchDroid是一款开源应用，可在安卓设备上无需root权限将镜像写入USB驱动器，方便用户在笔记本电脑无法启动时制作可启动的系统USB驱动器。支持多种设备，包括USB闪存盘、SD卡适配器、硬盘/固态硬盘、USB扩展坞和集线器、内置SD卡插槽、光驱或软驱、Thunderbolt设备。支持多种镜像类型，包括现代GNU/Linux操作系统镜像（如Arch Linux、Ubuntu、Debian、Fedora、pop!_OS、Linux Mint、FreeBSD、BlissOS等）、树莓派SD卡镜像、官方微软Windows ISO镜像、社区制作的Windows镜像（需谨慎使用，可能包含病毒）、苹果DMG磁盘镜像、2010年之前的GNU/Linux操作系统镜像（如Damn Small Linux）。用户可以通过Patreon、GitHub Sponsors或网站上的捐赠选项支持项目。项目支持翻译，用户可参与翻译工作。EtchDroid Google Play和GitHub版本收集最小化的匿名数据，包括打开的镜像文件名和USB设备ID，用于诊断硬件问题。用户可以选择在应用菜单中禁用数据收集，或下载F-Droid版本的EtchDroid。
+
 * [adam-maj/tiny-gpu](https://github.com/adam-maj/tiny-gpu) Verilog 中的最小 GPU 设计，可从头开始了解 GPU 的工作原理。内置&lt;15个完整记录的Verilog文件，有关架构和ISA的完整文档，工作矩阵加法/乘法内核，以及对内核模拟和执行跟踪的完全支持。由于 GPU 市场竞争如此激烈，所有现代架构的低级技术细节仍然是专有的。最好的选择是通过 Miaow 和 VeriGPU 等开源 GPU 实现，并尝试弄清楚发生了什么。这是具有挑战性的，因为这些项目旨在实现功能完整和功能，因此它们非常复杂。tiny-gpu 是一个最小的 GPU 实现，针对从头开始了解 GPU 的工作原理进行了优化。具体来说，随着通用 GPU （GPGPU） 和 ML 加速器（如 Google 的 TPU）的趋势，tiny-gpu 专注于突出所有这些架构的一般原则，而不是图形特定硬件的细节。该项目主要侧重于探索：架构 - GPU 的架构是什么样的？最重要的元素是什么？并行化 - SIMD progamming 模型是如何在硬件中实现的？内存 - GPU 如何解决内存带宽有限的限制？
 
 * [jart/blink](https://github.com/jart/blink) 最小的 x86-64-Linux 模拟器，blink 是在不同的操作系统和硬件体系结构上运行 x86-64-linux 程序的虚拟机。它被设计为执行与 qemu-x86_64 命令相同的操作，除了：Blink 的大小为 221kb（禁用可选功能时为 115kb），而 qemu-x86_64 是 4mb 的二进制文件。Blink 可以在任何 POSIX 系统上运行您的 Linux 二进制文件，而 qemu-x86_64 仅支持 Linux。在某些基准测试中，Blink 的速度比 qemu-x86_64 快 2 倍，例如 SSE 整数/浮点数学。Blink 在运行编译器等临时程序时也快得多。blinkenlights 是一个终端用户界面，可用于跨平台调试 x86_64-Linux 或 i8086 程序。与 GDB 不同，Blinkenlights 专注于可视化程序执行。它使用 UNICODE IBM Code Page 437 字符来显示二进制内存面板，这些面板会随着您单步执行程序的汇编代码而变化。可以使用鼠标滚轮滚动和缩放这些内存面板。Blinkenlights 还允许反向调试，其中在汇编显示上滚动允许倒带执行历史记录。
@@ -19999,6 +20565,8 @@
 * [cyberman54/ESP32-Paxcounter](https://github.com/cyberman54/ESP32-Paxcounter) Wifi 和 BLE 驱动的客流计量，使用廉价的 ESP32 板。Paxcounter 是一款基于 ESP32 MCU 的设备，用于实时计量客流和多传感器数据。它计算周围有多少移动设备。这可以估计周围有多少人。Paxcounter 检测空中的 Wifi 和蓝牙信号，通过评估移动设备的 MAC 地址来关注移动设备。同时，它读取和存储来自多个连接的环境传感器的数据。这个项目的目的是在不侵犯隐私的情况下做到这一点：如果你只是想计算它们，你不需要跟踪人们拥有的设备。因此，Paxcounter不会持久存储MAC地址，也不会对扫描的设备进行指纹识别。数据可以存储在本地SD卡上，使用LoRaWAN网络（例如TheThingsNetwork或Helium）或基于TCP/IP的MQTT传输到云端，也可以使用串行（SPI）接口传输到本地主机。您可以使用 ESP32 深度睡眠模式构建此项目电池供电，并使用单个 18650 锂离子电池实现较长的正常运行时间。
 
 * [Serial-Studio/Serial-Studio](https://github.com/Serial-Studio/Serial-Studio) Serial Studio是一款跨平台的多功能串口数据可视化和处理工具，专为嵌入式工程师、学生、黑客和教师设计。它允许用户可视化、分析和表示来自其项目和设备的数据，而无需定制的项目特定可视化软件。Serial Studio 提供灵活的解决方案，适应各种用例，使其成为教育和专业环境的理想选择。该工具诞生于我在多个 CanSat 比赛中的经验，在这些比赛中，我经常发现自己为每个项目开发新的地面站软件。随着时间的推移，我意识到维护一个单一的、灵活的地面站软件会更有效率和可持续，该软件允许用户定义如何处理和显示传入数据。今天，Serial Studio 是一款功能强大且适应性强的工具，不仅适用于 CanSat 比赛，也适用于任何数据采集和可视化项目。它支持从各种来源检索数据，包括硬件和软件串口、MQTT、蓝牙低功耗(BLE) 和网络套接字 (TCP/UDP)。
+
+* [joeycastillo/Sensor-Watch](https://github.com/joeycastillo/Sensor-Watch) Sensor Watch是一款经典Casio F-91W腕表的电路板替换方案，它使用Microchip SAM L22微控制器，并集成了段式LCD控制器。用户可以使用提供的库编写自己的程序，通过USB连接的UF2引导加载程序对腕表进行编程，并将电路板安装到现有的腕表表壳中，在手腕上运行自己的软件。该电路板具有ARM Cortex M0+微控制器、32KHz晶体（用于实时时钟和闹钟功能）、十位数段式LCD、五个指示灯、三个可中断按钮、红绿PWM可控LED背光、可选的蜂鸣器、板载USB Micro B接口、双击启动UF2引导加载程序的复位按钮以及九针柔性PCB连接器。该项目旨在让用户自由添加自己想要的传感器，而不是预先选择传感器，传感器通过九针连接器进行连接，并提供电源、I2C接口、五个通用IO引脚（可配置为模拟输入、数字输入、数字输出、SPI控制器、UART、PWM、外部唤醒输入）等功能。
 
 * [jakkra/ZSWatch](https://github.com/jakkra/ZSWatch) ZSWatch - 基于 Zephyr™ 的开源智能手表，包括硬件和固件。  这款智能手表名为ZSWatch，其核心硬件包括：  - nRF5340 BLE芯片（u-blox NORA-B10模块），具有128 MHz双核处理器  - 512 KB RAM和1 MB Flash存储  - 240x240圆形触摸屏显示屏  - 多种传感器，如Bosch BMI270 IMU、BME688环境传感器、BMP581高性能压力传感器、ST LIS2MDLTR磁力计等  - 64 MB外部闪存（Macronix MX25U51245GZ4I00）  - Broadcom APDS-9306-065光传感器、Micro Crystal RV-8263-C8 RTC、Knowles SPK0641HT4H-1 I2S麦克风等  - Nordic nPM1300 PMIC用于电源和系统管理  软件方面，ZSWatch支持与GadgetBridge Android应用程序进行蓝牙LE通信，具备多种功能，如显示时间、日期、天气、步数、未读通知等。手表支持不同的表盘，可以动态更改。  ZSWatch的外壳可以选择3D打印或金属CNC加工。手表还支持与iOS设备通信，无需额外应用程序。
 
