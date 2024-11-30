@@ -562,6 +562,8 @@
 
 * [lmcinnes/umap](https://github.com/lmcinnes/umap) 均匀流形近似和投影 （UMAP ,Uniform Manifold Approximation and Projection） 是一种降维技术，可用于类似于 t-SNE 的可视化，但也可用于一般的非线性降维。该算法建立在关于数据的三个假设之上：数据均匀分布在黎曼流形上;黎曼度量是局部常数（或可以近似）;流形是本地连接的。根据这些假设，可以对具有模糊拓扑结构的流形进行建模。通过搜索具有最接近的等效模糊拓扑结构的数据的低维投影来找到嵌入。
 
+* [opencog/opencog](https://github.com/opencog/opencog) OpenCog框架是一个用于集成人工智能和人工通用智能(AGI)研究的实验室，该项目现已不再维护，其主要部分已被拆分为多个独立的仓库，例如atomspace、cogserver等。  该框架曾集成自然语言处理、常识推理、多种学习算法和类人机器人运动控制等，旨在开发AGI系统，但目前代码库状态参差不齐，包含一些自然语言处理管道、实体聊天机器人和动作选择机制等组件。  感兴趣的用户应参考其拆分后的子项目。
+
 * [datahub-project/datahub](https://github.com/datahub-project/datahub) DataHub是一个现代数据栈的数据发现平台，由 Acryl Data 和 LinkedIn 共同开发。它提供了一个用于数据发现和元数据管理的平台，帮助用户更好地理解和使用数据。DataHub 支持多种数据源，并提供丰富的功能，例如数据搜索、数据 lineage、数据质量监控等。用户可以通过DataHub 的 API 和 UI 与平台交互，并使用其提供的工具进行数据分析和管理。DataHub 拥有活跃的社区，并定期举办线上会议，欢迎用户参与。
 
 * [terryyz/PyArmadillo](https://github.com/terryyz/PyArmadillo) Python 语言的线性代数库，强调易用性。该库旨在提供类似于 Matlab 或者 Octave 的高级语法和功能，使得用户以熟悉且自然的方式表达数学运算。提供了用于矩阵和多维数据集（cube）的对象，以及 200 多个用于处理对象中存储数据的相关函数。所有功能都可以在一个平面结构中访问，并且支持整数、浮点数和复数。通过集成 LAPACK 或者 Intel MKL、OpenBLAS 等高性能替代产品，该库可以提供各种矩阵分解。
@@ -2486,6 +2488,8 @@
 
 * [noahshinn024/reflexion](https://github.com/noahshinn024/reflexion) 反思：语言代理与语言强化学习，提出了Reflexion框架，使用语言反馈信号(verbalre inforcement)来帮助agent从先前的失败经验中学习。具体地，Reflexion将传统梯度更新中的参数信号转变为添加在大模型上下文中的语言总结，使得agent在下一个episode中能参考上次执行失败的失败经验，从而提高agent的执行效果。这个过程和人类反思(reflexion)过程十分相似。
 
+* [dynamiq-ai/dynamiq](https://github.com/dynamiq-ai/dynamiq) Dynamiq 是一个用于代理 AI 和大语言模型应用的编排框架，旨在简化 AI 应用的开发。它支持检索增强生成 (RAG) 和大型语言模型 (LLM) 代理。项目支持 Python 3.10 及以上版本，提供了文档和示例代码，帮助用户快速上手。例如，可以通过简单的代码集成 OpenAI 模型进行文本翻译，或构建具有代码解释器访问权限的 ReAct 代理来解决复杂的编程任务。
+
 * [OpenLemur/Lemur](https://github.com/OpenLemur/Lemur) Lemur 是一种可公开访问的语言模型，针对自然语言和编码功能进行了优化，可作为多功能语言代理的骨干。随着语言模型不断从对话聊天机器人发展到可以在现实世界中采取行动的功能代理，它们既需要强大的语言理解能力，也需要执行操作的能力。狐猴平衡了自然语言和编码技能，使代理能够遵循指令、推理任务并采取脚踏实地的行动。
 
 * [metauto-ai/GPTSwarm](https://github.com/metauto-ai/GPTSwarm) GPTSwarm是一个基于图的框架，用于构建基于大型语言模型（LLM）的智能体，它允许你将智能体构建成图，并通过自组织优化算法提升智能体群体的性能。GPTSwarm包含多个组件，例如环境、图、LLM、内存和优化器，并提供可视化工具，帮助你理解智能体群体的运作方式。该项目已发表论文，并被ICML 2024 接收为口头报告，可通过pip安装使用。
@@ -2545,6 +2549,8 @@
 * [enricoros/big-agi](https://github.com/enricoros/big-agi) 由 GPT-4 及更高版本提供支持的个人 AI 应用程序，具有 AI 角色、AGI 功能、文本到图像、语音、响应流、代码突出显示和执行、PDF 导入、开发人员预设等等。使用Next.js，React，Joy。
 
 * [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) 在浏览器中组装、配置和部署自治 AI 代理。为您自己的自定义 AI 命名，让它开始任何可以想象的目标。它将尝试通过思考要完成的任务、执行它们并从结果中学习来达到目标。
+
+* [TEN-framework/TEN-Agent](https://github.com/TEN-framework/TEN-Agent) TENAgent是一个世界级的多模态AI代理，集成了OpenAI实时API和RTC，具备天气查询、网络搜索、视觉和RAG（检索增强生成）等功能，能够处理多种模态信息并提供智能化的交互体验。
 
 * [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) PraisonAI 应用程序将 AutoGen 和 CrewAI 或类似框架组合成一个低代码解决方案，用于构建和管理多智能体LLM 系统，专注于简单性、定制和高效的人机协作。与您的整个代码库聊天。
 
@@ -2759,6 +2765,8 @@
 * [IAAR-Shanghai/UHGEval](https://github.com/IAAR-Shanghai/UHGEval) 基于无约束生成的中国大型语言模型幻觉基准测试，一个综合框架，旨在评估幻觉现象。其架构提供了灵活性和可扩展性，允许轻松集成新的数据集、模型和评估指标。该框架对评估常见的幻觉任务是用户友好的，包括我们的新华幻觉和牛津的TruthfulQA等。
 
 * [marzenakrp/nocha](https://github.com/marzenakrp/nocha) 一个数据集，用于评估超长上下文语言模型对书本长度上下文进行推理的能力。我们不会发布整个数据集，因为它包含新的（即受版权保护的）书籍。相反，我们发布了一个基于经典小说的示例数据，并致力于自己在整个数据集上评估 LM。
+
+* [NVIDIA/garak](https://github.com/NVIDIA/garak) NVIDIA/garak是一个用于检测大型语言模型（LLM）漏洞的工具，类似于网络安全中的nmap，可以检查幻觉、数据泄露、提示注入、虚假信息生成、毒性内容生成等多种弱点。支持多种模型和API，并提供命令行接口。该项目是开源的，欢迎贡献。
 
 * [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) 用于测试和评估LLM输出质量的工具。测试您的提示、模型、RAG。评估和比较LLM输出，捕获回归，并提高提示质量。LLM适用于 OpenAI/Azure GPT、Anthropic Claude、VertexAI Gemini、Ollama、本地和专用模型（如 Mistral/Mixtral/Llama with CI/CD）的评估
 
@@ -3076,6 +3084,8 @@
 
 * [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) 超快的 AI 网关。使用 1 个快速友好的 API 路由到 100+LLMs。它通过统一的 API 简化了对 OpenAI、Anthropic、Mistral、LLama2、Anyscale、Google Gemini 等的 API 请求。速度极快（速度提高 9.9 倍），占用空间小，跨多个模型、提供程序和密钥进行负载均衡，回退可确保应用保持弹性，具有指数回退的自动重试，根据需要插入中间件，超过 100B 词元的测试
 
+* [PacktPublishing/LLM-Engineers-Handbook](https://github.com/PacktPublishing/LLM-Engineers-Handbook) 《LLM工程师手册》是一本实用指南，涵盖从基础知识到使用LLMOps最佳实践在AWS上部署高级LLM和RAG应用的全过程，包括数据收集与生成、LLM训练管道、简单RAG系统、生产级AWS部署、全面监控、测试与评估框架等内容。该项目依赖于多种工具和云服务，如Python、Docker、AWS CLI、Git、Hugging Face、Comet ML、Opik、ZenML、MongoDB、Qdrant和GitHub Actions。
+
 * [IEIT-Yuan/Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0) 源2.0 是浪潮信息发布的新一代基础语言大模型。我们开源了全部的3个模型：源2.0-102B、源2.0-51B、源2.0-2B。提供预训练、微调、推理服务的相关脚本，以供研发人员做进一步开发。源2.0是在源1.0的基础上，利用更多样的高质量预训练数据和指令微调数据集，令模型在语义、数学、推理、代码、知识等不同方面具备更强的理解能力。
 
 * [jina-ai/reader](https://github.com/jina-ai/reader) 将任何 URL 转换为具有简单前缀 https://r.jina.ai/ 的LLM友好输入。您LLMs应该得到更好的输入。Reader 执行以下两项操作：阅读：它将任何 URL 转换为带有 LLM https://r.jina.ai/https://your.url 的 -friendly 输入。免费为您的代理和 RAG 系统提供改进的输出。搜索：它使用 https://s.jina.ai/your+query .这使您可以LLMs从网络上访问最新的世界知识。
@@ -3096,7 +3106,11 @@
 
 * [shaochenze/PatchTrain](https://github.com/shaochenze/PatchTrain) Patch补丁级训练是大型语言模型 ( LLMs ) 的一种有效训练方法，其中模型读取Patch补丁中的训练数据并学习预测下一个Patch补丁。接下来，使用少量的训练数据将模型调整到令牌级别。与从头开始训练相比，这种方法可以实现更低的损失，同时将训练成本降低一半。
 
+* [huggingface/smollm](https://github.com/huggingface/smollm) SmolLM2 是一个包含 135M、360M 和 1.7B 参数的紧凑型语言模型家族，适合在设备上运行并解决多种任务。最强大的模型是 SmolLM2-1.7B-Instruct，支持多种使用方式，包括 `transformers`、`trl` 和 `llama.cpp` 等工具。此外，新推出的 SmolVLM 是基于 SmolLM2 的视觉语言模型。
+
 * [Alibaba-NLP/EcomGPT](https://github.com/Alibaba-NLP/EcomGPT) 一种面向电子商务的指令调优大语言模型。共有250万条指令数据。使用电子商务基本数据类型（如产品信息，用户评论）构建原子任务来扩展数据大小和任务多样性。原子任务被定义为隐含参与解决最终任务的中间任务，我们也称之为任务链任务。
+
+* [peremartra/Large-Language-Model-Notebooks-Course](https://github.com/peremartra/Large-Language-Model-Notebooks-Course) 一个关于大型语言模型的实际课程，学习并实施大型语言模型项目。课程包含技术与库、项目实践和企业解决方案三大部分，涵盖聊天机器人、代码生成、OpenAI API、Hugging Face、向量数据库、Fine Tuning等技术。课程内容不断更新，适合边学边实践。
 
 * [neukg/TechGPT](https://github.com/neukg/TechGPT) “东北大学知识图谱研究组”发布的垂直领域大语言模型。强化了如下任务:以“知识图谱构建”为核心的关系三元组抽取等各类信息抽取任务。以“阅读理解”为核心的各类智能问答任务。以“文本理解”为核心的关键词生成等各类生成任务。
 
@@ -3514,6 +3528,10 @@
 
 * [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) 该存储库展示了检索增强生成 （RAG） 系统的各种高级技术。RAG 系统将信息检索与生成模型相结合，以提供准确且上下文丰富的响应。欢迎来到当今可用的最全面、最动态的检索增强生成 （RAG） 教程集合之一。该存储库是旨在提高 RAG 系统的准确性、效率和上下文丰富性的尖端技术中心。主要特点：最先进的 RAG 增强功能、每种技术的全面文档、实用实施指南、定期更新最新进展。
 
+* [timescale/pgai](https://github.com/timescale/pgai) pgai是一个PostgreSQL工具套件，简化了构建RAG、语义搜索和其他AI应用程序的过程。它利用PostgreSQL中的数据，自动创建和同步向量嵌入，支持使用向量和语义搜索，并在单个SQL语句中实现检索增强生成 (RAG)，并与pgvector和pgvectorscale等扩展兼容，从而高效地处理大型向量工作负载，并能与OpenAI、Cohere等大型语言模型集成，用于数据处理任务，例如分类、摘要和数据丰富。
+
+* [XiaomingX/Awesome-LLM-RAG](https://github.com/XiaomingX/Awesome-LLM-RAG) Awesome-LLM-RAG 是一个包含高级检索增强生成 (RAG) 在大型语言模型中的精选列表。该项目涉及多个研究和开发团队，包括 Zheng Chen、Gabriel Bénédict 和 Akari Asai 等。研究涵盖了 RAG 的架构设计、增强生成模型的测试、DFA-RAG 和 REST 等具体技术，以及在金融领域的应用如 Clinfo.ai。此外，项目还讨论了增强生成模型的可微调性和自适应学习等优化方法。
+
 * [jank/curiosity](https://github.com/jank/curiosity) 涉足 ReAct 聊天机器人，我开始这个玩具项目是为了涉足 LangGraph 和 FastHTML。我的目标是在尝试构建类似 Perplexity 的用户体验的同时，对这些技术堆栈进行一些接触。其核心是一个简单的 ReAct 代理，它使用 Tavily 搜索来增强文本生成。与任何优秀的 Web 项目一样，大部分时间都花在了使其在视觉上看起来可接受且从交互角度来看是合理的。
 
 * [Marker-Inc-Korea/AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG) AutoRAG是一个自动化的RAG工具，用于自动寻找最适合你数据的RAG管道。它可以自动评估各种RAG模块组合，并找到最适合你用例的RAG管道。你可以使用它来创建评估数据集，并优化你的RAG管道。AutoRAG支持多种数据创建模块、RAG优化节点和模块，以及各种评估指标。你可以在HuggingFace Space和Colab中使用AutoRAG，并通过AutoRAG Cloud获得帮助。
@@ -3523,6 +3541,8 @@
 * [thunlp/WebCPM](https://github.com/thunlp/WebCPM) 中文长篇问答的交互式网络搜索的官方代码。使用中文预训练模型进行交互式Web搜索的项目。开发了一个网络搜索界面，它既收集人类又收集网络搜索行为。然后，使用多达 10B 的参数微调 PLM，以模仿人类的网络搜索行为，并根据收集到的事实生成答案。开源了 Web 搜索界面、数据集、实现和模型参数。
 
 * [shaheryaryousaf/fastapi-docgpt](https://github.com/shaheryaryousaf/fastapi-docgpt) 这是一个基于FastAPI的文档问答系统，它允许用户上传PDF文件，系统会将文件内容嵌入到Qdrant向量数据库中，并使用OpenAI的嵌入模型根据上传文档内容回答用户提出的问题。该项目使用了LangChain处理PDF和嵌入，并提供Swagger API文档。  用户需要安装Python、Qdrant、OpenAI API Key等，并设置环境变量才能运行。
+
+* [pingcap/autoflow](https://github.com/pingcap/autoflow) pingcap/autoflow 是基于 TiDB Serverless 向量存储构建的 Graph RAG 问答工具，具有对话式搜索功能和嵌入式 JavaScript 模块，支持在网站上即时响应查询。该项目使用 TiDB、LlamaIndex、DSPy、Next.js 等技术栈，提供开放源代码的知识图谱。可以通过 Docker 部署，并提供文档和贡献指南。项目演示地址为 https://tidb.ai。
 
 * [KnowledgeCanvas/knowledge](https://github.com/KnowledgeCanvas/knowledge) 知识是一种用于保存、搜索、访问、探索和聊天所有您喜爱的网站、文档和文件的工具。通过 Knowledge 的新聊天功能，深入体验更具互动性的学习体验！利用大型语言模型的强大功能，与您的项目和资源进行动态对话。提出问题、探索概念并加深您的理解，所有这些都在直观的聊天界面中完成。
 
@@ -3563,6 +3583,10 @@
 * [SamurAIGPT/EmbedAI](https://github.com/SamurAIGPT/EmbedAI) 利用本地 LLM 的功能，在不依赖 Internet 的情况下在文档上创建 QnA 聊天机器人。 确保完全的隐私和安全，因为您的任何数据都不会离开您的本地执行环境。即使没有互联网连接，也可以无缝处理和查询您的文档。
 
 * [THUDM/WebGLM](https://github.com/THUDM/WebGLM) 迈向具有人类偏好的高效网络增强问答系统。WebGLM希望使用100亿参数的GLM，提供高效且具有成本效益的Web增强问答系统。它旨在通过将 Web 搜索和检索功能集成到预先训练的语言模型中来改进实际应用程序部署。
+
+* [superlinear-ai/raglite](https://github.com/superlinear-ai/raglite) RAGLite 是一个基于 Python 的 Retrieval-Augmented Generation (RAG) 工具包，支持 PostgreSQL 或 SQLite。它可配置、快速且灵活，支持多种 LLM 提供商和自定义优化。此外，它还提供了可扩展的功能，如可选的前端和文档转换。
+
+* [felladrin/awesome-ai-web-search](https://github.com/felladrin/awesome-ai-web-search) 该项目是一个整理收集利用AI辅助进行网络搜索的软件列表，包含开源和闭源软件，按首次提交时间排序，每个软件条目都提供了链接和预览（截图或演示），方便用户查找和使用AI增强型网络搜索工具。
 
 * [gpt-open/rag-gpt](https://github.com/gpt-open/rag-gpt) RAG-GPT 利用LLM 和 RAG 技术，从用户定制的知识库中学习，为各种查询提供上下文相关的答案，确保快速准确地检索信息。使用 Flask、LLM、RAG，包括前端、后端和管理控制台，快速启动智能客户服务系统。
 
@@ -4116,7 +4140,11 @@
 
 * [dirk1983/chatgpt](https://github.com/dirk1983/chatgpt) 全网最易部署，响应速度最快的ChatGPT环境。PHP版调用OpenAI接口进行问答和画图，采用Stream流模式通信，一边生成一边输出。前端采用EventSource，支持Markdown格式解析，支持公式显示，代码有着色处理，支持画图。页面UI简洁，支持上下文连续会话。源码只有几个文件，没用任何框架，支持所有PHP版本，全部开源，极易二开。
 
+* [mlc-ai/web-llm-chat](https://github.com/mlc-ai/web-llm-chat) WebLLM Chat是一个私密的AI聊天界面，利用WebGPU在浏览器本地运行大型语言模型（LLM），无需服务器或云端依赖，保证隐私。它具有用户友好的界面、离线访问能力、图像支持和自定义模型功能（通过MLC-LLM连接本地或自定义模型），并基于开源的WebLLM项目。该项目旨在通过提供易于访问的强大工具来实现AI技术的民主化。
+
 * [thu-nics/MoA](https://github.com/thu-nics/MoA) MoA是一个自动压缩大型语言模型的开源项目，通过混合稀疏注意力机制，为每个注意力头搜索不同的弹性规则，克服了传统稀疏注意力方法的局限性。MoA可以显著减少GPU内存占用，并大幅提升解码速度，同时保持模型性能。该项目提供预压缩配置，方便用户快速使用，并提供自动搜索管道，允许用户自定义压缩策略。
+
+* [simonw/llm](https://github.com/simonw/llm) LLM是一个命令行工具和Python库，用于与大型语言模型交互，支持远程API和本地安装运行的模型。它允许用户通过命令行运行提示，将结果存储在SQLite数据库中，并生成嵌入等。LLM支持多种模型，可以通过插件扩展，包括运行在用户本地设备上的模型，例如Mistral 7B Instruct。  安装方式简单，可以使用pip或Homebrew。
 
 * [ilur98/DGQ](https://github.com/ilur98/DGQ) DGQ是一个高效的细粒度量化方法，专门为大型语言模型（LLM）设计，它支持A8W4模型，并提供内存高效的线性层和CUTLASS内核实现，以实现快速推理。该项目还提供了一个示例脚本，用于执行DGQ量化和评估量化后的模型，并支持边缘设备。该项目基于GPTQ、GPTQ-for-LLaMa、AWQ、SmoothQuant、torch-int和fasttransformer等项目。
 
@@ -4535,6 +4563,8 @@
 * [ise-uiuc/magicoder](https://github.com/ise-uiuc/magicoder) 由 OSS-Intit 提供支持的模型系列，这是一种新颖的方法LLMs，通过开源代码片段为代码生成低偏差和高质量的指令数据。OSS-Instruct 通过赋予LLM它们丰富的开源引用来产生更多样化、更真实和可控的数据，从而减轻了合成指令数据的固有偏见。
 
 * [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) 快速轻松地将尖端的LLM技术集成到您的应用程序中。将OpenAI，Azure OpenAI和Hugging Face等大型语言模型（LLM）与C#，Python和Java等传统编程语言集成在一起。语义内核通过允许您定义可以在几行代码中链接在一起的插件来实现这一点。
+
+* [wandb/openui](https://github.com/wandb/openui) OpenUI 允许你用想象描述界面，然后实时查看渲染效果。它使构建 UI 组件变得有趣、快速且灵活，我们正在 W&amp;B 使用它来测试和原型设计基于大语言模型的新一代工具。支持 OpenAI、Groq 等模型，可通过环境变量配置 API 密钥。
 
 * [paul-gauthier/aider](https://github.com/paul-gauthier/aider) 命令行工具，可让您将程序与 GPT-3.5/GPT-4 配对，以编辑存储在本地 git 存储库中的代码。可以启动新项目或使用现有存储库。您可以在帮助者聊天（要求 GPT 编辑代码）和您自己的编辑器自己进行更改之间流畅地来回切换。
 
@@ -5248,6 +5278,8 @@
 
 * [jalammar/ecco](https://github.com/jalammar/ecco) Ecco是一个 Python 库，用于通过交互式可视化来探索和解释自然语言处理模型。它提供多种接口来帮助解释和理解基于 Transformer 的语言模型，例如 GPT2、BERT、RoBERTA、T5 和 T0。Ecco 在 Jupyter Notebook 中运行，基于 PyTorch 和 transformers 库。它专注于探索和理解现有的预训练模型，而不是训练或微调模型。Ecco 允许用户添加自己的本地模型，并提供特征归因、神经元激活捕获和可视化等功能，帮助用户深入了解模型的行为。
 
+* [NVIDIA/Star-Attention](https://github.com/NVIDIA/Star-Attention) NVIDIA/Star-Attention项目提供了一种高效的长序列推理方法，名为Star Attention，适用于基于Transformer的大型语言模型，通过两阶段处理提高推理速度1.1至2.7倍，同时保持95-100%的准确性，兼容大多数使用全局注意力训练的Transformer模型，且与Flash Attention等其他优化方法兼容。该项目在PyTorch和HuggingFace Transformers库中实现了Star Attention，并提供了在RULER和BABILong基准测试上使用该方法进行推理的代码。
+
 * [EricFillion/happy-transformer](https://github.com/EricFillion/happy-transformer) Happy Transformer是一个简化 NLP Transformer 模型微调和推理的 Python 库。它支持多种 NLP 任务，包括文本生成、文本分类、词预测、问答、文本到文本转换、下一句预测和词分类。用户可以轻松使用 Happy Transformer 进行模型训练和推理，并支持多种模型架构，例如DistilBERT、RoBERTa 和 GPT-Neo。该库还集成了 DeepSpeed、Apple MPS 和 WandB 等工具，以提升训练效率和可视化。
 
 * [FlagOpen/FlagAttention](https://github.com/FlagOpen/FlagAttention) 用 Triton 语言实现的内存高效注意力运算符的集合。它的灵感来自FlashAttention和FlashAttention v2，并扩展了它们以满足大型语言建模研究的需求。FlashAttention 和 FlashAttention-2 可以节省内存占用和流量以提高内存效率，但要修改它们并添加更多选项和功能需要熟练掌握 cuda 编程。因此，Flag Attention 是用 Triton 语言实现的，它更容易用于编写自定义 GPU 内核。
@@ -5493,6 +5525,8 @@
 * [Helsinki-NLP/Tatoeba-Challenge](https://github.com/Helsinki-NLP/Tatoeba-Challenge) 这是一个机器翻译的挑战集，包含 29G 翻译单元在 3，708 位ext 覆盖 557 种语言。该包包括从涵盖 134 种语言的 Tatoeba.org 衍生的 631 套测试集的版本。此包提供以多种语言进行机器翻译的数据集，并提供从 Tatoeba 获取的测试数据。
 
 * [flairNLP/flair](https://github.com/flairNLP/flair) 最先进的NLP框架。由柏林洪堡大学开发。将先进的NLP模型应用于文本，如NER、词性标记 （PoS）、对生物医学的特殊支持、感知消歧和分类。Flair具有简单的界面，允许不同的单词和文档嵌入，包括Flair嵌入，BERT嵌入和ELMo嵌入。
+
+* [deanmalmgren/textract](https://github.com/deanmalmgren/textract) Textract是一个Python库，能够轻松地从各种文档中提取文本，无需复杂操作。它由@deanmalmgren最初编写，目前由Jazz Band维护。该项目提供完整的文档，并支持多种文件格式。通过调用相应的API即可实现文本提取功能。
 
 * [yechens/NL2SQL](https://github.com/yechens/NL2SQL) Text2SQL 语义解析数据集、解决方案、paper资源整合项。Text to SQL( 以下简称Text2SQL)，是将自然语言文本（Text）转换成结构化查询语言SQL的过程，属于自然语言处理-语义分析（Semantic Parsing）领域中的子任务。
 
@@ -5836,6 +5870,8 @@
 
 * [life4/textdistance](https://github.com/life4/textdistance) TextDistance是一个 Python 库，用于通过多种算法计算两个或多个序列之间的距离。它包含 30 多种算法，纯 Python 实现，使用简单，支持比较两个以上序列，一些算法在一个类中有多种实现，并可选地使用 numpy 以获得最大速度。它包含基于编辑距离和基于词元的算法，例如汉明距离、莱文斯坦距离、杰卡德指数、余弦相似度等。
 
+* [AnswerDotAI/rerankers](https://github.com/AnswerDotAI/rerankers) Rerankers是一个轻量级、低依赖的统一API，用于各种重排序和交叉编码器模型，包括基于Transformer的模型（如ColBERT，T5）、BAAI的BGE系列模型以及RankGPT等。它提供简单易用的API，方便用户使用各种重排序模型，并支持多模态模型（如MonoQwen2-VL）。该项目旨在简化重排序模型的使用，降低使用门槛，并方便集成到现有流程中。
+
 * [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers) 句子转换器：使用BERT RoBERTa XLM-RoBERTa＆Co.和PyTorch的多语言句子嵌入。该框架提供了一种简单的方法来计算句子、段落和图像的密集矢量表示。这些模型基于BERT / RoBERTa / XLM-RoBERTa等变压器网络，并在各种任务中实现最先进的性能。文本嵌入在向量空间中，使得相似的文本更接近，并且可以使用余弦相似性有效地找到。
 
 * [stanford-futuredata/ColBERT](https://github.com/stanford-futuredata/ColBERT) 一种快速准确的检索模型，可在数十毫秒内对大型文本集合进行基于 BERT 的可扩展搜索。基于上下文（contextualized）的后期交互的排序模型 Efficient and Effective Passage Search via Contextualized Late Interaction over BERT 兼顾匹配的效率和doc中的上下文信息。
@@ -5903,6 +5939,8 @@
 * [nlpyang/BertSum](https://github.com/nlpyang/BertSum) BERT的简单变体 用于抽取式文本摘要，主要是选择性抽取文本中的句子作为最后的摘要。这个任务最大的问题是如何获得每个句子向量，然后把向量用于二分类，判断去留。而 BERT 原模型只能生成单句的句子向量，或者句子对的。（1）将文档中每句话前加 [CLS]后加[SEP]，然后输入 BERT，而每个[CLS]对应的位置就是每句的句向量。（2）为了进一步增加句之间的互动，在 BERT 之上加了一层 Transformer 的 Summarization Layer，只输入每个[CLS]的向量，最后输出预测当前句是否保留，finetune。
 
 * [MaartenGr/BERTopic](https://github.com/MaartenGr/BERTopic) BERTopic 是一种主题建模技术，它利用 🤗 transformer 和 c-TF-IDF 来创建密集的集群，允许轻松解释主题，同时在主题描述中保留重要的单词。BERTopic 支持各种主题建模技术：Guided 引导，Supervised 监督，Semi-supervised 半监督，Manual 手动，Multi-topic distributions多主题发行版，Hierarchical 层次，Class-based 基于类，Dynamic 动态，Online/Incremental 联机/增量，Multimodal 模 态，Multi-aspect 多方位，Text Generation/LLM 文本生成/LLM，Zero-shot，Merge Models 合并模型 ，Seed Words 种子词
+
+* [cognitivetech/ollama-ebook-summary](https://github.com/cognitivetech/ollama-ebook-summary) 一个用于长文本摘要（综合项目笔记）的LLM项目，使用Python 3.11.9开发。该项目能够生成书籍和其他长文本的项目笔记摘要，特别是包含ToC元数据的epub和pdf文件。通过将文档分割成小块并逐块提问，项目提高了响应的粒度。与RAG系统类似，但不同的是，该项目对文档的每个部分都提问相同的问题，而不是只对整个文档提问。项目包括模型下载、环境设置、使用方法等内容。
 
 * [miso-belica/sumy](https://github.com/miso-belica/sumy) Sumy是一个用于自动摘要文本文档和 HTML 页面内容的 Python 库和命令行工具。它提供了多种摘要方法，包括 LexRank、Luhn、Edmundson 等，并支持多种语言。用户可以通过命令行工具快速提取摘要，也可以在 Python 项目中使用 Sumy 的 API 进行摘要操作。Sumy 还包含一个简单的评估框架，用于评估摘要的质量。此外，Sumy 提供了 Docker 镜像，方便用户快速体验。
 
@@ -6316,7 +6354,11 @@
 
 * [dudykr/stc](https://github.com/dudykr/stc) stc是一个用 Rust 编写的快速 TypeScript 类型检查器，目前处于早期开发阶段，欢迎贡献代码或提供资金支持。该项目旨在提供高效的 TypeScript 类型检查，并提供详细的贡献指南和赞助信息。
 
+* [hop-protocol/hop](https://github.com/hop-protocol/hop) HopProtocol是一个跨链桥接协议的单体仓库，包含V1和V2两个版本的SDK和节点，使用TypeScript编写，并提供React前端UI；通过PNPM管理包和工作区；开发者可通过提供的SDK和文档轻松集成和使用。
+
 * [babel/babel](https://github.com/babel/babel) 用于编写下一代 JavaScript 的编译器。一个帮助你用最新版本的 JavaScript 编写代码的工具。当您支持的环境本身不支持某些功能时，Babel 将帮助您将这些功能编译为受支持的版本。
+
+* [scala-js/scala-js](https://github.com/scala-js/scala-js) Scala.js是一个将Scala代码编译成JavaScript的编译器，它允许开发者使用Scala编写前端JavaScript代码，并利用Scala的强大功能和类型系统，项目使用Apache License Version 2.0许可证。
 
 * [oven-sh/bun](https://github.com/oven-sh/bun) 多合一快速且易于使用的工具。 不需要 1,000 个用于开发的 node_modules，你只需要 bun。令人难以置信的快速 JavaScript 运行时、捆绑器、测试运行器和包管理器 - 合二为一
 
@@ -6478,327 +6520,93 @@
 
 ## 前端开发框架及项目
 
-* [didi/DoKit](https://github.com/didi/DoKit) 一款面向泛前端产品研发全生命周期的效率平台。DoKit诞生于滴滴城运服体验技术部，是一款面向泛前端产品研发全生命周期的效率平台。经过两年的发展，当前DoKit已经发展成了一个相对完整的生态，比如DoKit For Android、DoKit For iOS、DoKit For 小程序、DoKit For Flutter、DoKit For Web。同时我们的项目被BAT以及滴滴、字节、快手、京东等等头部独角兽企业广泛使用并获得良好的口碑。随着dokit.cn平台端的推出，标志着DoKit已经从单纯的效率工具正式进入了效率工具平台的阶段。与此同时我们一直都未停下持续探索的精神，积极地在更多平台领域进行尝试，不给自己设限。我们相信DoKit的未来充满无限可能。每一个稍微有点规模的 App，总会自带一些线下的测试功能代码，比如环境切换功能、帧率查看功能等等，这些功能的切换入口往往放在各式各样的入口中，比如一些特殊的手势，双击 statusBar，双击某一个功能区块，或者新建一个 keyWindow 始终至于 App 最上方等等，而且每一个 App 里面的线下附带功能模块很多是相似的，比如帧率查看、内存和 CPU 监控等等，但是现在基本上都是每个 App 都是自己实现了一份，经历了以上的问题之后，DoKit 就有了它存在的意义。DoKit 是一个功能平台，能够让每一个 App 快速接入一些常用的或者你没有实现的一些辅助开发工具、测试效率工具、视觉辅助工具，而且能够完美在 Doraemon 面板中接入你已经实现的与业务紧密耦合的一些非通有的辅助工具，并搭配我们的dokit平台，让功能得到延伸，接入方便，便于扩展。简单总结：1、DoKit 能够快速让你的业务测试代码能够在这里统一管理，统一收口；2、DoKit 内置很多常用的工具，避免重复实现，一次接入，你将会拥有强大的工具集合；3、搭配dokit平台，借助接口Mock、健康体检、文件同步助手、一机多控让你方便和他人协同，极大的提升研发过程中的效率。
+### React工具库
 
 * [infernojs/inferno](https://github.com/infernojs/inferno) 速度极快、类似 React 的 JavaScript 库，用于构建现代用户界面。InfernoJS 项目的主要目标是为 Web 应用程序提供尽可能快的运行时性能。Inferno 擅长渲染实时数据视图或大型 DOM 树。性能是通过多种优化实现的，例如：Inferno 自己的 JSX 编译器创建单态 createVNode 调用，而不是 createElement 调用。 优化应用程序的运行时性能。Inferno 的 diff 过程使用按位标志来记住对象的形状。仅在需要时对子节点进行规范化。可以在编译时使用特殊的 JSX 标志来优化应用程序级别的运行时性能。许多微优化。特征:组件驱动 + 单向数据流架构；类似 React 的 API、概念和组件生命周期事件；部分合成事件系统，规范化事件以获得更好的跨浏览器支持；Inferno 的 linkEvent 功能消除了使用箭头函数或绑定事件回调的需要；使用 inferno-server 在客户端和服务器上进行同构渲染；与 React 和 Prereact 不同，Inferno 在功能组件上具有生命周期事件；与 Preact 和其他类似 React 的库不同，Inferno 具有 input/select/textarea 元素的受控组件；可以使用 createPortal - API 在组件的当前 html 层次结构之外呈现组件；支持没有任何 polyfill 的旧浏览器；defaultHooks 的 Functional 组件，这样可以避免每次使用重新定义生命周期事件；Inferno 支持使用 string &lt;div style=”background-color: red”&gt;&lt;/div&gt; 或 object literal syntax &lt;div style={{”background-color”: ”red”}}&gt;&lt;/div&gt; 设置样式。有关 camelCase 语法支持，请参阅 inferno-compat；componentDidAppear、componentWillDisappear 和 componentWillMove （v8） - 类和函数组件回调，以简化动画工作，请参阅 inferno-animation 包。
 
-* [zauberzeug/nicegui](https://github.com/zauberzeug/nicegui) NiceGUI 是一个易于使用、基于 Python 的 UI 框架，它显示在您的 Web 浏览器中。您可以创建按钮、对话框、Markdown、3D 场景、绘图等等。它非常适合微型 Web 应用程序、仪表板、机器人项目、智能家居解决方案和类似用例。您还可以在开发中使用它，例如在调整/配置机器学习算法或调整电机控制器时。NiceGUI 以 PyPI 包、Docker 镜像、conda-forge 和 GitHub 的形式提供。特征：基于浏览器的图形用户界面；充当 Web 服务器（由浏览器访问）或处于本机模式（例如桌面窗口）；标准 GUI 元素，如标签、按钮、复选框、开关、滑块、输入、文件上传；使用行、列、卡片和对话框进行简单分组；通用 HTML 和 Markdown 元素；强大的高级元素（绘制图形和图表， 渲染 3D 场景，通过虚拟操纵杆获取转向事件，注释和叠加图像，与表交互，导航可折叠树结构，嵌入视频和音频文件）；内置计时器，可每隔一段时间（甚至每 10 毫秒）刷新数据；直接的数据绑定和可刷新函数，可编写更少的代码；通知、对话框和菜单，提供最先进的用户交互；共享网页和个人网页；易于使用的每用户和一般持久性；能够添加自定义路由和数据响应；捕获全局快捷键的键盘输入等；通过定义原色、辅助色和强调色来自定义外观；Live-Cycle 事件和会话数据；在 Jupyter Notebook 中运行，并允许 Python 的交互模式；对 Tailwind CSS 的自动完成支持；SVG、Base64 和表情符号网站图标支持；基于 pytest 的测试框架。
-
-* [flet-dev/flet](https://github.com/flet-dev/flet) Flet 使开发人员能够轻松地使用 Python 构建实时 Web、移动和桌面应用程序。无需前端经验。Flet 是团队、周末项目、数据输入表单、信息亭应用程序或高保真原型的内部工具或仪表板 - Flet 是一个理想的框架，可以快速破解漂亮的交互式应用程序，为一组用户提供服务。不再需要复杂的架构，包括 JavaScript 前端、REST API 后端、数据库、缓存等。使用 Flet，您只需用 Python 编写一个整体式有状态应用程序，即可获得多用户实时单页应用程序 （SPA）。要开始使用 Flet 进行开发，您只需要自己喜欢的 IDE 或文本编辑器。没有 SDK，没有数千个依赖项，没有复杂的工具 - Flet 有一个内置的 Web 服务器，带有资产托管和桌面客户端。Flet UI 是使用 Flutter 构建的，因此您的应用程序看起来很专业，并且可以交付到任何平台。Flet 通过将较小的 “小部件” 与命令式编程模型相结合，将现成的 “控件” 组合在一起，从而简化了 Flutter 模型。Flet 与语言无关，因此您团队中的任何人都可以使用他们最喜欢的语言开发 Flet 应用程序。已经支持 Python，接下来将支持 Go、C# 和其他功能。将 Flet 应用程序部署为 Web 应用程序并在浏览器中查看它。将其打包为适用于 Windows、macOS 和 Linux 的独立桌面应用程序。将其作为 PWA 安装在移动设备上，或通过适用于 iOS 和 Android 的 Flet 应用程序查看。
-
 * [wix/Detox](https://github.com/wix/Detox) 适用于移动应用程序的灰盒端到端测试和自动化框架。排毒测试是什么样的？这是对登录屏幕的测试，它像实际用户一样在设备/模拟器上运行。高速原生移动开发要求我们采用持续集成工作流程，这意味着我们必须大幅降低对手动 QA 的依赖。Detox 测试您的移动应用程序在真实设备/模拟器中运行时，就像真实用户一样与之交互。在移动设备上进行自动化测试最困难的部分是测试金字塔的顶端 - E2E。E2E 测试的核心问题是片状 - 测试通常不是确定性的。我们相信，直面片状问题的唯一方法是从黑盒测试转向灰盒测试。这就是排毒发挥作用的地方。跨平台：用JavaScript为React Native应用程序（Android和iOS）编写端到端测试。可调试：现代 async-await API 允许异步测试中的断点按预期工作。自动同步：通过监控应用程序中的异步操作，从核心上阻止不稳定。专为 CI 打造：在 Travis CI、Circle CI 或 Jenkins 等 CI 平台上执行 E2E 测试，无需担心。在设备上运行：通过在设备/模拟器上测试您的应用程序，就像真实用户一样（iOS 上尚不支持）来增强发布信心。测试运行程序不可知：Detox 提供了一组 API，可用于任何没有 API 的测试运行程序。它带有开箱即用的 Jest 集成。
-
-* [aframevr/aframe](https://github.com/aframevr/aframe) 用于构建虚拟现实体验的 Web 框架。`虚拟现实变得简单`：A-Frame 只需插入 a-scene 即可处理跨平台运行所需的 3D 和 WebXR 样板，包括移动设备、桌面和所有耳机（与支持 WebXR 的浏览器兼容）。`声明式 HTML`：HTML 易于阅读和复制粘贴。可以在 HTML 中使用，因此每个人都可以访问。`实体组件架构`：three.js 之上的强大框架，为 three.js 提供了一个声明性的、可组合的、可重用的实体组件结构。可以无限制地访问 JavaScript、DOM API、three.js、WebXR 和 WebGL。`性能`：是 three.js 之上的精简框架。性能是重中之重，在高度交互的 WebXR 体验上经过了实战考验。`跨平台`：为任何与支持 WebXR 的浏览器兼容的头戴式设备构建 VR 和 AR 应用程序。仍然可以在标准台式机和智能手机上运行。`可视化检查器`：内置可视化 3D 检查器，其工作流程类似于浏览器的开发人员工具，界面类似于 Unity。打开任何 A-Frame 场景并点击 ctrl+alt+i . `功能`：内置组件（如几何体、材质、灯光、动画、模型、光线投射器、阴影、位置音频、跟踪控制器）立即开始运行。使用粒子系统、物理、多用户、海洋、山脉、语音识别或传送等社区组件
-
-* [Polymer/polymer](https://github.com/Polymer/polymer) Polymer 允许您构建封装的、可重用的 Web 组件，这些组件的工作方式与标准 HTML 元素类似，用于构建 Web 应用程序。使用使用 Polymer 构建的 Web 组件非常简单，只需导入其定义，然后像使用任何其他 HTML 元素一样使用它。`Web Components`：各种网站往往需要一些相同的模块，比如日历、调色板等等，这种模块就被称为“组件”（component）。Web Components 就是浏览器原生的组件规范。采用组件开发，有很多优点。（1）有利于代码复用。组件是模块化编程思想的体现，可以跨平台、跨框架使用，构建、部署和与其他 UI 元素互动都有统一做法。（2）使用非常容易。加载或卸载组件，只要添加或删除一行代码就可以了。（3）开发和定制很方便。组件开发不需要使用框架，只要用原生的语法就可以了。开发好的组件往往留出接口，供使用者设置常见属性，比如上面代码的heading属性，就是用来设置对话框的标题。（4）组件提供了 HTML、CSS、JavaScript 封装的方法，实现了与同一页面上其他代码的隔离。未来的网站开发，可以像搭积木一样，把组件合在一起，就组成了一个网站。这种前景是非常诱人的。
-
-* [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) 使用 Markdown 编写文档，并在几分钟内为您的开源或商业项目创建一个专业的静态站点 - 可搜索、可自定义、支持所有设备的 60 多种语言。专注于文档内容，并在几分钟内创建一个专业的静态站点。无需了解 HTML、CSS 或 JavaScript – 让 Material for MkDocs 为您完成繁重的工作。自信地提供您的文档 – MkDocs 材料会自动适应，以完美适应可用的屏幕空间，无论查看设备的类型或大小如何。桌面。片。移动。一切都很棒。让它成为你的 - 只需几行配置即可更改颜色、字体、语言、图标、徽标等。MkDocs 的材料可以轻松扩展，并提供许多选项来更改外观和行为。不要让您的用户等待 - 通过使用具有出色性能的最快主题之一，以较小的占用空间获得难以置信的价值，从而产生最佳的搜索引擎排名和返回的满意用户。优先考虑辅助功能 – 用户可以使用触摸设备、键盘和屏幕阅读器浏览您的文档。语义标记可确保您的文档适合所有人。信任 20,000+ 用户 – 选择采用最先进的开源技术构建的成熟且积极维护的解决方案。保留您的内容的所有权，而不必担心供应商锁定。根据 MIT 授权。
-
-* [gui-cs/Terminal.Gui](https://github.com/gui-cs/Terminal.Gui) 适用于 .NET 的跨平台终端 UI 工具包，用于构建适用于 Windows、Mac 和 Linux/Unix 的 .NET、.NET Core 和 Mono 的丰富控制台应用的工具包。特征：跨平台 - Windows、Mac 和 Linux。Curses、Windows 控制台和 .NET 控制台的终端驱动程序意味着应用在彩色和单色终端上都能正常工作。键盘和鼠标输入 - 支持键盘和鼠标输入，包括对拖放的支持。灵活布局 - 支持绝对布局和创新的计算布局系统。计算布局使控件之间的相对布局变得容易，并启用动态终端 UI。剪贴板支持 - 剪切、复制和粘贴通过 Clipboard 类提供的文本。任意视图 - 所有可见的 UI 元素都是 View 类的子类，而这些子类又可以包含任意数量的子视图。高级应用功能 - Mainloop 支持处理事件、空闲处理程序、计时器和监控文件描述符。大多数类对于线程都是安全的。反应式扩展 - 使用反应式扩展，并受益于增强的代码可读性，以及应用 MVVM 模式和 ReactiveUI 数据绑定的能力。请参阅示例应用的源代码，了解如何实现此目的。
-
-* [zlgopen/awtk](https://github.com/zlgopen/awtk) AWTK（Toolkit AnyWhere）是一个跨平台嵌入式 GUI 引擎，由 ZLG开发，支持嵌入式系统、WEB、小程序、手机和 PC 等平台。它提供强大的功能、高效的性能、可靠的质量和易于使用的特性，帮助用户设计美观的 GUI 应用。AWTK 拥有跨平台的代码库，支持 ZLG AWorksOS、Windows、Linux、MacOS、嵌入式 Linux、Android、iOS、HarmonyOS、Web 和嵌入式裸机系统等平台，并提供跨平台基础工具库，如列表、数组、字符串、事件发射器、值、对象、文件系统、互斥锁、线程、公式和字符串分析等，确保应用跨平台运行。AWTK 通过脏矩形算法更新变化部分、支持 3 个 FrameBuffer 以实现最高帧率、使用高效的二进制格式存储 UI 描述文件和主题文件、支持 OpenGL、DirectX、Vulkan 和 Metal 等 GPU加速接口以及嵌入式平台的 2D 加速接口等方式提高效率。此外，AWTK 还提供 UI 设计工具 AWTK Designer，支持拖放式 UI 设计，所见即所得，并支持快速预览和一键打包资源。
-
-* [pocoproject/poco](https://github.com/pocoproject/poco) POCO C++库是一个跨平台的 C++ 库，用于构建运行在桌面、服务器、移动设备、物联网和嵌入式系统上的网络和互联网应用程序。它提供了一组 C++ 类库，类似于 Java 类库或 .NET Framework，专注于解决常见问题，并针对“互联网时代”的网络应用程序。POCO 库使用高效、现代的 100% ANSI/ISO 标准 C++ 编写，基于并补充了 C++ 标准库/STL，具有高度可移植性，可在从嵌入式到服务器的各种平台上使用。POCO 是开源的，使用 [Boost Software License](https://spdx.org/licenses/BSL-1.0)许可。要开始使用 POCO，请参阅 [Guided Tour](https://pocoproject.org/docs/00100-GuidedTour.html) 和 [Getting Started](https://pocoproject.org/docs/00200-GettingStarted.html) 文档。可以使用 CMake 构建 POCO，需要 CMake 3.15 或更高版本、C++17 编译器（Visual C++ 2017、GCC 8.0、Clang 5 或更高版本）、OpenSSL头文件和库（可选，但推荐）、MySQL、PostgreSQL 和 ODBC 客户端库（可选）。
-
-* [AnswerDotAI/fasthtml](https://github.com/AnswerDotAI/fasthtml) FastHTML是一个新一代的网页框架，使用简洁紧凑的代码快速构建可扩展的网页应用。它功能强大，可以构建最先进的交互式网页应用；轻量快速，减少代码量，提高效率；语法简单直观，易于学习和使用，快速构建复杂应用。FastHTML应用本质上是Python代码，可以利用Python语言和生态系统的全部功能。FastHTML的功能与HTML和HTTP直接映射，但允许使用良好的软件工程实践进行封装，因此需要了解这些基础知识才能充分利用该库。要了解其工作原理，请先阅读[about.fastht.ml](https://about.fastht.ml/)。安装方法：使用pip命令安装python-fasthtml库。使用示例：创建一个名为“main.py”的文件，使用Python代码构建网页应用，并使用HTMX添加交互功能。FastHTML提供LLM友好指南，帮助AI系统理解和使用FastHTML。可以通过添加[llms-ctx.txt](https://docs.fastht.ml/llms-ctx.txt)链接，让AI助手使用FastHTML。
-
-* [Naereen/badges](https://github.com/Naereen/badges) 这是一个包含大量 Markdown 代码的徽章列表，可以将这些徽章添加到 GitHub 或 Bitbucket项目的 `README.md` 文件中。该项目提供了各种类型的徽章，例如通用徽章、维护状态徽章、网站状态徽章、反馈徽章、Python 相关徽章、Go 相关徽章、Rust相关徽章、Markdown 相关徽章、LaTeX 相关徽章、JavaScript 相关徽章、GNU Bash 相关徽章、Microsoft Visual Studio Code相关徽章、Read the Docs 状态徽章、GitHub 相关徽章、Bitbucket 相关徽章、PackageControl 相关徽章、许可证徽章、简单图标、开源徽章、元徽章、DOI和 Zenodo 徽章、DOI 引用徽章、Discord 徽章、Jetbrains 徽章、感谢徽章、自定义徽章、随机徽章等。用户可以根据自己的需要选择合适的徽章，并通过提供的 Markdown 代码将其添加到自己的项目中。该项目也欢迎贡献者，鼓励用户添加自己的徽章。
-
-* [marionettejs/backbone.marionette](https://github.com/marionettejs/backbone.marionette) Marionette.js是一个基于 Backbone.js 的复合应用程序库，旨在简化大型 JavaScript 应用程序的构建。它提供了一系列在应用程序中常见的架构设计和实现模式，帮助开发者构建可扩展的应用程序。Marionette 基于 Backbone 提供的基础构建块，提供了应用程序架构、视图管理和内存管理等功能，并提供了一套轻量级且灵活的工具，帮助开发者构建可扩展的应用程序。开发者可以选择使用 Marionette 的部分功能，并与其他 Backbone 框架和插件轻松集成。开发者可以通过 Gitter 聊天室与 Marionette 社区交流，并讨论设计模式和使用经验。Marionette 的主要优势包括：可扩展性、合理的默认设置、易于修改、减少样板代码、使用 Region 和 View 对象创建运行时应用程序视觉效果、嵌套 View 和 Collection 等。
 
 * [shuding/nextra](https://github.com/shuding/nextra) 简单、强大且灵活的网站生成框架，包含您喜爱的 Next.js 的一切。Nextra 会自动转换 Markdown 链接和图像，以便在可能的情况下使用Next.js Link和Next.js Image。没有慢速导航或布局偏移。由Shiki 提供支持的高性能且可靠的构建时语法高亮显示。将你的页面文件放在特定于每个语言环境的文件夹中，Nextra 和 Next.js 将为你处理其余的工作。MDX 3允许您在 Markdown 中使用组件，自 v1 以来性能大幅提升。Nextra 在构建时自动为您的内容编制索引，并通过FlexSearch 执行非常快速的全文搜索。Nextra 遵循系统选项，例如 Increase Contrast 和 Reduce Motion。您可以将 Next.js 的混合渲染能力用于 Markdown 内容，包括SSG、SSR 和ISR。SEO / RTL 布局 / 可插拔主题 / 内置组件 / 上次 Git 编辑时间 / 多文档...
 
 * [facebook/react](https://github.com/facebook/react) Web 和本机用户界面的库。用于构建用户界面的 JavaScript 库。`声明式`：React 使创建交互式 UI 变得轻松。为应用程序中的每个状态设计简单的视图，React 将在数据更改时有效地更新和渲染正确的组件。声明性视图使代码更可预测、更易于理解且更易于调试。`基于组件`：构建管理其自身状态的封装组件，然后组合它们以创建复杂的 UI。由于组件逻辑是用 JavaScript 而不是模板编写的，因此您可以轻松地通过应用传递丰富的数据，并将状态排除在 DOM 之外。`一次学习，随处编写`：我们不会对您的技术堆栈的其余部分做出假设，因此您可以在 React 中开发新功能，而无需重写现有代码。React 还可以使用 Node 在服务器上渲染，并使用 React Native 为移动应用程序提供支持。
 
-* [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) 完整的开源稍后阅读解决方案，适合喜欢文本的人。我们创建 Omnivore 是因为我们热爱阅读，我们希望它更具社交性。特色：突出显示、注释、搜索和共享，全键盘导航，自动保存长篇文章中的位置，通过电子邮件添加新闻稿文章（支持 substack！），PDF 支持，用 Node.js 和 TypeScript 编写的 Web 应用程序，原生 iOS 程序，Android 程序，适用于 Android 用户的渐进式 Web 应用程序，Chrome、Safari、Firefox 和 Edge 的浏览器扩展，标签（又称标记），离线支持，文本转语音（仅限 iOS），通过我们的 Logseq 插件支持 Logseq，通过我们的 Obsidian 插件支持 Obsidian，每个部分都是完全开源的！对其进行分叉、扩展或将其部署到您自己的服务器。omnivore.app 一个免费托管的 Omnivore 版本
-
-* [nodegui/nodegui](https://github.com/nodegui/nodegui) 用于使用 Node.js 和 CSS 构建跨平台原生桌面应用程序的库。NodeGUI 由 Qt6  提供支持，与其他基于铬的解决方案（如 Electron）相比，它具有 CPU 和内存效率。特征:跨平台；CPU 和内存占用量低、对于 Hello World 程序，当前 CPU 在空闲时保持在 0%，内存使用率低于 20MB；使用 CSS 进行样式设置（包括实际的级联）。还完全支持 Flexbox 布局；完整的 Nodejs API 支持（目前在 Node v16.x 上运行 - 并且易于升级）。因此可以访问所有与 Nodejs 兼容的 NPM 模块。；本机小部件事件侦听器支持。支持Qt / NodeJs提供的所有事件。；可用于商业应用；良好的 Devtools 支持；良好的文档和网站；为贡献者提供良好的文档；对暗模式的良好支持（感谢Qt）。；一流的 Typescript 支持。
-
-* [getzola/zola](https://github.com/getzola/zola) 一个快速的静态站点生成器，在一个二进制文件中，内置了所有内容。Zola 作为单个可执行文件提供，具有 Sass 编译、语法突出显示、目录和许多其他传统上需要设置开发环境或向您的网站添加一些 JavaScript 库的功能。平均站点将在不到一秒的时间内生成，包括 Sass 编译和语法高亮。Zola 将您的整个网站呈现为静态文件，使您无需支付任何费用即可轻松处理任何类型的流量，而无需担心管理服务器或数据库。从CLI到模板引擎，一切都设计得非常直观。不过，不要相信我的话，看看文档，自己看看。Zola 不碍事，因此您可以专注于您的内容，无论是博客、知识库、登录页面还是它们的组合。Zola 带有简码和内部链接，可以更轻松地编写内容。
-
 * [projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams) 用 React 编写的超级简单、严肃的图表库，可以正常工作，灵感来自Blender、Labview和虚幻引擎。该库完全用 Typescript 和 React 编写的现代代码库利用强大的泛型、先进的软件工程原理，并分为多个模块。整个库（包括其核心）是可破解和可扩展的，可以扩展、重新布线和重新组装成完全不同的软件，以满足您自己的软件需求。HTML 节点作为一等公民，该库最初是为了表示高级动态节点而编写的，由于复杂的输入要求 ux 要求，这些节点很难表示为 SVG。该库专为流程而设计，面向希望在运行时重新连接程序并希望使其软件更具动态性的软件工程师。提供的默认值的快速图表编辑为尽可能快地编辑图表提供了最高优先级。
-
-* [libretro/RetroArch](https://github.com/libretro/RetroArch) libretro API 的跨平台、复杂的前端。许可 GPLv3。RetroArch 是 libretro API 的参考前端。此 API 的常见实现示例包括视频游戏系统仿真器和游戏引擎，以及更通用的 3D 程序。这些程序实例化为动态库。我们将这些称为 “libretro 核心”。libretro 是一个公开通用音频 / 视频 / 输入回调的 API。libretro 的前端（例如 RetroArch）处理视频输出、音频输出、输入和应用程序生命周期。用可移植 C 或 C++ 编写的 libretro 核心可以在许多平台上无缝运行，几乎不需要移植工作。虽然 RetroArch 是 libretro 的参考前端，但其他几个项目也使用 libretro 接口来支持模拟器和/或游戏引擎。LibRetro 是完全开放的，任何人都可以免费使用。
-
-* [leeoniya/uPlot](https://github.com/leeoniya/uPlot) uPlot是一个轻量级、快速、基于Canvas 2D的图表库，用于绘制时间序列、折线、面积图、OHLC和条形图。它可以快速渲染包含150,000个数据点的交互式图表，并且缩放和光标性能优异。uPlot支持多种系列、多个Y轴、时间或数值X轴、线性、统一或对数刻度、线和区域样式、可插拔路径渲染器、缩放、图例、时间区域名称支持、缺失数据支持、多个图表的光标同步、聚焦最近系列、数据流、高低波段等功能。它提供了一个精简、一致且强大的API，并支持钩子和插件。uPlot专注于速度和轻量级，因此不包含数据解析、聚合、求和或统计处理功能、过渡或动画、轴刻度标签的碰撞避免、堆叠系列等功能。
-
-* [stashapp/stash](https://github.com/stashapp/stash) Stash是一个用Go语言编写的自托管网络应用程序，用于整理和管理你的色情内容。它从互联网上收集你收藏中的视频信息，并通过社区构建的插件扩展，支持大量内容制作者和网站。Stash支持多种视频和图像格式，可以对视频进行标记以便日后查找，并提供关于演员、标签、工作室等的统计信息。你可以观看一个安全的工作演示视频来了解它的实际操作。更多信息请参阅文档或阅读应用程序内的使用手册。Stash支持Windows、macOS、Linux和Docker等平台，你可以从GitHub Releases页面下载适用于不同平台和架构的最新版本。首次运行时，Windows和macOS用户可能会遇到安全提示，因为二进制文件尚未签名。
-
-* [fschutt/azul](https://github.com/fschutt/azul) Azul是一个免费、功能性、响应式的Rust、C和C++桌面GUI框架，使用WebRender渲染引擎和类似CSS/HTML的文档对象模型，可以快速开发美观、原生桌面应用程序。它支持大量常见的CSS特性，如渐变、阴影、SVG滤镜、混合操作、边框样式、边框半径、滚动/自动溢出、CSS转换等。Azul还提供丰富的内置小部件、OpenGL纹理嵌入、简化的基于CSS flexbox的HTML类相对/绝对布局系统、60+ FPS动画、跨平台原生对话框、跨平台文本整形和渲染、SVG解析和渲染、形状细分、管理非主线程任务、通过共享库进行动态链接、从Rust、C、C++和Python通过自动生成的API绑定进行使用、HTML到Rust编译以进行快速原型设计/热重载。
-
-* [zeux/pugixml](https://github.com/zeux/pugixml) pugixml是一个轻量级、简单且快速的 C++ XML 解析库，它提供类似 DOM 的接口，支持丰富的遍历和修改功能，并包含一个极速的 XML 解析器，用于从 XML 文件或缓冲区构建 DOM 树。此外，它还支持 XPath 1.0，用于执行复杂的数据驱动树查询。pugixml 支持完整的 Unicode，并提供 Unicode 接口变体以及不同 Unicode 编码之间的自动转换。该库广泛应用于各种开源和私有项目，因其性能优异和易于使用的接口而受到欢迎。项目文档包括快速入门指南和完整的参考手册，示例代码展示了如何使用 pugixml 打开 XML 文件、遍历 Tool 节点并打印 Timeout 属性大于 0 的工具信息。该库采用 MIT 许可证，可免费使用。
-
-* [idea4good/GuiLite](https://github.com/idea4good/GuiLite) GuiLite是一个跨平台的轻量级 GUI 库，仅包含 4000行 C++ 代码，无需依赖任何第三方库，仅需头文件即可使用。它支持多种操作系统，包括 iOS/macOS/WatchOS、Android、Linux、Windows 和 RTOS，甚至可以在没有操作系统的 MCU 上运行。GuiLite 拥有高渲染性能，即使在 MCU 上也能流畅运行，并与 Qt、MFC、Winforms、Cocoa 等第三方框架兼容。它还支持多种语言，包括 C/C++、Swift、Java、Javascript、C# 和 Golang，并提供工具包用于构建字体和图像资源，以及 WYSIWYG 布局工具。GuiLite 还支持 3D 和Web 功能，并提供实时代码遥测和分析功能。用户可以通过简单的学习步骤快速掌握 GuiLite，并通过社区渠道获得支持。
-
-* [alibaba/weex](https://github.com/alibaba/weex) 用于构建移动跨平台 UI 的框架，Weex 使用原生组件和原生模块来利用原生渲染性能和平台能力。组件和模块都是可插拔和可扩展的。您可以使用单个代码库生成不同的捆绑包文件，以便在 Web、Android 和 iOS 平台上运行。原生组件和模块在每个平台上都有不同的实现，但它们都公开了相同的 API。Weex 拥抱现有的 Web 生态系统，您可以使用现代前端技术来开发您的移动应用程序。Weex 支持最常用的 CSS 属性和最流行的前端框架，比如 Vue 和 Rax，未来可能会更多。Weex在许多超级应用中大规模使用的时间长了，总共服务了近亿人。Weex还衍生了许多用于行业发展的工程产品和平台。
-
-* [Tencent/Hippy](https://github.com/Tencent/Hippy) Hippy是一个跨平台开发框架，旨在帮助开发者编写一次代码，就能在多个平台（iOS、Android、Web 等）上运行。Hippy 对 Web开发者非常友好，尤其是熟悉 React 或 Vue 的开发者。使用 Hippy，开发者可以轻松创建跨平台应用程序。Hippy 现在已应用于腾讯的多个主要应用程序，例如手机 QQ、手机 QQ 浏览器、腾讯视频、QQ 音乐和腾讯新闻，覆盖数亿普通用户。Hippy 的优势包括：专为 Web 开发者设计，官方支持 React 和 Vue 等 Web 框架；不同平台的 API 相同；通过 JS 引擎绑定通信实现出色的性能；内置可回收组件，提高性能；可以平滑地迁移到 Web 浏览器；完全支持 Flex 布局引擎。
-
-* [rubickCenter/rubick](https://github.com/rubickCenter/rubick) Rubick是一款基于Electron的开源工具箱，它允许用户自由集成丰富的插件。插件基于npm安装和卸载，非常轻量级。插件数据支持WebDAV多终端同步，保证数据安全。它支持内网部署，可定制进一步开发，非常灵活。用户可以通过快捷键Alt/Option+R快速启动主程序，在主程序输入框中输入关键词搜索相应的应用、插件、文件等，并选择使用。用户也可以通过左侧的logo进入插件市场，找到并安装所需的插件。Rubick支持基于npm包模式的插件管理，支持WebDAV多设备数据同步，支持系统插件模式，支持快速启动本地应用、文件和文件夹，支持企业级内网部署，支持多语言。
-
-* [mbrlabs/Lorien](https://github.com/mbrlabs/Lorien) Lorien是一款适用于Windows、Linux和macOS的无限画布绘图/白板应用程序，使用Godot引擎开发。它以性能、小文件大小和简洁性为重点，采用矢量绘制方式，将笔触保存为点集合，并在运行时渲染，类似于SVG。Lorien主要用于数字笔记和头脑风暴，适合制作小型草图和图表，但并非替代传统的基于位图的绘图软件。它提供无限画布、无限撤销/重做、无限缩放、无限网格、禅模式、极小的保存文件、多文档同时工作等功能，并支持多种工具、移动和删除选定笔触、SVG导出、可重新绑定键盘快捷键、内置和自定义调色板，以及对绘图板（如Wacom）和压力敏感的支持。
-
-* [mherrmann/helium](https://github.com/mherrmann/helium) Helium 是一个 Python 库，用于自动化 Chrome 和 Firefox 等浏览器。要开始使用 Helium，您需要 Python 3 和 Chrome 或 Firefox。我建议创建一个虚拟环境。这使您可以只为当前项目安装 Helium，而不是在整个计算机上全局安装 Helium。在引擎盖下，Helium 将每个调用转发到 Selenium。不同的是，Helium 的 API 级别要高得多。在 Selenium 中，您需要使用 HTML ID、XPaths 和 CSS 选择器来识别网页元素。另一方面，Helium 允许您通过用户可见的标签来引用元素。因此，Helium 脚本通常比类似的 Selenium 脚本短 30-50%。更重要的是，它们更易于阅读，并且在底层网页的变化方面更稳定。
-
-* [Justson/AgentWeb](https://github.com/Justson/AgentWeb) 基于 Android WebView 的强大库。极度容易使用以及功能强大的库，提供了 Android WebView 一系列的问题解决方案 ，并且轻量和极度灵活。轻量级而且功能强大的 Web 库 , 大小只有 200K 。功能：进度条以及自定义进度条、文件下载、文件下载断点续传、下载通知形式提示进度、简化 Javascript 通信、支持 Android 4.4 Kitkat 以及其他版本文件上传、注入 Cookies、加强 Web 安全、支持全屏播放视频、兼容低版本 Js 安全通信、更省电 、支持调起微信支付、支持调起支付宝、默认支持定位、支持传入 WebLayout（下拉回弹效果）、支持自定义 WebView、支持 JsBridge
-
-* [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) pdf-lib是一个 JavaScript 库，用于在任何 JavaScript 环境中创建和修改 PDF 文档。它支持多种功能，包括创建新的 PDF、修改现有 PDF、创建表单、填充表单、扁平化表单、添加页面、插入页面、删除页面、复制页面、绘制文本、绘制图像、绘制 PDF 页面、绘制矢量图形、绘制SVG 路径、测量文本的宽度和高度、嵌入字体（支持 UTF-8 和 UTF-16 字符集）、设置文档元数据、读取文档元数据、设置查看器首选项、读取查看器首选项、添加附件。pdf-lib 旨在适用于任何现代 JavaScript 运行时，并在 Node、浏览器、Deno 和 React Native 环境中经过测试。
-
-* [biomejs/biome](https://github.com/biomejs/biome) Biome是一个用于 Web 项目的性能工具链，旨在提供开发工具来维护项目的健康状况。Biome 提供格式化程序和代码 linter，可以通过 CLI 和 LSP 使用。Biome 是一个快速格式化程序，支持 JavaScript、TypeScript、JSX、JSON、CSS 和 GraphQL，与 Prettier 的兼容性高达 97%。Biome 也是一个性能优越的代码 linter，支持 JavaScript、TypeScript、JSX、CSS 和 GraphQL，包含来自 ESLint、typescript-eslint 和其他来源的 270 多条规则，并输出详细的上下文诊断信息，帮助你改进代码并成为更好的程序员。Biome 从一开始就被设计为可以与 VS Code 等编辑器交互使用。
-
-* [logaretm/vee-validate](https://github.com/logaretm/vee-validate) 无痛 Vue 的表单，特征：简单：熟悉且易于设置的声明式验证；灵活：同步、异步、字段级或表单级验证；快速：使用直观的 API 和较小的占用空间更快地构建更快的表单；最小：仅处理复杂的表单问题，让您完全控制其他一切；UI 不可知：适用于本机 HTML 元素或您喜欢的 UI 库组件；渐进式：无论您是将Vue.js用作渐进式增强功能还是在复杂设置中，都有效；内置规则：具有 25+ 条规则的配套库，涵盖了大多数 Web 应用程序中的大多数需求； i18n：45+ 个内置规则语言环境，由来自世界各地的开发人员贡献
-
-* [saadpasta/developerFolio](https://github.com/saadpasta/developerFolio) 这是一个用于软件开发者展示作品和技能的投资组合模板，提供干净、美观且响应式的设计。该项目目前已停止维护，但用户可以自定义颜色方案和内容，并将其链接到 GitHub 和 Medium 等平台。用户可以使用 Docker 或 Node.js 和 npm 在本地运行该项目，并通过修改 `src/portfolio.js` 文件来自定义内容。该项目包含多个部分，包括个人简介、技能、教育经历、工作经验、开源项目、大型项目、成就和认证、博客、演讲、播客、联系方式、Twitter 时间线和 GitHub 个人资料。用户可以根据需要自定义每个部分。
-
-* [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture) Composable Architecture(TCA) 是一个用于以一致且易于理解的方式构建应用程序的Swift 库，它注重组合性、测试和人体工程学。它可以用于SwiftUI、UIKit 等框架，以及所有 Apple 平台（iOS、macOS、visionOS、tvOS 和 watchOS）。TCA 提供了用于管理状态、组合组件、处理副作用和进行测试的工具，并提供易于使用的 API，帮助您以简单的方式构建复杂应用程序。您可以在 Point-Free 的视频系列中学习更多关于 TCA 的知识，该系列涵盖了函数式编程和 Swift 语言。该项目还包含大量示例，展示如何使用 TCA 解决各种问题。
-
-* [axa-group/Parsr](https://github.com/axa-group/Parsr) Parsr是一个轻量级的文档处理工具链，可以将图像、PDF、docx、eml 等格式的文档转换为结构化的 JSON、Markdown、CSV/Pandas DF 或 TXT 格式数据。它可以帮助分析师、数据科学家和开发者获取干净的结构化信息，并进行数据录入、文档分析自动化、归档等应用。Parsr 可以进行文档清理、层次结构重建、标题、表格、列表、目录、页码、页眉/页脚、链接等元素的识别。可以通过 Docker 镜像快速安装和运行 Parsr API，也可以通过 GUI 工具发送文档并可视化结果。Parsr 还提供 Python 客户端和 Jupyter Notebook 示例。
-
-* [expressjs/expressjs.com](https://github.com/expressjs/expressjs.com) expressjs.com是 Express.js 官方网站的代码仓库，使用 Jekyll 静态网站生成器构建，并直接托管在 GitHub Pages 上。该项目提供本地搭建和 Docker 容器两种方式方便开发者预览网站。网站内容使用 Kramdown 标记语言编写，并使用 Liquid 模板引擎进行渲染。开发者可以自由修改模板文件和文档文件，并使用 GFM 语法块展示 JavaScript 代码。项目还提供详细的贡献指南，欢迎开发者参与翻译和改进文档。选择 Jekyll 而不是 Express.js 解决方案是因为 Jekyll 与 GitHub Pages 无缝集成，能够充分利用 GitHub Pages 的功能。
-
-* [farm-fe/farm](https://github.com/farm-fe/farm) Farm是一个用 Rust 编写的超高速、与 Vite 兼容的 Web 构建工具。它旨在快速、强大且一致，旨在为 Web 开发提供最佳体验，是真正的下一代构建工具。Farm 解决了 Webpack 速度慢以及 Vite 在大型项目中存在的缺点，例如大量请求导致开发性能下降、开发和生产环境不一致以及代码拆分不灵活等问题。Farm 通过 Rust 实现，速度极快，并支持增量构建、持久缓存以及模块级缓存，确保任何模块在改变之前不会被编译两次。Farm 同时支持 Vite 插件，并提供灵活的插件系统，是真正下一代的构建工具。
-
-* [imuncle/live2d](https://github.com/imuncle/live2d) 这是一个Live2D 模型收集和展示项目，可以将模型直接用于静态网站。项目提供 Live2D Cubism 2 和 Live2D Cubism 3两种模型展示页面，目前已收集 128 个模型。项目使用简单，只需引入 live2d.js 文件，添加 canvas 元素和 CSS 样式，并使用 loadlive2d 函数加载模型即可。模型文件包含 texture、motions、expression、sounds 和 model.json 等，其中 model.json 文件包含模型的配置信息，model.moc 文件是模型本体。项目还提供 Live2D Cubism 3 模型的展示页面，这些模型使用 Cubism Editor 2 制作，并使用 Cubism3 SDK 开发。
-
-* [rstudio/shiny](https://github.com/rstudio/shiny) Shiny是一个 R 包，它允许你使用 R 语言轻松创建交互式网页应用程序，无需 HTML、CSS 或 JavaScript 知识。Shiny 提供了一个直观的响应式编程模型，将你的 R 代码转换为实时应用程序，输出会根据用户输入自动更新。它还包含一组预构建的、可定制的、易于使用的部件，例如图表、表格、滑块、下拉菜单、日期选择器等等。Shiny 与 R Markdown 无缝集成，可以轻松地将多个应用程序嵌入到更大的动态文档中。Shiny 还提供工具来提高和监控性能，包括对异步编程、缓存和负载测试的支持。
-
-* [penrose/penrose](https://github.com/penrose/penrose) Penrose 是一个平台，使人们只需在纯文本中键入符号即可创建漂亮的图表。目标是让非专家也能轻松创建和探索高质量的图表，并提供对具有挑战性的技术概念的更深入见解。我们的目标是使创建视觉直觉的过程大众化。Penrose 已经了解图表的领域以及如何设置图表的样式。您只需定义对象和关系。Penrose 通过将这三个程序转换为使用符号微分解决的优化问题来开展工作。如果您需要添加新形状，这并不是一项艰苦的工作 -- Penrose 会自动创建一个满足您所有约束条件的新图表。
 
 * [insin/nwb](https://github.com/insin/nwb) nwb是一个用于 React、Preact、Inferno 和原生 JavaScript 应用、React 库以及其他 Web npm 模块的工具包，无需配置（直到你需要它）。它提供零配置开发环境，并支持配置和插件模块，以添加额外的功能（例如 Sass 支持）。使用 `nwb new react-app` 创建 React 应用骨架，使用 `nwb new preact-app` 创建 Preact 应用骨架，使用 `nwb new inferno-app`创建 Inferno 应用骨架，使用 `nwb new web-app` 创建原生 JavaScript 应用骨架。使用 `nwb new react-component` 创建 React 组件或库，并使用 `npm start` 运行演示应用进行开发。
 
-* [glideapps/glide-data-grid](https://github.com/glideapps/glide-data-grid) Glide Data Grid是一个基于画布的快速响应数据表格，支持数百万行数据，快速更新和原生滚动。它使用懒加载渲染单元格，以提高内存效率，并提供原生滚动以确保流畅的用户体验。Glide Data Grid支持多种类型的单元格，包括数字、文本、Markdown、气泡、图像、钻取和URI，并提供内置的编辑功能、可调整大小和移动的列、可变大小的行、合并单元格、单选和多选行、单元格和列，以及完全自定义的单元格渲染功能。它完全免费且开源，并提供MIT许可证，允许在商业项目中使用。
-
-* [loeffel-io/ls-lint](https://github.com/loeffel-io/ls-lint) ls-lint是一个极速的目录和文件名检查工具，可以帮助你为项目文件系统带来结构。它支持多种规则，可以检查目录和文件名，支持所有扩展名和全 Unicode 支持。ls-lint 速度极快，可以在毫秒内检查数千个文件和目录。它支持 Windows、MacOS 和 Linux，并提供 NPM 包、GitHub Action、Homebrew 和 Docker 支持。ls-lint 几乎没有第三方依赖，仅依赖 go-yaml和 doublestar。你可以通过 `.ls-lint.yml` 文件轻松配置规则，并使用简单的命令行工具进行检查。ls-lint 是一个开源软件，使用 MIT 许可证。
-
-* [giscus/giscus](https://github.com/giscus/giscus) giscus是一个由 GitHub Discussions 提供支持的评论系统，允许访客通过 GitHub在您的网站上发表评论和反应。它开源、无跟踪、无广告且免费，无需数据库，所有数据都存储在 GitHub Discussions 中。giscus 支持自定义主题、多种语言和高级配置，可以自动从 GitHub 获取新的评论和编辑，并且可以自托管。giscus 使用 GitHub Discussions 搜索 API 来查找与页面关联的讨论，并允许访客通过 GitHub OAuth流程授权 giscus 应用程序代表他们发布评论。您可以在 GitHub 上对评论进行审核。
-
-* [StartBootstrap/startbootstrap-new-age](https://github.com/StartBootstrap/startbootstrap-new-age) Start Bootstrap- New Age 是一个由 Start Bootstrap 创建的 Bootstrap 网页应用着陆页主题。它提供了一个预先设计好的网页布局，方便开发者快速构建网页应用的着陆页。你可以通过下载、npm 安装、git 克隆或在 GitHub 上 Fork、克隆或下载的方式获取该主题。该主题使用 MIT 许可证，允许你将其用于任何目的，包括商业项目。你可以通过修改 `dist` 目录下的 HTML 和 CSS 文件来定制主题，也可以使用 npm 脚本进行更高级的定制，例如构建、编译、清理和启动开发服务器。
-
-* [sveltejs/kit](https://github.com/sveltejs/kit) 简化Web 开发，由 Svelte 和 Vite 提供支持，速度融入每个缝隙：快速设置、快速开发、快速构建、快速页面加载、快速导航。再也不用浪费时间去弄清楚捆绑器配置、路由、SSR、CSP、TypeScript、部署设置和所有其他无聊的东西了。快乐地编码。为您提供了成功的工具，无论您正在构建什么。它可以在 JavaScript 的任何地方运行。用于使用 Svelte 快速开发健壮、高性能的 Web 应用程序。如果你来自 React，SvelteKit 类似于 Next。如果你来自 Vue，SvelteKit 类似于 Nuxt。
-
-* [GoogleChromeLabs/ProjectVisBug](https://github.com/GoogleChromeLabs/ProjectVisBug) VisBug是一款开源网页设计调试工具，它允许设计师直接在浏览器中编辑任何网页，无论其处于何种状态。VisBug 提供类似设计工具的交互体验，例如多选、悬停检查、布局微调、文本编辑、图片替换等，帮助设计师在真实环境中进行设计调试，并快速测试设计想法。它可以与 Figma、Sketch 等设计工具互补，并帮助设计师在开发过程中更有效地解决设计问题。VisBug 支持 Chrome、Firefox、Safari 和 Edge 浏览器，并提供多种安装方式，包括浏览器扩展和 CDN 加载。
-
-* [cambecc/earth](https://github.com/cambecc/earth) &quot;earth&quot;是一个用于可视化全球天气状况的项目，它基于早期的Tokyo Wind Map 项目，并使用 JavaScript 和浏览器编程技术。该项目提供了一个定制的实例，可访问 http://earth.nullschool.net。项目使用 Natural Earth 提供的地图数据，并通过 GDAL 和 TopoJSON 工具将其转换为 TopoJSON 格式。天气数据则来自美国国家气象局运营的全球预报系统 (GFS)，通过 NOMADS 下载 GRIB2格式的预报数据。用户可以通过命令行工具下载和处理数据，并使用提供的开发服务器启动项目。
-
-* [moklick/frontend-stuff](https://github.com/moklick/frontend-stuff) 这是一个持续更新的网页前端框架、库和工具列表，主要包含 JavaScript相关内容，涵盖了 CSS/UI 框架、前端框架/UI组件库、图表、地图、表格、选择器、加载器、UI 元素、内容滑块、排版、视频、音频、画布和 SVG、3D/WebGL 框架、图像处理、滚动、触摸手势、动画、模板、HTTP 请求、事件、图标、颜色、数据库/存储、验证、日期、国际化、数字和货币、统计和数据分析、模块加载器、延迟加载、神经网络、社交、实用程序库和通用工具等多个方面。
-
-* [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) Node.js 库，提供了一个高级 API 来控制 DevTools 协议上的 Chrome/Chromium。Puppeteer默认以无头模式运行，但可以配置为在完整（“有头”）Chrome / Chromium中运行。示例：生成页面的屏幕截图和 PDF。对 SPA（单页应用程序）进行爬虫并生成预呈现的内容（即“SSR”（服务器端呈现））。自动化表单提交、UI 测试、键盘输入等。使用最新的 JavaScript 和浏览器功能创建自动化测试环境。捕获站点的时间线跟踪，以帮助诊断性能问题。测试Chrome扩展程序。
-
-* [snabbdom/snabbdom](https://github.com/snabbdom/snabbdom) 一个虚拟 DOM 库，专注于简单性、模块化、强大的功能和性能。虚拟DOM真是太棒了。它允许我们将应用程序的视图表示为其状态的函数。但是现有的解决方案太臃肿，太慢，缺乏功能，API偏向于OOP，和/或缺乏我需要的功能。Snabbdom 由一个非常简单、高性能和可扩展的核心组成，该内核仅≈ 200 个 SLOC。它提供了一个模块化架构，具有丰富的功能，可以通过自定义模块进行扩展。为了保持核心的简单性，所有非必要的功能都委托给模块。
-
-* [didi/mpx](https://github.com/didi/mpx) Mpx是一款增强型跨端小程序框架，它提供优秀的开发体验和深度性能优化。Mpx 基于 Vue 的开发体验，并针对小程序平台进行了深度优化，支持数据响应、组件化开发、Composition API 等特性，能够高效地开发跨端小程序应用。Mpx 拥有丰富的功能，包括数据响应、组件化开发、Composition API、模板语法、生命周期管理等，并提供丰富的文档和示例，方便开发者快速上手。Mpx还支持 SSR 和构建生产环境代码，能够提升小程序的性能和用户体验。
-
-* [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) Liveblocks是一个平台，帮助开发者在应用程序中添加协作编辑、评论和通知功能。它提供了一套完整的解决方案，包括评论、通知、文本编辑器和实时API等核心产品，开发者可以根据需要选择使用。Liveblocks还提供针对不同库和框架的软件包和SDK，方便开发者将协作功能集成到自己的产品中，例如协作文本编辑器、评论、通知等。开发者可以通过文档、指南、教程和示例等资源学习使用Liveblocks，并通过GitHub问题和Discord社区寻求帮助。
-
-* [aFarkas/lazysizes](https://github.com/aFarkas/lazysizes) 用于图像（响应式和正常）、iframe 等的高性能和 SEO 友好型惰性加载器，无需配置即可检测通过用户交互、CSS 或 JavaScript 触发的任何可见性变化。它也可能成为您集成响应式图像的第一工具。它可以自动计算响应式图像的 sizes 属性，它允许您与 CSS 共享媒体属性的媒体查询，有助于将布局 （CSS） 与内容/结构 （HTML） 分开，并且它使将响应式图像集成到任何环境中变得非常简单。它还包括一组可选插件，以进一步扩展其功能。
-
-* [olifolkerd/tabulator](https://github.com/olifolkerd/tabulator) Tabulator是一个易于使用的交互式表格生成 JavaScript 库，可用于将任何 HTML表格、JavaScript 数组或 JSON 格式的数据快速转换为交互式表格。它包含许多功能，例如排序、过滤、分页、编辑、选择、列分组、冻结列、导出数据、自定义渲染器、主题等，并支持 React、Angular 和 Vue 等主流前端框架。只需包含库和 CSS 文件，即可轻松设置 Tabulator，并使用简单的 JavaScript 代码创建表格。此外，Tabulator 还支持通过 Bower、NPM 和 UNPKG CDN 获取。
-
-* [antvis/G2](https://github.com/antvis/G2) 用于仪表板构建、数据探索和讲故事的可视化语法。通过简洁的声明帮助您快速获得有意义的可视化效果，并推断其余部分。但是，您可以为复杂和高级情况配置更多内容。采用功能性声明式 API 以编程方式指定图表选项，这有助于更好的逻辑重用和更灵活的代码组织。为了满足特定需求，G2 提供了一种方便且一致的机制来扩展您能想象到的一切，无论是缩放、转换、标记等。您甚至可以基于此机制自定义全新的可视化工具。
-
 * [NervJS/nerv](https://github.com/NervJS/nerv) NervJS 是一个与 React 16 API 完全兼容的虚拟 DOM 库，提供比 React 更高的性能、更小的包体积和更好的浏览器兼容性，支持 IE8。NervJS 在京东首页和 TOPLIFE 网站等项目中得到应用，并提供 Redux 绑定、开发工具、服务端渲染、测试工具等扩展包。NervJS 支持 React 16 的新特性，如错误边界、传送门、自定义 DOM 属性等。开发者可以通过CodeSandbox Playground 快速上手，并使用 npm 或 yarn 安装。NervJS 提供命名和默认导出，方便开发者使用。
 
-* [ianstormtaylor/superstruct](https://github.com/ianstormtaylor/superstruct) Superstruct是一个简单且可组合的 JavaScript (和 TypeScript) 数据验证库。它提供了一个类似于 TypeScript、Flow、Go 和 GraphQL 的类型注解 API，使验证过程易于理解和使用。Superstruct 专注于运行时数据验证，并能为无效数据提供详细的运行时错误信息，这在处理 REST 或 GraphQL API 中的任意输入时特别有用。此外，Superstruct 还支持自定义验证器、数据类型强制转换（如添加默认值）以及 TypeScript 类型推断，以确保验证后的数据类型正确。
+* [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) FluentReader是一款现代化的桌面RSS阅读器，使用Electron、React和Fluent UI构建，拥有现代化的Fluent Design风格界面和完整的深色模式支持。它支持本地阅读或与兼容Fever或Google Reader API的自托管服务同步，并能与Inoreader、Feedbin等多种RSS服务同步，提供OPML导入导出、全文阅读、正则表达式搜索、快捷键等功能，还支持后台获取文章并发送推送通知。用户可在MicrosoftStore、Mac App Store或GitHub releases下载，移动端版本也已上线。
 
-* [gotson/komga](https://github.com/gotson/komga) Komga是一个用于管理漫画、漫画书、蓝光光碟、杂志和电子书的媒体服务器，它提供 API、OPDS 和 Kobo Sync 支持。Komga 提供响应式网页界面，支持桌面、平板电脑和手机浏览，并提供多种功能，包括组织图书馆、编辑元数据、自动导入嵌入式元数据、提供多模式阅读器、管理用户、提供 REST API、支持 OPDS v1 和 v2、Kobo Sync、下载文件、检测重复文件、导入 ComicRack `cbl` 阅读列表等。用户可以访问 Komga 网站获取安装和文档信息。
-
-* [jerosoler/Drawflow](https://github.com/jerosoler/Drawflow) Drawflow是一个简单易用的流程图库，使用纯 JavaScript 开发，无需依赖其他库。它允许你轻松快速地创建数据流，只需安装 JavaScript 库并使用四行代码即可启动。Drawflow 支持拖放节点、多输入/输出、多连接、删除节点和连接、添加/删除输入/输出、重新路由连接、节点数据同步、缩放、清除数据模块、模块支持、编辑模式（编辑、固定或查看）、导入/导出数据、事件、移动端支持等功能。它还提供 Vue 支持组件节点和 Nuxt。
-
-* [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) 该项目名为`@mdn/browser-compat-data`，简称为BCD，包含了机器可读的浏览器（以及JavaScript运行时）对Web技术的兼容性数据，例如Web API、JavaScript特性、CSS属性等。该项目的目标是记录Web技术的准确兼容性数据，帮助Web开发者更容易地编写跨浏览器兼容的网站。BCD被用于MDN Web Docs、CanIUse、Visual Studio Code、WebStorm等软件。你可以通过NodeJS、Deno/Browsers或其他语言获取该项目数据，并使用它查询任何Web技术的浏览器兼容性信息。
-
-* [mojs/mojs](https://github.com/mojs/mojs) JavaScript 动态图形库，它是一个快速、支持 Retina 的模块化和开源库。与其他库相比，它具有不同的语法和代码动画结构方法。声明式 API 为您提供了对动画的完全控制，使其易于自定义。该库提供了从头开始制作动画的内置组件，如 html、形状、漩涡、突发和交错，但也为您提供了帮助您以最自然的方式制作动画的工具。在您的网站上使用 mojs 将增强用户体验，在视觉上丰富您的内容并精确地创建令人愉悦的动画。
-
-* [StartBootstrap/startbootstrap-landing-page](https://github.com/StartBootstrap/startbootstrap-landing-page) Start Bootstrap- Landing Page 是一个由 Start Bootstrap 创建的多功能 Bootstrap 着陆页模板，提供响应式设计。你可以通过 Start Bootstrap 网站下载最新版本，使用 npm安装，或克隆代码库。该模板包含 `dist` 目录，其中包含 HTML 和 CSS 文件，你可以直接修改这些文件来定制页面。此外，你还可以使用 npm 脚本构建、编译和运行项目，并使用 `npm start` 在浏览器中预览模板。该模板基于 MIT 许可证，可用于任何目的，包括商业项目。
-
-* [sproogen/modern-resume-theme](https://github.com/sproogen/modern-resume-theme) 这是一个现代化的静态简历模板和主题，由 Jekyll 和 GitHub Pages 提供支持，允许你免费在 GitHub 上托管自己的简历。该项目提供黑暗模式，并支持自定义内容配置，允许你添加多个内容部分，并以任意顺序排列。你可以在 GitHub 上查看项目路线图，并通过提供的安装和设置指南，轻松将模板部署到 GitHub Pages 上。该模板使用 Markdown 和 YAML 文件进行内容编辑，你可以根据自己的需求修改内容，并自定义简历的配置。
-
-* [mozilla/geckodriver](https://github.com/mozilla/geckodriver) geckodriver是一个用于 Firefox 浏览器的 WebDriver 代理，它允许使用兼容 W3C WebDriver协议的客户端与基于 Gecko 的浏览器进行交互。geckodriver通过充当本地端和远程端之间的代理，将 WebDriver 协议调用转换为 Marionette 远程协议。您可以从 GitHub 的发布页面下载预编译的二进制文件，或者使用 Cargo 或从 release 分支编译它。geckodriver 的源代码在 mozilla-central 的 testing/geckodriver 目录下，该 GitHub 存储库仅用于问题跟踪和发布。
+* [mrousavy/react-native-mmkv](https://github.com/mrousavy/react-native-mmkv) ⚡️ React Native 的最快键值存储，比AsyncStorage快约30倍。MMKV是由WeChat开发的高效小型移动键值存储框架，react-native-mmkv是通过快速直接的JS绑定到原生C++库来在React Native应用中使用MMKV的库。支持字符串、布尔值、数字和ArrayBuffers的获取和设置，完全同步调用，支持加密存储、多实例存储、自定义存储位置和高性能。react-native-mmkv V3是纯C++ TurboModule，需要启用新架构（react-native 0.75+），支持iOS、Android和Web。
 
 * [revery-ui/revery](https://github.com/revery-ui/revery) 原生、高性能、跨平台桌面应用程序 - 使用 Reason，Revery 有点像超快的原生代码 Electron - 捆绑了类似 React/Redux 的库和快速构建系统，Revery 是用 reasonml 构建的，reasonml 是 OCaml 之上的类似 javascript 的语法，这意味着 JS 开发人员可以使用该语言。您的应用程序使用 Reason/OCaml 工具链编译为原生代码 - 具有与原生 C 代码相当的即时启动和性能。Revery 具有平台加速、GPU 加速的渲染功能。编译器本身也很快！
 
-* [Whisky-App/Whisky](https://github.com/Whisky-App/Whisky) Whisky是一个用 SwiftUI 构建的现代 macOS Wine 包装器，提供简洁易用的图形界面，无需技术知识即可创建和管理 Wine 瓶子，安装和运行 Windows应用和游戏。Whisky 基于 CrossOver 22.1.1 和 Apple 的 Game Porting Toolkit 构建，并支持通过 Homebrew安装。一些游戏可能需要特殊步骤才能正常运行，可以在项目 Wiki 页面上找到相关支持信息。Whisky 的开发得益于多个开源项目的贡献，包括 msync、DXVK-macOS、MoltenVK、Sparkle 等。
-
-* [mkdocs/mkdocs](https://github.com/mkdocs/mkdocs) MkDocs 是一个快速、简单且华丽的静态站点生成器，适用于构建项目文档。文档源文件是用 Markdown 编写的，并使用单个 YAML 配置文件进行配置。它的设计易于使用，并且可以通过第三方主题、插件和 Markdown 扩展进行扩展。特征：从 Markdown 文件构建静态 HTML 文件。使用插件和 Markdown 扩展来增强 MkDocs。使用内置主题、第三方主题或创建您自己的主题。在可以提供静态文件的任何地方发布您的文档。
-
-* [gruns/ImmortalDB](https://github.com/gruns/ImmortalDB) ImmortalDB是一个为浏览器设计的持久化键值存储，它将数据冗余地存储在 Cookie、IndexedDB 和 LocalStorage 中，并能自动修复因数据删除或损坏导致的问题。即使用户清空 Cookie 或浏览器因存储压力而删除 IndexedDB 和 LocalStorage，ImmortalDB 依然能保持数据完整性。ImmortalDB 提供简单易用的 Promise API，支持 set、get 和 remove 操作，并通过比较不同存储中的数据来确保数据一致性，从而实现高可靠性和数据冗余。
-
-* [h2oai/wave](https://github.com/h2oai/wave) H2O Wave是一个用于构建实时网页应用和仪表盘的软件栈，它允许你在 Python/R 中使用，无需 HTML、Javascript 或 CSS。H2O Wave擅长从多个来源获取信息并在网络上实时广播，让你能够更轻松地构建和部署实时分析。它提供了 80 多个组件和 250 多个示例，并支持响应式布局和主题定制，让你能够创建美观、低延迟的实时应用程序。H2O Wave 现在也支持 R 语言 API，让你可以使用 R 语言构建和控制 Wave 仪表盘。
+* [Dhravya/cloudflare-saas-stack](https://github.com/Dhravya/cloudflare-saas-stack) 这是一个使用Next.js、Tailwind CSS等技术构建的Cloudflare SaaS应用启动套件，它集成了身份验证(NextAuth)、数据库(Cloudflare D1和Drizzle ORM)、样式和存储等功能，方便开发者快速构建和部署可扩展的SaaS产品到Cloudflare Pages，并提供本地开发和Cloudflare集成部署方案，其开发流程包括安装依赖、运行开发服务器以及使用Wrangler进行构建和部署，项目还包含数据库迁移功能，支持本地SQLite和远程Cloudflare D1数据库。
 
 * [wojtekmaj/react-pdf](https://github.com/wojtekmaj/react-pdf) React-PDF 是一个库，它允许您在 React 应用程序中像显示图像一样轻松地显示 PDF 文档。它支持各种文件格式，包括 URL、base64 内容和 Uint8Arrays。您可以使用 `npm install react-pdf` 或 `yarn add react-pdf` 安装它。要使用它，请导入 `Document` 组件并将其嵌入到您的 React 代码中，并提供 PDF 文件作为 prop。然后，您可以在 `Document` 中使用组件来呈现单个页面。该库与现代浏览器兼容，需要 React 16.8 或更高版本。
 
-* [iconify/iconify](https://github.com/iconify/iconify) Iconify是一个通用的图标框架，支持150多个图标集和超过200,000个图标，包括FontAwesome、Material Design Icons等，可通过Web组件或React、Vue、Svelte组件嵌入HTML，并提供Figma、Sketch和Adobe XD插件以及图标搜索功能。其核心在于按需从Iconify API加载图标数据，避免加载所有图标，从而实现图标选择的无限可能性。项目包含核心组件、Web组件及各种框架的包装器，图标数据则存储在独立的iconify/icon-sets仓库中。
-
-* [redlib-org/redlib](https://github.com/redlib-org/redlib) Redlib是一个类似于Invidious的私有Reddit前端，它使用Rust语言编写，速度快，没有JavaScript、广告、跟踪或臃肿。所有请求都通过服务器代理，包括媒体，并使用强大的内容安全策略防止浏览器直接访问Reddit。Redlib实现了大多数Reddit的（未登录）功能，但仍缺少一些功能。它受Invidious、Nitter和Bibliogram等其他替代前端的启发。Redlib希望提供一种更便捷的方式来浏览Reddit，而无需广告、跟踪和臃肿。
-
 * [wojtekmaj/react-date-picker](https://github.com/wojtekmaj/react-date-picker) react-date-picker是一个用于React应用的日期选择器组件，支持选择日期、月份、年份甚至年代，几乎支持所有语言，无需moment.js。安装方法：`npm install react-date-picker` 或 `yarn add react-date-picker`，使用方式简单，通过`u003cDatePicker/u003e`组件和`onChange`属性即可实现日期选择功能，并提供在线演示和与时间选择器、日期时间选择器的集成方案。注意：该组件依赖于现代浏览器技术，不支持旧版浏览器。
-
-* [bencodezen/vue-enterprise-boilerplate](https://github.com/bencodezen/vue-enterprise-boilerplate) 这是一个使用 Vue CLI 和 Vite 创建的 Vue 3 SPA 项目的架构和开发环境样板，它提供了一套完善的开发流程，包括测试、构建、代码风格检查等。它基于 Chris Fritz 的 Vue 2 企业样板，并进行了更新和改进，支持 TypeScript 类型检查和 `.vue` 文件的类型支持，并集成了 Vitest 和 Playwright 用于单元测试和端到端测试。项目还提供了详细的安装和使用说明，以及开发环境的推荐配置，方便开发者快速上手。
-
-* [DIYgod/DPlayer](https://github.com/DIYgod/DPlayer) DPlayer是一个可爱的HTML5弹幕视频播放器，旨在帮助用户轻松构建视频和弹幕。它支持多种流媒体格式（如HLS、FLV、MPEGDASH、WebTorrent）和媒体格式（如MP4 H.264、WebM、Ogg Theora Vorbis），并提供弹幕、截图、热键、画质切换、缩略图、字幕等功能。DPlayer还拥有丰富的插件生态，如DPlayer-thumbnails用于生成视频缩略图，DPlayer-node用于Node.js弹幕API，以及针对不同平台的插件，如Typecho、Hexo、WordPress等。
 
 * [react-native-image-picker/react-native-image-picker](https://github.com/react-native-image-picker/react-native-image-picker) react-native-image-picker 是一个 React Native 模块，允许你使用原生 UI 从设备库或直接从相机选择媒体。它支持从相册选择图片或视频，以及使用相机拍照或录像。该模块提供了 `launchCamera` 和 `launchImageLibrary` 两个方法，分别用于启动相机和图片库。你可以通过配置 `options` 参数来控制选择媒体的类型、大小等。该模块还提供了 `The Response Object`，用于接收选择结果，包含媒体路径、尺寸等信息。
 
-* [BuilderIO/builder](https://github.com/BuilderIO/builder) Builder.io 是一个可视化开发平台，支持 React、Vue、Svelte、Qwik 等框架。它可以将 Figma 设计转换为代码，并使用拖放功能构建组件，最后只需点击即可发布。Builder.io 通过连接到您的网站或应用程序，使用您现有的组件，从 Figma设计或其拖放编辑器中生成代码，并通过其 SDK 将代码导出或发布更新。您可以免费注册一个账户体验 Builder.io。该仓库包含了各种 SDK、使用示例、入门项目和插件。
-
-* [terkelg/prompts](https://github.com/terkelg/prompts) Prompts是一个轻量级、美观且用户友好的交互式提示库，它提供简单易用的 CLI 提示，用于向用户询问信息。Prompts没有依赖大型库，也不像其他库那样被拆分成许多只能协同工作的模块。它使用布局和颜色来创建美观的 CLI 界面，并使用 Promise 和 `async`/`await`，避免回调地狱。Prompts 的所有提示都是独立的，可以单独使用，并且提供了一种以编程方式提交答案的方式，确保一致的用户体验。
-
-* [gitbrent/PptxGenJS](https://github.com/gitbrent/PptxGenJS) 使用强大、简洁的 JavaScript API 创建 PowerPoint 演示文稿。此库创建与 Microsoft PowerPoint、Apple Keynote 和其他应用程序兼容的 Open Office XML （OOXML） 演示文稿。支持所有现代桌面和移动浏览器，与 Node、Angular、React 和 Electron 集成，与 PowerPoint、Keynote 等兼容。所有主要对象类型都可用（图表、形状、表格等），学术/企业品牌的母版幻灯片，SVG 图像、GIF 动画、YouTube 视频、RTL 文本和亚洲字体。
-
-* [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) Ladybird是一款基于 Web 标准的独立浏览器，旨在为现代网络构建一个完整可用的浏览器。它采用多进程架构，包括主 UI 进程、多个 WebContent 渲染进程、图像解码进程和请求服务器进程，以提高安全性。Ladybird 依赖于 SerenityOS 的核心库，如 LibWeb、LibJS、LibWasm 等，支持 Linux、macOS、Windows（使用 WSL2）等多种平台。用户可以在 Discord 服务器上参与开发讨论，并参考文档文件夹中的相关信息。
-
-* [getredash/redash](https://github.com/getredash/redash) 让您的公司以数据为导向。连接到任何数据源，轻松可视化、仪表板和共享您的数据。Redash 旨在使任何人，无论技术复杂程度如何，都能利用大大小小的数据的力量。SQL 用户利用 Redash 来探索、查询、可视化和共享来自任何数据源的数据。他们的工作反过来又使组织中的任何人都可以使用这些数据。每天，全球数千个组织中的数百万用户使用 Redash 来开发见解并做出数据驱动的决策。
-
-* [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) Zotero PDFTranslate是一款Zotero插件，可以将PDF、EPub、网页、元数据、注释和笔记翻译成目标语言，支持20多种翻译服务。用户可以选择文本进行翻译，翻译结果会显示在弹出窗口和右侧边栏中，也可以将翻译结果添加到注释或笔记中。插件还提供独立的翻译窗口，方便用户查看和比较来自多个引擎的翻译结果。用户可以通过快捷键`Ctrl+T`进行翻译，也可以手动选择翻译服务和目标语言。
-
 * [jpuri/react-draft-wysiwyg](https://github.com/jpuri/react-draft-wysiwyg) react-draft-wysiwyg是一个基于ReactJS和DraftJS的所见即所得(WYSIWYG)富文本编辑器，提供可配置工具栏（支持自定义控件、样式和图标）、多种文本样式和块类型支持（包括内联样式、标题、列表、链接等）、图片和嵌入链接支持、撤销/重做功能、多种内容格式转换（HTML、JSON、Markdown）以及国际化支持，可作为受控或不受控的React组件使用，项目地址：https://jpuri.github.io/react-draft-wysiwyg。
-
-* [alyssaxuu/omni](https://github.com/alyssaxuu/omni) Omni是一款浏览器增强工具，它提供了一个强大的命令界面，让你像专业人士一样使用浏览器。你可以通过命令搜索标签、书签、浏览历史记录，执行各种操作等等。Omni支持Chrome和Firefox浏览器，并提供丰富的功能，包括标签管理、书签管理、浏览历史搜索、50多个提升效率的操作、与Notion、Figma、Docs、Asana等工具集成、快捷键操作、高级设置等等，所有功能免费使用，无需登录。
 
 * [uber/react-digraph](https://github.com/uber/react-digraph) react-digraph是一个React组件库，用于轻松创建有向图编辑器，无需实现任何SVG绘图或事件处理逻辑。它支持节点和边的多选功能（通过Ctrl-Shift-鼠标事件），并提供丰富的回调函数（如`onCreateNode`、`onCreateEdge`等）用于自定义图编辑操作。  版本8.0.0引入了重大更改，包括合并onSelectNode/onSelectEdge为onSelect函数，并使用SelectionT对象管理选中节点和边。  需要安装react和react-dom作为依赖。
 
-* [thedaviddias/Front-End-Design-Checklist](https://github.com/thedaviddias/Front-End-Design-Checklist) 该项目提供了一个全面的前端设计清单，旨在帮助前端开发者分析和理解网页设计，确保前端开发的质量。清单涵盖了设计需求、分析和预备阶段、验证、开发阶段以及生产前准备等多个方面，包括网格系统、颜色、字体、链接、图片、表单、响应式设计等内容。开发者可以通过使用该清单与设计师进行沟通，确保所有重要元素都被考虑，并避免在开发过程中出现遗漏或问题。
-
 * [diegomura/react-pdf](https://github.com/diegomura/react-pdf) `react-pdf` 是一个基于 React 的库，用于在浏览器和服务器端创建 PDF 文件。它允许你使用 React 组件来构建 PDF 内容，并将其渲染成 PDF 文件。你可以使用 `PDFViewer` 组件在浏览器中直接渲染 PDF，或者使用 `ReactPDF.render` 方法将 PDF保存到文件。该项目提供了一些基本组件，例如 `Document`、`Page`、`Text`、`View` 和 `StyleSheet`，用于创建 PDF 内容。你也可以使用自定义组件来扩展 PDF 的功能。
-
-* [readthedocs/sphinx_rtd_theme](https://github.com/readthedocs/sphinx_rtd_theme) Read the Docs SphinxTheme 是一个为桌面和移动设备提供出色阅读体验的 Sphinx 主题，主要用于 Read the Docs，但可以与任何 Sphinx 项目配合使用。该主题高度可定制，支持多种配置选项，并提供详细的文档和示例。用户可以通过 pip 安装该主题，并在 Sphinx 项目的 conf.py 文件中设置 html_theme 为 &quot;sphinx_rtd_theme&quot; 来使用它。该项目还提供贡献指南，欢迎开发者参与主题的修改和翻译。
-
-* [mdbootstrap/material-design-for-bootstrap](https://github.com/mdbootstrap/material-design-for-bootstrap) Material Design for Bootstrap4 是一个免费的 Bootstrap 4 UI 工具包，包含 700多个组件，支持 MIT 许可证，简单易安装。它由MDBootstrap 创建，受到 200 万开发者和设计师的信赖，并被 NASA、Nike、Amazon 等知名公司和机构使用。该项目提供多种安装方式，包括 .zip、npm 或 cdnjs，并提供免费的 MDBGO 托管服务，支持 WordPress 集成，提供自定义域名、SSL 支持、免费数据库、前端和后端模板等功能。
 
 * [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit) dnd-kit是一个轻量级、高性能、易访问且可扩展的React拖放工具包，它基于React Hooks（`useDraggable`和`useDroppable`）构建，无需重构应用或添加额外DOM节点。dnd-kit支持多种用例（列表、网格、嵌套上下文等），具有自定义碰撞检测算法、多种激活器、拖动覆盖层等特性，并内置对多种输入方式（指针、鼠标、触摸和键盘）以及辅助功能的支持，其核心库大小约为10kb，无外部依赖。
 
-* [ai/easings.net](https://github.com/ai/easings.net) 缓动函数 ：自定义参数随时间变化的速率。 现实生活中，物体并不是突然启动或者停止， 当然也不可能一直保持匀速移动。就像我们 打开抽屉的过程那样，刚开始拉的那一下动作很快， 但是当抽屉被拉出来之后我们会不自觉的放慢动作。 或是掉落在地板上的物体，一开始下降的速度很快， 接着就会在地板上来回反弹直到停止。 这个页面将帮助你选择正确的缓动函数。
-
-* [primefaces/primeng](https://github.com/primefaces/primeng) 使用 PrimeNG 的全面可定制、功能丰富的 UI 组件套件提升您的 Web 应用程序。有了 PrimeNG，将您的开发愿景变为现实从未如此简单。在与设计无关的基础设施上精心制作，可从大量主题（如 Material、Bootstrap、Tailwind、PrimeOne）中进行选择或开发您自己的主题。400+ 准备好复制粘贴 UI 块，以立即构建出色的应用程序。专业设计、高度可定制的应用程序模板，以时尚的方式开始。
-
-* [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) 这是一个为开发者和 IT 从业者提供实用在线工具的项目，拥有出色的用户体验。你可以访问 [https://it-tools.tech](https://it-tools.tech) 体验这些工具。该项目提供自托管解决方案，可通过 Docker Hub、GitHub Packages 或其他平台（如 Cloudron、Tipi和 Unraid）进行部署。你也可以通过 GitHub 提交功能请求或参与贡献。该项目使用 Vue.js 和 TypeScript 开发，并提供详细的开发指南和代码示例。
-
 * [downshift-js/downshift](https://github.com/downshift-js/downshift) Downshift是一个用于构建简单、灵活、符合WAI-ARIA规范的React自动完成、组合框或下拉选择组件的React Hooks库。它提供`useSelect`、`useCombobox`和`useMultipleSelection`等Hooks，简化了构建无障碍组件的流程，并支持最新的ARIA组合框模式。此外，Downshift还提供一个`Downshift`组件（使用render prop），但推荐使用更新的Hooks。  该库旨在解决构建易访问且灵活的自动完成和选择组件的难题。
-
-* [flexxui/flexx](https://github.com/flexxui/flexx) Flexx是一个纯Python库，用于创建图形用户界面（GUI），它使用Web技术进行渲染，并通过PScript编译器动态生成JavaScript代码。你可以用它创建跨平台的桌面应用、网页应用，并导出为独立的HTML文档，也支持在Jupyter Notebook中使用。Flexx旨在提供一个单一的应用框架，以简化桌面应用、网页应用的开发，并具有良好的可维护性，但需注意区分服务器端和浏览器端的Python代码。
-
-* [ParthJadhav/Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer) Tkinter Designer是一个使用Figma设计软件快速创建Python GUI的工具，它通过分析Figma设计文件生成相应的代码和文件，简化了GUI开发过程。该项目支持多帧设计，用户可以在一个设计文件中创建多个框架，并生成相应的代码和文件。Tkinter Designer的优势在于其拖放式界面，比手动编写代码更快，并能生成更美观的界面。用户可以通过YouTube视频或项目文档了解详细的使用说明。
 
 * [web-infra-dev/modern.js](https://github.com/web-infra-dev/modern.js) Modern.js是字节跳动开源的现代化 Web 工程体系，包含 Modern.js框架和 Modern.js 模块两部分。Modern.js 框架是一个渐进式 React 框架，用于 Web 开发；Modern.js 模块则提供强大的 npm 包开发解决方案。Modern.js 生态系统包含Rspack、Rsbuild、Rspress、Garfish、Reduck、SWC 插件等工具和库，并提供丰富的示例和文档。Modern.js 致力于提升 Web 开发效率和体验，并持续迭代更新，欢迎参与贡献。
 
-* [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) 基于 Vue3.x + TypeScript 的在线演示文稿（幻灯片）应用，还原了大部分 Office PowerPoint 常用功能，支持 文字、图片、形状、线条、图表、表格、视频、音频、公式 几种最常用的元素类型，每一种元素都拥有高度可编辑能力，同时支持丰富的快捷键和右键菜单，支持导出本地 PPTX 文件，支持移动端基础编辑和预览，支持 PWA。您可以在此基础上搭建自己的在线幻灯片应用。
-
-* [zedeus/nitter](https://github.com/zedeus/nitter) 一个免费和开源的替代Twitter前端，专注于隐私和性能。灵感来自Invidious项目。没有 JavaScript 或广告。所有请求都通过后端，客户端从不与 Twitter 交谈。阻止 Twitter 跟踪您的 IP 或 JavaScript 指纹。使用 Twitter 的非官方 API（无需速率限制或开发者帐户）。轻量级（@nim_lang，60KB vs 784KB twitter.com）。RSS 订阅源。主题。移动支持（响应式设计）。AGPLv3 许可，不允许专有实例。
-
-* [tabulapdf/tabula](https://github.com/tabulapdf/tabula) Tabula是一款开源工具，用于从 PDF 文件中提取表格数据。它通过简单的网页界面，将 PDF 文件中的表格数据转换为 CSV 格式。Tabula仅适用于文本型 PDF 文件，不支持扫描文档。Tabula 在本地运行，确保数据安全，不会将您的 PDF 文件或提取的数据上传到网络。该项目目前处于维护状态，主要更新集中在 `tabula-java` 库上，该库提供命令行界面和 Java 库，用于提取表格数据。
+* [nicoalbanese/kirimase](https://github.com/nicoalbanese/kirimase) Kirimase是一个命令行工具，用于加速构建全栈Next.js应用。它通过快速集成包和使用最佳实践搭建应用资源来提升开发效率。其主要功能包括初始化和配置必要的包，以及从命令行生成模型、视图和控制器。Kirimase支持多种数据库ORM（Drizzle-ORM和Prisma）、身份验证方案（Auth.js、Clerk、Lucia和Kinde）等，并提供相应的代码生成和配置。目前项目正在计划重写，仅修复严重bug。
 
 * [preactjs/preact](https://github.com/preactjs/preact) 具有相同现代 API 的快速 3kB React 替代品。组件和虚拟 DOM。虚拟 DOM 组件的所有功能，无开销；熟悉的 React API 和模式：ES6 类、钩子和功能组件；通过简单的 preact/compat 别名实现广泛的 React 兼容性；您需要的一切：JSX、VDOM、DevTools、HMR、SSR；高度优化的差异算法和来自服务器端渲染的无缝水化；支持所有现代浏览器和 IE11；使用可插拔调度程序进行透明异步渲染。
 
 * [ramonszo/zuck.js](https://github.com/ramonszo/zuck.js) zuck.js是一个 JavaScript 库，可以让你在任何地方添加类似于 Facebook Stories 的功能。它可以从任何数据源（如 JSON、Firebase 等）读取故事，并自动生成类似于 Facebook、Instagram、Snapchat 等平台的故事界面。该库支持自定义 CSS 主题、手势操作、自定义事件和模板，并提供简单易用的 API 来管理故事时间线。它还支持 3D 立方体效果、React 和 RTL，并提供 TypeScript 类型定义。
 
-* [andrew--r/frontend-case-studies](https://github.com/andrew--r/frontend-case-studies) 这是一个精选的企业级前端开发技术演讲和文章列表，旨在帮助开发者了解如何将框架和技术应用于现实世界中的问题，并解决大规模应用的挑战。该项目收录了来自 AdRoll、Airbnb、Amazon、Atlassian、BBC、Bloomberg、BuzzFeed、Cloudflare、Dropbox、eBay、Etsy、Facebook、Figma、GitHub、Google、Instagram、LinkedIn、Netflix、PayPal、Pinterest、Reddit、Shopify、Slack 等众多知名公司的案例研究。
-
 * [appbaseio/reactivesearch](https://github.com/appbaseio/reactivesearch) ReactiveSearch是一个用于React和Vue的UI组件库，用于构建与Elasticsearch、OpenSearch、Solr和MongoDB交互的搜索界面。它提供超过20个UI组件，包括列表、范围滑块、搜索UI、结果显示和图表等，并支持将现有UI组件集成到库中。组件通过应用过滤器或搜索索引来实现搜索和过滤功能，例如`SingleList`组件应用精确匹配过滤器。  该项目还提供React Native和Flutter的替代方案Searchbox。
-
-* [antvis/F2](https://github.com/antvis/F2) F2是一个专注于移动端的可视化图表库，提供简洁、交互式且灵活的图表绘制方案，完美适配 H5 页面、小程序、Weex 等多种移动端环境。F2 基于 Grammar of Graphics 理念构建，拥有完善的图表语法体系，便于用户快速构建各种图表类型。F2 针对移动端场景优化，拥有轻量级的体积和高效的渲染性能，并提供丰富的图表交互功能，帮助开发者快速构建移动端图表应用。
 
 * [nodegui/react-nodegui](https://github.com/nodegui/react-nodegui) React NodeGUI是一个使用 React 构建高性能、原生、跨平台桌面应用程序的框架，它不再维护，但可供开发者自行维护。它基于 React和 Qt5，比 Electron 等基于 Chromium 的解决方案更节省 CPU 和内存。React NodeGUI 实际上是 NodeGUI 的 React 渲染器，提供完整的 Node.js API 支持，并支持 CSS 样式和 Flexbox 布局。它还支持原生小部件事件监听器、良好的开发者工具和TypeScript 支持。
 
-* [ml-tooling/best-of-web-python](https://github.com/ml-tooling/best-of-web-python) 该项目是一个精心整理的 Python Web 开发库列表，包含 580 个开源项目，总计 300 万颗星，涵盖 26 个类别。所有项目都根据项目质量评分进行排名，该评分基于从 GitHub 和不同包管理器自动收集的各种指标计算得出。您可以通过提交问题、拉取请求或直接编辑项目文件来添加或更新项目。该项目还提供其他最佳列表资源，并提供订阅以获取更新和趋势项目信息。
-
-* [dotnet/eShop](https://github.com/dotnet/eShop) eShop是一个使用 .NET Aspire 构建的电商网站参考应用程序，采用服务化架构，提供完整的电商网站功能。项目提供 Docker 部署方式，支持 Windows、Mac 和 Linux 平台，并提供 Visual Studio 和 Visual Studio Code 开发环境配置指南。用户可以通过命令行或 Visual Studio 启动应用程序，并通过提供的 URL 访问 Aspire 仪表盘。该项目还集成了 Azure OpenAI 功能，可用于增强用户体验。
-
 * [solidSpoon/DashPlayer](https://github.com/solidSpoon/DashPlayer) DashPlayer是一款专为英语学习者设计的视频播放器，它能帮助你通过观看视频、沉浸真实语境，轻松提升英语水平。DashPlayer 支持 macOS和 Windows 系统，并使用 React、Electron 和 TypeScript 开发。它可以让你像观看美剧一样学习英语，无需担心字幕或生词，并提供多种学习功能，例如：生词记忆、句子翻译、语音识别等。你可以通过官方网站或 Wiki 获取更多信息。
 
-* [tapexyz/tape](https://github.com/tapexyz/tape) Tape是一个开源的媒体分享平台，它使用 Pnpm 作为包管理器，包含多个应用程序和包，例如前端应用程序、视频嵌入播放器、后台任务、API、元标签生成器和无许可注册合约。用户可以在 Discord 社区中讨论功能、提出想法或寻求帮助。开发者可以通过安装依赖项、启动应用程序并访问 http://localhost:4783 来开始使用 Tape。代码库是开源的，并使用 AGPLv3许可证。
-
 * [JedWatson/react-select](https://github.com/JedWatson/react-select) React-Select是用于React.js的强大选择组件，支持灵活的数据处理、可扩展的样式API（基于emotion）、组件注入API以实现UI行为的完全控制以及可控状态属性和模块化架构。它开箱即用，易于定制，并包含选项分组、Portal支持和动画等功能，可通过npm安装，并提供丰富的属性配置，例如`isMulti` (多选)、`isSearchable` (可搜索)等，方便开发者创建各种自定义选择器。
-
-* [fresns/fresns](https://github.com/fresns/fresns) Fresns是一款免费开源的跨平台通用型社交网络服务软件，支持灵活多样的内容形式，可满足各种运营场景。它采用模块化设计，易于二次开发，支持多种数据库，包括 MySQL、MariaDB、PostgreSQL、SQL Server 和 SQLite。用户可通过官方文档进行安装和操作，开发者可参考扩展文档和数据库结构进行开发。Fresns 提供丰富的 API 接口，方便 Web 和 App 开发者进行集成。
 
 * [reactjs/react-tabs](https://github.com/reactjs/react-tabs) react-tabs是一个易于使用的、可访问的ReactJS标签组件，它包含四个组件（Tabs, TabList, TabPanel, Tab）协同工作。 通过简单的API和属性配置，例如`defaultIndex`设置初始选中标签，`direction`设置标签方向，`disabledTabClassName`设置禁用标签样式等，开发者可以轻松创建可访问且功能强大的标签页。该组件已在真实移动设备和浏览器上测试，并支持受控和非受控模式。
 
 * [styletron/styletron](https://github.com/styletron/styletron) Styletron是一个用于组件化样式的通用工具包，属于CSS in JS范畴，它与React配合良好，但也支持其他框架或纯JS。Styletron通过创建无状态的单元素样式化组件并使用属性接口实现条件/动态样式，其设计原则注重组件化、类型化JavaScript和可移植性，无需额外工具即可使用。项目提供React相关包(styletron-react)以及其他引擎和标准包，详细文档请访问styletron.org。
 
-* [RitikPatni/Front-End-Web-Development-Resources](https://github.com/RitikPatni/Front-End-Web-Development-Resources) 这是一个面向前端开发者的开源资源库，包含大量学习资料和工具，涵盖了从基础知识到进阶技能的各个方面，例如 Flexbox 和 Grid布局指南、命令行工具使用教程、代码编辑器扩展推荐、CSS 框架、图标库、颜色搭配、字体选择、设计灵感、动画框架、地理位置 API、模拟工具、书籍推荐、挑战练习、免费学生工具等，旨在帮助开发者提升前端开发技能。
-
-* [jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp) 用于构建超文本应用程序的 1kB 式 JavaScript 框架，最大限度地减少了完成工作所需的学习概念。视图、操作、效果和订阅都非常容易掌握并无缝协作。Hyperapp 具有易于阅读且编写有趣的声明式 API，是使用惯用 JavaScript 构建功能纯、功能丰富、基于浏览器的应用程序的最佳方式。超轻量级的虚拟 DOM、高度优化的差异算法和痴迷于极简主义的状态管理库。
-
-* [antfu-collective/icones](https://github.com/antfu-collective/icones) Icxc3xb4nes 是一个基于 Iconify 的图标浏览器，支持即时模糊搜索，无需网络查询。它提供了一系列功能，包括图标包功能（可将选定的图标打包成可直接使用的图标字体）、复制使用脚本、直接下载 SVG、移动端友好、收藏夹功能、分类筛选、暗黑模式等。Icxc3xb4nes 使用 Vite 和 Vue 3 构建，并提供 VS Code 扩展。未来计划推出 Electron 客户端和完全离线模式。
-
-* [Tencent/omi](https://github.com/Tencent/omi) Omi - Web 组件框架，通过无功信号进行信号驱动的无功编程；100+ OMI模板和OMI模板源代码；OMI表单和OMI表单游乐场和Lucide Omi图标；OMIU预览正在进行中&amp;OMIU源代码；体积小，性能快；您需要的一切：Web 组件、JSX、函数组件、路由器、悬念、指令、Tailwindcss......；支持面向对象编程（OOP）和面向数据编程（DOP）；利用可构建的样式表轻松管理和共享样式
-
 * [welldone-software/why-did-you-render](https://github.com/welldone-software/why-did-you-render) Welldone Software开发的why-did-you-render通过Monkey Patch的方式修改React，帮助开发者识别React组件中可能存在的冗余渲染，从而优化性能。它支持React和React Native，能追踪组件何时以及为何重新渲染，并特别指出由于props传递导致的无谓渲染，例如传递style={{width: '100%'}}给大型纯组件。安装方便，需在开发环境下使用，并注意React版本和配置（例如Babel配置）。
 
-* [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) Twin.macro是一个在构建时将Tailwind CSS的便捷性和css-in-js库（如Emotion、styled-components等）的灵活性结合起来的工具。它通过Babel在编译阶段将Tailwind类名转换为CSS对象，并将其传递给选择的css-in-js库，无需额外客户端包，从而保持构建体积小巧。  它支持多种使用方式，例如直接在jsx元素上使用`tw`宏，或在css-in-js库中混合使用Tailwind类名和自定义样式。
-
-* [nuxt/nuxt](https://github.com/nuxt/nuxt) 免费的开源框架，具有直观且可扩展的方式，可以使用 Vue.js 创建类型安全、高性能和生产级的全栈 Web 应用程序和网站。它提供了许多功能，可以轻松构建快速、SEO 友好且可扩展的 Web 应用程序，包括：服务器端渲染、静态站点生成或混合渲染；具有代码拆分功能的自动路由；状态管理；SEO优化；自动导入；可扩展 180+ 模块；部署到各种托管平台
-
-* [didi/cube-ui](https://github.com/didi/cube-ui) cube-ui是一个基于 Vue 的移动端 UI 库，它提供了丰富的组件，例如按钮、动作面板等，帮助开发者快速构建移动应用界面。cube-ui支持模块化使用，开发者可以根据需要选择使用特定组件。项目提供详细的文档和示例，并提供 CLI 工具方便开发者快速创建项目。cube-ui 是滴滴出行开源的项目，还有其他优秀的开源项目，例如 Mpx、Chameleon、mand-mobile 等。
+* [gluestack/gluestack-ui](https://github.com/gluestack/gluestack-ui) Gluestack-UI是一个基于React和React Native的组件库，提供可直接复制粘贴的、使用Tailwind CSS (NativeWind) 样式化的组件和模式。它采用模块化架构，支持React服务器组件，并提供一致的Web和移动端设计，方便用户自定义主题和样式，同时注重无障碍性，并拥有活跃的社区支持和频繁的更新。通过`npx gluestack-ui init`命令安装，详细文档可在gluestack.io/ui/docs查看。
 
 * [reactive-python/reactpy](https://github.com/reactive-python/reactpy) ReactPy是一个使用 Python 构建用户界面的库，无需 JavaScript。它提供类似于 ReactJS 的组件，简化了界面开发，即使没有 Web开发经验也能轻松上手。ReactPy 支持 Flask、FastAPI、Sanic、Tornado 等内置服务器，并提供 Django、Jupyter 和 Plotly-Dash 等外部服务器扩展。示例代码展示了使用 ReactPy 创建一个简单的 &quot;Hello World&quot; 应用程序，只需几行代码即可实现。
-
-* [zyronon/douyin](https://github.com/zyronon/douyin) Vue3 + Pinia 仿抖音，Vue 在移动端的最佳实践 .模仿 TikTok 、Vue 移动端最佳实践。douyin-vue 是一个模仿 抖音|TikTok 的移动端短视频项目。Vue 在移动端的”最佳实践”，媲美原生 App 丝滑流畅的使用体验。使用了最新的 Vue 技术栈，基于 Vue3、Vite5 、Pinia实现。数据保存在项目本地，通过 axios-mock-adapter 库拦截Api 并返回本地json数据，模拟真实后端请求。
-
-* [golang-ui/nuklear](https://github.com/golang-ui/nuklear) 该项目为 Nuklear.h 提供 Go 语言绑定，Nuklear.h 是一个小型 ANSI C GUI 库。它使用自动生成的绑定代码，并提供对Nuklear 的所有功能的访问，包括即时模式 GUI、可定制性、低内存占用和跨平台支持。该项目支持 Windows、OS X、Linux 和 Android 平台，并提供 GLFW 和 SDL2 的渲染后端。用户可以使用 Go 语言编写应用程序逻辑，并使用 Nuklear 的 API构建用户界面。
-
-* [ochococo/Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift) 这是一个使用 Swift 5.0 实现设计模式的项目，包含行为型、创建型和结构型三种模式，并提供 Xcode 10.2 Playground文件，方便学习和使用。项目由 [@nsmeme](http://twitter.com/nsmeme) (Oktawian Chojnacki) 创建，并由[@binglogo](https://twitter.com/binglogo) 翻译成中文。项目包含详细的代码示例和解释，并提供 CONTRIBUTING.md 文件，指导如何生成 README、Playground 和 zip 文件。
-
-* [sachinchoolur/lightGallery](https://github.com/sachinchoolur/lightGallery) lightGallery是一个可定制、模块化、响应式的lightbox图库插件，无需依赖，支持React、Angular、Vue.js和TypeScript。它具有丰富的功能，例如响应式设计、模块化架构、触摸设备优化、多种动画效果、社交分享、视频支持、缩放、全屏支持、键盘导航、以及易于通过CSS和设置进行自定义等，并提供详细文档和多种安装方式（NPM、Yarn、Bower、CDN和GitHub）。
-
-* [jglovier/resume-template](https://github.com/jglovier/resume-template) 这是一个基于 Jekyll 和 GitHub Pages 的简单简历模板，提供本地运行和 Docker运行方式，方便用户测试和定制。用户可以通过修改 `/_config.yml` 文件和 `/_layouts/resume.html` 文件进行个性化设置，并可免费发布到 GitHub Pages。项目提供路线图和贡献指南，鼓励用户参与改进。项目代码和样式采用 MIT 许可证，但模板中的示例内容不可用于用户自己的简历。
 
 * [unlayer/react-email-editor](https://github.com/unlayer/react-email-editor) 这是一个基于React.js的拖拽式邮件编辑器组件，它封装了Unlayer强大的可视化邮件构建器，方便开发者在应用中集成。用户可通过npm安装，并使用JSX渲染组件，调用其提供的loadDesign、saveDesign和exportHtml等方法来加载、保存和导出邮件设计。该组件提供多种属性配置，并支持Unlayer的所有方法，详情可参考Unlayer文档及项目提供的示例代码和演示。
 
 * [reduxjs/redux](https://github.com/reduxjs/redux) JavaScript 应用的可预测状态容器，可以帮助您编写行为一致、在不同环境（客户端、服务器和本机）中运行且易于测试的应用程序。最重要的是，它提供了出色的开发人员体验，例如实时代码编辑与时间旅行调试器相结合。您可以将 Redux 与 React 或任何其他视图库一起使用。Redux 核心很小（2kB，包括依赖项），并且具有丰富的插件生态系统。
 
-* [revolist/revogrid](https://github.com/revolist/revogrid) RevoGrid是一个高性能的虚拟数据表格组件，使用StencilJS构建，支持百万级单元格和数千列，具有极快的渲染速度。它结合了Excel的优秀特性，并具有智能虚拟DOM、虚拟滚动等技术以优化性能，支持公式计算、主子表、拖拽、排序、过滤、导出、单元格合并、自定义模板等高级功能，并提供丰富的可定制选项，例如列类型、单元格编辑器等。
-
-* [2227324689/gpmall](https://github.com/2227324689/gpmall) 咕泡学院实战项目“咕泡商城”是一个基于SpringBoot+Dubbo构建的电商平台，采用微服务架构，包含商城、电商、微服务、高并发、kafka、Elasticsearch等技术。该项目旨在帮助学员深入理解微服务架构，并提供一个实际的电商平台构建经验，涵盖了业务逻辑、技术实现、性能优化等方面，适合想要学习微服务架构和电商平台开发的Java开发者。
-
-* [styled-components/polished](https://github.com/styled-components/polished) Polished是一个轻量级的JavaScript样式工具集，提供Sass风格的辅助函数和mixin，方便开发者在JavaScript中编写样式。它兼容多种框架（如styled-components、emotion等），支持Webpack和Rollup的tree shaking以减小bundle体积，并提供Flow和TypeScript定义，以及Babel插件以优化性能。  Polished让开发者轻松创建美观的应用，并简化从预处理器到JS样式的迁移过程。
-
 * [heroku/react-refetch](https://github.com/heroku/react-refetch) ReactRefetch是一个简单、声明式且可组合的React组件数据获取库，它通过`connect()`装饰器将组件属性映射到数据请求URL，从而简化数据获取流程，避免了在组件内部直接处理数据请求的复杂性，使组件保持无状态。该库支持懒加载、轮询和数据提交等高级功能，并受React Redux启发，但更适用于主要从服务器获取和渲染只读数据的应用场景。
-
-* [BrowserBox/BrowserBox](https://github.com/BrowserBox/BrowserBox) 从服务器上运行的浏览器浏览 Web，而不是在本地设备上。轻量级虚拟浏览器。为了安全、隐私等。基于 Web 的小型浏览器，可以嵌入到任何地方。它也是多人游戏，允许许多客户端同时在屏幕上共享相同的浏览会话。它轻巧且快速，消耗最少的系统资源，同时调整其流媒体质量，以利用尽可能多的带宽来提供低延迟、响应迅速的体验。
-
-* [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) awesome-shadcn-ui 是一个精选的列表，包含与 shadcn/ui 相关的各种资源，包括组件库、示例项目和工具。该项目旨在帮助开发者更方便地使用 shadcn/ui，并提供一些灵感和参考。项目特色包括：提供各种组件库，方便开发者快速构建用户界面；包含示例项目，展示如何使用 shadcn/ui 构建实际应用；提供工具，帮助开发者更有效地使用 shadcn/ui。
-
-* [elkowar/eww](https://github.com/elkowar/eww) Eww是一个用 Rust 编写的独立小部件系统，允许你在任何窗口管理器中实现自定义小部件。它提供详细的文档和安装指南，并支持多种配置方式。Eww 拥有丰富的示例，包括基本状态栏、垂直状态栏、自定义设置等，用户可以根据自己的需求进行定制。Eww 鼓励用户贡献代码，例如添加新的小部件、功能或子命令，并提供详细的贡献步骤。
-
-* [ustbhuangyi/better-scroll](https://github.com/ustbhuangyi/better-scroll) BetterScroll是一款基于 iscroll 的移动端滚动插件，它提供了更多功能和更优的滚动性能。BetterScroll 使用纯 JavaScript 实现，无需依赖其他库。它可以轻松实现列表滚动等常见场景，只需将 BetterScroll 应用于外层容器，并指定滚动内容即可。BetterScroll 默认处理容器第一个子元素的滚动，但也可以通过 `specifiedIndexAsContent` 选项指定其他元素。
-
-* [Avaiga/taipy](https://github.com/Avaiga/taipy) 立即将数据和 AI 算法转换为生产就绪型 Web 应用程序。开发应用程序的前端，而无需了解 HTML、CSS 和 JS。通过简单的语法，加速创建可自定义的多页仪表板，并生成交互式界面，包括图表和各种广泛使用的控件。对数据流进行建模并编排管道。在存储、记录和可操作方案（管道执行）时对其进行管理，从而实现假设分析或 KPI 比较。
-
-* [unoplatform/uno](https://github.com/unoplatform/uno) 使用 C# 和 XAML 构建移动、桌面和 WebAssembly 应用。开源和专业支持。它允许 C# 和 WinUI XAML 和/或 C# 代码在所有目标平台上运行，同时允许你控制每个像素。它开箱即用地支持 Fluent、Material 和 Cupertino 设计系统。Uno 平台实现了越来越多的 WinRT 和 WinUI API，例如 Microsoft.UI.Xaml，以使 WinUI 应用程序能够在具有本机性能的所有平台上运行。
 
 * [plasmicapp/plasmic](https://github.com/plasmicapp/plasmic) Plasmic是一个开源的 React 可视化构建器，允许你快速构建应用程序和网站，无需编写代码。它支持拖放组件，并与你的代码库集成，打破了低代码工具的局限性。Plasmic 可以用于内容管理、应用程序开发以及网站构建，它结合了网站构建器、工具构建器、无代码应用程序构建器和 CMS 的功能，为不同类型的项目提供统一的解决方案。
 
 * [vhpoet/react-native-styling-cheat-sheet](https://github.com/vhpoet/react-native-styling-cheat-sheet) React NativeStyling Cheat Sheet 是一个方便的资源，它将 React Native 样式相关的资料集中在一个页面上，方便开发者快速查找和使用。该项目从官方文档中提取了大量内容，并以表格的形式列出了各个样式属性的名称、类型、默认值和描述，涵盖了 Flexbox、ShadowPropTypesIOS、Transforms 以及 Image、ScrollView、Text、TextInput、View 等组件的样式属性。
 
-* [surveyjs/survey-library](https://github.com/surveyjs/survey-library) SurveyJS是一个免费的JavaScript表单构建库，支持React、Angular、Vue、jQuery和Knockout等框架，可创建动态JSON表单，收集回复并发送数据到任意数据库。它支持多页表单、弹出式调查、测验等多种形式，并提供表单构建器生成JSON配置。该库使用JSON对象与服务器交互，所有数据存储在您自己的服务器上，并提供丰富的输入类型和验证功能。
-
 * [reactjs/react.dev](https://github.com/reactjs/react.dev) react.dev是 React 官方文档网站的源代码仓库，使用 Next.js 构建，包含 React 文档、示例代码和相关工具。开发者可通过该仓库获取React 文档的最新版本，并参与文档的贡献和翻译工作，所有贡献内容遵循 CC-BY-4.0 许可协议。开发者可通过克隆仓库、安装依赖、运行开发服务器等步骤在本地运行该网站，并进行文档修改、测试和提交。
-
-* [badges/shields](https://github.com/badges/shields) 以 SVG 和光栅格式提供简洁、一致且清晰的徽章的服务，可以轻松包含在 GitHub 自述文件或任何其他网页中。该服务支持数十种持续集成服务、软件包注册表、发行版、应用商店、社交网络、代码覆盖服务和代码分析服务。它每月提供超过 8.7 亿张图像，并被世界上一些最受欢迎的开源项目使用，包括 VS Code、Vue.js 和 Bootstrap 等。
-
-* [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) Awesome Design Tools是一个收集了各种设计工具和插件的资源库，涵盖了设计流程的各个方面，包括可访问性工具、动画工具、协作工具、原型设计工具等。该项目由 Flawless App 团队维护，现已加入 Abstract 公司。用户可以通过目录或关键词搜索找到所需工具，也可以提交新的工具或插件。项目鼓励用户贡献，并提供简单的贡献指南。
 
 * [jsx-eslint/eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) ESLint插件`eslint-plugin-react`提供React相关的代码风格检查规则。它通过安装并配置到ESLint中使用，能自动检测React代码中的潜在问题，例如JSX语法错误、组件属性错误等。  该插件支持自定义配置，例如React版本、JSX转换方式以及自定义组件包装函数等，以适应不同的项目需求。  安装方法为`npm install eslint eslint-plugin-react --save-dev`。
 
-* [gristlabs/grist-core](https://github.com/gristlabs/grist-core) Grist 是电子表格的演变。它结合了电子表格的灵活性和数据库的健壮性。grist-core （此存储库）具有运行强大的电子表格托管服务器所需的一切。grist-electron 是一款 Linux/macOS/Windows 桌面应用程序，用于查看和编辑本地存储的电子表格。grist-static 是 Grist 的完全浏览器内构建，用于在没有后端支持的情况下在网站上显示电子表格。
-
 * [formatjs/formatjs](https://github.com/formatjs/formatjs) FormatJS是一个包含多个库的单体仓库，其中最著名的是react-intl。它提供国际化和本地化解决方案，帮助开发者轻松地将应用翻译成多种语言。该项目包含多个npm包，例如用于命令行工具、日期时间格式化、显示名称和列表格式化的包，并提供Slack社区支持。其核心是基于ICU消息格式，实现高效且准确的文本格式化和本地化。
 
-* [kando-menu/kando](https://github.com/kando-menu/kando) Kando是一款跨平台的圆形菜单，为你的桌面提供一种非传统、快速、高效且有趣的方式与电脑交互。你可以使用 Kando 启动应用程序、模拟键盘快捷键、打开文件等等。Kando 支持鼠标、触控笔和触控输入，适用于需要频繁使用鼠标或触控笔的用户。Kando 已在 Windows、macOS、GNOME/X11、GNOME/Wayland、KDE/X11 和 KDE/Wayland等平台上测试。
-
-* [CosmicMind/Material](https://github.com/CosmicMind/Material) 用于创建美观应用程序的 UI/UX 框架。Material 的动画系统已经过完全重新设计，以利用 Motion，一个专门用于动画和过渡的库。特征：完全可定制、运动动画和过渡、用于自动布局和网格系统的布局工具、颜色库、卡、FABMenu、图标、文本字段、Snackbar、制表符、芯片、搜索栏、导航控制器、导航抽屉、底部导航栏、示例项目
-
-* [vitejs/vite](https://github.com/vitejs/vite) Vite（法语中“快速”的意思，发音 `/vit/` 为“veet”）是一种新型的前端构建工具，可显著改善前端开发体验。主要组成：通过本机 ES 模块提供源文件的开发服务器，具有丰富的内置功能和惊人的快速热模块替换 （HMR）。将代码与 Rollup 捆绑在一起的生成命令，经过预配置，可输出高度优化的静态资产以用于生产环境。
-
 * [pinterest/gestalt](https://github.com/pinterest/gestalt) Gestalt是Pinterest的开源React UI组件库，遵循Pinterest的设计语言规范，包含全面的指南、最佳实践和工具，方便设计师和工程师构建高质量产品；它支持npm和yarn安装，并提供ES6模块和预编译CSS文件；项目采用monorepo结构，支持TypeScript，但主要服务于Pinterest内部，外部开发者提供的功能请求和问题反馈可能无法得到及时响应。
-
-* [FrontEndGitHub/FrontEndGitHub](https://github.com/FrontEndGitHub/FrontEndGitHub) 这是一个GitHub仓库，汇集了最全面的前端资源，涵盖前端学习、开发资源、数据结构与算法、开发工具、求职面试等多个方面。该项目旨在帮助前端开发者快速获取优质资源，提升学习效率，并提供便捷的学习路径。仓库包含超过10个类别，覆盖了JavaScript、Vue、React、Node、小程序、Flutter、Deno、HTML、CSS等热门技术领域。
 
 * [i18next/react-i18next](https://github.com/i18next/react-i18next) react-i18next 是一个基于 i18next 国际化生态系统的React 国际化解决方案，它能让你轻松地将你的 React 应用翻译成多种语言。通过简单的组件和 API，你可以使用 `t` 函数和 `u003cTransu003e` 组件替换你的文本，实现高效的国际化，其文档位于 react.i18next.com。  v10及以上版本使用Hooks，v9版本为传统版本，可通过npm安装不同版本。
 
 * [PlasmoHQ/plasmo](https://github.com/PlasmoHQ/plasmo) Plasmo是一个面向开发者的浏览器扩展框架，它简化了扩展开发流程，并提供丰富的功能，例如 React 和 Typescript 支持、声明式开发、内容脚本 UI、标签页、实时重载、环境变量、存储和消息 API、远程代码捆绑、多浏览器和清单支持、自动部署等。Plasmo还支持 Svelte 和 Vue，并提供 Firebase 认证、Redux 和 Supabase 认证等示例。
-
-* [getnikola/nikola](https://github.com/getnikola/nikola) Nikola是一个静态网站和博客生成器，它将内容转换为可部署的网站。它具有博客功能（标签、Feed、存档、评论等）、主题定制、快速构建、丰富的插件、支持多种输入语言（reStructuredText、Markdown等）、图像库、语法高亮、多语言支持等特性，并基于Python 3.8+，通过pip安装即可使用，安全、资源占用少且避免厂商锁定。
 
 * [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) ReactTesting Library是一个轻量级的React组件测试工具库，它鼓励良好的测试实践，避免测试中包含组件的实现细节，从而提高测试的可维护性。其核心原则是：测试越接近软件的使用方式，就能提供越高的信心。该库基于react-dom和react-dom/test-utils，通过npm或yarn安装，需要安装`@testing-library/react`和`@testing-library/dom`两个包。
 
@@ -6806,31 +6614,17 @@
 
 * [necolas/react-native-web](https://github.com/necolas/react-native-web) 跨平台的 React UI 包。可访问的 HTML，支持不同的设备和输入模式，渲染语义标签。高质量的互动，支持手势和多种输入模式（触摸、鼠标、键盘）。可靠的款式，依赖作用域样式和自动供应商前缀，支持 RTL 布局。响应式容器，响应元素调整大小事件。增量采用，与现有的 React DOM 组件互操作。仅捆绑您使用的内容。
 
-* [marko-js/marko](https://github.com/marko-js/marko) 一种基于 HTML 的声明性语言，使构建 Web 应用程序变得有趣。Marko 是 HTML 重新构想的一种语言，用于构建动态和反应式用户界面。几乎所有有效的 HTML 都是有效的 Marko，并且 Marko 扩展了 HTML，以便以更声明的方式构建现代应用程序。这些扩展包括条件和列表、状态和组件。Marko 支持单文件组件和跨单独文件的组件。
-
 * [wasp-lang/open-saas](https://github.com/wasp-lang/open-saas) OpenSaaS是一个免费开源的SaaS应用程序启动器，使用React和Node.js构建，并集成了强大的功能。它基于Wasp框架，提供全栈认证、端到端类型安全、后台作业、一键部署等功能，并整合了Stripe、Plausible、OpenAI、AWS S3等服务，以及TailwindCSS、TailAdmin等工具。用户可以使用Open SaaS快速构建SaaS应用程序，并享受Wasp社区的支持。
-
-* [documenso/documenso](https://github.com/documenso/documenso) Documenso是一个开源的 DocuSign 替代方案，旨在成为全球最值得信赖的文档签名工具。它允许用户自行托管 Documenso 并审查其工作原理，从而建立信任。Documenso 正在进行应用程序的重新设计，包括代码库的改进，使其更易于使用和开发。用户可以查看此仓库中的第一个源代码版本并进行测试，并通过讨论区反馈意见。
-
-* [basecamp/omakub](https://github.com/basecamp/omakub) Omakub是一个一键式工具，可以将全新的 Ubuntu 系统转换为一个配置完善、美观且现代的 Web 开发环境。它提供了一个经过精心选择的工具集，无需手动配置，让您快速开始开发工作。Omakub 秉持着对 Linux 最佳实践的理念，提供了一个完善的开发环境。您可以在 [omakub.org](https://omakub.org) 观看介绍视频和了解更多信息。
 
 * [molefrog/wouter](https://github.com/molefrog/wouter) Wouter是一个仅重约2.1KB的极简React和Preact路由库，它基于Hooks，提供`Route`、`Link`、`Switch`和`Redirect`等组件，并拥有`useLocation`、`useRoute`和`useRouter`等Hook API，方便开发者更精细地控制路由。它体积小巧，功能完备，兼容React和Preact，并且无需顶层`u003cRouter /u003e`组件。许多知名项目如Ultra、React-three-fiber等都在使用它。
 
 * [mac-s-g/react-json-view](https://github.com/mac-s-g/react-json-view) react-json-view是一个React组件，用于显示和编辑JavaScript数组和JSON对象，提供响应式界面，可用于任何基于web的JavaScript应用程序。它支持多种主题和自定义选项，例如折叠、缩进和图标样式，并可通过npm安装。该项目目前已停止维护，建议使用[@microlink/react-json-view](https://github.com/microlinkhq/react-json-view)作为替代方案。
 
-* [segment-boneyard/nightmare](https://github.com/segment-boneyard/nightmare) 高级浏览器自动化库。目标是公开一些模仿用户操作的简单方法（如 goto 和 type click ），其 API 对每个脚本块都感觉同步，而不是深度嵌套的回调。它最初设计用于跨没有 API 的站点自动执行任务，但最常用于 UI 测试和爬虫。在幕后，它使用 Electron，它类似于 PhantomJS，但速度大约是 PhantomJS 的两倍，而且更现代。
-
-* [tnfe/TNT-Weekly](https://github.com/tnfe/TNT-Weekly) TNT-Weekly是一个每周推荐国内外前端领域优秀文章和行业进展的项目，旨在帮助前端开发者快速了解最新技术和趋势。项目提供精选的优质文章，涵盖了前端开发、H5、小程序等多个领域，并附有简要的介绍和链接，方便读者快速获取信息。用户可以关注 TNT-Weekly 的官方公众号或 GitHub 仓库，获取最新的推荐内容。
-
 * [lingui/js-lingui](https://github.com/lingui/js-lingui) Lingui.js是一个轻量级(3kb)、易于阅读且自动化的JavaScript国际化框架，使用强大的ICU MessageFormat，支持丰富的文本格式(包括JSX)，并提供CLI工具管理整个国际化流程，包括消息提取、验证和翻译检查。它兼容React，并提供React组件，也支持纯JavaScript项目，且与react-intl具有良好的兼容性。Lingui.js拥有活跃的社区支持。
-
-* [visgl/deck.gl](https://github.com/visgl/deck.gl) 简化大型数据集的高性能、基于 WebGL 的可视化。用户可以通过组合现有图层，以最小的工作量快速获得令人印象深刻的视觉效果，或者利用 deck.gl 的可扩展架构来满足自定义需求。deck.gl 将数据（通常是 JSON 对象数组）映射到一堆视觉层中，例如图标、多边形、文本;并用视图查看：例如地图、第一人称、正交。
 
 * [searchkit/searchkit](https://github.com/searchkit/searchkit) Searchkit是一个开源库，用于快速构建基于Elasticsearch或OpenSearch的搜索用户界面，兼容React、Vue、Angular等框架以及Algolia的Instantsearch组件。它提供预构建的UI组件（如搜索框、筛选器和结果展示），并通过Node API代理Elasticsearch请求，支持Elasticsearch Query DSL以实现高级查询功能，方便开发者快速创建强大的搜索体验。
 
 * [hustcc/echarts-for-react](https://github.com/hustcc/echarts-for-react) 这是一个简单易用的React组件，用于封装Apache ECharts图表库。它提供简洁的API，只需传入图表配置选项即可渲染ECharts图表，并支持多种配置和事件回调，例如主题定制、懒加载更新和自定义事件处理。开发者可根据需要选择性地导入ECharts模块以减小打包体积，兼容React 15.0.0及以上版本和ECharts 3.0.0及以上版本。
-
-* [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) Immutable.js是一个JavaScript库，提供持久化的不可变数据集合，包括List、Map、Set等，通过结构共享（利用哈希映射Trie和向量Trie）提高效率，避免了数据复制和缓存的需要；其不可变特性简化了应用开发，并支持高级的记忆化和变更检测技术；它还提供惰性Seq，允许高效地链式调用集合方法，无需创建中间表示。
 
 * [jquense/react-big-calendar](https://github.com/jquense/react-big-calendar) react-big-calendar是一个基于React的日历组件，其设计现代，兼容现代浏览器，并使用flexbox布局。它提供类似Google日历和Outlook日历的功能，支持多种日期库（Moment.js、Globalize.js、date-fns、Day.js）进行本地化和日期格式化，需安装并引入相应的本地化程序。通过npm或yarn安装后即可使用，并提供多种示例和入门项目。
 
@@ -6842,12 +6636,6 @@
 
 * [remirror/remirror](https://github.com/remirror/remirror) Remirror是一个基于ProseMirror的React工具包，用于构建跨平台的文本编辑器。它提供易于使用的扩展和API，让开发者可以快速创建功能强大的富文本编辑器。通过简单的代码即可实现诸如加粗、斜体等基本功能，并提供详细文档和示例，方便上手。Remirror具有高度可定制性，并支持多种扩展以满足不同的需求。
 
-* [up-for-grabs/up-for-grabs.net](https://github.com/up-for-grabs/up-for-grabs.net) Up-for-grabs.net 是一个网站，它列出了专门为新手贡献者准备的任务的开源项目。这些任务是开始参与开源项目或帮助分担开源项目工作量的绝佳方式。该网站的代码库包含网站内容，你可以通过提交请求来添加你自己的项目。网站使用 Netlify部署，并提供详细的贡献指南和工作原理文档，方便你参与贡献。
-
-* [didi/mand-mobile](https://github.com/didi/mand-mobile) mand-mobile是一个基于 Vue.js 2 的移动端 UI 工具包，专为金融场景设计。它提供丰富的组件库，包括按钮、输入框、列表等，方便开发者快速构建移动应用。开发者可以通过 npm 安装 mand-mobile，并使用 babel-plugin-import 或 ts-import-plugin 导入所需组件。mand-mobile 还提供了丰富的示例和文档，帮助开发者快速上手。
-
-* [rails/webpacker](https://github.com/rails/webpacker) Webpacker是一个用于在 Rails 中管理类似应用程序的 JavaScript 模块的工具，它已不再维护，建议使用 jsbundling-rails 或 import maps 代替。对于现有的 Webpacker 项目，可以迁移到 jsbundling-rails 或 import maps，也可以继续使用 Webpacker，但不会更新到新版本的 JavaScript 库。Webpacker 的 v6 版本将由 Shakapacker 项目继续开发。
-
 * [video-react/video-react](https://github.com/video-react/video-react) video-react是一个基于React库构建的HTML5网页视频播放器，它提供易于使用的组件，例如Player组件，只需简单几行代码即可集成到你的React项目中。该项目由Mux维护，持续更新和改进，并支持多种浏览器，包括Chrome、Firefox和Safari等。项目灵感来源于video.js，并使用了reactstrap、Google Material Icons和iconmon等资源。
 
 * [dapi-labs/react-nice-avatar](https://github.com/dapi-labs/react-nice-avatar) react-nice-avatar是一个React库，用于生成个性化头像。它通过`genConfig`函数生成头像配置，该函数可接受种子字符串（例如姓名或邮箱）或自定义属性对象（例如性别、发型等）来创建配置，也可生成随机配置。生成的配置可用于渲染`Avatar`组件，并通过`width`、`height`、`shape`等属性自定义头像大小和形状。
@@ -6856,57 +6644,17 @@
 
 * [FirebaseExtended/reactfire](https://github.com/FirebaseExtended/reactfire) ReactFire是一个简化Firebase交互的React库，提供Hooks、Context Providers和组件，方便函数式组件轻松访问Firebase实时数据和身份验证状态，并自动处理订阅取消。它支持多种Firebase库，例如Firestore和Remote Config，并安全地配置这些库的设置。该项目目前处于实验阶段，由谷歌维护，但并非Firebase官方支持产品。
 
-* [jeecgboot/JimuReport](https://github.com/jeecgboot/JimuReport) 「开源可视化报表，商业BI替代方案」积木报表是一款类似excel操作风格，在线拖拽完成设计的报表工具。低代码产品的臂膀！功能涵盖: 报表设计、图形报表、打印设计、大屏设计等，完全免费！秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、解决各类报表难题。
-
-* [ProseMirror/prosemirror](https://github.com/ProseMirror/prosemirror) ProseMirror是一个基于contentEditable的富文本语义内容编辑器，支持协同编辑和自定义文档模式。它由多个模块组成，此仓库主要用于问题追踪和开发辅助。项目提供丰富的示例和文档，并采用MIT许可证开源，用户可通过npm安装使用各个模块；开发者可通过提供的脚本进行项目开发、构建、测试和管理。
-
 * [nosir/cleave.js](https://github.com/nosir/cleave.js) Cleave.js是一个已被弃用的JavaScript库，其新版本为cleave-zen。它主要用于自动格式化输入文本内容，例如信用卡号码、电话号码和日期等，支持自定义分隔符、前缀和块模式，并提供多种集成方式，包括CommonJS、AMD、ESModule和React/Angular组件。虽然已弃用，但其简化输入字段格式化的功能依然值得参考。
-
-* [wangyuan389/mall-cook](https://github.com/wangyuan389/mall-cook) Mall-Cook是一个基于 Vue 开发的低代码商城搭建平台，支持可视化搭建H5 和小程序多端商城。它提供丰富的页面可视化搭建功能，并支持 JSON Schema 生成组件，方便用户快速构建商城页面。平台基于 uni-app 框架，可一键生成 H5 和小程序多端应用，极大提升开发效率。用户可访问演示网站体验平台功能。
-
-* [lgwebdream/FE-Interview](https://github.com/lgwebdream/FE-Interview) FE-Interview是一个前端面试刷题项目，包含1000+道前端面试真题，涵盖HTML、CSS、JavaScript、Vue、React、Node、TypeScript、Webpack、算法、网络与安全、浏览器等多个方面，并提供详细的解答和解析，是前端面试准备的必备资源。项目特色在于其独有的面试题详解，帮助用户深入理解知识点，提升面试技巧。
-
-* [vanilla-extract-css/vanilla-extract](https://github.com/vanilla-extract-css/vanilla-extract) vanilla-extract是一个TypeScript库，用于在构建时生成静态CSS文件，实现零运行时开销。它结合了TypeScript类型安全、局部作用域类名和CSS变量，类似于CSS Modules，但功能更强大，支持主题系统、`calc`表达式计算等。该库与任何前端框架兼容，并提供可选的运行时版本用于开发和测试，以及动态主题API。
-
-* [linuxserver/Heimdall](https://github.com/linuxserver/Heimdall) Heimdall是一个应用程序仪表板和启动器，它可以帮助你整理所有网络应用程序的链接，并提供优雅的解决方案来组织你的书签。它支持自定义链接和搜索功能，并可以作为你的浏览器起始页。Heimdall 还支持增强型应用程序，例如 NZBGet 和 Sabnzbd，可以显示实时统计信息，例如队列大小和下载速度。
-
-* [alshedivat/al-folio](https://github.com/alshedivat/al-folio) al-folio是一个为学者设计的简洁、美观、响应式的 Jekyll 主题，适合创建个人主页、博客、实验室页面、课程、研讨会、会议和聚会等网页，并拥有一个活跃的用户社区。该主题使用 Jekyll 构建，支持 Docker 镜像部署，并提供多种功能，例如自定义导航栏、社交媒体集成、文章列表、代码高亮等。
-
-* [siriwatknp/mui-treasury](https://github.com/siriwatknp/mui-treasury) mui-treasury是一个基于Material-UI的、可直接使用的组件集合，其组件设计灵感源于Dribbble和Pinterest等平台。用户可以通过复制粘贴代码或使用CLI命令（npx mui-treasury@latest clone [组件名称]）两种方式将组件添加到项目中。该项目提供多种CLI选项，支持一次克隆多个组件，并包含TypeScript和JavaScript模板。
-
-* [shepherd-pro/shepherd](https://github.com/shepherd-pro/shepherd) Shepherd 可以轻松创建自定义用户引导之旅、培训和公告，以推动用户采用。Shepherd 使您能够引导用户完成您的应用程序或网站中的自定义游览或旅程。Shepherd 具有高度可定制性，样式极简，允许强大的自定义，同时易于使用。支持各种框架，包括 React、Ember、Angular、Vue.js、ES 模块或纯 JavaScript。
-
-* [jupyter-widgets/ipywidgets](https://github.com/jupyter-widgets/ipywidgets) ipywidgets是用于Jupyter Notebook和IPython内核的交互式HTML小部件，允许创建动态、交互式的可视化和应用程序。它通过在浏览器中渲染交互式HTML元素来工作，并使用消息传递机制与Python内核进行通信，从而实现用户界面与Python代码的实时交互。该项目提供稳定版和开发版，并有丰富的文档和示例。
-
-* [pimterry/loglevel](https://github.com/pimterry/loglevel) loglevel是一个轻量级的JavaScript日志库，为任何可用的`console.log`方法添加了可靠的日志级别方法，支持trace/debug/info/warn/error级别日志，并可按级别过滤日志，即使在不支持`console`对象的旧浏览器中也能正常工作，默认情况下日志级别为warn，文件大小仅1.4KB（压缩后），并包含TypeScript类型定义。
-
-* [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io) Webstack.cc 是一个静态响应式网址导航网站，基于 Bootstrap 前端框架开发，提供多种主题和功能，例如自定义导航栏、添加网站、搜索等。该项目是开源的，代码托管在 GitHub 上，用户可以自由使用和修改。项目特色是简洁易用，用户可以轻松创建自己的导航网站，方便管理和访问常用的网站。
 
 * [yournextstore/yournextstore](https://github.com/yournextstore/yournextstore) Your Next Store是一个基于 Next.js 和 Stripe 的现代电商平台，它提供了一个快速、简单、强大的构建在线商店的解决方案。该项目使用 Stripe 作为后端，并提供测试模式和生产模式，方便开发者进行本地开发和测试，以及将商店上线销售。用户需要创建 Stripe 账户并配置环境变量才能使用该项目。
 
-* [felixrieseberg/macintosh.js](https://github.com/felixrieseberg/macintosh.js) macintosh.js 是一个使用 Electron 构建的虚拟苹果 Macintosh，运行着 System 8操作系统，模拟 1991 年的 Macintosh Quadra。该项目通过模拟 Macintosh 的硬件和软件环境，让用户在现代电脑上体验经典的 Macintosh 操作系统。项目提供 Windows、macOS 和 Linux 平台的下载，用户可以根据自己的系统选择合适的版本。
-
 * [DouyinFE/semi-design](https://github.com/DouyinFE/semi-design) Semi-Design是一个现代化、全面且灵活的React UI库和设计系统，提供3000多个设计令牌，方便构建自定义设计系统，并支持一键式设计转代码（D2C）和代码转设计（C2D），确保设计与代码的一致性；它具有完整的无障碍支持、国际化支持以及严格的质量保证，基于TypeScript编写，易于阅读和维护。
-
-* [unilei/aipan-netdisk-search](https://github.com/unilei/aipan-netdisk-search) 本项目是一个基于 Vue 与 Nuxt.js 技术打造的开源网盘搜索项目，旨在让人人皆可拥有属于自己的网盘搜索网站。项目提供多种部署方式，包括Vercel 和 Docker，方便用户快速启动。项目使用第三方 API 进行搜索，并提供管理面板方便用户自定义配置。强烈建议自行部署，并欢迎所有参与者贡献！
-
-* [bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers) 该项目是一个为开发者精心整理的设计和UI资源列表，包含股票照片、网页模板、CSS框架、UI库、工具等等，涵盖UI图形、字体、颜色、图标、素材图片、视频、音乐音效、矢量图、产品和图片模型、HTML和CSS模板以及各种前端框架和库等多个方面，旨在帮助开发者快速找到所需的设计资源。
 
 * [LukasMasuch/best-of-react](https://github.com/LukasMasuch/best-of-react) 🏆Best-of React 是一个每周更新的优秀 React 开源库和工具排名列表，包含 430 个项目，总计 500 万颗星，分为 22 个类别。每个项目根据从 GitHub 和不同包管理器自动收集的各种指标计算的项目质量评分进行排名。您可以通过提交问题、Pull Request 或直接编辑 projects.yaml 文件来添加或更新项目。
 
-* [catppuccin/catppuccin](https://github.com/catppuccin/catppuccin) 社区驱动的粉彩主题，旨在成为低对比度和高对比度主题之间的中间地带。它由 4 种舒缓的温暖口味组成，每种口味有 26 种令人眼花缭乱的颜色，非常适合编码、设计等等！此外，该存储库还跟踪实际调色板的开发、项目的文档、组织范围的资产、资源和维护人员/开发人员的代码示例。
-
-* [umap-project/umap](https://github.com/umap-project/umap) uMap是一个基于Django和Leaflet的开源项目，它可以让你快速创建包含OpenStreetMap图层的网页地图并嵌入到你的网站中。uMap的设计理念是：OpenStreetMap的使用越多，它就会得到越多的改进。你可以访问项目网站了解更多信息，查看文档获取技术细节，并加入Matrix聊天室或邮件列表与开发者交流。
-
 * [bokuweb/react-rnd](https://github.com/bokuweb/react-rnd) react-rnd是一个用于React的组件，支持拖拽和大小调整。它允许用户通过简单的props控制组件的大小和位置，并提供回调函数来响应拖拽和调整大小的操作。开发者可以使用npm或yarn安装，并通过设置`size`和`position`属性以及相应的回调函数来实现自定义功能，例如实时更新组件大小和位置。
 
-* [nhn/tui.calendar](https://github.com/nhn/tui.calendar) TOAST UI Calendar是一个功能齐全的 JavaScript 日历组件，提供月视图、周视图、日视图等多种视图类型，支持拖拽和调整日程大小，并提供默认弹窗等功能。它提供 JavaScript、React 和 Vue 版本，方便开发者在不同框架中使用。此外，TOAST UI Calendar 还支持自定义配置，可满足各种场景下的需求。
-
 * [Hacker0x01/react-datepicker](https://github.com/Hacker0x01/react-datepicker) ReactDate Picker是一个简单易用的React日期选择器组件，支持npm和yarn安装。它提供简洁的API，可轻松配置，例如设置时间选择器和本地化，并支持自定义样式。通过`selected`和`onChange`属性控制日期选择，还提供`onSelect`和`onClickOutside`等事件处理函数。更多配置和示例可参考项目网站和文档。
-
-* [wxWidgets/wxWidgets](https://github.com/wxWidgets/wxWidgets) wxWidgets是一个跨平台的C++ GUI库，使用原生控件编写高级GUI应用程序。它支持Windows、Unix和macOS等主流桌面平台，并提供跨平台的非GUI功能抽象。wxWidgets是免费的，可用于开源和商业应用，并提供完整的源代码、文档和示例。它支持C++11及以上版本的编译器，并提供社区支持和商业支持。
-
-* [ivanvorobei/SwiftUI](https://github.com/ivanvorobei/SwiftUI) 这是一个使用 SwiftUI 和 Combine 构建的示例项目集合，涵盖了布局、UI、动画、手势、绘图和数据等方面。项目包含 WWDC2019 发布的 SwiftUI 示例，并提供多个子项目，例如动画卡片、区域到卡片、2048 游戏、SFSymbols、计算器等。项目还包含一个指向 awesome-ios-ui 包的链接，该包包含 UI 元素。
 
 * [Blazity/next-saas-starter](https://github.com/Blazity/next-saas-starter) 这是一个免费的 Next.js SaaS 产品响应式着陆页模板，使用 JAMStack 架构构建。它提供最佳 SEO 设置、绿色 Web Vitals、高性能和简洁的代码库，并支持 Tina CMS 集成、博客、Mailchimp 和 Sendgrid 集成、暗模式、自定义主题、一键部署等功能。你可以使用 Vercel 或其他无服务器部署环境进行部署。
 
@@ -6914,21 +6662,13 @@
 
 * [rpldy/react-uploady](https://github.com/rpldy/react-uploady) React-Uploady是一个轻量级的React文件上传库，只需几行代码即可构建客户端文件上传功能。它提供浏览器文件上传的基础功能，并支持高度自定义，包含组件、钩子和多种特性，可根据需要选择安装依赖。该库体积小巧，依赖极少，并提供分块上传支持，且拥有完善的文档和视频教程。
 
+* [ruanyf/react-demos](https://github.com/ruanyf/react-demos) 一个React.js的简单示例集合，代码简洁易懂，适合学习。包含React渲染JSX、使用JavaScript和数组、定义组件、props、状态、表单、生命周期、Ajax、Promise、服务端渲染等内容。通过克隆仓库并在demo目录下操作源文件来使用这些示例。相关项目包括Flux Demo、Webpack Demos、React Router Tutorial等。
+
 * [reduxjs/reselect](https://github.com/reduxjs/reselect) Reselect是一个用于创建记忆化选择器函数的库，常与Redux一起使用，但也可用于任何普通的不可变JS数据。它能高效地计算派生数据，仅在参数改变时才重新计算，并支持选择器组合，从而使Redux能存储最小可能的状态，提高应用性能。Reselect已包含在Redux Toolkit中，也可单独安装使用。
 
-* [anvaka/VivaGraphJS](https://github.com/anvaka/VivaGraphJS) VivaGraphJS是一个可扩展的 JavaScript 图形绘制库，支持多种渲染引擎和布局算法。它基于 ngraph 库，提供丰富的功能，例如在 Amazon、Vkontakte 等项目中用于可视化产品关系、稀疏矩阵和社交网络。用户可以轻松定制节点和链接的外观，并选择不同的布局算法和渲染引擎，例如 WebGL 渲染。
+* [vuestorefront/vue-storefront](https://github.com/vuestorefront/vue-storefront) Alokai 是一个前端即服务解决方案，简化可组合的商务。它连接构建和部署快速可扩展电商前端所需的所有技术。Alokai 提供一系列开发工具，加速并简化电商 storefront 的构建，支持任何后端，提供 3500+ 实例，包含文档、Discord 等支持，内置 Nuxt.js、Next.js、Storefront UI 和 Alokai Middleware。
 
 * [yocontra/react-responsive](https://github.com/yocontra/react-responsive) react-responsive是一个易于使用的React媒体查询模块，用于响应式设计。它支持多种方式检测设备类型及屏幕尺寸，例如通过Hooks（`useMediaQuery`）或组件（`MediaQuery`）,  并提供简洁的API，支持自定义媒体查询，兼容IE6及以上浏览器，也支持在服务器端渲染(SSR)环境下强制指定设备参数。
-
-* [i18next/i18next](https://github.com/i18next/i18next) i18next是一个流行的国际化框架，适用于浏览器或任何其他JavaScript环境（例如Node.js、Deno），它提供灵活的后台连接、缓存、语言检测、复数形式处理、上下文处理、嵌套和变量替换等功能，并支持多种框架，具有可扩展性，旨在构建强大的生态系统，让多语言翻译变得简单易行。
-
-* [ljianshu/Blog](https://github.com/ljianshu/Blog) 该项目是一个优质的前端博客，由公众号[前端工匠]的作者打造，专注于基础知识讲解。项目包含了前端、TS、构建工具等方面的知识，并提供详细的解析和示例。项目还包含了大量实战案例，可以帮助读者快速掌握前端开发技巧。项目作者鼓励读者积极参与讨论，共同学习进步。
-
-* [storybookjs/storybook](https://github.com/storybookjs/storybook) 前端用于单独构建UI组件和页面。专为 UI 开发、测试和文档编制而设计。组件驱动开发环境。它通过隔离组件使开发更快更容易，它可以一次只处理一个组件。在 web 应用程序中构建小的原子组件和复杂的页面，使用 Storybook 可以让你专注于组件开发，无需去关注 API 文档的编写。
-
-* [iamhosseindhv/notistack](https://github.com/iamhosseindhv/notistack) Notistack是一个高度可定制的通知Snackbar（吐司）库，支持堆叠显示。它易于使用，提供流畅的过渡动画，并可通过`SnackbarProvider`组件和`enqueueSnackbar`函数或`useSnackbar`钩子轻松显示通知，且支持多种版本以兼容不同版本的Material-UI。  项目提供在线演示和文档，方便开发者快速上手。
-
-* [hotoo/pinyin](https://github.com/hotoo/pinyin) pinyin是一个 Node.js 和 Web 浏览器环境下使用的汉字拼音转换工具，它提供准确的拼音转换结果，支持多种音调标记方式，并提供丰富的配置选项。pinyin 的核心功能是将汉字转换为拼音，支持多音字识别、音调标记、分词等功能，可用于汉字拼音转换、语音合成、文本检索等场景。
 
 * [alibaba/ChatUI](https://github.com/alibaba/ChatUI) ChatUI是一个基于React的对话UI设计语言和库，它基于阿里巴巴Alime Chatbot的最佳实践，采用TypeScript编写，具有响应式设计、无障碍支持和强大的主题定制功能，并支持多种语言和主流浏览器（包括IE11，需使用polyfill）。  项目提供npm包方便安装使用，并包含丰富的组件如Bubble等。
 
@@ -6936,29 +6676,23 @@
 
 * [alibaba/ice](https://github.com/alibaba/ice) 基于 React 的渐进式应用框架，零配置：开箱即用，支持 ES6+、TypeScript、Less、Sass、CSS 模块等，实践：文件系统路由、状态管理、请求等实践，混合：默认在构建时 （SSG） 或请求时 （SSR） 预渲染页面，插件系统：插件系统提供了丰富的功能，多端：同时支持 web、小程序和 Weex
 
-* [maxence-charriere/go-app](https://github.com/maxence-charriere/go-app) 一个使用 Go 编程语言和 WebAssembly 构建渐进式 Web 应用程序的包。塑造 UI 是通过使用声明性语法完成的，该语法仅使用 Go 编程语言创建和组合 HTML 元素。它使用 Go HTTP 标准模型。使用 go-app 创建的应用程序可以开箱即用地在自己的窗口中运行，支持离线模式，并且对 SEO 友好。
+* [mrzachnugent/react-native-reusables](https://github.com/mrzachnugent/react-native-reusables) react-native-reusables是一个开源React Native组件库，基于shadcn/ui并使用NativeWind v4构建，注重可访问性。它提供一系列精心挑选的组件，并附带文档和在线演示，方便开发者快速上手。部分组件的实现依赖于@rn-primitives，而其他一些组件（如日历、图表）则建议使用第三方库来实现。
+
+* [pmndrs/valtio](https://github.com/pmndrs/valtio) Valtio 是一个用于 React 和原生 JavaScript 的简单代理状态库，通过 `npm i valtio` 安装。它将你传递的对象转换为一个自我意识的代理，可以在任何地方修改状态，并通过 `useSnapshot` 在 React 组件中优化渲染。Valtio 使用两个不同类型的代理来分别跟踪写操作和读操作，以优化性能。
 
 * [hypeserver/react-date-range](https://github.com/hypeserver/react-date-range) react-date-range是一个React组件，用于选择日期和日期范围，它使用date-fns进行日期操作，支持无状态日期操作、高度可配置、多范围选择、拖放选择和键盘操作，并提供`DatePicker`和`DateRangePicker`组件，目前项目未维护，但仍可稳定使用。  安装需使用npm并安装依赖react和date-fns。
 
 * [react-monaco-editor/react-monaco-editor](https://github.com/react-monaco-editor/react-monaco-editor) react-monaco-editor是一个React组件，它封装了微软的Monaco Editor，方便在React项目中使用强大的代码编辑器功能。它通过简单的属性配置即可实现代码高亮、自动补全等特性，并提供回调函数处理代码变化。  使用时需安装组件并配置Webpack以支持Monaco Editor，注意处理CSS模块冲突。
 
-* [aurelia/framework](https://github.com/aurelia/framework) Aurelia 1 框架入口点，汇集了 Aurelia 的所有必需子模块。现代的前端 JavaScript 框架，用于构建浏览器、移动和桌面应用程序。它侧重于与 Web 平台规范紧密保持一致，使用约定而不是配置，并最大限度地减少框架入侵。基本上，我们希望你只写你的代码，而框架不会妨碍你。
-
-* [didi/LogicFlow](https://github.com/didi/LogicFlow) LogicFlow是一个专注于业务自定义的流程图编辑框架，支持实现脑图、ER图、UML、工作流等各种图编辑场景。它提供了一系列可视化编辑功能，用户可以轻松定制流程图的样式和行为，并实现各种业务逻辑。LogicFlow 还提供丰富的扩展能力，可以方便地集成到各种应用场景中。
-
 * [system-ui/theme-ui](https://github.com/system-ui/theme-ui) ThemeUI是一个基于约束式设计原则的React主题库，用于构建一致且可主题化的React应用。它提供灵活的API，方便开发者创建自定义组件库、设计系统、网页应用和Gatsby主题等，并兼容几乎所有UI组件库，支持深色模式和响应式设计，内置主题规范，使用Emotion实现作用域样式。
 
 * [adazzle/react-data-grid](https://github.com/adazzle/react-data-grid) react-data-grid是一个功能丰富且可定制的React数据表格组件，支持React 18.0+、虚拟化以提升性能、树状抖动和TypeScript类型检查，并具有丰富的特性，例如冻结列、列大小调整、多列排序、行选择、行分组、单元格编辑和自定义渲染器等，方便开发者构建高效易用的数据表格。
-
-* [sparrowcode/PermissionsKit](https://github.com/sparrowcode/PermissionsKit) PermissionsKit是一个 iOS 权限管理库，提供统一的 API 用于请求各种权限并获取其状态，支持授权、拒绝和未确定三种状态。它支持蓝牙、日历、相机、通讯录、FaceID、健康、位置、麦克风、运动、音乐、通知、照片、提醒、语音、Siri 等权限，并提供详细的文档和示例代码。
 
 * [mosch/react-avatar-editor](https://github.com/mosch/react-avatar-editor) react-avatar-editor是一个用于裁剪头像和个人资料图片的React组件，提供直观的界面进行图像缩放、裁剪和旋转操作，支持自定义输入控件，可生成圆形或方形图像，并使用TypeScript编写，具有完整的类型定义。  该组件易于使用，只需通过npm或yarn安装即可，并提供在线演示。
 
 * [fullcalendar/fullcalendar-react](https://github.com/fullcalendar/fullcalendar-react) 这是FullCalendar的官方React组件，它允许你在React应用中轻松集成FullCalendar日历功能。通过npm安装组件及其插件（如dayGrid），然后使用`FullCalendar`组件并传入配置选项（例如事件、视图等）即可渲染日历。该组件基于FullCalendar核心库，并提供了丰富的文档和示例项目供参考。
 
 * [react-syntax-highlighter/react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter) ReactSyntax Highlighter是一个React组件，使用lowlight和refractor库进行语法高亮显示，它通过构建虚拟DOM来高效更新代码块，避免了直接操作DOM带来的性能问题，并支持使用内联样式或className两种方式自定义样式，提供了多种编程语言和样式主题选择，避免了外部样式表的依赖。
-
-* [chanind/hanzi-writer](https://github.com/chanind/hanzi-writer) Hanzi Writer是一个免费开源的JavaScript库，用于制作汉字笔画顺序动画和笔画顺序练习测验，支持简体和繁体字。该项目使用来自Make me a Hanzi项目的汉字SVG和笔画顺序数据，并进行了部分调整。用户可以通过项目网站获取更多信息和使用说明，并可通过GitHub仓库参与贡献。
 
 * [ctrlplusb/easy-peasy](https://github.com/ctrlplusb/easy-peasy) EasyPeasy是一个针对React的Redux抽象库，提供简化的API，注重开发者体验。它使状态管理快速简便，同时利用Redux的架构优势和生态系统，支持零配置、React Hooks API、TypeScript、数据获取封装、计算属性等特性，并兼容Redux DevTools和React Native，通过npm install easy-peasy即可安装。
 
@@ -6974,29 +6708,15 @@
 
 * [securingsincity/react-ace](https://github.com/securingsincity/react-ace) react-ace是一个基于React的Ace代码编辑器组件，提供多种视图模式（包括分割视图和差异视图），支持多种编程语言和主题，并提供详细文档和示例。它使用ace-builds构建，安装方便，可通过npm或yarn安装。该项目已停止支持Brace，并提供了从版本7迁移到版本8的指南。
 
-* [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) FluidFramework是一个使用JavaScript或TypeScript构建分布式、实时协作Web应用程序的库，其核心代码包含客户端包和参考排序服务。它包含多个pnpm工作区，分别管理不同功能的包，并提供文档和示例代码，方便开发者学习和使用，相关资源可在其官网和GitHub仓库中找到。
+* [tldraw/tldraw](https://github.com/tldraw/tldraw) tldraw 是一个用于在 React 中创建无限画布体验的库，背后支持数字白板 tldraw.com。可以通过 npm 安装并使用，官方文档和示例项目可供参考。该项目允许在商业或非商业项目中使用，但需保留水印，购买商业许可可去除水印。项目支持贡献和社区讨论，欢迎加入。
 
 * [shadowwalker/next-pwa](https://github.com/shadowwalker/next-pwa) 这是一个针对 Next.js 的零配置 PWA 插件，它使用 workbox等工具，提供优化后的预缓存和运行时缓存，帮助开发者轻松构建 PWA 应用，并最大程度地提高 Lighthouse 评分。该插件支持离线功能、自定义 worker、国际化等特性，并兼容 Next.js9.1+ 版本，无需自定义服务器。
 
 * [reactjs/react-modal](https://github.com/reactjs/react-modal) react-modal是React.js的一个无障碍模态对话框组件，提供易于使用的API和丰富的自定义选项。它通过设置`appElement`确保无障碍性，并支持自定义样式、动画和事件回调。开发者可以使用npm或yarn安装，并参考文档中的示例快速上手，创建具有良好访问性的模态窗口。
 
-* [wa0x6e/cal-heatmap](https://github.com/wa0x6e/cal-heatmap) Cal-Heatmap是一个JavaScript图表库，用于创建时间序列日历热力图，类似于GitHub贡献日历，但功能更强大，支持动画日期导航、时间间隔自定义、布局/UI完全控制、本地化和时区支持、插件系统、广泛的浏览器支持以及更多特性，可用于直观地展现时间序列数据。
+* [sadmann7/shadcn-table](https://github.com/sadmann7/shadcn-table) 这是一个基于Next.js、Tailwind CSS和shadcn/ui构建的表格组件，使用TanStack/react-table实现，并支持服务器端分页、排序和过滤。它利用Drizzle ORM和Neon数据库进行数据管理，并包含可自定义列、动态搜索和高级过滤等功能，项目仍在开发中，尚未准备好用于生产环境。
 
 * [ReactTooltip/react-tooltip](https://github.com/ReactTooltip/react-tooltip) react-tooltip是一个React组件库，用于创建工具提示。它易于安装和使用，只需导入CSS文件（v5.13.0之前的版本）并使用`Tooltip`组件即可创建带有`data-tooltip-id`和`data-tooltip-content`属性的工具提示。该项目开源，并提供详细文档和故障排除指南，且支持npm和yarn安装。
-
-* [GoogleChrome/web-vitals](https://github.com/GoogleChrome/web-vitals) 健康网站的基本指标。“网页指标”是 Google 推出的一项计划，旨在针对对提供出色 Web 体验至关重要的质量信号提供统一指南。构成核心网页指标的指标会随着时间的推移而不断改进。2020 年的现状侧重于用户体验的三个方面（加载、互动和视觉稳定性）。
-
-* [didi/chameleon](https://github.com/didi/chameleon) Chameleon(CML) 是一款跨平台开发框架，使用一套代码即可运行在多个平台，实现“所见即所得”的效果。CML 基于Web 标准，并提供丰富的组件库和 API，简化跨平台开发流程。CML 采用混合渲染技术，在不同平台上使用最优的渲染方式，保证应用的性能和体验。
-
-* [grid-js/gridjs](https://github.com/grid-js/gridjs) Grid.js是一个轻量级、易于使用的表格库，支持所有主流浏览器和IE11+，无需依赖特定框架，可与React、Angular、Preact或原生JavaScript等一起使用，其核心是用TypeScript编写，通过简洁的API即可创建功能强大的表格，详尽的文档和示例可在官网gridjs.io/docs找到。
-
-* [mljar/mercury](https://github.com/mljar/mercury) mljar/mercury项目是一个将Jupyter Notebook转换为Web应用程序的工具，无需前端经验即可通过Python代码添加交互式小部件，实现Notebook的代码隐藏/显示、PDF/HTML导出、多Notebook共享及嵌入网站等功能，并支持创建Web应用、演示文稿、网站、数据仪表板和报告等。
-
-* [JetBrains/ring-ui](https://github.com/JetBrains/ring-ui) RingUI是JetBrains出品的一套Web UI组件库，提供构建JetBrains内部产品和第三方插件所需的UI组件。它提供两种安装方式：预构建版本方便快速上手，源码版本则适用于复杂项目并需要集成到Webpack构建流程中。组件使用ES模块导入，并包含丰富的示例和文档。
-
-* [wasm3/wasm3](https://github.com/wasm3/wasm3) Wasm3是一个快速且通用的 WebAssembly 解释器和运行时，基于CoreMark 1.0 和独立基准测试，性能表现出色。项目目前处于维护阶段，但仍会积极审查和合并 Pull Requests。Wasm3 可作为库用于多种编程语言，包括 Python、Rust、C/C++、D、GoLang、Zig、Perl、Swift 和 .Net。
-
-* [XMuli/QtExamples](https://github.com/XMuli/QtExamples) 该项目是一个 Qt 相关知识的系列教程，涵盖了 Qt GUI 控件使用、网络编程、架构原理、运行机制理解等内容，并解析了DTK 重绘控件方式的框架，还包括 Visual Studio 和 Qt Creator 的 IDE 技巧。项目以文章形式呈现，旨在帮助学习者深入理解 Qt 的相关知识。
 
 * [mui/mui-x](https://github.com/mui/mui-x) MUI X是一个高级React UI组件库，提供数据表格、日期时间选择器、图表和树状视图等组件，用于构建复杂的数据密集型应用。它基于Material UI，但组件独立且高度可定制。MUI X采用开放核心模式，部分组件使用MIT许可证免费提供，高级功能需商业许可。
 
@@ -7004,55 +6724,31 @@
 
 * [segmentio/evergreen](https://github.com/segmentio/evergreen) Segment公司出品的Evergreen是一个开箱即用的React UI框架，其组件灵活可组合，并具备企业级UI设计语言。它基于CSS-in-JS和ui-box组件，支持强大的主题定制和服务器端渲染(SSR)，并提供完善的文档和社区支持，旨在构建易于使用且适应未来需求的Web应用。
 
-* [galkahana/HummusJS](https://github.com/galkahana/HummusJS) HummusJS是一个基于 Node.js 的高性能 PDF 文件和流处理模块，可用于创建、修改和解析 PDF 文件。它提供丰富的功能，包括文档创建、页面操作、内容提取、对象操作等。HummusJS 已经停止维护，但用户可以迁移到 MuhammaraJS，它是一个HummusJS 的替代方案。
-
 * [immerjs/immer](https://github.com/immerjs/immer) Immer是一个用于创建不可变状态的JavaScript库，它允许你通过修改现有状态树来生成新的不可变状态树，简化了状态管理，其工作原理是利用代理（Proxy）技术，在修改过程中追踪变化，并高效地生成新的不可变状态，曾获得React和JavaScript开源大奖。
-
-* [helloqingfeng/Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource) 这是一个GitHub仓库，收集了大量前端资源，包括学习资料、开发工具、面试技巧等，旨在帮助开发者提升前端技能。仓库内容涵盖了JavaScript、前端框架、工具库、面试准备等方面，并提供了一些学习路线建议，非常适合前端学习者和开发者参考。
 
 * [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。（使用 NextJS 和 Notion API 构建的静态博客，支持多种部署选项。无需服务器，建立网站零门槛。专为 Notion 和所有创作者设计。
 
 * [grommet/grommet](https://github.com/grommet/grommet) Grommet是一个基于React的UI框架，提供易用性、模块化、响应式设计和主题定制等特性，打包简洁。它注重核心用户体验，通过npm或Yarn安装，并提供详细文档、示例和社区支持。开发者可以使用Storybook浏览组件示例，并可通过提供的模板快速上手。
 
-* [nordicgiant2/awesome-landing-page](https://github.com/nordicgiant2/awesome-landing-page) 该项目是一个收集了大量精美实用的落地页模板的仓库，这些模板使用各种前端技术构建，涵盖了 React、Vue、Angular 等框架，并提供了来自不同开源项目的链接，方便开发者参考和使用。开发者可以 fork 该项目并提交 PR 来分享自己的落地页模板。
-
-* [Ionaru/easy-markdown-editor](https://github.com/Ionaru/easy-markdown-editor) EasyMDE是一个简单易用、美观且可嵌入的JavaScript Markdown编辑器，适用于初学者和专家。它具有内置自动保存和拼写检查功能，支持自定义主题、工具栏按钮和JavaScript钩子，并实时渲染Markdown语法，方便用户查看编辑效果，可通过npm或CDN安装使用。
-
 * [reactchartjs/react-chartjs-2](https://github.com/reactchartjs/react-chartjs-2) react-chartjs-2是一个React组件库，它基于流行的图表库Chart.js，支持Chart.js v3和v4版本。通过简单的组件导入和使用，例如`u003cDoughnut data={...} /u003e`，即可在React项目中轻松创建各种图表。该库提供了丰富的文档和示例，方便开发者快速上手和集成。
 
 * [akiran/react-slick](https://github.com/akiran/react-slick) react-slick是一个基于React的轮播组件，它是slick carousel的React版本。它提供丰富的配置选项，例如dots、infinite、speed等，方便开发者创建各种类型的轮播效果。通过npm或yarn安装，并引入slick-carousel的CSS文件即可使用，文档和示例代码详见项目官网。
 
-* [haizlin/fe-interview](https://github.com/haizlin/fe-interview) 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML / CSS/ JavaScript/ Vue/ React/ Nodejs/ TypeScript/ ECMAScritpt/Webpack/Jquery/小程序/软技能
-
-* [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) 定制 Selenium Chromedriver |零配置 |通过所有机器人缓解系统（如 Distil / Imperva/ Datadadome / CloudFlare IUAM），优化的 Selenium Chromedriver 补丁，不会触发 Distill Network / Imperva / DataDome / Botprotect.io 等反机器人服务 自动下载驱动程序二进制文件并进行修补。
+* [emilkowalski/vaul](https://github.com/emilkowalski/vaul) Vaul是一个无样式的React抽屉组件，可在平板电脑和移动设备上替代对话框。它通过简单的API提供抽屉功能，安装方法为`npm install vaul`，使用方法参考文档 (https://vaul.emilkowal.ski/getting-started) 中的示例代码，包含触发器、内容、标题和遮罩等组件。
 
 * [mbrn/material-table](https://github.com/mbrn/material-table) material-table是一个基于Material-UI的强大React数据表格组件，具有丰富的额外功能，例如数据编辑、导出、过滤、分组、本地化、远程数据支持等。它提供自定义渲染、组件覆盖等特性，方便开发者定制。项目文档和示例可在material-table.com查看。
 
 * [cssinjs/jss](https://github.com/cssinjs/jss) JSS是一个已不再维护的项目，它是一个使用JavaScript生成样式表的库，其工作原理是利用JavaScript作为宿主语言来编写CSS。该项目已被作者放弃维护，推荐使用新的开源工具Webstudio，它可以可视化构建和生成优化的CSS和React组件以及Remix应用。
 
-* [miguelgrinberg/microblog](https://github.com/miguelgrinberg/microblog) 这是一个基于Flask框架的微博客应用程序，是作者Flask Mega-Tutorial系列教程中的示例项目，对应2024年版教程。该项目提供详细的教程指导，帮助用户学习Flask框架的使用，并包含2018年和2021年版本的代码链接，以及2012年原始版本的代码链接。
-
 * [suren-atoyan/monaco-react](https://github.com/suren-atoyan/monaco-react) 这是一个用于React的Monaco编辑器组件库，无需Webpack等打包工具配置即可在任何React应用中使用Monaco编辑器。它提供简洁的API与Monaco交互，支持多种模式的编辑器，并已集成@monaco-editor/loader，可用于create-react-app、Next.js等项目，TypeScript编写。
 
 * [primer/react](https://github.com/primer/react) PrimerReact是GitHub Primer设计系统的一个React实现，提供详细文档（primer.style/react），包含各种组件、主题和设计原则。通过npm或yarn安装(@primer/react)，并可使用提供的模板快速上手。项目积极维护，欢迎贡献代码，并鼓励提出新的组件建议。
 
-* [choojs/choo](https://github.com/choojs/choo) Choo是一个轻量级的 4kb 前端框架，使用函数式编程方式，基于事件驱动，提供简洁的 API，仅需 6 个方法即可上手。它支持同构渲染，可在 Node 和浏览器中无缝运行。Choo 还支持服务器渲染，并提供组件化开发模式，方便构建复杂的应用。
-
-* [radix-ui/primitives](https://github.com/radix-ui/primitives) Radix Primitives是一个开源的UI组件库，用于构建高质量、可访问的Web应用和设计系统，由WorkOS维护。它是一个低级别组件库，注重可访问性、可定制性和开发者体验，可作为设计系统的基础层或增量采用，文档详见radix-ui.com/docs/primitives。
-
-* [TahaSh/swapy](https://github.com/TahaSh/swapy) Swapy是一个与框架无关的工具，只需几行代码即可将任何布局转换为拖放交换布局。它是一个简单的 JavaScript 工具，可以将您现有的任何布局转换为拖放交换布局。您可以在 [https://swapy.tahazsh.com/](https://swapy.tahazsh.com/)找到 Swapy 的文档。
+* [leoMirandaa/shadcn-landing-page](https://github.com/leoMirandaa/shadcn-landing-page) 这是一个基于Shadcn UI、React、TypeScript和Tailwind CSS构建的免费响应式落地页模板，包含导航栏、英雄区、关于我们、团队、定价、常见问题等多个常用区块，支持深色模式，并提供在线演示和详细的安装指南(git clone, npm install, npm run dev)。
 
 * [rjsf-team/react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) react-jsonschema-form 是一个基于 React 的组件库，使用 JSON Schema 来声明式地构建和定制 Web 表单。它支持多种主题，包括 Ant Design、Bootstrap3/4、Chakra UI、Fluent UI、Material UI 和 Semantic UI。项目提供完善的文档和在线演示，并欢迎贡献者参与。
 
 * [pacocoursey/cmdk](https://github.com/pacocoursey/cmdk) 快速、无样式的命令菜单 React 组件。⌘K 是一个命令菜单 React 组件，也可以用作可访问的组合框。您渲染项目，它会自动过滤和排序它们。⌘K 支持完全可组合的 API ，因此您可以将项目包装在其他组件中，甚至可以包装为静态 JSX。
-
-* [uvdesk/community-skeleton](https://github.com/uvdesk/community-skeleton) UVdesk社区帮助台项目是一个开源项目，提供完整的票务支持系统和更多功能。该项目提供基本工具和实用程序，方便用户构建和定制自己的帮助台解决方案。您可以访问官方演示网站体验其功能，并在 Symfony 官方网站上了解 UVdesk。
-
-* [rawgraphs/rawgraphs-app](https://github.com/rawgraphs/rawgraphs-app) 一个 Web 界面，用于在 RAWGraphs 核心之上创建基于矢量的自定义可视化。RAWGraphs 是一个开放的 Web 工具，用于在令人惊叹的 d3.js 库之上创建基于矢量的自定义可视化。它由DensityDesign Research Lab（米兰理工大学）、Calibro和INMAGIK开发。
-
-* [barbajs/barba](https://github.com/barbajs/barba) 小型（缩小和压缩 7kb）且易于使用的库，可帮助您在网站页面之间创建流畅和平滑的过渡。它使您的网站像 SPA（单页应用程序）一样运行，并有助于减少页面之间的延迟，最大限度地减少浏览器 HTTP 请求并增强用户的 Web 体验。
-
-* [solidjs/solid](https://github.com/solidjs/solid) 用于创建用户界面的声明性 JavaScript 库。它不使用虚拟 DOM，而是将其模板编译为真实的 DOM 节点，并使用细粒度反应更新它们。声明你的状态并在整个应用中使用它，当一段状态发生更改时，只有依赖于它的代码才会重新运行。
 
 * [jquense/react-widgets](https://github.com/jquense/react-widgets) react-widgets是一个基于React构建的、功能丰富且易访问的表单输入组件库，提供多种经过优化的、可扩展的输入组件，方便快速上手；它使用monorepo结构管理多个npm包，安装方式为`npm install react-widgets`，并提供详细文档和演示。
 
@@ -7066,91 +6762,659 @@
 
 * [ReactiveX/rxjs](https://github.com/ReactiveX/rxjs) JavaScript 的响应式编程库,对 Reactive-Extensions/RxJS 的重写，是 RxJS 的最新生产就绪版本。此重写旨在具有更好的性能、更好的模块化、更好的可调试调用堆栈，同时保持大部分向后兼容，并进行了一些减少 API 表面的重大更改。
 
-* [hectorqin/reader](https://github.com/hectorqin/reader) reader是一个阅读3服务器版项目，支持桌面端和 iOS 设备。后端使用 Kotlin + Spring Boot + Vert.x + Coroutine，前端使用 Vue.js + Element。该项目提供在线体验，并支持 Telegram 群组交流。由于 Demo 服务器未备案已被关停，建议自行搭建。
-
 * [react-dnd/react-dnd](https://github.com/react-dnd/react-dnd) React 实用程序，可帮助您构建复杂的拖放界面，同时保持组件解耦。它非常适合 Trello 和 Storify 等应用程序，在这些应用程序中，拖动在应用程序的不同部分之间传输数据，组件会根据拖放事件更改其外观和应用程序状态。
+
+* [openedx/edx-platform](https://github.com/openedx/edx-platform) 一个面向服务的平台，用于创作和提供任何规模的在线学习。该平台是用Python和JavaScript编写的，并广泛使用Django框架。在最高级别，该平台由一个整体、一些可独立部署的应用程序（IDA）和基于ReactJS的微前端（MFE）组成。
 
 * [framer/motion](https://github.com/framer/motion) Motion是一个开源的动画库，支持React和JavaScript，它拥有独特的混合引擎，结合了JavaScript动画的强大功能和原生浏览器API的高性能，提供简洁易用的API，方便开发者在React和JavaScript项目中快速创建动画效果，并支持MIT许可。
 
-* [webview/webview](https://github.com/webview/webview) 用于 C/C++ 的微型跨平台 webview 库。使用 WebKit （GTK/Cocoa） 和 Edge WebView2 （Windows） 。目标是为最广泛使用的平台创建一个通用的 HTML5 UI 抽象层。它支持双向 JavaScript 绑定（从 C/C++ 调用 JavaScript 和从 JavaScript 调用 C/C++）。
-
-* [vasanthv/talk](https://github.com/vasanthv/talk) 网络群组视频通话。没有注册。没有下载。使用 WebRTC 构建的，因此您的所有视频、音频和文本聊天都是点对点的。使用 WebRTC mesh实现的。因此，通话质量与通话人数成反比。甜蜜的数字是平均高速连接中大约 6 到 8 人。
-
 * [FortAwesome/react-fontawesome](https://github.com/FortAwesome/react-fontawesome) 这是一个使用SVG和JS的Font Awesome React组件，支持React 16.3.0及以上版本(使用0.2.x或更高版本)，低于此版本需使用0.1.x版本。它提供官方文档，并由众多贡献者维护。该组件利用forwardRef特性，方便在React中使用Font Awesome图标。
 
-* [rails/rails](https://github.com/rails/rails) Web 应用程序框架，它包含了根据模型-视图-控制器 （MVC） 模式创建数据库支持的 Web 应用程序所需的一切。理解 MVC 模式是理解 Rails 的关键。MVC 将应用程序分为三层：模型层、视图层和控制器层，每层都有特定的职责。
-
-* [Semantic-Org/Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) 基于自然语言有用原则的 UI 组件框架。允许开发人员通过简洁的 HTML、直观的 JavaScript 和简化的调试快速构建漂亮的网站，帮助使前端开发成为一种愉快的体验。语义采用响应式设计，允许您的网站在多个设备上扩展。
-
-* [ourongxing/newsnow](https://github.com/ourongxing/newsnow) NewsNow是一个优雅的实时新闻阅读项目，支持 Cloudflare Pages、Vercel 和 Docker部署。它提供 GitHub OAuth 登录功能，并使用 Cloudflare D1数据库进行缓存。用户可以自定义数据源，项目结构清晰，易于扩展。项目采用 MIT 许可证。
-
-* [hakimel/reveal.js](https://github.com/hakimel/reveal.js) 开源的 HTML 表示框架。它使任何拥有网络浏览器的人都可以免费创建精美的演示文稿。具有强大的功能集，包括嵌套幻灯片、Markdown 支持、自动动画、PDF 导出、演讲者笔记、LaTeX 排版、语法突出显示代码和广泛的 API。
-
-* [h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate) 一个专业的前端模板，用于构建快速、强大且适应性强的 Web 应用程序或网站。帮助您构建快速、可靠且适应性强的 Web 应用或网站。利用 100 多名开发人员的综合知识和努力启动您的项目，所有这些都在一个小包中。
-
-* [tjy-gitnub/win12](https://github.com/tjy-gitnub/win12) 这是一个名为 &quot;Windows 12 网页版&quot; 的开源项目，旨在提供一个在线体验 Windows 12 的平台。项目由 tjy-gitnub开发，并提供英文、简体中文和法语版本。用户可以通过项目提供的链接在线体验 Windows 12 的界面和功能。
-
 * [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) 无头网络的最快前端。用 React 构建现代网站。Gatsby 是基于 React，可帮助开发人员构建速度极快的网站和应用程序。它将动态渲染网站的控制和可扩展性与静态网站生成的速度相结合，创造了一个全新的可能性网络。
-
-* [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) TypeScript ORM。在 Node、Bun 和 Deno 上运行。也是一个 JavaScript ORM。支持所有 PostgreSQL、MySQL 和 SQLite 数据库，包括 Turso、Neon、Xata、PlanetScale、Cloudflare D1、FlyIO LiteFS、Vercel Postgres、Supabase 和 AWS Data API 等无服务器数据库。
 
 * [scastiel/github-stars-video](https://github.com/scastiel/github-stars-video) GitHub Stars Video项目可以生成展示你 GitHub 仓库星标数的动画视频，使用Remotion 库进行视频制作，并借助 Remotion Lambda 在 AWS 上进行生成，同时利用 Next.js、TailwindCSS 和 shadcn/UI 等技术构建网页应用，并部署在 Vercel 上。
 
 * [floating-ui/react-popper](https://github.com/floating-ui/react-popper) react-popper是基于Popper库的React定位库，它是一个React组件，用于轻松实现工具提示、下拉菜单等元素的精准定位。该库目前处于维护模式，建议使用基于Floating UI的替代方案。安装需同时安装react-popper和@popperjs/core。
 
-* [zmh-program/fystart](https://github.com/zmh-program/fystart) Fystart 是一个 AI 赋能的美观轻量起始页，支持云端同步和 PWA 离线访问。它提供了一言、工具箱、卡片、搜索联想、翻译等组件，并基于 Chat Nio 提供 AI 搜索建议。Fystart 已经停止开发，新起始页请访问 bingtang.com。
-
-* [dcloudio/uni-app](https://github.com/dcloudio/uni-app) 使用 Vue.js开发小程序、H5、App的统一前端框架。使用 Vue 语法编写代码，uni-app 框架将其编译到 小程序（微信/支付宝/百度/字节跳动/QQ/快手/钉钉/小红书）、App（iOS/Android）、H5等平台，保证正确并达到优秀体验。
-
-* [nativefier/nativefier](https://github.com/nativefier/nativefier) 命令行工具，可以轻松地为任何网站创建“桌面应用程序”，而无需大惊小怪。应用程序由 Electron（后台使用 Chromium）包装在可在 Windows、macOS 和 Linux 上使用的操作系统可执行文件（ `.app` 、 `.exe` 等）中。
-
-* [withastro/starlight](https://github.com/withastro/starlight) Starlight是一个基于 Astro 的文档网站框架，用于构建美观、易访问且高性能的文档网站。Starlight 的文档网站也是用 Starlight 自身构建的，并提供 Discord 频道和 GitHub 问题追踪等支持渠道，欢迎贡献者参与项目。
+* [felipefialho/frontend-challenges](https://github.com/felipefialho/frontend-challenges) 一个公开的开源挑战列表，来自世界各地的公司提供测试前端知识的趣味挑战，包含React、HTML、CSS、JS等技术栈的实际工作挑战，如1STi、Addison Global、AirCall、Ambulnz、Amaro、Apiki等公司提供的前端技术测试题目。
 
 * [stitchesjs/stitches](https://github.com/stitchesjs/stitches) Stitches是一个CSS-in-JS库，具有近乎零运行时开销、服务器端渲染(SSR)和多变体支持，并提供一流的开发者体验，但目前已不再积极维护。它包含框架无关的核心库和React包装器，提供`styled` API，详见stitches.dev。
 
 * [infinitered/reactotron](https://github.com/infinitered/reactotron) React 和 React Native 应用程序的强大调试器。它为开发人员提供了一个易于使用的界面，用于监控其应用程序的状态、网络请求和性能指标，可用于任何规模的项目，从小型个人应用程序到大型企业应用程序。
 
-* [milligram/milligram](https://github.com/milligram/milligram) 极简的CSS框架。Milligram 提供最少的样式设置，以实现快速、干净的起点。就是这样！只有 2kb gzipped！这与 UI 框架无关。专为更好的性能和更高的生产率而设计，需要重置的属性更少，从而使代码更清晰。
-
-* [niklasvh/html2canvas](https://github.com/niklasvh/html2canvas) 该脚本允许您直接在用户浏览器上截取网页或其部分的“屏幕截图”。屏幕截图基于 DOM，因此可能不是 100% 准确到真实表示，因为它不会制作实际的屏幕截图，而是根据页面上可用的信息构建屏幕截图。
-
 * [bvaughn/react-window](https://github.com/bvaughn/react-window) react-window是一个React组件库，用于高效渲染大型列表和表格数据。它通过只渲染视口内可见的部分数据来提高性能，减少渲染工作量、缩短渲染时间并降低内存占用，从而解决大型数据渲染的性能瓶颈。
 
 * [alibaba/BizCharts](https://github.com/alibaba/BizCharts) BizCharts是一个基于G2和React的强大数据可视化库，具有易用、扩展性强和支持多种图表等特点，使用React ES6语法，可通过npm或umd安装，并提供丰富的示例和文档，方便开发者快速上手创建各种数据图表。
+
+* [gregberge/loadable-components](https://github.com/gregberge/loadable-components) Loadable Components是React的代码分割库，它简化了代码分割过程，减小bundle体积。通过`import`语句动态加载组件，提升页面加载速度。项目提供详细文档和示例，支持服务器端渲染，并与React.lazy进行对比。
+
+* [ekmas/neobrutalism-components](https://github.com/ekmas/neobrutalism-components) 这是一个基于Tailwind CSS和Shadcn UI构建的React组件库，包含一系列新布鲁塔主义风格的组件，旨在帮助开发者学习和创建新布鲁塔主义风格的布局，文档可在neobrutalism.dev/docs查看，并遵循MIT开源许可证。
+
+* [vadimdemedes/ink](https://github.com/vadimdemedes/ink) React 用于交互式命令行应用，基于组件的 UI 构建体验与 React 在浏览器中提供的相同，但适用于命令行应用。它使用 Yoga 在终端中构建 Flexbox 布局，因此大多数类似 CSS 的道具也可以在 Ink 中使用。
+
+* [primefaces/primereact](https://github.com/primefaces/primereact) PrimeReact是一个功能丰富的开源React UI组件库，提供大量预设主题（如Material、Bootstrap和PrimeOne）和无样式模式，支持按需导入组件以减小包体积，通过npm、yarn或pnpm安装，并提供详细文档和示例。
+
+* [vercel/swr](https://github.com/vercel/swr) 用于数据获取的 React Hooks 库。“SWR”来源于 stale-while-revalidate ，由HTTP RFC 5861推广的缓存失效策略。SWR先从缓存中返回数据（过时），然后发送请求（重新验证），最后再次附带最新数据。
+
+* [styleguidist/react-styleguidist](https://github.com/styleguidist/react-styleguidist) 组件开发环境，具有热重载的开发服务器和可以与团队分享的生活方式指南。它列出了组件 `propTypes` ，并显示了基于 Markdown 文件的实时、可编辑的使用示例。查看演示样式指南。
+
+* [cypress-io/cypress-realworld-app](https://github.com/cypress-io/cypress-realworld-app) 一个支付应用，用于展示 Cypress 测试方法、模式和工作流的实战应用，基于 React、XState、Express、lowdb、Material-UI 和 TypeScript 构建，包含本地身份验证、端到端测试和 CI/CD 等功能。
+
+* [tremorlabs/tremor](https://github.com/tremorlabs/tremor) 用于快速构建仪表板的 React 库。借助 Tremor，您可以创建简单的模块化组件，轻松构建富有洞察力的仪表板。完全开源，由数据科学家和软件工程师制作，具有设计的最佳点。
+
+* [adobe/react-spectrum](https://github.com/adobe/react-spectrum) 一组库和工具，可帮助您构建自适应、可访问且可靠的用户体验。Adobe 设计系统 Spectrum 的 React 实现。Spectrum 为所有 Adobe 应用程序提供自适应、可访问且具有凝聚力的体验。
+
+* [uber/react-vis](https://github.com/uber/react-vis) 用于渲染常见数据可视化图表的 react 组件集合，例如折线图/面积图/条形图、热图、散点图、等值线图、六边形热图、饼图和圆环图、旭日图、雷达图、平行坐标和树状图。
+
+* [umijs/umi](https://github.com/umijs/umi) umi是React社区的一个框架，它简化了React应用的开发，具有易于上手和扩展性强的特点，其工作原理是基于插件机制，方便开发者定制和扩展功能，并拥有活跃的社区支持。
+
+* [hwix/react-native-navigation](https://github.com/wix/react-native-navigation) 在 iOS 和 Android 上为 React Native 应用程序提供 100% 的原生平台导航。JavaScript API 简单且跨平台 - 只需将其安装在您的应用程序中，即可为您的用户提供他们应得的原生感觉。
+
+* [timlrx/tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) 这是一个Next.js的 Tailwind CSS 博客入门模板。开箱即用，配置了最新技术，使技术写作变得轻而易举。易于配置和定制。非常适合作为现有 Jekyll 和 Hugo 个人博客的替代品。
+
+* [kusti8/proton-native](https://github.com/kusti8/proton-native) 跨平台桌面应用的 React 环境，特征：与 React Native 相同的语法和组件；与现有的 React 库（如 Redux）一起使用；跨平台；不再有Electron；兼容所有普通Node.js包；热重载
+
+* [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) 用于 Three.js 的 React 渲染器，使用可重用的、独立的组件以声明方式构建场景，这些组件对状态做出反应，易于交互，并且可以参与 React 的生态系统。
+
+* [jxnblk/mdx-deck](https://github.com/jxnblk/mdx-deck) 基于React MDX的演示文稿，在Markdown中编写演示文稿，导入和使用React组件，可自定义的主题和组件，零配置 CLI，演示者模式，演讲者笔记。
+
+* [formkit/auto-animate](https://github.com/formkit/auto-animate) 零配置的插入式动画实用程序，可为您的 Web 应用程序添加平滑过渡。您可以将它与 React、Vue 或任何其他 JavaScript 应用程序一起使用。
+
+* [airbnb/lottie-web](https://github.com/airbnb/lottie-web) 在 Web、Android 和 iOS 上原生渲染 After Effects 动画，以及 React Native。设计师可以创建和发布精美的动画，而无需工程师精心手工重新创建
+
+* [Blazity/next-enterprise](https://github.com/Blazity/next-enterprise) 企业级 Next.js 样板，适用于高性能、可维护的应用。包含 Tailwind CSS、TypeScript、ESLint、Prettier、测试工具等功能，可加速您的开发。
+
+* [alibaba/hooks](https://github.com/alibaba/hooks) 一个高质量可靠的React Hooks库，易于学习使用，支持SSR，包含多种高级Hooks和基础Hooks，使用TypeScript编写，具有预测性的静态类型。
+
+* [enzymejs/enzyme](https://github.com/enzymejs/enzyme) React 的 JavaScript 测试实用程序，可以更轻松地测试 React 组件的输出。您还可以操作、遍历和以某种方式模拟给定输出的运行时。
+
+* [react-boilerplate/react-boilerplate](https://github.com/react-boilerplate/react-boilerplate) 在几秒钟内开始你的下一个 react 项目，高度可扩展、离线优先的基础，具有最佳的开发人员体验，并专注于性能和最佳实践。
+
+* [callstack/react-native-paper](https://github.com/callstack/react-native-paper) 跨平台的 UI 工具包库，包含一系列可定制和生产就绪的组件，默认情况下，这些组件遵循并遵守 Google 的 Material Design 指南。
+
+* [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) 30 天 React 挑战是在 30 天内学习 React 的分步指南。这些[视频](https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw)也可能有所帮助
+
+* [ohmplatform/FreedomGPT](https://github.com/ohmplatform/FreedomGPT) 基于 React 和 Electron 的应用程序，该应用程序使用基于聊天的界面在 Mac 和 Windows 上本地（离线和私有）执行 FreedomGPT LLM
+
+* [reactnativecn/react-native-guide](https://github.com/reactnativecn/react-native-guide) React Native指南汇集了各类React Native学习资源、开源App和组件，提供全面的学习路径和开发工具，适合初学者和开发者。
+
+* [cookpete/react-player](https://github.com/cookpete/react-player) 用于播放各种 URL 的 React 组件，包括文件路径、YouTube、Facebook、Twitch、SoundCloud、Streamable、Vimeo、Wistia 和 DailyMotion
+
+* [invertase/react-native-firebase](https://github.com/invertase/react-native-firebase) 经过充分测试、功能丰富的模块化 Firebase 实现，适用于 React Native。支持所有 Firebase 服务的 iOS 和 Android 平台。
+
+* [remix-run/react-router](https://github.com/remix-run/react-router) React JS库的一个轻量级、功能齐全的路由库。React Router 在 React 运行的任何地方运行;在 Web、node.js和 React Native。
+
+* [pmndrs/zustand](https://github.com/pmndrs/zustand) 承担 React 中状态管理的必要条件，使用简化通量原理的小型、快速且可扩展的 bearbone 状态管理解决方案。
+
+* [marmelab/react-admin](https://github.com/marmelab/react-admin) 一个前端框架，用于使用 TypeScript、React 和 Material Design 构建在 REST/GraphQL API 上运行的数据驱动应用程序
+
+* [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) 独一无二的简历生成器，牢记您的隐私。完全安全、可定制、便携、开源且永久免费。今天就试试吧！
+
+* [t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app) 交互式 CLI，用于启动全栈、类型安全的 Next.js 应用。启动全栈、类型安全的 Next.js 应用的最佳方式。
+
+* [xyflow/xyflow](https://github.com/xyflow/xyflow) 反应流 |Svelte Flow - 强大的开源库，用于使用 React或 Svelte构建基于节点的 UI.开箱即用，可无限定制。
+
+* [airbnb/visx](https://github.com/airbnb/visx) 可重用的低级可视化组件的集合。visx 结合了 d3 的强大功能来生成可视化和 react 更新 DOM 的好处。
+
+* [infinitered/ignite](https://github.com/infinitered/ignite) React Native 七年多不断开发的结晶，是 Expo 和裸 React Native 中最受欢迎的 React Native 应用程序样板。
+
+* [gothinkster/realworld](https://github.com/gothinkster/realworld) “所有演示应用程序之母”——由 React、Angular、Node、Django 等提供支持的典范全栈 Medium.com 克隆
+
+* [GeekyAnts/NativeBase](https://github.com/GeekyAnts/NativeBase) 适用于 React Native 和 Web 的移动优先、可访问的组件，可在 Android、iOS 和 Web 上构建一致的 UI。
+
+* [TanStack/table](https://github.com/TanStack/table) 用于为 TS/JS 构建功能强大的表和数据网格的无头 UI - React-Table、Vue-Table、Solid-Table、Svelte-Table
+
+* [expo/expo](https://github.com/expo/expo) 一个开源平台，用于使用 React 制作通用的原生应用程序。Expo 可在 Android、iOS 和 Web 上运行。
+
+* [rsuite/rsuite](https://github.com/rsuite/rsuite) 用于企业系统产品的 react 组件库。它是一个经过深思熟虑且对开发人员友好的 UI 框架。
+
+* [reduxjs/react-redux](https://github.com/reduxjs/react-redux) Redux 的官方 React 绑定。高性能和灵活性。Redux 是 JavaScript 应用程序的可预测状态容器。
+
+* [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) 可扩展的跨平台应用的基础，使用 Electron、React、React Router、Webpack 和 React Fast Refresh。
+
+* [mui/material-ui](https://github.com/mui/material-ui) 即用型基础 React 组件，永久免费。它包括 Material UI，它实现了 Google 的 Material Design。
+
+* [ill-inc/biomes-game](https://github.com/ill-inc/biomes-game) Biomes是一个开源沙盒MMORPG，使用Next.js，Typescript，React和WebAssembly等Web技术为Web构建。
+
+* [reagent-project/reagent](https://github.com/reagent-project/reagent) 提供了一种编写高效 React 组件的方法，（几乎）只使用普通的 ClojureScript 函数。
+
+* [uber/baseweb](https://github.com/uber/baseweb) 一个由现代，响应迅速，动态组件组成的设计系统。Base Web 是 Base 的 React 实现。
+
+* [microsoft/fluentui](https://github.com/microsoft/fluentui) Fluent UI Web 表示用于构建 Web 应用程序的实用程序、React 组件和 Web 组件的集合。
+
+* [shadcn-ui/taxonomy](https://github.com/shadcn-ui/taxonomy) 使用新的路由器、服务器组件和 Next.js 13 中的所有新功能构建的开源应用程序。
+
+* [kriasoft/react-starter-kit](https://github.com/kriasoft/react-starter-kit) Web 上最受欢迎的 Jamstack 前端模板（样板），用于使用 React 构建 Web 应用程序
+
+* [jhen0409/react-native-debugger](https://github.com/jhen0409/react-native-debugger) 基于 React Native 官方调试器的独立应用程序，包括 React Inspector / Redux DevTools
+
+* [alan2207/bulletproof-react](https://github.com/alan2207/bulletproof-react) 简单、可扩展且功能强大的架构，用于构建生产就绪的 React 应用程序。
+
+* [danilowoz/react-content-loader](https://github.com/danilowoz/react-content-loader) SVG 驱动的组件，可轻松创建占位符加载（如 Facebook 的卡片加载）。
+
+* [lsqy/taro-music](https://github.com/lsqy/taro-music) 基于taro + taro-ui + redux + react-hooks + typescript 开发的网易云音乐小程序
+
+* [antonioru/beautiful-react-hooks](https://github.com/antonioru/beautiful-react-hooks) 一组漂亮且（希望）有用的 React 钩子，以加快您的组件和钩子开发
+
+* [sudheerj/reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions) 前 500 个常见的ReactJS 面试问题和答案列表......编码练习题即将推出
+
+* [react-grid-layout/react-grid-layout](https://github.com/react-grid-layout/react-grid-layout) 用于 React 的可拖动和可调整大小的网格布局，具有响应式断点。
+
+* [postlight/headless-wp-starter](https://github.com/postlight/headless-wp-starter) WordPress + React 入门套件：一步启动 WordPress 驱动的 React 应用程序
+
+* [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) 作为 React 样板的开箱即用 UI 解决方案，适用于企业应用程序。
+
+* [Nozbe/WatermelonDB](https://github.com/Nozbe/WatermelonDB) 用于强大的 React 和 React Native 应用程序的响应式和异步数据库
+
+* [plouc/nivo](https://github.com/plouc/nivo) 一组丰富的 dataviz 组件，构建在令人敬畏的 d3 和 React 库之上
+
+* [typescript-cheatsheets/react](https://github.com/typescript-cheatsheets/react) 为有经验的 React 开发人员准备的备忘单，开始使用 TypeScript
+
+* [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) 为您的 React 应用程序提供简单、模块化和可访问的 UI 组件
+
+* [casesandberg/react-color](https://github.com/casesandberg/react-color) 来自 Sketch、Photoshop、Chrome、Github、Twitter 等的颜色选择器
+
+* [serverless-nextjs/serverless-next.js](https://github.com/serverless-nextjs/serverless-next.js) 通过无服务器组件在 AWS Lambda @Edge 上部署 Next.js 应用程序
+
+* [expo/create-react-native-app](https://github.com/expo/create-react-native-app) 创建在 iOS、Android 和 Web 上运行的 React Native 应用程序
+
+* [FormidableLabs/victory](https://github.com/FormidableLabs/victory) 用于构建交互式数据可视化的可组合 React 组件的集合
+
+* [facebook/relay](https://github.com/facebook/relay) 用于构建数据驱动的 React 应用程序的 JavaScript 框架。
+
+* [react-dates/react-dates](https://github.com/react-dates/react-dates) 一个易于国际化、适合移动设备的 Web 日期选择器库
+
+* [nfl/react-helmet](https://github.com/nfl/react-helmet) 可重用的 React 组件将管理你对文档头的所有更改。
+
+* [payloadcms/payload](https://github.com/payloadcms/payload) 使用 React + TypeScript 构建一个免费开源 Headless CMS。
+
+* [keystonejs/keystone](https://github.com/keystonejs/keystone) 最强大的无头 CMS Node.js — 使用 GraphQL 和 React 构建
+
+* [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) 很棒的 React Native 组件、新闻、工具和学习材料！
+
+* [bvaughn/react-virtualized](https://github.com/bvaughn/react-virtualized) 用于高效呈现大型列表和表格数据的 React 组件
+
+* [visgl/react-map-gl](https://github.com/visgl/react-map-gl) 围绕 MapboxGL（地图） JS 的 React 友好 API 包装器
+
+* [aidenybai/million](https://github.com/aidenybai/million) 优化 React 性能，让React 在几分钟内提高 70%。
+
+* [atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) 使用 React 对列表进行美观且易于访问的拖放
+
+* [refinedev/refine](https://github.com/refinedev/refine) 不受限制地构建基于 React 的 CRUD 应用程序。
+
+* [facebook/create-react-app](https://github.com/facebook/create-react-app) 通过运行一个命令来设置新式react Web 应用。
+
+* [rebassjs/rebass](https://github.com/rebassjs/rebass) 使用风格化系统构建的 React 基元 UI 组件。
+
+* [pmndrs/react-spring](https://github.com/pmndrs/react-spring) 一个跨平台的 Spring-Physics First 动画库。
+
+* [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) React企业应用程序的全新 UI 解决方案。
+
+* [hakanyalcinkaya/kodluyoruz-frontend-101-egitimi](https://github.com/hakanyalcinkaya/kodluyoruz-frontend-101-egitimi) 从头开始进行项目的前端和 React 培训
+
+* [enaqx/awesome-react](https://github.com/enaqx/awesome-react) 关于 React 生态系统的精彩内容的集合
+
+* [react-hook-form/react-hook-form](https://github.com/react-hook-form/react-hook-form) 用于表单状态管理和验证的 React Hooks
+
+* [arco-design/arco-design](https://github.com/arco-design/arco-design) 基于 Arco Design 的综合 React UI 组件库
+
+* [remaxjs/remax](https://github.com/remaxjs/remax) 使用真正的 React 构建跨平台小程序
+
+* [facebook/react-native](https://github.com/facebook/react-native) 使用 React 构建本机应用程序的框架
+
+* [fkhadra/react-toastify](https://github.com/fkhadra/react-toastify) 允许您轻松地向应用程序添加通知
+
+* [mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) 强大、高性能的 React Native Camera 库
+
+* [recharts/recharts](https://github.com/recharts/recharts) 使用 React 和 D3 重新定义的图表库
+
+* [react-bootstrap/react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) 使用 React 构建的 Bootstrap 5 组件。
+
+* [ant-design/ant-design](https://github.com/ant-design/ant-design) 企业级 UI 设计语言和 React UI 库
+
+* [jaredpalmer/formik](https://github.com/jaredpalmer/formik) 在 React 中构建表单，无需流泪
+
+* [reactstrap/reactstrap](https://github.com/reactstrap/reactstrap) Bootstrap 5 的无状态 React 组件。
+
+* [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) React Native 应用的路由和导航。
+
+* [pmndrs/jotai](https://github.com/pmndrs/jotai) React 的原始和灵活的状态管理
+
+* [vasanthk/react-bits](https://github.com/vasanthk/react-bits) react模式、技术、技巧和窍门
+
+* [adam-golab/react-developer-roadmap](https://github.com/adam-golab/react-developer-roadmap) 成为 React 开发人员的路线图
+
+* [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) React 组件和库的精选列表。
+
+* [react-native-elements/react-native-elements](https://github.com/react-native-elements/react-native-elements) 跨平台 React Native UI 工具包
+
+* [react-icons/react-icons](https://github.com/react-icons/react-icons) 流行图标包的 SVG React 图标
+
+* [Semantic-Org/Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React) 官方的 Semantic-UI-React 集成
+
+* [remarkjs/react-markdown](https://github.com/remarkjs/react-markdown) React 组件来渲染 markdown。
+
+* [palantir/blueprint](https://github.com/palantir/blueprint) 基于 React 的 Web UI 工具包
+
+* [mantinedev/mantine](https://github.com/mantinedev/mantine) 功能齐全的 React 组件库
+
+* [blitz-js/blitz](https://github.com/blitz-js/blitz) Next.js的全栈工具包
+
+### Vue工具库
+
+* [alibaba/weex](https://github.com/alibaba/weex) 用于构建移动跨平台 UI 的框架，Weex 使用原生组件和原生模块来利用原生渲染性能和平台能力。组件和模块都是可插拔和可扩展的。您可以使用单个代码库生成不同的捆绑包文件，以便在 Web、Android 和 iOS 平台上运行。原生组件和模块在每个平台上都有不同的实现，但它们都公开了相同的 API。Weex 拥抱现有的 Web 生态系统，您可以使用现代前端技术来开发您的移动应用程序。Weex 支持最常用的 CSS 属性和最流行的前端框架，比如 Vue 和 Rax，未来可能会更多。Weex在许多超级应用中大规模使用的时间长了，总共服务了近亿人。Weex还衍生了许多用于行业发展的工程产品和平台。
+
+* [bailicangdu/vue2-happyfri](https://github.com/bailicangdu/vue2-happyfri) Vue2 + Vue-router + Vuex 入门项目，简洁易懂，适合初学者学习 Vue2 和 Vuex，包含 Vue2 对比大型项目的内容，涉及 Vuejs 大部分知识点。项目已经完成，适用于 vue2 + vuex 入门学习，适合初学者入门，可点击 Star 支持或 Follow 关注更多有爱的项目。如有问题可提Issues，或提出问题和简单的解决方案，鼓励 PR。开发环境 macOS 10.12.3 Chrome 56 nodejs 6.10.0。项目运行：克隆仓库，进入文件夹，安装依赖，启动开发服务器，构建生产环境。功能演示：在线 demo，支持 Chrome 浏览器查看。项目路径：https://cangdu.org/happyfri/。路由配置：引入 App 组件，配置路径和子路径。
+
+* [logaretm/vee-validate](https://github.com/logaretm/vee-validate) 无痛 Vue 的表单，特征：简单：熟悉且易于设置的声明式验证；灵活：同步、异步、字段级或表单级验证；快速：使用直观的 API 和较小的占用空间更快地构建更快的表单；最小：仅处理复杂的表单问题，让您完全控制其他一切；UI 不可知：适用于本机 HTML 元素或您喜欢的 UI 库组件；渐进式：无论您是将Vue.js用作渐进式增强功能还是在复杂设置中，都有效；内置规则：具有 25+ 条规则的配套库，涵盖了大多数 Web 应用程序中的大多数需求； i18n：45+ 个内置规则语言环境，由来自世界各地的开发人员贡献
+
+* [farm-fe/farm](https://github.com/farm-fe/farm) Farm是一个用 Rust 编写的超高速、与 Vite 兼容的 Web 构建工具。它旨在快速、强大且一致，旨在为 Web 开发提供最佳体验，是真正的下一代构建工具。Farm 解决了 Webpack 速度慢以及 Vite 在大型项目中存在的缺点，例如大量请求导致开发性能下降、开发和生产环境不一致以及代码拆分不灵活等问题。Farm 通过 Rust 实现，速度极快，并支持增量构建、持久缓存以及模块级缓存，确保任何模块在改变之前不会被编译两次。Farm 同时支持 Vite 插件，并提供灵活的插件系统，是真正下一代的构建工具。
+
+* [answershuto/learnVue](https://github.com/answershuto/learnVue) Vue.js 源码解析，记录了学习 Vue.js 源码过程中的心得和理解。项目包含了 Vue.js（2.3.0）、Vuex（2.4.0）和 Vue-router（3.0.1）的源码，并进行了详细的注释和注解，适合进阶学习者理解和研究 Vue.js 及其基础结构。项目链接：[https://github.com/yyx990803](https://github.com/yyx990803)。可以参与讨论和技术交流，共同学习进步。文档包括 Vue.js 概念解析、依赖库、源码注释、Vue.js 数字再表示、Vue.js 实例方法、VNode 点、虚拟 DOM 和 diff、Vue.js 模板编译、Vue.js 异步更新 DOM 的 nextTick 等内容。
+
+* [sveltejs/kit](https://github.com/sveltejs/kit) 简化Web 开发，由 Svelte 和 Vite 提供支持，速度融入每个缝隙：快速设置、快速开发、快速构建、快速页面加载、快速导航。再也不用浪费时间去弄清楚捆绑器配置、路由、SSR、CSP、TypeScript、部署设置和所有其他无聊的东西了。快乐地编码。为您提供了成功的工具，无论您正在构建什么。它可以在 JavaScript 的任何地方运行。用于使用 Svelte 快速开发健壮、高性能的 Web 应用程序。如果你来自 React，SvelteKit 类似于 Next。如果你来自 Vue，SvelteKit 类似于 Nuxt。
+
+* [didi/mpx](https://github.com/didi/mpx) Mpx是一款增强型跨端小程序框架，它提供优秀的开发体验和深度性能优化。Mpx 基于 Vue 的开发体验，并针对小程序平台进行了深度优化，支持数据响应、组件化开发、Composition API 等特性，能够高效地开发跨端小程序应用。Mpx 拥有丰富的功能，包括数据响应、组件化开发、Composition API、模板语法、生命周期管理等，并提供丰富的文档和示例，方便开发者快速上手。Mpx还支持 SSR 和构建生产环境代码，能够提升小程序的性能和用户体验。
+
+* [jerosoler/Drawflow](https://github.com/jerosoler/Drawflow) Drawflow是一个简单易用的流程图库，使用纯 JavaScript 开发，无需依赖其他库。它允许你轻松快速地创建数据流，只需安装 JavaScript 库并使用四行代码即可启动。Drawflow 支持拖放节点、多输入/输出、多连接、删除节点和连接、添加/删除输入/输出、重新路由连接、节点数据同步、缩放、清除数据模块、模块支持、编辑模式（编辑、固定或查看）、导入/导出数据、事件、移动端支持等功能。它还提供 Vue 支持组件节点和 Nuxt。
+
+* [bencodezen/vue-enterprise-boilerplate](https://github.com/bencodezen/vue-enterprise-boilerplate) 这是一个使用 Vue CLI 和 Vite 创建的 Vue 3 SPA 项目的架构和开发环境样板，它提供了一套完善的开发流程，包括测试、构建、代码风格检查等。它基于 Chris Fritz 的 Vue 2 企业样板，并进行了更新和改进，支持 TypeScript 类型检查和 `.vue` 文件的类型支持，并集成了 Vitest 和 Playwright 用于单元测试和端到端测试。项目还提供了详细的安装和使用说明，以及开发环境的推荐配置，方便开发者快速上手。
+
+* [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) 这是一个为开发者和 IT 从业者提供实用在线工具的项目，拥有出色的用户体验。你可以访问 [https://it-tools.tech](https://it-tools.tech) 体验这些工具。该项目提供自托管解决方案，可通过 Docker Hub、GitHub Packages 或其他平台（如 Cloudron、Tipi和 Unraid）进行部署。你也可以通过 GitHub 提交功能请求或参与贡献。该项目使用 Vue.js 和 TypeScript 开发，并提供详细的开发指南和代码示例。
+
+* [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) 基于 Vue3.x + TypeScript 的在线演示文稿（幻灯片）应用，还原了大部分 Office PowerPoint 常用功能，支持 文字、图片、形状、线条、图表、表格、视频、音频、公式 几种最常用的元素类型，每一种元素都拥有高度可编辑能力，同时支持丰富的快捷键和右键菜单，支持导出本地 PPTX 文件，支持移动端基础编辑和预览，支持 PWA。您可以在此基础上搭建自己的在线幻灯片应用。
+
+* [antfu-collective/icones](https://github.com/antfu-collective/icones) Icxc3xb4nes 是一个基于 Iconify 的图标浏览器，支持即时模糊搜索，无需网络查询。它提供了一系列功能，包括图标包功能（可将选定的图标打包成可直接使用的图标字体）、复制使用脚本、直接下载 SVG、移动端友好、收藏夹功能、分类筛选、暗黑模式等。Icxc3xb4nes 使用 Vite 和 Vue 3 构建，并提供 VS Code 扩展。未来计划推出 Electron 客户端和完全离线模式。
+
+* [nuxt/nuxt](https://github.com/nuxt/nuxt) 免费的开源框架，具有直观且可扩展的方式，可以使用 Vue.js 创建类型安全、高性能和生产级的全栈 Web 应用程序和网站。它提供了许多功能，可以轻松构建快速、SEO 友好且可扩展的 Web 应用程序，包括：服务器端渲染、静态站点生成或混合渲染；具有代码拆分功能的自动路由；状态管理；SEO优化；自动导入；可扩展 180+ 模块；部署到各种托管平台
+
+* [didi/cube-ui](https://github.com/didi/cube-ui) cube-ui是一个基于 Vue 的移动端 UI 库，它提供了丰富的组件，例如按钮、动作面板等，帮助开发者快速构建移动应用界面。cube-ui支持模块化使用，开发者可以根据需要选择使用特定组件。项目提供详细的文档和示例，并提供 CLI 工具方便开发者快速创建项目。cube-ui 是滴滴出行开源的项目，还有其他优秀的开源项目，例如 Mpx、Chameleon、mand-mobile 等。
+
+* [zyronon/douyin](https://github.com/zyronon/douyin) Vue3 + Pinia 仿抖音，Vue 在移动端的最佳实践 .模仿 TikTok 、Vue 移动端最佳实践。douyin-vue 是一个模仿 抖音|TikTok 的移动端短视频项目。Vue 在移动端的”最佳实践”，媲美原生 App 丝滑流畅的使用体验。使用了最新的 Vue 技术栈，基于 Vue3、Vite5 、Pinia实现。数据保存在项目本地，通过 axios-mock-adapter 库拦截Api 并返回本地json数据，模拟真实后端请求。
+
+* [vitejs/vite](https://github.com/vitejs/vite) Vite（法语中“快速”的意思，发音 `/vit/` 为“veet”）是一种新型的前端构建工具，可显著改善前端开发体验。主要组成：通过本机 ES 模块提供源文件的开发服务器，具有丰富的内置功能和惊人的快速热模块替换 （HMR）。将代码与 Rollup 捆绑在一起的生成命令，经过预配置，可输出高度优化的静态资产以用于生产环境。
+
+* [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie) Mealie 是一个自我托管的食谱管理器和餐计划工具，具有 REST API 后端和基于 Vue 的响应式前端，提供全家友好的使用体验。可以通过 URL 自动导入食谱或使用 UI 编辑器添加家庭食谱。Mealie 还提供了 API 供第三方应用程序交互。主要功能包括食谱导入、餐计划、购物清单、食谱分组、Docker 部署和多语言翻译。
+
+* [didi/mand-mobile](https://github.com/didi/mand-mobile) mand-mobile是一个基于 Vue.js 2 的移动端 UI 工具包，专为金融场景设计。它提供丰富的组件库，包括按钮、输入框、列表等，方便开发者快速构建移动应用。开发者可以通过 npm 安装 mand-mobile，并使用 babel-plugin-import 或 ts-import-plugin 导入所需组件。mand-mobile 还提供了丰富的示例和文档，帮助开发者快速上手。
+
+* [gridsome/gridsome](https://github.com/gridsome/gridsome) Gridsome是基于Vue.js的Jamstack框架，用于构建超快的现代网站。它支持连接任何CMS或数据源，具有PWA离线优先架构，自动优化页面速度，并且适合全球部署。快速开始：安装Gridsome CLI工具，创建项目并运行开发服务器。项目特色包括热重载、GraphQL数据访问、代码分割、图像优化和几乎完美的Lighthouse评分。
+
+* [tusen-ai/naive-ui](https://github.com/tusen-ai/naive-ui) Naive UI 是一个基于 Vue 3 的组件库，功能齐全且可自定义主题，使用 TypeScript 编写，性能优异。它包含超过 90 个可树摇的组件，支持通过 JavaScript 提供主题覆盖对象来自定义主题，无需额外的 CSS 变量、Sass 或 CSS 变量，无需 webpack 载体。支持与 TypeScript 项目无缝集成，无需引入任何 CSS 即可使用组件。
+
+* [wangyuan389/mall-cook](https://github.com/wangyuan389/mall-cook) Mall-Cook是一个基于 Vue 开发的低代码商城搭建平台，支持可视化搭建H5 和小程序多端商城。它提供丰富的页面可视化搭建功能，并支持 JSON Schema 生成组件，方便用户快速构建商城页面。平台基于 uni-app 框架，可一键生成 H5 和小程序多端应用，极大提升开发效率。用户可访问演示网站体验平台功能。
+
+* [unilei/aipan-netdisk-search](https://github.com/unilei/aipan-netdisk-search) 本项目是一个基于 Vue 与 Nuxt.js 技术打造的开源网盘搜索项目，旨在让人人皆可拥有属于自己的网盘搜索网站。项目提供多种部署方式，包括Vercel 和 Docker，方便用户快速启动。项目使用第三方 API 进行搜索，并提供管理面板方便用户自定义配置。强烈建议自行部署，并欢迎所有参与者贡献！
+
+* [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack) 一个全面的 Webpack + vue-loader 配置，包含热重载、代码检查、单元测试和 CSS 提取。适用于 Vue 2.0，不适用于 Vue 1.x。由于 Vue CLI 3 的发布，此模板已弃用。该项目曾是 vue-cli 2.x 的主要模板，现不再进行开发。可以克隆此仓库以继续使用。包含开发和生产构建、单元测试和端到端测试等功能。
+
+* [SortableJS/Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) Vue拖拽组件，基于Sortable.js，支持Vue.js 2.0组件或Vue.js 1.0指令，提供Sortable.js的所有功能，如触摸设备支持、拖拽把手和可选文本、智能自动滚动、不同列表间的拖拽等，保持HTML和视图模型列表同步，兼容Vue.js 2.0 transition-group，支持取消操作和事件报告，可重用现有UI库组件。
+
+* [unovue/inspira-ui](https://github.com/unovue/inspira-ui) Inspira UI是一个基于Vue和Nuxt的开源组件库，提供一系列精美、可复用的组件，其设计灵感源自Aceternity UI和Magic UI。它允许开发者灵活定制组件，并兼容Nuxt框架，拥有丰富的组件选择和移动端优化，致力于帮助开发者高效构建漂亮的网站。项目采用MIT许可证。
+
+* [opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue) Vue相关开源项目库汇总，由OpenDigg管理与维护，包含前端Vue项目，可通过OpenDigg标签页访问并提交问题。项目列表会不定期更新，最新一次更新为一个月前。包含UI组件、开发框架、应用库、服务端、插件工具和应用示例等内容，如element、Vux、iview等。
+
+* [unovue/shadcn-vue](https://github.com/unovue/shadcn-vue) shadcn-vue 是一个非官方的社区主导项目，它将 shadcn/ui 移植到了 Vue.js 生态系统中，提供可访问且可定制的组件，方便开发者复制粘贴到自己的应用中，并可用于构建自定义组件库，该项目获得了 shadcn 的许可，并参考了 shadcn-svelte 和 Radix Vue 等项目。
+
+* [vueuse/vueuse](https://github.com/vueuse/vueuse) VueUse 是一个为 Vue 2 和 3 提供的核心 Composition Utilities 的集合，包含交互式文档和示例、可树摇、类型强、SSR 友好、无需打包器、灵活配置、可选插件等功能。使用方法简单，可以直接通过 CDN 使用。该项目不再支持 Vue 2，建议使用 v11.x 版本。
+
+* [surmon-china/vue-quill-editor](https://github.com/surmon-china/vue-quill-editor) Vue(2) 项目中使用的 Quill 富文本编辑器组件，但由于 Quill 项目已停止维护，`vue-quill-editor` 将被弃用，不再支持 Vue3，建议使用 tiptap 作为替代方案。该项目提供组件示例和文档链接，支持通过 NPM 或 CDN 安装和使用，但不推荐继续使用。
+
+* [tumobi/nideshop-mini-program](https://github.com/tumobi/nideshop-mini-program) NideShop是一款基于Node.js和MySQL开发的开源微信小程序商城，支持高并发网络购物（主要为2016年wap版本），测试数据集的在线购物，兼容ecshop的功能和数据库，服务端API基于Node.js+ThinkJS+MySQL，管理后台系统、PC版和H5版均基于Vue.js开发。
+
+* [vuejs/devtools-v6](https://github.com/vuejs/devtools-v6) Browser扩展工具用于调试Vue.js应用，提供新的Vue Devtools版本可在vuejs/devtools-next试用，项目包含多个包如api、app-backend-api等，支持Vue 1、2、3版本，可通过安装扩展或运行Electron应用进行调试，贡献请参考文档，项目遵循MIT许可。
+
+* [hectorqin/reader](https://github.com/hectorqin/reader) reader是一个阅读3服务器版项目，支持桌面端和 iOS 设备。后端使用 Kotlin + Spring Boot + Vert.x + Coroutine，前端使用 Vue.js + Element。该项目提供在线体验，并支持 Telegram 群组交流。由于 Demo 服务器未备案已被关停，建议自行搭建。
+
+* [dcloudio/uni-app](https://github.com/dcloudio/uni-app) 使用 Vue.js开发小程序、H5、App的统一前端框架。使用 Vue 语法编写代码，uni-app 框架将其编译到 小程序（微信/支付宝/百度/字节跳动/QQ/快手/钉钉/小红书）、App（iOS/Android）、H5等平台，保证正确并达到优秀体验。
+
+* [vuejs/vuepress](https://github.com/vuejs/vuepress) VuePress 是一个基于 Vue 的静态站点生成器，轻量且易用，可用于快速构建文档站点。它支持 Vue 3，并可通过多种构建工具进行配置。项目提供了详细的文档和丰富的示例，支持贡献者通过多种方式参与。
+
+* [pagekit/vue-resource](https://github.com/pagekit/vue-resource) Vue.js的HTTP客户端，支持Promise API和URI Templates，兼容最新版Firefox、Chrome、Safari、Opera和IE9+，支持Vue 1.0和Vue 2.0，体积小巧仅14KB（压缩后5.3KB）。可以通过yarn或NPM安装，或使用CDN。支持请求和响应拦截器。
+
+* [surmon-china/vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper) Vue组件库，基于Swiper，提供Vue滑块功能，最新版本v5已弃用，建议使用Swiper官方Vue组件，支持Vue3，不兼容旧版本API。旧版本包括Swiper 5-6的v4.1.1（Vue2）、Swiper 4.x的v3.1.3（Vue2）和Swiper 3.x的v2.6.7（Vue2）。
+
+* [vuejs/vuex](https://github.com/vuejs/vuex) Vue.js 的集中式状态管理。Vue 的官方状态管理库已更改为 Pinia。Pinia 具有与 Vuex 5 几乎完全相同或增强的 API，如 Vuex 5 RFC 中所述。你可以简单地将 Pinia 视为具有不同名称的 Vuex 5。Pinia 也适用于 Vue 2.x。
+
+* [Yin-Hongwei/music-website](https://github.com/Yin-Hongwei/music-website) Vue + SpringBoot + MyBatis 音乐网站，使用Vue实现前端，Spring Boot + MyBatis实现后端，数据库使用MySQL。项目特色包括在线播放音乐、用户登录认证、个人信息编辑、歌词搜索与播放、歌词滚动等。
+
+* [primefaces/primevue](https://github.com/primefaces/primevue) Next Generation Vue UI组件库，包含丰富的开源UI组件，支持多种包如primevue、@primevue/core等，可通过PrimeVue官网查看实时演示和文档。该项目遵循MIT许可证，并提供Discord聊天支持和GitHub讨论区。
+
+* [vuetifyjs/awesome-vuetify](https://github.com/vuetifyjs/awesome-vuetify) Vuetify 是一个不需要设计技能的 UI 库，其中包含精美的手工制作的 Vue 组件。您将在下面找到一系列应用程序和工具，这些应用程序和工具有助于展示 Vuetify 所提供的最佳功能
+
+* [bootstrap-vue/bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue) BootstrapVue 是一个为 Vue.js 2.6 提供的 Bootstrap v4.5 最全面的实现，包含超过85个组件、45个插件、多个指令和1000多个图标，支持自动化的 WAI-ARIA 可访问性标记。
+
+* [ElemeFE/mint-ui](https://github.com/ElemeFE/mint-ui) Mobile UI元素库，支持Vue 2.0，提供丰富的移动端UI组件，可通过npm安装并导入使用，支持模块化导入和自动导入样式，提供CDN加速加载，遵循MIT开源协议。
+
+* [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) 不需要设计技能的 UI 库，其中包含精美的手工制作的 Vue 组件。无需设计技能 — 创建令人惊叹的应用程序所需的一切触手可及。
+
+* [DataV-Team/DataV](https://github.com/DataV-Team/DataV) Vue数据可视化组件库（类似阿里DataV，大屏数据展示），提供SVG边框及装饰、图表、水位图、飞线图等组件，React版已发布
+
+* [vuejs/pinia](https://github.com/vuejs/pinia) Vue 的官方状态管理库，直观、类型安全、轻量级和灵活的 Vue 应用状态管理，使用具有 DevTools 支持的组合 API
+
+* [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever) 快速轻松地建立多份精美的简历，并创建您有史以来最好的简历！使用 Vue 和 LESS 制作。
+
+* [vuejs/vitepress](https://github.com/vuejs/vitepress) 由 Vue 驱动的静态站点生成器，也是 VuePress 的精神继承者，建立在 Vite 之上。
+
+* [Meituan-Dianping/mpvue](https://github.com/Meituan-Dianping/mpvue) 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系。
+
+* [youzan/vant](https://github.com/youzan/vant) 一个轻量级的、可定制的 Vue UI 库，用于移动 Web 应用程序。特性：
+
+* [lenve/vhr](https://github.com/lenve/vhr) 微人事是前后端分离的人力资源管理系统，采用SpringBoot+Vue开发。
+
+* [bailicangdu/vue2-elm](https://github.com/bailicangdu/vue2-elm) 基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用
+
+* [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) 由vue-cli-electron-builder构建的简单而漂亮的图片上传工具
+
+* [vuematerial/vue-material](https://github.com/vuematerial/vue-material) 带有 Material Design 的即用型 Vue 组件，永久免费。
+
+* [quasarframework/quasar](https://github.com/quasarframework/quasar) 在创纪录的时间内构建高性能的 VueJS 用户界面
+
+* [SmallRuralDog/vue3-music](https://github.com/SmallRuralDog/vue3-music) VUE3+TS开发的音乐播放器，模仿mac QQ音乐。
+
+* [troisjs/trois](https://github.com/troisjs/trois) ThreeJS + VueJS 3 + ViteJS，重写一些 WebGL 演示
+
+* [vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue) 基于 Ant Design 和 Vue 的企业级 UI 组件。
+
+* [iview/iview](https://github.com/iview/iview) 基于 Vue.js 2.0 构建的高质量 UI 工具包
+
+* [newbee-ltd/newbee-mall-vue3-app](https://github.com/newbee-ltd/newbee-mall-vue3-app) Vue3  + Vant 搭建大型单页面商城项目。
+
+* [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) 与 Vue 相关的精彩事物的精选列表
+
+* [vueComponent/ant-design-vue-pro](https://github.com/vueComponent/ant-design-vue-pro) 像专业人士一样使用 Ant Design Vue2
+
+* [ElemeFE/element](https://github.com/ElemeFE/element) 用于 Web 的 Vue.js 2.0 UI 工具包。
+
+* [airyland/vux](https://github.com/airyland/vux) 基于 Vue 和 WeUI 的移动 UI 组件
+
+* [element-plus/element-plus](https://github.com/element-plus/element-plus) Element 团队制作的 Vue.js 3 UI 库
+
+* [vuejs/vue-cli](https://github.com/vuejs/vue-cli) 基于 webpack 的 Vue.js 开发工具
+
+* [vuejs/vue-router](https://github.com/vuejs/vue-router) Vue 2 的官方路由器
+
+### 前端项目_其他
+
+* [zauberzeug/nicegui](https://github.com/zauberzeug/nicegui) NiceGUI 是一个易于使用、基于 Python 的 UI 框架，它显示在您的 Web 浏览器中。您可以创建按钮、对话框、Markdown、3D 场景、绘图等等。它非常适合微型 Web 应用程序、仪表板、机器人项目、智能家居解决方案和类似用例。您还可以在开发中使用它，例如在调整/配置机器学习算法或调整电机控制器时。NiceGUI 以 PyPI 包、Docker 镜像、conda-forge 和 GitHub 的形式提供。特征：基于浏览器的图形用户界面；充当 Web 服务器（由浏览器访问）或处于本机模式（例如桌面窗口）；标准 GUI 元素，如标签、按钮、复选框、开关、滑块、输入、文件上传；使用行、列、卡片和对话框进行简单分组；通用 HTML 和 Markdown 元素；强大的高级元素（绘制图形和图表， 渲染 3D 场景，通过虚拟操纵杆获取转向事件，注释和叠加图像，与表交互，导航可折叠树结构，嵌入视频和音频文件）；内置计时器，可每隔一段时间（甚至每 10 毫秒）刷新数据；直接的数据绑定和可刷新函数，可编写更少的代码；通知、对话框和菜单，提供最先进的用户交互；共享网页和个人网页；易于使用的每用户和一般持久性；能够添加自定义路由和数据响应；捕获全局快捷键的键盘输入等；通过定义原色、辅助色和强调色来自定义外观；Live-Cycle 事件和会话数据；在 Jupyter Notebook 中运行，并允许 Python 的交互模式；对 Tailwind CSS 的自动完成支持；SVG、Base64 和表情符号网站图标支持；基于 pytest 的测试框架。
+
+* [zlgopen/awtk](https://github.com/zlgopen/awtk) AWTK（Toolkit AnyWhere）是一个跨平台嵌入式 GUI 引擎，由 ZLG开发，支持嵌入式系统、WEB、小程序、手机和 PC 等平台。它提供强大的功能、高效的性能、可靠的质量和易于使用的特性，帮助用户设计美观的 GUI 应用。AWTK 拥有跨平台的代码库，支持 ZLG AWorksOS、Windows、Linux、MacOS、嵌入式 Linux、Android、iOS、HarmonyOS、Web 和嵌入式裸机系统等平台，并提供跨平台基础工具库，如列表、数组、字符串、事件发射器、值、对象、文件系统、互斥锁、线程、公式和字符串分析等，确保应用跨平台运行。AWTK 通过脏矩形算法更新变化部分、支持 3 个 FrameBuffer 以实现最高帧率、使用高效的二进制格式存储 UI 描述文件和主题文件、支持 OpenGL、DirectX、Vulkan 和 Metal 等 GPU加速接口以及嵌入式平台的 2D 加速接口等方式提高效率。此外，AWTK 还提供 UI 设计工具 AWTK Designer，支持拖放式 UI 设计，所见即所得，并支持快速预览和一键打包资源。
+
+* [pocoproject/poco](https://github.com/pocoproject/poco) POCO C++库是一个跨平台的 C++ 库，用于构建运行在桌面、服务器、移动设备、物联网和嵌入式系统上的网络和互联网应用程序。它提供了一组 C++ 类库，类似于 Java 类库或 .NET Framework，专注于解决常见问题，并针对“互联网时代”的网络应用程序。POCO 库使用高效、现代的 100% ANSI/ISO 标准 C++ 编写，基于并补充了 C++ 标准库/STL，具有高度可移植性，可在从嵌入式到服务器的各种平台上使用。POCO 是开源的，使用 [Boost Software License](https://spdx.org/licenses/BSL-1.0)许可。要开始使用 POCO，请参阅 [Guided Tour](https://pocoproject.org/docs/00100-GuidedTour.html) 和 [Getting Started](https://pocoproject.org/docs/00200-GettingStarted.html) 文档。可以使用 CMake 构建 POCO，需要 CMake 3.15 或更高版本、C++17 编译器（Visual C++ 2017、GCC 8.0、Clang 5 或更高版本）、OpenSSL头文件和库（可选，但推荐）、MySQL、PostgreSQL 和 ODBC 客户端库（可选）。
+
+* [AnswerDotAI/fasthtml](https://github.com/AnswerDotAI/fasthtml) FastHTML是一个新一代的网页框架，使用简洁紧凑的代码快速构建可扩展的网页应用。它功能强大，可以构建最先进的交互式网页应用；轻量快速，减少代码量，提高效率；语法简单直观，易于学习和使用，快速构建复杂应用。FastHTML应用本质上是Python代码，可以利用Python语言和生态系统的全部功能。FastHTML的功能与HTML和HTTP直接映射，但允许使用良好的软件工程实践进行封装，因此需要了解这些基础知识才能充分利用该库。要了解其工作原理，请先阅读[about.fastht.ml](https://about.fastht.ml/)。安装方法：使用pip命令安装python-fasthtml库。使用示例：创建一个名为“main.py”的文件，使用Python代码构建网页应用，并使用HTMX添加交互功能。FastHTML提供LLM友好指南，帮助AI系统理解和使用FastHTML。可以通过添加[llms-ctx.txt](https://docs.fastht.ml/llms-ctx.txt)链接，让AI助手使用FastHTML。
+
+* [Naereen/badges](https://github.com/Naereen/badges) 这是一个包含大量 Markdown 代码的徽章列表，可以将这些徽章添加到 GitHub 或 Bitbucket项目的 `README.md` 文件中。该项目提供了各种类型的徽章，例如通用徽章、维护状态徽章、网站状态徽章、反馈徽章、Python 相关徽章、Go 相关徽章、Rust相关徽章、Markdown 相关徽章、LaTeX 相关徽章、JavaScript 相关徽章、GNU Bash 相关徽章、Microsoft Visual Studio Code相关徽章、Read the Docs 状态徽章、GitHub 相关徽章、Bitbucket 相关徽章、PackageControl 相关徽章、许可证徽章、简单图标、开源徽章、元徽章、DOI和 Zenodo 徽章、DOI 引用徽章、Discord 徽章、Jetbrains 徽章、感谢徽章、自定义徽章、随机徽章等。用户可以根据自己的需要选择合适的徽章，并通过提供的 Markdown 代码将其添加到自己的项目中。该项目也欢迎贡献者，鼓励用户添加自己的徽章。
+
+* [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) 完整的开源稍后阅读解决方案，适合喜欢文本的人。我们创建 Omnivore 是因为我们热爱阅读，我们希望它更具社交性。特色：突出显示、注释、搜索和共享，全键盘导航，自动保存长篇文章中的位置，通过电子邮件添加新闻稿文章（支持 substack！），PDF 支持，用 Node.js 和 TypeScript 编写的 Web 应用程序，原生 iOS 程序，Android 程序，适用于 Android 用户的渐进式 Web 应用程序，Chrome、Safari、Firefox 和 Edge 的浏览器扩展，标签（又称标记），离线支持，文本转语音（仅限 iOS），通过我们的 Logseq 插件支持 Logseq，通过我们的 Obsidian 插件支持 Obsidian，每个部分都是完全开源的！对其进行分叉、扩展或将其部署到您自己的服务器。omnivore.app 一个免费托管的 Omnivore 版本
+
+* [nodegui/nodegui](https://github.com/nodegui/nodegui) 用于使用 Node.js 和 CSS 构建跨平台原生桌面应用程序的库。NodeGUI 由 Qt6  提供支持，与其他基于铬的解决方案（如 Electron）相比，它具有 CPU 和内存效率。特征:跨平台；CPU 和内存占用量低、对于 Hello World 程序，当前 CPU 在空闲时保持在 0%，内存使用率低于 20MB；使用 CSS 进行样式设置（包括实际的级联）。还完全支持 Flexbox 布局；完整的 Nodejs API 支持（目前在 Node v16.x 上运行 - 并且易于升级）。因此可以访问所有与 Nodejs 兼容的 NPM 模块。；本机小部件事件侦听器支持。支持Qt / NodeJs提供的所有事件。；可用于商业应用；良好的 Devtools 支持；良好的文档和网站；为贡献者提供良好的文档；对暗模式的良好支持（感谢Qt）。；一流的 Typescript 支持。
+
+* [libretro/RetroArch](https://github.com/libretro/RetroArch) libretro API 的跨平台、复杂的前端。许可 GPLv3。RetroArch 是 libretro API 的参考前端。此 API 的常见实现示例包括视频游戏系统仿真器和游戏引擎，以及更通用的 3D 程序。这些程序实例化为动态库。我们将这些称为 “libretro 核心”。libretro 是一个公开通用音频 / 视频 / 输入回调的 API。libretro 的前端（例如 RetroArch）处理视频输出、音频输出、输入和应用程序生命周期。用可移植 C 或 C++ 编写的 libretro 核心可以在许多平台上无缝运行，几乎不需要移植工作。虽然 RetroArch 是 libretro 的参考前端，但其他几个项目也使用 libretro 接口来支持模拟器和/或游戏引擎。LibRetro 是完全开放的，任何人都可以免费使用。
+
+* [leeoniya/uPlot](https://github.com/leeoniya/uPlot) uPlot是一个轻量级、快速、基于Canvas 2D的图表库，用于绘制时间序列、折线、面积图、OHLC和条形图。它可以快速渲染包含150,000个数据点的交互式图表，并且缩放和光标性能优异。uPlot支持多种系列、多个Y轴、时间或数值X轴、线性、统一或对数刻度、线和区域样式、可插拔路径渲染器、缩放、图例、时间区域名称支持、缺失数据支持、多个图表的光标同步、聚焦最近系列、数据流、高低波段等功能。它提供了一个精简、一致且强大的API，并支持钩子和插件。uPlot专注于速度和轻量级，因此不包含数据解析、聚合、求和或统计处理功能、过渡或动画、轴刻度标签的碰撞避免、堆叠系列等功能。
+
+* [stashapp/stash](https://github.com/stashapp/stash) Stash是一个用Go语言编写的自托管网络应用程序，用于整理和管理你的色情内容。它从互联网上收集你收藏中的视频信息，并通过社区构建的插件扩展，支持大量内容制作者和网站。Stash支持多种视频和图像格式，可以对视频进行标记以便日后查找，并提供关于演员、标签、工作室等的统计信息。你可以观看一个安全的工作演示视频来了解它的实际操作。更多信息请参阅文档或阅读应用程序内的使用手册。Stash支持Windows、macOS、Linux和Docker等平台，你可以从GitHub Releases页面下载适用于不同平台和架构的最新版本。首次运行时，Windows和macOS用户可能会遇到安全提示，因为二进制文件尚未签名。
+
+* [fschutt/azul](https://github.com/fschutt/azul) Azul是一个免费、功能性、响应式的Rust、C和C++桌面GUI框架，使用WebRender渲染引擎和类似CSS/HTML的文档对象模型，可以快速开发美观、原生桌面应用程序。它支持大量常见的CSS特性，如渐变、阴影、SVG滤镜、混合操作、边框样式、边框半径、滚动/自动溢出、CSS转换等。Azul还提供丰富的内置小部件、OpenGL纹理嵌入、简化的基于CSS flexbox的HTML类相对/绝对布局系统、60+ FPS动画、跨平台原生对话框、跨平台文本整形和渲染、SVG解析和渲染、形状细分、管理非主线程任务、通过共享库进行动态链接、从Rust、C、C++和Python通过自动生成的API绑定进行使用、HTML到Rust编译以进行快速原型设计/热重载。
+
+* [zeux/pugixml](https://github.com/zeux/pugixml) pugixml是一个轻量级、简单且快速的 C++ XML 解析库，它提供类似 DOM 的接口，支持丰富的遍历和修改功能，并包含一个极速的 XML 解析器，用于从 XML 文件或缓冲区构建 DOM 树。此外，它还支持 XPath 1.0，用于执行复杂的数据驱动树查询。pugixml 支持完整的 Unicode，并提供 Unicode 接口变体以及不同 Unicode 编码之间的自动转换。该库广泛应用于各种开源和私有项目，因其性能优异和易于使用的接口而受到欢迎。项目文档包括快速入门指南和完整的参考手册，示例代码展示了如何使用 pugixml 打开 XML 文件、遍历 Tool 节点并打印 Timeout 属性大于 0 的工具信息。该库采用 MIT 许可证，可免费使用。
+
+* [rubickCenter/rubick](https://github.com/rubickCenter/rubick) Rubick是一款基于Electron的开源工具箱，它允许用户自由集成丰富的插件。插件基于npm安装和卸载，非常轻量级。插件数据支持WebDAV多终端同步，保证数据安全。它支持内网部署，可定制进一步开发，非常灵活。用户可以通过快捷键Alt/Option+R快速启动主程序，在主程序输入框中输入关键词搜索相应的应用、插件、文件等，并选择使用。用户也可以通过左侧的logo进入插件市场，找到并安装所需的插件。Rubick支持基于npm包模式的插件管理，支持WebDAV多设备数据同步，支持系统插件模式，支持快速启动本地应用、文件和文件夹，支持企业级内网部署，支持多语言。
+
+* [mbrlabs/Lorien](https://github.com/mbrlabs/Lorien) Lorien是一款适用于Windows、Linux和macOS的无限画布绘图/白板应用程序，使用Godot引擎开发。它以性能、小文件大小和简洁性为重点，采用矢量绘制方式，将笔触保存为点集合，并在运行时渲染，类似于SVG。Lorien主要用于数字笔记和头脑风暴，适合制作小型草图和图表，但并非替代传统的基于位图的绘图软件。它提供无限画布、无限撤销/重做、无限缩放、无限网格、禅模式、极小的保存文件、多文档同时工作等功能，并支持多种工具、移动和删除选定笔触、SVG导出、可重新绑定键盘快捷键、内置和自定义调色板，以及对绘图板（如Wacom）和压力敏感的支持。
+
+* [mherrmann/helium](https://github.com/mherrmann/helium) Helium 是一个 Python 库，用于自动化 Chrome 和 Firefox 等浏览器。要开始使用 Helium，您需要 Python 3 和 Chrome 或 Firefox。我建议创建一个虚拟环境。这使您可以只为当前项目安装 Helium，而不是在整个计算机上全局安装 Helium。在引擎盖下，Helium 将每个调用转发到 Selenium。不同的是，Helium 的 API 级别要高得多。在 Selenium 中，您需要使用 HTML ID、XPaths 和 CSS 选择器来识别网页元素。另一方面，Helium 允许您通过用户可见的标签来引用元素。因此，Helium 脚本通常比类似的 Selenium 脚本短 30-50%。更重要的是，它们更易于阅读，并且在底层网页的变化方面更稳定。
+
+* [saadpasta/developerFolio](https://github.com/saadpasta/developerFolio) 这是一个用于软件开发者展示作品和技能的投资组合模板，提供干净、美观且响应式的设计。该项目目前已停止维护，但用户可以自定义颜色方案和内容，并将其链接到 GitHub 和 Medium 等平台。用户可以使用 Docker 或 Node.js 和 npm 在本地运行该项目，并通过修改 `src/portfolio.js` 文件来自定义内容。该项目包含多个部分，包括个人简介、技能、教育经历、工作经验、开源项目、大型项目、成就和认证、博客、演讲、播客、联系方式、Twitter 时间线和 GitHub 个人资料。用户可以根据需要自定义每个部分。
+
+* [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture) Composable Architecture(TCA) 是一个用于以一致且易于理解的方式构建应用程序的Swift 库，它注重组合性、测试和人体工程学。它可以用于SwiftUI、UIKit 等框架，以及所有 Apple 平台（iOS、macOS、visionOS、tvOS 和 watchOS）。TCA 提供了用于管理状态、组合组件、处理副作用和进行测试的工具，并提供易于使用的 API，帮助您以简单的方式构建复杂应用程序。您可以在 Point-Free 的视频系列中学习更多关于 TCA 的知识，该系列涵盖了函数式编程和 Swift 语言。该项目还包含大量示例，展示如何使用 TCA 解决各种问题。
+
+* [axa-group/Parsr](https://github.com/axa-group/Parsr) Parsr是一个轻量级的文档处理工具链，可以将图像、PDF、docx、eml 等格式的文档转换为结构化的 JSON、Markdown、CSV/Pandas DF 或 TXT 格式数据。它可以帮助分析师、数据科学家和开发者获取干净的结构化信息，并进行数据录入、文档分析自动化、归档等应用。Parsr 可以进行文档清理、层次结构重建、标题、表格、列表、目录、页码、页眉/页脚、链接等元素的识别。可以通过 Docker 镜像快速安装和运行 Parsr API，也可以通过 GUI 工具发送文档并可视化结果。Parsr 还提供 Python 客户端和 Jupyter Notebook 示例。
+
+* [imuncle/live2d](https://github.com/imuncle/live2d) 这是一个Live2D 模型收集和展示项目，可以将模型直接用于静态网站。项目提供 Live2D Cubism 2 和 Live2D Cubism 3两种模型展示页面，目前已收集 128 个模型。项目使用简单，只需引入 live2d.js 文件，添加 canvas 元素和 CSS 样式，并使用 loadlive2d 函数加载模型即可。模型文件包含 texture、motions、expression、sounds 和 model.json 等，其中 model.json 文件包含模型的配置信息，model.moc 文件是模型本体。项目还提供 Live2D Cubism 3 模型的展示页面，这些模型使用 Cubism Editor 2 制作，并使用 Cubism3 SDK 开发。
+
+* [penrose/penrose](https://github.com/penrose/penrose) Penrose 是一个平台，使人们只需在纯文本中键入符号即可创建漂亮的图表。目标是让非专家也能轻松创建和探索高质量的图表，并提供对具有挑战性的技术概念的更深入见解。我们的目标是使创建视觉直觉的过程大众化。Penrose 已经了解图表的领域以及如何设置图表的样式。您只需定义对象和关系。Penrose 通过将这三个程序转换为使用符号微分解决的优化问题来开展工作。如果您需要添加新形状，这并不是一项艰苦的工作 -- Penrose 会自动创建一个满足您所有约束条件的新图表。
+
+* [glideapps/glide-data-grid](https://github.com/glideapps/glide-data-grid) Glide Data Grid是一个基于画布的快速响应数据表格，支持数百万行数据，快速更新和原生滚动。它使用懒加载渲染单元格，以提高内存效率，并提供原生滚动以确保流畅的用户体验。Glide Data Grid支持多种类型的单元格，包括数字、文本、Markdown、气泡、图像、钻取和URI，并提供内置的编辑功能、可调整大小和移动的列、可变大小的行、合并单元格、单选和多选行、单元格和列，以及完全自定义的单元格渲染功能。它完全免费且开源，并提供MIT许可证，允许在商业项目中使用。
+
+* [loeffel-io/ls-lint](https://github.com/loeffel-io/ls-lint) ls-lint是一个极速的目录和文件名检查工具，可以帮助你为项目文件系统带来结构。它支持多种规则，可以检查目录和文件名，支持所有扩展名和全 Unicode 支持。ls-lint 速度极快，可以在毫秒内检查数千个文件和目录。它支持 Windows、MacOS 和 Linux，并提供 NPM 包、GitHub Action、Homebrew 和 Docker 支持。ls-lint 几乎没有第三方依赖，仅依赖 go-yaml和 doublestar。你可以通过 `.ls-lint.yml` 文件轻松配置规则，并使用简单的命令行工具进行检查。ls-lint 是一个开源软件，使用 MIT 许可证。
+
+* [sourcegraph/checkup](https://github.com/sourcegraph/checkup) Checkup是一个用Go语言编写的分布式、无锁、自托管的健康检查和状态页面工具，具有简洁的命令行界面和易用的Go语言库，两者完全互通且配置对称。它支持HTTP、TCP、DNS和TLS等多种检查类型，以及Amazon S3、本地文件系统、GitHub、MySQL、PostgreSQL、SQLite3和Azure Application Insights等多种存储后端，并可通过多种服务发送通知（需集成）。Checkup的工作原理是将检查结果存储到指定的存储空间，定期运行检查，并将结果显示在状态页面上，状态页面支持自定义和移动端响应。
+
+* [giscus/giscus](https://github.com/giscus/giscus) giscus是一个由 GitHub Discussions 提供支持的评论系统，允许访客通过 GitHub在您的网站上发表评论和反应。它开源、无跟踪、无广告且免费，无需数据库，所有数据都存储在 GitHub Discussions 中。giscus 支持自定义主题、多种语言和高级配置，可以自动从 GitHub 获取新的评论和编辑，并且可以自托管。giscus 使用 GitHub Discussions 搜索 API 来查找与页面关联的讨论，并允许访客通过 GitHub OAuth流程授权 giscus 应用程序代表他们发布评论。您可以在 GitHub 上对评论进行审核。
+
+* [StartBootstrap/startbootstrap-new-age](https://github.com/StartBootstrap/startbootstrap-new-age) Start Bootstrap- New Age 是一个由 Start Bootstrap 创建的 Bootstrap 网页应用着陆页主题。它提供了一个预先设计好的网页布局，方便开发者快速构建网页应用的着陆页。你可以通过下载、npm 安装、git 克隆或在 GitHub 上 Fork、克隆或下载的方式获取该主题。该主题使用 MIT 许可证，允许你将其用于任何目的，包括商业项目。你可以通过修改 `dist` 目录下的 HTML 和 CSS 文件来定制主题，也可以使用 npm 脚本进行更高级的定制，例如构建、编译、清理和启动开发服务器。
+
+* [GoogleChromeLabs/ProjectVisBug](https://github.com/GoogleChromeLabs/ProjectVisBug) VisBug是一款开源网页设计调试工具，它允许设计师直接在浏览器中编辑任何网页，无论其处于何种状态。VisBug 提供类似设计工具的交互体验，例如多选、悬停检查、布局微调、文本编辑、图片替换等，帮助设计师在真实环境中进行设计调试，并快速测试设计想法。它可以与 Figma、Sketch 等设计工具互补，并帮助设计师在开发过程中更有效地解决设计问题。VisBug 支持 Chrome、Firefox、Safari 和 Edge 浏览器，并提供多种安装方式，包括浏览器扩展和 CDN 加载。
+
+* [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) Node.js 库，提供了一个高级 API 来控制 DevTools 协议上的 Chrome/Chromium。Puppeteer默认以无头模式运行，但可以配置为在完整（“有头”）Chrome / Chromium中运行。示例：生成页面的屏幕截图和 PDF。对 SPA（单页应用程序）进行爬虫并生成预呈现的内容（即“SSR”（服务器端呈现））。自动化表单提交、UI 测试、键盘输入等。使用最新的 JavaScript 和浏览器功能创建自动化测试环境。捕获站点的时间线跟踪，以帮助诊断性能问题。测试Chrome扩展程序。
+
+* [snabbdom/snabbdom](https://github.com/snabbdom/snabbdom) 一个虚拟 DOM 库，专注于简单性、模块化、强大的功能和性能。虚拟DOM真是太棒了。它允许我们将应用程序的视图表示为其状态的函数。但是现有的解决方案太臃肿，太慢，缺乏功能，API偏向于OOP，和/或缺乏我需要的功能。Snabbdom 由一个非常简单、高性能和可扩展的核心组成，该内核仅≈ 200 个 SLOC。它提供了一个模块化架构，具有丰富的功能，可以通过自定义模块进行扩展。为了保持核心的简单性，所有非必要的功能都委托给模块。
+
+* [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) Liveblocks是一个平台，帮助开发者在应用程序中添加协作编辑、评论和通知功能。它提供了一套完整的解决方案，包括评论、通知、文本编辑器和实时API等核心产品，开发者可以根据需要选择使用。Liveblocks还提供针对不同库和框架的软件包和SDK，方便开发者将协作功能集成到自己的产品中，例如协作文本编辑器、评论、通知等。开发者可以通过文档、指南、教程和示例等资源学习使用Liveblocks，并通过GitHub问题和Discord社区寻求帮助。
+
+* [antvis/G2](https://github.com/antvis/G2) 用于仪表板构建、数据探索和讲故事的可视化语法。通过简洁的声明帮助您快速获得有意义的可视化效果，并推断其余部分。但是，您可以为复杂和高级情况配置更多内容。采用功能性声明式 API 以编程方式指定图表选项，这有助于更好的逻辑重用和更灵活的代码组织。为了满足特定需求，G2 提供了一种方便且一致的机制来扩展您能想象到的一切，无论是缩放、转换、标记等。您甚至可以基于此机制自定义全新的可视化工具。
+
+* [gotson/komga](https://github.com/gotson/komga) Komga是一个用于管理漫画、漫画书、蓝光光碟、杂志和电子书的媒体服务器，它提供 API、OPDS 和 Kobo Sync 支持。Komga 提供响应式网页界面，支持桌面、平板电脑和手机浏览，并提供多种功能，包括组织图书馆、编辑元数据、自动导入嵌入式元数据、提供多模式阅读器、管理用户、提供 REST API、支持 OPDS v1 和 v2、Kobo Sync、下载文件、检测重复文件、导入 ComicRack `cbl` 阅读列表等。用户可以访问 Komga 网站获取安装和文档信息。
+
+* [StartBootstrap/startbootstrap-landing-page](https://github.com/StartBootstrap/startbootstrap-landing-page) Start Bootstrap- Landing Page 是一个由 Start Bootstrap 创建的多功能 Bootstrap 着陆页模板，提供响应式设计。你可以通过 Start Bootstrap 网站下载最新版本，使用 npm安装，或克隆代码库。该模板包含 `dist` 目录，其中包含 HTML 和 CSS 文件，你可以直接修改这些文件来定制页面。此外，你还可以使用 npm 脚本构建、编译和运行项目，并使用 `npm start` 在浏览器中预览模板。该模板基于 MIT 许可证，可用于任何目的，包括商业项目。
+
+* [sproogen/modern-resume-theme](https://github.com/sproogen/modern-resume-theme) 这是一个现代化的静态简历模板和主题，由 Jekyll 和 GitHub Pages 提供支持，允许你免费在 GitHub 上托管自己的简历。该项目提供黑暗模式，并支持自定义内容配置，允许你添加多个内容部分，并以任意顺序排列。你可以在 GitHub 上查看项目路线图，并通过提供的安装和设置指南，轻松将模板部署到 GitHub Pages 上。该模板使用 Markdown 和 YAML 文件进行内容编辑，你可以根据自己的需求修改内容，并自定义简历的配置。
+
+* [mozilla/geckodriver](https://github.com/mozilla/geckodriver) geckodriver是一个用于 Firefox 浏览器的 WebDriver 代理，它允许使用兼容 W3C WebDriver协议的客户端与基于 Gecko 的浏览器进行交互。geckodriver通过充当本地端和远程端之间的代理，将 WebDriver 协议调用转换为 Marionette 远程协议。您可以从 GitHub 的发布页面下载预编译的二进制文件，或者使用 Cargo 或从 release 分支编译它。geckodriver 的源代码在 mozilla-central 的 testing/geckodriver 目录下，该 GitHub 存储库仅用于问题跟踪和发布。
+
+* [Whisky-App/Whisky](https://github.com/Whisky-App/Whisky) Whisky是一个用 SwiftUI 构建的现代 macOS Wine 包装器，提供简洁易用的图形界面，无需技术知识即可创建和管理 Wine 瓶子，安装和运行 Windows应用和游戏。Whisky 基于 CrossOver 22.1.1 和 Apple 的 Game Porting Toolkit 构建，并支持通过 Homebrew安装。一些游戏可能需要特殊步骤才能正常运行，可以在项目 Wiki 页面上找到相关支持信息。Whisky 的开发得益于多个开源项目的贡献，包括 msync、DXVK-macOS、MoltenVK、Sparkle 等。
+
+* [mkdocs/mkdocs](https://github.com/mkdocs/mkdocs) MkDocs 是一个快速、简单且华丽的静态站点生成器，适用于构建项目文档。文档源文件是用 Markdown 编写的，并使用单个 YAML 配置文件进行配置。它的设计易于使用，并且可以通过第三方主题、插件和 Markdown 扩展进行扩展。特征：从 Markdown 文件构建静态 HTML 文件。使用插件和 Markdown 扩展来增强 MkDocs。使用内置主题、第三方主题或创建您自己的主题。在可以提供静态文件的任何地方发布您的文档。
+
+* [gruns/ImmortalDB](https://github.com/gruns/ImmortalDB) ImmortalDB是一个为浏览器设计的持久化键值存储，它将数据冗余地存储在 Cookie、IndexedDB 和 LocalStorage 中，并能自动修复因数据删除或损坏导致的问题。即使用户清空 Cookie 或浏览器因存储压力而删除 IndexedDB 和 LocalStorage，ImmortalDB 依然能保持数据完整性。ImmortalDB 提供简单易用的 Promise API，支持 set、get 和 remove 操作，并通过比较不同存储中的数据来确保数据一致性，从而实现高可靠性和数据冗余。
+
+* [qor/qor](https://github.com/qor/qor) QOR是一个用Go语言编写的库集合，它抽象出了业务应用、CMS和电商系统所需的常见功能，包含Admin(后台管理界面和RESTful API)、Publish(内容发布管理)、Transition(状态机)、Media Library(媒体库)、Worker(任务调度)等模块，并提供国际化、本地化和权限控制等功能，开发者可通过它更轻松地构建复杂的电商系统，但需要一定的编码技能，并非开箱即用的解决方案。项目已开源，并提供在线演示和文档。
+
+* [DIYgod/DPlayer](https://github.com/DIYgod/DPlayer) DPlayer是一个可爱的HTML5弹幕视频播放器，旨在帮助用户轻松构建视频和弹幕。它支持多种流媒体格式（如HLS、FLV、MPEGDASH、WebTorrent）和媒体格式（如MP4 H.264、WebM、Ogg Theora Vorbis），并提供弹幕、截图、热键、画质切换、缩略图、字幕等功能。DPlayer还拥有丰富的插件生态，如DPlayer-thumbnails用于生成视频缩略图，DPlayer-node用于Node.js弹幕API，以及针对不同平台的插件，如Typecho、Hexo、WordPress等。
+
+* [terkelg/prompts](https://github.com/terkelg/prompts) Prompts是一个轻量级、美观且用户友好的交互式提示库，它提供简单易用的 CLI 提示，用于向用户询问信息。Prompts没有依赖大型库，也不像其他库那样被拆分成许多只能协同工作的模块。它使用布局和颜色来创建美观的 CLI 界面，并使用 Promise 和 `async`/`await`，避免回调地狱。Prompts 的所有提示都是独立的，可以单独使用，并且提供了一种以编程方式提交答案的方式，确保一致的用户体验。
+
+* [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) Ladybird是一款基于 Web 标准的独立浏览器，旨在为现代网络构建一个完整可用的浏览器。它采用多进程架构，包括主 UI 进程、多个 WebContent 渲染进程、图像解码进程和请求服务器进程，以提高安全性。Ladybird 依赖于 SerenityOS 的核心库，如 LibWeb、LibJS、LibWasm 等，支持 Linux、macOS、Windows（使用 WSL2）等多种平台。用户可以在 Discord 服务器上参与开发讨论，并参考文档文件夹中的相关信息。
+
+* [getredash/redash](https://github.com/getredash/redash) 让您的公司以数据为导向。连接到任何数据源，轻松可视化、仪表板和共享您的数据。Redash 旨在使任何人，无论技术复杂程度如何，都能利用大大小小的数据的力量。SQL 用户利用 Redash 来探索、查询、可视化和共享来自任何数据源的数据。他们的工作反过来又使组织中的任何人都可以使用这些数据。每天，全球数千个组织中的数百万用户使用 Redash 来开发见解并做出数据驱动的决策。
+
+* [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) Zotero PDFTranslate是一款Zotero插件，可以将PDF、EPub、网页、元数据、注释和笔记翻译成目标语言，支持20多种翻译服务。用户可以选择文本进行翻译，翻译结果会显示在弹出窗口和右侧边栏中，也可以将翻译结果添加到注释或笔记中。插件还提供独立的翻译窗口，方便用户查看和比较来自多个引擎的翻译结果。用户可以通过快捷键`Ctrl+T`进行翻译，也可以手动选择翻译服务和目标语言。
+
+* [alyssaxuu/omni](https://github.com/alyssaxuu/omni) Omni是一款浏览器增强工具，它提供了一个强大的命令界面，让你像专业人士一样使用浏览器。你可以通过命令搜索标签、书签、浏览历史记录，执行各种操作等等。Omni支持Chrome和Firefox浏览器，并提供丰富的功能，包括标签管理、书签管理、浏览历史搜索、50多个提升效率的操作、与Notion、Figma、Docs、Asana等工具集成、快捷键操作、高级设置等等，所有功能免费使用，无需登录。
+
+* [thedaviddias/Front-End-Design-Checklist](https://github.com/thedaviddias/Front-End-Design-Checklist) 该项目提供了一个全面的前端设计清单，旨在帮助前端开发者分析和理解网页设计，确保前端开发的质量。清单涵盖了设计需求、分析和预备阶段、验证、开发阶段以及生产前准备等多个方面，包括网格系统、颜色、字体、链接、图片、表单、响应式设计等内容。开发者可以通过使用该清单与设计师进行沟通，确保所有重要元素都被考虑，并避免在开发过程中出现遗漏或问题。
+
+* [readthedocs/sphinx_rtd_theme](https://github.com/readthedocs/sphinx_rtd_theme) Read the Docs SphinxTheme 是一个为桌面和移动设备提供出色阅读体验的 Sphinx 主题，主要用于 Read the Docs，但可以与任何 Sphinx 项目配合使用。该主题高度可定制，支持多种配置选项，并提供详细的文档和示例。用户可以通过 pip 安装该主题，并在 Sphinx 项目的 conf.py 文件中设置 html_theme 为 &quot;sphinx_rtd_theme&quot; 来使用它。该项目还提供贡献指南，欢迎开发者参与主题的修改和翻译。
+
+* [mdbootstrap/material-design-for-bootstrap](https://github.com/mdbootstrap/material-design-for-bootstrap) Material Design for Bootstrap4 是一个免费的 Bootstrap 4 UI 工具包，包含 700多个组件，支持 MIT 许可证，简单易安装。它由MDBootstrap 创建，受到 200 万开发者和设计师的信赖，并被 NASA、Nike、Amazon 等知名公司和机构使用。该项目提供多种安装方式，包括 .zip、npm 或 cdnjs，并提供免费的 MDBGO 托管服务，支持 WordPress 集成，提供自定义域名、SSL 支持、免费数据库、前端和后端模板等功能。
+
+* [ai/easings.net](https://github.com/ai/easings.net) 缓动函数 ：自定义参数随时间变化的速率。 现实生活中，物体并不是突然启动或者停止， 当然也不可能一直保持匀速移动。就像我们 打开抽屉的过程那样，刚开始拉的那一下动作很快， 但是当抽屉被拉出来之后我们会不自觉的放慢动作。 或是掉落在地板上的物体，一开始下降的速度很快， 接着就会在地板上来回反弹直到停止。 这个页面将帮助你选择正确的缓动函数。
+
+* [primefaces/primeng](https://github.com/primefaces/primeng) 使用 PrimeNG 的全面可定制、功能丰富的 UI 组件套件提升您的 Web 应用程序。有了 PrimeNG，将您的开发愿景变为现实从未如此简单。在与设计无关的基础设施上精心制作，可从大量主题（如 Material、Bootstrap、Tailwind、PrimeOne）中进行选择或开发您自己的主题。400+ 准备好复制粘贴 UI 块，以立即构建出色的应用程序。专业设计、高度可定制的应用程序模板，以时尚的方式开始。
+
+* [ParthJadhav/Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer) Tkinter Designer是一个使用Figma设计软件快速创建Python GUI的工具，它通过分析Figma设计文件生成相应的代码和文件，简化了GUI开发过程。该项目支持多帧设计，用户可以在一个设计文件中创建多个框架，并生成相应的代码和文件。Tkinter Designer的优势在于其拖放式界面，比手动编写代码更快，并能生成更美观的界面。用户可以通过YouTube视频或项目文档了解详细的使用说明。
+
+* [tabulapdf/tabula](https://github.com/tabulapdf/tabula) Tabula是一款开源工具，用于从 PDF 文件中提取表格数据。它通过简单的网页界面，将 PDF 文件中的表格数据转换为 CSV 格式。Tabula仅适用于文本型 PDF 文件，不支持扫描文档。Tabula 在本地运行，确保数据安全，不会将您的 PDF 文件或提取的数据上传到网络。该项目目前处于维护状态，主要更新集中在 `tabula-java` 库上，该库提供命令行界面和 Java 库，用于提取表格数据。
+
+* [andrew--r/frontend-case-studies](https://github.com/andrew--r/frontend-case-studies) 这是一个精选的企业级前端开发技术演讲和文章列表，旨在帮助开发者了解如何将框架和技术应用于现实世界中的问题，并解决大规模应用的挑战。该项目收录了来自 AdRoll、Airbnb、Amazon、Atlassian、BBC、Bloomberg、BuzzFeed、Cloudflare、Dropbox、eBay、Etsy、Facebook、Figma、GitHub、Google、Instagram、LinkedIn、Netflix、PayPal、Pinterest、Reddit、Shopify、Slack 等众多知名公司的案例研究。
+
+* [antvis/F2](https://github.com/antvis/F2) F2是一个专注于移动端的可视化图表库，提供简洁、交互式且灵活的图表绘制方案，完美适配 H5 页面、小程序、Weex 等多种移动端环境。F2 基于 Grammar of Graphics 理念构建，拥有完善的图表语法体系，便于用户快速构建各种图表类型。F2 针对移动端场景优化，拥有轻量级的体积和高效的渲染性能，并提供丰富的图表交互功能，帮助开发者快速构建移动端图表应用。
+
+* [yujiosaka/headless-chrome-crawler](https://github.com/yujiosaka/headless-chrome-crawler) Headless Chrome Crawler是一个基于无头Chrome的分布式爬虫，它提供简单的API来爬取动态网站（例如使用AngularJS、React和Vue.js构建的网站）。该项目支持分布式爬取、并发配置、深度优先和广度优先搜索算法、多种缓存存储（如Redis）、CSV和JSON Lines结果导出、暂停和恢复功能、jQuery自动注入、截图保存、设备和用户代理模拟、优先级队列以及robots.txt和sitemap.xml遵守。
+
+* [ml-tooling/best-of-web-python](https://github.com/ml-tooling/best-of-web-python) 该项目是一个精心整理的 Python Web 开发库列表，包含 580 个开源项目，总计 300 万颗星，涵盖 26 个类别。所有项目都根据项目质量评分进行排名，该评分基于从 GitHub 和不同包管理器自动收集的各种指标计算得出。您可以通过提交问题、拉取请求或直接编辑项目文件来添加或更新项目。该项目还提供其他最佳列表资源，并提供订阅以获取更新和趋势项目信息。
+
+* [dotnet/eShop](https://github.com/dotnet/eShop) eShop是一个使用 .NET Aspire 构建的电商网站参考应用程序，采用服务化架构，提供完整的电商网站功能。项目提供 Docker 部署方式，支持 Windows、Mac 和 Linux 平台，并提供 Visual Studio 和 Visual Studio Code 开发环境配置指南。用户可以通过命令行或 Visual Studio 启动应用程序，并通过提供的 URL 访问 Aspire 仪表盘。该项目还集成了 Azure OpenAI 功能，可用于增强用户体验。
+
+* [tapexyz/tape](https://github.com/tapexyz/tape) Tape是一个开源的媒体分享平台，它使用 Pnpm 作为包管理器，包含多个应用程序和包，例如前端应用程序、视频嵌入播放器、后台任务、API、元标签生成器和无许可注册合约。用户可以在 Discord 社区中讨论功能、提出想法或寻求帮助。开发者可以通过安装依赖项、启动应用程序并访问 http://localhost:4783 来开始使用 Tape。代码库是开源的，并使用 AGPLv3许可证。
+
+* [fresns/fresns](https://github.com/fresns/fresns) Fresns是一款免费开源的跨平台通用型社交网络服务软件，支持灵活多样的内容形式，可满足各种运营场景。它采用模块化设计，易于二次开发，支持多种数据库，包括 MySQL、MariaDB、PostgreSQL、SQL Server 和 SQLite。用户可通过官方文档进行安装和操作，开发者可参考扩展文档和数据库结构进行开发。Fresns 提供丰富的 API 接口，方便 Web 和 App 开发者进行集成。
+
+* [RitikPatni/Front-End-Web-Development-Resources](https://github.com/RitikPatni/Front-End-Web-Development-Resources) 这是一个面向前端开发者的开源资源库，包含大量学习资料和工具，涵盖了从基础知识到进阶技能的各个方面，例如 Flexbox 和 Grid布局指南、命令行工具使用教程、代码编辑器扩展推荐、CSS 框架、图标库、颜色搭配、字体选择、设计灵感、动画框架、地理位置 API、模拟工具、书籍推荐、挑战练习、免费学生工具等，旨在帮助开发者提升前端开发技能。
+
+* [Tencent/omi](https://github.com/Tencent/omi) Omi - Web 组件框架，通过无功信号进行信号驱动的无功编程；100+ OMI模板和OMI模板源代码；OMI表单和OMI表单游乐场和Lucide Omi图标；OMIU预览正在进行中&amp;OMIU源代码；体积小，性能快；您需要的一切：Web 组件、JSX、函数组件、路由器、悬念、指令、Tailwindcss......；支持面向对象编程（OOP）和面向数据编程（DOP）；利用可构建的样式表轻松管理和共享样式
+
+* [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) Twin.macro是一个在构建时将Tailwind CSS的便捷性和css-in-js库（如Emotion、styled-components等）的灵活性结合起来的工具。它通过Babel在编译阶段将Tailwind类名转换为CSS对象，并将其传递给选择的css-in-js库，无需额外客户端包，从而保持构建体积小巧。  它支持多种使用方式，例如直接在jsx元素上使用`tw`宏，或在css-in-js库中混合使用Tailwind类名和自定义样式。
+
+* [golang-ui/nuklear](https://github.com/golang-ui/nuklear) 该项目为 Nuklear.h 提供 Go 语言绑定，Nuklear.h 是一个小型 ANSI C GUI 库。它使用自动生成的绑定代码，并提供对Nuklear 的所有功能的访问，包括即时模式 GUI、可定制性、低内存占用和跨平台支持。该项目支持 Windows、OS X、Linux 和 Android 平台，并提供 GLFW 和 SDL2 的渲染后端。用户可以使用 Go 语言编写应用程序逻辑，并使用 Nuklear 的 API构建用户界面。
+
+* [ochococo/Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift) 这是一个使用 Swift 5.0 实现设计模式的项目，包含行为型、创建型和结构型三种模式，并提供 Xcode 10.2 Playground文件，方便学习和使用。项目由 [@nsmeme](http://twitter.com/nsmeme) (Oktawian Chojnacki) 创建，并由[@binglogo](https://twitter.com/binglogo) 翻译成中文。项目包含详细的代码示例和解释，并提供 CONTRIBUTING.md 文件，指导如何生成 README、Playground 和 zip 文件。
+
+* [jglovier/resume-template](https://github.com/jglovier/resume-template) 这是一个基于 Jekyll 和 GitHub Pages 的简单简历模板，提供本地运行和 Docker运行方式，方便用户测试和定制。用户可以通过修改 `/_config.yml` 文件和 `/_layouts/resume.html` 文件进行个性化设置，并可免费发布到 GitHub Pages。项目提供路线图和贡献指南，鼓励用户参与改进。项目代码和样式采用 MIT 许可证，但模板中的示例内容不可用于用户自己的简历。
+
+* [revolist/revogrid](https://github.com/revolist/revogrid) RevoGrid是一个高性能的虚拟数据表格组件，使用StencilJS构建，支持百万级单元格和数千列，具有极快的渲染速度。它结合了Excel的优秀特性，并具有智能虚拟DOM、虚拟滚动等技术以优化性能，支持公式计算、主子表、拖拽、排序、过滤、导出、单元格合并、自定义模板等高级功能，并提供丰富的可定制选项，例如列类型、单元格编辑器等。
+
+* [2227324689/gpmall](https://github.com/2227324689/gpmall) 咕泡学院实战项目“咕泡商城”是一个基于SpringBoot+Dubbo构建的电商平台，采用微服务架构，包含商城、电商、微服务、高并发、kafka、Elasticsearch等技术。该项目旨在帮助学员深入理解微服务架构，并提供一个实际的电商平台构建经验，涵盖了业务逻辑、技术实现、性能优化等方面，适合想要学习微服务架构和电商平台开发的Java开发者。
+
+* [BrowserBox/BrowserBox](https://github.com/BrowserBox/BrowserBox) 从服务器上运行的浏览器浏览 Web，而不是在本地设备上。轻量级虚拟浏览器。为了安全、隐私等。基于 Web 的小型浏览器，可以嵌入到任何地方。它也是多人游戏，允许许多客户端同时在屏幕上共享相同的浏览会话。它轻巧且快速，消耗最少的系统资源，同时调整其流媒体质量，以利用尽可能多的带宽来提供低延迟、响应迅速的体验。
+
+* [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) awesome-shadcn-ui 是一个精选的列表，包含与 shadcn/ui 相关的各种资源，包括组件库、示例项目和工具。该项目旨在帮助开发者更方便地使用 shadcn/ui，并提供一些灵感和参考。项目特色包括：提供各种组件库，方便开发者快速构建用户界面；包含示例项目，展示如何使用 shadcn/ui 构建实际应用；提供工具，帮助开发者更有效地使用 shadcn/ui。
+
+* [elkowar/eww](https://github.com/elkowar/eww) Eww是一个用 Rust 编写的独立小部件系统，允许你在任何窗口管理器中实现自定义小部件。它提供详细的文档和安装指南，并支持多种配置方式。Eww 拥有丰富的示例，包括基本状态栏、垂直状态栏、自定义设置等，用户可以根据自己的需求进行定制。Eww 鼓励用户贡献代码，例如添加新的小部件、功能或子命令，并提供详细的贡献步骤。
+
+* [Avaiga/taipy](https://github.com/Avaiga/taipy) 立即将数据和 AI 算法转换为生产就绪型 Web 应用程序。开发应用程序的前端，而无需了解 HTML、CSS 和 JS。通过简单的语法，加速创建可自定义的多页仪表板，并生成交互式界面，包括图表和各种广泛使用的控件。对数据流进行建模并编排管道。在存储、记录和可操作方案（管道执行）时对其进行管理，从而实现假设分析或 KPI 比较。
+
+* [unoplatform/uno](https://github.com/unoplatform/uno) 使用 C# 和 XAML 构建移动、桌面和 WebAssembly 应用。开源和专业支持。它允许 C# 和 WinUI XAML 和/或 C# 代码在所有目标平台上运行，同时允许你控制每个像素。它开箱即用地支持 Fluent、Material 和 Cupertino 设计系统。Uno 平台实现了越来越多的 WinRT 和 WinUI API，例如 Microsoft.UI.Xaml，以使 WinUI 应用程序能够在具有本机性能的所有平台上运行。
+
+* [badges/shields](https://github.com/badges/shields) 以 SVG 和光栅格式提供简洁、一致且清晰的徽章的服务，可以轻松包含在 GitHub 自述文件或任何其他网页中。该服务支持数十种持续集成服务、软件包注册表、发行版、应用商店、社交网络、代码覆盖服务和代码分析服务。它每月提供超过 8.7 亿张图像，并被世界上一些最受欢迎的开源项目使用，包括 VS Code、Vue.js 和 Bootstrap 等。
+
+* [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) Awesome Design Tools是一个收集了各种设计工具和插件的资源库，涵盖了设计流程的各个方面，包括可访问性工具、动画工具、协作工具、原型设计工具等。该项目由 Flawless App 团队维护，现已加入 Abstract 公司。用户可以通过目录或关键词搜索找到所需工具，也可以提交新的工具或插件。项目鼓励用户贡献，并提供简单的贡献指南。
+
+* [gristlabs/grist-core](https://github.com/gristlabs/grist-core) Grist 是电子表格的演变。它结合了电子表格的灵活性和数据库的健壮性。grist-core （此存储库）具有运行强大的电子表格托管服务器所需的一切。grist-electron 是一款 Linux/macOS/Windows 桌面应用程序，用于查看和编辑本地存储的电子表格。grist-static 是 Grist 的完全浏览器内构建，用于在没有后端支持的情况下在网站上显示电子表格。
+
+* [kando-menu/kando](https://github.com/kando-menu/kando) Kando是一款跨平台的圆形菜单，为你的桌面提供一种非传统、快速、高效且有趣的方式与电脑交互。你可以使用 Kando 启动应用程序、模拟键盘快捷键、打开文件等等。Kando 支持鼠标、触控笔和触控输入，适用于需要频繁使用鼠标或触控笔的用户。Kando 已在 Windows、macOS、GNOME/X11、GNOME/Wayland、KDE/X11 和 KDE/Wayland等平台上测试。
+
+* [CosmicMind/Material](https://github.com/CosmicMind/Material) 用于创建美观应用程序的 UI/UX 框架。Material 的动画系统已经过完全重新设计，以利用 Motion，一个专门用于动画和过渡的库。特征：完全可定制、运动动画和过渡、用于自动布局和网格系统的布局工具、颜色库、卡、FABMenu、图标、文本字段、Snackbar、制表符、芯片、搜索栏、导航控制器、导航抽屉、底部导航栏、示例项目
+
+* [getnikola/nikola](https://github.com/getnikola/nikola) Nikola是一个静态网站和博客生成器，它将内容转换为可部署的网站。它具有博客功能（标签、Feed、存档、评论等）、主题定制、快速构建、丰富的插件、支持多种输入语言（reStructuredText、Markdown等）、图像库、语法高亮、多语言支持等特性，并基于Python 3.8+，通过pip安装即可使用，安全、资源占用少且避免厂商锁定。
+
+* [marko-js/marko](https://github.com/marko-js/marko) 一种基于 HTML 的声明性语言，使构建 Web 应用程序变得有趣。Marko 是 HTML 重新构想的一种语言，用于构建动态和反应式用户界面。几乎所有有效的 HTML 都是有效的 Marko，并且 Marko 扩展了 HTML，以便以更声明的方式构建现代应用程序。这些扩展包括条件和列表、状态和组件。Marko 支持单文件组件和跨单独文件的组件。
+
+* [documenso/documenso](https://github.com/documenso/documenso) Documenso是一个开源的 DocuSign 替代方案，旨在成为全球最值得信赖的文档签名工具。它允许用户自行托管 Documenso 并审查其工作原理，从而建立信任。Documenso 正在进行应用程序的重新设计，包括代码库的改进，使其更易于使用和开发。用户可以查看此仓库中的第一个源代码版本并进行测试，并通过讨论区反馈意见。
+
+* [basecamp/omakub](https://github.com/basecamp/omakub) Omakub是一个一键式工具，可以将全新的 Ubuntu 系统转换为一个配置完善、美观且现代的 Web 开发环境。它提供了一个经过精心选择的工具集，无需手动配置，让您快速开始开发工作。Omakub 秉持着对 Linux 最佳实践的理念，提供了一个完善的开发环境。您可以在 [omakub.org](https://omakub.org) 观看介绍视频和了解更多信息。
+
+* [segment-boneyard/nightmare](https://github.com/segment-boneyard/nightmare) 高级浏览器自动化库。目标是公开一些模仿用户操作的简单方法（如 goto 和 type click ），其 API 对每个脚本块都感觉同步，而不是深度嵌套的回调。它最初设计用于跨没有 API 的站点自动执行任务，但最常用于 UI 测试和爬虫。在幕后，它使用 Electron，它类似于 PhantomJS，但速度大约是 PhantomJS 的两倍，而且更现代。
+
+* [tnfe/TNT-Weekly](https://github.com/tnfe/TNT-Weekly) TNT-Weekly是一个每周推荐国内外前端领域优秀文章和行业进展的项目，旨在帮助前端开发者快速了解最新技术和趋势。项目提供精选的优质文章，涵盖了前端开发、H5、小程序等多个领域，并附有简要的介绍和链接，方便读者快速获取信息。用户可以关注 TNT-Weekly 的官方公众号或 GitHub 仓库，获取最新的推荐内容。
+
+* [visgl/deck.gl](https://github.com/visgl/deck.gl) 简化大型数据集的高性能、基于 WebGL 的可视化。用户可以通过组合现有图层，以最小的工作量快速获得令人印象深刻的视觉效果，或者利用 deck.gl 的可扩展架构来满足自定义需求。deck.gl 将数据（通常是 JSON 对象数组）映射到一堆视觉层中，例如图标、多边形、文本;并用视图查看：例如地图、第一人称、正交。
+
+* [pancakeswap/pancake-frontend](https://github.com/pancakeswap/pancake-frontend) PancakeSwap前端项目包含PancakeSwap应用的主要功能，例如农场、池子、IFO、彩票和用户个人资料等。该项目提供多种SDK，例如用于构建PancakeSwap应用的SDK、Aptos版本的SDK以及用于获取最佳交易路线的智能路由SDK等，并包含用于开发和构建的详细说明。开发者可以使用pnpm安装依赖项并启动开发服务器或构建生产版本。
+
+* [up-for-grabs/up-for-grabs.net](https://github.com/up-for-grabs/up-for-grabs.net) Up-for-grabs.net 是一个网站，它列出了专门为新手贡献者准备的任务的开源项目。这些任务是开始参与开源项目或帮助分担开源项目工作量的绝佳方式。该网站的代码库包含网站内容，你可以通过提交请求来添加你自己的项目。网站使用 Netlify部署，并提供详细的贡献指南和工作原理文档，方便你参与贡献。
+
+* [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) 该项目收集了众多流行互联网平台的开源替代前端，例如 YouTube、Twitter 等，旨在提供隐私友好、无广告、无跟踪的替代方案。项目提供详细的项目列表，包括每个项目的 GitHub 链接、官方实例地址、安装指南等信息，方便用户选择合适的替代方案。项目还鼓励用户提交新的开源项目，以丰富项目内容。
+
+* [jeecgboot/JimuReport](https://github.com/jeecgboot/JimuReport) 「开源可视化报表，商业BI替代方案」积木报表是一款类似excel操作风格，在线拖拽完成设计的报表工具。低代码产品的臂膀！功能涵盖: 报表设计、图形报表、打印设计、大屏设计等，完全免费！秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、解决各类报表难题。
+
+* [ProseMirror/prosemirror](https://github.com/ProseMirror/prosemirror) ProseMirror是一个基于contentEditable的富文本语义内容编辑器，支持协同编辑和自定义文档模式。它由多个模块组成，此仓库主要用于问题追踪和开发辅助。项目提供丰富的示例和文档，并采用MIT许可证开源，用户可通过npm安装使用各个模块；开发者可通过提供的脚本进行项目开发、构建、测试和管理。
+
+* [MewPurPur/GodSVG](https://github.com/MewPurPur/GodSVG) GodSVG是一款跨平台的矢量图形编辑器，用于结构化的SVG编辑，目前处于alpha测试阶段。它直接编辑SVG代码，不添加元数据，并支持实时代码编辑，旨在生成简洁高效的SVG文件。用户可通过友好的界面交互式编辑SVG元素，并拥有多种优化选项。软件可从GitHub releases下载，Mac用户可能需要禁用Gatekeeper。
+
+* [vanilla-extract-css/vanilla-extract](https://github.com/vanilla-extract-css/vanilla-extract) vanilla-extract是一个TypeScript库，用于在构建时生成静态CSS文件，实现零运行时开销。它结合了TypeScript类型安全、局部作用域类名和CSS变量，类似于CSS Modules，但功能更强大，支持主题系统、`calc`表达式计算等。该库与任何前端框架兼容，并提供可选的运行时版本用于开发和测试，以及动态主题API。
+
+* [linuxserver/Heimdall](https://github.com/linuxserver/Heimdall) Heimdall是一个应用程序仪表板和启动器，它可以帮助你整理所有网络应用程序的链接，并提供优雅的解决方案来组织你的书签。它支持自定义链接和搜索功能，并可以作为你的浏览器起始页。Heimdall 还支持增强型应用程序，例如 NZBGet 和 Sabnzbd，可以显示实时统计信息，例如队列大小和下载速度。
+
+* [alshedivat/al-folio](https://github.com/alshedivat/al-folio) al-folio是一个为学者设计的简洁、美观、响应式的 Jekyll 主题，适合创建个人主页、博客、实验室页面、课程、研讨会、会议和聚会等网页，并拥有一个活跃的用户社区。该主题使用 Jekyll 构建，支持 Docker 镜像部署，并提供多种功能，例如自定义导航栏、社交媒体集成、文章列表、代码高亮等。
+
+* [jupyter-widgets/ipywidgets](https://github.com/jupyter-widgets/ipywidgets) ipywidgets是用于Jupyter Notebook和IPython内核的交互式HTML小部件，允许创建动态、交互式的可视化和应用程序。它通过在浏览器中渲染交互式HTML元素来工作，并使用消息传递机制与Python内核进行通信，从而实现用户界面与Python代码的实时交互。该项目提供稳定版和开发版，并有丰富的文档和示例。
+
+* [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io) Webstack.cc 是一个静态响应式网址导航网站，基于 Bootstrap 前端框架开发，提供多种主题和功能，例如自定义导航栏、添加网站、搜索等。该项目是开源的，代码托管在 GitHub 上，用户可以自由使用和修改。项目特色是简洁易用，用户可以轻松创建自己的导航网站，方便管理和访问常用的网站。
+
+* [felixrieseberg/macintosh.js](https://github.com/felixrieseberg/macintosh.js) macintosh.js 是一个使用 Electron 构建的虚拟苹果 Macintosh，运行着 System 8操作系统，模拟 1991 年的 Macintosh Quadra。该项目通过模拟 Macintosh 的硬件和软件环境，让用户在现代电脑上体验经典的 Macintosh 操作系统。项目提供 Windows、macOS 和 Linux 平台的下载，用户可以根据自己的系统选择合适的版本。
+
+* [bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers) 该项目是一个为开发者精心整理的设计和UI资源列表，包含股票照片、网页模板、CSS框架、UI库、工具等等，涵盖UI图形、字体、颜色、图标、素材图片、视频、音乐音效、矢量图、产品和图片模型、HTML和CSS模板以及各种前端框架和库等多个方面，旨在帮助开发者快速找到所需的设计资源。
+
+* [catppuccin/catppuccin](https://github.com/catppuccin/catppuccin) 社区驱动的粉彩主题，旨在成为低对比度和高对比度主题之间的中间地带。它由 4 种舒缓的温暖口味组成，每种口味有 26 种令人眼花缭乱的颜色，非常适合编码、设计等等！此外，该存储库还跟踪实际调色板的开发、项目的文档、组织范围的资产、资源和维护人员/开发人员的代码示例。
+
+* [umap-project/umap](https://github.com/umap-project/umap) uMap是一个基于Django和Leaflet的开源项目，它可以让你快速创建包含OpenStreetMap图层的网页地图并嵌入到你的网站中。uMap的设计理念是：OpenStreetMap的使用越多，它就会得到越多的改进。你可以访问项目网站了解更多信息，查看文档获取技术细节，并加入Matrix聊天室或邮件列表与开发者交流。
+
+* [wxWidgets/wxWidgets](https://github.com/wxWidgets/wxWidgets) wxWidgets是一个跨平台的C++ GUI库，使用原生控件编写高级GUI应用程序。它支持Windows、Unix和macOS等主流桌面平台，并提供跨平台的非GUI功能抽象。wxWidgets是免费的，可用于开源和商业应用，并提供完整的源代码、文档和示例。它支持C++11及以上版本的编译器，并提供社区支持和商业支持。
+
+* [ivanvorobei/SwiftUI](https://github.com/ivanvorobei/SwiftUI) 这是一个使用 SwiftUI 和 Combine 构建的示例项目集合，涵盖了布局、UI、动画、手势、绘图和数据等方面。项目包含 WWDC2019 发布的 SwiftUI 示例，并提供多个子项目，例如动画卡片、区域到卡片、2048 游戏、SFSymbols、计算器等。项目还包含一个指向 awesome-ios-ui 包的链接，该包包含 UI 元素。
+
+* [ljianshu/Blog](https://github.com/ljianshu/Blog) 该项目是一个优质的前端博客，由公众号[前端工匠]的作者打造，专注于基础知识讲解。项目包含了前端、TS、构建工具等方面的知识，并提供详细的解析和示例。项目还包含了大量实战案例，可以帮助读者快速掌握前端开发技巧。项目作者鼓励读者积极参与讨论，共同学习进步。
+
+* [storybookjs/storybook](https://github.com/storybookjs/storybook) 前端用于单独构建UI组件和页面。专为 UI 开发、测试和文档编制而设计。组件驱动开发环境。它通过隔离组件使开发更快更容易，它可以一次只处理一个组件。在 web 应用程序中构建小的原子组件和复杂的页面，使用 Storybook 可以让你专注于组件开发，无需去关注 API 文档的编写。
+
+* [iamhosseindhv/notistack](https://github.com/iamhosseindhv/notistack) Notistack是一个高度可定制的通知Snackbar（吐司）库，支持堆叠显示。它易于使用，提供流畅的过渡动画，并可通过`SnackbarProvider`组件和`enqueueSnackbar`函数或`useSnackbar`钩子轻松显示通知，且支持多种版本以兼容不同版本的Material-UI。  项目提供在线演示和文档，方便开发者快速上手。
+
+* [hotoo/pinyin](https://github.com/hotoo/pinyin) pinyin是一个 Node.js 和 Web 浏览器环境下使用的汉字拼音转换工具，它提供准确的拼音转换结果，支持多种音调标记方式，并提供丰富的配置选项。pinyin 的核心功能是将汉字转换为拼音，支持多音字识别、音调标记、分词等功能，可用于汉字拼音转换、语音合成、文本检索等场景。
+
+* [maxence-charriere/go-app](https://github.com/maxence-charriere/go-app) 一个使用 Go 编程语言和 WebAssembly 构建渐进式 Web 应用程序的包。塑造 UI 是通过使用声明性语法完成的，该语法仅使用 Go 编程语言创建和组合 HTML 元素。它使用 Go HTTP 标准模型。使用 go-app 创建的应用程序可以开箱即用地在自己的窗口中运行，支持离线模式，并且对 SEO 友好。
+
+* [didi/LogicFlow](https://github.com/didi/LogicFlow) LogicFlow是一个专注于业务自定义的流程图编辑框架，支持实现脑图、ER图、UML、工作流等各种图编辑场景。它提供了一系列可视化编辑功能，用户可以轻松定制流程图的样式和行为，并实现各种业务逻辑。LogicFlow 还提供丰富的扩展能力，可以方便地集成到各种应用场景中。
+
+* [sparrowcode/PermissionsKit](https://github.com/sparrowcode/PermissionsKit) PermissionsKit是一个 iOS 权限管理库，提供统一的 API 用于请求各种权限并获取其状态，支持授权、拒绝和未确定三种状态。它支持蓝牙、日历、相机、通讯录、FaceID、健康、位置、麦克风、运动、音乐、通知、照片、提醒、语音、Siri 等权限，并提供详细的文档和示例代码。
+
+* [GoogleChrome/web-vitals](https://github.com/GoogleChrome/web-vitals) 健康网站的基本指标。“网页指标”是 Google 推出的一项计划，旨在针对对提供出色 Web 体验至关重要的质量信号提供统一指南。构成核心网页指标的指标会随着时间的推移而不断改进。2020 年的现状侧重于用户体验的三个方面（加载、互动和视觉稳定性）。
+
+* [huntabyte/shadcn-svelte](https://github.com/huntabyte/shadcn-svelte) shadcn-svelte 是一个非官方的社区项目，它将流行的shadcn/ui组件库移植到了Svelte框架。该项目提供可访问且可自定义的Svelte组件，可以直接复制粘贴到你的应用中，并可用于构建你自己的组件库，其文档可在https://shadcn-svelte.com/docs查看，并遵循MIT开源许可证。
+
+* [didi/chameleon](https://github.com/didi/chameleon) Chameleon(CML) 是一款跨平台开发框架，使用一套代码即可运行在多个平台，实现“所见即所得”的效果。CML 基于Web 标准，并提供丰富的组件库和 API，简化跨平台开发流程。CML 采用混合渲染技术，在不同平台上使用最优的渲染方式，保证应用的性能和体验。
+
+* [mljar/mercury](https://github.com/mljar/mercury) mljar/mercury项目是一个将Jupyter Notebook转换为Web应用程序的工具，无需前端经验即可通过Python代码添加交互式小部件，实现Notebook的代码隐藏/显示、PDF/HTML导出、多Notebook共享及嵌入网站等功能，并支持创建Web应用、演示文稿、网站、数据仪表板和报告等。
+
+* [JetBrains/ring-ui](https://github.com/JetBrains/ring-ui) RingUI是JetBrains出品的一套Web UI组件库，提供构建JetBrains内部产品和第三方插件所需的UI组件。它提供两种安装方式：预构建版本方便快速上手，源码版本则适用于复杂项目并需要集成到Webpack构建流程中。组件使用ES模块导入，并包含丰富的示例和文档。
+
+* [wasm3/wasm3](https://github.com/wasm3/wasm3) Wasm3是一个快速且通用的 WebAssembly 解释器和运行时，基于CoreMark 1.0 和独立基准测试，性能表现出色。项目目前处于维护阶段，但仍会积极审查和合并 Pull Requests。Wasm3 可作为库用于多种编程语言，包括 Python、Rust、C/C++、D、GoLang、Zig、Perl、Swift 和 .Net。
+
+* [XMuli/QtExamples](https://github.com/XMuli/QtExamples) 该项目是一个 Qt 相关知识的系列教程，涵盖了 Qt GUI 控件使用、网络编程、架构原理、运行机制理解等内容，并解析了DTK 重绘控件方式的框架，还包括 Visual Studio 和 Qt Creator 的 IDE 技巧。项目以文章形式呈现，旨在帮助学习者深入理解 Qt 的相关知识。
+
+* [galkahana/HummusJS](https://github.com/galkahana/HummusJS) HummusJS是一个基于 Node.js 的高性能 PDF 文件和流处理模块，可用于创建、修改和解析 PDF 文件。它提供丰富的功能，包括文档创建、页面操作、内容提取、对象操作等。HummusJS 已经停止维护，但用户可以迁移到 MuhammaraJS，它是一个HummusJS 的替代方案。
+
+* [serversideup/amplitudejs](https://github.com/serversideup/amplitudejs) AmplitudeJS是一个轻量级的开源HTML5 Web Audio库，无需任何依赖（例如jQuery），允许你自定义网页媒体播放器的设计，而非受限于浏览器默认样式。它提供文档、示例和教程，并通过MIT许可证授权。  项目依靠社区支持，欢迎捐助以持续维护和发展。
+
+* [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) 定制 Selenium Chromedriver |零配置 |通过所有机器人缓解系统（如 Distil / Imperva/ Datadadome / CloudFlare IUAM），优化的 Selenium Chromedriver 补丁，不会触发 Distill Network / Imperva / DataDome / Botprotect.io 等反机器人服务 自动下载驱动程序二进制文件并进行修补。
+
+* [miguelgrinberg/microblog](https://github.com/miguelgrinberg/microblog) 这是一个基于Flask框架的微博客应用程序，是作者Flask Mega-Tutorial系列教程中的示例项目，对应2024年版教程。该项目提供详细的教程指导，帮助用户学习Flask框架的使用，并包含2018年和2021年版本的代码链接，以及2012年原始版本的代码链接。
+
+* [choojs/choo](https://github.com/choojs/choo) Choo是一个轻量级的 4kb 前端框架，使用函数式编程方式，基于事件驱动，提供简洁的 API，仅需 6 个方法即可上手。它支持同构渲染，可在 Node 和浏览器中无缝运行。Choo 还支持服务器渲染，并提供组件化开发模式，方便构建复杂的应用。
+
+* [radix-ui/primitives](https://github.com/radix-ui/primitives) Radix Primitives是一个开源的UI组件库，用于构建高质量、可访问的Web应用和设计系统，由WorkOS维护。它是一个低级别组件库，注重可访问性、可定制性和开发者体验，可作为设计系统的基础层或增量采用，文档详见radix-ui.com/docs/primitives。
+
+* [uvdesk/community-skeleton](https://github.com/uvdesk/community-skeleton) UVdesk社区帮助台项目是一个开源项目，提供完整的票务支持系统和更多功能。该项目提供基本工具和实用程序，方便用户构建和定制自己的帮助台解决方案。您可以访问官方演示网站体验其功能，并在 Symfony 官方网站上了解 UVdesk。
+
+* [rawgraphs/rawgraphs-app](https://github.com/rawgraphs/rawgraphs-app) 一个 Web 界面，用于在 RAWGraphs 核心之上创建基于矢量的自定义可视化。RAWGraphs 是一个开放的 Web 工具，用于在令人惊叹的 d3.js 库之上创建基于矢量的自定义可视化。它由DensityDesign Research Lab（米兰理工大学）、Calibro和INMAGIK开发。
+
+* [barbajs/barba](https://github.com/barbajs/barba) 小型（缩小和压缩 7kb）且易于使用的库，可帮助您在网站页面之间创建流畅和平滑的过渡。它使您的网站像 SPA（单页应用程序）一样运行，并有助于减少页面之间的延迟，最大限度地减少浏览器 HTTP 请求并增强用户的 Web 体验。
+
+* [vasanthv/talk](https://github.com/vasanthv/talk) 网络群组视频通话。没有注册。没有下载。使用 WebRTC 构建的，因此您的所有视频、音频和文本聊天都是点对点的。使用 WebRTC mesh实现的。因此，通话质量与通话人数成反比。甜蜜的数字是平均高速连接中大约 6 到 8 人。
+
+* [ourongxing/newsnow](https://github.com/ourongxing/newsnow) NewsNow是一个优雅的实时新闻阅读项目，支持 Cloudflare Pages、Vercel 和 Docker部署。它提供 GitHub OAuth 登录功能，并使用 Cloudflare D1数据库进行缓存。用户可以自定义数据源，项目结构清晰，易于扩展。项目采用 MIT 许可证。
+
+* [h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate) 一个专业的前端模板，用于构建快速、强大且适应性强的 Web 应用程序或网站。帮助您构建快速、可靠且适应性强的 Web 应用或网站。利用 100 多名开发人员的综合知识和努力启动您的项目，所有这些都在一个小包中。
+
+* [tjy-gitnub/win12](https://github.com/tjy-gitnub/win12) 这是一个名为 &quot;Windows 12 网页版&quot; 的开源项目，旨在提供一个在线体验 Windows 12 的平台。项目由 tjy-gitnub开发，并提供英文、简体中文和法语版本。用户可以通过项目提供的链接在线体验 Windows 12 的界面和功能。
+
+* [zmh-program/fystart](https://github.com/zmh-program/fystart) Fystart 是一个 AI 赋能的美观轻量起始页，支持云端同步和 PWA 离线访问。它提供了一言、工具箱、卡片、搜索联想、翻译等组件，并基于 Chat Nio 提供 AI 搜索建议。Fystart 已经停止开发，新起始页请访问 bingtang.com。
+
+* [nativefier/nativefier](https://github.com/nativefier/nativefier) 命令行工具，可以轻松地为任何网站创建“桌面应用程序”，而无需大惊小怪。应用程序由 Electron（后台使用 Chromium）包装在可在 Windows、macOS 和 Linux 上使用的操作系统可执行文件（ `.app` 、 `.exe` 等）中。
+
+* [withastro/starlight](https://github.com/withastro/starlight) Starlight是一个基于 Astro 的文档网站框架，用于构建美观、易访问且高性能的文档网站。Starlight 的文档网站也是用 Starlight 自身构建的，并提供 Discord 频道和 GitHub 问题追踪等支持渠道，欢迎贡献者参与项目。
+
+* [milligram/milligram](https://github.com/milligram/milligram) 极简的CSS框架。Milligram 提供最少的样式设置，以实现快速、干净的起点。就是这样！只有 2kb gzipped！这与 UI 框架无关。专为更好的性能和更高的生产率而设计，需要重置的属性更少，从而使代码更清晰。
+
+* [niklasvh/html2canvas](https://github.com/niklasvh/html2canvas) 该脚本允许您直接在用户浏览器上截取网页或其部分的“屏幕截图”。屏幕截图基于 DOM，因此可能不是 100% 准确到真实表示，因为它不会制作实际的屏幕截图，而是根据页面上可用的信息构建屏幕截图。
 
 * [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium?tab=readme-ov-file#downloads) Google Chromium，没有与 Google 集成。尽可能保留默认的 Chromium 体验。Chromium 的直接替代品。Ungoogled-Chromium 功能进行了调整，以增强隐私、控制和透明度。但是，几乎所有这些功能都必须手动激活或启用。
 
 * [abpframework/abp](https://github.com/abpframework/abp) 适用于 ASP.NET Core 的开源 Web 应用程序框架。在 .NET 和 ASP.NET Core 平台之上构建具有最佳实践的企业软件解决方案。提供基础基础架构、生产就绪启动模板、应用程序模块、UI 主题、工具、指南和文档。
 
-* [gregberge/loadable-components](https://github.com/gregberge/loadable-components) Loadable Components是React的代码分割库，它简化了代码分割过程，减小bundle体积。通过`import`语句动态加载组件，提升页面加载速度。项目提供详细文档和示例，支持服务器端渲染，并与React.lazy进行对比。
-
-* [vuejs/vuex](https://github.com/vuejs/vuex) Vue.js 的集中式状态管理。Vue 的官方状态管理库已更改为 Pinia。Pinia 具有与 Vuex 5 几乎完全相同或增强的 API，如 Vuex 5 RFC 中所述。你可以简单地将 Pinia 视为具有不同名称的 Vuex 5。Pinia 也适用于 Vue 2.x。
-
 * [pixijs/pixijs](https://github.com/pixijs/pixijs) HTML5 创作引擎：使用最快、最灵活的 2D WebGL 渲染器创建精美的数字内容。快速、轻量级的 2D 库，可在所有设备上运行。PixiJS 渲染器让每个人都可在不了解 WebGL 的情况下享受硬件加速的强大功能。
-
-* [google/material-design-lite](https://github.com/google/material-design-lite) Material Design Lite 允许您为静态内容网站添加 Material Design 外观。它不依赖于任何JavaScript框架或库。针对跨设备使用进行了优化，在较旧的浏览器中优雅地降级，并提供从一开始就可以访问的体验。
-
-* [vadimdemedes/ink](https://github.com/vadimdemedes/ink) React 用于交互式命令行应用，基于组件的 UI 构建体验与 React 在浏览器中提供的相同，但适用于命令行应用。它使用 Yoga 在终端中构建 Flexbox 布局，因此大多数类似 CSS 的道具也可以在 Ink 中使用。
-
-* [processing/p5.js](https://github.com/processing/p5.js) 用于创意编码的 JavaScript 库，专注于让艺术家、设计师、教育工作者、初学者和其他任何人都能访问和包容编码！P5.js 是免费和开源的，因为我们相信软件以及学习它的工具应该对每个人都开放。
 
 * [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) 浏览器自动化框架和生态系统。封装了各种工具和库，可实现 Web 浏览器自动化。Selenium 专门为 W3C WebDriver 规范提供了基础设施——一个与所有主要 Web 浏览器兼容的平台和语言中立的编码接口。
 
-* [primefaces/primereact](https://github.com/primefaces/primereact) PrimeReact是一个功能丰富的开源React UI组件库，提供大量预设主题（如Material、Bootstrap和PrimeOne）和无样式模式，支持按需导入组件以减小包体积，通过npm、yarn或pnpm安装，并提供详细文档和示例。
+* [medusajs/medusa](https://github.com/medusajs/medusa) 一组商务模块和工具，可让您构建丰富、可靠且高性能的商务应用程序，而无需重新发明核心商务逻辑。这些模块可以定制并用于构建高级电子商务商店、市场或任何需要基础商务原语的产品。
 
-* [emberjs/ember.js](https://github.com/emberjs/ember.js) JavaScript 框架，它大大减少了构建任何 Web 应用程序所需的时间、精力和资源。它专注于通过执行大多数 Web 开发项目中涉及的所有常见、重复但必不可少的任务，使您（开发人员）尽可能高效。
-
-* [umijs/qiankun](https://github.com/umijs/qiankun) 快速、简单、完整的微型前端解决方案。使您和您的团队能够利用微前端构建下一代企业级 Web 应用程序。微前端:使用不同 JavaScript 框架与多个团队一起构建现代 Web 应用的技术、策略和方法。
+* [lucide-icons/lucide](https://github.com/lucide-icons/lucide) Lucide 是一个开源图标库，提供超过1000个矢量图标，支持多种框架如React、Vue、Svelte等，方便设计师和开发者在项目中使用。该项目是Feather Icons的一个分支，旨在提供一致且美观的图标工具。
 
 * [JakeChampion/fetch](https://github.com/JakeChampion/fetch) 基于 Promise 的机制，用于在浏览器中以编程方式发出 Web 请求。这个项目是一个 polyfill，它实现了标准 Fetch 规范的一个子集，足以替代 `fetch` 传统 Web 应用程序中大多数 XMLHttpRequest 的使用。
 
-* [vercel/swr](https://github.com/vercel/swr) 用于数据获取的 React Hooks 库。“SWR”来源于 stale-while-revalidate ，由HTTP RFC 5861推广的缓存失效策略。SWR先从缓存中返回数据（过时），然后发送请求（重新验证），最后再次附带最新数据。
-
 * [Automattic/wp-calypso](https://github.com/Automattic/wp-calypso) 新的 WordPress.com 前端 - 使用单页 Web 应用程序对 WordPress 仪表板进行了漂亮的重新设计，由 WordPress.com REST API 提供支持。Calypso 是为在一个地方阅读、写作和管理所有 WordPress 网站而构建的。
-
-* [jsdom/jsdom](https://github.com/jsdom/jsdom) 各种 Web 标准的 JavaScript 实现，用于 Node.js。特别是WHATWG DOM和HTML标准，用于Node.js。一般来说，该项目的目标是模拟足够多的 Web 浏览器子集，以便用于测试和抓取真实世界的 Web 应用程序。
-
-* [skonvajs/konva](https://github.com/konvajs/konva) HTML5 Canvas JavaScript 框架，它通过为桌面和移动应用程序启用画布交互性来扩展 2D 上下文。支持高性能动画、过渡、节点嵌套、分层、过滤、缓存、桌面和移动应用程序的事件处理等等。
 
 * [phoenixframework/phoenix](https://github.com/phoenixframework/phoenix) Elixir语言，快速构建丰富的交互式 Web 应用程序，使用更少的代码和更少的移动部件。加入我们不断壮大的开发者社区，使用 Phoenix 制作 API、HTML5 应用程序等，享受乐趣或大规模制作。
 
@@ -7158,41 +7422,23 @@
 
 * [kesixin/QuestionWechatApp](https://github.com/kesixin/QuestionWechatApp) 微信小程序，考试小程序，答题小程序，刷题小程序。毕业设计小程序，有前后端完整源码和数据库，易于二次开发。还可用于考试活动，企业内部考核，内部培训等职业考试刷题。
 
-* [styleguidist/react-styleguidist](https://github.com/styleguidist/react-styleguidist) 组件开发环境，具有热重载的开发服务器和可以与团队分享的生活方式指南。它列出了组件 `propTypes` ，并显示了基于 Markdown 文件的实时、可编辑的使用示例。查看演示样式指南。
-
 * [you-dont-need/You-Dont-Need-Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs) 很棒的时间和日期库，具有许多出色的功能和实用程序。但是，如果您正在处理对性能敏感的 Web 应用程序，则由于其复杂的 API 和较大的捆绑包大小，可能会导致巨大的性能开销。
 
 * [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) 经过修改的 Web 浏览器，有助于响应式 Web 开发。Web 开发人员必须具有开发工具。Web 开发人员必备的开发工具，可实现更快的响应式 Web 开发。使用 Electron 构建的修改后的浏览器。
 
 * [dot-agent/nextpy](https://github.com/dot-agent/nextpy) 轻松快速地构建任何 Web 应用程序。它简化了从后端到前端（是的，Python 中的视觉上令人惊叹的前端！）、AI 集成、API 等所有方面的 Python 开发，从而为人类和 AI 代理提供支持。
 
-* [BuilderIO/qwik](https://github.com/BuilderIO/qwik) 提供尽可能快的页面加载时间 - 无论您的网站有多复杂。Qwik 之所以如此之快，是因为它允许完全交互式的网站在几乎没有 JavaScript 的情况下加载，并从服务器中断的地方继续。
-
 * [lit/lit](https://github.com/lit/lit) Lit 是一个简单的库，用于构建快速、轻量级的 Web 组件。Lit 的核心是一个样板杀手组件基类，它提供反应式状态、作用域样式和一个小、快速且富有表现力的声明式模板系统。
 
 * [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) 一个实用优先的 CSS 框架，用于快速 UI 开发。一个实用程序优先的 CSS 框架，其中包含 `flex` 、 `pt-4` 等 `rotate-90` 类， `text-center` 可以直接在标记中组合以构建任何设计。
 
-* [mapbox/mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js) JavaScript 库，用于在 Web 上创建交互式、可自定义的矢量地图。它采用符合 Mapbox 样式规范的地图样式，将其应用于符合 Mapbox 矢量切片规范的矢量切片，并使用 WebGL 进行渲染。
-
 * [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) 强大的小TUI框架，构建终端应用程序的有趣、实用和有状态的方式。基于 Elm 架构的 Go 框架。珍珠奶茶非常适合简单和复杂的终端应用，无论是在线、全窗还是两者兼而有之。
 
-* [tremorlabs/tremor](https://github.com/tremorlabs/tremor) 用于快速构建仪表板的 React 库。借助 Tremor，您可以创建简单的模块化组件，轻松构建富有洞察力的仪表板。完全开源，由数据科学家和软件工程师制作，具有设计的最佳点。
-
-* [vuetifyjs/awesome-vuetify](https://github.com/vuetifyjs/awesome-vuetify) Vuetify 是一个不需要设计技能的 UI 库，其中包含精美的手工制作的 Vue 组件。您将在下面找到一系列应用程序和工具，这些应用程序和工具有助于展示 Vuetify 所提供的最佳功能
-
-* [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) 用于构建业务应用程序的可扩展低代码框架。连接到数据库、云存储、GraphQL、API 端点、Airtable 等，并使用拖放式应用程序构建器构建应用程序。使用 JavaScript/TypeScript 构建。
+* [magicuidesign/magicui](https://github.com/magicuidesign/magicui) MagicUI是一个面向设计工程师的开源UI组件库，提供可直接复制粘贴到应用中的动画组件和特效，完全免费，并拥有MIT许可证；其文档可在magicui.design/docs查看，欢迎贡献代码。
 
 * [illacceptanything/illacceptanything](https://github.com/illacceptanything/illacceptanything) 这是一个接受任何内容的项目，它收集了各种各样的徽章，包括构建状态、聊天链接、代码质量评估、下载量、版本信息、平台支持等，旨在展示各种项目的常见徽章类型。
 
-* [adobe/react-spectrum](https://github.com/adobe/react-spectrum) 一组库和工具，可帮助您构建自适应、可访问且可靠的用户体验。Adobe 设计系统 Spectrum 的 React 实现。Spectrum 为所有 Adobe 应用程序提供自适应、可访问且具有凝聚力的体验。
-
-* [uber/react-vis](https://github.com/uber/react-vis) 用于渲染常见数据可视化图表的 react 组件集合，例如折线图/面积图/条形图、热图、散点图、等值线图、六边形热图、饼图和圆环图、旭日图、雷达图、平行坐标和树状图。
-
 * [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) 轻量级、高性能、可扩展的 WebAssembly 运行时，适用于云原生、边缘和去中心化应用程序。它为无服务器应用程序、嵌入式函数、微服务、智能合约和物联网设备提供支持。
-
-* [umijs/umi](https://github.com/umijs/umi) umi是React社区的一个框架，它简化了React应用的开发，具有易于上手和扩展性强的特点，其工作原理是基于插件机制，方便开发者定制和扩展功能，并拥有活跃的社区支持。
-
-* [hwix/react-native-navigation](https://github.com/wix/react-native-navigation) 在 iOS 和 Android 上为 React Native 应用程序提供 100% 的原生平台导航。JavaScript API 简单且跨平台 - 只需将其安装在您的应用程序中，即可为您的用户提供他们应得的原生感觉。
 
 * [vercel/vercel](https://github.com/vercel/vercel) Vercel的前端云为开发人员提供了框架、工作流程和基础设施，以构建更快、更个性化的网络。面向前端开发人员的平台，提供创新者在灵感瞬间创建所需的速度和可靠性。
 
@@ -7201,8 +7447,6 @@
 * [mdx-js/mdx](https://github.com/mdx-js/mdx) 可创作的格式，可让您在 Markdown 文档中无缝编写 JSX。您可以导入组件（如交互式图表或警报），并将它们嵌入到您的内容中。这使得编写带有组件的长篇内容变得爆炸。
 
 * [dotnet/runtime](https://github.com/dotnet/runtime) .NET 是适用于云、移动、桌面和 IoT 应用的跨平台运行时。所有受支持的平台生成 .NET 运行时、库和共享主机 （ dotnet ） 安装程序的代码，以及 .NET 运行时和库的源代码。
-
-* [timlrx/tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) 这是一个Next.js的 Tailwind CSS 博客入门模板。开箱即用，配置了最新技术，使技术写作变得轻而易举。易于配置和定制。非常适合作为现有 Jekyll 和 Hugo 个人博客的替代品。
 
 * [statelyai/xstate](https://github.com/statelyai/xstate) 现代 Web 的状态机和状态图。状态图是用于对有状态、反应性系统进行建模的形式。这对于以声明方式描述应用程序的行为（从各个组件到整个应用程序逻辑）非常有用。
 
@@ -7216,27 +7460,21 @@
 
 * [mozilla/pdf.js](https://github.com/mozilla/pdf.js) 使用 HTML5 构建的可移植文档格式 （PDF） 查看器。PDF.js由社区驱动，并得到Mozilla的支持。我们的目标是创建一个通用的、基于 Web 标准的平台，用于解析和渲染 PDF。
 
-* [kusti8/proton-native](https://github.com/kusti8/proton-native) 跨平台桌面应用的 React 环境，特征：与 React Native 相同的语法和组件；与现有的 React 库（如 Redux）一起使用；跨平台；不再有Electron；兼容所有普通Node.js包；热重载
+* [TryGhost/Ghost](https://github.com/TryGhost/Ghost) 一款功能强大的应用程序，供专业出版商围绕其内容创建、共享和发展业务。它配备了现代工具，可以构建网站，发布内容，发送时事通讯并向会员提供付费订阅。
 
 * [o2oa/o2oa](https://github.com/o2oa/o2oa) 开源OA系统 - 码云GVP|Java开源oa|企业OA办公平台|企业OA|协同办公OA|流程平台OA|O2OA|OA，支持国产麒麟操作系统和国产数据库（达梦、人大金仓），政务OA，军工信息化OA
 
 * [djc/askama](https://github.com/djc/askama) 类型安全、编译的类似 Jinja 的 Rust 模板。Askama 实现了一个基于 Jinja 的模板渲染引擎。它在编译时根据用户定义 struct 的模板生成 Rust 代码，以保存模板的上下文。
 
-* [mattboldt/typed.js](https://github.com/mattboldt/typed.js) JavaScript 类型动画库，Typed.js 是一个会打字的库。输入任何字符串，并观察它以您设置的速度输入，将键入的内容退格，并为您设置的字符串数量开始一个新句子。
-
 * [janishar/nodejs-backend-architecture-typescript](https://github.com/janishar/nodejs-backend-architecture-typescript) Node.js的学习为生产就绪的博客平台（如Medium和FreeCodeCamp）构建后端服务器。主要功能：基于角色，Express.js，Mongoose，Redis，Mongodb，Joi，Docker，JWT，单元集成测试。
 
 * [teamcapybara/capybara](https://github.com/teamcapybara/capybara) 模拟真实用户如何与您的应用程序交互来帮助您测试 Web 应用程序。它与运行测试的驱动程序无关，并内置了 Rack::Test 和 Selenium 支持。WebKit 通过外部 Gem 受支持。
 
-* [febobo/web-interview](https://github.com/febobo/web-interview) 语音打卡社群维护的前端面试题库，包含不限于Vue面试题，React面试题，JS面试题，HTTP面试题，工程化面试题，CSS面试题，算法面试题，大厂面试题，高频面试题
-
 * [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas) 动态画布，TypeScript 库，它使用生成器对动画进行编程。提供上述动画实时预览的编辑器。专门的工具，旨在创建信息丰富的矢量动画并将它们与画外音同步。
 
+* [barvian/number-flow](https://github.com/barvian/number-flow) NumberFlow是一个组件，用于数字的过渡、格式化和本地化处理，它提供了全面的文档 (https://number-flow.barvian.me)，并可通过npm安装 (https://npmjs.com/package/number-flow)。
+
 * [rough-stuff/rough](https://github.com/rough-stuff/rough) 小型 （&lt;9 kB） 图形库，可让您以粗略的手绘风格进行绘制。该库定义了用于绘制直线、曲线、圆弧、多边形、圆形和椭圆的基元。它还支持绘制 SVG 路径。
-
-* [ag-grid/ag-grid](https://github.com/ag-grid/ag-grid) AGGrid是一个功能齐全、高度可定制的JavaScript数据表格，用于构建企业应用程序，提供卓越的性能，无第三方依赖，并支持React、Angular、Vue和纯JavaScript。
-
-* [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) 用于 Three.js 的 React 渲染器，使用可重用的、独立的组件以声明方式构建场景，这些组件对状态做出反应，易于交互，并且可以参与 React 的生态系统。
 
 * [selectize/selectize.js](https://github.com/selectize/selectize.js) 可扩展的基于 jQuery 的自定义; select UI 控件。它可用于标记、联系人列表、国家/地区选择器等。目标是通过干净而强大的 API 提供可靠且可用的体验。
 
@@ -7258,17 +7496,9 @@
 
 * [video-dev/hls.js](https://github.com/video-dev/hls.js) JS 库，实现 HTTP 实时流式处理。它依靠 HTML5 视频和 MediaSource 扩展进行播放。原理是将 MPEG-2 传输流和 AAC/MP3 流转换为 ISO BMFF （MP4） 片段。
 
-* [jxnblk/mdx-deck](https://github.com/jxnblk/mdx-deck) 基于React MDX的演示文稿，在Markdown中编写演示文稿，导入和使用React组件，可自定义的主题和组件，零配置 CLI，演示者模式，演讲者笔记。
-
-* [highlightjs/highlight.js](https://github.com/highlightjs/highlight.js) JavaScript 编写的语法高亮。它适用于浏览器和服务器。它几乎可以处理任何标记，不依赖于任何其他框架，并且具有自动语言检测功能。
-
 * [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) Airbnb，亚马逊，Instagram，Netflix，Tiktok，Spotify，Whatsapp，Youtube等流行网站的100 +开源克隆。查看源代码、演示链接、技术栈、github stars。
 
 * [doczjs/docz](https://github.com/doczjs/docz) Docz 使您的代码编写和发布漂亮的交互式文档变得容易。创建展示代码的 MDX 文件，Docz 将它们转换为实时重新加载、生产就绪的网站。
-
-* [formkit/auto-animate](https://github.com/formkit/auto-animate) 零配置的插入式动画实用程序，可为您的 Web 应用程序添加平滑过渡。您可以将它与 React、Vue 或任何其他 JavaScript 应用程序一起使用。
-
-* [airbnb/lottie-web](https://github.com/airbnb/lottie-web) 在 Web、Android 和 iOS 上原生渲染 After Effects 动画，以及 React Native。设计师可以创建和发布精美的动画，而无需工程师精心手工重新创建
 
 * [katspaugh/wavesurfer.js](https://github.com/katspaugh/wavesurfer.js) Wavesurfer.js是一个交互式波形渲染和音频播放库，非常适合 Web 应用程序。它利用现代网络技术提供强大且具有视觉吸引力的音频体验。
 
@@ -7280,31 +7510,15 @@
 
 * [dream-num/univer](https://github.com/dream-num/univer) 一套企业文档和数据协作解决方案。包括电子表格、文档和幻灯片。高度可扩展的设计允许开发人员基于 Universal 定制个性化功能。
 
-* [Blazity/next-enterprise](https://github.com/Blazity/next-enterprise) 企业级 Next.js 样板，适用于高性能、可维护的应用。包含 Tailwind CSS、TypeScript、ESLint、Prettier、测试工具等功能，可加速您的开发。
-
-* [NervJS/taro](https://github.com/NervJS/taro) 开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。
-
-* [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) 不需要设计技能的 UI 库，其中包含精美的手工制作的 Vue 组件。无需设计技能 — 创建令人惊叹的应用程序所需的一切触手可及。
-
 * [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) Auth.js 是一组基于 Web 标准 API 构建的开源包，用于在现代应用程序中使用任何 JS 运行时中任何平台上的任何框架进行身份验证。
-
-* [enzymejs/enzyme](https://github.com/enzymejs/enzyme) React 的 JavaScript 测试实用程序，可以更轻松地测试 React 组件的输出。您还可以操作、遍历和以某种方式模拟给定输出的运行时。
 
 * [bigskysoftware/htmx](https://github.com/bigskysoftware/htmx) 使用属性直接在 HTML 中访问 AJAX、CSS 转换、WebSocket 和服务器发送事件，因此您可以构建具有超文本的简单性和强大功能的现代UI
 
 * [postcss/postcss](https://github.com/postcss/postcss) 使用 JS 插件转换样式的工具。这些插件可以对您的 CSS 进行 lint 处理、支持变量和 mixin、转译未来的 CSS 语法、内联图像等等。
 
-* [react-boilerplate/react-boilerplate](https://github.com/react-boilerplate/react-boilerplate) 在几秒钟内开始你的下一个 react 项目，高度可扩展、离线优先的基础，具有最佳的开发人员体验，并专注于性能和最佳实践。
-
-* [plotly/plotly.js](https://github.com/plotly/plotly.js) 独立的 Javascript 数据可视化库，它还为这些各自生态系统中命名 plotly 的 Python 和 R 模块提供支持（称为 Plotly.py 和 Plotly.R）。
-
-* [callstack/react-native-paper](https://github.com/callstack/react-native-paper) 跨平台的 UI 工具包库，包含一系列可定制和生产就绪的组件，默认情况下，这些组件遵循并遵守 Google 的 Material Design 指南。
-
 * [cure53/DOMPurify](https://github.com/cure53/DOMPurify) 纯 DOM、超快速、超宽容的 XSS 清理程序，适用于 HTML、MathML 和 SVG。DOMPurify 使用安全默认值，但提供了许多可配置性和钩子。
 
 * [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) 将多个开发人员文档结合在一个干净有序的 Web UI 中，具有即时搜索、离线支持、移动版本、深色主题、键盘快捷键等功能。
-
-* [sveltejs/svelte](https://github.com/sveltejs/svelte) 一种构建Web应用程序的新方法。它是一个编译器，它采用声明性组件并将它们转换为高效的JavaScript，通过外科手术更新DOM。
 
 * [postcss/autoprefixer](https://github.com/postcss/autoprefixer) PostCSS 插件，用于解析 CSS 并使用 Can I Use 中的值向 CSS 规则添加供应商前缀。它被谷歌推荐，并在Twitter和阿里巴巴中使用。
 
@@ -7312,49 +7526,27 @@
 
 * [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) 针对 Web 的自动化审核、性能指标和最佳实践。分析 Web 应用和网页，收集现代性能指标和有关开发人员最佳实践的见解。
 
-* [DataV-Team/DataV](https://github.com/DataV-Team/DataV) Vue数据可视化组件库（类似阿里DataV，大屏数据展示），提供SVG边框及装饰、图表、水位图、飞线图等组件，React版已发布
-
-* [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) 30 天 React 挑战是在 30 天内学习 React 的分步指南。这些[视频](https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw)也可能有所帮助
-
-* [twitter/typeahead.js](https://github.com/twitter/typeahead.js) 受 twitter.com 自动完成搜索功能的启发，typeahead.js 是一个灵活的 JavaScript 库，为构建健壮的提前输入提供了坚实的基础。
-
 * [decaporg/decap-cms](https://github.com/decaporg/decap-cms) 用于静态站点生成器的 CMS。为用户提供一种简单的方法来编辑内容并将其添加到使用静态网站生成器构建的任何网站。
-
-* [ohmplatform/FreedomGPT](https://github.com/ohmplatform/FreedomGPT) 基于 React 和 Electron 的应用程序，该应用程序使用基于聊天的界面在 Mac 和 Windows 上本地（离线和私有）执行 FreedomGPT LLM
 
 * [Tencent/VasSonic](https://github.com/Tencent/VasSonic) VasSonic 是由腾讯 VAS 团队开发的一款轻量级、高性能的 Hybrid 框架，旨在加速在 Android 和 iOS 平台上运行的网站的首屏。
 
-* [layui/layui](https://github.com/layui/layui) 一套遵循原生态开发模式的 Web UI 组件库，采用自身轻量级模块化规范，易上手，可以更简单快速地构建网页界面。
+* [apache/incubator-answer](https://github.com/apache/incubator-answer) 适用于任何规模团队的问答平台软件。无论是社区论坛、帮助中心还是知识管理平台，您始终可以信赖 Apache Answer。
 
-* [redwoodjs/redwood](https://github.com/redwoodjs/redwood) 一个固执己见的全栈 JavaScript/TypeScript Web 应用程序框架，旨在让您在应用程序从副项目到启动的过程中快速前进。
+* [layui/layui](https://github.com/layui/layui) 一套遵循原生态开发模式的 Web UI 组件库，采用自身轻量级模块化规范，易上手，可以更简单快速地构建网页界面。
 
 * [SheetJS/sheetjs](https://github.com/SheetJS/sheetjs) 电子表格数据工具包，用于从几乎任何复杂的电子表格中提取有用的数据，并生成适用于传统和现代软件的表格。
 
-* [cookpete/react-player](https://github.com/cookpete/react-player) 用于播放各种 URL 的 React 组件，包括文件路径、YouTube、Facebook、Twitch、SoundCloud、Streamable、Vimeo、Wistia 和 DailyMotion
-
 * [obsidiandynamics/kafdrop](https://github.com/obsidiandynamics/kafdrop) Web UI，用于查看 Kafka 主题和浏览消费者组。该工具显示代理、主题、分区、使用者等信息，并允许您查看消息。
-
-* [TanStack/query](https://github.com/TanStack/query) 强大的异步状态管理、服务器状态实用程序和 Web 数据获取。TS/JS、React 查询、Solid 查询、Svelte 查询和 Vue 查询。
 
 * [fyne-io/fyne](https://github.com/fyne-io/fyne) 受材质设计启发的 Go 中的跨平台 GUI 工具包。它旨在使用单个代码库构建在桌面和移动设备上运行的应用程序。
 
 * [wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table) 扩展表，用于与一些最广泛使用的 CSS 框架集成。（支持 Bootstrap、Semantic UI、Bulma、Material Design、Foundation Vue.js）
 
-* [ionic-team/ionic-framework](https://github.com/ionic-team/ionic-framework) 一个强大的跨平台 UI 工具包，用于使用 HTML、CSS 和 JavaScript 构建原生质量的 iOS、Android 和渐进式 Web 应用程序。
-
 * [alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js) 简单易用的库，用于创建全屏滚动网站（也称为单页网站或单页网站），并在网站的各个部分内添加横向滑块。
-
-* [invertase/react-native-firebase](https://github.com/invertase/react-native-firebase) 经过充分测试、功能丰富的模块化 Firebase 实现，适用于 React Native。支持所有 Firebase 服务的 iOS 和 Android 平台。
-
-* [remix-run/react-router](https://github.com/remix-run/react-router) React JS库的一个轻量级、功能齐全的路由库。React Router 在 React 运行的任何地方运行;在 Web、node.js和 React Native。
 
 * [angular/angular-cli](https://github.com/angular/angular-cli) Angular CLI 是一个命令行界面工具，用于初始化、开发、搭建脚手架、并直接从命令 shell 维护 Angular 应用程序。
 
-* [vuejs/pinia](https://github.com/vuejs/pinia) Vue 的官方状态管理库，直观、类型安全、轻量级和灵活的 Vue 应用状态管理，使用具有 DevTools 支持的组合 API
-
 * [WebKit/WebKit](https://github.com/WebKit/WebKit) WebKit 项目的所在地，是 Safari、Mail、App Store 和 macOS、iOS 和 Linux 上的许多其他应用程序使用的浏览器引擎。
-
-* [pmndrs/zustand](https://github.com/pmndrs/zustand) 承担 React 中状态管理的必要条件，使用简化通量原理的小型、快速且可扩展的 bearbone 状态管理解决方案。
 
 * [picocss/pico](https://github.com/picocss/pico) 极简而轻量级的入门工具包，优先考虑语义语法，使每个 HTML 元素在默认情况下都具有响应性和优雅性。
 
@@ -7364,21 +7556,9 @@
 
 * [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) 使用最小的 UI 使用最新的附加组件（如访问者计数、GitHub 统计信息等）轻松生成 GitHub 个人资料 README。
 
-* [marmelab/react-admin](https://github.com/marmelab/react-admin) 一个前端框架，用于使用 TypeScript、React 和 Material Design 构建在 REST/GraphQL API 上运行的数据驱动应用程序
-
 * [spf13/cobra](https://github.com/spf13/cobra) 用于创建功能强大的现代 CLI 应用程序的库。Cobra 用于许多 Go 项目，例如 Kubernetes、Hugo 和 GitHub CLI 等。
 
-* [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) 独一无二的简历生成器，牢记您的隐私。完全安全、可定制、便携、开源且永久免费。今天就试试吧！
-
-* [tsparticles/tsparticles](https://github.com/tsparticles/tsparticles) 轻松创建高度可定制的 JavaScript 粒子效果、五彩纸屑爆炸和烟花动画，并将它们用作您网站的动画背景
-
-* [reactioncommerce/reaction](https://github.com/reactioncommerce/reaction) 使用 Node.js、MongoDB 和 GraphQL 构建的 API 优先、无头商务平台。它与 npm、Docker 和 Kubernetes 配合得很好。
-
 * [Countly/countly-server](https://github.com/Countly/countly-server) 产品分析平台，可帮助团队跟踪、分析和处理他们在移动、Web 和桌面应用程序上的用户操作和行为。
-
-* [t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app) 交互式 CLI，用于启动全栈、类型安全的 Next.js 应用。启动全栈、类型安全的 Next.js 应用的最佳方式。
-
-* [xyflow/xyflow](https://github.com/xyflow/xyflow) 反应流 |Svelte Flow - 强大的开源库，用于使用 React或 Svelte构建基于节点的 UI.开箱即用，可无限定制。
 
 * [PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) Android 图表视图/图形视图库，支持线条图、饼图、雷达图、气泡图和烛台图以及缩放、平移和动画。
 
@@ -7386,63 +7566,35 @@
 
 * [wpscanteam/wpscan](https://github.com/wpscanteam/wpscan) WPScan WordPress安全扫描程序。为安全专业人员和博客维护人员编写，以测试其WordPress网站的安全性。
 
-* [airbnb/visx](https://github.com/airbnb/visx) 可重用的低级可视化组件的集合。visx 结合了 d3 的强大功能来生成可视化和 react 更新 DOM 的好处。
+* [discourse/discourse](https://github.com/discourse/discourse) 您社区的在线主页。我们为那些希望完全控制其网站运行方式和位置的人提供 100% 开源社区平台。
 
 * [Juanpe/SkeletonView](https://github.com/Juanpe/SkeletonView) 一种swift优雅的骨架动画，可以向用户展示正在发生的事情，并让他们准备好他们正在等待的内容
 
-* [infinitered/ignite](https://github.com/infinitered/ignite) React Native 七年多不断开发的结晶，是 Expo 和裸 React Native 中最受欢迎的 React Native 应用程序样板。
-
 * [dotnet/maui](https://github.com/dotnet/maui) .NET 多平台应用 UI，是一个用于构建跨移动设备、平板电脑和台式机的本机设备应用程序的框架。
-
-* [mdbootstrap/mdb-ui-kit](https://github.com/mdbootstrap/mdb-ui-kit) Bootstrap 5 和 Material Design UI 套件，Bootstrap 5 UI KIT - 700+ 组件，纯 JavaScript，MIT 许可证，安装简单。
 
 * [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) 创新的开源可视化应用程序，可将各种数据格式（如 JSON、YAML、XML、CSV 等）转换为交互式图形。
 
 * [socketio/socket.io-client](https://github.com/socketio/socket.io-client) 实时应用程序框架（客户端），可在客户端和服务器之间实现低延迟、双向和基于事件的通信。
 
-* [gothinkster/realworld](https://github.com/gothinkster/realworld) “所有演示应用程序之母”——由 React、Angular、Node、Django 等提供支持的典范全栈 Medium.com 克隆
-
 * [lovell/sharp](https://github.com/lovell/sharp) 高性能 Node.js 图像处理，调整 JPEG、PNG、WebP、AVIF 和 TIFF 图像大小的最快模块。使用 libvips 库。
-
-* [ffmpegwasm/ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm) 是 FFmpeg 的纯 Webassembly / Javascript 端口。它支持在浏览器中录制视频和音频，转换和流式传输。
 
 * [minimaxir/big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) 顽皮字符串大列表是一个字符串列表，这些字符串在用作用户输入数据时很有可能引起问题。
 
-* [mde/ejs](https://github.com/mde/ejs) JavaScript的嵌入式模板。用&lt;% %&gt;来控制流程，中间 JavaScript 的静态缓存，模板的静态缓存。
-
-* [GeekyAnts/NativeBase](https://github.com/GeekyAnts/NativeBase) 适用于 React Native 和 Web 的移动优先、可访问的组件，可在 Android、iOS 和 Web 上构建一致的 UI。
-
 * [mark420524/question](https://github.com/mark420524/question) 小程序，微信答题小程序，可以进行答题，模拟考试。增加了词典查询，汉字成语查询等功能
 
-* [TanStack/table](https://github.com/TanStack/table) 用于为 TS/JS 构建功能强大的表和数据网格的无头 UI - React-Table、Vue-Table、Solid-Table、Svelte-Table
-
 * [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) 使用 C# 和 XAML 开发桌面、嵌入式、移动和 WebAssembly 应用。最受欢迎的 .NET 基金会社区项目。
-
-* [expo/expo](https://github.com/expo/expo) 一个开源平台，用于使用 React 制作通用的原生应用程序。Expo 可在 Android、iOS 和 Web 上运行。
 
 * [feathericons/feather](https://github.com/feathericons/feather) 一组简单漂亮的开源图标。每个图标都设计在 24x24 网格上，强调简单性、一致性和灵活性。
 
 * [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) 一个完整的解决方案，用于打包和构建一个开箱即用的“自动更新”支持的 Electron 应用程序
 
-* [wanglin2/mind-map](https://github.com/wanglin2/mind-map) 一个 js 思维导图库，不依赖任何框架，你可以使用它来快速完成 Web 思维导图产品的开发。
-
 * [markmap/markmap](https://github.com/markmap/markmap) 将您的 Markdown 可视化为思维导图。这个项目在很大程度上受到了 dundalek 的 markmap 的启发。
-
-* [sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2) 美观、响应迅速、高度可定制和可访问 （WAI-ARIA） 的 JavaScript 弹出框替代品。零依赖性。
 
 * [getgrav/grav](https://github.com/getgrav/grav) 由 PHP、Markdown、Twig 和 Symfony 提供支持的现代、极快、极其简单且功能强大的平面文件 CMS
 
 * [docsifyjs/docsify](https://github.com/docsifyjs/docsify) 一个神奇的文档站点生成器。Docsify将一个或多个Markdown文件转换为网站，无需构建过程。
 
-* [NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS) 用于交互式流程图、组织结构图、设计工具、规划工具、可视化语言的 JavaScript 图表库。
-
 * [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) 谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类
-
-* [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever) 快速轻松地建立多份精美的简历，并创建您有史以来最好的简历！使用 Vue 和 LESS 制作。
-
-* [rsuite/rsuite](https://github.com/rsuite/rsuite) 用于企业系统产品的 react 组件库。它是一个经过深思熟虑且对开发人员友好的 UI 框架。
-
-* [reduxjs/react-redux](https://github.com/reduxjs/react-redux) Redux 的官方 React 绑定。高性能和灵活性。Redux 是 JavaScript 应用程序的可预测状态容器。
 
 * [ksky521/nodeppt](https://github.com/ksky521/nodeppt) 网络演示工具，nodeppt 2.0 基于webslides、webpack、markdown-it、posthtml 重构，https://nodeppt.js.org
 
@@ -7460,35 +7612,17 @@
 
 * [DustinBrett/daedalOS](https://github.com/DustinBrett/daedalOS) 浏览器中的桌面环境，包括：文件系统、窗口、开始菜单、任务栏、背景、应用程序。
 
-* [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) 可扩展的跨平台应用的基础，使用 Electron、React、React Router、Webpack 和 React Fast Refresh。
-
-* [mui/material-ui](https://github.com/mui/material-ui) 即用型基础 React 组件，永久免费。它包括 Material UI，它实现了 Google 的 Material Design。
-
-* [ill-inc/biomes-game](https://github.com/ill-inc/biomes-game) Biomes是一个开源沙盒MMORPG，使用Next.js，Typescript，React和WebAssembly等Web技术为Web构建。
-
 * [h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) 有用的前端相关问题列表，你可以用它来面试潜在的候选人，测试自己或完全忽略。
 
 * [aspnetboilerplate/aspnetboilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) 通用应用程序框架，专为新的现代 Web 应用程序而设计。为您提供可靠的开发体验。
-
-* [angular/angular](https://github.com/angular/angular) 用于构建移动和桌面 Web 应用程序的开发平台，使用 TypeScript/ JavaScript 和其他语言。
-
-* [alexfoxy/lax.js](https://github.com/alexfoxy/lax.js) 简单轻量级（&lt;4kb gzip压缩）香草JavaScript库，可在滚动时创建流畅而美丽的动画。
 
 * [jaredpalmer/tsdx](https://github.com/jaredpalmer/tsdx) 用于 TypeScript 包开发的零配置 CLI，可帮助您轻松开发、测试和发布现代 TypeScript 包
 
 * [AR-js-org/AR.js](https://github.com/AR-js-org/AR.js) 用于 Web 增强现实的轻量级库，具有图像跟踪、基于位置的 AR 和标记跟踪等功能。
 
-* [reagent-project/reagent](https://github.com/reagent-project/reagent) 提供了一种编写高效 React 组件的方法，（几乎）只使用普通的 ClojureScript 函数。
-
-* [uber/baseweb](https://github.com/uber/baseweb) 一个由现代，响应迅速，动态组件组成的设计系统。Base Web 是 Base 的 React 实现。
-
 * [darkreader/darkreader](https://github.com/darkreader/darkreader) Dark Reader Chrome 和 Firefox 扩展程序，分析网页，旨在减少浏览网页时的眼睛疲劳。
 
-* [microsoft/fluentui](https://github.com/microsoft/fluentui) Fluent UI Web 表示用于构建 Web 应用程序的实用程序、React 组件和 Web 组件的集合。
-
 * [getgridea/gridea](https://github.com/getgridea/gridea) 静态的博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记和想法
-
-* [shadcn-ui/taxonomy](https://github.com/shadcn-ui/taxonomy) 使用新的路由器、服务器组件和 Next.js 13 中的所有新功能构建的开源应用程序。
 
 * [browserless/browserless](https://github.com/browserless/browserless) 在 Docker 中部署无头浏览器。在我们的云上运行或自带。免费用于非商业用途。
 
@@ -7497,12 +7631,6 @@
 * [ahmadbilaldev/langui](https://github.com/ahmadbilaldev/langui) 适用于 AI 的 UI。为您的 GPT、生成式 AI 和LLM项目量身定制的开源 Tailwind 组件。
 
 * [magento/magento2](https://github.com/magento/magento2) Magento开源软件提供基本的电子商务功能，可以从头开始构建独特的在线商店。
-
-* [SortableJS/Sortable](https://github.com/SortableJS/Sortable) 适用于现代浏览器和触摸设备的可重新排序的拖放列表。不需要jQuery或框架。
-
-* [vuejs/vitepress](https://github.com/vuejs/vitepress) 由 Vue 驱动的静态站点生成器，也是 VuePress 的精神继承者，建立在 Vite 之上。
-
-* [kriasoft/react-starter-kit](https://github.com/kriasoft/react-starter-kit) Web 上最受欢迎的 Jamstack 前端模板（样板），用于使用 React 构建 Web 应用程序
 
 * [edent/SuperTinyIcons](https://github.com/edent/SuperTinyIcons) 每个小于 1KB！Super Tiny Icons 是您最喜爱的网站和应用程序徽标的微小 SVG 版本
 
@@ -7514,8 +7642,6 @@
 
 * [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) 互联网的图标库和工具包，被数百万设计师、开发人员和内容创作者使用。
 
-* [jhen0409/react-native-debugger](https://github.com/jhen0409/react-native-debugger) 基于 React Native 官方调试器的独立应用程序，包括 React Inspector / Redux DevTools
-
 * [gohugoio/hugo](https://github.com/gohugoio/hugo) 一个快速灵活的静态站点生成器，由 bep、spf13 和 Go 中的朋友们用爱构建。
 
 * [daybrush/moveable](https://github.com/daybrush/moveable) 可拖动、可调整大小、可缩放、可旋转、可扭曲、可捏、可分组、可捕捉
@@ -7524,11 +7650,7 @@
 
 * [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站,LowCode平台.
 
-* [alan2207/bulletproof-react](https://github.com/alan2207/bulletproof-react) 简单、可扩展且功能强大的架构，用于构建生产就绪的 React 应用程序。
-
 * [styled-components/styled-components](https://github.com/styled-components/styled-components) 组件时代的视觉基元。使用 ES6 和 CSS 的精华来轻松设置应用程序的样式
-
-* [Meituan-Dianping/mpvue](https://github.com/Meituan-Dianping/mpvue) 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系。
 
 * [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) 一组完全无样式、完全可访问的 UI 组件，旨在与 Tailwind CSS 完美集成。
 
@@ -7548,29 +7670,13 @@
 
 * [apptension/developer-handbook](https://github.com/apptension/developer-handbook) 关于如何成为专业的 Web/移动应用程序开发人员的自以为是的指南。
 
-* [danilowoz/react-content-loader](https://github.com/danilowoz/react-content-loader) SVG 驱动的组件，可轻松创建占位符加载（如 Facebook 的卡片加载）。
-
 * [sissbruecker/linkding](https://github.com/sissbruecker/linkding) 自托管书签管理器，旨在最小化、快速且易于使用 Docker 进行设置。
-
-* [lsqy/taro-music](https://github.com/lsqy/taro-music) 基于taro + taro-ui + redux + react-hooks + typescript 开发的网易云音乐小程序
 
 * [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) Web扩展和CLI工具，用于将完整网页的忠实副本保存在单个HTML文件中
 
-* [antonioru/beautiful-react-hooks](https://github.com/antonioru/beautiful-react-hooks) 一组漂亮且（希望）有用的 React 钩子，以加快您的组件和钩子开发
-
 * [nightwatchjs/nightwatch](https://github.com/nightwatchjs/nightwatch) 使用 Node.js 编写并使用 W3C Webdriver API 编写的集成端到端测试框架。
 
-* [jwilber/roughViz](https://github.com/jwilber/roughViz) 可重用的 JavaScript 库，用于在浏览器中创建粗略/手绘样式的图表。
-
-* [youzan/vant](https://github.com/youzan/vant) 一个轻量级的、可定制的 Vue UI 库，用于移动 Web 应用程序。特性：
-
-* [sudheerj/reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions) 前 500 个常见的ReactJS 面试问题和答案列表......编码练习题即将推出
-
-* [pubkey/rxdb](https://github.com/pubkey/rxdb) 一个快速的、本地的、反应式的、用于 JavaScript 应用程序的数据库
-
-* [caolan/async](https://github.com/caolan/async) 实用程序模块，它为使用异步 JavaScript 提供了简单、强大的功能。
-
-* [lenve/vhr](https://github.com/lenve/vhr) 微人事是前后端分离的人力资源管理系统，采用SpringBoot+Vue开发。
+* [brave/brave-browser](https://github.com/brave/brave-browser) 适用于 Android、Linux、macOS、Windows 的下一代 Brave (Chromium) 浏览器。
 
 * [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it) Markdown 解析器，做对了。100%CommonMark支持，扩展，语法插件和高速
 
@@ -7578,17 +7684,9 @@
 
 * [select2/select2](https://github.com/select2/select2) 基于 jQuery 的选择框。支持搜索、远程数据集和结果的无限滚动。
 
-* [react-grid-layout/react-grid-layout](https://github.com/react-grid-layout/react-grid-layout) 用于 React 的可拖动和可调整大小的网格布局，具有响应式断点。
-
-* [postlight/headless-wp-starter](https://github.com/postlight/headless-wp-starter) WordPress + React 入门套件：一步启动 WordPress 驱动的 React 应用程序
-
 * [WordPress/gutenberg](https://github.com/WordPress/gutenberg) WordPress及其他版本的块编辑器项目。插件可从官方存储库获得。
 
-* [jonasschmedtmann/complete-javascript-course](https://github.com/jonasschmedtmann/complete-javascript-course) 我的 Complete JavaScript 课程的入门文件、最终项目和常见问题解答
-
 * [reflex-dev/reflex](https://github.com/reflex-dev/reflex) 纯 Py的高性能、可自定义的 Web 应用程序。几秒钟内完成部署。
-
-* [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) 作为 React 样板的开箱即用 UI 解决方案，适用于企业应用程序。
 
 * [strapi/strapi](https://github.com/strapi/strapi) 领先的开源无头 CMS。100% JScript，完全可定制且开发人员优先。
 
@@ -7602,43 +7700,23 @@
 
 * [amsul/pickadate.js](https://github.com/amsul/pickadate.js) 移动友好，响应迅速且轻量级的jQuery日期和时间输入选择器。
 
-* [Nozbe/WatermelonDB](https://github.com/Nozbe/WatermelonDB) 用于强大的 React 和 React Native 应用程序的响应式和异步数据库
-
 * [arkenfox/user.js](https://github.com/arkenfox/user.js) Firefox 隐私、安全和反跟踪：用于配置和强化的综合user.js模板
 
-* [plouc/nivo](https://github.com/plouc/nivo) 一组丰富的 dataviz 组件，构建在令人敬畏的 d3 和 React 库之上
-
 * [angular-ui/ui-router](https://github.com/angular-ui/ui-router) 在 AngularJS 中使用嵌套视图进行灵活路由的事实上的解决方案
-
-* [octobercms/october](https://github.com/octobercms/october) 基于 Laravel PHP 框架的自托管 CMS (Content Management System) 平台。
-
-* [typescript-cheatsheets/react](https://github.com/typescript-cheatsheets/react) 为有经验的 React 开发人员准备的备忘单，开始使用 TypeScript
 
 * [Instagram/IGListKit](https://github.com/Instagram/IGListKit) 数据驱动的 UICollectionView 框架，用于构建快速灵活的列表。
 
 * [aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss) 实用工具优先的 CSS 框架，用于快速构建自定义用户界面。
 
-* [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) 为您的 React 应用程序提供简单、模块化和可访问的 UI 组件
-
 * [stylelint/stylelint](https://github.com/stylelint/stylelint) 一个强大的 CSS linter，可帮助您避免错误并强制执行约定。
 
 * [stylus/stylus](https://github.com/stylus/stylus) 为 nodejs 构建的富有表现力、健壮性、功能丰富的 CSS 语言
-
-* [twbs/ratchet](https://github.com/twbs/ratchet) 使用简单的 HTML、CSS 和 JavaScript 组件构建移动应用程序。
 
 * [appium/appium](https://github.com/appium/appium) 基于 W3C WebDriver 协议构建的各种应用的跨平台自动化框架
 
 * [yygmind/blog](https://github.com/yygmind/blog) 每周重点攻克一个前端面试重难点，走进高级前端的世界
 
-* [casesandberg/react-color](https://github.com/casesandberg/react-color) 来自 Sketch、Photoshop、Chrome、Github、Twitter 等的颜色选择器
-
-* [serverless-nextjs/serverless-next.js](https://github.com/serverless-nextjs/serverless-next.js) 通过无服务器组件在 AWS Lambda @Edge 上部署 Next.js 应用程序
-
-* [mochajs/mocha](https://github.com/mochajs/mocha) 简单、灵活、有趣的 Node.js 和浏览器的 JavaScript 测试框架
-
 * [tauri-apps/tauri](https://github.com/tauri-apps/tauri) 使用 Web 前端构建更小、更快和更安全的桌面应用程序。
-
-* [bailicangdu/vue2-elm](https://github.com/bailicangdu/vue2-elm) 基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用
 
 * [material-components/material-web](https://github.com/material-components/material-web) UI 工具包，用于构建可自定义且可访问的 Web 应用程序。
 
@@ -7648,8 +7726,6 @@
 
 * [hexojs/hexo](https://github.com/hexojs/hexo) 一个快速，简单和强大的博客框架，由Node.js提供支持。
 
-* [js-cookie/js-cookie](https://github.com/js-cookie/js-cookie) 一个简单、轻量级的 JavaScript API，用于处理浏览器 cookie
-
 * [gnab/remark](https://github.com/gnab/remark) 一个简单的、浏览器内的、Markdown 驱动的幻灯片工具。
 
 * [elm/compiler](https://github.com/elm/compiler) Elm的编译器，一种用于可靠Web应用程序的函数式语言。
@@ -7658,11 +7734,7 @@
 
 * [Tencent/vConsole](https://github.com/Tencent/vConsole) 用于移动网页的轻量级、可扩展的前端开发人员工具。
 
-* [terser/terser](https://github.com/terser/terser) 适用于 ES6+ 的 JavaScript 解析器、管理器和压缩器工具包
-
 * [apache/echarts](https://github.com/apache/echarts) 功能强大的交互式图表和数据可视化库，适用于浏览器
-
-* [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) 一个 JavaScript 库，用于定位浮动元素并为其创建交互。
 
 * [zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js) 新式复制到剪贴板。没有Flash。只需 3kb （gzip 压缩）。
 
@@ -7684,23 +7756,11 @@
 
 * [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) 基于 Web 的工具，用于查看、编辑、格式化和验证 JSON
 
-* [expo/create-react-native-app](https://github.com/expo/create-react-native-app) 创建在 iOS、Android 和 Web 上运行的 React Native 应用程序
-
-* [FormidableLabs/victory](https://github.com/FormidableLabs/victory) 用于构建交互式数据可视化的可组合 React 组件的集合
-
-* [facebook/relay](https://github.com/facebook/relay) 用于构建数据驱动的 React 应用程序的 JavaScript 框架。
-
 * [dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe) 适用于移动和桌面的 JS图片库，模块化，独立于框架
 
 * [django-cms/django-cms](https://github.com/django-cms/django-cms) 由 Django 支持的易于使用且对开发人员友好的企业 CMS
 
-* [react-dates/react-dates](https://github.com/react-dates/react-dates) 一个易于国际化、适合移动设备的 Web 日期选择器库
-
 * [basarat/typescript-book](https://github.com/basarat/typescript-book) TypeScript 的权威指南，也可能是最好的 TypeScript 书籍
-
-* [nfl/react-helmet](https://github.com/nfl/react-helmet) 可重用的 React 组件将管理你对文档头的所有更改。
-
-* [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev) 现代 JavaScript Web 开发的大图景、同义词库和分类法
 
 * [johannesjo/super-productivity](https://github.com/johannesjo/super-productivity) 私密且安全的 AI 工具，帮助每个人提高工作效率。
 
@@ -7708,15 +7768,9 @@
 
 * [Modernizr/Modernizr](https://github.com/Modernizr/Modernizr) JS 库，用于检测用户浏览器中的 HTML5 和 CSS3 功能。
 
-* [payloadcms/payload](https://github.com/payloadcms/payload) 使用 React + TypeScript 构建一个免费开源 Headless CMS。
-
-* [keystonejs/keystone](https://github.com/keystonejs/keystone) 最强大的无头 CMS Node.js — 使用 GraphQL 和 React 构建
-
 * [thedaviddias/Front-End-Performance-Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist) 唯一运行速度比其他检查表更快的前端性能检查表
 
 * [woai3c/visual-drag-demo](https://github.com/woai3c/visual-drag-demo) 一个低代码平台的前端部分，靠拖拉拽生成页面。
-
-* [electron/electron](https://github.com/electron/electron) 使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
 
 * [tinacms/tinacms](https://github.com/tinacms/tinacms) 一个完全开源的无头CMS，支持Markdown和可视化编辑
 
@@ -7724,23 +7778,17 @@
 
 * [Tonejs/Tone.js](https://github.com/Tonejs/Tone.js) 用于在浏览器中制作交互式音乐的 Web 音频框架。
 
-* [wesbos/JavaScript30](https://github.com/wesbos/JavaScript30) 初学者文件 + JavaScript 30 天挑战的完整解决方案。
-
-* [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) 很棒的 React Native 组件、新闻、工具和学习材料！
-
 * [timber/timber](https://github.com/timber/timber) 使用漂亮的OOP代码和Twig模板引擎创建WordPress主题
 
-* [vuematerial/vue-material](https://github.com/vuematerial/vue-material) 带有 Material Design 的即用型 Vue 组件，永久免费。
+* [GrapesJS/grapesjs](https://github.com/GrapesJS/grapesjs) 无需编码即可构建模板的下一代Web 构建器框架。
 
 * [roots/bedrock](https://github.com/roots/bedrock) WordPress样板，更轻松的配置和改进的文件夹结构
 
-* [cyclejs/cyclejs](https://github.com/cyclejs/cyclejs) 用于可预测代码的功能性和响应式 JavaScript 框架
+* [forem/forem](https://github.com/forem/forem) 开源平台，用于构建现代、独立和安全的社区。
+
+* [nswbmw/N-blog](https://github.com/nswbmw/N-blog) 一起学 Node.js，使用 Express + MongoDB 搭建多人博客
 
 * [ascoders/weekly](https://github.com/ascoders/weekly) 前端精读周刊。帮你理解最前沿、实用的技术。
-
-* [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) 现代网站和一丝不苟的开发人员的完美前端清单
-
-* [hapijs/joi](https://github.com/hapijs/joi) 最强大的 JavaScript 模式描述语言和数据验证器。
 
 * [shadcn-ui/ui](https://github.com/shadcn-ui/ui) 使用Radix UI和Tailwind CSS构建的精美设计的组件。
 
@@ -7750,13 +7798,7 @@
 
 * [librespeed/speedtest](https://github.com/librespeed/speedtest) HTML5等的自托管速度测试。易设置，移动友好。
 
-* [bvaughn/react-virtualized](https://github.com/bvaughn/react-virtualized) 用于高效呈现大型列表和表格数据的 React 组件
-
 * [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) 一本 golang 电子书介绍如何使用 golang 构建网络
-
-* [visgl/react-map-gl](https://github.com/visgl/react-map-gl) 围绕 MapboxGL（地图） JS 的 React 友好 API 包装器
-
-* [quasarframework/quasar](https://github.com/quasarframework/quasar) 在创纪录的时间内构建高性能的 VueJS 用户界面
 
 * [weilanwl/coloruicss](https://github.com/weilanwl/coloruicss) 鲜亮的高饱和色彩，专注视觉的小程序组件库
 
@@ -7764,41 +7806,27 @@
 
 * [nslogx/Gitter](https://github.com/nslogx/Gitter) 可能是目前颜值最高的GitHub微信小程序客户端
 
-* [goldbergyoni/javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices) 全面而详尽的 JavaScript 和 Node.js 测试最佳实践
-
 * [framework7io/framework7](https://github.com/framework7io/framework7) 构建 iOS 和 Android 应用程序的全功能 HTML 框架
 
 * [frappe/charts](https://github.com/frappe/charts) 简单、响应迅速、现代的 SVG 图表，零依赖性
 
-* [aidenybai/million](https://github.com/aidenybai/million) 优化 React 性能，让React 在几分钟内提高 70%。
-
 * [tw93/Pake](https://github.com/tw93/Pake/) 很简单的用 Rust 打包网页生成很小的桌面 App
-
-* [atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) 使用 React 对列表进行美观且易于访问的拖放
 
 * [dexie/Dexie.js](https://github.com/dexie/Dexie.js) indexedDB 的包装库 - 浏览器中的标准数据库。
 
-* [facebook/create-react-app](https://github.com/facebook/create-react-app) 通过运行一个命令来设置新式react Web 应用。
+* [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) 用于软件和 Web 开发的免费 API 的集合列表。
 
 * [jlmakes/scrollreveal](https://github.com/jlmakes/scrollreveal) 在元素滚动到视图中时对其进行动画处理。
 
 * [terrastruct/d2](https://github.com/terrastruct/d2) 现代图表脚本语言，可将文本转换为图表。
 
-* [rebassjs/rebass](https://github.com/rebassjs/rebass) 使用风格化系统构建的 React 基元 UI 组件。
-
 * [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) 适用于桌面、网络、移动等的全栈 GUI 库。
 
 * [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) 为前端 Web 开发人员手动策划的资源集合。
 
-* [SmallRuralDog/vue3-music](https://github.com/SmallRuralDog/vue3-music) VUE3+TS开发的音乐播放器，模仿mac QQ音乐。
-
 * [pdf2htmlEX/pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX) 将PDF转换为HTML，而不会丢失文本或格式。
 
 * [nostalgic-css/NES.css](https://github.com/nostalgic-css/NES.css) NES 风格的 CSS 框架 | Famicom 风格的 CSS 框架
-
-* [you-dont-need/You-Dont-Need-Lodash-Underscore](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore) 原生使用的 JavaScript 方法列表 + ESLint 插件
-
-* [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) 用于移动友好型交互式地图的 JavaScript 库
 
 * [emilwallner/Screenshot-to-code](https://github.com/emilwallner/Screenshot-to-code) 将设计模型转换为静态网站的神经网络。
 
@@ -7806,17 +7834,11 @@
 
 * [ant-design/ant-design-mobile](https://github.com/ant-design/ant-design-mobile) 用于构建移动 Web 应用程序的基本 UI 块。
 
-* [troisjs/trois](https://github.com/troisjs/trois) ThreeJS + VueJS 3 + ViteJS，重写一些 WebGL 演示
-
 * [heartcombo/devise](https://github.com/heartcombo/devise) 灵活的 Rails 身份验证解决方案和 Warden。
 
 * [emotion-js/emotion](https://github.com/emotion-js/emotion) 专为高性能样式组合而设计的 CSS-in-JS 库
 
 * [Chalarangelo/30-seconds-of-css](https://github.com/Chalarangelo/30-seconds-of-css) 满足您所有开发需求的简短 CSS 代码片段
-
-* [pmndrs/react-spring](https://github.com/pmndrs/react-spring) 一个跨平台的 Spring-Physics First 动画库。
-
-* [sql-js/sql.js](https://github.com/sql-js/sql.js) 用于在 Web 上运行 SQLite 的 javascript 库。
 
 * [mdbootstrap/TW-Elements](https://github.com/mdbootstrap/TW-Elements) Tailwind CSS 的大量免费交互式组件集合。
 
@@ -7824,13 +7846,9 @@
 
 * [saadeghi/daisyui](https://github.com/saadeghi/daisyui) 流行、最免费、最开源的顺风CSS组件库
 
-* [vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue) 基于 Ant Design 和 Vue 的企业级 UI 组件。
-
 * [sampotts/plyr](https://github.com/sampotts/plyr) 一个简单的 HTML5、YouTube 和 Vimeo 播放器
 
 * [wailsapp/wails](https://github.com/wailsapp/wails) 使用 Go 和 Web 技术构建桌面应用程序。
-
-* [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) React企业应用程序的全新 UI 解决方案。
 
 * [usablica/intro.js](https://github.com/usablica/intro.js) 轻量级、用户友好的入门和产品演练库
 
@@ -7840,29 +7858,17 @@
 
 * [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) CSS很强大，没有JS也可以做很多事情。
 
-* [iview/iview](https://github.com/iview/iview) 基于 Vue.js 2.0 构建的高质量 UI 工具包
-
 * [jgraph/drawio](https://github.com/jgraph/drawio) 可配置的图表/白板可视化应用程序。
 
-* [hakanyalcinkaya/kodluyoruz-frontend-101-egitimi](https://github.com/hakanyalcinkaya/kodluyoruz-frontend-101-egitimi) 从头开始进行项目的前端和 React 培训
-
 * [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) 使用 Electron 创建应用程序的有用资源
-
-* [enaqx/awesome-react](https://github.com/enaqx/awesome-react) 关于 React 生态系统的精彩内容的集合
-
-* [newbee-ltd/newbee-mall-vue3-app](https://github.com/newbee-ltd/newbee-mall-vue3-app) Vue3  + Vant 搭建大型单页面商城项目。
 
 * [Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign) 来自社区的 7000+ 个 Material Design 图标
 
 * [cobiwave/simplefolio](https://github.com/cobiwave/simplefolio) 面向开发人员的最小的个人介绍模板
 
-* [verekia/js-stack-from-scratch](https://github.com/verekia/js-stack-from-scratch) 构建现代 JavaScript 堆栈的分步教程。
-
-* [t4t5/sweetalert](https://github.com/t4t5/sweetalert) JavaScript的“alert警报”的漂亮替代品
-
-* [react-hook-form/react-hook-form](https://github.com/react-hook-form/react-hook-form) 用于表单状态管理和验证的 React Hooks
-
 * [jessepollak/card](https://github.com/jessepollak/card) 在一行代码中使您的信用卡表格更好
+
+* [zxlie/FeHelper](https://github.com/zxlie/FeHelper) Web前端助手，包括各种前端开发工具
 
 * [ErickWendel/semana-javascript-expert08](https://github.com/ErickWendel/semana-javascript-expert08) 在浏览器中上传视频之前进行预处理
 
@@ -7870,25 +7876,15 @@
 
 * [wulkano/Kap](https://github.com/wulkano/Kap) 使用 Web 技术构建的开源屏幕录像机
 
-* [arco-design/arco-design](https://github.com/arco-design/arco-design) 基于 Arco Design 的综合 React UI 组件库
-
 * [leptos-rs/leptos](https://github.com/leptos-rs/leptos) 使用 Rust 构建快速的 Web 应用程序。
-
-* [apexcharts/apexcharts.js](https://github.com/apexcharts/apexcharts.js) 基于 SVG 构建的交互式 JavaScript 图表
 
 * [woniudiancang/bee](https://github.com/woniudiancang/bee) 微信小程序-餐饮点餐外卖-开箱即用
 
-* [mixmark-io/turndown](https://github.com/mixmark-io/turndown) 用JavaScript编写的HTML到Markdown转换器
-
 * [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) 适用于游戏和应用的 UI 自动化框架
-
-* [remaxjs/remax](https://github.com/remaxjs/remax) 使用真正的 React 构建跨平台小程序
 
 * [xhtml2pdf/xhtml2pdf](https://github.com/xhtml2pdf/xhtml2pdf) 使用 ReportLab 将 HTML 转换为 PDF 的库
 
 * [realm/SwiftLint](https://github.com/realm/SwiftLint) 强制执行 Swift 样式和约定的工具。
-
-* [facebook/react-native](https://github.com/facebook/react-native) 使用 React 构建本机应用程序的框架
 
 * [nestjs/awesome-nestjs](https://github.com/nestjs/awesome-nestjs) 与NestJS 相关的精彩事物的精选列表
 
@@ -7900,31 +7896,15 @@
 
 * [tsayen/dom-to-image](https://github.com/tsayen/dom-to-image) 使用 HTML5 画布从 DOM 节点生成图像
 
-* [fkhadra/react-toastify](https://github.com/fkhadra/react-toastify) 允许您轻松地向应用程序添加通知
-
 * [wechat-miniprogram/miniprogram-demo](https://github.com/wechat-miniprogram/miniprogram-demo) 微信小程序组件 / API / 云开发示例
 
 * [PatrickJS/awesome-angular](https://github.com/PatrickJS/awesome-angular) 令人敬畏的 Angular 资源的精选列表
 
-* [mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) 强大、高性能的 React Native Camera 库
-
-* [goldfire/howler.js](https://github.com/goldfire/howler.js) 用于现代网络的 Javascript 音频库。
-
-* [recharts/recharts](https://github.com/recharts/recharts) 使用 React 和 D3 重新定义的图表库
-
-* [fullcalendar/fullcalendar](https://github.com/fullcalendar/fullcalendar) JavaScript 中的全尺寸拖放事件日历
-
 * [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) 帮助您提高 CSS 技能的技巧集合。
-
-* [react-bootstrap/react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) 使用 React 构建的 Bootstrap 5 组件。
 
 * [savingrun/WeHalo](https://github.com/savingrun/WeHalo) WeHalo 简约风 的微信小程序版博客
 
 * [FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers) 面向 Web 开发人员的实用安全指南
-
-* [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) 与 Vue 相关的精彩事物的精选列表
-
-* [vueComponent/ant-design-vue-pro](https://github.com/vueComponent/ant-design-vue-pro) 像专业人士一样使用 Ant Design Vue2
 
 * [Anarios/return-youtube-dislike](https://github.com/Anarios/return-youtube-dislike) Chrome 扩展程序返回 youtube 不喜欢
 
@@ -7938,43 +7918,21 @@
 
 * [kefranabg/readme-md-generator](https://github.com/kefranabg/readme-md-generator) 生成漂亮的 README.md 文件的 CLI。
 
-* [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) 有趣而棘手的 JavaScript 示例列表
-
 * [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io) 学术个人网站的 Github 页面模板
-
-* [ant-design/ant-design](https://github.com/ant-design/ant-design) 企业级 UI 设计语言和 React UI 库
 
 * [svg/svgo](https://github.com/svg/svgo) 用于优化 SVG 文件的 Node.js 工具
 
-* [ElemeFE/element](https://github.com/ElemeFE/element) 用于 Web 的 Vue.js 2.0 UI 工具包。
-
 * [FormidableLabs/webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard) webpack 开发服务器的 CLI 仪表板
-
-* [jaredpalmer/formik](https://github.com/jaredpalmer/formik) 在 React 中构建表单，无需流泪
-
-* [reactstrap/reactstrap](https://github.com/reactstrap/reactstrap) Bootstrap 5 的无状态 React 组件。
 
 * [youzan/vant-weapp](https://github.com/youzan/vant-weapp) 轻量、可靠的小程序 UI 组件库
 
 * [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) WebGL2 中的交互式矢量瓦片地图
 
-* [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) React Native 应用的路由和导航。
-
 * [youzan/vant-weapp](https://github.com/youzan/vant-weapp) 轻量、可靠的小程序 UI 组件库
-
-* [givanz/VvvebJs](https://github.com/givanz/VvvebJs) 拖放构建网站的javascript 库 。
-
-* [pmndrs/jotai](https://github.com/pmndrs/jotai) React 的原始和灵活的状态管理
-
-* [date-fns/date-fns](https://github.com/date-fns/date-fns) 现代 JavaScript 日期实用程序库
-
-* [airyland/vux](https://github.com/airyland/vux) 基于 Vue 和 WeUI 的移动 UI 组件
 
 * [tariqbuilds/linux-dash](https://github.com/tariqbuilds/linux-dash) 适用于 Linux 的精美 Web 仪表板
 
 * [carbon-app/carbon](https://github.com/carbon-app/carbon) 创建和共享源代码的精美图像
-
-* [element-plus/element-plus](https://github.com/element-plus/element-plus) Element 团队制作的 Vue.js 3 UI 库
 
 * [ecomfe/echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin) Apache ECharts 的微信小程序版本
 
@@ -7984,47 +7942,21 @@
 
 * [theatre-js/theatre](https://github.com/theatre-js/theatre) 适用于 Web 的动态设计编辑器
 
-* [antvis/G6](https://github.com/antvis/G6) JavaScript 中的图形可视化框架
-
-* [vuejs/vue-cli](https://github.com/vuejs/vue-cli) 基于 webpack 的 Vue.js 开发工具
-
 * [jgthms/bulma](https://github.com/jgthms/bulma) 基于 Flexbox 的现代 CSS 框架。
 
 * [xmartlabs/Eureka](https://github.com/xmartlabs/Eureka) Swift 中优雅的 iOS 表单构建器
 
-* [sudheerj/javascript-interview-questions](https://github.com/sudheerj/javascript-interview-questions) 1000 个 JavaScript 面试问题列表
-
-* [elsewhencode/project-guidelines](https://github.com/elsewhencode/project-guidelines) JavaScript 项目的一组最佳实践
-
-* [vasanthk/react-bits](https://github.com/vasanthk/react-bits) react模式、技术、技巧和窍门
-
-* [jgraph/drawio](https://github.com/jgraph/drawio) JavaScript的绘图和白板编辑器
-
 * [Dogfalo/materialize](https://github.com/Dogfalo/materialize) 基于 Material Design 的 CSS 框架
-
-* [adam-golab/react-developer-roadmap](https://github.com/adam-golab/react-developer-roadmap) 成为 React 开发人员的路线图
-
-* [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) React 组件和库的精选列表。
 
 * [mobxjs/mobx](https://github.com/mobxjs/mobx) 简单、可扩展的状态管理。
 
 * [liriliri/eruda](https://github.com/liriliri/eruda) 适用于移动浏览器的控制台
 
-* [react-native-elements/react-native-elements](https://github.com/react-native-elements/react-native-elements) 跨平台 React Native UI 工具包
-
-* [react-icons/react-icons](https://github.com/react-icons/react-icons) 流行图标包的 SVG React 图标
-
 * [primer/css](https://github.com/primer/css) 支持 GitHub 的 CSS 设计系统
 
 * [davidsonfellipe/awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) Web 性能优化的精选列表。
 
-* [Semantic-Org/Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React) 官方的 Semantic-UI-React 集成
-
-* [remarkjs/react-markdown](https://github.com/remarkjs/react-markdown) React 组件来渲染 markdown。
-
 * [ariya/phantomjs](https://github.com/ariya/phantomjs) 可编写脚本的无头浏览器
-
-* [palantir/blueprint](https://github.com/palantir/blueprint) 基于 React 的 Web UI 工具包
 
 * [xiaolin3303/wx-charts](https://github.com/xiaolin3303/wx-charts) 微信小程序图表charts组件
 
@@ -8036,97 +7968,331 @@
 
 * [thomaspark/bootswatch](https://github.com/thomaspark/bootswatch) Bootstrap 的开源主题集合
 
-* [mantinedev/mantine](https://github.com/mantinedev/mantine) 功能齐全的 React 组件库
-
-* [bolshchikov/js-must-watch](https://github.com/bolshchikov/js-must-watch) 关于javascript的必看视频
-
 * [Tencent/wepy](https://github.com/Tencent/wepy) 小程序组件化开发框架
-
-* [midoks/mdserver-web](https://github.com/midoks/mdserver-web) 一款简单Linux面板服务
 
 * [google/iosched](https://github.com/google/iosched) Android 版 Google I/O 应用
 
 * [callstack/linaria](https://github.com/callstack/linaria) JS 库中的零运行时 CSS
 
+* [cachethq/cachet](https://github.com/cachethq/cachet) 开源状态页面系统。
+
 * [troxler/awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks) 很棒的CSS框架列表。
 
 * [joshbuchea/HEAD](https://github.com/joshbuchea/HEAD) HTML 元素的简单指南
-
-* [airbnb/javascript](https://github.com/airbnb/javascript) JavaScript 风格指南。
-
-* [blitz-js/blitz](https://github.com/blitz-js/blitz) Next.js的全栈工具包
 
 * [less/less.js](https://github.com/less/less.js) 动态CSS样式表语言
 
 * [keen/dashboards](https://github.com/keen/dashboards) 响应式仪表板模板
 
-* [vuejs/vue-router](https://github.com/vuejs/vue-router) Vue 2 的官方路由器
-
 * [iv-org/invidious](https://github.com/iv-org/invidious) YouTube 的前端替代
 
-### 前端项目_其他
+### 多工具库支持或纯JS
+
+* [flet-dev/flet](https://github.com/flet-dev/flet) Flet 使开发人员能够轻松地使用 Python 构建实时 Web、移动和桌面应用程序。无需前端经验。Flet 是团队、周末项目、数据输入表单、信息亭应用程序或高保真原型的内部工具或仪表板 - Flet 是一个理想的框架，可以快速破解漂亮的交互式应用程序，为一组用户提供服务。不再需要复杂的架构，包括 JavaScript 前端、REST API 后端、数据库、缓存等。使用 Flet，您只需用 Python 编写一个整体式有状态应用程序，即可获得多用户实时单页应用程序 （SPA）。要开始使用 Flet 进行开发，您只需要自己喜欢的 IDE 或文本编辑器。没有 SDK，没有数千个依赖项，没有复杂的工具 - Flet 有一个内置的 Web 服务器，带有资产托管和桌面客户端。Flet UI 是使用 Flutter 构建的，因此您的应用程序看起来很专业，并且可以交付到任何平台。Flet 通过将较小的 “小部件” 与命令式编程模型相结合，将现成的 “控件” 组合在一起，从而简化了 Flutter 模型。Flet 与语言无关，因此您团队中的任何人都可以使用他们最喜欢的语言开发 Flet 应用程序。已经支持 Python，接下来将支持 Go、C# 和其他功能。将 Flet 应用程序部署为 Web 应用程序并在浏览器中查看它。将其打包为适用于 Windows、macOS 和 Linux 的独立桌面应用程序。将其作为 PWA 安装在移动设备上，或通过适用于 iOS 和 Android 的 Flet 应用程序查看。
+
+* [aframevr/aframe](https://github.com/aframevr/aframe) 用于构建虚拟现实体验的 Web 框架。`虚拟现实变得简单`：A-Frame 只需插入 a-scene 即可处理跨平台运行所需的 3D 和 WebXR 样板，包括移动设备、桌面和所有耳机（与支持 WebXR 的浏览器兼容）。`声明式 HTML`：HTML 易于阅读和复制粘贴。可以在 HTML 中使用，因此每个人都可以访问。`实体组件架构`：three.js 之上的强大框架，为 three.js 提供了一个声明性的、可组合的、可重用的实体组件结构。可以无限制地访问 JavaScript、DOM API、three.js、WebXR 和 WebGL。`性能`：是 three.js 之上的精简框架。性能是重中之重，在高度交互的 WebXR 体验上经过了实战考验。`跨平台`：为任何与支持 WebXR 的浏览器兼容的头戴式设备构建 VR 和 AR 应用程序。仍然可以在标准台式机和智能手机上运行。`可视化检查器`：内置可视化 3D 检查器，其工作流程类似于浏览器的开发人员工具，界面类似于 Unity。打开任何 A-Frame 场景并点击 ctrl+alt+i . `功能`：内置组件（如几何体、材质、灯光、动画、模型、光线投射器、阴影、位置音频、跟踪控制器）立即开始运行。使用粒子系统、物理、多用户、海洋、山脉、语音识别或传送等社区组件
+
+* [Polymer/polymer](https://github.com/Polymer/polymer) Polymer 允许您构建封装的、可重用的 Web 组件，这些组件的工作方式与标准 HTML 元素类似，用于构建 Web 应用程序。使用使用 Polymer 构建的 Web 组件非常简单，只需导入其定义，然后像使用任何其他 HTML 元素一样使用它。`Web Components`：各种网站往往需要一些相同的模块，比如日历、调色板等等，这种模块就被称为“组件”（component）。Web Components 就是浏览器原生的组件规范。采用组件开发，有很多优点。（1）有利于代码复用。组件是模块化编程思想的体现，可以跨平台、跨框架使用，构建、部署和与其他 UI 元素互动都有统一做法。（2）使用非常容易。加载或卸载组件，只要添加或删除一行代码就可以了。（3）开发和定制很方便。组件开发不需要使用框架，只要用原生的语法就可以了。开发好的组件往往留出接口，供使用者设置常见属性，比如上面代码的heading属性，就是用来设置对话框的标题。（4）组件提供了 HTML、CSS、JavaScript 封装的方法，实现了与同一页面上其他代码的隔离。未来的网站开发，可以像搭积木一样，把组件合在一起，就组成了一个网站。这种前景是非常诱人的。
+
+* [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) 使用 Markdown 编写文档，并在几分钟内为您的开源或商业项目创建一个专业的静态站点 - 可搜索、可自定义、支持所有设备的 60 多种语言。专注于文档内容，并在几分钟内创建一个专业的静态站点。无需了解 HTML、CSS 或 JavaScript – 让 Material for MkDocs 为您完成繁重的工作。自信地提供您的文档 – MkDocs 材料会自动适应，以完美适应可用的屏幕空间，无论查看设备的类型或大小如何。桌面。片。移动。一切都很棒。让它成为你的 - 只需几行配置即可更改颜色、字体、语言、图标、徽标等。MkDocs 的材料可以轻松扩展，并提供许多选项来更改外观和行为。不要让您的用户等待 - 通过使用具有出色性能的最快主题之一，以较小的占用空间获得难以置信的价值，从而产生最佳的搜索引擎排名和返回的满意用户。优先考虑辅助功能 – 用户可以使用触摸设备、键盘和屏幕阅读器浏览您的文档。语义标记可确保您的文档适合所有人。信任 20,000+ 用户 – 选择采用最先进的开源技术构建的成熟且积极维护的解决方案。保留您的内容的所有权，而不必担心供应商锁定。根据 MIT 授权。
+
+* [gui-cs/Terminal.Gui](https://github.com/gui-cs/Terminal.Gui) 适用于 .NET 的跨平台终端 UI 工具包，用于构建适用于 Windows、Mac 和 Linux/Unix 的 .NET、.NET Core 和 Mono 的丰富控制台应用的工具包。特征：跨平台 - Windows、Mac 和 Linux。Curses、Windows 控制台和 .NET 控制台的终端驱动程序意味着应用在彩色和单色终端上都能正常工作。键盘和鼠标输入 - 支持键盘和鼠标输入，包括对拖放的支持。灵活布局 - 支持绝对布局和创新的计算布局系统。计算布局使控件之间的相对布局变得容易，并启用动态终端 UI。剪贴板支持 - 剪切、复制和粘贴通过 Clipboard 类提供的文本。任意视图 - 所有可见的 UI 元素都是 View 类的子类，而这些子类又可以包含任意数量的子视图。高级应用功能 - Mainloop 支持处理事件、空闲处理程序、计时器和监控文件描述符。大多数类对于线程都是安全的。反应式扩展 - 使用反应式扩展，并受益于增强的代码可读性，以及应用 MVVM 模式和 ReactiveUI 数据绑定的能力。请参阅示例应用的源代码，了解如何实现此目的。
+
+* [marionettejs/backbone.marionette](https://github.com/marionettejs/backbone.marionette) Marionette.js是一个基于 Backbone.js 的复合应用程序库，旨在简化大型 JavaScript 应用程序的构建。它提供了一系列在应用程序中常见的架构设计和实现模式，帮助开发者构建可扩展的应用程序。Marionette 基于 Backbone 提供的基础构建块，提供了应用程序架构、视图管理和内存管理等功能，并提供了一套轻量级且灵活的工具，帮助开发者构建可扩展的应用程序。开发者可以选择使用 Marionette 的部分功能，并与其他 Backbone 框架和插件轻松集成。开发者可以通过 Gitter 聊天室与 Marionette 社区交流，并讨论设计模式和使用经验。Marionette 的主要优势包括：可扩展性、合理的默认设置、易于修改、减少样板代码、使用 Region 和 View 对象创建运行时应用程序视觉效果、嵌套 View 和 Collection 等。
+
+* [getzola/zola](https://github.com/getzola/zola) 一个快速的静态站点生成器，在一个二进制文件中，内置了所有内容。Zola 作为单个可执行文件提供，具有 Sass 编译、语法突出显示、目录和许多其他传统上需要设置开发环境或向您的网站添加一些 JavaScript 库的功能。平均站点将在不到一秒的时间内生成，包括 Sass 编译和语法高亮。Zola 将您的整个网站呈现为静态文件，使您无需支付任何费用即可轻松处理任何类型的流量，而无需担心管理服务器或数据库。从CLI到模板引擎，一切都设计得非常直观。不过，不要相信我的话，看看文档，自己看看。Zola 不碍事，因此您可以专注于您的内容，无论是博客、知识库、登录页面还是它们的组合。Zola 带有简码和内部链接，可以更轻松地编写内容。
+
+* [idea4good/GuiLite](https://github.com/idea4good/GuiLite) GuiLite是一个跨平台的轻量级 GUI 库，仅包含 4000行 C++ 代码，无需依赖任何第三方库，仅需头文件即可使用。它支持多种操作系统，包括 iOS/macOS/WatchOS、Android、Linux、Windows 和 RTOS，甚至可以在没有操作系统的 MCU 上运行。GuiLite 拥有高渲染性能，即使在 MCU 上也能流畅运行，并与 Qt、MFC、Winforms、Cocoa 等第三方框架兼容。它还支持多种语言，包括 C/C++、Swift、Java、Javascript、C# 和 Golang，并提供工具包用于构建字体和图像资源，以及 WYSIWYG 布局工具。GuiLite 还支持 3D 和Web 功能，并提供实时代码遥测和分析功能。用户可以通过简单的学习步骤快速掌握 GuiLite，并通过社区渠道获得支持。
+
+* [Tencent/Hippy](https://github.com/Tencent/Hippy) Hippy是一个跨平台开发框架，旨在帮助开发者编写一次代码，就能在多个平台（iOS、Android、Web 等）上运行。Hippy 对 Web开发者非常友好，尤其是熟悉 React 或 Vue 的开发者。使用 Hippy，开发者可以轻松创建跨平台应用程序。Hippy 现在已应用于腾讯的多个主要应用程序，例如手机 QQ、手机 QQ 浏览器、腾讯视频、QQ 音乐和腾讯新闻，覆盖数亿普通用户。Hippy 的优势包括：专为 Web 开发者设计，官方支持 React 和 Vue 等 Web 框架；不同平台的 API 相同；通过 JS 引擎绑定通信实现出色的性能；内置可回收组件，提高性能；可以平滑地迁移到 Web 浏览器；完全支持 Flex 布局引擎。
+
+* [Justson/AgentWeb](https://github.com/Justson/AgentWeb) 基于 Android WebView 的强大库。极度容易使用以及功能强大的库，提供了 Android WebView 一系列的问题解决方案 ，并且轻量和极度灵活。轻量级而且功能强大的 Web 库 , 大小只有 200K 。功能：进度条以及自定义进度条、文件下载、文件下载断点续传、下载通知形式提示进度、简化 Javascript 通信、支持 Android 4.4 Kitkat 以及其他版本文件上传、注入 Cookies、加强 Web 安全、支持全屏播放视频、兼容低版本 Js 安全通信、更省电 、支持调起微信支付、支持调起支付宝、默认支持定位、支持传入 WebLayout（下拉回弹效果）、支持自定义 WebView、支持 JsBridge
 
 * [pydantic/FastUI](https://github.com/pydantic/FastUI) FastUI是一种使用声明式 Python 代码构建 Web 应用界面的新方法，它将 Pydantic 模型与 TypeScript 接口相结合，在构建时通过 TypeScript和 pyright/mypy 进行验证，在运行时通过 Pydantic 进行验证。FastUI 由 `fastui` PyPI 包、`@pydantic/fastui` npm 包、`@pydantic/fastui-bootstrap` npm 包和 `@pydantic/fastui-prebuilt` npm 包组成，支持使用 Bootstrap 构建组件，并提供预构建的 React 应用，方便开发者使用。FastUI 允许 Python 开发者使用 React 构建响应式 Web 应用，而无需编写 JavaScript 代码或使用 `npm`，同时允许前端开发者专注于构建可复用的组件，实现真正的关注点分离。
 
-* [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) 该项目收集了众多流行互联网平台的开源替代前端，例如 YouTube、Twitter 等，旨在提供隐私友好、无广告、无跟踪的替代方案。项目提供详细的项目列表，包括每个项目的 GitHub 链接、官方实例地址、安装指南等信息，方便用户选择合适的替代方案。项目还鼓励用户提交新的开源项目，以丰富项目内容。
+* [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) pdf-lib是一个 JavaScript 库，用于在任何 JavaScript 环境中创建和修改 PDF 文档。它支持多种功能，包括创建新的 PDF、修改现有 PDF、创建表单、填充表单、扁平化表单、添加页面、插入页面、删除页面、复制页面、绘制文本、绘制图像、绘制 PDF 页面、绘制矢量图形、绘制SVG 路径、测量文本的宽度和高度、嵌入字体（支持 UTF-8 和 UTF-16 字符集）、设置文档元数据、读取文档元数据、设置查看器首选项、读取查看器首选项、添加附件。pdf-lib 旨在适用于任何现代 JavaScript 运行时，并在 Node、浏览器、Deno 和 React Native 环境中经过测试。
+
+* [biomejs/biome](https://github.com/biomejs/biome) Biome是一个用于 Web 项目的性能工具链，旨在提供开发工具来维护项目的健康状况。Biome 提供格式化程序和代码 linter，可以通过 CLI 和 LSP 使用。Biome 是一个快速格式化程序，支持 JavaScript、TypeScript、JSX、JSON、CSS 和 GraphQL，与 Prettier 的兼容性高达 97%。Biome 也是一个性能优越的代码 linter，支持 JavaScript、TypeScript、JSX、CSS 和 GraphQL，包含来自 ESLint、typescript-eslint 和其他来源的 270 多条规则，并输出详细的上下文诊断信息，帮助你改进代码并成为更好的程序员。Biome 从一开始就被设计为可以与 VS Code 等编辑器交互使用。
+
+* [greensock/GSAP](https://github.com/greensock/GSAP) GSAP（GreenSock动画平台）是一个用于现代Web的JavaScript动画库，让开发者成为动画超级英雄。它可以构建高性能动画，适用于所有主流浏览器，可以动画化CSS、SVG、canvas、React、Vue、WebGL、颜色、字符串、运动路径、普通对象等任何JavaScript可以操作的内容。ScrollTrigger插件可以实现惊艳的滚动动画，gsap.matchMedia()简化了响应式和无障碍动画的构建。GSAP完全灵活，无依赖项，内置许多高级插件和缓动函数，如滚动、形态变化、路径动画、FLIP动画等，还提供了一个Observer工具来标准化事件检测。
+
+* [rstudio/shiny](https://github.com/rstudio/shiny) Shiny是一个 R 包，它允许你使用 R 语言轻松创建交互式网页应用程序，无需 HTML、CSS 或 JavaScript 知识。Shiny 提供了一个直观的响应式编程模型，将你的 R 代码转换为实时应用程序，输出会根据用户输入自动更新。它还包含一组预构建的、可定制的、易于使用的部件，例如图表、表格、滑块、下拉菜单、日期选择器等等。Shiny 与 R Markdown 无缝集成，可以轻松地将多个应用程序嵌入到更大的动态文档中。Shiny 还提供工具来提高和监控性能，包括对异步编程、缓存和负载测试的支持。
+
+* [cambecc/earth](https://github.com/cambecc/earth) &quot;earth&quot;是一个用于可视化全球天气状况的项目，它基于早期的Tokyo Wind Map 项目，并使用 JavaScript 和浏览器编程技术。该项目提供了一个定制的实例，可访问 http://earth.nullschool.net。项目使用 Natural Earth 提供的地图数据，并通过 GDAL 和 TopoJSON 工具将其转换为 TopoJSON 格式。天气数据则来自美国国家气象局运营的全球预报系统 (GFS)，通过 NOMADS 下载 GRIB2格式的预报数据。用户可以通过命令行工具下载和处理数据，并使用提供的开发服务器启动项目。
+
+* [moklick/frontend-stuff](https://github.com/moklick/frontend-stuff) 这是一个持续更新的网页前端框架、库和工具列表，主要包含 JavaScript相关内容，涵盖了 CSS/UI 框架、前端框架/UI组件库、图表、地图、表格、选择器、加载器、UI 元素、内容滑块、排版、视频、音频、画布和 SVG、3D/WebGL 框架、图像处理、滚动、触摸手势、动画、模板、HTTP 请求、事件、图标、颜色、数据库/存储、验证、日期、国际化、数字和货币、统计和数据分析、模块加载器、延迟加载、神经网络、社交、实用程序库和通用工具等多个方面。
+
+* [aFarkas/lazysizes](https://github.com/aFarkas/lazysizes) 用于图像（响应式和正常）、iframe 等的高性能和 SEO 友好型惰性加载器，无需配置即可检测通过用户交互、CSS 或 JavaScript 触发的任何可见性变化。它也可能成为您集成响应式图像的第一工具。它可以自动计算响应式图像的 sizes 属性，它允许您与 CSS 共享媒体属性的媒体查询，有助于将布局 （CSS） 与内容/结构 （HTML） 分开，并且它使将响应式图像集成到任何环境中变得非常简单。它还包括一组可选插件，以进一步扩展其功能。
+
+* [olifolkerd/tabulator](https://github.com/olifolkerd/tabulator) Tabulator是一个易于使用的交互式表格生成 JavaScript 库，可用于将任何 HTML表格、JavaScript 数组或 JSON 格式的数据快速转换为交互式表格。它包含许多功能，例如排序、过滤、分页、编辑、选择、列分组、冻结列、导出数据、自定义渲染器、主题等，并支持 React、Angular 和 Vue 等主流前端框架。只需包含库和 CSS 文件，即可轻松设置 Tabulator，并使用简单的 JavaScript 代码创建表格。此外，Tabulator 还支持通过 Bower、NPM 和 UNPKG CDN 获取。
+
+* [ianstormtaylor/superstruct](https://github.com/ianstormtaylor/superstruct) Superstruct是一个简单且可组合的 JavaScript (和 TypeScript) 数据验证库。它提供了一个类似于 TypeScript、Flow、Go 和 GraphQL 的类型注解 API，使验证过程易于理解和使用。Superstruct 专注于运行时数据验证，并能为无效数据提供详细的运行时错误信息，这在处理 REST 或 GraphQL API 中的任意输入时特别有用。此外，Superstruct 还支持自定义验证器、数据类型强制转换（如添加默认值）以及 TypeScript 类型推断，以确保验证后的数据类型正确。
+
+* [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) 该项目名为`@mdn/browser-compat-data`，简称为BCD，包含了机器可读的浏览器（以及JavaScript运行时）对Web技术的兼容性数据，例如Web API、JavaScript特性、CSS属性等。该项目的目标是记录Web技术的准确兼容性数据，帮助Web开发者更容易地编写跨浏览器兼容的网站。BCD被用于MDN Web Docs、CanIUse、Visual Studio Code、WebStorm等软件。你可以通过NodeJS、Deno/Browsers或其他语言获取该项目数据，并使用它查询任何Web技术的浏览器兼容性信息。
+
+* [mojs/mojs](https://github.com/mojs/mojs) JavaScript 动态图形库，它是一个快速、支持 Retina 的模块化和开源库。与其他库相比，它具有不同的语法和代码动画结构方法。声明式 API 为您提供了对动画的完全控制，使其易于自定义。该库提供了从头开始制作动画的内置组件，如 html、形状、漩涡、突发和交错，但也为您提供了帮助您以最自然的方式制作动画的工具。在您的网站上使用 mojs 将增强用户体验，在视觉上丰富您的内容并精确地创建令人愉悦的动画。
+
+* [h2oai/wave](https://github.com/h2oai/wave) H2O Wave是一个用于构建实时网页应用和仪表盘的软件栈，它允许你在 Python/R 中使用，无需 HTML、Javascript 或 CSS。H2O Wave擅长从多个来源获取信息并在网络上实时广播，让你能够更轻松地构建和部署实时分析。它提供了 80 多个组件和 250 多个示例，并支持响应式布局和主题定制，让你能够创建美观、低延迟的实时应用程序。H2O Wave 现在也支持 R 语言 API，让你可以使用 R 语言构建和控制 Wave 仪表盘。
+
+* [iconify/iconify](https://github.com/iconify/iconify) Iconify是一个通用的图标框架，支持150多个图标集和超过200,000个图标，包括FontAwesome、Material Design Icons等，可通过Web组件或React、Vue、Svelte组件嵌入HTML，并提供Figma、Sketch和Adobe XD插件以及图标搜索功能。其核心在于按需从Iconify API加载图标数据，避免加载所有图标，从而实现图标选择的无限可能性。项目包含核心组件、Web组件及各种框架的包装器，图标数据则存储在独立的iconify/icon-sets仓库中。
+
+* [redlib-org/redlib](https://github.com/redlib-org/redlib) Redlib是一个类似于Invidious的私有Reddit前端，它使用Rust语言编写，速度快，没有JavaScript、广告、跟踪或臃肿。所有请求都通过服务器代理，包括媒体，并使用强大的内容安全策略防止浏览器直接访问Reddit。Redlib实现了大多数Reddit的（未登录）功能，但仍缺少一些功能。它受Invidious、Nitter和Bibliogram等其他替代前端的启发。Redlib希望提供一种更便捷的方式来浏览Reddit，而无需广告、跟踪和臃肿。
+
+* [BuilderIO/builder](https://github.com/BuilderIO/builder) Builder.io 是一个可视化开发平台，支持 React、Vue、Svelte、Qwik 等框架。它可以将 Figma 设计转换为代码，并使用拖放功能构建组件，最后只需点击即可发布。Builder.io 通过连接到您的网站或应用程序，使用您现有的组件，从 Figma设计或其拖放编辑器中生成代码，并通过其 SDK 将代码导出或发布更新。您可以免费注册一个账户体验 Builder.io。该仓库包含了各种 SDK、使用示例、入门项目和插件。
+
+* [gitbrent/PptxGenJS](https://github.com/gitbrent/PptxGenJS) 使用强大、简洁的 JavaScript API 创建 PowerPoint 演示文稿。此库创建与 Microsoft PowerPoint、Apple Keynote 和其他应用程序兼容的 Open Office XML （OOXML） 演示文稿。支持所有现代桌面和移动浏览器，与 Node、Angular、React 和 Electron 集成，与 PowerPoint、Keynote 等兼容。所有主要对象类型都可用（图表、形状、表格等），学术/企业品牌的母版幻灯片，SVG 图像、GIF 动画、YouTube 视频、RTL 文本和亚洲字体。
+
+* [flexxui/flexx](https://github.com/flexxui/flexx) Flexx是一个纯Python库，用于创建图形用户界面（GUI），它使用Web技术进行渲染，并通过PScript编译器动态生成JavaScript代码。你可以用它创建跨平台的桌面应用、网页应用，并导出为独立的HTML文档，也支持在Jupyter Notebook中使用。Flexx旨在提供一个单一的应用框架，以简化桌面应用、网页应用的开发，并具有良好的可维护性，但需注意区分服务器端和浏览器端的Python代码。
+
+* [zedeus/nitter](https://github.com/zedeus/nitter) 一个免费和开源的替代Twitter前端，专注于隐私和性能。灵感来自Invidious项目。没有 JavaScript 或广告。所有请求都通过后端，客户端从不与 Twitter 交谈。阻止 Twitter 跟踪您的 IP 或 JavaScript 指纹。使用 Twitter 的非官方 API（无需速率限制或开发者帐户）。轻量级（@nim_lang，60KB vs 784KB twitter.com）。RSS 订阅源。主题。移动支持（响应式设计）。AGPLv3 许可，不允许专有实例。
+
+* [jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp) 用于构建超文本应用程序的 1kB 式 JavaScript 框架，最大限度地减少了完成工作所需的学习概念。视图、操作、效果和订阅都非常容易掌握并无缝协作。Hyperapp 具有易于阅读且编写有趣的声明式 API，是使用惯用 JavaScript 构建功能纯、功能丰富、基于浏览器的应用程序的最佳方式。超轻量级的虚拟 DOM、高度优化的差异算法和痴迷于极简主义的状态管理库。
+
+* [sachinchoolur/lightGallery](https://github.com/sachinchoolur/lightGallery) lightGallery是一个可定制、模块化、响应式的lightbox图库插件，无需依赖，支持React、Angular、Vue.js和TypeScript。它具有丰富的功能，例如响应式设计、模块化架构、触摸设备优化、多种动画效果、社交分享、视频支持、缩放、全屏支持、键盘导航、以及易于通过CSS和设置进行自定义等，并提供详细文档和多种安装方式（NPM、Yarn、Bower、CDN和GitHub）。
+
+* [styled-components/polished](https://github.com/styled-components/polished) Polished是一个轻量级的JavaScript样式工具集，提供Sass风格的辅助函数和mixin，方便开发者在JavaScript中编写样式。它兼容多种框架（如styled-components、emotion等），支持Webpack和Rollup的tree shaking以减小bundle体积，并提供Flow和TypeScript定义，以及Babel插件以优化性能。  Polished让开发者轻松创建美观的应用，并简化从预处理器到JS样式的迁移过程。
+
+* [ustbhuangyi/better-scroll](https://github.com/ustbhuangyi/better-scroll) BetterScroll是一款基于 iscroll 的移动端滚动插件，它提供了更多功能和更优的滚动性能。BetterScroll 使用纯 JavaScript 实现，无需依赖其他库。它可以轻松实现列表滚动等常见场景，只需将 BetterScroll 应用于外层容器，并指定滚动内容即可。BetterScroll 默认处理容器第一个子元素的滚动，但也可以通过 `specifiedIndexAsContent` 选项指定其他元素。
+
+* [surveyjs/survey-library](https://github.com/surveyjs/survey-library) SurveyJS是一个免费的JavaScript表单构建库，支持React、Angular、Vue、jQuery和Knockout等框架，可创建动态JSON表单，收集回复并发送数据到任意数据库。它支持多页表单、弹出式调查、测验等多种形式，并提供表单构建器生成JSON配置。该库使用JSON对象与服务器交互，所有数据存储在您自己的服务器上，并提供丰富的输入类型和验证功能。
+
+* [FrontEndGitHub/FrontEndGitHub](https://github.com/FrontEndGitHub/FrontEndGitHub) 这是一个GitHub仓库，汇集了最全面的前端资源，涵盖前端学习、开发资源、数据结构与算法、开发工具、求职面试等多个方面。该项目旨在帮助前端开发者快速获取优质资源，提升学习效率，并提供便捷的学习路径。仓库包含超过10个类别，覆盖了JavaScript、Vue、React、Node、小程序、Flutter、Deno、HTML、CSS等热门技术领域。
+
+* [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) Immutable.js是一个JavaScript库，提供持久化的不可变数据集合，包括List、Map、Set等，通过结构共享（利用哈希映射Trie和向量Trie）提高效率，避免了数据复制和缓存的需要；其不可变特性简化了应用开发，并支持高级的记忆化和变更检测技术；它还提供惰性Seq，允许高效地链式调用集合方法，无需创建中间表示。
+
+* [rails/webpacker](https://github.com/rails/webpacker) Webpacker是一个用于在 Rails 中管理类似应用程序的 JavaScript 模块的工具，它已不再维护，建议使用 jsbundling-rails 或 import maps 代替。对于现有的 Webpacker 项目，可以迁移到 jsbundling-rails 或 import maps，也可以继续使用 Webpacker，但不会更新到新版本的 JavaScript 库。Webpacker 的 v6 版本将由 Shakapacker 项目继续开发。
+
+* [lgwebdream/FE-Interview](https://github.com/lgwebdream/FE-Interview) FE-Interview是一个前端面试刷题项目，包含1000+道前端面试真题，涵盖HTML、CSS、JavaScript、Vue、React、Node、TypeScript、Webpack、算法、网络与安全、浏览器等多个方面，并提供详细的解答和解析，是前端面试准备的必备资源。项目特色在于其独有的面试题详解，帮助用户深入理解知识点，提升面试技巧。
+
+* [siriwatknp/mui-treasury](https://github.com/siriwatknp/mui-treasury) mui-treasury是一个基于Material-UI的、可直接使用的组件集合，其组件设计灵感源于Dribbble和Pinterest等平台。用户可以通过复制粘贴代码或使用CLI命令（npx mui-treasury@latest clone [组件名称]）两种方式将组件添加到项目中。该项目提供多种CLI选项，支持一次克隆多个组件，并包含TypeScript和JavaScript模板。
+
+* [shepherd-pro/shepherd](https://github.com/shepherd-pro/shepherd) Shepherd 可以轻松创建自定义用户引导之旅、培训和公告，以推动用户采用。Shepherd 使您能够引导用户完成您的应用程序或网站中的自定义游览或旅程。Shepherd 具有高度可定制性，样式极简，允许强大的自定义，同时易于使用。支持各种框架，包括 React、Ember、Angular、Vue.js、ES 模块或纯 JavaScript。
+
+* [pimterry/loglevel](https://github.com/pimterry/loglevel) loglevel是一个轻量级的JavaScript日志库，为任何可用的`console.log`方法添加了可靠的日志级别方法，支持trace/debug/info/warn/error级别日志，并可按级别过滤日志，即使在不支持`console`对象的旧浏览器中也能正常工作，默认情况下日志级别为warn，文件大小仅1.4KB（压缩后），并包含TypeScript类型定义。
+
+* [antvis/X6](https://github.com/antvis/X6) JavaScript 图表库，使用 SVG 和 HTML 渲染。支持简单配置和广泛使用的图表类型，如流程图、DAG 图、ER 图等。支持多种前端框架如 React、Vue、Angular。内置 10+ 图表组件，支持 MVC 架构，便于数据管理和业务管理。支持复杂业务流程，可以生成图表内部的交互功能。支持运行环境和浏览器兼容性。
+
+* [nhn/tui.calendar](https://github.com/nhn/tui.calendar) TOAST UI Calendar是一个功能齐全的 JavaScript 日历组件，提供月视图、周视图、日视图等多种视图类型，支持拖拽和调整日程大小，并提供默认弹窗等功能。它提供 JavaScript、React 和 Vue 版本，方便开发者在不同框架中使用。此外，TOAST UI Calendar 还支持自定义配置，可满足各种场景下的需求。
+
+* [anvaka/VivaGraphJS](https://github.com/anvaka/VivaGraphJS) VivaGraphJS是一个可扩展的 JavaScript 图形绘制库，支持多种渲染引擎和布局算法。它基于 ngraph 库，提供丰富的功能，例如在 Amazon、Vkontakte 等项目中用于可视化产品关系、稀疏矩阵和社交网络。用户可以轻松定制节点和链接的外观，并选择不同的布局算法和渲染引擎，例如 WebGL 渲染。
+
+* [i18next/i18next](https://github.com/i18next/i18next) i18next是一个流行的国际化框架，适用于浏览器或任何其他JavaScript环境（例如Node.js、Deno），它提供灵活的后台连接、缓存、语言检测、复数形式处理、上下文处理、嵌套和变量替换等功能，并支持多种框架，具有可扩展性，旨在构建强大的生态系统，让多语言翻译变得简单易行。
+
+* [alibaba/formily](https://github.com/alibaba/formily) Cross Device &amp; 高性能表单/动态表单（JSON Schema）构建工具，支持React/React Native/Vue 2/Vue 3。设计简单，成本低，独立管理每个表单项状态，提高性能；集成阿里巴巴Fusion和Ant Design组件，无缝工作；JSON Schema用于前后端，支持双向转换；独立管理副作用，使表单数据链接更简单。
+
+* [OnsenUI/OnsenUI](https://github.com/OnsenUI/OnsenUI) Onsen UI 是一个基于 HTML5 和 JavaScript 的开源框架，用于创建原生感觉的 Progressive Web Apps (PWAs) 和混合应用程序。它基于 Web Components，并且与 Angular 1, 2, React 和 Vue.js 等框架兼容。该框架提供扁平化 (iOS) 和材料设计 (Android) 风格的界面组件，支持使用相同代码支持 iOS 和 Android。
+
+* [aurelia/framework](https://github.com/aurelia/framework) Aurelia 1 框架入口点，汇集了 Aurelia 的所有必需子模块。现代的前端 JavaScript 框架，用于构建浏览器、移动和桌面应用程序。它侧重于与 Web 平台规范紧密保持一致，使用约定而不是配置，并最大限度地减少框架入侵。基本上，我们希望你只写你的代码，而框架不会妨碍你。
+
+* [chanind/hanzi-writer](https://github.com/chanind/hanzi-writer) Hanzi Writer是一个免费开源的JavaScript库，用于制作汉字笔画顺序动画和笔画顺序练习测验，支持简体和繁体字。该项目使用来自Make me a Hanzi项目的汉字SVG和笔画顺序数据，并进行了部分调整。用户可以通过项目网站获取更多信息和使用说明，并可通过GitHub仓库参与贡献。
+
+* [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) FluidFramework是一个使用JavaScript或TypeScript构建分布式、实时协作Web应用程序的库，其核心代码包含客户端包和参考排序服务。它包含多个pnpm工作区，分别管理不同功能的包，并提供文档和示例代码，方便开发者学习和使用，相关资源可在其官网和GitHub仓库中找到。
+
+* [wa0x6e/cal-heatmap](https://github.com/wa0x6e/cal-heatmap) Cal-Heatmap是一个JavaScript图表库，用于创建时间序列日历热力图，类似于GitHub贡献日历，但功能更强大，支持动画日期导航、时间间隔自定义、布局/UI完全控制、本地化和时区支持、插件系统、广泛的浏览器支持以及更多特性，可用于直观地展现时间序列数据。
 
 * [olistic/warriorjs](https://github.com/olistic/warriorjs) 令人兴奋的编程和人工智能游戏，在 WarriorJS 中，你是一名爬上高塔到达顶层 JavaScript 剑的战士。传说持剑者在 JavaScript 语言中变得开悟，但请注意：旅程并不容易。在每一层楼，你需要编写JavaScript来指导战士与敌人作战，营救俘虏，并活着到达楼梯......
 
-* [frappe/erpnext](https://github.com/frappe/erpnext) 免费和开源的企业资源规划 （ERP），包括以下用于管理业务的领域：会计、仓库管理、客户关系管理、销售、购买、人力资源管理系统、项目管理、支持、资产管理、质量管理、制造业、网站管理、自定义 ERPNext、还有更多
+* [grid-js/gridjs](https://github.com/grid-js/gridjs) Grid.js是一个轻量级、易于使用的表格库，支持所有主流浏览器和IE11+，无需依赖特定框架，可与React、Angular、Preact或原生JavaScript等一起使用，其核心是用TypeScript编写，通过简洁的API即可创建功能强大的表格，详尽的文档和示例可在官网gridjs.io/docs找到。
 
-* [openedx/edx-platform](https://github.com/openedx/edx-platform) 一个面向服务的平台，用于创作和提供任何规模的在线学习。该平台是用Python和JavaScript编写的，并广泛使用Django框架。在最高级别，该平台由一个整体、一些可独立部署的应用程序（IDA）和基于ReactJS的微前端（MFE）组成。
+* [single-spa/single-spa](https://github.com/single-spa/single-spa) 单页面应用框架，支持前端微服务，可轻松集成React、Angular、Ember等多种框架的应用，实现页面无刷新切换，提高加载效率。项目特色在于多框架共存，新功能开发无需重写现有应用。项目提供了文档、教程和示例代码，鼓励社区贡献和赞助支持。
 
-* [medusajs/medusa](https://github.com/medusajs/medusa) 一组商务模块和工具，可让您构建丰富、可靠且高性能的商务应用程序，而无需重新发明核心商务逻辑。这些模块可以定制并用于构建高级电子商务商店、市场或任何需要基础商务原语的产品。
+* [helloqingfeng/Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource) 这是一个GitHub仓库，收集了大量前端资源，包括学习资料、开发工具、面试技巧等，旨在帮助开发者提升前端技能。仓库内容涵盖了JavaScript、前端框架、工具库、面试准备等方面，并提供了一些学习路线建议，非常适合前端学习者和开发者参考。
 
-* [TryGhost/Ghost](https://github.com/TryGhost/Ghost) 一款功能强大的应用程序，供专业出版商围绕其内容创建、共享和发展业务。它配备了现代工具，可以构建网站，发布内容，发送时事通讯并向会员提供付费订阅。
+* [nordicgiant2/awesome-landing-page](https://github.com/nordicgiant2/awesome-landing-page) 该项目是一个收集了大量精美实用的落地页模板的仓库，这些模板使用各种前端技术构建，涵盖了 React、Vue、Angular 等框架，并提供了来自不同开源项目的链接，方便开发者参考和使用。开发者可以 fork 该项目并提交 PR 来分享自己的落地页模板。
 
-* [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) 用于构建、部署和维护内部应用程序的开源平台。您可以构建任何东西，从简单的 CRUD 应用程序、管理面板、仪表板到自定义业务应用程序和复杂的多步骤工作流。
+* [Ionaru/easy-markdown-editor](https://github.com/Ionaru/easy-markdown-editor) EasyMDE是一个简单易用、美观且可嵌入的JavaScript Markdown编辑器，适用于初学者和专家。它具有内置自动保存和拼写检查功能，支持自定义主题、工具栏按钮和JavaScript钩子，并实时渲染Markdown语法，方便用户查看编辑效果，可通过npm或CDN安装使用。
 
-* [apache/incubator-answer](https://github.com/apache/incubator-answer) 适用于任何规模团队的问答平台软件。无论是社区论坛、帮助中心还是知识管理平台，您始终可以信赖 Apache Answer。
+* [haizlin/fe-interview](https://github.com/haizlin/fe-interview) 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML / CSS/ JavaScript/ Vue/ React/ Nodejs/ TypeScript/ ECMAScritpt/Webpack/Jquery/小程序/软技能
 
-* [discourse/discourse](https://github.com/discourse/discourse) 您社区的在线主页。我们为那些希望完全控制其网站运行方式和位置的人提供 100% 开源社区平台。
+* [TahaSh/swapy](https://github.com/TahaSh/swapy) Swapy是一个与框架无关的工具，只需几行代码即可将任何布局转换为拖放交换布局。它是一个简单的 JavaScript 工具，可以将您现有的任何布局转换为拖放交换布局。您可以在 [https://swapy.tahazsh.com/](https://swapy.tahazsh.com/)找到 Swapy 的文档。
+
+* [d3plus/d3plus](https://github.com/d3plus/d3plus) d3plus是一个基于D3.js的JavaScript图表库，用于快速创建精美的数据可视化。它包含多个模块，例如用于创建轴、颜色、地图和网络图的模块，并支持多种环境（包括React）。  通过npm或CDN安装，丰富的示例和文档可在d3plus.org上找到。
+
+* [solidjs/solid](https://github.com/solidjs/solid) 用于创建用户界面的声明性 JavaScript 库。它不使用虚拟 DOM，而是将其模板编译为真实的 DOM 节点，并使用细粒度反应更新它们。声明你的状态并在整个应用中使用它，当一段状态发生更改时，只有依赖于它的代码才会重新运行。
+
+* [crater-invoice/crater](https://github.com/crater-invoice/crater) 开源发票解决方案，适用于个人和企业。基于Laravel和VueJS的Web应用及基于React Native的移动应用，支持发票和报价单的跟踪、支付等。项目特色包括自动更新、电子邮件配置、安装向导等。支持多语言翻译。许可证为GNU AGPLv3。
+
+* [webview/webview](https://github.com/webview/webview) 用于 C/C++ 的微型跨平台 webview 库。使用 WebKit （GTK/Cocoa） 和 Edge WebView2 （Windows） 。目标是为最广泛使用的平台创建一个通用的 HTML5 UI 抽象层。它支持双向 JavaScript 绑定（从 C/C++ 调用 JavaScript 和从 JavaScript 调用 C/C++）。
+
+* [rails/rails](https://github.com/rails/rails) Web 应用程序框架，它包含了根据模型-视图-控制器 （MVC） 模式创建数据库支持的 Web 应用程序所需的一切。理解 MVC 模式是理解 Rails 的关键。MVC 将应用程序分为三层：模型层、视图层和控制器层，每层都有特定的职责。
+
+* [Semantic-Org/Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) 基于自然语言有用原则的 UI 组件框架。允许开发人员通过简洁的 HTML、直观的 JavaScript 和简化的调试快速构建漂亮的网站，帮助使前端开发成为一种愉快的体验。语义采用响应式设计，允许您的网站在多个设备上扩展。
+
+* [hakimel/reveal.js](https://github.com/hakimel/reveal.js) 开源的 HTML 表示框架。它使任何拥有网络浏览器的人都可以免费创建精美的演示文稿。具有强大的功能集，包括嵌套幻灯片、Markdown 支持、自动动画、PDF 导出、演讲者笔记、LaTeX 排版、语法突出显示代码和广泛的 API。
+
+* [vercel/satori](https://github.com/vercel/satori) Enlightened库，用于将HTML和CSS转换为SVG；支持JSX语法，可以生成与浏览器中HTML和CSS完全相同的SVG；支持有限的HTML元素和CSS特性，不支持动态React组件和外部资源；可以嵌入图片并自定义尺寸；底层实现基于SVG 1.1规范。
+
+* [11ty/eleventy](https://github.com/11ty/eleventy) 一个简单的静态网站生成器，替代Jekyll，使用JavaScript编写，可以将不同类型的模板转换为HTML，支持HTML、Markdown、JavaScript、Liquid、Nunjucks等多种格式，并有插件支持WebC、Sass、Vue、Svelte、TypeScript、JSX等。
+
+* [google/material-design-lite](https://github.com/google/material-design-lite) Material Design Lite 允许您为静态内容网站添加 Material Design 外观。它不依赖于任何JavaScript框架或库。针对跨设备使用进行了优化，在较旧的浏览器中优雅地降级，并提供从一开始就可以访问的体验。
+
+* [processing/p5.js](https://github.com/processing/p5.js) 用于创意编码的 JavaScript 库，专注于让艺术家、设计师、教育工作者、初学者和其他任何人都能访问和包容编码！P5.js 是免费和开源的，因为我们相信软件以及学习它的工具应该对每个人都开放。
+
+* [emberjs/ember.js](https://github.com/emberjs/ember.js) JavaScript 框架，它大大减少了构建任何 Web 应用程序所需的时间、精力和资源。它专注于通过执行大多数 Web 开发项目中涉及的所有常见、重复但必不可少的任务，使您（开发人员）尽可能高效。
+
+* [umijs/qiankun](https://github.com/umijs/qiankun) 快速、简单、完整的微型前端解决方案。使您和您的团队能够利用微前端构建下一代企业级 Web 应用程序。微前端:使用不同 JavaScript 框架与多个团队一起构建现代 Web 应用的技术、策略和方法。
+
+* [jsdom/jsdom](https://github.com/jsdom/jsdom) 各种 Web 标准的 JavaScript 实现，用于 Node.js。特别是WHATWG DOM和HTML标准，用于Node.js。一般来说，该项目的目标是模拟足够多的 Web 浏览器子集，以便用于测试和抓取真实世界的 Web 应用程序。
+
+* [tastejs/todomvc](https://github.com/tastejs/todomvc) 帮助你选择MV*框架，提供用React.js、Ember.js、Angular等多种框架实现的待办事项应用，由Addy Osmani、Sindre Sorhus、Pascal Hartig、Stephen Sawchuk、Colin Eberhardt、Sam Saccone和Arthur Verschaeve等开发者维护。
+
+* [skonvajs/konva](https://github.com/konvajs/konva) HTML5 Canvas JavaScript 框架，它通过为桌面和移动应用程序启用画布交互性来扩展 2D 上下文。支持高性能动画、过渡、节点嵌套、分层、过滤、缓存、桌面和移动应用程序的事件处理等等。
+
+* [BuilderIO/qwik](https://github.com/BuilderIO/qwik) 提供尽可能快的页面加载时间 - 无论您的网站有多复杂。Qwik 之所以如此之快，是因为它允许完全交互式的网站在几乎没有 JavaScript 的情况下加载，并从服务器中断的地方继续。
+
+* [mapbox/mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js) JavaScript 库，用于在 Web 上创建交互式、可自定义的矢量地图。它采用符合 Mapbox 样式规范的地图样式，将其应用于符合 Mapbox 矢量切片规范的矢量切片，并使用 WebGL 进行渲染。
+
+* [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) 用于构建业务应用程序的可扩展低代码框架。连接到数据库、云存储、GraphQL、API 端点、Airtable 等，并使用拖放式应用程序构建器构建应用程序。使用 JavaScript/TypeScript 构建。
+
+* [mattboldt/typed.js](https://github.com/mattboldt/typed.js) JavaScript 类型动画库，Typed.js 是一个会打字的库。输入任何字符串，并观察它以您设置的速度输入，将键入的内容退格，并为您设置的字符串数量开始一个新句子。
+
+* [febobo/web-interview](https://github.com/febobo/web-interview) 语音打卡社群维护的前端面试题库，包含不限于Vue面试题，React面试题，JS面试题，HTTP面试题，工程化面试题，CSS面试题，算法面试题，大厂面试题，高频面试题
+
+* [ag-grid/ag-grid](https://github.com/ag-grid/ag-grid) AGGrid是一个功能齐全、高度可定制的JavaScript数据表格，用于构建企业应用程序，提供卓越的性能，无第三方依赖，并支持React、Angular、Vue和纯JavaScript。
+
+* [highlightjs/highlight.js](https://github.com/highlightjs/highlight.js) JavaScript 编写的语法高亮。它适用于浏览器和服务器。它几乎可以处理任何标记，不依赖于任何其他框架，并且具有自动语言检测功能。
+
+* [NervJS/taro](https://github.com/NervJS/taro) 开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。
+
+* [plotly/plotly.js](https://github.com/plotly/plotly.js) 独立的 Javascript 数据可视化库，它还为这些各自生态系统中命名 plotly 的 Python 和 R 模块提供支持（称为 Plotly.py 和 Plotly.R）。
+
+* [sveltejs/svelte](https://github.com/sveltejs/svelte) 一种构建Web应用程序的新方法。它是一个编译器，它采用声明性组件并将它们转换为高效的JavaScript，通过外科手术更新DOM。
+
+* [twitter/typeahead.js](https://github.com/twitter/typeahead.js) 受 twitter.com 自动完成搜索功能的启发，typeahead.js 是一个灵活的 JavaScript 库，为构建健壮的提前输入提供了坚实的基础。
+
+* [redwoodjs/redwood](https://github.com/redwoodjs/redwood) 一个固执己见的全栈 JavaScript/TypeScript Web 应用程序框架，旨在让您在应用程序从副项目到启动的过程中快速前进。
+
+* [TanStack/query](https://github.com/TanStack/query) 强大的异步状态管理、服务器状态实用程序和 Web 数据获取。TS/JS、React 查询、Solid 查询、Svelte 查询和 Vue 查询。
+
+* [ionic-team/ionic-framework](https://github.com/ionic-team/ionic-framework) 一个强大的跨平台 UI 工具包，用于使用 HTML、CSS 和 JavaScript 构建原生质量的 iOS、Android 和渐进式 Web 应用程序。
+
+* [tsparticles/tsparticles](https://github.com/tsparticles/tsparticles) 轻松创建高度可定制的 JavaScript 粒子效果、五彩纸屑爆炸和烟花动画，并将它们用作您网站的动画背景
+
+* [mdbootstrap/mdb-ui-kit](https://github.com/mdbootstrap/mdb-ui-kit) Bootstrap 5 和 Material Design UI 套件，Bootstrap 5 UI KIT - 700+ 组件，纯 JavaScript，MIT 许可证，安装简单。
+
+* [ffmpegwasm/ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm) 是 FFmpeg 的纯 Webassembly / Javascript 端口。它支持在浏览器中录制视频和音频，转换和流式传输。
+
+* [mde/ejs](https://github.com/mde/ejs) JavaScript的嵌入式模板。用&lt;% %&gt;来控制流程，中间 JavaScript 的静态缓存，模板的静态缓存。
+
+* [wanglin2/mind-map](https://github.com/wanglin2/mind-map) 一个 js 思维导图库，不依赖任何框架，你可以使用它来快速完成 Web 思维导图产品的开发。
+
+* [sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2) 美观、响应迅速、高度可定制和可访问 （WAI-ARIA） 的 JavaScript 弹出框替代品。零依赖性。
+
+* [NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS) 用于交互式流程图、组织结构图、设计工具、规划工具、可视化语言的 JavaScript 图表库。
+
+* [angular/angular](https://github.com/angular/angular) 用于构建移动和桌面 Web 应用程序的开发平台，使用 TypeScript/ JavaScript 和其他语言。
+
+* [alexfoxy/lax.js](https://github.com/alexfoxy/lax.js) 简单轻量级（&lt;4kb gzip压缩）香草JavaScript库，可在滚动时创建流畅而美丽的动画。
+
+* [SortableJS/Sortable](https://github.com/SortableJS/Sortable) 适用于现代浏览器和触摸设备的可重新排序的拖放列表。不需要jQuery或框架。
 
 * [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) 一次编写组件，到处运行。编译为 React、Vue、Qwik、Solid、Angular、Svelte 等
 
-* [brave/brave-browser](https://github.com/brave/brave-browser) 适用于 Android、Linux、macOS、Windows 的下一代 Brave (Chromium) 浏览器。
+* [jwilber/roughViz](https://github.com/jwilber/roughViz) 可重用的 JavaScript 库，用于在浏览器中创建粗略/手绘样式的图表。
 
-* [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) 由vue-cli-electron-builder构建的简单而漂亮的图片上传工具
+* [pubkey/rxdb](https://github.com/pubkey/rxdb) 一个快速的、本地的、反应式的、用于 JavaScript 应用程序的数据库
 
-* [GrapesJS/grapesjs](https://github.com/GrapesJS/grapesjs) 无需编码即可构建模板的下一代Web 构建器框架。
+* [caolan/async](https://github.com/caolan/async) 实用程序模块，它为使用异步 JavaScript 提供了简单、强大的功能。
 
-* [forem/forem](https://github.com/forem/forem) 开源平台，用于构建现代、独立和安全的社区。
+* [jonasschmedtmann/complete-javascript-course](https://github.com/jonasschmedtmann/complete-javascript-course) 我的 Complete JavaScript 课程的入门文件、最终项目和常见问题解答
 
-* [nswbmw/N-blog](https://github.com/nswbmw/N-blog) 一起学 Node.js，使用 Express + MongoDB 搭建多人博客
+* [twbs/ratchet](https://github.com/twbs/ratchet) 使用简单的 HTML、CSS 和 JavaScript 组件构建移动应用程序。
 
-* [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) 用于软件和 Web 开发的免费 API 的集合列表。
+* [mochajs/mocha](https://github.com/mochajs/mocha) 简单、灵活、有趣的 Node.js 和浏览器的 JavaScript 测试框架
 
-* [refinedev/refine](https://github.com/refinedev/refine) 不受限制地构建基于 React 的 CRUD 应用程序。
+* [js-cookie/js-cookie](https://github.com/js-cookie/js-cookie) 一个简单、轻量级的 JavaScript API，用于处理浏览器 cookie
 
-* [zxlie/FeHelper](https://github.com/zxlie/FeHelper) Web前端助手，包括各种前端开发工具
+* [terser/terser](https://github.com/terser/terser) 适用于 ES6+ 的 JavaScript 解析器、管理器和压缩器工具包
 
-* [sockjs/sockjs-client](https://github.com/sockjs/sockjs-client) WebSocket 仿真 - Javascript 客户端
+* [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) 一个 JavaScript 库，用于定位浮动元素并为其创建交互。
 
-* [cachethq/cachet](https://github.com/cachethq/cachet) 开源状态页面系统。
+* [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev) 现代 JavaScript Web 开发的大图景、同义词库和分类法
+
+* [electron/electron](https://github.com/electron/electron) 使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
+
+* [wesbos/JavaScript30](https://github.com/wesbos/JavaScript30) 初学者文件 + JavaScript 30 天挑战的完整解决方案。
+
+* [cyclejs/cyclejs](https://github.com/cyclejs/cyclejs) 用于可预测代码的功能性和响应式 JavaScript 框架
+
+* [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) 现代网站和一丝不苟的开发人员的完美前端清单
+
+* [hapijs/joi](https://github.com/hapijs/joi) 最强大的 JavaScript 模式描述语言和数据验证器。
+
+* [goldbergyoni/javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices) 全面而详尽的 JavaScript 和 Node.js 测试最佳实践
+
+* [you-dont-need/You-Dont-Need-Lodash-Underscore](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore) 原生使用的 JavaScript 方法列表 + ESLint 插件
+
+* [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) 用于移动友好型交互式地图的 JavaScript 库
+
+* [sql-js/sql.js](https://github.com/sql-js/sql.js) 用于在 Web 上运行 SQLite 的 javascript 库。
+
+* [verekia/js-stack-from-scratch](https://github.com/verekia/js-stack-from-scratch) 构建现代 JavaScript 堆栈的分步教程。
+
+* [t4t5/sweetalert](https://github.com/t4t5/sweetalert) JavaScript的“alert警报”的漂亮替代品
+
+* [apexcharts/apexcharts.js](https://github.com/apexcharts/apexcharts.js) 基于 SVG 构建的交互式 JavaScript 图表
+
+* [mixmark-io/turndown](https://github.com/mixmark-io/turndown) 用JavaScript编写的HTML到Markdown转换器
+
+* [goldfire/howler.js](https://github.com/goldfire/howler.js) 用于现代网络的 Javascript 音频库。
+
+* [fullcalendar/fullcalendar](https://github.com/fullcalendar/fullcalendar) JavaScript 中的全尺寸拖放事件日历
+
+* [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) 有趣而棘手的 JavaScript 示例列表
+
+* [givanz/VvvebJs](https://github.com/givanz/VvvebJs) 拖放构建网站的javascript 库 。
+
+* [date-fns/date-fns](https://github.com/date-fns/date-fns) 现代 JavaScript 日期实用程序库
+
+* [antvis/G6](https://github.com/antvis/G6) JavaScript 中的图形可视化框架
+
+* [sudheerj/javascript-interview-questions](https://github.com/sudheerj/javascript-interview-questions) 1000 个 JavaScript 面试问题列表
+
+* [elsewhencode/project-guidelines](https://github.com/elsewhencode/project-guidelines) JavaScript 项目的一组最佳实践
+
+* [jgraph/drawio](https://github.com/jgraph/drawio) JavaScript的绘图和白板编辑器
+
+* [bolshchikov/js-must-watch](https://github.com/bolshchikov/js-must-watch) 关于javascript的必看视频
+
+* [airbnb/javascript](https://github.com/airbnb/javascript) JavaScript 风格指南。
 
 ### 管理面板
 
+* [didi/DoKit](https://github.com/didi/DoKit) 一款面向泛前端产品研发全生命周期的效率平台。DoKit诞生于滴滴城运服体验技术部，是一款面向泛前端产品研发全生命周期的效率平台。经过两年的发展，当前DoKit已经发展成了一个相对完整的生态，比如DoKit For Android、DoKit For iOS、DoKit For 小程序、DoKit For Flutter、DoKit For Web。同时我们的项目被BAT以及滴滴、字节、快手、京东等等头部独角兽企业广泛使用并获得良好的口碑。随着dokit.cn平台端的推出，标志着DoKit已经从单纯的效率工具正式进入了效率工具平台的阶段。与此同时我们一直都未停下持续探索的精神，积极地在更多平台领域进行尝试，不给自己设限。我们相信DoKit的未来充满无限可能。每一个稍微有点规模的 App，总会自带一些线下的测试功能代码，比如环境切换功能、帧率查看功能等等，这些功能的切换入口往往放在各式各样的入口中，比如一些特殊的手势，双击 statusBar，双击某一个功能区块，或者新建一个 keyWindow 始终至于 App 最上方等等，而且每一个 App 里面的线下附带功能模块很多是相似的，比如帧率查看、内存和 CPU 监控等等，但是现在基本上都是每个 App 都是自己实现了一份，经历了以上的问题之后，DoKit 就有了它存在的意义。DoKit 是一个功能平台，能够让每一个 App 快速接入一些常用的或者你没有实现的一些辅助开发工具、测试效率工具、视觉辅助工具，而且能够完美在 Doraemon 面板中接入你已经实现的与业务紧密耦合的一些非通有的辅助工具，并搭配我们的dokit平台，让功能得到延伸，接入方便，便于扩展。简单总结：1、DoKit 能够快速让你的业务测试代码能够在这里统一管理，统一收口；2、DoKit 内置很多常用的工具，避免重复实现，一次接入，你将会拥有强大的工具集合；3、搭配dokit平台，借助接口Mock、健康体检、文件同步助手、一机多控让你方便和他人协同，极大的提升研发过程中的效率。
+
 * [talebook/talebook](https://github.com/talebook/talebook) 一个简单的在线版个人书库。基于Calibre的简单的个人图书管理系统，支持在线阅读。主要特点是：美观的界面：由于Calibre自带的网页太丑太难用，于是基于Vue，独立编写了新的界面，支持PC访问和手机浏览；支持多用户：为了网友们更方便使用，开发了多用户功能，支持豆瓣（已废弃）、QQ、微博、Github等社交网站的登录；支持在线阅读：借助Readium.js 库，支持了网页在线阅读电子书；支持批量扫描导入书籍；支持邮件推送：可方便推送到Kindle；支持OPDS：可使用KyBooks等APP方便地读书；支持一键安装，网页版初始化配置，轻松启动网站；优化大书库时文件存放路径，可以按字母分类、或者文件名保持中文；支持快捷更新书籍信息：支持从百度百科、豆瓣搜索并导入书籍基础信息；支持私人模式：需要输入访问码，才能进入网站，便于小圈子分享网站；本项目曾用名：calibre-webserver.
+
+* [kalcaddle/KodExplorer](https://github.com/kalcaddle/KodExplorer) KodExplorer是一个基于Web的文件管理和代码编辑器，支持在线或本地运行，需要PHP 5环境。它具有操作系统级的使用体验，多国语言支持，丰富的上下文菜单和工具栏，拖放功能，多种快捷键等。支持文件和文件夹的复制、剪切、粘贴、移动、删除、上传、创建文件夹/文件、重命名等操作，多用户支持，灵活的访问权限配置，剪贴板功能，多选文件夹操作，多种文件夹打开方式，自然排序，列表、图标和拆分视图，拖放文件移动/复制/克隆/删除，文件分享，文件夹收藏，计算目录大小，图像文件缩略图，文件名和路径的正常化，多字符集支持，多部分上传，HTML5拖放背景上传，通过URL上传文件，直接提取到当前工作目录，文件名和内容搜索，基于文件名的文件排除，直接文件URL复制，支持多种压缩文件的创建、提取和预览，常见文件类型的快速预览等。
 
 * [newbee-ltd/newbee-mall](https://github.com/newbee-ltd/newbee-mall) 一套电商系统，包括基础版本(Spring Boot+Thymeleaf)、前后端分离版本(Spring Boot+Vue 3+Element-Plus+Vue-Router 4+Pinia+Vant 4) 、秒杀版本、Go语言版本、微服务版本(Spring Cloud Alibaba+Nacos+Sentinel+Seata+Spring Cloud Gateway+OpenFeign+ELK)。 前台商城系统包含首页门户、商品分类、新品上线、首页轮播、商品推荐、商品搜索、商品展示、购物车、订单结算、订单流程、个人订单管理、会员中心、帮助中心等模块。 后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理、设置等模块。
 
+* [SoftwareBrothers/adminjs](https://github.com/SoftwareBrothers/adminjs) AdminJS 是一个为 Node.js 应用程序生成自动管理界面的工具，只需提供数据库模型，AdminJS 即可自动生成相应的用户界面。它受到 django admin、rails admin 和 active admin 的启发。AdminJS 可以帮助你在不编写大量代码的情况下，轻松实现数据的增删改查、自定义操作、表单验证、仪表盘展示等功能，适合非程序员查看应用状态。该项目欢迎贡献，提供了本地开发指南和贡献指南。AdminJS 由 rst.software 公司维护，遵循开源许可。
+
 * [holoviz/panel](https://github.com/holoviz/panel) Panel是一个开源的Python库，允许你轻松构建强大的工具、仪表板和复杂的应用程序，完全使用Python完成。它具有内置的理念，将PyData生态系统、强大的数据表等等都触手可及。高层次的反应式API和低层次的基于回调的API确保你可以快速构建探索性应用程序，但如果你构建具有丰富交互性的复杂的多页应用程序，也不会受到限制。Panel是HoloViz生态系统的一部分，它是连接的数据探索工具生态系统的门户。
+
+* [Kiranism/next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) 这是一个基于Next.js 14、shadcn-ui和TypeScript构建的管理员面板启动模板，使用了App Router路由器。它集成了多种工具，包括Zustand状态管理、Zod数据校验、Tanstack Tables表格、React Hook Form表单、NextAuth身份验证以及kbar命令面板等，提供登录、仪表盘、员工管理、产品管理、个人资料和看板等页面，并支持服务器端搜索、过滤和分页功能，演示地址：https://next-shadcn-dashboard-starter.vercel.app
 
 * [ckan/ckan](https://github.com/ckan/ckan) CKAN是一个开源的数据管理系统，用于构建数据中心和数据门户网站，它简化了数据发布、共享和使用流程。CKAN 是catalog.data.gov、open.canada.ca/data 和 data.humdata.org 等众多网站的驱动引擎。CKAN 提供强大的平台，用于对数据集进行目录编制、存储和访问，并提供丰富的用户界面、完整的 API（用于数据和目录）、可视化工具等功能。有关更多信息，请访问 ckan.org。
 
 * [twentyhq/twenty](https://github.com/twentyhq/twenty) Twenty是一个开源CRM平台，旨在提供比Salesforce更现代的替代方案，它由社区驱动，并提供完全的控制和自由。Twenty的设计理念是围绕数据构建，允许用户访问和可视化任何现有数据源，而不是强制用户将数据重构到远程云上的预定义对象中。Twenty的界面灵感来自Notion，易于使用且可定制。用户可以使用demo.twenty.com网站体验Twenty，并使用提供的凭据登录。
 
+* [krayin/laravel-crm](https://github.com/krayin/laravel-crm) Free &amp; Opensource Laravel CRM解决方案，适用于中小企业和企业的客户生命周期管理，基于Laravel和Vue.js构建，提供描述简单易用的管理员面板、自定义属性、模块化架构等功能，支持通过Sendgrid解析邮件。项目文档和论坛可在相应链接中找到。要求服务器为Apache 2或NGINX，PHP 8.1及以上，数据库为MySQL 5.7.23或MariaDB 10.2.7及以上，Node 8.11.3 LTS及以上。
+
 * [streamaserver/streama](https://github.com/streamaserver/streama) Streama是一个自托管的流媒体服务器，可以让你像使用Netflix一样管理和观看自己的电影和电视剧。它支持从本地文件系统中读取视频文件，并提供用户管理、播放器、管理员面板等功能。你可以通过GitHub Releases下载稳定版或测试版，并通过官方文档进行安装和设置。Streama还提供了一个在线演示，你可以使用demoUser账户和密码进行体验。
 
+* [stitchfix/pyxley](https://github.com/stitchfix/pyxley) Pyxley是一个Python库，利用pyxleyJS React组件和Flask框架构建基于网页的仪表盘。它通过PyReact库和Jinja模板，简化了React组件的集成，开发者只需提供组件属性、ID和路径即可。Pyxley支持Python 2和3，并提供Pandas数据框架集成，包含多种图表和过滤器组件，以及用于数据格式转换的辅助函数，可通过pip安装。  项目文档可在readthedocs上找到。
+
 * [flatlogic/react-dashboard](https://github.com/flatlogic/react-dashboard) 这是一个基于React、Bootstrap、Node.js和GraphQL的同构React管理面板模板，包含响应式布局、React Router、Sass样式、身份验证和CRUD示例等功能，并提供Node.js后端集成。  该项目易于上手，提供详细的快速入门指南，帮助开发者快速构建业务软件。 通过克隆项目、安装依赖、运行`yarn dev`即可启动包含GraphQL服务器和IDE的本地开发环境。
+
+* [bailicangdu/vue2-manage](https://github.com/bailicangdu/vue2-manage) 基于 Vue + Element-UI 的后台管理系统，是 node-elm 管理系统的前端部分，数据实时从服务器获取，支持功能包括登录、管理数据、权限认证等。该项目使用了 vue2 + vuex + vue-router + webpack + ES6/7 + less + element-ui。可以通过克隆仓库并运行相关命令进行开发和测试，支持本地和线上环境。项目特色在于实时数据获取和丰富的前端功能。
 
 * [flatlogic/react-material-admin](https://github.com/flatlogic/react-material-admin) ReactMaterial Admin是一个基于React、Material-UI和React Router构建的管理面板模板，无需jQuery和Bootstrap。它使用React Hooks和React Context（而非Redux），提供现代化的仪表盘设计，包含多种页面组件（如Dashboard、图表、表格等），并支持移动端响应式布局，可通过git clone、yarn install和yarn start快速启动。完整版包含更多组件和主题支持。
 
 * [django-import-export/django-import-export](https://github.com/django-import-export/django-import-export) django-import-export是一个Django应用和库，用于方便地导入和导出数据，支持与Django Admin集成。它支持多种文件格式（CSV、XLSX、JSON等），既可以通过程序代码操作，也可以通过Django Admin界面进行可视化操作，并提供数据预览、批量导入、外键关系处理、数据验证等功能，确保数据导入导出过程可靠且全面。
+
+* [glanceapp/glance](https://github.com/glanceapp/glance) Glance是一个自托管的仪表盘，可将所有信息聚合到一个地方，支持RSS订阅、Reddit帖子、天气、书签、Hacker News等多种小部件，并提供主题定制和移动端优化。它轻量快速，使用极少的JS和依赖，单二进制文件小于15MB，所有请求并行处理，页面加载通常只需1秒左右。支持手动安装、Docker安装和源码编译。
+
+* [Buuntu/fastapi-react](https://github.com/Buuntu/fastapi-react) 这是一个使用FastAPI(Python)和React(TypeScript)构建项目的Cookiecutter模板，集成了PostgreSQL数据库、SQLAlchemy ORM、Celery异步任务、Docker容器化以及Nginx反向代理。它包含JWT身份验证、React Router、Material UI、react-admin管理面板和完整的测试套件(Pytest)，旨在简化项目搭建流程，提供开箱即用的现代化全栈开发体验。
 
 * [macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm) 一套微服务商城系统，采用了 Spring Cloud 2021 &amp; Alibaba、Spring Boot 2.7、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
 
@@ -8136,9 +8302,15 @@
 
 * [apptension/saas-boilerplate](https://github.com/apptension/saas-boilerplate) Apptension的SaaS Boilerplate是一个开源免费的SaaS项目启动套件，基于React、Django和AWS，帮助你更快地构建SaaS产品。它包含前端、后端API、管理面板和工作进程等必需功能，并提供可扩展的AWS架构和持续部署，让你专注于核心业务逻辑而非重复性编码，从而快速启动项目并进行创新。
 
+* [abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard](https://github.com/abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard) 这是一个使用Flutter构建的响应式管理面板或仪表盘模板，支持Web、macOS、Android和iOS等多个平台，具有图表、表格和信息卡等多种功能，并使用了flutter_svg、google_fonts和provider等包，其响应式设计确保在各种设备上都能提供良好的用户体验，项目提供在线预览和YouTube教学视频。
+
+* [gethomepage/homepage](https://github.com/gethomepage/homepage) 一个高度可定制的主页（或启动页/应用程序仪表盘），基于Docker和服务API集成，支持超过100种服务的集成和多语言翻译，通过YAML文件或Docker标签自动配置，具有现代、静态、快速、安全的特点，内置Docker支持和自动服务发现，提供天气、时间、日期、搜索等实用小部件。
+
 * [zulip/zulip](https://github.com/zulip/zulip) 开源的团队协作工具，具有独特的基于主题的线程，结合了电子邮件和聊天的优点，使远程工作高效且令人愉快。财富 500 强公司、领先的开源项目以及数以千计的其他组织每天都在使用 Zulip。Zulip 是唯一一款专为实时和异步对话而设计的现代团队聊天应用程序。
 
 * [creativetimofficial/material-dashboard](https://github.com/creativetimofficial/material-dashboard) 免费的 Material Bootstrap Admin，具有受 Google Material Design 启发的全新设计。我们非常高兴地通过一套易于使用且美观的组件来介绍我们对材料概念的看法。Material Dashboard 建立在流行的 Bootstrap 框架之上，它带有几个经过重新设计的第三方插件，以适应其余元素。
+
+* [mickasmt/next-saas-stripe-starter](https://github.com/mickasmt/next-saas-stripe-starter) 这是一个开源的SaaS项目启动器，包含用户角色和管理面板，使用Next.js 14、Prisma、Neon、Auth.js v5、Resend、React Email、Shadcn/ui和Stripe构建。它通过无缝集成这些技术来加速SaaS项目的开发，并提供便捷的安装和部署方式（可通过Vercel一键部署）。
 
 * [geex-arts/django-jet](https://github.com/geex-arts/django-jet) Django JET是一个现代化的 Django 管理界面模板，提供改进的功能，包括全新外观、响应式移动界面、实用的管理首页、最小模板覆盖、轻松集成、主题支持、自动完成和便捷控件。它提供开源（AGPLv3）和商业两种许可证，并提供演示和文档。
 
@@ -8148,7 +8320,11 @@
 
 * [macrozheng/mall-learning](https://github.com/macrozheng/mall-learning) mall学习教程，架构、业务、技术要点全方位解析。mall项目（50k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot 2.3.0、MyBatis 3.4.6、Elasticsearch 7.6.2、RabbitMQ 3.7.15、Redis 5.0、MongoDB 4.2.5、Mysql5.7等技术，采用Docker容器化部署。
 
+* [macrozheng/mall-admin-web](https://github.com/macrozheng/mall-admin-web) mall-admin-web是一个基于Vue和Element实现的电商后台管理系统前端项目，主要功能包括商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理和设置等。该项目位于https://github.com/macrozheng/mall。
+
 * [devias-io/material-kit-react](https://github.com/devias-io/material-kit-react) 这是一个基于React、Next.js和MUI组件构建的免费React管理面板，包含登录、注册、仪表盘等页面；付费专业版提供更多页面、组件、以及Firebase、Auth0等身份验证系统和暗黑模式支持；项目使用MIT许可证开源，可通过git clone快速启动。
+
+* [frappe/erpnext](https://github.com/frappe/erpnext) 免费和开源的企业资源规划 （ERP），包括以下用于管理业务的领域：会计、仓库管理、客户关系管理、销售、购买、人力资源管理系统、项目管理、支持、资产管理、质量管理、制造业、网站管理、自定义 ERPNext、还有更多
 
 * [NG-ZORRO/ng-zorro-antd](https://github.com/NG-ZORRO/ng-zorro-antd) NG-ZORRO 是一个基于 Ant Design 的企业级 Angular UI 组件库，提供60 多个高质量的 Angular 组件，使用 TypeScript 编写，具有可预测的静态类型，支持 OnPush 模式，性能高，可进行强大的主题定制，并支持多种语言的国际化。
 
@@ -8165,6 +8341,8 @@
 * [YunaiV/yudao-cloud](https://github.com/YunaiV/yudao-cloud) 基于 Spring Cloud Alibaba + MyBatis Plus + Vue &amp;amp; Element 实现的后台管理系统 + 用户小程序，支持 RBAC 动态权限、多租户、数据权限、工作流、三方登录、支付、短信、商城等功能。
 
 * [gnmyt/Nexterm](https://github.com/gnmyt/Nexterm) Nexterm是一款开源的服务器管理软件，支持 SSH、VNC 和 RDP 协议，允许用户通过网页界面管理服务器。用户可以通过 Nexterm 的预览功能体验其功能，该项目采用 MIT 许可证。
+
+* [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) 用于构建、部署和维护内部应用程序的开源平台。您可以构建任何东西，从简单的 CRUD 应用程序、管理面板、仪表板到自定义业务应用程序和复杂的多步骤工作流。
 
 * [lyt-Top/vue-next-admin](https://github.com/lyt-Top/vue-next-admin) 基于 vue3.x + CompositionAPI setup 语法糖 + typescript + vite + element plus + vue-router-next + pinia 技术，适配手机、平板、pc 的后台开源免费模板，实现快速开发。
 
@@ -8222,6 +8400,8 @@
 
 * [yezihaohao/react-admin](https://github.com/yezihaohao/react-admin) react 后台管理系统解决方案
 
+* [midoks/mdserver-web](https://github.com/midoks/mdserver-web) 一款简单Linux面板服务
+
 * [RainManGO/vue3-composition-admin](https://github.com/RainManGO/vue3-composition-admin) 基于vue3 的管理端模板
 
 * [chuzhixin/vue-admin-better](https://github.com/chuzhixin/vue-admin-better) vue后台管理
@@ -8240,23 +8420,121 @@
 
 * [mimblewimble/grin](https://github.com/mimblewimble/grin) Grin是一个正在开发中的 Mimblewimble 协议实现，旨在提供简洁、高效的隐私保护加密货币。它采用 Mimblewimble 协议，实现隐藏交易金额和可扩展性，并使用 Cuckoo Cycle 工作量证明机制，提供两种变体：Cuckaroo（抗 ASIC）和 Cuckatoo（针对 ASIC）。Grin 的特点包括一分钟的区块时间、固定且逐渐减少的区块奖励、基于输出数量和交易大小的交易费用以及平滑的难度调整曲线。Grin 已经上线主网，但仍处于开发阶段，欢迎贡献者参与。
 
+* [vechain/grant-program](https://github.com/vechain/grant-program) VeChain基金会通用资助计划为涵盖去中心化应用、工具库、基础设施、互操作性、企业应用和研究项目等领域的项目提供最高3万美元的资金支持，申请需具备扎实的技术背景、详细的技术方案和可持续性计划，并需遵循项目里程碑交付要求，优先考虑对VeChain生态系统有直接贡献的项目，已成功进行代币销售的项目不在资助范围内。  该计划设有EasyA黑客松专项，为前十名符合条件的项目提供最高3万美元的资助。
+
+* [subsquid/squid-sdk](https://github.com/subsquid/squid-sdk) Subsquid SDK是一个用TypeScript编写的Web3数据ETL工具包，支持以太坊、Substrate链和Solana等区块链，其特点是作为一个工具包而非索引应用程序，拥有快速二进制数据编解码器和类型安全的数据访问，并原生支持Subsquid Network（一个去中心化数据湖和查询引擎），从而实现高效的数据处理和查询。  通过`sqd init`命令和提供的快速入门指南可以轻松上手，开发者可在Telegram和Discord社区寻求帮助，并欢迎贡献代码。
+
+* [Adamant-im/ETH-transactions-storage](https://github.com/Adamant-im/ETH-transactions-storage) 这是一个用Python编写的以太坊交易索引器，它连接到以太坊节点（如Geth或Nethermind），并将交易数据存储到PostgreSQL数据库中，然后通过Postgrest提供RESTful API接口，方便用户根据以太坊地址查询交易历史，其功能类似于Etherscan。索引器存储交易时间戳、发送方地址、接收方地址、交易金额、gas费等信息，并支持ERC20代币转账记录的索引，以减少存储需求。  用户可以通过API请求获取指定地址的交易记录。
+
+* [gitcoinco/gitcoinco](https://github.com/gitcoinco/gitcoinco) Gitcoin是一个基于以太坊智能合约的开源网络，旨在促进开源项目的资金支持。它允许用户无需中间机构即可便捷地为GitHub上的问题提供资金或小费，支持ERC20代币支付，并提供多种功能，例如资助问题（用于资助开源项目的bug修复、功能开发或安全漏洞奖励）和小费功能。Gitcoin拥有多个相关项目仓库，包括网站、智能合约、浏览器扩展程序和移动应用等，旨在构建一个更可持续的开源生态系统。
+
+* [bnb-chain/bsc](https://github.com/bnb-chain/bsc) BNB智能链是一个基于go-ethereum分支的BNB智能合约客户端，旨在为BNB Beacon链带来可编程性和互操作性。它兼容所有现有的以太坊智能合约和工具，并采用权益授权证明(PoSA)共识机制，由21个验证者组成，实现更短的出块时间和更低的交易费用。BNB作为原生代币，用于支付智能合约执行gas费用和质押。该项目特色在于其EVM兼容性、快速的最终确定性和低廉的交易费用，并通过链上治理实现去中心化。
+
 * [near/nearcore](https://github.com/near/nearcore) NEARcore 是 NEAR Protocol 的参考实现，提供了一个用于构建去中心化应用程序的开发平台。它使用区块链技术，旨在提供与 Firebase 等现代 PaaS 相似的易用性和可扩展性，但成本更低。NEARcore 提供了多种工具，包括 JavaScript 客户端库、Rust 和 JavaScript/TypeScript SDK，以及大量示例和文档，帮助开发者轻松构建应用程序。用户可以通过 `nearup` 命令加入 NEAR 网络，并通过文档了解如何成为验证者。
 
 * [krzyzanowskim/CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) CryptoSwift 是用 Swift 实现的标准和安全加密算法的不断增长的集合。特征：简单易用、字符串和数据的便捷扩展、支持增量更新流...、支持iOS、Android、macOS、AppleTV、watchOS、Linux。Hash (Digest) 哈希（摘要）、循环冗余校验 （CRC）、Cipher 密码、RSA（公钥加密算法）、信息身份验证器、 密码操作模式、基于密码的密钥派生函数、数据填充、使用关联数据进行身份验证加密 （AEAD）。
 
 * [hrishioa/rakis](https://github.com/hrishioa/rakis) Rakis是一个基于浏览器的去中心化可验证 AI 网络，它允许节点接受 AI推理请求，运行本地模型，验证彼此的结果并达成共识，所有这些都在浏览器中完成，无需服务器。该项目从第一天起就开源，并提供详细文档，包括区块链合约和基础设施。Rakis 支持多种模型、链和网络，并优先考虑浏览器，以实现易用性和民主化。它使用基于嵌入的共识机制，并允许任何人参与网络。
 
+* [nervosnetwork/ckb](https://github.com/nervosnetwork/ckb) Nervos CKB是Nervos网络的底层公链，采用PoW和改进的Nakamoto共识机制，在平均硬件和网络带宽下实现最大性能，同时保证去中心化和安全性。它支持使用CKB-VM（兼容RISC-V ISA）的任何编程语言编写脚本，作为通用验证层专注于验证，将计算留给二层及更高层的应用。CKB是Nervos网络的一部分，该网络定义了一套可扩展和互操作的区块链协议，旨在创建一个自我进化的分布式经济。
+
 * [lbryio/lbry-sdk](https://github.com/lbryio/lbry-sdk) LBRY SDK是一个用于构建去中心化、抗审查、可获利的数字内容应用程序的 Python 库。它基于 LBRY 区块链，提供用于内容发布、访问和管理的工具，包括 Kademlia DHT、Blob 交换协议、Protobuf 模式、钱包实现和 JSON-RPC API。用户可以使用 LBRY SDK 构建各种应用程序，例如视频平台、音乐流媒体服务和文件共享平台。该项目还提供预编译的二进制文件和详细的文档，方便开发者使用。
 
 * [libp2p/go-libp2p](https://github.com/libp2p/go-libp2p) go-libp2p 是 libp2p 网络协议栈的 Go 语言实现，它源于 IPFS 项目，并被独立打包供其他工具使用。libp2p旨在解决构建大规模点对点系统所面临的复杂性，它提供了一个模块化的网络协议栈，允许应用程序仅使用必要的协议，同时保持互操作性和可升级性。该项目提供示例代码、Grafana 仪表盘，并欢迎社区贡献。用户可通过导入 &quot;github.com/libp2p/go-libp2p&quot; 包开始使用。
 
+* [matter-labs/zksync](https://github.com/matter-labs/zksync) zkSync是基于ZK Rollup架构的以太坊扩容和隐私引擎，它通过零知识证明(SNARK)确保所有资金由以太坊主链上的智能合约持有，计算和存储在链下进行，从而实现低Gas费的ETH和ERC20代币转移。zkSync继承了以太坊主链的安全保障，无需用户或第三方持续在线监控即可防止欺诈，提供比侧链和Plasma更强的安全性和可靠性。项目包含服务器、证明器、JavaScript和Rust SDK等组件。
+
 * [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。被称为赛博菩萨的 Cloudflare 提供内容交付网络 （CDN） 服务、DDoS 缓解、互联网安全和分布式域名服务器 （DNS） 服务，位于访问者和 Cloudflare 用户的托管提供商之间，充当网站的反向代理。内容：图床、邮箱、博客、短链、网站分析、隧道、加速、文件分享、测速、监控、文章、其他、教程。
+
+* [bitcoinj/bitcoinj](https://github.com/bitcoinj/bitcoinj) bitcoinj是一个用Java实现的比特币协议库，允许在无需本地比特币核心副本的情况下维护钱包并发送/接收交易。它包含完整的文档和一些示例应用程序，展示了如何使用它，并提供命令行钱包工具用于创建和管理基于bitcoinj的钱包，支持测试网络，方便学习和使用。  项目使用Java 8+ (base和core模块)及Java 17+(其他模块)，依赖Gradle和Google Protocol Buffers。
+
+* [Zilliqa/Zilliqa](https://github.com/Zilliqa/Zilliqa) Zilliqa是一个高吞吐量公共区块链平台，旨在实现每秒数千笔交易，它采用独特的分片架构实现交易并行处理，从而在保持大量公共节点的同时提高吞吐量和处理更复杂的计算能力，最终实现去中心化和安全的目标；主网版本为Zilliqa v9.2.3和Scilla v0.13.3，开发者测试网版本为Zilliqa v9.2.5和Scilla v0.13.3，并提供API接口、区块浏览器和水龙头等资源。
+
+* [zcash/zcash](https://github.com/zcash/zcash) Zcash是一个注重隐私的加密货币，其设计灵感源于比特币，但通过零知识证明技术实现了更高的隐私性和匿名性，隐藏交易参与者和交易细节；该项目维护着zcashd全节点软件，用于下载和存储Zcash交易历史记录；项目代码基于Bitcoin Core，但已大幅改进；目前Zcash支持Debian和Ubuntu系统，并提供其他实现方案（如Zebra）和丰富的文档及社区支持。
+
+* [smartcontractkit/chainlink](https://github.com/smartcontractkit/chainlink) Chainlink是一个去中心化预言机网络的核心节点，它连接链上和链下计算，让智能合约能够访问现实世界数据和进行链下计算，同时保持区块链技术的安全性与可靠性。该项目包含Chainlink核心节点和合约，节点运营商可运行打包好的二进制文件参与去中心化预言机网络。项目提供Docker镜像方便下载使用，并有完善的文档和活跃的社区支持。
+
+* [handshake-org/hsd](https://github.com/handshake-org/hsd) HSD是Handshake协议的实现，提供全节点功能及命令行接口（hsd-cli和hsw-cli），支持RPC和RESTful HTTPAPI。它内置递归解析器，也支持libunbound以提升性能。HSD允许配置本地权威和递归域名服务器，并可通过命令行参数控制监听端口、最大入站连接数以及公开IP地址。此外，HSD结合hs-client可进行CPU挖矿，并支持测试网3的去中心化空投和拍卖功能。
+
+* [subquery/subql](https://github.com/subquery/subql) SubQuery是一个开放、灵活、快速且通用的Web3数据索引框架，旨在帮助开发者创建未来的去中心化产品。它支持Polkadot、Ethereum、Cosmos等多个主流区块链网络，允许开发者快速、免费地查询和提取链上数据，并提供托管服务和本地部署选项，方便开发者构建dApp。SubQuery通过其自定义的GraphQL查询服务以及一系列工具组件简化数据处理流程。
+
+* [terra-money/classic-core](https://github.com/terra-money/classic-core) TerraClassic是用Go语言编写的Terra协议参考实现，基于Cosmos SDK和Tendermint共识机制构建，旨在为去中心化经济提供基础设施。该项目是Terra协议的经典版本，目前由社区维护，其核心命令行工具`terrad`集成了所有功能，用户可通过下载预编译二进制文件或从源码编译安装。`terrad`命令可用于节点操作和交互，详细使用方法请参考官方文档。
+
+* [trustwallet/assets](https://github.com/trustwallet/assets) TrustWallet Assets Info项目是一个包含数千种加密货币代币信息的全面且最新的数据库，Trust Wallet及其他项目使用该项目中的代币图标。该项目允许社区贡献，但仅接受项目健全、信息完整且流通量非极低的代币，并提供多种工具和脚本用于添加、验证和维护代币信息，包括用于检查代币信息的Golang脚本和用于更新交易对信息的脚本。
+
+* [steemit/steem](https://github.com/steemit/steem) Steem是一个用于智能媒体代币（SMT）和去中心化应用的区块链，它采用创新的“脑力证明”（Proof of Brain）共识算法分配代币，拥有快速块确认（3秒）和免费交易等特性，并支持基于角色的权限管理和智能媒体代币（SMT）。Steem提供Docker镜像方便快速部署，也支持从源码构建，用户可通过文档和开发者门户获取更多信息。
+
+* [ethereum-optimism/optimism](https://github.com/ethereum-optimism/optimism) Optimism是一个致力于扩展以太坊的项目，通过构建名为OP Stack的开源软件来实现以太坊的可扩展性。OP Stack是一个去中心化的软件栈，支持Optimism主网和Base等区块链，其核心设计理念是“影响=利润”，即积极贡献者将获得相应奖励。该项目鼓励社区参与贡献，并提供详细的文档和指南帮助开发者构建基于OP Stack的区块链。
+
+* [ton-blockchain/ton](https://github.com/ton-blockchain/ton) TON项目是一个快速、安全、可扩展的区块链，旨在每秒处理数百万笔交易，目标是拥有数亿用户。该项目包含节点/验证器、轻客户端、tonlib、FunC编译器等代码。其更新流程包括主分支（主网运行）、测试网分支和待处理分支，并遵循严格的代码审查和合并规则。开发者可通过提供的文档和教程参与开发去中心化应用。
+
+* [input-output-hk/daedalus](https://github.com/input-output-hk/daedalus) Daedalus是一个开源的ADA加密货币钱包，旨在与社区共同发展。它允许用户安全地存储和管理ADA代币。该项目提供详细的开发环境设置指南，包括使用Nix和Yarn进行依赖项管理和构建，并支持多种网络环境下的运行，例如主网和自建节点。用户可以通过提供的脚本导入各种类型的钱包，包括Byron、Shelley、Mary和Yoroi钱包。
+
+* [metaplex-foundation/metaplex](https://github.com/metaplex-foundation/metaplex) Metaplex Foundation致力于Solana区块链上的NFT开发，提供一系列Rust编写的程序库(包括元数据、拍卖行和糖果机程序)，以及JavaScript、iOS和Android SDK，方便开发者创建和交互NFT。其工具集包括Solita(IDL转SDK工具)和Amman(Solana程序测试工具)，并提供Sugar(Candy Machine命令行工具)简化NFT发行流程。  项目文档详见https://docs.metaplex.com。
+
+* [EOSIO/eos](https://github.com/EOSIO/eos) EOSIO是一个开源智能合约平台，旨在帮助企业快速构建和部署高性能、高安全性的区块链应用。其特色包括：免费限速交易、低延迟的区块确认（0.5秒）、拜占庭容错最终确定性、WebAssembly驱动的智能合约平台以及支持多种操作系统（包括Ubuntu、CentOS、macOS等）。EOSIO支持预构建二进制文件安装，也支持从源码构建。
+
+* [Adamant-im/adamant](https://github.com/Adamant-im/adamant) ADAMANT是一个去中心化的区块链消息平台，使用匿名加密中继和存储来实现消息功能，例如其Messenger应用、区块链2FA和加密货币兑换器等。它提供完整的API文档，涵盖账户、交易、聊天和键值存储管理。用户可通过提供的安装脚本（需Ubuntu系统，至少2GB内存和70GB磁盘空间）轻松搭建节点，并可以选择主网或测试网。
+
+* [Synthetixio/synthetix](https://github.com/Synthetixio/synthetix) Synthetix是一个基于加密货币的合成资产平台，使用SNX代币作为支撑，SNX持有者可质押SNX发行Synths（链上合成资产）。该平台支持多种合成资产，并通过代理系统实现合约升级，保证用户体验的连续性，价格由Chainlink预言机提供。项目包含多个dApp，例如质押dApp和交易平台Kwenta，并提供完善的文档和社区支持。
+
+* [dfinity/ic](https://github.com/dfinity/ic) InternetComputer是一个全球首个以网络速度运行且容量无限扩展的区块链，其核心是运行在节点上的客户端/副本软件（Rust实现）。它类似于互联网和比特币/以太坊等区块链协议，由许多遵循ICP协议的机器构成。该项目提供SDK和文档，方便开发者构建应用，并拥有社区论坛和监控面板，方便用户了解网络状态。
 
 * [lightningnetwork/lnd](https://github.com/lightningnetwork/lnd) Lightning Network Daemon(lnd) 是一个完整的闪电网络节点实现，它支持多种后端链服务，包括 btcd、bitcoind 和 neutrino。lnd 遵循闪电网络规范 (BOLTs)，并提供 HTTP REST API 和 gRPC 服务，方便开发者构建应用。lnd 能够创建和关闭通道，管理通道状态，进行路径查找，发送和接收闪电网络支付，并提供自动通道管理功能。
 
+* [litecoin-project/litecoin](https://github.com/litecoin-project/litecoin) Litecoin是一个实验性的点对点数字货币，允许用户向世界各地任何人进行即时支付，无需中央机构管理交易和发行货币；LitecoinCore是其开源软件，用于使用这种货币；项目采用MIT许可证，并鼓励开发者进行单元测试和代码审查以确保安全性和稳定性，其开发过程包括定期发布稳定版本和持续的社区贡献。
+
+* [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) Superalgos是一个免费开源的加密货币交易机器人软件，允许用户可视化设计、数据挖掘、回测、模拟交易和多服务器部署加密货币交易机器人。它是一个社区拥有的项目，使用SA代币激励贡献者，并提供集成图表系统，旨在为零售交易者提供强大的交易工具。  该项目庞大，包含平台客户端及其他资源。
+
+* [stacks-network/stacks-core](https://github.com/stacks-network/stacks-core) Stacks是一个用Rust编写的Layer-2区块链，它利用比特币的安全性，通过Clarity语言支持去中心化应用和可预测的智能合约。它使用PoX（Proof of Transfer）共识机制，将区块链的领导者选举锚定在比特币区块链上，无需修改比特币即可实现智能合约和去中心化应用，STX矿工在独立的Stacks区块链上写入新区块。
+
+* [cosmos/cosmos-sdk](https://github.com/cosmos/cosmos-sdk) CosmosSDK是一个用Go语言编写的框架，用于构建高价值的公共区块链应用，其核心是CometBFT共识引擎。它被用于构建Cosmos Hub（Gaia），并支持IBC（区块链间通信）模块。Cosmos SDK目前处于相对稳定状态，但仍可能进行一些重大更改，建议使用最新版本的Go进行开发，更多信息请参考官方文档和教程。
+
+* [tronprotocol/java-tron](https://github.com/tronprotocol/java-tron) java-tron是TRON协议的Java实现，提供一个可扩展、高可用、高吞吐量的区块链操作系统，支持TRON生态系统中的所有去中心化应用。它允许开发者使用智能合约创建去中心化应用（DAPP），并具有每秒超过2000笔交易的高性能。该项目需要Oracle JDK 1.8 (64位)并在Linux和MacOS系统上运行，通过Gradle构建。
+
+* [ava-labs/avalanchego](https://github.com/ava-labs/avalanchego) Avalanchego是用Go语言实现的Avalanche节点，用于高吞吐量、快速交易的Avalanche区块链平台。它支持连接主网、Fuji测试网和创建本地测试网络。安装方式包括从源码构建、使用APT仓库或下载预编译二进制文件，也提供Docker镜像。节点启动后需要进行引导，连接主网引导过程可能需要几天时间。
+
+* [RavenProject/Ravencoin](https://github.com/RavenProject/Ravencoin) Ravencoin是一个实验性的点对点数字货币，支持全球即时支付，并允许用户在Ravencoin网络上创建和发行资产（代币），用于NFT、STO、礼品卡等。它基于比特币代码改进而来，具有更快的区块奖励时间，并经过严格测试，致力于安全可靠地进行资产转移。项目代码开源，并采用MIT许可证。
+
+* [curvefi/curve-contract](https://github.com/curvefi/curve-contract) Curvefi/curve-contract项目提供Curve去中心化交易所的Vyper合约代码。该项目旨在实现高效的稳定币交易和低风险，通过独特的低滑点、低手续费算法，为流动性提供者带来额外收益。项目使用Vyper编写，并提供测试、部署和安全审计相关信息，包括Trail of Bits的审计报告和漏洞赏金计划。
+
+* [decentraland/marketplace](https://github.com/decentraland/marketplace) Decentraland市场是一个基于React的静态网站（前端代码位于/webapp目录），并包含一个后端索引器（位于/indexer目录）。该市场允许用户买卖Decentraland虚拟世界中的NFT，其代码遵循Apache 2许可证。开发者可以通过GitHub上的问题追踪器参与贡献，需遵循项目制定的代码和测试标准。
+
+* [matter-labs/zksync-era](https://github.com/matter-labs/zksync-era) zkSync Era是基于零知识证明的以太坊二层扩容方案，具有高安全性与去中心化特性，兼容EVM（Solidity/Vyper），大部分以太坊项目无需修改即可部署，未来还将支持C++、Rust等多种编程语言编写智能合约。项目目前处于alpha阶段，已完成多次测试和审计，但仍建议关注安全更新。
+
+* [algorand/go-algorand](https://github.com/algorand/go-algorand) go-algorand是Algorand官方的Go语言实现，这是一个无需许可的纯权益证明区块链，提供去中心化、可扩展性、安全性以及交易终结性。该项目提供构建和运行Algorand节点的工具，包含核心功能、加密算法以及配置参数等，开发者可访问开发者网站获取更多信息及安装说明。
+
+* [harmony-one/harmony](https://github.com/harmony-one/harmony) Harmony项目是Harmony区块链的核心协议，使用Go语言编写，依赖GMP和OpenSSL库。它提供详细的文档和API指南，并支持Docker环境搭建。开发者可以通过克隆代码库并执行构建命令来搭建开发环境，该项目包含一个Docker镜像，方便开发者在不同架构的机器上进行开发和测试。
+
+* [Uniswap/v3-core](https://github.com/Uniswap/v3-core) Uniswap V3核心智能合约项目包含Uniswap V3协议的核心智能合约代码，提供工厂合约部署及接口，方便开发者在本地测试网或主网上部署和使用，并支持Solidity接口导入，合约主要使用BUSL-1.1许可证，部分文件也采用GPL-2.0-or-later或MIT许可证。  该项目包含漏洞赏金计划。
+
+* [Uniswap/interface](https://github.com/Uniswap/interface) Uniswap Labs开源维护着Uniswap协议的多个前端界面，包括网页版(app.uniswap.org)、移动端和浏览器扩展程序钱包版(wallet.uniswap.org)。这些界面允许用户进行去中心化以太坊代币交易，其代码均在此项目中公开。项目包含多个子应用及共享组件，并支持多语言版本。
+
+* [matter-labs/awesome-zero-knowledge-proofs](https://github.com/matter-labs/awesome-zero-knowledge-proofs) 这是一个关于学习零知识证明（ZKP）的优秀资源列表，包含课程、用例、应用（包括以太坊和其他区块链及非区块链应用）、流行ZKP系统比较，以及对Bulletproofs、SNARKs、SNORKs和STARKS等技术的深入介绍和学习资源，旨在帮助学习者全面了解零知识证明技术。
+
+* [gitcoinco/web](https://github.com/gitcoinco/web) Gitcoin (GTC) 项目的web仓库包含Gitcoin平台的Web前端代码。该项目旨在促进开源项目的增长，通过赏金、捐赠等方式激励开发者贡献。开发者可参与贡献代码、提交问题或使用提供的文档和API进行集成，并通过GitHub上的相关链接了解项目最新进展和参与方式。
+
 * [status-im/status-mobile](https://github.com/status-im/status-mobile) 一个免费的（自由）开源，以太坊的移动操作系统。一个浏览器、信使和通往去中心化世界的门户。Status是一个免费（自由）的开源移动客户端，完全基于以太坊技术构建，面向Android和iOS。没错，没有中间商， go-ethereum 直接在您的设备上运行。
 
+* [bitshares/bitshares-core](https://github.com/bitshares/bitshares-core) BitShares Core是BitShares区块链的节点软件和命令行钱包软件，提供丰富的API和开发者文档；其工作原理基于BitShares区块链技术，用户可通过其访问和管理BitShares账户；更多用户界面钱包软件（基于浏览器的钱包和桌面钱包）请访问BitShares UI项目。
+
 * [LukasMasuch/best-of-crypto](https://github.com/LukasMasuch/best-of-crypto) Best-ofCrypto 是一个每周更新的开源数字货币和区块链项目排名列表，包含超过3100个项目，总计120万颗星，分为11个类别。每个项目根据来自GitHub和不同包管理器的指标自动计算的项目质量得分进行排名。您可以添加或更新项目，欢迎贡献！
+
+* [stellar/stellar-core](https://github.com/stellar/stellar-core) StellarCore是用C++17编写，运行在Linux、OSX和Windows上的点对点代理程序，维护着Stellar网络的加密账本副本，并使用基于联邦共识协议（Stellar Consensus Protocol）的机制处理交易；该项目是Stellar网络的参考实现，旨在构建公平的全球金融系统。
+
+* [vyperlang/vyper](https://github.com/vyperlang/vyper) Vyper是一个用于以太坊虚拟机(EVM)的Pythonic智能合约语言，其设计目标是简洁、安全和易于审核。它通过编译器将Vyper代码转换为EVM字节码，支持生成ABI接口。Vyper目前处于测试阶段，提供文档、在线编译器和学习资源，并欢迎社区贡献。
+
+* [nanocurrency/nano-node](https://github.com/nanocurrency/nano-node) Nano(XNO/Ӿ)是一个旨在提升效率的轻量级数字支付协议，它具有超快交易速度和零手续费的特性，并运行在安全、环保且去中心化的网络上，非常适合日常交易。该项目提供节点运行指南、集成指南和丰富的文档，欢迎开发者贡献代码。
+
+* [vechain/vechain-dapp-kit](https://github.com/vechain/vechain-dapp-kit) vechain-dapp-kit是一个基于TypeScript的VeChain去中心化应用（dApp）开发工具包，它简化了VeChain钱包（VeWorld和Sync2）与dApp之间的交互，提升用户体验和开发效率，并提供可自定义的UI组件和详尽的文档，支持多种钱包连接和跨链一致性体验。
+
+* [w3f/Grants-Program](https://github.com/w3f/Grants-Program) Web3基金会拨款项目资助与Polkadot和Kusama相关的软件开发和研究项目。申请者需提交技术详实、具有良好维护计划且开源的项目方案，团队需具备相关经验。项目需具有创新性，避免与已有项目重复，且不能涉及代币销售或非法活动。
+
+* [IBAX-io/go-ibax](https://github.com/IBAX-io/go-ibax) IBAX是一个创新的区块链平台，允许用户快速轻松地部署各种应用，例如DApp、DeFi、DAO和跨链交易等。它拥有强大的系统框架和简化的编程语言，包含智能合约、数据库表和接口，方便开发者在去中心化或中心化生态系统中构建应用。
+
+* [aptos-labs/aptos-core](https://github.com/aptos-labs/aptos-core) Aptos是一个第一层区块链，旨在通过改进的技术和用户体验来支持区块链的广泛应用，它使用Move编程语言构建，为开发人员构建下一代应用提供了一个平台，并致力于通过更好的技术和用户体验来改变Web3。
+
+* [neo-project/neo](https://github.com/neo-project/neo) NEO是一个现代化的分布式网络，用于构建智能经济，其核心代码库包含了共识算法、密码学、账本、网络协议等模块，支持智能合约的运行，并提供相关的开发工具包和文档，遵循MIT开源许可证。
 
 * [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) 用于安全智能合约开发的库。建立在社区审查代码的坚实基础上。ERC20 和 ERC721 等标准的实施。灵活的基于角色的权限方案。可重用的 Solidity 组件，用于构建自定义合约和复杂的去中心化系统。
 
@@ -8267,6 +8545,8 @@
 * [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) 用 Python 编写的免费开源加密交易机器人。它旨在支持所有主要交易所，并通过Telegram或webUI进行控制。它包含回测、绘图和资金管理工具，以及通过机器学习进行策略优化。
 
 * [heapup-tech/bitcoin-ninja](https://github.com/heapup-tech/bitcoin-ninja) 一个开源的比特币教程。通过可视化的方式, 渐进式的学习比特币相关内容。包括区块组成、挖矿原理、交易结构、脚本执行模拟、私钥和地址生成、签名计算与验证等。
+
+* [bnb-chain/whitepaper](https://github.com/bnb-chain/whitepaper) BNBSmart Chain白皮书 (版本0.2, 2024年8月7日更新，包含BC融合后的修订) 介绍了BNB Smart Chain的工作原理及特色，最初版本发布于2020年4月17日，并提供中文及其他语言版本。
 
 * [scaffold-eth/scaffold-eth-2](https://github.com/scaffold-eth/scaffold-eth-2) 开源的最新工具包，用于在以太坊区块链上构建去中心化应用程序 （dapp）。它旨在使开发人员更容易创建和部署智能合约，并构建与这些合约交互的用户界面。
 
@@ -8279,6 +8559,8 @@
 * [OffcierCia/DeFi-Developer-Road-Map](https://github.com/OffcierCia/DeFi-Developer-Road-Map) DeFi 开发者路线图是一本精心策划的开发者手册，其中包括 DApp 开发的最佳工具、资源和参考资料列表！
 
 * [bunturx/Awesome-Blockchain-Security](https://github.com/bunturx/Awesome-Blockchain-Security) 由伟大的@0xRajeev 创建核心焦点将是以太坊智能合约安全审计。 以太坊、Solidity、智能合约安全和审计。
+
+* [wevm/wagmi](https://github.com/wevm/wagmi) Reactive primitives for Ethereum应用程序，支持MIT许可，提供文档和社区支持，已赞助并参与Gitcoin Grants项目。
 
 * [trufflesuite/truffle](https://github.com/trufflesuite/truffle) 以太坊的开发环境、测试框架和资产管道，旨在让以太坊开发人员的生活更轻松。项目维护中。
 
@@ -8926,19 +9208,45 @@
 
 * [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) PrestaShop是一个开源的电子商务平台，用于构建您的电商解决方案。它使用 PHP编写，高度可定制，支持所有主要支付服务，并提供多种语言和地区版本，拥有完全响应式设计（前端和后端）。该项目包含 PrestaShop 的源代码，用于开发和预览，最新的稳定版本可在发布页面下载。PrestaShop 9.0 需要 PHP 8.1+ 和 MySQL 5.6+，推荐使用 Apache 或 Nginx服务器。您可以从 GitHub 下载源代码，或从发布页面下载最新版本进行安装。PrestaShop 还支持 Docker Compose 部署。
 
+* [paragonie/random_compat](https://github.com/paragonie/random_compat) PHP 5.x 支持 `random_bytes()` 和 `random_int()` 函数，由 Paragon Initiative Enterprises 创建和维护。虽然该库应在更早版本的 PHP 中运行，但我们仅考虑受支持的 PHP 版本的问题。请勿使用主分支，而是使用稳定版本。如果 PHP 无法安全生成随机数据，该库将抛出异常，绝不会退回到不安全的随机数据。安装方法包括使用 Composer 或手动安装，并提供 ECDSA 签名的 PHP Archive。该库使 PHP 5 项目能够使用 CSPRNG 函数，其行为与 PHP 7 中相同。
+
+* [opencart/opencart](https://github.com/opencart/opencart) 免费的在线购物车系统。OpenCart 是一个基于 PHP 的开源电子商务解决方案，提供专业的可靠基础构建成功的在线商店。安装请参考 INSTALL.md，升级请参考 UPGRADE.md。报告问题前请搜索论坛和 GitHub 问题列表，确保问题与核心代码无关，否则将不予处理。贡献代码请先 Fork 仓库，提交 Pull Request 时请明确说明。OpenCart 版本号分为 4 部分，MAJOR 更新很少，MINOR 有重大结构变化，FEATURE 添加新功能，PATCH 仅修复问题。
+
+* [Dolibarr/dolibarr](https://github.com/Dolibarr/dolibarr) Dolibarr ERP CRM 是一个现代的企业资源规划和客户关系管理软件，用于管理公司或基金会的活动（联系人、供应商、发票、订单、库存、日程、会计等）。它是一个用 PHP 编写的开源 Web 应用程序，适用于各种规模的企业、基金会和自由职业者。你可以免费使用、研究、修改或分发它。你可以将它作为独立应用或网络应用访问。Dolibarr 有一个强大的社区支持，提供免费论坛和商业支持服务。
+
+* [livewire/livewire](https://github.com/livewire/livewire) 一个为Laravel设计的全栈框架，简化动态UI的构建过程。Livewire允许你在PHP中构建动态UI组件而无需离开PHP。更多信息请参阅[Livewire官网文档](https://livewire.laravel.com/docs)。该项目欢迎贡献，请阅读[贡献指南](.github/CONTRIBUTING.md)。遵循[Laravel行为准则](https://laravel.com/docs/contributions#code-of-conduct)。安全漏洞请报告至[安全政策](https://github.com/livewire/livewire/security/policy)。Livewire遵循MIT开源协议。
+
 * [doctrine/orm](https://github.com/doctrine/orm) Doctrine ORM 是 PHP 8.1+ 的对象关系映射器，它为 PHP 对象提供透明的持久性。它位于强大的数据库抽象层 （DBAL） 之上。它的主要功能之一是可以选择使用专有的面向对象的 SQL 方言编写数据库查询，称为 Doctrine Query Language （DQL），其灵感来自 Hibernate 的 HQL。这为开发人员提供了强大的 SQL 替代方案，可以保持灵活性，而无需不必要的代码重复。
+
+* [akaunting/akaunting](https://github.com/akaunting/akaunting) Akaunting是一款面向小型企业和自由职业者的在线会计软件，基于Laravel、VueJS、Tailwind等现代技术构建，具有模块化结构，提供应用商店功能。要求PHP 8.1或更高版本，数据库（如MySQL、PostgreSQL、SQLite）和Web服务器（如Apache、Nginx、IIS）。安装步骤包括克隆仓库、安装依赖和运行安装命令。该项目遵循贡献者行为准则，支持翻译和安全漏洞报告。
 
 * [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) 将 PHP Debug Bar 与 Laravel 集成的软件包。它包括一个 ServiceProvider，用于注册调试栏并将其附加到输出。您可以通过 Laravel 发布资产并对其进行配置。它引导一些收集器与Laravel一起工作，并实现了几个特定于Laravel的自定义DataCollector。它配置为显示重定向和 （jQuery） Ajax 请求。（显示在下拉列表中）有关更多配置选项，请阅读文档。
 
+* [api-platform/api-platform](https://github.com/api-platform/api-platform) Create REST和GraphQL API，快速构建Jamstack网站应用，实时同步更改。使用简单的PHP类设计数据模型，几分钟内生成hypermedia REST或GraphQL API，支持多种内容协商格式，自动生成API文档，提供Material Design管理界面，生成Progressive-Web-Apps和移动应用，使用Docker和Kubernetes部署，轻松添加OAuth认证，支持API测试，基于Symfony和React构建。
+
+* [fzaninotto/Faker](https://github.com/fzaninotto/Faker) Faker 是一个 PHP 库，用于生成假数据，适用于数据库初始化、XML 文档创建、持久层压力测试和数据脱敏等场景。它受到 Perl 的 Data::Faker 和 Ruby 的 Faker 的启发。Faker 需要 PHP 5.3.3 及以上版本。该项目已存档，请参阅存档原因：[https://marmelab.com/blog/2020/10/21/sunsetting-faker.html](https://marmelab.com/blog/2020/10/21/sunsetting-faker.html)。
+
 * [spatie/laravel-medialibrary](https://github.com/spatie/laravel-medialibrary) Laravel Media Library是一个 Laravel 包，用于将各种文件与 Eloquent 模型关联。它提供了一个简单的 API 来操作文件，例如添加、删除、获取文件信息等。该包支持各种文件类型，并可以利用 Laravel 的 Filesystem 功能，将文件存储在不同的存储系统中，例如本地磁盘、S3 等。此外，该包还支持对图片和 PDF 进行图像处理操作。
+
+* [rectorphp/rector](https://github.com/rectorphp/rector) Rector 是一个可以即时升级和自动化重构任何 PHP 5.3+ 代码的工具。它可以帮你自动处理从 PHP 5.3 到 8.2 的升级，支持 Symfony、PHPUnit、Doctrine 等开源项目。Rector 还可以持续重构代码，保持高质量。安装方法为 `composer require rector/rector --dev`。通过配置规则，Rector 可以在 CI 中自动运行，帮助你保持代码质量。
 
 * [bagisto/bagisto](https://github.com/bagisto/bagisto) 免费和开源的 laravel 电子商务平台，建立在一些最热门的技术之上，例如 Laravel（PHP 框架）和Vue.js渐进式 Javascript 框架。Bagisto 可以帮助您减少建立在线商店或从实体店迁移到要求苛刻的在线世界的时间、成本和劳动力。您的企业（无论规模大小）都可以从中受益。最好的部分是，设置起来很简单！
 
+* [reactphp/reactphp](https://github.com/reactphp/reactphp) Event-driven,非阻塞I/O的PHP库，生产就绪且经实战验证，适用于高效网络服务器和客户端处理大量并发连接，具有丰富的第三方库生态系统。默认非阻塞，支持可选扩展以获得更好的性能，推荐使用最新版本的PHP 7+，支持PHP 5.3+和HHVM以获得最大兼容性。核心组件包括事件循环、流和Promise等。
+
 * [Licoy/wordpress-theme-puock](https://github.com/Licoy/wordpress-theme-puock) Puock是一款基于WordPress开发的高颜值自适应主题，支持白天与黑夜模式、无刷新加载、第三方登录等功能。用户可前往GitHub Releases页面下载最新版本，并根据WordPress管理界面中的“外观-主题”进行安装和启用。Puock主题支持多种语言，并提供QQ群和微信群供用户交流。
+
+* [RSS-Bridge/rss-bridge](https://github.com/RSS-Bridge/rss-bridge) RSS-Bridge是一个PHP网页应用，它为缺少RSS订阅功能的网站生成RSS订阅源。该项目支持多种网站，例如Reddit、YouTube、Mastodon等，并提供多种桥接器（例如CSS选择器、XPath表达式）以抓取数据。官方实例地址为https://rss-bridge.org/bridge01/，最低PHP版本要求为7.4。
 
 * [WiKi-Hub-2023/WiKi-Hub-2023.github.io](https://github.com/WiKi-Hub-2023/WiKi-Hub-2023.github.io) 该项目包含1000个PHP代码审计案例，案例来源为3.8W个已公开的漏洞（截至2016年7月），案例保存在`./bugs`和`./upload`文件夹中。项目使用特征匹配技术，准确率达到95%，可以帮助开发者学习PHP漏洞的原理和修复方法，即使是新手也能快速掌握。
 
+* [reactphp/event-loop](https://github.com/reactphp/event-loop) ReactPHP 的核心反应器事件循环库，供库使用进行异步 I/O 操作。提供统一的 `LoopInterface`，支持多种实现如 `StreamSelectLoop`、`ExtEventLoop` 等。通过单一的 `run()` 方法控制事件循环。适用于构建兼容的异步库。当前支持 v1 和即将发布的 v3 版本。
+
+* [briannesbitt/Carbon](https://github.com/briannesbitt/Carbon) 一个简单的PHP日期时间扩展库，用于处理国际化的日期时间操作。支持超过200种语言和500种地区变体，提供从现在时间、加减时间、时间比较等多种功能。可以通过Composer安装，文档详见[https://carbon.nesbot.com/docs](https://carbon.nesbot.com/docs)。
+
 * [picocms/Pico](https://github.com/picocms/Pico) Pico是一个极其简单、速度极快的平面文件内容管理系统。它使用PHP编写，并依赖于`dom`和`mbstring`扩展。您可以使用Composer安装Pico，也可以下载预编译版本。Pico使用平面文件存储内容，并提供简单的模板引擎，方便您创建网站。
+
+* [cakephp/cakephp](https://github.com/cakephp/cakephp) CakePHP 是一个基于 PHP 的快速开发框架，采用关联数据映射、前端控制器和 MVC 设计模式。它旨在帮助所有水平的 PHP 开发者快速构建稳健的 web 应用，同时保持灵活性。可以通过 Composer 安装，并提供详细的文档和社区支持。
 
 * [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) PHP开发工具，可在浏览器中使用。可让您深入了解应用程序运行时，包括 HTTP 请求、命令、队列作业和测试的请求数据、性能指标、日志条目、数据库查询、缓存查询、redis 命令、已调度事件、排队作业、呈现视图等
 
@@ -8948,7 +9256,15 @@
 
 * [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) 一个PHP应用程序开发框架 - 一个工具包 - 适用于使用 PHP 构建网站的人。它的目标是通过为常用任务提供一组丰富的库，以及访问这些库的简单接口和逻辑结构，使你能够比从头开始编写代码更快地开发项目。
 
+* [pestphp/pest](https://github.com/pestphp/pest) Pest 是一个专注于简洁性的 PHP 测试框架，旨在让 PHP 测试变得更加愉快。该项目可以在 pestphp.com 获取文档，关注 @pestphp 在 Twitter 上的更新，加入 Discord 或 Telegram 频道获取更多支持。Pest 使用 MIT 许可证开源。
+
 * [thephpleague/flysystem](https://github.com/thephpleague/flysystem) 本地和远程文件系统的抽象。一个PHP的文件存储库。它提供了一个接口来与多种类型的文件系统进行交互。当您使用 Flysystem 时，您不仅可以免受供应商锁定的影响，还可以获得适合您的一致体验。
+
+* [predis/predis](https://github.com/predis/predis) Predis 是一个支持 PHP 7.2 及以上版本的灵活且功能完备的 Redis 客户端，支持从 Redis 3.0 到 7.4 的版本，具备客户端分片、集群模式、事务处理、Lua 脚本等功能，并支持多种连接方式和安全协议。
+
+* [reactphp/promise](https://github.com/reactphp/promise) ReactPHP 的 Promise 是一个轻量级的 CommonJS Promises/A 实现，用于 PHP，支持 deferred、promise、then、catch、finally 等概念，可以处理异步操作和多个 promise 的组合，适用于需要异步编程的 PHP 项目。
+
+* [bobthecow/psysh](https://github.com/bobthecow/psysh) PsySH 是一个 PHP 运行时开发者控制台、交互式调试器和读取-评估-打印循环（REPL），更多信息请参见 psysh.org 和手册。该项目包含安装、使用、命令、配置和集成等内容。
 
 * [PHP-CS-Fixer/PHP-CS-Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) 自动修复PHP编码标准问题的工具;无论您是想遵循PSR-1，PSR-2等中定义的PHP编码标准，还是其他社区驱动的标准，如Symfony。您还可以通过配置来定义（团队）的风格。
 
@@ -8956,11 +9272,17 @@
 
 * [YOURLS/YOURLS](https://github.com/YOURLS/YOURLS) YOURLS 是一组 PHP 脚本，允许您在服务器上运行您自己的 短链接，URL 缩短器。您将可以完全控制您的数据、详细统计数据、分析、插件等。它是免费和开源的。
 
+* [php-fig/simple-cache](https://github.com/php-fig/simple-cache) PHP FIG Simple Cache PSR 是一个描述缓存实现接口的标准，不是具体的缓存实现，可以通过查找提供 psr/simple-cache-implementation 虚拟包的包来找到其实现。
+
 * [filp/whoops](https://github.com/filp/whoops) PHP 的错误处理程序框架。开箱即用，它提供了一个漂亮的错误界面，可以帮助您调试Web项目，但本质上它是一个简单而强大的堆叠错误处理系统。
 
 * [laravel/laravel](https://github.com/laravel/laravel) PHP Web应用程序框架，具有富有表现力，优雅的语法。我们已经为您的下一个大创意奠定了基础——让您自由地进行创作，而不会为小事出汗。
 
+* [swiftmailer/swiftmailer](https://github.com/swiftmailer/swiftmailer) Swift Mailer是一个基于组件的PHP邮件解决方案，支持现代PHP代码和第三方提供商，但已于2021年11月底停止维护，请转向使用Symfony Mailer。
+
 * [yiisoft/yii2](https://github.com/yiisoft/yii2) 快速、安全和专业的 PHP 框架。开箱即用，预配置了合理的默认值。该框架很容易调整以满足您的需求，因为 Yii 被设计得很灵活。
+
+* [symfony/var-dumper](https://github.com/symfony/var-dumper) 提供任意PHP变量的遍历机制，包含一个更好的`dump()`函数替代`var_dump()`。资源包括文档、贡献指南及问题提交和Pull Request指引。
 
 * [serbanghita/Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) 一个轻量级的 PHP 类，用于检测移动设备（包括平板电脑）。它使用用户代理字符串与特定 HTTP 标头相结合来检测移动环境。
 
@@ -8987,6 +9309,8 @@
 * [slimphp/Slim](https://github.com/slimphp/Slim) PHP 微框架，可帮助您快速编写简单而强大的 Web 应用程序和 API。
 
 * [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) 对PHP文件进行标记，并检测违反一组定义的编码标准的行为。
+
+* [octobercms/october](https://github.com/octobercms/october) 基于 Laravel PHP 框架的自托管 CMS (Content Management System) 平台。
 
 * [guzzle/guzzle](https://github.com/guzzle/guzzle) 可以轻松发送HTTP请求的PHP库，并且与Web服务集成变得简单。
 
@@ -9036,23 +9360,119 @@
 
 * [yanzhenjie/AndServer](https://github.com/yanzhenjie/AndServer) AndServer是一个运行在 Android 平台上的 HTTP 和反向代理服务器，提供类似SpringMVC 的注解，方便开发者快速上手。它支持静态网页部署、动态HTTP API 部署以及反向代理服务器功能。用户可以通过简单的代码创建 Web 服务器，并使用注解定义 API 接口，例如使用 `@RestController`、`@RequestMapping`、`@PostMapping` 等注解。AndServer 还支持获取客户端连接信息，方便开发者进行定制化操作。此外，AndServer 也能作为反向代理服务器，将请求转发到指定的地址。开发者可以通过 Gradle 构建工具添加 AndServer 依赖，并根据项目需求选择相应的版本。
 
+* [expressjs/expressjs.com](https://github.com/expressjs/expressjs.com) expressjs.com是 Express.js 官方网站的代码仓库，使用 Jekyll 静态网站生成器构建，并直接托管在 GitHub Pages 上。该项目提供本地搭建和 Docker 容器两种方式方便开发者预览网站。网站内容使用 Kramdown 标记语言编写，并使用 Liquid 模板引擎进行渲染。开发者可以自由修改模板文件和文档文件，并使用 GFM 语法块展示 JavaScript 代码。项目还提供详细的贡献指南，欢迎开发者参与翻译和改进文档。选择 Jekyll 而不是 Express.js 解决方案是因为 Jekyll 与 GitHub Pages 无缝集成，能够充分利用 GitHub Pages 的功能。
+
+* [osohq/oso](https://github.com/osohq/oso) Oso是一个全功能的授权框架，帮助你在应用中构建授权系统。它支持多种编程语言（包括Node.js、Python、Go、Rust、Ruby和Java），并使用声明式策略语言Polar来建模常见的权限模式（如RBAC）以及自定义权限。Oso不仅能进行简单的yes/no授权，还能对集合进行过滤，例如“显示Juno能看到的记录”。此外，Oso还提供测试工具和调试器，方便开发者编写单元测试并排查问题。目前该开源库已弃用，但仍提供支持和关键错误修复，未来将发布新的开源版本。
+
+* [s3rius/FastAPI-template](https://github.com/s3rius/FastAPI-template) 这是一个功能丰富的、健壮的FastAPI项目模板，支持多种数据库(SQLAlchemy 2.0, TortoiseORM, Piccolo, Ormar, Beanie)和ORM，并可选择生成REST或GraphQL API。它提供命令行界面(CLI)和TUI，具有良好的代码文档和测试覆盖率(近90%)，还支持多种集成选项，例如Redis、RabbitMQ、Prometheus、Sentry、Opentelemetry和Taskiq，并可自定义CI/CD配置（Gitlab CI, Github Actions）和Kubernetes配置。 通过pip安装`fastapi_template`后，运行`python3 -m fastapi_template`即可根据命令行参数生成新项目。
+
+* [zfoo-project/zfoo](https://github.com/zfoo-project/zfoo) Zfoo是一个极速异步的企业级服务器框架，采用无锁Actor设计，原生支持GraalVM，可用于RPC、游戏服务器和Web服务器。它支持热更新代码和配置，内置CPU、内存、硬盘和网络监控，并提供丰富的功能，例如事件总线、时间任务调度和MongoDB ORM。其自研协议支持多种语言(C++、Rust、Java/Kotlin/Scala、JavaScript/TypeScript/ES、C#、Go、Php、Ruby、Lua、GDScript、Python、Dart、Swift)，适用于对性能要求极高的项目，例如游戏服务器和网站后端。
+
+* [letsencrypt/boulder](https://github.com/letsencrypt/boulder) Boulder是一个用Go语言编写的基于ACME协议的证书颁发机构（CA），运行着Let's Encrypt。它由Web前端、注册机构、验证机构、证书机构、存储机构、发布者、OCSP响应器和CRL更新器等组件构成，通过gRPC进行组件间通信，以安全上下文分离CA功能。Boulder的核心逻辑围绕账户、授权、挑战、订单和证书这五种对象展开，并使用MariaDB进行持久化存储。开发环境推荐使用Docker Compose，而Pebble则更适合持续集成和快速实验。
+
+* [dexidp/dex](https://github.com/dexidp/dex) Dex是一个可扩展的OpenID Connect身份提供商和OAuth 2.0提供商，通过插件式连接器连接LDAP服务器、SAML提供商以及GitHub、Google和Active Directory等身份提供商，将身份验证委托给这些后端。Dex使用JSON Web Tokens (JWT)签署并返回ID Tokens，这些令牌包含标准声明，可被Kubernetes和AWS STS等系统用作服务间凭据，简化了应用程序的身份验证流程。Dex原生运行于Kubernetes集群之上，可通过OpenID Connect插件驱动API服务器身份验证。
+
+* [fastapiutils/fastapi-utils](https://github.com/fastapiutils/fastapi-utils) fastapi-utils是一个用于加速FastAPI开发的Python工具包，提供多种可复用的实用程序，例如简化CRUD操作的Resource类、基于类的视图、定时任务触发器、以及OpenAPI规范简化工具等。它还包含许多基础工具，例如API模型基类、环境变量配置类、字符串枚举类和大小写转换函数等，旨在减少样板代码并提高代码复用性，支持Python 3.8+及最新FastAPI版本。 通过pip安装，并根据需要选择安装不同功能模块。
+
+* [twitchtv/twirp](https://github.com/twitchtv/twirp) Twirp 是一个强调简洁和极简主义的 RPC 框架，通过 Protobuf 服务定义生成路由和序列化，让你专注于应用逻辑而非 HTTP 方法和 JSON。它基于标准库的高性能 `net/http` 服务器，支持 HTTP 1.1 和 JSON 序列化，还提供自动生成的客户端和简单的错误传递框架。该项目包含 Go 实现的生成器和运行库，已有多种语言的第三方实现，如 Crystal、Dart、Elixir、Java、JavaScript、Kotlin、PHP、Python、Ruby、Rust 和 Scala。
+
+* [build-trust/ockam](https://github.com/build-trust/ockam) Ockam是一个开源项目，提供一系列库和命令行工具，用于在分布式应用之间大规模编排端到端加密、相互认证、密钥管理和授权策略。它能够确保数据在传输过程中的真实性、完整性和机密性，并允许应用对每个信任和访问决策进行精细控制，从而构建安全可靠的应用。Ockam支持使用命令行工具或编程库快速搭建安全通信，例如通过端到端加密的云中继实现私有网络中的应用间安全通信。
+
+* [Sylius/Sylius](https://github.com/Sylius/Sylius) Sylius 是基于 Symfony 的开源电子商务框架，具有高质量代码、强大的测试文化、内置的敏捷开发流程和高度灵活性，支持 REST API 便于集成和多设备上的独特客户体验。它使用全栈行为驱动开发（BDD），包括 phpspec 和 Behat。Sylius Plus 提供模块化功能如一键结账和B2B套件等高级能力。项目在 Slack 和 Stack Overflow 上提供支持，也可购买 Sylius Plus 获得专业支持。Sylius 完全免费并遵循 MIT 许可证。
+
+* [purpleidea/mgmt](https://github.com/purpleidea/mgmt) mgmt是一个新一代分布式、事件驱动、并行的配置管理工具，它能够构建实时闭环反馈系统。使用简洁的mcl语言，可以轻松实现例如根据日期动态调整文件服务器权限等功能。mgmt支持持续运行、间歇运行或按需运行模式，并能作为去中心化集群在网络中运行，实时交换信息以响应变化的需求，例如动态分配资源到最多两台主机。  该项目包含一个引擎和一门语言，目前处于开发中。
+
+* [tumobi/nideshop](https://github.com/tumobi/nideshop) NideShop 是一个开源微信小程序商城服务端 API，基于 Node.js + ThinkJS，支持微信小程序五星级购物（主要为2016年wap版），包含测试数据的在线商城五星级购物，功能和数据库支持ecshop，服务端API基于Node.js+ThinkJS+MySQL，架构基于Vue.js的后台管理系统、PC版、H5版。该项目旨在支持微信小程序使用，GitHub地址：[https://github.com/tumobi/nideshop-mini-program](https://github.com/tumobi/nideshop-mini-program)。
+
+* [astaxie/beego](https://github.com/astaxie/beego) beego是一个用于Go语言的高性能开源Web框架，用于快速开发企业级应用，包括RESTful APIs、Web应用和后台服务，其设计灵感源于Tornado、Sinatra和Flask，并具有Go特有的特性。beego由基础模块（日志、配置、限流）、任务调度、客户端（ORM、httplib、缓存）和服务器（Web模块，未来支持gRPC）四个部分组成，并支持MVC架构、自动API文档生成、注解路由等特性，提供强大的开发工具。
+
+* [ory/oathkeeper](https://github.com/ory/oathkeeper) ORYOathkeeper是一个云原生身份与访问代理(IAP)和访问控制决策API，用于认证、授权和修改传入的HTTP(s)请求，其设计灵感源自BeyondCorp/零信任白皮书，使用Go语言编写。它可以作为API网关部署在面向web的应用前面，并与Ambassador、Envoy、AWS API Gateway、Nginx等多种API网关或反向代理集成，实现基于访问规则的请求授权。该项目稳定但仍在积极开发中，未来版本可能包含重大变更。
+
 * [y123456yz/reading-code-of-nginx-1.9.2](https://github.com/y123456yz/reading-code-of-nginx-1.9.2) 该项目是对 Nginx 1.9.2 源码进行通读分析并添加中文注释，包含详尽的函数中文分析注释以及相关函数流程调用注释，旨在帮助开发者更深入地理解 Nginx 的工作原理。项目特色是提供最全面的 Nginx 源码阅读分析中文注释，并已更新完毕。该项目适用于希望深入学习 Nginx 源码、了解其内部机制的开发者，以及需要进行 Nginx 性能优化或定制开发的工程师。
+
+* [uriyyo/fastapi-pagination](https://github.com/uriyyo/fastapi-pagination) fastapi-pagination是一个用于简化FastAPI应用分页的Python库，它提供工具函数和数据模型来帮助分页数据库查询并返回分页响应。该库支持多种分页策略（如游标和页数分页），兼容多种数据库框架（包括SQLAlchemy、Tortoise ORM和PyMongo），支持异步/等待语法，并与Python 3.8及更高版本兼容，只需使用`Page`类作为端点返回类型并调用`paginate`函数即可实现分页。
+
+* [openapi-generators/openapi-python-client](https://github.com/openapi-generators/openapi-python-client) openapi-python-client项目利用OpenAPI 3.0和3.1规范生成现代化的Python客户端，它采用Python和Jinja2模板编写，充分利用类型注解和dataclass等Python特性，提供良好的开发者体验和易于扩展的特性，支持自定义模板，但目前尚处于开发中，并非所有OpenAPI功能都已支持。  通过命令行工具，用户可轻松生成客户端代码，并可指定OpenAPI规范的URL或本地文件路径。
+
+* [HangfireIO/Hangfire](https://github.com/HangfireIO/Hangfire) Hangfire是一个易于使用的.NET和.NET Core后台作业处理库，无需单独的Windows服务或进程即可实现fire-and-forget、延迟和循环作业。它支持CPU和I/O密集型任务，并提供可靠的编程模型，兼容Redis、SQL Server、SQL Azure和MSMQ等存储，可用于各种场景，例如批量导入、发送通知和数据库维护等。Hangfire提供直观的仪表盘界面，方便监控和管理后台任务。
+
+* [koding/kite](https://github.com/koding/kite) Kite是一个用Go语言编写的微服务框架，它本身也是一个微服务，充当RPC服务器和客户端。Kite通过Kontrol服务进行服务发现，并使用WebSocket或XHR进行双向通信，允许Web应用直接连接。Kite之间通过dnode协议在socket会话上交换消息，客户端可直接连接已知URL的服务器，或通过Kontrol获取URL。Kontrol是Kites的服务注册和认证服务，本身也是一个Kite。
+
+* [coleifer/huey](https://github.com/coleifer/huey) Huey是一个轻量级的Python任务队列，支持Redis、SQLite、文件系统或内存存储。它具有简洁易用的API，可以执行多进程、多线程或协程任务，并支持任务调度（包括定时和周期性任务）、重试、优先级、结果存储、过期和锁定等功能，方便用户管理和执行后台任务。通过简单的装饰器即可定义任务，并提供命令行工具来运行消费者。
+
+* [micro/micro](https://github.com/micro/micro) Micro是一个API优先的开发平台，它通过提供一系列作为任何平台构建块的API来解决云中构建服务的核心需求，简化分布式系统复杂性，提供更简单的可编程抽象。其特色包括微内核架构、HTTP和gRPC API、Go SDK和CLI以及环境支持，方便服务创建、管理和本地/云端无缝切换。通过简单的命令即可安装和启动服务器，并使用CLI管理服务。
+
+* [fagongzi/manba](https://github.com/fagongzi/manba) Manba是一个基于HTTP的RESTful API网关，作为统一的API访问层，提供流量控制、熔断器、负载均衡、服务发现等功能，并支持插件扩展、路由配置、API聚合、权限控制、结果缓存、JWT认证等特性。它包含proxy和apiserver两个组件，分别负责客户端服务和元数据管理，并提供Docker镜像和Web UI方便部署和管理。项目提供详细教程和文档。
+
+* [tsuru/tsuru](https://github.com/tsuru/tsuru) Tsuru是一个开源可扩展的平台即服务(PaaS)，它使应用程序部署更快更容易。开发者无需关心服务器，可以使用自己选择的编程语言编写应用，并通过附加资源（如SQL和NoSQL数据库）支持应用，使用tsuru命令行工具管理应用，支持多种流行编程语言（如Python、Node.js、Go、Ruby等）。Tsuru基于Kubernetes，提供Minikube和GKE等安装指南。
+
+* [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) HyperDX是一个开源可观测性平台，整合会话回放、日志、指标、跟踪和错误，由Clickhouse和OpenTelemetry支持，帮助工程师快速解决生产问题。主要特点包括端到端关联、Clickhouse驱动的高性能、直观的全文搜索和属性搜索、健康和性能监控、自动事件模式聚类、无复杂查询语言的仪表盘、一键设置告警和自动结构化日志解析。
 
 * [brick-design/brick-design](https://github.com/brick-design/brick-design) 低代码框架，支持流式布局与自由布局拖拽编排，可视化拖拽、随意嵌套组合、实时渲染、实时辅助线展示、自由布局支持辅助对齐、支持自动吸附、实时组件间距展示、实时拖拽排序、状态域管理，可视化属性配置、可视化样式配置、多设备适配展示，支持逻辑渲染、模板字符变量、表达式、自定义方法、自定义状态
 
+* [afex/hystrix-go](https://github.com/afex/hystrix-go) hystrix-go是Netflix Hystrix库的Go语言实现，用于隔离对远程系统和服务的访问，防止级联故障，提升复杂分布式系统的弹性。它允许Go程序员轻松构建具有类似Java Hystrix库执行语义的应用程序，通过定义回退函数处理服务中断，并提供同步和异步API以及可配置的健康检查和超时设置，还支持Hystrix Dashboard集成监控指标。
+
+* [long2ice/fastapi-cache](https://github.com/long2ice/fastapi-cache) fastapi-cache是一个用于缓存FastAPI响应和函数结果的工具，支持Redis、Memcached和Amazon DynamoDB后端。它易于集成到FastAPI中，支持HTTP缓存头（如ETag和Cache-Control）以及条件请求（如If-Match-None），并通过`@cache`装饰器方便地缓存FastAPI端点和普通函数的结果，可自定义缓存过期时间、命名空间、编码器和键构建器等参数。
+
+* [NYTimes/gizmo](https://github.com/NYTimes/gizmo) 纽约时报的Gizmo微服务工具包（已进入维护模式，2021年4月之后不再更新）提供标准化配置、日志记录、健康检查、pprof端点和日志级别配置等功能，支持优雅关机和多种服务实现，包含用于构建服务器和发布/订阅守护程序的包，并整合了go-kit，方便与谷歌云平台集成，提供监控、追踪和指标等可观测性功能。
+
+* [goadesign/goa](https://github.com/goadesign/goa) Goa是一个Go语言框架，采用设计优先的方法构建API，使用简单的Go DSL描述服务API设计，自动生成服务辅助代码、客户端代码和文档，支持HTTP和gRPC，并可通过插件扩展功能，例如集成Go kit库。它将服务设计描述为独立于传输层的简单方法，并定义了不同传输方式下的数据序列化方式，从而实现清晰的层次分离。
+
+* [laurents/slowapi](https://github.com/laurents/slowapi) SlowApi是一个针对Starlette和FastAPI框架的速率限制库，基于flask-limiter并支持同步和异步HTTP端点，可使用redis、memcached和内存作为后端存储限制信息。它支持在端点函数上使用单一或多个限制装饰器，并允许跨多个路由共享限制，但目前不支持websocket端点，且需要在端点函数中显式传入request参数才能正常工作。
+
+* [awtkns/fastapi-crudrouter](https://github.com/awtkns/fastapi-crudrouter) fastapi-crudrouter是一个FastAPI扩展库，能自动为你的数据模型创建CRUD（创建、读取、更新、删除）路由，极大加快开发速度。它支持多种数据库后端（包括内存数据库、SQLAlchemy、Databases等），并提供分页、自定义Schema、路由控制等高级功能，且已准备好用于生产环境。只需几行代码，即可生成完整的CRUD接口。
+
+* [ycd/manage-fastapi](https://github.com/ycd/manage-fastapi) manage-fastapi是一个FastAPI项目生成和管理的命令行工具，可以轻松创建可定制的FastAPI项目和应用模板，包括项目结构搭建、Dockerfile和docker-compose文件生成以及pre-commit钩子生成等功能，支持交互式模式和丰富的命令行选项，通过`pipinstall manage-fastapi`安装，使用`fastapi startproject [name]`命令即可快速启动项目。
+
+* [keycloak/keycloak](https://github.com/keycloak/keycloak) Keycloak是一个开源的身份和访问管理系统，旨在为现代应用和服务简化身份验证和授权流程，无需自行管理用户和身份验证。它提供用户联合、强身份验证、用户管理、细粒度授权等功能，方便开发者快速集成身份认证系统。用户可通过官网下载或Docker镜像运行Keycloak，并参考文档进行部署和使用。
+
+* [rudderlabs/rudder-server](https://github.com/rudderlabs/rudder-server) RudderStack是一个开源的客户数据平台(CDP)，使用Go和React开发，注重隐私和安全。它提供易于使用的SDK和集成，帮助你收集来自各种应用、网站和SaaS平台的数据，并将其发送到你的数据仓库和业务工具中，构建更智能的客户数据管道，支持近实时同步和数据转换。RudderStack Cloud提供免费试用。
+
+* [RichardKnop/machinery](https://github.com/RichardKnop/machinery) Machinery是一个基于分布式消息传递的异步任务队列/作业队列，支持多种消息代理和结果存储后端（如Redis、AMQP、DynamoDB和GCP Pub/Sub）。它允许定义、发送和管理任务，包括延迟任务、重试任务以及支持工作流功能（如组、和弦和链）。  V2版本推荐使用依赖注入方式，提高了灵活性。
+
+* [open-policy-agent/opa](https://github.com/open-policy-agent/opa) OpenPolicy Agent (OPA)是一个开源的通用策略引擎，用于在整个技术栈中实现统一的、上下文感知的策略执行。它使用Rego语言编写策略，并提供丰富的文档、示例和社区支持，方便用户快速上手和集成到各种系统中，目前已成为CNCF毕业项目。OPA通过REST API或Go SDK等方式与其他服务集成。
+
+* [go-martini/martini](https://github.com/go-martini/martini) Martini是一个已不再维护的Go语言轻量级Web框架，以其简单易用、模块化设计和强大的路由功能而闻名，它允许开发者快速构建模块化的Web应用或服务，并兼容`http.HandlerFunc`接口，提供默认的日志记录、错误恢复和静态文件服务等功能，更多扩展功能可通过martini-contrib项目获得。
+
 * [0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui) Nginx UI是一个由 0xJacky 和 Hintay 开发的 Nginx Web界面，提供多种语言版本，支持从可执行文件、systemd和 Docker 等方式启动，并提供详细的文档和演示。用户可以通过 Nginx UI 界面查看 Nginx 的状态信息、配置信息、日志信息等，并进行一些简单的操作，例如重启 Nginx、修改配置等。
+
+* [hoisie/web](https://github.com/hoisie/web) web.go是一个轻量级的Go语言Web框架，以其简单易用著称，非常适合构建高性能的简单后端Web服务。它支持基于正则表达式的路由、安全Cookie、FastCGI和SCGI，并能将Web应用编译成原生代码，从而实现快速执行和页面渲染速度。该项目提供简洁的API和示例，方便开发者快速上手。
+
+* [zitadel/zitadel](https://github.com/zitadel/zitadel) ZITADEL是一个简化的开源身份基础设施，提供多租户用户管理、安全登录、自助服务等开箱即用功能，支持OpenIDConnect、OAuth2.x、SAML2、LDAP、Passkeys/FIDO2和OTP等多种认证方式，并具有无限审计跟踪功能，旨在快速搭建类似Auth0的易用性和Keycloak的开源性相结合的用户管理工具。
+
+* [tiangolo/uvicorn-gunicorn-fastapi-docker](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker) 该项目是一个已弃用的Docker镜像，用于构建高性能的FastAPI应用，它使用Gunicorn管理Uvicorn，并具有性能自动调整功能。现在已不再需要此镜像，可以直接使用Uvicorn的`--workers`参数。该项目曾提供多种Python版本(包括3.6到3.11)的镜像，但目前仅支持3.9, 3.10和3.11及其精简版。
+
+* [netlify/gotrue](https://github.com/netlify/gotrue) GoTrue是一个用Go语言编写的开源API服务，用于管理用户和颁发SWT令牌，主要面向Jamstack项目。它基于OAuth2和JWT，处理用户注册、身份验证和自定义用户数据，支持通过配置文件或环境变量配置，包括数据库连接、API设置、日志记录和追踪等，并需要手动运行迁移。
+
+* [typicode/hotel](https://github.com/typicode/hotel) typicode/hotel 是一个简单的开发者进程管理工具，可以从浏览器启动应用程序并使用本地域名访问。它支持多种服务器（如Node、PHP、Ruby、Python等），无需修改端口、hosts文件或使用sudo，且默认使用 `.localhost` 域名。安装方法为 `npm install -g hotel &amp;&amp; hotel start`。
 
 * [prometheus/client_python](https://github.com/prometheus/client_python) PrometheusPython Client是Prometheus官方提供的Python客户端库，用于将Python应用指标数据导出到Prometheus监控系统。通过pip install prometheus-client安装，详细文档见https://prometheus.github.io/client_python。该库帮助开发者轻松集成Prometheus监控，实现应用性能和状态的监控和告警。
 
+* [Kludex/awesome-fastapi-projects](https://github.com/Kludex/awesome-fastapi-projects) 该项目是一个收集优秀FastAPI项目的列表网站，使用React和Next.js构建前端，并通过GitHub Pages静态托管；后端基于FastAPI，项目提供详细的本地开发环境搭建指南，包括Python 3.11.4环境配置、依赖安装和前端运行等步骤，方便开发者学习和参考优秀FastAPI项目。
+
+* [taskforcesh/bullmq](https://github.com/taskforcesh/bullmq) BullMQ是一个基于Redis的快速可靠的分布式消息队列，支持Node.js和Python，旨在提供强大的稳定性和原子性。它具有高性能，并提供用于监控和管理队列的专业前端，一些知名组织如微软也在使用它。BullMQ还提供BullMQ Proxy，支持在Node.js以外的平台上使用。
+
 * [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) 利用干净体系结构和 ASP.NET 核心的强大功能，为企业应用程序开发提供一种简单有效的方法。使用此模板，您可以毫不费力地创建具有 ASP.NET Core和Angular或React的单页应用程序（SPA），同时遵守清洁架构的原则。入门很简单 - 只需安装 .NET 模板。
+
+* [doorkeeper-gem/doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) Doorkeeper是一个用于Ruby on Rails和Grape应用的强大OAuth 2提供程序gem，支持授权码流程、访问令牌范围、刷新令牌、隐式授权、资源所有者密码凭据、客户端凭据等多种OAuth 2.0特性，并包含令牌撤销和自省功能，方便开发者轻松集成OAuth 2.0功能。
+
+* [stalniy/casl](https://github.com/stalniy/casl) CASL是一个用于JavaScript的同构授权库，限制用户可以访问的资源。它支持声明式规则，易于扩展，可用于前后端，并提供与多种前端框架和后端ORM的集成包（如Angular, React, Vue, Mongoose, Prisma），核心库仅6KB，具有类型安全和树状结构等特性。
+
+* [ory/keto](https://github.com/ory/keto) OryKeto是一个高度可扩展和可定制的开源权限服务器，基于Google的“Zanzibar”方法，支持ACL、RBAC等多种权限模型，使用Go语言编写，支持云原生部署和本地自托管，并提供Ory Network上的服务。它能够快速解决缓慢或故障的权限系统问题。
+
+* [Netflix/dispatch](https://github.com/Netflix/dispatch) Netflix的Dispatch项目是一个事件管理平台，它整合了Slack、GSuite、Jira等现有工具，自动化处理安全事件的各个阶段，包括资源创建、人员召集、通知发送、任务追踪和事后复盘，从而帮助团队更高效地解决问题并减少人为操作。
 
 * [huginn/huginn](https://github.com/huginn/huginn) 用于构建代理的系统，这些代理可以为您在线执行自动化任务。他们可以阅读网络、监视事件并代表您采取行动。Huginn 的代理创建和使用事件，并沿有向图传播它们。将其视为您自己的服务器上 IFTTT 或 Zapier 的可破解版本。
 
 * [twitter/finagle](https://github.com/twitter/finagle) 容错、与协议无关的 RPC 系统。JVM 的可扩展 RPC 系统，用于构建高并发服务器。Finagle 为多种协议实现了统一的客户端和服务器 API，专为高性能和并发性而设计。Finagle 的大部分代码都与协议无关，从而简化了新协议的实现。
 
+* [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) TypeScript ORM。在 Node、Bun 和 Deno 上运行。也是一个 JavaScript ORM。支持所有 PostgreSQL、MySQL 和 SQLite 数据库，包括 Turso、Neon、Xata、PlanetScale、Cloudflare D1、FlyIO LiteFS、Vercel Postgres、Supabase 和 AWS Data API 等无服务器数据库。
+
 * [calcom/cal.com](https://github.com/calcom/cal.com) 为所有人安排基础设施。Calendly 和其他调度工具很棒。它使我们的生活变得非常轻松。我们用它来参加商务会议、研讨会、瑜伽课，甚至与家人通话。但是，大多数工具在控制和定制方面都非常有限。
 
 * [locustio/locust](https://github.com/locustio/locust) 易于使用、可编写脚本且可扩展的性能测试工具。在常规 Python 代码中定义负载测试，而不是受仅假装为真实代码的 UI 或域特定语言的约束。这使得 Locust 可以无限扩展并且对开发人员非常友好。
+
+* [go-macaron/macaron](https://github.com/go-macaron/macaron) Go-Macaron是一个高生产力、模块化的Go语言Web框架，具有强大的路由功能、灵活的中间件机制以及依赖注入等特性，方便扩展和集成现有服务；目前处于维护模式，建议尝试其继任者Flamego。
 
 * [hashicorp/vagrant](https://github.com/hashicorp/vagrant) 用于构建和分发开发环境的工具。由Vagrant管理的开发环境可以在本地虚拟化平台（如VirtualBox或VMware）上运行，通过AWS或OpenStack在云中运行，或者在容器（如Docker或原始LXC）上运行。
 
@@ -9079,6 +9499,8 @@
 * [Netflix/conductor](https://github.com/Netflix/conductor) Netflix 创建的一个平台，用于编排跨微服务的工作流程。Conductor 由 Netflix 的媒体工作流基础设施团队维护。
 
 * [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) 开源 API 开发生态系统。轻量级：采用简约的 UI 设计精心打造。快速：实时发送请求和获取/复制响应。
+
+* [reactioncommerce/reaction](https://github.com/reactioncommerce/reaction) 使用 Node.js、MongoDB 和 GraphQL 构建的 API 优先、无头商务平台。它与 npm、Docker 和 Kubernetes 配合得很好。
 
 * [caprover/caprover](https://github.com/caprover/caprover) 最简单的应用程序/数据库部署平台和 Web 服务器包，适用于 NodeJS、Python、PHP、Ruby、Go 应用程序。
 
@@ -9164,11 +9586,17 @@
 
 * [novuhq/novu](https://github.com/novuhq/novu) 面向开发人员的开源通知基础结构。使用单个 API 管理多渠道通知的终极服务。适用于所有消息传递提供商的单一 API（应用内、电子邮件、短信、推送、聊天）。轻松管理多个渠道的通知。配备CMS，用于高级布局和设计管理。内置对缺失变量的保护。易于设置和集成。在单个仪表板中调试和分析多渠道消息。具有实时更新的嵌入式通知中心。社区驱动。
 
+* [bluesky-social/social-app](https://github.com/bluesky-social/social-app) Bluesky Social应用是一个基于Web、iOS和Android的去中心化社交媒体应用，使用React Native和TypeScript开发。它基于AT Protocol协议，该协议提供了一套去中心化的社交媒体标准。该项目欢迎贡献，但要求贡献者遵守特定的规则和指南。用户可以通过bsky.app访问Web版本，在App Store或Google Play商店下载iOS或Android版本。该项目鼓励开发者探索和扩展AT Protocol生态系统。
+
 * [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) 以与语言无关的方式扩展实时消息服务器。Pubnub、Pusher、Ably 的自托管替代品。设置一次，永远设置。开源、可扩展的实时消息服务器。Centrifugo可以即时向通过支持的传输（WebSocket、HTTP-streaming、SSE/EventSource、GRPC、SockJS、WebTransport）连接的应用程序在线用户发送消息。具有频道订阅的概念——因此它是一个面向用户的 PUB/SUB 服务器。
 
 * [songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher) message-pusher是一个基于 Golang 的消息推送服务，支持多种推送方式，包括微信、钉钉、企业微信、Bark、Telegram 等，支持 Markdown 格式，仅单可执行文件，开箱即用。用户可以轻松搭建专属于自己的消息推送服务，方便地将消息推送至不同的平台。该项目使用数据库来存储推送信息，并提供 Web 界面进行配置和管理。
 
 * [mastodon/mastodon](https://github.com/mastodon/mastodon) 基于 ActivityPub 的免费开源社交网络服务器，用户可以在其中关注并发现新朋友。 在 Mastodon 上，用户可以发布他们想要的任何东西：链接、图片、文本、视频。 所有服务器都可以作为联合网络进行互操作（一台服务器上的用户可以与另一台的用户无缝通信，包括实现 ActivityPub 的非 Mastodon 软件）
+
+* [Terry-Mao/goim](https://github.com/Terry-Mao/goim) goim是一个用Go语言编写的轻量级、高性能即时通讯服务器，支持单播、多播和广播，并提供基于Kafka的异步推送通知；它支持多种协议（WebSocket、TCP、HTTP），可扩展架构允许动态添加作业和逻辑模块，并包含身份验证和心跳机制，具备百万级在线用户的处理能力。
+
+* [oxen-io/session-android](https://github.com/oxen-io/session-android) SessionAndroid是一款私密的安卓端即时通讯应用，它利用去中心化的Oxen服务节点实现端到端加密和洋葱路由，保护用户IP地址，确保信息安全。该项目已迁移至Session Technology Foundation维护，可在Google Play商店、F-Droid或GitHub下载。项目采用GPLv3许可证。
 
 * [nostr-protocol/nostr](https://github.com/nostr-protocol/nostr) 真正抗审查的 Twitter 替代品。最简单的开放协议，一劳永逸地创建抗审查的全球“社交”网络。 不依赖于任何受信任的中央服务器，因此具有弹性； 基于加密密钥和签名，防篡改； 它不依赖于 P2P 技术，因此可以正常工作。
 
@@ -9304,6 +9732,8 @@
 
 * [ginuerzh/gost](https://github.com/ginuerzh/gost) GO语言实现的安全隧道。特性：多端口监听、可设置转发代理，支持多级转发(代理链)、支持标准HTTP(2)(S)/SOCKS4(A)(5)代理协议、Web代理支持探测防御、支持多种隧道类型、SOCKS5代理支持TLS协商加密、基于 TCP 的隧道 UDP、TCP/UDP透明代理、本地/远程TCP/UDP转发、支持Shadowsocks(TCP/UDP)协议、支持SNI代理、权限控制、负载均衡、路由控制、DNS解析和代理、TUN/TAP设备
 
+* [pomerium/pomerium](https://github.com/pomerium/pomerium) Pomerium是一个身份和上下文感知的访问代理，它无需企业VPN即可构建到内部Web应用程序和服务的安全、无客户端连接。Pomerium通过无客户端访问、无隧道部署以及持续验证来实现更轻松、更快、更安全的访问，并通过集成所有数据实现上下文感知访问，从而保护您的业务。它提供托管控制平面和管理GUI，并有完善的文档和贡献指南。
+
 * [LibNyanpasu/clash-nyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu) Clash Nyanpasu是一款基于Tauri的Clash图形界面，支持Clash Premium、Mihomo和Clash Rust。它提供配置文件管理和增强功能，支持提供商管理，并采用Google Material You设计语言。用户可以通过YAML、JavaScript和Lua来定制配置文件，并享受流畅的动画体验。项目还提供安装指南、常见问题解答和开发环境配置说明，欢迎用户提交问题和代码贡献。
 
 * [Z-Siqi/Clash-for-Windows_Chinese](https://github.com/Z-Siqi/Clash-for-Windows_Chinese) Clash for Windows汉化版项目提供Clash for Windows的汉化版、汉化补丁以及汉化版安装程序。该项目支持多种Clash版本，用户可通过安装程序直接安装汉化版，或使用补丁对现有版本进行汉化。项目特色包括：使用安装程序安装汉化版可自动更新汉化内容，使用补丁则需要手动更新。该项目已于2023年11月3日存档，不再提供更新。
@@ -9317,6 +9747,10 @@
 * [netchx/netch](https://github.com/netchx/netch) Netch是一个简单的代理客户端，支持多种代理协议，包括 Socks5、Shadowsocks、ShadowsocksR、WireGuard、Trojan、VMess 和 VLESS。它提供多种模式，包括进程模式、共享模式、隧道模式和 Web 代理模式，并支持 UDP NAT FullCone 功能。Netch 使用.NET 6.0 x64 开发，并遵循 GPLv3 许可协议。
 
 * [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) 翻墙-科学上网、自由上网、免费科学上网、免费翻墙、油管youtube、fanqiang、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙、科学上网
+
+* [getlantern/lantern](https://github.com/getlantern/lantern) Lantern是一款免费的网络审查规避工具，支持Windows、Android、macOS和iOS系统。它通过多种技术手段绕过网络审查，提供快速、安全可靠的互联网访问，帮助用户访问被屏蔽的网站和内容。用户可从官网下载稳定版或测试版。
+
+* [yinghuocho/firefly-proxy](https://github.com/yinghuocho/firefly-proxy) Firefly是一款帮助绕过防火墙的代理软件，提供Windows、Android、iOS和OSX等多个平台的客户端下载。它基于lantern和tun2socks swift项目，通过用户交流群提供技术支持，并分别提供安装包和单文件版本。
 
 * [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) 免费订阅地址，免费节点，6小时更新一次，共享节点，节点质量高可用，完全免费。免费clash订阅地址，免费翻墙、免费科学上网、免费梯子、免费ss/v2ray/trojan节点、谷歌商店、翻墙梯子。
 
@@ -9448,23 +9882,39 @@
 
 * [pallets/itsdangerous](https://github.com/pallets/itsdangerous) 将可信数据安全地传递到不受信任的环境并返回。各种帮助程序将数据传递到不受信任的环境，并使其安全无恙地恢复。数据经过加密签名，以确保令牌未被篡改。可以自定义数据序列化的方式。根据需要压缩数据。加载令牌时，可以自动添加和验证时间戳。
 
+* [fabiolb/fabio](https://github.com/fabiolb/fabio) Fabio是一个快速、现代、零配置的HTTP(S)和TCP路由负载均衡器，用于部署由Consul管理的应用程序。只需在Consul中注册服务并提供健康检查，Fabio就能自动开始路由流量，无需任何配置。它易于部署、升级和重构，并已成功应用于大型网站，每天处理数万次请求。
+
 * [cjdelisle/cjdns](https://github.com/cjdelisle/cjdns) cjdns是一个使用公钥加密进行地址分配和分布式哈希表进行路由的加密 IPv6 网络。它提供近乎零配置的网络，并避免了现有网络中存在的许多安全和可扩展性问题。cjdns 使用 Rust 语言编写，并提供跨平台支持。项目拥有活跃的社区，并提供丰富的文档和教程。
 
 * [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p) rust-libp2p是libp2p网络协议栈的Rust实现，提供核心组件如传输层、多路复用器和应用层协议。其代码库包含核心模块、多种传输协议实现、多路复用器实现、网络层实现以及应用层协议示例，并遵循IPFS行为准则。开发者可通过文档、示例和社区论坛获取支持。
+
+* [smartping/smartping](https://github.com/smartping/smartping) SmartPing是一个综合性网络质量检测工具，提供正反向PING绘图、互PING拓扑图及报警、全国PING延迟地图和在线检测工具等功能。它基于分布式架构，通过多个监测点收集数据，从而实现精准的网络质量监控和故障定位，并支持自定义延迟、丢包率等报警阈值。
 
 * [evilsocket/opensnitch](https://github.com/evilsocket/opensnitch) OpenSnitch 是一个受 Little Snitch 启发的 GNU/Linux 交互式应用程序防火墙。主要特点：交互式出站连接过滤。在整个系统范围内阻止广告、跟踪器或恶意软件域。能够从 GUI (nftables)配置系统防火墙。配置输入策略、允许入站服务等。从集中式 GUI 管理多个节点。
 
 * [coredns/coredns](https://github.com/coredns/coredns) DNS 服务器/转发器，用 Go 编写，用于链接插件。每个插件都执行一个（DNS）功能。快速灵活的DNS服务器。这里的关键词是灵活：使用CoreDNS，您可以通过使用插件对DNS数据做任何您想做的事情。如果某些功能没有开箱即用，您可以通过编写插件来添加它。
 
+* [rakyll/hey](https://github.com/rakyll/hey) hey是一个轻量级的HTTP负载生成器，可替代ApacheBench (ab)，用于对web应用进行压力测试。它支持并发请求、HTTP/2、自定义HTTP请求头、以及多种输出格式（包括CSV），并允许设置请求数、并发数、速率限制、超时时间等参数，方便用户模拟各种负载场景。
+
 * [paramiko/paramiko](https://github.com/paramiko/paramiko) Paramiko是一个用纯Python编写的SSHv2协议库，支持客户端和服务器功能，是Fabric库的基础。它适用于需要高级/底层功能或运行Python SSH服务器的用户，但对于普通SSH客户端使用场景，建议使用Fabric。Paramiko依赖于cryptography库，并以OpenSSH为主要参考实现。
+
+* [reactphp/socket](https://github.com/reactphp/socket) Async, streaming plaintext TCP/IP和TLS安全套接字服务器和客户端连接库，基于ReactPHP的EventLoop和Stream组件，支持异步、非阻塞的多连接处理。项目包含快速入门示例、服务器和客户端使用方法、高级用法及安装指南。当前稳定版本为v1，开发版本为v3。
+
+* [chenshuo/muduo](https://github.com/chenshuo/muduo) Event-driven网络库，基于Reactor模式为多线程Linux服务器提供C++11支持，适用于Linux内核2.6.28及以上版本，GCC 4.7或Clang 3.5及以上，已测试在Debian 7、Ubuntu 14.04、CentOS 7及以上版本上，安装所需包后运行./build.sh即可编译，更多使用教程参见官方文档。
 
 * [riemann/riemann](https://github.com/riemann/riemann) Riemann是一个用Clojure编写的网络事件流处理系统，它可以聚合来自服务器和应用程序的事件，并使用强大的流处理语言进行分析。Riemann通过监控分布式系统，帮助用户及时发现问题并采取行动。项目主页为：https://riemann.io。
 
+* [gatling/gatling](https://github.com/gatling/gatling) Gatling是一个现代化的负载测试工具，使用代码编写测试脚本，支持HTTP、WebSocket、Server-Sent-Events和JMS协议，它采用非阻塞IO和多用户架构，避免了传统工具的性能瓶颈，并提供友好的DSL，方便测试脚本的编写和版本控制。
+
 * [mqtt/mqtt.org](https://github.com/mqtt/mqtt.org) mqtt.org网站是 MQTT 协议的官方网站，使用 Jekyll 框架构建。该网站提供有关 MQTT 协议的最新信息、文档、资源和社区论坛。用户可以通过 `bundle exec jekyll serve` 命令启动本地服务器，并使用 `bundle update` 命令更新项目依赖。
+
+* [oxen-io/lokinet](https://github.com/oxen-io/lokinet) Lokinet是一个基于IP的匿名、去中心化互联网覆盖网络，它是低延迟匿名路由协议（LLARP）的参考实现，使用三层洋葱路由技术，提供匿名通信。安装说明及更多信息请参考项目文档。该项目采用GPLv3开源许可证。
 
 * [curl/curl](https://github.com/curl/curl) 用URL语法传输数据的命令行工具和库，支持DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP、SFTP、SMB、SMBS、SMTP、SMTPS、TELNET、TFTP、WS 和 WSS。提供了无数强大的功能
 
 * [wg/wrk](https://github.com/wg/wrk) 现代 HTTP 基准测试工具，能够在单个多核 CPU 上运行时产生大量负载。它将多线程设计与可扩展的事件通知系统（如 epoll 和 kqueue）相结合。可选的 LuaJIT 脚本可以执行 HTTP 请求生成、响应处理和自定义报告。
+
+* [http4s/http4s](https://github.com/http4s/http4s) Http4s是一个简洁易用的Scala HTTP服务接口，类似于其他语言的Rack、WSGI、WAI和Servlets。它提供一个简洁的API，例如`HttpRoutes.of`，方便构建HTTP服务。其Blaze后端需要JDK8u252或更高版本。项目遵循Apache2许可证。
 
 * [cloudflare/quiche](https://github.com/cloudflare/quiche) IETF 指定的 QUIC 传输协议和 HTTP/3 的实现。它提供了一个低级 API，用于处理 QUIC 数据包和处理连接状态。该应用程序负责提供 I/O（例如套接字处理）以及支持计时器的事件循环。
 
@@ -9572,6 +10022,8 @@
 
 * [go-resty/resty](https://github.com/go-resty/resty) Go 的简单 HTTP 和 REST 客户端库
 
+* [sockjs/sockjs-client](https://github.com/sockjs/sockjs-client) WebSocket 仿真 - Javascript 客户端
+
 * [sogou/workflow](https://github.com/sogou/workflow) C++ 并行计算和异步网络引擎
 
 * [Moya/Moya](https://github.com/Moya/Moya) 用 Swift 编写的网络抽象层。
@@ -9615,6 +10067,8 @@
 * [TeamPiped/Piped](https://github.com/TeamPiped/Piped) Piped是一个开源的 YouTube 前端替代方案，旨在高效且注重隐私。它不使用官方 YouTube API，而是通过 NewPipeExtractor 提取信息，并提供无广告、无追踪、轻量级、无限滚动、主题切换、登录、订阅、播放列表等功能，还支持 SponsorBlock、LBRY和 Return YouTube Dislike 集成。Piped 采用多区域负载均衡，设计高效，能够同时处理数千用户，并提供公开的 JSON API和基于 Matrix 的联邦协议，允许不同实例之间协作。
 
 * [actions/starter-workflows](https://github.com/actions/starter-workflows) 这些是帮助人们开始使用 GitHub Actions 的工作流程文件。每当您开始创建新的 GitHub Actions 工作流程时，都会显示它们。如果您想开始使用 GitHub Actions，可以通过单击要创建工作流程的存储库中的“Actions”选项卡来使用这些入门工作流程。每个工作流都必须用 YAML 编写，并且具有 .yml 扩展。他们还需要一个相应的 .properties.json 文件，其中包含有关工作流的额外元数据（显示在 GitHub.com UI 中）。
+
+* [google/seesaw](https://github.com/google/seesaw) Seesaw v2是一个基于Linux虚拟服务器（LVS）的负载均衡平台，支持从相同网络上的服务器的基本负载均衡到高级功能，例如anycast、直接服务器返回（DSR）、多VLAN支持和集中式配置。它可靠易于维护，需要两个Seesaw节点（物理机或虚拟机），每个节点需两个网络接口（一个用于主机，另一个用于集群VIP），所有接口连接到同一二层网络。该项目使用Go语言开发，依赖多个Go包和libnl库。
 
 * [KoriIku/luxirty-search](https://github.com/KoriIku/luxirty-search) Luxirty Search是一款基于 Google 的搜索引擎，它屏蔽内容农场，无广告，无跟踪，干净，简洁，快速。它通过屏蔽特定网站（如 CSDN、知乎、百度等）和使用 `site:` 运算符来过滤掉垃圾信息，并优先展示高质量网站（如 GitHub、Stackoverflow、v2ex、cnblog）的内容。此外，它还支持搜索 v2ex 和 Reddit 等平台。Luxirty Search 旨在提供一个干净、高效的搜索体验，帮助用户快速找到所需信息。
 
@@ -9746,6 +10200,8 @@
 
 * [javinizer/Javinizer](https://github.com/javinizer/Javinizer) Javinizer是一个命令行和图形界面 (GUI) 的 PowerShell 模块，用于抓取元数据并将本地日本成人视频 (JAV) 文件整理到媒体库兼容格式。它支持多种刮削器，包括 Javlibrary、R18、Dmm (Fanza)、JavBus、Jav321、AVEntertainment、MGStage 和 DLGetchu，并提供可定制的设置文件以进一步调整元数据。Javinizer 还支持多种语言，包括英语、日语和中文，并提供机器翻译模块。它为每个 JAV 文件创建 _.nfo_ 文件，以便媒体库应用程序读取，因此即使在线刮削器消失，您仍然可以保留元数据。
 
+* [mvdbos/php-spider](https://github.com/mvdbos/php-spider) PHP-Spider是一个可配置和可扩展的PHP网页爬虫，支持广度优先和深度优先两种遍历算法，并提供多种限制选项（爬取深度、队列大小、最大下载量等）。它允许自定义URI发现逻辑（XPath、CSS选择器或PHP代码）、URI过滤器（robots.txt、域名限制等）、请求处理逻辑和持久化处理器，支持多种HTTP认证方式，并收集爬取统计信息及自定义事件分发。通过Composer安装即可使用，示例代码展示了如何创建、配置和运行爬虫，以及处理下载资源。
+
 * [jaypyles/Scraperr](https://github.com/jaypyles/Scraperr) Scraperr是一个自托管的网页抓取应用程序，允许用户通过XPath指定元素来抓取网页数据。用户可以提交URL和要抓取的相应元素，结果将显示在表格中。用户可以从表格中下载抓取结果的Excel表格，以及重新运行抓取任务的选项。该项目使用FastAPI、Next.js、TailwindCSS和MongoDB构建，并提供用户管理、日志查看、统计信息查看以及与Ollama和OpenAI等AI模型集成的功能。用户可以通过Docker Compose进行安装，并配置环境变量和标签。
 
 * [grangier/python-goose](https://github.com/grangier/python-goose) Python-Goose是一个用于提取网页内容和文章的 Python 库，它可以从任何新闻文章或文章类型的网页中提取主要内容，包括文章主体、元数据和最可能的图片候选。它支持提取文章的主要文本、主要图片、嵌入的 YouTube/Vimeo 视频、元描述和元标签。用户可以通过配置对象或字典来设置 Goose 的参数，例如更改用户代理、选择解析器（html 或 soup）以及指定目标语言。Goose 能够识别网页的语言，并根据语言进行内容提取。
@@ -9766,6 +10222,8 @@
 
 * [Neet-Nestor/Telegram-Media-Downloader](https://github.com/Neet-Nestor/Telegram-Media-Downloader) 这是一个 Telegram网页版媒体下载脚本，它可以解锁并启用从聊天、故事，甚至下载被禁用或限制的私人频道中的图片、GIF、音频和视频的下载功能。该脚本通过用户脚本实现，无需任何额外的软件，只需安装浏览器扩展（如 Tampermonkey 或 Violentmonkey）即可使用。该脚本还支持不同 Telegram 网页版版本的功能，例如音频消息下载仅适用于 K 网页版。
 
+* [jae-jae/QueryList](https://github.com/jae-jae/QueryList) QueryList是一个基于phpQuery的优雅PHP爬虫框架，它使用与jQuery相同的CSS3选择器和DOM操作API，提供强大的HTTP请求功能（例如模拟登录、自定义浏览器等），并支持列表式抓取和内容过滤。通过插件，QueryList可以实现多线程爬取、JavaScript动态页面抓取、图片下载等功能，方便用户进行各种网络数据采集。它支持PHP 8.1及以上版本，可通过Composer安装。
+
 * [Nv7-GitHub/googlesearch](https://github.com/Nv7-GitHub/googlesearch) googlesearch是一个 Python 库，用于轻松地搜索 Google。它使用 requests 和 BeautifulSoup4库来抓取 Google 搜索结果。该库支持多种搜索选项，包括结果数量、语言、地区、安全搜索、高级搜索等。用户可以通过简单的 Python 代码调用该库，获取搜索结果并提取标题、URL、描述等信息。该库还支持使用代理服务器进行搜索，并提供选项控制请求间隔时间。
 
 * [JoeanAmier/XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) 这是一个小红书链接提取和作品采集工具，可以提取账号发布、收藏、点赞、专辑作品链接，以及搜索结果作品和用户链接，并采集作品信息和下载地址，最终下载小红书无水印作品文件。该工具支持 Python 3.12，并提供用户脚本（UserScript）版本，方便用户使用。注意：由于小红书平台规则更新，建议更新用户脚本版本以获得最佳使用体验。
@@ -9780,6 +10238,8 @@
 
 * [VinciGit00/Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai) 网络抓取 python 库，它使用LLM和指导图形逻辑为网站和本地文档（XML、HTML、JSON 等）创建抓取管道。有三种主要的抓取管道可用于从网站（或本地文件）中提取信息：只需要用户提示和输入源的单页抓取工具;从搜索引擎的前 n 个搜索结果中提取信息的多页抓取工具;从网站中提取信息并生成音频文件的单页抓取工具。
 
+* [andeya/pholcus](https://github.com/andeya/pholcus) Pholcus是一个用Go语言编写的分布式高并发爬虫软件，仅用于学术研究。它支持单机、服务端和客户端三种运行模式，拥有简单的规则配置、强大的并发处理能力以及多种数据输出格式（如MySQL、MongoDB、Kafka、CSV、Excel等），并支持自定义请求模式和任务调度，具备一系列高级功能。请勿用于任何非法用途。
+
 * [acl-org/acl-anthology](https://github.com/acl-org/acl-anthology) ACL Anthology项目是一个用于构建ACL Anthology网站的数据和软件仓库，包含所有论文、作者和会议场所的元数据，以及用于生成网站的代码和说明，并提供一个Python包用于访问元数据，该包可在PyPI上获取。该项目使用Hugo构建网站，需要Python 3.8或更高版本以及其他依赖项，可以通过GitHub进行构建和部署。
 
 * [nilaoda/BBDown](https://github.com/nilaoda/BBDown) BBDown是一款命令行式的哔哩哔哩视频下载器，支持多种视频类型下载，包括番剧、动画、音乐等。它使用.NET Core开发，并提供Dotnet Tool安装方式，方便用户快速使用。BBDown支持多种下载选项，包括使用TV API、APP API、国际版 API，以及使用MP4Box 进行合并等。用户可以根据需要选择合适的选项进行下载。
@@ -9791,6 +10251,8 @@
 * [wzdnzd/aggregator](https://github.com/wzdnzd/aggregator) 这是一个用于爬取和聚合代理的平台，它可以一键获取多个来源的代理，方便用户使用。该项目仅供学习交流，不保证稳定性和安全性，用户需自行承担使用风险，且禁止用于任何非法活动。项目使用Python编写，核心功能包括代理爬取和处理，用户可参考配置文件进行配置。
 
 * [coursera-dl/coursera-dl](https://github.com/coursera-dl/coursera-dl) Coursera Downloader是一个Python脚本，用于下载Coursera课程的视频和其他资源。它可以根据课程名称和账户凭据，自动获取课程和周次信息，并下载相关材料到相应命名的文件和目录中。该脚本比wget更方便，因为它可以根据课程大纲页面信息为视频命名，并避免下载重复视频。
+
+* [spatie/crawler](https://github.com/spatie/crawler) Spatie/crawler是一个易于使用且功能强大的PHP网络爬虫，能够执行JavaScript。它利用Guzzle并发抓取多个URL，并使用Chrome和Puppeteer支持JavaScript渲染的网站抓取。开发者可以通过自定义观察者类来处理抓取过程中的事件，例如成功抓取、抓取失败等，并支持添加多个观察者。
 
 * [hardikvasa/google-images-download](https://github.com/hardikvasa/google-images-download) 这是一个Python 脚本，可以从 Google 图片搜索结果中下载数百张图片到本地硬盘，无需额外配置即可运行。该项目提供详细的文档，包括安装说明、参数解释和代码示例。请注意，该脚本仅供学习使用，用户需遵守版权法律，避免下载和使用侵犯版权的图片。
 
@@ -9880,6 +10342,8 @@
 
 * [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources) 该项目是一个自动更新 IPTV 来源的工具，它整合了多个来源，包括epg.pw、iptv.org、YueChan/Live、YanG-1989/m3u 等，并提供 EPG 数据。项目支持多种部署方式，包括 GitHub Pages、Docker 和 Node.js，并提供环境变量配置，例如自定义回滚 URL、关闭来源代理、自定义 GitHub Raw 来源代理 URL 等。项目还提供 IPTV 检查功能，可以检查 IPTV 来源的有效性。
 
+* [wkentaro/gdown](https://github.com/wkentaro/gdown) gdown是一个命令行和Python库，用于下载Google Drive上的公开文件和文件夹，克服了curl/wget在下载Google Drive大文件时遇到的安全提示问题。它支持跳过安全提示、递归下载文件夹中的文件（每个文件夹最多50个文件）以及指定Google Slides/Sheet/Docs等文件的下载格式（如PDF/XML/CSV）。gdown可通过pip安装，并提供命令行和Python API两种使用方法。
+
 * [filecoin-project/lotus](https://github.com/filecoin-project/lotus) Lotus是 Filecoin 分布式存储网络的 Go 语言实现，它提供了完整的 Filecoin 功能，包括数据存储、检索和交易。Lotus 项目包含了完整的文档和构建指南，并提供独立的模块，例如 go-fil-markets 和 builtin-actors，方便开发者进行二次开发。Lotus 致力于打造安全、可靠、高效的分布式存储网络，为用户提供更加便捷的存储和数据访问服务。
 
 * [Tribler/tribler](https://github.com/Tribler/tribler) Tribler是一个增强隐私的 BitTorrent 客户端，旨在提供匿名访问内容。它通过实现一个类似于 Tor 的匿名网络，使用隐藏服务进行种子和端到端加密，以实现匿名下载和流媒体。Tribler 的目标是让隐私、强大的加密和身份验证成为互联网的规范，自 2004 年以来一直致力于确保“唯一能关闭 Tribler 的方法是关闭互联网”。
@@ -9887,6 +10351,8 @@
 * [Radarr/Radarr](https://github.com/Radarr/Radarr) Usenet 和 BitTorrent 用户的电影收藏管理器。它可以监控新电影的多个 RSS 源，并将与客户端和索引器交互以抓取、排序和重命名它们。它还可以配置为在有更好的质量格式可用时自动升级库中现有文件的质量。请注意，仅支持给定影片的一种类型。如果您想要给定电影的 4k 版本和 1080p 版本，则需要多个实例。
 
 * [streamlink/streamlink](https://github.com/streamlink/streamlink) Streamlink是一个命令行工具，可以将来自各种服务的视频流导入视频播放器。它基于插件系统，支持 Twitch、YouTube 等大多数流行的流媒体服务。用户可以使用 Streamlink 将流媒体内容保存到本地文件或获取流媒体元数据。Streamlink 是 Livestreamer 项目的衍生项目，并提供 Python API 和 CLI 文档。
+
+* [filecoin-project/venus](https://github.com/filecoin-project/venus) Venus是用Go语言实现的Filecoin分布式存储网络全节点，具有安全易用和分布式存储池等关键特性，其架构与Lotus不同。Venus项目包含多个模块协同工作，实现Filecoin的完整功能，并欢迎代码、文档等方面的贡献，但建议遵循其贡献指南，例如先提交Filecoin改进提案（FIP）再进行代码修改。
 
 * [popcorn-official/popcorn-desktop](https://github.com/popcorn-official/popcorn-desktop) Popcorn Time是一个跨平台的免费 BitTorrent 客户端，包含集成媒体播放器，支持 Windows、Mac 和 Linux 系统。它是 Butter-Project 的分支，你可以从项目网站 popcorn-time.site 或 GitHub 发布页面下载最新版本。项目还提供最新开发版本供测试人员使用，可以通过 GitHub Actions 页面获取。
 
@@ -10040,6 +10506,8 @@
 
 * [MichaelGrupp/evo](https://github.com/MichaelGrupp/evo) evo是一个用于评估里程计和 SLAM 算法的 Python 包，支持多种轨迹格式，包括 TUM、KITTI、EuRoC MAV 和 ROS/ROS2 包文件。它提供了一系列工具，用于处理、评估和比较里程计和 SLAM 算法的轨迹输出，并支持多种输出选项，例如绘图和导出。evo 的优势在于其通用性、灵活性、可配置性、模块化和速度。它可以用于各种应用场景，并提供了一个强大的命令行界面和可扩展的库。
 
+* [nv-tlabs/LLaMa-Mesh](https://github.com/nv-tlabs/LLaMa-Mesh) LLaMA-Mesh是一个将大型语言模型（LLM）与三维网格生成相结合的项目，它通过将网格的顶点坐标和面定义表示为纯文本，直接与LLM集成，无需扩展词汇表。该模型可以根据文本提示生成3D网格，并生成交织的文本和3D网格输出，还能理解和解释3D网格，其生成质量与从零开始训练的模型相当，同时保持强大的文本生成性能。项目已发布模型权重和在线演示。
+
 * [zju3dv/4K4D](https://github.com/zju3dv/4K4D) 4K4D是一个实时 4K 分辨率 4D 视图合成项目，该项目基于 EasyVolcap 架构，并提供预训练模型和最小数据集。它使用基于 CUDA 的瓦片渲染器，并提供 WebSocket 服务器和客户端，支持实时渲染和交互式体验。4K4D已被 CVPR 2024 接收，并提供训练和推理代码，方便用户进行模型训练和渲染。用户需要安装 PyTorch、PyTorch3D、tiny-cuda-nn 和 Open3D 等依赖库。
 
 * [facebookresearch/vfusion3d](https://github.com/facebookresearch/vfusion3d) VFusion3D是一个可扩展的3D生成模型，它利用少量3D数据和大量合成多视角数据进行训练。它是首个探索可扩展3D生成/重建模型的项目，旨在构建一个3D基础模型。该项目提供了预训练模型，用户可以使用提供的推理代码生成3D资产，包括视频和网格模型。VFusion3D支持各种视角的输入图像，但建议使用正面或接近正面的图像以获得最佳效果。
@@ -10171,6 +10639,8 @@
 * [Zz-ww/SadTalker-Video-Lip-Sync](https://github.com/Zz-ww/SadTalker-Video-Lip-Sync) 本项目基于SadTalkers实现视频唇形合成的Wav2lip。通过以视频文件方式进行语音驱动生成唇形，设置面部区域可配置的增强方式进行合成唇形（人脸）区域画面增强，提高生成唇形的清晰度。使用DAIN 插帧的DL算法对生成视频进行补帧，补充帧间合成唇形的动作过渡，使合成的唇形更为流畅、真实以及自然。
 
 * [nenadmarkus/pico](https://github.com/nenadmarkus/pico) 对标准 Viola-Jones 方法的修改。基本思想是在所有合理的位置和尺度上用级联的二元分类器扫描图像。如果图像区域成功通过级联的所有成员，则将其分类为感兴趣对象。每个二元分类器由一组决策树组成，其中像素强度比较作为其内部节点中的二元测试。这使检测器能够以非常高的速度处理图像区域。
+
+* [boltgolt/howdy](https://github.com/boltgolt/howdy) Howdy是Linux系统上的Windows Hello风格面部认证工具，利用内置红外发射器和摄像头进行面部识别，实现无需密码登录、解锁屏幕、sudo和su等操作。它基于PAM认证系统工作，支持Debian/Ubuntu、Arch Linux、Fedora和openSUSE等发行版，并提供源码编译安装方式。安装后需要进行面部注册才能使用。
 
 * [InstantID/InstantID](https://github.com/InstantID/InstantID) 在数秒内实现零样本人身份保留生成，最先进的免调谐方法，只需一张图像即可实现 ID 保留生成，支持各种下游任务。InstantID 实现了更好的保真度，并保留了良好的文本可编辑性（面孔和样式融合得更好）。[InstantX/InstantID](https://huggingface.co/InstantX/InstantID)
 
@@ -10436,11 +10906,17 @@
 
 * [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) 在没有监督的情况下学习强大的视觉特征，DINOv2 模型可产生高性能的视觉特征，这些特征可以直接与分类器一起使用，就像在各种计算机视觉任务中执行线性层一样简单;这些视觉功能非常强大，并且在各个领域中表现良好，无需任何微调。这些模型在包含 142 M 张图像的数据集上进行了预训练，没有使用任何标签或注释。
 
+* [nimiq/qr-scanner](https://github.com/nimiq/qr-scanner) 这是一个轻量级JavaScript二维码扫描器，基于Google的ZXing库，支持摄像头扫描和单张图片扫描，并利用浏览器原生BarcodeDetector API（如果可用）提高性能和准确率。相比其他同类库，它具有更高的检测率和更低的误读率，体积小巧，运行在WebWorker中，保持主线程响应迅速，并可配置以优化彩色二维码的扫描效果。
+
+* [rom1504/img2dataset](https://github.com/rom1504/img2dataset) img2dataset是一个Python库，能高效地将大量的图片URL转换成图像数据集，支持下载、调整大小和打包，单机可在20小时内处理1亿个URL。它还支持保存图片的描述信息，并提供多种预设数据集下载示例，例如MS-COCO、LAION-400M等，方便用户快速构建大型图像数据集，并可通过设置忽略包含特定HTTP头的图片。
+
 * [kornia/kornia](https://github.com/kornia/kornia) 基于 PyTorch 的可微分（differentiable）的计算机视觉开源库， 实现了：可微的基础计算机视觉算子、可微的数据增广。OpenCV 和 PIL 都是不可微的，所以这些处理都只可以作为图像的预处理而无法通过观察梯度的变化来对这些算子进行优化 （gradient-based optimization），因此Kornia 便应运而生。
 
 * [libvips/libvips](https://github.com/libvips/libvips) 一个需求驱动的水平线程图像处理库。与类似的库相比，libvips 运行速度快，占用内存很少。涵盖算术、直方图、卷积、形态操作、频率过滤、颜色、重采样、统计等。它支持从 8 位 int 到 128 位复数的大量数值类型。影像可以具有任意数量的波段。它支持多种图像格式。
 
 * [holoviz/datashader](https://github.com/holoviz/datashader) Datashader是一个用于将大型数据集快速准确地渲染成图像的库，它将图像创建过程分为三个步骤：投影、聚合和转换。Datashader可用于创建各种数据可视化，并可以与其他绘图库结合使用，以处理更大的数据集。Datashader 支持 Python 3.9及更高版本，并可通过 pip 或 conda 安装。
+
+* [CapSoftware/Cap](https://github.com/CapSoftware/Cap) Cap 是一个开源的 Loom 替代品，允许你快速录制、编辑和分享屏幕视频。该项目目前处于公测阶段，支持 macOS 和 Web 版本，Windows 和 Linux 版本正在开发中。Cap 使用 Rust、React、TypeScript、Tauri、Drizzle ORM、MySQL 和 TailwindCSS 构建。你可以通过 Discord 加入社区帮助测试和贡献。
 
 * [Thinklab-SJTU/ThinkMatch](https://github.com/Thinklab-SJTU/ThinkMatch) 深度图匹配算法 图形匹配（GM）是计算机视觉，模式识别和数据挖掘中一个基本但具有挑战性的问题。GM旨在通过解决称为二次分配问题（QAP）的NP硬组合问题来找到多个图之间的节点到节点对应关系。应用：桥接电影和简介、图像对应、分子匹配
 
@@ -11664,6 +12140,8 @@
 
 * [lihuithe/podlm-public](https://github.com/lihuithe/podlm-public) 该项目名为“URL-to-主播-to-小程序”，提供中文 NotebookLM最佳实践，将 URL 转换为主播，再推送到小程序平台。项目包含服务器端代码、API 接口、UI 页面等，并提供详细的安装部署说明。用户需要安装 Python 3.11.5及其依赖库，并配置 LLM 模型和 TTS 服务信息，即可运行该项目。
 
+* [lucidrains/e2-tts-pytorch](https://github.com/lucidrains/e2-tts-pytorch) 该Pytorch项目实现了E2-TTS模型，这是一个基于多流Transformer的完全非自回归零样本TTS系统。它利用文本和音频的多流Transformer，并在每个Transformer块中进行E2方式的条件化，并包含文本长度插值改进。该项目易于安装和使用，提供了完整的训练代码和示例。
+
 * [bytedance/SALMONN](https://github.com/bytedance/SALMONN) 支持语音、音频事件和音乐输入的大型语言模型（LLM），由清华大学电子工程系和字节跳动开发。SALMONN可以感知和理解各种音频输入，而不是仅语音输入或仅音频事件输入，从而获得新兴功能，例如多语言语音识别和翻译以及音频 - 语音协同推理。
 
 * [netease-youdao/EmotiVoice](https://github.com/netease-youdao/EmotiVoice) 功能强大且现代的开源文本转语音引擎，可供您免费使用。EmotiVoice 会说英语和中文，并有超过 2000 种不同的声音（有关详细信息，请参阅语音列表）。最突出的特点是情绪合成，让你创造出具有广泛情绪的语音，包括快乐、兴奋、悲伤、愤怒等。
@@ -11683,6 +12161,8 @@
 * [jianchang512/clone-voice](https://github.com/jianchang512/clone-voice) 带web界面的声音克隆工具，使用你的音色或任意声音来录制音频。支持 中、英、日、韩、法、德、意等语言，可在线从麦克风录制声音。为保证合成效果，建议录制时长5秒到20秒，发音清晰准确，不要存在背景噪声。
 
 * [w-okada/voice-changer](https://github.com/w-okada/voice-changer) 实时语音转换器。客户端软件，使用各种语音转换AI（VC，语音转换）执行实时音频转换。 支持的语音转语音 AI 包括：MMVC、so-vits-svc 、RVC(Retrieval-based-Voice-Conversion 基于检索的语音转换)、DDSP-SVC、Beatrice JVS Corpus Edition
+
+* [alaskasquirrel/Chinese-Podcasts](https://github.com/alaskasquirrel/Chinese-Podcasts) 这是一个收集整理中文播客的GitHub项目，包含编程、设计、Vlog、音乐、访谈、博客等多种类型的播客资源，所有内容仅供娱乐使用，不保证其技术水平及观点立场与项目维护者无关，欢迎贡献和反馈。
 
 * [jaywalnut310/vits](https://github.com/jaywalnut310/vits) 一种用于端到端文本语音转换的条件变分自编码器，它比现有的两阶段模型产生更自然的声音。该方法采用变分推理和归一化流以及对抗式训练过程，提高了生成式建模的表达能力。
 
@@ -11956,6 +12436,8 @@
 
 * [pytorch/audio](https://github.com/pytorch/audio) torchaudio是一个基于 PyTorch 的音频库，它提供音频信号处理的数据操作和转换功能。它支持多种音频格式的加载和保存，并提供用于常见音频数据集的数据加载器，以及音频和语音处理函数，例如频谱图、梅尔频率倒谱系数 (MFCC) 等。torchaudio还提供与其他库（如 Kaldi）的兼容接口，并利用 PyTorch 的 GPU 加速和自动微分系统，使其成为机器学习音频处理的理想选择。
 
+* [fixie-ai/ultravox](https://github.com/fixie-ai/ultravox) Ultravox是一个快速的多模态大型语言模型，能够实时理解语音和文本，无需单独的语音识别阶段。它通过将音频直接转换为LLM使用的空间来扩展LLM，速度比结合单独ASR和LLM的系统快得多。目前版本（0.4版）在Llama 3.1 8B模型下，首个token生成时间约为150毫秒，每秒生成约60个token。用户可通过演示页面、Discord服务器、BaseTen平台或Hugging Face页面体验或下载模型。
+
 * [librosa/librosa](https://github.com/librosa/librosa) librosa是一个用于音乐和音频分析的 Python 库，提供丰富的功能，例如音频特征提取、音高检测、节拍跟踪、音乐信息检索等。它依赖于 `soundfile` 和 `audioread` 库来加载音频文件，并支持多种音频格式，包括 MP3。用户可以通过 PyPI或 Anaconda 安装 librosa，也可以从源代码构建。librosa 的文档和示例代码可以在其官方网站上找到，并提供详细的教程和高级示例。
 
 * [Mustafa-Esoofally/llm-podcast-engine](https://github.com/Mustafa-Esoofally/llm-podcast-engine) 这是一个基于AI的播客生成器，利用 Groq 的语言模型从网络新闻源自动生成引人入胜的音频内容，并通过 ElevenLabs 的语音合成技术将其转换为音频播客。该项目使用 Next.js 构建，并利用先进的 AI 技术，展示了自动化内容生成和音频合成的强大功能。其主要功能包括：自动新闻收集、AI 驱动的内容生成、文本转语音合成、现代 Web 界面和实时进度更新。
@@ -12196,6 +12678,10 @@
 
 * [madhuakula/kubernetes-goat](https://github.com/madhuakula/kubernetes-goat) Kubernetes Goat是一个故意设计为存在漏洞的 Kubernetes 集群环境，用于学习和练习Kubernetes 安全，它提供了一个交互式动手操作平台。你可以通过运行 `setup-kubernetes-goat.sh` 脚本在你的 Kubernetes 集群中设置 Kubernetes Goat 资源，并通过 `access-kubernetes-goat.sh` 脚本访问它。访问 `http://127.0.0.1:1234` 即可开始你的 Kubernetes 安全学习之旅。
 
+* [goodrain/rainbond](https://github.com/goodrain/rainbond) Rainbond是一个完全开源的云原生应用管理平台，无需了解Kubernetes即可轻松管理容器化应用，支持一键安装和升级应用，并提供全生命周期管理。它具备自动识别多种编程语言、无需编写Dockerfile和Yaml文件、模块化组装以及全面的可观测性等特性，让普通开发者也能轻松操作和部署云原生应用，如同安装手机应用一样便捷。
+
+* [weaveworks/scope](https://github.com/weaveworks/scope) Weave Scope是一个已停止维护的Docker和Kubernetes监控可视化管理工具，它能实时生成应用程序拓扑图，帮助用户直观地理解、监控和管理容器化微服务应用。用户可以查看容器的指标、标签和元数据，并直接与容器交互（暂停、重启、停止等），还能通过插件扩展功能。该项目已不再维护，更多详情请访问相关链接。
+
 * [googleapis/google-cloud-python](https://github.com/googleapis/google-cloud-python) 这是一个Python库，提供对Google Cloud Platform服务的访问。它包含不同稳定级别的客户端库，包括GA（稳定版）、Beta版和Alpha版，分别对应不同的稳定性和更新频率。该库提供多种Google Cloud服务的客户端，例如AI Platform和API Gateway等，并提供详细的版本和问题跟踪信息。  用户可根据自身需求选择合适的客户端库版本。
 
 * [AliyunContainerService/pouch](https://github.com/AliyunContainerService/pouch) PouchContainer是阿里巴巴开源的企业级容器引擎，旨在推动容器技术发展，并支持 OCI 标准。它提供丰富的容器功能，包括安全隔离、P2P 分发、内核兼容性以及 Kubernetes 兼容性。PouchContainer 能够打包、交付和运行任何应用程序，并提供轻量级运行环境，最小化操作工作量，简化云原生应用开发和传统应用迁移。
@@ -12214,6 +12700,8 @@
 
 * [cryinkfly/Autodesk-Fusion-360-for-Linux](https://github.com/cryinkfly/Autodesk-Fusion-360-for-Linux) 这是一个项目，旨在帮助您在 Linux 上使用 Autodesk Fusion 360！该项目利用 Wine 作为兼容层，使您能够在 Linux 系统上运行 Windows应用，从而实现 Fusion 360 在 Linux 上的运行。Wine 并非模拟 Windows 内部逻辑的虚拟机或模拟器，而是通过将 WindowsAPI 调用转换为与 Linux 相对应的调用来实现兼容性。
 
+* [quay/clair](https://github.com/quay/clair) Clair是一个开源项目，用于静态分析应用程序容器（包括OCI和Docker）中的漏洞。它通过API索引容器镜像，并将镜像与已知漏洞进行匹配，从而提供容器基础设施安全性的透明视图，帮助用户更清晰地了解容器镜像的安全性。项目文档详见官方网站，使用请参考稳定版本发布。
+
 * [Azure/azure-quickstart-templates](https://github.com/Azure/azure-quickstart-templates) Azure Quickstart Templates是一个包含 Azure 资源管理器模板的仓库，这些模板由社区贡献，提供可搜索的模板索引，并提供贡献指南，方便用户使用或贡献模板。仓库已完成迁移，所有模板都位于子文件夹中，并移除了一些过时的模板。该项目遵循 Microsoft 开源代码行为准则。
 
 * [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) kustomize 允许您自定义原始的、无模板的 YAML 文件以用于多种用途，使原始 YAML 保持不变并按原样使用。kustomize 以 Kubernetes 为目标;它理解并可以修补 kubernetes 样式的 API 对象。这就像 make ，因为它所做的是在文件中声明的，就像 sed 一样，因为它发出编辑过的文本。
@@ -12221,6 +12709,8 @@
 * [firebase/functions-samples](https://github.com/firebase/functions-samples) 示例应用集合，展示了使用 Cloud Functions for Firebase 的热门用例。Cloud Functions 是一个托管、私有且可扩展的 Node.js 环境，可在其中运行 JS 或 Py 代码。Cloud Functions for Firebase 集成了 Firebase 平台，让您能够编写代码来响应事件并调用其他 Firebase 功能公开的功能。
 
 * [kubernetes-client/python](https://github.com/kubernetes-client/python) 这是一个Kubernetes官方的Python客户端库，提供与Kubernetes API交互的功能。通过`pip install kubernetes`即可安装，并包含丰富的示例代码方便使用，例如列出所有Pod或监控命名空间对象。该库遵循语义化版本控制，并提供与不同Kubernetes版本兼容的客户端版本矩阵。
+
+* [Netflix/chaosmonkey](https://github.com/Netflix/chaosmonkey) NetflixChaos Monkey是一款提高应用容错能力的工具，它通过随机终止生产环境中的虚拟机实例和容器来模拟故障，从而激励工程师构建更强大的服务，该工具与Spinnaker持续交付平台集成，支持AWS、GCE、Azure、Kubernetes等多种后端，需参考文档进行部署和配置。
 
 * [google/gvisor](https://github.com/google/gvisor) 用 Go 编写的应用程序内核，它实现了 Linux 系统表面的很大一部分。它包括一个名为 Open Container Initiative （OCI） 的运行时 `runsc` ，该运行时在应用程序和主机内核之间提供隔离边界。 `runsc` 运行时与 Docker 和 Kubernetes 集成，使运行沙盒容器变得简单。
 
@@ -12688,6 +13178,8 @@
 
 * [simdjson/simdjson](https://github.com/simdjson/simdjson) 每秒解析千兆字节的JSON：由Facebook / Meta Velox，WestmelonDB，Apache Doris，StarRocks使用。simdjson 库使用常用的 SIMD 指令和微并行算法来解析 JSON 的速度比 RapidJSON 快 4 倍，比 JSON 快 25 倍，适用于现代C++。
 
+* [0voice/linux_kernel_wiki](https://github.com/0voice/linux_kernel_wiki) 这是一个Linux内核学习资源库，包含200多篇经典内核文章、100多篇论文、50多个内核项目、500多道内核面试题和80多个内核视频教程，旨在帮助学习者系统掌握Linux内核原理及架构，从入门到精通。
+
 * [federico-busato/Modern-CPP-Programming](https://github.com/federico-busato/Modern-CPP-Programming) 现代 C++ 编程课程 （C++ 11/14/17/20/23），这门开放获取课程面向那些已经熟悉 C 和面向对象编程的人，以达到 C++ 编程的熟练程度。该课程涵盖 C++ 编程的基础知识，并转向高级 C++ 语义和概念。
 
 * [open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) 用于与 JSON 交互的C++库。C++库，允许操作 JSON 值，包括字符串的序列化和反序列化。它还可以在反序列化/序列化步骤中保留现有注释，使其成为存储用户输入文件的方便格式。
@@ -12954,6 +13446,8 @@
 
 * [shomali11/go-interview](https://github.com/shomali11/go-interview) 这是一个使用 Go 语言解决技术面试问题的集合，包含算法、数据结构、评估、列表和数字等多个方面，例如 A* 算法、链表、哈希多重映射、后缀表达式计算、循环检测、数字进制转换等。该项目提供多种数据结构和算法的实现，并附带测试用例，可帮助开发者学习和复习技术面试相关知识。
 
+* [golang/mobile](https://github.com/golang/mobile) golang/mobile项目提供Go语言在移动平台（实验性）的开发支持，包含构建工具和相关包，允许开发者构建纯Go应用或与SDK结合的应用；该项目尚处于实验阶段，使用需谨慎，Google和Go团队不提供最终用户支持；安装需Go 1.5及以上版本，并需参考官方文档进行gomobile命令安装及示例应用构建。
+
 * [veandco/go-sdl2](https://github.com/veandco/go-sdl2) `go-sdl2` 是一个 Go 语言的 SDL2 绑定库，它允许 Go程序与用 C 语言编写的 SDL2 库进行交互。需要先安装 SDL2库才能使用 `go-sdl2`。该项目提供 GoDoc 文档，并包含示例代码，方便用户快速上手。支持跨平台编译，并在 Ubuntu、Fedora、Arch Linux、Gentoo、macOS 和 Windows 上提供详细的安装说明。
 
 * [duke-git/lancet](https://github.com/duke-git/lancet) lancet（柳叶刀）是一个全面、高效、可复用的go语言工具函数库。 lancet受到了java apache common包和lodash.js的启发。特性：全面、高效、可复用。700+常用 go 工具函数，支持 string、slice、datetime、net、crypt...只依赖 go 标准库和 golang.org/x。所有导出函数单元测试覆盖率 100%。
@@ -13080,9 +13574,17 @@
 
 * [graphhopper/graphhopper](https://github.com/graphhopper/graphhopper) GraphHopper是一个开源的路线规划引擎，使用 Apache 2.0 许可证发布，它可以作为 Java 库或独立的 Web 服务器使用，用于计算两点或多点之间路线的距离、时间、转向指示以及其他道路属性。除了“A 到 B”的路线规划，它还支持地图匹配、等时线计算、移动导航等功能。GraphHopper 默认使用 OpenStreetMap 和 GTFS 数据，也可以导入其他数据源。
 
+* [zio/zio](https://github.com/zio/zio) ZIO是一个零依赖的Scala库，用于异步和并发编程。它基于高可扩展的非阻塞纤程，避免资源浪费和泄漏，帮助构建可扩展、弹性且响应迅速的应用程序。ZIO具有高性能、类型安全、并发性好、异步性好、资源安全、易于测试、弹性强和函数式编程等特点，已被许多公司用于生产环境。
+
 * [dianping/cat](https://github.com/dianping/cat) CAT 作为服务端项目基础组件，提供了 Java, C/C++, Node.js, Python, Go 等多语言客户端，已经在美团点评的基础架构中间件框架（MVC框架，RPC框架，数据库框架，缓存框架等，消息队列，配置系统等）深度集成，为美团点评各业务线提供系统丰富的性能指标、健康状况、实时告警等。
 
 * [dromara/hutool](https://github.com/dromara/hutool) 功能丰富且易用的Java工具库，通过诸多实用工具类的使用，旨在帮助开发者快速、便捷地完成各类开发任务。 这些封装的工具涵盖了字符串、数字、集合、编码、日期、文件、IO、加密、数据库JDBC、JSON、HTTP客户端等一系列操作， 可以满足各种不同的开发需求。
+
+* [circe/circe](https://github.com/circe/circe) Circe是一个用于Scala（和Scala.js）的JSON库，它提供高效的JSON编解码功能。Circe的设计注重性能和易用性，已被许多知名公司采用，例如BBC、Nike和Criteo等，用于处理海量JSON数据。其工作原理是基于类型安全的Scala代码实现高效的JSON序列化和反序列化。
+
+* [sbt/sbt](https://github.com/sbt/sbt) sbt是一个用于Scala、Java等语言的交互式构建工具，其文档详见https://www.scala-sbt.org/。sbt1.x版本源码分散在多个GitHub仓库中，包括核心模块、IO模块、依赖管理模块和增量编译器Zinc。  用户可参考文档快速上手，并通过Stack Overflow寻求帮助。
+
+* [milessabin/shapeless](https://github.com/milessabin/shapeless) Shapeless是一个基于类型类和依赖类型的Scala泛型编程库，用于抽象化元组大小并减少样板代码。它利用类型级编程技术，允许编写更简洁、更具表达力的代码，广泛应用于生产系统。项目文档相对完善，并有活跃的社区支持。
 
 * [yangchong211/YCBlogs](https://github.com/yangchong211/YCBlogs) 技术博客笔记大汇总，包括Java基础，线程，并发，数据结构；Android技术博客等等；常用设计模式；常见的算法；网络协议知识点；部分flutter笔记；还包括平时开发中遇到的bug汇总，收集了大量的面试题
 
@@ -13260,6 +13762,8 @@
 
 * [pybuilder/pybuilder](https://github.com/pybuilder/pybuilder) PyBuilder是一个用纯Python编写的软件构建工具，主要针对Python应用程序。它基于依赖关系编程的概念，并提供强大的插件机制，允许构建类似于其他著名（Java）构建工具的构建生命周期。PyBuilder支持Python 3.8、3.9、3.10、3.11、3.12和PyPy 3.8、3.9版本。用户可以使用pip安装PyBuilder，并通过创建包含简单配置的build.py文件来开始使用。PyBuilder强调简单性，并提供丰富的插件来扩展其功能。有关更多信息，请访问PyBuilder主页。
 
+* [GrahamDumpleton/wrapt](https://github.com/GrahamDumpleton/wrapt) wrapt是一个Python模块，用于创建装饰器、包装器和猴子补丁。它提供一个透明的对象代理，用于构建函数包装器和装饰器，并注重正确性，超越了`functools.wraps()`，确保装饰器保留自省能力、签名、类型检查等。它使用C扩展模块提高性能，并提供纯Python实现的回退方案。wrapt支持多种场景下的装饰器，包括接受参数的装饰器以及应用于函数、静态方法、实例方法、类方法和类的装饰器，并能正确处理`instance`参数。
+
 * [crazyguitar/pysheeet](https://github.com/crazyguitar/pysheeet) Pysheeet是一个收集 Python 代码片段的项目，旨在帮助开发者节省编码时间，提高效率。它包含了 Python 基础知识、常用库、高级特性等方面的代码示例，涵盖了从代码风格、数据结构到异步编程、数据库操作、安全等多个方面。用户可以自由地 fork 项目并贡献代码，项目还提供了 PDF 版本方便用户离线阅读。项目使用 `make` 命令构建，并通过 `app.py` 启动本地服务器，用户可以通过访问 `localhost:5000` 查看代码示例。
 
 * [Teemu/pytest-sugar](https://github.com/Teemu/pytest-sugar) pytest-sugar是一个 pytest 插件，它通过显示失败和错误、添加进度条、改进测试结果并使输出更美观来扩展 pytest。它可以立即显示失败和错误，并提供进度条，使测试结果更清晰易懂。安装后，插件会自动激活，只需运行 `pytest`命令即可使用。用户可以使用 `pytest --verbose` 获取更详细的输出，也可以使用 `pytest -p no:sugar` 禁用 pytest-sugar。该项目还提供了贡献指南，并列出了类似的项目，如 pytest-rich 和 pytest-pretty。
@@ -13267,6 +13771,8 @@
 * [pyutils/line_profiler](https://github.com/pyutils/line_profiler) line_profiler是一个用于 Python 函数逐行性能分析的模块，kernprof 则是一个方便的脚本，用于运行 line_profiler 或 Python 标准库的 cProfile 或profile 模块。该项目提供 BSD 许可，并支持 Python 2.7 和 3.5 及更高版本。用户可以通过 pip 安装 line_profiler，并使用 `@line_profiler.profile` 装饰器来标记需要分析的函数。设置环境变量 `LINE_PROFILE=1` 运行脚本后，将输出性能分析结果摘要、文件写入磁盘的说明以及检查详细信息的指令。
 
 * [jazzband/geojson](https://github.com/jazzband/geojson) geojson是一个 Python 库，用于对 GeoJSON 格式的数据进行编码和解码，它包含所有 GeoJSON 对象的类，并实现了 Python 的 `__geo_interface__` 规范。该库支持 Python 3.7 到 3.13 版本，可以通过 pip 安装。它包含所有 GeoJSON 对象的实现，例如 Point、MultiPoint、LineString、MultiLineString、Polygon、MultiPolygon、GeometryCollection 和 FeatureCollection，并提供可视化示例。用户可以轻松地创建和操作 GeoJSON 对象，并将其用于各种地理空间应用。
+
+* [xlwings/xlwings](https://github.com/xlwings/xlwings) xlwings是一个开源的Python库，方便地在Excel和Python之间进行双向调用，支持Windows和macOS上的Excel，以及Google Sheets和网页版Excel。它允许用接近VBA语法的Python代码自动化Excel操作、替换VBA宏以及编写自定义函数（UDFs，仅限Windows），并完全支持NumPy数组和Pandas数据结构。付费的xlwings PRO版本则增加了服务器端功能（支持网页版Excel和Google Sheets）、报表系统、更强大的Excel数据读取工具以及简易部署等高级特性。
 
 * [PyCQA/bandit](https://github.com/PyCQA/bandit) Bandit是一个用于查找 Python 代码中常见安全问题的工具。它通过解析代码文件、构建抽象语法树 (AST) 并对 AST 节点运行相应的插件来实现安全检查。Bandit 最初由 OpenStack 安全项目开发，后来迁移到 PyCQA。它可以生成报告，帮助开发者识别和修复代码中的安全漏洞。用户可以使用 Bandit 的徽章展示项目的安全状态。Bandit 提供了容器镜像，支持多种架构，并使用 sigstore cosign 签名以保证镜像来源的可靠性。
 
@@ -13299,6 +13805,8 @@
 * [marimo-team/marimo](https://github.com/marimo-team/marimo) Marimo是一个响应式Python笔记本，它可以运行可重复的实验，作为脚本执行，部署为应用程序，并使用git进行版本控制。Marimo笔记本存储为纯Python代码，可作为脚本执行，并可部署为应用程序。其特点包括：包含电池，响应式，交互式，可重复，可执行，可共享，专为数据设计，git友好，以及现代编辑器。用户可以使用pip安装marimo，并运行`marimo tutorialintro`命令来学习基础知识。
 
 * [rasterio/rasterio](https://github.com/rasterio/rasterio) Rasterio是一个用于读取和写入地理空间栅格数据的Python库，它基于Numpy数组提供API，支持GeoTIFF等格式。Rasterio 1.4支持Python 3.9+、Numpy 1.24+和GDAL 3.5+，并提供Linux、macOS和Windows的官方二进制包。Rasterio提供访问栅格文件属性的方法，例如宽度、高度、坐标参考系统、变换矩阵、波段数量和索引。它还提供获取指定地理坐标的读写窗口的方法，并提供名为&quot;rio&quot;的命令行界面。
+
+* [pyscaffold/pyscaffold](https://github.com/pyscaffold/pyscaffold) PyScaffold是一个用于创建高质量Python项目的模板生成器，生成的项目可以直接在PyPI上共享并通过pip安装。它易于使用，并鼓励采用Python生态系统的最佳工具和实践，帮助开发者提高效率。PyScaffold稳定可靠，已被数千名开发者使用多年，通过简单的命令即可生成包含项目所需一切的模板，并支持多种安装方式(pip, conda, pipx)，还集成了tox用于自动化构建、发布等任务。
 
 * [uwescience/shablona](https://github.com/uwescience/shablona) shablona是一个用于小型科学 Python 项目的模板项目，遵循了科学 Python 生态系统中的标准和约定，方便他人使用你的代码，也方便你将代码移植到其他项目并与其他用户协作。项目结构清晰，包含模块代码、项目数据、测试、文档和构建脚本等部分。模块代码遵循 PEP8 代码格式标准，并使用 flake8 进行代码风格检查。项目数据存储在 csv 文件中，方便管理和使用。
 
@@ -13368,6 +13876,8 @@
 
 * [davidhalter/jedi](https://github.com/davidhalter/jedi) 很棒的 Python 自动完成、静态分析和重构库，Jedi 专注于自动完成和转到功能。其他功能包括重构、代码搜索和查找引用。有一个简单的 API 可供使用。有一个参考实现作为 VIM-Plugin。REPL中的自动完成也是可能的，IPython本机使用它，对于CPython REPL，您可以安装它。绝地武士经过了很好的测试，错误应该很少见。
 
+* [ahupp/python-magic](https://github.com/ahupp/python-magic) python-magic是libmagic文件类型识别库的Python接口，通过检查文件头来识别文件类型，类似于Unix命令`file`。它提供`from_file`和`from_buffer`函数来识别文件类型，并支持MIME类型输出及解压缩文件识别。安装需使用`pip install python-magic`并安装libmagic库（不同系统安装方法不同），如有问题可参考README中的故障排除信息。
+
 * [tartley/colorama](https://github.com/tartley/colorama) Colorama是一个Python库，用于在Windows系统上实现ANSI转义序列，从而支持彩色终端文本和光标定位。它通过包装标准输出流，将ANSI序列转换为相应的Win32调用，从而在Windows上实现与Unix/Mac系统相同的彩色终端输出效果。  该库简单易用，跨平台兼容，无需额外依赖，可通过pip或conda安装，并支持多种Python版本。
 
 * [jd/tenacity](https://github.com/jd/tenacity) Tenacity是一个用Python编写的Apache 2.0许可的通用重试库，用于简化向任何事物添加重试行为的任务。它具有通用的装饰器API，可以指定停止条件（例如尝试次数限制）和等待条件（例如指数退避），并支持自定义异常重试、预期结果重试、协程重试和上下文管理器代码块重试。通过pip install tenacity即可安装。
@@ -13404,6 +13914,8 @@
 
 * [rsalmei/alive-progress](https://github.com/rsalmei/alive-progress) alive-progress是一个全新的 Python 进度条库，它提供实时吞吐量、预计完成时间 (ETA) 和酷炫的动画效果。它使用多线程机制，以低 CPU 使用率的方式更新进度条，并提供准确的 ETA，帮助你更好地规划时间和管理工作负载。此外，它还支持暂停和恢复进度，并提供最终的处理结果摘要。
 
+* [jmcnamara/XlsxWriter](https://github.com/jmcnamara/XlsxWriter) XlsxWriter是一个Python库，用于创建兼容Excel 2007+的XLSX文件。它支持写入文本、数字、公式、超链接等，并提供丰富的格式化功能，例如合并单元格、图表、数据验证、图像插入等，还支持与Pandas和Polars集成以及内存优化模式，兼容Python 3.4+和PyPy3。该库使用标准库，无需额外依赖。
+
 * [uiri/toml](https://github.com/uiri/toml) 这个名为“toml”的 Python 库旨在处理 TOML 数据。它可以将 TOML 格式的字符串解析为 Python 字典，并将 Python 字典转换回 TOML 字符串。它支持 TOML 测试套件并遵循 TOML 规范。该库提供诸如用于解析的“toml.loads”、用于字符串转换的“toml.dumps”和用于写入文件的“toml.dump”等函数。
 
 * [buildbot/buildbot](https://github.com/buildbot/buildbot) Buildbot是一个基于Python的持续集成测试框架，由Brian Warner最初开发，目前由Botherders团队维护。它包含多个组件，如master、worker、www/base、www/console_view、www/waterfall_view等，每个组件都有详细的README文档。Buildbot的官方网站是http://buildbot.net，相关项目包括buildbot-media和buildbot-website。
@@ -13418,9 +13930,15 @@
 
 * [pypa/hatch](https://github.com/pypa/hatch) 现代、可扩展的 Python 项目管理，标准化的构建系统，默认具有可重现的构建、强大的环境管理，支持自定义脚本、可配置的 Python 分发管理、使用合理的默认值进行静态分析、轻松发布到 PyPI 或其他索引、版本管理、最佳实践项目生成、响应式 CLI，比同等工具快 ~2-3 倍
 
+* [camelot-dev/camelot](https://github.com/camelot-dev/camelot) Camelot是一个Python库，用于从PDF文件中提取表格数据。它支持多种输出格式（如CSV、JSON、Excel等），并提供可配置的设置以控制提取过程，例如根据准确性和空白度量来过滤结果。Camelot仅适用于基于文本的PDF，不适用于扫描文档，并提供命令行界面和网页接口Excalibur。
+
 * [pytest-dev/pytest-xdist](https://github.com/pytest-dev/pytest-xdist) pytest-xdist是一个 pytest 插件，它扩展了 pytest，提供新的测试执行模式，例如将测试分布到多个 CPU 上以加速测试执行。例如，使用 `pytest -n auto` 命令，pytest 会根据 CPU 数量自动生成多个工作进程，并随机分配测试到这些进程上。该插件的文档可在 Read The Docs 上找到。
 
 * [ml-tooling/best-of-python](https://github.com/ml-tooling/best-of-python) 这是一个每周更新的 Python 开源库和工具排名列表，包含 390个项目，共计 180 万颗星，分为 28 个类别。每个项目的排名基于从 GitHub 和不同的包管理器自动收集的各种指标计算得出的项目质量评分。该项目欢迎贡献，你可以提交问题、拉取请求或直接编辑项目文件。
+
+* [python-attrs/attrs](https://github.com/python-attrs/attrs) attrs是一个Python包，通过简化对象协议的实现（例如dunder方法），让编写类变得更轻松愉快，从而编写简洁、正确的代码且不降低速度；它提供类装饰器和声明式属性定义方式，帮助开发者避免编写大量样板代码；自2020年以来，NASA的火星任务也信任并使用该项目。
+
+* [eliben/pycparser](https://github.com/eliben/pycparser) pycparser是一个用纯Python编写的C99语言解析器，支持大部分C99特性和部分C11特性，可用于C代码混淆、编译器前端、静态代码检查等多种场景，其代码易于理解，且无需外部依赖，仅需Python解释器即可运行，采用BSD许可证。它紧密遵循C99标准的语法，推荐使用pip安装。
 
 * [microsoft/vscode-jupyter](https://github.com/microsoft/vscode-jupyter) Microsoft为VS Code开发的Jupyter扩展程序，支持在VS Code中运行Jupyter Notebook，并兼容多种语言内核。它并非Jupyter内核本身，需要用户已安装Jupyter包的Python环境。该扩展程序还自动安装其他扩展以增强功能，并支持在浏览器（vscode.dev和GitHub Codespaces）中编辑Jupyter Notebook。
 
@@ -13430,9 +13948,13 @@
 
 * [tox-dev/tox](https://github.com/tox-dev/tox) tox是一个命令行驱动的 CI 前端和 Python 开发任务自动化工具，它旨在自动化和标准化 Python 测试，帮助开发者在不同环境（如不同 Python 版本、实现或依赖）下检查包构建和安装，并在每个环境中运行测试，并作为持续集成服务器的前端，简化 CI 和 shell 测试流程。
 
+* [martinblech/xmltodict](https://github.com/martinblech/xmltodict) xmltodict是一个Python模块，它使处理XML就像处理JSON一样简单，它将XML转换为类似JSON的字典结构，支持命名空间处理（包括命名空间的展开、折叠和忽略），并提供基于Expat的快速流式模式，适用于处理大型XML文件（如Discogs或Wikipedia数据），还支持将字典转换回XML。
+
 * [benfred/py-spy](https://github.com/benfred/py-spy) Python程序的采样分析器。它使您可以可视化Python程序花费的时间，而无需重新启动程序或以任何方式修改代码。py-spy的开销非常低：它是用 Rust 编写的，以提高速度，并且不会在与分析的 Python 程序相同的进程中运行。这意味着py-spy可以安全地用于生产Python代码。
 
 * [exaloop/codon](https://github.com/exaloop/codon) 高性能的 Python 实现，可编译为本机机器代码，而不会产生任何运行时开销。在单个线程上，与普通 Python 相比，典型的加速约为 10-100 倍或更多。密码子的性能通常与 C/C++ 相当（有时甚至更好）。与 Python 不同，Codon 支持原生多线程，这可以使速度提高许多倍。
+
+* [pydata/pandas-datareader](https://github.com/pydata/pandas-datareader) pandas-datareader是一个Python库，它可以从多种网络数据源（例如FRED）读取数据并将其转换为pandas DataFrame格式。只需使用pip安装即可，通过简单的函数调用即可获取数据，例如`pdr.get_data_fred('GS10')`。该项目支持多种pandas版本，并提供详细的文档和多种安装方式。
 
 * [ipython/ipython](https://github.com/ipython/ipython) IPython 本身的官方存储库。IPython 组织中的其他存储库包含网站、文档构建等内容。IPython （Interactive Python） 是一个用于多种编程语言的交互式计算的命令 shell，最初是为 Python 编程语言开发的，它提供内省、富媒体、shell 语法、Tab 自动补全和历史记录。
 
@@ -13464,6 +13986,8 @@
 
 * [bokeh/bokeh](https://github.com/bokeh/bokeh) 用于现代 Web 浏览器的交互式可视化库。它提供了优雅、简洁的多功能图形结构，并在大型或流式数据集中提供了高性能的交互性。散景可以帮助任何想要快速轻松地创建交互式绘图、仪表板和数据应用程序的人。
 
+* [more-itertools/more-itertools](https://github.com/more-itertools/more-itertools) more-itertools是Python库itertools的扩展，提供更多处理迭代器的函数，例如分组、分割、批处理等功能，方便构建优雅的迭代器解决方案，它基于Python标准库的itertools，并增加了许多实用工具函数来处理迭代对象。
+
 * [getlogbook/logbook](https://github.com/getlogbook/logbook) Logbook是一个用于 Python 的日志记录替代方案，易于设置、使用和配置，并支持 Web 应用程序。它提供了一种更友好的方式来记录信息，并支持各种格式和输出方式。更多信息请访问：https://logbook.readthedocs.org。
 
 * [PySimpleGUI/PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI) 轻松创建复杂的窗口。支持tkinter，Qt，WxPython，Remi（在浏览器中）。使用全套小部件轻松创建 GUI 应用程序。多窗口应用程序也很简单。支持 3.4 至 3.11。325+ 演示程序和食谱，用于快速入门。广泛的文档
@@ -13475,6 +13999,8 @@
 * [piskvorky/bounter](https://github.com/piskvorky/bounter) Bounter是一个高效的计数器，它使用有限的内存，无论数据大小，都能够有效地进行计数。它通过使用一个有限的内存池来存储计数信息，并利用哈希函数来解决冲突，从而实现高效的计数功能。
 
 * [fabric/fabric](https://github.com/fabric/fabric) 通过 SSH 远程执行 shell 命令，从而产生有用的 Python 对象作为返回。它建立在Invoke（子流程命令执行和命令行功能）和Paramiko（SSH协议实现）之上，扩展了它们的API以相互补充并提供额外的功能。
+
+* [yaml/pyyaml](https://github.com/yaml/pyyaml) PyYAML是Python的一个功能齐全的YAML处理框架，支持快速LibYAML绑定（可选），提供`yaml.load`/`yaml.dump`以及更安全的`yaml.safe_load`函数处理YAML数据；包含完整的测试套件，并通过MIT许可证开源发布。
 
 * [Nuitka/Nuitka](https://github.com/Nuitka/Nuitka) 用Python编写的Python编译器。它与Python 2.6，2.7，3.4，3.5，3.6，3.7，3.8，3.9，3.10和3.11完全兼容。你给它提供你的Python应用程序，它做了很多聪明的事情，并吐出一个可执行文件或扩展模块。
 
@@ -14642,6 +15168,8 @@
 
 * [OpenXRay/xray-16](https://github.com/OpenXRay/xray-16) OpenXRay是 GSC Game World 开发的著名游戏系列《S.T.A.L.K.E.R.》中使用的 X-Ray 引擎的改进版本。该项目旨在提供一个可替代原版引擎的方案，支持所有三款游戏（SOC/CS/COP），修复原版游戏中的错误，并为模组制作提供一个坚实的基础。OpenXRay 支持 64 位系统，并可在 Linux、macOS、OSL 等平台上运行，还包括一个新的 OpenGL 渲染器，提升了性能和 FPS，并提供游戏手柄支持。该项目目前正在开发新的游戏 SDK，并提供详细的文档和社区支持。
 
+* [Relintai/broken_seals](https://github.com/Relintai/broken_seals) BrokenSeals是一款开源的第三人称多人在线动作角色扮演游戏，旨在打造媲美经典MMO和动作RPG的复杂深度游戏体验。它基于作者自定义的Godot引擎Pandemonium Engine开发，支持单人和多人模式，已发布可执行文件和网页版（网页版编辑器功能受限）。目前游戏内容仍在开发中，计划增加更多模型、音效、区域、职业和功能，例如多世界支持和改进多人游戏功能，已实现的功能包括多人服务器、角色技能、装备系统、天赋树等。
+
 * [stuntrally/stuntrally3](https://github.com/stuntrally/stuntrally3) Stunt Rally3 是一个 3D 赛车游戏，包含科幻元素和自己的赛道编辑器，可在 GNU/Linux 和 Windows 上运行。游戏采用拉力赛风格的驾驶和滑行，主要在碎石和松散的路面上进行，并包含跳跃、循环、管道等特技元素。游戏包含许多科幻车辆和不同的星球，甚至超现实的场景。所有赛道和车辆都可以在网站上浏览。Stunt Rally 3.x 基于 Ogre-Next 3.0 进行渲染，使用 VDrift 进行模拟，并提供单人比赛、挑战、锦标赛、教程等游戏模式。
 
 * [pioneerspacesim/pioneer](https://github.com/pioneerspacesim/pioneer) Pioneer是一款开放式太空冒险游戏，设定在31世纪的银河系。玩家可以自由探索数百万个星系，登陆行星，绕过气态巨行星，甚至在双星系统之间穿梭。玩家可以选择成为海盗、商人或加入不同派系完成任务，并参与权力、自由或自决的斗争。项目提供多种资源，包括官方网站、社区论坛、维基百科和开发文档，方便玩家获取游戏信息、参与社区互动和贡献代码。最新版本可以在官方网站下载，也可以从源代码编译。
@@ -14706,6 +15234,8 @@
 
 * [scarsty/kys-cpp](https://github.com/scarsty/kys-cpp) 这是一个使用SDL2库开发的《金庸群侠传》C++复刻版，已完成。该项目基于DOS游戏《金庸群侠传》改编，并加入了现代化的游戏机制，例如战斗系统、地图系统等。玩家可以自由选择不同的战斗模式，并通过修改配置文件来调整游戏难度。项目代码已开源，并提供详细的编译教程，玩家可以自行编译运行。
 
+* [notapixelstudio/starship-olympics](https://github.com/notapixelstudio/starship-olympics) Starship Olympics是一款快节奏的本地多人派对游戏，玩家驾驶星际飞船在2D俯视角竞技场中战斗。游戏支持1-4名玩家，采用直观的单键操控，易于上手。它包含20多种游戏模式（持续开发中），提供单人、对战和合作模式，并完全免费且开源。玩家将扮演来自不同种族的飞行员，在星际运动会中争夺冠军。
+
 * [citybound/citybound](https://github.com/citybound/citybound) Citybound是一款正在开发中的开源多人城市模拟游戏，专注于现实主义、协作规划和微观细节模拟。它由独立开发者开发，开源并通过 Patreon资助。项目主页提供截图和视频，最新版本可供 Windows、Mac 和 Linux 用户下载。项目还提供详细的设计文档，包括计划、灵感和参考，以及 AGPL 许可证和贡献指南。
 
 * [dalerank/caesaria-game](https://github.com/dalerank/caesaria-game) CaesarIA是一个开源的城市建设和经济策略游戏，它是对经典游戏 Caesar III 的重制。它使用 SDL2 引擎，支持 Windows、Mac、Linux 和 Android平台。游戏目前处于开发阶段，但可玩性很高，玩家可以下载并体验。游戏需要从原始 Caesar III 游戏中复制资源文件，并使用cmake 进行编译。更多信息请访问项目网站。
@@ -14715,6 +15245,8 @@
 * [hedgewars/hw](https://github.com/hedgewars/hw) Hedgewars是一款回合制策略游戏，玩家控制一支最多8只刺猬的队伍，使用超过40种武器攻击并消灭对手的刺猬，最终获胜。游戏特色包括：丰富的武器系统，爆炸特效会改变地形，多种移动方式，以及时间限制的回合制玩法。游戏支持单人模式和多人模式，并提供多种训练任务帮助玩家熟悉游戏。
 
 * [space-wizards/space-station-14](https://github.com/space-wizards/space-station-14) Space Station 14 是一个多人太空站模拟游戏，以混乱和猜疑为主题，是经典游戏 Space Station 13 的重制版。游戏基于 Robust Toolbox引擎开发，玩家可以在一个充满危险和机遇的太空站中扮演各种角色，并体验各种事件和互动。该项目提供详细的文档和指南，欢迎贡献者加入开发，并提供多种语言版本。
+
+* [P1X-in/tanks-of-freedom-ii](https://github.com/P1X-in/tanks-of-freedom-ii) Tanksof Freedom II是一款等距像素风格的开放源码回合制策略游戏，最多支持四支军队对战，包含单人战役和双人热座模式。游戏采用Godot Engine 4.2+开发，其精美的32色像素模型和在GameBoy硬件上制作的音效是其特色，并提供内置地图编辑器方便玩家创作和分享地图。项目进度可在Trello看板上追踪。
 
 * [MegaGlest/megaglest-source](https://github.com/MegaGlest/megaglest-source) MegaGlest是一个开源的跨平台3D即时战略游戏引擎，它提供了一个免费的、娱乐性的游戏体验，玩家可以控制七个不同阵营的军队，在17个自然环境中进行战斗。游戏拥有精美的模型和细节，并提供大量免费下载的额外游戏数据。该项目提供开发教程和Git工作流程指南，方便用户自行编译游戏。
 
@@ -14742,6 +15274,8 @@
 
 * [justinmeister/Mario-Level-1](https://github.com/justinmeister/Mario-Level-1) 这是一个用 Python 和 Pygame 制作的超级马里奥兄弟第一关游戏，玩家可以使用方向键控制马里奥移动，使用“a”键跳跃，使用“s”键进行攻击或奔跑。该项目需要 Pygame 库，并提供 Python 2 和 Python 3 版本的安装说明，以及视频演示。该项目仅供非商业教育目的使用。
 
+* [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) Thrive是一款进化类游戏，其代码库位于此GitHub项目中。该游戏使用C#和Godot引擎开发，项目包含游戏资源、文档、脚本和测试等，并支持Git LFS管理大型资源文件。开发者可通过贡献指南参与开发，并可通过项目提供的链接访问社区论坛、开发者Wiki以及翻译平台。
+
 * [stride3d/stride](https://github.com/stride3d/stride) Stride (原名 Xenko) 是一款免费开源的跨平台 C# 游戏引擎，支持逼真的渲染和 VR。它高度模块化，旨在为游戏开发者提供更大的开发灵活性。Stride 自带一个编辑器，允许您以直观的方式创建和管理游戏或应用程序的内容。您可以访问 stride3d.net 了解更多信息。
 
 * [godotengine/awesome-godot](https://github.com/godotengine/awesome-godot) AwesomeGodot 是一个精选的 Godot 游戏、插件、附加组件和脚本列表，包含免费/自由软件。该项目包含 2D 和 3D游戏、项目模板、演示、教程、插件和脚本、模块、GDScript/C# 编辑器支持、Godot 脚本编辑器语法主题、非官方 Godot 版本、Bash 脚本、网站和其他资源。
@@ -14751,6 +15285,8 @@
 * [openblack/openblack](https://github.com/openblack/openblack) openblack是一个开源游戏引擎，可以用来运行《黑与白 (2001)》。它使用现代 C++ 和现代渲染引擎（OpenGL、Vulkan）编写，需要使用原始游戏资源才能运行。项目提供预编译的二进制文件，支持 Windows、macOS、Linux 等平台，以及实验性的Android、iOS 等平台。
 
 * [dyang886/Game-Cheats-Manager](https://github.com/dyang886/Game-Cheats-Manager) Game Cheats Manager 为玩家提供了一个高效管理游戏修改器的一站式解决方案。它允许用户在一个便捷的位置浏览、下载和管理所有修改器。每个修改器，通常是一个独立的可执行文件，都可以通过应用程序直接启动或删除，从而简化您的游戏体验。
+
+* [Orama-Interactive/Pixelorama](https://github.com/Orama-Interactive/Pixelorama) Pixelorama是一款功能强大的开源像素艺术多功能工具，支持创建精灵、图块、动画等，可在Windows、Linux、macOS和网页上使用。它提供丰富的功能，让您轻松实现像素完美的梦想。该项目提供稳定版和抢先体验版下载，并有活跃的Discord社区支持。
 
 * [screeps/screeps](https://github.com/screeps/screeps) 用于编写游戏 Screeps 的独立服务器。Screeps 是一款面向程序员的 MMO RTS 沙盒游戏，其中核心机制是为您的单位 AI 编程。你通过编写 JavaScript 来控制你的殖民地，这些 JavaScript 在由与你同等的其他玩家填充的单一持久世界中 24/7 全天候运行。
 
@@ -14771,6 +15307,8 @@
 * [libsdl-org/SDL](https://github.com/libsdl-org/SDL) Simple DirectMedia Layer 是一个跨平台开发库，旨在提供对音频、键盘、鼠标、操纵杆和图形硬件的低级访问。它被视频播放软件、模拟器和流行游戏使用，包括 Valve 的获奖目录和许多 Humble Bundle 游戏。
 
 * [boardgameio/boardgame.io](https://github.com/boardgameio/boardgame.io) 使用 JavaScript 创建回合制游戏的引擎。编写简单的函数来描述在进行特定移动时游戏状态如何变化。这会自动转换为具有在线多人游戏功能的可玩游戏，而无需您编写任何网络或存储代码。
+
+* [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) Heroic Games Launcher 是一个开源的游戏启动器，支持 Linux、Windows 和 macOS，可以启动 Epic Games Store、GOG Games 和 Amazon Games 游戏。它使用 Web 技术构建，包括 TypeScript、React、MUI、NodeJS、Electron 等。
 
 * [colyseus/colyseus](https://github.com/colyseus/colyseus) 权威的 Node.js 多人游戏框架，其 SDK 可用于 Web、Unity、Defold、Haxe、Cocos 和 Construct3。该项目的重点是为实时和回合制游戏提供可同步的数据结构、匹配以及服务器端和客户端的易用性。
 
@@ -15018,11 +15556,15 @@
 
 * [bombshell-dev/clack](https://github.com/bombshell-dev/clack) Clack是一个用于构建美观命令行应用程序的工具集，它包含两个主要部分：`@clack/core` 提供了无样式的可扩展 CLI 原语，而 `@clack/prompts` 则提供了美观且易于使用的 CLI 提示组件。Clack 能够帮助开发者轻松创建功能强大且用户友好的命令行应用程序，并提供丰富的功能，例如交互式提示、自定义样式等。
 
+* [gizak/termui](https://github.com/gizak/termui) termui是一个基于termbox-go的跨平台Go语言终端仪表盘和组件库，提供多种预制组件和自定义组件创建功能，支持网格布局或绝对坐标定位，并能响应键盘、鼠标和终端大小调整事件。它具有颜色和样式设置功能，并受到blessed-contrib和tui-rs的启发。项目维护更新频率可能不稳定，欢迎贡献者参与维护。
+
 * [jarun/nnn](https://github.com/jarun/nnn) 功能齐全的终端文件管理器。它很小，几乎是 0 配置，而且速度快得令人难以置信。nnn 可以分析磁盘使用情况、批量重命名、启动应用程序和选择文件。插件存储库有大量的插件来进一步扩展功能，例如实时预览、（取消）挂载磁盘、查找和列表、文件/目录差异、上传文件。
 
 * [pexpect/ptyprocess](https://github.com/pexpect/ptyprocess) ptyprocess是一个Python库，用于在伪终端（pty）中运行子进程，并与子进程及其pty进行交互。它适用于需要模拟终端交互的场景，例如处理密码提示、终端输出变化或使用依赖终端的库（如curses）。该库提供了一个简单的接口，允许用户读取和写入pty，并控制子进程的执行。
 
 * [svenstaro/genact](https://github.com/svenstaro/genact) 无意义的活动生成器，假装忙碌或等待你的电脑，而你实际上应该在做真正的工作！用你疯狂的多任务处理技能给人们留下深刻印象。只需打开几个 genact 实例并观看节目。Genact 有多个场景，假装正在做一些令人兴奋或有用的事情，而实际上根本没有发生任何事情。
+
+* [cs01/termpair](https://github.com/cs01/termpair) TermPair是一个允许开发者安全地实时共享和控制终端的工具，它使用端到端AES 128位加密，服务器无法读取终端数据。用户可以通过浏览器访问和控制远程终端，支持多人同时连接，并可设置读写或只读权限。  安装方便，支持pipx或pip安装，也提供可执行文件下载。
 
 * [eza-community/eza](https://github.com/eza-community/eza) eza 是 Unix 和 Linux 操作系统附带的古老文件列表命令行程序 ls 的现代维护替代品，为其提供了更多功能和更好的默认值。它使用颜色来区分文件类型和元数据。它知道符号链接、扩展属性和 Git。而且它体积小、速度快，而且只有一个二进制文件。
 
@@ -15031,6 +15573,8 @@
 * [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) 一个跨平台（Windows、Linux 和 macOS）自动化和配置工具/框架，可与现有工具配合使用，并针对处理结构化数据（例如 JSON、CSV、XML 等）、REST API 和对象模型进行了优化。它包括命令行 shell、关联的脚本语言和用于处理 cmdlet 的框架。
 
 * [termux/termux-app](https://github.com/termux/termux-app) 适用于 Android 操作系统的终端模拟器应用程序，可通过各种软件包进行扩展。适用于 Android 的终端模拟器，其环境类似于 Linux 环境。 无需Root或设置即可使用。 Termux 会自动进行最小安装 - 使用 APT 包管理器即可获得其他软件包。
+
+* [aksakalli/gtop](https://github.com/aksakalli/gtop) 终端系统监控仪表板，支持Linux/OSX/Windows（部分支持），需要Node.js &gt;= v8，安装命令为`npm install gtop -g`，可通过Docker运行并访问主机机器的指标，启动命令为`gtop`，可按`p`、`c`、`m`键分别按进程ID、CPU使用率、内存使用率排序。
 
 * [brenns10/lsh](https://github.com/brenns10/lsh) C 语言中 shell 的简单实现，它是我网站上教程的主题。它演示了 shell 工作原理的基础知识。即：读取、解析、分叉、执行和等待。由于其目的是演示（不是功能完整性，甚至不适合随意使用），因此它有许多局限性
 
@@ -15194,13 +15738,19 @@
 
 * [amix/vimrc](https://github.com/amix/vimrc) 在过去的 10 年里，我一直在使用和调整 Vim。这个配置是最终的 vimrc（或者至少是我的版本）。有两个版本：基本：如果你想要一些小的东西，只需将 basic.vim 复制到你的 ~/.vimrc 中，你就会有一个很好的基本设置。The Awesome：包括大量有用的插件、配色方案和配置
 
+* [visualfc/liteide](https://github.com/visualfc/liteide) LiteIDE是一个简单易用的开源跨平台Go语言IDE，版本X38.3，支持Windows、Linux、macOS等多种系统。它具有代码编辑、Go语言开发支持（包括Go modules、Go work等）、系统环境管理、插件系统、集成终端等功能，并集成gocode和gomodifytags等工具，方便进行Go语言开发和调试。
+
 * [Dman95/SASM](https://github.com/Dman95/SASM) SASM是一个跨平台的开源IDE，支持NASM、MASM、GAS和FASM汇编语言。它具有语法高亮和调试功能，非常适合初学者学习汇编语言。SASM已经翻译成俄语、英语、土耳其语、中文、德语、意大利语、波兰语、希伯来语和西班牙语。SASM基于Qt框架，使用GNU GPL v3.0许可证。
 
 * [doomemacs/doomemacs](https://github.com/doomemacs/doomemacs) GNU Emacs 的配置框架，专为 Emacs 破产老手量身定制，他们希望框架中的框架更少，包管理器有一点稳定性（和可重复性），以及手动配置的性能（或更好）。它可以成为您自己配置的基础，也可以成为 Emacs 爱好者了解更多关于我们最喜欢的操作系统的资源。
 
 * [espanso/espanso](https://github.com/espanso/espanso) 用 Rust 编写的跨平台文本扩展器，文本扩展器是一种程序，可以检测您何时键入特定关键字并将其替换为其他内容。这在许多方面都很有用：省去大量的打字，扩展常用句子。创建系统范围的代码片段。执行自定义脚本。像专业人士一样使用表情符号。
 
+* [udecode/plate](https://github.com/udecode/plate) Plate是一个由AI驱动的富文本编辑器框架，它基于slate-react，拥有简洁高效的设计。Plate包含核心、插件、基础组件和示例组件四个部分，提供多种模板（包括Notion风格模板）方便快速上手，并支持自定义插件扩展功能，文档详尽，欢迎贡献代码。
+
 * [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon) Neovim 插件，由 ThePrimeagen 开发，旨在改进开发者在编辑器中管理代码文件和执行项目命令的方式。通过提供一种更高效的方式来标记和访问常用的文件，harpoon 能够帮助开发者减少在项目中切换文件时的重复动作，从而提高开发效率。
+
+* [tinymce/tinymce](https://github.com/tinymce/tinymce) TinyMCE 是全球领先的开源富文本编辑器，支持 React、Vue 和 Angular，拥有超过 3.5 亿次下载量，广泛应用于各大企业级项目。它易于集成，高度可定制，提供多种编辑模式和 50 多个插件，支持自定义扩展，适用于各种复杂需求。
 
 * [Bryley/neoai.nvim](https://github.com/Bryley/neoai.nvim) NeoAI 是一个 Neovim 插件，它将 OpenAI 的 GPT-4 的强大功能直接带到您的编辑器中。它可以帮助您生成代码、重写文本，甚至在代码上下文中获取建议。该插件具有用户友好的界面，可以轻松与 AI 交互并获得所需的帮助。
 
@@ -15386,6 +15936,8 @@
 
 * [bchavez/Bogus](https://github.com/bchavez/Bogus) Bogus是一个简单易用的 .NET 假数据生成器，支持 C#、F# 和 VB.NET。它基于并移植自著名的 faker.js，并借鉴了 FluentValidation 的语法糖。Bogus 可以帮助您用假数据填充数据库、UI 和应用程序，以满足您的测试需求。Bogus基于 .NET Standard 1.3 或更高版本，并提供 NuGet 包。它已被多个知名项目使用，包括 Bitwarden Passwordless Server、Elasticsearch .NET Client (NEST) 和 FluentValidation。
 
+* [atinfo/awesome-test-automation](https://github.com/atinfo/awesome-test-automation) 一个精选的测试自动化框架、工具、库和软件列表，支持多种编程语言，帮助软件工程师在需要时轻松启动测试自动化。该项目由https://testomat.io、https://zapple.tech和https://automated-testing.info赞助。内容涵盖Python、Java、Ruby、C#、PHP、JavaScript、Kotlin、移动测试自动化、通用测试自动化工具等。项目还包括《通过示例进行实用的测试自动化》。支持并欢迎贡献！
+
 * [mhadidg/software-architecture-books](https://github.com/mhadidg/software-architecture-books) 该项目是一个关于软件架构书籍的综合性列表，包含系统架构、设计模式、领域驱动设计、微服务、数据工程、流式处理和消息传递、分布式系统、云工程、Web 可扩展性、敏捷、DevOps 等多个主题。该列表基于 Goodreads 上的软件架构书籍，并根据评分、评论数量和出版日期等因素进行排序，旨在为读者提供一个参考，帮助他们选择合适的书籍进行学习。
 
 * [sdiehl/write-you-a-haskell](https://github.com/sdiehl/write-you-a-haskell) 该项目是一个从基础开始构建现代函数式编译器的教程，它以 Haskell 语言为基础，逐步讲解了编译器的各个组成部分，包括解析、词法分析、类型系统、代码生成等，并提供了一个名为 ProtoHaskell 的示例语言的实现。该教程包含了 28 章内容，涵盖了从基础的 Haskell 语法到高级的编译器设计，并提供了在线 HTML 和 PDF 版本，以及代码示例和构建说明。
@@ -15399,6 +15951,8 @@
 * [perklet/reverse-interview-zh](https://github.com/perklet/reverse-interview-zh) 这是一个包含技术面试反问面试官问题的列表，旨在帮助你更好地了解公司和职位。列表中包含一些常见问题，以及一些更深入的问题，可以帮助你评估公司的文化、价值观和发展方向。你可以根据自己的情况选择合适的提问，并根据面试官的回答进行更深入的了解。项目还提供英文、韩语、葡萄牙语和繁体中文等多种语言版本。
 
 * [EndlessCheng/codeforces-go](https://github.com/EndlessCheng/codeforces-go) 这是一个用 Go 语言编写的算法竞赛模板库，由灵茶山艾府维护。它包含了常见的算法和数据结构的实现，例如单调栈、单调队列、双端队列、堆、并查集等，并提供了一些代码片段和示例，方便竞赛选手快速上手。该库还涵盖了常见的竞赛问题类型，如数论、图论、动态规划等，可以帮助选手更好地理解和解决算法问题。
+
+* [liuchong/awesome-roadmaps](https://github.com/liuchong/awesome-roadmaps) 一个精选的路线图列表，主要关于软件开发，帮助你清晰地规划提升知识或技能的路径。项目包含编程语言（如C++、Go、Java、Node.js、PHP、Rust）、Web开发（如Angular、ASP.NET Core）、移动开发、游戏开发、AI/机器学习/数据科学等领域的路线图。每个路线图都有具体的年份标识，欢迎贡献，可以通过拉请求或创建问题来参与。
 
 * [dailydotdev/daily](https://github.com/dailydotdev/daily) daily.dev是一个为开发者打造的专业网络，旨在帮助开发者学习、协作和共同成长。它提供个性化的新闻资讯、开发者社区和搜索功能，旨在为开发者提供更优质的体验。daily.dev 可离线使用，并提供浏览器扩展和渐进式网页应用 (PWA) 版本。开发者可以通过 Chrome 和 Edge 浏览器下载使用，也可以在移动设备上使用 PWA 版本。
 
@@ -15450,7 +16004,11 @@
 
 * [oldratlee/translations](https://github.com/oldratlee/translations) 这是一个收集经典软件开发资源的中文翻译项目，旨在帮助开发者更便捷地学习和理解英文资料。项目特色包括：方便开发者深入学习，提升写作技能，并提供高质量的中文翻译资源。项目原理是将经典英文资源进行翻译，并提供开源代码，方便开发者使用和贡献。
 
+* [JoseDeFreitas/awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers) 一个包含众多技术类YouTuber的精选列表，涵盖Web开发、计算机科学、机器学习、游戏开发、网络安全等领域教程。主要内容包括React.js、JavaScript、前端和后端开发等技术，适合观看视频学习技术知识。该项目仅包含英语频道，其他语言的列表可在其他仓库找到。
+
 * [forthespada/CS-Books](https://github.com/forthespada/CS-Books) 超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计模式、前端、汇编以及校招社招各种面经
+
+* [forthespada/InterviewGuide](https://github.com/forthespada/InterviewGuide) 「InterviewGuide」是阿秀从校园到职场多年计算机自学的记录及学弟学妹们计算机校招&amp;秋招经验总结文章汇总，包括C/C++、Golang、JavaScript、Vue、操作系统、数据结构、计算机网络、MySQL、Redis等学习总结，旨在帮助大家通过系统学习和经验分享提升技术水平。
 
 * [crystal-lang/crystal](https://github.com/crystal-lang/crystal) 一种编程语言，具有以下目标：具有类似于 Ruby 的语法（但与它的兼容性不是目标）。静态类型检查，但不必指定变量或方法参数的类型。能够通过在 Crystal 中编写绑定来调用 C 代码。具有编译时评估和代码生成，以避免样板代码。编译为高效的本机代码。
 
@@ -15463,6 +16021,8 @@
 * [chubin/cheat.sh](https://github.com/chubin/cheat.sh) 统一访问世界上最好的社区驱动的备忘单存储库。涵盖 56 种编程语言、多种 DBMS 和 1000 多个最重要的 UNIX/Linux 命令。提供对世界上最好的社区驱动的备忘单存储库的访问，与 StackOverflow 相当。随处可用，无需安装，但可以安装以供离线使用。
 
 * [HaxeFoundation/haxe](https://github.com/HaxeFoundation/haxe) 可让您轻松构建面向许多主流平台的跨平台工具和应用程序。Haxe 工具包包括：Haxe 编程语言，一种现代、高级、严格类型的编程语言、Haxe 交叉编译器，适用于许多目标的最先进的闪电般的编译器、Haxe 标准库，一个完整的跨平台通用功能库
+
+* [Olshansk/interview](https://github.com/Olshansk/interview) 一个准备技术面试所需的一切，包括算法书籍、编码练习平台、指南、模拟面试资源等，涵盖多种编程语言和技术领域，如Android、ASP.NET、C#、Go、JavaScript、Node、PHP、Python、React等，还有其他主题如加密、数学、网络、操作系统和系统设计。
 
 * [justinamiller/SoftwareArchitect](https://github.com/justinamiller/SoftwareArchitect) 什么是软件架构师？软件架构师是做出高级设计选择并规定技术标准（包括软件编码标准、工具和平台）的软件专家。 软件架构是系统的基本组织，由其组件、组件之间的关系以及与环境的关系以及决定系统设计和演化的原则来表示。
 
@@ -15797,6 +16357,8 @@
 * [tugraph-family/tugraph-analytics](https://github.com/tugraph-family/tugraph-analytics) TuGraph Analytics(别名：GeaFlow) 是蚂蚁集团开发的分布式图计算引擎，支持万亿级图存储、混合图表处理、实时图计算和交互式图分析等核心功能，广泛应用于数据仓库加速、金融风控、知识图谱和社交网络等场景。它提供两种编程接口：DSL 和 API，支持使用 SQL+ISO/GQL 扩展语言开发流式图计算作业，或使用 Java 开发应用程序。
 
 * [petgraph/petgraph](https://github.com/petgraph/petgraph) petgraph是一个 Rust 语言编写的图数据结构库，提供了多种图类型，包括`GraphMap`、`StableGraph` 和 `MatrixGraph`，支持 Rust 1.64 及更高版本。该库提供可选的序列化功能（使用 serde 1.0）和并行迭代器（使用 Rayon），并拥有一个名为 &quot;Sir Paul Rustory Graphosaurus&quot; 的吉祥物。该库采用 Apache 2.0 或 MIT 许可证发布。
+
+* [cayleygraph/cayley](https://github.com/cayleygraph/cayley) Cayley是一个开源的链接数据图数据库，其设计灵感源于Google知识图谱背后的数据库。它具有内置查询编辑器、可视化工具和REPL，支持Gizmo、GraphQL和MQL等多种查询语言，并具有模块化、高性能和生产就绪等特点，能够快速处理大型图数据，例如轻松处理包含1.34亿个四元组的数据集。
 
 * [apache/incubator-s2graph](https://github.com/apache/incubator-s2graph) [S2Graph](http://s2graph.apache.org/)是一个图形数据库，旨在大规模处理事务性图形处理。它的 REST API 允许您以完全异步和非阻塞的方式使用边缘和顶点表示来存储、管理和查询关系信息。S2Graph 是[Apache TinkerPop](https://tinkerpop.apache.org/)在[Apache HBASE](https://hbase.apache.org/)上的一个实现。
 
@@ -16362,6 +16924,8 @@
 
 * [shashank88/system_design](https://github.com/shashank88/system_design) 该项目是一个系统设计准备资源库，旨在帮助软件工程师和学生了解大型分布式系统的设计思路，并为系统设计面试做好准备。项目提供了一些基础知识学习资源，包括操作系统、网络、并发、数据库等方面的基础知识，以及一些知名系统设计视频教程和书籍推荐，例如Gaurav Sen的系统设计系列、David Malan的CS75可扩展性演讲、David Huffman的扩展演讲等。项目还提供了一些常见系统设计问题和一些公司工程博客链接，帮助用户更好地理解系统设计理念和实践。
 
+* [moby/swarmkit](https://github.com/moby/swarmkit) SwarmKit是一个用于编排任何规模分布式系统的工具包，它包含节点发现、基于Raft共识的调度等功能。其核心优势在于分布式架构（基于Raft共识算法，无单点故障），安全性（内置安全通信和角色授权，使用mTLS），以及易用性（无需外部数据库）。SwarmKit将机器分组为Swarm，包含管理节点和工作节点，管理节点负责协调集群状态，工作节点运行任务（例如Docker容器）。通过服务定义任务和更新策略（如副本数量、滚动更新），实现对任务的编排和管理。
+
 * [SigNoz/signoz](https://github.com/SigNoz/signoz) SigNoz是一个开源的可观测性平台，原生支持OpenTelemetry，将日志、跟踪和指标整合在一个应用程序中。它是DataDog、NewRelic等产品的开源替代方案。SigNoz提供应用程序性能监控 (APM) 和可观测性工具，使用ClickHouse作为日志数据存储，可以帮助您监控应用程序、发现问题并快速排查故障。SigNoz支持OpenTelemetry，可以轻松集成到您的应用程序中，并提供丰富的图表和可视化工具，例如火焰图和甘特图，帮助您深入了解应用程序的性能和行为。
 
 * [apache/pulsar](https://github.com/apache/pulsar) 分布式 pub-sub 消息传递平台，具有非常灵活的消息传递模型和直观的客户端 API。特点：水平可扩展（每秒发布数百万个独立主题和数百万条消息）、强大的排序和一致性保证、低延迟持久存储、主题和队列语义、负载均衡器、设计用于部署为托管服务：多租户 认证 授权 配额 支持混合非常不同的工作负载 可选硬件隔离、跟踪消费者光标位置、用于配置管理和统计的 REST API、异地复制、透明地处理分区主题、消息的透明批处理
@@ -16388,6 +16952,8 @@
 
 * [treeverse/lakeFS](https://github.com/treeverse/lakeFS) lakeFS是一个开源工具，将您的对象存储转换为类似 Git 的存储库，让您像管理代码一样管理数据湖。它支持 AWS S3、Azure Blob Storage和 Google Cloud Storage 作为底层存储服务，并与 S3 兼容，与 Spark、Hive、AWS Athena 等现代数据框架无缝协作。lakeFS 允许您构建可重复、原子且版本化的数据湖操作，例如复杂的 ETL 作业、数据科学和分析。您可以使用 Docker 快速启动lakeFS 实例，并通过浏览器访问其界面。
 
+* [chrislusf/gleam](https://github.com/chrislusf/gleam) Gleam是一个用Go语言编写的快速、高效、可扩展的分布式MapReduce系统，支持DAG执行，可在内存或磁盘上运行，可独立或分布式运行。它具有高性能、内存效率高、灵活易定制等特点，通过纯Go编写的Mapper和Reducer实现高并发，并能自动调整内存大小，避免手动调整。其计算流程可独立或分布式运行，支持内存模式和磁盘模式，用户自定义计算可以使用Go语言、Unix管道工具或任何流式程序编写。
+
 * [thanos-io/thanos](https://github.com/thanos-io/thanos) 具有长期存储功能的高可用性 Prometheus 设置。CNCF孵化项目。Thanos 是一组组件，可以组合成一个具有无限存储容量的高可用度量系统，可以在现有 Prometheus 部署之上无缝添加。Thanos 利用 Prometheus 2.0 存储格式，以经济高效的方式将历史指标数据存储在任何对象存储中，同时保持快速查询延迟。此外，它还提供跨所有 Prometheus 安装的全局查询视图，并可以动态合并来自 Prometheus HA 对的数据。
 
 * [redpanda-data/redpanda](https://github.com/redpanda-data/redpanda) Redpanda是一个为开发者设计的流数据平台，与 Apache Kafka API 兼容，速度快 10 倍，无需 ZooKeeper 和 JVM。它提供完整的流数据平台功能，包括可配置的分层存储和丰富的连接器生态系统，为开发者提供更轻松、更便捷的使用体验。Redpanda 支持多种平台，如 Debian/Ubuntu、Fedora/RedHat/Amazon Linux 和 macOS，并提供预编译包和手动构建选项。用户可以通过 Redpanda网站和 GitHub 仓库获取更多信息和支持。
@@ -16398,11 +16964,19 @@
 
 * [flyway/flyway](https://github.com/flyway/flyway) 数据库迁移变得简单。在所有实例中轻松可靠地改进数据库架构。支持的数据库：Aurora MySQL、Aurora PostgreSQL、Azure Synapse、Clickhouse、CockroachDB、DB2、Derby、Firebird、Google BigQuery、Google Cloud Spanner、H2、HSQLDB、Informix、MariaDB、MongoDB、MySQL、Oracle、Percona XtraDB Cluster、PostgreSQL、Redshift、SAP HANA（包括 SAP HANA Cloud）、SingleStoreDB、Snowflake、SQLite、SQL Server、Sybase ASE、TiDB、TimescaleDB、YugabyteDB
 
+* [chrislusf/glow](https://github.com/chrislusf/glow) Glow是一个用Go语言编写的易于使用的分布式计算系统，类似于Hadoop MapReduce、Spark、Flink和Storm等。它允许用户轻松地在多线程或分布式集群中进行并行计算，并支持将单机程序扩展到集群模式，无需依赖Zookeeper、HDFS、Mesos或YARN等复杂技术。Glow具有高效的资源利用率，其主节点和代理节点内存占用分别约为6.5MB和5.5MB。作者还开发了另一个纯Go系统Gleam，性能更优且更灵活。
+
+* [spf13/afero](https://github.com/spf13/afero) Afero是Go语言的一个文件系统抽象库，提供一个简单统一的API来操作各种文件系统，包括内存文件系统和实际磁盘文件系统。它通过接口和方法实现文件系统抽象，方便测试和代码重用，并支持多种后端文件系统（例如内存、只读、正则表达式过滤等）的组合使用，显著提升了代码的可测试性和可移植性。  Afero易于使用，只需简单几步即可集成到你的Go项目中。
+
 * [upspin/upspin](https://github.com/upspin/upspin) Upspin是一个实验性项目，旨在构建一个框架，用于安全、统一和全球范围内命名和共享文件和其他数据，类似于一个全球命名系统。它不是一个文件系统，而是一套协议和参考实现，可用于将文件系统和其他存储服务加入到命名空间中。性能不是主要目标，一致性和安全性才是。Upspin不是Google的官方产品。该项目目前尚处于开发阶段，不适合非技术用户使用。
 
 * [memcached/memcached](https://github.com/memcached/memcached) Memcached是一个高性能、多线程、基于事件的键值缓存存储，旨在用于分布式系统。它使用 libevent 库进行非阻塞网络 I/O，并支持可选的 TLS 和 seccomp 安全限制。Memcached 不进行磁盘 I/O，因此它非常快，但如果内存不足，可能会导致性能下降。用户可以通过 GitHub 问题跟踪器报告错误，并通过邮件列表寻求帮助。更多信息请访问 Memcached 网站：https://memcached.org/。
 
+* [piskvorky/smart_open](https://github.com/piskvorky/smart_open) smart_open是一个Python库，用于高效地从各种存储（如S3、GCS、Azure Blob Storage、HDFS、WebHDFS、HTTP、HTTPS、SFTP和本地文件系统）流式传输大型文件，支持多种压缩格式的透明解压缩。它作为Python内置`open()`函数的替代品，提供统一的API，简化了大型远程文件处理，减少代码量和错误。  它兼容Python内置`open()`函数，并在此基础上增加了许多功能。
+
 * [lni/dragonboat](https://github.com/lni/dragonboat) Go 中功能完整且高性能的多组 Raft 库。像 Raft 这样的共识算法通过让系统在大多数成员服务器可用时继续运行来提供容错能力。例如，一个 5 台服务器的 Raft 分片，即使有 2 台服务器出现故障，也可以取得进展。在客户看来，它也是一个单一的实体，始终提供强大的数据一致性。所有 Raft 副本都可用于处理聚合读取吞吐量的读取请求。
+
+* [EntilZha/PyFunctional](https://github.com/EntilZha/PyFunctional) PyFunctional是一个Python库，使用链式函数式编程方法简化数据管道创建。它支持链式操作符，提供丰富的API，可读写多种文件格式（包括文本、CSV、JSON、SQLite等），并能轻松并行化“易于并行”的操作，例如map。该库的API设计灵感源于Scala集合、Apache Spark RDDs和Microsoft LINQ，并具有完整的文档、严格的单元测试和100%的测试覆盖率。
 
 * [apache/sedona](https://github.com/apache/sedona) Apache Sedona是一个用于处理大规模地理空间数据的集群计算框架，它基于 ApacheSpark，并提供了一系列针对地理空间数据分析的优化和扩展，例如空间索引、空间连接和空间聚合。Sedona 支持多种编程语言，包括 Scala、Java、Python 和 R，并提供 Docker 镜像方便部署。用户可以通过 Maven、PyPI、Conda-forge 和 CRAN 等渠道获取 Sedona 的安装包。
 
@@ -16412,11 +16986,15 @@
 
 * [rosedblabs/rosedb](https://github.com/rosedblabs/rosedb) RoseDB是一个基于 Bitcask 存储模型的轻量级、快速且可靠的键值存储引擎。它以 WAL（预写日志）为后端，使用追加式文件和块缓存，并提供低延迟、高吞吐量、大数据集处理能力、单次查找、可预测的性能、快速恢复和简易备份等特点。RoseDB 经过充分测试，已准备好投入生产使用，并被多个项目作为存储引擎使用。
 
+* [spotify/scio](https://github.com/spotify/scio) Scio是一个基于Scala的Apache Beam和Google Cloud Dataflow API，它借鉴了Apache Spark和Scalding的优点。Scio提供统一的批处理和流处理编程模型，并与Google Cloud服务（如Cloud Storage和BigQuery）深度集成，拥有丰富的IO支持和便捷的开发工具，例如交互式REPL。Scio使得开发者可以使用类似Spark和Scalding的Scala API进行高效的数据处理。
+
 * [tokio-rs/mini-redis](https://github.com/tokio-rs/mini-redis) `mini-redis` 是一个使用 Tokio 构建的 Redis 客户端和服务器的简化实现，旨在作为学习资源。它支持基本的 Redis 命令，例如PING、GET、SET、PUBLISH 和 SUBSCRIBE，但不支持持久化。该项目展示了多种 Tokio 模式，包括 TCP 服务器、异步 I/O、任务和通道，以及 OpenTelemetry 集成，用于将跟踪数据发送到 AWS X-Ray 等服务。
 
 * [airbytehq/airbyte](https://github.com/airbytehq/airbyte) 用于 ELT 管道的数据集成平台，从 API、数据库和文件到数据库、仓库和湖泊。只有开源的数据移动解决方案才能覆盖数据源的长尾，同时使数据工程师能够自定义现有的连接器。我们的最终愿景是帮助您将数据从任何来源移动到任何目的地。Airbyte 已经为 API、数据库、数仓和数据湖提供了300+ 连接器。
 
 * [CodisLabs/codis](https://github.com/CodisLabs/codis) Codis是一个基于代理的高性能Redis集群解决方案，使用Go语言编写，支持管道和动态扩展，在豌豆荚等公司得到广泛应用。Codis支持无重启集群的重新分片，并提供GUI网站仪表盘和管理工具，兼容Twemproxy，支持大多数Redis命令。Codis代理可以注册到ZooKeeper/etcd，客户端可以避免失效代理，确保高可用性。
+
+* [jonra1993/fastapi-alembic-sqlmodel-async](https://github.com/jonra1993/fastapi-alembic-sqlmodel-async) 这是一个基于FastAPI、SQLModel(异步ORM)、Alembic和Pydantic2.0的异步CRUD项目模板，包含身份验证和基于角色的访问控制，支持Python 3.10及以上版本，并集成了Celery用于异步任务处理，提供完整的异步数据库管理和交互式API文档，以及自动化测试。该模板旨在简化Web应用开发，提供安全高效的启动基础。
 
 * [mingrammer/diagrams](https://github.com/mingrammer/diagrams) 允许您在 Python 代码中绘制云系统架构。它诞生于在没有任何设计工具的情况下对新的系统架构设计进行原型设计。您还可以描述或可视化现有系统架构。Diagrams目前支持的主要提供商包括： GCP  Kubernetes Alibaba Cloud Oracle Cloud Azure AWS 等。它还支持 On-Premise 节点、 SaaS 主要 Programming 框架和语言。
 
@@ -16428,15 +17006,21 @@
 
 * [redisson/redisson](https://github.com/redisson/redisson) 具有内存数据网格功能的简易 Redis Java 客户端。Sync/ Async/RxJava/Reactive API.超过50个基于Redis的Java对象和服务：Set，Multimap，SortedSet，Map，List，Queue，Deque，Semaphore，Lock，AtomicLong，Map Reduce，Bloom filter，Spring Cache，Tomcat，Scheduler，JCache API，Hibernate，RPC，本地缓存...
 
+* [kelseyhightower/confd](https://github.com/kelseyhightower/confd) confd是一个轻量级配置管理工具，使用etcd、consul、dynamodb、redis、vault、zookeeper、aws ssm参数存储或环境变量等数据源以及模板，保持本地配置文件最新，并能自动重新加载应用程序以应用新的配置文件更改。目前项目正在升级，迁移到Go modules并简化etcd后端。
+
 * [sabledb-io/sabledb](https://github.com/sabledb-io/sabledb) 键值NoSQL数据库， RocksDb 它作为其存储引擎，并与Redis协议兼容。与 Redis 相比，它旨在降低内存成本并增加容量。 SableDb 功能包括通过任何 Redis 客户端进行与 Redis 兼容的访问、高达 64K 的数据库支持、使用事务日志尾随的异步复制和 TLS 连接支持。
 
 * [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) 一个快速分布式存储系统，适用于 blob、对象、文件和数据湖，适用于数十亿个文件！Blob 存储具有 O（1） 磁盘查找和云分层。Filer 支持 Cloud Drive、跨 DC 主动-主动复制、Kubernetes、POSIX FUSE 挂载、S3 API、S3 Gateway、Hadoop、WebDAV、加密、纠删码。
+
+* [twitter/scalding](https://github.com/twitter/scalding) Scalding是一个基于Scala的Hadoop MapReduce任务简化库，它构建于Cascading之上，屏蔽了底层Hadoop细节。Scalding类似于Pig，但与Scala紧密集成，将Scala的优势带入MapReduce作业，并提供类型安全的API和丰富的文档及示例，方便用户快速上手和学习。
 
 * [sohutv/cachecloud](https://github.com/sohutv/cachecloud) 搜狐视频(sohu tv)Redis私有云平台 ：支持Redis多种架构(Standalone、Sentinel、Cluster)高效管理、有效降低大规模redis运维成本，提升资源管控能力和利用率。平台提供快速搭建/迁移，运维管理，弹性伸缩，统计监控，客户端整合接入等功能。
 
 * [databricks/koalas](https://github.com/databricks/koalas) Koalas项目是一个已弃用的库，它在Apache Spark之上实现了pandas DataFrameAPI，允许用户在无需学习新API的情况下使用Spark处理大数据，并支持单一代码库同时兼容pandas和Spark。由于其功能已集成到Apache Spark 3.2及以上版本中，建议使用PySpark。
 
 * [harelba/q](https://github.com/harelba/q) 直接在分隔文件和多文件 sqlite 数据库上运行 SQL。允许以下操作：直接对表格文本数据执行类似 SQL 语句，自动缓存数据以加速对同一文件的其他查询。直接在多文件 sqlite3 数据库上执行 SQL，而无需合并它们或将它们加载到内存中。
+
+* [bosun-monitor/bosun](https://github.com/bosun-monitor/bosun) Bosun是由Stack Exchange开发的时间序列告警框架，包含度量收集代理Scollector。它利用OpenTSDB或HBase存储时间序列数据，通过自定义规则进行告警。项目提供Docker Compose方便部署，也支持本地构建和调试，并集成Miniprofiler用于性能调试。
 
 * [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) 受 Dapper 和 OpenZipkin 的启发，是由 Uber Technologies 创建并捐赠给云原生计算基金会的分布式追踪平台。它可用于监控基于微服务的分布式系统：分布式上下文传播、分布式事务监控、根本原因分析、服务依赖分析、性能/延迟优化。
 
@@ -16461,6 +17045,8 @@
 * [prisma/prisma](https://github.com/prisma/prisma) 下一代 ORM 对象关系映射（Object Relational Mapping，为了解决面向对象与关系数据库存在的互不匹配）for Node.js &amp; TypeScript |PostgreSQL，MySQL，MariaDB，SQL Server，SQLite，MongoDB和CockroachDB
 
 * [kysely-org/kysely](https://github.com/kysely-org/kysely) 类型安全且自动完成友好的 TypeScript SQL 查询构建器。灵感来自Knex.js。主要为Node.js开发，但也可以在所有其他 JavaScript 环境（如 Deno、Bun、Cloudflare Workers 和 Web 浏览器）上运行。
+
+* [OptimalBits/bull](https://github.com/OptimalBits/bull) 一个基于Redis的高性能NodeJS作业和消息队列库，具有卓越的稳定性和原子性。由OptimalBits维护，适用于分布式任务处理。该项目现处于维护模式，仅修复bug，新功能请参见BullMQ。
 
 * [ipfs/kubo](https://github.com/ipfs/kubo) Kubo是第一个IPFS实现，也是当今使用最广泛的一个。实施星际文件系统 - 用于内容寻址的 Web3 标准，可与 HTTP 互操作。因此，由IPLD的数据模型和用于网络通信的libp2p提供支持。
 
@@ -16716,6 +17302,8 @@
 
 * [microsoft/azuredatastudio](https://github.com/microsoft/azuredatastudio) Azure Data Studio是一款跨平台的数据管理和开发工具，支持连接到流行的云和本地数据库，包括 Azure SQL 和 SQL Server。 它支持 Windows、macOS 和 Linux，并提供扩展库以支持 MySQL、PostgreSQL 和 MongoDB 等其他数据库。 您可以从项目页面下载最新版本，并查看变更日志和发布说明以了解每个版本的新功能。 此外，官方文档提供了详细的入门指南、连接快速入门和功能教程。
 
+* [piccolo-orm/piccolo](https://github.com/piccolo-orm/piccolo) Piccolo是一个快速、易用的ORM和查询构建器，支持异步操作(asyncio)。它具有同步和异步支持、内置游乐场、Tab自动补全、包含用户模型、身份验证、迁移和管理GUI等功能，并支持创建模块化和可扩展的应用。Piccolo语法简洁易懂，既能像典型的ORM一样使用，也能作为查询构建器使用，支持PostgreSQL和SQLite数据库，并能快速搭建基于Starlette、FastAPI等框架的web应用。
+
 * [tortoise/tortoise-orm](https://github.com/tortoise/tortoise-orm) Tortoise ORM是一个易于使用的基于asyncio的Python ORM，其设计灵感来自Django，注重关系型数据库操作。它提供简洁的API，方便开发者从同步ORM迁移到asyncio环境，并在基准测试中表现出色，与Pony ORM性能相当。Tortoise ORM支持SQLite、MySQL、PostgreSQL、Microsoft SQL Server和Oracle数据库，有效解决重复代码、SQL注入风险和数据规则管理等问题，提升开发效率和数据安全性。
 
 * [teableio/teable](https://github.com/teableio/teable) Teable是一个基于 Postgres 的下一代 Airtable 替代方案，它提供了一个快速、实时、专业、开发者友好的无代码数据库。Teable 使用简单的类似电子表格的界面来创建复杂的企业级数据库应用程序，并通过无代码的方式解锁高效的应用程序开发，同时避免数据安全和可扩展性的障碍。Teable 提供模板中心、100 万行演示和 API 等功能，方便用户快速上手和体验。
@@ -16734,6 +17322,8 @@
 
 * [apache/hadoop](https://github.com/apache/hadoop) Apache Hadoop是一个开源软件框架，用于分布式存储和处理大型数据集。它提供了Hadoop Distributed File System (HDFS) 用于存储数据，以及 MapReduce框架用于处理数据。Hadoop 允许用户在廉价的硬件集群上运行应用程序，并能够处理海量数据。 更多信息请访问官方网站 http://hadoop.apache.org/ 和维基 https://cwiki.apache.org/confluence/display/HADOOP/。
 
+* [authzed/spicedb](https://github.com/authzed/spicedb) SpiceDB是一个开源的、受Google Zanzibar启发的数据库，用于可扩展地存储和查询细粒度的授权数据。它类似于关系型数据库，但使用gRPC API优化授权操作，并专注于授权而非身份验证。SpiceDB作为中心化服务，可用于解决OWASP 2021年报告中排名第一的Web安全威胁——访问控制漏洞，帮助团队实现与大型科技公司相同的安全水平。
+
 * [encode/databases](https://github.com/encode/databases) Databases是一个Python库，提供对多种数据库的异步支持，使用强大的SQLAlchemyCore表达式语言进行查询，支持PostgreSQL、MySQL和SQLite数据库。它兼容多个异步Web框架，例如Starlette、Sanic等，并支持多种异步数据库驱动，例如asyncpg、aiopg等。通过简单的API即可连接数据库并执行查询操作，方便开发者构建异步数据库应用。
 
 * [apache/cassandra](https://github.com/apache/cassandra) Apache Cassandra是一个高度可扩展的分区行存储数据库，它将数据分布在多台机器上，并通过主键对数据进行组织。Cassandra 使用类似SQL 的 CQL 语言进行数据操作，支持自动重新分区，并在集群中添加或移除机器时保持数据一致性。用户可以通过 CQL 语言进行数据读写操作，并使用 cqlsh 命令行工具与数据库交互。
@@ -16742,11 +17332,19 @@
 
 * [etcd-io/etcd](https://github.com/etcd-io/etcd) 分布式可靠的键值存储，用于存储分布式系统中最关键的数据，重点是：简单：定义明确、面向用户的 API （gRPC），安全：具有可选客户端证书身份验证的自动 TLS，快速：以 10,000 次写入/秒为基准，可靠：使用 Raft 正确分发。etcd 是用 Go 语言编写的，它使用 Raft 共识算法来管理一个高度可用的复制日志。
 
+* [RobertCraigie/prisma-client-py](https://github.com/RobertCraigie/prisma-client-py) Prisma Client Python是一个易于使用的、自动生成的、完全类型安全的Python数据库客户端，基于Prisma构建。它支持同步和异步操作，并提供完整的类型安全性和强大的自动补全功能，简化数据库查询编写。该项目支持Prisma Migrate，并具有原子更新、复杂关联查询等特性，适用于任何需要数据库的Python后端应用。
+
 * [PyMySQL/mysqlclient](https://github.com/PyMySQL/mysqlclient) mysqlclient是MySQL和MariaDB数据库的Python连接器，它是MySQLdb1的增强版，支持Python 3并修复了许多bug，可通过pip安装。Windows系统安装较为复杂，建议使用预编译的二进制轮文件；macOS和Linux系统则需要安装必要的依赖包，具体步骤请参考项目README。项目不提供技术支持，如有问题请参考README中提供的其他资源。
+
+* [ledisdb/ledisdb](https://github.com/ledisdb/ledisdb) LedisDB是一个用Go语言编写的高性能NoSQL数据库服务器，类似于Redis但数据存储在磁盘上，支持KV、列表、哈希、有序集合、集合等多种数据结构。它支持LevelDB、goleveldb、RocksDB和内存多种后端存储，并提供Lua脚本支持、过期时间设置、redis-cli管理、HTTP API以及数据复制和修复工具，还支持集群和身份验证。
+
+* [collerek/ormar](https://github.com/collerek/ormar) Ormar是一个基于Python的异步微型ORM，支持Postgres、MySQL和SQLite数据库，旨在与FastAPI框架配合使用，并利用Pydantic进行数据验证。它只有一个模型需要维护，简化了开发流程，可以直接用作FastAPI的请求和响应模型，并与fastapi-crudrouter和fastapi-pagination等库兼容，其底层依赖于SQLAlchemy Core、databases和Pydantic。
 
 * [pynamodb/PynamoDB](https://github.com/pynamodb/PynamoDB) PynamoDB是Amazon DynamoDB的Python接口，提供简洁优雅的API，简化DynamoDB的复杂操作。它允许创建、查询和更新DynamoDB表，支持多种查询条件和索引，并提供详细文档和示例。通过简单的Python代码即可操作DynamoDB，例如创建模型、定义属性、创建表、查询数据等。注意1.6.0和3.0.1版本对UnicodeSetAttribute的修改。
 
 * [ctripcorp/drc](https://github.com/ctripcorp/drc) 携程框架架构研发部数据中心组推出的用于数据双向或多向复制的数据库中间件，服务于异地多活项目，同时赋予了业务全球化的部署能力。为了做到真正的数据异地多活，实现MySQL同机房就近读写，机房故障时无需进行数据库DR操作，只进行流量切换，就需要引入数据实时双向(多向)复制组件。
+
+* [vitessio/vitess](https://github.com/vitessio/vitess) Vitess是一个用于水平扩展MySQL的数据库集群系统，通过广义分片实现。它封装了分片路由逻辑，使应用代码和数据库查询与数据分布无关，并支持快速、原子化的分片拆分和合并。Vitess自2011年以来一直是YouTube数据库基础设施的核心组件，管理着数万个MySQL节点，并拥有活跃的社区和丰富的文档。
 
 * [PyMySQL/PyMySQL](https://github.com/PyMySQL/PyMySQL) PyMySQL是一个纯Python编写的MySQL和MariaDB数据库客户端库，遵循PEP249规范。它支持Python 3.7+和PyPy 3.x，兼容MySQL 5.7+和MariaDB 10.4+。通过pip安装，并可根据需要安装额外的依赖项以支持不同的认证方式，例如sha256_password、caching_sha2_password和ed25519。项目提供在线文档和示例代码，方便用户快速上手使用。
 
@@ -16774,11 +17372,17 @@
 
 * [apache/doris](https://github.com/apache/doris) 简单易用、高性能、统一的分析数据库。基于 MPP 架构的简单易用、高性能、实时的分析数据库，以其极快的速度和易用性而闻名。在海量数据下，只需亚秒级响应时间即可返回查询结果，不仅可以支持高并发的点查询场景，还可以支持高吞吐量的复杂分析场景。
 
+* [flike/kingshard](https://github.com/flike/kingshard) Kingshard是一个用Go语言编写的高性能MySQL代理，性能约为直接连接MySQL的80%。它支持读写分离、SQL语句分片（支持hash、range和date分片），以及大多数常用SQL函数（如max, min, count, sum等），并支持事务、连接数限制、动态配置等功能，旨在简化MySQL分片方案。
+
 * [golang-migrate/migrate](https://github.com/golang-migrate/migrate) 用 Go 编写的数据库迁移。用作 CLI 或作为库导入。Migrate 从源读取迁移，并按正确的顺序将其应用于数据库。驱动程序是“愚蠢的”，迁移将所有内容粘合在一起，并确保逻辑是无懈可击的。数据库驱动程序不会假设某些事情或尝试更正用户输入。
 
 * [apple/foundationdb](https://github.com/apple/foundationdb) 分布式数据库，旨在跨商用服务器集群处理大量结构化数据。它将数据组织为有序的键值存储，并将 ACID 事务用于所有操作。它特别适用于读/写工作负载，但对于写入密集型工作负载也具有出色的性能。用户使用 API 语言绑定与数据库进行交互。
 
 * [zhisheng17/flink-learning](https://github.com/zhisheng17/flink-learning) Flink 入门、概念、原理、实战、性能调优、源码解析等内容。涉及 Flink Connector、Metrics、Library、DataStream API、Table API &amp;amp; SQL 等内容的学习案例，还有 Flink 落地应用的大型项目案例（PVUV、日志存储、百亿数据实时去重、监控告警）分享。
+
+* [XiaoMi/Gaea](https://github.com/XiaoMi/Gaea) Gaea是小米公司研发的MySQL代理中间件，用于提升数据库性能和可用性，支持分库分表、SQL路由等特性，其设计参考了Mycat和KingSharded，并使用TiDB parser作为内部SQL解析器，具备高可用、读写分离等功能，旨在简化数据库管理和提高应用效率。
+
+* [encode/orm](https://github.com/encode/orm) encode/orm是一个异步Python ORM，支持Postgres、MySQL和SQLite数据库。它基于SQLAlchemy core构建，并使用databases库实现跨数据库异步支持，以及typesystem库进行数据验证，方便使用Alembic进行数据库迁移，可以通过pip安装，并支持多种数据库驱动。
 
 * [duckdb/duckdb](https://github.com/duckdb/duckdb) 进程内SQL OLAP数据库管理系统，高性能的分析数据库系统。它快速可靠、便携且易于使用。提供了丰富的SQL方言，其支持远远超出了基本的SQL。支持任意和嵌套的相关子查询、窗口函数、排序规则、复杂类型（数组、结构）等。
 
@@ -16964,11 +17568,15 @@
 
 * [paradedb/paradedb](https://github.com/paradedb/paradedb) ParadeDB是一个基于 Postgres 的 Elasticsearch 替代方案，它以 Postgres 为基础，提供类似 Elasticsearch 的实时搜索和分析功能。该项目正在开发中，目前已实现全文本搜索、密集和稀疏向量搜索以及针对数据湖和表格格式的快速分析功能。用户可以通过 Docker 镜像或 Kubernetes Helm图表部署 ParadeDB，并使用其提供的扩展功能。项目还提供详细的文档和社区支持。
 
+* [hound-search/hound](https://github.com/hound-search/hound) Hound是一个极速的源码搜索引擎，其核心基于Russ Cox的基于三元组索引的正则表达式匹配算法。它采用Go语言编写后端，React编写前端，通过维护每个代码库的实时索引并提供最小化的API接口实现快速搜索。  用户可通过简单的配置(例如`config.json`)添加代码库，并通过`houndd`命令启动服务，默认访问地址为http://localhost:6080。Hound也支持Docker部署。
+
 * [amazon-science/esci-data](https://github.com/amazon-science/esci-data) 一个困难搜索查询的大型数据集，旨在促进查询和产品语义匹配领域的研究。对于每个查询，数据集提供最多 40 个潜在相关结果的列表，以及 ESCI 相关性判断（精确、替代、补充、不相关），指示产品与查询的相关性。每个查询产品对都附有其他信息。数据集是多语言的，因为它包含英语、日语和西班牙语的查询。
 
 * [chrismattmann/tika-python](https://github.com/chrismattmann/tika-python) Tika-Python 是与 Apache Tika REST 服务的 Python 绑定，允许在 Python 社区中本地调用 Tika™。Apache Tika 是一个内容分析工具包，可以检测上千种文件类型，并提取它们的元数据和文本。tika在设计上十分精巧，单一的接口使它易于使用，在搜索引擎索引，内容分析，翻译等诸多方面得到了广泛使用。
 
 * [elastic/elasticsearch-py](https://github.com/elastic/elasticsearch-py) Elasticsearch-py是Elasticsearch的官方Python客户端，提供数据类型转换、集群节点自动发现、持久连接、负载均衡、错误连接惩罚、TLS和HTTP认证等功能，支持线程安全和可插拔架构，方便Python开发者与Elasticsearch进行交互，包含创建、索引、获取、搜索、更新和删除文档等常用操作。
+
+* [olivere/elastic](https://github.com/olivere/elastic) 该项目是一个Go语言编写的Elasticsearch客户端，已被弃用，建议使用官方的Elasticsearch Go客户端(https://github.com/elastic/go-elasticsearch)。它曾支持多个Elasticsearch版本，但不同版本需使用不同的包管理方式，例如Go modules或dep。  项目提供详细的版本对应关系和使用说明。
 
 * [NLPchina/elasticsearch-sql](https://github.com/NLPchina/elasticsearch-sql) Elasticsearch-SQL项目允许使用熟悉的 SQL 语法查询 Elasticsearch，并支持在 SQL 中使用ES 函数。该项目已不再积极开发，建议使用官方的 x-pack-sql 或 OpenDistro for Elasticsearch SQL。项目提供多种 Elasticsearch 版本的插件，支持从 1.x 到 8.x 版本，并提供Web 前端界面。
 
@@ -19026,6 +19634,8 @@
 
 * [Rockyzsu/stock](https://github.com/Rockyzsu/stock) 这是一个量化交易学习项目，包含30天掌握量化交易的学习内容，项目包含数据分析、数据存储、基金分析、股票分析、K线策略、机器学习预测、交易模块、自动化交易实盘代码等模块，用户可根据项目提供的配置信息，自行修改数据库连接信息，并进行个性化配置。
 
+* [afadil/wealthfolio](https://github.com/afadil/wealthfolio) 一个私密且安全的桌面投资追踪应用，支持本地数据存储，无需订阅和云服务。特色包括React前端、Tailwind CSS样式、Tauri构建桌面应用，适用于投资爱好者。项目包含开发工具如Vite、TypeScript和ESLint，以及详细的安装和运行指南。
+
 * [firefly-iii/firefly-iii](https://github.com/firefly-iii/firefly-iii) 免费开源的个人理财经理，可以帮助您跟踪您的支出和收入，因此您可以花更少的钱并节省更多的钱。Firefly III 支持使用预算、类别和标签。使用一堆外部工具，您可以导入数据。它还有许多简洁的财务报告。
 
 * [AlgoTraders/stock-analysis-engine](https://github.com/AlgoTraders/stock-analysis-engine) 回测 1000 种每分钟交易算法，使用来自 IEX、Tradier 和 FinViz 的自动定价数据训练 AI。数据集和交易表现自动发布到 S3，用于构建 AI 训练数据集，以教授 DNN 如何交易。在 Kubernetes 和 docker-compose 上运行。
@@ -19175,6 +19785,8 @@
 * [LieberInstitute/spatialLIBD](https://github.com/LieberInstitute/spatialLIBD) `spatialLIBD` 是一个开源项目，包含一个 Shiny 网页应用、一个 Bioconductor包和一篇研究论文。该项目提供了一个基于 10x Genomics Visium 平台的 LIBD 人类背外侧前额叶皮层 (DLPFC) 空间转录组学数据浏览器。用户可以通过网页应用浏览数据，也可以使用 Bioconductor 包下载数据并可视化自己的数据集。该项目还提供了一个本地版本的网页应用，允许用户使用自己的数据进行分析。研究论文详细介绍了该项目的数据集和分析结果。
 
 * [brainiak/brainiak](https://github.com/brainiak/brainiak) Brain Imaging Analysis Kit(BrainIAK) 是一个用于神经科学的 Python 模块包，主要专注于功能性磁共振成像 (fMRI) 分析。它由英特尔和普林斯顿神经科学研究所 (PNI) 合作创建，提供各种工具用于 fMRI 数据处理、分析和可视化，例如功能对齐、空间模式识别和统计建模。用户可以通过 Conda 或 PyPI 安装 BrainIAK，并使用 Docker 容器进行测试。项目提供文档和示例，以及 Gitter 聊天室和 GitHub 问题追踪系统供用户交流和反馈。
+
+* [CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19) CSSEGISandData提供的2019新型冠状病毒(COVID-19)病例数据，由约翰斯·霍普金斯大学卫生系统科学与工程中心(CSSE)维护。数据来源包括世界卫生组织、欧洲疾病预防控制中心等机构。该项目包含一个交互式可视化仪表板，可通过桌面和移动设备访问。数据可用于研究和监测，但请引用相关学术文章。该项目已停止全球疫情数据的收集和报告，建议使用世界卫生组织和美国疾病控制与预防中心等官方机构的数据。
 
 * [coleygroup/pyscreener](https://github.com/coleygroup/pyscreener) pyscreener是一个使用 Python 进行高通量虚拟筛选的库和软件，它提供了一个 Python 接口，可以调用各种虚拟筛选软件，如 Vina、qvina2、smina、psovina 和 DOCK6。 pyscreener 支持 Docker 镜像构建，方便用户快速搭建环境，并提供了详细的安装指南和使用说明。 pyscreener 依赖于多个 Python 库，如 numpy、openbabel、openmm、pdbfixer、ray、rdkit、scikit-learn、scipy 和 tqdm，以及一些外部软件，如 Vina、qvina2、smina、psovina 和 DOCK6。
 
