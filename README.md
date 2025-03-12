@@ -46,7 +46,7 @@
 
 # Tips注意
 
-* 文件内容较长，建议clone后阅读或搜索。The file content is long, it is recommended to read or search after cloning.
+* 文件内容较长，建议clone后阅读或搜索[CONTENT.md](CONTENT.md)。The file content is long, it is recommended to read or search after cloning.
 
 # Star🌟数变化
 
