@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/wuwenjie1992-starrydivinesky-badge.png)](https://mseep.ai/app/wuwenjie1992-starrydivinesky)
+
 <p align="center">
 <img src="https://avatars.githubusercontent.com/u/1947722" width="300" height="300">
 </p>
