@@ -63,29 +63,31 @@
 
 ## A01_机器学习教程
 
-* [instillai/machine-learning-course](https://github.com/instillai/machine-learning-course) 这是一个使用Python的机器学习课程项目，旨在帮助学习者掌握机器学习的基本概念和实践技能。课程内容可能涵盖监督学习、非监督学习、强化学习等多种机器学习算法。项目可能提供代码示例、数据集和练习，帮助学习者动手实践。通过本课程，学习者可以学习如何使用Python进行数据预处理、模型训练和评估。项目可能还会涉及一些常用的机器学习库，例如Scikit-learn、TensorFlow或PyTorch。课程目标是使学习者能够独立完成一些简单的机器学习项目。项目可能注重理论与实践相结合，帮助学习者理解机器学习算法的原理和应用。项目可能包含一些案例研究，展示机器学习在实际问题中的应用。学习者可以通过参与项目，提高解决实际问题的能力。项目可能提供在线讨论区或论坛，方便学习者交流和讨论。
-
-* [dair-ai/ML-Course-Notes](https://github.com/dair-ai/ML-Course-Notes) dair-ai/ML-Course-Notes 是一个分享机器学习课程/讲座笔记的GitHub项目。它旨在提供一个学习机器学习的资源集合。该项目可能包含各种机器学习主题的笔记，比如深度学习、自然语言处理等。通过学习这些笔记，用户可以系统地了解机器学习的核心概念和算法。项目内容可能包括理论解释、公式推导、案例分析和代码示例。该项目可以帮助学生、研究人员和从业者更好地学习和掌握机器学习知识。项目特色在于其汇集了各种课程和讲座的笔记，提供了一个全面的学习资源。用户可以通过阅读这些笔记来加深对机器学习的理解，并将其应用于实际问题中。该项目可能还会不断更新和完善，添加新的笔记和资源。
-
 * [geekywrites/datascience](https://github.com/geekywrites/datascience) 该项目geekywrites/datascience是一个免费数据科学学习资源的集合。它旨在为希望学习数据科学的人们提供一个起点，汇总了各种免费的学习材料。具体内容可能包括教程、文档、课程、书籍、工具和数据集等，涵盖数据科学的各个方面。该项目可能按照不同的主题或技能水平进行组织，方便用户查找和学习。用户可以通过浏览该仓库，发现适合自己的学习资源，并逐步掌握数据科学的知识和技能。该项目持续更新，不断添加新的免费资源，帮助更多人进入数据科学领域。
 
-* [jonkrohn/ML-foundations](https://github.com/jonkrohn/ML-foundations) 本项目是jonkrohn/ML-foundations，旨在为机器学习提供坚实的数学和计算机科学基础。它涵盖线性代数、微积分、统计学和计算机科学四大领域，是学习机器学习的理想起点。线性代数部分涉及向量、矩阵、张量及其运算，以及特征分解等核心概念。微积分部分包括导数、梯度、链式法则等，用于优化机器学习模型。统计学部分涵盖概率论、概率分布、假设检验等，帮助理解数据和模型的不确定性。计算机科学部分则涉及算法、数据结构、编程范式等，为机器学习模型的实现提供支持。该项目通过清晰的解释和实际示例，帮助学习者掌握机器学习所需的关键数学和计算机科学知识。它适合初学者和希望巩固基础知识的从业者，是深入学习机器学习的必备资源。
+* [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) 这是一个关于AI工程师资源的GitHub项目，目前还在开发中。它将为AI工程师提供各种学习资料，并且是Chip Huyen 2025年出版的书籍《AI工程》的配套材料。该项目旨在帮助AI工程师提升技能，可能包含代码示例、教程、最佳实践等内容。虽然项目仍在开发中，但它承诺提供有价值的资源，以支持AI工程领域的学习和实践。该项目与书籍《AI工程》紧密结合，可能涵盖书籍中的概念和案例。如果你对AI工程感兴趣，并希望获取相关资源，可以关注这个项目。请注意，由于项目还在开发中，内容可能会不断更新和完善。
 
 ## 其他_机器学习与深度学习
 
+* [hediet/vscode-debug-visualizer](https://github.com/hediet/vscode-debug-visualizer) vscode-debug-visualizer 是一个 VS Code 扩展，旨在调试期间可视化数据。它允许开发者以图形化的方式查看变量和数据结构，而不仅仅是文本输出。这个扩展通过在调试会话中生成 HTML 文件并在 VS Code 中显示它们来实现可视化。它支持多种数据类型和自定义可视化，使得理解复杂数据变得更加容易。你可以使用它来观察数组、对象、图像等，从而更有效地定位和解决 bug。该扩展简化了调试过程，提高了开发效率，特别是在处理复杂数据时。
+
+* [cxli233/FriendsDontLetFriends](https://github.com/cxli233/FriendsDontLetFriends) cxli233/FriendsDontLetFriends项目旨在帮助人们避免制作某些糟糕的数据可视化图表。该项目探讨了哪些可视化类型容易误导读者，以及背后的原因。它可能包含一些常见错误可视化示例，并解释了它们如何歪曲数据。项目可能还会提供改进建议，指导用户选择更清晰、更准确的可视化方法。通过学习该项目，你可以提高数据可视化技能，避免常见的陷阱，制作更具信息量和可信度的图表。该项目可能适合数据分析师、学生以及任何需要进行数据可视化的人员。简而言之，该项目是关于“朋友不让朋友犯的数据可视化错误”的指南，帮助你避免制作糟糕的图表。
+
+* [microsoft/SandDance](https://github.com/microsoft/SandDance) SandDance 是微软开源的一款用于可视化探索、理解和展示数据的工具。它通过 WebGL 技术在浏览器中高效渲染大型数据集，提供交互式的可视化体验。SandDance 的特色在于其自动图表推荐功能，能根据数据类型智能生成合适的图表，例如散点图、柱状图、堆叠图等。用户可以通过拖拽字段、过滤数据、排序等操作，快速探索数据中的模式和趋势。SandDance 支持多种数据格式，包括 CSV、JSON 和 Parquet。它还提供 API，方便开发者将其集成到自己的应用程序中。SandDance 的目标是让数据可视化变得简单易用，帮助用户从数据中获得洞察。它适用于数据分析师、科学家以及任何需要理解和呈现数据的人员。该项目基于 TypeScript 开发，并使用 React 构建用户界面。
+
+* [ScottPlot/ScottPlot](https://github.com/ScottPlot/ScottPlot) ScottPlot是一个用于.NET的交互式绘图库，它旨在简化在.NET应用程序中创建和显示科学数据图表的流程。该库具有跨平台性，支持WinForms、WPF、Avalonia、Eto.Forms、Blazor和Console等多种.NET平台。ScottPlot的核心特色在于其易用性和高性能，允许开发者使用简洁的代码快速生成各种图表类型，如折线图、散点图、柱状图等。它通过利用现代渲染技术实现流畅的交互体验，包括缩放、平移和光标跟踪等功能。ScottPlot的API设计直观，方便用户自定义图表样式和行为，同时提供丰富的文档和示例，帮助开发者快速上手。它支持实时数据绘图，适用于科学研究、工程分析和数据可视化等领域。ScottPlot还提供了高级功能，例如信号处理工具和统计图表类型。总之，ScottPlot是一个强大而灵活的.NET绘图工具，适用于各种需要数据可视化的应用程序。
+
 * [livebook-dev/livebook](https://github.com/livebook-dev/livebook) Livebook是一个使用Elixir构建的交互式笔记本应用，旨在自动化代码和数据工作流。它允许用户以可视化的方式编写、执行和分享Elixir代码，类似于Jupyter Notebook。Livebook特别适合数据科学、机器学习、教学和探索性编程等场景。其核心优势在于Elixir语言的并发性和容错性，使得Livebook可以处理大规模数据和复杂的计算任务。Livebook支持Markdown文本、代码单元格和交互式组件，方便用户创建丰富的文档和用户界面。它还支持远程运行代码，连接到不同的数据源和数据库。Livebook通过“智能单元格”简化常见任务，例如数据库连接和数据可视化。用户可以使用Livebook创建可执行的文档，并将其部署为Web应用或API。该项目是开源的，鼓励社区贡献和扩展其功能。
+
+* [facontidavide/PlotJuggler](https://github.com/facontidavide/PlotJuggler) PlotJuggler是一个你值得拥有的时序数据可视化工具。它允许用户以图形化的方式查看和分析来自各种来源的时序数据，例如日志文件、传感器数据和实时数据流。PlotJuggler的主要特色包括其高度的灵活性和可定制性，可以根据用户的特定需求进行配置。该工具支持多种数据格式，包括CSV、JSON和自定义格式，并通过插件系统实现扩展。PlotJuggler的工作原理是读取输入数据，将其解析成时序数据结构，然后使用图形界面进行可视化呈现。用户可以交互式地缩放、平移和过滤数据，以便更深入地了解数据的模式和趋势。此外，PlotJuggler还支持自定义的绘图函数和数据处理算法，允许用户进行高级的数据分析和可视化。项目使用Qt框架开发，跨平台支持Windows、Linux和macOS。它的目标是提供一个强大且易于使用的工具，帮助用户更好地理解和利用时序数据。
 
 * [evidence-dev/evidence](https://github.com/evidence-dev/evidence) Evidence是一个将商业智能转化为代码的项目，它允许用户使用SQL和Markdown快速构建交互式数据可视化。其核心理念是将数据分析流程代码化，方便版本控制、协作和自动化。Evidence的主要特色在于它结合了SQL进行数据查询和转换，以及Markdown进行报告编写和可视化呈现。用户可以使用SQL从各种数据源提取数据，然后使用Markdown创建包含数据可视化和叙述性文本的报告。Evidence自动将SQL查询结果渲染成图表、表格等可视化元素，并将Markdown文档转换成交互式网页。这使得数据分析师和开发者可以更容易地创建和分享数据驱动的见解，并确保报告的可重复性和可维护性。Evidence旨在简化数据分析流程，提高数据可视化的效率和灵活性。
 
-* [huggingface/safetensors](https://github.com/huggingface/safetensors) safetensors是一个用于安全存储和分发张量的项目。它旨在提供一个比pickle更安全、更简单的替代方案，避免潜在的反序列化漏洞。safetensors格式专注于存储张量数据本身，不包含可执行代码，从而提高了安全性。该项目提供Python和Rust的实现，方便不同环境下的使用。其核心优势在于快速加载和零拷贝反序列化，提升了性能。safetensors文件格式简单，易于理解和集成，支持多种数据类型和维度。它与PyTorch、TensorFlow等深度学习框架兼容，方便模型权重的存储和共享。该项目还提供了工具用于转换现有模型权重到safetensors格式，方便迁移。safetensors的设计目标是成为机器学习领域张量存储和分发的标准格式，促进模型的安全共享和部署。
-
-* [shouxieai/tensorRT_Pro](https://github.com/shouxieai/tensorRT_Pro) TensorRT_Pro是一个基于TensorRT集成的C++库，旨在简化和加速深度学习模型的部署。它提供了一系列易于使用的API，方便开发者将各种框架（如TensorFlow、PyTorch）训练的模型转换为TensorRT引擎。项目特色在于高性能推理，通过优化模型结构和利用GPU加速，显著提升推理速度。其工作原理包括模型解析、图优化、算子融合和代码生成等步骤，最终生成高效的TensorRT引擎。该库支持多种硬件平台，并提供详细的文档和示例代码，帮助开发者快速上手。TensorRT_Pro专注于提供灵活、高效的深度学习推理解决方案，适用于各种应用场景。它允许用户自定义层和插件，以满足特定的需求。该项目持续更新和维护，致力于成为一个可靠的TensorRT集成工具。
+* [jphall663/awesome-machine-learning-interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) 这是一个精选的机器学习可解释性资源列表，旨在帮助开发者构建负责任的机器学习系统。该项目汇集了大量关于可解释机器学习的工具、库、文章和教程，涵盖了模型解释、公平性评估、对抗性鲁棒性等多个方面。 资源包括但不限于：模型无关的解释方法（如LIME、SHAP），针对特定模型的解释技术，以及用于检测和缓解偏见的工具。此外，还包括关于可解释性在不同领域的应用案例研究，例如医疗保健、金融和自然语言处理。 该项目致力于提供一个全面且易于访问的资源，帮助研究人员和从业者更好地理解和信任机器学习模型，并确保其公平性和可靠性。通过利用这些资源，用户可以提升模型的透明度，识别潜在的偏差，并最终构建更负责任的机器学习系统。这个列表持续更新，欢迎社区贡献更多优质资源。
 
 * [median-research-group/LibMTL](https://github.com/median-research-group/LibMTL) LibMTL是一个基于PyTorch的多任务学习（MTL）库。它旨在简化MTL算法的开发和评估，提供了一个统一的框架，支持多种MTL范式，如基于参数共享、基于梯度操作和动态任务权重调整的方法。该库包含多种经典和最新的MTL算法实现，方便用户快速上手和比较不同算法的性能。LibMTL的设计注重模块化和可扩展性，允许用户轻松地添加自定义的MTL策略和模型结构。它还提供了丰富的工具，用于任务相关性分析和模型性能评估，帮助用户更好地理解和优化MTL模型。LibMTL支持多种数据集和评估指标，并提供了详细的文档和示例代码，方便用户学习和使用。项目特色在于其全面的MTL算法覆盖、易于使用的API和可扩展的架构，为研究人员和开发者提供了一个强大的MTL平台。该库的核心工作原理是通过共享底层表示和利用任务间的相关性来提高模型的泛化能力和效率。
 
 * [mil-tokyo/webdnn](https://github.com/mil-tokyo/webdnn) WebDNN是一个在Web浏览器上运行深度神经网络(DNN)的最快框架。它通过将预训练的DNN模型转换为JavaScript代码来实现高性能，无需任何插件或服务器端组件。WebDNN支持多种深度学习框架，包括TensorFlow, PyTorch, Keras, Chainer和MXNet。其核心优势在于优化了模型执行流程，利用浏览器端的并行计算能力（如WebAssembly和WebGPU），实现了显著的加速。WebDNN的编译器将模型图转换为优化的JavaScript代码，并自动选择最佳的后端（WebAssembly, WebGPU, WebGL）以获得最佳性能。该项目旨在提供一个易于使用且高性能的解决方案，使得开发者能够在Web应用中轻松集成复杂的深度学习功能，例如图像识别、自然语言处理等。WebDNN尤其适用于对延迟敏感的应用场景，例如实时视频分析或交互式AI应用。它还提供了丰富的文档和示例，方便开发者快速上手和集成。
-
-* [yoshitomo-matsubara/torchdistill](https://github.com/yoshitomo-matsubara/torchdistill) torchdistill是一个基于PyTorch的免代码深度学习框架，旨在实现可复现的研究。它是PyTorch生态系统的一部分，目前已实现了在CVPR、ICLR、ECCV、NeurIPS、ICCV等顶级会议上发表的25种知识蒸馏方法。该项目的主要特色是免代码，用户可以通过配置文件轻松进行实验。为了确保可复现性和基准测试，项目提供了训练好的模型、训练日志和配置信息。torchdistill简化了深度学习模型的训练、蒸馏和评估过程，方便研究人员快速验证和比较不同的算法。它通过模块化的设计，支持自定义组件和扩展，适用于各种深度学习任务。该框架降低了深度学习研究的门槛，促进了知识共享和算法创新。
 
 * [DiffEqML/torchdyn](https://github.com/DiffEqML/torchdyn) torchdyn是一个专门用于PyTorch的神经网络微分方程库，它专注于隐式模型和相关的数值方法。该库提供了一系列工具，方便用户构建和训练基于神经网络的常微分方程（ODEs）、随机微分方程（SDEs）以及延迟微分方程（DDEs）。torchdyn的核心特色在于其对GPU加速的优化，以及对各种求解器和正则化技术的支持。它旨在简化神经ODE的实验流程，并提供灵活的接口，方便用户自定义模型架构和训练策略。项目包含了多种示例，涵盖了图像生成、时间序列预测等任务，展示了torchdyn在不同领域的应用潜力。该库还支持adjoint sensitivity method，用于高效计算梯度，从而加速训练过程。torchdyn的设计理念是模块化和可扩展性，方便用户根据自身需求进行定制和扩展。 总而言之，torchdyn是一个强大且易于使用的PyTorch库，旨在推动神经微分方程和隐式模型的研究和应用。
 
@@ -110,8 +112,6 @@
 * [Baijiong-Lin/Awesome-Multi-Objective-Deep-Learning](https://github.com/Baijiong-Lin/Awesome-Multi-Objective-Deep-Learning) 该项目Baijiong-Lin/Awesome-Multi-Objective-Deep-Learning是一个关于深度学习中基于梯度的多目标优化算法的综合列表。它旨在整理和收集各种用于深度学习模型的多目标优化方法。项目专注于梯度方法，这意味着它主要关注利用梯度信息来同时优化多个目标函数的技术。该资源库可能包含论文链接、代码实现以及对不同算法的简要描述，方便研究人员和开发者快速了解和应用多目标深度学习优化技术。它可能涵盖如 Pareto 最优、加权和法、切比雪夫方法等多种策略，并可能涉及在不同深度学习任务中的应用案例。
 
 ## 分布式机器学习
-
-* [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) tch-rs 是 PyTorch C++ API 的 Rust 绑定，让你能在 Rust 中使用 PyTorch 的强大功能。它提供了一个安全且符合 Rust 习惯的接口，方便进行深度学习模型的开发和部署。tch-rs 旨在提供高性能的张量计算，并支持 CUDA 加速。该项目通过 `libtorch` C++ 库与 PyTorch 交互，允许你加载和运行预训练的 PyTorch 模型。它支持各种神经网络操作，包括卷积、循环神经网络和线性代数。tch-rs 提供了与 Python PyTorch 相似的 API，方便熟悉 PyTorch 的用户快速上手。此外，它还支持序列化和反序列化模型，方便保存和加载模型权重。该项目还提供了预编译的 `libtorch` 二进制文件，简化了安装过程。总而言之，tch-rs 是一个在 Rust 中进行深度学习的强大工具，兼顾了性能和易用性。
 
 * [ai-dynamo/dynamo](https://github.com/ai-dynamo/dynamo) Dynamo是一个数据中心规模的分布式推理服务框架，旨在简化和加速大规模AI模型的部署和管理。它支持多种深度学习框架，如PyTorch和TensorFlow，并提供灵活的API用于模型部署和在线推理。Dynamo的核心优势在于其高效的资源管理和调度能力，能够根据模型的需求动态分配计算资源，优化推理性能。它采用分布式架构，可以轻松扩展到数百甚至数千个节点，满足高并发、低延迟的推理需求。Dynamo还具备强大的监控和诊断功能，帮助用户实时了解系统状态并快速解决问题。通过自动化的模型管理和部署流程，Dynamo降低了AI推理服务的运维成本。此外，Dynamo还支持模型版本管理和A/B测试，方便用户进行模型迭代和优化。总之，Dynamo是一个功能强大、易于使用的分布式推理服务框架，适用于各种大规模AI应用场景。
 
@@ -141,9 +141,9 @@
 
 ##### 
 
-* [huggingface/agents-course](https://github.com/huggingface/agents-course) 本项目是Hugging Face Agents Course的配套代码仓库。它提供了一系列教程和示例，帮助用户学习如何使用Hugging Face的工具和技术构建智能代理。该课程重点讲解了如何利用transformers等模型，结合外部工具和API，让代理能够执行复杂的任务，例如回答问题、生成文本、控制其他应用程序等。通过学习本课程，你可以掌握构建具有推理、规划和行动能力的AI代理的关键技能。项目内容包括代码示例、notebook和相关资源，方便你动手实践并加深理解。课程涵盖了代理的设计原则、工作流程以及最佳实践，旨在帮助开发者快速上手并构建自己的智能代理应用。
+* [google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) 本项目是Google Gemini团队提供的`gemini-fullstack-langgraph-quickstart`，旨在帮助开发者快速上手构建全栈智能体应用，利用Gemini 2.5模型和LangGraph框架。它提供了一个完整的示例，展示了如何将Gemini模型集成到全栈应用中，实现智能对话、任务自动化等功能。LangGraph作为核心框架，负责编排智能体的各个组件，构建复杂的对话流程和决策逻辑。该项目可能包含前端界面、后端服务和智能体逻辑的完整代码，方便开发者学习和定制。通过这个快速启动项目，开发者可以学习如何使用Gemini 2.5的强大能力，并利用LangGraph构建可扩展、可维护的全栈智能体应用。它简化了智能体开发的流程，降低了入门门槛，加速了全栈智能体应用的开发和部署。
 
-* [kortix-ai/suna](https://github.com/kortix-ai/suna) Suna是一个开源通用人工智能代理项目，旨在构建能够理解和执行各种任务的智能体。它基于Transformer架构，并采用强化学习和模仿学习等技术进行训练。Suna的核心优势在于其通用性，能够处理多种模态的数据，例如文本、图像和音频。项目目标是创建一个可扩展、可定制且易于使用的AI代理平台，方便研究人员和开发者进行实验和部署。Suna通过学习大量数据来掌握各种技能，并利用其知识进行推理和决策。该项目强调开源和社区参与，鼓励贡献者共同开发和改进Suna的功能。Suna的设计理念是模块化和可组合性，允许用户根据特定需求定制代理的行为。项目提供详细的文档和示例，帮助用户快速上手并构建自己的AI代理。Suna的潜在应用领域包括自动化、客户服务、教育和娱乐等。
+* [mindverse/Second-Me](https://github.com/mindverse/Second-Me) Second-Me 是一个旨在训练你的 AI 自我的项目，目标是放大你的能力，并帮助你更好地连接世界。该项目允许用户创建和训练一个能够代表自己的 AI 代理。通过学习你的行为、偏好和知识，这个 AI 代理可以执行各种任务，例如回复邮件、参与讨论或提供建议。Second-Me 的核心理念是利用 AI 技术来扩展个人能力，并减轻日常工作负担。该项目可能涉及自然语言处理、机器学习和知识图谱等技术。具体实现细节和使用方法请参考项目文档和代码。它可能提供个性化定制和持续学习的功能，以确保 AI 代理能够准确地反映你的个人特征。总之，Second-Me 旨在打造一个能够代表你，并为你服务的 AI 分身。
 
 * [Doriandarko/maestro](https://github.com/Doriandarko/maestro) Maestro是一个为Claude Opus设计的框架，旨在智能地编排子代理。它允许开发者创建复杂的代理系统，其中Claude Opus作为主代理，负责协调和指导多个子代理完成特定任务。该框架的核心理念是将复杂任务分解为更小的、可管理的子任务，并分配给不同的子代理。Maestro的优势在于其灵活性和可扩展性，开发者可以根据需求自定义子代理的行为和交互方式。通过智能编排子代理，Maestro能够提高Claude Opus处理复杂任务的效率和准确性。该项目提供了一套工具和接口，方便开发者构建和部署基于Claude Opus的智能代理系统。简单来说，Maestro就像一个指挥家，指挥Claude Opus这个乐队中的各个乐器（子代理）演奏出美妙的乐章（完成复杂任务）。
 
@@ -160,8 +160,6 @@
 * [fiatrete/OpenDAN-Personal-AI-OS](https://github.com/fiatrete/OpenDAN-Personal-AI-OS) OpenDAN是一个开源的个人AI操作系统，它将各种AI模块整合在一起，方便个人使用。它旨在创建一个用户完全掌控的AI环境，强调隐私和定制化。OpenDAN可以运行在本地设备上，无需依赖云服务。项目特色包括模块化设计，允许用户选择和组合不同的AI功能。它支持多种AI模型和工具，例如语言模型、图像识别等。OpenDAN的工作原理是提供一个统一的平台，用户可以在此平台上配置和运行各种AI模块。你可以使用它来构建个性化的AI助手，处理个人数据，或者进行AI相关的实验。OpenDAN的目标是让AI技术更易于访问和使用，并赋予用户更大的控制权。该项目仍在积极开发中，欢迎贡献和反馈。
 
 * [heshengtao/comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party) ComfyUI LLM Party是一个ComfyUI框架下的LLM Agent工具集，包含MCP服务器、Omost、GPT-sovits、ChatTTS、GOT-OCR2.0和FLUX prompt节点等组件。它支持飞书、Discord等平台的接入，并兼容所有具有类似OpenAI/AISuite接口的LLM，例如O1、Ollama、Gemini、Grok、Qwen、GLM、Deepseek、Kimi、豆包等。该项目还适配本地LLM、VLM和GGUF模型，如Llama-3.3 Janus-Pro，并支持Linkage graphRAG。其主要特色在于构建LLM Agent，实现ComfyUI工作流与各种LLM的集成，从而扩展ComfyUI的功能，使其能够处理更复杂的自然语言任务。
-
-* [farizrahman4u/loopgpt](https://github.com/farizrahman4u/loopgpt) LoopGPT是一个模块化的Auto-GPT框架，旨在简化自主代理的构建和定制。它允许开发者通过组合不同的模块（例如记忆、规划、执行等）来创建自定义的智能代理。该项目强调模块化设计，方便用户根据特定需求替换或修改现有模块。LoopGPT的核心思想是让代理在一个循环中不断地观察、思考、计划和行动，从而完成给定的目标。它支持多种语言模型，并提供了清晰的API和文档，方便开发者快速上手。LoopGPT的优势在于其灵活性和可扩展性，允许用户构建各种类型的自主代理，例如自动化任务执行、数据分析和研究等。项目目标是提供一个易于使用且功能强大的平台，促进自主代理技术的发展和应用。用户可以通过配置不同的模块和参数，来优化代理的性能和行为。LoopGPT使用Python编写，并依赖于一些常见的机器学习库。
 
 * [jgravelle/AutoGroq](https://github.com/jgravelle/AutoGroq) AutoGroq是一个创新工具，旨在革新用户与Autogen™和其他AI助手的交互方式。它能根据项目需求动态生成定制化的AI Agent团队，无需手动配置，简化了AI协作流程。AutoGroq的核心优势在于其动态团队生成能力，能自动组建最适合解决特定问题的AI团队。用户只需提供项目需求，AutoGroq即可自动完成团队配置，极大地提高了效率和易用性。借助AutoGroq，用户可以轻松应对各种问题、项目和挑战，充分发挥AI助手的潜力。它通过自动化AI团队的创建和管理，让用户更专注于问题本身，而不是繁琐的配置过程。AutoGroq旨在让AI协作更简单、更高效、更强大。
 
@@ -201,9 +199,9 @@
 
 ##### 
 
-* [meta-llama/llama-models](https://github.com/meta-llama/llama-models) 这个项目是meta-llama/llama-models，提供了一系列用于Llama模型的实用工具。它主要服务于Llama模型的应用和开发，简化相关操作流程。具体功能可能包括模型加载、推理、评估以及其他辅助工具。该项目旨在帮助开发者更高效地使用Llama模型，提升开发效率。虽然README信息较少，但可以推断其核心价值在于提供便捷的工具集，方便用户与Llama模型进行交互。该项目可能包含各种脚本、库或示例代码，以支持不同的Llama模型应用场景。总之，这是一个围绕Llama模型生态的实用工具集合，旨在降低使用门槛，加速模型落地。
+* [shazow/ssh-chat](https://github.com/shazow/ssh-chat) ssh-chat 是一个通过 SSH 进行聊天的简单工具。它允许用户连接到服务器并与其他连接的用户进行实时文本聊天。该项目使用 Go 语言编写，易于安装和部署。其工作原理是利用 SSH 的标准输入/输出流进行通信，无需额外的端口或协议。ssh-chat 提供基本的聊天功能，例如用户列表、消息广播等。它主要面向那些希望在现有 SSH 基础设施上快速搭建聊天环境的用户。项目目标是简单、安全和易于使用。你可以通过 SSH 客户端连接到服务器并输入用户名来开始聊天。ssh-chat 旨在成为一个轻量级的替代方案，适用于不需要复杂聊天功能的场景。
 
-* [deepseek-ai/DeepSeek-Math](https://github.com/deepseek-ai/DeepSeek-Math) DeepSeek-Math项目旨在提升开源语言模型在数学推理方面的能力。它通过构建高质量的数学数据集，并结合先进的训练技术，显著提高了模型解决复杂数学问题的准确性。该项目专注于数学问题的理解、推理和求解，涵盖算术、代数、微积分等多个数学领域。DeepSeek-Math利用大规模预训练和微调策略，使模型能够更好地理解数学概念和符号，并进行逻辑推理。项目贡献了相关的数据集和模型，方便研究人员复现和进一步探索。DeepSeek-Math的特色在于其对数学推理的专注和对开源社区的贡献，致力于推动通用人工智能在数学领域的应用。该项目为解决现实世界中的数学问题提供了新的思路和工具，有望在科学、工程等领域发挥重要作用。
+* [microsoft/NLWeb](https://github.com/microsoft/NLWeb) NLWeb 是微软研究院开发的一个实验性项目，旨在探索如何使用自然语言直接与网页交互。它允许用户通过自然语言查询来搜索、过滤和提取网页内容，无需编写复杂的 CSS 选择器或 XPath 表达式。该项目的核心思想是利用大型语言模型（LLM）理解用户的自然语言指令，并将其转换为对网页结构的有效操作。NLWeb 提供了一个基于浏览器的界面，用户可以在其中输入自然语言查询，并查看从网页中提取的结果。它还提供了一个 API，允许开发者将 NLWeb 的功能集成到自己的应用程序中。项目特色包括：自然语言查询、无需编程、基于 LLM 的理解、浏览器界面和 API 支持。NLWeb 的工作原理是首先使用 LLM 理解用户的查询意图，然后将查询转换为对网页 DOM 树的操作，最后提取并呈现相关内容。它是一个研究项目，旨在探索自然语言与网页交互的潜力，并为未来的 Web 交互方式提供新的思路。
 
 * [kaqijiang/Auto-GPT-ZH](https://github.com/kaqijiang/Auto-GPT-ZH) Auto-GPT-ZH是Auto-GPT的中文版本，致力于同步更新原项目。它是一个AI领域的创业和自媒体组织，旨在帮助用户利用AI进行工作、学习、创作和变现。该项目可能包含Auto-GPT的中文翻译、本地化适配以及相关的资源和教程。通过Auto-GPT-ZH，用户可以探索如何使用AI技术驱动创新，并将其应用于实际场景中。它可能提供了一个社区平台，供爱好者交流经验、分享技巧，共同探索AI的潜力。Auto-GPT-ZH的目标是降低AI的使用门槛，让更多人能够参与到AI的浪潮中，并从中受益。该项目可能涉及自然语言处理、机器学习等技术，并提供相应的工具和框架。它可能强调AI在内容创作、自动化流程和商业模式创新方面的应用。
 
@@ -233,15 +231,11 @@
 
 ##### 
 
-* [jujumilk3/leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts) 这个项目名为`jujumilk3/leaked-system-prompts`，是一个收集泄露的系统提示词的仓库。它旨在收集各种泄露的、用于配置大型语言模型（LLM）的系统提示词，这些提示词定义了LLM的行为方式和角色。项目的主要内容是`README.md`文件，其中可能包含了关于这些泄露提示词的描述、来源和使用方法。通过研究这些泄露的系统提示词，人们可以了解LLM是如何被控制和引导的，从而更好地理解和利用LLM技术。该项目对于研究LLM的安全性、可控性和潜在风险具有一定的价值。它提供了一个了解LLM内部运作机制的窗口，帮助开发者和研究者更好地理解如何设计和使用系统提示词来塑造LLM的行为。
-
 #### 智能搜索_RAG
 
 ##### 
 
 * [Anxcye/anx-reader](https://github.com/Anxcye/anx-reader) Anxcye/anx-reader是一个利用强大AI能力，支持多种电子书格式的阅读器项目。它旨在提供更智能、更专注的阅读体验。该项目的特色在于其AI功能，具体工作原理需要进一步研究项目代码和文档。它支持多种电子书格式，方便用户阅读不同来源的电子书。总而言之，Anx-reader是一个专注于提升阅读效率和体验的AI驱动型电子书阅读器。
-
-* [sentient-agi/OpenDeepSearch](https://github.com/sentient-agi/OpenDeepSearch) OpenDeepSearch 是一个开源的语义搜索引擎，旨在通过理解文档的含义而非仅仅匹配关键词来提升搜索质量。它利用向量数据库（如 Weaviate、Milvus、Chroma）存储文档的嵌入向量，并使用先进的语言模型（如 OpenAI 的 embeddings API 或本地模型）将搜索查询转换为向量。搜索时，系统将查询向量与文档向量进行比较，找到语义上最相关的文档。项目特色包括支持多种数据源（如网站、PDF、文本文件），易于扩展和定制，以及提供友好的用户界面。OpenDeepSearch 允许用户构建自己的知识库，并进行更智能、更高效的信息检索。它可以通过 Docker 快速部署，并提供 Python API 进行集成。该项目仍在积极开发中，未来将支持更多功能和模型。核心工作流程是：数据摄取-&gt;向量化-&gt;存储-&gt;搜索-&gt;结果呈现。
 
 * [Alibaba-nlp/ZeroSearch](https://github.com/Alibaba-nlp/ZeroSearch) ZeroSearch是一个无需检索即可提升大型语言模型（LLMs）搜索能力的项目，它通过一种新颖的“激励搜索”框架，使LLMs能够直接从其参数中提取信息，而无需依赖外部搜索引擎。该项目的主要思想是训练LLMs更好地利用其内部知识，从而模拟搜索行为。ZeroSearch的核心在于一个迭代的提示策略，它鼓励LLMs逐步细化其答案，并验证其内部知识的准确性。这种方法可以显著提高LLMs在知识密集型任务中的表现，例如问答和事实核查。项目代码和模型权重已开源，方便研究人员和开发者复现和改进。ZeroSearch的优势在于其高效性，因为它避免了外部检索的延迟，并且可以减少对外部资源的依赖。该项目为探索LLMs的内部知识和提升其搜索能力提供了一种新的思路。
 
@@ -259,9 +253,7 @@
 
 * [dkozlov/awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation) Awesome Knowledge Distillation 是一个关于知识蒸馏的精选资源列表，旨在帮助研究者和开发者快速了解和掌握知识蒸馏技术。该项目收集了大量与知识蒸馏相关的论文、代码库、教程和综述，涵盖了不同类型的蒸馏方法，例如基于logits、特征和关系等的蒸馏。它也包括了针对特定应用场景的知识蒸馏，如自然语言处理、计算机视觉和语音识别。该项目特别关注了最新的研究进展，并持续更新. 知识蒸馏的核心思想是将大型、复杂的教师模型中的知识转移到小型、高效的学生模型中，从而在保持性能的同时降低计算成本。该项目通过清晰的分类和链接，方便用户查找所需的资源，加速知识蒸馏的学习和应用。它也收录了一些工具和框架，可以帮助用户更轻松地实现知识蒸馏算法。总之，这是一个学习和探索知识蒸馏技术的宝贵资源库。
 
-* [lucidrains/self-rewarding-lm-pytorch](https://github.com/lucidrains/self-rewarding-lm-pytorch) 这个项目是MetaAI的“自奖励语言模型”论文的PyTorch实现。它旨在创建一个无需人工标注奖励信号，而是通过模型自身判断生成质量来训练语言模型的框架。核心思想是让模型生成多个回复，然后用同一个模型对这些回复进行排序，选出最好的作为奖励信号，反过来提升模型生成能力。项目特色在于完全依赖模型自身进行奖励学习，无需外部监督，理论上可以持续自我提升。具体实现包括生成模块、奖励模块和训练循环。模型通过比较不同回复的“有用性、相关性、无害性”等指标来进行排序。项目提供了清晰的代码结构和示例，方便研究者复现和进一步探索自奖励语言模型的潜力。
-
-* [e-p-armstrong/augmentoolkit](https://github.com/e-p-armstrong/augmentoolkit) Augmentoolkit是一个GitHub项目，旨在将计算资源和书籍转换为指令微调数据集。它能够生成问答（QA）、角色扮演（RP）和分类器数据集。该工具的核心功能在于自动化数据集生成流程，简化了从原始文本材料创建高质量指令微调数据的过程。Augmentoolkit通过分析文本内容并应用特定的算法，自动提取信息并构建相应的数据集格式。这使得开发者可以更高效地利用现有资源来训练大型语言模型，而无需手动标注大量数据。项目的目标是降低指令微调数据集的创建成本，并加速语言模型的开发和改进。简单来说，它是一个自动化指令微调数据集生成工具，支持QA、RP和分类任务，主要通过处理文本内容来实现。
+* [uclaml/SPIN](https://github.com/uclaml/SPIN) SPIN项目是自博弈微调（Self-Play Fine-Tuning）的官方实现。它旨在通过让模型与自身生成的输出来进行对抗训练，从而提升模型的性能。SPIN的核心思想是利用模型自身生成的数据来微调模型，模拟真实世界中数据分布不完美的情况。项目提供了训练和评估SPIN模型的代码，支持多种模型架构和数据集。该方法通过最小化生成数据和真实数据之间的差异来优化模型，使其更具鲁棒性和泛化能力。SPIN特别适用于数据质量不高或难以获取高质量标注数据的场景。该项目包含详细的文档和示例，方便用户理解和使用SPIN方法。通过自博弈，模型可以学习到更细微的模式和更复杂的策略，从而在各种任务中取得更好的表现。SPIN方法可以应用于自然语言处理、计算机视觉等多个领域。
 
 * [natolambert/rlhf-book](https://github.com/natolambert/rlhf-book) rlhf-book是一个关于人类反馈强化学习（RLHF）的教科书项目，旨在帮助读者理解和掌握RLHF技术。该项目涵盖了RLHF的基本概念、算法和应用，并提供了丰富的代码示例和实验结果。其核心思想是利用人类的偏好数据来训练奖励模型，进而指导强化学习智能体的学习。该项目可能包括对齐（Alignment）问题的讨论，以及如何使用人类反馈来提高模型的安全性、可靠性和可控性。读者可以通过学习该项目，了解如何构建基于人类反馈的智能体，并将其应用于各种实际场景，例如对话生成、文本摘要和机器人控制等。该项目提供了理论知识和实践指导，适合对RLHF感兴趣的研究人员和工程师学习。
 
@@ -283,11 +275,9 @@
 
 ##### 
 
-* [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) Playwright MCP 是一个创新的服务器项目，它充当大型语言模型 (LLM) 与网页浏览器之间的桥梁，通过集成强大的 Playwright 工具来实现浏览器自动化。其核心设计理念是让 LLM 通过分析网页的结构化可访问性快照来理解和操作页面元素，这种方法避免了传统依赖截图和复杂视觉模型的开销，从而实现了更快、更轻量且更具确定性的交互。尽管如此，项目也提供了 --vision 模式，允许在需要时切换到基于截图的视觉交互方式，以适应不同模型的特定需求。用户可以轻松地将其集成到各种MCP客户端（如VS Code、Cursor等），并通过丰富的命令行参数或JSON配置文件进行细致的功能定制，例如选择浏览器类型、配置用户数据目录（支持持久化存储或会话隔离），甚至可以将其作为独立的服务器运行，以支持无显示环境或IDE工作进程中的自动化任务。
-
-* [Dooy/chatgpt-web-midjourney-proxy](https://github.com/Dooy/chatgpt-web-midjourney-proxy) Dooy/chatgpt-web-midjourney-proxy是一个集成了多种AI服务的Web应用，包括ChatGPT、Midjourney、GPTs、Suno、Luma、Runway、Viggle、Flux、Ideogram、Realtime、Pika和Udio等。它提供统一的用户界面，方便用户使用这些AI工具。项目支持多种平台，包括Web、PWA、Linux、Windows和MacOS。其核心功能是作为一个代理，方便用户访问和使用Midjourney等服务，可能解决了网络访问或API调用的问题。该项目的主要特色在于其All-in-One的集成特性和跨平台支持，旨在为用户提供便捷的AI工具使用体验。
-
 * [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) ModelContextProtocol TypeScript SDK 是一个官方的 TypeScript SDK，用于构建 Model Context Protocol (MCP) 服务器和客户端。它简化了与 MCP 服务器的交互，允许开发者轻松地集成上下文感知模型到他们的应用中。该 SDK 提供类型安全的接口，方便定义和使用模型上下文，并处理与 MCP 服务器的通信细节。通过使用这个 SDK，开发者可以专注于业务逻辑，而无需深入了解 MCP 的底层协议。该 SDK 支持定义模型、上下文和操作，并提供用于发送请求和接收响应的工具。它旨在提高开发效率，并确保与 MCP 协议的兼容性。这个 SDK 使得在 TypeScript 项目中使用 Model Context Protocol 变得更加简单和高效。
+
+* [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) fastapi_mcp是一个零配置工具，旨在自动将FastAPI端点暴露为模型上下文协议(MCP)工具。它简化了FastAPI应用与MCP的集成，无需手动编写大量配置。该项目的主要特色是自动暴露FastAPI端点，降低了开发复杂度。通过使用fastapi_mcp，开发者可以更轻松地创建和管理基于FastAPI的MCP工具。简单来说，它是一个桥梁，连接FastAPI的API和MCP框架，实现无缝集成。其工作原理是自动扫描FastAPI的路由，并将其转换为符合MCP协议的接口。这使得FastAPI应用能够轻松地与支持MCP的系统进行交互，从而扩展其功能和应用场景。
 
 * [pietrozullo/mcp-use](https://github.com/pietrozullo/mcp-use) mcp-use项目旨在简化与具有自定义代理的MCP服务器的交互。它提供了一种简便的方法来使用自定义代理连接和操作MCP服务器，无需复杂的配置或手动操作。该项目的核心优势在于其易用性，开发者可以快速上手并集成到自己的项目中。mcp-use可能包含用于建立连接、发送请求和处理响应的工具或库。它通过抽象底层通信细节，让用户专注于业务逻辑的实现。具体实现可能涉及到网络编程、协议解析和数据序列化等技术。用户可以通过简单的API或命令行界面与MCP服务器进行交互。该项目适用于需要与MCP服务器集成的各种应用场景，例如自动化运维、监控和数据分析等。总而言之，mcp-use致力于成为与MCP服务器交互的最简单方式。
 
@@ -299,7 +289,7 @@
 
 * [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) mcp-use项目旨在简化与MCP服务器的交互，特别是使用自定义代理的情况。它提供了一种简单易用的方式来连接和操作MCP服务器。该项目的核心优势在于其易用性，使得用户可以快速上手并进行自定义代理的集成。具体实现原理可能涉及网络通信、协议解析以及代理配置等技术。通过mcp-use，开发者可以更高效地构建和管理基于MCP服务器的应用程序，降低开发和维护成本。项目可能包含示例代码和详细文档，方便用户理解和使用。总体来说，mcp-use是一个方便开发者与MCP服务器交互的实用工具，尤其适用于需要自定义代理的场景。
 
-* [RWKV/rwkv.cpp](https://github.com/RWKV/rwkv.cpp) RWKV.cpp是一个针对RWKV语言模型的CPU推理优化项目，支持INT4、INT5、INT8和FP16等多种量化精度，旨在提高RWKV模型在CPU上的运行效率。该项目利用高效的C++代码实现，特别适用于资源受限的环境。它允许用户在没有GPU的情况下也能运行RWKV模型，降低了部署门槛。RWKV.cpp专注于CPU推理，通过量化技术减少内存占用和计算复杂度，从而加速推理过程。项目提供了详细的编译和使用指南，方便用户快速上手。其核心优势在于低资源消耗和良好的CPU兼容性，使得RWKV模型能够更广泛地应用。该项目是RWKV生态的重要组成部分，为RWKV模型的部署提供了更多选择。
+* [idosal/git-mcp](https://github.com/idosal/git-mcp) GitMCP是一个免费开源的远程MCP服务器，旨在解决代码幻觉问题。它适用于任何GitHub项目，通过某种机制来避免AI模型在代码生成或理解过程中产生不准确或虚构的内容，从而提高代码质量和可靠性。该项目主要目标是消除代码幻觉，确保AI在处理代码时基于真实存在的信息。具体工作原理可能涉及对GitHub项目的代码进行分析、验证或增强，以便为AI提供更准确的上下文。GitMCP可能提供API接口或工具，允许开发者将他们的GitHub项目与MCP服务器集成，从而利用其提供的代码幻觉检测和纠正功能。使用GitMCP可以帮助开发者构建更可靠的AI驱动的代码工具和应用。
 
 * [juncongmoo/chatllama](https://github.com/juncongmoo/chatllama) ChatLLaMA是一个开源项目，旨在实现基于LLaMA的ChatGPT，可以在单个GPU上运行。该项目的一大特色是其训练速度，据称比ChatGPT快15倍。它提供了一种低成本、高效的方式来构建和部署类似ChatGPT的对话模型。项目目标是让更多研究者和开发者能够轻松地利用LLaMA模型进行对话系统开发。通过优化训练流程和模型结构，ChatLLaMA降低了硬件要求，使得在资源有限的环境下也能进行模型训练和推理。该项目为LLaMA模型的应用开辟了新的可能性，促进了对话AI技术的普及和发展。简而言之，ChatLLaMA是一个快速、高效、易于使用的LLaMA-based ChatGPT开源实现。
 
@@ -321,11 +311,11 @@
 
 ##### 
 
-* [upstash/context7](https://github.com/upstash/context7) Context7 MCP Server 是一个为大型语言模型 (LLMs) 和 AI 代码编辑器提供最新代码文档的项目。它旨在解决 LLMs 在处理过时代码文档时遇到的问题，确保 LLMs 可以访问最新的代码信息。Context7 的核心功能是提供一个 MCP (Meta Context Provider) Server，该服务器可以动态地从代码仓库中提取和更新代码文档。通过使用 Context7，LLMs 可以更准确地理解代码，并生成更可靠的代码建议和文档。该项目特别适用于需要实时代码文档的场景，例如 AI 驱动的代码补全、代码搜索和代码理解工具。Context7 旨在提高 LLMs 在代码相关任务中的性能和准确性，为开发者提供更好的 AI 辅助编程体验。它通过维护一个最新的代码上下文，帮助 LLMs 更好地理解代码的语义和结构。
+* [microsoft/edit](https://github.com/microsoft/edit) Microsoft Edit 是一个旨在提升编辑体验的项目，它通过使用大型语言模型（LLM）来理解和操作代码，从而实现更智能的编辑功能。该项目的目标是探索如何利用 LLM 来改进代码编辑的各个方面，例如代码完成、代码修复和代码重构。Edit 的核心思想是将编辑操作视为对代码状态的转换，并利用 LLM 预测和执行这些转换。它与现有的编辑器集成，并提供了一系列工具和 API，方便开发者使用 LLM 进行代码编辑。该项目目前处于早期开发阶段，但已经展示了 LLM 在代码编辑领域的巨大潜力。它旨在为开发者提供更高效、更智能的编辑体验，并推动代码编辑技术的创新。
 
 * [qodo-ai/qodo-cover](https://github.com/qodo-ai/qodo-cover) Qodo-Cover是一个AI驱动的自动化测试生成和代码覆盖率增强工具。它利用人工智能技术，旨在帮助开发者更高效地创建测试用例，并提高代码的测试覆盖率。该项目致力于简化测试流程，减少手动编写测试的工作量。通过Qodo-Cover，开发者可以更轻松地发现代码中的潜在bug，并确保代码质量。该工具的核心功能是自动生成测试用例，并评估代码的覆盖程度。Qodo-Cover适用于各种规模的项目，并可以集成到现有的开发流程中。它旨在提高软件开发的效率和可靠性。该项目目标是为开发者提供一个强大而易于使用的测试工具。
 
-* [codium-ai/alphacodium](https://github.com/codium-ai/alphacodium) AlphaCodium是一个代码生成项目，它基于论文“Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering”。该项目旨在通过一种名为“流程工程”的新方法来提升代码生成质量。AlphaCodium的核心思想是将prompt工程扩展到整个代码生成流程，通过精心设计的流程来引导模型生成更可靠、更高效的代码。具体来说，它包含一系列阶段，例如测试套件生成、代码实现、以及基于测试结果的迭代改进。AlphaCodium特别关注解决实际编程挑战，并力求生成可直接运行和使用的代码。项目提供官方实现，方便开发者复现和进一步研究。该项目强调了通过优化代码生成流程，而非仅仅依赖prompt，来显著提高代码质量的重要性。AlphaCodium可以帮助开发者更有效地利用大型语言模型进行代码生成任务。
+* [bernaferrari/FigmaToCode](https://github.com/bernaferrari/FigmaToCode) FigmaToCode是一个可以将Figma设计稿转换为响应式HTML、Tailwind CSS、Flutter和SwiftUI代码的工具。它旨在帮助开发者加速开发流程，减少手动编写代码的工作量。该项目支持多种框架，方便开发者根据自身需求选择合适的输出格式。FigmaToCode的工作原理是解析Figma设计稿的结构和样式，然后将其映射到相应的代码表示。项目特色在于其响应式布局生成能力，确保生成的代码在不同设备上都能良好显示。开发者可以通过该项目快速搭建原型、创建用户界面，并将其集成到现有的项目中。项目还提供了详细的文档和示例，帮助用户快速上手。它是一个强大的工具，可以显著提高开发效率，并减少设计和开发之间的差距。 总之，FigmaToCode是一个能将Figma设计稿转换成多种代码格式的效率工具，支持响应式布局，方便开发者快速构建用户界面。
 
 * [AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover) AutoCodeRoverSG/auto-code-rover是一个旨在实现自主程序改进的项目，它是一个具备项目结构意识的自主软件工程师。该项目在SWE-bench lite测试集中解决了37.3%的任务（pass@1），在SWE-bench verified测试集中解决了46.2%的任务（pass@1）。每个任务的成本低于0.7美元。这意味着它能够以较低的成本自动修复和改进代码。该项目专注于理解代码结构，从而更有效地进行代码修改和优化。它旨在模仿人类软件工程师的工作方式，实现自主化的代码改进流程。该项目展示了在自动化软件开发和维护方面的潜力。
 
@@ -393,8 +383,6 @@
 
 ## 文本匹配_文本检索_文本相似度
 
-* [stanfordnlp/GloVe](https://github.com/stanfordnlp/GloVe) 斯坦福NLP的GloVe项目提供C语言实现的GloVe模型以及相关数据文件，用于生成分布式词表示，也就是词向量或词嵌入。GloVe模型是一种流行的词向量生成方法，它基于全局词共现统计信息学习词向量。项目包含高效的C代码，方便用户训练自己的词向量模型。GloVe的核心思想是利用词共现矩阵，通过最小化全局目标函数来学习词向量，该目标函数旨在使词向量的点积尽可能接近词共现概率的对数。项目提供了预训练的词向量，方便用户直接使用。GloVe模型在自然语言处理任务中表现出色，例如词义相似度计算、文本分类等。该项目是研究和应用词向量的宝贵资源。用户可以根据自己的语料库训练定制的词向量，也可以直接使用预训练的词向量进行下游任务。GloVe是一种有效的无监督学习方法，能够捕捉词汇之间的语义关系。
-
 * [RUCAIBox/SimpleDeepSearcher](https://github.com/RUCAIBox/SimpleDeepSearcher) SimpleDeepSearcher 是一个基于深度学习的简单易用的信息检索工具，由 RUCAIBox 开发。它利用预训练语言模型（PLM）进行语义搜索，旨在帮助用户快速找到相关信息。该项目的主要特色在于其简单性，用户无需复杂的配置即可上手使用。其工作原理是首先将文档和查询转换为向量表示，然后通过计算向量之间的相似度来检索相关文档。SimpleDeepSearcher 支持多种 PLM 模型，包括 BERT、RoBERTa 等，用户可以根据自己的需求选择合适的模型。项目提供了详细的教程和示例代码，方便用户进行二次开发和定制。它适用于各种信息检索场景，例如文档搜索、问答系统等。SimpleDeepSearcher 旨在降低深度学习在信息检索领域的应用门槛，让更多用户能够受益于深度学习技术。项目代码结构清晰，易于理解和修改。
 
 ## 文本摘要
@@ -417,23 +405,15 @@
 
 ### iOS_Swift应用开发
 
+* [twostraws/ControlRoom](https://github.com/twostraws/ControlRoom) ControlRoom 是一个 macOS 应用程序，用于控制 Xcode 模拟器。它由 Paul Hudson (@twostraws) 开发。该项目旨在提供更方便的方式来管理和操作模拟器，例如快速启动、关闭、重置等。ControlRoom 简化了与模拟器的交互过程，无需频繁使用 Xcode 界面。它提供了一个用户友好的界面，可以轻松地调整模拟器的设置，例如设备类型、操作系统版本和屏幕方向。此外，ControlRoom 可能还提供了一些高级功能，例如模拟器录屏和截屏，以及模拟网络条件和位置信息。该项目使用 Swift 编写，并遵循 MIT 许可证。ControlRoom 能够显著提高 iOS 开发者的工作效率，尤其是在需要频繁使用模拟器进行测试和调试时。
+
+* [devicekit/DeviceKit](https://github.com/devicekit/DeviceKit) DeviceKit是一个轻量级的iOS设备信息库，旨在替代苹果官方的UIDevice类。它使用值类型（Value Type）实现，提供更安全、更易于预测的行为。DeviceKit可以帮助开发者获取设备型号、操作系统版本、屏幕尺寸、电池状态等详细信息，方便进行设备适配和性能优化。它通过读取系统信息和硬件参数来工作，并提供简洁的API访问这些数据。DeviceKit支持多种设备类型，包括iPhone、iPad、iPod touch和Apple Watch。该库易于集成，可以通过CocoaPods或手动方式添加到项目中。DeviceKit的目标是提供一个可靠且易于使用的设备信息解决方案，帮助开发者构建更好的iOS应用。它专注于提供准确的设备信息，避免了UIDevice的一些潜在问题。DeviceKit是一个开源项目，欢迎开发者贡献代码和提出建议。
+
 ### React工具库
-
-* [nextjs/saas-starter](https://github.com/nextjs/saas-starter) 此项目是一个基于 Next.js 的 SaaS 启动模板，旨在帮助开发者快速构建 SaaS 应用。它集成了 Postgres 数据库、Stripe 支付平台和 shadcn/ui 组件库，提供了一套完整的开箱即用的解决方案。你可以利用它快速搭建用户认证、订阅管理和支付功能。项目特色在于其现代化的技术栈，包括 Next.js 的服务端渲染能力、Postgres 的数据存储以及 Stripe 的安全支付处理。通过预先配置好的环境和组件，开发者可以专注于核心业务逻辑的开发，减少重复性的基础工作。该模板旨在简化 SaaS 应用的开发流程，加速产品上线。
-
-* [uidotdev/usehooks](https://github.com/uidotdev/usehooks) `uidotdev/usehooks` 是一个由 ui.dev 团队维护的 React hooks 集合，专注于提供现代且服务器安全的 hooks。该项目旨在简化 React 开发，提供开箱即用的解决方案，无需担心服务器端渲染问题。它包含各种常用的 hooks，例如用于管理状态、处理副作用、与浏览器 API 交互等。该库的设计目标是易于使用、可测试和高性能。开发者可以轻松地将这些 hooks 集成到自己的 React 项目中，提高开发效率并减少样板代码。`usehooks` 提供了清晰的文档和示例，方便开发者快速上手和理解每个 hook 的用法。它是一个非常有用的工具，可以帮助开发者构建更健壮、更高效的 React 应用。该项目持续更新和维护，确保与最新的 React 版本兼容。
-
-* [leerob/site](https://github.com/leerob/site) 该项目是由leerob开发的个人网站，使用Next.js框架构建，界面风格采用Tailwind CSS，并部署在Vercel平台上。项目特色在于结合了现代Web开发技术栈，实现高性能和可扩展性。Next.js提供了服务端渲染和静态站点生成能力，优化了SEO和用户体验。Tailwind CSS则通过原子类的方式，简化了样式编写和维护。Vercel则提供便捷的部署和持续集成/持续交付流程。该项目展示了如何利用这些技术构建一个快速、美观且易于维护的个人网站。它可能包含个人博客、项目展示、简历等内容，具体功能取决于作者的个人需求。该项目可以作为学习Next.js、Tailwind CSS和Vercel的实践案例。
-
-* [elastic/eui](https://github.com/elastic/eui) Elastic UI Framework (EUI) 是一个为构建 Elastic 产品而设计的 UI 框架，提供了一系列可复用的 React 组件和工具。它旨在创建一致、美观且用户友好的界面，提升 Elastic 产品的使用体验。EUI 包含丰富的组件库，涵盖了排版、颜色、图标、布局等各个方面，并提供了主题定制能力。该框架专注于可访问性，确保不同用户都能无障碍地使用 Elastic 产品。EUI 简化了开发流程，让开发者能够快速构建高质量的 UI，并保持整个 Elastic 产品线视觉风格的统一。它基于 React 构建，并遵循 Elastic 的设计原则，是一个强大而灵活的 UI 开发工具。EUI 鼓励社区参与，欢迎贡献代码和提供反馈，共同完善这个框架。
-
-* [vercel/platforms](https://github.com/vercel/platforms) vercel/platforms 是一个基于 Next.js 的全栈应用，专注于多租户架构。它提供了一套完整的解决方案，帮助开发者快速构建支持多租户的应用，例如 SaaS 平台。该项目展示了如何使用 Next.js 实现用户身份验证、权限管理和数据隔离。它利用 Vercel 平台提供的特性，如 Serverless Functions 和 Edge Functions，来实现高性能和可扩展性。该项目包含示例代码和详细文档，方便开发者理解和使用。它旨在简化多租户应用的开发过程，并提供最佳实践。项目特色包括开箱即用的多租户支持、灵活的权限控制以及与 Vercel 平台的无缝集成。开发者可以基于此项目快速搭建自己的 SaaS 产品或其他需要多租户支持的应用。该项目提供了一个清晰的架构和可扩展的代码库，方便开发者进行定制和扩展。
 
 * [sanity-io/sanity](https://github.com/sanity-io/sanity) Sanity Studio 是一个基于结构化内容驱动的快速配置内容工作区工具。它允许开发者和内容创作者高效地构建和管理各种数字体验，例如网站、应用程序和数字产品。Sanity Studio 的核心理念是将内容视为数据，通过强大的 API 和查询语言（GROQ）实现内容的灵活访问和重用。它提供了一个可定制的、实时的协作编辑环境，并支持插件扩展以满足特定需求。Sanity Studio 可以与任何前端技术栈集成，让内容管理与开发流程无缝衔接。它旨在提升内容创作效率，并确保内容在不同渠道的一致性和可维护性。该项目使用 JavaScript 和 React 构建，并提供丰富的文档和社区支持。
 
 * [al1abb/invoify](https://github.com/al1abb/invoify) Invoify是一个使用Next.js、Typescript和Shadcn构建的发票生成器应用程序。它允许用户创建和管理发票，提供了一个现代化的用户界面。该项目利用Next.js的服务器端渲染能力，Typescript的类型安全以及Shadcn UI组件库来构建用户界面。核心功能是发票的创建、编辑和存储，可能还包括发票的下载和打印功能。Invoify旨在提供一个简单易用的发票管理解决方案，适合小型企业或自由职业者使用。开发者使用了现代Web技术栈，保证了应用的性能和可维护性。项目特色在于其技术选型，Next.js保证性能，Typescript提升代码质量，Shadcn提供美观的UI组件。
-
-* [GoogleChromeLabs/react-adaptive-hooks](https://github.com/GoogleChromeLabs/react-adaptive-hooks) React Adaptive Hooks 是 GoogleChromeLabs 开发的 React 库，旨在根据用户的设备和网络环境提供最佳体验。它通过使用一系列 React Hooks 来实现，这些 Hooks 可以检测用户的连接速度、设备内存、CPU 核心数等信息。基于这些信息，开发者可以动态调整应用程序的行为，例如加载更小尺寸的图片、减少动画效果或禁用某些功能，从而优化性能并改善用户体验。该项目提供了一组预定义的 Hooks，同时也允许开发者自定义 Hooks 以满足特定需求。核心理念是“适应性交付”，即根据用户环境动态调整应用内容和服务，确保在各种设备和网络条件下都能提供流畅体验。
 
 * [steven-tey/precedent](https://github.com/steven-tey/precedent) Precedent是一个为Next.js项目提供组件、钩子和实用工具的精选集合。它旨在帮助开发者快速构建Next.js应用，并提供了一套经过精心设计的、具有主观风格的解决方案。该项目包含了常用的UI组件、数据处理钩子以及各种实用工具函数，可以显著提升开发效率。Precedent的核心理念是提供一套开箱即用的、经过优化的基础架构，让开发者能够专注于业务逻辑的实现。它简化了Next.js项目的搭建过程，减少了重复性工作，并提供了一致的开发体验。总而言之，Precedent是一个旨在加速Next.js开发的、包含丰富组件和工具的实用项目。
 
@@ -441,19 +421,39 @@
 
 * [cruip/tailwind-landing-page-template](https://github.com/cruip/tailwind-landing-page-template) Simple Light 是一个免费的落地页模板，基于 TailwindCSS 构建，并完全使用 React / Next.js 编写。它由 Cruip 开发，旨在帮助用户快速启动项目。该模板提供了一个简洁现代的设计，易于定制和扩展。利用 TailwindCSS 的实用类，可以轻松修改样式和布局。React/Next.js 的组合提供了高性能和组件化的开发体验。Simple Light 特别适合需要快速搭建展示页面或营销网站的开发者。它是一个轻量级且灵活的解决方案，可以根据具体需求进行调整，加速项目启动进程。
 
+* [imcuttle/mometa](https://github.com/imcuttle/mometa) Mometa是一个面向研发的低代码元编程工具，目前处于Beta阶段。它提供代码可视编辑功能，旨在辅助研发人员进行编码。Mometa的核心特色在于低代码元编程，通过可视化方式简化代码生成和修改过程。它本质上是一个辅助编码工具，帮助开发者更高效地完成工作。Mometa通过可视化的方式进行代码编辑，降低了编码门槛，提升了开发效率。该项目致力于成为研发人员的得力助手，简化复杂的编码任务。
+
+* [onejs/one](https://github.com/onejs/one) One是一个新的React框架，旨在通过一个Vite插件和完全共享的代码，同时构建Web和原生应用，让跨平台开发变得像单平台开发一样简单。它致力于解决跨平台开发的痛点，使开发者能够使用一套代码库构建适用于Web和原生平台的应用程序。One的核心理念是最大程度地代码复用，减少重复劳动，提高开发效率。它利用Vite插件简化了配置过程，使开发者能够专注于业务逻辑的实现。One的目标是让跨平台开发变得更加容易上手和维护，降低开发成本，加速产品上线。该框架特别适合需要快速构建跨平台应用，并希望保持代码库简洁高效的开发者。
+
 ### Vue工具库
+
+* [GeekyAnts/vue-native-core](https://github.com/GeekyAnts/vue-native-core) Vue Native 是一个使用 JavaScript 构建跨平台原生移动应用的框架。它允许开发者使用 Vue.js 的语法和组件模型来创建 iOS 和 Android 应用。Vue Native 的核心思想是将 Vue 组件编译成原生 UI 组件，从而实现高性能和原生体验。该项目基于 React Native，并利用其原生渲染能力。开发者可以使用 Vue 的单文件组件、数据绑定、指令等特性。Vue Native 提供了与 React Native 组件的互操作性，允许开发者混合使用两者。它简化了移动应用开发流程，降低了学习曲线，并提高了代码复用率。Vue Native 旨在让 Vue 开发者能够轻松进入移动应用开发领域，并构建出高质量的跨平台应用。该项目仍在积极开发和维护中，不断增加新的特性和组件。
+
+* [histoire-dev/histoire](https://github.com/histoire-dev/histoire) Histoire 是一个基于 Vite 构建的快速且美观的交互式组件游乐场。它旨在提供一个便捷的环境，用于开发、测试和展示 UI 组件。Histoire 的核心优势在于其速度和易用性，这得益于 Vite 的快速构建能力。你可以使用 Markdown 或 TypeScript 等多种格式编写故事（stories），并通过交互式界面与组件进行交互。Histoire 支持多种框架，如 Vue、React、Svelte 等，并允许你自定义主题和插件。它还提供了一些高级功能，例如热重载、自动生成文档、以及对不同设备和屏幕尺寸的响应式测试。通过 Histoire，你可以轻松地创建组件库，并将其发布到 npm 或其他包管理器。总而言之，Histoire 是一个强大的工具，可以帮助你提高组件开发的效率和质量。
 
 ### 前端项目_其他
 
-* [angular/angularfire](https://github.com/angular/angularfire) AngularFire 是一个连接 Angular 应用和 Firebase 的官方库。它简化了在 Angular 项目中使用 Firebase 服务的流程，提供响应式编程模型，利用 RxJS 的强大功能来处理数据流。主要特色包括实时数据同步、身份验证、云函数集成、存储管理和托管部署。AngularFire 通过 Angular 的依赖注入系统无缝集成 Firebase SDK，使得开发者可以轻松地读取和写入 Firebase 数据库，监听数据变化并实时更新 UI。它支持各种 Firebase 服务，例如 Firestore、Realtime Database、Authentication、Cloud Functions、Cloud Storage 和 Hosting。使用 AngularFire 可以大大减少开发时间和代码量，构建高性能、可扩展的 Web 应用。项目维护者包括 Firebase 团队和 Angular 社区，确保了代码质量和持续更新。
+* [ChartsCSS/charts.css](https://github.com/ChartsCSS/charts.css) Charts.css是一个开源的CSS框架，专为数据可视化而设计。它允许开发者仅使用HTML和CSS创建各种图表，无需JavaScript。该框架的核心思想是利用HTML的语义化标签和CSS的样式规则来呈现数据，例如使用`&lt;table&gt;`元素来构建图表结构，并利用CSS类来定义图表的样式、颜色和数据值。Charts.css支持多种图表类型，包括柱状图、折线图、饼图等。其主要特色在于简单易用，易于定制，并且性能优秀，因为它避免了JavaScript的复杂性。开发者可以通过修改CSS变量来定制图表的外观，使其与网站的整体风格保持一致。Charts.css旨在为那些希望快速、轻量级地在网页上展示数据的开发者提供一个便捷的解决方案。它特别适合于静态网站或对JavaScript依赖有限制的项目。总而言之，Charts.css是一个纯CSS的数据可视化工具，它通过巧妙地利用HTML和CSS的特性，实现了简单、高效且可定制的图表生成。
 
-* [PyQt5/PyQt](https://github.com/PyQt5/PyQt) 该项目是PyQt Examples，包含了PyQt4和PyQt5的各种测试和示例代码。它旨在帮助开发者学习和理解PyQt框架的使用，涵盖了各种GUI组件、事件处理、信号与槽机制、图形视图框架等。通过这些例子，开发者可以快速掌握PyQt的基本概念和高级特性，并将其应用到实际项目中。项目结构清晰，每个例子都相对独立，方便开发者查找和学习特定功能。无论是PyQt新手还是有经验的开发者，都可以从中受益，提高PyQt应用程序的开发效率。该项目是学习PyQt的宝贵资源，可以帮助开发者更好地理解和应用PyQt框架。
-
-* [nordtheme/nord](https://github.com/nordtheme/nord) Nord是一个北极主题的配色方案，以北欧的蓝色调为特色。它旨在为你的编辑器、终端和其他应用程序提供优雅、清晰的界面。该项目提供了一套精心挑选的颜色，强调可读性和视觉舒适度。Nord主题适用于多种平台和软件，包括编辑器、IDE、终端模拟器等。其目标是提供一个统一的视觉体验，降低眼睛疲劳，并提升工作效率。Nord项目不仅包含颜色定义，还提供详细的文档和示例，帮助用户轻松集成和定制主题。它是一个开源项目，鼓励社区参与和贡献，共同完善这个美丽的配色方案。Nord主题的设计灵感来源于北极的自然景观，力求营造一种宁静、专注的工作环境。该项目已成为一个流行的选择，受到许多开发人员和设计师的喜爱。
+* [vasturiano/3d-force-graph](https://github.com/vasturiano/3d-force-graph) 这是一个基于ThreeJS/WebGL的3D力导向图组件，名为3D-Force-Graph。它利用力导向算法在3D空间中呈现图数据，节点和连线以3D形式可视化。项目特色在于其交互性和可定制性，允许用户调整力参数、节点样式、连线外观等。该组件的工作原理是模拟物理力，使节点之间相互作用，最终达到平衡状态，从而形成清晰的图结构。它支持各种图数据格式，并提供了丰富的API用于控制图的布局和渲染。你可以使用它创建动态、美观且易于理解的3D图可视化应用，适用于网络分析、社交网络可视化、知识图谱等领域。它易于集成到现有的ThreeJS项目中，并提供了详细的文档和示例。
 
 * [sitespeedio/sitespeed.io](https://github.com/sitespeedio/sitespeed.io) sitespeed.io是一个开源的网站性能分析工具，旨在帮助你测试、监控和优化网站速度。它使用真实的浏览器，可以在各种环境中运行。该工具能深入分析你的网站，找出性能瓶颈。你可以用它来收集关键性能指标，如加载时间、渲染时间等。sitespeed.io支持多种浏览器和设备模拟，让你了解用户在不同条件下的体验。通过分析HTTP请求、资源大小和渲染过程，它能给出具体的优化建议。此外，它还可以集成到CI/CD流程中，实现持续的性能监控。sitespeed.io支持生成各种报告和可视化图表，方便你理解和分享性能数据。它是一个功能强大且灵活的工具，可以帮助你打造更快速、更流畅的网站体验。它的核心目标是提供可操作的性能洞察，提升用户满意度。
 
+* [sadanandpai/frontend-learning-kit](https://github.com/sadanandpai/frontend-learning-kit) 前端学习工具包，sadanandpai/frontend-learning-kit是一个前端技术指南和精选资料集。它旨在帮助开发者学习和掌握前端技术。该项目可能包含各种前端学习资源，例如教程、文章、示例代码和工具等。通过该项目，你可以系统地学习前端知识，并找到有用的学习材料。具体内容需要查看项目仓库中的实际文件。这个工具包可能涵盖HTML、CSS、JavaScript等核心前端技术，以及流行的前端框架和库。它可能还包括前端开发的最佳实践和常见问题的解决方案。该项目适合初学者和有经验的开发者，可以帮助他们提升前端技能。
+
 * [hepengwei/visualization-collection](https://github.com/hepengwei/visualization-collection) 🌈 hepengwei/visualization-collection 是一个前端视觉效果集合项目，汇集了上百个案例，并且持续更新。它涵盖了多种技术领域，包括CSS动效、Canvas动画、Three.js 3D 以及人工智能应用。该项目旨在提供丰富的视觉效果示例，帮助开发者学习和应用各种前端技术。你可以从中找到各种创意性的视觉实现方案，并将其应用到你的项目中。无论你是前端新手还是经验丰富的开发者，都能从这个项目中受益，学习到新的技术和技巧。项目中的案例涵盖了各种难度级别，可以满足不同层次开发者的需求。通过学习这些案例，你可以提升你的前端开发能力，创造出更具吸引力的用户界面。
+
+* [sadanandpai/javascript-code-challenges](https://github.com/sadanandpai/javascript-code-challenges) 这个项目sadanandpai/javascript-code-challenges是一个JavaScript代码挑战集合，难度从初学者到专家级别，旨在帮助开发者准备现代JavaScript面试。它包含了各种各样的编程题目，覆盖了JavaScript的核心概念和常用技巧。通过解决这些挑战，开发者可以提升自己的JavaScript技能，并更好地理解JavaScript的工作原理。该项目特别适合那些希望巩固JavaScript基础、提升面试能力或者仅仅是想通过练习来提高编程水平的开发者。这些挑战题目的设计考虑了现代JavaScript的特性，能够帮助开发者了解最新的JavaScript技术和最佳实践。总之，这是一个非常有价值的资源，可以帮助开发者在JavaScript领域取得更大的进步。
+
+* [mouredev/python-web](https://github.com/mouredev/python-web) 本项目是由MoureDev创建的Python Web开发课程，旨在从零开始教授纯Python前端Web开发。该课程基于Twitch直播内容制作，因此可能包含直播互动元素。项目重点在于使用纯Python构建前端，不依赖其他前端框架，让学习者深入理解Web开发底层原理。通过该课程，学习者可以掌握使用Python进行Web前端开发的基本技能，并了解如何从头构建Web应用。该项目可能包含逐步讲解的教程、示例代码和练习，帮助学习者循序渐进地掌握相关知识。适合希望使用Python进行Web前端开发，且对底层原理感兴趣的开发者。项目特色在于其直播互动性和纯Python实现方式，让学习过程更具趣味性和深度。
+
+* [FrontendMasters/front-end-handbook-2019](https://github.com/FrontendMasters/front-end-handbook-2019) Frontend Masters的2019前端开发手册，旨在提供前端开发的实用指南。它涵盖了广泛的主题，包括但不限于HTML、CSS、JavaScript以及现代前端框架和工具。该手册可能深入探讨了前端开发的最佳实践、常见问题解决方案和新兴技术趋势。通过阅读此手册，开发者可以提升技能，了解最新的前端开发技术栈，并构建更健壮、更高效的Web应用程序。它可能包含代码示例、图表和实际案例，帮助读者更好地理解和应用所学知识。该手册可能还涉及性能优化、可访问性、安全性等方面，帮助开发者构建更全面的前端解决方案。总之，这是一个旨在帮助前端开发者提升技能和知识的综合性资源。
+
+* [raysan5/raygui](https://github.com/raysan5/raygui) raygui是一个简单易用的即时模式GUI库。它基于C语言开发，设计轻量级且易于集成到各种项目中。raygui的核心特点是即时模式，这意味着GUI元素的状态不会被库内部存储，而是每次渲染时都重新构建。这种方式简化了状态管理，但也需要开发者在每一帧都提供GUI元素的描述。raygui提供了多种预定义的控件，如按钮、滑块、文本框等，方便快速构建用户界面。此外，raygui还支持自定义样式和布局，允许开发者根据需求定制GUI的外观。项目目标是提供一个简洁、高效、灵活的GUI解决方案，适用于游戏开发、工具软件等多种应用场景。由于是即时模式，raygui特别适合与游戏引擎或其他需要高性能渲染的应用集成。
+
+* [taiga-family/taiga-ui](https://github.com/taiga-family/taiga-ui) Taiga UI 是一个为优秀的人们打造的 Angular UI 工具包和组件库。它提供了一套丰富的、高质量的 Angular 组件，可以帮助开发者快速构建美观且功能强大的 Web 应用程序。Taiga UI 的设计注重用户体验和可访问性，提供了多种主题和定制选项，方便开发者根据项目需求进行调整。该库基于 Angular 构建，充分利用了 Angular 的特性和优势，例如强大的数据绑定和组件化能力。Taiga UI 旨在简化 Angular 应用的开发流程，提高开发效率，并提供一致的用户界面体验。它包含了各种常用的 UI 组件，例如按钮、输入框、表格、日期选择器等，并且还在不断增加新的组件。Taiga UI 易于安装和使用，并且提供了详细的文档和示例，方便开发者学习和使用。该项目遵循 MIT 许可证，是一个开源项目，欢迎社区贡献。
+
+* [AzuraCast/AzuraCast](https://github.com/AzuraCast/AzuraCast) AzuraCast是一个自托管的网络电台管理套件，它提供了一整套电台软件栈的开箱即用安装工具，简化了电台的搭建过程。该项目包含一个现代且易于使用的Web应用程序，用于管理您的电台，让电台运营更加便捷。AzuraCast允许用户完全掌控自己的电台数据和设置，无需依赖第三方服务。其核心功能包括音乐管理、播放列表调度、直播控制和听众统计等。该项目旨在为广播爱好者和专业人士提供一个强大而灵活的平台，轻松创建和管理自己的网络电台。通过AzuraCast，用户可以自定义电台的外观和功能，并根据自己的需求进行扩展。该项目使用现代Web技术构建，具有良好的可扩展性和安全性。AzuraCast的易用性和完整性使其成为构建网络电台的理想选择。
 
 * [princehuang/overseas-website-note](https://github.com/princehuang/overseas-website-note) princehuang/overseas-website-note项目是作者以“海外工具网站”为主要事业的成果，受益于AI时代的发展。该项目具体内容未在提供的readme中详细说明，但可以推测它可能包含一系列与海外工具网站相关的笔记、资源、代码或其他相关材料。作者对该项目抱有积极态度，并认为它代表了其职业生涯的重要转折。
 
@@ -463,25 +463,27 @@
 
 ### 多工具库支持或纯JS
 
-* [radix-ui/themes](https://github.com/radix-ui/themes) Radix Themes是一个开源组件库，旨在加速开发、简化维护并提升可访问性。它由@workos维护。该项目提供了一套精心设计的UI组件，这些组件经过优化，可以快速集成到你的项目中。Radix Themes的核心理念是提供一致且可预测的样式，从而减少样式冲突和维护成本。它基于Radix UI Primitives构建，这意味着它具有良好的可访问性支持和底层控制能力。该库的目标是提供一个可靠的基础，让开发者能够专注于构建应用程序的核心功能，而无需花费大量时间处理UI细节。Radix Themes特别适合需要快速迭代和长期维护的项目。它提供了一系列主题选项，允许开发者自定义组件的外观以满足特定需求。总而言之，Radix Themes是一个强大且灵活的UI组件库，可以帮助开发者构建美观、可访问且易于维护的Web应用程序。
+* [graphql-kit/graphql-voyager](https://github.com/graphql-kit/graphql-voyager) GraphQL Voyager 是一个开源工具，用于将任何 GraphQL API 可视化为一个交互式的关系图。它允许开发者探索 GraphQL schema，理解数据之间的连接和关系，无需编写查询语句。Voyager 通过分析 GraphQL schema 的类型和字段，生成一个易于理解的图形界面，展示 API 的结构。用户可以轻松地浏览类型、字段、接口、联合类型等，并查看它们之间的关系。该项目支持公共和私有的 GraphQL 端点，并且可以嵌入到现有的应用程序中。它通过提供直观的可视化，极大地简化了 GraphQL API 的理解和调试过程，提升开发效率。GraphQL Voyager 适用于各种规模的 GraphQL API，帮助开发者快速掌握 API 的结构和功能。
 
-* [ly525/luban-h5](https://github.com/ly525/luban-h5) Luban H5 是一个类似易企秀的H5制作、建站工具，目标是打造移动端的可视化搭建系统，可以理解为移动端的迷你版 Webflow。这是一个正在开发中的项目 (WIP)，专注于Web设计工具和移动页面构建/编辑器。核心功能是让用户能够通过可视化界面，轻松创建和编辑适用于移动设备的H5页面和网站。项目特色在于其简单易用的操作方式，旨在降低H5页面制作的门槛。其工作原理是通过提供丰富的组件和模板，用户可以拖拽、配置，快速生成精美的H5页面。Luban H5 致力于成为一个强大的移动页面构建平台，让用户无需编写代码也能创建专业的移动端体验。
+* [pa7/heatmap.js](https://github.com/pa7/heatmap.js) heatmap.js是一个基于HTML5 canvas的JavaScript热图库，用于可视化数据密度。它通过在网页上叠加颜色渐变的热图来展示数据点的分布情况。该库轻量级、易于使用，并提供多种配置选项以自定义热图的外观和行为。heatmap.js的核心原理是根据数据点的权重和位置，在canvas上绘制不同颜色的像素，从而形成热图效果。它支持多种数据格式，例如经纬度坐标、屏幕坐标等。该库可以应用于各种场景，例如网站用户行为分析、地理数据可视化等。heatmap.js具有高性能，能够处理大量数据点，并提供平滑的动画效果。它还支持插件扩展，允许用户添加自定义功能。总而言之，heatmap.js是一个强大而灵活的热图解决方案，可以帮助开发者轻松地将数据可视化为直观的热图。
 
 * [observablehq/plot](https://github.com/observablehq/plot) Observable Plot是一个用于探索性数据可视化的JavaScript库，它实现了分层图形语法。Plot旨在简化创建信息丰富且美观的图表的过程，尤其适用于数据探索和分析。它提供了一个简洁的API，允许用户通过声明式的方式指定图表的各个层，例如标记、线、区域等。Plot的核心思想是组合各种转换和标记来构建复杂的视觉效果。它与Observable Notebooks无缝集成，但也适用于任何JavaScript环境。Plot支持多种数据格式，并提供丰富的配置选项来定制图表的外观和行为。其设计目标是易于学习和使用，同时提供足够的灵活性来满足高级用户的需求。Plot鼓励用户通过可视化来探索数据中的模式和关系，并快速迭代不同的图表设计。它特别适合于快速原型设计和交互式数据分析。Plot的底层基于D3.js，但隐藏了D3的复杂性，提供更高级别的抽象。
 
 * [Orillusion/orillusion](https://github.com/Orillusion/orillusion) Orillusion是一个纯Web3D渲染引擎，完全基于WebGPU标准开发。它旨在提供高性能、高质量的3D图形渲染能力，直接在Web浏览器中运行。该引擎利用WebGPU的优势，实现更高效的GPU利用率和更低的CPU开销。Orillusion支持各种3D图形特性，包括物理渲染、阴影、光照、材质等，适用于游戏开发、可视化、虚拟现实等应用场景。由于完全基于Web标准，Orillusion具有良好的跨平台兼容性，可以在各种支持WebGPU的设备上运行。其目标是成为Web3D图形渲染领域的领先引擎，为开发者提供强大的工具和灵活的开发体验。开发者可以使用Orillusion创建令人惊叹的Web3D应用，无需安装任何插件或依赖项。该项目正在积极开发中，并不断推出新的功能和优化。
 
+* [Tencent/westore](https://github.com/Tencent/westore) Westore是腾讯开源的一个小程序MVVM分层架构方案，旨在帮助开发者更好地组织和管理小程序代码。它通过将小程序划分为View、ViewModel和Model三层，实现数据驱动视图更新，提高代码可维护性和可测试性。Westore的核心思想是数据绑定和组件化，它使用类似Vue的数据绑定语法，简化了数据和视图之间的同步过程。ViewModel负责处理业务逻辑和数据转换，Model负责数据存储和管理。Westore还提供了一些实用的工具和组件，例如状态管理、数据缓存和异步请求等，方便开发者快速构建高质量的小程序应用。它通过`observer`监听数据变化，触发`update`函数更新视图，并支持自定义`computed`计算属性。Westore易于上手，可以与原生小程序代码无缝集成，适合各种规模的小程序项目。
+
+* [KingSora/OverlayScrollbars](https://github.com/KingSora/OverlayScrollbars) OverlayScrollbars是一个JavaScript滚动条插件，旨在隐藏原生滚动条，并提供可自定义样式的覆盖式滚动条。它保留了原生滚动条的功能和手感，使用户体验无缝衔接。该插件通过JavaScript模拟滚动行为，并使用CSS覆盖原生滚动条样式，从而实现自定义外观。OverlayScrollbars支持各种浏览器和设备，具有高度的灵活性和可配置性。它允许开发者轻松地定制滚动条的颜色、大小、形状等，以匹配网站或应用程序的整体设计风格。该项目的主要目标是提供一个美观、实用且易于使用的滚动条解决方案，提升用户界面的视觉效果和用户体验。此外，它还提供了丰富的API，方便开发者进行更高级的定制和控制。
+
+* [iconoir-icons/iconoir](https://github.com/iconoir-icons/iconoir) Iconoir是一个开源图标库，拥有超过1600个图标。它支持多种平台和框架，包括React、React Native、Flutter、Vue、Figma和Framer。该项目旨在提供一套高质量、一致且易于使用的图标资源，方便开发者在各种项目中快速集成。Iconoir图标库的设计风格简洁现代，涵盖了各种常见的应用场景。开发者可以根据自己的需求选择合适的图标，并将其应用于Web、移动应用或设计稿中。由于支持多种平台，Iconoir可以帮助开发者在不同项目中保持图标风格的统一性。该项目是开源的，这意味着开发者可以免费使用、修改和分发这些图标。
+
+* [BuilderIO/figma-html](https://github.com/BuilderIO/figma-html) Figma-HTML 是一个可以将任何网站转换为可编辑 Figma 设计稿的工具。它允许你将现有网站导入 Figma，以便进行设计修改、原型设计或内容更新。该项目利用浏览器技术抓取网站内容，并将其转换为 Figma 可以理解的图层和元素。其主要特色包括：将 HTML 结构转换为 Figma 图层、保留文本和图像等内容、尽可能还原网站的视觉样式。你可以通过粘贴网站 URL 或上传 HTML 文件来使用该工具。它简化了设计流程，方便设计师基于现有网站进行迭代和创新。这个项目对于需要快速将网站转换为设计稿的设计师和开发人员来说非常有用。
+
 * [DavidWells/analytics](https://github.com/DavidWells/analytics) `analytics` 是一个轻量级的分析抽象层，用于跟踪页面浏览量、自定义事件和识别访客。它旨在简化在各种分析平台（如 Google Analytics、Mixpanel、Segment 等）上实现分析跟踪的过程。该库提供了一个统一的 API，允许你发送数据到多个分析服务，而无需修改你的应用程序代码。它支持插件架构，可以轻松添加新的分析集成。`analytics` 的核心功能包括 `page` (页面浏览跟踪)、`track` (自定义事件跟踪) 和 `identify` (访客识别)。它还支持服务器端跟踪和客户端跟踪，并且可以与 React、Vue 和其他 JavaScript 框架集成。项目目标是提供一个灵活、可扩展且易于使用的分析解决方案，帮助开发者更好地了解用户行为。
 
 ### 管理面板
 
-* [crmeb/CRMEB](https://github.com/crmeb/CRMEB) CRMEB是一个基于Tp6框架的免费开源多语言商城系统，可商用。它提供小程序、H5、公众号、PC和App等多种商城形态，采用前后端分离架构，方便二次开发。CRMEB支持分销、拼团、砍价、秒杀、优惠券、积分、会员等级、小程序直播和页面DIY等丰富的营销功能。项目提供详细的使用文档、接口文档、数据字典以及二次开发文档和视频教程，旨在帮助开发者快速上手和定制商城系统。CRMEB致力于打造易于使用和扩展的电商解决方案，并欢迎用户提出宝贵的意见和建议。
-
-* [briefercloud/briefer](https://github.com/briefercloud/briefer) Briefer是一个将仪表盘和笔记本整合在一起的平台。它允许用户通过代码创建强大且灵活的仪表盘，或者构建类似Notion的美观笔记本并与团队共享。Briefer旨在提供一个统一的工作空间，方便数据分析、可视化和知识共享。用户可以使用代码自定义仪表盘，满足各种复杂的需求。同时，其笔记本功能借鉴了Notion的简洁易用性，方便用户记录、组织和分享信息。Briefer的目标是简化数据工作流程，提高团队协作效率。
-
 * [bram2w/baserow](https://github.com/bram2w/baserow) Baserow是一个开源的无代码数据库工具，旨在替代Airtable。 它的官方仓库位于https://gitlab.com/bramw/baserow。 Baserow允许用户无需编写代码即可创建和管理在线数据库。 它的核心功能包括直观的界面、灵活的数据类型和强大的过滤排序功能。 用户可以使用它来构建各种应用程序，例如CRM、项目管理工具和库存跟踪系统。 Baserow的设计目标是易于使用、可扩展和完全开源。 开发者可以通过其API和插件系统进行扩展。 它提供自托管选项，让用户完全掌控自己的数据。 Baserow的易用性和灵活性使其成为非技术用户和开发者的理想选择。 它旨在简化数据库管理，并赋能用户构建自定义解决方案。
-
-* [rilldata/rill](https://github.com/rilldata/rill) Rill是一个使用SQL将数据集轻松转换为强大、带有主观意见的仪表盘的工具，它遵循“BI即代码”的理念。Rill主要特色在于其声明式的仪表盘定义，允许用户通过代码来管理和版本控制BI配置。它支持实时数据探索和分析，可以快速迭代仪表盘设计。Rill旨在简化数据分析流程，使开发人员和数据分析师能够更高效地构建和部署交互式数据可视化应用。该项目通过定义数据模型、指标和维度，并使用SQL查询来驱动仪表盘的各个组件，从而实现其功能。Rill特别适用于需要快速原型设计和迭代数据驱动应用的场景。
 
 ## 区块链_智能合约
 
@@ -497,23 +499,17 @@
 
 * [Open-Web-Analytics/Open-Web-Analytics](https://github.com/Open-Web-Analytics/Open-Web-Analytics) Open Web Analytics (OWA) 是一个开源的网站分析工具，旨在替代 Google Analytics 等商业解决方案，让你掌控网站和应用的用户数据。它允许你跟踪和分析网站流量、用户行为等关键指标。OWA 的核心优势在于数据自主权，你可以完全控制收集到的数据，避免隐私泄露风险。该项目提供多种跟踪方式，包括 JavaScript、PHP 和 REST API，方便集成到不同类型的网站和应用中。你可以使用 OWA 提供的报告和仪表板来可视化数据，了解用户行为模式。此外，OWA 还支持插件扩展，可以根据你的需求定制功能。项目鼓励用户赞助，以支持其持续开发和维护。总而言之，OWA 提供了一个强大且注重隐私的网站分析解决方案，让你更好地了解用户并优化网站体验。
 
+* [bmewburn/vscode-intelephense](https://github.com/bmewburn/vscode-intelephense) Intelephense 是 Visual Studio Code 的 PHP 智能感知引擎，提供快速、可靠的代码补全、定义跳转、查找引用、代码格式化、代码诊断（包括类型检查和错误提示）等功能。它通过解析你的 PHP 代码，构建代码索引，从而实现精确的智能提示和代码导航。该项目支持最新的 PHP 语法，包括 PHP 8 的特性。Intelephense 旨在提供卓越的开发体验，提升 PHP 开发效率。它采用基于语言服务器协议（LSP）的架构，与 VS Code 无缝集成。该扩展具有高性能和低资源占用，即使在大型项目中也能保持流畅运行。Intelephense 还支持 PHPDoc 注释，可以根据注释生成代码提示和文档。它是一个商业项目，但提供免费版本，付费版本提供更高级的功能，如代码重构和更深入的代码分析。
+
 ### 后端项目_其他
 
-* [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go) OpenTelemetry Go是OpenTelemetry项目的Go语言实现，提供用于生成、收集和导出遥测数据的API和SDK。它遵循OpenTelemetry规范，旨在标准化遥测数据的生成方式，实现可观测性。该项目包含API，用于手动检测代码，以及SDK，用于配置和管理遥测数据的处理和导出。SDK支持多种exporter，可以将数据发送到不同的后端，如Jaeger、Zipkin、Prometheus等。用户可以通过配置sampler来控制trace的采样率，减少数据量。该项目还提供用于自动检测常见Go库和框架的instrumentation库，简化了遥测数据的集成过程。OpenTelemetry Go的目标是提供一个灵活、可扩展且易于使用的可观测性解决方案，帮助开发者更好地理解和监控他们的Go应用程序。它通过context propagation实现跨服务链路追踪，并支持metrics和logs数据的收集。贡献者可以通过遵循贡献指南参与项目开发。
-
-* [sparckles/Robyn](https://github.com/sparckles/Robyn) Robyn是一个超快的异步Python Web框架，底层使用Rust运行时。它旨在提供高性能和易用性，让开发者能够快速构建Web应用。Robyn利用Rust的强大性能来处理底层操作，同时提供Python的简洁语法。该框架支持异步编程，能够高效处理并发请求。Robyn的目标是成为一个快速、灵活且易于使用的Python Web开发解决方案，适合构建各种规模的Web应用和服务。它结合了Python的开发效率和Rust的运行效率，为开发者提供了一个强大的工具。Robyn的异步特性使其能够轻松处理高并发场景，适用于需要高性能的Web应用。它是一个值得关注的Python Web框架，尤其对于追求速度和效率的开发者而言。
+* [firebase/quickstart-android](https://github.com/firebase/quickstart-android) Firebase Quickstart Android项目提供了一系列示例，帮助开发者快速上手Firebase服务。这些示例涵盖了Authentication（身份验证）、Cloud Firestore（云Firestore）、Realtime Database（实时数据库）、Cloud Storage（云存储）、Cloud Functions（云函数）、Cloud Messaging（云消息传递）、Remote Config（远程配置）、Dynamic Links（动态链接）、AdMob（广告联盟）、In-App Messaging（应用内消息传递）和 ML Kit（机器学习套件）等Firebase核心功能。通过这些示例，开发者可以学习如何在Android应用中集成Firebase服务，例如使用邮箱密码、Google账号或社交媒体账号进行用户身份验证；存储和同步结构化数据；上传和下载文件；创建和部署云函数；发送推送通知；动态配置应用行为；创建智能链接；以及集成广告和机器学习功能。项目结构清晰，代码简洁易懂，是学习Firebase Android开发的理想资源。
 
 * [permitio/opal](https://github.com/permitio/opal) PermitIO Opal 是一个构建在策略代理（如 OPA, Cedar）之上的策略和数据管理、分发和实时更新系统。它旨在简化策略执行和授权流程，通过集中管理策略和数据，并将其高效地分发到各个策略代理实例，确保策略的一致性和实时性。Opal 允许开发者定义细粒度的访问控制策略，并根据实时数据变化动态更新这些策略。其核心功能包括策略定义、数据同步、实时更新和策略评估。Opal 通过监听数据源的变化，自动将更新推送到策略代理，从而实现实时授权决策。它支持多种数据源和策略格式，并提供易于使用的 API 和工具，方便集成到现有的应用程序中。Opal 的目标是帮助开发者构建安全、可靠且可扩展的授权系统，并降低策略管理的复杂性。
 
-* [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) OpenTelemetry Collector 是一个遥测数据的接收、处理和导出的代理。它支持多种接收器（receivers）接收来自不同来源的数据，例如 Jaeger、Prometheus 和 OpenTelemetry Protocol (OTLP)。Collector 通过处理器（processors）对数据进行转换、过滤和增强，例如批处理、属性修改和采样。最后，Collector 使用导出器（exporters）将数据发送到不同的后端存储，例如 Jaeger、Prometheus、Zipkin 和各种云监控平台。Collector 的架构设计灵活且可扩展，允许用户自定义配置管道以满足特定的需求。它提供集中式的遥测数据管理，降低了维护成本，并提高了观测数据的可靠性。Collector 支持多种部署方式，包括代理、网关和边车模式。它旨在成为云原生环境下的遥测数据中心枢纽，简化可观测性基础设施。通过使用 Collector，用户可以更好地理解其应用程序的性能，并快速诊断问题。项目遵循 CNCF 的 OpenTelemetry 标准，保证了互操作性和可移植性。
-
 * [zabbix/zabbix](https://github.com/zabbix/zabbix) Zabbix是一个用于实时监控IT组件和服务的开源解决方案，它可以监控网络、服务器、虚拟机、应用程序和云环境。它通过灵活的监控方法，包括agent、SNMP、JMX、IPMI等，收集各种指标数据。Zabbix提供数据可视化、告警通知和自动修复等功能，帮助用户及时发现和解决问题。它具有可扩展性，可以支持大型和复杂的IT环境。Zabbix的Web界面提供配置、监控和报告功能，易于使用和管理。Zabbix还支持自定义监控项和告警规则，以满足特定需求。Zabbix的目标是提供一个全面的监控平台，帮助用户确保IT系统的稳定性和性能。
 
-* [flipt-io/flipt](https://github.com/flipt-io/flipt) Flipt 是一个企业级、支持 GitOps、云原生的特性管理解决方案。它允许开发者通过配置来控制应用程序的功能特性，无需修改代码即可启用或禁用功能。Flipt 的核心优势在于其强大的规则引擎，可以根据各种条件（如用户属性、时间、地理位置等）动态地调整功能特性。它支持多种数据存储后端，包括内存、文件系统、数据库等，方便部署在不同的环境中。Flipt 旨在简化特性发布流程，降低发布风险，并提供强大的监控和审计功能。项目提供客户端 SDK，方便在不同编程语言中使用。 通过 GitOps 工作流，配置变更可以像代码一样进行版本控制和审查，确保配置的一致性和可追溯性。Flipt 适用于各种规模的应用程序，帮助团队更高效地管理和发布新功能。
-
 * [open-telemetry/opentelemetry-specification](https://github.com/open-telemetry/opentelemetry-specification) OpenTelemetry规范项目定义了遥测数据的标准，包括追踪、指标和日志。它旨在提供一个与供应商无关的框架，用于生成、收集和导出遥测数据。该规范涵盖了API、SDK和数据协议，确保不同系统和工具之间的互操作性。API定义了应用程序如何生成遥测数据，SDK则负责收集和处理这些数据。数据协议定义了遥测数据在不同组件之间传输的格式。OpenTelemetry支持多种编程语言和框架，并与各种后端分析工具集成。该项目由社区驱动，鼓励贡献和协作，目标是简化云原生应用的可观测性，帮助用户更好地理解和监控他们的系统。通过标准化遥测数据，OpenTelemetry降低了可观测性的复杂性，并促进了工具之间的互操作性，最终提升了软件系统的可靠性和性能。
-
-* [antonputra/tutorials](https://github.com/antonputra/tutorials) antonputra/tutorials 是一个 DevOps 教程项目，旨在提供学习 DevOps 实践的资源。该项目可能包含各种教程，涵盖不同的 DevOps 工具、技术和流程。具体内容可能包括自动化、持续集成/持续交付 (CI/CD)、配置管理、监控和日志记录等方面。通过学习这些教程，用户可以掌握构建、部署和管理应用程序的 DevOps 技能。该项目可能包含实际操作示例和代码片段，帮助学习者更好地理解和应用 DevOps 原则。教程可能针对不同的技能水平，从初学者到高级用户。该项目可能也会定期更新，以反映 DevOps 领域的最新发展。总之，这是一个学习和实践 DevOps 的实用资源库。
 
 * [uptrace/uptrace](https://github.com/uptrace/uptrace) Uptrace是一个开源的应用性能监控(APM)工具，它基于OpenTelemetry，支持traces、metrics和logs的收集与分析。你可以使用它来监控你的应用程序，发现性能瓶颈并解决问题。Uptrace的工作原理是接收来自应用程序的OpenTelemetry数据，并将其存储和可视化，让你能够理解请求的生命周期、服务之间的依赖关系以及性能指标的变化。它提供了一个用户友好的界面，可以用来查询、过滤和分析数据，从而快速定位问题。Uptrace的目标是提供一个易于使用、可扩展且经济高效的APM解决方案，帮助开发者构建更可靠和高性能的应用程序。它允许你深入了解你的应用程序的行为，并做出数据驱动的决策来优化性能。Uptrace支持多种编程语言和框架，可以与现有的基础设施集成。
 
@@ -523,14 +519,6 @@
 
 * [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet) OpenTelemetry .NET客户端是一个用于.NET应用程序的可观测性工具，它允许你收集和导出遥测数据，包括追踪、指标和日志。该项目是OpenTelemetry规范在.NET平台的实现，旨在提供标准化的遥测数据收集方式。它支持自动和手动插桩，可以与多种后端系统集成，如Jaeger、Zipkin、Prometheus和OpenTelemetry Collector。通过使用`Activity` API进行追踪，`Meter` API进行指标收集，以及`ILogger`接口进行日志记录，开发者可以轻松地将可观测性集成到他们的应用程序中。该客户端库提供了一系列扩展方法和配置选项，以便根据不同的需求进行定制。它还支持采样，可以减少遥测数据的量，同时保持其代表性。OpenTelemetry .NET客户端的目标是简化.NET应用程序的可观测性，并提供一个与云原生生态系统兼容的解决方案。它遵循OpenTelemetry规范，确保了遥测数据的互操作性和可移植性。
 
-* [roapi/roapi](https://github.com/roapi/roapi) Roapi是一个无需编写任何代码，即可为缓慢变化的数据集创建完整API的项目。它允许用户直接从数据源（如Parquet、CSV、DuckDB等）生成REST API。Roapi的核心优势在于其零代码特性和对多种数据源的支持，使其能够快速构建数据驱动的API。该项目利用SQL查询来定义API的端点和数据转换逻辑，并通过DuckDB进行高效的数据处理和查询优化。Roapi适用于数据分析、报告生成和数据共享等场景，旨在简化API开发流程，降低技术门槛，让非开发人员也能轻松创建和管理API。它通过声明式配置和自动化部署，实现了快速迭代和灵活扩展。Roapi的目标是让数据访问更加便捷，让数据价值得到充分释放。
-
-* [amberframework/amber](https://github.com/amberframework/amber) Amber Framework 是一个 Crystal 语言的 Web 框架，旨在让应用程序的构建过程快速、简单和愉快。它专注于快速原型设计，减少错误，并提供极快的性能。Amber 帮助开发者高效地构建 Web 应用，其设计理念强调简洁和速度。该框架的目标是提供一个易于上手且功能强大的工具，使 Crystal 开发者能够轻松创建高性能的 Web 应用。Amber 鼓励快速开发迭代，并致力于提供最佳的开发体验。它是一个值得关注的 Crystal Web 开发框架，尤其适合对性能有要求的项目。
-
-* [Artemmkin/infrastructure-as-code-tutorial](https://github.com/Artemmkin/infrastructure-as-code-tutorial) 本项目是基础设施即代码（IaC）的教程，涵盖了多种流行的IaC工具。它深入讲解了Packer，用于构建镜像；Terraform，用于基础设施的配置和管理；Ansible，用于配置管理和应用部署；Vagrant，用于创建和管理虚拟机开发环境；Docker和Docker Compose，用于容器化应用；以及Kubernetes，用于容器编排。通过学习本教程，你将掌握使用这些工具将基础设施自动化，提高效率和一致性。项目旨在帮助开发者和运维人员理解并实践IaC的核心概念和技术，从而更好地管理和部署他们的应用。本教程提供了丰富的示例和实践指导，方便学习者快速上手。
-
-* [miguelgrinberg/microdot](https://github.com/miguelgrinberg/microdot) Microdot是一个极其精简的Python和MicroPython Web框架。它旨在提供构建Web应用所需的核心功能，同时保持极小的体积。Microdot基于Werkzeug WSGI库，提供请求处理、路由、模板渲染等基本功能。它支持HTTP请求方法（GET、POST等），并允许开发者定义URL路由来处理不同的请求。Microdot还集成了对JSON数据的支持，方便处理API请求。由于其轻量级特性，Microdot非常适合资源受限的环境，如嵌入式系统和物联网设备。项目目标是易于学习和使用，并提供足够的灵活性来构建各种Web应用。它也提供了一个简单的开发服务器，方便本地测试和调试。Microdot的设计理念是简洁和高效，避免不必要的复杂性。
-
 * [deepseek-ai/profile-data](https://github.com/deepseek-ai/profile-data) Deepseek-ai/profile-data项目旨在分析V3/R1版本中的计算与通信重叠情况。该项目可能提供工具或脚本，用于收集和分析程序运行时的性能数据，特别是关注计算任务和数据传输是否能够并行执行，从而优化整体性能。通过分析profile数据，开发者可以识别计算和通信之间的瓶颈，并采取措施提高效率。项目可能包含数据收集方法、分析工具和可视化结果，帮助用户深入了解程序在V3/R1环境下的性能表现。其核心目标是提升计算和通信的并行度，最终改善程序的运行速度和资源利用率。该项目对于需要在V3/R1平台上进行高性能计算的开发者来说，具有一定的参考价值。
 
 * [i365dev/agent_forge](https://github.com/i365dev/agent_forge) AgentForge 是一个强大且灵活的信号驱动工作流框架，用于构建智能、动态和自适应系统。它允许开发者通过定义代理（Agents）和信号（Signals）来创建复杂的自动化流程。AgentForge 的核心在于其信号驱动机制，代理根据接收到的信号触发相应的行为，从而实现系统各组件之间的协调和交互。该框架适用于多种应用场景，例如自动化任务、数据处理和智能决策。AgentForge 旨在简化智能系统的开发过程，并提供高度的可定制性和可扩展性。开发者可以根据具体需求创建自定义代理和信号，以满足不同的业务逻辑。
@@ -539,27 +527,29 @@
 
 ### 信息沟通
 
+* [appleboy/gorush](https://github.com/appleboy/gorush) Gorush 是一个用 Go (Golang) 编写的推送通知服务器。它旨在提供简单、可靠和可扩展的推送服务。Gorush 支持 APNs (Apple Push Notification service) 和 FCM (Firebase Cloud Messaging)，可以向 iOS 和 Android 设备发送通知。它采用轻量级架构，易于部署和维护。你可以使用 Gorush 构建自己的推送服务，或者将其集成到现有的应用程序中。项目提供了详细的配置选项和 API 接口，方便自定义和集成。Gorush 的目标是成为一个高性能、开源的推送解决方案。它具有良好的文档和活跃的社区支持。
+
+* [goq/telegram-list](https://github.com/goq/telegram-list) goq/telegram-list是一个Telegram群组、频道和机器人的列表项目，旨在收集和整理Telegram上有趣的资源，包括编程相关的聊天室。项目主要通过README.md文件来维护和展示这些列表信息。该项目可能包含不同语言的资源，例如俄语。用户可以通过浏览README.md文件来发现自己感兴趣的Telegram群组、频道或机器人。
+
 * [elie222/inbox-zero](https://github.com/elie222/inbox-zero) Inbox Zero 是一个开源邮件应用程序，旨在帮助用户快速实现“收件箱清零”的目标。它可能提供了一些高效的邮件管理和处理功能，帮助用户快速分类、回复、归档或删除邮件，从而减少收件箱中的邮件数量。该项目的目标是提高邮件处理效率，减轻邮件带来的压力，让用户能够更专注于重要事务。由于是开源项目，用户可以自由地使用、修改和分发该应用程序，并根据自己的需求进行定制。具体的功能细节和使用方法需要参考项目的源代码和文档。
+
+* [HuLaSpark/HuLa](https://github.com/HuLaSpark/HuLa) HuLa是一个使用Tauri v2和Vue3构建的跨平台桌面即时通讯应用，它不仅仅是一个即时通讯工具，还具有其他功能。HuLa的目标是提供一个统一的通讯体验，支持Windows、MacOS、Linux等桌面平台，以及Android和IOS移动平台。该项目利用Tauri的跨平台能力，能够将Vue3前端代码打包成不同平台的原生应用。HuLa致力于提供一个功能丰富且用户友好的通讯解决方案。
 
 ### 网络代理
 
-* [mullvad/mullvadvpn-app](https://github.com/mullvad/mullvadvpn-app) Mullvad VPN 客户端应用，支持桌面和移动平台。它使用 WireGuard 和 OpenVPN 协议提供安全连接，目标是保护用户的隐私和匿名性。该应用注重简洁易用，不收集任何用户活动日志。它采用随机生成的账户号码，无需电子邮件或其他个人信息注册。应用包含连接测试、泄漏保护等功能，并提供详细的连接状态信息。Mullvad VPN 专注于数据安全，通过严格的服务器控制和透明的代码审计来保障用户数据。该项目开源，允许社区参与开发和审查，确保代码质量和安全性。应用支持多种操作系统，并提供详细的安装和配置指南。Mullvad VPN 致力于打造一个可信赖的VPN服务，让用户掌控自己的在线隐私。
+* [ffay/lanproxy](https://github.com/ffay/lanproxy) lanproxy是一个内网穿透工具，可以将局域网内的个人电脑或服务器代理到公网，实现远程访问。它支持TCP流量转发，因此可以支持各种基于TCP的上层协议，例如访问内网网站、调试本地支付接口、SSH访问、远程桌面、HTTP/HTTPS代理和SOCKS5代理等。其核心功能在于将内网服务暴露到公网，方便用户进行远程操作和调试。该项目适用于开发者和需要远程访问内网资源的用户。技术交流QQ群号是736294209。
 
 * [zero-peak/ZeroOmega](https://github.com/zero-peak/ZeroOmega) ZeroOmega是一个快速便捷地管理和切换多个代理的工具。它旨在简化用户在不同代理服务器之间切换的过程，提高网络使用的灵活性。具体工作原理和特色未在提供的信息中详细说明，但可以推断其核心功能是代理管理和快速切换。
 
+* [yosebyte/nodepass](https://github.com/yosebyte/nodepass) NodePass是一个安全高效的TCP/UDP隧道解决方案，旨在提供快速可靠的跨网络访问，它采用预先建立的TLS/TCP连接。该项目特色在于通用性，无需复杂配置，单文件即可运行多种模式。NodePass采用控制数据双路分离架构，提升效率和安全性。内置的零延迟自适应连接池进一步优化了连接性能，确保流畅的用户体验。总之，NodePass是一个轻量级、高性能的隧道工具，适用于各种网络环境，尤其是在需要绕过网络限制的场景下。它简化了隧道搭建过程，并提供了强大的安全保障。
+
 ### 网络协议
 
-* [go-acme/lego](https://github.com/go-acme/lego) lego 是一个用 Go 语言编写的 Let's Encrypt/ACME 客户端和库，它允许你自动获取和更新 SSL/TLS 证书。它支持多种 DNS 提供商，包括 Cloudflare、AWS Route 53、Google Cloud DNS 等，可以自动完成 DNS 挑战，无需手动操作。lego 也可以通过 HTTP 或 TLS-ALPN 挑战来验证域名所有权。它提供了一个命令行工具，方便用户直接使用，同时也提供 Go 库，方便集成到其他 Go 项目中。lego 支持通配符证书，可以保护整个域名及其所有子域名。它设计简洁易用，可以轻松地自动化证书管理流程，并支持证书吊销。lego 旨在简化 Let's Encrypt 证书的获取和管理，使 HTTPS 部署更加容易。
-
-* [usual2970/certimate](https://github.com/usual2970/certimate) Certimate是一个开源SSL证书管理工具，旨在简化SSL证书的申请、部署和续期流程。它可以自动申请SSL证书，减轻手动操作的负担。Certimate还能自动部署证书到服务器，并监控证书有效期。当证书即将过期时，Certimate会自动续期，确保网站始终使用有效的SSL证书。项目目标是提供一个简单易用的解决方案，让用户无需深入了解SSL证书的复杂细节，也能轻松保护网站安全。该工具的设计理念是自动化和易用性，降低SSL证书管理的门槛。
-
-* [nxtrace/NTrace-core](https://github.com/nxtrace/NTrace-core) NTrace-core是一个开源的可视化路由追踪命令行工具，旨在帮助用户理解网络流量路径。它通过结合traceroute和可视化技术，将复杂的网络路由信息以更直观的方式呈现。NTrace-core利用traceroute获取网络节点信息，然后将这些信息转换为图形化界面，方便用户分析网络延迟和瓶颈。项目特色包括易于使用的命令行界面、清晰的可视化展示以及对多种网络协议的支持。用户可以通过NTrace-core快速诊断网络连接问题，并了解数据包在互联网上的传输路径。它适用于网络管理员、开发人员以及任何需要了解网络路由的个人。NTrace-core的目标是简化网络分析流程，让用户能够更轻松地理解和优化网络性能。
-
-* [is-a-dev/register](https://github.com/is-a-dev/register) 该项目允许你注册一个酷炫的`.is-a.dev`子域名。它提供了一种简单的方式来拥有个性化的域名，例如`yourname.is-a.dev`。 项目的核心功能是注册和管理这些子域名。 通过该项目，开发者可以轻松地拥有一个独特且易于记忆的在线身份标识。 该项目可能涉及域名解析和服务器配置等技术。 总之，`.is-a.dev`子域名注册项目为开发者提供了一个展示自我和构建个人品牌的便捷途径。
-
-* [ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) HP-Socket 是一个高性能的 TCP/UDP/HTTP 通信组件，支持 Windows、Linux 和 macOS 平台。它基于事件驱动和异步 I/O 模型，旨在简化网络编程并提供卓越的性能。HP-Socket 封装了复杂的 socket API，提供简单易用的接口，支持多种编程语言，包括 C/C++、Delphi、.NET、Java 和 Python。它具有高并发、低延迟、易于集成和扩展的特点，适用于构建高性能的网络服务器和客户端应用程序。HP-Socket 通过内部线程池管理连接和数据处理，减少了线程切换开销。它支持多种数据传输模式，包括 push 和 pull，并提供了丰富的事件通知机制，方便应用程序进行状态管理和数据处理。该项目还包含详细的文档和示例代码，帮助开发者快速上手和使用。HP-Socket 适用于需要处理大量并发连接和高吞吐量的应用场景，例如游戏服务器、实时通信系统和数据采集系统。
+* [chaifeng/ufw-docker](https://github.com/chaifeng/ufw-docker) ufw-docker项目旨在解决Docker与UFW防火墙之间的安全漏洞，避免禁用iptables。它通过在ufw规则中插入Docker相关的iptables规则，确保容器网络流量受到UFW的保护。项目特色在于自动化管理Docker容器的网络策略，无需手动配置iptables规则。其工作原理是监听Docker事件，动态更新ufw规则，允许或拒绝容器的网络访问。使用该项目，用户可以同时享受Docker的便利性和UFW的安全性，避免因Docker绕过UFW防火墙而产生的安全风险。项目提供简单易用的命令和配置选项，方便用户集成到现有的Docker和UFW环境中。该项目通过维护一个自定义的ufw规则集，确保只有授权的容器可以访问网络，从而增强Docker环境的整体安全性。
 
 * [soketi/soketi](https://github.com/soketi/soketi) Soketi是一个下一代的、兼容Pusher协议的开源WebSocket服务器。它致力于提供简单、快速和高弹性的WebSocket服务。Soketi的目标是成为Pusher的开源替代方案，允许开发者在自己的基础设施上运行类似的服务。项目强调性能和可靠性，能够处理大量的并发连接。Soketi易于部署和配置，可以与各种前端和后端技术集成。它支持水平扩展，以满足不断增长的需求。Soketi使用现代技术构建，旨在提供卓越的用户体验。开发者可以利用Soketi构建实时应用程序，例如聊天应用、实时仪表板和协作工具。通过使用Soketi，开发者可以避免对Pusher等商业服务的依赖，并拥有对WebSocket基础设施的完全控制。Soketi是构建实时应用程序的强大工具，为开发者提供了灵活性和可扩展性。
+
+* [microsoft/msquic](https://github.com/microsoft/msquic) Microsoft MSQUIC是一个跨平台的IETF QUIC协议的C语言实现。它提供了C、C++、C#和Rust的接口。该项目旨在提供高性能和可靠的QUIC协议实现，适用于各种应用场景。MSQUIC的核心是用C语言编写，保证了效率和可移植性。它遵循最新的QUIC标准，并提供了一套完整的API，方便开发者集成到自己的项目中。MSQUIC的设计注重模块化和可扩展性，允许开发者根据自己的需求进行定制。项目还包含丰富的测试用例和文档，帮助开发者快速上手。MSQUIC支持多种操作系统，包括Windows和Linux。它是一个开源项目，欢迎社区贡献和反馈。该项目目标是成为QUIC协议的首选实现之一。
 
 * [six-ddc/plow](https://github.com/six-ddc/plow) Plow是一个高性能HTTP基准测试工具，它提供实时的Web UI和终端显示。该项目旨在帮助开发者评估HTTP服务的性能，通过模拟大量并发请求来测试服务器的吞吐量、延迟等关键指标。Plow的特色在于其友好的用户界面，可以直观地展示测试结果，并支持自定义请求参数和测试场景。它通过高效的并发处理机制，能够模拟高负载环境，从而准确评估服务器的性能瓶颈。Plow可以用于测试Web服务器、API接口等各种HTTP服务，帮助开发者优化系统性能，确保服务在高并发场景下的稳定性和可靠性。它支持自定义请求头、请求体等，方便模拟各种复杂的HTTP请求。通过Plow，用户可以快速了解其HTTP服务的性能表现，并根据测试结果进行优化。
 
@@ -579,33 +569,35 @@
 
 ### 网络服务_其他
 
-* [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) gh-proxy是一个GitHub Release、Archive以及项目文件加速下载的开源项目。它通过反向代理GitHub的资源文件，为用户提供更快的下载速度。其主要特色在于能够加速包括Release包、Archive压缩包以及项目中的单个文件。工作原理是用户通过gh-proxy提供的代理链接访问GitHub资源，gh-proxy服务器会缓存这些资源，从而加速后续用户的访问。项目使用简单，只需将GitHub链接替换为gh-proxy的代理链接即可。例如，可以将`github.com`替换为`ghproxy.com`或`mirror.ghproxy.com`。此外，项目还支持自定义域名，方便用户搭建自己的代理服务。gh-proxy旨在解决国内用户访问GitHub资源速度慢的问题，提升开发效率。
+* [vfsfitvnm/ViMusic](https://github.com/vfsfitvnm/ViMusic) ViMusic是一个安卓应用程序，用于从YouTube Music流式传输音乐。它允许用户无需YouTube Premium订阅即可享受音乐，并提供后台播放和无广告体验。ViMusic通过YouTube Music API获取音乐数据，并使用开源的NewPipeExtractor库来解析YouTube的音视频流。该项目注重隐私保护，不会收集用户的个人信息。ViMusic支持下载音乐以供离线收听，并提供自定义主题和界面选项。它是一个轻量级且高效的音乐播放器，旨在为用户提供便捷的YouTube Music体验。ViMusic还支持多种语言，方便不同地区的用户使用。它是一个完全免费和开源的项目，欢迎开发者贡献代码和提出建议。该项目持续更新和维护，以确保最佳的性能和用户体验。
 
 * [jagrosh/MusicBot](https://github.com/jagrosh/MusicBot) MusicBot是一个易于设置和自行运行的Discord音乐机器人。它旨在提供高质量的音乐播放体验，并简化了部署过程。该机器人允许用户通过Discord命令控制音乐播放，例如播放、暂停、跳过和队列管理。MusicBot的核心功能是连接到Discord语音频道，并流式传输来自各种来源的音乐，具体来源未明确说明。项目强调易用性，用户可以相对轻松地配置和启动机器人。它是一个开源项目，允许用户根据自己的需求进行定制和扩展。MusicBot的主要目标是让Discord服务器拥有一个可靠且用户友好的音乐播放解决方案。它通过与Discord API交互来实现其功能，并提供了一组命令供用户控制音乐播放。
 
+* [WXRIW/Lyricify-App](https://github.com/WXRIW/Lyricify-App) Lyricify是一款为Spotify等应用提供滚动歌词的优秀软件。它支持Windows、macOS和Linux平台，通过监听音频播放并匹配歌词文件来实现歌词显示。该项目具有高度可定制的界面，允许用户调整字体、颜色和位置等。Lyricify支持多种歌词来源，包括本地文件和在线歌词服务。其工作原理是分析播放音频的元数据，然后自动搜索或加载相应的歌词。Lyricify还提供了一些高级功能，例如歌词翻译和时间轴编辑。该项目使用现代化的开发技术构建，旨在提供流畅和准确的歌词体验。它是一个开源项目，欢迎社区贡献和改进。Lyricify的目标是让用户在享受音乐的同时，轻松地跟随歌词。
+
 * [gitify-app/gitify](https://github.com/gitify-app/gitify) Gitify是一款可在macOS、Windows和Linux系统上运行的菜单栏GitHub通知应用。它能让你直接在菜单栏接收和管理GitHub通知，无需频繁访问GitHub网站。Gitify支持过滤通知，让你只关注重要的更新。它使用GitHub API获取通知，并提供桌面通知提醒。用户可以自定义通知频率和显示方式。Gitify还支持多账户登录，方便管理多个GitHub账号。它是一个开源项目，允许用户贡献代码和提出建议。Gitify旨在提高GitHub用户的工作效率，避免错过重要信息。通过简单的设置，即可将GitHub通知集成到你的日常工作流程中。它提供了一个简洁直观的界面，方便快速查看和处理通知。 Gitify 是一款跨平台、开源的 GitHub 通知管理工具，让你随时掌握项目动态。
+
+* [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) Adblockfilters项目提供一套合并的去广告规则，旨在屏蔽网页广告和恶意内容。项目特色在于其规则集每8小时自动更新，保持规则的时效性。规则合并的来源包括AdGuard、EasyList、CJX's Annoyance List等知名过滤列表。用户可以通过订阅提供的URL地址，将规则添加到AdBlock、AdGuard等广告拦截器中使用。项目主要工作原理是通过定期抓取并合并多个开源规则列表，然后进行优化和去重，最终生成可供广告拦截器使用的过滤规则。项目目标是为用户提供更干净、更安全的网络浏览体验。订阅地址方便用户直接使用，无需手动更新规则。
 
 ### 网络爬虫
 
-* [alirezamika/autoscraper](https://github.com/alirezamika/autoscraper) autoscraper是一个Python库，它是一个智能、自动、快速且轻量级的网络爬虫。该项目旨在简化网络数据抓取过程，无需手动编写复杂的选择器。其核心特色是自动学习抓取规则，通过提供几个示例数据，autoscraper能够自动推断出从目标网站提取所需数据的正确方法。它通过分析HTML结构和内容模式来工作，从而识别出与提供的示例数据相匹配的元素。autoscraper支持多种数据类型，并且可以处理动态网页（可能需要集成Selenium等工具）。该项目易于使用，可以快速集成到现有的Python项目中，极大地提高了网络爬虫的效率。
-
 * [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) Browserbase MCP Server 是一个允许大型语言模型（LLMs）通过 Browserbase 和 Stagehand 控制浏览器的项目。它提供了一个简单易用的接口，使 LLMs 能够自动化网页交互，例如填写表单、点击按钮和提取信息。该项目主要依赖 Browserbase 的浏览器自动化能力和 Stagehand 的 LLM 代理功能。通过 MCP Server，LLMs 可以像人类用户一样与网页进行交互，从而实现各种自动化任务。项目特色包括易于集成、高度可扩展和强大的浏览器控制能力。开发者可以通过简单的 API 调用，将 MCP Server 集成到现有的 LLM 应用中。该项目的工作原理是接收来自 LLM 的指令，然后通过 Browserbase 控制浏览器执行这些指令，并将结果返回给 LLM。MCP Server 旨在简化 LLMs 与浏览器的交互，并为各种自动化应用提供强大的支持。
+
+* [prinsss/twitter-web-exporter](https://github.com/prinsss/twitter-web-exporter) prinsss/twitter-web-exporter是一个用于从Twitter(X)网页应用导出推文、书签、列表等数据的工具。它允许用户备份和保存他们在Twitter上的活动记录。该项目的主要功能包括导出推文、书签、收藏和列表等多种类型的数据。它直接从Twitter网页应用抓取数据，无需API密钥，简化了导出过程。用户可以方便地将自己的Twitter数据导出并保存到本地，以便进行分析、备份或迁移。该工具旨在提供一种简单易用的方式来管理和控制用户在Twitter上的数据。
+
+* [iliane5/meridian](https://github.com/iliane5/meridian) Meridian是一个通过抓取数百个新闻源，使用人工智能分析新闻，并提供简洁、个性化的每日简报来减少新闻噪音的项目。它旨在帮助用户从大量信息中快速获取关键信息。Meridian的核心功能包括新闻抓取、AI分析和个性化简报生成。项目特色在于其自动化新闻处理流程和定制化信息呈现。Meridian的工作原理是首先从多个新闻源抓取数据，然后利用AI对新闻进行分析和总结，最后根据用户的偏好生成个性化的每日简报。该项目能够帮助用户更高效地获取新闻资讯，并减少信息过载。
 
 * [kepano/defuddle-cli](https://github.com/kepano/defuddle-cli) Defuddle-cli是一个命令行工具，用于从网页中提取干净的HTML、Markdown和元数据。它可以帮助你去除网页中的广告、导航栏和其他干扰元素，只保留核心内容。该工具使用Readability算法来识别网页的主要内容区域，并将其转换为干净的格式。你可以使用它来创建自己的文章存档、生成摘要或进行文本分析。Defuddle-cli支持自定义CSS选择器和XPath表达式，以更精确地控制内容提取。它还能够提取网页的标题、作者、发布日期等元数据。安装简单，使用方便，是网页内容提取的利器。
 
 ### 资源传输下载
 
-* [subhra74/xdm](https://github.com/subhra74/xdm) XDM (Xtreme Download Manager) 是一个强大的下载加速器和视频下载器。它通过智能动态分段算法加速下载速度，最高可达500%。XDM支持HTTP、HTTPS和FTP协议，并能从YouTube等网站下载流媒体视频。它与所有流行的浏览器集成，使用高级浏览器集成模块拦截下载请求。XDM还可以恢复中断的下载，并支持代理服务器、身份验证和防火墙。它使用Java编写，支持Windows、Linux和macOS操作系统。XDM还提供命令行界面，方便高级用户使用。其主要特点包括下载队列、计划下载、自动重试以及速度限制等功能。XDM旨在提供比内置浏览器下载器更快的下载速度和更丰富的功能。
-
 * [istoreos/istoreos](https://github.com/istoreos/istoreos) iStoreOS是一个旨在打造人人可用的路由和NAS系统的开源项目。它基于OpenWrt，简化了配置和使用流程，降低了上手门槛。iStoreOS提供图形化界面，方便用户管理网络和存储。项目特色包括丰富的插件生态系统，支持多种硬件平台，并提供稳定可靠的性能。其工作原理是利用OpenWrt的底层能力，结合自研的软件组件，实现路由和NAS功能。目前活跃的分支是istoreos-22.03，开发者们正积极维护和更新该分支。iStoreOS致力于为家庭用户和小型企业提供简单易用、功能强大的网络存储解决方案。它集成了路由、存储、媒体服务等多种功能，满足用户多样化的需求。通过iStoreOS，用户可以轻松搭建家庭网络中心，实现数据备份、共享和远程访问。
+
+* [kyantech/Palmr](https://github.com/kyantech/Palmr) 🌴 Palmr. 是一个开源的文件共享平台，专注于隐私和安全。它允许用户上传、管理和共享文件，并提供密码保护、自定义链接和访问控制等功能，且不进行跟踪或限制。Palmr. 旨在实现无缝且安全的文件共享，并且完全免费。其核心特色在于强调用户隐私，通过多种安全机制保障文件传输和存储的安全。用户可以灵活地控制文件的访问权限，并自定义分享链接，从而更好地管理自己的数据。Palmr. 致力于提供一个安全、自由的文件共享环境。
 
 # A04_机器视觉
 
 ## 3D视觉生成重建
-
-* [google-deepmind/lab](https://github.com/google-deepmind/lab) Google DeepMind Lab是一个可定制的3D平台，专为基于代理的AI研究而设计。它提供了一套丰富的、具有挑战性的3D环境，用于训练和评估AI代理。该平台具有高度可定制性，允许研究人员创建各种不同的任务和环境，以测试代理的泛化能力和学习能力。DeepMind Lab基于OpenGL构建，性能强大，支持多种传感器输入，例如RGB图像、深度图像和立体声。它旨在促进AI代理在复杂、动态和部分可观察的环境中进行学习和推理的研究。通过其灵活的API，研究人员可以轻松地集成自己的代理和算法。该项目提供了一系列预定义的任务，涵盖导航、物体操作和合作等领域。DeepMind Lab的目标是推动通用人工智能的发展，帮助研究人员构建更智能、更具适应性的AI系统。它是一个开源项目，鼓励社区参与和贡献。
-
-* [google/draco](https://github.com/google/draco) Draco是谷歌开源的一个用于压缩和解压缩3D几何网格和点云的库，旨在优化3D图形的存储和传输。它通过高效的压缩算法，显著减小3D模型的体积，从而节省存储空间并加快网络传输速度。Draco支持多种几何数据类型，包括点云、三角形网格等。该库的设计目标是实现高压缩率和快速解压缩速度，同时保持良好的几何精度。Draco广泛应用于各种3D图形应用场景，例如游戏、虚拟现实、增强现实、建筑可视化等。它提供C++和JavaScript API，方便开发者集成到不同的平台和应用中。Draco的核心技术在于其先进的几何压缩算法，能够有效地去除冗余信息，实现高效的编码和解码。通过使用Draco，开发者可以轻松地处理大规模的3D模型数据，提升用户体验。
 
 * [OpenDroneMap/ODM](https://github.com/OpenDroneMap/ODM) OpenDroneMap (ODM) 是一个命令行工具，用于从无人机、气球或风筝拍摄的图像生成地图、点云、3D模型和数字高程模型 (DEM)。它提供了一种开源解决方案，可以处理航拍图像数据，并将其转换为各种地理空间产品。ODM 的核心功能包括图像拼接、几何校正、纹理映射和三维重建。用户可以通过命令行界面控制整个处理流程，并根据需要调整参数。该项目旨在为用户提供一个灵活且可定制的平台，用于处理和分析航拍图像数据，适用于各种应用场景，例如农业、测绘、环境监测等。ODM 具有活跃的社区支持，并且不断更新和改进，以适应不断发展的无人机技术和地理空间分析需求。它是一个强大的工具，可以帮助用户从航拍图像中提取有价值的信息。
 
@@ -645,10 +637,6 @@
 
 ## 人像_姿势_3D人脸
 
-* [MVIG-SJTU/AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) AlphaPose是由MVIG-SJTU开发的实时且精确的全身多人姿态估计与跟踪系统。它基于区域多人姿态估计（Regional Multi-Person Pose Estimation, RMPE）框架，能有效处理拥挤场景中的姿态估计问题。该项目特色在于其高精度和速度，支持全身姿态估计，并提供多人姿态跟踪功能。AlphaPose采用自上而下的方法，首先检测图像中的人体，然后对每个人体进行姿态估计。其核心技术包括对称空间变换网络（Symmetric Spatial Transformer Network, SSTN）和参数化姿态非极大值抑制（Parametric Pose Non-Maximum Suppression, P-NMS）。项目提供了详细的安装和使用指南，以及预训练模型，方便用户快速上手。它支持多种数据集和评估指标，可用于人体行为分析、动作识别等领域的研究和应用。AlphaPose在学术界和工业界都受到了广泛关注。
-
-* [ChanChiChoi/awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition) 这个GitHub项目ChanChiChoi/awesome-Face_Recognition是一个人脸识别相关论文的资源集合，涵盖了人脸识别领域的多个关键方向。它整理了人脸检测、人脸对齐、人脸识别（包括身份验证和身份确认）、人脸表征等方面的论文。此外，该项目还涉及人脸重建、人脸追踪、人脸超分辨率和去模糊、人脸生成和合成、人脸迁移、人脸反欺骗以及人脸检索等前沿课题。该项目旨在为研究人员和开发者提供全面的人脸识别领域文献参考，方便大家快速了解和掌握相关技术。通过该项目，用户可以系统地学习人脸识别的各个分支，并深入了解最新的研究进展。该资源库对于从事人脸识别研究和应用开发的人员来说，是一个非常有价值的参考资料。
-
 * [yisol/IDM-VTON](https://github.com/yisol/IDM-VTON) IDM-VTON是一个ECCV 2024发布的虚拟试穿项目，旨在改进扩散模型在真实场景下的虚拟试穿效果。它专注于解决现有方法在保留服装细节和处理复杂人体姿态方面的不足。该项目通过引入身份感知解耦模块（Identity-aware Disentanglement Module）来分离身份信息和服装信息，从而更好地控制生成过程。IDM-VTON还采用了高质量的服装引导机制，确保服装纹理和细节能够准确地转移到目标人物身上。项目代码和预训练模型已开源，方便研究人员复现和进一步研究。IDM-VTON在真实世界的虚拟试穿任务上表现出色，能够生成更逼真、更自然的试穿效果，尤其擅长处理复杂的姿势和保留服装细节。该项目为虚拟试穿领域提供了一种新的解决方案，具有很高的学术价值和潜在的应用前景。
 
 * [premieroctet/photoshot](https://github.com/premieroctet/photoshot) PhotoShot是一个开源的AI头像生成器Web应用，网址是https://photoshot.app。它允许用户通过上传照片并提供文本描述，来生成各种风格的AI头像。该项目基于Stable Diffusion等AI模型，用户可以自定义头像的风格、背景和服装等。PhotoShot旨在提供一种简单易用的方式来创建个性化的数字形象，无需专业的图像编辑技能。项目提供友好的用户界面，方便用户上传图片和设置参数。它利用AI技术将用户的照片转化为具有艺术风格的头像，可用于社交媒体、游戏等各种场景。开源特性意味着用户可以自由地修改和定制代码，以满足自己的需求。PhotoShot致力于成为一个强大且灵活的AI头像生成工具，让每个人都能轻松拥有独特的数字身份。
@@ -656,8 +644,6 @@
 * [facebookresearch/audio2photoreal](https://github.com/facebookresearch/audio2photoreal) 本项目是Facebook Research的audio2photoreal，旨在通过音频驱动生成逼真的Codec头像。它提供代码和数据集，利用音频输入合成高质量、照片级的头像动画。项目核心在于建立音频与视觉之间的映射关系，通过深度学习模型将音频特征转化为逼真的面部表情和头部姿态。该项目的一大特色是能够生成高度逼真的Codec头像，使其在视觉上与真人难以区分。其工作原理涉及音频特征提取、模型训练和渲染等步骤，最终实现音频驱动的逼真头像动画。该项目对于虚拟现实、远程会议和数字人等领域具有重要意义，能够提升用户体验和交互真实感。具体实现细节和数据集信息可在项目中找到。
 
 * [tencent-ailab/V-Express](https://github.com/tencent-ailab/V-Express) V-Express是由腾讯AI Lab开发的开源项目，旨在根据参考图像、音频和V-Kps图像序列生成逼真的说话人头部视频。该项目的主要目标是实现对说话人头部动作和表情的精准控制。V-Express的核心工作原理是利用参考图像提供人物外观信息，音频驱动嘴唇同步，而V-Kps图像序列则控制头部姿态和面部表情。通过这种方式，V-Express能够生成高度个性化和可控的说话人视频。该项目为虚拟形象生成、视频会议和数字内容创作等领域提供了强大的技术支持。V-Express的优势在于其对头部动作和表情的精细控制能力，以及生成视频的逼真度。
-
-* [deepcam-cn/yolov5-face](https://github.com/deepcam-cn/yolov5-face) YOLO5Face是一个基于YOLOv5的人脸检测项目，其目标是不重复造轮子，而是充分利用YOLOv5的强大能力来构建高效的人脸检测器。该项目在ECCV Workshops 2022上发表，并提供了相应的论文链接。YOLO5Face的核心在于针对人脸检测任务对YOLOv5进行了优化，使其能够更准确、更快速地检测图像中的人脸。项目可能包含对YOLOv5模型结构的调整、损失函数的改进以及训练数据的选择等方面的优化。通过这些优化，YOLO5Face旨在提供一个易于使用且性能优越的人脸检测解决方案，适用于各种应用场景。用户可以通过该项目了解如何利用现有的目标检测框架来解决特定的人脸检测问题，并从中学习到模型优化和性能提升的技巧。
 
 * [wladradchenko/wunjo.wladradchenko.ru](https://github.com/wladradchenko/wunjo.wladradchenko.ru) Wunjo CE是一个开源、本地且免费的项目，提供多种强大的AI功能。它主要特色包括人脸替换（Face Swap）、唇形同步（Lip Sync）、控制移除物体、文本和背景、风格迁移（Restyling）、音频分离、声音克隆以及视频生成。该项目旨在让用户在本地环境中，无需付费即可体验各种先进的AI技术，进行内容创作和编辑。Wunjo CE集成了多种AI模型，用户可以利用这些模型实现图像和视频的深度定制与个性化处理。
 
@@ -673,25 +659,19 @@
 
 ## 其他_机器视觉
 
-* [frgfm/torch-cam](https://github.com/frgfm/torch-cam) torch-cam是一个PyTorch库，用于生成类激活图(CAM)，帮助理解模型预测的依据。它支持多种CAM算法，包括CAM、Grad-CAM、Grad-CAM++、Smooth Grad-CAM++、Score-CAM、SS-CAM、IS-CAM、XGrad-CAM和Layer-CAM。该库易于使用，允许用户可视化图像中哪些区域对模型的决策影响最大。通过提取特定层的激活图，torch-cam能够深入了解模型的内部运作机制。它旨在帮助研究人员和从业者调试模型、解释预测结果并提高模型的可信度。该项目提供清晰的文档和示例，方便快速上手和集成到现有项目中。torch-cam支持自定义目标层和类别，提供灵活的配置选项，适用于各种图像分类和目标检测任务。
-
 * [LeapLabTHU/Uni-AdaFocus](https://github.com/LeapLabTHU/Uni-AdaFocus) Uni-AdaFocus是一个由LeapLabTHU开发的自适应聚焦通用框架，已被TPAMI 2024收录。该项目旨在提升各种视觉任务的性能，通过动态调整图像不同区域的关注度，从而优化模型对关键信息的利用。Uni-AdaFocus的核心思想是学习一个自适应的聚焦掩码，该掩码能够根据输入图像的内容，突出显示重要的区域，抑制不相关的区域。这种聚焦机制可以集成到各种现有的深度学习模型中，而无需修改模型的架构。项目提供了详细的代码实现、实验结果和使用指南，方便研究人员和开发者快速上手。Uni-AdaFocus在图像分类、目标检测、语义分割等多个视觉任务上都取得了显著的性能提升，证明了其通用性和有效性。该项目为视觉任务的自适应信息处理提供了一种新的思路，具有重要的学术价值和应用前景。
 
 ##### 
 
 ## 图像恢复
 
-* [Tohrusky/Final2x](https://github.com/Tohrusky/Final2x) Final2x是一个基于深度学习的图像超分辨率工具，可以将图像放大2倍。它支持Windows、Linux和macOS系统，并提供了GUI和CLI两种使用方式。Final2x使用了多种先进的超分辨率算法，包括Waifu2x、RealESRGAN、AnimeSR和SwinIR等，用户可以根据需要选择不同的算法。该项目旨在提供高质量的图像放大效果，尤其擅长处理动漫风格的图像。Final2x的工作原理是利用深度学习模型学习低分辨率图像到高分辨率图像的映射关系，从而实现图像的放大和细节恢复。它还支持批量处理图像，方便用户一次性放大大量图片。Final2x的GUI界面操作简单直观，CLI则提供了更多的自定义选项。项目还提供了详细的文档和示例，帮助用户快速上手。Final2x仍在不断开发和完善中，未来将支持更多的算法和功能。总而言之，Final2x是一个强大且易用的图像超分辨率工具，能够有效提升图像的清晰度和细节。
+* [lxfater/inpaint-web](https://github.com/lxfater/inpaint-web) lxfater/inpaint-web 是一个基于 Webgpu 和 wasm 技术的免费开源图像修复（inpainting）和图像放大（image-upscaling）工具。它完全在浏览器端运行，无需服务器支持，保护用户隐私。该项目利用 Webgpu 提供的硬件加速能力，以及 wasm 的高性能，实现高效的图像处理。用户可以在浏览器中直接上传图片，进行修复或放大操作。该项目旨在提供一个方便、快捷、安全且免费的图像处理解决方案。它具有跨平台性，可以在支持 Webgpu 的浏览器上运行。该项目代码开源，方便用户进行二次开发和定制。总而言之，lxfater/inpaint-web 是一个强大的浏览器端图像处理工具，具有免费、开源、高性能和保护隐私等优点。
+
+* [cszn/KAIR](https://github.com/cszn/KAIR) KAIR是一个基于PyTorch的图像恢复工具箱，提供了多种图像恢复算法的训练和测试代码。它支持多种经典和先进的图像恢复模型，包括DPIR、USRNet、DnCNN、FFDNet、SRMD、DPSR、BSRGAN和SwinIR等。该工具箱旨在为图像恢复研究提供一个方便易用的平台，方便研究者进行实验和比较。KAIR项目包含了这些模型的训练脚本、测试脚本和预训练模型，方便用户快速上手。其核心功能在于提供图像去噪、超分辨率等图像恢复任务的解决方案。项目结构清晰，易于扩展，方便用户添加自定义的图像恢复模型。总体而言，KAIR是一个功能强大且易于使用的图像恢复工具箱，适合图像处理领域的研究人员和工程师使用。它提供了一站式的解决方案，简化了图像恢复算法的开发和部署流程。
 
 * [YingqingHe/ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter) ScaleCrafter是一个ICLR 2024 Spotlight论文的官方实现，旨在推理时生成更高分辨率的图像。该项目提供了一种新颖的方法，通过在推理阶段调整图像尺度来提升生成质量。ScaleCrafter的核心思想是在不同尺度上进行图像生成，并巧妙地将这些尺度上的信息融合起来，从而获得更精细、更逼真的高分辨率图像。项目代码库包含了训练和推理所需的全部代码，方便用户复现论文结果并进行进一步研究。ScaleCrafter的优势在于它可以在不重新训练模型的情况下，显著提高现有生成模型的图像分辨率。它通过一种高效的尺度调整策略，克服了传统方法在高分辨率图像生成方面的局限性。ScaleCrafter适用于各种图像生成任务，例如文本到图像生成、图像修复等。项目提供了详细的文档和示例，方便用户快速上手并将其应用到自己的项目中。总而言之，ScaleCrafter是一个强大而灵活的工具，可以帮助研究人员和开发者生成更高质量、更高分辨率的图像。
 
 ## 图像生成
-
-* [lucidrains/denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch) 该项目是使用PyTorch实现的去噪扩散概率模型 (Denoising Diffusion Probabilistic Model, DDPM)。它提供了一个简洁易懂的DDPM实现，方便研究人员和开发者学习和使用。项目核心思想是通过逐步添加噪声将数据转换为纯噪声，然后学习逆向过程，逐步从噪声中恢复原始数据。这种方法可以用于生成高质量的图像和其他类型的数据。项目特色在于其简洁的PyTorch代码实现，降低了学习门槛。该项目可能包含训练和推理的代码示例，以及预训练的模型权重。它旨在促进扩散模型在图像生成、图像编辑等领域的应用。开发者Lucidrains以其在深度学习领域的贡献而闻名，保证了项目的质量和实用性。
-
-* [timothybrooks/instruct-pix2pix](https://github.com/timothybrooks/instruct-pix2pix) InstructPix2Pix是一个使用文本指令编辑图像的项目，它通过训练一个能够理解指令并相应修改图像的模型来实现。该模型基于扩散模型，无需3D或显式条件训练，就能根据用户提供的文本指令对图像进行编辑。InstructPix2Pix的核心思想是利用GPT-3生成图像编辑指令及其对应的图像对，从而构建训练数据集。该项目展示了如何使用文本指令（如“把天空变成粉色”）来修改图像，并提供了预训练模型和代码，方便用户进行图像编辑实验。它通过将指令和图像作为输入，预测图像的变化，并将其应用于原始图像，从而生成编辑后的图像。InstructPix2Pix的优势在于其简单性和有效性，它不需要复杂的设置或大量的计算资源，就能实现高质量的图像编辑效果。项目还提供了Colab Notebook，方便用户在线体验和测试。该项目基于论文&quot;InstructPix2Pix: Learning to Follow Image Editing Instructions&quot;，并提供了相关论文链接。
-
-* [vladmandic/sdnext](https://github.com/vladmandic/sdnext) SD.Next是一个集AI生成图像功能于一体的项目，它基于Stable Diffusion技术，旨在提供更强大、更灵活的图像生成体验。该项目拥有简洁的用户界面，支持多种模型和参数调整，方便用户进行个性化定制。SD.Next优化了Stable Diffusion的运行效率，使其在不同硬件平台上都能流畅运行。它还集成了多种实用工具，例如图像编辑、后期处理等，方便用户进行完整的图像创作流程。该项目鼓励社区参与，用户可以贡献代码、模型和创意，共同推动AI图像生成技术的发展。SD.Next力求成为AI图像生成领域的领先平台，为用户提供无限的创作可能性。它支持多种扩散模型，并提供高级控制选项，例如提示词权重、图像引导等。SD.Next的目标是让AI图像生成变得更加简单易用，同时保持强大的功能和灵活性。该项目还在不断更新和完善，未来将加入更多新功能和特性。
 
 * [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) StabilityMatrix是一个多平台Stable Diffusion包管理器，旨在简化和标准化Stable Diffusion的安装、配置和使用。它支持Windows、macOS和Linux系统，并提供了一个统一的界面来管理不同的Stable Diffusion实现，如Automatic1111、InvokeAI等。该项目通过自动化安装依赖、配置环境和更新版本，解决了不同平台和实现之间存在的兼容性问题。StabilityMatrix还允许用户轻松切换不同的Stable Diffusion版本和模型，方便进行实验和比较。其核心优势在于降低了Stable Diffusion的使用门槛，让用户能够更专注于创意生成而非环境配置。它还提供了一些高级功能，例如模型管理、扩展管理和脚本支持，进一步提升了Stable Diffusion的使用体验。总之，StabilityMatrix是一个强大而易用的工具，旨在让更多人能够轻松体验Stable Diffusion的魅力。
 
@@ -773,17 +753,7 @@
 
 ## 多模态大模型
 
-* [om-ai-lab/VLM-R1](https://github.com/om-ai-lab/VLM-R1) VLM-R1 是一个用于解决视觉理解问题的项目，它利用了强化学习来优化视觉语言模型 (VLM)。该项目的核心思想是通过奖励机制来引导 VLM 学习更有效的视觉推理策略。具体来说，VLM-R1 通过强化学习训练 VLM，使其能够更好地理解图像内容并回答相关问题。项目特色在于其强化学习框架，可以提升 VLM 在复杂视觉任务上的表现。 VLM-R1 的训练过程包括定义奖励函数、设计动作空间和状态空间等关键步骤。该项目提供了一套完整的工具和代码，方便研究人员复现和扩展。 VLM-R1 的目标是推动视觉语言理解领域的发展，为更智能的视觉应用提供技术支持。项目代码和模型权重均已开源，方便社区使用和改进。 VLM-R1 在视觉问答、图像描述等任务上展现了强大的性能。 开发者可以通过该项目学习如何将强化学习应用于 VLM 的训练中。 VLM-R1 的出现为 VLM 的研究提供了一个新的视角和方法。 该项目将有助于提高 VLM 在实际应用中的可靠性和准确性。
-
-* [LLaVA-VL/LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT) LLaVA-NeXT 是一个视觉语言模型，是 LLaVA 系列的下一代模型。它通过更高效的训练和架构改进，在各种视觉语言任务上实现了显著的性能提升。该模型采用端到端训练，利用视觉编码器和大型语言模型进行联合学习。LLaVA-NeXT 的关键改进包括更强的视觉表示能力、更有效的多模态融合机制以及优化的训练策略。项目特点在于其卓越的零样本泛化能力和对复杂视觉场景的理解能力。它在视觉问答、图像描述和视觉推理等任务中表现出色。该项目提供了详细的代码、模型权重和训练脚本，方便研究人员和开发者使用和扩展。LLaVA-NeXT 旨在推动视觉语言理解领域的发展，并为构建更智能的 AI 系统奠定基础。它通过创新的架构设计和训练方法，实现了性能和效率的平衡。该项目还提供了丰富的文档和示例，帮助用户快速上手并探索模型的潜力。
-
-* [MenghaoGuo/Awesome-Vision-Attentions](https://github.com/MenghaoGuo/Awesome-Vision-Attentions) 该项目MenghaoGuo/Awesome-Vision-Attentions 收集了视觉注意力机制相关的论文。项目特色在于整理了大量视觉注意力相关的研究工作。项目计划基于Jittor框架逐步发布相关代码。该项目旨在为研究者提供一个全面的视觉注意力机制资源库。它涵盖了各种类型的视觉注意力模型，并可能包括论文的简要概述和关键技术。通过该项目，用户可以快速了解视觉注意力领域的最新进展。该项目将持续更新，并提供更多有价值的信息和资源。基于Jittor的代码实现将有助于研究人员复现和改进现有的注意力机制。该项目是学习和探索视觉注意力机制的宝贵资源。
-
 * [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) nanoVLM是一个专注于训练/微调小型视觉语言模型（VLM）的GitHub项目，旨在提供最简单、最快速的解决方案。它可能包含用于构建和训练VLM的工具、代码示例和预训练模型。该项目的目标是让研究人员和开发者能够更轻松地探索和利用小型VLM，而无需处理大型复杂模型的训练和部署难题。它可能侧重于优化训练效率、降低计算资源需求，并提供易于使用的API或界面。具体实现细节和模型架构需要查阅项目代码和文档，但总体而言，nanoVLM致力于简化小型VLM的开发流程，加速相关研究和应用。该项目可能包含预处理脚本、模型定义、训练循环和评估指标等关键组件，方便用户快速上手。
-
-* [roboflow/maestro](https://github.com/roboflow/maestro) Roboflow Maestro项目旨在简化多模态模型（如PaliGemma 2、Florence-2和Qwen2.5-VL）的微调过程。该项目提供了一套工具和工作流程，帮助开发者更高效地调整这些模型，使其适应特定的任务和数据集。Maestro可能包含数据准备、模型训练、评估和部署等环节的优化。它可能利用Roboflow的现有平台或工具，例如数据标注和管理功能，来加速微调流程。该项目专注于提高多模态模型的性能和易用性，让开发者更容易地利用这些先进模型解决实际问题。具体实现细节和使用方法请参考项目文档。
-
-* [OmniSVG/OmniSVG](https://github.com/OmniSVG/OmniSVG) OmniSVG是首个端到端多模态SVG生成器家族，它利用预训练的视觉-语言模型（VLM）生成复杂的SVG图像。该项目能够生成从简单图标到复杂动漫人物等各种细节丰富的SVG。OmniSVG的核心在于其利用VLM理解图像内容并将其转化为矢量图形的能力。它是一个多模态系统，意味着它可以处理多种输入类型（例如文本和图像）来生成SVG。OmniSVG旨在简化SVG创作流程，并为设计师和开发者提供强大的工具。该项目代表了AI在矢量图形生成领域的前沿探索。
 
 * [mbzuai-oryx/Video-ChatGPT](https://github.com/mbzuai-oryx/Video-ChatGPT) Video-ChatGPT是一个视频对话模型，能够针对视频生成有意义的对话，已被ACL 2024收录。该项目结合了大型语言模型（LLMs）的能力和一个预训练的视觉编码器，该编码器适用于时空视频表示。其核心在于利用视觉编码器提取视频中的时空信息，并将其与LLM结合，从而实现视频理解和对话生成。该项目还引入了一种严格的“定量评估基准”，用于评估基于视频的对话模型，旨在推动该领域的发展。Video-ChatGPT的主要特色在于其强大的视频理解能力和高质量的对话生成能力，以及其提供的评估基准。该项目为研究人员提供了一个强大的工具，可以用于开发更先进的视频对话系统。
 
@@ -843,41 +813,17 @@
 
 ## 对象检测_分割
 
-* [dmlc/gluon-cv](https://github.com/dmlc/gluon-cv) GluonCV是一个基于Apache MXNet的深度学习工具包，专注于计算机视觉任务。它旨在为计算机视觉研究人员和开发人员提供清晰、简洁且高效的工具，加速原型设计和模型部署。GluonCV提供了预训练的深度学习模型，涵盖图像分类、目标检测、语义分割等多种任务，方便用户快速上手。它还包含常用的计算机视觉数据集，简化了数据准备流程。该工具包的设计注重灵活性和易用性，用户可以轻松地自定义模型和训练流程。GluonCV支持多种硬件平台，包括CPU和GPU，并提供了详细的文档和示例，方便用户学习和使用。其目标是降低计算机视觉技术的门槛，促进更广泛的应用和创新。GluonCV受益于MXNet的效率和可扩展性，能够处理大规模数据集和复杂的模型。它是一个活跃的开源项目，持续更新和改进，欢迎社区贡献。
-
 * [open-mmlab/mmdetection3d](https://github.com/open-mmlab/mmdetection3d) MMDetection3D是OpenMMLab开发的下一代通用3D目标检测平台。它支持多种3D检测任务，包括点云、多模态和视频数据。该项目基于PyTorch，旨在提供一个灵活、高效且易于使用的3D检测工具箱。它包含了各种先进的3D检测算法，如PointPillars、SECOND、CenterPoint等。MMDetection3D支持多种数据集，如KITTI、NuScenes、Waymo Open Dataset等。其模块化设计允许用户轻松定制和扩展现有算法。该项目强调代码的可读性和可维护性，方便研究人员和开发者使用。MMDetection3D提供了丰富的预训练模型和评估工具，方便用户快速上手。它还支持分布式训练和推理，以提高效率。总之，MMDetection3D是一个强大的3D目标检测平台，适用于各种应用场景。
-
-* [AILab-CVC/YOLO-World](https://github.com/AILab-CVC/YOLO-World) YOLO-World是一个CVPR 2024论文提出的实时开放词汇目标检测项目。它基于YOLOv8，能够检测任意类别的物体，无需重新训练。其核心思想是将文本编码器（CLIP）的语义信息融入到YOLO的检测流程中，通过文本查询来定位和识别目标。项目特色在于其零样本检测能力，即在没有见过特定类别图像的情况下也能进行检测。YOLO-World通过解耦预测头，将目标检测任务分解为目标定位和类别识别两个子任务。它利用文本编码器生成类别嵌入，并将其与视觉特征进行匹配，从而实现开放词汇检测。该项目易于使用，只需简单配置即可运行，并提供了丰富的示例代码和预训练模型。YOLO-World在多个数据集上取得了具有竞争力的结果，并具有良好的实时性能。它为目标检测领域带来了新的思路，并为实际应用提供了强大的工具。
-
-* [dbolya/yolact](https://github.com/dbolya/yolact) YOLACT是一个简单且全卷积的实时实例分割模型。它通过将实例分割分解为两个并行任务实现高效分割：生成一组原型掩码和预测每个掩码的系数。这些系数与原型结合产生最终的实例分割结果。该模型基于单阶段目标检测器，并添加了用于生成原型掩码的额外分支。YOLACT特别适合于需要快速处理速度的应用，例如机器人和自动驾驶。其主要优势在于速度和相对简单的设计，使其易于理解和实现。项目包含预训练模型和训练脚本，方便用户快速上手。YOLACT在COCO数据集上表现出色，并在速度和精度之间取得了良好的平衡。
-
-* [Tianxiaomo/pytorch-YOLOv4](https://github.com/Tianxiaomo/pytorch-YOLOv4) 这个项目是YOLOv4目标检测算法的PyTorch、ONNX和TensorRT实现。它旨在提供一个易于使用和修改的YOLOv4版本。项目支持使用PyTorch进行训练和推理，并提供转换为ONNX格式的工具，方便部署到其他平台。通过TensorRT优化，可以显著提高推理速度。项目可能包含预训练模型，方便用户快速上手。主要贡献在于提供了一个高性能且灵活的YOLOv4实现，方便研究人员和开发者使用。该项目可能包含详细的文档和示例代码，帮助用户理解和使用YOLOv4。它是一个开源项目，允许用户自由使用、修改和分发。
 
 * [facebookresearch/co-tracker](https://github.com/facebookresearch/co-tracker) CoTracker 是 Facebook Research 开发的视频像素点追踪模型。它允许用户追踪视频中任意指定点（像素）的运动轨迹。该模型的核心优势在于能够追踪视频中任意点，无需预先训练特定对象或类别。CoTracker 的工作原理基于学习视频帧之间的像素级对应关系，从而实现精确的像素追踪。它通过学习视频中的时空一致性来预测像素的运动，即使在复杂的场景和遮挡情况下也能保持追踪的准确性。该项目提供了预训练模型和代码，方便研究人员和开发者使用和扩展。CoTracker 在视频分析、动作捕捉和视频编辑等领域具有广泛的应用前景。它能够帮助用户理解视频内容，实现更精细的视频操作和分析。该项目的代码和模型资源已开源，方便社区进行研究和贡献。
 
 * [cvg/LightGlue](https://github.com/cvg/LightGlue) LightGlue是一个快速且准确的局部特征匹配器，在ICCV 2023上发表。它使用图神经网络（GNN）来解决特征匹配问题，速度比其他方法快一个数量级，同时保持或提高匹配精度。该项目提供PyTorch实现，易于使用和集成到现有工作流程中。LightGlue通过迭代地关注最相关的特征对，并利用注意力机制来学习特征之间的关系，从而实现高效匹配。它在各种计算机视觉任务中表现出色，包括图像配准、三维重建和视觉定位。该项目包含预训练模型，方便用户快速上手。LightGlue旨在成为一个轻量级、高性能的特征匹配解决方案，适用于资源受限的环境。其核心优势在于速度、精度和易用性的平衡。项目还提供详细的文档和示例，帮助用户理解和使用LightGlue。
-
-* [YunYang1994/tensorflow-yolov3](https://github.com/YunYang1994/tensorflow-yolov3) 该项目是YunYang1994基于TensorFlow实现的YOLOv3目标检测算法，对应论文&quot;YOLOv3: An Incremental Improvement&quot;。它提供了YOLOv3的TensorFlow代码实现，方便用户理解和复现该算法。项目特色包括使用TensorFlow框架，以及对YOLOv3算法的增量改进。YOLOv3通过多尺度预测和更好的骨干网络Darknet-53提升了目标检测性能。该项目可能包含预训练模型、训练脚本和测试代码，帮助用户快速上手并应用YOLOv3进行目标检测任务。用户可以参考项目中的代码和文档，了解YOLOv3的具体实现细节和训练过程。该项目是学习和使用YOLOv3算法的良好资源。
-
-* [iscyy/ultralyticsPro](https://github.com/iscyy/ultralyticsPro) 该项目专注于YOLO系列目标检测模型的改进，特别是YOLO11、YOLOv8、TYOLOv12、YOLOv10、RT-DETR、YOLOv7和YOLOv5。它支持对模型的backbone、neck、head、损失函数(loss)、IoU、NMS等关键模块进行改进。项目旨在提供一个平台，方便研究人员和开发者探索和实现YOLO模型的各种优化策略。通过对这些模块的灵活调整，可以提升目标检测的精度和效率。该项目是一个YOLO模型改进的工具集合，涵盖了多个主流YOLO版本，并提供了丰富的可定制选项。它为YOLO模型的性能提升提供了强大的支持，方便用户根据自身需求进行定制和优化。
-
-* [ppogg/YOLOv5-Lite](https://github.com/ppogg/YOLOv5-Lite) YOLOv5-Lite项目是从YOLOv5演变而来，专注于模型轻量化。其模型大小仅为900+KB (int8) 和 1.7M (fp16)，非常适合资源受限的设备。该项目特色在于体积小巧的同时，在树莓派4B上能达到15 FPS的运行速度。这使其成为嵌入式设备和移动端部署的理想选择。YOLOv5-Lite保留了YOLOv5的核心检测能力，并通过优化网络结构和量化技术来实现轻量化。该项目旨在提供一个高性能、低功耗的目标检测解决方案。它特别适合对模型大小和推理速度有严格要求的应用场景。
-
-* [leggedrobotics/darknet_ros](https://github.com/leggedrobotics/darknet_ros) leggedrobotics/darknet_ros 是一个ROS软件包，它将YOLO（You Only Look Once）对象检测系统集成到ROS环境中，实现实时的目标检测。该项目基于Darknet框架，能够识别图像中的多种物体类别。darknet_ros通过ROS话题发布检测到的物体信息，包括物体类别、位置和置信度。它支持ROS Kinetic、Melodic、Noetic等多个ROS版本。该项目允许用户自定义YOLO模型，并提供了一些预训练的模型。其工作原理是将ROS图像数据输入到Darknet YOLO网络中进行推理，然后将结果转换为ROS消息发布。darknet_ros可以用于机器人导航、场景理解等应用，使机器人能够感知周围环境中的物体。该项目提供了详细的安装和使用说明，方便用户快速上手。它是一个开源项目，欢迎社区贡献和改进。
-
-* [52CV/CV-Surveys](https://github.com/52CV/CV-Surveys) 52CV/CV-Surveys项目是一个关于计算机视觉相关综述的资源集合。它涵盖了目标检测、跟踪等多个热门领域。该项目旨在整理和分享最新的CV综述论文，帮助研究者快速了解特定方向的研究进展和技术趋势。通过阅读这些综述，用户可以系统地学习相关知识，把握研究重点，并为自己的研究工作提供参考。该项目内容持续更新，力求全面覆盖计算机视觉的各个分支，是学习和研究CV的宝贵资源。
 
 * [roboflow/rf-detr](https://github.com/roboflow/rf-detr) RF-DETR是由Roboflow开发的实时目标检测模型架构，在COCO数据集上表现出色，专为微调而设计。它基于DETR（Detection Transformer）架构，但进行了优化以提高速度和效率，使其更适合实际应用。RF-DETR的关键特性包括快速推理速度、高精度和易于定制。该项目提供了预训练模型和微调工具，方便用户在自己的数据集上进行训练和部署。RF-DETR利用Transformer架构的优势，能够捕捉图像中的全局上下文信息，从而提高目标检测的准确性。它旨在成为一个强大且易于使用的目标检测解决方案，适用于各种应用场景。该项目还提供了详细的文档和示例，帮助用户快速上手。RF-DETR是一个开源项目，欢迎社区贡献和改进。
 
 * [computerhistory/AlexNet-Source-Code](https://github.com/computerhistory/AlexNet-Source-Code) 该项目是AlexNet的原始源代码，发布于2012年。它提供了AlexNet的完整实现，让用户可以研究和复现这一经典深度学习模型。AlexNet在2012年的ImageNet图像识别挑战赛中取得了突破性进展，证明了深度卷积神经网络在图像识别方面的强大能力。该代码可以帮助研究人员理解AlexNet的网络结构、训练方法和关键技术。通过分析源代码，可以深入了解AlexNet如何利用多层卷积、ReLU激活函数、Dropout正则化和GPU加速等技术来提升图像识别的准确率。这个项目对于学习深度学习历史和理解现代计算机视觉技术的发展具有重要意义。它是一个宝贵的资源，可以帮助人们学习和研究深度学习的早期发展。
 
 * [hkchengrex/Tracking-Anything-with-DEVA](https://github.com/hkchengrex/Tracking-Anything-with-DEVA) DEVA项目是一个基于解耦视频分割的万物追踪系统，发表于ICCV 2023。它通过将视频分割任务解耦为前景mask生成和mask传播两个阶段，实现了对视频中任意物体的追踪。该方法允许用户通过点击、涂抹等方式指定追踪目标，无需预训练或微调即可追踪新物体。DEVA的核心在于其解耦架构，首先利用SAM（Segment Anything Model）生成初始帧的mask，然后通过传播模块在后续帧中追踪这些mask。项目支持交互式追踪，用户可以随时修改mask以纠正追踪错误。DEVA在多个视频分割和追踪数据集上取得了优异的性能，展示了其泛化能力和鲁棒性。项目提供了详细的代码和预训练模型，方便用户进行复现和应用。该项目具有交互式追踪、零样本追踪和高效的分割传播等特点，适用于各种视频分析和编辑任务。
-
-* [FeiYull/TensorRT-Alpha](https://github.com/FeiYull/TensorRT-Alpha) TensorRT-Alpha项目旨在为YOLOv8、YOLOv8-Pose、YOLOv8-Seg、YOLOv8-Cls、YOLOv7、YOLOv6、YOLOv5、YOLONAS等多个YOLO系列目标检测模型提供TensorRT加速。该项目的核心理念是“CUDA IS ALL YOU NEED”，强调利用CUDA进行高性能计算。它专注于将这些模型的推理过程优化并部署到NVIDIA的TensorRT平台，从而显著提升推理速度和效率。项目可能包含将模型转换为TensorRT引擎、优化引擎配置以及实现高效推理的代码和工具。通过使用TensorRT，用户可以在NVIDIA GPU上获得更快的YOLO模型推理性能，适用于实时目标检测等应用场景。该项目简化了TensorRT部署流程，方便用户快速集成和使用。
-
-* [sunsmarterjie/yolov12](https://github.com/sunsmarterjie/yolov12) YOLOv12是一个基于YOLO的实时目标检测项目，重点在于引入注意力机制来提升检测性能。该项目旨在构建以注意力为中心的高效目标检测器。它可能在YOLO架构的基础上进行了改进，通过注意力机制更有效地关注图像中的重要区域，从而提高检测精度和速度。具体实现细节和性能指标需要在项目中进一步探索。项目名称暗示可能存在YOLOv1到YOLOv11的迭代，但此项目重点关注v12版本。该项目可能包含代码、模型权重、训练脚本和评估指标等资源。开发者sunsmarterjie可能提供了相关文档和示例，方便用户使用和定制YOLOv12。该项目的目标是实现实时且准确的目标检测，特别强调了注意力机制在提升检测效果中的作用。使用者可以研究其代码，了解如何将注意力机制融入到YOLO架构中，并应用于实际场景。
-
-* [yangxue0827/RotationDetection](https://github.com/yangxue0827/RotationDetection) AlphaRotate是一个基于Tensorflow的旋转目标检测基准项目。它主要用于评估和比较不同旋转检测算法的性能。该项目提供了一套标准的旋转目标检测数据集和评估指标。你可以使用它来训练和测试自己的旋转目标检测模型。项目特色在于其专注于旋转目标检测，并提供了一套完整的工具链。其工作原理是利用Tensorflow框架实现各种旋转目标检测算法，并提供数据预处理、模型训练、模型评估等功能。它支持多种旋转框表示方法，例如角度表示和四点表示。该项目旨在为旋转目标检测领域的研究者提供一个方便易用的平台，促进该领域的发展。你可以参考项目中的示例代码和文档，快速上手旋转目标检测任务。
 
 * [jqtangust/hawk](https://github.com/jqtangust/hawk) Hawk是一个NeurIPS 2024的论文项目，专注于学习理解开放世界视频异常。它旨在解决现有异常检测方法在现实场景中泛化能力不足的问题，尤其是在面对未见过的异常类型时。Hawk通过学习正常事件的模式，并检测与这些模式的偏差来识别异常。该项目可能使用了深度学习技术，例如自监督学习或对比学习，来学习视频的正常表示。Hawk的关键贡献在于其能够适应开放世界环境，这意味着它可以检测训练数据中未包含的异常。项目代码和模型权重可能开源，方便研究人员复现和进一步研究。 Hawk可能包含视频异常检测的数据集和评估指标，用于验证其性能。 总之，Hawk是一个有潜力提升视频监控和安全领域的项目，它提供了一种更鲁棒和通用的异常检测方法。
 
@@ -888,8 +834,6 @@
 * [Ouxiang-Li/SAFE](https://github.com/Ouxiang-Li/SAFE) SAFE是一个针对合成图像检测的GitHub项目，旨在提升模型在不同场景下的泛化能力。该项目基于图像转换的视角，提出了一种新的方法来改进合成图像检测。核心思想是模拟真实图像和合成图像之间的差异，通过图像变换来增强模型的鲁棒性。SAFE方法在KDD2025上发表，表明其研究成果具有一定的学术价值。具体实现可能包含图像变换策略、模型训练流程以及评估指标等。该项目可能提供代码、数据集和预训练模型，方便研究者复现和进一步研究。SAFE的贡献在于提升合成图像检测的泛化性能，使其在实际应用中更加可靠。项目目标是解决合成图像检测领域中模型泛化能力不足的问题，从而更好地识别和区分真实图像和合成图像。
 
 ## 视频生成_补帧_摘要
-
-* [lllyasviel/FramePack](https://github.com/lllyasviel/FramePack) FramePack 是一个旨在让视频扩散模型更实用的开源项目。它主要通过将视频帧打包成更大的图像，从而减少内存占用和计算成本，使得在消费级显卡上运行视频扩散模型成为可能。FramePack 提供了多种打包和解包策略，例如 Grid、Row 和 Column，以适应不同的视频内容和扩散模型。该项目还支持自定义的打包和解包函数，允许用户根据自己的需求进行扩展。FramePack 的核心思想是利用图像扩散模型处理静态图像的能力，将其应用于视频生成和编辑任务。通过巧妙地将视频帧组织成图像，FramePack 显著降低了视频扩散模型的资源需求，为更广泛的用户提供了体验视频扩散技术的机会。它简化了视频扩散流程，降低了硬件门槛，使得研究人员和爱好者能够更容易地探索视频扩散的潜力。
 
 * [google-research/frame-interpolation](https://github.com/google-research/frame-interpolation) 该项目是谷歌研究的帧插值项目，名为FILM，发表于ECCV 2022。它旨在解决大运动场景下的帧插值问题。FILM模型利用光流估计和深度信息，生成高质量的中间帧，即使在物体运动剧烈或遮挡严重的情况下也能表现良好。该项目提供预训练模型和代码，方便研究人员复现和应用。其关键技术包括：基于深度特征的光流估计、运动细化网络以及自适应融合策略。FILM在多个基准数据集上取得了领先的性能，证明了其在大运动帧插值方面的有效性。项目代码使用TensorFlow编写，并提供了详细的安装和使用说明。该项目为视频编辑、慢动作生成等应用提供了强大的技术支持。
 
@@ -906,8 +850,6 @@
 # A05_语音识别与合成
 
 ## 语音合成
-
-* [nari-labs/dia](https://github.com/nari-labs/dia) nari-labs/dia是一个文本转语音（TTS）模型，其主要特色在于能够一次性生成超逼真的对话。该项目旨在实现高度自然流畅的语音合成效果，尤其擅长模拟对话场景中的语音特征。具体工作原理可能涉及先进的深度学习技术，例如Transformer架构或变分自编码器（VAE），以捕捉语音的细微变化和上下文依赖关系。通过训练大量对话数据，dia模型能够学习不同说话人的语音风格和情感表达，从而生成更具表现力和真实感的语音。该项目对于语音合成、人机交互、以及虚拟助手等领域具有潜在的应用价值，可以用于创建更自然、更具吸引力的语音交互体验。
 
 * [bytedance/MegaTTS3](https://github.com/bytedance/MegaTTS3) MegaTTS3 是字节跳动开源的基于扩散模型的文本到语音（TTS）系统，它具有高质量、高稳定性和高可扩展性的特点。该项目基于 Mega-TTS 架构，并进行了多项改进，包括使用新的扩散模型架构和训练策略。MegaTTS3 能够生成自然流畅、富有表现力的语音，适用于各种应用场景，如语音助手、有声读物等。其核心优势在于扩散模型在语音合成方面的强大能力，能够模拟复杂的语音特征，从而生成更逼真的语音。项目提供了详细的文档和示例代码，方便开发者快速上手和使用。MegaTTS3 的目标是推动 TTS 技术的发展，为用户提供更好的语音体验。该项目支持多种语言，并且易于扩展到新的语言。它采用模块化设计，方便研究人员进行定制和改进。MegaTTS3 的训练过程需要大量的计算资源，但推理速度较快，可以满足实时应用的需求。
 
@@ -945,8 +887,6 @@
 
 ## 语音识别与合成_其他
 
-* [ggerganov/ggwave](https://github.com/ggerganov/ggwave) ggwave是一个微型的声音数据传输库。它允许你通过音频信号发送和接收数据，无需复杂的网络连接。该库的核心理念是将数据编码成特定的音频波形，然后通过扬声器播放，接收端通过麦克风录制并解码。ggwave支持多种平台和编程语言，包括C/C++、Python等，方便集成到各种应用中。它的设计目标是简单、轻量级和跨平台，适用于在资源受限的环境下进行数据传输，例如物联网设备或离线环境。项目提供了详细的文档和示例，方便开发者快速上手。ggwave可以用于各种场景，例如设备配对、短消息传递、离线数据同步等。它通过生成特定的音频波形来表示数据，并使用傅里叶变换等技术进行解码，对环境噪音有一定的鲁棒性。该项目由ggerganov维护，并遵循MIT许可证。
-
 * [Zackriya-Solutions/meeting-minutes](https://github.com/Zackriya-Solutions/meeting-minutes) 这是一个免费开源、可自托管的AI会议记录工具，能实时记录会议内容并生成摘要。它完全可以在本地设备上运行，目前支持Mac OS和Windows OS，Linux支持也在开发中。项目特色在于使用AI技术自动生成会议纪要，提升效率。其工作原理是实时捕捉会议音频，通过AI算法进行语音转录和内容提炼，最终生成简洁明了的会议摘要。项目网站是https://meetily.zackriya.com/，可以在这里了解更多信息和使用演示。
 
 * [facebookresearch/encodec](https://github.com/facebookresearch/encodec) facebookresearch/encodec是一个基于深度学习的先进音频编解码器。它支持单声道24 kHz音频和立体声48 kHz音频。Encodec旨在提供高质量的音频压缩，同时保持较低的计算复杂度。该项目利用深度学习技术实现高效的音频编码和解码。Encodec的突出特点是其在音频质量和压缩率之间的平衡。它为音频处理和压缩领域的研究人员和从业者提供了一个强大的工具。该项目提供了详细的文档和示例，方便用户使用和定制。Encodec代表了音频编解码技术的最新进展。它适用于各种音频应用，包括流媒体、存储和通信。通过深度学习，Encodec能够捕捉音频信号中的复杂模式，从而实现更有效的压缩。该项目由Facebook Research开发并开源。Encodec为音频压缩领域带来了新的可能性。
@@ -973,17 +913,11 @@
 
 # 云_虚拟化
 
-* [falcosecurity/falco](https://github.com/falcosecurity/falco) Falco是一个云原生运行时安全项目，由CNCF孵化。它通过检测容器、Kubernetes、云原生基础设施中的异常行为来保护系统安全。Falco利用Linux内核的系统调用作为事件源，并结合用户定义的规则来识别潜在的安全威胁。它能够检测到诸如shell在容器中执行、特权容器创建、敏感文件读取等异常行为。Falco提供灵活的规则引擎，允许用户自定义安全策略。它可以与多种工具集成，例如Kubernetes审计日志、Prometheus、Grafana等，方便监控和告警。Falco旨在提供实时的安全可见性和威胁检测能力，帮助用户快速响应安全事件。它的目标是成为云原生环境下的标准运行时安全工具。Falco具有高性能、低开销的特点，适用于大规模的云原生应用部署。用户可以通过YAML文件配置规则，并使用Falcoctl工具进行规则管理。Falco社区活跃，提供丰富的文档和支持。
-
 * [pixie-io/pixie](https://github.com/pixie-io/pixie) Pixie是一个Kubernetes原生应用可观测性平台，无需手动修改代码即可提供应用性能监控。它使用eBPF技术自动捕获高保真数据，例如HTTP请求、数据库查询等，并将其转化为易于理解的指标和可视化图表。Pixie无需人工插桩，降低了监控的复杂性，可以实时分析应用行为，帮助开发者快速定位性能瓶颈和错误。它提供开箱即用的仪表盘和强大的查询语言（PXL），方便用户自定义分析。Pixie支持多种协议和框架，并与现有的监控工具集成，例如Prometheus和Grafana。Pixie旨在简化Kubernetes应用的监控和调试，加速开发迭代周期。Pixie是开源的，社区活跃，持续更新和改进。
-
-* [ahmetb/kubernetes-network-policy-recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes) 这个项目是ahmetb/kubernetes-network-policy-recipes，它提供了一系列Kubernetes网络策略的示例，可以直接复制粘贴使用。这些示例旨在帮助用户理解和应用Kubernetes网络策略，从而控制集群内的网络流量。项目特色在于提供了多种常见场景下的网络策略配置，例如限制Pod之间的访问、允许特定命名空间之间的通信、以及允许外部流量访问特定服务等。它通过YAML文件定义网络策略规则，利用Kubernetes的网络策略控制器实现流量控制。用户可以根据自身需求修改这些示例，快速部署自定义的网络策略。项目涵盖了从基础到高级的网络策略应用，方便用户学习和实践。它简化了网络策略的配置过程，降低了使用门槛，提高了集群安全性。
-
-* [knative/serving](https://github.com/knative/serving) Knative Serving是一个基于Kubernetes的平台，用于构建和部署无服务器、事件驱动的应用程序。它主要特点是能够自动扩展到零，这意味着在没有请求时，服务不会消耗任何资源，从而节省成本。Knative Serving通过请求驱动的计算模型工作，即只有在收到请求时才会激活服务实例。它简化了容器化应用程序的部署和管理，提供流量管理、版本控制和自动缩放等功能。该项目旨在提供一个标准化的方式来构建、部署和管理现代云原生应用，使开发者能够专注于编写业务逻辑，而无需关心底层基础设施。Knative Serving利用Kubernetes的强大功能，并添加了专门针对无服务器工作负载的优化，例如快速部署、自动缩放和流量路由。它支持多种编程语言和框架，并与现有的Kubernetes工具和生态系统集成。
 
 * [alibaba/higress](https://github.com/alibaba/higress) Higress 是阿里巴巴开源的 AI 原生 API 网关，旨在为云原生应用提供统一的流量入口。它支持 HTTP、gRPC 等多种协议，并提供丰富的流量管理功能，例如路由、限流、鉴权等。Higress 的核心优势在于其 AI 集成能力，可以与 AI 模型无缝对接，实现智能路由、内容增强等功能。它基于 Envoy 构建，拥有高性能和可扩展性，适用于复杂的微服务架构。Higress 通过 Ingress Controller 的方式与 Kubernetes 集成，方便用户在 Kubernetes 环境中使用。项目目标是简化 AI 应用的部署和管理，提升整体性能和安全性。Higress 还提供了丰富的插件机制，方便用户自定义功能，满足特定业务需求。它支持多种 AI 模型框架，例如 TensorFlow、PyTorch 等。
 
-* [infrahq/infra](https://github.com/infrahq/infra) Infra是一个为服务器和Kubernetes集群提供认证和访问管理的项目。它旨在简化基础设施的访问控制，确保只有授权用户才能访问敏感资源。Infra可能通过集中管理身份验证信息，并定义细粒度的访问策略来实现这一点。该项目可能包含客户端工具和服务端组件，允许用户通过统一的身份验证流程访问不同的基础设施资源。Infra可能支持多种身份验证方法，例如用户名/密码、SSH密钥或OAuth 2.0。它可能还提供审计日志记录功能，以便跟踪用户访问行为并满足合规性要求。Infra的目标是提高基础设施的安全性，并简化管理员管理用户访问权限的过程。具体实现细节和配置方式需要参考项目文档。
+* [metalbear-co/mirrord](https://github.com/metalbear-co/mirrord) mirrord是一个让你本地进程连接到云环境，并在本地运行代码，模拟云端环境的项目。它允许你在本地开发和调试代码，同时访问云端资源和服务，无需部署到远程环境。mirrord的核心功能包括：镜像流量（mirroring traffic）到本地，模拟云端文件系统和环境变量，以及拦截和修改网络请求。通过与 Kubernetes 集成，mirrord 可以让你在本地开发时，如同身处云端集群中一样。这极大地简化了云原生应用的开发流程，加快了迭代速度，并降低了调试难度。mirrord支持多种编程语言和框架，并提供了简单易用的命令行工具和 IDE 集成。它通过创建本地进程与云端Pod之间的隧道来实现流量镜像和环境模拟。使用 mirrord，开发者可以更高效地构建、测试和调试云原生应用。
 
 * [DioCrafts/OxiCloud](https://github.com/DioCrafts/OxiCloud) OxiCloud是一个高效且安全的云服务器项目，旨在提供数据存储解决方案。它由DioCrafts开发，核心目标是安全地保存用户的所有数据。虽然Readme内容非常简短，但可以推断OxiCloud专注于数据存储的效率和安全性。具体实现细节和特色功能需要查看项目代码才能了解，但其基本定位是一个云存储服务器。项目名称OxiCloud暗示了其可能采用的技术或者设计理念，但具体需要进一步研究代码。总而言之，OxiCloud是一个值得关注的云存储服务器项目，尤其对于注重数据安全和效率的用户来说。
 
@@ -997,27 +931,51 @@
 
 ## Android应用
 
-* [breezy-weather/breezy-weather](https://github.com/breezy-weather/breezy-weather) Breezy Weather 是一款 Material Design 风格的天气应用，使用 Kotlin 编写，界面简洁美观。它利用彩云天气 API 获取实时天气信息，并提供逐小时和未来几天的天气预报。项目特色包括：Material Design 风格界面、实时天气数据、详细的天气预报、位置搜索功能。其工作原理是：通过用户定位或搜索获取地理位置信息，然后调用彩云天气 API 获取相应位置的天气数据，最后将数据解析并展示在用户界面上。该项目目标是提供一个简洁、易用且美观的天气应用。
+* [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) Obtainium是一个安卓应用程序，允许你直接从应用程序的来源获取更新，无需依赖应用商店。它支持从APKMirror、GitHub Releases、GitLab Releases、FDroid等多种来源下载和更新应用。Obtainium的工作原理是解析这些来源的元数据，检测新版本，并提供直接下载安装的选项。该项目的主要特色是绕过应用商店，提供更直接和可控的更新方式，保护用户隐私，并允许安装未在应用商店上架的应用。Obtainium还支持自动更新，并提供了一些高级功能，例如自定义更新检查间隔和通知设置。它旨在为用户提供一个开源、安全和便捷的安卓应用更新解决方案。
+
+* [LawnchairLauncher/lawnchair](https://github.com/LawnchairLauncher/lawnchair) Lawnchair 是一款基于 Android 开源项目启动器3 (AOSP Launcher3) 的开源启动器，旨在提供高度可定制性和功能性。它支持 Material You 设计语言，允许用户自定义主题、图标包、网格大小等。Lawnchair 的核心是 Launcher3，这意味着它继承了 Launcher3 的稳定性和性能。它通过添加额外的功能和定制选项来增强 Launcher3 的体验，例如支持 Google Discover 集成（需要 Lawnfeed）和 At a Glance 小部件。用户可以自由地调整启动器的外观和行为，使其更符合个人喜好。Lawnchair 致力于提供一个流畅、快速且个性化的 Android 启动器体验，同时保持开源和社区驱动的特性。它允许用户完全掌控他们的主屏幕，并提供丰富的功能来优化他们的移动体验。
+
+* [HarlonWang/AVLoadingIndicatorView](https://github.com/HarlonWang/AVLoadingIndicatorView) AVLoadingIndicatorView 是一个 Android 平台上高度可定制的 Loading 指示器视图库，已不再维护。它提供多种内置的动画样式，如 BallPulse、LineScalePulseOut 等，并且允许你轻松创建自定义的动画效果。通过 Canvas 绘制不同的形状，并使用 ValueAnimator 控制动画，实现平滑过渡和视觉效果。你可以设置指示器的颜色、大小和动画持续时间等属性。虽然项目已废弃，但其设计思想和实现方式仍具有参考价值，可以学习动画实现和自定义 View 的技巧。
+
+* [ksoichiro/Android-ObservableScrollView](https://github.com/ksoichiro/Android-ObservableScrollView) Android-ObservableScrollView是一个用于监听可滚动视图滚动事件的Android库。它允许开发者轻松地检测ScrollView、ListView、RecyclerView等视图的滚动状态，并根据滚动位置执行自定义操作。该库的核心思想是使用自定义的ObservableScrollView及其相关组件，通过监听滚动事件并通知观察者来实现滚动状态的追踪。主要特色包括：支持多种可滚动视图、提供丰富的滚动事件回调、易于集成和使用、以及可自定义的滚动行为。开发者可以通过实现特定的接口来接收滚动事件，例如`ObservableScrollViewCallbacks`。它能够帮助开发者实现诸如视差滚动、Toolbar隐藏/显示、以及其他基于滚动位置的动画效果。该库的设计目标是提供一个灵活且高效的解决方案，用于处理Android应用中的滚动交互。使用时需要将库添加到项目中，并在XML布局文件中使用ObservableScrollView或ObservableListView等组件。
+
+* [huanghaibin-dev/CalendarView](https://github.com/huanghaibin-dev/CalendarView) CalendarView是一个基于Canvas绘制的Android日历控件，它拥有超高性能和自由定制UI的特点，不同于RecyclerView、ListView或ViewGroup实现。该控件支持垂直和水平方向切换，渲染速度快，占用内存极低。它提供优雅、万能自定义UI，仿iOS风格，并支持自定义动画。CalendarView支持周视图和自定义周起始，并且可以通过热插拔实现UI定制。该控件的核心优势在于其高性能和低内存占用，使得日历展示更加流畅和高效。
+
+* [GcsSloop/AndroidNote](https://github.com/GcsSloop/AndroidNote) GcsSloop/AndroidNote 是一个全面的 Android 学习笔记项目，旨在帮助开发者系统性地学习 Android 知识。该项目涵盖了 Android 开发的各个方面，包括基础知识、UI 组件、数据存储、网络编程、多媒体处理、性能优化、以及 Kotlin 语言等。笔记内容深入浅出，配有丰富的示例代码和图文说明，方便理解和实践。项目结构清晰，按照知识点进行分类，方便查找和学习。适合初学者入门，也适合有经验的开发者查漏补缺。你可以通过阅读笔记、运行示例代码、以及参与讨论来提升 Android 开发技能。该项目持续更新，保持与 Android 最新技术同步。主要特色是系统性、实用性和易于理解。
+
+* [cats-oss/android-gpuimage](https://github.com/cats-oss/android-gpuimage) Android GPUImage 是一个基于 OpenGL 的 Android 图像滤镜库，其设计灵感来源于 iOS 平台的 GPUImage。它允许开发者轻松地在 Android 应用中应用各种图像滤镜效果。项目核心在于使用 OpenGL ES 2.0 对图像进行实时处理，从而实现高性能的滤镜效果。它提供了一系列内置滤镜，例如色彩调整、模糊、锐化等，同时支持自定义滤镜的开发，开发者可以通过编写 GLSL 着色器来实现个性化的图像处理效果。Android GPUImage 的主要优势在于其高效的图像处理能力和灵活的扩展性，使得开发者可以轻松地创建出具有丰富视觉效果的 Android 应用。项目使用简单，易于集成到现有项目中，并提供了详细的文档和示例代码。
+
+* [seven332/EhViewer](https://github.com/seven332/EhViewer) EhViewer是一个非官方的Android E-Hentai应用，它允许用户浏览和下载E-Hentai和ExHentai上的漫画资源。该项目可能已被弃用，但它曾提供了一个方便的移动端访问E站的途径。EhViewer可能通过解析E-Hentai网站的HTML内容或使用其API（如果可用）来获取漫画信息和图像。用户可以使用该应用搜索、浏览和下载自己喜欢的漫画作品。请注意，使用该应用可能需要遵守E-Hentai网站的使用条款。由于项目已弃用，可能存在兼容性或安全问题，建议谨慎使用。
+
+* [navasmdc/MaterialDesignLibrary](https://github.com/navasmdc/MaterialDesignLibrary) MaterialDesignLibrary是一个Android库，旨在为Android 2.2及以上版本提供Android L风格的组件。它帮助开发者在旧版本Android系统中实现Material Design设计风格。该库包含一系列UI组件，例如按钮、对话框、进度条等，这些组件都模仿了Android L的视觉效果。开发者可以通过该库轻松地将Material Design引入到他们的应用程序中，而无需担心兼容性问题。它简化了Material Design在旧版本Android上的实现过程，让更多用户能够体验到现代化的UI设计。该库的目标是弥合不同Android版本之间的视觉差异，为用户提供一致的用户体验。
+
+* [laobie/StatusBarUtil](https://github.com/laobie/StatusBarUtil) StatusBarUtil是一个Android应用中设置状态栏样式的工具库。它能够轻松实现状态栏颜色、透明度、沉浸式等效果的设置，支持Android 4.4及以上版本。该库主要通过反射机制修改系统属性，从而实现状态栏样式的定制。它提供了简洁易用的API，可以快速集成到项目中，方便开发者根据不同的应用场景调整状态栏的视觉效果。StatusBarUtil支持设置状态栏颜色、透明度、全透明、沉浸式等多种模式，并且能够适配不同的Android设备和系统版本。该库还考虑了刘海屏等特殊屏幕的适配问题，确保在各种设备上都能呈现最佳的状态栏效果。开发者可以通过简单的代码调用，实现状态栏的动态切换，提升用户体验。总而言之，StatusBarUtil是一个强大且易用的Android状态栏样式设置工具，能帮助开发者快速打造美观且适配性强的应用界面。
+
+* [iSoron/uhabits](https://github.com/iSoron/uhabits) Loop Habit Tracker是一个用于创建和保持长期积极习惯的移动应用程序。它是一个开源、免费且无广告的习惯追踪器。该应用专注于长期习惯的养成，通过图表和统计数据帮助用户监控进度，并提供灵活的计划安排和提醒功能。Loop Habit Tracker的设计注重隐私，所有数据都存储在本地设备上。它使用简单的颜色编码系统来表示习惯的完成情况，让用户一目了然地了解自己的进度。此外，它还支持创建目标，并提供详细的历史记录，帮助用户分析自己的习惯模式。Loop Habit Tracker旨在成为一个简单易用、功能强大的工具，帮助用户建立积极的习惯，改善生活。
+
+* [roughike/BottomBar](https://github.com/roughike/BottomBar) 这是一个已弃用的自定义视图组件，旨在模仿 Material Design 的底部导航栏模式。它曾用于在Android应用中创建美观且符合Material Design规范的底部导航菜单。该项目允许开发者自定义底部导航栏的颜色、图标和标签，并处理选项卡切换事件。虽然不再维护，但它曾经是一个流行的库，帮助开发者轻松实现底部导航栏功能。开发者可以使用它来快速搭建具有底部导航栏的Android应用界面。请注意，由于项目已弃用，可能存在兼容性问题，建议寻找替代方案。该库的核心功能是提供一个易于使用的API，用于创建和管理底部导航栏。其工作原理是自定义View，并根据Material Design规范进行绘制和布局。
 
 * [Dr-TSNG/ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) ZygiskNext 是一个 Zygisk 的独立实现，旨在提供一个更简洁、更高效的 Zygisk 替代方案。它不依赖于原版 Magisk 的 Zygisk 实现，而是完全独立工作。该项目通过直接在 Zygote 进程中加载模块，实现对应用程序的修改和增强。ZygiskNext 拥有更小的体积和更快的启动速度，并提供了一套简单的 API 供开发者使用。其主要目标是简化 Zygisk 模块的开发和部署流程，并提供更好的性能和稳定性。ZygiskNext 采用类似于原版 Zygisk 的模块加载机制，但避免了复杂的依赖关系。它支持模块的动态加载和卸载，并提供了一定的安全机制来防止恶意模块的攻击。开发者可以使用 C/C++ 编写 ZygiskNext 模块，并通过简单的配置文件进行部署。该项目旨在为 Android 平台的模块化开发提供一个更灵活和高效的解决方案。
 
-## C/C++程序设计
+* [fwcd/kotlin-language-server](https://github.com/fwcd/kotlin-language-server) fwcd/kotlin-language-server 是一个使用语言服务器协议（LSP）为任何编辑器/IDE 提供 Kotlin 代码补全、诊断和其他功能的项目。它旨在提供跨不同编辑器的统一 Kotlin 开发体验。该项目利用 Kotlin 编译器来提供准确的代码分析和建议。它支持诸如自动补全、跳转到定义、查找引用、代码格式化和实时错误/警告提示等功能。通过 LSP，它可以与支持该协议的各种编辑器集成，例如 VS Code、Vim、Emacs 等。该项目旨在简化 Kotlin 开发流程，提高开发效率，并确保代码质量。它是一个开源项目，欢迎社区贡献和使用。
 
-* [universal-ctags/ctags](https://github.com/universal-ctags/ctags) universal-ctags项目是ctags的一个活跃维护分支，旨在生成各种编程语言的索引文件（tags文件），方便代码导航和理解。它支持多种语言，并不断添加新的语言支持。ctags通过解析源代码，识别函数、类、变量等程序实体，并将它们的信息记录在tags文件中。编辑器和IDE可以使用这些tags文件来实现快速跳转到定义、符号查找等功能。universal-ctags致力于提供更准确、更全面的tags生成能力，并修复bug和改进性能。它与Exuberant Ctags兼容，并力求超越其功能。该项目欢迎贡献，并提供了详细的文档和示例。目标是成为现代代码导航和理解的必备工具。
+## C/C++程序设计
 
 * [ravynsoft/ravynos](https://github.com/ravynsoft/ravynos) RavynOS是一个基于BSD的操作系统项目，目标是提供与macOS®的源代码和二进制兼容性，并提供类似的用户体验。这意味着用户可以在RavynOS上运行为macOS®编写的应用程序，而无需修改代码。该项目旨在创建一个自由开源的替代方案，让用户能够享受类似macOS®的界面和功能，同时拥有BSD系统的灵活性和控制权。RavynOS致力于提供一个稳定、安全和高效的操作系统，它与macOS®的兼容性是其核心特色。具体实现细节和开发进度可在项目仓库中找到。
 
-* [leandromoreira/linux-network-performance-parameters](https://github.com/leandromoreira/linux-network-performance-parameters) leandromoreira/linux-network-performance-parameters项目旨在帮助理解Linux/Kernel网络流程中sysctl变量的作用。它通过图文并茂的方式展示了网络数据包在Linux内核中的传输路径，以及各个阶段相关的sysctl参数。项目特色在于将抽象的网络概念与具体的内核参数关联起来，方便用户优化网络性能。你可以通过该项目了解诸如TCP拥塞控制、缓冲区大小、路由策略等参数如何影响网络传输。该项目提供了清晰的图表，帮助你理解数据包如何在网络协议栈中移动，以及如何使用sysctl调整内核参数以获得更好的网络性能。目前项目提供俄语翻译版本。这个项目对于想要深入了解Linux网络内核机制和优化网络性能的工程师来说非常有价值。
+* [rime/weasel](https://github.com/rime/weasel) 小狼毫(Weasel)是Windows平台上的Rime输入法引擎，提供强大的定制能力和灵活的输入方案选择。它基于Rime的通用输入法算法框架，允许用户自定义词库、码表、界面和行为。小狼毫的核心是算法引擎，负责将用户输入的编码转换为候选词，并根据用户的选择进行输出。通过配置文件，用户可以调整输入法的各项参数，实现个性化的输入体验。项目特色包括支持多种输入方案，如拼音、五笔、仓颉等，以及高度可配置性，允许用户深度定制。小狼毫的目标是为Windows用户提供一个自由、开放、可定制的输入法平台。它通过模块化的设计，方便开发者扩展和维护。欢迎对输入法定制有需求的用户尝试使用小狼毫。
+
+* [CGAL/cgal](https://github.com/CGAL/cgal) CGAL是一个C++库，提供高效可靠的几何算法。它专注于计算几何，包括三角剖分、多边形处理、凸包、搜索结构等。CGAL适用于各种应用，如GIS、CAD/CAM、机器人和分子生物学。其核心是泛型编程，允许灵活地使用不同的数据类型和算法策略。CGAL的设计注重鲁棒性和精确性，通过精确计算内核解决数值问题。该库遵循LGPL或GPL许可，取决于具体模块。CGAL还提供数据结构，如kd树和网格生成器，以及可视化工具。它是一个活跃的开源项目，拥有广泛的用户和开发者社区，并持续更新和改进。CGAL旨在成为几何计算领域的标准库，提供高质量、可重用的组件。
 
 * [RubyMetric/chsrc](https://github.com/RubyMetric/chsrc) chsrc 是一个全平台通用的换源工具与框架，旨在为各种软件提供便捷的换源解决方案。它支持在不同操作系统和软件之间切换软件源，简化了用户配置和管理软件源的过程。chsrc 的核心功能在于其灵活的配置系统，允许用户自定义软件源列表，并根据需要快速切换。该工具通过读取和修改软件的配置文件来实现换源操作，支持多种软件和包管理器的配置格式。chsrc 的目标是成为一个通用的换源解决方案，减少用户在不同平台和软件上重复配置软件源的工作量。它提供了一个统一的接口，方便用户管理和维护各种软件的源地址。chsrc 的设计理念是简单易用，用户可以通过简单的命令或配置文件来完成换源操作。项目还提供框架能力，方便开发者扩展支持更多软件和包管理器。
-
-* [MattPD/cpplinks](https://github.com/MattPD/cpplinks) cpplinks项目是一个精心整理的C++资源列表，旨在帮助开发者找到各种有用的学习资料和工具。它按类别组织资源，方便用户快速定位所需信息，例如书籍、课程、库、框架、工具等。该项目涵盖了C++语言的各个方面，从基础语法到高级特性，再到实际应用，都有所涉及。cpplinks的目标是成为C++开发者的一个全面的资源导航站，无论是初学者还是经验丰富的专家，都能从中受益。通过清晰的分类和简洁的描述，cpplinks旨在提高C++开发的效率和质量，并促进C++社区的知识共享和协作。该项目会定期更新。
 
 * [leahneukirchen/nq](https://github.com/leahneukirchen/nq) nq 是一个 Unix 命令行队列实用工具，用于管理和执行后台任务。它允许用户提交命令到队列，并在稍后按顺序或并行执行它们。nq 的主要特点是简单易用，无需复杂的配置即可快速上手。它使用 SQLite 数据库来存储队列信息，保证了任务的持久性。用户可以通过 `nq add` 添加任务，`nq start` 启动队列，`nq status` 查看状态，`nq cancel` 取消任务。nq 支持任务依赖关系，允许用户指定任务的执行顺序。它还提供了简单的错误处理机制，可以记录失败的任务并进行重试。nq 是一个轻量级的工具，适合在各种 Unix 环境中使用，可以帮助用户更有效地管理后台任务。
 
 * [pizlonator/llvm-project-deluge](https://github.com/pizlonator/llvm-project-deluge) pizlonator/llvm-project-deluge 是一个基于 LLVM 的实验性项目，旨在探索使用数据流分析和程序切片技术进行自动漏洞修复。该项目专注于 C 语言，通过构建程序依赖图 (PDG) 来识别潜在的漏洞点和受影响的代码区域。Deluge 的核心思想是利用程序切片技术提取与漏洞相关的代码片段，然后尝试自动生成修复补丁。它使用 LLVM 的中间表示 (IR) 进行分析和转换，并尝试通过替换或修改受影响的指令来修复漏洞。项目目前处于早期开发阶段，主要目标是验证自动漏洞修复的可行性，并为未来的研究提供基础。 该项目利用 LLVM 提供的 API 进行程序分析和转换，并提供了一些自定义的分析工具和修复策略。
 
 ## Flutter程序
+
+* [Notsfsssf/pixez-flutter](https://github.com/Notsfsssf/pixez-flutter) Pixez-flutter 是一个用 Flutter 编写的第三方 Pixiv 客户端，旨在提供免代理直连 Pixiv 的能力。它允许用户直接浏览和下载 Pixiv 上的插画作品，无需 VPN 或其他代理工具。该项目支持查看静态图片和动图（GIF/Ugoira），提供更全面的 Pixiv 内容浏览体验。其主要特色包括免代理直连、动图支持、以及基于 Flutter 的跨平台特性。项目使用 Pixiv API，并可能采用一些技术手段绕过网络限制，实现直连访问。用户可以通过该应用方便地搜索、浏览和收藏 Pixiv 上的作品。请注意使用该项目时需遵守 Pixiv 的服务条款。该项目仍在积极开发中，可能会有bug。
 
 ## Go程序设计
 
@@ -1029,27 +987,25 @@
 
 ## Python程序
 
-* [eliasdabbas/advertools](https://github.com/eliasdabbas/advertools) advertools是一个在线营销生产力和分析工具的Python库，旨在简化和加速常见的数字营销任务。它提供了诸如robots.txt解析、SERP数据提取、文本分析、关键词研究、广告活动分析等功能。该库通过提供便捷的函数和类，帮助营销人员更有效地收集、处理和分析数据，从而优化营销策略。其特色在于整合了多种营销分析工具，并提供易于使用的界面。例如，它可以从Google Search Console提取数据，分析网站链接结构，并进行文本相似度计算。advertools的目标是成为营销人员的瑞士军刀，提供一站式解决方案，提高工作效率并做出更明智的决策。它还支持广告活动的分析，帮助用户了解广告效果并进行优化。该项目使用Python编写，并鼓励社区贡献。
+* [google/clusterfuzz](https://github.com/google/clusterfuzz) ClusterFuzz 是 Google 开发的一个可扩展的模糊测试基础设施。它旨在帮助开发者在软件发布前发现并修复漏洞。该项目通过大规模并行地运行模糊测试任务，能够高效地发现各种类型的软件缺陷，包括内存错误、崩溃和挂起。ClusterFuzz 能够自动生成测试用例，并利用代码覆盖率信息来指导模糊测试过程，提高测试效率。它支持多种模糊测试引擎，并能与持续集成系统集成，实现自动化漏洞检测。ClusterFuzz 会自动报告发现的漏洞，并提供详细的崩溃信息和重现步骤，方便开发者进行调试和修复。它是一个开源项目，可以部署在云端或本地环境中，适用于各种规模的软件项目。ClusterFuzz 的主要优势在于其可扩展性、自动化和高效性，能够显著提高软件的安全性。Google 内部使用 ClusterFuzz 来测试 Chrome 和其他重要项目，并取得了显著的成果。
 
-* [ipyflow/ipyflow](https://github.com/ipyflow/ipyflow) ipyflow是一个用于Jupyter Notebook的响应式Python内核。它旨在解决传统Notebook中由于代码执行顺序不明确导致的状态不一致问题。ipyflow通过静态和动态分析代码，跟踪变量的依赖关系，并在代码修改时自动重新执行受影响的代码块，确保Notebook的状态始终与代码一致。其核心思想是使用数据流分析来理解代码之间的依赖关系，并利用这些信息来优化代码的执行顺序和状态管理。ipyflow支持自动重新执行、死代码检测和变量溯源等功能，帮助用户更轻松地调试和维护复杂的Notebook。它通过增强Jupyter内核的功能，提供更可靠和可重现的Notebook体验，特别适用于数据科学、机器学习和教学等场景。ipyflow的目标是使Notebook更像一个响应式程序，而不是简单的代码片段集合。
+* [eliasdabbas/advertools](https://github.com/eliasdabbas/advertools) advertools是一个在线营销生产力和分析工具的Python库，旨在简化和加速常见的数字营销任务。它提供了诸如robots.txt解析、SERP数据提取、文本分析、关键词研究、广告活动分析等功能。该库通过提供便捷的函数和类，帮助营销人员更有效地收集、处理和分析数据，从而优化营销策略。其特色在于整合了多种营销分析工具，并提供易于使用的界面。例如，它可以从Google Search Console提取数据，分析网站链接结构，并进行文本相似度计算。advertools的目标是成为营销人员的瑞士军刀，提供一站式解决方案，提高工作效率并做出更明智的决策。它还支持广告活动的分析，帮助用户了解广告效果并进行优化。该项目使用Python编写，并鼓励社区贡献。
 
 ## Rust程序设计
 
-* [Kyome22/RunCat_for_windows](https://github.com/Kyome22/RunCat_for_windows) RunCat for Windows 是一个可爱的Windows任务栏小猫跑步动画项目。它在任务栏上显示一只奔跑的猫咪，代替传统的CPU使用率指示器。猫咪的奔跑速度会根据CPU的使用情况而变化，CPU占用越高，猫咪跑得越快。该项目由 Kyome22 开发，旨在为Windows系统增添趣味性。它通过监控CPU的使用率，并实时更新任务栏图标来实现动画效果。用户可以自定义猫咪的形象和奔跑速度。RunCat for Windows 占用资源少，易于安装和卸载。它提供了一种直观且有趣的方式来了解电脑的CPU负载情况。如果你想让你的Windows任务栏更有活力，RunCat for Windows 是一个不错的选择。
+* [rust-windowing/winit](https://github.com/rust-windowing/winit) winit是一个纯Rust编写的窗口处理库，旨在提供跨平台窗口创建和事件处理的统一接口。它支持Windows、macOS、Linux、Android和Web等多个平台。winit的核心功能包括创建窗口、管理窗口属性（如大小、位置、标题），以及接收和处理用户输入事件，例如键盘、鼠标和触摸事件。它还支持OpenGL上下文创建和管理，方便开发者进行图形渲染。winit的设计目标是简单易用、性能高效，并提供灵活的配置选项。该库通过与底层操作系统API交互来实现跨平台兼容性，开发者可以使用winit构建各种图形界面应用程序和游戏。winit还提供了一些高级特性，如拖放支持、多显示器管理和HiDPI支持。
 
 * [SurviveSJTU/SurviveSJTUManual](https://github.com/SurviveSJTU/SurviveSJTUManual) SurviveSJTUManual项目是对2008年版《上海交通大学生存手册》的更新和数字化。该项目旨在为交大学生提供实用指南，帮助他们更好地适应大学生活。项目内容涵盖学习、生活、社团、校园文化等多个方面。该手册以Gitbook的形式发布，方便浏览和检索，网址为https://survivesjtu.gitbook.io/survivesjtumanual/。项目特色在于其历史性和实用性，旨在传承交大经验，为新生提供参考。该项目通过收集和整理学生经验，形成一份全面的生存指南。
-
-* [chef/bento](https://github.com/chef/bento) Chef Bento项目提供 Packer 模板，用于构建适用于多种平台的最小 Vagrant 基础镜像（baseboxes）。它旨在创建体积小、启动速度快的 Vagrant 开发环境。该项目使用 Packer 自动化镜像构建过程，支持包括 CentOS、Debian、Ubuntu、Fedora 等多种 Linux 发行版以及 Windows 操作系统。Bento 镜像通常包含最基本的系统工具和配置，避免臃肿，方便开发者根据需要自定义环境。项目重点在于提供干净、一致的基础镜像，提升开发效率。你可以利用这些模板快速生成适合自己项目的 Vagrant box。这些镜像可以用于本地开发、测试和持续集成等场景。项目维护者是 Chef，质量有保障。
 
 * [bosswnx/huiwenmincho-improved](https://github.com/bosswnx/huiwenmincho-improved) 汇文明朝体修正项目旨在改进和增强开源字体“汇文明朝体”。该项目通过对原字体进行微调和优化，提升其在屏幕显示和印刷方面的表现力。主要改进包括字形的微调、笔画的优化以及字重的调整，以提高字体的可读性和美观性。项目采用开源许可，鼓励用户自由使用、修改和分享。修正后的字体更适合用于书籍、杂志、网页等多种排版场景。其工作原理是对原始字体文件进行修改，并重新生成新的字体文件。项目目标是打造一款更加完善和实用的开源明朝体字体。 欢迎大家贡献代码和提出建议，共同完善汇文明朝体。
 
 ## 游戏
 
-* [hydralauncher/hydra](https://github.com/hydralauncher/hydra) Hydra Launcher 是一个开源游戏平台，旨在成为你唯一需要的游戏启动工具。它致力于提供一个统一的平台来管理和启动各种游戏，简化游戏体验。作为一个开源项目，Hydra Launcher 允许用户自定义和扩展其功能。具体工作原理和项目特色需要查看项目代码和文档，但其核心目标是提供便捷的游戏管理和启动功能。简而言之，Hydra Launcher 试图成为你的游戏中心，让你轻松管理和启动所有游戏。
-
 * [piqnt/planck.js](https://github.com/piqnt/planck.js) Planck.js是一个轻量级的2D JavaScript物理引擎，基于Box2D物理引擎的C++版本移植而来。它旨在提供高性能和稳定性，适用于游戏开发、交互式模拟和其他需要精确物理效果的应用。Planck.js支持刚体、关节、碰撞检测、摩擦力、重力等常见的物理特性。其核心原理是通过数值积分方法模拟物体运动，并使用碰撞检测算法处理物体间的相互作用。Planck.js提供清晰的API，易于使用和集成到现有项目中。它经过了充分的测试，确保在各种浏览器和设备上的兼容性。开发者可以使用Planck.js创建逼真的物理效果，提升用户体验。该项目使用MIT许可证，可以免费用于商业和非商业用途。Planck.js的目标是成为JavaScript物理引擎的首选方案。
 
-* [GeyserMC/Geyser](https://github.com/GeyserMC/Geyser) GeyserMC/Geyser是一个桥梁/代理项目，允许Minecraft: 基岩版玩家连接到Minecraft: Java版服务器。它通过模拟Java版的协议，让基岩版客户端可以与Java版服务器通信。Geyser不需要Java版服务器安装任何mod，即可直接工作。它支持多种基岩版客户端，包括手机、平板、主机和Windows 10版。Geyser旨在提供尽可能接近原生Java版体验的基岩版连接。该项目是开源的，并拥有活跃的社区支持。Geyser是连接不同Minecraft版本的流行解决方案，方便玩家跨平台游戏。它不断更新以支持最新的Minecraft版本。Geyser的核心功能是协议转换和数据映射。它简化了跨平台联机的复杂性。
+* [KilledByAPixel/LittleJS](https://github.com/KilledByAPixel/LittleJS) LittleJS是一个微小而快速的HTML5游戏引擎，它拥有丰富的功能且没有任何依赖项。它体积非常小，压缩后小于4KB，但功能强大，包括瓦片地图、粒子效果、声音、输入处理和碰撞检测。LittleJS使用WebGL渲染，并提供简单的API，易于学习和使用。它非常适合快速原型设计和创建小型游戏。该引擎的目标是提供一个轻量级的解决方案，让开发者专注于游戏逻辑而不是引擎的复杂性。LittleJS支持JavaScript和TypeScript，并提供示例代码和文档，帮助开发者快速上手。它还具有自动批处理渲染、调试工具和热重载功能，可以提高开发效率。总之，LittleJS是一个功能齐全、易于使用且体积小的HTML5游戏引擎，非常适合小型项目和快速原型设计。
+
+* [minecraft-dev/MinecraftDev](https://github.com/minecraft-dev/MinecraftDev) MinecraftDev 是一个 IntelliJ IDEA 插件，专为 Minecraft Modding 项目提供特殊支持。它旨在简化 Minecraft 模组开发流程，通过增强 IDE 的功能来提高开发效率。该插件可能包含代码自动完成、语法高亮、调试工具以及针对 Minecraft API 的特定支持。具体功能可能包括：自动生成模组结构、提供 Minecraft 相关的代码片段、集成 Minecraft 开发工具包（MDK）等。通过使用 MinecraftDev，开发者可以更轻松地创建、测试和调试 Minecraft 模组，从而专注于创造性的游戏内容设计。它可能支持 Forge、Fabric 等流行的模组加载器，并提供相应的配置和构建工具。该插件的目标是为 Minecraft 模组开发者提供一个强大而便捷的开发环境。
 
 * [smparsons/retroboy](https://github.com/smparsons/retroboy) Retroboy 是一个用 Rust 编写的 Game Boy 模拟器。它旨在提供一个在现代平台上体验经典 Game Boy 游戏的途径。该项目利用 Rust 语言的性能和安全性优势，力求实现高效且准确的模拟。虽然具体实现细节未在此处详述，但可以推断其工作原理涉及解析 Game Boy ROM，模拟其 CPU、GPU 和其他硬件组件，并将游戏画面渲染到屏幕上。Retroboy 致力于提供尽可能接近原始 Game Boy 体验的模拟，让用户能够在他们的计算机上重温经典游戏。由于是用 Rust 编写，它可能受益于 Rust 的内存安全特性，从而减少潜在的崩溃或漏洞。开发者可以通过查看项目代码了解更多关于其内部工作原理的信息。
 
@@ -1057,29 +1013,43 @@
 
 ## 知识管理_wiki知识库
 
+* [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) ChinaTextbook项目是一个收集了中国小学、初中、高中和大学教材PDF文件的资源库。该项目旨在为用户提供方便快捷的教材获取途径。项目特色在于其广泛的教材覆盖范围，包括多个教育阶段。用户可以通过项目提供的链接或索引来查找和下载所需的教材。具体工作原理是维护一个包含教材PDF文件链接或索引的列表。该项目可能依赖于用户贡献来不断完善和更新教材资源。请注意，使用这些教材时请遵守相关版权法规。
+
+* [blacksmithgu/obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview) Obsidian Dataview 是一款为 Obsidian.md 设计的插件，它提供了一个数据索引和查询语言，让你能够基于 Markdown 文件内容进行高效的数据检索和组织。你可以使用 Dataview 查询并汇总笔记中的元数据，例如标签、链接、日期等，从而创建动态的列表、表格和看板。该插件通过解析 Markdown 文件，建立一个内部数据索引，然后使用类似 SQL 的 Dataview 查询语言来检索和呈现数据。Dataview 支持多种数据类型和操作符，可以进行复杂的条件过滤和排序。你可以利用它来管理任务、项目、阅读笔记等，并生成各种自定义视图。Dataview 允许你将 Obsidian 打造成一个强大的个人知识管理系统，而不仅仅是一个笔记应用。它通过 `dataview` 代码块嵌入查询语句，实时呈现结果。项目地址是 blacksmithgu/obsidian-dataview。
+
+* [xwmx/nb](https://github.com/xwmx/nb) nb是一个命令行和本地web界面的纯文本笔记、书签和归档工具，它将所有功能集成到一个可移植的脚本中。nb的核心功能包括笔记链接、标签、过滤、搜索、Git版本控制和同步、Pandoc转换等。它使用纯文本格式存储笔记，方便编辑和管理。nb支持通过命令行进行各种操作，也提供本地web界面方便浏览和搜索笔记。nb利用Git进行版本控制，确保笔记的安全和可追溯性。此外，nb还支持使用Pandoc将笔记转换为其他格式。总之，nb是一个功能强大且易于使用的个人知识管理工具，适合喜欢纯文本和命令行操作的用户。
+
 * [hedgedoc/hedgedoc](https://github.com/hedgedoc/hedgedoc) HedgeDoc是一个基于Markdown的开源实时协作平台，原名CodiMD，脱胎于HackMD 1.0。它允许多人同时编辑同一份文档，支持Markdown语法高亮、数学公式、流程图等，方便团队协作记录和分享想法。HedgeDoc可以自托管，数据完全由用户掌控，并提供多种身份验证方式。其核心是Node.js服务器和数据库（如PostgreSQL或MySQL），通过WebSocket实现实时同步。HedgeDoc支持插件扩展功能，并拥有活跃的社区维护。它旨在提供一个安全、灵活且功能强大的协作式Markdown编辑环境。
+
+* [standardnotes/app](https://github.com/standardnotes/app) Standard Notes是一款端到端加密的笔记和文件应用，旨在让你无所顾虑地思考。它通过端到端加密技术保护你的数据安全，确保只有你能访问你的笔记和文件。如果遇到问题，可以访问官方论坛（https://standardnotes.com/forum）或帮助中心（https://standardnotes.com/help）寻求支持。该项目致力于提供一个安全可靠的笔记解决方案，让用户专注于内容创作，无需担心隐私泄露。Standard Notes的核心特色是其强大的加密功能，保证用户数据的机密性和完整性。它适用于需要高度安全保障的个人和团队，帮助他们安全地记录和分享重要信息。该项目鼓励用户积极参与社区讨论，共同完善Standard Notes的功能和体验。
+
+* [anyproto/anytype-ts](https://github.com/anyproto/anytype-ts) Anytype-ts 是官方的 Anytype 客户端，支持 MacOS、Linux 和 Windows 操作系统。它旨在提供一个安全、私密和去中心化的笔记和知识管理平台。该项目基于 CRDT（冲突自由复制数据类型）技术，允许离线编辑和无缝同步，确保数据一致性。Anytype 强调用户数据的完全控制，采用端到端加密保护隐私。Anytype-ts 旨在构建一个互联的数字世界，用户可以创建和连接各种类型的信息，形成个性化的知识图谱。它使用libp2p进行点对点通信，并支持自定义对象类型和关系。Anytype 致力于成为一个开放、可扩展的平台，鼓励社区贡献和集成。目前项目处于积极开发阶段，欢迎开发者参与贡献。
 
 * [fmhy/edit](https://github.com/fmhy/edit) FMHY/edit 是一个允许用户直接修改 FMHY（互联网上最大的免费内容集合！ ）内容的 GitHub 项目。它通过一个简单的界面，使得用户可以方便地编辑 FMHY 项目的 README.md 文件（或其他指定文件）。该项目可能旨在促进社区协作，让更多人参与到 FMHY 内容的维护和更新中来。用户提交的修改会通过 GitHub 的 pull request 流程进行审核，确保内容的质量和准确性。项目核心功能是提供便捷的编辑入口，降低参与门槛，鼓励用户贡献知识和资源。具体实现方式可能涉及网页表单、在线编辑器等技术。该项目简化了传统 GitHub 编辑流程，让非开发者也能轻松参与内容共建。其目标是保持 FMHY 内容的最新和全面，并依靠社区力量不断改进。
 
 ## 终端
 
-* [docopt/docopt](https://github.com/docopt/docopt) docopt是一个用Python创建美观命令行界面的工具。它基于你写的文档字符串自动生成命令行解析器，无需编写大量重复代码。项目核心思想是命令行接口的描述应该直接定义解析器行为。你只需编写符合docopt语法的文档，描述你的程序应该如何被调用，docopt就能帮你解析参数。它支持各种参数类型，包括选项、参数、命令等。docopt通过分析文档字符串中的模式匹配用户输入的命令行参数，并将其转换为Python对象。它简化了命令行程序的开发流程，提高了代码可读性和可维护性。使用docopt可以快速构建功能强大的命令行工具，避免手动解析参数的繁琐工作。
-
-* [NodeOS/NodeOS](https://github.com/NodeOS/NodeOS) NodeOS是一个轻量级的操作系统，它以Node.js作为用户空间。这意味着你可以使用JavaScript来构建和运行整个操作系统。NodeOS的设计目标是提供一个最小化的核心，然后通过npm来安装和管理其他模块。它使用Linux内核，但将所有用户级别的功能都构建在Node.js之上。NodeOS支持容器化，可以轻松地运行Docker镜像。它非常适合于云计算、嵌入式系统和物联网设备等场景。你可以使用npm安装各种软件包来扩展NodeOS的功能。NodeOS允许开发者使用熟悉的JavaScript语言来构建操作系统级别的应用和服务。它提供了一种新的构建和部署操作系统的方式，更加灵活和高效。NodeOS的核心思想是将JavaScript的强大功能带到操作系统层面，简化开发和部署流程。
-
-* [SuperManito/LinuxMirrors](https://github.com/SuperManito/LinuxMirrors) LinuxMirrors项目提供GNU/Linux系统更换软件源的脚本，方便用户快速切换到更快的镜像源，提升软件安装和更新速度。它也包含Docker安装脚本，简化Docker的部署过程。该项目旨在帮助用户优化Linux系统使用体验，尤其是在网络环境不佳的情况下。项目特色在于自动化更换软件源和Docker安装，降低了操作难度。其工作原理是利用脚本自动修改系统配置文件，指向指定的镜像源服务器。支持多种常见的Linux发行版，例如Ubuntu、Debian、CentOS等。用户只需运行脚本，即可完成软件源的更换或Docker的安装。项目结构清晰，脚本易于理解和修改，方便用户根据自身需求进行定制。适用于希望快速搭建Linux开发环境或优化软件源的用户。
-
 ## 编辑器
+
+* [toeverything/blocksuite](https://github.com/toeverything/blocksuite) BlockSuite是一个用于构建Web编辑器和协作应用的工具包。它提供了一套内容编辑技术栈，旨在简化编辑器开发流程。BlockSuite的核心在于其基于块（Block）的内容组织方式，允许开发者以模块化的方式构建富文本编辑器。该项目强调高性能和可扩展性，采用了现代Web技术栈。BlockSuite支持实时协作，允许多个用户同时编辑同一文档。它提供了一系列预构建的块类型和组件，开发者可以自定义块类型以满足特定需求。BlockSuite的目标是成为Web内容编辑领域的强大而灵活的解决方案。它适用于各种需要富文本编辑功能的Web应用，例如文档编辑器、笔记应用和协作平台。BlockSuite正在积极开发中，欢迎开发者参与贡献和使用。
+
+* [nuttyartist/notes](https://github.com/nuttyartist/notes) NuttyArtist/notes 是一个使用 C++ 编写的快速且美观的笔记应用程序。它旨在帮助你记录你的想法。虽然README文件内容非常简短，无法提供更多细节，但我们可以推断它可能具有以下特点：C++ 保证了程序运行效率，使其快速响应；&quot;beautiful&quot; 暗示其用户界面设计良好，易于使用；主要功能是笔记记录，方便用户随时记录和整理想法。由于信息有限，无法得知其具体工作原理和特色功能，但可以确定它是一个轻量级的、注重效率和美观的笔记工具。
+
+* [company-mode/company-mode](https://github.com/company-mode/company-mode) Company-mode 是 Emacs 的模块化缓冲区内补全框架。它使用后端提供候选词，在光标附近弹出窗口显示补全建议，支持各种编程语言和文本模式。Company-mode 的主要特点包括模块化设计、灵活的后端选择、以及强大的定制能力。它通过 `company-backends` 变量配置后端，并提供多种内置后端，如 `company-dabbrev`、`company-files` 等。用户可以自定义后端以支持特定的语言或文件类型。该框架还支持各种补全源，例如从当前缓冲区、打开的文件、以及外部程序中获取补全建议。Company-mode 旨在提供快速、流畅和可扩展的补全体验，帮助 Emacs 用户更高效地编写代码和文本。它通过在用户输入时动态匹配候选词，并提供智能提示，从而减少输入错误并提高工作效率。
 
 ## 计算机编程_数据结构与算法
 
 * [cat-milk/Anime-Girls-Holding-Programming-Books](https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books) Anime-Girls-Holding-Programming-Books项目包含动漫风格的女孩手持编程书籍的图片，贡献指南要求图片不能包含成人内容、与加密货币相关的内容，文件名需描述性且格式简单，所有角色必须呈现为女性。
 
-* [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines) ccfddl/ccf-deadlines项目是一个协作追踪中国计算机学会(CCF)推荐会议截止日期的项目。它提供了多种访问方式：网站、Python命令行工具和微信小程序。项目旨在方便研究者及时了解重要会议的投稿截止日期。用户可以通过这些工具快速查找和筛选CCF推荐会议的截止日期信息。如果你觉得这个项目有用，请给它点个赞(star)。该项目通过协作维护，力求提供准确和及时的会议信息。它利用多种技术手段，满足不同用户的使用习惯。无论是习惯使用网页、命令行还是微信，都能方便地获取所需信息。项目持续更新，以确保信息的有效性。
+* [leanprover/lean4](https://github.com/leanprover/lean4) Lean 4 是一个新型的编程语言和定理证明器。它旨在结合交互式定理证明和编程语言的优点，提供一个强大的工具来验证软件和数学理论的正确性。Lean 4 的核心是一个依赖类型理论，允许在类型系统中表达复杂的性质。它支持元编程，允许用户扩展语言的功能。Lean 4 具有高性能，并采用了一种新颖的编译策略。它使用增量编译，可以快速地重新编译修改过的代码。Lean 4 具有强大的编辑器支持，提供自动补全、错误检查和交互式调试等功能。该项目由 Lean 社区维护，并不断发展壮大。Lean 4 的目标是成为一个易于使用、功能强大且性能卓越的定理证明和编程工具。它特别适合形式化验证、数学研究和安全关键型软件开发。
 
 * [cachix/devenv](https://github.com/cachix/devenv) devenv是一个使用Nix构建快速、声明式、可复现和可组合的开发者环境的项目。它允许你通过一个简单的配置文件（devenv.yaml）来定义你的开发环境，包括依赖、工具和配置。devenv利用Nix的包管理能力，确保环境的一致性和可重现性。它支持多种编程语言和工具，并提供了一个简单的命令行界面来管理你的开发环境。devenv环境是隔离的，避免了全局依赖冲突。它还支持缓存，可以显著加快环境的构建速度。devenv可以轻松地与现有的项目集成，并且可以与其他Nix工具一起使用。通过声明式配置，你可以轻松地共享和复制开发环境。总而言之，devenv旨在简化开发环境的设置和管理，提高开发效率。
 
-* [the-akira/Computer-Science-Resources](https://github.com/the-akira/Computer-Science-Resources) 该项目the-akira/Computer-Science-Resources是一个计算机科学资源列表，涵盖了不同的CS领域。它旨在为学习者提供各种有用的学习材料。具体领域包括但不限于编程、算法、数据结构、操作系统、计算机网络等。该项目可能包含书籍、课程、论文、工具和网站等资源链接。用户可以通过浏览README文件来找到感兴趣的CS领域资源。该项目的目标是方便学习者查找和利用计算机科学领域的各种学习资源。该项目可能由社区维护，并接受贡献。
+* [The-Cool-Coders/Project-Ideas-And-Resources](https://github.com/The-Cool-Coders/Project-Ideas-And-Resources) 该项目The-Cool-Coders/Project-Ideas-And-Resources是一个应用创意集合，旨在帮助开发者提升编程技能。它提供了一系列项目想法，涵盖不同难度级别，适合初学者和有经验的开发者。项目特色在于激发创造力，鼓励实践，并提供相关资源。通过构建这些项目，开发者可以学习新的编程语言、框架和技术。项目内容包括各种类型的应用程序，例如Web应用、移动应用、游戏和工具。该项目鼓励开发者积极参与，贡献自己的想法和资源，共同构建一个丰富的学习平台。它是一个开源项目，欢迎开发者提交pull request，分享经验和知识。总之，这是一个学习编程和提升技能的绝佳资源库，提供了大量的实践机会和灵感。
+
+* [liyupi/mianshiya](https://github.com/liyupi/mianshiya) 面试鸭是一个持续维护的企业面试题库网站，旨在帮助求职者拿到满意的offer。它提供了2025年最新的Java、前端、C++、Go、Python、测试、运维、后端、操作系统、计算机网络、Redis、MySQL数据库、算法、Spring、JVM、Java并发、Linux等几千道高频程序员求职必备的八股文面试题。该项目是一个全栈项目，采用React前端、Node后端和云开发技术构建，由程序员鱼皮开发。面试鸭专注于面试刷题，是程序员求职的理想选择。
+
+* [ycm-core/ycmd](https://github.com/ycm-core/ycmd) ycmd是一个代码补全和代码理解服务器。它基于客户端-服务器架构，与编辑器（如Vim和Emacs）协同工作，提供快速、精确的代码补全、诊断和跳转功能。ycmd利用libclang进行C系列语言的处理，并支持多种其他语言，包括Python、JavaScript、TypeScript、Java、Go、C#和Rust，通过不同的补全引擎实现。它支持语义补全，这意味着它理解代码的含义，而不仅仅是基于文本匹配。ycmd通过HTTP与编辑器通信，允许编辑器异步请求补全结果，避免阻塞UI。该项目旨在提供一个高性能、可扩展且易于集成的代码智能解决方案。ycmd的设计目标是提供超越传统基于标签的补全方式，提供更智能和上下文感知的代码辅助功能。它是一个活跃维护的项目，拥有广泛的用户社区和贡献者。
 
 # 因果推断
 
@@ -1119,19 +1089,13 @@
 
 ## 其他_大数据
 
-* [yjs/yjs](https://github.com/yjs/yjs) Yjs 是一个用于构建协作软件的共享数据类型库。它允许多个用户实时同步数据，并提供强大的撤销/重做功能。Yjs 的核心是 Conflict-free Replicated Data Types (CRDTs)，这使得它能够在无需中心服务器的情况下实现数据一致性。它支持多种数据结构，如文本、数组、对象和 XML 文档。Yjs 适用于各种协作应用，包括文本编辑器、白板和表单。它具有离线支持、历史记录和权限控制等特性。Yjs 提供了多种绑定，可与流行的前端框架（如 React、Vue 和 Svelte）集成。它还支持 WebSocket 和其他传输协议。Yjs 的目标是提供高性能、可扩展和易于使用的协作解决方案。它是一个开源项目，拥有活跃的社区支持。Yjs 的架构允许灵活地选择服务器端存储和身份验证机制。
-
-* [deepstreamIO/deepstream.io](https://github.com/deepstreamIO/deepstream.io) Deepstream.io 是一个开源的实时数据服务器，用于构建需要低延迟和高并发的应用程序。它提供了一个可扩展的架构，支持数据同步、消息传递和请求-响应模式。Deepstream.io 的核心是基于消息的，所有交互都通过订阅和发布消息来实现。它使用记录 (Records) 来存储和同步数据，列表 (Lists) 来维护有序的数据集合，以及事件 (Events) 来进行实时消息传递。该服务器支持多种客户端，包括 JavaScript、Node.js、Java、Python 等。Deepstream.io 的特色在于其高性能、灵活性和易于集成，适用于实时协作、游戏、金融交易等场景。它旨在简化实时应用程序的开发，并提供强大的安全性和权限控制机制。Deepstream.io 使用插件架构，允许开发者扩展其功能并集成自定义逻辑。通过提供内置的身份验证、授权和数据验证功能，Deepstream.io 确保数据的安全性和完整性。
-
-* [AutoMQ/automq](https://github.com/AutoMQ/automq) AutoMQ是一个基于S3的无状态Kafka，旨在提供10倍的成本效益。它通过将数据存储在S3上，消除了跨可用区（AZ）的流量成本。AutoMQ能够实现秒级的自动伸缩，提供个位数的毫秒级延迟，并保证多可用区的高可用性。该项目利用S3的低成本和高可靠性，简化了Kafka的运维，使其更具成本效益和可扩展性。AutoMQ的核心优势在于其无状态架构和对S3的深度集成，从而降低了基础设施成本并提高了性能。它适用于需要高吞吐量、低延迟和低成本的消息队列场景。AutoMQ通过将Kafka的存储层卸载到S3，实现了计算和存储的分离，从而简化了集群的管理和扩展。
-
 * [m3db/m3](https://github.com/m3db/m3) M3是一个分布式时序数据库(TSDB)、聚合器和查询引擎。它兼容Prometheus Sidecar和Graphite，并可作为指标平台使用。M3是一个单一代码仓库(monorepo)，包含所有组件。M3旨在提供高可用性、可扩展性和高性能的时序数据存储和查询能力。它支持大规模指标数据的收集、存储和分析。M3的设计允许水平扩展以适应不断增长的数据量。M3的查询引擎能够快速检索和聚合时序数据。M3通过聚合器减少存储压力，提高查询效率。M3与Prometheus和Graphite的兼容性使其易于集成到现有监控系统中。该项目提供了一套完整的解决方案，用于构建强大的指标平台。
+
+* [loro-dev/loro](https://github.com/loro-dev/loro) Loro是一个用于JSON数据协同和版本控制的CRDTs库。它允许用户像使用Git一样操作JSON数据，实现实时协作和历史版本追溯。Loro的核心是基于CRDTs（Conflict-free Replicated Data Types）的数据结构，确保在不同客户端修改数据时不会产生冲突。Loro支持多种数据类型，包括文本、数组、对象等，并提供了丰富的API方便开发者集成。其特点包括高性能、低延迟、离线可用、以及强大的冲突解决能力。Loro特别适合构建需要多人实时协作的应用程序，例如在线文档编辑器、协同设计工具等。Loro的设计目标是提供简单易用的API，同时保证数据的一致性和可靠性。它使用Rust编写，并提供了多种语言的绑定，方便不同平台的开发者使用。Loro致力于成为下一代协同数据解决方案。
 
 * [jitsucom/jitsu](https://github.com/jitsucom/jitsu) Jitsu是一个开源的Segment替代方案，为现代数据团队提供完全可脚本化的数据摄取引擎。它旨在帮助用户在几分钟内（而不是几天）建立实时数据管道。Jitsu的核心是一个数据摄取引擎，允许用户自定义数据处理逻辑。作为一个Segment的替代品，Jitsu提供了类似的功能，但更注重灵活性和控制力。通过使用Jitsu，数据团队可以更好地管理和转换他们的数据流，以满足特定的业务需求。它是一个强大的工具，可以简化数据集成过程，并为数据分析和决策提供可靠的数据基础。总而言之，Jitsu是一个快速、灵活且开源的数据管道解决方案。
 
 * [koxudaxi/datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator) datamodel-code-generator 是一个代码生成器，用于从 JSON、OpenAPI、JSON Schema 和 YAML 数据源轻松生成 Pydantic 模型和 dataclasses.dataclass。它简化了数据模型的创建过程，避免了手动编写重复代码。该工具通过解析数据源的结构，自动生成对应的 Python 类定义，包括字段类型、验证规则等。这极大地提高了开发效率，并确保数据模型与数据源保持同步。项目支持自定义模板和插件，可以灵活地调整代码生成过程以满足不同的需求。它旨在帮助开发者快速构建可靠且易于维护的数据模型，从而提升整体项目的质量和效率。
-
-* [apache/parquet-java](https://github.com/apache/parquet-java) Apache Parquet Java 是 Apache Parquet 列式存储格式的 Java 实现，旨在提供高效的数据存储和检索。它支持多种数据编码和压缩方式，例如 Snappy、GZIP 和 LZO，以优化存储空间和 I/O 性能。该项目提供读写 Parquet 文件的 API，并与 Hadoop 生态系统集成良好，可用于 Spark、Hive 和其他大数据处理框架。Parquet 的列式存储方式允许只读取需要的列，从而加速查询速度，尤其适用于分析型工作负载。该项目通过 schema evolution 支持数据模型的演变，可以灵活地处理不断变化的数据结构。它还提供高性能的编码解码器，以确保快速的数据处理。Apache Parquet Java 致力于提供稳定、可靠且高性能的 Parquet 文件处理能力，是大数据领域中重要的组件。
 
 * [obi1kenobi/trustfall](https://github.com/obi1kenobi/trustfall) Trustfall是一个查询引擎，旨在统一查询各种数据源，包括文件和API，就像它们是数据库一样。它允许用户使用类似数据库查询的方式来访问和整合不同来源的数据。Trustfall的核心优势在于其灵活性和通用性，能够处理多种数据格式和协议。项目的主要目标是简化数据集成和查询过程，避免为每个数据源编写特定的代码。Trustfall通过定义schema和编写查询来实现数据访问，用户可以使用其提供的查询语言来指定需要的数据。它支持多种数据源适配器，方便用户扩展其功能以支持新的数据源。Trustfall适用于需要整合多个数据源并进行复杂查询的场景，例如数据分析、报告生成和自动化任务。该项目为开发者提供了一种高效且统一的方式来处理各种数据源，极大地提高了数据处理效率。
 
@@ -1139,23 +1103,17 @@
 
 * [thenaturalist/awesome-business-intelligence](https://github.com/thenaturalist/awesome-business-intelligence) 这是一个精心整理的优秀商业智能(BI)工具列表项目，欢迎提交PR！该项目旨在收集和分类各种BI工具，方便用户查找和比较。它可能包含数据可视化、报表生成、数据分析、ETL等方面的工具。具体工具类型和功能需查看项目中的详细列表。通过该项目，用户可以快速了解BI领域的常用工具及其特点，从而选择最适合自身需求的解决方案。贡献者可以通过PR提交新的BI工具或更新现有工具的信息，共同维护这份资源列表的准确性和完整性。该项目是一个社区驱动的资源，旨在帮助更多人了解和使用BI工具。
 
-* [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) Apache DataFusion Ballista是一个分布式查询引擎，基于Apache Arrow和Rust构建，旨在提供高性能和可扩展性。它利用DataFusion作为其单节点查询引擎，并将其扩展到分布式环境中。Ballista采用了一种基于Actor模型的架构，使用Kubernetes进行资源管理和任务调度。其主要特色包括：支持SQL和DataFrame API，利用Arrow进行高效的数据传输和处理，支持多种存储格式（如Parquet、CSV、JSON），以及提供可扩展的架构以适应不同的工作负载。Ballista通过将查询分解为多个任务，并在集群中的多个节点上并行执行这些任务来提高查询性能。它还支持查询优化和数据分区，以进一步提高效率。该项目目标是为大规模数据分析提供一个强大且灵活的平台。
-
-* [apache/incubator-gluten](https://github.com/apache/incubator-gluten) Gluten是一个中间层项目，旨在将基于JVM的SQL引擎的执行卸载到原生引擎。它通过优化数据格式和执行计划，让Spark、Flink等SQL引擎能够利用像ClickHouse、Velox等高性能原生引擎进行计算，从而显著提升性能。Gluten支持多种原生引擎，并提供了一个灵活的插件机制，方便集成新的引擎。该项目通过减少JVM的开销和利用原生代码的效率，实现了更快的查询速度和更低的资源消耗。Gluten的目标是成为一个通用的加速层，让各种SQL引擎都能轻松地利用原生引擎的优势。它通过提供统一的接口和抽象，简化了集成过程，降低了开发和维护成本。Gluten项目由Apache孵化器托管，致力于构建一个开放、可扩展的生态系统，欢迎社区贡献和合作。
-
 ## 向量数据库_向量搜索_最近邻搜索
+
+* [Olow304/memvid](https://github.com/Olow304/memvid) MemVid是一个基于视频的AI记忆库，可以将数百万文本块存储在MP4文件中，无需数据库。它利用视频作为存储介质，实现闪电般的语义搜索，无需依赖传统数据库系统。该项目的核心特色在于其创新的存储方式，将文本数据编码到视频中，并通过AI技术进行快速检索。这种方法简化了数据管理，降低了存储成本，并提高了搜索效率。MemVid适用于需要存储和检索大量文本数据的场景，例如知识库、文档管理系统等。项目目标是提供一种轻量级、高效且易于部署的AI记忆解决方案。
 
 ## 数据库管理系统
 
-* [Vonng/pigsty](https://github.com/Vonng/pigsty) Pigsty 是一个开源的 PostgreSQL 发行版，旨在提供一个免费的 RDS（关系型数据库服务）替代方案。它基于 Docker 和 Terraform 构建，可以轻松地在本地、云端或裸机上部署和管理 PostgreSQL 集群。Pigsty 具有高可用性、可扩展性和易用性等特点，通过提供预配置的监控、备份和恢复等功能，简化了 PostgreSQL 的运维工作。它支持多种部署模式，包括单实例、主备复制和分布式集群。Pigsty 使用 Grafana 和 Prometheus 进行监控，提供详细的性能指标和告警。它还集成了 pgBackRest 进行备份和恢复，确保数据的安全性。Pigsty 的目标是让 PostgreSQL 的使用更加简单和高效，降低运维成本，适用于各种规模的应用场景。项目特色包括自动化部署、监控告警、备份恢复和高可用性。工作原理是利用 Docker 容器化 PostgreSQL 服务，Terraform 自动化基础设施配置，并集成一系列开源工具提供完善的运维功能。
+* [go-jet/jet](https://github.com/go-jet/jet) go-jet/jet 是一个类型安全的 SQL 构建器，它通过代码生成和自动查询结果数据映射简化了数据库操作。它支持 PostgreSQL, MySQL, MariaDB, SQLite 和 MSSQL 等多种数据库。Jet 的核心在于其代码生成器，它可以根据数据库 schema 生成 Go 代码，从而实现类型安全，避免运行时错误。生成的代码包含表结构、字段定义以及预定义的 SQL 函数，方便开发者编写查询。Jet 允许开发者以类型安全的方式构建复杂的 SQL 查询，并自动将查询结果映射到 Go 结构体中，减少了手动数据转换的工作量。它提供了一套流畅的 API，可以轻松地进行 CRUD 操作、连接查询、子查询等。Jet 的目标是提高开发效率，减少 SQL 相关的 bug，并提供更好的代码可维护性。它尤其适合需要处理复杂 SQL 查询和数据映射的 Go 项目。Jet 还支持自定义 SQL 函数和类型，可以扩展其功能以满足特定需求。
 
 ## 数据搜索引擎
 
 * [manticoresoftware/manticoresearch](https://github.com/manticoresoftware/manticoresearch) 易于使用的开源快速数据库，用于搜索 |现在是 Elasticsearch 的好替代品 |即将在 ELK 中直接替代 E。它非常快，因此比替代品更具成本效益，例如 Manticore 是：对于小数据，速度比 MySQL 快 182 倍；比 Elasticsearch 快 29 倍的日志分析；对于小型数据集，速度比 Elasticsearch 快 15 倍；中型数据比 Elasticsearch 快 5 倍；比 Elasticsearch 大数据快 4 倍；在单个服务器上提取数据的最大吞吐量比 Elasticsearch 快 2 倍。凭借其现代多线程架构和高效的查询并行化功能，Manticore 能够充分利用您的所有 CPU 内核，以实现尽可能快的响应时间。强大而快速的全文搜索可与小型和大型数据集无缝协作。小型、中型和大型数据集的逐行存储。对于更大的数据集，Manticore 通过 Manticore 列式库提供列式存储支持，能够处理太大而无法放入 RAM 的数据集。系统会自动创建高性能二级索引，从而节省您的时间和精力。基于成本的查询优化器可优化搜索查询以获得最佳性能。Manticore 是 SQL 优先的，利用 SQL 作为其本机语法，并提供与 MySQL 协议的兼容性，允许您使用您喜欢的 MySQL 客户端。借助 PHP、Python、JavaScript、Typescript、Java、Elixir 和 Go 中的客户端，与 Manticore Search 的集成变得容易。Manticore 还提供了一个编程化的 HTTP JSON 协议，用于更通用的数据和模式管理。Manticore Search 内置于 C++ 中，可快速启动并使用最少的 RAM，低级优化有助于其令人印象深刻的性能。通过实时插入，可以立即访问新添加的文档。互动课程可通过互动课程获得，让学习变得轻而易举。Manticore 还拥有内置的复制和负载平衡功能，可提高可靠性。可以轻松地从 MySQL、PostgreSQL、ODBC、xml 和 csv 等来源同步数据。虽然不完全符合 ACID，但 Manticore 仍然支持事务和二进制日志以确保安全写入。使用内置工具和 SQL 命令轻松备份和恢复数据。
-
-* [elasticsearch-dump/elasticsearch-dump](https://github.com/elasticsearch-dump/elasticsearch-dump) elasticsearch-dump是一个用于Elasticsearch和OpenSearch的数据导入导出工具。它允许你将数据从一个Elasticsearch/OpenSearch集群导出到文件，或者将文件中的数据导入到集群中。该工具支持多种数据格式，包括JSON和CSV。其工作原理是通过滚动查询（scroll queries）高效地读取数据，并支持大规模数据集的处理。你可以使用它来备份和恢复数据，迁移数据到新的集群，或者在不同的环境中同步数据。elasticsearch-dump是一个命令行工具，易于使用，并提供了丰富的选项来定制导入导出过程，例如指定索引、查询条件和批量大小。它支持HTTP基本认证和SSL/TLS加密连接，确保数据传输的安全性。该项目由任务驱动，旨在提供可靠且灵活的数据管理解决方案。
-
-* [ankane/searchkick](https://github.com/ankane/searchkick) Searchkick 是一个让搜索变得简单的 Ruby 库，它基于 Elasticsearch 提供智能搜索功能。Searchkick 可以自动管理 Elasticsearch 索引，并提供简单的 API 来创建、更新和搜索数据。它支持模糊搜索、自动补全、地理搜索和建议，能够处理拼写错误并提供相关结果。Searchkick 旨在简化集成 Elasticsearch 的过程，让开发者能够快速构建强大的搜索功能。它通过监听 ActiveRecord 模型的变化来自动更新索引，并提供自定义索引和搜索配置的选项。Searchkick 还支持 Rails，并提供用于在 Rails 应用中轻松集成搜索功能的助手方法。项目作者是 ankane，目标是让任何 Ruby 开发者都能轻松使用 Elasticsearch 的强大功能。
 
 * [elastic/go-elasticsearch](https://github.com/elastic/go-elasticsearch) go-elasticsearch 是 Elasticsearch 官方提供的 Go 语言客户端。它提供了一系列 API，方便 Go 开发者与 Elasticsearch 集群进行交互，包括索引、搜索、更新和删除文档等操作。该客户端的设计目标是高性能、易用性和可扩展性，支持 Elasticsearch 的所有功能，并提供丰富的配置选项。它使用 Elasticsearch 的 REST API 进行通信，通过 HTTP 请求发送和接收 JSON 数据。该客户端支持连接到单个 Elasticsearch 节点或集群，并具有自动节点发现和故障转移功能。它还提供了一些高级功能，如批量操作、滚动搜索和聚合查询。开发者可以通过简单的 Go 代码，轻松地将 Elasticsearch 集成到他们的应用程序中，实现强大的搜索和分析功能。go-elasticsearch 遵循 Elasticsearch 的版本更新，并提供详细的文档和示例，帮助开发者快速上手。它是一个稳定可靠的 Elasticsearch Go 语言客户端，适用于各种规模的项目。
 
@@ -1167,75 +1125,39 @@
 
 * [dzharii/awesome-elasticsearch](https://github.com/dzharii/awesome-elasticsearch) dzharii/awesome-elasticsearch 是一个精心整理的 Elasticsearch 相关资源列表，汇集了文章、视频、博客、技巧和使用案例等。该项目旨在提供全面且有用的 Elasticsearch 学习资料，涵盖了 Elasticsearch 的各个方面。你可以通过该项目找到关于 Elasticsearch 的最佳实践、性能优化、以及各种实际应用场景。无论你是 Elasticsearch 初学者还是专家，都能从中受益。该资源列表持续更新，确保内容的时效性和实用性。它就像一个 Elasticsearch 百宝箱，帮助你快速掌握并精通 Elasticsearch 技术。如果你想深入了解 Elasticsearch，这个项目绝对不容错过。
 
+* [apache/lucenenet](https://github.com/apache/lucenenet) Apache Lucene.NET 是一个强大的开源信息检索库，是 Java Lucene 的 .NET 移植版本。它提供全文检索和索引功能，支持精确搜索和模糊搜索，适用于各种规模的应用程序。Lucene.NET 基于倒排索引工作，能够快速高效地检索大量文本数据。该项目具有高度的可配置性和可扩展性，允许开发者自定义分析器、评分机制等。Lucene.NET 支持多种数据源，包括文件系统、数据库和网络资源。它提供了丰富的查询语言和 API，方便开发者构建复杂的搜索应用程序。Lucene.NET 是一个成熟稳定的项目，拥有活跃的社区支持，并定期发布更新和修复。它适用于需要高性能、灵活和可定制搜索解决方案的各种应用场景。Lucene.NET 通过 NuGet 包管理器分发，方便集成到 .NET 项目中。
+
 * [elastic/beats](https://github.com/elastic/beats) 用 Go 编写的轻量级数据传送器，您可以将其安装在服务器上以捕获各种操作数据（例如日志、指标或网络数据包数据）。Beats 将运营数据直接或通过 Logstash 发送到 Elasticsearch，以便使用 Kibana 进行可视化。
 
 # 安全与渗透
 
 ## webshell_shellcode
 
-* [secretsquirrel/the-backdoor-factory](https://github.com/secretsquirrel/the-backdoor-factory) 后门工厂(The Backdoor Factory, TBF)是一个用于向PE、ELF和Mach-O二进制文件中注入shellcode的工具。该项目的主要目标是在二进制文件中寻找合适的注入点，并在不破坏原始功能的情况下添加恶意代码。TBF通过分析二进制文件的结构，寻找可利用的空间，例如代码间隙或可覆盖的区域，然后将shellcode插入其中。新版本正在开发中，仅对赞助者开放。它支持多种操作系统和架构下的二进制文件，允许安全研究人员和渗透测试人员评估软件的安全性，或进行红队演练。TBF可以自动化后门植入过程，大大简化了手动修改二进制文件的复杂性。该工具能够处理各种类型的shellcode，并提供自定义选项以适应不同的场景。使用TBF需要谨慎，因为它可能被用于恶意目的。请负责任地使用此工具，并遵守所有适用法律和法规。
-
-* [hasherezade/pe_to_shellcode](https://github.com/hasherezade/pe_to_shellcode) pe_to_shellcode是一个将PE文件转换为shellcode的工具，由hasherezade开发。它允许开发者将完整的Windows可执行文件（PE）转换为可以在内存中直接执行的shellcode，无需依赖磁盘文件。该项目的主要特色在于能够处理复杂的PE结构，并将其转化为紧凑且可执行的shellcode。其工作原理涉及对PE文件结构的解析，重定位代码和数据，以及生成相应的shellcode指令。该工具对于渗透测试、漏洞利用和恶意软件分析等安全领域具有实用价值。它支持自定义配置，允许用户调整shellcode的生成方式以适应不同的目标环境。此外，项目提供了详细的文档和示例，方便用户理解和使用。该项目使用C++编写，并提供源代码，方便用户进行定制和扩展。它是一个开源项目，允许用户免费使用和修改。
-
-* [pen4uin/java-memshell-generator](https://github.com/pen4uin/java-memshell-generator) `pen4uin/java-memshell-generator` 是一个用于生成 Java 内存马的工具。它允许用户自定义内存马的内容，提供了高度的灵活性。该工具主要用于安全研究、渗透测试等场景，帮助安全人员理解和利用内存马技术。其工作原理涉及动态加载类、修改 Servlet 容器等技术，将恶意代码注入到正在运行的 Java 应用中。项目提供详细的文档和示例，方便用户快速上手和定制自己的内存马。该项目使用简单，功能强大，是研究 Java 内存马不可多得的工具。
-
 ## 其他_安全与渗透
 
-* [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) 该项目是Farhanashrafdev/90DaysOfCyberSecurity，提供一个为期90天的网络安全学习计划，包含学习资源和材料。学习计划按天划分任务，覆盖网络安全相关的多个主题，如Network+、Security+、Linux、Python、流量分析、Git、ELK、AWS、Azure和黑客技术。项目特色在于每日任务式的学习安排，便于系统性地掌握网络安全知识。用户可以通过该项目学习网络基础、安全概念、操作系统、编程语言、安全工具和云服务等，最终提升网络安全技能。项目包含LEARN.md文件，可能包含更详细的学习指导。
-
-* [bunkerity/bunkerweb](https://github.com/bunkerity/bunkerweb) BunkerWeb是一个开源的下一代Web应用防火墙（WAF）。它旨在保护Web应用程序免受各种攻击，提供强大的安全防护。BunkerWeb的核心特色在于其易用性和灵活性，允许用户轻松配置和管理安全策略。它通过分析HTTP流量，检测并阻止恶意请求，从而保护Web服务器。该项目提供多种部署方式，可以与现有的Web服务器集成。BunkerWeb支持自定义规则和策略，以满足不同的安全需求。它还提供实时监控和日志记录功能，帮助用户及时发现和应对安全威胁。BunkerWeb的目标是成为一个强大且易于使用的Web安全解决方案，为Web应用程序提供可靠的保护。该项目鼓励社区参与，共同完善其功能和性能。
-
-* [michenriksen/gitrob](https://github.com/michenriksen/gitrob) Gitrob是一个针对GitHub组织的侦察工具，旨在发现潜在的敏感信息泄露。它通过克隆GitHub组织下的所有公共仓库，并扫描仓库中的文件内容，寻找与预定义模式（如API密钥、密码、私钥等）匹配的字符串。Gitrob使用可配置的指纹库来识别敏感信息，允许用户根据自身需求进行定制。该工具能够生成报告，详细列出发现的潜在敏感信息及其所在的文件和仓库，帮助安全团队快速定位和修复问题。Gitrob支持多种文件类型，并可以处理大型代码库。通过自动化扫描过程，Gitrob可以有效地降低人工审查的工作量，并提高发现敏感信息的效率。它是一个强大的安全工具，可以帮助组织保护其在GitHub上的敏感数据。
-
-* [yeahhub/Hacking-Security-Ebooks](https://github.com/yeahhub/Hacking-Security-Ebooks) 该项目yeahhub/Hacking-Security-Ebooks 收集了排名前100的黑客与安全电子书，提供免费下载。它是一个资源集合，方便安全研究人员和爱好者获取学习资料。项目主要特色在于精选了高质量的黑客和安全领域书籍，涵盖渗透测试、网络安全、漏洞分析等多个方面。用户可以直接从项目链接下载这些电子书，无需付费。该项目旨在为学习者提供丰富的学习资源，提升安全技能。这些电子书涵盖了广泛的安全主题，适合不同水平的学习者。项目维护者会定期更新资源，确保内容的时效性。这是一个非常有价值的安全学习资源库。
-
 * [decalage2/awesome-security-hardening](https://github.com/decalage2/awesome-security-hardening) 这是一个名为decalage2/awesome-security-hardening的GitHub项目，它汇集了大量关于安全加固的优秀指南、工具和其他资源。该项目旨在帮助用户提升系统的安全性，通过提供各种加固方法和实用工具，降低系统遭受攻击的风险。内容涵盖了操作系统、网络服务、应用程序等多个方面，方便用户快速找到所需的加固方案。项目特色在于其全面的资源收集，涵盖了各种安全加固的最佳实践，能够帮助安全从业者和系统管理员更好地保护他们的系统。用户可以根据自身需求，参考项目中的指南和工具，逐步实施安全加固措施，从而提高整体的安全防御能力。该项目持续更新，保持与最新的安全威胁和加固技术同步，是一个非常有价值的安全资源库。
-
-* [OlivierLaflamme/Cheatsheet-God](https://github.com/OlivierLaflamme/Cheatsheet-God) 这是一个渗透测试参考资料库，主要面向 OSCP、PTP 和 PTX 等认证考试。项目作者是 OlivierLaflamme，目标是提供一个渗透测试的速查表。它涵盖了各种渗透测试技术和工具，比如信息收集、漏洞扫描、漏洞利用等。该项目通过整理和归纳常用的命令、技巧和资源，帮助渗透测试人员快速查找和应用所需的信息。这个Cheatsheet旨在成为渗透测试人员的实用工具，方便他们在实际测试中快速参考。它可能包含各种操作系统和应用的渗透测试方法，以及绕过安全防御的技巧。该项目可能也会不断更新，以包含最新的渗透测试技术和漏洞信息。总而言之，这是一个渗透测试人员必备的参考资料库，可以帮助他们提高效率和成功率。
-
-* [clong/DetectionLab](https://github.com/clong/DetectionLab) DetectionLab是一个自动化安全实验室创建工具，旨在帮助安全研究人员和红队队员快速搭建包含各种安全工具和最佳日志实践的实验环境。它基于Vagrant和Packer构建，支持在本地或云端部署，例如VMware、VirtualBox和AWS。该项目提供了一键部署脚本，可以快速配置包含Windows和Linux操作系统的域环境，并预装了Sysmon、Winlogbeat、Elasticsearch、Splunk等安全工具。DetectionLab强调日志集中化和分析，方便用户学习和实践安全检测、事件响应和威胁狩猎技术。通过该项目，用户可以模拟真实的网络攻击场景，测试和优化安全策略，提升安全技能。它还提供详细的文档和示例，方便用户自定义和扩展实验环境。DetectionLab的目标是降低安全实验的门槛，让更多人能够参与到安全研究和实践中来。
 
 * [Ullaakut/cameradar](https://github.com/Ullaakut/cameradar) Cameradar是一个渗透RTSP视频监控摄像头的工具。它通过暴力破解弱口令，获取摄像头的RTSP流。该项目使用Python编写，旨在帮助安全研究人员和渗透测试人员评估摄像头的安全性。Cameradar的工作原理是扫描指定IP范围内的摄像头，然后尝试使用常见的用户名和密码组合进行登录。如果登录成功，它就可以访问摄像头的视频流。该工具支持多种RTSP摄像头品牌和型号，并且可以自定义用户名和密码字典。Cameradar还提供了一些高级功能，例如多线程扫描、代理支持和日志记录。请负责任地使用此工具，仅用于授权的安全测试。该项目仍在积极开发中，并不断添加新的功能和改进。
 
 * [TracecatHQ/tracecat](https://github.com/TracecatHQ/tracecat) Tracecat是一个开源的Tines/Splunk SOAR替代方案，专为安全和IT工程师设计。它基于简单的YAML模板构建，实现集成和响应即代码（response-as-code）。Tracecat旨在提供灵活、可定制的自动化安全响应能力。用户可以通过编写YAML模板定义工作流程，集成各种安全工具和服务。该项目强调易用性和可扩展性，允许用户根据自身需求定制自动化流程。Tracecat可以帮助安全团队自动化威胁检测、事件响应和漏洞管理等任务。它提供了一个平台，用于编排安全工具，简化安全运营流程，并提高响应效率。Tracecat的目标是降低安全自动化的门槛，使更多组织能够利用自动化技术提升安全水平。它提供了一个强大的框架，用于构建和管理复杂的安全自动化工作流程。
 
-* [ckjbug/Hacking](https://github.com/ckjbug/Hacking) 该项目名为Hacking，由ckjbug创建，主要目标是整理和开发网络安全、黑客技术文档、工具以及相关代码。项目内容涵盖广泛的网络安全知识，旨在为安全研究人员和爱好者提供一个学习和实践的平台。具体来说，项目可能包含漏洞利用、渗透测试、安全工具开发等方面的资源。通过收集和整理这些信息，项目力求构建一个全面的黑客技术知识库。用户可以利用该项目学习网络安全攻防技术，并可能找到实用的安全工具和代码示例。总而言之，Hacking项目是一个专注于网络安全和黑客技术的资源集合，为相关领域的学习和研究提供便利。
-
 ## 加密_密码破解_字典
-
-* [smallstep/certificates](https://github.com/smallstep/certificates) smallstep/certificates 是一个私有证书颁发机构（CA），同时支持 X.509 和 SSH 证书，并提供 ACME 服务器功能，旨在实现安全且自动化的证书管理。该项目使您能够在任何地方使用 TLS 加密，并为 SSH 提供单点登录（SSO）支持。它简化了证书的创建、更新和撤销流程，降低了安全配置的复杂性。通过自动化证书管理，该项目帮助用户轻松地在基础设施中部署和维护安全连接。它适用于各种规模的组织，并支持多种部署场景。该项目提供了一个易于使用的界面和强大的 API，方便集成到现有的系统中。smallstep/certificates 致力于让安全证书管理变得简单易用，从而提升整体安全性。
 
 ## 安卓Android
 
-* [thewhiteh4t/seeker](https://github.com/thewhiteh4t/seeker) Seeker是一个利用社会工程学技术精确定位智能手机的工具。它允许你通过创建伪造的登录页面来获取用户的地理位置，这些页面看起来与流行的网站（如Facebook、Google、Instagram等）非常相似。Seeker在服务器上托管这些伪造页面，并通过多种方式将链接发送给目标用户。当用户点击链接并允许位置共享时，Seeker会收集他们的经纬度、设备信息、操作系统等数据。该工具利用HTML、JavaScript和PHP等技术，并支持多种定位技术，包括GPS、Wi-Fi和蜂窝网络。Seeker主要用于渗透测试和安全研究，但使用时务必遵守法律法规，未经授权不得用于非法目的。它易于使用，只需几步即可设置和运行，并提供详细的日志记录和报告功能。
-
 ## 扫描器_资产收集_子域名
 
-* [megadose/holehe](https://github.com/megadose/holehe) holehe是一个GitHub项目，用于检查特定电子邮件地址是否在不同的网站上注册过，例如Twitter和Instagram。它通过模拟忘记密码功能来工作，尝试在目标网站上重置密码，并根据结果判断该邮箱是否被使用。该工具能够检索在忘记密码页面上泄露信息的网站的相关信息。简单来说，holehe可以帮助你了解你的邮箱是否被某些网站使用，并可能发现一些网站泄露的邮箱信息。该项目的主要特色是能够自动化地在多个网站上进行邮箱注册情况的检查，并提取相关信息。
+* [EdOverflow/can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz) “Can I take over XYZ?”是一个关于子域名接管风险的项目，它列出了存在悬空DNS记录的服务以及如何利用这些记录来接管相应的（子）域名。该项目旨在帮助安全研究人员和域名所有者识别和修复潜在的子域名劫持漏洞。其核心在于识别指向不存在或已失效服务的DNS记录，攻击者可以利用这些记录创建自己的服务并接管域名。项目内容包括详细的服务列表，以及接管这些服务的具体步骤和所需工具。通过该项目，用户可以了解不同服务存在的风险，并采取措施保护自己的域名免受攻击。该项目对于提高网络安全意识和防范子域名劫持具有重要价值。它是一个实用的资源，可以帮助用户识别和修复潜在的漏洞，从而提高其域名的安全性。
 
-* [OpenCTI-Platform/opencti](https://github.com/OpenCTI-Platform/opencti) OpenCTI平台是一个开源的网络威胁情报平台，旨在帮助组织管理、结构化、可视化和共享网络威胁情报。它遵循STIX2.1标准，支持MITRE ATT&amp;CK框架，并提供GraphQL API进行数据访问和操作。该平台允许用户创建和关联威胁情报对象，例如攻击者、恶意软件、漏洞等，并构建威胁场景。OpenCTI通过连接到外部数据源（如MISP、VirusTotal等）来丰富情报信息，并提供强大的可视化工具来分析和理解威胁。它支持多种部署方式，包括Docker和Kubernetes，方便用户根据自身需求进行配置。OpenCTI的目标是成为网络安全分析师、威胁情报团队和安全运营中心的中心枢纽，提升组织的网络安全防御能力。核心特色包括：STIX2.1合规、ATT&amp;CK框架支持、GraphQL API、数据可视化、威胁场景构建、外部数据源集成以及灵活的部署选项。
-
-* [guardicore/monkey](https://github.com/guardicore/monkey) Infection Monkey是一个开源的对抗模拟平台，旨在帮助安全团队评估和加固其网络安全防御。它模拟恶意软件在网络中的横向移动，识别薄弱环节和潜在的攻击路径。该工具采用模块化架构，允许用户自定义攻击场景和报告格式。Monkey通过模拟各种攻击技术，例如凭据窃取、漏洞利用和网络扫描，来评估网络的弹性。它提供详细的报告，突出显示易受攻击的系统和需要改进的安全措施。该项目易于部署和使用，为安全团队提供了一种经济高效的方式来测试其防御能力。Monkey支持多种操作系统和云环境，使其成为各种规模组织的理想选择。其核心功能包括自动化攻击模拟、风险评估和安全态势可视化。通过使用Infection Monkey，组织可以主动识别和修复安全漏洞，从而降低遭受网络攻击的风险。该项目由Guardicore维护，并积极接受社区贡献。
-
-* [qwqdanchun/Pillager](https://github.com/qwqdanchun/Pillager) Pillager是一个后渗透阶段的信息收集工具，旨在帮助安全研究人员和渗透测试人员在目标系统上快速收集有价值的信息。它通过执行一系列预定义的模块来自动化信息收集过程，涵盖系统信息、网络配置、用户账户、进程列表、已安装软件等多个方面。Pillager的设计目标是轻量级、易于使用和高度可定制，允许用户根据具体需求添加或修改模块。该工具可以帮助快速了解目标系统的环境，为后续的攻击或防御策略提供支持。Pillager的优势在于其自动化能力和可扩展性，能够显著提高信息收集效率。
+* [snyk/cli](https://github.com/snyk/cli) Snyk CLI 是一个用于扫描和监控项目安全漏洞的命令行工具。它可以帮助开发者在开发过程中尽早发现并修复安全问题。Snyk CLI 支持多种编程语言和框架，包括 JavaScript、Python、Java、.NET 等。它通过分析项目的依赖关系和代码，识别已知的漏洞和安全风险。Snyk CLI 可以与 CI/CD 系统集成，实现自动化安全扫描。它提供详细的漏洞报告，包括漏洞描述、修复建议和优先级。Snyk CLI 还可以监控项目的依赖关系，及时发现新的漏洞。使用 Snyk CLI 可以有效提高项目的安全性，降低安全风险。它支持多种认证方式，方便用户集成到现有的开发流程中。Snyk CLI 社区活跃，提供丰富的文档和支持。
 
 ## 杀毒免杀_逆向工程
 
-* [lief-project/LIEF](https://github.com/lief-project/LIEF) LIEF是一个用于处理可执行文件格式的库，支持C++、Python和Rust。它旨在提供一个跨平台的API，用于解析、修改和抽象PE、ELF和Mach-O等格式。LIEF允许开发者轻松地分析和修改二进制文件，例如添加/删除节、修改导入表、重定位等。它提供高级抽象，隐藏了底层格式的复杂性，使开发者能够专注于二进制分析和修改任务。LIEF可以用于构建各种工具，例如恶意软件分析、逆向工程、模糊测试和二进制重写。其设计目标是易用性、可扩展性和性能。LIEF通过提供统一的API，简化了对不同可执行文件格式的处理，从而加速了开发过程。该项目还包括Python绑定，方便在Python环境中使用。LIEF的Rust绑定也正在积极开发中。总而言之，LIEF是一个强大的工具，适用于需要处理可执行文件格式的各种应用场景。
-
-* [the-xentropy/xencrypt](https://github.com/the-xentropy/xencrypt) Xencrypt是一个PowerShell脚本，旨在帮助安全研究人员和渗透测试人员绕过反病毒软件的检测。它通过多种技术，如编码、混淆和加密，来修改PowerShell脚本，使其在不改变功能的前提下，难以被反病毒引擎识别为恶意代码。该工具支持多种编码方式，包括Base64、Gzip和AES加密，并可以自定义密钥和盐值，增加混淆程度。Xencrypt的核心原理是改变脚本的静态特征码，使其与已知的恶意软件签名不匹配。它还包含一些高级功能，例如动态代码生成和内存加载，进一步提高绕过能力。该项目易于使用，只需提供要混淆的PowerShell脚本，选择所需的编码和加密选项，即可生成混淆后的版本。Xencrypt旨在用于合法的安全测试和研究目的，不应用于非法活动。
-
-* [Ch0pin/AVIator](https://github.com/Ch0pin/AVIator) AVIator是一个旨在帮助安全研究人员和渗透测试人员绕过反病毒软件检测的项目。它通过多种技术手段，例如代码混淆、加壳、以及利用反病毒软件的弱点，来修改恶意软件的特征码，使其难以被传统基于签名的反病毒引擎识别。该项目提供了一个框架，允许用户自定义混淆和规避策略，并测试其有效性。AVIator的核心原理是改变恶意软件的静态特征，使其与已知的恶意软件签名不匹配。它可能包含多种规避技术，包括但不限于：插入垃圾代码、重新排序代码块、加密部分代码、以及使用多态引擎。该项目旨在帮助安全从业人员更好地理解反病毒软件的工作原理，并开发更有效的规避技术，从而提高渗透测试的成功率。请负责任地使用此工具，并遵守所有适用的法律法规。
-
 ## 漏洞库_漏洞靶场
 
-* [securego/gosec](https://github.com/securego/gosec) Gosec 是一个用于检查 Go 源代码安全问题的静态分析工具。它通过扫描代码，查找潜在的安全漏洞，如SQL注入、XSS、路径遍历等。Gosec 能够分析函数调用、变量赋值和控制流，以识别安全风险。该项目旨在帮助开发者在开发过程中尽早发现并修复安全问题，从而提高 Go 应用的安全性。Gosec 提供了多种配置选项，允许用户自定义扫描规则和忽略特定问题。它支持多种输出格式，方便集成到 CI/CD 流程中。Gosec 使用规则引擎来检测代码中的安全模式，这些规则基于常见的安全漏洞和最佳实践。该工具易于安装和使用，可以帮助 Go 开发者编写更安全的代码。Gosec 的目标是自动化安全审计过程，减少人工审查的工作量。
+* [The-Z-Labs/linux-exploit-suggester](https://github.com/The-Z-Labs/linux-exploit-suggester) Linux Exploit Suggester (LES) 是一款用于 Linux 提权漏洞审计的工具。它通过分析目标 Linux 系统的内核版本、已安装软件及其版本信息，并与漏洞数据库进行比对，来识别潜在的提权漏洞。LES 基于 Python 开发，能够快速扫描并报告可能存在的漏洞利用方式。项目特色在于其全面的漏洞数据库和高效的扫描速度。LES 的工作原理是收集系统信息，然后利用预定义的漏洞模式进行匹配，最终生成一份包含漏洞详情和建议的报告。该工具可以帮助安全研究人员和系统管理员快速发现并修复 Linux 系统中的安全隐患，提升系统安全性。它支持多种输出格式，方便用户进行分析和利用。LES 旨在简化 Linux 提权漏洞的发现过程，即使是安全经验不足的用户也能轻松上手。
 
-* [mandiant/commando-vm](https://github.com/mandiant/commando-vm) Mandiant Commando VM 是一个基于 Windows 的、完全可定制的渗透测试虚拟机发行版。它旨在为渗透测试人员提供一个全面的工具集，以便在 Windows 环境中进行攻击模拟和安全评估。Commando VM 的主要特色是其基于 Windows 的环境，这使得它能够更好地模拟真实世界的攻击场景，并方便地与 Windows 基础设施集成。通过利用 Chocolatey 软件包管理器，Commando VM 能够快速安装和配置大量的渗透测试工具。该项目允许用户根据自己的需求定制虚拟机，添加或删除工具，并调整配置以适应特定的测试场景。Commando VM 旨在简化渗透测试过程，并提供一个一致且可重复的环境。更多信息可以通过 commandovm@mandiant.com 联系。
-
-* [presidentbeef/brakeman](https://github.com/presidentbeef/brakeman) Brakeman 是一个 Ruby on Rails 应用程序的静态分析安全漏洞扫描器。它通过静态分析 Rails 代码，无需运行应用程序，即可检测潜在的安全问题，例如 SQL 注入、跨站脚本攻击 (XSS) 和命令注入等。Brakeman 能够扫描 Rails 模板、模型、控制器和路由，并生成详细的报告，指出漏洞的位置和类型。它支持自定义检查规则，允许用户根据特定需求定制扫描行为。Brakeman 旨在帮助开发者在开发早期发现并修复安全漏洞，从而提高 Rails 应用程序的安全性。该项目易于集成到持续集成 (CI) 流程中，实现自动化安全扫描。Brakeman 是一个开源项目，由社区维护，并提供详细的文档和支持。它使用户能够主动识别和解决 Rails 应用程序中的安全风险。
-
-* [buffer/thug](https://github.com/buffer/thug) Thug是一个用Python编写的低交互蜜罐客户端，用于分析恶意网站。它模拟Web浏览器的行为，与恶意网站进行交互，并记录其行为，从而帮助安全研究人员识别和分析恶意软件和攻击技术。Thug的核心特性包括：动态分析恶意网站、提取恶意代码和配置、生成详细的报告，以及模拟多种浏览器环境。它通过模拟用户交互（如点击链接、提交表单等）来触发恶意行为，并监控网络流量、文件系统更改和进程活动。Thug的设计目标是易于部署和使用，并提供高度的可定制性，允许用户调整其行为以适应不同的分析需求。它使用多种技术来绕过反蜜罐机制，并尽可能地模拟真实用户的行为，从而提高分析的准确性。Thug可以帮助安全研究人员了解恶意网站的工作原理，并开发更有效的防御措施。
+* [infobyte/faraday](https://github.com/infobyte/faraday) Faraday 是一个开源的漏洞管理平台，旨在帮助安全团队更好地组织、分析和管理漏洞信息。它通过聚合来自各种安全工具（如Nmap、Nessus、Burp Suite等）的扫描结果，并将其集中到一个统一的界面中，从而简化漏洞管理流程。Faraday 的核心功能包括漏洞关联、报告生成、协作和实时监控。它允许用户创建工作区来隔离不同的项目，并使用插件来扩展其功能。Faraday 的设计理念是易于使用和高度可定制，支持多种报告格式，并提供 API 以便与其他安全工具集成。该平台通过可视化漏洞数据，帮助安全团队识别风险，优先级排序修复工作，并最终提高整体安全态势。Faraday 采用客户端-服务器架构，客户端负责收集和发送数据，服务器负责存储和处理数据。
 
 # 强化学习_ReinforcementLearning
 
@@ -1277,6 +1199,8 @@
 
 ## 金融股票
 
+* [yansongda/pay](https://github.com/yansongda/pay) yansongda/pay 是一个优雅的 Alipay/WeChat/Douyin/Unipay/江苏银行 支付 SDK 扩展包。它旨在简化支付集成流程，提供更易于使用的 API。该项目可能通过封装底层支付接口，提供统一的调用方式，从而减少开发者在不同支付平台之间的适配工作。它可能包含了常用的支付功能，例如支付、退款、查询等，并提供了详细的文档和示例代码，方便开发者快速上手。该项目专注于提供简洁、易懂、可维护的支付解决方案，提升开发效率。总而言之，它是一个功能丰富、易于使用的支付 SDK 扩展包，支持多种主流支付平台，旨在帮助开发者快速集成支付功能。
+
 * [pipiku915/FinMem-LLM-StockTrading](https://github.com/pipiku915/FinMem-LLM-StockTrading) FinMem是一个性能增强的LLM股票交易代理，它通过分层记忆和角色设计来提升交易表现。该项目旨在构建一个更智能、更有效的股票交易系统，利用大型语言模型（LLM）的能力。FinMem的核心特色在于其分层记忆结构，可能包括短期记忆、长期记忆等，用于存储和检索交易相关信息。角色设计可能赋予LLM不同的交易风格或策略。项目目标是让LLM能够更好地理解市场动态、做出更明智的交易决策，并最终实现更高的投资回报。该项目可能包含数据处理、模型训练、策略优化和回测等环节。通过结合记忆机制和角色扮演，FinMem力求克服传统LLM在股票交易中可能存在的局限性，例如对历史信息的遗忘或缺乏个性化的交易策略。该项目值得关注，因为它探索了LLM在金融领域的应用潜力，并尝试通过创新性的方法来提升交易系统的智能化水平。
 
 # 生物医药
@@ -1309,39 +1233,33 @@
 
 ## CPU_RISC-V
 
-* [below/HelloSilicon](https://github.com/below/HelloSilicon) HelloSilicon项目是关于在Apple Silicon Mac上学习ARM64汇编的入门教程。它旨在帮助开发者理解ARM64架构，并掌握使用汇编语言进行编程的基础知识。项目特色在于其针对Apple Silicon芯片的特定优化和示例，让学习者能够直接在自己的Mac上实践。通过学习该项目，你可以了解ARM64汇编的基本指令、寄存器使用、函数调用约定等。项目可能包含示例代码、练习和详细的解释文档，帮助你逐步掌握ARM64汇编的精髓。它可能还会涉及一些底层原理，例如内存管理和系统调用，让你对操作系统的工作方式有更深入的了解。总而言之，HelloSilicon是一个学习Apple Silicon Mac上ARM64汇编的绝佳资源。
-
 * [cpq/bare-metal-programming-guide](https://github.com/cpq/bare-metal-programming-guide) 本项目是关于ARM微控制器的裸机编程指南，旨在帮助开发者理解和实践在没有操作系统的情况下直接控制硬件。它涵盖了从环境搭建、编译链接到启动代码、中断处理、外设驱动等多个方面。项目特色在于提供清晰的步骤和示例代码，帮助读者从零开始构建嵌入式系统。通过学习本项目，你可以掌握ARM微控制器的底层工作原理，例如内存布局、启动流程、中断向量表等。项目还涉及GPIO、UART、定时器等常见外设的编程，并提供了相应的代码示例。总而言之，这是一个实用的学习资源，适合希望深入了解ARM微控制器和裸机编程的开发者。项目内容包括：开发环境搭建，编译链接过程，启动代码编写，中断处理机制，以及各种外设的驱动程序开发。
 
 * [libopencm3/libopencm3](https://github.com/libopencm3/libopencm3) libopencm3是一个开源的ARM Cortex-M微控制器库，旨在提供一个自由、高效且易于使用的底层硬件访问层。它支持多种Cortex-M系列芯片，包括M0、M3、M4和M7，并提供了一致的API来访问外设，例如GPIO、UART、SPI和I2C。该库采用模块化设计，允许开发者只包含所需的功能，从而减小代码体积。libopencm3基于宽松的ISC许可证，允许在商业和开源项目中使用。它通过直接操作寄存器来实现高性能，避免了复杂的抽象层。该项目提供详尽的文档和示例，方便开发者快速上手。libopencm3的目标是简化嵌入式开发，并促进ARM Cortex-M微控制器的广泛应用。它还支持多种工具链，如GCC和Clang。
 
-* [0xAX/asm](https://github.com/0xAX/asm) 0xAX/asm项目是一个学习Linux x86_64汇编语言的资源集合。它旨在帮助初学者理解汇编语言的基础知识，例如寄存器、内存管理和系统调用。该项目可能包含示例代码、教程和练习，涵盖了汇编语言的语法和指令集。通过学习该项目，用户可以掌握编写和调试汇编代码的基本技能，并深入了解计算机底层的工作原理。项目可能侧重于Linux环境下的x86_64架构，讲解如何利用汇编语言进行系统编程。该项目可能包含使用汇编语言调用C函数以及进行底层优化的示例。总而言之，这是一个面向Linux x86_64平台，帮助学习者掌握汇编语言并理解底层系统运作的实践性学习资源。
-
 ## 硬件_其他
 
-* [greatscottgadgets/hackrf](https://github.com/greatscottgadgets/hackrf) HackRF One是一个低成本的软件无线电平台，旨在实现现代无线电技术的实验和开发。它允许用户通过软件控制无线电信号的发送和接收，频率范围覆盖1 MHz到6 GHz。该项目包括HackRF One硬件、软件和相关文档。HackRF One基于GNU Radio，并支持其他开源无线电软件。它采用半双工收发器，意味着不能同时发送和接收信号。HackRF One非常适合进行无线安全研究、信号分析和无线通信协议的开发。它的开源特性使得用户可以自定义硬件和软件，以满足特定需求。HackRF One的硬件设计和软件代码都是公开的，方便用户学习和修改。该项目还提供了一个活跃的社区，用户可以在社区中交流经验和寻求帮助。HackRF One是一个强大的工具，可以帮助用户深入了解无线电技术，并进行各种创新性的实验。HackRF One支持USB连接，方便与计算机进行数据传输和控制。
-
-* [FastLED/FastLED](https://github.com/FastLED/FastLED) FastLED是一个用于Arduino彩色LED动画的库。它专注于简化在Arduino平台上控制和驱动各种类型的可寻址LED灯条和面板，例如WS2812B、APA102等。该库提供了简单易用的API，方便用户创建各种炫酷的灯光效果。FastLED以高性能著称，通过优化底层代码，实现了流畅的动画效果。遇到问题或需要帮助，请访问FastLED Reddit社区：http://fastled.io/r。Github issues主要用于跟踪库的bug和功能增强。
+* [serialport/node-serialport](https://github.com/serialport/node-serialport) 该项目是`serialport/node-serialport`，它允许你使用JavaScript访问串口，支持Linux、OSX和Windows操作系统。你可以用它来控制机器人或其他硬件设备。简单来说，它提供了一个Node.js模块，让你的JavaScript代码能够与通过串口连接的设备进行通信。你可以通过这个库发送和接收数据，实现各种串口相关的应用。该项目旨在简化串口通信的流程，让开发者更容易地使用JavaScript控制硬件。它提供了一套易于使用的API，方便开发者进行串口配置、数据读写等操作。通过这个项目，你可以构建各种有趣的物联网应用、机器人控制系统等。
 
 * [RogueMaster/flipperzero-firmware-wPlugins](https://github.com/RogueMaster/flipperzero-firmware-wPlugins) RogueMaster Flipper Zero 固件是一个基于官方 Flipper Zero 固件的修改版本，旨在提供增强的功能和特性。它包含各种插件和自定义功能，例如改进的 Sub-GHz 性能、额外的攻击工具和调试功能。该固件通过修改原始代码并添加新的模块来实现这些功能，允许用户扩展 Flipper Zero 的能力，例如更强大的信号分析、更广泛的协议支持和更便捷的漏洞利用。它还集成了社区贡献的代码和插件，使其成为一个功能丰富的选择。用户可以通过编译源代码或使用预构建的二进制文件来安装此固件。请注意，使用第三方固件可能存在风险，用户应自行承担责任。该项目旨在为高级用户和安全研究人员提供更强大的工具，以探索和测试各种安全系统。
+
+* [gnuradio/gnuradio](https://github.com/gnuradio/gnuradio) GNU Radio是一个免费开源的软件无线电生态系统，提供了强大的信号处理模块，用于构建软件无线电系统。它主要使用C++和Python编写，允许用户利用PC或嵌入式设备实现各种无线通信应用。GNU Radio的核心是其信号处理模块库，用户可以通过图形化工具GNU Radio Companion (GRC) 或 Python 代码将这些模块连接起来，构建自定义的无线电流程图。该项目支持各种硬件平台，包括USRP和其他软件无线电设备，可以用于研究、原型设计和实际部署无线通信系统。GNU Radio适用于从简单的AM/FM接收器到复杂的数字通信系统的各种应用，并拥有活跃的社区支持和丰富的文档资源。其灵活性和可扩展性使其成为学术界、工业界和业余无线电爱好者的理想选择。GNU Radio持续发展，不断增加新的模块和功能，以适应不断变化的无线通信技术。它促进了无线通信技术的创新和实验，并为开源软件无线电的发展做出了重要贡献。
 
 * [raphamorim/rio](https://github.com/raphamorim/rio) Rio是一个硬件加速的GPU终端模拟器，旨在桌面和浏览器上运行。它利用GPU进行渲染，从而提供更流畅和高性能的终端体验。Rio的核心目标是提供一个快速、现代且可定制的终端，它通过OpenGL或WebGL等图形API与GPU交互，将终端的渲染任务卸载到GPU上，减轻CPU的负担。项目致力于提供与传统终端相同的功能，同时利用GPU的并行处理能力来提高性能。Rio支持各种终端功能，例如文本渲染、颜色显示、字体支持等。开发者可以通过配置选项来定制Rio的外观和行为，使其适应不同的使用场景和个人偏好。Rio的设计目标是成为一个跨平台的终端模拟器，可以在不同的操作系统和浏览器上运行。总而言之，Rio是一个利用GPU加速的现代终端，旨在提供卓越的性能和用户体验。
 
 * [ProvableHQ/leo](https://github.com/ProvableHQ/leo) Leo是一种用于形式化验证的零知识应用的编程语言，由ProvableHQ开发。它旨在简化零知识电路的编写，并提供高级抽象，使开发者能够更容易地构建安全和私密的应用程序。Leo使用静态类型系统和形式化验证技术，以确保程序的正确性和安全性。其核心在于将高级代码编译成零知识电路，允许在不泄露输入信息的情况下验证计算结果。Leo支持自定义数据类型和控制流，并提供了一个标准库，其中包含常用的密码学原语。该项目目标是降低零知识技术的门槛，并推动其在各种领域的应用，例如隐私保护支付、身份验证和安全计算。Leo的语法设计注重简洁性和可读性，方便开发者学习和使用。它还提供了一套工具链，用于编译、测试和部署零知识应用程序。
 
+* [hneemann/Digital](https://github.com/hneemann/Digital) Digital是一个数字逻辑设计器和电路仿真器，由hneemann开发。它允许用户创建和模拟数字电路，支持多种逻辑门和元件。该项目的主要目标是提供一个易于使用且功能强大的工具，用于学习和实验数字逻辑。Digital通过图形界面进行电路设计，用户可以直观地连接元件并观察电路行为。其仿真功能能够验证设计的正确性，帮助用户理解数字电路的工作原理。项目可能包含预定义的元件库，方便用户快速构建电路。Digital可能支持导出电路图或仿真结果，方便分享和存档。该项目可能使用Java或其他编程语言开发，具有跨平台特性。Digital旨在简化数字电路设计和仿真的过程，适用于学生、教师和工程师。
+
+* [portapack-mayhem/mayhem-firmware](https://github.com/portapack-mayhem/mayhem-firmware) PortaPack Mayhem固件是HackRF和PortaPack H1/H2/H4的定制固件。它旨在扩展HackRF的功能，提供更强大的无线电通信工具。该固件提供频谱分析、信号发生、数据接收和传输等功能，支持多种调制解调方式。Mayhem固件通过图形用户界面（GUI）简化了操作，用户无需深入了解底层协议即可使用。它包含预编译的应用程序，方便用户快速上手。此外，Mayhem固件支持插件扩展，允许开发者添加自定义功能。项目鼓励社区参与，用户可以贡献代码、报告错误和提出建议。该固件基于开源协议发布，用户可以自由修改和分发。Mayhem固件是无线电爱好者和安全研究人员的理想工具，用于探索和实验各种无线电技术。它不断更新，添加新功能和改进性能。
+
 * [adafruit/Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library) Adafruit GFX 库是 Arduino 的图形核心库，是 Adafruit 其他图形库的基础。它提供了一套通用的 API，用于在各种显示设备上绘制图形，例如文本、线条、形状和位图。该库的核心在于提供与设备无关的绘图功能，简化了在不同显示器上进行图形编程的过程。开发者可以通过继承 GFX 类来创建针对特定显示器的驱动程序。它支持多种字体，包括内置字体和自定义字体，方便显示各种文本信息。该库的设计注重效率和易用性，适合资源有限的 Arduino 项目。Adafruit GFX 库是开源的，方便开发者进行定制和扩展。它广泛应用于各种嵌入式图形显示应用中，是 Arduino 图形编程的重要组成部分。该库持续更新和维护，确保兼容性和稳定性。使用 GFX 库，开发者可以快速构建具有图形界面的 Arduino 项目。
 
+* [petercorke/robotics-toolbox-python](https://github.com/petercorke/robotics-toolbox-python) Robotics Toolbox for Python 是一个为教育和研究设计的Python机器人学工具箱，由Peter Corke创建。它提供机器人学的许多常见功能，例如运动学、动力学、轨迹生成、控制和路径规划。该工具箱包含一系列类和函数，用于表示旋转、变换、机器人、传感器和环境。它支持多种机器人类型，包括串行机械臂和移动机器人。该工具箱的核心是使用齐次变换进行位姿表示和操作。它提供用于正向和逆向运动学、雅可比矩阵计算和动力学建模的函数。该工具箱还包括用于轨迹生成和控制的工具，例如PID控制和运动规划算法。此外，它还支持传感器建模和数据处理，例如激光雷达和视觉数据。这个工具箱旨在易于使用和理解，并提供广泛的文档和示例。它是一个强大的工具，可以帮助学生、研究人员和工程师探索和开发机器人应用。该工具箱是开源的，并在MIT许可下发布。
+
+* [Unity-Technologies/Unity-Robotics-Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) Unity-Robotics-Hub是Unity官方的机器人仿真工具、教程、资源和文档的中央仓库。它旨在帮助开发者在Unity中进行机器人仿真。该项目提供了各种机器人相关的Unity包，例如URDF Importer用于导入机器人模型，ROS TCP Connector用于与ROS系统通信。项目包含丰富的教程，指导用户搭建仿真环境，控制机器人，并进行感知任务。此外，还提供了一系列示例场景和预构建的机器人模型，方便用户快速上手。Unity-Robotics-Hub利用Unity引擎的强大物理引擎和渲染能力，实现逼真的机器人仿真效果。通过与ROS等机器人操作系统的集成，可以实现软件在环测试和算法验证。该项目是机器人开发人员学习和使用Unity进行机器人仿真的重要资源。
+
 * [adafruit/Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) Adafruit_SSD1306是用于驱动SSD1306单色OLED屏幕的Arduino库，支持128x64和128x32两种分辨率。该库简化了在Arduino项目中使用这些OLED屏幕的过程，允许用户轻松显示文本、图形和位图。它通过I2C或SPI接口与OLED屏幕通信，提供了丰富的API函数来控制屏幕的显示内容。Adafruit为此OLED驱动提供了方便的库函数，让开发者能快速上手。这个库是Adafruit生态系统的一部分，易于集成到现有的Arduino项目中。它提供了一些示例代码，帮助用户快速了解如何使用该库。该库的目标是提供一个简单易用的接口，以便开发者专注于他们的项目逻辑，而无需深入了解底层硬件细节。该库经过精心设计和测试，确保在各种Arduino平台上都能稳定运行。使用此库，你可以轻松地为你的Arduino项目添加一个清晰的单色OLED显示屏。
-
-* [nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) libnfc是一个平台无关的近场通信(NFC)库，旨在简化NFC设备的访问和使用。它提供了一个抽象层，允许开发者编写可在不同NFC芯片和操作系统上运行的应用程序。libnfc支持多种NFC控制器，如PN532、ACR122等，并提供API用于读写NFC标签、模拟NFC设备等操作。该库通过定义统一的接口，隐藏了底层硬件的复杂性，使开发者能够专注于应用逻辑的实现。libnfc还包含一些实用工具，用于调试和测试NFC功能。它是一个开源项目，鼓励社区贡献和改进。libnfc的目标是成为NFC开发的事实标准，推动NFC技术在各种应用场景中的普及。开发者可以通过libnfc轻松集成NFC功能到他们的项目中，无需深入了解底层硬件细节。该库支持多种编程语言，方便不同背景的开发者使用。libnfc是一个强大而灵活的NFC开发工具，适用于各种NFC应用场景。
-
-* [mcauser/awesome-micropython](https://github.com/mcauser/awesome-micropython) 这是一个精选的MicroPython库、框架、软件和资源的列表，旨在帮助开发者快速找到有用的工具。它涵盖了各种主题，例如传感器驱动、网络通信、GUI库、数据分析和机器学习等。该项目通过收集和整理社区贡献的优秀MicroPython项目，为开发者提供了一个便捷的资源导航。你可以找到用于物联网、嵌入式系统和教育领域的各种MicroPython解决方案。这个列表持续更新，旨在反映MicroPython生态系统的最新发展。它包括库、框架、软件和硬件资源，方便开发者构建各种MicroPython应用。该列表按照主题分类，方便浏览和查找特定领域的资源。它是一个非常有价值的MicroPython学习和开发资源集合。
-
-* [nfcgate/nfcgate](https://github.com/nfcgate/nfcgate) NFCGate是一个Android平台的NFC研究工具包应用。它允许用户拦截、修改和转发NFC通信数据，从而进行安全分析、协议逆向工程和漏洞挖掘。该应用通过hook Android NFC框架实现中间人攻击，可以捕获NFC读卡器和NFC标签之间的所有通信。NFCGate支持多种NFC协议，包括ISO 14443、ISO 15693和NFC Forum类型标签。它提供了一个用户友好的界面，用于配置拦截规则、查看原始数据和修改数据包。此外，NFCGate还支持通过TCP/IP进行远程控制和数据转发，方便与其他安全工具集成。该项目旨在为NFC安全研究人员和爱好者提供一个强大的平台，以探索和理解NFC技术的安全性。核心功能包括：NFC通信拦截与修改、协议分析、远程控制和数据转发。
-
-* [revtel/react-native-nfc-manager](https://github.com/revtel/react-native-nfc-manager) react-native-nfc-manager是一个用于Android和iOS平台的React Native NFC模块。它允许React Native应用与NFC标签和读卡器进行交互。该模块旨在简化NFC功能的集成，提供跨平台的API。它支持多种NFC技术，包括NDEF读写、ISO 15693、ISO 7816等。开发者可以使用它来读取和写入NFC标签，进行P2P数据传输，以及模拟NFC卡。该项目提供了详细的API文档和示例代码，方便开发者快速上手。它依赖于原生平台的NFC API，并通过桥接的方式将其暴露给React Native。核心功能包括NFC适配器管理、会话管理、标签发现和数据交换。该模块还在持续维护和更新，以支持最新的NFC技术和React Native版本。使用此模块可以轻松地在你的React Native应用中添加NFC功能。
-
-* [RfidResearchGroup/ChameleonUltra](https://github.com/RfidResearchGroup/ChameleonUltra) ChameleonUltra是基于NRF52840的下一代Chameleon设备，旨在提供更稳定的卡模拟性能。该项目赋予Chameleon读取、写入和解密卡片的能力，扩展了其功能。它是一个开源硬件项目，专注于RFID安全研究和开发。ChameleonUltra可以模拟多种RFID卡片，用于测试和评估RFID系统的安全性。该项目提供了详细的文档和示例，方便用户使用和定制。它支持多种通信协议，并具有灵活的配置选项。ChameleonUltra是一个强大的工具，适用于安全研究人员、渗透测试人员和RFID爱好者。它旨在促进RFID技术的安全应用和研究。通过ChameleonUltra，用户可以深入了解RFID系统的漏洞并开发相应的防御措施。该项目的开源特性鼓励社区参与和贡献，共同推动RFID安全领域的发展。
 
 * [behavior-robot-suite/brs-algo](https://github.com/behavior-robot-suite/brs-algo) BEHAVIOR-Robot-Suite算法代码库，对应论文&quot;BEHAVIOR Robot Suite: Streamlining Real-World Whole-Body Manipulation for Everyday Household Activities&quot;。该项目提供了一系列算法，旨在简化真实世界中机器人的全身操作，使其能够执行日常家务活动。具体算法细节和实现可能需要查阅项目代码和相关论文。此代码库是BEHAVIOR机器人套件的一部分，专注于算法层面，帮助机器人理解和执行复杂的操作任务。项目目标是提高机器人在复杂环境中的操作能力，使其更易于部署和使用。它可能包含运动规划、感知、控制等方面的算法，以实现流畅、高效的机器人行为。该项目可能提供示例代码和实验结果，帮助研究人员和开发者快速上手。请注意，具体算法细节和使用方法需要参考项目文档和代码。
 
