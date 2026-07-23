@@ -506,6 +506,7 @@
 
 ## 其他_安全与渗透
 
+* [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, orchestrating 80+ offensive tools as an MCP host with proof of exploitation and a local privacy gateway (the LLM never sees real IPs or credentials).
 * [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) 基于自主AI代理的渗透测试系统，它通过人工智能自动化执行复杂的网络安全评估任务，解决了传统渗透测试高度依赖人工经验、效率低下且难以覆盖新型攻击面的核心痛点。      **核心特色**使其在同类工具中脱颖而出：首先，它实现了**全流程自动化**，从目标识别到漏洞利用均可由AI代理独立完成，大幅降低了安全团队的操作负担；其次，其**多代理协同架构**允许不同AI模块分工合作，例如一个代理负责扫描端口，另一个分析漏洞链，这种“分工协作”模式比单一工具更接近人类专家团队的思维逻辑；最后，项目**深度集成大语言模型（LLM）**，不仅能解析自然语言报告，还能动态生成攻击策略，使得系统能适应零日漏洞等非标准化场景。      **技术原理**上，该项目采用了类似“军事指挥层级”的架构：顶层的**Orchestrator**（协调器）如同指挥官，将任务拆解为侦察、漏洞利用等子目标；中层的**Agent Pool**（代理池）则像特种部队，每个代理专精于某一技术领域（如SQL注入或权限提升）；底层的**Tool Integrator**（工具集成层）则提供“武器库”，无缝调用Nmap、Metasploit等开源工具。这种分层设计通过LLM的决策能力动态调整攻击路径，如同人类专家根据实时反馈调整渗透策略。      该项目通过AI代理的自主性和扩展性，为渗透测试领域提供了可进化的问题解决框架，尤其适合应对云原生环境和APT攻击等新兴挑战。其技术路径揭示了AI与网络安全深度融合的未来趋势——将重复性劳动交给机器，而人类专家只需聚焦于战略决策。
 
 ## 加密_密码破解_字典
